@@ -1,33 +1,28 @@
 ---
 title: 常設チャットの構成
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.PersistentChatConfig
+  - ms.lync.lscp.PersistentChatConfig
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3f2891e6-bad3-4a23-a345-b7de4cae3bd9
 description: 常設チャット サーバーの展開では、多数の常設チャット ルームをホストできます。 チャット ルームはサーバー上で一連のカテゴリに分類できます。 チャット ルームはそれぞれ 1 つのカテゴリに属し、そのカテゴリからいくつかの設定を継承します。 このように体系化することで、会話を業務目的に基づいて識別するのに役立つ構造が作成され、管理の委任と簡素化が促進されます。
-ms.openlocfilehash: cfb047bf30e8f7ad1f9157cfd7927b262a061210
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829181"
 ---
+
 # <a name="persistent-chat-configuration"></a>常設チャットの構成
  
 常設チャット サーバーの展開では、多数の常設チャット ルームをホストできます。 チャット ルームはサーバー上で一連のカテゴリに分類できます。 チャット ルームはそれぞれ 1 つのカテゴリに属し、そのカテゴリからいくつかの設定を継承します。 このように体系化することで、会話を業務目的に基づいて識別するのに役立つ構造が作成され、管理の委任と簡素化が促進されます。
   
 > [!NOTE]
-> チャット ルームの管理機能の多くは、ユーザー用の常設チャットを実行しているコンピューターで使用できます。常設チャット管理者 **(cspersistentchatadministrator** ロール内) は、コントロール パネルまたは管理シェル コマンドレットのいずれかを使用してカテゴリを作成または管理する必要があります。
+> チャット ルームの管理機能の多くは、ユーザー用の常設チャットを実行しているコンピューターで使用できます。常設チャット管理者 ( **cspersistentchatadministrator** ロール内) は、コントロール パネルまたは管理シェル コマンドレットのいずれかを使用してカテゴリを作成または管理する必要があります。
   
 常設チャット管理者は、Skype for Business Server コントロール パネルまたは Windows PowerShell コマンドレットを使用してカテゴリを作成および管理し、組織内のユーザーのチャット ルームへのアクセスを設計します。
   
@@ -87,7 +82,7 @@ ms.locfileid: "60829181"
     
    - [**参加者の更新制限**] で、参加者の更新の制限値を選択します。 常設チャット サーバーは、接続されているユーザーの数がこの数に達するまで、すべての参加者に名簿情報 (チャット ルームに接続されているユーザー) を送信します。 既定値は 75 です。 この制限は、特定のルーム内の参加者の最大数を示し、常設チャット サーバーがルームに存在するユーザーに関する接続済みクライアントへの名簿更新プログラムの送信を停止します。
     
-   - (省略可能)。[ **ルーム管理 URL]** で、ルーム管理 URL を選択します。 これは Web をベースにした、ルームのカスタム管理用 URL です。 ルーム管理をカスタマイズする必要がなく、既定の設定を使用する場合は、このオプションを空白のままにします。 URL を設定すると、内部と外部の両方のルームの管理 URL として適用されます。
+   - (省略可能)。[ **ルーム管理 URL] で**、ルーム管理 URL を選択します。 これは Web をベースにした、ルームのカスタム管理用 URL です。 ルーム管理をカスタマイズする必要がなく、既定の設定を使用する場合は、このオプションを空白のままにします。 URL を設定すると、内部と外部の両方のルームの管理 URL として適用されます。
     
      ルーム作成エクスペリエンスをカスタマイズし、特定のビジネス ワークフローを含める場合は、常設チャット サーバー ソフトウェア開発キット (SDK) を使用してカスタムルーム管理ソリューションを構築し、どこかにホストし、URL をここに置きます。 ユーザーがチャット ルームを表示または作成するときにカスタム チャット ルーム管理ソリューションを使用するよう、この URL がクライアントに伝えられます。
     
@@ -97,7 +92,7 @@ ms.locfileid: "60829181"
 
 1. CsPersistentChatAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
     
-2. [スタート **] メニュー** から、[コントロール パネル] Skype for Business Serverを選択するか、ブラウザー ウィンドウを開き、[管理 URL] を入力します。
+2. [スタート **] メニュー** の [コントロール パネル] Skype for Business Server選択するか、ブラウザー ウィンドウを開き、[管理 URL] を入力します。
     
 3. 左側のナビゲーション バーで [**常設チャット**] をクリックし、[**常設チャットの構成**] をクリックします。
     
@@ -118,7 +113,7 @@ ms.locfileid: "60829181"
     
    - [**参加者の更新制限**] で、参加者の更新の制限値を選択します。 常設チャット サーバーは、接続されているユーザーの数がこの数に達するまで、すべての参加者に名簿情報 (チャット ルームに接続されているユーザー) を送信します。 既定値は 75 です。 この制限は、特定のルーム内の参加者の最大数を示し、常設チャット サーバーがルームに存在するユーザーに関する接続済みクライアントへの名簿更新プログラムの送信を停止します。
     
-   - (省略可能)[ **ルーム管理 URL]** で、ルーム管理 URL を選択します。 これは Web ベースのチャット ルーム管理用の URL です。 ルーム管理をカスタマイズする必要がなく、既定の設定を使用する場合は、このオプションを空白のままにします。
+   - (省略可能)[ **ルーム管理 URL] で**、ルーム管理 URL を選択します。 これは Web ベースのチャット ルーム管理用の URL です。 ルーム管理をカスタマイズする必要がなく、既定の設定を使用する場合は、このオプションを空白のままにします。
     
      ルーム作成エクスペリエンスをカスタマイズし、特定のビジネス ワークフローを含める場合は、常設チャット サーバー ソフトウェア開発キット (SDK) を使用してカスタムルーム管理ソリューションを構築し、どこかにホストし、URL をここに置きます。 この URL はクライアントに送信され、ユーザーがルームを表示/作成しようとすると、ユーザーはカスタムルーム管理ソリューションにリダイレクトされます。
     
@@ -126,6 +121,6 @@ ms.locfileid: "60829181"
     
 ## <a name="see-also"></a>関連項目
 
-常設チャット サーバーの機能の詳細については、「Plan for Persistent Chat [Server in Skype for Business Server 2015」、](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)および[「Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)での常設チャット サーバーの展開」、および「Skype for Business Server での常設チャット サーバーの管理」を[参照してください。2015](../../manage/persistent-chat/persistent-chat.md).
+常設チャット サーバーの機能の詳細については、「[Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)」、「Deploy Persistent Chat [Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)」、および「Manage Persistent Chat Server in」を参照してください。[Skype for Business Server 2015](../../manage/persistent-chat/persistent-chat.md).
   
 

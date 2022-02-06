@@ -1,24 +1,19 @@
 ---
 title: 会議を管理Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 825e051c-83a5-420d-a5ef-f77afa368e2e
 description: '概要: 会議を管理する方法について説明します。Skype for Business Server。'
-ms.openlocfilehash: 122b7d797983df9bb3ef6252234099869650a66e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845460"
 ---
+
 # <a name="manage-conferencing-in-skype-for-business-server"></a>会議を管理Skype for Business Server
  
 **概要:** 会議を管理する方法については、Skype for Business Server。
@@ -49,9 +44,9 @@ ms.locfileid: "60845460"
   
 - 会議ポリシー設定を管理するには、次の方法を使用します。
     
-  - [コントロール パネル] で、[会議 **] を選択|会議ポリシー**.
+  - [コントロール パネル] で、[会議 **] を選択|会議ポリシー**。
     
-  - PowerShell で **、-CsConferencingPolicy コマンドレットを検索** します。
+  - PowerShell で、 **-CsConferencingPolicy コマンドレットを検索** します。
     
 - 会議の構成設定を管理するには、次の方法を実行します。
     
@@ -69,17 +64,17 @@ ms.locfileid: "60845460"
     
   - [コントロール パネル] で、[会議 **] を選択|音声ルーティング**。
     
-  - [Skype for Business Serverシェル] で **、-CsDialPlan コマンドレット** と **-CsVoice** コマンドレットを検索します。
+  - [Skype for Business Serverシェル] で **、-CsDialPlan コマンドレット** と **-CsVoice コマンドレットを** 検索します。
     
 - PIN ポリシー設定を管理するには、次の方法を使用します。
     
   - [コントロール パネル] で、[会議 **] を選択|PIN ポリシー**。
     
-  - [Skype for Business Serverシェル] で **、-CsPinPolicy コマンドレットを** 検索します。
+  - [Skype for Business Serverシェル] で、**-CsPinPolicy コマンドレットを** 検索します。
     
 - 会議の構成設定を管理するには、管理シェルを使用Skype for Business Server必要があります。 **-CsConferencingConfiguration コマンドレットを** 検索します。
     
-## <a name="skype-for-business-server-management-shell-cmdlets"></a>Skype for Business Server管理シェルのコマンドレット
+## <a name="skype-for-business-server-management-shell-cmdlets"></a>Skype for Business Server管理シェルコマンドレット
 
 次の管理シェル コマンドレットをSkype for Business Server会議を管理できます。 
   
@@ -170,6 +165,6 @@ ms.locfileid: "60845460"
 |[Test-CsDataConference](/powershell/module/skype/test-csdataconference?view=skype-ps) <br/> |2 人のユーザーが Skype for Business Server Web 会議に参加できるかどうかを確認します。これには、PowerPoint スライド、ホワイトボード、またはポーリングの共有や表示などのアクティビティが含まれます。 また、このコマンドレットは、Skype for Business Server Web 会議サービスが Office Web Apps Server を検出し、クライアントが Office Web Apps Server によってブロードキャスト用の PowerPoint ファイルをアップロードできるOfficeします。  <br/> |
 |[Test-CsDialInConferencing](/powershell/module/skype/test-csdialinconferencing?view=skype-ps) <br/> |ユーザーがダイヤルイン会議セッションに参加できるのか確認します。  <br/> |
 |[Test-CsDialPlan](/powershell/module/skype/test-csdialplan?view=skype-ps) <br/> |電話番号をダイヤル プラン (以前は場所プロファイルと呼ばれる) に対してテストし、正規化ルールが適用された後に、その番号と翻訳された番号に適用される正規化ルールを返します。  <br/> |
-|[Test-CsMcxConference](/powershell/module/skype/test-csmcxconference?view=skype-ps) <br/> |3 人のユーザーがモビリティ サービス会議に参加Skype for Business Serverテストします。 Mobility Service を使用すると、iPhone や Windows 電話などの携帯電話のユーザーは、インスタント メッセージやプレゼンス情報の交換などの操作を実行できます。ワイヤレス プロバイダーではなく、内部的にボイス メールを保存および取得する。を使用して、Skype for Business Server通話やダイヤルアウト会議などの機能を利用できます。  <br/> **注:** MCX を使用するクライアントは、2019 年Skype for Business Serverサポートされていません。|
+|[Test-CsMcxConference](/powershell/module/skype/test-csmcxconference?view=skype-ps) <br/> |3 人のユーザーがモビリティ サービス会議に参加Skype for Business Serverテストします。 モビリティ サービスを使用すると、iPhone や Windows Phone などの携帯電話のユーザーは、インスタント メッセージやプレゼンス情報の交換、ワイヤレス プロバイダーではなく内部でボイス メールの保存と取得、および仕事による通話やダイヤルアウト会議などの Skype for Business Server 機能を利用できます。  <br/> **注:** MCX を使用するクライアントは、2019 年Skype for Business Serverサポートされていません。|
 |[Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference?view=skype-ps) <br/> |2 人のユーザーがユニファイド コミュニケーション Web API (UCWA) を使用してオンライン会議をスケジュール、参加、実行する機能をテストします。  <br/> |
 |[Debug-CsDataConference](/powershell/module/skype/debug-csdataconference?view=skype-ps) <br/> |データ会議に含まれるデータ会議機能の診断情報をSkype for Business Server。  <br/> |

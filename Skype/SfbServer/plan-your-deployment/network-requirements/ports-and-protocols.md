@@ -1,41 +1,36 @@
 ---
 title: サーバーのポートとプロトコルの要件
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: '概要: ポートを実装する前に、ポートの使用状況に関する考慮事項をSkype for Business Server。'
-ms.openlocfilehash: c820070fb73dd1f3325b0141a3fa05b3f19bd683
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834073"
 ---
+
 # <a name="port-and-protocol-requirements-for-servers"></a>サーバーのポートとプロトコルの要件
  
 **概要:** ポートを実装する前に、ポートの使用状況に関する考慮事項をSkype for Business Server。
   
 Skype for Business Server、外部ファイアウォールと内部ファイアウォールの特定のポートが開いている必要があります。 さらに、組織でインターネット プロトコル セキュリティ (IPsec) が展開されている場合は、音声、ビデオ、およびパノラマ ビデオの配信に使用するポートの範囲に対して IPsec を無効にする必要があります。 
   
-これは少し困難に思える場合があります。これを計画する場合は、2015 年の計画ツールを使用Skype for Business Serverできます。 使用する予定の機能に関するウィザードの質問を確認したら、定義するサイトごとに、エッジ管理レポート内のファイアウォール レポートを表示し、そこに記載されている情報を使用してファイアウォール ルールを作成できます。 使用される名前と IP アドレスの多くを調整することもできます。詳細については [、「Review the Firewall Report」を参照してください](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report)。 エッジ管理レポートを別のスプレッドシートにエクスポートExcel、ファイアウォール レポートはファイル内のワークシートの 1 つになる場合に備えておきます。 
+これは少し困難に思える場合があります。これを計画する場合は、2015 年の計画ツールを使用Skype for Business Serverできます。 使用する予定の機能に関するウィザードの質問を確認したら、定義するサイトごとに、エッジ管理レポート内のファイアウォール レポートを表示し、そこに記載されている情報を使用してファイアウォール ルールを作成できます。 使用する名前と IP アドレスの多くを調整することもできます。詳細については、「 [Review the Firewall Report」を参照してください](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report)。 エッジ管理レポートを別のスプレッドシートにエクスポートExcel、ファイアウォール レポートはファイル内のワークシートの 1 つになる場合に備えておきます。 
   
-これらの表の情報は[、2015 年 2015](../../technical-diagrams.md)年の技術図の「プロトコル ワークロード」のポスターを参照して、Skype for Business Serverします。
+これらの表の情報は、[2015 年 2015](../../technical-diagrams.md) 年の技術図の「プロトコル ワークロード」のポスターを参照Skype for Business Serverします。
 
 > [!NOTE]
-> - Skype for Business Online (Microsoft 365 または Office 365) を実装する場合は、「Microsoft 365 URL と IP アドレスOffice 365[を参照してください](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)。 ハイブリッド環境では、このトピックを参照し、ハイブリッド接続を [計画する必要があります](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2floc.json&toc=%2fSkypeForBusiness%2ftoc.json)。
+> - オンライン (Skype for Business または Office 365 Microsoft 365) を実装する場合は、「Microsoft 365 URL と IP Office 365の範囲」を[参照してください](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)。 ハイブリッド環境では、このトピックを参照し、ハイブリッド接続 [を計画する必要があります](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2floc.json&toc=%2fSkypeForBusiness%2ftoc.json)。
 > - ハードウェアファイアウォールまたはソフトウェア ファイアウォールを使用できます。 特定のモデルやバージョンは不要です。 重要なのは、ファイアウォールが許可リストの機能を損なわないポートを許可リストに追加Skype for Business Server。
   
 ## <a name="port-and-protocol-details"></a>ポートとプロトコルの詳細
@@ -45,27 +40,27 @@ Skype for Business Server、外部ファイアウォールと内部ファイア�
 > [!NOTE]
 > 起動Skype for Business Server、ファイアウォールで必要なポートを開Windowsします。 Windowsファイアウォールは、ほとんどの通常のアプリケーションで既に実行されている必要がありますが、使用されていない場合は、Skype for Business Server機能しません。 
   
-エッジ コンポーネントのファイアウォール構成の詳細については、「Edge Server シナリオ in [Skype for Business Server 2015」を参照](../../plan-your-deployment/edge-server-deployments/scenarios.md)してください。 
+エッジ コンポーネントのファイアウォール構成の詳細については、「[Edge Server シナリオ in Skype for Business Server 2015」を参照](../../plan-your-deployment/edge-server-deployments/scenarios.md)してください。 
   
 次の表に、各内部サーバー役割で開く必要のあるポートの一覧を示します。 
   
 **必要なサーバー ポート (サーバー役割別)**
 
-|サーバーの役割|サービス名|ポート|プロトコル|メモ|
+|サーバーの役割|サービス名|ポート|プロトコル|備考|
 |:-----|:-----|:-----|:-----|:-----|
-|すべてのサーバー  |SQL ブラウザー  |1434  |UDP  |SQL中央管理ストア データベースのローカルレプリケート コピーのブラウザー。  |
+|すべてのサーバー  |SQL ブラウザー  |1434  |UDP  |SQLサーバーの全体管理ストア データベースのローカルレプリケート コピーのブラウザーを選択します。  |
 |Front-End サーバー  |Skype for Business Server Front-End サービス  |5060  |TCP  |リモート通話コントロール サーバーなどの Standard Edition サーバーとフロント エンド サーバーで、信頼されたサービスへの静的ルートの場合にオプションとして使用。  |
 |フロント エンド サーバー  |Skype for Business Server Front-End サービス  |5061  | TCP (TLS) |サーバー間のすべての内部 SIP 通信 (MTLS)、サーバーとクライアントの間の SIP 通信 (TLS)、およびフロント エンド サーバーと仲介サーバーの間の SIP 通信 (MTLS) において、Standard Edition サーバーとフロント エンド プールで使用。 監視サーバーとの通信にも使用されます。  |
 | フロント エンド サーバー |Skype for Business Server Front-End サービス  |444  | HTTPS <br/> TCP  |フォーカス (会議の状態を管理するSkype for Business Serverコンポーネント) と個々のサーバーとの間の HTTPS 通信に使用されます。  <br/> このポートは、存続可能ブランチ アプライアンスとフロントエンド サーバー間の TCP 通信にも使用されます。  |
 |フロント エンド サーバー  |Skype for Business Server Front-End サービス  |135  |DCOM およびリモート プロシージャ コール (RPC)  |ユーザーの移行、ユーザー レプリケーター同期、およびアドレス帳同期などの DCOM ベースの操作で使用。  |
-|フロント エンド サーバー  |Skype for Business ServerIM 会議サービス  |5062  |TCP  |インスタント メッセージング (IM) 会議の SIP 要求を受信するために使用。  |
-|フロント エンド サーバー  |Skype for Business ServerWeb 会議サービス  |8057  |TCP (TLS)  |クライアントからの PSOM (永続共有オブジェクト モデル) 接続をリッスンするために使用。  |
-|フロント エンド サーバー  |Skype for Business ServerWeb 会議の互換性サービス  |8058  |TCP (TLS)  |Live Meeting クライアントからの永続的な共有オブジェクト モデル (PSOM) 接続と、以前のバージョンのセッションをリッスンSkype for Business Server。  |
-|フロント エンド サーバー  |Skype for Business Server電話/ビデオ会議サービス  |5063  |TCP  |音声ビデオ会議の SIP 要求を受信するために使用。  |
-|フロント エンド サーバー  |Skype for Business Server電話/ビデオ会議サービス  |57501-65535  |TCP/UDP  |ビデオ会議で使用するメディア ポート範囲。  |
-|フロント エンド サーバー  |Skype for Business ServerWeb 互換サービス  |80  |HTTP  |HTTPS が使用されない場合の、フロント エンド サーバーから Web ファーム FQDN (IIS Web コンポーネントで使用される URL) への通信に使用。  |
-|フロント エンド サーバー  |Skype for Business ServerWeb 互換サービス  |443  |HTTPS  |フロント エンド サーバーから Web ファーム FQDN (IIS Web コンポーネントで使用される URL) への通信に使用。  |
-|フロント エンド サーバー  |Skype for Business ServerWeb 互換サービス  |8080  |TCP と HTTP  |外部アクセス用の Web コンポーネントで使用されます。  |
+|フロント エンド サーバー  |Skype for Business Server IM 会議サービス  |5062  |TCP  |インスタント メッセージング (IM) 会議の SIP 要求を受信するために使用。  |
+|フロント エンド サーバー  |Skype for Business Server Web 会議サービス  |8057  |TCP (TLS)  |クライアントからの PSOM (永続共有オブジェクト モデル) 接続をリッスンするために使用。  |
+|フロント エンド サーバー  |Skype for Business Server Web 会議の互換性サービス  |8058  |TCP (TLS)  |Live Meeting クライアントからの永続的な共有オブジェクト モデル (PSOM) 接続と、以前のバージョンのセッションをリッスンSkype for Business Server。  |
+|フロント エンド サーバー  |Skype for Business Server/ビデオ会議サービス  |5063  |TCP  |音声ビデオ会議の SIP 要求を受信するために使用。  |
+|フロント エンド サーバー  |Skype for Business Server/ビデオ会議サービス  |57501-65535  |TCP/UDP  |ビデオ会議で使用するメディア ポート範囲。  |
+|フロント エンド サーバー  |Skype for Business Server Web 互換サービス  |80  |HTTP  |HTTPS が使用されない場合の、フロント エンド サーバーから Web ファーム FQDN (IIS Web コンポーネントで使用される URL) への通信に使用。  |
+|フロント エンド サーバー  |Skype for Business Server Web 互換サービス  |443  |HTTPS  |フロント エンド サーバーから Web ファーム FQDN (IIS Web コンポーネントで使用される URL) への通信に使用。  |
+|フロント エンド サーバー  |Skype for Business Server Web 互換サービス  |8080  |TCP と HTTP  |外部アクセス用の Web コンポーネントで使用されます。  |
 |フロント エンド サーバー  |Web サーバー コンポーネント  |4443  |HTTPS  |自動検出サインイン用の HTTPS (リバース プロキシから) と HTTPS フロントエンドのプール間通信。  |
 |フロント エンド サーバー  |Web サーバー コンポーネント  |8060  |TCP (MTLS)  ||
 |フロント エンド サーバー  |Web サーバー コンポーネント  |8061  |TCP (MTLS)  ||
@@ -82,22 +77,22 @@ Skype for Business Server、外部ファイアウォールと内部ファイア�
 |フロント エンド サーバー  |Skype for Business Serverアプリケーション共有サービス  |5065  |TCP  |アプリケーション共有の SIP リッスン要求を受信するために使用。  |
 |フロント エンド サーバー  |Skype for Business Serverアプリケーション共有サービス  |49152-65535  |TCP  |アプリケーション共有で使用するメディア ポート範囲。  |
 |フロント エンド サーバー  |Skype for Business Server 会議アナウンス サービス  |5073  |TCP  |(つまり、ダイヤルイン会議用) Skype for Business Server 会議アナウンスサービスの受信 SIP 要求に使用されます。  |
-|フロント エンド サーバー  |Skype for Business Serverコール パーク サービス  |5075  |TCP  |コール パーク アプリケーションの SIP 要求を受信するために使用。  |
-|フロント エンド サーバー  |Skype for Business Serverオーディオ テスト サービス  |5076  |TCP  |オーディオ テスト サービスの SIP 要求を受信するために使用。  |
+|フロント エンド サーバー  |Skype for Business Server コール パーク サービス  |5075  |TCP  |コール パーク アプリケーションの SIP 要求を受信するために使用。  |
+|フロント エンド サーバー  |Skype for Business Server オーディオ テスト サービス  |5076  |TCP  |オーディオ テスト サービスの SIP 要求を受信するために使用。  |
 |フロント エンド サーバー  |該当なし  |5066  |TCP  |発信 Enhanced 9-1-1 (E9-1-1) ゲートウェイで使用。  |
 |フロント エンド サーバー  |Skype for Business Server応答グループ サービス  |5071  |TCP  |応答グループ アプリケーションの SIP 要求を受信するために使用。  |
 |フロント エンド サーバー  |Skype for Business Server応答グループ サービス  |8404  |TCP (MTLS)  |応答グループ アプリケーションの SIP 要求を受信するために使用。  |
 |フロント エンド サーバー  |Skype for Business Server帯域幅ポリシー サービス  |5080  |TCP  |音声ビデオ エッジ TURN トラフィックの帯域幅ポリシー サービスによる通話受付管理で使用。  |
-|フロント エンド サーバー  |Skype for Business Serverファイル共有サーバーへのアクセス  |445   |SMB/TCP  | ファイル共有サーバーに保存されているアドレス帳、会議コンテンツ、その他のアイテムを取得するために使用します。  |
+|フロント エンド サーバー  |Skype for Business Serverファイル共有サーバー へのアクセス  |445   |SMB/TCP  | ファイル共有サーバーに保存されているアドレス帳、会議コンテンツ、その他のアイテムを取得するために使用します。  |
 |フロント エンド サーバー  |Skype for Business Server帯域幅ポリシー サービス  |448  |TCP  |帯域幅ポリシー サービスによる通話受付Skype for Business Serverに使用されます。  |
-|中央管理ストアが存在するフロントエンド サーバー  | Skype for Business Serverマスター レプリケーター エージェント サービス |445  |TCP  |サーバーの全体管理ストアからサーバーを実行しているサーバーに構成データをプッシュSkype for Business Server。  |
-|すべてのサーバー  |SQL ブラウザー  |1434  |UDP  |SQLサーバーの全体管理ストア データのローカル レプリケート コピー用のブラウザー (ローカル SQL Server インスタンス内)  |
-|すべての内部サーバー  |各種  |49152-57500  |TCP/UDP  |すべての内部サーバーでのオーディオ会議で使用するメディア ポート範囲。 オーディオを終了するすべてのサーバーで使用されます。フロントエンド サーバー (Skype for Business Server 会議アテンダント サービス、Skype for Business Server 会議アナウンス、およびSkype for Business Server電話/ビデオ会議サービス)、仲介サーバー。  |
-|OfficeWeb Apps サーバー  ||443  ||Web Apps サーバー Skype for Business Server接続するためにOffice使用されます。  |
+|中央管理ストアが存在するフロントエンド サーバー  | Skype for Business Server マスター レプリケーター エージェント サービス |445  |TCP  |サーバーの全体管理ストアからサーバーを実行しているサーバーに構成データをプッシュSkype for Business Server。  |
+|すべてのサーバー  |SQL ブラウザー  |1434  |UDP  |SQL サーバーの全体管理ストア データのローカル レプリケート コピー用のブラウザー (ローカル SQL Server インスタンス)  |
+|すべての内部サーバー  |各種  |49152-57500  |TCP/UDP  |すべての内部サーバーでのオーディオ会議で使用するメディア ポート範囲。 オーディオを終了するすべてのサーバーで使用されます。フロントエンド サーバー (Skype for Business Server 会議アテンダント サービス、Skype for Business Server 会議アナウンス、およびSkype for Business Server 電話/ビデオ会議サービス)、仲介サーバー。  |
+|Office Web Apps サーバー  ||443  ||Web Apps サーバー Skype for Business Server接続するためにOffice使用されます。  |
 |ディレクター  |Skype for Business Server Front-End サービス  |5060  |TCP  |リモート通話コントロール サーバーなど、信頼されたサービスへの静的ルートの場合にオプションで使用。  |
 |ディレクター  |Skype for Business Server Front-End サービス  |444  |HTTPS  <br/> TCP  |フロントエンドとディレクターの間のサーバー間通信。 さらに、クライアント証明書は (フロントエンド サーバーに) 発行するか、クライアント証明書が既に発行済みである場合は検証します。  |
-|ディレクター  |Skype for Business ServerWeb 互換サービス  |80  |TCP  |ディレクターから Web ファーム FQDN (IIS Web コンポーネントで使用される URL) への初期通信に使用。通常の動作では HTTPS トラフィックに切り替わり、ポート 443 およびプロトコル TCP を使用します。  |
-|ディレクター  |Skype for Business ServerWeb 互換サービス  |443  |HTTPS  |ディレクターから Web ファーム FQDN (IIS Web コンポーネントで使用される URL) への通信に使用。  |
+|ディレクター  |Skype for Business Server Web 互換サービス  |80  |TCP  |ディレクターから Web ファーム FQDN (IIS Web コンポーネントで使用される URL) への初期通信に使用。通常の動作では HTTPS トラフィックに切り替わり、ポート 443 およびプロトコル TCP を使用します。  |
+|ディレクター  |Skype for Business Server Web 互換サービス  |443  |HTTPS  |ディレクターから Web ファーム FQDN (IIS Web コンポーネントで使用される URL) への通信に使用。  |
 |ディレクター  |Skype for Business Server Front-End サービス  |5061  |TCP  |サーバー間の内部通信とクライアント接続に使用。  |
 |仲介サーバー  |Skype for Business Server仲介サービス  |5070  |TCP  |フロント エンド サーバーからの要求を受信するために仲介サーバーで使用。  |
 |仲介サーバー  |Skype for Business Server仲介サービス  |5067  |TCP (TLS)  |PSTN ゲートウェイからの SIP 要求を受信するために使用。  |
@@ -152,7 +147,7 @@ DNS 負荷分散を使用するフロント エンド プールとディレク�
 
 **必要なクライアント ポート**
 
-|コンポーネント|ポート|プロトコル|メモ|
+|コンポーネント|ポート|プロトコル|備考|
 |:-----|:-----|:-----|:-----|
 |クライアント  |67/68  |DHCP  |レジストラー FQDN をSkype for Business Serverするために使用されます (つまり、DNS SRV が失敗し、手動設定が構成されていない場合)。  |
 |クライアント  |443  |TCP (TLS)  |外部ユーザー アクセスのクライアントとサーバー間の SIP トラフィックで使用。  |

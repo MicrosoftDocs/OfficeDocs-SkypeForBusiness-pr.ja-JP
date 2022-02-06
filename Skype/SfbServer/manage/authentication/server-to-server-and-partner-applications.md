@@ -1,30 +1,25 @@
 ---
 title: サーバー間認証 (OAuth) とパートナー アプリケーションを管理Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 38848373-c8c6-4097-bf7f-699fe471348d
 description: '概要: OAuth アプリケーションとパートナー アプリケーションを管理するには、Skype for Business Server。'
-ms.openlocfilehash: 5a5141af7473f1d49e1c19e2a454e1e46d9f65d5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856694"
 ---
+
 # <a name="manage-server-to-server-authentication-oauth-and-partner-applications-in-skype-for-business-server"></a>サーバー間認証 (OAuth) とパートナー アプリケーションを管理Skype for Business Server
  
 **概要:** OAuth とパートナー アプリケーションを管理するには、Skype for Business Server。
   
-Skype for Business Serverアプリケーションやサーバー製品と安全かつシームレスに通信できる必要があります。 たとえば、連絡先データやアーカイブ データSkype for Business Server 2013 年に格納されるデータを構成Microsoft Exchange Serverできます。ただし、この方法を実行できるのは、Skype for Business ServerとExchange間で安全に通信できる場合のみです。 同様に、Web Apps サーバー内Skype for Business Server会議をOfficeすることもできます。繰り返しになりますが、これは 2 台のサーバー (SharePointと Skype for Business Server) が信頼している場合にのみ実行できます。 Skype for Business Server と Exchange 間の通信には 1 つの認証メカニズムを使用できますが、Skype for Business Server と SharePoint の通信には別のメカニズムを使用できますが、より効率的な方法は、すべてのユーザーに対して標準化された方法を使用することです。サーバー間の認証と承認を行います。
+Skype for Business Serverアプリケーションやサーバー製品と安全かつシームレスに通信できる必要があります。 たとえば、連絡先データやアーカイブ データが Microsoft Exchange Server 2013 に格納されるSkype for Business Server を構成できます。ただし、この処理は、Skype for Business Server および Exchange 間で安全に通信できます。 同様に、Office Web Apps Server 内から Skype for Business Server 会議をスケジュールすることもできます。この場合も、2 つのサーバー (SharePoint と Skype for Business Server) が信頼している場合にのみ実行できます。 Skype for Business Server と Exchange 間の通信には 1 つの認証メカニズムを使用できますが、Skype for Business ServerとSharePoint 通信を行う場合は、サーバー間のすべての認証と承認に標準化された方法を使用する方が、より効率的な方法です。
   
 サーバー間認証に 1 つの標準化された方法を使用する方法は、サーバー間認証で行Skype for Business Server。 Office Server 2013 リリースから開始し、Skype for Business Server (Exchange Server および SharePoint Server を含む他の Microsoft Server 製品) は、サーバー間認証と承認のための OAuth (Open Authorization) プロトコルをサポートしました。 OAuth を使用すると、多数の主要な Web サイトで使用される標準的な承認プロトコル、ユーザー資格情報、およびパスワードは、あるコンピューターから別のコンピューターに渡されません。 代わりに、認証と承認はセキュリティ トークンの交換に基づいて行います。これらのトークンは、特定の時間の特定のリソース セットへのアクセスを許可します。
   
@@ -37,15 +32,15 @@ Skype for Business Serverは、3 つのサーバー間認証シナリオをサ�
   
 - Skype for Business Server のオンプレミス インストールと、Exchange または SharePoint Server のオンプレミス インストールとの間でサーバー間認証を構成します。
     
-- Microsoft 365 または Office 365 コンポーネントのペア間 (Microsoft Exchange Server と Skype for Business Server の間、Skype for Business Server と SharePoint の間など) の間でサーバー間認証を構成します。
+- Microsoft 365 または Office 365 コンポーネントのペア間 (Microsoft Exchange Server と Skype for Business Server の間など) の間でサーバー間認証を構成するSkype for Business ServerとSharePoint)。
     
 - サーバー間認証をクロスオンプレミス環境で構成します (つまり、オンプレミス サーバーと Microsoft 365 または Office 365 コンポーネント間のサーバー間認証)。
     
-現時点では、Exchange 2013、SharePoint Server、Lync Server 2013、Skype for Business Server 2015、および Skype for Business 2019 だけがサーバー間認証をサポートします。これらのサーバーのいずれかを実行していない場合は、OAuth 認証を完全に実装できません。
+現時点では、Exchange 2013、SharePoint Server、Lync Server 2013、Skype for Business Server 2015、および Skype for Business 2019 はサーバー間認証をサポートします。これらのサーバーのいずれかを実行していない場合は、OAuth 認証を完全に実装できません。
   
 また、サーバー間認証は省略可能です。Skype for Business Server が他のサーバー (Exchange など) と通信する必要がない場合は、サーバー間認証を完全にスキップできます。 Lync Server 2013 および他のアプリケーション用にサーバー間認証が既に構成されている場合は、サーバー間認証を実行する必要Skype for Business Server。 
   
-ただし、"統合連絡先ストア" など、Skype for Business Server の一部の機能を使用する場合は、サーバー間認証が必要です。 統合連絡先ストアでは、Skype for Business Serverの代わりに、連絡先Exchangeに格納Skype for Business Server。これにより、ユーザーは Web Access 内、Skype for Business、Outlook、または web Access からOutlookできる連絡先のセットを 1 つ持つ必要があります。 統合連絡先ストアでは Skype for Business Server とExchange情報を共有する必要があります。この機能を展開するには、サーバー間認証を使用する必要があります。 Exchange アーカイブを使用する場合は、サーバー間認証も必要です。この場合、インスタント メッセージング セッションのトランスクリプトは、個々のデータベース レコードとしてではなく Exchange メールとして保存されます。
+ただし、"統合連絡先ストア" など、Skype for Business Server の一部の機能を使用する場合は、サーバー間認証が必要です。 統合連絡先ストアを使用すると、Skype for Business Server 連絡先情報は Skype for Business Server ではなく Exchange に格納されます。これにより、ユーザーは Skype for Business 内から簡単にアクセスできる 1 つの連絡先セットを持Skype for BusinessOutlook、または web Access Outlookを使用します。 統合連絡先ストアでは Skype for Business Server とExchange情報を共有する必要があります。この機能を展開するには、サーバー間認証を使用する必要があります。 Exchange アーカイブを使用する場合は、サーバー間認証も必要です。この場合、インスタント メッセージング セッションのトランスクリプトは、個々のデータベース レコードとしてではなく Exchange メールとして保存されます。
   
 Microsoft 365または Office 365 バージョンの Skype for Business Serverと通信するにはExchange、Skype for Business Server 最初に認証サーバーからセキュリティ トークンを取得する必要があります。 Skype for Business Server、そのセキュリティ トークンを使用して、セキュリティ トークンを識別Exchange。 このMicrosoft 365またはOffice 365と通信するにはExchange同じプロセスを実行する必要Skype for Business Server。
   

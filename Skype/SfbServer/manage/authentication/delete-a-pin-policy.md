@@ -1,25 +1,20 @@
 ---
 title: '[PIN ポリシーを削除する] Skype for Business Server'
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7c378927-2e41-418e-9721-327021bd2e45
 description: '概要: ユーザーのダイヤルイン会議用の PIN を削除Skype for Business Server。'
-ms.openlocfilehash: 61bd6aabf823ab73f26832b1494bf625d3ea641c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847430"
 ---
+
 # <a name="delete-a-pin-policy-in-skype-for-business-server"></a>[PIN ポリシーを削除する] Skype for Business Server
  
 **概要:** ユーザーのダイヤルイン会議 PIN を削除して、Skype for Business Server。
@@ -45,7 +40,7 @@ ms.locfileid: "60847430"
     
 ## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>コマンドレットを使用した PIN ポリシー Windows PowerShell削除する
 
-PIN ポリシーを削除するには、pin ポリシーと Windows PowerShellコマンドレットをRemove-CsPinPolicyします。 このコマンドレットは、管理者管理シェルSkype for Business Serverリモート セッションから実行Windows PowerShell。 リモート サーバーを使用してサーバー Windows PowerShellする方法[Skype for Business Server、Microsoft Lync リモート PowerShell 管理を参照してください](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 このプロセスは、同じSkype for Business Server。
+PIN ポリシーを削除するには、pin ポリシーと Windows PowerShellコマンドレットをRemove-CsPinPolicyします。 このコマンドレットは、管理者管理シェルSkype for Business Serverリモート セッションから実行Windows PowerShell。 リモート サーバーを使用してリモート Windows PowerShell接続する方法Skype for Business Server [Microsoft Lync リモート PowerShell 管理」を参照してください](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 このプロセスは、同じSkype for Business Server。
   
 ### <a name="to-remove-a-specific-pin-policy"></a>特定の PIN ポリシーを削除するには
 
@@ -71,4 +66,4 @@ PIN ポリシーを削除するには、pin ポリシーと Windows PowerShell�
   et-CsPinPolicy | Where-Object {$_.AllowCommonPatterns -eq $True} | Remove-CsPinPolicy
   ```
 
-詳細については [、Remove-CsPinPolicy コマンドレットのヘルプ トピックを参照](/powershell/module/skype/remove-cspinpolicy?view=skype-ps) してください。
+詳細については、 [Remove-CsPinPolicy コマンドレットのヘルプ トピックを参照](/powershell/module/skype/remove-cspinpolicy?view=skype-ps) してください。

@@ -1,25 +1,20 @@
 ---
 title: 管理Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 603ccdfd-9985-41d8-a526-8570ba9b1b76
 description: '概要: これらのリンクを参照して、管理と管理を行う方法Skype for Business Server。'
-ms.openlocfilehash: 899d0b3b36c3ce7950f2a87bf7e3bc8027a35a08
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841189"
 ---
+
 # <a name="manage-skype-for-business-server"></a>管理Skype for Business Server 
 
 **概要:** これらのリンクを参照して、管理および管理する方法についてSkype for Business Server。

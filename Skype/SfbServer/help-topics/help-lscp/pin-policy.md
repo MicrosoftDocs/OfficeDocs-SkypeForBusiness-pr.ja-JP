@@ -1,27 +1,22 @@
 ---
 title: PIN ポリシー
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.SecPinPolicyMain
+  - ms.lync.lscp.SecPinPolicyMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 16e5b03c-c313-4792-9353-65f33b5e775a
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 18bac1a4f2743b5b30c2291ccd5a0cbf745aec6e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830401"
 ---
+
 # <a name="pin-policy"></a>PIN ポリシー
 
 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
@@ -40,4 +35,4 @@ ms.locfileid: "60830401"
 
 - [サイトまたはユーザーのグループのダイヤルイン会議の PIN 設定を削除する](/previous-versions/office/lync-server-2013/lync-server-2013-delete-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users)
 
-コントロール パネルを使用して実行できるさまざまな手順の詳細については、「Skype for Business Server [2015」](../../manage/manage.md)を参照Skype for Business Serverしてください。
+コントロール パネルを使用して実行できるさまざまな手順の詳細については、「Skype for Business Server [2015](../../manage/manage.md)」を参照Skype for Business Serverしてください。

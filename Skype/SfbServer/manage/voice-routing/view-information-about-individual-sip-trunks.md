@@ -1,26 +1,21 @@
 ---
 title: Skype for Business Server - 個々の SIP トランクに関する情報を表示する
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: このSkype for Business Server、複数のトランクを 1 つの PSTN ゲートウェイに割り当てることができます。 ゲートウェイとトランクは同じではなく、管理者は Get-CsTrunk コマンドレットを使用して個々の SIP トランクに関する情報を表示する必要があります。
-ms.openlocfilehash: 98e189def7be1a5f2f913083ba4a38d21da86856
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835245"
 ---
+
 # <a name="skype-for-business-server---view-information-about-individual-sip-trunks"></a>Skype for Business Server - 個々の SIP トランクに関する情報を表示する
 
-このSkype for Business Server、複数のトランクを 1 つの PSTN ゲートウェイに割り当てることができます。つまり、ゲートウェイとトランクは同じではなく、管理者は[Get-CsTrunk](/powershell/module/skype/Get-CsTrunk)コマンドレットを使用して個々の SIP トランクに関する情報を表示する必要があります。
+Skype for Business Server では、複数のトランクを 1 つの PSTN ゲートウェイに割り当てることができます。つまり、ゲートウェイとトランクは同じではなく、管理者は [Get-CsTrunk](/powershell/module/skype/Get-CsTrunk) コマンドレットを使用して個々の SIP トランクに関する情報を表示する必要があります。
 
 このGet-CsTrunkは、管理シェルから、またはSkype for Business Serverのリモート セッションから実行Windows PowerShell。
 

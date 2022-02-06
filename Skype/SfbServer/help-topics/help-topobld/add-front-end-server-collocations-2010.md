@@ -1,27 +1,22 @@
 ---
 title: フロントエンド サーバーの併置を追加する (2010)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddFrontEndCollocationsPage2010
+  - ms.lync.tb.AddFrontEndCollocationsPage2010
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4d328bf4-85bc-4870-8d6f-008c0e46520e
 description: Enterprise Edition 展開の場合は、音声ビデオ会議サービス、仲介サーバー、またはその両方をフロント エンド プールに併置するか、またはそれぞれをスタンドアロン サーバーとして展開できます。Standard Edition サーバー展開の場合は、会議が有効であれば、常に音声ビデオ会議サービスが併置されます。
-ms.openlocfilehash: e4f7186ab036ca0d4f3cdaad02ac47b8dbb4b362
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860424"
 ---
+
 # <a name="add-front-end-server-collocations-2010"></a>フロント エンド サーバーの併置の追加 (2010)
 
 Enterprise Edition 展開の場合は、音声ビデオ会議サービス、仲介サーバー、またはその両方をフロント エンド プールに併置するか、またはそれぞれをスタンドアロン サーバーとして展開できます。Standard Edition サーバー展開の場合は、会議が有効であれば、常に音声ビデオ会議サービスが併置されます。
@@ -37,4 +32,4 @@ Standard Edition フロントエンド サーバーまたは Enterprise Edition 
 
 Microsoft Lync Server 2013 計画ツールを使用して、仲介サーバーを照合するフロントエンド プールが負荷を処理できるかどうかを評価できます。 これらの要件に適合しない環境では、スタンドアロン仲介サーバー プールを展開する必要があります。
 
-一般に、組織に高可用性とスケーラビリティの要件がある場合は、A/V 会議サーバーまたは仲介サーバーのコロケーションはお勧めしません。Enterprise Edition 展開のフロント エンド プールでこれらのサーバーの役割を照合する方法の詳細については、「展開」のドキュメントの「Define and Configure a Front End [Pool」](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server)を参照してください。 音声ビデオ会議の機能とコンポーネントの詳細については、「計画」のドキュメントの「[Planning for Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-conferencing)」を参照してください。 仲介サーバーなどのエンタープライズ VoIP機能とコンポーネントの詳細については、「計画」のドキュメントの「エンタープライズ VoIP [2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) Skype for Business Serverの計画」を参照してください。
+一般に、組織に高可用性とスケーラビリティの要件がある場合は、A/V 会議サーバーまたは仲介サーバーのコロケーションはお勧めしません。Enterprise Edition 展開のフロント エンド プールでこれらのサーバーの役割を照合する方法の詳細については、「展開」のドキュメントの「Define and [Configure a Front End Pool](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server)」を参照してください。 音声ビデオ会議の機能とコンポーネントの詳細については、「計画」のドキュメントの「[Planning for Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-conferencing)」を参照してください。 仲介サーバーなどのエンタープライズ VoIP機能とコンポーネントの詳細については、「計画」のドキュメントの「エンタープライズ VoIP [2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) Skype for Business Server計画」を参照してください。

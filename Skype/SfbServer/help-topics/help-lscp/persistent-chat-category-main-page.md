@@ -1,34 +1,29 @@
 ---
 title: 常設チャット カテゴリ メイン ページ
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.PersistentChatCategoryMain
+  - ms.lync.lscp.PersistentChatCategoryMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b71c6e6f-681c-4230-954d-3e95ab64ca00
 description: '[常設チャット] ページの [カテゴリ] セクションを使用して、カテゴリを構成できます。 常設チャット ルーム カテゴリは、チャット ルームを整理する論理的な構造です。 カテゴリは、チャット ルームの作成やチャット ルームへの参加を許可するユーザーとユーザー グループを制御するアクセス制御リスト (ACL) の既定のセットを定義します。 カテゴリを使用して、組織内の異なる部門間に倫理的境界を設置できます。'
-ms.openlocfilehash: fbbfb0185b463a6f63bb9016b77e4539a003505e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836579"
 ---
+
 # <a name="persistent-chat-category-main-page"></a>常設チャット カテゴリ メイン ページ
  
 [常設チャット] ページ **の [** カテゴリ] セクション **を使用して** 、カテゴリを構成できます。 常設チャット ルーム カテゴリは、チャット ルームを整理する論理的な構造です。 カテゴリは、チャット ルームの作成やチャット ルームへの参加を許可するユーザーとユーザー グループを制御するアクセス制御リスト (ACL) の既定のセットを定義します。 カテゴリを使用して、組織内の異なる部門間に倫理的境界を設置できます。
   
-チャット ルーム カテゴリには、チャット ルームを含めることはできますが、それ以外のカテゴリを含めることはできません。 各カテゴリは、その内容をメタデータ (Name や Description など)_で__記述します_。 さらに、このカテゴリには、チャット ルームで招待やファイルのアップロードを許可するか、チャット履歴を含むなど、それに属するチャットルームの動作を制御するために設定できるプロパティ _があります。_
+チャット ルーム カテゴリには、チャット ルームを含めることはできますが、それ以外のカテゴリを含めることはできません。 各カテゴリは、名前や説明などのメタデータを含むコンテンツ _を__記述します_。 さらに、このカテゴリには、チャット ルームで招待やファイルのアップロードを許可するか、チャット履歴を含むなど、それに属するチャット ルームの動作を制御するために設定できるプロパティ _があります。_
   
-新しいカテゴリを作成するには[、「Manage categories in Persistent Chat Server in Skype for Business Server 2015」を参照](../../manage/persistent-chat/categories.md)してください。 常設チャット管理者の場合は、コントロール パネルまたはコマンドレットを使用してWindows PowerShellできます。
+新しいカテゴリを作成するには、「[Manage categories in Persistent Chat Server in Skype for Business Server 2015」を参照](../../manage/persistent-chat/categories.md)してください。 常設チャット管理者の場合は、コントロール パネルまたはコマンドレットを使用してWindows PowerShellできます。
   
 ## <a name="tasks-that-you-can-perform"></a>実行できるタスク
 
@@ -68,16 +63,16 @@ ms.locfileid: "60836579"
     
 12. [**編集 分類**] で、次の操作を実行します。
     
-    - [**メンバーシップ**] の[許可されたメンバー] セクションで、カテゴリに属するチャット ルームのメンバーとして追加できるユーザーおよび他の Active Directory ドメイン サービス プリンシパル (ユーザー、配布グループ、組織単位など) を追加または削除します。 カテゴリで許可されているプリンシパルは、カテゴリ内のルームを検索できます (ルームが非表示の場合を指定しない限り、ディレクトリ内で検索できるのは会議室のメンバーのみです)。
+    - [**メンバーシップ**] の [許可されたメンバー] セクションで、カテゴリに属するチャット ルームのメンバーとして追加できるユーザーおよび他の Active Directory ドメイン サービス プリンシパル (ユーザー、配布グループ、組織単位など) を追加または削除します。 カテゴリで許可されているプリンシパルは、カテゴリ内のルームを検索できます (ルームが非表示の場合を指定しない限り、ディレクトリ内で検索できるのは会議室のメンバーのみです)。
     
     - [ **メンバーシップ]** の [ **拒否** されたメンバー] セクションで、ルームから拒否されているメンバーに関連付けられているユーザーや他の Active Directory プリンシパルを追加または削除します。
     
-    - [ **メンバーシップ]** の **[Creators]** セクションで、カテゴリの作成者に関連付けられているユーザーや他の Active Directory プリンシパルを追加または削除します。 作成者は、チャット ルームを作成し、チャット ルームのマネージャーとメンバーを割り当てるためのアクセス許可が与えられているユーザーです。
+    - [ **メンバーシップ]** の [ **作成者] セクション** で、カテゴリの作成者に関連付けられているユーザーや他の Active Directory プリンシパルを追加または削除します。 作成者は、チャット ルームを作成し、チャット ルームのマネージャーとメンバーを割り当てるためのアクセス許可が与えられているユーザーです。
     
 13. [**確定**] をクリックします。
     
 ## <a name="see-also"></a>関連項目
 
-常設チャット サーバーの機能の詳細については、「Plan for Persistent Chat [Server in Skype for Business Server 2015」、](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)および[「Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)での常設チャット サーバーの展開」、および「Skype for Business Server での常設チャット サーバーの管理」を[参照してください。2015](../../manage/persistent-chat/persistent-chat.md).
+常設チャット サーバーの機能の詳細については、「[Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)」、「Deploy Persistent Chat [Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)」、および「Manage Persistent Chat Server in」を参照してください。[Skype for Business Server 2015](../../manage/persistent-chat/persistent-chat.md).
   
 

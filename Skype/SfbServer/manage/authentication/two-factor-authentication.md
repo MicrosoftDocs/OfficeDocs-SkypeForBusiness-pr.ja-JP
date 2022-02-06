@@ -1,25 +1,20 @@
 ---
 title: 2 要素認証を管理Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: '概要: 2 要素認証を管理Skype for Business Server。'
-ms.openlocfilehash: af21fd551c8495a49c8617b25e4669bdd27ec0c0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847420"
 ---
+
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>2 要素認証を管理Skype for Business Server
  
 **概要:** 2 要素認証を管理するには、Skype for Business Server。
@@ -47,7 +42,7 @@ Lync Server 2013 の累積的な更新プログラム: 2013 年 7 月のデス�
    
 これらの認証の種類がサービス レベルで無効になっていない限り、展開内で 2 要素認証が有効になると、他のすべてのバージョンのクライアントは正常にサインインできません。
   
-## <a name="skype-for-business-service-discovery"></a>Skype for Businessサービスの検出
+## <a name="skype-for-business-service-discovery"></a>Skype for Business サービスの検出
 
 Skype for Business サービスを検出するために内部および/または外部クライアントが使用する DNS レコードは、2 要素認証が有効になっていない Skype for Business サーバーに解決するように構成する必要があります。 この構成では、2 要素認証が有効になっていない Skype for Business プールのユーザーは認証に PIN を入力する必要はありません。認証には 2 要素認証が有効になっている Skype for Business プールのユーザーが PIN を入力する必要があります。
   
@@ -71,13 +66,13 @@ Skype for Business統合連絡先ストア機能を利用するように構成�
   
 ### <a name="deleting-saved-credentials"></a>保存された資格情報の削除
 
-ユーザーは、Skype for Businessクライアントの [自分のサインイン情報を削除する] オプションを使用し、2 要素認証を使用して初めてサインインする前に、%localappdata%\Microsoft\Office\15.0\Skype for Business から SIP プロファイル フォルダーを削除する必要があります。
+ユーザーは、Skype for Business  クライアントの [自分のサインイン情報を削除する] オプションを使用し、2 要素認証を使用して初めてサインインする前に、%localappdata%\Microsoft\Office\15.0\Skype for Business から SIP プロファイル フォルダーを削除する必要があります。
   
 ### <a name="disablentcredentials"></a>DisableNTCredentials
 
 Kerberos または NTLM 認証方法では、ユーザーの資格情報Windows認証に自動的に使用されます。 Kerberos または NTLM Skype for Business Server認証が有効になっている一般的な展開では、ユーザーがサインインする度に資格情報を入力する必要があります。
   
-PIN の入力を求めるメッセージが表示される前に、ユーザーが意図せずに資格情報を求めるメッセージが表示された場合は **、DisableNTCredentials** レジストリ キーが、クライアント コンピューター上で意図せずに構成されている可能性があります 。おそらくグループ ポリシーを使用します。
+PIN の入力を求めるメッセージが表示される前に、ユーザーが意図せずに資格情報を求めるメッセージが表示された場合は、 **DisableNTCredentials** レジストリ キーが、クライアント コンピューター上で意図せずに構成されている可能性があります 。おそらくグループ ポリシーを使用します。
   
 資格情報の追加のプロンプトが表示されるのを防ぐには、ローカル ワークステーションに次のレジストリ エントリを作成するか、Skype for Business 管理テンプレートを使用して、グループ ポリシーを使用して特定のプールのすべてのユーザーに適用します。
   
@@ -91,7 +86,7 @@ REG_DWORD: DisableNTCredentials
 
 ユーザーが初めてSkype for Businessにサインインすると、パスワードの保存を求めるメッセージが表示されます。 このオプションを選択すると、ユーザーのクライアント証明書を個人用証明書ストアに保存し、ユーザーの Windows 資格情報をローカル コンピューターの Credential Manager に保存できます。
   
-**2 要素認証を** サポートするように構成されている場合Skype for Business SavePassword レジストリ設定を無効にする必要があります。 ユーザーがパスワードを保存しなくするには、ローカル ワークステーションで次のレジストリ エントリを変更するか、Skype for Business 管理テンプレートを使用して、グループ ポリシーを使用して特定のプールのすべてのユーザーに適用します。
+**SavePassword レジストリ設定** は、2 要素認証Skype for Business構成されている場合は無効にする必要があります。 ユーザーがパスワードを保存しなくするには、ローカル ワークステーションで次のレジストリ エントリを変更するか、Skype for Business 管理テンプレートを使用して、グループ ポリシーを使用して特定のプールのすべてのユーザーに適用します。
   
 HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync
   
