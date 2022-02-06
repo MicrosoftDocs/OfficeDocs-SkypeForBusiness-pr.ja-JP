@@ -1,25 +1,20 @@
 ---
 title: セキュリティの主な機能は、Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: bf2a3b8f-73c6-47e1-8c9e-ca1dc1a502bf
 description: Skype for Business Serverには、サーバー間認証、役割ベースのアクセス制御、構成データの集中ストレージなど、いくつかのセキュリティ機能が含まれています。
-ms.openlocfilehash: c70d997dc29166b05376bbd6c1bcd7886d1c176b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848390"
 ---
+
 # <a name="key-security-features-in-skype-for-business-server"></a>セキュリティの主な機能は、Skype for Business Server
  
 Skype for Business Serverには、サーバー間認証、役割ベースのアクセス制御、構成データの集中ストレージなど、いくつかのセキュリティ機能が含まれています。 
@@ -38,7 +33,7 @@ Skype for Business Serverには、計画と設計を容易にし、コンポー�
     
 - **トポロジ ビルダーは、** すべての構成情報をサーバーの全体管理ストアに格納します。
     
-これらのツールの詳細については、「管理[ツールSkype for Business Serverを参照してください](../../management-tools/management-tools.md)。
+これらのツールの詳細については、「管理[ツールSkype for Business Server参照してください](../../management-tools/management-tools.md)。
   
 ### <a name="central-management-store"></a>中央管理ストア
 
@@ -48,11 +43,11 @@ Skype for Business Serverには、計画と設計を容易にし、コンポー�
   
 ### <a name="server-to-server-authentication"></a>サーバー間認証
 
-このSkype for Business Server、Open Authorization (OAuth) プロトコルを使用してサーバー間で認証を構成できます。 たとえば、2016 Skype for Business Serverを実行しているサーバーで認証を行Microsoft Exchange Serverできます。 OAuth プロトコルを使用すると、Skype for Business ServerとMicrosoft Exchange Serverを信頼できます。 これにより、シームレスな方法で製品を統合できます。 詳細については、「[サーバー間認証 (OAuth)](../../manage/authentication/server-to-server-and-partner-applications.md)とパートナー アプリケーションの管理」を参照Skype for Business Server。
+このSkype for Business Server、Open Authorization (OAuth) プロトコルを使用してサーバー間で認証を構成できます。 たとえば、2016 Skype for Business Serverを実行しているサーバーで認証を行Microsoft Exchange Serverできます。 OAuth プロトコルを使用すると、Skype for Business ServerとMicrosoft Exchange Serverを信頼できます。 これにより、シームレスな方法で製品を統合できます。 詳細については、「[サーバー間認証 (OAuth)](../../manage/authentication/server-to-server-and-partner-applications.md) とパートナー アプリケーションの管理」を参照Skype for Business Server。
   
 ### <a name="windows-powershell-based-management-and-web-based-management-interface"></a>Windows PowerShellベースの管理と Web ベースの管理インターフェイス
 
-Skype for Business Serverコマンド ライン インターフェイスに基Windows PowerShell強力な管理インターフェイスを提供します。 これにはセキュリティを管理するためのコマンドレットが含まれており、ユーザーが簡単にまたは知らないうちにスクリプトを実行できないように、Windows PowerShell のセキュリティ機能が既定で有効になっています。 つまり、セキュリティを最大限に高め、攻撃の手段を減少させるように、ソフトウェアの既定値が自動的に設定されています。 管理サポートの詳細Windows PowerShellについては、「Skype for Business Server管理シェル[Skype for Business Server参照してください](../../manage/management-shell.md)。 
+Skype for Business Serverコマンド ライン インターフェイスに基Windows PowerShell強力な管理インターフェイスを提供します。 これにはセキュリティを管理するためのコマンドレットが含まれており、ユーザーが簡単にまたは知らないうちにスクリプトを実行できないように、Windows PowerShell のセキュリティ機能が既定で有効になっています。 つまり、セキュリティを最大限に高め、攻撃の手段を減少させるように、ソフトウェアの既定値が自動的に設定されています。 管理のサポートWindows PowerShell詳細については、「Skype for Business Server管理[シェルSkype for Business Server参照してください](../../manage/management-shell.md)。 
   
 ### <a name="role-based-access-control-rbac"></a>役割ベースのアクセス制御 (RBAC)
 
@@ -60,7 +55,7 @@ Skype for Business Serverロール ベースのアクセス制御 (RBAC) を提�
   
 ## <a name="network-address-translation-nat"></a>ネットワーク アドレス変換 (NAT)
 
-Skype for Business Server では、エッジ サーバーの内部インターフェイスでのネットワーク アドレス変換 (NAT) の使用はサポートされていませんが、単一の統合エッジ サーバー トポロジと拡張統合エッジ サーバー トポロジの両方に対してネットワーク アドレス変換 (NAT) を実行するルーターまたはファイアウォールの背後に Access Edge サービス、Web 会議エッジ サービス、および A/V Edge サービスの外部インターフェイスを配置できます。 ハードウェア ロード バランサーの背後にある複数のエッジ サーバーでは、NAT を使用できません。 複数のエッジ サーバーが外部インターフェイスで NAT を使用する場合は、ドメイン ネーム システム (DNS) 負荷分散が必要です。 また、DNS 負荷分散を使用すると、エッジ サーバー プール内のエッジ サーバーあたりのパブリック IP アドレスの数を減らします。 詳細については、「Edge [Server のシナリオ」を参照Skype for Business Server。](../../plan-your-deployment/edge-server-deployments/scenarios.md)
+Skype for Business Server では、エッジ サーバーの内部インターフェイスでのネットワーク アドレス変換 (NAT) の使用はサポートされていませんが、単一の統合エッジ サーバー トポロジと拡張統合エッジ サーバー トポロジの両方に対してネットワーク アドレス変換 (NAT) を実行するルーターまたはファイアウォールの背後に Access Edge サービス、Web 会議エッジ サービス、および A/V Edge サービスの外部インターフェイスを配置できます。 ハードウェア ロード バランサーの背後にある複数のエッジ サーバーでは、NAT を使用できません。 複数のエッジ サーバーが外部インターフェイスで NAT を使用する場合は、ドメイン ネーム システム (DNS) 負荷分散が必要です。 また、DNS 負荷分散を使用すると、エッジ サーバー プール内のエッジ サーバーあたりのパブリック IP アドレスの数を減らします。 詳細については、「エッジ [サーバーのシナリオ」を参照Skype for Business Server](../../plan-your-deployment/edge-server-deployments/scenarios.md)。
   
 > [!NOTE]
 > Microsoft Office Communications Server 2007 展開がある企業とフェデレーションを行い、企業とフェデレーション企業の間でオーディオ/ビデオを使用する必要がある場合、ポート要件は、展開されているエッジ サーバーの古いバージョンのポート要件になります。 たとえば、フェデレーション パートナーがエッジ サーバーを新しいバージョンにアップグレードするまで、これらの古いバージョンに必要なポート範囲を両方の企業で開くSkype for Business Server。 その時点で、ポート要件を確認し、新しい構成に応じて減少できます。 
@@ -71,7 +66,7 @@ Skype for Business Server では、エッジ サーバーの内部インター�
   
 ## <a name="trustworthy-computing-security-development-lifecycle-sdl"></a>信頼できるコンピューティング セキュリティ開発ライフサイクル (SDL)
 
-Skype for Business Serverは[、Microsoft Trustworthy Computing Security](/previous-versions/ms995349(v=msdn.10)) Development Lifecycle (SDL) に準拠して設計および開発されています。
+Skype for Business Serverは、[Microsoft Trustworthy Computing Security Development Lifecycle](/previous-versions/ms995349(v=msdn.10)) (SDL) に準拠して設計および開発されています。
   
 - **デザインによって信頼できる** より安全な統合コミュニケーション システムを作成する最初のステップは、脅威モデルを設計し、設計時に各機能をテストする方法でした。 さらに、Microsoft は、予期しない製品動作に起因するセキュリティの脆弱性を見つけるために、設計された動作の外部でテストを実行します。 複数のセキュリティ関連の改善点がコーディング プロセスとコーディング手法に組み込まれました。 コードが最終的な製品にチェックインされる前に、ビルド時ツールにより、バッファー オーバーランおよびその他のセキュリティ脅威の可能性を検出します。 もちろん、すべての未知のセキュリティ脅威を防ぐように設計することは不可能です。 完全なセキュリティを保証できるシステムはありません。 ただし、製品開発は最初から安全な設計原則を取り入れたため、Skype for Business Serverはアーキテクチャの基本的な部分として業界標準のセキュリティ テクノロジを組み込んでいます。
     

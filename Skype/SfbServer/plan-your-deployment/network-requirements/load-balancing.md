@@ -1,28 +1,23 @@
 ---
 title: ユーザーの負荷分散要件Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: '概要: 負荷分散に関する考慮事項を確認してから、Skype for Business Server。'
-ms.openlocfilehash: 4bdfc9d9958154df8ce485c945dbe8accd630ed8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840999"
 ---
+
 # <a name="load-balancing-requirements-for-skype-for-business"></a>ユーザーの負荷分散要件Skype for Business
  
 **概要:** 負荷分散に関する考慮事項を確認してから、Skype for Business Server。
@@ -49,7 +44,7 @@ DNS 負荷分散を使用し、特定のコンピューターへのトラフィ�
   
 - コミュニケーション サーバー 2007 R2 または Officeコミュニケーション サーバー 2007 Office組織とのフェデレーション
     
-- ExchangeSP1 を使用して 2010 Exchange前に UM を使用Exchangeの UM
+- Exchange SP1 を使用して 2010 年Exchange前に UM を使用するリモート ユーザー Exchange UM を作成する
     
 - パブリック IM ユーザーとの接続
     
@@ -62,7 +57,7 @@ DNS 負荷分散を使用し、特定のコンピューターへのトラフィ�
 > [!NOTE]
 > サーバーの直接戻り値 (DSR) NAT は、サーバーのSkype for Business Server。 
   
-ハードウェア ロード バランサーで必要な機能がサポートされているかどうかを確認するには、「インフラストラクチャ for Skype for Business Server」[を参照Skype for Business。](../../../SfbPartnerCertification/certification/infra-gateways.md) 
+ハードウェア ロード バランサーで必要な機能がサポートされているかどうかを確認するには、「インフラストラクチャ for Skype for Business Server[」を参照Skype for Business](../../../SfbPartnerCertification/certification/infra-gateways.md)。 
   
 ### <a name="hardware-load-balancer-requirements-for-edge-servers-running-the-av-edge-service"></a>音声ビデオ エッジ サービスを実行するエッジ サーバーに対するロード バランサー機器の要件
 
@@ -146,7 +141,7 @@ Cookie ベースのアフィニティを **使用する** 展開の場合
 |**仮想 IP/ポート**|**ノード ポート**|**ノード コンピューター/モニター**|**保存プロファイル**|**注**|
 |:-----|:-----|:-----|:-----|:-----|
 |\<pool\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |フロントエンド  <br/> 5061  <br/> |なし  <br/> |HTTPS  <br/> |
-|\<pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |フロントエンド  <br/> 5061  <br/> |なし  <br/> |HTTP  <br/> |
+|\<pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |フロントエンド  <br/> 5061  <br/> |None  <br/> |HTTP  <br/> |
    
 ## <a name="dns-load-balancing"></a>DNS 負荷分散
 <a name="BKMK_DNSLoadBalancing"> </a>
@@ -161,7 +156,7 @@ DNS 負荷分散を展開すると、ハードウェア ロード バランサ�
 
 ![DNS ネットワーク図の例を示します。](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
   
-また、DNS 負荷分散を使用すると、すべての種類のトラフィックに対応するハードウェア ロード バランサーを使用していた場合よりもハードウェア ロード バランサーを低価格で購入できます。 相互運用性の認定テストに合格したロード バランサーを、Skype for Business Server。 ロード バランサーの相互運用性テストの詳細については [、「Lync Server 2010 Load Balancer Partners」を参照してください](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)。 そこに含むコンテンツは、Skype for Business Server。
+また、DNS 負荷分散を使用すると、すべての種類のトラフィックに対応するハードウェア ロード バランサーを使用していた場合よりもハードウェア ロード バランサーを低価格で購入できます。 相互運用性の認定テストに合格したロード バランサーを、Skype for Business Server。 ロード バランサーの相互運用性テストの詳細については、「 [Lync Server 2010 Load Balancer Partners」を参照してください](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)。 そこに含むコンテンツは、Skype for Business Server。
   
 DNS 負荷分散は、フロント エンド プール、エッジ サーバー プール、ディレクター プール、およびスタンドアロンの仲介サーバー プールでサポートされます。
   
@@ -240,7 +235,7 @@ DNS 負荷分散は、Skype for Business Server または Lync Server 2010 を�
 - DNS 負荷分散で使用される FQDN をサポートするには、プールの FQDN (pool01.contoso.com など) をプール内のすべてのサーバーの IP アドレス (192.168.1.1、192.168.1.2 など) に解決するように DNS をプロビジョニングする必要があります。現在展開されているサーバーの IP アドレスのみ含めるようにしてください。
     
     > [!CAUTION]
-    > 複数のフロント エンド プールまたはフロント エンド サーバーがある場合、外部 Web サービスの FQDN は一意である必要があります。 たとえば、フロントエンド サーバーの外部 Web サービス FQDN を **pool01.contoso.com** として定義する場合、別のフロントエンド プールまたはフロント エンド サーバーに pool01.contoso.com を使用することはできません。 ディレクターも展開する場合、ディレクターまたはディレクター プールに対して定義される外部 Web サービス FQDN は、他のディレクターまたはディレクター プール、およびフロント エンド プールまたはフロント エンド サーバーから一意である必要があります。 内部 Web サービスを自己定義の FQDN で上書きする場合、各 FQDN は他のフロントエンド プール、ディレクター、またはディレクター プールから一意である必要があります。
+    > 複数のフロント エンド プールまたはフロント エンド サーバーがある場合、外部 Web サービスの FQDN は一意である必要があります。 たとえば、フロント エンド サーバーの外部 Web サービス FQDN を **pool01.contoso.com** として定義する場合、別のフロントエンド プールまたはフロント エンド サーバーに **pool01.contoso.com** を使用することはできません。 ディレクターも展開する場合、ディレクターまたはディレクター プールに対して定義される外部 Web サービス FQDN は、他のディレクターまたはディレクター プール、およびフロント エンド プールまたはフロント エンド サーバーから一意である必要があります。 内部 Web サービスを自己定義の FQDN で上書きする場合、各 FQDN は他のフロントエンド プール、ディレクター、またはディレクター プールから一意である必要があります。
   
 ### <a name="dns-load-balancing-on-edge-server-pools"></a>エッジ サーバー プールの DNS 負荷分散
 <a name="BK_Edge"> </a>

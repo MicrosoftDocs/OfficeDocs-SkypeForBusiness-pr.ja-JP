@@ -1,24 +1,19 @@
 ---
 title: '統合連絡先ストアを展開Skype for Business Server '
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: d1c9ebd8-af42-42a0-87d9-fc899fbd7c42
 description: '概要: 連絡先ストアで統合連絡先ストアを有効Skype for Business Server。'
-ms.openlocfilehash: 23e5aebcd0ed92cc07a203be5b3112142f692d9a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861814"
 ---
+
 # <a name="deploy-unified-contact-store-in-skype-for-business-server"></a>統合連絡先ストアを展開Skype for Business Server
  
 **概要:**[連絡先] で統合連絡先ストアを有効Skype for Business Server。
@@ -40,7 +35,7 @@ ms.locfileid: "60861814"
   
 ### <a name="to-enable-users-for-unified-contact-store"></a>統合連絡先ストアでユーザーを有効にするには
 
-1. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし、[Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
+1. [管理シェルSkype for Business Server起動する **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 2. 次のどちらかの操作を行います。
     
@@ -56,7 +51,7 @@ ms.locfileid: "60861814"
    New-CsUserServicesPolicy -Identity site:<site name> -UcsAllowed $True
    ```
 
-   例:
+   次に例を示します。
     
    ```powershell
    New-CsUserServicesPolicy -Identity site:Redmond -UcsAllowed $True
@@ -68,7 +63,7 @@ ms.locfileid: "60861814"
    Set-CsUserServicesPolicy -Tenant <tenantId> -UcsAllowed $True
    ```
 
-   例:
+   次に例を示します。
     
    ```powershell
    Set-CsUserServicesPolicy -Tenant "38aad667-af54-4397-aaa7-e94c79ec2308" -UcsAllowed $True
@@ -110,7 +105,7 @@ ms.locfileid: "60861814"
   
 - クライアント コンピューターで次のレジストリ キーを調べます。
     
-    HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync<\\ SIP URL \> \UCS
+    HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync<\\ SIP URL\>\UCS
     
     ユーザーの連絡先が Exchange 2013 に格納されている場合、このキーには値 2165 の InUCSMode が含まれる。
     
@@ -124,7 +119,7 @@ ms.locfileid: "60861814"
     
 ## <a name="roll-back-migrated-users"></a>移行されたユーザーのロールバック
 
-統合連絡先ストア機能をロールバックする必要がある場合は、ユーザーを Exchange 2010 または Lync Server 2010 に戻す場合にのみ連絡先をロールバックします。 ロールバックするには、ユーザーのポリシーを無効にし **、Invoke-CsUcsRollback コマンドレットを実行** します。 **Invoke-CsUcsRollback** を単独で実行するだけでは、ポリシーが無効にされていない場合に統合連絡先ストアの移行が再び開始されますので、永続的なロールバックを確保するには十分ではありません。 たとえば、Exchange 2013 が Exchange 2010 にロールバックされ、ユーザーのメールボックスが Exchange 2013 に移動されたため、ユーザーがロールバックされた場合、統合連絡先ストアの移行は、ユーザー サービス ポリシーのユーザーに対して引き続き有効になっている限り、ロールバックの 7 日後に再度開始されます。
+統合連絡先ストア機能をロールバックする必要がある場合は、ユーザーを Exchange 2010 または Lync Server 2010 に戻す場合にのみ連絡先をロールバックします。 ロールバックするには、ユーザーのポリシーを無効にし、 **Invoke-CsUcsRollback コマンドレットを実行** します。 **Invoke-CsUcsRollback** を単独で実行するだけでは、ポリシーが無効にされていない場合に統合連絡先ストアの移行が再び開始されますので、永続的なロールバックを確保するには十分ではありません。 たとえば、Exchange 2013 が Exchange 2010 にロールバックされ、ユーザーのメールボックスが Exchange 2013 に移動されたため、ユーザーがロールバックされた場合、統合連絡先ストアの移行は、ユーザー サービス ポリシーのユーザーに対して引き続き有効になっている限り、ロールバックの 7 日後に再度開始されます。
   
 **Move-CsUser** コマンドレットは、次の状況で、ユーザーの連絡先ストアを 2013 Exchange からSkype for Business Server自動的にロールバックします。
   
@@ -139,8 +134,8 @@ ms.locfileid: "60861814"
 - ユーザーを Exchange 2013 に移行した後にユーザー データをエクスポートする場合は、移行をロールバックし、移行後に何らかの理由でデータをインポートすると、統合連絡先ストア のデータと連絡先リストが破損します。
     
 > [!IMPORTANT]
-> Exchange メールボックスを Exchange 2013 から Exchange 2010 に移動する前に、Exchange 管理者は、Skype for Business Server 管理者が最初にSkype for Business Server2013 Exchangeからユーザーの連絡先Skype for Business Server。 統合連絡先ストアの連絡先を Skype for Business Server にロールバックするには、このセクションの「統合連絡先ストアの連絡先を Exchange 2013 から Skype for Business Server にロールバックするには」の手順を参照してください。 
+> Exchange メールボックスを Exchange 2013 から Exchange 2010 に移動する前に、Exchange 管理者は、Skype for Business Server 管理者が最初にSkype for Business Server 2013 Exchangeからユーザーの連絡先Skype for Business Server。 統合連絡先ストアの連絡先を Skype for Business Server にロールバックするには、このセクションの「統合連絡先ストアの連絡先を Exchange 2013 から Skype for Business Server にロールバックするには」の手順を参照してください。 
   
- **ユーザーの連絡先をロールバックする方法:** Move-CsUser コマンドレットを使用してユーザーを Skype for Business Server 2015 と Lync Server 2010 の間で移動する場合 **、Move-CsUser** コマンドレットは、ユーザーを Skype for Business Server 2015 から Lync Server 2010 に移動するときに統合連絡先ストアを自動的にロールバックします。  **Move-CsUser** は統合連絡先ストア ポリシーを無効にしないので、ユーザーが 2015 年に戻った場合、統合連絡先ストアへの移行はSkype for Business Serverされます。
+ **ユーザーの連絡先をロールバックする方法:** Move-CsUser コマンドレットを使用してユーザーを Skype for Business Server 2015 と Lync Server 2010 の間で移動する場合、**Move-CsUser** コマンドレットは、ユーザーを  Skype for Business Server 2015 から Lync Server 2010 に移動するときに統合連絡先ストアを自動的にロールバックしますので、これらの手順を省略できます。 **Move-CsUser** は統合連絡先ストア ポリシーを無効にしないので、ユーザーが 2015 年に戻った場合、統合連絡先ストアへの移行はSkype for Business Serverされます。
   
 

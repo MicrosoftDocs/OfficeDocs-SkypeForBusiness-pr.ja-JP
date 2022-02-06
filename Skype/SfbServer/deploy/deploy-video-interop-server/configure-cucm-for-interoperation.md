@@ -1,25 +1,20 @@
 ---
 title: デバイスとの相互運用用に CUCM をSkype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eab3d9f6-ec40-49bf-9162-1a7f5a59451f
 description: '概要: CUCM を構成して、デバイスをSkype for Business Server。'
-ms.openlocfilehash: 2e5e2cfc207fd9c4e52f7cd4da553dc756fddb4c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863094"
 ---
+
 # <a name="configure-cucm-for-interoperation-with-skype-for-business-server"></a>デバイスとの相互運用用に CUCM をSkype for Business Server
  
 **概要:** CUCM を構成して、デバイスをSkype for Business Server。
@@ -33,15 +28,15 @@ VIS との相互運用のために、多数の CUCM 設定を確認または変�
   
 ### <a name="configure-the-cucm"></a>CUCM を構成する
 
-1. CUCM にログインし、Cisco Unified CM Administration- \> Call Routing- \> Class of Control- Partition に移動 \> します。
+1. CUCM にログインし、コントロール パーティションの Cisco Unified CM Administration-Call\> Routing-Class\> に移動\>します。
     
 2. [パーティション構成] 画面で、パーティション名と説明を入力し、[新規追加] を **クリックします**。
     
-3. [Cisco Unified CM Administration- \> Call Routing- \> Class of Control- Calling Search \> Space] に移動します。
+3. コントロール呼び出し検索スペースの Cisco Unified CM Administration-Call\> ルーティング クラス\>\>に移動します。
     
 4. [コーリング サーチ スペースの構成] 画面で、コーリング サーチ スペースの名前を入力し、[選択したパーティション] に、作成したパーティションの名前を入力します。 [完了 **したら保存]** をクリックします。
     
-5. [Cisco Unified CM Administration- \> System- \> Security- \> SIP トランク セキュリティ プロファイル] に移動します。
+5. [Cisco Unified CM Administration-System-Security-SIP\>\>\> トランク セキュリティ プロファイル] に移動します。
     
 6. [SIP トランク セキュリティ プロファイルの構成] 画面で、表示されている SIP トランク セキュリティ プロファイル情報オプションを設定し、[新規追加] を **クリックします**。
     
@@ -53,7 +48,7 @@ VIS との相互運用のために、多数の CUCM 設定を確認または変�
    |送信トランスポートの種類  <br/> |TCP  <br/> |
    |受信ポート  <br/> |5060  <br/> |
    
-7. [Cisco Unified CM Administration- \> Device- \> Device 設定- \> SIP プロファイル] に移動します。
+7. Cisco Unified CM Administration-Device-Device\>\> 設定-SIP プロファイルに\>移動します。
     
 8. [SIP プロファイル構成] 画面で、次に示すように SIP プロファイル情報オプションを設定します。 
     
@@ -64,13 +59,13 @@ VIS との相互運用のために、多数の CUCM 設定を確認または変�
    
 9. 同じ画面で、[SDP プロファイル情報] セクションまで下にスクロールします。 [ **早期オファーと** 再招待の SDP セッション レベルの帯域幅修飾子] オプションは、既定では TIAS と AS に設定されています。 このオプションを TIAS にのみ変更します。 このオプションを既定の設定のままにした場合Skype for Business Server SIP メッセージの帯域幅修飾子情報が理解されません。 TIAS はトランスポート独立アプリケーション固有を意味し、AS はアプリケーション固有を意味します。 これらは RFC3890 で指定された SIP オプションです。
     
-10. 同じ画面で、さらに下にスクロールします。 [SIP プロファイルのトランク固有の構成]で、[音声通話とビデオ通話の早期提供サポート] を選択し、必須 (必要に応じて MTP を挿入 **する)** オプションに設定します。 これにより、CUCM は早期オファーを使用して発信 SIP 通話を設定できます。 CUCM 8.5 以降の新機能の 1 つは、メディアターミネーション ポイント (MTP) を必要とせずに、早期オファーによる発信通話セットアップをサポートする点です。
+10. 同じ画面で、さらに下にスクロールします。 [SIP プロファイルのトランク固有の構成] で、[音声通話とビデオ通話の早期提供サポート] を選択し、必須 (必要に応じて **MTP を挿入する)** オプションに設定します。 これにより、CUCM は早期オファーを使用して発信 SIP 通話を設定できます。 CUCM 8.5 以降の新機能の 1 つは、メディアターミネーション ポイント (MTP) を必要とせずに、早期オファーによる発信通話セットアップをサポートする点です。
     
 11. [SIP オプション ping] セクションで、[Enable OPTIONS Ping] の横にあるチェック ボックスがオンにされ、サービスの種類が [なし (既定)] のトランクの宛先状態を監視します。
     
 12. 完了したら、[新規追加] を **クリックします**。
     
-13. [Cisco Unified CM Administration- \> Device- \> Trunk] に移動します。 
+13. [Cisco Unified CM Administration-Device-Trunk\>] に移動\>します。 
     
 14. デバイス プロトコルを SIP に設定し、[次へ] を **押します**。
     
@@ -101,9 +96,9 @@ VIS との相互運用のために、多数の CUCM 設定を確認または変�
     
 20. 完了したら、[新規追加] を **クリックします**。
     
-21. [Cisco Unified CM Administration- \> Call Routing- \> Route/Hunt- Route- Route pattern] \> に移動します。
+21. [Cisco Unified CM Administration-Call Routing-Route\>\>/Hunt-Route] パターンに\>移動します。
     
-22. [ルート パターンの構成] 画面で、次に示すパターン定義パラメーターを入力します。 [通話相手の変換] セクションまで下にスクロールし、マスクを示すように設定し、完了したら [新しい追加] **をクリック** します。
+22. [ルート パターンの構成] 画面で、次に示すパターン定義パラメーターを入力します。 [通話相手の変換] セクションまで下にスクロールし、マスクを示すように設定し、完了したら [新しい追加 **] をクリック** します。
     
     |**パラメーター**|**推奨される設定値**|
     |:-----|:-----|
@@ -113,9 +108,9 @@ VIS との相互運用のために、多数の CUCM 設定を確認または変�
     |ゲートウェイ/ルート一覧  <br/> |SfBVideoInterop_SIPTrunk  <br/> |
     |呼び出されたパーティ変換マスク  <br/> |+14257779999  <br/> |
    
-23. [Cisco Unified CM Administration- \> Call Routing- \> SIP ルート パターン] に移動します。
+23. [Cisco Unified CM Administration-Call\> Routing-SIP\> ルート パターン] に移動します。
     
-24. [SIP ルート パターン構成] 画面で、図のように [パターン定義] オプションを設定し、[新規追加] を **クリックします**。
+24. [SIP ルート パターンの構成] 画面で、図のように [パターン定義] オプションを設定し、[新規追加] を **クリックします**。
     
     |**パラメーター**|**推奨される設定値**|
     |:-----|:-----|
@@ -127,7 +122,7 @@ VIS との相互運用のために、多数の CUCM 設定を確認または変�
     |SIP トランク/ルート リスト  <br/> |SfBVideoInterop_SIPTrunk  <br/> |
     |[ブロック パターン] チェック ボックス  <br/> |未チェックのままにする  <br/> |
    
-25. オーディオまたはビデオ のビット レートを既定の設定から変更した場合は、既定値に戻す必要があります。 音声/ビデオ通話のビット レートを設定するには、[Cisco Unified CM Administration- \> System- \> Region Information- Region] に移動 \> します。 既定値は、参照用に以下に示されています。
+25. オーディオまたはビデオ のビット レートを既定の設定から変更した場合は、既定値に戻す必要があります。 音声/ビデオ通話のビット レートを設定するには、Cisco Unified CM Administration-System-Region\>\> Information-Region に移動\>します。 既定値は、参照用に以下に示されています。
     
     |**パラメーター**|**推奨される設定値**|
     |:-----|:-----|

@@ -1,28 +1,23 @@
 ---
 title: 電話での緊急通話の要件を定義Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: d891a212-8ad9-4bfa-9ca7-04921c46fb45
 description: SIP トランク E9-1-1 サービス プロバイダーか ELIN ゲートウェイかによって、Skype for Business Server エンタープライズ VoIP で E9-1-1 を有効にするために必要な手順を要約します。
-ms.openlocfilehash: 5bb4d4ba27d48118ed28c4a687105dbf5c685013
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857284"
 ---
+
 # <a name="define-your-requirements-for-emergency-calls-in-skype-for-business-server"></a>電話での緊急通話の要件を定義Skype for Business Server
  
 SIP トランク E9-1-1 サービス プロバイダーか ELIN ゲートウェイかによって、Skype for Business Server エンタープライズ VoIP で E9-1-1 を有効にするために必要な手順を要約します。

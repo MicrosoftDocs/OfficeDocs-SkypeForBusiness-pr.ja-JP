@@ -1,38 +1,33 @@
 ---
 title: Lync VDI プラグインをインストールして展開Skype for Business Server
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: krishra
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: このトピックでは、リモート仮想デスクトップに接続するSkype for Businessを使用するための展開手順について説明します。
-ms.openlocfilehash: 853bcfcc41d058983c0aabb2868351f1f59de08e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840569"
 ---
+
 # <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server"></a>Lync VDI プラグインをインストールして展開Skype for Business Server
  
-このトピックでは、リモート仮想デスクトップに接続するSkype for Businessを使用するための展開手順について説明します。 計画に関する考慮事項は[、「VDI 環境でのSkype for Business計画」を参照してください](../../plan-your-deployment/clients-and-devices/vdi-environments.md)。
+このトピックでは、リモート仮想デスクトップに接続するSkype for Businessを使用するための展開手順について説明します。 計画に関する考慮事項は、「[VDI 環境でのSkype for Business計画」を参照してください](../../plan-your-deployment/clients-and-devices/vdi-environments.md)。
   
 仮想デスクトップ インフラストラクチャ (VDI) 環境は、セキュリティとコンプライアンスの問題が特に重要である一部の組織で使用されています。 ユーザーはローカル コンピューター上Windows、仮想デスクトップ上のクライアントを使用しています。 このようなSkype for Businessを使用するには、追加の VDI プラグイン ソフトウェアが必要です。
   
 VDI プラグイン コンポーネントには、Microsoft が提供するソリューションと Citrix が提供するソリューションの 2 つのソリューションがあります。 Microsoft では、新しい展開で新しい HDX RealTime 最適化パック ソリューションを使用をお勧めしますが、そのライフサイクルの残りの期間、元の Lync VDI プラグインを引き続きサポートします。 
   
-このトピックでは、Microsoft Lync VDI プラグインの展開に関する詳細を説明します。これは、Windows 7 および Windows 8 または Windows Server 2008 でのみサポートされ、Lync 2013 または Skype for Business クライアントのみをサポートします。 このプラグインを更新する予定はありません。ただし[、Citrix HDX RealTime](../../plan-your-deployment/clients-and-devices/vdi-environments.md#Citrix_RT) Optimization Pack for Skype for Business必要に応じて更新されます。
+このトピックでは、Microsoft Lync VDI プラグインの展開に関する詳細を説明します。これは、Windows 7 および Windows 8 または Windows Server 2008 でのみサポートされ、Lync 2013 または Skype for Business クライアントのみをサポートします。 このプラグインを更新する予定はありません。ただし、[Citrix HDX RealTime Optimization Pack](../../plan-your-deployment/clients-and-devices/vdi-environments.md#Citrix_RT) for Skype for Business必要に応じて更新されます。
   
 ## <a name="prepare-your-environment-for-the-lync-vdi-plug-in"></a>Lync VDI プラグインの環境を準備する
 <a name="Prepare_vdi"> </a>
 
-1. このSkype for Business Server、すべての Lync VDI プラグイン ユーザーに対して EnableMediaRedirection が TRUE に設定されている必要があります。 詳細については [、New-CsClientPolicy](/powershell/module/skype/new-csclientpolicy?view=skype-ps) コマンドレットと [Set-CsClientPolicy](/powershell/module/skype/set-csclientpolicy?view=skype-ps) コマンドレットのヘルプ トピックを参照してください。
+1. このSkype for Business Server、すべての Lync VDI プラグイン ユーザーに対して EnableMediaRedirection が TRUE に設定されている必要があります。 詳細については、 [New-CsClientPolicy コマンドレットと Set-CsClientPolicy](/powershell/module/skype/new-csclientpolicy?view=skype-ps) コマンドレットのヘルプ [トピックを参照](/powershell/module/skype/set-csclientpolicy?view=skype-ps) してください。
     
 2. データ センター サーバーで、すべての仮想デスクトップSkype for Businessクライアントをインストールします。
     
@@ -45,7 +40,7 @@ VDI プラグイン コンポーネントには、Microsoft が提供するソ�
 
 Lync VDI プラグインのリモート デスクトップ接続を準備するには、ローカル コンピューターで次の手順を実行します。
   
-1. ローカル コンピューターが実行されている場合Windows 8この手順をスキップします。 ローカル コンピューターが SP1 で Windows 7 を実行している場合は、最新のバージョンのリモート Windows 8 クライアント[をインストールします](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients)。
+1. ローカル コンピューターが実行されている場合Windows 8この手順をスキップします。 ローカル コンピューターが SP1 で Windows 7 を実行している場合は、最新Windows 8バージョンのリモート デスクトップ サービス クライアント[をインストールします](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients)。
     
 2. [**スタート**]、[**リモート デスクトップ接続**] の順にクリックして、リモート デスクトップ サービス クライアントを起動します。
     
@@ -61,7 +56,7 @@ Lync VDI プラグインのリモート デスクトップ接続を準備する�
     
 5. [**エクスペリエンス**] タブをクリックします。[**パフォーマンス**] の下にある [**ビットマップのキャッシュを保持**] チェック ボックスをオフにします。
     
-6. [全般]**タブをクリック** します。[**コンピューター]** で、仮想デスクトップの名前を入力し、[デスクトップ]**をクリック** Connect。 
+6. [全般] **タブをクリック** します。[**コンピューター]** に仮想デスクトップの名前を入力し、[コンピューター] **をクリックConnect**。 
     
 ## <a name="sign-in-and-use-skype-for-business-on-the-virtual-desktop"></a>仮想デスクトップでサインインしてSkype for Businessを使用する
 <a name="SfB_signin"> </a>

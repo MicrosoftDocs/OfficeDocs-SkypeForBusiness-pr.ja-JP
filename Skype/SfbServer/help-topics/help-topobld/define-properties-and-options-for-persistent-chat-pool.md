@@ -1,38 +1,33 @@
 ---
 title: 常設チャット プールのプロパティとオプションの定義
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddPersistentChatOptionsPage
+  - ms.lync.tb.AddPersistentChatOptionsPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f4914a44-2113-48f1-8299-4645fc7011b6
 description: 常設チャット サーバーまたは常設チャット サーバー プールのオプションを構成するには、次のプロパティを定義します。
-ms.openlocfilehash: 72afab6d9c74f2347bd14a4d597cf82525c11b48
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851311"
 ---
+
 # <a name="define-properties-and-options-for-persistent-chat-pool"></a>常設チャット プールのプロパティとオプションの定義
  
 常設チャット サーバーまたは常設チャット サーバー プールのオプションを構成するには、次のプロパティを定義します。
   
- **常設チャット プールの表示** 名: この常設チャット サーバーまたは常設チャット サーバー プールに表示されるユーザー フレンドリー名を定義する必須プロパティ。
+ **常設チャット プールの表示名**: この常設チャット サーバーまたは常設チャット サーバー プールに表示されるユーザーフレンドリーな名前を定義する必須のプロパティです。
   
  **常設チャット ポート**: この常設チャット サーバーまたは常設チャット サーバー プールがリッスンするポート番号を定義する必要なプロパティ。
   
  **コンプライアンスを有効** にする: オプションの常設チャット コンプライアンス機能とデータベースを展開して実装する場合は、チェック ボックスをオンにします。
   
- **バックアップ SQL Server** ストアを使用して障害復旧を有効にする : 別の SQL Server の構成済みのバックアップ セットから常設チャット SQL Server ストアの障害復旧を展開および実装する場合は、このチェック ボックスをオンにします。 詳細については、「Configure High availability and disaster recovery for Persistent Chat Server in Skype for Business Server [2015」を参照](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)してください。
+ **バックアップ SQL Server** ストアを使用して障害復旧を有効にする: 別の SQL Server の構成済みのバックアップ セットから常設チャット SQL Server ストアの障害復旧を展開および実装する場合は、このチェック ボックスをオンにします。 詳細については、「[Configure High availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015」を参照](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)してください。
   
 > [!NOTE]
 > このオプションは、複数のサーバーを持つプールでのみ使用できます。 
@@ -40,7 +35,7 @@ ms.locfileid: "60851311"
  **このプールをサイトの既定 \<site that this server or pool is being configured in\>** として使用する: サイトの既定の常設チャット サーバーまたは常設チャット サーバー プールになる場合は、このチェック ボックスをオンにします。 サイトごとに 1 つの既定の常設チャット サーバーまたは pol が必要です。
   
 > [!NOTE]
-> トポロジに複数のサイトが含まれる場合は、[このプールをすべてのサイトで既定として使用する] チェック ボックス **も** 表示されます。
+> トポロジに複数のサイトが含まれる場合は、[このプールをすべてのサイトで既定として使用する] **チェック ボックスも** 表示されます。
   
 前のプール定義ダイアログに戻るには、[**戻る**] をクリックします。
   

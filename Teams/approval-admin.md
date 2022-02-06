@@ -1,30 +1,25 @@
 ---
 title: Teams における承認アプリケーションの利用の可否
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: farhazk
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 searchScope:
-- Microsoft Teams
+  - Microsoft Teams
 search.appverid: MET150
 description: Microsoft Teams で承認アプリケーションを使用する方法について説明します。
 ms.localizationpriority: medium
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 4c0e4ec40368b8348833b596d55f34adcb0c316d
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766390"
+  - Microsoft Teams
 ---
+
 # <a name="teams-approvals-app-availability"></a>Teams 承認アプリの利用の可否
 
 Microsoft Teams ユーザーは、個人用アプリとして承認アプリを利用することができます。
@@ -110,13 +105,13 @@ Teams アプリの承認では、次の機能にアクセスできます。
 
   1. Teams 管理センターにサインインします。
 
-  2. [アプリの **管理Teams アプリ**  >  **] に移動します**。
+  2. [アプリの **管理Teamsアプリ** > **の管理] に移動します**。
 
   3. 承認アプリを検索します。
 
      ![強調表示されている [Teams アプリ] > [アプリの管理] を使用して、管理センター ナビゲーションを表示する。](media/manage-approval-apps.png)
 
-  4. [ **承認] を選択します**。
+  4. [承認 **] を選択します**。
 
   5. 切り替えを選択して、組織のアプリを無効にします。
 
@@ -202,12 +197,12 @@ Microsoft Forms の現在の機能に基づいて、各チームには最大 400
 
 Teams 管理センターを使用して、承認アプリでユーザーが利用できるサード パーティの電子署名プロバイダーを制御できます。 既定では、承認アプリで電子署名プロバイダーが有効になります。 電子署名プロバイダーを無効にすると、ユーザーは承認を作成するときに、そのプロバイダーにアクセスできます。 また、ユーザーは、そのプロバイダーを使用して作成された電子署名要求を表示することはできません。
 
-1. 管理センターの左側のナビゲーションTeamsアプリの管理Teams **に**  >  **移動します**。
+1. 管理センターの左側のナビゲーションTeamsアプリの管理Teams **に** > **移動します**。
 2. [承認] アプリを検索し、それを選択します。
-3. [設定]**タブ** に移動し、次のいずれかの操作を行います。
+3. [**設定]タブ** に移動し、次のいずれかの操作を行います。
 
-    - Adobe Sign を有効または無効にするには、トグルを [オン] または [オフ]**に****切り替えます**。
-    - DocuSign を有効または無効にするには、トグルを [オン] または [オフ] **に** 切り **替えます**。
+    - Adobe Sign を有効または無効にするには、トグルを [オン] または [オフ **] に** 切り **替えます**。
+    - DocuSign を有効または無効にするには、トグルを [オン] または [オフ] **に切り****替えます**。
 4. [送信] **を選択します**。
 
 承認アプリから作成された電子署名の承認は、選択したプロバイダーのクラウド環境に保存されています。 電子署名に関するデータをエクスポートするには、プロバイダーのサイトに移動する必要があります。 電子署名契約の保存、エクスポート、保持の詳細については、プロバイダーのドキュメントを参照してください。

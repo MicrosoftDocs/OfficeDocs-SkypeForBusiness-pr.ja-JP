@@ -1,29 +1,24 @@
 ---
 title: オンラインサーバーとSkype for BusinessサーバーのExchange統合
 ms.reviewer: cbland
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/2/2019
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: オンプレミスとオンラインの間Exchange OAuth 認証をSkype for Businessすると、「機能のサポート」でSkype for BusinessおよびExchange統合機能を有効にします。
-ms.openlocfilehash: dfc1bf25b19779b6a568a70e2cf18287d2f95d18
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864234"
 ---
+
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>オンラインとサーバー間の統合と OAuth Skype for Business構成Exchange Server 
 
-Exchange サーバーと Skype for Business Online 間の統合を構成すると、「機能のサポート」でSkype for BusinessとExchange統合機能[を使用できます](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support)。
+Exchange と Skype for Business Online の統合を構成すると、「機能のサポート」でSkype for BusinessとExchange統合機能[を使用できます](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support)。
 
 このトピックは、2013 Exchange Server 2019 との統合に適用されます。
 
@@ -49,7 +44,7 @@ Exchange サーバーと Skype for Business Online 間の統合を構成する�
 
 この手順は、サーバー上Exchangeされます。 メール ユーザーを作成し、適切な管理役割権限を割り当てる。 このアカウントは、次の手順で使用されます。
 
-組織の検証済みドメインをExchangeします。 このドメインは、オンプレミスのサーバー アカウントで使用されるプライマリ SMTP ドメインと同じドメインExchange必要があります。 このドメインは、次の \<your Verified Domain\> 手順で参照されます。 また、ドメイン \<DomainControllerFQDN\> コントローラーの FQDN である必要があります。
+組織の検証済みドメインをExchangeします。 このドメインは、オンプレミスのサーバー アカウントで使用されるプライマリ SMTP ドメインと同じドメインExchange必要があります。 このドメインは、次の手順 \<your Verified Domain\> で参照されます。 また、ドメイン \<DomainControllerFQDN\> コントローラーの FQDN である必要があります。
 
 ```powershell
 $user = New-MailUser -Name SfBOnline-ApplicationAccount -ExternalEmailAddress SfBOnline-ApplicationAccount@<your Verified Domain> -DomainController <DomainControllerFQDN>
@@ -107,7 +102,7 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
 
 1. **[Windows PowerShell 用 Azure Active Directory モジュール]** ショートカットをクリックして、Azure AD コマンドレットがインストールされた Windows PowerShell ワークスペースを開きます。この手順のすべてのコマンドは、Azure Active Directory コンソール用の Windows PowerShell を使用して実行されます。
 
-2. 次のテキストを、たとえばという名前の PowerShell スクリプト ファイルに保存します  `UploadAuthCert.ps1` 。
+2. 次のテキストを、たとえばという名前の PowerShell スクリプト ファイルに保存します  `UploadAuthCert.ps1`。
 
    ```powershell
    Connect-MsolService;
@@ -144,11 +139,11 @@ Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-00000
 
 2. モバイル クライアントの会話履歴が [会話履歴] フォルダーに表示Outlook確認します。
 
-3. アーカイブされたチャット メッセージが [、EWSEditor](/archive/blogs/webdav_101/where-to-get-ewseditor)を使用して Purges フォルダー内のユーザーのオンプレミス メールボックスに保存されるのを確認します。
+3. アーカイブされたチャット メッセージが [、EWSEditor](/archive/blogs/webdav_101/where-to-get-ewseditor) を使用して Purges フォルダー内のユーザーのオンプレミス メールボックスに保存されるのを確認します。
 
 または、トラフィックを確認します。 OAuth ハンドシェイクのトラフィックは、実際には特徴的です (基本認証とは見なしません)、特に領域の周りでは、次のような発行者トラフィックが表示されます。000000004-00000-0ff1-ce000-000000000@ (@記号の前に / がある場合があります)、渡されるトークンで。 OAuth のポイントであるユーザー名やパスワードは表示できません。 ただし、'Office' 発行者 (この場合は '4' がSkype for Businessサブスクリプションの領域) が表示されます。
 
-OAuth が正常に使用されたことを確認する場合は、何を期待し、トラフィックの外観を知る必要があるかを確認してください。 [ここでは、Microsoft](https://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf)アプリケーションの OAuth トラフィックの標準的な例を示します (更新トークンは使用しませんが、実際に読むのに役立ちます)、OAuth JWT (JSON Web トークン) を確認できる Fiddler 拡張機能があります。 [](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34)
+OAuth が正常に使用されたことを確認する場合は、何を期待し、トラフィックの外観を知る必要があるかを確認してください。 ここでは[](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34)、Microsoft アプリケーションの [OAuth](https://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf) トラフィックの標準的な例を示します (更新トークンは使用しませんが、実際に読むのに役立ちます)、OAuth JWT (JSON Web トークン) を確認できる Fiddler 拡張機能があります。
 
 セットアップの例 [を次](/archive/blogs/kaevans/updated-fiddler-oauth-inspector)に示しますが、このプロセスを実行するには、任意のネットワーク トレース ツールを使用できます。
 

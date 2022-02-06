@@ -1,30 +1,25 @@
 ---
 title: 証明書要求 (基本)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.dep.DeployCertRequestBasics
+  - ms.lync.dep.DeployCertRequestBasics
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
 description: '[名前とセキュリティ 設定] ページには、フレンドリー名、プライベート キーと公開キーのペアのビット長のドロップダウン リスト、および証明書のプライベート キーをエクスポート可能としてマークするチェック ボックスを定義するテキスト ボックスが用意されています。'
-ms.openlocfilehash: dcb26b7ffe310b593d5e73e6602551c98cf1eb2d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865004"
 ---
+
 # <a name="certificate-request-basic"></a>証明書要求 (基本)
  
-[**名前とセキュリティ 設定]** ページには、フレンドリー名、プライベートキーと公開キーのペアのビット長のドロップダウン リスト、および証明書のプライベート キーをエクスポート可能としてマークするチェック ボックスを定義するテキスト ボックスが **用意** されています。
+[**名前とセキュリティ 設定**] ページには、フレンドリー名、プライベート キーと公開キーのペアのビット長のドロップダウン リスト、および証明書のプライベート キーをエクスポート可能としてマークするチェック ボックスを定義するテキスト ボックスが用意されています。
   
 フレンドリ名は、証明書を参照した人が証明書を簡単に識別できるようにするためのわかりやすいシンプルな名前です。
   

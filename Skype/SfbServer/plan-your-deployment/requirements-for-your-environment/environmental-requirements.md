@@ -1,34 +1,29 @@
 ---
 title: 2015 年の環境Skype for Business Server要件
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: '概要: 2015 年のサーバー以外の要件Skype for Business Serverします。 Active Directory、DNS、Certs、Fileshares など、展開を行う前に構成する必要があるさまざまなものがあります。'
-ms.openlocfilehash: 1d6e43e9ca65af85c37f262900805d9e0d3b8bfe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834985"
 ---
+
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>2015 年の環境Skype for Business Server要件
  
 **概要:** 2015 年のサーバー以外の要件Skype for Business Serverします。 Active Directory、DNS、Certs、Fileshares など、展開を行う前に構成する必要があるさまざまなものがあります。
   
-2015 年の環境要件Skype for Business Server。 このトピックでは、直接サーバー関連ではないすべてをこのトピックに追加しました。そのため、クリックする必要は大きすぎです。 サーバーの前提条件を探している場合は[、Skype for Business Server 2015](server-requirements.md)ドキュメントのサーバー要件を確認できます。ネットワーク計画も個別に[](../../plan-your-deployment/network-requirements/network-requirements.md)文書化されています。 それ以外の場合は、この記事で次の情報を参照してください。
+2015 年の環境要件Skype for Business Server。 このトピックでは、直接サーバー関連ではないすべてをこのトピックに追加しました。そのため、クリックする必要は大きすぎです。 サーバーの前提条件を探している場合は、[Skype for Business Server 2015](server-requirements.md) ドキュメントのサーバー要件を確認できます。ネットワーク計画も個別に文書化されています[](../../plan-your-deployment/network-requirements/network-requirements.md)。 それ以外の場合は、この記事で次の情報を参照してください。
   
 - [Active Directory](environmental-requirements.md#AD)
   
@@ -57,7 +52,7 @@ ms.locfileid: "60834985"
 
 では、どのドメイン コントローラー OS を使用できますか? 次の一覧があります。
 
-- WindowsServer 2019 (2015 Skype for Business Server更新プログラム 5 以降が必要)
+- Windows Server 2019 (2015 累積的Skype for Business Server 5 以降が必要です)
   
 - Windows Server 2016
     
@@ -71,7 +66,7 @@ ms.locfileid: "60834985"
     
 これで、Skype for Business Server 2015 を展開するドメインのドメイン機能レベルと、Skype for Business Server 2015 を展開するフォレストのフォレスト機能レベルは、次の 1 つである必要があります。
 
-- WindowsServer 2019 (2015 Skype for Business Server更新プログラム 5 以降が必要)
+- Windows Server 2019 (2015 累積的Skype for Business Server 5 以降が必要です)
   
 - Windows Server 2016
     
@@ -87,7 +82,7 @@ ms.locfileid: "60834985"
     
 これらの環境で読み取り専用ドメイン コントローラーを使用できますか? 確かに、書き込み可能なドメイン コントローラーがサイトと同じサイトで使用できる限りSkype for Business Server。
   
-2015 では、2015 Skype for Business Serverラベル付きドメインがサポートされていません。 その方法とは何ですか? contoso.local というラベルのルート ドメインがある場合は、問題ありません。 ローカルという名前のルート ドメインがある場合、そのドメインは機能し、その結果サポートされません。 この点についてもう少し詳しくは、この [サポート技術情報の記事で書かれています](https://support.microsoft.com/kb/300684/en-us)。
+2015 では、2015 Skype for Business Serverラベル付きドメインがサポートされていません。 その方法とは何ですか? contoso.local というラベルのルート ドメインがある場合は、問題ありません。 ローカルという名前のルート ドメインがある場合、そのドメインは機能し、その結果サポートされません。 この点についてもう少し詳しくは、この [サポート技術情報の記事を参照してください](https://support.microsoft.com/kb/300684/en-us)。
   
 Skype for Business Server 2015 では、ドメイン名の変更もサポートされていません。 実際に行う必要がある場合は、Skype for Business Server 2015 をアンインストールし、ドメイン名の変更を行い、2015 年Skype for Business Server再インストールする必要があります。
   
@@ -172,7 +167,7 @@ Skype for Business Server 2015 では、中央フォレスト トポロジで構
   
 このシナリオでは、リソース フォレスト トポロジを持つ複数のフォレストがオンプレミスにあります。 Active Directory フォレスト間には完全な信頼関係があります。 このAzure Active Directory Connectは、オンプレミスのユーザー フォレストとユーザー フォレストまたはユーザー フォレストの間でアカウントMicrosoft 365同期Office 365。
   
- また、組織はMicrosoft 365またはOffice 365し、Azure Active Directory Connectを使用して、オンプレミス[](/previous-versions/azure/azure-services/dn832695(v=azure.100))アカウントを Microsoft 365またはOffice 365。 ユーザーがオンラインで有効Skype for Businessユーザーは、Microsoft 365またはOffice 365オンラインSkype for Businessされます。 Skype for Business Serverオンプレミスでは展開されません。
+ また、組織はMicrosoft 365またはOffice 365を持ち、Azure Active Directory Connect を使用してオンプレミス [](/previous-versions/azure/azure-services/dn832695(v=azure.100)) アカウントを Microsoft 365またはOffice 365。 ユーザーがオンラインで有効Skype for Businessユーザーは、Microsoft 365またはOffice 365オンラインSkype for Businessされます。 Skype for Business Serverオンプレミスでは展開されません。
   
 シングル サインオン認証は、ユーザー フォレスト内にある Active Directory フェデレーション サービス ファームによって提供されます。
   
@@ -183,7 +178,7 @@ Skype for Business Server 2015 では、中央フォレスト トポロジで構
 
 このシナリオでは、1 つ以上のオンプレミス ユーザー フォレストが作成され、Skype for Business が専用のリソース フォレストに展開され、Skype for Business Online を使用したハイブリッド モード用に構成されます。 Exchange Serverは、同じリソース フォレストまたは別のフォレストにオンプレミスで展開できます。また、Exchange Online とハイブリッド用に構成Exchange Online。 または、電子メール サービスは、オンプレミス アカウントExchange Onlineによって排他的に提供される場合があります。
   
-詳細については、「Configure [a multi-forest environment](../../../SfbHybrid/hybrid/configure-a-multi-forest-environment-for-hybrid.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)for hybrid Skype for Business」 を参照してください。
+詳細については、「[Configure a multi-forest environment for hybrid Skype for Business](../../../SfbHybrid/hybrid/configure-a-multi-forest-environment-for-hybrid.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)。
   
 ## <a name="domain-name-system-dns"></a>ドメイン ネーム システム (DNS)
 <a name="DNS"> </a>
@@ -283,24 +278,24 @@ Skype for Business Server 2015 には、SHA-256 暗号化ハッシュ関数を�
 |**証明書**|**サブジェクト名/共通名**|**サブジェクト名の別名**|**例**|**コメント**|
 |:-----|:-----|:-----|:-----|:-----|
 |既定値  <br/> |プールの FQDN  <br/> |プールの FQDN とサーバーの FQDN  <br/> SIP ドメインが複数あり、自動クライアント構成が有効にされている場合は、証明書ウィザードで、サポートされている各 SIP ドメイン FQDN が検出され、追加されます。  <br/> このプールがクライアントの自動ログオン サーバーであり、グループ ポリシーで厳密なドメイン ネーム システム (DNS) マッチングが必要となる場合は、sip.sipdomain のエントリ (存在するそれぞれの SIP 用) も必要となります。  <br/> |SN=se01.contoso.com;SAN=se01.contoso.com  <br/> このプールがクライアントの自動ログオン サーバーであり、グループ ポリシーで厳密な DNS マッチングが必要となる場合は、SAN=sip.contoso.com、SAN=sip.fabrikam.com も必要となります。  <br/> |Standard Edition サーバーに関しては、サーバー FQDN とプール FQDN は同じです。  <br/> ウィザードは、セットアップ中に指定した SIP ドメインを検出し、サブジェクトの代替名として自動的に追加します。  <br/> この証明書は、サーバー間認証にも使用できます。  <br/> |
-|内部 Web  <br/> |サーバーの FQDN  <br/> |次のうちのすべて:  <br/> • 内部 Web FQDN (サーバーの FQDN と同じです)  <br/> AND  <br/> • 単純な URL を満たす  <br/> • ダイヤルインの簡単な URL  <br/> • 管理者の簡単な URL  <br/> または  <br/> • 単純な URL のワイルドカード エントリ  <br/> |SN=se01.contoso.com;SAN=se01.contoso.com;SAN=meet.contoso.com;SAN=meet.fabrikam.com;SAN=dialin.contoso.com;SAN=admin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN=se01.contoso.com;SAN=se01.contoso.com;SAN= \* .contoso.com  <br/> |トポロジ ビルダーで内部 Web FQDN を上書きできない。  <br/> 複数の Meet 単純な URL がある場合は、すべての URL を SAN として含める必要があります。  <br/> 簡易 URL エントリにはワイルドカード エントリがサポートされます。  <br/> |
-|外部 Web  <br/> |サーバーの FQDN  <br/> |次のうちのすべて:  <br/> • 外部 Web FQDN  <br/> AND  <br/> • ダイヤルインの簡単な URL  <br/> • SIP ドメインごとの単純な URL を満たす  <br/> または  <br/> • 単純な URL のワイルドカード エントリ  <br/> |SN=se01.contoso.com;SAN=webcon01.contoso.com;SAN=meet.contoso.com;SAN=meet.fabrikam.com;SAN=dialin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN=se01.contoso.com;SAN=webcon01.contoso.com;SAN= \* .contoso.com  <br/> |複数の Meet 単純な URL がある場合は、すべての URL をサブジェクトの代替名として含める必要があります。  <br/> 簡易 URL エントリにはワイルドカード エントリがサポートされます。  <br/> |
+|内部 Web  <br/> |サーバーの FQDN  <br/> |次のうちのすべて:  <br/> • 内部 Web FQDN (サーバーの FQDN と同じです)  <br/> AND  <br/> • 単純な URL を満たす  <br/> • ダイヤルインの簡単な URL  <br/> • 管理者の簡単な URL  <br/> または  <br/> • 単純な URL のワイルドカード エントリ  <br/> |SN=se01.contoso.com;SAN=se01.contoso.com;SAN=meet.contoso.com;SAN=meet.fabrikam.com;SAN=dialin.contoso.com;SAN=admin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN=se01.contoso.com;SAN=se01.contoso.com;SAN=\*.contoso.com  <br/> |トポロジ ビルダーで内部 Web FQDN を上書きできない。  <br/> 複数の Meet 単純な URL がある場合は、すべての URL を SAN として含める必要があります。  <br/> 簡易 URL エントリにはワイルドカード エントリがサポートされます。  <br/> |
+|外部 Web  <br/> |サーバーの FQDN  <br/> |次のうちのすべて:  <br/> • 外部 Web FQDN  <br/> AND  <br/> • ダイヤルインの簡単な URL  <br/> • SIP ドメインごとの単純な URL を満たす  <br/> または  <br/> • 単純な URL のワイルドカード エントリ  <br/> |SN=se01.contoso.com;SAN=webcon01.contoso.com;SAN=meet.contoso.com;SAN=meet.fabrikam.com;SAN=dialin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN=se01.contoso.com;SAN=webcon01.contoso.com;SAN=\*.contoso.com  <br/> |複数の Meet 単純な URL がある場合は、すべての URL をサブジェクトの代替名として含める必要があります。  <br/> 簡易 URL エントリにはワイルドカード エントリがサポートされます。  <br/> |
    
 フロントエンド プール内のフロントエンド サーバー Enterprise Edition証明書:
   
 |**証明書**|**サブジェクト名/共通名**|**サブジェクト名の別名**|**例**|**コメント**|
 |:-----|:-----|:-----|:-----|:-----|
 |既定値  <br/> |プールの FQDN  <br/> |プールの FQDN とサーバーの FQDN  <br/> SIP ドメインが複数あり、自動クライアント構成が有効にされている場合は、証明書ウィザードで、サポートされている各 SIP ドメイン FQDN が検出され、追加されます。  <br/> このプールがクライアントの自動ログオン サーバーであり、グループ ポリシーで厳密なドメイン ネーム システム (DNS) マッチングが必要となる場合は、sip.sipdomain のエントリ (存在するそれぞれの SIP 用) も必要となります。  <br/> |SN=eepool.contoso.com;SAN=eepool.contoso.com;SAN=ee01.contoso.com  <br/> このプールがクライアントの自動ログオン サーバーであり、グループ ポリシーで厳密な DNS マッチングが必要となる場合は、SAN=sip.contoso.com、SAN=sip.fabrikam.com も必要となります。  <br/> |このウィザードでは、セットアップ時に指定した SIP ドメインが検出され、サブジェクト名の別名に自動的に追加されます。  <br/> この証明書は、サーバー間認証にも使用できます。  <br/> |
-|内部 Web  <br/> |プールの FQDN  <br/> |次のうちのすべて:  <br/> • 内部 Web FQDN (サーバーの FQDN と同じではない)  <br/> • サーバー FQDN  <br/> • Skype for Business FQDN  <br/> AND  <br/> • 単純な URL を満たす  <br/> • ダイヤルインの簡単な URL  <br/> • 管理者の簡単な URL  <br/> または  <br/> • 単純な URL のワイルドカード エントリ  <br/> |SN=ee01.contoso.com;SAN=ee01.contoso.com;SAN=meet.contoso.com;SAN=meet.fabrikam.com;SAN=dialin.contoso.com;SAN=admin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN=ee01.contoso.com;SAN=ee01.contoso.com;SAN= \* .contoso.com  <br/> |複数の Meet 単純な URL がある場合は、すべての URL をサブジェクトの代替名として含める必要があります。  <br/> 簡易 URL エントリにはワイルドカード エントリがサポートされます。  <br/> |
-|外部 Web  <br/> |プールの FQDN  <br/> |次のうちのすべて:  <br/> • 外部 Web FQDN  <br/> AND  <br/> • ダイヤルインの簡単な URL  <br/> • 管理者の簡単な URL  <br/> または  <br/> • 単純な URL のワイルドカード エントリ  <br/> |SN=ee01.contoso.com;SAN=webcon01.contoso.com;SAN=meet.contoso.com;SAN=meet.fabrikam.com;SAN=dialin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN=ee01.contoso.com;SAN=webcon01.contoso.com;SAN= \* .contoso.com  <br/> |複数の Meet 単純な URL がある場合は、すべての URL をサブジェクトの代替名として含める必要があります。  <br/> 簡易 URL エントリにはワイルドカード エントリがサポートされます。  <br/> |
+|内部 Web  <br/> |プールの FQDN  <br/> |次のうちのすべて:  <br/> • 内部 Web FQDN (サーバーの FQDN と同じではない)  <br/> • サーバー FQDN  <br/> • Skype for Business FQDN  <br/> AND  <br/> • 単純な URL を満たす  <br/> • ダイヤルインの簡単な URL  <br/> • 管理者の簡単な URL  <br/> または  <br/> • 単純な URL のワイルドカード エントリ  <br/> |SN=ee01.contoso.com;SAN=ee01.contoso.com;SAN=meet.contoso.com;SAN=meet.fabrikam.com;SAN=dialin.contoso.com;SAN=admin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN=ee01.contoso.com;SAN=ee01.contoso.com;SAN=\*.contoso.com  <br/> |複数の Meet 単純な URL がある場合は、すべての URL をサブジェクトの代替名として含める必要があります。  <br/> 簡易 URL エントリにはワイルドカード エントリがサポートされます。  <br/> |
+|外部 Web  <br/> |プールの FQDN  <br/> |次のうちのすべて:  <br/> • 外部 Web FQDN  <br/> AND  <br/> • ダイヤルインの簡単な URL  <br/> • 管理者の簡単な URL  <br/> または  <br/> • 単純な URL のワイルドカード エントリ  <br/> |SN=ee01.contoso.com;SAN=webcon01.contoso.com;SAN=meet.contoso.com;SAN=meet.fabrikam.com;SAN=dialin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN=ee01.contoso.com;SAN=webcon01.contoso.com;SAN=\*.contoso.com  <br/> |複数の Meet 単純な URL がある場合は、すべての URL をサブジェクトの代替名として含める必要があります。  <br/> 簡易 URL エントリにはワイルドカード エントリがサポートされます。  <br/> |
    
 ディレクターの証明書:
   
 |**証明書**|**サブジェクト名/共通名**|**サブジェクト名の別名**|**例**|
 |:-----|:-----|:-----|:-----|
 |既定値  <br/> |ディレクター プール  <br/> |ディレクター の FQDN、ディレクター プールの FQDN。  <br/> このプールがクライアントの自動ログオン サーバーであり、グループ ポリシーで厳密な DNS 照合が必要な場合は、sip.sipdomain (ユーザーが持つ SIP ドメインごとに) のエントリも必要です。  <br/> |pool.contoso.com;SAN=dir01.contoso.com  <br/> このディレクター プールがクライアントの自動ログオン サーバーであり、グループ ポリシーで厳密な DNS マッチングが必要となる場合は、SAN=sip.contoso.com、SAN=sip.fabrikam.com も必要となります。  <br/> |
-|内部 Web  <br/> |サーバーの FQDN  <br/> |次のうちのすべて:  <br/> • 内部 Web FQDN (サーバーの FQDN と同じです)  <br/> • サーバー FQDN  <br/> • Skype for Business FQDN  <br/> AND  <br/> • 単純な URL を満たす  <br/> • ダイヤルインの簡単な URL  <br/> • 管理者の簡単な URL  <br/> または  <br/> • 単純な URL のワイルドカード エントリ  <br/> |SN=dir01.contoso.com;SAN=dir01.contoso.com;SAN=meet.contoso.com;SAN=meet.fabrikam.com;SAN=dialin.contoso.com;SAN=admin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN=dir01.contoso.com;SAN=dir01.contoso.com SAN= \* .contoso.com  <br/> |
-|外部 Web  <br/> |サーバーの FQDN  <br/> |次のうちのすべて:  <br/> • 外部 Web FQDN  <br/> AND  <br/> • SIP ドメインごとの単純な URL を満たす  <br/> • ダイヤルインの簡単な URL  <br/> または  <br/> • 単純な URL のワイルドカード エントリ  <br/> |ディレクターの外部 Web FQDN は、フロント エンド プールまたはフロント エンド サーバーとは異なる必要があります。  <br/> SN=dir01.contoso.com;SAN=directorwebcon01.contoso.com SAN=meet.contoso.com;SAN=meet.fabrikam.com;SAN=dialin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN=dir01.contoso.com;SAN=directorwebcon01.contoso.com SAN= \* .contoso.com  <br/> |
+|内部 Web  <br/> |サーバーの FQDN  <br/> |次のうちのすべて:  <br/> • 内部 Web FQDN (サーバーの FQDN と同じです)  <br/> • サーバー FQDN  <br/> • Skype for Business FQDN  <br/> AND  <br/> • 単純な URL を満たす  <br/> • ダイヤルインの簡単な URL  <br/> • 管理者の簡単な URL  <br/> または  <br/> • 単純な URL のワイルドカード エントリ  <br/> |SN=dir01.contoso.com;SAN=dir01.contoso.com;SAN=meet.contoso.com;SAN=meet.fabrikam.com;SAN=dialin.contoso.com;SAN=admin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN=dir01.contoso.com;SAN=dir01.contoso.com SAN=\*.contoso.com  <br/> |
+|外部 Web  <br/> |サーバーの FQDN  <br/> |次のうちのすべて:  <br/> • 外部 Web FQDN  <br/> AND  <br/> • SIP ドメインごとの単純な URL を満たす  <br/> • ダイヤルインの簡単な URL  <br/> または  <br/> • 単純な URL のワイルドカード エントリ  <br/> |ディレクターの外部 Web FQDN は、フロント エンド プールまたはフロント エンド サーバーとは異なる必要があります。  <br/> SN=dir01.contoso.com;SAN=directorwebcon01.contoso.com SAN=meet.contoso.com;SAN=meet.fabrikam.com;SAN=dialin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN=dir01.contoso.com;SAN=directorwebcon01.contoso.com SAN=\*.contoso.com  <br/> |
    
 スタンドアロン仲介サーバーの証明書:
   
@@ -320,7 +315,7 @@ Skype for Business Server 2015 には、SHA-256 暗号化ハッシュ関数を�
   
 ### <a name="certificates-for-external-user-access-edge"></a>外部ユーザー アクセス用の証明書 (Edge)
 
-Skype for Business Server 2015 では、アクセスおよびWeb 会議エッジの外部インターフェイスに 1 つのパブリック証明書と、エッジ サーバー経由で提供される音声ビデオ認証サービスの使用がサポートされています。 エッジ内部インターフェイスは、通常、内部 CA によって発行されたプライベート証明書を使用しますが、必要に応じて、信頼できる CA からのパブリック証明書も使用できます。
+Skype for Business Server 2015 では、アクセスおよび Web 会議エッジの外部インターフェイスに 1 つのパブリック証明書と、エッジ サーバー経由で提供される音声ビデオ認証サービスの使用がサポートされています。 エッジ内部インターフェイスは、通常、内部 CA によって発行されたプライベート証明書を使用しますが、必要に応じて、信頼できる CA からのパブリック証明書も使用できます。
   
 リバース プロキシ (RP) もパブリック証明書を使用し、RP からクライアントへの通信、および HTTP (またはより正確には HTTP 上の TLS) を使用して RP から内部サーバーへの通信を暗号化します。
   
@@ -349,7 +344,7 @@ Skype for Business Server 2015 では、アクセスおよびWeb 会議エッジ
 |内部自動検出サービスの URL  <br/> |SAN=lyncdiscoverinternal。\<sipdomain\>  <br/> |
 |外部自動検出サービスの URL  <br/> |SAN=lyncdiscover。\<sipdomain\>  <br/> |
    
-代わりに SAN= を使用できます \* 。\<sipdomain\>
+また、SAN=を使用できます\*。\<sipdomain\>
   
 リバース プロキシ (パブリック CA) 証明書の要件:
   
@@ -367,9 +362,9 @@ Skype for Business Server 2015 では、アクセスおよびWeb 会議エッジ
 
 Skype for Business Server 2015 では、すべてのファイル ストレージに同じファイル共有を使用できます。 次のことを念頭に置く必要があります。
   
-- ファイル共有は、直接接続ストレージ (DAS) または記憶域ネットワーク (SAN) 上にある必要があります。これには、分散ファイル システム (DFS) と、ファイル ストア用の独立ディスク (RAID) の冗長配列が含まれます。 DFS for Windows Server 2012については、この[DFS ページを参照してください](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11))。
+- ファイル共有は、直接接続ストレージ (DAS) または記憶域ネットワーク (SAN) 上にある必要があります。これには、分散ファイル システム (DFS) と、ファイル ストア用の独立ディスク (RAID) の冗長配列が含まれます。 DFS の詳細については、Windows Server 2012 DFS ページ[を参照してください](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11))。
     
-- ファイル共有の共有クラスターをお勧めします。 1 つを使用している場合は、R2 Windows Server 2012クラスター Windows Server 2012必要があります。 Windowsサーバー 2008 R2 も使用できます。 最新のWindows? 以前のバージョンでは、すべての機能を有効にする適切なアクセス許可がない場合があります。 クラスター管理者を使用してファイル共有を作成 [できます。この](https://support.microsoft.com/help/224967/how-to-create-file-shares-on-a-cluster) 「クラスターでファイル共有を作成する方法」の記事は、これらの詳細に役立ちます。
+- ファイル共有の共有クラスターをお勧めします。 1 つを使用している場合は、R2 Windows Server 2012クラスター Windows Server 2012必要があります。 Windows Server 2008 R2 も受け入れ可能です。 最新のWindows? 以前のバージョンでは、すべての機能を有効にする適切なアクセス許可がない場合があります。 クラスター管理者を使用してファイル共有を作成 [できます。この](https://support.microsoft.com/help/224967/how-to-create-file-shares-on-a-cluster) 「クラスターでファイル共有を作成する方法」の記事は、これらの詳細に役立ちます。
     
 > [!CAUTION] 
 > ネットワーク接続ストレージ (NAS) をファイル共有として使用する機能はサポートされていないので、上記のいずれかのオプションを使用してください。 

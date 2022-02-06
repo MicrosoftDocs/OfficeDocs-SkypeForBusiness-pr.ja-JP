@@ -1,26 +1,21 @@
 ---
 title: 高解像度の写真の使用を構成Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
 description: '概要: Exchange Server 2019、Exchange Server 2016、Exchange Server 2013、または Exchange Online および Skype for Business Server の高解像度写真の使用を構成します。'
-ms.openlocfilehash: 8a28e151d99440b1ec682eab2a473f3cffac7ac4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856994"
 ---
+
 # <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>高解像度の写真の使用を構成Skype for Business Server
  
 **概要:** Exchange Server 2019、Exchange Server 2016、Exchange Server 2013、または Exchange Online および Skype for Business Server で高解像度写真の使用を構成します。
@@ -36,7 +31,7 @@ Skype for Business Server では、写真をユーザーの Exchange Server 2019
 > [!NOTE]
 > リソースがある場合は、648 x 648 の写真をアップロードしてください。これは、2013 年の任意のアプリケーションで最大解像度と最適なOffice提供します。 サイズが 648 x 648、深度が 24 ビットの各 JPEG 写真では、ファイル サイズは約 240 キロバイトになります。 つまり、ユーザー写真 4 枚ごとに約 1 メガバイトのディスク領域が必要になります。 
   
-Exchange Web サービスを使用してアクセスされる高解像度の写真は、2013 Web App で実行しているOutlookアップロードできます。ユーザーは自分の写真のみを更新できます。 ただし、管理者は、Exchange 管理シェルと次のような一連の Windows PowerShell コマンドを使用して、すべてのユーザーの写真を更新できます。
+Exchange Web サービスを使用してアクセスされる高解像度の写真は、Outlook 2013 Web App を実行しているユーザーがアップロードできます。ユーザーは自分の写真のみを更新できます。 ただし、管理者は、Exchange 管理シェルと次のような一連の Windows PowerShell コマンドを使用して、すべてのユーザーの写真を更新できます。
   
 ```powershell
 $photo = ([Byte[]] $(Get-Content -Path "C:\Photos\Kenmyer.jpg" -Encoding Byte -ReadCount 0))
@@ -44,10 +39,10 @@ Set-UserPhoto -Identity "Ken Myer" -PictureData $photo -Preview -Confirm:$False
 Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
 ```
 
-前の例の最初のコマンドでは、コマンドレットを使用してファイルの内容を読み取り、C:\Photos\Kenmyer.jpg という名前の変数にデータ `Get-Content` を格納$photo。 2 番目のコマンドでは、Exchange コマンドレットを使用して写真をアップロードし、その写真を Ken Myer のユーザー アカウント `Set-UserPhoto` に添付します。
+前の例の最初 `Get-Content` のコマンドでは、コマンドレットを使用してファイルの内容を読み取り、C:\Photos\Kenmyer.jpg という名前の変数にデータを格納$photo。 2 番目のコマンドでは、Exchange コマンドレット`Set-UserPhoto`を使用して写真をアップロードし、その写真を Ken Myer のユーザー アカウントに添付します。
   
 > [!NOTE]
-> この例では、Ken Myer の Active Directory 表示名がユーザー アカウントの ID として使用されています。 また、その他の識別子 (ユーザーの SMTP アドレスやユーザー プリンシパル名など) を使用してユーザー アカウントを参照することもできます。 詳細については、Set-UserPhotoコマンドレットの [https://go.microsoft.com/fwlink/p/?LinkId=268536](/powershell/module/exchange/set-userphoto) ドキュメントを参照してください。
+> この例では、Ken Myer の Active Directory 表示名がユーザー アカウントの ID として使用されています。 また、その他の識別子 (ユーザーの SMTP アドレスやユーザー プリンシパル名など) を使用してユーザー アカウントを参照することもできます。 詳細については、Set-UserPhotoコマンドレットのドキュメント [https://go.microsoft.com/fwlink/p/?LinkId=268536](/powershell/module/exchange/set-userphoto) を参照してください。
   
 写真のアップロードは、その写真を Ken Myer のユーザー アカウントに割り当てる操作と同じではありません。写真のアップロードは、Outlook Web App の [オプション] ページに表示されるその写真のプレビューにすぎません。写真を実際にユーザー アカウントに割り当てるには、[オプション] ページの [**保存**] をクリックするか、例に示す 3 つ目のコマンドを管理者が実行する必要があります。3 つ目のコマンドでは、Save パラメーターを使用して写真を Ken Myer のユーザー アカウントに割り当てます。
   
@@ -55,7 +50,7 @@ Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
 Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
 ```
 
-新しい写真がユーザー アカウントに割り当てられているか確認するには、Ken Myer が Skype for Business にログオンし、[オプション] を選択し、[マイ ピクチャ] を **選択します**。 新しくアップロードされた写真が Ken の個人用の写真として表示されるはずです。 また、管理者が Internet Explorer を起動し、次のような URL にアクセスしてユーザーの写真を確認することもできます。
+新しい写真がユーザー アカウントに割り当てられているのを確認するには、Ken Myer が Skype for Business にログオンし、[オプション] を選択し、[マイ ピクチャ] を **選択します**。 新しくアップロードされた写真が Ken の個人用の写真として表示されるはずです。 また、管理者が Internet Explorer を起動し、次のような URL にアクセスしてユーザーの写真を確認することもできます。
   
 ```console
 https://atl-mail-001.litwareinc.com/ews/Exchange.asmx/s/GetUserPhoto?email=kenmyer@litwareinc.com&size=HR648x648

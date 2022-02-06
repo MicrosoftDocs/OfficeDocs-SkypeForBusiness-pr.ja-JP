@@ -1,28 +1,23 @@
 ---
 title: Microsoft Teams でタグを管理する
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
-ms.reviewer: acolonna, salu
+ms.reviewer: 'acolonna, salu'
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-- M365-collaboration
-- Teams_ITAdmin_Help
+  - M365-collaboration
+  - Teams_ITAdmin_Help
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams で組織でのタグの使用方法を管理する方法について説明します。
-ms.openlocfilehash: 6d5ec8407dd413b2850603ad1eb7c6424e1d483d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856384"
 ---
+
 # <a name="manage-tags-in-microsoft-teams"></a>Microsoft Teams でタグを管理する
 
 ## <a name="overview"></a>概要

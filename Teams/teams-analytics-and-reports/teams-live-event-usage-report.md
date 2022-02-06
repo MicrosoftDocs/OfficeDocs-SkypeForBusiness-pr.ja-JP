@@ -1,28 +1,22 @@
 ---
 title: Microsoft Teamsイベント使用状況レポートを作成する
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: svemu
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 description: Microsoft Teams 管理センターで Teams ライブ イベント使用状況レポートを使用して、組織内の Teams ライブ イベント アクティビティの概要を取得する方法について説明します。
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2e2b9d4a9f60b905e03ee27397e24feb74ac3c17
-ms.sourcegitcommit: b3b295557d494f77a7ebd9f49ec55f2507da956c
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/22/2021
-ms.locfileid: "61135230"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teamsイベント使用状況レポートを作成する
 
@@ -30,12 +24,12 @@ Teams センターのライブ イベント使用状況レポートMicrosoft Tea
 
 ## <a name="view-the-live-event-usage-report"></a>ライブ イベント使用状況レポートを表示する
 
-1. Microsoft Teams 管理センターの左側のナビゲーションで、**[分析 & レポート]** > **[使用状況レポート]** をクリックします。 [レポート **の表示] タブの**[レポート **] で**、[ライブ イベントTeams **を選択します**。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、**[分析 & レポート]** > **[使用状況レポート]** をクリックします。 [レポート **の表示] タブ** の [レポート **] で、[** ライブ イベントTeams **を選択します**。
 2. [ **日付範囲] で**、定義済みの範囲を選択するか、ユーザー設定の範囲を設定します。 現在の日付の前と後に最大 1 年、6 か月のデータを表示する範囲を設定できます。
 3. (省略可能)[ **開催者**] で、特定のユーザーによって編成されたライブ イベントのみを表示することができます。
 4. [レポートの **実行] をクリックします**。  
 
-   :::image type="content" alt-text="吹き出しTeams付き、管理センターのライブ イベントTeamsレポートのスクリーンショット。" source="../media/teams-live-event-usage-report-with-callouts.png" lightbox="../media/teams-live-event-usage-report-with-callouts.png":::
+   :::image type="content" alt-text="吹き出しTeams付きビデオ管理センターのライブ イベントTeamsレポートのスクリーンショット。" source="../media/teams-live-event-usage-report-with-callouts.png" lightbox="../media/teams-live-event-usage-report-with-callouts.png":::
 
 ## <a name="interpret-the-report"></a>レポートを解釈する
 

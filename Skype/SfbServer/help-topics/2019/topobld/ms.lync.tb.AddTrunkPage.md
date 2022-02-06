@@ -1,27 +1,22 @@
 ---
 title: 新しいトランクを定義する
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddTrunkPage
+  - ms.lync.tb.AddTrunkPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e5d97b27-5ae8-41e0-8ee9-0c3f6d5dd123
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 以下の情報を指定することにより、新しいセッション開始プロトコル (SIP) トランクを定義します。
-ms.openlocfilehash: 7e6c80b3f5762dc409a47ee4b9e6f7ff9053b84c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836899"
 ---
+
 # <a name="define-a-new-trunk"></a>新しいトランクの定義
 
 以下の情報を指定することにより、新しいセッション開始プロトコル (SIP) トランクを定義します。
@@ -36,7 +31,7 @@ ms.locfileid: "60836899"
 
 - **関連する仲介サーバー**: 展開で展開および構成されている仲介サーバーを一覧から選択します。
 
-- **関連付けられた仲介サーバー** のポート: この SIP トランクで使用する仲介サーバーの TCP または TLS ポート値とポート値を設定します。
+- **関連付けられた仲介サーバー** のポート: この SIP トランクが使用する仲介サーバーの TCP ポートまたは TLS ポート値と同じポート値を設定します。
 
 ## <a name="see-also"></a>関連項目
 

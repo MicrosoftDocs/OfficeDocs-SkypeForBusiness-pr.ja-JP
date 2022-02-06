@@ -1,29 +1,24 @@
 ---
 title: クライアント ブートストラップ ポリシーの構成
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 45042eca-b845-4207-b12f-b8b7f5d44bdf
 description: '概要: グループ ポリシーを管理する方法。'
-ms.openlocfilehash: 073bd23219b3fa0a39ed06a94a5ef0586a740e6d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831651"
 ---
+
 # <a name="configure-client-bootstrapping-policies"></a>クライアント ブートストラップ ポリシーの構成
  
 **概要:** グループ ポリシーを管理する方法。
   
-グループ ポリシー管理コンソール (GPMC) とグループ ポリシー オブジェクト エディターは、グループ ポリシーの管理に使用するツールです。 Office グループ ポリシー管理テンプレートには、ドメイン内のグループ ポリシー オブジェクト用に構成する Skype for Business のレジストリ ベースのポリシー設定が含まれる lync16.admx (ADMX) と .adml (ADML) 管理用テンプレートが含まれます。 ADML ファイルは、ADMX ファイルの言語固有の補数です。 各 ADMX ファイルと ADML ファイルには、1 つのアプリケーションのポリシー設定Officeがあります。 Microsoft ダウンロード[センター Office 2016 管理用テンプレート ファイル (ADMX/ADML)](https://www.microsoft.com/download/details.aspx?id=49030)を無料でダウンロードできます。
+グループ ポリシー管理コンソール (GPMC) とグループ ポリシー オブジェクト エディターは、グループ ポリシーの管理に使用するツールです。 Office グループ ポリシー管理テンプレートには、ドメイン内のグループ ポリシー オブジェクト用に構成する Skype for Business のレジストリ ベースのポリシー設定が含まれる lync16.admx (ADMX) と .adml (ADML) 管理用テンプレートが含まれます。 ADML ファイルは、ADMX ファイルの言語固有の補数です。 各 ADMX ファイルと ADML ファイルには、1 つのアプリケーションのポリシー設定Officeがあります。 Microsoft ダウンロード [センター Office 2016 管理用テンプレート ファイル (ADMX/ADML)](https://www.microsoft.com/download/details.aspx?id=49030) を無料でダウンロードできます。
   
 クライアントSkype for Business、ユーザーが初めてサーバーにサインインする前に構成を検討する必要があるいくつかのクライアント ブートストラップ ポリシーがあります。 たとえば、サインインが完了するまでクライアントが使用する既定のサーバーとセキュリティ モードです。 グループ ポリシーを使用して、ユーザーがサインインし、サーバーからインバンド プロビジョニング設定の受信を開始する前に、ユーザーのコンピューター レジストリでこれらの設定を確立できます。 次の表に、グループ ポリシーで使用できるグループ ポリシー設定を示Skype for Business。
   

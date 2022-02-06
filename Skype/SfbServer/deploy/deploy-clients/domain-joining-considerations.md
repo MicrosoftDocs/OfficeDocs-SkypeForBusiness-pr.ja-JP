@@ -1,25 +1,20 @@
 ---
-title: SkypeRoom System ドメイン参加に関する考慮事項
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype Room System ドメイン参加に関する考慮事項
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: このトピックでは、Room System アプライアンス PC をドメインにSkypeする方法について説明します。
-ms.openlocfilehash: d3c94a4983bddb051bda29badf5c569eeef635a3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844870"
 ---
-# <a name="skype-room-system-domain-joining-considerations"></a>SkypeRoom System ドメイン参加に関する考慮事項
+
+# <a name="skype-room-system-domain-joining-considerations"></a>Skype Room System ドメイン参加に関する考慮事項
  
 このトピックでは、Room System アプライアンス PC をドメインにSkypeする方法について説明します。
   

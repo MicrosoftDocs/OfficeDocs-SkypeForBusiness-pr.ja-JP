@@ -1,38 +1,33 @@
 ---
 title: 移植の詳細
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
-ms.reviewer: tonysmit,jastark
+ms.reviewer: 'tonysmit,jastark'
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-- M365-voice
+  - M365-voice
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 f1.keywords:
-- CSH
+  - CSH
 ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: 電話番号を電話番号に移植するために必要なガイダンスをMicrosoft Teams。
-ms.openlocfilehash: 362f7865f820e91e911791685293b7ca9c1786cd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848180"
 ---
+
 # <a name="more-information-about-porting"></a>移植の詳細
 
 電話番号を電話番号に移植する方法の詳細については、こちらをMicrosoft Teams。
 
-詳細な手順については、「電話番号を電話番号に転送する」を[参照Teams。](transfer-phone-numbers-to-teams.md)
+詳しい手順については、「電話番号を電話番号に転送する」を[参照Teams](transfer-phone-numbers-to-teams.md)。
 
-サポートが必要な場合、またはさらに電話番号を取得する必要がある場合は [、TNS Service Desk のヘルプ にお問い合わせください](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。
+サポートが必要な場合、または電話番号を追加する必要がある場合は、 [TNS Service Desk のヘルプにお問い合わせください](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。
 
 ## <a name="port-order-account-information"></a>ポート注文アカウント情報
 

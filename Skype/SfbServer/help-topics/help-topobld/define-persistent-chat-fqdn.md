@@ -1,27 +1,22 @@
 ---
 title: 常設チャットの FQDN の定義
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddPersistentChatFqdnPage
+  - ms.lync.tb.AddPersistentChatFqdnPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e0123fa6-008b-430e-a68b-61f0cc3fb12e
-description: 新しい常設チャット サーバーまたは常設チャット サーバー プールを作成するには、[新しい常設チャット プールの定義] ウィザードを使用します。 [複数のコンピューター プール] または [単一のコンピューター プール] を選択します。 1 つのコンピューター プールを選択し、後で複数のコンピューター プールが必要な場合は、1 つのコンピューター プールを削除してから、複数のコンピューター プールを定義する必要があります。
-ms.openlocfilehash: 44d8fd7647068c98855a2d06f64a2d8f519f2da5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851321"
+description: '新しい常設チャット サーバーまたは常設チャット サーバー プールを作成するには、[新しい常設チャット プールの定義] ウィザードを使用します。 [複数のコンピューター プール] または [単一のコンピューター プール] を選択します。 1 つのコンピューター プールを選択し、後で複数のコンピューター プールが必要な場合は、1 つのコンピューター プールを削除してから、複数のコンピューター プールを定義する必要があります。'
 ---
+
 # <a name="define-persistent-chat-fqdn"></a>常設チャットの FQDN の定義
  
 新しい常設チャット サーバーまたは常設チャット サーバー プールを作成するには、[新しい常設チャット プールの定義] ウィザード **を使用** します。 [複数のコンピューター プール **] または [単一** の **コンピューター プール] を選択します**。 1 つのコンピューター プールを選択し、後で複数のコンピューター プールが必要な場合は、1 つのコンピューター プールを削除してから、複数のコンピューター プールを定義する必要があります。

@@ -1,24 +1,19 @@
 ---
 title: Mac クライアント エクスペリエンスをカスタマイズSkype for Business
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: PhillipGarding
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: この記事では、Mac クライアントで使用できるクライアントの基本設定と既定値Skype for Businessアプリの外部から編集する方法について説明します。
-ms.openlocfilehash: 909756b25f9ad3ee17536f24a4143b5b72180918
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838349"
 ---
+
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Mac クライアント エクスペリエンスをカスタマイズSkype for Business
  
 この記事では、Mac クライアントで使用できるクライアントの基本設定と既定値Skype for Businessアプリの外部から編集する方法について説明します。
@@ -36,14 +31,14 @@ Mac クライアントで使用できる特定の機能Skype for Business動作�
 
 | キー | 型 | 値 | 説明 |
 |:-----|:-----|:-----|:-----|
-|autoDetectAutoDicoveryURLs    |ブール    |0 = 手動サーバー構成  <br/> 1 = サーバーの自動検出 (既定)    |サインイン時Skype for Business使用するトランスポートとサーバーを識別する方法を指定します。 このポリシー設定を有効にする場合は **、internalAutoDiscoveryURL** と **externalAutoDiscoveryURL を指定する必要があります**。   |
+|autoDetectAutoDicoveryURLs    |ブール    |0 = 手動サーバー構成  <br/> 1 = サーバーの自動検出 (既定)    |サインイン時Skype for Business使用するトランスポートとサーバーを識別する方法を指定します。 このポリシー設定を有効にする場合は、 **internalAutoDiscoveryURL** と **externalAutoDiscoveryURL を指定する必要があります**。   |
 |internalAutoDiscoveryURL    |String    |完全自動検出 URL    |内部自動検出 URL    |
 |externalAutoDiscoveryURL    |String    |完全自動検出 URL    |外部自動検出 URL    |
 |httpProxyDomain    |String    ||HTTP プロキシ ドメイン    |
 |httpProxyUserName    |String    ||HTTP プロキシのユーザー名    |
 |httpProxyPassword    |String    ||HTTP プロキシ パスワード    |
 |trustedDomainList    |配列    ||HTTP リダイレクトの信頼できるドメインの一覧。    |
-|autoAcceptTimeout    |数値    |300 (既定)    |サーバー側の会話履歴のないユーザーの自動受け入れタイムアウト。    |
+|autoAcceptTimeout    |番号    |300 (既定)    |サーバー側の会話履歴のないユーザーの自動受け入れタイムアウト。    |
 |warnWhenUnknownLocationForE911    |ブール    |0 = 無効  <br/> 1 = 有効    |不明な場所から緊急電話番号をダイヤルするときにユーザーに警告します。    |
 |sipAddress    |String    ||サインインに使用する SIP アドレス (電子メール) Skype for Business。    |
 |userName    |String    ||ユーザーがサインインするために使用する UPN (UserName) Skype for Business。    |

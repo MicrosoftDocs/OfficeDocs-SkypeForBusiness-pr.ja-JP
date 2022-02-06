@@ -1,34 +1,29 @@
 ---
 title: Web 会議 (計画ツール)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.plan.WebConferencing
-- ms.lync.plan.WebConferencing
+  - ms.lync.plan.WebConferencing
+  - ms.lync.plan.WebConferencing
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: Skype for Business Server会議には、ドキュメントの共同作業、アプリケーション共有、デスクトップ共有が含まれます。
-ms.openlocfilehash: b6300fc1ee1ed8d815fe4358ba036ff440000dde
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837189"
 ---
+
 # <a name="web-conferencing-planning-tool"></a>Web 会議 (計画ツール)
  
 Skype for Business Server会議には、ドキュメントの共同作業、アプリケーション共有、デスクトップ共有が含まれます。
   
 > [!NOTE]
-> Skype for Business Server Web Apps Office Web Apps サーバーを使用してOfficeプレゼンテーションの共有とレンダリングを処理PowerPointします。 Web 会議機能は、Microsoft Lync 2013 とまったく同じように機能します。 Web Apps Server のインストールと構成の詳細については、「Office Web Apps Server および[Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013)との統合Office構成する」を参照してください。 
+> Skype for Business Server Web Apps Office Web Apps サーバーを使用してOfficeプレゼンテーションの共有とレンダリングを処理PowerPointします。 Web 会議機能は、Microsoft Lync 2013 とまったく同じように機能します。 Web Apps Server のインストールと構成の詳細については、「Office [Web Apps Office Server および Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013) との統合の構成」を参照してください。 
   
 組織で Web 会議を有効にする方法の詳細については、次のトピックを参照してください。 
   

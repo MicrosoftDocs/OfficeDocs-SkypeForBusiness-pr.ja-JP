@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams からサインアウトする
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -12,18 +12,13 @@ description: Microsoft Teams からサインアウトする方法について説
 ms.custom: seo-marvel-apr2020
 ms.localizationpriority: high
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 f1.keywords:
-- NOCSH
+  - NOCSH
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: ba5789dac9d54de153c6d4c712a2d68367ad79c0
-ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
-ms.translationtype: HT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "61513598"
+  - Microsoft Teams
 ---
+
 # <a name="sign-out-of-microsoft-teams"></a>Microsoft Teams からサインアウトする
 
 ユーザーがチャット、着信通話、その他のアクティビティを引き続き受信したい場合は、Microsoft Teams アプリにサインインしたままにすることをお勧めします。 いくつかの理由のために、ユーザーが、 Teams アプリケーションからサインアウトすることが必要な場合があることでしょう。

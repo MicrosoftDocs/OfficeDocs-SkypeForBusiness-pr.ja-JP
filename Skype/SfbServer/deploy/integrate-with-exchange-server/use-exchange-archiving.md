@@ -1,26 +1,21 @@
 ---
 title: アーカイブSkype for Business Server使用するExchange Server構成する
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
 description: '概要: 2016 年または 2016 年Exchange Server 2013 年および 2013 年Exchange Server IM トランスクリプトを構成Skype for Business Server。'
-ms.openlocfilehash: 0b154c9184002cf663d61395277471f8a927c556
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840589"
 ---
+
 # <a name="configure-skype-for-business-server-to-use-exchange-server-archiving"></a>アーカイブSkype for Business Server使用するExchange Server構成する
 
 **概要:** 2016 年または 2016 年Exchange Server 2013 年およびExchange Serverの IM トランスクリプトをSkype for Business Server。
@@ -28,7 +23,7 @@ ms.locfileid: "60840589"
 Skype for Business Server管理者は、インスタント メッセージングと Web 会議のトランスクリプトを、SQL Server データベースではなく、ユーザーの Exchange Server 2016 または Exchange Server 2013 メールボックスにアーカイブするオプションを提供します。 管理者がこのオプションを有効にすると、トランスクリプトはユーザーのメールボックスの Purges フォルダーに書き込まれます。 Purges フォルダーは、Recoverable Items フォルダーにある隠しフォルダーです。 このフォルダーはエンド ユーザーには表示されませんが、フォルダーは Exchange 検索エンジンによってインデックス付けされ、Exchange メールボックス検索および/または 2013 年Microsoft SharePoint Server使用して検出できます。 Exchange In-Place 保留機能 (電子メールなどの Exchange 通信のアーカイブを担当する) で使用される同じフォルダーに情報が格納されるので、管理者は 1 つのツールを使用して、ユーザーにアーカイブされた電子通信を検索できます。
 
 > [!IMPORTANT]
-> 会話のアーカイブを完全に無効にするには、会話履歴も無効にする必要があります。 詳細については[、「Skype for Business Server](/previous-versions/office/lync-server-2013/lync-server-2013-managing-the-archiving-of-internal-and-external-communications) [、New-CsClientPolicy、](/powershell/module/skype/new-csclientpolicy?view=skype-ps)[および Set-CsClientPolicy](/powershell/module/skype/set-csclientpolicy?view=skype-ps)での内部および外部通信のアーカイブの管理」を参照してください。
+> 会話のアーカイブを完全に無効にするには、会話履歴も無効にする必要があります。 詳細については、「[Skype for Business Server](/previous-versions/office/lync-server-2013/lync-server-2013-managing-the-archiving-of-internal-and-external-communications)、[New-CsClientPolicy](/powershell/module/skype/new-csclientpolicy?view=skype-ps)、[Set-CsClientPolicy](/powershell/module/skype/set-csclientpolicy?view=skype-ps) での内部および外部通信のアーカイブの管理」を参照してください。
 
 トランスクリプトをサーバーにアーカイブするにはExchange Serverサーバー間認証をサーバー間で構成し、Skype for Business ServerをExchange Server。 サーバー間認証が実行された後、Skype for Business Server で次のタスクを実行できます (セットアップと構成によっては、これらのタスクの一部を完了する必要が生じない場合があります)。
 
@@ -42,11 +37,11 @@ Skype for Business Server管理者は、インスタント メッセージング
 
 アーカイブは、Skype for Business Server構成設定を使用して主に管理されます。 これらの設定をインストールSkype for Business Server、これらの設定の単一のグローバル コレクションが自動的に与えられる。 (管理者は、必要に応じて、サイト スコープでアーカイブ設定の新しいコレクションを作成できます)。既定では、グローバル設定ではアーカイブは有効にされません。また、これらのExchangeでアーカイブが有効になっている場合もありません。 このアーカイブを使用Exchange管理者は、これらの構成設定で EnableArchiving プロパティと EnableExchangeArchiving プロパティの両方を構成する必要があります。 EnableArchiving プロパティは、次の 3 つの値のいずれかを設定できます。
 
-- **なし 。** アーカイブは無効です。 これは既定の値です。 EnableArchiving が None に設定されている場合、アーカイブ データベースまたはアーカイブ データベースにアーカイブSkype for Business Server何もアーカイブExchange Server。
+- **なし**。 アーカイブは無効です。 これは既定の値です。 EnableArchiving が None に設定されている場合、アーカイブ データベースまたはアーカイブ データベースにアーカイブSkype for Business Server何もアーカイブExchange Server。
 
-- **ImOnly**. インスタント メッセージトランスクリプトだけがアーカイブされます。 アーカイブExchange有効になっている場合、これらのトランスクリプトは、アーカイブにアーカイブExchange Server。 アーカイブExchange無効になっている場合、これらのトランスクリプトはアーカイブにアーカイブSkype for Business Server。
+- **ImOnly**。 インスタント メッセージトランスクリプトだけがアーカイブされます。 アーカイブExchange有効になっている場合、これらのトランスクリプトは、アーカイブにアーカイブExchange Server。 アーカイブExchange無効になっている場合、これらのトランスクリプトはアーカイブにアーカイブSkype for Business Server。
 
-- **ImAndWebConf**. インスタント メッセージトランスクリプトと Web 会議トランスクリプトの両方がアーカイブされます。 アーカイブExchange有効になっている場合、これらのトランスクリプトはアーカイブにアーカイブExchange Server。 アーカイブExchange無効になっている場合、これらのトランスクリプトはアーカイブにアーカイブSkype for Business Server。
+- **ImAndWebConf**。 インスタント メッセージトランスクリプトと Web 会議トランスクリプトの両方がアーカイブされます。 アーカイブExchange有効になっている場合、これらのトランスクリプトはアーカイブにアーカイブExchange Server。 アーカイブExchange無効になっている場合、これらのトランスクリプトはアーカイブにアーカイブSkype for Business Server。
 
 EnableExchangeArchiving プロパティはブール値です。EnableExchangeArchiving を True ($True) に設定して Exchange アーカイブを有効にするか、EnableExchangeArchiving を False ($False) に設定して Exchange アーカイブを無効にします。 たとえば、このコマンドを使用すると、インスタント メッセージング トランスクリプトのアーカイブが有効にされ、次のExchangeできます。
 
@@ -106,19 +101,19 @@ New-CsArchivingPolicy -Identity "RedmondArchivingPolicy" -ArchiveInternal $True 
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName  "RedmondArchivingPolicy"
 ```
 
-アーカイブ ポリシーは、[コントロール パネル] コントロール パネルを使用Skype for Business Server管理することもできます。 コントロール パネル内で、[**監視およびアーカイブ**] をクリックし、[**アーカイブ ポリシー**] をクリックします。 既存のポリシーを変更するには、ポリシー ([グローバル] など) をダブルクリックし、[**アーカイブ ポリシーの編集**] ウィンドウで、[**内部通信をアーカイブする**] および [**外部通信をアーカイブする**] チェック ボックスを必要に応じてオンまたはオフにします。 新しいアーカイブ ポリシーを作成するには、[新規] **をクリック** し、[サイト ポリシー] または [ **ユーザー ポリシー]** **を選択します**。 新しいユーザー ポリシーを作成した場合は、適切なユーザー アカウントに ([**ユーザー**] タブから) アクセスし、ユーザーに新しいポリシーを割り当てる必要があります。
+アーカイブ ポリシーは、[コントロール パネル] コントロール パネルを使用Skype for Business Server管理することもできます。 コントロール パネル内で、[**監視およびアーカイブ**] をクリックし、[**アーカイブ ポリシー**] をクリックします。 既存のポリシーを変更するには、ポリシー ([グローバル] など) をダブルクリックし、[**アーカイブ ポリシーの編集**] ウィンドウで、[**内部通信をアーカイブする**] および [**外部通信をアーカイブする**] チェック ボックスを必要に応じてオンまたはオフにします。 新しいアーカイブ ポリシーを作成するには、[新規 **] をクリック** し、[サイト ポリシー] または [ **ユーザー ポリシー]** **を選択します**。 新しいユーザー ポリシーを作成した場合は、適切なユーザー アカウントに ([**ユーザー**] タブから) アクセスし、ユーザーに新しいポリシーを割り当てる必要があります。
 
 ## <a name="step-3-configuring-the-exchangearchivingpolicy-property"></a>手順 3: ExchangeArchivingPolicy プロパティを構成する
 
-複数Skype for Business ServerおよびExchange Serverフォレストにある場合は、アーカイブ構成設定でアーカイブを有効Exchangeするだけでは十分ではありません。インスタント メッセージングや Web 会議のトランスクリプトが、インスタント メッセージングや Web 会議のトランスクリプトExchange。 代わりに、関連する各ユーザー アカウントで ExchangeArchivingPolicy プロパティSkype for Business Server必要があります。 このプロパティは、次の 4 つの値のいずれかを設定できます。
+Skype for Business Server と Exchange Server が異なるフォレストにある場合は、アーカイブ構成設定で Exchange アーカイブを有効にするだけでは十分ではありません。Exchange ではインスタント メッセージングと Web 会議トランスクリプトがアーカイブされません。 代わりに、関連する各ユーザー アカウントで ExchangeArchivingPolicy プロパティSkype for Business Server必要があります。 このプロパティは、次の 4 つの値のいずれかを設定できます。
 
-1. **初期化されていない .** アーカイブがユーザーのメールボックス用に構成In-Place保持設定に基づくExchangeします。ユーザーIn-Placeメールボックスで保留が有効になっていない場合、ユーザーはメッセージングと Web 会議のトランスクリプトを Skype for Business Server にアーカイブします。
+1. **初期化されていない**。 アーカイブは、ユーザーの Exchange メールボックス用に構成された In-Place 保留設定に基づいて行います。ユーザーのメールボックスで In-Place 保留が有効になっていない場合、ユーザーはメッセージングと Web 会議トランスクリプトを Skype for Business Server にアーカイブします。
 
 2. **UseLyncArchivingPolicy**. ユーザーのインスタント メッセージングと Web 会議のトランスクリプトを、Skype for Business Serverではなく、Exchange。
 
-3. **NoArchiving**. ユーザーのインスタント メッセージングと Web 会議のトランスクリプトをアーカイブしなけろと示します。 この設定は、ユーザーに割り当Skype for Business Serverアーカイブ ポリシーを上書きします。
+3. **NoArchiving**。 ユーザーのインスタント メッセージングと Web 会議のトランスクリプトをアーカイブしなけろと示します。 この設定は、ユーザーに割り当Skype for Business Serverアーカイブ ポリシーを上書きします。
 
-4. **ArchivingToExchange**. ユーザーのメールボックスに割り当てられている (または割り当てられていない) In-Place 保留設定に関係なく、ユーザーのインスタント メッセージングおよび Web 会議トランスクリプトを Exchange にアーカイブする必要があります。
+4. **ArchivingToExchange**。 ユーザーのメールボックスに割り当てられている (または割り当てられていない) In-Place 保留設定に関係なく、ユーザーのインスタント メッセージングおよび Web 会議トランスクリプトを Exchange にアーカイブする必要があります。
 
 たとえば、インスタント メッセージングと Web 会議のトランスクリプトが常に Exchange にアーカイブされるユーザー アカウントを構成するには、Skype for Business Server 管理シェルから次のようなコマンドを使用できます。
 

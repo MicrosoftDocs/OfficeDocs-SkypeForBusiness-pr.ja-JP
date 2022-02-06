@@ -1,29 +1,24 @@
 ---
 title: 2015 Skype for Business Serverの展開
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 0cf43c54-e544-40c5-8659-a876f614a3b3
 description: '概要: これらのリンクを参照して、2015 年 2015 年のバージョンをインストールして構成し、Skype for Business Serverバージョンの Lync Server からアップグレードする方法について説明します。'
-ms.openlocfilehash: 67643b7f28ea3155c9867dd7a4107e4630ddab15
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863084"
 ---
+
 # <a name="deploy-skype-for-business-server-2015"></a>2015 Skype for Business Serverの展開
  
 **概要:** これらのリンクを参照して、2015 年 2015 年Skype for Business Serverをインストールして構成し、以前のバージョンの Lync Server からアップグレードする方法について説明します。
