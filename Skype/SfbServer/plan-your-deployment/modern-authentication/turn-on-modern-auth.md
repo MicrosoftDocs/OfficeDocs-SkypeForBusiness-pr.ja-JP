@@ -1,26 +1,21 @@
 ---
 title: ネットワークに対してレガシ認証方法を内部および外部でオフにする計画
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.custom: tracyp
-ms.assetid: ''
+ms.assetid: null
 description: この記事では、管理者がビジネスの内部および外部で使用される認証方法の制御を管理者に提供するコマンドレットの概要を説明します。 管理者は、認証方法を内部的または外部的にネットワークに対してオンまたはオフにできます。
-ms.openlocfilehash: 845af6891d7da419ffd6fc5a4f663cfc2b61a01a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835065"
 ---
+
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>従来の認証方法をネットワークに対して内部および外部でオフにする計画。
 
 > [!NOTE]
@@ -47,7 +42,7 @@ ms.locfileid: "60835065"
 これらのトポロジは、このシナリオに関連するサポートされているトポロジです。 たとえば、メソッドのブロックに関するヘルプのサポートに移動する必要がある場合は、以下の種類の間で構成する必要があります。 
 
 > [!IMPORTANT]
-> 以下の表と説明では、モダン認証は MA と省略され、Windows認証はWin と省略 __されます__。 注意点として、Windows統合認証は、NTLM 認証と Kerberos 認証の 2 つの方法で構成されます。 テーブルを正しく読み取るには、これを知る必要があります。
+> 次の表と説明では、モダン認証は MAと省略されWindows統合認証は Win と省略 __されます__。 注意点として、Windows統合認証は、NTLM 認証と Kerberos 認証の 2 つの方法で構成されます。 テーブルを正しく読み取るには、これを知る必要があります。
 
 
 |       |外部的  |内部的に  |パラメーター  |
@@ -58,15 +53,15 @@ ms.locfileid: "60835065"
 |__タイプ 4__   |  MA       | Win        | BlockWindowsAuthExternallyAndModernAuthInternally    |
 |__タイプ 5__   |  MA + Win       | Win        | BlockModernAuthInternally         |
 
-__タイプ 1 Description:__ これは、既定のシナリオで、MA __に対__ して有効Skype for Business Server。 つまり、この設定が構成されている場合のMAです。
+__タイプ 1 Description:__ これは、既定のシナリオで、__MAに対__ して有効Skype for Business Server。 つまり、この設定が構成されている場合のMAです。
 
-__タイプ 2 Description:__ このトポロジは *NTLM* を外部でブロックしますが、NTLM または Kerberos (ADAL をサポートしないクライアントの場合) は内部的に *動作します*。 クライアントが ADAL をサポートしている場合は、内部MA使用します。
+__タイプ 2 Description:__ このトポロジは *NTLM を* 外部でブロックしますが、NTLM または Kerberos (ADAL をサポートしないクライアントの場合) は内部で *動作できます*。 クライアントが ADAL をサポートしている場合は、内部MA使用します。
 
 __タイプ 3 Description:__ このトポロジでは、すべてのユーザー MAを使用する必要があります。 ADAL 対応のすべてのクライアントは、このトポロジで動作し、たとえば、証明書ベースの Auth でパスワードの使用をオフにした場合、パスワードは活用されません。
 
 __タイプ 4 Description:__ このトポロジでは、NTLM が外部で *ブロックされ* 、MAブロックされます。 これにより、 *すべてのクライアントが* 内部で従来の認証 *方法を使用* できます (ADAL 対応のクライアントでも)。
 
-__タイプ 5 説明:__ *外部* では、モダン ADAL クライアントは MA を使用し、ADAL をサポートしないクライアントはレガシ認証方法を使用します。 ただし、*内部的には、**すべてのクライアント* がレガシ認証 (すべての ADAL 対応クライアントを含む) を使用します。
+__タイプ 5 Description:__ *外部* では、モダン ADAL クライアントは MA を使用し、ADAL をサポートしないクライアントはレガシ認証方法を使用します。 ただし、*内部的には、**すべてのクライアント* がレガシ認証 (すべての ADAL 対応クライアントを含む) を使用します。
 
 利用可能なオプションでパスワードを保護する目的を見失うのはかなり簡単です。 DOS 攻撃を回避するには、外部MA (たとえば、証明書ベースの認証を構成する) を使用するのが理想的な状況です。 最新のクライアントに対して内部的に活用する場合は、DOS 攻撃に関するネットワークSkype for Business Serverします。
 
@@ -107,7 +102,7 @@ __タイプ 5 説明:__ *外部* では、モダン ADAL クライアントは M
 
 - コマンドの使用方法、またはコマンドのインストールに必要な CU の詳細については、次の手順を実行します。
     - [コマンドレットのブリーフィング](https://support.microsoft.com/help/4346673/new-cmdlets-to-manage-skype-for-business-server-2015-authentication)
-    - [2015 Skype for Business Serverの更新](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)プログラム (全般)
+    - [2015 Skype for Business Server更新](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)プログラム (全般)
     - [2018 年 7 Skype for Business Server 2015 年](https://support.microsoft.com/help/4340903/july-2018-cumulative-update-6-0-9319-534-for-skype-for-business-server)コア コンポーネント CU (6.0.9319.534)
 
 

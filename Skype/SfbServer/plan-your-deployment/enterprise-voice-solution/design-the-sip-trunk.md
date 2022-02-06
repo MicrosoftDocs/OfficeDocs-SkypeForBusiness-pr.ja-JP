@@ -1,28 +1,23 @@
 ---
 title: E9-1-1 の SIP トランクを設計Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 4f93b974-b460-45c7-a4a8-6f38e34840f5
 description: SIP トランキング プロバイダーを使用する E9-1-1 展開の SIP トランキング トポロジを計画Skype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: 36362b9ff516f3f15a990d5d70c42c0bea6119b3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841029"
 ---
+
 # <a name="design-the-sip-trunk-for-e9-1-1-in-skype-for-business-server"></a>E9-1-1 の SIP トランクを設計Skype for Business Server
  
 SIP トランキング プロバイダーを使用する E9-1-1 展開の SIP トランキング トポロジを計画Skype for Business Server エンタープライズ VoIP。
@@ -35,11 +30,11 @@ Skype for Business Server SIP トランクを使用して緊急通話を E9-1-1 
     
 - オンプレミスのセッション ボーダー コントローラー (SBC) を使用して、仲介サーバーと SIP トランク プロバイダーのサービスとの間に安全な境界ポイントを提供します。
     
-後者の方法を選択した場合は、選択する SBC の型とモデルが認定済みであり、SIP INVITE の一部としてプレゼンス情報データ フォーマット位置オブジェクト (PIDF-LO) 場所データの通過がサポートされていることを確認します。 サポートされてない場合、緊急サービスのサービス プロバイダーに到着した通話から場所情報が除去されます。 認定 SPC の詳細については[、「Microsoft Lync](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)のインフラストラクチャ認定」および「テレフォニー インフラストラクチャ for Skype for Business」[を参照してください](../../../SfbPartnerCertification/certification/infra-gateways.md)。 
+後者の方法を選択した場合は、選択する SBC の型とモデルが認定済みであり、SIP INVITE の一部としてプレゼンス情報データ フォーマット位置オブジェクト (PIDF-LO) 場所データの通過がサポートされていることを確認します。 サポートされてない場合、緊急サービスのサービス プロバイダーに到着した通話から場所情報が除去されます。 認定 SPC の詳細については、「[Microsoft Lync](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md) のインフラストラクチャ認定」と「テレフォニー インフラストラクチャ [for Skype for Business」を参照してください](../../../SfbPartnerCertification/certification/infra-gateways.md)。 
   
 E9-1-1 サービス プロバイダーは、冗長性を確保するために SBC のペアへのアクセスを提供します。 仲介サーバーのトポロジと通話ルーティングの構成に関して、いくつかの決定を行う必要があります。 たとえば、2 つの SBC を同等のピアとして扱い、SBC 間の通話にラウンドロビン ルーティングを使用するのか、または一方の SBC をプライマリ、もう一方をセカンダリとして指定するのかを決定します。
   
-SIP トランクの展開の詳細については、「Skype for Business Server SIP トランキング[」を参照](sip-trunking.md)Skype for Business Server。 E9-1-1 用 SIP トランクの展開方法を決定する際に次の質問が役立ちます。
+SIP トランクの展開の詳細については、「Skype for Business Server [SIP トランキング」を参照](sip-trunking.md)Skype for Business Server。 E9-1-1 用 SIP トランクの展開方法を決定する際に次の質問が役立ちます。
   
  **SIP トランクの展開に、専用接続を使用するか、それとも共有のインターネット接続を使用するか。**
   
@@ -51,7 +46,7 @@ SIP トランクの展開の詳細については、「Skype for Business Server
     
  **ブランチ オフィスごとに個別に SIP トランクを展開するかどうか。**
   
-> Skype for Business Serverでは、回復力のあるデータ ネットワークの構築、各ブランチでの SIP トランクの展開、停止中のローカル ゲートウェイへの呼び出しのプッシュなど、ブランチ オフィスでの音声の復元を処理するためのいくつかの戦略を提供します。 詳細については[、「SIP トランキング」を参照Skype for Business Server。](sip-trunking.md)
+> Skype for Business Serverでは、回復力のあるデータ ネットワークの構築、各ブランチでの SIP トランクの展開、停止中のローカル ゲートウェイへの呼び出しのプッシュなど、ブランチ オフィスでの音声の復元を処理するためのいくつかの戦略を提供します。 詳細については、「SIP [トランキング」を参照Skype for Business Server](sip-trunking.md)。
     
  **通話受付管理 (CAC) を有効にするかどうか。**
   

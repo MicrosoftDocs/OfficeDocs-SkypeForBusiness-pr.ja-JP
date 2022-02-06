@@ -1,27 +1,22 @@
 ---
 title: 新しい IP または PSTN ゲートウェイのルート トランクを定義する
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddPstnGatewayTrunkPage
+  - ms.lync.tb.AddPstnGatewayTrunkPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: IP または公衆交換電話網 (PSTN) 用のルート トランクを定義するには、次の項目を構成します。
-ms.openlocfilehash: 1a255c6b4dbe9b2e880c564abae90b2557a965cb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832591"
 ---
+
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>新しい IP または PSTN ゲートウェイのルート トランクの定義
 
 IP または公衆交換電話網 (PSTN) 用のルート トランクを定義するには、次の項目を構成します。
@@ -34,7 +29,7 @@ IP または公衆交換電話網 (PSTN) 用のルート トランクを定義�
 
 - **関連する仲介サーバー**: 展開で使用可能な仲介サーバーの一覧から選択します。
 
-- **関連付けられた仲介サーバーの** ポート: 選択した仲介サーバーがリッスンしているポートを定義します。
+- **関連付けられた仲介サーバー ポート**: 選択した仲介サーバーがリッスンしているポートを定義します。
 
 ## <a name="see-also"></a>関連項目
 

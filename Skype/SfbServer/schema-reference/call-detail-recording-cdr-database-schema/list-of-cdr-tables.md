@@ -1,25 +1,20 @@
 ---
 title: 2015 年の CDR テーブルSkype for Business Server一覧
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 031843fd-c7ff-4534-9b02-8847aad70807
 description: 通話詳細記録 (CDR) データベース スキーマは、次のテーブルで構成されています。
-ms.openlocfilehash: a8b89664482d05c60e00b10f64f7e2e853280d94
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847080"
 ---
+
 # <a name="list-of-cdr-tables-in-skype-for-business-server-2015"></a>2015 年の CDR テーブルSkype for Business Server一覧
  
 通話詳細記録 (CDR) データベース スキーマは、次のテーブルで構成されています。 
@@ -87,16 +82,16 @@ ms.locfileid: "60847080"
 
 |**Table**|**説明**|
 |:-----|:-----|
-|[VoipDetails テーブル](voipdetails-0.md) <br/> |各 2 パーティ VoIP/PSTN 通話について、通話に関する情報を格納します (VoIP 電話の電話 ID、使用されたゲートウェイ、切断したパーティなど)。 呼び出し [の開始/終了時間](sessiondetails.md) と応答コードの SessionDetails テーブルを参照します。 <br/> |
+|[VoipDetails テーブル](voipdetails-0.md) <br/> |各 2 パーティ VoIP/PSTN 通話について、通話に関する情報を格納します (VoIP 電話の電話 ID、使用されたゲートウェイ、切断したパーティなど)。 呼び出し [の開始/終了時間と応答コードの SessionDetails](sessiondetails.md) テーブルを参照します。 <br/> |
    
 > [!NOTE]
-> 通話の 1 つのパーティが VoIP ユーザーの場合、または仲介サーバーが通話に関係していた場合、このテーブルにレコードが作成されます。 公衆交換電話網 (PSTN) 電話に関係しない VoIP/VoIP 通話に関する情報は [、SessionDetails テーブルでキャプチャされます](sessiondetails.md)。 
+> 通話の 1 つのパーティが VoIP ユーザーの場合、または仲介サーバーが通話に関係していた場合、このテーブルにレコードが作成されます。 公衆交換電話網 (PSTN) 電話に関係しない VoIP/VoIP 通話に関する情報は、 [SessionDetails テーブルでキャプチャされます](sessiondetails.md)。 
   
 ## <a name="table-for-e9-1-1-call-auditing"></a>E9-1-1 通話監査に関するテーブル
 
 |**Table**|**説明**|
 |:-----|:-----|
-|[2015 年の場所Skype for Business Server表](locations.md) <br/> |Enhanced 9-1-1 (E9-1-1) 呼び出しなどの緊急呼び出しごとに、通話に関する場所情報を格納します。 呼び出し [の開始/終了時間](sessiondetails.md) と応答コードの SessionDetails テーブルを参照します。 <br/> |
+|[2015 年の場所Skype for Business Server表](locations.md) <br/> |Enhanced 9-1-1 (E9-1-1) 呼び出しなどの緊急呼び出しごとに、通話に関する場所情報を格納します。 呼び出し [の開始/終了時間と応答コードの SessionDetails](sessiondetails.md) テーブルを参照します。 <br/> |
    
 > [!NOTE]
 > このテーブルには、E9-1-1 呼び出しの場所の BLOB だけが格納されます。通話に関する他の詳細情報については、SessionDetails テーブルを参照してください。 
