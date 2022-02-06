@@ -1,30 +1,25 @@
 ---
 title: トポロジの状態
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 5/21/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.TopoStatusMain
+  - ms.lync.lscp.TopoStatusMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d5f858f5-df8e-43a9-80aa-6ba1ddb27459
 description: '[トポロジ: 状態] ページには、トポロジ内のサーバーのSkype for Business表示されます。'
-ms.openlocfilehash: c64a2d5c4f5884ffcaf7e9480c75e447111a60db
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848890"
 ---
+
 # <a name="topology-status"></a>トポロジ: 状態
 
-[**トポロジ: 状態**]**ページ** には、トポロジ内のサーバーのSkype for Business表示されます。
+[**トポロジ: 状態**] **ページ** には、トポロジ内のサーバーのSkype for Business表示されます。
 
 ## <a name="tasks-you-can-perform"></a>実行できるタスク
 
@@ -38,4 +33,4 @@ ms.locfileid: "60848890"
 
 - [サービスへの新しい接続を防止する](/previous-versions/office/lync-server-2013/lync-server-2013-prevent-sessions-for-services)
 
-コントロール パネルを使用して実行できるさまざまな手順の詳細については、「Skype for Business Server [2015」](../../manage/manage.md)を参照Skype for Business Serverしてください。
+コントロール パネルを使用して実行できるさまざまな手順の詳細については、「Skype for Business Server [2015](../../manage/manage.md)」を参照Skype for Business Serverしてください。

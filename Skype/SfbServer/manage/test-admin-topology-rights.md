@@ -1,23 +1,18 @@
 ---
 title: 管理者トポロジの権限をテストSkype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: トポロジの権限をテストするSkype for Business Server
-ms.openlocfilehash: 6f4eed0271d9dd6d099d19287f7caa37148f6026
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861314"
 ---
+
 # <a name="testing-admin-topology-rights-in-skype-for-business-server"></a>管理者トポロジの権限をテストSkype for Business Server
 
 |&nbsp; |&nbsp; |
@@ -29,7 +24,7 @@ ms.locfileid: "60861314"
 
 ## <a name="description"></a>説明
 
-既定では、ドメイン管理者だけがトポロジを有効にして、Skype for Business Serverインフラストラクチャに大きな変更を加Skype for Business Serverできます。 ドメイン管理者と管理者が同じSkype for Business Server限り、これは問題ありません。 多くの組織では、Skype for Business Server管理者はドメイン全体に対する管理者権限を保持していない。 既定では、これらの管理者 (RTCUniversalServerAdmins グループのメンバーとして定義されている) は、トポロジの変更をSkype for Business Serverできないという意味です。 RTCUniversalServerAdmins グループのメンバーにトポロジの変更を行う権限を付与するには [、Grant-CsSetupPermission](/powershell/module/skype/Grant-CsSetupPermission) コマンドレットを使用して必要な Active Directory アクセス許可を割り当てる必要があります。
+既定では、ドメイン管理者だけがトポロジを有効にして、Skype for Business Serverインフラストラクチャに大きな変更を加Skype for Business Serverできます。 ドメイン管理者と管理者が同じSkype for Business Server限り、これは問題ありません。 多くの組織では、Skype for Business Server管理者はドメイン全体に対する管理者権限を保持していない。 既定では、これらの管理者 (RTCUniversalServerAdmins グループのメンバーとして定義されている) は、トポロジの変更をSkype for Business Serverできないという意味です。 RTCUniversalServerAdmins グループのメンバーにトポロジの変更を行う権限を付与するには、 [Grant-CsSetupPermission](/powershell/module/skype/Grant-CsSetupPermission) コマンドレットを使用して必要な Active Directory アクセス許可を割り当てる必要があります。
  
 Test-CsSetupPermission コマンドレットは、Skype for Business Server またはコンポーネントのインストールに必要なアクセス許可が、指定された Active Directory コンテナーに構成されていることを確認します。 アクセス許可が割り当てられていない場合は、Grant-CsSetupPermission コマンドレットを実行して、RTCUniversalServerAdmins グループのメンバーに、Skype for Business Server をインストールして有効にする権限を付与できます。
 
@@ -39,7 +34,7 @@ Active Directory コンテナーに対してセットアップアクセス許可
 
 `Test-CsSetupPermission -ComputerOU "ou=CsServers,dc=litwareinc,dc=com"`
 
-詳細については [、Test-CsSetupPermission コマンドレットのヘルプ トピックを参照](/powershell/module/skype/Test-CsSetupPermission) してください。
+詳細については、 [Test-CsSetupPermission コマンドレットのヘルプ トピックを参照](/powershell/module/skype/Test-CsSetupPermission) してください。
 
 ## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
@@ -47,7 +42,7 @@ Active Directory Test-CsSetupPermissionに必要なアクセス許可が既に�
 
 True 
 
-アクセス許可が設定されていない場合、Test-CsSetupPermission False が返されます。 通常、この値は多くの警告メッセージで囲まれます。 例:
+アクセス許可が設定されていない場合、Test-CsSetupPermission False が返されます。 通常、この値は多くの警告メッセージで囲まれます。 次に例を示します。
 
 警告: アクセス制御エントリ (ACE) atl-cs-001\RTCUniversalServerAdmins;許可する。ExtendedRight;なし。なし。1131f6aa-9c07-11d1-f79f-00c04fc2dcd2 
 
@@ -65,4 +60,4 @@ False
 
 `Grant-CsSetupPermission -ComputerOU "cn=Computers,dc=litwareinc,dc=com"`
 
-詳細については [、Test-CsSetupPermission コマンドレットのヘルプ トピックを参照](/powershell/module/skype/Test-CsSetupPermission) してください。
+詳細については、 [Test-CsSetupPermission コマンドレットのヘルプ トピックを参照](/powershell/module/skype/Test-CsSetupPermission) してください。

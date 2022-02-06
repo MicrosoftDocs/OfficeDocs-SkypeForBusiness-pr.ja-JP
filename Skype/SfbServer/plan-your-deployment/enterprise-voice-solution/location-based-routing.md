@@ -1,28 +1,23 @@
 ---
 title: 場所ベースのルーティングを計画Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: 同時呼び出しと委任Skype for Business Server エンタープライズ VoIP場所ベースのルーティングでサポートされるシナリオを含む、場所ベースのルーティングを計画します。
-ms.openlocfilehash: aada1db39d4dacbd5a6ec7f5dec1ede08468c50e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855334"
 ---
+
 # <a name="plan-for-location-based-routing-in-skype-for-business"></a>場所ベースのルーティングを計画Skype for Business
 
 同時呼び出しと委任Skype for Business Server エンタープライズ VoIP場所ベースのルーティングでサポートされるシナリオを含む、場所ベースのルーティングを計画します。
@@ -116,7 +111,7 @@ PSTN エンドポイントが関係する場合、Location-Based ルーティン
 
 |通話の転送/転送を開始するユーザー|ターゲット エンドポイントは、ユーザーが通話の転送または転送を開始するのと同じネットワーク サイト内にある|ユーザーが通話の転送または転送を開始する場合、ターゲット エンドポイントが異なるネットワーク サイト内にある|ターゲット エンドポイントが不明なネットワーク サイトまたはネットワーク サイト内のネットワーク Location-Basedルーティング
 |:-----|:-----|:-----|:-----|
-|Skype for Businessユーザー   |転送または転送が許可されている   |転送または転送は許可されません   |転送または転送は許可されません   |
+|Skype for Business ユーザー   |転送または転送が許可されている   |転送または転送は許可されません   |転送または転送は許可されません   |
 
 たとえば、PSTN エンドポイントSkype for Business通話中のユーザーが、同じネットワーク サイト内Skype for Business別のユーザーに通話を転送します。 この場合、通話の転送が許可されます。
 
@@ -140,7 +135,7 @@ PSTN エンドポイントが関係する場合、Location-Based ルーティン
 
 |PSTN の着信呼び出し|呼び出し先と同じネットワーク サイトに位置する|呼び出し先とは異なるネットワーク サイトに位置する|不明なネットワーク サイトにあるか、ルーティングが有効になっていないLocation-Basedします。|
 |:-----|:-----|:-----|:-----|
-|Skype for Businessユーザー   |同時呼び出し可能   |同時呼び出しは許可されません   |同時呼び出しは許可されません   |
+|Skype for Business ユーザー   |同時呼び出し可能   |同時呼び出しは許可されません   |同時呼び出しは許可されません   |
 
 次の表は、同じネットワーク サイト、別のネットワーク サイト、または不明なネットワーク サイトの Skype for Business ユーザー (Skype for Business 発信者) からの呼び出しを示しています。 呼び出し先には、PSTN エンドポイント (つまり、携帯電話) が同時リング ターゲットとして構成されています。 このシナリオでは、Location-Based ルーティングによって、呼び出し先の同時呼び出し先 (つまり携帯電話) に通話をルーティングするかどうかを決定します。
 
@@ -164,15 +159,15 @@ PSTN エンドポイントが関係する場合、Location-Based ルーティン
 
 |Location-Based ルーティング ユーザー|その他のパーティ|Action|結果|
 |:-----|:-----|:-----|:-----|
-|Skype for Businessモバイル   |PSTN   |Skype for Businessモバイルは PSTN の着信呼び出しを受け取ります。   |通話は VoIP ではなく、作業時間 (CvW) 経由でルーティングされます。   |
-|Skype for Businessモバイル   |PSTN   |Skype for Businessモバイルは、発信 PSTN 通話を行います。   |通話は VoIP ではなく CvW 経由でルーティングされます。   |
-|Skype for Businessモバイル   |PSTN   |Skype for Businessモバイルは PSTN 通話中です。 Skype for Businessその後、モバイルは通話を別のユーザーまたは連絡先にエスカレートします。   |ユーザーまたは連絡先が PSTN ゲートウェイ の脚にローカルである場合、通話は VoIP 経由でルーティングされます。  <br/> ユーザーまたは連絡先が PSTN ゲートウェイ の脚からリモートである場合、通話は CvW 経由でルーティングされます。  <br/> ターゲット ユーザーが PSTN 経由で到達できない場合、呼び出しは失敗します。  <br/> ターゲット連絡先が電話会議 (CAA) 自動応答場合、呼び出しはブロックされます。   |
-|Skype for Businessモバイル   |Skype for Businessまたはフェデレーション ユーザー   |モバイルSkype for Business、別のクライアントまたはフェデレーション ユーザーへの音声Skype for Business開始します。   |通話は VoIP 経由で完了します。   |
-|Skype for Businessモバイル   |Skype for Businessまたはフェデレーション ユーザー   | クライアントSkype for Businessフェデレーション ユーザーが、モバイル ユーザールーティング ユーザーに対して音声Skype for BusinessをLocation-Basedします。  |通話は VoIP 経由で完了します。   |
-|Skype for Businessモバイル   |Skype for Businessまたはフェデレーション ユーザー   |クライアントSkype for Businessフェデレーション ユーザーが、モバイル ユーザーに VoIP Skype for Businessされます。 いずれかのパーティは、別のユーザーまたはフェデレーション Skype for Businessエスカレートします。   |通話は VoIP 経由で完了します。   |
-|Skype for Businessモバイル   |フェデレーション ユーザー   |フェデレーション ユーザーは、モバイル ユーザールーティング ユーザー Skype for Business音声Location-Basedします。モバイル Skype for Business PSTN ユーザーにエスカレートします。   |呼び出しがブロックされます。   |
-|Skype for Businessモバイル   |フェデレーション ユーザー   |フェデレーション ユーザーが VoIP 呼び出しを行っている場合は、Skype for Businessルーティング Location-Based呼び出します。いずれかのパーティが CAA 連絡先にエスカレートします。   |エスカレートされた呼び出しはブロックされ、適切なエラー メッセージが表示されます。   |
-|Skype for Businessモバイル   |フェデレーション ユーザー   |フェデレーション ユーザーは、Skype for Business Mobile Location-Basedに VoIP 呼び出しを行い、フェデレーション ユーザーは PSTN ユーザーにエスカレートします。   |このエスカレーションは、フェデレーション ユーザーのルーティングのLocation-Basedに基づいて許可または禁止されます。 モバイル Skype for Businessルーティング Location-Basedアプリケーションは何も実行しない。   |
+|Skype for Business Mobile   |PSTN   |Skype for Business Mobile は PSTN の着信呼び出しを受け取ります。   |通話は VoIP ではなく、作業時間 (CvW) 経由でルーティングされます。   |
+|Skype for Business Mobile   |PSTN   |Skype for Businessモバイルは、発信 PSTN 通話を行います。   |通話は VoIP ではなく CvW 経由でルーティングされます。   |
+|Skype for Business Mobile   |PSTN   |Skype for Businessは PSTN 通話中です。 Skype for Business、別のユーザーまたは連絡先に通話をエスカレートします。   |ユーザーまたは連絡先が PSTN ゲートウェイ の脚にローカルである場合、通話は VoIP 経由でルーティングされます。  <br/> ユーザーまたは連絡先が PSTN ゲートウェイ の脚からリモートである場合、通話は CvW 経由でルーティングされます。  <br/> ターゲット ユーザーが PSTN 経由で到達できない場合、呼び出しは失敗します。  <br/> ターゲット連絡先が電話会議 (CAA) 自動応答場合、呼び出しはブロックされます。   |
+|Skype for Business Mobile   |Skype for Businessまたはフェデレーション ユーザー   |モバイルSkype for Business、別のクライアントまたはフェデレーション ユーザーへの音声Skype for Business開始します。   |通話は VoIP 経由で完了します。   |
+|Skype for Business Mobile   |Skype for Businessまたはフェデレーション ユーザー   | クライアントSkype for Businessフェデレーション ユーザーが、モバイル ユーザールーティング ユーザーに対して音声Skype for BusinessをLocation-Basedします。  |通話は VoIP 経由で完了します。   |
+|Skype for Business Mobile   |Skype for Businessまたはフェデレーション ユーザー   |クライアントSkype for Businessフェデレーション ユーザーが、モバイル ユーザーに VoIP Skype for Businessされます。 いずれかのパーティは、別のユーザーまたはフェデレーション Skype for Businessエスカレートします。   |通話は VoIP 経由で完了します。   |
+|Skype for Business Mobile   |フェデレーション ユーザー   |フェデレーション ユーザーは、Skype for Business モバイル Location-Basedルーティング ユーザーに音声通話中です。Skype for Businessは PSTN ユーザーにエスカレートします。   |呼び出しがブロックされます。   |
+|Skype for Business Mobile   |フェデレーション ユーザー   |フェデレーション ユーザーは、Skype for Business Mobile Location-Basedに VoIP 呼び出しを行っています。どちらのユーザーも CAA 連絡先にエスカレートします。   |エスカレートされた呼び出しはブロックされ、適切なエラー メッセージが表示されます。   |
+|Skype for Business Mobile   |フェデレーション ユーザー   |フェデレーション ユーザーは、Skype for Business Mobile Location-Basedに VoIP 呼び出しを行い、フェデレーション ユーザーは PSTN ユーザーにエスカレートします。   |このエスカレーションは、フェデレーション ユーザーのルーティングのLocation-Basedに基づいて許可または禁止されます。 モバイル Skype for Businessルーティング Location-Basedアプリケーションは何も実行しない。   |
 
 ### <a name="delegation"></a>委任
 
@@ -210,7 +205,7 @@ Location-Basedルーティングでは、Skype for Business Serverまたは Lync
 
 ****
 
-|プールのバージョン|仲介サーバーのバージョン|サポート|
+|プールのバージョン|仲介サーバーのバージョン|サポートされている|
 |:-----|:-----|:-----|
 |Skype for Business Server Lync Server 2013 2013 年 2 月累積的な更新プログラム   |Skype for Business Server Lync Server 2013 2013 年 2 月累積的な更新プログラム   |はい   |
 |Skype for Business Server Lync Server 2013 2013 年 2 月累積的な更新プログラム   |Lync Server 2013   |いいえ   |
@@ -226,7 +221,7 @@ Location-Basedルーティングでは、Skype for Business Serverまたは Lync
 
 ****
 
-|クライアントの種類|サポート|詳細|
+|クライアントの種類|サポートされている|詳細|
 |:-----|:-----|:-----|
 |Skype for Business   |はい   ||
 |Lync 2013   |はい   ||
@@ -239,7 +234,7 @@ Location-Basedルーティングでは、Skype for Business Serverまたは Lync
 |Lync Mobile 2010   |はい   ||
 
 > [!NOTE]
-> クライアントの VoIP を無効にするにはSkype for Businessルーティングが有効なすべてのユーザーに対して無効になっている IP Audio/Video という設定でモビリティ ポリシーを割り当Location-Basedします。 モビリティ ポリシーの詳細については [、「New-CsMobilityPolicy」を参照してください](/powershell/module/skype/new-csmobilitypolicy)。
+> クライアントの VoIP を無効にするにはSkype for Businessルーティングが有効なすべてのユーザーに対して無効になっている IP Audio/Video という設定でモビリティ ポリシーを割り当Location-Basedします。 モビリティ ポリシーの詳細については、「 [New-CsMobilityPolicy」を参照してください](/powershell/module/skype/new-csmobilitypolicy)。
 
 ## <a name="capabilities-not-supported-by-location-based-routing"></a>ルーティングでサポートされていないLocation-Based機能
 

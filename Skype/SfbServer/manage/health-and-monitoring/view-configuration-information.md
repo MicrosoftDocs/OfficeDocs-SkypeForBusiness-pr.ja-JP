@@ -1,31 +1,26 @@
 ---
 title: CDR の構成情報を表示するSkype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 77bd553f-da89-4c84-a5d0-2f7e91d04383
 description: '概要: 通話詳細記録 (CDR) を使用する方法については、Skype for Business Server。'
-ms.openlocfilehash: 3039db1ff1af74f311f4abc16975f8360509a5c4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844180"
 ---
+
 # <a name="view-cdr-configuration-information-in-skype-for-business-server"></a>CDR の構成情報を表示するSkype for Business Server
  
 **概要:** 通話詳細記録 (CDR) を使用する方法については、Skype for Business Server。
   
 通話詳細記録 (CDR) を使用すると、ピアツーピアのインスタント メッセージング セッション、ボイス オーバー IP (VoIP) 電話の通話、電話会議などの使用状況を追跡できます。この使用状況データの中には、通話の発信者と受信者、通話時刻、通話時間の情報が含まれます。
   
-サーバーをインストールSkype for Business Server、CDR 構成設定の単一のグローバル コレクションが作成されます。 また管理者には、個別のサイトに適用できるカスタム設定コレクションを作成するオプションがあります。 組織で使用されている CDR 構成設定を表示するには、Skype for Business Server[または Get-CsCdrConfiguration](/powershell/module/skype/get-cscdrconfiguration?view=skype-ps)コマンドレットを使用します。
+サーバーをインストールSkype for Business Server、CDR 構成設定の単一のグローバル コレクションが作成されます。 また管理者には、個別のサイトに適用できるカスタム設定コレクションを作成するオプションがあります。 組織で使用されている CDR 構成設定を表示するには、Skype for Business Server[または Get-CsCdrConfiguration](/powershell/module/skype/get-cscdrconfiguration?view=skype-ps) コマンドレットを使用します。
   
 ### <a name="to-view-cdr-configuration-information-by-using-skype-for-business-server-control-panel"></a>コントロール パネルを使用して CDR 構成情報Skype for Business Serverするには
 
@@ -35,7 +30,7 @@ ms.locfileid: "60844180"
     
 ## <a name="viewing-cdr-configuration-information-by-using-windows-powershell-cmdlets"></a>コマンドレットを使用した CDR 構成情報Windows PowerShell表示する
 
-CDR 構成設定を表示するには、Windows PowerShellコマンドレットをGet-CsCdrConfigurationします。 このコマンドレットは、管理者管理シェルSkype for Business Serverリモート セッションから実行Windows PowerShell。 リモート サーバーを使用してサーバー Windows PowerShellする方法[Skype for Business Server、Microsoft Lync リモート PowerShell 管理を参照してください](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 このプロセスは、同じSkype for Business Server。
+CDR 構成設定を表示するには、Windows PowerShellコマンドレットをGet-CsCdrConfigurationします。 このコマンドレットは、管理者管理シェルSkype for Business Serverリモート セッションから実行Windows PowerShell。 リモート サーバーを使用してリモート Windows PowerShell接続する方法Skype for Business Server [Microsoft Lync リモート PowerShell 管理」を参照してください](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 このプロセスは、同じSkype for Business Server。
   
 ### <a name="to-view-cdr-configuration-information"></a>CDR の構成情報を表示するには
 
@@ -56,4 +51,4 @@ KeepErrorReportForDays : 60
 PurgeHourOfDay         : 2
 </pre>
 
-詳細については [、Get-CsCdrConfiguration](/powershell/module/skype/get-cscdrconfiguration?view=skype-ps) コマンドレットのヘルプ トピックを参照してください。
+詳細については、 [Get-CsCdrConfiguration](/powershell/module/skype/get-cscdrconfiguration?view=skype-ps) コマンドレットのヘルプ トピックを参照してください。

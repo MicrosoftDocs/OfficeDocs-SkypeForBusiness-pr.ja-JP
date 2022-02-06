@@ -1,42 +1,37 @@
 ---
 title: ビュー内に VIS プールを作成Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
 description: '概要: トポロジ ビルダーを使用して、ビデオ相互運用Skype for Business Serverを作成します。'
-ms.openlocfilehash: 3c16381e1fceaf280571f2927d8123bc6861dd5c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864334"
 ---
+
 # <a name="create-a-vis-pool-in-skype-for-business-server"></a>ビュー内に VIS プールを作成Skype for Business Server
  
 **概要:** トポロジ ビルダーを使用して、Skype for Business Server相互運用サーバー プールを作成します。
   
 ### <a name="create-a-vis-or-vis-pool-using-topology-builder"></a>トポロジ ビルダーを使用して VIS または VIS プールを作成する
 
-1. フロントエンド サーバーでトポロジ ビルダーを開きます。 トポロジ ビルダーの左側のウィンドウで、[ビデオ相互運用サーバー プール] を右クリックし、[新しいビデオ相互運用サーバー プール]**を選択します**。 
+1. フロントエンド サーバーでトポロジ ビルダーを開きます。 トポロジ ビルダーの左側のウィンドウで、[ビデオ相互運用サーバー  プール] を右クリックし、[新しいビデオ相互運用サーバー プール **] を選択します**。 
     
-2. これにより、[新しいビデオ相互運用機能サーバー プール **の作成] ウィザードが開** きます。 新しいビデオ相互運用サーバーのプール FQDN を指定し、[このプールに 1 つのサーバーがある] または [このプールに要件に基づいて複数のサーバーが含まれる] を選択し、[次へ] を **押します**。 
+2. これにより、[新しいビデオ相互運用機能サーバー プール **の作成] ウィザードが開** きます。 新しいビデオ相互運用サーバーのプール FQDN を指定し、[このプールに 1 つのサーバーがある] または [このプールに要件に基づいて複数のサーバーを持つ] を選択し、[次へ] を押 **します**。
     
     高可用性を提供するためにビデオ相互運用サーバー プールを展開する場合は、[このプールには **複数のサーバーがあります] を選択します**。 次のオプションに注意してください。 
     
     - ビデオ相互運用サーバー プールをサポートするには、DNS 負荷分散を展開する必要があります。 
     
-   - 次のページの [このプール内のコンピューターの定義] アイテムに、プール内の各サーバーの **コンピューター FQDN** をテキスト フィールドに入力し、[追加] をクリック **します**。 この手順を繰り返して、別のビデオ相互運用サーバーをプールに追加します。 プール内のすべてのコンピューターを定義した場合は、[次へ] を **押します**。
+   - 次のページの [このプール内のコンピューターを定義する] アイテムに、プール内の各サーバーの **コンピューター FQDN** をテキスト フィールドに入力し、[追加] をクリック **します**。 この手順を繰り返して、別のビデオ相互運用サーバーをプールに追加します。 プール内のすべてのコンピューターを定義した場合は、[次へ] を **押します**。
     
-     高可用性を必要としないので、プールに 1 つのビデオ相互運用サーバーのみを展開する場合は、[このプールに 1 つのサーバーがある] を選択し、[次 **へ]** を **押します**。
+     高可用性を必要としないので、プールに 1 つのビデオ相互運用サーバーのみを展開する場合は、[このプールに 1 つのサーバーがある] を選択し、[ **次へ]** を押 **します**。
     
 3. ドロップダウン リストから次ホップ プール/FE を選択し、[次へ] を **押します**。
     
@@ -44,7 +39,7 @@ ms.locfileid: "60864334"
     
 5. TCP または TLS ポートを設定します。
     
-    トポロジ ビルダーの左側のウィンドウから新しく追加されたビデオ相互運用サーバーを選択し、右クリックして [プロパティの編集] **を選択します**。 要件ごとに TCP または TLS ポートを有効または更新し **、[OK] を選択します**。 既定では TLS が追加されましたが、TCP だけが完全に Cisco Unified Communications Manager (CallManager、または CUCM) でテストされています。
+    トポロジ ビルダーの左側のウィンドウから新しく追加されたビデオ相互運用サーバーを選択し、右クリックして [プロパティの編集] **を選択します**。 要件ごとに TCP または TLS ポートを有効または更新し、[OK] を選択 **します**。 既定では TLS が追加されましたが、TCP だけが完全に Cisco Unified Communications Manager (CallManager、または CUCM) でテストされています。
     
 6. ビデオ ゲートウェイを追加します。 これを行うには、[共有コンポーネント] を展開し、[ビデオ ゲートウェイ] を右クリックし **、[** 新しいビデオ ゲートウェイ **] を選択します**。
     
@@ -59,7 +54,7 @@ ms.locfileid: "60864334"
     > [!NOTE]
     >  ビデオ相互運用サーバーは、1:N トランクをサポートします。 したがって、複数のトランクを追加できます。これは単一のビデオ相互運用サーバーに関連付けられるため、各トランクは別のビデオ ゲートウェイで終了します。 この制限は、特定のビデオ ゲートウェイに 1 つのトランクのみを持ち、そのトランクを展開に定義Skype for Business Serverです。
   
-11. [「2015](../../deploy/install/create-and-publish-new-topology.md)年に新しいトポロジを作成して公開する」の説明に従ってトポロジ ドキュメントSkype for Business Serverします。
+11. 「Create and publish new topology in the [2015](../../deploy/install/create-and-publish-new-topology.md)」の説明に従って、トポロジ ドキュメントSkype for Business Serverします。
     
     > [!NOTE]
     > 復元性を向上させるために、2 つ目のビデオ相互運用サーバーまたは VIS プール、またはバックアップ フロント エンド プールを構成できます。 詳細 [については、「復元メカニズム](../../plan-your-deployment/video-interop-server.md#resiliency) 」を参照してください。

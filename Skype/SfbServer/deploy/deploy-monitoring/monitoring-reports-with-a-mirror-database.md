@@ -1,24 +1,19 @@
 ---
 title: 監視レポートとミラー データベースの関連付けSkype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 description: '概要: 監視レポートを、ユーザーが使用するミラー データベースに関連付けるSkype for Business Server。'
-ms.openlocfilehash: 29992c9b37ea4160c2696bdeb7296ab83e1eb198
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856214"
 ---
+
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>監視レポートとミラー データベースの関連付けSkype for Business Server 
  
 **概要:** 監視レポートを、ユーザーが使用するミラー データベースに関連付けるSkype for Business Server。
@@ -33,21 +28,21 @@ ms.locfileid: "60856214"
     
    - **http:** プレフィックス。
     
-   - Reporting Services がインストールされているコンピューターの完全修飾ドメイン名 (FQDN) (たとえば `atl-sql-001.litwareinc.com` )。
+   - Reporting Services がインストールされているコンピューターの完全修飾ドメイン名 (FQDN) ( `atl-sql-001.litwareinc.com`たとえば)。
     
    - 文字列 **/Reports_**。
     
-   - 監視レポートがインストールされているデータベース インスタンスの名前 (たとえば **、archinst)。**
+   - 監視レポートがインストールされているデータベース インスタンスの名前 ( **archinst** など)。
     
-     たとえば、コンピューター SQL Server Reporting Servicesがインストールされ、監視レポートでデータベース インスタンス archinst が使用されている場合、ホーム ページ `atl-sql-001.litwareinc.com` の URL は次のようになります。
+     たとえば、コンピューター `atl-sql-001.litwareinc.com` SQL Server Reporting Servicesがインストールされ、監視レポートでデータベース インスタンス archinst が使用されている場合、ホーム ページの URL は次のようになります。
     
      `http://atl-sql-001.litwareinc.com/Reports_archinst`
     
-2. Reporting Services のホーム ページにアクセスしたら **、[ServerReports]** をクリックし、[次へ] をクリック **Reports_Content。** この場合、監視 **レポートReports_Contentページ** Skype for Business Server表示されます。
+2. Reporting Services のホーム ページにアクセスしたら、[**ServerReports**] をクリックし、[レポート] **Reports_Content。** [監視レポート] の **[** Reports_Content] ページSkype for Business Server表示されます。
     
-3. [データ **Reports_Content]** ページで **、CDRDB データ ソースを** クリックします。
+3. [データ **Reports_Content** ] ページで、 **CDRDB データ ソースを** クリックします。
     
-4. **CDRDB ページの**[プロパティ]**タブ** で、[接続文字列] というラベルの付いたテキスト ボックス **を探します**。 現在の接続文字列は次のように表示されます。
+4. **CDRDB ページの** [プロパティ] **タブ** で、[接続文字列] というラベルの付いたテキスト ボックス **を探します**。 現在の接続文字列は次のように表示されます。
     
     Data source=(local)\archinst;initial catalog=LcsCDR
     
@@ -61,7 +56,7 @@ ms.locfileid: "60856214"
     
 6. 接続文字列を更新した後、[適用] を **クリックします**。
     
-7. **[CDRDB] ページ** で、[追加] リンク **Reports_Content** クリックします。 **[QMSDB]** データ ソースをクリックし、QoE データベースの接続文字列を編集します。 例:
+7. **[CDRDB] ページ** で、[追加] リンク **Reports_Content** クリックします。 **[QMSDB]** データ ソースをクリックし、QoE データベースの接続文字列を編集します。 次に例を示します。
     
     `Data source=(local)\archinst;Failover Partner=atl-mirror-001\archinst;initial catalog=QoEMetrics`
     

@@ -1,29 +1,24 @@
 ---
 title: バックアップ サービスの構成と監視
-ms.reviewer: ''
-author: HowlinWolf-92
-ms.author: v-mahoffman
+ms.reviewer: null
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: 管理シェル コマンドSkype for Business Server使用して、バックアップ サービスを構成および監視できます。
-ms.openlocfilehash: 0881d40ca639edf825b0af104981ceddcab6e87a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832021"
 ---
+
 # <a name="configuring-and-monitoring-the-backup-service-in-skype-for-business-server"></a>バックアップ サービスの構成とSkype for Business Server
 
 次の管理シェル コマンドSkype for Business Server使用して、バックアップ サービスを構成および監視できます。 フロントエンド プールのファイル ストアに格納されている会議情報を復元するには、以下の「Backup Service を使用して会議の [内容を復元する」を](#restore-conference-contents-using-the-backup-service)参照してください。
 
 > [!NOTE]  
-> RTCUniversalServerAdmins グループは、既定で **Get-CsBackupServiceStatus** を実行するアクセス許可を持つ唯一のグループです。 このコマンドレットを使用するには、このグループのメンバーとしてログオンします。 または **、Set-CsBackupServiceConfiguration** コマンドレットを使用して、このコマンドへのアクセス権を他のグループ (CSAdministrator など) に付与できます。
+> RTCUniversalServerAdmins グループは、 **既定で Get-CsBackupServiceStatus** を実行するアクセス許可を持つ唯一のグループです。 このコマンドレットを使用するには、このグループのメンバーとしてログオンします。 または、 **Set-CsBackupServiceConfiguration** コマンドレットを使用して、このコマンドへのアクセス権を他のグループ (CSAdministrator など) に付与できます。
 
 ## <a name="to-see-the-backup-service-configuration"></a>バックアップ サービスの構成を確認するには
 
@@ -46,7 +41,7 @@ SyncInterval の既定値は 2 分です。
 次のコマンドレットを実行します。<br/><br/>Get-CsBackupServiceStatus -PoolFqdn \<pool-FQDN>
 
 > [!NOTE]  
-> バックアップ サービスの同期状態は、プール (P1) からバックアップ プール (P2) に一方向に定義されます。 P1 から P2 への同期状態は、P2 から P1 の同期状態とは異なる場合があります。 P1 ~ P2 の場合、同期間隔内に P1 で行われたすべての変更が完全に P2 にレプリケートされる場合、Backup Service は "安定した" 状態になります。 P1 から P2 に同期する変更がこれ以上ない場合は、"final" 状態になります。 どちらの状態も、コマンドレットの実行時にバックアップ サービスのスナップショットを示します。 返された状態が後で残るという結果ではありません。 特に、"final" 状態は、コマンドレットの実行後に P1 が変更を生成しない場合にのみ保持されます。 これは **、P1 が Invoke-CsPoolfailover** 実行ロジックの一部として読み取り専用モードに配置された後に P1 から P2 に失敗した場合に当てはまります。
+> バックアップ サービスの同期状態は、プール (P1) からバックアップ プール (P2) に一方向に定義されます。 P1 から P2 への同期状態は、P2 から P1 の同期状態とは異なる場合があります。 P1 ~ P2 の場合、同期間隔内に P1 で行われたすべての変更が完全に P2 にレプリケートされる場合、Backup Service は "安定した" 状態になります。 P1 から P2 に同期する変更がこれ以上ない場合は、"final" 状態になります。 どちらの状態も、コマンドレットの実行時にバックアップ サービスのスナップショットを示します。 返された状態が後で残るという結果ではありません。 特に、"final" 状態は、コマンドレットの実行後に P1 が変更を生成しない場合にのみ保持されます。 これは、 **P1 が Invoke-CsPoolfailover** 実行ロジックの一部として読み取り専用モードに配置された後に P1 から P2 に失敗した場合に当てはまります。
 
 ## <a name="to-get-information-about-the-backup-relationship-for-a-particular-pool"></a>特定のプールのバックアップ関係に関する情報を取得するには
 

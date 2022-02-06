@@ -1,29 +1,24 @@
 ---
 title: 会議ブロードキャスト用にオンプレミス展開Skype構成する
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- Ent_O365_Hybrid
-- Ent_O365_Hybrid_Top
-- IT_Skype16
-- IT_Skype4B_Hybrid
+  - Ent_O365_Hybrid
+  - Ent_O365_Hybrid_Top
+  - IT_Skype16
+  - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: '概要: ハイブリッド展開用に会議ブロードキャストを構成するためにSkypeする必要がある手順Skype for Business Server説明します。'
-ms.openlocfilehash: a9dd4e90248548863237445f9a4b9876979321f2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843980"
 ---
+
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>会議ブロードキャスト用にオンプレミス展開Skype構成する
  
 **概要:** ハイブリッド展開用に会議ブロードキャストを構成するためにSkypeする必要がある手順Skype for Business Server説明します。
@@ -42,9 +37,9 @@ Skype会議ブロードキャストは、会議の一部であるオンライン
 
 オンライン リソースとのフェデレーションSkype for Businessするには、SIP フェデレーション プロバイダーの外部アクセスを構成する必要があります。 この操作を行うには、次の手順に従Skype for Business Serverコントロール パネルを使用します。
   
-1. [コントロール パネルSkype for Business Serverを開始し、左側の **[外部アクセス]** を選択します。
+1. [コントロール パネルSkype for Business Serverを起動し、左側 **の [外部アクセス]** を選択します。
     
-2. [SIP **フェデレーション プロバイダー] を選択し、[** 新規] を **クリックします**。
+2. [ **SIP フェデレーション プロバイダー] を選択し、[** 新規] を **クリックします**。
     
 3. 次の設定で新しいプロバイダーを構成します。
     
@@ -63,11 +58,11 @@ New-CsHostingProvider -Identity LyncOnlineResources -ProxyFqdn sipfed.resources.
 
 次に、SIP フェデレーション ドメインを許可されたドメイン リストに追加する必要があります。 リストされている各ドメインに対してこれらの手順を繰り返し、4 つの新しい SIP フェデレーション ドメインを作成します。 これらのドメインには、オンラインで使用される地域データ センター Skype for Businessがあります。
   
-1. [コントロール パネルSkype for Business Serverを開始し、左側の **[外部アクセス]** を選択します。
+1. [コントロール パネルSkype for Business Serverを起動し、左側 **の [外部アクセス]** を選択します。
     
-2. [SIP **フェデレーション ドメイン] を選択し、[** 新規] を **クリックします**。
+2. [ **SIP フェデレーション ドメイン] を選択し、[** 新規] を **クリックします**。
     
-3. ドメイン名 **(または FQDN) の場合は**、ドメインを入力し、次の各ドメインに対してこの手順を繰り返します。
+3. [ドメイン **名 ] (または FQDN):** にドメインを入力し、次の各ドメインに対してこの手順を繰り返します。
     
    - noammeetings.lync.com
     
@@ -86,4 +81,4 @@ New-CsAllowedDomain -Identity "apacmeetings.lync.com"
 New-CsAllowedDomain -Identity "resources.lync.com"
 ```
 
-これらの構成手順を完了したら、展開で会議ブロードキャストSkypeを開始できます。 会議ブロードキャストの詳細Skype、「会議ブロードキャストとは」および[](https://go.microsoft.com/fwlink/?LinkId=617071)「Skype Skypeブロードキャスト管理ガイド」を[参照してください](../../SfbOnline/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)。
+これらの構成手順を完了したら、展開で会議ブロードキャストSkypeを開始できます。 会議ブロードキャストの詳細Skype、「会議ブロードキャストとは」および「[](https://go.microsoft.com/fwlink/?LinkId=617071)Skype Skypeブロードキャスト管理ガイド」を[参照してください](../../SfbOnline/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)。

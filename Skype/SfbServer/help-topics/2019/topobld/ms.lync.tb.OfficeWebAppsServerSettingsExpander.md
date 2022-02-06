@@ -1,38 +1,33 @@
 ---
 title: Office Web Apps サーバーの設定を編集する
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.OfficeWebAppsServerSettingsExpander
+  - ms.lync.tb.OfficeWebAppsServerSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 構成されている Web Apps Server のプロパティOffice編集します。 編集できるプロパティは次のとおりです。
-ms.openlocfilehash: 89c4676a5bd8e26ff269698ca4c7688c6a5c1c05
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831191"
 ---
+
 # <a name="edit-office-web-apps-server-settings"></a>Office Web Apps サーバーの設定の編集
 
 構成されている Web Apps Server のプロパティOffice編集します。 編集できるプロパティは次のとおりです。
 
  **Office Web Apps Server FQDN**: このプロパティは、Office Web Apps Server の完全修飾ドメイン名を定義し、ドメイン ネーム システム (DNS) ホスト A または AAAA (IPv6 が使用されている場合) レコードと一致する必要があります。
 
- **Office Web Apps Server** 探索 URL : Office Web Apps Server へのクライアント アクセス用の統一リソース ロケーター (URL) では、展開用の内部ネットワーク以外の別のネットワーク 領域にサーバーが配置されている場合は、既定からこのアドレスを編集する必要があります。
+ **Office Web Apps Server 探索 URL**: Office Web Apps Server へのクライアント アクセス用の統一リソース ロケーター (URL) では、展開用の内部ネットワーク以外の別のネットワーク 領域にサーバーが配置されている場合は、既定からこのアドレスを編集する必要があります。
 
 このサーバーの展開先が境界ネットワークであるか、または内部展開から境界ネットワーク、信頼性の低いネットワーク、およびインターネットを分離する内部ファイアウォールの外にある他のネットワーク ゾーンである場合は、[**Office Web Apps サーバーは外部ネットワークで展開**] チェック ボックスをオンにします。
 
-![OfficeWeb Apps 設定エキスパンダー。](../../../media/OfficeWebApps_Settings_Expander.jpg)
+![Office Web Apps 設定エキスパンダー。](../../../media/OfficeWebApps_Settings_Expander.jpg)
 
 ## <a name="see-also"></a>関連項目
 

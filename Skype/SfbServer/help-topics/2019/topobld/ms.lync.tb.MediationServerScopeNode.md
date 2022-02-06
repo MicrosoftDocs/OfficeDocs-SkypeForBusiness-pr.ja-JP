@@ -1,27 +1,22 @@
 ---
 title: 仲介サーバー スコープ ノード
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.MediationServerScopeNode
+  - ms.lync.tb.MediationServerScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3bad9844-2d3c-4ac7-adde-5b382f02d18d
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: このノードには、この仲介プールのリッスン ポート、および関連付けられた公衆交換電話網 (PSTN) ゲートウェイが表示されます。以下のアクションを実行できます。
-ms.openlocfilehash: 17c435916a4ec082fcc729b58ef176a280254d63
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836729"
 ---
+
 # <a name="mediation-server-scope-node"></a>仲介サーバーのスコープ ノード
  
 このノードには、この仲介プールのリッスン ポート、および関連付けられた公衆交換電話網 (PSTN) ゲートウェイが表示されます。以下のアクションを実行できます。
@@ -32,7 +27,7 @@ ms.locfileid: "60836729"
     
 これらのオプションに加えて、次の一般的なタスクを実行できます。
   
-- **トポロジ**。 このオプションを使用すると、新しいトポロジの定義、既存のトポロジの開き、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの発行、データベースのインストール、コンポーネントのマージ、展開の削除を行います。
+- **トポロジ。** このオプションを使用すると、新しいトポロジの定義、既存のトポロジの開き、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの発行、データベースのインストール、コンポーネントのマージ、展開の削除を行います。
     
 - **表示**。このオプションを使用して、コンソール ツリー ビュー内の項目を選択して表示と非表示を切り替えることによって、トポロジ ビルダーのビューをカスタマイズできます。
     

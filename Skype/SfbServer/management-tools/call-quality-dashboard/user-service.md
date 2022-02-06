@@ -1,25 +1,20 @@
 ---
 title: CQD のユーザー サービス
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: abd5c828-42dd-4f48-bf87-29993193cb3a
 description: '概要: 呼び出し品質ダッシュボードのリポジトリ API の一部である User Service について説明します。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。'
-ms.openlocfilehash: e8be18304cad02e1ed39cf84327a58f84d134c6d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851010"
 ---
+
 # <a name="user-service-for-cqd"></a>CQD のユーザー サービス
  
 **概要:** 呼び出し品質ダッシュボードのリポジトリ API の一部である User Service について説明します。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。
@@ -37,7 +32,7 @@ User Service は、呼び出し品質ダッシュボードのリポジトリ API
   
  **特別なユーザー ID**
   
-リポジトリ API には、特定のユーザーを指定する整数値を期待する REST API URI が含まれています。 例:  `https://<portal>/QoERepositoryService/repository/user/{userId}` . ここでは、{userId} を 0、1 などの整数値に置き換える必要があります。
+リポジトリ API には、特定のユーザーを指定する整数値を期待する REST API URI が含まれています。 例:  `https://<portal>/QoERepositoryService/repository/user/{userId}`. ここでは、{userId} を 0、1 などの整数値に置き換える必要があります。
   
 さらに、リポジトリ API は URI の {userId} で 2 つの特別なユーザー ID を受け入れる。
   

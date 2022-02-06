@@ -1,27 +1,22 @@
 ---
 title: デバイスのビジー オプションをインストールして構成Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- Strat_SB_Admin
-ms.custom: ''
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: 詳細については、「ビジー オプションをインストールして構成する方法」を参照Skype for Business Server。
-ms.openlocfilehash: 5e0dde157fc39ab7c24ddd297e858ce5a06e888f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835915"
 ---
+
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>デバイスのビジー オプションをインストールして構成Skype for Business Server
 
 詳細については、「ビジー オプションをインストールして構成する方法」を参照Skype for Business Server。
@@ -36,7 +31,7 @@ ms.locfileid: "60835915"
 
 通話中のオプションの構成方法に関係なく、通話または会議のユーザー、または通話を保留にしているユーザーは、新しい通話や会議を開始しません。
 
-ビジー オプション機能の詳細については、「プラン for Busy [Options for Skype for Business Server」 を参照してください](../../plan-your-deployment/enterprise-voice-solution/busy-options.md)。
+ビジー オプション機能の詳細については、「プラン [for Busy Options for Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/busy-options.md)。
 
 ## <a name="install"></a>インストール
 
@@ -50,7 +45,7 @@ ms.locfileid: "60835915"
 
 インストーラーは、最新バージョンの Busy Options アプリケーションを展開します。 ただし、アプリケーションは既定では有効になっていません。 アプリケーションを有効にするには、次の手順を実行します。
 
-1. [Set-CsVoicePolicy](/powershell/module/skype/set-csvoicepolicy?view=skype-ps)コマンドレットを実行して、次の例に示すように、ビジー オプションをグローバルに有効にします。
+1. [Set-CsVoicePolicy コマンドレットを](/powershell/module/skype/set-csvoicepolicy?view=skype-ps)実行して、次の例に示すように、ビジー オプションをグローバルに有効にします。
 
    ```powershell
    Set-CsVoicePolicy -EnableBusyOptions $true
@@ -76,7 +71,7 @@ ms.locfileid: "60835915"
    Set-CsVoicePolicy -Identity Site:Redmond1 -EnableBusyOptions $true
    ```
 
-3. 次に [、New-CsServerApplication](/powershell/module/skype/new-csserverapplication?view=skype-ps) コマンドレットを実行して、次の例に示すように、ビジー オプションをサーバー アプリケーションの一覧に追加します。
+3. 次に、 [New-CsServerApplication](/powershell/module/skype/new-csserverapplication?view=skype-ps) コマンドレットを実行して、次の例に示すように、ビジー オプションをサーバー アプリケーションの一覧に追加します。
 
    ```powershell
    New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/BusyOptions' -Uri http://www.microsoft.com/LCS/BusyOptions -Critical $False -Enabled $True -Priority (Get-CsServerApplication -Identity 'Service:Registrar:%FQDN%/UserServices').Priority
@@ -85,13 +80,13 @@ ms.locfileid: "60835915"
     > [!NOTE]
     > %FQDN% を特定のプールの完全修飾ドメイン名に置き換える必要があります。
 
-4. 次に [、Update-CsAdminRole](/powershell/module/skype/update-csadminrole?view=skype-ps) コマンドレットを実行して、次の例に示すように、ビジー オプション コマンドレットの役割ベースのアクセス制御 (RBAC) の役割を更新します。
+4. 次に、 [Update-CsAdminRole](/powershell/module/skype/update-csadminrole?view=skype-ps) コマンドレットを実行して、次の例に示すように、ビジー オプション コマンドレットの役割ベースのアクセス制御 (RBAC) の役割を更新します。
 
    ```powershell
    Update-CsAdminRole
    ```
 
-5. 最後に[、Start-CsWindowsService](/powershell/module/skype/start-cswindowsservice?view=skype-ps)コマンドを実行して、ビジー オプションがインストールされ、有効にされたすべてのプール内のすべてのフロントエンド サーバーで、Skype for Business Server Windows サービスを開始します。
+5. 最後に、[Start-CsWindowsService](/powershell/module/skype/start-cswindowsservice?view=skype-ps) コマンドを実行して、ビジー オプションがインストールされ、有効になっているすべてのプール内のすべてのフロントエンド サーバーで、Skype for Business Server Windows サービスを開始します。
 
    ```powershell
    Start-CsWindowsService
@@ -99,7 +94,7 @@ ms.locfileid: "60835915"
 
 ## <a name="configure"></a>Configure
 
-ビジー オプションを構成するには [、Set-CsBusyOptions コマンドレットを使用](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx) します。
+ビジー オプションを構成するには、 [Set-CsBusyOptions コマンドレットを使用](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx) します。
 
 たとえば、次のコマンドは、ユーザー "Ken Myer" のビジー オプションを構成します。 この構成では、"Ken Myer" への呼び出しは、既に通話中のビジーシグナルを返します。
 
@@ -113,7 +108,7 @@ Set-CsBusyOptions -Identity "Ken Myer"  -ActionType BusyOnBusy
 Set-CsBusyOptions -Identity "Chrystal Velasquez" -ActionType VoicemailOnBusy
 ```
 
-[Get-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx)コマンドレットを使用して、ビジー オプションに関する構成情報を取得できます。 次の使用例は、"ビジー オプション" の設定を KenMyer@Contoso.com します。
+[Get-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx) コマンドレットを使用して、ビジー オプションに関する構成情報を取得できます。 次の使用例は、"ビジー オプション" の設定を KenMyer@Contoso.com します。
 
 ```powershell
 Get-CsBusyOptions -Identity sip:KenMyer@Contoso.com
@@ -125,7 +120,7 @@ Get-CsBusyOptions -Identity sip:KenMyer@Contoso.com
 Remove-CsBusyOptions -Identity "Ken Myer"
 ```
 
-ビジー オプションの構成に使用するコマンドレットの詳細については [、Set-CsBusyOptions](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx) [、Get-CsBusyOptions、および Remove-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx)のテクニカル リファレンス コンテンツを [参照](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx)してください。
+ビジー オプションの構成に使用するコマンドレットの詳細については、「[Set-CsBusyOptions、Get-CsBusyOptions](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx)、[Remove-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx)」のテクニカル リファレンス コンテンツを参照してください。[](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx)
 
 ## <a name="enable-logging"></a>ログを有効にする
 
@@ -141,7 +136,7 @@ New-CsClsScenario -Parent Global -Name BusyOptions -Provider @{Add=$p1,$p2,$p3}
 
 ## <a name="verify-and-troubleshoot"></a>確認とトラブルシューティング
 
-ビジー オプションのインストール後 [、Get-CsServerApplication](/powershell/module/skype/get-csserverapplication?view=skype-ps) コマンドレットを使用してサーバー アプリケーションの一覧を取得することで、インストールが成功したと確認できます。 ビジー オプションが正しくインストールされている場合、コマンドレットの出力には次のようにビジー オプション構成が表示されます。
+ビジー オプションのインストール後、 [Get-CsServerApplication](/powershell/module/skype/get-csserverapplication?view=skype-ps) コマンドレットを使用してサーバー アプリケーションの一覧を取得することで、インストールが成功したと確認できます。 ビジー オプションが正しくインストールされている場合、コマンドレットの出力には次のようにビジー オプション構成が表示されます。
 
 <pre>
 Identity   : Service:Registrar:pool0.vdomain.com/BusyOptions
@@ -154,4 +149,4 @@ ScriptName :
 Script     :
 </pre>
 
-また、イベント ビューアー Windowsを使用して、ビジー オプションのインストールが成功し、ビジー オプションSkype for Business Server正常に読み込まれたか確認することもできます。 ビジー オプションを確認するには、イベント ビューアー - アプリケーションログとサービス ログ - Skype **\> \> (Lync) Server** を開き、イベント ID = 30253 を検索します。
+また、イベント ビューアー Windowsを使用して、ビジー オプションのインストールが成功し、ビジー オプションSkype for Business Server正常に読み込まれたか確認することもできます。 ビジー オプションを確認するには、イベント ビューアー **-\> アプリケーションログとサービス ログ -\> Skype (Lync) Server** を開き、イベント ID = 30253 を検索します。

@@ -1,28 +1,23 @@
 ---
 title: 例 通話受付管理の要件を収集する Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 description: ネットワークのサイト、地域、帯域幅に関する情報の収集など、Skype for Business Server エンタープライズ VoIP での通話受付管理の計画の詳細な例を示します。
-ms.openlocfilehash: 0af3072cfd0e248d2811c0aee78f7351b9513249
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850750"
 ---
+
 # <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>例: 通話受付管理の要件をSkype for Business Server
 
 ネットワークのサイト、地域、帯域幅に関する情報の収集など、Skype for Business Server エンタープライズ VoIP での通話受付管理の計画の詳細な例を示します。
@@ -140,7 +135,7 @@ ms.locfileid: "60850750"
     > すべてのサブネットは、たとえネットワーク サイトに帯域幅の制限がない場合でも、ネットワーク サイトに関連付けられる必要があります。 これは、通話受付管理はサブネット情報を使用してエンドポイントがどのネットワーク サイトに配置されているかを判断するためです。 セッションにおける両者の場所が決定した時、通話受付管理は通話を確立するのに十分な帯域幅があるかどうかを判断します。 帯域幅の制限がないリンクを介してセッションが確立した時、通知が生成されます。 
 
     > [!IMPORTANT]
-    > オーディオ/ビデオ エッジ サーバーを展開する場合、各エッジ サーバーのパブリック IP アドレスは、エッジ サーバーが展開されているネットワーク サイトに関連付けられている必要があります。 A/V エッジ サーバーの各パブリック IP アドレスは、サブネット マスクが 32 のサブネットとしてネットワーク構成設定に追加する必要があります。 たとえば、シカゴに A/V エッジ サーバーを展開する場合、それらのサーバーの外部 IP アドレスごとに、サブネット マスクが 32 のサブネットを作成し、ネットワーク サイトシカゴをそれらのサブネットに関連付ける。 パブリック IP アドレスの詳細については[、「Plan network requirements for Skype for Business](../../plan-your-deployment/network-requirements/network-requirements.md)」 を参照してください。 
+    > オーディオ/ビデオ エッジ サーバーを展開する場合、各エッジ サーバーのパブリック IP アドレスは、エッジ サーバーが展開されているネットワーク サイトに関連付けられている必要があります。 A/V エッジ サーバーの各パブリック IP アドレスは、サブネット マスクが 32 のサブネットとしてネットワーク構成設定に追加する必要があります。 たとえば、シカゴに A/V エッジ サーバーを展開する場合、それらのサーバーの外部 IP アドレスごとに、サブネット マスクが 32 のサブネットを作成し、ネットワーク サイトシカゴをそれらのサブネットに関連付ける。 パブリック IP アドレスの詳細については、「Plan [network requirements for Skype for Business](../../plan-your-deployment/network-requirements/network-requirements.md)。 
 
     主要状態インジケーター (KHI) 通知が発行され、ネットワークに存在している IP アドレスの一覧を指定します。ここで指定される一覧は、サブネットと関連付けられていないか、IP アドレスを含むサブネットがネットワーク サイトと関連付けられていません。 この通知は 8 時間に 1 回しか発行されません。 関連する通知の情報および例は以下の通りです。
 
@@ -150,7 +145,7 @@ ms.locfileid: "60850750"
 
     **レベル**: 2
 
-    **説明**: 次の IP アドレスのサブネットが構成されていないか、サブネットがネットワーク サイト \<List of IP Addresses\> に関連付けされていません。 
+    **説明**: 次の IP アドレスのサブネットが \<List of IP Addresses\> 構成されていないか、サブネットがネットワーク サイトに関連付けされていません。 
 
     **原因**: 対応する IP アドレスのサブネットがネットワーク構成設定にないか、サブネットがネットワーク サイトに関連付けられていません。 
 
@@ -238,4 +233,4 @@ ms.locfileid: "60850750"
 必要な情報を収集した後、管理シェルまたはコントロール パネルを使用して CAC Skype for Business Server展開Skype for Business Serverできます。
 
 > [!NOTE]
-> Skype for Business Server コントロール パネルを使用してほとんどのネットワーク構成タスクを実行することもできますが、サブネットとサイト間リンクを作成するには、Skype for Business Server必要があります。 詳細については [、「New-CsNetworkSubnet」](/powershell/module/skype/new-csnetworksubnet?view=skype-ps) および [「New-CsNetworkInterSitePolicy」を参照してください](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)。
+> Skype for Business Server コントロール パネルを使用してほとんどのネットワーク構成タスクを実行することもできますが、サブネットとサイト間リンクを作成するには、Skype for Business Server必要があります。 詳細については、「 [New-CsNetworkSubnet」](/powershell/module/skype/new-csnetworksubnet?view=skype-ps) および [「New-CsNetworkInterSitePolicy」を参照してください](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)。

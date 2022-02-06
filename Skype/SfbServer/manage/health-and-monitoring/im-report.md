@@ -1,24 +1,19 @@
 ---
 title: ピアツーピア IM レポート (Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
 description: '概要: [ピアツーピア IM レポート] の詳細については、「Skype for Business Server。'
-ms.openlocfilehash: f72200547ca8af3fa2ebde0e44c4707c82a1596b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834205"
 ---
+
 # <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>ピアツーピア IM レポート (Skype for Business Server
  
 **概要:**[ピアツーピア IM レポート] の詳細については、「Skype for Business Server。
@@ -27,7 +22,7 @@ ms.locfileid: "60834205"
   
 ## <a name="accessing-the-peer-to-peer-im-report"></a>ピアツーピア IM レポートへのアクセス
 
-ピアツーピア IM レポートにアクセスするには[、Skype for Business Server](peer-to-peer-activity-summary-report.md)でピアツーピア アクティビティの概要レポートを開き、次のいずれかの指標をクリックします。
+ピアツーピア IM レポートにアクセスするには、[Skype for Business Server](peer-to-peer-activity-summary-report.md) でピアツーピア アクティビティの概要レポートを開き、次のいずれかの指標をクリックします。
   
 - ピアツーピア IM セッションの合計数
     
@@ -43,7 +38,7 @@ ms.locfileid: "60834205"
   
 **ピアツーピア IM レポートのフィルター**
 
-|**名前**|**説明**|
+|**[名前]**|**説明**|
 |:-----|:-----|
 |**From** <br/> |時間範囲の開始日と開始時刻。データを時間単位で表示するには、次のように開始日と開始時刻の両方を入力します。  <br/> 2015 年 7 月 7 日 13:00  <br/> 開始時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に開始します。データを日単位で表示するには、次のように日付のみを入力します。  <br/> 7/7/2015  <br/> 週単位または月単位で表示するには、週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。  <br/> 7/3/2015  <br/> 週は、常に日曜日から土曜日までです。  <br/> |
 |**To** <br/> |時間範囲の終了日と終了時刻。データを時間単位で表示するには、次のように終了日と終了時刻の両方を入力します。  <br/> 2015 年 7 月 7 日 13:00  <br/> 終了時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に終了します。データを日単位で表示するには、次のように日付のみを入力します。  <br/> 7/7/2015  <br/> 週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。  <br/> 7/3/2015  <br/> 週は、常に日曜日から土曜日までです。  <br/> |
@@ -70,7 +65,7 @@ ms.locfileid: "60834205"
 
 |**名前**|**このアイテムを並べ替えることはできますか?**|**説明**|
 |:-----|:-----|:-----|
-|[**認証の種類**] <br/> |不要  <br/> | セッション参加者によって使用される認証の種類。通常、値は次のいずれかです。 <br/>  Enterprise <br/>  フェデレーション <br/>  PIC <br/> |
+|[**認証の種類**] <br/> |不要  <br/> | セッション参加者によって使用される認証の種類。通常、値は次のいずれかです。 <br/>  大企業 <br/>  フェデレーション <br/>  PIC <br/> |
 |**日付/時刻** <br/> |不要  <br/> |セッションの発生日時。  <br/> |
 |**合計** <br/> |不要  <br/> |セッション数またはメッセージ数の合計。  <br/> |
    

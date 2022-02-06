@@ -1,25 +1,20 @@
 ---
 title: MediaLine テーブル
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 414b1d63-ae97-4c27-bac0-c9ad0f808ff0
 description: 各レコードは、1 つのメディア行を表します。 (1 つのオーディオ セッションには、通常、1 つのオーディオ メディアラインが含まれる。 1 つのオーディオおよびビデオ (A/V) セッションには通常、1 つのオーディオ メディア回線と 1 つのビデオ メディア 回線が含まれるが、会議デバイスを使用する場合、またはギャラリー ビューを使用する場合、セッションには 2 つのビデオ メディア回線が含まれている可能性があります。
-ms.openlocfilehash: 4d832990b92bd0f398c613f2daeec91fc89f5f52
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857164"
 ---
+
 # <a name="medialine-table"></a>MediaLine テーブル
  
 各レコードは、1 つのメディア行を表します。 (1 つのオーディオ セッションには、通常、1 つのオーディオ メディアラインが含まれる。 1 つのオーディオおよびビデオ (A/V) セッションには通常、1 つのオーディオ メディア回線と 1 つのビデオ メディア 回線が含まれるが、会議デバイスを使用する場合、またはギャラリー ビューを使用する場合、セッションには 2 つのビデオ メディア回線が含まれている可能性があります。
@@ -38,12 +33,12 @@ ms.locfileid: "60857164"
 |**CallerPort** <br/> |int  <br/> | <br/> | 発信者が使用するポート。 <br/> |
 |**CallerSubnet** <br/> |int  <br/> | 外部 <br/> |呼び出し元のサブネット。 詳細については [、IPAddress テーブル](ipaddress.md) を参照してください。 <br/> |
 |**CallerInside** <br/> |ビット  <br/> | <br/> |1 は、発信者がエンタープライズ ネットワーク内に存在することを示し、0 は、発信者がネットワーク外に存在することを示します。  <br/> |
-|**CallerMacAddress** <br/> |int  <br/> |外部  <br/> |[MacAddress](macaddress.md)テーブルから参照される発信者の mac アドレス。  <br/> |
+|**CallerMacAddress** <br/> |int  <br/> |外部  <br/> |MacAddress テーブルから参照される発信者 [の mac アドレス](macaddress.md)。  <br/> |
 |**CallerRelayIPAddr** <br/> |int  <br/> |外部  <br/> |発信者が使用する音声ビデオ エッジ サービスの IPアドレス。 詳細については [、IPAddress テーブル](ipaddress.md) を参照してください。 <br/> |
 |**CallerRelayPort** <br/> |int  <br/> | <br/> |発信者が A/V Edge サービスで使用するポート。  <br/> |
 |**CallerCaptureDev** <br/> |int  <br/> |外部  <br/> |呼び出し元が使用するデバイスをキャプチャします。 Device テーブル [から参照されます](device.md)。  <br/> |
 |**CallerRenderDev** <br/> |int  <br/> |外部  <br/> |呼び出し元が使用するレンダリング デバイス。 Device テーブル [から参照されます](device.md)。  <br/> |
-|**CallerCaptureDevDriver** <br/> |int  <br/> |外部  <br/> |DeviceDriver テーブルから参照される呼び出し元のキャプチャ デバイス [のドライバー](devicedriver.md)。  <br/> |
+|**CallerCaptureDevDriver** <br/> |int  <br/> |外部  <br/> |[DeviceDriver](devicedriver.md) テーブルから参照される呼び出し元のキャプチャ デバイスのドライバー。  <br/> |
 |**CallerRenderDevDriver** <br/> |int  <br/> |外部  <br/> |DeviceDriver テーブルから参照される呼び出し元のレンダリング [デバイスのドライバー](devicedriver.md)。  <br/> |
 |**CallerNetworkConnectionType** <br/> |tinyint  <br/> |外部  <br/> |発信者がネットワークに接続した方法を示します。 値は [NetworkConnectionDetail テーブルから取得されます](networkconnectiondetail.md)。 一般的な値は、WiFi 接続の有線接続 1 の場合は 0 です。イーサネット接続の場合は 3。  <br/> |
 |**CallerBssid** <br/> |int  <br/> |外部  <br/> |ワイヤレスが使用されている場合の発信者の BSSID。 [MacAddress テーブルから参照されます](macaddress.md)。  <br/> |

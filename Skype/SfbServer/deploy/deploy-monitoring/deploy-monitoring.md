@@ -1,29 +1,24 @@
 ---
 title: 監視をシステムに展開Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: '概要: 監視をサーバーに展開する方法についてSkype for Business Server。'
-ms.openlocfilehash: 5e3fdf468067b707ee1dd97c5458f3612d78653d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855081"
 ---
+
 # <a name="deploy-monitoring-in-skype-for-business-server"></a>監視をシステムに展開Skype for Business Server
 
 **概要:** 監視を展開する方法については、Skype for Business Server。
 
-これらのタスクを実行する前に、「[監視を計画する」を参照Skype for Business Server。](../../plan-your-deployment/monitoring.md)
+これらのタスクを実行する前に、「監視を計画[する」を参照Skype for Business Server](../../plan-your-deployment/monitoring.md)。
 
 通常、トポロジ内に監視サービスを実装するには、次の 2 つの手順を実行します。
 
@@ -36,7 +31,7 @@ ms.locfileid: "60855081"
 > [!NOTE]
 > プールで監視が有効になっている場合は、トポロジを変更せずに監視データを収集するプロセスを無効にできます。Skype for Business Server では、通話詳細記録 (CDR) または Quality of Experience (QoE) データ収集を無効にする (後で再び有効にする) 方法が提供されます。 詳細については、このドキュメントの「通話の詳細記録と品質の設定」設定を参照してください。
 
-Skype for Business Server での監視のもう 1 つの重要な強化点は、Skype for Business Server 監視レポートで IPv6 がサポートされるという事実です。IP アドレス フィールドを使用するレポートには、使用されている SQL クエリに応じて IPv4 または IPv6 アドレスが表示されます。および、2) IPv6 アドレスが監視データベースに格納される場所としない場所。
+Skype for Business Server での監視に対するもう 1 つの重要な強化点は、Skype for Business Server 監視レポートが IPv6 をサポートしているという事実です。IP アドレス フィールドを使用するレポートには、IPv4 アドレスまたは IPv6 アドレスが次の 1) に応じて表示SQL 使用されているクエリ。および、2) IPv6 アドレスが監視データベースに格納される場所としない場所。
 
 > [!NOTE]
 > SQL Server エージェント サービスの管理下で既定の監視 SQL Server メンテナンス ジョブをスケジュールに基づいて実行できるよう、監視データベースを保持している SQL インスタンスで SQL Server エージェント サービスが自動的に実行され、SQL Server エージェント サービスが実行されている必要があります。
@@ -47,7 +42,7 @@ Skype for Business Server での監視のもう 1 つの重要な強化点は、
 
 - 監視SQL Server Reporting Servicesと監視レポートSkype for Business Serverインストールします。 監視レポートは、監視データベースに格納されている情報をさまざまなビューで表示する事前構成済みのレポートです。
 
-- 通話詳細記録 (CDR) と QoE (Quality of Experience) データ収集を構成します。 通話の詳細記録は、Voice over IP (VoIP) 電話Skype for Business Server機能の使用状況を追跡する方法を提供します。インスタント メッセージング (IM)。ファイル転送。音声/ビデオ (音声ビデオ) 会議。およびアプリケーション共有セッション。 QoE 指標は、損失ネットワーク パケット数、バックグラウンド ノイズ、および "ジッター" の大きさ (パケット遅延の差) など、組織で行われる音声通話やビデオ通話の品質を追跡します。
+- 通話詳細記録 (CDR) と QoE (Quality of Experience) データ収集を構成します。 通話の詳細記録を使用すると、ボイス オーバー IP (VoIP) 通話、インスタント メッセージング (IM)、ファイル転送、音声/ビデオ (A/V) 会議、アプリケーション共有セッションなどの Skype for Business Server 機能の使用状況を追跡できます。 QoE 指標は、損失ネットワーク パケット数、バックグラウンド ノイズ、および "ジッター" の大きさ (パケット遅延の差) など、組織で行われる音声通話やビデオ通話の品質を追跡します。
 
 - 監視データベースから CDR や QoE のレコードを手動で削除します。
 
@@ -65,7 +60,7 @@ Skype for Business Server での監視のもう 1 つの重要な強化点は、
 
 統合データ収集エージェントは、各フロント エンド サーバーに自動的にインストールおよびアクティブ化されますが、つまり、Skype for Business Server のインストールが完了した瞬間に監視データの収集が自動的に開始されるという意味ではありません。 代わりに、フロントエンド サーバー/フロントエンド プールを監視データベースに関連付け、グローバル スコープまたはサイト スコープで通話詳細記録 (CDR) または QoE (QoE) 監視を有効にする必要があります。
 
-フロントエンド サーバーまたはフロントエンド プールを監視データベースに関連付ける手順については、「展開ガイド」の[「Skype for Business Server](associate-a-monitoring-store.md)のフロントエンド プールに監視ストアを関連付ける」を参照してください。 これらの関連付けを行った後、新しいトポロジSkype for Business Serverが公開された後も、監視データを収集できない状態が続く場合があります。 これは、既定では、CDR と QoE の両方のデータ収集が、インストール時に無効Skype for Business Server。
+フロントエンド サーバーまたはフロントエンド プールを監視データベースに関連付ける手順については、「展開ガイド」の「[Skype for Business Server](associate-a-monitoring-store.md) のフロントエンド プールに監視ストアを関連付ける」を参照してください。 これらの関連付けを行った後、新しいトポロジSkype for Business Serverが公開された後も、監視データを収集できない状態が続く場合があります。 これは、既定では、CDR と QoE の両方のデータ収集が、インストール時に無効Skype for Business Server。
 
 データ収集を開始するには、CDR 監視と QoE 監視のどちらかまたは両方を有効にする必要があります (CDR 監視と QoE 監視を両方とも有効にする必要はありません。 (CDR と QoE の両方の監視を有効にする必要はない点に注意してください。必要に応じて、もう一方の種類の監視を無効にした状態で有効にすることができます)。グローバル スコープで CDR 監視を有効にするには、次のコマンドを管理シェル内Skype for Business Server実行します。
 
@@ -95,7 +90,7 @@ Set-CsQoEConfiguration -Identity "global" -EnableQoE $True
 
 3. [**編集 Quality of Experience (QoE) 設定**] ウィンドウで、[**QoE データの監視を有効にする**] を選択し、[**コミット**] をクリックします。
 
-上記の例では、グローバル スコープでの監視を有効にしています。つまり、組織全体で CDR と QoE の監視を有効にします。 または、サイト スコープで個別の CDR および QoE 構成設定を作成し、サイトごとに監視を選択的に有効または無効にすることもできます。 たとえば、Redmond サイトの CDR 監視を有効にし、ダブリン サイトの CDR 監視を無効にできます。 監視構成設定の管理の詳細については、「展開ガイド」のトピック「通話の詳細記録と品質の設定を構成する」を参照[Skype for Business Server。](call-detail-recording-and-qoe.md)
+上記の例では、グローバル スコープでの監視を有効にしています。つまり、組織全体で CDR と QoE の監視を有効にします。 または、サイト スコープで個別の CDR および QoE 構成設定を作成し、サイトごとに監視を選択的に有効または無効にすることもできます。 たとえば、Redmond サイトの CDR 監視を有効にし、ダブリン サイトの CDR 監視を無効にできます。 監視構成設定の管理の詳細については、「展開ガイド」のトピック「通話の詳細記録とエクスペリエンスの品質設定を構成する」を参照[Skype for Business Server。](call-detail-recording-and-qoe.md)
 
 ## <a name="see-also"></a>関連項目
 

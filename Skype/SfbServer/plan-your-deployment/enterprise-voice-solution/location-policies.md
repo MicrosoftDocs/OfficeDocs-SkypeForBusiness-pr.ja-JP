@@ -1,36 +1,31 @@
 ---
 title: ユーザーの場所ポリシーを計画Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
 description: このトピックでは、拡張緊急サービス (E9-1-1) 展開の場所ポリシーを計画する方法について説明します。Skype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: 661706aa9ae60f87dc60814d71c2b0b8c8dcc2ce
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855324"
 ---
+
 # <a name="plan-location-policies-for-skype-for-business-server"></a>ユーザーの場所ポリシーを計画Skype for Business Server
  
 このトピックでは、拡張緊急サービス (E9-1-1) 展開の場所ポリシーを計画する方法について説明します。Skype for Business Server エンタープライズ VoIP。 
   
 > [!NOTE]
-> Skype for Business Server、クライアントの複数の緊急電話番号の構成がサポートされます。 複数の緊急電話番号を構成する場合は、「Skype for Business Server で複数の[](multiple-emergency-numbers.md)緊急電話番号を計画する」および「Skype for Business で複数の緊急電話番号を構成する」の情報に[従う必要があります](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)。 
+> Skype for Business Server、クライアントの複数の緊急電話番号の構成がサポートされます。 複数の緊急電話番号を構成する場合は、「Skype for Business Server で複数の緊急[](multiple-emergency-numbers.md)電話番号を計画する」および「Skype for Business で複数の緊急電話番号を構成する」の情報に[従う必要があります](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)。 
   
-場所ポリシーを作成するには、Skype for Businessコントロール パネルを使用するか[、New-CsLocationPolicy コマンドレットを使用](/powershell/module/skype/new-cslocationpolicy?view=skype-ps)します。 詳細については、「場所ポリシーを[作成する」を参照Skype for Business Server。](../../deploy/deploy-enterprise-voice/create-location-policies.md)
+場所ポリシーを作成するには、Skype for Businessコントロール パネルを使用するか、[New-CsLocationPolicy コマンドレットを使用](/powershell/module/skype/new-cslocationpolicy?view=skype-ps)します。 詳細については、「場所ポリシーを[作成する」を参照Skype for Business Server](../../deploy/deploy-enterprise-voice/create-location-policies.md)。
   
 場所ポリシーにはそれぞれ、以下の情報が含まれています。
   
@@ -62,11 +57,11 @@ ms.locfileid: "60855324"
 このダイヤル文字列 (先頭の "+" は小さいが、ユーザーのダイヤル プランによって行われた正規化を含む) は、通話が緊急通話を表します。 **緊急ダイヤル文字列** を使用すると、クライアントによって場所とコールバック情報が緊急電話に含まれるようになります。
   
 > [!NOTE]
-> 組織で外部回線アクセスプレフィックスを使用しない場合は、Skype for Business Server を実行しているサーバーで発信ルーティングに通話を送信する前に、911 文字列に "+" を追加する対応するダイヤル プラン正規化ルールを作成する必要があります。"+" は、場所ポリシーの結果として、Skype for Businessクライアントによって自動的に先頭に追加されます。 ただし、サイトで外部アクセス プレフィックスを使用する場合は、外部アクセス プレフィックスを削除して "+" を追加する、適用可能なダイヤル プラン ポリシーに正規化ルールを追加する必要があります。 たとえば、場所で外部アクセス プレフィックス 9 を使用し、ユーザーが 9 911 をダイヤルして緊急電話を発信する場合、クライアントはダイヤル プラン ポリシーを使用してこれを +911 に正規化してから、発信者の場所プロファイルのルートでダイヤル番号を評価します。 
+> 組織で外部回線アクセスプレフィックスを使用しない場合は、Skype for Business Server を実行しているサーバーで発信ルーティングに呼び出しを送信する前に、911 文字列に "+" を追加する対応するダイヤル プラン正規化ルールを作成する必要があります。場所ポリシーの結果として、"+" は Skype for Business クライアントによって自動的に先頭に追加されます。 ただし、サイトで外部アクセス プレフィックスを使用する場合は、外部アクセス プレフィックスを削除して "+" を追加する、適用可能なダイヤル プラン ポリシーに正規化ルールを追加する必要があります。 たとえば、場所で外部アクセス プレフィックス 9 を使用し、ユーザーが 9 911 をダイヤルして緊急電話を発信する場合、クライアントはダイヤル プラン ポリシーを使用してこれを +911 に正規化してから、発信者の場所プロファイルのルートでダイヤル番号を評価します。 
   
  **緊急ダイヤル文字列マスク (E9-1-1 ダイヤル マスク)**
   
-指定された緊急ダイヤル文字列に変換されるダイヤル文字列のセミコロンで区切 **られたリスト** です。 たとえば、ヨーロッパの大部分の緊急サービス番号である 112 を追加できます。 ヨーロッパからのSkype for Businessユーザーは、911 が米国の緊急電話番号であるのを知らないかもしれませんが、112 にダイヤルして同じ結果を得られます。 緊急ダイヤル文字列と同様に、各番号の前に "+" を含めず、外部回線アクセス コードを使用する場合は、ユーザーのダイヤル プラン ポリシーに正規化ルールが含まれるので、アクセス コードの数字を削除してください。
+指定された緊急ダイヤル文字列に変換されるダイヤル文字列のセミコロンで区切 **られたリスト**。 たとえば、ヨーロッパの大部分の緊急サービス番号である 112 を追加できます。 ヨーロッパからのSkype for Businessユーザーは、911 が米国の緊急電話番号であるのを知らないかもしれませんが、112 にダイヤルして同じ結果を得られます。 緊急ダイヤル文字列と同様に、各番号の前に "+" を含めず、外部回線アクセス コードを使用する場合は、ユーザーのダイヤル プラン ポリシーに正規化ルールが含まれるので、アクセス コードの数字を削除してください。
   
  **PSTN 使用法**
   

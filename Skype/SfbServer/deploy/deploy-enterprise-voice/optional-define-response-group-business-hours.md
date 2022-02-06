@@ -1,25 +1,20 @@
 ---
-title: (省略可能)[応答グループの営業時間を定義する] Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: '(省略可能)[応答グループの営業時間を定義する] Skype for Business'
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
 description: 応答グループの営業時間を作成または変更Skype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: 0a7e22d02a4540973f2f3e3f2ea39fabe848f17c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850410"
 ---
+
 # <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>(省略可能)[応答グループの営業時間を定義する] Skype for Business 
  
 応答グループの営業時間を作成または変更Skype for Business Server エンタープライズ VoIP。
@@ -29,7 +24,7 @@ ms.locfileid: "60850410"
 営業時間設定では、ワークフローが通話に応答できる時間を定義し、営業時間外の通話に対するアクションを指定します。応答グループ管理者は、**New-CsRgsHoursOfBusiness** コマンドレットを使用して、使用できる応答グループの数に制限がない事前設定スケジュールを作成できます。
   
 > [!TIP]
-> ワークフローを作成または変更するときに、そのワークフローのみに適用されるカスタム スケジュールを指定できます。 詳細については、「ワークフローでの応答グループ ワークフローの設計と作成」[を参照Skype for Business。](designing-and-creating-response-group-workflows.md) 
+> ワークフローを作成または変更するときに、そのワークフローのみに適用されるカスタム スケジュールを指定できます。 詳細については、「ワークフローでの応答グループ ワークフローの設計と作成[」を参照Skype for Business](designing-and-creating-response-group-workflows.md)。 
   
 > [!NOTE]
 > ワークフローが管理ワークフローとして定義されている場合、CsResponseGroupManager の役割を割り当てられているすべてのユーザーは、管理するワークフローのカスタム営業時間を設定および変更できます。 
@@ -41,7 +36,7 @@ ms.locfileid: "60850410"
 
 1. RTCUniversalServerAdmins グループのメンバーまたは応答グループをサポートする定義済みの管理者の役割のいずれかのメンバーとしてログオンします。
     
-2. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
+2. 管理シェルをSkype for Business Serverする **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[**2015** 年Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 3. 定義する一意の時間の範囲ごとに、以下を実行します。
     

@@ -1,25 +1,20 @@
 ---
 title: 2015 年に常設チャット ユーザー ポリシーをSkype for Business Serverする
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: e5862480-95f8-4d76-a2b5-940cd995e93c
 description: '概要: 2015 年に常設チャット サーバーの初期ユーザー ポリシーを作成する方法については、このトピックSkype for Business Serverしてください。 常設チャット ユーザー ポリシーは、ユーザーがチャット ルームにアクセスできるかどうかを決定します。'
-ms.openlocfilehash: 71003f6befa3e6c47cd65829c3703a45527e5964
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832861"
 ---
+
 # <a name="configure-persistent-chat-user-policies-in-skype-for-business-server-2015"></a>2015 年に常設チャット ユーザー ポリシーをSkype for Business Serverする
  
 **概要:** このトピックでは、2015 年に常設チャット サーバーの初期ユーザー ポリシーを作成Skype for Business Serverしてください。 常設チャット ユーザー ポリシーは、ユーザーがチャット ルームにアクセスできるかどうかを決定します。
@@ -47,7 +42,7 @@ ms.locfileid: "60832861"
     
 2. [スタート **] メニュー** から、[コントロール パネル] Skype for Business Serverを選択するか、ブラウザー ウィンドウを開き、[管理 URL] を入力します。
     
-3. [Skype for Business Server] コントロール パネルで、[常設チャット]**をクリック** し、[常設チャット ポリシー **] をクリックします**。
+3. [Skype for Business Server] で、[常設チャット] **をクリック** し、[常設チャット ポリシー **] をクリックします**。
     
 4. ポリシーの一覧の [**グローバル**] をクリックし、[**編集**] をクリックしてから、[**詳細の表示**] をクリックします。
     
@@ -55,7 +50,7 @@ ms.locfileid: "60832861"
     
    - グローバルという既定の名前を使用しない場合は、[**名前**] でグローバル ポリシーの新しい名前を指定します。
     
-   - [ **説明**] で、ユーザー ポリシーの内容の詳細を指定します (たとえば  _、centralSiteName_ のグローバル ポリシー)。
+   - [ **説明**] で、ユーザー ポリシーの内容の詳細を指定します (たとえば、  _centralSiteName のグローバル ポリシー_)。
     
    - サイト ポリシーまたはユーザー ポリシーによって特に制御されていないすべてのサイトとユーザーの常設チャットを制御するには、[常設チャットを有効にする] チェック ボックス **をオンまたは** オフにします。
     
@@ -119,7 +114,7 @@ ms.locfileid: "60832861"
     
 4. 検索結果一覧の表でユーザー アカウントをクリックし、[**編集**] をクリックして、[**詳細の表示**] をクリックします。
     
-5. [**常設チャット Skype for Business Serverユーザー** の編集]**で、** 適用する常設チャット ユーザー ポリシーを選択します。
+5. [**常設チャット Skype for Business Server** ユーザーの編集] **で、** 適用する常設チャット ユーザー ポリシーを選択します。
     
     > [!NOTE]
     > 設定は **\<Automatic\>** 、既定の有効なポリシーを適用します。 これらの設定はサーバーによって自動的に適用されます。

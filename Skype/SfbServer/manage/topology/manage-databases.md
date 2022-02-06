@@ -1,27 +1,22 @@
 ---
 title: AlwaysOn 可用性グループを使用してデータベースを管理Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 026c4469-f471-4e4f-a77d-a7d22a925e5a
 description: '概要: 既存の AlwaysOn 可用性グループに Skype for Business Server データベースを追加する方法と、Skype for Business Server の AlwaysOn 可用性グループの一部であるバック エンド サーバーにパッチを適用またはアップグレードした後に必要な追加手順について説明します。'
-ms.openlocfilehash: fe74cd804aff746a3d6c52163ed96d6b270703ce
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827510"
 ---
+
 # <a name="manage-databases-with-an-alwayson-availability-group-in-skype-for-business-server"></a>AlwaysOn 可用性グループを使用してデータベースを管理Skype for Business Server
 
-この記事の手順を使用して、Skype for Business Server の既存の AlwaysOn 可用性グループに Skype for Business Server データベースを追加し、Skype for Business Server の AlwaysOn 可用性グループの一部であるバック エンド サーバーにパッチを適用またはアップグレードした後に必要な追加手順について説明します。
+この記事の手順を使用して、Skype for Business Server の既存の AlwaysOn 可用性グループに Skype for Business Server データベースを追加し、AlwaysOn 可用性グループの一部であるバック エンド サーバーにパッチを適用またはアップグレードした後に必要な追加の手順について説明します。Skype for Business Server。
 
 ## <a name="add-databases-to-an-alwayson-availability-group"></a>AlwaysOn 可用性グループにデータベースを追加する 
 
@@ -29,13 +24,13 @@ ms.locfileid: "60827510"
     
 2. トポロジ ビルダーで、AlwaysOn 可用性SQL Serverの FQDN を、そのグループのプライマリ ノードの FQDN に設定します。
     
-   - [トポロジ ビルダー] を開き、[ **既存の** 展開からトポロジをダウンロードする] を選択し **、[OK] をクリックします**。
+   - [トポロジ ビルダー] を開き、[既存の展開からトポロジをダウンロード **する] を選択** し、[OK] を **クリックします**。
     
-   - [Skype for Business Server] を展開し、トポロジを展開し、[ストア] **SQL Server展開します**。 新しい AlwaysOn 可用性グループのSQLを右クリックし、[プロパティの編集]**をクリックします**。
+   - [Skype for Business Server] を展開し、トポロジを展開し、[ストア **] SQL Server展開します**。 新しい AlwaysOn 可用性グループSQLを右クリックし、[プロパティの編集] **をクリックします**。
     
-   - ページの下部の **[FQDN]** ボックスSQL Server AlwaysOn 可用性グループのプライマリ ノードの FQDN を入力します。
+   - ページの下部の [FQDN] ボックスSQL Server AlwaysOn 可用性グループのプライマリ ノードの **FQDN** を入力します。
     
-3. トポロジを公開します。 [操作] **メニューの [** トポロジ] **をクリックし** 、[発行] **をクリックします**。 次に、確認ページで [次へ] を **クリックします**。
+3. トポロジを公開します。 [操作] **メニューの [****トポロジ] をクリックし**、[発行] **をクリックします**。 次に、確認ページで [次へ] を **クリックします**。
     
 4. AlwaysOn 可用性SQL Server Management Studioに新しいデータベースを追加するには、次の情報を使用します。
     

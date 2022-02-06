@@ -1,25 +1,20 @@
 ---
 title: 2015 年の常設チャット サーバー のSkype for Business Serverする
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 19ced8de-8867-4152-b38a-891f3bc2a5ea
 description: '概要: 2015 年のグローバル レベル、サイト レベル、またはプール レベルで常設チャット サーバー オプションを構成するSkype for Business Serverします。'
-ms.openlocfilehash: 99dab0b4a5e7bb542dee00803e5c401c63544ada
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835845"
 ---
+
 # <a name="configure-persistent-chat-server-options-in-skype-for-business-server-2015"></a>2015 年の常設チャット サーバー のSkype for Business Serverする
  
 **概要:** 2015 年のグローバル レベル、サイト レベル、またはプール レベルで常設チャット サーバー オプションを構成するSkype for Business Serverします。
@@ -67,7 +62,7 @@ ms.locfileid: "60835845"
     
    - [**参加者の更新制限**] で、参加者の更新の制限値を選択します。 常設チャット サーバーは、接続されているユーザーの数がこの数に達するまで、すべての参加者に名簿情報 (チャット ルームに接続されているユーザー) を送信します。 既定値は 75 です。 この制限は、特定のルーム内の参加者の最大数を示し、常設チャット サーバーがルームに存在するユーザーに関する接続済みクライアントへの名簿更新プログラムの送信を停止します。
     
-   - (省略可能)。[ **ルーム管理 URL]** で、ルーム管理 URL を選択します。 これは Web をベースにした、ルームのカスタム管理用 URL です。 ルーム管理をカスタマイズする必要がなく、既定の設定を使用する場合は、このオプションを空白のままにします。 URL を設定すると、内部と外部の両方のルームの管理 URL として適用されます。
+   - (省略可能)。[ **ルーム管理 URL] で**、ルーム管理 URL を選択します。 これは Web をベースにした、ルームのカスタム管理用 URL です。 ルーム管理をカスタマイズする必要がなく、既定の設定を使用する場合は、このオプションを空白のままにします。 URL を設定すると、内部と外部の両方のルームの管理 URL として適用されます。
     
      ルーム作成エクスペリエンスをカスタマイズし、特定のビジネス ワークフローを含める場合は、常設チャット サーバー ソフトウェア開発キット (SDK) を使用してカスタムルーム管理ソリューションを構築し、どこかにホストし、URL をここに置きます。 ユーザーがチャット ルームを表示または作成するときにカスタム チャット ルーム管理ソリューションを使用するよう、この URL がクライアントに伝えられます。
     
@@ -79,7 +74,7 @@ ms.locfileid: "60835845"
   
 1. CsPersistentChatAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
     
-2. [スタート **] メニュー** から、[コントロール パネル] Skype for Business Serverを選択するか、ブラウザー ウィンドウを開き、[管理 URL] を入力します。
+2. [スタート **] メニュー** の [コントロール パネル] Skype for Business Server選択するか、ブラウザー ウィンドウを開き、[管理 URL] を入力します。
     
 3. 左側のナビゲーション バーで [**常設チャット**] をクリックし、[**常設チャットの構成**] をクリックします。
     

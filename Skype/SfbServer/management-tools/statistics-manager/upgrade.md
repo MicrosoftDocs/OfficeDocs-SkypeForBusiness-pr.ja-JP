@@ -1,32 +1,27 @@
 ---
 title: Skype for Business Server の統計情報マネージャーのアップグレード
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
 description: '概要: このトピックを参照して、統計マネージャーをアップグレードする方法についてSkype for Business Server。'
-ms.openlocfilehash: 297da8efc1259c1128fd0d60584e1db761465217
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857334"
 ---
+
 # <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Skype for Business Server の統計情報マネージャーのアップグレード
  
 **概要:** このトピックを参照して、統計マネージャーをアップグレードする方法についてSkype for Business Server。
   
 このトピックでは、Skype for Business Server の統計マネージャーの既存のインストールをアップグレードする方法について説明します。Skype for Business Server の正常性とパフォーマンスのデータをリアルタイムで表示できる強力なツールです。 数百のサーバーでパフォーマンス データを数秒ごとにポーリングし、統計マネージャー Web サイトで即座に結果を表示できます。 
   
-統計マネージャーとリリース 2.0 の新機能の詳細については、「Plan [for Statistics Manager for Skype for Business Server」](plan.md)および「Deploy Statistics Manager for Skype for Business Server」を[参照してください](deploy.md)。
+統計マネージャーとリリース 2.0 の新機能の詳細については、「Plan [for Statistics Manager for Skype for Business Server](plan.md)」および「Deploy [Statistics Manager for Skype for Business Server」を参照してください](deploy.md)。
   
 アップグレードには、次の 2 つの方法があります。
   

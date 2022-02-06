@@ -1,24 +1,19 @@
 ---
 title: '[エクスペリエンスの品質を有効にする] Skype for Business Server'
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c8bb3c67-b324-4d94-8158-00c792c7ac42
 description: '概要: エクスペリエンスの品質 (QoE) を有効にする方法についてSkype for Business Server。'
-ms.openlocfilehash: 89c6a41a356355ea5ac717a10e2848aa16d94249
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863574"
 ---
+
 # <a name="enable-quality-of-experience-in-skype-for-business-server"></a>[エクスペリエンスの品質を有効にする] Skype for Business Server
 
 **概要: エクスペリエンス** の品質 (QoE) を有効にする方法についてSkype for Business Server。
@@ -42,7 +37,7 @@ QoE (Quality of Experience) は、メディアの品質と、通話およびセ�
 
 ## <a name="enabling-qoe-by-using-windows-powershell-cmdlets"></a>コマンドレットを使用して QoE をWindows PowerShellする
 
-QoE を有効にするには、Windows PowerShell **Set-CsQoEConfiguration コマンドレットを使用** します。 このコマンドレットは、管理者管理シェルSkype for Business Serverリモート セッションから実行Windows PowerShell。 リモート サーバーを使用してサーバー Windows PowerShellする方法[Skype for Business Server、Microsoft Lync リモート PowerShell 管理を参照してください](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 このプロセスは、同じSkype for Business Server。
+QoE を有効にするには、Windows PowerShell **Set-CsQoEConfiguration コマンドレットを使用** します。 このコマンドレットは、管理者管理シェルSkype for Business Serverリモート セッションから実行Windows PowerShell。 リモート サーバーを使用してリモート Windows PowerShell接続する方法Skype for Business Server [Microsoft Lync リモート PowerShell 管理」を参照してください](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 このプロセスは、同じSkype for Business Server。
 
 ### <a name="to-enable-qoe-for-a-single-location"></a>1 つの場所に対して QoE を有効にするには
 
@@ -68,7 +63,7 @@ QoE を有効にするには、Windows PowerShell **Set-CsQoEConfiguration コ�
   Get-CsQoEConfiguration | Set-CsQoEConfiguration "site:Redmond" -EnableQoE $True
   ```
 
-詳細については [、「Set-CsQoEConfiguration」を参照してください](/powershell/module/skype/set-csqoeconfiguration?view=skype-ps)。
+詳細については、「 [Set-CsQoEConfiguration」を参照してください](/powershell/module/skype/set-csqoeconfiguration?view=skype-ps)。
 
 ## <a name="see-also"></a>関連項目
 

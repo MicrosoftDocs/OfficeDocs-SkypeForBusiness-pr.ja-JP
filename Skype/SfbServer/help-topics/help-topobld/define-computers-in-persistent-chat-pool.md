@@ -1,30 +1,25 @@
 ---
 title: 常設チャット プールのコンピューターを定義する
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddPersistentChatMachinePage
+  - ms.lync.tb.AddPersistentChatMachinePage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f87c3abb-d8b4-4e51-af84-9b579e3807c5
 description: 常設チャット サーバー プールの一部になるコンピューターを定義するには、コンピューター FQDN に完全修飾ドメイン名 (FQDN) を入力します。 これは、ドメイン ネーム システム (DNS) ホスト (A または AAAA) レコードで定義されているコンピューターの名前であることが必要です。
-ms.openlocfilehash: a0eb8b18818446b661c7168c41bd1884f3c92fa0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851331"
 ---
+
 # <a name="define-computers-in-persistent-chat-pool"></a>常設チャット プールのコンピューターの定義
  
-常設チャット サーバー プールの一部になるコンピューターを定義するには、コンピューター FQDN に完全修飾ドメイン名 **(FQDN) を入力します**。 これは、ドメイン ネーム システム (DNS) ホスト (A または AAAA) レコードで定義されているコンピューターの名前であることが必要です。
+常設チャット サーバー プールの一部になるコンピューターを定義するには、コンピューター FQDN に完全修飾ドメイン名 ( **FQDN) を入力します**。 これは、ドメイン ネーム システム (DNS) ホスト (A または AAAA) レコードで定義されているコンピューターの名前であることが必要です。
   
 その FQDN をプールに含まれるコンピューターのリストに追加するには、[**追加**] をクリックします。
   

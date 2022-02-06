@@ -1,31 +1,26 @@
 ---
 title: ConferenceMessageCount ビュー
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 8ee3ee95-fb78-4d4e-bcdd-6ce5a0a23b44
 description: ConferenceMessageCount ビューには、ユーザーが電話会議に送信したメッセージ数に関する情報が格納されます。 このビューは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: 1308b0e9aeb8954df8010d0c1d55036eff1a3dac
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856524"
 ---
+
 # <a name="conferencemessagecount-view"></a>ConferenceMessageCount ビュー
  
 ConferenceMessageCount ビューには、ユーザーが電話会議に送信したメッセージ数に関する情報が格納されます。 このビューは、Microsoft Lync Server 2013 で導入されました。
   
 > [!NOTE]
-> ConferenceMessageCount ビューには [、ConferenceSessionDetails](conferencesessiondetails.md) ビューのすべての列と、以下に示す列が含まれます。
+> ConferenceMessageCount ビューには、 [ConferenceSessionDetails](conferencesessiondetails.md) ビューのすべての列と、以下に示す列が含まれます。
   
 |**列**|**データ型**|**詳細**|
 |:-----|:-----|:-----|

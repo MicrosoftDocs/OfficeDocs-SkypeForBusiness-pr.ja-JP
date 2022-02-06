@@ -1,25 +1,20 @@
 ---
 title: Grant-CsSetupPermissionで行Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c5801f48-14e3-4fdd-8f14-d52e7af07a57
 description: セットアップを委任するには、特定の Active Directory 組織単位 (OU) の RTCUniversalServerAdmins ユニバーサル グループにアクセス許可を付与し、その OU 内の RTCUniversalServerAdmins グループのメンバーが、ドメイン管理者グループのメンバーでなくても、指定されたドメインに Skype for Business Server をインストールできます。
-ms.openlocfilehash: be2099f9681ad3d883608a1bde5d1696810a533e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845160"
 ---
+
 # <a name="changes-made-by-grant-cssetuppermission-in-skype-for-business-server"></a>Grant-CsSetupPermissionで行Skype for Business Server
  
 セットアップを委任するには、特定の Active Directory 組織単位 (OU) の RTCUniversalServerAdmins ユニバーサル グループにアクセス許可を付与し、その OU 内の RTCUniversalServerAdmins グループのメンバーが、ドメイン管理者グループのメンバーでなくても、指定されたドメインに Skype for Business Server をインストールできます。 

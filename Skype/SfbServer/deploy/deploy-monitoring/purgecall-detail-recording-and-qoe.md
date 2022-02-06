@@ -1,24 +1,19 @@
 ---
 title: 通話の詳細記録と Quality of Experience データベースを手動で削除Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 3a3a965b-b861-41a4-b9a8-27184d622c17
 description: '概要: CDR と、ユーザーが使用する QoE データベースからレコードを手動で削除するSkype for Business Server。'
-ms.openlocfilehash: edaeb5d34fefe1ea8f50da4d7bb4bb31c94c62b5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851601"
 ---
+
 # <a name="manually-purge-the-call-detail-recording-and-quality-of-experience-databases-in-skype-for-business-server"></a>通話の詳細記録と Quality of Experience データベースを手動で削除Skype for Business Server
  
 **概要:** CDR と、ユーザーが使用する QoE データベースからレコードを手動で削除するSkype for Business Server。
@@ -29,7 +24,7 @@ CDR データベースと QoE データベースは、レコードを手動ま�
 
 管理者は、データベースから古いレコードを自動的に削除するために、通話詳細記録 (CDR) データベースまたは QoE データベースを構成できます。これは、指定されたデータベース (CDR または QoE) に対して削除が有効になっている場合と、指定した時間より長いデータベース内にレコードがある場合に発生します。 たとえば、毎日午前 1 時に管理者がシステムを構成して、60 日を超える QoE レコードが QoE データベースから削除される可能性があります。
   
-この自動削除に加えて、2 つの新しいコマンドレット&#x2014; Invoke-CsCdrDatabasePurge、Invoke-CsQoEDatbasePurge &#x2014;に追加Skype for Business Server。これらのコマンドレットを使用すると、管理者は CDR データベースと QoE データベースからいつでもレコードを手動で削除できます。 たとえば、CDR データベースから 10 日以上前のすべてのレコードを手動で削除するには、次のようなコマンドを使用できます。
+この自動削除に加えて、&#x2014; Invoke-CsCdrDatabasePurge と Invoke-CsQoEDatbasePurge &#x2014; の 2 つの新しいコマンドレットが Skype for Business Server に追加されました。これらのコマンドレットを使用すると、管理者は CDR データベースと QoE データベースからいつでもレコードを手動で削除できます。 たとえば、CDR データベースから 10 日以上前のすべてのレコードを手動で削除するには、次のようなコマンドを使用できます。
   
 ```powershell
 Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 10

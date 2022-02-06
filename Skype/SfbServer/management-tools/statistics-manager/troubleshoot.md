@@ -1,25 +1,20 @@
 ---
 title: Skype for Business Server の統計情報マネージャーのトラブルシューティング
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: '概要: このトピックを参照して、統計マネージャーの展開のトラブルシューティングを行Skype for Business Server。'
-ms.openlocfilehash: 6e6edefe8d6070a917f817b3b6d79bf35ff36599
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857344"
 ---
+
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Skype for Business Server の統計情報マネージャーのトラブルシューティング
  
 **概要:** このトピックを参照して、統計マネージャーの展開のトラブルシューティングを行Skype for Business Server。
@@ -52,7 +47,7 @@ ms.locfileid: "60857344"
   ```
 
     > [!NOTE]
-    > この変更が行われた場合、エージェントは通常 100 MB のメモリを消費しますが、既定では 300 MB に強制的に制限 \< されません。 この変更が行われた場合は、エージェントがホスト コンピューターで大量のメモリを消費しなかからないよう、メモリ使用量を監視することをお勧めします。 
+    > この変更が行われた場合、エージェント \< は通常 100 MB のメモリを消費しますが、既定では 300 MB に強制的に制限されません。 この変更が行われた場合は、エージェントがホスト コンピューターで大量のメモリを消費しなかからないよう、メモリ使用量を監視することをお勧めします。 
   
 - **2000** - クライアントの初期化エラー
     
@@ -76,7 +71,7 @@ ms.locfileid: "60857344"
     
   - トポロジをインポートする手順に従ってください。 「 [トポロジのインポート」を参照してください](deploy.md#BKMK_ImportTopology)。 
     
-  - エージェントがトポロジにリストされていないサーバー (たとえば、SQL AlwaysOn クラスター内のノード) にある場合は、「トポロジのインポート」の手順に従ってエージェントを手動で追加する必要[があります](deploy.md#BKMK_ImportTopology)。
+  - エージェントがトポロジにリストされていないサーバー (たとえば、SQL AlwaysOn クラスター内のノード) にある場合は、「トポロジのインポート」の手順に従って手動でエージェントを追加する必要があります。[](deploy.md#BKMK_ImportTopology)
     
   - **4002** - リスナー パスワードが無効です
     
@@ -166,7 +161,7 @@ ms.locfileid: "60857344"
     
   - プロパティを右クリックStatsManHubWebSite.dllプロパティを表示します。
     
-  - コンピューターが [KHI ランドスケープ] ビューまたは [カウンターの詳細] ビューで見つからない場合は、そのコンピューターがサイトとプールのメンバーである必要があります。 表示されていない場合は、これらのビューには表示されません。 トポロジ内のサーバーのサイトとプールを定義する方法については [、「Import the topology」を参照してください](deploy.md#BKMK_ImportTopology)。
+  - コンピューターが [KHI ランドスケープ] ビューまたは [カウンターの詳細] ビューで見つからない場合は、そのコンピューターがサイトとプールのメンバーである必要があります。 表示されていない場合は、これらのビューには表示されません。 トポロジ内のサーバーのサイトとプールを定義する方法については、「Import [the topology」を参照してください](deploy.md#BKMK_ImportTopology)。
     
   - 製品のバージョンが [説明] の詳細に表示されます。
     

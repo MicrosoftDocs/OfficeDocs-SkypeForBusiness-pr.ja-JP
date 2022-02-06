@@ -1,30 +1,25 @@
 ---
 title: 現在のドメインの準備
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.dep.DeployMainDomainPrep
+  - ms.lync.dep.DeployMainDomainPrep
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: bfcb37ca-34eb-4d0d-9694-6edd2e7fe0f3
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Skype for Business Server または Skype for Business Server ユーザーを実行しているサーバーをホストするドメインを準備するには、「セットアップを使用してドメイン準備を実行する」のトピックで説明されている手順 5: 現在のドメインの準備を完了する必要があります。 この手順を完了するには、準備するドメインの Domain Admins グループのメンバー、またはドメインが属するフォレストの Enterprise Admins グループのメンバーとしてログインする必要があります。 ドメインを準備するには、以下の操作を行います。'
-ms.openlocfilehash: f62031c36365abb974a41a0a6e9ed9557c3215ac
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838279"
 ---
+
 # <a name="prepare-current-domain"></a>現在のドメインの準備
 
-Skype for Business Server または Skype for Business Server ユーザーを実行しているサーバーをホストするドメインを準備するには、「セットアップを使用してドメイン準備を実行する」のトピックで説明されている手順 **5:** Prepare Current Domain を完了 [する必要があります](/previous-versions/office/lync-server-2013/lync-server-2013-running-domain-preparation)。 この手順を完了するには、準備するドメインの Domain Admins グループのメンバー、またはドメインが属するフォレストの Enterprise Admins グループのメンバーとしてログインする必要があります。 ドメインを準備するには、以下の操作を行います。
+Skype for Business Server または Skype for Business Server ユーザーを実行しているサーバーをホストするドメインを準備するには、「セットアップを使用してドメイン準備を実行する」のトピックで説明したように、「手順 **5:** 現在のドメインを準備する」を完了 [する必要](/previous-versions/office/lync-server-2013/lync-server-2013-running-domain-preparation)があります。 この手順を完了するには、準備するドメインの Domain Admins グループのメンバー、またはドメインが属するフォレストの Enterprise Admins グループのメンバーとしてログインする必要があります。 ドメインを準備するには、以下の操作を行います。
 
 1. インストール フォルダー Skype for Business Serverメディアから、インストール フォルダーをSetup.exe展開ウィザードをSkype for Business Serverします。
 
@@ -34,7 +29,7 @@ Skype for Business Server または Skype for Business Server ユーザーを実
 
 4. [**コマンドを実行しています**] ページで [**タスク状態: 完了**] を見つけて、[**ログの表示**] をクリックします。
 
-5. [ **アクション] 列で** 、[ **ドメイン** 準備] を展開し、各タスクの最後に実行結果を探して、ドメイン準備が正常に完了したと確認し、ログを閉じて、[完了] **\<Success\>** をクリック **します**。
+5. [アクション **] 列で**、[**ドメイン****\<Success\>** 準備] を展開し、各タスクの最後に実行結果を探して、ドメイン準備が正常に完了したと確認し、ログを閉じて、[完了] をクリック **します**。
 
 > [!TIP]
 > Skype for Business Server 展開ウィザードによって作成されたログ ファイルを確認する必要がある場合は、展開ウィザードが実行されたコンピューターで、手順を実行した Active Directory ドメイン サービス ユーザーの Users ディレクトリで確認できます。 たとえば、ユーザーがドメイン Contoso.net でドメイン管理者としてログインした場合、ログ ファイルは C:\Users\Administrator.Contoso\AppData\Local\Temp にあります。

@@ -1,29 +1,24 @@
 ---
 title: 2015 年のクライアント エクスペリエンスSkype for Businessする
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
 description: '概要: このトピックを参照して、ユーザーのクライアント エクスペリエンスを構成するSkype for Businessしてください。'
-ms.openlocfilehash: d1baa06558f7f3dcc4829d1e03c387e9ab54fa32
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845980"
 ---
+
 # <a name="configure-the-client-experience-with-skype-for-business-2015"></a>2015 年のクライアント エクスペリエンスSkype for Businessする
  
 **概要:** このトピックでは、2015 年のユーザー向けクライアント エクスペリエンスを構成Skype for Business説明します。
   
-Skype for Business 2015 では、コンシューマー製品のエクスペリエンスに基づく新しいSkypeを提供します。 Lync のすべての機能に加えて、Skype for Businessは簡略化されたコントロールと使い慣れたアイコンを備えて新機能を提供します。 新しいクライアント エクスペリエンスの詳細については、「Explore [Skype for Business」 を参照してください](https://go.microsoft.com/fwlink/?LinkId=529022)。
+Skype for Business 2015 では、コンシューマー製品のエクスペリエンスに基づく新しいSkypeを提供します。 Lync のすべての機能に加えて、Skype for Businessは簡略化されたコントロールと使い慣れたアイコンを備えて新機能を提供します。 新しいクライアント エクスペリエンスの詳細については、「Explore Skype for Business」[を参照してください](https://go.microsoft.com/fwlink/?LinkId=529022)。
   
 Skype for Business Serverは、Lync Skype for Businessエクスペリエンスだけでなく、新しいクライアント エクスペリエンスもサポートします。 管理者は、ユーザーに優先するクライアント エクスペリエンスを選択できます。 たとえば、組織内のユーザーが新しいエクスペリエンスで完全にトレーニングされるまで、Lync クライアント エクスペリエンスを展開Skype for Businessがあります。 または、すべてのユーザーを Skype for Business Server にまだアップグレードしていない場合は、すべてのユーザーが新しいサーバーにアップグレードされるまで、すべてのユーザーに同じクライアント エクスペリエンスを提供できます。
   
@@ -61,7 +56,7 @@ Set-CsClientPolicy -Identity Global -EnableSkypeUI $false
 Set-CsClientPolicy -Identity site:Redmond -EnableSkypeUI $true
 ```
 
-組織内の特定のユーザーに対してクライアント エクスペリエンスを構成する場合は **、New-CsClientPolicy** コマンドレットを使用して新しいユーザー ポリシーを作成し **、Grant-CsClientPolicy** コマンドレットを使用してポリシーを特定のユーザーに割り当てできます。
+組織内の特定のユーザーに対してクライアント エクスペリエンスを構成する場合は、 **New-CsClientPolicy** コマンドレットを使用して新しいユーザー ポリシーを作成し、 **Grant-CsClientPolicy** コマンドレットを使用してポリシーを特定のユーザーに割り当てできます。
   
 たとえば、次のコマンドは、クライアント エクスペリエンスを選択する新しいクライアント ポリシー SalesClientUI をSkype for Businessします。
   
@@ -81,13 +76,13 @@ Get-CsUser -LDAPFilter "Department=Sales" | Grant-CsClientPolicy -PolicyName Sal
   
 ユーザーが Skype for Business クライアントを初めて起動するときに Lync ユーザー インターフェイスを表示する場合は、更新後にクライアントを初めて開始する前に、次の手順を実行します。
   
-1. 前に説明したように、使用しているポリシー$Falseの値が設定  `EnableSkypeUI` されているのを確認します。
+1. 前に説明したように、  `EnableSkypeUI` 使用しているポリシー$Falseの値が設定されているのを確認します。
     
 2. ユーザーのコンピューター上のシステム レジストリを更新します。 ユーザーが最初にクライアントを起動する前に、Skype for Businessを行う必要があります。これを行う必要があります。 ドメインに参加しているコンピューターでレジストリを更新するグループ ポリシー オブジェクトを作成する方法については、後のトピックのセクションを参照してください。
     
-    **[HKEY_CURRENT_USER\Software\Microsoft\Office\Lync] キーで**、新しい Binary 値を **作成** します。
+    [HKEY_CURRENT_USER\Software\Microsoft\Office\Lync **] キー** で、新しい Binary 値を **作成** します。
     
-    値 **名は** **EnableSkypeUI** で **、Value** データは **00 00 00 00 に設定する必要があります**。
+    値 **名は** **EnableSkypeUI** で、 **Value** データは **00 00 00 00 に設定する必要があります**。
     
     キーは次のようになります。
     
@@ -103,9 +98,9 @@ Lync ユーザー インターフェイスは、ユーザーがクライアン�
   
 ### <a name="control-the-display-of-the-welcome-screen-tutorial"></a>ようこそ画面のチュートリアルの表示を制御する
 
-ユーザーがクライアントを開Skype for Business、既定の動作は、ほとんどのユーザーが求める 7 つのクイック ヒントを含む [ようこそ]*画面を表示します*。 [ようこそ] 画面の表示をオフにできますが、クライアント コンピューターに次のレジストリ値を追加することで、ユーザーがチュートリアルにアクセスできます。
+ユーザーがクライアントを開Skype for Business既定の動作は、ほとんどのユーザーが求める 7 つのクイック ヒントを含むようこそ *画面を表示します*。 [ようこそ] 画面の表示をオフにできますが、クライアント コンピューターに次のレジストリ値を追加することで、ユーザーがチュートリアルにアクセスできます。
   
-**[HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync] キーで**、新しい **DWORD (32 ビット) の値を作成します**。 値 **名は** **IsBasicTutorialSeenByUser** である必要があります。 **値** データは **1 に設定する必要があります**。
+[HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync **] キーで** 、新しい **DWORD (32 ビット) の値を作成します**。 値 **の名前は** **IsBasicTutorialSeenByUser** で、 **値** データは **1 に設定する必要があります**。
   
 キーは次のようになります。
   
@@ -115,7 +110,7 @@ Lync ユーザー インターフェイスは、ユーザーがクライアン�
 
 ユーザーがチュートリアルにアクセスできない場合は、次のレジストリ値を使用してクライアント チュートリアルをオフにできます。
   
-**[HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync] キーで**、新しい **DWORD (32 ビット) の値を作成します**。 値 **名は** **TutorialFeatureEnabled** で **、Value** データは **0** に設定する必要があります。
+[HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync **] キーで** 、新しい **DWORD (32 ビット) の値を作成します**。 値 **の名前は** **TutorialFeatureEnabled** で、 **Value** データは 0 に設定する **必要があります**。
   
 Lync
   
@@ -123,7 +118,7 @@ Lync
 "TutorialFeatureEnabled"=dword:00000000
 ```
 
-値データを 1 に設定すると、チュートリアル **をオンに****戻します**。
+値データを 1 に設定すると、チュートリアル **を有効** に **戻します**。
   
 ## <a name="default-client-behaviors"></a>既定のクライアント動作
 
@@ -153,9 +148,9 @@ Lync
    
 クライアントの構成を管理するために必要なパッチ のSkype for Businessは次のとおりです。
   
-- Lync Server 2010 - 2015 年 2 月 Lync Server 2010 の累積的な更新プログラム (4.0.7577.710) 詳細については [、「Updates for Lync Server 2010」を参照してください。](https://go.microsoft.com/fwlink/p/?LinkId=532771)
+- Lync Server 2010 - 2015 年 2 月 Lync Server 2010 の累積的な更新プログラム (4.0.7577.710) 詳細については、「 [Updates for Lync Server 2010」を参照してください。](https://go.microsoft.com/fwlink/p/?LinkId=532771)
     
-- Lync Server 2013 - 2014 年 12 月 Lync Server 2013 の累積的な更新プログラム (5.0.8308.857) 詳細については [、「Updates for Lync Server 2013」を参照してください](https://go.microsoft.com/fwlink/p/?LinkId=532772)。
+- Lync Server 2013 - 2014 年 12 月 Lync Server 2013 の累積的な更新プログラム (5.0.8308.857) 詳細については、「 [Updates for Lync Server 2013」を参照してください](https://go.microsoft.com/fwlink/p/?LinkId=532772)。
     
 ## <a name="create-a-group-policy-object-to-modify-the-registry-on-a-domain-joined-computer"></a>ドメインに参加しているコンピューター上のレジストリを変更するグループ ポリシー オブジェクトを作成する
 
@@ -165,32 +160,32 @@ Lync
   
 ### <a name="to-create-the-gpo"></a>GPO を作成するには
 
-1. グループ ポリシー管理 **コンソールを起動します**。
+1. グループ ポリシー **管理コンソールを起動します**。
     
-    グループ ポリシー管理コンソールの使用方法については、「グループ ポリシー管理コンソール [」を参照してください](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn265969(v=ws.11))。
+    グループ ポリシー管理コンソールの使い方については、「グループ ポリシー管理コンソール [」を参照してください](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn265969(v=ws.11))。
     
 2. [グループ ポリシー オブジェクト] ノード **を右クリックし** 、メニューの **[新規]** を選択します。
     
-3. [新 **しい GPO]** ダイアログで、GPO の名前 (MakeLyncDefaultUI など) を入力し **、[OK] をクリックします**。
+3. [新しい **GPO]** ダイアログで、GPO の名前 (MakeLyncDefaultUI など) を入力し、[OK] をクリック **します**。
     
 4. 作成した新しい GPO を右クリックし、メニューから **[編集]** を選択します。
     
-5. グループ ポリシー **管理エディターで**、[ユーザー構成] を展開し、[基本設定] を展開し、[Windows 設定] を展開し、[レジストリ]**ノードを選択** します。
+5. グループ ポリシー **管理エディターで**、[ユーザー構成] を展開し、[基本設定] **を** 展開し、[Windows 設定] を展開し、[レジストリ] **ノードを選択** します。
     
-6. [レジストリ] ノードを **右** クリックし、[新しい **レジストリ** アイテム]  >  **を選択します**。
+6. [レジストリ] ノードを **右クリックし**、[**NewRegistry** >  Item] を選択します。
     
 7. [新しい **レジストリのプロパティ] ダイアログで** 、次の項目を更新します。
     
    |**Field**|**選択または入力する値**|
    |:-----|:-----|
-   |**操作** <br/> |**Create** <br/> |
+   |**操作** <br/> |**作成** <br/> |
    |**Hive** <br/> | HKEY_CURRENT_USER <br/> |
    |**キー パス** <br/> |Software\Microsoft\Office\Lync  <br/> |
    |**値の名前** <br/> |EnableSkypeUI  <br/> |
    |**値の型** <br/> |REG_BINARY  <br/> |
    |**Value data** <br/> |00000000  <br/> |
    
-8. **[OK]** をクリックして変更を保存し、GPO を閉じます。
+8. [ **OK]** をクリックして変更を保存し、GPO を閉じます。
     
 次に、作成した GPO を、ポリシーを割り当てるユーザーのグループ (OU など) にリンクする必要があります。
   
@@ -198,7 +193,7 @@ Lync
 
 1. グループ ポリシー管理コンソールで、ポリシーを割り当てる OU を右クリックし、[既存の GPO へのリンク **] を選択します**。
     
-2. [GPO **の選択]** ダイアログで、作成した GPO を選択し **、[OK] を選択します**。
+2. [ **GPO の選択]** ダイアログで、作成した GPO を選択し、[OK] を **選択します**。
     
 3. ターゲット ユーザーのコンピューターで、コマンド プロンプトを開き、次のコマンドを入力します。
        
@@ -213,4 +208,4 @@ Lync
     
     [割り当てられたグループ ポリシー オブジェクト] が表示され、作成した GPO の名前が下に表示されます。
     
-また、レジストリを調べることによって、GPO がユーザーのコンピューター上のレジストリを正常に更新されたことを確認することもできます。 [レジストリ エディター] を開き **、[HKEY_CURRENT_USER\Software\Microsoft\Office\Lync] キーに移動** します。 GPO がレジストリを正常に更新すると、値 0 の EnableSkypeUI という名前の値が表示されます。
+また、レジストリを調べることによって、GPO がユーザーのコンピューター上のレジストリを正常に更新されたことを確認することもできます。 レジストリ エディターを開き、[HKEY_CURRENT_USER\Software\Microsoft\Office\Lync **] キーに移動** します。 GPO がレジストリを正常に更新すると、値 0 の EnableSkypeUI という名前の値が表示されます。

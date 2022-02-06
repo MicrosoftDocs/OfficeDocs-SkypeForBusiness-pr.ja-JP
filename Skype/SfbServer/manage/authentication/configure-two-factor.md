@@ -1,36 +1,31 @@
 ---
 title: 2 要素認証を構成Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: '概要: 2 要素認証を 2 要素認証で構成Skype for Business Server。'
-ms.openlocfilehash: 1e28c88f28d765737415b01d82e2e8a7621c3744
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844250"
 ---
+
 # <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>2 要素認証を構成Skype for Business Server
 
 **概要:** サーバーで 2 要素認証をSkype for Business Server。
 
-以下のセクションでは、展開の 2 要素認証を構成するために必要な手順について説明します。 2 要素認証の詳細については、「オンライン管理者Office 365多要素認証の有効化 - Grid User Post 」[を参照してください](https://go.microsoft.com/fwlink/p/?LinkId=313332)。
+以下のセクションでは、展開の 2 要素認証を構成するために必要な手順について説明します。 2 要素認証の詳細については、「オンライン管理者Office 365多要素認証の有効化 [- Grid User Post」を参照してください](https://go.microsoft.com/fwlink/p/?LinkId=313332)。
 
 ## <a name="configure-an-enterprise-root-certificate-authority-to-support-smart-card-authentication"></a>スマート カードEnterpriseをサポートするルート証明機関を構成する
 
 次の手順では、スマート カード認証をサポートEnterpriseルート CA を構成する方法について説明します。
 
-ルート CA のインストール方法については、「Enterpriseルート証明機関のインストール[」を参照Enterpriseしてください](/previous-versions/windows/it-pro/windows-server-2003/cc776709(v=ws.10))。
+ルート CA をインストールする方法については、「Enterpriseルート証明機関[のインストールEnterprise参照してください](/previous-versions/windows/it-pro/windows-server-2003/cc776709(v=ws.10))。
 
 1. ドメイン管理者アカウントを使用Enterprise CA コンピューターにログインします。
 
@@ -40,15 +35,15 @@ ms.locfileid: "60844250"
 
 4. [ナビゲーション] ウィンドウで、[証明機関] **を展開します**。
 
-5. [証明書テンプレート]**を右クリックし、[****新規]** を選択し、[**発行する証明書テンプレート] を選択します**。
+5. [証明書テンプレート] **を右クリックし、[** 新規 **] を選択** し、[発行 **する証明書テンプレート] を選択します**。
 
-6. [ **登録エージェント]** **、[Smartcard ユーザー] 、** および **[スマートカード ログオン] を選択します**。
+6. [**登録エージェント]、****[Smartcard ユーザー]、および** [**スマートカード ログオン] を選択します**。
 
-7. **[OK]** をクリックします。
+7. [**OK**] をクリックします。
 
 8. [証明書テンプレート] **を右クリックします**。
 
-9. [管理 **] を選択します**。
+9. [管理] **を選択します**。
 
 10. Smartcard ユーザー テンプレートのプロパティを開きます。
 
@@ -66,7 +61,7 @@ ms.locfileid: "60844250"
 
 2 要素認証とスマート カード テクノロジを展開する際に考慮すべき 1 つの要素は、実装のコストです。 Windows 8新しいセキュリティ機能が多数提供され、最も興味深い新機能の 1 つは仮想スマート カードのサポートです。
 
-仕様バージョン 1.2 を満たすトラステッド プラットフォーム モジュール (TPM) チップを搭載したコンピューターの場合、組織はハードウェアに追加の投資をすることなく、スマート カード ログオンの利点を得る事が可能になります。 詳細については、「仮想スマート カード[と仮想スマート カードを使用する」を参照Windows 8。](https://go.microsoft.com/fwlink/p/?LinkId=313365)
+仕様バージョン 1.2 を満たすトラステッド プラットフォーム モジュール (TPM) チップを搭載したコンピューターの場合、組織はハードウェアに追加の投資をすることなく、スマート カード ログオンの利点を得る事が可能になります。 詳細については、「仮想スマート カード[と仮想スマート カードを使用する」を参照Windows 8](https://go.microsoft.com/fwlink/p/?LinkId=313365)。
 
 ### <a name="to-configure-windows-8-for-virtual-smart-cards"></a>仮想スマート カードWindows 8を構成するには
 
@@ -76,7 +71,7 @@ ms.locfileid: "60844250"
 
 3. [検索] **オプションを** 選択し、[コマンド プロンプト] を検索します。
 
-4. [コマンド プロンプト] **を右クリックし**、[管理者として **実行] を選択します**。
+4. [コマンド プロンプト] を **右クリックし**、[管理者として **実行] を選択します**。
 
 5. 次のコマンドを実行して、信頼できるプラットフォーム モジュール (TPM) 管理コンソールを開きます。
 
@@ -124,7 +119,7 @@ ms.locfileid: "60844250"
 
 2. 起動Internet Explorer。
 
-3. [証明機関 Web **登録] ページを参照** します (例 https://MyCA.contoso.com/certsrv) : .
+3. [証明機関 Web **登録] ページを参照** します (例: https://MyCA.contoso.com/certsrv).
 
     > [!NOTE]
     > アプリを使用しているInternet Explorer 10、互換モードでこの Web サイトを表示する必要がある場合があります。
@@ -133,19 +128,19 @@ ms.locfileid: "60844250"
 
 5. 次に、[高度な **要求] を選択します**。
 
-6. [この **CA に要求を作成して送信する] を選択します**。
+6. [作成 **] を選択し、この CA に要求を送信します**。
 
-7. [ **証明書テンプレート] セクションで [Smartcard User]** **を** 選択し、次の値で高度な証明書要求を完了します。
+7. [ **証明書テンプレート] セクションで [Smartcard User** ] **を** 選択し、次の値で高度な証明書要求を完了します。
 
   - **キー オプションは、** 次の設定を確認します。
 
     - [新しい **キー セットの作成] ラジオ ボタンを** 選択する
 
-    - **CSP の場合** は **、[Microsoft Base Smart Card Crypto Provider] (Microsoft Base Smart Card Crypto Provider) を選択します。**
+    - **CSP の場合** は、[**Microsoft Base Smart Card Crypto Provider] を選択します。**
 
-    - [**キーの使用法]****で、[Exchange** を選択します (これは、使用可能な唯一のオプションです)。
+    - [**キーの使用法]** **で、[** Exchange] を選択します (これは、使用可能な唯一のオプションです)。
 
-    - [ **キー のサイズ]** に「2048」と入力します。
+    - [ **キー サイズ] に**「2048」と入力します。
 
     - [自動キー **コンテナー名] が選択** されているのを確認する
 
@@ -153,9 +148,9 @@ ms.locfileid: "60844250"
 
   - [追加 **オプション] で** 、次の値を確認します。
 
-    - [要求 **形式] で****[CMC] を選択します**。
+    - [要求 **形式] で[****CMC] を選択します**。
 
-    - [ハッシュ **アルゴリズム] で** **[sha1] を選択します**。
+    - [ハッシュ **アルゴリズム] で [****sha1] を選択します**。
 
     - [ **フレンドリー名] に** 「Smardcard Certificate」と入力します。
 
@@ -178,7 +173,7 @@ ms.locfileid: "60844250"
 
 ## <a name="configure-active-directory-federation-services-ad-fs-20"></a>Active Directory フェデレーション サービスの構成 (AD FS 2.0)
 
-次のセクションでは、多要素認証をサポートするために Active Directory フェデレーション サービス (AD FS 2.0) を構成する方法について説明します。 FS 2.0 をADする方法については [、「AD FS 2.0](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd727938(v=ws.10))のステップ バイ ステップ」および「How To Guides」を参照してください。
+次のセクションでは、多要素認証をサポートするために Active Directory フェデレーション サービス (AD FS 2.0) を構成する方法について説明します。 FS 2.0 をADする方法については、「 [AD FS 2.0](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd727938(v=ws.10)) ステップ バイ ステップ」および「How To Guides」を参照してください。
 
 > [!NOTE]
 > FS 2.0 ADインストールする場合は、Active Directory フェデレーション サービスの役割を追加Windowsサーバー マネージャーを使用しません。 代わりに、Active Directory フェデレーション サービス [をダウンロードしてインストールします](/troubleshoot/windows-server/identity/availability-description-afds)。
@@ -203,7 +198,7 @@ ms.locfileid: "60844250"
 
 5. [管理ツール] メニューから、FS 2.0 ADを起動します。
 
-6. [**信頼関係証明書利用者**  >  **の信頼] を展開します**。
+6. [**信頼関係]** >  **[基になるパーティの信頼] を展開します**。
 
 7. サーバーに新しい信頼が作成Skype for Business Server。
 
@@ -228,7 +223,7 @@ ms.locfileid: "60844250"
   Set-ADFSRelyingPartyTrust -TargetName SfBPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
   ```
 
-10. FS 2.0 ADから、証明書利用者の信頼を右クリックし、[クレーム ルールの編集 **] を選択します**。
+10. [FS 2.0 管理ADから、証明書利用者の信頼を右クリックし、[クレーム ルールの編集 **] を選択します**。
 
 11. [発行 **承認ルール] タブを** 選択し、新しい承認ルールが正常に作成されたことを確認します。
 
@@ -242,7 +237,7 @@ FS 2.0 でスマート カードを使用した認証をサポートAD、次の 
 
 - トランスポート層セキュリティ クライアント認証
 
-フォーム ベース認証を使用すると、ユーザーがユーザー名/パスワードを使用するか、スマート カードと PIN を使用して認証できる Web ページを開発できます。 このトピックでは、FS 2.0 を使用してトランスポート層セキュリティ クライアント認証を実装するADを説明します。 FS 2.0 認証ADの詳細については [、「AD FS 2.0: ローカル](https://go.microsoft.com/fwlink/p/?LinkId=313384)認証の種類を変更する方法」を参照してください。
+フォーム ベース認証を使用すると、ユーザーがユーザー名/パスワードを使用するか、スマート カードと PIN を使用して認証できる Web ページを開発できます。 このトピックでは、FS 2.0 を使用してトランスポート層セキュリティ クライアント認証を実装するADを説明します。 FS 2.0 認証AD詳細については、「 [AD FS 2.0: ローカル](https://go.microsoft.com/fwlink/p/?LinkId=313384)認証の種類を変更する方法」を参照してください。
 
 ### <a name="to-configure-ad-fs-20-to-support-client-authentication"></a>クライアント認証AD FS 2.0 を構成するには
 
@@ -256,7 +251,7 @@ FS 2.0 でスマート カードを使用した認証をサポートAD、次の 
 
 5. 既存のファイルを開web.configを使用メモ帳。
 
-6. メニュー バーで [編集] を選択 **し** 、[検索] を **選択します**。
+6. メニュー バーで、[編集] を **選択し** 、[検索] を **選択します**。
 
 7. \<localAuthenticationTypes\> を検索します。
 
@@ -298,7 +293,7 @@ FS 2.0 でスマート カードを使用した認証をサポートAD、次の 
   ```
 
    > [!CAUTION]
-   > WsFedPassiveMetadataUri FQDN の値は、FS 2.0 サーバーのADサービス名です。 フェデレーション サービス名の値は、AD FS 2.0 管理コンソールのナビゲーション ウィンドウで [サービス] を右クリックし、[フェデレーション サービスのプロパティの編集] を選択することで **確認できます**。
+   > WsFedPassiveMetadataUri FQDN の値は、FS 2.0 サーバーのADサービス名です。 フェデレーション サービス名の値は、AD FS 2.0 管理コンソールのナビゲーション ウィンドウで [サービス] を右クリックし、[フェデレーション サービスのプロパティの編集] を選択することで確認 **できます**。
 
 4. 次のコマンドを実行して、UseWsFedPassiveAuth および WsFedPassiveMetadataUri の値が正しく設定されていることを確認します。
 
@@ -326,7 +321,7 @@ Skype for Business Web サービスで証明書認証が無効になっている
 
 ### <a name="to-create-a-custom-proxy-configuration"></a>カスタム プロキシ構成を作成するには
 
-1. Skype for Business Server 管理シェル コマンド ラインから、次の手順を実行してパッシブ認証を有効にする Skype for Business Server エッジ プール、Enterprise プール、および Standard Edition サーバーごとに新しいプロキシ構成を作成します。コマンド:
+1. Skype for Business Server 管理シェルコマンド ラインから、Skype for Business Server エッジ プール、Enterprise プール、および Standard Edition サーバーごとに新しいプロキシ構成を作成します。この構成は、次のコマンドを実行してパッシブ認証を有効にします。次のコマンドを実行します。
 
   ```PowerShell
   New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False

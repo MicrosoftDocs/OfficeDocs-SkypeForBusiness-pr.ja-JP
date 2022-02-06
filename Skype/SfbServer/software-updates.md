@@ -1,25 +1,20 @@
 ---
 title: Skype for Business のダウンロードと更新プログラム
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 07/23/2018
 audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: ユーザーまたは Lync 2013 Skype for Business Server更新プログラムを検索して管理します。 リンクを使用して詳細を取得し、更新プログラムをダウンロードします。
-ms.openlocfilehash: ce7676064bc6e2ca67c65a8a4f34c543a0fa75f1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855201"
 ---
+
 # <a name="skype-for-business-downloads-and-updates"></a>Skype for Business のダウンロードと更新プログラム
 
 Technet _Skype for Businessした_ Web ページのダウンロードと更新に関する情報は廃止されました。 コンテンツはクライアント ページとサーバー ページに再編成されました。 必要なコンテンツへの次のリンクに従います。

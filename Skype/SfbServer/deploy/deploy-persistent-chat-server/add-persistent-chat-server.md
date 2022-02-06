@@ -1,25 +1,20 @@
 ---
 title: 常設チャット サーバーを 2015 Skype for Business Serverトポロジに追加する
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
 description: '概要: 常設チャット サーバーを 2015 年 2015 年のトポロジに追加するSkype for Business Server説明します。'
-ms.openlocfilehash: 4b4148989430987c2a1435ce08315908e27e7e13
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857014"
 ---
+
 # <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>常設チャット サーバーを 2015 Skype for Business Serverトポロジに追加する
  
 **概要:** このトピックでは、常設チャット サーバーを 2015 年 2015 年のトポロジに追加するSkype for Business Server説明します。
@@ -35,20 +30,20 @@ ms.locfileid: "60857014"
 
 ## <a name="update-your-topology-to-include-persistent-chat-server"></a>常設チャット サーバーを含めるトポロジを更新する
 
-障害復旧構成なしで単一の常設チャット サーバー プールをインストールするには、次の手順を実行します。 高可用性と障害復旧用にストレッチされた常設チャット サーバー プールを構成するには、「Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server [2015」を参照](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md)してください。
+障害復旧構成なしで単一の常設チャット サーバー プールをインストールするには、次の手順を実行します。 高可用性と障害復旧用にストレッチされた常設チャット サーバー プールを構成するには、「Configure high availability and disaster recovery [for Persistent Chat Server in Skype for Business Server 2015」を参照](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md)してください。
   
 複数の常設チャット サーバー プールを展開するには、プールごとに同じプロセスを繰り返します。
   
 1. Skype for Business Server を実行しているコンピューター、または Skype for Business Server 管理ツールがインストールされているコンピューターで、ローカル Users グループのメンバーであるアカウント (または同等のユーザー権限を持つアカウント) を使用してログオンします。
     
     > [!NOTE]
-    > トポロジを定義するには、ローカル の Users グループのメンバーであるアカウントを使用しますが、Skype for Business Server のインストールに必要なトポロジを発行するには、Domain **Admins** グループと **RTCUniversalServerAdmins** グループのメンバーであり、完全な制御権限を持つアカウントを使用する必要があります (読み取り、 常設チャット サーバー ファイル ストアで使用するファイル ストア (トポロジ ビルダーが必要な DACL を構成できるよう)、または同等の権限を持つアカウントに書き込み、変更する)。
+    > トポロジを定義するには、ローカル の Users グループのメンバーであるアカウントを使用しますが、Skype for Business Server のインストールに必要なトポロジを発行するには、Domain **Admins** グループのメンバーであるアカウントと **RTCUniversalServerAdmins** を使用する必要があります。 グループで、常設チャット サーバー ファイル ストアに使用するファイル ストアに対する完全な制御アクセス許可 (読み取り、書き込み、および変更) を持つ (トポロジ ビルダーが必要な DACL を構成できるよう)、または同等の権限を持つアカウント。
   
 2. トポロジ ビルダーを開始します。
     
-3. コンソール ツリーで、[常設チャットプール] ノードに移動して展開して Skype for Business Server プールを選択するか、ノードを右クリックして [新しい常設チャット プール] を **選択します**。 プールの完全修飾ドメイン名 (FQDN) を定義し、プールが単一サーバー プールか複数サーバー プールの展開かを指定する必要があります。
+3. コンソール ツリーで、[常設チャット プール]  ノードに移動し、それを展開して Skype for Business Server プールを選択するか、ノードを右クリックして [新しい常設チャット プール] を **選択します**。 プールの完全修飾ドメイン名 (FQDN) を定義し、プールが単一サーバー プールか複数サーバー プールの展開かを指定する必要があります。
     
-    複数のコンピューター プールまたは **1 つの** コンピューター **プールを選択できます**。 常設チャット サーバー プールに複数のフロント エンド サーバーを使用する予定の場合は、前者を選択します。 単一のコンピューター プールを作成した後で、後で追加のサーバーを追加できないので、この選択を今すぐ、または後で行います。 複数のコンピューター プールを選択する場合は、プールを構成する個々のフロント エンド サーバーの名前を入力します。
+    複数のコンピューター プール **または 1 つの** コンピューター **プールを選択できます**。 常設チャット サーバー プールに複数のフロント エンド サーバーを使用する予定の場合は、前者を選択します。 単一のコンピューター プールを作成した後で、後で追加のサーバーを追加できないので、この選択を今すぐ、または後で行います。 複数のコンピューター プールを選択する場合は、プールを構成する個々のフロント エンド サーバーの名前を入力します。
     
     > [!IMPORTANT]
     > 常設チャット サーバーの役割が Standard Edition サーバーにインストールされている場合、FQDN はサーバーの FQDN と一致するStandard Editionがあります。 
@@ -59,34 +54,34 @@ ms.locfileid: "60857014"
     
 6. 組織にコンプライアンス サポートが必要な場合は、[**コンプライアンスを有効にする**] チェック ボックスをオンにします。 選択した場合、常設チャット サーバー コンプライアンス サービスは常設チャット サーバーフロント エンド サーバーと同じコンピューターにインストールされます。 後で常設チャット サーバーコンプライアンス用のSQL Serverを選択するように求めるメッセージが表示されます。
     
-7. 常設チャット サーバー プールのサイト アフィニティを割り当てる。 [この **プール \<SiteName\>** をサイトの既定として使用する]チェック ボックスをオンにするか、すべてのサイトでこのプールを既定として使用して、この常設チャット サーバー プールを現在のサイトまたはすべてのサイトの既定のプールとして指定します。 Skype for Business クライアントを使用して会議室を作成および管理する場合、ユーザーのサイトに関連付けられている既定のプールは、ルームの作成と管理エクスペリエンスによって使用され、ルームの作成と管理操作をそのプールにルーティングできます。 これは、複数の常設チャット サーバー プールが展開され、常設チャット サーバーのルームの作成および管理機能を使用する場合にのみ適用されます。
+7. 常設チャット サーバー プールのサイト アフィニティを割り当てる。 [**このプール\<SiteName\>** をサイトの既定として使用する] チェック  ボックスをオンにするか、すべてのサイトでこのプールを既定として使用して、この常設チャット サーバー プールを現在のサイトまたはすべてのサイトの既定のプールとして指定します。 Skype for Business クライアントを使用して会議室を作成および管理する場合、ユーザーのサイトに関連付けられている既定のプールは、ルームの作成と管理エクスペリエンスによって使用され、ルームの作成と管理操作をそのプールにルーティングできます。 これは、複数の常設チャット サーバー プールが展開され、常設チャット サーバーのルームの作成および管理機能を使用する場合にのみ適用されます。
     
     > [!IMPORTANT]
     > 常設チャット サーバー ソフトウェア開発キット (SDK) を使用して、ルームの作成および管理機能をカスタマイズできます。 
   
-8. 次のいずれかのSQLを実行して、常設チャット サーバー のバック エンド (チャット ルームのコンテンツが格納 **されている)** のストアを定義します。
+8. 次のいずれかを **SQL** して、常設チャット サーバー のバック エンド (チャット ルームのコンテンツが格納されている) のストアを定義します。
     
    - 既存のストアをSQL Serverするには、ドロップダウン リストで、使用する SQL Serverストアの名前をクリックします。
     
-   - 新しいデータベース データベースをSQL Serverするには、[新規]をクリックし、[新しいデータベース ストアの定義] SQL **を** 実行します。
+   - 新しいデータベースデータベースをSQL Serverするには、[新規] をクリックし、[新しいデータベース ストアの定義] SQL **を** 実行します。
     
-   - [SQL Server **FQDN]** で、新しいサーバー データベースをSQL Serverするサーバーの FQDN をSQL Serverします。
+   - [**SQL Server FQDN**] で、新しいサーバー データベースをSQL Serverするサーバーの FQDN をSQL Serverします。
     
    - [**既定のインスタンス**] を選択して既定のインスタンスを使用するか、別のインスタンスを指定する場合は、[**名前付きインスタンス**] を選択して、使用するインスタンスを指定します。
     
      > [!NOTE]
-     > 障害復旧用にバックアップ データベースSQL Server構成する方法の詳細については、「Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server [2015」を参照](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md)してください。 
+     > 障害復旧用にバックアップ データベースSQL Server構成する方法の詳細については、「Configure high availability and disaster recovery [for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md)」を参照してください。 
   
 9. コンプライアンスを有効SQL Serverコンプライアンス ストアを定義します。
     
     > [!IMPORTANT]
-    > 常設チャット サーバー データベースと常設チャット サーバー コンプライアンス データベースの高可用性を実現するために SQL Server ミラーを構成する方法の詳細については、「Configure high availability and disaster recovery for Persistent Chat Server in [Skype for Business Server 2015」を](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md)参照してください。 
+    > 常設チャット サーバー データベースと常設チャット サーバーコンプライアンス データベースの高可用性を実現するために SQL Server ミラーを構成する方法の詳細については、「Configure high availability and disaster recovery [for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md)」を参照してください。 
   
 10. ファイル ストアを定義します。 ファイル ストアは、ファイル リポジトリにアップロードされたファイルのコピーが保存されるフォルダーです (たとえば、チャット ルームに投稿されたファイル添付ファイルを格納する)。 複数サーバーの常設チャット サーバー トポロジの場合、これは汎用名前付け規則 (UNC) パスである必要があります。単一サーバーの常設チャット サーバー トポロジの場合は、ローカル ファイル パスを指定できます。
     
     既存のファイル ストアを使用するには、次の手順を実行します。
     
-    - [ **ファイル サーバーの FQDN]** で、新しいファイル ストアを作成するコンピューターの FQDN を指定します。
+    - [ **ファイル サーバー FQDN]** で、新しいファイル ストアを作成するコンピューターの FQDN を指定します。
     
     - [**ファイル共有**] で、使用するファイル ストアを指定します。
     
@@ -107,13 +102,13 @@ ms.locfileid: "60857014"
 
 トポロジ ビルダーでトポロジを更新した後、トポロジを構成して使用する前に、トポロジをサーバーの全体管理ストアに発行する必要Skype for Business Server。 このデータの読み取り専用コピーはトポロジ内のすべてのサーバーにレプリケートされ、すべてのサーバーは、トポロジおよび他の構成の変更と同期された状態で維持されます。
   
-トポロジを公開する前に、常設チャット サーバー用のデータベースをインストールします。 [アクション] と [データベースのインストール] を選択して、トポロジ ビルダーを使用 **してデータベース****をインストールします**。
+トポロジを公開する前に、常設チャット サーバー用のデータベースをインストールします。 [アクション] と [データベースのインストール] を選択してデータベースをインストールするには、**トポロジ ビルダー****を使用します**。
   
-1. Skype for Business Server を実行しているコンピューターまたは Skype for Business Server 管理ツールがインストールされているコンピューターで、ドメイン管理者グループと **RTCUniversalServerAdmins** グループの両方のメンバーであり、ファイル ストアで使用する完全な制御権限 (読み取り、書き込み、および変更) を持つアカウントを使用してログオンします。常設チャット サーバー ファイル ストア (トポロジ ビルダーが必要な任意のアクセス制御リスト (DACLs) を構成できるよう)、または同等のユーザー権限を持つアカウント。
+1. Skype for Business Server または Skype for Business Server 管理ツールがインストールされているコンピューターで、ドメイン管理者グループと **RTCUniversalServerAdmins** の両方のメンバーであるアカウントを使用してログオンします。 グループで、常設チャット サーバー ファイル ストアに使用するファイル ストアに対する完全な制御アクセス許可 (読み取り、書き込み、および変更) を持つ (トポロジ ビルダーが必要な随意アクセス制御リスト (DACL) を構成できるよう)、または同等のユーザー権限を持つアカウント。
     
 2. トポロジ ビルダーを開始します。 ローカル **ファイルをローカルに保存する場合は、[トポロジを開** く] を選択します。
     
-3. コンソール ツリーで **、[2015 年 2015** 年Skype for Business Serverを右クリックし、[トポロジの公開]**をクリックします**。
+3. コンソール ツリーで、**2015** 年Skype for Business Serverを右クリックし、[トポロジの公開] **をクリックします**。
     
 4. [**トポロジの公開**] ページで、[**次へ**] をクリックします。
     

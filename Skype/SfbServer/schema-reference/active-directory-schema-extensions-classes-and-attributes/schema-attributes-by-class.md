@@ -1,28 +1,23 @@
 ---
 title: スキーマ属性をクラス別にSkype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
 description: このセクションでは、各クラスに含まれるスキーマ属性とSkype for Business Serverクラスに含まれる可能性があるクラスの一覧を示します。 すべてのクラスとその説明の一覧については、「スキーマ クラスと説明」を参照Skype for Business Server。 すべての属性とその説明の一覧については、「スキーマの属性と説明」を参照Skype for Business Server。
-ms.openlocfilehash: b3e4e584896da8dd6345d3f284c30463094b4b6e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829811"
 ---
+
 # <a name="schema-attributes-by-class-in-skype-for-business-server"></a>スキーマ属性をクラス別にSkype for Business Server
  
-このセクションでは、各クラスに含まれるスキーマ属性とSkype for Business Serverクラスに含まれる可能性があるクラスの一覧を示します。 すべてのクラスとその説明の一覧については、「[スキーマ](schema-classes-and-descriptions.md)クラスと説明」を参照Skype for Business Server。 すべての属性とその説明の一覧については、「[スキーマ](schema-attributes-and-descriptions.md)の属性と説明」を参照Skype for Business Server。
+このセクションでは、各クラスに含まれるスキーマ属性とSkype for Business Serverクラスに含まれる可能性があるクラスの一覧を示します。 すべてのクラスとその説明の一覧については、「[スキーマ](schema-classes-and-descriptions.md) クラスと説明」を参照Skype for Business Server。 すべての属性とその説明の一覧については、「[スキーマ](schema-attributes-and-descriptions.md)の属性と説明」を参照Skype for Business Server。
   
 ## <a name="attributes-by-class"></a>クラス別の属性
 

@@ -1,24 +1,19 @@
 ---
 title: '[会議の構成設定を表示する] Skype for Business Server'
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 932c7e2d-6de3-4176-ac6e-ec230f8230f2
 description: '概要: 会議の構成設定を表示する方法について説明します。Skype for Business Server。'
-ms.openlocfilehash: 4d55d4213b0eb7cbd89045960d87c05340520cbc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837629"
 ---
+
 # <a name="view-meeting-configuration-settings-in-skype-for-business-server"></a>[会議の構成設定を表示する] Skype for Business Server
  
 **概要:** 会議の構成設定を表示する方法については、Skype for Business Server。
@@ -38,14 +33,14 @@ ms.locfileid: "60837629"
     
 5. [ **ファイル フィルターの編集] で**、[詳細の **表示] チェック ボックス** をオンにします。
     
-    **会議の構成の \<policy\> 編集 -** が開き、選択したポリシーの設定が表示されます。
+    **会議の構成の編集 - \<policy\>** が開き、選択したポリシーの設定が表示されます。
     
-    設定の構成の詳細については、「会議の構成設定を作成する」を参照[Skype for Business Server。](create-settings.md)
+    設定の構成の詳細については、「会議の構成設定を作成する」を参照[Skype for Business Server](create-settings.md)。
     
 ## <a name="view-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>管理シェルを使用して会議の構成Skype for Business Server表示する
 <a name="BKMK_ViewJoinSettings"> </a>
 
-すべての会議構成設定に関する情報を表示するには **、Get-CsMeetingConfiguration コマンドレットを使用** します。
+すべての会議構成設定に関する情報を表示するには、 **Get-CsMeetingConfiguration コマンドレットを使用** します。
   
 ```
 Get-CsMeetingConfiguration
@@ -68,4 +63,4 @@ CustomFooterText                :
 AllowConferenceRecording        : True
 </pre>
 
-パラメーターの完全な一覧を含む詳細については [、「Get-CsMeetingConfiguration」を参照してください](/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps)。
+パラメーターの完全な一覧を含む詳細については、「 [Get-CsMeetingConfiguration」を参照してください](/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps)。

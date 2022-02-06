@@ -1,28 +1,23 @@
 ---
 title: Lync Server フェデレーション計画ツール
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.plan.Federation
-- ms.lync.plan.Federation
+  - ms.lync.plan.Federation
+  - ms.lync.plan.Federation
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 description: エッジ サーバーは、社内および外部のユーザーがパートナー組織またはサービスの連絡先にアクセスできるよう構成できます。
-ms.openlocfilehash: 1f04264ffe3991d499490560b938116c8f7db4b5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829131"
 ---
+
 # <a name="lync-server-federation-planning-tool"></a>Lync Server フェデレーション計画ツール
  
 エッジ サーバーは、社内および外部のユーザーがパートナー組織またはサービスの連絡先にアクセスできるよう構成できます。

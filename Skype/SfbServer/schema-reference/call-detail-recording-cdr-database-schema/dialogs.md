@@ -1,25 +1,20 @@
 ---
 title: ダイアログ 2015 Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 487a430b-af66-4ea6-b28e-4e33cfdb7f9e
 description: Dialogs テーブルは、ピアツーピア セッションの DialogID に関する情報を格納するサポート テーブルです。
-ms.openlocfilehash: c59f3a2d84f4ebed243cba3dbe22f465551cbfaf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850680"
 ---
+
 # <a name="dialogs-table-in-skype-for-business-server-2015"></a>ダイアログ 2015 Skype for Business Server
  
 Dialogs テーブルは、ピアツーピア セッションの DialogID に関する情報を格納するサポート テーブルです。

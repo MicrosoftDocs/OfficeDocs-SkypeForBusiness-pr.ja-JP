@@ -1,27 +1,22 @@
 ---
 title: オーバーフロー キューの選択
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.RgsSelOverflowQueue
+  - ms.lync.lscp.RgsSelOverflowQueue
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 50a235b6-5f30-4c49-93d9-6c6f43edce64
-ROBOTS: NOINDEX, NOFOLLOW
-description: 応答グループ キューに空きがないときの通話の転送先キューを選択するには、[オーバーフロー キューの選択] ダイアログ ボックスを使用します。
-ms.openlocfilehash: 7811951f98d43e3e2d0536d7fd48814445ab3c9d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830561"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: '応答グループ キューに空きがないときの通話の転送先キューを選択するには、[オーバーフロー キューの選択] ダイアログ ボックスを使用します。'
 ---
+
 # <a name="select-overflow-queue"></a>オーバーフロー キューの選択
  
 応答グループ キューに空きがないときの通話の転送先キューを選択するには、[**オーバーフロー キューの選択**] ダイアログ ボックスを使用します。

@@ -1,30 +1,25 @@
 ---
 title: '[PIN ポリシー情報の表示] Skype for Business Server'
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1d48b060-d77f-44ee-b70f-3ce128aedac4
 description: '概要: ユーザーの PIN ポリシー情報を表示するSkype for Business Server。'
-ms.openlocfilehash: 0a0e67d45a89e2c03f45017bfddb1ffaa9bec285
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862484"
 ---
+
 # <a name="view-pin-policy-information-in-skype-for-business-server"></a>[PIN ポリシー情報の表示] Skype for Business Server
  
 **概要:** ユーザーの PIN ポリシー情報を表示Skype for Business Server。
   
-[PIN ポリシー]**タブを使用** して、IP Phone を使用してユーザーに接続しているユーザーの個人識別番号 (PIN) Skype for Business表示できます。 PIN 認証を使用するには、Web サービス設定で [**PIN 認証を有効にする**] が選択されていることを確認してください。
+[PIN ポリシー] **タブを使用** して、IP Phone でユーザーに接続しているユーザーの個人識別番号 (PIN) Skype for Business表示できます。 PIN 認証を使用するには、Web サービス設定で [**PIN 認証を有効にする**] が選択されていることを確認してください。
   
 ユーザー レベルまたはサイト レベルの PIN ポリシーを変更するには、次の手順に従います。 
   
@@ -40,7 +35,7 @@ ms.locfileid: "60862484"
     
 ## <a name="viewing-pin-policies-by-using-windows-powershell-cmdlets"></a>コマンドレットを使用した PIN ポリシー Windows PowerShellする
 
-また、PIN ポリシーを表示するには、Windows PowerShellコマンドレットをGet-CsPinPolicyします。 このコマンドレットは、管理シェルから、またはSkype for Business Serverのリモート セッションから実行Windows PowerShell。 リモート サーバーを使用してサーバー Windows PowerShellする方法[Skype for Business Server、Microsoft Lync リモート PowerShell 管理を参照してください](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 このプロセスは、同じSkype for Business Server。
+また、PIN ポリシーを表示するには、Windows PowerShellコマンドレットをGet-CsPinPolicyします。 このコマンドレットは、管理シェルから、またはSkype for Business Serverのリモート セッションから実行Windows PowerShell。 リモート サーバーを使用してリモート Windows PowerShell接続する方法Skype for Business Server [Microsoft Lync リモート PowerShell 管理」を参照してください](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 このプロセスは、同じSkype for Business Server。
   
 ### <a name="to-view-pin-policies"></a>PIN ポリシーを表示するには
 
@@ -62,7 +57,7 @@ PINLifetime          : 0
 MaximumLogonAttempts :
 </pre>
 
-詳細については [、Get-CsPinPolicy コマンドレットのヘルプ トピックを参照](/powershell/module/skype/get-cspinpolicy?view=skype-ps) してください。
+詳細については、 [Get-CsPinPolicy コマンドレットのヘルプ トピックを参照](/powershell/module/skype/get-cspinpolicy?view=skype-ps) してください。
   
 ## <a name="see-also"></a>関連項目
 

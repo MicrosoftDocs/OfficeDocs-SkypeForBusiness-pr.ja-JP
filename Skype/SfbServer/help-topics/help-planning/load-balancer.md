@@ -1,28 +1,23 @@
 ---
 title: Skype for Business Serverロード バランサー計画ツール
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.plan.LoadBalancer
-- ms.lync.plan.LoadBalancer
+  - ms.lync.plan.LoadBalancer
+  - ms.lync.plan.LoadBalancer
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
 description: フロントエンド プール、ディレクター プール、またはエッジ サーバー プールがある場合は、これらのプールの負荷分散を展開する必要があります。 ロード バランシングによって、プール内のすべてのサーバーにトラフィックが分散されます。 詳細については、以下を参照してください。
-ms.openlocfilehash: ce7764d0521b60fc22423ad2735eaa88cc27eff6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832211"
 ---
+
 # <a name="skype-for-business-server-load-balancer-planning-tool"></a>Skype for Business Serverロード バランサー計画ツール
  
 フロントエンド プール、ディレクター プール、またはエッジ サーバー プールがある場合は、これらのプールの負荷分散を展開する必要があります。 ロード バランシングによって、プール内のすべてのサーバーにトラフィックが分散されます。 詳細については、以下を参照してください。

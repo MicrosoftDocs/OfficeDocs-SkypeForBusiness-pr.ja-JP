@@ -1,30 +1,25 @@
 ---
 title: 2015 年の常設チャット サーバー Skype for Business Serverする
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c58ee4f4-563b-4d0c-be91-c62df886caa9
 description: '概要: 2015 年に常設チャット サーバーを管理するSkype for Business Serverします。'
-ms.openlocfilehash: 3fc0027d8984a3c4ea4249f0d44a2d21a4913a3a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860004"
 ---
+
 # <a name="manage-persistent-chat-server-in-skype-for-business-server-2015"></a>2015 年の常設チャット サーバー Skype for Business Serverする
  
 **概要:** 2015 年に常設チャット サーバーを管理するSkype for Business Serverします。
   
-組織の常設チャット サーバーをセットアップする場合は、展開時に初期構成を指定します。 ただし、常設チャット サーバーのサポートの実装方法を変更する場合があります。 たとえば、組織内の特定のチームまたはグループに対して常設チャット サーバーのサポートとコントロールを異なる方法で設定する必要がある場合があります。 このセクションでは、常設チャット サーバーの展開をカスタマイズするための情報と手順について説明します。 常設チャット サーバー用に構成できる機能の詳細については、「Plan [for Persistent Chat Server in Skype for Business Server 2015」を参照](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)してください。 常設チャット サーバーの展開の詳細については、「Deploy Persistent Chat Server in Skype for Business Server [2015」を参照](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)してください。 
+組織の常設チャット サーバーをセットアップする場合は、展開時に初期構成を指定します。 ただし、常設チャット サーバーのサポートの実装方法を変更する場合があります。 たとえば、組織内の特定のチームまたはグループに対して常設チャット サーバーのサポートとコントロールを異なる方法で設定する必要がある場合があります。 このセクションでは、常設チャット サーバーの展開をカスタマイズするための情報と手順について説明します。 常設チャット サーバー用に構成できる機能の詳細については、「Plan [for Persistent Chat Server in Skype for Business Server 2015」を参照](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)してください。 常設チャット サーバーの展開の詳細については、「[Deploy Persistent Chat Server in Skype for Business Server 2015」を参照](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)してください。 
 
 > [!NOTE]
 > 常設チャットは 2015 Skype for Business Serverで使用できますが、2019 年Skype for Business Serverではサポートされていません。 同じ機能は、Teams。 詳細については、「アップグレードの開始[方法」をMicrosoft Teamsしてください](/microsoftteams/upgrade-start-here)。 常設チャットを使用する必要がある場合は、この機能を必要とするユーザーを Teams に移行するか、2015 年Skype for Business Serverします。 
@@ -39,7 +34,7 @@ ms.locfileid: "60860004"
     
 3. 左側のナビゲーション バーで、[常設チャット] **をクリックします**。
     
-次の表に、常設チャット サーバー Windows PowerShellに使用できるコマンドレットの概要を示します。 使用可能なすべてのパラメーターを含む構文の詳細については[、「Skype for Business Server 2015 管理シェル」を参照してください](../management-shell.md)。
+次の表に、常設チャット サーバー Windows PowerShellに使用できるコマンドレットの概要を示します。 使用可能なすべてのパラメーターを含む構文の詳細については、「Skype for Business Server [2015 管理シェル」を参照してください](../management-shell.md)。
   
 
 |**コマンドレット**|**説明**|

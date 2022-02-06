@@ -1,25 +1,20 @@
 ---
 title: CDR ビューのリスト
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 2f72aead-d1da-4185-b75c-f6c31d76a6b3
 description: ビューを使用すると、CDR データベースからデータを返すために使用される最も一般的なシナリオについての情報に簡単にアクセスできます。 実際の CDR データベース テーブルを使用する代わりに、カスタム レポートの作成にはビューを使用してください。これは、データベース ビューが将来のリリースとの下位互換性を維持する可能性が高いためです。
-ms.openlocfilehash: 713e9bef620f36901031024395cc3b51898e433d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847060"
 ---
+
 # <a name="list-of-cdr-views"></a>CDR ビューのリスト
  
 ビューを使用すると、CDR データベースからデータを返すために使用される最も一般的なシナリオについての情報に簡単にアクセスできます。 実際の CDR データベース テーブルを使用する代わりに、カスタム レポートの作成にはビューを使用してください。これは、データベース ビューが将来のリリースとの下位互換性を維持する可能性が高いためです。

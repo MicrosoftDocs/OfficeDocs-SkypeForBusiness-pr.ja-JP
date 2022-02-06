@@ -1,7 +1,7 @@
 ---
 title: クライアントとデバイスを計画する
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/20/2018
@@ -9,21 +9,16 @@ audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: '概要: Skype for Business でサポートされているクライアントとアプリのレビュー。'
-ms.openlocfilehash: 07bdf01db2992f8e81264f4e04a6209ce2f3c3bf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: HT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836279"
 ---
+
 # <a name="plan-for-clients-and-devices"></a>クライアントとデバイスを計画する
 
 **概要:** Skype for Business でサポートされているクライアントとアプリのレビュー。

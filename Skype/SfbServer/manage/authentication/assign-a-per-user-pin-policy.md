@@ -1,25 +1,20 @@
 ---
 title: ユーザー単位の PIN ポリシーをユーザー単位で割り当Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
 description: '概要: AV 証明書と OAuth 証明書をステージにSkype for Business Server。'
-ms.openlocfilehash: 51bf650d907923c83801799a28220eae9a1f385c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845480"
 ---
+
 # <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>ユーザー単位の PIN ポリシーをユーザー単位で割り当Skype for Business Server
 
 **概要:** AV 証明書と OAuth 証明書をステージSkype for Business Server。
@@ -67,7 +62,7 @@ ms.locfileid: "60845480"
 7. [**ポリシーの割り当て**] の [**PIN ポリシー**] で、次のいずれかの手順を実行します。
     
     > [!NOTE]
-    > [ポリシーの割り当て] ダイアログ ボックスを使用して構成できるポリシーは複数あるため、ダイアログ ボックス内のすべてのポリシーで既定 **\<Keep as is\>** で選択されます。 この設定を変更しない場合は、以前にユーザーに割り当てたポリシーを使用して続行します。
+    > [ポリシーの割り当 **\<Keep as is\>** て] ダイアログ ボックスを使用して構成できるポリシーは複数あるため、ダイアログ ボックス内のすべてのポリシーで既定で選択されます。 この設定を変更しない場合は、以前にユーザーに割り当てたポリシーを使用して続行します。
   
    - グローバル Skype for Business Serverまたはサイト レベルのポリシーが定義されている場合は、ユーザーが自動的に選択できます。
     
@@ -80,7 +75,7 @@ ms.locfileid: "60845480"
     
 ## <a name="assigning-a-per-user-pin-policy-by-using-windows-powershell-cmdlets"></a>コマンドレットを使用Per-User PIN ポリシーを割りWindows PowerShellする
 
-ユーザーごとの PIN ポリシーを割り当てるには、Windows PowerShell **Grant-CsPinPolicy コマンドレットを使用** します。 このコマンドレットは、Skype for Business Server 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモート サーバーを使用してリモート Windows PowerShell接続する方法Skype for Business Server [Microsoft Lync リモート PowerShell 管理」を参照してください](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 このプロセスは、同じSkype for Business Server。
+ユーザーごとの PIN ポリシーを割り当てるには、Windows PowerShell **Grant-CsPinPolicy コマンドレットを使用** します。 このコマンドレットは、Skype for Business Server 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモート サーバーを使用してリモート Windows PowerShell接続する方法Skype for Business Server[、「Microsoft Lync リモート PowerShell 管理」を参照してください](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 このプロセスは、同じSkype for Business Server。
   
 ### <a name="to-assign-a-per-user-pin-policy-to-a-single-user"></a>ユーザー単位の PIN ポリシーを単一のユーザーに割り当てるには
 
@@ -92,7 +87,7 @@ ms.locfileid: "60845480"
 
 ### <a name="to-assign-a-per-user-pin-policy-to-multiple-users"></a>ユーザー単位の PIN ポリシーを複数のユーザーに割り当てるには
 
-- 次のコマンドは、ユーザー単位の PIN ポリシー RedmondUsersPinPolicy を Redmond 市で働くすべてのユーザーに割り当てます。 このコマンドで使用される LdapFilter パラメーターの詳細については [、「Get-CsUser」を参照してください](/powershell/module/skype/get-csuser?view=skype-ps)。
+- 次のコマンドは、ユーザー単位の PIN ポリシー RedmondUsersPinPolicy を Redmond 市で働くすべてのユーザーに割り当てます。 このコマンドで使用される LdapFilter パラメーターの詳細については、「 [Get-CsUser」を参照してください](/powershell/module/skype/get-csuser?view=skype-ps)。
     
   ```PowerShell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsPinPolicy -PolicyName "RedmondUsersPinPolicy"
@@ -106,7 +101,7 @@ ms.locfileid: "60845480"
   Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName $Null
   ```
 
-詳細については [、「Grant-CsPinPolicy」を参照してください](/powershell/module/skype/grant-cspinpolicy?view=skype-ps)。
+詳細については、「 [Grant-CsPinPolicy」を参照してください](/powershell/module/skype/grant-cspinpolicy?view=skype-ps)。
   
 ## <a name="see-also"></a>関連項目
 

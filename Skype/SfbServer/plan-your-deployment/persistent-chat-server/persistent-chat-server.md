@@ -1,25 +1,20 @@
 ---
 title: 2015 年の常設チャット サーバー Skype for Business Serverする
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 8/17/2015
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 9e652487-a123-40c0-ae61-47fb8ecc4a20
 description: '概要: このトピックを参照して、2015 年に常設チャット サーバーを計画するSkype for Business Serverしてください。'
-ms.openlocfilehash: 7adeb623f581d7ce6f3bfad5dadafd143299fad5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842719"
 ---
+
 # <a name="plan-for-persistent-chat-server-in-skype-for-business-server-2015"></a>2015 年の常設チャット サーバー Skype for Business Serverする
  
 **概要:** このトピックでは、2015 年に常設チャット サーバーを計画するSkype for Business Serverしてください。
@@ -114,8 +109,8 @@ Skype for Business Server 2015 は、セッション開始プロトコル (SIP) 
 
 常設チャット サーバーのインストールと構成の詳細については、次のトピックを参照してください。
   
-- 常設チャット サーバーを展開する方法の詳細については[、「Deploy Persistent Chat Server in Skype for Business Server 2015」を参照](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)してください。 
+- 常設チャット サーバーを展開する方法の詳細については、「[Deploy Persistent Chat Server in Skype for Business Server 2015」を](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)参照してください。 
     
-- 常設チャット サーバーの展開で設定を構成する方法の詳細については[、「Manage Persistent Chat Server in Skype for Business Server 2015」を参照](../../manage/persistent-chat/persistent-chat.md)してください。
+- 常設チャット サーバーの展開で設定を構成する方法の詳細については、「[Manage Persistent Chat Server in Skype for Business Server 2015」を参照](../../manage/persistent-chat/persistent-chat.md)してください。
     
 

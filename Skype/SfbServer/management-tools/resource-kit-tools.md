@@ -1,34 +1,29 @@
 ---
 title: Skype for Business Server 2015 リソース キット ツールのドキュメント
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 1/20/2017
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: この記事では、Skype for Business Server 2015 リソース キットのツールについて説明します。各ツールの目的とその使用例を含む。 2015 Skype for Business Server 2015 リソース キットは、2015 年に展開および管理する IT 管理者が日常的なタスクSkype for Business Serverします。 たとえば、Web Conf Data ツールを使用して、オンライン会議中にユーザーがアップロードしたデータを簡単に制御できます。 SEFAUtil ツールを使用して、ユーザーの代理通話の転送と応答を設定できます。 IT 管理者は、2015 年にこれらのツールを使用して、より効果的に管理Skype for Business Server推奨します。
-ms.openlocfilehash: 04e66f19219291ef851b50af15dd796d36d44afb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857454"
 ---
+
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Skype for Business Server 2015 リソース キット ツールのドキュメント
 
-この記事では、Skype for Business Server 2015 リソース キットのツールについて説明します。各ツールの目的とその使用例を含む。 2015 Skype for Business Server 2015 リソース キットは、2015 年に展開および管理する IT 管理者が日常的なタスクSkype for Business Serverします。 たとえば **、Web Conf Data ツール** を使用して、オンライン会議中にユーザーがアップロードしたデータを簡単に制御できます。 **SEFAUtil ツールを** 使用して、ユーザーの代理通話の転送と応答を設定できます。 IT 管理者は、2015 年にこれらのツールを使用して、より効果的に管理Skype for Business Server推奨します。
+この記事では、Skype for Business Server 2015 リソース キットのツールについて説明します。各ツールの目的とその使用例を含む。 2015 Skype for Business Server 2015 リソース キットは、2015 年に展開および管理する IT 管理者が日常的なタスクSkype for Business Serverします。 たとえば、 **Web Conf Data ツール** を使用して、オンライン会議中にユーザーがアップロードしたデータを簡単に制御できます。 **SEFAUtil ツールを** 使用して、ユーザーの代理通話の転送と応答を設定できます。 IT 管理者は、2015 年にこれらのツールを使用して、より効果的に管理Skype for Business Server推奨します。
 
 ## <a name="installation-of-the-resource-kit-tools"></a>リソース キット ツールのインストール
 
-2015 リソース Skype for Business Serverをインストールするには、ダウンロード[センターから](https://www.microsoft.com/download/details.aspx?id=52631)OCSReskit.msiをダウンロードします。
+2015 リソース Skype for Business Serverをインストールするには、ダウンロード [ センターから](https://www.microsoft.com/download/details.aspx?id=52631)OCSReskit.msiをダウンロードします。
 
-簡単 **OCSResKit.msi** を実行するには、次の手順を実行します。 この.msiは **、%Program Files%\Skype for Business Server 2015\ResKit** というパス内のすべてのツールをインストールします。 自己格納型の実行可能ファイルであるツールは、このフォルダーにあります。 サポート ファイルも含むツールは、独自のサブフォルダーに含まれています。
+簡単 **OCSResKit.msi** を実行するには、次の手順を実行します。 この.msiは、**%Program Files%\Skype for Business Server 2015\ResKit** というパス内のすべてのツールをインストールします。 自己格納型の実行可能ファイルであるツールは、このフォルダーにあります。 サポート ファイルも含むツールは、独自のサブフォルダーに含まれています。
 
 ## <a name="supported-environments"></a>サポートされている環境
 
@@ -160,7 +155,7 @@ ABSConfig ツールを使用すると、管理者は 2015 アドレス帳サー�
 [ **トポロジ情報] タブ** には、ネットワーク構成設定で構成されているすべてのリンクの一覧が表示されます。 各リンクについて、オーディオとビデオの帯域幅容量が表示されます。 さらに、現在使用されている帯域幅は、Kbps と容量の割合の両方で表示されます。 このツールでは、色分けを使用して、容量に近い使用率を持つリンクを強調表示します。これにより、管理者はそのようなリンクをすばやく分離できます。
 
 > [!NOTE]
->  帯域幅ポリシー サービス モニター ツールが構成済みの帯域幅ポリシー サービスに接続するときにエラーが発生した場合、[コンピューター **情報**]タブと [トポロジ情報] タブの情報は入力されません。 ただし、ツールが最初に接続した後、サービスへの接続が失われる可能性があります。 このような場合、管理者に古い情報が表示される場合があります。 各タブ **には、特定** の帯域幅ポリシー サービスのデータが最後に更新された時刻を管理者が確認できる最終更新タイムスタンプがあります。
+>  帯域幅ポリシー サービス モニター ツールが構成済みの帯域幅ポリシー サービスに接続するときにエラーが発生した場合、[コンピューター **情報**] タブと [トポロジ情報] タブの情報は入力されません。 ただし、ツールが最初に接続した後、サービスへの接続が失われる可能性があります。 このような場合、管理者に古い情報が表示される場合があります。 各タブ **には、特定** の帯域幅ポリシー サービスのデータが最後に更新された時刻を管理者が確認できる最終更新タイムスタンプがあります。
 
 ### <a name="output"></a>出力
 
@@ -262,7 +257,7 @@ ABSConfig ツールを使用すると、管理者は 2015 アドレス帳サー�
 
 次のファイル ディレクトリは、ユーザーが示すように指定できます。
 
-- **サーバー ログ ファイルの場所** 帯域幅ポリシー サーバー ログが格納されているフォルダーの場所。 これは通常、FE \<fileserver\> \\ \> \AppServerFiles\PDP<選択する場合に使用します。
+- **サーバー ログ ファイルの場所** 帯域幅ポリシー サーバー ログが格納されているフォルダーの場所。 これは通常、FE\<fileserver\>\\\>\AppServerFiles\PDP<選択する場合に使用します。
 
 - **一時ファイルの保存場所** レポートの生成中に中間ファイルが保存される一時ファイルの場所。
 
@@ -281,7 +276,7 @@ ABSConfig ツールを使用すると、管理者は 2015 アドレス帳サー�
 
 ![帯域幅 Utili で収集された通知をログに記録します。](../media/Reskit_2012_Tools_Documentation_Image7.jpg)
 
-**[OK]** をクリックします。 BandwidthUtilizationAnalyzer.xlsm が自動的に開始されます。 メッセージ ボックスの指示に従います。 詳細については、次の **セクションの「Using BandwidthUtilizationAnalyzer.xlsm」** を参照してください。
+[**OK**] をクリックします。 BandwidthUtilizationAnalyzer.xlsm が自動的に開始されます。 メッセージ ボックスの指示に従います。 詳細については、次の **セクションの「Using BandwidthUtilizationAnalyzer.xlsm** 」を参照してください。
 
 
 ### <a name="using-bandwidthutilizationanalyzerxlsm"></a>BandwidthUtilizationAnalyzer.xlsm の使用
@@ -290,7 +285,7 @@ ABSConfig ツールを使用すると、管理者は 2015 アドレス帳サー�
 
      ![BandwidthUtilizationAnalyzer.xlsm。](../media/Reskit_2012_Tools_Documentation_Image8.jpg)
 
-2. ファイル フォルダーを開いた場合は、consolidated.csvメッセージ ボックスで指定された場所からファイル フォルダーを選択します。 また、場所は **C:\Temp として表示されます**。
+2. ファイル フォルダーを開いた場合は、consolidated.csvメッセージ ボックスで指定された場所からファイル フォルダーを選択します。 また、場所を **C:\Temp として表示します**。
 
      ![BandwidthUtilizationAnalyzer でフォルダーを開きます。](../media/Reskit_2012_Tools_Documentation_Image9.jpg)
 
@@ -336,23 +331,23 @@ ABSConfig ツールを使用すると、管理者は 2015 アドレス帳サー�
 
 ![BandwidthUtilizationAnalyzer の名前によるフィルター処理。](../media/Reskit_2012_Tools_Documentation_Image12.jpg)
 
-制限を超 **えてフィルターを適用します**。 **[True] を** 選択してフィルターを適用します。
+制限を **超えてフィルター処理します**。 [ **True] を** 選択してフィルターを適用します。
 
 ![超過制限によるフィルター処理。](../media/Reskit_2012_Tools_Documentation_Image13.jpg)
 
-クリティカル レベル **でフィルター処理します**。 **[True] を** 選択してフィルターを適用します。
+クリティカル レベル **でフィルター処理します**。 [ **True] を** 選択してフィルターを適用します。
 
 ![クリティカル レベルによるフィルター処理。](../media/Reskit_2012_Tools_Documentation_Image14.jpg)
 
-[使用 **されているアンダー] でフィルターを適用します**。 **[True] を** 選択してフィルターを適用します。
+[使用] **でフィルターを適用します**。 [ **True] を** 選択してフィルターを適用します。
 
 ![[使用] でフィルター処理します。](../media/Reskit_2012_Tools_Documentation_Image15.jpg)
 
-[リンクの **種類でフィルター] をクリックします**。 表示する必要がある種類または種類を選択します。
+[リンクの **種類] でフィルター処理します**。 表示する必要がある種類または種類を選択します。
 
 ![リンクの種類によるフィルター処理。](../media/Reskit_2012_Tools_Documentation_Image16.jpg)
 
-地域で **フィルターを適用します**。 リンクを表示する必要がある地域の一覧を選択します。
+地域でフィルター **処理します**。 リンクを表示する必要がある地域の一覧を選択します。
 
 ![地域によるフィルター処理。](../media/Reskit_2012_Tools_Documentation_Image17.jpg)
 
@@ -389,7 +384,7 @@ Call Parkometer は、現在パークされている通話を追跡するツー�
 
 - **-f** パラメーター : プール内の現在空きオービットの数を示します。
 
-- **-r \<n\>** parameter - 最後にパーク \<n\> された呼び出しの一覧を示します。 表示される情報は次のとおりです。
+- **-r \<n\>** parameter - 最後にパークされた \<n\> 呼び出しの一覧を示します。 表示される情報は次のとおりです。
 
   - PARKEE SIP URI。
 
@@ -399,7 +394,7 @@ Call Parkometer は、現在パークされている通話を追跡するツー�
 
   - 呼び出しが取得または削除された時刻のタイム スタンプ。
 
-- **-t \<n\>** parameter - データベース内のオービットを予約し、割り当てられたオービット番号のランダム性を示すテストを行います。
+- **-t\<n\>** parameter - データベース内のオービットを予約し、割り当てられたオービット番号のランダム性を示すテストを行います。
 
 ### <a name="output"></a>出力
 
@@ -421,7 +416,7 @@ CPS ツールの目的は、CPS データベースへのコマンド ライン �
 
 ### <a name="requirements"></a>Requirements
 
-このツールが CPS を実行しているのと同じコンピューターで実行される場合、要件はありません。 このツールをリモート コンピューターで実行する場合は、SQL Server 2015 で使用される Skype for Business Server データベースをリモート アクセスを許可するように構成する必要があります。 Call Parkometer は、プールのSQL Server接続するために、データベース接続文字列を使用して構成する必要SQL Server。 このSQL Serverデータベース接続文字列は、構成ファイルで定義 **されます。parkometer.exe.config。** このディレクトリは、そのディレクトリと同じディレクトリparkometer.exe必要があります。 次の XML ファイルは、次の XML ファイルの例parkometer.exe.config。構成する必要があるパラメーターは、ユーザー名 (mydomain\Administrator など)、パスワード (mypassword など)、ホスト名 (myserver など) です。
+このツールが CPS を実行しているのと同じコンピューターで実行される場合、要件はありません。 このツールをリモート コンピューターで実行する場合は、SQL Server 2015 で使用される Skype for Business Server データベースをリモート アクセスを許可するように構成する必要があります。 Call Parkometer は、プールのSQL Server接続するために、データベース接続文字列を使用して構成する必要SQL Server。 このSQL Serverデータベース接続文字列は、構成ファイルで定義 **されます。parkometer.exe.config**。このディレクトリは、そのディレクトリと同じディレクトリparkometer.exe必要があります。 次の XML ファイルは、次の XML ファイルの例parkometer.exe.config。構成する必要があるパラメーターは、ユーザー名 (mydomain\Administrator など)、パスワード (mypassword など)、ホスト名 (myserver など) です。
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
@@ -450,11 +445,11 @@ Integrated Security=false;"/>
 
 ![Call Parkometer の無料オービット。](../media/Reskit_2012_Tools_Documentation_Image20.jpg)
 
-最近パークされた呼び出し: -r パラメーターは、次に示すように、最後 \<n\> \<n\> にパークされた呼び出しを一覧表示します。
+最近パークされた呼び出し: -r \<n\> パラメーターは、 \<n\> 次に示すように、最後にパークされた呼び出しを一覧表示します。
 
 ![コール パークメーターで最近パークされた呼び出し。](../media/Reskit_2012_Tools_Documentation_Image21.jpg)
 
-軌道予約のテスト: -t パラメーターは、次に示すように、データベース内のオービット \<n\> を予約するテストを行います。
+軌道予約のテスト: -t \<n\> パラメーターは、次に示すように、データベース内のオービットを予約するテストを行います。
 
 ![Call Parkometer でオービット予約をテストします。](../media/Reskit_2012_Tools_Documentation_Image22.jpg)
 
@@ -478,7 +473,7 @@ DBAnalyze は、管理者が 2015 年のデータベースに関する分析レ�
 
 - **会議モード** 会議のすべてのスケジュール時間の詳細、招待者リスト、会議に許可されているメディアの種類の一覧、アクティブな MCUs (マルチポイントコントロール ユニット)、アクティブな参加者リスト、各参加者のシグナリング状態など、特定の会議の詳細なデータをレポートします。
 
-- **会議 ID のデコード** /pstnid スイッチで指定されているが、詳細についてはバック エンドに接続しない公衆交換電話網 **(PSTN)** 会議 ID をデコードします。
+- **会議 ID のデコード****/pstnid** スイッチで指定されているが、詳細についてはバック エンドに接続しない公衆交換電話網 (PSTN) 会議 ID をデコードします。
 
 - **会議の解決****/pstnid** スイッチで指定された PSTN 会議 ID をデコードし、ID で示された会議に関する情報を表示します。
 
@@ -504,7 +499,7 @@ DBAnalyze は、管理者が 2015 年のデータベースに関する分析レ�
 
  **ネットワーク** コンピューターは、バック エンド データベースに接続できる必要があります。
 
- **DBAnalyze** Skype for Business Server前に、2015 ソフトウェア コンポーネントのソフトウェア コンポーネントをインストールする必要があります。
+ **ソフトウェア** Skype for Business Server 2015 ソフトウェア コンポーネントは、DBAnalyze を実行する前にインストールする必要があります。
 
  **ユーザー** 次の表に、2015 データベースにアクセスするために必要なアクセス許可を持Skype for Business Server示します。
 
@@ -541,7 +536,7 @@ ImportStorageServiceData リソース キット ツールを使用すると、St
 
  **シナリオ 1:** プールのフェールオーバー中に、ファイルが各フロントエンドのストレージ サービスからフラッシュアウトされる可能性があります。 フェールオーバーが完了したら、ツールを実行してデータを再importする必要があります。
 
- **シナリオ 2:** データが毎日自動的にフラッシュされる、または特定のサイズのしきい値を超える Storage Service データベースへの応答 (たとえば、60%、80%、90% full)。 この自動的にフラッシュされたデータは、管理者が定期的に再報告する必要があります。 上記の状況では、監視 SCOM パックが展開されていない場合、Skype for Business Server Storage サービスからフラッシュされるデータに関連する Storage Skype for Business Server Storage Service のイベントがあります。 32075 のイベント ID (フル フラッシュ操作が開始されました)、32076 (フル フラッシュが完了しました)、32082 (メンテナンス レベルフラッシュが開始されました)、32083 (メンテナンス レベルフラッシュが完了)、32089 (データベースの満たされた原因でフラッシュが発生しました)。 これらのイベント Id は RTM リリースに対応しています。 管理者がこれらのイベントを見た場合は、フラッシュされたファイルがあるという意味です。このデータは、このツールを使用して定期的にインポートバックする必要があります (たとえば、週に 1 回)。
+ **シナリオ 2:** データが毎日自動的にフラッシュされる、または特定のサイズのしきい値を超える Storage Service データベースに応答します (たとえば、60%、80%、90% のフル)。 この自動的にフラッシュされたデータは、管理者が定期的に再報告する必要があります。 上記の状況では、監視 SCOM パックが展開されていない場合、Skype for Business Server Storage サービスからフラッシュされるデータに関連する Storage Skype for Business Server Storage Service のイベントがあります。 32075 のイベント ID (フル フラッシュ操作が開始されました)、32076 (フル フラッシュが完了しました)、32082 (メンテナンス レベルフラッシュが開始されました)、32083 (メンテナンス レベルフラッシュが完了)、32089 (データベースの満たされた原因でフラッシュが発生しました)。 これらのイベント Id は RTM リリースに対応しています。 管理者がこれらのイベントを見た場合は、フラッシュされたファイルがあるという意味です。このデータは、このツールを使用して定期的にインポートバックする必要があります (たとえば、週に 1 回)。
 
 オンライン サービス リリースの場合、Skype for Business Server の正常性監視 SCOM パックが展開されている場合は、フラッシュされたデータを Storage サービスに再び読み込む必要がある新しいアラートが発生する可能性があります。 アラートをトリガーしたサーバー上のイベント ログにFront-Endイベントが発生します。 イベントでは、フラッシュされたデータ ファイルが置かれる親パスと、アラート条件を満たすファイルの数について説明します。 アラートの条件は、少なくとも Y 日前の特定の親パスの下に X 以上のファイルが含まれます (ここで、X と Y は StorageService 内で事前設定されますが、APPCONFIG ファイルを変更することで上書きできます)。正常性アラートをトリガーできるイベントの 2 つの例を以下に示します。その違いは親パスです。 1 つの可能性は Web サービス ファイル共有の下にありますが、もう 1 つの可能性は、各フロントエンドのローカル アプリケーション データ ディレクトリです。 (たとえば、c:\ProgramData\Microsoft\Skype for Business Server 2015\StorageService)。 管理者は、この reskit ツールを実行します。
 
@@ -551,7 +546,7 @@ ImportStorageServiceData リソース キット ツールを使用すると、St
 
 ### <a name="requirements"></a>Requirements
 
-2015 Skype for Business Server キット ツールをインストールします。 このツールは、管理シェルがインストールされているドメインSkype for Business Serverコンピューター Skype for Business Server実行されます。 このツールは、管理シェルのコマンドレットを使用して、プール内Front-Endサーバーを識別します。 次に **、RtcLocal** データベースがインストールされているプール内のコンピューターからツールを実行する必要があります。 このデータベースは、プールの WEBSERVICE ファイル共有の場所を取得するためにツールによって使用されます。 さらに、ツールを使用する前に、各 Front-End サーバーは、まず各 Front-End サーバーで **Enable-PSRemoting** を使用して Windows PowerShell リモート処理を有効にし、ツールが実行されるコンピューターを有効にする必要があります。 それ以外の場合、Windows PowerShellリモート コマンドは失敗します。 Windows PowerShellリモート処理は、プール内Front-Endサーバーでオフにできます。 最後に、ツールを呼び出すアカウントまたは資格情報に、このツールを実行しているプールの Web サービス ファイル共有に対する読み取り/書き込みアクセス許可が必要です。 それ以外の場合、ツールは IO アクセス許可エラーで失敗します。
+2015 Skype for Business Server キット ツールをインストールします。 このツールは、管理シェルがインストールされているドメインSkype for Business Serverコンピューター Skype for Business Server実行されます。 このツールは、管理シェルのコマンドレットを使用して、プール内Front-Endサーバーを識別します。 次に、 **RtcLocal** データベースがインストールされているプール内のコンピューターからツールを実行する必要があります。 このデータベースは、プールの WEBSERVICE ファイル共有の場所を取得するためにツールによって使用されます。 さらに、ツールを使用する前に、各 Front-End サーバーは、まず各 Front-End サーバーで **Enable-PSRemoting** を使用して Windows PowerShell リモート処理を有効にし、ツールを実行するコンピューターを有効にする必要があります。 それ以外の場合、Windows PowerShellリモート コマンドは失敗します。 Windows PowerShell後、プール内Front-Endサーバーでリモート処理をオフにできます。 最後に、ツールを呼び出すアカウントまたは資格情報に、このツールを実行しているプールの Web サービス ファイル共有に対する読み取り/書き込みアクセス許可が必要です。 それ以外の場合、ツールは IO アクセス許可エラーで失敗します。
 
 > [!NOTE]
 > このWindows Server 2012、Windows PowerShellリモート処理は既定で有効になっていますが、Windows Server 2008 オペレーティング システムでは有効になっていません。
@@ -744,7 +739,7 @@ LookupUserConsole ツールは、特定のユーザー Skype for Business Server
 
 ### <a name="examples"></a>例
 
-C:\Program Files\Skype for Business Server 2015\ResKit \>LookupUserConsole.exe
+C:\Program Files\Skype for Business Server 2015\ResKitLookupUserConsole.exe\>
 
 ```console
 > sip:john.doe@vdomain.com
@@ -876,23 +871,23 @@ MsTurnPing -ServerRole BandwidthPolicyServer
 
 ### <a name="examples"></a>例
 
- **Skype for Business Server 2015** の展開から CAC ネットワーク トポロジをグラフィカル形式で読み込み、表示する : Skype for Business Server 2015 管理者は、ダウンロードを使用して任意の Skype for Business Server 2015 コンピューターで CAC ネットワーク トポロジ構成を読み込み、表示 **できます。次の図** に示すように、[ネットワーク構成] オプションを選択します。 このツールは、2015 年 2015 年の構成ストアに接続していないコンピューターに展開された場合、このような構成をダウンロードまたは表示Skype for Business Serverされません。
+ **Skype for Business Server 2015** の展開から CAC ネットワーク トポロジをグラフィカルな形式で読み込み、表示します。Skype for Business Server 2015 管理者は、任意の Skype for Business Server 2015 コンピューターで CAC ネットワーク トポロジ構成を読み込み、表示できます。**下の図に示** すように、[ネットワーク構成] オプションをダウンロードします。 このツールは、2015 年 2015 年の構成ストアに接続していないコンピューターに展開された場合、このような構成をダウンロードまたは表示Skype for Business Serverされません。
 
 ![ネットワーク構成のダウンロード。](../media/Reskit_2012_Tools_Documentation_Image23.jpg)
 
- 帯域幅ポリシー サーバー ログ ファイルから **CAC** ネットワーク トポロジをグラフィカルな形式で読み込み、表示します。Skype for Business Server 2015 帯域幅ポリシー サーバーは、Skype for Business Server 2015 ファイル共有場所の下のログ メカニズムの一部として CAC ネットワーク トポロジを保存します。 Skype for Business Server 2015 管理者は、次に示すように [**ネットワーク** 構成を開く] オプションを使用して、このようなファイルをグラフィック形式で表示できます。
+ **帯域幅ポリシー** サーバー ログ ファイルから CAC ネットワーク トポロジをグラフィカルな形式で読み込み、表示します。Skype for Business Server 2015 帯域幅ポリシー サーバーは、Skype for Business Server 2015 ファイル共有場所の下のログ メカニズムの一部として CAC ネットワーク トポロジを保存します。 Skype for Business Server 2015 管理者は、次に示すように [ネットワーク構成を開く] オプションを使用して、このようなファイルをグラフィック形式で表示できます。
 
 ![帯域幅ポリシー サーバー ログ ファイルを開く。](../media/Reskit_2012_Tools_Documentation_Image24.jpg)
 
-CAC ネットワーク トポロジをディスクに XML 形式で保存して保存します。Skype for Business Server 2015 管理者は、次に示すように [ネットワーク構成のコピーを保存する] オプションを使用して、CAC ネットワーク トポロジ構成ファイルを XML 形式で保存できます。 保存された構成ファイルは、グラフィカル表示の目的でオフラインで使用できます。
+CAC ネットワーク トポロジをディスクに XML 形式で保存して保存します。Skype for Business Server 2015 管理者は、次に示すように [ネットワーク構成のコピーを保存する] オプションを使用して、CAC ネットワーク  トポロジ構成ファイルを XML 形式で保存できます。 保存された構成ファイルは、グラフィカル表示の目的でオフラインで使用できます。
 
 ![ネットワーク構成を XML ファイルとして保存します。](../media/Reskit_2012_Tools_Documentation_Image25.jpg)
 
-CAC ネットワーク トポロジ図を JPG または BMP 形式で保存および保存する: Skype for Business Server 2015 管理者は、以下に示すように [ネットワーク構成図をピクチャとして保存]オプションを使用して、CAC ネットワーク トポロジ構成をグラフィカル形式 (JPG および BMP ファイル形式) で保存できます。
+CAC ネットワーク トポロジ図を JPG または BMP 形式で保存および保存する: Skype for Business Server 2015 管理者は、以下に示すように [ネットワーク構成図をピクチャとして保存] オプションを使用して、CAC ネットワーク トポロジ構成をグラフィカル形式 (JPG および BMP ファイル形式) で保存できます。
 
 ![ネットワーク構成を図として保存します。](../media/Reskit_2012_Tools_Documentation_Image26.jpg)
 
- CAC ネットワーク トポロジ構成データの表示<strong>:</strong>Skype for Business Server 2015 管理者は、ネットワーク地域、ネットワーク サイト、帯域幅プロファイル、サイト サブネット IP アドレスなどの関連するネットワーク構成データを、以下に示すように [ネットワーク構成データの表示] オプションを使用してテキスト形式で表示できます。
+ CAC ネットワーク トポロジ構成データを表示<strong>する:</strong>Skype for Business Server 2015 管理者は、ネットワーク地域、ネットワーク サイト、帯域幅プロファイル、サイト サブネット IP アドレスなどの関連するネットワーク構成データを、以下に示す [ネットワーク構成データの表示] オプションを使用してテキスト形式で表示できます。
 
 ![ネットワーク構成データの表示。](../media/Reskit_2012_Tools_Documentation_Image27.jpg)
 
@@ -904,7 +899,7 @@ CAC ネットワーク トポロジ図を JPG または BMP 形式で保存お�
 
 ![ツール。](../media/Reskit_2012_Tools_Documentation_Image29.jpg)
 
- CAC ネットワーク **トポロジ** サイト情報、地域情報、およびプロビジョニングされた帯域幅ポリシーを表示します。Skype for Business Server 2015 管理者は、以下に示すオプションを使用して、関連する CAC ネットワーク地域情報、サイト情報、CAC 帯域幅プロビジョニング情報を表示できます。 (たとえば、ネットワーク領域 **またはネットワーク** サイト オブジェクトの [情報] をクリックします)。
+ CAC **ネットワーク トポロジ** サイト情報、地域情報、およびプロビジョニングされた帯域幅ポリシーを表示します。Skype for Business Server 2015 管理者は、以下に示すオプションを使用して、関連する CAC ネットワーク地域情報、サイト情報、CAC 帯域幅プロビジョニング情報を表示できます。 (たとえば、ネットワーク領域 **またはネットワーク** サイト オブジェクトの [情報] をクリックします)。
 
 ![ネットワークのカスタム コネクタを定義する。](../media/Reskit_2012_Tools_Documentation_Image30.jpg)
 
@@ -1095,7 +1090,7 @@ SEFAUtil ツールは、信頼されたアプリケーション プールの一�
 次のコマンドは、ユーザーの呼び出し処理を表示します。  `SEFAUtil.exe /server:SfBS2015server.contoso.com katarina@contoso.com`
 
 > [!NOTE]
-> この例では **、/server** スイッチを使用して、接続するSkype for Business Serverを指定します。
+> この例では **、/server スイッチを** 使用して、接続するSkype for Business Serverを指定します。
 
  **出力**
 
@@ -1426,7 +1421,7 @@ SYSPrep.ps1は、Windows PowerShell Server 2008 オペレーティング シス�
 
 ### <a name="requirements"></a>Requirements
 
-SYSPrep.ps1 スクリプトを実行する前に、前提条件ファイルを Windows Server 2008 オペレーティング システム コンピューターのローカル フォルダー **(D:\Setup など)** にコピーする必要があります。 このフォルダーには、2015 ファイルのコピー Skype for Business Server含める必要があります(特に 2015 **Setup.exe。** 前提条件ファイルは、次の場所からダウンロードできます。
+SYSPrep.ps1 スクリプトを実行する前に、前提条件ファイルを Windows Server 2008 オペレーティング システム コンピューター上のローカル フォルダー (**D:\Setup など)** にコピーする必要があります。 このフォルダーには、2015 ファイルのコピーを含Skype for Business Server、特に 2015 ファイル **Setup.exe。** 前提条件ファイルは、次の場所からダウンロードできます。
 
 
 | **前提条件**                                | **Location**                                                            |
@@ -1454,7 +1449,7 @@ SYSPrep.ps1 スクリプトを実行する前に、前提条件ファイルを W
 ## <a name="unassigned-number-announcements-migration"></a>割り当てられていない番号のお知らせの移行
 <a name="UNAM"> </a>
 
-[割り当てられていない番号のお知らせの移行] ツールを使用すると、Skype for Business Server 2015 管理者は、アナウンス アプリケーションによってサービスされる割り当てられていない番号構成を、ソース Skype for Business Server または Pool から宛先 Skype for Business Server に移動できます。または Pool。
+[割り当てられていない番号のお知らせの移行] ツールを使用すると、Skype for Business Server 2015 管理者は、アナウンス アプリケーションによってサービスされる割り当てられていない番号構成をソース Skype for Business Server または Pool から宛先に移動できます。Skype for Business Serverまたはプール。
 
 ### <a name="description"></a>説明
 
@@ -1483,9 +1478,9 @@ SYSPrep.ps1 スクリプトを実行する前に、前提条件ファイルを W
 
 [割り当てられていない番号のお知らせ] 移行スクリプトは、次の 3 つのシナリオで使用できます。
 
-- **構成設定を新しいバージョンのサーバーに移行Skype for Business Server。** Contoso は Skype for Business Server 2015 に移行中であり、移行プロセスの一環として、Skype for Business Server 管理者はアナウンス アプリケーションによってサービスされる割り当てられていない番号の構成を Lync Server 2013 展開から新しい Skype for Business Server 2015 展開に移動します。 構成設定を移動するには、管理者Skype for Business Server[割り当てられていない番号のお知らせの移行] ツールを使用します。
+- Skype for Business Server の新しいバージョンへの構成設定の移行 **: Contoso** は Skype for Business Server 2015 に移行中であり、移行プロセスの一環として、Skype for Business Server 管理者は、アナウンス アプリケーションによってサービスされる割り当てられていない番号構成を Lync Server 2013 展開から新しい Skype for Business Server 2015 展開に移動します。 構成設定を移動するには、管理者Skype for Business Server[割り当てられていない番号のお知らせの移行] ツールを使用します。
 
-- **展開を 2015 Skype for Business Server Lync Server 2013** にロールバックします。予期しない要因により、Contoso は 2015 年の新しい展開に移行をロールバックSkype for Business Server必要があります。 サービスの中断を最小限に抑えるために、Skype for Business Server 管理者は割り当てられていない番号アナウンス移行ツールを使用して、Skype for Business Server 2015 展開から Lync Server 2013 展開に構成をロールバックします。
+- **Skype for Business Server 2015 から Lync Server 2013** への展開のロールバック: 予期しない要因により、Contoso は移行を新しい Skype for Business Server 2015 展開にロールバックする必要があります。 サービスの中断を最小限に抑えるために、Skype for Business Server 管理者は割り当てられていない番号アナウンス移行ツールを使用して、Skype for Business Server 2015 展開から Lync Server 2013 展開に構成をロールバックします。
 
 - **展開間でのデータの移動:** Contoso は、1 つのプールのすべてのサーバーを新しいサーバーに置き換える過程にいます。 Skype for Business Server 2015 年 2015 年の新しいプールを展開し、すべてのデータを古いプールから新しいプールに移動し、古いプールを非推奨にすることです。 新しいプールを展開すると、[割り当てられていない番号のお知らせの移行] ツールを使用して、構成を古いプールから新しいプールに移動します。
 
@@ -1539,7 +1534,7 @@ Web Conf Data Tool を使用すると、Skype for Business Server 2015 コミュ
 4. 1 人のユーザーに関連付けられているすべての Web 会議データを、そのユーザーがプール間で移動するときに移動します。
 
     > [!NOTE]
-    > Lync Server 2010 のリソース キット ツールでは、そのユーザーがプール間で移動するときに、1 人のユーザーに関連付けられているすべての Web 会議データの移動がサポートされました。 この機能は **、MoveConferenceData** パラメーターを優先して、このツールから廃止されました。 このパラメーターの詳細については [、Move-CsUser コマンドレットを参照](/powershell/module/skype/move-csuser?) してください。
+    > Lync Server 2010 のリソース キット ツールでは、そのユーザーがプール間で移動するときに、1 人のユーザーに関連付けられているすべての Web 会議データの移動がサポートされました。 この機能は、 **MoveConferenceData** パラメーターを優先して、このツールから廃止されました。 このパラメーターの詳細については、 [Move-CsUser コマンドレットを参照](/powershell/module/skype/move-csuser?) してください。
 
 ツールは、非アクティブな会議の会議データのみを削除します。 アクティブな会議 (またはセッション内の会議) は削除できません。
 

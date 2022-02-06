@@ -1,29 +1,24 @@
 ---
 title: ユーザーのアーカイブを展開Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 50fa535c-7347-4e33-80a3-296748ef6666
 description: '概要: このトピックを参照して、ユーザーのアーカイブを展開する方法Skype for Business Server。'
-ms.openlocfilehash: bdf0e6fe170371d1596fd556450fca14d6433239
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837419"
 ---
+
 # <a name="deploy-archiving-for-skype-for-business-server"></a>ユーザーのアーカイブを展開Skype for Business Server
  
 **概要:** このトピックでは、ユーザーのアーカイブを展開する方法についてSkype for Business Server。
   
-アーカイブは、Skype for Business Server 展開の各フロントエンド サーバーに自動的にインストールされますが、使用するには、初期セットアップと構成手順を実行する必要があります。 開始する前に、「プラン for archiving in Skype for Business Server」 の[概念に精通Skype for Business Server。](../../plan-your-deployment/archiving/archiving.md)
+アーカイブは、Skype for Business Server 展開の各フロントエンド サーバーに自動的にインストールされますが、使用するには、初期セットアップと構成手順を実行する必要があります。 開始する前に、「プラン for archiving in Skype for Business Server」の概[念に精通Skype for Business Server](../../plan-your-deployment/archiving/archiving.md)。
   
 ## <a name="deployment-checklist"></a>展開チェックリスト
 

@@ -1,28 +1,23 @@
 ---
 title: キューを作成または変更Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: 応答グループ キューを作成または変更するには、Skype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: 6a4eb09e144bd7381ababdf37a0905c4ea9bac06
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842429"
 ---
+
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>キューを作成または変更Skype for Business
  
 応答グループ キューを作成または変更するには、Skype for Business Server エンタープライズ VoIP。
@@ -54,7 +49,7 @@ ms.locfileid: "60842429"
     
 7. [**グループ**] で、キューに割り当てるグループを指定します。次のいずれかの操作を行います。 
     
-   - キューにグループを追加するには、[選択] を **クリックします**。 [グループの **選択** ] 検索フィールドに、キューに割り当てるエージェント グループの名前のすべてまたは一部を入力し、目的のエージェント グループをクリックし **、[OK]** をクリックします。
+   - キューにグループを追加するには、[選択] を **クリックします**。 [グループの **選択]** 検索フィールドに、キューに割り当てるエージェント グループの名前のすべてまたは一部を入力し、目的のエージェント グループをクリックし、[OK] をクリック **します**。
     
    - キューからグループを削除するには、エージェント グループの一覧で、削除するグループをクリックし、[**削除**] をクリックします。
     
@@ -71,11 +66,11 @@ ms.locfileid: "60842429"
     
    - タイムアウト後通話を終了するには、[**切断**] をクリックします。
     
-   - 通話をボイス メールに転送するには、[ボイス メールに転送] をクリックし **、[SIP** アドレス] フィールドに SIP 形式のボイス メール アドレスを入力します(たとえば *\<username\>* @  *\<domainname\>* 、sip:bob@contoso.com)。
+   - 通話をボイス メールに転送するには、[ボイス メールに転送] をクリックし、[**SIP** アドレス] フィールドに SIP 形式 *\<username\>*@ *\<domainname\>* のボイス メール アドレスを入力します (たとえば、sip:bob@contoso.com)。
     
-   - 通話を別の電話番号に転送するには、[電話番号に転送] をクリックし **、[SIP** アドレス] フィールドに「sip: 」という形式の電話番号を入力します (たとえば *\<number\>* @  *\<domainname\>* 、sip:+14255550121@contoso.com)。
+   - 通話を別の電話番号に転送するには、[電話番号に転送] をクリックし、[**SIP** アドレス] フィールドに「sip: *\<number\>*@ *\<domainname\>* 」という形式の電話番号を入力します (たとえば、sip:+14255550121@contoso.com)。
     
-   - 通話を別のユーザーに転送するには **、[SIP** アドレスに転送] をクリックし **、[SIP** アドレス] フィールドに SIP 形式でユーザーの URI を入力します _\<username\>_ @  _\<domainname\>_ 。
+   - 通話を別のユーザーに転送するには、[**SIP** アドレスに転送] をクリックし、[**SIP** アドレス] フィールドに次の形式でユーザーの URI を入力します。 _\<username\>_@ _\<domainname\>_
     
    - 別のキューに通話を転送する場合は [**別のキューに転送**] をクリックし、使用するキューを参照します。
     
@@ -89,11 +84,11 @@ ms.locfileid: "60842429"
     
    - タイムアウト後通話を終了するには、[**切断**] をクリックします。
     
-   - 通話をボイス メールに転送するには、[ボイス メールに転送] をクリックし **、[SIP** アドレス] フィールドに SIP 形式のボイス メール アドレスを入力します(たとえば *\<username\>* @  *\<domainname\>* 、sip:bob@contoso.com)。
+   - 通話をボイス メールに転送するには、[ボイス メールに転送] をクリックし、[**SIP** アドレス] フィールドに SIP 形式 *\<username\>*@ *\<domainname\>* のボイス メール アドレスを入力します (たとえば、sip:bob@contoso.com)。
     
-   - 通話を別の電話番号に転送するには、[電話番号に転送] をクリックし **、[SIP** アドレス] フィールドに「sip: 」という形式の電話番号を入力します (たとえば *\<number\>* @  *\<domainname\>* 、sip:+14255550121@contoso.com)。
+   - 通話を別の電話番号に転送するには、[電話番号に転送] をクリックし、[**SIP** アドレス] フィールドに「sip: *\<number\>*@ *\<domainname\>* 」という形式の電話番号を入力します (たとえば、sip:+14255550121@contoso.com)。
     
-   - 通話を別のユーザーに転送するには **、[SIP** アドレスに転送] をクリックし **、[SIP** アドレス] フィールドに SIP 形式でユーザーの URI を入力します _\<username\>_ @  _\<domainname\>_ 。
+   - 通話を別のユーザーに転送するには、[**SIP** アドレスに転送] をクリックし、[**SIP** アドレス] フィールドに次の形式でユーザーの URI を入力します。 _\<username\>_@ _\<domainname\>_
     
    - 別のキューに通話を転送する場合は [**別のキューに転送**] をクリックし、使用するキューを参照します。
     
@@ -106,7 +101,7 @@ ms.locfileid: "60842429"
     > [!NOTE]
     > 管理ワークフローを委任された応答グループ マネージャーのいずれかである場合は、エージェント グループおよびキューを作成して、エージェント グループをキューに割り当てることができます。 
   
-2. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
+2. 管理シェルをSkype for Business Serverする **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[**2015** 年Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 3. キューのタイムアウトしきい値に達したときに再生されるプロンプトを作成し、変数に格納します。コマンド ラインで、次のコマンドを実行します。
     
@@ -121,7 +116,7 @@ ms.locfileid: "60842429"
    ```
 
    > [!NOTE]
-   > プロンプトにオーディオ ファイルを使用するには、**Import-CsRgsAudioFile** コマンドレットを使用します。 詳細については [、「Import-CsRgsAudioFile」を参照してください](/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)。 
+   > プロンプトにオーディオ ファイルを使用するには、**Import-CsRgsAudioFile** コマンドレットを使用します。 詳細については、「 [Import-CsRgsAudioFile」を参照してください](/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)。 
   
 4. キューのタイムアウトしきい値に達したときに実行されるアクションを定義し、変数に格納します。コマンド ラインで、次のコマンドを実行します。
     
@@ -130,7 +125,7 @@ ms.locfileid: "60842429"
    ```
 
    > [!NOTE]
-   > 可能なアクションとその構文の詳細については [、「New-CsRgsCallAction」を参照してください](/powershell/module/skype/new-csrgscallaction?view=skype-ps)。 
+   > 可能なアクションとその構文の詳細については、「 [New-CsRgsCallAction」を参照してください](/powershell/module/skype/new-csrgscallaction?view=skype-ps)。 
   
     次に例を示します。
     
@@ -151,7 +146,7 @@ ms.locfileid: "60842429"
    ```
 
       > [!NOTE]
-      > プロンプトにオーディオ ファイルを使用するには、**Import-CsRgsAudioFile** コマンドレットを使用します。 詳細については [、「Import-CsRgsAudioFile」を参照してください](/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)。 
+      > プロンプトにオーディオ ファイルを使用するには、**Import-CsRgsAudioFile** コマンドレットを使用します。 詳細については、「 [Import-CsRgsAudioFile」を参照してください](/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)。 
   
 6. キューのオーバーフローしきい値に達したときに実行されるアクションを定義し、変数に格納します。コマンド ラインで、次のコマンドを実行します。
     
@@ -160,9 +155,9 @@ ms.locfileid: "60842429"
    ```
 
     > [!NOTE]
-    > 可能なアクションとその構文の詳細については [、「New-CsRgsCallAction」を参照してください](/powershell/module/skype/new-csrgscallaction?view=skype-ps)。 
+    > 可能なアクションとその構文の詳細については、「 [New-CsRgsCallAction」を参照してください](/powershell/module/skype/new-csrgscallaction?view=skype-ps)。 
   
-    例:
+    次に例を示します。
     
    ```powershell
    $action = New-CsRgsCallAction -Prompt $promptOV -Action Terminate
@@ -181,7 +176,7 @@ ms.locfileid: "60842429"
    ```
 
     > [!NOTE]
-    > エージェント グループの作成の詳細については [、「New-CsRgsAgentGroup」を参照してください。](/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
+    > エージェント グループの作成の詳細については、「 [New-CsRgsAgentGroup」を参照してください。](/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
   
 9. キューを作成します。コマンド ラインで、次のコマンドを実行します。
     

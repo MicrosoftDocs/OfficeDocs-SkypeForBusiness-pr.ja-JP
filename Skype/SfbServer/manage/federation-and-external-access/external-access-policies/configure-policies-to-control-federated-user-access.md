@@ -1,27 +1,23 @@
 ---
 title: フェデレーション ユーザー アクセスを制御するポリシーの構成
-ms.reviewer: ''
-ms:assetid: 5485e208-81e4-4e59-9aeb-1232c11dd8a2
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398359(v=OCS.15)
-ms:contentKeyID: 48184180
+ms.reviewer: null
+'ms:assetid': 5485e208-81e4-4e59-9aeb-1232c11dd8a2
+'ms:mtpsurl': 'https://technet.microsoft.com/en-us/library/Gg398359(v=OCS.15)'
+'ms:contentKeyID': 48184180
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: 'フェデレーション パートナーとの通信をサポートするためのポリシーを構成すると、そのポリシーはフェデレーション ドメインのユーザーに適用されます。 '
-ms.openlocfilehash: 020135e26b2a989d6ef0225825cb2597d15687d4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833403"
 ---
+
+
 # <a name="configure-policies-to-control-federated-user-access-in-skype-for-business-server"></a>グループ内のフェデレーション ユーザー アクセスを制御するポリシーを構成Skype for Business Server
 
 フェデレーション パートナーとの通信をサポートするためのポリシーを構成すると、そのポリシーはフェデレーション ドメインのユーザーに適用されます。 1 つ以上の外部ユーザー アクセス ポリシーを構成して、フェデレーション ドメインのユーザーが組織のユーザーと共同作業Skype for Business Serverできます。 フェデレーション ユーザー アクセスを制御するために、グローバル レベル、サイト レベル、およびユーザー レベルでポリシーを構成できます。 Skype for Business Serverレベルで適用されるポリシー設定は、別のポリシー レベルで適用される設定を上書きできます。 Skype for Business Server ポリシーの優先順位: ユーザー ポリシー (最も高い) はサイト ポリシーをオーバーライドし、サイト ポリシーはグローバル ポリシーをオーバーライド (最も低い) します。 つまり、ポリシー設定が、そのポリシーの影響を受けるオブジェクトに近いほど、オブジェクトに及ぼす影響は大きくなります。
@@ -67,7 +63,7 @@ ms.locfileid: "60833403"
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  Busines server 管理シェルSkypeを開始する: [スタート]をクリックし、[すべてのプログラム]**を** クリックし、[Skype for Business Server] をクリックし、[管理シェルSkype for Business Server **クリックします**。
+2.  Busines server 管理シェルSkypeを開始する: [スタート] をクリックし、[すべてのプログラム] **を** クリックし、[Skype for Business Server] をクリックし、[管理シェルSkype for Business Server **クリックします**。
 
 3.  [管理シェル] に次Skype for Business Server入力します。
     
@@ -84,7 +80,7 @@ ms.locfileid: "60833403"
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  [管理シェルSkype for Business Server起動する: **[スタート**]をクリックし、[すべてのプログラム] をクリックし **、[Microsoft** Skype for Business Server] をクリックし、[管理シェルSkype for Business Server **クリックします**。
+2.  管理シェルをSkype for Business Serverする **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[**Microsoft** Skype for Business Server] をクリックし、[管理シェルSkype for Business Server **クリックします**。
 
 3.  [管理シェル] に次Skype for Business Server入力します。
     

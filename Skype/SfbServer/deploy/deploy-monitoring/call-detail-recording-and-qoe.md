@@ -1,24 +1,19 @@
 ---
 title: '[通話の詳細の記録] と [エクスペリエンスの品質] の設定を構成Skype for Business Server'
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
 description: '概要: CDR と QoE を構成する方法についてSkype for Business Server。'
-ms.openlocfilehash: 9275ead7fee4b9751141dd683bafb8b41e077530
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839639"
 ---
+
 # <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server"></a>[通話の詳細の記録] と [エクスペリエンスの品質] の設定を構成Skype for Business Server
  
 **概要:** CDR と QoE を構成する方法については、Skype for Business Server。
@@ -27,7 +22,7 @@ CDR と QoE の監視を、SQL Server Reporting Servicesレポートを使用し
   
 ## <a name="configure-cdr-and-qoe"></a>CDR と QoE の構成
 
-監視ストアをフロントエンド プールに関連付け、監視ストアをセットアップし、SQL Server Reporting Services と監視レポートをインストールして構成した後、Skype for Business Server 管理シェルを使用して通話詳細記録 (CDR) および QoE (QoE) 監視を管理できます。 Skype for Business Server管理シェルコマンドレットを使用すると、特定のサイトまたはサイト全体の CDR および QoE 監視を有効またはSkype for Business Serverできます。これは、次のように簡単なコマンドで実行できます。
+監視ストアをフロントエンド プールに関連付け、監視ストアをセットアップし、SQL Server Reporting Services と監視レポートをインストールして構成した後、Skype for Business Server 管理シェルを使用して通話詳細記録 (CDR) および QoE (QoE) 監視を管理できます。 Skype for Business Server管理シェルコマンドレットを使用すると、特定のサイトまたは Skype for Business Server 展開全体の CDR および QoE 監視を有効または無効にできます。これは、次のように簡単なコマンドで実行できます。
   
 ```powershell
 Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
@@ -50,7 +45,7 @@ Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
 |EnablePurging  <br/> |QoE レコードをデータベースから定期的に削除するかどうかを示します。True の場合、KeepQoEDataForDays プロパティで指定されている期間を過ぎると、レコードが削除されます。False の場合、QoE レコードは無期限に保持されます。  <br/> |True  <br/> |
 |KeepQoEDataForDays  <br/> |QoE レコードをデータベース内に保持する日数を指定します。指定した日数を超えて存在する古いレコードはすべて自動的に削除されます。ただし、この処理は削除が有効になっている場合にのみ実行されます。  <br/> KeepCallDetailForDays は、1 ～ 2562 (日) の範囲の任意の整数値に設定できます。  <br/> |60 日  <br/> |
    
-これらのグローバル設定を変更する必要がある場合は、このコマンドレットと Set-CsCdrConfigurationをSet-CsQoEConfigurationできます。 たとえば、このコマンド (Skype for Business Server管理シェル内から実行) は、グローバル スコープでの CDR 監視を無効にします。EnableCDR プロパティを False (既定の値) に設定$False。
+これらのグローバル設定を変更する必要がある場合は、このコマンドレットと Set-CsCdrConfigurationをSet-CsQoEConfigurationできます。 たとえば、このコマンド (Skype for Business Server 管理シェル内から実行) は、グローバル スコープでの CDR 監視を無効にします。EnableCDR プロパティを False ($False) に設定して実行します。
   
 ```powershell
 Set-CsCdrConfiguration -Identity "global" -EnableCDR $False

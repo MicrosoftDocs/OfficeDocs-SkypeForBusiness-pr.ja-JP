@@ -1,28 +1,23 @@
 ---
 title: セキュリティと構成の前提条件は、エンタープライズ VoIPのSkype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
 description: '概要: 詳細については、「セキュリティと構成の前提条件」を参照エンタープライズ VoIPをSkype for Business Server。'
-ms.openlocfilehash: 01f7be3bfe3e43d53d574632f228681be5af4ba4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839079"
 ---
+
 # <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server"></a>セキュリティと構成の前提条件は、エンタープライズ VoIPのSkype for Business Server
  
 **概要:** 詳細については、「セキュリティと構成の前提条件」のエンタープライズ VoIPをSkype for Business Server。
@@ -46,7 +41,7 @@ ms.locfileid: "60839079"
 - マイクロソフトまたはサードパーティの CA (証明機関) インフラストラクチャのいずれかを使用して、MKI (Managed key infrastructure) が展開され、構成されていること。
     
     > [!NOTE]
-    > Skype for Business Server の証明書要件の詳細については[、「Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)の環境要件」または「Skype for Business Server [2019](../../../SfBServer2019/plan/system-requirements.md)のサーバー要件」を参照してください。 
+    > Skype for Business Server の証明書要件の詳細については、「Skype for Business Server [2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) の環境要件」または「Skype for Business Server [2019」を参照](../../../SfBServer2019/plan/system-requirements.md)してください。 
   
 ## <a name="user-configuration"></a>ユーザー構成
 
@@ -61,8 +56,8 @@ ms.locfileid: "60839079"
 
 ソフトウェアと環境の前提条件を確認エンタープライズ VoIP、次のいずれかを実行できます。
   
-- [「Skype for Business Server](deploy-a-mediation-server.md)のトポロジ ビルダーでの仲介サーバーの展開」の説明に従って仲介サーバーをインストールしますが、仲介サーバーは、接続時にフロントエンド プールまたは Standard Edition サーバー展開プロセスの一部としてインストールされますので、スタンドアロンの仲介サーバーまたはプールを展開する場合にのみインストールします。
+- [「Skype for Business Server](deploy-a-mediation-server.md) のトポロジ ビルダーでの仲介サーバーの展開」の説明に従って仲介サーバーをインストールしますが、仲介サーバーは、フロントエンド プールまたは Standard Edition サーバーの展開プロセスの一部としてインストールされるので、スタンドアロンの仲介サーバーまたはプールを展開する場合にのみインストールします。
     
-- または、「デバイスでトランクを構成する」の説明に従って、エンタープライズ VoIP ユーザーの呼び出しをルーティングするための設定[の構成をSkype for Business Server。](configure-trunks.md)
+- または、「デバイスでトランクを構成する」の説明に従って、エンタープライズ VoIP ユーザーの通話をルーティングするための設定[の構成をSkype for Business Server](configure-trunks.md)。
     
 

@@ -1,25 +1,20 @@
 ---
 title: AudioStreamDetail ビュー
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b6a435b3-103c-41c4-96ed-33c3784534c0
 description: AudioStreamDetail ビューには、データベース内の各音声ストリームに関する情報が格納されています。 このビューは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: 2b75d803c75b0d936bf54e5b543ee39e18ee1896
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847020"
 ---
+
 # <a name="audiostreamdetail-view"></a>AudioStreamDetail ビュー
  
 AudioStreamDetail ビューには、データベース内の各音声ストリームに関する情報が格納されています。 このビューは、Microsoft Lync Server 2013 で導入されました。
@@ -31,7 +26,7 @@ AudioStreamDetail ビューには、データベース内の各音声ストリ�
 |StreamId  <br/> |int  <br/> |メディア ライン内の一意の ID。  <br/> |
 |StartTime  <br/> |日付型  <br/> |セッションの開始時刻。  <br/> |
 |EndTime  <br/> |日付型  <br/> |セッションの終了時刻。  <br/> |
-|DialogCategory  <br/> |ビット  <br/> |ダイアログ カテゴリ: 0 は仲介サーバーのSkype for Business Serverに使用されます。1 は仲介サーバーから PSTN ゲートウェイへのレッグです。  <br/> |
+|DialogCategory  <br/> |ビット  <br/> |ダイアログ カテゴリ: 0 は仲介Skype for Business Serverに使用するオプションです。1 は仲介サーバーから PSTN ゲートウェイへの移動です。  <br/> |
 |MediationServerBypassFlag  <br/> |ビット  <br/> |通話がバイパスされたかどうかを示すフラグ。  <br/> |
 |MediaBypassWarningFlag  <br/> |int  <br/> |存在する場合、バイパス ID が一致したのに通話がバイパスされなかった理由を示します。値は 1 つしか定義されていません。  <br/> 0x0001 - 既定のネットワーク アダプターの不明なバイパス ID。  <br/> |
 |CallPriority  <br/> |int  <br/> |通話の優先順位。  <br/> |
@@ -106,7 +101,7 @@ AudioStreamDetail ビューには、データベース内の各音声ストリ�
 |DegradationMax  <br/> |decimal(3,2)  <br/> |通話時のネットワーク MOS の最大低下。  <br/> |
 |DegradationJitterAvg  <br/> |decimal(3,2)  <br/> |ジッターに起因するネットワーク MOS の低下。  <br/> |
 |DegradationPacketLossAvg  <br/> |decimal(3,2)  <br/> |パケット損失に起因するネットワーク MOS の低下。  <br/> |
-|PayloadDescription  <br/> |int  <br/> |[PayloadDescription](payloaddescription.md)テーブルから参照される、呼び出しに使用されるオーディオ コーデック。  <br/> |
+|PayloadDescription  <br/> |int  <br/> |[PayloadDescription](payloaddescription.md) テーブルから参照される、呼び出しに使用されるオーディオ コーデック。  <br/> |
 |AudioSampleRate  <br/> |int  <br/> |音声ストリームのサンプリング レート。  <br/> |
 |CallerSendSignalLevel  <br/> |int  <br/> |発信者が送信した音声のアナログ後ゲイン制御のオーディオ信号レベル。この測定指標の単位は dBmo です。許容される品質は 30 dBmo 以上です。この測定指標は、音声ビデオ会議サーバーまたは IP 電話では報告されません。  <br/> |
 |CallerRecvSignalLevel  <br/> |int  <br/> |発信者が受信した音声のオーディオ信号レベル。この測定指標の単位は dBmo です。許容される品質は 30 dBmo 以上です。この測定指標は、音声ビデオ会議サーバーまたは IP 電話では報告されません。  <br/> |

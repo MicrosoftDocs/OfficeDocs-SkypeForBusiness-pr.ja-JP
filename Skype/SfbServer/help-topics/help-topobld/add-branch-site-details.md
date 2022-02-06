@@ -1,27 +1,22 @@
 ---
 title: ブランチ サイトの詳細を追加する
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddBranchSiteDetailsPage
+  - ms.lync.tb.AddBranchSiteDetailsPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 5eab6090-094e-4260-b501-61309f1cff67
 description: サイトのサイトの詳細を指定するには、次の手順を実行します。
-ms.openlocfilehash: f9c5c6e77082523672d788faa7d8c248a4322132
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842930"
 ---
+
 # <a name="add-branch-site-details"></a>ブランチ サイトの詳細の追加
 
 サイトのサイトの詳細を指定するには、次の手順を実行します。

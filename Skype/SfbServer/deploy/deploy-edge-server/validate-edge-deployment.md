@@ -1,27 +1,22 @@
 ---
 title: エッジの展開を検証Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 audience: ITPro
 manager: serdars
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- Strat_SB_Hybrid
-ms.custom: ''
+  - Strat_SB_Hybrid
+ms.custom: null
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
 description: '概要: エッジ サーバーまたはエッジ サーバー プールの展開が、エッジ サーバー プールで動作Skype for Business Server。'
-ms.openlocfilehash: b8a538d457c2f785d2bdff96dd379524c2df1a28
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841929"
 ---
+
 # <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>エッジの展開を検証Skype for Business Server
  
 **概要:** エッジ サーバーまたはエッジ サーバー プールの展開が、エッジ サーバー プールで動作Skype for Business Server。

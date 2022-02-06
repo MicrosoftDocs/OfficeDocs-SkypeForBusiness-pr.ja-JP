@@ -1,24 +1,19 @@
 ---
 title: '[フロントエンド サーバーの管理] Skype for Business Server'
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: '概要: フロントエンド サーバーを追加、削除、パッチ、または更新する方法についてSkype for Business Server。'
-ms.openlocfilehash: daa56be66a09d0969c193021aa3b847fc5972413
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837529"
 ---
+
 # <a name="manage-front-end-servers-in-skype-for-business-server"></a>[フロントエンド サーバーの管理] Skype for Business Server
  
 この記事では、フロントエンド サーバーを追加または削除する方法、およびフロントエンド サーバーにアップグレードまたはパッチを適用する方法について説明します。

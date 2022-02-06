@@ -1,42 +1,37 @@
 ---
 title: ドミニカでの可用性
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, fafan
+ms.reviewer: 'mikedav, jastark, oscarr, fafan'
 ms.topic: reference
 ms.assetid: 1eb066bc-394a-434e-87a2-61d257a7e77d
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- M365-collaboration
-- M365-voice
+  - M365-collaboration
+  - M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
-- Skype for Business
-- Microsoft Teams
+  - Skype for Business
+  - Microsoft Teams
 ms.localizationpriority: medium
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.custom:
-- Audio Conferencing
-- Phone System
-- Calling Plans
-description: ここでは、ドミニカでMicrosoft 365とOffice 365のSkype for BusinessとMicrosoft Teamsサービスを示します。
-ms.openlocfilehash: fa26187e076544a2d5913b40491a331cc79d72f1
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62191028"
+  - Audio Conferencing
+  - Phone System
+  - Calling Plans
+description: ここでは、ドミニカMicrosoft 365およびOffice 365のSkype for BusinessサービスMicrosoft Teamsを示します。
 ---
+
 # <a name="availability-in-dominica"></a>ドミニカでの可用性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ここでは、ドミニカでMicrosoft 365とOffice 365のSkype for BusinessとMicrosoft Teamsサービスを示します。
+ここでは、ドミニカMicrosoft 365およびOffice 365のSkype for BusinessサービスMicrosoft Teamsを示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -84,7 +79,7 @@ ms.locfileid: "62191028"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

@@ -1,23 +1,18 @@
 ---
 title: サービスを管理Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: サービスの状態を表示し、サービスを開始および停止し、サービスのセッションを防止する方法について学習します。
-ms.openlocfilehash: cc5218f5347eb2124f42b8881bce730c74889bda
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864734"
 ---
+
 # <a name="manage-services-in-skype-for-business-server"></a>サービスを管理Skype for Business Server
 
 Skype for Business Server コントロール パネルを使用して、トポロジで Skype for Business Server を実行しているすべてのコンピューターの一覧を表示したり、サービスの状態を表示したり、サービスを開始または停止したり、サービスのセッションを防止することができます。
@@ -31,8 +26,8 @@ Skype for Business Server コントロール パネルを使用して、トポ�
 
 トポロジ内Skype for Business Server実行しているすべてのコンピューターの一覧を表示し、Skype for Businessのサービス状態を確認するには、Skype for Business Server コントロール パネルを使用します。 この一覧は、コンピューター、プール、またはサイトごとに並べ替えることができます。 
 
-1. サーバーの定義済みの管理役割に割り当てられているユーザー アカウントSkype for Business Server、内部展開内の任意のコンピューターにログオンします。 詳細については、「役割ベースのアクセス制御[(RBAC) for Skype for Business Server」 を参照してください](../../plan-your-deployment/security/role-based-access-control-rbac.md)。
-2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 コントロール パネルの起動に使用できるさまざまな方法の詳細については、「管理ツールSkype for Business Server開く」[を参照してください](../../management-tools/install-and-open-administrative-tools.md)。
+1. サーバーの定義済みの管理役割に割り当てられているユーザー アカウントSkype for Business Server、内部展開内の任意のコンピューターにログオンします。 詳細については、「役割ベースの[アクセス制御 (RBAC) for Skype for Business Server](../../plan-your-deployment/security/role-based-access-control-rbac.md)。
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 コントロール パネルの起動に使用できるさまざまな方法の詳細については、「Skype for Business Server管理ツールをインストールして開く」[を参照してください](../../management-tools/install-and-open-administrative-tools.md)。
 3. 左側のナビゲーション バーで [**トポロジ**] をクリックし、[**状態**] をクリックします。
 4. [状態] ページで、必要に応じて次のいずれかを実行します。
     - [**コンピューター**]、[**プール**]、または [**サイト**] 列の見出しをクリックし、上矢印または下矢印をクリックして、一覧を並べ変えます。
@@ -44,7 +39,7 @@ Skype for Business Server コントロール パネルを使用して、トポ�
 [Skype for Business Server コントロール パネルを使用して、Skype for Business Server トポロジ内の特定のコンピューターで実行しているすべてのサービスを表示し、各サービスの状態を確認します。
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
-2. ブラウザー ウィンドウを開き、管理 URL を入力してコントロール パネルを開きます。 コントロール パネルの起動に使用できるさまざまな方法の詳細については、「管理ツールSkype for Business Server開く」[を参照してください](../../management-tools/install-and-open-administrative-tools.md)。
+2. ブラウザー ウィンドウを開き、管理 URL を入力してコントロール パネルを開きます。 コントロール パネルの起動に使用できるさまざまな方法の詳細については、「Skype for Business Server管理ツールをインストールして開く」[を参照してください](../../management-tools/install-and-open-administrative-tools.md)。
 3. 左側のナビゲーション バーで [**トポロジ**] をクリックします。
 4. [状態] ページで、必要に応じてリストを並べ替えまたは検索して対象のコンピューターを見つけ、そのコンピューター名をクリックします。
 5. 次のいずれかの操作を行います。
@@ -53,7 +48,7 @@ Skype for Business Server コントロール パネルを使用して、トポ�
 
 ### <a name="viewing-service-status-by-using-windows-powershell-cmdlets"></a>コマンドレットを使用してサービスの状態Windows PowerShellする
 
-また、サービスの状態を表示するには、Windows PowerShellコマンドレットをGet-CsWindowsServiceします。 このコマンドレットは、Skype for Business Server 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 詳細については、「管理シェル[のSkype for Business Serverを参照してください](../management-shell.md)。
+また、サービスの状態を表示するには、Windows PowerShellコマンドレットをGet-CsWindowsServiceします。 このコマンドレットは、Skype for Business Server 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 詳細については、「管理シェル[Skype for Business Server参照してください](../management-shell.md)。
 
 **サービス状態を表示するには**
 
@@ -77,7 +72,7 @@ RoleName                                  Status
 {MediationServer}                         Running
 ```
 
-詳細については [、「Get-CsWindowsService」を参照してください](/powershell/module/skype/get-cswindowsservice)。
+詳細については、「 [Get-CsWindowsService」を参照してください](/powershell/module/skype/get-cswindowsservice)。
 
 ## <a name="start-or-stop-skype-for-business-services"></a>サービスの開始Skype for Business停止する
 
@@ -91,7 +86,7 @@ RoleName                                  Status
     Get-CsAdminRoleAssignment -Identity "kenmyer"`
     ```
 
-2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 コントロール パネルの起動に使用できるさまざまな方法の詳細については、「管理ツールSkype for Business Server開く」[を参照してください](../../management-tools/install-and-open-administrative-tools.md)。
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 コントロール パネルの起動に使用できるさまざまな方法の詳細については、「Skype for Business Server管理ツールをインストールして開く」[を参照してください](../../management-tools/install-and-open-administrative-tools.md)。
 3. 左側のナビゲーション バーで [**トポロジ**] をクリックし、[**状態**] をクリックします。
 4. [状態] ページで、必要に応じてリストを並べ替えるかまたは検索して、開始または停止するサービスを実行しているコンピューターを見つけ、クリックします。
 5. [**アクション**] をクリックします。
@@ -100,7 +95,7 @@ RoleName                                  Status
 ### <a name="start-or-stop-a-specific-service"></a>特定のサービスを開始または停止する
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
-2. ブラウザー ウィンドウを開き、管理 URL を入力してコントロール パネルを開きます。 コントロール パネルの起動に使用できるさまざまな方法の詳細については、「管理ツールSkype for Business Server開く」[を参照してください](../../management-tools/install-and-open-administrative-tools.md)。
+2. ブラウザー ウィンドウを開き、管理 URL を入力してコントロール パネルを開きます。 コントロール パネルの起動に使用できるさまざまな方法の詳細については、「Skype for Business Server管理ツールをインストールして開く」[を参照してください](../../management-tools/install-and-open-administrative-tools.md)。
 3. 左側のナビゲーション バーで [**トポロジ**] をクリックし、[**状態**] をクリックします。
 4. [状態] ページで、必要に応じて一覧を並べ替えるかまたは検索して、開始または停止するサービスを実行しているコンピューターを確認してクリックします。
 5. [**プロパティ**] をクリックします。
@@ -117,7 +112,7 @@ RoleName                                  Status
 ### <a name="prevent-new-sessions-for-all--skype-for-business-server-services-on-a-computer"></a>コンピューター上のすべてのサービスSkype for Business Serverセッションを防止する
 
 1. RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウント、または CsServerAdministrator または CsAdministrator 役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。
-2. ブラウザー ウィンドウを開き、管理 URL を入力してコントロール パネルを開きます。 コントロール パネルの起動に使用できるさまざまな方法の詳細については、「管理ツールSkype for Business Server開く」[を参照してください](../../management-tools/install-and-open-administrative-tools.md)。
+2. ブラウザー ウィンドウを開き、管理 URL を入力してコントロール パネルを開きます。 コントロール パネルの起動に使用できるさまざまな方法の詳細については、「Skype for Business Server管理ツールをインストールして開く」[を参照してください](../../management-tools/install-and-open-administrative-tools.md)。
 3. 左側のナビゲーション バーで [**トポロジ**] をクリックし、[**状態**] をクリックします。
 4. [状態] ページで、必要に応じて一覧を並べ替えまたは検索して、新しいセッションを防止するサービスを実行しているコンピューターを検索し、それをクリックします。
 5. [**アクション**] をクリックします。
@@ -126,7 +121,7 @@ RoleName                                  Status
 ### <a name="prevent-new-sessions-for-a-specific-service"></a>特定のサービスの新しいセッションを防止する
 
 1. RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウント、または CsServerAdministrator または CsAdministrator 役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。
-2. ブラウザー ウィンドウを開き、管理 URL を入力してコントロール パネルを開きます。 コントロール パネルの起動に使用できるさまざまな方法の詳細については、「管理ツールSkype for Business Server開く」[を参照してください](../../management-tools/install-and-open-administrative-tools.md)。
+2. ブラウザー ウィンドウを開き、管理 URL を入力してコントロール パネルを開きます。 コントロール パネルの起動に使用できるさまざまな方法の詳細については、「Skype for Business Server管理ツールをインストールして開く」[を参照してください](../../management-tools/install-and-open-administrative-tools.md)。
 3. 左側のナビゲーション バーで [**トポロジ**] をクリックし、[**状態**] をクリックします。
 4. **[プロパティ]** をクリックします。
 5. 必要に応じてサービスの一覧を並べ替え、新しいセッションを防止するサービスをクリックします。

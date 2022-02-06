@@ -1,37 +1,32 @@
 ---
 title: 常設チャット データベース スキーマ
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
 description: このドキュメントでは、常設チャット データベースのスキーマをドキュメント化Skype for Business Server。
-ms.openlocfilehash: 862adace22d04e93b226545247a5d2bd8a89d9cc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858154"
 ---
+
 # <a name="persistent-chat-database-schema"></a>常設チャット データベース スキーマ
  
 このドキュメントでは、常設チャット データベースのスキーマをドキュメント化Skype for Business Server。
   
-常設チャット データベースは、Skype for Business Server Back End Server の役割 **PersistentChatStore** (mgc データベースに対応) と **PersistentChatComplianceStore** (mgccomp データベースに対応) に対応するデータベースを参照します。 このスキーマを公開する目的は、クエリを作成し、チャットの使用状況、アクティブなルーム、上位のポスターなどに関する有用なレポートの作成について理解できるようにすることです。
+常設チャット データベースは、Skype for Business Server Back **End Server の役割 PersistentChatStore** (mgc データベースに対応) および **PersistentChatComplianceStore** (mgccomp データベースに対応) に対応するデータベースを参照します。 このスキーマを公開する目的は、クエリを作成し、チャットの使用状況、アクティブなルーム、上位のポスターなどに関する有用なレポートの作成について理解できるようにすることです。
   
 > [!IMPORTANT]
 > Microsoft はこのスキーマを進化させる権利があります。Microsoft では、公開されたこのスキーマとの完全な下位互換性を維持することは一切保証していません。 
   
 次のベスト プラクティスに従ってください。
   
-- 列一 \* 覧が拡大する可能性があるため、SELECT // はサポートされていません。
+- 列一覧\* が拡大する可能性があるため、SELECT // はサポートされていません。
     
 - ユーザーが生成したスキーマの変更はサポートされません。
     

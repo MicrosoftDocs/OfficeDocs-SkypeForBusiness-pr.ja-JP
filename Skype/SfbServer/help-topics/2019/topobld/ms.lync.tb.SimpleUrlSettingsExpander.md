@@ -1,27 +1,22 @@
 ---
 title: 簡易 URL 設定エキスパンダー
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.SimpleUrlSettingsExpander
+  - ms.lync.tb.SimpleUrlSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 新しい URL を指定したり、既存の URL を削除したり、アクティブな URL を変更したりするには、次の操作を実行します。
-ms.openlocfilehash: f64dc15f859309556b90d6012f6cd482e8b22ff5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847860"
 ---
+
 # <a name="simple-url-settings-expander"></a>簡易 URL 設定エキスパンダー
 
 新しい URL を指定したり、既存の URL を削除したり、アクティブな URL を変更したりするには、次の操作を実行します。
@@ -30,9 +25,9 @@ ms.locfileid: "60847860"
 
 単純な URL を変更または定義するには、まず、編集または変更する 3 つの単純な URL のどちらを決定します。 [電話アクセスの URL]、[ミーティング URL]、および [管理アクセスの URL] から選択できます。
 
-[電話アクセスの URL] または [ミーティング URL] を変更するには、変更が必要な URL を選択します。 **[URL の編集]** をクリックします。 URL を編集し **、[OK] をクリック** して URL を保存します。 変更をすべて破棄する場合は、[**キャンセル**] をクリックします。
+[電話アクセスの URL] または [ミーティング URL] を変更するには、変更が必要な URL を選択します。 **[URL の編集]** をクリックします。 URL を編集し、[ **OK] をクリック** して URL を保存します。 変更をすべて破棄する場合は、[**キャンセル**] をクリックします。
 
-新しい URL を追加するには、**[追加]** をクリックします。 [簡易 **URL の追加] ダイアログで、URL** を指定し **、[OK]** をクリックして URL を保存します。 新しい URL をアクティブな URL として設定する必要がある場合は、**[これを選択したドメインのアクティブな URL にする]** を選択します。 変更をすべて破棄する場合は、[**キャンセル**] をクリックします。
+新しい URL を追加するには、**[追加]** をクリックします。 [簡易 **URL の追加] ダイアログで、** URL を指定し、[ **OK** ] をクリックして URL を保存します。 新しい URL をアクティブな URL として設定する必要がある場合は、**[これを選択したドメインのアクティブな URL にする]** を選択します。 変更をすべて破棄する場合は、[**キャンセル**] をクリックします。
 
 別の URL をアクティブな URL (URL の横の緑色のチェック マークで示されている) にする場合は、URL を選択し、[アクティブにする] **をクリックします**。
 

@@ -1,24 +1,19 @@
 ---
 title: 会議ポリシーを表示Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c1c0976e-2bfb-475b-9255-ed6b093d8798
 description: '概要: 会議ポリシーを表示する方法について説明します。Skype for Business Server。'
-ms.openlocfilehash: 7a7768aaef91fde0914c2f1e693bdcca6a6a74b7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836439"
 ---
+
 # <a name="view-conferencing-policies-in-skype-for-business-server"></a>会議ポリシーを表示Skype for Business Server
  
 **概要:** 会議ポリシーを表示する方法については、Skype for Business Server。
@@ -31,19 +26,19 @@ ms.locfileid: "60836439"
     
 2.  [コントロール Skype for Business Server] を開きます。
     
-3. 左側のナビゲーション バーで、[会議] **をクリック** し、[会議ポリシー] **をクリックします**。
+3. 左側のナビゲーション バーで、[会議] **をクリック** し、[会議ポリシー **] をクリックします**。
     
 4. [**会議ポリシー**] ページで、表示する会議ポリシーをダブルクリックします。
     
 5. [ **ファイル フィルターの編集] で**、[詳細の **表示] チェック ボックス** をオンにします。
     
-    **会議ポリシーの編集 \<policy\> -** が開き、選択したポリシーの設定が表示されます。
+    **会議ポリシーの編集 - \<policy\>** が開き、選択したポリシーの設定が表示されます。
     
-    設定の構成の詳細については、「会議ポリシーを作成[する」を参照Skype for Business Server。](create-policies.md)
+    設定の構成の詳細については、「会議ポリシーを作成する」を参照[Skype for Business Server](create-policies.md)。
     
 ## <a name="view-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>管理シェルを使用して会議ポリシー Skype for Business Server表示する
 
-会議ポリシーを表示するには **、Get-CsConferencingPolicy コマンドレットを使用** します。
+会議ポリシーを表示するには、 **Get-CsConferencingPolicy コマンドレットを使用** します。
   
 ```PowerShell
 Get-CsConferencingPolicy
@@ -88,4 +83,4 @@ TotalReceiveVideoBitRateKb                : 6000
 EnableMultiViewJoin                       : True
 </pre>
 
-完全な構文の説明とパラメーターの一覧を含む詳細については [、「Get-CsConferencingPolicy」を参照してください](/powershell/module/skype/get-csconferencingpolicy?view=skype-ps)。
+完全な構文の説明とパラメーターの一覧を含む詳細については、「 [Get-CsConferencingPolicy」を参照してください](/powershell/module/skype/get-csconferencingpolicy?view=skype-ps)。

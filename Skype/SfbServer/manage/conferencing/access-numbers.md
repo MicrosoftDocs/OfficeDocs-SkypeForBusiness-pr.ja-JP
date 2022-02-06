@@ -1,31 +1,26 @@
 ---
 title: 'ダイヤルイン会議のアクセス番号を管理Skype for Business Server '
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
 description: '概要: ダイヤルイン会議アクセス番号を管理する方法については、Skype for Business Server。'
-ms.openlocfilehash: 9bfa4b905ee77b6e5697cf09b2ef89566d875297
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835385"
 ---
+
 # <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>ダイヤルイン会議のアクセス番号を管理Skype for Business Server
  
 **概要:** ダイヤルイン会議アクセス番号を管理する方法については、Skype for Business Server。
   
 ダイヤルイン会議を展開するときには、ユーザーが公衆交換電話網 (PSTN) からダイヤルして電話会議のオーディオ部分に参加するための電話番号を設定する必要があります。 それらのダイヤルイン アクセス番号は、ミーティングの招待状と [ダイヤルイン会議の設定] Web ページに表示されます。 
   
-このトピックでは、既存のダイヤルイン会議アクセス番号を表示、変更、または削除する方法について説明します。 初期ダイヤルイン アクセス番号を作成する方法の詳細については[、「Configure dial-in conferencing in Skype for Business Server」 を参照してください](../../deploy/deploy-conferencing/dial-in-conferencing.md)。
+このトピックでは、既存のダイヤルイン会議アクセス番号を表示、変更、または削除する方法について説明します。 初期ダイヤルイン アクセス番号を作成する方法の詳細については、「[Configure dial-in conferencing in Skype for Business Server」 を参照してください](../../deploy/deploy-conferencing/dial-in-conferencing.md)。
   
 ## <a name="view-dial-in-conferencing-access-numbers"></a>ダイヤルイン会議アクセス番号の表示
 
@@ -45,7 +40,7 @@ ms.locfileid: "60835385"
     
 ### <a name="view-dial-in-access-numbers-by-using-skype-for-business-server-management-shell"></a>管理シェルを使用してダイヤルイン アクセス番号Skype for Business Server表示する
 
-ダイヤルイン アクセス番号に関する情報を表示するには **、Get-CsDialInConferencingAccessNumber コマンドレットを使用** します。
+ダイヤルイン アクセス番号に関する情報を表示するには、 **Get-CsDialInConferencingAccessNumber コマンドレットを使用** します。
   
 次のコマンドは、組織内で使用するように構成されたダイヤルイン会議アクセス番号のコレクションを返します。 
   
@@ -70,7 +65,7 @@ HostingProvider    :
 Regions            : {US}
 </pre>
 
-詳細については [、「Get-CsDialInConferencingAccessNumber」を参照してください](/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)。
+詳細については、「 [Get-CsDialInConferencingAccessNumber」を参照してください](/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)。
   
 ## <a name="modify-dial-in-conferencing-access-numbers"></a>ダイヤルイン会議アクセス番号の変更
 
@@ -84,7 +79,7 @@ Regions            : {US}
     
 3. 左側のナビゲーション バーで [**会議**] をクリックし、[**ダイヤルイン アクセス番号**] をクリックします。
     
-4. [ダイヤル **イン アクセス** 番号] ページで、リスト内のダイヤルイン アクセス番号のいずれかをクリックし、[編集] をクリックし、[詳細の表示]**をクリックします**。
+4. [ダイヤル **イン アクセス** 番号] ページで、一覧のダイヤルイン アクセス番号のいずれかをクリックし、[編集] をクリックし、[詳細の表示] **をクリックします**。
     
     > [!NOTE]
     > 検索フィールドを使用して、ダイヤルイン アクセス番号の一覧にある列の内容を検索すると、期待した結果が得られるとは思いません。 代わりに、リストを関心のある列で並べ替え、表示または変更するダイヤルイン アクセス番号を識別します。 
@@ -114,17 +109,17 @@ Regions            : {US}
 9. [**プール]** で、このダイヤルイン アクセス番号をサポートする会議アテンダントインスタンスを実行しているプールをクリックします。
     
     > [!NOTE]
-    > アクセス番号の作成後にプールを変更する必要がある場合は **、Move-CsApplicationEndpoint** コマンドレットを使用するか、アクセス番号を削除して再作成する必要があります。
+    > アクセス番号の作成後にプールを変更する必要がある場合は、 **Move-CsApplicationEndpoint** コマンドレットを使用するか、アクセス番号を削除して再作成する必要があります。
   
-10. [ **プライマリ言語]** で、このダイヤルイン アクセス番号のプロンプトを再生する言語をクリックします。 
+10. [ **プライマリ言語]** で、このダイヤルイン アクセス番号のプロンプトが再生される言語をクリックします。 
     
     プライマリ言語は、ユーザーが通話に応答会議アテンダント使用する言語です。 サポートされている言語は、ダイヤルイン会議 web ページの各アクセス電話番号設定されます。
     
-11. (省略可能)[セカンダリ言語 (最大 **4 言語)]** で、[追加] をクリックし、このダイヤルイン アクセス番号の発信者をサポートする 1 つ以上の追加言語を選択し **、[OK]** をクリックします。  
+11. (省略可能)[セカンダリ言語 (最大 4 言語 **)]** で、[追加] をクリックし、このダイヤルイン アクセス番号の発信者をサポートする 1 つ以上の追加言語を選択し、[**OK**] をクリックします。 
     
     ダイヤルイン アクセス番号ごとに最大 4 つのセカンダリ言語を選択できます。 ユーザーは、会議にダイヤルインするときに会議 ID を入力する前に、第 2 言語を選択できます。
     
-12. ダイヤルイン アクセス番号の地域を追加するには、[関連付けられた地域] で、[追加] をクリックし、このダイヤルイン アクセス番号のダイヤル プランに関連付けられている 1 つ以上の地域をクリックし **、[OK]** をクリックします。
+12. ダイヤルイン アクセス番号の地域を追加するには、[関連付けられた地域] で、[追加] をクリックし、このダイヤルイン アクセス番号のダイヤル プランに関連付けられている 1 つ以上の地域をクリックし、[**OK**] をクリックします。
     
 13. ダイヤルイン アクセス番号から地域を削除するには、[関連付けられた地域] で、削除する地域をクリックし、[削除] をクリック **します**。
     
@@ -132,7 +127,7 @@ Regions            : {US}
     
 ### <a name="modify-dial-in-access-numbers-by-using-skype-for-business-server-management-shell"></a>管理シェルを使用してダイヤルイン アクセスSkype for Business Server変更する
 
-ダイヤルイン アクセス番号を変更するには **、Set-CsDialInConferencingAccessNumber コマンドレットを使用** します。
+ダイヤルイン アクセス番号を変更するには、 **Set-CsDialInConferencingAccessNumber コマンドレットを使用** します。
   
 次のコマンドは、Id を使用してダイヤルイン会議アクセス番号の DisplayName プロパティを変更 sip:RedmondDialIn@litwareinc.com。 この例では、表示名は "Redmond Dial-In Access Number" に設定されています。
   
@@ -146,7 +141,7 @@ Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com
 Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com" -Regions "Redmond", "Seattle"
 ```
 
-詳細については [、「Set-CsDialInConferencingAccessNumber」を参照してください](/powershell/module/skype/set-csdialinconferencingaccessnumber?view=skype-ps)。
+詳細については、「 [Set-CsDialInConferencingAccessNumber」を参照してください](/powershell/module/skype/set-csdialinconferencingaccessnumber?view=skype-ps)。
   
 ## <a name="delete-a-dial-in-conferencing-access-number"></a>ダイヤルイン会議アクセス番号の削除
 
@@ -166,7 +161,7 @@ Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com
     
 ### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-management-shell"></a>管理シェルを使用してダイヤルイン会議アクセス番号をSkype for Business Serverする
 
-ダイヤルイン会議アクセス番号を削除するには **、Remove-CsDialInConferencingAccessNumber を使用します**。
+ダイヤルイン会議アクセス番号を削除するには、 **Remove-CsDialInConferencingAccessNumber を使用します**。
   
 次のコマンドは、Id を使用してダイヤルイン会議アクセス番号を削除 sip:RedmondDialInAccess@litwareinc.com。
   
@@ -186,4 +181,4 @@ Get-CsDialInConferencingAccessNumber -Region "Northwest" | Remove-CsDialInConfer
 Get-CsDialInConferencingAccessNumber | Where-Object {$_.PrimaryLanguage -eq "it-IT"} | Remove-CsDialInConferencingAccessNumber
 ```
 
-詳細については [、「Remove-CsDialInConferencingAccessNumber」を参照してください](/powershell/module/skype/remove-csdialinconferencingaccessnumber?view=skype-ps)。
+詳細については、「 [Remove-CsDialInConferencingAccessNumber」を参照してください](/powershell/module/skype/remove-csdialinconferencingaccessnumber?view=skype-ps)。

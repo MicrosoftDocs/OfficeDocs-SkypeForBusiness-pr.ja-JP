@@ -1,28 +1,23 @@
 ---
 title: SIP トランキング (Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
 description: SIP トランキングの詳細については、Skype for Business Server エンタープライズ VoIP
-ms.openlocfilehash: 6278526a83e5af4b0020c9dbb822eabad7053426
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841019"
 ---
+
 # <a name="sip-trunking-in-skype-for-business-server"></a>SIP トランキング (Skype for Business Server
 
 SIP トランキングの詳細については、Skype for Business Server エンタープライズ VoIP
@@ -51,7 +46,7 @@ SIP トランクは直接サービス プロバイダーに接続されるため
 
 ### <a name="expanded-voip-services"></a>VoIP サービスの拡張
 
-多くの場合、音声機能が SIP トランキングを展開する主な動機ではありますが、音声サポートは最初のステップにすぎません。 SIP トランキングを使用すると、VoIP 機能を拡張し、Skype for Business Serverサービスのセットを提供できます。 例:
+多くの場合、音声機能が SIP トランキングを展開する主な動機ではありますが、音声サポートは最初のステップにすぎません。 SIP トランキングを使用すると、VoIP 機能を拡張し、Skype for Business Serverサービスのセットを提供できます。 次に例を示します。
 
 - モバイル デバイスを実行していないデバイスのプレゼンス検出が強化Skype for Business Server携帯電話との統合が強化され、ユーザーが携帯電話の通話中を確認できます。
 
@@ -64,7 +59,7 @@ SIP トランクは直接サービス プロバイダーに接続されるため
 
 トランクという用語は、回線切り替えテクノロジから派生します。 電話交換機器を接続する専用の物理回線を指します。 前身のタイム ディビジョン 多重化 (TDM) トランクと同様に、SIP トランクは 2 つの独立した SIP ネットワーク (Skype for Business Serverエンタープライズと ITSP の間の接続です。 回線交換トランクとは異なり、SIP トランクは仮想接続で、サポートされている SIP トランキング接続の種類に対して確立できます。
 
-これに対し、直接 SIP 接続は、ローカル ネットワークの境界を越えない SIP 接続です (つまり、内部ネットワーク内の公衆交換電話網 (PSTN) ゲートウェイまたは構内交換機 (PBX) に接続します)。 直接 SIP 接続を使用する方法の詳細については、「Skype for Business Server の直接 SIP 接続」[を参照Skype for Business Server。](direct-sip.md)
+これに対し、直接 SIP 接続は、ローカル ネットワークの境界を越えない SIP 接続です (つまり、内部ネットワーク内の公衆交換電話網 (PSTN) ゲートウェイまたは構内交換機 (PBX) に接続します)。 直接 SIP 接続を使用する方法の詳細については、「Skype for Business Serverの[直接 SIP 接続」を参照](direct-sip.md)Skype for Business Server。
 
 ## <a name="how-do-i-implement-sip-trunking"></a>SIP トランキングを実装する方法
 
@@ -72,7 +67,7 @@ SIP トランキングを実装するには、仲介サーバーを介して接�
 
 各仲介サーバーには、内部ネットワーク インターフェイスと外部ネットワーク インターフェイスがあります。 内部インターフェイスはフロントエンド サーバーに接続します。 外部インターフェイスは、従来、仲介サーバーを公衆交換電話網 (PSTN) ゲートウェイまたは IP-PBX に接続するために使用されたゲートウェイ インターフェイスと呼ばれる。 SIP トランクを実装するには、仲介サーバーの外部インターフェイスを ITSP の外部エッジ コンポーネントに接続します。 ITSP の外部エッジ コンポーネントとは、セッション ボーダー コントローラー (SBC)、ルーター、またはゲートウェイです。
 
-仲介サーバーの詳細については、「仲介[サーバー コンポーネント」を参照Skype for Business Server。](mediation-server.md)
+仲介サーバーの詳細については、「仲介[サーバー コンポーネント」を参照Skype for Business Server](mediation-server.md)。
 
 ### <a name="centralized-vs-distributed-sip-trunking"></a>集中型と分散型 SIP トランキングの比較
 
@@ -97,7 +92,7 @@ SIP トランキングを実装するには、仲介サーバーを介して接�
 集中型 SIP トランキングと分散型 SIP トランキングのどちらを展開するかを決定するには、費用便益分析が必要です。 必要のない場合にも分散型展開モデルを選択したほうが有益な場合があります。 完全な集中型展開では、すべてのブランチ サイトのトラフィックが WAN リンク経由でルーティングされます。 WAN リンクに必要な帯域幅に費用をかけるより、分散型 SIP トランキングを使用したい場合があります。 たとえば、Standard Edition サーバーを中央サイトにフェデレーションのあるブランチ サイトに展開したり、存続可能ブランチ アプライアンスまたは小さなゲートウェイを持つ存続可能ブランチ サーバーを展開することができます。
 
 > [!NOTE]
-> 分散 SIP トランキングの詳細については、「[ブランチ サイトの SIP トランキング」を参照Skype for Business Server。](branch-site.md)
+> 分散 SIP トランキングの詳細については、「[ブランチ サイトの SIP ト](branch-site.md)ランキング」を参照Skype for Business Server。
 
 ### <a name="supported-sip-trunking-connection-types"></a>サポートされている SIP トランキング接続の種類
 
@@ -138,7 +133,7 @@ Skype for Business Serverは、次のコーデックのみをサポートしま�
 
 ### <a name="internet-telephony-service-provider"></a>インターネット テレフォニー サービス プロバイダー
 
-SIP トランク接続のサービス プロバイダー側の実装方法は、ITSP 間で異なります。 展開の情報については、サービス プロバイダーにお問い合わせください。 認定 SIP トランキング サービス プロバイダーの一覧については [、「Microsoft Unified Communications Open Interoperability Program web サイト」を参照してください](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)。
+SIP トランク接続のサービス プロバイダー側の実装方法は、ITSP 間で異なります。 展開の情報については、サービス プロバイダーにお問い合わせください。 認定 SIP トランキング サービス プロバイダーの一覧については、「 [Microsoft Unified Communications Open Interoperability Program web サイト」を参照してください](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)。
 
 Microsoft 認定 SIP トランキング プロバイダーの詳細については、Microsoft 担当者に問い合わせてください。
 

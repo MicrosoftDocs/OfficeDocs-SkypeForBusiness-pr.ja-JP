@@ -1,35 +1,30 @@
 ---
 title: MN トランク (Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: dc4c5d66-297c-48a5-91b9-b9b8ce44a6e0
-description: Skype for Business Server エンタープライズ VoIP仲介サーバーと PSTN ゲートウェイ、セッション ボーダー コントローラー、IP-PBX などのコンポーネント間の M:N トランキングをサポートします。
-ms.openlocfilehash: a9d73b02a5d9135b5f3305f6f5e0b484df81ee23
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855304"
+description: 'Skype for Business Server エンタープライズ VoIP仲介サーバーと PSTN ゲートウェイ、セッション ボーダー コントローラー、IP-PBX などのコンポーネント間の M:N トランキングをサポートします。'
 ---
+
 # <a name="mn-trunk-in-skype-for-business-server"></a>M:N トランク (Skype for Business Server
  
 Skype for Business Server エンタープライズ VoIP仲介サーバーと PSTN ゲートウェイ、セッション ボーダー コントローラー、IP-PBX などのコンポーネント間の M:N トランキングをサポートします。
   
 Skype for Business Serverは、以前のリリースからの通話ルーティングの目的でトランクの定義の柔軟性を高くサポートします。 トランクは、仲介サーバーとリッスン ポート番号とゲートウェイとリスニング ポート番号との間の論理的な関連付けです。 これは、いくつかのことを意味します。仲介サーバーは、同じゲートウェイに複数のトランクを持つ可能性があります。仲介サーバーは、異なるゲートウェイに対して複数のトランクを持つ場合があります。逆に、ゲートウェイは異なる仲介サーバーに対して複数のトランクを持つ可能性があります。
   
-トポロジ ビルダーを使用してトポロジへのゲートウェイを追加する場合は常に、ルート トランクを作成する必要があります。 特定の仲介サーバーが処理できるゲートウェイの数は、ピーク時のサーバーの処理能力によって異なります。 [Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)のサーバー要件で説明したように、Skype for Business Server の最小ハードウェア要件を超えるハードウェアに仲介サーバーを展開する場合、スタンドアロン仲介サーバーが処理できるアクティブな非バイパス呼び出しの数の見積もりは、約 1000 回です。 これらの仕様に合ったハードウェアに展開すると、仲介サーバーはトランスコーディングを実行する必要がありますが、ゲートウェイがメディア バイパスをサポートしていない場合でも、複数のゲートウェイの呼び出しをルーティングします。
+トポロジ ビルダーを使用してトポロジへのゲートウェイを追加する場合は常に、ルート トランクを作成する必要があります。 特定の仲介サーバーが処理できるゲートウェイの数は、ピーク時のサーバーの処理能力によって異なります。 [Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) のサーバー要件で説明したように、Skype for Business Server の最小ハードウェア要件を超えるハードウェアに仲介サーバーを展開する場合、スタンドアロン仲介サーバーが処理できるアクティブな非バイパス呼び出しの数の見積もりは、約 1000 回です。 これらの仕様に合ったハードウェアに展開すると、仲介サーバーはトランスコーディングを実行する必要がありますが、ゲートウェイがメディア バイパスをサポートしていない場合でも、複数のゲートウェイの呼び出しをルーティングします。
   
 通話ルートを定義する場合は、そのルートに関連付けられているトランクを指定しますが、そのルートに関連付けられている仲介サーバーは指定しません。 代わりに、トポロジ ビルダーを使用してトランクを仲介サーバーに関連付ける。 つまり、ルーティングは通話に使用するトランクを決定し、その後、そのトランクに関連付けられた仲介サーバーはその呼び出しのシグナリングを送信します。
   

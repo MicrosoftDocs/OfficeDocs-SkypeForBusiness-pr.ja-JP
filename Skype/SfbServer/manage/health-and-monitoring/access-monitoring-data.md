@@ -1,24 +1,19 @@
 ---
 title: ネットワーク内の監視データにSkype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 845385ca-5532-4fa2-91b9-51c6de6fec91
 description: '概要: サーバーで使用される監視データについてSkype for Business Server。'
-ms.openlocfilehash: 49adf9caca82f97b0483743f65c7dea7b0f72a01
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852071"
 ---
+
 # <a name="access-monitoring-data-in-skype-for-business-server"></a>ネットワーク内の監視データにSkype for Business Server
  
 **概要:** ネットワークで使用される監視データについてSkype for Business Server。
@@ -29,6 +24,6 @@ ms.locfileid: "60852071"
   
 説明したように、監視レポートには SQL Server Reporting Service を使用する必要があります。SQL Server Reporting Service は、SQL Server のインストールと同時に、または SQL Server 自体をインストールした後でいつでも、インストールできます。
   
-詳細については、「監視レポートのインストール[」を参照Skype for Business Server。](../../deploy/deploy-monitoring/install-monitoring-reports.md)
+詳細については、「監視レポートのインストール[」を参照Skype for Business Server](../../deploy/deploy-monitoring/install-monitoring-reports.md)。
   
 

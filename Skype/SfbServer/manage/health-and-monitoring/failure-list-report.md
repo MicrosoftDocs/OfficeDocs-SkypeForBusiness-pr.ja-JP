@@ -1,24 +1,19 @@
 ---
 title: エラー リスト レポート (Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
 description: '概要: エラー リスト レポートの詳細については、「エラー リスト レポート」をSkype for Business Server。'
-ms.openlocfilehash: 37442d95c3a79bffbd79ebd74a793f5d3e1f3fb4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858294"
 ---
+
 # <a name="failure-list-report-in-skype-for-business-server"></a>エラー リスト レポート (Skype for Business Server 
  
 **概要:** 詳細については、「エラー リスト レポート」を参照Skype for Business Server。
@@ -27,7 +22,7 @@ ms.locfileid: "60858294"
   
 ## <a name="accessing-the-failure-list-report"></a>エラー リスト レポートへのアクセス
 
-エラー 一覧レポートにアクセスするには、次の [エラーの分布レポート] で次の指標[をクリックSkype for Business Server。](failure-distribution-report.md)
+エラー 一覧レポートにアクセスするには、次のエラー分布レポートの次の指標[をクリックSkype for Business Server](failure-distribution-report.md)。
   
 - [トップの診断理由] (セッション)
     
@@ -45,7 +40,7 @@ ms.locfileid: "60858294"
     
 - [送信元ユーザー エージェント] (セッション)
     
-障害一覧レポートから[、Skype for Business Server](peer-to-peer-session-detail-report.md)のピアツーピア セッション詳細レポートにアクセスするには、ピアツーピア セッションのセッション詳細メトリックをクリックします。 また、電話会議の電話会議の指標をクリックすると、会議詳細レポートにもアクセスできます。
+障害一覧レポートから、[Skype for Business Server のピア](peer-to-peer-session-detail-report.md)ツーピア セッション詳細レポートにアクセスするには、ピアツーピア セッションのセッション詳細メトリックをクリックします。 また、電話会議の電話会議の指標をクリックすると、会議詳細レポートにもアクセスできます。
   
 ## <a name="making-the-best-use-of-the-failure-list-report"></a>エラー リスト レポートの活用
 

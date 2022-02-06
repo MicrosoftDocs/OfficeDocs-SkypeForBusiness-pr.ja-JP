@@ -1,25 +1,20 @@
 ---
 title: IMReportSummary テーブル (2015 Skype for Business Server)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 27ff9453-53f2-4fae-b637-70a086c9df96
 description: IMReportSummaryTable は、組織内で確立されているインスタント メッセージング セッションについての概要レポートを提供します。 この表は、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: 438b6f7e7093cba3e7f2c1d0b9a82a592128b86c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845020"
 ---
+
 # <a name="imreportsummary-table-in-skype-for-business-server-2015"></a>IMReportSummary テーブル (2015 Skype for Business Server)
  
 IMReportSummaryTable は、組織内で確立されているインスタント メッセージング セッションについての概要レポートを提供します。 この表は、Microsoft Lync Server 2013 で導入されました。
@@ -29,7 +24,7 @@ IMReportSummaryTable は、組織内で確立されているインスタント �
 |**StartTime** <br/> |日付型  <br/> |Primary  <br/> |インスタント メッセージング セッションが開始された日時。  <br/> |
 |**TimePeriod** <br/> |char(1)  <br/> |Primary  <br/> ||
 |**PoolFQDN** <br/> |nvarchar(257)  <br/> |Primary  <br/> |セッションをホストするプールの完全修飾ドメイン名。  <br/> |
-|**AuthType** <br/> |int  <br/> |Primary  <br/> |通話の優先度 (緊急、非緊急など)。 優先度情報は[、2015 年の CallPriorities テーブルSkype for Business Serverされます](callpriorities.md)。  <br/> |
+|**AuthType** <br/> |int  <br/> |Primary  <br/> |通話の優先度 (緊急、非緊急など)。 優先度情報は、[2015 年の CallPriorities テーブルSkype for Business Serverされます](callpriorities.md)。  <br/> |
 |**SessionCount** <br/> |bigint  <br/> |||
 |**MsgCount** <br/> |bigint  <br/> ||セッション中に交換されたインスタント メッセージの合計数。  <br/> |
    

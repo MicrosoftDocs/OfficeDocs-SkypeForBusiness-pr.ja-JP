@@ -1,25 +1,20 @@
 ---
 title: Skype for Business Server の統計情報マネージャーの計画
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: '概要: このトピックを参照して、統計マネージャーの概要をSkype for Business Server。'
-ms.openlocfilehash: 166390fe0f034c907e21a3d3147b516d9f502954
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857404"
 ---
+
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Skype for Business Server の統計情報マネージャーの計画
 
 **概要:** このトピックを参照して、統計マネージャーの概要をSkype for Business Server。
@@ -28,7 +23,7 @@ ms.locfileid: "60857404"
 
 Statistics Manager を使用すると、継続的なパフォーマンスの問題を特定し、環境に対する計画的な変更の結果を表示し、停止の解決を追跡できます。 統計マネージャーは、キー正常性インジケーター (KHI) のしきい値で構成され、展開の固有のニーズに合わせてカスタマイズできます。
 
-1 台のサーバーがすべてのサーバー側統計マネージャー コンポーネントをホストするオンプレミス展開に統計マネージャーを展開できます。 統計マネージャーの展開の詳細については、「Deploy [Statistics Manager for](deploy.md)Skype for Business Server」 を参照してください。 統計マネージャーの既存の展開を既に持っているが、リリース 2.0 にまだアップグレードしていない場合は、「リリース[2.0](plan.md#BKMK_WhatsNew)の新機能」および[「upgrade Statistics Manager for Skype for Business Server」を参照してください](upgrade.md)。
+1 台のサーバーがすべてのサーバー側統計マネージャー コンポーネントをホストするオンプレミス展開に統計マネージャーを展開できます。 統計マネージャーの展開の詳細については、「統計マネージャーの展開[」を参照Skype for Business Server](deploy.md)。 統計マネージャーの既存の展開があるが、リリース 2.0 にまだアップグレードしていない場合は、「リリース [2.0](plan.md#BKMK_WhatsNew) の新機能」および「Skype for Business Server の統計マネージャーのアップグレード」[を参照してください](upgrade.md)。
 
 このトピックは、以下のセクションで構成されています。
 
@@ -82,7 +77,7 @@ Statistics Manager を使用すると、継続的なパフォーマンスの問�
 ## <a name="whats-new-in-release-20"></a>リリース 2.0 の新機能
 <a name="BKMK_WhatsNew"> </a>
 
-次に、リリース 2.0 の新機能について説明します。 統計マネージャーの既存の展開を持ち、まだアップグレードしていない場合は、「アップグレード統計マネージャー for [Skype for Business Server」 を参照してください](upgrade.md)。
+次に、リリース 2.0 の新機能について説明します。 統計マネージャーの既存の展開を持ち、まだアップグレードしていない場合は、「アップグレード統計マネージャー for [Skype for Business Server」を参照してください](upgrade.md)。
 
 - エッジ メディア、Fabric Health、プール フェールオーバー、および登録シナリオのシナリオ ビューが追加されました。
 
@@ -113,7 +108,7 @@ Statistics Manager を使用すると、継続的なパフォーマンスの問�
 
 - **Web サイト。** システムで使用可能なすべての機能をまとめるユーザー インターフェイス。
 
-さらに、Statistics Manager には、メモリ内キャッシュ用のオープンソースのデータ構造サーバーである **Redis** が必要です。 Redis のダウンロードの詳細については、「Deploy [Statistics Manager」を参照してください](deploy.md#BKMK_Deploy) 。
+また、Statistics Manager には、メモリ内キャッシュ用のオープンソースのデータ構造サーバーである **Redis** が必要です。 Redis のダウンロードの詳細については、「Deploy [Statistics Manager」を参照してください](deploy.md#BKMK_Deploy) 。
 
 ## <a name="on-premises-deployment"></a>社内への展開
 <a name="BKMK_DeploymentOptions"> </a>
@@ -142,7 +137,7 @@ Statistics Manager を展開する前に、次のソフトウェア、ネット�
 - PSExec - リモート エージェントの展開を実行するために必要
 
 - .NET 4.5 (2012 R2 に付属) - エージェントおよびサーバー側コンポーネントに必須
-- 統計マネージャー [Skype for Business ServerReal-Timeダウンロードする (64 ビット)](https://www.microsoft.com/en-in/download/details.aspx?id=57518)
+- 統計マネージャー [Skype for Business Server、Real-Timeをダウンロードする (64 ビット)](https://www.microsoft.com/en-in/download/details.aspx?id=57518)
 
 ### <a name="networking-requirements"></a>ネットワークの要件
 
@@ -159,7 +154,7 @@ Statistics Manager を展開する前に、次のソフトウェア、ネット�
 
 1 台のサーバーがすべてのサーバー側統計マネージャー コンポーネントをホストするオンプレミス展開では、RAM が 16 GB で CPU が 4 台のサーバーで、平均で 1 秒あたり約 150 サンプルをサポートできる必要があります。 サポートできるカウンター/エージェントの数を確認するには、次の計算を使用します。
 
-100 サーバー \* 80 カウンター \* 1 サンプル/60 秒 = ~ 133 サンプル/秒
+100 サーバー \*80 カウンター \* 1 サンプル/60 秒 = ~ 133 サンプル/秒
 
 ## <a name="security-considerations"></a>セキュリティに関する考慮事項
 <a name="BKMK_Security"> </a>

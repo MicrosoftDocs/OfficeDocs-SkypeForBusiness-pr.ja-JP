@@ -1,42 +1,37 @@
 ---
 title: '[監視レポートのインストール] Skype for Business Server'
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 6f417569-b100-442c-ad48-fdd794626cf7
 description: '概要: 監視レポートを生成するサービスをインストールする方法について、Skype for Business Server。'
-ms.openlocfilehash: 703bb209c68558ba8f98c8e3a3efcde94e4ce5eb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861824"
 ---
+
 # <a name="install-monitoring-reports-in-skype-for-business-server"></a>[監視レポートのインストール] Skype for Business Server
  
 **概要:** 監視レポートを生成するサービスをインストールする方法については、Skype for Business Server。
   
-Skype for Business Server監視レポートは、組織内で行う通信セッションの質と量に関する豊富な情報を提供します。 
+Skype for Business Server監視レポートを使用すると、組織内で行う通信セッションの質と量に関する豊富な情報が提供されます。 
   
 ## <a name="install-monitoring-reports"></a>監視レポートのインストール
 
-監視レポートは、インストール時に自動的にインストールSkype for Business Server。代わりに、監視レポートを個別にインストールし、Skype for Business Serverインストールした後にのみインストールする必要があります。
+監視レポートは、Skype for Business Server をインストールするときに自動的にインストールされません。代わりに、監視レポートを個別にインストールし、Skype for Business Serverがコンピューターにインストールされた後にのみインストールする必要があります。
   
 > [!NOTE]
 > 監視レポートは、監視データベースがインストールされているのと同じコンピューターにインストールすることをお勧めします。これにより、レポートへのアクセス許可の割り当てプロセスが簡単になります。監視ストアをホストしているコンピューターに監視レポートをインストールすると、別のコンピューター上で実行されている Reporting Services とデータベースが対話できるようにするためのアクセス許可を構成する必要がなくなります。 
   
-Skype for Business Server監視レポートには、会議、ピアツーピア IM セッション、ユーザー登録、応答グループ アプリケーションなどの詳細情報を提供するように設計された 30 を超えるレポートが含まれます。 2013 バージョンの場合、Skype for Business Serverレポートには、次のような機能拡張が含まれます。
+Skype for Business Server監視レポートには、会議、ピアツーピア IM セッション、ユーザー登録、応答グループ アプリケーションなどの詳細情報を提供するように設計された 30 以上のレポートが含まれます。 2013 バージョンの場合、Skype for Business Serverレポートには、次のような機能拡張が含まれます。
   
-- **新しい音声品質レポート**。 これらの新しいレポートには[、Skype for Business Server](../../manage/health-and-monitoring/comparison.md)のメディア品質比較レポートが含まれます。これは、さまざまな種類の通話 (有線通話とワイヤレス通話の間など) の品質を比較します。ユーザーが[会議に](../../manage/health-and-monitoring/join-time-report.md)参加するために必要な時間の量に関する情報を提供する Skype for Business Server の会議参加時刻レポート。 
+- **新しい音声品質レポート**。 これらの新しいレポートには[、Skype for Business Server](../../manage/health-and-monitoring/comparison.md) のメディア品質比較レポートが含まれます。これは、さまざまな種類の通話 (有線通話とワイヤレス通話の間など) と、Skype for Business Server の会議参加時間レポートの品質を[比較](../../manage/health-and-monitoring/join-time-report.md)します。ユーザーが会議に参加するために必要な時間に関する情報を提供します。 
     
-- **ビデオ共有セッションとアプリケーション共有セッションの両方を分析およびトラブルシューティングするためのレポートが改善されました。** Skype for Business Server の[メディア](../../manage/health-and-monitoring/summary.md)品質の概要レポートでは、ビデオとアプリケーションの共有呼び出しを分析する方法が提供され、Skype for Business Server の[サーバー](../../manage/health-and-monitoring/server-performance.md)パフォーマンス レポートでは、これらの呼び出しを生成するサーバーのパフォーマンスを詳細に示します。 ビデオとアプリケーション共有の指標は、Skype for Business Server のピア[](../../manage/health-and-monitoring/peer-to-peer-session-detail-report.md)ツーピア セッション詳細レポートと Skype for Business Server の会議詳細[レポートによっても報告されます](../../manage/health-and-monitoring/detail-report.md)。
+- **ビデオ共有セッションとアプリケーション共有セッションの両方を分析およびトラブルシューティングするためのレポートが改善されました。** [Skype for Business Server](../../manage/health-and-monitoring/summary.md) のメディア品質の概要レポートでは、ビデオとアプリケーションの共有呼び出しを分析する方法が提供され、Skype for Business Server の[サーバー](../../manage/health-and-monitoring/server-performance.md) パフォーマンス レポートは、これらの呼び出しを生成するサーバーのパフォーマンスを詳細に示します。 ビデオとアプリケーション共有の指標は、Skype for Business Server のピアツー[](../../manage/health-and-monitoring/peer-to-peer-session-detail-report.md)ピア セッション詳細レポートと、Skype for Business Server の会議詳細[レポートによっても報告されます](../../manage/health-and-monitoring/detail-report.md)。
     
 - **レポートのパフォーマンスの向上**: 応答時間とデータ取得時間が短縮され、レポート間の移動をすばやく簡単に行えるようになりました。
     
@@ -53,7 +48,7 @@ Skype for Business Server監視レポートには、会議、ピアツーピア 
     
 展開ウィザードを使用して監視レポートをインストールするには、次の手順を実行します。
   
-1. [**スタート] ボタン**、[**すべてのプログラム] の** 順にクリックし、[Skype for Business Server]**をクリック** し、[展開ウィザードSkype for Business Server **クリックします**。
+1. [**スタート] ボタン**、[**すべてのプログラム] を** クリックし、[Skype for Business Server] **をクリック** し、[展開ウィザードSkype for Business Server **クリックします**。
     
 2. 展開ウィザードで [**監視レポートの展開**] をクリックして、監視レポートの展開ウィザードを開始します。
     
@@ -67,7 +62,7 @@ Skype for Business Server監視レポートには、会議、ピアツーピア 
     
 6. [**コマンドを実行しています**] ページで、[**完了**] をクリックします。
     
-監視レポートは、スクリプト を実行して、Skype for Business Server管理シェルからインストールDeployReports.ps1。このWindows PowerShellは \<install location\> 、\Skype for Business Server\Deployment\Setup フォルダーにあります。 管理シェルを使用して監視レポートDeployReports.ps1するには、管理シェル プロンプトで次のようなコマンドを入力します。
+監視レポートは、スクリプト DeployReports.ps1 を実行して Skype for Business Server 管理シェルからインストールすることもできます。この Windows PowerShell \<install location\>スクリプトは 、\Skype for Business Server 2015\Deployment\Setup フォルダーにあります。 管理シェルを使用して監視レポートDeployReports.ps1するには、管理シェル プロンプトで次のようなコマンドを入力します。
   
 ```powershell
 C:\Program Files\Skype for Business Server 2015\Deployment\Setup\DeployReports.ps1 -storedUserName "litwareinc\kenmyer" -storedPassword "p@ssw0rd" -readOnlyGroupName "RTCUniversalReadOnlyAdmins" -reportServerSqlInstance "atl-sql-001.litwareinc.com" -monitoringDatabaseId "MonitoringDatabase:atl-sql-001.litwareinc.com"

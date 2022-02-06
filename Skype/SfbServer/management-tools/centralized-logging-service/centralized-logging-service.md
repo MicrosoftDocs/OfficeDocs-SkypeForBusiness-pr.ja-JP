@@ -1,26 +1,21 @@
 ---
 title: 2015 年の集中ログ Skype for Businessサービス
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 description: '概要: 2015 年の集中ログ サービスのサービス コンポーネントと構成設定Skype for Business Serverします。'
-ms.openlocfilehash: 457740b04a331d701ce991e696fa7cf88b57230c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854271"
 ---
+
 # <a name="centralized-logging-service-in-skype-for-business-2015"></a>2015 年の集中ログ Skype for Businessサービス
  
 **概要:** 2015 年の集中ログ サービスのサービス コンポーネントと構成設定Skype for Business Serverします。
@@ -38,11 +33,11 @@ ms.locfileid: "60854271"
   - 既存のプロバイダーを使用するか、新しいプロバイダーを作成します。 Aprovider は、ログ セッションが収集する情報、詳細レベル、トレースするコンポーネント、および適用されるフラグを定義します。
     
     > [!TIP]
-    >  OCSLogger に精通している場合、用語プロバイダーは、**コンポーネントのコレクション**(S4、SIPStack など)、ログの種類 (WPP、EventLog、IIS ログ ファイルなど)、トレース レベル(All、verbose、debug など)、フラグ (TF_COMPONENT、TF_DIAG など) を参照します。 これらの項目は、プロバイダー (Windows PowerShell変数) で定義され、集中ログ サービス コマンドに渡されます。
+    >  OCSLogger に精通している場合、用語プロバイダーは、 **コンポーネントのコレクション** (S4、SIPStack など)、ログの **種類 (** WPP、EventLog、IIS ログ ファイルなど)、トレース **レベル (All** 、verbose、debug など)、 **フラグ (TF_COMPONENT** 、TF_DIAG など) を参照します。 これらの項目は、プロバイダー (Windows PowerShell変数) で定義され、集中ログ サービス コマンドに渡されます。
   
   - 特定のコンピューターとプールのログを構成します。
     
-  - オプション Site (そのサイト内のコンピューターでのみログ キャプチャを実行する場合) または **グローバル****(展開** 内のすべてのコンピューターでログ 記録キャプチャを実行する) からログ セッションの範囲を定義します。
+  - オプション Site (そのサイト内のコンピューターでのみログ キャプチャを実行する場合) または **グローバル** **(展開** 内のすべてのコンピューターでログ 記録キャプチャを実行する) からログ セッションの範囲を定義します。
     
 集中ログ サービスは、根本原因分析からパフォーマンスの問題まで、大小の問題に対する強力なトラブルシューティング ツールです。 すべての例は、管理シェルの Skype for Business Server使用して示されています。 コマンド ライン ツールのヘルプは、ツール自体を介して提供されますが、コマンド ラインから実行できる機能のセットは限られています。 管理シェルSkype for Business Server使用すると、はるかに大きく構成可能な一連の機能にアクセスできます。そのため、常に最初の選択肢である必要があります。 
   
@@ -50,7 +45,7 @@ ms.locfileid: "60854271"
 
  集中ログ サービスは展開内のすべてのサーバーで実行され、次のエージェントとサービスで構成されます。
   
-- 集中ログ サービス エージェント ClsAgent は、すべてのコンピューターで実行され、Skype for Business Serverされます。 ClsController から WCF 上のコマンドをリッスンし( **ポート TCP 50001~50003)、** 応答をコントローラーに返します。 ログ セッション (開始/停止/更新) を管理し、ログを検索します。 また、ログのアーカイブや削除などのハウスキーピング操作も実行します。 
+- 集中ログ サービス エージェント ClsAgent は、すべてのコンピューターで実行され、Skype for Business Serverされます。 ClsController から WCF 上のコマンドをリッスンし (ポート **TCP 50001~50003**)、応答をコントローラーに返します。 ログ セッション (開始/停止/更新) を管理し、ログを検索します。 また、ログのアーカイブや削除などのハウスキーピング操作も実行します。 
     
 - 集中ログ サービス コントローラーコマンドレット Skype for Business Serverシェルは、スタート、停止、フラッシュ、および検索コマンドを ClsAgent に送信します。 検索コマンドが送信された場合、結果のログはデータベースに返され、ClsControllerLib.dllされます。 コントローラーは、エージェントにコマンドを送信し、それらのコマンドの状態を受信し、検索スコープ内のすべてのコンピューター上のすべてのエージェントから返される検索ログ ファイル データを管理し、ログ データを意味のある順序付き出力セットに集約します。 次のトピックの情報は、管理シェルの使用Skype for Business Server重点的に説明します。
     
@@ -60,12 +55,12 @@ ms.locfileid: "60854271"
   
 コマンドを発行するには、Windows Server コマンド ライン インターフェイスを使用するか、管理シェルSkype for Business Server使用します。 コマンドは、ログインしているコンピューター上で実行され、ClsAgent にローカルで送信されます。または展開内の他のコンピューターとプールに送信されます。
   
-ClsAgent は、すべてのインデックス ファイルを保持します。ローカル コンピューターに含む CACHE ファイル。 ClsAgent は、オプション CacheFileLocalFolders で定義されたボリューム間で均等に分散され、各ボリュームの 80% を超える消費を行う (つまり、ローカル キャッシュの場所と割合が **Set-CsClsConfiguration** コマンドレットを使用して構成可能) ので、それらを割り当てる。 ClsAgent は、ローカル コンピューターから古いキャッシュされたイベント トレース ログ (.etl) ファイルをエージングする責任もあります。 2 週間後 (つまり **、Set-CsClsConfiguration** コマンドレットを使用して時間枠を構成できます)、これらのファイルはファイル共有にコピーされ、ローカル コンピューターから削除されます。 詳細については [、「Set-CsClsConfiguration」を参照してください](/powershell/module/skype/set-csclsconfiguration?view=skype-ps)。 検索要求を受信すると、検索条件を使用してキャッシュされた .etl ファイルのセットを選択し、エージェントが管理するインデックスの値に基づいて検索を実行します。
+ClsAgent は、すべてのインデックス ファイルを保持します。ローカル コンピューターに含む CACHE ファイル。 ClsAgent は、オプション CacheFileLocalFolders で定義されたボリューム間で均等に分散され、各ボリュームの 80% を超える消費を行う (つまり、ローカル キャッシュの場所と割合が **Set-CsClsConfiguration** コマンドレットを使用して構成可能) ので、それらを割り当てる。 ClsAgent は、ローカル コンピューターから古いキャッシュされたイベント トレース ログ (.etl) ファイルをエージングする責任もあります。 2 週間後 (つまり、 **Set-CsClsConfiguration** コマンドレットを使用して時間枠を構成できます)、これらのファイルはファイル共有にコピーされ、ローカル コンピューターから削除されます。 詳細については、「 [Set-CsClsConfiguration」を参照してください](/powershell/module/skype/set-csclsconfiguration?view=skype-ps)。 検索要求を受信すると、検索条件を使用してキャッシュされた .etl ファイルのセットを選択し、エージェントが管理するインデックスの値に基づいて検索を実行します。
   
 > [!NOTE]
 > ローカル コンピューターからファイル共有に移動されたファイルは、ClsAgent で検索できます。 ClsAgent がファイル共有にファイルを移動すると、ファイルのエージングと削除は ClsAgent によって維持されません。 ファイル共有内のファイルのサイズを監視し、それらを削除またはアーカイブする管理タスクを定義する必要があります。 
   
-結果のログ ファイルは **、Snooper.exe** やNotepad.exeなどのテキスト ファイルを読み取るツールなど、さまざまなツールを使用して読み **取りおよび分析できます**。 Snooper.exe 2015 デバッグ ツールSkype for Business Serverの一部であり、Web ダウンロードとして[利用できます](https://go.microsoft.com/fwlink/p/?LinkId=285257)。
+結果のログ ファイルは、 **Snooper.exeやNotepad.exe** などのテキスト ファイルを読み取るツールなど、さまざまなツールを使用して **読み取りおよび分析できます**。 Snooper.exe 2015 デバッグ ツールSkype for Business Server一部であり、Web ダウンロードとして[使用できます](https://go.microsoft.com/fwlink/p/?LinkId=285257)。
   
 OCSLogger と同様に、集中ログ サービスにはトレースするコンポーネントがいくつか含め、TF_COMPONENT や TF_DIAG などのフラグを選択するオプションが提供されます。 集中ログ サービスでは、OCSLogger のログ レベル オプションも保持されます。
   
@@ -78,7 +73,7 @@ OCSLogger と同様に、集中ログ サービスにはトレースするコン
 ログ セッションを開始するときに、解決しようとしている問題に関連するシナリオを指定します。 2 つのシナリオをいつでも実行できます。 これら 2 つのシナリオの 1 つは AlwaysOn シナリオである必要があります。 名前が示すように、展開内で常に実行し、すべてのコンピューター、プール、およびコンポーネントに関する情報を収集する必要があります。
   
 > [!IMPORTANT]
-> 既定では、AlwaysOn シナリオは展開で実行されません。 シナリオを明示的に開始する必要があります。 一度起動すると、明示的に停止するまで実行が続行され、コンピューターの再起動によって実行中の状態が維持されます。 シナリオの開始と停止の詳細については[、「Start or stop CLS log capture in Skype for Business Server 2015」を参照](start-or-stop-log-capture.md)してください。 
+> 既定では、AlwaysOn シナリオは展開で実行されません。 シナリオを明示的に開始する必要があります。 一度起動すると、明示的に停止するまで実行が続行され、コンピューターの再起動によって実行中の状態が維持されます。 シナリオの開始と停止の詳細については、「[Start or stop CLS log capture in Skype for Business Server 2015」を参照](start-or-stop-log-capture.md)してください。 
   
 問題が発生した場合は、報告された問題に関連する 2 つ目のシナリオを開始します。 問題を再現し、2 番目のシナリオのログ記録を停止します。 報告された問題を基準にログ検索を開始します。 ログの集約されたコレクションは、展開のサイトまたはグローバル スコープ内のすべてのコンピューターからのトレース メッセージを含むログ ファイルを生成します。 検索で、分析可能なデータよりも多くのデータが返される場合 (通常は、ノイズが高すぎる信号対雑音比と呼ばれる)、より狭いパラメーターで別の検索を実行します。 この時点で、表示されるパターンに気付き始め、問題に対するより明確なフォーカスを得るのに役立ちます。 最終的には、いくつかの絞り込み検索を実行した後、問題に関連するデータを見つけて、根本的な原因を把握できます。
   
@@ -93,7 +88,7 @@ OCSLogger と同様に、集中ログ サービスにはトレースするコン
   
 ### <a name="to-display-the-current-centralized-logging-service-configuration"></a>現在の集中ログ サービス構成を表示するには
 
-1. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
+1. 管理シェルをSkype for Business Serverする **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[**2015** 年Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 2. コマンド ライン プロンプトで、次のように入力します。
     
@@ -102,7 +97,7 @@ OCSLogger と同様に、集中ログ サービスにはトレースするコン
    ```
 
     > [!TIP]
-    > 定義によって返される構成設定の範囲と、"Site:Redmond" などの範囲を絞り込みまたは展開して、サイト Redmond の  `-Identity` CsClsConfiguration のみを返します。 構成の特定の部分に関する詳細が必要な場合は、出力を別のコマンドレットにパイプWindows PowerShellできます。 たとえば、サイト "Redmond" の構成で定義されているシナリオの詳細を取得するには、次のように入力します。 `Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandProperty Scenarios`
+    > `-Identity`定義によって返される構成設定の範囲と、"Site:Redmond" などの範囲を絞り込みまたは展開して、サイト Redmond の CsClsConfiguration のみを返します。 構成の特定の部分に関する詳細が必要な場合は、出力を別のコマンドレットにパイプWindows PowerShellできます。 たとえば、サイト "Redmond" の構成で定義されているシナリオの詳細を取得するには、次のように入力します。 `Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandProperty Scenarios`
   
      ![Get-CsClsConfiguration からの出力例。](../../media/Ops_Get-CsClsConfiguration_Basic.jpg)
   
