@@ -1,7 +1,7 @@
 ---
 title: 会議の設定を管理する
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: sonua
 ms.topic: article
@@ -9,26 +9,21 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.teamsadmincenter.meetingsettings.invitationurls
-- ms.teamsadmincenter.meetingsettings.network.ports
-- ms.teamsadmincenter.meetingsettings.overview
+  - ms.teamsadmincenter.meetingsettings.invitationurls
+  - ms.teamsadmincenter.meetingsettings.network.ports
+  - ms.teamsadmincenter.meetingsettings.overview
 ms.collection:
-- M365-collaboration
-- m365initiative-meetings
+  - M365-collaboration
+  - m365initiative-meetings
 description: 組織のユーザーがスケジュールする Teams 会議の設定を管理する方法を説明します。
-ms.openlocfilehash: ed042552ea6057c8184b4dad444afa543550b052
-ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
-ms.translationtype: HT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 12/29/2021
-ms.locfileid: "61625918"
 ---
+
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams で会議の設定を管理する
 
 管理者は Teams 会議の設定を使用することにより、Teams 会議への匿名ユーザーの参加可否、会議への招待状のカスタマイズ、およびサービスの品質 (QoS) をオンにするかどうかの制御を行え、リアルタイム トラフィックのポート範囲を設定することができます。 これらの設定は、組織のユーザーがスケジュールするすべての Teams 会議に適用されます。 これらの設定は、Microsoft Teams 管理センターの [**会議**] > [**会議設定**] から管理します。
