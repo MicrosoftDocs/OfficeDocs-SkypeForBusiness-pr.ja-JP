@@ -10,27 +10,22 @@ audience: admin
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 f1.keywords:
-- CSH
-ms.custom: ''
-description: PowerShell を使用して Android デバイスの自動応答機能Teamsを設定する方法について説明します。
-ms.openlocfilehash: e25b0694b54d1047c64ecaba026380ac9c4a9949
-ms.sourcegitcommit: 5e9a8d3cdb72b57adfb842200159c5d753b70ecb
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62329102"
+  - CSH
+ms.custom: null
+description: PowerShell を使用して、Microsoft Teams Rooms on Android とビデオTeamsの自動応答機能を設定する方法について説明します。
 ---
-# <a name="set-up-auto-answer-for-teams-android-devices"></a>Android デバイスの自動応答Teams設定する
 
-この記事は、Android デバイスで自動応答機能を設定Teams役立ちます。 自動応答を使用すると、管理者特権を持つ組織内のユーザーは、自分のデバイス設定を変更して、着信会議の招待を自動的に受け入れ、ビデオを使用して自動的に通話を受け入れできます。
+# <a name="set-up-auto-answer-for-microsoft-teams-rooms-on-android-and-teams-video-phone-devices"></a>Android およびビデオ電話デバイスMicrosoft Teams会議室の自動応答Teams設定する
+
+この記事では、Android およびビデオ電話デバイスの Microsoft Teams 会議室で自動応答機能Teams設定する方法について説明します。 自動応答を使用すると、管理者特権を持つ組織内のユーザーは、自分のデバイス設定を変更して、着信会議の招待を自動的に受け入れ、ビデオを使用して自動的に通話を受け入れできます。
 
 ## <a name="enable-auto-answer-with-powershell"></a>PowerShell で自動回答を有効にする
 
-次の属性を使用して、Android デバイスで自動Teamsを有効にします。
+次の属性を使用して、Android およびビデオ電話デバイスMicrosoft Teams会議室で自動応答Teamsを有効にします。
 
 - **Set-CsTeamsCallingPolicy -AutoAnswerEnabledType**
 - **Set-CsTeamsIPPhonePolicy -SignInMode**
