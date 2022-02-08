@@ -1,8 +1,8 @@
 ---
 title: 証明書要求 (テンプレートの指定)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d00ed98f-46f2-4367-b34c-513e5eafdd06
 description: '[別の証明書テンプレートの指定] ページでは、既定で使用される WebServer 証明書テンプレート以外の証明書テンプレートを定義できます。[選択された証明機関に別の証明書テンプレートを使用する] チェック ボックスをオンにしてから、[証明書テンプレート名] テキスト ボックスで別の証明書テンプレートの名前を定義します。証明機関 (CA) で定義したのと同じテンプレート名を使用する必要があります。前のページに戻るには、[戻る] をクリックします。証明書要求プロセスを終了するには、[キャンセル] をクリックします。'
-ms.openlocfilehash: 5dcaf17f01de47d028e5fdc0b648107b235caa97
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 4ae4f34b1fb994119637e3c2066b7cf0982216fa
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860544"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388525"
 ---
 # <a name="certificate-request-specify-termplate"></a>証明書要求 (テンプレートの指定)
  

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams に対する組織の準備状況について
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 105df2024ad67710b1de1e92208deeab6c7b9226
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: dd02e915ad6ced07afdf2f9dc9dbf29e8a68b69d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865626"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387485"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>Microsoft Teams に対する組織の準備状況について
 
@@ -64,7 +64,7 @@ ms.locfileid: "60865626"
 - グループと彼らの観察と学習を共有する
 - リスクを引き受け、つまり、動作を確認するために何かを試す必要があります。
 
-Microsoft 365 または Office 365 でシンプルなフォームを使用して、これらのユーザーが早期導入プログラムに参加Teams。 組織の規模と複雑さによっては、実験フェーズでこれらの個人の一部またはすべてが有効にすることもできます。 このプログラムでは、実験フェーズに積極的に参加し、プロジェクト チームに定期的なフィードバックを提供することに同意しています。 新しいテクノロジを試用したいユーザーは避けます。 このアクティブなフィードバックを提供することで、プロジェクトの成果を生み出す助けになります。 このユーザーのリストは、フェーズ [2 - 実験で使用します](teams-adoption-phase2-experiment.md)。
+Microsoft 365 または Office 365 で簡単なフォームを使用して、これらのユーザーが早期導入プログラムに参加Teams。 組織の規模と複雑さによっては、実験フェーズでこれらの個人の一部またはすべてが有効にすることもできます。 このプログラムでは、実験フェーズに積極的に参加し、プロジェクト チームに定期的なフィードバックを提供することに同意しています。 新しいテクノロジを試用したいユーザーは避けます。 このアクティブなフィードバックを提供することで、プロジェクトの成果を生み出す助けになります。 このユーザーのリストは、フェーズ [2 - 実験で使用します](teams-adoption-phase2-experiment.md)。
 
 早期導入者プログラム ガイドは、お客様の環境でこのプログラムを開始する場合に役立つリソースです。  
  

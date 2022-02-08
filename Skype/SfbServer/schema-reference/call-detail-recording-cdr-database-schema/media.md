@@ -1,8 +1,8 @@
 ---
 title: メディア テーブル
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1e1b427f-59b5-4564-bde5-1002a80439ee
 description: 各レコードは、ピアツーピア セッションで使用される 1 つのメディア種類を表します。複数のメディア種類が使用されている場合、1 つのセッションがテーブルでは複数のレコードによって表されます。
-ms.openlocfilehash: 02a11f296ec24e9f907927d93bc0fb8acb103b8a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 4b2bb3252945b34a38e9a2863f82c517729e9f89
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855221"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385455"
 ---
 # <a name="media-table"></a>メディア テーブル
  
@@ -29,8 +29,8 @@ ms.locfileid: "60855221"
   
 |**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
-|**SessionIdTime** <br/> |日付型  <br/> |主/プライマリ、外部  <br/> |セッション要求の時刻。 セッションを一意に識別するために **SessionIdSeq** と併用されます。 詳細については[、「ダイアログ」の表Skype for Business Server 2015](dialogs.md)を参照してください。 <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |主/プライマリ、外部  <br/> |セッションを識別するための ID 番号。 セッションを一意に識別するために **SessionIdTime** と併用されます。 詳細については[、「ダイアログ」の表Skype for Business Server 2015](dialogs.md)を参照してください。 <br/> |
+|**SessionIdTime** <br/> |日付型  <br/> |主/プライマリ、外部  <br/> |セッション要求の時刻。 セッションを一意に識別するために **SessionIdSeq** と併用されます。 詳細については[、2015 Skype for Business Serverの](dialogs.md) Dialogs テーブルを参照してください。 <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |主/プライマリ、外部  <br/> |セッションを識別するための ID 番号。 セッションを一意に識別するために **SessionIdTime** と併用されます。 詳細については[、2015 Skype for Business Serverの](dialogs.md) Dialogs テーブルを参照してください。 <br/> |
 |**MediaId** <br/> |tinyint  <br/> |主/プライマリ、外部  <br/> |このメディアの種類を示す一意の番号。 詳細については [、MediaList テーブル](medialist.md) を参照してください。 <br/> |
 |**StartTime** <br/> |日付型  <br/> |Primary  <br/> |メディア要求が送信された時刻です。実際にメディアが開始した時刻ではありません。**StartTime** にはセッションのセットアップ時間が含まれます。<br/> |
 |**EndTime** <br/> |日付型  <br/> ||セッションの終了時刻です。  <br/> |

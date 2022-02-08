@@ -1,7 +1,7 @@
 ---
 title: Windows Phone 版 Skype for Business のシステム要件
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 12/20/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c4bc0e45-7877-466c-b187-2c35c851a98d
 description: '概要: クライアント システムデバイスの要件を確認し、クライアント システムのデバイス要件をSkype for Business Server。'
-ms.openlocfilehash: 9c3f3658127a8d81c6fd1c9d4c55b42c0b539c23
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7e84724223cee1166d779a7085a048b0cf239a24
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835155"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386425"
 ---
 # <a name="system-requirements-for-skype-for-business-for-windows-phone"></a>Windows Phone 版 Skype for Business のシステム要件
  
@@ -35,7 +35,7 @@ Microsoft Skype for Business for Windows Phoneは、スマートフォンまた�
   
 - Windows Phone 8.1 以降。
     
-- デバイスWindows Phone Microsoft から最新の更新プログラムを利用できる必要があります。 詳細については、「8 Windows Phone 8.1」セクション[Windows Phoneを参照してください](https://go.microsoft.com/fwlink/p/?LinkID=281961)。
+- デバイスWindows Phone Microsoft から最新の更新プログラムを利用できる必要があります。 詳細については、「Windows Phone 8.1」の「Windows Phone[」を参照してください](https://go.microsoft.com/fwlink/p/?LinkID=281961)。
     
 - デバイスには 22 MB の使用可能なディスク領域が必要です。
     

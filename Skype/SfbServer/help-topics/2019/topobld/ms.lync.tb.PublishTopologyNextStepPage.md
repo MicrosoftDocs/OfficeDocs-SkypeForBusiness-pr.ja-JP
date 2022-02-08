@@ -1,8 +1,8 @@
 ---
 title: トポロジの公開の次の手順
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 29e4a215-80f9-4ac8-8069-b220f3ac251d
 ROBOTS: NOINDEX, NOFOLLOW
 description: トポロジの公開が完了すると、[公開ウィザードの完了] ページが表示されます。
-ms.openlocfilehash: 561ae48101a4106ab22e39956d8dfc2ebff0a020
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d1a4649968c07ffe8ec1332ab63cd5ef8890c2db
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829291"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384915"
 ---
 # <a name="publish-topology-next-step"></a>トポロジの公開の次の手順
 

@@ -1,8 +1,8 @@
 ---
 title: 2015 年に集中ログ サービスによって作成された検索キャプチャ ログSkype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
 description: '概要: 2015 年に集中ログ サービス キャプチャ ログを検索して読み取るSkype for Business Serverします。'
-ms.openlocfilehash: a65fac6ffc96088cd1e544ed17914128d040e2b6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2168bdc0a72df6efe4bf9d9f178a2ee9c120aa6a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831921"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385565"
 ---
 # <a name="search-capture-logs-created-by-the-centralized-logging-service-in-skype-for-business-server-2015"></a>2015 年に集中ログ サービスによって作成された検索キャプチャ ログSkype for Business Server
  
@@ -55,7 +55,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
   
 ### <a name="to-run-a-basic-search-by-using-the-centralized-logging-service"></a>集中ログ サービスを使用して基本検索を実行するには
 
-1. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
+1. 管理シェルをSkype for Business Serverする **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[**2015** 年Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 2. AlwaysOn シナリオが展開内でグローバル スコープで実行していることを確認し、コマンド プロンプトで次のように入力します。
     
@@ -64,7 +64,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    ```
 
 > [!NOTE]
-> 既定では、Search-CsClsLogging は検索の結果をコンソールに送ります。 検索結果をファイルに保存する場合は、-OutputFilePath を使用します  _\<string fully qualified file path\>_ 。 -OutputFilePath パラメーターを定義するには、パラメーターの一部としてパスとファイル名を二重引用符で囲んだ文字列形式 (たとえば、C:\LogFiles\SearchOutput.txt) を指定します。 この例では、ディレクトリ C:\LogFiles が存在し、フォルダー内のファイルに対して読み取りと書き込みのアクセス許可 (NTFS の場合は変更のアクセス許可) を持っている必要があります。 出力は追加され、上書きはされません。 個別のファイルが必要な場合は、検索ごとに個々のファイル名を定義します。 
+> 既定では、Search-CsClsLogging は検索の結果をコンソールに送ります。 検索結果をファイルに保存する場合は、-OutputFilePath を使用します  _\<string fully qualified file path\>_。 -OutputFilePath パラメーターを定義するには、パラメーターの一部としてパスとファイル名を二重引用符で囲んだ文字列形式 (たとえば、C:\LogFiles\SearchOutput.txt) を指定します。 この例では、ディレクトリ C:\LogFiles が存在し、フォルダー内のファイルに対して読み取りと書き込みのアクセス許可 (NTFS の場合は変更のアクセス許可) を持っている必要があります。 出力は追加され、上書きはされません。 個別のファイルが必要な場合は、検索ごとに個々のファイル名を定義します。 
   
 次に例を示します。
     
@@ -94,7 +94,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 3. 1 台のコンピューターではなくプール全体を検索する必要がある場合は、-Computers パラメーターを -Pools に変更し、コンピューター名を削除し、コンマで区切られた二重引用符で囲まれたプールまたはプールに置き換える必要があります。
     
-    例:
+    次に例を示します。
     
    ```PowerShell
    Search-CsClsLogging -Pools "pool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
@@ -110,7 +110,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 ### <a name="to-run-a-search-by-using-time-parameters"></a>時間のパラメーターを使用して検索を実行するには
 
-1. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
+1. 管理シェルをSkype for Business Serverする **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[**2015** 年Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 2. 既定では、検索の時間固有のパラメーターの開始時刻は、検索を開始した 5 分後の 25 分前です。 つまり、午後 4:00:00 に検索した場合、検索の開始時刻は午後 3:35:00 から午後 4:05:00 と表示されます。 現在の時刻の 60 分または 3 時間前に検索する必要がある場合は、-StartTime パラメーターを使用して、検索を開始する時刻を示す日付と時刻の文字列を設定します。 
     
@@ -141,7 +141,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 ### <a name="to-run-an-advanced-search-by-using-other-criteria-and-matching-options"></a>他の条件および一致オプションを使用して高度な検索を行うには
 
-1. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
+1. 管理シェルをSkype for Business Serverする **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[**2015** 年Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 2. 特定のコンポーネントのトレースを収集するコマンドを実行するには、次のように入力します。
     
@@ -163,7 +163,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    Search-CsClsLogging -Components "SIPStack","S4","UserServices" -OutputFilePath "C:\Logfiles\logfile.txt"
    ```
 
-4. 複数のパラメーターを使用するコマンドの既定の検索ロジックでは、定義された各パラメーターに対して論理 OR を使用します。 この動作を変更するには **、-MatchAll パラメーターを指定** します。 これを行うには、次のように入力します。
+4. 複数のパラメーターを使用するコマンドの既定の検索ロジックでは、定義された各パラメーターに対して論理 OR を使用します。 この動作を変更するには、- **MatchAll パラメーターを指定** します。 これを行うには、次のように入力します。
     
    ```PowerShell
    Search-CsClsLogging -CallId "d0af828e49fa4dcb99f5f80223a634bc" -Components "SIPStack","S4","UserServices" -MatchAll -OutputFilePath "C:\Logfiles\logfile.txt"
@@ -177,10 +177,10 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 ## <a name="read-capture-logs-from-the-centralized-logging-service"></a>集中ログ サービスからのキャプチャ ログの読み取り
 
-検索を実行し、報告された問題を追跡するために使用できるファイルを持った後、集中ログ サービスの本当の利点を実感できます。 ファイルを読み取る方法は多数あります。 出力ファイルは標準のテキスト形式であり、Notepad.exeファイルを開いて読み取る他のプログラムを使用できます。 より大きなファイルや複雑な問題の場合は、集中ログ サービスからのログ出力を読み取って解析するように設計された Snooper.exe などのツールを使用できます。 Snooper は、個別のダウンロードとして使用できるデバッグ ツールに含まれています。 デバッグ ツールは、次の場所からダウンロードできます [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?LinkId=285257) 。 デバッグ ツールをインストールすると、ショートカットとメニュー項目は作成されません。 デバッグ ツールをインストールした後、Windows エクスプローラー、コマンド ライン ウィンドウ、または Skype for Business Server 管理シェルを開き、ディレクトリ (既定の場所) C:\Program Files\Skype for Business Server 2015\Debuging Tools に移動します。 コマンド ラインまたは管理Snooper.exeを使用Snooper.exe、コマンド ラインまたは管理シェルを使用している場合は、コマンド をダブルクリックするか、Snooper.exe入力し、Enter キー Skype for Business Server押します。
+検索を実行し、報告された問題を追跡するために使用できるファイルを持った後、集中ログ サービスの本当の利点を実感できます。 ファイルを読み取る方法は多数あります。 出力ファイルは標準のテキスト形式であり、Notepad.exeファイルを開いて読み取る他のプログラムを使用できます。 より大きなファイルや複雑な問題の場合は、集中ログ サービスからのログ出力を読み取って解析するように設計された Snooper.exe などのツールを使用できます。 Snooper は、個別のダウンロードとして使用できるデバッグ ツールに含まれています。 デバッグ ツールは、次の場所からダウンロードできます。 [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?LinkId=285257) デバッグ ツールをインストールすると、ショートカットとメニュー項目は作成されません。 デバッグ ツールをインストールした後、Windows エクスプローラー、コマンド ライン ウィンドウ、または Skype for Business Server 管理シェルを開き、ディレクトリ (既定の場所) C:\Program Files\Skype for Business Server 2015\Debuging Tools に移動します。 コマンド ラインまたは管理Snooper.exeを使用Snooper.exe、コマンド ラインまたは管理シェルを使用している場合は、コマンド をダブルクリックするか、Snooper.exe入力し、Enter キー Skype for Business Server押します。
   
 > [!IMPORTANT]
-> このトピックの目的は、トラブルシューティングの手法を詳細に説明したり議論したりすることではありません。 トラブルシューティングとそれに関連するプロセスは、複雑な問題です。 トラブルシューティングの基本と特定のワークロードのトラブルシューティングの詳細については、「Microsoft Lync Server 2010 Resource Kit book at」を参照してください [https://go.microsoft.com/fwlink/p/?linkId=211003](https://go.microsoft.com/fwlink/p/?linkId=211003) 。 プロセスと手順は、2015 年Skype for Business Server適用されます。 
+> このトピックの目的は、トラブルシューティングの手法を詳細に説明したり議論したりすることではありません。 トラブルシューティングとそれに関連するプロセスは、複雑な問題です。 トラブルシューティングの基本と特定のワークロードのトラブルシューティングの詳細については、「Microsoft Lync Server 2010 Resource Kit book at」を参照してください [https://go.microsoft.com/fwlink/p/?linkId=211003](https://go.microsoft.com/fwlink/p/?linkId=211003)。 プロセスと手順は、2015 年Skype for Business Server適用されます。 
   
 ### <a name="to-open-a-log-file-in-snooper"></a>Snooper でログ ファイルを開くには
 

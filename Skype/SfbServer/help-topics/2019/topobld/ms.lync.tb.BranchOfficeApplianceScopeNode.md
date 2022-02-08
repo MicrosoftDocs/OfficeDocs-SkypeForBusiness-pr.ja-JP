@@ -1,8 +1,8 @@
 ---
 title: ブランチ オフィス アプライアンス スコープ ノード
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
 ROBOTS: NOINDEX, NOFOLLOW
 description: このノードには、完全修飾ドメイン名 (FQDN)、関連するプールとサーバー、およびこの存続可能ブランチ アプライアンスに関する復元情報が表示されます。 以下のアクションを実行できます。
-ms.openlocfilehash: 6a48424e57f43aa6d942aa53c5e1bb94579eacb9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d0d5e6525155875cfdb74a4fbe53e02d1b1d68d6
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834445"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384935"
 ---
 # <a name="branch-office-appliance-scope-node"></a>ブランチ オフィス アプライアンスのスコープ ノード
  
@@ -32,7 +32,7 @@ ms.locfileid: "60834445"
     
 これらのオプションに加えて、次の一般的なタスクを実行できます。
   
-- **トポロジ**。 このオプションを使用すると、新しいトポロジの定義、既存のトポロジの開き、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの発行、データベースのインストール、展開の削除を行います。
+- **トポロジ。** このオプションを使用すると、新しいトポロジの定義、既存のトポロジの開き、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの発行、データベースのインストール、展開の削除を行います。
     
 - **表示**。このオプションを使用して、コンソール ツリー ビュー内の項目を選択して表示と非表示を切り替えることによって、トポロジ ビルダーのビューをカスタマイズできます。
     

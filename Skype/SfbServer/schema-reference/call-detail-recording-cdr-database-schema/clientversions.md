@@ -1,8 +1,8 @@
 ---
 title: 2015 年の ClientVersions Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 542316cf-a6db-4d52-ab28-8bf6d27a3b48
 description: ClientVersions テーブルはサポート テーブルで、データベースに記録されているセッションに参加したさまざまなクライアントの種類とバージョンのリストが格納されます。テーブルの各レコードは、1 つのクライアント バージョンを表します。
-ms.openlocfilehash: 230310d414c9dc34a92317e6369e18643b86f8d5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: dd9afc6addef78bf255e6237f1b29f5cac4ee071
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842699"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386326"
 ---
 # <a name="clientversions-table-in-skype-for-business-server-2015"></a>2015 年の ClientVersions Skype for Business Server
  

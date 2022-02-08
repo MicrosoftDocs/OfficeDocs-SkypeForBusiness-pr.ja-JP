@@ -1,8 +1,8 @@
 ---
 title: AppSharingMetricsThreshold テーブル
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 782cfab9-01a6-4843-aea1-28f47b0b51f7
 description: AppSharingMetricsThreshold テーブルには、アプリケーション共有で使用される QoE (Quality of Experience) 指標の最適な値と許容される値が含まれます。これらのしきい値は、アプリケーション共有のエクスペリエンスを不良として分類する必要があるかどうかを判断するために使用されます。
-ms.openlocfilehash: 23e97758d5398b8c8797900f043de7c1b6a3ebf6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8287f8e141f3d883d50a0fa9783b08b3f4bfbb19
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864564"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384155"
 ---
 # <a name="appsharingmetricsthreshold-table"></a>AppSharingMetricsThreshold テーブル
  

@@ -1,8 +1,8 @@
 ---
 title: Location-Basedでの会議のルーティングSkype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: コンサルティング通話の転送を含む、Skype for Business Server エンタープライズ VoIP会議の場所ベースのルーティングを計画します。
-ms.openlocfilehash: d9fee0304310f551d750be85a9b6e2b0d9a47ad3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3c5c7e4d374e9ece3ee0f0ce092d4030d2d84100
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855404"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387705"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Location-Basedでの会議のルーティングSkype for Business Server
 
@@ -51,10 +51,10 @@ Location-Basedルーティングを使用すると、通話内の関係者の場
 
 |任意の時点での会議のユーザー|会議に参加できるユーザー|ユーザーが会議に参加できない|
 |:-----|:-----|:-----|
-|Skype for Business単一のネットワーク サイトからの VoIP クライアント ユーザー  <br/> |Skype for Business同じネットワーク サイトからの VoIP クライアント ユーザー  <br/> Skype for Business別のネットワーク サイトからの VoIP クライアント ユーザー  <br/> Skype for Business不明なネットワーク サイトからの VoIP クライアント ユーザー  <br/> VoIP Skype for Businessユーザーのフェデレーション  <br/> PSTN エンドポイントからのユーザー参加  <br/> |なし  <br/> |
-|Skype for Business不明なネットワーク サイトからの VoIP クライアント ユーザー  <br/> |Skype for Business任意のサイトからの VoIP クライアント ユーザー  <br/> Skype for Business不明なサイトからの VoIP クライアント ユーザー  <br/> VoIP Skype for Businessユーザーのフェデレーション  <br/> |PSTN エンドポイント経由でのユーザー参加  <br/> |
-|Skype for Business異なるネットワーク サイトからの VoIP クライアント ユーザー  <br/> |Skype for Business任意のネットワーク サイトからの VoIP クライアント ユーザー  <br/> Skype for Business不明なネットワーク サイトからの VoIP クライアント ユーザー  <br/> VoIP Skype for Businessユーザーのフェデレーション  <br/> |PSTN エンドポイント経由でのユーザー参加  <br/> |
-|Skype for Business単一のネットワーク サイトからの VoIP クライアント ユーザーと PSTN エンドポイントから参加しているユーザー  <br/> |Skype for Business同じネットワーク サイトからの VoIP クライアント ユーザー  <br/> |Skype for Business別のネットワーク サイトからの VoIP クライアント ユーザー  <br/> Skype for Business不明なネットワーク サイトからの VoIP クライアント ユーザー  <br/> VoIP Skype for Businessユーザーのフェデレーション  <br/> |
+|Skype for Business VoIP クライアント ユーザーを 1 つのネットワーク サイトから削除する  <br/> |Skype for Businessサイトから VoIP クライアント ユーザーを削除する  <br/> Skype for Businessネットワーク サイトから VoIP クライアント ユーザーを削除する  <br/> Skype for Businessネットワーク サイトから VoIP クライアント ユーザーを削除する  <br/> VoIP Skype for Businessユーザーのフェデレーション  <br/> PSTN エンドポイントからのユーザー参加  <br/> |なし  <br/> |
+|Skype for Businessネットワーク サイトから VoIP クライアント ユーザーを削除する  <br/> |Skype for Business VoIP クライアント ユーザーを任意のサイトから削除する  <br/> Skype for Businessサイトから VoIP クライアント ユーザーを削除する  <br/> VoIP Skype for Businessユーザーのフェデレーション  <br/> |PSTN エンドポイント経由でのユーザー参加  <br/> |
+|Skype for Businessサイトからの VoIP クライアント ユーザーの管理  <br/> |Skype for Businessサイトから VoIP クライアント ユーザーを削除する  <br/> Skype for Businessネットワーク サイトから VoIP クライアント ユーザーを削除する  <br/> VoIP Skype for Businessユーザーのフェデレーション  <br/> |PSTN エンドポイント経由でのユーザー参加  <br/> |
+|Skype for Businessの VoIP クライアント ユーザーと PSTN エンドポイントから参加しているユーザーを選択する  <br/> |Skype for Businessサイトから VoIP クライアント ユーザーを削除する  <br/> |Skype for Businessネットワーク サイトから VoIP クライアント ユーザーを削除する  <br/> Skype for Businessネットワーク サイトから VoIP クライアント ユーザーを削除する  <br/> VoIP Skype for Businessユーザーのフェデレーション  <br/> |
 
 電話会議のルーティング アプリケーションのLocation-Basedの特性を次に示します。
 
@@ -62,15 +62,15 @@ Location-Basedルーティングを使用すると、通話内の関係者の場
 
 - Location-Based ルーティングの適用を使用して会議に参加する PSTN エンドポイントは、Location-Based ルーティングが有効になっていないトランクを介してエンドポイントが参加する場合、その状態に関係なく会議に参加Location-Basedされません。
 
-- PSTN への発信呼び出しを行いません SIP トランクを使用して仲介サーバーに接続された PBX システムは、SIP トランクが定義されているのと同じネットワーク サイトにある Skype for Business ユーザーと同じ強制を行います。 たとえば、PSTN エンドポイントが同じネットワーク サイトにある場合、PBX ユーザーと Skype for Business ユーザーとの会議に参加できます。それ以外の場合、PBX ユーザーが他のユーザーとは異なるネットワーク サイトにある場合、PSTN エンドポイントは会議に参加Skype for Businessされません。
+- PSTN への発信呼び出しを行いません SIP トランクを使用して仲介サーバーに接続された PBX システムは、SIP トランクが定義されているのと同じネットワーク サイトにある Skype for Business ユーザーと同じ強制を行います。 たとえば、PBX ユーザーと Skype for Business ユーザーが同じネットワーク サイトにある場合、PSTN エンドポイントは電話会議に参加できます。それ以外の場合、PBX ユーザーが Skype for Business ユーザーとは異なるネットワーク サイトにある場合、PSTN エンドポイントは会議に参加できません。
 
 > [!NOTE]
 > 累積的Skype for Business 4 では、次の表の動作を確認する必要があります。
 
 |User|その他のパーティ|Action|結果|
 |:-----|:-----|:-----|:-----|
-|Skype for Businessモバイル  <br/> |PSTN  <br/> |Skype for Businessモバイルは PSTN 通話中です。 Skype for Businessその後、モバイルは電話を電話会議 (CAA) 自動応答エスカレートします。  <br/> |呼び出しがブロックされ、適切なエラー メッセージが表示されます。  <br/> |
-|Skype for Businessモバイル  <br/> |Skype for Businessクライアントまたはフェデレーション ユーザー  <br/> |クライアントまたはフェデレーション ユーザーは、Skype for Business Mobile Location-Basedユーザーに VoIP 呼び出しを行い、いずれかのパーティが CAA にエスカレートします。  <br/> |エスカレーション呼び出しはブロックされ、適切なエラー メッセージが表示されます。  <br/> |
+|Skype for Business Mobile  <br/> |PSTN  <br/> |Skype for Businessは PSTN 通話中です。 Skype for Business、電話を電話会議 (CAA) 自動応答エスカレートします。  <br/> |呼び出しがブロックされ、適切なエラー メッセージが表示されます。  <br/> |
+|Skype for Business Mobile  <br/> |Skype for Businessまたはフェデレーション ユーザー  <br/> |クライアントまたはフェデレーション ユーザーは、Skype for Business Mobile Location-Basedユーザーに VoIP 呼び出しを行い、いずれかのパーティが CAA にエスカレートします。  <br/> |エスカレーション呼び出しはブロックされ、適切なエラー メッセージが表示されます。  <br/> |
 
 ## <a name="consultative-call-transfers"></a>コンサルティング通話の転送
 
@@ -80,9 +80,9 @@ Location-Based ルーティングを Skype for Business 会議に適用する以
 
 ![会議図の場所ベースのルーティング。](../../media/LocationBasedRoutingForConferencing.jpg)
 
-Location-Based ルーティングを有効にしたユーザーが PSTN エンドポイントのコンサルティング通話転送を開始すると (前の図に示すように)、PSTN ユーザーと Skype for Business ユーザー A の間の 1 つの通話、および Skype for Business ユーザー A と Skype for Business ユーザー B の間の 2 つのアクティブな呼び出しが作成されます。t によって次の動作が適用されます。会議Location-Basedルーティングを使用します。
+Location-Based ルーティングを有効にしたユーザーが PSTN エンドポイントのコンサルティング通話転送を開始すると (前の図に示すように)、PSTN ユーザーと Skype for Business ユーザー A の間の 1 つの通話、および Skype for Business ユーザー A と Skype for Business の間のもう 1 つの通話が作成されます。 ユーザー B。次の動作は、電話会議Location-Basedによって適用されます。
 
-- PSTN 通話をルーティングする SIP トランクが、Skype for Business ユーザー B (つまり、転送先) があるネットワーク サイトに PSTN 通話を再ルーティングする権限がある場合、通話転送が許可されます。それ以外の場合は、コンサルティング呼び出しの転送がブロックされます。 この承認は、PSTN エンドポイントにアクティブな呼び出しをルーティングする SIP トランクと同じネットワーク サイトにある転送先の場所に基づいて実行されます。
+- PSTN 通話をルーティングする SIP トランクが、Skype for Business ユーザー B (つまり、転送先) があるネットワーク サイトに PSTN 通話を再ルーティングする権限がある場合は、通話転送が許可されます。それ以外の場合は、コンサルティング通話の転送がブロックされます。 この承認は、PSTN エンドポイントにアクティブな呼び出しをルーティングする SIP トランクと同じネットワーク サイトにある転送先の場所に基づいて実行されます。
 
 - 着信 PSTN 通話をルーティングする SIP トランクが、転送先 (Skype for Business ユーザー B) があるネットワーク サイトへの通話のルーティングが承認されていない場合、または転送先が不明なネットワーク サイトにある場合、PSTN エンドポイントへのコンサルティング通話転送 (つまり、通話転送ターゲット) がブロックされます。
 
@@ -139,7 +139,7 @@ Location-Based ルーティングを有効にしたユーザーが PSTN エン�
 Get-CsServerApplication -Identity Service:Registrar:<Pool FQDN>
 ```
 
-このコマンドレットでは \<Pool FQDN\> 、会議アプリケーションのルーティングLocation-Based有効にするプールです。
+このコマンドレットでは、 \<Pool FQDN\> 会議アプリケーションのルーティングLocation-Based有効にするプールです。
 
 このコマンドレットは、ユーザーがホストするアプリケーションの一Skype for Business Server、各アプリケーションの優先度の値を返します。 会議Location-Basedルーティング アプリケーションには、"UdcAgent" アプリケーションより大きく、"DefaultRouting"、"ExumRouting"、および "OutboundRouting" アプリケーションよりも小さい優先度の値を割り当てる必要があります。 会議用ルーティング アプリケーションLocation-Based割り当てるには、"UdcAgent" アプリケーションの優先度の値より 1 ポイント高い値を割り当てすることをお勧めします。
 
@@ -151,7 +151,7 @@ Location-Based 会議用ルーティング アプリケーションの適切な�
 New-CsServerApplication -Identity Service:Registrar:<Pool FQDN>/LBRouting -Priority <Application Priority> -Enabled $true -Critical $true -Uri <http://www.microsoft.com/LCS/LBRouting>
 ```
 
-例:
+次に例を示します。
 
 ```powershell
 New-CsServerApplication -Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting -Priority 3 -Enabled $true -Critical $true -Uri http://www.microsoft.com/LCS/LBRouting
@@ -160,7 +160,7 @@ New-CsServerApplication -Identity Service:Registrar:LS2013CU2LBRPool.contoso.com
 このコマンドレットを使用した後、プール内のすべてのフロントエンド サーバー、または会議Standard Editionルーティング アプリケーションが有効になっている Location-Based サーバーを再起動します。
 
 > [!IMPORTANT]
-> Location-Based会議またはコンサルティング転送へのルーティングの適用は、該当するプール内のすべてのフロント エンド サーバーまたは Standard Edition サーバーが再起動されるまで適用されません。 前のコマンドレット **で -Critical** **$true** に設定すると、Skype for Business Serverサービスが直ちに再起動されます。 これらのサービスを直ちに再起動しない場合は **、-Critical** を **$false** に設定してから **、Set-CsServerApplication** を使用して、サービスの再起動後 **に -Critical** を **$true** に変更します。
+> Location-Based会議またはコンサルティング転送へのルーティングの適用は、該当するプール内のすべてのフロント エンド サーバーまたは Standard Edition サーバーが再起動されるまで適用されません。 前のコマンドレット **で -Critical** **$true** に設定すると、Skype for Business Serverサービスが直ちに再起動されます。 これらのサービスを直ちに再起動しない場合は、- **Critical** を **$false** に設定してから、 **Set-CsServerApplication** を使用して、サービスの再起動後に **-Critical** を **$true** に変更します。
 
 Location-Based 会議用ルーティング アプリケーションが正常に有効にされ、すべての適用可能なサーバーが再起動されると、Location-Based ルーティングが有効になっている Skype for Business ユーザーが組織する会議はすべて、PSTN 有料バイパスを防止するために監視されます。
 

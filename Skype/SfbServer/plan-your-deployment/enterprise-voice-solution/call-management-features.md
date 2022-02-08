@@ -1,8 +1,8 @@
 ---
 title: 通話管理機能の計画を立Skype for Business
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5f557345-5a04-45d6-b274-c02dbfe41b33
 description: サポートされている通話管理機能の概要をSkype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: 459ec4558e39f01c87679227face57232f08ce41
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b1c149b70532ba673f28dae84c97fcf16353fe31
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846330"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387765"
 ---
 # <a name="plan-for-call-management-features-in-skype-for-business"></a>通話管理機能の計画を立Skype for Business
 

@@ -1,8 +1,8 @@
 ---
 title: 従来のマージの概要ページ
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0e298963-cc86-445a-87f4-d611ef2167ee
 description: コミュニケーション サーバー 2007 R2 Microsoft Office Lync Server 2013 への移行では、トポロジ ビルダーの機能を使用して既存のトポロジをマージします。 概要画面では、Office Communications Server 2007 R2 を Lync Server 2013 トポロジ ビルダー構成に統合する構成中に行ったすべてのアクションと選択を指定します。
-ms.openlocfilehash: 8d4e8d7adc2bd2469c60b3e9e4cc9b3f1c37650e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d358864de77aceffc31a13c80bc888788562f001
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847580"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384395"
 ---
 # <a name="legacy-merge-summary-page"></a>従来版のマージの概要ページ
 

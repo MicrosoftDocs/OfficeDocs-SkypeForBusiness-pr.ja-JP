@@ -1,8 +1,8 @@
 ---
 title: ユーザー テーブル
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a8d71373-4b57-4245-9f02-f7fc0d9fcd3c
 description: Users テーブルはサポート テーブルです。 テーブル内の各レコードには、データベース内のレコードを持つ呼び出しまたはセッションに関係する 1 人のユーザーに関する情報が格納されます。
-ms.openlocfilehash: a5ccb5abdb616b562491e77aae9256c98fa83d9d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 66f3e1247d29969ecef36a5d6247510b5eae022c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864614"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389779"
 ---
 # <a name="users-table"></a>ユーザー テーブル
  

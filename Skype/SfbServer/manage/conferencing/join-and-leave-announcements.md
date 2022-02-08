@@ -1,8 +1,8 @@
 ---
 title: 会議への参加を管理し、会議のアナウンスをSkype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
 description: '概要: 会議への参加を管理し、会議にアナウンスを残す方法についてSkype for Business Server。'
-ms.openlocfilehash: ee624ee347bb52f4bbdf4fbfae42f5303c8b6a54
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ac259999daaa2fed0988e59d9ab40b9370a2fba8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837669"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385785"
 ---
 # <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>会議への参加を管理し、会議のアナウンスをSkype for Business Server
  
@@ -38,7 +38,7 @@ ms.locfileid: "60837669"
 
 1. RTCUniversalServerAdmins グループのメンバーか、Cs-ServerAdministrator または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。
     
-2. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
+2. 管理シェルをSkype for Business Serverする **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[**2015** 年Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 3. コマンド プロンプトで次のコマンドを実行します。
     
@@ -66,4 +66,4 @@ Set-CsDialinConferencingConfiguration -Identity site:Redmond
 -EntryExitAnnouncementsType ToneOnly
 ```
 
-構文やパラメーターの完全なリストを含む詳細については [、「Set-CsDialInConferencingConfiguration」を参照してください](/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps)。
+構文やパラメーターの完全なリストなど、詳細については、「 [Set-CsDialInConferencingConfiguration」を参照してください](/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps)。

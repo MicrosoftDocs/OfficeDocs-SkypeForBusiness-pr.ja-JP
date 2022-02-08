@@ -1,8 +1,8 @@
 ---
 title: 2015 年Skype for Business Serverパフォーマンス ツールのパフォーマンス シナリオ
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 12/17/2015
 manager: serdars
 audience: ITPro
@@ -14,18 +14,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d972382f-971e-4fa7-b7ee-8ab9d3a5c11d
 description: ストレスとパフォーマンス ツールを使用して、パフォーマンスSkype for Business Serverテストを行う 2015 年を構成するために必要なタスク。
-ms.openlocfilehash: 0a04d94bc0c43b9de2043b9ee601a294b7945a45
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3f8818018120a7230bcdaaa9b6cd04009e761640
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841109"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390059"
 ---
 # <a name="performance-scenarios-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>2015 年Skype for Business Serverパフォーマンス ツールのパフォーマンス シナリオ
  
 ストレスとパフォーマンス ツールを使用して、パフォーマンスSkype for Business Serverテストを行う 2015 年を構成するために必要なタスク。
   
-Skype for Business Server 2015 ストレスとパフォーマンス ツール (LyncPerfTool) を実行するには、Skype for Business Server 2015 トポロジを最初に、関連するシナリオ用に構成する必要があります。 2015 Skype for Business Server構成されていない場合、または正しく構成されていない場合、負荷シミュレーションが失敗する可能性が非常に高い。 2015 Skype for Business Serverストレスとパフォーマンス ツールでは、ツールのダウンロードの一環として、Skype for Business Server 管理シェル スクリプトと基本的なリソース ファイルの例[を提供しています](https://www.microsoft.com/download/details.aspx?id=50367)。 これらは、展開を構成するための開始点としてSkype for Business Serverできます。 この記事では、提供されるWindows PowerShellについて説明します。
+Skype for Business Server 2015 ストレスとパフォーマンス ツール (LyncPerfTool) を実行するには、Skype for Business Server 2015 トポロジを最初に、関連するシナリオ用に構成する必要があります。 2015 Skype for Business Server構成されていない場合、または正しく構成されていない場合、負荷シミュレーションが失敗する可能性が非常に高い。 2015 Skype for Business Server 2015 Stress and Performance Tool では、ツールのダウンロードの一環として、Skype for Business Server 管理シェル スクリプトと基本的なリソース ファイルの例[を提供しています](https://www.microsoft.com/download/details.aspx?id=50367)。 これらは、展開を構成するための開始点としてSkype for Business Serverできます。 この記事では、提供されるWindows PowerShellについて説明します。
   
 > [!NOTE]
 > このトピックでは、2015 年を構成する方法Skype for Business Server、その他の計画と展開に関するトピックがあります。 2015 年 2015 年Windows PowerShellのSkype for Business Server詳細については、「Insert introduction HERE」の「Skype for Business Server管理シェル」のドキュメントを参照してください。 

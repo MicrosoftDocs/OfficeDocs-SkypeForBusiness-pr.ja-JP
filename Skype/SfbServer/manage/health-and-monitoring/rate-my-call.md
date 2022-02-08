@@ -1,8 +1,8 @@
 ---
 title: '[通話の評価] Skype for Business Server'
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
 description: '概要: [通話の評価] 機能について、Skype for Business Server。'
-ms.openlocfilehash: f19424edfb4169a27e10a8b5ac1624065e6288dd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 27fbfa68026feeef54d478ba473961601db0ae8d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864834"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390129"
 ---
 # <a name="rate-my-call-in-skype-for-business-server"></a>[通話の評価] Skype for Business Server
 
@@ -110,7 +110,7 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 -R
 
  **[QoeMetrics]。[dbo]。[CallQualityFeedback]** この表には、"Star" 投票のポーリング結果と、有効な場合の顧客フィードバックが含まれている。
 
-テーブルからのデータは **\* 、[Table.Name]** クエリからの選択を使用するか、クエリを使用してMicrosoft SQL Server Management Studio。
+テーブルからのデータは、[**\*Table.Name]** クエリからの選択を使用するか、クエリを使用してMicrosoft SQL Server Management Studio。
 
 次のSQLクエリを使用できます。
 
@@ -190,7 +190,7 @@ SELECT
 
 ## <a name="updating-token-definitions"></a>トークン定義の更新
 
-最新のSkype for Businessクライアントは、[QoeMetrics]に存在しない可能性がある新しい問題トークン ID \> (100) を報告します。[dbo]。[CallQualityFeedbackTokenDef] テーブル。 データベース テーブルを最新のトークン定義で更新するには、次の SQL コマンドを使用して監視データベースで実行Microsoft SQL Server Management Studio。 このコマンドは[QoeMetrics]のすべてのエントリを置き換える。[dbo]。[CallQualityFeedbackTokenDef] テーブル。
+最新のSkype for Businessクライアントは、[QoeMetrics]に存在しない可能性がある新しい問題トークン ID (\>100) を報告します。[dbo]。[CallQualityFeedbackTokenDef] テーブル。 データベース テーブルを最新のトークン定義で更新するには、次の SQL コマンドを使用して監視データベースで実行Microsoft SQL Server Management Studio。 このコマンドは[QoeMetrics]のすべてのエントリを置き換える。[dbo]。[CallQualityFeedbackTokenDef] テーブル。
 
 ```SQL
 DELETE FROM [CallQualityFeedbackTokenDef];

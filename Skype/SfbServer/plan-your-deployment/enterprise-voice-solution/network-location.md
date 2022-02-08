@@ -1,8 +1,8 @@
 ---
 title: ネットワーク内の場所を決定するために使用するネットワーク要素をSkype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7538779d-055d-44ed-8dd7-11c45fc1b9f5
 description: 発信者を E9-1-1 展開の場所にマップするために使用するネットワーク コンポーネントを計画するために必要なSkype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: 6de3d960dd68dfc0f34ce0e67fef569c36e44612
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2ec6f249bc1b502d26a98d67842ab8b7a1eaccc3
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861114"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386415"
 ---
 # <a name="define-the-network-elements-used-to-determine-location-in-skype-for-business-server"></a>ネットワーク内の場所を決定するために使用するネットワーク要素をSkype for Business Server
  
@@ -48,7 +48,7 @@ ms.locfileid: "60861114"
   
 ## <a name="wireless-access-point"></a>ワイヤレス アクセス ポイント
 
-クライアントがワイヤレスでネットワークに接続する場合、場所の要求では WAP の BSSID アドレスを使用してその場所を特定します。 クライアントがローミングしている場合、示されている WAP が最も近い WAP ではない可能性があります。また、建物の別のフロア上の WAP を受け取る可能性もあります。 場所のおおよその位置を示すために、場所の値の先頭に [Near] 記述子または **[Closeto]** 記述子 **を追加** します。
+クライアントがワイヤレスでネットワークに接続する場合、場所の要求では WAP の BSSID アドレスを使用してその場所を特定します。 クライアントがローミングしている場合、示されている WAP が最も近い WAP ではない可能性があります。また、建物の別のフロア上の WAP を受け取る可能性もあります。 場所のおおよその位置を示すために、場所の値の先頭に **[Near]** 記述子または **[Closeto] 記述子を追加** します。
   
 場所に関するこの方法では、各 WAP の BSSID が静的なものであることを前提としています。 ただし、WAP ベンダーが動的に割り当てられた BSSID を使用している場合、WAP から取得される BSSID は変更される可能性があります (WAP 構成の変更後に発生する可能性があります)、ワイヤレス クライアントは場所を受信しない状況で残される可能性があります。 この可能性を回避するには、各 WAP で使用される可能性のあるすべての BSSID アドレスに対して、位置情報サービス データベースに ERL を設定する必要があります。 
   

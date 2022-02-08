@@ -1,8 +1,8 @@
 ---
 title: データベースのインストールと作成
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
 ROBOTS: NOINDEX, NOFOLLOW
 description: 展開用に作成するデータベースを選択します。 既定では、データベースは定義されたサイトの定義済みの SQL Server に作成され、データベースを配置する SQL Server に基づいてデータベース ファイルを自動的に展開および構成します。
-ms.openlocfilehash: 9dd5e0f0ce800489ab937feae1cda68809540d81
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 446f23508ccc835d873e0ddd8ec183e80e40450d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849110"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386045"
 ---
 # <a name="install-and-create-databases"></a>データベースのインストールと作成
 
@@ -31,7 +31,7 @@ ms.locfileid: "60849110"
 > [!CAUTION]
 > データベースSQL Serverに対応するために、インスタンス用に構成されている必要があります (存在する場合)、ファイアウォール ポートを開いて、データベースを展開するインスタンスに合わせて開く必要があります。 詳細については、「Configure [SQL Server](/previous-versions/office/lync-server-2013/lync-server-2013-configure-sql-server-for-lync-server)
 
- **Advanced**: [詳細] ボタンをSQL Serverし、[詳細設定] ボタンをクリックして、データベース ファイルの場所のオプションを選択SQL Server。 高度なデータベース ファイル配置の詳細については、「[Database Installation Using Lync Server Management Shell](/previous-versions/office/lync-server-2013/lync-server-2013-database-installation-using-lync-server-management-shell)」を参照してください。
+ **Advanced**: [詳細] ボタンSQL Serverクリックし、[詳細設定]  ボタンをクリックして、データベース 上のデータベース ファイルの場所のオプションをSQL Server。 高度なデータベース ファイル配置の詳細については、「[Database Installation Using Lync Server Management Shell](/previous-versions/office/lync-server-2013/lync-server-2013-database-installation-using-lync-server-management-shell)」を参照してください。
 
  [**戻る**]: このボタンをクリックすると、前画面に戻ります (このダイアログへの到達方法によっては、必ずしも利用できない場合があります)。
 

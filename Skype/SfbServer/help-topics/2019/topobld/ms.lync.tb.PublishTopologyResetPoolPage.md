@@ -1,8 +1,8 @@
 ---
 title: トポロジの公開でのプールのリセット ページ
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,18 +15,18 @@ ms.localizationpriority: medium
 ms.assetid: de13aab5-ac3c-44ac-9484-f97cafcf203a
 ROBOTS: NOINDEX, NOFOLLOW
 description: このドキュメントは暫定版であり、変更される可能性があります。空白のトピックがプレースホルダーとして含まれています。
-ms.openlocfilehash: b3fa8e43f359758103ae2732de6fa3c27ae37f4e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 479eb295f890ed2aba07274d16f95559d96a6522
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858464"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384905"
 ---
 # <a name="publish-topology-reset-pool-page"></a>トポロジの公開でのプールのリセット ページ
  
 このドキュメントは暫定版であり、変更される可能性があります。空白のトピックがプレースホルダーとして含まれています。
   
-新しいコンピューターを既存のプールに追加するには、プールをリセットして、プールのすべてのWindows Fabric間の接続を再定義する必要があります。 これを行うには、サーバーを追加したプールを選択し、[次へ] を **クリックします**。
+新しいコンピューターを既存のプールに追加するには、プールをリセットして、プールのすべてのWindows Fabric間の接続を再定義する必要があります。 これを行うには、サーバーを追加したプールを選択し、[次へ] をクリック **します**。
   
 ## <a name="see-also"></a>関連項目
 

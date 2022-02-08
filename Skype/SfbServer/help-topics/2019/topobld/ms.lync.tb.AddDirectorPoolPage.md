@@ -1,8 +1,8 @@
 ---
 title: ディレクター プールを追加する
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 751ead48-b97f-4c6f-ba6b-14d446473658
 ROBOTS: NOINDEX, NOFOLLOW
 description: ディレクター プールの FQDN を定義するには、負荷分散されたプール内の 2 つ以上のディレクターで構成される複数コンピューター プールまたは単一コンピューター プールを選択します。 ディレクター プールまたは単一ディレクターの FQDN への接続に使用する完全修飾ドメイン名 (FQDN) も入力する必要があります。 ディレクター コンピューターのプールの場合、これはロード バランサー機器の仮想 IP アドレスのドメイン ネーム システム (DNS) エントリまたは DNS 負荷分散の DNS エントリです。
-ms.openlocfilehash: 70df13a0339c11d47e907ff70be395f613cdb1fe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5591f8de15a898a107c25ca7e2cf29649a827110
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839339"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385005"
 ---
 # <a name="add-director-pool"></a>ディレクター プールの追加
  

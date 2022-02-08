@@ -1,8 +1,8 @@
 ---
 title: エッジ サーバーのシナリオ (Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
 description: '概要: これらのシナリオを確認して、エッジ サーバー トポロジを計画する場合に役立Skype for Business Server。'
-ms.openlocfilehash: f70dbf858757469d21ebb8b2e6d1ae5192ed0118
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c900d7e6bd8649ffd0e45f1033581ee0523724cb
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838529"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387925"
 ---
 # <a name="edge-server-scenarios-in-skype-for-business-server"></a>エッジ サーバーのシナリオ (Skype for Business Server
  
@@ -35,7 +35,7 @@ ms.locfileid: "60838529"
   
 ディレクター (省略可能なコンポーネント) は、どの図にも含めかけますが、その詳細については別途お読みください (他の計画に関するトピックに記載されています)。
   
-上で説明したように、図にはサンプル IPv6 データがあります。 「Plan for [Edge Server deployments in Skype for Business Server」](edge-server-deployments.md)のドキュメントの大部分は IPv4 を参照しますが、IPv6 を使用する場合は確実にサポートされています。 割り当てられたアドレス空間に IPv6 アドレスが必要であり、IPv4 IP と同様に、内部および外部のアドレス指定を使用する必要があります。 IPv4 と IPv6 Windows個別のネットワーク スタックであるデュアル スタック機能を使用できます。 これにより、必要に応じて、IPv4 アドレスと IPv6 アドレスを同時に割り当てできます。
+上で説明したように、図にはサンプル IPv6 データがあります。 「Plan [for Edge Server deployments in Skype for Business Server](edge-server-deployments.md)」のドキュメントの大部分は IPv4 を参照しますが、IPv6 を使用する場合は確実にサポートされています。 割り当てられたアドレス空間に IPv6 アドレスが必要であり、IPv4 IP と同様に、内部および外部のアドレス指定を使用する必要があります。 IPv4 と IPv6 Windows個別のネットワーク スタックであるデュアル スタック機能を使用できます。 これにより、必要に応じて、IPv4 アドレスと IPv6 アドレスを同時に割り当てできます。
   
 NAT64 (IPv6 ~ IPv4) と NAT66 (IPv6 ~ IPv6) を許可する NAT デバイスがあります。これは、Skype for Business Server で使用するために有効です。
   

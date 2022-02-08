@@ -1,8 +1,8 @@
 ---
 title: 通話受付管理の計画を立Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: 通話受付管理について、メディア品質が低い場合に通話が行えなSkype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: 6260321a29ad138fae41eacb9a1bee5d322d1684
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e0843ef922bc928b5615425f96461e5262a6077e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841079"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387815"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>通話受付管理の計画を立Skype for Business Server
 
@@ -37,7 +37,7 @@ ms.locfileid: "60841079"
 このセクションでは、通話受付管理機能について説明し、CAC を計画する方法について説明します。
 
 > [!NOTE]
-> Skype for Business Serverには、エンタープライズ VoIP受付管理 (CAC)、緊急サービス (E9-1-1)、メディア バイパスの 3 つの高度な機能があります。 これら 3 つの機能すべてに共通する計画情報の概要については、「ネットワーク設定」を参照エンタープライズ VoIP高度な機能[Skype for Business Server。](network-settings-for-advanced-features.md)
+> Skype for Business Serverには、エンタープライズ VoIP受付管理 (CAC)、緊急サービス (E9-1-1)、メディア バイパスの 3 つの高度な機能があります。 これら 3 つの機能すべてに共通する計画情報の概要については、「ネットワークの高度な機能のネットワークエンタープライズ VoIP[を参照](network-settings-for-advanced-features.md)Skype for Business Server。
 
 次の 4 つの主なSkype for Business Server CAC デザインが提供されます。
 
@@ -86,13 +86,13 @@ CAC ポリシーのために失敗する呼び出しの場合、呼び出しを�
 
 ### <a name="call-admission-control-of-outside-users"></a>外部ユーザーの通話受付管理
 
-通話受付管理は、組織の制限を超Skype for Business Serverされません。 CAC は、インターネットを通過するメディア トラフィックには適用できません。これは、ユーザーが管理Skype for Business Server。 CAC チェックは、呼び出し先エンドポイントが組織に属している場合にエンタープライズ ネットワークを流れる通話の部分に対して実行され、エッジ サーバーがネットワーク構成に追加されました (「通話受付管理の展開[: Skype for Business Server](../../deploy/deploy-enterprise-voice/final-checklist.md)の最終チェックリスト」を参照してください。 呼び出されたエンドポイントがフェデレーション ユーザーや PIC ユーザーなどの組織に属していない場合、帯域幅ポリシーチェックは実行されません。発信呼び出しでは CAC の制限は無視されます。
+通話受付管理は、組織の制限を超Skype for Business Serverされません。 CAC は、インターネットを通過するメディア トラフィックには適用できません。これは、ユーザーが管理Skype for Business Server。 CAC チェックは、呼び出し先エンドポイントが組織に属し、エッジ サーバーがネットワーク構成に追加されている場合に、エンタープライズ ネットワークを流れる通話の部分に対して実行されます。詳細については、「通話受付管理の展開[: Skype for Business Server](../../deploy/deploy-enterprise-voice/final-checklist.md) の最終チェックリスト」を参照してください。 呼び出されたエンドポイントがフェデレーション ユーザーや PIC ユーザーなどの組織に属していない場合、帯域幅ポリシーチェックは実行されません。発信呼び出しでは CAC の制限は無視されます。
 
 ### <a name="call-admission-control-of-pstn-connections"></a>PSTN 接続の通話受付管理
 
 通話受付管理は、IP/PBX、PSTN ゲートウェイ、または SIP トランクに接続されているかどうかに関係なく、仲介サーバーで強制可能です。 仲介サーバーはバック to バック ユーザー エージェント (B2BUA) なので、メディアを終了します。 この接続側には、Skype for Business Server に接続されている側と、PSTN ゲートウェイ、IP/PBX、または SIP トランクに接続されているゲートウェイ側の 2 つの接続側があります。 PSTN 接続の詳細については、「[プラン for PSTN connectivity in Skype for Business Server」 を参照してください](pstn-connectivity-0.md)。
 
-メディア バイパスを有効にしない限り、仲介サーバーの両側に CAC を適用できます。 メディア バイパスが有効になっている場合、メディア トラフィックは仲介サーバーを通過するのではなく、クライアントとゲートウェイの間Skype for Business直接流れます。 この場合、CAC は不要です。 詳細については、「Plan [for media bypass in Skype for Business」 を参照してください](media-bypass.md)。
+メディア バイパスを有効にしない限り、仲介サーバーの両側に CAC を適用できます。 メディア バイパスが有効になっている場合、メディア トラフィックは仲介サーバーを通過するのではなく、クライアントとゲートウェイの間Skype for Business直接流れます。 この場合、CAC は不要です。 詳細については、「Plan [for media bypass in Skype for Business」を参照してください](media-bypass.md)。
 
 次の図は、メディア バイパスを有効にした場合と使用しない PSTN 接続に CAC がどのように適用されるのか示しています。
 
@@ -126,7 +126,7 @@ CAC ポリシーのために失敗する呼び出しの場合、呼び出しを�
 > [!NOTE]
 > すべてのネットワーク サイトはネットワーク地域に関連付けられています。たとえば、ポートランド、リノ、およびアルバカーキは北アメリカ地域に含まれています。この図には、帯域幅制限があり、CAC ポリシーが適用されている WAN リンクのみが示されています。シカゴ、ニューヨーク、デトロイトの各ネットワーク サイトは北アメリカ地域の楕円内に示されています。これらは帯域幅が制限されていないので、CAC ポリシーが不要であるためです。
 
-このトポロジ例の各コンポーネントについて、以下のセクションで説明します。 帯域幅の制限を含む、このトポロジの計画方法の詳細については、「例: Skype for Business Server での通話受付制御[の要件の収集」を参照してください](example-gathering-requirements.md)。
+このトポロジ例の各コンポーネントについて、以下のセクションで説明します。 帯域幅の制限を含む、このトポロジの計画方法の詳細については、「Example: Gathering requirements for call admission control in Skype for Business Server」[を参照してください](example-gathering-requirements.md)。
 
 ### <a name="identify-network-regions"></a>ネットワーク地域の特定
 
@@ -185,7 +185,7 @@ CAC 帯域幅ポリシーでは、次のいずれかまたはすべてを定義�
 > すべての CAC 帯域幅の値は、最大  *単方向帯域幅*  制限を表します。
 
 > [!NOTE]
-> 音声Skype for Business Server機能を使用すると、ユーザーへの着信呼び出しの帯域幅ポリシー チェックを上書きできます (ユーザーが発信呼び出しを行う場合は無効)。 セッションの確立後、使用帯域幅が正確に計上されます。 この設定は慎重に使用する必要があります。 詳細については、「展開」のドキュメントの「音声ポリシーの作成または変更」および[「Skype for Business](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)での PSTN 使用法レコードの構成」または「音声ポリシーの変更」および[「PSTN](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records)使用法レコードの構成」を参照してください。
+> 音声Skype for Business Server機能を使用すると、ユーザーへの着信呼び出しの帯域幅ポリシー チェックを上書きできます (ユーザーが発信呼び出しを行う場合は無効)。 セッションの確立後、使用帯域幅が正確に計上されます。 この設定は慎重に使用する必要があります。 詳細については、「展開」のドキュメントの「音声ポリシーを作成または変更し、[Skype for Business で PSTN](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) 使用法レコードを構成する」または「音声ポリシーの変更」および「[PSTN](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records) 使用法レコードの構成」を参照してください。
 
 セッションあたりの帯域幅使用率を最適化するには、使用される音声およびビデオのコーデック タイプを考慮します。特に、頻繁に使用されることが予想されるコーデックの帯域幅の割り当てが不足しないようにしてください。逆に、多くの帯域幅を必要とするコーデックがメディアで使用されないようにする場合は、このようなコーデックを使用できないようにセッションあたりの最大帯域幅を少なく設定する必要があります。音声の場合、状況によっては使用できないコーデックもあります。次に例を示します。
 

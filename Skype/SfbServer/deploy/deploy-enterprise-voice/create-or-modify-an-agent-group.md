@@ -1,8 +1,8 @@
 ---
 title: エージェント グループを作成または変更Skype for Business
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: '[応答グループ] でエージェント グループを作成または変更Skype for Business Server エンタープライズ VoIP。'
-ms.openlocfilehash: d4254a3851b434145eb3afa5cec1a721c51fe1f2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6428a5024922ff74e19404c481794e60e3304998
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853761"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388924"
 ---
 # <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>エージェント グループを作成または変更Skype for Business
  
@@ -74,7 +74,7 @@ ms.locfileid: "60853761"
   
 9. [**ルーティング方法**] で、グループのエージェントに通話をルーティングする方法を次のように指定します。
     
-   - アイドル時間が最も長いエージェントに最初に新しい呼び出しを提供するには(最も長い場合は [使用可能] または [非アクティブSkype for Businessが存在している) 場合は、[最長アイドル] を **クリックします**。 
+   - アイドル時間が最も長いエージェントに最初に新しい呼び出しを提供するには (最も長い場合は [使用可能] または [非アクティブSkype for Businessが存在している) 場合は、[最長アイドル] を **クリックします**。 
     
    - 新しい通話を、有効なすべてのエージェントに同時に提供するには、[**パラレル**] をクリックします。 通話は、最初に受け付けたエージェントに送られます。
     
@@ -82,7 +82,7 @@ ms.locfileid: "60853761"
     
    - 新しい通話を、常に [**エージェント**] リストでのリスト順でエージェントに提供するには、[**シリアル**] をクリックします。 
     
-   - 現在のプレゼンスに関係なく、Skype for Business と応答グループ アプリケーションに同時にサインインしているすべてのエージェントに新しい呼び出しを提供するには、[応答] を **クリックします**。 エージェントとして構成されているユーザーは、待機中のすべての呼び出しを確認し、待機中の呼び出しに任意の順序で応答できます。 呼び出しは、その呼び出しを受け入れる最初のエージェントに送信され、その後、他のエージェントは通話を表示しなくなりました。
+   - 現在のプレゼンスに関係なく、Skype for Business と応答グループ アプリケーションに同時にサインインしているすべてのエージェントに新しい呼び出しを提供するには、[応答] をクリック **します**。 エージェントとして構成されているユーザーは、待機中のすべての呼び出しを確認し、待機中の呼び出しに任意の順序で応答できます。 呼び出しは、その呼び出しを受け入れる最初のエージェントに送信され、その後、他のエージェントは通話を表示しなくなりました。
     
 10. [**エージェント**] で、エージェント リストの作成方法を指定します。
     
@@ -121,7 +121,7 @@ ms.locfileid: "60853761"
 
 1. RTCUniversalServerAdmins グループのメンバーまたは応答グループをサポートする定義済みの管理者の役割のいずれかのメンバーとしてログオンします。
     
-2. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
+2. 管理シェルをSkype for Business Serverする **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[**2015** 年Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 3. 新規エージェント グループを作成するには、**New-CsRgsAgentGroup** を使用します。既存のエージェント グループを変更するには、**Set-CsRgsAgentGroup** を使用します。コマンド ラインで、次のコマンドを実行します。
     

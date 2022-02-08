@@ -1,7 +1,7 @@
 ---
 title: 最初のチームとチャネルを作成する
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 audience: admin
@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fa8fe0934bbd607289dc370ede57cd5eac539207
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f5b8cf1295d29b8a74ec9b63b84c9568c15997e8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846120"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385335"
 ---
 # <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams で最初のチームとチャネルを作成する
 

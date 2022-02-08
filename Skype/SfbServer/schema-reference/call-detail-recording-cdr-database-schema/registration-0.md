@@ -1,8 +1,8 @@
 ---
 title: 登録ビュー
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8a42bc7d-3d4f-43c1-9e15-89b2ee419ade
 description: 登録ビューでは、ユーザー登録に関する情報を格納します。 このビューは、Lync Server 2013 で導入されました。
-ms.openlocfilehash: 62cfed96994f11ec7393bacc1e0b77edbe3374e7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ccd868c228b32f69240d6b2c7a10d4c07ac90d56
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842669"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384115"
 ---
 # <a name="registration-view"></a>登録ビュー
  
@@ -26,8 +26,8 @@ ms.locfileid: "60842669"
   
 |**列**|**データ型**|**詳細**|
 |:-----|:-----|:-----|
-|**SessionIdTime** <br/> |日付型  <br/> |セッション要求の時間。 セッションを一意に識別するために SessionIdSeq と組み合わせて使用されます。 詳細については[、「ダイアログ」の表Skype for Business Server 2015](dialogs.md)を参照してください。 <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |セッションを識別するための ID 番号。 セッションを一意に識別するために SessionIdTime と組み合わせて使用されます。 詳細については[、「ダイアログ」の表Skype for Business Server 2015](dialogs.md)を参照してください。 <br/> |
+|**SessionIdTime** <br/> |日付型  <br/> |セッション要求の時間。 セッションを一意に識別するために SessionIdSeq と組み合わせて使用されます。 詳細については[、2015 Skype for Business Serverの](dialogs.md) Dialogs テーブルを参照してください。 <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |セッションを識別するための ID 番号。 セッションを一意に識別するために SessionIdTime と組み合わせて使用されます。 詳細については[、2015 Skype for Business Serverの](dialogs.md) Dialogs テーブルを参照してください。 <br/> |
 |**RegisterTime** <br/> |日付型  <br/> |登録が発生した時間。  <br/> |
 |**UserUri** <br/> |nvarchar(450)  <br/> |登録したユーザーの URI  <br/> |
 |**UserUriType** <br/> |nvarchar(256)  <br/> |登録したユーザーの URI の種類。 詳細については [、UriTypes テーブル](uritypes.md) を参照してください。 <br/> |
@@ -50,7 +50,7 @@ ms.locfileid: "60842669"
 |**IsUserServiceAvailable** <br/> |ビット  <br/> |登録時に UserService が使用可能であったかどうかを示します。  <br/> |
 |**IsPrimaryRegistrar** <br/> |ビット  <br/> |登録がプライマリ レジストラーを使用して行われたかどうかを示します。  <br/> |
 |**DeviceMacAddress** <br/> |bigint  <br/> |登録されたデバイスの MAC アドレス。  <br/> |
-|**DeviceManufacturer** <br/> |nvarchar(256)  <br/> |登録されたデバイスの製造元。 詳細については[、2015](manufacturers.md) Skype for Business Serverの製造元の表を参照してください。 <br/> |
+|**DeviceManufacturer** <br/> |nvarchar(256)  <br/> |登録されたデバイスの製造元。 詳細については[、2015 Skype for Business Serverの製造元の](manufacturers.md)表を参照してください。 <br/> |
 |**DeviceHardwareVersion** <br/> |nvarchar(256)  <br/> |登録されたデバイスのハードウェア バージョン。 詳細については[、2015 Skype for Business Server HardwareVersions の](hardwareversions.md)表を参照してください。 <br/> |
    
 

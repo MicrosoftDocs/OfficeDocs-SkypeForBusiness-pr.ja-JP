@@ -1,8 +1,8 @@
 ---
 title: 仲介サーバー コンポーネント (Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 description: サポートされているトポロジ、M:N トランク、メディア バイパス、通話受付管理との関係など、Skype for Business Server の仲介サーバーについて説明します。
-ms.openlocfilehash: 10d35081e1b6af1d7ee634fa3507a9c6d46f3954
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: db825324ca1493e9ecf93ca9bacb4ed5e58c5a96
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861174"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387685"
 ---
 # <a name="mediation-server-component-in-skype-for-business-server"></a>仲介サーバー コンポーネント (Skype for Business Server
  
@@ -66,7 +66,7 @@ ms.locfileid: "60861174"
 
 Skype for Business Serverルーティングの目的でトランクの定義の柔軟性をサポートします。 トランクは、仲介サーバーとリッスン ポート番号の間の論理的な関連付けであり、ゲートウェイとリッスン ポート番号を使用します。 これは、いくつかのことを意味します。仲介サーバーは、同じゲートウェイに複数のトランクを持つ可能性があります。仲介サーバーは、異なるゲートウェイに対して複数のトランクを持つ場合があります。逆に、ゲートウェイは異なる仲介サーバーに対して複数のトランクを持つ可能性があります。
   
-トポロジ ビルダーを使用してトポロジにゲートウェイを追加するときに、ルート トランクSkype for Business作成する必要があります。 特定の仲介サーバーが処理できるゲートウェイの数は、ピーク時のサーバーの処理能力によって異なります。 [Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)のサーバー要件で説明されている Skype for Business Server の最小ハードウェア要件を満たす仲介サーバーをハードウェアに展開すると、スタンドアロンの仲介サーバーで約 1000 回の呼び出しを処理できます。 仲介サーバーはトランスコーディングを実行しますが、ゲートウェイがメディア バイパスをサポートしていない場合でも、複数のゲートウェイの呼び出しをルーティングします。
+トポロジ ビルダーを使用してトポロジにゲートウェイを追加するときに、ルート トランクSkype for Business作成する必要があります。 特定の仲介サーバーが処理できるゲートウェイの数は、ピーク時のサーバーの処理能力によって異なります。 Skype for Business Server の最小ハードウェア要件を満たすハードウェアに仲介サーバーを展開する場合は、「[Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) のサーバー要件」で説明されているとおり、スタンドアロンの仲介サーバーで約 1000 回の呼び出しを処理できます。 仲介サーバーはトランスコーディングを実行しますが、ゲートウェイがメディア バイパスをサポートしていない場合でも、複数のゲートウェイの呼び出しをルーティングします。
   
 通話ルートを定義する場合は、そのルートに関連付けられているトランクを指定しますが、そのルートに関連付けられている仲介サーバーは指定しません。 代わりに、トポロジ ビルダーを使用してトランクを仲介サーバーに関連付ける。 つまり、ルーティングは通話に使用するトランクを決定し、その後、そのトランクに関連付けられた仲介サーバーはその呼び出しのシグナリングを送信します。
   
@@ -88,13 +88,13 @@ Skype for Business Serverルーティングの目的でトランクの定義の�
   
 メディア バイパスと帯域幅の予約は同時に使用することはできません。 通話にメディア バイパスが使用されている場合、その通話に対して通話受付制御は実行されません。 この場合、その通話で、制限された帯域幅を使用するリンクが関わっていないことが前提となります。 仲介サーバーを含む特定の呼び出しに通話受付制御を使用する場合、その呼び出しはメディア バイパスを使用できません。
   
-メディア バイパスまたは通話受付管理の詳細については、「Plan for media [bypass in Skype for Business」](media-bypass.md)または「Plan for call admission control in Skype for Business Server」[を参照してください](call-admission-control.md)。
+メディア バイパスまたは通話受付管理の詳細については、「Plan [for media bypass in Skype for Business](media-bypass.md)」または「Plan for call admission control in Skype for Business Server」[を参照してください](call-admission-control.md)。
   
 ## <a name="enhanced-9-1-1-e9-1-1-and-mediation-server"></a>拡張 9-1-1 (E9-1-1) と仲介サーバー
 
 仲介サーバーには拡張機能が備え付け、拡張 9-1-1 (E9-1-1) サービス プロバイダーと正しく対話できます。 仲介サーバーで特別な構成は必要ない。 E9-1-1 の対話に必要な SIP 拡張機能は、ゲートウェイ ピア (PSTN ゲートウェイ、IP-PBX、または E9-1-1 サービス プロバイダーを含むインターネット テレフォニー サービス プロバイダーの SBC) とのやり取りのために、仲介サーバーの SIP プロトコルに既定で含まれています。
   
-E9-1-1 サービス プロバイダーへの SIP トランクを既存の仲介サーバー プールで終了できるかどうか、またはスタンドアロン仲介サーバーが必要かどうかは、E9-1-1 SBC が仲介サーバーのプールと対話できるかどうかによって異なります。 詳細については[、「M:N トランク」を参照Skype for Business Server。](m-n-trunk.md)
+E9-1-1 サービス プロバイダーへの SIP トランクを既存の仲介サーバー プールで終了できるかどうか、またはスタンドアロン仲介サーバーが必要かどうかは、E9-1-1 SBC が仲介サーバーのプールと対話できるかどうかによって異なります。 詳細については、「[M:N トランク」を参照Skype for Business Server](m-n-trunk.md)。
   
 ## <a name="media-bypass-and-mediation-server"></a>メディア バイパスと仲介サーバー
 
@@ -161,13 +161,13 @@ Microsoft Lync Server 2013 計画ツールを使用して、仲介サーバー�
  中央サイトの仲介サーバーを使用して、ブランチ サイトの IP-PBX ゲートウェイまたは PSTN ゲートウェイの通話をルーティングできます。 ただし、SIP トランクを展開する場合は、各トランクが終了するサイトに仲介サーバーを展開する必要があります。 中央サイトの仲介サーバーでブランチ サイトの IP-PBX ゲートウェイまたは PSTN ゲートウェイの通話をルーティングする場合は、メディア バイパスを使用する必要はありません。 ただし、メディア バイパスを有効にできる場合は、メディア パスが信号パスに従う必要がなくなったため、メディア パスの待機時間が短縮され、メディア品質が向上します。 メディア バイパスによって、プールの処理負荷も減少します。
   
 > [!NOTE]
-> メディア バイパスは、すべての PSTN ゲートウェイ、IP-PBX、および SBC と相互運用できるとは限りません。 Microsoft は、認定パートナーと一緒に一連の PSTN ゲートウェイと SBC をテストし、Cisco IP-PBX でいくつかのテストを行いました。 メディア バイパスは、Unified Communications Open Interoperability Program - Lync Server に記載されている製品およびバージョン [でのみサポートされます](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)。 
+> メディア バイパスは、すべての PSTN ゲートウェイ、IP-PBX、および SBC と相互運用できるとは限りません。 Microsoft は、認定パートナーと一緒に一連の PSTN ゲートウェイと SBC をテストし、Cisco IP-PBX でいくつかのテストを行いました。 メディア バイパスは、「 [Unified Communications Open Interoperability Program - Lync Server](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)」に記載されている製品とバージョンでのみサポートされます。 
   
-ブランチ サイトの復元が必要な場合は、存続可能ブランチ アプライアンスまたはフロント エンド サーバー、仲介サーバー、およびゲートウェイの組み合わせをブランチ サイトに展開する必要があります。 (ブランチ サイトの復元の前提は、プレゼンスと会議がサイトで回復性を持たないという前提です)。音声のブランチ サイト計画のガイダンスについては、「[プラン for エンタープライズ VoIP復元」を参照](enterprise-voice-resiliency.md)Skype for Business Server。
+ブランチ サイトの復元が必要な場合は、存続可能ブランチ アプライアンスまたはフロント エンド サーバー、仲介サーバー、およびゲートウェイの組み合わせをブランチ サイトに展開する必要があります。 (ブランチ サイトの復元の前提は、プレゼンスと会議がサイトで回復性を持たないという前提です)。音声のブランチ サイト計画のガイダンスについては、「[プラン for エンタープライズ VoIP復元」を参照Skype for Business Server](enterprise-voice-resiliency.md)。
   
 IP-PBX とのやり取りでは、IP-PBX が複数の早期ダイアログや RFC 3960 の対話を使用した初期のメディア操作を正しくサポートしていない場合は、IP-PBX から Skype for Business エンドポイントへの着信呼び出しに対する最初のいくつかの単語をクリッピングできます。 中央サイトの仲介サーバーが、ブランチ サイトでルートが終了する IP-PBX の呼び出しをルーティングする場合は、シグナリングの完了に必要な時間が長いので、この問題はさらに深刻になる可能性があります。 この動作が発生した場合、最初の数語のクリッピングを減らす唯一の方法は、ブランチ サイトに仲介サーバーを展開することです。
   
 また、中央サイトに TDM PBX がある場合や、IP-PBX によって PSTN ゲートウェイの必要性がなくならない場合は、仲介サーバーおよび PBX に接続する通話ルートにゲートウェイを展開する必要があります。
   
 > [!NOTE]
-> スタンドアロン仲介サーバーのメディア パフォーマンスを向上させるために、これらのサーバー上のネットワーク アダプターで受信側スケーリング (RSS) を有効にする必要があります。 RSS は、着信パケットがサーバーの複数のプロセッサによって平行して処理されるのを可能にします。 詳細については[、「Receive-Side Scaling Enhancements in Windows」を参照してください](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11))。 RSS を有効にする方法の詳細については、ネットワーク アダプターのドキュメントを参照してください。 
+> スタンドアロン仲介サーバーのメディア パフォーマンスを向上させるために、これらのサーバー上のネットワーク アダプターで受信側スケーリング (RSS) を有効にする必要があります。 RSS は、着信パケットがサーバーの複数のプロセッサによって平行して処理されるのを可能にします。 詳細については、「[Receive-Side Scaling Enhancements in Windows」を参照してください](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11))。 RSS を有効にする方法の詳細については、ネットワーク アダプターのドキュメントを参照してください。 

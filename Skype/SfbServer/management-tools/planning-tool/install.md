@@ -1,8 +1,8 @@
 ---
 title: 2015 年に計画ツールSkype for Business Serverする
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
 description: Skype for Business Server 2015 計画ツールを使用して Skype for Business Server 2015 インフラストラクチャの設計と計画を開始する前に、まず計画ツールをインストールする必要があります。 計画ツールは、2015 年にインストールする予定のドメインまたはインフラストラクチャの一部であるワークステーションまたはサーバーに展開するSkype for Business Serverではありません。 計画ツールに関連する Readme ファイルは、ツールのインストールと使用に関する重要な情報を詳細に示します。 わかりやすくするために、Readme ファイルの情報の一部をここに転載します。
-ms.openlocfilehash: 5d9dc6204647daf03adfab6fcf3cf091d7ba5415
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c635672ff89bae4da3c76fb973246d8cb332c403
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850890"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388065"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>2015 年に計画ツールSkype for Business Serverする
 
@@ -58,9 +58,9 @@ Skype for Business Server 2015 計画ツールを使用して Skype for Business
 
 2. [Windows エクスプローラーまたはコマンド ウィンドウを使用して、計画ツールのインストール ファイルをダウンロードしたディレクトリを探します。
 
-3. 次のSkypeForBusinessPlanningTool.msi。 Windows Explorer で、ファイルをダブルクリックします。 コマンド ウィンドウで、ファイルの名前を入力し **、Enter** キーを押してファイルを実行します。
+3. 次のSkypeForBusinessPlanningTool.msi。 Windows Explorer で、ファイルをダブルクリックします。 コマンド ウィンドウで、ファイルの名前を入力し、 **Enter** キーを押してファイルを実行します。
 
-4. **2015 年 2015** 年Skype for Business Serverの [ようこそ] ページで、[次へ] を **クリックします**。
+4. **2015 年 2015** 年Skype for Business Serverツールセットアップ ウィザードの [ようこそ] ページで、[次へ] をクリック **します**。
 
 5. **[使用許諾契約書]** を読んでから、使用許諾契約書に同意する場合には **[使用許諾契約書に同意します]** チェック ボックスをオンにして、**[次へ]** をクリックします。
 

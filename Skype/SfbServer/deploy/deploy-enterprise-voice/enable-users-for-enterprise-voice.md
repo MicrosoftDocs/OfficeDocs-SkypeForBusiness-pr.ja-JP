@@ -1,8 +1,8 @@
 ---
 title: ユーザーがユーザーのエンタープライズ VoIPを有効Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
 description: '概要: ユーザーが通話を行い、受信する方法については、ユーザーが エンタープライズ VoIPを使用Skype for Business Server。'
-ms.openlocfilehash: 3dab9488b1d184f5d3dd215f4012933de1ca0245
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a910ecb8638b926be9d04234c6f429a97cbd28f2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864344"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387343"
 ---
 # <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>ユーザーがユーザーのエンタープライズ VoIPを有効Skype for Business Server
  
@@ -40,7 +40,7 @@ ms.locfileid: "60864344"
     
 ### <a name="to-enable-a-user-account-for-enterprise-voice"></a>ユーザー アカウントでユーザー アカウントを有効にするにはエンタープライズ VoIP
 
-1. RTCUniversalServerAdmins グループのメンバーとして、または **CsVoiceAdministrator 、CsServerAdministrator、** または **CsAdministrator** 管理役割のメンバーとしてコンピューターにログオンします。
+1. RTCUniversalServerAdmins グループのメンバーとして、または **CsVoiceAdministrator**、**CsServerAdministrator、または CsAdministrator** 管理役割のメンバーとしてコンピューターにログオンします。
     
 2. [コントロール Skype for Business Server] を開きます。
     
@@ -52,22 +52,22 @@ ms.locfileid: "60864344"
     
 6. [**編集**] メニューの [**詳細の表示**] をクリックします。
     
-7. [ユーザーの **編集Skype for Business Server] ページ** の [テレフォニー]**で、[** ユーザーの設定]**をエンタープライズ VoIP。**
+7. [ユーザーの **編集Skype for Business Server] ページ** の [テレフォニー] **で、[** ユーザー] を **クリックエンタープライズ VoIP**。
     
-8. [ **回線 URI]** をクリックし、正規化された一意の電話番号 (たとえば) を入力します `tel:+14255550200` 。
+8. [ **回線 URI] を** クリックし、正規化された一意の電話番号 (たとえば) を入力します `tel:+14255550200`。
     
 9. [**確定**] をクリックします。
     
 エンタープライズ VoIP のユーザーの有効化を完了するには、グローバル (既定で割り当てられている) またはユーザー固有の音声ポリシーとダイヤル プランがユーザーに割り当てられている必要があります。既定では、すべてのユーザーにグローバル音声ポリシーとダイヤル プランが割り当てられます。 ユーザー アカウントが属しているサイトにサイト レベルの音声ポリシーとダイヤル プランが存在する場合は、それらのサイト ポリシーがユーザーに自動的に適用されます。 ユーザーごとの音声ポリシーまたはダイヤル プランをユーザーに適用するには、**Grant-CsVoicePolicy** および **Grant-CsDialPlan** コマンドレットを実行する必要があります。 詳細については、このトピックの以下の手順を参照してください。
 ## <a name="voice-policy-assignment"></a>音声ポリシーの割り当て
 
-グローバルおよびサイト レベルの音声ポリシーは、ユーザー アカウントに対して有効になっているすべてのユーザー アカウントに自動的エンタープライズ VoIP。 特定のユーザーまたはグループに適用する音声ポリシーを作成することもできます。 このようなユーザーごとのポリシーは、ユーザーまたはグループに明示的に割り当てる必要があります。 エンタープライズ VoIP で有効になっているすべてのユーザーにグローバルまたはサイト音声ポリシーを使用する場合は、このセクションをスキップして、このトピックの後半の「[](enable-users-for-enterprise-voice.md#BKMK_DialPlanAssignment)ダイヤル プランの割り当て」セクションに進む必要があります。
+グローバルおよびサイト レベルの音声ポリシーは、ユーザー アカウントに対して有効になっているすべてのユーザー アカウントに自動的エンタープライズ VoIP。 特定のユーザーまたはグループに適用する音声ポリシーを作成することもできます。 このようなユーザーごとのポリシーは、ユーザーまたはグループに明示的に割り当てる必要があります。 エンタープライズ VoIP で有効になっているすべてのユーザーにグローバルまたはサイト音声ポリシーを使用する場合は、このセクションをスキップして、このトピックの後半の「ダイヤル [](enable-users-for-enterprise-voice.md#BKMK_DialPlanAssignment) プランの割り当て」セクションに進む必要があります。
   
 ### <a name="to-assign-a-user-specific-voice-policy"></a>ユーザー固有の音声ポリシーを割り当てるには
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
     
-2. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
+2. 管理シェルをSkype for Business Serverする **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[**2015** 年Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 3. 既存のユーザー音声ポリシーをユーザーに割り当てるには、コマンド プロンプトで次のコマンドを実行します。
     
@@ -81,7 +81,7 @@ ms.locfileid: "60864344"
    Grant-CsVoicePolicy -Identity "Bob Kelly" -PolicyName VoicePolicyJapan
    ```
 
-    この例では、表示名 Bob Kelly を持つユーザーに VoicePolicyJapan という名前の音声ポリシー **が割り当てられます**。
+    この例では、表示名 Bob Kelly を持つユーザーに **VoicePolicyJapan という名前の音声ポリシーが割り当てられます**。
     
 ## <a name="dial-plan-assignment"></a>ダイヤル プランの割り当て
 <a name="BKMK_DialPlanAssignment"> </a>
@@ -92,7 +92,7 @@ ms.locfileid: "60864344"
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
     
-2. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
+2. 管理シェルをSkype for Business Serverする **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[**2015** 年Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 3. ユーザー固有のダイヤル プランを割り当てるには、コマンド プロンプトで次のコマンドを実行します。
     

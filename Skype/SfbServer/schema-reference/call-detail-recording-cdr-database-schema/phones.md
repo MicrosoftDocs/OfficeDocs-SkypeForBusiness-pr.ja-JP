@@ -1,8 +1,8 @@
 ---
 title: Phones テーブル
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 41cb356d-9cc8-42b6-ac23-98a61b25aadc
 description: Phones テーブルはサポート テーブルです。 テーブル内の各レコードには、データベースにレコードがある VoIP 呼び出しに関連する 1 つの電話番号に関する情報が格納されます。
-ms.openlocfilehash: 249b2a08e0751b6e8746f2da27a13e1151c375f7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0dbe5065b4a0849b4538e77c05a846ed06f72da5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836105"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389809"
 ---
 # <a name="phones-table"></a>Phones テーブル
  

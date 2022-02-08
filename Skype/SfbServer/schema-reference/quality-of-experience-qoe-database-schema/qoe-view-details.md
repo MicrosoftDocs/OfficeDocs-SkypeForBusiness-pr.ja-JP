@@ -1,8 +1,8 @@
 ---
 title: QoE ビューの詳細
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6a658318-a317-4546-a44c-a9c473d8e86a
 description: ビューには、QoE データベースからデータを返す最も一般的SQLがあります。 データベース テーブルに直接アクセスするのではなく、カスタム レポートの作成に使用するビューをお勧めします。これは、ビューが将来のリリースとの下位互換性を維持する可能性が高いためです。
-ms.openlocfilehash: f3a22ba6b8984334e3b4c4f1e7cea293a7741b01
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d812af701a0073b8be4188b98cd94a66d50c68d3
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858074"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385385"
 ---
 # <a name="qoe-view-details"></a>QoE ビューの詳細
  

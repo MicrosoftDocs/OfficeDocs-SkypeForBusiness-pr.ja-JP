@@ -1,8 +1,8 @@
 ---
 title: リポジトリ API for Call Quality Dashboard (CQD) in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d53e990f-1c5f-46d1-9eb1-8396782c2753
 description: '概要: 呼び出し品質ダッシュボードのリポジトリ API について説明します。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。'
-ms.openlocfilehash: e050ecd4367f2d63febf376e42f435c5ec6850f8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 19d1f456afdf9f72721d1a246b206ad4f7259f14
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849890"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386575"
 ---
 # <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>リポジトリ API for Call Quality Dashboard (CQD) in Skype for Business Server
  
@@ -50,7 +50,7 @@ ms.locfileid: "60849890"
     
   **リポジトリ API のクロスオリジン リソース共有 (CORS) のサポート**
   
-リポジトリ API では、クロスオリジン リソース共有 (CORS) がサポートされています。 CORS は、あるドメインで実行されている Web アプリケーションが別のドメインのリソースにアクセスできる HTTP 機能です。 Web ブラウザーは、Web ページが別のドメインで API を呼び出すのを防ぐ [Same-Origin Policy same-Origin Policy](https://www.w3.org/Security/wiki/Same_Origin_Policy) と呼ばれるセキュリティ制限を実装します。 CORS は、あるドメイン (オリジン ドメイン) が別のドメインで API を呼び出す安全な方法を提供します。 [CORS の詳細については、CORS](https://www.w3.org/TR/cors/)仕様を参照してください。
+リポジトリ API では、クロスオリジン リソース共有 (CORS) がサポートされています。 CORS は、あるドメインで実行されている Web アプリケーションが別のドメインのリソースにアクセスできる HTTP 機能です。 Web ブラウザーは、Web ページが別のドメインで API を呼び出すのを防ぐ [Same-Origin Policy same-Origin Policy](https://www.w3.org/Security/wiki/Same_Origin_Policy) と呼ばれるセキュリティ制限を実装します。 CORS は、あるドメイン (オリジン ドメイン) が別のドメインで API を呼び出す安全な方法を提供します。 [CORS の詳細については、CORS](https://www.w3.org/TR/cors/) 仕様を参照してください。
   
  **リポジトリ API の CORS の有効化**
   

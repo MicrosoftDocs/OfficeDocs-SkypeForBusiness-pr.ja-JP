@@ -1,8 +1,8 @@
 ---
 title: ユーザー割り当てポリシー
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f36a2699-5cf6-4995-9f6d-ec3519ca0903
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 81888cf9f689973eb1b63e00b4a544c98b63b5cf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bebb1be9b1f682468a5ec68275f929453dfb2d94
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842980"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385915"
 ---
 # <a name="users-assign-policies"></a>ユーザー: ポリシーの割り当て
 
@@ -44,4 +44,4 @@ ms.locfileid: "60842980"
 
 - [ユーザー単位の常設チャット ポリシーの割り当て](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-persistent-chat-policy)
 
-コントロール パネルを使用して実行できるさまざまな手順の詳細については、「Skype for Business Server [2015」](../../manage/manage.md)を参照Skype for Business Serverしてください。
+コントロール パネルを使用して実行できるさまざまな手順の詳細については、「Skype for Business Server [2015](../../manage/manage.md)」を参照Skype for Business Serverしてください。

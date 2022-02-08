@@ -1,8 +1,8 @@
 ---
 title: '[エッジ サーバーの展開を計画する] Skype for Business Server'
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9cdc3e23-3f6a-4e4d-9e04-f038596b6700
 description: '概要: エッジ環境Skype for Business Server計画します。 このトピックでは、Edge の概念について説明し、より詳細なトピックで整理できます。'
-ms.openlocfilehash: ae6dd672e3da6568d41898a4bc2ae022b23ad3f3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 97b34ba69be5a7461c1ff1f1847c66898b5dface
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834115"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387935"
 ---
 # <a name="plan-for-edge-server-deployments-in-skype-for-business-server"></a>[エッジ サーバーの展開を計画する] Skype for Business Server
  

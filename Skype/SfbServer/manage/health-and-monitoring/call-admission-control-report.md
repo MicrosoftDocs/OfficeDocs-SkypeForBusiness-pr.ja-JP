@@ -1,8 +1,8 @@
 ---
 title: 通話受付管理レポート (Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
 description: '概要: [通話受付管理レポート] で使用される通話受付管理Skype for Business Server。'
-ms.openlocfilehash: bb980dfa132778e1507e26359beca3679a94893a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d0b32f399b01c18252dbd5593468e86e1ba7283c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849900"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384285"
 ---
 # <a name="call-admission-control-report-in-skype-for-business-server"></a>通話受付管理レポート (Skype for Business Server
  
@@ -49,7 +49,7 @@ ms.locfileid: "60849900"
   
 **通話受付管理レポートのフィルター**
 
-|**名前**|**説明**|
+|**[名前]**|**説明**|
 |:-----|:-----|
 |**From** <br/> |時間範囲の開始日と開始時刻。データを時間単位で表示するには、次のように開始日と開始時刻の両方を入力します。  <br/> 7/17/12015 1:00 PM  <br/> 開始時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に開始します。データを日単位で表示するには、次のように日付のみを入力します。  <br/> 7/17/12015  <br/> 週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。  <br/> 7/13/2015  <br/> 週は、常に日曜日から土曜日までです。  <br/> |
 |**To** <br/> |時間範囲の終了日と終了時刻。データを時間単位で表示するには、次のように終了日と終了時刻の両方を入力します。  <br/> 7/17/12015 1:00 PM  <br/> 終了時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に終了します。データを日単位で表示するには、次のように日付のみを入力します。  <br/> 7/17/12015  <br/> 週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。  <br/> 7/13/2015  <br/> 週は、常に日曜日から土曜日までです。  <br/> |

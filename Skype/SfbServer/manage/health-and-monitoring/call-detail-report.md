@@ -1,8 +1,8 @@
 ---
 title: '[通話の詳細レポート] Skype for Business Server'
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
 description: '概要: このページで使用される通話詳細レポートSkype for Business Server。'
-ms.openlocfilehash: 8f5d9e99a9141e1954aef2636ed5d671003e6ad3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d6d8a79506e215bd46a54c89969fc5991f9962d6
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834215"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385619"
 ---
 # <a name="call-detail-report-in-skype-for-business-server"></a>[通話の詳細レポート] Skype for Business Server
  
@@ -55,9 +55,9 @@ ms.locfileid: "60834215"
     
 - [メディア品質の概要レポート] Skype for Business Server (summary.md) ([通話量] または [低い通話率] メトリックをクリックして)
     
-- [[メディア品質比較レポート]](comparison.md) (Skype for Business Serverで [通話リスト[](call-list-report-0.md)レポート] をクリックし、[詳細] Skype for Business Serverをクリックします)。
+- [[メディア品質比較レポート]](comparison.md) (Skype for Business Server [通話リスト レポート] をクリック[](call-list-report-0.md)し、[詳細] Skype for Business Serverをクリックします)。
     
-- [[サーバー パフォーマンス レポート] Skype for Business Server](server-performance.md) ([通話数] または [通話率の低い指標] をクリックします)
+- [[サーバー パフォーマンス レポート] Skype for Business Server](server-performance.md) ([通話数] または [通話率の低い指標] をクリックして)
     
 - [[通話リスト レポート] Skype for Business Server](call-list-report-0.md) ([詳細] メトリックをクリックして)
     
@@ -73,7 +73,7 @@ ms.locfileid: "60834215"
 
 通話の詳細レポートには、一般的には、マイクのタイムスタンプの誤差、低 SNR 時間、および近端エコー時間の項目のような、250 以上のさまざまな測定値が含まれます。これらの測定値の詳細が思い出せない場合は、測定値のラベル上にマウス ポインターを置きます。多くの場合は、その測定値を説明するツール ヒントが表示されます。
   
-メトリックの検索に問題がある場合は、検索ボックスにメトリック ラベルの一部を入力し、[検索] を **クリックします**。 たとえば、低 SNR 時間メトリックが見当たらない場合は、検索ボックスに「SNR」と入力し、[検索] をクリック **します**。
+メトリックの検索に問題がある場合は、検索ボックスにメトリック ラベルの一部を入力し、[検索] をクリック **します**。 たとえば、低 SNR 時間メトリックが見当たらない場合は、検索ボックスに「SNR」と入力し、[検索] をクリック **します**。
   
 レポートは通話に関する情報のみを追跡します。 呼び出し自体は記録されません。
   

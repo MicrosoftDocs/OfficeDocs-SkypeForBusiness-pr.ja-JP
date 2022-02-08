@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams の使用状況シナリオを定義する
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 10/31/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55b25ab0367909da0136a7761b7e763965c5804d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e932ce57212b2efc88a0b26316b7d9668062045c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842559"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387465"
 ---
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>Microsoft Teams の使用状況シナリオを定義する
 
@@ -45,9 +45,9 @@ ms.locfileid: "60842559"
 - 売上の生産性を高め、収益を拡大する
 - ビジネス レビューを効率化する
 
-![すべてのシナリオTeams使用例を示す図。](media/teams-adoption-use-cases.png)
+![すべてのシナリオTeams使用例の図。](media/teams-adoption-use-cases.png)
 
-このシナリオの最新化の動きを累積的なプロセスと考えます。この新しい作業方法で熱意、親しみ、信頼性を生み出す、より基本的なシナリオで作業を進め、 その後、より大きな影響領域に進む。 ビジネス の仕事仲間にMicrosoft Teamsの影響が増えるほど、より多くの人が関与し、勢いが増します。 多くのお客様の場合、このプロセスが進むと、ビジネス関係者は、同僚が顧客から価値を得た方法を学習した後に、Microsoft Teams。
+このシナリオの最新化の動きを累積的なプロセスと考えます。この新しい作業方法で熱意、親しみ、信頼性を生み出す、より基本的なシナリオで作業を進め、 その後、より大きな影響領域に進む。 ビジネス の同僚にMicrosoft Teamsの影響が増えるほど、より多くの人が関与し、勢いが増します。 多くのお客様の場合、このプロセスが完了すると、ビジネス関係者は、同僚が顧客から価値を得た方法を学習した後に、ビジネス関係者にアプローチMicrosoft Teams。
 
 ## <a name="interview-business-stakeholders"></a>ビジネス関係者へのインタビュー
 
@@ -55,7 +55,7 @@ ms.locfileid: "60842559"
 
 - コミュニケーションとコラボレーションに関連する組織の課題や問題の一部は何ですか?
 - 組織が改善する領域は何ですか?
-- 組織の戦略イニシアティブや現在の変革プロジェクトは、どのようなTeamsですか?
+- 組織がサポートできる戦略イニシアチブや現在の変革プロジェクトTeamsは何ですか?
 - 通常、組織が受け取るコミュニケーションとコラボレーションの方法は、他の方法よりも優れたものですか。
 - 情報の下書き、配布、共有のプロセスは何ですか?
 
@@ -70,6 +70,6 @@ ms.locfileid: "60842559"
 ![シナリオの影響と難易度を示す図。](media/teams-adoption-impact-difficulty.png)
 
 > [!Note]
-> お客様が革新的な方法で顧客を使用する方法についてTeams常に知りたがっています。 ドライブ導入に関#TeamsStoriesフォーラムで、お客様の情報 [を共有してください](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption)。 投稿にハッシュ **タグ#TeamsStories** 含める。 お客様が組織の組織でTeamsに関心を持っています。
+> 私たちは、お客様が革新的な方法で顧客をTeams方法について常に知りたがっています。 ドライブ導入#TeamsStoriesフォーラムで、お客様の情報 [を共有してください](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption)。 投稿にハッシュ **タグ#TeamsStories** 含める。 お客様が組織の組織でTeamsに関心を持っています。
 
 ![次のステップを表すアイコン。](media/teams-adoption-next-icon.png) 次: 早期 [導入者をオンボードし、フィードバックを収集します](teams-adoption-onboard-early-adopters.md)。

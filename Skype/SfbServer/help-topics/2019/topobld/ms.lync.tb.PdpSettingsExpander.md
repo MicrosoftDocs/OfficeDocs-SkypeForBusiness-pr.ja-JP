@@ -1,8 +1,8 @@
 ---
 title: 通話受付管理設定エキスパンダー
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: dc94f75e-9abe-4e02-b835-3c845b317d65
 ROBOTS: NOINDEX, NOFOLLOW
 description: 通話受付管理 (CAC) は、使用可能な帯域幅に基づいてオーディオおよびビデオ伝送に制限を課すことができる地域、サイト、およびサブネットで構成されるネットワークです。 CAC のネットワークを構成した後、帯域幅の制限を適用するために CAC を有効にする必要があります。
-ms.openlocfilehash: 66557874e804103df995ca55c3c825f10ad2b217
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7251d31bc0f94a80a8537a185c84163c98dc0583
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828100"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390449"
 ---
 # <a name="call-admission-control-settings-expander"></a>通話受付管理設定エキスパンダー
  

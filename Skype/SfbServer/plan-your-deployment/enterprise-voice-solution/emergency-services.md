@@ -1,8 +1,8 @@
 ---
 title: 緊急サービスの計画を立Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: 場所の取得や通話ルーティングなど、Skype for Business Server エンタープライズ VoIP 9-1-1 (E9-1-1) サービスについて説明します。
-ms.openlocfilehash: 4f75dcce3bc8de2e8e4f806c1c571c2e7cad1afe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7998b1cbc91d10daae1fb0b163e2a5041d4559f4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844160"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387725"
 ---
 # <a name="plan-for-emergency-services-in-skype-for-business-server"></a>緊急サービスの計画を立Skype for Business Server
 
@@ -30,10 +30,10 @@ ms.locfileid: "60844160"
 Skype for Business Server展開の一環として、米国内の拡張 9-1-1 (E9-1-1) サービスエンタープライズ VoIPしています。 E9-1-1 は、9-1-1 呼び出しを緊急対応場所 (ERL) に関連付ける緊急ディスパッチ機能で、オフィスビルや他のマルチテナント施設からの呼び出しに対して、市民 (つまり、通り) アドレスやフロア番号などのより具体的な位置情報で構成されます。 提供された ERL を使用すると、公衆安全応答ポイント (PSAP) は、応答者に誤った場所またはあいまいな場所を誤って指示するリスクを減らして、最初の応答者を直ちに発信者にディスパッチできます。
 
 > [!NOTE]
-> Skype for Business Server、クライアントの複数の緊急電話番号の構成がサポートされます。 詳細については、「Plan for multiple emergency numbers in Skype for Business Server 」[を参照してください](multiple-emergency-numbers.md)。
+> Skype for Business Server、クライアントの複数の緊急電話番号の構成がサポートされます。 詳細については、「複数の緊急電話番号[を計画する」を参照Skype for Business Server](multiple-emergency-numbers.md)。
 
 > [!NOTE]
-> Skype for Business Serverには、通話受付エンタープライズ VoIP緊急サービス (E9-1-1)、メディア バイパスの 3 つの高度な機能があります。 これら 3 つの機能すべてに共通する計画情報の概要については、「ネットワーク設定」を参照エンタープライズ VoIP高度な機能[Skype for Business Server。](network-settings-for-advanced-features.md)
+> Skype for Business Serverには、通話受付エンタープライズ VoIP緊急サービス (E9-1-1)、メディア バイパスの 3 つの高度な機能があります。 これら 3 つの機能すべてに共通する計画情報の概要については、「ネットワークの高度な機能のネットワークエンタープライズ VoIP[を参照](network-settings-for-advanced-features.md)Skype for Business Server。
 
 Skype for Business Serverクライアントおよび Lync 電話 Edition デバイスからの拡張 9-1-1 (E9-1-1 Skype for Business) 通話をサポートしています。 E9-1-1 の Skype for Business Server を構成する場合、Skype for Business または Lync 電話 Edition から送信される緊急通話には、場所情報サービス データベースからの緊急応答場所 (ERL) 情報が含まれます。 ERL は、オフィスビルや他のマルチテナント施設のより正確な場所を特定するのに役立つ、市民 (つまり、ストリート) アドレスと他の情報で構成されます。 ユーザーが緊急電話を行う場合、Skype for Business Server は、場所とコールバック情報と共に通話音声を仲介サーバーを介して E9-1-1 サービス プロバイダーにルーティングします。 E9-1-1 サービス プロバイダーは、発信者の市民アドレスを使用して、発信者の場所を提供する公衆安全応答ポイント (PSAP) に通話をルーティングし、PSAP が発信者の ERL を検索するために使用する緊急サービス クエリ キー (ESQK) に沿って送信します。
 
@@ -68,7 +68,7 @@ E9-1-1 Skype for Business Serverの観点から、次の 2 つの段階に分け
 
 このセクションでは、これらのステージがどのように動作するのかを説明します。
 
-クライアントの場所を自動検出するようにインフラストラクチャを構成しようと計画している場合は、まず発信者を場所にマッピングするために使用するネットワーク構成要素を決定する必要があります。 可能なオプションの詳細については、「ネットワーク内の場所を決定するために使用されるネットワーク要素を定義する」[を参照Skype for Business Server。](network-location.md)
+クライアントの場所を自動検出するようにインフラストラクチャを構成しようと計画している場合は、まず発信者を場所にマッピングするために使用するネットワーク構成要素を決定する必要があります。 使用できるオプションの詳細については、「ネットワーク内の場所を決定するために使用するネットワーク要素を定義する」[を参照](network-location.md)Skype for Business Server。
 
 ## <a name="acquiring-a-location"></a>場所の取得
 
@@ -116,9 +116,9 @@ E9-1-1 を展開する方法に、SIP トランクを使用して、認定され
 
 ## <a name="routing-e9-1-1-calls-by-using-an-elin-gateway"></a>ELIN ゲートウェイを使用した E9-1-1 通話のルーティング
 
-統合コミュニケーション相互運用プログラムの一部のパートナーは、正規の E9-1-1 サービス プロバイダーへの SIP トランク接続の代替としての機能を果たすことができる、緊急位置識別番号 (ELIN) 対応の正規のゲートウェイを提供しています。 ELIN ゲートウェイは、公衆交換電話網 (PSTN) ベースの E9-1-1 サービスへの ISDN 接続 または Centralized Automatic Message Accounting (CAMA) 接続をサポートします。 ELIN ゲートウェイとドキュメントへのリンクを提供するパートナーの詳細については[、「Microsoft Lync](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)およびテレフォニー インフラストラクチャ for Skype for Business」 を[参照してください](../../../SfbPartnerCertification/certification/infra-gateways.md)。
+統合コミュニケーション相互運用プログラムの一部のパートナーは、正規の E9-1-1 サービス プロバイダーへの SIP トランク接続の代替としての機能を果たすことができる、緊急位置識別番号 (ELIN) 対応の正規のゲートウェイを提供しています。 ELIN ゲートウェイは、公衆交換電話網 (PSTN) ベースの E9-1-1 サービスへの ISDN 接続 または Centralized Automatic Message Accounting (CAMA) 接続をサポートします。 ELIN ゲートウェイとドキュメントへのリンクを提供するパートナーの詳細については、「[Microsoft Lync](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md) およびテレフォニー インフラストラクチャ for microsoft Lync の認定インフラストラクチャ」を[参照](../../../SfbPartnerCertification/certification/infra-gateways.md)Skype for Business。
 
-E9-1-1 サービス プロバイダーへの SIP トランク接続と同様に、ELIN ゲートウェイは発信者の最も適切な公衆安全応答ポイント (PSAP) に緊急通話をルーティングする手段も提供しますが、これらのゲートウェイは場所識別子として ELIN を使用します。 組織内の緊急対応場所 (ERL) ごとに ELIN を定義します (詳細については[、「ELIN](elin-gateways.md)ゲートウェイの場所を管理する」を参照Skype for Business Server)。
+E9-1-1 サービス プロバイダーへの SIP トランク接続と同様に、ELIN ゲートウェイは発信者の最も適切な公衆安全応答ポイント (PSAP) に緊急通話をルーティングする手段も提供しますが、これらのゲートウェイは場所識別子として ELIN を使用します。 組織内の各緊急対応場所 (ERL) に ELIN を定義します (詳細については、「[ELIN](elin-gateways.md) ゲートウェイの場所を管理する」を参照Skype for Business Server)。
 
 緊急通話に ELIN ゲートウェイを使用する場合は、SIP トランク接続に使用するのと同じ Skype for Business Server E9-1-1 インフラストラクチャを使用します。 つまり、位置情報サービス データベースは、クライアントに場所を提供し、Skype for Businessポリシーで機能を有効にし、ルーティングを定義します。 ただし、ELIN ゲートウェイでは、場所情報サービス データベースに ELIN を追加し、PSTN 通信事業者に自動場所識別 (ALI) データベースにアップロードする必要があります。
 

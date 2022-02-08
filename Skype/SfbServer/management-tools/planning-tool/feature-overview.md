@@ -1,8 +1,8 @@
 ---
 title: 機能の概要計画ツール
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: 2015 Skype for Business Serverツールを削除します。
-ms.openlocfilehash: 7351ef19480f4153ee98db58ab2ba70b34e3df06
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 064ad9e22c3e4e26187b780b8d099a675bebc426
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850940"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386515"
 ---
 # <a name="feature-overview-planning-tool"></a>機能の概要計画ツール
  
@@ -40,7 +40,7 @@ Skype for Business Server 2015 計画ツール
 
 ## <a name="ui-elements"></a>UI 要素
 
-残りの要素には **、はじめに** ウィザードで提示された質問に対して提供した回答が入力されています。またはウィザードをスキップした場合は、計画ツールによって自動的に設定されます。
+残りの要素には、**はじめに** ウィザードで提示された質問に対して提供した回答が入力されています。またはウィザードをスキップした場合は、計画ツールによって自動的に設定されます。
   
 ### <a name="online-collaboration"></a>オンライン コラボレーション
 
@@ -91,7 +91,7 @@ Skype for Business Server 2015 計画ツール
     
 - **W15 Exchange メールボックス**
     
-    Skype for Business Server 2015 では、ボイスメール メッセージをユニファイド メッセージング (UM) Exchange保存できます。これらのボイスメール メッセージは、ユーザーの受信トレイに電子メール メッセージとして表示されます。
+    Skype for Business Server 2015 では、Exchange ユニファイド メッセージング (UM) にボイスメール メッセージを保存できます。これらのボイスメール メッセージは、ユーザーの受信トレイに電子メール メッセージとして表示されます。
     
 ### <a name="voice"></a>音声
 
@@ -103,7 +103,7 @@ Skype for Business Server 2015 計画ツール
     
 - **Exchange ユニファイド メッセージング**
     
-    Exchangeユニファイド メッセージング (UM) は、ボイス メールとメールを単一のメッセージング インフラストラクチャに結合します。 Skype for Business Server 2015 では、Exchange UM を使用して、通話応答、サブスクライバー アクセス、通話通知、自動応答サービスを提供します。 これらのサービスを使用する場合は、共有 Active Directory トポロジExchange UM Skype for Business Serverを統合する必要があります。
+    Exchange ユニファイド メッセージング (UM) は、ボイス メールと電子メールを単一のメッセージング インフラストラクチャに組み合わせたものになります。 Skype for Business Server 2015 では、Exchange UM を使用して、通話応答、サブスクライバー アクセス、通話通知、自動応答サービスを提供します。 これらのサービスを使用する場合は、共有 Active Directory トポロジExchange UM Skype for Business Serverを統合する必要があります。
     
 ### <a name="additional-deployment-options"></a>追加の展開オプション
 

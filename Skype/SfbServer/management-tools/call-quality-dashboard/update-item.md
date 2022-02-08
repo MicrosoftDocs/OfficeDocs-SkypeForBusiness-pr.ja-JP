@@ -1,8 +1,8 @@
 ---
 title: アイテムを更新する
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b1c15c56-cdae-4f3e-838a-52f0940cf729
 description: '概要: アイテム サービスの一部であるアイテムの更新操作について学習します。 Item Service は、呼び出し品質ダッシュボードのリポジトリ API の一部です。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。'
-ms.openlocfilehash: 4140909786c3144dbc043568a5ca6aa2995a0720
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9ea8a72f70b252cb44a1e4cb15e24cc3718e4be2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845400"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384255"
 ---
 # <a name="update-item"></a>アイテムを更新する
  
@@ -32,7 +32,7 @@ ms.locfileid: "60845400"
 
 |**メソッド**|**要求 URI**|**HTTP バージョン**|
 |:-----|:-----|:-----|
-|PUT  <br/> |https:// \<portal\> /QoERepositoryService/repository/item/{itemId}  <br/> |HTTP/1.1  <br/> |
+|PUT  <br/> |\<portal\>https:///QoERepositoryService/repository/item/{itemId}  <br/> |HTTP/1.1  <br/> |
    
  **URI パラメーター** - なし。
   

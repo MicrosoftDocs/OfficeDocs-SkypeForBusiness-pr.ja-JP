@@ -1,8 +1,8 @@
 ---
 title: クライアント バージョン ポリシー [新規の作成] または [既存の編集]
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e32c6712-6dc9-4de9-8d74-9fdccf3de1ba
 description: 現在の環境でサポートするクライアントのバージョンを指定できます。 バージョンが異なる 2 つのクライアントが対話する場合、機能によっては一方のクライアントでは使用できても、他方のクライアントでは使用できないことがあります。 Skype for Business Server 2015 に含まれる機能を最も有効に利用し、全体的なユーザー エクスペリエンスを向上させるために、クライアント バージョン フィルターを使用して、環境で使用されるクライアント バージョンを制限できます。 クライアント バージョン フィルターを使用すると、複数バージョンのクライアントをサポートすることによって発生するコストを抑えることもできます。
-ms.openlocfilehash: 6b54280f1401af89003c048720772891706b6b77
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c6674d1efcc7791511870234754876b966f492a4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861554"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389239"
 ---
 # <a name="client-version-policy-create-new-or-edit-existing"></a>クライアント バージョン ポリシー: 新規作成または現在の形式のままで編集
 
@@ -47,7 +47,7 @@ ms.locfileid: "60861554"
 
 - **説明** [クライアント バージョン ポリシー] ページの一覧で、ポリシーの識別に役立つ説明を追加できます。
 
-- **New** 新しいクライアント バージョン ルールをポリシーに追加できます。
+- **新機能** 新しいクライアント バージョン ルールをポリシーに追加できます。
 
 - **詳細の表示** このオプションは、クライアント バージョン ルールのオプションを変更できるダイアログ ボックスを開きます。
 

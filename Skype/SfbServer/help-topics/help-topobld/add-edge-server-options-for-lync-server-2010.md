@@ -1,8 +1,8 @@
 ---
 title: Lync Server 2010 のエッジ サーバー オプションを追加する
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0b059af5-e83f-4564-90b2-d7ebb9e551c2
 description: 新しいエッジ サーバーまたはエッジ プールを定義し、新しいサーバーまたはプールの機能を定義する機会が提供されます。 選択できるオプションは、次のとおりです。
-ms.openlocfilehash: 0c02e03a1e0e1a8c8455be48915f1c488f4d021f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 94d8986a1b5e7317e768de4cb54c84a5b0735a07
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845540"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385845"
 ---
 # <a name="add-edge-server-options-for-lync-server-2010"></a>Lync Server 2010 のエッジ サーバー オプションの追加
 
@@ -33,7 +33,7 @@ ms.locfileid: "60845540"
 
 - [**フェデレーションを有効にします (ポート 5061)**]: セッション開始プロトコル (SIP) を使用している他の SIP フェデレーション、プロバイダー、またはホストされているオファリングとのフェデレーションを行う場合は、このチェック ボックスをオンにします。
 
-- **この** エッジ プールの外部 IP アドレスは NAT によって変換されます。エッジ外部インターフェイスにプライベート IP アドレスを使用し、エッジ サーバーまたはエッジ プールを論理的に背後に配置するネットワーク アドレス変換 (NAT) デバイスを提供する場合は、このチェック ボックスをオンにします。
+- このエッジ プールの外部 IP アドレスは **NAT** によって変換されます。エッジ外部インターフェイスにプライベート IP アドレスを使用し、エッジ サーバーまたはエッジ プールを論理的に背後に配置するネットワーク アドレス変換 (NAT) デバイスを提供する場合は、このチェック ボックスをオンにします。
 
 ## <a name="see-also"></a>関連項目
 

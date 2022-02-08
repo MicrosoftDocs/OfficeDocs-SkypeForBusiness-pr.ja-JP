@@ -1,8 +1,8 @@
 ---
 title: テスト デバイス
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,16 +15,16 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a1ea564c-f403-4f61-a36b-5a429708e7ca
 description: '[テスト デバイス] ページにテスト デバイスを追加すると、新しい更新プログラムをプロダクション デバイスに展開する前に、このデバイスを使用して更新プログラムの機能を検証できます。 デバイスは、グローバル (環境全体を通じて) または 1 つのサイト内でテストできます。 テスト デバイスは、そのメディア アクセス制御 (MAC) アドレスまたはシリアル番号で識別します。 デバイスを追加すると、デバイスが [デバイスのテスト] ページの一覧に表示され、Skype for Business Serverされます。'
-ms.openlocfilehash: affad15aca974f389b23b693caca92d5bc9981cf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6879896f1b9b913d4120561310d983244369b196
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857724"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385995"
 ---
 # <a name="test-device"></a>テスト デバイス
 
-[**テスト デバイス**] ページにテスト デバイスを追加すると、新しい更新プログラムをプロダクション デバイスに展開する前に、このデバイスを使用して更新プログラムの機能を検証できます。 デバイスは、グローバル (環境全体を通じて) または 1 つのサイト内でテストできます。 テスト デバイスは、そのメディア アクセス制御 (MAC) アドレスまたはシリアル番号で識別します。 デバイスを追加すると、コントロール パネルの [テスト デバイス] ページの一覧にSkype for Business Serverされます。
+[**テスト デバイス**] ページにテスト デバイスを追加すると、新しい更新プログラムをプロダクション デバイスに展開する前に、このデバイスを使用して更新プログラムの機能を検証できます。 デバイスは、グローバル (環境全体を通じて) または 1 つのサイト内でテストできます。 テスト デバイスは、そのメディア アクセス制御 (MAC) アドレスまたはシリアル番号で識別します。 デバイスを追加すると、デバイスが [デバイスのテスト] ページの一覧に表示され、Skype for Business Serverされます。
 
 ## <a name="tasks-you-can-perform"></a>実行できるタスク
 
@@ -38,11 +38,11 @@ ms.locfileid: "60857724"
 
 次の一覧に、このページのメニュー、コマンド、フィールド、およびプロパティを示します。
 
-- **New** 次のスコープを持つ新しいテスト デバイスを追加できます。
+- **新機能** 次のスコープを持つ新しいテスト デバイスを追加できます。
 
   - グローバル
 
-  - サイト
+  - Site
 
 - **編集** リスト内のテスト デバイスのオプションを変更できます。 このオプションを使用すると、次の操作を実行できます。
 

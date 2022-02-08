@@ -1,8 +1,8 @@
 ---
 title: サーバーでアーカイブを有効または無効Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d5aed328-e89d-4a7b-b603-15ae5c33c5dd
 description: '概要: アーカイブを有効または無効にする方法については、Skype for Business Server。'
-ms.openlocfilehash: c2aff3706505e8977080c92259f7d73a5c2b2b17
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3ed4fd18f6d130bbfa5211b142cc1804c489f37c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839959"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388185"
 ---
 # <a name="enable-or-disable-archiving-in-skype-for-business-server"></a>サーバーでアーカイブを有効または無効Skype for Business Server
 
@@ -31,7 +31,7 @@ ms.locfileid: "60839959"
     
 3. 左側のナビゲーション バーで、[**監視とアーカイブ**] をクリックし、[**アーカイブ構成**] をクリックします。
     
-4. アーカイブ構成の一覧から適切なグローバル構成、サイト構成、またはプール構成を選択し、[編集]をクリックし、[詳細の表示] をクリックして、次の操作を実行します。
+4. アーカイブ構成の一覧から適切なグローバル構成、サイト構成、またはプール構成を選択し、[編集] をクリックし、[詳細の表示] をクリックして、次の操作を行います。
     
    - インスタント メッセージング (IM) セッションのアーカイブだけを有効にするには、**[IM セッションのアーカイブ]** をクリックします。
     

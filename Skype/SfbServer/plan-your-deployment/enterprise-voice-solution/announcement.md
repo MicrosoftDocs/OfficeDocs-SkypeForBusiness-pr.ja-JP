@@ -1,8 +1,8 @@
 ---
 title: '[アナウンス] アプリケーションの計画をSkype for Business'
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2abee804-2599-48bb-90b2-15df0bae5e20
 description: 組織の割り当てられていない電話番号に対する電話の操作を構成する Skype for Business Server エンタープライズ VoIP でアナウンス アプリケーションを計画します。 オーディオ ファイルの要件が含まれています。
-ms.openlocfilehash: 6dc2317c170585c6688e04b191182cf7ae500b12
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c895575a88d49bc29a74e53fac1618991b042745
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838499"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387875"
 ---
 # <a name="plan-for-the-announcement-application-in-skype-for-business"></a>[アナウンス] アプリケーションの計画をSkype for Business
 
@@ -39,11 +39,11 @@ Tthe Announcement アプリケーションは、応答グループ アプリケ�
 
 ### <a name="software-requirements"></a>ソフトウェア要件
 
-アナウンス アプリケーションを実行するすべてのフロントエンド サーバーまたは Standard Edition サーバーには、Windows Server 2008 R2 を実行しているサーバー用に Windows メディア形式ランタイムがインストールされている必要があります。または Windows Server 2012 または Windows Server 2012 R2 を実行しているサーバーの場合は Microsoft Media Foundation がインストールされている必要があります。 Server 2008 R2 Windowsでは、Windows メディア形式ランタイムがデスクトップ エクスペリエンスの一部Windowsされます。 Windowsアナウンス アプリケーションがアナウンスや音楽のために再生するメディア オーディオ (.wma) ファイルWindowsメディア 形式ランタイムまたは Microsoft Media Foundation が必要です。
+アナウンス アプリケーションを実行するすべてのフロントエンド サーバーまたは Standard Edition サーバーには、Windows Server 2008 R2 を実行しているサーバー用に Windows メディア形式ランタイムがインストールされている必要があります。または Windows Server 2012 または Windows Server 2012 を実行しているサーバー用の Microsoft Media Foundation がインストールされている必要があります。 R2。 Server 2008 R2 Windowsでは、Windows メディア形式ランタイムがデスクトップ エクスペリエンスの一部Windowsされます。 Windowsアナウンスや音楽のためにアナウンス アプリケーションが再生するメディア オーディオ (.wma) Windowsファイルには、メディア形式ランタイムまたは Microsoft Media Foundation が必要です。
 
 ### <a name="port-requirements"></a>ポートの要件
 
-アナウンス アプリケーションは **、SIP リッスン要求にポート 5071** を使用します。
+アナウンス アプリケーションは、 **SIP リッスン要求にポート 5071** を使用します。
 
 > [!NOTE]
 > このポートは既定の設定であり、**Set-CsApplicationServer** コマンドレットを使用して変更することができます。 このコマンドレットの詳細については、「管理シェル」Skype for Business Serverを参照してください。

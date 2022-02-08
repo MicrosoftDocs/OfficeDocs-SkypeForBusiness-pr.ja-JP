@@ -1,8 +1,8 @@
 ---
 title: ドメイン内の単純な URL の DNS 要件Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: '概要: このトピックの単純な URL に関する考慮事項を確認してから、DNS レコードを実装Skype for Business Server。'
-ms.openlocfilehash: 1dd3b4b06b704e7d840dd6f430a9ba9782913a3b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 92cf8c91956eab9648869c5a05ccc57682ecc5fd
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864674"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389989"
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>ドメイン内の単純な URL の DNS 要件Skype for Business Server
 
@@ -42,14 +42,14 @@ Skype for Business Serverは、Meet、Dial-In、Admin の 3 つの単純な URL 
 
 トポロジ ビルダーと管理シェルのSkype for Business Serverは、単純な URL に対していくつかの検証ルールを適用します。 ユーザーは、簡単な会議 URL およびダイヤルイン URL の設定を要求されますが、簡単な管理 URL の設定はオプションです。 各 SIP ドメインは独立した簡単な会議 URL を持つ必要がありますが、簡単なダイヤルイン URL と簡単な会議 URL については組織全体で必要な数は 1 つだけです。
 
-組織内の各単純な URL には一意の名前を付け、別の単純な URL のプレフィックスにすることはできません (たとえば、Meet 単純な URL として、 `SfB2015.contoso.com/Meet` および Dialin 単純な URL として設定することはできません `SfB2015.contoso.com/Meet/Dialin` )。 単純な URL 名には、プールの FQDN を含め、ポート情報を含めすることはできません (たとえば、 https://FQDN:88/meet 許可されません)。 簡易 URL は、すべてプレフィックス https:// で始まる必要があります。 
+組織内の各単純な URL には一意の名前を付け、別の単純な URL のプレフィックスにすることはできません ( `SfB2015.contoso.com/Meet` たとえば、Meet 単純な URL として、および Dialin 単純な URL `SfB2015.contoso.com/Meet/Dialin` として設定することはできません)。 単純な URL 名には、プールの FQDN を含め、ポート情報を含めすることはできません ( https://FQDN:88/meet たとえば、許可されません)。 簡易 URL は、すべてプレフィックス https:// で始まる必要があります。 
 
 簡易 URL の名前には、英数字 (すなわち、a ～ z、A ～ Z、0 ～ 9) およびピリオド (.) 以外は使用できません。 他の文字を使用すると、簡易 URL が予想どおりに機能しない可能性があります。
 
 ## <a name="changing-simple-urls-after-deployment"></a>展開後の簡易 URL の変更
 <a name="BK_Valid"> </a>
 
-初回の展開後に簡易 URL を変更する場合は、その変更が簡易 URL の DNS レコードと証明書に及ぼす影響について認識しておく必要があります。 簡易 URL の基本部分が変わる場合は、DNS レコードと証明書も変更する必要があります。 たとえば、ベース URL を変更する場合は、参照する DNS レコードと証明書を変更 `https://SfB2015.contoso.com/Meet` `https://meet.contoso.com` `SfB2015.contoso.com` `meet.contoso.com` する必要があります `meet.contoso.com` 。 単純な URL をからに変更した場合、ベース URL は同じままなので、DNS や証明書の変更 `https://SfB2015.contoso.com/Meet` `https://SfB2015.contoso.com/Meetings` `SfB2015.contoso.com` は不要です。
+初回の展開後に簡易 URL を変更する場合は、その変更が簡易 URL の DNS レコードと証明書に及ぼす影響について認識しておく必要があります。 簡易 URL の基本部分が変わる場合は、DNS レコードと証明書も変更する必要があります。 たとえば、ベース `https://SfB2015.contoso.com/Meet` `https://meet.contoso.com` URL `SfB2015.contoso.com` `meet.contoso.com`を変更する場合は、参照する DNS レコードと証明書を変更する必要があります `meet.contoso.com`。 単純な URL `https://SfB2015.contoso.com/Meet` `https://SfB2015.contoso.com/Meetings`をからに変更した場合、ベース URL `SfB2015.contoso.com` は同じままなので、DNS や証明書の変更は不要です。
 
 ただし、単純な URL 名を変更するたびに、各ディレクターとフロントエンド サーバーで **Enable-CsComputer** を実行して変更を登録する必要があります。
 
@@ -69,18 +69,18 @@ Skype for Business Serverは、Meet、Dial-In、Admin の 3 つの単純な URL 
 
 | **簡易 URL** <br/> | **例** <br/>                                                                                                    |
 |:---------------------|:---------------------------------------------------------------------------------------------------------------------|
-| Meet  <br/>          | `https://meet.contoso.com`、 `https://meet.fabrikam.com` など (組織内の SIP ドメインごとに 1 つ)  <br/> |
+| Meet  <br/>          | `https://meet.contoso.com`、 `https://meet.fabrikam.com`など (組織内の SIP ドメインごとに 1 つ)  <br/> |
 | ダイヤルイン  <br/>       | `<https://dialin.contoso.com>`  <br/>                                                                                  |
 | 管理者  <br/>         | `<https://admin.contoso.com>`  <br/>                                                                                   |
 
-オプション 2 では、単純な URL はドメイン名に基づいて作成されます `SfB2015.contoso.com` 。 このため、必要な DNS A レコードは 1 つだけであり、この DNS A レコードで、簡易 URL の 3 つのタイプすべてを有効にします。 この DNS A レコード参照 `SfB2015.contoso.com` 。 この場合も、組織内の他の SIP ドメインについては、独立した DNS A レコードが必要です。 
+オプション 2 では、単純な URL はドメイン名に基づいて作成されます `SfB2015.contoso.com`。 このため、必要な DNS A レコードは 1 つだけであり、この DNS A レコードで、簡易 URL の 3 つのタイプすべてを有効にします。 この DNS A レコード参照 `SfB2015.contoso.com`。 この場合も、組織内の他の SIP ドメインについては、独立した DNS A レコードが必要です。 
 
 **簡易 URL 命名オプション 2**
 
 
 | **簡易 URL** <br/> | **例** <br/>                                                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------------------------------------------|
-| Meet  <br/>          | `https://SfB2015.contoso.com/Meet`、 `https://SfB2015.fabrikam.com/Meet` など (組織内の SIP ドメインごとに 1 つ)  <br/> |
+| Meet  <br/>          | `https://SfB2015.contoso.com/Meet`、 `https://SfB2015.fabrikam.com/Meet`など (組織内の SIP ドメインごとに 1 つ)  <br/> |
 | ダイヤルイン  <br/>       | `<https://SfB2015.contoso.com/Dialin>`  <br/>                                                                                          |
 | 管理者  <br/>         | `<https://SfB2015.contoso.com/Admin>`  <br/>                                                                                           |
 
@@ -114,14 +114,14 @@ Meet-ext.geolb.contoso.com
      Pool2ExternalWebFQDN.contoso.com
 ```
 
-次に、2 つの GeoDNS アドレスに対する Meet 単純な URL (など) を解決する `meet.contoso.com` CNAME レコードを作成します。
+次に、2 つの GeoDNS アドレスに対する Meet 単純な URL ( `meet.contoso.com`など) を解決する CNAME レコードを作成します。
 
 > [!NOTE]
 > ネットワークがヘアピン (組織内部からのトラフィックを含め、すべての簡易 URL トラフィックを外部リンク経由でルーティングすること) を使用している場合は、外部 GeoDNS アドレスを構成して、その外部アドレスのみに会議簡易 URL を解決できます。
 
 この方式を使用するとき、2 つのプールに要求を配布するラウンドロビン方式か、または (地理的に近いプールなど) 1 つのプールに主に接続し、もう 1 つのプールは接続障害の場合にのみ使用するように、各 GeoDNS アドレスを構成できます。 
 
-ダイヤルイン簡易 URL でも同じ構成をセットアップできます。 これを行うには、前の例のような追加のレコードを  `dialin` 作成し、DNS レコードの代 `meet` わりに作成します。 管理簡易 URL では、このセクションで以前に示した 3 つのオプションのいずれかを使用します。
+ダイヤルイン簡易 URL でも同じ構成をセットアップできます。 これを行うには、前の例のような追加のレコードを作成し  `dialin` 、DNS レコードの代 `meet` わりに作成します。 管理簡易 URL では、このセクションで以前に示した 3 つのオプションのいずれかを使用します。
 
 この構成をセットアップした後に、監視アプリケーションを使用して、障害の監視用に HTTP 監視をセットアップする必要があります。 外部アクセスの場合は、HTTPS GET lyncdiscover を監視して確認します。\<sipdomain> 2 つのプールの外部 Web FQDN またはロード バランサー IP アドレスへの要求が成功しました。 たとえば、以下の要求では、**ACCEPT** ヘッダーが含まれないようにし、**200 OK** を戻す必要があります。
 

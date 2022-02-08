@@ -1,7 +1,7 @@
 ---
 title: デンマークでのフリーダイヤル制限
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: davlick, krkilaru
 ms.topic: reference
@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: これにより、各国/地域でフリーダイヤル番号をダイヤルする方法を確認できます。 国/地域を選択すると、国固有のページが表示されます。このページには、フリーダイヤル サービスを利用できる国/地域の詳細、および制限が表示されます。 ダイヤル形式には、フリーダイヤル番号をダイヤルするために必要な国/地域内のアクセス コードが表示されます。
-ms.openlocfilehash: ef8f8aad694c9083c805d9f1ba7c42027dc053e3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 91a652cf84f70d6bfebd58c329bb78a002a122ec
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855121"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387415"
 ---
 # <a name="toll-free-dialing-restrictions-in-denmark"></a>デンマークでのフリーダイヤル制限
 

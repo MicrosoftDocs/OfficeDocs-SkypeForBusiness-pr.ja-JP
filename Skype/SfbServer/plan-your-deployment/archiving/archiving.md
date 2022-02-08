@@ -1,8 +1,8 @@
 ---
 title: アーカイブの計画を立Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e9f0dcf7-66b4-4196-9e8c-b14721b1fb84
 description: '概要: このトピックを参照して、アーカイブを計画する方法について説明します。Skype for Business Server。'
-ms.openlocfilehash: 6d67caa4b196c65282ecb404af747e0a60f435a7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b763d2e771d054a1b7522e9af0eace4663f3ce0c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843700"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386435"
 ---
 # <a name="plan-for-archiving-in-skype-for-business-server"></a>アーカイブの計画を立Skype for Business Server
  
@@ -31,7 +31,7 @@ Skype for Business Serverは、次のアーカイブ コンポーネントを使
   
 - **アーカイブ エージェント:** 統合データ収集エージェントとも呼ばれます。 アーカイブ エージェント (統合データ収集エージェントとも呼ばれる) は、すべてのフロントエンド プールおよびサーバー上にEnterprise Edition自動的にStandard Editionされます。 アーカイブ エージェントは自動的にアクティブ化されますが、アーカイブが有効で適切に構成されるまで、メッセージは実際にはキャプチャされません。 既定では、アーカイブは無効になっています。
     
-- **アーカイブ データ ストレージ**。 データ ストレージは、Skype for Business ServerデータベースとしてSkype for Business Server SQL Serverしたり、Exchange展開している場合は、Exchange ストレージと統合できます。 
+- **データストレージのアーカイブ**。 データ ストレージは、Skype for Business ServerデータベースとしてSkype for Business Server SQL Serverしたり、Exchange展開している場合は、Exchange ストレージと統合できます。 
     
 アーカイブにはファイルストレージも必要ですが、アーカイブではフロントエンド サーバーまたはサーバーと同じファイル ストレージStandard Editionします。
 
@@ -48,7 +48,7 @@ Skype for Business Serverは、次のアーカイブ コンポーネントを使
     
 - **アーカイブを展開する場合**。 アーカイブは、最初の展開の一部として展開Skype for Business Server、既存の展開に追加できます。 アーカイブ ストレージSkype for Business Server (SQL Server データベース) を使用するには、トポロジ ビルダーを使用してトポロジにデータベースを追加し、トポロジを再度発行します。 すべてのユーザーが Exchange に保存され、メールボックスを In-Place Hold に設定している場合は、トポロジを更新する必要はなく、microsoft Exchange 統合を有効にしてアーカイブ されたデータを Exchange に保存する必要があります。 
     
-- **組織内のアーカイブが必要なサイトとユーザー**。 組織全体および必要に応じて、特定のサイト、プール、ユーザー、およびユーザー グループのアーカイブ設定を構成できます。
+- **アーカイブが必要な組織内のサイトとユーザー**。 組織全体および必要に応じて、特定のサイト、プール、ユーザー、およびユーザー グループのアーカイブ設定を構成できます。
     
 - **アーカイブする必要があるコンテンツ**。 アーカイブをグローバル レベルで指定するか、特定のサイトとユーザーに対して指定するか、これらの各レベルで、次の種類のコンテンツを有効にするかどうかを指定します。 
     
@@ -68,21 +68,21 @@ Skype for Business Serverは、次のアーカイブ コンポーネントを使
     
   - ピアツーピアのインスタント メッセージおよび会議のデスクトップ/アプリケーション共有
     
-    Skype for Business Server常設チャットの会話もアーカイブしません。 常設チャットの会話をアーカイブするには、常設チャット サーバーで展開できるコンポーネントであるコンプライアンス サービスを有効にして構成する必要があります。 詳細については[、「Plan for Persistent Chat Server in Skype for Business Server 2015」を参照](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)してください。
+    Skype for Business Server常設チャットの会話もアーカイブしません。 常設チャットの会話をアーカイブするには、常設チャット サーバーで展開できるコンポーネントであるコンプライアンス サービスを有効にして構成する必要があります。 詳細については、「[Plan for Persistent Chat Server in Skype for Business Server 2015」を参照](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)してください。
 
     > [!NOTE] 
     > 常設チャットは 2015 Skype for Business Serverで使用できますが、2019 年Skype for Business Serverではサポートされていません。 同じ機能は、Teams。 詳細については、「アップグレードの開始[方法」をMicrosoft Teamsしてください](/microsoftteams/upgrade-start-here)。 常設チャットを使用する必要がある場合は、この機能を必要とするユーザーを Teams に移行するか、2015 年Skype for Business Serverします。 
     
 - **アーカイブされた資料を保持する期間**。 アーカイブ データベースは長期的な保持を目的としていないので、Skype for Business Server はアーカイブ されたデータに対する電子探索 (検索) ソリューションを提供しないので、データを他のストレージに移動する必要があります。 Skype for Business Serverには、アーカイブ データのエクスポートに使用できるセッション エクスポート ツールと、アーカイブされたデータの検索可能なトランスクリプトが作成されます。 
     
-     グローバル ポリシー、および作成するサイトおよびユーザー ポリシーごとに、アーカイブおよびエクスポートされたデータを削除する場合を指定できます。 データの削除の詳細については、「アーカイブされたデータの削除を管理する」を参照[Skype for Business Server。](../../manage/archiving/purging-of-archived-data.md) セッション エクスポート ツールの使用の詳細については、「アーカイブされたデータをエクスポートする」を参照[Skype for Business Server。](../../manage/archiving/export-archived-data.md)
+     グローバル ポリシー、および作成するサイトおよびユーザー ポリシーごとに、アーカイブおよびエクスポートされたデータを削除する場合を指定できます。 データの削除の詳細については、「アーカイブされたデータの削除を管理する」を参照[Skype for Business Server。](../../manage/archiving/purging-of-archived-data.md) セッション エクスポート ツールの使用の詳細については、「アーカイブされたデータをエクスポートする」を参照[Skype for Business Server](../../manage/archiving/export-archived-data.md)。
     
 - **内部通信または外部通信をアーカイブするかどうか。** 内部通信 (つまり、内部ユーザー間の通信)、外部通信 (少なくとも 1 人の内部ネットワーク外のユーザーが含まれる通信)、または両方のアーカイブを有効にできます。これらのオプションは、組織全体に対して指定することも、特定のサイトおよびプールに対して指定することもできます。既定では、どちらのオプションも無効です。
     
     > [!NOTE]
     > 内部通信または外部通信のアーカイブの制御は、Skype for Businessポリシーでのみ使用できます。 統合Exchange、内部通信と外部通信の両方がアーカイブまたはアーカイブされません。 
   
-- **クリティカル モードを実装するかどうか**。 アーカイブが組織の要件である場合、重要なモードを構成すると、アーカイブを妨げる Skype for Business Server障害が発生した場合に IM セッションと会議セッションがブロックされます。 例: 
+- **クリティカル モードを実装するかどうか**。 アーカイブが組織の要件である場合、重要なモードを構成すると、アーカイブを妨げる Skype for Business Server障害が発生した場合に IM セッションと会議セッションがブロックされます。 次に例を示します。 
     
   - ストレージ サービスのSkype for Business Server。 この場合、アーカイブが有効になっているユーザーに対して IM がブロックされます。
     
@@ -99,7 +99,7 @@ Skype for Business Serverは、次のアーカイブ コンポーネントを使
 - ストレージSkype for Business Server使用
     
 > [!NOTE]
-> Skype for Business Server アーカイブ データベースの両方を実装し、Microsoft Exchange 統合を有効にした場合、Exchange ポリシーは Skype for Business Server アーカイブ ポリシーを上書きしますが、Exchange にホームを持ち、そのユーザーを持っていたユーザーに対してだけ優先されます。メールボックスが保留In-Placeされます。 Skype for Businessアーカイブは、Microsoft の保留ポリシー Exchange In-Placeによって異なります。 
+> Skype for Business Server アーカイブ データベースの両方を実装し、Microsoft Exchange 統合を有効にした場合、Exchange ポリシーは Skype for Business Server アーカイブ ポリシーを上書きしますが、Exchange し、メールボックスを保留にIn-Placeしています。 Skype for Businessアーカイブは、Microsoft の保留ポリシー Exchange In-Placeによって異なります。 
   
 1 つのフロント エンド プールまたは Standard Edition サーバーにアーカイブを展開する場合は、展開内の他のすべてのフロントエンド プールおよび Standard Edition サーバーでアーカイブを有効にする必要があります。 会話または会議がホストされているプールでアーカイブが有効になっていない場合は、すべての会議データをアーカイブできない可能性があります。 IM メッセージではアーカイブは引き続き機能しますが、会議のコンテンツとイベントはアーカイブできない場合があります。
   
@@ -136,9 +136,9 @@ Skype for Business Serverは、次のアーカイブ コンポーネントを使
 > [!NOTE]
 > アーカイブ データベースをホストするサーバーでは、他のデータベースもホストできます。ただし、アーカイブ データベースと他のデータベースを併置することを考慮するときには、数名以上のユーザーのメッセージをアーカイブすると、アーカイブ データベースに必要なディスク領域が非常に大きくなる可能性があることに注意してください。そのため、アーカイブ データベースとバックエンド データベースを併置することはお勧めしません。 
   
-アーカイブ データベースを監視データベース、バック エンド データベース、またはこれらの両方のデータベースと照合する場合は、いずれかのデータベースまたはすべてのデータベースに 1 つの SQL インスタンスを使用するか、データベースごとに個別の SQL インスタンスを使用できます。各 SQL インスタンスには、単一のバック エンド データベースのみを含めできます。 単一の監視データベース、および単一のアーカイブ データベース。
+アーカイブ データベースを監視データベース、バック エンド データベース、またはこれらの両方のデータベースと照合する場合は、いずれかのデータベースまたはすべてのデータベースに対して 1 つの SQL インスタンスを使用するか、またはデータベースごとに個別の SQL インスタンスを使用できます。各 SQL インスタンスには、単一のバック エンド データベース、単一の監視データベースのみを含めできます。 および単一のアーカイブ データベース。
   
-すべてのサーバーの役割とデータベースのコロケーションの詳細については[、「Topology Basics for Skype for Business Server」 を参照してください](../../plan-your-deployment/topology-basics/topology-basics.md)。 ストレージ データベースを含むトポロジを更新する方法の詳細については、「Create and publish new topology in [Skype for Business Server」 を参照してください](../../deploy/install/create-and-publish-new-topology.md)。
+すべてのサーバーの役割とデータベースのコロケーションの詳細については、「[Topology Basics for Skype for Business Server」 を参照してください](../../plan-your-deployment/topology-basics/topology-basics.md)。 ストレージ データベースを含むトポロジを更新する方法の詳細については、「Create and publish new topology in [Skype for Business Server」 を参照してください](../../deploy/install/create-and-publish-new-topology.md)。
   
 ### <a name="determine-archiving-options-and-user-policies"></a>アーカイブ オプションとユーザー ポリシーの決定
 
@@ -168,19 +168,19 @@ Skype for Business Serverアーカイブ オプションは、次のレベルで
     
     たとえば、グローバル構成で内部通信と外部通信のアーカイブを無効にし、内部および外部通信のアーカイブを有効にするサイト レベルのポリシーを作成し、外部通信のアーカイブを無効にするユーザー レベルのポリシーを作成するとします。 通信は、ユーザー レベルのポリシーを適用するユーザーを除くすべてのサイト ユーザーの外部通信と内部通信の両方でアーカイブされます。これらのユーザーの場合は、内部通信だけがアーカイブされます。
     
-アーカイブを展開するときに初期アーカイブ構成を設定する方法の詳細については、「Deploy archiving for Skype for Business Server」[を参照してください](../../deploy/deploy-archiving/deploy-archiving.md)。 展開後のアーカイブの管理の詳細については、「Manage [archiving in Skype for Business Server」 を参照してください](../../manage/archiving/archiving.md)。 
+アーカイブを展開するときに初期アーカイブ構成を設定する方法の詳細については、「Deploy [archiving for Skype for Business Server」 を参照してください](../../deploy/deploy-archiving/deploy-archiving.md)。 展開後のアーカイブの管理の詳細については、「Manage [archiving in Skype for Business Server」 を参照してください](../../manage/archiving/archiving.md)。 
   
 ## <a name="archiving-configuration-tools"></a>アーカイブ構成ツール
 
- ほとんどのアーカイブ オプションを制御するには、[コントロール パネル] Skype for Business Serverを使用します。 ただし、管理シェルを使用してのみ使用できるオプションSkype for Business Serverがあります。 これらのオプションには、重複するメッセージのアーカイブとアーカイブされたデータのエクスポートが含まれます。 Skype for Business Server コントロール パネルと Skype for Business Server 管理シェルを使用してアーカイブ ポリシーを管理する方法の詳細については、「Manage [archiving in](../../manage/archiving/archiving.md)Skype for Business Server」を参照してください。
+ ほとんどのアーカイブ オプションを制御するには、[コントロール パネル] Skype for Business Serverを使用します。 ただし、管理シェルを使用してのみ使用できるオプションSkype for Business Serverがあります。 これらのオプションには、重複するメッセージのアーカイブとアーカイブされたデータのエクスポートが含まれます。 Skype for Business Server コントロール パネルと Skype for Business Server 管理シェルを使用してアーカイブ ポリシーを管理する方法の詳細については、「Manage [archiving in](../../manage/archiving/archiving.md) Skype for Business Server」を参照してください。
   
 ## <a name="access-archived-data"></a>アーカイブされたデータにアクセスする
 
 アーカイブされたデータへのアクセス方法は、データの保管場所に応じて異なります。 
   
-- **Microsoft Exchange ストレージ**。 Exchange 統合オプションを選択した場合、Skype for Business Server は Exchange ストアにアーカイブ コンテンツを Exchange に保存し、In-Place Hold にメールボックスを置いたすべてのユーザーに保存します。 アーカイブされたデータは、ユーザーのメールボックス回復可能なアイテム フォルダーに格納されます。これは一般にユーザーには表示されませんが、Exchange **検出** 管理の役割を持つユーザーだけが検索できます。 Exchange展開されている場合は、フェデレーション検索と検出とSharePointを有効にできます。 Exchange に格納されているデータの保存、保持、および検出の詳細については、ExchangeおよびSharePointしてください。
+- **Microsoft Exchangeストレージ**。 Exchange 統合オプションを選択した場合、Skype for Business Server は Exchange ストアにアーカイブ コンテンツを Exchange に保存し、In-Place Hold にメールボックスを置いたすべてのユーザーに保存します。 アーカイブされたデータは、ユーザーのメールボックス回復可能なアイテム フォルダーに格納されます。これは一般にユーザーには表示されませんが、Exchange **検出** 管理の役割を持つユーザーだけが検索できます。 Exchange展開されている場合は、フェデレーション検索と検出とSharePointを有効にできます。 Exchange に格納されているデータの保存、保持、および検出の詳細については、ExchangeおよびSharePointしてください。
     
-- **Skype for Business Serverアーカイブ ストレージ**。 Skype for Business Server アーカイブ データベースを設定すると、Skype for Business Server Skype for Business Server アーカイブ データベースにアーカイブ コンテンツがExchange に保存されていないユーザー、およびメールボックスが In-Place Hold に置かれてないユーザーに対して、アーカイブ コンテンツがIn-Place に保存されます。 このデータは検索できませんが、他のツールを使用して検索可能な形式にエクスポートできます。 アーカイブ データベースに格納されているデータのエクスポートの詳細については、「アーカイブ されたデータをアーカイブ データベースにエクスポート[する」をSkype for Business Server。](../../manage/archiving/export-archived-data.md)
+- **Skype for Business Serverアーカイブ ストレージ。** Skype for Business Server アーカイブ データベースを設定した場合、Skype for Business Server は Exchange にホームされていないユーザー、およびメールボックスをオンにしていないユーザーのアーカイブ コンテンツを Skype for Business Server アーカイブ データベースに預け入れるIn-Place保持します。 このデータは検索できませんが、他のツールを使用して検索可能な形式にエクスポートできます。 アーカイブ データベースに格納されているデータのエクスポートの詳細については、「アーカイブ されたデータをアーカイブ データベースにエクスポート[する」を参照Skype for Business Server](../../manage/archiving/export-archived-data.md)。
     
 ## <a name="for-more-information"></a>詳細情報
 
@@ -190,6 +190,6 @@ Skype for Business Serverアーカイブ オプションは、次のレベルで
     
 - [アーカイブを管理Skype for Business Server](../../manage/archiving/archiving.md)
     
-統合と統合のSkype for Business Server Exchange詳細については、「Plan [to integrate Skype for Business」を参照](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)Exchange。
+統合と統合のSkype for Business Server Exchange詳細については、「Plan [to integrate to integrate Skype for Business」を参照](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)Exchange。
   
 

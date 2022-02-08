@@ -1,8 +1,8 @@
 ---
 title: 大規模な会議を計画Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: '概要: このトピックを参照して、大規模な会議を実装および管理するためのベスト プラクティスについて説明Skype for Business Server。'
-ms.openlocfilehash: a9ab532914a69f70cea6d54fb7935a7d8a44c98d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: dcf57150dc1120ccd76780ab047c1c48d76b94cf
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856544"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387995"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>大規模な会議を計画Skype for Business Server
  
@@ -29,7 +29,7 @@ Skype for Business Server がサポートできる会議のサイズは、会議
 > このトピックでは、ユーザーがサポートする大規模な会議のベスト プラクティスSkype for Business Server。 組織で大規模な会議機能が必要な場合は、Microsoft 365 および Office 365 の一部である新しいオンライン サービスである Skype 会議ブロードキャストを利用するハイブリッド環境の実装を検討する必要があります。 
 
 > [!NOTE]
-> Skype会議ブロードキャストを使用すると、最大 10,000 人の参加者の大規模なオンライン対象ユーザーに会議をホストおよびブロードキャストできます。 会議ブロードキャストSkype使用するには、Skype for Business Serverまたは組織とのハイブリッド セットアップで既に構成Microsoft 365必要Office 365です。 すべてのユーザーには、前提条件としてオンライン テナントが確立されている必要があります。 Skype 会議ブロードキャストを利用できるハイブリッド ソリューションを展開する場合は[、「Skype](https://go.microsoft.com/fwlink/?LinkId=617071)会議ブロードキャストとは」および「Skype 会議ブロードキャストのオンプレミス[展開を](../../deploy/configure-skype-meeting-broadcast.md)構成する」を参照してください。 
+> Skypeブロードキャストを使用すると、最大 10,000 人の参加者の大規模なオンライン対象ユーザーに会議をホストおよびブロードキャストできます。 会議ブロードキャストSkype使用するには、Skype for Business Serverまたは組織とのハイブリッド セットアップで既に構成Microsoft 365必要Office 365です。 すべてのユーザーには、前提条件としてオンライン テナントが確立されている必要があります。 Skype 会議ブロードキャストを利用できるハイブリッド ソリューションを展開する場合は、「Skype 会議ブロードキャストとは」および「[Skype](https://go.microsoft.com/fwlink/?LinkId=617071) 会議ブロードキャストのオンプレミス展開を構成する[」を](../../deploy/configure-skype-meeting-broadcast.md)参照してください。 
   
 大規模な会議には、通常、次の特性があります。
   
@@ -59,7 +59,7 @@ Skype for Business Server がサポートできる会議のサイズは、会議
   
 大規模な会議の開催専用の Skype for Business Server プールは、最大 1,000 人のユーザーの 1 つの会議のみを同時に開催する必要があります。そのため、フロントエンド サーバーからの専用のサポートを確保するには、帯域外スケジューリング プロセスを介して事前に会議時間を予約する必要があります。 複数の大規模な会議を同時にサポートするには、複数の専用の大規模会議プールをセットアップする必要があります。
   
-ハードウェアとソフトウェアの要件の詳細、および大規模な会議をサポートするトポロジの計画については、「Skype for Business Server での会議のハードウェアとソフトウェアの要件」および[「Skype for Business Server](hardware-and-software-requirements.md)の会議トポロジを計画する」[を参照してください](conferencing-topology.md)。
+ハードウェアとソフトウェアの要件の詳細と大規模な会議をサポートするトポロジの計画については、「Skype for Business Server での会議のハードウェアとソフトウェアの要件」および「[Skype for Business Server](hardware-and-software-requirements.md) の会議トポロジを計画する」を[参照](conferencing-topology.md)してください。
   
 ## <a name="implement-best-practices-for-large-meetings"></a>大規模な会議のベスト プラクティスを実装する
 
@@ -136,7 +136,7 @@ Skype for Business Server がサポートできる会議のサイズは、会議
     
 - 以下のように会議アクセス レベルを指定します。
     
-  - 少なくとも 1 人の招待者が組織の外部である場合は、会議アクセスの種類を [すべてのユーザー] (制限なし **) に設定します**。 これにより、会議の進行中に、大規模なロビーを管理することを回避できます。
+  - 少なくとも 1 人の招待者が組織の外部である場合は、会議のアクセスの種類を [すべてのユーザー **] (制限なし) に設定します**。 これにより、会議の進行中に、大規模なロビーを管理することを回避できます。
     
   - 会議が内部のみの会議の場合、会議アクセスの種類を [**同じ組織のユーザー**] に設定します。
     
@@ -219,6 +219,6 @@ Skype for Business Server がサポートできる会議のサイズは、会議
     
 - 必要でない限り **[匿名ユーザーを既定で承認する]** チェック ボックスがオンになっていないことを確認します。 この設定は、割り当てられた会議を使用しない場合に、オンライン 会議アドインによってスケジュールSkype for Business既定の会議アクセスの種類に影響します。 この設定の適切なオプションは、組織のニーズによって異なります。 組織のほとんどの大規模な会議が社内会議の場合は、このオプションを選択しないでください。 ほとんどの大規模な会議に外部ユーザーが参加できるようにする必要がある場合は、このオプションを選択します。
     
-会議ポリシーの作成の詳細については、「会議ポリシーの管理[」](../../manage/conferencing/conferencing-policies.md)を参照Skype for Business Server。
+会議ポリシーの作成の詳細については、「会議ポリシーの管理」を参照[Skype for Business Server。](../../manage/conferencing/conferencing-policies.md)
   
 

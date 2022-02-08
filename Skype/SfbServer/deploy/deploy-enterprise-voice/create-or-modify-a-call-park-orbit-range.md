@@ -1,8 +1,8 @@
 ---
 title: コール パーク オービット範囲を作成または変更Skype for Business
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: コール パーク オービット範囲テーブルを作成または変更するには、Skype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: ffe4a47a099099d31fdd55d23a95065549233f92
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8e6061f77d59eef8029b5afc52ede0d5acc500c8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839699"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387355"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>コール パーク オービット範囲を作成または変更Skype for Business
 
@@ -64,9 +64,9 @@ ms.locfileid: "60839699"
 
    - オービット範囲は一意である必要があります。 この範囲が他のどの範囲とも重ならないようにしてください。
 
-   - オービット範囲が文字または #で始まる場合、範囲は 100 より大きい必要 \* があります。
+   - オービット範囲が文字または #で始 \* まる場合、範囲は 100 より大きい必要があります。
 
-   - 有効な値: 正規表現文字列と一致する必要があります ([ \\ *|#]?1-9]\d {0,7} )|([1-9]\d)。 {0,8} つまり、値は、文字または # で始まる文字列か、1 ~ 9 の数値である必要があります (最初の文字は \* 0 にすることはできません)。 最初の文字が #の場合、次の文字は 1 ~ 9 の数値 \* である必要があります (ゼロにすることはできません)。 後続の文字には、任意の数字 0 ~ 9 の追加文字 \* ("#6000"、"92000"、"95551212"、および "915551212" など) を指定 \* できます。 最初の文字がまたは #の場合、最初の文字は 1 から 9 の数字 (ゼロにすることはできません)、その後に最大 8 文字の数字 \* ("915551212"、"41212"、"300" など) が続きます。
+   - 有効な値: 正規表現文字列と一致する必要があります ([\\*|#]?1-9]\d)|{0,7}([1-9]\d{0,8})。 つまり、値は、 \* 文字または # で始まる文字列か、1 ~ 9 の数値である必要があります (最初の文字は 0 にすることはできません)。 最初の文字が # \* の場合、次の文字は 1 ~ 9 の数値である必要があります (ゼロにすることはできません)。 後続の文字には、0 ~ 9 の任意の数字を指定できます (たとえば、"#6000"\*、"92000"\*、"95551212"、および "915551212" など)。 \*最初の文字がまたは #の場合、最初の文字は 1 から 9 の数字 (ゼロにすることはできません)、その後に最大 8 文字の数字 ("915551212"、"41212"、"300" など) が続きます。
 
    - プール当たりの合計が 50,000 オービットを超えないようにしてください。 各オービット範囲は、通常、100 以下のオービットを含みますが、10,000 オービットを超えなければ、範囲をそれよりも広くすることができます。 たとえば、開始番号 "7000000"、終了番号 "8000000" を指定するのではなく、開始番号 "7000000"、終了番号 "7000100" を指定することを検討してください。
 
@@ -76,9 +76,9 @@ ms.locfileid: "60839699"
 
 ### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>管理シェルSkype for Business Serverを使用して、パーキング通話の番号範囲を作成または変更するには
 
-1. Skype for Business Server 管理シェルがインストールされているコンピューターに RTCUniversalServerAdmins グループのメンバーとして、または「代理セットアップのアクセス許可」の説明に従って必要なユーザー権限でログオン **します。**
+1. Skype for Business Server 管理シェルがインストールされているコンピューターに RTCUniversalServerAdmins グループのメンバーとして、または「委任セットアップのアクセス許可」の説明に従って必要なユーザー権限を持つコンピューターにログオンします。
 
-2. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
+2. 管理シェルをSkype for Business Serverする **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[**2015** 年Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
 
 3. オービット番号の新しい範囲を作成するには、**New-CsCallParkOrbit** を使用します。オービット番号の既存の範囲を変更するには、**Set-CsCallParkOrbit** を使用します。
 

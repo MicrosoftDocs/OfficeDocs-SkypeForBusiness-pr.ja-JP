@@ -1,8 +1,8 @@
 ---
 title: エッジ サーバーのの関連付けを追加する
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: a58b6ba8-f491-4c37-ad45-aa46206fac51
 ROBOTS: NOINDEX, NOFOLLOW
 description: このページを使用して、音声ビデオ トラフィック用にこのエッジ プールを使用するフロント エンド プールと Standard Edition サーバーを選択します。
-ms.openlocfilehash: 3f42afc87e71e7efa86d33938ac9699f2a1d86e6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d788d41b8e2b699dec3cfdde9194fc13e3adcb74
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852531"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388715"
 ---
 # <a name="add-edge-server-associations"></a>エッジ サーバーの関連付けの追加
  

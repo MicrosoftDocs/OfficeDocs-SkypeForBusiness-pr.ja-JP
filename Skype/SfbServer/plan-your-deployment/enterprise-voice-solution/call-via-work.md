@@ -1,8 +1,8 @@
 ---
 title: '[通話の計画] 作業時間内の作業Skype for Business Server'
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a33ec637-9ac8-4cb7-b3b2-88d432efc078
 description: Skype for Business Server で通話の計画を立て、Skype for Business と PBX 電話システムとの統合を可能にし、ユーザーが pbx 電話を制御するために Skype for Business を使用できます。
-ms.openlocfilehash: 0dddb601ecf9928aa1bd1cd63bc8ed3628a1330d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 821b933f3ad4e9aeae6d1ff7156059c37d2a24ab
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854221"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389105"
 ---
 # <a name="plan-for-call-via-work-in-skype-for-business-server"></a>[通話の計画] 作業時間内の作業Skype for Business Server
  
 Skype for Business Server で通話の計画を立て、Skype for Business と PBX 電話システムとの統合を可能にし、ユーザーが pbx 電話を制御するために Skype for Business を使用できます。
   
- **Call Via Work** は、既存の PBX 電話システムSkype for Business Serverソリューションを統合Skype for Business新しい機能です。 [仕事による通話] が有効になっているユーザーは、展開内Skype for Business外部ユーザーのどちらかで、別のユーザーを呼び出す方法をクリックできます。 通話は、ユーザーの PBX 電話を使用して完了します。 これにより、PBX 電話を持つユーザーは、リッチ メッセージの会話にオーディオSkype for Businessできます。 以前のバージョンの Lync Server リモート呼び出し制御は、ユーザーが Lync Server で PBX 電話を制御できる機能でした。 このSkype for Business Serverは、Call Via Work に置き換えされています。
+ **Call Via Work** は、既存の PBX 電話システムSkype for Business Serverソリューションを統合Skype for Business機能です。 [仕事による通話] が有効になっているユーザーは、展開内Skype for Business外部ユーザーのどちらかで、別のユーザーを呼び出す方法をクリックできます。 通話は、ユーザーの PBX 電話を使用して完了します。 これにより、PBX 電話を持つユーザーは、リッチ メッセージの会話にオーディオSkype for Businessできます。 以前のバージョンの Lync Server リモート呼び出し制御は、ユーザーが Lync Server で PBX 電話を制御できる機能でした。 このSkype for Business Serverは、Call Via Work に置き換えされています。
   
 仕事による通話では、PBX 電話ユーザーに対して次の操作を有効にします。
   
@@ -39,7 +39,7 @@ Skype for Business Server で通話の計画を立て、Skype for Business と P
     
 - 会議参加機能を 1 回クリックする
     
-## <a name="how-it-works"></a>メカニズム
+## <a name="how-it-works"></a>仕組み
 
 Call Via Work は、PBX システムと Skype for Business Server 展開の間のバック to バック ユーザー エージェント (B2BUA) としてユニファイド コミュニケーション Web API (UCWA) を使用します。そのため、pbx システムに Skype for Business Server を接続するためにコンピューターでサポートされる通信アプリケーション (CSTA) ゲートウェイは必要とされません。 UCWA は、以前のバージョンの Lync Server で導入されたサービスで、モバイル クライアントと Web クライアントとの接続を有効にし、すべてのフロント エンド サーバーに自動的にインストールされます。
   
@@ -47,7 +47,7 @@ Call Via Work は、PBX システムと Skype for Business Server 展開の間�
 
 次に、ユーザーが [通話経由の作業] を有効にした場合に、Skype for Business Serverを使用して通話を行う方法を示します。
   
-![通話の通話中の手順を表示します。最初に、呼び出し元がクライアント内のユーザーを呼び出Skype for Businessします。その後、UCWA は発信者の電話を呼び出します。 発信者が電話を受け取ると、受信者が呼び出されます。](../../media/050e88ed-e18e-40c0-84d5-b17fe40c305a.jpg)
+![通話の通話中の手順を表示します。最初に、発信者がクリックしてクライアント内のSkype for Businessを呼び出し、UCWA が発信者の電話を呼び出します。 発信者が電話を受け取ると、受信者が呼び出されます。](../../media/050e88ed-e18e-40c0-84d5-b17fe40c305a.jpg)
   
 1. ユーザーはクライアントでユーザーをSkype for Businessし、電話アイコンをクリックして呼び出します。 または、IM 会話中に、ユーザーがクリックして、セッションを行っているユーザーを呼び出します。
     
@@ -59,15 +59,15 @@ Call Via Work は、PBX システムと Skype for Business Server 展開の間�
     
 ### <a name="joining-a-conference-with-call-via-work"></a>仕事を通じて電話で会議に参加する
 
-[仕事を経由して通話] ユーザーは、会議の URL をクリックして、スケジュールされた会議に参加できます。 Skype for Business会議サービスがユーザーのPBX 電話にダイヤルするまで、メッセージにダイヤルアウトを表示します。 次に、[作業時間を使用して通話] ユーザーが PBX 電話を受け取り、会議に参加します。
+[仕事を経由して通話] ユーザーは、会議の URL をクリックして、スケジュールされた会議に参加できます。 Skype for Business会議サービスがユーザーの PBX  電話にダイヤルするまで、メッセージにダイヤルアウトを表示します。 次に、[作業時間を使用して通話] ユーザーが PBX 電話を受け取り、会議に参加します。
   
-[作業時間を使用して通話]ユーザーは、[今すぐ会議] オプションを使用して会議Skype for Business会議を作成することもできます。 次に、ユーザーに [ダイヤルアウト] メッセージ **が表示** され、PBX の電話が呼び出されます。
+[作業時間を使用して通話] ユーザーは、[今すぐ会議] オプションを使用して会議Skype for Business会議を作成することもできます。 次に、ユーザーに [ **ダイヤルアウト] メッセージが表示** され、PBX の電話が呼び出されます。
   
 [仕事を経由して通話] ユーザーは、会議ブリッジ番号を電話会議から呼び出すことによって、会議にダイヤルインSkype for Business。 会議 PIN が必要な場合、ユーザーは PBX 電話を使用して PIN を入力する必要があります。
   
 ### <a name="incoming-calls"></a>着信呼び出し
 
-Call Via Work を有効にしたユーザーが Skype for Business 通話を受信すると、PBX 電話とユーザーの Skype for Business クライアントが同時に呼び出されます (ユーザーが同時呼び出しを設定している場合)。 ユーザーは、PBX の電話を受け取るか、または[通知の受信] をクリックして、Skype for Businessできます。 ユーザーがユーザーを使用して呼び出しを受けSkype for Business、通話のSkype for Businessウィンドウが開いたままです。 ただし、ユーザーが PBX 電話を受け取って通話を受け入れる場合は、Skype for Business 通知ウィンドウが閉じ、Skype for Business セッションが無く、PBX 電話を使用した音声通話のみになります。
+Call Via Work を有効にしたユーザーが Skype for Business 通話を受信すると、PBX 電話とユーザーの Skype for Business クライアントが同時に呼び出されます (ユーザーが同時呼び出しを設定している場合)。 ユーザーは、PBX 電話を受け取るか、または [受信]  通知で [同意する] をクリックして、Skype for Businessできます。 ユーザーがユーザーを使用して呼び出しを受けSkype for Business、通話のSkype for Businessウィンドウが開いたままです。 ただし、ユーザーが PBX 電話を受け取って通話を受け入れる場合は、Skype for Business 通知ウィンドウが閉じ、Skype for Business セッションが無く、PBX 電話を使用した音声通話のみになります。
   
 [作業による通話] を有効にしたユーザーが PBX 呼び出しを受信すると、PBX の電話だけが呼び出されます。
   
@@ -97,7 +97,7 @@ Call Via Work は、ハードウェアのセットアップをほとんど必要
     
 ## <a name="prerequisites-for-call-via-work"></a>仕事による通話の前提条件
 
-すべてのユーザーが [仕事を経由して通話] を有効にするには、前提条件を設定する必要があります。 これらの前提条件の詳細、およびユーザーによる通話を有効にする方法の手順については、「Deploy Call Via Work in Skype for Business Server [2015」を参照](../../deploy/deploy-call-via-work.md)してください。 
+すべてのユーザーが [仕事を経由して通話] を有効にするには、前提条件を設定する必要があります。 これらの前提条件の詳細、およびユーザーによる通話を有効にする方法については、「Deploy [Call Via Work in Skype for Business Server 2015](../../deploy/deploy-call-via-work.md)」を参照してください。 
   
 ## <a name="see-also"></a>関連項目
 

@@ -1,8 +1,8 @@
 ---
 title: アーカイブ オプションを構成して、エラーを処理Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
 description: '概要: アーカイブを妨げる障害が発生した場合に IM セッションと会議セッションSkype for Business Serverする方法について説明します。'
-ms.openlocfilehash: f3f20bf53a784972c720ce5578d78462cbb222c8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: caeda2eb86b818faf4b1ec57d4010b182b5957ca
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836469"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386695"
 ---
 # <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>アーカイブ オプションを構成して、エラーを処理Skype for Business Server
 
@@ -35,7 +35,7 @@ ms.locfileid: "60836469"
     
 3. 左側のナビゲーション バーで、[**監視とアーカイブ**] をクリックし、[**アーカイブ構成**] をクリックします。
     
-4. アーカイブ構成の一覧で、適切なグローバル構成、サイト構成、またはプール構成の名前をクリックし、[編集] をクリックし、[詳細の表示]**をクリックします**。
+4. アーカイブ構成の一覧で、適切なグローバル構成、サイト構成、またはプール構成の名前をクリックし、[編集] をクリックし、[詳細の表示] **をクリックします**。
     
 5. 障害が発生した場合のアーカイブの動作を設定するには、[アーカイブが失敗した場合にインスタント メッセージング **(IM)** セッションまたは Web 会議セッションをブロックする] チェック ボックスをオンまたはオフにします。
     
@@ -57,4 +57,4 @@ Set-CsArchivingConfiguration -Identity "site:Redmond" -BlockOnArchiveFailure $Tr
 Set-CsArchivingConfiguration -Identity "site:Redmond" -BlockOnArchiveFailure $False
 ```
 
-詳細については [、Set-CsArchivingConfiguration](/powershell/module/skype/set-csarchivingconfiguration?view=skype-ps) コマンドレットのヘルプ トピックを参照してください。
+詳細については、 [Set-CsArchivingConfiguration コマンドレットのヘルプ トピックを参照](/powershell/module/skype/set-csarchivingconfiguration?view=skype-ps) してください。

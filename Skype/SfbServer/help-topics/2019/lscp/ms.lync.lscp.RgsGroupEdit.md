@@ -1,8 +1,8 @@
 ---
 title: 応答グループ 新規または既存のエージェント グループの編集を作成する
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
 ROBOTS: NOINDEX, NOFOLLOW
 description: エージェント グループでは、応答グループへの通話に応答できるユーザー (エージェントと呼ばれます) およびグループ内のすべてのエージェントに適用される設定が定義されています。
-ms.openlocfilehash: 6c386f47e2448e7e508d9c9dd46c737f7de9e18a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b17a8db2541d10abfc46b8d7e1be2990b82f598b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833783"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385095"
 ---
 # <a name="response-groups-create-new-or-edit-existing-agent-group"></a>応答グループ: エージェント グループの新規作成または既存エージェント グループの編集
 
@@ -56,7 +56,7 @@ ms.locfileid: "60833783"
 
 - **エージェント** 次のいずれかの方法で、応答グループのエージェントになるユーザーを選択します。
 
-  - [**既存のメール配布リストを使用して**、既存の配布リストを使用Exchange選択します。 配布リストの電子メール アドレスを [**配布リストのアドレス**] に入力します。
+  - [**既存の電子メール配布リストを使用** して、既存の配布リストを使用Exchange選択します。 配布リストの電子メール アドレスを [**配布リストのアドレス**] に入力します。
 
     > [!NOTE]
     > エージェント グループに対して選択できる配布リストは 1 つだけです。配布リストに入れ子になった配布リストが含まれる場合、入れ子となった配布リストはエージェント グループに含まれません。
@@ -71,4 +71,4 @@ ms.locfileid: "60833783"
 
     上下矢印を使用すると、選択したエージェントがエージェント リスト内で上下に移動します。リスト内でのエージェントの順序により、ラウンド ロビンおよびシリアルのルーティングでエージェントが通話を受ける順序が決まります。
 
-応答グループの機能の詳細については、「計画」のドキュメントの「応答グループ アプリケーションの計画[Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)を参照してください。 エージェント グループの使用の詳細については、「操作」のドキュメントの「[Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups)」を参照してください。
+応答グループの機能の詳細については、「計画」のドキュメントの「応答グループ アプリケーションの計画[」](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)Skype for Business Serverを参照してください。 エージェント グループの使用の詳細については、「操作」のドキュメントの「[Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups)」を参照してください。

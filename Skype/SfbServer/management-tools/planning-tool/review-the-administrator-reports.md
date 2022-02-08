@@ -1,8 +1,8 @@
 ---
 title: 2015 年の管理者レポートSkype for Business Serverする
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
@@ -14,16 +14,16 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 description: 管理者レポートは、展開と運用に関する詳細情報です。 レポートは、デザイン サイトでマークされた選択内容に基づいて生成されます。 設計者は、ネットワーク ダイアグラムを編集し、サーバー、プール、およびロード バランサーの完全な IP アドレスと完全修飾ドメイン名 (FQDN) を定義することで、管理者レポートに値を追加できます。
-ms.openlocfilehash: fd48494a603b6e279790a92e38040c3e26b01668
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 80dd069f516bff816dc90fb4307ca3ac2b7ebdf0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845300"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385485"
 ---
 # <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>2015 年の管理者レポートSkype for Business Serverする
 
-管理者レポートは、展開と運用に関する詳細情報です。 レポートは、デザイン サイトでマークされている選択内容に基 **づいて生成されます**。 設計者は、ネットワーク ダイアグラムを編集し、サーバー、プール、およびロード バランサーの完全な IP アドレスと完全修飾ドメイン名 (FQDN) を定義することで、管理者レポートに値を追加できます。
+管理者レポートは、展開と運用に関する詳細情報です。 レポートは、デザイン サイトでマークされた選択内容に基づいて **生成されます**。 設計者は、ネットワーク ダイアグラムを編集し、サーバー、プール、およびロード バランサーの完全な IP アドレスと完全修飾ドメイン名 (FQDN) を定義することで、管理者レポートに値を追加できます。
 
 管理者レポート機能を使用すると、次の機能を使用できます。
 

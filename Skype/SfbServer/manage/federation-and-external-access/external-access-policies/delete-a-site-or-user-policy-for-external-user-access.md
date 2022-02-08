@@ -5,8 +5,8 @@ ms:assetid: 6d907507-825b-4354-9c03-337a459f72de
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521013(v=OCS.15)
 ms:contentKeyID: 48184455
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: '[外部アクセス ポリシー] ページの [コントロール パネル] の [Skype for Business Server] に表示されているサイトまたはユーザー ポリシーを削除できます。'
-ms.openlocfilehash: 136b7f612dc2dcc0625e7f844ecf6ad38aba0c37
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2c8d3e73d0bccc0ea7ea25bdfed0b871a51e9a82
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834225"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388175"
 ---
 # <a name="delete-a-site-or-user-policy-for-external-user-access"></a>外部ユーザー アクセスに関するサイト ポリシーまたはユーザー ポリシーの削除
 
@@ -31,7 +31,7 @@ ms.locfileid: "60834225"
   - グローバル ポリシーを既定の設定にリセットします。 既定のグローバル ポリシー設定では、外部ユーザー アクセスが許可されません。 グローバル ポリシーは削除できません。
 
 
-[外部アクセス ポリシー] ページの [コントロール パネル] の [Skype for Business Server] に表示されているサイトポリシーまたはユーザー ポリシー **を削除** できます。 グローバル ポリシーを削除しても、実際には削除されませんが、外部ユーザー アクセス オプションのサポートが含まれる既定の設定にのみリセットされます。 グローバル ポリシーのリセットの詳細については、「外部ユーザー アクセスのグローバル ポリシーを [リセットする」を参照してください](reset-the-global-policy-for-external-user-access.md)。
+[外部アクセス ポリシー] ページの [コントロール パネル] の [Skype for Business Serverサイトまたはユーザー ポリシー **を削除** できます。 グローバル ポリシーを削除しても、実際には削除されませんが、外部ユーザー アクセス オプションのサポートが含まれる既定の設定にのみリセットされます。 グローバル ポリシーのリセットの詳細については、「外部ユーザー アクセス [のグローバル ポリシーをリセットする」を参照してください](reset-the-global-policy-for-external-user-access.md)。
 
 
 ## <a name="to-delete-a-site-or-user-policy-for-external-user-access"></a>外部ユーザー アクセスのサイト ポリシーまたはユーザー ポリシーを削除するには
@@ -67,4 +67,4 @@ ms.locfileid: "60834225"
   - 次のコマンドでは、外部ユーザー アクセス ポリシーが無効になっているすべての外部アクセス ポリシーを削除します。<br/><br/>Get-CsExternalAccessPolicy |Where-Object {$_.EnableOutsideAccess -eq $False} |Remove-CsExternalAccessPolicy
 
 
-詳細については [、Remove-CsExternalAccessPolicy](/powershell/module/skype/Remove-CsExternalAccessPolicy) コマンドレットのヘルプ トピックを参照してください。
+詳細については、 [Remove-CsExternalAccessPolicy](/powershell/module/skype/Remove-CsExternalAccessPolicy) コマンドレットのヘルプ トピックを参照してください。

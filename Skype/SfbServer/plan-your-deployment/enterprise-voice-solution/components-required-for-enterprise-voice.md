@@ -1,8 +1,8 @@
 ---
 title: エンタープライズ VoIPのSkype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ee219976-c39a-4b2f-988d-886c339700f7
 description: このページのエンタープライズ VoIPコンポーネントSkype for Business Server。
-ms.openlocfilehash: 0dcc7578ee427fe6bf37f2bbde48c09ff32d62e7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2fbc5aa6a7ece34db0d0ae9360d4be7c8b6f2a8d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855424"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390049"
 ---
 # <a name="components-required-for-enterprise-voice-in-skype-for-business-server"></a>エンタープライズ VoIPのSkype for Business Server
  
@@ -29,11 +29,11 @@ ms.locfileid: "60855424"
   
 トポロジをエンタープライズ VoIPするには、トポロジで次のコンポーネントが必要です。 
   
-- 1 つ以上の仲介サーバー。信号を変換し、一部の構成では、内部 Skype for Business Server、エンタープライズ VoIP インフラストラクチャと公衆交換電話網 (PSTN) ゲートウェイまたはセッション開始プロトコル (SIP) トランク間のメディア。 仲介サーバーは、展開の最も重要なエンタープライズ VoIPです。 詳細については、「仲介サーバー[コンポーネント」を参照Skype for Business Server。](mediation-server.md)
+- 1 つ以上の仲介サーバー。信号を変換し、一部の構成では、内部 Skype for Business Server、エンタープライズ VoIP インフラストラクチャと公衆交換電話網 (PSTN) ゲートウェイまたはセッション開始プロトコル (SIP) トランク間のメディア。 仲介サーバーは、展開の最も重要なエンタープライズ VoIPです。 詳細については、「仲介サーバー [コンポーネント」を参照Skype for Business Server](mediation-server.md)。
     
     仲介サーバーは、フロント エンド サーバーと一緒に展開するか、スタンドアロン サーバーとしてインストールできます。
     
-- SIP トランクまたは PSTN ゲートウェイを含む PSTN 接続コンポーネント。 詳細については、「PSTN 接続コンポーネント」を[参照Skype for Business Server。](pstn-connectivity.md)
+- SIP トランクまたは PSTN ゲートウェイを含む PSTN 接続コンポーネント。 詳細については、「PSTN 接続コンポーネント」[を参照Skype for Business Server](pstn-connectivity.md)。
     
 - エッジ サーバーは、組織のファイアウォールエンタープライズ VoIPユーザーが機能を使用できるサーバーです。 
     
@@ -41,6 +41,6 @@ ms.locfileid: "60855424"
     
     音声ビデオ認証サービスは音声ビデオ エッジ サービスと同じコンピューターに配置され、音声ビデオ エッジ サービスのための認証サービスを実行します。外部のユーザーが音声ビデオ エッジ サービスに接続するには、発信を行う前に、音声ビデオ認証サービスから認証トークンを取得する必要があります。
     
-- さらに、一部エンタープライズ VoIPコンポーネントはフロント エンド サーバーで実行されます。 これらのコンポーネントの詳細については、「フロントエンド[サーバー VoIP コンポーネント」を参照Skype for Business Server](front-end-server-voip.md)
+- さらに、一部エンタープライズ VoIPコンポーネントはフロント エンド サーバーで実行されます。 これらのコンポーネントの詳細については、「[フロントエンド サーバー VoIP](front-end-server-voip.md) コンポーネント」を参照Skype for Business Server
     
 

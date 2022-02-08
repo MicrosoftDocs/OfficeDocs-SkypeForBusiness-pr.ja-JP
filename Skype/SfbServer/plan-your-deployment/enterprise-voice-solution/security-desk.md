@@ -1,8 +1,8 @@
 ---
 title: セキュリティ デスクを [セキュリティ デスク] にSkype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4b1d9125-7488-419b-85dd-a8dd3ab5add3
 description: E9-1-1 展開に組織のセキュリティ デスクを含める方法を計画Skype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: 4d69d02c985588726df449e749380db5aa728855
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0b0e6049bb8b25753f62c7a926985fb2fad79b47
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831901"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389109"
 ---
 # <a name="include-the-security-desk-in-skype-for-business-server"></a>セキュリティ デスクを [セキュリティ デスク] にSkype for Business Server
  

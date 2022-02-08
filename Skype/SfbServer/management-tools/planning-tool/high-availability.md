@@ -1,8 +1,8 @@
 ---
 title: 高可用性パン ツール
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 description: Skype for Business Server 2015 年から 2015 年のほとんどのサーバー の役割の主な高可用性スキームは、プールによるサーバーの冗長性に基づいて行います。 特定のサーバーの役割を実行しているサーバーが失敗した場合、同じ役割を実行するプール内の他のサーバーは、そのサーバーからの負荷を受け取る。
-ms.openlocfilehash: bd29171be4d30f688f29f9ceb6d793894b0d7938
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 351a8c317c128e37f603f8a64e312c972a76b7cb
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850910"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386475"
 ---
 # <a name="high-availability-planning-tool"></a>高可用性計画ツール
  
@@ -35,6 +35,6 @@ Skype for Business Server 2015 では、高可用性を有効にするには、�
     
 また、計画ツールは、すべてのデータベースSQLミラー データベースを追加します。 たとえば、フロントエンド SQL Server データベースがある場合、計画ツールはもう一方のデータベースをミラー データベースとして追加し、"フロントエンド ミラー SQL データベース" と名付けします。
   
-高可用性のための環境の準備の詳細については、「Plan for high availability and disaster recovery in Skype for Business Server [2015」を参照](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)してください。
+高可用性のための環境の準備の詳細については、「[Plan for high availability and disaster recovery in Skype for Business Server 2015」を参照](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)してください。
   
 

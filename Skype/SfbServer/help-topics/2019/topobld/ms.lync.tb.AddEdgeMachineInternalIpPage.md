@@ -1,8 +1,8 @@
 ---
 title: エッジ コンピューター内部 IP の追加
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 34717d03-5ece-4be3-9d05-25497250dc16
 ROBOTS: NOINDEX, NOFOLLOW
 description: このページを使用して、エッジ サーバーの内部 IP アドレスと完全修飾ドメイン名 (FQDN) を指定します。
-ms.openlocfilehash: ec5d4b603fe32aa209aeb31c196382c8747caa3f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a35e9557e66c7a66312ab461a2c87d05940de12f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841699"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384995"
 ---
 # <a name="add-edge-machine-internal-ip"></a>エッジ コンピューター内部 IP の追加
 

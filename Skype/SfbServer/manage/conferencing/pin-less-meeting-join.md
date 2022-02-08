@@ -1,8 +1,8 @@
 ---
 title: 会議の PIN レス会議参加を構成Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
 description: '概要: 会議で PIN レス会議参加オプションを構成する方法についてSkype for Business Server。'
-ms.openlocfilehash: 13af671edaa9ab8853e0390d43c62b6576bed4e2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 82101f391b4b0713495eade53e092fefff8a053e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861364"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385715"
 ---
 # <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>会議の PIN レス会議参加を構成Skype for Business Server
  
@@ -39,13 +39,13 @@ ms.locfileid: "60861364"
     
   - **発信者が所属する組織のユーザーが直接アクセスする**
     
-  - **発信者が直接アクセスするユーザー** (制限なし) (これは既定の設定です)。
+  - **発信者が直接アクセスするユーザー (制限なし)** (これは既定の設定です)。
     
 - PIN レス参加を有効にするように構成されている場合でも、CAA サービスは引き続きリーダー PIN の入力を求めるメッセージを表示します。 ユーザーは、PIN を入力したかどうかに関して会議に参加できます。 ただし、リーダー PIN を入力する機能を保持すると、ダイヤルイン発信者はリーダーとして認証し、必要に応じて会議を管理できます。
     
 ## <a name="configure-pin-less-meeting-join"></a>PIN レス会議参加の構成
 
-ユーザーの PIN レス会議参加を有効にするには [、Set-CsDialInConferencingConfiguration](/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) コマンドレットと AllowAnonymousPstnActivation パラメーターを次のように使用します。
+ユーザーの PIN レス会議参加を有効にするには、 [Set-CsDialInConferencingConfiguration](/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) コマンドレットと AllowAnonymousPstnActivation パラメーターを次のように使用します。
   
 ```PowerShell
 Set-CsDialInConferencingConfiguration -Identity  < global or site:sitename>  -AllowAnonymousPstnActivation $True
@@ -63,4 +63,4 @@ Set-CsDialInConferencingConfiguration -Identity site:Redmond -AllowAnonymousPstn
 Set-CsConferencingPolicy [-Identity <XdsIdentity>] -AllowAnonymousUsersToDialOut $False
 ```
 
-詳細については [、「Set-CsConferencingPolicy」を参照してください](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
+詳細については、「 [Set-CsConferencingPolicy」を参照してください](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。

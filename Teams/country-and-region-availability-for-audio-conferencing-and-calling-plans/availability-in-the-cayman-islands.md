@@ -1,7 +1,7 @@
 ---
 title: ケイマン諸島の空き時間情報
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Cayman 諸島Microsoft 365およびOffice 365のSkype for BusinessサービスMicrosoft Teamsサービスを次に示します。
-ms.openlocfilehash: 40d1617dde8ee45971f705b96e17df61d710b261
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+description: Cayman 諸島Microsoft 365、Office 365およびSkype for BusinessのMicrosoft Teamsサービスを次に示します。
+ms.openlocfilehash: d5a66a27bf2cbf4ecfa8b5e115aa3545f462cd9e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62190638"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384145"
 ---
 # <a name="availability-in-the-cayman-islands"></a>ケイマン諸島の空き時間情報
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-Cayman 諸島Microsoft 365およびOffice 365のSkype for BusinessサービスMicrosoft Teamsサービスを次に示します。
+Cayman 諸島Microsoft 365、Office 365およびSkype for BusinessのMicrosoft Teamsサービスを次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -72,7 +72,7 @@ Cayman 諸島Microsoft 365およびOffice 365のSkype for BusinessサービスMi
 |有料電話番号は使用できますか?  <br/> |いいえ  <br/> |
 |無料電話番号は利用できますか?  <br/> |Yes  <br/> |
    
- 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「Skype for Business および Microsoft Teams のサービス電話番号を取得する」を参照[してください](../getting-service-phone-numbers.md)。
+ 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「Skype for Business および Microsoft Teams のサービス電話番号を取得する」[を参照](../getting-service-phone-numbers.md)してください。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 
@@ -82,7 +82,7 @@ Cayman 諸島Microsoft 365およびOffice 365のSkype for BusinessサービスMi
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

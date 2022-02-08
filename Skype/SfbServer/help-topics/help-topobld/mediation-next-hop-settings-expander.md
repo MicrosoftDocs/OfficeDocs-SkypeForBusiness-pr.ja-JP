@@ -1,8 +1,8 @@
 ---
 title: 仲介の次ホップ設定エキスパンダー
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,17 +15,17 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 814f5b06-3e5a-4a39-804d-7f7d3fbee54d
 description: ドロップダウン リストから定義済みの Enterprise Edition フロント エンド プールまたは Standard Edition フロント エンド サーバーを選択して、仲介サーバー プールまたは仲介サーバーの次ホップを指定します。 ディレクターまたはディレクター プールは仲介サーバー プールまたは仲介サーバー次ホップの有効な選択肢ではないため、一覧には表示されません。 [OK] をクリックして変更を受け入れて保存します。 変更を破棄してプロパティ ページを終了するには、[キャンセル] をクリックします。
-ms.openlocfilehash: 796e1b8ca4e5b986aaad04512d1ac69fbe8d498d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2c32b9f77afff1e0daed319bd61724162140a60f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830971"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384385"
 ---
 # <a name="mediation-next-hop-settings-expander"></a>仲介の次ホップ設定エキスパンダー
  
-ドロップダウン リストから定義済みの Enterprise Edition フロント エンド プールまたは Standard Edition フロント エンド サーバーを選択して、仲介サーバー プールまたは仲介サーバーの次ホップを指定します。 ディレクターまたはディレクター プールは仲介サーバー プールまたは仲介サーバー次ホップの有効な選択肢ではないため、一覧には表示されません。 **[OK] を** クリックして変更を受け入れて保存します。 変更を破棄してプロパティ ページを終了するには、**[キャンセル]** をクリックします。
+ドロップダウン リストから定義済みの Enterprise Edition フロント エンド プールまたは Standard Edition フロント エンド サーバーを選択して、仲介サーバー プールまたは仲介サーバーの次ホップを指定します。 ディレクターまたはディレクター プールは仲介サーバー プールまたは仲介サーバー次ホップの有効な選択肢ではないため、一覧には表示されません。 [ **OK] を** クリックして変更を受け入れて保存します。 変更を破棄してプロパティ ページを終了するには、**[キャンセル]** をクリックします。
   
-仲介サーバー プールまたは仲介サーバーの設定の詳細については、「展開」のドキュメントの[「Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)のトポロジ ビルダーで仲介サーバーを展開する」を参照してください。
+仲介サーバー プールまたは仲介サーバーの設定の詳細については、「展開」のドキュメントの「[Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md) のトポロジ ビルダーで仲介サーバーを展開する」を参照してください。
   
 

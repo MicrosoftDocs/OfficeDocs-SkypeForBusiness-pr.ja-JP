@@ -1,8 +1,8 @@
 ---
 title: 新しいトポロジを作成し、Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
@@ -16,17 +16,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
-description: '概要: 新しいトポロジを作成、発行、および確認してから、新しいトポロジをインストールするSkype for Business Server。 以下の Microsoft 評価センター Skype for Business Server無料試用版をダウンロードします https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。'
-ms.openlocfilehash: e224df12ddb680dcec86611f2bce65e377e76c04
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: '概要: 新しいトポロジを作成、発行、および確認してから、新しいトポロジをインストールするSkype for Business Server。 以下の Microsoft 評価センター Skype for Business Server無料試用版をダウンロードしますhttps://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
+ms.openlocfilehash: 099b367c1fa7f0b2f62c8274b68697de053ab205
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841869"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387255"
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>新しいトポロジを作成し、Skype for Business Server
  
-**概要:** 新しいトポロジを作成、発行、および確認してから、新しいトポロジをインストールするSkype for Business Server。 以下の Microsoft 評価センター Skype for Business Server無料試用版をダウンロードします [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server) 。
+**概要:** 新しいトポロジを作成、発行、および確認してから、新しいトポロジをインストールするSkype for Business Server。 以下の Microsoft 評価センター Skype for Business Server無料試用版をダウンロードします[https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)。
   
 トポロジ内の各サーバーに Skype for Business Serverシステムをインストールする前に、トポロジを作成して公開する必要があります。 トポロジを発行する場合は、トポロジ情報を中央管理ストア データベースに読み込む必要があります。 これがサーバー プールEnterprise Edition、新しいトポロジを初めて公開する際に、サーバーの全体管理ストア データベースを作成します。 この手順がStandard Edition、トポロジを発行する前に、展開ウィザードから [最初のサーバー Standard Edition準備] プロセスを実行する必要があります。 これにより、Standard Edition Edition インスタンスSQL Server Expressサーバーの全体管理ストアを作成することで、サーバーの準備が整います。 手順 1 ~ 5 は、任意の順序で実行できます。 ただし、図に示されている手順 6、7、および 8 を順番に実行し、手順 1 ~ 5 の後に実行する必要があります。 新しいトポロジを作成して公開する方法については、手順 6 / 8 で説明します。
   
@@ -45,24 +45,24 @@ ms.locfileid: "60841869"
     
 2. トポロジ ビルダー Skype for Business Server開きます。
     
-3. [新 **しいトポロジ] を選択** し **、[OK] をクリック** します。
+3. [新 **しいトポロジ] を選択** し、[ **OK]をクリック** します。
     
 4. トポロジ構成ファイルの場所とファイル名を選択します。
     
     > [!NOTE]
     > トポロジ構成は、トポロジ ビルダー XML (.tbxml) ファイルとして保存されます。 トポロジを公開すると、構成情報をファイルからデータベースにプッシュSQL Serverされます。 将来トポロジ ビルダーを開く場合は、SQL Server からトポロジ ビルダーに直接既存の構成をダウンロードし、SQL Server に発行し直すか、トポロジ ビルダー構成ファイルとして保存できます。 
   
-5. [プライマリ **ドメインの定義] 画面で**、プライマリ SIP ドメイン **を** 入力し、[次へ] を **クリックします**。 この例では、図に `contoso.local` 示すように 、を使用しています。
+5. [プライマリ **ドメインの定義] 画面で**、プライマリ **SIP ドメインを入力し**、[次へ] をクリック **します**。 この例では、図に示 `contoso.local`すように 、を使用しています。
     
      ![プライマリ SIP ドメインを定義します。](../../media/353e6b38-485f-4042-8585-aefa6c74b554.png)
   
-6. サポートされている追加の SIP ドメインを追加し、[次へ] を **クリックします**。
+6. サポートされている SIP ドメインを追加し、[次へ] を **クリックします**。
     
-7. 図に **示すように** 、 **最初** のサイト (場所) の [名前] と [説明] を入力し、[ **次** へ] をクリックします。
+7. 図に **示すように、** 最初のサイトの **[** 名前] と [説明] (場所) を入力し、[ **次** へ] をクリックします。
     
      ![最初のサイト (場所) を定義します。](../../media/d8b6c54a-2011-4efb-97fb-a4de0f11303c.png)
   
-8. サイトの **市** 区町 **町、州/州**、および **国/地域コード** を入力し、[次へ] を **クリックします**。
+8. サイトの **都市、****州/州**、および **国/地域コード** を入力し、[次へ] をクリック **します**。
     
 9. [ **完了]** をクリックして、新しいトポロジを定義するプロセスを完了します。 新しいフロントエンド ウィザードが自動的に起動します。
     
@@ -70,7 +70,7 @@ ms.locfileid: "60841869"
 
 1. ウィザードの前提条件を確認し、[次へ] を **クリックします**。
     
-2. 図に示すように、プールの完全修飾ドメイン名 (FQDN) を入力し **、Enterprise Edition** フロント エンド プールまたは **Standard Edition Server** のいずれかを選択し、[次へ] をクリックします。
+2. 図に示すように、プールの完全修飾ドメイン名 (FQDN) を入力し、**Enterprise Edition** フロント エンド プールまたは **Standard Edition Server** のいずれかを選択し、[次へ] をクリックします。
     
     > [!TIP]
     > Skype for Business Server Enterprise Edition複数のサーバーを組み合わせてフロントエンドの役割を提供できます。 複数のサーバーを使用して役割を果たす場合は、プールと呼ばれる。 したがって、複数のサーバーが一緒に作業してフロントエンドの役割を提供する場合は、フロント エンド プールとも呼ばれます。 Skype for Business Server Standard Edition、フロントエンドの役割を提供するサーバーを 1 つしか含めできません。 1 台のサーバーだけが役割を提供している場合でも、フロント エンド プールを参照するのが一般的です。 
@@ -90,7 +90,7 @@ ms.locfileid: "60841869"
   
 5. [サーバー **の役割の** 選択] ページで、フロントエンド サーバー上の仲介サーバーを照合するか、スタンドアロン サーバーとして展開することもできます。
     
-    フロントエンド プール上の仲介サーバーをEnterprise Editionする場合は、チェック ボックスがオンに設定されている必要があります。 このサーバーの役割はプール サーバー上に展開されます。 仲介サーバーをスタンドアロン サーバーとして展開する場合は、適切なチェック ボックスをオフにします。 フロント エンド サーバーを完全に展開した後、仲介サーバーを別の展開手順で展開します。 コロケーションの計画の詳細については、「[トポロジの基本」を参照Skype for Business Server。](../../plan-your-deployment/topology-basics/topology-basics.md)
+    フロントエンド プール上の仲介サーバーをEnterprise Editionする場合は、チェック ボックスがオンに設定されている必要があります。 このサーバーの役割はプール サーバー上に展開されます。 仲介サーバーをスタンドアロン サーバーとして展開する場合は、適切なチェック ボックスをオフにします。 フロント エンド サーバーを完全に展開した後、仲介サーバーを別の展開手順で展開します。 コロケーションの詳細については、「トポロジの基本」を参照[Skype for Business Server](../../plan-your-deployment/topology-basics/topology-basics.md)。
     
 6. [サーバーの役割 **をこのフロントエンド プールに関連付ける** ] ページを使用すると、サーバーの役割を定義し、フロントエンド プールに関連付けできます。 次の役割が使用できます。
     
@@ -108,22 +108,22 @@ ms.locfileid: "60841869"
     
    - この場合、新しいフロントエンド サーバーを展開または関連付ける役割を選択します。 どちらの場合も、役割の定義を続行して必要なハードウェアを設定し、インストールを進めます。
     
-7. 次に、トポロジでSQL Serverストアを定義します。 この例では、Default インスタンスを使用します。 高可用性など、SQL Server機能の詳細については、「高可用性と障害復旧を計画する」を参照[Skype for Business Server。](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
+7. 次に、トポロジでSQL Serverストアを定義します。 この例では、Default インスタンスを使用します。 高可用性など、SQL Server機能の詳細については、「高可用性と障害復旧を計画[する](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)」を参照Skype for Business Server。
     
    - トポロジで既に定義されている既存の SQL Server ストアを使用するには、[**SQL ストア**] でインスタンスを選択します。
     
-   - プール情報を格納する新SQL Serverインスタンスを定義するには、[新規]をクリックし、[新しいサーバー ストアの定義] ダイアログ ボックスで SQL Server **FQDN** **を** SQLします。
+   - プール情報を格納する新SQL Serverインスタンスを定義するには、[新規] をクリックし、[新しいサーバー ストアの定義] ダイアログ ボックスで **SQL Server FQDN** **をSQL** します。
     
    - SQL Server インスタンスの名前を指定するには、[**名前付きインスタンス**] を選択し、インスタンスの名前を指定します。
     
    - 既定のインスタンスを使用するには、[**既定のインスタンス**] をクリックします。
     
-   - ミラーリングをSQLするには、[ミラーリングを有効にする] **SQL** 既存のインスタンスを選択するか、新しいインスタンスを作成します。
+   - ミラーリングをSQLするには、[ミラーリングを有効SQL]を選択し、既存のインスタンスを選択するか、新しいインスタンスを作成します。
 
      > [!NOTE]
      > SQLミラーリングは 2015 年Skype for Business Server使用できますが、2019 年Skype for Business Serverではサポートされていません。 AlwaysOn 可用性グループ、AlwaysOn フェールオーバー クラスター インスタンス (FCI)、および SQL フェールオーバー クラスタリング方法は、2019 年Skype for Business Serverです。
     
-     この例では **、FQDN** SQL Serverを入力し、関連する高可用性設定を構成し、図に示すように **[OK]** をクリックします。
+     この例では、**FQDN** SQL Serverを入力し、関連する高可用性設定を構成し、図に示すように **[OK**] をクリックします。
     
      ![ストアをSQL Serverします。](../../media/12822cf9-8608-43c0-94ce-2ca8b3a0ffd5.png)
   
@@ -135,60 +135,60 @@ ms.locfileid: "60841869"
     
    - 新しいファイル共有を定義するには、[**新しいファイル共有の定義**] を選択し、[**ファイル サーバー FQDN**] ボックスで、ファイル共有が存在する既存のファイル サーバーの FQDN を入力します。そして、[**ファイル共有**] ボックスでファイル共有の名前を入力します。
     
-     この例では、[新しいファイル ストアの **定義**] をクリックし、ファイル サーバー **の FQDN** とファイル共有を入力し、[次へ] を **クリックします**。
+     この例では、[新しいファイル ストアの **定義**] をクリックし、ファイル サーバー **の FQDN** とファイル共有を入力し、[次へ] をクリック **します**。
     
      > [!NOTE]
      > ファイル共有は、Skype for Business Serverに設定できますが、パフォーマンス上の理由から推奨されません。 この例では、ファイル共有は、ファイル共有として機能する単一の専用サーバー上に位置しています。 ただし、R2 を使用する DFS など、他のより堅牢なWindows Server 2012をお勧めします。 サポートされているファイル共有システムの詳細については、「環境の要件[」をSkype for Businessしてください](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md)。 ファイル共有の作成の詳細については、「ファイル共有を作成する」を参照[Skype for Business Server。](create-a-file-share.md) ファイル共有を作成していなくてもファイル共有を定義できます。 トポロジを公開する前に、定義する場所にファイル共有を作成する必要があります。 
   
-10. [Web サービスの URL の指定] ページで、内部 Web サービス プールベース URL を上書きする必要がある場合に決定する必要があります。 このオーバーライドの理由は、負荷分散と関連しています。 基本的な SIP トラフィックは、単純な DNS 負荷分散によって負荷分散できます。 ただし、HTTP/S Web Services ネットワーク トラフィックでは、サポートされているハードウェアまたはソフトウェア負荷分散ソリューションを使用する必要があります。 サポートされているロード バランサーについては[、「Infrastructure for Skype for Business」 を参照してください](../../../SfbPartnerCertification/certification/infra-gateways.md)。 この例では、SIP トラフィックの DNS 負荷分散とサポートされているソフトウェア負荷分散ソリューションを使用しました。 この方法でトラフィックを分割していますので、内部 Web サービス プールの FQDN を上書きする必要があります。 または、トップ ライン ロード バランサーを使用し、SIP トラフィックに DNS 負荷分散を使用する代わりにすべてのトラフィックを送信した場合は、Web サービスの URL を上書きする必要が生じしません。 
+10. [Web サービスの URL の指定] ページで、内部 Web サービス プールベース URL を上書きする必要がある場合に決定する必要があります。 このオーバーライドの理由は、負荷分散と関連しています。 基本的な SIP トラフィックは、単純な DNS 負荷分散によって負荷分散できます。 ただし、HTTP/S Web Services ネットワーク トラフィックでは、サポートされているハードウェアまたはソフトウェア負荷分散ソリューションを使用する必要があります。 サポートされているロード バランサーについては、「[Infrastructure for Skype for Business」を参照してください](../../../SfbPartnerCertification/certification/infra-gateways.md)。 この例では、SIP トラフィックの DNS 負荷分散とサポートされているソフトウェア負荷分散ソリューションを使用しました。 この方法でトラフィックを分割していますので、内部 Web サービス プールの FQDN を上書きする必要があります。 または、トップ ライン ロード バランサーを使用し、SIP トラフィックに DNS 負荷分散を使用する代わりにすべてのトラフィックを送信した場合は、Web サービスの URL を上書きする必要が生じしません。 
     
-    このトピックの DNS セクションで、A レコードを作成しました `webint.contoso.local` 。 これは、Web サービス HTTP/S トラフィックに使用している URL であり、セットアップしたサポートされているソフトウェア ロード バランサーを通過する必要があります。 したがって、この例では、URL をオーバーライドして、Skype for Business Serverのように、すべての HTTP/S トラフィックが代わりに移動する必要があります `webint.contoso.local` `pool.contoso.local` 。 負荷分散の詳細については、「負荷分散の要件」を参照[Skype for Business。](../../plan-your-deployment/network-requirements/load-balancing.md)
+    このトピックの DNS セクションで、A レコードを作成しました `webint.contoso.local`。 これは、Web サービス HTTP/S トラフィックに使用している URL であり、セットアップしたサポートされているソフトウェア ロード バランサーを通過する必要があります。 したがって、この例では、URL をオーバーライドして、Skype for Business Serverに示すように、すべての HTTP/S `webint.contoso.local` `pool.contoso.local`トラフィックが代わりに移動する必要があります。 負荷分散の詳細については、「負荷分散の要件」を参照[Skype for Business](../../plan-your-deployment/network-requirements/load-balancing.md)。
     
     > [!IMPORTANT]
-    > ベース URL は、https:// の部分を除いた URL の Web サービス ID です。 たとえば、プールの Web サービスの完全な URL がである場合、ベース URL は `https://webint.contoso.local` `webint.contoso.local` . 
+    > ベース URL は、https:// の部分を除いた URL の Web サービス ID です。 たとえば、プールの Web `https://webint.contoso.local`サービスの完全な URL がである場合、ベース URL は .`webint.contoso.local` 
   
-    - この例のように DNS 負荷分散を構成する場合は、[内部 Web サービス プール **の FQDN** を上書きする] チェック ボックスをオンにして、内部ベース URL (プール FQDN とは異なる必要があります) を [内部ベース **URL]** に入力します。 
+    - この例のように DNS 負荷分散を構成する場合は、[内部 **Web サービス プールの FQDN** を上書きする] チェック ボックスをオンにし、内部ベース URL (プール FQDN とは異なる必要があります) を内部ベース **URL** に入力します。 
     
     > [!CAUTION]
     > 内部 Web サービスを自己定義の FQDN で上書きする場合、各 FQDN は他のフロントエンド プール、ディレクター、またはディレクター プールから一意である必要があります。 **URL または完全修飾ドメイン** 名を定義する場合は、標準文字 (A-Z、a-z、0-9、ハイフンを含む) のみを使用します。 Unicode 文字およびアンダースコアは使用しないでください。 URL または FQDN の標準以外の文字は、多くの場合、外部 DNS およびパブリック証明機関 (CA) ではサポートされません (つまり、証明書のサブジェクト名またはサブジェクトの代替名に URL または FQDN を割り当てる必要がある場合)。
   
-    - 必要に応じて、[外部ベース URL] に外部ベース **URL を入力します**。 外部ベース URL を入力して、内部ドメイン名と区別します。 たとえば、内部ドメインは 、 `contoso.local` ですが、外部ドメイン名は `contoso.com` . パブリック DNS から解決できる必要があるドメイン名を使用して `contoso.com` URL を定義します。 これは、リバース プロキシの場合にも重要です。 外部ベース URL ドメイン名は、リバース プロキシの FQDN のドメイン名と同じです。 モバイル クライアントでのインスタント メッセージングとプレゼンスには、フロントエンド プールへの HTTP アクセスが必要です。
+    - 必要に応じて、[外部ベース URL] に外部ベース **URL を入力します**。 外部ベース URL を入力して、内部ドメイン名と区別します。 たとえば、内部ドメインは 、 `contoso.local`ですが、外部ドメイン名は `contoso.com`. パブリック DNS から解決できる必要があるドメイン `contoso.com` 名を使用して URL を定義します。 これは、リバース プロキシの場合にも重要です。 外部ベース URL ドメイン名は、リバース プロキシの FQDN のドメイン名と同じです。 モバイル クライアントでのインスタント メッセージングとプレゼンスには、フロントエンド プールへの HTTP アクセスが必要です。
     
       ![Web サービスを上書きします。](../../media/8f95313c-2df4-4885-adc5-9fc9ea775406.png)
   
-11. [機能の選択]**ページ** で[会議] を選択した場合は、Web Apps サーバーのOffice求める画面が表示されます。 [ **新規] を** クリックしてダイアログ ボックスを起動します。
+11. [機能の選択] **ページ** で [会議] を選択した場合は、Web Apps サーバーのOfficeされます。 [ **新規] を** クリックしてダイアログ ボックスを起動します。
     
-12. [Web **Apps サーバー Officeの** 定義] ダイアログ ボックスで、[web Apps サーバーの **FQDN]** ボックスに Office Office Web Apps サーバーの FQDN を入力します。この操作を行う場合Office Web Apps サーバーの検出 URL は、[Web Apps サーバーの検出 URL] ボックスに自動的Office **入力** されます。
+12. [新しい **Office Web** Apps サーバーの定義] ダイアログ ボックスで、[Office Web Apps サーバー **の FQDN**] ボックスに Office Web Apps サーバーの FQDN を入力します。これを行う場合、Office Web Apps サーバー検出 URL は自動的に **Office Web Apps Server** の検出 URL ボックスに入力されます。
     
-    Office Web Apps サーバーがオンプレミスで、Skype for Business Server と同じネットワーク 領域にインストールされている場合は、Office Web Apps **Server** が外部ネットワーク (境界/インターネット) に展開されるオプションを選択しません。
+    Office Web Apps サーバーがオンプレミスで、Skype for Business Server と同じネットワーク 領域にインストールされている場合は、Office **Web Apps Server** が外部ネットワーク (境界/インターネット) に展開されるオプションを選択しません。
     
-    Office Web Apps サーバーが内部ファイアウォールの外部に展開されている場合は、Office Web Apps Server が外部ネットワーク **(境界/インターネット)** に展開されているオプションを選択します。
+    Office Web Apps サーバーが内部ファイアウォールの外部に展開されている場合は、外部ネットワーク (境界 **/インターネット) に Office Web Apps Server** が展開されているオプションを選択します。
     
-13. [ **完了] を** クリックして構成を完了します。 [サーバーの役割をこのフロントエンドプールに関連付ける] ページで他の役割サーバーを定義した場合、サーバーの役割を構成できる別の役割構成ウィザード ページが開きます。 この例では、電話会議のみを選択しました。
+13. [ **完了] を** クリックして構成を完了します。 [サーバーの役割をこのフロントエンド プールに関連付ける] ページで他の役割サーバーを定義した場合、サーバーの役割を構成できる別の役割構成ウィザード ページが開きます。 この例では、電話会議のみを選択しました。
     
 ### <a name="configure-simple-urls"></a>単純な URL を構成する
 
-1. 図に示すように、トポロジ ビルダー **Skype for Business Server** を右クリックし、[プロパティの編集]をクリックします。
+1. 図に示すように、トポロジ ビルダー **Skype for Business Server上の** ノードを右クリックし、[プロパティの編集] をクリックします。
     
      ![[プロパティ] をSkype for Business Serverし、[プロパティの編集] を選択します。](../../media/692c18dd-8e99-4239-ae7b-5e855d866afa.png)
   
-2. [簡易 **URL]** ウィンドウで、[電話 **アクセス URL:** (ダイヤルイン) または会議 **URL:** (Meet) を選択して編集し、[URL の編集]**をクリックします**。
+2. [簡易 **URL**] ウィンドウで、[アクセス URL **:** (ダイヤルイン) 電話会議 URL **:** (Meet) を選択して編集し、[URL の編集] を **クリックします**。
     
-3. URL を目的の値に更新し、[**OK**] をクリックして編集した URL を保存します。 外部ユーザーが内部ドメインではなく外部の会議に参加できるよう、外部 SIP ドメインを使用して単純な URL を `contoso.com` `contoso.local` 構成する必要があります。 したがって、SIP ドメインは外部 DNS によって解決できる必要があります。
+3. URL を目的の値に更新し、[**OK**] をクリックして編集した URL を保存します。 外部ユーザーが内部ドメインではなく外部の会議に参加できるよう、外部 SIP ドメインを使用して単純な URL `contoso.com``contoso.local`を構成する必要があります。 したがって、SIP ドメインは外部 DNS によって解決できる必要があります。
     
 4. 必要に応じて、同じ手順を使用して Meet URL を編集します。
     
 ### <a name="to-define-the-optional-admin-simple-url"></a>オプションの管理用の簡易 URL を定義するには
 
-1. トポロジ ビルダーで、[プロパティ] ノードを **右クリックSkype for Business Server、[** プロパティの編集]**をクリックします**。
+1. トポロジ ビルダーで、[プロパティ] ノードを右クリック **Skype for Business Server、[プロパティ** の編集] **をクリックします**。
     
-2. [管理アクセス **URL]** ボックスに、コントロール パネルへの管理アクセスに使用する単純な URL Skype for Business Server入力し **、[OK] をクリックします**。
+2. [管理アクセス **URL]** ボックスに、コントロール パネルへの管理アクセスに使用する単純な URL Skype for Business Server入力し、[OK] をクリック **します**。
     
     > [!TIP]
-    > 管理 URL にできるだけ簡易 URL を使用することをお勧めします。 最も簡単なオプションは https://admin . _\<domain\>_ 管理者 URL には、内部 DNS でいずれかのレコードが解決可能な限り、内部ドメインまたは外部ドメインを `contoso.local` `contoso.com` 指定できます。 
+    > 管理 URL にできるだけ簡易 URL を使用することをお勧めします。 最も簡単なオプションは.https://admin_\<domain\>_ 管理者 URL には、内部 `contoso.local` `contoso.com`DNS でいずれかのレコードが解決可能な限り、内部ドメインまたは外部ドメインを指定できます。 
   
     > [!IMPORTANT]
-    > 最初の展開後に簡易 URL を変更する場合、簡易 URL のドメイン ネーム システム (DNS) レコードと証明書に影響する変更について注意する必要があります。 変更が単純な URL のベースに影響を与える場合は、DNS レコードと証明書も変更する必要があります。 たとえば、ベース URL を `https://sfb.contoso.com/Meet` `https://meet.contoso.com` sfb から変更します。`contoso.com` を `meet.contoso.com` 参照するには、DNS レコードと証明書を変更する必要があります `meet.contoso.com` 。 単純な URL をからに変更した場合、ベース URL は同じままなので、DNS や証明書の変更 `https://sfb.contoso.com/Meet` `https://sfb.contoso.com/Meetings` `sfb.contoso.com` は不要です。 ただし、単純な URL 名を変更する場合は常に、各ディレクター サーバーとフロントエンド サーバーで **Enable-CsComputer** コマンドレットを実行して変更を登録する必要があります。
+    > 最初の展開後に簡易 URL を変更する場合、簡易 URL のドメイン ネーム システム (DNS) レコードと証明書に影響する変更について注意する必要があります。 変更が単純な URL のベースに影響を与える場合は、DNS レコードと証明書も変更する必要があります。 たとえば、ベース URL を sfb `https://sfb.contoso.com/Meet` `https://meet.contoso.com` から変更します。`contoso.com` を `meet.contoso.com`参照するには、DNS レコードと証明書を変更する必要があります `meet.contoso.com`。 単純な URL `https://sfb.contoso.com/Meet` `https://sfb.contoso.com/Meetings`をからに変更した場合、ベース URL `sfb.contoso.com` は同じままなので、DNS や証明書の変更は不要です。 ただし、単純な URL 名を変更する場合は常に、各ディレクター サーバーとフロントエンド サーバーで **Enable-CsComputer** コマンドレットを実行して変更を登録する必要があります。
   
 ### <a name="publish-and-verify-the-topology"></a>トポロジの公開と確認
 
@@ -204,7 +204,7 @@ ms.locfileid: "60841869"
     
     トポロジの検証が完了して検証エラーがないことが確認できたら、トポロジの公開の準備に移ります。 検証エラーがある場合は、トポロジを公開する前に修正する必要があります。
     
-6. [トポロジ] ノードを **Skype for Business Server** し、[トポロジの公開]**をクリックします**。
+6. [トポロジ] ノードを **Skype for Business Server** し、[トポロジの公開] **をクリックします**。
     
 7. **[トポロジの公開]** ページで、**[次へ]** をクリックします。
     
@@ -218,13 +218,13 @@ ms.locfileid: "60841869"
 9. [データベース **の選択] ページ** で、発行するデータベースを選択します。
     
     > [!NOTE]
-    > データベースを作成する適切な権限を持たなかった場合は、それらのデータベースの横にあるチェック ボックスをオフにし、適切な権限を持つユーザーが後でデータベースを作成できます。 要件の詳細については、「サーバーの要件[」を参照Skype for Business Server。](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) 
+    > データベースを作成する適切な権限を持たなかった場合は、それらのデータベースの横にあるチェック ボックスをオフにし、適切な権限を持つユーザーが後でデータベースを作成できます。 要件の詳細については、「サーバーの要件[」を参照Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。 
   
 10. オプションで [**詳細設定**] をクリックします。 Advanced SQL Server配置オプションを使用すると、次のオプションの中から選択できます。 
     
     - **データベース ファイルの場所を** 自動的に決定する - このオプションは、ログ ファイルとデータ ファイルを最適な場所に配布することにより、SQL Server ベースのサーバー上のディスク構成に基づいて最適な運用パフォーマンスを決定します。
     
-    - **インスタンスSQL Server既定を** 使用する - このオプションは、インスタンス設定を使用して、SQL Server ベースのサーバーにログ ファイルとデータ ファイルを置きます。 このオプションでは、ログとデータの最適な場所を決定するのに、SQL Server ベースのサーバーの操作上の機能は使用されません。 SQL Server の管理者が通常、SQL Server ベースのサーバーおよび組織の管理手順に適した場所にログ ファイルとデータ ファイルを移動します。
+    - **インスタンスSQL Server既定を使用** する - このオプションは、インスタンス設定を使用して、ログ ファイルとデータ ファイルを SQL Serverベースのサーバーに置きます。 このオプションでは、ログとデータの最適な場所を決定するのに、SQL Server ベースのサーバーの操作上の機能は使用されません。 SQL Server の管理者が通常、SQL Server ベースのサーバーおよび組織の管理手順に適した場所にログ ファイルとデータ ファイルを移動します。
     
     [**OK**] をクリックして、[**次へ**] をクリックします。 
     
@@ -232,7 +232,7 @@ ms.locfileid: "60841869"
     
     - **データベース ファイルの場所を** 自動的に決定する - このオプションは、ログ ファイルとデータ ファイルを最適な場所に配布することにより、SQL Server ベースのサーバー上のディスク構成に基づいて最適な運用パフォーマンスを決定します。
     
-    - **インスタンスSQL Server既定を** 使用する - このオプションは、インスタンス設定を使用して、SQL Server ベースのサーバーにログ ファイルとデータ ファイルを置きます。 このオプションでは、ログとデータの最適な場所を決定するのに、SQL Server ベースのサーバーの操作上の機能は使用されません。 SQL Server の管理者が通常、SQL Server ベースのサーバーおよび組織の管理手順に適した場所にログ ファイルとデータ ファイルを移動します。
+    - **インスタンスSQL Server既定を使用** する - このオプションは、インスタンス設定を使用して、ログ ファイルとデータ ファイルを SQL Serverベースのサーバーに置きます。 このオプションでは、ログとデータの最適な場所を決定するのに、SQL Server ベースのサーバーの操作上の機能は使用されません。 SQL Server の管理者が通常、SQL Server ベースのサーバーおよび組織の管理手順に適した場所にログ ファイルとデータ ファイルを移動します。
     
     [**OK**] をクリックします。
     
@@ -243,7 +243,7 @@ ms.locfileid: "60841869"
   
      ![中央管理ストアの作成時にエラーが発生しました。](../../media/558bd2e4-2721-422d-9986-df86f642e6a1.png)
   
-13. 発行プロセスが完了すると、次の手順の一覧を開くリンクが表示されます。 [ **ここをクリックして To Do リストを** 開く] をクリックして次の手順を表示し、[完了] を **クリックします**。 
+13. 発行プロセスが完了すると、次の手順の一覧を開くリンクが表示されます。 [ **ここをクリックして To-do** リストを開き、次の手順を表示し、[完了] を **クリックします**。 
     
     データベース作成の "警告が完了しました" というメッセージは、エラーが発生したという意味ではありません。 インストール プロセスでは、正しく動作するために、SQL ServerのSkype for Business Serverを変更する必要があります。 設定が変更された場合SQL Server警告としてログに記録され、SQL Server管理者は、インストール プロセスが完了した処理を正確に理解できます。 警告が表示された場合は、レコードを選択し、[ログの表示] をクリックして警告の詳細を表示できます。
     

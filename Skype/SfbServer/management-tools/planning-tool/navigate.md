@@ -1,8 +1,8 @@
 ---
 title: 2015 年の計画ツールをSkype for Business Serverする
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
@@ -14,22 +14,22 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
 description: 2015 Skype for Business Serverツールを移動するには、ツールバー、ページ固有のボタンとリンク、コンテキスト固有のウィンドウを組み合わせて使用します。 コンテキスト固有のウィンドウは、特定のページの選択オプションに関連する計画と容量の設計情報を提供します。
-ms.openlocfilehash: 6485d23d8f7aa6bfafd039ab1832be7a06f65449
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ed248fad77615d37abf3eb6b7434d8d20ad1703b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845380"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388045"
 ---
 # <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>2015 年の計画ツールをSkype for Business Serverする
 
 2015 Skype for Business Serverツールを移動するには、ツールバー、ページ固有のボタンとリンク、コンテキスト固有のウィンドウを組み合わせて使用します。 コンテキスト固有のウィンドウは、特定のページの選択オプションに関連する計画と容量の設計情報を提供します。
 
-計画ツールを起動すると、デザイナーはまず **、2015 年 2015** 年の計画ツールへようこそページSkype for Business Server表示されます。
+計画ツールを起動すると、最初にデザイナーに [計画ツールの開始] ページが表示Skype for Business Server **されます**。
 
 ![[計画ツールのようこそ] ページ。](../../media/Planning_Tool_Welcome.png)
 
-[ようこそ] ページで、[デザイン サイト] **、はじめに****を選択****します**。 詳細については、「Create the initial topology design for the Skype for Business Server [2015」を参照](create-the-initial-design.md)してください。
+[ようこそ] ページで、デザイナーが [**デザイン サイトはじめに** 表示] **を** 選択 **します**。 詳細については、「[Create the initial topology design for the Skype for Business Server 2015」を参照](create-the-initial-design.md)してください。
 
 計画ツールの上部には、頻繁に使用される機能に簡単にアクセスできるツールバーがあります。 ツールバーは参照用にここに表示され、各関数は関連するトピックで説明します。
 

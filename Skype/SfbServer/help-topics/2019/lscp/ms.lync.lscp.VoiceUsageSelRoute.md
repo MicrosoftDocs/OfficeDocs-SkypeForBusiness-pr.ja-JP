@@ -1,8 +1,8 @@
 ---
 title: ルートの選択
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d136adcd-6659-4113-941c-cca75033318e
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[ルートの選択] ダイアログ ボックスを使用して、使用できる既存の音声ルートを検索します。'
-ms.openlocfilehash: d33a8310c507a62b24013520f570bd3c68766928
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 95e12666c0db4b1d56f58fb63cd34efcbecd4e5b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859384"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386184"
 ---
 # <a name="select-routes"></a>ルートの選択
  

@@ -1,8 +1,8 @@
 ---
 title: フォレストの準備によって行われた変更Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: ここでは、グローバル設定とオブジェクト、およびフォレストの準備中に作成するユニバーサル サービス グループとユニバーサル管理グループについて説明します。
-ms.openlocfilehash: 8226c2e9b692699902faa751fafe14424e43ed45
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f5df54a579da84c6e55a055d7949bb60f5774c6c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828640"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389879"
 ---
 # <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>フォレストの準備によって行われた変更Skype for Business Server
 
@@ -26,7 +26,7 @@ ms.locfileid: "60828640"
 
 ## <a name="active-directory-global-settings-and-objects"></a>Active Directory のグローバル設定とオブジェクト
 
-構成コンテナーにグローバル設定を格納する場合 (すべての新しい Skype for Business Server 展開の場合と同様に)、フォレストの準備は既存の Services コンテナーを使用し、Configuration\Services オブジェクトの下に **RTC Service** オブジェクトを追加します。 フォレストの準備では、msRTCSIP-GlobalContainer 型の **Global Settings** オブジェクトが RTC サービス オブジェクトに追加されます。 グローバル設定オブジェクトには、展開に適用される設定Skype for Business Serverされます。 グローバル設定をシステム コンテナーに保存する場合は、フォレストの準備で新しい ルート ドメインのシステム コンテナーの下の Microsoft コンテナーと、システム\Microsoft オブジェクトの下の RTC サービス オブジェクトが使用されます。
+構成コンテナーにグローバル設定を格納する場合 (すべての新しい Skype for Business Server 展開の場合と同様に)、フォレストの準備では既存の Services コンテナーが使用され、Configuration\Services オブジェクトの下に **RTC Service** オブジェクトが追加されます。 フォレストの準備では、msRTCSIP-GlobalContainer 型の **Global Settings** オブジェクトが RTC サービス オブジェクトに追加されます。 グローバル設定オブジェクトには、展開に適用される設定Skype for Business Serverされます。 グローバル設定をシステム コンテナーに保存する場合は、フォレストの準備で新しい ルート ドメインのシステム コンテナーの下の Microsoft コンテナーと、システム\Microsoft オブジェクトの下の RTC サービス オブジェクトが使用されます。
 
 またフォレストの準備では、この手順が実行されるルート ドメインの新しい **msRTCSIP-Domain** オブジェクトが追加されます。
 

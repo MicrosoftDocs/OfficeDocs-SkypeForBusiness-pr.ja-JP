@@ -1,8 +1,8 @@
 ---
 title: モバイル パフォーマンス カウンター (Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
 description: '概要: ユニファイド コミュニケーション Web API (UCWA) および Mcx Mobility Service を実行しているサーバーを監視するために使用できるパフォーマンス カウンター Skype for Business Server説明します。'
-ms.openlocfilehash: e89ffdb590a7028bd1fa9a9594b6ba0bcce9be11
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 157417d7a0cbc8db2a94ecba18f984b3eedde043
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827580"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384265"
 ---
 # <a name="mobility-performance-counters-in-skype-for-business-server"></a>モバイル パフォーマンス カウンター (Skype for Business Server
  
@@ -25,7 +25,7 @@ ms.locfileid: "60827580"
   
 次の表に、ユニファイド コミュニケーション Web API (UCWA) および mcx Mobility Service を実行しているサーバーを監視するために使用できるパフォーマンス カウンターの名前と説明Skype for Business Server示します。 
   
-UCWA テーブルのカウンターのカテゴリ名は **LS:WEB - UCWA です**。
+UCWA テーブル内のカウンターのカテゴリ名は **LS:WEB - UCWA です**。
   
 Mcx Mobility Service テーブルのカウンターのカテゴリ名は **、LS:WEB - Mobile Communication Service です**。
 
@@ -54,8 +54,8 @@ Mcx Mobility Service テーブルのカウンターのカテゴリ名は **、LS
 |平均アプリケーション起動時間 (ms)  <br/> |アプリケーションの平均起動時間 (ミリ秒)  <br/> |
 |セッションの平均有効期間 (ミリ秒)  <br/> |セッションの平均有効期間 (ミリ秒単位)  <br/> |
 |データ MCU 参加の失敗  <br/> |データ MCU 参加エラーの数  <br/> |
-|Exchange連絡先検索の待機時間 (ms)  <br/> |このカウンターは、連絡先を検索する平均時間 (ミリ秒単位) をExchange  <br/> |
-|ExchangeHD Photo Get Latency (ms)  <br/> |このカウンターは、画像から写真を取得する平均時間 (ミリ秒単位) をExchange  <br/> |
+|Exchange検索待機時間 (ms)  <br/> |このカウンターは、連絡先を検索する平均時間 (ミリ秒単位) をExchange  <br/> |
+|Exchange HD Photo Get Latency (ms)  <br/> |このカウンターは、画像から写真を取得する平均時間 (ミリ秒単位) をExchange  <br/> |
 |HTTP 4xx 応答/秒  <br/> |HTTP 4xx コードを使用した 1 秒あたりの応答速度  <br/> |
 |HTTP 5xx 応答/秒  <br/> |HTTP 5xx コードを使用した 1 秒あたりの応答速度  <br/> |
 |IM MCU Join Failures  <br/> |IM MCU Join Failures の数  <br/> |

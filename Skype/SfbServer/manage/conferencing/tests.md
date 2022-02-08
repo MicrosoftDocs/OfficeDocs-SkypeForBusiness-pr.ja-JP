@@ -1,8 +1,8 @@
 ---
 title: 電話でのダイヤルイン会議のSkype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
 description: '概要: 電話会議でダイヤルイン会議をテストするSkype for Business Server。'
-ms.openlocfilehash: 4c4e56c846cd6c4f522abdfc0a4a9cc76b5fe979
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b6f33828646a8d56574091e296ed5ca4dde75af5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847360"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385598"
 ---
 # <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>電話でのダイヤルイン会議のSkype for Business Server
  
@@ -29,7 +29,7 @@ ms.locfileid: "60847360"
 
 1. RTCUniversalServerAdmins グループのメンバーか、Cs-ServerAdministrator または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。
     
-2. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
+2. 管理シェルをSkype for Business Serverする **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[**2015** 年Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 3. コマンド プロンプトで次のコマンドを実行します。
     
@@ -39,13 +39,13 @@ ms.locfileid: "60847360"
 
     このコマンドレットは、どのアクセス番号も使用していないダイヤルイン会議の地域がある、すべてのダイヤル プランを返します。
     
-詳細については [、「Get-CsDialInConferencingAccessNumber」を参照してください](/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)。
+詳細については、「 [Get-CsDialInConferencingAccessNumber」を参照してください](/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)。
   
 ## <a name="find-access-numbers-without-assigned-regions"></a>地域が割り当てられていないアクセス番号を検索する
 
 1. RTCUniversalServerAdmins グループのメンバーか、Cs-ServerAdministrator または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。
     
-2. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
+2. 管理シェルをSkype for Business Serverする **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[**2015** 年Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 3. コマンド プロンプトで次のコマンドを実行します。
     
@@ -55,7 +55,7 @@ ms.locfileid: "60847360"
 
     このコマンドレットは、地域に関連付けられていないダイヤルイン会議のアクセス番号をすべて返します。
     
-詳細については [、「Get-CsDialInConferencingAccessNumber」を参照してください](/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)。
+詳細については、「 [Get-CsDialInConferencingAccessNumber」を参照してください](/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)。
   
 ## <a name="test-webpage-and-access-numbers"></a>Web ページとアクセス番号のテスト
 
@@ -69,7 +69,7 @@ ms.locfileid: "60847360"
 
 1. RTCUniversalServerAdmins グループのメンバーか、Cs-ServerAdministrator または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。
     
-2. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
+2. 管理シェルをSkype for Business Serverする **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[**2015** 年Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 3. コマンド プロンプトで次のコマンドを実行します。
     
@@ -82,4 +82,4 @@ ms.locfileid: "60847360"
 
     結果レポートに、コマンドの成否と特定の診断情報が表示されます。 Verbose フラグは、検出されたアクセス番号の数とアクセス番号に関する詳細な情報を提供します。
     
-詳細については [、「Test-CsDialInConferencing」を参照してください](/powershell/module/skype/test-csdialinconferencing?view=skype-ps)。
+詳細については、「 [Test-CsDialInConferencing」を参照してください](/powershell/module/skype/test-csdialinconferencing?view=skype-ps)。

@@ -1,8 +1,8 @@
 ---
 title: プラン for Busy Options for Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5f85c6bc-a962-4283-971c-4380d83b3a66
 description: 詳細については、「ビジー オプション」を参照Skype for Business Server。
-ms.openlocfilehash: b233260327688830a338989c14ef0eb24ade781e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6d020887b4eac47cb54ba96e8b72a0393f21014c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854231"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387835"
 ---
 # <a name="plan-for-busy-options-for-skype-for-business-server"></a>プラン for Busy Options for Skype for Business Server
  
@@ -30,7 +30,7 @@ ms.locfileid: "60854231"
   
 ビジー オプション ポリシーは、ペアのフロント エンド プールと存続可能ブランチ サーバー (SBS) でのフェールオーバーと障害復旧に対してサポートされています。
   
-このトピックでは、ビジー オプションの機能について説明します。 ビジー オプションをインストールして構成する方法の詳細については、「ビジー オプションをインストールして構成する」を参照[Skype for Business Server。](../../deploy/deploy-enterprise-voice/install-and-configure-busy-options.md)
+このトピックでは、ビジー オプションの機能について説明します。 ビジー オプションをインストールして構成する方法については、「ビジー オプションをインストールして構成する」を参照[Skype for Business Server。](../../deploy/deploy-enterprise-voice/install-and-configure-busy-options.md)
   
 ## <a name="configuration-options"></a>構成オプション
 

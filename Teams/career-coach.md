@@ -1,14 +1,14 @@
 ---
-title: アプリの購入、構成、およびキャリア コーチのMicrosoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+title: アプリの購入、構成、キャリア コーチ有効Microsoft Teams
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: alaina.creager
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: アプリの購入、構成、有効化を行うキャリア コーチについてMicrosoft Teams。
+description: アプリの購入、構成、有効化を行うキャリア コーチをMicrosoft Teams。
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6ee69306faed71524742fab46c30c9e8523d8ff
-ms.sourcegitcommit: efea3b3b9dceb1a1d82eb7a09a5104dcd6df8abf
+ms.openlocfilehash: 8f2698f668f33f078988b4c9ff1967a07c6765d9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61993001"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389769"
 ---
-# <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>アプリの購入、構成、およびキャリア コーチのMicrosoft Teams
+# <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>アプリの購入、構成、キャリア コーチ有効Microsoft Teams
 
-キャリア コーチは、Microsoft Teams for Educationの学生がキャリア体験をナビゲートするパーソナライズされたガイダンスを提供する LinkedIn を搭載したアプリです。 キャリア コーチは、学生がキャリア パスを発見し、現実世界のスキルを高め、ネットワークを 1 か所で構築するための統一されたキャリア ソリューションを教育機関に提供します。
+キャリア コーチは LinkedIn をMicrosoft Teams for Educationアプリです。このアプリは、高等教育の学生がキャリア体験をナビゲートするパーソナライズされたガイダンスを提供します。 キャリア コーチは、学生がキャリア パスを発見し、現実世界のスキルを高め、ネットワークを 1 か所で構築するための統一されたキャリア ソリューションを教育機関に提供します。
 
 ## <a name="supported-languages"></a>サポートされている言語
 
@@ -43,7 +43,7 @@ ms.locfileid: "61993001"
 - スペイン語 (スペイン)
 - スペイン語 (メキシコ)
 
-詳細については、 を[参照キャリア コーチ。](https://aka.ms/career-coach)
+詳細[については、キャリア コーチ](https://aka.ms/career-coach)。
 
 > [!TIP]
 > このガイドのベスト プラクティスと役立つヒントを使用して、学生、教職員キャリア コーチの機能を有効にしてください。 クイック プランニング [ガイドに関する記事を参照](https://support.microsoft.com/office/c5d0b934-bfcf-4fe7-8a85-ba7bbb1b6ad4) してください。
@@ -87,9 +87,9 @@ ms.locfileid: "61993001"
 
 ## <a name="purchase-the-career-coach-licenses"></a>ライセンスを購入キャリア コーチする
 
-キャリア コーチ(中国とロシアを除く) は、教育機関向け登録ソリューション (EES)、クラウド サービス プロバイダー (CSP)、および Microsoft 365 管理センター (Web Direct) を通じてアドオン ライセンスとして、資格のある教育機関向け (中国とロシアを除く) で利用できます。 Microsoft Teamsアプリとして、テナントが Microsoft 365 A3/A5 または Office 365 A1/A3/A5 を持っている必要があります。この場合、キャリア コーチ ライセンスを購入する必要があります。 学生と教職員のユーザーには個別のライセンスが提供されます。
+キャリア コーチ(中国とロシアを除く) は、教育機関向け登録ソリューション (EES)、クラウド サービス プロバイダー (CSP)、および Microsoft 365 管理センター (Web Direct) を通じてアドオン ライセンスとして、資格のある教育機関向け (中国とロシアを除く) で利用できます。 アドイン Microsoft Teamsライセンスを購入するには、テナントに Microsoft 365 A3/A5 または Office 365 A1/A3/A5 が必要キャリア コーチがあります。 学生と教職員のユーザーには個別のライセンスが提供されます。
 
-25 人の学生と 25 の教職員ライセンスで、標準の 90 日間の無料試用版を利用できます。 試用版ライセンスは、ライセンスのMicrosoft 365 管理センターを購入する資格を持つテナントによって、キャリア コーチ。
+25 人の学生と 25 の教職員ライセンスで、標準の 90 日間の無料試用版を利用できます。 試用版ライセンスは、ライセンスを購入Microsoft 365 管理センターテナントがライセンスを取得することで、キャリア コーチ。
 
 ### <a name="assign-app-licenses-to-users"></a>ユーザーにアプリ ライセンスを割り当てる
 
@@ -97,7 +97,7 @@ ms.locfileid: "61993001"
 
 ### <a name="turn-on-linkedin-account-connections"></a>LinkedIn アカウント接続を有効にする
 
-キャリア コーチ、教育機関のユーザーが自分の Microsoft 365 アカウントを、キャリア コーチ 内で容易に使用できる LinkedIn アカウントに接続できる必要があります。
+キャリア コーチ **、** 教育機関のユーザーは、Microsoft 365 アカウントを、キャリア コーチ 内で容易に使用できる LinkedIn アカウントに接続する機能を持っている必要があります。
 
 1. 組織のグローバル[管理者](https://aad.portal.azure.com/)Azure ADアカウントを使用して、管理センターにAzure ADします。
 
@@ -105,7 +105,7 @@ ms.locfileid: "61993001"
 
 3. [ユーザー] **ページで** 、[ユーザー設定] **を選択します**。
 
-4. **LinkedIn アカウント接続を適切** に構成するには、[はい] または [選択キャリア コーチグループ] に設定する必要があります。
+4. **LinkedIn アカウント接続を適切** に構成するには、LinkedIn アカウント接続を [はい] または [選択キャリア コーチ グループ] に設定する必要があります。
 
    ![組織内の LinkedIn アカウント接続を統合する](/azure/active-directory/enterprise-users/media/linkedin-integration/linkedin-integration.png)
 
@@ -116,7 +116,7 @@ ms.locfileid: "61993001"
 
    - [ **選択したグループ]** を選択して、教育機関で選択したユーザーのグループについてのみサービスを有効にしてください。
 
-詳細については、 の[LinkedIn アカウント接続に関するページをAzure Active Directory。](/azure/active-directory/enterprise-users/linkedin-integration)
+詳細については、「LinkedIn アカウントの接続」を[参照Azure Active Directory](/azure/active-directory/enterprise-users/linkedin-integration)。
 
 ## <a name="access-the-career-coach-app-settings"></a>アプリの設定キャリア コーチアクセスする
 
@@ -125,15 +125,15 @@ ms.locfileid: "61993001"
 > [!IMPORTANT]
 > ページにアクセスするには、グローバル管理者Teamsサービス管理者である必要があります。
 
-1. 管理センター **[にTeamsします](https://admin.teams.microsoft.com)**。
+1. 管理センターに **[Teamsします](https://admin.teams.microsoft.com)**。
 
-2. 左側のナビゲーションで、[アプリの管理] **Teams アプリ**  >  **[] を選択します](https://admin.teams.microsoft.com/policies/manage-apps)**。  
+2. 左側のナビゲーションで、[アプリの管理]**Teamsアプリ** > **[を選択します](https://admin.teams.microsoft.com/policies/manage-apps)**。  
 
-3. を検索 **または参照** キャリア コーチ。  
+3. ファイルを検索または **参照キャリア コーチ**。  
 
-4. **[キャリア コーチ]** を選択し、[次へ]**を設定。**  
+4. [**キャリア コーチ**] を選択し、[設定] **を選択します**。  
 
-    ![は、[キャリア コーチ] オプションが表示された状態で選択設定表示されます。](media/career-coach-app.png)
+    ![は、[キャリア コーチ] オプションが表示されたアプリ設定表示されます。](media/career-coach-app.png)
 
 ## <a name="configure-the-career-coach-app-settings"></a>アプリの設定キャリア コーチ構成する
 
@@ -157,21 +157,21 @@ ms.locfileid: "61993001"
 教育機関キャリア コーチブランドに合わせてカスタマイズします。 お客様は、著作権や商標の権利を含む他のユーザーの権利を尊重する責任を負います。
 
 > [!IMPORTANT]
-> これは必須のセクションです。キャリア コーチ設定を送信しない場合は有効にできません。
+> これは必須のセクションです。キャリア コーチ設定を送信せずに有効にすることはできません。
 
 ![管理キャリア コーチの [ブランド] セクションに移動します。](media/career-coach-brand.png)
 
-1. 管理センター **[にTeamsします](https://admin.teams.microsoft.com)**。
+1. 管理センターに **[Teamsします](https://admin.teams.microsoft.com)**。
 
-2. [アプリ **Teamsアプリ**  >  **[の管理] キャリア コーチ](https://admin.teams.microsoft.com/policies/manage-apps)**  >    >  **と基本設定] を選択します**。
+2. [**アプリTeamsアプリの** > **[管理](https://admin.teams.microsoft.com/policies/manage-apps)** > **キャリア コーチ** > **ブランドと環境設定] を選択します**。
 
-3. アップロード **のアイコン をクリックします**。 このアイコンは、キャリア コーチ 全体で使用され、教育機関に固有のコンテンツ、アプリ全体のコース カタログ リソース、ダッシュボードの実際のエクスペリエンス セクションを識別します。 アイコンは、次の形式に最適です。
+3. アップロードの **アイコンをクリックします**。 このアイコンは、キャリア コーチ 全体で使用され、教育機関に固有のコンテンツ、アプリ全体のコース カタログ リソース、ダッシュボードの実際のエクスペリエンス セクションを識別します。 アイコンは、次の形式に最適です。
 
     - 透過的な PNG
     - 縦横比 1:1
     - 64 ピクセル x 64 ピクセルの最大サイズ
 
-4. アップロード **のサムネイル をクリックします**。 サムネイルは、特定の画像がコースで使用できない場合に、アプリ全体のコース カタログ リソースに使用されます。 サムネイルの形式は次の形式が最適です。
+4. アップロード **をクリックします**。 サムネイルは、特定の画像がコースで使用できない場合に、アプリ全体のコース カタログ リソースに使用されます。 サムネイルの形式は次の形式が最適です。
 
     - A PNG
     - 縦横比 16:9
@@ -190,15 +190,15 @@ LinkedIn 構成は、LinkedIn キャリア コーチの一般の同窓生デー�
 
 #### <a name="add-the-linkedin-page"></a>LinkedIn ページを追加する
   
-1. 管理センター **[にTeamsします](https://admin.teams.microsoft.com)**。
+1. 管理センターに **[Teamsします](https://admin.teams.microsoft.com)**。
 
-2. [アプリ **Teams LinkedIn 接続**  >  **[でアプリ](https://admin.teams.microsoft.com/policies/manage-apps)**  >  **キャリア コーチ**  >  **管理する] を選択します**。
+2. [**アプリTeamsアプリ** > **[の管理キャリア コーチ](https://admin.teams.microsoft.com/policies/manage-apps)** >  > **LinkedIn 接続] を選択します**。
 
-3. LinkedIn で検索し、[School] フィルターを選択して、[LinkedIn] ページ **を探** します。 または、キャリア サービスのスタッフ メンバーと接続して、使用する適切な LinkedIn 学校ページを決定します。 詳細については [、「LinkedIn ページを識別する方法」を参照してください](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en)。
+3. LinkedIn で検索し、[School] フィルターを選択して、[LinkedIn] ページ **を探** します。 または、キャリア サービスのスタッフ メンバーと接続して、使用する適切な LinkedIn 学校ページを決定します。 詳細については、「 [LinkedIn ページを識別する方法」を参照してください](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en)。
 
     ![linkedin search for school.](media/career-coach-school-search.png)
 
-4. LinkedIn 学校ページの URL を追加します。 URL は、会社のページではなく学校のページである必要があります。通常は として書式設定されます `https://www.linkedin.com/school/willow-university/` 。
+4. LinkedIn 学校ページの URL を追加します。 URL は、会社のページではなく学校のページである必要があります。通常は として書式設定されます `https://www.linkedin.com/school/willow-university/`。
 
    ![linkedin school ページの例。](media/career-coach-linkedin-page-url.png)
 
@@ -208,13 +208,13 @@ LinkedIn 構成は、LinkedIn キャリア コーチの一般の同窓生デー�
 > [!IMPORTANT]
 > 確認は、教育機関の LinkedIn ページのスーパー管理者が完了する必要があります。
 
-1. 正常に送信されると、ページが更新され、[確認] リンクと [確認]**リンク****の有効期限が表示されます**。 確認リンクは 30 日後に期限切れになります。
+1. 正常に送信されると、ページが更新され、[確認] リンクと [確認] **リンク****の有効期限が表示されます**。 確認リンクは 30 日後に期限切れになります。
 
    ![キャリア コーチ アプリの linkedin 接続。](media/career-coach-linked-in.png)  
 
-2. 確認リンクをコピーし、教育機関の LinkedIn ページのスーパー管理者と共有します。LinkedIn ページのスーパー管理者ロールの詳細については [、LinkedIn ページ管理者のドキュメントを参照してください](https://www.linkedin.com/help/linkedin/answer/102672)。
+2. 確認リンクをコピーし、教育機関の LinkedIn ページのスーパー管理者と共有します。LinkedIn ページのスーパー管理者ロールの詳細については、 [LinkedIn ページ管理者のドキュメントを参照してください](https://www.linkedin.com/help/linkedin/answer/102672)。
 
-3. LinkedIn ページのスーパー管理者は、一意の確認リンクを使用して、キャリア コーチのページに関連付けることができます。 詳細については [、「LinkedIn ページの確認に関するその他の](https://www.linkedin.com/help/linkedin/answer/102672) ドキュメント」を参照してください。
+3. LinkedIn ページのスーパー管理者は、一意の確認リンクを使用して、キャリア コーチページに関連付けることができます。 詳細については [、「LinkedIn ページの確認に関するその他の](https://www.linkedin.com/help/linkedin/answer/102672) ドキュメント」を参照してください。
 
    ![linkedin 開発者ポータルの linkedin ページ検証。](media/career-coach-linkedin-verification.png)
 
@@ -235,11 +235,11 @@ LinkedIn 構成は、LinkedIn キャリア コーチの一般の同窓生デー�
 
 #### <a name="add-the-course-catalog"></a>コース カタログを追加する
 
-1. 管理センター **[にTeamsします](https://admin.teams.microsoft.com)**。
+1. 管理センターに **[Teamsします](https://admin.teams.microsoft.com)**。
 
-1. [アプリ **Teams** &gt; **[アプリの管理]](https://admin.teams.microsoft.com/policies/manage-apps)** &gt;  &gt; **キャリア コーチ設定** &gt; **カタログ] を選択します**。  
+1. [アプリ **Teamsアプリの管理** &gt; **[] キャリア コーチ](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; &gt; **設定** &gt;**カタログ] を選択します**。  
 
-2. アップロード、タイトル、sourceLink という必須の列を含む CSV 形式のコースを作成します。 各行には、必要な各列のデータを含める必要があります。 _推奨されるフィールドを含め、より良い検索結果とスキルの識別を返して、学生のエクスペリエンスを向上します。_
+2. アップロード、タイトル、sourceLink の各列を含む CSV 形式のコースを作成します。 各行には、必要な各列のデータを含める必要があります。 _推奨されるフィールドを含め、より良い検索結果とスキルの識別を返して、学生のエクスペリエンスを向上します。_
 
 4. [送信] **を選択します**。
 
@@ -247,7 +247,7 @@ LinkedIn 構成は、LinkedIn キャリア コーチの一般の同窓生デー�
 
 #### <a name="course-catalog-document-format-and-schema"></a>コース カタログドキュメントの形式とスキーマ
 
-ドキュメントは、最大サイズが 18 MB の CSV 形式である必要があります。 ドキュメントには、必須フィールドのコース **タイトル**、 **コース ID、** およびコース URL が **含まれている必要があります**。 
+ドキュメントは、最大サイズが 18 MB の CSV 形式である必要があります。 ドキュメントには、必須フィールドのコースタイトル **、コース** **ID**、コース **URL が含まれている必要があります**。 
 
 > [!TIP]
 > 適切な書式設定 [を行うサンプル コース カタログ]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) ドキュメントから始める。 _推奨されるフィールドを含め、より良い検索結果とスキルの識別を返して、学生のエクスペリエンスを向上します。_
@@ -276,8 +276,8 @@ LinkedIn 構成は、LinkedIn キャリア コーチの一般の同窓生デー�
 
 #### <a name="add-the-fields-of-study"></a>研究分野を追加する
 
-1. 管理センター **[にTeamsします](https://admin.teams.microsoft.com)**。
-1. [Teams **アプリの** &gt; **[管理] キャリア コーチ設定](https://admin.teams.microsoft.com/policies/manage-apps)** &gt;  &gt;  &gt; **フィールド] を選択します**。  
+1. 管理センターに **[Teamsします](https://admin.teams.microsoft.com)**。
+1. [**アプリTeamsアプリの管理** &gt; **[] キャリア コーチ](https://admin.teams.microsoft.com/policies/manage-apps)** &gt;  &gt; &gt;設定 **フィールド] を選択します**。  
 
 2. アップロード CSV 形式の研究分野を作成します。
 
@@ -302,9 +302,9 @@ LinkedIn 構成は、LinkedIn キャリア コーチの一般の同窓生デー�
 
 #### <a name="add-customized-experiences"></a>カスタマイズされたエクスペリエンスを追加する
 
-1. 管理センター **[にTeamsします](https://admin.teams.microsoft.com)**。
+1. 管理センターに **[Teamsします](https://admin.teams.microsoft.com)**。
 
-1. [アプリ **のTeams** &gt; **[管理] を選択し](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; **、[カスタマイズ]**  >  **キャリア コーチ設定** &gt; **選択します**。
+1. [アプリ **Teamsアプリの** &gt; **[管理] キャリア コーチ](https://admin.teams.microsoft.com/policies/manage-apps)**&gt; > **設定** &gt; **選択します**。
 
 2. 各タイトル、URL、および簡単な説明を追加します。  
   
@@ -316,14 +316,14 @@ LinkedIn 構成は、LinkedIn キャリア コーチの一般の同窓生デー�
 
 ### <a name="enable-the-app"></a>アプリを有効にする
 
-構成が完了したら、学生とライセンスを取得したユーザーがアプリケーションにアクセスキャリア コーチ。  
+構成が完了したら、学生とライセンスを取得したユーザーに対してアプリを有効にし、そのユーザーがアプリにアクセスキャリア コーチ。  
   
 > [!IMPORTANT]
 > グローバルロールまたは管理者ロールTeams必要があります。
 
-1. 管理センター **[にTeamsします](https://admin.teams.microsoft.com)**。
+1. 管理センターに **[Teamsします](https://admin.teams.microsoft.com)**。
 
-1. [アプリ **Teamsアプリ** &gt; **[の管理] を](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; **選択キャリア コーチ。**
+1. [アプリ **Teamsアプリの** &gt; **[管理] を](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; **キャリア コーチ**。
 
 2. [状態] トグルを [許可] **に移動します**。  
 
@@ -335,14 +335,14 @@ LinkedIn 構成は、LinkedIn キャリア コーチの一般の同窓生デー�
 > [!IMPORTANT]
 > この手順により、組織キャリア コーチ適切に構成され、学生がユーザーを見キャリア コーチ。
 
-1. 管理センター **[にTeamsします](https://admin.teams.microsoft.com)**。
+1. 管理センターに **[Teamsします](https://admin.teams.microsoft.com)**。
 
-2. [Teams **セットアップ ポリシー** &gt; **] を選択し**、優先するポリシーを選択します。
-使用するポリシーが不明な場合は[、Microsoft Teams](/microsoftteams/policy-packages-edu)ポリシー管理のドキュメントを参照するか、教育ポリシー ウィザード[](/microsoftteams/easy-policy-setup-edu?tabs=students%2Cstudent-settings)を使用して、Microsoft Teams のポリシーを構成します。
+2. [Teams **セットアップ ポリシー]** &gt; **を選択し**、優先するポリシーを選択します。
+使用するポリシーが不明な場合は、[Microsoft Teams](/microsoftteams/policy-packages-edu) ポリシー管理に関するドキュメントを参照するか、教育ポリシー ウィザードを[](/microsoftteams/easy-policy-setup-edu?tabs=students%2Cstudent-settings)使用して、Microsoft Teams のポリシーを構成します。
 
 3. [インストール済みアプリ] で、[アプリの **追加] を選択します**。
 
-4. [インストール済みアプリの追加] ウィンドウで、ユーザーがアプリを起動するときに自動的にインストールするアプリをTeams。 アプリのアクセス許可ポリシーでアプリをフィルター処理することもできます。 アプリの一覧を選択したら、[追加] を **選択します**。
+4. [インストール済みアプリの追加] ウィンドウで、ユーザーがアプリを起動するときに自動的にインストールするアプリTeams。 アプリのアクセス許可ポリシーでアプリをフィルター処理することもできます。 アプリの一覧を選択したら、[追加] を選択 **します**。
 
 5. **[保存]** を選択します。
 
@@ -353,25 +353,25 @@ LinkedIn 構成は、LinkedIn キャリア コーチの一般の同窓生デー�
 
 アプリをキャリア コーチすると、アプリのアクセスがしやすく、学生に表示されます。
 
-1. 管理センター **[にTeamsします](https://admin.teams.microsoft.com)**。
+1. 管理センターに **[Teamsします](https://admin.teams.microsoft.com)**。
 
-2. [Teams **セットアップ ポリシー** &gt; **] を選択し**、優先するポリシーを選択します。
-使用するポリシーが不明な場合は[、Microsoft Teams](/microsoftteams/policy-packages-edu)ポリシー管理のドキュメントを参照するか、教育ポリシー ウィザード[](/microsoftteams/easy-policy-setup-edu?tabs=students%2Cstudent-settings)を使用して、Microsoft Teams のポリシーを構成します。
+2. [Teams **セットアップ ポリシー]** &gt; **を選択し**、優先するポリシーを選択します。
+使用するポリシーが不明な場合は、[Microsoft Teams](/microsoftteams/policy-packages-edu) ポリシー管理に関するドキュメントを参照するか、教育ポリシー ウィザードを[](/microsoftteams/easy-policy-setup-edu?tabs=students%2Cstudent-settings)使用して、Microsoft Teams のポリシーを構成します。
 
 3. [ピン **留めされたアプリ] で**、[アプリの **追加] を選択します**。
 
-4. を探 **キャリア コーチ** し、[追加] を **選択します**。
+4. [追加] **キャリア コーチ** し、[追加] を **選択します**。
 
 5. アプリを表示する順序を選択し、[保存] を **選択します**。
 
 > [!NOTE]
-> 学生には、ピン留めMicrosoft Teamsされたキャリア コーチ通知が表示されます。
+> 学生には、ピン留めされたMicrosoft Teamsがキャリア コーチ通知されます。
 
 詳細 [については、「Microsoft でアプリセットアップ ポリシーを管理](/microsoftteams/teams-app-setup-policies) する」を参照してください。
 
 ## <a name="career-coach-settings-status"></a>キャリア コーチ設定の状態
 
-キャリア コーチ Teams 管理センターの [キャリア コーチ 設定] ページには、アプリを構成するための不完全、保留中、完了、失敗した手順の状態レポートが表示されます。 これらの状態は、テナントが適切に構成キャリア コーチテナントにリリースする準備ができているかどうかを判断するのに役立ちます。
+キャリア コーチ 管理センターの [Teams 設定] ページには、アプリを構成するための不完全、保留中、完了、失敗した手順の状態レポートが表示されます。 これらの状態は、テナントが適切に構成キャリア コーチテナントにリリースする準備ができているかどうかを判断するのに役立ちます。
 
 ### <a name="configuration-status"></a>構成の状態
 
@@ -396,7 +396,7 @@ LinkedIn 構成は、LinkedIn キャリア コーチの一般の同窓生デー�
 | 研究分野       | 完了                  | それ以上のアクションは必要はありません。                                   |
 
 > [!NOTE]
-> すべての手順が完了としてマークされると、アプリをテナントに正常に解放し、キャリア コーチできます。 詳細な手順については、「ユーザーにライセンスを割り当 [てる」を参照してください](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide)。
+> すべての手順が完了としてマークされると、アプリをテナントに正常にリリースし、ライセンスを割りキャリア コーチできます。 詳細な手順については、「ユーザーにライセンスを割り当 [てる」を参照してください](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide)。
 
 ### <a name="course-catalog-status"></a>コース カタログの状態
 
@@ -421,23 +421,23 @@ LinkedIn 構成は、LinkedIn キャリア コーチの一般の同窓生デー�
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 
-- キャリア コーチ アプリに "キャリア コーチ がすぐに使用するために設定されています" と表示される場合、必要なセクションは __完了していありません__。 次の __セクションは__、キャリア コーチ を使用する前に完了する必要 [があります。ブランド](#brand-and-preferences)と基本設定 [、LinkedIn 接続](#linkedin-connection)、[コース カタログ](#course-catalog)、および研究 [分野](#fields-of-study)。
+- キャリア コーチ アプリで "キャリア コーチ がすぐに使用するために設定されています" と表示される場合、必要なセクション __は完了していありません__。 ブランドと __環境設定、__[LinkedIn](#linkedin-connection) 接続、コース カタログ、および研究分野キャリア コーチ使用するには、[](#brand-and-preferences)次のセクションを完了する [必要があります](#fields-of-study)。 [](#course-catalog)
 
-- コース カタログと研究分野の CV には、必要な形式と最大サイズが 18 MB です。 適切な構成[キャリア コーチ、コース](#course-catalog-document-format-and-schema)カタログ ドキュメント スキーマとキャリア コーチ[の](#fields-of-study-document-format-and-schema)フィールドを参照してください。
+- コース カタログと研究分野の CV には、必要な形式と最大サイズが 18 MB です。 適切な構成キャリア コーチ[、コース カタログ ドキュメント](#course-catalog-document-format-and-schema) スキーマとキャリア コーチ[のフィールド](#fields-of-study-document-format-and-schema)を参照してください。
 
 - 必須フィールドを含む設定ページでは、フィールドが完了していない場合、ページは送信されません。 警告メッセージは表示されません。ページは単に送信されない。
 
 - アプリケーションを初キャリア コーチ、"アプリの設定を更新できない" というエラー バナーが表示される場合があります。 もう一度やり直してください。" というエラーが これは、テナントがアプリケーション アプリをプロビジョニングキャリア コーチ、最大 15 分かかる場合があります。 この場合は、もう一度送信するまで 15 分待ちます。
 
-- アプリがキャリア コーチに表示されない場合Microsoft Teams、ポリシーの変更が有効にされていない可能性があります。 ポリシーの変更は、更新に数時間かかる場合があります。 変更キャリア コーチ完了するまで、Microsoft Teams アプリは使用できません。
+- アプリがキャリア コーチに表示されない場合Microsoft Teamsポリシーの変更が有効にされていない可能性があります。 ポリシーの変更は、更新に数時間かかる場合があります。 変更キャリア コーチ完了するまで、Microsoft Teams アプリは使用できません。
 
 ## <a name="removing-your-tenant-data"></a>テナント データの削除
 
-テナント データには、アプリケーション構成の一部としてアップロードまたは生成される情報が含まれます。 キャリア コーチ テナント内のすべてのデータを削除するには、テナントのグローバル管理者にサポート チケット[](https://edusupport.microsoft.com/support?product_id=career_coach)を開き、テナントのデータを完全に削除します。 このプロセスは元に戻すことができない点に注意してください。 データの削除が完了すると、キャリア コーチ アプリケーションは、すべてのユーザーに対して事前に構成された非パーソナライズされた状態に戻り、Teams 管理者は、アプリケーションを引き続き使用するには、アプリケーションを再設定する必要があります。
+テナント データには、アプリケーション構成の一部としてアップロードまたは生成される情報が含まれます。 キャリア コーチ テナント内のすべてのデータを削除するには、テナントのグローバル管理者にサポート チケットを開き[](https://edusupport.microsoft.com/support?product_id=career_coach)、テナントのデータを完全に削除する必要があります。 このプロセスは元に戻すことができない点に注意してください。 データの削除が完了すると、キャリア コーチ アプリケーションは、すべてのユーザーに対して事前に構成されたパーソナライズされていない状態に戻り、Teams 管理者は、アプリケーションを引き続き使用するには、アプリケーションを再設定する必要があります。
 
 削除のプロセスを次に示します。
 
-- テナントのデータを完全に削除する要求を明確に示すサポート チケットをテナント グローバル管理者が送信する必要があります。 **削除のデータ セットまたはタイム** ウィンドウを制限する機能はありません。
+- テナントのデータを完全に削除する要求を明確に示すサポート チケットをテナント グローバル管理者が送信する必要があります。 **削除のデータ セットまたはタイム ウィンドウを制限する機能はありません**。
 
 - ファイルが送信された後、サポート チケットは、コンプライアンスの最小限の保持ポリシーを満たすために、1 週間後に対処されます。 この期間中に操作をキャンセルできます。
 
@@ -446,7 +446,7 @@ LinkedIn 構成は、LinkedIn キャリア コーチの一般の同窓生デー�
 
 ## <a name="resources"></a>リソース
 
-次のリソースは、アプリの計画にキャリア コーチです。
+次のリソースは、アプリの計画キャリア コーチ役立ちます。
 
 - [Microsoft Teams にようこそ](Teams-overview.md)
 

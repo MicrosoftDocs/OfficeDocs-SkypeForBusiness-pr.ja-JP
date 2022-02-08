@@ -1,8 +1,8 @@
 ---
 title: 呼び出しリスト レポート (Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
 description: '概要: このページで使用される通話リスト レポートについてSkype for Business Server。'
-ms.openlocfilehash: d56374fa317f6c7b132a9d33dcf9fef966c55625
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 986e107c88210b8abedc44641ce2f13a1db315d8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864844"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388165"
 ---
 # <a name="call-list-report-in-skype-for-business-server"></a>呼び出しリスト レポート (Skype for Business Server
  
 **概要:** このページで使用される通話リスト レポートSkype for Business Server。
   
-通話リスト レポートは、組織で行われた呼び出しおよび受信した個々の通話に対して、QoE (Quality of Experience) の指標を提供します。 レポートされる実際の指標は、通話リスト レポートへのアクセス方法によって異なる点に注意してください。 たとえば[、Skype for Business Server](device-report.md)のデバイス レポートからレポートを開いた場合、デバイス レポートにも報告される次のような指標が表示されます。
+通話リスト レポートは、組織で行われた呼び出しおよび受信した個々の通話に対して、QoE (Quality of Experience) の指標を提供します。 レポートされる実際の指標は、通話リスト レポートへのアクセス方法によって異なる点に注意してください。 たとえば、[Skype for Business Server のデバイス](device-report.md) レポートからレポートを開いた場合、デバイス レポートにも報告される次のような指標が表示されます。
   
 - 発信者のマイク
     
@@ -35,7 +35,7 @@ ms.locfileid: "60864844"
     
 - [音声切り替え時間の比率] 
     
-ただし、場所レポートから [通話リスト レポート[](location-report.md)] を開Skype for Business Server、これらの指標は表示されません。代わりに、次のような指標が表示されます。
+ただし、[Skype for Business Server の場所](location-report.md)レポートから通話リスト レポートを開いた場合、これらの指標は表示されません。代わりに、次のような指標が表示されます。
   
 - [往復 (ミリ秒)]
     
@@ -53,13 +53,13 @@ ms.locfileid: "60864844"
   
 - [[通話数] Skype for Business Server](location-report.md)場所レポート ([通話数] または [通話率の低い指標] をクリックします)
     
-- [[デバイス レポート] Skype for Business Server](device-report.md) ([通話数] または [通話率の低い指標] をクリックします)
+- [[デバイス レポート] Skype for Business Server](device-report.md) ([通話数] または [通話率の低い指標] をクリックして)
     
-- [[メディア品質の概要] レポート (Skype for Business Server](summary.md)通話量または通話率の低い指標をクリックして)
+- [[メディア品質の概要] レポート (](summary.md)Skype for Business Server [通話数] または [通話率の低い指標] をクリックします)
     
-- [[サーバー パフォーマンス レポート] Skype for Business Server](server-performance.md) ([通話数] または [通話率の低い指標] をクリックして)
+- [[サーバー パフォーマンス レポート] Skype for Business Server](server-performance.md) ([通話数] または [低い通話率] メトリックをクリックして)
     
-通話リスト レポート内から、[詳細][](call-detail-report.md)メトリックをクリックすると、Skype for Business Server詳細レポートにアクセスできます。
+通話リスト レポート内から、[詳細] メトリックを[](call-detail-report.md)クリックすると、Skype for Business Server詳細レポートにアクセスできます。
   
 ## <a name="making-the-best-use-of-the-call-list-report"></a>通話リスト レポートを最適に利用する
 

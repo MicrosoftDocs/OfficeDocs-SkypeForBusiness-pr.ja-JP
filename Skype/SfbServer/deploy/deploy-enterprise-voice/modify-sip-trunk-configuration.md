@@ -1,8 +1,8 @@
 ---
 title: 'Skype for Business Server: SIP トランク構成設定の変更'
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
 description: '概要: [コントロール パネル] を使用して SIP トランク構成設定を変更するSkype for Business Server説明します。'
-ms.openlocfilehash: e2e935e47f629ff3dcbf0106f1728402be986c1d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ada56be3cb0e9e8d1c1b5b607602cfd4b176beed
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839649"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387296"
 ---
 # <a name="skype-for-business-server-modify-sip-trunk-configuration-settings"></a>Skype for Business Server: SIP トランク構成設定の変更 
  
@@ -44,7 +44,7 @@ SIP トランク構成設定は、仲介サーバーと公衆交換電話網 (PS
 |名前  <br/> |ID  <br/> |コレクションの一意の識別子。このプロパティは読み取り専用です。トランク構成設定のコレクションの Identity は変更できません。  <br/> |
 |説明  <br/> |説明  <br/> |管理者が、設定に関する追加情報を格納できます (たとえば、トランク構成の目的)。  <br/> |
 |サポートされる最大初期ダイアログの数  <br/> |MaxEarlyDialogs  <br/> |サービス プロバイダーの PSTN ゲートウェイ、IP-PBX、または SBC が、仲介サーバーに送信した INVITE に対して受信できる分岐応答の最大数です。  <br/> |
-|暗号化サポート レベル  <br/> |SRTPMode  <br/> | 仲介サーバーと、サービス プロバイダーの PSTN ゲートウェイ、IP-PBX、または SBC 間のメディア トラフィックを保護するためのサポート レベルを示します。 メディア バイパスの場合、この値はメディア構成の EncryptionLevel 設定と互換性を持つ必要があります。 メディア構成は [、New-CsMediaConfiguration](/powershell/module/skype/new-csmediaconfiguration) コマンドレットと [Set-CsMediaConfiguration](/powershell/module/skype/set-csmediaconfiguration) コマンドレットを使用して設定されます。 <br/>  有効な値は次のとおりです。 <br/>  Required: SRTP 暗号化を使用する必要があります。 <br/>  Optional: ゲートウェイでサポートされている場合は、SRTP が使用されます。 <br/>  Not Supported: SRTP 暗号化がサポートされていないので、使用されません。 <br/>  SRTPMode は、ゲートウェイがトランスポート層セキュリティ (TLS) プロトコルを使用するよう構成されている場合にのみ使用されます。ゲートウェイがトランスポートとして伝送制御プロトコル (TCP) を使用するように構成されている場合は、SRTPMode は内部で Not Supported に設定されます。<br/> |
+|暗号化サポート レベル  <br/> |SRTPMode  <br/> | 仲介サーバーと、サービス プロバイダーの PSTN ゲートウェイ、IP-PBX、または SBC 間のメディア トラフィックを保護するためのサポート レベルを示します。 メディア バイパスの場合、この値はメディア構成の EncryptionLevel 設定と互換性を持つ必要があります。 メディア構成は、 [New-CsMediaConfiguration](/powershell/module/skype/new-csmediaconfiguration) コマンドレットと [Set-CsMediaConfiguration コマンドレットを使用して](/powershell/module/skype/set-csmediaconfiguration) 設定されます。 <br/>  有効な値は次のとおりです。 <br/>  Required: SRTP 暗号化を使用する必要があります。 <br/>  Optional: ゲートウェイでサポートされている場合は、SRTP が使用されます。 <br/>  Not Supported: SRTP 暗号化がサポートされていないので、使用されません。 <br/>  SRTPMode は、ゲートウェイがトランスポート層セキュリティ (TLS) プロトコルを使用するよう構成されている場合にのみ使用されます。ゲートウェイがトランスポートとして伝送制御プロトコル (TCP) を使用するように構成されている場合は、SRTPMode は内部で Not Supported に設定されます。<br/> |
 |サポートの参照  <br/> |Enable3pccRefer  <br/> EnableReferSupport  <br/> |[**ゲートウェイへの参照の送信を有効にする**] に設定した場合、トランクが仲介サーバーからの REFER 要求の受信をサポートすることを示します。  <br/> [**サードパーティ通話コントロールを使用する参照を有効にする**] に設定すると、3PCC プロトコルを使用して転送される通話がホストされたサイトをバイパスできるようにすることを示します。3PCC は、「三者間通話コントロール」とも呼ばれ、第三者を使用して二人の通話者を接続するとき (たとえば、オペレーターが人物 A から人物 B への通話を接続するとき) に使用します。<br/> |
 |メディアのバイパスを有効にする  <br/> |EnableBypass  <br/> |メディア バイパスがこのトランクに対して有効かどうかを示します。メディア バイパスは、[**集中メディア処理**] も有効になっている場合にのみ有効にできます。<br/> |
 |集中メディア処理  <br/> |ConcentratedTopology  <br/> |既知のメディア終端ポイントがあるかどうかを示します (既知のメディア終端ポイントの例として、メディア終端が信号終端と同じ IP を持つ PSTN ゲートウェイがあります)。  <br/> |
@@ -61,18 +61,18 @@ SIP トランク構成設定は、仲介サーバーと公衆交換電話網 (PS
 |着信者番号  <br/> |該当なし  <br/> |テストする電話番号が着信者の電話番号であることを示します。  <br/> |
    
 > [!NOTE]
-> Lync Server CsTrunkConfiguration コマンドレットは、Lync Server コントロール パネルに表示されない追加のプロパティをサポートします。 詳細については [、Set-CsTrunkConfiguration](/powershell/module/skype/set-cstrunkconfiguration) コマンドレットのヘルプ トピックを参照してください。
+> Lync Server CsTrunkConfiguration コマンドレットは、Lync Server コントロール パネルに表示されない追加のプロパティをサポートします。 詳細については、 [Set-CsTrunkConfiguration コマンドレットのヘルプ トピックを参照](/powershell/module/skype/set-cstrunkconfiguration) してください。
   
 ### <a name="to-modify-sip-trunk-configuration-settings-by-using-skype-for-business-server-control-panel"></a>[コントロール パネル] を使用して SIP トランク構成Skype for Business Server変更するには
 
-1. [コントロール Skype for Business Server] で、[音声ルーティング]**を** クリックし、[トランク構成]**をクリックします**。
+1. [コントロール Skype for Business Server] で、[音声ルーティング] **をクリック** し、[トランク構成] **をクリックします**。
     
 2. [**トランク構成**] タブで、変更するトランク構成の設定をダブルクリックします。編集できる設定のコレクションは一度に 1 つだけです。複数のコレクションで同じ変更を行う場合は、Windows PowerShell を使用してください。
     
-3. [トランク構成 **の編集] ダイアログ** で、適切な選択を行い **、[OK] をクリックします**。
+3. [トランク構成 **の編集] ダイアログ** で、適切な選択を行い、[OK] をクリック **します**。
     
 4. コレクションの [**状態**] プロパティが [**コミットされていません**] に更新されます。変更をコミットし、コレクションを削除するには、[**コミット**]、[**すべてコミット**] の順にクリックします。
     
 5. [**コミットされていない音声構成設定**] ダイアログ ボックスで、[**OK**] をクリックします。
     
-6. [コントロール パネル **Skype for Business Server] ダイアログ ボックスで****、[OK] をクリックします**。
+6. [コントロール パネル **Skype for Business Server] ダイアログ ボックスで**、[OK] を **クリックします**。

@@ -1,8 +1,8 @@
 ---
 title: CQD の開発サンプル
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: '概要: 通話品質ダッシュボードのチュートリアルと開発サンプルを確認します。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。'
-ms.openlocfilehash: 91e6f15f167000904626dc5a90d3766283396d7c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d078c6a2f3d5881dfad2d43742080c0aa83e8e9c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837509"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388085"
 ---
 # <a name="cqd-development-samples"></a>CQD の開発サンプル
 
@@ -34,9 +34,9 @@ ms.locfileid: "60837509"
 
 CQD は、オンプレミスの通話および展開に関する集約された通話品質情報にすばやく簡単Skype for Business Server提供します。 CQD は、QoE アーカイブ データベース、キューブ、ポータルの 3 つのコンポーネントで構成されます。 ポータルはメインプレゼンテーション層であり、さらに次の 3 つのコンポーネントに分割できます。
 
-1. Data Service: これは、認証されたユーザーが、ユーザーの通話品質ダッシュボード[(CQD)](data-api.md)のデータ API を介してアクセスSkype for Business Server。
+1. 認証されたユーザーは、データ サービスの [通話品質ダッシュボード [(CQD) のデータ API を使用してアクセスできるデータ サービスSkype for Business Server](data-api.md)。
 
-2. リポジトリ サービスは、認証されたユーザーが、呼び出し品質ダッシュボード[(CQD)](repository-api.md)のリポジトリ API を介してアクセスSkype for Business Server。
+2. リポジトリ サービス。このサービスは、認証されたユーザーに対して、呼び出し品質ダッシュボード [(CQD)](repository-api.md) のリポジトリ API を使用してアクセスSkype for Business Server。
 
 3. CQD ユーザーが表示および操作する HTML5 ベースのインターフェイスである Web ポータル。 これは、認証されたユーザーがアクセスできます。
 
@@ -48,7 +48,7 @@ CQD は呼び出し品質手法 (CQM) に従って作成されます。そのた
 
 ### <a name="how-the-dashboard-consumes-the-data-service"></a>ダッシュボードがデータ サービスを使用する方法
 
-CQD ホームページに移動すると (たとえば、認証および承認されたユーザーのレポート セットと対応するレポートがリポジトリ サービスから http://localhost/cqd) 取得されます。 完全な URL は、レポート セット ID と年月から作成されます (レポート セット ID は URL の '/#/' セクションの後の整数番号で、既定では、スラッシュの後にレポート セット ID の末尾に現在の年月が追加されます)。 レポート定義は JSON 形式で格納され、リポジトリ サービスから取得されると、データ サービスへの入力として使用されます。 Data Service は、入力に基づいて複数次元式 (MDX) クエリを生成し、キューブに対してこれらの MDX クエリを実行して、各レポートのデータを取得します。 
+CQD ホームページに移動すると ( http://localhost/cqd)たとえば、認証および承認されたユーザーのレポート セットと対応するレポートがリポジトリ サービスから取得されます。 完全な URL は、レポート セット ID と年月から作成されます (レポート セット ID は URL の '/#/' セクションの後の整数番号で、既定では、スラッシュの後にレポート セット ID の末尾に現在の年月が追加されます)。 レポート定義は JSON 形式で格納され、リポジトリ サービスから取得されると、データ サービスへの入力として使用されます。 Data Service は、入力に基づいて複数次元式 (MDX) クエリを生成し、キューブに対してこれらの MDX クエリを実行して、各レポートのデータを取得します。 
 
 ### <a name="building-customized-reports"></a>カスタマイズされたレポートの作成
 
@@ -203,7 +203,7 @@ JavaScript コードを HTML ページに囲み、ページには図のような
 
 レポート定義ビューアー ツールを作成するには、リポジトリ サービスに呼び出しを送信して、必要な各レポート セットの定義の JSON 文字列表現を取得する必要があります。 リポジトリ API は、指定されたレポート セット ID に基づいてレポート セット定義を返します。 
 
-簡単な例は次のとおりです。コードには、リポジトリ サービスにクエリを送信して、その識別子に基づいてリポジトリ アイテムの内容を取得する簡単な例であるブロックが含まれています。 コードの次の部分 (processReportSetData メソッド) は、そのレポート セット内の各レポートの定義を取得するために AJAX 呼び出しを送信しています。 CQD Web ポータルの ID はレポート セットの ID ですから、AJAX 呼び出しはレポート セット アイテムを返します。 リポジトリ API の詳細、特に GetItems については、「Get [Items」を参照してください](get-items.md)。 
+簡単な例は次のとおりです。コードには、リポジトリ サービスにクエリを送信して、その識別子に基づいてリポジトリ アイテムの内容を取得する簡単な例であるブロックが含まれています。 コードの次の部分 (processReportSetData メソッド) は、そのレポート セット内の各レポートの定義を取得するために AJAX 呼び出しを送信しています。 CQD Web ポータルの ID はレポート セットの ID ですから、AJAX 呼び出しはレポート セット アイテムを返します。 リポジトリ API の詳細、特に GetItems については、「Get Items」を [参照してください](get-items.md)。 
 
 ```html
 <!DOCTYPE html>
@@ -330,9 +330,9 @@ JavaScript コードを HTML ページに囲み、ページには図のような
 
 例 1 で示したサンプルから図のスコアカード ページに移動するための詳細な手順を次に示します。
 
-1. 'query' 変数の測定値の更新 `[Measures].[Audio Good Streams JPDR Count]` `[Measures].[Audio Poor Streams JPDR Count]` `[Measures].[AudioPoorJPDRPercentage]` 
+1. 'query' 変数の測定値の更新`[Measures].[Audio Good Streams JPDR Count]` `[Measures].[Audio Poor Streams JPDR Count]` `[Measures].[AudioPoorJPDRPercentage]` 
 
-2. フィルターを更新します。 例 1 のフィルターの JSON データには、ディメンションに設定されているフィルターが 1 つ含まれており  `[StartDate].[Month]` 、 です。 Filters は JSON 配列ですから、フィルターの一覧に追加のディメンションを追加できます。 たとえば、"currentMonth" の有線呼び出し内でサーバー クライアントを取得するには、次のフィルターが必要です。
+2. フィルターを更新します。 例 1 のフィルターの JSON データには、ディメンションに設定されているフィルターが 1 つ含まれており、  `[StartDate].[Month]`です。 Filters は JSON 配列ですから、フィルターの一覧に追加のディメンションを追加できます。 たとえば、"currentMonth" の有線呼び出し内でサーバー クライアントを取得するには、次のフィルターが必要です。
 
    ```javascript
    Filters: [
@@ -349,14 +349,14 @@ JavaScript コードを HTML ページに囲み、ページには図のような
    ],
    ```
 
-   ここで、ディメンション  `[Scenarios].[ScenarioPair]` は等しいに設定されます `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` 。 レポート  `[Scenario.][ScenarioPair]` の作成を簡略化するために作成された特別なディメンションです。 それに対応する 6 つの値があります `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]` 。 そのため、6 つのフィルターを組み合わせてシナリオを定義する代わりに、1 つのフィルターのみを使用する必要があります。 この例では、値は次のシナリオに変換されます。最初はサーバー、2 番目はサーバーではなく、最初は内部、2 番目は内部、2 番目の接続の種類はワイヤード、2 番目の接続の種類はワイヤード (有線) であり、これは  `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` "Server-Client-Inside Wired" の正確な定義です。
+   ここで、ディメンションは  `[Scenarios].[ScenarioPair]` 等しいに設定されます `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`。 レポート  `[Scenario.][ScenarioPair]` の作成を簡略化するために作成された特別なディメンションです。 それに対応する 6 つの値があります `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`。 そのため、6 つのフィルターを組み合わせてシナリオを定義する代わりに、1 つのフィルターのみを使用する必要があります。 この例  `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` では、値は次のシナリオに変換されます。最初はサーバー、2 番目はサーバーではなく、最初は内部、2 番目は内部、2 番目の接続の種類はワイヤード、2 番目の接続の種類はワイヤード (有線) であり、これは "Server-Client-Inside Wired" の正確な定義です。
 
 3. シナリオごとに 1 つのフィルター セットを作成します。 図のスコアカードの各行は、異なるシナリオを表します。これは異なるフィルターになります (ディメンションと測定値は同じです)。 
 
 4. AJAX 呼び出しの結果を解析し、テーブルの正しい位置に配置します。 これは主に HTML と JavaScript の操作ですから、ここでは詳細を説明する必要はありません。 代わりに、コードは付録 A で提供されます。
 
     > [!NOTE]
-    >  クロスオリジン リソース共有 (CORS) が有効になっている場合、要求されたリソースに "No 'Access-Control-Allow-Origin' ヘッダーが存在しないというエラーが発生する可能性があります。 したがって、Origin 'null' はアクセスを許可されません。 問題を解決するには、ポータルがインストールされているフォルダーの下に HTML ファイルを配置します (既定では `%SystemDrive%\Program Files\Skype for Business 2015 CQD\CQD)` 、 です。 次に、URL を使用して任意のブラウザーから HTML にアクセスします  `http://<servername>/cqd/<html_file_name>` 。 (ローカル CQD ダッシュボードの既定の URL は  `http://<servername>/cqd.` ) 
+    >  クロスオリジン リソース共有 (CORS) が有効になっている場合、要求されたリソースに "No 'Access-Control-Allow-Origin' ヘッダーが存在しないというエラーが発生する可能性があります。 したがって、Origin 'null' はアクセスを許可されません。 問題を解決するには、ポータルがインストールされているフォルダーの下に HTML ファイルを配置します (既定では、 です `%SystemDrive%\Program Files\Skype for Business 2015 CQD\CQD)`。 次に、URL を使用して任意のブラウザーから HTML にアクセスします  `http://<servername>/cqd/<html_file_name>`。 (ローカル CQD ダッシュボードの既定の URL は )`http://<servername>/cqd.` 
 
 ### <a name="appendix-a"></a>付録 A
 

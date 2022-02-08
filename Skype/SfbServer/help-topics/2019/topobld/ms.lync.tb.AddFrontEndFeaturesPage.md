@@ -1,8 +1,8 @@
 ---
 title: フロント エンドの機能の追加
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
 ROBOTS: NOINDEX, NOFOLLOW
 description: フロントエンド プールで有効にする各機能を選択します。 少なくとも、インスタント メッセージング (IM) を展開する必要があります。これは常に有効であり、選択解除できません。 また、会議、電話会議、通話受付管理 (CAC) などの他エンタープライズ VoIP展開することもできます。 一部の機能はトポロジに依存します。
-ms.openlocfilehash: 6989234d12c4e6a415eb9949550a6ad1c187b25a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 053088c38242f19e8fe2280c67190cd7c0e4f124
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832601"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387065"
 ---
 # <a name="add-front-end-features"></a>フロント エンドの機能の追加
 
@@ -39,4 +39,4 @@ ms.locfileid: "60832601"
 > [!NOTE]
 > 展開で CAC を有効にする場合は、中央サイトごとに 1 つのプールで CAC を有効にする必要があります。 音声機能または音声ビデオ会議を展開する場合は、CAC をお勧めします。
 
-プールの機能の指定の詳細Enterprise Edition展開のドキュメントの[「Define and Configure a Front End Pool」](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server)を参照してください。
+プールの機能の指定の詳細についてはEnterprise Editionのドキュメントの「[Define and Configure a Front End Pool](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server)」を参照してください。

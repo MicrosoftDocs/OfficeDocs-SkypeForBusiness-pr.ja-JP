@@ -1,8 +1,8 @@
 ---
 title: アーカイブ構成 新規の作成または既存の編集
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 description: アーカイブ構成を使用して、展開のアーカイブ オプションを制御します。 アーカイブ構成には、グローバル構成と、オプションで 1 つ以上のサイト構成およびプール構成が含まれます。
-ms.openlocfilehash: 1de397f6cefb8827e664cfe20bf169151c763049
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3dfeace1bf5f8243e1ee82c76021864ec51182fb
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838829"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384795"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>アーカイブ構成: 新規作成または現在の形式のままで編集
  
@@ -73,5 +73,5 @@ ms.locfileid: "60838829"
     > [!NOTE]
     > Microsoft Exchange 統合を有効にした場合、Exchange 2013 に設定され、In-Place Hold に配置されたメールボックスを持つユーザーの削除は、Exchange によって制御されます。 唯一の例外は、Lync Server ファイル共有に保存される会議ファイルです。 これらのファイルは、アーカイブ データがエクスポートされた後でデータを削除するオプションを選択した場合はファイルがエクスポートされた後 (Exchange にアップロードされた後)、保持する最大日数を指定した場合は指定した最大日数経過後にのみファイル共有から削除されます。 
   
-Exchange 統合を含むアーカイブ機能の詳細については[、「plan for archiving in Skype for Business Server 2015」、2015](../../plan-your-deployment/archiving/archiving.md)年 Skype for Business Server 年のアーカイブの展開、および Skype for Business Server [2015](../../manage/archiving/archiving.md)でのアーカイブの管理を参照してください。 [](../../deploy/deploy-archiving/deploy-archiving.md)
+Exchange 統合を含むアーカイブ機能の詳細については、「[Skype for Business Server 2015](../../plan-your-deployment/archiving/archiving.md) でのアーカイブの計画」、[201 Skype for Business Server 5](../../deploy/deploy-archiving/deploy-archiving.md) 年のアーカイブの展開、およびアーカイブの管理を参照してください。[Skype for Business Server 2015](../../manage/archiving/archiving.md).
 

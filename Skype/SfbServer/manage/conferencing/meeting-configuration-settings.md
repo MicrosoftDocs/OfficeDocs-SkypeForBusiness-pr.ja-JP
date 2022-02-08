@@ -1,8 +1,8 @@
 ---
 title: 会議の構成設定を管理Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2e6c4f48-464e-4b8e-b7f4-68cdc1ae4ad9
 description: '概要: 会議の構成設定を管理する方法について説明します。Skype for Business Server。'
-ms.openlocfilehash: ccbb1a43364ddd5507fb01c59000397130a9c22e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d05cb5df7f6a187f8642f6e7c91127019e255107
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832101"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385745"
 ---
 # <a name="manage-meeting-configuration-settings-in-skype-for-business-server"></a>会議の構成設定を管理Skype for Business Server
  

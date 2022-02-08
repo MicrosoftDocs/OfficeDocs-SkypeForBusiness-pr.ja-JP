@@ -1,8 +1,8 @@
 ---
 title: フロントエンド全般設定エキスパンダー
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 ROBOTS: NOINDEX, NOFOLLOW
 description: 既存のフロントエンド プールまたは Standard Edition サーバーの設定を編集するには、以下のセクションに示す手順に従って操作します。
-ms.openlocfilehash: fa055befc34d0c67f85cfba2125b2189746af9df
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0a05779c1c0cbda7a6c2b651178a09eff691703a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834415"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386985"
 ---
 # <a name="front-end-general-settings-expander"></a>フロント エンド全般設定エキスパンダー
 
@@ -103,7 +103,7 @@ ms.locfileid: "60834415"
 [**内部 Web サービス**]。次の情報を指定します。
 
 > [!CAUTION]
-> 複数のフロント エンド プールまたはフロント エンド サーバーがある場合は、外部 Web サービスの FQDN が一意である必要があります。 たとえば、フロントエンド サーバーの外部 Web サービス FQDN を **pool01.contoso.com** として定義する場合、別のフロントエンド プールまたはフロント エンド サーバーに pool01.contoso.com を使用することはできません。 ディレクターも展開する場合、ディレクターまたはディレクター プールに対して定義される外部 Web サービス FQDN は、他のディレクターまたはディレクター プール、およびフロント エンド プールまたはフロント エンド サーバーから一意である必要があります。 内部 Web サービスを自己定義の FQDN で上書きする場合、各 FQDN は他のフロントエンド プール、ディレクター、またはディレクター プールから一意である必要があります。
+> 複数のフロント エンド プールまたはフロント エンド サーバーがある場合は、外部 Web サービスの FQDN が一意である必要があります。 たとえば、フロント エンド サーバーの外部 Web サービス FQDN を **pool01.contoso.com** として定義する場合、別のフロントエンド プールまたはフロント エンド サーバーに **pool01.contoso.com** を使用することはできません。 ディレクターも展開する場合、ディレクターまたはディレクター プールに対して定義される外部 Web サービス FQDN は、他のディレクターまたはディレクター プール、およびフロント エンド プールまたはフロント エンド サーバーから一意である必要があります。 内部 Web サービスを自己定義の FQDN で上書きする場合、各 FQDN は他のフロントエンド プール、ディレクター、またはディレクター プールから一意である必要があります。
 
 - [**FQDN の上書き**] を選択すると、プールの **内部 Web** サービス ID として別の FQDN を指定できます。この設定の既定値は、フロントエンド プールとして定義されている現在のプール名です。
 
@@ -137,7 +137,7 @@ Standard Edition サーバーには、全般、復元、Web サービス、お�
 
 以下の全般設定を構成できます。
 
-- **FQDN**. FQDN は変更できません。 関連付けられている FQDN を変更するには、Standard Edition サーバーを削除して再定義する必要があります。
+- **FQDN。** FQDN は変更できません。 関連付けられている FQDN を変更するには、Standard Edition サーバーを削除して再定義する必要があります。
 
 - [**すべての構成済み IP アドレスを使用する**] または [**選択された IP アドレスのみにサービスの使用を制限する**] を選択します。定義済みの IP アドレスにサービスを制限する設定を選択する場合は、PSTN の場合を除いて、すべての通信でサーバーが使用するプライマリ IP アドレスを定義します。PSTN 使用には、別の IP アドレスを定義します。[**IPv6 を有効にする**] を選択して、このサーバーに対して IPv6 を有効にすることもできます。
 

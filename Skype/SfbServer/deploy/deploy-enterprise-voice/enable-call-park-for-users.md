@@ -1,8 +1,8 @@
 ---
 title: '[ユーザーの通話パークを有効にする] Skype for Business'
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
 description: '[ユーザーがユーザーに通話パークを有効にする] Skype for Business Server エンタープライズ VoIP。'
-ms.openlocfilehash: 87ac29c8f9b6c893149db8fb91561ee4b3cf1166
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 84a37ad9e3b77042c1c2c04d1d6562b3bb780ee2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843510"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386346"
 ---
 # <a name="enable-call-park-for-users-in-skype-for-business"></a>[ユーザーの通話パークを有効にする] Skype for Business
  
@@ -33,7 +33,7 @@ ms.locfileid: "60843510"
   
 ### <a name="to-use-skype-for-business-server-control-panel-to-enable-call-park-for-users"></a>コントロール パネルSkype for Business Serverを使用してユーザーの通話パークを有効にするには
 
-1. **RTCUniversalServerAdmins** グループのメンバーとして、または **CsVoiceAdministrator 、CsServerAdministrator、** または **CsAdministrator** 管理役割のメンバーとしてコンピューターにログオンします。
+1. **RTCUniversalServerAdmins** グループのメンバーとして、または **CsVoiceAdministrator**、**CsServerAdministrator、または CsAdministrator** 管理役割のメンバーとしてコンピューターにログオンします。
     
 2. [コントロール Skype for Business Server] を開きます。
     
@@ -45,13 +45,13 @@ ms.locfileid: "60843510"
     
 6. [通話 **機能] で、[** 通話 **パークを有効にする] を選択します**。
     
-7. **[OK] を** クリックして音声ポリシーを保存する
+7. [ **OK] を** クリックして音声ポリシーを保存する
     
 ### <a name="to-use-cmdlets-to-enable-call-park-for-users"></a>コマンドレットを使用してユーザーの通話パークを有効にするには
 
 1. RTCUniversalServerAdmins グループのメンバーとして、または CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator 管理役割のメンバーとしてコンピューターにログオンします。
     
-2. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
+2. 管理シェルをSkype for Business Serverする **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[**2015** 年Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 3. 次を実行します: 
     

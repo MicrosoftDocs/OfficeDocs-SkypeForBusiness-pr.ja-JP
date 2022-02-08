@@ -1,8 +1,8 @@
 ---
 title: 展開を削除する
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 068b518d-a982-4668-862b-b36fb74f04ec
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[完了] をクリックして、展開全体を使用停止する最初の手順として、空のトポロジを作成します。'
-ms.openlocfilehash: 1957d1f19412a238b519a9f663149b4939ef655c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 88f846079d6452c8badedaaf5b42ce37e8a60bfe
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865014"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384825"
 ---
 # <a name="remove-deployment"></a>展開を削除する
  

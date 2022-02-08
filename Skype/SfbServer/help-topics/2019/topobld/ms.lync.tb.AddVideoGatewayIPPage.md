@@ -1,8 +1,8 @@
 ---
 title: ビデオ ゲートウェイ IP の追加
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,24 +15,24 @@ ms.localizationpriority: medium
 ms.assetid: edc4cc21-7803-400d-8152-595228a3d27d
 ROBOTS: NOINDEX, NOFOLLOW
 description: トポロジ ビルダーで新しい VIS またはビデオ ゲートウェイを定義するために必要な手順については、「Create a VIS pool in the Skype for Business Server」を参照してください。
-ms.openlocfilehash: bb3c8730089134376cb25dbb104f873477b1cf46
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8b9e248544d7bf0bdfb796d7f3727c9870b5d981
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836879"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388685"
 ---
 # <a name="add-video-gateway-ip"></a>ビデオ ゲートウェイ IP の追加
  
-トポロジ ビルダーで新しい VIS またはビデオ ゲートウェイを定義するために必要な手順については、「Create a VIS pool in a VIS pool in Skype for Business Server」[を参照してください](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md)。
+トポロジ ビルダーで新しい VIS またはビデオ ゲートウェイを定義するために必要な手順については、「Create [a VIS pool in the Skype for Business Server」を参照してください](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md)。
   
-ビデオ サーバーを使用してサーバーにビデオ相互運用機能サーバーの役割を割り当てるWindows PowerShell、「ビデオ サーバーの VIS サーバーの役割を展開する」でオンライン[で説明](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)Skype for Business Server
+ビデオ サーバーを使用してサーバーにビデオ相互運用機能サーバーの役割を割り当てるWindows PowerShell、オンラインでの VIS サーバーの役割の展開に関するページ[で説明Skype for Business Server](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
   
-新しいビデオ相互運用サーバーの構成手順については、「Windows PowerShell でビデオ相互運用サーバーを構成する」をオンライン[でSkype for Business Server。](../../../deploy/deploy-video-interop-server/configure-the-vis.md)
+新しいビデオ相互運用サーバーの構成手順については、「Windows PowerShell でビデオ相互運用サーバーを構成する」を[オンラインでSkype for Business Server](../../../deploy/deploy-video-interop-server/configure-the-vis.md)。
   
- VIS との相互運用のために Cisco GUI で設定する必要があるビデオ ゲートウェイの設定については、「Configure [CUCM for Interoperation for interoperation for Skype for Business Server」を参照してください](../../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)。
+ VIS との相互運用のために Cisco GUI で設定する必要があるビデオ ゲートウェイの設定については、「Configure [CUCM for Interoperation for Skype for Business Server」を参照してください](../../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)。
   
- ビデオ ゲートウェイと VIS との相互運用のために Cisco GUI で設定する必要がある VTC の設定については、「Configure [a VTC for Interoperation for Skype for Business Server」でオンラインで説明されています](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)。
+ ビデオ ゲートウェイと VIS との相互運用のために Cisco GUI で設定する必要がある VTC の設定については、「Configure [a VTC for Interoperation for Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)」をオンラインで説明します。
   
 ## <a name="see-also"></a>関連項目
 

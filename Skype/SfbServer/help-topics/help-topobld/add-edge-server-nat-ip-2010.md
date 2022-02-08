@@ -1,8 +1,8 @@
 ---
 title: エッジ サーバーの NAT IP を追加する (2010)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: aacc1166-0f3b-4593-9747-85bb42ee4599
 description: このエッジ プールのパブリック IP アドレスをネットワーク アドレス変換 (NAT) によって変換する場合は、変換されるパブリック IP アドレスを指定する必要があります。これは、音声ビデオ エッジ サービスの外部 IP アドレスです。
-ms.openlocfilehash: c774c7c7a7ce387bea0a92b8f71dbc2b4ced8802
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 4141db742d97d190352c1be101c6857d5d3e4743
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834315"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385895"
 ---
 # <a name="add-edge-server-nat-ip-2010"></a>エッジ サーバー NAT IP の追加 (2010)
  

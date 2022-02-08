@@ -1,8 +1,8 @@
 ---
 title: 場所ポリシー [新規の作成] または [既存の編集]
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
 ROBOTS: NOINDEX, NOFOLLOW
 description: 場所ポリシーを構成して、拡張 9-1-1 (E9-1-1) が有効になっているかどうか、その使用方法、およびユーザーと連絡先の位置情報の使用方法を決定できます。
-ms.openlocfilehash: 95f11519421926074201d02a92bcfc64758ed015
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9978ceb81c144f7008acb30bfd94c0af6b6221b5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863004"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386205"
 ---
 # <a name="location-policy-create-new-or-edit-existing"></a>場所ポリシー: 新規作成または現在の形式のままで編集
 
@@ -49,7 +49,7 @@ ms.locfileid: "60863004"
 
 - **E9-1-1 にのみ場所を使用する** 緊急通話にのみ位置情報を使用する場合は、このチェック ボックスをオンにします。
 
-- **PSTN 使用法** このプロファイルを使用するクライアントからの緊急通話のルーティングに使用する音声ルートを決定するために使用する公衆交換電話網 (PSTN) の使用状況を選択します。 この使用法に関連付けられたルートは、緊急通話専用の SIP トランク、または緊急通話を最も近い公衆安全応答ポイント (PSAP) にルーティングする緊急場所識別番号 (ELIN) ゲートウェイを指している必要があります。 オプションは **、内部、****ローカル、** または **長距離です**。
+- **PSTN 使用法** このプロファイルを使用するクライアントからの緊急通話のルーティングに使用する音声ルートを決定するために使用する公衆交換電話網 (PSTN) の使用状況を選択します。 この使用法に関連付けられたルートは、緊急通話専用の SIP トランク、または緊急通話を最も近い公衆安全応答ポイント (PSAP) にルーティングする緊急場所識別番号 (ELIN) ゲートウェイを指している必要があります。 オプションは **、内部、****ローカル、****または長距離です**。
 
 - **E9-1-1 ダイヤル番号** 緊急サービスに到達するためにダイヤルされる番号を指定します。
 
@@ -68,4 +68,4 @@ ms.locfileid: "60863004"
 
   - **2 つの方法** 発信者と PSAP 演算子の間の呼び出しにサード パーティが参加できると指定します。
 
-緊急サービスの機能エンタープライズ VoIP詳細については、「計画」のドキュメントの[「E9-1-1](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-e9-1-1)の概要」を参照してください。 場所ポリシーの操作の詳細については、「操作」のドキュメントの「[Configuring Location Policy](/previous-versions/office/lync-server-2013/lync-server-2013-viewing-location-policy-information)」を参照してください。
+緊急サービスの機能エンタープライズ VoIP詳細については、「計画」のドキュメントの「[E9-1-1](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-e9-1-1) の概要」を参照してください。 場所ポリシーの操作の詳細については、「操作」のドキュメントの「[Configuring Location Policy](/previous-versions/office/lync-server-2013/lync-server-2013-viewing-location-policy-information)」を参照してください。

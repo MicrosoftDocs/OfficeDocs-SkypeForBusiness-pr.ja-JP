@@ -1,8 +1,8 @@
 ---
 title: ユニファイド メッセージングExchange統合を計画Skype for Business
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: '概要: 2013 または 2016 年にSkype for Business ServerをExchangeしながら、このトピックを確認してください。'
-ms.openlocfilehash: 7fcd5ea6f573fe40aacabebb1d8b974b2bf1e264
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b48ff4582cf9ef218c7b28abb9c52245e40a5214
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850690"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389079"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>ユニファイド メッセージングExchange統合を計画Skype for Business
 
@@ -30,7 +30,7 @@ Skype for Business Serverユニファイド メッセージング (UM) Exchange�
 2013 Microsoft Exchange Server 2016 では、EXCHANGEメールボックス サーバー上のサービスとして UM Exchange実行されます。 ユニファイド Skype for Business Server エンタープライズ VoIP展開では、ボイス メッセージングと電子メール メッセージングを 1 つのストアに結合し、ユーザーは電話 (Outlook Voice Access) またはコンピューターからアクセスできます。 ユニファイド メッセージングとユニファイド Skype for Business Serverは、通話応答、Outlook 音声アクセス、自動応答サービスをユーザーに提供するためにエンタープライズ VoIP。
 
 > [!NOTE]
-> ExchangeUM は、2019 Skype for Business Server 2019 と Skype for Business 2013 または Exchange 2016 Exchangeで使用できます。 Exchange 2019 年のサポートの変更により、Exchange UM の統合は、クラウド ボイスメール とクラウド の機能を重視自動応答されています。  詳細[については、「Plan クラウド ボイスメール サービス](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)」および[「Plan for Skype for Business Server移行Exchange Server」を](../../../sfbhybrid/hybrid/plan-um-migration.md)参照してください。
+> Exchange 2019 Skype for Business Server 201 Exchange 9 と Skype for Business 2013 または Exchange 2016 を統合した場合、UM は引き続きExchangeされます。 Exchange 2019 年のサポートの変更により、Exchange UM の統合は、クラウド ボイスメール とクラウド の機能を重視自動応答されています。  詳細[については、「Plan クラウド ボイスメール サービス](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)」および「[Plan for Skype for Business Server移行Exchange Server」](../../../sfbhybrid/hybrid/plan-um-migration.md)を参照してください。
 
 
 これらの機能を UM 展開でExchangeするには、次のいずれかを実行している必要があります。
@@ -40,7 +40,7 @@ Skype for Business Serverユニファイド メッセージング (UM) Exchange�
 - Microsoft Exchange Server 2016
 
 > [!NOTE]
-> ExchangeSkype for Business Server 2019 では、電話システム を使用してボイスメール メッセージを記録し、その記録をユーザーの Exchange メールボックスに残すユニファイド メッセージングは使用できなくなりました。 詳細については[、「プラン クラウド ボイスメール サービス](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)」を参照してください。
+> Exchange以前に知られているユニファイド メッセージングは Skype for Business Server 2019 では使用できなくなりました。電話システム を使用してボイスメール メッセージを記録し、その記録をユーザーの Exchange メールボックスに残します。 詳細については[、「プラン クラウド ボイスメール サービス](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)」を参照してください。
 
 ## <a name="features-of-integrated-unified-messaging-and-skype-for-business-server"></a>統合ユニファイド メッセージングと統合メッセージングのSkype for Business Server
 
@@ -54,18 +54,18 @@ Skype for Business Server エンタープライズ VoIP Exchange ユニファイ
 
 - **自動応答** 自動応答は、Exchange外のユーザーが会社の担当者に連絡するためにダイヤルできる電話番号を構成するために使用できる UM 機能です。 具体的には、外部からの発信者に音声でメニュー システムの操作を案内します。 使用可能なオプションの一覧は、UM 管理者Exchange UM サーバー Exchange構成されます。
 
-- **FAX サービスと** UM Exchange FAX 機能が含まれています。この機能を使用すると、ユーザーは自分のメールボックスで受信 fax を受信Exchangeできます。 詳細については、次の[ドキュメントの](/previous-versions/office/exchange-server-2007/bb123911(v=exchg.80))「ユニファイド メッセージングMicrosoft Exchange Serverしてください。
+- **UM の fax Services** Exchange FAX 機能が含まれています。この機能を使用すると、ユーザーは自分のメールボックスで受信 fax を受信Exchangeできます。 詳細については、「ユニファイド メッセージング[」の](/previous-versions/office/exchange-server-2007/bb123911(v=exchg.80))ドキュメントをMicrosoft Exchange Serverしてください。
 
     > [!NOTE]
-    > Exchange UM サーバーによって提供される FAX サービスは、Microsoft Exchange Server 2010、Exchange 2010、Exchange 2013、または Exchange 2016 と統合された Skype for Business Server 展開では使用できません。
+    > Exchange UM サーバーによって提供される FAX サービスは、Microsoft Exchange Server 2010、Exchange 2010、Exchange 2013、または Exchange と統合された Skype for Business Server 展開では利用できません。 2016.
 
 ## <a name="components-and-topologies-for-on-premises-unified-messaging-in-skype-for-business-server"></a>オンプレミスユニファイド メッセージングのコンポーネントとトポロジSkype for Business Server
 
 ### <a name="exchange-server-components"></a>Exchange Server コンポーネント
 
-「統合ユニファイド メッセージングと[Skype for Business Server](#features-of-integrated-unified-messaging-and-skype-for-business-server)の機能」で説明されている Exchange UM 機能とサービスを組織内の エンタープライズ VoIP ユーザーに提供するには、Microsoft Exchange メールボックス サーバーとクライアント アクセス サーバーを展開し、ユーザー メールボックスをホストし、単一のメールボックスを提供する必要があります。メールとボイス メールの保存場所。 ExchangeUM は、メールボックス サーバーとクライアント アクセス Exchangeサービスとして実行されます。
+「統合ユニファイド メッセージングと Skype for Business Server の機能」で説明されている Exchange UM の機能とサービスを組織内の [エンタープライズ VoIP](#features-of-integrated-unified-messaging-and-skype-for-business-server) ユーザーに提供するには、Microsoft サービスを展開する必要Exchange メールボックス サーバーとクライアント アクセス サーバー。ユーザー のメールボックスをホストし、電子メールとボイス メールの 1 つの保存場所を提供します。 Exchange UM は、メールボックス サーバーとクライアント アクセス Exchangeサービスとして実行されます。
 
-Microsoft Exchange Server Exchange 2010 の UM コンポーネントの詳細については、「Deploying On-Premises Exchange UM to Provide [Lync Server 2013 Preview Voice Mail」](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail)を参照してください。
+Microsoft Exchange Server 2010 Exchange UM コンポーネントの詳細については、「[Deploying On-Premises Exchange UM to Provide Lync Server 2013 Preview Voice Mail](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail)」を参照してください。
 
 ### <a name="supported-topologies"></a>サポートされるトポロジ
 
@@ -77,7 +77,7 @@ Skype for Business Server UM 統合では、次のトポロジExchangeサポー�
 
 - 単一ドメイン (すなわち、単一ドメインを含む単一フォレスト)。 Skype for Business Server、Microsoft Exchangeユーザーはすべて同じドメインに存在します。
 
-- 複数のドメイン (つまり、1 つ以上の子ドメインを持つルート ドメイン)。 Skype for Business Server、Microsoft Exchangeサーバーは、ユーザーを作成するドメインとは異なるドメインに展開されます。 ExchangeUM サーバーは、サポートするサーバー プールとは異なるドメインSkype for Business Server展開できます。
+- 複数のドメイン (つまり、1 つ以上の子ドメインを持つルート ドメイン)。 Skype for Business Server、Microsoft Exchangeサーバーは、ユーザーを作成するドメインとは異なるドメインに展開されます。 Exchange UM サーバーは、サポートするサーバー プールとは異なるドメインSkype for Business Server展開できます。
 
 - 複数のフォレスト (すなわち、リソース フォレスト)。 Skype for Business Serverは 1 つのフォレストに展開され、ユーザーは複数のフォレストに分散されます。 ユーザーの UM Exchangeは、ユーザーのフォレストにレプリケートSkype for Business Serverがあります。
 
@@ -100,7 +100,7 @@ Skype for Business Server UM 統合では、次のトポロジExchangeサポー�
     > [!IMPORTANT]
     > ユニファイド Exchange (UM) がインストールされている場合、自己署名証明書を使用するように構成されます。 自己署名証明書では、Skype for Business Server UM と Exchange UM が互いを信頼できないので、両方のサーバーが信頼する証明機関から別の証明書を要求する必要があります。
 
-- UM Skype for Business Serverと Exchange UM が異なるフォレストにインストールされている場合は、Exchange フォレストと Skype for Business Server フォレストを信頼する各 Skype for Business Server Exchange フォレストを構成します。Exchangeフォレスト。 また、Skype for Business Server フォレスト内Exchangeユーザー オブジェクトに対してユーザーの UM 設定を設定します (通常は、スクリプトまたはフォレスト間ツール (ID ライフサイクル マネージャー (ILM) など) を使用します。
+- UM Skype for Business ServerとExchangeが異なるフォレストにインストールされている場合は、Exchange フォレストと信頼する Skype for Business Server フォレストを信頼Skype for Business Server構成します。各フォレストExchangeします。 また、Skype for Business Server フォレスト内Exchangeユーザー オブジェクトに対してユーザーの UM 設定を設定します (通常は、スクリプトまたはフォレスト間ツール (ID ライフサイクル マネージャー (ILM) など) を使用します。
 
 - 必要に応じて、ユニファイド メッセージング サーバーを管理するのに Exchange 管理コンソールをインストールします。
 
@@ -117,7 +117,7 @@ Skype for Business Server UM 統合では、次のトポロジExchangeサポー�
 
 **例 1: Exchange UM の復元性**
 
-![ExchangeUM 復元の図。](../../media/d8381ecc-0e4e-47ea-9bf7-e54fec9414e7.png)
+![Exchange UM 復元図を参照してください。](../../media/d8381ecc-0e4e-47ea-9bf7-e54fec9414e7.png)
 
 例 1 では、Exchange UM サーバー 1 と 2 がトゥクウィラ データ センターで有効にされ、Exchange UM サーバー 3 と 4 がダブリン のデータ センターで有効になっています。 トゥクウィラで Exchange UM が停止した場合、サーバー 1 とサーバー 2 のレコードがそれぞれサーバー 3 と 4 を指するように構成する必要があります。 ダブリンで EXCHANGE UM が停止した場合、サーバー 3 とサーバー 4 の DNS A レコードは、それぞれサーバー 1 とサーバー 2 を指するように構成する必要があります。
 
@@ -126,11 +126,11 @@ Skype for Business Server UM 統合では、次のトポロジExchangeサポー�
 
 **例 2:Exchange UM の復元性**
 
-![ExchangeUM 復元の図。](../../media/4ad101c3-f318-4fc0-b4da-c05f2e92a943.png)
+![Exchange UM 復元図を参照してください。](../../media/4ad101c3-f318-4fc0-b4da-c05f2e92a943.png)
 
 例 2 では、通常の操作条件の下、Exchange UM サーバー 1 と 2 は Tukwila のデータ センターで有効化されています。Exchange UM サーバー 3 と 4 は Dublin のデータ センターで有効化されています。 4 台すべてのサーバーが Tukwila のユーザーの SIP URL ダイヤル プランに含まれていますが、サーバー3 と 4 は有効化されていません。 たとえば、Tukwila で Exchange UM サーバーが停止した場合、Exchange UM サーバー 1 と 2 は無効化され、Tukwila の Exchange UM トラフィックが Dublin のサーバーにルーティングされるよう、Exchange UM サーバー 3 と 4 は有効化されます。
 
-2013 年 2013 年にユニファイド メッセージングを有効または無効にする方法の詳細については、「Exchange Exchange [2013 UM](/exchange/checklist-integrate-exchange-2013-um-with-lync-server-exchange-2013-help)と Lync Server を統合する」を参照してください。 提供される情報は、同じ方法でSkype for Business Server。
+2013 年 2013 年にユニファイド メッセージングを有効または無効にする方法の詳細については、「Exchange Exchange [2013 UM と Lync Server](/exchange/checklist-integrate-exchange-2013-um-with-lync-server-exchange-2013-help) を統合する」を参照してください。 提供される情報は、同じ方法でSkype for Business Server。
 
 2010 年 2010 年にユニファイド メッセージングを有効または無効にする方法のMicrosoft Exchange Serverを参照してください。
 
@@ -140,7 +140,7 @@ Skype for Business Server UM 統合では、次のトポロジExchangeサポー�
 
 ### <a name="exchange-server-2019"></a>Exchange Server 2019
 
-ExchangeExchange 2019 を使用し、同等の機能が必要な場合は、「クラウド ボイスメール サービスの計画」で説明されている クラウド ボイスメール サービスを使用する必要がある場合、ユニファイド メッセージングは Exchange 2019[に存在](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)しなくなりました。
+Exchange ユニファイド メッセージングが Exchange 2019 に存在しなくなった場合、Exchange 2019 を使用し、同等の機能が必要な場合は、「クラウド ボイスメール サービスの計画」で説明されている クラウド ボイスメール サービスを使用する必要があります。[](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)
 
 
 ## <a name="see-also"></a>関連項目

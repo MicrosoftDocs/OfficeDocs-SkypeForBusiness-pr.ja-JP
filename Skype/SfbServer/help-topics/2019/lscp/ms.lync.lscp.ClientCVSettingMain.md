@@ -1,8 +1,8 @@
 ---
 title: クライアント バージョンの構成
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 現在の環境でサポートするクライアントのバージョンのほか、バージョン ポリシーが定義されていないクライアントの既定のアクションも指定できます。これにより、現在の環境で使用するクライアント バージョンを制限し、複数のクライアント バージョンをサポートすることで発生するコストを制御できます。
-ms.openlocfilehash: fbbe0e6386af8474a621d974faa9936d03d33dbf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 57720ae070f8051febc53b0287d6aa9d87985257
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857914"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387195"
 ---
 # <a name="client-version-configuration"></a>クライアント バージョンの構成
 
@@ -30,7 +30,7 @@ ms.locfileid: "60857914"
 
 [**クライアント バージョンの構成**] ページでは、次のタスクを実行できます。
 
-- 既定の (グローバル) **クライアント** バージョンの構成を編集します。
+- 既定の (グローバル) **クライアント バージョン** 構成を編集します。
 
 - 特定のサイトのクライアント バージョン構成を作成します。
 
@@ -43,7 +43,7 @@ ms.locfileid: "60857914"
 
 以下は、ページ上のメニュー、コマンド、フィールド、およびプロパティについての説明です。
 
-- **New** 特定のサイトのクライアント バージョン構成を作成できます。
+- **新機能** 特定のサイトのクライアント バージョン構成を作成できます。
 
 - **編集** クライアント バージョン ポリシーのオプションを変更できます。 このオプションを使用すると、次の操作を実行できます。
 

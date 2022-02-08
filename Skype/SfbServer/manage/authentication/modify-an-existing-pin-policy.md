@@ -1,8 +1,8 @@
 ---
 title: 既存の PIN ポリシーを変更Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 517caaee-3349-4fa6-8d86-e4da3258a445
 description: '概要: 既存の PIN ポリシーを変更Skype for Business Server。'
-ms.openlocfilehash: a03e192b5dd9b11de17e6c920baee6613312fc84
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b38ffa3f5ef8d858b93e6844a8aba46a92538b9d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848580"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384355"
 ---
 # <a name="modify-an-existing-pin-policy-in-skype-for-business-server"></a>既存の PIN ポリシーを変更Skype for Business Server
  
 **概要:** 既存の PIN ポリシーを変更Skype for Business Server。
   
-[PIN ポリシー]**タブを使用** して、IP Phone を使用してユーザーに接続しているユーザーに個人識別番号 (PIN) 認証Skype for Business提供できます。 PIN 認証を使用するには、Web サービス設定で [**PIN 認証を有効にする**] が選択されていることを確認してください。
+[PIN ポリシー] **タブを使用** して、IP Phone を使用してユーザーに接続しているユーザーに個人識別番号 (PIN) 認証Skype for Business提供できます。 PIN 認証を使用するには、Web サービス設定で [**PIN 認証を有効にする**] が選択されていることを確認してください。
   
 ユーザー レベルまたはサイト レベルの PIN ポリシーを変更するには、次の手順に従います。 
   

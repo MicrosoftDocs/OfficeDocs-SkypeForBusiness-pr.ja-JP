@@ -1,8 +1,8 @@
 ---
-title: Exchangeユニファイド メッセージング 設定 (計画ツール)
+title: Exchange ユニファイド メッセージング 設定 (計画ツール)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,17 +16,17 @@ ms.localizationpriority: medium
 ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype for Business Server 2015 では、Exchange ユニファイド メッセージング (UM) との統合がサポートされ、ボイス メッセージングと電子メール メッセージングを 1 つのメッセージング インフラストラクチャに組み合わせて使用できます。
-ms.openlocfilehash: d366de5e0e7d3c7cac348c3fd5b0caa4902cf4e9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 194fcf675917c8fd47ecc8c7166cd736d1b6f289
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858524"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386135"
 ---
-# <a name="exchange-unified-messaging-settings-planning-tool-in-skype-for-business-2015"></a>Exchangeユニファイド メッセージング 設定 (計画ツール) in Skype for Business 2015
+# <a name="exchange-unified-messaging-settings-planning-tool-in-skype-for-business-2015"></a>Exchange 2015 設定 ユニファイド メッセージング Skype for Business (計画ツール)
 
 > [!NOTE]
-> Exchange以前に知られているユニファイド メッセージングは Exchange 2019 では使用できなくなりましたが、引き続き 電話システム を使用してボイスメール メッセージを記録し、その記録をユーザーの Exchange メールボックスに残して使用できます。 詳細については[、「プラン クラウド ボイスメール サービス](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)」を参照してください。
+> Exchange Exchange 2019 ではユニファイド メッセージングは使用できなくなりましたが、電話システム を使用してボイスメール メッセージを録音してから、ユーザーの Exchange メールボックスに記録を残す方法もあります。 詳細については[、「プラン クラウド ボイスメール サービス](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)」を参照してください。
 
 Skype for Business Server 2015 では、Exchange ユニファイド メッセージング (UM) との統合がサポートされ、ボイス メッセージングと電子メール メッセージングを 1 つのメッセージング インフラストラクチャに組み合わせて使用できます。
 
@@ -36,4 +36,4 @@ Skype for Business Server 2015 では、Exchange ユニファイド メッセー
 
 - "ユニファイド メッセージング" [https://go.microsoft.com/fwlink/?LinkId=285341](/exchange/unified-messaging-exchange-2013-help)
 
-- で「ユニファイド メッセージングの計画」を参照してください [https://go.microsoft.com/fwlink/?LinkId=285344](/exchange/planning-for-unified-messaging-exchange-2013-help) 。
+- で「ユニファイド メッセージングの計画」を参照してください [https://go.microsoft.com/fwlink/?LinkId=285344](/exchange/planning-for-unified-messaging-exchange-2013-help)。

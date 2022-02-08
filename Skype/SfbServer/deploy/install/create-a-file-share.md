@@ -1,8 +1,8 @@
 ---
 title: ファイル共有を作成するSkype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -16,28 +16,28 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
-description: '概要: サーバー のインストールの一環としてWindowsサーバー ファイル共有を作成する方法についてSkype for Business Server。 以下の Microsoft 評価センター Skype for Business Server無料試用版をダウンロードします https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。'
-ms.openlocfilehash: c2b1048d911243987313568acde2bccea068fff9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: '概要: サーバー のインストールの一環としてWindowsサーバー ファイル共有を作成する方法についてSkype for Business Server。 以下の Microsoft 評価センター Skype for Business Server無料試用版をダウンロードしますhttps://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
+ms.openlocfilehash: c5d072c643061f65f68226eeed43f769a06bd2e4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842379"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385225"
 ---
 # <a name="create-a-file-share-in-skype-for-business-server"></a>ファイル共有を作成するSkype for Business Server
  
-**概要:** サーバー のインストールの一Windowsサーバー ファイル共有を作成する方法についてSkype for Business Server。 以下の Microsoft 評価センター Skype for Business Server無料試用版をダウンロードします [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server) 。
+**概要:** サーバー のインストールの一Windowsサーバー ファイル共有を作成する方法についてSkype for Business Server。 以下の Microsoft 評価センター Skype for Business Server無料試用版をダウンロードします[https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)。
   
-Skype for Business Serverトポロジ全体のコンピューターがファイルを交換できるよう、ファイル共有が必要になります。 ファイル共有の作成は、ファイル共有のインストール プロセスの手順 2 / 8 Skype for Business Server。 手順 1 ~ 5 は、任意の順序で実行できます。 ただし、手順 6、7、および 8 を順番に実行し、図に示す手順 1 ~ 5 の後に実行する必要があります。 ファイル共有の計画の詳細については、「環境要件 for [Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) [2019」](../../../SfBServer2019/plan/system-requirements.md)または「サーバー Skype for Business Server参照してください。
+Skype for Business Serverトポロジ全体のコンピューターがファイルを交換できるよう、ファイル共有が必要になります。 ファイル共有の作成は、ファイル共有のインストール プロセスの手順 2 / 8 Skype for Business Server。 手順 1 ~ 5 は、任意の順序で実行できます。 ただし、手順 6、7、および 8 を順番に実行し、図に示す手順 1 ~ 5 の後に実行する必要があります。 ファイル共有の計画の詳細については、「環境要件 for [Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) [2019](../../../SfBServer2019/plan/system-requirements.md)」を参照Skype for Business Server。
   
 ![概要図。](../../media/e69de059-3040-45ab-9379-1932f9fbb37f.png)
   
 ## <a name="create-a-basic-file-share"></a>基本的なファイル共有を作成する
 
-このセクションでは、サーバー ファイル共有の基本的なWindowsについて説明します。 サーバー ファイルWindows共有の基本機能は、サーバー ファイル共有Skype for Business Server。 ただし、高可用性を明示的に提供するわけではありません。 高可用性環境では、分散ファイル システム (DFS) ファイル共有をお勧めします。 高可用性ファイル共有と DFS の詳細については、「Plan [for high availability and disaster recovery in](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)Skype for Business Server」 を参照してください。
+このセクションでは、サーバー ファイル共有の基本的なWindowsについて説明します。 サーバー ファイルWindows共有の基本機能は、サーバー ファイル共有Skype for Business Server。 ただし、高可用性を明示的に提供するわけではありません。 高可用性環境では、分散ファイル システム (DFS) ファイル共有をお勧めします。 高可用性ファイル共有と DFS の詳細については、「Plan [for high availability and disaster recovery in](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) Skype for Business Server。
   
 > [!NOTE]
-> Windows Server 2012R2 は、Storage サーバー プラットフォームを使用して、エリア ネットワーク (SAN) のようなファイル共有Windowsしました。 従来の SAN ベースのアプライアンスと比較すると、Windows Server 2012 R2 ストレージ ソリューションは、パフォーマンスへの影響を最小限に抑え、コストを半分に削減できます。 R2 のファイル共有オプションの詳細Windows Server 2012、ダウンロード可能なホワイト ペーパー [「R2 Windows Server 2012」をStorage。](https://download.microsoft.com/download/9/4/A/94A15682-02D6-47AD-B209-79D6E2758A24/Windows_Server_2012_R2_Storage_White_Paper.pdf) 
+> Windows Server 2012 R2 は、Storage Server プラットフォームを使用して、エリア ネットワーク (SAN) のようなファイル共有ソリューションを提供Windowsしました。 従来の SAN ベースのアプライアンスと比較すると、Windows Server 2012 R2 ストレージ ソリューションは、パフォーマンスへの影響を最小限に抑え、コストを半分に削減できます。 R2 のファイル共有オプションの詳細Windows Server 2012、R2 のダウンロード可能なWindows Server 2012[をStorage](https://download.microsoft.com/download/9/4/A/94A15682-02D6-47AD-B209-79D6E2758A24/Windows_Server_2012_R2_Storage_White_Paper.pdf)。 
   
 ファイル共有を作成するためのビデオ **の手順をご覧ください**。
   
@@ -51,13 +51,13 @@ Skype for Business Serverトポロジ全体のコンピューターがファイ�
     
 3. [共有] **タブを選択** し、[高度な共有 **] をクリックします**。
     
-4. [この **フォルダーを共有する] をクリックします**。
+4. [この **フォルダーの共有] をクリックします**。
     
 5. **[アクセス許可]** をクリックします。
     
-6. ファイル共有を **ホストするサーバー** のローカル Administrators グループを追加し、[許可 **:** フル コントロール]、[変更]、および [読み取り] 権限を付与し **、[OK] をクリックします**。
+6. ファイル共有を **ホストしているサーバーのローカル Administrators** グループを追加し、 **許可:** フル コントロール、変更、および読み取り権限を付与し、[OK] をクリック **します**。
     
-7. もう一 **度 [OK]** をクリックし、ネットワーク パスをメモします。
+7. もう一 **度 [OK** ] をクリックし、ネットワーク パスをメモします。
     
 8. [完了 **] を** クリックしてウィザードを閉じます。
     

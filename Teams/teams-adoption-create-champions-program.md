@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams のチャンピオン プログラムを作成する
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 10/30/2018
 audience: Admin
@@ -18,19 +18,19 @@ ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 組織の認識、導入、および教育を促進することで、Teamsを促進するためにチャンピオンのチームをトレーニングする方法について学習します。
+description: 組織の認識、導入、および教育を促進することで、Teamsのチームをトレーニングし、導入を促進する方法について学習します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 989525f627a4d8c6ef18f1e17cab9446d85a0a88
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: 446b0e4ba0cdc549623ac0411a549e481288ed3b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62190888"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387475"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Microsoft Teams のチャンピオン プログラムを作成する
 
-チャンピオンは、組織の認識、導入、教育を推進するために不可欠です。 チャンピオンは、主に新しいテクノロジ (特に Teams) に関心を持つ他のユーザーを支援し、他の従業員がベスト プラクティスに従って使用するのを支援することで、主に動機付けされた人物です。 組織の規模によっては、その人の役割の正式な一部としてこれを持つ場合がありますが、多くの場合、従業員は他のユーザーを支援する主な動機のために、この役割を自分で担います。
+チャンピオンは、組織の認識、導入、教育を推進するために不可欠です。 チャンピオンとは、新しいテクノロジ (特に Teams) に関心を持つ他のユーザーを支援し、他の従業員がベスト プラクティスに従って使用するのを支援することで、主に動機付けられている人物です。 組織の規模によっては、その人の役割の正式な一部としてこれを持つ場合がありますが、多くの場合、従業員は他のユーザーを支援する主な動機のために、この役割を自分で担います。
 
 チャンピオンは、次に示すように、さまざまな方法で全体的な発売計画に適合します。
 
@@ -45,7 +45,7 @@ ms.locfileid: "62190888"
 
 チャンピオンズ [プログラム ガイドを使用](https://aka.ms/M365Champions) して、組織でこのプログラムをビルドします。 このコミュニティのベスト プラクティスは次のとおりです。
 
-- チャンピオン ズ プログラム [に参加します](https://aka.ms/O365Champions)。 少なくともチャンピオン プログラムのリーダー (およびすべての会社のチャンピオン) がプログラムのメンバーである必要があります。 この無料の毎月のコミュニティ呼び出しは、独自のプログラムを実行し、Teams や他の Microsoft 365 や Office 365 サービスを利用するために役立つ情報を提供します。 プログラム資料は、独自の内部プログラムで再利用できます。
+- チャンピオンズ [プログラムに参加します](https://aka.ms/O365Champions)。 少なくともチャンピオン プログラムのリーダー (およびすべての会社のチャンピオン) がプログラムのメンバーである必要があります。 この無料の毎月のコミュニティ呼び出しは、独自のプログラムを実行し、Teams や他の Microsoft 365 サービスやサービスを利用Office 365情報を提供します。 プログラム資料は、独自の内部プログラムで再利用できます。
 
 - Teamwork Champions チームを使用する: チャンピオンは、セットアップしたチームを、すべてのプログラムのコミュニケーション、フィードバック、およびリソースの検索に使用する必要があります。  これを行う際には、製品とその利点に慣れ親しむ必要があります。
 

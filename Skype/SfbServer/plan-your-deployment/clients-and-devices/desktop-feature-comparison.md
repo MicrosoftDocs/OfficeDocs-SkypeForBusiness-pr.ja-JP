@@ -1,7 +1,7 @@
 ---
 title: 2015 年のデスクトップ クライアント機能Skype for Business Server比較
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: '概要: Skype for Business Server 2015 または Skype for Businessオンライン管理者は、これらのテーブルを使用して、どのクライアントでサポートされている機能を理解できます。'
-ms.openlocfilehash: 6b9aa102e7bde4a991295694b0a0d9d92985dbee
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1b855cca4830473cd0cb9c4198784cec93868fc7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841099"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388035"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>2015 年のデスクトップ クライアント機能Skype for Business Server比較
 
@@ -30,20 +30,20 @@ ms.locfileid: "60841099"
   
  Skype for Business を展開またはアップグレードする前に、組織で既に使用されているクライアントを確認してください。 これらのクライアントに対する機能サポートの影響を理解するには、以下の表を参照してください。 これは、ユーザーへの変更の伝達、ロールアウト プロセスのペース調整、および最新のクライアントへのアップグレードの利点の完全な理解に役立ちます。
   
-Skype for Business Server 2015 で利用できる一部の機能は、Skype for Business Online では利用できません。詳細については、「Online または[Hybrid](desktop-feature-comparison.md#Online-Hybrid)ユーザー アカウントの制限」を参照してください。 Skype for Business Online 管理者は、利用可能なさまざまなプランについて、「[Skype for Business Online サービスの説明](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)」を参照することをお勧めします。
+Skype for Business Server 2015 で利用できる一部の機能は、Skype for Business Online では利用できません。詳細については、「Online または [Hybrid](desktop-feature-comparison.md#Online-Hybrid) ユーザー アカウントの制限」を参照してください。 Skype for Business Online 管理者は、利用可能なさまざまなプランについて、「[Skype for Business Online サービスの説明](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)」を参照することをお勧めします。
 
-2019 年のクライアント[サポートについては、「Skype for Business 2019](../../../SfBServer2019/plan/feature-comparison.md)のデスクトップ クライアント機能Skype for Business Server参照してください。
+2019 年のクライアント サポートについては[、「Skype for Business 2019](../../../SfBServer2019/plan/feature-comparison.md) のデスクトップ クライアント機能Skype for Business Server参照してください。
   
-次の表は、2015 年または 2015 年にオンラインで動作するSkype for Business Server機能Skype for Business示しています。 また、スマートフォンとタブレット クライアント機能の比較については、「モバイル[クライアント機能](mobile-feature-comparison.md)Skype for Business比較」を参照してください。 組織が購入するクライアント アクセス ライセンスまたはユーザー サブスクリプション ライセンスは、ユーザーが利用できる機能にも影響します。 Full クライアントまたは Basic クライアントをユーザーに展開するかどうかは、組織が購入するライセンスまたは計画によって異なります。 詳細については [、「ライセンス ガイド」](https://products.office.com/skype-for-business/it-pros) を参照してください。
+次の表は、2015 年または 2015 年にオンラインで動作するSkype for Business Server機能Skype for Business示しています。 また、スマートフォンとタブレット クライアント機能の比較については、「モバイル [クライアントSkype for Business](mobile-feature-comparison.md)の比較」を参照してください。 組織が購入するクライアント アクセス ライセンスまたはユーザー サブスクリプション ライセンスは、ユーザーが利用できる機能にも影響します。 Full クライアントまたは Basic クライアントをユーザーに展開するかどうかは、組織が購入するライセンスまたは計画によって異なります。 詳細については [、「ライセンス ガイド」](https://products.office.com/skype-for-business/it-pros) を参照してください。
   
 > [!IMPORTANT]
-> Skype for Business Server 2015 および Skype for Business Online では、以前にリリースされた Lync 2013、Lync 2010、Lync 2010 Mobile、Lync 電話 Edition、Lync 2010 Attendant のクライアントがサポートされています。 これらのクライアントを他のサーバーと一緒に使用する場合の詳細については [、「Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-desktop-client-comparison-tables) のクライアント比較テーブル」および [「Lync Server 2010](/previous-versions/office/skype-server-2010/gg425836(v=ocs.14))のクライアント比較テーブル」を参照してください。
+> Skype for Business Server 2015 および Skype for Business Online では、以前にリリースされた Lync 2013、Lync 2010、Lync 2010 Mobile、Lync 電話 Edition、Lync 2010 Attendant のクライアントがサポートされています。 これらのクライアントを他のサーバーと一緒に使用する場合の詳細については、「 [Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-desktop-client-comparison-tables) のクライアント比較テーブル」および「 [Lync Server 2010 のクライアント](/previous-versions/office/skype-server-2010/gg425836(v=ocs.14))比較テーブル」を参照してください。
 
 > [!NOTE]
 > **Lync 2010 Attendant** クライアントは、オンラインではSkype for Businessされません。
 
 > [!NOTE]
-> このSkype for Business Web アプリブラウザー クライアントと会議SkypeアプリWindows 10は、会議のサポート[のみを提供します](desktop-feature-comparison.md#BKMK_Conferencing)。 これらのクライアント [の詳細については、「Plan for Meetings クライアント (Web App および Meetings App)」](meetings-clients.md) を参照してください。
+> ブラウザー Skype for Business Web アプリおよび会議アプリ SkypeアプリWindows 10は、会議のサポート[のみを提供します](desktop-feature-comparison.md#BKMK_Conferencing)。 これらのクライアント [の詳細については、「Plan for Meetings クライアント (Web App および Meetings App)](meetings-clients.md) 」を参照してください。
   
 ## <a name="enhanced-presence-support"></a>拡張プレゼンスのサポート
 
@@ -118,7 +118,7 @@ Skype for Business Server 2015 で利用できる一部の機能は、Skype for 
 > Skype for Businessスタンドアロン プラン 1 では、会議Skype for Business機能を使用できません。  プラン 1 は廃止 [されます](../../../SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement.md)。
 
 Skype対 Skype セッションでは、Skype for Business Online Plan 1 ユーザーは、共有機能にアクセスできるユーザーに招待されている場合、デスクトップ共有とアプリケーション共有に参加できます。
-詳細については、「オンライン サービスの[Skype for Business」を参照してください](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)。
+詳細については、「オンライン サービスのSkype for Business[」を参照してください](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)。
   
 |機能/機能 | Skype for Business 2016 クライアント | Mac 版 Skype for Business | Skype for Business の Web アプリ | Skype for Business 2015 クライアント | Lync 2013 クライアント | Lync Windows ストア アプリ | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Communicator for Mac 2011 | Lync for Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -141,7 +141,7 @@ Skype対 Skype セッションでは、Skype for Business Online Plan 1 ユー�
 |投票の実行 |&#x2714;||&#x2714;|&#x2714;|&#x2714;||&#x2714;|||||
 |アップロード共有するファイルを作成する |&#x2714;||&#x2714;|&#x2714;|&#x2714;||&#x2714;||||&#x2714;|
 |会議または電話会議の予約 |OutlookまたはSkype for Business Web スケジューラー |OutlookまたはSkype for Business Web スケジューラー |Skype for Business Web スケジューラー |OutlookまたはSkype for Business Web スケジューラー |Outlook Lync Web スケジューラ |Outlook Lync Web スケジューラ |Outlook ||||Outlook |
-|Q &amp; A マネージャー |&#x2714;|||||||||||
+|QA&amp; マネージャー |&#x2714;|||||||||||
 |出席者ビデオを無効にする|&#x2714;||&#x2714;|||||||||
  | |会議 IM を無効にする  |&#x2714;||&#x2714;|&#x2714;|&#x2714;|||||||
 |対象ユーザーをミュートする   |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||||||&#x2714;|
@@ -165,7 +165,7 @@ Skype対 Skype セッションでは、Skype for Business Online Plan 1 ユー�
 この表では、音声サービスのサポートに関連する機能について説明します。
   
 > [!NOTE]
-> Skype for Business音声 (テレフォニー) 機能は、オンライン サブスクリプション プランSkype for Businessに制限されます。 詳細については、「オンライン サービスの[Skype for Business」を参照してください](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)。
+> Skype for Business (テレフォニー) 機能は、オンライン サブスクリプション プランSkype for Businessに制限されます。 詳細については、「オンライン サービスのSkype for Business[」を参照してください](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)。
   
 | 機能/機能 | Skype for Business 2015 または 2016 クライアント | Mac 版 Skype for Business | Lync 2013 クライアント | Lync Windows ストア アプリ | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Communicator for Mac 2011 | Lync for Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -226,7 +226,7 @@ Skype対 Skype セッションでは、Skype for Business Online Plan 1 ユー�
 
 次の表では、最新の認証をサポートする必要がある機能について説明します。
   
-モダン認証では、モダン認証でサポートされるトポロジSkype for Business[トポロジも必要です](../../plan-your-deployment/modern-authentication/topologies-supported.md)。
+また、モダン認証では、「モダン認証でサポートされているトポロジSkype for Business[トポロジ」で説明されているトポロジも必要です](../../plan-your-deployment/modern-authentication/topologies-supported.md)。
 
 | 機能/機能 | Skype for Business 2015 または 2016 クライアント | Mac 版 Skype for Business | Lync 2013 クライアント | Lync Windows ストア アプリ | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Communicator for Mac 2011 | Lync for Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|

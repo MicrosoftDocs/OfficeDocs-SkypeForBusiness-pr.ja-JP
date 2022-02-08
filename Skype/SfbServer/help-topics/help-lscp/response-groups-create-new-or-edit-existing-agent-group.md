@@ -1,8 +1,8 @@
 ---
 title: 応答グループ 新規または既存のエージェント グループの編集を作成する
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
 description: エージェント グループでは、応答グループへの通話に応答できるユーザー (エージェントと呼ばれます) およびグループ内のすべてのエージェントに適用される設定が定義されています。
-ms.openlocfilehash: 0c0342d59896176f8d46a74cd728c301a98ff4f6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5147a149e54326aa8d84a5c690e24082200d9419
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859094"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388465"
 ---
 # <a name="response-groups-create-new-or-edit-existing-agent-group"></a>応答グループ: エージェント グループの新規作成または既存エージェント グループの編集
 
@@ -56,7 +56,7 @@ ms.locfileid: "60859094"
 
 - **エージェント** 次のいずれかの方法で、応答グループのエージェントになるユーザーを選択します。
 
-  - [**既存のメール配布リストを使用して**、既存の配布リストを使用Exchange選択します。 配布リストの電子メール アドレスを [**配布リストのアドレス**] に入力します。
+  - [**既存の電子メール配布リストを使用** して、既存の配布リストを使用Exchange選択します。 配布リストの電子メール アドレスを [**配布リストのアドレス**] に入力します。
 
     > [!NOTE]
     > エージェント グループに対して選択できる配布リストは 1 つだけです。配布リストに入れ子になった配布リストが含まれる場合、入れ子となった配布リストはエージェント グループに含まれません。
@@ -65,10 +65,10 @@ ms.locfileid: "60859094"
     > 配布リスト内でのエージェントの順序により、ラウンド ロビンおよびシリアルのルーティングでエージェントが通話を受ける順序が決まります。
 
     > [!NOTE]
-    > 非表示のメンバーシップや非表示のリストは、応答グループの管理者またはユーザーに表示される場合があります。 詳細については、「Create or modify an agent group in Skype for Business [2015」を参照](../../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md)してください。
+    > 非表示のメンバーシップや非表示のリストは、応答グループの管理者またはユーザーに表示される場合があります。 詳細については、「[Create or modify an agent group in Skype for Business 2015」を参照](../../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md)してください。
 
   - 応答グループのエージェントとして割り当てるユーザーを選択する場合は、[**エージェントのカスタム グループを定義する**] を選択します。リストにエージェントを追加するには、[**選択**] をクリックします。選択されているエージェントをリストから削除するには、[**削除**] をクリックします。
 
     上下矢印を使用すると、選択したエージェントがエージェント リスト内で上下に移動します。リスト内でのエージェントの順序により、ラウンド ロビンおよびシリアルのルーティングでエージェントが通話を受ける順序が決まります。
 
-応答グループの機能の詳細については、「計画」のドキュメントの「Skype for Business Server [2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md)の応答グループ アプリケーションの計画」を参照してください。 エージェント グループの使用の詳細については、「操作」のドキュメントの「[Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups)」を参照してください。
+応答グループの機能の詳細については、「計画」のドキュメントの「Skype for Business Server [2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) の応答グループ アプリケーションの計画」を参照してください。 エージェント グループの使用の詳細については、「操作」のドキュメントの「[Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups)」を参照してください。

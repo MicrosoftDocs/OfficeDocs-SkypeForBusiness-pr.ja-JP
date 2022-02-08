@@ -1,8 +1,8 @@
 ---
 title: コントロール パネル - 更新されたユーザー検索
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 5/21/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 description: 検索クエリの結果を使用して、検索クエリのユーザーを構成Skype for Business Server。 ユーザーは、表示名、名、姓、セキュリティ アカウント マネージャー (SAM) のアカウント名、SIP アドレス、または回線 URI (Uniform Resource Identifier) で検索できます。 Lync Server コントロール パネルまたは Active Directory ユーザーとコンピューター スナップインを使用してユーザーを検索することもできます。
-ms.openlocfilehash: 8ebb4c7d1c8288d3dfaef689422396130490aca0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 40a1ced2933abe628c7d1e56d9a1a7f66466769e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849040"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388495"
 ---
 # <a name="control-panel---updated-user-search"></a>コントロール パネル - 更新: ユーザー検索
 
@@ -46,7 +46,7 @@ ms.locfileid: "60849040"
 
 - [ユーザーのテレフォニーの構成](/previous-versions/office/lync-server-2013/lync-server-2013-configure-telephony-for-a-user)
 
-コントロール パネルを使用して実行できるさまざまな手順の詳細については、「Skype for Business Server [2015」](../../manage/manage.md)を参照Skype for Business Serverしてください。
+コントロール パネルを使用して実行できるさまざまな手順の詳細については、「Skype for Business Server [2015](../../manage/manage.md)」を参照Skype for Business Serverしてください。
 
 ## <a name="ui-reference"></a>UI リファレンス
 
@@ -76,7 +76,7 @@ ms.locfileid: "60849040"
 
 ### <a name="search-results-menus"></a>検索結果メニュー
 
-- **ユーザーを有効にする**[ユーザー: 新しい [Lync Server ユーザー]](users-new-lync-server-user.md)ダイアログを開き、新しいユーザーをユーザーに追加Skype for Business Server。
+- **ユーザーを有効にする**[ユーザー: 新しい [Lync Server ユーザー] ダイアログを](users-new-lync-server-user.md)開き、新しいユーザーをユーザーに追加Skype for Business Server。
 
     新規連絡先を追加するには、下矢印をクリックして [**連絡先を有効にする**] を選択し、[[Users: New Contact Objects](users-new-contact-objects.md)] ダイアログを開きます。
 
@@ -92,7 +92,7 @@ ms.locfileid: "60849040"
 
   - **PIN の状態を表示する** [ユーザー [: PIN 状態の表示] ダイアログボックスが](users-view-pin-status.md) 開き、選択したユーザーの PIN データが表示されます。
 
-  - **PIN の設定** [PIN の [設定]](set-pin.md) ダイアログを開き、選択したユーザーの PIN を設定できます。
+  - **PIN の設定** [ [PIN の設定]](set-pin.md) ダイアログを開き、選択したユーザーの PIN を設定できます。
 
   - **PIN のロック** ユーザーの PIN をロックします。
 

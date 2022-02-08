@@ -1,7 +1,7 @@
 ---
 title: チュニジアの空き時間情報
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 次に、Microsoft 365とOffice 365、Skype for Business Microsoft Teamsサービスを示します。
-ms.openlocfilehash: 655b18dda6e64b2b8973fcfeb15f18897761bd96
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+description: 次に、Microsoft 365とOffice 365 Skype for Business Microsoft Teamsサービスを示します。
+ms.openlocfilehash: e954b50e18bf22baef6c2a66256af43af4e3b91c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62192038"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389749"
 ---
 # <a name="availability-in-tunisia"></a>チュニジアの空き時間情報
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-次に、Microsoft 365とOffice 365、Skype for Business Microsoft Teamsサービスを示します。
+次に、Microsoft 365とOffice 365 Skype for Business Microsoft Teamsサービスを示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -72,7 +72,7 @@ ms.locfileid: "62192038"
 |有料電話番号は使用できますか?  <br/> |はい  <br/> |
 |無料電話番号は利用できますか?  <br/> |いいえ  <br/> |
    
- 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「Skype for Business および Microsoft Teams のサービス電話番号を取得する」を[参照してください](../getting-service-phone-numbers.md)。
+ 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「Skype for Business および Microsoft Teams のサービス電話番号を取得する」[を参照](../getting-service-phone-numbers.md)してください。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 
@@ -82,7 +82,7 @@ ms.locfileid: "62192038"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

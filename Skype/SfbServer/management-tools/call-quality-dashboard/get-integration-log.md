@@ -1,8 +1,8 @@
 ---
 title: 統合ログの取得
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8856f6bc-5460-4f35-acf2-f7662f01579b
 description: '概要: 呼び出し品質ダッシュボードのデータ API の一部である統合ログの取得操作について説明します。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。'
-ms.openlocfilehash: cb995e4b7d955514c64cfab772b19e100669d078
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b82ecffd5b39df6e149787ec7b3265f3e8176376
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834165"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388075"
 ---
 # <a name="get-integration-log"></a>統合ログの取得
  
@@ -35,7 +35,7 @@ ms.locfileid: "60834165"
 
 |メソッド|**要求 URI**|**HTTP バージョン**|
 |:-----|:-----|:-----|
-|GET  <br/> |https:// \<portal\> /QoEDataService/IntegrationLog  <br/> |HTTP/1.1  <br/> |
+|GET  <br/> |\<portal\>https:///QoEDataService/IntegrationLog  <br/> |HTTP/1.1  <br/> |
    
  **URI パラメーター** - なし。
   

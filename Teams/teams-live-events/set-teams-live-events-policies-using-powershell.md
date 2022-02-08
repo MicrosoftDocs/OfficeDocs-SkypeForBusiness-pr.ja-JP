@@ -1,7 +1,7 @@
 ---
 title: PowerShell を使用してライブ イベント ポリシーを設定する
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 07/10/2019
 ms.topic: article
@@ -18,12 +18,12 @@ description: PowerShell を使用して Teams でポリシーを設定し、組�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cda9da872d8464064c137713e8eb16ceede7941e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8a834cfd85cdf9f4839b9351b16c1a2e1ca43e9c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851731"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387425"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>PowerShell を使用して Microsoft Teams でのライブ イベント ポリシーを設定する
 
@@ -37,7 +37,7 @@ ms.locfileid: "60851731"
 以下にいくつかの例を示します。
 
 > [!NOTE]
-> これらのコマンドレットを実行する前に、オンライン PowerShell Skype for Business接続する必要があります。 詳細については、「Manage Skype for Business Online with Microsoft 365 または Office 365 [PowerShell 」を参照してください](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
+> これらのコマンドレットを実行する前に、オンライン PowerShell Skype for Businessする必要があります。 詳細については、「[PowerShell を使用して Skype for Business Online を管理する」Microsoft 365またはOffice 365参照してください](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
 
 ## <a name="allow-users-to-schedule-live-events"></a>ユーザーがライブ イベントをスケジュールできるようにする 
 
