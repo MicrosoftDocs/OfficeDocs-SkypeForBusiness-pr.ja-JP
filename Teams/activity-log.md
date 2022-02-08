@@ -1,7 +1,7 @@
 ---
 title: ポリシーの割り当てを管理センターのアクティビティ ログMicrosoft Teams表示する
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: jastark
 manager: serdars
 ms.topic: article
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c48e6b8ea08419b96384be5e19ba1a7d5275dea
-ms.sourcegitcommit: 6da1531dda6a0a3eecdca40e682783cc81c0d3e0
+ms.openlocfilehash: ed7903e0018d30882fa27c63941b5d03a27fdaf3
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60785070"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393529"
 ---
 # <a name="view-your-policy-assignments-in-the-activity-log"></a>アクティビティ ログでポリシーの割り当てを表示する
 
@@ -35,13 +35,13 @@ Microsoft Teams 管理センターでユーザーにポリシーを割り当て�
 
 アクティビティ ログでポリシーの割り当てを表示するには:
 
-1. 管理センターの左側のナビゲーションMicrosoft Teams 、[ホーム] に移動し、[アクティビティ ログ]で [詳細の表示]**を選択します**。
-2. すべてのポリシー割り当てを表示したり、状態で一覧をフィルター処理して、[開始していない]、[進行中]、または [完了] の割り当てのみを **表示することができます**。 各課題に関する次の情報が表示されます。
+1. 管理センターの左側のMicrosoft Teams、[ホーム] に移動し、[アクティビティ ログ] の [詳細の **表示]** **を選択します**。
+2. すべてのポリシー割り当てを表示したり、状態で一覧をフィルター処理して、[開始していない]、または [進行中]、または [完了] の割り当てのみを **表示することができます**。 各課題に関する次の情報が表示されます。
     - **[** 名前]: ポリシー割り当ての名前。 リンクをクリックすると、詳細が表示されます。 これには、ポリシーが割り当てられたユーザーの数と、完了した割り当て、進行中、開始されていない割り当ての数が含まれます。 バッチ内のユーザーの一覧と、各ユーザーの状態と結果も表示されます。 以下は、実行例です。
 
         ![のスクリーンショット。](media/activity-log-policy-assignment-detail.png)
 
-    - **送信** 済み: ポリシーの割り当てが送信された日付と時刻。
+    - **[送信** 済み]: ポリシーの割り当てが送信された日付と時刻。
     - **完了時刻**: ポリシーの割り当てが完了した日付と時刻。
     - **影響:** バッチ内のユーザーの数。
     - **全体の状態**: ポリシー割り当ての状態。

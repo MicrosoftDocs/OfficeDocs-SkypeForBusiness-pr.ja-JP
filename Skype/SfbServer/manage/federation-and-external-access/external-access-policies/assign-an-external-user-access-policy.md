@@ -5,8 +5,8 @@ ms:assetid: 736fcaad-9f95-4896-b767-e199d86a00a4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398551(v=OCS.15)
 ms:contentKeyID: 48184483
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: ユーザーが Skype for Business Server に対して有効になっている場合は、特定のユーザーに適切なポリシーを適用して、Skype for Business Server コントロール パネルで SIP フェデレーション、リモート ユーザー アクセス、およびパブリック インスタント メッセージング (IM) 接続を構成できます。
-ms.openlocfilehash: 400c49dfc7d0c893af98a8da7bc53894a39d6a9a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7430cbe015802d377e4d0ca2f1159006a9951a4f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843920"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395249"
 ---
 # <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>有効なユーザーに外部ユーザー アクセス ポリシー Skype for Business割り当てる
 
@@ -28,7 +28,7 @@ ms.locfileid: "60843920"
 
 
 > [!NOTE]  
-> 外部ユーザー アクセスをサポートするには、サポートする各種類の外部ユーザー アクセスのサポートを有効にし、適切なポリシーとその他の使用制御オプションを構成する必要があります。 詳細については、「フェデレーションと[外部アクセスの管理」を参照Skype for Business Server。](../managing-federation-and-external-access.md)
+> 外部ユーザー アクセスをサポートするには、サポートする各種類の外部ユーザー アクセスのサポートを有効にし、適切なポリシーとその他の使用制御オプションを構成する必要があります。 詳細については、「フェデレーションと[外部アクセスの管理」](../managing-federation-and-external-access.md)を参照Skype for Business Server。
 
 
 このトピックの手順を使用して、あらかじめ作成した外部ユーザー アクセス ポリシーを、1 つまたは複数のユーザー アカウントに適用します。
@@ -44,10 +44,10 @@ ms.locfileid: "60843920"
 
 4.  検索結果一覧の表でユーザー アカウントをクリックし、[**編集**] をクリックして、[**詳細の表示**] をクリックします。
 
-5.  [**外部アクセス Skype for Business Serverユーザー** の編集]**で、** 適用するユーザー ポリシーを選択します。
+5.  [**外部アクセス Skype for Business Serverユーザー** の編集] **で、** 適用するユーザー ポリシーを選択します。
      
 > [!NOTE]  
-> この **\<Automatic>** 設定は、既定のサーバーまたはグローバル ポリシー設定を適用します。
+> この設定 **\<Automatic>** は、既定のサーバーまたはグローバル ポリシー設定を適用します。
 
 
 ## <a name="assigning-per-user-external-access-policies-by-using-windows-powershell-cmdlets"></a>コマンドレットをPer-Userして外部アクセス ポリシーを割り当Windows PowerShellする
@@ -61,7 +61,7 @@ ms.locfileid: "60843920"
 
 ## <a name="to-assign-a-per-user-external-access-policy-to-multiple-users"></a>ユーザーごとの外部アクセス ポリシーを複数のユーザーに割り当てるには
 
-  - 次のコマンドは、ユーザーごとの外部アクセス ポリシー USAExternalAccessPolicy を、Active Directory の UnitedStates OU にアカウントを持っているすべてのユーザーに割り当てます。 このコマンドで使用される OU パラメーターの詳細については [、Get-CsUser](/powershell/module/skype/Get-CsUser) コマンドレットのドキュメントを参照してください。<br/><br/>Get-CsUser -OU "ou=米国,dc=litwareinc,dc=com" |Grant-CsExternalAccessPolicy -PolicyName "USAExternalAccessPolicy"
+  - 次のコマンドは、ユーザーごとの外部アクセス ポリシー USAExternalAccessPolicy を、Active Directory の UnitedStates OU にアカウントを持っているすべてのユーザーに割り当てます。 このコマンドで使用される OU パラメーターの詳細については、 [Get-CsUser](/powershell/module/skype/Get-CsUser) コマンドレットのドキュメントを参照してください。<br/><br/>Get-CsUser -OU "ou=米国,dc=litwareinc,dc=com" |Grant-CsExternalAccessPolicy -PolicyName "USAExternalAccessPolicy"
 
 
 ## <a name="to-unassign-a-per-user-external-access-policy"></a>ユーザーごとの外部アクセス ポリシーの割り当てを解除するには
@@ -69,4 +69,4 @@ ms.locfileid: "60843920"
   - 次のコマンドは、以前に Ken Myer に割り当てたユーザーごとの外部アクセス ポリシーのすべての割り当てを解除します。ユーザーごとのポリシーの割り当てを解除された後の Ken Myer は、グローバル ポリシーまたは存在する場合はローカル サイト ポリシーを使用して、自動的に管理されます。サイト ポリシーの方がグローバル ポリシーより優先されます。<br/><br/>Grant-CsExternalAccessPolicy -Identity "Ken Myer" -PolicyName $Null
 
 
-詳細については [、Grant-CsExternalAccessPolicy](/powershell/module/skype/Grant-CsExternalAccessPolicy) コマンドレットのヘルプ トピックを参照してください。
+詳細については、 [Grant-CsExternalAccessPolicy](/powershell/module/skype/Grant-CsExternalAccessPolicy) コマンドレットのヘルプ トピックを参照してください。

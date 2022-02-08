@@ -1,8 +1,8 @@
 ---
 title: ネットワーク地域ルートの管理
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: ネットワーク地域ルートでは、ネットワーク地域のペア間のルートを定義します。 通話受付管理展開のネットワーク地域の各ペアには、ネットワーク地域間ルートが必要です。
-ms.openlocfilehash: 18bee9a28eed10affae1b0dab855c379709b37bb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a5808a7b3ffdfb860723bf0f84dc32239a9b08ae
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864754"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395239"
 ---
 # <a name="managing-network-region-routes-in-skype-for-business-server"></a>Skype for Business Server でのネットワーク領域ルートの管理
 
@@ -84,9 +84,9 @@ ms.locfileid: "60864754"
     > [!NOTE]  
     > この値は、展開内で一意Skype for Business Server必要があります。
 
-6.  [ネットワーク **領域 \# 1]** ドロップダウン リストから、このルートで接続する 2 つの領域のいずれかを選択します。
+6.  [ネットワーク **領域 \#1]** ドロップダウン リストから、このルートで接続する 2 つの領域のいずれかを選択します。
 
-7.  [ネットワーク **領域 \# 2]** ドロップダウン リストから、このルートの他の領域を選択します。 この領域は、ネットワーク領域 1 で選択した地域とは異なる \# 必要があります。
+7.  [ネットワーク **領域 2] \#** ドロップダウン リストから、このルートの他の領域を選択します。 この領域は、ネットワーク領域 1 で選択した地域とは異なる必要 \#があります。
 
 8.  [**ネットワーク地域リンク**] リスト ボックスを使用して、地域リンクをルートに追加します。 [**追加**] ボタンをクリックし、[**地域リンク**] ページを表示します。 このルートに追加する地域リンクをクリックして、[**OK**] をクリックします。
     

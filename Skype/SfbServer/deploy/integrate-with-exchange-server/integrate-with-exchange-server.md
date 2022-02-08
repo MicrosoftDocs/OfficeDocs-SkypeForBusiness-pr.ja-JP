@@ -1,8 +1,8 @@
 ---
 title: アプリケーションSkype for Business Server統合Exchange Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -14,24 +14,24 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 795dc1c6-524f-4012-8b66-103b55198044
 description: '概要: 2016 年または 2016 年Exchange Server 2013 年およびExchange Serverの統合手順をSkype for Business Server。'
-ms.openlocfilehash: d93c56278948c01ae47a19128896031de027d95a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a1f7f1c49d948512d3901a2775aed409d19c31fd
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838299"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397406"
 ---
 # <a name="integrate-skype-for-business-server-with-exchange-server"></a>アプリケーションSkype for Business Server統合Exchange Server
 
 **概要:** 2013 以降および 2013 以降Exchange Serverの統合手順を確認Skype for Business Server。
 
-Exchange Server 2013 以降で、Skype for Business Server互換性があり、統合も可能です。 たとえば、Microsoft Skype for Businessでユーザープレゼンス情報を報告Outlook。同様に、Skype for Businessの Outlook 予定表にアクセスし、ユーザーに会議がスケジュールされているのを確認し、会議中にユーザーのプレゼンスを [ビジー] として表示することもできます。 2 つの製品を一緒Exchange Server (またはその逆) に実行するために、Exchange Server Skype for Business Serverを実行する必要はありません。ただし、2 つの製品は互いにユーザー エクスペリエンスを向上します。
+Exchange Server 2013 以降で、Skype for Business Server互換性があり、統合も可能です。 たとえば、Skype for Business ユーザープレゼンス情報は Microsoft Outlook で報告できます。同様に、Skype for Business はユーザーの Outlook 予定表にアクセスし、ユーザーが会議をスケジュールしているのを確認し、会議中にユーザーのプレゼンスをビジーとして表示できます。 2 つの製品を一緒Exchange Server (またはその逆) に実行するために、Exchange Server Skype for Business Serverを実行する必要はありません。ただし、2 つの製品は互いにユーザー エクスペリエンスを向上します。
 
-このドキュメントでは、Skype for Business Server と Exchange Server 2016 または Exchange Server 2013 の統合に関する情報を提供しますが、これら 2 つの製品の初期セットアップと構成は既に行っている前提です。 展開の詳細については、「Skype for Business Server Tech [Center」をSkype for Business Serverしてください](../../../Hub/index.yml)。 アプリケーションの展開の詳細についてはExchange Serverバージョンの展開ドキュメントを参照Exchange。
+このドキュメントでは、Skype for Business Server と Exchange Server 2016 または Exchange Server 2013 の統合に関する情報を提供しますが、これら 2 つの製品の初期セットアップと構成は既に行っている前提です。 展開の詳細については、「Skype for Business Serverセンター[」をSkype for Business Serverしてください](../../../Hub/index.yml)。 アプリケーションの展開の詳細についてはExchange Serverバージョンの展開ドキュメントを参照Exchange。
 
-オンプレミスインストールを Skype for Business Server Microsoft Exchange Online と統合する場合は、「Configure integration between [on-premises](outlook-web-app.md)Skype for Business Server and Outlook Web App」を参照してください。
+オンプレミスインストールを Skype for Business Server Microsoft Exchange Online と統合する場合は、「Configure integration between [on-premises](outlook-web-app.md) Skype for Business Server and Outlook Web App」を参照してください。
 
-オンプレミスとオンライン Skype for BusinessをExchange Serverする場合は[、「Configure OAuth between Skype for Business Online](oauth-with-online-and-on-premises.md)とオンプレミスExchangeを参照してください。
+オンラインとオンプレミスの Skype for BusinessをExchange Serverする場合は、「[Configure OAuth between Skype for Business Online とオンプレミスExchange」を参照してください](oauth-with-online-and-on-premises.md)。
 
 ## <a name="in-this-section"></a>このセクションの内容
 

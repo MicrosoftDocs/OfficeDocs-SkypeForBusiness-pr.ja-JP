@@ -1,8 +1,8 @@
 ---
 title: 場所のポリシー
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 5530cf17-4520-40b5-ba70-c62692685048
 description: 場所ポリシーは、拡張 9-1-1 (E9-1-1) を有効にするかどうか、E9-1-1 の使用方法、およびユーザーと連絡先での場所情報の使用方法を指定します。
-ms.openlocfilehash: cfdff82c16aa4a9430bf8923cddd28bf26dad85a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a7173a4b7598d3645aeb9ddd02f7dcbaad88f585
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840299"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393999"
 ---
 # <a name="location-policy"></a>場所ポリシー
 
@@ -35,7 +35,7 @@ ms.locfileid: "60840299"
 - **ユーザー ポリシー (オプション):** 1 つ以上のユーザーの場所ポリシーを作成できます。それぞれのポリシーは、特定のユーザーまたはユーザー グループに適用されます。 ユーザー ポリシーは、グローバル ポリシーとサイト ポリシーを上書きします。
 
 > [!NOTE]
-> 場所ポリシーは、サブネットのグループであるネットワーク サイトに割り当てることもできます。 ネットワーク サイトに割り当てられた場所ポリシーは、他のすべてのユーザー ポリシーより優先されます。 コマンドレットを使用して場所ポリシーをネットワーク サイトに割り当てる方法の詳細については、「Add a location policy to a network site in a network site in Skype for Business Server [2015」を参照](../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md)してください。 ネットワーク サイトに場所ポリシー Skype for Business Server割り当てるコントロール パネルの使用の詳細については、「ネットワーク サイトの構成[」を参照してください](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-sites)。
+> 場所ポリシーは、サブネットのグループであるネットワーク サイトに割り当てることもできます。 ネットワーク サイトに割り当てられた場所ポリシーは、他のすべてのユーザー ポリシーより優先されます。 コマンドレットを使用して場所ポリシーをネットワーク サイトに割り当てる方法の詳細については、「Add a location policy to a network site in a network site in Skype for Business Server [2015](../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md)」を参照してください。 ネットワーク サイトに場所ポリシー Skype for Business Server割り当てるコントロール パネルの使用の詳細については、「ネットワーク サイトの構成[」を参照してください](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-sites)。
 
 [**場所ポリシー**] ページには、組織で定義されているすべての場所ポリシーが一覧表示されます。
 
@@ -53,7 +53,7 @@ ms.locfileid: "60840299"
 
 次の一覧に、このページのコマンドを示します。
 
-- **New** 新しいサイトの場所ポリシーまたはユーザーの場所ポリシーを開始します。
+- **新機能** 新しいサイトの場所ポリシーまたはユーザーの場所ポリシーを開始します。
 
 - **編集** 選択した場所ポリシーを開き、編集するか、リスト内のすべての場所ポリシーを選択するか、選択したサイト ポリシーまたはユーザー ポリシーを削除します。
 
@@ -78,4 +78,4 @@ ms.locfileid: "60840299"
 
 - **E9-1-1 マスク** ユーザーがダイヤルして緊急ダイヤル番号に変換する番号を指定します。
 
-緊急サービスの機能エンタープライズ VoIP詳細については、「計画」のドキュメントの[「E9-1-1](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-e9-1-1)の概要」を参照してください。 場所ポリシーの操作の詳細については、「操作」のドキュメントの「[Configuring Location Policy](/previous-versions/office/lync-server-2013/lync-server-2013-viewing-location-policy-information)」を参照してください。
+緊急サービスの機能エンタープライズ VoIP詳細については、「計画」のドキュメントの「[E9-1-1](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-e9-1-1) の概要」を参照してください。 場所ポリシーの操作の詳細については、「操作」のドキュメントの「[Configuring Location Policy](/previous-versions/office/lync-server-2013/lync-server-2013-viewing-location-policy-information)」を参照してください。

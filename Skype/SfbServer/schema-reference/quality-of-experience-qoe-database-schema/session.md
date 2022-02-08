@@ -1,8 +1,8 @@
 ---
 title: セッション テーブル
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
 description: 各レコードは、オーディオまたはオーディオとビデオを含む 1 つのセッションを表します。 セッションに関する全体的な情報が含まれる。 セッションは、2 つのエンドポイント間の音声またはビデオセッション開始プロトコル (SIP) ダイアログとして定義されます。
-ms.openlocfilehash: 044d7d2626ca0d04bb55b7a060d39e7ec330312d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6e69ca38a0338075975919f087c066f683fcfb87
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840929"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394616"
 ---
 # <a name="session-table"></a>セッション テーブル
  
@@ -30,7 +30,7 @@ ms.locfileid: "60840929"
 |**SessionSeq** <br/> |int  <br/> |Primary  <br/> |Dialog テーブル [から参照されます](dialog.md)。  <br/> |
 |**ConferenceKey** <br/> |int  <br/> |外部  <br/> |会議キー。 会議テーブル [から参照されます](conference.md)。  <br/> |
 |**CorrelationKey** <br/> |int  <br/> |外部  <br/> |関連付けキー。 [SessionCorrelation テーブルから参照されます](sessioncorrelation.md)。  <br/> |
-|**DialogCategory** <br/> |ビット  <br/> | <br/> |ダイアログ カテゴリ。0 は仲介Skype for Business Serverに対して実行されます。1 は仲介サーバーから PSTN ゲートウェイのレッグです。  <br/> |
+|**DialogCategory** <br/> |ビット  <br/> | <br/> |ダイアログ カテゴリ。0 は仲介Skype for Business Serverに使用されます。1 は仲介サーバーから PSTN ゲートウェイのレッグです。  <br/> |
 |**MediationServerBypassFlag** <br/> |ビット  <br/> ||通話がバイパスされたかどうかを示すフラグ。  <br/> |
 |**MediaBypassWarningFlag** <br/> |int  <br/> ||このフィールドは、(存在する場合) バイパス ID が一致したのに通話がバイパスされなかった理由を示します。 このSkype for Business Server、1 つの値だけが定義されます。  <br/> 0x0001 - 既定のネットワーク アダプターの不明なバイパス ID。  <br/> |
 |**StartTime** <br/> |日付型  <br/> | <br/> |通話の開始時刻。  <br/> |

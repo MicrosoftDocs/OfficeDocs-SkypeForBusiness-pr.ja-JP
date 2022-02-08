@@ -5,8 +5,8 @@ ms:assetid: cd9d3ddc-4839-457a-86d9-b15413e74002
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182586(v=OCS.15)
 ms:contentKeyID: 48185660
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: リモート ユーザーに対してリモート ユーザー アクセスを有効にした場合、サポートされているリモート ユーザーはインターネットを使用して接続し、Skype for Business Server を使用して内部ユーザーと共同作業するために VPN を使用して接続する必要はありません。
-ms.openlocfilehash: 8ff48e9fd10a9b5bad6cf1e7ccebebb87bc7ed69
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 94ff8263e61e8113a2f1d47104524d073a082665
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853041"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395279"
 ---
 # <a name="enable-or-disable-remote-user-access-in-skype-for-business-server"></a>リモート ユーザー アクセスを有効または無効にする方法は、Skype for Business Server
 
@@ -30,7 +30,7 @@ ms.locfileid: "60853041"
 
 
 > [!NOTE]  
-> リモート ユーザー アクセスを有効にした時点では、アクセス エッジ サービスを実行するサーバーがリモート ユーザーとの通信をサポートするという指定が行われるだけです。 Skype for Business Serverレベルで適用されるポリシー設定は、別のポリシー レベルで適用される設定を上書きできます。 Skype for Business Server ポリシーの優先順位: ユーザー ポリシー (最も高い) はサイト ポリシーをオーバーライドし、サイト ポリシーはグローバル ポリシーをオーバーライド (最も低い) します。 つまり、ポリシー設定が、そのポリシーの影響を受けるオブジェクトに近いほど、オブジェクトに及ぼす影響は大きくなります。 リモート ユーザー アクセスを使用するためのポリシーの構成の詳細については、「Configure policis to control remote user access in Skype for Business Server」[を参照してください](../external-access-policies/configure-policies-to-control-remote-user-access.md)。
+> リモート ユーザー アクセスを有効にした時点では、アクセス エッジ サービスを実行するサーバーがリモート ユーザーとの通信をサポートするという指定が行われるだけです。 Skype for Business Serverレベルで適用されるポリシー設定は、別のポリシー レベルで適用される設定を上書きできます。 Skype for Business Server ポリシーの優先順位: ユーザー ポリシー (最も高い) はサイト ポリシーをオーバーライドし、サイト ポリシーはグローバル ポリシーをオーバーライド (最も低い) します。 つまり、ポリシー設定が、そのポリシーの影響を受けるオブジェクトに近いほど、オブジェクトに及ぼす影響は大きくなります。 リモート ユーザー アクセスを使用するためのポリシーの構成の詳細については、「Configure policis to control remote user access in Skype for Business Server」 [を参照してください](../external-access-policies/configure-policies-to-control-remote-user-access.md)。
 
 
 ## <a name="to-enable-or-disable-remote-user-access-for-your-organization"></a>組織に対するリモート ユーザー アクセスを有効または無効にするには
@@ -51,7 +51,7 @@ ms.locfileid: "60853041"
 
 6.  [**確定**] をクリックします。
 
-リモート ユーザーが Skype for Business Server を実行しているサーバーにサインインするには、リモート ユーザー アクセスをサポートするために少なくとも 1 つの外部アクセス ポリシーも構成する必要があります。 詳細については、「Configure [policis to control remote user](../external-access-policies/configure-policies-to-control-remote-user-access.md)access in Skype for Business Server」 を参照してください。
+リモート ユーザーが Skype for Business Server を実行しているサーバーにサインインするには、リモート ユーザー アクセスをサポートするために少なくとも 1 つの外部アクセス ポリシーも構成する必要があります。 詳細については、「Configure [policis to control remote user](../external-access-policies/configure-policies-to-control-remote-user-access.md) access in Skype for Business Server。
 
 
 ## <a name="enabling-or-disabling-remote-user-access-by-using-windows-powershell-cmdlets"></a>リモート ユーザー アクセスを有効または無効にする場合は、Windows PowerShellコマンドレットを使用します。

@@ -1,8 +1,8 @@
 ---
 title: Skype for Business クライアントのビデオ解像度
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 description: '概要: クライアントビデオの要件を確認し、クライアントビデオのSkype for Business Server。'
-ms.openlocfilehash: 717813e9ed667bbd0d3d9d63e45ae3b9c45b4dcf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 26a47854ac4223a527635111a0c1b25a66d63706
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856554"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395069"
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>Skype for Business クライアントのビデオ解像度
  
@@ -43,7 +43,7 @@ Skype for Businessは、H.264/MPEG-4 Part 10 Advanced Video Coding standard に�
 |:-----|:-----|
 |DirectX Video Acceleration (DXVA) を使用したハードウェア アクセラレータ H.264 デコード  <br/> |• グラフィックス カードは DirectX 9.0 をサポートする必要があります。また、デコード モードと DirectX 9 API DXVA2_ModeH264_VLD_NoFGTを公開する必要があります。  <br/> • 最新のグラフィックス カード ドライバーをインストールする必要があります。  <br/> |
 |ハードウェア アクセラレータ H.264 エンコード: チップセット要件  <br/> |次の Intel ハードウェア アクセラレータビデオ エンコード ソリューションがサポートされています。  <br/> • 第 2 世代および第 3 世代の Intel HD Graphics 2000、2500、3000、および 4000 チップセット (以降のバージョン) と統合ハードウェア ビデオ エンコーダー。 Intel HD Graphics ドライバー 15.28.9.2884 または以下を含む最新のドライバーのインストールが必要です。  <br/> • ディスプレイ ドライバー 9.17.10.2884 または最新のドライバー  <br/> • ハードウェア メディアファンデーション変換 (HMFT) バージョン 3.12.10.31 または最新の HMFT  <br/> 次の AMD ハードウェア アクセラレータビデオ エンコード ソリューションがサポートされています。  <br/> • AMD ビデオ コーデック エンジン。これは、複数のディスクリート グラフィックス カードと、AMD A シリーズ アクセラレータプロセッサの統合された高速処理ユニットで利用できます。 AMD ビデオ コーデック エンジン ドライバー 9.12.0.0 以上をインストールする必要があります。  <br/> |
-|ハードウェア アクセラレータ H.264 エンコード: カメラ要件  <br/> |USB ビデオ クラス (UVC) 仕様バージョン 1.5 に準拠する統合 H.264 ハードウェア エンコーダーを搭載した USB ビデオ カメラ。  <br/> **注:** Skype for Businessは、UVC 1.5 のサポートをWindows 8またはWindows 8.1 UVC 1.5 カメラをサポートします。 Windows 7 には UVC 1.5 のサポートが含まれるため、Skype for Business では UVC 1.5 カメラをハードウェア エンコードのサポートがない通常のカメラとして扱います。 <br/> |
+|ハードウェア アクセラレータ H.264 エンコード: カメラ要件  <br/> |USB ビデオ クラス (UVC) 仕様バージョン 1.5 に準拠する統合 H.264 ハードウェア エンコーダーを搭載した USB ビデオ カメラ。  <br/> **注:** Skype for Businessは、UVC 1.5 のサポートを含む、Windows 8 または Windows 8.1 の UVC 1.5 カメラをサポートします。 Windows 7 には UVC 1.5 のサポートが含まれるため、Skype for Business では UVC 1.5 カメラをハードウェア エンコードのサポートがない通常のカメラとして扱います。 <br/> |
    
 ### <a name="determining-h264-video-encoding-and-decoding-capabilities"></a>H.264 ビデオ エンコードおよびデコード機能の決定
 
@@ -99,7 +99,7 @@ Windows システム評価ツール (WinSAT) は、WEI を決定します。WinS
    
 ## <a name="mobile-device-video-capabilities"></a>モバイル デバイスのビデオ機能
 
-次の表では、サポートされているモバイル デバイスで使用可能な最大ビデオ解像度について説明します。 モバイル デバイスのサポートの詳細については、「[モバイル クライアント](mobile-feature-comparison.md)機能の比較」を参照Skype for Business。
+次の表では、サポートされているモバイル デバイスで使用可能な最大ビデオ解像度について説明します。 モバイル デバイスのサポートの詳細については、「モバイル クライアント機能の比較」[を参照Skype for Business](mobile-feature-comparison.md)。
   
 |**機能**|**Windows Phone**|**iPhone**|**iPad**|**Android**|
 |:-----|:-----|:-----|:-----|:-----|

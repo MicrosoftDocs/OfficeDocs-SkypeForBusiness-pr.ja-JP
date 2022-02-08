@@ -1,7 +1,7 @@
 ---
 title: 教師ありチャットを非教育機関向けテナントに使用する
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: angch
 ms.topic: article
@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 会議中の非教育機関向けテナント向け教師ありチャットMicrosoft Teamsします。
-ms.openlocfilehash: 2aabfee2f8267e786acf293d612066af2db46f25
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8ba639953485d03e62d7f75f387f9154f65f9599
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848110"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394489"
 ---
 # <a name="supervised-chats-for-non-educational-tenants"></a>非教育機関向けテナント向け教師ありチャット
 
@@ -48,13 +48,13 @@ ms.locfileid: "60848110"
 
 - 制限付きアクセス許可: このロールは、監督が必要なユーザーに最適です。 完全な権限を持つユーザーとのみチャットを開始できます。 完全な権限を持つユーザーが招待する会話に参加できます。 フェデレーション チャットの場合、制限されたユーザーは、制限されたユーザーのテナントからの完全な権限を持つユーザーによってのみチャットに追加されます。
 
-ユーザーのチャットアクセス許可ロールを設定するには、管理ポータルの [メッセージング ポリシー] オプションにある [チャットのアクセス許可Teams使用します。 PowerShell を使用して、値が完全、限定、または制限の ChatPermissionRole ポリシーを使用して役割を定義できます。 このポリシーは [CsTeamsMessagingPolicy の下に置かされています](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)。
+ユーザーのチャットアクセス許可ロールを設定するには、管理ポータルの [メッセージング ポリシー] オプションにある [チャットのアクセス許可Teams使用します。 PowerShell を使用して、値が完全、限定、または制限の ChatPermissionRole ポリシーを使用して役割を定義できます。 このポリシーは [CsTeamsMessagingPolicy の下に置かされます](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)。
 
 テナント内のゲストに役割を割り当てることはできません。 ゲストには限定された役割が割り当てられます。
 
 ## <a name="allow-supervised-chat"></a>監視ありチャットを許可する
 
-監視ありチャットは、テナントに対して既定で無効になっています。 ユーザーのチャットアクセス許可ロールを設定した後、組織全体の設定 Teams 設定 に移動し、[ロールベースのチャットアクセス許可ポリシー] を [オン] に設定することで、テナント内で教師ありチャットを有効  >  **にできます**。 また、PowerShell を使用して、AllowRoleBasedChatPermissions を True に設定することにより、監視ありチャットを有効にすることもできます。 このコマンドレットは [CsTeamsClientConfiguration の下に置かされています](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)。
+監視ありチャットは、テナントに対して既定で無効になっています。  > ユーザーのチャットアクセス許可ロールを設定した後、組織全体の設定Teams 設定 に移動し、[ロールベースのチャットアクセス許可ポリシー] を **[** オン] に設定することで、テナント内で教師ありチャットを有効にできます。 また、PowerShell を使用して、AllowRoleBasedChatPermissions を True に設定することにより、監視ありチャットを有効にすることもできます。 このコマンドレットは [CsTeamsClientConfiguration の下に置かされています](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)。
 
 監視ありチャットは、テナント内のすべてのユーザーに対して有効にする必要があり、一部のユーザーに対してのみ有効にすることはできません。
 

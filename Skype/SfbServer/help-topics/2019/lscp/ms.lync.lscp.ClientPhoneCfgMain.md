@@ -1,8 +1,8 @@
 ---
 title: デバイス構成
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
 ROBOTS: NOINDEX, NOFOLLOW
 description: デバイス構成は、グローバルまたはサイト内で、Skype for Business 電話 Edition デバイスを管理するために使用される設定のコレクションです。 これらの設定を使用すると、必須のセキュリティ モード、デバイス ログ レベル、音声のサービス品質 (QoS) の設定、非アクティブな電話を指定の時間の経過後に自動的にロックするかどうかなどを構成できます。
-ms.openlocfilehash: 14a4606ade2ac8287258531c912c11268ce5e546
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 26fd71afc68c696c5f2d7b75b3765fc58d35e517
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856184"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394299"
 ---
 # <a name="device-configuration"></a>デバイス構成
  
@@ -38,7 +38,7 @@ ms.locfileid: "60856184"
 
 次の一覧に、このページのメニュー、コマンド、フィールド、およびプロパティを示します。
   
-- **New** 次のスコープで新しいデバイス構成を追加できます。
+- **新機能** 次のスコープで新しいデバイス構成を追加できます。
     
   - グローバル
     

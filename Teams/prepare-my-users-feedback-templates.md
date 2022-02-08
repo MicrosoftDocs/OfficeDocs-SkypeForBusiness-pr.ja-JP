@@ -1,14 +1,14 @@
 ---
 title: Teams または Skype for Business のフィードバックアンケート
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: ユーザーフィードバックを収集して、クラウドまたはクラウドでのクラウド音声の実装Microsoft Teams向上Skype for Business。
+description: ユーザーフィードバックを収集して、クラウドまたはクラウドでのクラウド音声Microsoft Teams向上Skype for Business。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cebd19b40513ece384112e6fdc3efa1be54155b1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 285fcdf665a29de59596484c6174e73abd0a4083
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836035"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394499"
 ---
 # <a name="user-feedback-surveys"></a>ユーザー フィードバックアンケート 
 
@@ -29,7 +29,7 @@ ms.locfileid: "60836035"
 
 以下の質問をカスタマイズし、配布と分析を容易に行SharePointツールに転送します。
 
-これらのアンケートの目的上、新しい電話システムとは、メディア電話や携帯電話などのデバイスに加えて、Microsoft Teams または Skype for Business の通話機能を使用する方法を指します。 これらのアンケート内のMicrosoft Teams参照はすべて、このアンケートにもSkype for Business。
+これらのアンケートの目的上、新しい電話システムは、メディア電話や携帯電話などのデバイスに加えて、Microsoft Teams または Skype for Business の通話機能を使用します。 これらのアンケート内のMicrosoft Teamsへのすべての参照は、これらのアンケートにもSkype for Business。
 
 電話での通話の使用に関連する次のステートメントを使用して、契約Teams示します。 
 
@@ -42,9 +42,9 @@ ms.locfileid: "60836035"
 | 新しい電話システムは、すべての通話ニーズ (転送、保留、ボイスメールなど) を満たします。                                      |                      |                    |             |                       |                         |                        |
 | 電話システムと電話システムを統合する価値Teams。                                                 |                      |                    |             |                       |                         |                        |
 | スマートフォンTeamsを使用すると、仕事が簡単になります。                                          |                      |                    |             |                       |                         |                        |
-| 古い電話システムTeamsと同じかそれ以上のオーディオ エクスペリエンスです。                   |                      |                    |             |                       |                         |                        |
+| この機能を使用したTeamsは、古い電話システムと同じかそれ以上です。                   |                      |                    |             |                       |                         |                        |
 
-上記の **ステートメントに対** して [やや反対] または [完全に反対] を選択した場合は、説明してください。 (テキストを開く)
+上記の **ステートメントに対** して [やや反対]  または [完全に反対] を選択した場合は、説明してください。 (テキストを開く)
 
 新しい電話でのオンボードエクスペリエンスに関連する、次のステートメントで契約レベルを示します。  
 
@@ -54,7 +54,7 @@ ms.locfileid: "60836035"
 | 新しい電話システムにすぐにオンボードするための十分なトレーニング リソースを持っていた。                                                          |                      |                    |             |                       |                         |                        |
 | ヘルプデスクは、新しい電話システムに関する質問に回答できます。                                                           |                      |                    |             |                       |                         |                        |
 
-上記の **ステートメントに対** して [やや反対] または [完全に反対] を選択した場合は、説明してください。 (テキストを開く)
+上記の **ステートメントに対** して [やや反対]  または [完全に反対] を選択した場合は、説明してください。 (テキストを開く)
 
 友人や同僚に電話としてTeamsを使用することをお勧めする可能性はどのくらいですか? (0 =Not at allly...10 = 非常に可能性が高い)
 

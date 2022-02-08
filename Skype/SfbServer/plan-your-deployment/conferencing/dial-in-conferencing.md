@@ -1,8 +1,8 @@
 ---
 title: 会議でダイヤルイン会議を計画Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
 description: '概要: このトピックを参照して、会議でのダイヤルイン会議の計画についてSkype for Business Server。'
-ms.openlocfilehash: 84d034ba358213a0f79548df6cc1ca027098633b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1840133072e6bac5cf9b95597b8f23ed5d37a7bd
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841089"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394979"
 ---
 # <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>会議でダイヤルイン会議を計画Skype for Business Server
  
@@ -25,7 +25,7 @@ ms.locfileid: "60841089"
   
 ダイヤルイン会議は、Skype for Business Server のオプション機能で、会議の出席者が電話から会議に呼び出すことによって会議の音声部分に参加できます。 ダイヤルイン会議は音声会議のサブセットであり、追加構成が必要です。 このトピックでは、組織のダイヤルイン会議を展開する前に考える必要がある内容について説明します。 
   
-ダイヤルイン会議に必要なコンポーネントの一部はダイヤルイン会議に固有で、一部のコンポーネントはエンタープライズ VoIPがあります。 ダイヤルイン会議では、エンタープライズ VoIP が使用するのと同じコンポーネントの一部を使用しますが、エンタープライズ VoIP を展開しない場合でも、ダイヤルイン会議を展開できます。 このセクションでは、ダイヤルイン会議に必要なコンポーネントについて説明します。 完全なソリューションの計画の詳細については、「エンタープライズ VoIPソリューションを計画する」をエンタープライズ VoIPを[参照Skype for Business Server。](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md)
+ダイヤルイン会議に必要なコンポーネントの一部はダイヤルイン会議に固有で、一部のコンポーネントはエンタープライズ VoIPがあります。 ダイヤルイン会議では、エンタープライズ VoIP が使用するのと同じコンポーネントの一部を使用しますが、エンタープライズ VoIP を展開しない場合でも、ダイヤルイン会議を展開できます。 このセクションでは、ダイヤルイン会議に必要なコンポーネントについて説明します。 完全なソリューションの計画の詳細については、「エンタープライズ VoIPソリューションを計画[する」](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md)を参照エンタープライズ VoIP Skype for Business Server。
   
 ダイヤルイン会議では、仲介サーバーを展開して公衆交換電話網 (PSTN) への接続を提供する必要があります。 仲介サーバーの展開に加えて、組織のダイヤルイン会議を許可するには、次の点を考慮する必要があります。
   
@@ -50,7 +50,7 @@ ms.locfileid: "60841089"
   
 PSTN ゲートウェイは、中央サイトまたはブランチ サイトに展開できます。 ブランチ サイトでは、PSTN ゲートウェイをスタンドアロンまたは存続可能ブランチ アプライアンスのコンポーネントとして使用できます。
   
-仲介サーバーと PSTN ゲートウェイの要件の詳細については[、「Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md)の仲介サーバー コンポーネント」、Skype for Business Server のトポロジ ビルダーで仲介サーバーを展開する[、](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)および Skype for Business Server のトポロジ ビルダーでゲートウェイ[を定義するを参照してください](../../deploy/deploy-enterprise-voice/define-a-gateway.md)。
+仲介サーバーと PSTN ゲートウェイの要件の詳細については、「[Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md) の仲介サーバー コンポーネント」、「[Skype for Business Server](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md) のトポロジ ビルダーで仲介サーバーを展開する」、および「トポロジ ビルダーでゲートウェイを定義する」を参照[してください。Skype for Business Server](../../deploy/deploy-enterprise-voice/define-a-gateway.md)。
   
 ## <a name="plan-for-dial-plans-access-numbers-and-conferencing-regions"></a>ダイヤル プラン、アクセス番号、および会議地域を計画する
 
@@ -86,7 +86,7 @@ PSTN ゲートウェイは、中央サイトまたはブランチ サイトに�
     
 - すべての場所のすべてのユーザーが、任意のダイヤルイン アクセス番号を発信して会議に参加できます。
     
-ダイヤル プランの作成の詳細については、「Skype for Business Server[](../../deploy/deploy-enterprise-voice/dial-plans.md)でダイヤル プランを作成または変更する」および「Skype for Business で正規化ルールを作成または変更する」[を参照してください](../../deploy/deploy-enterprise-voice/normalization-rules.md)。 
+ダイヤル プランの作成の詳細については、「Skype for Business Server で[](../../deploy/deploy-enterprise-voice/dial-plans.md)ダイヤル プランを作成または変更する」および「Skype for Business で正規化ルールを[作成または変更する」を参照してください](../../deploy/deploy-enterprise-voice/normalization-rules.md)。 
   
 ## <a name="plan-for-conference-directories"></a>会議ディレクトリの計画
 
@@ -106,9 +106,9 @@ PSTN ゲートウェイは、中央サイトまたはブランチ サイトに�
     
 - 1 つ以上の PSTN アクセス番号
     
-- [ダイヤルイン会議] ページへの設定、関連付けられた言語を含むアクセス番号の完全な一覧が含まれる。個人識別番号 (PIN) を作成、リセット、またはブロック解除する場所。その他の情報 (デュアルトーンマルチ周波数 (DTMF) コントロールなど)
+- 関連付けられた言語を含むアクセス番号の完全な一覧、個人識別番号 (PIN) の作成、リセット、ブロック解除の場所、およびデュアルトーン多周波数 (DTMF) コントロールなどのその他の情報を含むダイヤルイン会議 設定 ページへのリンク。
     
-会議ポリシーの詳細については、「会議でダイヤルイン[](../../deploy/deploy-conferencing/dial-in-conferencing.md)会議を構成する」および「Skype for Business Server で会議ポリシーを管理する」を[参照](../../manage/conferencing/conferencing-policies.md)Skype for Business Server。  
+会議ポリシーの詳細については、「[会議](../../deploy/deploy-conferencing/dial-in-conferencing.md)でダイヤルイン会議を構成する」および「Skype for Business Serverで会議ポリシーを管理する」[を参照](../../manage/conferencing/conferencing-policies.md)Skype for Business Server。  
 
 ## <a name="support-for-enterprise-and-anonymous-users"></a>エンタープライズ ユーザーと匿名ユーザーのサポート
 

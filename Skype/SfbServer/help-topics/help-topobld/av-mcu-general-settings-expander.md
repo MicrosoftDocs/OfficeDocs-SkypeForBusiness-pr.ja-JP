@@ -1,8 +1,8 @@
 ---
 title: AV MCU 全般設定の展開
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 16449f7c-dd2c-4b51-b428-8fba42f93f83
 description: 既に定義した音声ビデオ会議サーバー プールのプロパティを編集するには、次の操作を行います。
-ms.openlocfilehash: 8e17a3d375c3d90054c51e8f5b57166ebecec2a4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ebc3b9362f5f0bbceb76c0db3c4d6c9936866325
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863714"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395569"
 ---
 # <a name="av-mcu-general-settings-expander"></a>AV MCU 全般設定エキスパンダー
  

@@ -1,8 +1,8 @@
 ---
 title: 複数のトランクのサポート (Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Skype for Business Server機能は、ゲートウェイと仲介サーバー間の複数の関連付けをサポートします。 これらの関連付けは、仲介サーバー プールと公衆交換電話網 (PSTN) ゲートウェイ、セッション ボーダー コントローラー (SBC)、または IP-PBX の間の論理的な関連付けであるトランクを定義することで行います。 トポロジ ビルダーを使用して、ゲートウェイを仲介サーバー (トランク) に関連付けます。
-ms.openlocfilehash: aee1cdebba9780eb0079200cf6b0e0c1a5789535
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 09ad94a15bbd7faa735f41fba81ade919d7a84da
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833353"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395189"
 ---
 # <a name="multiple-trunk-support-in-skype-for-business-server"></a>複数のトランクのサポート (Skype for Business Server
 
@@ -29,7 +29,7 @@ Skype for Business Server機能は、ゲートウェイと仲介サーバー間�
 
 `New-CsVoiceRoute -Identity <RouteId> -NumberPattern <String> -PstnUsages @{add="<UsageString>"} -PstnGatewayList @{add="<TrunkSimpleName>"}`
 
-管理者は、仲介サーバーに関連付けられている既定のトランクを選択する必要があります。 トポロジ ビルダーで、関連付けられた仲介サーバーを右クリックし、[プロパティ] を **クリックします**。 仲介サーバーの既定のゲートウェイを指定します。 
+管理者は、仲介サーバーに関連付けられている既定のトランクを選択する必要があります。 トポロジ ビルダーで、関連付けられた仲介サーバーを右クリックし、[プロパティ] をクリック **します**。 仲介サーバーの既定のゲートウェイを指定します。 
 
 次の図は、仲介サーバーとゲートウェイごとに定義されている複数のトランクを示しています。 
 

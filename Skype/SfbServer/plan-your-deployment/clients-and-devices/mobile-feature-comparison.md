@@ -1,7 +1,7 @@
 ---
 title: Skype for Business のモバイル クライアント機能の比較
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
 description: '概要: モバイル クライアントの機能のサポートを確認し、モバイル クライアントのSkype for Business Server。'
-ms.openlocfilehash: f1bbb046827ef762f5def1d532089e9621c32b28
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a4696adda500b3011f52ac113b58f283ab7bfd96
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834125"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395099"
 ---
 # <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Skype for Business のモバイル クライアント機能の比較
  
@@ -53,10 +53,10 @@ ms.locfileid: "60834125"
 次の表に、ユーザーが使用できる機能を、Skype for Businessのオンプレミス展開で使用できるSkype for Business Server。 同じ機能は、表の脚注に特にSkype for Businessしない限り、Microsoft 365またはOffice 365ユーザーに対して使用できます。
   
 > [!NOTE]
-> エンド ユーザー向けオンライン ヘルプとリソースについては[、「Discover Skype for Business」 を参照してください](https://go.microsoft.com/fwlink/p/?LinkId=528686)。 
+> エンド ユーザー向けオンライン ヘルプとリソースについては、「[Discover Skype for Business」 を参照してください](https://go.microsoft.com/fwlink/p/?LinkId=528686)。 
   
 > [!NOTE]
-> 他のクライアントで使用できる機能を比較するにはSkype for Businessデスクトップ[クライアント](desktop-feature-comparison.md)機能の比較を参照Skype for Business。 
+> 他のクライアントで使用可能な機能をSkype for Business、デスクトップ クライアント機能の比較[を](desktop-feature-comparison.md)参照Skype for Business。 
 
 > [!NOTE]
 > 従来のモバイル クライアントの MCX (モビリティ サービス) サポートは、Skype for Business Server 2019 では利用できなくなりました。 現在のすべての Skype for Business モバイル クライアントはUnified Communications Web API (UCWA) を使用して、インスタント メッセージング (IM)、プレゼンス、および連絡先をサポートしています。 MCX を使用している従来のクライアントを持っているユーザーは、現在のクライアントにアップグレードする必要があります。
@@ -247,7 +247,7 @@ iOS デバイスでは、Skype for Business接続などの問題により、モ�
 
 次の表では、最新の認証をサポートする必要がある機能について説明します。
   
-モダン認証では、モダン認証でサポートされるトポロジSkype for Business[トポロジも必要です](../../plan-your-deployment/modern-authentication/topologies-supported.md)。
+また、モダン認証では、「モダン認証でサポートされているトポロジSkype for Business[トポロジ」で説明されているトポロジも必要です](../../plan-your-deployment/modern-authentication/topologies-supported.md)。
   
 
  | 機能/機能  | Skype for Business デスクトップ クライアント  | Windows Phone  | iOS  | Android |

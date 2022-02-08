@@ -1,8 +1,8 @@
 ---
 title: トランク構成 新規の作成または既存の編集
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 9591e691-63de-4c19-96a4-3bb394d1d4e2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 6e99333f0656ff5e359b54d3a32b4ca71e6e071c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2cb5cf6d0168b85ac757ec7d677e8eea680bcd85
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841729"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393239"
 ---
 # <a name="trunk-configuration-create-new-or-edit-existing"></a>トランク構成: 新規作成または現在の形式のままで編集
 

@@ -1,8 +1,8 @@
 ---
 title: アーカイブされたデータの削除を管理Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 14c2b4fd-f612-4909-808d-09c655fc9f8a
 description: '概要: アーカイブされたデータの削除を管理する方法についてSkype for Business Server。'
-ms.openlocfilehash: 4050bc40d72cb8a2b306ab050298bb74b7c96dbd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9868277bc79a95b869383025da7e1c52aed35921
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847440"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395379"
 ---
 # <a name="manage-purging-of-archived-data-in-skype-for-business-server"></a>アーカイブされたデータの削除を管理Skype for Business Server
 
@@ -25,7 +25,7 @@ ms.locfileid: "60847440"
   
 アーカイブ データベースは長期的な保持を目的としていないので、Skype for Business Server はアーカイブ されたデータに対する電子探索 (検索) ソリューションを提供しないので、データを他のストレージに移動する必要があります。 Skype for Business Serverは、アーカイブされたデータを検索可能なトランスクリプトにエクスポートするために使用できるセッション エクスポート ツールを提供します。 アーカイブおよびエクスポートされたデータを削除する場合を定義する必要があります。 
   
-**Export-CsArchivingData** コマンドレットを使用したデータのエクスポートの詳細については、「Export archived data in Skype for Business Server」[を参照してください](export-archived-data.md)。
+**Export-CsArchivingData** コマンドレットを使用したデータのエクスポートの詳細については、「Export [archived data in Skype for Business Server」 を参照してください](export-archived-data.md)。
   
 ## <a name="manage-purging-of-data-by-using-the-control-panel"></a>コントロール パネルを使用してデータの削除を管理する
 
@@ -63,7 +63,7 @@ ms.locfileid: "60847440"
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True
 ```
 
-次のコマンドは **、(Export-CSArchivingData** コマンドレットを使用して) データ ファイルにエクスポートされたアーカイブ されたレコードへの削除を制限します。 PurgeExportedArchivesOnly パラメーターを True ($True) に設定する必要があります。
+次のコマンドは、( **Export-CSArchivingData** コマンドレットを使用して) データ ファイルにエクスポートされたアーカイブ されたレコードへの削除を制限します。 PurgeExportedArchivesOnly パラメーターを True ($True) に設定する必要があります。
   
 ```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -PurgeExportedArchivesOnly $True

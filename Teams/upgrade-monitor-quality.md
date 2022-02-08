@@ -1,7 +1,7 @@
 ---
 title: ユーザー エクスペリエンスの|Microsoft Teams |QoS |通話品質
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: edc277a80ed9659281c46729646f3cbdfe95d725
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6ea92ffd8adcdfb319cd1b515419b987fc6bbbc4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865536"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394429"
 ---
 # <a name="quality-of-experience-review-guide"></a>QoE のレビュー ガイド
 
@@ -35,7 +35,7 @@ ms.locfileid: "60865536"
 
 ## <a name="improve-and-monitor-call-quality"></a>通話品質の向上と監視
 
-[Teams](monitor-call-quality-qos.md)の通話品質の向上と監視には、次に示すユーザー エクスペリエンスの向上に最も大きな影響を与える主要な領域で修復ガイダンスを評価して提供する一連のアクティビティが含まれています。
+[Teams](monitor-call-quality-qos.md) の通話品質の向上と監視には、次に示すユーザー エクスペリエンスの向上に最も大きな影響を与える主要な領域で修復ガイダンスを評価して提供する一連のアクティビティが含まれています。
 
 ![レビュー中に調べる主な領域の図。](media/plan-my-service-management-image2.png "品質レビュー中に確認する主な領域は、音声、信頼性、およびユーザーアンケートの結果です。")
 
@@ -53,7 +53,7 @@ ms.locfileid: "60865536"
 
 - 問題のあるサブネットまたはネットワーク デバイス
 
-[Teams](monitor-call-quality-qos.md)の通話品質の向上と監視に関するガイダンスでは、導入と影響を最大化するためにオーディオに重点を置いて、説明されている各領域を報告および調査するための主要なツールとして通話品質ダッシュボード (CQD) Online を使用する方法に重点を置いています。 音声エクスペリエンスを改善するためにネットワークに対して行われた最適化は、ビデオおよびデスクトップ共有を改善することにも直接転用されます。
+[Teams](monitor-call-quality-qos.md) の通話品質の向上と監視に関するガイダンスでは、導入と影響を最大化するためにオーディオに重点を置いて、説明されている各領域をレポートおよび調査するための主要なツールとして通話品質ダッシュボード (CQD) Online を使用する方法に重点を置いています。 音声エクスペリエンスを改善するためにネットワークに対して行われた最適化は、ビデオおよびデスクトップ共有を改善することにも直接転用されます。
 
 早い段階で品質チャンピオンをノミネートすることを強くお勧めします。 ノミネートされた後は、「通話品質の向上と監視」の内容に慣れ始める必要[Teams。](monitor-call-quality-qos.md)
 

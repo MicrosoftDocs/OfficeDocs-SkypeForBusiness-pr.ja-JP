@@ -1,8 +1,8 @@
 ---
 title: NetworkConnectionDetail テーブル
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b48cc9a6-5232-48b5-bd20-53b68229336b
 description: NetworkConnectionDetail テーブルは、Quality of Experience データベースの他の場所で使用されるネットワーク接続の識別子にネットワーク接続の種類を対応させます。 この表は、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: 6d39d9e8432a20102d42cea649a51596ce2c1762
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d41b89ce85ee365d883c2224f2da29fca3cab926
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833191"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394709"
 ---
 # <a name="networkconnectiondetail-table"></a>NetworkConnectionDetail テーブル
  

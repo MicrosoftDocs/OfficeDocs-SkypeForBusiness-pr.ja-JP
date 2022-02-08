@@ -1,8 +1,8 @@
 ---
 title: 会議の計画を立Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 10add1ea-d693-406c-9dc9-853df0ab05da
 description: '概要: このトピックを参照して、会議の機能について説明します。Skype for Business Server。'
-ms.openlocfilehash: f5eb0d549b5d0b120017d36e4f904b931e0ea278
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 669c87bd2c5eae3944a586e289bbeac3fd4409df
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864714"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394989"
 ---
 # <a name="plan-for-conferencing-in-skype-for-business-server"></a>会議の計画を立Skype for Business Server
  
@@ -41,7 +41,7 @@ ms.locfileid: "60864714"
 
 Skype for Business Server では、web 会議、音声ビデオ (A/V) 会議、ダイヤルイン会議、インスタント メッセージ (IM) 会議の 4 種類の会議を利用できます。 
   
-すべての会議の種類を有効にするか、ニーズに応じて 1 つの種類のみを使用できます。 たとえば、ダイヤルイン会議を含むすべての種類を有効にして、Skype for Business クライアントとの会議に参加できないユーザーが電話から会議の音声を呼び出して参加できます。 クライアントを展開するとSkype for Business Server IM 会議機能が自動的に展開されます。トポロジ ビルダーを使用して Web、音声ビデオ、およびダイヤルイン会議を展開するかどうかを指定します。 詳細については、「会議を[展開する」を参照Skype for Business Server。](../../deploy/deploy-conferencing/deploy-conferencing.md) 
+すべての会議の種類を有効にするか、ニーズに応じて 1 つの種類のみを使用できます。 たとえば、ダイヤルイン会議を含むすべての種類を有効にして、Skype for Business クライアントとの会議に参加できないユーザーが電話から会議の音声を呼び出して参加できます。 Skype for Business Server を展開すると、IM 会議機能が自動的に展開されます。トポロジ ビルダーを使用して Web、A/V、およびダイヤルイン会議を展開するかどうかを指定します。 詳細については、「会議を展開[する」を参照Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md)。 
   
 次のサブセクションでは、各会議の種類の機能について説明します。
   
@@ -87,11 +87,11 @@ Web 会議を使用すると、会議の出席者は、会議中に共有され�
     
 ### <a name="dial-in-conferencing"></a>ダイヤルイン会議
 
-ダイヤルイン会議では、会議の出席者が電話から会議に呼び出すことによって、会議の音声部分に参加できます。 ダイヤルイン会議は音声会議のサブセットであり、追加構成が必要です。 ダイヤルイン会議の詳細については、「Plan for [dial-in](dial-in-conferencing.md) conferencing in Skype for Business Server」および「Configure dial-in conferencing in Skype for Business Server」[を参照してください](../../deploy/deploy-conferencing/dial-in-conferencing.md)。 
+ダイヤルイン会議では、会議の出席者が電話から会議に呼び出すことによって、会議の音声部分に参加できます。 ダイヤルイン会議は音声会議のサブセットであり、追加構成が必要です。 ダイヤルイン会議の詳細については、「Plan [for dial-in](dial-in-conferencing.md) conferencing in Skype for Business Server」および「Configure [dial-in conferencing in Skype for Business Server」を参照してください](../../deploy/deploy-conferencing/dial-in-conferencing.md)。 
   
 ### <a name="instant-messaging-conferencing"></a>インスタント メッセージング会議
 
-インスタント メッセージング (IM) 会議では、1 つの IM セッションで複数の関係者が通信できます。 IM 会議の詳細については[、「Plan for instant Messaging and presence](../../plan-your-deployment/instant-messaging-and-presence.md)in Skype for Business Server 」 を参照してください。
+インスタント メッセージング (IM) 会議では、1 つの IM セッションで複数の関係者が通信できます。 IM 会議の詳細については、「[Plan for instant Messaging and presence in](../../plan-your-deployment/instant-messaging-and-presence.md) Skype for Business Server。
   
 ## <a name="conferencing-components"></a>会議コンポーネント
 
@@ -124,7 +124,7 @@ Web 会議を使用すると、会議の出席者は、会議中に共有され�
     
 ## <a name="conferencing-policies"></a>会議ポリシー
 
-組織のポリシーを適用し、帯域幅の使用状況を制御するには、ユーザーが整理できる会議の種類にポリシーを設定できます。 さまざまな会議ポリシーを定義し、それらを個々のユーザーおよびユーザー グループに割り当てできます。 ピアツーピアの会話を管理するポリシーを設定できます。 会議ポリシーの設定の詳細については、「会議ポリシーの管理」を参照[Skype for Business Server。](../../manage/conferencing/conferencing-policies.md) 帯域幅管理の詳細については[、「Plan for call admission control in Skype for Business Server」 を参照してください](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)。
+組織のポリシーを適用し、帯域幅の使用状況を制御するには、ユーザーが整理できる会議の種類にポリシーを設定できます。 さまざまな会議ポリシーを定義し、それらを個々のユーザーおよびユーザー グループに割り当てできます。 ピアツーピアの会話を管理するポリシーを設定できます。 会議ポリシーの設定の詳細については、「会議ポリシーの管理」を参照[Skype for Business Server](../../manage/conferencing/conferencing-policies.md)。 帯域幅管理の詳細については、「[Plan for call admission control in Skype for Business Server」 を参照してください](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)。
   
 ## <a name="support-for-large-meetings"></a>大規模な会議のサポート
 
@@ -134,9 +134,9 @@ Web 会議を使用すると、会議の出席者は、会議中に共有され�
     
 - 専用プールでは、Skype for Business Server は、Web および音声/ビデオ (A/V) 会議 (プレゼンテーションの共有など) を使用して最大 1000 人の参加者との会議PowerPointできます。 このサポートには、大規模な会議をサポートするように構成され、一度に 1 つの大規模な会議のみ開催するような方法で管理される専用プールが必要です。 
     
-大規模な会議の管理の詳細については、「大規模な会議[を大規模な会議に計画する」を](large-meetings.md)参照Skype for Business Server。
+大規模な会議の管理の詳細については、「大規模な会議を大規模な会議[に計画する」を](large-meetings.md)参照Skype for Business Server。
   
-組織で大規模な会議機能が必要な場合は、Microsoft 365 および Office 365 の一部であるオンライン サービスである Skype 会議ブロードキャストを利用するハイブリッド環境の実装を検討する必要があります。 Skype会議ブロードキャストを使用すると、最大 10,000 人の参加者の大規模なオンライン対象ユーザーに会議をホストおよびブロードキャストできます。 会議ブロードキャストSkype使用するには、Skype for Business Serverまたは組織とのハイブリッド セットアップで既に構成Microsoft 365必要Office 365です。 すべてのユーザーには、前提条件としてオンライン テナントが確立されている必要があります。 会議ブロードキャストを利用できるハイブリッド ソリューションを展開する場合Skype、「会議ブロードキャスト用にオンプレミス展開を構成する[Skype」を参照してください](../../deploy/configure-skype-meeting-broadcast.md)。
+組織で大規模な会議機能が必要な場合は、Microsoft 365 および Office 365 の一部であるオンライン サービスである Skype 会議ブロードキャストを利用するハイブリッド環境の実装を検討する必要があります。 Skypeブロードキャストを使用すると、最大 10,000 人の参加者の大規模なオンライン対象ユーザーに会議をホストおよびブロードキャストできます。 会議ブロードキャストSkype使用するには、Skype for Business Serverまたは組織とのハイブリッド セットアップで既に構成Microsoft 365必要Office 365です。 すべてのユーザーには、前提条件としてオンライン テナントが確立されている必要があります。 会議ブロードキャストを利用できるハイブリッド ソリューションを展開する場合は、「Skype会議ブロードキャスト用にオンプレミス展開を構成するSkype[参照してください](../../deploy/configure-skype-meeting-broadcast.md)。
   
 ## <a name="determine-your-organizations-needs"></a>組織のニーズを決定する
 
@@ -147,21 +147,21 @@ Web 会議を使用すると、会議の出席者は、会議中に共有され�
   
 - **ドキュメントのコラボレーションやアプリケーション共有を含む Web 会議を有効にしますか。**
     
-    その場合は、計画ツールを使用するか、トポロジ ビルダーを使用してフロントエンド プールの会議を有効にする必要があります。 詳細については、「会議を[展開する」を参照Skype for Business Server。](../../deploy/deploy-conferencing/deploy-conferencing.md)
+    その場合は、計画ツールを使用するか、トポロジ ビルダーを使用してフロントエンド プールの会議を有効にする必要があります。 詳細については、「会議を展開[する」を参照Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md)。
     
     アプリケーション共有では、ドキュメントのコラボレーションよりも多くのネットワーク帯域幅を使用する必要があります。 Skype for Business Server、各アプリケーション共有セッションを制御する調整メカニズムを提供します。 既定では、セッションあたり 1.5 KB/秒に設定されます。 アプリケーション共有を有効にしないが、ドキュメントの共同作業が必要な場合は、会議を有効にし、会議ポリシーを使用してアプリケーション共有を無効にできます。 会議ポリシーの構成の詳細については、「会議ポリシーの管理[」](../../manage/conferencing/conferencing-policies.md)を参照Skype for Business Server。
     
-    ユーザーがプレゼンテーションを共有PowerPointするには、Web Apps Server Office構成する必要があります。 Web Apps Server の構成Office詳細については、「Configure integration with Office Web Apps Server in Skype for Business Server」[を参照してください](../../deploy/deploy-conferencing/office-web-app-server.md)。
+    ユーザーがプレゼンテーションを共有PowerPointするには、Web Apps Server Office構成する必要があります。 Web Apps Server の構成Office詳細については、「Configure integration [with Office Web Apps Server in Skype for Business Server」 を参照してください](../../deploy/deploy-conferencing/office-web-app-server.md)。
     
 - **電話会議とビデオ会議を有効にしますか?**
     
-    その場合は、計画ツールを使用するか、トポロジ ビルダーを使用してフロントエンド プールの会議を有効にする必要があります。 詳細については、「会議を[展開する」を参照Skype for Business Server。](../../deploy/deploy-conferencing/deploy-conferencing.md)
+    その場合は、計画ツールを使用するか、トポロジ ビルダーを使用してフロントエンド プールの会議を有効にする必要があります。 詳細については、「会議を展開[する」を参照Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md)。
     
     電話会議とビデオ会議では、Web 会議よりも多くのネットワーク帯域幅が必要であり、使用されます (これには、ドキュメントの共同作業とアプリケーション共有が含まれます)。 電話会議とビデオ会議を有効にしないが、Web 会議を有効にする場合は、会議を有効にし、会議ポリシーを使用して音声ビデオ会議を無効にできます。
     
     電話会議を有効にし、ビデオ会議を有効にしない場合は、音声ビデオ会議を有効にし、会議ポリシーを使用してビデオ会議を防止できます。 あるいは、音声ビデオ会議を有効にして、特定のユーザーだけが音声ビデオ会議を開始または音声ビデオ会議に参加できるようにすることが可能です。 
     
-    会議ポリシーの構成の詳細については、「会議ポリシーの管理[」](../../manage/conferencing/conferencing-policies.md)を参照Skype for Business Server。
+    会議ポリシーの構成の詳細については、「会議ポリシーの管理」を参照[Skype for Business Server。](../../manage/conferencing/conferencing-policies.md)
     
     > [!NOTE]
     > エンタープライズ VoIP音声ビデオ会議を使用する場合は必要ありません。 音声ビデオ会議を有効にすると、電話ソリューション用に PBX を使用していても、ユーザーはオーディオ デバイスがあればオーディオを会議に追加できます。 
@@ -170,7 +170,7 @@ Web 会議を使用すると、会議の出席者は、会議中に共有され�
     
     その場合は、ダイヤルイン会議を展開して有効にする必要があります。 組織内と外部の両方の招待ユーザーが、PSTN 電話を使用して会議のオーディオ部分に参加できるようになります。
     
-    ダイヤルイン会議は、会議を展開するときに構成できるオプションSkype for Business Serverです。 ダイヤルイン会議では、エンタープライズ VoIP が使用するのと同じコンポーネントの一部を使用しますが、エンタープライズ VoIP を展開しない場合でも、ダイヤルイン会議を展開できます。 ダイヤルイン会議は、エンタープライズ ユーザーと匿名ユーザーの両方をサポートします。 エンタープライズユーザーと匿名ユーザーのダイヤルイン会議の構成の詳細については、「Skype for Business Server での会議の展開」および[「Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md)でのダイヤルイン会議[の構成」を参照してください](../../deploy/deploy-conferencing/dial-in-conferencing.md)。
+    ダイヤルイン会議は、会議を展開するときに構成できるオプションSkype for Business Serverです。 ダイヤルイン会議では、エンタープライズ VoIP が使用するのと同じコンポーネントの一部を使用しますが、エンタープライズ VoIP を展開しない場合でも、ダイヤルイン会議を展開できます。 ダイヤルイン会議は、エンタープライズ ユーザーと匿名ユーザーの両方をサポートします。 エンタープライズユーザーおよび匿名ユーザー向けダイヤルイン会議の構成の詳細については、「Skype for Business Server での会議の展開」および[「Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md) でのダイヤルイン会議の[構成」を参照してください](../../deploy/deploy-conferencing/dial-in-conferencing.md)。
     
 - **クライアントが会議に参加する外部ユーザー Skype for Businessを有効にしますか?**
     
@@ -184,7 +184,7 @@ Web 会議を使用すると、会議の出席者は、会議中に共有され�
     
     外部ユーザーを許可する場合は、エッジ サーバーを展開する必要があります。 さらに、エッジ サーバーを展開すると、顧客やベンダーなど、他の組織とのフェデレーション関係を作成できます。また、それらの組織のユーザーは、ユーザーとの共同作業を容易に行うことができます。
     
-    エッジ サーバーの展開の詳細については、「Plan for Edge Servers」および「Deploy Edge Servers」を参照してください。 Web Apps Server の外部アクセスを有効Office詳細については、「Configure integration with Office Web Apps Server in Skype for Business Server」 を[参照してください](../../deploy/deploy-conferencing/office-web-app-server.md)。
+    エッジ サーバーの展開の詳細については、「Plan for Edge Servers」および「Deploy Edge Servers」を参照してください。 Web Apps Server の外部アクセスを有効Office詳細については、「Configure integration with [Office Web Apps Server in Skype for Business Server」 を参照してください](../../deploy/deploy-conferencing/office-web-app-server.md)。
     
 - **会議に参加できるクライアントをSkype for Business Serverしますか?**
     

@@ -5,8 +5,8 @@ ms:assetid: 91fd036b-b1af-47cf-b1cf-0aa0a783c2aa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182550(v=OCS.15)
 ms:contentKeyID: 48184857
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: エッジ サーバーを展開して組織のフェデレーションを有効にした際に、フェデレーション パートナー ドメインの自動検出をサポートするかどうかを指定しています。
-ms.openlocfilehash: 4e425566fb0b8aa463c93f0940582487dabaae3d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0742c8ecb2288ca91d8e7f72fc439f7347a7f55e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830011"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395319"
 ---
 # <a name="enable-or-disable-discovery-of-federation-partners-in-skype-for-business-server"></a>フェデレーション パートナーの検出を有効または無効にするSkype for Business Server
 
@@ -43,7 +43,7 @@ ms.locfileid: "60830011"
 
 6.  [**確定**] をクリックします。
 
-フェデレーション ユーザーが Skype for Business Server 展開でユーザーと共同作業を行う場合は、フェデレーション ユーザー アクセスをサポートするように少なくとも 1 つの外部アクセス ポリシーも構成している必要があります。 詳細については、「フェデレーションと [パブリック IM 接続を有効または無効にする」を参照してください](enable-or-disable-federation-and-public-im-connectivity.md)。 特定のフェデレーション ドメインのアクセス制御の詳細については [、「MANAGE SIP](../sip-domains/manage-sip-federated-domains-for-your-organization.md) フェデレーション ドメイン」および [「MANAGE SIP フェデレーション プロバイダー」を参照してください](../sip-providers/manage-sip-federated-providers-for-your-organization.md)。
+フェデレーション ユーザーが Skype for Business Server 展開でユーザーと共同作業を行う場合は、フェデレーション ユーザー アクセスをサポートするように少なくとも 1 つの外部アクセス ポリシーも構成している必要があります。 詳細については、「フェデレーションと [パブリック IM 接続を有効または無効にする」を参照してください](enable-or-disable-federation-and-public-im-connectivity.md)。 特定のフェデレーション ドメインのアクセス制御の詳細については、「 [MANAGE SIP](../sip-domains/manage-sip-federated-domains-for-your-organization.md) フェデレーション ドメイン」および「 [MANAGE SIP フェデレーション プロバイダー」を参照してください](../sip-providers/manage-sip-federated-providers-for-your-organization.md)。
 
 
 ## <a name="enabling-or-disabling-discovery-of-federation-partners-by-using-windows-powershell-cmdlets"></a>フェデレーション パートナーの検出を有効または無効にする場合は、Windows PowerShellコマンドレットを使用します。
@@ -53,10 +53,10 @@ ms.locfileid: "60830011"
 
 ## <a name="to-enable-discovery-of-federation-partners"></a>フェデレーション パートナーの検出を有効にするには
 
-  - フェデレーション パートナーの検出を有効にするには **、EnablePartnerDiscovery** プロパティの値を True ($True) に設定します。 このプロパティ値を変更するには、DNS SRV ルーティングを有効にする必要があります。<br/><br/>Set-CsAccessEdgeConfiguration -UseDnsSrvRouting -EnablePartnerDiscovery $True
+  - フェデレーション パートナーの検出を有効にするには、 **EnablePartnerDiscovery** プロパティの値を True ($True) に設定します。 このプロパティ値を変更するには、DNS SRV ルーティングを有効にする必要があります。<br/><br/>Set-CsAccessEdgeConfiguration -UseDnsSrvRouting -EnablePartnerDiscovery $True
 
 
 ## <a name="to-disable-discovery-of-federation-partners"></a>フェデレーション パートナーの検出を無効にするには
 
-  - フェデレーション パートナーの検出を無効にするには **、EnablePartnerDiscovery** プロパティの値を False ($False) に設定します。<br/><br/>Set-CsAccessEdgeConfiguration -UseDnsSrvRouting -EnablePartnerDiscovery $False
+  - フェデレーション パートナーの検出を無効にするには、 **EnablePartnerDiscovery** プロパティの値を False ($False) に設定します。<br/><br/>Set-CsAccessEdgeConfiguration -UseDnsSrvRouting -EnablePartnerDiscovery $False
 

@@ -1,7 +1,7 @@
 ---
 title: 啓発とトレーニングの実施
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1832ca945edab2560a5a604fe85c01c0c9f53f0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: faa91273932f4896f7ac49add0b76f5288f85870
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842529"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394469"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Microsoft Teams について啓発し、トレーニングを実施する
 
-認識とトレーニングは、導入戦略全体のマーケティングおよびコミュニケーション セグメントです。 これにより、従業員は、Microsoft Teams の新しい機能とその基になるサービスやアプリMicrosoft 365 Office 365認識できます。
+認識とトレーニングは、導入戦略全体のマーケティングおよびコミュニケーション セグメントです。 これにより、従業員は、Microsoft Teams サービスやアプリの基になる Microsoft 365機能Office 365認識できます。
    
 初期パイロットと最終的な会社全体のロールアウトの両方で、内部通信が優先される必要があります。 以下を含める必要があります。
 
@@ -49,10 +49,10 @@ ms.locfileid: "60842529"
 
 ## <a name="implement-end-user-training"></a>エンド ユーザー トレーニングを実装する
 
-リソースを使用して、ユーザーが他のサービスやサービスを使い始めるMicrosoft Teamsエンド Microsoft 365をMicrosoft 365提供Office 365します。 詳細については、リソース ページを参照してください。
+リソースを使用して、ユーザーが他のサービスやサービスを使い始めるMicrosoft Teamsエンド Microsoft 365をOffice 365します。 詳細については、リソース ページを参照してください。
 
 - [講師主導のエンド ユーザー によるトレーニング (Teams](instructor-led-training-teams-landing-page.yml)
-- [管理者向けトレーニングTeams](itadmin-readiness.md)
+- [管理者向けトレーニング Teams](itadmin-readiness.md)
 - [オンライン エンドユーザー ビデオ トレーニング](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 - [IT プロのチャンピオン向けクラウド オンライン トレーニング&コーヒー](https://aka.ms/CoffeeintheCloud) 
 - [導入ツール](https://aka.ms/O365AdoptionTools)
@@ -67,7 +67,7 @@ ms.locfileid: "60842529"
 - トレーニング ビデオの再生回数
 - 学習イベントの参加者
 
-フィードバック チャネルから得た分析情報をハッシュタグ と共有#TeamsStories簡単に取得できます。 1 か月ごとに、イントラネットで #TeamsStory を共有し、組織での生産性とコラボレーションを向上するために変更を受け入れている従業員をハイライト表示します。 また、Microsoft Technical Community の Driving Adoption フォーラムで共有してください。 これらの実際の例を自分の会社内から共有すると、ユーザー コミュニティで時間の過ぎた変化を実現するために非常に重要です。
+フィードバック チャネルから得た分析情報を、簡単に取得できるハッシュタグ #TeamsStories共有します。 1 か月ごとに、イントラネットで #TeamsStory を共有し、組織での生産性とコラボレーションを向上するために変更を受け入れている従業員をハイライト表示します。 また、Microsoft Technical Community の Driving Adoption フォーラムで共有してください。 これらの実際の例を自分の会社内から共有すると、ユーザー コミュニティで時間の過ぎた変化を実現するために非常に重要です。
 
 [詳細については、Microsoft Teamsの使用状況レポートに関するMicrosoft 365 管理センター。](teams-activity-reports.md)
 

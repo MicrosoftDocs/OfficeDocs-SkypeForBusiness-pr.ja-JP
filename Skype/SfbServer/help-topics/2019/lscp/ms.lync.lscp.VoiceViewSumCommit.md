@@ -1,8 +1,8 @@
 ---
 title: コミットされていない音声構成設定コミット
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: cb51f2ef-0235-4b77-8b2c-e2b0d3ff3608
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[コミットされていない音声構成] ダイアログ 設定を使用して、行ったすべての変更を確認できます。 ダイアログ ボックス内をスクロールして未確定の変更をすべて確認するか、矢印をクリックして別のセクションを展開または折りたたみます。 終了したら、[確定] をクリックしてそれらの変更をすべて確定するか、[キャンセル] をクリックして戻り、変更点を修正します。'
-ms.openlocfilehash: 806c00b77529d9c6a6f3eac7fadb107ad59f1ba2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: eb5a7b7240b28d53e1313ea4f645e30706e7306d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851471"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393219"
 ---
 # <a name="uncommitted-voice-configuration-settings-commit"></a>コミットされていない音声構成設定: コミット
  
