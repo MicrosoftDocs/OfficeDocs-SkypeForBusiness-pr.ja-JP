@@ -1,8 +1,8 @@
 ---
 title: 割り当てられていない電話番号
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,17 +15,17 @@ ms.localizationpriority: medium
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 ROBOTS: NOINDEX, NOFOLLOW
 description: 未使用の番号とは、組織にとって有効であるが、ユーザーや電話に割り当てられていない電話番号です。未使用の番号の表は、それらの番号に対して発信があった場合の対処方法を示します。
-ms.openlocfilehash: fa7fd55f0c0fae22643d0dde66cae32c2610bdcd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 113b0273d22b8bacb8df8a97fdb9efbf2e9a4421
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834525"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390579"
 ---
 # <a name="unassigned-phone-number"></a>割り当てられていない電話番号
 
 > [!NOTE]
-> ExchangeUM は、2019 Skype for Business Server 2019 と Skype for Business 2013 または Exchange 2016 Exchangeで使用できます。 Exchange 2019 年のサポートの変更により、Exchange UM の統合は、クラウド ボイスメール とクラウド の機能を重視自動応答されています。
+> Exchange 2019 Skype for Business Server 201 Exchange 9 と Skype for Business 2013 または Exchange 2016 を統合した場合、UM は引き続きExchangeされます。 Exchange 2019 年のサポートの変更により、Exchange UM の統合は、クラウド ボイスメール とクラウド の機能を重視自動応答されています。
 
 未使用の番号とは、組織にとって有効であるが、ユーザーや電話に割り当てられていない電話番号です。未使用の番号の表は、それらの番号に対して発信があった場合の対処方法を示します。
 
@@ -52,7 +52,7 @@ ms.locfileid: "60834525"
 
 次の一覧に、このページのコマンドを示します。
 
-- **New** 割り当てられていない新しい番号範囲を開始します。
+- **新機能** 割り当てられていない新しい番号範囲を開始します。
 
 - **編集** 選択した割り当てられていない番号範囲を編集用に開き、リスト内のすべての割り当てられていない番号範囲を選択するか、選択した割り当てられていない番号範囲を削除します。
 
@@ -84,4 +84,4 @@ ms.locfileid: "60834525"
 
 - **お知らせ** 割り当てられていないこの範囲の番号に対して再生されるアナウンス。
 
-アナウンスの機能の詳細については、「計画」のドキュメントの「Plan for the [Announcement application in](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) Skype for Business」を参照してください。 未使用の番号範囲の操作の詳細については、「操作」のドキュメントの「[Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers)」を参照してください。
+お知らせの機能の詳細については、「計画」のドキュメントの「Plan [for the Announcement application in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/announcement.md)」を参照してください。 未使用の番号範囲の操作の詳細については、「操作」のドキュメントの「[Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers)」を参照してください。

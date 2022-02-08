@@ -1,8 +1,8 @@
 ---
 title: ハイブリッド環境のサーバー間認証Skype for Business Server構成する
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 700639ec-5264-4449-a8a6-d7386fad8719
 description: '概要: ハイブリッド環境のサーバー間認証Skype for Business Server構成します。'
-ms.openlocfilehash: 617c388dc4c4120beb457e4e2c90246e06c76d6d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f07c5f9fb930910422c264d1ca61f992c84f1600
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830931"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391179"
 ---
 # <a name="configure-server-to-server-authentication-for-a-skype-for-business-server-hybrid-environment"></a>ハイブリッド環境のサーバー間認証Skype for Business Server構成します。
 
@@ -75,11 +75,11 @@ $TenantID = (Get-CsTenant -Filter {DisplayName -eq "Fabrikam.com"}).TenantId
 このスクリプトを実行するには、オンライン PowerShell モジュールSkype for Businessインストールし、このモジュールを使用してテナントに接続する必要があります。 これらのコマンドレットをインストールしていない場合、このコマンドレットを使用できないGet-CsTenantスクリプトは失敗します。 スクリプトが完了したら、Skype for Business Server と承認サーバーの間に信頼関係を構成し、Exchange 2013/2016 と認証サーバーとの間に 2 番目の信頼関係を構成する必要があります。 これは、Microsoft Online Services コマンドレットを使用してのみ行うことができます。
 
 > [!NOTE]
-> このコマンドレットをインストールしていないMicrosoft Online Services、コマンドレットを使用して PowerShell リポジトリからインストールする必要があります `install-module MSOnline` 。 モジュールのインストールと使用の詳細については、Microsoft Online Services Web サイトMicrosoft 365参照してください。 また、これらの手順では、シングル サインオン、フェデレーション、および同期を構成する方法について説明しますMicrosoft 365または Office 365 Active Directory。 
+> このコマンドレットをインストールしていないMicrosoft Online Services、コマンドレットを使用して PowerShell リポジトリからインストールする必要があります `install-module MSOnline`。 モジュールのインストールと使用の詳細については、Microsoft Online Services Web サイトMicrosoft 365参照してください。 また、これらの手順では、シングル サインオン、フェデレーション、および同期を構成する方法について説明しますMicrosoft 365または Office 365 Active Directory。 
 
 
 
-Microsoft 365 または Office 365 を構成し、Skype for Business Server および Exchange 2013 の Microsoft 365 または Office 365 サービス プリンシパルを作成した後、資格情報を登録する必要があります。これらのサービス プリンシパルを使用します。 これを行うには、まず、 として保存された X.509 Base64 証明書を取得する必要があります。CER ファイル。 この証明書は、サービス プリンシパルまたはサービス Microsoft 365 Office 365されます。
+サービス プリンシパルまたは Microsoft 365 Office 365を構成し、Microsoft 365 または Office 365 サービス プリンシパルを作成したSkype for Business ServerおよびExchange 2013 では、資格情報をこれらのサービス プリンシパルに登録する必要があります。 これを行うには、まず、 として保存された X.509 Base64 証明書を取得する必要があります。CER ファイル。 この証明書は、サービス プリンシパルまたはサービス Microsoft 365 Office 365されます。
 
 X.509 証明書を取得した後、PowerShell コンソールを開き、サービス プリンシパルの管理に使用できるコマンドレットを含む Microsoft Online Windows PowerShell モジュールをインポートします。
 
@@ -123,7 +123,7 @@ $binaryValue = $certificate.GetRawCertData()
 $credentialsValue = [System.Convert]::ToBase64String($binaryValue) 
 ```
 
-証明書をインポートしてエンコードしたら、証明書をサービス プリンシパルまたはサービス Microsoft 365 Office 365できます。 これを行うには、最初に Get-MsolServicePrincipal を使用して、Skype for Business Server と Microsoft Exchange サービス プリンシパルの両方の AppPrincipalId プロパティの値を取得します。AppPrincipalId プロパティの値は、証明書に割り当てられているサービス プリンシパルを識別するために使用されます。 アプリケーションの AppPrincipalId プロパティ値を手Skype for Business Server、次のコマンドを使用して、証明書を For Business Online Skypeに割り当てる。
+証明書をインポートしてエンコードしたら、証明書をサービス プリンシパルまたはサービス Microsoft 365 Office 365できます。 これを行うには、まず Get-MsolServicePrincipal を使用して、Skype for Business Server と Microsoft Exchange サービス プリンシパルの両方の AppPrincipalId プロパティの値を取得します。AppPrincipalId プロパティの値を使用して、証明書が割り当てられているサービス プリンシパルを識別します。 アプリケーションの AppPrincipalId プロパティ値を手Skype for Business Server、次のコマンドを使用して、証明書を For Business Online Skypeに割り当てる。
 
 ```PowerShell
 New-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -Type Asymmetric -Usage Verify -Value $credentialsValue 

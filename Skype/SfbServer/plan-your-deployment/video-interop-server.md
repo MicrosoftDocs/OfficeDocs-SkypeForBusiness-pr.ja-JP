@@ -1,8 +1,8 @@
 ---
 title: ビデオ相互運用サーバーの計画をSkype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4a8daf23-77ba-428b-bcbc-161f6af52c11
 description: '概要: サード パーティ製の電話会議デバイスにSkype for Business Serverを計画する場合は、このトピックを確認してください。'
-ms.openlocfilehash: b928e432b464e6bf1a5ccb8748ebf75ef8cc596b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 38e5baebc55cbcb209260f003ea107af590f94e8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862064"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389939"
 ---
 # <a name="plan-for-video-interop-server-in-skype-for-business-server"></a>ビデオ相互運用サーバーの計画をSkype for Business Server
  

@@ -1,8 +1,8 @@
 ---
 title: 管理者のアクセス許可をテストSkype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 管理者のアクセス許可をテストするSkype for Business Server
-ms.openlocfilehash: 2c4525d83f3a097abfa168b706885a939e3b0663
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 48ffbe6863a85ecaa98cb526c16819f3d520def0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859984"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391119"
 ---
 # <a name="testing-admin-permissions-in-skype-for-business-server"></a>管理者のアクセス許可をテストSkype for Business Server
 
@@ -31,7 +31,7 @@ ms.locfileid: "60859984"
 
 Skype for Business Server をインストールすると、セットアップ プログラムによって実行されたタスクの 1 つが、ユーザー、コンピューター、連絡先、アプリケーション連絡先、および InetOrg ユーザーを管理するために必要な Active Directory アクセス許可を RTCUniversalUserAdmins グループに付与します。 Active Directory でアクセス許可の継承を無効にしている場合、セットアップではこれらのアクセス許可を割り当てできません。 その結果、RTCUniversalUserAdmins グループのメンバーは、エンティティを管理Skype for Business Serverされます。 これらの管理特権は、ドメイン管理者だけが利用できます。 
 
-このTest-CsOUPermissionコマンドレットは、ユーザー、コンピューター、その他のオブジェクトを管理するために必要なアクセス許可が Active Directory コンテナーに設定されているのを確認します。 これらのアクセス許可が設定されていない場合は [、Grant-CsOUPermission](/powershell/module/skype/Grant-CsOUPermission)コマンドレットを実行して、この問題を解決できます。 
+このTest-CsOUPermissionコマンドレットは、ユーザー、コンピューター、その他のオブジェクトを管理するために必要なアクセス許可が Active Directory コンテナーに設定されているのを確認します。 これらのアクセス許可が設定されていない場合は、 [Grant-CsOUPermission コマンドレットを実行して、この問題を解決できます](/powershell/module/skype/Grant-CsOUPermission)。 
 
 RTCUniversalUserAdmins グループのメンバーにのみアクセス許可を割り当てGrant-CsOUPermissionに注意してください。 このコマンドレットを使用して、任意のユーザーまたはグループにアクセス許可を付与することはできません。 別のユーザーまたはグループにユーザー管理アクセス許可を付与する場合は、そのユーザー (またはグループ) を RTCUniversalUserAdmins グループに追加する必要があります。 
 
@@ -54,7 +54,7 @@ RTCUniversalUserAdmins グループのメンバーにのみアクセス許可を
 
 True
 
-必要なアクセス許可が設定されていない場合、Test-CsOUPermission False が返されます。 この値を見つけるには、しばらく検索する必要がある場合があります。 通常、いくつかの付随する警告の内部に埋め込む必要があります。 例:
+必要なアクセス許可が設定されていない場合、Test-CsOUPermission False が返されます。 この値を見つけるには、しばらく検索する必要がある場合があります。 通常、いくつかの付随する警告の内部に埋め込む必要があります。 次に例を示します。
 
 警告: アクセス制御エントリ (ACE) atl-cs-001\RTCUniversalUserReadOnlyGroup;allow;ReadProperty;ContainerInherit;Descendents;bf967aba-0de6-11d0-00aa003049e2;d819615a-3b9b-4738-b47e-f1bd8ee3aea4 
 

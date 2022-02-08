@@ -1,8 +1,8 @@
 ---
 title: '[通話の詳細記録を有効にする] Skype for Business Server'
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
 description: '概要: 通話詳細記録 (CDR) レコードを有効にする方法については、Skype for Business Server。'
-ms.openlocfilehash: 7c987eccb9e75d1dc71f98e3cebea4003432523c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bb041b82a32c4e3c03a62faf1129a066db5f9448
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863584"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390189"
 ---
 # <a name="enable-call-detail-recording-in-skype-for-business-server"></a>[通話の詳細記録を有効にする] Skype for Business Server
 
@@ -45,7 +45,7 @@ ms.locfileid: "60863584"
 
 ## <a name="enabling-cdr-by-using-windows-powershell-cmdlets"></a>複数のコマンドレットを使用して CDR をWindows PowerShellする
 
-CDR を有効にするには、Windows PowerShell **Set-CsCdrConfiguration コマンドレットを使用** します。 このコマンドレットは、管理者管理シェルSkype for Business Serverリモート セッションから実行Windows PowerShell。 リモート サーバーを使用してサーバー Windows PowerShellする方法[Skype for Business Server、Microsoft Lync リモート PowerShell 管理を参照してください](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 このプロセスは、同じSkype for Business Server。
+CDR を有効にするには、Windows PowerShell **Set-CsCdrConfiguration コマンドレットを使用** します。 このコマンドレットは、管理者管理シェルSkype for Business Serverリモート セッションから実行Windows PowerShell。 リモート サーバーを使用してリモート Windows PowerShell接続する方法Skype for Business Server [Microsoft Lync リモート PowerShell 管理」を参照してください](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 このプロセスは、同じSkype for Business Server。
 
 ### <a name="to-enable-cdr-for-a-single-location"></a>1 つの場所の CDR を有効にするには
 
@@ -71,7 +71,7 @@ CDR を有効にするには、Windows PowerShell **Set-CsCdrConfiguration コ�
   Get-CsCdrConfiguration | Set-CsCdrConfiguration -EnableCDR $True
   ```
 
-詳細については [、Set-CsCdrConfiguration](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) コマンドレットのヘルプ トピックを参照してください。
+詳細については、 [Set-CsCdrConfiguration コマンドレットのヘルプ トピックを参照](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) してください。
 
 ## <a name="see-also"></a>関連項目
 

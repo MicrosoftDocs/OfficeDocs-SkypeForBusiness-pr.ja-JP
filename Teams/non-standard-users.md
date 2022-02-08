@@ -1,7 +1,7 @@
 ---
 title: 非標準ユーザーに対する Teams アプリの動作
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: joglocke
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 957574b112c0fbb8fc7efc4fedf726fa7395f4b5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 621614b9fc3d46d4629ce8b62dbbcc7b579698db
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846090"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390829"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>非標準ユーザーに対する Microsoft Teams アプリの動作
 

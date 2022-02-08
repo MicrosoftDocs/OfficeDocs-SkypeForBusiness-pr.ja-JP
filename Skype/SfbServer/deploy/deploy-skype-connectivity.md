@@ -1,8 +1,8 @@
 ---
 title: ネットワークSkype接続を展開Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: '概要: ユーザーとコンシューマーを接続Skype for Business ServerするSkypeします。 また、接続のSkype呼び出されます。'
-ms.openlocfilehash: c8bdbf96fcbf0831433ad2274d8ab89911df1de5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 834d5329e15f5fc52a24e5f1c86a02c416f04d31
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835825"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389669"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>ネットワークSkype接続を展開Skype for Business Server
 
@@ -26,36 +26,36 @@ ms.locfileid: "60835825"
   
 この記事では、ネットワーク接続の展開Skype説明します。
   
-## <a name="skype-connectivity-overview-for-it-professionals"></a>SkypeIT 担当者向け接続の概要
+## <a name="skype-connectivity-overview-for-it-professionals"></a>Skypeの接続の概要
 
-Skype接続は、Skype for Businessユーザーを検索して追加する機能をユーザー Skypeします。 Skype接続は、ユーザーとフェデレーションSkype for Businessディレクトリ検索を有効にできる、Skype機能です。 [接続] Skypeを有効Skype for Businessユーザーはユーザーを検索して追加Skypeできます。
+Skype接続は、Skype for Businessユーザーを検索して追加する機能をユーザー Skypeします。 Skype接続は、Skype for Businessユーザーとのフェデレーションとディレクトリ検索を有効にできるSkype機能です。 [接続] Skypeを有効Skype for Businessユーザーはユーザーを検索して追加Skypeできます。
   
 ## <a name="skype-directory-search"></a>Skypeディレクトリ検索
 
-Skypeディレクトリ検索機能は、Skype for Businessの連絡先を検索する機能をユーザー Skypeします。 検索機能を使用すると、ユーザーは次の情報を使用して検索できます。
+Skype検索機能は、Skype for Businessの連絡先を検索する機能をSkypeします。 検索機能を使用すると、ユーザーは次の情報を使用して検索できます。
   
 - **表示名で検索します。例: "John Doe"** - これは多くの結果を返す可能性があります。そのため、探している情報が見当たらされない可能性があります。
     
 - **表示名と場所で検索します。たとえば"John Doe in バルセロナ"** - これにより、検索の結果が大幅に絞り込まれる可能性があります。
     
-- **電子メールによる検索、"johndoe@outlook.com"** の例 - ほとんどの場合、結果は 1 つ返されます。指定した電子メールと完全に一致するメール。 ただし、同じメールが複数のアカウントに関連付けられている場合は、複数の結果が返される可能性があります。
+- **電子メールで検索する、"johndoe@outlook.com"** の例 - ほとんどの場合、結果は 1 つ返されます。指定した電子メールと完全に一致するメール。 ただし、同じメールが複数のアカウントに関連付けられている場合は、複数の結果が返される可能性があります。
     
 - **電話番号で検索します。たとえば"123-123-1234"** - ほとんどの場合、結果は 1 つ返されます。指定した電話と完全に一致する電話機を指定します。 電話には、国コード (1-xxx-yyy-zzzz) を含める必要があります。 同じ電話番号が複数のアカウントに関連付けられている場合は、複数の結果が返される場合があります。
     
 - **[名前Skype検索] の例 "JohnDoe1456"** - 完全一致が見つかった場合は、最初の結果として返されます。 その他の可能性がある "名前" の一致が返される場合があります。
     
     > [!NOTE]
-    > Skypeディレクトリ検索は、ポート 443 の 104.40.75.246、23.101.135.34、および 40.113.86.19 の IP アドレスと通信できる必要があります。 
+    > Skype ディレクトリ検索は、ポート 443: 104.40.75.246、23.101.135.34、および 40.113.86.19 の IP アドレスと通信できる必要があります。 
   
 ## <a name="supported-deployment-matrix-for-skype-directory-search"></a>ディレクトリ検索でサポートされる展開Skypeマトリックス
 
 次の表では、ディレクトリ検索のSkype説明します。
   
 
-|&nbsp;|Skype for Business Serverフロントエンド|Lync Server 2013 (または古い) フロントエンド|Comments|
+|&nbsp;|Skype for Business Serverフロントエンド|Lync Server 2013 (または古い) フロントエンド|コメント|
 |:-----|:-----|:-----|:-----|
-|Skype for Business Serverエッジ   |サポートされている   |サポート対象外   |Skype for Business Serverおよびエッジは、ディレクトリ検索Skype前提条件です   |
-|Skype for Business Serverエッジ + Lync Server 2013 Edge が並べて展開されている   |サポートされている   |サポート対象外   |Skypeディレクトリ検索トラフィックは、エッジ サーバー Skype for Business Server流れます。 フェデレーション トラフィックは、管理者が構成したエッジを通過します。 たとえば、管理者は、ディレクトリ検索をサポートしない Lync Server 2013 エッジ サーバーを通じてフェデレーション トラフィックの送信Skype選択できます。   |
+|Skype for Business Server エッジ   |サポート   |サポート対象外   |Skype for Business Serverおよびエッジは、ディレクトリ検索Skype前提条件です   |
+|Skype for Business Server + Lync Server 2013 Edge が並べて展開されている   |サポートされている   |サポート対象外   |Skype検索トラフィックは、エッジ サーバー Skype for Business Server流れます。 フェデレーション トラフィックは、管理者が構成したエッジを通過します。 たとえば、管理者は、ディレクトリ検索をサポートしない Lync Server 2013 エッジ サーバーを通じてフェデレーション トラフィックの送信Skype選択できます。   |
 |Lync Server 2013 (または古い) Edge   |サポート対象外   |サポート対象外   ||
    
 > [!NOTE]
@@ -75,11 +75,11 @@ Skypeディレクトリ検索機能は、Skype for Businessの連絡先を検索
   
 ## <a name="deploying-skype-connectivity-for-skype-for-business-online"></a>オンラインSkype接続の展開Skype for Businessする
 
-Skype接続は、Skype for Businessの一部である Skype for Business Online の機能Microsoft 365ですOffice 365。 接続機能は、Skype内の Skype for Business管理センターから有効Microsoft 365 管理センター。
+Skype Connectivity は、Skype for Businessオンラインの機能で、Microsoft 365とOffice 365。 接続機能は、Skype内の Skype for Business管理センターから有効Microsoft 365 管理センター。
   
-Midsize Business Microsoft 365 Office 365 Enterprise、Microsoft 365 Education、Office 365 for Government: Microsoft 365 管理センター にサインインし、Skype for Business 管理センターに移動します。 [外部通信] に移動します。 [パブリック IM サービス プロバイダー] で、[有効] をクリックします。 接続に対する個々のユーザー アクセスをSkypeする場合は、個々のユーザーの外部通信設定を編集します。
+Midsize Business Microsoft 365、Office 365 Enterprise、Microsoft 365 Education、Office 365 の場合: Microsoft 365 管理センター にサインインし、Skype for Business管理センター。 [外部通信] に移動します。 [パブリック IM サービス プロバイダー] で、[有効] をクリックします。 接続に対する個々のユーザー アクセスをSkypeする場合は、個々のユーザーの外部通信設定を編集します。
   
-[Office 365 Small Business Premium: Office 365 にサインインし、[管理者サービス] 設定、会議、会議 \> \> に移動します。 [外部通信] をオンにする。 外部通信スイッチは、接続と通信Skypeを使用する他の組織との通信の両方をオンSkype for Business。
+[Office 365 Small Business Premium: Office 365 にサインインし、[管理者\>\>サービス] 設定、会議、会議に移動します。 [外部通信] をオンにする。 外部通信スイッチは、接続と通信Skypeを使用する他の組織との通信の両方をオンSkype for Business。
   
 オンライン管理の詳細についてはSkype for Businessを参照してください。
   
@@ -141,7 +141,7 @@ Skype for Business オンプレミス展開と Skype 間のフェデレーショ
 
 次に、接続Skype for Business Server構成に必要な環境と管理タスクSkypeします。 このセクションでは、管理者がエッジ サーバーとも呼ばれるSkype for Business Server、構成された外部アクセスを展開したと仮定します。 
   
-フェデレーションと PIC を有効にするには、3 つの主要な手順が必要です。 それらを次に示します:
+フェデレーションと PIC を有効にするには、3 つの主要な手順が必要です。 それらを次に示します。
   
 1. フェデレーションと PIC の構成
     
@@ -204,7 +204,7 @@ Skype for Business オンプレミス展開と Skype 間のフェデレーショ
     
    - ProxyFqdn: フェデレーション Skypeの場所 (Microsoft が所有/管理)
     
-   - IconURL: Lync Skype for Businessが連絡先を視覚的 &amp; に識別Skypeアイコン
+   - IconURL: Lync &amp; Skype for Businessが連絡先を視覚的に識別Skypeアイコン
     
    - NameDecorationRoutingDomain と NameDecorationExcludedDomainList: これらを設定すると、ユーザーは "msn.com" で Microsoft 以外のドメインを "装飾" する必要なく、Skype ユーザーの MSA を入力できます。 これにより、ExcludedDomainList に含 user(contoso.com)@msn.com ドメインの "user(contoso.com)@msn.com" と入力する必要が無くなっています。 ドメインが除外リストに含めされていない場合、SfB クライアントは自動的に MSA の書式を設定します。 除外リストに最も一般的な Microsoft アカウント ドメインが追加されました。
     
@@ -212,7 +212,7 @@ Skype for Business オンプレミス展開と Skype 間のフェデレーショ
      > 変更が行われた場合は、パブリック プロバイダーを削除して新しく追加する必要があります。 インプレイス変更は許可されません。 
   
      > [!NOTE]
-     > Office 2013 SP1 の Lync Server 2013 CU5 Lync デスクトップ クライアントに追加された &amp; NameDecorationRoutingDomain と NameDecorationExcludedDomainList は、Lync ユーザーが microsoft 以外のドメインを識別して Skype にルーティングするために必要な Skype 連絡先を追加する状況を改善します (user(contoso.com)@msn.com の形式)。 NameDecorationExcludedDomainList (現在、msn.com、live.com、Hotmail.com、outlook.com) のドメインが含まれている場合、これらの新しい設定では、NameDecorationRoutingDomain (msn.com に設定する必要があります) を含む [Skype 連絡先の追加] ダイアログ ボックスで、アドレス ユーザーの入力を自動的に書式設定できます。 
+     > Office 2013 SP1 の Lync Server 2013 CU5 &amp; Lync デスクトップ クライアントに追加された NameDecorationRoutingDomain と NameDecorationExcludedDomainList は、Lync ユーザーが microsoft 以外のドメインを識別して Skype にルーティングするために必要な Skype 連絡先を追加する状況を改善します (user(contoso.com)@msn.com の形式)。 NameDecorationExcludedDomainList (現在、msn.com、live.com、Hotmail.com、outlook.com) のドメインが含まれている場合、これらの新しい設定では、NameDecorationRoutingDomain (msn.com に設定する必要があります) を含む [Skype 連絡先の追加] ダイアログ ボックスで、アドレス ユーザーの入力を自動的に書式設定できます。 
   
 3. クライアント ユーザー Skype for Businessユーザーは、ユーザーを検索して追加Skypeできます。
     
@@ -221,17 +221,17 @@ Skype for Business オンプレミス展開と Skype 間のフェデレーショ
 次の表に、最新バージョンのコンシューマーと最新バージョンのSkype間の相互運用Skype for Business。
   
 
-|Skypeクライアント|連絡先、IM、プレゼンス、オーディオ、ビデオ通話を追加する|Comment|
+|Skype クライアント|連絡先、IM、プレゼンス、オーディオ、ビデオ通話を追加する|Comment|
 |:-----|:-----|:-----|
-|Skype Windows デスクトップ   |7.6 以上、WINDOWS以上   |**NEW**: Windows XP および Windows Windows Vista で実行されている Windows Skype クライアントのサポートが追加されました (最新のクライアント バージョン **7.26 以降が必要)**  |
+|Skype Windows デスクトップ   |7.6 以上、WINDOWS以上   |**NEW**: Windows XP および Windows Vista で実行されている Windows Skype クライアントのサポートが追加されました (最新のクライアント バージョン **7.26 以降が必要)**  |
 |Skypeモバイル - Android 電話タブレット   |6.19 以上、Android OS バージョン 4.0.3 以上を実行している   |低スペックデバイスがビデオ通話をサポートしていない可能性があります   |
-|Skypeモバイル - iOS   |IOS 7 以上で 6.11 以上   |サポートされていないのは、iPhone 4 以前の iPod 第 4 世代以前の第 1 世代iPadバージョンです。   |
-|SkypeMac   |Mac OS X 10.9 (Mavericks) 以上の 7.19 以上   |Mac OSX 10.9 以上が必要   |
-|Skypeユニバーサル Windows アプリ (Windows 10) デスクトップとモバイル   |Windows 10 (Redstone 1 の更新以降)   |Windowsユニバーサル アプリは、相互運用機能のサポートを追加する 2016 年秋に更新プログラムを受け取る   |
+|Skype モバイル - iOS   |IOS 7 以上で 6.11 以上   |サポートされていないのは、iPhone 4 以前の iPod 第 4 世代以前の第 1 世代iPadバージョンです。   |
+|Skype Mac   |Mac OS X 10.9 (Mavericks) 以上の 7.19 以上   |Mac OSX 10.9 以上が必要   |
+|Skype ユニバーサル Windows アプリ (Windows 10) デスクトップとモバイル   |Windows 10 (Redstone 1 の更新以降)   |Windowsユニバーサル アプリは、相互運用機能のサポートを追加する 2016 年秋に更新プログラムを受け取る   |
    
 次の表に、最新バージョンの Skype for Business コンシューマーと最新バージョンの相互運用Skype示します。 
   
-|Client|Skypeディレクトリ検索と連絡先の追加|SkypeA/V、IM 相互運用|
+|Client|Skype検索と連絡先の追加|Skype/V、IM 相互運用|
 |:-----|:-----|:-----|
 |Skype for Business   |はい   |はい   |
 |Mac 版 Skype for Business   |追加可能 (検索なし)   |はい   |

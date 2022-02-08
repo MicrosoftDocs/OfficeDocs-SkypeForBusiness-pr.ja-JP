@@ -1,7 +1,7 @@
 ---
 title: アーリー アダプターに関与してフィードバックを収集する
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a87a6802a538609e9899f2645833a1e9bdab120f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0cbc0f8d77aaa29c7c1d5ba76715840b6a535707
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840729"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390809"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>アーリー アダプターに関与して、Microsoft Teams についてのフィードバックを収集する
 
@@ -49,4 +49,4 @@ ms.locfileid: "60840729"
 > 一部の組織では、早期導入者からのフィードバックのためにチャネルをチームワーク チャンピオン プログラム チームに組み合わせます。 多くの早期採用者が将来チャンピオンになり、より強力なコミュニティを構築する可能性があるため、これは良いアプローチです。 
 
 
-![次のステップを表すアイコン。](media/teams-adoption-next-icon.png) 次: サポート [をオンボードします](teams-adoption-onboard-support.md)。
+![次のステップを表すアイコン。](media/teams-adoption-next-icon.png) 次へ: [サポートをオンボードします](teams-adoption-onboard-support.md)。

@@ -1,8 +1,8 @@
 ---
 title: VTC for Interoperation for Interoperation with Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1016aed6-99fe-452e-8b20-81c814808c3d
 description: '概要: VTC デバイスを構成して、デバイスをSkype for Business Server。'
-ms.openlocfilehash: f3804c0d7f86710fbefa9477d6cf1790b0f16af9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8044e2038ebb8e9c1b68b5b91473e9e57dd1fb7a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861804"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389659"
 ---
 # <a name="configure-a-vtc-for-interoperation-with-skype-for-business-server"></a>VTC for Interoperation for Interoperation with Skype for Business Server
  
@@ -30,7 +30,7 @@ SIP トランクと Cisco Unified Communications Manager (CallManager,または 
   
 ### <a name="configure-a-vtc-registered-with-cucm"></a>CUCM に登録されている VTC を構成する
 
-1. Cisco VTC デバイスにログインし、[Configuration- \> System Configuration- \> Provisioning] に移動します。
+1. Cisco VTC デバイスにログインし、[Configuration-System Configuration-Provisioning\>] に\>移動します。
     
 2. 次の設定を確認し、必要に応じて修正します。 
     
@@ -40,7 +40,7 @@ SIP トランクと Cisco Unified Communications Manager (CallManager,または 
    |ExternalManager アドレス  <br/> | CUCM の FQDN <br/> |
    | ExternalManager ドメイン <br/> |CUCM のドメイン  <br/> |
    
-3. [構成- システム構成- \> ネットワーク] \> に移動します。
+3. [Configuration-System Configuration-Network\>] に移動\>します。
     
 4. 次の設定を確認し、必要に応じて修正します。 
     
@@ -49,7 +49,7 @@ SIP トランクと Cisco Unified Communications Manager (CallManager,または 
    |DNS ドメイン名  <br/> | CUCM のドメイン名 <br/> |
    |DNS Server 1 アドレス  <br/> | 目的の DNS サーバー アドレス <br/> |
    
-5. [構成- システム構成- \> ネットワーク サービス] \> に移動します。 H.323 モードがオフになっていて、SIP モードがオンになっていることを確認します。 
+5. [Configuration-System Configuration-Network\>\> Services] に移動します。 H.323 モードがオフになっていて、SIP モードがオンになっていることを確認します。 
     
 6. これらのオプションは、エンドポイントが CUCM に登録されている場合に自動的に設定されます。 次の設定を確認し、必要に応じて修正します。 
     
@@ -62,7 +62,7 @@ SIP トランクと Cisco Unified Communications Manager (CallManager,または 
    |WelcomeText  <br/> | オン <br/> |
    |XMLAPI モード  <br/> | オン <br/> |
    
-7. [構成- システム構成- \> \> SIP] に移動します。
+7. [Configuration-System Configuration-SIP\>] に\>移動します。
     
 8. 次の設定を確認し、必要に応じて修正します。 
     
@@ -78,7 +78,7 @@ SIP トランクと Cisco Unified Communications Manager (CallManager,または 
 VTC は相互運用用に構成されています。 サービスを開始する前に、CUCM 側で実行する最後の手順があります。
 ### <a name="configure-vtc-devices-on-cucm"></a>CUCM で VTC デバイスを構成する
 
-1. CUCM にログインし、[Cisco Unified CM \> Administration- Device- \> 電話- 検索] に \> 移動します。 
+1. CUCM にログインし、Cisco Unified CM Administration-Device\>-\>電話-Find に移動\>します。 
     
 2. 構成する VTC デバイスを選択します。 [構成] 画面で次の電話を確認し、必要に応じて修正します。 これらの設定が変更または確認された後、[保存] を **クリックします**。
     

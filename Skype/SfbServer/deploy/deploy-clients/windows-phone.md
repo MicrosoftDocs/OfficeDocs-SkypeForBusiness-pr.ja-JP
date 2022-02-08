@@ -1,8 +1,8 @@
 ---
 title: インストールとテストのSkype for Business for Windows Phone
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 54289bbe-97e7-44bf-8611-4e740fc5b998
 description: '概要: デバイスにインストールしてテストするSkype for BusinessをWindows Phone。'
-ms.openlocfilehash: 49ba719f13edfa2d9dc85d00c71c59dc5b19b8d8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: da3f61b5fdc37cd07a793aad561ff51dcc7f185d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843540"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390719"
 ---
 # <a name="install-and-test-skype-for-business-for-windows-phone"></a>インストールとテストのSkype for Business for Windows Phone
  
@@ -29,11 +29,11 @@ ms.locfileid: "60843540"
   
 ## <a name="install-skype-for-business-windows-phone-81"></a>8.1 Skype for Business Windows Phoneインストールする
 
-1. [8.1 Windows Phone更新の](https://www.windowsphone.com/en-us/how-to/wp8/update-central)中央を参照して、電話を 8.1 Windows Phone更新します。
+1. 電話を Windows Phone [8.1](https://www.windowsphone.com/en-us/how-to/wp8/update-central) に更新するには、Windows Phone 8 update central を参照します。
     
-2. お使いの携帯電話から、[ストア] に **移動し**、[ストア] を **Skype for Business。**
+2. スマートフォンから[ストア] に移動 **し**、アプリ **をSkype for Business。**
     
-3. [インストール **] をタップします**。 
+3. **[インストール]** をタップします。 
     
 ## <a name="sign-in-to-skype-for-business-for-the-first-time"></a>初めてSkype for Businessにサインインする
 
@@ -43,7 +43,7 @@ ms.locfileid: "60843540"
     
      ユーザー名とサインイン アドレスの両方を要求されることがあります。 ユーザー名は、組織のネットワークへのサインインに使用する名前で、user@domain.com\username のいずれかです。
     
-3. [カスタマー **エクスペリエンス向上プログラム] 画面** で、[参加] をタップして、アプリの問題と使用状況に関する匿名データを Microsoft に送信するか、参加しない場合は感謝なしをタップします。 
+3. [カスタマー **エクスペリエンス向上プログラム] 画面** で、[参加] をタップして、アプリの問題と使用状況に関する匿名データを Microsoft に送信するか、参加しない場合は感謝なしをタップします。
     
 4. [仕事 **の呼び出しを見逃す必要** はありません] 画面で、国と地域のコードを含む携帯電話番号を入力します。 Skype for Business for Windows Phone Wi-Fi または携帯電話データ ネットワークを使用してオーディオまたはビデオ通話を行えない場合、この番号で自動的に呼び出され、通話のオーディオ部分に接続されます。
     

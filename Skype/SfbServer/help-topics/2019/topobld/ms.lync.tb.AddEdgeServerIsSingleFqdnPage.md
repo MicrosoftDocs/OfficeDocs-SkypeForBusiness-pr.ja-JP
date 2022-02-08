@@ -1,8 +1,8 @@
 ---
 title: 単一 FQDN ページを持つエッジ サーバーの追加
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 44d98453-cb41-49cd-99cb-52b6ebd2d559
 ROBOTS: NOINDEX, NOFOLLOW
 description: エッジ サーバーの単一 FQDN ページに関する情報。
-ms.openlocfilehash: 165d3e7965eb37070fc1d873d0756a9bd804fad3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: eb18fa534f240f2f56dcf91f730d18f4357cc250
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835725"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390549"
 ---
 # <a name="add-edge-server-with-single-fqdn-page"></a>単一 FQDN ページを持つエッジ サーバーの追加
  
