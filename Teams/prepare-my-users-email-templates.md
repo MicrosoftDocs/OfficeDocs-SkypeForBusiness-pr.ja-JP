@@ -1,14 +1,14 @@
 ---
 title: オンライン電話システムロールアウト用のユーザー通知メール テンプレート
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: テンプレートを使用して、クラウドの音声機能を Teams または Skype for Business に実装する場合に、ユーザーにメールを送信します。
+description: テンプレートを使用して、クラウドの音声機能を Teams または Skype for Business に送信します。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -16,18 +16,18 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 975097e9772fbb804f47ac984207d92ec39d46ed
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d709dbbf52746c5eb3a264f6423133ac26b3c744
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834785"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393475"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>新しいオンライン電話システムのユーザー導入を促進する
 
 電話はユーザーのライフラインです。 従来の電話システムからオンライン電話システムへの切り替えは、ユーザーの作業方法の大きな変化を表し、生産性に悪影響を及ぼす可能性があります。 この変更を通じてユーザーに通知、ガイド、サポートを行う時間を取り、ユーザー エクスペリエンスを向上し、投資収益を最大化するのに役立ちます。
 
-この記事には、新しい電話システムについてユーザーに知らせるのに役立つカスタマイズ可能なメール テンプレートが含まれている。 特定の音声展開に合わせて適切なメールをカスタマイズして送信します。 個人用設定を簡単に行うセクションを示すために角かっこを使用しましたが、お知らせをユーザーにとって最も関連性の高い情報にするために、組織固有のメッセージングを追加することをお勧めします。 デプロイに該当する場合は、すべての参照を "Teams" を "Skype for Business" に置き換えます。
+この記事には、新しい電話システムについてユーザーに知らせるのに役立つカスタマイズ可能なメール テンプレートが含まれている。 特定の音声展開に合わせて適切なメールをカスタマイズして送信します。 個人用設定を簡単に行うセクションを示すために角かっこを使用しましたが、お知らせをユーザーにとって最も関連性の高い情報にするために、組織固有のメッセージングを追加することをお勧めします。 デプロイに該当する場合は、すべての参照を "Teams" に置き換Skype for Business。
 
 ## <a name="email-number-1-send-three-weeks-before-launch"></a>メール番号 1: 起動の 3 週間前に送信する
 

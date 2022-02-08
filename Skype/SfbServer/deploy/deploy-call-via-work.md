@@ -1,8 +1,8 @@
 ---
 title: '[作業を介して通話を展開する] Skype for Business Server'
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,18 +15,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
 description: '概要: ユーザーの一部またはすべてのユーザーに対して、Skype for Business Serverを展開する方法について学習します。'
-ms.openlocfilehash: 932d94c13d4ba9ead63504cfba66175db52084d7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7ac3d09d81e602c108e1804ad837dd1c87d17e1b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851621"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393419"
 ---
 # <a name="deploy-call-via-work-in-skype-for-business-server"></a>[作業を介して通話を展開する] Skype for Business Server
  
 **概要:** 一部またはすべてのユーザーに対して、Skype for Business Serverを展開する方法について学習します。
   
-次の手順を使用して、ユーザーの [作業による通話] を展開します。 計画に関する考慮事項については、「プラン[for Call Via Work in Skype for Business Server.](../plan-your-deployment/enterprise-voice-solution/call-via-work.md) 以前のバージョンの Lync Server リモート呼び出し制御は、ユーザーが Lync Server で PBX 電話を制御できる機能でした。 このSkype for Business Serverは、Call Via Work に置き換えされています。 
+次の手順を使用して、ユーザーの [作業による通話] を展開します。 計画に関する考慮事項については、「プラン [for Call Via Work in Skype for Business Server](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)。 以前のバージョンの Lync Server リモート呼び出し制御は、ユーザーが Lync Server で PBX 電話を制御できる機能でした。 このSkype for Business Serverは、Call Via Work に置き換えされています。 
   
 ## <a name="prerequisites-for-call-via-work"></a>仕事による通話の前提条件
 
@@ -38,7 +38,7 @@ Call Via Work では、すべてのフロントエンド サーバーに自動�
     
 - すべての [作業時間を使用して通話] ユーザーを有効にする必要エンタープライズ VoIP。 これを行う場合は、各ユーザー Skype for Business DID 番号を対応する PBX 電話システムの対応する DID 番号に構成する必要があります。 
     
-- Call Via Work を使用するすべてのユーザーは、クライアントの [高度な接続] オプションで [自動構成] を選択Skype for Business必要があります。 これにより、クライアントは UCWA URL を検出できます。 **自動構成は** 既定の選択です。
+- [仕事による通話] を使用するすべてのユーザーは、クライアントの [高度な接続] オプションで [自動構成] を選択Skype for Business必要があります。 これにより、クライアントは UCWA URL を検出できます。 **自動構成は** 既定の選択です。
     
 - 各通話 Via Work ユーザーに対して、通話転送と同時呼び出しを有効にします。 
     
@@ -92,7 +92,7 @@ Call Via Work では、すべてのフロントエンド サーバーに自動�
   Grant-CsCallViaWorkPolicy -Identity <UserName> -PolicyName Tag:<PolicyName>
   ```
 
-    たとえば、次のコマンドレットは、仕事の呼び出しポリシー "ContosoUser1CvWP" を ContosoUser1 という名前のユーザー **に割り当てします**。
+    たとえば、次のコマンドレットは、"ContosoUser1CvWP" という名前のユーザーに[仕事による通話] ポリシーを **割り当てします**。
     
   ```powershell
   Grant-CsCallViaWorkPolicy -Identity ContosoUser1 -PolicyName Tag:ContosoUser1CvWP

@@ -1,8 +1,8 @@
 ---
 title: 2019 年 2019 Skype for Business Serverの新機能|機能
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: overview
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: '概要: これらの機能は、2019 年Skype for Business Serverされています。'
-ms.openlocfilehash: 2acfaef02b140d8e52fce43e0fef9125378047ea
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 79e6ef88f327b43fd9049c2e1a3ce1492fc9b8ee
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858024"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393451"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>2019 年のSkype for Business Server
 
@@ -31,14 +31,14 @@ ms.locfileid: "60858024"
 
 ## <a name="unified-messaging-services-cloud-voicemail"></a>ユニファイド メッセージング サービス: クラウド ボイスメール
 
-ExchangeUM は、2019 Skype for Business Server 2019 と Skype for Business 2013 または Exchange 2016 Exchangeで使用できます。 Exchange 2019 年のサポートの変更により、Exchange UM の統合は、クラウド ボイスメール とクラウド の機能を重視自動応答されています。  
+Exchange 2019 Skype for Business Server 201 Exchange 9 と Skype for Business 2013 または Exchange 2016 を統合した場合、UM は引き続きExchangeされます。 Exchange 2019 年のサポートの変更により、Exchange UM の統合は、クラウド ボイスメール とクラウド の機能を重視自動応答されています。  
 
 クラウド ボイスメール Skype for Business 2019 年 2019 年のすべてのユーザー&#x2014;が、オンプレミスまたはオンライン&#x2014;の場合でも、Microsoft Cloud で同じボイスメール サービスにアクセスできます。 クラウド ボイスメール、オンプレミスユーザーとオンライン ユーザーの両方に次の利点があります。
 
 - オンラインクライアント、Exchange クライアントSkype for Business使用して、TeamsメールボックスOutlookアクセスする
 - Web ベースのポータルを使用してボイスメール オプションを管理する機能
 
-詳細[については、「Plan クラウド ボイスメール サービス](../sfbhybrid/hybrid/plan-cloud-voicemail.md)」および[「Plan for Skype for Business Server移行Exchange Server」を](../sfbhybrid/hybrid/plan-um-migration.md)参照してください。
+詳細[については、「Plan クラウド ボイスメール サービス](../sfbhybrid/hybrid/plan-cloud-voicemail.md)」および「[Plan for Skype for Business Server移行Exchange Server」](../sfbhybrid/hybrid/plan-um-migration.md)を参照してください。
   
 ## <a name="call-monitoring-call-data-connector"></a>通話監視: 通話データ コネクタ
 
@@ -50,7 +50,7 @@ ExchangeUM は、2019 Skype for Business Server 2019 と Skype for Business 2013
 - ネットワーク全体の問題の表示とトラブルシューティング
 - Call Analytics にヘルプデスクと管理者の役割を割り当て、ヘルプデスクの作業者が自分の責任領域を表示およびトラブルシューティングできます。
 
-詳細については [、「Plan Call Data Connector」](../sfbhybrid/hybrid/plan-call-data-connector.md) を参照してください。
+詳細については [、「Plan Call Data Connector](../sfbhybrid/hybrid/plan-call-data-connector.md) 」を参照してください。
 
 ### <a name="see-also"></a>関連項目
 

@@ -1,8 +1,8 @@
 ---
 title: 機能の概要 (計画ツール)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype for Business Server計画ツール
-ms.openlocfilehash: ee6578aeb51aa0cf9f6a4066c78d6038a057763b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 173a5a5ba0b8fd65e9a412d0b6507005f3cf8547
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832691"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393209"
 ---
 # <a name="feature-overview-planning-tool"></a>機能の概要 (計画ツール)
  
@@ -39,7 +39,7 @@ Skype for Business Server計画ツール
     
 ## <a name="ui-elements"></a>UI 要素
 
-残りの要素には **、はじめに** ウィザードで提示された質問に対して提供した回答が入力されています。またはウィザードをスキップした場合は、計画ツールによって自動的に設定されます。
+残りの要素には、**はじめに** ウィザードで提示された質問に対して提供した回答が入力されています。またはウィザードをスキップした場合は、計画ツールによって自動的に設定されます。
   
 ### <a name="online-collaboration"></a>オンライン コラボレーション
 
@@ -66,7 +66,7 @@ Skype for Business Server計画ツール
     常設チャットを使用すると、複数のユーザーが、テキスト、リンク、ファイルなどの特定のトピックに関するコンテンツを投稿してアクセスする会話に参加できます。 ユーザーはセッション中にリアルタイムで通信することができますが、各セッションのコンテンツは永続的です。つまり、セッションの終了後も引き続き利用できます。
 
     > [!NOTE] 
-    > 常設チャットは 2015 Skype for Business Serverで使用できますが、2019 年Skype for Business Serverではサポートされていません。 同じ機能は、Teams。 詳細については、「Skype for Business[アップグレードMicrosoft Teamsしてください](/MicrosoftTeams/upgrade-start-here)。 常設チャットを使用する必要がある場合は、この機能を必要とするユーザーを 2015 年に移行するか、Teamsを使用Skype for Business Server選択します。
+    > 常設チャットは 2015 Skype for Business Serverで使用できますが、2019 年Skype for Business Serverではサポートされていません。 同じ機能は、Teams。 詳細については、「Skype for Business[アップグレードMicrosoft Teams参照してください](/MicrosoftTeams/upgrade-start-here)。 常設チャットを使用する必要がある場合は、この機能を必要とするユーザーを 2015 年に移行するか、Teamsを使用Skype for Business Server選択します。
     
 ### <a name="users"></a>ユーザー
 
@@ -90,10 +90,10 @@ Skype for Business Server計画ツール
     
 - **W15 Exchange メールボックス**
     
-    Skype for Business Serverユニファイド メッセージング (UM) にボイスメール メッセージExchange保存できます。これらのボイスメール メッセージは、ユーザーの受信トレイに電子メール メッセージとして表示されます。
+    Skype for Business Serverでは、Exchange ユニファイド メッセージング (UM) にボイスメール メッセージを保存できます。これらのボイスメール メッセージは、ユーザーの受信トレイに電子メール メッセージとして表示されます。
 
     > [!NOTE]
-    > Exchange以前に知られているユニファイド メッセージングは Exchange 2019 では使用できなくなりましたが、引き続き 電話システム を使用してボイスメール メッセージを記録し、その記録をユーザーの Exchange メールボックスに残して使用できます。 詳細については[、「プラン クラウド ボイスメール サービス](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)」を参照してください。
+    > Exchange Exchange 2019 ではユニファイド メッセージングは使用できなくなりましたが、電話システム を使用してボイスメール メッセージを録音してから、ユーザーの Exchange メールボックスに記録を残す方法もあります。 詳細については[、「プラン クラウド ボイスメール サービス](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)」を参照してください。
     
 ### <a name="voice"></a>音声
 
@@ -105,10 +105,10 @@ Skype for Business Server計画ツール
     
 - **Exchange ユニファイド メッセージング**
     
-    Exchangeユニファイド メッセージング (UM) は、ボイス メールとメールを単一のメッセージング インフラストラクチャに結合します。 Skype for Business Server 2015 では、Exchange UM を使用して、通話応答、サブスクライバー アクセス、通話通知、自動応答サービスを提供します。 これらのサービスを使用する場合は、共有 Active Directory トポロジExchange UM Skype for Business Serverを統合する必要があります。
+    Exchange ユニファイド メッセージング (UM) は、ボイス メールと電子メールを単一のメッセージング インフラストラクチャに組み合わせたものになります。 Skype for Business Server 2015 では、Exchange UM を使用して、通話応答、サブスクライバー アクセス、通話通知、自動応答サービスを提供します。 これらのサービスを使用する場合は、共有 Active Directory トポロジExchange UM Skype for Business Serverを統合する必要があります。
 
     > [!NOTE]
-    > Exchange以前に知られているユニファイド メッセージングは Exchange 2019 では使用できなくなりましたが、引き続き 電話システム を使用してボイスメール メッセージを記録し、その記録をユーザーの Exchange メールボックスに残して使用できます。 詳細については[、「プラン クラウド ボイスメール サービス](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)」を参照してください。
+    > Exchange Exchange 2019 ではユニファイド メッセージングは使用できなくなりましたが、電話システム を使用してボイスメール メッセージを録音してから、ユーザーの Exchange メールボックスに記録を残す方法もあります。 詳細については[、「プラン クラウド ボイスメール サービス](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)」を参照してください。
     
 ### <a name="additional-deployment-options"></a>追加の展開オプション
 

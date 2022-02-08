@@ -1,8 +1,8 @@
 ---
 title: 会議サーバーの構成設定を管理Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
 description: '概要: 会議サーバー構成設定を管理する方法について説明します。Skype for Business Server。'
-ms.openlocfilehash: 9e0b6cbd83ebebcb2f66d178ee8c69d42702a249
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1435c6bd69624d5097d0377ab920ac9fed577072
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841259"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393779"
 ---
 # <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>会議サーバーの構成設定を管理Skype for Business Server
  
@@ -27,7 +27,7 @@ ms.locfileid: "60841259"
   
 会議の構成設定は、会議のコンテンツと資料の最大許容サイズなどの設定を決定します。アプリケーション共有会議サービスの最大帯域幅。ストレージの制限と有効期限。サポートされているクライアントの内部および外部ダウンロードの URL。ユーザーが会議のヘルプとリソースを取得できる内部および外部 URL へのポインター。アプリケーション共有、クライアント オーディオ、ファイル転送、およびメディア トラフィックに使用されるポート。 これらの設定を使用すると、実際のサーバー自体を管理できます。 これらの設定は、管理シェルを使用Skype for Business Server設定できます。
   
-サーバーをインストールSkype for Business Server、会議構成設定 (グローバル コレクション) の 1 つのコレクションが提供されます。 サイトまたはサービスに対してカスタム設定を作成する必要がある場合は、**New-CsConferencingConfiguration** コマンドレットを使用してその作業を行うことができます。 新しい設定は、サイトまたはサービス スコープでのみ適用できます。会議構成設定の新しいグローバル コレクションを作成することはできませんが **、Set-CsConferencingConfiguration** コマンドレットを使用してグローバル コレクションを変更できます。 また、いかなるサイトやサービスも、設定のコレクションは 1 つしかホストできません。 Redmond サイト向けの新しい設定を作成しようとしても、Redmond サイトが既に会議構成設定のコレクションをホストしている場合、そのコマンドは失敗します。
+サーバーをインストールSkype for Business Server、会議構成設定 (グローバル コレクション) の 1 つのコレクションが提供されます。 サイトまたはサービスに対してカスタム設定を作成する必要がある場合は、**New-CsConferencingConfiguration** コマンドレットを使用してその作業を行うことができます。 新しい設定は、サイトまたはサービス スコープでのみ適用できます。会議構成設定の新しいグローバル コレクションを作成することはできませんが、 **Set-CsConferencingConfiguration** コマンドレットを使用してグローバル コレクションを変更できます。 また、いかなるサイトやサービスも、設定のコレクションは 1 つしかホストできません。 Redmond サイト向けの新しい設定を作成しようとしても、Redmond サイトが既に会議構成設定のコレクションをホストしている場合、そのコマンドは失敗します。
   
 ## <a name="manage-conferencing-configuration-settings-by-using-skype-for-business-server-management-shell"></a>管理シェルを使用して会議の構成Skype for Business Server管理する
 
@@ -52,7 +52,7 @@ New-CsConferencingConfiguration -Identity site:Redmond -Organization Litwareinc
   
 次の例では、最初はメモリに格納され、後で Redmond サイトに適用される会議構成設定の新しいコレクションを定義します。 
   
-最初のコマンドは **、New-CsConferencingConfiguration** コマンドレットを使用して、変数変数に格納されている設定の新しいメモリ内コレクションを作成$x。 InMemory パラメーターは、Redmond サイトにすぐに適用するのではなく、コレクションをメモリ内に作成する必要があります。
+最初のコマンドでは **、New-CsConferencingConfiguration** コマンドレットを使用して、変数 $x に格納されている設定の新しいメモリ内コレクションを作成します。 InMemory パラメーターは、Redmond サイトにすぐに適用するのではなく、コレクションをメモリ内に作成する必要があります。
   
 コレクションの作成後、2 番目のコマンドで Organization プロパティの値に Litwareinc を設定しています。 
   

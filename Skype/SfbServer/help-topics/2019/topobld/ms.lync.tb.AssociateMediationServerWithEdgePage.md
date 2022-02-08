@@ -1,8 +1,8 @@
 ---
 title: 仲介サーバーをエッジと関連付ける
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
 ROBOTS: NOINDEX, NOFOLLOW
 description: 仲介サーバーを定義するには、仲介サーバーを、フロントエンド サーバーおよびエッジ サーバーまたはプールと関連付ける設定を指定します。仲介サーバーまたはプールを、エッジ サーバーまたはエッジ サーバー プールと関連付けるには、次の操作を行います。
-ms.openlocfilehash: 818e2dc95ea01affbbf499da21968e2f83966044
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f09bcc31b005c768129a797fa61df5090a38ae5e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846840"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393169"
 ---
 # <a name="associate-mediation-server-with-edge"></a>仲介サーバーとエッジの関連付け
  
@@ -33,6 +33,6 @@ ms.locfileid: "60846840"
 > [!NOTE]
 > 展開でまだエッジ サーバーまたはエッジ サーバー プールを定義していない場合、ドロップダウン リストにエントリは表示されません。エッジ サーバーまたはプールを展開に追加してから、[**次へ**] をクリックして続行し、仲介サーバーの設定を編集できます。
   
-詳細については、「トポロジ ビルダー[で仲介サーバーを](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)展開する」を参照Skype for Business Server。
+詳細については、「サーバーのトポロジ ビルダーで仲介サーバーを展開する[」を参照Skype for Business Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)。
   
 

@@ -1,7 +1,7 @@
 ---
 title: ルーム システム アカウントSkype会議ポリシー
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: sohailta
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: このトピックでは、ルーム システム アカウントに会議ポリシーを割り当てるSkype説明します。
-ms.openlocfilehash: 97980cb50613fca105af40686a920a8ff9c9b546
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2bbe7f9ca07e8c17aaf0c03693fbeca7eede2457
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838369"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394399"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>ルーム システム アカウントSkype会議ポリシー
  
@@ -56,7 +56,7 @@ ms.locfileid: "60838369"
 |MaxVideoConferenceResolution  <br/> |VGA  <br/> |ユーザーがSkype for Business Server、Skypeシステムは HD1080 を使用します  <br/> |
 |MaxMeetingSize  <br/> |250  <br/> |Meet Now (アドホック) ホワイトボード セッション (Skypeルーム システム) に影響する  <br/> |
 |AudioBitRateKb  <br/> |200  <br/> |表の最後にメモを表示する\*  <br/> |
-|VideoBitRateKb  <br/> |5000  <br/> |これは、許可される最大送信ビデオ ビット レートです。 SkypeRoom System は、このビット レートで 1 つの 1080 ストリームを pano (RoundTable を使用する場合) と共に送信できます。 \*  <br/> |
+|VideoBitRateKb  <br/> |5000  <br/> |これは、許可される最大送信ビデオ ビット レートです。 Skypeシステムは、このビット レートで 1 つの 1080 ストリームを pano (RoundTable を使用する場合) と共に送信できます。 \*  <br/> |
 |AppSharingBitRateKb  <br/> |5000  <br/> |表の最後にメモを表示する\*  <br/> |
 |FileTransferBitRateKb  <br/> |5000  <br/> |該当なし  <br/> |
 |TotalReceiveVideoBitRateKb  <br/> |20000  <br/> |これを可能な限り高く設定することをお勧めします。 有効な帯域幅は、会議時のネットワーク状態によって異なります。\*  <br/> |
@@ -69,7 +69,7 @@ ms.locfileid: "60838369"
   
 ## <a name="meeting-authentication"></a>会議認証
 
-Skype会議室システムは、制限付き会議に参加するために会議参加リンクを使用するときに、ユーザーに認証を求めるメッセージを表示します。たとえば、会議のロビー オプションが会議で構成されている会議Outlook。 この設定は、カスタマイズされた会議に対して常にオンであり、ユーザーは常にプロンプトが表示されます。 ただし、無制限の会議の場合、ユーザーは認証なしで会議に参加できます。 
+Skype会議室システムは、制限付き会議に参加するために会議参加リンクを使用するときに、ユーザーに認証を求めるメッセージを表示します。たとえば、Outlook で会議ロビー オプションが構成されている会議などです。 この設定は、カスタマイズされた会議に対して常にオンであり、ユーザーは常にプロンプトが表示されます。 ただし、無制限の会議の場合、ユーザーは認証なしで会議に参加できます。 
   
 次のコマンドを使用すると、管理者は無制限の会議を含むすべての会議に対して認証を要求できます。 
   

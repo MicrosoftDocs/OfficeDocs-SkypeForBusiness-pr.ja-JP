@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams要件|サービスの強化
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13389c55cc35d9ffe1555f2f28c9f225e6eed4ee
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ed54d4498f02f57131e6665291a6ffa7416722a9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841989"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393460"
 ---
 # <a name="get-the-most-out-of-teams-after-upgrading"></a>アップグレード後に新しいTeamsを利用する
 
@@ -31,15 +31,15 @@ ms.locfileid: "60841989"
 
 この記事は、アップグレード体験の Operational Excellence ステージの一部です。この段階は、Skype for Business から Teams へのアップグレードが完了するとすぐに開始されます。
 
-この記事では、アップグレード後のオペレーティング システムの動作をTeams概要を示します。 サービス機能Teams継続的に監視することで、組織にとって最も価値のある機能を確実に提供することができます。
+この記事では、アップグレード後にオペレーティング システムをTeams概要を説明します。 サービス機能Teams継続的に監視することで、組織にとって最も価値のある機能を確実に提供することができます。
 
 ## <a name="enhance-your-service-overview"></a>サービスの概要を強化する
 
 Teams を組織に正常にデプロイし、品質と信頼性でサービスを運用したら、次の手順では、サービスを強化する機会が与えされているかどうかを定期的に評価します。 これは、クラウド サービス管理の最新の標準である継続的なサービス改善計画の一部です。
 
-常にサービスを有効に利用するための最適な方法は[、Teams](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams)パブリック ロードマップを監視して、組織にとって関心のある新機能の強化を確認する方法です。 このサービスにアクセスできるMicrosoft 365 管理センター、メッセージ センターを通じて新機能や変更機能に関する定期的な更新プログラムを受け取ります。
+常にサービスを有効に利用するための最適な方法は、[Teams](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) パブリック ロードマップを監視して、組織にとって関心のある新機能の強化を確認する方法です。 このサービスにアクセスできるMicrosoft 365 管理センター、メッセージ センターを通じて新機能と変更機能に関する定期的な更新プログラムを受け取ります。
 
-サービスを強化する機会が見つかったら、時間をかけて適切に行ってください。 「チャット、[チーム、チャネル](deploy-chat-teams-channels-microsoft-teams-landing-page.md)、アプリを Microsoft Teams 実装フェーズにデプロイし、[](deploy-chat-teams-channels-microsoft-teams-landing-page.md)同じガイダンスをエンド エンド で適用する」を参照してください。 小規模で増分的な変更を行う場合、すべてのアクティビティとタスクを完全に完了する必要がある可能性は低いですが、成功した結果を得る最善の機会を得る最善の機会を得る方法に沿って各アクティビティとタスクを必ず評価する必要があります。
+サービスを強化する機会が見つかったら、時間をかけて適切に行ってください。 「チャット、[チーム、チャネル](deploy-chat-teams-channels-microsoft-teams-landing-page.md)、アプリをデプロイする」Microsoft Teams実装フェーズを見直し[](deploy-chat-teams-channels-microsoft-teams-landing-page.md)、同じガイダンスをエンド エンド で適用します。 小規模で増分的な変更を行う場合、すべてのアクティビティとタスクを完全に完了する必要がある可能性は低いですが、成功した結果を得る最善の機会を得る最善の機会を得る方法に沿って各アクティビティとタスクを必ず評価する必要があります。
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断ポイント</td><td><ul><li>組織で利用できるかもしれない新機能やサービスについて、パブリック ロードマップやその他サービスのお知らせを定期的に確認するユーザーを選任します。</li><li>これらの新機能やサービスについて、主要な関係者に報告する頻度を、運営委員会を通じて決定します。</li></ul></td></tr>

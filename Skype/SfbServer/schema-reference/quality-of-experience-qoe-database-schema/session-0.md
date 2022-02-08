@@ -1,8 +1,8 @@
 ---
 title: セッション ビュー
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 49e33f5b-45d0-4146-a5a4-76954d895a98
 description: セッション ビューには、データベースにレコードがあるセッションに関する情報が保存されます。 このビューは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: 80a275e047934bd60586c344b5487f2593fe48bb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: afcff6c5032c14dbcab525a0032804493bcb0216
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834915"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393579"
 ---
 # <a name="session-view"></a>セッション ビュー
  
@@ -29,7 +29,7 @@ ms.locfileid: "60834915"
 |ConferenceDateTime  <br/> |日付型  <br/> |MediaLine テーブルから参照されます。  <br/> |
 |ConferenceURI  <br/> |nvarchar(450)  <br/> |これが会議の場合は会議 URI、ピアツーピア セッションの場合は DialogID です。  <br/> |
 |関連付け  <br/> |varchar(max)  <br/> |セッションの関連付け ID。  <br/> |
-|DialogCategory  <br/> |ビット  <br/> |ダイアログ カテゴリ。0 は仲介Skype for Business Serverに対して実行されます。1 は仲介サーバーから PSTN ゲートウェイのレッグです。  <br/> |
+|DialogCategory  <br/> |ビット  <br/> |ダイアログ カテゴリ。0 は仲介Skype for Business Serverに使用されます。1 は仲介サーバーから PSTN ゲートウェイのレッグです。  <br/> |
 |MediationServerBypassFlag  <br/> |ビット  <br/> |通話がバイパスされたかどうかを示します。  <br/> |
 |MediaBypassWarningFlag  <br/> |int  <br/> |このフィールドは、(存在する場合) バイパス ID が一致したのに通話がバイパスされなかった理由を示します。 このSkype for Business Server、定義される値は 1 つのみです。  <br/> 0x0001 - 既定のネットワーク アダプターの不明なバイパス ID  <br/> |
 |StartTime  <br/> |日付型  <br/> |通話の開始時刻。  <br/> |

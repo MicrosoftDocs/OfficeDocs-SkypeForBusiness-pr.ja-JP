@@ -1,8 +1,8 @@
 ---
 title: モビリティ サービスと UCWA の使用状況を監視Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8389b37a-ca3e-4047-8b51-85bc07da87e8
 description: '概要: モビリティ サービス (Mcx) とユニファイド コミュニケーション Web API (UCWA) を管理Skype for Business Server。'
-ms.openlocfilehash: 6139ab53e964bd7c880a83a7af252fe2da71a152
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d7596bfaf4e90f0eef25dbc625719f8739255858
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835255"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393769"
 ---
 # <a name="monitor-mobility-service-and-ucwa-usage-in-skype-for-business-server"></a>モビリティ サービスと UCWA の使用状況を監視Skype for Business Server
  
@@ -34,11 +34,11 @@ ms.locfileid: "60835255"
     
 - [**CPU**] および [**プロセッサ**] パフォーマンス カウンター
     
-ほとんどの展開では、UCWA CPU 使用率は平均で 15% を下回る必要があります。 メモリ使用量は、「サーバーのメモリ容量制限を監視する」で説明されている制限内[Skype for Business Server。](server-memory-capacity-limits.md)
+ほとんどの展開では、UCWA CPU 使用率は平均で 15% を下回る必要があります。 メモリ使用量は、「サーバーのメモリ容量制限を監視する」で説明されている制限[内](server-memory-capacity-limits.md)Skype for Business Server。
   
 CPU およびメモリ使用率カウンターに加えて、次のパフォーマンス カウンターを使用して、サーバーが要求で過負荷状態である場合の判断に役立ちます。
   
-- **LS:WEB - 調整と認証\WEB -** サーバー上の保留中の Web 要求の数を示す[処理] の要求の合計。 このカウンターが 10,000 に達すると、後続の要求は失敗し、「503 - サービスが利用できません」というエラー メッセージが表示されます。
+- **LS:WEB - 調整と認証\WEB -** サーバー上の保留中の Web 要求の数を示す処理の合計要求。 このカウンターが 10,000 に達すると、後続の要求は失敗し、「503 - サービスが利用できません」というエラー メッセージが表示されます。
     
 - **ASP.NET\Requests Queued** (常にゼロである必要があります)。
     
@@ -51,7 +51,7 @@ CPU およびメモリ使用率カウンターに加えて、次のパフォー�
     
 - [**CPU**] および [**プロセッサ**] パフォーマンス カウンター
     
-ほとんどの展開では、Mobility Service の CPU 使用率は平均で 15% を下回る必要があります。 メモリ使用量は、「サーバーのメモリ容量制限を監視する」で説明されている制限内[Skype for Business Server。](server-memory-capacity-limits.md)
+ほとんどの展開では、Mobility Service の CPU 使用率は平均で 15% を下回る必要があります。 メモリ使用量は、「サーバーのメモリ容量制限を監視する」で説明されている制限[内](server-memory-capacity-limits.md)Skype for Business Server。
   
 CPU とメモリの使用状況カウンターに加えて、以下の ASP.NET パフォーマンス カウンターを使用すると、サーバーが要求で過負荷になっていないかどうかを確認するのに役立つ場合があります。
   
