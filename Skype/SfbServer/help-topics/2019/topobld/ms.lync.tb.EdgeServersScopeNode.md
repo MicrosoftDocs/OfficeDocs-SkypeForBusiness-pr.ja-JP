@@ -1,8 +1,8 @@
 ---
 title: エッジ サーバーのスコープ ノード
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 0d49587e-5079-4fe0-a9b9-fb0853811fca
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[エッジ プール] ノードには、トポロジ内のエッジ プールの一覧が表示されます。以下のアクションを実行できます。'
-ms.openlocfilehash: aefca966a9816986fe37fc6e9515d8815a9034af
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5551324ca33ed24c062789fe09ba1b223b6cb69d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849150"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417090"
 ---
 # <a name="edge-servers-scope-node"></a>エッジ サーバーのスコープ ノード
  
@@ -30,7 +30,7 @@ ms.locfileid: "60849150"
     
 エッジ プールのオプションに加えて、次の一般的なタスクを実行できます。
   
-- **トポロジ**。 このオプションを使用すると、新しいトポロジの定義、既存のトポロジの開き、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの発行、データベースのインストール、以前のバージョンのコンポーネントのマージ、展開の削除を行います。
+- **トポロジ。** このオプションを使用すると、新しいトポロジの定義、既存のトポロジの開き、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの発行、データベースのインストール、以前のバージョンのコンポーネントのマージ、展開の削除を行います。
     
 - **表示**。このオプションを使用して、コンソール ツリー ビュー内の項目を選択して表示と非表示を切り替えることによって、トポロジ ビルダーのビューをカスタマイズできます。
     

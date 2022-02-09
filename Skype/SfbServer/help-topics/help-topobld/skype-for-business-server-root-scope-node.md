@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server ルートのスコープ ノード
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 8/10/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d190f1f0-7741-432a-84ac-9530bb00abef
 description: Lync Server ノードには、トポロジ内の中央サイトが一覧表示されます。 以下のアクションを実行できます。
-ms.openlocfilehash: 7045e52e64ccad38d7341c51a5adf1b0c618e85d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0a5cb0ddd7bb24769e97ad894e35319d3a350c9b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847510"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410920"
 ---
 # <a name="skype-for-business-server-root-scope-node"></a>Skype for Business Server ルートのスコープ ノード
  
@@ -42,13 +42,13 @@ ms.locfileid: "60847510"
     
 - **データベースのインストール**。 展開に必要なデータベースを作成できます。
     
-- **Merge Office Communications Server 2007 R2 トポロジ**。 トポロジ ビルダー結合ウィザードを起動します。 このツールは、エッジ サーバー情報を含Office以前の通信サーバー環境に関する情報を収集し、その情報を共有データベースに発行します。 
+- **通信Office 2007 R2 トポロジをマージします**。 トポロジ ビルダー結合ウィザードを起動します。 このツールは、エッジ サーバー情報を含Office以前の通信サーバー環境に関する情報を収集し、その情報を共有データベースに発行します。 
     
 - **展開の削除**。 展開の削除ウィザードを開始し、展開全体の削除を開始できます。
     
 これらのオプションに加えて、次の一般的なタスクを実行できます。
   
-- **View**. このオプションを使用すると、コンソール ツリー ビューで表示および非表示にするアイテムを選択して、トポロジ ビルダーのビューをカスタマイズできます。
+- **表示**。 このオプションを使用すると、コンソール ツリー ビューで表示および非表示にするアイテムを選択して、トポロジ ビルダーのビューをカスタマイズできます。
     
 - **ヘルプ**。このオプションを使用して、アクティブ ノードのヘルプにアクセスできます。
     

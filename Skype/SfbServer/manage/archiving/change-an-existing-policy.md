@@ -1,8 +1,8 @@
 ---
 title: 既存のアーカイブ ポリシーを変更Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
 description: '概要: ユーザー のアーカイブ ポリシーを変更する方法について説明します。Skype for Business Server。'
-ms.openlocfilehash: b6ddc379f2b5652311be051d47d644a8e2923c1c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 494ed5ab3bd9e7bf4b64926533d3866e515fe34a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854391"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416620"
 ---
 # <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>既存のアーカイブ ポリシーを変更Skype for Business Server
  
@@ -54,7 +54,7 @@ ms.locfileid: "60854391"
   
 ## <a name="change-archiving-policies-by-using-windows-powershell"></a>アーカイブ ポリシーを使用してアーカイブ ポリシーをWindows PowerShell
 
-また **、Set-CsArchivingPolicy** コマンドレットを使用Windows PowerShellアーカイブ ポリシーを変更することもできます。
+また、**Set-CsArchivingPolicy** コマンドレットを使用Windows PowerShellアーカイブ ポリシーを変更することもできます。
   
 ### <a name="enable-archiving-policies"></a>アーカイブ ポリシーを有効にする
 

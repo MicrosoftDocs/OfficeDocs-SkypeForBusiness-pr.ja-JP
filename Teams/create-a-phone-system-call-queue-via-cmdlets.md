@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: コマンドレットを使用して呼び出しキューを構成する方法について説明します
-ms.openlocfilehash: a8f24f11cb19f448fc897043c7cb046a08c32341
-ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
+ms.openlocfilehash: aa3330af2a47c87fc71f63396b84f8ad017e19b5
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62181110"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457447"
 ---
 # <a name="create-a-call-queue-via-cmdlets"></a>コマンドレットを使用して呼び出しキューを作成する
 
@@ -42,9 +42,9 @@ ms.locfileid: "62181110"
 3)  お客様が購入したMicrosoft Teams 電話
 4)  以下に示すエージェント、配布リストTeamsチャネルは既に作成されています。
 
-注: 以下Teams使用する Teams Channel コマンドレットは、PowerShell モジュールのパブリック プレビュー バージョンTeams一部です。  詳細については[、「PowerShell](teams-powershell-install.md)パブリック プレビュー Teamsインストールする」を参照し[、「PowerShell リリース Microsoft Teams」も参照してください](teams-powershell-release-notes.md)。
+注: 以下Teams使用する Teams Channel コマンドレットは、PowerShell モジュールのパブリック プレビュー バージョンの一部です。  詳細については、「[PowerShell パブリック プレビュー Teamsインストール](teams-powershell-install.md)する」を参照し、「[PowerShell リリース Microsoft Teams」も参照してください](teams-powershell-release-notes.md)。
 
-MicrosoftTeams モジュールが既にインストールされているユーザーは、最新バージョンがインストール ````Update-Module MicrosoftTeams```` されていることを確認する必要があります。
+MicrosoftTeams モジュールが既にインストール ````Update-Module MicrosoftTeams```` されているユーザーは、最新バージョンがインストールされていることを確認する必要があります。
 
 
 ## <a name="scenario"></a>シナリオ
@@ -117,7 +117,7 @@ Sales Call Queue の情報:
 
 
 ## <a name="login"></a>ログイン
-管理者の資格情報を入力Teams求めるメッセージが表示されます。
+管理者の資格情報を入力するように求Teamsされます。
 ```
 $credential = Get-Credential
 Connect-MicrosoftTeams -Credential $credential
@@ -126,7 +126,7 @@ Connect-MsolService -Credential $credential
 
 ## <a name="sales-queue"></a>販売キュー
 ### <a name="create-audio-files"></a>オーディオ ファイルを作成する
-"d: " は、wav ファイルがコンピューターに格納されている場所への \\ パスに置き換える必要があります。
+"d:\\" は、wav ファイルがコンピューターに格納されている場所へのパスに置き換える必要があります。
 
 ````
 $content = Get-Content “d:\sales-hold-in-queue-music.wav” -Encoding byte -ReadCount 0
@@ -179,7 +179,7 @@ New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID)
 
 ## <a name="support-queue"></a>サポート キュー
 ### <a name="create-audio-files"></a>オーディオ ファイルを作成する
-"d: " は、wav ファイルがコンピューターに格納されている場所への \\ パスに置き換える必要があります。
+"d:\\" は、wav ファイルがコンピューターに格納されている場所へのパスに置き換える必要があります。
 
 ````
 $content = Get-Content “d:\support-greeting.wav” -Encoding byte -ReadCount 0
@@ -213,12 +213,12 @@ Get-MsolAccountSku
 ````
 
 ### <a name="create-and-assign-resource-account"></a>リソース アカウントの作成と割り当て
-注: 電話キューはキューによってフロントエンドされるので、この番号は必須自動応答
+注: 電話キューはキューによってフロントエンドに終了されるので、この番号は必須自動応答
 - ApplicationID
 - - 自動応答: ce933385-9390-45d1-9512-c8d228074e07
 - - 通話キュー: 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
-注: 以下に示すライセンスの種類 (PHONESYSTEM_VIRTUALUSER) は、上記の Get-MsolAccountSku コマンドレットで示されているライセンスの種類である必要があります。
+注: 以下に示すライセンスの種類 (PHONESYSTEM_VIRTUALUSER) は、上記の Get-MsolAccountSku コマンドレットに記載されているライセンスの種類である必要があります。
 
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName Support-RA@contoso.com -DisplayName "Support" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
@@ -246,7 +246,7 @@ Get-TeamChannel -GroupId $teamFacilitiesGroupID
 $teamFacilitiesHelpDeskChannelID = "{assign ID from output of above command}"
 ````
 
-### <a name="get-facilities-help-desk-channel-ower-user-id"></a>Facilities ヘルプ デスク チャネルのユーザー ID を取得する
+### <a name="get-facilities-help-desk-channel-owner-user-id"></a>Facilities ヘルプ デスク チャネル所有者ユーザー ID を取得する
 ````
 $teamFacilitiesHelpDeskChannelUserID = (Get-TeamChannelUser -GroupId $teamFacilitiesGroupID -DisplayName "Help Desk" -Role Owner).UserId
 ````
@@ -277,7 +277,7 @@ Get-MsolAccountSku
 - - 自動応答: ce933385-9390-45d1-9512-c8d228074e07
 - - 通話キュー: 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
-注: 以下に示すライセンスの種類 (PHONESYSTEM_VIRTUALUSER) は、上記の Get-MsolAccountSku コマンドレットで示されているライセンスの種類である必要があります。
+注: 以下に示すライセンスの種類 (PHONESYSTEM_VIRTUALUSER) は、上記の Get-MsolAccountSku コマンドレットに記載されているライセンスの種類である必要があります。
 
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName Facilities-RA@contoso.com -DisplayName "Facilities" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"

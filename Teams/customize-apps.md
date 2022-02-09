@@ -1,7 +1,7 @@
 ---
 title: アプリをカスタマイズMicrosoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: v-tbasra
 ms.topic: article
@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: アプリをカスタマイズする方法については、Microsoft Teams。
-ms.openlocfilehash: ca0f7b090669304553159979af3983b7f21de284
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: cac5bc4e5d2748b8e4a9143d50e40dbf96ae80a0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831741"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410620"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>アプリをカスタマイズMicrosoft Teams
 
- Microsoft Teamsは、アプリのカスタマイズを提供して、エクスペリエンスをTeamsします。 一部のアプリ開発者は、管理者がアプリをカスタマイズTeamsします。管理者は、[管理センター] の [アプリの管理] ページを使用して、組織のニーズに基づいてTeamsまたはブランドを **変更** できます。 カスタマイズできる詳細は次のとおりです。
+ Microsoft Teamsは、アプリのカスタマイズを提供して、ユーザー エクスペリエンスTeamsします。 一部のアプリ開発者は、管理者がアプリをカスタマイズTeamsします。管理者は、管理センターの [アプリの管理] ページを使用して、組織のニーズに基Teamsのカスタマイズまたはブランド変更 **を行** えます。 カスタマイズできる詳細は次のとおりです。
 
 - 短い名前
 - 簡単な説明
@@ -39,10 +39,10 @@ ms.locfileid: "60831741"
 - アウトライン アイコン
 - アクセント カラー
 
-カスタマイズできる[Teamsの詳細については](/microsoftteams/platform/resources/schema/manifest-schema)、マニフェスト スキーマに関するページを参照してください。
+カスタマイズできる[Teamsの詳細については](/microsoftteams/platform/resources/schema/manifest-schema)、「マニフェスト スキーマ」を参照してください。
 
 > [!NOTE]
-> 現時点では、アプリのカスタマイズは Government Community Cloud High (GCCH) または国防総省 (DoD) ではサポートされていません。
+> 現時点では、Government Community Cloud High (GCCH) または国防総省 (DoD) では、アプリのカスタマイズはサポートされていません。
 > 現時点では、この機能はサイドロードされたアプリMicrosoft Teamsできません。
 
 ## <a name="customize-the-apps-details"></a>アプリの詳細をカスタマイズする
@@ -51,7 +51,7 @@ ms.locfileid: "60831741"
 
 1. Teams 管理センターにサインインします。
 
-2. [アプリ **Teams展開し、[** アプリの管理]**を選択します**。
+2. [アプリ **Teams展開し、[** アプリの管理 **] を選択します**。
 
 3. アプリの **一覧の [** カスタマイズ可能] 列を確認し、カスタマイズ可能なアプリで並べ替えを行います。
 
@@ -63,7 +63,7 @@ ms.locfileid: "60831741"
 
      ![選択オプションをカスタマイズする 1.](media/select-app-to-customize1.png)
 
-   - アプリ名を選択し、[カスタマイズ可能] **を選択します**。
+   - アプリ名を選択し、[カスタマイズ **可能] を選択します**。
 
      ![選択オプションをカスタマイズする 2.](media/app-details-customizable.png)
 
@@ -95,13 +95,13 @@ ms.locfileid: "60831741"
 
     ![アイコン パネルの色オプションをカスタマイズします。](media/customize-app-colors.png)
 
-6. アプリがカスタマイズされた後、[適用] を **選択します**。
+6. アプリをカスタマイズしたら、[適用] を **選択します**。
 
 7. [発行 **] を** 選択して、カスタマイズしたアプリを発行します。
 
    カスタマイズしたアプリが [アプリの管理] ページ **に表示** されます。 アプリの機能をカスタマイズしてもアプリのコピーは作成されていないので、アプリのバージョンは 1 つのみです。
 
-これで、Teamsエンド ユーザーは自分のクライアントTeamsカスタマイズされたアプリを表示できます。
+これで、Teams エンド ユーザーは、カスタマイズされたアプリTeamsクライアントを開き、カスタマイズされたアプリを表示できます。
 
    ![カスタム クライアントでのTeamsアプリ。](media/contoso-app.png)
 
@@ -127,7 +127,7 @@ ms.locfileid: "60831741"
 
 3. アプリ名を選択します。
 
-4. 元のアプリ名を含むアプリの詳細を表示する 発行元の短 **い名前**。
+4. 元のアプリ名を含むアプリの詳細を表示する発行元の短 **い名前**。
 
    ![アイコン パネル のアプリ名をカスタマイズします。](media/original-app-version.png)
 
@@ -139,7 +139,7 @@ ms.locfileid: "60831741"
 
 1. Teams 管理センターにサインインします。
 
-2. [アプリ **Teams展開し、[** アプリの管理]**を選択します**。
+2. [アプリ **Teams展開し、[** アプリの管理 **] を選択します**。
 
 3. アプリ名を選択します。
 

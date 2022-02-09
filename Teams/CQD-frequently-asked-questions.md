@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: 通話品質ダッシュボード (CQD) に関してよく寄せられる質問 (FAQ) Microsoft Teams回答を参照してください。
-ms.openlocfilehash: 81c6478147e0959ca97b67ee0f01632478c0eb38
-ms.sourcegitcommit: 12044ab8b2e79a7b23bf9a0918ae070925d21f3d
+ms.openlocfilehash: bd36fe70d46a190289749a96fbaadb8f6c176251
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "61401901"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457177"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>通話品質ダッシュボード (CQD) についてよく寄せられる質問 (FAQ)
 
@@ -40,7 +40,7 @@ ms.locfileid: "61401901"
 
 [使用タイプのレポートに CQD を使用しようとして、一部のデータが不完全であるのが分かっています。なぜですか?](#im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that)
 
-[フィルター処理のみをSkype for Business、CQD に一部の情報が表示Teams理由](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
+[フィルター処理のみをSkype for Business、CQD に情報が表示Teams理由](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
 
 [追加のエントリが必要とわかっているのに、カスタム レポートで返される行数が最大 10,000 行になる理由](#why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries)
 
@@ -52,21 +52,21 @@ ms.locfileid: "61401901"
 
 CQD がストリーム分類に使用する規則 [を確認してください](stream-classification-in-call-quality-dashboard.md)。
  
-オーディオ ストリームの場合、呼び出しの長さに基づいて平均に対して計算される 5 つの分類子は、すべて "良好" パラメーター内に含まれます。 これは、ユーザーがオーディオのドロップアウト、静的、またはエラーの発生を経験しなかったことを意味する必要があります。 
+オーディオ ストリームの場合、5 つの分類子 (呼び出しの長さに基づいて平均に対して計算されます) はすべて "良好" パラメーター内に含まれます。 これは、ユーザーがオーディオのドロップアウト、静的、またはエラーの発生を経験しなかったことを意味する必要があります。 
 
 ネットワークの問題かどうかを判断するには、セッションの平均値と最大値の差分を確認します。 最大値は、セッション中に検出され、報告される最大値です。
  
-この状況をトラブルシューティングする方法の例を次に示します。 たとえば、通話中にネットワーク トレースを実行し、最初の 20 分間はパケットが失われることはありませんが、その後は 1.5 秒のパケットの間隔が生じ、通話の残りの部分に良好な時間が生じてしまいます。 平均は、Wireshark トレース RTP <でも 10% (0.1) パケット損失が発生します。 最大パケット損失は何でしたか? 5 秒間の 1.5 秒は 30% (0.3) になります。 これは、5 秒間のサンプリング期間中に発生しましたか (または、サンプリング期間に分割される可能性があります)。
+この状況をトラブルシューティングする方法の例を次に示します。 たとえば、通話中にネットワーク トレースを実行し、最初の 20 分間はパケットが失われることはありませんが、その後は 1.5 秒のパケットの間隔が生じ、通話の残りの部分に良好な時間が生じてしまいます。 平均は、Wireshark トレース RTP <でもパケット損失が 10% (0.1) 減少します。 最大パケット損失は何でしたか? 5 秒間の 1.5 秒は 30% (0.3) になります。 これは、5 秒間のサンプリング期間中に発生しましたか (または、サンプリング期間に分割される可能性があります)。
  
 ネットワーク メトリックが平均値と最大値で良好に見える場合は、他のテレメトリ データを確認します。 
 - [CPU Insufficient Event Ratio]をオンにし、検出された使用可能な CPU リソースが不十分で、低品質の原因になっているか確認します。 
 - スピーカーに近すぎるマイクが理由でフィードバックを防ぐために、オーディオ デバイスは半二重モードでしたか? 
-- デバイスの半分の両面 AEC イベントの比率を確認します。 ハブまたはドッキング ステーションに接続すると、USB オーディオドロップアウトが原因で、デバイスのグリンクまたはマイクのグリンクによってノイズや静的が発生しましたか?  
+- デバイスの半分の両面 AEC イベントの比率を確認します。 マイクなどのデバイスから、ハブまたはドッキング ステーションに接続すると、USB オーディオのドロップアウトが原因でノイズや静的が発生しましたか?  
 - デバイスの不具合とマイクの不具合イベントの比率を確認します。 デバイス自体が正しく機能していますか?  
 - Capture デバイスと Render Device Not Functioning Event Ratios を確認します。
 
 
-CQD テレメトリで使用できるディメンションとメジャーの詳細については、「通話品質ダッシュボードで使用可能なディメンションと測定値 [」を参照してください](dimensions-and-measures-available-in-call-quality-dashboard.md)。
+CQD テレメトリで使用できるディメンションとメジャーの詳細については、「通話品質ダッシュボードで使用できるディメンションと測定値 [」を参照してください](dimensions-and-measures-available-in-call-quality-dashboard.md)。
 
 バックグラウンド ノイズの場合は、[ミュート イベントの比率] をオンにし、参加者がミュートされた時間の長さを確認します。
  
@@ -90,15 +90,15 @@ CQD にアクセスできるロール (EUII を含む) の詳細については�
 
 ### <a name="im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that"></a>使用タイプのレポートに CQD を使用しようとして、一部のデータが不完全であるのが分かっています。なぜですか?
 
-CQD、Call Analytics、CallRecord Graph API、リアルタイム分析のような通話品質管理ツールは、診断テレメトリに基づいて行います。 通話品質管理ツールTeamsに表示される情報は、呼び出しに参加しているクライアントから受信したテレメトリ データと同じのみです。 ネットワークの停止、ファイアウォールまたはプロキシの構成ミスなど、完全なテレメトリが受信されない理由 [はいくつか考えます](/microsoft-365/enterprise/urls-and-ip-address-ranges.md)。 引き続き、お客様がサービスにテレメトリを配信する信頼性Teams回復性の向上に取り組み続け中です。
+CQD、Call Analytics、CallRecord Graph API、リアルタイム分析のような通話品質管理ツールは、診断テレメトリに基づいて行います。 通話品質管理ツールTeamsに表示される情報は、通話に参加しているクライアントから受信したテレメトリ データと同じに限り完全です。 ネットワークの停止、ファイアウォールまたはプロキシの構成ミスなど、完全なテレメトリが受信されない理由 [はいくつか考えます](/microsoft-365/enterprise/urls-and-ip-address-ranges.md)。 引き続き、クライアントがサービスにテレメトリを配信する信頼性Teams回復性の向上に取り組み続けています。
 
-この念を念頭に置いて、使用状況レポートの通話品質管理ツールに依存しならずにすることをお勧めします。 Teams管理センターには一連の使用状況レポートが[](teams-analytics-and-reports/teams-reporting-reference.md)用意されています。会議出席[](teams-analytics-and-reports/meeting-attendance-report.md)レポートは、クライアントから直接Teamsできます。
+その念頭に置いて、通話品質管理ツールを使用した使用状況レポートの使用はサポートされていません。 このような種類のレポート シナリオに対応したり、意図したりすることを目的としていないので、多くの使用状況統計は、これらのツールでは使用できません。 Teams管理センターには一連の使用状況レポート[](teams-analytics-and-reports/teams-reporting-reference.md)が用意され、会議[](teams-analytics-and-reports/meeting-attendance-report.md)出席レポートは、クライアントから直接Teamsできます。
 
-### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>フィルター処理のみをSkype for Business、CQD に一部の情報が表示Teams理由
+### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>フィルター処理のみをSkype for Business、CQD に情報がTeamsされる理由
 
-CQD レポート (isTeams = 1) でのみ Teams をフィルター処理する場合は、最初のエンドポイントが呼び出されるすべての呼び出しをフィルター処理Teams。 2 *つ目の* エンドポイントSkype for Business、その情報が CQD レポートに表示されます。 お客様のシナリオによっては、CQD に Call [Data Connector](/skypeforbusiness/hybrid/plan-call-data-connector.md)が構成されているSkype for Business Server 2019 の呼び出しが含まれる場合があります。 また、ボット呼びSkype (AA、CVI、VDI)、ライブ イベント、PSTN 通話も含まれます。
+CQD レポート (isTeams = 1) でのみ Teams をフィルター処理する場合は、最初のエンドポイントが呼び出されるすべての呼び出しをフィルター処理Teams。 2 *つ目の* エンドポイントSkype for Business、その情報が CQD レポートに表示されます。 お客様のシナリオに応じて、CQD には、Call [Data Connector](/skypeforbusiness/hybrid/plan-call-data-connector.md) が構成されているSkype for Business Server 2019 の呼び出しが含まれる場合があります。 また、ボット呼びSkype (AA、CVI、VDI)、ライブ イベント、PSTN 通話も含まれます。
 
-First *User Agent Category* や Skype for Business Second User Agent Category などのディメンションでフィルター処理することで、クエリからユーザー情報を削除 *できます*。 1 番目と *2* 番目のディメンションを 1 つのフィルターに結合するユーザー エージェント カテゴリ ペアを使用することもできます。
+First *User Agent Category* や Skype for Business Second User *Agent Category* などのディメンションでフィルター処理することで、クエリから新しい情報を削除できます。 1 番目と *2 番目のディメンションを* 1 つのフィルターに結合するユーザー エージェント カテゴリ ペアを使用することもできます。
 
 ### <a name="why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries"></a>追加のエントリが必要とわかっているのに、カスタム レポートで返される行数が最大 10,000 行になる理由
 
@@ -106,11 +106,11 @@ CQD は集計されたデータ クエリ用に設計され、データエクス
 
 ### <a name="why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi"></a>VPN 接続Wi-Fi Wi-Fi ではなく有線接続として表示される理由
 
-これは想定された動作です。 VPN ベンダーは、有線接続と同様に扱われる仮想イーサネット アダプターを作成しました。 適切にラベルが付けされていないので、オペレーティング システムは、それがネットワーク接続Wi-Fi有線として報告します。
+これは想定された動作です。 VPN ベンダーは、有線接続と同様に扱われる仮想イーサネット アダプターを作成しました。 正しくラベル付けされていないので、オペレーティング システムは接続が正常なWi-Fi有線として報告します。
 
 ### <a name="i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened"></a>Teams でポリシー ベースのレコーディングを有効にした後、ピアツーピア通話が電話会議としてマークされています。何が起こったのでしょうか。
 
-この動作は、ポリシー ベースの記録が有効になっている場合にMicrosoft Teams。 ポリシーベースの記録では、TeamsにデプロイされたMicrosoft Azure記録ボットを使用して、コンプライアンスの目的で会議の内容をキャプチャします。 通話品質管理では、"ピアツーピア" とは、ユーザー間のやり取りではなく、メディア トラフィックのフローの説明です。 レコーダー ボット自体が呼び出しの当事者なので、通話はピアツーピアではなく、マルチパーティ呼び出しです。 マルチパーティ通話は Microsoft Teams によって電話会議として分類されます。そのため、CQD や他の通話品質ツールでこれらの通話を表示すると、その通話が表示されます。
+この動作は、ポリシー ベースの記録が有効になっている場合に、Microsoft Teams。 ポリシー ベースの記録では、Teamsにデプロイされた Microsoft Azure記録ボットを使用して、コンプライアンスの目的で会議の内容をキャプチャします。 通話品質管理では、"ピアツーピア" とは、ユーザー間のやり取りではなく、メディア トラフィックのフローの説明です。 レコーダー ボット自体が呼び出しの当事者なので、通話はピアツーピアではなく、マルチパーティ呼び出しです。 マルチパーティ通話は Microsoft Teams によって電話会議として分類されます。そのため、CQD や他の通話品質ツールでこれらの通話を表示すると、その通話が表示されます。
 
 ## <a name="related-articles"></a>関連記事
 

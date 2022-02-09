@@ -5,8 +5,8 @@ ms:assetid: 8ec58f4b-9f6d-47b4-a187-d18a83fe4577
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182549(v=OCS.15)
 ms:contentKeyID: 48184813
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: フェデレーションのサポートは、パートナー ドメインやサポートしているパブリック インスタント メッセージング (IM) プロバイダー ユーザーを含む、信頼できる顧客またはパートナー組織のアカウントを持つユーザーが組織内のユーザーと共同作業を行う場合に必要です。
-ms.openlocfilehash: 638a5d0274679a9d9745656e1b2d740791185b04
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9d76801da22de249da04c7b36b6df9cbd8b2afae
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854351"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399691"
 ---
 # <a name="enable-or-disable-federation-and-public-im-connectivity-in-skype-for-business-server"></a>フェデレーションおよびパブリック IM 接続を有効または無効にするSkype for Business Server
 
@@ -28,14 +28,14 @@ ms.locfileid: "60854351"
 
 フェデレーション ドメインのユーザーによるアクセスをサポートするには、フェデレーションを有効にする必要があります。 組織に対してフェデレーションを有効にする場合、次のオプションを実装するかどうかも指定する必要があります。
 
-  - **パートナー ドメインの検出を有効にする**  このオプションを有効にすると、Skype for Business Server はドメイン ネーム システム (DNS) レコードを使用して、許可されたドメイン リストに記載されていないドメインを検出し、検出されたフェデレーション パートナーからの受信トラフィックを自動的に評価し、信頼レベル、トラフィック量、および管理者設定に基づいてそのトラフィックを制限またはブロックします。 このオプションを無効にすると、フェデレーション ユーザーは、許可済みのドメイン一覧に含めたドメインのユーザーにしか、アクセスできません。 このオプションの有効、無効にかかわらず、フェデレーション ドメイン内のアクセス エッジ サービスを実行する特定のサーバーへのアクセスを制限するなど、個々のドメインを禁止するか許可するかを指定できます。 フェデレーション ドメインによるアクセスの制御の詳細については、「許可された外部ドメインのサポートを構成する [」を参照してください](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server)。
+  - **パートナー ドメインの検出を有効にする**  このオプションを有効にすると、Skype for Business Server はドメイン ネーム システム (DNS) レコードを使用して、許可されたドメイン リストに記載されていないドメインを検出し、検出されたフェデレーション パートナーからの受信トラフィックを自動的に評価し、信頼レベル、トラフィック量、および管理者設定に基づいてそのトラフィックを制限またはブロックします。 このオプションを無効にすると、フェデレーション ユーザーは、許可済みのドメイン一覧に含めたドメインのユーザーにしか、アクセスできません。 このオプションの有効、無効にかかわらず、フェデレーション ドメイン内のアクセス エッジ サービスを実行する特定のサーバーへのアクセスを制限するなど、個々のドメインを禁止するか許可するかを指定できます。 フェデレーション ドメインによるアクセスの制御の詳細については、「許可された外部ドメインのサポートを構成 [する」を参照してください](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server)。
 
   - [**フェデレーション パートナーにアーカイブについての免責事項を送信する**]: 展開でアーカイブが準備されていることを示す免責事項通知がフェデレーション パートナーに送信されます。フェデレーション パートナー ドメインとの外部通信のアーカイブをサポートする場合は、アーカイブの免責事項の通知を有効にして、メッセージがアーカイブされることをパートナーに通知する必要があります。
 
 後でフェデレーション ドメイン ユーザーからのアクセスを一時的または永久に禁止する場合は、組織に対するフェデレーションを無効にできます。組織でサポートする適切なフェデレーション オプションを指定するなど、組織に対するフェデレーション ユーザーのアクセスを有効または無効にするには、このセクションの手順を使用します。
 
 > [!NOTE]  
-> 組織に対してフェデレーションを有効にしても、アクセス エッジ サービスを実行するサーバーで、フェデレーション ドメイン宛てのルーティングをサポートすることを指定するだけです。 フェデレーション ユーザー アクセスをサポートするポリシーを少なくとも 1 つ構成するまでは、フェデレーション ドメインのユーザーは、組織の会議や IM に参加できません。 パブリック IM 接続をサポートするポリシーを少なくとも 1 つ構成するまでは、パブリック IM サービス プロバイダーのユーザーも、組織の会議や IM に参加できません。 Skype for Business Server ホスト型 Exchange サービスを使用して、ルーティング情報を提供するホストボイス メール ポリシーを構成するまで、メールボックスがホストされた Exchange サービス上にあるユーザーに通話応答、Outlook Voice Access (ボイス メールを含む)、または自動応答サービスを提供することはできません。 他の組織のフェデレーション ドメインのユーザーと通信するためのポリシーの構成の詳細については、「組織の SIP フェデレーション ドメインの管理」 [を参照してください](../sip-domains/manage-sip-federated-domains-for-your-organization.md)。 さらに、IM サービス プロバイダーのユーザーとの通信をサポートする場合は、これをサポートするポリシーを構成し、サポートする個々のサービス プロバイダーのサポートも構成する必要があります。 詳細については、「組織の   [SIP フェデレーション プロバイダーの管理」を参照してください](../sip-providers/manage-sip-federated-providers-for-your-organization.md)。
+> 組織に対してフェデレーションを有効にしても、アクセス エッジ サービスを実行するサーバーで、フェデレーション ドメイン宛てのルーティングをサポートすることを指定するだけです。 フェデレーション ユーザー アクセスをサポートするポリシーを少なくとも 1 つ構成するまでは、フェデレーション ドメインのユーザーは、組織の会議や IM に参加できません。 パブリック IM 接続をサポートするポリシーを少なくとも 1 つ構成するまでは、パブリック IM サービス プロバイダーのユーザーも、組織の会議や IM に参加できません。 Skype for Business Server ホスト型 Exchange サービスを使用して、ルーティング情報を提供するホストボイス メール ポリシーを構成するまで、メールボックスがホストされた Exchange サービス上にあるユーザーに通話応答、Outlook Voice Access (ボイス メールを含む)、または自動応答サービスを提供することはできません。 他の組織のフェデレーション ドメインのユーザーと通信するためのポリシーの構成の詳細については、「組織の SIP フェデレーション ドメインの管理」 [を参照してください](../sip-domains/manage-sip-federated-domains-for-your-organization.md)。 さらに、IM サービス プロバイダーのユーザーとの通信をサポートする場合は、これをサポートするポリシーを構成し、サポートする個々のサービス プロバイダーのサポートも構成する必要があります。 詳細については、「   [組織の SIP フェデレーション プロバイダーを管理する」を参照してください](../sip-providers/manage-sip-federated-providers-for-your-organization.md)。
 
 
 ## <a name="to-enable-or-disable-federated-user-access-for-your-organization"></a>組織に対するフェデレーション ユーザー アクセスを有効または無効にするには

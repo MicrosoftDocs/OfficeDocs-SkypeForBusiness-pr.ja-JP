@@ -1,7 +1,7 @@
 ---
 title: 電話の番号管理
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: chandra.kilaru, kristen.kutser
 ms.topic: reference
@@ -19,29 +19,29 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: この表を使用して、ニュージーランドの電話番号の取得と管理に関する情報を確認Microsoft Teams。
-ms.openlocfilehash: 549dc8706c38ee0190fef7f440b194594ea05560
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: この表を使用して、ニュージーランドの電話番号の取得と管理に関する情報をMicrosoft Teams。
+ms.openlocfilehash: 9b06890b682e873fa6f61a50ba2a50384e26d8ca
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830801"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62420810"
 ---
 # <a name="phone-number-management-for-new-zealand"></a>電話の番号管理
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
-この表を使用して、ニュージーランドの電話番号の取得と管理に関する情報を確認Microsoft Teams。
+この表を使用して、ニュージーランドの電話番号の取得と管理に関する情報をMicrosoft Teams。
   
 詳細については、「[組織のために電話番号を管理する](manage-phone-numbers-for-your-organization.md)」をご覧ください。
   
 |**実行する操作**|**正しいフォームをダウンロードする**|
 |:-----|:-----|
-|管理センターに表示されていない新しいユーザーまたはサービスMicrosoft Teams取得します。|ニュージーランドでは、管理センターから組織の電話番号Microsoft Teams取得できます。 フォームをダウンロードして新しい電話番号の要求を送信し、TNS サービス デスクに手順 [を問い合わせてもできます](contact-tns-service-desk.md)。<br/><br/>[ニュージーランド (v.1.0) (mi-nz)](https://download.microsoft.com/download/4/a/a/4aa04212-a13d-46bf-b09e-1efbcbb2e622/new-phone-number-request-for-new-zealand-(v1.0)-(mi-NZ).pdf)の新しい電話番号要求。 <br/><br/> 電話番号を割り当てる前に、"顧客を知る" フォームをダウンロードし、完全に入力して、TNS サービス デスクに問い合わせ、手順を [確認する必要があります](contact-tns-service-desk.md)。<br/><br/>この市場を埋めるには、新しい注文に 2 ~ 3 週間かかる場合があります。  |
-|転送された電話番号を取得します。  <br/> | このフォームをダウンロードします。 <br/>[ニュージーランドの承認状 (LOA) (すべての数値) (v.1.0) (en-nz)](https://download.microsoft.com/download/e/6/7/e67f46ef-e1cd-4e70-a5cc-f53fd74285aa/letter-of-authorization-(loa)-for-new-zealand-(all-numbers)-(v1.0)-(en-nz).pdf) <br/> <br/>入力して [、TNS サービス デスクに問い合わせ、手順を確認してください](contact-tns-service-desk.md)。 <br/><br>この市場では、ポートの複雑さによっては、移行に 1 ~ 6 週間かかる場合があります。<br/><br/>現時点では、これらの番号を会議に使用できません。  |
+|管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。|ニュージーランドでは、管理センターで組織の電話番号Microsoft Teams取得できます。 フォームをダウンロードして新しい電話番号の要求を送信し、 [手順については TNS Service Desk にお問い合わせください](contact-tns-service-desk.md)。<br/><br/>[ニュージーランド (v.1.0) (mi-nz)](https://download.microsoft.com/download/4/a/a/4aa04212-a13d-46bf-b09e-1efbcbb2e622/new-phone-number-request-for-new-zealand-(v1.0)-(mi-NZ).pdf) の新しい電話番号要求。 <br/><br/> 電話番号を割り当てる前に、"顧客を知る" フォームをダウンロードし、完全に入力し、TNS サービス デスクに問い合わせ、手順を [確認する必要があります](contact-tns-service-desk.md)。<br/><br/>この市場を埋めるには、新しい注文に 2 ~ 3 週間かかる場合があります。  |
+|転送された電話番号を取得します。  <br/> | このフォームをダウンロードします。 <br/>[ニュージーランドの承認状 (LOA) (すべての数値) (v.1.0) (en-nz)](https://download.microsoft.com/download/e/6/7/e67f46ef-e1cd-4e70-a5cc-f53fd74285aa/letter-of-authorization-(loa)-for-new-zealand-(all-numbers)-(v1.0)-(en-nz).pdf) <br/> <br/>入力し、 [TNS サービス デスクに問い合わせ、手順を確認してください](contact-tns-service-desk.md)。 <br/><br>この市場では、ポートの複雑さによっては、移行に 1 ~ 6 週間かかる場合があります。<br/><br/>現時点では、これらの番号を会議に使用できません。  |
 |国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |[公開/発行を取](contact-tns-service-desk.md) り消す電話番号の一覧については、TNS サービス デスクにお問い合わせください。 <br/> |
 |ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換する](contact-tns-service-desk.md) ユーザー番号の一覧については、TNS サービス デスクにお問い合わせください。 <br/> |
-|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには、TNS サービス デスクに手順 [を問い合わせください](contact-tns-service-desk.md)。|
+|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには、 [TNS サービス デスクに手順を問い合わせください](contact-tns-service-desk.md)。|
 
 ## <a name="related-topics"></a>関連項目
 

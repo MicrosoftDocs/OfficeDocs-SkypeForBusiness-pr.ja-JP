@@ -1,8 +1,8 @@
 ---
 title: 統合Skype for Business Serverストアを使用するユーザーの構成
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
 description: '概要: 連絡先と連絡先の統合連絡先ストアExchange Server構成Skype for Business Server。'
-ms.openlocfilehash: ed28f57350e2ce1d7ed5f92d712bdf5ecc7f3de4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 41065b6df0e1d313ca986bef7be6bbd1609ab04a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853671"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417220"
 ---
 # <a name="configure-skype-for-business-server-to-use-the-unified-contact-store"></a>統合Skype for Business Serverストアを使用するユーザーの構成
  
@@ -28,11 +28,11 @@ ms.locfileid: "60853671"
 統合連絡先ストアを使用して、ユーザーは 1 つの連絡先リストを維持し、Skype for Business、Microsoft Outlook 2013、および Microsoft Outlook Web App 2013 を含む複数のアプリケーションでそれらの連絡先を使用できます。 ユーザーに対して統合連絡先ストアを有効にした場合、そのユーザーの連絡先はユーザーの連絡先にSkype for Business Serverに保存され、必要に応じて取得されます。 代わりに、連絡先は Exchange Server 2016 または Exchange Server 2013 に保存され、Exchange Web サービスを使用して取得されます。
   
 > [!NOTE]
-> 技術的には、連絡先情報は、ユーザーのメールボックスに含Exchangeされます。 連絡先自体は、エンド ユーザーに表示される Skype for Businessという名前のフォルダーに格納されます。連絡先に関するメタデータは、エンド ユーザーには表示されないサブフォルダーに格納されます。 
+> 技術的には、連絡先情報は、ユーザーのメールボックスに含Exchangeされます。 連絡先自体は、エンド ユーザーに表示される Skype for Business Contacts という名前のフォルダーに格納されます。連絡先に関するメタデータは、エンド ユーザーには表示されないサブフォルダーに格納されます。 
   
 ## <a name="enabling-the-unified-contact-store-for-a-user"></a>ユーザーに対して統合連絡先ストアを有効にする
 
-サーバー間のサーバー間認証Skype for Business Server Exchange Server構成されている場合は、統合連絡先ストアも有効にしています。追加のサーバー構成は必要ありません。 ただし、ユーザーの連絡先を統合連絡先ストアに移動するために、追加のユーザー アカウント構成を行う必要があります。 既定では、ユーザー連絡先は統合連絡先ストアではなくSkype for Business Serverに保持されます。
+Skype for Business Server と Exchange Server の間のサーバー間認証が既に構成されている場合は、統合連絡先ストアも有効にしています。追加のサーバー構成は必要ありません。 ただし、ユーザーの連絡先を統合連絡先ストアに移動するために、追加のユーザー アカウント構成を行う必要があります。 既定では、ユーザー連絡先は統合連絡先ストアではなくSkype for Business Serverに保持されます。
   
 統合連絡先ストアへのアクセスは、ユーザー サービス ポリシーを使用Skype for Business Server管理されます。 ユーザー サーバー ポリシーのプロパティは 1 つのみです (UcsAllowed)。このプロパティは、ユーザーの連絡先が格納されている場所を特定するために使用されます。 UcsAllowed が True ($True) に設定されているユーザー サービス ポリシーによってユーザーが管理されている場合、ユーザーの連絡先は統合連絡先ストアに保存されます。 UcsAllowed が False ($False) に設定されているユーザー サービス ポリシーによってユーザーが管理されている場合、連絡先は Skype for Business Server に保存されます。
   
@@ -58,13 +58,13 @@ Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName "AllowUnifiedContact
 
 ポリシーが割り当てられたら、Skype for Business Server連絡先を統合連絡先ストアに移行します。 移行が完了すると、ユーザーは自分の連絡先をユーザーではなく、Exchangeに保存Skype for Business Server。 移行が完了した時点でユーザーが Lync 2013 にログオンした場合は、メッセージ ボックスが表示され、Skype for Business からログオフし、プロセスを完了するためにログオンし戻すよう求めるメッセージ が表示されます。 このユーザーごとのポリシーが割り当てられていないユーザーは、連絡先を統合連絡先ストアに移行されません。 これは、これらのユーザーがグローバル ポリシーによって管理され、統合連絡先ストアの使用がグローバル ポリシーで無効になっているためです。
   
-ユーザーの連絡先が統合連絡先ストアに正常に移行されたことを確認するには[、test-CsUnifiedContactStore](/powershell/module/skype/test-csunifiedcontactstore?view=skype-ps)コマンドレットを Skype for Business Server 管理シェル内から実行します。
+ユーザーの連絡先が統合連絡先ストアに正常に移行されたことを確認するには、[test-CsUnifiedContactStore](/powershell/module/skype/test-csunifiedcontactstore?view=skype-ps) コマンドレットを Skype for Business Server 管理シェル内から実行します。
   
 ```powershell
 Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
 ```
 
-このTest-CsUnifiedContactStore成功すると、ユーザー sip:kenmyer@ <span></span> litwareinc .com の連絡先が統合連絡先ストアに移行 <span></span> されました。
+このTest-CsUnifiedContactStore成功すると、ユーザー sip:kenmyer@<span></span>litwareinc.com<span></span> の連絡先が統合連絡先ストアに移行されました。
   
 ## <a name="rolling-back-the-unified-contact-store"></a>統合連絡先ストアのロールバック
 
@@ -87,7 +87,7 @@ Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName NoUnifiedContactStor
   
 統合連絡先ストアを操作する際には、"Ken の連絡先が統合連絡先ストアに移行されないようにする" という点に注意することが重要です。 単純に新しいユーザー サービス ポリシーを Ken に割り当てるだけでは、Ken の連絡先は統合連絡先ストアから移動されません。 ユーザーが Skype for Business Server にログオンすると、システムはユーザーのユーザー サービス ポリシーをチェックして、連絡先を統合連絡先ストアに保持するかどうかを確認します。 答えが「はい」である (つまり、UcsAllowed プロパティが $True に設定されている) 場合は、連絡先が統合連絡先ストアに移行されます (連絡先がまだ統合連絡先ストアに移動されていないと仮定します)。 答えがいいえの場合は、Skype for Business Serverの連絡先を無視して次のタスクに進む必要があります。 つまり、Skype for Business Server UcsAllowed プロパティの値に関係なく、ユーザーの連絡先が統合連絡先ストアから自動的に移動されません。
   
-つまり、ユーザーに新しいユーザー サービス ポリシーを割り当て後[、Invoke-CsUcsRollback](/powershell/module/skype/invoke-csucsrollback?view=skype-ps)コマンドレットを実行して、ユーザーの連絡先を Exchange Server から Skype for Business Server に戻す必要があります。 たとえば、Ken Myer に新しいユーザー サービス ポリシーを割り当てた後、次のコマンドを使用して Ken の連絡先を統合連絡先ストアから移動できます。
+つまり、ユーザーに新しいユーザー サービス ポリシーを割り当て後、[Invoke-CsUcsRollback](/powershell/module/skype/invoke-csucsrollback?view=skype-ps) コマンドレットを実行して、ユーザーの連絡先を Exchange Server から Skype for Business Server に戻す必要があります。 たとえば、Ken Myer に新しいユーザー サービス ポリシーを割り当てた後、次のコマンドを使用して Ken の連絡先を統合連絡先ストアから移動できます。
   
 ```powershell
 Invoke-CsUcsRollback -Identity "Ken Myer"

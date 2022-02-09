@@ -1,8 +1,8 @@
 ---
 title: クライアント モビリティ ポリシー
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,16 +15,16 @@ ms.localizationpriority: medium
 ms.assetid: 6ab53530-143d-4f1e-90cd-a92685f98a20
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[クライアント] の [モビリティ ポリシー] ページには、展開で使用できるモビリティ ポリシーが表示されます。'
-ms.openlocfilehash: e4b030ac2665c833f19844d1f792be874d2324bd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 71eb06af1ef61c9f53aeb8caf8f410bd67292b4d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840489"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417190"
 ---
 # <a name="clients-mobility-policy"></a>クライアント: モビリティ ポリシー
 
-[**クライアント モビリティ****ポリシー] ページ** には、展開で使用できるモビリティ ポリシーが表示されます。
+[ **クライアント モビリティ** **ポリシー] ページ** には、展開で使用できるモビリティ ポリシーが表示されます。
 
 ## <a name="tasks-you-can-perform"></a>実行できるタスク
 
@@ -44,7 +44,7 @@ ms.locfileid: "60840489"
 
 - **検索フィールド** テキスト ボックスに文字列を入力して、表示されるポリシーをフィルター処理します。
 
-- **New**[**新規]** をクリックし、[サイト] または [**ユーザー] を選択して** 新しいモビリティ ポリシーを作成します。
+- **新機能**[**新規]** をクリックし、[サイト] または [**ユーザー] を選択して** 新しいモビリティ ポリシーを作成します。
 
 - **編集** ポリシーを選択し、[編集] **をクリック** して、選択したポリシーのプロパティを編集します。
 

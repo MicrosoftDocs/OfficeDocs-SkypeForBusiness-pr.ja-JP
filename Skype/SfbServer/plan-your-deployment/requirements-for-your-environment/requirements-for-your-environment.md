@@ -1,8 +1,8 @@
 ---
 title: ユーザーの環境Skype for Business要件
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 8/17/2015
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 306d3397-f305-4919-bdb1-aa7bb7b5c534
 description: '概要: 2015 年のシステム要件およびネットワーク要件またはインフラストラクチャ要件に関するトピックSkype for Business Serverします。 2015 年から 2015 年にインストールおよび展開を行う前提条件として何かをインストールまたは構成する必要がある場合Skype for Business Serverここに表示されます。'
-ms.openlocfilehash: 0bc44108a256e54a180b14293f37fc15510c97e5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8f5bd1d010ab65483fef071d1881e1b31b1a0105
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836205"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416450"
 ---
 # <a name="requirements-for-your-skype-for-business-2015-environment"></a>2015 環境Skype for Business要件
  
@@ -36,10 +36,10 @@ ms.locfileid: "60836205"
   
 ### <a name="server-requirements"></a>サーバーの要件
 
-[2015](server-requirements.md) Skype for Business Serverのサーバー要件は、展開で使用する個々のサーバーで準備するために必要な要件です。
+[2015 Skype for Business Serverの](server-requirements.md)サーバー要件は、展開で使用する個々のサーバーで準備するために必要な要件です。
   
 ### <a name="environmental-requirements"></a>環境要件
 
-[Skype for Business Server 2015 の環境要件は、2015](environmental-requirements.md)年に展開する前にインフラストラクチャで準備が必要なSkype for Business Serverです。
+[2015 Skype for Business Serverの環境要件は、2015](environmental-requirements.md) 年に展開する前にインフラストラクチャで準備する必要があるSkype for Business Serverです。
   
 

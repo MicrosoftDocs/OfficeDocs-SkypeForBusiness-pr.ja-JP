@@ -1,8 +1,8 @@
 ---
 title: トポロジ ビルダー起動ダイアログ
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 description: トポロジ ビルダーを起動して、Microsoft Lync Server 2013 展開のプロパティと構成を構成します。 起動時に、トポロジ ビルダーは、トポロジ ドキュメントのソースを確認するダイアログを表示します。 以下の 3 つのオプションのいずれかを選択します。
-ms.openlocfilehash: 991e6bcdfc62e046c7d46fb3d249ccee27bb9187
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 35b1d598d95cfc2598cd29ab69d3409a9419177a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863594"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417590"
 ---
 # <a name="topology-builder-startup-dialog"></a>トポロジ ビルダー起動ダイアログ
 

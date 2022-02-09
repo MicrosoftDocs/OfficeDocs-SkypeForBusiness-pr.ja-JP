@@ -1,8 +1,8 @@
 ---
 title: サービスを管理Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: この記事では、特定のトポロジで実行されているサービスを管理するSkype for Business Server説明します。
-ms.openlocfilehash: 3bb4092d2538bc994de3f71467cb03aedf8dc302
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9a26accf8e8c9a4c20b9fea99eac6d9dc2cbadea
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856674"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410790"
 ---
 # <a name="manage-services-for-skype-for-business-server"></a>サービスを管理Skype for Business Server
 
@@ -30,7 +30,7 @@ ms.locfileid: "60856674"
   
 ### <a name="to-view-a-list-of-computers-running-skype-for-business-server"></a>実行中のコンピューターの一覧を表示Skype for Business Server
 
-1. サーバーの定義済みの管理役割に割り当てられているユーザー アカウントSkype for Business Server、内部展開内の任意のコンピューターにログオンします。 このページで使用できる定義済みの管理役割の詳細については、「Skype for Business Serverアクセス制御の計画 **」Role-Based を参照してください**。   
+1. サーバーの定義済みの管理役割に割り当てられているユーザー アカウントSkype for Business Server、内部展開内の任意のコンピューターにログオンします。 このページで使用できる定義済みの管理役割の詳細については、「Skype for Business Serverアクセス制御の計画 **Role-Based参照してください**。   
 2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。   
 3. 左側のナビゲーション バーで [**トポロジ**] をクリックし、[**状態**] をクリックします。   
 4. [**状態**] ページで、必要に応じて、次のいずれかの操作を実行します。
@@ -55,7 +55,7 @@ Skype for Business Server コントロール パネルを使用すると、Skype
     
 ### <a name="viewing-service-status-with-windows-powershell-cmdlets"></a>Powershell コマンドレットを使用したWindowsの表示
 
-また、サービスの状態を表示するには、Windows PowerShell **Get-CsWindowsService コマンドレットを使用** します。 このコマンドレットは、Skype for Business Server 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモート サーバーを使用してサーバー Windows PowerShellする方法[Skype for Business Server、Microsoft Lync リモート PowerShell 管理を参照してください](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 このプロセスは、同じSkype for Business Server。
+また、サービスの状態を表示するには、Windows PowerShell **Get-CsWindowsService コマンドレットを使用** します。 このコマンドレットは、Skype for Business Server 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモート サーバーを使用してリモート Windows PowerShell接続する方法Skype for Business Server [Microsoft Lync リモート PowerShell 管理」を参照してください](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 このプロセスは、同じSkype for Business Server。
   
 ### <a name="to-view-service-status"></a>サービス状態を表示するには
 
@@ -77,7 +77,7 @@ Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object Rol
 |{ConferencingServer}  <br/> |実行中  <br/> |
 |{MediationServer}  <br/> |実行中  <br/> |
    
-詳細については [、「Get-CsWindowsService」を参照してください](/powershell/module/skype/get-cswindowsservice.md?view=skype-ps)。
+詳細については、「 [Get-CsWindowsService」を参照してください](/powershell/module/skype/get-cswindowsservice.md?view=skype-ps)。
   
 ## <a name="view-details-about-a-service"></a>サービスの詳細を表示する
 <a name="view_details"> </a>
@@ -86,7 +86,7 @@ Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object Rol
   
 ### <a name="to-view-details-for-a-service"></a>サービスの詳細を表示するには
 
-1. サーバーの定義済みの管理役割に割り当てられているユーザー アカウントSkype for Business Server、内部展開内の任意のコンピューターにログオンします。 このページで使用できる定義済みの管理役割の詳細については、「Skype for Business Serverアクセス制御の計画 **」Role-Based を参照してください**。
+1. サーバーの定義済みの管理役割に割り当てられているユーザー アカウントSkype for Business Server、内部展開内の任意のコンピューターにログオンします。 このページで使用できる定義済みの管理役割の詳細については、「Skype for Business Serverアクセス制御の計画 **Role-Based参照してください**。
 2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
 3. 左側のナビゲーション バーで [**トポロジ**] をクリックし、[**状態**] をクリックします。
 4. [**状態**] ページで、一覧を並べ替えるか検索して、表示するコンピューターをクリックします。

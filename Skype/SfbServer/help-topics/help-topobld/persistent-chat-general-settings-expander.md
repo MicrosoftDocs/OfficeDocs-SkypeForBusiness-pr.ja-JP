@@ -1,8 +1,8 @@
 ---
 title: 常設チャット全般設定の展開
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 275ee1ae-ca58-4963-bc95-523319f90d96
 description: これらのプロパティを構成または定義することで、常設チャット サーバーまたは常設チャット サーバー プールの全般設定を編集します。
-ms.openlocfilehash: 8047b6a3d8e4f81056af20feb2d5a36416bac2b8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e93af8c8924117159434691b550f2ed9fcbb6e69
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854421"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417690"
 ---
 # <a name="persistent-chat-general-settings-expander"></a>常設チャット全般設定エキスパンダー
  
@@ -38,23 +38,23 @@ ms.locfileid: "60854421"
   
  **関連付け**
   
-- **SQL Serverストア**: リストから、SQL Serverおよびオプションの名前付きインスタンスを選択します。
+- **SQL Serverストア**: リストからSQL Server名前の付いたインスタンスを選択します。
     
     [**新規**] をクリックして、新しい SQL Server ストアとオプションのインスタンスを定義します。
     
 - プライマリ サーバー **ストアSQL Serverミラーリング** を有効にする場合は、[ストア ミラーリングを有効にする] チェック ボックスSQL Serverします。
     
-    ストア ミラーリングを有効にSQL Server場合は、リストの [ミラーリング] ストアからストア **とインスタンスSQL Serverします**。
+    ストア ミラーリングを有効SQL Server場合は、リストの [ミラーリング] ストアからストア **とインスタンスSQL Serverします**。
     
     [**新規**] をクリックして、新しい SQL Server ストアとオプションのインスタンスを定義します。
     
-- プライマリ サーバー **ストアのSQL Serverフェールオーバー** を有効にする場合は、[ミラーリング監視を使用して自動フェールオーバーを有効にする] チェック ボックスをSQL Serverします。
+- プライマリ サーバー **ストアのSQL Serverフェールオーバー** を自動的に実行する場合は、[ミラーリング監視を使用して自動フェールオーバーを有効にする] チェック ボックスをSQL Serverします。
     
     自動フェールオーバーを有効にSQL Serverミラーリング監視を有効にする場合は、一覧からストアとインスタンスを選択します。
     
     [**新規**] をクリックして、監視ストア用の新しい SQL Server ストアとオプションのインスタンスを定義します。
     
-- 障害復旧 **の使用** SQL Serverする場合は、[バックアップ ストアを使用して障害復旧を有効にする] チェック ボックスSQL Server選択します。
+- 障害復旧 **の使用をSQL Server** 場合は、[バックアップ ストアを使用して障害復旧を有効にする] チェック ボックスSQL Server選択します。
     
     災害復旧の有効化を選択した場合、[**バックアップ SQL Server ストア**] リストからストアおよびインスタンスを選択します。
     
@@ -62,7 +62,7 @@ ms.locfileid: "60854421"
     
 - ミラーリング ストアの **バックアップSQL Server** ミラーリングを有効にする場合は、[ストア ミラーリングを有効にする] チェック SQL Server選択します。
     
-    ストア ミラーリングのバックアップを有効SQL Server選択した場合は、リストの [バックアップ] からストアと **インスタンスSQL Server選択します**。
+    ストア ミラーリングのバックアップを有効SQL Server場合は、[バックアップ] リストからストアとインスタンスSQL Server **選択します**。
     
     [**新規**] をクリックして、新しい SQL Server ストアとオプションのインスタンスを定義します。
     
@@ -80,7 +80,7 @@ ms.locfileid: "60854421"
     
 - コンプライアンス サーバー **ストアSQL Serverミラーリング** を有効にする場合は、[ストア ミラーリングを有効にする] チェック SQL Serverします。
     
-    ストア ミラーリングのコンプライアンスを有効SQL Server選択した場合は、[コンプライアンス] リストからストアとインスタンスSQL Server **選択します**。
+    ストア ミラーリングでコンプライアンス を有効SQL Server場合は、[コンプライアンス] リストからストアとインスタンスSQL Server **選択します**。
     
     [**新規**] をクリックして、新しい SQL Server ストアとオプションのインスタンスを定義します。
     

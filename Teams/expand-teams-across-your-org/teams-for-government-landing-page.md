@@ -1,8 +1,8 @@
 ---
 title: '政府機関用の Teams '
-description: 政府機関の環境で計画およびデプロイするTeamsをMicrosoft 365します。
-author: HowlinWolf-92
-ms.author: v-mahoffman
+description: 政府機関の環境でアプリケーションを計画TeamsデプロイMicrosoft 365学習します。
+author: SerdarSoysal
+ms.author: serdars
 ms.topic: article
 manager: serdars
 audience: admin
@@ -14,16 +14,16 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f41dbffa5d2e0b9cd979d280e1cf865f41d217a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3ae61c865a5833145e6cb8bf4fc80ad3bf9a127f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857154"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417410"
 ---
 # <a name="teams-for-government"></a>政府機関用の Teams 
 
-これらのリソースを使用して、政府機関環境にデプロイする際のTeamsについてMicrosoft 365確認してください。 準備ができたら、「Microsoft Teams のロールアウト方法」で説明されている手順に従って、Teams の推奨されるデプロイ パス[に従Microsoft Teams。](../deploy-overview.md)
+これらのリソースを使用して、政府機関環境にデプロイする際のTeamsについてMicrosoft 365説明します。 準備ができたら、「デプロイをロールアウトする方法」で説明Teamsの推奨されるデプロイ パス[に従](../deploy-overview.md)Microsoft Teams。
 
 | &nbsp; |&nbsp; |
 | ------------- | ------------- |

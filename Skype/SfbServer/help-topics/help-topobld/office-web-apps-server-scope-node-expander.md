@@ -1,8 +1,8 @@
 ---
 title: Office Web Apps サーバーのスコープ ノード エキスパンダー
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,24 +15,24 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
 description: トポロジ ビルダーで Web Apps Officeを右クリックして、次の操作を実行します。
-ms.openlocfilehash: 68cc30e456f314984b802b0b7c04037f4317c466
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 792b843f3ce97cbca3a247c782d8dd531cd0a227
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854461"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399771"
 ---
 # <a name="office-web-apps-server-scope-node-expander"></a>Office Web Apps サーバーのスコープ ノード エキスパンダー
  
-トポロジ ビルダーで Web **Apps Officeを** 右クリックして、次の操作を実行します。
+トポロジ ビルダーで Web **apps Officeを** 右クリックして、次の操作を実行します。
   
-- **新Office Web Apps Server**:  Web Apps Server の新しいアプリケーションOffice定義するために使用される新しい Web アプリ サーバーの定義ウィザードOffice開始します。
+- **新Office Web Apps Server: Web** Apps Server の新しいアプリケーションOffice定義するために使用される新しい Web アプリ サーバーの定義ウィザードOffice開始します。
     
 [Web Apps サーバーの新しいOfficeに加えて、次の一般的なタスクを実行できます。
   
-![OfficeWebApps サーバー スコープ ノード。](../../media/OfficeWebApps_Server_Scope_Node.jpg)
+![Office WebApps サーバー スコープ ノード。](../../media/OfficeWebApps_Server_Scope_Node.jpg)
   
-- **トポロジ**。 このオプションを使用すると、新しいトポロジの定義、既存のトポロジの開き、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの発行、データベースのインストール、以前のバージョンのコンポーネントのマージ、展開の削除を行います。
+- **トポロジ。** このオプションを使用すると、新しいトポロジの定義、既存のトポロジの開き、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの発行、データベースのインストール、以前のバージョンのコンポーネントのマージ、展開の削除を行います。
     
 - **ヘルプ**。このオプションを使用して、アクティブ ノードのヘルプにアクセスできます。
     

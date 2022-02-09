@@ -1,8 +1,8 @@
 ---
 title: Grant-CsOUPermissionで行Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d744d352-1ad9-4447-8e2b-28e768d2ed1b
 description: Skype for Business Server 管理を委任するには、指定した組織単位 (OUs) にアクセス許可を追加して、フォレスト準備によって作成された RTC ユニバーサル グループのメンバーが Domain Admins グループのメンバーでなくても、OUs にアクセスできます。
-ms.openlocfilehash: c8b7841fc6754c5f852945807a68089c922f6497
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 412fd5eb19f3dac23bbbf68cfd4eb751f56fa3bc
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838469"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416400"
 ---
 # <a name="changes-made-by-grant-csoupermission-in-skype-for-business-server"></a>Grant-CsOUPermissionで行Skype for Business Server
  

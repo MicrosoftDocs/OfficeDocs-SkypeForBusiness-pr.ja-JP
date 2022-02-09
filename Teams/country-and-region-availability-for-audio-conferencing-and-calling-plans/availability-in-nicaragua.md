@@ -1,7 +1,7 @@
 ---
 title: ニカラグアでの可用性
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Nicaragua でMicrosoft 365およびOffice 365サービスのSkype for BusinessとMicrosoft Teamsを次に示します。
-ms.openlocfilehash: 5b67b46fec221f9fdaa921de81d9e7adbe1bdc6a
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+description: Nicaragua でMicrosoft 365およびOffice 365のSkype for BusinessおよびMicrosoft Teamsサービスを次に示します。
+ms.openlocfilehash: 4528dbb3c6e9ace8a4839568f4717180371896c6
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62190648"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410630"
 ---
 # <a name="availability-in-nicaragua"></a>ニカラグアでの可用性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-Nicaragua でMicrosoft 365およびOffice 365サービスのSkype for BusinessとMicrosoft Teamsを次に示します。
+Nicaragua でMicrosoft 365およびOffice 365のSkype for BusinessおよびMicrosoft Teamsサービスを次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -72,7 +72,7 @@ Nicaragua でMicrosoft 365およびOffice 365サービスのSkype for Business�
 |有料電話番号は使用できますか?  <br/> |はい ([要求に応じて](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
 |無料電話番号は利用できますか?  <br/> |いいえ  <br/> |
    
- 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「Skype for Business および Microsoft Teams のサービス電話番号を取得する」を参照[してください](../getting-service-phone-numbers.md)。
+ 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「Skype for Business および Microsoft Teams のサービス電話番号を取得する」[を参照](../getting-service-phone-numbers.md)してください。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 
@@ -82,7 +82,7 @@ Nicaragua でMicrosoft 365およびOffice 365サービスのSkype for Business�
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

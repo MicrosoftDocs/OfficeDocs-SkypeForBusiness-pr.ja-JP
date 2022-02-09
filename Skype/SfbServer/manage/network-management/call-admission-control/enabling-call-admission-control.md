@@ -1,8 +1,8 @@
 ---
 title: 通話受付管理の有効化
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: " 通話受付管理 (CAC) ネットワークを構成した後、CAC を有効にして帯域幅の制限を適用する必要があります。"
-ms.openlocfilehash: 401580bbc893bff2081aa59b7458e831db2f8775
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 4a61fbb9587469c483f95e544bf168fe8dec4ab7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847230"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410770"
 ---
 # <a name="enabling-call-admission-control-in-skype-for-business-server"></a>Skype for Business Server での通話受付管理の有効化
 

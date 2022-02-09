@@ -1,7 +1,7 @@
 ---
 title: iOS のインストールSkype for Businessテスト
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 142abc98-608d-40c7-ab4d-66acc010426b
 description: '概要: iOS アプリ用のアプリをインストールSkype for Businessテストする方法。'
-ms.openlocfilehash: b3bcdddbafe5ae0c578f1f5e38f44696ed01dd66
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a485893e1433e3c1f45377acd11526a9396e85cc
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843530"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417320"
 ---
 # <a name="install-and-test-skype-for-business-for-ios"></a>iOS のインストールSkype for Businessテスト
  
@@ -27,9 +27,9 @@ iOS Skype for Business機能により、iOS デバイスSkype for Businessプレ
   
 ## <a name="installing-skype-for-business-for-ios"></a>iOS Skype for Businessのインストール
 
-1. iOS デバイスから[App **Store] を** タップし、iOS Skype for Business **を検索します**。
+1. iOS デバイスで[アプリ ストア] **を** タップし、[**iOS のSkype for Businessを検索します**。
     
-2. [開 **くダウンロード]**  >  **をタップします**。 
+2. [ **DownloadOpen] をタップ** > **します**。 
     
 3. アプリにサインインします。
     

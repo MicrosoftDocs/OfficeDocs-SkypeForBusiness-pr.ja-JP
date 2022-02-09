@@ -1,8 +1,8 @@
 ---
 title: ユーザーの PIN をロックまたはロック解除Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
 description: '概要: ユーザーのダイヤルイン会議 PIN をロックまたはロック解除して、Skype for Business Server。'
-ms.openlocfilehash: 1ae1deea84b099852decd9acbc6315049484b0b3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6f09886b9f8a3e95317c19e1cd509cc8f1abd1d7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848601"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410900"
 ---
 # <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>ユーザーの PIN をロックまたはロック解除Skype for Business Server
  
 **概要:** ユーザーのダイヤルイン会議 PIN をロックまたはロック解除して、Skype for Business Server。
   
-[コントロール パネル] の [ユーザー]セクションからユーザーの PIN をロックSkype for Business Server解除できます。
+ユーザーの PIN のロックまたはロック解除は、コントロール パネルの [**ユーザー**] セクションSkype for Business Serverできます。
   
 ### <a name="to-lock-a-users-pin-in-skype-for-business-server-control-panel"></a>コントロール パネルでユーザーの PIN をSkype for Business Serverするには
 
@@ -90,7 +90,7 @@ ms.locfileid: "60848601"
     
 ## <a name="locking-and-unlocking-user-pins-by-using-windows-powershell-cmdlets"></a>コマンドレットを使用してユーザー PIN をロックWindows PowerShellする
 
-ユーザー PIN をロックおよびロック解除するには、Windows PowerShellコマンドレットとLock-CsClientPinをUnlock-CsClientPinします。 これらのコマンドレットは、Skype for Business Server管理シェルから、またはリモート セッションから実行Windows PowerShell。 リモート サーバーを使用してサーバー Windows PowerShellする方法[Skype for Business Server、Microsoft Lync リモート PowerShell 管理を参照してください](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 このプロセスは、同じSkype for Business Server。
+ユーザー PIN をロックおよびロック解除するには、Windows PowerShellコマンドレットとLock-CsClientPinをUnlock-CsClientPinします。 これらのコマンドレットは、Skype for Business Server管理シェルから、またはリモート セッションから実行Windows PowerShell。 リモート サーバーを使用してリモート Windows PowerShell接続する方法Skype for Business Server [Microsoft Lync リモート PowerShell 管理」を参照してください](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 このプロセスは、同じSkype for Business Server。
   
 ### <a name="to-lock-a-user-pin"></a>ユーザー PIN をロックするには
 
@@ -102,10 +102,10 @@ ms.locfileid: "60848601"
 
 ### <a name="to-unlock-a-user-pin"></a>ユーザー PIN のロックを解除するには
 
-- ユーザーの PIN のロックを解除するには、次のコマンドレットUnlock-CsClientPinします。 例:
+- ユーザーの PIN のロックを解除するには、次のコマンドレットUnlock-CsClientPinします。 次に例を示します。
     
   ```PowerShell
   Unlock-CsClientPin -Identity "Ken Myer"
   ```
 
-詳細については [、Lock-CsClientPin](/powershell/module/skype/lock-csclientpin?view=skype-ps) コマンドレットおよび [Unlock-CsClientPin](/powershell/module/skype/unlock-csclientpin?view=skype-ps) コマンドレットのヘルプ トピックを参照してください。
+詳細については、 [Lock-CsClientPin](/powershell/module/skype/lock-csclientpin?view=skype-ps) コマンドレットおよび [Unlock-CsClientPin](/powershell/module/skype/unlock-csclientpin?view=skype-ps) コマンドレットのヘルプ トピックを参照してください。

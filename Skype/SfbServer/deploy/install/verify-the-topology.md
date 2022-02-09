@@ -1,8 +1,8 @@
 ---
 title: '[トポロジ] でトポロジを確認Skype for Business Server'
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/14/2018
 audience: ITPro
@@ -16,13 +16,13 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a4f4bad1-fc59-47ce-a3ea-b1b893769db6
-description: '概要: トポロジサーバーと Active Directory サーバー Skype for Business Server期待通り動作している状態を確認する方法について学習します。 以下の Microsoft 評価センター Skype for Business Server無料試用版をダウンロードします https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。'
-ms.openlocfilehash: 32d9e4302109ef9a7d5cb34946722eb8a8e9f38c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: '概要: トポロジサーバーと Active Directory サーバー Skype for Business Server期待通り動作している状態を確認する方法について学習します。 以下の Microsoft 評価センター Skype for Business Server無料試用版をダウンロードしますhttps://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
+ms.openlocfilehash: fa26c58cf7a5a848faec3db6a9865deeea210146
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864264"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410560"
 ---
 # <a name="verify-the-topology-in-skype-for-business-server"></a>[トポロジ] でトポロジを確認Skype for Business Server
  
@@ -50,9 +50,9 @@ ms.locfileid: "60864264"
   
 3. 管理アカウントを使用して、コントロール パネルがインストールSkype for Business Serverコンピューターにログオンします。
     
-4. コントロール Skype for Business Serverを開始し、プロンプトが表示されたら資格情報を入力します。 Skype for Business Serverコントロール パネルには、展開情報が表示されます。
+4. コントロール Skype for Business Serverを開始し、プロンプトが表示されたら資格情報を入力します。 Skype for Business Serverコントロール パネルには展開情報が表示されます。
     
-5. 左側のナビゲーション バーで、[トポロジ] をクリックし、サービスの状態に緑色の矢印が付くコンピューターが表示され、展開およびオンライン化された各 Skype for Business Server 役割の横に、レプリケーション状態の緑色のチェック マークが表示されます。 
+5. 左側のナビゲーション バーで 、[トポロジ] をクリックし、サービスの状態に緑色の矢印が付くコンピューターが表示され、展開およびオンラインにされた各 Skype for Business Server 役割の横に、レプリケーション状態の緑色のチェック マークが表示されます。 
     
 6. 左側のナビゲーション バーで、[**ユーザー**] をクリックし、[**ユーザーを有効にする**] をクリックします。 
     
@@ -60,7 +60,7 @@ ms.locfileid: "60864264"
     
 8. 検索するオブジェクトの検索パラメーターを定義するには、[**Active Directory から選択**] ページで [**検索**] を選択し、オプションで [**フィルターの追加**] をクリックできます。 また [**LDAP 検索**] を選択し、LDAP 表現を入力して、戻されるオブジェクトをフィルター処理または制限することもできます。 検索オプションを決定した後、[検索] を **クリックします**。
     
-9. [検索結果] ウィンドウで、追加するユーザーを選択し **、[OK] をクリックします**。
+9. [検索結果] ウィンドウで、追加するユーザーを選択し、[OK] をクリック **します**。
     
 10. [新 **しいユーザー Skype for Business Server] ページ** で、選択したユーザーが [ユーザー] 画面に **表示** されます。 [ユーザーを **プールに割り当てる] リスト** で、ユーザーが存在するサーバーを選択します。
     
@@ -86,11 +86,11 @@ ms.locfileid: "60864264"
     
     - **クライアント ポリシー**
     
-    基本的な機能をテストするには、ユーザーの **SIP URI** の生成設定に使用するオプション (構成の他のオプションでは既定の設定を使用)を選択し、図に示すように [有効] をクリックします。
+    基本的な機能をテストするには、[ユーザー **の SIP URI** の生成] 設定に使用するオプション (構成の他のオプションでは既定の設定を使用) を選択し、図に示すように [有効] をクリックします。
     
      ![コントロール パネルでユーザーを有効にします。](../../media/7ee8717d-9a1f-4864-8f45-71071c88878f.png)
   
-11. [有効] 列にチェック マークが表示され、ユーザーがセットアップ済みかどうかを示す概要ページが表示されます。 [SIP **アドレス]** 列には、ユーザー サインイン構成に必要なアドレスが表示されます。
+11. [有効] 列にチェック マークが表示され、ユーザーがセットアップ済みかどうかを示す概要ページが表示されます。 [ **SIP アドレス]** 列には、ユーザー サインイン構成に必要なアドレスが表示されます。
     
      ![コントロール パネルにSkype for Business Serverユーザー。](../../media/8960548a-8d6d-44c5-bc01-6f9fb11b7588.png)
   

@@ -1,8 +1,8 @@
 ---
 title: 割り当てられていない番号範囲を作成または変更Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: アナウンス アプリケーションの割り当てられていない番号範囲を作成、変更、または削除Skype for Business Server エンタープライズ VoIP。 これは、割り当てられていない番号の呼び出しの処理方法に影響します。
-ms.openlocfilehash: dcdf8fe1bf4d087b27723626ccd9207df14238c4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 10e65d6202babd0c15fe569c71f6e8a84b301eb7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856314"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410550"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>割り当てられていない番号範囲を作成または変更Skype for Business Server
  
@@ -47,7 +47,7 @@ Skype for Business Serverを使用すると、組織で有効なが、ユーザ�
     
 2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。  
     
-3. 左側のナビゲーション バーで、[音声機能] **をクリック** し、[割り当てられていない番号] **をクリックします**。
+3. 左側のナビゲーション バーで、[音声機能] **をクリック** し、[割り当てられていない番号 **] をクリックします**。
     
 4. [割 **り当てられていない番号] ページ** で、次のいずれかの操作を行います。
     
@@ -56,7 +56,7 @@ Skype for Business Serverを使用すると、組織で有効なが、ユーザ�
      > [!NOTE]
      > 新しい割り当てられていない番号範囲をデータベースにコミットした後、この名前を変更することはできません。 
   
-   - 既存の番号範囲を変更するには、検索フィールドに番号範囲の名前のすべてまたは一部を入力します。 結果の番号範囲の一覧で、必要な名前をクリックし、[編集] をクリックし、[詳細の表示]**をクリックします**。
+   - 既存の番号範囲を変更するには、検索フィールドに番号範囲の名前のすべてまたは一部を入力します。 結果の番号範囲の一覧で、必要な名前をクリックし、[編集] をクリックし、[詳細の表示] **をクリックします**。
     
 5. 最初の **[数値の範囲]** フィールドに範囲の開始番号を入力し、2 番目の **[数値の範囲]** フィールドに範囲の終了番号を入力します。
     
@@ -64,7 +64,7 @@ Skype for Business Serverを使用すると、組織で有効なが、ユーザ�
     
    - 範囲の開始番号または終了番号に内線番号が含まれる場合は、両方の番号が内線番号を含む必要があり、その内線番号は両方の番号で一致する必要があります。
     
-   - 数値は正規表現と一致する必要があります `(tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?` 。 つまり、数値は文字列で始まる可能性があります (その文字列を指定しない場合は自動的に追加されます)、プラス記号 (+)、および数字 1 ~ `tel:` 9 です。 電話番号には最大 17 桁の数字を指定できます。その後に内線番号 ;ext= の後に内線番号を付けることもできます。
+   - 数値は正規表現と一致する必要があります `(tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?`。 つまり、 `tel:` 数値は文字列で始まる可能性があります (その文字列を指定しない場合は自動的に追加されます)、プラス記号 (+)、および数字 1 ~ 9 です。 電話番号には最大 17 桁の数字を指定できます。その後に内線番号 ;ext= の後に内線番号を付けることもできます。
     
 6. **[アナウンス サービス]** で、次のいずれかの手順を実行します。 
     
@@ -91,9 +91,9 @@ Skype for Business Serverを使用すると、組織で有効なが、ユーザ�
     
 ### <a name="to-use-skype-for-business-server-management-shell-to-configure-unassigned-phone-numbers"></a>管理シェルSkype for Business Server使用して割り当てられていない電話番号を構成するには
 
-1. Skype for Business Server 管理シェルがインストールされているコンピューターに RTCUniversalServerAdmins グループのメンバーとして、または「代理セットアップのアクセス許可」の説明に従って必要なユーザー権限でログオン **します。**
+1. Skype for Business Server 管理シェルがインストールされているコンピューターに RTCUniversalServerAdmins グループのメンバーとして、または「委任セットアップのアクセス許可」の説明に従って必要なユーザー権限を持つコンピューターにログオンします。
     
-2. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
+2. 管理シェルをSkype for Business Serverする **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[**2015** 年Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 3. **New-CsUnassignedNumber** を使用して、割り当てられていない新しい番号範囲を作成します。 **Set-CsUnassignedNumber** を使用して、割り当てられていない既存の番号範囲を変更します。
     
@@ -150,9 +150,9 @@ Skype for Business Serverを使用すると、組織で有効なが、ユーザ�
     
 ### <a name="to-use-skype-for-business-server-management-shell-to-delete-an-unassigned-number-range"></a>管理シェルSkype for Business Server使用して割り当てられていない番号範囲を削除するには
 
-1. Skype for Business Server 管理シェルがインストールされているコンピューターに RTCUniversalServerAdmins グループのメンバーとして、または「代理セットアップのアクセス許可」の説明に従って必要なユーザー権限でログオン **します。**
+1. Skype for Business Server 管理シェルがインストールされているコンピューターに RTCUniversalServerAdmins グループのメンバーとして、または「委任セットアップのアクセス許可」の説明に従って必要なユーザー権限を持つコンピューターにログオンします。
     
-2. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
+2. 管理シェルをSkype for Business Serverする **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[**2015** 年Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 3. コマンドラインで、次のように入力します。
     
@@ -167,7 +167,7 @@ Skype for Business Serverを使用すると、組織で有効なが、ユーザ�
    ```
 
     > [!NOTE]
-    > その他のオプションの詳細については [、「Remove-CsCallParkOrbit」を参照してください](/powershell/module/skype/remove-cscallparkorbit?view=skype-ps)。 
+    > その他のオプションの詳細については、「 [Remove-CsCallParkOrbit」を参照してください](/powershell/module/skype/remove-cscallparkorbit?view=skype-ps)。 
   
 ## <a name="see-also"></a>関連項目
 

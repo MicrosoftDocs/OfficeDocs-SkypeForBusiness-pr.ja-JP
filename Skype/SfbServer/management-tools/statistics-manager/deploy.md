@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server の統計情報マネージャーの展開
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: '概要: このトピックを参照して、統計マネージャーを展開する方法について説明Skype for Business Server。'
-ms.openlocfilehash: 4cfedb385078cd12413cb9f27059f7b5ed8023a1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 98a1a405ccccf9ee88941588e6e43f152d2f6bb3
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857434"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410720"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Skype for Business Server の統計情報マネージャーの展開
  
@@ -29,12 +29,12 @@ ms.locfileid: "60857434"
 Statistics Manager のインストールを試みる前に、ソフトウェア、ネットワーク、およびハードウェアの要件に精通していることを確認してください。 詳細については、「Plan [for Statistics Manager for Skype for Business Server」 を参照してください](plan.md)。
   
 > [!NOTE]
-> 以前のバージョンの Statistics Manager からアップグレードする場合は、「アップグレード統計マネージャー」を参照[Skype for Business Server。](upgrade.md) 
+> 以前のバージョンの Statistics Manager からアップグレードする場合は、「アップグレード統計マネージャー」を参照[Skype for Business Server](upgrade.md)。 
   
 > [!NOTE]
 > Statistics Manager Web サイトは、Internet Explorer 11+、Edge 20.10240+、および Chrome 46+ (現在の常緑樹バージョン) でテストされ、正しく動作します。 
   
-統計マネージャーは、次のページからダウンロードできます [https://aka.ms/StatsManDownload](https://aka.ms/StatsManDownload) 。 
+統計マネージャーは、次のページからダウンロードできます [https://aka.ms/StatsManDownload](https://aka.ms/StatsManDownload)。 
   
 このトピックは、以下のセクションで構成されています。
   
@@ -66,11 +66,11 @@ Statistics Manager を展開するには、次の手順を実行します。
 
 ホスト コンピューターを準備するには、Redis インメモリ キャッシュ システムをインストールし、有効な証明書がコンピューター上にインストールされている必要があります。 Redis 3.0 の最新の安定したビルドをインストールしてください。 Statistics Manager バージョン 2.0 は Redis 3.2.100 でテストされました。 
   
-1. 次のサイトから Redis をダウンロードします [https://github.com/MSOpenTech/redis](https://github.com/MSOpenTech/redis) 。 
+1. 次のサイトから Redis をダウンロードします。 [https://github.com/MSOpenTech/redis](https://github.com/MSOpenTech/redis) 
     
     署名されていないインストーラーは、次の場所からダウンロードできます。 [https://github.com/MSOpenTech/redis/releases](https://github.com/MSOpenTech/redis/releases)
     
-    必要に応じて、署名されたバイナリは、一般的なパッケージ マネージャー [(Nuget](https://www.nuget.org/packages/Redis-64/) と [Choclatey) を通じて利用できます](https://chocolatey.org/packages/redis-64)。
+    必要に応じて、署名されたバイナリは、一般的なパッケージ マネージャーである [Nuget](https://www.nuget.org/packages/Redis-64/) と [Choclatey を通じて利用できます](https://chocolatey.org/packages/redis-64)。
     
    - 指定された msi を実行し、プロンプトに従います。
     
@@ -86,7 +86,7 @@ Statistics Manager を展開するには、次の手順を実行します。
 
 ホスト コンピューターにリスナー サービスをインストールするには、次のStatsManPerfAgentListener.msiを指定します。
   
-1. 使用許諾契約書を確認し、同意する場合は、[使用許諾契約書の条項に同意する] を選択し、[次へ] を **クリックします**。 
+1. 使用許諾契約書を確認し、同意する場合は、[使用許諾契約書の条項に同意する] を **選択** し、[次へ] をクリック **します**。 
     
 2. 次のページで、次の情報を指定します。
     
@@ -96,7 +96,7 @@ Statistics Manager を展開するには、次の手順を実行します。
     
    - **証明書の拇印:** これは、リスナーが HTTPS プロトコルの暗号化に使用する証明書の拇印です。 ネットワーク サービスには、プライベート キーへの読み取りアクセス権が必要です。
     
-     **[Select....] ボタン** をクリックして拇印を選択します。
+     [ **Select....] ボタン** をクリックして拇印を選択します。
     
      証明書の拇印は、証明書マネージャーを使用するか、次の PowerShell コマンドを使用して確認できます。
     
@@ -112,7 +112,7 @@ Statistics Manager を展開するには、次の手順を実行します。
     
 インストールを検証するには、次の手順を実行します。
   
-1. ブラウザーを開き https://localhost: \<service-port\> 、[/healthcheck/ ] に移動します。
+1. ブラウザーを開き、[ https://localhost:\<service-port\>/healthcheck/ ] に移動します。
     
     既定では、サービス ポートは 8443 です (別のポートを指定しない限り)。
     
@@ -126,9 +126,9 @@ Statistics Manager を展開するには、次の手順を実行します。
     
 ### <a name="install-the-website"></a>Web サイトのインストール
 
-[StatsManWebSite.msi (Skype for Business Server、Real-Time Statistics Manager (64 ビット)](https://www.microsoft.com/en-in/download/details.aspx?id=57518)に含まれる) を実行し、以下を指定して、ホスト コンピューターに Web サイトをインストールします。
+[StatsManWebSite.msi (Skype for Business Server、Real-Time Statistics Manager (64 ビット)](https://www.microsoft.com/en-in/download/details.aspx?id=57518) に含まれる) を実行し、以下を指定して、ホスト コンピューターに Web サイトをインストールします。
   
-1. 使用許諾契約書を確認し、同意する場合は、[使用許諾契約書の条項に同意する] を選択し、[次へ] を **クリックします**。 
+1. 使用許諾契約書を確認し、同意する場合は、[使用許諾契約書の条項に同意する] を **選択** し、[次へ] をクリック **します**。 
     
 2. 次のページで、次の情報を指定します。
     
@@ -140,9 +140,9 @@ Statistics Manager を展開するには、次の手順を実行します。
     
 3. **[インストール]** をクリックします。
     
-Web サイトを表示するには、ブラウザーを開き http://localhost 、[,webport \> /] に移動します。
+Web サイトを表示するには、ブラウザーを開き、[ http://localhost,webport/] に移動\>します。
   
-正常性情報のみを表示するには、ブラウザーを開き http://localhost: \<webport\> 、[/healthcheck/] に移動します。
+正常性情報のみを表示するには、ブラウザーを開き、[/ http://localhost:\<webport\>healthcheck/] に移動します。
   
 既定では、Web ポート番号は 8080 です。 IIS マネージャーを使用して、Web サイトのポート バインドを変更できます。
   
@@ -152,13 +152,13 @@ Web インストーラーは、StatsManWebSiteUsers というローカル セキ
 
 監視する各サーバーにエージェントSkype for Business Serverインストールするには、次のコマンドを実行StatsManPerfAgent.msiを指定します。
   
-1. 使用許諾契約書を確認し、同意する場合は、[使用許諾契約書の条項に同意する] を選択し、[次へ] を **クリックします**。 
+1. 使用許諾契約書を確認し、同意する場合は、[使用許諾契約書の条項に同意する] を **選択** し、[次へ] をクリック **します**。 
     
 2. 次のページで、次の情報を指定します。
     
    - **サービス パスワード:** これは、リモート エージェントがリスナー サービスへの認証に使用するパスワードです。
     
-   - **サービス URI:** これは、リスナーが存在する URI です。 この形式を使用 https://name:port する必要があります。
+   - **サービス URI:** これは、リスナーが存在する URI です。 この形式を使用する必要 https://name:port があります。
     
      NETBIOS 名または FQDN を使用できます。 リスナー サービスで証明書のサブジェクトまたはサブジェクトの代替名として指定されている名前を使用できますが、これは要件ではありません。
     
@@ -170,7 +170,7 @@ Web インストーラーは、StatsManWebSiteUsers というローカル セキ
     
 3. **[インストール]** をクリックします。
     
-多数のコンピューターにエージェントをインストールする場合は、無人モードでこれを行う必要があります。 例: 
+多数のコンピューターにエージェントをインストールする場合は、無人モードでこれを行う必要があります。 次に例を示します。 
   
 ```console
 msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> SERVICE_PASSWORD=<password> SERVICE_URI=https://<hostname>:<servicePort>/[INSTALLDIR=<directory>][DIR_  STATSMANAPPDATA=<directory>]
@@ -179,7 +179,7 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
 ### <a name="import-the-topology"></a>トポロジのインポート
 <a name="BKMK_ImportTopology"> </a>
 
-Statistics Manager をインストールして実行した後、統計マネージャーが各サーバーのサイト、プール、および役割を知Skype for Business Serverトポロジをインポートする必要があります。 Skype for Business Server トポロジをインポートするには[、Get-CsPool](/powershell/module/skype/get-cspool?view=skype-ps)コマンドレットを使用して、組織内で使用されている各プールに関する情報を取得し、この情報を統計マネージャーにインポートします。
+Statistics Manager をインストールして実行した後、統計マネージャーが各サーバーのサイト、プール、および役割を知Skype for Business Serverトポロジをインポートする必要があります。 Skype for Business Server トポロジをインポートするには、[Get-CsPool](/powershell/module/skype/get-cspool?view=skype-ps) コマンドレットを使用して、組織内で使用されている各プールに関する情報を取得し、この情報を統計マネージャーにインポートします。
   
 トポロジをインポートSkype for Business Server、次の手順を実行します。
   
@@ -243,7 +243,7 @@ Skype for Business Server トポロジ (Exchange Server) に含されていな�
     
     1. トポロジをインポートする手順に従ってください。 「 [トポロジのインポート」を参照してください](deploy.md#BKMK_ImportTopology)。
         
-    2. エージェントがトポロジにリストされていないサーバー (たとえば、SQL AlwaysOn クラスター内のノード) にある場合は、「トポロジのインポート」の手順に従ってエージェントを手動で追加する必要[があります](deploy.md#BKMK_ImportTopology)。
+    2. エージェントがトポロジにリストされていないサーバー (たとえば、SQL AlwaysOn クラスター内のノード) にある場合は、「トポロジのインポート」の手順に従って手動でエージェントを追加する必要があります。[](deploy.md#BKMK_ImportTopology)
     
 - エージェントはリスナーに連絡できますか?
     
@@ -267,7 +267,7 @@ Skype for Business Server トポロジ (Exchange Server) に含されていな�
   .\PerfAgentStorageManager.exe -redis=localhost -a=getcountervalues  -counter="\\*\Processor Information\% Processor Time_Mean_Mean\_Total" -file:all-processor.csv
   ```
 
-アプリケーション イベント ログに表示される可能性があるすべてのイベントの詳細については、「Troubleshoot Statistics Manager for Skype for Business Server」[を参照してください](troubleshoot.md)。
+アプリケーション イベント ログに表示される可能性があるすべてのイベントの詳細については、「統計マネージャーのトラブルシューティング」を参照[Skype for Business Server](troubleshoot.md)。
   
 ## <a name="create-a-self-signed-certificate"></a>自己署名証明書の作成
 <a name="BKMK_SelfCert"> </a>
@@ -280,21 +280,21 @@ Microsoft では、信頼できる証明機関によって署名された証明�
    New-SelfSignedCertificate -DnsName StatsManListener -CertStoreLocation Cert:\LocalMachine\My
    ```
 
-2. Type  `certlm.msc` . これにより、ローカル コンピューターの証明書マネージャーが開きます。
+2. Type  `certlm.msc`. これにより、ローカル コンピューターの証明書マネージャーが開きます。
     
 3. [個人用] **に移動** し、[証明書] **を開きます**。
     
-4. **StatsManListener- All \> Tasks- \> Manage Private Keys... を右クリックします。**
+4. [**StatsManListener-All Tasks-Manage\>\> Private Keys..] を右クリックします。**
     
 5. **[追加]** をクリックします。
     
-6. [選択 **するオブジェクト名を入力する** ] ボックスに、次の値を入力します。
+6. [選択 **するオブジェクト名を入力する] ボックス** に、次の値を入力します。
     
-7. **[OK]** をクリックします。
+7. [**OK**] をクリックします。
     
-8. [ **フル コントロール] で**、[許可] チェック **ボックスを** オフにします。 (読み取りアクセスのみ必要です。
+8. [ **フル コントロール] で**、[許可] チェック ボックス **を** オフにします。 (読み取りアクセスのみ必要です。
     
-9. **[OK]** をクリックします。
+9. [**OK**] をクリックします。
     
 ## <a name="for-more-information"></a>関連情報
 <a name="BKMK_SelfCert"> </a>
@@ -305,4 +305,4 @@ Microsoft では、信頼できる証明機関によって署名された証明�
     
 - [Skype for Business Server の Statistics Manager のアップグレード](upgrade.md)
     
-- [ß の統計マネージャーのSkype for Business Server](troubleshoot.md)する
+- ß [の統計マネージャーのSkype for Business Server](troubleshoot.md)する

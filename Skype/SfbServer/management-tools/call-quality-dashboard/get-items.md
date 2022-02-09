@@ -1,8 +1,8 @@
 ---
 title: アイテムの取得
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 9e189a48-4944-4f93-88d7-9d56b56770a6
 description: '概要: アイテム サービスの一部であるアイテムの取得操作について学習します。 Item Service は、呼び出し品質ダッシュボードのリポジトリ API の一部です。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。'
-ms.openlocfilehash: 3c4db6558f0cdbc6403c71a8dc1dc46fb5d4d64c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a28f495dbe76750e70633c5d0f07f5c23576485c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851981"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416540"
 ---
 # <a name="get-items"></a>アイテムの取得
  
@@ -32,7 +32,7 @@ Get Items は、リポジトリ内のすべてのアイテムを返します。
   
 |**メソッド**|**要求 URI**|**HTTP バージョン**|
 |:-----|:-----|:-----|
-|GET  <br/> |https:// \<portal\> /QoERepositoryService/repository/item  <br/> |HTTP/1.1  <br/> |
+|GET  <br/> |\<portal\>https:///QoERepositoryService/repository/item  <br/> |HTTP/1.1  <br/> |
    
  **URI パラメーター** - なし。
   

@@ -1,8 +1,8 @@
 ---
 title: MacAddress テーブル
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a32e68c5-3f95-4217-aff4-cb3d1cc70505
 description: MacAddress テーブルは補助的なテーブルです。個々のレコードが 1 つのソースを表します。
-ms.openlocfilehash: afa3d0b06d212200864f40757f5169219e8e50bb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 53a9f35d85687cb1ac1376f54d40b7f2bf3d5c90
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844020"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62420840"
 ---
 # <a name="macaddress-table"></a>MacAddress テーブル
  

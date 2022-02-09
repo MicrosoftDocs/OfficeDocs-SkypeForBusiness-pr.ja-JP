@@ -1,8 +1,8 @@
 ---
 title: '[メディア品質の概要] レポート (Skype for Business Server'
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8bd59ad6-3087-49c8-b692-5573fe2ffcd8
 description: '概要: メディア品質の概要レポートの詳細については、Skype for Business Server。'
-ms.openlocfilehash: 7ee64f9654e2f21a45c173c4a51ed5e40131b874
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3bf2d28cf9bc771ab14c567f3e0cfd1f373800b1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838619"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399661"
 ---
 # <a name="media-quality-summary-report-in-skype-for-business-server"></a>[メディア品質の概要] レポート (Skype for Business Server
  
@@ -77,7 +77,7 @@ ms.locfileid: "60838619"
   
 **メディア品質概要レポートのフィルター**
 
-|**名前**|**説明**|
+|**[名前]**|**説明**|
 |:-----|:-----|
 |**From** <br/> |時間範囲の開始日と開始時刻。データを時間単位で表示するには、次のように開始日と開始時刻の両方を入力します。  <br/> 2015 年 7 月 7 日 13:00  <br/> 開始時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に開始します。データを日単位で表示するには、次のように日付のみを入力します。  <br/> 7/7/2015  <br/> 週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。  <br/> 7/3/2015  <br/> 週は、常に日曜日から土曜日までです。  <br/> |
 |**To** <br/> |時間範囲の終了日と終了時刻。データを時間単位で表示するには、次のように終了日と終了時刻の両方を入力します。  <br/> 2015 年 7 月 7 日 13:00  <br/> 終了時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に終了します。データを日単位で表示するには、次のように日付のみを入力します。  <br/> 7/7/2015  <br/> 週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。  <br/> 7/3/2015  <br/> 週は、常に日曜日から土曜日までです。  <br/> |

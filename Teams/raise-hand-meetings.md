@@ -1,7 +1,7 @@
 ---
 title: Teams の会議で手を挙げる
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: raramaia
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 詳細については、「Microsoft Teams の会議で手を挙げる」 を参照してください。
-ms.openlocfilehash: 3d86a929d1a5ec1fe8901c79b38042dc965f6166
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 68fa5ad8f70b4e86a407fe2e0b8951d419676615
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836025"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417310"
 ---
 # <a name="raise-your-hand-option-in-teams-meetings"></a>Teams 会議での挙手オプション
 

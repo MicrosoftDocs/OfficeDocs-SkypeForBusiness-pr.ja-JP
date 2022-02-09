@@ -1,8 +1,8 @@
 ---
 title: 会議ポリシー
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 90eaa64e-369e-448d-bac4-2574c7c598b8
 description: 会議ポリシーにより、会議 (ミーティングとも呼ばれます) でユーザーが使用できる機能が定義されます。
-ms.openlocfilehash: 5d5b5be8f25d359ec4d0c5b3b76448cc4446e325
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1f8104a988a821e5a993d8279fefe9c891193bb2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853351"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416910"
 ---
 # <a name="conferencing-policy"></a>会議ポリシー
 
@@ -50,7 +50,7 @@ ms.locfileid: "60853351"
 
 次の一覧に、このページのコマンドを示します。
 
-- **New** 新しいサイト会議ポリシーまたはユーザー会議ポリシーを開始します。
+- **新機能** 新しいサイト会議ポリシーまたはユーザー会議ポリシーを開始します。
 
 - **編集** 選択した会議ポリシーを開き、編集するか、リスト内のすべての会議ポリシーを選択するか、選択したサイト ポリシーまたはユーザー ポリシーを削除します。
 

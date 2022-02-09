@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server の統計情報マネージャー
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/19/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 3b945656-8241-40ed-a34d-0910bd9d3529
 description: '概要: このトピックを参照して、Skype for Business Server の統計マネージャー(Skype for Business Server の正常性とパフォーマンス データをリアルタイムで表示できる強力なツール)について説明します。'
-ms.openlocfilehash: 3720d2acd812e939c5d114a829a12ddb828dbbcc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f1d7f53ce59c17ec8b658585c1886b42b103d0e7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857374"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410710"
 ---
 # <a name="statistics-manager-for-skype-for-business-server"></a>Skype for Business Server の統計情報マネージャー
  

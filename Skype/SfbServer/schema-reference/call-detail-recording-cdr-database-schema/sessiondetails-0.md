@@ -1,8 +1,8 @@
 ---
 title: SessionDetails ビュー
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ea328c6f-cf22-48dd-8f7f-f1666c9148c8
 description: SessionDetails ビューには、ピアツーピア セッションに関する情報が格納されます。これは、VoIP-VoIP 電話、2 者 IM セッション、または他の種類のセッションである可能性があります。 このビューは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: 6a100fcd2143244bda5ad7273b5a681468ad5713
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6565a24bda2a227f58b61883f4f868409998a207
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852921"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399611"
 ---
 # <a name="sessiondetails-view"></a>SessionDetails ビュー
  
@@ -27,7 +27,7 @@ SessionDetails ビューには、ピアツーピア セッションに関する�
 |**列**|**データ型**|**詳細**|
 |:-----|:-----|:-----|
 |**SessionIdTime** <br/> |日付型  <br/> |セッション要求の時間。 セッションを一意に識別するために SessionIdSeq と組み合わせて使用されます。 詳細については[、「Dialogs table in Skype for Business Server 2015](dialogs.md) Table」を参照してください。 <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |セッションを識別するための ID 番号。 セッションを一意に識別するために SessionIdTime と組み合わせて使用されます。 詳細については[、「ダイアログ」の表Skype for Business Server 2015](dialogs.md)を参照してください。 <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |セッションを識別するための ID 番号。 セッションを一意に識別するために SessionIdTime と組み合わせて使用されます。 詳細については[、2015 Skype for Business Serverの](dialogs.md) Dialogs テーブルを参照してください。 <br/> |
 |**InviteTime** <br/> |日付型  <br/> |最初の INVITE 要求の時刻。通常は、セッションの最初の INVITE メッセージから生成されたデータが設定されます。INVITE メッセージがない場合は、関連する最初の SIP メッセージ (BYE、CANCEL、MESSAGE、または INFO) の日時が設定されます。このフィールドには通常、セッションの最初の INVITE メッセージから生成されたデータが設定されます。INVITE メッセージがない場合、このフィールドには関連する最初の SIP メッセージ (BYE、CANCEL、MESSAGE、または INFO) の日時が設定されます。  <br/> |
 |**FromUri** <br/> |nvarchar(450)  <br/> |セッションを開始したユーザーの URI。  <br/> |
 |**ToUri** <br/> |nvarchar(450)  <br/> |セッションに参加したユーザーの URI。  <br/> |
@@ -56,8 +56,8 @@ SessionDetails ビューには、ピアツーピア セッションに関する�
 |**ReferredByTenant** <br/> |nvarchar(256)  <br/> |セッションを委譲したユーザーのテナント。 詳細については [、「Tenants」テーブル](tenants.md) を参照してください。 <br/> |
 |**DialogId** <br/> |varchar(775)  <br/> |SIP ダイアログ ID。形式は次のとおりです。  <br/> dialog;from-tag;to-tag  <br/> |
 |**CorrelationId** <br/> |uniqueidentifier  <br/> |複数のセッションを相互に関連付けるために使用する GUID。  <br/> |
-|**ReplaceDialogIdTime** <br/> |日付型  <br/> |セッションに置き換えられたダイアログの時刻。 セッションに置き換えられるダイアログを一意に識別するために ReplaceDialogIdSeq と併用されます。 詳細については[、「ダイアログ」の表Skype for Business Server 2015](dialogs.md)を参照してください。 <br/> |
-|**ReplaceDialogIdSeq** <br/> |int  <br/> |セッションを識別するための ID 番号。 セッションに置き換えられるダイアログを一意に識別するために ReplacesDialogIdTime と併用されます。 詳細については[、「ダイアログ」の表Skype for Business Server 2015](dialogs.md)を参照してください。 <br/> |
+|**ReplaceDialogIdTime** <br/> |日付型  <br/> |セッションに置き換えられたダイアログの時刻。 セッションに置き換えられるダイアログを一意に識別するために ReplaceDialogIdSeq と併用されます。 詳細については[、2015 Skype for Business Serverの](dialogs.md) Dialogs テーブルを参照してください。 <br/> |
+|**ReplaceDialogIdSeq** <br/> |int  <br/> |セッションを識別するための ID 番号。 セッションに置き換えられるダイアログを一意に識別するために ReplacesDialogIdTime と併用されます。 詳細については[、2015 Skype for Business Serverの](dialogs.md) Dialogs テーブルを参照してください。 <br/> |
 |**ReplacesDialogId** <br/> |varchar(775)  <br/> |セッションに置き換えられる SIP ダイアログ ID。形式は次のとおりです。  <br/> dialog;from-tag;to-tag  <br/> |
 |**ResponseTime** <br/> |日付型  <br/> |最初の INVITE メッセージに対する応答の時刻。通常は、セッションの最初の INVITE メッセージから生成されたデータが設定されます。INVITE メッセージがない場合は、関連する最初の SIP メッセージ (BYE、CANCEL、MESSAGE、または INFO) の日時が設定されます。  <br/> |
 |**ResponseCode** <br/> |int  <br/> |セッションへの招待に対する SIP 応答コード。このフィールドには通常、セッションの最初の INVITE メッセージから生成されるデータが設定されます。INVITE メッセージがない場合は、フィールドには、最初の関連する SIP メッセージ (BYE、CANCEL、MESSAGE、または INFO) の日時が設定されます。  <br/> |

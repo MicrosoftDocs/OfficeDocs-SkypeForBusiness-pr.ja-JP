@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 audience: ITPro
-ms.reviewer: NMuravlyannikov
+ms.reviewer: filippse
 ms.topic: conceptual
 ms.service: msteams
 ms.localizationpriority: medium
@@ -15,17 +15,17 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: この記事では、システム ダイレクト ルーティングでアナログ デバイスを使用するMicrosoft 電話説明します。
-ms.openlocfilehash: 86875f7c4cf3206f673c652487e896adf91b1ce5
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+description: ダイレクト ルーティングでアナログ デバイスを使用する方法については、この記事Microsoft Teams 電話システムしてください。
+ms.openlocfilehash: e3de63de032d2caf06993ac0a08b624feb5a5b42
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766410"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457387"
 ---
-# <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>ダイレクト ルーティングでアナログ デバイスを使用電話システム方法
+# <a name="how-to-use-analog-devices-with-direct-routing"></a>ダイレクト ルーティングでアナログ デバイスを使用する方法
 
-この記事では、ダイレクト ルーティングでアナログ デバイスを使用する電話システム説明します。 アナログ デバイスをダイレクト ルーティングに接続するには、アナログ テレフォニー アダプター (ATA) を使用する必要があります。このアダプターは、認定セッション ボーダー コントローラー (SBC) ベンダーによってサポートされている必要があります。 
+この記事では、ダイレクト ルーティングでアナログ デバイスを使用する方法について説明します。 アナログ デバイスをダイレクト ルーティングに接続するには、アナログ テレフォニー アダプター (ATA) を使用する必要があります。このアダプターは、認定セッション ボーダー コントローラー (SBC) ベンダーによってサポートされている必要があります。 
 
 ユーザーがアナログ デバイスから呼び出しを行った場合、信号とメディアはアナログ テレフォニー アダプター (ATA) を介して SBC に送信されます。  SBC は、内部ルーティング テーブルに基づいて、Microsoft Teams エンドポイントまたは公衆交換電話網 (PSTN) に通話を送信します。  デバイスが呼び出しを行う場合、そのデバイスが使用するルートは、デバイス用に作成されたルーティング ポリシーによって異なります。
 
@@ -34,7 +34,7 @@ ms.locfileid: "61766410"
 > [!div class="mx-imgBorder"]
 > ![ダイレクト ルーティングの構成を示す図。](media/direct-routing-analog-device.png)
 
-## <a name="example--how-to-configure-the-use-of-analog-devices-with-direct-routing"></a>例: ダイレクト ルーティングを使用してアナログ デバイスの使用を構成する方法
+## <a name="example-how-to-configure-the-use-of-analog-devices-with-direct-routing"></a>例: ダイレクト ルーティングを使用してアナログ デバイスの使用を構成する方法
 
 ダイレクト ルーティングを使用してアナログ デバイスの使用を構成するには、アナログ テレフォニー アダプターを SBC に接続し、ダイレクト ルーティングを使用するために SBC を構成する必要があります。 
 
@@ -55,7 +55,7 @@ ATA を SBC に接続して SBC を構成する方法については、SBC 製�
 - [リボンの構成に関するドキュメント](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)
 - [Oracle 構成のドキュメント](https://www.oracle.com/technical-resources/documentation/acme-packet.html#Link-MicrosoftTeams)
 
-## <a name="step-1--connect-the-sbc-to-direct-routing"></a>手順 1.  Connect SBC からダイレクト ルーティングへのルーティング
+## <a name="step-1-connect-the-sbc-to-direct-routing"></a>手順 1. Connect SBC からダイレクト ルーティングへの接続
 
 次のコマンドは、次のように SBC 接続を構成します。
 
@@ -69,7 +69,7 @@ ATA を SBC に接続して SBC を構成する方法については、SBC 製�
 PS C:\> New-CsOnlinePSTNGateway -FQDN sbc.contoso.com -SIPSignalingPort 5068 -ForwardCallHistory $true -ForwardPAI $true -MediaBypass $true -Enabled $true 
 ```
 
-## <a name="step-2--create-the-pstn-usage"></a>手順 2: PSTN 使用状況を作成する 
+## <a name="step-2-create-the-pstn-usage"></a>手順 2: PSTN 使用状況を作成する 
 
 次のコマンドでは、空の PSTN 使用法が作成されます。 オンライン PSTN 使用法は、通話承認に使用される文字列値です。 オンライン PSTN 使用法は、オンライン音声ポリシーをルートにリンクします。 この例では、使用可能な PSTN 使用法の現在の一覧に文字列 "Interop" を追加します。 
 
@@ -77,7 +77,7 @@ PS C:\> New-CsOnlinePSTNGateway -FQDN sbc.contoso.com -SIPSignalingPort 5068 -Fo
 PS C:\> Set-CsOnlinePstnUsage -Identity global -Usage @{add="Interop"} 
 ```
 
-## <a name="step-3--create-a-voice-route-and-associate-it-with-the-pstn-usage"></a>手順 3: 音声ルートを作成し、PSTN 使用法に関連付ける:
+## <a name="step-3-create-a-voice-route-and-associate-it-with-the-pstn-usage"></a>手順 3: 音声ルートを作成し、PSTN の使用状況に関連付ける
 
 このコマンドは、番号範囲 +1425 XXX XX XX の ID "analog-interop" を持つ新しいオンライン音声ルートを作成します。  音声ルートは、オンライン PSTN 使用法 "Interop" sbc.contoso.com 関連付けるオンライン ゲートウェイの一覧に適用できます。 音声ルートには、特定の音声ルートを介してルーティングされる電話番号を識別する正規表現が含まれています。
 
@@ -95,7 +95,7 @@ PS C:\> New-CsOnlineVoiceRoutingPolicy -Identity "AnalogInteropPolicy" -OnlinePs
 
 ## <a name="step-5-enable-the-online-user"></a>手順 5: オンライン ユーザーを有効にする
 
-このコマンドは、ID アカウントを使用してユーザー アカウントを変更 exampleuser@contoso.com。 この場合、VoIP の Microsoft 実装である エンタープライズ VoIP を有効にし、ボイス メールを有効にし、このユーザーに +14255000000 を割り当てるアカウントが変更されます。  このコマンドは、会社のテナントTeamsユーザー (ATA デバイス ユーザーを除く) ごとに実行する必要があります。
+このコマンドは、ID アカウントを使用してユーザー アカウントを変更 exampleuser@contoso.com。 この場合、VoIP の Microsoft 実装である エンタープライズ VoIP を有効にし、ボイス メールを有効にし、このユーザーに +14255000000 の番号を割り当て、アカウントが変更されます。  このコマンドは、会社のテナントTeamsユーザー (ATA デバイス ユーザーを除く) ごとに実行する必要があります。
 
 ```powershell
 PS C:\> Set-CsUser -Identity "exampleuser@contoso.com" -EnterpriseVoiceEnabled $True -HostedVoiceMail $True -OnPremLineUri "tel:+14255000000"
@@ -103,13 +103,13 @@ PS C:\> Set-CsUser -Identity "exampleuser@contoso.com" -EnterpriseVoiceEnabled $
 
 ## <a name="step-6-assign-the-voice-route-policy-to-a-user"></a>手順 6: ユーザーに音声ルート ポリシーを割り当てる
 
-このコマンドは、ユーザーごとのオンライン音声ルーティング ポリシー AnalogInteropPolicy を ID アドレスを持つユーザーに割り当 exampleuser@contoso.com。  このコマンドは、会社のテナントTeamsユーザー (ATA デバイス ユーザーを除く) ごとに実行する必要があります。
+このコマンドは、ユーザーごとのオンライン音声ルーティング ポリシー AnalogInteropPolicy を ID アドレスを持つユーザーに割り当 exampleuser@contoso.com。 このコマンドは、会社のテナントTeamsユーザー (ATA デバイス ユーザーを除く) ごとに実行する必要があります。
 
 ```powershell
 PS C:\> Grant-CsOnlineVoiceRoutingPolicy -Identity "exampleuser@contoso.com" -PolicyName "AnalogInteropPolicy" 
 ```
 
-## <a name="step-7--create-a-voice-route-for-an-analog-device"></a>手順 7: アナログ デバイスの音声ルートを作成する
+## <a name="step-7-create-a-voice-route-for-an-analog-device"></a>手順 7: アナログ デバイスの音声ルートを作成する
 
 このコマンドは、オンライン ゲートウェイ sbc.contoso.com の一覧に適用できる番号範囲 +1425 4XX XX XX の ID "analog-interop" を持つオンライン音声ルートを作成し、オンライン PSTN 使用法 "Interop" に関連付ける。  このコマンドは、適切な電話番号パターンを持つアナログ デバイスごとに実行する必要があります。 または、前のいずれかの手順でオンライン音声ルートを構成する際に、アナログ デバイスの適切な番号パターンを使用できます。
 

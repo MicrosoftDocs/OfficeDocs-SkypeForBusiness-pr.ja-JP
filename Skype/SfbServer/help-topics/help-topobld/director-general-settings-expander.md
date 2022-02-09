@@ -1,8 +1,8 @@
 ---
 title: ディレクターの全般設定の展開
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
 description: 既存のディレクターの設定を編集するために、以下のセクションが表示されます。
-ms.openlocfilehash: 4913b70a585b18c1ce4dbe12a435ca5d39bcc216
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5013edf82c630ed2c2e155dc4558683a735bcc92
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851171"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399791"
 ---
 # <a name="director-general-settings-expander"></a>ディレクターの全般設定エキスパンダー
  
@@ -38,7 +38,7 @@ ms.locfileid: "60851171"
   
 [**関連付け**] では、次の情報を編集または指定できます。
   
-使用するディレクター プールのファイル共有。 トポロジ ビルダーで既に定義されている既存のファイル共有を選択するか、[新規]をクリックして新しいファイル共有定義を作成します。
+使用するディレクター プールのファイル共有。 トポロジ ビルダーで既に定義されている既存のファイル共有を選択するか、[新規] をクリックして新しいファイル共有定義を作成します。
   
 SQL Server ストアの監視。
   
@@ -52,7 +52,7 @@ SQL Server ストアの監視。
 [**内部 Web サービス**] では、次の情報を指定できます。
   
 > [!CAUTION]
-> 複数のフロント エンド プールまたはフロント エンド サーバーがある場合、外部 Web サービスの FQDN は一意である必要があります。 たとえば、フロントエンド サーバーの外部 Web サービス FQDN を **pool01.contoso.com** として定義する場合、別のフロントエンド プールまたはフロント エンド サーバーに pool01.contoso.com を使用することはできません。 ディレクターも展開する場合、ディレクターまたはディレクター プールに対して定義される外部 Web サービス FQDN は、他のディレクターまたはディレクター プール、およびフロント エンド プールまたはフロント エンド サーバーから一意である必要があります。 内部 Web サービスを自己定義の FQDN で上書きする場合、各 FQDN は他のフロントエンド プール、ディレクター、またはディレクター プールから一意である必要があります。
+> 複数のフロント エンド プールまたはフロント エンド サーバーがある場合、外部 Web サービスの FQDN は一意である必要があります。 たとえば、フロント エンド サーバーの外部 Web サービス FQDN を **pool01.contoso.com** として定義する場合、別のフロントエンド プールまたはフロント エンド サーバーに **pool01.contoso.com** を使用することはできません。 ディレクターも展開する場合、ディレクターまたはディレクター プールに対して定義される外部 Web サービス FQDN は、他のディレクターまたはディレクター プール、およびフロント エンド プールまたはフロント エンド サーバーから一意である必要があります。 内部 Web サービスを自己定義の FQDN で上書きする場合、各 FQDN は他のフロントエンド プール、ディレクター、またはディレクター プールから一意である必要があります。
   
 [FQDN のオーバーライド] を選択する場合は、プールの内部 Web サービス ID として別の FQDN を指定できます。既定では、この設定はディレクター プールに定義されている現在のプール名です。
   

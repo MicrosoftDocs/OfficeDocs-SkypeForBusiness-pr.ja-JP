@@ -1,8 +1,8 @@
 ---
 title: Busines Stress and Performance Tool Skypeの前提条件とセットアップ
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 12/20/2018
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 948c176c-75ce-418d-891a-a68427d61e40
 description: 2015 年 2015 年Skype for Business Serverパフォーマンス ツールの要件または前提条件。 ストレスとパフォーマンス ツールをインストールまたはセットアップする方法。
-ms.openlocfilehash: 60ff4476a92949b2f5ba0d7a027b5cadf3eab533
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ec7e2b66427d360a9d54c38146289e4d08f9238d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835165"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399621"
 ---
 # <a name="prerequisites-and-setup-for-the-skype-for-busines-stress-and-performance-tool"></a>Busines Stress and Performance Tool Skypeの前提条件とセットアップ
  
@@ -33,7 +33,7 @@ ms.locfileid: "60835165"
     
 - [構成要件](prerequisites-and-setup.md#ConfigReqs)
     
-さらに[、2015](prerequisites-and-setup.md#Installing)年のストレスとパフォーマンス ツールのインストールに関するSkype for Business Serverセクションも用意されています。
+さらに、[2015](prerequisites-and-setup.md#Installing) 年のストレスとパフォーマンス ツールのインストールに関するSkype for Business Serverセクションも用意されています。
   
 ## <a name="client-hardware-requirements"></a>クライアント のハードウェア要件
 <a name="ClientHardwareReqs"> </a>
@@ -53,7 +53,7 @@ Skype for Business Server 2015 の展開に対してストレスとパフォー�
   
 - Windows Server 2012
     
-- WindowsServer 2008 (64 ビット)
+- Windows Server 2008 (64 ビット)
     
 さらに、コンピューターは次のソフトウェア要件を満たす必要があります。
   
@@ -83,6 +83,6 @@ Skype for Business Server 2015 の展開に対してストレスとパフォー�
 
 インストールを簡単に行う必要があります。 Windows インストーラー ファイル **CapacityPlanningTool.msi** を、ユーザー トラフィックのシミュレートに使用する各クライアント コンピューター上、およびユーザーと連絡先を作成する各プールのフロント エンド サーバーで実行する必要があります。
   
-他の.msiに記載されているサンプル スクリプトと共に、Skype for Business Server [2015、Stress and Performance Tool](https://www.microsoft.com/download/details.aspx?id=50367)をダウンロードするには、[ダウンロード センター] リンクに移動します。
+他の.msiに記載されているサンプル スクリプトと共に、.msi [2015](https://www.microsoft.com/download/details.aspx?id=50367)、Stress and Performance Tool のダウンロード センター リンクにアクセスして、Skype for Business Server をダウンロードします。
   
 

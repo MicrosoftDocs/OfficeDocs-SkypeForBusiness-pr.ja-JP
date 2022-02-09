@@ -1,14 +1,14 @@
 ---
 title: ダイレクト ルーティングの場所に基づくルーティングを有効にする
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.reviewer: roykuntz
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: ユーザー、ネットワーク サイト、ゲートウェイLocation-Based呼び出しポリシーに対して有効にする方法など、ダイレクト ルーティングのルーティングを有効にする方法について説明します。
+description: ユーザー、ネットワーク サイトLocation-Basedゲートウェイの構成、および呼び出しポリシーに対して有効にする方法など、ダイレクト ルーティングのルーティングを有効にする方法について説明します。
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -17,18 +17,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 750c20367c5710054d2b19d266ff9dc70f46edd9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a53ab4ad866f3d9ad6acb1258247da59b15a27d9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829621"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399491"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>ダイレクト ルーティングの場所に基づくルーティングを有効にする
 
-この記事の手順に従う前に、「直接ルーティングの計画 [Location-Based ルーティング](location-based-routing-plan.md) 」を読み、ネットワーク ルーティングのネットワーク設定の構成に関するページの手順を完了Location-Based [してください](location-based-routing-configure-network-settings.md)。
+この記事の手順に従う前に、「ダイレクト ルーティングの [計画 Location-Based ルーティング](location-based-routing-plan.md) 」を読み、Location-Based ルーティングのネットワーク設定の構成に関するページの [手順を完了してください](location-based-routing-configure-network-settings.md)。
 
-この記事では、ダイレクト ルーティングのルーティングを有効Location-Based方法について説明します。 直接ルーティング電話システムデプロイし、ネットワーク リージョン、サイト、サブネットを設定した後、ネットワーク ルーティングを有効Location-Basedできます。 この記事の手順を完了するには、PowerShell コマンドレットに関する理解が必要です。 詳細については[、「PowerShell の概要Teamsを参照してください](teams-powershell-overview.md)。
+この記事では、ダイレクト ルーティングのルーティングを有効Location-Based方法について説明します。 直接ルーティング電話システムデプロイし、ネットワーク リージョン、サイト、サブネットを設定した後、ネットワーク ルーティングを有効Location-Basedできます。 この記事の手順を完了するには、PowerShell コマンドレットに関する理解が必要です。 詳細については、「[PowerShell の概要Teamsを参照してください](teams-powershell-overview.md)。
 
  次の場合は、Location-Based ルーティングを有効にする必要があります。
 - ユーザー
@@ -36,7 +36,7 @@ ms.locfileid: "60829621"
 - ゲートウェイの構成
 - 通話ポリシー
 
-管理センターまたは[powerShel](#using-powershell)Microsoft Teams[を](#using-the-microsoft-teams-admin-center)使用して、ルーティングを有効Location-Basedできます。
+管理センターまたは [PowerShell](#using-powershell) [Microsoft Teams使用](#using-the-microsoft-teams-admin-center)して、ルーティングを有効Location-Basedできます。
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
 
@@ -45,14 +45,14 @@ ms.locfileid: "60829621"
 1. 音声ルーティング ポリシーを作成し、PSTN 使用法をポリシーに割り当てる。 PSTN の使用状況をポリシーに割り当てる場合は、次のいずれかの操作を行います。
 
     - サイトにローカルの PSTN ゲートウェイを使用する音声ルートに関連付けられている PSTN 使用法を使用します。
-    - ルーティング制限が不要なリージョンにある PSTN ゲートウェイを使用する音声ルートLocation-Based PSTN 使用法を使用します。
+    - ルーティングの制限が不要なリージョンにある PSTN ゲートウェイを使用する音声ルートLocation-Based PSTN 使用法を使用します。
 2. ルーティング制限を適用する必要があるユーザーに音声ルーティング ポリシーを割り当てる。
 
-音声ルーティング ポリシーを作成してユーザーに割り当てる方法の詳細については、音声ルーティング ポリシーの管理に関するページを[Microsoft Teams。](manage-voice-routing-policies.md)
+音声ルーティング ポリシーを作成してユーザーに割り当てる方法の詳細については、「音声ルーティング ポリシーを管理する」を参照[Microsoft Teams。](manage-voice-routing-policies.md)
 
 ### <a name="enable-location-based-routing-for-network-sites"></a>ネットワーク Location-Basedルーティングを有効にする
 
-ルーティングLocation-Based適用する必要があるサイトのルーティングを有効にする。 これを行うには、Microsoft Teams 管理センターの左側のナビゲーションで、[場所] ネットワークトポロジに移動し、ネットワーク サイトを選択し、[編集] をクリックして、[場所ベースのルーティング] をオン  >  **にします**。   
+ルーティングLocation-Basedを適用する必要があるサイトのルーティングを有効にする。 これを行うには、Microsoft Teams  >  管理センターの左側のナビゲーションで、[場所]**ネットワーク** トポロジに移動し、ネットワーク サイトを選択し、[編集] をクリックして、[場所ベースのルーティング] をオン **に** します。  
 
 詳細については、「ネットワーク トポロジの [管理」を参照してください](manage-your-network-topology.md)。
 
@@ -60,7 +60,7 @@ ms.locfileid: "60829621"
 
 通話Location-Based PSTN にルーティングする PSTN ゲートウェイに通話をルーティングするゲートウェイへのルーティングを有効にし、ゲートウェイがあるネットワーク サイトを関連付ける。 
 
-1. 左側のナビゲーションで、[**音声ダイレクト** ルーティング]  >  **に移動し****、[SBC] タブをクリック** します。
+1. 左側のナビゲーションで [**VoiceDirect Routing**] **に** > 移動し、[**SBC] タブをクリック** します。
 2. SBC を選択し、[編集] を **クリックします**。 
 3. [ **場所ベースのルーティングとメディアの最適化] で**、[場所ベースのルーティング **を有効にする] をオンにします**。
 4. ゲートウェイ サイト ID を指定し、バイパス モードを設定します。
@@ -68,15 +68,15 @@ ms.locfileid: "60829621"
 
 ### <a name="enable-location-based-routing-for-calling-policies"></a>通話ポリシーLocation-Basedルーティングを有効にする
 
-特定のユーザーLocation-Basedルーティングを強制するには、PSTN 有料バイパスを防ぐためにユーザーの通話ポリシーを設定します。 これを行うには、呼び出し元ポリシーで **[有料** バイパスを防止する] 設定をオンにします。
+特定のユーザーLocation-Basedルーティングを強制するには、PSTN 有料バイパスを防ぐために、ユーザーの呼び出しポリシーを設定します。 これを行うには、呼び出し元ポリシーで **[有料** バイパスを防止する] 設定をオンにします。
 
-詳細については、 の呼び出し[ポリシーに関するページTeams。](teams-calling-policy.md)
+詳細については、「Teams でのポリシーの呼び[出し」を参照してください](teams-calling-policy.md)。
 
 ## <a name="using-powershell"></a>PowerShell の使用
 
 ### <a name="enable-location-based-routing-for-users"></a>ユーザーLocation-Basedルーティングを有効にする
 
-1. [SET-CsOnlinePstnUsage](/powershell/module/skype/set-csonlinepstnusage?view=skype-ps)コマンドレットを使用して PSTN の使用状況を設定します。 複数の使用法の場合は、各使用法をコンマで区切ります。
+1. [SET-CsOnlinePstnUsage](/powershell/module/skype/set-csonlinepstnusage?view=skype-ps) コマンドレットを使用して PSTN の使用状況を設定します。 複数の使用法の場合は、各使用法をコンマで区切ります。
 
     ```PowerShell
     Set-CsOnlinePstnUsage -Usage <usages> 
@@ -85,7 +85,7 @@ ms.locfileid: "60829621"
     ```PowerShell
     Set-CsOnlinePstnUsage -Usage "Long Distance", "Local", "Internal" 
     ```
-2. [New-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/new-csonlinevoiceroutingpolicy?view=skype-ps)コマンドレットを使用して、ユーザーを適切な PSTN 使用法に関連付ける音声ルーティング ポリシーを作成します。
+2. [New-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/new-csonlinevoiceroutingpolicy?view=skype-ps) コマンドレットを使用して、ユーザーを適切な PSTN 使用法に関連付ける音声ルーティング ポリシーを作成します。
 
     ```PowerShell
     New-CsOnlineVoiceRoutingPolicy -Identity <voice routing policy ID> -Description <voice routing policy name> -OnlinePstnUsages <usages> 
@@ -93,7 +93,7 @@ ms.locfileid: "60829621"
     
     PSTN の使用状況を音声ルーティング ポリシーに割り当てる場合は、次のいずれかの操作を行います。
     - サイトにローカルの PSTN ゲートウェイを使用する音声ルートに関連付けられている PSTN 使用法を使用する
-    - ルーティング制限が不要なリージョンにある PSTN ゲートウェイを使用する音声ルートLocation-Based PSTN 使用法を使用します。
+    - ルーティングの制限が不要なリージョンにある PSTN ゲートウェイを使用する音声ルートLocation-Based PSTN 使用法を使用します。
 
     この例では、2 つの新しい音声ルーティング ポリシーを作成し、PSTN 使用法を割り当てします。 
 
@@ -108,13 +108,13 @@ ms.locfileid: "60829621"
     |オンライン音声ポリシー ID   |Delhi オンライン音声ルーティング ポリシー   |ハイデラバード のオンライン音声ルーティング ポリシー    |
     |オンライン PSTN の使用状況  |距離が長い  |Long Distance、Local、Internal  |
 
-3. [Grant-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/grant-csonlinevoiceroutingpolicy?view=skype-ps)コマンドレットを使用して、ルーティング制限を適用する必要があるユーザーにオンライン音声ルーティング ポリシーを関連付ける。
+3. [Grant-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/grant-csonlinevoiceroutingpolicy?view=skype-ps) コマンドレットを使用して、ルーティング制限を適用する必要があるユーザーにオンライン音声ルーティング ポリシーを関連付ける。
     ```PowerShell
     Grant-CsOnlineVoiceRoutingPolicy -Identity <User> -Tenant <TenantId>
     ```
 ### <a name="enable-location-based-routing-for-network-sites"></a>ネットワーク Location-Basedルーティングを有効にする
 
-1.  [Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite?view=skype-ps)コマンドレットを使用して、Location-Based ルーティングを有効にし、ルーティング制限を適用する必要があるネットワーク サイトに音声ルーティング ポリシーを関連付ける。
+1.  [Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite?view=skype-ps) コマンドレットを使用して、Location-Based ルーティングを有効にし、ルーティング制限を適用する必要があるネットワーク サイトに音声ルーティング ポリシーを関連付ける。
     ```PowerShell
     Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false>  
     ```
@@ -135,7 +135,7 @@ ms.locfileid: "60829621"
 
 ### <a name="enable-location-based-routing-for-gateways"></a>ゲートウェイLocation-Basedルーティングを有効にする
 
-1. [New-CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway?view=skype-ps)コマンドレットを使用して、ゲートウェイまたはネットワーク サイトごとにゲートウェイ構成を作成します。 
+1. [New-CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway?view=skype-ps) コマンドレットを使用して、ゲートウェイまたはネットワーク サイトごとにゲートウェイ構成を作成します。 
 
     ```PowerShell
     New-CSOnlinePSTNGateway -Fqdn <FDQN registered for the SBC> -Identity <gateway configuration ID> -SipSignalingPort <listening port used> -Enabled $true 
@@ -148,7 +148,7 @@ ms.locfileid: "60829621"
     ```
     詳細については、「[ダイレクト ルーティングを構成する](direct-routing-configure.md)」を参照してください。
     
-2. [Set-CSOnlinePSTNGateway](/powershell/module/skype/set-csonlinepstngateway?view=skype-ps)コマンドレットを使用して、ルーティングLocation-Basedを適用する必要があるゲートウェイのルーティングを有効にできます。 
+2. [Set-CSOnlinePSTNGateway](/powershell/module/skype/set-csonlinepstngateway?view=skype-ps) コマンドレットを使用して、ルーティングLocation-Basedを適用する必要があるゲートウェイのルーティングを有効にできます。 
 
     通話Location-Based PSTN にルーティングする PSTN ゲートウェイに通話をルーティングするゲートウェイへのルーティングを有効にし、ゲートウェイがあるネットワーク サイトを関連付ける。
 
@@ -161,7 +161,7 @@ ms.locfileid: "60829621"
     Set-CSOnlinePSTNGateway -Identity sbc.contoso.com  -GatewaySiteLbrEnabled $true –GatewaySiteID "Delhi"
     Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com  -GatewaySiteLbrEnabled $true -GatewaySiteID "Hyderabad" 
     ```
-    PSTN に通話Location-Basedルーティングしないゲートウェイのルーティングを有効にしない。 ただし、システムが存在するネットワーク サイトにゲートウェイを関連付ける必要があります。 これは、このゲートウェイLocation-Based接続されているエンドポイントに到達する PSTN 通話には、ルーティング制限を適用する必要があるためです。 この例ではLocation-Based、Delhi サイトとハイデラバード サイトの PBX システムに関連付けられているゲートウェイごとに、このルーティングが有効になっていません。
+    PSTN に通話Location-Basedルーティングしないゲートウェイのルーティングを有効にしない。 ただし、システムが存在するネットワーク サイトにゲートウェイを関連付ける必要があります。 これは、このゲートウェイLocation-Based接続されているエンドポイントに到達する PSTN 通話に対して、ルーティング制限を適用する必要があるためです。 この例では、Location-Based、Delhi サイトとハイデラバード サイトの PBX システムに関連付けられているゲートウェイごとに、このルーティングが有効になっていません。
 
     ```PowerShell
     Get-CSONlinePSTNGateway -Identity sbc.contoso.com 
@@ -179,7 +179,7 @@ ms.locfileid: "60829621"
 
 特定のユーザーLocation-Basedルーティングを強制するには、PTSN 有料バイパスを防ぐためにユーザーの音声ポリシーを設定します。 
 
-[Grant-CsTeamsCallingPolicy](/powershell/module/skype/grant-csteamscallingpolicy?view=skype-ps)コマンドレットを使用して、PSTN 有料バイパスLocation-Basedルーティングを有効にします。
+[Grant-CsTeamsCallingPolicy](/powershell/module/skype/grant-csteamscallingpolicy?view=skype-ps) コマンドレットを使用して、PSTN 有料バイパスLocation-Basedルーティングを有効にします。
 
 ```PowerShell
 Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id> 

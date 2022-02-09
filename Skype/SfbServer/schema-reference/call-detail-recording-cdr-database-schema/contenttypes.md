@@ -1,8 +1,8 @@
 ---
 title: ContentTypes テーブル (2015 Skype for Business Server)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e3e38035-457c-4173-bdb9-d53a7420eba2
 description: ContentTypes テーブルは、ピアツーピア セッションと会議セッションの両方で使用されるコンテンツ タイプのリストを格納するサポート テーブルです。 テーブル内の各レコードは、1 つのコンテンツ タイプを表します。
-ms.openlocfilehash: ca6497cad38c6e4e59f4da725ab03b8d027f2d93
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f545355a00c37bf5df5f3b849aa29b6bee572c4f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827400"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417460"
 ---
 # <a name="contenttypes-table-in-skype-for-business-server-2015"></a>ContentTypes テーブル (2015 Skype for Business Server)
  
