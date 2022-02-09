@@ -1,8 +1,8 @@
 ---
 title: サイトの選択
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 description: '[サイトの選択] ダイアログ ボックスを使用して、環境で使用可能なサイトを検索します。 既存のサイトを使用するには、一覧でサイトをクリックして [OK] をクリックします。'
-ms.openlocfilehash: f0fffc815a8a2cd5237b07c80aee1122006f5186
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1b591db7ef6561e2b6bff905dbaec8429dd7d0b5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837989"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410210"
 ---
 # <a name="select-a-site"></a>サイトの選択
 
@@ -29,7 +29,7 @@ ms.locfileid: "60837989"
 > [!NOTE]
 > 使用可能なサイトすべてを取得するには、検索ボックスに何も入力せずに検索アイコンをクリックします。
 
-コントロール パネルを使用して実行できるさまざまな手順の詳細については、「Skype for Business Server [2015」](../../manage/manage.md)を参照Skype for Business Serverしてください。
+コントロール パネルを使用して実行できるさまざまな手順の詳細については、「Skype for Business Server [2015](../../manage/manage.md)」を参照Skype for Business Serverしてください。
 
 ## <a name="tasks-you-can-perform"></a>実行できるタスク
 
@@ -39,7 +39,7 @@ ms.locfileid: "60837989"
 
 - [永続的なチャットのサイト ポリシーを作成する](/previous-versions/office/lync-server-2013/lync-server-2013-create-a-site-policy-for-persistent-chat)
 
-コントロール パネルを使用して実行できるさまざまな手順の詳細については、「Skype for Business Server [2015」](../../manage/manage.md)を参照Skype for Business Serverしてください。
+コントロール パネルを使用して実行できるさまざまな手順の詳細については、「Skype for Business Server [2015](../../manage/manage.md)」を参照Skype for Business Serverしてください。
 
 ## <a name="to-configure-persistent-chat-options-globally"></a>常設チャット オプションをグローバルに構成するには
 
@@ -49,4 +49,4 @@ ms.locfileid: "60837989"
 
 [**サイトの選択**] でポリシーを適用するサイトをクリックします。
 
-常設チャット サーバーの機能の詳細については、「計画」のドキュメントの「 [常設](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-persistent-chat-server) チャット サーバーの概要」を参照してください。 常設チャット サーバー構成の操作の詳細については、「展開[](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-persistent-chat-server)」のドキュメントの「常設チャット サーバーの構成」および「操作」のドキュメントの[「Lync Server 2013](/previous-versions/office/lync-server-2013/managing-lync-server-2013-persistent-chat-server)の管理」を参照してください。
+常設チャット サーバーの機能の詳細については、「計画」のドキュメントの「 [常設](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-persistent-chat-server) チャット サーバーの概要」を参照してください。 常設チャット サーバー構成の操作の詳細については、「展開」[](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-persistent-chat-server)のドキュメントの「常設チャット サーバーの構成」および「操作」のドキュメントの「[Lync Server 2013](/previous-versions/office/lync-server-2013/managing-lync-server-2013-persistent-chat-server) の管理」を参照してください。

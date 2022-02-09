@@ -1,7 +1,7 @@
 ---
-title: SkypeRoom System と Skype for Businessフェデレーション パートナー
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skypeシステムとフェデレーション Skype for Businessパートナー
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1cc20323-ecba-4e87-a861-e54193e64cf0
 description: このトピックを参照して、フェデレーション パートナー向Skype Room System をSkype for Businessしてください。
-ms.openlocfilehash: ee9d7013df141cfe937f1c006a5e659a9e8a7478
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: dc725acfce7e2d55758b3074df538d69ead0d6a1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841939"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400001"
 ---
-# <a name="skype-room-system-and-skype-for-business-federated-partners"></a>SkypeRoom System と Skype for Businessフェデレーション パートナー
+# <a name="skype-room-system-and-skype-for-business-federated-partners"></a>Skypeシステムとフェデレーション Skype for Businessパートナー
  
 このトピックを参照して、フェデレーション パートナー向Skype Room System をSkype for Businessしてください。
   
-## <a name="skype-room-system-and-skype-for-business-federated-partners"></a>SkypeRoom System と Skype for Businessフェデレーション パートナー
+## <a name="skype-room-system-and-skype-for-business-federated-partners"></a>Skypeシステムとフェデレーション Skype for Businessパートナー
 
 Skype会議室システムは、予定表の会議出席依頼Skype for Business [会議に参加する] リンクに依存します。 通常、参加リンクは会議出席依頼の本文に表示されます。 ただし、Skypeシステムは、メッセージの MAPI プロパティに存在するこのリンクに依存します。 この会議出席依頼がリモート組織 (Skype for Business フェデレーション パートナー) に送信される場合、既定では、リモート組織の Skype 会議室システムは会議参加リンクを予定表に表示されません。 実際、リモート組織Outlookユーザーは、予定表アイテムを右クリックするか、会議のリマインダー内から Skype for Business 会議に参加できません。 会議出席招待を開き、メッセージの本文Skype for Business [会議に参加する] をクリックする必要があります。 
   
@@ -34,4 +34,4 @@ New-RemoteDomain -DomainName Contoso.com -Name Contoso
 Set-RemoteDomain -Identity Contoso -TNEFEnabled $true
 ```
 
-リモート組織で TNEF が有効になると、インターネットを通して組織に送信されたメッセージは、TNEF 形式の添付ファイルとして送信されます。 TNEF を有効にすると、Skype for Business 会議出席依頼が Skype for Business フェデレーション パートナーに送信された場合、Skype 会議室システムは参加 Skype for Business 会議をレンダリングし、リモート ユーザーは会議に参加Skype for Business会議。 
+リモート組織で TNEF が有効になると、インターネットを通して組織に送信されたメッセージは、TNEF 形式の添付ファイルとして送信されます。 TNEF が有効になっている場合、Skype for Business 会議出席依頼が Skype for Business フェデレーション パートナーに送信された場合、Skype 会議室システムは参加 Skype for Business 会議をレンダリングし、リモート ユーザーは参加できますSkype for Business会議。 

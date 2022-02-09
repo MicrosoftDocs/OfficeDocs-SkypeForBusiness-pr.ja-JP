@@ -1,8 +1,8 @@
 ---
 title: アーカイブ サーバーの全般設定の展開
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,16 +15,16 @@ ms.localizationpriority: medium
 ms.assetid: 0b820af7-8d00-42e2-979c-dbae17159a08
 ROBOTS: NOINDEX, NOFOLLOW
 description: トポロジ ビルダーでは、アーカイブを実行している個々のサーバーのプロパティを編集するには、コンソール ツリーでアーカイブを実行しているサーバーを右クリックし、ツールバーの [アクション] をクリックするか、[操作] ウィンドウでタスクをクリックし、[プロパティの編集] をクリックし、次のいずれかのオプションを変更します。
-ms.openlocfilehash: 331aa14ff8adee17c201c4e1bf71dbe411d97ac8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ed68311e38d5ad3d15b909f2f3650eb0650a5db6
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836819"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398120"
 ---
 # <a name="archiving-server-general-settings-expander"></a>アーカイブ サーバーの全般設定エキスパンダー
  
-トポロジ ビルダーでは、アーカイブを実行している個々のサーバーのプロパティを編集するには、コンソール ツリーでアーカイブを実行しているサーバーを右クリックし、ツールバーの[アクション] をクリックするか、[操作] ウィンドウでタスクをクリックし、[プロパティの編集] をクリックし、次のいずれかのオプションを変更します。
+トポロジ ビルダーでは、アーカイブを実行している個々のサーバーのプロパティを編集するには、コンソール ツリーでアーカイブを実行しているサーバーを右クリックし、ツールバーの [アクション]  をクリックするか、[操作] ウィンドウでタスクをクリックし、[プロパティの編集] をクリックし、次のいずれかのオプションを変更します。
   
 - **FQDN**。アーカイブを実行しているサーバーとして展開するサーバーの完全修飾ドメイン名 (FQDN) を変更する場合に使用します。
     

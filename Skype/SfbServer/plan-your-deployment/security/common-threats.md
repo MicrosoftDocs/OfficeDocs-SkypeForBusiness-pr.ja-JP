@@ -1,8 +1,8 @@
 ---
 title: 現代のコンピューティングにおける一般的なセキュリティ上の脅威
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/22/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 description: Skype for Business Serverはエンタープライズ クラスの通信システムなので、インフラストラクチャと通信に影響を与える可能性がある一般的なセキュリティ攻撃に注意する必要があります。
-ms.openlocfilehash: 8f546ff95bec714f9ddd922b4b786d4a6bd5549c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 187caacad29e3959169ee7b1053729f28e4755d4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851811"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400871"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>現代のコンピューティングにおける一般的なセキュリティ上の脅威
  
@@ -91,7 +91,7 @@ SPIM とは、一方的に送りつけられる営利目的のインスタント
 
 Skype for Business Server、個人にリンクできる可能性のあるパブリック ネットワークを通して情報を開示する可能性があります。 このような情報は、次の 2 つのカテゴリに分類できます。
   
-- **拡張プレゼンス データ** 拡張プレゼンス データとは、ユーザーがフェデレーション パートナーまたは組織内の連絡先へのリンクを使用して共有または共有しないか選択できる情報です。 このデータは、パブリック IM ネットワーク上のユーザーと共有されない。 クライアント ポリシーや他のクライアント構成では、システム管理者に対して何らかの制御を行う場合があります。 このSkype for Business Server、拡張プレゼンス プライバシー モードを個々のユーザーに対して構成して、Skype for Business ユーザーの連絡先リストに存在しないユーザーがユーザーのプレゼンス情報を見るのを防ぐことが可能です。 拡張プレゼンス プライバシー モードでは、Microsoft Office Communicator 2007 および Microsoft Office Communicator 2007 R2 のユーザーがユーザーのプレゼンス情報を表示できません。 クライアントとプレゼンスの展開の詳細については、「Deploy [client for Skype for Business Server」](../../deploy/deploy-clients/deploy-clients.md)および「Plan for instant Messaging and presence in Skype for Business Server」[を参照してください](../../plan-your-deployment/instant-messaging-and-presence.md)。
+- **拡張プレゼンス データ** 拡張プレゼンス データとは、ユーザーがフェデレーション パートナーまたは組織内の連絡先へのリンクを使用して共有または共有しないか選択できる情報です。 このデータは、パブリック IM ネットワーク上のユーザーと共有されない。 クライアント ポリシーや他のクライアント構成では、システム管理者に対して何らかの制御を行う場合があります。 このSkype for Business Server、拡張プレゼンス プライバシー モードを個々のユーザーに対して構成して、Skype for Business ユーザーの連絡先リストに存在しないユーザーがユーザーのプレゼンス情報を見るのを防ぐことが可能です。 拡張プレゼンス プライバシー モードでは、Microsoft Office Communicator 2007 および Microsoft Office Communicator 2007 R2 のユーザーがユーザーのプレゼンス情報を表示できません。 クライアントとプレゼンスの展開の詳細については、「Deploy [client for Skype for Business Server](../../deploy/deploy-clients/deploy-clients.md)」および「Plan for instant Messaging and presence in Skype for Business Server」 [を参照してください](../../plan-your-deployment/instant-messaging-and-presence.md)。
     
 - **必須データ** 必須データは、サーバーまたはクライアントの適切な操作に必要であり、クライアントまたはシステム管理の制御下にありません。 これは、ルーティング、状態維持、およびシグナリングの目的でサーバーまたはネットワーク レベルで必要な情報です。
     

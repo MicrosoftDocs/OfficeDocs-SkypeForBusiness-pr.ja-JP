@@ -1,8 +1,8 @@
 ---
 title: サーバー内のバック エンド サーバーまたは Standard Editionサーバーにパッチを適用または更新Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: f95f8d3a-e039-484e-97bd-d727db21a12b
 description: '概要: 更新プログラムまたは更新プログラムをバック エンド サーバーにインストールする方法についてSkype for Business Server。'
-ms.openlocfilehash: 55d81e97712abe51544a854bf175348526e9f29c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 69c597aae05950d38b78c8e84d46165a68fd8959
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858214"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397661"
 ---
 # <a name="patch-or-update-a-back-end-server-or-standard-edition-server-in-skype-for-business-server"></a>サーバー内のバック エンド サーバーまたは Standard Editionサーバーにパッチを適用または更新Skype for Business Server
  
@@ -33,7 +33,7 @@ ms.locfileid: "60858214"
     
 2. 更新プログラムをダウンロードし、ローカル ハード ディスクに展開します。
     
-3. [管理シェルSkype for Business Server起動する: [**スタート**]をクリックし、[すべてのプログラム] をクリックし、[Skype for Business] をクリックし、[管理シェル **Skype for Business Serverクリックします**。
+3. [管理シェルSkype for Business Server起動する **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 4. サービスSkype for Business Server停止します。 コマンドラインで、次のように入力します。
     
@@ -51,7 +51,7 @@ ms.locfileid: "60858214"
     
 7. 更新プログラムをインストールします。
     
-8. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし、[Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
+8. [管理シェルSkype for Business Server起動する **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 9. グローバル Skype for Business Server (GAC) -d アセンブリをキャッチするには、もう一度サービスを停止します。 コマンドラインで、次のように入力します。
     

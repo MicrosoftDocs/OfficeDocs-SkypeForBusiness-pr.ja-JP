@@ -1,8 +1,8 @@
 ---
 title: '[ユーザーの PIN 情報を表示する] Skype for Business Server'
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
 description: '概要: ユーザーの PIN 情報をユーザーに表示Skype for Business Server。'
-ms.openlocfilehash: 7be0bb49cf1c11d2c9aa18a73aa37dd124d7fb00
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bde3ef11a3f7dad19a26b577ec6464cb3cb7619f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846460"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62407349"
 ---
 # <a name="view-user-pin-information-in-skype-for-business-server"></a>[ユーザーの PIN 情報を表示する] Skype for Business Server
  
@@ -27,7 +27,7 @@ ms.locfileid: "60846460"
 認証されたユーザーとしてダイヤルイン会議に参加するには、Active Directory ドメイン サービス (AD DS) 資格情報を持つ Skype for Business Server ユーザーに個人識別番号 (PIN) が必要です。 コントロール パネルからユーザーの PIN 情報Skype for Business Server表示できます。
   
 > [!NOTE]
-> PIN が設定されているかどうかや PIN の最終変更日時などの PIN 状態情報を表示することはできますが、PIN の状態を調べても最新の PIN は確認できません。 ユーザーが PIN を紛失した場合は、「ユーザーのダイヤルイン会議 PIN を設定する」の手順に従って[、PIN](set-a-user-s-dial-in-conferencing-pin.md)をリセットSkype for Business Server
+> PIN が設定されているかどうかや PIN の最終変更日時などの PIN 状態情報を表示することはできますが、PIN の状態を調べても最新の PIN は確認できません。 ユーザーが PIN を紛失した場合は、「ユーザーのダイヤルイン会議 PIN を設定する」の手順に従って、[PIN をリセットSkype for Business Server](set-a-user-s-dial-in-conferencing-pin.md)
   
 ### <a name="to-view-a-users-pin-in-skype-for-business-server-control-panel"></a>[コントロール パネル] でユーザーの PIN Skype for Business Serverするには
 
@@ -65,7 +65,7 @@ ms.locfileid: "60846460"
     
 ## <a name="viewing-user-pin-information-by-using-windows-powershell-cmdlets"></a>ユーザーの PIN 情報を表示する方法 (Windows PowerShellコマンドレットを使用)
 
-Get-CsClientPinInfo コマンドレットを使用して、ユーザーの PIN 情報を表示できます。 このコマンドレットは、管理シェルから、またはSkype for Business Serverのリモート セッションから実行Windows PowerShell。 リモート サーバーを使用してサーバー Windows PowerShellする方法[Skype for Business Server、Microsoft Lync リモート PowerShell 管理を参照してください](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 このプロセスは、同じSkype for Business Server。
+Get-CsClientPinInfo コマンドレットを使用して、ユーザーの PIN 情報を表示できます。 このコマンドレットは、管理シェルから、またはSkype for Business Serverのリモート セッションから実行Windows PowerShell。 リモート サーバーを使用してリモート Windows PowerShell接続する方法Skype for Business Server [Microsoft Lync リモート PowerShell 管理」を参照してください](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 このプロセスは、同じSkype for Business Server。
   
 ### <a name="to-view-user-pin-information"></a>ユーザーの PIN 情報を表示するには
 
@@ -85,7 +85,7 @@ LastPinChangeTime : 9/25/2012 1:35:03 PM
 PinExpirationTime :
 </pre>
 
-詳細については [、Get-CsConferenceDisclaimer コマンドレットのヘルプ トピックを参照](/powershell/module/skype/get-csconferencedisclaimer?view=skype-ps) してください。
+詳細については、 [Get-CsConferenceDisclaimer コマンドレットのヘルプ トピックを参照](/powershell/module/skype/get-csconferencedisclaimer?view=skype-ps) してください。
   
 ## <a name="see-also"></a>関連項目
 

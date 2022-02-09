@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams でのチームとチャネルの概要を理解する
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 10/29/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3d71e8c542b5f39ab979ae876e0c82868ca380a
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 09aba3d8f6bcdb06d75bf0563a437a87197cb254
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959816"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400841"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams でのチームとチャネルの概要を理解する
 
@@ -36,7 +36,7 @@ ms.locfileid: "60959816"
 
 - チャネルは、実際の作業が行われるチーム内のコラボレーション スペースです。 
 
-チームとチャネルの詳細については、「チームとチャネルの概要[」](teams-channels-overview.md)を参照Microsoft Teams。 包括的なTeams導入ガイダンスについては、「導入ガイド」のTeams[を参照してください](https://aka.ms/teamstoolkit)。 グループとグループのTeams詳細Microsoft 365、「グループとグループMicrosoft 365」および「Microsoft Teams[](office-365-groups.md)グループの詳細」[をMicrosoft 365してください](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
+チームとチャネルの詳細については、「チームとチャネルの概要[」](teams-channels-overview.md)を参照Microsoft Teams。 包括的な導入Teamsについては、「導入ガイド」のTeams[覧ください](https://aka.ms/teamstoolkit)。 グループとグループのTeamsのMicrosoft 365については、「グループとグループMicrosoft 365」および「[](office-365-groups.md)Microsoft Teams グループの詳細」[をMicrosoft 365してください](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
 
 
 | &nbsp; |&nbsp;  |
@@ -59,6 +59,6 @@ ms.locfileid: "60959816"
 
 組織チーム (左側に表示) では、組織がビジネスを実行する方法、チーム イベント、コア戦略、ビジネス レビューなどのその他の運用情報に関する重要な情報が共有される場合があります。 右側に表示されるチームの場合、学区の情報は、そのチームによって達成される作業のカテゴリを表すチャネルに分割されます。 このチームのメンバーは、同じ人物に報告する場合と報告しない場合がありますが、全員が地区の結果を推進する取り組みです。
   
-実装のフェーズ [2](teams-adoption-phase2-experiment.md) では、チームの構造についてさらに作業します。
+実装のフェーズ 2 では、チームの構造 [について](teams-adoption-phase2-experiment.md) さらに作業します。
 
 ![次の手順を示すアイコン。](media/teams-adoption-next-icon.png) 次へ: [最初のチームを作成する](teams-adoption-your-first-teams.md)

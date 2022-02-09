@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server 2015 ストレスとパフォーマンス ツール
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 4/6/2016
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f2f7d19b-18c8-4a41-9b17-80d35b73d742
 description: 2015 Skype for Business Serverおよびパフォーマンス ツールは、非実稼働環境またはテスト環境での容量計画とパフォーマンス調整中に使用されます。
-ms.openlocfilehash: 140ca0d169c9863fe3104837dae294ee49bc0f48
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b8858d4aa9ca0b31bd53489c505181e34af9cf4f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839859"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396309"
 ---
 # <a name="skype-for-business-server-2015-stress-and-performance-tool"></a>Skype for Business Server 2015 ストレスとパフォーマンス ツール
  
@@ -33,7 +33,7 @@ ms.locfileid: "60839859"
     
 - 展開のパフォーマンスをSkype for Business Serverする
     
-通常、このツールは[、Skype for Business Server 2015](../../management-tools/planning-tool/planning-tool.md)計画ツールを使用してトポロジを設計し、Skype for Business Server [2015](../../management-tools/capacity-planning-calculator.md)容量計画計算機を使用してトポロジを絞り込む後に使用します。 
+通常、このツールは[、Skype for Business Server 2015](../../management-tools/planning-tool/planning-tool.md) 計画ツールを使用してトポロジを設計し、Skype for Business Server [2015](../../management-tools/capacity-planning-calculator.md) 容量計画計算機を使用してトポロジを絞り込む後に使用します。 
 
 > [!NOTE]
 > このツールは、2019 年Skype for Business Serverされません。

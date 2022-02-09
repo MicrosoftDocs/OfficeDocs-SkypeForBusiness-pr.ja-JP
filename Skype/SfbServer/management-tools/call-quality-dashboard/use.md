@@ -1,8 +1,8 @@
 ---
 title: 通話品質ダッシュボードを使用した通話Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: '概要: 通話品質ダッシュボードを使用する方法について学習します。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。'
-ms.openlocfilehash: a1a2f0c6d4cf07563f0aceb6379a9142930e1699
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5647622a04cbe449f426ae38b7d207fcbe2858e9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843810"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398831"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>通話品質ダッシュボードを使用した通話Skype for Business Server
 
@@ -78,7 +78,7 @@ StartDate.Month がディメンションとして追加され、データが表�
 
 棒グラフとスパークラインを表示するには、レポート エディターの上部にある [スパークラインの表示] チェック ボックスをオンにする必要があります。 [傾向] オプションを選択し、[月] を最後のディメンションに移動します。これは、[月] をクリックし、上矢印と下矢印を使用して StartDate.Month を上下にシフトすることでも実行できます。
 
-### <a name="settings"></a>設定
+### <a name="settings"></a>Settings
 
 [設定] メニューには、[System Health] ページや [概要] ページのような便利なページへのリンクが含まれています。ダッシュボードの右上隅にあります。
 
@@ -194,7 +194,7 @@ JPDR 定義 = 低い呼び出し定義から RatioConcealedSamplesAvg を引い�
 
 CQD は発信者/呼び出し先フィールドを使用しません。その代わりに、発信者と呼び出し先の間に介入する手順が存在するために、"First" と "Second" が使用されます。
 
- **最初に** サーバーがストリームに関与している場合は、常にサーバー エンドポイント (AV MCU や仲介サーバーなど) になります。
+ **まずは** サーバーがストリームに関与している場合は、常にサーバー エンドポイント (AV MCU や仲介サーバーなど) になります。
 
  **Second** クライアント エンドポイントは常にクライアント エンドポイントになります 。このエンドポイントがクライアント ストリームServer-Serverです。
 
@@ -222,7 +222,7 @@ VPN ソリューションが VPN フラグを正確に設定することが分�
 
 - 測定
 - Dimension
-- Filter
+- フィルター
 
 整形式のクエリの例として、「6 号館 [フィルター] のサブネット [Dimension] ストリーム [測定] を表示する」 があります。
 

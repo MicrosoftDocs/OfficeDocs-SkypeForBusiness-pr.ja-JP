@@ -1,7 +1,7 @@
 ---
 title: PowerShell スクリプト サンプル - 学校の教師と学生用のセキュリティ グループを作成する
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.reviewer: angch
@@ -17,16 +17,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 66255e4a8f26109a331446adb099054b1453c3c6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 79b73ac2001acfbb7424250c8c6c118808250459
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769855"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398391"
 ---
 # <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>PowerShell スクリプト サンプル - 学校の教師と学生用のセキュリティ グループを作成する
 
-この PowerShell スクリプトを使用して、学校でポリシーを管理するために必要Microsoft Teamsグループを作成します。 グループ[にポリシーを割り](../assign-policies-users-and-groups.md#assign-a-policy-to-a-group)当てるTeamsグループなどのユーザー グループにポリシーを割り当てできます。 ポリシーの割り当ては、優先規則に従ってグループのメンバーに反映されます。 グループのメンバーが追加または削除されると、それに応じて継承されたポリシーの割り当てが更新されます。
+この PowerShell スクリプトを使用して、学校でポリシーを管理するために必要Microsoft Teamsグループを作成します。 グループ[へのポリシーの割り](../assign-policies-users-and-groups.md#assign-a-policy-to-a-group)当Teamsグループなど、ユーザーのグループにポリシーを割り当てできます。 ポリシーの割り当ては、優先規則に従ってグループのメンバーに反映されます。 グループのメンバーが追加または削除されると、それに応じて継承されたポリシーの割り当てが更新されます。
 
 この PowerShell スクリプトは、2 つのセキュリティ グループを作成します。1 つはスタッフと教師用、もう 1 つはライセンスの種類に基づいて学校の学生用です。 その後、作成したセキュリティ グループにポリシーを割り当てできます。 このスクリプトの使用の詳細については、「学校の大規模なユーザーにポリシーを割り当てる [」を参照してください](../batch-group-policy-assignment-edu.md)。
 
@@ -39,13 +39,13 @@ ms.locfileid: "60769855"
 セキュリティ グループを最新の状態に保つには、このスクリプトを定期的に実行する必要があります。
 
 > [!IMPORTANT]
-> ポリシーをグループに割り当[てる場合は、](../assign-policies-users-and-groups.md#precedence-rules)[優先順位ルールと](../assign-policies-users-and-groups.md#group-assignment-ranking)グループ割り当てのランク付けについて理解することが重要です。 グループへのポリシー割り当てについて知る必要がある概念を必ず読んで [理解してください](../assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)。
+> ポリシーをグループに割り当[てる場合は、](../assign-policies-users-and-groups.md#precedence-rules)[優先順位ルールと](../assign-policies-users-and-groups.md#group-assignment-ranking)グループ割り当てのランク付けについて理解することが重要です。 グループへのポリシー割り当てについて知る必要がある概念を読み、 [理解してください](../assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)。
 
 ## <a name="before-you-start"></a>開始する前に
 
-Skype for Business Online PowerShell モジュール をダウンロード[してインストールし](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)、メッセージが表示されたらコンピューターを再起動します。
+Skype for Business [Online PowerShell モジュールをダウンロードしてインストールし](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)、メッセージが表示されたらコンピューターを再起動します。
 
-さらに詳しくは、「PowerShell を使用して Skype for Business Online を[管理するOffice 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) [Teams」をご覧ください](../teams-powershell-overview.md)。
+詳細については、「PowerShell を使用した [Skype for Business Online の管理」Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) の概要Teams[を参照してください](../teams-powershell-overview.md)。
 
 
 ## <a name="sample-script"></a>サンプル スクリプト

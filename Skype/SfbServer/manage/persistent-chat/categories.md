@@ -1,8 +1,8 @@
 ---
 title: 2015 年の常設チャット サーバーでSkype for Business Serverする
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: '概要: 常設チャット サーバー のカテゴリを 2015 年に管理するSkype for Business Serverします。'
-ms.openlocfilehash: 86a90143bad43f4bb8a96434885eec741c01f4a4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7d2cb5114b876c5354b3ba47c45f700a5bd62450
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853011"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396469"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>2015 年の常設チャット サーバーでSkype for Business Serverする
  
@@ -36,7 +36,7 @@ ms.locfileid: "60853011"
     
 カテゴリの作成者として識別されるユーザー、組織単位 (OUs)、およびユーザー グループは、カテゴリ内に会議室を作成できる唯一の個人およびグループです。 カテゴリの作成後、カテゴリの AllowedMembers リストからユーザー、OUs、およびユーザー グループをチャット ルームの管理者およびメンバーとして選択して、ルームを管理および参加できます。 
   
-カテゴリを構成する前に[、2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md)年の常設チャット カテゴリ、チャット ルーム、およびユーザー の役割Skype for Business Serverしてください。
+カテゴリを構成する前に、[2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md) 年に常設チャット カテゴリ、チャット ルーム、およびユーザー ロールSkype for Business Serverしてください。
   
 コントロール パネルを使用するか、コントロール パネルのコマンドレットを使用して、カテゴリをWindows PowerShellできます。
 
@@ -71,11 +71,11 @@ ms.locfileid: "60853011"
     
 7. [**編集 分類**] で、次の操作を実行します。
     
-   - [**メンバーシップ**] の[許可されたメンバー] セクションで、カテゴリに属するチャット ルームのメンバーとして追加できるユーザーおよび他の Active Directory ドメイン サービス プリンシパル (ユーザー、配布グループ、組織単位など) を追加または削除します。 カテゴリで許可されているプリンシパルは、カテゴリ内のルームを検索できます (ルームが非表示の場合を指定しない限り、ディレクトリ内で検索できるのは会議室のメンバーのみです)。
+   - [**メンバーシップ**] の [許可されたメンバー] セクションで、カテゴリに属するチャット ルームのメンバーとして追加できるユーザーおよび他の Active Directory ドメイン サービス プリンシパル (ユーザー、配布グループ、組織単位など) を追加または削除します。 カテゴリで許可されているプリンシパルは、カテゴリ内のルームを検索できます (ルームが非表示の場合を指定しない限り、ディレクトリ内で検索できるのは会議室のメンバーのみです)。
     
    - [ **メンバーシップ]** の [ **拒否** されたメンバー] セクションで、ルームから拒否されているメンバーに関連付けられているユーザーや他の Active Directory プリンシパルを追加または削除します。
     
-   - [ **メンバーシップ]** の **[Creators]** セクションで、カテゴリの作成者に関連付けられているユーザーや他の Active Directory プリンシパルを追加または削除します。 作成者は、チャット ルームを作成し、チャット ルームのマネージャーとメンバーを割り当てるためのアクセス許可が与えられているユーザーです。
+   - [ **メンバーシップ]** の [ **作成者] セクション** で、カテゴリの作成者に関連付けられているユーザーや他の Active Directory プリンシパルを追加または削除します。 作成者は、チャット ルームを作成し、チャット ルームのマネージャーとメンバーを割り当てるためのアクセス許可が与えられているユーザーです。
     
 8. [**確定**] をクリックします。
     

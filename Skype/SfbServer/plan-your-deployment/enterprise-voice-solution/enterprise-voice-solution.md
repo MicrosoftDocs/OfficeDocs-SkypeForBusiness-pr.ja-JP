@@ -1,8 +1,8 @@
 ---
 title: ソリューションのエンタープライズ VoIPを計画Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
 description: '概要: 音声と通信の統合ソリューションを計画するためのオプションについて、Skype for Business Server。'
-ms.openlocfilehash: 71fc511d6c435ab6b1cd5f553d668acd2fb606a7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 500a34784ea94e16b5531bc94adf222047998a64
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829861"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409890"
 ---
 # <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>ソリューションのエンタープライズ VoIPを計画Skype for Business Server
  
 **概要:** 音声と通信の統合ソリューションを計画するためのオプションについては、Skype for Business Server。
   
-Skype for Business Serverは、2 つのオンプレミス エンタープライズ VoIP オプション (エンタープライズ VoIP と Call Via Work) を提供し、組織の電話システムを Skype for Business Server 展開と統合し、真の統合コミュニケーションを実現します。ソリューション。 どちらのオプションでも、ユーザーはクライアントSkype for Business使用して、組織内外の両方の他のユーザーとの音声通話を開始できます。
+Skype for Business Server には、2 つのオンプレミス エンタープライズ VoIP オプション (エンタープライズ VoIP と Call Via Work) が用意されています。組織の電話システムを Skype for Business Server 展開と統合し、真の統合を実現します通信ソリューション。 どちらのオプションでも、ユーザーはクライアントSkype for Business使用して、組織内外の両方の他のユーザーとの音声通話を開始できます。
   
 また、通話と通話の両方エンタープライズ VoIP一緒に使用できます。
   

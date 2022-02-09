@@ -1,8 +1,8 @@
 ---
 title: 2015 年の常設チャット サーバーのコンプライアンス Skype for Business Server構成する
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: '概要: 2015 年に常設チャット サーバー コンプライアンス サービスを構成するSkype for Business Serverします。'
-ms.openlocfilehash: 23f28c2071063e2729deb54eea9703a7699e3e07
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: de70e131526033b46b69359a231b158d93accfbf
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858244"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396459"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>2015 年の常設チャット サーバーのコンプライアンス Skype for Business Server構成する
 
@@ -45,7 +45,7 @@ ms.locfileid: "60858244"
 
 ## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>ポリシーを使用してコンプライアンス サービスを構成Windows PowerShell
 
-トポロジ ビルダーを使用してコンプライアンス サービスを有効にした後 **、Set-CsPersistenChatComplianceConfiguration** コマンドレットを使用してサービスを構成できます。
+トポロジ ビルダーを使用してコンプライアンス サービスを有効にした後、 **Set-CsPersistenChatComplianceConfiguration** コマンドレットを使用してサービスを構成できます。
 
 ```PowerShell
 Set-CsPersistentChatComplianceConfiguration [-Identity <XdsIdentity>] <COMMON PARAMETERS>
@@ -75,7 +75,7 @@ Set-CsPersistentChatComplianceConfiguration [-Instance <PSObject>] <COMMON PARAM
 
 常設チャット サーバーにインストールされている XmlAdapter を使用する代わりに、カスタム アダプターを記述できます。 カスタム アダプターを記述するには、**IComplianceAdapter** インターフェイスを実装するパブリック クラスを含む .NET Framework アセンブリを提供する必要があります。 このアセンブリは、常設チャット サーバー プール内の各サーバーの常設チャット サーバー インストール フォルダーに配置する必要があります。 任意のコンプライアンス サーバーからアダプターにコンプライアンス データを提供できますが、コンプライアンス サーバーからアダプターの複数のインスタンスに対して重複するコンプライアンス データを提供することはできません。
 
-インターフェイスは、名前空間の Compliance.dllアセンブリで定義されます  `Microsoft.Rtc.Internal.Chat.Server.Compliance` 。 このインターフェイスには、カスタム アダプターが実装する必要のある 2 つのメソッドが定義されています。
+インターフェイスは、名前空間の Compliance.dllアセンブリで定義されます  `Microsoft.Rtc.Internal.Chat.Server.Compliance`。 このインターフェイスには、カスタム アダプターが実装する必要のある 2 つのメソッドが定義されています。
 
 常設チャット コンプライアンス サーバーは、アダプターが最初に読み込まれるときに、次のメソッドを呼び出します。 コンプライアンス  `AdapterConfig` アダプターに関連する常設チャットコンプライアンス構成が含まれる。
 
@@ -138,8 +138,8 @@ Message 要素には、2 つの要素 (Sender と DateTimeUTC) と 3 つの属�
 
 |**属性**|**説明**|**オプション/必須**|
 |:-----|:-----|:-----|
-|型  <br/> |メッセージの型を指定します。メッセージの型については、「Messages 要素のメッセージ型」の表で説明されています。  <br/> |必須  <br/> |
-|コンテンツ  <br/> |メッセージの内容が含まれます。Type が Join または Part であるメッセージはこの属性を使用しません。  <br/> |オプション  <br/> |
+|種類  <br/> |メッセージの型を指定します。メッセージの型については、「Messages 要素のメッセージ型」の表で説明されています。  <br/> |必須  <br/> |
+|コンテンツ  <br/> |メッセージの内容が含まれます。Type が Join または Part であるメッセージはこの属性を使用しません。  <br/> |省略可能  <br/> |
 |ID  <br/> |コンテンツの一意の ID を指定します。この属性は、Type が Chat であるメッセージでのみ使用されます。  <br/> |省略可能  <br/> |
 
 各 Sender 要素には、5 つの属性 (Username、ID、Email、Internal、および Uri) が含まれます。これらの属性については、次の表で説明されています。
@@ -148,9 +148,9 @@ Message 要素には、2 つの要素 (Sender と DateTimeUTC) と 3 つの属�
 
 |**属性**|**説明**|**オプション/必須**|
 |:-----|:-----|:-----|
-|Username  <br/> |送信者の名前。  <br/> |オプション  <br/> |
+|Username  <br/> |送信者の名前。  <br/> |省略可能  <br/> |
 |ID  <br/> |送信者の一意の ID。  <br/> |必須  <br/> |
-|電子メール  <br/> |送信者の電子メール アドレス。  <br/> |オプション  <br/> |
+|電子メール  <br/> |送信者の電子メール アドレス。  <br/> |省略可能  <br/> |
 |内部  <br/> |ユーザーが内部ユーザーとフェデレーション ユーザーのどちらであるかを決定します。この値が True に設定されている場合、ユーザーは内部ユーザーです。  <br/> |省略可能  <br/> |
 |Uri  <br/> |ユーザーの SIP URI。  <br/> |必須  <br/> |
 

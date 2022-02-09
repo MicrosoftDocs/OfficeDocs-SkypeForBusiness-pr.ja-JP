@@ -1,8 +1,8 @@
 ---
 title: 2015 年の IIS 要求トレース ログ ファイルSkype for Business Serverする
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b6730e92-6d74-4fa7-a83f-50b7bdadbffa
 description: '概要: 従来のクライアントのモビリティ サービス (Mcx) Skype for Business Server 2015 のサポートについて説明します。'
-ms.openlocfilehash: 2b571ceb583f7a42c6f41fba3c868fbe1628631a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a2331d4f18488171b1862e53f06f4910b463ccb5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857554"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396559"
 ---
 # <a name="monitoring-iis-request-tracing-log-files-in-skype-for-business-server-2015"></a>2015 年の IIS 要求トレース ログ ファイルSkype for Business Serverする
  
@@ -38,4 +38,4 @@ Skype for Business Server Mobility Service (Mcx) の インターネット イ�
 %SystemDrive%\Windows\System32\inetsrv\appcmd set config /section:httpLogging /dontLog:True
 ```
 
-**httpLogging** コマンドの詳細については、コマンド リファレンス [を参照してください](/previous-versions/iis/settings-schema/aa347466(v=vs.90))。
+**httpLogging コマンドの詳細については**、コマンド リファレンス [を参照してください](/previous-versions/iis/settings-schema/aa347466(v=vs.90))。

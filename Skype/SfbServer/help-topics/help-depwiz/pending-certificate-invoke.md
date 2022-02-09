@@ -1,8 +1,8 @@
 ---
 title: 保留中の証明書 (起動)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: adb5e0f3-17a6-40c2-9c95-c9cd2b558b54
 description: '[実行コマンド] ページには、保留中の証明書を取得するコマンドの状態が表示されます。タスクが完了すると、[保留中の証明書の取得] ログ ファイルが表示可能になります。[ログの表示] をクリックして、処理およびタスクの完了状態を確認します。[次へ] をクリックして続行します。'
-ms.openlocfilehash: 23bbfca4e36fffc12039bf220f863dfe1131530f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 850d65b1429bc402739cbf014d4e8bf89de698bf
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831091"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397990"
 ---
 # <a name="pending-certificate-invoke"></a>保留中の証明書 (起動)
  

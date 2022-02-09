@@ -1,8 +1,8 @@
 ---
 title: ワークフローでの応答グループ ワークフローの設計とSkype for Business
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: 応答グループ のワークフローを設計し、作成Skype for Business Server エンタープライズ VoIP。 ハント グループ ワークフローと対話型ワークフローの両方について説明します。
-ms.openlocfilehash: ec92a0dfa378746db98a6377b2ebd51df0e77813
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 06ca815eb973fdf26106a0c0c082f4c146d2b590
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864384"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401561"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>ワークフローでの応答グループ ワークフローの設計とSkype for Business
 
@@ -49,7 +49,7 @@ ms.locfileid: "60864384"
 5. [サービス **の選択] 検索** フィールドに、作成または変更するワークフローをホストする **ApplicationServer** サービスの名前のすべてまたは一部を入力します。 表示されたサービスの一覧で、目的のサービスをクリックし、[**OK**] をクリックします。
 
     > [!NOTE]
-    > 応答グループ構成ツールが開きます。 また、Web ブラウザーから直接応答グループ構成ツールを開く場合は \<webPoolFqdn\> 、「/RgsConfig」という URL https:// 入力します。
+    > 応答グループ構成ツールが開きます。 Web ブラウザーから直接応答グループ構成ツールを開く場合は、次の URL\<webPoolFqdn\> https:///RgsConfig を入力します。
 
 6. 次のいずれかの操作を行います。
 
@@ -65,7 +65,7 @@ ms.locfileid: "60864384"
 8. フェデレーション ユーザーにグループへの通話を許可するには、[**フェデレーションを有効にする**] チェック ボックスをオンにします。 フェデレーション用に構成された応答グループ アプリケーションに適用される外部アクセス ポリシーも必要です。
 
     > [!NOTE]
-    > グローバル外部アクセス ポリシーは、応答グループ アプリケーションに適用されます。 Skype for Business Server コントロール パネルを使用するか **、Set-CsExternalAccessPolicy** コマンドレットを使用して EnableOutsideAccess パラメーターを True に設定することで、応答グループ フェデレーションのグローバル ポリシーを構成できます。 グローバル ポリシー設定は、サイトやユーザー ポリシーに割り当てられていない限り、すべてのユーザーに適用されることに注意してください。 そのため、応答グループ向けにこの設定を変更する前に、フェデレーション設定が組織の要件を満たしていることを確認してください。 ポリシーをユーザーに適用する方法の詳細については、「[Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization)」を参照してください。 フェデレーション設定の詳細については [、「Set-CsExternalAccessPolicy」を参照してください](/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps)。
+    > グローバル外部アクセス ポリシーは、応答グループ アプリケーションに適用されます。 Skype for Business Server コントロール パネルを使用するか、**Set-CsExternalAccessPolicy** コマンドレットを使用して EnableOutsideAccess パラメーターを True に設定することで、応答グループ フェデレーションのグローバル ポリシーを構成できます。 グローバル ポリシー設定は、サイトやユーザー ポリシーに割り当てられていない限り、すべてのユーザーに適用されることに注意してください。 そのため、応答グループ向けにこの設定を変更する前に、フェデレーション設定が組織の要件を満たしていることを確認してください。 ポリシーをユーザーに適用する方法の詳細については、「[Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization)」を参照してください。 フェデレーション設定の詳細については、「 [Set-CsExternalAccessPolicy」を参照してください](/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps)。
 
     > [!NOTE]
     > オンラインでホストされているSkype for Businessは、オンプレミス展開でホストされている応答グループに呼び出しを行う必要があります。 これは、ハイブリッド展開と、オンプレミス展開がオンライン展開とフェデレーションされる場合Skype for Business当てはめられます。
@@ -83,19 +83,19 @@ ms.locfileid: "60864384"
 11. ワークフローで表示する名前を [**表示名**] に入力します (例: 販売応答グループ)。
 
     > [!NOTE]
-    > 表示名に「<」または「>」という文字を含めないでください。 RGS Presence **Watcher** または Announcement Service は予約済みなので、次の表示名を **使用しない必要があります**。
+    > 表示名に「<」または「>」という文字を含めないでください。 **RGS** プレゼンス ウォッチャーまたはアナウンス サービスは予約済みなので、次の表示名を **使用しない。**
 
 12. **[電話番号]** に、応答グループの回線 URI を入力します (入力例 +14255550165)。
 
 13. [**表示番号**] に、応答グループを表示する番号を入力します (入力例 +1 (425) 555-0165)。
 
-14. (省略可能)[**説明**] で、ワークフローを連絡先カードに表示するワークフローの説明を入力Skype for Business。
+14. (省略可能)[**説明**] に、ワークフローの説明を入力して、ワークフローを連絡先カードに表示Skype for Business。
 
 15. このワークフローを応答グループのマネージャーが管理する場合は、[**ワークフローの種類**] で [**管理**] を選択します。 ワークフローを応答グループのマネージャーに割り当てるには、次の操作を実行します。
 
     a. このワークフローのマネージャーの SIP URI を入力し、[追加] を **クリックします**。
 
-    b. ワークフローに追加する追加の管理者の SIP URI を入力し、[追加] を **クリックします**。
+    b. ワークフローに追加する追加の管理者の SIP URI を入力し、[追加] をクリック **します**。
 
     > [!IMPORTANT]
     > 応答グループのマネージャーに指定されているすべてのユーザーに CsResponseGroupManager ロールを割り当てる必要があります。このロールが割り当てられていない場合、ユーザーは応答グループを管理できません。
@@ -124,7 +124,7 @@ ms.locfileid: "60864384"
     - 事前に定義した営業時間スケジュールを使用するには、[**事前設定したスケジュールを使用する**] をクリックして、ドロップダウン リストから使用するスケジュールを選択します。
 
       > [!NOTE]
-      > このオプションを選択できるようにするには、あらかじめ少なくとも 1 つの事前設定スケジュールを定義しておく必要があります。 **New-CSRgsHoursOfBusiness** コマンドレットを使用して事前設定スケジュールを定義します。 詳細については、「([省略可能) 応答グループの営業時間を定義する」を参照Skype for Business。](optional-define-response-group-business-hours.md)
+      > このオプションを選択できるようにするには、あらかじめ少なくとも 1 つの事前設定スケジュールを定義しておく必要があります。 **New-CSRgsHoursOfBusiness** コマンドレットを使用して事前設定スケジュールを定義します。 詳細については、「([省略可能) 応答グループの営業時間を](optional-define-response-group-business-hours.md)定義する」を参照Skype for Business。
 
       > [!NOTE]
       > 事前設定したスケジュールを選択すると、応答グループの対応日時で、[**曜日**]、[**始業**]、[**終業**] が自動的に設定されます。
@@ -154,16 +154,16 @@ ms.locfileid: "60864384"
 
     - 通話を終了するには、[**終話**] をクリックします。
 
-    - 通話をボイス メールに転送するには、[**ボイス メールに転送**] をクリックして、ボイス メール アドレスを入力します。 ボイス メール アドレスの形式は次のようになります *\<username\>* @ *\<domainName\>* (たとえば、bob@contoso.com)。
+    - 通話をボイス メールに転送するには、[**ボイス メールに転送**] をクリックして、ボイス メール アドレスを入力します。 ボイス メール アドレスの形式は次のようになります  *\<username\>*@*\<domainName\>* (たとえば、bob@contoso.com)。
 
-    - 通話を別のユーザーに転送するには、[**SIP URI に転送**] をクリックして、ユーザー アドレスを入力します。 ユーザー アドレスの形式はです _\<username\>_ @ _\<domainName\>_ 。
+    - 通話を別のユーザーに転送するには、[**SIP URI に転送**] をクリックして、ユーザー アドレスを入力します。 ユーザー アドレスの形式はです  _\<username\>_@_\<domainName\>_。
 
-    - 通話を別の電話番号に転送するには、[**電話番号に転送**] をクリックして、電話番号を入力します。 電話番号の形式は次のようになります *\<number\>* @ *\<domainName\>* (たとえば、+14255550121@contoso.com)。 発信者は、ドメイン名を使用して適切な宛先にルーティングされます。
+    - 通話を別の電話番号に転送するには、[**電話番号に転送**] をクリックして、電話番号を入力します。 電話番号の形式は次のようになります  *\<number\>*@*\<domainName\>* (たとえば、+14255550121@contoso.com)。 発信者は、ドメイン名を使用して適切な宛先にルーティングされます。
 
 24. [**ステップ 5 休日の指定**] で、応答グループが営業しない日を定義する、1 つまたは複数の休日セットのチェック ボックスをオンにします。
 
     > [!NOTE]
-    > ワークフローを構成する前に、休日および休日セットを定義する必要があります。 休日および休日セットを定義するには、**New-CsRgsHoliday** コマンドレットおよび **New-CsRgsHolidaySet** コマンドレットを使用します。 詳細については、「(省略可能) 応答グループの休日セットを定義する[」を参照Skype for Business。](optional-define-response-group-holiday-sets.md)
+    > ワークフローを構成する前に、休日および休日セットを定義する必要があります。 休日および休日セットを定義するには、**New-CsRgsHoliday** コマンドレットおよび **New-CsRgsHolidaySet** コマンドレットを使用します。 詳細については、「(省略可能)グループの休日セットを定義する[」を参照Skype for Business](optional-define-response-group-holiday-sets.md)。
 
 25. 休日にメッセージを再生するには、[**休日にメッセージを再生する**] チェック ボックスをオンにしてから、次のいずれかの操作を実行して再生するメッセージを指定します。
 
@@ -181,11 +181,11 @@ ms.locfileid: "60864384"
 
     - 通話を終了するには、[**終話**] をクリックします。
 
-    - 通話をボイス メールに転送するには、[**ボイス メールに転送**] をクリックして、ボイス メール アドレスを入力します。 ボイス メール アドレスの形式は次のようになります *\<username\>* @ *\<domainName\>* (たとえば、bob@contoso.com)。
+    - 通話をボイス メールに転送するには、[**ボイス メールに転送**] をクリックして、ボイス メール アドレスを入力します。 ボイス メール アドレスの形式は次のようになります  *\<username\>*@*\<domainName\>* (たとえば、bob@contoso.com)。
 
-    - 通話を別のユーザーに転送するには、[**SIP URI に転送**] をクリックして、ユーザー アドレスを入力します。 ユーザー アドレスの形式はです _\<username\>_ @ _\<domainName\>_ 。
+    - 通話を別のユーザーに転送するには、[**SIP URI に転送**] をクリックして、ユーザー アドレスを入力します。 ユーザー アドレスの形式はです  _\<username\>_@_\<domainName\>_。
 
-    - 通話を別の電話番号に転送するには、[**電話番号に転送**] をクリックして、電話番号を入力します。 電話番号の形式は次のようになります *\<number\>* @ *\<domainName\>* (たとえば、+14255550121@contoso.com)。 発信者は、ドメイン名を使用して適切な宛先にルーティングされます。
+    - 通話を別の電話番号に転送するには、[**電話番号に転送**] をクリックして、電話番号を入力します。 電話番号の形式は次のようになります  *\<number\>*@*\<domainName\>* (たとえば、+14255550121@contoso.com)。 発信者は、ドメイン名を使用して適切な宛先にルーティングされます。
 
 27. **[ステップ 6 キューの構成]** の **[通話を受け取るキューを選択します]** で、エージェントが応答可能になるまで発信者を保留するキューを選択します。
 
@@ -204,7 +204,7 @@ ms.locfileid: "60864384"
 
 1. RTCUniversalServerAdmins グループのメンバーまたは応答グループをサポートする定義済みの管理者の役割のいずれかのメンバーとしてログオンします。
 
-2. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
+2. 管理シェルをSkype for Business Serverする **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[**2015** 年Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
 
 3. ウェルカム メッセージを再生するプロンプトを作成し、変数に保存します。 コマンド ラインで、次のコマンドを実行します。
 
@@ -219,7 +219,7 @@ ms.locfileid: "60864384"
    ```
 
      > [!NOTE]
-     > プロンプトにオーディオ ファイルを使用するには、**Import-CsRgsAudioFile** コマンドレットを使用します。 詳細については [、「Import-CsRgsAudioFile」を参照してください](/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)。
+     > プロンプトにオーディオ ファイルを使用するには、**Import-CsRgsAudioFile** コマンドレットを使用します。 詳細については、「 [Import-CsRgsAudioFile」を参照してください](/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)。
 
 4. 呼び出しが送信されるキューまたは質問の ID を取得します。 コマンド ラインで、次のコマンドを実行します。
 
@@ -227,7 +227,7 @@ ms.locfileid: "60864384"
    $qid = (Get-CsRgsQueue -Name "Help Desk").Identity
    ```
 
-    キューの作成の詳細については [、「New-CsRgsQueue」を参照してください](/powershell/module/skype/new-csrgsqueue?view=skype-ps)。
+    キューの作成の詳細については、「 [New-CsRgsQueue」を参照してください](/powershell/module/skype/new-csrgsqueue?view=skype-ps)。
 
 5. 営業時間内にワークフローを開いた場合に実行する既定のアクションを定義し、変数に保存します。 コマンド ラインで、次のコマンドを実行します。
 
@@ -238,15 +238,15 @@ ms.locfileid: "60864384"
     > [!NOTE]
     > ハント グループ ワークフローの場合、既定のアクションで呼び出しをキューに送信する必要があります。 このパラメーターは、アクティブなワークフローに必要です。 非アクティブなワークフローには必要ありません。
 
-    例:
+    次に例を示します。
 
    ```powershell
    $actionWM = New-CsRgsCallAction -Prompt $promptWM -Action TransferToQueue -QueueID $qid.Identity
    ```
 
-6. 営業時間と休日を定義する場合は、ワークフローを作成または変更する前に作成する必要があります。 詳細については[、「(省略可能) [](optional-define-response-group-business-hours.md)応答グループの営業時間の定義] [(Skype for Business)](optional-define-response-group-holiday-sets.md)[応答グループの休日セットの定義] を参照Skype for Business。
+6. 営業時間と休日を定義する場合は、ワークフローを作成または変更する前に作成する必要があります。 詳細については、「[(省略可能)](optional-define-response-group-business-hours.md) [応答グループの営業時間の定義] Skype for Business」および「(省略可能) [応答グループの休日セットを定義する] 」を[参照](optional-define-response-group-holiday-sets.md)Skype for Business。
 
-7. 営業時間外または休日に受信される呼び出しのプロンプトを表示する場合は **、New-CsRgsPrompt** コマンドレットを使用してプロンプトを定義し **、New-CsRgsCallAction** を使用して、プロンプトの後に実行するアクションを定義します。 詳細については [、「New-CsRgsPrompt」](/powershell/module/skype/new-csrgsprompt?view=skype-ps) および [「New-CsRgsCallAction」を参照してください](/powershell/module/skype/new-csrgscallaction?view=skype-ps)。
+7. 営業時間外または休日に受信される呼び出しのプロンプトを表示する場合は、 **New-CsRgsPrompt** コマンドレットを使用してプロンプトを定義し、 **New-CsRgsCallAction** を使用して、プロンプトの後に実行するアクションを定義します。 詳細については、「 [New-CsRgsPrompt](/powershell/module/skype/new-csrgsprompt?view=skype-ps) 」および [「New-CsRgsCallAction」を参照してください](/powershell/module/skype/new-csrgscallaction?view=skype-ps)。
 
 8. Lync Server 応答グループ サービスのサービス名を取得し、変数に割り当てる。 コマンドで、次のコマンドを実行します。
 
@@ -254,7 +254,7 @@ ms.locfileid: "60864384"
    $serviceId = "service:" + (Get-CsService | ?{$_.Applications -like "*RGS*"}).ServiceId;
    ```
 
-9. ワークフローを作成または変更します。 ワークフローを作成するには **、New-CsRgsWorkflow を使用します**。 ワークフローを変更するには **、Set-CsRgsWorkflow を使用します**。 コマンドラインで、次のように入力します。
+9. ワークフローを作成または変更します。 ワークフローを作成するには、 **New-CsRgsWorkflow を使用します**。 ワークフローを変更するには、 **Set-CsRgsWorkflow を使用します**。 コマンドラインで、次のように入力します。
 
    ```powershell
    $workflowHG = New-CsRgsWorkflow -Parent <service ID for the Response Group service> -Name "<hunt group name>" [-Description "<hunt group description>"] -PrimaryUri "<SIP address for the workflow>" [-LineUri "<Phone number for the workflow>"] [-DisplayNumber "<Phone number displayed in Lync>"] [-Active <$true | $false>] [-Anonymous <$true | $false>] [-DefaultAction <variable from preceding step>] [-EnabledForFederation <$true | $false>] [-Managed <$true | $false>] [-ManagersByUri <SIP addresses for Response Group Managers who can manage the workflow>]
@@ -270,7 +270,7 @@ ms.locfileid: "60864384"
      > ワークフローの管理者として指定されているユーザーはすべて、CsResponseGroupManager ロールを割り当てる必要があります。
 
      > [!NOTE]
-     > 追加のオプション パラメーターの詳細については [、「New-CsRgsWorkflow または](/powershell/module/skype/new-csrgsworkflow?view=skype-ps) [Set-CsRgsWorkflow」を参照してください。](/powershell/module/skype/set-csrgsworkflow?view=skype-ps)
+     > 追加のオプション パラメーターの詳細については、「 [New-CsRgsWorkflow または](/powershell/module/skype/new-csrgsworkflow?view=skype-ps) [Set-CsRgsWorkflow」を参照してください。](/powershell/module/skype/set-csrgsworkflow?view=skype-ps)
 
 ## <a name="designing-an-interactive-workflow"></a>対話型ワークフローの設計
 
@@ -382,7 +382,7 @@ IVR の質問と発信者の応答は、通話を受け入れる応答エージ�
 5. [**サービスの選択**] 検索フィールドに、作成または変更するワークフローをホストする **ApplicationServer** サービスの名前または名前の一部を入力します。表示されたサービスの一覧で、目的のサービスをクリックし、[**OK**] をクリックします。
 
     > [!NOTE]
-    > 応答グループ構成ツールが開きます。 また、Web ブラウザーから直接応答グループ構成ツールを開く場合は \<webPoolFqdn\> 、「/RgsConfig」という URL https:// 入力します。
+    > 応答グループ構成ツールが開きます。 Web ブラウザーから直接応答グループ構成ツールを開く場合は、次の URL\<webPoolFqdn\> https:///RgsConfig を入力します。
 
 6. 次のいずれかの操作を行います。
 
@@ -398,7 +398,7 @@ IVR の質問と発信者の応答は、通話を受け入れる応答エージ�
 8. フェデレーション ユーザーにグループへの通話を許可するには、[**フェデレーションを有効にする**] チェック ボックスをオンにします。 フェデレーション用に構成された応答グループ アプリケーションに適用される外部アクセス ポリシーも必要です。
 
     > [!NOTE]
-    > グローバル外部アクセス ポリシーは、応答グループ アプリケーションに適用されます。 Skype for Business Server コントロール パネルを使用するか **、Set-CsExternalAccessPolicy** コマンドレットを使用して EnableOutsideAccess パラメーターを True に設定することで、応答グループ フェデレーションのグローバル ポリシーを構成できます。 グローバル ポリシー設定は、サイトやユーザー ポリシーに割り当てられていない限り、すべてのユーザーに適用されることに注意してください。 そのため、応答グループ向けにこの設定を変更する前に、フェデレーション設定が組織の要件を満たしていることを確認してください。 ポリシーをユーザーに適用する方法の詳細については、「[Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization)」を参照してください。 フェデレーション設定の詳細については、 **ドキュメントの「Set-CsExternalAccessPolicy」** を参照してください。
+    > グローバル外部アクセス ポリシーは、応答グループ アプリケーションに適用されます。 Skype for Business Server コントロール パネルを使用するか、**Set-CsExternalAccessPolicy** コマンドレットを使用して EnableOutsideAccess パラメーターを True に設定することで、応答グループ フェデレーションのグローバル ポリシーを構成できます。 グローバル ポリシー設定は、サイトやユーザー ポリシーに割り当てられていない限り、すべてのユーザーに適用されることに注意してください。 そのため、応答グループ向けにこの設定を変更する前に、フェデレーション設定が組織の要件を満たしていることを確認してください。 ポリシーをユーザーに適用する方法の詳細については、「[Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization)」を参照してください。 フェデレーション設定の詳細については、 **ドキュメントの「Set-CsExternalAccessPolicy」** を参照してください。
 
     > [!NOTE]
     > オンラインでホストされているSkype for Businessは、オンプレミス展開でホストされている応答グループに呼び出しを行う必要があります。 これは、ハイブリッド展開と、オンプレミス展開がオンライン展開とフェデレーションされる場合Skype for Business当てはめられます。
@@ -413,7 +413,7 @@ IVR の質問と発信者の応答は、通話を受け入れる応答エージ�
 11. [**表示名**] に、ワークフローを表示する名前を入力します (入力例: Sales IVR Response Group)。
 
     > [!NOTE]
-    > 表示名に \<" or "\> "" 文字を含めることはできません。 RGS Presence **Watcher** または Announcement Service は予約済みなので、次の表示名を **使用しない必要があります**。
+    > 表示名に "\<" or "\>" 文字を含めることはできません。 **RGS** プレゼンス ウォッチャーまたはアナウンス サービスは予約済みなので、次の表示名を **使用しない。**
 
 12. [**電話番号**] に、応答グループの回線 URI を入力します (入力例 +14255550165)。
 
@@ -425,7 +425,7 @@ IVR の質問と発信者の応答は、通話を受け入れる応答エージ�
 
     a. このワークフローのマネージャーの SIP URI を入力し、[追加] を **クリックします**。
 
-    b. ワークフローに追加する追加の管理者の SIP URI を入力し、[追加] を **クリックします**。
+    b. ワークフローに追加する追加の管理者の SIP URI を入力し、[追加] をクリック **します**。
 
     > [!IMPORTANT]
     > 応答グループのマネージャーに指定されているすべてのユーザーに CsResponseGroupManager ロールを割り当てる必要があります。このロールが割り当てられていない場合、ユーザーは応答グループを管理できません。
@@ -454,7 +454,7 @@ IVR の質問と発信者の応答は、通話を受け入れる応答エージ�
     - 事前に定義した営業時間スケジュールを使用するには、[**事前設定したスケジュールを使用する**] をクリックして、ドロップダウン リストから使用するスケジュールを選択します。
 
       > [!NOTE]
-      > このオプションを選択できるようにするには、あらかじめ少なくとも 1 つの事前設定スケジュールを定義しておく必要があります。 **New-CsRgsHoursOfBusiness** コマンドレットを使用して、事前設定されたスケジュールを定義します。 詳細については、「([省略可能) 応答グループの営業時間を定義する」を参照Skype for Business。](optional-define-response-group-business-hours.md) 事前設定したスケジュールを選択すると、応答グループの対応日時で、[**曜日**]、[**始業**]、[**終業**] が自動的に設定されます。
+      > このオプションを選択できるようにするには、あらかじめ少なくとも 1 つの事前設定スケジュールを定義しておく必要があります。 **New-CsRgsHoursOfBusiness** コマンドレットを使用して、事前設定されたスケジュールを定義します。 詳細については、「([省略可能) 応答グループの営業時間を](optional-define-response-group-business-hours.md)定義する」を参照Skype for Business。 事前設定したスケジュールを選択すると、応答グループの対応日時で、[**曜日**]、[**始業**]、[**終業**] が自動的に設定されます。
 
     - このワークフローのみに適用するカスタム スケジュールを使用するには、[**カスタム スケジュールを使用する**] をクリックします。
 
@@ -481,16 +481,16 @@ IVR の質問と発信者の応答は、通話を受け入れる応答エージ�
 
     - 通話を終了するには、[**終話**] をクリックします。
 
-    - 通話をボイス メールに転送するには、[**ボイス メールに転送**] をクリックして、ボイス メール アドレスを入力します。 ボイス メール アドレスの形式は次のようになります *\<username\>* @ *\<domainname\>* (たとえば、bob@contoso.com)。
+    - 通話をボイス メールに転送するには、[**ボイス メールに転送**] をクリックして、ボイス メール アドレスを入力します。 ボイス メール アドレスの形式は次のようになります  *\<username\>*@*\<domainname\>* (たとえば、bob@contoso.com)。
 
-    - 通話を別のユーザーに転送するには、[**SIP URI に転送**] をクリックして、ユーザー アドレスを入力します。 ユーザー アドレスの形式はです _\<username\>_ @ _\<domainname\>_ 。
+    - 通話を別のユーザーに転送するには、[**SIP URI に転送**] をクリックして、ユーザー アドレスを入力します。 ユーザー アドレスの形式はです  _\<username\>_@_\<domainname\>_。
 
-    - 通話を別の電話番号に転送するには、[**電話番号に転送**] をクリックして、電話番号を入力します。 電話番号の形式は次のようになります *\<number\>* @ *\<domainname\>* (たとえば、+14255550121@contoso.com)。 発信者は、ドメイン名を使用して適切な宛先にルーティングされます。
+    - 通話を別の電話番号に転送するには、[**電話番号に転送**] をクリックして、電話番号を入力します。 電話番号の形式は次のようになります  *\<number\>*@*\<domainname\>* (たとえば、+14255550121@contoso.com)。 発信者は、ドメイン名を使用して適切な宛先にルーティングされます。
 
 24. [**ステップ 5 休日の指定**] で、応答グループが営業しない日を定義する、1 つまたは複数の休日セットのチェック ボックスをオンにします。
 
     > [!NOTE]
-    > ワークフローを構成する前に、休日および休日セットを定義する必要があります。 休日および休日セットを定義するには、**New-CsRgsHoliday** コマンドレットおよび **New-CsRgsHolidaySet** コマンドレットを使用します。 詳細については、「(省略可能) 応答グループの休日セットを定義する[」を参照Skype for Business。](optional-define-response-group-holiday-sets.md)
+    > ワークフローを構成する前に、休日および休日セットを定義する必要があります。 休日および休日セットを定義するには、**New-CsRgsHoliday** コマンドレットおよび **New-CsRgsHolidaySet** コマンドレットを使用します。 詳細については、「(省略可能)グループの休日セットを定義する[」を参照Skype for Business](optional-define-response-group-holiday-sets.md)。
 
 25. 休日にメッセージを再生するには、[**休日にメッセージを再生する**] チェック ボックスをオンにしてから、次のいずれかの操作を実行して再生するメッセージを指定します。
 
@@ -508,11 +508,11 @@ IVR の質問と発信者の応答は、通話を受け入れる応答エージ�
 
     - 通話を終了するには、[**終話**] をクリックします。
 
-    - 通話をボイス メールに転送するには、[**ボイス メールに転送**] をクリックして、ボイス メール アドレスを入力します。 ボイス メール アドレスの形式は次のようになります *\<username\>* @ *\<domainname\>* (たとえば、bob@contoso.com)。
+    - 通話をボイス メールに転送するには、[**ボイス メールに転送**] をクリックして、ボイス メール アドレスを入力します。 ボイス メール アドレスの形式は次のようになります  *\<username\>*@*\<domainname\>* (たとえば、bob@contoso.com)。
 
-    - 通話を別のユーザーに転送するには、[**SIP URI に転送**] をクリックして、ユーザー アドレスを入力します。 ユーザー アドレスの形式はです _\<username\>_ @ _\<domainname\>_ 。
+    - 通話を別のユーザーに転送するには、[**SIP URI に転送**] をクリックして、ユーザー アドレスを入力します。 ユーザー アドレスの形式はです  _\<username\>_@_\<domainname\>_。
 
-    - 通話を別の電話番号に転送するには、[**電話番号に転送**] をクリックして、電話番号を入力します。 電話番号の形式は次のようになります *\<number\>* @ *\<domainname\>* (たとえば、+14255550121@contoso.com)。 発信者は、ドメイン名を使用して適切な宛先にルーティングされます。
+    - 通話を別の電話番号に転送するには、[**電話番号に転送**] をクリックして、電話番号を入力します。 電話番号の形式は次のようになります  *\<number\>*@*\<domainname\>* (たとえば、+14255550121@contoso.com)。 発信者は、ドメイン名を使用して適切な宛先にルーティングされます。
 
 27. [**ステップ 6 保留音の構成**] で、次のいずれかの操作を実行して、発信者がエージェントの応答を待機しているときの保留音を選択します。
 
@@ -533,7 +533,7 @@ IVR の質問と発信者の応答は、通話を受け入れる応答エージ�
     > [!NOTE]
     > "#" 記号は、音声合成エンジンによって "番号" という語に変換されます。 # キーを示す必要がある場合は、記号ではなく、キーの名前を質問に使用してください。 たとえば、「営業部門をご希望の場合は、シャープを押してください」とします。
 
-    - 質問を含む録音済みのオーディオ ファイルを使用する場合は、[**録音を選択する**] をクリックし、[**録音**] リンクをクリックしてファイルをアップロードします。 新しいブラウザー ウィンドウで [**参照**] をクリックし、オーディオ ファイルを選択して、[**開く**] をクリックします。 **[アップロード]** をクリックしてファイルを読み込み、必要に応じてテキスト ボックスに質問を入力できます (これにより、質問と発信者の応答が応答エージェントに転送されます)。
+    - 質問を含む録音済みのオーディオ ファイルを使用する場合は、[**録音を選択する**] をクリックし、[**録音**] リンクをクリックしてファイルをアップロードします。 新しいブラウザー ウィンドウで [**参照**] をクリックし、オーディオ ファイルを選択して、[**開く**] をクリックします。 [**アップロード**] をクリックしてファイルを読み込み、必要に応じてテキスト ボックスに質問を入力できます (これにより、質問と発信者の応答が応答エージェントに転送されます)。
 
       > [!NOTE]
       > ユーザーが指定したすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。サポートされているファイル形式の詳細については、「[Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)」を参照してください。
@@ -564,7 +564,7 @@ IVR の質問と発信者の応答は、通話を受け入れる応答エージ�
 
 1.  RTCUniversalServerAdmins グループのメンバーまたは応答グループをサポートする定義済みの管理者の役割のいずれかのメンバーとしてログオンします。
 
-2. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
+2. 管理シェルをSkype for Business Serverする **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[**2015** 年Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
 
 3. 応答グループ サービスのサービス名を取得して変数に割り当てます。コマンド ラインで、次のコマンドを実行します。
 

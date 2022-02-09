@@ -1,8 +1,8 @@
 ---
 title: 会議の診断レポート (Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e9edc23c-8ce8-4ab8-8786-9d22e1e51e14
 description: '概要: 会議で使用される会議診断レポートについてSkype for Business Server。'
-ms.openlocfilehash: 4e15819e220459664875e6a868c2644262885060
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 54f13793e1e76957bfc81f5d46769c5593c82cf8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837559"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398931"
 ---
 # <a name="conference-diagnostic-report-in-skype-for-business-server"></a>会議の診断レポート (Skype for Business Server
  
@@ -39,7 +39,7 @@ ms.locfileid: "60837559"
   
 ## <a name="accessing-the-conference-diagnostic-report"></a>電話会議診断レポートへのアクセス
 
-電話会議診断レポートは [監視レポート] ホーム ページからアクセスします。 次のいずれかの指標[をクリックすると、Skype for Business Server](failure-distribution-report.md)のエラー配布レポートにアクセスできます。
+電話会議診断レポートは [監視レポート] ホーム ページからアクセスします。 次のいずれかの指標[をクリックすると、](failure-distribution-report.md)Skype for Business Serverエラー配布レポートにアクセスできます。
   
 - [予期しないエラー ボリューム]
     
@@ -47,7 +47,7 @@ ms.locfileid: "60837559"
     
 ## <a name="making-the-best-use-of-the-conference-diagnostic-report"></a>電話会議診断レポートの活用
 
-電話会議診断レポートには一連のグラフが含まれています。 グラフの各列は実際にはハイパーリンクです。 列をクリックすると、その期間およびその会議の種類の[](failure-distribution-report.md)Skype for Business Serverレポートにドリルダウンします。
+電話会議診断レポートには一連のグラフが含まれています。 グラフの各列は実際にはハイパーリンクです。 列をクリックすると、その期間およびその会議の種類のSkype for Business Serverのエラー[配布](failure-distribution-report.md)レポートにドリルダウンします。
   
 ## <a name="filters"></a>フィルター
 
@@ -57,7 +57,7 @@ ms.locfileid: "60837559"
   
 **電話会議診断レポートのフィルター**
 
-|**名前**|**説明**|
+|**[名前]**|**説明**|
 |:-----|:-----|
 |**From** <br/> |時間範囲の開始日と開始時刻。データを時間単位で表示するには、次のように開始日と開始時刻の両方を入力します。  <br/> 2015 年 7 月 7 日 13:00  <br/> 開始時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に開始します。データを日単位で表示するには、次のように日付のみを入力します。  <br/> 7/7/2015  <br/> 週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。  <br/> 7/3/2015  <br/> 週は、常に日曜日から土曜日までです。  <br/> |
 |**To** <br/> |時間範囲の終了日と終了時刻。データを時間単位で表示するには、次のように終了日と終了時刻の両方を入力します。  <br/> 2015 年 7 月 7 日 13:00  <br/> 終了時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に終了します。データを日単位で表示するには、次のように日付のみを入力します。  <br/> 7/7/2015  <br/> 週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。  <br/> 7/3/2015  <br/> 週は、常に日曜日から土曜日までです。  <br/> |

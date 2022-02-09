@@ -1,7 +1,7 @@
 ---
 title: クラウド音声展開のための運営委員会
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
@@ -16,12 +16,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cd588928f71926981c42f7c909e00c544243279e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fb615c326b5d9cbf0fc293b96541f768e48947d8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858874"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401661"
 ---
 # <a name="steering-committee"></a>運営委員会
 
@@ -88,7 +88,7 @@ ms.locfileid: "60858874"
 
 ### <a name="prepare-for-the-meeting"></a>会議の準備
 
-全員の時間を利用するには、会議の準備をする必要があります。 コア チームは、運営委員会会議の資料の準備を開始できます。 会議の準備にPowerPointプレゼンテーションを作成できます。
+全員の時間を利用するには、会議の準備をする必要があります。 コア チームは、運営委員会会議の資料の準備を開始できます。 会議の準備PowerPointプレゼンテーションを作成できます。
 
 次の資産を完了し、会議のプレゼンテーション デッキに含める必要があります。
 
@@ -128,7 +128,7 @@ ms.locfileid: "60858874"
 
         -   次の手順と、委員会のメンバーに必要な支援を特定します。
 
--   品質の概要: 「ネットワークを準備する」のガイダンス[をTeams。](prepare-network.md)
+-   品質の概要: 「ネットワークを準備する」のガイダンス[をTeams](prepare-network.md)。
 
     -   これらの品質レポートの結果を詳細に説明し、書き込まれる問題を修復するための推奨事項を含める準備をしてください。
 

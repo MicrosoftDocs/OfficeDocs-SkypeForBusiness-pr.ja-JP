@@ -1,8 +1,8 @@
 ---
 title: エッジ ネットワーク計画ツール
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 description: ほとんどのエッジ コンポーネントは境界ネットワークに展開されます。 次のコンポーネントは、境界ネットワークのエッジ トポロジを構成します。 ただし、コンポーネントは 2015 年 2015 年のエッジ サーバー のシナリオの一部であり、境界ネットワークSkype for Business Server含まれています。 エッジ コンポーネントには、次のものが含まれます。
-ms.openlocfilehash: 5df387611886e8907b38161bab783a72924c5788
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0d4e7a0292a32e82793eaf4ef087b7bd4cfa00d8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850970"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409950"
 ---
 # <a name="edge-network-planning-tool"></a>エッジ ネットワーク計画ツール
  
-ほとんどのエッジ コンポーネントは境界ネットワークに展開されます。 ここに示すコンポーネントは、境界ネットワークのエッジ トポロジを構成します。 ただし、コンポーネントは[2015 年 2015](../../plan-your-deployment/edge-server-deployments/scenarios.md)年のエッジ サーバー のシナリオに含Skype for Business Server境界ネットワークにあります。 エッジ コンポーネントには、次のものが含まれます。
+ほとんどのエッジ コンポーネントは境界ネットワークに展開されます。 ここに示すコンポーネントは、境界ネットワークのエッジ トポロジを構成します。 ただし、コンポーネントは [2015 年 2015](../../plan-your-deployment/edge-server-deployments/scenarios.md) 年のエッジ サーバー シナリオの一部であり、境界ネットワークSkype for Business Server含まれています。 エッジ コンポーネントには、次のものが含まれます。
   
 - エッジ サーバー
     

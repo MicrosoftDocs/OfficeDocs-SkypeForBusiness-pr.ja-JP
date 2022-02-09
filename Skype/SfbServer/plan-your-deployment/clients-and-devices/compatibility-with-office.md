@@ -1,7 +1,7 @@
 ---
 title: Skype for Business と Office アプリの互換性
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
 description: アプリケーションや他のアプリケーションからSkype for Business機能Outlookを理解Microsoft Officeします。
-ms.openlocfilehash: 06a019416ad8d32b0234b08c01b09630dd07a2ef
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 249b66eb366d9fa2d5911c24fb7dc88d0dcd6633
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862134"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409900"
 ---
 # <a name="skype-for-business-compatibility-with-office-apps"></a>Skype for Business と Office アプリの互換性
  
@@ -31,7 +31,7 @@ ms.locfileid: "60862134"
   
 ## <a name="office-and-skype-for-business"></a>OfficeとSkype for Business
 
-次の表では、「Exchange と Exchange Skype for Business Server を統合する」の説明に従って、Office のさまざまなバージョンでサポートされる Skype for Business Exchange Server 機能について[説明](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)します。
+次の表は、「Skype for Business Server と Exchange Server を統合する」で説明したように、Office が展開され統合された後に、さまざまなバージョンの Exchange Office でサポートされる Skype for Business 機能について[説明します](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)。
   
 **Skype for BusinessとMicrosoft Office互換性**
 
@@ -65,7 +65,7 @@ ms.locfileid: "60862134"
 |:-----|:-----|
 |Exchange Server 2019 (Skype for Business Server 2019 のみ) |2013 Exchange Serverと同じ    |
 |Exchange Server 2016    |2013 Exchange Serverと同じ  <br/> |
-|Exchange Server 2013  <br/> |2010 Exchange Serverのサポートと同じです。  <br/>&bull;&nbsp;&nbsp;統合連絡先ストア  <br/>&bull;&nbsp;&nbsp;高解像度の画像  <br/>&bull;&nbsp;&nbsp;アーカイブの統合  <br/> **注:** 詳細については、「統合ファイル [とSkype for Business ServerをExchange Server」 を参照してください](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)。  <br/> |
+|Exchange Server 2013  <br/> |2010 Exchange Serverのサポートと同じです。  <br/>&bull;&nbsp;&nbsp;統合連絡先ストア  <br/>&bull;&nbsp;&nbsp;高解像度の画像  <br/>&bull;&nbsp;&nbsp;アーカイブの統合  <br/> **注:** 詳細については、「統合とSkype for Business Server [」をExchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)。  <br/> |
 |Exchange Server 2010  <br/>(Skype for Business Server 2015 のみ) |次の機能は、EWS を通してのみで使用できます。  <br/>&bull;&nbsp;&nbsp;[会話履歴] フォルダー内のアイテムの読み取りまたは削除  <br/>&bull;&nbsp;&nbsp;ボイス メール アイテムの読み取りまたは削除  <br/>&bull;&nbsp;&nbsp;拡張空き時間情報と会議の件名と場所を表示する  <br/>&bull;&nbsp;&nbsp;Exchange連絡先の同期  <br/> パブリック フォルダーは、2010 年Exchange Serverオプションです。  <br/> |
    
 ## <a name="see-also"></a>関連項目

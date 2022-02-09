@@ -1,8 +1,8 @@
 ---
 title: 新しい接続の防止
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: ''
-ms.openlocfilehash: 6fdb3bfdd8e612ccdf61cf639b106baefb60f061
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d6f0bfcace21a0383b51a81ee37d60d3f7e227d4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851991"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397691"
 ---
 # <a name="preventing-new-connections-to-skype-for-business-server-for-server-maintenance"></a>サーバーのメンテナンスのために新Skype for Business Server接続を防止する
 
@@ -39,7 +39,7 @@ Skype for Business Serverを使用すると、ユーザーにサービスを失�
 
 DNS 負荷分散の詳細については、「負荷分散 [要件」を参照してください](../../plan-your-deployment/network-requirements/load-balancing.md)。
 
-サーバーが実行されているサーバー上のすべてのサービスに対する新しい接続をSkype for Business Server、個々のサービスに対する新しい接続をSkype for Business Serverすることもできます。 たとえば、このメソッドは、サーバー全体をシャットダウンする必要Skype for Business Server更新プログラムを適用する必要がある場合に役立ちます。 1 つのサービスに対して接続を禁止する場合、Windows のサービス一覧でグループ化され、表示されるサービスを選択する必要があります。 たとえば、Skype for Business Server Front-End サービスと監視用のデータ収集エージェントは別個の Skype for Business Server サービスですが、Windows サービス の一覧では、統合され、Skype for Business Server フロントエンドとして表示されます。サービス。 フロントエンド サービスの新しい接続をSkype for Business Serverできますが、これら 2 つの基になる 2 つのサービスに対する新しい接続を個別Skype for Business Serverすることはできません。
+サーバーが実行されているサーバー上のすべてのサービスに対する新しい接続をSkype for Business Server、個々のサービスに対する新しい接続をSkype for Business Serverすることもできます。 たとえば、このメソッドは、サーバー全体をシャットダウンする必要Skype for Business Server更新プログラムを適用する必要がある場合に役立ちます。 1 つのサービスに対して接続を禁止する場合、Windows のサービス一覧でグループ化され、表示されるサービスを選択する必要があります。 たとえば、Skype for Business Server Front-End サービスと監視用のデータ収集エージェントは個別の Skype for Business Server サービスですが、Windows サービス の一覧では、サービスが統合され、Skype for Business Serverフロントエンド サービス。 フロントエンド サービスの新しい接続をSkype for Business Serverできますが、これら 2 つの基になる 2 つのサービスに対する新しい接続を個別Skype for Business Serverすることはできません。
 
 > [!IMPORTANT]
 > 新規接続を禁止するようにサーバーを設定しても、その後にサーバーを再起動すると、既定では、起動後すぐに新規接続の受け入れが開始されます。これを回避するために、サーバーを一時停止するだけに留め、サーバーを再起動する前に手動で再開します。
@@ -48,7 +48,7 @@ DNS 負荷分散の詳細については、「負荷分散 [要件」を参照�
 
 1.  Administrators グループのメンバーとして、ローカル コンピューターにログオンします。
 
-2.  サービス スナップイン コンソールを開きます:[**スタート**]をクリックし、[すべてのプログラム] をポイントし、[管理ツール] をポイントし、[サービス] を **クリックします**。
+2.  [サービス] スナップイン コンソールを開きます **:[スタート**] をクリックし、[すべてのプログラム] をポイント **し、[管理** ツール] をポイントし、[サービス] をクリック **します**。
 
 3.  一覧で、新しい接続をSkype for Business Server Windowsするサービスをダブルクリックします。
 

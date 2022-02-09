@@ -1,8 +1,8 @@
 ---
 title: スキーマの準備
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
 description: Active Directory ドメイン サービスのスキーマを準備するには、展開ウィザードの [スキーマの準備] Skype for Business Server実行します。 [実行] をクリックしてスキーマの準備を開始します。 [スキーマの準備] 手順では、展開ウィザードが実行されているシステムの /Program Files/Microsoft Lync Server 2013/Deployment/Setup ディレクトリ内の指定されたスキーマ定義ファイルを読み取ります。 これらのファイルは、サポート/スキーマ ディレクトリのインストール メディアでも使用できます。 [スキーマの準備] 手順では、スキーマを拡張し、プロセスの状態を報告します。 また、プロセスが完了したことも通知します。 概要画面では、プロセスのログを表示できます。 ログを調べ、正常に準備が完了したことを確認してください。
-ms.openlocfilehash: c4e1faa8a26fa74579d9c9177d2efbfda29fa40f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 162937b56a4acc91c3fef70712feb713547cd2e2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849050"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402261"
 ---
 # <a name="prepare-schema"></a>スキーマの準備
  
@@ -29,7 +29,7 @@ Active Directory ドメイン サービスのスキーマを準備するには�
 > [!IMPORTANT]
 > スキーマを拡張するには、Schema Admins グループおよび Enterprise Admins グループのメンバーとしてドメインにログインする必要があります。 
   
-クラスと属性が追加され、Active Directory ドメイン サービス スキーマが拡張され、2015 Skype for Business Server、サービス、およびユーザー オブジェクトがサポートされます。 スキーマを拡張する前に、スキーマ マスター役割を持つドメイン コントローラーのシステム状態バックアップを行ってください。 SP1 を使用したサーバー 2008 R2 Windowsのバックアップ プロセスの詳細については、を参照してください [https://go.microsoft.com/fwlink/p/?linkId=207198](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee849849(v=ws.10)) 。 サーバー 2003 Windowsおよびサーバー 2003 R2 Windowsについては、を参照してください [https://go.microsoft.com/fwlink/p/?linkId=207199](/previous-versions/windows/it-pro/windows-server-2003/cc787254(v=ws.10)) 。
+クラスと属性が追加され、Active Directory ドメイン サービス スキーマが拡張され、2015 Skype for Business Server、サービス、およびユーザー オブジェクトがサポートされます。 スキーマを拡張する前に、スキーマ マスター役割を持つドメイン コントローラーのシステム状態バックアップを行ってください。 SP1 を使用したサーバー 2008 R2 Windowsのバックアップ プロセスの詳細については、を参照してください[https://go.microsoft.com/fwlink/p/?linkId=207198](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee849849(v=ws.10))。 サーバー 2003 Windowsおよびサーバー 2003 R2 Windowsについては、を参照してください[https://go.microsoft.com/fwlink/p/?linkId=207199](/previous-versions/windows/it-pro/windows-server-2003/cc787254(v=ws.10))。
   
 > [!CAUTION]
 > スキーマの拡張は元に戻すことはできません。 スキーマ拡張が失敗した場合の潜在的な影響を抑制するためにあらゆる手段を講じ、スキーマの拡張が成功するようにしてください。 これは、通信が途絶えた場合や、サーバーでその他の障害が発生した場合には特に重要です。 スキーマ マスター ドメイン コントローラーのバックアップと Active Directory の完全なバックアップを実行する必要があります。 

@@ -1,8 +1,8 @@
 ---
 title: 常設チャット サーバーのチャット ルームを 2015 年Skype for Business Serverする
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
 description: '概要: 2015 年に常設チャット サーバー のチャット ルームを管理するSkype for Business Serverします。'
-ms.openlocfilehash: 63566d897901be32b7d0f33ea099bac202e61515
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 02b933d1fcd73f87ac3d04e0618bae2e03306bfb
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830851"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398911"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>常設チャット サーバーのチャット ルームを 2015 年Skype for Business Serverする
  
 **概要:** 2015 年に常設チャット サーバー のチャット ルームを管理するSkype for Business Serverします。
   
-カテゴリを正しく使用すると、チャット ルームの作成と管理がはるかに簡単になります。 カテゴリは、チャット ルームを作成または参加できるユーザーを定義します。 チャット ルームの管理を試みる前に[、Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md)の常設チャット カテゴリ、チャット ルーム、およびユーザーロールを読み、Skype for Business Server [2015](categories.md)の常設チャット サーバーでカテゴリを管理してください。
+カテゴリを正しく使用すると、チャット ルームの作成と管理がはるかに簡単になります。 カテゴリは、チャット ルームを作成または参加できるユーザーを定義します。 チャット ルームの管理を試みる前に、[Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md) の常設チャット カテゴリ、チャット ルーム、ユーザー ロール、および Skype for Business Server [2015](categories.md) の常設チャット サーバーのカテゴリの管理を参照してください。
   
 > [!NOTE]
 > 常設チャットは 2015 Skype for Business Serverで使用できますが、2019 年Skype for Business Serverではサポートされていません。 同じ機能は、Teams。 詳細については、「アップグレードの開始[方法」をMicrosoft Teamsしてください](/microsoftteams/upgrade-start-here)。 常設チャットを使用する必要がある場合は、この機能を必要とするユーザーを Teams に移行するか、2015 年Skype for Business Serverします。 
@@ -59,7 +59,7 @@ Whoチャット ルームにアクセスおよび管理できる機能は、次�
 |Remove-CsPersistentChatRoom  <br/> |ルームを削除する  <br/> |
 |Remove-CsPersistentChatMessage  <br/> |ルームからメッセージを削除する  <br/> |
    
-**New-CsPersistentChatRoom** コマンドレットを使用して、チャット ルームを作成し **、Set-CsPersistentChatRoom** コマンドレットを使用して、ユーザーをチャット ルームに追加するなどの既存のチャット ルームを構成します。 チャット ルームには、次のパラメーターを構成できます。
+**New-CsPersistentChatRoom** コマンドレットを使用して、チャット ルームを作成し、**Set-CsPersistentChatRoom** コマンドレットを使用して、ユーザーをチャット ルームに追加するなどの既存のチャット ルームを構成します。 チャット ルームには、次のパラメーターを構成できます。
   
 - 無効です。 チャット ルームを無効または有効にできます。 
     
@@ -79,7 +79,7 @@ Whoチャット ルームにアクセスおよび管理できる機能は、次�
     
 - 発表者。 発表者をオーディトリアム チャット ルームに割り当てできます。 
     
-  すべてのパラメーターを含む構文の詳細については[、「Skype for Business Server 2015 管理シェル」を参照してください](../management-shell.md)。
+  すべてのパラメーターを含む構文の詳細については、「[Skype for Business Server 2015 管理シェル」を参照してください](../management-shell.md)。
   
 ## <a name="create-a-new-room"></a>新しいルームを作成する
 
@@ -123,7 +123,7 @@ Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.contoso.com\NorthAm
 
 常設チャット ルームのトピックが関連しなくなった場合は、チャット ルームを無効にしてユーザーがチャット ルームを使用できなくなりました。 チャット ルームを無効にすると、すべてのメンバーがルームからすぐに切断されます。 チャット ルームを無効にした後、ユーザーはチャット ルームに再参加したり、チャット ルームの検索でチャット ルームを検索したりすることはできません。
   
-チャット ルームの履歴が保持されている場合は、チャット ルームが無効になっているときにコンテンツが保持されます。 ただし、チャット ルームが無効な状態のままの間、そのコンテンツは検索に表示されません。 後でチャット ルームを有効にした場合、ユーザーはチャット ルームが無効にされる前に投稿されたメッセージを検索できます。 チャット ルームの履歴の構成の詳細については[、「Manage categories in Persistent Chat Server in Skype for Business Server 2015」を参照](categories.md)してください。 
+チャット ルームの履歴が保持されている場合は、チャット ルームが無効になっているときにコンテンツが保持されます。 ただし、チャット ルームが無効な状態のままの間、そのコンテンツは検索に表示されません。 後でチャット ルームを有効にした場合、ユーザーはチャット ルームが無効にされる前に投稿されたメッセージを検索できます。 チャット ルーム履歴の構成の詳細については、「[Manage categories in Persistent Chat Server in Skype for Business Server 2015」を参照](categories.md)してください。 
   
 チャット ルームを無効にすると、メンバーシップ リストとその他の設定が保持されます。 管理者は、無効になっているルームを有効にできます。手動で設定を再作成する必要はありません。
   
@@ -141,7 +141,7 @@ Set-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -Disabled
 
 ## <a name="get-information-about-rooms"></a>会議室に関する情報を取得する
 
-組織で使用するように構成された会議室に関する情報を取得するには **、Get-CsPersistentChatRoom コマンドレットを使用** できます。
+組織で使用するように構成された会議室に関する情報を取得するには、 **Get-CsPersistentChatRoom コマンドレットを使用** できます。
   
 次のコマンドは、組織内で使用するように構成されたチャット ルームに関する情報を返します。
   

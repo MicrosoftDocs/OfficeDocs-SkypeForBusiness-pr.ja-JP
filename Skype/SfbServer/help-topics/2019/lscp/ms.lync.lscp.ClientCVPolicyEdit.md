@@ -1,8 +1,8 @@
 ---
 title: クライアント バージョン ポリシー [新規の作成] または [既存の編集]
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e32c6712-6dc9-4de9-8d74-9fdccf3de1ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: 現在の環境でサポートするクライアントのバージョンを指定できます。 バージョンが異なる 2 つのクライアントが対話する場合、機能によっては一方のクライアントでは使用できても、他方のクライアントでは使用できないことがあります。
-ms.openlocfilehash: a3549bc94cc886526610c40ee4cddb75310ebe74
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 825969cc9ed6010a1e9858879d1db17b7b77f508
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840529"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398250"
 ---
 # <a name="client-version-policy-create-new-or-edit-existing"></a>クライアント バージョン ポリシー: 新規作成または現在の形式のままで編集
 
@@ -47,7 +47,7 @@ ms.locfileid: "60840529"
 
 - **説明** [クライアント バージョン ポリシー] ページの一覧で、ポリシーの識別に役立つ説明を追加できます。
 
-- **New** 新しいクライアント バージョン ルールをポリシーに追加できます。
+- **新機能** 新しいクライアント バージョン ルールをポリシーに追加できます。
 
 - **詳細の表示** このオプションは、クライアント バージョン ルールのオプションを変更できるダイアログ ボックスを開きます。
 
@@ -55,4 +55,4 @@ ms.locfileid: "60840529"
 
 - **上下の矢印** このオプションは、選択したクライアント バージョン ルールを優先度で上下に移動します。 ルールは、一覧表示された順序で処理されます。
 
-クライアントとクライアント バージョン間の相互運用性の詳細については [、「Client Interoperability」を参照してください](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013)。 クライアント バージョン ポリシーの操作の詳細については、「操作」のドキュメントの「[Specify the Client Versions Supported in Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013)」を参照してください。
+クライアントとクライアント バージョン間の相互運用性の詳細については、「 [Client Interoperability」を参照してください](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013)。 クライアント バージョン ポリシーの操作の詳細については、「操作」のドキュメントの「[Specify the Client Versions Supported in Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013)」を参照してください。

@@ -1,8 +1,8 @@
 ---
 title: '[通話診断の概要] レポート (Skype for Business Server'
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
 description: '概要: 通話診断の概要レポートについて説明します。Skype for Business Server。'
-ms.openlocfilehash: ef50ecde07fdd7354bd97c40bddfe4fb5e762d08
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 76907a319f5e4d828829daf7bc0564a964eb7633
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827570"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397701"
 ---
 # <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>[通話診断の概要] レポート (Skype for Business Server
  
@@ -37,7 +37,7 @@ ms.locfileid: "60827570"
     
 ## <a name="accessing-the-call-diagnostic-summary-report"></a>通話診断の概要レポートへのアクセス
 
-通話診断の概要レポートには、[監視レポート] ホーム ページからアクセスします。 通話診断の概要レポートから[、Skype for Business Server](peer-to-peer-activity-diagnostic-report.md)のピアツーピア アクティビティ診断レポートにアクセスするには、レポートの [ピアツーピア セッションの概要] セクションにある [エラー率] メトリックをクリックします。 次の会議指標をクリック[すると、Skype for Business Server](conference-diagnostic-report.md)で会議診断レポートにアクセスできます。
+通話診断の概要レポートには、[監視レポート] ホーム ページからアクセスします。 通話診断の概要レポートから[、Skype for Business Server のピア](peer-to-peer-activity-diagnostic-report.md)ツーピア アクティビティ診断レポートにアクセスするには、レポートの [ピアツーピア セッションの概要] セクションにある [エラー率] メトリックをクリックします。 次の会議の指標をクリック[すると、](conference-diagnostic-report.md)Skype for Business Serverで会議診断レポートにアクセスできます。
   
 - [全体的なセッション エラー率]
     
@@ -47,7 +47,7 @@ ms.locfileid: "60827570"
     
 ## <a name="making-the-best-use-of-the-call-diagnostic-summary-report"></a>通話診断の概要レポートの活用
 
-通話診断の概要レポートには、このレポートで使用されるさまざまなモダリティのエラー率を比較するグラフSkype for Business Server。 これらのグラフの列は、実際にはホットリンクです。たとえば、ピアツーピア セッションの [インスタント メッセージング] 列をクリックすると[、Skype for Business Server](peer-to-peer-activity-diagnostic-report.md)のピアツーピア アクティビティ診断レポートのインスタンス (通話診断概要レポートに含まれるすべてのインスタント メッセージング セッションの詳細を示すレポート) にドリルダウンします。
+通話診断の概要レポートには、このレポートで使用されるさまざまなモダリティのエラー率を比較するグラフSkype for Business Server。 これらのグラフの列は、実際にはホットリンクです。たとえば、ピアツーピア セッションの [インスタント メッセージング] 列をクリックすると、[Skype for Business Server のピア](peer-to-peer-activity-diagnostic-report.md)ツーピア アクティビティ診断レポートのインスタンス (通話診断概要レポートに含まれるすべてのインスタント メッセージング セッションに関する追加情報を提供するレポート) にドリルダウンします。
   
 ## <a name="filters"></a>フィルター
 
@@ -57,7 +57,7 @@ ms.locfileid: "60827570"
   
 **通話診断の概要レポートのフィルター**
 
-|**名前**|**説明**|
+|**[名前]**|**説明**|
 |:-----|:-----|
 |**From** <br/> |時間範囲の開始日と開始時刻。データを時間単位で表示するには、次のように開始日と開始時刻の両方を入力します。  <br/> 2015 年 7 月 7 日 13:00  <br/> 開始時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に開始します。データを日単位で表示するには、次のように日付のみを入力します。  <br/> 7/7/2015  <br/> 週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。  <br/> 7/3/2015  <br/> 週は、常に日曜日から土曜日までです。  <br/> |
 |**To** <br/> |時間範囲の終了日と終了時刻。データを時間単位で表示するには、次のように終了日と終了時刻の両方を入力します。  <br/> 2015 年 7 月 7 日 13:00  <br/> 終了時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に終了します。データを日単位で表示するには、次のように日付のみを入力します。  <br/> 7/7/2015  <br/> 週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。  <br/> 7/3/2015  <br/> 週は、常に日曜日から土曜日までです。  <br/> |

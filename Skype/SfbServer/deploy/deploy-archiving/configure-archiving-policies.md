@@ -1,8 +1,8 @@
 ---
 title: サーバーのアーカイブ ポリシーを構成Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e8e48087-d4f0-4fe1-9e7e-f2b3e07f815f
 description: '概要: このトピックでは、ユーザーの初期アーカイブ ポリシーを構成する方法Skype for Business Serverしてください。'
-ms.openlocfilehash: 96d53ae71a8faa72c5dcdc3816c09c1b6d492e67
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6e50f40aa91a26af8833ec7f330b14a9354d6b8b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853791"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399431"
 ---
 # <a name="configure-archiving-policies-for-skype-for-business-server"></a>サーバーのアーカイブ ポリシーを構成Skype for Business Server
  
@@ -34,12 +34,12 @@ ms.locfileid: "60853791"
 アーカイブを展開するときに最初にアーカイブ ポリシーを設定しましたが、展開後にポリシーを変更、追加、および削除できます。 [Skype for Business Server] コントロール パネルでは、[アーカイブと監視] グループの [アーカイブ ポリシー] ページを使用して、グローバル、サイト、およびユーザー レベルでポリシーを管理できます。
   
 > [!NOTE]
-> アーカイブの実装を制御するには、IM または会議のアーカイブ、クリティカル モードの使用、削除オプションなどのオプションを指定する必要があります。 既定では、グローバル アーカイブ構成またはサイトまたはプールのアーカイブ構成でオプションは有効になりません。 内部通信または外部通信のアーカイブを有効にする前に、すべての適切なオプションを指定する必要があります。 詳細については、「アーカイブ オプション[を構成する」を参照Skype for Business Server。](configure-archiving-options.md) 
+> アーカイブの実装を制御するには、IM または会議のアーカイブ、クリティカル モードの使用、削除オプションなどのオプションを指定する必要があります。 既定では、グローバル アーカイブ構成またはサイトまたはプールのアーカイブ構成でオプションは有効になりません。 内部通信または外部通信のアーカイブを有効にする前に、すべての適切なオプションを指定する必要があります。 詳細については、「アーカイブ オプション[を構成する」を参照Skype for Business Server](configure-archiving-options.md)。 
   
 > [!NOTE]
 > 展開に対して Microsoft Exchange 統合を有効にした場合、Exchange In-Place Hold ポリシーは、Exchange に自宅にいてメールボックスを In-Place Hold に置くユーザーに対してアーカイブを有効にするかどうかを制御します。 
   
-グローバル ポリシー、サイト ポリシー、およびユーザー ポリシーの階層など、アーカイブ ポリシーの動作の詳細については、「Plan for archiving in Skype for Business Server」[を参照してください](../../plan-your-deployment/archiving/archiving.md)。 展開後にポリシーを管理する方法の詳細については[、「Manage archiving policis in Skype for Business Server」 を参照してください](../../manage/archiving/policies.md)。
+グローバル ポリシー、サイト ポリシー、ユーザー ポリシーの階層など、アーカイブ ポリシーの動作の詳細については、「Plan [for archiving in Skype for Business Server」を参照してください](../../plan-your-deployment/archiving/archiving.md)。 展開後にポリシーを管理する方法の詳細については、「[Manage archiving policis in Skype for Business Server](../../manage/archiving/policies.md)。
   
 ## <a name="global-policy"></a>グローバル ポリシー
 
@@ -59,7 +59,7 @@ ms.locfileid: "60853791"
     
    - "グローバル" という既定の名前を使用しない場合は、[**名前**] にグローバル ポリシーの新しい名前を指定します。 
     
-   - [ **説明**] で、ポリシーの内容に関する情報を提供します (たとえば  *、divisionName*  のグローバル ポリシーです。
+   - [ **説明**] で、ポリシーの内容に関する情報 (たとえば、divisionName のグローバル ポリシー)  *を指定します*  。
     
    - サイト ポリシーまたはユーザー ポリシーによって特に制御されていないすべてのサイトとユーザーの内部通信のアーカイブを制御するには、[**内部通信のアーカイブ**] チェック ボックスをオンまたはオフにします。
     
@@ -79,7 +79,7 @@ ms.locfileid: "60853791"
     
 3. 左側のナビゲーション バーで、[**監視とアーカイブ**] をクリックし、[**アーカイブ ポリシー**] をクリックします。
     
-    グローバル ポリシー、サイト ポリシー、およびユーザー ポリシーの階層など、アーカイブ ポリシーの動作の詳細については、「Plan for archiving in Skype for Business Server」[を参照してください](../../plan-your-deployment/archiving/archiving.md)。
+    グローバル ポリシー、サイト ポリシー、ユーザー ポリシーの階層など、アーカイブ ポリシーの動作の詳細については、「Plan [for archiving in Skype for Business Server」を参照してください](../../plan-your-deployment/archiving/archiving.md)。
     
 4. [**新規作成**] をクリックし、[**サイト ポリシー**] をクリックします。
     
@@ -134,10 +134,10 @@ ms.locfileid: "60853791"
     
 4. 検索結果一覧の表でユーザー アカウントをクリックし、[**編集**] をクリックして、[**詳細の表示**] をクリックします。
     
-5. [**アーカイブ ポリシー Skype for Business Server** ユーザー **の編集**] で、適用するアーカイブ ユーザー ポリシーを選択します。
+5. [**アーカイブ ポリシー Skype for Business Server** ユーザー **の編集] で**、適用するアーカイブ ユーザー ポリシーを選択します。
     
     > [!NOTE]
-    > この **\<Automatic\>** 設定は、既定のサーバー インストール設定を適用します。 これらの設定はサーバーによって自動的に適用されます。
+    > この設定 **\<Automatic\>** は、既定のサーバー インストール設定を適用します。 これらの設定はサーバーによって自動的に適用されます。
   
 6. [**確定**] をクリックします。
     

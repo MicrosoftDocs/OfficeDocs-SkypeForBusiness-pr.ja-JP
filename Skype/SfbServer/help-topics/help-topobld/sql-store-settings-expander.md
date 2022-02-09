@@ -1,8 +1,8 @@
 ---
 title: SQL ストア設定エキスパンダー
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,16 +15,16 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: bd269d52-6f87-4433-b9b0-2b543fea845d
 description: データベースのプロパティを編集するにはSQL Serverデータベース インスタンスをSQL Serverする必要があります。 [プロパティの編集] ダイアログ ボックスで、アーカイブ サーバー データベースをコンピューター間で移動するなどのタスクを実行することはできません。 また、[プロパティの編集] ダイアログ ボックスを使用して、サーバーの全体管理ストアをSQL Serverのインスタンスを変更することはできません。
-ms.openlocfilehash: 0c5af1546b601933705daf4b4e1a6817fe4b04ee
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b57d4e1bae0b3ea03470ffa8284f26260ff21381
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861374"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410040"
 ---
 # <a name="sql-store-settings-expander"></a>SQL ストア設定エキスパンダー
  
-データベースのプロパティを編集するにはSQL Serverデータベース インスタンスをSQL Serverする必要があります。 [**プロパティの編集**] ダイアログ ボックスで、アーカイブ サーバー データベースをコンピューター間で移動するなどのタスクを実行することはできません。 さらに、[プロパティの編集]ダイアログ ボックスを使用して、サーバーの全体管理ストアをホストSQL Serverインスタンスを変更することはできません。
+データベースのプロパティを編集するにはSQL Serverデータベース インスタンスをSQL Serverする必要があります。 [**プロパティの編集**] ダイアログ ボックスで、アーカイブ サーバー データベースをコンピューター間で移動するなどのタスクを実行することはできません。 さらに、[プロパティの編集] ダイアログ  ボックスを使用して、サーバーの全体管理ストアをホストSQL Serverインスタンスを変更することはできません。
   
 ## <a name="editing-the-properties-of-a-sql-server-database"></a>データベースのプロパティSQL Serverする
 
@@ -36,10 +36,10 @@ ms.locfileid: "60861374"
     
 2. [**プロパティの編集**] ダイアログ ボックスで、次のどちらかの操作を行います。
     
-   - 既定のインスタンスを使用するにはSQL Server **インスタンスを選択** し **、[OK] をクリックします**。
+   - 既定のインスタンスを使用SQL Server、[既定のインスタンス] **を選択し**、[OK] をクリック **します**。
     
    - 名前付きデータベース インスタンスを使用するには、[**名前付きインスタンス**] を選択し、テキスト ボックスにインスタンス名を入力してから [**OK**] をクリックします。 インスタンス名 (たとえば、ArchivingInstance) のみを入力し、パス全体をSQL Serverしてください。
     
-[プロパティの編集] **ダイアログ** ボックスで作業している場合、トポロジ ビルダーは、入力したデータベース インスタンスが有効なインスタンスであるのを確認できません。 たとえば、インスタンス名として誤ってArchivingInstanecと入力し **、[OK]** をクリックすると、トポロジ ビルダーはその無効なインスタンスを受け入れる。 このトポロジを公開する前に、この間違いを修正する必要があります。SQL Server インスタンスが見つからない場合、トポロジ ビルダーは、そのインスタンスを作成できません。
+[プロパティの編集] **ダイアログ** ボックスで作業している場合、トポロジ ビルダーは、入力したデータベース インスタンスが有効なインスタンスであるのを確認できません。 たとえば、インスタンス名として誤ってArchivingInstanecと入力し **、[OK**] をクリックすると、トポロジ ビルダーはその無効なインスタンスを受け入れる。 このトポロジを公開する前に、この間違いを修正する必要があります。SQL Server インスタンスが見つからない場合、トポロジ ビルダーは、そのインスタンスを作成できません。
   
 

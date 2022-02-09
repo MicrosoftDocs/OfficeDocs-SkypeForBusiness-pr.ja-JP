@@ -1,8 +1,8 @@
 ---
 title: 仲介サーバーの展開Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7cc22b87-18d9-45e6-8402-015abd20f2e5
 description: このトピックでは、仲介サーバーの展開の計画ガイドラインについて説明します。
-ms.openlocfilehash: 99f975d3dddb8837569c8e8aa1128f7515b2d562
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1b5f628f544cafb358b58d325c5d077aef783a89
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844170"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397621"
 ---
 # <a name="deployment-guidelines-for-mediation-server-in-skype-for-business-server"></a>仲介サーバーの展開Skype for Business Server
  
@@ -49,13 +49,13 @@ ms.locfileid: "60844170"
  中央サイトの仲介サーバーを使用して、ブランチ サイトの IP-PBX ゲートウェイまたは PSTN ゲートウェイの通話をルーティングできます。 ただし、SIP トランクを展開する場合は、各トランクが終了するサイトに仲介サーバーを展開する必要があります。 中央サイト ルートで仲介サーバーを使用すると、ブランチ サイトで IP-PBX または PSTN ゲートウェイが呼び出されますが、メディア バイパスを使用する必要は生じしませんが、メディア バイパスをお勧めします。 これは、メディア バイパスを有効にできると、メディア パスの待機時間が短縮され、その結果、メディア パスが信号パスに従う必要がないので、メディア品質が向上します。 メディア バイパスにより、プールの処理負荷も軽減することができます。
   
 > [!NOTE]
-> メディア バイパスは、すべての PSTN ゲートウェイ、IP-PBX、および SBC と相互運用する必要があります。 Microsoft は、認定パートナーと一緒に一連の PSTN ゲートウェイと SBC をテストし、Cisco IP-PBX でいくつかのテストを行いました。 メディア バイパスは、Unified Communications Open Interoperability Program - Lync Server でテスト済みデバイス、インフラストラクチャ、および Skype for Business エクスペリエンスをサポートおよび拡張するツールに記載されている製品[とバージョンでのみサポート](http://partnersolutions.skypeforbusiness.com/solutionscatalog)されます。 
+> メディア バイパスは、すべての PSTN ゲートウェイ、IP-PBX、および SBC と相互運用する必要があります。 Microsoft は、認定パートナーと一緒に一連の PSTN ゲートウェイと SBC をテストし、Cisco IP-PBX でいくつかのテストを行いました。 メディア バイパスは、ユニファイド コミュニケーション Open Interoperability Program - Lync Server のテスト済みデバイス、インフラストラクチャ、および Skype for Business エクスペリエンスをサポートおよび拡張するツールに記載されている製品とバージョン[でのみサポート](http://partnersolutions.skypeforbusiness.com/solutionscatalog)されます。 
   
-ブランチ サイトの復元が必要な場合は、存続可能ブランチ アプライアンスまたはフロント エンド サーバー、仲介サーバー、およびゲートウェイの組み合わせをブランチ サイトに展開する必要があります。 (ブランチ サイトの復元の前提は、プレゼンスと会議がサイトで回復性を持たないという前提です)。音声のブランチ サイト計画のガイダンスについては、「[プラン for エンタープライズ VoIP復元」を参照](../enterprise-voice-solution/enterprise-voice-resiliency.md)Skype for Business Server。
+ブランチ サイトの復元が必要な場合は、存続可能ブランチ アプライアンスまたはフロント エンド サーバー、仲介サーバー、およびゲートウェイの組み合わせをブランチ サイトに展開する必要があります。 (ブランチ サイトの復元の前提は、プレゼンスと会議がサイトで回復性を持たないという前提です)。音声のブランチ サイト計画のガイダンスについては、「[プラン for エンタープライズ VoIP復元」を参照Skype for Business Server](../enterprise-voice-solution/enterprise-voice-resiliency.md)。
   
 IP-PBX とのやり取りでは、IP-PBX が複数の早期ダイアログや RFC 3960 の対話による初期のメディア操作を正しくサポートしていない場合は、IP-PBX から Lync エンドポイントへの着信呼び出しに対する最初の数語の案内応答がクリッピングされる可能性があります。 中央サイトの仲介サーバーがブランチ サイトでルートが終了する IP-PBX の通話をルーティングしている場合、信号が完了するのにより長い時間が必要になるため、この動作はさらに深刻になります。 この動作が発生した場合、最初の数語のクリッピングを減らす唯一の方法は、ブランチ サイトに仲介サーバーを展開することです。
   
 また、中央サイトに TDM PBX がある場合や、IP-PBX によって PSTN ゲートウェイの必要性がなくならない場合は、仲介サーバーおよび PBX に接続する通話ルートにゲートウェイを展開する必要があります。
   
 > [!NOTE]
-> スタンドアロン仲介サーバーのメディア パフォーマンスを向上させるために、これらのサーバー上のネットワーク アダプターで受信側スケーリング (RSS) を有効にする必要があります。 RSS は、着信パケットがサーバーの複数のプロセッサによって平行して処理されるのを可能にします。 詳細については[、「Receive-Side Scaling Enhancements in Windows」を参照してください](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11))。 RSS を有効にする方法の詳細については、ネットワーク アダプターのドキュメントを参照してください。 
+> スタンドアロン仲介サーバーのメディア パフォーマンスを向上させるために、これらのサーバー上のネットワーク アダプターで受信側スケーリング (RSS) を有効にする必要があります。 RSS は、着信パケットがサーバーの複数のプロセッサによって平行して処理されるのを可能にします。 詳細については、「[Receive-Side Scaling Enhancements in Windows」を参照してください](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11))。 RSS を有効にする方法の詳細については、ネットワーク アダプターのドキュメントを参照してください。 

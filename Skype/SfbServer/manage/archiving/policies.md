@@ -1,8 +1,8 @@
 ---
 title: アーカイブ ポリシーを管理Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 75ce32ba-eb82-4339-9c02-5df5f2c2ebd2
 description: '概要: ユーザー のアーカイブ用のユーザー ポリシーを管理する方法について説明Skype for Business Server。'
-ms.openlocfilehash: aefb05c4ee1be0af0af4d2ab4ab4d53efbd71912
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c4d5278ece9c812254c67d2d783b5a9f9175330c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856764"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397801"
 ---
 # <a name="manage-archiving-policies-in-skype-for-business-server"></a>アーカイブ ポリシーを管理Skype for Business Server
 
@@ -33,7 +33,7 @@ ms.locfileid: "60856764"
 アーカイブ ポリシーは、グローバル、サイト、またはユーザー レベルで設定できます。
   
 > [!NOTE]
-> 展開で Microsoft Exchange 統合を有効にした場合、Exchange ポリシーは、Exchange に自宅にいて、メールボックスを In-Place Hold に置くユーザーに対してアーカイブを有効にするかどうかを制御します。 詳細については、「Plan [for archiving in Skype for Business Server」](../../plan-your-deployment/archiving/archiving.md)および「Configure integration with [Exchange ストレージ for Skype for Business Server」 を参照してください](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md)。 
+> 展開で Microsoft Exchange 統合を有効にした場合、Exchange ポリシーは、Exchange に自宅にいて、メールボックスを In-Place Hold に置くユーザーに対してアーカイブを有効にするかどうかを制御します。 詳細については、「Plan [for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md)」および「Exchangeストレージとの統合を[構成する」を参照](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md)Skype for Business Server。 
   
 ## <a name="manage-archiving-policies-by-using-the-control-panel"></a>コントロール パネルを使用してアーカイブ ポリシーを管理する
 
@@ -47,7 +47,7 @@ ms.locfileid: "60856764"
     
 ## <a name="manage-archiving-policies-by-using-windows-powershell"></a>アーカイブ ポリシーを使用してアーカイブ ポリシーをWindows PowerShell
 
-次の表に示すWindows PowerShellコマンドレットを使用して、アーカイブ ポリシーを構成することもできます。 使用可能なすべてのパラメーターを含む構文の詳細については[、「Skype for Business Server」を参照してください](../management-shell.md)。
+次の表に示すWindows PowerShellコマンドレットを使用して、アーカイブ ポリシーを構成することもできます。 使用可能なすべてのパラメーターを含む構文の詳細については、「Skype for Business Server[」を参照してください](../management-shell.md)。
   
 
 |**コマンドレット**|**説明**|

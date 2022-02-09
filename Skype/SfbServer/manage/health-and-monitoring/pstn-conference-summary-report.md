@@ -1,8 +1,8 @@
 ---
 title: PSTN 電話会議の概要レポート (Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
 description: '概要: PSTN 電話会議の概要レポートについて説明します。Skype for Business Server。'
-ms.openlocfilehash: 19038b29f46e33026e3ef865226aa4d087b0a0da
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2632ce1b9653c4895bfdcb176373b6d4e9996b74
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862294"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397721"
 ---
 # <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>PSTN 電話会議の概要レポート (Skype for Business Server
  
@@ -33,7 +33,7 @@ PSTN 電話会議の概要レポートには、監視レポートのホーム �
   
 ## <a name="making-the-best-use-of-the-pstn-conference-summary-report"></a>PSTN 電話会議の概要レポートの最適な利用
 
-ダイヤルイン ユーザーを含むすべての会議の割合を確認するには、PSTN 会議の合計メトリックの値と、Skype for Business Server の [会議の概要レポート] にある [会議の合計][メトリックを比較します](conference-summary-report.md)。
+ダイヤルイン ユーザーを含むすべての会議の割合を確認するには、PSTN 会議の合計メトリックの値と、Skype for Business Server の [会議の概要レポート] にある [会議の合計] [メトリックを比較します](conference-summary-report.md)。
   
 予想される数の PSTN 会議が表示されていない場合は、ダイヤルイン ユーザーを許可する会議を整理する機能は、ユーザーに割り当てられている会議ポリシーによって異なります。PSTN 会議を保持できるユーザーが非常に少ない場合は、PSTN 会議が非常に少ない可能性があります。 ユーザーが PSTN 会議をスケジュールできる会議ポリシー (存在する場合) をすばやく確認するには、次のコマンドを Skype for Business Server 管理シェルで実行します。
   
@@ -61,7 +61,7 @@ Tag:DublinDialInUsers                                       True
   
 **PSTN 電話会議の概要レポートのフィルター**
 
-|**名前**|**説明**|
+|**[名前]**|**説明**|
 |:-----|:-----|
 |**From** <br/> |時間範囲の開始日と開始時刻。データを時間単位で表示するには、次のように開始日と開始時刻の両方を入力します。  <br/> 2015 年 7 月 7 日 13:00  <br/> 開始時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に開始します。データを日単位で表示するには、次のように日付のみを入力します。  <br/> 7/7/2015  <br/> 週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。  <br/> 7/3/2015  <br/> 週は、常に日曜日から土曜日までです。  <br/> |
 |**To** <br/> |時間範囲の終了日と終了時刻。データを時間単位で表示するには、次のように終了日と終了時刻の両方を入力します。  <br/> 2015 年 7 月 7 日 13:00  <br/> 終了時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に終了します。データを日単位で表示するには、次のように日付のみを入力します。  <br/> 7/7/2015  <br/> 週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。  <br/> 7/3/2015  <br/> 週は、常に日曜日から土曜日までです。  <br/> |

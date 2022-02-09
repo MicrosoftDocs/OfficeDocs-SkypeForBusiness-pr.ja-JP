@@ -1,8 +1,8 @@
 ---
 title: システムの復元エンタープライズ VoIP計画Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: 中央サイトとブランチ サイトの両方で、Skype for Business Server エンタープライズ VoIPの音声復元をサポートする方法について説明します。 ブランチ サイトのオプションには、存続可能ブランチ アプライアンスまたは存続可能ブランチ サーバーの展開が含まれます。
-ms.openlocfilehash: a2dc18817f28595cdfdf65be35df85d0ad93239b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fa68fda07e104477bf0e8a089b45adf641ef4ed9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851881"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400291"
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>システムの復元エンタープライズ VoIP計画Skype for Business Server
 
@@ -78,7 +78,7 @@ ms.locfileid: "60851881"
 
 - 各レジストラー プールは、DNS 負荷分散、ハードウェア負荷分散、または両方を使用して負荷分散する必要があります。 負荷分散構成の計画の詳細については、「負荷分散の要件」を参照[Skype for Business。](../../plan-your-deployment/network-requirements/load-balancing.md)
 
-- 各ユーザーは、Skype for Business Server 管理シェル **set-CsUser** コマンドレットまたは Skype for Business Server コントロール パネルを使用してプライマリ レジストラー プールに割り当てる必要があります。
+- 各ユーザーは、管理シェル **set-CsUser** コマンドレットまたは Skype for Business Server コントロール パネルのいずれかを使用して、プライマリ レジストラー プールSkype for Business Serverする必要があります。
 
 - プライマリ レジストラー プールは、別の中央サイトに配置されたバックアップ レジストラー プールを 1 つ持つ必要があります。
 
@@ -282,12 +282,12 @@ Skype for Business Serverは、ブランチ サイトで最大 2 つの存続可
 > [!IMPORTANT]
 > ブランチ オフィスのバックアップ ルートを作成するときは、ブランチ オフィスのユーザー ポリシーに 2 つの PSTN 電話使用法レコードを追加し、各電話使用法レコードに個別のルートを割り当てることをお勧めします。 最初のルートまたはプライマリ ルートは、存続可能ブランチ アプライアンス (SBA) またはブランチ サーバーに関連付けられたゲートウェイへの呼び出しを指示します。2 つ目のルート (バックアップ) は、中央サイトのゲートウェイへの呼び出しを指示します。 SBA またはブランチ サーバーは通話を振り分けるときに、最初の PSTN 使用法レコードに割り当てられたすべてのルートを試みてから、2 番目の使用法レコードのルートを試みます。
 
-ブランチ サイトのユーザーへの着信呼び出しが、存続可能ブランチ アプライアンス サイトのブランチ ゲートウェイまたは Windows コンポーネントが使用できない場合 (たとえば、存続可能ブランチ アプライアンスまたはブランチ ゲートウェイがメンテナンスのために停止した場合など) に、それらのユーザーに到達するために、ゲートウェイ上にフェールオーバー ルートを作成します (または、ダイレクト インワード ダイヤル (DID) プロバイダーと一緒に作業して、中央のバックアップ レジストラー プールに着信呼び出しをリダイレクトします。サイト。 通話は、そこから WAN リンク経由でブランチ ユーザーにルーティングされます。 ルートが PSTN ゲートウェイまたは他のトランク ピアの受け入れ可能な電話番号形式に準拠するよう番号を変換します。 フェールオーバー ルートの作成の詳細については、「[Configuring a Failover Route](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-a-failover-route)」を参照してください。 また、ブランチ サイトのゲートウェイに関連付けられたトランクにサービスレベルのダイヤル プランを作成して着信通話を正規化します。 ブランチ サイトに 2 台の存続可能ブランチ アプライアンスがある場合は、それぞれに個別のサービス レベルプランが必要ない限り、両方のサイト レベルのダイヤル プランを作成できます。
+ブランチ サイト のユーザーへの着信呼び出しが、存続可能ブランチ アプライアンス サイトのブランチ ゲートウェイまたは Windows コンポーネントが使用できない場合 (たとえば、存続可能ブランチ アプライアンスまたはブランチ ゲートウェイがメンテナンスのために停止した場合など) に、それらのユーザーに到達するために、ゲートウェイでフェールオーバー ルートを作成します (または、ダイレクト インワード ダイヤル (DID) プロバイダーと一緒に作業して、中央サイトのバックアップ レジストラー プールに着信呼び出しをリダイレクトします。 通話は、そこから WAN リンク経由でブランチ ユーザーにルーティングされます。 ルートが PSTN ゲートウェイまたは他のトランク ピアの受け入れ可能な電話番号形式に準拠するよう番号を変換します。 フェールオーバー ルートの作成の詳細については、「[Configuring a Failover Route](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-a-failover-route)」を参照してください。 また、ブランチ サイトのゲートウェイに関連付けられたトランクにサービスレベルのダイヤル プランを作成して着信通話を正規化します。 ブランチ サイトに 2 台の存続可能ブランチ アプライアンスがある場合は、それぞれに個別のサービス レベルプランが必要ない限り、両方のサイト レベルのダイヤル プランを作成できます。
 
 > [!NOTE]
 > プレゼンス、会議、またはフェールオーバーの実行を中央サイトに頼っているすべてのブランチ サイトのユーザーによる中央サイトのリソース消費に対応するには、各ブランチ サイトのユーザーを、中央サイトに登録されたユーザーとしてみなすことをお勧めします。 現在、存続可能ブランチ アプライアンスに登録されているユーザーを含む、ブランチ サイト ユーザーの数に制限はありません。
 
-なお、ユーザー レベルのダイヤル プランと音声ポリシーを作成してから、ブランチ サイトのユーザーに割り当てることもお勧めします。 詳細については、「展開」の[ドキュメントの「Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md)でダイヤル プランを作成または変更する」および「Create the [VoIP Routing Policy for Branch Users」](/previous-versions/office/lync-server-2013/lync-server-2013-create-the-voip-routing-policy-for-branch-users)を参照してください。
+なお、ユーザー レベルのダイヤル プランと音声ポリシーを作成してから、ブランチ サイトのユーザーに割り当てることもお勧めします。 詳細については、「展開」[のドキュメント](../../deploy/deploy-enterprise-voice/dial-plans.md)の「Skype for Business Server でダイヤル プランを作成または変更する」および「[Create the VoIP Routing Policy for Branch Users](/previous-versions/office/lync-server-2013/lync-server-2013-create-the-voip-routing-policy-for-branch-users)」を参照してください。
 
 #### <a name="routing-extension-numbers"></a>内線番号のルーティング
 
@@ -303,7 +303,7 @@ Skype for Business Serverは、ブランチ サイトで最大 2 つの存続可
 |:-----|:-----|:-----|:-----|:-----|
 |5digitExtensions  <br/> |5 桁の番号を変換しません。  <br/> |^(\d{5})$  <br/> |$1  <br/> |10001 は変換されません。  <br/> |
 
-また、ブランチ サイトと中央サイトの間で WAN リンクを使用できない場合や、ブランチ サイトからの通話を PSTN 経由でルーティングする必要がある場合などのシナリオの内線番号に対応する必要もあります。 WAN の停止中に、ブランチ サイト ユーザーが中央サイト ユーザーの内線番号をダイヤルして中央サイト ユーザーを呼び出す場合は、中央サイト ユーザーの完全な電話番号を追加する送信変換ルールが必要です。 ユーザーの回線 URI に、ユーザーに固有の完全な電話番号ではなく、組織の完全な電話番号とユーザーの一意の内線番号が含まれている場合は、組織の完全な電話番号を追加する送信変換ルールが必要です。 例:
+また、ブランチ サイトと中央サイトの間で WAN リンクを使用できない場合や、ブランチ サイトからの通話を PSTN 経由でルーティングする必要がある場合などのシナリオの内線番号に対応する必要もあります。 WAN の停止中に、ブランチ サイト ユーザーが中央サイト ユーザーの内線番号をダイヤルして中央サイト ユーザーを呼び出す場合は、中央サイト ユーザーの完全な電話番号を追加する送信変換ルールが必要です。 ユーザーの回線 URI に、ユーザーに固有の完全な電話番号ではなく、組織の完全な電話番号とユーザーの一意の内線番号が含まれている場合は、組織の完全な電話番号を追加する送信変換ルールが必要です。 次に例を示します。
 
 |**説明**|**一致パターン**|**翻訳**|**例**|
 |:-----|:-----|:-----|:-----|
@@ -314,7 +314,7 @@ Skype for Business Serverは、ブランチ サイトで最大 2 つの存続可
 
 |**説明**|**一致パターン**|**翻訳**|**例**|
 |:-----|:-----|:-----|:-----|
-|内線番号付きの電話番号から内線番号を削除します。  <br/> |^\+\*(\d);ext=(\d \* )$  <br/> |+$1  <br/> |+14255550123;ext=10001 は +14255550123 に変換されます。  <br/> |
+|内線番号付きの電話番号から内線番号を削除します。  <br/> |^\+(\d\*);ext=(\d\*)$  <br/> |+$1  <br/> |+14255550123;ext=10001 は +14255550123 に変換されます。  <br/> |
 
 WAN リンクが使用可能かどうかに関係ない場合、組織に個々のユーザーに対して DID 番号が構成されていない場合、ユーザーの回線 URI に組織の電話番号とユーザーの一意の内線番号が含まれている場合は、ブランチ サイトのトランク ピアまたは PSTN ゲートウェイが到達できる番号で組織の電話番号 Line URI を構成する必要があります。 また、その番号にルーティングする呼び出しの固有の内線番号を含めるには、組織の電話番号 Line URI を構成する必要があります。
 
@@ -330,7 +330,7 @@ Exchangeユニファイド メッセージング (UM) は通常、中央サイ�
 
 - 管理者Skype for Business Server AA 電話番号を受け取り、その電話番号を存続可能ブランチ アプライアンスまたはブランチ サーバーのボイス メール再ルーティング設定の Exchange **um** 自動応答番号として使用する必要があります。
 
-- Skype for Business Server管理者は、Exchange UM サブスクライバー アクセス電話番号を取得し、その番号を存続可能ブランチ アプライアンスまたは存続可能ブランチ サーバーのボイス メール再ルーティング設定でサブスクライバー アクセス番号として使用する必要があります。
+- Skype for Business Server管理者は、Exchange UM サブスクライバー アクセス電話番号を取得し、その番号を存続可能ブランチ アプライアンスまたは存続可能ブランチ サーバーのボイス メール再ルーティング設定のサブスクライバー アクセス番号として使用する必要があります。
 
 - 管理者Skype for Business Server、WAN の停止中Exchangeボイス メールにアクセスする必要があるすべてのブランチ ユーザーに 1 つのダイヤル プランのみを関連付け、UM を構成する必要があります。
 
@@ -361,11 +361,11 @@ Skype for Businessクライアントは、DHCP オプション 120 (SIP レジ�
 
 #### <a name="requirements-for-survivable-branch-servers"></a>存続可能ブランチ サーバーの要件
 
-存続可能ブランチ サーバーの要件は、フロントエンド サーバーの要件と同じです。 詳細については[、「Server requirements for Skype for Business Server 2015」を参照してください](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。
+存続可能ブランチ サーバーの要件は、フロントエンド サーバーの要件と同じです。 詳細については、「[Server requirements for Skype for Business Server 2015」を参照](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)してください。
 
 #### <a name="requirements-for-full-scale-skype-for-business-server-branch-site-deployments"></a>展開の要件Full-Scale Skype for Business Server Branch-Site要件
 
-詳細については、「計画」[のドキュメントの「Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)のサーバー要件」を参照してください。
+詳細については、「計画」のドキュメントの[「Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) のサーバー要件」を参照してください。
 
 ### <a name="example-configuring-a-failover-route"></a>例: フェールオーバー ルートの構成
 
@@ -384,9 +384,9 @@ Skype for Businessクライアントは、DHCP オプション 120 (SIP レジ�
 
 | **ルート名**             | **番号パターン** | **電話使用法**         | **トランク**                                 | **ゲートウェイ**                                     |
 |:---------------------------|:-------------------|:------------------------|:------------------------------------------|:------------------------------------------------|
-| Redmond Local Route  <br/> | ^\+1(425           | 206                     | 253)(\d {7} )$  <br/>                       | ローカル  <br/> RedmondLocal  <br/>                |
-| Dallas Local Route  <br/>  | ^\+1(972           | 214                     | 469(\d {7} )$  <br/>                       | ローカル  <br/>                                    |
-| Universal Route  <br/>     | ^\+?(\d \* )$  <br/> | GlobalPSTNHopoff  <br/> | Trunk1  <br/> Trunk2  <br/> Trunk3  <br/> | Red-GW1  <br/> Red-GW2  <br/> Dallas-GW1  <br/> |
-| Dallas Users Route  <br/>  | ^\+?(\d \* )$  <br/> | DallasUsers  <br/>      | Trunk3  <br/>                             | Dallas-GW1  <br/>                               |
+| Redmond Local Route  <br/> | ^\+1(425           | 206                     | 253)(\d{7})$  <br/>                       | ローカル  <br/> RedmondLocal  <br/>                |
+| Dallas Local Route  <br/>  | ^\+1(972           | 214                     | 469(\d{7})$  <br/>                       | ローカル  <br/>                                    |
+| Universal Route  <br/>     | ^\+?(\d\*)$  <br/> | GlobalPSTNHopoff  <br/> | Trunk1  <br/> Trunk2  <br/> Trunk3  <br/> | Red-GW1  <br/> Red-GW2  <br/> Dallas-GW1  <br/> |
+| Dallas Users Route  <br/>  | ^\+?(\d\*)$  <br/> | DallasUsers  <br/>      | Trunk3  <br/>                             | Dallas-GW1  <br/>                               |
 
 表 1 では、Dallas Calling Policy の電話使用法 DallasUsers の後に、電話使用法 GlobalPSTNHopoff が追加されます。これにより、電話使用法 DallasUsers に対応したルートが使用できない場合に、Dallas Calling Policy の通話で電話使用法 GlobalPSTNHopoff 用に構成されたルートが使用できるようになります。

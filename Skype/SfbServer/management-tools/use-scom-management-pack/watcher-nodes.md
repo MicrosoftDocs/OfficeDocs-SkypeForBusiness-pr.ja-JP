@@ -1,8 +1,8 @@
 ---
 title: 監視ノードをインストールして構成する方法
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/20/2015
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 代理トランザクションの監視ノードをインストールおよび構成するプロセスSkype for Business Server説明します。
-ms.openlocfilehash: 9b0faf7f449bf75083d3b83e40c7807207ad51a1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 34ab33bb486e3bc9973632c108e6eccf33bec481
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833091"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396680"
 ---
 # <a name="learn-to-install-configure-watcher-nodes"></a>監視ノードのインストール、構成の詳細
  
@@ -29,11 +29,11 @@ ms.locfileid: "60833091"
   
 - **既定** 監視ノードが既定で実行する代理トランザクション。 新しい監視ノードを作成するときに、そのノードが実行する代理トランザクションを指定できます。 (これは、このコマンドレットで使用される Tests パラメーターNew-CsWatcherNodeConfigurationです)。監視ノードの作成時に Tests パラメーターを使用しない場合、既定の代理トランザクションはすべて自動的に実行され、既定以外の代理トランザクションは実行されません。 つまり、たとえば、監視ノードは Test-CsAddressBookService テストを実行するように構成されますが、Test-CsExumConnectivity テストを実行するように構成されません。
     
-- **既定以外** 監視ノードが既定で実行されないテスト。 (詳細については、Default 型の説明を参照してください。ただし、監視ノードを有効にすると、既定以外の代理トランザクションを実行できます。 監視ノードを作成する場合 (New-CsWatcherNodeConfiguration コマンドレットを使用して)、監視ノードの作成後にいつでも実行できます。 既定以外の代理トランザクションの多くは、追加のセットアップ手順を必要とします。 これらの手順の詳細については、「代理トランザクション [の特別なセットアップ手順」を参照してください](test-users-and-settings.md#special_synthetictrans)。
+- **既定以外** 監視ノードが既定で実行されないテスト。 (詳細については、Default 型の説明を参照してください。ただし、監視ノードを有効にすると、既定以外の代理トランザクションを実行できます。 監視ノードを作成する場合 (New-CsWatcherNodeConfiguration コマンドレットを使用して)、監視ノードの作成後にいつでも実行できます。 既定以外の代理トランザクションの多くは、追加のセットアップ手順を必要とします。 これらの手順の詳細については、「代理トランザクションの [特別なセットアップ手順」を参照してください](test-users-and-settings.md#special_synthetictrans)。
     
 - **拡張** 既定以外の代理トランザクションの特殊な種類。 他の代理トランザクションとは異なり、拡張テストは、1 回のパスで複数回実行できます。 これは、プールの複数の公衆交換電話網 (PSTN) 音声ルートなどの動作を確認する場合に便利です。 これを構成するには、拡張テストの複数のインスタンスを監視ノードに追加するだけで構成できます。
     
-監視ノードに他の代理トランザクションを追加するプロセスの詳細については、「代理トランザクションを実行する監視ノードの構成 [」を参照してください](watcher-nodes.md#enable_synthetic_trans)。 また、管理シェルSkype for Business Server使用して、監視ノードから代理トランザクションを削除することもできます。
+監視ノードに他の代理トランザクションを追加するプロセスの詳細については、「代理トランザクションを実行する監視ノードを構成する [」を参照してください](watcher-nodes.md#enable_synthetic_trans)。 また、管理シェルSkype for Business Server使用して、監視ノードから代理トランザクションを削除することもできます。
   
 監視ノードで使用できる代理トランザクションは以下のとおりです。
   
@@ -80,7 +80,7 @@ Lync Server 2013 監視ノードは、次の点を確認するために、企業
     
 - 企業内および境界ネットワークを介した Lync Server 2013 への接続。
     
-管理を簡略化するために、企業の内部と外部で異なる認証オプションを使用できます。 詳細については、「 [代理トランザクションを実行する監視ノードの構成」を参照してください](watcher-nodes.md#enable_synthetic_trans)。
+管理を簡略化するために、企業の内部と外部で異なる認証オプションを使用できます。 詳細については、「 [代理トランザクションを実行する監視ノードを構成する」を参照してください](watcher-nodes.md#enable_synthetic_trans)。
   
 監視ノードとして機能するコンピューターを構成するには、まず次の前提条件を満たす必要があります。 
   
@@ -112,7 +112,7 @@ Lync Server 2013 監視ノードは、次の点を確認するために、企業
   
 1. 監視ノード コンピューターで、[スタート] ボタン、[すべてのプログラム]、[アクセサリ] の順にクリックし、[コマンド プロンプト] を右クリックし、[管理者として実行] をクリックします。
     
-2. コンソール ウィンドウで、次のコマンドを入力し、Enter キーを押します。 Skype for Business Server セットアップ ファイルへの適切なパスを入力してください:D:\Setup.exe /BootstrapLocalMgmt コア Skype for Business Server コンポーネントが正常にインストールされていることを確認するには、[スタート] をクリックし、[すべてのプログラム]をクリックし、[Skype for Business Server **2015] をクリックします。** をクリックし、[管理 **シェルSkype for Business Server] をクリックします**。 [管理シェルSkype for Business Serverに、次のコマンドを入力Windows PowerShell Enter キーを押します。
+2. コンソール ウィンドウで、次のコマンドを入力し、Enter キーを押します。 Skype for Business Server セットアップ ファイルへの適切なパスを入力してください:D:\Setup.exe /BootstrapLocalMgmt コア Skype for Business Server コンポーネントが正常にインストールされていることを確認するには、[スタート] をクリックし、[すべてのプログラム] をクリックし、**Skype for Business Server 2015 をクリック** し、[管理 **シェルSkype for Business Serverクリックします**。 [管理シェルSkype for Business Serverに、次のコマンドを入力Windows PowerShell Enter キーを押します。
   
 ```PowerShell
 Get-CsWatcherNodeConfiguration
@@ -145,7 +145,7 @@ PIN ポリシーに関する情報が表示された場合は、コア コンポ
 
 レポート コンポーネントSkype for Business Serverの設定と同様に、Skype for Business Server 2015 監視ノードには、System Center Operations Manager エージェント ファイルをインストールする必要があります。 これにより、代理トランザクションを実行し、アラートを Operations Manager ルート管理サーバー System Centerレポートできます。
   
-エージェント ファイルをインストールするには、「監視対象のコンピューターを構成する」にSkype for Business Server[手順に従います](configure-computers-to-monitor.md)。
+エージェント ファイルをインストールするには、「監視対象のコンピューターの構成Skype for Business Server[手順に従います](configure-computers-to-monitor.md)。
   
 ## <a name="configure-a-watcher-node-to-run-synthetic-transactions"></a>代理トランザクションを実行する監視ノードを構成する
 <a name="enable_synthetic_trans"> </a>
@@ -182,13 +182,13 @@ New-CsTrustedApplicationPool -Identity atl-watcher-001.litwareinc.com -Registrar
 Get-Help New-CsTrustedApplicationPool -Full | more
 ```
 
-信頼されたアプリケーション プールを作成したら **、New-CsTrustedApplication** コマンドレットと次のようなコマンドを使用して、代理トランザクションを信頼できるアプリケーションとして実行する監視ノード コンピューターを構成できます。
+信頼されたアプリケーション プールを作成したら、 **New-CsTrustedApplication** コマンドレットと次のようなコマンドを使用して、代理トランザクションを信頼できるアプリケーションとして実行する監視ノード コンピューターを構成できます。
   
 ```PowerShell
 New-CsTrustedApplication -ApplicationId STWatcherNode -TrustedApplicationPoolFqdn atl-watcher-001.litwareinc.com -Port 5061
 ```
 
-このコマンドが完了し、信頼できるアプリケーションが作成されると **、Enable-CsTopology** コマンドレットを実行して、変更が有効になります。
+このコマンドが完了し、信頼できるアプリケーションが作成されると、 **Enable-CsTopology** コマンドレットを実行して、変更が有効になります。
   
 ```PowerShell
 Enable-CsTopology

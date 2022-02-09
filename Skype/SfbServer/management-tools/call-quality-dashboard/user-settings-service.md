@@ -1,8 +1,8 @@
 ---
 title: ユーザー 設定 サービス for 通話品質ダッシュボード (CQD)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eafeb54a-2574-415b-b991-a0ff0470d8c3
 description: '概要: 呼び出し品質ダッシュボード設定リポジトリ API の一部である User 設定 サービスについて説明します。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。'
-ms.openlocfilehash: 81abbc31a82fc696a5bcb45faf4120b71fc26f74
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6c1a44eda6443aa4a5048a9d3f035567ce2f5d8d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856584"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398821"
 ---
 # <a name="user-settings-service-for-call-quality-dashboard-cqd"></a>ユーザー 設定 サービス for 通話品質ダッシュボード (CQD)
  

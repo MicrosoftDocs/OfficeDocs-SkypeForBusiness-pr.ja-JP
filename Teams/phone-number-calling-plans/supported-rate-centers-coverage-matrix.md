@@ -1,7 +1,7 @@
 ---
 title: 通話プランでサポートされているレート センターとカバレッジ
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: davlick, julienp
 ms.topic: article
@@ -17,12 +17,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 通話プランでサポートされているレート センターとカバレッジを一覧表示します。
-ms.openlocfilehash: 4287a4acbecaca4b2933cc0308393b6612dff4c8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fd0bdaac0765f2b92c4c81758e166948abe8489a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830791"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398411"
 ---
 # <a name="supported-rate-centers-and-coverage-for-calling-plans"></a>通話プランでサポートされているレート センターとカバレッジ
 

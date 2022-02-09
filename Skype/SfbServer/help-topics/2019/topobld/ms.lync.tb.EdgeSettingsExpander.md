@@ -1,8 +1,8 @@
 ---
 title: エッジ設定エキスパンダー
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 既存の単一サーバー エッジ プールまたは複数サーバー エッジ プールの設定を編集するために、次のセクションが表示されます。
-ms.openlocfilehash: 1f67b701e97b02a5b801d93e2d5757cdff287aa3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 89e23125182f5f413fbad8cbdc3e2a3651f878aa
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855944"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396921"
 ---
 # <a name="edge-settings-expander"></a>エッジ設定エキスパンダー
 
@@ -37,7 +37,7 @@ ms.locfileid: "60855944"
 
 エッジ サーバー プールの内部プールの完全修飾ドメイン名 (FQDN)。この設定を変更するには、プールの FQDN を編集します。
 
-2015 サーバーとフェデレーションをセットアップする場合は、このエッジ プールのフェデレーションを有効にする (ポート **5061)** チェック ボックスをオンSkype for Business Serverします。
+2015 サーバーとフェデレーションをセットアップする場合は、このエッジ プールのフェデレーションを有効にする **(ポート 5061)** チェック ボックスをオンSkype for Business Serverします。
 
 [**内部構成レプリケーション ポート (HTTPS)**] に対してポート番号を指定します。
 

@@ -1,8 +1,8 @@
 ---
 title: 信頼できるアプリケーションの管理
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,16 +11,16 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 信頼済みアプリケーションは、Microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK に基づくアプリケーションで、ユーザーが信頼Skype for Business Server。
-ms.openlocfilehash: d328eab38e44915998d05f3c16c2b1e4e2f1dc33
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ef4f6aed1ec4964ba5f3d9cfed770dae4437b2f8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857474"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398841"
 ---
 # <a name="manage-trusted-applications-in-skype-for-business-server"></a>信頼できるアプリケーションを管理Skype for Business Server
 
-信頼 *済みアプリケーション* は、Microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK に基づくアプリケーションで、ユーザーが信頼Skype for Business Server。 UCMA アプリケーションの詳細については、「Unified Communications Managed API 3.0 Core SDK Documentation」を参照してください https://go.microsoft.com/fwlink/p/?linkId=210320 。
+信頼 *済みアプリケーション* は、Microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK に基づくアプリケーションで、ユーザーが信頼Skype for Business Server。 UCMA アプリケーションの詳細については、「Unified Communications Managed API 3.0 Core SDK Documentation」を参照してください https://go.microsoft.com/fwlink/p/?linkId=210320。
 
 サーバーの役割を追加または削除するときにトポロジを正常に公開、有効化、または無効化するには、RTCUniversalServerAdmins および Domain Admins グループのメンバーであるユーザーとしてログオンする必要があります。 
 
@@ -30,11 +30,11 @@ ms.locfileid: "60857474"
 
 1.  トポロジ ビルダーがインストールされているコンピューターに、Domain Admins グループおよび RTCUniversalServerAdmins グループのメンバーとしてログオンします。
 
-2.  トポロジ ビルダーの開始: [スタート] を **クリック** し、[すべてのプログラム] をクリックし、[Skype for Business Server] を **クリック** し、[トポロジ ビルダー] Skype for Business Server **クリックします**。
+2.  トポロジ ビルダーの開始: [**スタート**] をクリックし、[すべてのプログラム] をクリックし、[Skype for Business Server] を **クリック** し、[トポロジ **ビルダー Skype for Business Serverクリックします**。
 
 3.  [**既存の展開からトポロジをダウンロードする**] を選択し、[**OK**] をクリックします。
 
-4.  [トポロジに **名前を付けて保存** ] ダイアログ ボックスで、使用するトポロジ ビルダー ファイルをクリックし、[保存] を **クリックします**。
+4.  [トポロジに **名前を付けて保存** ] ダイアログ ボックスで、使用するトポロジ ビルダー ファイルをクリックし、[保存] をクリック **します**。
 
 5.  左側のウィンドウで、[信頼済みアプリケーション サーバー] を **右** クリックし、[新しい信頼されたアプリケーション プール **] をクリックします**。
 
@@ -44,7 +44,7 @@ ms.locfileid: "60857474"
 
 8.  [**完了**] をクリックします。
 
-9.  トップ ノードを選択し **Skype for Business Server、[** 操作] メニューの[トポロジの公開]**をクリックします**。
+9.  [トポロジの **一番上Skype for Business Server** 選択し、[操作] メニューの [トポロジの公開] **をクリックします**。
     
     信頼 **済みアプリケーション プールが** 正常に作成され、正しいフロントエンド プールに関連付けられている必要があります。
 
@@ -66,11 +66,11 @@ ms.locfileid: "60857474"
 
 ### <a name="to-view-a-list-of-trusted-applications"></a>信頼できるアプリケーションの一覧を表示するには
 
-1.  CsServerAdministrator、CsAdministrator、CsHelpDesk、または CsViewOnlyAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。 管理者が使用できる定義済みの管理役割の詳細については、「Skype for Business Server アクセス制御[(RBAC)」を参照してください](../plan-your-deployment/security/role-based-access-control-rbac.md)。
+1.  CsServerAdministrator、CsAdministrator、CsHelpDesk、または CsViewOnlyAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。 管理者が使用できる定義済みの管理役割の詳細については、「Skype for Business Server アクセス制御 [(RBAC)」を参照してください](../plan-your-deployment/security/role-based-access-control-rbac.md)。
 
 2.  ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。
 
-3.  左側のナビゲーション バーで、[トポロジ] **をクリックし**、[信頼されたアプリケーション] **をクリックします**。
+3.  左側のナビゲーション バーで、[トポロジ] **をクリックし**、[信頼できるアプリケーション] **をクリックします**。
 
 4.  [信頼できる **アプリケーション] ページ** で、必要に応じて列見出しをクリックしてアプリケーションを並べ替える。
 

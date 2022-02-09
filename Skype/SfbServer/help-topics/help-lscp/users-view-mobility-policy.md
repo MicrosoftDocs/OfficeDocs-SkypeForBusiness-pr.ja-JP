@@ -1,8 +1,8 @@
 ---
 title: ユーザーがモビリティ ポリシーを表示する
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a6df69e2-c374-4a80-8197-5152b7d0b5d2
 description: '[表示 - モビリティ ポリシー] ダイアログには、選択中のモビリティ ポリシーのプロパティが表示されます。'
-ms.openlocfilehash: f4083247d151ea1ec362db7852ce385dca7f52fe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fa581fe1b5aefdaafdfd54ca93c0d817f95e32e7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832271"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395749"
 ---
 # <a name="users-view-mobility-policy"></a>ユーザー: モビリティ ポリシーの表示
 

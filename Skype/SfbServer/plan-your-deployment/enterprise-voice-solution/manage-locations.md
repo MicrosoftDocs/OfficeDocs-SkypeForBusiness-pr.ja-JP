@@ -1,8 +1,8 @@
 ---
 title: SIP トランク サービス プロバイダーの場所を管理Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 description: SIP トランキング プロバイダーを使用した E9-1-1 展開の場所情報データベースまたは同様の外部データベースを計画するために必要なSkype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: 4667ea571fe3bbb022c8dd1ee1483e6195165ec9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0c9adec0a213cfc726464285e93af14905b8dd49
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855294"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398731"
 ---
 # <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>SIP トランク サービス プロバイダーの場所を管理Skype for Business Server
 
@@ -33,9 +33,9 @@ SIP トランキング プロバイダーを使用した E9-1-1 展開の場所�
 
 - 緊急対応員が公的アドレスにたどり着いたときに特定の場所をすぐに特定するように、緊急電話の発信者の場所を特定するわかりやすい名前。この場所名には建物番号、階数、ウイング名、部屋番号などを含めることができます。従業員にしかわからないニックネームは避けてください。そのようなニックネームになっていると、緊急対応員が間違った場所へ行ってしまう可能性があります。
 
-- ユーザーが自分のクライアントが適切な場所をSkype for Businessを簡単に確認するのに役立つ場所識別子。 クライアントSkype for Business、検出された Location フィールドと **City** フィールドをヘッダーに自動的に連結して表示します。 建物の住所を各場所識別子 (たとえば"1st Floor") に追加する方法をお使 \<street number> いください。 番地がないと、「1 階」のような一般的な場所 ID は、市内のすべての建物に該当します。
+- ユーザーが自分のクライアントが適切な場所をSkype for Businessを簡単に確認するのに役立つ場所識別子。 クライアントSkype for Business、検出された Location フィールドと **City** フィールドをヘッダーに自動的に連結して表示します。 建物の住所を各場所識別子 (たとえば"1st Floor") に追加する方法をお使 \<street number>いください。 番地がないと、「1 階」のような一般的な場所 ID は、市内のすべての建物に該当します。
 
-- 場所がワイヤレス アクセス ポイントによって決まるので近似値の場合は **、[Near]** という単語を追加できます (たとえば、「Near 1st Floor 1234」)。
+- 場所がワイヤレス アクセス ポイントによって決まるので近似値の場合は、[ **Near]** という単語を追加できます (たとえば、「Near 1st Floor 1234」)。
 
 > [!NOTE]
 > 中央の場所データベースに追加された場所は、Skype for Business Server 管理シェル コマンドを使用して発行され、プールのローカル ストアにレプリケートされるまで、クライアントが使用できません。 詳細については、「展開」のドキュメントの「[Publishing the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-location-database)」を参照してください。
@@ -54,7 +54,7 @@ SIP トランキング プロバイダーを使用した E9-1-1 展開の場所�
 
 [セカンダリ位置情報サービス] オプションを使用してサードパーティ データベースに接続すると、オフライン プラットフォームを使用して場所をグループ化および管理できます。 この方法の利点は、場所をネットワーク ID に関連付けることに加えて、場所をユーザーに関連付けられることです。 つまり、位置情報サービスは、セカンダリ 位置情報サービスから発信された複数のアドレスを、特定のクライアントにSkype for Businessできます。 その後、ユーザーは最適な場所を選択できます。
 
-位置情報サービスと統合するには、サード パーティのデータベースが Lync Server の場所要求/応答スキーマに従う必要があります。 詳細については  [、「[MS-E911WS]: E911](/openspecs/office_protocols/ms-e911ws/ab5d7449-2c15-434b-bf65-fdf38b8ffabd)サポート プロトコル仕様の Web サービス」を参照してください。 セカンダリ位置情報サービスの展開の詳細については、「[展開」の](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md)ドキュメントの「セカンダリ位置情報サービスを構成する」Skype for Business Serverを参照してください。
+位置情報サービスと統合するには、サード パーティのデータベースが Lync Server の場所要求/応答スキーマに従う必要があります。 詳細については、「  [[MS-E911WS]: E911 サポート プロトコル仕様の Web サービス」を参照してください](/openspecs/office_protocols/ms-e911ws/ab5d7449-2c15-434b-bf65-fdf38b8ffabd)。 セカンダリ位置情報サービスの展開の詳細については、「展開」のドキュメント[](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md)の「セカンダリ位置情報サービスを構成する」Skype for Business Serverを参照してください。
 
 場所データベースへのデータの取り込みの詳細については、「展開」のドキュメントの「[Configure the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database)」を参照してください。
 

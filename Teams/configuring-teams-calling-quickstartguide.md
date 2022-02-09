@@ -1,7 +1,7 @@
 ---
 title: クイック スタート ガイド - 通話プランの構成
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 8/21/2018
 ms.topic: article
@@ -11,7 +11,7 @@ ms.reviewer: rowille, crowe
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 一連のユーザーを起動して実行Microsoft Teamsで通話プランを構成するためのクイック スタート ガイド。
+description: 一連のユーザーを起動して実行Microsoft Teams通話プランを構成するためのクイック スタート ガイド。
 ms.localizationpriority: medium
 ms.collection:
 - M365-voice
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f40136a76de2fcc798c6505883901f79e6f97595
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7be6b946d174241467d2afa1b9d2e30f7946365c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852801"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398441"
 ---
 # <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>クイック スタート ガイド: Microsoft Teams での通話プランの設定
 

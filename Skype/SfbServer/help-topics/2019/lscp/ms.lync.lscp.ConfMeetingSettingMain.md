@@ -1,8 +1,8 @@
 ---
 title: 会議の構成
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 ROBOTS: NOINDEX, NOFOLLOW
 description: 会議の構成設定では、ユーザーが作成できる会議の種類 (いわゆるmeetings) を定義し、匿名ユーザーとダイヤルイン会議ユーザーがこれらの会議に参加する方法 (またはかどうかを) 制御します。 これらの設定はスケジュール設定された会議にのみ適用されます。 クライアントで [今すぐ会議] オプションをクリックして作成されたアドホック会議には適用されません。
-ms.openlocfilehash: 4eb66e999cfc8c3682e0c1f5b54004bf57efa1e7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bdb2dddf5d510ed3024897bc621a4d7def0d88af
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831531"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399331"
 ---
 # <a name="meeting-configuration"></a>会議の構成
 
@@ -50,7 +50,7 @@ ms.locfileid: "60831531"
 
 次の一覧に、このページのコマンドを示します。
 
-- **New** 新しいサイト会議の構成またはプール会議の構成を開始します。
+- **新機能** 新しいサイト会議の構成またはプール会議の構成を開始します。
 
 - **編集** 選択した会議の構成を開き、編集するか、リスト内のすべての会議構成を選択するか、選択したサイト構成またはプール構成を削除します。
 

@@ -1,8 +1,8 @@
 ---
 title: AppSharingStream テーブル
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 391490cb-d7b8-44ca-b4d1-429600da909c
 description: AppSharingStream テーブルには、アプリケーション共有のストリームが使用するネットワークの QoE 測定値が含まれます。 この表は、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: 6bd74e7e67a5292382a09f6a4cba7fb73fb9c100
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 69313a2885f954245460963f119619fb2b91c8d6
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862004"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398531"
 ---
 # <a name="appsharingstream-table"></a>AppSharingStream テーブル
  
@@ -28,7 +28,7 @@ AppSharingStream テーブルには、アプリケーション共有のストリ
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |dateTime  <br/> |主/プライマリ、外部  <br/> |セッションが開始した日時。  <br/> |
 |**SessionSeq** <br/> |int  <br/> |主/プライマリ、外部  <br/> |同じ日付に、同時に開始したセッションを区別する順次識別子。  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |主/プライマリ、外部  <br/> | [「MediaLine テーブル」を参照してください](./medialine-0.md)。 <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |主/プライマリ、外部  <br/> | 「 [MediaLine テーブル」を参照してください](./medialine-0.md)。 <br/> |
 |**StreamID** <br/> |int  <br/> |Primary  <br/> |アプリケーション共有ストリームの一意識別子。  <br/> |
 |**ジッターInterArrival** <br/> |int  <br/> ||RTP パケットの着信間に検出された平均ジッター (ジッターとは、通話の "揺れ" の測定値です)。通常、この値が高い場合は、輻輳やメディア サーバーの過負荷の原因が考えられます。その結果、音声のひずみや欠落が生じます。  <br/> |
 |**ジッターInterArrivalMax** <br/> |int  <br/> ||RTP パケットの着信間に検出された最大ジッター (ジッターとは、通話の "揺れ" の測定値です)。通常、この値が高い場合は、輻輳やメディア サーバーの過負荷の原因が考えられます。その結果、音声のひずみや欠落が生じます。  <br/> |

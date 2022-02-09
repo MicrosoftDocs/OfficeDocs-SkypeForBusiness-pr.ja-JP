@@ -1,8 +1,8 @@
 ---
 title: 帯域幅ポリシー プロファイル 新規の作成または既存の編集
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 7c1d072e-a891-48a9-81c0-3696e372f222
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 9b915a4df217bfab7478f0f10eee37b7fa65d19c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a076441863f46c756f1d4e023591e21c6df0bf2c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828220"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399311"
 ---
 # <a name="bandwidth-policy-profile-create-new-or-edit-existing"></a>帯域幅ポリシーのプロファイル: 新規作成または現在の形式のままで編集
 

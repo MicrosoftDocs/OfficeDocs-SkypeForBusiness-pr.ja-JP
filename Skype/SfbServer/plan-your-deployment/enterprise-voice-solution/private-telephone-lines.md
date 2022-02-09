@@ -1,8 +1,8 @@
 ---
 title: 電話回線を使用してプライベート電話回線を計画Skype for Business
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9cc4f9e1-7b7a-4699-bd05-f16669ef2d21
 description: プライベート (セカンダリ) 電話回線の計画をSkype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: a9054266cc5092f77e0fecd66b71b7180c89018c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0e438615219dd92300390873278132000edd8112
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861084"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397581"
 ---
 # <a name="plan-for-private-telephone-lines-with-skype-for-business"></a>電話回線を使用してプライベート電話回線を計画Skype for Business
  
@@ -88,7 +88,7 @@ Skype for Business Serverを使用すると、プライマリ電話回線に加�
 
  プライベート電話回線を必要とする新しいユーザーのアカウントは、プライベート電話回線のないアカウントと同じ方法で作成され、Skype for Business Serverコントロール パネルまたは管理シェルSkype for Business Server使用します。
   
-Skype for Business Server 管理シェルの **Set-CsUser** コマンドレットを使用して、ユーザーのプライベート電話回線に電話番号を割り当てる (**たとえば、Set-CsUser -Identity "sip:joe@contoso.com" -PrivateLine "Tel:+14255551212"** など)。
+Skype for Business Server 管理シェルの **Set-CsUser** コマンドレットを使用して、ユーザーのプライベート電話回線 (**Set-CsUser -Identity "sip:joe@contoso.com" -PrivateLine "Tel:+14255551212" など)** に電話番号を割り当てる。
   
 プライベート電話回線の電話番号は、3 ~ 15 の番号の長さであり、前に "TEL:" プレフィックスを付けなければならない。 組織で市外局番や国/地域コードに Direct Inward Dialing を使用している場合、その市外局番や国/地域コードを指定できます。 
   

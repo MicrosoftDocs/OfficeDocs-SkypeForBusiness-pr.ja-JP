@@ -1,8 +1,8 @@
 ---
 title: 常設チャット バックアップ SQL Server ストアを追加する
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,24 +15,24 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 106698e4-ce73-4a34-8fc7-e9d3208a17dc
 description: 常設チャット サーバー SQL Server常設チャット サーバー プールのバックアップ データベースを提供するバックアップ サーバー ストアを構成します。
-ms.openlocfilehash: 038e8aff6c905ae60c7f5ed8a1e704cf7961d5dc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 447e1005cc2ac5cc4783a38094e5de8b84a53cc3
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863904"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395719"
 ---
 # <a name="add-persistent-chat-backup-sql-server-store"></a>常設チャット バックアップ SQL Server ストアの追加
  
 常設チャット サーバー SQL Server常設チャット サーバー プールのバックアップ データベースを提供するバックアップ サーバー ストアを構成します。
   
- **SQL Serverストア**: 既存のストアを選択SQL Server、必要に応じて常設チャットのインスタンスを選択します。
+ **SQL Serverストア**: 常設チャットの既存のSQL Server、必要に応じてインスタンスを選択します。
   
-[**新規]** をクリックして新SQL Serverし、必要に応じて常設チャット バックアップ データの新しいインスタンスを定義します。
+[**新規]** をクリックして新しいSQL Serverし、必要に応じて常設チャット バックアップ データの新しいインスタンスを定義します。
   
-[ストア **ミラーリングSQL Server有効** にする] チェック ボックスをオンにして、永続的SQL Serverバックアップ データにミラー化されたデータベースを提供するデータベースとオプションのインスタンスを構成します。
+[ストア **ミラーリングSQL Server有効** にする] チェック ボックスをオンにして、永続的なチャット バックアップ データSQL Serverミラー化されたデータベースを提供する SQL Server データベースとオプションのインスタンスを構成します。
   
-[ミラーリング] リストから選択 **SQL Server、SQL Server** およびオプションのインスタンスを格納して、常設チャット バックアップ SQL Serverミラーとして機能SQL Server。
+[ミラーリング] リストから選択 **SQL Server**、SQL Server常設チャット バックアップ サーバーの SQL Server ミラーとして機能するSQL Server。
   
 [**新規]** をクリックして新しいSQL Serverし、必要に応じて常設チャット の新しいインスタンスをミラーリングSQL Serverします。
   

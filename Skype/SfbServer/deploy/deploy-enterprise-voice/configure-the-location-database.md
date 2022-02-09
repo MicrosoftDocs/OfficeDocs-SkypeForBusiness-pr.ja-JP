@@ -1,8 +1,8 @@
 ---
 title: 場所データベースを構成Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: E9-1-1 の場所データベースを構成、設定、発行Skype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: 8cd4f10a383d279421af6f9152a31f637ee47474
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5ebace7eabe0db04f06611bc9c11263021733367
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851611"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400721"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server"></a>場所データベースを構成Skype for Business Server
  
@@ -33,7 +33,7 @@ E9-1-1 の場所データベースを構成、設定、発行Skype for Business 
   
 - ネットワーク要素と場所のマッピングをデータベースに設定します。 緊急場所識別番号 (ELIN) ゲートウェイを使用する場合は、フィールドに ELIN を含める必要 \<CompanyName\> があります。
     
-    場所データベースにデータを入力しない場合に、[場所ポリシーで必要な場所] が **[** はい] または [免責事項] に設定されている場合、クライアントはユーザーに手動で場所を入力するように求めるメッセージを表示します。
+    場所データベースを設定しない場合に、[場所ポリシーで必要な場所] が **[** はい] または [免責事項] に設定されている場合、クライアントはユーザーに手動で場所を入力するように求めるメッセージを表示します。
     
 - E9-1-1 サービス プロバイダーで保持されている主要道路住所案内 (MSAG) と照らし合わせて住所を確認します。
     
@@ -45,13 +45,13 @@ E9-1-1 の場所データベースを構成、設定、発行Skype for Business 
   
 次の表に示す列形式を含む CSV ファイルを使用して、場所データベースにアドレスを個別に、または一括で追加できます。
   
-緊急場所識別番号 (ELIN) ゲートウェイを使用する場合は、場所ごとに **[CompanyName]** フィールドに ELIN を含める必要があります。 各場所に複数の ELIN を含め、それぞれセミコロンで区切って指定できます。
+緊急場所識別番号 (ELIN) ゲートウェイを使用する場合は、場所ごとに **[CompanyName** ] フィールドに ELIN を含める必要があります。 各場所に複数の ELIN を含め、それぞれセミコロンで区切って指定できます。
   
 |**Network 要素**|**必須の列**|
 |:-----|:-----|
 |**ワイヤレス アクセス ポイント** <br/> |\<BSSID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
 |**Subnet** <br/> |\<Subnet\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
-|**Port** <br/> |\<ChassisID\>,\<PortIDSubType\>,\<PortID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,…  <br/> …\<PreDirectional\>,\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
+|**ポート** <br/> |\<ChassisID\>,\<PortIDSubType\>,\<PortID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,…  <br/> …\<PreDirectional\>,\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
 |**スイッチ** <br/> |\<ChassisID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
    
 ### <a name="to-add-network-elements-to-the-location-database"></a>場所データベースにネットワーク要素を追加するには
@@ -62,7 +62,7 @@ E9-1-1 の場所データベースを構成、設定、発行Skype for Business 
    Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
    ```
 
-    ELIN ゲートウェイの場合は、ELIN を [CompanyName] フィールドに入力します。 複数の ELIN を含めできます。 例:
+    ELIN ゲートウェイの場合は、ELIN を [CompanyName] フィールドに入力します。 複数の ELIN を含めできます。 次に例を示します。
     
    ```powershell
    Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName 425-555-0100; 425-555-0200; 425-555-0300 -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
@@ -120,7 +120,7 @@ E9-1-1 の場所データベースを構成、設定、発行Skype for Business 
 
 ### <a name="to-validate-addresses-located-in-the-location-database"></a>場所データベースにある住所を確認するには
 
-1.  管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
+1.  管理シェルをSkype for Business Serverする **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[**2015** 年Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 2. 次のコマンドレットを実行して、緊急サービス プロバイダーとの接続を構成します。
     
@@ -145,7 +145,7 @@ E9-1-1 の場所データベースを構成、設定、発行Skype for Business 
   
 ### <a name="to-publish-the-location-database"></a>場所データベースを発行するには
 
--  管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
+-  管理シェルをSkype for Business Serverする **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[**2015** 年Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 - 場所データベースを発行するには、次のコマンドレットを実行します。
     

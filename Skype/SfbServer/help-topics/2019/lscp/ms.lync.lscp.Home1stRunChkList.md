@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server コントロール パネルの最初の実行チェックリスト
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 4d0c7306-e87e-464a-82ad-a5537f141500
 ROBOTS: NOINDEX, NOFOLLOW
 description: Web ベースのSkype for Business Server管理用の Web ベースのユーザー インターフェイスであるコントロール パネルへようこそSkype for Business Server。 コントロール パネルを使用して、以前のリリースで Microsoft 管理コンソールを使用して実行された管理タスクの種類を実行できます。
-ms.openlocfilehash: 370a16e901ca36de2143b1727ef84d9c68457e65
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 79a22646c3df3dd0e71fab28e76e0fa4b9701e2e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837259"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400632"
 ---
 # <a name="first-run-checklist-for-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルの最初の実行チェックリスト
 
@@ -29,7 +29,7 @@ Web ベースのSkype for Business Server管理用の Web ベースのユーザ�
 アプリケーションを展開した後に実行することを強く推奨する重要なタスクSkype for Business Server。 これらのタスクの一部は、展開中に既に実行されている可能性がある初期構成手順と、展開中または既定の設定で構成した設定の絞り込みまたは変更です。 このトピックで説明する他のタスクは、展開プロセス中に行った構成を検証します。
 
 > [!NOTE]
-> 次の表のタスクを実行する前に、役割ベースのアクセス制御トピックの「Role and Scope」セクションで説明されているとおり、正しいユーザー権限、アクセス許可[](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-role-based-access-control)、および役割を使用してログオンしてください。
+> 次の表のタスクを実行する前に、役割ベースのアクセス制御トピックの「Role and Scope」セクションで説明されているとおり、正しいユーザー権限、アクセス許可、および[](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-role-based-access-control)役割を使用してログオンしてください。
 
 ## <a name="first-run-checklist"></a>最初の実行チェックリスト
 

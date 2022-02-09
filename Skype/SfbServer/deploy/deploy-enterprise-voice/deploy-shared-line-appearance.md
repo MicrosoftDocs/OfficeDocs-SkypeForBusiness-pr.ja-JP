@@ -1,8 +1,8 @@
 ---
 title: 2015 年に共有回線の外観をSkype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -17,24 +17,24 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
 description: このトピックでは、2015 年 11 月 2015 年 11 月の累積的な更新プログラムで共有回線の外観 (SLA) を展開するSkype for Business Server説明します。 SLA は、共有番号と呼ばれる特定の番号で複数の呼び出しを処理する機能です。
-ms.openlocfilehash: e79bb427c28f2c0e8dcc3ff7b5e0d1f6319ac7d8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5adf5934e93bd93fe9f50c0a8e4dd790c695da57
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835945"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397487"
 ---
 # <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>2015 年に共有回線の外観をSkype for Business Server
 
 このトピックでは、2015 年 11 月 2015 年 11 月の累積的な更新プログラムで共有回線の外観 (SLA) を展開するSkype for Business Server説明します。 SLA は、共有番号と呼ばれる特定の番号で複数の呼び出しを処理する機能です。
 
-この機能の詳細については[、「Plan for Shared Line appearance in Skype for Business Server 2015」を参照](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md)してください。
+この機能の詳細については、「[Plan for Shared Line appearance in Skype for Business Server 2015」を参照](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md)してください。
 
 共有回線の外観 (SLA) は、2015 年 11 月 2015 年 11 月の累積的な更新プログラムSkype for Business Server新機能です。 この機能を有効にするには、最初にこの累積的な更新プログラムを展開している必要があります。
 
 ### <a name="install-shared-line-appearance"></a>共有行の外観をインストールする
 
-1. 2015 Skype for Business Server 2015 年 11 月の累積的な更新プログラムが展開された後、プール内の各フロント エンド サーバーでこの更新プログラム `SkypeServerUpdateInstaller.exe` を実行します。
+1. 2015 Skype for Business Server 2015 `SkypeServerUpdateInstaller.exe` 年 11 月の累積的な更新プログラムが展開された後、プール内の各フロント エンド サーバーでこの更新プログラムを実行します。
 
 2. インストーラーは SLA アプリケーションの最新バージョンを展開しますが、アプリケーションは既定では有効になっていません。 この機能は、以下に示す手順に従って有効になります。
 
@@ -79,9 +79,9 @@ ms.locfileid: "60835945"
     新しい SLA グループSet-CsSlaConfiguration既存の SLA グループを変更する場合は、このグループを使用します。
 
     > [!NOTE]
-    > 指定する項目は、有効な既存のユーザー アカウント `-Identity` エンタープライズ VoIP必要があります。
+    > 指定する項目は、`-Identity`有効な既存のユーザー アカウントエンタープライズ VoIP必要があります。
 
-2. [Add-CsSlaDelegates](/powershell/module/skype/add-cssladelegates?view=skype-ps)コマンドレットを使用してグループに代理人を追加します。
+2. [Add-CsSlaDelegates](/powershell/module/skype/add-cssladelegates?view=skype-ps) コマンドレットを使用してグループに代理人を追加します。
 
    ```powershell
    Add-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate
@@ -98,13 +98,13 @@ ms.locfileid: "60835945"
 
 ### <a name="configure-the-sla-group-busy-option"></a>SLA グループのビジー オプションの構成
 
-- [Set-CsSlaConfiguration](/powershell/module/skype/set-csslaconfiguration?view=skype-ps)コマンドレットを使用して SLA グループのビジー オプションを構成します。
+- [Set-CsSlaConfiguration コマンドレットを使用して SLA グループのビジー オプションを構成](/powershell/module/skype/set-csslaconfiguration?view=skype-ps)します。
 
   ```powershell
   Set-CsSlaConfiguration -Identity <IdentityOfGroup> -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
   ```
 
-    次の使用例は、電話番号 202-555-1234 に転送する同時呼び出しの最大数を超える呼び出しを設定します。 ターゲットは、電話番号の代わりに組織内のユーザーである可能性があります。その場合、転送された呼び出しを受信するユーザーの構文は、代理人を指定した場合と同じです  `sip:<NameofDelegate@domain>` 。 もう 1 つのパラメーターは  `BusyOption` 次の場合です `Voicemail` 。
+    次の使用例は、電話番号 202-555-1234 に転送する同時呼び出しの最大数を超える呼び出しを設定します。 ターゲットは、電話番号の代わりに組織内のユーザーである可能性があります。その場合、転送された呼び出しを受信するユーザーの構文は、代理人を指定した場合と同じです。 `sip:<NameofDelegate@domain>` もう 1 つのパラメーターは次  `BusyOption` の場合です `Voicemail`。
 
   ```powershell
   Set-CsSlaConfiguration -Identity SLAGroup1 -BusyOption Forward -Target tel:+2025551234
@@ -112,13 +112,13 @@ ms.locfileid: "60835945"
 
 ### <a name="configure-the-sla-group-missed-call-option"></a>SLA グループの [通話不足] オプションを構成する
 
-1. [Set-CsSlaConfiguration](/powershell/module/skype/set-csslaconfiguration?view=skype-ps)コマンドレットを使用して、SLA グループの [Missed Call Option] を構成します。
+1. [Set-CsSlaConfiguration コマンドレットを使用して、SLA グループの [Missed Call Option] を構成](/powershell/module/skype/set-csslaconfiguration?view=skype-ps)します。
 
    ```powershell
    Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MissedCallOption <Option> -MissedCallForwardTarget <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
    ```
 
-2. 次の使用例は、呼び出しの欠落をという名前のユーザーに転送する場合に指定します  `sla_forward_number` 。 パラメーターの有効なオプション  `-MissedCallOption` は、 `Forward`  `BusySignal` または  `Disconnect` です。 選択した場合  `Forward` は、ユーザーまたは電話番号をターゲットとして  `-MissedCallForwardTarget` パラメーターも含める必要があります。
+2. 次の使用例は、呼び出しの欠落をという名前のユーザーに転送する場合に指定します  `sla_forward_number`。 パラメーターの有効なオプションは`-MissedCallOption`、`Forward``BusySignal`またはです`Disconnect`。 選択した場合は  `Forward`、ユーザーまたは  `-MissedCallForwardTarget` 電話番号をターゲットとしてパラメーターも含める必要があります。
 
    ```powershell
    Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com -BusyOption Forward -MaxNumberOfCalls 2 -Target sip:sla_forward_number@contoso.com
@@ -126,13 +126,13 @@ ms.locfileid: "60835945"
 
 ### <a name="remove-a-delegate-from-a-group"></a>グループから代理人を削除する
 
-- [Remove-CsSlaDelegates](/powershell/module/skype/remove-cssladelegates?view=skype-ps)コマンドレットを使用して、グループから代理人を削除します。
+- [Remove-CsSlaDelegates](/powershell/module/skype/remove-cssladelegates?view=skype-ps) コマンドレットを使用して、グループから代理人を削除します。
 
   ```powershell
   Remove-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate <NameOfDelegate@domain>
   ```
 
-    例:
+    次に例を示します。
 
   ```powershell
   Remove-CsSlaDelegates -Identity SLAGroup1 -Delegate sip:SLA_Delegate3@contoso.com

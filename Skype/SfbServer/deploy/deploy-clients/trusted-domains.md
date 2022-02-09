@@ -1,7 +1,7 @@
 ---
-title: SkypeRoom System の信頼されたドメイン
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skypeルーム システムの信頼できるドメイン
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,14 +12,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9fb63ad4-6eda-4724-be63-10bf5e65cb2b
 description: このトピックでは、Room System および Skypeの信頼できるドメインを構成するSkype for Business。
-ms.openlocfilehash: 488b86e33035b39a1e189be7cc9191911250152e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f3ea0557c22214addd0f7cc4d935af919a131ae1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830741"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399931"
 ---
-# <a name="skype-room-system-trusted-domains"></a>SkypeRoom System の信頼されたドメイン
+# <a name="skype-room-system-trusted-domains"></a>Skypeルーム システムの信頼できるドメイン
  
 このトピックでは、Room System および Skypeの信頼できるドメインを構成するSkype for Business。
   

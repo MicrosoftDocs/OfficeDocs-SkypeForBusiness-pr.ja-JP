@@ -1,7 +1,7 @@
 ---
-title: SkypeRoom System Skype for Business ソフトウェア ライセンス
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype Room System Skype for Business ソフトウェア ライセンス
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
 description: このトピックを参照して、ソフトウェア ボリューム ライセンスをSkype for Businessする方法について説明します。
-ms.openlocfilehash: 805a9abb6d4d49e653e779edc1d9e1cfb8d2a6ca
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0e8fcc9b4dc9dec481af7b0a1d976d590c40def0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845970"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399991"
 ---
-# <a name="skype-room-system-skype-for-business-software-license"></a>SkypeRoom System: Skype for Business ソフトウェア ライセンス
+# <a name="skype-room-system-skype-for-business-software-license"></a>Skype ルーム システム: Skype for Business ソフトウェア ライセンス
  
 このトピックを参照して、ソフトウェア ボリューム ライセンスをSkype for Businessする方法について説明します。 
   
-SkypeRoom System はインストール済みのSkype for Businessクライアントを使用します。ソフトウェア ボリューム ライセンスが必要です。 最初の Skype Room System を展開する前に、キー管理サーバー (KMS) または複数のライセンス認証キー (MAK) を使用して、展開のボリューム ライセンス状態を確認します。
+Skype Room System はインストールされたクライアントSkype for Business使用します。ソフトウェア ボリューム ライセンスが必要です。 最初の Skype Room System を展開する前に、キー管理サーバー (KMS) または複数のライセンス認証キー (MAK) を使用して、展開のボリューム ライセンス状態を確認します。
   
 ## <a name="key-management-servers-kms"></a>キー管理サーバー (KMS)
 
@@ -31,7 +31,7 @@ SkypeRoom System はインストール済みのSkype for Businessクライアン
   
 コマンド プロンプトから、次のコマンドを実行します。  `nslookup -type=srv _vlmcs._tcp >%temp%\kms.txt`
   
-KMSを設定するには[、「KMS 2013](/previous-versions/office/office-2013-resource-kit/ee624357(v=office.15))の Office ライセンス認証」と「KMS [2013](/DeployOffice/vlactivation/gvlks)の Active Directory ライセンス認証Office」を参照してください。
+KMSを設定するには、「[KMS 2013](/previous-versions/office/office-2013-resource-kit/ee624357(v=office.15)) の Office ライセンス認証と 2013 年の [KMS および Active Directory](/DeployOffice/vlactivation/gvlks) のライセンス認証Officeしてください。
   
 Office 2013 Lync の汎用ボリューム ライセンス キー: 2MG3G-3BNTT-3MFW9-KDQW3-TCK7R (このキーにより、Skype Room System はネットワーク上の KMS を探します)。
   

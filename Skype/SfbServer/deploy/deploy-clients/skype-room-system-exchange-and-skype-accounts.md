@@ -1,7 +1,7 @@
 ---
 title: ルーム システム SkypeアカウントとExchangeアカウントSkypeプロビジョニング
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -13,22 +13,22 @@ ms.localizationpriority: medium
 ms.assetid: fa71a2da-2cc9-4ad1-8ec9-08d1c9c5247a
 ms.collection: M365-voice
 description: これらのトピックを参照して、ルーム システムのExchangeアカウントSkypeするSkype説明します。
-ms.openlocfilehash: fe92f11882ae2d4dcd3ddd509f747f310fd25e6f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: efc553924ed6631ad3583dd79d616b7ee0a7f050
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837389"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399951"
 ---
 # <a name="provisioning-of-skype-room-system-exchange-and-skype-accounts"></a>ルーム システム SkypeアカウントとExchangeアカウントSkypeプロビジョニング
  
 これらのトピックを参照して、ルーム システムのExchangeアカウントSkypeするSkype説明します。 
 
 > [!NOTE]
-> Microsoft Teams会議室は、依存関係と展開手順が異なる別の製品です。 会議室の詳細については、「Microsoft Teamsの展開の概要Microsoft Teams」を[参照してください](/MicrosoftTeams/rooms/rooms-deploy)。
+> Microsoft Teams Rooms は、依存関係と展開手順が異なる別の製品です。 会議室の詳細については、「Microsoft Teamsの展開のMicrosoft Teams」[を参照してください](/MicrosoftTeams/rooms/rooms-deploy)。
   
 > [!NOTE]
-> SkypeRoom System アカウントのプロビジョニングは、組織が持つトポロジの種類によって異なります。 Active Directory トポロジの詳細については、「環境要件[for Skype for Business Server 2015」を参照](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)してください。 
+> Skypeシステム アカウントのプロビジョニングは、組織が持つトポロジの種類によって異なります。 Active Directory トポロジの詳細については、「環境要件 [for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)」を参照してください。 
   
 ## <a name="provisioning-of-skype-room-system-exchange-amp-skype-for-business-accounts"></a>ルーム システム Skype アカウントの &amp; Exchange Skype for Businessする
 
@@ -42,6 +42,6 @@ ms.locfileid: "60837389"
     
 - ハイブリッド展開
     
-- SkypeRoom System と Skype for Businessフェデレーション パートナー
+- Skypeシステムとフェデレーション Skype for Businessパートナー
     
 - Skype Room System アカウントの管理

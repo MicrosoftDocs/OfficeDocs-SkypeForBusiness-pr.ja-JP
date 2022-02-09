@@ -1,8 +1,8 @@
 ---
 title: 変換ルール 正規表現を入力する
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,18 +14,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 5ee83724-b399-4f8d-8f6d-4b53a26296b4
-description: '[このパターンを照合] フィールドで、変換する番号を照合するために使用するパターンを指定します。 [変換ルール] フィールドで、変換される番号の形式のパターンを指定します。 たとえば、[このパターンの一致] フィールドに ^ (\d \d+)$ を入力し、[変換ルール] フィールドに \+ 011$1 を入力すると、ルールは +441235551010 から 011441235551010 に変換されます。 {9}'
-ms.openlocfilehash: baeefedfdf25ccaaf4ac82e936152fd73ad62066
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: '[このパターンを照合] フィールドで、変換する番号を照合するために使用するパターンを指定します。 [変換ルール] フィールドで、変換される番号の形式のパターンを指定します。 たとえば、[このパターンの一致] フィールドに ^\+(\d\d\d+)$ と入力し、[変換ルール] フィールドに 011$1 を入力すると、ルールは +441235551010{9} から 011441235551010 に変換されます。'
+ms.openlocfilehash: 6018784593c45711e012a3855bcc18b274a0bbc2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844630"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410180"
 ---
 # <a name="translation-rule-type-a-regular-expression"></a>変換ルール: 正規表現の入力
  
-[**このパターンを照合**] フィールドで、変換する番号を照合するために使用するパターンを指定します。 [**変換ルール**] フィールドで、変換される番号の形式のパターンを指定します。 たとえば、[このパターンの一致] フィールドに ^ (\d \d+)$ を入力し、[変換ルール] フィールドに \+ {9} 011$1を入力すると、ルールは +441235551010 を 011441235551010 に変換します。
+[**このパターンを照合**] フィールドで、変換する番号を照合するために使用するパターンを指定します。 [**変換ルール**] フィールドで、変換される番号の形式のパターンを指定します。 たとえば、[このパターンの一致] フィールドに ^\+(\d\d\d+)$ を入力し、[変換ルール] フィールドに 011$1 を入力すると、ルールは +441235551010{9} を 011441235551010 に変換します。
   
-コントロール パネルを使用して実行できるさまざまな手順の詳細については、「Skype for Business Server [2015」](../../manage/manage.md)を参照Skype for Business Serverしてください。
+コントロール パネルを使用して実行できるさまざまな手順の詳細については、「Skype for Business Server [2015](../../manage/manage.md)」を参照Skype for Business Serverしてください。
   
 

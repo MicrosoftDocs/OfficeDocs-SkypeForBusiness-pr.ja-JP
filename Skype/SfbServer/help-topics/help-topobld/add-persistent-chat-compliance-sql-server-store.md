@@ -1,8 +1,8 @@
 ---
 title: 常設チャット コンプライアンス SQL Server ストアの追加
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,24 +15,24 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b9771b53-e19a-4a12-bf01-24bae6f7e482
 description: 常設チャット サーバーまたは常設チャット SQL Serverのコンプライアンス機能にデータベースを提供するコンプライアンス ストアを構成します。
-ms.openlocfilehash: af6915193afc095ae5ce8cef087bbc652555e9b3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9335165bf1aa59227fe1b29103bcad0860cda541
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857634"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395699"
 ---
 # <a name="add-persistent-chat-compliance-sql-server-store"></a>常設チャット コンプライアンス SQL Server ストアの追加
  
 常設チャット サーバーまたは常設チャット SQL Serverのコンプライアンス機能にデータベースを提供するコンプライアンス ストアを構成します。
   
- **SQL Serverストア**: 既存のストアを選択SQL Server、必要に応じて常設チャットのインスタンスを選択します。
+ **SQL Serverストア**: 常設チャットの既存のSQL Server、必要に応じてインスタンスを選択します。
   
 [**新規]** をクリックして新しいSQL Serverし、必要に応じて常設チャット コンプライアンス データの新しいインスタンスを定義します。
   
 [ストア **ミラーリングSQL Server** 有効にする] チェック ボックスをオンにして、永続的なチャット コンプライアンス データSQL Serverミラー化されたデータベースを提供する SQL Server データベースとオプションのインスタンスを構成します。
   
-[ミラーリング] リストから選択 **SQL Server、SQL Server** およびオプションのインスタンスを格納し、常設チャット コンプライアンス SQL Serverミラーとして機能SQL Server。
+[ミラーリング] リストから選択 **SQL Server**、SQL Server常設チャット コンプライアンス サーバーの SQL Server ミラーとして機能するオプションのインスタンスを格納SQL Server。
   
 [**新規]** をクリックして新しいSQL Serverし、必要に応じて常設チャット の新しいインスタンスをミラーリングSQL Serverします。
   

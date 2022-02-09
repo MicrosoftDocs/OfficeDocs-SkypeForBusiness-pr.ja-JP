@@ -1,167 +1,54 @@
 ---
 title: 管理センター称賛アプリをTeamsする
-author: HowlinWolf-92
-ms.author: v-mahoffman
-manager: serdars
-ms.reviewer: jozhuan
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
+ms.reviewer: rjam
 audience: admin
 ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
-description: 管理センターの 称賛 アプリの管理者設定Microsoft Teams確認する
-ms.openlocfilehash: 044ab5d7fc5aebba1b1245f349e4ed27c61190b6
-ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
+description: 管理センターで称賛アプリを管理Microsoft Teamsします。
+ms.openlocfilehash: 064a1b90db44971e2fd796ea96de2a3523f7f380
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "61513458"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401611"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>管理センター称賛アプリをMicrosoft Teamsする
 
-> [!NOTE]
-> 管理者は、この機能にアクセスTeamsライセンスを持っている必要があります。 ライセンスなしでこの機能にアクセスTeams、エラー メッセージが表示されます。
+この称賛アプリはMicrosoft Teams、ユーザーが組織または教室のメンバーに感謝の気持ちを示すのに役立ちます。 称賛 のバッジは、教師からフロントライン ワーカーまで、Teams ユーザーが行う幅広い作業に取り組む作業を認識するのに役立ちます。 詳細については、「ユーザーにメールを[送信称賛」を参照してください](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)。
 
-称賛アプリはMicrosoft Teams、ユーザーが自分の組織または教室のメンバーに感謝の気持ちを示すのに役立ちます。 選択できるバッジ セットと独自のバッジを作成するオプションにより、称賛 は、教師から Frontline Worker まで、Teams ユーザーが行う幅広い作業に取り組む作業を認識するのに役立ちます。 詳細については、「ユーザーにメールを[送信称賛」を参照してください](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)。
-
-管理者は、管理センターから組織が使用できるバッジMicrosoft Teamsできます。 左側のナビゲーションで、[アプリの管理] **Teams アプリ> に移動します**。 アプリの一覧で [アプリ]**をクリック称賛** し、[]**を** 設定。  ここから、既定の組み込みのバッジ セットを有効にし、カスタム バッジを作成することができます。
-
-![アプリの [設定] タブ称賛スクリーンショット。](media/manage-praise-app-settings.png)
+管理者は、この機能にアクセスTeamsライセンスを持っている必要があります。 ライセンスなしでこの機能にアクセスTeams、エラー メッセージが表示されます。
 
 > [!NOTE]
 > この称賛はクラウド環境GCC使用できますが、High または DoD ではGCC使用できません。
 
-## <a name="use-built-in-badge-sets"></a>組み込みのバッジ セットを使用する
+## <a name="enable-or-disable-praise-in-your-organization"></a>組織内の称賛を有効または無効にする
 
-組み込みセットは、Microsoft によって設計されたバッジのコレクションで、称賛されます。 これらのセットは管理者が編集できません。 既定のバッジ セットは既に有効であり、称賛できます。 既定のセットまたはバッジ セットの可用性を変更するには、対応するトグルを [オン] または [オフ] に切り替えます。 
+称賛組織内のすべてのユーザーに対して既定Teams有効になっています。 組織レベルでアプリをオフまたはオンにするには、Microsoft Teams 管理センターの [[アプリの管理]](manage-apps.md) ページで行います。
 
-<a name="default-badges"></br></a>
+:::image type="content" source="media/manage-praise-app-admin-center.png" alt-text="管理センター称賛アプリの詳細ページのスクリーンショットTeams状態] トグルが表示されています。":::
 
-### <a name="default-badges"></a>既定のバッジ
+1. Microsoft Teams 管理センターの左側のナビゲーションで、**[Teams アプリ]** > **[アプリを管理]** の順に移動します。
+2. アプリの一覧で、称賛 アプリを検索して選択し、[状態] トグルを [ブロック] または  [許可]  に **切り替えます**。
 
-既定のバッジ セットは、他のユーザーがTeamsを超えて作業を行うユーザーを認識するのに役立ちます。
+この設定は、アプリ内の 称賛 アプリと 称賛 アプリの 称賛 機能の両方に影響インサイトにTeams。
 
-![既定のバッジ セットのプレビュー。](media/default-set-praise.png)
+## <a name="enable-or-disable-praise-for-specific-users-in-your-organization"></a>組織内の特定の称賛の設定を有効または無効にする
 
-<a name="sel-edu-badges"></br></a>
+組織内の特定のユーザーが 称賛 の使用を許可またはブロックするには、[アプリの管理] ページで称賛が組織に対して有効[になっていることを確認](manage-apps.md)します。 次に、カスタム アプリのアクセス許可ポリシーを作成し、それらのユーザーに割り当てる必要があります。 詳細については、「[Teams のアプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md)」を参照してください。
 
-### <a name="social-and-emotional-learning-badges-for-education"></a>教育用のソーシャルおよび感情的な学習バッジ
+## <a name="badges"></a>バッジ
 
-教師は、ソーシャルおよび感情学習 (SEL) の実績と行動について、これらの概念を示すバッジを使用して個々の学生を認識できます。
+次に示すのは、称賛 の既定のバッジ セットです。 Teams内のユーザーは、これらのバッジを使用して、仕事を超えて行く同僚を認識できます。
 
-![教育用のソーシャルおよび感情的な学習バッジのプレビュー。](media/sel-edu-set-praise.png)
-
-<a name="create-your-own-badges"></br></a>
-
-## <a name="create-your-own-badges"></a>独自のバッジを作成する
-
-[カスタム **バッジの作成] を選択します**。 ここから、サイド パネルでカスタム バッジをデザインできます。 最大 25 のカスタム バッジを作成できます。 
-
-![[カスタム バッジの作成] ウィンドウのスクリーンショット。](media/manage-praise-app-create-custom-badge.png)
-
-1. バッジ名を入力します。 これは、ユーザーが称賛を送信するときにバッジに表示される名前です。
-
-2. バッジの色を設定します。 バッジのテキストと背景色を設定するには、16 進数 (16 進) 値として色を入力する必要があります。
-
-   > [!TIP]
-   > 16 進値を初めから使用する場合[](#hex-colors-intro)は、その使い方を簡単に説明します。
-
-3. アップロード画像を作成します。 受け入れられるファイルの種類は.PNG。 イメージ ファイルは 40 KB 未満で、最大サイズは 216 X 216 ピクセルである必要があります。
-![背景、テキスト、画像のフィールドにラベルが付いたバッジ。](media/praise-app-badge-fields.png)
-
-4. バッジ名をローカライズする: [ローカライズされたバッジ **名] で、[** 追加] を **選択します**。 ドロップダウン リストから目的のロケールを選択します。 次に、指定された言語でバッジ名を入力します。
-
-5. 特定の地域からバッジを除外する: [これらの地域から **バッジ** を除外する] で、[追加] を **選択します**。 ドロップダウン リストから除外する地域を選択します。
-
-6. **[適用]** を選択します。 これで、新しいバッジがカスタム バッジ テーブルに表示されます。
+:::image type="content" source="media/default-set-praise.png" alt-text="既定のバッジ セット内のバッジの画像。":::
 
 > [!NOTE]
-> 手順 4 と 5 がスキップされた場合、バッジは、すべての地域の既定の言語になります。
->
-> バッジの選択に変更を加えるのが完了したら、[送信] を選択 **します**。 組織でこれらの変更を利用するには、最大で数時間かかる場合があります。
+> 2022 年 2 月より、ユーザーは既定のバッジのみを送受信できます。 カスタム バッジは使用できなくなりました。カスタム バッジのオプションは、設定管理センターのアプリの Teamsから削除されます。
 
-<a name="hex-colors-intro"></br></a>
+## <a name="related-articles"></a>関連記事
 
-## <a name="specify-colors-with-hex-values"></a>16 進値を使用して色を指定する
-
-16 進カラー値は、00 から FF のスケールで特定の色の赤 (RR)、緑 (GG)、青 (BB) の強度を表す 6 桁の 16 進数の文字列です。 3 色すべての値をまとめて入力すると、16 進数の値が表示#RRGGBB
-
-たとえば、赤色の 16 進値は #FF0000 です。赤は可能な限り高い値に設定され、FF、緑、青は、それぞれ可能な限り小さい値 00 に設定されます。
-
-さまざまな色とその 16 進値を調Bing[を確認してください](https://www.bing.com/search?q=color+picker)。
-
-使用を開始する色の例を次に示します。
-
-|色  |16 進値|
-|-------|---------|
-|![16 進数#FF6666。](media/hexColor1.png)|  #FF6666   |
-|![16 進数#7FFFD4。](media/hexColor2.png)|  #7FFFD4   |
-|![16 進数#FF75F0。](media/hexColor3.png)|  #FF75F0   |
-|![16 進数#00BFFF。](media/hexColor4.png)|  #00BFFF   |
-|![16 進数の色 #800080。](media/hexColor5.png)|  #800080   |
-|![16 進数の色 #000000。](media/hexColor6.png)|  #000000   |
-
-<a name="best-practices"></br></a>
-
-## <a name="best-practices-for-creating-custom-badges"></a>カスタム バッジを作成するためのベスト プラクティス
-
-**すべてのバッジを一度に送信します。** 新しいバッジが処理されるのに時間がかかるため、提出する前に、すべてのカスタム バッジをテーブルに追加する必要があります。
-
-**色を選択する場合は、アクセシビリティに考慮してください。** 一部の色は、他の色よりも優れた組み合いです。  テキストと背景色のコントラストを作成して、バッジ名を読みやすくします。 たとえば、濃い背景色を選んだ場合は、明るいテキストの色を選ぶとします。
-
-**画像を選択する場合は、バッジのサイズを念頭に置きます。** 最適な品質を得る場合は、216 x 216 ピクセル (最大サイズ) のイメージ ファイルをアップロードすることをお勧めします。 これらのサイズに合わせて画像を拡大または歪ませて表示しないようにします。
-
-**バッジ画像が四角形ではない場合は、画像を透明にします。** イメージ ファイルをアップロードする前に、この操作を行う称賛。
-
-![左: 透明でない画像を含むバッジ、右: 透明な画像を含むバッジ。](media/praise-app-best-practices.png)
-
-## <a name="badge-set-assets"></a>バッジ セットアセット
-
-組み込みのバッジ セットは変更できません。そのため、組み込みセットが有効になっている場合、セット内のすべてのバッジが 称賛されます。 組み込みのセットから特定のバッジを追加し、他のバッジを削除する場合は、カスタム バッジとして使用するバッジを再作成します。 バッジ画像をダウンロードし、次の表の組み込みセットからバッジのテキストと背景色を見つけることができます。
-
-### <a name="default-badges-assets"></a>既定のバッジ アセット
-
-</br>
-
-|バッジ名     |イメージ ファイル  |テキストの色 | 背景色 |
-|---------------|------------|---------- |--------|
-|Achiever       |[Achiever PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/achiever-badge.png)|#D36E70    |#E3F4FC|
-|すごい        |[Awesome PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/awesome-badge.png)</a>|#8283B2    |#D1EFF2|
-|コーチ          |[コーチ PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/coach-badge.png)</a>|#6AA55A    |#DBF1D6|
-|しだい        |[しだい PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/courage-badge.png)</a>|#DC5041    |#FCF6C8|
-|クリエイティブ       |[Creative PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/creative-badge.png) |#CF9D50    |#FCF6C8|
-|包括的      |[包括的な PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/inclusive-badge.png)</a>|#3C77BB    |#E2F4FC|
-|Kind Heart     |[Kind Heart PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/kind-heart-badge.png)</a>|#D36D6E    |#F4DEDE|
-|リーダーシップ     |[リーダーシップ PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/leadership-badge.png)|#419098    |#D2EAEC|
-|オプティミム       |[オプティミム PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/optimism-badge.png)</a>|#D8338C    |#F4DDDE|
-|問題の解決 |[問題解決の PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/problem-solver-badge.png)|#B8916E    |#CBDADF|
-|チーム プレイヤー    |[チーム プレイヤー PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/team-player-badge.png)|#8B8DC0    |#F4EEC0|
-|ありがとう      |[PNG ありがとうございます](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/thank-you-badge.png)|#469CA4    |#BACCB6|
-
-</br>
-
-### <a name="social-and-emotional-learning-badges-for-education-assets"></a>教育資産のソーシャルおよび感情的な学習バッジ
-
-</br>
-
-|バッジ名        |イメージ ファイル  |テキストの色 | 背景色 |
-|------------------|------------|---------- |--------|
-|コミュニケーション     |[通信 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/communication-badge.png)|#FFFFFF    |#173B65|
-|重大な思考 |[クリティカル な思考の PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/critical-thinking-badge.png)|#FFFFFF    |#084D26|
-|大自然         |[しなやか PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/curiosity-badge.png)|#FFFFFF    |#008078|
-|共感           |[Empathy PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/empathy-badge.png)|#FFFFFF    |#650B35|
-|目標達成      |[ゴール パトゴール PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/goal-pursuit-badge.png)|#FFFFFF    |#006F95|
-|動機        |[動機 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/motivation-badge.png)|#FFFFFF    |#C52127|
-|永続化       |[永続化 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/persistence-badge.png)|#FFFFFF    |#167D3E|
-|尊重           |[PNG を尊重する](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/respect-badge.png)|#FFFFFF    |#8251A0|
-|責任    |[Responsibility PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/responsibility-badge.png)|#FFFFFF    |#B05DA3|
-|自己認識    |[自己認識 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/self-awareness-badge.png)|#FFFFFF    |#1680E5|
-|自己管理   |[自己管理 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/self-management-badge.png)|#FFFFFF    |#4C144D|
-|思いやり    |[思いやりの PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/thoughtfulness-badge.png)|#FFFFFF    |#EE4086|
-
-## <a name="upcoming-changes"></a>今後の変更
-
-2022 年 1 月から、バッジで現在利用可能な機能が変更されます。 自己認識や自己管理を含む教育用のソーシャルおよび感情的な学習バッジは使用できなくなりました。
-
-[**カスタム バッジの作成**]   オプションは、2022 年 1 月の提供を終了します。
-
-さらに、称賛を許可またはブロックする Teams 管理センターの [状態] トグルは、Teams の 称賛 アプリと 称賛 アプリの インサイト 称賛 機能の両方に影響します。
+[管理センターでアプリをMicrosoft Teamsする](manage-apps.md)

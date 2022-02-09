@@ -1,8 +1,8 @@
 ---
 title: キューブの取得
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c8eeb387-dc1e-44e0-bbf9-a566f8bda551
 description: '概要: 呼び出し品質ダッシュボードのデータ API の一部であるキューブの取得操作について説明します。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。'
-ms.openlocfilehash: 961453404d4abe4f026f240cd03e59a3b4c82993
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c4ddf8c685d4678791a5b63869e75151acdf401f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827500"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396329"
 ---
 # <a name="get-cube"></a>キューブの取得
  
@@ -33,7 +33,7 @@ Get Cube 操作は、使用可能なディメンションと測定値の一覧�
 
 |**メソッド**|**要求 URI**|**HTTP バージョン**|
 |:-----|:-----|:-----|
-|GET  <br/> |https:// \<portal\> /QoEDataService/Cubestructure  <br/> |HTTP/1.1  <br/> |
+|GET  <br/> |\<portal\>https:///QoEDataService/CubeStructure  <br/> |HTTP/1.1  <br/> |
    
  **URI パラメーター** - なし。
   

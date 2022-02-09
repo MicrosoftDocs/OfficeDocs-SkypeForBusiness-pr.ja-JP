@@ -1,8 +1,8 @@
 ---
 title: ボイス メールExchange Serverユニファイド メッセージングSkype for Business Server構成する
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/11/2019
 audience: ITPro
@@ -14,21 +14,21 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: '概要: ボイス メールExchange Serverユニファイド メッセージングSkype for Business Server構成します。'
-ms.openlocfilehash: e434309c67469ccaa6994ec90cb3431b9de4f13b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b1e16329a72e17eb32fa9eca686bf0bee7a9c939
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865284"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398277"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>ボイス メールExchange Serverユニファイド メッセージングSkype for Business Server構成する
  
 **概要:** ボイス Exchange Serverユニファイド メッセージングSkype for Business Server構成します。
   
-Skype for Business Serverでは、ボイスメール メッセージを 2016 年または 2013 年Exchange Serverに保存Exchange Serverできます。これらのボイスメール メッセージは、ユーザーの受信トレイに電子メール メッセージとして表示されます。 
+Skype for Business Serverでは、Exchange Server 2016 または Exchange Server 2013 にボイスメール メッセージを保存できます。これらのボイスメール メッセージは、ユーザーの受信トレイに電子メール メッセージとして表示されます。 
 
 > [!NOTE]
-> Exchange以前に知られているユニファイド メッセージングは Exchange 2019 では使用できなくなりましたが、引き続き 電話システム を使用してボイスメール メッセージを記録し、その記録をユーザーの Exchange メールボックスに残して使用できます。 詳細については[、「プラン クラウド ボイスメール サービス](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)」を参照してください。
+> Exchange Exchange 2019 ではユニファイド メッセージングは使用できなくなりましたが、電話システム を使用してボイスメール メッセージを録音してから、ユーザーの Exchange メールボックスに記録を残す方法もあります。 詳細については[、「プラン クラウド ボイスメール サービス](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)」を参照してください。
   
 Skype for Business Server と Exchange Server 2016 または Exchange Server 2013 の間でサーバー間認証を既に構成している場合は、ユニファイド メッセージングをセットアップする準備ができました。 これを行うには、最初に新しいユニファイド メッセージング ダイヤル プランを作成して、そのユーザーに割り当てるExchange Server。 たとえば、次の 2 つのコマンド (Exchange 管理シェル内から実行) は、次の 3 桁の新しいダイヤル プランを構成Exchange。
   
@@ -39,15 +39,15 @@ Set-UMDialPlan "RedmondDialPlan" -ConfiguredInCountryOrRegionGroups "Anywhere,*,
 
 この例の最初のコマンドでは、VoIPSecurity パラメーターとパラメーター値 "Secured" は、信号チャネルがトランスポート層セキュリティ (TLS) を使用して暗号化された状態を示しています。 URIType "SipName" は、SIP プロトコルを使用してメッセージが送受信されることを指定し、CountryOrRegionCode の 1 は、ダイヤル プランが US に適用されることを指定します。
   
-2 番目のコマンドで、ConfiguredInCountryOrRegionGroups パラメーターに渡されるパラメーター値は、このダイヤル プランで使用できる国内のグループを指定します。 パラメーター値 "Anywhere, \* \* , , " \* は、次の値を設定します。
+2 番目のコマンドで、ConfiguredInCountryOrRegionGroups パラメーターに渡されるパラメーター値は、このダイヤル プランで使用できる国内のグループを指定します。 パラメーター値 "Anywhere,,\*"\* は、次\*の値を設定します。
   
 - グループ名 ("Anywhere")
     
-- AllowedNumberString ( , 任意の数値文字列が許可されたことを示 \* すワイルドカード文字)
+- AllowedNumberString (\*任意の数値文字列が許可されたことを示すワイルドカード文字)
     
-- DialNumberString ( 、 任意のダイヤルされた番号が許可 \* されたことを示すワイルドカード文字)
+- DialNumberString (\*ダイヤルされた番号が許可されたことを示すワイルドカード文字)
     
-- TextComment ( 、 任意のテキスト コマンドが許可 \* されたことを示すワイルドカード文字)
+- TextComment (\*任意のテキスト コマンドが許可されたことを示すワイルドカード文字)
     
 > [!NOTE]
 > 新しいダイヤル プランを作成すると、既定のメールボックス ポリシーも作成されます。 
@@ -89,7 +89,7 @@ Enable-UMMailbox -Extensions 100 -SIPResourceIdentifier "kenmyer@litwareinc.com"
 
 上のコマンドで、Extensions パラメーターはユーザーの内線番号を表します。この例の場合、ユーザーの内線番号は 100 です。
   
-メールボックスを有効にすると、ユーザー kenmyer@litwareinc.com は Exchange ユニファイド メッセージングを使用できるようになります。 管理シェル内から[Test-CsExUMConnectivity](/powershell/module/skype/test-csexumconnectivity)コマンドレットをExchangeして、ユーザーが UM に接続Skype for Business Serverできます。
+メールボックスを有効にすると、ユーザー kenmyer@litwareinc.com は Exchange ユニファイド メッセージングを使用できるようになります。 ユーザーが管理シェル内から [Test-CsExUMConnectivity](/powershell/module/skype/test-csexumconnectivity) コマンドレットをExchangeして、ユーザーが UM に接続Skype for Business Server確認できます。
   
 ```powershell
 $credential = Get-Credential "litwareinc\kenmyer"
@@ -107,7 +107,7 @@ Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress
 
 ## <a name="configuring-unified-messaging-on-microsoft-exchange-server"></a>クライアントでのユニファイド メッセージングのMicrosoft Exchange Server 
 > [!IMPORTANT]
-> Exchange ユニファイド メッセージング (UM) を使用して エンタープライズ VoIP ユーザーに通話応答、Outlook Voice Access、または自動応答サービスを提供する場合は[、「Skype for Business](../../plan-your-deployment/integrate-with-exchange/unified-messaging.md)での Exchange ユニファイド メッセージング統合の計画」を参照し、このセクションの手順に従います。 
+> Exchange ユニファイド メッセージング (UM) を使用して エンタープライズ VoIP ユーザーに通話応答、Outlook Voice Access、または自動応答サービスを提供する場合は、「[Skype for Business での Exchange](../../plan-your-deployment/integrate-with-exchange/unified-messaging.md) ユニファイド メッセージング統合の計画」を参照し、このセクションの手順に従います。 
 
 ユニファイド メッセージング (UM) Exchangeを使用して動作エンタープライズ VoIPするには、次のタスクを実行する必要があります。
 
@@ -132,7 +132,7 @@ Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress
 - UM Exchangeが複数のフォレストにインストールされている場合は、各 UM フォレストExchange Server統合手順を実行する必要があります。 さらに、Skype for Business Server が展開されているフォレストを信頼するように各 UM フォレストを構成する必要があります。また、Skype for Business Server が展開されているフォレストは、各 UM フォレストを信頼するように構成する必要があります。
 - 統合手順は、ユニファイド メッセージング Exchange Serverが実行されている役割と、ユニファイド メッセージング サービスを実行しているサーバーの両方Skype for Business Server。 Lync Server 2013 Exchange Serverを実行する前に、ユニファイド メッセージングの統合手順を実行する必要があります。
   > [!NOTE]
-  > どのサーバーに対してどの統合手順が実行され、どの管理者ロールによって実行されるのかについては、「オンプレミスのユニファイド メッセージングとサーバーを統合するための展開[プロセスの](../../plan-your-deployment/integrate-with-exchange/deployment-overview.md)概要」を参照Skype for Business。 
+  > どのサーバーに対して実行される統合手順と管理者の役割を確認するには、「オンプレミスのユニファイド メッセージングとサーバーを統合するための展開プロセスの概要」を[参照](../../plan-your-deployment/integrate-with-exchange/deployment-overview.md)Skype for Business。 
 
 次のツールは、UM を実行している各サーバー Exchange必要があります。
 - Exchange 管理シェル
@@ -155,7 +155,7 @@ Microsoft Skype for Business Server とユニファイド メッセージング 
 - UM IP ゲートウェイごとに UM ハント グループを作成します。 各ハント グループのパイロット識別子は、UM IP ゲートウェイに関連付けられている Skype for Business Server フロントエンド プールまたは Standard Edition サーバーで使用される UM SIP URI ダイヤル プランを指定します。
 - UM Skype for Business Server、自動応答、UM IP ゲートウェイ、UM ハント グループなどの Active Directory UM コンテナー オブジェクトを読み取るアクセス許可を付与します。
   > [!IMPORTANT]
-  > Skype for Business Server が展開されているフォレストを信頼するように各 UM フォレストを構成し、Skype for Business Server 2013 が展開されているフォレストは、各 UM フォレストを信頼するように構成する必要があります。 UM Exchangeが複数のフォレストにインストールされている場合は、Exchange Server 統合手順を各 UM フォレストに対して実行する必要があります。または、Skype for Business Server ドメインを指定する必要があります。 たとえば、–Forest: ExchUcUtil.ps1を使用します \<lync-domain-controller-fqdn> 。 
+  > Skype for Business Server が展開されているフォレストを信頼するように各 UM フォレストを構成し、Skype for Business Server 2013 が展開されているフォレストは、各 UM フォレストを信頼するように構成する必要があります。 UM Exchangeが複数のフォレストにインストールされている場合は、Exchange Server 統合手順を各 UM フォレストに対して実行する必要があります。または、Skype for Business Server ドメインを指定する必要があります。 たとえば、–Forest:ExchUcUtil.ps1を使用します\<lync-domain-controller-fqdn>。 
 
 ### <a name="use-the-shell-to-run-the-exchucutilps1-script"></a>シェルを使用して ExchUcUtil.ps1 スクリプトを実行する
 
@@ -165,7 +165,7 @@ Microsoft Skype for Business Server とユニファイド メッセージング 
 > Exchange 組織管理役割のアクセス許可を保有するか、Exchange 組織管理者セキュリティ グループのメンバーである必要があります。 
 
 1. Exchange 管理シェルを開きます。
-2. C:\Windows\System32 プロンプトで **、「cd \<drive letter> :\Program Files\Microsoft\Exchange Server\V15\Scripts>.ExchUcUtil.ps1」** と入力し、Enter キーを押します。
+2. C:\Windows\System32 プロンプトで、「**cd\<drive letter>:\Program Files\Microsoft\Exchange Server\V15\Scripts>.ExchUcUtil.ps1**」と入力し、Enter キーを押します。
 
 #### <a name="how-do-you-know-this-worked"></a>正常な動作を確認する方法
 
@@ -175,7 +175,7 @@ ExchUcUtul.ps1 スクリプトが正常に完了したことを確認するに�
 
 ### <a name="configure-certificates-on-the-server-running-exchange-server-unified-messaging"></a>ユニファイド メッセージングを実行しているサーバー Exchange Server構成する
  
-Exchange ユニファイド メッセージング (UM) を展開している場合は、「計画」の「Skype for Business Server での Exchange ユニファイド メッセージング統合の計画」の説明に従って、組織内の エンタープライズ VoIP ユーザーに Exchange UM 機能を提供できます。UM を実行しているサーバーで証明書を構成するには、次Exchange使用します。
+Exchange ユニファイド メッセージング (UM) を展開している場合は、「計画」の「Skype for Business Server での Exchange ユニファイド メッセージング統合の計画」の説明に従って、Exchange UM 機能をエンタープライズ VoIP 組織内のユーザーは、次の手順を使用して、UM を実行しているサーバーで証明書Exchangeできます。
 
 > [!IMPORTANT]
 > 内部証明書の場合、Skype for Business Server を実行しているサーバーと Microsoft Exchange を実行しているサーバーの両方に、相互に信頼される信頼されたルート機関証明書が必要です。 証明機関 (CA) は、サーバーが信頼できるルート証明機関の証明書ストアに登録されている証明機関のルート証明書を持っている限り、同じ証明機関または別の証明機関を指定できます。 
@@ -190,20 +190,20 @@ Exchange ユニファイド メッセージング (UM) を展開している場�
 
 **CA 証明書をダウンロードするには、次の方法を実行します。**
 
-1. UM を実行しているサーバー Exchangeをクリックし、[スタート] をクリックし、[**実行**] をクリックし、「http:// **\<name of your Issuing CA Server> /certsrv」** と入力し **、[OK] をクリックします**。
-2. [タスクの選択] で **、[CA 証明書、証明書チェーン、または CRL のダウンロード] をクリックします**。
-3. [CA **証明書、証明書チェーン、または CRL** のダウンロード] で、[ベース **64** へのエンコード方法] を選択し、[CA 証明書のダウンロード]**をクリックします**。
+1. UM を実行しているサーバー Exchange[スタート] をクリックし、[**実行****\<name of your Issuing CA Server>**] をクリックし、「http:///certsrv」と入力し、[OK] をクリックします。
+2. [タスクの選択] で、[ **CA 証明書、証明書チェーン、または CRL のダウンロード] をクリックします**。
+3. [ **CA 証明書、証明書チェーン、または CRL** をダウンロードする] で、[エンコード方法] を [ **基本 64**] に選択し、[CA 証明書のダウンロード] **をクリックします**。
    > [!NOTE]
    > この手順では、Distinguished Encoding Rules (DER) エンコードを指定できます。 DER エンコードを選択する場合は、この手順の次のステップと「**CA 証明書をインストールするには**」のステップ 10 のファイル タイプが .cer ではなく、.p7b になります。 
 4. **[ファイルのダウンロード]** ダイアログ ボックスで **[保存]** をクリックし、ファイルをサーバー上のハード ディスクに保存します。(このファイルの拡張子は、前のステップで選択したエンコードに応じて、.cer または .p7b となります。)
 
 **CA 証明書をインストールするには、次の手順を実行します。**
 
-1. EXCHANGE UM を実行しているサーバーで、[スタート] をクリックして [実行]をクリックし、[開く] ボックスに **mmc** と入力し **、[OK]** をクリックして、Microsoft 管理コンソール (MMC) を開きます。
+1. EXCHANGE UM を実行しているサーバーで、[スタート] をクリックして [実行] をクリックし、[開く] ボックスに **mmc** と入力し、[OK] をクリックして、Microsoft 管理コンソール (MMC) を開 **きます**。
 2. **[ファイル]** メニューの **[スナップインの追加と削除]** をクリックし、**[追加]** をクリックします。
 3. **[スタンドアロン スナップインの追加]** ボックスで、**[証明書]** をクリックし、**[追加]** をクリックします。
 4. **[証明書スナップイン]** ダイアログ ボックスの **[コンピューター アカウント]** をクリックし、**[次へ]** をクリックします。
-5. [コンピューター **の選択]** ダイアログ ボックスで、[ローカル コンピューター( このコンソールが実行されているコンピューター **) ]** チェック ボックスがオンに設定され、[完了] をクリックします。 
+5. [コンピューター **の選択]** ダイアログ ボックスで、[ローカル コンピューター( このコンソールが実行されているコンピューター **)]** チェック ボックスがオンに設定され、[完了] **をクリックします**。
 6. **[閉じる]** をクリックし、**[OK]** をクリックします。 
 7. コンソール ツリーで、**[証明書 (ローカル コンピューター)]** を展開し、**[信頼されたルート証明機関]** を展開して **[証明書]** をクリックします。
 8. **[証明書]** を右クリックし、**[すべてのタスク]** をクリックして **[インポート]** をクリックします。

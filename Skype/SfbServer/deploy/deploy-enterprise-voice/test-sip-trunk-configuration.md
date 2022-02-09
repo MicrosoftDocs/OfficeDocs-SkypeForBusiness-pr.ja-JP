@@ -1,8 +1,8 @@
 ---
 title: 'Skype for Business Server: SIP トランク構成設定をテストする'
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c8712308-0e2d-4e39-8f90-d1a250487a94
 description: '概要: 管理シェルを使用して SIP トランク構成設定をテストするSkype for Business Server説明します。'
-ms.openlocfilehash: 59f246abfc4ef27ad75ab45cccaedc6f5236c98e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: dd79e60b81bb5e9f0edbd93a9ddda96edfdee218
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829511"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396029"
 ---
 # <a name="skype-for-business-server-test-sip-trunk-configuration-settings"></a>Skype for Business Server: SIP トランク構成設定をテストする
  

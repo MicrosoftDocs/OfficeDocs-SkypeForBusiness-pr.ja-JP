@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server の容量計画計算ツール
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 2/1/2018
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: bc4d93b1-0c38-4bf8-8b65-692ff3e2446d
 description: '概要: 容量計算ツールの使い方。'
-ms.openlocfilehash: b0369ffd30a4904057a44d594527ad017a712096
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 37df48310e14b31b42bbcaa9d8f5ef89ef7341e0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862194"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409960"
 ---
 # <a name="skype-for-business-server-capacity-planning-calculator"></a>Skype for Business Server の容量計画計算ツール
  
@@ -30,13 +30,13 @@ ms.locfileid: "60862194"
 > - Skype for Business Server 2019.
 > - Skype for Business Server 2015.
   
-[Skype for Business Server 2015](https://www.microsoft.com/download/details.aspx?id=51196)容量計算機と[Skype for Business Server 2019](https://www.microsoft.com/download/details.aspx?id=57509)容量計算機は[、Skype for Business](https://www.microsoft.com/download/details.aspx?id=50357)計画ツールと展開ドキュメントを拡張します (Skype for Business Server[2015](../plan-your-deployment/plan-your-deployment.md)の展開を計画し、Skype for Business Server [2019](../../SfBServer2019/plan/plan-your-deployment-2019.md)の展開を計画する)。 ガイドを確認し、計画ツールを使用して推奨トポロジを作成した後、電卓を使用します。
+[2015 Skype for Business Server](https://www.microsoft.com/download/details.aspx?id=51196)容量計算機と [Skype for Business Server 2019](https://www.microsoft.com/download/details.aspx?id=57509) 容量計算機は、Skype for Business[計画](https://www.microsoft.com/download/details.aspx?id=50357)ツールと展開のドキュメントを拡張[します (計画Skype for Business Server 2015](../plan-your-deployment/plan-your-deployment.md) の展開と [2019](../../SfBServer2019/plan/plan-your-deployment-2019.md) 年の展開Skype for Business Server計画)。 ガイドを確認し、計画ツールを使用して推奨トポロジを作成した後、電卓を使用します。
   
 [Skype for Business Server容量計算機は、ユーザー数と組織が使用する通信ツールに基づいてサーバー要件を決定するのに役立ちます。 ユーザー プロファイルとユーザーに対して有効にする機能を決定した後、計算機を使用して、必要なサーバー、メモリ、および帯域幅の数を決定します。 このバージョンの計算機では、ディスク I/O 要件に関するガイダンスは提供されません。
   
 特定のユーザー プロファイルに関する正確で詳細な情報がある場合は、電卓のメリットが最も高い場合があります。 たとえば、音声が有効なユーザーの割合、1 時間あたりのユーザーごとの平均通話数、通話時間、会議での同時ユーザーの割合は、サーバー要件に大きな違いを生み出す可能性があります。 電卓によって作成される推奨事項の精度は、提供する情報の精度によって異なります。
   
-計画ツールと容量計画計算機を使用したら、提案された負荷と計画負荷をシミュレートして、計画された負荷が適切にSkype for Business Server確認する必要があります。 シミュレートされた負荷の下でストレス テストを実行するには[](https://www.microsoft.com/download/details.aspx?id=50367)、「Skype for Business Serverとパフォーマンス ツール」でSkype for Business Server[ツールを使用します](./stress-and-performance-tool/stress-and-performance-tool.md)。
+計画ツールと容量計画計算機を使用したら、提案された負荷と計画負荷をシミュレートして、計画された負荷が適切にSkype for Business Server確認する必要があります。 シミュレートされた負荷の下でストレス テストを実行するには、「[](https://www.microsoft.com/download/details.aspx?id=50367)Skype for Business Serverとパフォーマンス ツール」でSkype for Business Server[ツールを使用します](./stress-and-performance-tool/stress-and-performance-tool.md)。
   
 ## <a name="using-the-capacity-calculator"></a>容量計算機の使用
 
@@ -46,13 +46,13 @@ ms.locfileid: "60862194"
   
  **インスタント メッセージングとプレゼンス**
   
-- [ **ユーザー数] で**、一度にサインインするユーザーの数を入力します。 この数は、通常、プロビジョニングされたユーザーの総数の 80% です。 ほとんどの場合、同時ユーザーの 100% が IM and Presence に対して有効になります。 既定値は、2015 年の Skype for Business Server 80,000、2019 年のユーザー数 106,000 Skype for Business Serverです。
+- [ **ユーザー数] に**、一度にサインインするユーザーの数を入力します。 この数は、通常、プロビジョニングされたユーザーの総数の 80% です。 ほとんどの場合、同時ユーザーの 100% が IM and Presence に対して有効になります。 既定値は、2015 年の Skype for Business Server 80,000、2019 年のユーザー数 106,000 Skype for Business Serverです。
     
 - **連絡先リスト内の連絡先の平均数** は、システム要件の検証に使用している連絡先の数を示します。 この数値は固定であり、変更する必要がある数値ではありません。
     
   **エンタープライズ VoIP**
   
-- [**ユーザーに対して有効エンタープライズ VoIP]** に、ユーザーが有効になっているユーザーの割合を入力エンタープライズ VoIP。 既定値は 60% です。 
+- [**ユーザーに対して有効** エンタープライズ VoIP] に、ユーザーが有効になっているユーザーの割合を入力エンタープライズ VoIP。 既定値は 60% です。 
     
 - [ **ユーザー 1 時間** あたりの平均通話数 (ピーク)] に、ピーク時に平均ユーザーが参加すると予想される 1 時間あたりの通話数を入力します。 既定値は 4 です。 
     
@@ -66,27 +66,27 @@ ms.locfileid: "60862194"
   
 - [ **同時会議のユーザーの** 割合] に、同時に会議に参加するユーザーの割合を入力します。 既定値は 5% です。 
     
-- [グループ IM のみを含む会議の割合 **(音声なし)]** に、インスタント メッセージングのみを含む電話会議の割合を入力し、音声は含めない。 既定値は 10% です。
+- [ **グループ IM のみを含** む会議の割合 (音声なし)] に、インスタント メッセージングのみを含み、音声を含めない会議の割合を入力します。 既定値は 10% です。
     
-- [ **ダイヤルイン会議を** 使用するユーザーの割合] に、ダイヤルイン会議を一度に使用する会議の参加者の割合を入力します。 既定値は 15% です。
+- [ **ダイヤルイン会議を** 使用しているユーザーの割合] に、ダイヤルイン会議を一度に使用する会議の参加者の割合を入力します。 既定値は 15% です。
     
-- [ **音声を使用する会議の割合**] に、オーディオを含む会議の割合を入力します。 
+- [ **音声を使用する会議の割合**] に、音声を含む会議の割合を入力します。 
     
-  - 音声会議の 20% に通常のビデオも含まれる場合は、[ビデオを含める (マルチ ビュー **なし)]** チェック ボックスをオンにします。
+  - 音声会議の 20% に通常のビデオも含まれる場合は、[ビデオを含める (マルチ ビュー **なし)] チェック ボックスを** オンにします。
     
   - 会議の 20% にマルチビュー ビデオも含まれる場合は、[複数表示を含める] チェック ボックス **を** オンにします。
     
   - 音声会議の 50% にアプリケーション共有が含まれる場合は、[アプリケーション共有を含める] チェック ボックス **を** オンにします。
     
-  - 音声会議の 20% に、プレゼンテーションなどのデータのアップロードが含 **PowerPoint、[Web** 会議を含める] チェック ボックスをオンにします。
+  - 音声会議の 20% に、プレゼンテーションなどのデータのアップロードが含PowerPoint、[Web 会議を含める] チェック ボックス **を** オンにします。
     
   **モビリティ**
   
-- [**モビリティが有効なユーザー** の割合] に、モバイル デバイスを使用してユーザーに接続できるユーザー Skype for Business Server入力します。 既定値は 40% です。 
+- [**モビリティが有効** なユーザーの割合] に、モバイル デバイスを使用してユーザーに接続できるユーザー Skype for Business Server入力します。 既定値は 40% です。 
     
 必要な情報を入力すると、容量計算機能によって要件が推定されます。 黄色のセルは、パフォーマンス ラボで実行されたテストに基づいて CPU、メモリ、および帯域幅の要件Skype for Business Server表示します。 数値はガイドラインとして提供され、すべてのバリエーションがテストおよび検証されるという問題ではありません。 次の値が計算されます。 
   
-- **フロントエンド CPU**: テストで使用したサーバーと同じ仕様の 1 つのフロント エンド サーバーによって負荷全体が処理されている場合の CPU 使用率の割合 (この記事の最後の説明を参照)。
+- **フロントエンド CPU**: テストで使用したサーバーと同じ仕様の 1 つのフロントエンド サーバーによって負荷全体が処理されている場合の CPU 使用率の割合 (この記事の最後の説明を参照)。
     
 - **Mbps のネットワーク**: 対応するワークロードのメガビット/秒 (Mbps) の帯域幅要件。
     
@@ -94,7 +94,7 @@ ms.locfileid: "60862194"
     
 緑色のセルには、入力した使用状況モデルの推奨事項が表示されます。 
   
-- **フロント** エンド サーバーの総数: 必要な物理サーバーの数は、デュアル プロセッサ、2,260 メガサイクル、または Skype for Business Server intel Xeon E5-2673 v3、デュアル プロセッサ、16 進数コアを備える Skype for Business Server 2015 を実行する専用サーバーに基づいて行います。
+- フロント エンド サーバーの **総数: 必要** な物理サーバーの数は、intel Xeon E5-2673 v3、デュアル プロセッサ、16 進数コアを備え、デュアル プロセッサ、2,260 メガサイクル、または Skype for Business Server 2019 を備える Skype for Business Server 2015 を実行する専用サーバーに基づいて行います。
     
     ハイパースレッジの有効化が推奨され、オーディオ/ビデオをサポートするサーバーのパフォーマンスが向上する実証済みです。
     
@@ -106,7 +106,7 @@ ms.locfileid: "60862194"
     
 さらに、[フロント エンド サーバーの合計] の横の行に、計画されているすべてのワークロードを組み合わせたサーバーとネットワークの負荷に関する詳細情報が表示されます。
   
-- **平均 CPU 負荷**: フロントエンド サーバーあたりの平均 CPU 使用率。
+- **平均 CPU 負荷**: フロント エンド サーバーあたりの平均 CPU 使用率。
     
 - **Mbps のネットワーク**: 入力した使用状況モデルをサポートするために必要な帯域幅割り当て。
     

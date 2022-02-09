@@ -1,8 +1,8 @@
 ---
 title: ネットワークでメディア バイパスを計画Skype for Business
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 description: メディア バイパスの計画に必要な決定は、Skype for Business Server エンタープライズ VoIP。 通話受付管理 (CAC) との相互運用が含まれます。
-ms.openlocfilehash: 37bd24ba10ae506749a305f3fd5dfa55ca067fdc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fe0d4910e2dacba99c066fe3dcdfe6fcd0f27c92
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827480"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402771"
 ---
 # <a name="plan-for-media-bypass-in-skype-for-business"></a>ネットワークでメディア バイパスを計画Skype for Business
 
@@ -92,7 +92,7 @@ Wi-Fiネットワークでは、通常、有線ネットワークよりもパケ
 
 - CAC およびメディア バイパスはどちらも有効です。 メディア バイパスは、[**サイトおよび地域情報を使用する**] に設定されていなければなりません。 このサイトおよび地域情報は、CAC に使われている情報と同じです。
 
-    CAC を有効にした場合、2 つの構成は相互に排他的なので、[常にバイパス] を選択することはできません。また、その逆も選択できません。  つまり、特定の PSTN 呼び出しに適用されるのは、2 つ中の 1 つのみです。 最初に、メディア バイパスが通話に適用されるかどうかを確認します。 その場合、CAC は使用されません。 これは、呼び出しがバイパスの対象となる場合は、CAC が不要な接続を使用して定義されるので、理にかなっています。 バイパスを呼び出しに適用できない場合 (つまり、クライアントとゲートウェイのバイパス ID が一致しない場合)、CAC が呼び出しに適用されます。
+    CAC を有効にした場合、2 つの構成は相互に排他的なので、[常にバイパス] を選択することはできません。また、その逆も選択できません。 つまり、特定の PSTN 呼び出しに適用されるのは、2 つ中の 1 つのみです。 最初に、メディア バイパスが通話に適用されるかどうかを確認します。 その場合、CAC は使用されません。 これは、呼び出しがバイパスの対象となる場合は、CAC が不要な接続を使用して定義されるので、理にかなっています。 バイパスを呼び出しに適用できない場合 (つまり、クライアントとゲートウェイのバイパス ID が一致しない場合)、CAC が呼び出しに適用されます。
 
 - CAC は無効で、メディア バイパスは [**常にバイパスする**] に設定されています。
 

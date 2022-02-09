@@ -1,7 +1,7 @@
 ---
-title: SkypeRoom System 複数フォレストのオンプレミス展開
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype Room System 複数のフォレストのオンプレミス展開
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,14 +12,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6793fca0-3970-44e4-8703-1925428c1967
 description: このトピックでは、複数のフォレストのオンプレミスSkype Room System を展開する方法について説明します。
-ms.openlocfilehash: 34b52f32ec3f1c611d8560c8f053e7fbe16b53bf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 45eef34f575144f720225a74d07efa0da2db30cd
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857050"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400741"
 ---
-# <a name="skype-room-system-multiple-forest-on-premises-deployments"></a>SkypeRoom System 複数フォレストのオンプレミス展開
+# <a name="skype-room-system-multiple-forest-on-premises-deployments"></a>Skype Room System 複数のフォレストのオンプレミス展開
  
 このトピックでは、複数のフォレストのオンプレミスSkype Room System を展開する方法について説明します。
   

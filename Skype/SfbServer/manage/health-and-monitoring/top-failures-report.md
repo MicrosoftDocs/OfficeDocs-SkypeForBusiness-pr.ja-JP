@@ -1,8 +1,8 @@
 ---
 title: '[トップ エラー] レポート (Skype for Business Server'
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 438942e2-580a-4b67-9d42-f116111fb26a
 description: '概要: [トップ エラー] レポートの詳細については、Skype for Business Server。'
-ms.openlocfilehash: 3e752ad2f15e6739fb6f1a34aa9f30e86767041d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ad04dee69d44bb28246c87d1001fd1cfafdbfea1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853031"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396509"
 ---
 # <a name="top-failures-report-in-skype-for-business-server"></a>[トップ エラー] レポート (Skype for Business Server
  
@@ -27,13 +27,13 @@ ms.locfileid: "60853031"
   
 - **診断 ID**。SIP メッセージに添付された一意の識別子 (ms-diagnostics ヘッダーの形式)。診断 ID は、呼び出し関連のエラーのトラブルシューティングに役立つ情報を提供します。
     
-- **応答コード**. 応答コードは、SIP 通信セッションで SIP 要求に応答するために使用されます。 たとえば、Ken が INVITE 要求を Pilar Ackerman に送信するとします (つまり、Ken Myer が Pilar Ackerman を呼び出したとします)。 Pilar が応答した場合、彼女の電話は応答コード 200 (OK) を送信し、Ken の電話は Pilar が応答したと知らせる。 トップ エラー レポートには、呼び出しエラーへの応答として送信された応答コードだけが含まれます。Skype for Business Server中に発行されたすべての応答コードを追跡する必要はありません。
+- **応答コード**。 応答コードは、SIP 通信セッションで SIP 要求に応答するために使用されます。 たとえば、Ken が INVITE 要求を Pilar Ackerman に送信するとします (つまり、Ken Myer が Pilar Ackerman を呼び出したとします)。 Pilar が応答した場合、彼女の電話は応答コード 200 (OK) を送信し、Ken の電話は Pilar が応答したと知らせる。 トップ エラー レポートには、呼び出しエラーへの応答として送信された応答コードだけが含まれます。Skype for Business Server中に発行されたすべての応答コードを追跡する必要はありません。
     
 このレポートでは、エラーが発生したセッションの合計数だけでなく、エラーの影響を受けた合計ユーザー数に関する情報も報告されます。
   
 ## <a name="accessing-the-top-failures-report"></a>トップ エラー レポートにアクセスする
 
-トップ エラー レポートには、[監視レポート] ホーム ページからアクセスします。 [報告されたセッション] メトリックをクリックすると、[エラー配布レポート] が表示[Skype for Business Server。](failure-distribution-report.md)
+トップ エラー レポートには、[監視レポート] ホーム ページからアクセスします。 [報告されたセッション] 指標をクリックすると、ユーザーは [エラー配布レポート[]](failure-distribution-report.md) Skype for Business Server。
   
 ## <a name="making-the-best-use-of-the-top-failures-report"></a>トップ エラー レポートを最大限に利用する
 
@@ -55,7 +55,7 @@ ms.locfileid: "60853031"
   
 **トップ エラー レポートのフィルター**
 
-|**名前**|**説明**|
+|**[名前]**|**説明**|
 |:-----|:-----|
 |**From** <br/> |時間範囲の開始日と開始時刻。データを時間単位で表示するには、次のように開始日と開始時刻の両方を入力します。  <br/> 2015 年 7 月 7 日 13:00  <br/> 開始時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に開始します。データを日単位で表示するには、次のように日付のみを入力します。  <br/> 7/7/2015  <br/> 週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。  <br/> 7/3/2015  <br/> 週は、常に日曜日から土曜日までです。  <br/> |
 |**To** <br/> |時間範囲の終了日と終了時刻。データを時間単位で表示するには、次のように終了日と終了時刻の両方を入力します。  <br/> 2015 年 7 月 7 日 13:00  <br/> 終了時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に終了します。データを日単位で表示するには、次のように日付のみを入力します。  <br/> 7/7/2015  <br/> 週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。  <br/> 7/3/2015  <br/> 一週間は、日曜日から始まり、土曜日で終わるものとします。  <br/> |

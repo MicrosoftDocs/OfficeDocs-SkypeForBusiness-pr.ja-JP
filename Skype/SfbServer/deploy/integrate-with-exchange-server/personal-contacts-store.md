@@ -1,8 +1,8 @@
 ---
 title: Lync 2010 クライアント コンピューターで個人用連絡先ストアを構成する
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 1/29/2019
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec69a6cb-07f2-4057-9544-55035f83eeae
 description: '概要: 従来のクライアントで使用される個人用連絡先ストアを構成します。'
-ms.openlocfilehash: de9bc9472f619f7d35bbc4585d806f6cd82c295a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d2678eb7f0d9bcdf3d981cb08e91cf9a4858f26c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842369"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397306"
 ---
 # <a name="configure-the-personal-contacts-store-on-lync-2010-client-computers"></a>Lync 2010 クライアント コンピューターで個人用連絡先ストアを構成する
   
@@ -32,8 +32,8 @@ Skype for Business Server 2015 および Exchange Server 2016 または Exchange
   
 1. クライアント コンピューターで、[スタート] をクリック **し、[実行** ] を **クリックします**。
 2. [実行] **ダイアログ ボックス** に「regedit」と入力し、Enter キーを押します。
-3. [レジストリ エディター] で、[HKEY_LOCAL_MACHINE] を展開し、[ソフトウェア] を展開し **、[** ポリシー] を展開し **、[Microsoft]** を展開し、[Communicator]**をCommunicator。**
-4. 右クリックし **、[Communicator]** をポイント **し****、[DWORD (32 ビット) 値] をクリックします**。
+3. [レジストリ エディター] で、[HKEY_LOCAL_MACHINE] を展開し、[ソフトウェア] を展開し **、[** ポリシー] を展開し、[**Microsoft**] を展開し、[Communicator] **をCommunicator**。
+4. 右クリックし、[**Communicator**] をポイント **し**、[**DWORD (32 ビット) 値] をクリックします**。
 5. 新しい値を作成した後、「PersonalContactStoreOverride」と入力し、Enter キーを押して値の名前を変更します。
 6. PersonalContactStoreOverride の値が 0 に設定されていることを確認し、レジストリ エディタを閉じます。
 

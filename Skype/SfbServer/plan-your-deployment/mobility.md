@@ -1,8 +1,8 @@
 ---
 title: モビリティを計画する Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 2/17/2018
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7117eff5-6860-4673-b366-afe0756c4bb2
 description: モビリティの実装を計画Skype for Business Server。
-ms.openlocfilehash: a323e9e68ee78af1ea80979c12eb6b0a66906041
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a86f9ed4c3c41a1afa60a3f8181307589b0ce678
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852941"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400281"
 ---
 # <a name="plan-for-mobility-for-skype-for-business-server"></a>モビリティを計画する Skype for Business Server
  
@@ -27,7 +27,7 @@ ms.locfileid: "60852941"
   
 このSkype for Business Server、モビリティ機能を展開して、モバイル デバイスSkype for Business Server機能を提供できます。 この記事では、モビリティ機能の詳細を説明し、展開の計画に役立ちます。
   
-2010 年Skype for Business Server Lync クライアントだけでなく、モバイル クライアントSkype for Businessモバイル クライアントをサポートすることもできます。 展開後、ユーザーはサポートされている iOS、Android、Windows Phone モバイル デバイスを使用して Skype for Business Server 展開に接続し、エンタープライズ VoIP 機能を含むいくつかの異なる機能を利用できます。 以下に部分的な一覧を含め、デスクトップ クライアント機能の比較を確認し、詳細を確認[Skype for Business確認できます](clients-and-devices/desktop-feature-comparison.md)。
+2010 年Skype for Business Server Lync クライアントだけでなく、モバイル クライアントSkype for Businessモバイル クライアントをサポートすることもできます。 展開後、ユーザーはサポートされている iOS、Android、Windows Phone モバイル デバイスを使用して Skype for Business Server 展開に接続し、エンタープライズ VoIP 機能を含むいくつかの異なる機能を利用できます。 以下に部分的な一覧が含まれています。また、デスクトップ クライアントの機能の比較を確認して、[Skype for Businessを確認](clients-and-devices/desktop-feature-comparison.md)できます。
   
 - メッセージの送受信
     
@@ -56,7 +56,7 @@ ms.locfileid: "60852941"
 > [!NOTE]
 > 従来のモバイル クライアントの MCX (モビリティ サービス) サポートは、Skype for Business Server 2019 では利用できなくなりました。 現在のすべての Skype for Business モバイル クライアントはUnified Communications Web API (UCWA) を使用して、インスタント メッセージング (IM)、プレゼンス、および連絡先をサポートしています。 MCX を使用している従来のクライアントを持っているユーザーは、現在のクライアントにアップグレードする必要があります。
   
-Mobility を実装すると、これらの機能はすべて利用できる一方で、一部のデバイスでは動作が少し異なる場合があります。 モバイル クライアント機能の比較で、どのデバイスで動作する機能を説明する web[サイト](clients-and-devices/mobile-feature-comparison.md)Skype for Business。 また、クライアントとデバイスの計画でいくつかの素晴らしいデバイスと OS [情報を持っています](clients-and-devices/clients-and-devices.md)。
+Mobility を実装すると、これらの機能はすべて利用できる一方で、一部のデバイスでは動作が少し異なる場合があります。 モバイル クライアント機能の比較で、どのデバイスで機能する機能を説明する web [サイト](clients-and-devices/mobile-feature-comparison.md)Skype for Business。 また、クライアントとデバイスの計画でいくつかの素晴らしいデバイスと OS [情報を持っています](clients-and-devices/clients-and-devices.md)。
   
 モビリティは自動検出機能を使用します。これにより、クライアントは、ユーザーが URL を入力する必要がなくても Skype for Business Server Web サービスを自動的に検索できます (ユーザーはそれらを知る必要はありません)。 トラブルシューティングを行う必要がある場合、URL の手動入力は引き続きサポートされます。
   
@@ -123,7 +123,7 @@ Mobility を実装すると、これらの機能はすべて利用できる一�
     
 この機能は、エッジ サーバーまたは Lync Server 2013 エッジ Skype for Business Serverで使用できる必要があります。
   
-モビリティ サービスは、仲介サーバーの役割と 2 つのネットワーク インターフェイスを関連付けするときにフロント エンド サーバーでサポートされますが、これらのインターフェイスを構成するには適切な手順を実行する必要があります。 仲介サーバーとして通信する特定のインターフェイスと、フロントエンド サーバーとして通信するネットワーク IP インターフェイスに IP アドレスを割り当てる必要があります。 トポロジ ビルダーでは、既定の [構成済み IP アドレスのすべて使用] の選択を使用する代わりに、サービスごとに正しい IP アドレス **を選択** します。
+モビリティ サービスは、仲介サーバーの役割と 2 つのネットワーク インターフェイスを関連付けするときにフロント エンド サーバーでサポートされますが、これらのインターフェイスを構成するには適切な手順を実行する必要があります。 仲介サーバーとして通信する特定のインターフェイスと、フロントエンド サーバーとして通信するネットワーク IP インターフェイスに IP アドレスを割り当てる必要があります。 トポロジ ビルダーでは、既定の [構成済み IP アドレスのすべて使用] の選択を使用する代わりに、サービスごとに正しい **IP アドレスを選択** します。
   
 ## <a name="technical-requirements"></a>技術的要件
 <a name="TechRequirements"> </a>
@@ -189,7 +189,7 @@ Mobility を実装すると、これらの機能はすべて利用できる一�
 
 Skype for Business モバイル クライアントに自動検出を使用している場合は、証明書の SAN (サブジェクトの代替名) リストを変更して、モバイル クライアントからの安全な接続をサポートする必要があります。 既に証明書を一緒に使用している場合は、ここで説明する SAN エントリを使用して新しい証明書を要求して割り当てる必要があります。 これは、自動検出サービスを実行するフロントエンド サーバーとディレクター (環境内の場合) ごとに実行する必要があります。 リバース プロキシ証明書の SAN リストを変更し、組織内のすべての SIP ドメインに SAN エントリを追加することをお勧めします。
   
-内部 CA (証明機関) から新しい証明書を要求する場合、これは簡単なプロセスである必要がありますが、パブリック証明書の方が複雑であり、新しいパブリック 証明書に多くの SIP ドメインを追加するコストが高い場合は言うまでもなく、再要求に多くのコストがかかる可能性があります。そのような状況では、サポートされているアプローチがありますが、推奨 **されません**。 リバース プロキシを構成して、最初の自動検出サービス要求をポート 80 経由で行い、HTTPS (および 443 が既定の構成) であるポート 443 ではなく HTTP を使用します。 その受信要求は、フロントエンド プールまたはディレクターのポート 8080 にリダイレクトされます。 これにより、このトラフィックは要求に HTTPS を使用しないので、証明書を変更する必要がなされません。 しかし、もう一度、これはお勧めしませんが、これはお勧めしません。
+内部 CA (証明機関) から新しい証明書を要求する場合、これは簡単なプロセスである必要がありますが、パブリック証明書の方が複雑であり、新しいパブリック 証明書に多くの SIP ドメインを追加するコストが高い場合は言うまでもなく、再要求に多くのコストがかかる可能性があります。このような状況では、サポートされているアプローチがありますが、推奨 **されません**。 リバース プロキシを構成して、最初の自動検出サービス要求をポート 80 経由で行い、HTTPS (および 443 が既定の構成) であるポート 443 ではなく HTTP を使用します。 その受信要求は、フロントエンド プールまたはディレクターのポート 8080 にリダイレクトされます。 これにより、このトラフィックは要求に HTTPS を使用しないので、証明書を変更する必要がなされません。 しかし、もう一度、これはお勧めしませんが、これはお勧めしません。
   
 ### <a name="windows-and-iis-requirements"></a>Windows IIS の要件
 
@@ -207,7 +207,7 @@ Skype for Business モバイル クライアントに自動検出を使用して
 
 モバイル クライアントの自動検出をSkype for Business、現在の発行ルールを次のように更新する必要があります。
   
-- リバース プロキシ証明書の SAN リストを更新し、最初の自動検出サービス要求に HTTPS を使用している場合は、lyncdiscover の Web 発行ルールを更新する必要があります。 \<sipdomain\> これは通常、フロントエンド プールの外部 Web サービス URL の発行 rul と組み合わされます。
+- リバース プロキシ証明書の SAN リストを更新し、最初の自動検出サービス要求に HTTPS を使用している場合は、lyncdiscover\<sipdomain\> の Web 発行ルールを更新する必要があります。 これは通常、フロントエンド プールの外部 Web サービス URL の発行 rul と組み合わされます。
     
 - リバース プロキシ証明書 (推奨しない) の SAN リストを更新する必要を回避するために、最初の自動検出サービス要求に HTTP を使用することを決定した場合は、ポート HTTP/TCP 80 用の新しい Web 発行ルールを作成する必要があります 。まだ存在しない場合は、新しい Web 発行ルールを作成する必要があります。 そのルールが存在する場合は、lyncdiscover を含むルールを更新します。\<sipdomain\> エントリ。
     
@@ -222,9 +222,9 @@ Skype for Business モバイル クライアントに自動検出を使用して
   
 必要に応じて手動設定を使用できます。 これらの URL は、ユーザーがモバイル デバイスに入力する必要があります。
   
-- **https:// \<ExtPoolFQDN\> /Autodiscover/autodiscoverservice.svc/Root** を使用して外部アクセスを行います。
+- **\<ExtPoolFQDN\>https:// アクセス用の https:///自動検出/自動検出サービス.svc/Root**。
     
-- **https:// \<IntPoolFQDN\> /Autodiscover/autodiscoverservice.svc/Root を** 使用して内部アクセスを行います。
+- **\<IntPoolFQDN\>https:// アクセスの場合は、https:///自動検出/自動検出サービス.svc/Root** を使用します。
     
 繰り返しますが、自動検出の使用をお勧めします。 トラブルシューティングの目的で手動設定が役立つ場合があります。
   
@@ -237,7 +237,7 @@ Skype for Business モバイル クライアントに自動検出を使用して
   
 ### <a name="do-you-want-all-your-users-accessing-all-mobility-features-or-do-you-want-to-specify-the-users-who-can-access-these-features-instead"></a>すべてのユーザーがすべての Mobility 機能にアクセスするか、またはこれらの機能にアクセスできるユーザーを指定しますか。
 
-すべてのユーザーが利用できる機能の一部と、ユーザーが既定でその方法で設定されているかどうかを示す表があります。 完全なリストについては [、New-CsMobilityPolicy を確認してください](/powershell/module/skype/new-csmobilitypolicy?view=skype-ps)。
+すべてのユーザーが利用できる機能の一部と、ユーザーが既定でその方法で設定されているかどうかを示す表があります。 完全なリストについては、「 [New-CsMobilityPolicy」を参照してください](/powershell/module/skype/new-csmobilitypolicy?view=skype-ps)。
   
 > [!NOTE]
 > これらのすべての機能のスコープは、グローバル/サイト/ユーザーです。 

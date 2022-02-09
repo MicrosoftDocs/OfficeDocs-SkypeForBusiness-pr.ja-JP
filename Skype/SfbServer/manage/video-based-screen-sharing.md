@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server のビデオベースの画面共有
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 2/20/2018
 manager: serdars
 audience: ITPro
@@ -13,16 +13,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype for Business Serverスクリーン共有 (VbSS) の計画と構成に関する情報を確認する
-ms.openlocfilehash: ff8dc9e21ab4b00741acca5dcc4ac972e5d13e68
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0eb381504e797879d9e4235d7ae9cce69f1a468c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859974"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396429"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Skype for Business Server のビデオベースの画面共有 
  
-Skype For Business Server 2015 のビデオ ベースの画面共有 (VbSS) がダウンロード可能になります[。Skype for Business Server 2015 累積的な更新プログラム KB3061064](https://www.microsoft.com/download/details.aspx?id=47690)です。 VbSS は 2019 年Skype for Business Serverされています。
+Skype For Business Server 2015 のビデオ ベースの画面共有 (VbSS) がダウンロード可能です:[Skype for Business Server 2015 累積的な更新プログラム KB3061064](https://www.microsoft.com/download/details.aspx?id=47690)。 VbSS は 2019 年Skype for Business Serverされています。
   
 ビデオ ベースのスクリーン共有 (VbSS) は、Lync の画面共有から成長しました。 VbSS と従来の画面共有の違いは、使用される基になるプロトコルと、そのプロトコルの優良な機能と関係があります。 画面共有はリモート デスクトップ プロトコル (RDP) を使用します。これは、ユーザーのコンピューター間で何千もの 1 対 1 セッションを作成する場合に最適です。 新しいテクノロジ VbSS は、ユーザー データグラム プロトコル (UDP) を利用します。
   
@@ -117,7 +117,7 @@ VbSS 帯域幅は次の値です。
    
 ## <a name="clients-and-servers-support"></a>クライアントとサーバーのサポート
 
-ビデオ ベースの画面共有には、Skype for Business Server 2015 CU3 以降が必要です。また、Skype for Business および Meetings サポートのモバイル クライアント機能比較に記載されているサポート クライアント[の現在の](../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md)バージョンが[必要](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md#BKMK_Conferencing)です。 
+ビデオ ベースの画面共有には、Skype for Business Server 2015 CU3 以降が必要です。また、Skype for Business および Meetings サポートのモバイル クライアント機能の比較に記載されているサポート クライアントの現在[の](../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md)バージョンが[必要](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md#BKMK_Conferencing)です。 
   
 画面共有が RDP に移行する状況は次のとおりです。
   
@@ -153,7 +153,7 @@ Skype for Business Server 2015 累積的な更新プログラム 3 (CU3) 以降�
   Set-CsConferencingPolicy -ApplicationSharingMode RDP
   ```
 
-    このコマンドの詳細については [、「Set-CsConferencingPolicy」を参照してください](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
+    このコマンドの詳細については、「 [Set-CsConferencingPolicy」を参照してください](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
     
 - VbSS を完全にオフにする必要がある場合は、次のコマンドを実行できます。
     
@@ -161,7 +161,7 @@ Skype for Business Server 2015 累積的な更新プログラム 3 (CU3) 以降�
   Set-CsMediaConfiguration -EnableVideoBasedSharing $false
   ```
 
-    このコマンドの詳細については [、「Set-CsMediaConfiguration」を参照してください](/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)。
+    このコマンドの詳細については、「 [Set-CsMediaConfiguration」を参照してください](/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)。
     
 > [!NOTE]
 > 複数パーティの会議Skype for Business、すべてのクライアント エンドポイントが会議開催者のポリシー設定を尊重します。 
@@ -180,7 +180,7 @@ Skype for Business Server 2015 累積的な更新プログラム 3 (CU3) 以降�
   Set-CsConferencingPolicy -ApplicationSharingMode VideoWithFallback
   ```
 
-    このコマンドの詳細については [、「Set-CsConferencingPolicy」を参照してください](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
+    このコマンドの詳細については、「 [Set-CsConferencingPolicy」を参照してください](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
     
 - VbSS をオフにした後で (既定ではオンになっています) 必要がある場合は、次のコマンドを実行できます。
     
@@ -188,7 +188,7 @@ Skype for Business Server 2015 累積的な更新プログラム 3 (CU3) 以降�
   Set-CsMediaConfiguration -EnableVideoBasedSharing $true
   ```
 
-    このコマンドの詳細については [、「Set-CsMediaConfiguration」を参照してください](/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)。
+    このコマンドの詳細については、「 [Set-CsMediaConfiguration」を参照してください](/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)。
     
 > [!NOTE]
 > 複数パーティの会議Skype for Business、すべてのクライアント エンドポイントが会議開催者のポリシー設定を尊重します。 

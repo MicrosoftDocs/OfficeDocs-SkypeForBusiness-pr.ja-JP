@@ -1,13 +1,13 @@
 ---
-title: アップグレードのチェックリスト|Skypeアップグレードを開始Teams Business |基本的な手順
-author: HowlinWolf-92
-ms.author: v-mahoffman
+title: アップグレード のチェックリスト|Skypeアップグレードを開始Teams Business |基本的な手順
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: この高速な 10 ステップのアクション プランに従って、基本的なSkype for BusinessセットアップからMicrosoft Teamsに移行します。
+description: この高速な 10 ステップのアクション プランに従って、基本的な設定Skype for BusinessセットアップからMicrosoft Teamsに移行します。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -23,34 +23,34 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3d7ef1ae0375b7cdec373450135e5eed148f776
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: 9ad2dcc08bcbb1136c1b00fccf16b4e1e80a74f2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61562799"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400811"
 ---
 # <a name="upgrade-basic"></a>Basic のアップグレード
 
 <a name="about-upgrade-basic"></a>
 
-小規模な組織や、IM (チャット) および会議にのみ Skype for Business Online を使用しているユーザー向けに設計された Upgrade Basic チェックリストは、Skype for Business から Teams への移行を成功に移す際のコア、推奨されるアクティビティ、関連リソースを含む高速アクション プランです。
+小規模な組織や、IM (チャット) および会議専用の Skype for Business Online を使用しているユーザー向けに設計されたアップグレード基本チェックリストは、Skype for Business から Teams への移行を成功に移す際のコア、推奨アクティビティ、関連リソースを含む高速アクション プランです。
 
 この 10 の簡単な手順は、アップグレードを成功するために必要なすべてを提供します。 これらは約 30 ~ 45 日で完了するように設計されています。ただし、組織のアップグレード スケジュールに基づいてタスクの完了日を調整する必要があります。
 
 > [!IMPORTANT]
-> Skype for Business Online は、2021 年 7 月 31 日に廃止されました。 移行によるメリットを最大限に高め、アップグレード実施のための時間を組織で十分確保できるよう、Microsoft Teams への移行をすぐに開始することをお勧めします。
+> Skype for Business Online は 2021 年 7 月 31 日に廃止されました。 移行によるメリットを最大限に高め、アップグレード実施のための時間を組織で十分確保できるよう、Microsoft Teams への移行をすぐに開始することをお勧めします。
 
 アップグレード後Skype for Businessは何が起こりますか? ユーザーが Teams にアップグレードされた後 (**Teams のみ** モード) は次のようになります:
 
 - そのSkype for Businessクライアントが無効になり、すべてのチャットと通話がTeams。 これにより、デスクトップ上のクライアントはアンインストールされないので注意してください。
-- アップグレードSkype for Business前にスケジュールされていた会議は設計通り動作しますが、すべての新しい会議は、Teams。 このSkype for Businessは、このプラグインでは使用Outlook。 
+- アップグレードSkype for Business前にスケジュールされた会議は設計通り動作しますが、すべての新しい会議は、Teams。 このSkype for Businessプラグインは、Outlook で使用Outlook。 
 - ユーザーが Skype for Business にサインインしようとして、クライアントからユーザーにアップグレードされたという通知をTeams。
 - ユーザーは、モバイル デバイス上のSkype for Businessクライアントを手動でアンインストールする必要があります。
 
 アップグレードに関 [するその他](./faq-journey.yml) の質問については、FAQ を参照してください。
 
-使い慣れたTeams? [Teams](https://products.office.com/microsoft-teams/group-chat-software)が会話、会議、ファイル、Office アプリ、サード パーティの統合を結び付ける方法について説明します。Microsoft 365 と Office 365 でチームワークのための単一のハブを提供します。
+使い慣れたTeams? [Teams](https://products.office.com/microsoft-teams/group-chat-software) が会話、会議、ファイル、Office アプリ、サード パーティの統合を結び付ける方法について説明します。Microsoft 365 と Office 365 でチームワークを行う単一のハブを提供します。
 
 <!--ENDOFSECTION-->
 
@@ -76,10 +76,10 @@ ms.locfileid: "61562799"
 
 *(アップグレードの約 4 ~ 6 週間前)*
 
-Teams、IM Skype for Business会議など、互換性のある機能を提供しますが、さらに多くの機能を利用できます。 チームワークの真のハブとして、Teamsワークグループがプロジェクト、ファイル、会話、アプリを 1 つの場所ですべて管理できます。 既定では、Teams はすべての組織でオンになります。 組織でアプリケーションを使用する方法を決定Teams、成功を収める環境を構成します。 
+Teams、IM Skype for Business会議など、互換性のある機能を提供しますが、さらに多くの機能を利用できます。 チームワークの真のハブとして、Teamsワークグループがプロジェクト、ファイル、会話、アプリを 1 つの場所ですべて管理できます。 既定では、Teams はすべての組織でオンになります。 組織でアプリケーションを使用する方法を決定Teams環境を成功に向け構成します。 
 
 > [!Note]
-> 既存の顧客Skype for Business、現在のネットワーク インフラストラクチャが既に構成されている可能性Teams。 これを確認するには、以下にリンクされている「完全な技術計画」のガイダンスに従ってください (これは省略可能です)。
+> 顧客の既存のSkype for Business、現在のネットワーク インフラストラクチャは、既存のネットワーク インフラストラクチャに対して既に構成Teams。 これを確認するには、以下にリンクされている「完全な技術計画」のガイダンスに従ってください (これは省略可能です)。
 
 **リソース:**
 
@@ -92,11 +92,11 @@ Teams、IM Skype for Business会議など、互換性のある機能を提供し
 
 <a name="step-3"></a>
 
-## <a name="step-3-know-your-skype-for-business-users"></a>手順 3. ユーザーをSkype for Businessする
+## <a name="step-3-know-your-skype-for-business-users"></a>手順 3. 自分のユーザーをSkype for Businessする
 
 *(アップグレードの約 4 週間前)*
 
-アプリケーションに深く採用されているSkype for Business、ユーザーの移行にもう少し時間や支援が必要Teams。 追加のサポートを必要とするSkype for Businessユーザーを特定し、アップグレード後の番号に対して追跡できる使用基準を確立するために、現在の使用状況を確認する時間を取る。
+アプリケーションに深く採用されているSkype for Businessユーザーは、アプリケーションへの移行にもう少し時間や支援が必要Teams。 追加のサポートを必要とするSkype for Businessユーザーを特定し、アップグレード後の番号に対して追跡できる使用基準を確立するために、現在の使用状況を確認する時間を取る。
 
 **リソース:**
 
@@ -108,19 +108,19 @@ Teams、IM Skype for Business会議など、互換性のある機能を提供し
 
 <!--ENDOFSECTION-->
 
-## <a name="step-4-notify-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>手順 4. ユーザーが新しいバージョンから新しいバージョンにアップグレードSkype for Business通知Teams
+## <a name="step-4-notify-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>手順 4. ユーザーが新しいバージョンからアップグレードを実行Skype for Business通知Teams
 
 *(アップグレードの約 2 ~ 3 週間前)*
 
 ユーザーに十分な通知を提供することで、生産性に悪影響を与えることなく Teams に慣れる時間が与え、ユーザー エクスペリエンスが向上します。 通信を送信して、何が変化し、なぜ変化し、どのように準備できるのかを伝えます。
 
 > [!Note]
-> 必要に応じて、この時点Teamsを使用してユーザーのMicrosoft 365 管理センターを有効にできます。
+> 必要に応じて、この時点でTeamsを使用してユーザーのMicrosoft 365 管理センターを有効にできます。
 
 **リソース:**
 
 - [組織のMicrosoft Teams の設定を管理する](enable-features-office-365.md)
-- [サンプル メール: ユーザーに関する通知Skype for Business](upgrade-emails-surveys.md#step-4-email)
+- [電子メールのサンプル: ユーザーに関する通知Skype for Business](upgrade-emails-surveys.md#step-4-email)
 
 [ページのトップへ](#about-upgrade-basic)
 
@@ -132,7 +132,7 @@ Teams、IM Skype for Business会議など、互換性のある機能を提供し
 
 *(アップグレードの約 1 週間前)*
 
-管理ポータルでユーザーアップグレード通知を有効にすることでアップグレードの勢いを維持し、ユーザーが Skype for Business から Teams にアップグレードされるという視覚的なアラートを Skype for Business クライアントで提供します。
+管理ポータルでユーザーのアップグレード通知を有効にすることでアップグレードの勢いを維持し、Skype for Business クライアントでユーザーが Skype for Business から Teams にアップグレードされるという視覚的なアラートを提供します。
 
 **リソース:**
 
@@ -148,7 +148,7 @@ Teams、IM Skype for Business会議など、互換性のある機能を提供し
 
 *(アップグレードの約 5 日前)*
 
-ユーザーは毎日の責任に取り組む必要があります。 保留中のアップグレードを通知すると、アップグレードの準備に必要な手順を忘れTeams。 これは、利用可能なトレーニングと、新しいトレーニングを開始する方法についてユーザーに知Teams。
+ユーザーは毎日の責任に取り組む必要があります。 保留中のアップグレードを通知すると、アップグレードの準備に必要な手順を忘れTeams。 これは、利用可能なトレーニングと、新しいトレーニングの開始方法をユーザーに知Teams。
 
 **リソース:**
 
@@ -164,14 +164,14 @@ Teams、IM Skype for Business会議など、互換性のある機能を提供し
 
 *(アップグレード日)*
 
-今日は、組織が通信およびコラボレーション ソリューションとしてTeamsにアップグレードする日です。 管理センター Microsoft Teams、共存モードを [のみ] に設定して、**アップグレード スイッチTeamsします**。 (管理センターで、[アップグレード設定 **]**  >  **Teams Teamsに移動します**)。ユーザーは、自分のクライアントSkype for Businessにアップグレードされたという通知を受け取Teams。
+今日は、組織が通信およびコラボレーション ソリューションとしてTeamsにアップグレードする日です。 管理センター Microsoft Teams、共存モードを [のみ] に設定して、アップグレード **スイッチTeamsします**。 (管理センターで、[アップグレード設定] **Teams** >  **Teams移動** します)。ユーザーは、自分のクライアントSkype for Businessにアップグレードされたという通知を受け取Teams。
 
 すべてのユーザーがアップグレードされた後、すべてのユーザーを歓迎する電子メールを送信Teams。
 
 **リソース:**
 
 - [共存およびアップグレードの設定](setting-your-coexistence-and-upgrade-settings.md)
-- [電子メールの例: ユーザーをメールにTeams](upgrade-emails-surveys.md#step-7-email)
+- [電子メールの例: ユーザーを他のユーザーにTeams](upgrade-emails-surveys.md#step-7-email)
 
 [ページのトップへ](#about-upgrade-basic)
 
@@ -183,7 +183,7 @@ Teams、IM Skype for Business会議など、互換性のある機能を提供し
 
 *(アップグレード後約 1 ~ 2 週間)*
 
-新しいテクノロジに合わせて調整する場合、時間がかかる場合があります。 使用状況を確認して、ユーザーがTeamsと同じレベル以上のレベルで使用Skype for Business。 期待されるレベルでユーザーを使用していないTeamsにチェックインします。
+新しいテクノロジに合わせて調整する場合、時間がかかる場合があります。 使用状況を確認して、ユーザーが Teamsと同じレベル以上のレベルで使用Skype for Business。 期待されるレベルでユーザーを使用していないTeamsにチェックインします。
 
 **リソース:**
 
@@ -203,7 +203,7 @@ Teams、IM Skype for Business会議など、互換性のある機能を提供し
 
 **リソース:**
 
-- [サンプルメール: ユーザーにチェックインし、](upgrade-emails-surveys.md#step-9-email)ユーザーアンケート [を追加する](upgrade-emails-surveys.md#step-9-surveys)
+- [電子メールのサンプル: ユーザーとユーザーアンケート](upgrade-emails-surveys.md#step-9-email)を [チェックインする](upgrade-emails-surveys.md#step-9-surveys)
 
 [ページのトップへ](#about-upgrade-basic)
 
@@ -215,10 +215,10 @@ Teams、IM Skype for Business会議など、互換性のある機能を提供し
 
 *(進行中)*
 
-Teams での IM (チャット) と会議にユーザーが快適に取り組むには、Teams コラボレーションとアプリ統合を使用して、新しいソリューションを真に最適化し、投資収益を最大化することで、ユーザーに使用事例の拡張を促します。
+ユーザーが Teams での IM (チャット) と会議に快適に取り組む場合は、Teams コラボレーションとアプリ統合を使用して使用事例を拡張し、新しいソリューションを真に最適化し、投資収益を最大化します。
 
 **リソース:**
 
-- [電子メールのサンプル: ユーザーがさらに詳しい情報をTeamsする](upgrade-emails-surveys.md#step-10-email)
+- [電子メールのサンプル: ユーザーにさらに詳しいTeams勧め](upgrade-emails-surveys.md#step-10-email)
 
 [ページのトップへ](#about-upgrade-basic)

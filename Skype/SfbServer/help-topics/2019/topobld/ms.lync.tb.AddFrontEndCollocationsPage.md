@@ -1,8 +1,8 @@
 ---
 title: フロントエンド サーバーの併置を追加する
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 23e3bda7-a8bf-4da4-88e5-098ae2aa268f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Enterprise Edition 展開では、音声ビデオ会議サービスがフロントエンド プールに併置されます。仲介サーバーをフロントエンド プールに併置することも、スタンドアロンのサーバーとして仲介サーバーを展開することもできます。電話会議を有効にすると、音声ビデオ会議サービスは常に併置されます。
-ms.openlocfilehash: e8f3a5ac2e5b6cca244d4a396bf69f554ad4ff77
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7f7a2e6f6a7b11e378a9ab42ad045a9bcd7343bc
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832641"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397125"
 ---
 # <a name="add-front-end-server-collocations"></a>フロント エンド サーバーの併置の追加
 
@@ -37,4 +37,4 @@ Standard Edition フロントエンド サーバーまたは Enterprise Edition 
 
 計画ツールを使用して、仲介サーバーを照合するフロントエンド プールが負荷を処理できるかどうかを評価できます。 これらの要件に適合しない環境では、スタンドアロン仲介サーバー プールを展開する必要があります。
 
-一般に、組織の要件の中に高可用性と優れた拡張性が含まれる場合には、仲介サーバーの併置をお勧めしません。 Enterprise Edition 展開でフロントエンド プールにこれらのサーバー役割を併置する場合の詳細については、「展開」のドキュメントの「[Define and Configure a Front End Pool](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server)」を参照してください。 音声ビデオ会議の機能とコンポーネントの詳細については、「計画」のドキュメントの「[Planning for Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-conferencing)」を参照してください。 仲介サーバーなどのエンタープライズ VoIP機能とコンポーネントの詳細については、「計画」のドキュメントの「エンタープライズ VoIPのSkype for Business Server」を参照してください。 [](../../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
+一般に、組織の要件の中に高可用性と優れた拡張性が含まれる場合には、仲介サーバーの併置をお勧めしません。 Enterprise Edition 展開でフロントエンド プールにこれらのサーバー役割を併置する場合の詳細については、「展開」のドキュメントの「[Define and Configure a Front End Pool](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server)」を参照してください。 音声ビデオ会議の機能とコンポーネントの詳細については、「計画」のドキュメントの「[Planning for Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-conferencing)」を参照してください。 仲介サーバーなどのエンタープライズ VoIP機能とコンポーネントの詳細については、「計画」のドキュメントの[](../../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)「エンタープライズ VoIPのSkype for Business Server」を参照してください。

@@ -1,8 +1,8 @@
 ---
 title: アーカイブされたデータをエクスポートSkype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8214bb0a-baa7-414f-9eee-313b65223fa3
 description: '概要: アーカイブされたデータをエクスポートする方法についてSkype for Business Server。'
-ms.openlocfilehash: ef9ffca2612adb088f9d06cdbaad809f72278595
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d31d1abb5d4c194b891cf4c45a38f723e5ea2d4b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856784"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402961"
 ---
 # <a name="export-archived-data-in-skype-for-business-server"></a>アーカイブされたデータをエクスポートSkype for Business Server
 
 **概要:** アーカイブされたデータをエクスポートする方法についてSkype for Business Server。
   
-アーカイブ データベースにアーカイブされたデータは、検索可能または読み取り可能な形式では使用できませんが **、Export-CsArchivingData** コマンドレットを使用してデータベースからレコードを抽出し、Outlook 電子メール (EML) ファイルとして保存できます。
+アーカイブ データベースにアーカイブされたデータは、検索可能または読み取り可能な形式では使用できませんが、**Export-CsArchivingData** コマンドレットを使用してデータベースからレコードを抽出し、Outlook 電子メール (EML) ファイルとして保存できます。
   
 Microsoft アプリの統合を有効Exchange、データはストアにExchangeされます。 このデータは、Exchange検索および検出可能です。 ドキュメントにアーカイブされているデータへのアクセスの詳細については、ExchangeドキュメントをExchangeしてください。
   
@@ -37,10 +37,10 @@ Microsoft アプリの統合を有効Exchange、データはストアにExchange
 Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.contoso.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports"
 ```
 
-次のコマンドは、1 人のユーザーのアーカイブ データをエクスポートします。kenmyer@contoso.com。 これは、UserUri パラメーターの後にユーザーの SIP アドレスを含めて行います。 例: 
+次のコマンドは、1 人のユーザーのアーカイブ データをエクスポートします。kenmyer@contoso.com。 これは、UserUri パラメーターの後にユーザーの SIP アドレスを含めて行います。 次に例を示します。 
   
 ```PowerShell
 Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.contoso.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports" -UserUri "sip:kenmyer@contoso.com"
 ```
 
-詳細については [、Export-CsArchivingData コマンドレットのヘルプ トピックを参照](/powershell/module/skype/export-csarchivingdata?view=skype-ps) してください。
+詳細については、 [Export-CsArchivingData コマンドレットのヘルプ トピックを参照](/powershell/module/skype/export-csarchivingdata?view=skype-ps) してください。

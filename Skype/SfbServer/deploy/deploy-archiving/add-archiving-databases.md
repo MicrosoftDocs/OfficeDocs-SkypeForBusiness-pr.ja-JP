@@ -1,8 +1,8 @@
 ---
 title: アーカイブ データベースを既存の展開に追加Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 f1.keywords:
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
 description: '概要: このトピックでは、アーカイブ データベースを展開に追加する方法Skype for Business Serverしてください。'
-ms.openlocfilehash: d9434ffaf2141ea176b99825571ad2a17d0d5601
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3bc4e14998e45803518436bb180906e9c79e14f4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864474"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401581"
 ---
 # <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server"></a>アーカイブ データベースを既存の展開に追加Skype for Business Server
  
@@ -30,7 +30,7 @@ ms.locfileid: "60864474"
 - 更新されたトポロジを発行して、アーカイブ データベースを展開に追加Skype for Business Serverします。
     
 > [!NOTE]
-> Microsoft Exchange 統合を使用して、展開内のすべてのユーザーのアーカイブ データとファイルを Exchange サーバーに保存する場合は、アーカイブ SQL Server ストアまたは Use SQL Server Store ミラーリング **情報を** 指定しません。
+> Microsoft Exchange 統合を使用して、展開内のすべてのユーザーのアーカイブ データとファイルを Exchange サーバーに保存する場合は、アーカイブ SQL Server ストアまたは Use **SQL Server Store** ミラーリング情報を指定しません。
   
 ### <a name="add-an-archiving-database-to-your-topology"></a>アーカイブ データベースをトポロジに追加する
 
@@ -48,33 +48,33 @@ ms.locfileid: "60864474"
     
 7. [アーカイブ **] チェック ボックス** をオンにします。
     
-8. [**アーカイブ SQL Server] で、次** のいずれかの操作を行います。
+8. [**アーカイブ SQL Serverストア] で、次** のいずれかの操作を行います。
     
    - 既存の SQL Server ストアを使用するには、ドロップダウン リスト ボックスで、使用する SQL Server ストアの名前をクリックします。 すべてのユーザーが 2013 年 2013 年Microsoft Exchange Server以上に保存されている場合は、Skype for Business 内のすべてのユーザーの通信をアーカイブExchange。 この場合は、アーカイブ ストアを構成するSQL Server必要があります。
     
-   - 新しいストアをSQL Serverするには、[新規] をクリックし、[新しいストア ストアの定義] SQL Serverで、次 **の** 操作を行います。
+   - 新しいストアをSQL Serverするには、[新規] をクリックし、[新しいストア ストアの定義] SQL Server **で**、次の操作を実行します。
     
-   - [SQL Server **FQDN]** で、新しいドメイン ストアを作成するサーバーの FQDN をSQL Serverします。
+   - [**SQL Server FQDN**] で、新しいドメイン ストアを作成するサーバーの FQDN をSQL Serverします。
     
    - 既定のインスタンスを使用するには [**既定のインスタンス**] をクリックし、別のインスタンスを指定するには [**名前付きインスタンス**] をクリックして、使用するインスタンスを指定します。
     
    - 指定した SQL Server インスタンスがミラーリング関係にある場合は、[この **SQL** インスタンスがミラーリング関係にある] チェック ボックスをオンにし、[ミラー ポート番号] でポート番号を指定します。
     
-9. ストア ミラーリングを使用する場合SQL Server、[ストア ミラーリングSQL Server有効にする]**を選択し**、次の操作を行います。
+9. ストア ミラーリングを使用するSQL Server、[ストア ミラーリングを有効SQL Server] を選択し、次の操作を行います。
     
    - ミラーリングに既存の SQL Server ストアを使用するには、[アーカイブ **SQL Server** ストア のミラー] ドロップダウン リスト ボックスで、ミラーリングに使用する SQL Server ストアの名前をクリックします。
     
-   - ミラーリング用の新SQL Serverを指定するには、[新規] をクリックし、[新しいストア ストアの定義] SQL Server **で**、次のいずれかの操作を行います。
+   - ミラーリング用の新SQL Serverを指定するには、[新規] をクリックし、[新しいストア ストアの定義SQL Server **]** ダイアログ ボックスで、次のいずれかの操作を行います。
     
-     a. [SQL Server **FQDN]** で、新しいドメイン ストアをSQL Serverするドメイン サーバーの FQDN をSQL Serverします。
+     a. [**SQL Server FQDN**] で、新しいドメイン ストアをSQL Serverするドメイン サーバーの FQDN をSQL Serverします。
     
      b. 既定のインスタンスを使用するには [**既定のインスタンス**] をクリックし、別のインスタンスを指定するには [**名前付きインスタンス**] をクリックして、使用するインスタンスを指定します。
     
      c. 指定した SQL Server インスタンスがミラーリング関係にある場合は、[この **SQL** インスタンスがミラーリング関係にある] チェック ボックスをオンにし、[ミラー ポート番号] でポート番号を指定します。
     
-   - SQL Server ミラーリングを有効にし、SQL Server ミラーリング監視 (プライマリ SQL Server インスタンスとミラー インスタンスの正常性を検出できる 3 番目の独立した SQL Server インスタンス) を含める場合は、[SQL Serverミラーリング監視を使用して自動フェールオーバーを有効にする] チェック ボックスをオンにして、次のいずれかの操作を行います。e 次の手順を実行します。
+   - SQL Server ミラーリングを有効にし、SQL Server ミラーリング監視 (プライマリ SQL Server インスタンスとミラー インスタンスの正常性を検出できる 3 番目の独立した SQL Server インスタンス) を含める場合は、[SQL Server ミラーリング監視を使用して自動フェールオーバーを有効にする] を選択します。 チェック ボックスをオンにし、次のいずれかの操作を行います。
     
-     a. [SQL Server **FQDN]** で、ミラーリング監視の新しいサーバーを作成するサーバーの FQDN をSQL Serverします。
+     a. [**SQL Server FQDN**] で、ミラーリング監視の新しいサーバーを作成するサーバーの FQDN をSQL Serverします。
     
      b. 既定のインスタンスを使用するには [**既定のインスタンス**] をクリックし、別のインスタンスを指定するには [**名前付きインスタンス**] をクリックして、ミラーリング監視で使用するインスタンスを指定します。
     
@@ -91,7 +91,7 @@ ms.locfileid: "60864474"
   
 2. トポロジ ビルダーを使用して、前のセクションで作成したトポロジを開きます。
     
-3. コンソール ツリーで、[トポロジの公開] を **右クリックSkype for Business Server、[** トポロジの公開]**をクリックします**。
+3. コンソール ツリーで、[トポロジの公開] を **右クリックSkype for Business Server**、[トポロジの公開 **] をクリックします**。
     
 4. [**トポロジの公開**] ページで、[**次へ**] をクリックします。
     
@@ -103,6 +103,6 @@ ms.locfileid: "60864474"
 6. **[公開完了のウィザード]** ページで、トポロジが正常に公開されたことを確認し、**[完了]** をクリックします。
     
     > [!IMPORTANT]
-    > トポロジを公開した後、コンテンツをアーカイブする前に、アーカイブのオプションおよびポリシーを構成する必要があります。 詳細については、「アーカイブ オプションの[構成](configure-archiving-options.md)」および「Skype for Business Serverのアーカイブ ポリシーの構成[」を参照](configure-archiving-policies.md)Skype for Business Server。 
+    > トポロジを公開した後、コンテンツをアーカイブする前に、アーカイブのオプションおよびポリシーを構成する必要があります。 詳細については、「アーカイブ オプションの[構成」および](configure-archiving-options.md)「Skype for Business Serverのアーカイブ ポリシーを構成する[」を参照Skype for Business Server](configure-archiving-policies.md)。 
   
 

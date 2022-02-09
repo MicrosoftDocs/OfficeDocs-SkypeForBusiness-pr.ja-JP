@@ -1,7 +1,7 @@
 ---
 title: Microsoft Education のガバナンスに関するよくある質問 (管理者向け)
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 66fc220e2796ae35b7a11467e16da98ab475d647
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f2cae3ba57ca3e6a4c6596ba67ed257f167338ba
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831731"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400051"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>Microsoft Education のガバナンスに関するよくある質問 (管理者向け)
 
@@ -33,9 +33,9 @@ ms.locfileid: "60831731"
 
 不適切な名前や誤解を招く名前を避けるため、またはチームの名前の構造を高くするために、Microsoft 365 Groups 名前付けポリシー (現在プレビュー中) を使用できます。
 
--   **プレフィックス/サフィックスの名前付けポリシー** プレフィックスまたはサフィックスを使用して、チーム (グループ) の名前付け規則を定義できます (例: **GRP_US_My Group_Engineering**) プレフィックスとサフィックスは、チームを作成しているユーザーに基づいて名前に追加される固定文字列またはユーザー属性 **([Department]** など) です。
--   **カスタムのブロックする単語** 特定の組織のユーザーが作成したチームの名前で使用をブロックする単語のセットをアップロードできます。 たとえば、CEO、Payroll、HR という用語が、適用されないグループのチーム名で使用されるのをブロックできます。 
--   **分類** 組織内のユーザーがグループを作成するときに設定できる分類Microsoft 365できます。 
+-   **プレフィックス/サフィックスの名前付けポリシー** プレフィックスまたはサフィックスを使用して、チーム (グループ) の名前付け規則を定義できます (例: **GRP_US_My Group_Engineering**) プレフィックスとサフィックスは、チームを作成しているユーザーに基づいて名前に追加される固定文字列またはユーザー属性 ([ **Department]** など) です。
+-   **カスタムのブロックする単語** 特定の組織のユーザーが作成したチームの名前で使用をブロックする単語のセットをアップロードできます。 たとえば、 **CEO**、 **Payroll**、 **HR** という用語が、適用されないグループのチーム名で使用されるのをブロックできます。
+-   **分類** 組織内のユーザーがグループを作成するときに設定できる分類をMicrosoft 365できます。 
 
 > [!IMPORTANT]
 > Microsoft 365 グループ名前付けポリシーを使用するには、1 つ以上の Microsoft 365 グループのメンバーである一意のユーザーごとに、Azure Active Directory Premium P1 ライセンスまたは Azure AD Basic EDU ライセンスが必要です。
@@ -43,7 +43,7 @@ ms.locfileid: "60831731"
 詳しい手順については、「[Office グループの名前付けポリシー](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)」を参照してください。
 
 > [!Note]
-> チームが別のシステムからの入力 (学校データ同期 など) を使用して自動的に作成される場合は、入力データが構成した名前付けポリシーに準拠していることを確認します。作成しない場合、チームの作成は失敗します。
+> 別のシステム (学校データ同期 など) からの入力を使用してチームが自動的に作成される場合は、入力データが構成した名前付けポリシーに準拠していることを確認します。構成されていない場合、チームの作成は失敗します。
 
 ## <a name="can-i-see-who-created-a-team"></a>チームを作成したユーザーを確認できますか?
 
@@ -55,30 +55,30 @@ ms.locfileid: "60831731"
 
 私たちの経験では、ユーザー教育は責任ある Teams の使用を確実にするのに役立ちます。 ユーザーは、チームの作成が匿名ではないと理解するとすぐに、チームを不注意で作成した場合の影響を理解し、ツールの誤使用を敬遠する傾向があります。
 
-チームを作成できるユーザーを制御する必要がある場合は、「グループを作成できるユーザーを管理する[」をMicrosoft 365してください](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618)。
+チームを作成できるユーザーを制御する必要がある場合は、「グループを作成できるユーザーを管理Microsoft 365[してください](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618)。
 
 ## <a name="how-do-i-automatically-create-a-team-for-each-course-at-the-beginning-of-the-semester-or-quarter"></a>学期または四半期の開始時にコースごとにチームを自動的に作成するにはどうすればよいですか?
 
 各学期または四半期の始めには、新しいチームが多数必要です。 これらのチームを自動的に作成し、適切なユーザーを選択し、適切な権限を設定するという自動化されたアプローチは適切かもしれません。
 
--   学校データ同期 Exchange Online および SharePoint Online の Microsoft 365 グループ、Microsoft Teams および OneNote Class Notebook 用のクラス チーム、Intune for Education の学校グループ、および一覧作成とシングル サインオン (SSO) の統合を作成できます。その他の多くのサード パーティ製アプリケーション。 詳細については、「[School Data Sync の概要](/schooldatasync/overview-of-school-data-sync)」を参照してください。
+-   学校データ同期、Microsoft 365 Online 用のExchange OnlineグループSharePointグループを作成し、Microsoft TeamsおよびOneNote クラス ノートブック、Intune for Education の学校グループ、および他の多くのサード パーティ製アプリケーションの一覧とシングル サインオン (SSO) の統合。 詳細については、「[School Data Sync の概要](/schooldatasync/overview-of-school-data-sync)」を参照してください。
 -   PowerShell を使用すると、チームやチャネルを作成して、設定を自動的に構成できます。 詳細については、「[Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps)」を参照してください。
 -   Microsoft Graph API (現在ベータ版) を使用して、チームの作成、構成、複製、アーカイブを行うことができます。 詳細については、「[Microsoft Graph API を使用して Microsoft Teams で作業する](/graph/api/resources/teams-api-overview)」を参照してください。
 
 > [!TIP]
-> 学校データ同期クラスごとに Microsoft 365 グループを作成し、非表示のグループ メンバーシップを有効[](https://techcommunity.microsoft.com/t5/School-Data-Sync/HiddenGroupMembershipEnabled-SDS-setting/td-p/159945)にすることで、クラス内の教師と学生だけがそのクラスのメンバーを表示できます。 別のプロセスを使用してクラス グループを作成している場合は、New-UnifiedGroup コマンドレットの HiddenGroupMembershipEnabled パラメーターを使用して、同じプライバシー要件を満たすことができます。
+> 学校データ同期クラスごとに Microsoft 365 グループを作成し、非表示のグループ メンバーシップを有効にすることで[](https://techcommunity.microsoft.com/t5/School-Data-Sync/HiddenGroupMembershipEnabled-SDS-setting/td-p/159945)、クラス内の教師と学生だけがそのクラスのメンバーを表示できます。 別のプロセスを使用してクラス グループを作成している場合は、New-UnifiedGroup コマンドレットの HiddenGroupMembershipEnabled パラメーターを使用して、同じプライバシー要件を満たすことができます。
 
 ## <a name="how-do-i-deal-with-teams-when-the-semester-or-quarter-ends"></a>学期や四半期が終わったときにチームにどのような対処すればよいですか?
 
-学校の学期または四半期が終了した場合に、Teams データを処理する方法を最初に考えすることをお勧めします。コースを完了した後でも、それを削除するか、学生が利用できる状態に保つかを考えすることをお勧めします。 設定したポリシーが祝日と競合しないので、学校の予定表を念頭に置いておきます。 戦略の実装には次のツールを使用できます。
+学校の学期または四半期が終わったときに、Teams データを処理する方法を最初に考えるのをお勧めします。このデータを削除するか、コースを完了した後でも学生が利用できる状態に保つかどうかです。 設定したポリシーが祝日と競合しないので、学校の予定表を念頭に置いておきます。 戦略の実装には次のツールを使用できます。
 
--   **アイテム保持ポリシー:** 指定した期間を経過したすべての古いデータが削除されます。古いデータがチャット (すべてまたは一部のユーザー用) およびチャンネルから削除されます。 コンテンツを削除Teamsコンテンツを保持するアカウントを構成できます。 詳細については、「[Microsoft Teams の保持ポリシー](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Retention-policies-for-Microsoft-Teams/ba-p/178011)」を参照してください。
--   **有効期限ポリシー:** 特定の日数が経過した後に、期限切れになるようにチームを構成します。 有効期限の 30 日前に、チームのすべての所有者に、チームの更新が必要であることが通知されます。それ以外の場合は、削除されます (管理者は、削除されたチームをさらに 30 日間復元できます)。 この設定は、未使用のチームが使用されていない状況を確認するのに非常に便利です。 詳細については、「Microsoft 365[ポリシー」を参照してください](https://support.office.com/article/office-365-group-expiration-policy-8d253fe5-0e09-4b3c-8b5e-f48def064733)。
+-   **アイテム保持ポリシー:** 指定した期間を経過したすべての古いデータが削除されます。古いデータがチャット (すべてまたは一部のユーザー用) およびチャンネルから削除されます。 コンテンツを削除Teamsコンテンツを保持するコンテンツを構成できます。 詳細については、「[Microsoft Teams の保持ポリシー](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Retention-policies-for-Microsoft-Teams/ba-p/178011)」を参照してください。
+-   **有効期限ポリシー:** 特定の日数が経過した後に、期限切れになるようにチームを構成します。 有効期限の 30 日前に、チームのすべての所有者に、チームの更新が必要であることが通知されます。それ以外の場合は、削除されます (管理者は、削除されたチームをさらに 30 日間復元できます)。 この設定は、未使用のチームが使用されていない状況を確認するのに非常に便利です。 詳細については、「Microsoft 365[有効期限ポリシー」を参照してください](https://support.office.com/article/office-365-group-expiration-policy-8d253fe5-0e09-4b3c-8b5e-f48def064733)。
 
 -   **チームをアーカイブする:** この設定で、チームは読み取り専用モードになります。 参照して検索することはできますが、新しい投稿を追加することはできません。 「[チームをアーカイブする、または復元する](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)」は、チームの所有者がチームをアーカイブする方法を説明します。チームの所有者は、 「[Graph API (ベータ)](/graph/api/resources/teams-api-overview)」を使用してチームをアーカイブまたは復元することもできます。
  
 > [!IMPORTANT]
-> Microsoft 365 グループの有効期限ポリシーを使用するには、Azure Active Directory Premium P1グループのメンバーである一意のユーザーごとにライセンスをMicrosoft 365があります。
+> グループのMicrosoft 365有効期限ポリシーを使用するには、1 つ以上Azure Active Directory Premium P1グループのメンバーである一意のユーザーごとにライセンスをMicrosoft 365があります。
 
 ## <a name="are-there-team-templates-for-my-faculty-members-to-use-when-creating-a-team"></a>チームを作成するときに教職員用に使用できるチームのテンプレートはありますか?
 
@@ -122,7 +122,7 @@ Teams のポリシーの詳細については、「[組織の Microsoft Teams �
 ゲスト アクセスを使用すると、テナント外のユーザーを招待することができます。これは、研究の共同作業や来客の講義に便利です。
 
 -   ドメインの許可リストを使用して、ドメインに基づいてゲストを許可またはブロックします。
--   特定のグループとチームのゲスト アクセスMicrosoft 365をオンまたはオフにし、ゲストを招待できる (または招待できない) チームを制御します。
+-   特定のグループとチームに対してゲスト アクセスMicrosoft 365をオンまたはオフにし、ゲストを招待できる (または招待できない) チームを制御します。
 -   監査ログを使用して、招待されたゲストに送信された警告を確認します。
 
 詳細については、「グループ内の[ゲスト アクセス」をMicrosoft 365してください](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6#PickTab=Manage)。

@@ -1,8 +1,8 @@
 ---
 title: 新しい呼び出し元番号変換ルール
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 2b6493f1-1be5-45b4-841a-09425cb302e1
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[新規 トランク構成] の [新規 発信者番号の変換ルール] を使用して、新しい変換ルールを作成できます。変換ルールの詳細については、次のトピックを参照してください。'
-ms.openlocfilehash: 95ae70146c89c9f1bc40edb9b01f8724357ae10f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 37be36b1241a96d3975e46366b888d93a6838a1f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833683"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402291"
 ---
 # <a name="new-calling-number-translation-rule"></a>新しい呼び出し元番号変換ルール
 

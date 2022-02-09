@@ -1,8 +1,8 @@
 ---
 title: トポロジ ビューの単純な URL
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: c17f13f2-2e45-44d6-b56d-74ec8989eef1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: f41672f85cf19625852fd2705cf48f3305be1193
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 102f13ac860415e77edf818321add876843d56ee
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851551"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402351"
 ---
 # <a name="topology-view-simple-url"></a>トポロジ: 簡単な URL の表示
 

@@ -1,8 +1,8 @@
 ---
 title: 通話品質ダッシュボードを展開Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: '概要: 通話品質ダッシュボードの展開プロセスについて説明します。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。'
-ms.openlocfilehash: 87caf5566c509580c211f68b685a868de2d2df58
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: be6164c7b73a80c0557ea0814efddf59214a5481
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829921"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396349"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>通話品質ダッシュボードを展開Skype for Business Server
  
@@ -28,9 +28,9 @@ ms.locfileid: "60829921"
 
 通話品質ダッシュボード (CQD) は、次の 3 つの主要なコンポーネントで構成されます。
   
-- **アーカイブ データベース**:QoE (Quality of Experience) データがレプリケートおよび保存されます。
+- **アーカイブ データベース**。QoE (Quality of Experience) データがレプリケートおよび保存されます。
     
-- **キューブ**:QoE アーカイブ データベースのデータが集約され、最適化された高速アクセスが可能です。
+- **キューブ。QoE** アーカイブ データベースのデータが集約され、最適化された高速アクセスが可能です。
     
 - **ユーザーが** QoE データを簡単にクエリおよび視覚化できるポータル。
     
@@ -47,7 +47,7 @@ QoE アーカイブのセットアップ プロセスでは、QoE アーカイ�
 |:-----|:-----|:-----|:-----|
 |前提条件のハードウェアとソフトウェアをインストールします。  <br/> |CQD 構成を決定し、インストールをSQL Serverを選択します。  <br/> |ローカルの Administrators グループのメンバーであるドメイン ユーザー。  <br/> |展開のドキュメントの「インストール前の要件」セクション。  <br/> |
 |CQD をインストールします。  <br/> |展開ドキュメントに従って MSI を実行します。  <br/> |セットアップを実行するには、インストール アカウントは、ローカル管理者グループのメンバーであり、監視サーバー上の QoE Metrics データベースへの読み取りアクセス権を持つドメイン ユーザーである必要があります。  <br/> |展開に関するドキュメントの「アカウントと展開の手順」セクション。  <br/> |
-|ユーザー アクセスを許可します。  <br/> |ポータルへのユーザー承認を管理するには、IIS 7.0 で導入された URL 承認を使用することをお勧めします。 詳細については [、「IIS 7.0 URL の承認について」を参照してください](https://www.iis.net/learn/manage/configuring-security/understanding-iis-url-authorization)。  <br/> |ローカルの Administrators グループのメンバーであるドメイン ユーザー。  <br/> |展開に関するドキュメントの「ポータルのユーザー アクセスの管理」セクション。  <br/> |
+|ユーザー アクセスを許可します。  <br/> |ポータルへのユーザー承認を管理するには、IIS 7.0 で導入された URL 承認を使用することをお勧めします。 詳細については、「 [IIS 7.0 URL 承認について」を参照してください](https://www.iis.net/learn/manage/configuring-security/understanding-iis-url-authorization)。  <br/> |ローカルの Administrators グループのメンバーであるドメイン ユーザー。  <br/> |展開に関するドキュメントの「ポータルのユーザー アクセスの管理」セクション。  <br/> |
 |オプション: サブネット マッピング情報を提供します。  <br/> |QoE アーカイブ データベースにネットワークと構築マッピング テーブルを設定します。  <br/> |QoE アーカイブ データベースへの書き込みアクセス権を持つアカウント。  <br/> |ユーザードキュメントの「サブネット情報の提供」セクション。  <br/> |
    
 
@@ -68,11 +68,11 @@ QoE アーカイブのセットアップ プロセスでは、QoE アーカイ�
     
 6. [QoE アーカイブ構成] ページで、次の情報を入力します。
     
-   - **QoE Metrics SQL Server:** qoE metrics DB SQL Server場所のインスタンス名を指定します (これはデータ ソースになります)。
+   - **QoE Metrics SQL Server:** qoE SQL Server DB が保存されている場所のインスタンス名を指定します (これはデータ ソースになります)。
     
    - **QoE アーカイブ SQL Server名:** これは読み取り専用フィールドであり、ローカル コンピューターの完全修飾ドメイン名に固定されています。 アーカイブ DB は、ローカル コンピューターにのみインストールできます。
     
-   - **QoE アーカイブ SQL Serverインスタンス:** アーカイブ DB SQL Serverするローカル インスタンス名です。 既定のインスタンスを使用SQL Server、このフィールドは空白のままにします。 名前付きインスタンスをSQL Serverするには、インスタンス名 ("の後の名前など) を指定します \" 。
+   - **QoE Archive SQL Serverインスタンス:** アーカイブ DB をSQL Serverするローカル インスタンス名です。 既定のインスタンスを使用SQL Server、このフィールドは空白のままにします。 名前付きインスタンスをSQL Serverするには、インスタンス名 (たとえば、"の後の名前) を指定します\"。
     
    - **QoE アーカイブ データベース:** 既定では、このオプションは "新しいデータベースの作成" に設定されています。 アーカイブ DB のアップグレードはサポートされていないので、"既存のデータベースを使用する" オプションを使用できる唯一の状況は、既存のアーカイブ データベースがインストールするビルドと同じスキーマを持つ場合です。
     
@@ -85,10 +85,10 @@ QoE アーカイブのセットアップ プロセスでは、QoE アーカイ�
   
    - **パーティション ファイル ディレクトリ:** QoE アーカイブ データベースのパーティションを配置する場所へのパス。 これは、OS ドライブとデータベース ログ ファイル ドライブとは別のドライブ (推奨ハードウェア構成の HDD3) 上SQLする必要があります。 ファイル名はインストールで固定されていますので、競合の可能性を回避するために、ファイルがない空のディレクトリを使用してください。
     
-   - **SQL エージェント ジョブ ユーザー - ユーザー名 &amp;パスワード:** SQL Server エージェント ジョブの "QoE アーカイブ データ" ステップを実行するために使用されるドメイン サービス アカウント名とパスワード (マスク) (これは、QoE Metrics DB からアーカイブ DB にデータをフェッチするためにストアド プロシージャを実行します。そのため、このアカウントは[アカウント] セクションで示されている QoE Metrics DB への読み取りアクセス権を持っている必要があります。 このアカウントには、QoE アーカイブ サーバーインスタンスにログインするSQL Serverがあります)。
+   - SQL エージェント ジョブ ユーザー **- &amp;** ユーザー名パスワード: SQL Server エージェント ジョブの "QoE アーカイブ データ" ステップを実行するために使用されるドメイン サービス アカウント名とパスワード (マスク) (これは、QoE Metrics DB からアーカイブ DB にデータをフェッチするためにストアド プロシージャを実行します。そのため、このアカウントは[アカウント] セクションに示されている QoE Metrics DB への読み取りアクセス権を持っている必要があります。 このアカウントには、QoE アーカイブ サーバーインスタンスにログインするSQL Serverがあります)。
     
      > [!NOTE]
-     > NT SERVICE\MSSQLSERVER など、SQL Server インスタンスが実行されているアカウントには、インストールが成功するには、上記のディレクトリへのアクセス/アクセス許可が必要です。 詳細については[、「Configure File System Permissions for データベース エンジン Access」を参照してください。](/previous-versions/sql/sql-server-2012/jj219062(v=sql.110))
+     > NT SERVICE\MSSQLSERVER など、SQL Server インスタンスが実行されているアカウントには、インストールが成功するには、上記のディレクトリへのアクセス/アクセス許可が必要です。 詳細については、「[Configure File System Permissions for データベース エンジン Access」を参照してください。](/previous-versions/sql/sql-server-2012/jj219062(v=sql.110))
   
 7. [次へ] をクリックすると、インストーラーは前提条件のチェックを実行し、問題が発生した場合に報告します。 すべての前提条件のチェックが合格すると、インストーラーは [キューブ構成] ページに移動します。 
     
@@ -99,7 +99,7 @@ QoE アーカイブのセットアップ プロセスでは、QoE アーカイ�
     
    - **QoE アーカイブ SQL Server名:** これは読み取り専用フィールドであり、ローカル コンピューターの完全修飾ドメイン名に固定されています。 キューブは、QoE アーカイブ データベースを持つコンピューターからのみインストールできます (注。 キューブ自体がリモート コンピューターにインストールされている可能性があります。 以下を参照)
     
-   - **QoE アーカイブ SQL Serverインスタンス:** qoE SQL Server DB が保存されている場所のインスタンス名を指定します。 既定のインスタンスを指定SQL Server、このフィールドは空白のままにします。 名前付きインスタンスをSQL Serverするには、インスタンス名 ("の後の名前など) を入力します \" 。 QoE アーカイブ コンポーネントがインストール用に選択されている場合、このフィールドには、[QoE アーカイブ構成] ページに指定された値が事前に入力されます。
+   - **QoE アーカイブ SQL Serverインスタンス:** qoE SQL Server DB が保存されている場所のインスタンス名を指定します。 既定のインスタンスを指定SQL Server、このフィールドは空白のままにします。 名前付きインスタンスをSQL Serverするには、インスタンス名 (たとえば、"の後の名前) を入力します\"。 QoE アーカイブ コンポーネントがインストール用に選択されている場合、このフィールドには、[QoE アーカイブ構成] ページに指定された値が事前に入力されます。
     
    - **キューブ分析サーバー: SQL Server** 作成する場所の Analysis Service インスタンス名を指定します。 これは別のコンピューターにすることもできますが、インストールユーザーは Analysis Service インスタンスのターゲットサーバー管理者のSQL Server必要があります。
     
@@ -117,11 +117,11 @@ QoE アーカイブのセットアップ プロセスでは、QoE アーカイ�
     
 10. [ポータルの構成] ページで、次の情報を入力します。
     
-    - **QoE アーカイブ SQL Server: qoE** アーカイブ SQL Serverがある場所のインスタンス名を指定します。 [QoE アーカイブ構成] ページと [キューブ構成] ページとは異なり、コンピューター名は固定されていないので、指定する必要があります。 QoE アーカイブ コンポーネントがインストール用に選択されている場合、このフィールドには、[QoE アーカイブ構成] ページに指定された値が事前に入力されます。
+    - **QoE アーカイブ SQL Server: SQL Server** QoE アーカイブ データベースがある場所のインスタンス名を指定します。 [QoE アーカイブ構成] ページと [キューブ構成] ページとは異なり、コンピューター名は固定されていないので、指定する必要があります。 QoE アーカイブ コンポーネントがインストール用に選択されている場合、このフィールドには、[QoE アーカイブ構成] ページに指定された値が事前に入力されます。
     
     - **キューブ分析サーバー: SQL Server** 場所の Analysis Service インスタンス名を指定します。 インストールにキューブ コンポーネントが選択されている場合、このフィールドには、[キューブ構成] ページに表示される値が事前に入力されます。
     
-    - **リポジトリ SQL Server: SQL Server** データベースを作成するインスタンス名を指定します。 QoE アーカイブ データベースがある場所の SQL Server インスタンス名がセットアップの前に (他のコンポーネントで) 提供されている場合、このフィールドには QoE アーカイブ DB SQL Server インスタンス名が事前に入力されます。 これは、任意のインスタンスSQL Serverできます。
+    - **リポジトリ SQL Server:** SQL Serverデータベースを作成するインスタンス名を指定します。 QoE アーカイブ データベースがある場所の SQL Server インスタンス名がセットアップの前に (他のコンポーネントで) 提供されている場合、このフィールドには QoE アーカイブ DB SQL Server インスタンス名が事前に入力されます。 これは、任意のインスタンスSQL Serverできます。
     
     - **リポジトリ データベース:** 既定では、オプションは "新しいデータベースの作成" に設定されます。 リポジトリ DB のアップグレードはサポートされていないので、"既存のデータベースを使用する" オプションを使用できる唯一の状況は、既存のリポジトリ DB がインストールするビルドと同じスキーマを持つ場合です。
     
@@ -129,20 +129,20 @@ QoE アーカイブのセットアップ プロセスでは、QoE アーカイ�
     
 11. [次へ] をクリックすると、検証の最終ラウンドが実行され、SQL Server インスタンスに提供された資格情報を使用してアクセス可能であり、コンピューター上で IIS が使用できます。 検証が正常に完了すると、インストーラーはセットアップを続行します。 
     
-インストーラーが完了すると、最も可能性SQL Serverエージェント ジョブが進行中で、QoE データの初期負荷とキューブ処理が実行されます。 QoE のデータ量に応じて、ポータルにはまだ表示できるデータがありません。 データの読み込みとキューブ処理の状態を確認するには、に移動します  `http://<machinename>/CQD/#/Health` 。 
+インストーラーが完了すると、最も可能性SQL Serverエージェント ジョブが進行中で、QoE データの初期負荷とキューブ処理が実行されます。 QoE のデータ量に応じて、ポータルにはまだ表示できるデータがありません。 データの読み込みとキューブ処理の状態を確認するには、に移動します  `http://<machinename>/CQD/#/Health`。 
 > [!NOTE]
 > ダウンロード キューブ処理の状態を確認する URL では大文字と小文字が区別されます。 'health' と入力すると、URL は機能しません。 URL の末尾に「Health」と入力し、大文字の H を入力する必要があります。 
   
-デバッグ モードが有効になっている場合、詳細なログ メッセージが表示されます。 デバッグ モードを有効にするには **、[%SYSTEMDRIVE%\Program Files\Skype For Business 2015** CQD\QoEDataService\web.config] に移動し、値が True に設定されている次の行を更新 **します**。
+デバッグ モードが有効になっている場合、詳細なログ メッセージが表示されます。 デバッグ モードを有効にするには、[**%SYSTEMDRIVE%\Program Files\Skype For Business 2015 CQD\QoEDataService\web.config**] に移動し、次の行を更新して値を **True に設定します**。
 
 ```xml
 <add key="QoEDataLib.DebugMode" value="True" /> 
 ```
 
-メイン ポータル ページにアクセスするには  `http://<machinename>/CQD` 、 を使用します。 
+メイン ポータル ページにアクセスするには、 を使用します  `http://<machinename>/CQD`。 
 ## <a name="managing-user-access-for-the-portal"></a>ポータルのユーザー アクセスの管理
 
-ポータルへのユーザー承認を管理するには、IIS 7.0 で導入された URL 承認を使用することをお勧めします。 IIS セキュリティの詳細については [、「IIS 7.0 URL の承認について」を参照してください](https://www.iis.net/learn/manage/configuring-security/understanding-iis-url-authorization)。
+ポータルへのユーザー承認を管理するには、IIS 7.0 で導入された URL 承認を使用することをお勧めします。 IIS セキュリティの詳細については、「 [IIS 7.0 URL 承認について」を参照してください](https://www.iis.net/learn/manage/configuring-security/understanding-iis-url-authorization)。
   
 すべての Web サイトまたは Web アプリケーションは、IIS 全体に対して構成されている既定の URL 承認を継承します。通常は "すべてのユーザーを許可する" です。 ポータルへのアクセスを制限する必要がある場合、管理者は"承認ルール" を編集して、特定のユーザー グループにのみアクセス権を付与できます。
   
@@ -176,7 +176,7 @@ QoE アーカイブのセットアップ プロセスでは、QoE アーカイ�
     
      ![通話品質ダッシュボードを展開します。](../../media/544056eb-3090-434e-bae6-321c984029fa.png)
   
-2. [セクション] で **、[system.webServer/serverRuntime] を選択します**。
+2. [セクション] で、[ **system.webServer/serverRuntime] を選択します**。
     
      ![通話品質ダッシュボードを展開します。](../../media/b0af0e56-21b0-45dd-b610-5381b39319d3.png)
   
@@ -196,13 +196,13 @@ QoE アーカイブのセットアップ プロセスでは、QoE アーカイ�
 
 つまり、キューブは CQD で使用する前に、SQL Server Analysis Services で処理する必要があります。 これを解決するには、次の手順を実行します。
 
-1. [分析SQL Management Studioを開き、[Analysis **Services] を選択します**。
+1. [分析SQL Management Studioを開き、[**Analysis Services] を選択します**。
 
-2. **QoECube オブジェクトを展開** し **、[QoE メトリック**] を選択し、右クリックして、[参照] を **選択します**。 
+2. **QoECube オブジェクトを展開** し、[**QoE メトリック**] を選択し、右クリックして、[参照] を選択 **します**。 
 
     これが空のブラウザーを返す場合、キューブはまだ続行されていません。
 
-3. **[QoE** Metric angain] を右クリックし、[プロセス] を **選択します**。
+3. [QoE Metric angain **] を右** クリックし、[プロセス] を **選択します**。
 
 4. 処理が完了したら、もう一度オブジェクトを右クリックし、[参照] を選択して、ブラウザー ページにデータが表示されるのを確認します。 
 
@@ -233,9 +233,9 @@ HTTP および HTTPS ポート バインドの場合、インストーラーは�
   
 IIS で SSL/TLS を有効にし、HTTP ではなくセキュリティで保護された HTTPS 経由でユーザーに強制的に接続するには、次の方法を実行します。
   
-1. IIS Secure Sockets Layer構成する場合は、「IIS [7 でSecure Sockets Layer構成する」を参照してください](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771438(v=ws.10))。 完了したら、 に置き  `http` 換える `https` 。
+1. IIS Secure Sockets Layer構成する方法については、「IIS [7 でのSecure Sockets Layer構成」を参照してください](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771438(v=ws.10))。 完了したら、 に置き換  `http` える `https`。
     
-2. SQL Server 接続で TLS を有効にする手順については、「Microsoft 管理コンソールを使用して、SQL Serverインスタンスの SSL 暗号化を有効にする方法」を[参照してください](https://support.microsoft.com/kb/316898/)。
+2. SQL Server 接続で TLS を有効にする方法については、「Microsoft 管理コンソールを使用して、SQL Serverインスタンスの SSL 暗号化を有効にする方法」を[参照してください](https://support.microsoft.com/kb/316898/)。
     
 ## <a name="cube-sync-fails"></a>キューブの同期が失敗する
 
@@ -305,9 +305,9 @@ BuildingTypeId パラメーターと BuildingTypeDesc パラメーターが必�
   
 例
   
-- Contoso リース非 RE &amp; F
+- Contoso リース非 REF&amp;
     
-- Contoso リース RE &amp; F
+- Contoso リース REF&amp;
     
 - Contoso 所有
     
@@ -388,7 +388,7 @@ BuildingKey、BuildingName、BuildingShortName、OwnershipTypeId、BuildingTypeI
 > [!NOTE]
 > この手順は省略可能ですが、お勧めします。
   
-サブネットをインポートし、最後の手順でインポートした Buildings にマップします。 NetworkName を設定しない場合は、この表の各エントリで NetworkNameID が 0 を使用することを確認します。 通話品質ダッシュボードのSQLおよびパラメーターの詳細については、「Use Call Quality Dashboard for call Quality Dashboard for Skype for Business Server」 を[参照してください](./use.md)。
+サブネットをインポートし、最後の手順でインポートした Buildings にマップします。 NetworkName を設定しない場合は、この表の各エントリで NetworkNameID が 0 を使用することを確認します。 通話品質ダッシュボードのSQLおよびパラメーターの詳細については、「Use [Call Quality Dashboard for call Quality Dashboard for call quality dashboard for](./use.md) Skype for Business Server。
   
  **サンプル SQL構文**
   
@@ -432,7 +432,7 @@ VALUES
 |Ap NName  <br/> |AP  <br/> |AP1  <br/> |
 |BBssid  <br/> |BSS  <br/> |00-00-00-00-00-00 (区切られた fformat を使用する必要があります)  <br/> |
 |コントローラー  <br/> |建物  <br/> |アルバ AP 7  <br/> |
-|Device  <br/> |ess  <br/> |Controller1  <br/> |
+|デバイス  <br/> |ess  <br/> |Controller1  <br/> |
 |Radio  <br/> |phy  <br/> |bgn  <br/> |
    
 ### <a name="processing-the-imported-data"></a>インポートされたデータの処理

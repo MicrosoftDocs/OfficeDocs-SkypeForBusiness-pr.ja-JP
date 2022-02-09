@@ -5,8 +5,8 @@ ms:assetid: 090aea0f-ef0b-49da-9c80-02d9279f2fa6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520946(v=OCS.15)
 ms:contentKeyID: 48183343
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: ublic インスタント メッセージング (IM) 接続を使用すると、組織内のユーザーは IM を使用して、パブリック IM サービス プロバイダーによって提供される IM サービスのユーザーと通信できます。
-ms.openlocfilehash: b5c7d75a6048a584fcb872ed8eb3cd82dfe2076f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d05827c7af0f7712db6d2436f2ecdb00838ea53f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847310"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398961"
 ---
 # <a name="configure-policies-to-control-public-user-access-in-skype-for-business-server"></a>パブリック ユーザー アクセスを管理するポリシーを構成Skype for Business Server
 
@@ -66,7 +66,7 @@ IM の招待の場合は、クライアント ソフトウェアによって応�
 
 7.  [**確定**] をクリックします。
 
-パブリック ユーザー アクセスを有効にするには、組織でフェデレーションのサポートも有効にする必要があります。 詳細については、「Configure [policis to controled](configure-policies-to-control-federated-user-access.md)user access in Skype for Business Server 」 を参照してください。
+パブリック ユーザー アクセスを有効にするには、組織でフェデレーションのサポートも有効にする必要があります。 詳細については、「Configure [policis to controled](configure-policies-to-control-federated-user-access.md) user access in Skype for Business Server。
 
 これがユーザー ポリシーの場合、パブリック ユーザーと共同作業できるようにするパブリック ユーザーに対してもポリシーを適用する必要があります。 
 

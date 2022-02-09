@@ -1,7 +1,7 @@
 ---
 title: 管理センターでチーム テンプレートを管理する
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 ms.reviewer: yinchang
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 管理センターでチーム テンプレートを管理する方法について説明します
-ms.openlocfilehash: 0ab167cc66a897c0f89679cd2a403a385b2b1b01
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 470194c8a31236e5bed000fa2837c9b1fa05003e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766065"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401181"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>管理センターでチーム テンプレートを管理する
 
@@ -38,19 +38,19 @@ ms.locfileid: "60766065"
 
 1. Teams 管理センターにサインインします。
 
-2. [Teams  >  **ポリシー] を展開します**。
+2. [**テンプレート ポリシー Teams** > **展開します**。
 
 3. **[追加]** を選択します。
 
     ![テンプレート ポリシーが選択され、[追加] が強調表示されます。](media/template-policies-1.png)
 
-1. [テンプレート **ポリシー] セクション設定、** 次のフィールドに入力します。
+1. [テンプレート **ポリシー] セクション設定**、次のフィールドに入力します。
 
     - テンプレート ポリシー名
 
     - テンプレート ポリシーの簡単な説明
 
-2. [表示 **可能なテンプレート] テーブル** で、非表示にするテンプレートを選択し、[非表示] を **選択します**。
+2. [表示 **可能なテンプレート] テーブル** で、非表示にするテンプレートを選択し、[非表示] を選択 **します**。
 
     ![[非表示] が強調表示されている選択したテンプレート。](media/template-policies-2.png)
 
@@ -71,7 +71,7 @@ ms.locfileid: "60766065"
 
 ポリシーに割り当てられたユーザーは、そのポリシー内の表示可能なテンプレートのみを表示できます。
 
-1. [ **テンプレート ポリシー] からポリシー** を選択し、[ユーザーの管理] **を選択します**。
+1. [ **テンプレート ポリシー] でポリシー** を選択し、[ユーザーの管理] **を選択します**。
 
 2. このポリシーに割り当てるユーザーを入力します。
 

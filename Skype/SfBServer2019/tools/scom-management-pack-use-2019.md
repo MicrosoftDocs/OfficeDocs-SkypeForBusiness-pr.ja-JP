@@ -1,8 +1,8 @@
 ---
 title: SCOM Skype for Business Serverパックを使用して 2019 年を管理する
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/26/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: '概要: Skype for Business Server 2019 年 2019 年のインフラストラクチャを構成して、System Centerします。'
-ms.openlocfilehash: e0e5f7c090c51fbe3b7b022f890fd3fc8f254aa3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 44e4be6b2bfde254eac9df2433a1f2807e77fa81
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844890"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396225"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>SCOM Skype for Business Serverパックを使用して 2019 年を管理する
  
@@ -34,17 +34,17 @@ ms.locfileid: "60844890"
   
 プライマリ管理 [サーバーを識別して構成します](../../SfbServer/management-tools/use-scom-management-pack/configure-the-primary.md)。 これを行うには、Operations Manager 2012 SP1 または R2 System Centerインストールする必要があります。 
   
- 監視する[コンピューター Skype for Business Serverを識別して構成します](../../SfbServer/management-tools/use-scom-management-pack/configure-computers-to-monitor.md)。 System Center Operations Manager を使用して Skype for Business Server コンピューターを監視するには、System Center Operations Manager エージェント ファイルをインストールし、プロキシとして動作する各サーバーを構成する必要があります。 
+ 監視する[コンピューター Skype for Business Serverを特定して構成します](../../SfbServer/management-tools/use-scom-management-pack/configure-computers-to-monitor.md)。 System Center Operations Manager を使用して Skype for Business Server コンピューターを監視するには、System Center Operations Manager エージェント ファイルをインストールし、プロキシとして動作する各サーバーを構成する必要があります。 
   
  監視ノードを [識別してインストールし、構成します](../../SfbServer/management-tools/use-scom-management-pack/watcher-nodes.md)。 監視ノードは、Skype for Business Server 代理トランザクションを定期的に実行するコンピューターです。Windows PowerShell コマンドレットは、システムにログオンする機能やインスタント メッセージを交換する機能など、主要な Skype for Business Server コンポーネントが期待通り動作しているのを確認します。 
   
-## <a name="system-center-operations-manager-root-management-server-and-agent-support"></a>System CenterOperations Manager ルート管理サーバーとエージェントのサポート
+## <a name="system-center-operations-manager-root-management-server-and-agent-support"></a>System Center Operations Manager ルート管理サーバーとエージェントのサポート
 
 管理パックは、System Center Operations Manager 2007 R2 (64 ビット) (移行目的でのみサポート) または System Center Operations Manager 2012 SP1 &amp; R2 (64 ビット) で使用できます。 次の表に、2019 年の管理パックでサポートされている構成Skype for Business Server示します。 
   
 |構成|サポートの有無|
 |:-----|:-----|
-|Windows Server 2008 R2 オペレーティング システム  <br/> Windows Server 2012R2 オペレーティング システム   |はい。 2019 Skype for Business Server代理トランザクション 監視ノードの両方。   |
+|Windows Server 2008 R2 オペレーティング システム  <br/> Windows Server 2012 R2 オペレーティング システム   |はい。 2019 Skype for Business Server代理トランザクション 監視ノードの両方。   |
 |クラスター化されたサーバー   |サポートされていません。   |
 |エージェントレス監視   |サポートされていません。   |
 |仮想環境   |はい。   |
@@ -59,14 +59,14 @@ ms.locfileid: "60844890"
 |:-----|:-----|
 |CPU   |次のいずれかの要件:  <br/> 64 ビット プロセッサ、クアッド コア、2.33 GHz 以上  <br/> 64 ビット 2 ウェイ プロセッサ、デュアル コア、2.33 GHz 以上   |
 |メモリ   |8 GB   |
-|オペレーティング システム   |WindowsServer 2008 R2 Windows Server 2012 R2   |
+|オペレーティング システム   |Windows Server 2008 R2 Windows Server 2012 R2   |
 |ネットワーク   |1 Gbps の 1 つのネットワーク アダプター   |
    
 ## <a name="prerequisites"></a>前提条件
 
 代理トランザクション 監視ノードを実行するには、最初に以下をインストールする必要があります。
   
-- System CenterOperations Manager エージェント 
+- System Center Operations Manager エージェント 
     
 -  Microsoft .NET Framework 4.5
     
@@ -116,7 +116,7 @@ ms.locfileid: "60844890"
   
  **中優先度アラート:** これらのアラートは、ユーザーのサブセットに影響を与える条件、または通話品質の問題 (コンポーネントの障害、通話の確立の待機時間、通話の音質の低下など) を示します。 このカテゴリのアラートはステートフルです (つまり、ネットワーク接続の状態に基づいてアラートの性質が変わります)。たとえば、通話の確立時間が待機時間を示し、通常のしきい値に戻った場合、この中優先度アラートは System Center Operations Manager および管理者がアクションを実行する必要はありません。 自動解決できないアラートは、通常、同じ営業日に管理者が対処します。
   
- **その他のアラート:** これらのアラートは、特定のユーザーまたはユーザーのサブセットに影響を与える可能性があるコンポーネントから生成されます。 たとえば、一般的なアラートは、アドレス帳サービスがユーザーの Active Directory® Domain Services (AD DS) エントリを解析できない testuser@contoso.com。 管理者は、利用可能な時間がある場合はいつでも、これらのアラートに対処できます。
+ **その他のアラート:** これらのアラートは、特定のユーザーまたはユーザーのサブセットに影響を与える可能性があるコンポーネントから生成されます。 たとえば、一般的なアラートは、アドレス帳サービスがユーザーの Active Directory® ドメイン サービス (AD DS) エントリを解析できない testuser@contoso.com。 管理者は、利用可能な時間がある場合はいつでも、これらのアラートに対処できます。
   
 ### <a name="synthetic-transactions"></a>代理トランザクション
 
@@ -173,16 +173,16 @@ Skype for Business Server 2019 管理パックは、代理トランザクショ�
 |管理パック オブジェクト|説明|
 |:-----|:-----|
 |Skype for Business Server展開   |組織での 2019 Skype for Business Serverの展開を表します。   |
-|Skype for Business Serverサイト   |サービスが展開されるさまざまな地理的な場所を表します。   |
-|Skype for Business Serverプール   |インスタント メッセージングや会議などの通信サービスをユーザーに提供するプール (サイト内)。 特定のプールにコンピューターが 1 台だけある場合でも、フロント エンド プール、エッジ プール、ディレクター プールに適用されます。   |
-|Skype for Business Server役割   |サービスをホストするSkype for Business Server役割。   |
-|Skype for Business Serverサービス   |特定のコンピューターに展開された機能を表します (たとえば、コンピューター上のユーザー サービス fp01.contoso.com。   |
-|Skype for Business Serverコンポーネント   |サービスのコンポーネント (たとえば、アドレス帳のダウンロード コンポーネントは Web サービスの一部です)。   |
-|Skype for Business Serverプール ウォッチャー   |1 つのプールに対して実行されている代理トランザクションのインスタンス。   |
+|Skype for Business Server サイト   |サービスが展開されるさまざまな地理的な場所を表します。   |
+|Skype for Business Server プール   |インスタント メッセージングや会議などの通信サービスをユーザーに提供するプール (サイト内)。 特定のプールにコンピューターが 1 台だけある場合でも、フロント エンド プール、エッジ プール、ディレクター プールに適用されます。   |
+|Skype for Business Serverロール   |サービスをホストするSkype for Business Server役割。   |
+|Skype for Business Server サービス   |特定のコンピューターに展開された機能を表します (たとえば、コンピューター上のユーザー サービス fp01.contoso.com。   |
+|Skype for Business Server コンポーネント   |サービスのコンポーネント (たとえば、アドレス帳のダウンロード コンポーネントは Web サービスの一部です)。   |
+|Skype for Business Server プール ウォッチャー   |1 つのプールに対して実行されている代理トランザクションのインスタンス。   |
 |Skype for Business Serverレジストラー ウォッチャー   |1 つのレジストラー プールに対して実行される代理トランザクションのインスタンス。   |
-|Skype for Business ServerUser Services Pool Watcher   |1 つの User Services プールに対して実行される代理トランザクションのインスタンス。   |
-|Skype for Business Server音声プールウォッチャー   |1 つの Voice プールに対して実行される代理トランザクションのインスタンス。   |
-|Skype for Business Serverポート ウォッチャー   |1 つのプールに対して実行されているポート チェックのインスタンス。   |
+|Skype for Business Server ユーザー サービス プール ウォッチャー   |1 つの User Services プールに対して実行される代理トランザクションのインスタンス。   |
+|Skype for Business Server ボイス プール ウォッチャー   |1 つの Voice プールに対して実行される代理トランザクションのインスタンス。   |
+|Skype for Business Server ポート ウォッチャー   |1 つのプールに対して実行されているポート チェックのインスタンス。   |
 |簡易 URL ウォッチャー   |展開で構成済みの単純な URL の HTTPS プロビリングを実行します。   |
    
 ![SCOM のロールアップ。](../../SfbServer/media/de16195d-3aed-412e-9def-07a481d2ff0f.png)
@@ -235,9 +235,9 @@ Skype for Business Server 2019 管理パックは、代理トランザクショ�
     
 - [管理パックを削除する方法](/previous-versions/system-center/operations-manager-2007-r2/cc974489(v=technet.10))
     
-Operations Manager と監視パックに関する質問については[、「System Center」を参照してください](https://go.microsoft.com/fwlink/p/?LinkID=179635)。
+Operations Manager と監視パックに関する質問については、「System Center[のコミュニティ フォーラム」を参照してください](https://go.microsoft.com/fwlink/p/?LinkID=179635)。
   
-便利なリソースは、特定System Centerの "例" の投稿を含む、Operations [Manager Unleashed](https://opsmgrunleashed.wordpress.com/)ブログの一覧です。
+便利なリソースは、特定System Centerの "例" の投稿を含む、Operations [Manager Unleashed](https://opsmgrunleashed.wordpress.com/) ブログの一部です。
   
 Operations Manager の詳細については、次のブログを参照してください。 
   

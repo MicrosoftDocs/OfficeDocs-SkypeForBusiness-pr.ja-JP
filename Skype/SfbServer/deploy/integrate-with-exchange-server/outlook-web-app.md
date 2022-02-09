@@ -1,8 +1,8 @@
 ---
 title: オンプレミスのサーバーとサーバー間の統合Skype for Business Server構成Outlook Web App
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/7/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: '概要: 統合Skype for Business ServerとOutlook Web App。'
-ms.openlocfilehash: cebb8fed6b87dac6ec2c981730d303994c952741
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0284fee227d9adf5560b5f65e56d71c1d46fac0c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853681"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397292"
 ---
 # <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>オンプレミスのサーバーとサーバー間の統合Skype for Business Server構成Outlook Web App
 
@@ -45,7 +45,7 @@ Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 
 - **AllowFederatedUsers** パラメーターは、内部ユーザーがフェデレーション ドメインのユーザーと通信できるかどうかを指定します。 また、このプロパティは、内部ユーザーが共有 SIP アドレス空間シナリオでユーザーと通信できるかどうかをSkype for Business ServerおよびExchange Online。
 
-管理シェルの使用のSkype for Business Server詳細については、「管理シェルSkype for Business Server[を参照してください](../../manage/management-shell.md)。
+管理シェルの使用のSkype for Business Server詳細については、「管理[シェルSkype for Business Server参照してください](../../manage/management-shell.md)。
 
 ## <a name="configure-a-hosting-provider-on-the-edge-server"></a>エッジ サーバーでホスティング プロバイダーを構成する
 
@@ -64,11 +64,11 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 
 - **EnabledSharedAddressSpace** は、ホスティング プロバイダーが共有 SIP アドレス スペース シナリオで使用されるかどうかを示します。 これは True に設定する必要があります。
 
-- **HostsOCSUsers は**、ホスティング プロバイダーを使用して通信サーバーまたはサーバーをホストOfficeをSkype for Business Server。 これは False に設定する必要があります。
+- **HostsOCSUsers は**、ホスティング プロバイダーを使用して通信サーバーまたはサーバーをホストOffice示Skype for Business Server。 これは False に設定する必要があります。
 
 - **ProxyFQDN** は、ホスティング プロバイダーによって使用されるプロキシ サーバーの完全修飾ドメイン名 (FQDN) を指定します。 たとえばExchange Online FQDN は exap.um.outlook.com。
 
-- **IsLocal は**、ホスティング プロバイダーによって使用されるプロキシ サーバーが、ホスト トポロジ内に含まれているSkype for Business Serverします。 これは False に設定する必要があります。
+- **IsLocal は**、ホスティング プロバイダーによって使用されるプロキシ サーバーが、ホスト トポロジ内にSkype for Business Serverします。 これは False に設定する必要があります。
 
 - **VerificationLevel** ホストされているプロバイダーとの間で送信されるメッセージに対して許可される検証レベルを示します。 ホスティング プロバイダーから送信されたメッセージに含まれる確認レベルを信頼する **UseSourceVerification** を指定します。 このレベルを指定しない場合、メッセージは確認できないとして拒否されます。
 

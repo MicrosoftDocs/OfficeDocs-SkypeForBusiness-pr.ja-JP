@@ -1,8 +1,8 @@
 ---
 title: 2019 Skype for Business Serverの展開
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/9/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: '概要: これらのリンクを参照して、2019 年にインストールおよび構成Skype for Business Serverします。'
-ms.openlocfilehash: 47005c5b1b236e9f93dec33bf10ddef80c96a3c8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 85878b09cf15679cda35ed1735f1f05e2168fb35
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842509"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397537"
 ---
 # <a name="deploy-skype-for-business-server-2019"></a>2019 Skype for Business Serverの展開
  

@@ -1,8 +1,8 @@
 ---
 title: メディア バイパスを展開Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,30 +16,30 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1bd35f90-8587-48a1-b0c2-095a4053fc77
 description: メディア バイパスを展開Skype for Business Server エンタープライズ VoIP。 前提条件と展開プロセスのチェックリストが含まれています。
-ms.openlocfilehash: c5699d1116faa6bc3b8ae0178ec617bcf06c1ef4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d1815b0ec76bed3aa0da9be52a2eeceb0c29b49d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834695"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400711"
 ---
 # <a name="deploy-media-bypass-in-skype-for-business-server"></a>メディア バイパスを展開Skype for Business Server
  
 メディア バイパスを展開Skype for Business Server エンタープライズ VoIP。 前提条件と展開プロセスのチェックリストが含まれています。
   
-このトピックでは、PSTN 接続を提供するために、少なくとも 1 つ以上の仲介サーバーと少なくとも 1 つのゲートウェイ ピアを既に公開して構成済みである必要があります。 これらのタスクの詳細については[、「Skype for Business Server](deploy-a-mediation-server.md)のトポロジ ビルダーで仲介サーバーを展開する」および「Skype for Business Server のトポロジ ビルダーでゲートウェイを定義する」[を参照してください](define-a-gateway.md)。
+このトピックでは、PSTN 接続を提供するために、少なくとも 1 つ以上の仲介サーバーと少なくとも 1 つのゲートウェイ ピアを既に公開して構成済みである必要があります。 これらのタスクの詳細については、「Skype for Business Server の[](deploy-a-mediation-server.md)トポロジ ビルダーで仲介サーバーを展開する」および「Skype for Business Server のトポロジ ビルダーでゲートウェイを[定義する」を参照してください](define-a-gateway.md)。
   
  接続するピアが SIP トランキング プロバイダーの SBC である場合は、プロバイダーが認定プロバイダーであり、プロバイダーがメディア バイパスをサポートしている必要があります。 たとえば、多くの SIP トランキング プロバイダーは、仲介サーバーからのトラフィックの受信のみを SBC に許可します。 その場合は、問題のトランクに対してバイパスを有効にすることはできません。 また、組織が SIP トランキング プロバイダーに内部ネットワーク IP アドレスを表示しない限り、メディア バイパスを有効にすることはできません。
   
 > [!NOTE]
-> メディア バイパスは、すべての PSTN ゲートウェイ、IP-PBX、および SBC と相互運用できるとは限りません。 Microsoft は、認定パートナーと一緒に一連の PSTN ゲートウェイと SBC をテストし、Cisco IP-PBX でいくつかのテストを行いました。 メディア バイパスは、ユニファイド コミュニケーション オープン相互運用性プログラム - Lync Server に記載されている製品および [バージョンでのみサポートされます](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)。 
+> メディア バイパスは、すべての PSTN ゲートウェイ、IP-PBX、および SBC と相互運用できるとは限りません。 Microsoft は、認定パートナーと一緒に一連の PSTN ゲートウェイと SBC をテストし、Cisco IP-PBX でいくつかのテストを行いました。 メディア バイパスは、ユニファイド コミュニケーション Open 相互運用性プログラム - Lync Server に記載されている製品と [バージョンでのみサポートされます](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)。 
   
 もう 1 つの高度なエンタープライズ VoIP 機能に当たる、オプションの通話受付管理 (CAC) の構成が済んでいる場合は、通話受付管理が実行する帯域幅の予約がメディア バイパスを採用する通話に適用されないようにしてください。 メディア バイパスが採用されているかどうかの検証は最初に行われます。採用されている場合は、その通話に対しては通話受付管理は使用されません。通話受付管理に対するチェックは、メディア バイパスのチェックが不合格の場合にのみ行われます。 このため、PSTN にルーティングされる特定の通話に対して 2 つの機能がともに適用されることはありません。 メディア バイパスは、通話のメディア エンドポイント間に帯域幅の制約がないことを前提にしているため、2 つの機能が両立しないという論理的結論にたどり着きます。メディア バイパスは、帯域幅制限のあるリンク上では実行できません。 このことから、PSTN の通話には次のいずれかが適用されます。 a) 仲介サーバーをメディア バイパスし、通話受付管理は通話に対して帯域幅を予約しない。または b) 通話受付管理が通話に帯域幅の予約を適用し、メディアはその通話に関わる仲介サーバーで処理される。
   
 ピアに関連付けられた個々のトランク接続に対してメディア バイパスを有効にする以外に、メディア バイパスをグローバルに有効にする必要があります。 グローバル メディア バイパス設定では、PSTN への呼び出しに対してメディア バイパスが常に試行される、またはネットワーク サイトやネットワーク地域へのサブネットのマッピングを使用してメディア バイパスが使用される場合は、通話受付管理によって行われる機能と同様に、別の高度な音声機能を指定できます。 メディア バイパスと通話受付制御の両方が有効になっている場合、メディア バイパスを採用するかどうかを決定する際に、通話受付制御に指定されたネットワーク領域、ネットワーク サイト、サブネット情報が自動的に使用されます。 つまり、通話受付管理が有効になっているときに、PSTN への通話に対してメディア バイパスが常に試行されるという指定はできないことを意味します。
   
 > [!NOTE]
-> こうした手順を使用してメディア バイパスを構成する場合は、クライアントと仲介サーバー ピア (PSTN ゲートウェイ、IP-PBX、または SIP トランキング プロバイダーでの SBC など) の間の接続状態が良好であることを前提とします。 リンクに帯域幅制限があると、メディア バイパスを通話に適用できません。 メディア バイパスは、あらゆる PSTN ゲートウェイ、IP-PBX、および SBC と相互運用できるわけではありません。 Microsoft は、認定パートナーと一緒に一連の PSTN ゲートウェイと SBC をテストし、Cisco IP-PBX でいくつかのテストを行いました。 メディア バイパスは、ユニファイド コミュニケーション オープン相互運用性プログラム - Lync Server に記載されている製品および [バージョンでのみサポートされます](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)。 
+> こうした手順を使用してメディア バイパスを構成する場合は、クライアントと仲介サーバー ピア (PSTN ゲートウェイ、IP-PBX、または SIP トランキング プロバイダーでの SBC など) の間の接続状態が良好であることを前提とします。 リンクに帯域幅制限があると、メディア バイパスを通話に適用できません。 メディア バイパスは、あらゆる PSTN ゲートウェイ、IP-PBX、および SBC と相互運用できるわけではありません。 Microsoft は、認定パートナーと一緒に一連の PSTN ゲートウェイと SBC をテストし、Cisco IP-PBX でいくつかのテストを行いました。 メディア バイパスは、ユニファイド コミュニケーション Open 相互運用性プログラム - Lync Server に記載されている製品と [バージョンでのみサポートされます](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)。 
   
 ## <a name="deployment-process-for-media-bypass"></a>メディア バイパスの展開プロセス
 

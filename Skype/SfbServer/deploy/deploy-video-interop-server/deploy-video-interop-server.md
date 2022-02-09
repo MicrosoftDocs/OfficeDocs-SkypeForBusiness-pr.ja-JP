@@ -1,8 +1,8 @@
 ---
 title: ビデオ相互運用サーバーを展開Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: bb7d2abd-d033-4d7d-b588-6d9228c3eccf
 description: '概要: VIS サーバーの役割をサーバーに展開Skype for Business Server。'
-ms.openlocfilehash: 932bbbaea04bc672c21767c055c53f10df5dc715
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5dd7dcc6cf052b2833685c988ff82f23d83cf668
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853691"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400701"
 ---
 # <a name="deploy-video-interop-server-in-skype-for-business-server"></a>ビデオ相互運用サーバーを展開Skype for Business Server
  

@@ -1,8 +1,8 @@
 ---
 title: フェデレーション ルート設定の展開
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 ROBOTS: NOINDEX, NOFOLLOW
 description: サイトのフェデレーション ルートの割り当てを設定するには、まず、エッジ サーバーまたはエッジ サーバーのプールでフェデレーションを有効にする必要があります。エッジ サーバーまたはプールでフェデレーションが有効になっていない場合、サイトのフェデレーション ルートの割り当てを変更することができません。
-ms.openlocfilehash: 2cf088fbb95f6d4d7ed563313c332d5a9dd47dd4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 68ef5eed810aceacdcaf573c2f7ccba7ccd026d9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833643"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410280"
 ---
 # <a name="federation-route-settings-expander"></a>フェデレーション ルート設定エキスパンダー
  

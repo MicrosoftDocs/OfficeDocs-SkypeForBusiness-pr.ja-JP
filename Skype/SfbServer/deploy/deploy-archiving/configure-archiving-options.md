@@ -1,8 +1,8 @@
 ---
 title: サーバーのアーカイブ オプションを構成Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2f534697-ac7f-45b7-8cdc-ba67f052223b
 description: '概要: このトピックを参照して、初期アーカイブ オプションを構成する方法について説明します。Skype for Business Server。 アーカイブを展開するときに最初にアーカイブ構成を設定しましたが、展開後に構成を変更、追加、および削除できます。'
-ms.openlocfilehash: 413347a76c23f680215e4f9d80e4327b3e8fed22
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 953bf4a5a353001993e8aee51b5bd21ac8f377b5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864464"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396079"
 ---
 # <a name="configure-archiving-options-for-skype-for-business-server"></a>サーバーのアーカイブ オプションを構成Skype for Business Server
  
@@ -48,7 +48,7 @@ ms.locfileid: "60864464"
 > [!NOTE]
 > アーカイブを有効にする前に、すべての適切なオプションを指定する必要があります。 
   
-指定できるオプションやアーカイブ構成の階層など、アーカイブ構成の実装方法の詳細については、「Plan [for archiving in Skype for Business Server」を参照してください](../../plan-your-deployment/archiving/archiving.md)。 コントロール パネルを使用するか、コントロール パネルを使用して展開後に構成を管理する方法の詳細については、「Windows PowerShell でアーカイブ オプションを管理する」[を参照](../../manage/archiving/options.md)Skype for Business Server。
+指定できるオプションやアーカイブ構成の階層など、アーカイブ構成の実装方法の詳細については、「Plan [for archiving in](../../plan-your-deployment/archiving/archiving.md) Skype for Business Server」を参照してください。 コントロール パネルを使用して、またはコントロール パネルを使用して展開後に構成を管理する方法の詳細については、「Windows PowerShell でアーカイブ オプションを管理する」[を参照Skype for Business Server](../../manage/archiving/options.md)。
   
 ## <a name="configure-global-level-archiving-options"></a>グローバル レベルのアーカイブ オプションを構成する
 
@@ -76,7 +76,7 @@ ms.locfileid: "60864464"
     
    - アーカイブを使用できない場合にアクティビティをブロックするには、[**アーカイブ失敗時はインスタント メッセージング (IM) または Web 会議セッションを禁止する**] チェック ボックスをオンにします。
     
-   - アーカイブ データをMicrosoft Exchange Serverするには **、[Microsoft** データの統合] チェック ボックスExchangeクリックします。
+   - アーカイブ データをMicrosoft Exchange Serverするには、[Microsoft データの統合] チェック ボックス **Exchangeクリック** します。
     
    - データの削除を有効にするには、[**アーカイブ データの削除を有効にする**] チェック ボックスをオンにし、次のどちらかの操作を実行します。
     
@@ -112,7 +112,7 @@ ms.locfileid: "60864464"
     
    - アーカイブを使用できない場合にアクティビティをブロックするには、[**アーカイブ失敗時はインスタント メッセージング (IM) または Web 会議セッションを禁止する**] チェック ボックスをオンにします。
     
-   - アーカイブ データをMicrosoft Exchange Serverするには **、[Microsoft** データの統合] チェック ボックスExchangeクリックします。
+   - アーカイブ データをMicrosoft Exchange Serverするには、[Microsoft データの統合] チェック ボックス **Exchangeクリック** します。
     
    - データの削除を有効にするには、[**アーカイブ データの削除を有効にする**] チェック ボックスをオンにし、次のどちらかの操作を実行します。
     
@@ -148,7 +148,7 @@ ms.locfileid: "60864464"
     
    - アーカイブを使用できない場合にアクティビティをブロックするには、[**アーカイブ失敗時はインスタント メッセージング (IM) または Web 会議セッションを禁止する**] チェック ボックスをオンにします。
     
-   - アーカイブ データをMicrosoft Exchange Serverするには **、[Microsoft** データの統合] チェック ボックスExchangeクリックします。
+   - アーカイブ データをMicrosoft Exchange Serverするには、[Microsoft データの統合] チェック ボックス **Exchangeクリック** します。
     
    - データの削除を有効にするには、[**アーカイブ データの削除を有効にする**] チェック ボックスをオンにし、次のどちらかの操作を実行します。
     
