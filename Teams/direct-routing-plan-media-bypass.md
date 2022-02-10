@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: ダイレクト ルーティングを使用してメディア バイパス電話システムを計画する方法について説明します。これにより、メディア トラフィックのパスを短縮し、パフォーマンスを向上させることができます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2d9a38772cd9119a7717608726db45bce6055229
-ms.sourcegitcommit: eddc03f777ce78bd5273708da9b1ab609ee20099
+ms.openlocfilehash: 560a3a5802469b0cb17170dfae377d8d6f358c8b
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/18/2022
-ms.locfileid: "62064883"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518619"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>ダイレクト ルーティングでメディア バイパスを計画する
 
@@ -70,7 +70,7 @@ ms.locfileid: "62064883"
 
 次の図は、メディア バイパスが有効で、クライアントが内部であり、クライアントが SBC (ダイレクト メディア) のパブリック IP アドレスに到達できる場合の呼び出しフローを示しています。 
 
-- パスの矢印と数値は、呼び出しフローのMicrosoft Teams[に従います](./microsoft-teams-online-call-flows.md)。
+- パスの矢印と数値は、呼び出しフロー Microsoft Teams[に従います](./microsoft-teams-online-call-flows.md)。
 
 - SIP シグナルは、(トラフィックの方向に応じて) 常にパス 4 と 4' を受け取ります。 メディアはローカルのままで、パス 5b を受け取る。
 
@@ -84,14 +84,14 @@ ms.locfileid: "62064883"
 
 たとえば、ユーザーが外部のユーザーであり、テナント管理者が SBC のパブリック IP アドレスをインターネット内のすべてのユーザーに対して開くのではなく、Microsoft Cloud に対して開くことを決定したとします。 トラフィックの内部コンポーネントは、トランスポート リレーを介Teamsできます。 次の状況について検討しましょう。
 
-- Teams トランスポート リレーが使用されます。
+- Teamsトランスポート リレーが使用されます。
 
 - メディア バイパスの場合、Microsoft は、Teams トランスポート リレーと SBC の間でポート 50 000 から 59 999 を開く必要があるトランスポート リレーのバージョンを使用します (将来、3478 - 3481 ポートが必要なバージョンに移行する予定です)。
 
 
-次の図は、メディア バイパスが有効で、クライアントが外部であり、クライアントがセッション ボーダー コントローラーのパブリック IP アドレスに到達できない場合の呼び出しフローを示しています (メディアは Teams Transport Relay によってリレーされます)。
+次の図は、メディア バイパスが有効で、クライアントが外部であり、クライアントがセッション ボーダー コントローラーのパブリック IP アドレスに到達できない場合の呼び出しフローを示しています (メディアは Teams Transport Relay によって中継されます)。
 
-- パスの矢印と数値は、呼び出しフローのMicrosoft Teams[に従います](./microsoft-teams-online-call-flows.md)。
+- パスの矢印と数値は、呼び出しフロー Microsoft Teams[に従います](./microsoft-teams-online-call-flows.md)。
 
 - メディアは、パス 3、3、4、4' を介してリレーされます。
 
@@ -102,7 +102,7 @@ ms.locfileid: "62064883"
 ### <a name="call-flow-if-a-user-is-outside-the-network-and-has-access-to-the-public-ip-of-the-sbc"></a>ユーザーがネットワークの外部にいて、SBC のパブリック IP にアクセスできる場合の呼び出しフロー
 
 > [!NOTE]
-> これは、トランスポート リレーの機能を利用しないので、Teamsされません。 代わりに、ユーザーが SBC のパブリック IP アドレスにアクセスできない前のシナリオを検討する必要があります。 
+> これは、トランスポート リレーの機能を利用しないので、Teamsされていません。 代わりに、ユーザーが SBC のパブリック IP アドレスにアクセスできない前のシナリオを検討する必要があります。 
 
 次の図は、メディア バイパスが有効で、クライアントが外部であり、クライアントが SBC (ダイレクト メディア) のパブリック IP アドレスに到達できる場合の呼び出しフローを示しています。
 
@@ -121,7 +121,7 @@ Microsoft Cloud には、メディア トラフィックのパスに含め可能
 
 - メディア プロセッサは、バイパスしないケースでメディアを処理し、音声アプリケーションのメディアを処理する公開コンポーネントです。
 
-   メディア プロセッサは常にエンド ユーザーのバイパスされていない呼び出しのパスに入っていますが、バイパスされた呼び出しのパスには含めずにいます。 メディア プロセッサは常に、コール パーク、組織の管理、通話キューなどのすべての音声自動応答パスに配置されます。
+   メディア プロセッサは常にエンド ユーザーのバイパスされていない呼び出しのパスに入っていますが、バイパスされた呼び出しのパスには含めずにいます。 メディア プロセッサは常に、コール パーク、組織の管理、通話キューなどのすべての音声自動応答パスにあります。
 
 - トランスポート リレーは、最も近いトランスポート サービスに接続してリアルタイム のトラフィックを送信するために使用されます。
 
@@ -166,7 +166,7 @@ Teamsメディア プロセッサは、次のシナリオでは常にメディ�
 
 - 通話は 1:1 からグループ通話にエスカレートされます
 - フェデレーション ユーザーへの呼び出Teamsしています
-- 通話が別のユーザーに転送Skype for Businessされます
+- 通話が別のユーザーに転送または転送Skype for Businessされます
 
 以下で説明するように、SBC がメディア プロセッサとトランスポート リレーの範囲にアクセスできる必要があります。    
 
@@ -175,17 +175,17 @@ Teamsメディア プロセッサは、次のシナリオでは常にメディ�
 
 SIP シグナルの場合、FQDN とファイアウォールの要件は、バイパスされていない場合と同じです。 
 
-ダイレクト ルーティングは、次の環境またはMicrosoft 365でOffice 365されます。
+ダイレクト ルーティングは、次の環境または環境Microsoft 365提供Office 365されています。
 - Microsoft 365またはOffice 365
 - Office 365 GCC
 - Office 365 GCC High
-- Office 365 DoD: Office 365、GCC [High、DoD](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)などの米国政府GCC環境の詳細について学習します。
+- Office 365 DoD: Office 365、GCC High、[](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)DoD などの米国政府機関GCCについて学習します。
 
-### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365、Office 365、およびOffice 365 GCC環境
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365、Office 365、Office 365 GCC 環境
 
 ダイレクト ルーティングの接続ポイントは、次の 3 つの FQDN です。
 
-- **sip.pstnhub.microsoft.com** – グローバル FQDN – 最初に試す必要があります。 SBC がこの名前を解決する要求を送信すると、Microsoft Azure DNS サーバーは、SBC に割り当てられているプライマリ Azure データセンターを指す IP アドレスを返します。 この割り当ては、データセンターのパフォーマンス メトリックと SBC に対する地理的な近接性に基づいて行われます。 返される IP アドレスは、プライマリ FQDN に対応します。
+- **sip.pstnhub.microsoft.com** – グローバル FQDN – を最初に試す必要があります。 SBC がこの名前を解決する要求を送信すると、Microsoft Azure DNS サーバーは、SBC に割り当てられているプライマリ Azure データセンターを指す IP アドレスを返します。 この割り当ては、データセンターのパフォーマンス メトリックと SBC に対する地理的な近接性に基づいて行われます。 返される IP アドレスは、プライマリ FQDN に対応します。
 
 - **sip2.pstnhub.microsoft.com** – セカンダリ FQDN – 第 2 の優先度のリージョンに地理的にマップされます。
 
@@ -198,7 +198,7 @@ SIP シグナルの場合、FQDN とファイアウォールの要件は、バ�
 - 一時的な問題が発生しているデータセンターへの SBC からの接続が確立された場合は、フェールオーバーを提供します。 詳細については、以下の「フェールオーバー メカニズム」を参照してください。
 
 
-FQDN sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com、およびsip3.pstnhub.microsoft.com は、次のサブネットの IP アドレスに解決されます。
+FQDN **sip.pstnhub.microsoft.com****、sip2.pstnhub.microsoft.com**、sip3.pstnhub.microsoft.com 次のサブネットの IP アドレスに解決されます。
 - 52.112.0.0/14
 - 52.120.0.0/14
 
@@ -226,11 +226,11 @@ FQDN sip.pstnhub.gov.teams.microsoft.us は、次のサブネットの IP アド
 
 - 52.127.88.0/21
 
-これらのすべての IP 範囲のポートをファイアウォールで開いて、アドレスからの着信トラフィックと発信トラフィックを許可して、信号を送信する必要があります。  ファイアウォールで DNS 名がサポートされている場合、FQDN sip.pstnhub.gov.teams.microsoft.us IP サブネットすべてに解決されます。 
+これらのすべての IP 範囲のポートをファイアウォールで開いて、アドレスからの着信トラフィックと発信トラフィックを許可して、信号を送信する必要があります。  ファイアウォールで DNS 名がサポートされている場合、FQDN sip.pstnhub.gov.teams.microsoft.us これらの IP サブネットすべてに解決されます。 
 
 ## <a name="sip-signaling-ports"></a>SIP シグナル: ポート
 
-ポート要件は、ダイレクト ルーティングが提供Office 365環境すべてで同じです。
+ポート要件は、ダイレクト ルーティングが提供Office 365すべての環境で同じです。
 - Microsoft 365またはOffice 365
 - Office 365 GCC
 - Office 365 GCC High
@@ -257,8 +257,8 @@ FQDN sip.pstnhub.gov.teams.microsoft.us は、次のサブネットの IP アド
 
 | トラフィック | 開始 | 終了 | 送信元ポート | 宛先ポート|
 | :-------- | :-------- |:-----------|:--------|:---------|
-| UDP/SRTP | クライアント | SBC | 3478-3481 とテナント管理者がクライアント用に構成したポート (既定値は 50000 - 50020)| SBC で定義 |
-| UDP/SRTP | SBC | クライアント | SBC で定義 | 3478-3481 とテナント管理者がクライアント用に構成したポート (既定値は 50000 - 50020)  |
+| UDP/SRTP | クライアント | SBC | 50000-50019| SBC で定義 |
+| UDP/SRTP | SBC | クライアント | SBC で定義 | 50000-50019  |
 
 
 > [!NOTE]
@@ -268,7 +268,7 @@ FQDN sip.pstnhub.gov.teams.microsoft.us は、次のサブネットの IP アド
 
 トランスポート リレーは、メディア プロセッサと同じ範囲内です (バイパス以外の場合): 
 
-### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365、Office 365、およびOffice 365 GCC環境
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365、Office 365、Office 365 GCC 環境
 
 - 52.112.0.0 /14 (52.112.0.1 から 52.115.255.254 の IP アドレス)
 
@@ -308,7 +308,7 @@ FQDN sip.pstnhub.gov.teams.microsoft.us は、次のサブネットの IP アド
 
 メディア トラフィックの IP 範囲は次の通り 
 
-### <a name="office-365-and-office-365-gcc-environments"></a>Office 365環境Office 365 GCC環境
+### <a name="office-365-and-office-365-gcc-environments"></a>Office 365環境とOffice 365 GCC環境
 
 - 52.112.0.0 /14 (52.112.0.1 から 52.115.255.254 の IP アドレス)
 
@@ -316,7 +316,7 @@ FQDN sip.pstnhub.gov.teams.microsoft.us は、次のサブネットの IP アド
 
 - 52.127.64.0/21
 
-### <a name="office-365-gcc-high-environment"></a>Office 365 GCC High Environment
+### <a name="office-365-gcc-high-environment"></a>Office 365 GCC環境
 
 - 52.127.88.0/21
 
@@ -350,7 +350,7 @@ FQDN sip.pstnhub.gov.teams.microsoft.us は、次のサブネットの IP アド
 | メディア バイパス 以外のトランクを持つユーザー | 980 | sbc1.contoso.com:5061 | false |
 | メディア バイパス トランクを持つユーザー | 20 | sbc2.contoso.com:5060 | true | 
 
-両方のトランクが、同じパブリック IP アドレスを持つ同じ SBC をポイントできます。 次の図に示すように、SBC 上の TLS シグナル ポートは異なる必要があります。 証明書が両方のトランクをサポートしている必要があります。 SAN では、2 つの名前 **(sbc1.contoso.com** と **sbc2.contoso.com)** を持つ必要があります。または、ワイルドカード証明書を持っている必要があります。
+両方のトランクが、同じパブリック IP アドレスを持つ同じ SBC をポイントできます。 次の図に示すように、SBC 上の TLS シグナル ポートは異なる必要があります。 証明書が両方のトランクをサポートしている必要があります。 SAN では、2 つの **名前 (sbc1.contoso.com** と **sbc2.contoso.com) を** 持つ必要があります。または、ワイルドカード証明書を持っている必要があります。
 
 > [!div class="mx-imgBorder"]
 > ![両方のトランクが同じパブリック IP を持つ同じ SBC を指し示す。](media/direct-routing-media-bypass-7.png)

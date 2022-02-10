@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: ユーザー向けエンド ユーザー トレーニングMicrosoft Teams
-summary: Microsoft では、Teams を使いこなすための無料のライブ オンライン トレーニング クラスのシリーズを主催いたします。 ビジネス意思決定者、管理者、IT プロフェッショナルであれ、エンド ユーザーであれ、最適なクラスが用意されています。 ご参加ください。実際Microsoft Teams、質問に回答し、ライブ講師とやり取りしてください。 自分の時間にトレーニング クラスを表示するには、オンデマンドのエンド ユーザー トレーニングにアクセスしてください。 以下のセッションをクリックしてサインアップしてください。
+summary: Microsoft では、Teams を使いこなすための無料のライブ オンライン トレーニング クラスのシリーズを主催いたします。 ビジネス意思決定者、管理者、IT プロフェッショナルであれ、エンド ユーザーであれ、最適なクラスが用意されています。 参加して、実際Microsoft Teams、質問に回答し、ライブ講師とやり取りします。 自分の時間にトレーニング クラスを表示するには、オンデマンドのエンド ユーザー トレーニングにアクセスしてください。 以下のセッションをクリックしてサインアップしてください。
 brand: teams
 metadata:
   title: ユーザー向けエンド ユーザー トレーニングMicrosoft Teams
-  description: Microsoft では、お客様をサポートするために設計された無料のライブ仮想トレーニング クラスを提供Teams。 ビジネス意思決定者、管理者、IT プロフェッショナルであれ、エンド ユーザーであれ、最適なクラスが用意されています。 ご参加ください。実際Microsoft Teams、質問に回答し、ライブ講師とやり取りしてください。 以下のセッションをクリックしてサインアップし、以下の他のコースを確認してください。
+  description: Microsoft では、お客様をサポートするために設計された無料のライブ仮想トレーニング クラスを提供Teams。 ビジネス意思決定者、管理者、IT プロフェッショナルであれ、エンド ユーザーであれ、最適なクラスが用意されています。 参加して、実際Microsoft Teams、質問に回答し、ライブ講師とやり取りします。 以下のセッションをクリックしてサインアップし、以下の他のコースを確認してください。
   ms.topic: hub-page
   author: SerdarSoysal
   ms.author: serdars
@@ -46,7 +46,7 @@ productDirectory:
       imageSrc: 'https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg'
       summary: 'Teams を活用して仕事を整理し、同僚とのつながりを保つ方法について説明します。 (対象ユーザー: すべてのユーザー)'
       url: 'https://aka.ms/TeamsProTips'
-    - title: Microsoft Teams YouTube で使用する
+    - title: Microsoft Teams YouTube
       imageSrc: 'https://docs.microsoft.com/office/media/icons/video-play.svg'
       summary: 'サブスクライブして、最新の機能、ヒント、テクニックなどについて最初に学習します。 (対象ユーザー: すべてのユーザー)'
       url: 'https://www.youtube.com/MicrosoftTeams'
@@ -62,9 +62,9 @@ additionalContent:
   sections:
     - title: コース
       items:
-        - title: Teamwork Specialist の認定
-          summary: コラボレーションは、今日の作業能力にとって不可欠なスキルです。 チーム内の堅牢な機能Microsoft Teams、チームとの接続を高め、より効率的に作業する方法について学習します。
+        - title: Teamwork Specialist ラーニング パス
+          summary: コラボレーションは、今日の作業能力にとって不可欠なスキルです。 Microsoft Teams内の堅牢な機能を使用して、チームとの接続を高め、より効率的に作業する方法について学習します。
           url: /learn/paths/teamwork-specialist
-        - title: サービス導入スペシャリスト認定
-          summary: Microsoft サービス導入スペシャリスト認定コースの機能Teams。 組織で組織のサービスの導入をMicrosoft サービスする方法について学習する
+        - title: サービス導入スペシャリストのラーニングパス
+          summary: Microsoft Service Adoption Specialist ラーニング Path 機能Teamsその他のサービスMicrosoft 365します。 組織で新しいサービスの導入をMicrosoft サービス方法について学習します。
           url: /learn/paths/m365-service-adoption

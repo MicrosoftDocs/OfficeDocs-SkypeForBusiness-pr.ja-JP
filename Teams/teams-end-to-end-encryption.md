@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdc626510a180185cae699106c1420880ea55e73
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: cdce0e30c1aaa3b40f362acda47c1a9ffa35161f
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579701"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518939"
 ---
 # <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls-public-preview"></a>1 対 1 の Microsoft Teams 通話にエンドツーエンドの暗号化を使用する (パブリック プレビュー)
 
@@ -77,7 +77,7 @@ E2EE 通話中は、次の高度な機能を使用できません。
 
 組織全体の既定のグローバル ポリシーでは、エンドツーエンドの暗号化を無効にすることを指定します。 カスタム ポリシーを作成して割り当てていない場合、組織内のユーザーにはグローバル ポリシーが自動的に適用されます。 エンドツーエンドの暗号化を有効にするには、新しい暗号化ポリシーを作成するか、グローバルな既定のポリシーを変更します。 Teams 管理センターを使用してエンドツーエンドの暗号化を有効にするには、次の手順を実行します。
 
-1. Teams またはグローバル管理者ロールが割り当てられている職場または学校アカウントを使用して、[Teams 管理センター](https://go.microsoft.com/fwlink/p/?linkid=2024339)にサインインします。
+1. Teams またはグローバル管理者ロールが割り当てられている職場または学校アカウントを使用して、[Teams 管理センター](https://admin.teams.microsoft.com/)にサインインします。
 
 2. **[その他の設定]、** > **[強化された暗号化ポリシー]** の順に移動します。
 
