@@ -8,13 +8,13 @@ audience: admin
 ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
-description: 管理センターで称賛アプリを管理Microsoft Teamsします。
-ms.openlocfilehash: 064a1b90db44971e2fd796ea96de2a3523f7f380
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: 管理センターでアプリを称賛する方法Microsoft Teamsします。
+ms.openlocfilehash: 24ddbc66018056360e226f13669ee3dae1e78db5
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62401611"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763312"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>管理センター称賛アプリをMicrosoft Teamsする
 
@@ -32,9 +32,9 @@ ms.locfileid: "62401611"
 :::image type="content" source="media/manage-praise-app-admin-center.png" alt-text="管理センター称賛アプリの詳細ページのスクリーンショットTeams状態] トグルが表示されています。":::
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、**[Teams アプリ]** > **[アプリを管理]** の順に移動します。
-2. アプリの一覧で、称賛 アプリを検索して選択し、[状態] トグルを [ブロック] または  [許可]  に **切り替えます**。
+2. アプリの一覧で、称賛 アプリを検索して選択し、[状態] トグルを [ブロック] または  [許可 **] に****切り替えます**。
 
-この設定は、アプリ内の 称賛 アプリと 称賛 アプリの 称賛 機能の両方に影響インサイトにTeams。
+この設定は、アプリ内の 称賛 アプリと 称賛 アプリの インサイト 機能の両方に影響Teams。
 
 ## <a name="enable-or-disable-praise-for-specific-users-in-your-organization"></a>組織内の特定の称賛の設定を有効または無効にする
 
@@ -42,13 +42,13 @@ ms.locfileid: "62401611"
 
 ## <a name="badges"></a>バッジ
 
-次に示すのは、称賛 の既定のバッジ セットです。 Teams内のユーザーは、これらのバッジを使用して、仕事を超えて行く同僚を認識できます。
+次に示すのは、称賛 の既定のバッジ セットです。 Teamsのユーザーは、これらのバッジを使用して、仕事を超えて行く同僚を認識できます。
 
 :::image type="content" source="media/default-set-praise.png" alt-text="既定のバッジ セット内のバッジの画像。":::
 
 > [!NOTE]
-> 2022 年 2 月より、ユーザーは既定のバッジのみを送受信できます。 カスタム バッジは使用できなくなりました。カスタム バッジのオプションは、設定管理センターのアプリの Teamsから削除されます。
+> 2022 年 2 月より、ユーザーは既定のバッジのみを送受信できます。 カスタム バッジは使用できなくなりました。カスタム バッジのオプションは、管理センターからTeamsされています。
 
 ## <a name="related-articles"></a>関連記事
 
-[管理センターでアプリをMicrosoft Teamsする](manage-apps.md)
+[管理センターでアプリMicrosoft Teams管理する](manage-apps.md)

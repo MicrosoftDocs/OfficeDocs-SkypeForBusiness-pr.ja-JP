@@ -23,24 +23,24 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Microsoft Teams 管理センターを使用して、組織内のすべての電話番号と、ユーザーに割り当てられている、または割り当てられていないすべての電話番号の一覧を表示する方法について学習します。
-ms.openlocfilehash: 1473a87a190a671d537a958b34e839d53a668f3a
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: 45d292ae1ba4ffd714f0c302fe140978968ba1c9
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432489"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763630"
 ---
 # <a name="see-a-list-of-telephone-numbers"></a>電話番号の一覧を表示する 
 
-電話会議や通話キューなど、ユーザーや音声アプリケーションに割り当て可能な[](deploy-audio-conferencing-teams-landing-page.md)電話番号には、さまざまな[種類があります](plan-auto-attendant-call-queue.md)。 詳細については、「組織の電話番号 [を管理する」を参照してください](/microsoftteams/manage-phone-numbers-landing-page)。
+電話会議や通話キューなど、ユーザーや音声アプリケーションに割り当て可能な電話番号には、[さまざまな](deploy-audio-conferencing-teams-landing-page.md)[種類があります](plan-auto-attendant-call-queue.md)。 詳細については、「組織の電話番号 [を管理する」を参照してください](/microsoftteams/manage-phone-numbers-landing-page)。
 
-この記事は、通話プランとオペレーター サービスにConnect。 ダイレクト ルーティングの詳細については、「電話番号を構成し、エンタープライズ音声とボイスメールを有効 [にする」を参照してください](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online)。
+この記事は、通話プランとオペレーター サービスにConnect。 ダイレクト ルーティングの詳細については、「電話番号を構成し、エンタープライズ音声を有効 [にする」を参照してください](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice)。
   
 ## <a name="to-see-all-telephone-numbers-in-your-organization"></a>組織内のすべての電話番号を表示するには
 
 組織内のすべての電話番号の一覧を表示するには:
 
-1. 管理センター **にMicrosoft Teams移動します**。
+1. 管理センター **のMicrosoft Teams移動します**。
 
 2. In the left navigation, go to **Voice** > **Phone numbers**.
 
@@ -52,17 +52,17 @@ ms.locfileid: "59432489"
 
    - 指定した数値で始まる数値。
 
-   - 番号 **のアクティブ化の状態**。
+   - 番号 **のアクティブ化状態**。
 
    - 数値 **の種類**。
 
-   - 電話の **状態。**
+   - 電話状態を **確認します**。
 
 ## <a name="to-see-all-telephone-numbers-that-are-assigned-to-users"></a>ユーザーに割り当てられているすべての電話番号を表示するには
 
 ユーザーを設定するときに、ユーザーに既に割り当てられている電話番号と、ユーザーに割り当て可能な電話番号の一覧を表示したい場合があります。
 
-1. 管理センター **にMicrosoft Teams移動します**。
+1. 管理センター **のMicrosoft Teams移動します**。
 
 2. In the left navigation, go to **Voice** > **Phone numbers**.
 
@@ -80,7 +80,7 @@ ms.locfileid: "59432489"
 
 組織内のユーザーに電話の送受信を設定する場合は、まず電話番号を取得してから、ユーザーに割り当てる必要があります。 電話番号を取得した後は、番号の割り当てのアクティブ化の状態を確認できます。
   
-1. 管理センター **にMicrosoft Teams移動します**。
+1. 管理センター **のMicrosoft Teams移動します**。
 
 2. In the left navigation, go to **Voice** > **Phone numbers**.
 
@@ -94,15 +94,15 @@ ms.locfileid: "59432489"
 
 ## <a name="using-the-teams-powershell-module"></a>PowerShell モジュールTeams使用する
 
-Teams PowerShell モジュールを使用して前のセクションから同じ情報を取得できますが、バージョン 1.1.6 以降 (Skype for Business Online コネクタの統合を含む) が必要です。 モジュールの詳細については[、「PowerShell の概要」Microsoft Teamsを参照してください](teams-powershell-overview.md)。
+Teams PowerShell モジュールを使用して前のセクションから同じ情報を取得できますが、バージョン 1.1.6 以降 (Skype for Business Online コネクタの統合を含む) が必要です。 モジュールの詳細については、「[PowerShell の概要Microsoft Teams参照してください](teams-powershell-overview.md)。
 
-組織のすべての電話番号の一覧を表示するには [、Get-CsOnlineTelephoneNumber コマンドレットを使用](/powershell/module/skype/get-csonlinetelephonenumber) します。 たとえば、各電話番号とその状態を表示するには、次のコマンドを実行します。
+組織のすべての電話番号の一覧を表示するには、 [Get-CsOnlineTelephoneNumber コマンドレットを使用](/powershell/module/skype/get-csonlinetelephonenumber) します。 たとえば、各電話番号とその状態を表示するには、次のコマンドを実行します。
 
 ```PowerShell
 Get-CsOnlineTelephoneNumber | ft Id,ActivationState
 ```
 
-ユーザーに割り当てられているすべての電話番号を表示するには [、Get-CsOnlineUser コマンドレットを使用](/powershell/module/skype/get-csonlineuser) します。 たとえば、電話番号が割り当てられているすべてのユーザーを表示するには、次のコマンドを実行します。
+ユーザーに割り当てられているすべての電話番号を表示するには、 [Get-CsOnlineUser コマンドレットを使用](/powershell/module/skype/get-csonlineuser) します。 たとえば、電話番号が割り当てられているすべてのユーザーを表示するには、次のコマンドを実行します。
 
 ```PowerShell
 Get-CsOnlineUser | Where-Object  { $_.LineURI -notlike $null } | ft DisplayName,UserPrincipalName,LineURI

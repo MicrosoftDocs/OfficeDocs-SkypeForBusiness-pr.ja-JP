@@ -20,12 +20,12 @@ searchScope:
 - Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 74b3f81456b8d0acdff0c41678c04713b5cf967a
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: cb32190c05dcbe165e203d9e4f097622d60943b8
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288415"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763402"
 ---
 # <a name="get-started-with-teams-for-retail"></a>小売店向けの Teams の使用を開始する
 
@@ -194,8 +194,8 @@ Teams は、シフト アプリおよび現場担当者アプリと統合され�
 
 | Image | 役割 | 責任 | 部署 |
 | ---- | ---- | ----- | ----- |
-| ![管理者のアイコン。](https://docs.microsoft.com/office/media/icons/administrator.png) | IT 管理者 | 運用スタッフと小売店管理スタッフと一緒に、シナリオと、それらが組織でどのように機能するのかについて定義します。 <br><br>Teams 管理センターで、ポリシーやテンプレートなどの設定を構成し、アプリを有効にします。 <br><br>組織のアプリ設定 (グローバル シフト設定など) を設定します。 <br><br>ユーザーを追加してライセンスを割り当てます。  | IT 部門 |
-| ![ユーザー モニターの記号。](https://docs.microsoft.com/office/media/icons/user-monitor.png) | 運用スタッフ | 管理者と一緒にシナリオを定義し、Teams に必要な設定、ポリシー、テンプレート、アプリを決定します。 <br><br>テンプレートから地域または部門のチームを作成します。 <br><br>地域内の店舗間、または店舗と本社の間の連携のために、タスク、リスト、承認フローを設定します。 <br><br>スタッフの学習フレームワークを設定します。 | 中央運用 |
-| ![発表者の記号。](https://docs.microsoft.com/office/media/icons/presenter-teams.png) | ストア マネージャー | 管理者と運用スタッフと一緒にシナリオを定義します。 <br><br>テンプレートからストア用のチームを作成します。 <br><br>必要に応じて、チームのチャネルとアプリを設定します。 たとえば、シフトの引き継ぎのためのチャネルです。 <br><br>シフトでストアのスケジュールを設定します。 <br><br>ストアに固有のタスク、リスト、承認フローを設定します。 <br><br>スタッフの学習タスクを設定します。 | ストア管理 |
+|<img src="/office/media/icons/administrator.png" alt="Administrator symbol."> | IT 管理者 | 運用スタッフと小売店管理スタッフと一緒に、シナリオと、それらが組織でどのように機能するのかについて定義します。 <br><br>Teams 管理センターで、ポリシーやテンプレートなどの設定を構成し、アプリを有効にします。 <br><br>組織のアプリ設定 (グローバル シフト設定など) を設定します。 <br><br>ユーザーを追加してライセンスを割り当てます。  | IT 部門 |
+|<img src="/office/media/icons/user-monitor.png" alt="User monitor symbol.">| 運用スタッフ | 管理者と一緒にシナリオを定義し、Teams に必要な設定、ポリシー、テンプレート、アプリを決定します。 <br><br>テンプレートから地域または部門のチームを作成します。 <br><br>地域内の店舗間、または店舗と本社の間の連携のために、タスク、リスト、承認フローを設定します。 <br><br>スタッフの学習フレームワークを設定します。 | 中央運用 |
+|<img src="/office/media/icons/presenter-teams.png" alt="Presenter symbol."> | ストア マネージャー | 管理者と運用スタッフと一緒にシナリオを定義します。 <br><br>テンプレートからストア用のチームを作成します。 <br><br>必要に応じて、チームのチャネルとアプリを設定します。 たとえば、シフトの引き継ぎのためのチャネルです。 <br><br>シフトでストアのスケジュールを設定します。 <br><br>ストアに固有のタスク、リスト、承認フローを設定します。 <br><br>スタッフの学習タスクを設定します。 | ストア管理 |
 
 アプリケーションを正常に実装して採用する方法の詳細については、「[Microsoft Teams を導入する](../adopt-microsoft-teams-landing-page.md)」を参照してください。

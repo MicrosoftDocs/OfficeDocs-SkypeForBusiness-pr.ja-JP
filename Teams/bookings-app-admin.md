@@ -20,22 +20,22 @@ ms.collection:
 - m365solution-healthcare
 - m365solution-scenario
 ms.reviewer: ''
-description: 組織内のユーザー向け Bookings アプリを Teamsする方法について学習します。
-ms.openlocfilehash: 2bbc671b1054cfa4340abf7656e17939d147dea2
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+description: 組織内のユーザー向け Bookings アプリを Teams管理する方法について学習します。
+ms.openlocfilehash: 147089c51ebc6d3e5eb6bf567579c9aa7fc5f2ce
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288345"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763731"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Bookings アプリを管理Microsoft Teams
 
-Microsoft Teams の Bookings アプリでは、医療訪問、財務相談、インタビュー、カスタマー サポート、教育用のオフィス時間など、対面および仮想的な予定を簡単にスケジュールできます。 詳細については、「Virtual [visits with Teams and the Bookings app」を参照してください](expand-teams-across-your-org/bookings-virtual-visits.md)。
+Microsoft Teams の Bookings アプリでは、医療訪問、財務相談、インタビュー、カスタマー サポート、教育用のオフィス時間など、対面および仮想的な予定を簡単にスケジュールできます。 詳細については、「Virtual [Visits with Teams と Bookings app」を参照してください](expand-teams-across-your-org/bookings-virtual-visits.md)。
 
 スケジュール担当者は、1 つの操作環境から、複数の部門とスタッフの予定表、および組織内外の出席者との通信を管理できます。 仮想予定自体は、堅牢なビデオ会議機能Microsoft Teams会議を通じて開催されます。
 
 > [!NOTE]
-> Bookings アプリを Teams にインストールする必要があるのはスケジュール担当者だけです。 仮想予定を実施または参加するスタッフは、アプリを必要とします。 自分の予定表または予定表OutlookまたはTeams、予約確認メールの [Teams 会議] リンクから、単に予定に参加できます。
+> Bookings アプリを Teams にインストールする必要があるのはスケジュール担当者だけです。 仮想予定を実施または参加するスタッフは、アプリを必要とします。 予約の確認メールで、Outlook予定表Teams、または Teams 会議のリンクから、予定に参加できます。
 
 ## <a name="prerequisites-for-using-the-bookings-app-in-teams"></a>Teams で Bookings アプリを使用するための前提条件
 
@@ -51,7 +51,7 @@ Microsoft Teams の Bookings アプリでは、医療訪問、財務相談、イ
 
 ## <a name="availability-of-bookings-in-teams"></a>Teams での Bookings の利用可能性
 
-Microsoft Bookings app for Teamsデスクトップおよび Web で利用できます。 管理センターの [アプリ [] Teams](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link)、[アプリ **の管理**] Teamsにあります。
+Microsoft Bookings app for Teamsデスクトップおよび Web で利用できます。 これは、管理センターの [[アプリ] Teams](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link)の **[アプリの管理**] Teamsにあります。
 
 ### <a name="control-access-to-bookings-within-your-organization"></a>組織内の Bookings へのアクセスを制御する
 
@@ -69,7 +69,7 @@ Bookings に最適なエクスペリエンスを有効にするには、組織�
 
 追加のプライバシー設定として、スケジュールの空き時間情報が Bookings を通じて共有される前や、予定を予約する前に、スタッフに参加を要求することを選択できます。  
 
-この設定を有効にするには、[予約] Microsoft 365 管理センター **設定** \> **設定** \> **、[****Bookings] を選択します**。
+この設定を有効にするには、[**予約] Microsoft 365 管理センター**\>設定 **設定**\>、[**Bookings] を選択します**。
 
 この設定をオンにすると、スタッフは予約予定表のメンバーシップを承認するように求めるメールを受信します。  
 
@@ -100,7 +100,7 @@ Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress busin
   - 機能のギャップまたは不足している機能
   - バグや問題
   
-フィードバックを送信するには、左側のナビゲーション バーの下部にある [ヘルプ] Teamsを選択し、[すべての問題について問題を報告する] **を** 選択します。 Bookings に関する問題を簡単に特定できるよう、フィードバック レポートの先頭に「Bookings」に関するフィードバックを送信する必要があります。
+フィードバックを送信するには、左側のナビゲーション バーの下部にある [ヘルプ] Teamsを選択し、[すべての問題について問題を報告する **] を選択** します。 Bookings に関する問題を簡単に特定できるよう、フィードバック レポートの先頭に「Bookings」に関するフィードバックを送信する必要があります。
 
 ## <a name="related-articles"></a>関連記事
 

@@ -12,19 +12,19 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
-description: 2015/2019 Skype for Business Server Lync 2013 の更新プログラムを 1 か所で検索して管理します。 このページのリンクを使用して、更新プログラムの詳細を取得し、更新プログラムをダウンロードします。
-ms.openlocfilehash: e90155c15909ca876362990ba2754e4b136d2ac6
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+description: 2015/2019 Skype for Business Server Lync 2013 の更新プログラムを 1 か所で検索して管理します。 このページのリンクを使用して、更新プログラムに関する詳細な情報を取得し、更新プログラムをダウンロードしてください。
+ms.openlocfilehash: ea8d88f9287c8795ee3b3f4252c2e0664695a44a
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012381"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763342"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server 更新プログラム
 
-[Skype for Business Server 2019、Skype for Business Server](#skype-for-business-server-2019-update-history) [2015、Lync](#skype-for-business-server-2015-update-history) [Server 2013、Lync Server 2010](#lync-server-2013-update-history)の更新プログラムを[1](#lync-server-2010-update-history)か所で検索および管理します。 このページのリンクを使用して、更新プログラムの詳細を取得し、更新プログラムをダウンロードします。
+[Skype for Business Server 2019、Skype for Business Server 2015](#skype-for-business-server-2019-update-history)、[Lync Server 2013、Lync Server 2010](#lync-server-2013-update-history) の更新プログラムを [1](#lync-server-2010-update-history) か所で検索および管理します。 [](#skype-for-business-server-2015-update-history) このページのリンクを使用して、更新プログラムに関する詳細な情報を取得し、更新プログラムをダウンロードしてください。
 
-最新のオンラインSkype for BusinessおよびMicrosoft 365については、「ロードマップ」[をMicrosoft 365してください](https://go.microsoft.com/fwlink/p/?linkid=529454)。
+最新のオンラインSkype for Business更新プログラムMicrosoft 365、「ロードマップ」[をMicrosoft 365してください](https://go.microsoft.com/fwlink/p/?linkid=529454)。
 
 ## <a name="skype-for-business-server-2019-update-history"></a>Skype for Business Server 2019 更新履歴
 
@@ -35,7 +35,7 @@ KB 4470124は 2019 年 2019 年のマスター Skype for Business Server KB で�
 |Skype for Business Server 2019 累積的な更新プログラム 5 |[KB 4470124 (MACP3)](https://support.microsoft.com/kb/4470124)| 2021 年 3 月 |
 |Skype for Business Server 2019 累積的な更新プログラム 4 の修正プログラム 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2020 年 11 月 |
 |Skype for Business Server 2019 累積的な更新プログラム 4 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2020 年 9 月 |
-|Skype for Business Server 2019 累積的な更新プログラム 3 修正プログラム 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2020 年7 月 |
+|Skype for Business Server 2019 累積的な更新プログラム 3 修正プログラム 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2020 年 7 月 |
 |Skype for Business Server 2019 累積的な更新プログラム 3 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2020 年 3 月 |
 |Skype for Business Server 2019 累積的な更新プログラム 2 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019 年 12 月 |
 |Skype for Business Server 2019 累積的な更新プログラム 1 の修正プログラム 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019 年 9 月 |
@@ -54,17 +54,18 @@ KB 4470124は 2019 年 2019 年のマスター Skype for Business Server KB で�
 
 ## <a name="skype-for-business-server-2015-update-history"></a>Skype for Business Server 2015 更新履歴
 
-[KB 3061064](https://support.microsoft.com/kb/3061064) リリースされた累積的な更新プログラムすべてが含まれています。 
+[KB 3061064](https://support.microsoft.com/kb/3061064) リリース済みのすべての累積的な更新プログラムが含まれています。 
 
 |パッケージ名|サポート技術情報番号|リリース日|
 |:--- |:--- |:--- |
-|Skype for Business Server 2015 累積的な更新プログラム 12|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2021 年 8 月 |
-|Skype for Business Server 2015 累積的な更新プログラム 11 修正プログラム 2|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2020 年 11 月 |
-|Skype for Business Server 2015 累積的な更新プログラム 11 の修正プログラム 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2020 年 7 月 |
-|Skype for Business Server 2015 累積的な更新プログラム 11|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2020 年 5 月 13 日 |
-|Skype for Business Server 2015 累積的な更新プログラム 10 修正プログラム 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2019 年 8 月 |
-|Skype for Business Server 2015 累積的な更新プログラム 10 |[KB 3061064](https://support.microsoft.com/kb/3061064)| 2019 年 7 月 |
-|2015 年 2015 Skype for Business Server Web コンポーネント サーバーの累積的な更新プログラム 9|[KB 4487981](https://support.microsoft.com/kb/4487981)| 2019 年 5 月 |
+|Skype for Business Server 2015 累積的な更新プログラム 12 の修正プログラム 1|[KB 3061064](https://support.microsoft.com/kb/3061064)|2022 年 2 月 |
+|Skype for Business Server 2015 累積的な更新プログラム 12|[KB 3061064](https://support.microsoft.com/kb/3061064)|2021 年 8 月 |
+|Skype for Business Server 2015 累積的な更新プログラム 11 修正プログラム 2|[KB 3061064](https://support.microsoft.com/kb/3061064)|2020 年 11 月 |
+|Skype for Business Server 2015 累積的な更新プログラム 11 の修正プログラム 1|[KB 3061064](https://support.microsoft.com/kb/3061064)|2020 年 7 月 |
+|Skype for Business Server 2015 累積的な更新プログラム 11|[KB 3061064](https://support.microsoft.com/kb/3061064)|2020 年 5 月 13 日 |
+|Skype for Business Server 2015 累積的な更新プログラム 10 修正プログラム 1|[KB 3061064](https://support.microsoft.com/kb/3061064)|2019 年 8 月 |
+|Skype for Business Server 2015 累積的な更新プログラム 10 |[KB 3061064](https://support.microsoft.com/kb/3061064)|2019 年 7 月 |
+|2015 年 2015 Skype for Business Server Web コンポーネント サーバーの累積的な更新プログラム 9|[KB 4487981](https://support.microsoft.com/kb/4487981)|2019 年 5 月 |
 |2015、Skype for Business Server エンド サーバー、エッジ サーバーの累積的な更新プログラム 8|[KB 4464355](https://support.microsoft.com/kb/4464355)|2019 年 1 月|
 |2015 年 2015 年Skype for Business Serverフロントエンド サーバーとエッジ サーバーの累積的な更新プログラム 7 |[KB 4340904](https://support.microsoft.com/kb/4340904) |2018 年 7 月 |
 |累積的な更新プログラム 6 Hotfix 2 for Skype for Business Server 2015、フロントエンド サーバー、エッジ サーバー |[KB 4086059](https://support.microsoft.com/kb/4086059) |2018 年 3 月 |
@@ -96,7 +97,7 @@ KB 4470124は 2019 年 2019 年のマスター Skype for Business Server KB で�
 |パッケージ名|サポート技術情報番号|リリース日|
 |:--- |:--- |:--- |
 |Lync Server 2013 累積的な更新プログラム 10 の修正プログラム 5 |[KB 2809243](https://support.microsoft.com/kb/2809243)|2021 年 9 月|
-|Lync Server 2013 累積的な更新プログラム 10 の修正プログラム 4 |[KB 4515509](https://support.microsoft.com/kb/4515509)|2020 年7 月|
+|Lync Server 2013 累積的な更新プログラム 10 の修正プログラム 4 |[KB 4515509](https://support.microsoft.com/kb/4515509)|2020 年 7 月|
 |Lync Server 2013 累積的な更新プログラム 10 の修正プログラム 3 |[KB 4515509](https://support.microsoft.com/kb/4515509)|2019 年 9 月|
 |Lync Server 2013 累積的な更新プログラム 10 Hotfix 2 |[KB 4501392](https://support.microsoft.com/kb/4501392)|2019 年 6 月|
 |Lync Server 2013 累積的な更新プログラム 10 の修正プログラム 1 |[KB 4458772](https://support.microsoft.com/kb/4458772)|2019 年 1 月|
@@ -248,7 +249,7 @@ KB 4470124は 2019 年 2019 年のマスター Skype for Business Server KB で�
 
 ### <a name="resource-kit-technical-reference"></a>リソース キット (テクニカル リファレンス)
 
-Microsoft [Lync Server 2010 リソース](https://www.microsoft.com/download/en/details.aspx?id=22644) キットダウンロード サイトにアクセスして、書籍の章を個別にダウンロードするか、リソース キットの [19](https://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip)章すべてが含まれる .zip ファイルをダウンロードします。
+[Microsoft Lync Server 2010 リソース](https://www.microsoft.com/download/en/details.aspx?id=22644) キットダウンロード サイトにアクセスして、書籍の章を個別にダウンロードするか、リソース キットのすべての [19](https://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip) 章を含む .zip ファイルをダウンロードします。
 
 ### <a name="group-chat"></a>Group Chat
 
