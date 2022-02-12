@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: どのセッション ボーダー コントローラー (SBC) がダイレクト ルーティングの認証済みであるかについて説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 71ba2fc6856b57a2619122b1c7341404651d4e8f
-ms.sourcegitcommit: b1d1a2b27c9dbc73a306bd69696fceda77688b26
+ms.openlocfilehash: 69add2b195da03dee69b2a33583b5dbed8f614e8
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/07/2022
-ms.locfileid: "62432856"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518929"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングが認定されたセッション ボーダー コントローラー
 
@@ -37,14 +37,14 @@ Microsoft は以下の各ベンダーと協力します。
 - SBC ベンダーとの共同サポート プロセスを確立します。
 
   > [!NOTE]
-  > Microsoft は、認定済みの 1 つまたは複数のデバイスがダイレクト ルーティング経由で接続されている電話システムのみをサポートします。 問題が発生した場合は、最初に SBC ベンダーのカスタマー サポートにお問い合わせください。 必要に応じて、SBC ベンダーは内部チャネルを介して問題を Microsoft にエスカレートします。 Microsoft は、認定済みでないデバイスがダイレクト ルーティング経由で電話システムに接続されている場合に、サポート ケースを拒否する権利を留保します。 お客様のダイレクト ルーティングの問題がベンダーの SBC デバイスにあると Microsoft が判断した場合、お客様は SBC ベンダーにサポートを再び依頼する必要があります。
+  > Microsoft は、認定されたデバイスで使用する場合にのみ、ダイレクト ルーティングを備えた電話システムをサポートします。 問題が発生した場合は、最初に SBC ベンダーのカスタマー サポートに連絡する必要があります。 必要に応じて、SBC ベンダーは内部チャネルを介して問題を Microsoft にエスカレートします。 Microsoft は、認定済みでないデバイスがダイレクト ルーティング経由で電話システムに接続されている場合に、サポート ケースを拒否する権利を留保します。 お客様のダイレクト ルーティングの問題がベンダーの SBC デバイスにあると Microsoft が判断した場合、お客様は SBC ベンダーにサポートを再び依頼する必要があります。
   >
   > 認定は、特定の SBC ファームウェア バージョンに付与されます。 以下に記載されている SBC ファームウェア バージョンは、すべて認定済みであり、サポートされています。 major.minor バージョンが同じであれば、記載されているバージョンよりも高いファームウェア バージョンがサポートされます。
   >
   > 例: 
   >
-  > - サポートされている 6.10.258 - この場合は、ファームウェア バージョン 6.10 (258 以上) もサポートされています。
-  > - 推奨される 6.20.100 - この場合は、ファームウェア バージョン 6.20 (100 以上) もお勧めします。
+  > - サポートされている 6.10.258 - この場合、Microsoft はファームウェアバージョン 6.10 (258 以降) をサポートしています。
+  > - 推奨 6.20.100 - この場合、Microsoft はファームウェア バージョン 6.20 (100 以降) を推奨しています。
   > - 特定のバージョンに関するサポートに関する質問については、SBC ベンダーにお問い合わせください。
 
 次の表に、ダイレクト ルーティングに対応する認定済みデバイスを一覧表示します。 (ローカル メディアの最適化をサポートする SBC ベンダーの詳細については、「[ダイレクト ルーティング向けローカル メディアの最適化を構成する](direct-routing-media-optimization-configure.md)」を参照してください。)
@@ -95,7 +95,7 @@ Microsoft は以下の各ベンダーと協力します。
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    |
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Orchid Link    |     &#10004;     |           |      3.1        |     |    |
 |                     [ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|    Teams SBC    |     &#10004;     |     &#10004;      |      1.6        |     |    |
-|                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Atos Unify OpenScape セッション ボーダー コントローラー   |     &#10004;     |   &#10004;        |     メディア バイパス V10R1.2 なしでサポート (メディア バイパス V10R2.2.0 に推奨)     |     |    |
+|                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Atos Unify OpenScape セッション ボーダー コントローラー   |     &#10004;     |   &#10004;        |     V10R2.2.0     |     |    |
 |                     [Sansay Inc.](https://www.sansay.com/solutions/microsoft-teams/)|    vmVSXi   |     &#10004;     |     &#10004;     |      10.5.1.354-vm-S-x64      |     |    |
 |                     [Enghouse Networks](https://www.enghousenetworks.com/portfolio/network-infrastructure/cloud-native-session-border-controller-sbc/)|    Dialogic BorderNet SBC   |     &#10004;     |     &#10004;     |      3.9.0-786      |     |    |
 |                     [Patton Electronics Co.](https://www.patton.com/microsoft/)|    Patton SmartNode eSBC   |     &#10004;     |         |      3.19.x      |     |    |
@@ -173,7 +173,7 @@ Microsoft は以下の各ベンダーと協力します。
 | [リボン](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 6000. ソフトウェア バージョン: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)   |     &#10004;     |
 | [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/) |  グランドストリーム GXW42xx (V1.0.7.10) を搭載した任意のノード |     &#10004;     |
   
-新機能のアイディアなど、Teams に関する製品フィードバックをご提供いただける場合は、「[UserVoice](https://microsoftteams.uservoice.com)」をご覧ください。
+新機能のアイデアなど、チームに関するフィードバックを提供するには、[Uservoice](https://microsoftteams.uservoice.com) を参照してください。
 
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]

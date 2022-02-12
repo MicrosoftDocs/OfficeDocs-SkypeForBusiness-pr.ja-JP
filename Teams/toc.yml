@@ -775,17 +775,17 @@ items:
                 href: audio-conferencing-zones.md
               - name: 'ビデオ: Teams での電話会議'
                 href: ./audio-conferencing-in-office-365.md
-  - name: 音声 - Teams 電話 と PSTN 接続
+  - name: 音声 - 電話システムと PSTN 接続
     items:
       - name: Teams の音声ソリューションを計画する
         href: cloud-voice-landing-page.md
-      - name: Teams 電話
+      - name: 電話システム
         items:
-          - name: Teams 電話 とは?
+          - name: 電話システムとは
             href: what-is-phone-system-in-office-365.md
-          - name: Teams 電話 で利用できる機能について
+          - name: 電話システムで利用できる機能
             href: here-s-what-you-get-with-phone-system.md
-          - name: Teams 電話 を設定する
+          - name: 電話システムをセットアップする
             href: setting-up-your-phone-system.md
           - name: 共通領域電話をセットアップする
             href: set-up-common-area-phones.md
@@ -1021,7 +1021,7 @@ items:
             href: voice-case-study-overview.md
           - name: Teams のアップグレード プラン
             href: voice-case-study-migration-plan.md
-          - name: Teams 電話
+          - name: 電話システム
             href: voice-case-study-phone-system.md
           - name: 場所に基づくルーティング
             href: voice-case-study-location-based-routing.md
@@ -1033,7 +1033,7 @@ items:
             href: voice-case-study-call-queues.md
       - name: 中小企業向けガイダンス
         items:
-          - name: 中小企業向け Microsoft Teams 電話ガイダンス
+          - name: 中小企業向け電話システム ガイダンス
             href: business-voice/whats-business-voice.md
           - name: 国および地域ごとの利用可能性
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
@@ -1041,7 +1041,7 @@ items:
             href: business-voice/get-ready-internet.md
           - name: 販売店またはパートナーからサポートを受ける
             href: business-voice/reseller-partner-support.md
-          - name: 中小企業向け Microsoft Teams 電話のセットアップ
+          - name: 中小企業向けの電話システムを設定する
             items:
               - name: 概要
                 href: business-voice/set-up-overview.md
@@ -1061,7 +1061,7 @@ items:
                 href: business-voice/port-phone-numbers.md
               - name: 設定後の参考資料
                 href: business-voice/set-up-finish.md
-          - name: 中小企業向け Microsoft Teams 電話のセットアップをカスタマイズする
+          - name: 中小企業向けに電話システムのセットアップをカスタマイズする
             items:
               - name: カスタマイズのオプション
                 href: business-voice/customize-business-voice.md
@@ -1075,7 +1075,7 @@ items:
                 href: business-voice/create-a-phone-system-call-queue-smb.md
               - name: 自動応答を設定する
                 href: business-voice/create-a-phone-system-auto-attendant-smb.md
-          - name: 中小企業向け Microsoft Teams 電話のセットアップを管理する
+          - name: 中小企業向けの電話システムのセットアップを管理する
             items:
               - name: 1 名以上のユーザーを作成する
                 href: business-voice/create-users.md
