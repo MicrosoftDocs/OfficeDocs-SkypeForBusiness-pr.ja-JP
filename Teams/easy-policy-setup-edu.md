@@ -15,20 +15,20 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Microsoft Teams for Education ポリシー ウィザードを使用して、学生や教育者向けのポリシーを簡単に適用して、学習環境を安全に保つ方法について説明します。
+description: Microsoft Teams for Education ポリシー ウィザードを使用して、学生や教育者が学習環境を安全に保つポリシーを簡単に適用する方法について説明します。
 f1keywords: ''
-ms.openlocfilehash: d724fcd7c5c62e861991e93cbbb9a0969a6c567e
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 9834aceeffc6c5604c144e801405cea968df5a69
+ms.sourcegitcommit: 2612020cd932117148440b60be818ba31208b1d1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62387645"
+ms.lasthandoff: 02/14/2022
+ms.locfileid: "62805458"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>セキュリティ ポリシー ウィザードMicrosoft Teams for Education使用して、安全な学習環境にポリシーを簡単に適用する
 
 ## <a name="overview"></a>概要
 
-[Microsoft Teams for Education ウィザードを使用すると、学生と教師のポリシーの管理が簡略化されます。 安全で生産的な学習エクスペリエンスの作成に関連する最も重要なポリシー セットを簡単かつ迅速に適用するために使用します。
+このMicrosoft Teams for Education ウィザードを使用すると、学生と教師のポリシーの管理が簡単にできます。 安全で生産的な学習エクスペリエンスの作成に関連する最も重要なポリシー セットを簡単かつ迅速に適用するために使用します。
 
 ポリシーを使用Teams環境でのTeamsの動作と、ユーザーが使用できる機能を制御できます。 たとえば、通話ポリシー、会議ポリシー、メッセージング ポリシーなど、いくつかの名前を付けることができます。各ポリシー領域は、組織のニーズに合わせてカスタマイズできます。
 
@@ -41,7 +41,7 @@ ms.locfileid: "62387645"
 この記事では、ウィザードを実行する方法について手順を示します。
 
 > [!IMPORTANT]
-> ウィザードによって適用されるポリシーは、顧客の大半のニーズMicrosoft Teams for Educationします。 ウィザードは、学生の安全のために推奨される設定を使用して、ポリシーのコア セットのグローバル (組織全体の既定) 定義を調整し、それを学生に適用します。 ウィザードでは、一連のカスタム ポリシーも作成され、教師とスタッフに割り当てされます。 ほとんどのMicrosoft Teams for Education、このウィザードの実行後に他のポリシー割り当て方法を使用する必要がなされません。 他のポリシー割り当て方法は、学生、教師、スタッフのポリシーを手動で作成および管理する場合にのみ使用します。
+> ウィザードによって適用されるポリシーは、顧客の大半のニーズをMicrosoft Teams for Educationします。 ウィザードは、学生の安全のために推奨される設定を使用して、ポリシーのコア セットのグローバル (組織全体の既定) 定義を調整し、それを学生に適用します。 ウィザードでは、一連のカスタム ポリシーも作成され、教師とスタッフに割り当てされます。 ほとんどのMicrosoft Teams for Education、このウィザードの実行後に他のポリシー割り当て方法を使用する必要が生じます。 他のポリシー割り当て方法は、学生、教師、スタッフのポリシーを手動で作成および管理する場合にのみ使用します。
 
 ## <a name="teams-for-education-policy-wizard"></a>Microsoft Teams for Education ポリシー ウィザード
 
@@ -69,7 +69,7 @@ ms.locfileid: "62387645"
 
 ウィザードを実行するには、次の手順に従います。
 
-1. 新しいアプリケーションを使用する場合Teamsウィザードが自動的に起動します。 それ以外の場合は、ダッシュボードからいつでもウィザードを開始できます。 Microsoft Teams 管理センターの左側のナビゲーションで、[ホーム] に移動し、[安全な学習環境の簡単なポリシー設定] タイルで 、[クイック セットアップ] **を選択します**。
+1. 新しいウィザードを使用する場合Teamsウィザードが自動的に起動します。 それ以外の場合は、ダッシュボードからいつでもウィザードを開始できます。 Microsoft Teams 管理センターの左側のナビゲーションで、[ホーム] に移動し、[安全な学習環境の簡単なポリシー設定] タイルで、[クイック セットアップ] **を選択します**。
 
     :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="ダッシュボードのウィザードのスクリーンショット。":::
 
@@ -77,13 +77,13 @@ ms.locfileid: "62387645"
 
     :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="教育機関の種類を選択するウィザードのページのスクリーンショット。":::
 
-3. 教師とスタッフを含むグループを検索して選択し、[次へ] を選択 **します**。 教師とスタッフ用にまだグループを設定していない場合は、グループを作成し、[](/microsoft-365/admin/create-groups/create-groups)ウィザードを再び実行します。 <br/><br/>現時点では、1 つのグループのみを選択できます。 選択したグループの教師とスタッフには、ニーズに合[](#policies-applied-by-the-wizard)わせてカスタマイズされた一連のカスタム ポリシーが割り当てられます。 この一連のポリシーは、学生に適用されるポリシーとは別のポリシーです。
+3. 教師とスタッフを含むグループを検索して選択し、[次へ] を選択 **します**。 教師とスタッフ用にまだグループを設定していない場合は、グループを作成し、[](/microsoft-365/admin/create-groups/create-groups)ウィザードを再び実行します。 <br/><br/>最大 3 つのグループを選択できます。 選択したグループの教師とスタッフには、ニーズに合[](#policies-applied-by-the-wizard)わせてカスタマイズされた一連のカスタム ポリシーが割り当てられます。 この一連のポリシーは、学生に適用されるポリシーとは別のポリシーです。
 
-    :::image type="content" source="media/easy-policy-setup-group.png" alt-text="教師とスタッフ グループを選択するウィザードのページのスクリーンショット。":::
+    :::image type="content" source="media/edu-policy-wizard-add-3-groups.png" alt-text="教師とスタッフ グループを選択するウィザードのページのスクリーンショット。":::
 
 4. 選択内容を確認します。
 
-    :::image type="content" source="media/easy-policy-setup-review-selections.png" alt-text="選択内容を確認するウィザードのページのスクリーンショット。":::
+    :::image type="content" source="media/edu-policy-wizard-3-groups-review.png" alt-text="選択内容を確認するウィザードのページのスクリーンショット。":::
 
 5. [適用 **] を** 選択して変更を適用します。 完了には数分かかる場合があります。<br/><br/>グローバル (組織全体の既定) ポリシー定義は、すぐに学生に適用されます。 教師とスタッフの場合、グループのサイズによっては、選択したグループの各メンバーにカスタム ポリシーが割り当てられるまで数時間かかる場合があります。 これは、この手順を正常に完了した後、バックグラウンドで発生します。
 6. 途中ですが、まだ完了していません。 他にも考慮すべき点があります。 次に、この記事の「ウィザードの実行後の [操作」](#what-to-do-after-running-the-wizard) セクションの手順を確認してください。
@@ -131,15 +131,15 @@ ms.locfileid: "62387645"
 
 ウィザードによってこれらのポリシーが自動的に [調整され、適用されます](#policies-applied-by-the-wizard)。 安全を保つには、機関のニーズに基づいて実行する必要がある追加の対策がいくつかある場合があります。
 
-その[他の安全に関する推奨事項については、「Teamsを](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA)使用しながら学生を安全に保つ」を参照してください。
+その他[の安全に関する推奨事項については](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA)、「Teamsを使用しながら学生を安全に保つ」を参照してください。
 
 <a name="polwiz_mc"> </a>
 
 ### <a name="step-3-check-message-center-for-policy-updates"></a>手順 3: メッセージ センターでポリシーの更新を確認する
 
-現時点では、ウィザードを実行すると、推奨されるポリシーが適用されます。 Teams で新しいポリシーが利用可能になると、学生の安全のためのグローバル (組織全体の既定) 設定がウィザードによって自動的に更新されます。 
+現時点では、ウィザードを実行すると、推奨されるポリシーが適用されます。 Teams で新しいポリシーが利用可能になると、学生の安全のためのグローバル (組織全体の既定) 設定がウィザードによって自動的に更新されます。
 
-ただし、メッセージ [センター (Microsoft 365 管理センター](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter)) を頻繁にチェックして、新機能とそのポリシーとポリシー設定を最新の情報にTeams。 
+ただし、メッセージ [センター (Microsoft 365 管理センター](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter)) を頻繁にチェックして、新しい機能とそのポリシーとポリシー設定を最新の情報にTeams。
 
 ## <a name="make-changes-in-the-wizard"></a>ウィザードで変更を行う
 
@@ -247,7 +247,7 @@ ms.locfileid: "62387645"
 |  |       |音声メッセージを作成する         |チャットとチャネルで許可         |チャットとチャネルで許可|
 |  |       |モバイル デバイスでは、最近のチャットの上に、お気に入りのチャネルを表示する     |有効         |有効|
 |  |       |グループ チャットからユーザーを削除する         |オフ         |オン|
-|アプリのアクセス許可ポリシー  |       |Microsoft アプリ         |特定のアプリをブロックし、Walkie Talkie をブロック>他のすべてのアプリを許可する         |すべてのアプリを許可する|
+|アプリのアクセス許可ポリシー  |       |Microsoft アプリ         |特定のアプリをブロックし、Walkie Talkie がブロック>他のすべてのアプリを許可する         |すべてのアプリを許可する|
 |  |       |サード パーティ製アプリ         |すべてのアプリを許可する         |すべてのアプリを許可する|
 |  |       |カスタム アプリ         |すべてのアプリを許可する         |すべてのアプリを許可する|
 |アプリセットアップ ポリシー  |           |アップロード アプリを作成する           |オフ         |オフ|
@@ -266,7 +266,7 @@ ms.locfileid: "62387645"
 
 #### <a name="educators-and-staff"></a>[**教師およびスタッフ**](#tab/educator-settings/)
 
-ウィザードで選択した教師とスタッフ グループに割り当てられているカスタム ポリシー定義の一覧を次に示します。  
+ウィザードで選択した教師とスタッフ グループに割り当てられたカスタム ポリシー定義の一覧を次に示します。  
 
 |ポリシー領域 |サブ領域  |ポリシー設定  |プライマリまたはセカンダリ |高等教育 |
 |---------|---------|---------|---------|---------|
