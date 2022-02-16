@@ -8,18 +8,23 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 searchScope:
-  - Microsoft Teams
+- Microsoft Teams
 search.appverid: MET150
 description: Microsoft Teams で承認アプリケーションを使用する方法について説明します。
 ms.localizationpriority: medium
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: ea3da24dc0fa3a64d90b38a67b13be0fa4d041ce
+ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "62421550"
 ---
-
 # <a name="teams-approvals-app-availability"></a>Teams 承認アプリの利用の可否
 
 Microsoft Teams ユーザーは、個人用アプリとして承認アプリを利用することができます。

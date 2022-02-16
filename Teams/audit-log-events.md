@@ -16,10 +16,10 @@ description: Microsoft 365 コンプライアンス センターの監査ログ�
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 7eec47d0ed2d2a299c930edee2e849c8eb20b8db
-ms.sourcegitcommit: 848e462c4f0c94548d3f90f28fb1c69a9bce64be
+ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/28/2021
+ms.lasthandoff: 02/15/2022
 ms.locfileid: "61620491"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft Teams でイベントの監査ログを検索する
@@ -35,7 +35,7 @@ ms.locfileid: "61620491"
 - チャネルの削除
 - チャンネル設定の変更
 
-監査されるアクティビティの完全Teamsについては、「アクティビティのTeamsとシフト」をTeams[](#teams-activities)[してください](#shifts-in-teams-activities)。
+監査されるアクティビティの完全なTeams、アクティビティの詳細Teamsアクティビティとシフトに[](#teams-activities)関するページ[Teamsしてください](#shifts-in-teams-activities)。
 
 > [!NOTE]
 > プライベート チャネルからの監査イベントも、チームや標準チャネルの場合と同様に記録されます。
@@ -49,7 +49,7 @@ ms.locfileid: "61620491"
 
 ## <a name="retrieve-teams-data-from-the-audit-log"></a>監査ログから Teams データを取得する
 
-1. アクティビティの監査ログを取得するにはTeamsに移動し、[監査 <https://compliance.microsoft.com> ] を **選択します**。
+1. アクティビティの監査ログを取得Teamsに移動し、[<https://compliance.microsoft.com>監査] を選択 **します**。
 
 2. [検索 **] ページ** で、監査するアクティビティ、日付、およびユーザーをフィルター処理します。
 
@@ -76,7 +76,7 @@ ms.locfileid: "61620491"
 
 - 現在の検索条件をクリアするには、[すべてクリア] **をクリックします**。 日付の範囲が、過去 7 日間の既定値に戻ります。
 
-- 5,000 件の結果が見つかった場合、検索条件に一致するイベントが 5,000 件を超えていると見なすことができます。 検索条件を絞り込み、検索を再実行して返される結果を少なくしたり、[すべての結果をエクスポートする] を選択してすべての検索結果  >  **をエクスポートすることができます**。 監査ログをエクスポートする詳しい手順については、「ファイルに検索結果をエクスポートする [」を参照してください](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-export-the-search-results-to-a-file)。
+- 5,000 件の結果が見つかった場合、検索条件に一致するイベントが 5,000 件を超えていると見なすことができます。 検索条件を絞り込 > み、検索を再実行して返される結果を少なくしたり、[エクスポート][すべての結果をダウンロード] を選択してすべての検索結果 **をエクスポートすることができます**。 監査ログをエクスポートする手順については、「検索結果をファイルにエクスポート [する」を参照してください](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-export-the-search-results-to-a-file)。
 
 オーディオ ログ検索の使い方は、[こちらの動画](https://www.youtube.com/embed/UBxaRySAxyE)をチェックアウトしてください。 Teams のプログラム マネージャーである Ansuman Acharya が、Teams の監査ログ検索を行う方法を説明します。
 
@@ -97,37 +97,37 @@ ms.locfileid: "61620491"
 |組織の設定の変更   |TeamsTenantSettingChanged         |TeamsTenantSettingChanged は、全体管理者が Microsoft 365 管理センターを使用して次のアクティビティを実行したときに記録されます。 これらの活動は、組織全体の Teams 設定に影響を与えます。 詳細については、「[組織の Teams 設定を管理する](enable-features-office-365.md)」を参照してください。 <br>これらの各アクティビティについては、変更された設定 (かっこ内) の説明が、監査ログの検索結果の **[項目]** 列に表示されます。<ul><li>組織に対して Teams が有効または無効になります (**Microsoft Teams**)。</li><li>組織に対して Microsoft Teams と Skype for Business の相互運用が有効または無効になります (**Skype for Business の相互運用性**)。</li><li>Microsoft Teams クライアント内の組織図ビューが有効または無効になります (**組織図**)。</li><li>チーム メンバーによるプライベート会議のスケジュール機能を有効または無効にします (**プライベート会議のスケジュール**)。</li><li>チーム メンバーによるチャネル会議のスケジュール機能を有効または無効にします (**チャネル会議のスケジュール**)。</li><li>チーム会議でのビデオ通話を有効または無効にします (**Skype 会議のビデオ**)。</li><li>組織に対して Microsoft Teams 会合での画面共有が有効または無効になります (**Skype 会議向け画面共有**)。</li><li>Teams の会話にアニメーション画像 (Giphy と呼ばれる) を追加する機能が有効または無効になります (**アニメーション画像**)。</li><li>組織のコンテンツの規制設定を変更します (**コンテンツの規制**)。 コンテンツの評価により、会話に表示されるアニメーション画像の種類が制限されます。</li><li>チーム メンバーがカスタマイズ可能な画像 (カスタム ミームと呼ばれる) をインターネットからチームの会話に追加する機能が、有効または無効になります (**インターネットからのカスタマイズ可能な画像**)。</li><li>チーム メンバーが編集可能な画像 (ステッカーと呼ばれる) をチームの会話に追加する機能が、有効または無効になります (**インターネットからのカスタマイズ可能な画像**)。</li><li>チーム メンバーが Microsoft Teams のチャットおよびチャネルでボットを使用する機能が、有効または無効になります (**組織全体にわたるボット**)。</li><li>Microsoft Teams に特定のボットを有効にします。 組織でボットを有効にすると利用可能になる、Teams のヘルプ ボットである T-Bot はこれに含まれません (**個々のボット**)。</li><li>チーム メンバーが拡張機能またはタブを追加する機能を有効または無効にします (**拡張機能またはタブ**)。</li><li>Microsoft Teams に対して専用ボットのサイドローディングが有効または無効になります (**ボットのサイドローディング**)。</li><li>ユーザーがメール メッセージを Microsoft Teams に送信する機能が、有効または無効になります (**チャネルのメール**)。</li></ul>|
 |メンバーの役割の変更    |MemberRoleChanged         |チーム所有者がチームのメンバーの役割を変更します。 次の値は、ユーザーに割り当てられる役割の種類を示します。 <br><br>**1** - メンバー ロールを意味します。<br>**2** - 所有者ロールを示します。<br>**3** - ゲスト ロールを意味します。<br><br>メンバー プロパティには、組織の名前とメンバーのメール アドレスも含まれます。        |
 |チーム設定の変更    |TeamSettingChanged        |次のアクティビティがチームの所有者により実行されると、TeamSettingChanged 操作が記録されます。 これらの各アクティビティについては、変更された設定 (かっこ内) の説明が、監査ログの検索結果の **[項目]** 列に表示されます。<ul><li>チームのアクセスの種類を変更します。 チームは非公開または公開として設定できます (**チームのアクセスの種類**)。 チームが非公開 (既定の設定) の場合、ユーザーはチームには招待状でのみアクセスでき暗ます。 チームが公開されている場合、誰でもチームにアクセスできます。</li><li>チームの情報の分類を変更します (**チーム分類**)。 たとえば、チームのデータは業務への影響が大きい、業務への影響が中程度、業務への影響が小さい、といったように分類できます。</li><li>チームの名前を変更します (**チーム名**)。</li><li>チームの説明を変更します (**チームの説明**)。</li><li>チームの設定が変更されました。 これらの設定にアクセスするには、チーム所有者はチームを右クリックし、**[チームの管理]**、**[設定]** タブの順に選択します。これらのアクティビティについては、変更された設定の名前が、監査ログの検索結果の **[項目]** 列に表示されます。</li></ul>         |
-|チャット<sup>1、2 を</sup><sup>作成しました</sup>|    ChatCreated|    チャットTeams作成されました。|
+|チャット 1、<sup>2 を作成しました</sup> <sup> </sup>|    ChatCreated|    チャットTeams作成されました。|
 |チームの作成    |TeamCreated         |ユーザーがチームを作成しました。         |
 |メッセージを削除しました  |MessageDeleted |チャットまたはチャネル内のメッセージが削除されました。|
 |すべての組織のアプリが削除されました|DeletedAllOrganizationApps           |カタログからすべての組織アプリを削除しました。     |
 |削除されたアプリ |AppDeletedFromCatalog           |カタログからアプリが削除されました。     |
 |チャネルの削除     |ChannelDeleted         |ユーザーがチームからチャネルを削除しました。         |
 |チームの削除  |TeamDeleted            |チーム所有者がチームを削除しました。      |
-|メッセージの URL リンクを含むメッセージを編集Teams     |MessageEditedHasLink         |ユーザーがメッセージを編集し、そのメッセージに URL リンクを追加Teams。         |
-|エクスポートされたメッセージ<sup>1、2</sup> <sup></sup> |    MessagesExported |チャットまたはチャネル メッセージがエクスポートされた。|
-|フェッチされたチャット<sup>1、2</sup> <sup></sup>   |ChatRetrieved  |チャットMicrosoft Teams取得されました。|
-|メッセージ<sup>1、2 </sup>のすべてのホステッド コンテンツ <sup>をフェッチしました</sup> |MessageHostedContentsListed    |画像やコード スニペットなど、メッセージ内のすべてのホストされたコンテンツが取得されました。|
+|メッセージの URL リンクを含むメッセージを編集Teams     |MessageEditedHasLink         |ユーザーがメッセージを編集し、メッセージに URL リンクを追加Teams。         |
+|エクスポートされたメッセージ <sup>1、 </sup> <sup>2</sup> |    MessagesExported |チャットまたはチャネル メッセージがエクスポートされた。|
+|フェッチされたチャット <sup>1、 </sup> <sup>2</sup>   |ChatRetrieved  |チャットMicrosoft Teams取得されました。|
+|メッセージ <sup>1 </sup>、2 のすべてのホステッド コンテンツ <sup>をフェッチしました</sup> |MessageHostedContentsListed    |画像やコード スニペットなど、メッセージ内のすべてのホストされたコンテンツが取得されました。|
 |インストールされたアプリ |AppInstalled         |アプリがインストールされました。   |
 |カードに対して実行されたアクション|PerformedCardAction|ユーザーがチャット内のアダプティブ カードでアクションを起こしました。 アダプティブ カードは通常ボットで使用し、チャットで情報を豊富に表示して、相互作用することを可能にします。 <br/><br/>**注:** チャット内のアダプティブ カードでのインライン入力アクションだけが監査ログで利用可能になります。 たとえば、チャネルでの会話の中で、ユーザーがポーリング ボットによって生成されたアダプティブ カード上でポーリング応答を送信した場合。 ダイアログを開く「結果を表示」などのユーザー アクションや、ダイアログ内のユーザー アクションは、監査ログには表示されません。|
-|新しいメッセージ<sup>1、2 を</sup><sup>投稿しました</sup>   |MessageSent|   新しいメッセージがチャットまたはチャネルに投稿されました。|
+|新しいメッセージ <sup>1、 </sup> <sup>2 を投稿しました</sup>   |MessageSent|   新しいメッセージがチャットまたはチャネルに投稿されました。|
 |公開済みのアプリ |AppPublishedToCatalog           |アプリがカタログに追加されました。     |
-|メッセージ<sup>1、2 を</sup><sup>読む</sup> |MessageRead    |チャットまたはチャネルのメッセージが取得されました。|
-|メッセージ <sup>1、2 </sup>のホストされているコンテンツ <sup>を読み取ります。</sup>   |MessageHostedContentRead   |画像やコード スニペットなど、メッセージ内でホストされているコンテンツが取得されました。|
+|メッセージ 1、2 <sup>を読 </sup> <sup>む</sup> |MessageRead    |チャットまたはチャネルのメッセージが取得されました。|
+|メッセージ <sup>1 </sup>、2 のホストされているコンテンツ <sup>を読み取ります。</sup>   |MessageHostedContentRead   |画像やコード スニペットなど、メッセージ内でホストされているコンテンツが取得されました。|
 |チームからのボットの削除   |BotRemovedFromTeam         |ユーザーがチームからボットを削除しました。       |
 |コネクタの削除     |ConnectorRemoved         |ユーザーがチャネルからコネクタを削除しました。         |
 |メンバーの削除    |MemberRemoved        |チームの所有者が、チーム、チャネル、またはグループ チャットからメンバーを削除しました。         |
 |タブの削除    |TabRemoved         |ユーザーがチャネルからタブを削除しました。         |
-|取得したメッセージ<sup>1、2</sup> <sup></sup> |MessagesListed |チャットまたはチャネルからのメッセージが取得されました。|
+|取得したメッセージ <sup>1、 </sup> <sup>2</sup> |MessagesListed |チャットまたはチャネルからのメッセージが取得されました。|
 |URL リンクを含むメッセージを送信しました Teams |MessageCreatedHasLink|ユーザーは、URL リンクを含むメッセージを Teams。|
-|メッセージ作成 <sup>1、2 </sup>の変更通知 <sup>を送信しました</sup>  |MessageCreatedNotification |サブスクライブしているリスナー アプリケーションに新しいメッセージを通知する変更通知が送信されました。|
-|メッセージ削除の変更通知を送信<sup>しました 1,2</sup> <sup></sup>  |MessageDeletedNotification |削除されたメッセージをサブスクライブしているリスナー アプリケーションに通知する変更通知が送信されました。|
-|メッセージ更新プログラム <sup>1、2 </sup>の変更通知 <sup>を送信しました</sup>    |MessageUpdatedNotification |サブスクライブしているリスナー アプリケーションに更新されたメッセージを通知する変更通知が送信されました。|
-|メッセージ変更通知のサブスクライブ<sup>1、2</sup> <sup></sup> |SubscribedToMessages   |メッセージの変更通知を受け取るリスナー アプリケーションによってサブスクリプションが作成されました。|
+|メッセージ作成 <sup>1 </sup>、2 の変更通知 <sup>を送信しました</sup>  |MessageCreatedNotification |サブスクライブしているリスナー アプリケーションに新しいメッセージを通知する変更通知が送信されました。|
+|メッセージ削除の変更通知を送信<sup>しました 1,2 </sup> <sup></sup>  |MessageDeletedNotification |削除されたメッセージをサブスクライブしているリスナー アプリケーションに通知する変更通知が送信されました。|
+|メッセージ更新プログラム 1、2 の <sup>変更通知を送信 </sup> <sup>しました</sup>    |MessageUpdatedNotification |サブスクライブしているリスナー アプリケーションに更新されたメッセージを通知する変更通知が送信されました。|
+|メッセージ変更通知のサブスクライブ <sup>1、 </sup> <sup>2</sup> |SubscribedToMessages   |メッセージの変更通知を受け取るリスナー アプリケーションによってサブスクリプションが作成されました。|
 |削除されたアプリ |AppUninstalled           |アプリがアンインストールされました。     |
 |更新されたアプリ |AppUpdatedInCatalog           |アプリがカタログで更新されました。     |
-|チャット<sup>1、2 を</sup><sup>更新しました</sup> |ChatUpdated    |チャットTeams更新されました。|
-|メッセージ<sup>1、2 を</sup><sup>更新しました</sup>  |MessageUpdated |チャットまたはチャネルのメッセージが更新されました。|
+|チャット 1、<sup>2 を更新しました</sup> <sup> </sup> |ChatUpdated    |チャットTeamsが更新されました。|
+|メッセージ 1、<sup>2 を更新しました</sup> <sup> </sup>  |MessageUpdated |チャットまたはチャネルのメッセージが更新されました。|
 |コネクタの更新    |ConnectorUpdated         |ユーザーがチャネルのコネクタを変更しました。         |
 |タブの更新   |TabUpdated         |ユーザーがチャネルのタブを変更しました。         |
 |アップグレードされたアプリ |AppUpgraded           |アプリがカタログで最新版にアップグレードされました。     |
@@ -135,7 +135,7 @@ ms.locfileid: "61620491"
 
 
 > [!NOTE]
-> <sup>1</sup>このイベントの監査レコードは、Microsoft Graph API を呼び出して操作が実行された場合にのみ記録されます。 クライアントで操作が実行Teams、監査レコードはログに記録されません。<br/><br/><sup>2</sup> このイベントは、高度な監査でのみ使用できます。 つまり、これらのイベントが監査ログに記録される前に、ユーザーに適切なライセンスが割り当てられている必要があります。 高度な監査でのみ使用できるアクティビティの詳細については、「Advanced Audit in Microsoft 365 」[を参照してください](/microsoft-365/compliance/advanced-audit#advanced-audit-events)。 高度な監査のライセンス要件については、「監査ソリューション 」を参照[Microsoft 365。](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)
+> <sup>1</sup> このイベントの監査レコードは、Microsoft Graph API を呼び出すことによって操作が実行された場合にのみ記録されます。 クライアントで操作が実行Teams、監査レコードはログに記録されません。<br/><br/><sup>2</sup> このイベントは、高度な監査でのみ使用できます。 つまり、これらのイベントが監査ログに記録される前に、ユーザーに適切なライセンスが割り当てられている必要があります。 高度な監査でのみ使用できるアクティビティの詳細については、「Advanced [Audit in Microsoft 365」を参照してください](/microsoft-365/compliance/advanced-audit#advanced-audit-events)。 高度な監査ライセンス要件については、「監査ソリューションの監査」を参照[Microsoft 365](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)。
 
 ## <a name="shifts-in-teams-activities"></a>Teams アクティビティにサインイン
 
@@ -183,13 +183,13 @@ Azure Active Directory (Azure AD)、Microsoft 365 管理センター、または
 
 ## <a name="use-defender-for-cloud-apps-to-set-activity-policies"></a>Defender for Cloud Apps を使用してアクティビティ ポリシーを設定する
 
-[Microsoft Defender for Cloud Apps](/cloud-app-security/what-is-cloud-app-security)の[](/cloud-app-security/user-activity-policies)統合を使用すると、アプリ プロバイダーの API を使用して、さまざまな自動化されたプロセスを適用するアクティビティ ポリシーを設定できます。 これらのポリシーにより、さまざまなユーザーが行う特定のアクティビティを監視したり、予想外に高率で発生する特定のタイプのアクティビティをフォローしたりすることができます。
+[Microsoft Defender for Cloud Apps](/cloud-app-security/what-is-cloud-app-security) の統合を使用すると、[](/cloud-app-security/user-activity-policies)アプリ プロバイダーの API を使用して、さまざまな自動化されたプロセスを適用するアクティビティ ポリシーを設定できます。 これらのポリシーにより、さまざまなユーザーが行う特定のアクティビティを監視したり、予想外に高率で発生する特定のタイプのアクティビティをフォローしたりすることができます。
 
 アクティビティ検出ポリシーを設定すると、アラートの生成を開始します。 アラートは、ポリシーを作成した後に発生したアクティビティに対してのみ生成されます。 Cloud Apps の Defender でアクティビティ ポリシーを使用してアクティビティを監視する方法のシナリオTeamsします。
 
 ### <a name="external-user-scenario"></a>外部ユーザーのシナリオ
 
-ビジネスの観点から注意したいシナリオの一つに、Teams 環境に外部ユーザーを追加することがあります。 外部ユーザーが有効になっている場合は、そのプレゼンスを監視することをお勧めします。  Defender for [Cloud Apps を使用して、潜在的な](/cloud-app-security/what-is-cloud-app-security) 脅威を特定できます。
+ビジネスの観点から注意したいシナリオの一つに、Teams 環境に外部ユーザーを追加することがあります。 外部ユーザーが有効になっている場合は、そのプレゼンスを監視することをお勧めします。  [Defender for Cloud Apps を使用して、潜在的な](/cloud-app-security/what-is-cloud-app-security)脅威を特定できます。
 
 :::image type="content" alt-text="外部ユーザーの追加を監視するポリシー。" source="media/TeamsExternalUserAddPolicy.png" lightbox="media/TeamsExternalUserAddPolicy.png":::
 

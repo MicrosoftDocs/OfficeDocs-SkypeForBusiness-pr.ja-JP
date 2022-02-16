@@ -19,17 +19,17 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c19894106dfd06c13ec9936657837aa42fcdade0
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/13/2022
+ms.lasthandoff: 02/15/2022
 ms.locfileid: "62015017"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams のトランシーバー アプリ
 
 Teams の Walkie Talkie アプリは、チームにインスタント プッシュ対トーク (PTT) 通信を提供し、Android & iOS で利用できます。 トランシーバーを使用すると、ユーザーは、メンバーと同じ基本チャネルを使用してチームとつながることができます。 チャネルでトランシーバーに接続するユーザーのみが参加者になり、プッシュツートークを使用して一度に 1 つずつ相互に通信できます。
 
-Teams で Walkie Talkie を使用すると、フロントライン ワーカーは、バルク ラジオを持ち歩く必要なく、使い慣れた PTT エクスペリエンスと安全に通信できます。また、Walkie Talkie は WiFi や携帯電話のインターネット接続とどこでも動作します。
+Teams で Walkie Talkie を使用すると、フロントライン ワーカーは、バルク ラジオを持ち歩く必要なく、使い慣れた PTT エクスペリエンスと安全に通信できます。また、Walkie Talkie は WiFi または携帯ネットワーク インターネット接続を使用してどこでも動作します。
 
 ## <a name="getting-started"></a>はじめに
 
@@ -45,7 +45,7 @@ Microsoft Teams 管理センターの **[Teams アプリ]** > **[セットアッ
 
 :::image type="content" source="media/deploy-walkie-talkie-1.png" alt-text="「ピン留めされたアプリ」セクションと選択する [アプリの追加] ボタンが表示されます。":::
 
-右側に表示される **[ピン留めされたアプリを追加]** パネルで、**[検索]** テキストボックスを使用してトランシーバーを探します。 検索結果として使用する場合は、名前の右側にある[追加] ボタンを選択してリストに追加します。
+右側に表示される **[ピン留めされたアプリを追加]** パネルで、**[検索]** テキストボックスを使用してトランシーバーを探します。 検索結果として使用する場合は、名前の右側にある  [追加] ボタンを選択してリストに追加します。
 
 :::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="検索ウィンドウにトランシーバーが入力された [ピン留めされたアプリを追加] サイドバーと、検索結果にトランシーバー アプリが表示され、その横に [追加] ボタンが表示されます。":::
 
@@ -81,11 +81,11 @@ Walkie Talkie からの予想されるデータ使用量は、音声の送受信
   - 有線ヘッドセット (Android のみ)
     - [クライン電子](https://www.kleinelectronics.com/poc-accessories/mtwt/)
 - **堅牢な Android フォン**
-  - Samsung [Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/) [、Galaxy XCover 5、Galaxy](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy)Tab Active [3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
+  - Samsung [Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/)、[Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy)、[Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
     - 手動セットアップ - インストールTeams、XCover/Active キー設定 >高度>に移動します。 [アプリで XCover キーを制御する] をオンにし、[Teams] を選択します。
     - [MDM のセットアップ](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
-  - Zebra [TC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc52-tc57-series-touch-computer.html)、TC7x、TC2x、EC5x、EC30、MC3300、MC9300 [](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc72-tc77-series-touch-computer.html) [](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc21-tc26.html) [](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec50-ec55.html) [](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec30.html) [](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc3300.html) [](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc9300.html) 
-    - 手動セットアップ - 既定Teams、専用 PTT ボタン (LEFT_TRIGGER_2) が Walkie Talkie で動作します。
+  - Zebra [TC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc52-tc57-series-touch-computer.html)、 [TC7x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc72-tc77-series-touch-computer.html)、 [TC2x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc21-tc26.html)、 [EC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec50-ec55.html)、 [EC30](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec30.html)、 [MC3300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc3300.html)、 [MC9300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc9300.html) 
+    - 手動セットアップ - 既定Teams、専用 PTT ボタン (LEFT_TRIGGER_2) が Walkie Talkie と動作します。
     
 > [!NOTE]
 > これらのデバイスは Teams 認定を受けていません。 Teams トランシーバーで動作することが検証されています。
