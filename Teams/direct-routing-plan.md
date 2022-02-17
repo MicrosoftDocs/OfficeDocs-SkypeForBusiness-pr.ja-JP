@@ -18,27 +18,27 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Microsoft ダイレクト ルーティングを使用して、サポートされている顧客が提供するセッション ボーダー コントローラー (SBC) を接続して接続する方法について電話システム。
-ms.openlocfilehash: 9f75646dd90b4c30384e12ae23fdc46be8825fab
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: 9070acf8483041115308335abac49796be311453
+ms.sourcegitcommit: 2ddbaecb0bb7776dc5ab88727b1335e7e46d3704
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518839"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62881542"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
 > [!Tip]
-> ダイレクト ルーティングの利点、その計画方法、およびデプロイ方法については、次のセッションをご[覧ください](https://aka.ms/teams-direct-routing):Microsoft Teams
+> ダイレクト ルーティングの利点、その計画方法、およびデプロイ方法については、次のセッションをご [Microsoft Teams覧ください](https://aka.ms/teams-direct-routing)。
 
-直接ルーティングを使用すると、サポートされている顧客提供のセッション ボーダー コントローラー (SBC) を接続して、電話システム。 この機能を使用すると、次の図に示すように、Microsoft Teams クライアントとのオンプレミスの公衆交換電話網 (PSTN) 接続を構成できます。 
+ダイレクト ルーティングを使用すると、サポートされている顧客提供のセッション ボーダー コントローラー (SBC) を接続して、電話システム。 この機能を使用すると、次の図に示すように、Microsoft Teams クライアントとのオンプレミスの公衆交換電話網 (PSTN) 接続を構成できます。 
 
 ![オンプレミス PSTN 接続の構成を示す図。](media/PlanDirectRouting1-PSTNwithTeams.png "クライアントを使用したオンプレミス PSTN 接続Microsoft Teams構成")
 
   > [!NOTE]
-  > Skype for Business Online では、顧客が提供する SBC をペアリングできますが、SBC と Microsoft Cloud の間に、オンプレミスの Skype for Business Server デプロイまたはクラウド コネクタと呼ばれる特別なエディションの Skype for Business が必要です。 このシナリオはハイブリッド音声と呼ばれる。 これに対し、ダイレクト ルーティングでは、サポートされている SBC と Microsoft Cloud 間の直接接続が可能です。
+  > Skype for Business Online では、顧客が提供する SBC をペアリングできますが、SBC と Microsoft Cloud の間に、オンプレミスの Skype for Business Server デプロイまたはクラウド コネクタと呼ばれる Skype for Business の特別なエディションが必要です。 このシナリオはハイブリッド音声と呼ばれる。 これに対し、ダイレクト ルーティングでは、サポートされている SBC と Microsoft Cloud 間の直接接続が可能です。
 
 > [!Important]
-> Cloud Connector Edition は、2021 年 7 月 31 日に Skype for Businessされます。 組織が Teams にアップグレードしたら、直接ルーティングを使用してオンプレミスのテレフォニー ネットワークを接続Teams[方法について説明します](direct-routing-landing-page.md)。 
+> Cloud Connector Edition は、2021 年 7 月 31 日に Skype for Businessされます。 組織を Teams にアップグレードしたら、直接ルーティングを使用してオンプレミスのテレフォニー ネットワークをネットワークにTeams[方法について説明します](direct-routing-landing-page.md)。 
 
 ダイレクト ルーティングを使用すると、ほぼすべてのテレフォニー トランクに SBC を接続したり、サード パーティの PSTN 機器と相互接続することができます。 ダイレクト ルーティングを使用すると、次の操作を行います。 
 
@@ -78,15 +78,15 @@ Microsoft では、通話プランなどのクラウド内のすべての音声�
 |:--- |:--- |
 |セッション ボーダー コントローラー (SBC)|サポートされている SBC。 詳細については、「サポートされている [SBC」を参照してください](#supported-session-border-controllers-sbcs)。|
 |SBC に接続されているテレフォニー トランク|SBC に接続されている 1 つ以上のテレフォニー トランク。 一方の端では、SBC は直接ルーティングを電話システム接続します。 SBC は、PBX、アナログ テレフォニー アダプターなどのサード パーティのテレフォニー エンティティにも接続できます。 SBC に接続されている PSTN 接続オプションは機能します。 (SBC への PSTN トランクの構成については、SBC ベンダーまたはトランク プロバイダーを参照してください)。|
-|Microsoft 365組織|ユーザー Microsoft 365ホームに使用する組織Microsoft Teams、SBC への構成と接続。|
-|ユーザー レジストラー|ユーザーは、ユーザーが自宅にMicrosoft 365。<br/>会社に Microsoft 365 へのハイブリッド接続を備えるオンプレミスの Skype for Business または Lync 環境がある場合、Teams でオンプレミスのユーザーに対して音声を有効にすることはできません。<br/><br/>ユーザーのレジストラーを確認するには、Online PowerShell コマンドレットSkype for Businessを使用します。<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>コマンドレットの出力には、次の情報が表示されます。<br/><code>HostingProvider : sipfed.online.lync.com</code>|
-|ドメイン|1 つ以上のドメインが組織Microsoft 365またはOffice 365されます。<br/><br/>テナントに対して自動的に \*作成される既定のドメイン .onmicrosoft.com は使用できないことに注意してください。<br/><br/>ドメインを表示するには、Online PowerShell コマンドレットSkype for Business使用できます。<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>ドメインと組織または組織のドメインMicrosoft 365詳細Office 365に関する FAQ [を参照してください](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)。|
+|Microsoft 365組織|ユーザー Microsoft 365をホームするために使用する組織Microsoft Teams SBC への構成と接続。|
+|ユーザー レジストラー|ユーザーは、ユーザーが自宅にMicrosoft 365。<br/>会社に Microsoft 365 へのハイブリッド接続を備えるオンプレミスの Skype for Business または Lync 環境がある場合、Teams でオンプレミスに自宅のユーザーの音声を有効にすることはできません。<br/><br/>ユーザーのレジストラーを確認するには、Online PowerShell コマンドレットSkype for Businessを使用します。<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>コマンドレットの出力には、次の情報が表示されます。<br/><code>HostingProvider : sipfed.online.lync.com</code>|
+|ドメイン|組織または組織に追加された 1 つMicrosoft 365ドメインOffice 365します。<br/><br/>テナント用に自動的に \*作成される既定のドメイン .onmicrosoft.com は使用できないことに注意してください。<br/><br/>ドメインを表示するには、Online PowerShell コマンドレットSkype for Business使用できます。<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>ドメインと組織または組織のドメインMicrosoft 365詳細についてはOffice 365 FAQ[」を参照してください](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)。|
 |SBC のパブリック IP アドレス|SBC への接続に使用できるパブリック IP アドレス。 SBC の種類に基づいて、SBC は NAT を使用できます。|
-|SBC の完全修飾ドメイン名 (FQDN)|SBC の FQDN。FQDN のドメイン部分は、組織または組織のMicrosoft 365ドメインOffice 365します。 詳細については、「 [SBC ドメイン名」を参照してください](#sbc-domain-names)。|
+|SBC の完全修飾ドメイン名 (FQDN)|SBC の FQDN。FQDN のドメイン部分は、組織または組織の登録済みドメインの 1 Microsoft 365ですOffice 365。 詳細については、「 [SBC ドメイン名」を参照してください](#sbc-domain-names)。|
 |SBC のパブリック DNS エントリ |SBC FQDN をパブリック IP アドレスにマッピングするパブリック DNS エントリ。 |
 |SBC のパブリック信頼された証明書 |ダイレクト ルーティングとのすべての通信に使用される SBC の証明書。 詳細については、「 [SBC のパブリック信頼された証明書」を参照してください](#public-trusted-certificate-for-the-sbc)。|
 |ダイレクト ルーティングの接続ポイント |ダイレクト ルーティングの接続ポイントは、次の 3 つの FQDN です。<br/><br/>`sip.pstnhub.microsoft.com` – グローバル FQDN。 を最初に試す必要があります。<br/>`sip2.pstnhub.microsoft.com` – セカンダリ FQDN。第 2 の優先度のリージョンに地理的にマップされます。<br/>`sip3.pstnhub.microsoft.com` – 第 3 の FQDN。第 3 の優先度のリージョンに地理的にマップされます。<br/><br/>構成要件については、「 [SIP Signaling: FQDN」を参照してください](#sip-signaling-fqdns)。|
-|ダイレクト ルーティング メディアのファイアウォール IP アドレスとポート |SBC は、クラウド内の次のサービスと通信します。<br/><br/>SIP プロキシ。信号を処理します。<br/>メディア プロセッサ:メディアを処理する (メディア バイパスがオンの場合を除く)<br/><br/>これら 2 つのサービスには、このドキュメントで後述する Microsoft Cloud の個別の IP アドレスがあります。<br/><br/>詳細については、「URL と IP [アドレス範囲Microsoft Teamsセクション](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)[を参照してください](/office365/enterprise/urls-and-ip-address-ranges)。 |
+|ダイレクト ルーティング メディアのファイアウォール IP アドレスとポート |SBC は、クラウド内の次のサービスと通信します。<br/><br/>SIP プロキシ。信号を処理します。<br/>メディア プロセッサ:メディアを処理する (メディア バイパスがオンの場合を除く)<br/><br/>これら 2 つのサービスには、このドキュメントで後述する Microsoft Cloud の個別の IP アドレスがあります。<br/><br/>詳細については、「URL と IP アドレス[範囲Microsoft Teamsのセクション](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)[を参照してください](/office365/enterprise/urls-and-ip-address-ranges)。 |
 |メディアトランスポート プロファイル|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
 ファイアウォール IP アドレスとポート (Microsoft Teams メディア) |詳細については、「URL と [IP アドレス範囲」を参照してください](/office365/enterprise/urls-and-ip-address-ranges)。 |
 |||
@@ -100,10 +100,10 @@ Microsoft では、通話プランなどのクラウド内のすべての音声�
 - Microsoft 電話会議 (このライセンスが必要な場合の具体的な例については、以下のノートと段落を参照してください)。
 
 > [!NOTE]
-> Skype for Businessプランは、含まれているライセンス契約から削除することはできません。 
+> Skype for Business含まれるライセンス契約からプランを削除することはできません。 
 > 
 > [!IMPORTANT]
-> GCCユーザーと DoD ユーザーは、G5 に含まれる電話会議ライセンスを無効にし、直接ルーティングが完全に構成されるまで電話会議を有効にするまで待つ必要があります。 ユーザーは、電話会議ライセンスを有効にする前に、ダイヤルイン電話番号を構成し、ダイヤル パッドを使用する必要があります。 詳細[については、「高レベルおよび DoD GCCルーティング](./audio-conferencing-with-direct-routing-for-gcch-and-dod.md)を使用した電話会議」を参照してください。
+> GCC DoD ユーザーは、G5 に含まれる電話会議ライセンスを無効にし、直接ルーティングが完全に構成されるまで電話会議を有効にするまで待つ必要があります。 ユーザーは、電話会議ライセンスを有効にする前に、ダイヤルイン電話番号を構成し、ダイヤル パッドを使用する必要があります。 詳細[については、「高レベルおよび DoD GCCルーティング](./audio-conferencing-with-direct-routing-for-gcch-and-dod.md)を使用した電話会議」を参照してください。
 
 
 > [!IMPORTANT]
@@ -115,9 +115,9 @@ Microsoft では、通話プランなどのクラウド内のすべての音声�
 
 ユーザー Teams 1 対 1 Teams 対 PSTN 通話または Teams 対 Teams 通話を開始し、PSTN 参加者を追加できます。 このシナリオは、アドホック会議と呼ばれる。 通話のパスは、通話をエスカレートするユーザーに Microsoft 電話会議ライセンスが割り当てられているかどうかによって異なります。
 
-- **通話をTeamsユーザーに Microsoft 電話** 会議ライセンスが割り当てられている場合、エスカレーションは Microsoft 電話会議サービスを通じて行います。 既存の通話に招待されたリモート PSTN 参加者は、着信に関する通知を受け取り、エスカレーションを開始した Teams ユーザーに割り当てられた Microsoft ブリッジの番号を確認します。
+- **通話をTeamsユーザーに Microsoft 電話** 会議ライセンスが割り当てられている場合、エスカレーションは Microsoft 電話会議サービスを通じて行います。 既存の通話に招待されたリモート PSTN 参加者は、着信に関する通知を受け取り、エスカレーションを開始した Teams ユーザーに割り当てられた Microsoft ブリッジの数を確認します。
 
-- **通話をTeamsユーザーに Microsoft 電話** 会議ライセンスが割り当てられていない場合、エスカレーションは、直接ルーティング インターフェイスに接続されているセッション ボーダー コントローラーを介して行います。 通話に招待されたリモート PSTN 参加者は、着信に関する通知を受け取り、エスカレーションを開始したTeamsの番号を表示します。 エスカレーションに使用される特定の SBC は、ユーザーのルーティング ポリシーによって定義されます。 
+- **通話をTeamsユーザーに Microsoft 電話** 会議ライセンスが割り当てられていない場合、エスカレーションは、直接ルーティング インターフェイスに接続されたセッション ボーダー コントローラーを介して行います。 通話に招待されたリモート PSTN 参加者は、着信に関する通知を受け取り、エスカレーションを開始したTeamsユーザーの数を確認します。 エスカレーションに使用される特定の SBC は、ユーザーのルーティング ポリシーによって定義されます。 
 
 以下を確認する必要があります。
  
@@ -129,7 +129,7 @@ Microsoft では、通話プランなどのクラウド内のすべての音声�
 
 同じユーザーの通話プランと直接ルーティング接続の混在は省略可能ですが、便利な場合があります。 たとえば、ユーザーに Microsoft 通話プランが割り当てられているが、SBC を使用して呼び出しをルーティングする場合などです。 最も一般的なシナリオの 1 つは、サード パーティの PBX の呼び出しです。  サード パーティの PBX では、その PBX に接続されている電話への通話を除くすべての通話が Microsoft 通話プランを使用してルーティングされますが、サード パーティの PBX に接続されている電話への通話は SBC に送信されるため、PSTN ではなくエンタープライズ ネットワーク内に残されます。 
 
-電話システムライセンスの詳細については、「Office とプランのオプション」[](https://products.office.com/compare-all-microsoft-office-products?tab=2)および「Microsoft Teams [ライセンス」を参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。[](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options) 
+電話システムライセンスの詳細については、「Office とプランのオプション」[](https://products.office.com/compare-all-microsoft-office-products?tab=2)および「Microsoft Teams アドオン ライセンス」[を参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。[](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options) 
 
 ## <a name="supported-end-points"></a>サポートされているエンド ポイント 
 
@@ -144,7 +144,7 @@ Microsoft では、通話プランなどのクラウド内のすべての音声�
 
 ## <a name="sbc-domain-names"></a>SBC ドメイン名
 
-SBC ドメイン名は、テナントのドメインに登録されている名前の 1 つから取得する必要があります。 SBC の \*FQDN onmicrosoft.com に .onmicrosoft.com テナントを使用することはできません。
+SBC ドメイン名は、テナントのドメインに登録されている名前の 1 つから取得する必要があります。 SBC の \*FQDN 名 onmicrosoft.com .onmicrosoft.com テナントを使用することはできません。
 
 次の表は、テナントに登録されている DNS 名の例、名前を SBC の FQDN として使用できるかどうか、有効な FQDN 名の例を示しています。
 
@@ -153,10 +153,10 @@ SBC ドメイン名は、テナントのドメインに登録されている名�
 contoso.com|Yes|**有効な名前:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
 |contoso.onmicrosoft.com|いいえ|SBC 名 onmicrosoft.com *.onmicrosoft.com ドメインの使用はサポートされていません
 
-新しいドメイン名を使用するとします。 たとえば、テナントがテナント contoso.com ドメイン名として登録されている場合、そのドメイン名を使用 sbc1.sip.contoso.com。 SBC とドメイン名を組み合 sbc1.sip.contoso.com、テナントのドメインにドメイン名 sip.contoso.com 登録する必要があります。 ドメイン名を登録する前に SBC と sbc1.sip.contoso.com をペアリングすると、"このテナント用に構成されていない "sbc1.sip.contoso.com" ドメインを使用できません" というエラーが表示されます。
+新しいドメイン名を使用するとします。 たとえば、テナントがテナント contoso.com ドメイン名として登録されている場合、このドメイン名を使用 sbc1.sip.contoso.com。 SBC とドメイン名を組み合 sbc1.sip.contoso.com、テナントのドメインにドメイン名 sip.contoso.com 登録する必要があります。 ドメイン名を登録する前に SBC と sbc1.sip.contoso.com をペアリングすると、"このテナント用に構成されていない "sbc1.sip.contoso.com" ドメインを使用できません" というエラーが表示されます。
 ドメイン名を追加した後、UPN アカウントを持つユーザーを作成し、user@sip.contoso.com 割り当Teams必要があります。 ドメイン名がテナントのドメインに追加され、新しい名前を持つユーザーが作成され、ライセンスがユーザーに割り当てられると、ドメイン名が完全にプロビジョニングされるのに最大で 24 時間かかる場合があります。 
 
-1 つのテナントに複数の SIP アドレス空間がある可能性があります。 たとえば、会社が SIP アドレス空間 contoso.com 2 つ目の SIP アドレス空間として fabrikam.com を使用している場合があります。 一部のユーザーは user@contoso.com アドレスを持ち、一部のユーザーはアドレスアドレスを持 user@fabrikam.com。 
+1 つのテナントに複数の SIP アドレス空間がある可能性があります。 たとえば、会社が SIP アドレス空間 contoso.com 2 つ目の SIP アドレス空間として fabrikam.com を使用している場合があります。 一部のユーザーは user@contoso.com アドレスを持ち、一部のユーザーは user@fabrikam.com。 
 
 SBC は 1 つの FQDN のみを必要とし、ペアのテナント内の任意のアドレス空間からユーザーにサービスを提供できます。 たとえば、sbc1.contoso.com という名前の SBC は、これらの SIP アドレス空間が同じテナントに登録されている限り、アドレス user@contoso.com と user@fabrikam.com を持つユーザーの PSTN トラフィックを送受信できます。  
 
@@ -182,7 +182,7 @@ Microsoft では、認定署名要求 (CSR) を生成して SBC の証明書を�
 - DigiCert High Assurance EV Root CA
 
 > [!NOTE]
-> SBC の Teams 接続で相互 TLS (MTLS) のサポートが有効になっている場合は、Teams TLS コンテキストの SBC 信頼されたルート ストアに Baltimore CyberTrust Root Certificate をインストールする必要があります。 (これは、Microsoft サービス証明書で Baltimore ルート証明書が使用されているためです)。Baltimore ルート証明書をダウンロードするには、「暗号化チェーンOffice 365[参照してください](/microsoft-365/compliance/encryption-office-365-certificate-chains)。
+> SBC の Teams 接続に対して相互 TLS (MTLS) のサポートが有効になっている場合は、Teams TLS コンテキストの SBC 信頼されたルート ストアに Baltimore CyberTrust Root 証明書と DigiCert Global Root G2 証明書をインストールする必要があります。 (これは、Microsoft サービス証明書でこれら 2 つのルート証明書の 1 つが使用されているためです)。これらのルート証明書をダウンロードするには、「暗号化チェーン[Office 365参照してください](/microsoft-365/compliance/encryption-office-365-certificate-chains)。 詳細については、「TLS 証明書の[変更Office参照してください](/microsoft-365/compliance/encryption-office-365-tls-certificates-changes)。
 
 ## <a name="sip-signaling-fqdns"></a>SIP シグナル: FQDN 
 
@@ -193,9 +193,9 @@ Microsoft では、認定署名要求 (CSR) を生成して SBC の証明書を�
 - Office 365 GCC High
 - Office 365 DoD
 
-GCC[、GCC](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)、DoD など、Office 365および米国政府機関の環境の詳細を参照してください。
+GCC Office 365、GCC [High](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)、DoD などの米国政府機関GCC環境の詳細を参照してください。
 
-### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365、Office 365、およびOffice 365 GCC環境
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365、Office 365、Office 365 GCC 環境
 
 ダイレクト ルーティングの接続ポイントは、次の 3 つの FQDN です。
 
@@ -230,7 +230,7 @@ FQDN sip.pstnhub.dod.teams.microsoft.us は、次のサブネットの IP アド
 
 これらのすべての IP アドレスのポートをファイアウォールで開いて、アドレス間の着信トラフィックと発信トラフィックを許可して、信号を送信する必要があります。
 
-### <a name="office-365-gcc-high-environment"></a>Office 365 GCC環境
+### <a name="office-365-gcc-high-environment"></a>Office 365 GCC High Environment
 
 ダイレクト ルーティングの接続ポイントは、次の FQDN です。
 
@@ -244,7 +244,7 @@ FQDN sip.pstnhub.gov.teams.microsoft.us は、次のサブネットの IP アド
 
 ## <a name="sip-signaling-ports"></a>SIP シグナル: ポート
 
-ダイレクト ルーティングが提供されている環境では、Microsoft 365またはOffice 365ポートを使用する必要があります。
+ダイレクト ルーティングが提供される環境では、Microsoft 365またはOffice 365ポートを使用する必要があります。
 
 - Microsoft 365またはOffice 365
 - Office 365 GCC
@@ -274,7 +274,7 @@ SBC は、DNS クエリを実行して問題を解決 sip.pstnhub.microsoft.com�
 
 メディア トラフィックは、Microsoft Cloud 内の別のサービスに対して、または Microsoft Cloud から送信されます。 メディア トラフィックの IP アドレス範囲は次のとおりです。
 
-### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365、Office 365、およびOffice 365 GCC環境
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365、Office 365、Office 365 GCC 環境
 
 - 52.112.0.0/14 (52.112.0.1 から 52.115.255.254 の IP アドレス)。
 - 52.120.0.0/14 (52.120.0.1 から 52.123.255.254 の IP アドレス)。
@@ -283,7 +283,7 @@ SBC は、DNS クエリを実行して問題を解決 sip.pstnhub.microsoft.com�
 
 - 52.127.64.0/21
 
-### <a name="office-365-gcc-high-environment"></a>Office 365 GCC環境
+### <a name="office-365-gcc-high-environment"></a>Office 365 GCC High Environment
 
 - 52.127.88.0/21
 

@@ -475,8 +475,6 @@ items:
         href: teams-channels-overview.md
       - name: プライベート チャンネルの概要
         href: private-channels.md
-      - name: プライベート チャネルのライフ サイクルを管理する
-        href: private-channels-life-cycle-management.md
       - name: Teams でチーム所有者とメンバーを割り当てる
         href: assign-roles-permissions.md
       - name: チームの動的なメンバーシップの概要
