@@ -6,24 +6,29 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.collection:
-  - M365-collaboration
-  - m365initiative-meetings
-  - m365solution-spcomms
-  - m365solution-scenario
+- M365-collaboration
+- m365initiative-meetings
+- m365solution-spcomms
+- m365solution-scenario
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
 description: ユーザーが Teams、Yammer、Stream のオンライン視聴者にビデオやコンテンツをブロードキャストするためのライブ イベントを紹介します。
 f1.keywords:
-  - CSH
+- CSH
 ms.custom:
-  - ms.teamsadmincenter.dashboard.helparticle.liveevents
-  - ms.teamsadmincenter.liveevents.policies
+- ms.teamsadmincenter.dashboard.helparticle.liveevents
+- ms.teamsadmincenter.liveevents.policies
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.localizationpriority: high
+ms.openlocfilehash: 53a49355b10a3250366d2bc67655f120412e1cc3
+ms.sourcegitcommit: 5aae5eace62e491dac655882d24974824ce1aa07
+ms.translationtype: HT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "62856675"
 ---
-
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams のライブ イベントについて
 
 ## <a name="overview"></a>概要
@@ -97,7 +102,7 @@ eCDN の目的は、インターネットからビデオ コンテンツを取�
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
 - [Ramp](https://rampecdn.com)
 - [Riverbed](https://www.riverbed.com/solutions/office-365.html)
-- [Peer5](https://www.peer5.com/) (近日公開)
+- [Peer5](https://www.peer5.com/)
 
 ### <a name="attendee-experience"></a>参加者の体験
 
