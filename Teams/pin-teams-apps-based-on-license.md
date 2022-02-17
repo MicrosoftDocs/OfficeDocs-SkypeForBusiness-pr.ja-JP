@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 659cfd90e2fb5f498c00ea4b48039f9493357309
-ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
+ms.openlocfilehash: 774688012d4e70a20897cd45aa78883ba7985e68
+ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "62161036"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62864040"
 ---
 # <a name="tailor-your-teams-apps-based-on-license"></a>ライセンスに基Teamsアプリを調整する
 
@@ -34,11 +34,11 @@ ms.locfileid: "62161036"
 
 Teamsは、ライセンスに基づいてアプリをピン留めする方法を提供します。 ユーザーがカスタマイズされたアプリ エクスペリエンスを有効Teamsにサインインすると、ユーザーはライセンスに基づいて調整されたアプリ エクスペリエンスを取得します。
 
-この機能を使用すると、管理者からの操作を必要とせずにTeams最も関連性の高いアプリがユーザーに提供されます。
+この機能を使用すると、管理者からの操作を必要とせずに、Teams最も関連性の高いアプリがユーザーに提供されます。
 
 ## <a name="tailored-app-experience"></a>カスタマイズされたアプリ エクスペリエンス
 
-アプリはアプリ バーにピン留めされます。アプリ バーは、Teams デスクトップ クライアントの側と Teams モバイル クライアント (iOS および Android) の下部にあるバーです。
+アプリは、Teams デスクトップ クライアントの側と Teams モバイル クライアント (iOS と Android) の下部にあるアプリ バーにピン留めされます。
 
 F ライセンスを持つユーザー用にピン留めされたアプリ:
 
@@ -59,10 +59,8 @@ F ライセンスを持つユーザー用にピン留めされたアプリ:
 
 この機能は既定で有効になっています。 ただし、Microsoft が提供するカスタマイズされたアプリ エクスペリエンスが必要ない場合は、この機能をオフにできます。 機能をオフまたはオンにする方法:
 
-1. 管理センターの左側のナビゲーションMicrosoft Teamsアプリの管理]Teams **アプリ** > の管理]に移動し、[組織全体のアプリ設定] **を選択します**。
+1. 管理センターの左側のナビゲーションMicrosoft Teamsアプリの管理Teams **に** > 移動し、[組織全体のアプリ設定] **を選択します**。
 2. [ **カスタマイズされたアプリ] で**、[ライセンスに基 **づいてカスタマイズされた** アプリを表示する] トグルを [ **オフ] または [オン] に切り** 替 **えます**。
-
-    :::image type="content" source="media/pin-teams-apps-based-on-license.png" alt-text="[アプリの管理] ページのスクリーンショット。[ライセンスに基づいてカスタマイズされたアプリを表示する] 組織全体のアプリ設定" lightbox="media/pin-teams-apps-based-on-license.png":::
 
 ## <a name="scenarios"></a>シナリオ
 

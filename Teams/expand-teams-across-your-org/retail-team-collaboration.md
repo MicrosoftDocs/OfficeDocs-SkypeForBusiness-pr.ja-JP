@@ -19,12 +19,12 @@ searchScope:
 - Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef9f41dd9317e31fc91a587abfac40370b035376
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: f86550586a28e1d5261cacb17941b9501d5402a1
+ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288879"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62864050"
 ---
 # <a name="retail-team-collaboration"></a>販売店チーム間のコラボレーション
 
@@ -34,7 +34,7 @@ Microsoft Teams を使用して、店舗の従業員と経営陣が一緒にな�
 
 
 > [!NOTE]
-> これらのシナリオは、Microsoft Cloud for Retail の一部でもあります。 Microsoft Dynamics 365 など、Microsoft Cloud for Retail の他の機能も使用する場合は、これらのシナリオでより多くのことができるようになります。 以下、Azure、Dynamics 365、Microsoft 365 の機能を [Microsoft Cloud for Retail](/industry/retail) で統合するこのソリューションの使用方法について説明します。
+> これらのシナリオは、Microsoft Cloud for Retail の一部でもあります。 Microsoft Dynamics 365 などの Microsoft Cloud for Retail の他の機能も使用すると、これらのシナリオでより多くのことができるようになります。 以下、Azure、Dynamics 365、Microsoft 365 の機能を [Microsoft Cloud for Retail](/industry/retail) で統合するこのソリューションの使用方法について説明します。
 
 ## <a name="day-to-day-communications-and-collaboration-in-teams"></a>Teams での日々のコミュニケーションとコラボレーション
 
@@ -62,7 +62,7 @@ Teams には、以下のようなコミュニケーションや情報共有の�
 
 ### <a name="set-up-your-teams-channels-and-apps"></a>チーム、チャネル、アプリを設定する
 
-店舗従業員を Teams に接続する準備ができたら、事前構築済みのテンプレートやカスタム テンプレートを使用して、店舗のチームやマネージャーのためのチームやチャネルを設定できます。 最も簡単なのは、テンプレートから始める方法です。 「**店舗を整理する**」と **「マネージャー用小売業**[テンプレート](/microsoftteams/get-started-with-retail-teams-templates)」は、販売店向けに設計されたチャネルとアプリを含む事前に作成済みのテンプレートです。 また、既存のチームに基づいてテンプレートを作成することもできます。 テンプレートから始める場合でも、チームとチャネルをカスタマイズし、チームのニーズに合わせてアプリを追加することができます。
+店舗従業員を Teams に接続する準備ができたら、事前構築済み、またはカスタムのテンプレートやカスタム テンプレートを使用して、店舗のチームやマネージャーのためのチームやチャネルを設定できます。 最も簡単なのは、テンプレートから始める方法です。 「**店舗を整理する**」と **「マネージャー用小売業**[テンプレート](/microsoftteams/get-started-with-retail-teams-templates)」は、販売店向けに設計されたチャネルとアプリを含む事前に作成済みのテンプレートです。 また、既存のチームに基づいてテンプレートを作成することもできます。 テンプレートから始める場合でも、チームとチャネルをカスタマイズし、チームのニーズに合わせてアプリを追加することができます。
 
 - タブ付きチャネルを使用して、ニュースを共有したり、従業員がシフトを超えて連絡を取り合ったり、コミュニティを構築したりすることができます。
 - チーム テンプレートを使用して、店舗や地域間で類似した構造 (チャネルやタブなど) を持つチームを設定します。

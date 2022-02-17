@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: '概要: ハイブリッドに対して有効Skype for Business Serverのオンプレミス展開では、ユーザーをオンプレミス環境とクラウドの間で移動できます。'
-ms.openlocfilehash: ae0855388c4f97cd43e250ea5ee7aec1e1bf7938
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 35df23b0d71daa4e3631a4c6a733af51e370f195
+ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766780"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62863930"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>オンプレミスとクラウドの間でユーザーを移動する
 
@@ -34,17 +34,17 @@ ms.locfileid: "61766780"
 - オンプレミスのユーザーは、オンプレミスのサーバーとSkype for Businessします。
 - オンラインにアクセスしているユーザーは、オンライン サービスとTeamsがあります。
 
-*Teamsユーザーは、Skype for Business使用するかどうかに関Skype for Business持っています。* オンプレミスのユーザーがSkype for Business (並べて) Teamsしている場合、それらのユーザーはオンプレミスに設定されます。 Teams Skype for Business を使用しているユーザーは、Teams クライアントから Skype for Business ユーザーと相互運用したり、フェデレーション組織のユーザーと Teams から通信したりする機能もありません。 このような機能は、ユーザーがオンプレミスからオンラインに移動Skype for Business TeamsOnly にした後にのみ完全に利用できます。 ユーザーを TeamsOnly モードに移動し、すべての着信チャットと通話のルーティングがクライアントに確実にTeams勧めします。 詳細については、「Teamsと[](/microsoftteams/coexistence-chat-calls-presence)Teamsを使用する組織Skype for Business移行と相互運用性のガイダンス」を参照Teams[をSkype for Business。](/microsoftteams/migration-interop-guidance-for-teams-with-skype)
+*Teamsユーザーは、Skype for Business使用するかどうかに関Skype for Business持っています。* オンプレミスのユーザーがSkype for Business (並べて) Teamsしている場合、それらのユーザーはオンプレミスに設定されます。 Teams Skype for Business を使用しているユーザーは、Teams クライアントから Skype for Business ユーザーと相互運用したり、フェデレーション組織のユーザーと Teams から通信したりする機能もありません。 このような機能は、ユーザーがオンプレミスからオンラインに移動Skype for Business TeamsOnly にした後にのみ完全に利用できます。 ユーザーを TeamsOnly モードに移動し、すべての着信チャットと通話のルーティングがクライアントに確実にTeams勧めします。 詳細については、「Teamsと[](/microsoftteams/coexistence-chat-calls-presence)Skype for Business移行と相互運用性のガイダンス」を参照Teamsを[Skype for Business。](/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
 ## <a name="prerequisites"></a>前提条件
 
 TeamsOnly モードにユーザーを移動するための前提条件:
 
-- 組織は、「構成Azure AD Connect」の説明に従って、ユーザーに関連するすべての属性を適切に構成し[、同期している必要Azure AD Connect。](configure-azure-ad-connect.md)
-- Skype for Businessハイブリッドの構成」の説明に従って、ハイブリッド[Skype for Businessする必要があります](configure-federation-with-skype-for-business-online.md)。
+- 組織は、「構成Azure AD Connect」の説明に従って、ユーザーに関連するすべての属性を適切に構成し、同期[しているAzure AD Connect](configure-azure-ad-connect.md)。
+- Skype for Businessハイブリッドの構成に関する説明に従って、ハイブリッド[Skype for Business必要があります](configure-federation-with-skype-for-business-online.md)。
 - ユーザーには、オンライン (プラン 2) TeamsおよびSkype for Businessライセンスが割り当てられている必要があります。 オンラインの使用をSkype for Business後も、Skype for Businessオンライン ライセンスが必要です。  さらに、
-    - ユーザーがオンプレミスでダイヤルイン会議を有効にしている場合は、ユーザーをオンラインに移動する前に、既定で Teams で電話会議ライセンスも割り当てられている必要があります。 クラウドへの移行後、ユーザーはクラウドの電話会議に対してプロビジョニングされます。 何らかの理由で、ユーザーをクラウドに移動するが、電話会議機能の使用をユーザーに許可しない場合は、`Move-CsUser` の`BypassAudioConferencingCheck`パラメーターを指定することによりこのチェックをオーバーライドできます。
-    - ユーザーがオンプレミスの エンタープライズ VoIPに対して有効になっている場合、ユーザーをオンラインに移動する前に、既定で 電話システム ライセンスが Teams に割り当てられている必要があります。 クラウドへの移行後、ユーザーはクラウドの電話システムに対してプロビジョニングされます。 何らかの理由でユーザーをクラウドに移動するが、電話システム 機能を使用しない場合は、 でパラメーターを指定してこのチェックを `BypassEnterpriseVoiceCheck` オーバーライドできます `Move-CsUser` 。
+    - ユーザーがオンプレミスでダイヤルイン会議を有効にしている場合は、ユーザーをオンラインに移動する前に、Teams で電話会議ライセンスも割り当てられている必要があります。 クラウドへの移行後、ユーザーはクラウドの電話会議に対してプロビジョニングされます。 
+    - ユーザーがオンプレミスのユーザーエンタープライズ VoIP有効になっている場合、ユーザーをオンラインに移動する前に、電話システム ライセンスが Teams に割り当てられている必要があります。 クラウドに移行すると、ユーザーはクラウド内の電話システム準備されます。 
 
 
 ## <a name="moving-users"></a>ユーザーの移動
@@ -55,15 +55,15 @@ TeamsOnly モードにユーザーを移動するための前提条件:
 
 - オンプレミスからの連絡先は、オンプレミスの連絡先にTeams。
 
-- 今後スケジュールされた既存の会議は、オンラインに移行されます。ユーザーが TeamsOnly に直接移動された場合 (以下を参照)、会議は Teams 会議に変換され、それ以外の場合は会議は Skype for Business のままですが、オンプレミスではなくオンラインでホストされます。  会議の移行は非同期で行われ、ユーザーの移動から約 90 分後に開始されます。  会議の移行の状態を特定するには、[Get-csMeetingMigrationStatus](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md#managing-mms) を使用します。 会議に先立ってアップロードされたコンテンツは移動されません。
+- 将来予定されている既存の会議は、会議にTeamsされます。 会議の移行は非同期で行われ、ユーザーの移動から約 90 分後に開始されます。  会議の移行の状態を特定するには、[Get-csMeetingMigrationStatus](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md#managing-mms) を使用します。 会議に先立ってアップロードされたコンテンツは移動されません。
 
 ユーザーを Teamsに移動するには、Move-CsUser コマンドレットまたは Skype for Business 管理コントロール パネルのいずれかを使用します。どちらもオンプレミス ツールです。 これらのツールは、次の移動パスをサポートします。
 
-- [(Skype for Business Server) から直接](move-users-from-on-premises-to-teams.md)(オンプレミス) から [Teamsのみ] に移動します (また、Skype for Business Online に移動します)。  オンプレミスからオンプレミスに直接移動するTeamsのみ、使用するサーバーまたは Lync Server のバージョンに関係なく、Skype for Business Serverが自動的に実行されます。 この動作を取得するためにスイッチを指定 `-MoveToTeams` する必要がなくなりました。  
+- [(Skype for Business Server) から直接 (オンプレミス) から [Teamsのみ] に変更します](move-users-from-on-premises-to-teams.md)。  オンプレミスからオンプレミスに直接移動するTeamsのみ、使用するサーバーまたは Lync Server のバージョンに関係なく、Skype for Business Serverが自動的に実行されます。 この動作を取得するためにスイッチを指定 `-MoveToTeams` する必要がなくなりました。  
 - [オンラインから (Teamsかどうかに関Teams)、オンプレミスに展開します](move-users-from-the-cloud-to-on-premises.md)。
 
 > [!NOTE] 
-> オンプレミスから TeamsOnly にユーザーを直接移動するために、Move-CsUser -MoveToTeams スイッチを指定する必要がなくなりました。 以前は、このスイッチが指定されていない場合、ユーザーは Skype for Business Server オンプレミスのホームから Skype for Business Online に移行し、モードは変更されません。 Move-CsUser を使用してユーザーをオンプレミスからクラウドに移動すると、ユーザーは自動的に TeamsOnly モードに割り当て、スイッチが実際に指定されたかどうかに関係なく、スイッチが指定された場合と同様に、オンプレミスからの会議が自動的に Teams 会議に変換されます。 `-MoveToTeams` 
+> オンプレミスから TeamsOnly にユーザーを直接移動するために、Move-CsUser -MoveToTeams スイッチを指定する必要がなくなりました。 以前は、このスイッチが指定されていない場合、ユーザーは Skype for Business Server オンプレミスのホームから Skype for Business Online に移行し、モードは変更されません。 Move-CsUser を使用してユーザーをオンプレミスからクラウドに移動すると、ユーザーは自動的に TeamsOnly モードに割り当て、スイッチが実際に指定されたかどうかに関係なく、スイッチが指定された場合と同様に、オンプレミスからの会議が自動的に Teams `-MoveToTeams` 会議に変換されます。 
 > 
 
 ## <a name="required-administrative-credentials"></a>必要な管理者の資格情報
@@ -71,10 +71,10 @@ TeamsOnly モードにユーザーを移動するための前提条件:
 オンプレミスとクラウドの間でユーザーを移動するには、オンプレミスの Skype for Business Server 環境と Teams 組織の両方で十分な権限を持つアカウントを使用する必要があります。 必要なすべての特権を持つ 1 つのアカウントを使用するか、2 つのアカウントを使用できます。その場合は、オンプレミスの資格情報を使用してオンプレミス のツールにアクセスし、それらのツールで Teams 管理アカウントに追加の資格情報を提供します。  
 
 - オンプレミス環境では、移動を実行するユーザーは、CSServerAdministrator、CsUserAdministrator、および RTCUniversalUserAdmins の各役割を Skype for Business Server に持っている必要があります。
-- このTeams、移動を実行するユーザーは、次のいずれかの条件を満たしている必要があります。
-  - ユーザーは、グローバル管理者ロールのメンバーです。
-  - ユーザーは、管理者ロールとユーザー管理者ロールTeamsメンバーです。
-  - ユーザーは、管理者ロールとユーザー管理者ロールSkype for Businessメンバーです。  
+- このTeams、移動を実行するユーザーは、少なくとも 1 つの次の役割のメンバーである必要があります。
+  - グローバル管理者の役割
+  - Teams管理者の役割
+  - Skype for Business管理者の役割。  
 
     > [!Important]
     > - Skype for Business 管理コントロール パネルを使用している場合は、上記のように、適切な役割を持つ Microsoft 365 アカウントの資格情報を提供するように求めるメッセージが表示されます。 .onmicrosoft.com で終わるアカウントを指定する必要があります。 それができない場合は、次のコマンドレットをMove-CsUserします。
@@ -90,7 +90,7 @@ TeamsOnly モードにユーザーを移動するための前提条件:
 
 - ユーザーのテレフォニー プロバイダーを更新して、Microsoft 通話プラン [を使用できます](/microsoftteams/calling-plans-for-office-365)。 これは、ユーザーがクライアントを使用するか、クライアントTeams Skype for Businessです。
 - 引き続きオンプレミス PSTN プロバイダーを使用できます。
-  - 直接ルーティングを使用する音声Teamsを構成する[必要があります](/microsoftteams/direct-routing-plan)。 直接ルーティングは、ユーザーがオンプレミスからオンラインに移動された後にのみ使用できます。
+  - ダイレクト ルーティングを使用する音声Teamsは、ダイレクト ルーティング用に[構成する必要があります](/microsoftteams/direct-routing-plan)。 直接ルーティングは、ユーザーがオンプレミスからオンラインに移動された後にのみ使用できます。
   - オンラインに移動した後、Skype for Businessクライアントを使用する音声ユーザーは、音声機能用Skype for Business Hybridする必要があります。
 
 ハイブリッド環境でのテレフォニー オプションとサポートのマトリックスの詳細については、「PSTN 接続を備えるハイブリッド環境のユーザー アカウント」 [を参照してください](/microsoftteams/direct-routing-user-accounts-in-a-hybrid-environment)。

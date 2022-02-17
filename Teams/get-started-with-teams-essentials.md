@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a779d094e7a1f266a19aaecf6bbb86732f75f66b
-ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
+ms.openlocfilehash: 3c80b93ef457048d006fb7a7eb6085b3ed5d8eb4
+ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2022
-ms.locfileid: "62279375"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62864030"
 ---
 # <a name="microsoft-teams-essentials-quickstart-guide-for-small-businesses"></a>小規模企業向けの Microsoft Teams Essentials クイックスタート ガイド
 
@@ -100,14 +100,6 @@ Microsoft 認定パートナーを通じて Teams Essentials を購入した場�
 > 強化された管理と Teams の全機能を利用するには、ユーザーに適した [Microsoft 365 または Office 365 サブスクリプション プラン](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options)を購入して、Teams のフル バージョンにアップグレードする必要があります。 組織のコラボレーション方法をより柔軟に管理できるため、これをお勧めします。
 
 ## <a name="administration-limits-and-specifications-for-microsoft-teams-essentials"></a>Microsoft Teams Essentials の管理制限と仕様
-
-管理者として考慮すべきいくつかの重要な Teams Essentials の制限と仕様を次に示します。
-
-  - **管理:** Teams Essentials サブスクリプションには、Teams 管理センターへのアクセスは含まれて **いません**。 Teams Essentials ユーザーは、簡易化された Microsoft 365 管理センターのビューを使って、サブスクリプションの管理や新しいユーザーの構成など重要なタスクを実行できます。
-
-  - **Microsoft Teams PowerShell:** PowerShell がサポートされていないため、PowerShell コマンド ラインを使用して Teams Essentials を直接管理することは **できません**。
-
-  - **ストレージ:** Teams Essentials は、ファイル ストレージに OneDrive の個人用クラウド ストレージを使用します。
 
 Teams に適用される制限、仕様、およびその他の要件の詳細については、[Microsoft Teams の制限と仕様](/microsoftteams/limits-specifications-teams)を参照してください。
 
