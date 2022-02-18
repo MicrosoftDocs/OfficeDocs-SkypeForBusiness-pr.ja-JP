@@ -1,5 +1,5 @@
 ---
-title: 自分のTeamsまたはアカウントでMicrosoft 365を有効Office 365
+title: アカウントでTeamsを有効Microsoft 365
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 audience: admin
-description: Microsoft 365 または Office 365 組織の Microsoft Teams を有効にし、ユーザー ライセンスを割り当て、個々のアクセスを制御し、コンテンツ ソースを許可またはブロックする方法について学習します。
+description: 組織のアカウントを有効Microsoft Teamsする方法Microsoft 365します。
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
@@ -20,28 +20,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9341ad677ba3a8d6d866959f8a3afa7520f1de1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c0cc442c400faf9e1ca045df85cb7266bb7f3ba7
+ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631551"
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "62893516"
 ---
 # <a name="turn-on-teams-in-your-organization"></a>組織で Teams を有効にする
 
-> [!IMPORTANT]
-> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
+Microsoft Teams組織に対して有効になっている。 ユーザー レベルのライセンスを使用Teams組織内のユーザー へのアクセスを制御できます。 詳細については、「[Microsoft Teams へのユーザー アクセスを管理する](user-access.md)」をご覧ください。 個々のライセンスの管理の詳細については、「サービスの説明Microsoft Teams[参照してください](/office365/servicedescriptions/teams-service-description)。
 
-既定では、Teams はすべての組織でオンになります。 プレビュー期間において Teams を使用した場合、Teams プレビューの間に設定したものと同じ設定がそのまま維持されます。 
-
-
-組織の管理者は、Teams への個々のアクセスを制御するユーザー ライセンスを割り当て、Teams で使用できるコンテンツ ソースを許可またはブロックできます。 詳細[については、「組織Microsoft Teams設定](enable-features-office-365.md)の管理」または「組織内のアプリの管理[Microsoft Teams」を](admin-settings.md)参照してください。 
-
-
- 
-個々のライセンスの管理の詳細については、「サービスの説明[」をMicrosoft Teams参照してください](/office365/servicedescriptions/teams-service-description)。 
-
- 
-## <a name="turn-teams-on-or-off-for-your-entire-organization"></a>組織全体に対して Teams をオンまたはオフにする 
- 
-[!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
+組織の管理者は、Teams への個々のアクセスを制御するユーザー ライセンスを割り当て、Teams で使用できるコンテンツ ソースを許可またはブロックできます。 詳細[については、「組織Microsoft Teams設定](enable-features-office-365.md)を管理する」または「組織内のアプリの管理[Microsoft Teams」を](admin-settings.md)参照してください。

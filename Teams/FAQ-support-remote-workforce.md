@@ -16,12 +16,12 @@ search.appverid: MET150
 description: このガイダンスは、新型コロナウイルス感染症 (COVID-19) 発生への対策として従業員が在宅勤務 (WFH) となった場合に、これらのリモート ワーカーの生産性を維持するためにご使用ください。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 06be01aad7a8bea73c608cd4709149042daec9e2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 631fdd7668e8dd0bc8781509671dc11a1c631816
+ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610524"
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "62893536"
 ---
 # <a name="faq-support-your-remote-workforce"></a>よく寄せられる質問: リモートの従業員をサポートする
 
@@ -83,7 +83,7 @@ Teams は、いくつかのプログラムで無料で提供されています�
 
 ### <a name="i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses"></a>Microsoft 365 を持っていますが、Teams を使っていません。Teams の試用版ライセンスは提供されていますか?
 
-Microsoft 365 をお持ちの場合は、既に Teams をお持ちです。 すべてのユーザーに対して、[Teams を有効にする](Office-365-set-up.md)ことができます。 Teams を有効にすると、ユーザーは Teams を実行できるようになります。[デスクトップ クライアント](get-clients.md#desktop-client)または[モバイル クライアント](get-clients.md#mobile-clients)をインストールする方法と、[ブラウザーを使用](get-clients.md#mobile-clients)して [https://teams.microsoft.com](https://teams.microsoft.com) から実行する方法があります。 
+Microsoft 365 をお持ちの場合は、既に Teams をお持ちです。 すべてのユーザーに対して、[Teams を有効にする](Office-365-set-up.md)ことができます。 Teams を有効にすると、ユーザーは Teams を実行できるようになります。[デスクトップ クライアント](get-clients.md#desktop-clients)または[モバイル クライアント](get-clients.md#mobile-clients)をインストールする方法と、[ブラウザーを使用](get-clients.md#mobile-clients)して [https://teams.microsoft.com](https://teams.microsoft.com) から実行する方法があります。 
 
 ### <a name="how-do-i-get-help-to-get-started-with-teams-and-make-sure-the-deployment-is-successful"></a>Teams の使用を開始するためのサポートの受け方や展開が成功したかどうかの確認方法について教えてください。
 
