@@ -89,32 +89,32 @@ items:
                     href: teams-adoption-drive-awareness.md
                   - name: サービス正常性のレビューをスケジュールする
                     href: teams-adoption-schedule-service-health-reviews.md
-          - name: Teams のクライアントを展開する
+          - name: クライアント展開
             items:
               - name: Teams のクライアントを取得する
                 href: get-clients.md
-              - name: 中国で Android 用 Teams を取得する
-                href: get-teams-android-in-china.md
-              - name: Teams アプリのハードウェア要件
-                href: hardware-requirements-for-the-teams-app.md
-              - name: ハードウェア デコーダー/エンコーダー ドライバーの推奨事項
-                href: hardware-decoders-and-encoders.md
-              - name: Microsoft Endpoint Configuration Manager を使用して Microsoft Teams をインストールする
+              - name: Teams クライアントの更新プログラム
+                href: teams-client-update.md
+              - name: Windows インストーラーを使用して Teams を一括インストールする
                 href: msi-deployment.md
-              - name: 組織で Teams を有効にする
-                href: Office-365-set-up.md
-              - name: Microsoft Teams のメモリ使用方法
-                href: teams-memory-usage-perf.md
-              - name: Microsoft 365 と Office 365 の URL と IP アドレスの範囲
-                href: office-365-urls-ip-address-ranges.md
               - name: 仮想デスクトップ インフラストラクチャ (VDI) 用の Teams
                 href: teams-for-vdi.md
               - name: リモート デスクトップ環境 (RDP) 用の Teams
                 href: teams-on-rdp.md
-              - name: Teams クライアントの更新プログラム
-                href: teams-client-update.md
               - name: インストールと更新に関する問題のトラブルシューティング
                 href: troubleshoot-installation.md
+              - name: 関連情報
+                items:
+                  - name: Microsoft 365 の URL と IP アドレスの範囲
+                    href: office-365-urls-ip-address-ranges.md
+                  - name: ハードウェア要件
+                    href: hardware-requirements-for-the-teams-app.md
+                  - name: Teams がメモリを使用する方法
+                    href: teams-memory-usage-perf.md
+                  - name: ハードウェア デコーダー/エンコーダー ドライバーの推奨事項
+                    href: hardware-decoders-and-encoders.md
+                  - name: Teams ファイアウォールの PowerShell スクリプト
+                    href: client-firewall-script.md
       - name: Teams のトレーニング
         items:
           - name: Teams の管理者トレーニング
@@ -1767,6 +1767,8 @@ items:
             href: /sharepoint/teams-connected-sites?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
           - name: SharePoint と Teams の統合設定を管理する
             href: /sharepoint/manage-teams-sharepoint-experiences?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+      - name: 組織で Teams を有効にする
+        href: Office-365-set-up.md
       - name: Teams PowerShell
         items:
           - name: 概要

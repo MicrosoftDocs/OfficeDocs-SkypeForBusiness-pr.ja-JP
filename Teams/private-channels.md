@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams でプライベート チャネルを使用および管理する方法について説明します。
-ms.openlocfilehash: 8d041d0fa8a182cb3cebf485c9cef92f880a99e5
-ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
+ms.openlocfilehash: edf3fc2933bf51f3c5966fa8e021fe0ff50de39b
+ms.sourcegitcommit: 2ddbaecb0bb7776dc5ab88727b1335e7e46d3704
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62299012"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62881552"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams のプライベート チャネル
 
@@ -83,10 +83,6 @@ Microsoft Teams のプライベート チャネルは、チーム内でのコラ
 |編集を設定する|いいえ|該当なし|該当なし|はい|いいえ|いいえ|
 |タブとアプリを管理する|いいえ|該当なし|該当なし|はい、アプリがチームにインストールされている必要があります|チャンネルの所有者の制御|いいえ|
 
-## <a name="manage-the-lifecycle-of-private-channels"></a>プライベート チャネルのライフ サイクルを管理する
-
-組織内のプライベート チャネルのライフ サイクルを管理する方法については、「[Teams でプライベート チャネルのライフ サイクルを管理する](private-channels-life-cycle-management.md)」をご覧ください。 これには、組織内のユーザーがプライベート チャネルを作成できるかどうかを制御する方法、チーム所有者に代わってプライベート チャネルを作成する方法、アーカイブおよび監査目的ですべてのプライベート チャネル メッセージのリストを取得する方法、およびその他の管理タスクが含まれています。  
-
 ## <a name="private-channel-sharepoint-sites"></a>プライベート チャネル SharePoint サイト
 
 各プライベート チャネルには、独自の SharePoint サイトがあります。 個別のサイトは、プライベート チャネル ファイルへのアクセスがプライベート チャネルのメンバーのみに制限されることを確保するためにあります。 これらのサイトは規定でドキュメント ライブラリを使用して作成され、[サイト管理インターフェイス](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04)を介してフル機能のサイトへと簡単に拡張できます。 各サイトは、親チームのサイトと同じ地理的な場所に作成されます。 これらの軽量サイトは、PowerShell および Graph API による管理を容易にするためのカスタム テンプレート ID "TEAMCHANNEL#0" を持っています。 
@@ -139,3 +135,5 @@ Teams は、プライベート チャネル サイトのライフ サイクル�
 [Teams での PowerShell の概要](teams-powershell-overview.md)
 
 [Microsoft Graph API を使用して Teams で作業する](/graph/api/resources/teams-api-overview)
+
+[チャネル リソースの種類](/graph/api/resources/channel)
