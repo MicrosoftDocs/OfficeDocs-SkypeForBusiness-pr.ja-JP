@@ -18,12 +18,12 @@ ms.localizationpriority: high
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2f0bc329910f4e4d89f07684f92ddcc1c340edf3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 65421d36c0a8c19d8c7118e348222e3b62175a95
+ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606946"
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "62893526"
 ---
 # <a name="teams-update-process"></a>Teams の更新プロセス
 
@@ -33,17 +33,15 @@ Teams デスクトップ クライアントの更新プログラムは、TAP (Te
 
 デスクトップ クライアントは自動的に更新されます。Teams は、数時間ごとにバックグラウンドで更新プログラムを確認します。更新プログラムをダウンロードすると、コンピューターがアイドル状態になるまで待機してから、更新プログラムをサイレント インストールします。
 
-ユーザーは、アプリの右上にある **[プロファイル]** ドロップダウン メニューの **[アップデートの確認]** を選択して、更新プログラムを手動でダウンロードすることもできます。 更新プログラムが入手可能であれば、ダウンロードが実行されて、コンピューターがアイドル状態のときにサイレント インストールされます。
+ユーザーは、アプリの右上にある **[プロファイル]** アイコンの横にある **[...]** ドロップダウン メニューで **[更新を確認]** を選択して、更新プログラムを手動でダウンロードすることもできます。 更新プログラムが入手可能であれば、ダウンロードが実行されて、コンピューターがアイドル状態のときにサイレント インストールされます。
 
 更新プログラムがダウンロードされるには、ユーザーがサインインしている必要があります。
-
-2019 年 7 月 31 日以降、Teams クライアントの更新プログラムで更新時に使用されるネットワーク帯域幅が減少されます。 このアップデートは既定でオンになっているため、管理者もユーザーも特別な操作は必要ありません。
 
 ## <a name="what-about-updates-to-microsoft-365-apps-for-enterprise"></a>Microsoft 365 Apps for enterprise の更新プログラムについて
 
 「[Microsoft 365 Apps と同時に Microsoft Teams を展開する](/DeployOffice/teams-install)」で説明されているように、Teams のインストールは既定で、Microsoft 365 Apps for enterprise の新しいインストールと一緒に行われます。
 
-Teams は、上記で説明した独自の更新プロセスに従います。 Teams は、Word や Excel などの他のオフィス アプリの更新プロセスには追従しません。 詳細については、「[Microsoft 365 Apps for enterprise の更新プログラム チャネルの概要](/DeployOffice/overview-of-update-channels-for-office-365-proplus)」を参照してください。
+Teams は、上記で説明した独自の更新プロセスに従います。 Teams は、Word や Excel などの他のオフィス アプリの更新プロセスには追従しません。 詳細については、「[Microsoft 365 Apps の更新プログラム チャネルの概要](/DeployOffice/overview-update-channels)」を参照してください。
 
 ## <a name="what-about-updates-to-teams-on-vdi"></a>VDI 上の Teams の更新について
 
