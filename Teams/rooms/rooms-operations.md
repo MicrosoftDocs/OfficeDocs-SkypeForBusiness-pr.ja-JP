@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Rooms のメンテナンスと運用
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -12,24 +12,23 @@ ms.collection:
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: このトピックでは、会議室の管理についてMicrosoft Teamsしてください。
-ms.openlocfilehash: be5f183e593ca1723383b6834c9ff5cad387b42f
-ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
+description: 会議室の管理についてMicrosoft Teamsします。
+ms.openlocfilehash: 864438890bbaef87842f6cb4b77328906036ea56
+ms.sourcegitcommit: 060ba9910b8d74cbf7097cd3b8e2834afdb3db95
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62298992"
+ms.lasthandoff: 02/19/2022
+ms.locfileid: "62909019"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams Rooms のメンテナンスと運用
  
-このトピックでは、会議室の管理についてMicrosoft Teamsしてください。
-  
-Microsoft Teams会議室は、会議室をリッチで共同作業的なエクスペリエンスに変換するように設計された Microsoft の会議ソリューションです。 ユーザーは使い慣れたMicrosoft TeamsまたはSkype for Businessを利用できます。IT 管理者は、簡単に展開および管理できる Windows 10 Teams Rooms アプリを利用できます。 Microsoft Teams会議室は、既存の機器を活用してインストールを容易にし、会議室にMicrosoft TeamsまたはSkype for Businessを取り込む設計です。
+ 
+Microsoft Teams会議室は、会議室を豊富で共同作業的なエクスペリエンスに変換するように設計された Microsoft の会議ソリューションです。 ユーザーは使い慣れたMicrosoft TeamsまたはSkype for Businessインターフェイスを利用できます。IT 管理者は、簡単に展開および管理できる Windows 10 Teams Rooms アプリを利用できます。 Microsoft Teams会議室は、既存の機器を活用してインストールを容易にし、会議室にMicrosoft TeamsまたはSkype for Businessを取り込む設計です。
     
 ## <a name="collecting-logs-on-microsoft-teams-rooms"></a>Microsoft Teams Roomsでログを収集する
 <a name="Logs"> </a>
 
-管理センターでログTeams収集するには、[会議室] Teamsデバイス> Teams **に移動Windows**。 ログを記録するデバイスの表示名を選択します。 上部のパネルで、[デバイス ログのダウンロード] を選択します。 確認すると、数分後に [履歴] タブにログをダウンロードする準備が整います。
+管理センターでログTeams収集するには、Teamsの会議室> Teams **デバイスに移動Windows**。 ログを記録するデバイスの表示名を選択します。 上部のパネルで、[デバイス ログのダウンロード] を選択します。 確認すると、数分後に [履歴] タブにログをダウンロードする準備が整います。
 
 PowerShell を使用してログを収集することもできます。 Microsoft Teams Rooms アプリに含むログ収集スクリプトを呼び出す必要があります。 管理者 [モードで管理者](rooms-operations.md)特権のコマンド プロンプトを起動し、次のコマンドを発行します。
   
@@ -52,7 +51,7 @@ Consumer Electronics Control (CEC) をサポートするか PC モードを有�
 
 1. 管理モード [に切り替える](#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)
 
-2. [スタート] アイコンを選択します。 次 **に設定 >システム>表示**
+2. [スタート] アイコンを選択します。 次 **に設定 > システム>表示**
 
 3. [スケール **とレイアウト] に** 移動し、[ **テキスト、** アプリ、その他のアイテムのサイズを変更する] に移動し、スケーリングを 100% に設定します。
 
@@ -93,9 +92,9 @@ Microsoft Teams Roomsが正常に動作していない場合は、出荷時の�
 
 このセクションでは、Microsoft Teams Rooms が正常に機能するために依存するシステム設定について説明します。 
 
-会議室Teams Active Directory ドメインに参加すると、次の利点があります。
+Teamsを Active Directory ドメインに参加すると、次の利点があります。
 
-- [ドメイン参加] Teamsルームを使用すると、ドメイン ユーザーとグループの管理者権限を付与できます。 これにより、ローカル コンピューター レベルの管理者アカウントのパスワードを記憶する必要がなくなります。
+- 会議室にドメインTeamsすると、ドメイン ユーザーとグループに管理者権限を付与できます。 これにより、ローカル コンピューター レベルの管理者アカウントのパスワードを記憶する必要がなくなります。
 
 - サービス品質のWindowsを会議室にTeamsできます。
 
@@ -117,7 +116,7 @@ Teams Rooms をドメインに参加する場合は、グループ ポリシー 
   - ドメインに参加するすべてのマシンで別のドメイン ユーザー アカウントを作成する。
   - 更新WindowsをルームにTeamsする
 
-会議室をMicrosoft Teamsドメインに参加する場合は、グループ ポリシーが次の表の設定を上書きしなかからなされていないことを確認します。
+会議室をMicrosoft Teamsに参加する場合は、グループ ポリシーによって次の表の設定が上書きされていないことを確認してください。
 
 |Setting|許可されること|
 |:-----|:-----|
@@ -126,7 +125,7 @@ Teams Rooms をドメインに参加する場合は、グループ ポリシー 
 |net accounts /maxpwage:unlimited  <br/> または、ローカル アカウントでパスワードの期限切れを無効にする同等の手段。この設定に失敗すると、パスワードの期限が切れていることが通知され、Skype アカウントのログオンが失敗する原因になります。この影響はマシン上のすべてのローカル アカウントに及びます。したがって、この設定に失敗すると、ボックスの管理アカウントも最終的には期限切れになります。  <br/> |常にログインするように Skype アカウントを有効にする  <br/> |
 
 > [!NOTE]
-> 会議室Microsoft Teams Windows 10 OS の次のバージョンと互換性がある場合、Teams Rooms は、Windows Update を通じて次のバージョンに自動的に更新されます。 Microsoft Teams 会議室は、WINDOWS 10 の次のリリースに手動でアップグレードしたり、GPO を使用して Windows Update for Business (WUFB) グループ ポリシーを有効にしたり、"受信する更新プログラムの Windows 準備レベルを選択する" および "プレビュービルドと機能更新プログラムを受信するときに選択する" を有効にしたりすることはできません。 Teamsポリシーが有効になっている会議室は、OS の更新プログラムに関するWindows 10発生することが知られています。
+> Microsoft Teams Rooms が次のバージョンの Windows 10 OS と互換性がある場合、Teams Rooms は、Windows Update を通じて次のバージョンに自動的に更新されます。 Microsoft Teams 会議室は、WINDOWS 10 の次のリリースに手動でアップグレードしたり、GPO を使用して Windows Update for Business (WUFB) グループ ポリシーを有効にしたり、"受信する更新プログラムの Windows 準備レベルを選択する" および "プレビュー ビルドと機能更新プログラムを受信するときに選択する" を有効にしたりすることはできません。 Teamsポリシーが有効になっている会議室は、OS の更新プログラムに関するWindows 10発生することが知られています。
 
 ## <a name="remote-management-using-powershell"></a>PowerShell を使ったリモート管理
 <a name="RemotePS"> </a>
@@ -207,25 +206,16 @@ Copy-Item $movefile $targetDevice
 ## <a name="software-updates"></a>ソフトウェアの更新
 <a name="SWupdate"> </a>
 
-既定では、Microsoft Teams Rooms は Windows Store に接続して最新バージョンの Microsoft Teams Rooms ソフトウェアを取得します。 そのため、会議室Teamsインターネットに定期的にアクセスする必要があります。 サポートの問題について Microsoft に連絡する前に、Microsoft Teams の最新バージョンのアプリが読み込まれているか確認してください。
+既定では、Microsoft Teams Rooms は、最新バージョンの Windows Rooms ソフトウェアを取得するために、Windows Store への接続を試Microsoft Teamsします。 そのため、会議室Teamsインターネットに定期的にアクセスする必要があります。 サポートの問題について Microsoft に連絡する前に、Microsoft Teams最新バージョンのアプリが読み込まれているか確認してください。
   
-Microsoft Teams Rooms は、Windows Update に接続して、オペレーティング システムと周辺機器のファームウェア更新プログラムを取得します。 Teamsは、ローカル時刻の午前 2 時 00 分からインストールするように構成されています。
-  
-Windows ストアへのアクセスの制限により更新プログラムを手動で管理する必要があり、ビジネス向け Microsoft Store による[オフライン](https://businessstore.microsoft.com/store) アプリの配布に関する通常の手順に従う必要がある[](/microsoft-store/distribute-offline-apps)場合は、デプロイ キットから適切な APPX ファイルと依存関係を取得[できます (「](https://go.microsoft.com/fwlink/?linkid=851168)構成する」の手順から)[Microsoft Teams ルーム コンソール](console.md))構成マネージャーで使用できます。 デプロイメント キットのリリースは、ストアのリリースよりも後になるため、最新の入手可能な最新ビルドに必ずしも一致しない可能性があります。
-  
-### <a name="to-update-using-powershell"></a>PowerShell を使用して更新するには
+Microsoft Teams Rooms は Windows Update に接続して、オペレーティング システムと周辺機器のファームウェア更新プログラムを取得します。 また、アプリケーション更新プログラムを取得Microsoft Storeに接続します。
 
-1. インストール [MSI](https://go.microsoft.com/fwlink/?linkid=851168) から、デバイスがアクセスできる共有先にパッケージを抽出します。
-2. Microsoft Teams Rooms のデバイスを対象に次のスクリプトを実行します \<share\> は、該当するデバイス共有に変更します)。
-    
-    ```PowerShell
-    Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
-    ```
+アプリケーションの更新プログラムを手動で管理する必要があるが、[ビジネス向け Microsoft Store でオフライン](https://businessstore.microsoft.com/store) アプリを配布するための通常の[](/microsoft-store/distribute-offline-apps)手順に従えない場合は、Teams Rooms 更新パッケージを入手して、サポートされているオペレーティング システムでアプリの更新を実行できます。 更新プログラムのリリースはストア リリースより遅れる可能性があります。また、利用可能な最新のビルドと必ずしも一致しない場合があります。 詳細については[、「Microsoft Teams Rooms デバイスを手動で更新する](manual-update.md)」を参照してください。
 
 ## <a name="admin-mode-and-device-management"></a>管理者モードおよびデバイスの管理
 <a name="AdminMode"> </a>
 
-プライベート CA 証明書を手動でインストールする場合など、一部の管理機能では、管理モードで Teamsを配置する必要があります。 
+プライベート CA 証明書を手動でインストールする場合など、一部の管理機能では、Teams会議室を配置する必要があります。 
   
 ### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>管理者モードに切り替えて、Microsoft Teams Rooms アプリが実行されているときに戻る
 
