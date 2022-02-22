@@ -24,18 +24,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fa274c8aa068d7b17ce35d17525b58152677de07
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: dd40888ec8f1f7c5c05c3f5a2bf5a867ece93a65
+ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288375"
+ms.lasthandoff: 02/22/2022
+ms.locfileid: "62918880"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織のシフト アプリを管理する
 
 ## <a name="overview-of-shifts"></a>シフトの概要
 
-Shifts アプリは、Microsoft Teamsワーカーを接続し、同期したままにします。チームの時間管理とコミュニケーションを迅速かつ効果的に行うモバイルを最初に構築します。 シフトを使用すると、フロントラインの従業員とそのマネージャーは、モバイル デバイスを使用してスケジュールを管理し、連絡を取り合います。
+Microsoft Teams Shifts アプリは、フロントライン ワーカーを接続し、同期を維持します。チームの時間管理とコミュニケーションを迅速かつ効果的に行うモバイルを最初に構築します。 シフトを使用すると、フロントラインの従業員とそのマネージャーは、モバイル デバイスを使用してスケジュールを管理し、連絡を取り合います。
 
 - マネージャーは、チームのシフト スケジュールを作成、更新、および管理します。 マネージャーは、メッセージを 1 人のユーザーに送ることも ("床が汚れています" など)、チーム全体に送ることもできます ("地区本部長があと 20 分で到着します" など)。 マネージャーは、ポリシー ドキュメント、ニュース速報、およびビデオを送信することもできます。
 - 従業員は、自分の今後のシフトの確認、自分の他にその日にスケジュールが入っている従業員の表示、シフトの入れ替えや申し出のリクエスト、および休暇のリクエストを行います。
@@ -52,6 +52,10 @@ Shifts では現在ゲストがサポートされていません。 つまり、
 ## <a name="location-of-shifts-data"></a>シフトのデータの場所
 
 現在、シフトのデータは、北米、西ヨーロッパ、およびアジア太平洋にあるデータ センターの Azure に保存されています。 データが保存される場所の詳細については、「[データの保存場所](http://o365datacentermap.azurewebsites.net/)」を参照してください。
+
+## <a name="shifts-data"></a>データをシフトする
+
+Shifts データの保存場所と、Shifts データのリテンション期間、取得、暗号化の詳細については、「Shifts データに関する [FAQ」を参照してください](shifts-data-faq.md)。
 
 ## <a name="set-up-shifts"></a>シフトのセットアップ
 
@@ -72,7 +76,7 @@ Shifts では現在ゲストがサポートされていません。 つまり、
 
 Shifts アプリを [追加してカスタム アプリセットアップ ポリシー](../../teams-app-setup-policies.md) を作成し、そのポリシーを [ユーザー](../../assign-policies-users-and-groups.md) に割り当てできます。 または、Frontline Worker および Frontline Manager ポリシー パッケージの一部であるアプリセットアップ ポリシーを使用できます。
 
-[Teams の](../../manage-policy-packages.md)ポリシー パッケージは、組織内で同様のロールを持つユーザーに割り当て可能な定義済みのポリシーとポリシー設定のコレクションです。 Frontline Worker ポリシー パッケージと Frontline Manager ポリシー パッケージの一連のポリシーには、Shifts アプリと、そのロールのコミュニケーションおよびコラボレーション アクティビティをサポートする他のアプリをピン留めするアプリセットアップ ポリシーが含まれています。
+Teams [の](../../manage-policy-packages.md)ポリシー パッケージは、組織内で同様のロールを持つユーザーに割り当て可能な定義済みのポリシーとポリシー設定のコレクションです。 Frontline Worker ポリシー パッケージと Frontline Manager ポリシー パッケージの一連のポリシーには、Shifts アプリと、そのロールのコミュニケーションおよびコラボレーション アクティビティをサポートする他のアプリをピン留めするアプリセットアップ ポリシーが含まれています。
 
 Frontline Worker ポリシー パッケージと Frontline Manager ポリシー パッケージを使用することをお勧めします。Frontline Worker と Frontline Manager のポリシー パッケージは、フロントラインの従業員のポリシーを管理する際に簡素化、合理化、一貫性を提供するのに役立ちます。
 
@@ -86,6 +90,7 @@ Frontline Worker ポリシー パッケージと Frontline Manager ポリシー 
 
 ## <a name="related-topics"></a>関連トピック
 
+- [Shifts for Teams](../shifts-for-teams-landing-page.md)
 - [フロントライン ワーカー向けシフト ヘルプ](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
-- [ Teams でユーザーにポリシーを割り当てる](../../policy-assignment-overview.md)
 - [コネクタをシフトする](shifts-connectors.md)
+- [ Teams でユーザーにポリシーを割り当てる](../../policy-assignment-overview.md)

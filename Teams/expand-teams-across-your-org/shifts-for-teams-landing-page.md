@@ -22,12 +22,12 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 4c3ed73b3238be2795c30fa7d162ed201cd77afd
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: b92cca01512d31fe193a718eede74fd04f44ae2e
+ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288505"
+ms.lasthandoff: 02/22/2022
+ms.locfileid: "62918870"
 ---
 # <a name="shifts-for-teams"></a>Shifts for Teams
 
@@ -43,8 +43,9 @@ ms.locfileid: "62288505"
 
 |&nbsp;  |&nbsp; |
 |---------|---------|
-|<img src="/office/media/icons/calendar-teams.png" alt="Calendar symbol.">|**[組織内のシフトを管理する](shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** 組織のシフトを管理する方法について学習します。 |
-|<img src="/office/media/icons/users-people.png" alt="Users/people symbol.">|**[シフト管理のスケジュール所有者を管理する](shifts/schedule-owner-for-shift-management.md)** この機能を使用すると、従業員をチーム所有者にすることなく、チーム メンバーのアクセス許可をスケジュール所有者に昇格できます。 |
+|<img src="/office/media/icons/calendar-teams.png" alt="Calendar symbol.">   |**[シフトを管理する](shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** 組織のシフトを管理する方法について学習します。         |
+|<img src="/office/media/icons/users-people.png" alt="Users/people symbol.">   |**[シフト管理のスケジュール所有者を管理する](shifts/schedule-owner-for-shift-management.md)** この機能を使用すると、従業員をチーム所有者にすることなく、チーム メンバーのアクセス許可をスケジュール所有者に昇格できます。         |
+|<img src="/office/media/icons/help.png" alt="Help symbol.">     | **[シフト データに関する FAQ](shifts/shifts-data-faq.md)** Shifts データが格納される場所と、保持、取得、暗号化など、シフト データに関連するその他のトピックについて説明します。        |
 
 ## <a name="shifts-connectors"></a>コネクタをシフトする
 
@@ -53,15 +54,15 @@ ms.locfileid: "62288505"
 |&nbsp;  |&nbsp;  |
 |---------|---------|
 |<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[Shifts コネクタの概要](shifts/shifts-connectors.md)** Shifts コネクタの概要と動作について説明します。 使用可能なマネージド コネクタとオープン ソース コネクタと、サポートされている WFM システムについて説明します。   |
-|<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[Managed Shifts コネクタ](shifts/shifts-connectors.md#managed-shifts-connectors)** パートナーと共同で開発されたマネージド Shifts コネクタは、弊社またはパートナーによってホストおよび管理されます。 Rexis WFM システムを使用している場合は、「[Rexis Shifts](shifts/shifts-connectors.md#reflexis-shifts-connector-for-microsoft-teams) コネクタ」を参照Microsoft Teams詳細を確認してください。    |
+|<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[Managed Shifts コネクタ](shifts/shifts-connectors.md#managed-shifts-connectors)** パートナーと共同で開発されたマネージド Shifts コネクタは、弊社またはパートナーによってホストおよび管理されます。 Rexis WFM システムを使用している場合は、「[Rexis Shifts connector for Microsoft Teams](shifts/shifts-connectors.md#reflexis-shifts-connector-for-microsoft-teams)」を参照してください。    |
 |<img src="/office/media/icons/api.png" alt="Three gears - API.">    | **[オープン ソースの Shifts コネクタ](/microsoftteams/platform/samples/shifts-wfm-connectors)** コミュニティ駆動 [型のオープン](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors) ソース コネクタを使用して、Shifts Graph API と SDK を使用して Kronos または JDA WFM システムを統合する方法について説明します。    |
 
 ## <a name="shifts-extensions"></a>拡張機能をシフトする
 
 |&nbsp;|&nbsp;|
 | ------------- | ------------- |
-| <img src="/office/media/icons/api.png" alt="Three gears - API."> | **[Shift Graph Api](/graph/api/resources/shift)** Shifts Graph Api を使用すると、Shifts データを外部の従業員管理 (WFM) システムと統合できます。 ユーザーは、カスタムの Shifts エクスペリエンスをバック エンドで柔軟に構築できる一方で、Teams で豊富なフロントエンド エクスペリエンスをユーザーに提供できます。             |
-|<img src="/office/media/icons/process-flow-teams.png" alt="Process/flow chart symbol."> | **[Shifts + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Shift + Power Automate を使用すると、Shifts から情報を取得し、他のアプリとカスタム ワークフローを作成し、大規模な操作を実行できます。 コードをほとんどまたは一緒に使用して、主要なプロセスを自動化します。 トリガーとテンプレートは、マネージャーの承認が不要な場合にシフト要求の自動承認を有効にするなど、さまざまなシナリオをサポートします。 |
+| <img src="/office/media/icons/api.png" alt="Three gears - API."> | **[Shift Graph API](/graph/api/resources/shift)** を使用Graph Shifts API を使用すると、Shifts データを外部の従業員管理 (WFM) システムと統合できます。 ユーザーは、カスタムの Shifts エクスペリエンスをバック エンドで柔軟に構築できる一方で、Teams で豊富なフロントエンド エクスペリエンスをユーザーに提供できます。             |
+|<img src="/office/media/icons/process-flow-teams.png" alt="Process/flow chart symbol."> | **[Shift + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Shift + Power Automate Shifts から情報を取得し、他のアプリでカスタム ワークフローを作成し、大規模な操作を実行できます。 コードをほとんどまたは一緒に使用して、主要なプロセスを自動化します。 トリガーとテンプレートは、マネージャーの承認が不要な場合にシフト要求の自動承認を有効にするなど、さまざまなシナリオをサポートします。 |
 
 ## <a name="featured-training"></a>おすすめのトレーニング
 
