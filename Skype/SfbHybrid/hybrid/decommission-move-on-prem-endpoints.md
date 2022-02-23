@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: hyrid アプリケーション エンドポイントを移行してから、オンプレミス環境Skype for Business使用を停止します。
-ms.openlocfilehash: 2968cdb5ecec3bffb22fffaf43c77e97ab8004d1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 74e0ef935c993f6e39b08759d3beb69e0c5c7673
+ms.sourcegitcommit: d8dba15c520de3894d1781e17acb2c75fb38ed49
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583421"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62921855"
 ---
 # <a name="migrate-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>オンプレミス環境を使用停止する前にハイブリッド アプリケーション エンドポイントを移行する
 
@@ -36,7 +36,7 @@ ms.locfileid: "58583421"
 
 - **手順 3.ハイブリッド アプリケーション エンドポイントをオンプレミスからオンラインに移行します。** (この記事)
 
-- 手順 4. [オンプレミスの展開を削除Skype for Businessします](decommission-remove-on-prem.md)。
+- 手順 4. [オンプレミスの展開をSkype for Businessします](decommission-remove-on-prem.md)。
 
 
 ## <a name="migrate-all-required-hybrid-application-endpoints-from-on-premises-to-online"></a>必要なすべてのハイブリッド アプリケーション エンドポイントをオンプレミスからオンラインに移行する
@@ -48,7 +48,7 @@ ms.locfileid: "58583421"
    ```PowerShell
    Get-CsHybridApplicationEndpoint|select Sipaddress, DisplayName, ApplicationID, LineUri |Export-Csv -Path "c:\backup\HybridEndpoints.csv"
    ```
-2. 既存の[オンプレミスハイブリッド](/microsoftteams/manage-resource-accounts)アプリケーション エンドポイントMicrosoft 365置き換える新しいリソース アカウントを作成し、ライセンスします。
+2. 既存の[オンプレミスハイブリッド アプリケーション](/microsoftteams/manage-resource-accounts) エンドポイントMicrosoft 365置き換える新しいリソース アカウントを作成およびライセンスします。
 
 3. 新しいリソース アカウントを既存のハイブリッド アプリケーション エンドポイントに関連付ける。
 
@@ -79,7 +79,7 @@ ms.locfileid: "58583421"
    ```PowerShell
    Get-CsHybridApplicationEndpoint | Remove-CsHybridApplicationEndpoint
    ```
-これで、オンプレミスの展開[を削除するSkype for Business準備ができました](decommission-remove-on-prem.md)。
+これで、オンプレミスの展開[を削除するSkype for Business完了です](decommission-remove-on-prem.md)。
 
 ## <a name="see-also"></a>関連項目
 
@@ -90,6 +90,8 @@ ms.locfileid: "58583421"
 - [ハイブリッド構成を無効にする](cloud-consolidation-disabling-hybrid.md)
 
 - [オンプレミスの Skype for Business の展開を削除する](decommission-remove-on-prem.md)
+
+- [コマンドレットを使用して自動応答を作成する](/microsoftteams/create-a-phone-system-auto-attendant-via-cmdlets)
 
 
 

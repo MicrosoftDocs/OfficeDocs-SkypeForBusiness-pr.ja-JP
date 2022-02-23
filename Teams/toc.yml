@@ -1539,6 +1539,8 @@ items:
                 items:
                   - name: 概要
                     href: expand-teams-across-your-org/shifts/shifts-connectors.md
+              - name: シフト データに関するよくある質問
+                href: expand-teams-across-your-org/shifts/shifts-data-faq.md
       - name: 教育機関用 Teams
         href: expand-teams-across-your-org/teams-for-education-landing-page.md
         items:

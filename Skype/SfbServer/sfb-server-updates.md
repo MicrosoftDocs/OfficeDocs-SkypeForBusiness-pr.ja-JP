@@ -12,13 +12,13 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
-description: 2015/2019 Skype for Business Server Lync 2013 の更新プログラムを 1 か所で検索して管理します。 このページのリンクを使用して、更新プログラムに関する詳細な情報を取得し、更新プログラムをダウンロードしてください。
-ms.openlocfilehash: ea8d88f9287c8795ee3b3f4252c2e0664695a44a
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+description: 2019 年と 2015 Skype for Business Server Lync Server 2013 と 2010 の更新プログラムを 1 か所で検索して管理します。 このページのリンクを使用して、更新プログラムに関する詳細な情報を取得し、更新プログラムをダウンロードしてください。
+ms.openlocfilehash: 68b34b75cf0e671f5927c4e006e5567052be6e4e
+ms.sourcegitcommit: d8dba15c520de3894d1781e17acb2c75fb38ed49
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763342"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62921865"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server 更新プログラム
 
@@ -28,10 +28,11 @@ ms.locfileid: "62763342"
 
 ## <a name="skype-for-business-server-2019-update-history"></a>Skype for Business Server 2019 更新履歴
 
-KB 4470124は 2019 年 2019 年のマスター Skype for Business Server KB で、発行された累積的な更新プログラムと修正プログラムの履歴リストをすべて含む。 
+[KB 4470124](https://support.microsoft.com/kb/4470124)は、2019 年のマスター KB Skype for Business Serverです。 このファイルには、この製品でリリースされた累積的な更新プログラムと修正プログラムに関する履歴データが含まれています。 
 
-|パッケージ名|サポート技術情報番号|リリース日|
+|パッケージ名|KB 番号|リリース日|
 |:--- |:--- |:--- |
+|Skype for Business Server 2019 累積的な更新プログラム 6 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2021 年 12 月 |
 |Skype for Business Server 2019 累積的な更新プログラム 5 |[KB 4470124 (MACP3)](https://support.microsoft.com/kb/4470124)| 2021 年 3 月 |
 |Skype for Business Server 2019 累積的な更新プログラム 4 の修正プログラム 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2020 年 11 月 |
 |Skype for Business Server 2019 累積的な更新プログラム 4 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2020 年 9 月 |
@@ -54,9 +55,9 @@ KB 4470124は 2019 年 2019 年のマスター Skype for Business Server KB で�
 
 ## <a name="skype-for-business-server-2015-update-history"></a>Skype for Business Server 2015 更新履歴
 
-[KB 3061064](https://support.microsoft.com/kb/3061064) リリース済みのすべての累積的な更新プログラムが含まれています。 
+[KB 3061064](https://support.microsoft.com/kb/3061064)は、2015 年のマスター KB Skype for Business Serverです。 このファイルには、この製品でリリースされた累積的な更新プログラムと修正プログラムに関する履歴データが含まれています。 
 
-|パッケージ名|サポート技術情報番号|リリース日|
+|パッケージ名|KB 番号|リリース日|
 |:--- |:--- |:--- |
 |Skype for Business Server 2015 累積的な更新プログラム 12 の修正プログラム 1|[KB 3061064](https://support.microsoft.com/kb/3061064)|2022 年 2 月 |
 |Skype for Business Server 2015 累積的な更新プログラム 12|[KB 3061064](https://support.microsoft.com/kb/3061064)|2021 年 8 月 |
@@ -92,33 +93,34 @@ KB 4470124は 2019 年 2019 年のマスター Skype for Business Server KB で�
 
 ## <a name="lync-server-2013-update-history"></a>Lync Server 2013 の更新履歴
 
-[KB 2809243](https://support.microsoft.com/kb/2809243) リリース済みのすべての累積的な更新プログラムが含まれています。
+[KB 2809243](https://support.microsoft.com/kb/2809243) は、Lync Server 2013 のマスター KB です。 このファイルには、この製品でリリースされた累積的な更新プログラムと修正プログラムに関する履歴データが含まれています。
 
-|パッケージ名|サポート技術情報番号|リリース日|
+|パッケージ名|KB 番号|リリース日|
 |:--- |:--- |:--- |
-|Lync Server 2013 累積的な更新プログラム 10 の修正プログラム 5 |[KB 2809243](https://support.microsoft.com/kb/2809243)|2021 年 9 月|
+|Lync Server 2013 累積的な更新プログラム 10 の修正プログラム 6 |[KB 5003602](https://support.microsoft.com/kb/5003602)|2021 年 5 月|
+|Lync Server 2013 累積的な更新プログラム 10 の修正プログラム 5 |[KB 2809243](https://support.microsoft.com/kb/2809243)|2021 年 2 月|
 |Lync Server 2013 累積的な更新プログラム 10 の修正プログラム 4 |[KB 4515509](https://support.microsoft.com/kb/4515509)|2020 年 7 月|
 |Lync Server 2013 累積的な更新プログラム 10 の修正プログラム 3 |[KB 4515509](https://support.microsoft.com/kb/4515509)|2019 年 9 月|
 |Lync Server 2013 累積的な更新プログラム 10 Hotfix 2 |[KB 4501392](https://support.microsoft.com/kb/4501392)|2019 年 6 月|
 |Lync Server 2013 累積的な更新プログラム 10 の修正プログラム 1 |[KB 4458772](https://support.microsoft.com/kb/4458772)|2019 年 1 月|
 |Lync Server 2013 累積的な更新プログラム 10 |[KB 4295703](https://support.microsoft.com/kb/4295703)|2018 年 7 月 |
-|Lync Server 2013 累積的な更新プログラム 9  |[KB 4019183](https://support.microsoft.com/kb/4019183) |2017 年 7 月 |
+|Lync Server 2013 累積的な更新プログラム 9 |[KB 4019183](https://support.microsoft.com/kb/4019183) |2017 年 7 月 |
 |Lync Server 2013 累積的な更新プログラム 8 の修正プログラム 4 |[KB 4014154](https://support.microsoft.com/kb/4014154) |2017 年 3 月 |
 |Lync Server 2013 累積的な更新プログラム 8 の修正プログラム 3 |[KB 3210166](https://support.microsoft.com/kb/3210166) |2017 年 1 月 |
 |Lync Server 2013 累積的な更新プログラム 8 の修正プログラム 2 |[KB 3212869](https://support.microsoft.com/kb/3212869) |2016 年 12 月 |
 |Lync Server 2013 累積的な更新プログラム 8 の修正プログラム 1 |[KB 3200079](https://support.microsoft.com/kb/3200079) |2016 年 11 月 |
 |Lync Server 2013 累積的な更新プログラム 8 |[KB 3175336](https://support.microsoft.com/kb/3175336)|2016 年 8 月 |
-|Lync Server 2013 累積的な更新プログラム 7  |[KB 3140581](https://support.microsoft.com/kb/3140581)|2016 年 4 月 |
+|Lync Server 2013 累積的な更新プログラム 7 |[KB 3140581](https://support.microsoft.com/kb/3140581)|2016 年 4 月 |
 |Lync Server 2013 累積的な更新プログラム 6 修正プログラム 2 |[KB 3175338](https://support.microsoft.com/kb/3175338)|2016 年 1 月 |
 |Lync Server 2013 累積的な更新プログラム 6 修正プログラム 1 |[KB 3121213](https://support.microsoft.com/kb/3121213)|2015 年 12 月 |
 |Lync Server 2013 累積的な更新プログラム 6 |[KB 3081739](https://support.microsoft.com/kb/3081739)|2015 年 9 月 |
 |Lync Server 2013 累積的な更新プログラム 5 の修正プログラム 10 |[KB 3064728](https://support.microsoft.com/kb/3064728)|2015 年 7 月 |
 |Lync Server 2013 累積的な更新プログラム 5 の修正プログラム 9 |[KB 3051951](https://support.microsoft.com/kb/3051951)|2015 年 5 月 |
-|Lync Server 2013 累積的な更新プログラム 5 の修正プログラム 8  |[KB 3031065](https://support.microsoft.com/kb/3031065)|2015 年 2 月 |
-|Lync Server 2013 累積的な更新プログラム 5 の修正プログラム 7.1|[KB 3027553](https://support.microsoft.com/kb/3140582)|2014 年 12 月 |
+|Lync Server 2013 累積的な更新プログラム 5 の修正プログラム 8 |[KB 3031065](https://support.microsoft.com/kb/3031065)|2015 年 2 月 |
+|Lync Server 2013 累積的な更新プログラム 5 の修正プログラム 7.1 |[KB 3027553](https://support.microsoft.com/kb/3140582)|2014 年 12 月 |
 |Lync Server 2013 累積的な更新プログラム 5 の修正プログラム 7 |[KB 3018232](https://support.microsoft.com/kb/3018232)|2014 年 12 月 |
 |Lync Server 2013 累積的な更新プログラム 5 の修正プログラム 6 |[KB 3010028](https://support.microsoft.com/kb/3010028)|2014 年 11 月  |
-|Lync Server 2013 累積的な更新プログラム 5 の修正プログラム 5|[KB 3003358](https://support.microsoft.com/kb/3003358)|2014 年 10 月 |
+|Lync Server 2013 累積的な更新プログラム 5 の修正プログラム 5 |[KB 3003358](https://support.microsoft.com/kb/3003358)|2014 年 10 月 |
 | Lync Server 2013 累積的な更新プログラム 5 の修正プログラム 2 |[KB 2987511](https://support.microsoft.com/kb/3120728)|2014 年 9 月 |
 | Lync Server 2013 累積的な更新プログラム 5 |[KB 2937305](https://support.microsoft.com/kb/2937305)|2014 年 8 月 |
 |Lync Server 2013 累積的な更新プログラム 4 |[KB 2905040](https://support.microsoft.com/kb/2905040)|2014 年 1 月 |
@@ -127,7 +129,7 @@ KB 4470124は 2019 年 2019 年のマスター Skype for Business Server KB で�
 |Lync Server 2013 累積的な更新プログラム 1 |[KB 2781550](https://support.microsoft.com/kb/2781550)|2013 年 2 月 |
 ||||
 
-### <a name="lync-server-2013-dev-tools"></a>Lync Server 2013 開発ツール
+### <a name="alync-server-2013-dev-tools"></a></a>Lync Server 2013 開発ツール
 
 |パッケージ名|リリース日|
 |:--- |:--- |
@@ -142,7 +144,7 @@ KB 4470124は 2019 年 2019 年のマスター Skype for Business Server KB で�
 
 #### <a name="pre-configured-vhds"></a>事前構成された VHDs
 
-完全なトポロジは、Microsoft Lync 2013、Microsoft Exchange 2013、SharePoint 2013、UC 開発者プラットフォーム API (Microsoft Lync 2013 SDK、Exchange Web Services マネージ API 2.0、Microsoft Lync Server 2013 SDK、Microsoft Unified Communications Managed API 4.0 を含む) を完全に評価できる 7 つの仮想マシンで構成されています。
+完全なトポロジは 7 台の仮想マシンで構成され、Microsoft Lync 2013、Microsoft Exchange 2013、SharePoint 2013、UC 開発者プラットフォーム API (Microsoft Lync 2013 SDK、Exchange Web Services マネージ API 2.0、Microsoft Lync Server 2013 SDK、Microsoft Unified Communications Managed API 4.0 を含む) を完全に評価できます。
 
 パッケージ名 |リリース日|
 |:--- |:--- |
@@ -150,15 +152,16 @@ KB 4470124は 2019 年 2019 年のマスター Skype for Business Server KB で�
 |[テスト ドライブ - Lync Server 2013 - パート 2 of 3](https://www.microsoft.com/download/details.aspx?id=40267) |2013 年 9 月 |
 |[テスト ドライブ - Lync Server 2013 - パート 3 /3](https://www.microsoft.com/download/details.aspx?id=40265) |2013 年 9 月 |
 
-### <a name="lync-2013-tools"></a>Lync 2013 ツール
+### <a name="lync-server-2013-tools"></a><a id="lync-2013-tools"></a>Lync Server 2013 ツール
 
 |パッケージ名 |リリース日|
 |:--- |:--- |
+| Lync Server 2013 会議移行ツール (MMT) |2021 年 9 月 |
 | Lync Connectivity Analyzer (32 ビット) RETIRED |2017 年 6 月 |
 | Lync Connectivity Analyzer (64 ビット) RETIRED |2017 年 6 月 |
 | Lync Server 2013 ベスト プラクティス アナライザー |2012 年 10 月 |
 |[Lync Server 2013 容量計算機](https://www.microsoft.com/download/details.aspx?id=36828) |2013 年 7 月 |
-|Lync Server 2013 デバッグ ツール |2014 年 1 月 |
+| Lync Server 2013 デバッグ ツール |2014 年 1 月 |
 | Lync Server 2013 管理パック |2016 年 5 月 |
 | Lync Server 2013 常設チャット リソース キット |2013 年 7 月 |
 | Lync Server 2013 計画ツール |2013 年 7 月 |
@@ -169,7 +172,7 @@ KB 4470124は 2019 年 2019 年のマスター Skype for Business Server KB で�
 |[Lync VDI 2013 プラグイン (64 ビット)](https://www.microsoft.com/download/details.aspx?id=35454) |2012 年 10 月 |
 |[新しいOffice Visioステンシル](https://www.microsoft.com/download/details.aspx?id=35772) |2016 年 7 月 |
 
-### <a name="lync-2013-downloadable-documentation"></a>Lync 2013 ダウンロード可能なドキュメント
+### <a name="lync-server-2013-downloadable-documentation"></a><a id="lync-2013-downloadable-documentation"></a>Lync Server 2013 ダウンロード可能なドキュメント
 
 パッケージ名 |リリース日|
 |:--- |:--- |
@@ -179,9 +182,9 @@ KB 4470124は 2019 年 2019 年のマスター Skype for Business Server KB で�
 
 ## <a name="lync-server-2010-update-history"></a>Lync Server 2010 の更新履歴
 
-[KB 2493736](https://support.microsoft.com/kb/2493736) リリースされた累積的な更新プログラムすべてが含まれています。
+[KB 2493736](https://support.microsoft.com/kb/2493736) は、Lync Server 2010 のマスター KB です。 このファイルには、この製品でリリースされた累積的な更新プログラムと修正プログラムに関する履歴データが含まれています。
 
-|パッケージ名|サポート技術情報番号|リリース日|
+|パッケージ名|KB 番号|リリース日|
 |:--- |:--- |:--- |
 |Lync Server 2010 累積的な更新プログラム 18 の修正プログラム 1 | KB 2493736 |2019 年 6 月|
 |Lync Server 2010 累積的な更新プログラム 18| KB 2493736 |2019 年 1 月|
@@ -205,13 +208,13 @@ KB 4470124は 2019 年 2019 年のマスター Skype for Business Server KB で�
 
 ### <a name="group-chat-2010-updates"></a>グループ チャット 2010 の更新プログラム
 
-|パッケージ名|サポート技術情報番号|リリース日|
+|パッケージ名|KB 番号|リリース日|
 |:--- |:--- |:--- |
 |Lync Server 2010 グループ チャットの累積的な更新プログラム |[KB 2884623](https://support.microsoft.com/kb/2884623) |2013 年 10 月|
 |Lync Server 2010 グループ チャット管理ツールの累積的な更新プログラム |[KB 2884631](https://support.microsoft.com/kb/2884631) |2013 年 10 月|
 |Lync 2010 グループ チャットの累積的な更新プログラム |[KB 2884627](https://support.microsoft.com/kb/2884627) |2013 年 10 月|
 
-### <a name="lync-2010-dev-tools"></a>Lync 2010 開発ツール
+### <a name="lync-server-2010-developer-tools"></a><a id="lync-2010-dev-tools"></a>Lync Server 2010 開発者ツール
 
 |パッケージ名 |リリース日|
 |:--- |:--- |
@@ -222,7 +225,7 @@ KB 4470124は 2019 年 2019 年のマスター Skype for Business Server KB で�
 | Speech Platform - Server ランタイム言語 (バージョン 10.2) |2010 年 9 月 |
 | Microsoft Lync Server 2010 のユニファイド コミュニケーション拡張プレゼンス スキーマ |2010 年 11 月 |
 
-### <a name="lync-2010-tools"></a>Lync 2010 ツール
+### <a name="lync-server-2010-tools"></a><a id="lync-2010-tools"></a>Lync Server 2010 ツール
 
 |パッケージ名 |リリース日|
 |:--- |:--- |
@@ -235,7 +238,7 @@ KB 4470124は 2019 年 2019 年のマスター Skype for Business Server KB で�
 |[Lync Server 2010 Visio ステンシル](https://www.microsoft.com/downloads/details.aspx?FamilyID=65B5A396-2C87-445D-BE23-D324727D19CB)|2011 年 2 月 |
 | Lync Server 2010 Web スケジューラ |2011 年 4 月 |
 
-### <a name="lync-2010-downloadable-documentation"></a>Lync 2010 ダウンロード可能なドキュメント
+### <a name="lync-server-2010-downloadable-documentation"></a><a id="lync-2010-downloadable-documentation"></a>Lync Server 2010 ダウンロード可能なドキュメント
 
 パッケージ名 |リリース日|
 |:--- |:--- |
@@ -249,7 +252,7 @@ KB 4470124は 2019 年 2019 年のマスター Skype for Business Server KB で�
 
 ### <a name="resource-kit-technical-reference"></a>リソース キット (テクニカル リファレンス)
 
-[Microsoft Lync Server 2010 リソース](https://www.microsoft.com/download/en/details.aspx?id=22644) キットダウンロード サイトにアクセスして、書籍の章を個別にダウンロードするか、リソース キットのすべての [19](https://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip) 章を含む .zip ファイルをダウンロードします。
+[Microsoft Lync Server 2010 リソース](https://www.microsoft.com/download/en/details.aspx?id=22644) キットのダウンロード サイトにアクセスして、書籍の章を個別にダウンロードするか、リソース キットのすべての [19](https://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip) 章を含む .zip ファイルをダウンロードします。
 
 ### <a name="group-chat"></a>Group Chat
 
@@ -277,4 +280,3 @@ KB 4470124は 2019 年 2019 年のマスター Skype for Business Server KB で�
 - [インストール Skype for Business Server 2015](./deploy/install/install.md)
 - [2015 Skype for Business Serverへのアップグレード](./deploy/upgrade-to-skype-for-business-server.md)
 - [Windows インストーラー (MSI) を使用しているバージョンの Skype for Business の最新の更新プログラム](sfb-client-updates.md)
-
