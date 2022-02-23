@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: ダイレクト ルーティングでユーザーを有効にするMicrosoft Teams 電話説明します。
-ms.openlocfilehash: 4acf18799060d6cc89e477109e916b5bf0d8401a
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.openlocfilehash: be2f0e0f33bd236591c8c8a2d9cf415972e018d6
+ms.sourcegitcommit: e9b0a274fdfee3d5bc8211cb099155546b281fe0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763332"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62926300"
 ---
 # <a name="enable-users-for-direct-routing"></a>ユーザーに直接ルーティングを有効にする
 
@@ -47,17 +47,17 @@ ms.locfileid: "62763332"
 新しいユーザーを作成するには、2 つのオプションMicrosoft 365。 ただし、ルーティングの問題を回避するために、組織で 1 つのオプションを選択する必要があります。 
 
 - オンプレミスの Active Directory にユーザーを作成し、そのユーザーをクラウドと同期します。 「[オンプレミスのディレクトリとオンプレミスのディレクトリを統合する」Azure Active Directory](/azure/active-directory/connect/active-directory-aadconnect)。
-- ユーザーを作成するには、Microsoft 365 管理センター。 「[ユーザーを個別に、または一括でユーザーを追加する」Microsoft 365または Office 365 - 管理者向けヘルプ」 を参照してください](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)。 
+- ユーザーを作成するには、Microsoft 365 管理センター。 「[ユーザーを個別に、または一括でユーザーを追加する」Microsoft 365または Office 365 - 管理者向けヘルプ] を参照してください](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)。 
 
-Skype for Business Online の展開がオンプレミスの Skype for Business 2015 または Lync 2010 または 2013 と共存している場合、サポートされる唯一のオプションは、オンプレミスの Active Directory にユーザーを作成し、ユーザーをクラウドと同期することだけです (オプション 1)。 
+Skype for Business Online の展開がオンプレミスの Skype for Business 2015 または Lync 2010 または 2013 と共存している場合、サポートされる唯一のオプションは、オンプレミスの Active Directory でユーザーを作成し、ユーザーをクラウドと同期することだけです (オプション 1)。 
 
 ライセンス要件の詳細については、「直接ルーティングの計画」の「ライセンスと[他の](direct-routing-plan.md#licensing-and-other-requirements)[要件」を参照してください](direct-routing-plan.md)。
 
 ## <a name="ensure-that-the-user-is-homed-online"></a>ユーザーがオンラインでホームに設定されている 
 
-この手順は、直接ルーティングSkype for Business Server エンタープライズ VoIP移行される有効なユーザー Teamsに適用されます。
+この手順は、有効Skype for Business Server エンタープライズ VoIPユーザーが直接ルーティングに移行Teamsに適用されます。
 
-ダイレクト ルーティングでは、ユーザーをオンラインでホームに設定する必要があります。 RegistrarPool パラメーターを確認すると確認できます。このパラメーターには、ドメイン内に値が infra.lync.com があります。 Microsoft では、ユーザーを直接ルーティングに移行するときに、LineURI をオンプレミスからオンラインに変更Teams必要とします。 
+ダイレクト ルーティングでは、ユーザーをオンラインでホームに設定する必要があります。 RegistrarPool パラメーターを確認すると確認できます。このパラメーターには、infra.lync.com があります。 Microsoft では、ユーザーを直接ルーティングに移行するときに、LineURI をオンプレミスからオンラインに変更Teams必要とします。 
 
 1. Connect PowerShell Microsoft Teamsを作成します。
 
@@ -85,15 +85,36 @@ Skype for Business Online の展開がオンプレミスの Skype for Business 2
    LineURI                              : 
    ```
  > [!NOTE]
- > オンプレミスの電話属性を削除する前に、すべてのユーザーの電話属性をオンライン[で管理Skype for Businessがあります](/skypeforbusiness/hybrid/decommission-on-prem-overview)。 
+ > オンプレミスの電話環境を削除する前に、すべてのユーザーの電話属性をオンライン[で管理Skype for Businessがあります](/skypeforbusiness/hybrid/decommission-on-prem-overview)。 
 
 ## <a name="configure-the-phone-number-and-enable-enterprise-voice"></a>電話番号を構成し、エンタープライズ音声を有効にする 
 
 ユーザーを作成し、ライセンスを割り当てた後は、ユーザーのオンライン電話設定を構成する必要があります。 ユーザーに対する クラウド ボイスメールの構成は自動的に行われるので、追加の構成を行う必要はありません。
 
+電話番号は、管理センターの管理者Teams PowerShell を使用してTeamsできます。
+
+### <a name="use-teams-admin-center"></a>管理Teams使用する
+
+1. [ユーザー管理 **] に** -> **移動します**。
+
+2. ユーザーを選択します。
+
+2. [アカウント **の全般情報****] で、[** 編集] を **選択します**。
+
+3. [**電話番号の割り当** て] で、[電話番号電話 **の種類**] ドロップダウン メニューから [直接ルーティング] **を選択します**。
+
+4. 割り当てられた電話番号と電話番号の内線番号 (該当する場合) を入力します。
+
+5. [適用] **を選択します。**
+
+アカウントの全般情報に、割り当てられた電話番号と直接ルーティングが電話番号の種類として表示されます。
+
+
+### <a name="use-powershell"></a>PowerShell を使用する
+
 1. Connect PowerShell セッションMicrosoft Teamsに接続します。 
 
-2. 次の手順は、ユーザーの電話番号をオンプレミスかオンラインかを管理しているかによって異なっています。 オンプレミスで電話番号を管理している場合は、「分離後に属性を管理する方法を決定する」で説明されているオンプレミスの Skype for Business 管理シェル、コントロール パネル、または方法のいずれかを使用[](/skypeforbusiness/hybrid/cloud-consolidation-managing-attributes)する必要があります。
+2. 次の手順は、ユーザーの電話番号をオンプレミスかオンラインかを管理しているかによって異なっています。 オンプレミスで電話番号を管理している場合は、オンプレミスの Skype for Business Management Shell、コントロール パネル、または「分離後に属性を管理する方法を決定する」で説明されている方法[](/skypeforbusiness/hybrid/cloud-consolidation-managing-attributes)のいずれかを使用する必要があります。
 
    - ユーザーの電話番号をオンプレミスで管理している場合は、次のコマンドを使用して、ユーザーがオンラインエンタープライズ VoIP有効になっている必要があります。
 
@@ -128,11 +149,11 @@ Skype for Business Online の展開がオンプレミスの Skype for Business 2
 
 ## <a name="configure-sending-calls-directly-to-voicemail"></a>ボイスメールへの通話の直接送信を構成する
 
-ダイレクト ルーティングを使用すると、ユーザーへの呼び出しを終了し、ユーザーのボイスメールに直接送信できます。 通話をボイスメールに直接送信する場合は、opaque=app:voicemail を Request URI ヘッダーに添付します。 たとえば、"sip:user@yourdomain.com;opaque=app:voicemail" などです。 ユーザー Teams通知を受信しない場合、通話はユーザーのボイスメールに直接接続されます。
+ダイレクト ルーティングを使用すると、ユーザーへの呼び出しを終了し、ユーザーのボイスメールに直接送信できます。 通話をボイスメールに直接送信する場合は、opaque=app:voicemail を Request URI ヘッダーに添付します。 たとえば、"sip:user@yourdomain.com;opaque=app:voicemail" などです。 ユーザー Teams呼び出し通知を受信しない場合、通話はユーザーのボイスメールに直接接続されます。
 
-## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>通話Teams着信が確実に着信する場合は、ユーザーにのみモードを割り当Microsoft Teams
+## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>ユーザーに Teams モードを割り当て、通話が確実に着信Microsoft Teams
 
-直接ルーティングでは、ユーザーが着信Teamsクライアントに着信通話が確実に着信Teams必要があります。 ユーザーを [のみ] Teamsするには、TeamsUpgradePolicy の "UpgradeToTeams" インスタンスを割り当てる必要があります。 詳細については、「IT 管理者向け [アップグレード戦略」を参照してください](upgrade-to-teams-on-prem-implement.md)。 組織で Skype for Business Server を使用している場合は、Skype と Teams の間の相互運用性について詳しくは、Skype for Business への移行と相互運用性に関する記事[をご覧ください](migration-interop-guidance-for-teams-with-skype.md)。
+直接ルーティングでは、ユーザーが着信Teamsクライアントに着信通話が確実に着信Teams必要があります。 ユーザーを [のみ] Teamsするには、TeamsUpgradePolicy の "UpgradeToTeams" インスタンスを割り当てる必要があります。 詳細については、「IT 管理者向け [アップグレード戦略」を参照してください](upgrade-to-teams-on-prem-implement.md)。 組織で Skype for Business Server を使用している場合、Skype と Teams の間の相互運用性については、Skype for Business との移行と相互運用性に関する記事[を参照してください](migration-interop-guidance-for-teams-with-skype.md)。
 
 ## <a name="see-also"></a>関連項目
 
