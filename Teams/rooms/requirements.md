@@ -15,27 +15,27 @@ ms.collection:
 - M365-collaboration
 description: Microsoft Teams Rooms をサポートするための要件 (適切なデバイス、マイク、スピーカー、カメラ、ディスプレイの選択) について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0609fc0267a20d716d897ad4782842395b9835b1
-ms.sourcegitcommit: 5e9a8d3cdb72b57adfb842200159c5d753b70ecb
+ms.openlocfilehash: 83430fd401a601ede397de188d956a61c93ac206
+ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62329047"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62929232"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams Rooms の要件
 
-Microsoft Teams会議室のサイズは異なります。 Teams会議室では、部屋のサイズと用途に基づいて、さまざまな認定オーディオおよびビデオ周辺機器を使用します。 マイク、スピーカー、カメラ、ディスプレイと組み合わせて、適切なコア デバイスと本体を選択することで、Microsoft Teams 会議室を小さな会議室から大きな会議スペースや会議室まで、任意のサイズの空間に展開できます。  Microsoft Teams Rooms を構成するために使用できる認定オーディオ/ビデオ周辺機器一式は、[デバイス ショーケース](https://products.office.com/microsoft-teams/across-devices)に用意されています。
+Microsoft Teams会議室のサイズは異なります。 Teams会議室では、部屋のサイズと用途に基づいて、さまざまな認定オーディオおよびビデオ周辺機器を使用します。 適切なコア デバイスと本体を選択し、マイク、スピーカー、カメラ、およびスペースに適したディスプレイと組み合わせると、Microsoft Teams 会議室を小さなハドル 空間から大きな会議スペースや会議室まで、任意のサイズの空間に展開できます。  Microsoft Teams Rooms を構成するために使用できる認定オーディオ/ビデオ周辺機器一式は、[デバイス ショーケース](https://products.office.com/microsoft-teams/across-devices)に用意されています。
 
 この記事では、Microsoft Teams Rooms をサポートするためのデバイスの展開と構成に関する要件をまとめます。
 
-デプロイには、「Teams Microsoft Teams Rooms をデプロイする」の説明に従って、リソース アカウントを作成し、Microsoft Teams[セットアップする必要があります](rooms-deploy.md)。
+デプロイには、「会議室をデプロイする」の説明に従って、Teams のリソース アカウントの作成[とMicrosoft Teamsがあります](rooms-deploy.md)。
 
 以下を参照してください。
 
 - [プランに基づいたライセンス オプション: Microsoft Teams Rooms](rooms-licensing.md)
 
 > [!NOTE]
-> Microsoft Teams Rooms は Microsoft Teams、Skype for Business Server 2019、Skype for Business Server 2015 にサインインし、これらのサービスによってホストされている会議に参加できます。
+> Microsoft Teams Rooms は Microsoft Teams、Skype for Business Server 2019、Skype for Business Server 2015 にサインインし、これらのサービスでホストされている会議に参加できます。
 >
 > Lync Server 2013 のような以前のプラットフォームは、Microsoft Teams Rooms ではサポートしていません。 Microsoft Teams Rooms は、21Vianet または DoD Microsoft 365または DoD Office 365が運用する環境ではサポートされていません。
 >
@@ -67,6 +67,16 @@ Microsoft Teams会議室のサイズは異なります。 Teams会議室では�
    |[AsUS PC を使用したクレスロン Flex UC-M70-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M70-T)|Core i5/i7|8 GB |128 GB |
    |[AsUS PC を使用したクレスロン Flex UC-MX50-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX50-T)|Core i5/i7|8 GB |128 GB |
    |[AsUS PC を使用したクレスロン Flex UC-MX70-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX70-T)|Core i5/i7|8 GB |128 GB |
+   |Dell OPTIPLEX を使用したクレスロン FLEX UC-B30-T|Core i5|8 GB|128 GB|
+   |Dell OPTIPLEX を使用したクレスロン FLEX UC-Bx30-T|Core i5|8 GB|128 GB|
+   |Dell OPTIPLEX を使用したクレスロン FLEX UC-MM30-T|Core i5|8 GB|128 GB|
+   |Dell OPTIPLEX を使用したクレスロン FLEX UC-MMX30-T|Core i5|8 GB|128 GB|
+   |Dell OPTIPLEX を使用したクレスロン FLEX UC-M50-T|Core i5|8 GB|128 GB|
+   |Dell OPTIPLEX を使用したクレスロン FLEX UC-MX50-T|Core i5|8 GB|128 GB|
+   |Dell OPTIPLEX を使用したクレスロン FLEX UC-M70-T|Core i5|8 GB|128 GB|
+   |Dell OPTIPLEX を使用したクレスロン FLEX UC-MX70-T|Core i5|8 GB|128 GB|
+   |Dell OPTIPLEX を使用したクセロン FLEX UC-C100-T|Core i5|8 GB|128 GB|
+   |Dell OPTIPLEX を使用したクレスロン FLEX UC-CX100-T|Core i5|8 GB|128 GB|
   |[クレスロン・マーキュリー ミニ UC-MM30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MM30-T)|Core i5|8 GB |128 GB |
   |[Dell OptiPlex 7080 と Logitech TAP](https://www.dell.com/en-us/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | Core i7 |16 GB |128 GB|
   |[HP Elite Slice for Meeting Rooms G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 GB |128 GB |
@@ -123,7 +133,7 @@ Microsoft Teams会議室のサイズは異なります。 Teams会議室では�
 
 |Microsoft Teams Rooms の周辺機器|認定ファームウェア バージョン | コンテンツ カメラとして使用できるカメラ|
 |:--- |:--- | :--- |
-|[Aver VC520 Pro カメラ + スピーカーフォン](https://www.averusa.com/products/conference-camera/vc520pro) |1004.35|
+|[Aver VC520 Pro Camera + Speakerphone](https://www.averusa.com/products/conference-camera/vc520pro) |1004.35|
 |[Aver VC520 PRO2 会議システム](https://www.averusa.com/products/conference-camera/vc520pro2) | 00.0.7200.79 |
 |[Aver VB342+ カメラ サウンド バー](https://www.averusa.com/products/conference-camera/vb342plus) | サウンドバー: 0.0.0000.97|
 |[Aver CAM 540](https://www.averusa.com/products/conference-camera/cam540) |0.0.6002.83 |
@@ -140,6 +150,7 @@ Microsoft Teams会議室のサイズは異なります。 Teams会議室では�
 |[Huddly IQ Lite](https://www.huddly.com/conference-cameras/iq/) |1.3.29|
 |[Huddly IQ カメラ](https://www.huddly.com/conference-cameras/iq/) |1.3.27|
 |Huddly L1 カメラ[とクリストロン UC-C100-T の()](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) | Huddly L1 カメラ: 1.2.1 </br> AsUS Tek Computer INC 9934 コンピューティング 1.0.20.246 以上のクセロン UC-C100-T |
+|Huddly L1 カメラ [と、クリストロン UC-CX100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-CX100-T) の () | Huddly L1 カメラ: 1.2.9 </br> AsUS Tek Computer INC 9934 1.00.20.246 以上のクレスロン UC-CX100-T |
 |Huddly L1 カメラとクリストロン UC-M70-T の() | Huddly L1 カメラ: 1.2.1 </br> AsUS Tek Computer INC 9934 コンピューティング 1.0.20.246 以上のクレスロン UC-M70-T |
 |Huddly L1 カメラとクリストロン UC-MX70-T の() | Huddly L1 カメラ: 1.2.1 </br> AsUS Tek Computer INC 9934 コンピューティング 1.0.20.246 以上を使用したクレスロン UC-MX70-T |
 |[Jabra Panacast3 Camera](https://www.jabra.com/business/video-conferencing/jabra-panacast)|1.3.9.12|
@@ -177,11 +188,13 @@ Microsoft Teams会議室のサイズは異なります。 Teams会議室では�
 |[EPOS Expand 80T + 2 Extension Mics](https://www.eposaudio.com/en/us/enterprise/products/expand-80t-bluetooth-speakerphone-1000203) |Speakerphone — 4.6.55 <br/> Extension Mic — 0.2.314|
 |[EPOS Expand Capture 5](https://www.eposaudio.com/en/us/enterprise/products/expand-capture-5-speakerphone-1000895)  |1.0.1|
 |[Extron DMP128 PLUS C V AT DSP システム (DMP 128 Plus C V AT、DMP 128 Plus C AT、DMP 128 Plus C V、DMP 128 Plus C、DMP 128 Plus AT、DMP 128 Plus、DMP 128 FlexPlus C AT、DMP 128 FlexPlus C V AT)](https://www.extron.com/product/dmp128plus) | 1.08 |
+|[Extron DMP 64 PLUS C V AT DSP システム (DMP 64 Plus C V AT、DMP 64 Plus C AT、DMP 64 Plus C V、DMP 64 Plus C)](https://www.extron.com/product/dmp64plus) | 1.08|
 |[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK&trade;-510_7510-209)   |2.10.0   |
 |[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710)   |1.8.0   |
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810)   |1.2.23   |
 |[ヤマハ YVC-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/)   |100c   |
 |[ヤマハ YVC-1000MS](https://uc.yamaha.com/products/conference-phones/usb-bluetooth/) |1.0.0 |
+|[大きな ADECIA の天井ソリューション](https://uc.yamaha.com/products/microphone-systems/adecia/)|1.2.0|
 |[Yealink CP900](https://www.yealink.com/products_150.html) |100.20.0.29 |
 |[Yealink UVC30](https://www.yealink.com/product/microsoft-teams-room-system-uvc30)| 105.420.0.11 |  &#x2714; |
 |[Yealink UVC34 All-in-one ビデオ バー](https://www.yealink.com/product/usb-videobar-uvc34) | 265.410.0.9 |
@@ -195,6 +208,7 @@ Microsoft Teams会議室のサイズは異なります。 Teams会議室では�
 |[Shure MXA 710 2ft Table Linear Array Microphone](https://www.shure.com/products/microphones/mxa710) + </br></br> [Shure Intellimix P300 オーディオ プロセッサ](https://www.shure.com/products/mixers/p300) +</br></br> [MXN5-C Ceiling Speaker](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 2ft Table Linear Array Mic: 1.2.0 </br> P300 DSP: 4.4.8 </br> MXN5-C スピーカー: 1.1.1 |
 |[Shure MXA 710 4ft Wall Linear Array Microphone](https://www.shure.com/products/microphones/mxa710) + </br></br> [Shure Intellimix P300 オーディオ プロセッサ](https://www.shure.com/products/mixers/p300) +</br></br> [MXN5-C Ceiling Speaker](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 4ft Wall Linear Array Mic: 1.2.0 </br> P300 DSP: 4.4.8 </br> MXN5-C スピーカー: 1.1.1 |
 |[Shure MXA 910 と Intellimix Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br> [クセロン UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Shure Intellimix Room Software: 3.0.4.14 </br> Shure MXA 910 with Intellimix Ceiling Array Microphone: 4.4.11 </br> Shure MXN5-C スピーカー: 1.2.1 </br> AsUS Tek Computer INC 9934 コンピューティングを使用したクセロン UC-C100-T | 
+|[Sennheiser TeamConnect Intelligent Speaker/TC ISP (T-Rock)](https://en-us.sennheiser.com/tcisp)|1.0.2|
 |[Biamp Tesira Fore AVB VT4 Fixed audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [ゼンハイザー TeamConnect Ceiling 2 マイク](https://sennheiser.com/tcc2)+ &Dagger;</br></br> [Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; |  Biamp DSP: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |
 |[Biamp Tesira FORTÉ AVB VT4 オーディオ DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Biamp Parlé TCM-XA シーリング マイク](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br> [Biamp Desono C-IC6 天井埋め込み型スピーカー](https://www.biamp.com/products/tesira-speakers)| Audio FW バージョン: 3.15|
 |[Biamp TesiraFORTE AVB VT4](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Parle TTM-X(テーブル マイク)](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br>[Ex-UBT]() |Audio FW バージョン: 3.15|

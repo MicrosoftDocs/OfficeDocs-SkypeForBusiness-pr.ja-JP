@@ -457,6 +457,8 @@ items:
                 href: teams-analytics-and-reports/teams-live-event-usage-report.md
               - name: Teams 情報保護ライセンス レポート
                 href: teams-analytics-and-reports/information-protection-license-report.md
+              - name: Teams 仮想訪問の使用状況レポート
+                href: teams-analytics-and-reports/virtual-visits-usage-report.md
       - name: ログ ファイル、サービス正常性、サポート
         items:
           - name: ログ ファイルを使用して Teams の監視とトラブルシューティングを行う
@@ -1527,6 +1529,10 @@ items:
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: Bookings アプリを管理する
                 href: bookings-app-admin.md
+              - name: モバイル ブラウザーでの参加エクスペリエンスを管理する
+                href: expand-teams-across-your-org/mobile-browser-join.md
+              - name: 仮想訪問の使用状況レポート
+                href: teams-analytics-and-reports/virtual-visits-usage-report.md
           - name: Teams の Shifts
             items:
               - name: Shifts の使用を開始する
@@ -1645,6 +1651,8 @@ items:
                 href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
               - name: Teams と Bookings による仮想訪問
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
+              - name: 仮想訪問の使用状況レポート
+                href: teams-analytics-and-reports/virtual-visits-usage-report.md
               - name: モバイル ブラウザーでの参加エクスペリエンスを管理する
                 href: expand-teams-across-your-org/mobile-browser-join.md
           - name: ポリシー パッケージの表示と割り当て

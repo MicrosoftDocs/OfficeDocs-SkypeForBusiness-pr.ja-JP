@@ -20,21 +20,21 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 - seo-marvel-apr2020
-description: 最適な結果を生み出す、Microsoft Teams電話の認定について学習します。
-ms.openlocfilehash: 5b8e7636c53add6e8ef30fa8903cff8ac3d260a3
-ms.sourcegitcommit: 86a4826472f3f1357ee9bffd512108d8778e0c5b
+description: 最適な結果を生み出すMicrosoft Teams電話と電話について学習します。
+ms.openlocfilehash: 1b5b32edeecd7c20840e3644583843a1c7e465b4
+ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62897552"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62929172"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams認定 Android デバイス
 
-Microsoft Teams デバイス認定プログラムは、認定されたデバイスが高い標準を満たし、Teams エクスペリエンス全体 (オーディオ、ビデオ、ユーザー インターフェイス) 全体で高いパフォーマンス ターゲットと品質メトリックを満たします。 Microsoft と OEM パートナーは、デバイスがセキュリティ、オーディオとビデオの品質、エクスペリエンス、アクセシビリティなど、すべての認定要件を満たTeams積極的に協力しています。
+Microsoft Teams デバイス認定プログラムは、認定デバイスが高い標準を満たし、Teams エクスペリエンス全体 (オーディオ、ビデオ、ユーザー インターフェイス) 全体で高いパフォーマンス ターゲットと品質メトリックを満たします。 Microsoft と OEM のパートナーは、デバイスがセキュリティ、オーディオとビデオの品質、ビデオのエクスペリエンス、アクセシビリティなど、すべての認定要件を満たTeams積極的に協力しています。
 
 認定プログラムは、認定を受けたすべてのデバイスが、管理センターに必要な機能セットを使用して Android Teams実行Teams設計されています。 認定終了日は、デバイスが認定プログラムに入った際にデバイスで実行されている Android OS バージョンに基づいて行います。 OEM パートナーは、Android OS のバージョンをアップグレードして再サーティ化するか、最新の新しいモデルをリリースすることで、サーティピティの有効期間の延長に取り組しています。
 
-Microsoft は、認定期間を超えて、認定期間の終了後 2 年間、このようなデバイスで最新バージョンの Teams クライアントをサポートする取り組みを行います。
+Microsoft は、認定期間を超えて、認定期間の終了後 2 年間、このようなデバイスで最新バージョンの Teams クライアントをサポートする努力を行います。
 
 >[!NOTE]
 >認定終了日は、新しい Android OS バージョンにアップグレードする OEM パートナー プランに基づいて定期的に更新されます。
@@ -67,7 +67,7 @@ Microsoft は、認定期間を超えて、認定期間の終了後 2 年間、�
 
 ## <a name="certified-teams-rooms-on-android"></a>Android Teams認定会議室
 
-次のデバイスは、Android 認定プログラムの Microsoft Teams の認定を受けています。
+次のデバイスは、Android Microsoft Teams の認定プログラムの下で認定されます。
 
 | デバイス モデル | ファームウェアのバージョン | 現在の認定終了日 | 部屋のサイズ                                        |  Android OS バージョン    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
@@ -86,7 +86,7 @@ Microsoft は、認定期間を超えて、認定期間の終了後 2 年間、�
 | Poly TC8                | `3.3.2.210441`     | 2023 年 8 月 5 日 | Poly Studio X30 および Poly Studio X50 と互換性がある  |  9  |
 | Yealink VC210           | `118.15.0.14`      | 2023 年 8 月 5 日 | フォーカス ルーム(3 m x 3 m) </br> 小さな会議室 (4.5 m x 4.5 m) |  9  |
 
-## <a name="certified-teams-displays"></a>認定Teamsディスプレイ
+## <a name="certified-teams-displays"></a>認定Teams表示
 
 次のデバイスは、Android 認定プログラムのMicrosoft Teams認定を受けています。
 
@@ -95,7 +95,7 @@ Microsoft は、認定期間を超えて、認定期間の終了後 2 年間、�
 |Lenovo ThinkSmart View|`CD-18781Y.201006.099`| 2022 年 12 月 5 日 |  8.1  |
 
 ## <a name="certified-teams-panels"></a>認定Teamsパネル
-次のデバイスは、認定プログラムのMicrosoft Teamsで認定されます。
+次のデバイスは、次のパネルの [Microsoft Teams 認定プログラム] の下で認定されます。
 
 | デバイス モデル| ファームウェアのバージョン | 現在の認定終了日 | Android OS バージョン |                                         
 |:------------------------|:-----------------|:--------------|-----------------------|
@@ -129,7 +129,7 @@ Microsoft は、認定期間を超えて、認定期間の終了後 2 年間、�
 
 #### <a name="firmware-versions"></a>ファームウェアのバージョン
 
-デバイスに新しいファームウェア バージョンをインストールするときに、対応するインストールされているバージョンの Microsoft Teams アプリ、ポータル サイト、および管理エージェントを確認できます。 [Included product **release** ] 列で製品リリースを見つけ、前の [App versions] テーブルで製品 **リリースを検索** します。
+デバイスに新しいファームウェア バージョンをインストールするときに、対応するインストール済みバージョンの Microsoft Teams アプリ、ポータル サイト、および管理エージェントを確認できます。 [Included product **release** ] 列で製品リリースを見つけ、前の [App versions] テーブルで製品 **リリースを検索** します。
 
 | デバイス モデル  | ファームウェアのバージョン  | 含まれる製品リリース  |
 |:----------------|:--------------|:----------------------------|
@@ -143,6 +143,10 @@ Microsoft は、認定期間を超えて、認定期間の終了後 2 年間、�
 | Yealink VP59   | `91.15.0.87`  | 2022 Update #1     |
 | Yealink CP960  | `73.15.0.150`  | 2022 Update #1         |
 | Yealink MP52 | `145.15.0.25`  | 2022 Update #1         |
+| Poly Trio C60  | `7.1.4.0250 ` | 2021 Update #3C  |
+| Poly CCX600    | `7.1.4.0253  `| 2021 Update #3C  |
+| Poly CCX500    | `7.1.4.0253  `| 2021 Update #3C  |
+| Poly CCX400    | `7.1.4.0253  `| 2021 Update #3C  |
 | Poly Trio C60   | `7.1.4.0201`  | 2021 Update #3B                        |
 | Poly CCX400/CCX500/CCX600   | `7.1.4.0200`  | 2021 Update #3B                 |
 |Audiocodes C448HD  | `1.14.449` | 2021 Update #3  |
@@ -192,11 +196,11 @@ Microsoft は、認定期間を超えて、認定期間の終了後 2 年間、�
 
 ### <a name="product-release-information-for-teams-rooms-on-android"></a>Android 版 Teams Rooms の製品リリース情報
 
-Android アプリとファームウェアのTeamsの最新バージョンを次に示します。
+Android アプリとファームウェアTeamsの最新バージョンを次に示します。
 
 #### <a name="app-versions"></a>アプリのバージョン
 
-| 製品リリース| リリース日 | Microsoft Teams アプリのバージョン | ポータル サイトバージョン | 管理エージェントのバージョン |
+| 製品リリース| リリース日 | Microsoft Teams アプリのバージョン | ポータル サイト バージョン | 管理エージェントのバージョン |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
 | 2021 Update #2A | 2021 年 7 月 15 日  |`1449/1.0.96.2021070803`|  `5.0.5088.0` |  `1.0.0.202104280345.product version code: 262` |
 | 2021 Update #2 | 2021 年 6 月 28 日  |`1449/1.0.96.2021051904`|  `5.0.5088.0` |  `1.0.0.202104280345.product version code: 262` |
@@ -208,7 +212,7 @@ Android アプリとファームウェアのTeamsの最新バージョンを次�
 
 #### <a name="firmware-versions"></a>ファームウェアのバージョン
 
-デバイスに新しいファームウェア バージョンをインストールする場合は、[Included **product release**] 列で製品リリースを見つけることで、インストールされている対応する Microsoft Teams アプリ、ポータル サイト、および管理エージェントのバージョンを確認できます。 次に、上記の App **versions テーブルで製品リリースを** 確認します。
+デバイスに新しいファームウェア バージョンをインストールするときに、[Included **product release**] 列で製品リリースを見つけることで、インストールされるバージョンである対応する Microsoft Teams アプリ、ポータル サイト、および管理エージェントを特定できます。 次に、上記の App **versions テーブルで製品リリースを** 確認します。
 
 | デバイス モデル  | ファームウェアのバージョン | 含まれる製品リリース |
 |:--------------|:-----------------|:-------------------------|

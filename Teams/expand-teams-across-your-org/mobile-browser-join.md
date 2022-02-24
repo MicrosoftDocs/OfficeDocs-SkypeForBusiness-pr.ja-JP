@@ -21,23 +21,23 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: hafarmer
 description: モバイル ブラウザーでの仮想アクセスTeamsの参加エクスペリエンスについて説明します。
-ms.openlocfilehash: 83bbe6e2db29a1ed43bbe1646f8545072dac7d2d
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.openlocfilehash: 698a87ba633892f5ebef864c60c101084aa296f1
+ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763711"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62929322"
 ---
 # <a name="manage-the-join-experience-for-teams-virtual-visits-on-mobile-browsers"></a>モバイル ブラウザーで仮想アクセスTeamsの参加エクスペリエンスを管理する
 
 Microsoft Teamsをダウンロードすることなく、モバイル デバイスで簡単に予定に参加Teams。 よりシームレスなエクスペリエンスを実現するには、出席者はモバイル ブラウザーから、医療訪問、財務相談、教育者のオフィス時間などの予定に参加できます。 出席者は、Android または iOS モバイル Teamsアプリをインストールする必要があります。
 
-モバイル ブラウザーに参加すると、出席者がモバイル デバイスから予定に参加すると、ユーザーはモバイル デバイスをダウンロードTeams。 代わりに、Teamsブラウザーが開き、出席者は [今すぐ参加] を **選択して** 参加できます。 この機能では、Teams が出席者のモバイル デバイスに既にインストールされている場合、Teams はアプリではなくモバイル ブラウザーで開きます。
+モバイル ブラウザーに参加すると、出席者がモバイル デバイスから予定に参加すると、ユーザーはモバイル デバイスをダウンロードTeams。 代わりに、Teamsブラウザーで [今すぐ参加] を選択して参加できます。 この機能では、Teams が出席者のモバイル デバイスに既にインストールされている場合、Teams はアプリではなくモバイル ブラウザーで開きます。
 
 現在、モバイル ブラウザーの参加は、次の予定を通じてスケジュールされている予定で使用できます。
 
 - [Bookings アプリ](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-us&rs=en-us&ad=us#PickTab=Bookings)
-- Microsoft Teams Electronic Health Records (EHR) コネクタ
+- Microsoft Teams電子正常性レコード (EHR) コネクタ
 
   - [Cerner EHR との統合](healthcare/ehr-admin-cerner.md)
   - エピック [EHR との統合](healthcare/ehr-admin.md)
@@ -48,11 +48,11 @@ Microsoft Teamsをダウンロードすることなく、モバイル デバイ�
 
 組織内のスケジューラは、特定の予定の種類と Bookings アプリの個々の予定に対してこの機能を有効にできます。
 
-この機能を有効にすると、出席者に送信される確認メールまたは SMS テキストに、モバイル ブラウザーで Teams を開く会議参加リンクが含まれる。 Android モバイル デバイスでは、Chrome Teamsが開きます。 iOS モバイル デバイスでは、Safari Teamsが開きます。
+この機能を有効にすると、出席者に送信される確認メールまたは SMS テキストに、モバイル ブラウザーで Teams を開く会議への参加リンクが含まれる。 Android モバイル デバイスでは、Chrome Teamsが開きます。 iOS モバイル デバイスでは、Safari Teams開きます。
 
 #### <a name="turn-on-mobile-browser-join-for-an-appointment-type"></a>予定の種類に対してモバイル ブラウザー参加を有効にする
 
-[Bookings]  >  で、[設定 **Appointment の** 種類] に移動し、[](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887)予定の種類を選択して、[モバイル ブラウザーから出席者の参加を許可する **] をオンにします**。 これにより、この種類のすべての予定に対してモバイル ブラウザーに参加できます。
+[Bookings]  >  で、[設定 **Appointment の** 種類] に移動し、[](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887)予定の種類を選択して、[モバイル ブラウザーから出席者の参加を許可する] **をオンにします**。 これにより、この種類のすべての予定に対してモバイル ブラウザーに参加できます。
 
 :::image type="content" source="../media/mobile-browser-join-bookings-appointment-type.png" alt-text="Bookings アプリの予定の種類の [モバイル ブラウザーから出席者の参加を許可する] 設定のスクリーンショット":::
 
@@ -66,9 +66,9 @@ Microsoft Teamsをダウンロードすることなく、モバイル デバイ�
 
 セットアップは、ユーザーまたはスタッフが必要とします。
 
-**Cerner EHR** との統合: Teams EHR コネクタは、モバイルを介して仮想予定に参加する患者をサポートします。 予約の時点で、患者は SMS テキスト メッセージのリンクをタップして参加できます。 患者が必要なブラウザーを選択し、そのTeams開きます。
+**Cerner EHR** との統合: Teams EHR コネクタは、モバイル経由で仮想予定に参加する患者をサポートします。 予約の時点で、患者は SMS テキスト メッセージのリンクをタップして参加できます。 患者は必要なブラウザーを選択し、そのTeamsで開きます。
 
-**エピック EHR** との統合: Teams EHR コネクタは、MyChart Web およびモバイルを介して仮想予定に参加する患者をサポートします。 予約の時点で、患者は [仮想訪問の開始] ボタンを使用して MyChart から **訪問を開始** できます。 患者が必要なブラウザーを選択し、そのTeams開きます。
+**エピック EHR** との統合: Teams EHR コネクタは、MyChart Web およびモバイルを介して仮想予定に参加する患者をサポートします。 予約の時点で、患者は [仮想訪問の開始] ボタンを使用して MyChart から **訪問を開始** できます。 患者は必要なブラウザーを選択し、そのTeamsで開きます。
 
 ## <a name="supported-mobile-browsers"></a>サポートされているモバイル ブラウザー
 
@@ -86,14 +86,14 @@ Microsoft Teamsをダウンロードすることなく、モバイル デバイ�
 
 ## <a name="things-to-consider"></a>考慮すべき点
 
-アクセスを行うスタッフ メンバーは、Teams デスクトップ、モバイル、または Web クライアントから、モバイル ブラウザーから参加する出席者と画面を共有できます。 ただし、出席者はモバイル ブラウザーから画面を共有できない。
+アクセスを実施するスタッフ メンバーは、Teams デスクトップ、モバイル、または Web クライアントから、モバイル ブラウザーから参加する出席者と画面を共有できます。 ただし、出席者はモバイル ブラウザーから画面を共有できない。
 
 > [!NOTE]
-> Teams の将来のリリースでは、会議参加エクスペリエンスにさらに機能が追加されます。そのため、最新の情報を確認してください。 Teams 機能の最新情報を入手するには、「[Microsoft 365 ロードマップ](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)」を参照してください。
+> Teams の今後のリリースでは、会議参加エクスペリエンスにさらに機能が追加されます。そのため、最新の情報を確認してください。 Teams 機能の最新情報を入手するには、「[Microsoft 365 ロードマップ](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)」を参照してください。
 
 ## <a name="related-articles"></a>関連記事
 
-- [仮想アクセス (Teams Bookings アプリ)](bookings-virtual-visits.md)
+- [Bookings アプリTeams仮想アクセス](bookings-virtual-visits.md)
 - [Bookings の予定の種類を作成する](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887)
 - [Bookings の予定に出席者として参加する](https://support.microsoft.com/office/join-a-bookings-appointment-as-an-attendee-95cea12d-2220-421f-a663-6efb20913c7f)
 - [仮想アクセスと Teams - Cerner EHR への統合](healthcare/ehr-admin-cerner.md)
