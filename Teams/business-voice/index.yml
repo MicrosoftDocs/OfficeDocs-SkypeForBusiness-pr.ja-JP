@@ -58,7 +58,7 @@ productDirectory:
         - url: /partner-center/
           text: パートナー センターから Microsoft 365 Business を取得する
         - url: 'https://cloudpartners.transform.microsoft.com/products/m365-business-voice-partner-playbook'
-          text: Microsoft 365 Teams 電話プラン バンドル パートナー プレイブックを使用した通話プランの作成
+          text: Microsoft 365 Teams 電話プラン バンドルパートナー プレイブックを使用した追加
     - title: サポートが必要な場合
       imageSrc: 'https://docs.microsoft.com/office/media/icons/users-people.svg'
       links:
@@ -71,8 +71,8 @@ productDirectory:
       links:
         - url: ../cloud-voice-landing-page.md
           text: Microsoft Teams 管理者向けドキュメント
-        - url: 'https://microsoftteams.uservoice.com/'
-          text: Microsoft Teams UserVoice のフィードバック
+        - url: 'https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472'
+          text: Microsoft Teamsフィードバック ポータル
         - url: 'https://support.office.com/teams'
           text: Microsoft Teams クライアント向けドキュメント
         - url: /office365/admin/

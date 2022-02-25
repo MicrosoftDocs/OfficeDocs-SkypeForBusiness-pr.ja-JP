@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: チーム メンバーをチャネルのモデレーターとして追加する方法を含む、Microsoft Teams でモデレート用にチャネルを設定する方法について説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9fd15b6d7eeecf0f1b7e6ec25e33236f50fd83b3
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 4441eea880b5dcf1d71ca11f0ad32cf148f90cf4
+ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62400851"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "62960009"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Microsoft Teams でチャネルのモデレーションを設定および管理する
 
@@ -62,7 +62,7 @@ ms.locfileid: "62400851"
 
 Teams でチャネルに移動し、**[その他のオプション...]** > **[チャネルを管理]** とクリックします。 ここでは、モデレーションを有効または無効にしたり、チーム メンバーをモデレーターとして追加したり、設定を行ったりすることができます。
 
-チャネルのモデレーションは、チャネルごとの設定です。 チャネルのモデレーションのテナント レベルの設定はありません。 テナント レベルのチャネルのモデレーション設定を追加する場合は、[Teams UserVoice](https://microsoftteams.uservoice.com/) で要求します。
+チャネルのモデレーションは、チャネルごとの設定です。 チャネルのモデレーションのテナント レベルの設定はありません。 テナント レベルのチャネル モデレーション設定を追加する場合は、フィードバック ポータルで要求Teams[します](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)。
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 

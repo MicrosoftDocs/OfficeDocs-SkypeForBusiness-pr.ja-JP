@@ -9,21 +9,26 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
-  - CSH
+- CSH
 ms.custom:
-  - ms.teamsadmincenter.meetingsettings.invitationurls
-  - ms.teamsadmincenter.meetingsettings.network.ports
-  - ms.teamsadmincenter.meetingsettings.overview
+- ms.teamsadmincenter.meetingsettings.invitationurls
+- ms.teamsadmincenter.meetingsettings.network.ports
+- ms.teamsadmincenter.meetingsettings.overview
 ms.collection:
-  - M365-collaboration
-  - m365initiative-meetings
+- M365-collaboration
+- m365initiative-meetings
 description: 組織のユーザーがスケジュールする Teams 会議の設定を管理する方法を説明します。
+ms.openlocfilehash: 294bbac570d1f1741449c7c81cb9389b20cdcdc6
+ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
+ms.translationtype: HT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "62960029"
 ---
-
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams で会議の設定を管理する
 
 管理者は Teams 会議の設定を使用することにより、Teams 会議への匿名ユーザーの参加可否、会議への招待状のカスタマイズ、およびサービスの品質 (QoS) をオンにするかどうかの制御を行え、リアルタイム トラフィックのポート範囲を設定することができます。 これらの設定は、組織のユーザーがスケジュールするすべての Teams 会議に適用されます。 これらの設定は、Microsoft Teams 管理センターの [**会議**] > [**会議設定**] から管理します。
@@ -67,6 +72,14 @@ description: 組織のユーザーがスケジュールする Teams 会議の設
 > [!NOTE]
 > 組織ごとに匿名参加がオフになっている組織に開催者ごとのポリシーを使用するには、管理者はポリシーを作成し、ユーザーに割り当てる必要があります。 これを行う方法については、「[Microsoft Teams での会議ポリシーの管理](/microsoftteams/meeting-policies-overview)」を参照してください。
 
+### <a name="blocking-anonymous-join-for-specific-client-types"></a>特定のクライアントの種類の匿名参加をブロックする
+
+匿名ユーザーが会議への参加を許可されている場合は、Teams クライアントまたは [Azure Communication Services](/azure/communication-services/)を使用して構築されたカスタム クライアントのいずれかを使用できます。 管理者は、[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) の **-BlockedAnonymousJoinClientTypes** パラメーターを使用して、選択したクライアントの種類をブロックできます。
+
+値は次のいずれかです。
+- Null (既定値)。 すべてのクライアントの種類が許可されます。
+- Acs。 [Azure Communication Services](/azure/communication-services/) を使用して構築されたカスタム クライアントをブロックします。
+- Teams。 Teams クライアントをブロックします。
 
 ## <a name="allow-anonymous-users-to-interact-with-apps-in-meetings"></a>匿名ユーザーが会議でアプリを操作できるようにする
 
