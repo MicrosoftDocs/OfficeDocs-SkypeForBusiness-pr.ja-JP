@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: ポート注文の概要と、サービス プロバイダーからサービス プロバイダーに電話番号を転送する方法Teams。
-ms.openlocfilehash: b17e0dea6181c111355a865bf1f70c07bfcb9258
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: bb9ebd91b1f5a08fb07eff0f469be4496714ecfc
+ms.sourcegitcommit: 766199440a152d97c95c2c45b7c4654815e64d9a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62398421"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "62963418"
 ---
 # <a name="whats-a-port-order"></a>番号移行注文について
 
@@ -65,7 +65,7 @@ ms.locfileid: "62398421"
 
 - Vonage や RingCentral などの電話会社からの VoIP 電話番号。
 
-- Skype for Businessハイブリッド電話番号を使用します。 これらの番号を転送する場合は、 までメールでお問い合わせください <ptn@microsoft.com>。
+- Skype for Businessハイブリッド電話番号を作成します。 これらの番号を転送する場合は、 までメールでお問い合わせください <ptn@microsoft.com>。
 
 **転送できない:**
   
@@ -91,7 +91,7 @@ ms.locfileid: "62398421"
 
 電話番号を新しい電話番号にTeams、すべての電話番号または電話番号の一部を転送するオプションがあります。
   
-- **Full-port** これは、すべての番号を現在のサービス プロバイダーからサービス プロバイダーに転送Teams。 転送する電話番号を求めるメッセージが表示された場合は、請求先電話番号  (BTN) とアカウントの他のすべての電話番号を含める必要があります。
+- **Full-port** これは、すべての番号を現在のサービス プロバイダーから現在のサービス プロバイダーにTeams。 転送する電話番号を求めるメッセージが表示された場合は、請求先電話番号  (BTN) とアカウントの他のすべての電話番号を含める必要があります。
 
     たとえば、BTN が  *+1 425-555-1234*  で、25 の電話番号 (*+1 425-555-1235 ~ 1259*) を移植するとします。 下の手順に従って番号を移行する場合、次のように入力します: **+14255551234 - +14255551259** 。
 
@@ -112,13 +112,13 @@ ms.locfileid: "62398421"
 
 - 携帯電話番号
 
-- 電話会議に使用できるサービス番号は、Microsoft 365またはOffice 365。
+- 電話会議で使用できるサービス番号は、Microsoft 365またはOffice 365。
 
 これらの種類の番号ごとに番号の移植要求を送信する方法の詳細を次に示します。
   
-- **電話提供される** 番号には、各運送業者との番号に対して一意の移植要求が必要です。
+- **電話で提供** される番号には、各運送業者との番号に対して一意の移植要求が必要です。
 
-- 市 **番** (800、844、855、866、877、888 など) を含む無料電話番号は、他の種類の番号を含む番号の移植要求に含めません。 これらの無料電話番号を移植するには、ポート注文 [を手動で送信する必要があります](manually-submit-port-order.md)。 これらの番号は、管理センターのMicrosoft Teamsで行う必要があります。 詳細については、「[組織のために電話番号を管理する](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)」をご覧ください。
+- 市 **番** (800、844、855、866、877、888 など) を含む無料電話番号は、他の種類の番号を含む番号の移植要求に含めません。 これらの無料電話番号を移植するには、ポート注文 [を手動で送信する必要があります](manually-submit-port-order.md)。 これらの番号は、管理センターの Microsoft Teamsに移植できない。 詳細については、「[組織のために電話番号を管理する](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)」をご覧ください。
 
     移植する国と電話番号の種類に適切な承認状 (LOA) を使用することが重要です。 必要な [LOA は、こちらからダウンロードできます](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
@@ -136,13 +136,17 @@ ms.locfileid: "62398421"
 ## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>ユーザー (加入者番号) の電話番号をサービス番号に変更できますか?
 <a name="bkmk_type_1"> </a>
 
-はい、できます。 変換したい組織のテナント GUID と電話番号を含んでいるサービス要求を送信するだけです。 これを行うには、「組織の [電話番号を管理する」を参照してください](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+はい、できます。 変換したい組織のテナント GUID と電話番号を含んでいるサービス要求を送信するだけです。 これを行うには、「組織の [電話番号を管理する」を参照してください。](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 ## <a name="can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier"></a>電話番号を別の電話サービス プロバイダー Teams携帯電話会社に移植できますか?
 
-電話番号を別の運送業者にTeamsするには、新しい運送業者に要求を送信する必要があります。 また、サポート ケースを開いて移植 PIN を設定する必要があります。 サポートを受け取る方法については、「サポートを受け取る [」を参照してください](/microsoft-365/business-video/get-help-support)。 
+電話番号を別の運送業者にTeamsするには、新しい運送業者に要求を送信する必要があります。 また、管理センターでポート PIN を設定Microsoft Teams必要があります。
+
+移植 PIN を定義するには、Microsoft Teams  >  管理センターの左側のナビゲーションで 、[音声 **電話** 番号] に移動し、ページの右上隅にある [移植 PIN の管理] を選択し、10 桁の PIN を入力します。
 
 新しい運送業者から移植要求を受け取った場合は、定義した PIN の入力を求めるメッセージが表示されます。
+
+PIN の設定に関してさらに詳しい情報が必要な場合は、 [電話番号サービス チームにお問い合わせください。](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
 
 ## <a name="common-mistakes-to-watch-out-for"></a>注意すべきよくあるミス
 <a name="bkmk_type_1"> </a>

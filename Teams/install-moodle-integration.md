@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95b368bab33818332ca9c2d0eafcb1966fffb3af
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.openlocfilehash: 1c6118fe7f9ffe00eb9b8cb657d1a6ea3221311b
+ms.sourcegitcommit: 766199440a152d97c95c2c45b7c4654815e64d9a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62363043"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "62963388"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>Microsoft Teams と統合された Moodle のインストール
 
@@ -41,7 +41,7 @@ IT 管​​理者がこの統合を簡単に設定できるように、オー�
 * 同期された各チームへの Moodle タブと Moodle アシスタント ボットの自動インストール。 (近日公開予定)
 * Moodle アプリをプライベート Teams App Store にワンクリックで公開します。 (近日公開予定)
 
-この統合で提供される機能の詳細については、「Moodle とアプリの統合のインストール」[をMicrosoft Teams](/microsoftteams/platform/resources/moodleinstructions)。
+この統合で提供される機能の詳細については、「Moodle と Microsoft Teams」を[参照してください](/microsoftteams/platform/resources/moodleinstructions)。
 
 ## <a name="prerequisites"></a>前提条件
 
@@ -117,7 +117,7 @@ Moodle プラグインのインストール方法の詳細については、「[
     * 「**ユーザーを Azure AD と同期する**」セクションで、環境に適用されるもののチェックボックスを選択します。 通常、少なくとも次のものを選択します。
         * Azure AD のユーザーの Moodle でアカウントを作成する
         * Azure AD のユーザーの Moodle ですべてのアカウントを更新する
-    * [**ユーザー作成制限]** セクションでは、Moodle に同期Azure ADを制限するフィルターを設定できます。
+    * [**ユーザー作成の制限**] セクションで、Moodle に同期Azure ADを制限するフィルターを設定できます。
     * 「**ユーザーのフィールド マッピング**」セクションでは、Azure AD から Moodle ユーザー プロファイルへのフィールド マッピングをカスタマイズできます。
     * 「**Teams の同期**」セクションでは、既存の Moodle コースの一部またはすべてのグループ (つまり Teams) を自動的に作成することを選択できます。
 1. cron ジョブを検証するには (最初の実行を希望する場合は手動で実行)、「**ユーザーを Azure AD と同期する**」セクションの **[スケジュールされたタスク管理ページ]** リンクをクリックします。 これにより、**[スケジュールされたタスク]** ページに移動します。
@@ -127,7 +127,7 @@ Moodle プラグインのインストール方法の詳細については、「[
     * OpenID Connect を有効にするには、**[認証の管理]** リンクをクリックし、**OpenId Connect** 行が灰色表示されている場合は目のアイコンをクリックします。
     * 次に、フレームの埋め込みを有効にする必要があります。 **HTTP セキュリティ** リンクをクリックしてから、**[フレームの埋め込みを許可する]** の横にあるチェックボックスをクリックします。
     * 次の手順は、Moodle API 機能を有効にする Web サービスを有効にすることです。 **[高度な機能]** リンクをクリックし、**[Web サービスを有効にする]** の横のチェックボックスがオンになっていることを確認します。
-    * 最後に、外部サービスまたはサービスの外部サービスを有効Microsoft 365必要Office 365。 次に、**[外部サービス]** リンクをクリックします。
+    * 最後に、外部サービスに対して外部サービスを有効Microsoft 365必要Office 365。 次に、**[外部サービス]** リンクをクリックします。
         * **Moodle Office 365 Web サービス** 行の **[編集]** をクリックします。
         * **[有効]** の横にあるチェックボックスをオンにして、**[変更の保存]** をクリックします
     * 次に、認証されたユーザー権限を編集して、Web サービス トークンを作成できるようにする必要があります。 **[役割「認証されたユーザー」の編集]** リンクをクリックします。 下にスクロールして、**[Web サービス トークンを作成する]** 機能を見つけ、**[許可]** チェックボックスをオンにします。
@@ -187,6 +187,6 @@ Microsoft Teams 用の無料の Moodle アシスタント ボットは、教師�
 
 手順は以上です。 あなたとあなたのチームは、Microsoft Teams から直接 Moodle コースで作業を始めることができます。
 
-機能の要求やフィードバックを共有するには、[[ユーザーからのフィードバック] ページ](https://microsoftteams.uservoice.com/forums/916759-moodle)にアクセスしてください。
+機能に関するご要望やフィードバックをお寄せください。フィードバック ポータルに [アクセスしてください](https://feedbackportal.microsoft.com)。
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
