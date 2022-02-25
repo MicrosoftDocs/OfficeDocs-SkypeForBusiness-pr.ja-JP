@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams でプライベート チャネルを使用および管理する方法について説明します。
-ms.openlocfilehash: edf3fc2933bf51f3c5966fa8e021fe0ff50de39b
-ms.sourcegitcommit: 2ddbaecb0bb7776dc5ab88727b1335e7e46d3704
+ms.openlocfilehash: 2ff886835258d9508e2cbe7c977ab5437d87129e
+ms.sourcegitcommit: e9b0a274fdfee3d5bc8211cb099155546b281fe0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "62881552"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62926310"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams のプライベート チャネル
 
@@ -102,9 +102,9 @@ Teams は、プライベート チャネル サイトのライフ サイクル�
 >
 > [Microsoft Teams に接続されたチーム サイト](/SharePoint/teams-connected-sites)の管理についての詳細情報をご覧ください。
 
-## <a name="private-channel-message-compliance-records"></a>プライベート チャネル メッセージのコンプライアンス レコード
+## <a name="compliance-copies-of-private-channel-messages"></a>プライベート チャネル メッセージのコンプライアンス コピー
 
-プライベート チャネルで送信されたメッセージのレコードは、グループのメールボックスではなく、すべてのプライベート チャネル メンバーのメールボックスに配信されます。 レコードのタイトルは、送信元のプライベート チャネルが示されるように書式設定されています。
+プライベート チャネルで送信されたメッセージのコンプライアンス コピーは、グループのメールボックスではなく、すべてのプライベート チャネル メンバーのメールボックスに配信されます。 コンプライアンス コピーのタイトルは、送信元のプライベート チャネルが示されるように書式設定されています。
 
 プライベート チャネル メッセージの電子情報開示検索の実行の詳細については、「[プライベート チャネルの電子情報開示](ediscovery-investigation.md#ediscovery-of-private-channels)」を参照してください。
 
