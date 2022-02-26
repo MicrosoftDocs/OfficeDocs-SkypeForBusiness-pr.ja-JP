@@ -17,12 +17,12 @@ description: 法的手続きのためにすべての電子的に保存された�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b78ec3ad6741d2c7f83d7732400d5f1154747d5e
-ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
+ms.openlocfilehash: 5a35afa53a8f94a5d0106e67d2f9f87eacfaca63
+ms.sourcegitcommit: edf68b7ac4f1861259a0990157ee6ae84f68ca42
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "62929162"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "62974464"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Microsoft Teams のコンテンツに対して電子情報開示の調査を行う
 
@@ -47,7 +47,7 @@ ms.locfileid: "62929162"
 |絵文字、GIF、ステッカー | Yes | |
 |フィード通知 | いいえ | |
 |インライン 画像 | Yes | |
-|ループ コンポーネント| いいえ|ループ コンポーネントを含むチャット メッセージは検索可能です。 ただし、ループ コンポーネントの内容は検索用にインデックスが作成されないので、検索結果には返されません。 ループ コンポーネントを含むメッセージが検索結果に含まれている場合は、ループ コンポーネントの内容を表示できます。  |
+|ループ コンポーネント| Yes|ループ コンポーネント内のコンテンツは、ループ コンポーネントを送信するユーザーの OneDrive for Business アカウントに格納されている .fluid ファイルに保存されます。 つまり、ループ コンポーネント内のOneDriveを検索するときに、データ ソースとしてデータ ソースを含める必要があります。 |
 |IM 会話を会議する | Yes | |
 |会議メタデータ<sup>1</sup> | Yes |  |
 |チャネルの名前 | Yes | |
@@ -81,7 +81,7 @@ ms.locfileid: "62929162"
 
 電子情報開示調査の実施の詳細については、「Core [eDiscovery の概要」を参照してください](/microsoft-365/compliance/get-started-core-ediscovery)。
 
-Microsoft Teams電子情報開示のエクスポート出力に、IM または会話Excelとして表示されます。 エクスポートしたメッセージを`.pst`Outlookファイルを開き、それらのメッセージを表示できます。
+Microsoft Teams、電子情報開示のエクスポート出力に IM または会話Excel表示されます。 ファイルをエクスポートした後`.pst`、Outlookファイルを開き、それらのメッセージを表示できます。
 
 チームの .pst ファイルを表示すると、すべての会話が [会話履歴] の [チーム チャット] フォルダーに置きます。 メッセージのタイトルには、チーム名とチャネル名が含まれている。 たとえば、次の図は、製造仕様チームの Project 7 標準チャネルにメッセージを送信した Bob からのメッセージを示しています。
 
@@ -91,9 +91,9 @@ Microsoft Teams電子情報開示のエクスポート出力に、IM または�
 
 ## <a name="ediscovery-of-private-channels"></a>プライベート チャネルの電子情報開示
 
-プライベート チャネルで送信されたメッセージのコンプライアンス コピーは、グループ メールボックスではなく、すべてのプライベート チャネル メンバーのメールボックスに配信されます。 コンプライアンス コピーのタイトルは、送信されたプライベート チャネルを示す形式です。
+プライベート チャネルで送信されたメッセージのコンプライアンス コピーは、グループのメールボックスではなく、すべてのプライベート チャネル メンバーのメールボックスに配信されます。 コンプライアンス コピーのタイトルは、送信元のプライベート チャネルが示されるように書式設定されています。
 
-各プライベート チャネルには、親チーム サイトとは別の独自の SharePoint サイトが用意されています。プライベート チャネル内のファイルは、親チームとは独立して管理されます。
+各プライベート チャネルには、親チーム サイトとは別の独自の SharePoint サイトが存在します。プライベート チャネル内のファイルは、親チームとは独立して管理されます。
 
 Teamsチーム内の 1 つのチャネルの電子情報開示検索をサポートしないので、チーム全体を検索する必要があります。 プライベート チャネル内のコンテンツの電子情報開示検索を実行するには、チーム全体、プライベート チャネルに関連付けられているサイト コレクション (ファイルを含める)、プライベート チャネル メンバーのメールボックス (メッセージを含める) を検索します。
 
@@ -128,7 +128,7 @@ Teamsチーム内の 1 つのチャネルの電子情報開示検索をサポー
 
 ### <a name="include-private-channel-messages-in-an-ediscovery-search"></a>電子情報開示検索にプライベート チャネル メッセージを含める
 
-これらの手順を実行する前に、[PowerShell](teams-powershell-overview.md) モジュールの最新バージョンTeams確認してください。
+これらの手順を実行する前に、PowerShell モジュールの最新バージョンが[インストールTeams確認](teams-powershell-overview.md)してください。
 
 1. 次のコマンドを実行して、検索するプライベート チャネルを含むチームのグループ ID を取得します。
 
@@ -137,7 +137,7 @@ Teamsチーム内の 1 つのチャネルの電子情報開示検索をサポー
    ```
 
    > [!TIP]
-   > パラメーターを **指定せずに Get-Team** コマンドレットを実行し、組織内のすべてのTeams一覧を表示します。 一覧には、すべてのチームのグループ ID と MailNickName が含まれている。
+   > パラメーターを **指定せずに Get-Team** コマンドレットを実行して、組織内のすべてのTeams一覧を表示します。 一覧には、すべてのチームのグループ ID と MailNickName が含まれている。
 
 2. 次のコマンドを実行して、チーム内のプライベート チャネルの一覧を取得します。 手順 1 で取得したチームのグループ ID を使用します。
 
@@ -159,7 +159,7 @@ Teamsチーム内の 1 つのチャネルの電子情報開示検索をサポー
 
 ゲスト ユーザーのコンテンツを検索するには:
 
-1. Connect PowerShell をAzure ADします。 手順については、「PowerShell を使用したConnect」の「Azure Active Directory PowerShell のConnect[」Microsoft 365参照してください](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)。 前のトピックの手順 1 と手順 2 を必ず完了してください。
+1. Connect PowerShell をAzure ADします。 手順については、「PowerShell を使用したConnect」の「Azure Active Directory PowerShell を使用したConnect[」Microsoft 365参照してください](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)。 前のトピックの手順 1 と手順 2 を必ず完了してください。
 
 2. PowerShell に正常にAzure ADしたら、次のコマンドを実行して、組織内のすべてのゲスト ユーザーのユーザー プリンシパル名 (UPN) を表示します。 手順 4 で検索を作成するときに、ゲスト ユーザーの UPN を使用する必要があります。
 
@@ -214,7 +214,7 @@ Teams チャネル、1 対 1 のチャット、および 1xN チャットのア�
 
 コンテンツ検索結果でカードコンテンツを表示すると、そのコンテンツがメッセージの添付ファイルとして表示されます。 添付ファイルの名前は `appname.html`です。ここで `appname` は、カードコンテンツを生成したアプリの名前です。 次のスクリーンショットは、(Asana という名前のアプリの) カード コンテンツが検索の結果Teamsに表示される方法を示しています。
 
-**カードのコンテンツ Teams**
+**[カードコンテンツ] Teams**
 
 ![チャネル メッセージのTeamsコンテンツ。](media/CardContentTeams.png)
 
@@ -223,7 +223,7 @@ Teams チャネル、1 対 1 のチャット、および 1xN チャットのア�
 ![コンテンツ検索の結果と同じカード コンテンツ。](media/CardContentEdiscoverySearchResults.png)
 
 > [!NOTE]
-> 現時点では、カードコンテンツの画像を検索結果に表示するには (https://teams.microsoft.com)前のスクリーンショットのチェックマークなど)、検索結果の表示に使用するのと同じブラウザー セッションの別のタブで Teams にサインインする必要があります。 それ以外の場合は、画像プレースホルダーが表示されます。
+> 現時点では、カードコンテンツの画像を検索結果に表示するには (前のスクリーンショットのチェックマークなど)、(検索結果の表示に使用したのと同じブラウザー セッションの別のタブにある) https://teams.microsoft.com) Teams にサインインする必要があります。 それ以外の場合は、画像プレースホルダーが表示されます。
 
 ## <a name="related-topics"></a>関連項目
 
