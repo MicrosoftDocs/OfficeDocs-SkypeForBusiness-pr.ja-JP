@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: どのセッション ボーダー コントローラー (SBC) がダイレクト ルーティングの認証済みであるかについて説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 69add2b195da03dee69b2a33583b5dbed8f614e8
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: 3805a87171a770298e41337dfdd569c1b7d76985
+ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518929"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63039995"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングが認定されたセッション ボーダー コントローラー
 
@@ -173,9 +173,9 @@ Microsoft は以下の各ベンダーと協力します。
 | [リボン](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 6000. ソフトウェア バージョン: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)   |     &#10004;     |
 | [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/) |  グランドストリーム GXW42xx (V1.0.7.10) を搭載した任意のノード |     &#10004;     |
   
-新機能のアイデアなど、チームに関するフィードバックを提供するには、[Uservoice](https://microsoftteams.uservoice.com) を参照してください。
-
-
-[!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 
 メジャー バージョンに付与された認証に注意してください。 これは、SBC ファームウェアでメジャー バージョンに続く任意の番号のファームウェアがサポートされていることを意味します。
+
+新機能のアイデアなどTeamsに関するフィードバックを提供するには、[Microsoft フィードバック ポータルを参照してください](https://feedbackportal.microsoft.com/)。
+
+

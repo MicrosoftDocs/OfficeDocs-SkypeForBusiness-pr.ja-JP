@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2df5c465c9115dce47ee9e80ea649768606c338f
-ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
+ms.openlocfilehash: 3f26413aa746b37474e7035e313fc8ffff2fb93c
+ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "62918955"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63039955"
 ---
 # <a name="shifts-data-faq"></a>シフト データに関する FAQ
 
@@ -41,7 +41,7 @@ ms.locfileid: "62918955"
 
 ## <a name="can-i-choose-where-shifts-data-is-stored"></a>Shifts データの格納場所を選択できますか?
 
-サブスクリプションを初めてTeams、サブスクリプション レベルで設定されている国または地域を選択します。 Shift は、この選択を受け入れ、そのリージョンをサポートする場合は、Teamsに設定されているロケールとリージョンを使用します。 まだそのリージョンにいない場合は、サポートされている近くのリージョンにデータを格納します。 今後、近くのリージョンに保存されている場合は、既存のデータを、Teams でプロビジョニングされているリージョンに移行する予定です。
+サブスクリプションを初めてTeams、サブスクリプション レベルで設定されている国または地域を選択します。 Shift は、この選択を受け入れ、そのリージョンをサポートする場合は、Teamsに設定されているロケールとリージョンを使用します。 まだそのリージョンにいない場合は、サポートされている近くのリージョンにデータを格納します。 今後は、近くのリージョンに保存されている場合は、既存のデータを、Teams でプロビジョニングされているリージョンに移行する予定です。
 
 ## <a name="can-i-access-and-export-or-delete-a-users-personal-data-in-shifts"></a>Shifts でユーザーの個人データにアクセスしたり、エクスポートまたは削除したりできますか?
 
@@ -49,7 +49,7 @@ ms.locfileid: "62918955"
 
 Microsoft 365 コンプライアンス センター のコンテンツ検索電子情報開示ツールを使用して、スケジュールと時刻のデータを検索およびエクスポートExcel。 その他のすべての Shifts データについては、データのスクリーンショットを取得できます。
 
-詳細については、「[GDPR と CCPA Office 365データサブジェクト要求の詳細」を参照してください](/microsoft-365/compliance/gdpr-dsr-office365)。
+詳細については、「[GDPR と CCPA Office 365データ主体要求の詳細」を参照してください](/microsoft-365/compliance/gdpr-dsr-office365)。
 
 ## <a name="what-happens-to-shifts-data-if-i-turn-off-shifts-for-my-organization"></a>組織で Shifts をオフにした場合、Shifts データは何が起こりますか?
 
@@ -57,11 +57,11 @@ Microsoft 365 コンプライアンス センター のコンテンツ検索電�
 
 テナントを削除すると、保持期間が終了すると、すべての Shifts データが削除されます。
 
-Shifts データのみを削除するオプションはありません。 Teams でチームを削除すると、保持期間の終了後に、そのチームに関連付けられているデータが削除されます。 詳細については、「[データの保持](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview)、削除、および削除」を参照Microsoft 365。
+Shifts データのみを削除するオプションはありません。 Teams でチームを削除すると、保持期間が終了すると、そのチームに関連付けられているデータが削除されます。 詳細については、「[データの保持](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview)、削除、および削除」を参照Microsoft 365。
 
 ## <a name="can-i-recover-a-shifts-schedule-that-was-deleted"></a>削除されたシフト スケジュールを回復できますか?
 
-削除されたスケジュールは、そのスケジュールをMicrosoft 365グループ (またはグループ内のチーム) が復元Teams回復できます。
+削除されたスケジュールをバックアップするグループ (Microsoft 365チーム) が復元された場合は、Teamsできます。
 
 既定では、削除されたMicrosoft 365は 30 日間保持されます。 この 30 日間の期間は"ソフト削除" と呼ばれるため、グループを復元できます。 詳細については、「削除されたグループ[を復元する」Microsoft 365してください](/microsoft-365/admin/create-groups/restore-deleted-group?view=o365-worldwide&tabs=admin-center)。
 
@@ -75,15 +75,11 @@ Teams のアイテム保持ポリシーの詳細については、「Teams の�
 
 現在、ライセンスが取り消されたユーザーのデータを取得する機能は提供されません。 この機能は、現在取り組み中の機能です。
 
-## <a name="is-shifts-supported-in-government-cloud-community-gcc-environments"></a>Government Cloud Community (GCC) 環境ではシフトはサポートされていますか?
-
-シフトは、GCC環境では使用できますが、High 環境GCC DoD 環境では使用できません。
-
 ## <a name="what-type-of-encryption-does-shifts-use-for-data-at-rest-and-in-transit"></a>保存データと転送中のデータには、Shifts でどのような種類の暗号化が使用されますか。
 
 シフト データは、Azure Cosmos DB と Azure Storage によって暗号化されます。 詳細については、「保存時[の Azure データ暗号化」と](/azure/security/fundamentals/encryption-atrest)「[Azure Cosmos DB でのデータ暗号化」を参照してください](/azure/cosmos-db/database-encryption-at-rest)。
 
-シフトは、転送中Microsoft 365暗号化に関するガイドラインに従います。 詳細については、「転送中データ [の暗号化」を参照してください](/compliance/assurance/assurance-encryption-in-transit)。
+シフトは、転送Microsoft 365暗号化に関するガイドラインに従います。 詳細については、「転送中データ [の暗号化」を参照してください](/compliance/assurance/assurance-encryption-in-transit)。
 
 保存データと転送中のデータの暗号化は、SOC2 コンプライアンス監査によって毎年検証されます。
 
@@ -95,7 +91,7 @@ Shifts データの不変コピーは保存されません。 たとえば、マ
 
 シフトには、変更できない特定の側面と、変更できる特定の側面があります。 たとえば、ノートや色などのシフトの詳細は、Shifts アプリでの変更方法と同様に編集できます。 シフト要求は、要求が取り下げ解除されていない限り編集することはできません。
 
-変更されたフィールドを確認するには、Shifts イベントMicrosoft 365監査ログを検索します。 監査ログの Shifts アクティビティに対してログに記録されるイベントの詳細については、「Microsoft 365 アクティビティのシフト」[をTeamsしてください](../../audit-log-events.md#shifts-in-teams-activities)。
+変更されたフィールドを確認するには、Shifts イベントMicrosoft 365監査ログを検索します。 監査ログの Shifts アクティビティに対してログに記録されるイベントの詳細については、「Microsoft 365アクティビティのシフト」[Teamsしてください](../../audit-log-events.md#shifts-in-teams-activities)。
 
 ## <a name="my-organization-uses-a-workforce-management-system-for-scheduling-can-we-integrate-with-and-access-shifts-data"></a>組織では、スケジュール設定に従業員管理システムを使用しています。 Shifts データと統合してアクセスできますか?
 
@@ -105,7 +101,7 @@ Shifts Graph API を使用すると、Shifts データを外部の従業員管�
 
 ## <a name="can-shifts-data-be-deleted-permanently-after-a-specified-period-of-time"></a>Shifts データは、指定した期間後に完全に削除できますか。
 
-現在、Shifts データは削除されるのでは一度も行われず、 [Shifts Graph API を](/graph/api/resources/shift)使用して、Power Apps を使用して、指定[](/powerapps/maker/)した期間データを保持するアプリを作成できます。 ただし、ネイティブではサポートされていません。
+現在、Shifts データは削除されるのでは一度も行われず、 [Shifts Graph API](/graph/api/resources/shift) を使用して、Power Apps を使用して、指定した[](/powerapps/maker/)期間データを保持するアプリを作成できます。 ただし、ネイティブではサポートされていません。
 
 ## <a name="can-shifts-data-be-moved-in-a-tenant-to-tenant-migration"></a>テナント間の移行でシフト データを移動できますか。
 

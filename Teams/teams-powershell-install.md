@@ -13,20 +13,20 @@ ms.collection:
 description: PowerShell コントロールを使用して Microsoft Teams を管理する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: feaed3702173061561e09ccc784bbae3173914d1a030052d56a4aaa79f7986a0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 99af6bc71bdd25375f6165f1e645bf4626dd3123
+ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312455"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63039975"
 ---
 # <a name="install-microsoft-teams-powershell-module"></a>PowerShell モジュールMicrosoft Teamsインストールする
 
-この記事では、PowerShell ギャラリーを使用して powerShell Microsoft Teamsをインストールする方法について説明します。 PowerShell Microsoft Teamsは、すべてのプラットフォームでWindowsされます。 
+この記事では、PowerShell ギャラリーを使用して powerShell Microsoft Teamsをインストールする方法について説明します。 PowerShell Microsoft Teamsは、すべてのプラットフォームでWindowsされます。 Mac と Linux はサポートされていません。
 
 ## <a name="requirements"></a>要件
 
-Microsoft TeamsPowerShell モジュールには、すべてのプラットフォームで PowerShell 5.1 以上が必要です。 オペレーティング システム [で使用できる最新バージョンの PowerShell](/powershell/scripting/install/installing-powershell)   をインストールします。 
+Microsoft Teams PowerShell モジュールでは、すべてのプラットフォームで PowerShell 5.1 以上が必要です。 オペレーティング システム [用の PowerShellavailable](/powershell/scripting/install/installing-powershell)  の最も最新バージョンをインストールします。 
 
 PowerShell のバージョンを確認するには、PowerShell セッション内から次のコマンドを実行します。 
 
@@ -35,7 +35,7 @@ $PSVersionTable.PSVersion
 ```
 PowerShell モジュールのインストールには、Install-Module コマンドレットを使用Microsoft Teamsすることをお勧めします。 
  
-PowerShell ギャラリー (PSGallery) が **PowerShellGet** の信頼できるリポジトリとして構成されていない場合は、PSGallery を初めて使用すると、次のメッセージが表示されます。
+PowerShell ギャラリー (PSGallery) が **PowerShellGet** の信頼できるリポジトリとして構成されていない場合、PSGallery を初めて使用すると、次のメッセージが表示されます。
 
 ```console
 Untrusted repository
@@ -51,9 +51,9 @@ Are you sure you want to install the modules from 'PSGallery'?
 
 ## <a name="installing-using-the-powershellgallery"></a>PowerShellGallery を使用したインストール
 
-Microsoft TeamsPowerShell モジュールは、現在、PowerShell 5.1 で使用Windows。 モジュールをインストールするには、次の手順に従います。 
+Microsoft Teams PowerShell モジュールは、現在、PowerShell 5.1 で使用Windows。 モジュールをインストールするには、次の手順に従います。 
 
-- [5.1 Windows PowerShell に更新](/powershell/scripting/windows-powershell/install/installing-windows-powershell#upgrading-existing-windows-powershell)します。 バージョン 1607 Windows 10を使用している場合は、PowerShell 5.1 が既にインストールされています。 
+- [5.1 Windows PowerShell更新](/powershell/scripting/windows-powershell/install/installing-windows-powershell#upgrading-existing-windows-powershell)します。 バージョン 1607 Windows 10を使用している場合は、PowerShell 5.1 が既にインストールされています。 
 - [4.7.2 .NET Framework以降をインストール](/dotnet/framework/install)します。 
 - 次のコマンドを実行して、最新の PowerShellGet をインストールします。
  
@@ -80,7 +80,7 @@ Connect-MicrosoftTeams
 
 ## <a name="update-teams-powershell-module"></a>PowerShell Teams更新
 
-PowerShell モジュールを更新するには、モジュールのインストールに使用したのと同じ方法を使用する必要があります。 たとえば、最初に Install-Module を使用した場合は [、Update-Module](/powershell/module/powershellget/update-module) を使用して最新バージョンを取得する必要があります。  
+PowerShell モジュールを更新するには、モジュールのインストールに使用したのと同じ方法を使用する必要があります。 たとえば、最初に Install-Module を使用した場合は、 [Update-Module](/powershell/module/powershellget/update-module) を使用して最新バージョンを取得する必要があります。  
 
 ```powershell
 Update-Module MicrosoftTeams
