@@ -19,12 +19,12 @@ description: Teams にクラウド音声機能を展開して、音声、ビデ�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a067488736a1392ac34259ba77518c299c46d203
-ms.sourcegitcommit: faeb8976299375e7658499ff31d25e8ef6003144
+ms.openlocfilehash: 7136ea224b23e29e7b4e669fbe3d364b787193fd
+ms.sourcegitcommit: 71edff2670367082312de59c4e21775682871418
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62224014"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63043355"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議のレコーディング
 
@@ -181,7 +181,23 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 |ユーザーの大半について、文字起こしを無効にし、一方で文字起こしを許可されている特定のユーザーについては選択的に可能とする。 |<ol><li>Global CsTeamsMeetingPolicy が AllowCloudRecording = False に設定されていることを確認する。 <li>大半のユーザーについて、Global CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが AllowCloudRecording = False として設定され、承認されている。 <li>その他のすべてのユーザーには、 CsTeamsMeetingPolicy ポリシーの 1 つが AllowCloudRecording = True に設定され、承認されている。 </ol>|
 
 ### <a name="terms-of-use-acceptance"></a>利用規約への同意
-組織に会議録画ポリシーがあり、会議の録画前にユーザーの同意が必要な場合は、[Azure Active Directory の利用規約](/azure/active-directory/conditional-access/terms-of-use)機能を使用します。 この機能により、ユーザーは Microsoft Teams にアクセスする前に、組織のユーザー ポリシーの条件に同意する必要があります。 この機能は、記録ボタンをクリックすることに特化したものではなく、Teams や他の Microsoft 365 アプリを総合的に使用することに関連するものです。 Microsoft は、Teams や Microsoft 365 を使用する場合の全体的な利用規約に、会議記録に関する情報を追加することを提案します。 
+組織に会議録画ポリシーがあり、会議の録画前にユーザーの同意が必要な場合は、[Azure Active Directory の利用規約](/azure/active-directory/conditional-access/terms-of-use)機能を使用します。 この機能により、ユーザーは Microsoft Teams にアクセスする前に、組織のユーザー ポリシーの条件に同意する必要があります。 この機能は、記録ボタンをクリックすることに特化したものではなく、Teams や他の Microsoft 365 アプリを総合的に使用することに関連するものです。 Microsoft は、Teams や Microsoft 365 を使用する場合の全体的な利用規約に、会議記録に関する情報を追加することを提案します。
+
+### <a name="set-a-custom-privacy-policy-url"></a>カスタム プライバシー ポリシーの URL を設定する
+
+管理者は、Teams の記録と文字起こしのプライバシー ポリシーの URL を、組織のカスタム リンクで更新できます。 これは、[Azure AD 管理センター](https://aad.portal.azure.com)で次の手順を使用して実行できます。
+
+1. Azure AD 管理センターにサインインします。
+1. [**Azure Active Directory** > **のプロパティ**] にアクセスします。
+1. プライバシー ポリシーへのリンクを使用して、**[プライバシーに関する声明の URL]** フィールドを更新します。
+
+> [!NOTE]
+> 組織のこのフィールドをすでに更新している場合は、変更を加える必要はありません。
+
+プライバシー ポリシーの URL を追加すると、デフォルトの Teams 会議の記録と文字起こしのプライバシーに関する声明が、組織から提供された新しい URL に置き換えられます。
+
+> [!NOTE]
+> 組織がホストする Teams 会議に参加する匿名、ゲスト、およびフェデレーションのユーザーには、デフォルトの Teams 会議の記録と文字起こしのプライバシー ポリシーが引き続き適用されます。
 
 ## <a name="permissions-and-storage"></a>アクセス許可とストレージ
 
