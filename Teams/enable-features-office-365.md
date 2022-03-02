@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b87aaae3feeef9552cd64d76bb777cb081a6102e
-ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
+ms.openlocfilehash: b3b16b3015771cd136f3e5ee7333619008ada332
+ms.sourcegitcommit: 5b1d8d6f811fab0b350a09e5187d982f952d0edb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "61055428"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "63047137"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>組織の Microsoft Teams の設定を管理する
 
@@ -34,7 +34,23 @@ ms.locfileid: "61055428"
 
 [Microsoft Teams 管理センター](https://admin.teams.microsoft.com)で、**Teams アプリ** の組織向けアプリを管理します。 たとえば、組織全体または特定の Teams ユーザーが使用できるアプリを制御するポリシーを設定したり、ユーザーにとって最も重要なアプリをピン留めして Teams をカスタマイズしたりすることができます。
 
-詳細については、「[Teams でのアプリの管理設定](admin-settings.md)」をご覧ください。  
+詳細については、「[Teams でのアプリの管理設定](admin-settings.md)」をご覧ください。
+
+### <a name="workflows-in-teams"></a>Teams でのワークフロー
+
+ワークフローを使用すると、Power Automate を使用して反復的なタスクとプロセスを自動化できます。 **アプリのアクセス許可ポリシー** を使用するか、Power Automate をブロックすることで「**アプリの管理**」ページを使用して、Teams での組織のワークフローをオフにすることができます。 この機能は既定でオンになっています。 ワークフローの詳細については、「[ワークフローの参照と追加](https://support.microsoft.com/office/browse-and-add-workflows-4998095c-8b72-4b0e-984c-f2ad39e6ba9a)」を参照してください。
+
+アプリのアクセス許可ポリシーを使用してワークフローをオフにするには、グローバル (組織全体の既定) ポリシーを編集して、ブロックリストに Power Automate を含めるか、許可リストから削除します。
+
+**[アプリの管理]** ページで Power Automate をブロックすることもできます。
+
+1. [**[Teams アプリ]** > **[アプリの管理]**](https://admin.teams.microsoft.com/policies/manage-apps) の順に移動します。
+1. **[Power Automate]** を検索します。
+1. アプリを選択します。
+1. **[状態]** を **[許可]** から **[禁止]** に変更します。
+
+> [!NOTE]
+> ワークフローをオフにすると、Teams アプリ ストア、メッセージ拡張機能、その他のアクション メニューからアプリが非表示になります。 ワークフローをオフにした場合、アクティブなフローも非アクティブになります。
 
 ## <a name="teams-external-access-and-guest-access-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでの Teams の外部アクセスとゲスト アクセスの設定
 
@@ -79,7 +95,7 @@ Microsoft Teams 管理センターで Teams 設定と Teams アップグレー�
 
 ファイル共有オプションおよびファイル保存オプションをオンまたはオフにすることができます。
 
-ユーザーは Teams のチャネルやチャットでクラウド ストレージ サービスを介して、ファイルのアップロードや共有を行うことができます。現時点では、Teams のクラウド ストレージ オプションには、Box、Dropbox、Google ドライブ、Egnyte があります。自分の組織で使用することになるクラウド ストレージ プロバイダのスイッチをオンにします。
+ユーザーは Teams チャネルやチャットでクラウド ストレージ サービスを介してファイルをアップロード、共有できます。 Teams のクラウド ストレージ オプションには、Dropbox、Box、Citrix ファイル、Google Drive、Egnyte が現在含まれています。 組織で使用することになるクラウド ストレージ プロバイダのスイッチをオンにします。
 
 #### <a name="organization"></a>組織
 
