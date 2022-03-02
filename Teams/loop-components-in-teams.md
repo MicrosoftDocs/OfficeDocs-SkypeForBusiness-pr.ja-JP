@@ -1,5 +1,5 @@
 ---
-title: Teams のループ コンポーネントの概要
+title: ループ コンポーネントの概要 (Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -18,19 +18,19 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 660ecd7542eadd56b284642895e5da15a1cdd434
-ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
+ms.openlocfilehash: 3f9ca97a0088c703dc482d69406a9e9c2c8b2a22
+ms.sourcegitcommit: 71edff2670367082312de59c4e21775682871418
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "62918941"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63043375"
 ---
-# <a name="overview-of-loop-components-in-teams"></a>Teams のループ コンポーネントの概要
+# <a name="overview-of-loop-components-in-teams"></a>ループ コンポーネントの概要 (Teams
 
-チャット内のループ Teamsは、一緒にアイデアを作成し、決定を下す新しい方法を提供します。 表、タスク リスト、段落などのコンポーネントを送信します。このコンポーネントでは、チャット内のすべてのユーザーがインラインで編集を行い、変更内容を確認できます。 
+チャット内のループ コンポーネントTeams、一緒にアイデアを作成し、決定を下す新しい方法を提供します。 表、タスク リスト、段落などのコンポーネントを送信します。このコンポーネントでは、チャット内のすべてのユーザーがインラインで編集を行い、変更内容を確認できます。 
 
 > [!Note]
-> ループ コンポーネントは、Microsoft Loop アプリの最初の機能[です](https://www.microsoft.com/en-us/microsoft-loop)。この機能は、Teams。 
+> ループ コンポーネントは、Microsoft Loop アプリの最初[の機能です](https://www.microsoft.com/en-us/microsoft-loop)。この機能は、Teams。 
 
 **一緒にタスクを迅速に完了します。** 議題を集め、グループのアクション アイテムを追跡したり、まとめてメモを取る。 これらは、ループ コンポーネントを使用して簡単に行うシナリオのほんの一部です。
 
@@ -42,39 +42,39 @@ ms.locfileid: "62918941"
 
 ## <a name="clients-and-platforms"></a>クライアントとプラットフォーム
 
-Teams、Mac、Linux、iOS、Android Windowsアプリで利用できます。
+Teams、Mac、Linux、iOS、および Android Windowsアプリで利用できます。
 
-## <a name="loop-components-and-fluid-files"></a>ループ コンポーネントと .fluid ファイル
+## <a name="loop-components-and-loop-files"></a>ループ コンポーネントと .loop ファイル
 
-Teamsで作成されたループ コンポーネントは、作成者のファイルに格納されている .fluid ファイルによってOneDrive。 ファイルが含OneDrive、ユーザーは任意のドキュメントと同じ方法でループ コンポーネント (.fluid ファイル) を簡単に作成、検出、管理Officeします。 .fluid ファイルは、電子情報開示、監査、レポート、法的ホールドなど、データ ガバナンス機能を使用します。
+Teamsで作成されたループ コンポーネントは、作成者のファイルに格納されている .loop ファイルによってOneDrive。 ファイルが含OneDrive、ユーザーは任意のドキュメントと同じ方法でループ コンポーネント (.loop ファイル) を簡単に作成、検出、管理Officeします。 .loop ファイルは、電子情報開示、監査、レポート、法的ホールドなど、データ ガバナンス機能を使用します。
 
-## <a name="how-are-fluid--files-stored"></a>.fluid ファイルの格納方法
+## <a name="how-are-loop--files-stored"></a>.loop ファイルの格納方法
 
-.fluid ファイルは Office.com および OneDrive に表示されます ([最近使用したファイル] や [推奨] 領域など)。 ユーザーは、.fluid ファイル内のコンテンツを Office.com から検索し、OneDrive。 .fluid ファイルは、以前のバージョンから復元OneDrive。 ループ コンポーネントを作成するには、チャット参加者に新しいアカウントOneDriveがあります。 有効な OneDrive アカウントがない場合、チャット参加者は、有効な OneDrive アカウントを持っているが、自分で作成できない他のユーザーによって作成されたコンポーネントで共同作業を行える場合があります。 
+.loop ファイルは Office.com および OneDrive に表示されます ([最近使用したファイル] 領域や [推奨] 領域など)。 ユーザーは、.loop ファイル内のコンテンツを Office.com および OneDrive から検索できます。 .loop ファイルは、以前のバージョンから復元OneDrive。 ループ コンポーネントを作成するには、チャット参加者に新しいアカウントOneDriveがあります。 有効な OneDrive アカウントがない場合、チャット参加者は、有効な OneDrive アカウントを持っているが、自分で作成できない他のユーザーによって作成されたコンポーネントで共同作業を行える場合があります。 
 
-.fluid ファイルを OneDrive サイトSharePoint移動すると、ライブ コンポーネントがチャットに読み込Teams失敗します。
+.loop ファイルを別のOneDriveサイトSharePoint移動すると、ライブ コンポーネントがチャットに読み込Teamsされます。
 
 ## <a name="what-happens-if-the-owner-of-the-file-leaves-the-company"></a>ファイルの所有者が会社を離れる場合は、どうなるでしょうか。
 
-OneDrive保持ポリシーは、ユーザーによって作成された他のコンテンツと同様に 、.fluid ファイルに適用されます。
+OneDrive保持ポリシーは、ユーザーによって作成された他のコンテンツと同様に 、.loop ファイルに適用されます。
 
-## <a name="how-are-fluid-files-shared"></a>.fluid ファイルの共有方法
+## <a name="how-are-loop-files-shared"></a>.loop ファイルの共有方法
 
 ループ コンポーネントは、チャットに挿入Teams、あるチャットから別のチャットにコピーすることができます。 (ループ コンポーネントはチャネルではまだサポートされていません)。既定では組織の既存のアクセス許可が設定されますが、ユーザーは送信する前にアクセス許可を変更して、すべてのユーザーがアクセス権を持つ必要があります。
 
 Office.com で Teams チャットからコンポーネントを開くには、他の Office ドキュメントで提供される共有オプションと同様に、ウィンドウの上部に共有機能が用意されています。
 
-## <a name="what-if-a-fluid-file-becomes-corrupted-or-damaged"></a>.fluid ファイルが破損または破損した場合は、どうなるでしょうか。
+## <a name="what-if-a-loop-file-becomes-corrupted-or-damaged"></a>.loop ファイルが破損または破損した場合は、どうなるでしょうか。
 
 [バージョン履歴] では、ファイルの以前のバージョンを確認してコピーできます。
 
-## <a name="what-apps-can-open-and-edit-fluid-files"></a>.fluid ファイルを開いて編集できるアプリ
+## <a name="what-apps-can-open-and-edit-loop-files"></a>.loop ファイルを開いて編集できるアプリ
 
-.fluid ファイルは、Office.com などのブラウザーのリンクとして、およびチャット内のループ コンポーネントとしてのみTeamsできます。 ダウンロードした場合は、最初にアプリにアップロードし直さずに再度開OneDriveまたはSharePoint。
+.loop ファイルは、Office.com などのブラウザーのリンクとして、およびチャット内のループ コンポーネントとしてのみTeamsできます。 ダウンロードした場合は、最初にアプリにアップロードし直さずに再度開OneDriveまたはSharePoint。
 
 ## <a name="known-issues"></a>既知の問題
 
-- チャット内のループ コンポーネントは、Android でOffice アプリを使用Teams編集することはできません。
+- チャット内のループ コンポーネントは、Android で Office アプリを使用Teamsで編集することはできません。
 - テナントの既定のファイルのアクセス許可が [特定のユーザー *] (ユーザー* が指定したユーザーのみ) に設定され、コンポーネントの作成時に送信者が [アクセス許可] ダイアログの [特定のユーザー] リストから一部のユーザーを削除した場合、それらのユーザーは引き続きコンテンツにアクセスできます。
 - テナントの既定のファイルアクセス許可が  [特定のユーザー ( ユーザーが指定したユーザーのみ) に設定されている場合、ライブ コンポーネントへのリンクをコピーして別のチャットに貼り付けするには、送信者がアクセス許可ダイアログを使用し、[特定のユーザー] オプションに受信者を追加してアクセス権を適切に付与する必要があります。
 - テナントの既定のファイルアクセス許可が  [特定のユーザー ( ユーザーが指定したユーザーのみ) に設定されている場合、20 人を超えるメンバーとグループ チャットでライブ コンポーネントを作成するには、送信者がコンポーネントのアクセス許可オプションを手動で選択する必要があります。
