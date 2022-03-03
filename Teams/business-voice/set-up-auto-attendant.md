@@ -14,15 +14,15 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: 自動応答 (通話キューとも呼ばれる) を設定する方法について説明Microsoft 365 Teams 電話。
+description: 自動応答 (通話キューとも呼ばれる) を設定する方法Microsoft 365 Teams 電話。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f30dcdca74306b27c2516de54e0ab25133b77803
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: a70c07e4f0d97484ada63a5bb8163884375e13aa
+ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766230"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "63053266"
 ---
 # <a name="step-6-set-up-an-auto-attendant-for-your-companys-main-phone-number"></a>手順 6: 会社のメイン電話番号の自動応答を設定する
 
@@ -33,4 +33,4 @@ ms.locfileid: "61766230"
 上記のすべてのタブをステップ実行して自動応答を設定した場合は、次のボタンをクリックして次の記事に進みます。
 
 > [!div class="nextstepaction"]
-> [次の手順: 電話番号を電話番号にTeams 電話](port-phone-numbers.md)
+> [次の手順: 電話番号を電話番号にTeams 電話システム](port-phone-numbers.md)

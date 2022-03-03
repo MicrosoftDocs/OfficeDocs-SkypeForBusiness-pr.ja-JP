@@ -1017,7 +1017,7 @@ items:
             href: voice-case-study-call-queues.md
       - name: 中小企業向けガイダンス
         items:
-          - name: 中小企業向け電話システム ガイダンス
+          - name: 電話システムのガイダンス
             href: business-voice/whats-business-voice.md
           - name: 国および地域ごとの利用可能性
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
@@ -1025,7 +1025,7 @@ items:
             href: business-voice/get-ready-internet.md
           - name: 販売店またはパートナーからサポートを受ける
             href: business-voice/reseller-partner-support.md
-          - name: 中小企業向けの電話システムを設定する
+          - name: 電話システムをセットアップする
             items:
               - name: 概要
                 href: business-voice/set-up-overview.md
@@ -1045,7 +1045,7 @@ items:
                 href: business-voice/port-phone-numbers.md
               - name: 設定後の参考資料
                 href: business-voice/set-up-finish.md
-          - name: 中小企業向けに電話システムのセットアップをカスタマイズする
+          - name: 電話システムのセットアップをカスタマイズする
             items:
               - name: カスタマイズのオプション
                 href: business-voice/customize-business-voice.md
@@ -1059,7 +1059,7 @@ items:
                 href: business-voice/create-a-phone-system-call-queue-smb.md
               - name: 自動応答を設定する
                 href: business-voice/create-a-phone-system-auto-attendant-smb.md
-          - name: 中小企業向けの電話システムのセットアップを管理する
+          - name: 電話システムのセットアップを管理する
             items:
               - name: 1 名以上のユーザーを作成する
                 href: business-voice/create-users.md
@@ -1309,6 +1309,10 @@ items:
                 href: rooms/security.md
               - name: オンライン ライセンス
                 href: rooms/rooms-licensing.md
+              - name: 条件付きアクセスと Intune コンプライアンスのベスト プラクティス
+                href: rooms/conditional-access-and-compliance-for-devices.md
+              - name: サポートされている条件付きアクセスと Intune コンプライアンス ポリシー
+                href: rooms/supported-ca-and-compliance-policies.md
               - name: Azure Monitor による管理の計画
                 href: rooms/azure-monitor-plan.md
           - name: 展開
@@ -1413,6 +1417,8 @@ items:
                 href: devices/use-teams-panels.md
               - name: Teams パネルでのアプリのサポート
                 href: app-support-on-Teams-panels.md
+              - name: チェックインと会議室のリリース
+                href: devices/check-in-and-room-release.md
           - name: Teams 電話を Teams ディスプレイにアップグレードする
             href: devices/upgrade-phones-to-displays.md
           - name: Intune を使用して Teams 電話と Teams ディスプレイを展開する
@@ -1564,7 +1570,7 @@ items:
             href: edu-remote-low-bandwidth.md
           - name: 教育機関用 Teams ポリシー ウィザード
             href: easy-policy-setup-edu.md
-          - name: Teams for Education の親
+          - name: Teams for Education の親接続
             href: edu-parents-app.md
           - name: Teams for Education のキャリア コーチ アプリ
             href: career-coach.md

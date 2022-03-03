@@ -14,14 +14,14 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: 通話プランを使用して通話品質をTeams 電話する方法について学習します。
+description: 通話プランを使用して通話品質を監視するTeams 電話システムを確認します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d313e0fdd13cedd5566fc1625c194e8230f64a1a
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 8471067396840ec30c7b5e643517403e3696f24f
+ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767160"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "63053056"
 ---
 [!INCLUDE [monitor-call-quality-qos](../monitor-call-quality-qos.md)]

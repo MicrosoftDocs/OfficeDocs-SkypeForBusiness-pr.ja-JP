@@ -14,14 +14,14 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: 通話品質ダッシュボードを使用Teams 電話通話プランの通話品質で通話を監視する方法について学習します。
+description: 通話品質ダッシュボードを使用Teams 電話システム通話プランの通話品質で通話を監視する方法について学習します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50b12621d67826b1427c91bef9ab39fe0d9ed0b0
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 4d06d9fd80b2f77ec4b017a9d4a056685f3a5706
+ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766360"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "63053236"
 ---
 [!INCLUDE [turning-on-and-using-call-quality-dashboard](../turning-on-and-using-call-quality-dashboard.md)]

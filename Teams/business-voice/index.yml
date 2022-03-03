@@ -1,9 +1,9 @@
 ### YamlMime:Hub
-title: Microsoft 365 Teams 電話プラン バンドルに関するドキュメントの概要
-summary: 組織の通話プラン バンドルを使用して、Microsoft 365 Teams 電話を計画、設定、および使用する方法について学習します。 通話Teams 電話バンドルを使用すると、中小企業は、企業内ソリューションの費用と複雑さを必要とせずに、強力で柔軟な電話システムを簡単にセットアップできます。
+title: Microsoft 365 Teams 電話システムプランに関するドキュメントを参照する
+summary: 組織の通話プランで通話プランをMicrosoft Teams 電話システム、設定、および使用する方法について学習します。 Teams 電話システムプランを使用すると、中小企業は、企業内ソリューションの費用と複雑さを必要とせずに、強力で柔軟な電話システムを簡単にセットアップできます。
 metadata:
-  title: Microsoft 365 Teams 電話プラン バンドルに関するドキュメントの概要
-  description: 通話プラン バンドルを使用して、Microsoft 365 Teams 電話、デプロイ、および使用する方法について学習します。
+  title: Microsoft Teams 電話システムプランに関するドキュメントの概要
+  description: 通話プランで仮想ネットワークを計画、デプロイ、Microsoft Teams 電話システムする方法について学習します。
   ms.topic: hub-page
   author: dstrome
   ms.author: dstrome
@@ -14,22 +14,22 @@ productDirectory:
       imageSrc: 'https://docs.microsoft.com/office/media/icons/blocks-blue.svg'
       links:
         - url: whats-business-voice.md
-          text: Teams 電話中小規模企業向け通話プランガイダンスの概要
-        - url: 'https://www.microsoft.com/microsoft-365/business-voice'
-          text: Microsoft 365 Teams 電話プラン バンドルの使用
+          text: Teams 電話システム中小規模企業向け通話プランガイダンスの概要
+        - url: 'https://www.microsoft.com/microsoft-teams/microsoft-teams-phone'
+          text: Microsoft Teams 電話
         - url: /office365/servicedescriptions/teams-service-description
           text: Teams サービスの説明
     - title: セットアップ
       imageSrc: 'https://docs.microsoft.com/office/media/icons/deploy-blue.svg'
       links:
-        - url: ./whats-business-voice.md#what-do-i-need-to-buy-to-get-voice-capabilities-for-my-small-or-medium-business
-          text: 通話プラン バンドルでTeams 電話を取得する方法
+        - url: ./whats-business-voice.md#purchase-teams-phone-with-calling-plan-bundle-licenses
+          text: 通話プランをTeams 電話システム方法
         - url: get-ready-internet.md
           text: インターネット接続を確認する
         - url: prepare-users.md
           text: ユーザーの準備を行う
         - url: set-up-overview.md
-          text: 通話プランTeams 電話を設定する
+          text: 通話プランTeams 電話システムを設定する
     - title: 設定をカスタマイズする
       imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-blue.svg'
       links:
@@ -58,7 +58,7 @@ productDirectory:
         - url: /partner-center/
           text: パートナー センターから Microsoft 365 Business を取得する
         - url: 'https://cloudpartners.transform.microsoft.com/products/m365-business-voice-partner-playbook'
-          text: Microsoft 365 Teams 電話プラン バンドルパートナー プレイブックを使用した追加
+          text: Microsoft 365 Teams 電話システムパートナー プレイブックを使用した通話プランの作成
     - title: サポートが必要な場合
       imageSrc: 'https://docs.microsoft.com/office/media/icons/users-people.svg'
       links:
@@ -72,7 +72,7 @@ productDirectory:
         - url: ../cloud-voice-landing-page.md
           text: Microsoft Teams 管理者向けドキュメント
         - url: 'https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472'
-          text: Microsoft Teamsフィードバック ポータル
+          text: Microsoft Teams フィードバック ポータル
         - url: 'https://support.office.com/teams'
           text: Microsoft Teams クライアント向けドキュメント
         - url: /office365/admin/
