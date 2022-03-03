@@ -20,18 +20,18 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams でポリシー パッケージを使用および管理して、ユーザー グループのポリシーを管理する際の一貫性を簡素化、合理化、および提供する方法について説明します。
-ms.openlocfilehash: f90febffb5385a3b91859d63db1b4b320e0a94a7
-ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
+ms.openlocfilehash: 173d5d1488196ea048a64ce12916f8115362c572
+ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "62425307"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "63055307"
 ---
 # <a name="manage-policy-packages-for-microsoft-teams"></a>アプリケーションのポリシー パッケージを管理Microsoft Teams
 
 Microsoft Teams のポリシー パッケージは、組織内で類似の役割を持つユーザーに割り当てることができる定義済みのポリシーおよびポリシー設定のコレクションです。 組織全体のユーザー のグループに対するポリシーを管理する際に、一貫性を提供するために、ポリシー パッケージを構築しました。  
 
-アプリケーションに含まれている[ポリシー パッケージをTeams](#policy-packages-included-in-teams)独自の[カスタム ポリシー パッケージを作成できます](#custom-policy-packages)。
+アプリケーションに含まれている[ポリシー パッケージを使用Teams](#policy-packages-included-in-teams)独自[のカスタム ポリシー パッケージを作成できます](#custom-policy-packages)。
 
 :::image type="content" source="media/policy-packages-admin-center.png" alt-text="管理センターの [ポリシー パッケージ] ページのスクリーンショット。":::
 
@@ -69,8 +69,8 @@ Teamsには、現在、次のポリシー パッケージが含まれていま�
 |医療施設の職員  |一連のポリシーとポリシー設定を作成して、登録済看護師、担当看護師、医師、およびソーシャル ワーカーに対して、チャット、通話、シフト管理、会議へのフル アクセスを提供します。 |
 |医療情報提供者  |一連のポリシーとポリシー設定を作成して、IT 担当者、情報スタッフ、財務担当者、法令遵守責任者に対して、チャット、通話、会議へのフル アクセスを提供します。|
 |医療患者室  |貴社の医療組織の患者室に適用される一連のポリシーとポリシー設定を作成します。|
-|中小企業ユーザー (通話プランTeams 電話を使用) |通話プランエクスペリエンスを使用するアプリのアプリを含むTeams 電話ポリシーを作成します。|
-|中小企業ユーザー (通話プランにTeams 電話なし) |ユーザー (通話プランのエクスペリエンスを使用した非Teams、中小企業に関連するTeams 電話設定ポリシーを作成します。
+|中小企業ユーザー (通話プラン バンドルTeams 電話システムを使用) |呼び出しプラン バンドル エクスペリエンスを使用するアプリのアプリを含Teams 電話システム設定ポリシーを作成します。|
+|中小企業ユーザー (通話プラン バンドルTeams 電話システム使用なし) |小規模および中規模のビジネス ユーザーに関連するアプリ セットアップ ポリシーをTeams (通話プラン のバンドル エクスペリエンスをTeams 電話システムを使用しない) を作成します。
 |公安責任者   |組織内の公安責任者に適用される一連のポリシーとポリシー設定を作成します。|
 
 > [!NOTE]
@@ -87,7 +87,7 @@ Teamsには、現在、次のポリシー パッケージが含まれていま�
 
 新しいカスタム ポリシー パッケージを作成するには:
 
-1. 管理センターの左側のナビゲーションMicrosoft Teams[ポリシー パッケージ] を選択し、[追加] をクリック **します**。
+1. 管理センターの左側のナビゲーションMicrosoft Teams[ポリシー パッケージ] **を** 選択し、[追加] をクリック **します**。
 
     :::image type="content" source="media/policy-packages-add.png" alt-text="管理センターの [ポリシー パッケージ] ページの [追加] ボタンのスクリーンショット。":::
 
@@ -128,7 +128,7 @@ Teamsには、現在、次のポリシー パッケージが含まれていま�
 
 ポリシーの設定は、[ポリシー パッケージ] ページで編集するか、管理センターのポリシー ページに直接移動Microsoft Teamsできます。
 
-1. 管理センターの左側のMicrosoft Teams、次のいずれかの操作を行います。
+1. 管理センターの左側のMicrosoft Teamsで、次のいずれかの操作を行います。
     - [ **ポリシー パッケージ]** をクリックし、パッケージ名の左側をクリックしてポリシー パッケージを選択します。
     - ポリシーの種類をクリックします。  たとえば、[メッセージング ポリシー **] をクリックします**。
 
@@ -143,6 +143,6 @@ Teamsには、現在、次のポリシー パッケージが含まれていま�
 ## <a name="related-topics"></a>関連項目
 
 - [ポリシー パッケージの割り当て](assign-policy-packages.md)
-- [Teams EDU 管理者向けポリシー パッケージの作成](policy-packages-edu.md)
+- [Teams EDU 管理者向けポリシー パッケージ](policy-packages-edu.md)
 - [ヘルスケア向けの Teams ポリシー パッケージ](policy-packages-healthcare.md)
 - [Teamsのポリシー パッケージを作成する](policy-packages-gov.md)
