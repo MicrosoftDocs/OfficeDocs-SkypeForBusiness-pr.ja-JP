@@ -17,12 +17,12 @@ metadata:
   - M365-voice
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 1570c7e7a92a2a3914d01733fed3691d61282e16
-  ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+  ms.openlocfilehash: 976b0303dfe17ad9f51f37e574e141beea59741f
+  ms.sourcegitcommit: f8b935e009895138eddfc1ae360b7b2ace747d3c
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 11/08/2021
-  ms.locfileid: "60834805"
+  ms.lasthandoff: 03/02/2022
+  ms.locfileid: "63050883"
 items:
 - durationInMinutes: 1
   content: >
@@ -62,8 +62,8 @@ items:
     - このチュートリアルの「次のステップ」ページの下部にあるコメント セクションから投稿してください</a>
 
 
-    新機能のアイディアなど、Teams に関する製品フィードバックをご提供いただける場合は、「[UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)」にアクセスしてください。
-- title: Teams での通話について。
+    新機能のアイデアなど、Teamsに関する製品フィードバックを提供する場合は、Teams [フィードバック ポータルにアクセスしてください](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)。
+- title: Teams での通話とは?
   durationInMinutes: 15
   content: >
     革新的な発想により、Teams はユーザーが VoIP 通話を Teams クライアントから Teams クライアントへ発信することができる機能をサポートします。
@@ -247,4 +247,4 @@ items:
   content: "\nご利用の環境で電話システムを適切に計画および実装されたので、電話システムが使用され、優れたユーザー エクスペリエンスが提供されることを確認する必要があります。 細部はこのトレーニングの範囲を超えるでしょうが、エンゲージメントの最も重要な部分に注目したいと思います。\n\n-   「導入と変更管理」サービスを提供すると、ユーザーはそれを簡単に使い始めるかもしれません。 あるいは、使わないかもしれません。 そのため、適切な導入と変更管理を実行することが重要です。\n\n-   「使用の監視と促進」Teams が電話クライアントとしてどれだけ受け入れられているかを評価できるように、KSI の 1 つをアクティブ ユーザーの数にすることをお勧めします。\n\n-   品質の監視と促進\n\nユーザーの満足度は、通話の品質に直接関係しているため、必要に応じて通話の品質を監視し、改善することが重要です。 通話の品質のレポート作成について理解するには、通話品質ダッシュボードのトレーニングにアクセスしてください。 このビデオは Skype for Business 向けに作成されていますが、Teams にも適用されます: <https://aka.ms/sof-cqd>。\n"
 - title: 次の手順
   durationInMinutes: 1
-  content: "\nこのトレーニングでは次の重要な学習事項を取り上げています。\n-   Teams での通話とは?\n\n-   Teams での通話に関する計画をする方法\n\n-   Teams での通話を構成する方法\n\n詳細については、次を参照してください。\n\n-   [通話プランが設定された電話システム](calling-plan-landing-page.md)\n\n-   [クイック スタート ガイド: Microsoft Teams での通話プランの設定](./configuring-teams-calling-quickstartguide.md)\n\n次の手順\n\n1.  Teams の電話システムの展開を開始する\n2.  フィードバックを送信してください。\n    - このページの下部にあるコメント セクションから投稿してください。\n    - Teams に関するフィードバックをご提供いただける場合、またはお持ちの新機能のアイディアを共有していただける場合は、「[UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)」にアクセスしてください。\n3.  最新の状態を維持する:\n    - [Teams のブログ](https://aka.ms/teamsblog)をフォローしてください。\n    - [Teams のロードマップ](https://aka.ms/O365Roadmap)をご覧ください。\n    - 最新のリリースされた機能については、[リリース ノート](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)をご覧ください。\n4.  [その他のトレーニングおよびチュートリアル](/OfficeDocs-SkypeForBusiness-pr/blob/master/Teams/ITAdmin-readiness#technical-training)を探索してください。"
+  content: "\nこのトレーニングでは次の重要な学習事項を取り上げています。\n-   Teams での通話とは?\n\n-   Teams での通話に関する計画をする方法\n\n-   Teams での通話を構成する方法\n\n詳細については、次を参照してください。\n\n-   [通話プランが設定された電話システム](calling-plan-landing-page.md)\n\n-   [クイック スタート ガイド: Microsoft Teams での通話プランの設定](./configuring-teams-calling-quickstartguide.md)\n\n次の手順\n\n1.  Teams の電話システムの展開を開始する\n2.  フィードバックを送信してください。\n    - このページの下部にあるコメント セクションから投稿してください。\n    - 新機能に関するフィードバックTeams、新機能のアイデアを共有する場合は、Teams [フィードバック ポータルにアクセスしてください](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)。\n3.  最新の状態を維持する:\n    - [Teams のブログ](https://aka.ms/teamsblog)をフォローしてください。\n    - [Teams のロードマップ](https://aka.ms/O365Roadmap)をご覧ください。\n    - 最新のリリースされた機能については、[リリース ノート](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)をご覧ください。\n4.  [その他のトレーニングおよびチュートリアル](/OfficeDocs-SkypeForBusiness-pr/blob/master/Teams/ITAdmin-readiness#technical-training)を探索してください。"

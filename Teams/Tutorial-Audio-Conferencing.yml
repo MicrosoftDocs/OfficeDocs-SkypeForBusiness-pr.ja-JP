@@ -22,12 +22,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 915cfdc59752821226208ddad2487ce2d6032f60
-  ms.sourcegitcommit: 8ddafd0901b6b4f4109f3b6e687ae7fae667d61c
+  ms.openlocfilehash: 667f6964cf5a41992656a59b027e7db93bd9df41
+  ms.sourcegitcommit: f8b935e009895138eddfc1ae360b7b2ace747d3c
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 02/03/2022
-  ms.locfileid: "62353392"
+  ms.lasthandoff: 03/02/2022
+  ms.locfileid: "63050893"
 items:
 - durationInMinutes: 1
   content: >
@@ -67,7 +67,7 @@ items:
     -   このチュートリアルの「次の手順」ページの下部にあるコメント セクションから投稿してください
 
 
-    新機能のアイディアなど、Teams に関する製品フィードバックをご提供いただける場合は、「[UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)」にアクセスしてください。
+    新機能のアイデアなど、Teamsに関する製品フィードバックを提供する場合は、Teams [フィードバック ポータルにアクセスしてください](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)。
 - title: Teams での電話会議
   durationInMinutes: 12
   content: "\n電話会議を利用すると、参加者は通常の電話機を使用して Teams 会議に参加できます。その際、電話機から会議にダイヤルインするか、会議内のダイヤルアウト機能を使用して参加できます。 電話会議について詳しくは、次のリソースをご覧ください。\n-   [電話会議機能](https://products.office.com/skype-for-business/audio-conferencing#Features) (推定所要時間: 1 分)\n-   [Microsoft Teams での会議に関する 9 個のヒント](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) (\\#「1 - 電話会議によって会議に参加する」の推定所要時間: 1 分。記事全体の場合にはさらに時間がかかります)\n-   [電話会議に関するよくある質問](/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions) (推定所要時間: 7 分)\n-   [他のユーザーが参加できるように会議からダイヤルアウトする](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it) (推定所要時間: 2 分)\n"
@@ -108,7 +108,7 @@ items:
 
     2.  フィードバックを送信してください。
         - このページの下部にあるコメント セクションから投稿してください。
-        - Teams 製品をフィードバックしたり新機能をリクエストしたりする場合、[Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public) にアクセスしてください。
+        - 製品のフィードバックTeams提供したり、新機能を要求したりするには、フィードバック ポータルTeams[覧ください](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)。
     3.  最新の状態を維持する:
         - [Teams のブログ](https://aka.ms/teamsblog)をフォローしてください。
         - [Teams のロードマップ](https://aka.ms/O365Roadmap)をご覧ください。
