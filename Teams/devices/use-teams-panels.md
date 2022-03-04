@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: この記事では、複数のパネル デバイスを使用するTeamsを提供します。
-ms.openlocfilehash: bd1a7a865d6e07cec47838a518d19523afef5134
-ms.sourcegitcommit: f8b935e009895138eddfc1ae360b7b2ace747d3c
+ms.openlocfilehash: e39b54d290ac3c8d4809f9da011c2e28451c2ae7
+ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "63050903"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "63062541"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>パネルのMicrosoft Teams方法
 
@@ -204,7 +204,7 @@ Teamsパネルデバイスには、Microsoft Teamsがプレインストールさ
 
 チェックインと会議室のリリース設定を使用すると、ユーザーは、会議の開始時に予約した会議室の Teams パネルで会議にチェックインできます。 ユーザーが会議の開始時刻から一定の時間内にチェックインしない場合、会議室は解放され、他のユーザーが予約できます。
 
-Teams パネルが Android の Microsoft Teams Room とペアリングされている場合、会議の実行が遅れたときに、チェックイン通知を部屋の前面のディスプレイに表示できます。
+Teams パネルが Android の Microsoft Teams Room とペアリングされている場合、会議の実行が遅れたときに、チェックイン通知をルームの前面ディスプレイに表示できます。
 
 チェックインとルーム リリースを有効にするには、「チェックイン パネルとルーム リリース」を参照Microsoft Teams[してください](check-in-and-room-release.md)。
 
