@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01fc283f8787ad659678b4e09ad3f573f34eb66d
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.openlocfilehash: e5e554672156f70556ebc18625115cd9a1ce8c58
+ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62363033"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "63062691"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams の Education Insights への IT 管理者ガイド
 
@@ -135,6 +135,7 @@ Insights は、教職員に関するデータを表示 *しません*。 デー�
 | **会議** |    出席 (会議コンテンツを含まない)。|
 | **[音読みの進行状況](https://support.microsoft.com/topic/e71705a2-a79a-4d7e-bcef-a1e0aa336017)** |    精度率、最も困難な単語、および 1 分あたりの単語数。  |
 | **[Reflect](reflect.md)** |   チェックイン (値を含む)。|
+| **キャリア コーチ** | 学生が提供する専攻 (研究分野) と学年、キャリア コーチ アプリでの学生のアクティビティ (スキル、スキルの関心、キャリアの関心、学習の関心、キャリア関連のアクティビティなど)。|
 
 > [!NOTE]
 > 収集されたデータのほとんどは、数分以内に Insights に表示されます。クラス ミーティング (クラス チャネルの 1 つに関連するミーティング) への出席は、ミーティングの終了後数時間で、通常は最大 24 時間後に表示されます。
@@ -239,12 +240,24 @@ Insights を使用するときに SDS を使用する必要は *ありません*
 
 * これを元に戻すには、「[Insights 用 SDS の展開方法](/schooldatasync/how-to-deploy-sds-for-insights)」の手順に従ってください。
 
-### <a name="how-to-delete-your-data"></a>データを削除する方法
-Insights は、クラスチームのコンテキストで実行された学生と教職員のアクションを格納します。 このデータは、まとまったデータセットと見なされるため、学生または教職員のユーザーアカウントが組織から削除されても、サービスから自動的に削除されません。
-注: データを削除すると、時間の経過とともにクラス チームの関与を分析する Insights の機能が損なわれます。
-* [サポート チケットを開きます](https://aka.ms/edusupport)。 サポートチケットには、GDPR 削除 DSR 操作の要求を明確に記載し、削除するユーザーオブジェクト ID を入れる必要があります。 削除するデータセットまたは時間帯を制限することはできません。
-*   提出されると、サポート チケットは、コンプライアンスの最小保持ポリシーを満たすために 1 週間キュー内で待機します。 この間、操作をキャンセルすることができます。
-*   1 週間後に、Education Insights チームが、ユーザー ID に関連するすべてのデータをサービスから削除する処置を行います。 Microsoft サポートが チケットを監視し、28 日以内に削除プロセスが完了したことを通知します。
+### <a name="how-to-delete-user-data-from-education-insights"></a>Education Insights からユーザー データを削除する方法
+Insights は、Microsoft Teams for Education で実行された学生と教育者のアクティビティを保存します。
+
+Insights によって収集されるデータには、次の 2 つの種類があります:
+* **混合データ** – クラス学習活動の一部として生成されるデータ。
+* **非混合 (プライベート) データ** – クラス学習活動の一部ではない教育の Teams の学生アクティビティによって収集されたデータ。 
+
+Insights によって収集された完全なデータは、[ここに](class-insights.md#data-collection)リストされています。
+
+過去の時間枠のデータの完全性と整合性を教育者と教育リーダーに提供するために、既定では、Insights は学生または教育者のユーザー アカウントが閉じられたときにサービスからデータを自動的に削除しません。 組織の IT 管理者は、次の手順を実行することにより、ユーザー (教育者または学生) データの手動削除を要求できます。
+* [サポート チケット](https://aka.ms/edusupport)を開きます。 サポートチケットには、GDPR 削除 DSR 操作の要求を明確に記載し、削除するユーザーオブジェクト ID を入れる必要があります。
+削除するデータセットまたは時間帯を制限することはできません。
+* 要求では、IT 管理者は、次のオプションから、そのユーザーに対して削除する必要のあるデータの種類を明確に示す必要があります:
+  - すべてのデータ (混合およびプライベート)
+  - すべてのプライベート データ 
+  - キャリア コーチのデータのみ
+* 提出されると、サポート チケットは、コンプライアンスの最小保持ポリシーを満たすために 1 週間キュー内で待機します。 この間、操作をキャンセルすることができます。
+* 1 週間後、Education Insights チームは、上記の特定の種類のユーザー ID に関連するすべてのデータがサービスから削除されることを確認します。 Microsoft サポートが チケットを監視し、28 日以内に削除プロセスが完了したことを通知します
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 ### <a name="why-doesnt-my-institution-see-any-data-in-insights"></a>自分の教育機関が Insights でデータを表示できないのはなぜですか?

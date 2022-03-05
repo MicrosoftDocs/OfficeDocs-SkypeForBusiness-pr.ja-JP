@@ -1389,6 +1389,8 @@ items:
             href: rooms/multi-tenant-management-customer.md
           - name: Rooms アクティビティ向け監査ログ
             href: rooms/multi-tenant-auditing.md
+          - name: スタンダードとルーム プランナー
+            href: rooms/standards-and-room-planner.md
       - name: デバイス
         items:
           - name: Teams でのデバイスの管理
