@@ -9,7 +9,7 @@
       items:
         - name: Skype for Business IP 電話
           href: ../certification/devices-ip-phones.md
-        - name: Teams IP 電話
+        - name: Teams の Android デバイス
           href: /microsoftteams/teams-ip-phones
         - name: USB オーディオ デバイスおよびビデオ デバイス
           href: ../certification/devices-usb-devices.md
