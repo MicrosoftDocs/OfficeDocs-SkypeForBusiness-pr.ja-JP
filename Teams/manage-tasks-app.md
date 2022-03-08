@@ -1,28 +1,33 @@
 ---
 title: Microsoft Teams で組織の Tasks アプリを管理する
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: andfried
 search.appverid: MET150
 searchScope:
-  - Microsoft Teams
-  - Microsoft Cloud for Healthcare
-  - Microsoft Cloud for Retail
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 audience: admin
 description: 組織のユーザー向けに Tasks アプリを設定および管理する方法を説明します。
 ms.localizationpriority: medium
 MS.collection:
-  - Teams_ITAdmin_Help
-  - M365-collaboration
-  - microsoftcloud-healthcare
-  - microsoftcloud-retail
+- Teams_ITAdmin_Help
+- M365-collaboration
+- microsoftcloud-healthcare
+- microsoftcloud-retail
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: 2ad0324509849700ea74afe582d4ce7a4934dc3e
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070596"
 ---
-
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織の Tasks アプリを管理する
 
 ## <a name="overview-of-tasks"></a>Tasks の概要
@@ -78,7 +83,7 @@ Tasks は、組織内のすべての Teams ユーザーに対して既定で有�
 
 ### <a name="a-users-my-tasks-is-visible-if-the-user-is-licensed-for-exchange-online"></a>ユーザーが Exchange Online のライセンスを持っている場合、そのユーザーの [自分のタスク] が表示されます。
 
-ユーザーに **[自分のタスク]** を表示させたくない場合は、非表示にできます。 [マイ タスク **] を非表示** に [切りExchange Onlineします](/microsoft-365/admin/manage/remove-licenses-from-users)。 Exchange Online ライセンスを削除すると、ユーザーはメールボックスにアクセスできなくなるので、注意してください。  メールボックス データは 30 日間保持されます。その後、データは削除され、メールボックスが [[インプレース ホールド] または [訴訟ホールド]](/exchange/security-and-compliance/in-place-and-litigation-holds) に配置されない限り回復できません。
+ユーザーに **[自分のタスク]** を表示させたくない場合は、非表示にできます。 [マイ タスク **] を** 非表示に切りExchange Online [します](/microsoft-365/admin/manage/remove-licenses-from-users)。 Exchange Online ライセンスを削除すると、ユーザーはメールボックスにアクセスできなくなるので、注意してください。  メールボックス データは 30 日間保持されます。その後、データは削除され、メールボックスが [[インプレース ホールド] または [訴訟ホールド]](/exchange/security-and-compliance/in-place-and-litigation-holds) に配置されない限り回復できません。
 
 情報ワーカーの Exchange Online ライセンスを削除することをお勧めしませんが、メールに依存しない Frontline Worker など、この方法で [マイ タスク] を非表示にできるシナリオがいくつか考えられます。
 

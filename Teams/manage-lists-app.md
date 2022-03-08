@@ -1,31 +1,36 @@
 ---
 title: 組織のリスト アプリを管理する
-author: SerdarSoysal
-ms.author: serdars
-ms.reviewer: 'anach,v-jasuk'
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+ms.reviewer: anach,v-jasuk
+manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
 searchScope:
-  - Microsoft Teams
-  - Microsoft Cloud for Healthcare
-  - Microsoft Cloud for Retail
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 description: 組織内のユーザー向けに Teams でリスト アプリを管理する方法について説明します。
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 ms.collection:
-  - M365-collaboration
-  - microsoftcloud-healthcare
-  - microsoftcloud-retail
-  - m365initiative-lists
+- M365-collaboration
+- microsoftcloud-healthcare
+- microsoftcloud-retail
+- m365initiative-lists
 appliesto:
-  - Microsoft Teams
-ms.custom: null
+- Microsoft Teams
+ms.custom: ''
+ms.openlocfilehash: 1028a1e5826a2519de83d8dc73b7d2f55282ca4b
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070613"
 ---
-
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織のシフト アプリを管理する
 
 ## <a name="overview-of-lists"></a>リストの概要
@@ -55,7 +60,7 @@ Teams では、ユーザーはチャネル内のタブとしてリストにア�
 
 打ち合わせ後、郵便配達員が郵便物を受け取り、配達ルートへの移動を開始します。 インシデントはルート上で発生する可能性があります。たとえば、車両事故、犬に関連する問題、社会問題に対する抗議運動などです。 配達員がインシデントに遭遇した場合、モバイル デバイス上の Teams を使用してインシデントの詳細を記録します。そしてそのインシデントは、チーム チャネル内のリストで追跡されます。 現場の郵便配達員を含むチームの全員がこの情報を確認しながら、常に情報を得ることができます。
 
-Teams に移行する前に、郵便業者は、Excel スプレッドシートに入力されたインシデントを報告するために、ハード コピー フォームを完了するために、郵便会社に戻る必要がありました。 Teams は、リストを使用して現場で発生したインシデントを報告したり、インシデントの詳細をチーム メンバーと共有したり、チャネル上で会話したり、インシデントを解決したりすることができるモバイル ファーストな使用体験を郵便配達員に提供します。
+Teams に移行する前に、郵便業者は、Excel スプレッドシートに入力されたインシデントを報告するために、ハード コピー フォームを完成するために、郵便会社に戻る必要がありました。 Teams は、リストを使用して現場で発生したインシデントを報告したり、インシデントの詳細をチーム メンバーと共有したり、チャネル上で会話したり、インシデントを解決したりすることができるモバイル ファーストな使用体験を郵便配達員に提供します。
 
 ## <a name="what-you-need-to-know-about-lists"></a>リストについて知っておくべきこと
 
@@ -114,7 +119,7 @@ Teams のリスト アプリに関連する監査イベントの一覧につい�
 
 ## <a name="give-feedback-or-report-an-issue"></a>フィードバックの提供/問題の報告
   
-フィードバックを送信したり、問題を報告したりするには、Teams の左側のナビゲーションの下部にある [ヘルプ] を選択し、[問題の報告] を **選択します**。 **[リスト]** を選択し、フィードバックや発生している問題についての詳細情報を入力します。
+フィードバックを送信したり、問題を報告したりするには、Teams の左側のナビゲーションの下部にある [ヘルプ] を選択し、[問題の報告] **を選択します**。 **[リスト]** を選択し、フィードバックや発生している問題についての詳細情報を入力します。
 
 ## <a name="related-articles"></a>関連記事
 

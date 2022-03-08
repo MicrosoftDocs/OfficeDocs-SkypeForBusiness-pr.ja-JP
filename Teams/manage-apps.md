@@ -1,8 +1,8 @@
 ---
 title: 管理センターでアプリMicrosoft Teamsする
-author: KarliStites
-ms.author: kastites
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -17,12 +17,12 @@ description: 管理センターの [アプリのTeams] ページでアプリを�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 8e0c475eaf2186c13174d27687a5bd10c2fa1057
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: ad1dd28f4de0bc6db0ab7b2870a1cf7b2dae007a
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062551"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070226"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>管理センターでアプリMicrosoft Teamsする
 
@@ -55,7 +55,7 @@ Microsoft Teams 管理センターの左側のナビゲーションで、**[Team
 ![アプリのアプリの詳細ページのスクリーンショット。](media/app-detail-page.jpg)
 
 - **[名前**]: アプリ名。 アプリ名を選択してアプリの詳細ページに移動し、アプリの詳細を表示します。 これには、許可またはブロックされるアプリ、バージョン、プライバシー ポリシー、使用条件、アプリに適用されるカテゴリ、認定状態、サポートされている機能、アプリ ID など、アプリの説明が含まれます。
-- **認定**: アプリが認定を通過した場合は、認定または認証Microsoft 365表示 **Publisher表示されます**。 リンクを選択すると、アプリの認定の詳細が表示されます。 "" と表示 **--** された場合は、アプリの認定情報が表示されます。 Teams 認定アプリの詳細については、「Microsoft 365[」を参照してください](/microsoft-365-app-certification/overview)。
+- **認定**: アプリが認定を通過した場合は、認定または認証Microsoft 365表示 **Publisher表示されます**。 リンクを選択すると、アプリの認定の詳細が表示されます。 が表示される `--`場合は、アプリの認定情報が表示されます。 Teams 認定アプリの詳細については、「Microsoft 365[」を参照してください](/microsoft-365-app-certification/overview)。
 - **Publisher**: 発行元の名前。
 - **発行状態**: カスタム アプリの発行状態。
 - **状態**: 組織レベルでのアプリの状態。次のいずれかの状態です。

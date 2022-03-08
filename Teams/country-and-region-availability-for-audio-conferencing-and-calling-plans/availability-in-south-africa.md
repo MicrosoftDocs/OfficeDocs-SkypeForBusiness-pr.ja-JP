@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 南アフリカでMicrosoft 365およびOffice 365サービスSkype for BusinessとMicrosoft Teamsサービスを次に示します。
-ms.openlocfilehash: cccc1b801b2627ecb93eafd38b0ab944baac91aa
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+description: 南アフリカでMicrosoft 365およびOffice 365サービスSkype for BusinessとMicrosoft Teamsを次に示します。
+ms.openlocfilehash: 7c56d5bb6fd8ee3449b110b21b00000eda9dac55
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62190818"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070576"
 ---
 # <a name="availability-in-south-africa"></a>南アフリカでの利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-南アフリカでMicrosoft 365およびOffice 365サービスSkype for BusinessとMicrosoft Teamsサービスを次に示します。
+南アフリカでMicrosoft 365およびOffice 365サービスSkype for BusinessとMicrosoft Teamsを次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -59,9 +59,10 @@ ms.locfileid: "62190818"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|通話プランは購入できますか?  <br/> |いいえ  <br/> |
-|通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
-|発信通話を行うことができますか?  <br/> |該当しない  <br/> |
+|通話プランは購入できますか?  <br/> |はい  <br/> |
+|通話プランで利用できる分数。 |予定表の月ごとに使用できるプラン オプションは 4 種類です。 <ul><li>120 分間の国内通話プラン </li><li>240 分の国内通話プラン</li></li><li>1,200 分の国内通話プラン </li></li><li>国内通話プランと国際通話プラン: 国内通話の 1200 分 -OR - 600 分の国際通話 (カレンダー月の最初に到達した方)</li></li></ul>|
+|Premium 番号への発信呼び出しはできますか?  <br/> | 現時点ではサポートされていません。 <br/> |
+|発信できる相手先  <br/> | 196 の国または地域 (これらを含 [む) まで](users-can-make-outbound-calls-to-these-countries-and-regions.md)。<br/> |
 
 通話プランを購入できない場合は、利用可能なすべてのオプションの [PSTN](../pstn-connectivity.md) 接続オプションに関するページを参照してください。
    
@@ -83,7 +84,7 @@ ms.locfileid: "62190818"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

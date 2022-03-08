@@ -1,9 +1,9 @@
 ---
 title: Teams における承認アプリケーションの利用の可否
-author: SerdarSoysal
-ms.author: serdars
+author: guptaashish
+ms.author: guptaashish
 ms.reviewer: farhazk
-manager: serdars
+manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea3da24dc0fa3a64d90b38a67b13be0fa4d041ce
-ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
+ms.openlocfilehash: 10adab9046a7cbd8cebccf6167075e38b1204dea
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "62421550"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070436"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 承認アプリの利用の可否
 
@@ -110,7 +110,7 @@ Teams アプリの承認では、次の機能にアクセスできます。
 
   1. Teams 管理センターにサインインします。
 
-  2. [アプリの **管理Teamsアプリ** > **の管理] に移動します**。
+  2. **[Teams アプリ]** > **[アプリの管理]** の順に移動します。
 
   3. 承認アプリを検索します。
 
@@ -204,7 +204,7 @@ Teams 管理センターを使用して、承認アプリでユーザーが利�
 
 1. 管理センターの左側のナビゲーションTeamsアプリの管理Teams **に** > **移動します**。
 2. [承認] アプリを検索し、それを選択します。
-3. [**設定]タブ** に移動し、次のいずれかの操作を行います。
+3. [設定] **タブ設定**、次のいずれかの操作を行います。
 
     - Adobe Sign を有効または無効にするには、トグルを [オン] または [オフ **] に** 切り **替えます**。
     - DocuSign を有効または無効にするには、トグルを [オン] または [オフ] **に切り****替えます**。

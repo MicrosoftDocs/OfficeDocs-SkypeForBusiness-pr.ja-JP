@@ -13,12 +13,12 @@ f1.keywords:
 description: Microsoft Teams の統合されたサービスとしてのコンタクト センター（CCaaS）ソリューションの概要
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7593264efff9935df0606c1fad7e32006ea52c44
-ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
+ms.openlocfilehash: 52de716c35e934e13140af278814a93620dd4962
+ms.sourcegitcommit: 2c8d6183920fd0df7e0491cf4e79b2311503dba7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "62863910"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63073745"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>連絡先センターと連絡先センターの統合Microsoft Teams
 
@@ -26,16 +26,16 @@ ms.locfileid: "62863910"
 
 ## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>連絡先センターの統合とは何Microsoft Teams?
 
-Microsoft Teamsは、チャット、ビデオ会議、通話などの通信モードを通して、内部および外部の顧客接続のハブとして機能することで、顧客の対話作業ストリームをサポートします。 組織によっては、自動応答[Microsoft Teams通話キュー](./cloud-voice-landing-page.md)など、クラウド音声機能が[](./what-are-phone-system-auto-attendants.md)ニーズを満[](./create-a-phone-system-call-queue.md)たしています。
+Microsoft Teamsは、チャット、ビデオ会議、通話などの通信モードを通して、内部および外部の顧客接続のハブとして機能することで、顧客の対話作業ストリームをサポートします。 組織によっては、自動応答[Microsoft Teams通話キュー](./cloud-voice-landing-page.md)など、クラウド音声機能がニーズ[](./what-are-phone-system-auto-attendants.md)を満た[](./create-a-phone-system-call-queue.md)しています。
 
-ビジネス ツールとワークフローを備えるソリューションを使用して顧客体験を実現したい組織の場合、Microsoft Teams のコンタクト センター統合により、Contact Center as a Service (CCaaS) ソリューション プロバイダーはソリューションを Teams に統合できます。
+ビジネス ツールとワークフローを備えるソリューションが顧客体験を後押しする必要がある組織では、Microsoft Teams のコンタクト センター統合により、Contact Center as a Service (CCaaS) ソリューション プロバイダーはソリューションを Teams に統合できます。
 
 
 ## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>認定プログラム用の接続Microsoft Teamsセンター
 
 Microsoft Teams 認定プログラム用の接続されたコンタクト センターでは、参加している各プロバイダーのソリューションが、Microsoft ソリューションから期待される品質、互換性、信頼性を提供する必要があります。
 
-統合されたコンタクト センター ソリューションを探している組織の場合は、「認定ソリューション プロバイダーの一覧については、連絡先センター向け[認定 Microsoft Teams](https://cloudpartners.transform.microsoft.com/contact-center-solutions) ソリューション」を参照し、認定プロセスの[](#connected-contact-center-solutions)プロバイダーの一覧については、「接続された連絡先センター ソリューション」を参照してください。
+統合されたコンタクト センター ソリューションを探している組織の場合は、「認定ソリューション プロバイダーの一覧については、連絡先センター向け[認定 Microsoft Teams](https://cloudpartners.transform.microsoft.com/contact-center-solutions) ソリューション」を参照し、認定プロセスのプロバイダー[](#connected-contact-center-solutions)の一覧については、「接続された連絡先センター ソリューション」を参照してください。
 
 認定プログラムへの参加を希望しているベンダーの場合は、 にメールでお問い合わせください <Teamscategorypartner@microsoft.com>。
 
@@ -44,7 +44,7 @@ Microsoft Teams 認定プログラム用の接続されたコンタクト セン
 
 ## <a name="connected-contact-center-solutions"></a>コネクテッド コンタクト センター ソリューション
 
-次のプロバイダーは、Connect、拡張、または Power 統合モデルのいずれかを使用して、Teams に統合されたコンタクト センター ソリューションを提供します。
+次のプロバイダーは、Teams、拡張、または Power 統合モデルのいずれかを使用して、Connect に統合されたコンタクト センター ソリューションを提供します。
 
 ### <a name="certified-solutions"></a>認定ソリューション
 
@@ -60,6 +60,7 @@ Microsoft Teams 認定プログラム用の接続されたコンタクト セン
 | `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `Genesys` | https://www.genesys.com/campaign/get-started-genesys-cloud-microsoft-teams                                      |
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
+| `Tendfor` | https://www.tendfor.com                                                            |
 
 ### <a name="solutions-currently-in-the-certification-process"></a>現在認定プロセス中のソリューション
 
@@ -78,6 +79,5 @@ Microsoft Teams 認定プログラム用の接続されたコンタクト セン
 | `Netcall` | https://www.netcall.com/platform/contact-centre/                         |
 | `novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
-| `Tendfor` | https://www.tendfor.com/en/                                                                                     |
 
 この一覧は、より多くのソリューション プロバイダーが参加し、認定基準を満たすと更新されます。

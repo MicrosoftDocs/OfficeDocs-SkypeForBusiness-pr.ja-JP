@@ -1,8 +1,8 @@
 ---
 title: アプリをカスタマイズMicrosoft Teams
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.reviewer: v-tbasra
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: アプリをカスタマイズする方法については、Microsoft Teams。
-ms.openlocfilehash: cac5bc4e5d2748b8e4a9143d50e40dbf96ae80a0
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 7fb940ed512c96bd4aa4519bcdabbf9adcbe86a8
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62410620"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070426"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>アプリをカスタマイズMicrosoft Teams
 
- Microsoft Teamsは、アプリのカスタマイズを提供して、ユーザー エクスペリエンスTeamsします。 一部のアプリ開発者は、管理者がアプリをカスタマイズTeamsします。管理者は、管理センターの [アプリの管理] ページを使用して、組織のニーズに基Teamsのカスタマイズまたはブランド変更 **を行** えます。 カスタマイズできる詳細は次のとおりです。
+ Microsoft Teamsは、アプリのカスタマイズを提供して、アプリのエクスペリエンスTeamsします。 一部のアプリ開発者は、管理者がアプリをカスタマイズTeamsします。管理者は、管理センターの [アプリの管理] ページを使用して、組織のニーズに基Teamsのカスタマイズまたはブランド変更 **を行** えます。 カスタマイズできる詳細は次のとおりです。
 
 - 短い名前
 - 簡単な説明
@@ -39,10 +39,10 @@ ms.locfileid: "62410620"
 - アウトライン アイコン
 - アクセント カラー
 
-カスタマイズできる[Teamsの詳細については](/microsoftteams/platform/resources/schema/manifest-schema)、「マニフェスト スキーマ」を参照してください。
+カスタマイズできる[Teamsの詳細については](/microsoftteams/platform/resources/schema/manifest-schema)、マニフェスト スキーマに関するページを参照してください。
 
 > [!NOTE]
-> 現時点では、Government Community Cloud High (GCCH) または国防総省 (DoD) では、アプリのカスタマイズはサポートされていません。
+> 現時点では、アプリのカスタマイズは Government Community Cloud High (GCCH) または国防総省 (DoD) ではサポートされていません。
 > 現時点では、この機能はサイドロードされたアプリMicrosoft Teamsできません。
 
 ## <a name="customize-the-apps-details"></a>アプリの詳細をカスタマイズする
@@ -101,7 +101,7 @@ ms.locfileid: "62410620"
 
    カスタマイズしたアプリが [アプリの管理] ページ **に表示** されます。 アプリの機能をカスタマイズしてもアプリのコピーは作成されていないので、アプリのバージョンは 1 つのみです。
 
-これで、Teams エンド ユーザーは、カスタマイズされたアプリTeamsクライアントを開き、カスタマイズされたアプリを表示できます。
+これで、Teamsエンド ユーザーは、カスタマイズされたアプリをTeamsクライアントを開き、カスタマイズされたアプリを表示できます。
 
    ![カスタム クライアントでのTeamsアプリ。](media/contoso-app.png)
 
@@ -155,7 +155,7 @@ ms.locfileid: "62410620"
 
 **アプリ プロバイダーは、顧客のためにアプリをカスタマイズできますか。**
 
- いいえ。テナントの管理者は、管理センターの管理者を使用して、テナントのアプリTeams必要があります。
+ いいえ。テナントの管理者は、管理センターでテナントのアプリをカスタマイズTeams必要があります。
 
 **テナント内の現在のカスタム アプリを置き換えるカスタマイズされたアプリは自動的にデプロイされますか?**
 

@@ -3,9 +3,9 @@ title: Microsoft Teams のアプリ、ボット、およびコネクタ
 ms.reviewer: ''
 description: アプリ、ボット、コネクタについて、および組織のプロファイルとビジネスの要件に基づいてどれを Microsoft Teams に展開するかについて説明します。
 ms.topic: article
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 audience: admin
 ms.date: 02/10/2021
 ms.service: msteams
@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a2789e522e666894ca58c8b22e9d571b35a4fb26
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 05d683bbefa9b3cc564e4f97e52f0fad441f2763
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618513"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070396"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Microsoft Teams のアプリ、ボット、およびコネクタ
 
@@ -37,7 +37,7 @@ Teams には、リスト、Tasks、称賛、承認などを含む一連の組み
 
 ## <a name="use-third-party-apps"></a>サードパーティ製アプリを使用する
 
-Microsoft 提供のアプリに加えて、Microsoft 認定のサードパーティ製アプリを使用できます。 Microsoft は、Microsoft 365 開発者パートナーと協力して、Teams アプリとアドインの使用に関する決定を迅速化するために必要な情報を提供します。詳細については、「[Microsoft Teams アプリのセキュリティとコンプライアンス](/microsoft-365-app-certification/teams/teams-apps)」を参照してください。
+Microsoft が提供するアプリに加えて、Microsoft 認定のサード パーティ製アプリを使用できます。Microsoft は、Microsoft 365開発者パートナーと協力して、Teams アプリとアドインの使用に関する決定を迅速化するために必要な情報を提供します。詳細については、「[Microsoft Teams App Security and Compliance](/microsoft-365-app-certification/teams/teams-apps)」を参照してください。
 
 ## <a name="use-teams-templates"></a>Teams テンプレートを使用する
 
@@ -69,7 +69,7 @@ Teams は、Microsoft とサード パーティによって発行された複数
 
 ### <a name="app-permissions-and-other-considerations"></a>アプリのアクセス許可とその他の考慮事項
 
-アプリはユーザーが同意し、管理者または IT 担当者がポリシーによって管理します。 ただし、ほとんどの場合、アプリのアクセス許可とリスク プロファイルはアプリ自体で定義されています。 
+アプリはユーザーが同意し、管理者または IT 担当者がポリシーによって管理します。 ただし、アプリのアクセス許可とリスク プロファイルは、アプリ自体で定義されます。
 
 | 確認事項 | アクション |
 |--------------|--------|
@@ -120,7 +120,7 @@ Teams は、Microsoft とサード パーティによって発行された複数
 
 アプリ テンプレートは、Microsoft Teams 用の実稼働可能なアプリです。コミュニティ主導型、オープン ソースで、GitHub で利用できます。 各アプリには、組織用に展開してインストールするための詳細な手順が記載されています。使用可能な状態でアプリが提供されているため、すぐにインストールして使用を開始できます。 完全なソースコードも利用できるので、詳細を調べたり、コードをフォークして特定のニーズに合わせて変更したりできます。
 
-| 確認事項 | 操作 |
+| 確認事項 | アクション |
 |--------------|--------|
 | アイスブレーカーなどの Teams アプリ テンプレートをインストールしますか? |詳細については、「[Microsoft Teams 用のアプリ テンプレート](/microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=MicrosoftTeams%2ftoc.json)」を参照してください。|
 |||
