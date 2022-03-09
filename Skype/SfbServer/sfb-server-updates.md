@@ -12,13 +12,13 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
-description: 2019 年と 2015 Skype for Business Server Lync Server 2013 と 2010 の更新プログラムを 1 か所で検索して管理します。 このページのリンクを使用して、更新プログラムに関する詳細な情報を取得し、更新プログラムをダウンロードしてください。
-ms.openlocfilehash: 68b34b75cf0e671f5927c4e006e5567052be6e4e
-ms.sourcegitcommit: d8dba15c520de3894d1781e17acb2c75fb38ed49
+description: 2019 年と 2015 年Skype for Business Server Lync Server 2013 と 2010 の更新プログラムを 1 か所で検索して管理します。 このページのリンクを使用して、更新プログラムに関する詳細な情報を取得し、更新プログラムをダウンロードしてください。
+ms.openlocfilehash: c9a30c0671302f8cc8c3f27927e3a058dc3cfcd7
+ms.sourcegitcommit: 109be23768ae183e07a0833fa9a9e5cb0369cb43
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "62921865"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63368402"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server 更新プログラム
 
@@ -61,24 +61,24 @@ ms.locfileid: "62921865"
 |:--- |:--- |:--- |
 |Skype for Business Server 2015 累積的な更新プログラム 12 の修正プログラム 1|[KB 3061064](https://support.microsoft.com/kb/3061064)|2022 年 2 月 |
 |Skype for Business Server 2015 累積的な更新プログラム 12|[KB 3061064](https://support.microsoft.com/kb/3061064)|2021 年 8 月 |
-|Skype for Business Server 2015 累積的な更新プログラム 11 修正プログラム 2|[KB 3061064](https://support.microsoft.com/kb/3061064)|2020 年 11 月 |
+|Skype for Business Server 2015 累積的な更新プログラム 11 の修正プログラム 2|[KB 3061064](https://support.microsoft.com/kb/3061064)|2020 年 11 月 |
 |Skype for Business Server 2015 累積的な更新プログラム 11 の修正プログラム 1|[KB 3061064](https://support.microsoft.com/kb/3061064)|2020 年 7 月 |
 |Skype for Business Server 2015 累積的な更新プログラム 11|[KB 3061064](https://support.microsoft.com/kb/3061064)|2020 年 5 月 13 日 |
 |Skype for Business Server 2015 累積的な更新プログラム 10 修正プログラム 1|[KB 3061064](https://support.microsoft.com/kb/3061064)|2019 年 8 月 |
 |Skype for Business Server 2015 累積的な更新プログラム 10 |[KB 3061064](https://support.microsoft.com/kb/3061064)|2019 年 7 月 |
 |2015 年 2015 Skype for Business Server Web コンポーネント サーバーの累積的な更新プログラム 9|[KB 4487981](https://support.microsoft.com/kb/4487981)|2019 年 5 月 |
 |2015、Skype for Business Server エンド サーバー、エッジ サーバーの累積的な更新プログラム 8|[KB 4464355](https://support.microsoft.com/kb/4464355)|2019 年 1 月|
-|2015 年 2015 年Skype for Business Serverフロントエンド サーバーとエッジ サーバーの累積的な更新プログラム 7 |[KB 4340904](https://support.microsoft.com/kb/4340904) |2018 年 7 月 |
+|2015、Skype for Business Server エンド サーバー、エッジ サーバーの累積的な更新プログラム 7 |[KB 4340904](https://support.microsoft.com/kb/4340904) |2018 年 7 月 |
 |累積的な更新プログラム 6 Hotfix 2 for Skype for Business Server 2015、フロントエンド サーバー、エッジ サーバー |[KB 4086059](https://support.microsoft.com/kb/4086059) |2018 年 3 月 |
 |累積的な更新プログラム 6 Hotfix 1 for Skype for Business Server 2015、フロントエンド サーバー、エッジ サーバー |[KB 4074701](https://support.microsoft.com/kb/4074701)|2018 年 1 月 |
 |2015 年 2015 年Skype for Business Serverフロントエンド サーバーとエッジ サーバーの累積的な更新プログラム 6|[KB 4036312](https://support.microsoft.com/kb/4036312) |2017 年 12 月 |
-|2015、Skype for Business Server エンド サーバー、エッジ サーバーの累積的な更新プログラム 5  |[KB 4012621](https://support.microsoft.com/kb/4012621) |2017 年 5 月 |
+|2015 年 2015 Skype for Business Server フロントエンド サーバーとエッジ サーバーの累積的な更新プログラム 5  |[KB 4012621](https://support.microsoft.com/kb/4012621) |2017 年 5 月 |
 |累積的な更新プログラム 4 Hotfix 1 for Skype for Business Server 2015、フロントエンド サーバー、エッジ サーバー |[KB 3207506](https://support.microsoft.com/kb/3207506) |2017 年 2 月 |
-|2015 年 2015 年Skype for Business Serverフロントエンド サーバーとエッジ サーバーの累積的な更新プログラム 4 |[KB 3199093](https://support.microsoft.com/kb/3199093) |2017 年 11 月 |
-|2015、Skype for Business Server エンド サーバー、エッジ サーバーの累積的な更新プログラム 3 |[KB 3149227](https://support.microsoft.com/kb/3149227) |2016 年 6 月 |
-|2015、Skype for Business Server エンド サーバー、エッジ サーバーの累積的な更新プログラム 2 |[KB 3134260](https://support.microsoft.com/kb/3134260) |2016 年 3 月 |
-|2015 年 2015 年Skype for Business Serverフロントエンド サーバーとエッジ サーバーの累積的な更新プログラム 1 |[KB 3097645](https://support.microsoft.com/kb/3097645) |2015 年 11 月 |
-|2015 Skype for Business Serverコア コンポーネントの累積的な更新プログラム |[KB 3098601](https://support.microsoft.com/kb/3098601) |2015 年 9 月 |
+|2015、Skype for Business Server エンド サーバー、エッジ サーバーの累積的な更新プログラム 4 |[KB 3199093](https://support.microsoft.com/kb/3199093) |2017 年 11 月 |
+|2015 年 2015 年Skype for Business Serverフロントエンド サーバーとエッジ サーバーの累積的な更新プログラム 3 |[KB 3149227](https://support.microsoft.com/kb/3149227) |2016 年 6 月 |
+|2015 年 2015 Skype for Business Server フロントエンド サーバーとエッジ サーバーの累積的な更新プログラム 2 |[KB 3134260](https://support.microsoft.com/kb/3134260) |2016 年 3 月 |
+|2015、Skype for Business Server エンド サーバー、エッジ サーバーの累積的な更新プログラム 1 |[KB 3097645](https://support.microsoft.com/kb/3097645) |2015 年 11 月 |
+|2015 年 2015 Skype for Business Serverコア コンポーネントの累積的な更新プログラム |[KB 3098601](https://support.microsoft.com/kb/3098601) |2015 年 9 月 |
 |2015、Skype for Business Server エンド サーバー、エッジ サーバーの累積的な更新プログラム|[KB 3061059](https://support.microsoft.com/kb/3061059) |2015 年 6 月 |
 ||||
 
@@ -97,10 +97,11 @@ ms.locfileid: "62921865"
 
 |パッケージ名|KB 番号|リリース日|
 |:--- |:--- |:--- |
-|Lync Server 2013 累積的な更新プログラム 10 の修正プログラム 6 |[KB 5003602](https://support.microsoft.com/kb/5003602)|2021 年 5 月|
-|Lync Server 2013 累積的な更新プログラム 10 の修正プログラム 5 |[KB 2809243](https://support.microsoft.com/kb/2809243)|2021 年 2 月|
-|Lync Server 2013 累積的な更新プログラム 10 の修正プログラム 4 |[KB 4515509](https://support.microsoft.com/kb/4515509)|2020 年 7 月|
-|Lync Server 2013 累積的な更新プログラム 10 の修正プログラム 3 |[KB 4515509](https://support.microsoft.com/kb/4515509)|2019 年 9 月|
+|Lync Server 2013 累積的な更新プログラム 10 Hotfix 7 |[KB 5010850](https://support.microsoft.com/kb/5010850)|2022 年 2 月|
+|Lync Server 2013 累積的な更新プログラム 10 の修正プログラム 6 |[KB 5003729](https://support.microsoft.com/kb/5003729)|2021 年 5 月 11 日|
+|Lync Server 2013 累積的な更新プログラム 10 の修正プログラム 5 |[KB 5000675](https://support.microsoft.com/kb/5000675) KB [5000688](https://support.microsoft.com/kb/5000688)|2021 年 2 月 9 日|
+|Lync Server 2013 累積的な更新プログラム 10 の修正プログラム 4 |[KB 4564312](https://support.microsoft.com/kb/4564312)|2020 年 7 月|
+|Lync Server 2013 累積的な更新プログラム 10 の修正プログラム 3 |[KB 4518345](https://support.microsoft.com/kb/4518345)|2019 年 9 月|
 |Lync Server 2013 累積的な更新プログラム 10 Hotfix 2 |[KB 4501392](https://support.microsoft.com/kb/4501392)|2019 年 6 月|
 |Lync Server 2013 累積的な更新プログラム 10 の修正プログラム 1 |[KB 4458772](https://support.microsoft.com/kb/4458772)|2019 年 1 月|
 |Lync Server 2013 累積的な更新プログラム 10 |[KB 4295703](https://support.microsoft.com/kb/4295703)|2018 年 7 月 |
@@ -144,7 +145,7 @@ ms.locfileid: "62921865"
 
 #### <a name="pre-configured-vhds"></a>事前構成された VHDs
 
-完全なトポロジは 7 台の仮想マシンで構成され、Microsoft Lync 2013、Microsoft Exchange 2013、SharePoint 2013、UC 開発者プラットフォーム API (Microsoft Lync 2013 SDK、Exchange Web Services マネージ API 2.0、Microsoft Lync Server 2013 SDK、Microsoft Unified Communications Managed API 4.0 を含む) を完全に評価できます。
+完全なトポロジは、Microsoft Lync 2013、Microsoft Exchange 2013、SharePoint 2013、UC 開発者プラットフォーム API (Microsoft Lync 2013 SDK、Exchange Web Services マネージ API 2.0、Microsoft Lync Server 2013 SDK、Microsoft Unified Communications Managed API 4.0 を含む) を完全に評価できる 7 つの仮想マシンで構成されています。
 
 パッケージ名 |リリース日|
 |:--- |:--- |
@@ -252,7 +253,7 @@ ms.locfileid: "62921865"
 
 ### <a name="resource-kit-technical-reference"></a>リソース キット (テクニカル リファレンス)
 
-[Microsoft Lync Server 2010 リソース](https://www.microsoft.com/download/en/details.aspx?id=22644) キットのダウンロード サイトにアクセスして、書籍の章を個別にダウンロードするか、リソース キットのすべての [19](https://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip) 章を含む .zip ファイルをダウンロードします。
+[Microsoft Lync Server 2010 リソース](https://www.microsoft.com/download/en/details.aspx?id=22644) キットダウンロード サイトにアクセスして、書籍の章を個別にダウンロードするか、リソース キットの [19](https://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip) 章すべてが含まれる .zip ファイルをダウンロードします。
 
 ### <a name="group-chat"></a>Group Chat
 
