@@ -1127,6 +1127,8 @@ items:
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-slovakia.md
               - name: スロベニアでの電話番号の管理
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-slovenia.md
+              - name: 南アフリカでの電話番号の管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-south-africa.md
               - name: スペインでの電話番号の管理
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md
               - name: オランダでの電話番号の管理
@@ -1373,8 +1375,8 @@ items:
             href: rooms/obtaining-assigning-license.md
           - name: INTUNEP マネージド サービスに登録する
             href: rooms/enrolling-mtrp-managed-service.md
-          - name: インストール
-            href: rooms/monitor-software-installation-guide.md
+          - name: マネージド サービスにデバイスを登録する
+            href: rooms/enroll-a-device.md
           - name: 役割ベースのアクセス制御
             href: rooms/microsoft-teams-rooms-premium-rbac.md
           - name: 会議室の監視と保守
