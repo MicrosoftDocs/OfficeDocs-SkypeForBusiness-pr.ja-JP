@@ -1,55 +1,55 @@
 ### YamlMime:Hub
 title: ユーザー向けエンド ユーザー トレーニングMicrosoft Teams
-summary: Microsoft では、Teams を使いこなすための無料のライブ オンライン トレーニング クラスのシリーズを主催いたします。 ビジネス意思決定者、管理者、IT プロフェッショナルであれ、エンド ユーザーであれ、最適なクラスが用意されています。 参加して、実際Microsoft Teams、質問に回答し、ライブ講師とやり取りします。 自分の時間にトレーニング クラスを表示するには、オンデマンドのエンド ユーザー トレーニングにアクセスしてください。 以下のセッションをクリックしてサインアップしてください。
+summary: Microsoft では、Teams を使いこなすための無料のライブ オンライン トレーニング クラスのシリーズを主催いたします。 ビジネス意思決定者、管理者、IT プロフェッショナルであれ、エンド ユーザーであれ、最適なクラスが用意されています。 ご参加ください。実際Microsoft Teams、質問に回答し、ライブ講師とやり取りしてください。 自分の時間にトレーニング クラスを表示するには、オンデマンドのエンド ユーザー トレーニングにアクセスしてください。 以下のセッションをクリックしてサインアップしてください。
 brand: teams
 metadata:
   title: ユーザー向けエンド ユーザー トレーニングMicrosoft Teams
-  description: Microsoft では、お客様をサポートするために設計された無料のライブ仮想トレーニング クラスを提供Teams。 ビジネス意思決定者、管理者、IT プロフェッショナルであれ、エンド ユーザーであれ、最適なクラスが用意されています。 参加して、実際Microsoft Teams、質問に回答し、ライブ講師とやり取りします。 以下のセッションをクリックしてサインアップし、以下の他のコースを確認してください。
+  description: Microsoft では、お客様をサポートするために設計された無料のライブ仮想トレーニング クラスを提供Teams。 ビジネス意思決定者、管理者、IT プロフェッショナルであれ、エンド ユーザーであれ、最適なクラスが用意されています。 ご参加ください。実際Microsoft Teams、質問に回答し、ライブ講師とやり取りしてください。 以下のセッションをクリックしてサインアップし、以下の他のコースを確認してください。
   ms.topic: hub-page
   author: SerdarSoysal
-  ms.author: serdars
-  ms.date: 06/16/2020
+  ms.author: samanro
+  ms.date: 03/04/2022
 highlightedContent:
   items:
-    - title: Microsoft Teams の概要
+    - title: Microsoft Teams の紹介
       itemType: overview
-      url: 'https://aka.ms/SayhelloTeams'
-    - title: オンデマンドのエンドユーザー トレーニング
+      url: 'https://youtu.be/UoWHXrmIszg'
+    - title: Teams の使用を開始する
       itemType: video
-      url: 'https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
+      url: 'https://aka.ms/GetstartedwithMSTeams'
     - title: Microsoft 365 導入ツール
       itemType: deploy
       url: 'https://adoption.microsoft.com'
 productDirectory:
   items:
-    - title: Teams の使用を開始する
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-teams.svg'
-      summary: 'チャットや会議からチームやチャネルの使用まで、ユーザーが Teams を安心して使用するための基礎をこのセッションで学びます。 (対象ユーザー: すべてのユーザー)'
-      url: 'https://aka.ms/GetstartedwithMSTeams'
-    - title: Teams でチャットと通話を使用する
+    - title: Teams での通話と会議
       imageSrc: 'https://docs.microsoft.com/office/media/icons/chat.svg'
-      summary: 'すべての会話を 1 つのプラットフォームから集中的に管理する方法について説明します。 (対象ユーザー: すべてのユーザー)'
-      url: 'https://aka.ms/ChatCallingInTeams'
-    - title: Teams で効率的な会議を開く
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/calendar-teams.svg'
-      summary: '会議をより魅力的で生産性の高い、意味のあるものにする方法について説明します。 (対象ユーザー: すべてのユーザー)'
-      url: 'https://aka.ms/RunmeetingsTeams'
+      summary: '通話と会議を使用して、リアルタイムで共同作業を行い、接続を続け、共有コンテンツにいつでもアクセスして、学習、計画、革新を行います。 (Level: Teams Basics;対象ユーザー: すべてのユーザー)'
+      url: 'https://aka.ms/CallingMeetingsTraining'
     - title: Teams でチームとチャネルを確認する
       imageSrc: 'https://docs.microsoft.com/office/media/icons/users-group.svg'
-      summary: 'プロジェクトとワークグループの共同作業を合理化する方法を説明します。 (対象ユーザー: すべてのユーザー)'
-      url: 'https://aka.ms/TeamsandchannelsinTeams'
-    - title: Teams で共同作業用ワークスペースを構築する
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/structure-teams.svg'
-      summary: 'プロジェクトやワークグループのためのワーク スペースを作成するために最適なアプローチを決定する方法を探ります。 (対象ユーザー: すべてのユーザー)'
-      url: 'https://aka.ms/CollaborateInTeams'
-    - title: アプリケーションでプロのヒントを使用Teams
+      summary: 'チームとチャネルの価値と、仮想ワークスペースまたはグループ全体での共同作業に役立つ方法について説明します。 (Level: Teams Basics;対象ユーザー: すべてのユーザー)'
+      url: 'https://aka.ms/TeamsChannelsTraining'
+    - title: ヒント、ショートカット、および新しい機能Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg'
-      summary: 'Teams を活用して仕事を整理し、同僚とのつながりを保つ方法について説明します。 (対象ユーザー: すべてのユーザー)'
+      summary: 'パワー ユーザーになるためのヒントとショートカットについて学習します。 新機能を見つけて、最新機能に関する専門家の指示を見つける。 (Level: Teams Basics;対象ユーザー: すべてのユーザー)'
       url: 'https://aka.ms/TeamsProTips'
-    - title: Microsoft Teams YouTube
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/video-play.svg'
-      summary: 'サブスクライブして、最新の機能、ヒント、テクニックなどについて最初に学習します。 (対象ユーザー: すべてのユーザー)'
-      url: 'https://www.youtube.com/MicrosoftTeams'
+    - title: 他の会議と一緒Teamsする
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/calendar-teams.svg'
+      summary: 'コラボレーション ツール、Teams、会議リソースへのアクセスなど、会議やウェビナーの主な機能について学習します。 (レベル: Teams進む;対象ユーザー: すべてのユーザー)'
+      url: 'https://aka.ms/MeetingsGoFurther'
+    - title: アプリTeamsをカスタマイズする
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/blocks-teams.svg'
+      summary: '1 つのユーザー インターフェイスにTeamsアプリ統合がどのように表示され、従業員が連携してより良い作業を行えるのかをご確認ください。 (レベル: Teams進む;対象ユーザー: すべてのユーザー)'
+      url: 'https://aka.ms/Teamsappstraining'
+    - title: ハイブリッド作業ソリューション
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/hybrid-teams.svg'
+      summary: '新しい作業方法に適応して、接続性、セキュリティ、生産性を維持します。 会議、通話、チャット、アプリなど、1 か所で生産性を高める方法について学習します。 (レベル: Teams進む;対象ユーザー: すべてのユーザー)'
+      url: 'https://aka.ms/HybridWorkTraining'
+    - title: 他のユーザーとのコラボレーションをTeams
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/structure-teams.svg'
+      summary: 'チャネル、チャット、接続されたアプリを使用して、コミュニケーションを改善し、すべてのサイズのチーム間の共同作業を深める方法について学習します。 (Level: Teams Basics;対象ユーザー: すべてのユーザー)'
+      url: 'https://aka.ms/CollaborateInTeams'
     - title: Teams for Education - ウェビナー
       imageSrc: 'https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg'
       summary: '高等教育機関で Teams を使用する方法について説明します。 (対象ユーザー: スタッフ、学生、教育関係者、研究教員、IT プロフェッショナル)'
@@ -60,11 +60,14 @@ productDirectory:
       url: 'https://aka.ms/upgradeworkshops'
 additionalContent:
   sections:
-    - title: コース
+    - title: 追加のトレーニング
       items:
         - title: Teamwork Specialist ラーニング パス
-          summary: コラボレーションは、今日の作業能力にとって不可欠なスキルです。 Microsoft Teams内の堅牢な機能を使用して、チームとの接続を高め、より効率的に作業する方法について学習します。
+          summary: コラボレーションは、今日の作業能力にとって不可欠なスキルです。 チーム内の堅牢な機能をMicrosoft Teamsを使用して、チームとのより効率的な作業を行う方法について学習します。
           url: /learn/paths/teamwork-specialist
         - title: サービス導入スペシャリストのラーニングパス
-          summary: Microsoft Service Adoption Specialist ラーニング Path 機能Teamsその他のサービスMicrosoft 365します。 組織で新しいサービスの導入をMicrosoft サービス方法について学習します。
+          summary: Microsoft Service Adoption Specialist ラーニング Path 機能Teamsその他Microsoft 365サービスです。 組織でのアプリケーションの導入を促進するMicrosoft サービス学習します。
           url: /learn/paths/m365-service-adoption
+        - title: オンデマンド トレーニング ビデオ
+          summary: クラスの時間がない場合 オンデマンド トレーニングについては、Microsoft サポートのビデオ のカタログをご覧ください。
+          url: 'https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
