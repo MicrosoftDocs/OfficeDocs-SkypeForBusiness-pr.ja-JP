@@ -1,8 +1,8 @@
 ---
-title: 2015 年に常設チャット ルーム用のアドインをSkype for Business Serverする
+title: 2015 年に常設チャット ルームのアドインをSkype for Business Serverする
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -13,14 +13,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: '概要: 2015 年に常設チャット サーバー チャット ルーム用のアドインを構成するSkype for Business Serverします。'
-ms.openlocfilehash: c23a0dd11d51bbfa1c49d8a910decda5be0ac48f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0020c85b5354738083a213e66cc7cc953e5b7e32
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854301"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402891"
 ---
-# <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>2015 年に常設チャット ルーム用のアドインをSkype for Business Serverする
+# <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>2015 年に常設チャット ルームのアドインをSkype for Business Serverする
  
 **概要:** 2015 年に常設チャット サーバー チャット ルーム用のアドインを構成するSkype for Business Serverします。
   
@@ -29,7 +29,7 @@ ms.locfileid: "60854301"
  ユーザーがクライアントでアドインを見る前に、登録されているアドインの一覧にアドインを追加する必要があります。チャット ルームの管理者またはクリエイターは、ルームをアドインに関連付ける必要があります。
   
 > [!NOTE]
-> 常設チャットは 2015 Skype for Business Serverで使用できますが、2019 年Skype for Business Serverではサポートされていません。 同じ機能は、Teams。 詳細については、「アップグレードの開始[方法」をMicrosoft Teamsしてください](/microsoftteams/upgrade-start-here)。 常設チャットを使用する必要がある場合は、この機能を必要とするユーザーを Teams に移行するか、2015 年Skype for Business Serverします。 
+> 常設チャットは 2015 Skype for Business Serverで使用できますが、2019 年Skype for Business Serverではサポートされていません。 同じ機能は、Teams。 詳細については、「アップグレードの開始[方法」をMicrosoft Teamsしてください](/microsoftteams/upgrade-start-here)。 常設チャットを使用する必要がある場合は、この機能を必要とするユーザーを Teams に移行するか、Skype for Business Server 2015 をSkype for Business Serverします。 
 
 ## <a name="configure-add-ins-for-chat-rooms-by-using-the-control-panel"></a>コントロール パネルを使用してチャット ルームのアドインを構成する
 
@@ -57,7 +57,7 @@ ms.locfileid: "60854301"
     
 ## <a name="configure-add-ins-by-using-windows-powershell"></a>アドインを使用してアドインを構成Windows PowerShell
 
-次のコマンドレットを使用して、チャット ルーム用のアドインWindows PowerShellできます。 使用可能なすべてのパラメーターを含む構文の詳細については[、「Skype for Business Server 2015 管理シェル」を参照してください](../management-shell.md)。
+次のコマンドレットを使用して、チャット ルーム用のアドインをWindows PowerShellできます。 使用可能なすべてのパラメーターを含む構文の詳細については、「Skype for Business Server [2015 管理シェル」を参照してください](../management-shell.md)。
   
 
 |**コマンドレット**|**説明**|
@@ -71,7 +71,7 @@ ms.locfileid: "60854301"
 
 **New-CsPersistentChatAddin** コマンドレットを使用して、新しいアドインを作成できます。
   
-たとえば、次のコマンドは、プールの新しいアドイン (ITPersistentChatAddin という名前) を作成します `atl-cs-001.contoso.com` 。 URL パラメーターとパラメーター値は、アドインの Web ページの `http://atl-cs-001.contoso.com/itchat` 場所を指定します。
+たとえば、次のコマンドは、プールの新しいアドイン (ITPersistentChatAddin という名前) を作成します `atl-cs-001.contoso.com`。 URL パラメーターとパラメーター値は `http://atl-cs-001.contoso.com/itchat` 、アドインの Web ページの場所を指定します。
   
 ```PowerShell
 New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn "atl-cs-001.contoso.com" -Url "http://atl-cs-001.contoso.com/itchat"
@@ -79,7 +79,7 @@ New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn 
 
 ### <a name="configure-settings-for-an-existing-add-in"></a>既存のアドインの設定を構成する
 
-**Set-CsPersistentChatAddIn** コマンドレットを使用して、既存のアドインの設定を構成できます。 たとえば、次のコマンドは、常設チャット アドイン ITPersistentChatAddin に割り当てられた URL を変更します。 この場合、URL は次に変更されます `http://atl-cs-001.contoso.com/itchat2` 。
+**Set-CsPersistentChatAddIn** コマンドレットを使用して、既存のアドインの設定を構成できます。 たとえば、次のコマンドは、常設チャット アドイン ITPersistentChatAddin に割り当てられた URL を変更します。 この場合、URL は次に変更されます `http://atl-cs-001.contoso.com/itchat2`。
   
 ```PowerShell
 Set-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITPersistentChatAddin" -Url "http://atl-cs-001.contoso.com/itchat2"
@@ -95,7 +95,7 @@ Get-CsPersistentChatAddin
 
 ### <a name="remove-an-add-in"></a>アドインを削除する
 
-**Remove-CsPersistentChatAddIn** コマンドレットを使用してアドインを削除できます。 たとえば、次のコマンドは、プールで見つかった常設チャット アドイン ITChatAddin を削除します `atl-cs-001.contoso.com` 。
+**Remove-CsPersistentChatAddIn** コマンドレットを使用してアドインを削除できます。 たとえば、次のコマンドは、プールで見つかった常設チャット アドイン ITChatAddin を削除します `atl-cs-001.contoso.com`。
   
 ```PowerShell
 Remove-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITChatAddin"

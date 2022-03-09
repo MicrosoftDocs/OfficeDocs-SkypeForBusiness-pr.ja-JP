@@ -1,7 +1,7 @@
 ---
 title: Teams でブリッジ設定を管理する
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: ''
 ms.topic: article
@@ -18,18 +18,18 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams でブリッジ設定を管理する方法についてMicrosoft Teams
-ms.openlocfilehash: 5eac35e18a3b5958cd2c333f17cb5d539206e007
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 4fb6a51b7413f9a4137cda70467003d7c0009498
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829571"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401641"
 ---
 # <a name="manage-bridge-settings-in-teams"></a>Teams でブリッジ設定を管理する
 
-会議や電話Microsoft Teams前と通話中に、会議の開催者にはブリッジ設定を選択するためのオプションがいくつかあります。 詳細については、次の記事を参照してください。
+会議や電話Microsoft Teams前に、会議の開催者にはブリッジ設定を選択するためのオプションがいくつかあります。 詳細については、次の記事を参照してください。
 
 - [ユーザーの設定が変更された場合にユーザーに送信Teams](emails-sent-to-users-when-their-settings-change-in-teams.md)
 - [ユーザーが会議に参加するときに自分の名前を記録できる](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
-- [会議の開始と終了の発表をTeamsする](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+- [会議の開始と終了の発表をオフTeamsする](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
 - [電話番号をマスクする](ptsn-mask-phone-numbers.md)

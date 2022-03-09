@@ -1,8 +1,8 @@
 ---
 title: インフラストラクチャのコア インフラストラクチャのベスト プラクティスSkype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -11,21 +11,21 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 44aff88d-536c-4613-a81e-5398c9c6a648
-description: 一般に、システムのフォールト トレランスを構築する方法として、ハードウェアを冗長構成にする、給電が途切れないようにする、セキュリティ更新プログラムやウイルス対策を定期的にインストールする、サーバーの利用状況を監視するなどの手段を既に講じていることでしょう。 これらのプラクティスは、インフラストラクチャだけでなくSkype for Business Serverネットワーク全体にもメリットがあります。 これらのプラクティスを実装していない場合は、展開する前に実行することをお勧Skype for Business Server。
-ms.openlocfilehash: 352541cf2dfa91eef24f09c4aebd2788c589a10f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 一般に、システムのフォールト トレランスを構築する方法として、ハードウェアを冗長構成にする、給電が途切れないようにする、セキュリティ更新プログラムやウイルス対策を定期的にインストールする、サーバーの利用状況を監視するなどの手段を既に講じていることでしょう。 これらのプラクティスは、インフラストラクチャだけでなくSkype for Business Serverネットワーク全体にも役立つ方法です。 これらのプラクティスを実装していない場合は、展開する前に実行することをお勧Skype for Business Server。
+ms.openlocfilehash: 3cd9afbba6014536d146454144456edc91fbf9c0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860944"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400238"
 ---
 # <a name="best-practices-for-your-core-infrastructure-in-skype-for-business-server"></a>インフラストラクチャのコア インフラストラクチャのベスト プラクティスSkype for Business Server
  
-一般に、システムのフォールト トレランスを構築する方法として、ハードウェアを冗長構成にする、給電が途切れないようにする、セキュリティ更新プログラムやウイルス対策を定期的にインストールする、サーバーの利用状況を監視するなどの手段を既に講じていることでしょう。 これらのプラクティスは、インフラストラクチャだけでなくSkype for Business Serverネットワーク全体にもメリットがあります。 これらのプラクティスを実装していない場合は、展開する前に実行することをお勧Skype for Business Server。
+一般に、システムのフォールト トレランスを構築する方法として、ハードウェアを冗長構成にする、給電が途切れないようにする、セキュリティ更新プログラムやウイルス対策を定期的にインストールする、サーバーの利用状況を監視するなどの手段を既に講じていることでしょう。 これらのプラクティスは、インフラストラクチャだけでなくSkype for Business Serverネットワーク全体にも役立つ方法です。 これらのプラクティスを実装していない場合は、展開する前に実行することをお勧Skype for Business Server。
   
-ダウンタイムの原因になる可能性のある偶発的Skype for Business Server、または目的に合った危害からサーバーを保護するために、次の予防措置を講じられます。
+ダウンタイムの原因になる可能性のある偶発的Skype for Business Server、または目的に合った危害からサーバーを保護するには、次の予防措置を講じられます。
   
-- 各サーバーに、常に最新のセキュリティ更新プログラムを適用します。 マイクロソフト テクニカル セキュリティ情報通知サービスに登録すると、マイクロソフト製品に関するセキュリティ速報を受信できます。 購読するには、Microsoft Technical Security Notifications Web サイト [にアクセスします](https://go.microsoft.com/fwlink/p/?LinkId=145202)。
+- 各サーバーに、常に最新のセキュリティ更新プログラムを適用します。 マイクロソフト テクニカル セキュリティ情報通知サービスに登録すると、マイクロソフト製品に関するセキュリティ速報を受信できます。 購読するには、 [Microsoft Technical Security Notifications Web サイトにアクセスします](https://go.microsoft.com/fwlink/p/?LinkId=145202)。
     
 - アクセス権が正しく設定されていることを確認します。
     

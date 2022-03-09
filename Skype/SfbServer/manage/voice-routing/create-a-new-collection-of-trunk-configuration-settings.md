@@ -1,8 +1,8 @@
 ---
 title: 'Skype for Business Server: トランク構成設定の新しいコレクションを作成する'
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: SIP トランク構成設定は、仲介サーバーと公衆交換電話網 (PSTN) ゲートウェイ、IP-public ブランチ エクスチェンジ (PBX)、またはサービス プロバイダーのセッション ボーダー コントローラー (SBC) との関係を定義します。
-ms.openlocfilehash: 501785bacd13053eb3479605220d60e1a2f4d852
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e71c78bf76ca6bbdb67bb06a04012951f0e35c0f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843850"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402871"
 ---
 # <a name="skype-for-business-server-create-a-new-collection-of-trunk-configuration-settings"></a>Skype for Business Server: トランク構成設定の新しいコレクションを作成する
 
@@ -34,7 +34,7 @@ Skype for Business Server コントロール パネルを使用して SIP トラ
 |名前|ID|コレクションの一意の識別子。このプロパティは読み取り専用です。トランク構成設定のコレクションの Identity は変更できません。|
 |説明|説明|管理者が、設定に関する追加情報を格納できます (たとえば、トランク構成の目的)。|
 |サポートされる最大初期ダイアログの数|MaxEarlyDialogs|サービス プロバイダーの PSTN ゲートウェイ、IP-PBX、または SBC が、仲介サーバーに送信した INVITE に対して受信できる分岐応答の最大数です。|
-|暗号化サポート レベル|SRTPMode|仲介サーバーと、サービス プロバイダーの PSTN ゲートウェイ、IP-PBX、または SBC 間のメディア トラフィックを保護するためのサポート レベルを示します。 メディア バイパスの場合、この値はメディア構成の EncryptionLevel 設定と互換性を持つ必要があります。 メディア構成は [、New-CsMediaConfiguration](/powershell/module/skype/New-CsMediaConfiguration) コマンドレットと [Set-CsMediaConfiguration](/powershell/module/skype/Set-CsMediaConfiguration) コマンドレットを使用して設定されます。<br/>有効な値は次のとおりです。<br/><br/>**必須**: SRTP 暗号化を使用する必要があります。<br/>**オプション**: ゲートウェイがサポートしている場合は、SRTP が使用されます。<br/>**サポートされていません**: SRTP 暗号化はサポートされていないので、使用されません。<br/><br/>SRTPMode は、ゲートウェイがトランスポート層セキュリティ (TLS) プロトコルを使用するよう構成されている場合にのみ使用されます。ゲートウェイがトランスポートとして伝送制御プロトコル (TCP) を使用するように構成されている場合は、SRTPMode は内部で Not Supported に設定されます。|
+|暗号化サポート レベル|SRTPMode|仲介サーバーと、サービス プロバイダーの PSTN ゲートウェイ、IP-PBX、または SBC 間のメディア トラフィックを保護するためのサポート レベルを示します。 メディア バイパスの場合、この値はメディア構成の EncryptionLevel 設定と互換性を持つ必要があります。 メディア構成は、 [New-CsMediaConfiguration](/powershell/module/skype/New-CsMediaConfiguration) コマンドレットと [Set-CsMediaConfiguration コマンドレットを使用して](/powershell/module/skype/Set-CsMediaConfiguration) 設定されます。<br/>有効な値は次のとおりです。<br/><br/>**必須**: SRTP 暗号化を使用する必要があります。<br/>**オプション**: ゲートウェイがサポートしている場合は、SRTP が使用されます。<br/>**サポートされていません**: SRTP 暗号化はサポートされていないので、使用されません。<br/><br/>SRTPMode は、ゲートウェイがトランスポート層セキュリティ (TLS) プロトコルを使用するよう構成されている場合にのみ使用されます。ゲートウェイがトランスポートとして伝送制御プロトコル (TCP) を使用するように構成されている場合は、SRTPMode は内部で Not Supported に設定されます。|
 |サポートの参照|Enable3pccRefer<br/>EnableReferSupport|[**ゲートウェイへの参照の送信を有効にする**] に設定した場合、トランクが仲介サーバーからの REFER 要求の受信をサポートすることを示します。<br/>[**サードパーティ通話コントロールを使用する参照を有効にする**] に設定すると、3PCC プロトコルを使用して転送される通話がホストされたサイトをバイパスできるようにすることを示します。3PCC は、「三者間通話コントロール」とも呼ばれ、第三者を使用して二人の通話者を接続するとき (たとえば、オペレーターが人物 A から人物 B への通話を接続するとき) に使用します。|
 |メディアのバイパスを有効にする|EnableBypass|メディア バイパスがこのトランクに対して有効かどうかを示します。メディア バイパスは、[**集中メディア処理**] も有効になっている場合にのみ有効にできます。|
 |集中メディア処理|ConcentratedTopology|既知のメディア終端ポイントがあるかどうかを示します (既知のメディア終端ポイントの例として、メディア終端が信号終端と同じ IP を持つ PSTN ゲートウェイがあります)。|
@@ -52,14 +52,14 @@ Skype for Business Server コントロール パネルを使用して SIP トラ
 ||||
 
 > [!Note]
-> CsTrunkConfiguration Skype for Business Serverは、コントロール パネルに表示されない追加のプロパティSkype for Business Serverサポートしています。 詳細については [、New-CsTrunkConfiguration](/powershell/module/skype/New-CsTrunkConfiguration) コマンドレットのヘルプ トピックを参照してください。 
+> CsTrunkConfiguration コマンドレットSkype for Business Server、コントロール パネルに表示されない追加のプロパティSkype for Business Serverサポートしています。 詳細については、 [New-CsTrunkConfiguration コマンドレットのヘルプ トピックを参照](/powershell/module/skype/New-CsTrunkConfiguration) してください。 
 
 **コントロール パネルを使用して新しいトランク構成Skype for Business Server作成するには**
 
-1. [コントロール Skype for Business Server] で、[音声ルーティング]**を** クリックし、[トランク構成]**をクリックします**。
+1. [コントロール Skype for Business Server] で、[音声ルーティング] **をクリック** し、[トランク構成] **をクリックします**。
 2. [**トランク構成**] タブで [**新規作成**] をクリックします。新しい設定をサイト スコープで作成する場合は [**サイト トランク**]  をクリックし、サービス スコープで作成する場合は [**プール トランク**] をクリックします。
-3. [サイトの **選択**] または[サービスの選択] ダイアログ ボックス (表示されるダイアログ ボックスは、サイト スコープ設定またはサービス スコープ設定の作成場所によって異なります)で、新しい構成設定の場所を選択し **、[OK]** をクリックします。 ダイアログ ボックスが空白の場合、新しい設定を作成する場所はありません。たとえば、[サイトの選択] ダイアログ ボックスが空白の場合、すべてのサイトに既にトランク構成サイトのコレクションが割り当て済みであり、各サイト (および各サービス) はそのようなコレクションを 1 つしかホストすることはできません。 その場合は、既存のコレクションを削除して新しいコレクションを作成するか、既存のコレクションを変更します。
+3. [**サイト** の選択] ダイアログ ボックスまたは [サービスの選択] ダイアログ ボックス (表示されるダイアログ ボックスは、サイト スコープ設定またはサービス スコープ設定を作成するかどうかによって異なります)で、新しい構成設定の場所を選択し、[**OK**] をクリックします。 ダイアログ ボックスが空白の場合、新しい設定を作成する場所はありません。たとえば、[サイトの選択] ダイアログ ボックスが空白の場合、すべてのサイトに既にトランク構成サイトのコレクションが割り当て済みであり、各サイト (および各サービス) はそのようなコレクションを 1 つしかホストすることはできません。 その場合は、既存のコレクションを削除して新しいコレクションを作成するか、既存のコレクションを変更します。
 4. [**新規トランク構成**] ダイアログで、適切な選択を行って [**OK**] をクリックします。
 5. コレクションの [**状態**] プロパティが [**コミットされていません**] に更新されます。変更をコミットし、コレクションを削除するには、[**コミット**]、[**すべてコミット**] の順にクリックします。
 6. [**コミットされていない音声構成設定**] ダイアログ ボックスで、[**OK**] をクリックします。
-7. [コントロール **Skype for Business] ダイアログ ボックスで****、[OK] をクリックします**。
+7. [コントロール **Skype for Business] ダイアログ ボックスで**、[OK] を **クリックします**。

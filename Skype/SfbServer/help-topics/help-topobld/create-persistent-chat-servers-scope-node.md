@@ -1,8 +1,8 @@
 ---
 title: 常設チャット サーバー作成スコープ ノード
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
 description: トポロジ ビルダーで [常設チャット プール] を右クリックして、次の操作を実行します。
-ms.openlocfilehash: ac3ff02be89a27b19dd02213fba9cd19d3cfaafe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: df2aa063362bc4179e61bd3db4e99eb10e92906b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830181"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410950"
 ---
 # <a name="create-persistent-chat-servers-scope-node"></a>常設チャット サーバー作成スコープ ノード
  
@@ -30,7 +30,7 @@ ms.locfileid: "60830181"
     
 新しい常設チャット プール オプションに加えて、次の一般的なタスクを実行できます。
   
-- **トポロジ**。 このオプションを使用すると、新しいトポロジの定義、既存のトポロジの開き、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの発行、データベースのインストール、以前のバージョンの Lync Server からのコンポーネントのマージ、展開の削除を行います。
+- **トポロジ。** このオプションを使用すると、新しいトポロジの定義、既存のトポロジの開き、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの発行、データベースのインストール、以前のバージョンの Lync Server からのコンポーネントのマージ、展開の削除を行います。
     
 - **ヘルプ**。このオプションを使用して、アクティブ ノードのヘルプにアクセスできます。
     

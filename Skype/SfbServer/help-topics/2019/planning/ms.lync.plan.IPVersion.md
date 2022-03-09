@@ -1,8 +1,8 @@
 ---
 title: IP バージョン (計画ツール)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: df92d228-de60-4025-b249-ad957130ef7b
 ROBOTS: NOINDEX, NOFOLLOW
-description: IP アドレスを構成する場合は、次の 3 つのSkype for Business Server。 IP バージョン 4 (IPv4)、IP バージョン 6 (IPv6) のみ、または両方の組み合わせ (デュアル スタックと呼ばれる) のみをサポートするために、Skype for Business Server を構成できます。
-ms.openlocfilehash: 19bf85370e945e76df1d07c76cd62be095c78013
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: IP アドレスを構成する場合は、次の 3 つのSkype for Business Server。 IP バージョン 4 (IPv4)、IP バージョン 6 (IPv6) のみ、または両方の組み合わせ (デュアル スタックと呼ばれる) のみをサポートする Skype for Business Server を構成できます。
+ms.openlocfilehash: 000cf97a41b5e95e255c53bd457fdee882fd3b95
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859364"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394199"
 ---
 # <a name="ip-version-planning-tool"></a>IP バージョン (計画ツール)
  
-IP アドレスを構成する場合は、次の 3 つのSkype for Business Server。 IP バージョン 4 (IPv4)、IP バージョン 6 (IPv6) のみ、または両方の組み合わせ (デュアル スタックと呼ばれる) のみをサポートするために、Skype for Business Server を構成できます。
+IP アドレスを構成する場合は、次の 3 つのSkype for Business Server。 IP バージョン 4 (IPv4)、IP バージョン 6 (IPv6) のみ、または両方の組み合わせ (デュアル スタックと呼ばれる) のみをサポートする Skype for Business Server を構成できます。
   
-IP インフラストラクチャの選択の詳細については[、「Plan for IPv6 in Skype for Business」 を参照してください](../../../plan-your-deployment/network-requirements/ipv6.md)。
+IP インフラストラクチャの選択の詳細については、「[Plan for IPv6 in Skype for Business」を参照してください](../../../plan-your-deployment/network-requirements/ipv6.md)。
   
 
