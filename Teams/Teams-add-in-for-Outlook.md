@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ddd88bb34c383f5a712e7db1f946a156f68c1f4
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: c734fe5d6326d0fc4bfddfbc381d66339303d36e
+ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62389799"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63392879"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook で Teams の会議アドインを使用する
 
@@ -32,7 +32,7 @@ Teams 会議アドインを使用すると、ユーザーは Outlook から Team
 
 ## <a name="teams-meeting-add-in-in-outlook-for-windows"></a>Windows 用 Outlook の Teams 会議アドイン
 
-Teams の会議アドインは、Microsoft Teams と Office 2013、Office 2016 または Office 2019 を自分の Windows PC にインストール済みのユーザーに対して、自動的にインストールされます。Teams の会議アドインは、ユーザーが使用する Outlook の [予定表] リボン上に表示されます。
+Teams の会議アドインは、Microsoft Teams と Office 2013、Office 2016、Office 2019 または Office 2021 を自分の Windows PC にインストール済みのユーザーに対して、自動的にインストールされます。Teams の会議アドインは、ユーザーが使用する Outlook カレンダーのリボン上に表示されます。
 
 ![Outlook リボン上の Teams 会議アドインのスクリーンショット。](media/Teams-add-in-for-Outlook.png)
 
@@ -100,7 +100,7 @@ Teams クライアントはユーザーが必要としているのが 32 ビッ�
 
 アイランド モードのユーザは、Outlook で会議をスケジュールする場合、通常は Skype for Business と Teams の会議のどちらをスケジュールするか選択できると想定しています。 Outlook on the web、Outlook Windows、および Outlook Mac では、アイランド モードの場合は、既定で Skype for Business および Teams アドインの両方が表示されます。 Teams 会議ポリシー設定を構成して、アイランド モードのユーザーが Teams 会議アドインのみを使用するか、Teams 会議アドインと Skype for Business 会議アドインの両方を使用するかを制御できます。
 
-初期リリースではいくつかの制限があるため、Outlook モバイルは Skype for Business **または** Teams の会議の作成のみをサポートしています。 詳細は次の表を参照してください。
+初期リリースではいくつかの制限があるため、Outlook モバイルは Skype for Business **または** Teams の会議の作成のみをサポートしています。詳細については、次の表を参照してください。
 
 | Teams 管理センターの共存モード | Outlook モバイルの既定の会議プロバイダー |
 | --------------------------------------|---------------------------------------------|
