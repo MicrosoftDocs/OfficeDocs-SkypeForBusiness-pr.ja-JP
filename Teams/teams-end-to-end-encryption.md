@@ -3,7 +3,7 @@ title: Microsoft Teams のエンドツーエンド暗号化
 author: kccross
 ms.author: krowley
 manager: laurawi
-ms.date: 10/23/2021
+ms.date: 03/08/2022
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -19,21 +19,21 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cdce0e30c1aaa3b40f362acda47c1a9ffa35161f
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: 202aee527896b331a6c8e64e1fc8736fa4942ecb
+ms.sourcegitcommit: fe71ecbe35b8adfb9166188923ed1111b3b8e2a1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518939"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63388191"
 ---
-# <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls-public-preview"></a>1 対 1 の Microsoft Teams 通話にエンドツーエンドの暗号化を使用する (パブリック プレビュー)
+# <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls"></a>1 対 1 の Microsoft Teams 通話にエンドツーエンドの暗号化を使用する
 
 > [!IMPORTANT]
 > Teams サービス モデルと暗号化サポートは、カスタマー エクスペリエンスを向上させるために変更される可能性があります。 たとえば、このサービスは、セキュリティで保護されなくなった暗号スイートを定期的に非推奨にします。 このような変更は、Teams の安全性と設計による高い信頼性を保つことを目的に行われます。 さらに、Microsoft データ センター内のすべてのカスタマー コンテンツは暗号化されます。 Microsoft 365 の暗号化レイヤーの詳細については、「[Microsoft 365 の暗号化](/microsoft-365/compliance/encryption)」を参照してください。
 
 エンド ツー エンド暗号化 (E2EE) は、コンテンツが送信される前に暗号化され、意図していた受信者によってのみ復号化された場合にのみ発生します。 エンドツーエンドの暗号化では、2 つのエンドポイント システムのみが通話データの暗号化と復号化に関与します。 マイクロソフトを含む他の当事者は、復号化された会話にアクセスできません。
 
-このパブリック プレビュー リリースでは、予定外の 1 対 1 の通話に対して E2EE をロールアウトします。 1 対 1 の Teams 通話のリアルタイム メディア フロー (ビデオと音声データ) のみがエンドツーエンドで暗号化されます。 エンドツーエンドの暗号化を有効にするには、この設定をオンにする必要があります。 [Microsoft 365 の暗号化](/microsoft-365/compliance/encryption)は、通話内のチャット、ファイル共有、プレゼンス、およびその他のコンテンツを保護します。
+予定外の 1 対 1 の通話用の E2EE を使用すると、1 対 1 の Teams 通話のリアルタイム メディア フロー (ビデオと音声データ) のみがエンドツーエンドで暗号化されます。 エンドツーエンドの暗号化を有効にするには、この設定をオンにする必要があります。 [Microsoft 365 の暗号化](/microsoft-365/compliance/encryption)は、通話内のチャット、ファイル共有、プレゼンス、およびその他のコンテンツを保護します。
 
 エンドツーエンドの暗号化を有効にしない場合でも、Teams は業界標準に基づく暗号化を使用して通話や会議をセキュリティで保護します。 通話中に交換されるデータは、転送中および保存中は常に安全です。 詳細については、「[Teams のメディアの暗号化](teams-security-guide.md#media-encryption)」を参照してください。
 
@@ -109,7 +109,7 @@ Microsoft PowerShell と Teams 管理センターを使用して、エンドツ�
 
 #### <a name="to-enable-end-to-end-encryption-for-your-entire-tenant-using-the-global-policy"></a>グローバル ポリシーを使用してテナント全体のエンドツーエンド暗号化を有効にするには
 
-既定では、エンドツーエンドの暗号化は無効になっています。 既定のグローバル ポリシーを設定してテナント全体のエンドツーエンドの暗号化を有効にするには、次のように [Set-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Set-CsTeamsEnhancedEncryptionPolicy) コマンドレットを実行します。
+既定では、エンドツーエンドの暗号化は無効になっています。既定のグローバル ポリシーを設定してテナント全体のエンドツーエンドの暗号化を有効にするには、次のように [Set-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Set-CsTeamsEnhancedEncryptionPolicy) コマンドレットを実行します。
 
 ```powershell
 Set-CsTeamsEnhancedEncryptionPolicy -Identity Global -CallingEndtoEndEncryptionEnabledType DisabledUserOverride
@@ -123,7 +123,7 @@ Set-CsTeamsEnhancedEncryptionPolicy -Identity Global -CallingEndtoEndEncryptionE
 
 #### <a name="to-disable-end-to-end-encryption-for-your-entire-tenant-using-the-global-policy"></a>グローバル ポリシーを使用してテナント全体のエンドツーエンド暗号化を無効にするには
 
-既定では、エンドツーエンドの暗号化は無効になっています。 グローバル ポリシーに変更を加えた場合は、次のように [Grant-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Grant-CsTeamsEnhancedEncryptionPolicy) コマンドレットを実行して、設定を元に戻すことができます。
+既定では、エンドツーエンドの暗号化は無効になっています。グローバル ポリシーに変更を加えた場合は、次のように [Grant-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Grant-CsTeamsEnhancedEncryptionPolicy) コマンドレットを実行して、設定を元に戻すことができます。
 
 ```powershell
 Grant-CsTeamsEnhancedEncryptionPolicy -Identity Global -CallingEndtoEndEncryptionEnabledType Disabled
@@ -149,7 +149,7 @@ Grant-CsTeamsEnhancedEncryptionPolicy -Identity "username" -PolicyName "policyna
 
 - *`policyname`* はポリシーに使用する名前です。 ポリシー名にスペースを含めることはできません (ContosoE2EEUserPolicy など)。
 
-ユーザーは、エンドツーエンドの暗号化された通話を行う前に、Teams の設定でエンドツーエンドの暗号化された通話をオンにする必要があります。 手順については、「[Teams 通話用のエンドツーエンド暗号化を使用する](https://support.microsoft.com/office/1274b4d2-b5c5-4b24-a376-606fa6728a90)」を参照してください。
+ユーザーは、エンドツーエンドの暗号化された通話を行う前に、Teams の設定でエンドツーエンドの暗号化された通話をオンにする必要があります。手順については、「[Teams 通話用のエンドツーエンド暗号化を使用する](https://support.microsoft.com/office/1274b4d2-b5c5-4b24-a376-606fa6728a90)」を参照してください。
 
 次に例を示します。
 
