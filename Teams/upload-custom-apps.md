@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: カスタム アプリを管理センターの組織のアプリ ストアにアップロードMicrosoft Teamsします。
-ms.openlocfilehash: f9cbbfb60b2bb93cb3f687e6da8c6595f5cc185b
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: b797d8728fba283ccb2f62a46bc6ac00a947c29a
+ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070186"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63435831"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>アプリ パッケージをアップロードしてカスタム アプリを発行する
 
@@ -116,12 +116,10 @@ Microsoft では<a href="/microsoftteams/platform/publishing/office-store-approv
 * ボットが追加または削除されました
 * 既存のボットの "botId" プロパティが変更されました
 * 既存のボットの "isNotificationOnly" プロパティが変更されました
-* ボットの "supportsFiles" プロパティが変更されました
-* メッセージング拡張機能が追加または削除されました
+* ボットの SupportsCalling、SupportsVideo、および SupportsFiles 機能が追加されました
+* メッセージング拡張機能が追加されました
 * 新しいコネクタが追加されました
-* 新しい静的タブが追加されました
-* 新しい構成可能なタブが追加されました
-* "webApplicationInfo" 内のプロパティが変更されました
+* "Authorization" 内のアクセス許可が追加または変更されました
 
 ![新しいバージョンが利用可能なアプリを示すアプリの一覧のスクリーンショット。](media/manage-your-custom-apps-update1.png)
 
