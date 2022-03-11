@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: ed307d811322d2c217a117d192731cf5d42edcb7
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 6b1e2fdc31e5f9ece9b1c52f1f0cf5881e29229b
+ms.sourcegitcommit: 47b14f57bc64544d63aec67b023ead13c71342b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536708"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "63418839"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams のチャット、チーム、チャネル、およびアプリ
 
@@ -105,7 +105,7 @@ Teams は、組織のチームを管理するために使用できる、カス�
 Teams のゲスト アクセスを使用すると、組織の外部にいる個人がチームおよびチャネルにアクセスできるようになります。ゲスト アクセスの設定を使用すると、ゲストがある機能を使用できるかどうかを制御できます。ゲスト アクセスは、既定でオンになっています。詳細については、「[Teams でのゲスト アクセス](./guest-access.md)」を参照してください。
 
 > [!NOTE]
-> 外部アクセスとゲスト アクセスの詳細ついては、「[Microsoft Teams の別の組織のユーザーと通信する](communicate-with-users-from-other-organizations.md)」を参照してください。
+> 外部アクセスとゲスト アクセスの詳細ついては、[「Microsoft Teams の別の組織のユーザーと通信する」](communicate-with-users-from-other-organizations.md) を参照してください。
 
 
 |確認事項|アクション |
@@ -247,7 +247,7 @@ Office 365 for Government (GCC: Government Community Cloud) の使用は、米�
 
 | 確認事項 | アクション |
 |--------------|--------|
-| Office 365 for Government: GCC 環境に Teams を展開する必要があるか? | 展開に関する考慮事項については、「[Office 365 for Government: GCC 展開の計画](plan-for-government-gcc.md)」を参照してください。|
+| Office 365 for Government GCC – GCC 環境に Teams を展開する必要があるか? | 展開に関する考慮事項については、「[Office 365 for Government: GCC 展開の計画](plan-for-government-gcc.md)」を参照してください。|
 |||
 
 ## <a name="next-steps"></a>次のステップ
