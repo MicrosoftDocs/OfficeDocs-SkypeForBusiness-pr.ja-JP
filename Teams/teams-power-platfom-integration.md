@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Power Platform Teams、Power Apps、Power Automate、Power BI などの Microsoft Power Platform ツールとの統合について説明Power Virtual Agents。
-ms.openlocfilehash: a0e0854f5827e1496147ac88123fc91bca600ed8
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: f902e0a137f5a5f996623a9207e9e192b90bb6b7
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070566"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442493"
 ---
 # <a name="teams-integration-with-microsoft-power-platform"></a>Teams Microsoft Power Platform との統合
 
@@ -47,7 +47,7 @@ Microsoft Power Platform には、Teams ワークスペースに Power BI レポ
 
 - Power Apps、Power Automate、Power Virtual Agents、Dataverse のライセンス要件の詳細については、「Teams」を参照[してください](/power-platform/admin/about-teams-environment)。
 - アプリケーションのライセンス要件の詳細については、「Power BI」[を参照してください](/power-bi/collaborate-share/service-collaborate-microsoft-teams)。
- 
+
 ## <a name="how-do-i-get-started"></a>使用を開始する方法
 
 - [Power BIとTeams](/power-bi/collaborate-share/service-collaborate-microsoft-teams)

@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: adfdfa74dd00314cb0b7fad5524a89619e8772d2
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: b5100bd09b371d90d5bede76b440f423eb527b9c
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070746"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442343"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのセットアップ ポリシーを管理する
 
@@ -51,7 +51,7 @@ ms.locfileid: "63070746"
 
 |Teams デスクトップ クライアント  |Teams モバイル クライアント |
 |---------|---------|
-|![デスクトップ Teamsクライアント。](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![モバイル Teamsクライアント](media/mobile-app-ui.png)      |
+|![デスクトップ Teamsクライアント。](media/app-setup-policies-desktop-app-bar.png)<  |   ![モバイル Teamsクライアント](media/mobile-app-ui.png)      |
 
 > [!NOTE]
 > 割り当てMicrosoft Teams for Educationがグローバル ポリシーに既定で固定されている場合でも、現時点ではグローバル ポリシーに表示されません。 これは、クライアント上の固定アプリの一覧の 4 番目Teamsされます。
@@ -193,7 +193,7 @@ Microsoft Teams管理センターを使用して、作成するグローバル (
 |Teams デスクトップ クライアント |Teams モバイル クライアント |
 |---------|---------|
 |アプリの横にあるアプリ バーで、[..Teamsを **選択します。その他のアプリ**。| アプリ バーの下部付近にあるアプリTeams上にスワイプします。|
-|![デスクトップ クライアントを使用してTeamsアプリを追加します。](media/app-setup-policies-desktop-more-apps.png)<br>   |![モバイル クライアントのTeamsアプリ](media/app-setup-policies-mobile-more-apps.png)  
+|![デスクトップ クライアントを使用してTeamsアプリを追加します。](media/app-setup-policies-desktop-more-apps.png)   |![モバイル クライアントのTeamsアプリ](media/app-setup-policies-mobile-more-apps.png)  
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>モバイル エクスペリエンスの概要について知Teams必要がある情報
 

@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 59d8303943b8912f7ed0578bd911b633b618f113
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 96755d4396e47ea1a6a3c4266a157cce63008372
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070556"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442703"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams アプリのアクセス許可と考慮事項
 
@@ -38,7 +38,6 @@ Microsoft Teamsは、1 つ以上の機能を、インストール、アップグ
 アプリはユーザーによって同意され、ポリシーの観点から IT によって管理されます。 ただし、ほとんどの場合、アプリのアクセス許可とリスク プロファイルは、アプリに含まれる機能のアクセス許可とリスク プロファイルによって定義されます。 そのため、この記事では、機能レベルでのアクセス許可と考慮事項について説明します。
 
 以下に示すアクセス許可 (RECEIVE_MESSAGE や REPLYTO_MESSAGE など) は、Microsoft Teams 開発者向けドキュメントや [Microsoft Graph](/graph/permissions-reference) のアクセス許可のどこに[も](/microsoftteams/platform/overview)表示されません。 これは、この記事の目的に関する簡単な説明です。
-
 
 | タイトル   | 説明    |
 |-----------|------------|
@@ -71,7 +70,7 @@ Microsoft Teamsは、1 つ以上の機能を、インストール、アップグ
 
 - RECEIVE_MESSAGE、REPLYTO_MESSAGE。 ボットは、ユーザーからメッセージを受信し、そのユーザーに返信できます。<sup>1</sup>
 
-- POST_MESSAGE_USER。 ユーザーがボットにメッセージを送信すると、ボットはユーザーダイレクト メッセージ (プロアクティブ メッセージとも呼ばれる *) をいつでも* 送信できます。
+- POST_MESSAGE_USER。 ユーザーがボットにメッセージを送信すると、ボットはユーザーダイレクト メッセージ (プロアクティブ メッセージとも呼ばれる _) をいつでも_ 送信できます。
 
 - GET_CHANNEL_LIST。 チームに追加されたボットは、チーム内のチャネルの名前と ID の一覧を取得できます。
 
@@ -82,10 +81,10 @@ Microsoft Teamsは、1 つ以上の機能を、インストール、アップグ
 - POST_MESSAGE_TEAM。 ユーザーがボットと話したことがない場合でも、アプリのボットがいつでも任意のチーム メンバーに直接 (プロアクティブ) メッセージを送信できます。
 
 - 明示的なアクセス許可は次のとおりですが、RECEIVE_MESSAGE と REPLYTO_MESSAGE およびボットを使用できるスコープ (マニフェストで宣言) によって暗黙的に示されます。
- 
-    - RECEIVE_MESSAGE_PERSONAL、REPLYTO_MESSAGE_PERSONAL
-    - RECEIVE_MESSAGE_GROUPCHAT、REPLYTO_MESSAGE_GROUPCHAT
-    - RECEIVE_MESSAGE_TEAM、REPLYTO_MESSAGE_TEAM
+
+  - RECEIVE_MESSAGE_PERSONAL、REPLYTO_MESSAGE_PERSONAL
+  - RECEIVE_MESSAGE_GROUPCHAT、REPLYTO_MESSAGE_GROUPCHAT
+  - RECEIVE_MESSAGE_TEAM、REPLYTO_MESSAGE_TEAM    
 
 - SEND_FILES、RECEIVE_FILES。<sup>2</sup> ボットが個人チャットでファイルを送受信できるかどうかを制御します (グループ チャットまたはチャネルではまだサポートされていません)。
 
@@ -105,9 +104,9 @@ Microsoft Teamsは、1 つ以上の機能を、インストール、アップグ
 
 - ボットは、チーム内のチャネルの一覧を取得 (および格納できる場合があります) できます。このデータは企業ネットワークから出て行く。
 
-- ファイルがボットに送信された場合、ファイルは企業ネットワークから出て行く。 ファイルの送受信には、ファイルごとにユーザーの承認が必要です。 
+- ファイルがボットに送信された場合、ファイルは企業ネットワークから出て行く。 ファイルの送受信には、ファイルごとにユーザーの承認が必要です。
 
-- 既定では、ボットはユーザーに代わって行動する機能を持つ必要がありますが、ボットはユーザーにサインインを要求できます。ユーザーがサインインするとすぐに、ボットはアクセス トークンを持ち、追加の操作を実行できます。 これらの追加https://apps.dev.microsoft.com/の内容は、ボットとユーザーのサインイン場所によって正確に異なります。ボットは Azure AD アプリで登録され、独自のアクセス許可セットを持つ可能性があります。
+- 既定では、ボットはユーザーに代わって行動する機能を持つ必要がありますが、ボットはユーザーにサインインを要求できます。ユーザーがサインインするとすぐに、ボットはアクセス トークンを持ち、追加の操作を実行できます。 これらの追加の内容は、ボットとユーザーのサインイン場所によって正確に異なります。ボットは、[Application Registration Portal](https://apps.dev.microsoft.com/?referrer=https:%2f%2fdocs.microsoft.com%2f#/appList) に登録されている Azure AD アプリであり、独自のアクセス許可セットを持つ可能性があります。
 
 - ボットは、ユーザーがチームに追加またはチームから削除されるたびに通知されます。
 
@@ -140,7 +139,7 @@ SEND_AND_RECEIVE_WEB_DATA
 
 ### <a name="considerations"></a>考慮事項
 
-- タブのリスク プロファイルは、ブラウザー タブで実行されている同じ Web サイトとほぼ同じです。 
+- タブのリスク プロファイルは、ブラウザー タブで実行されている同じ Web サイトとほぼ同じです。
 
 - タブには、現在のユーザーのサインイン名と UPN、現在のユーザーの Azure AD オブジェクト ID、それが存在する Microsoft 365 グループの ID (チームの場合)、テナント ID、ユーザーの現在のロケールなど、実行されているコンテキストも取得されます。 ただし、これらの ID をユーザーの情報にマップするには、タブでユーザーがユーザーの ID にサインインAzure AD。
 
@@ -177,7 +176,7 @@ REPLYTO_CONNECTOR_MESSAGE。 特定のコネクタでは、アクション可能
 
 ## <a name="outgoing-webhooks"></a>送信 webhook
 
-*送信 webhook は* 、チーム所有者またはチーム メンバーによって、その他の方法で作成されます。 これらはアプリの機能Teams機能しません。この情報は、完全性を高めるのに含まれています。
+_送信 webhook は_ 、チーム所有者またはチーム メンバーによって、その他の方法で作成されます。 これらはアプリの機能Teams機能しません。この情報は、完全性を高めるのに含まれています。
 
 ### <a name="required-permissions"></a>必要なアクセス許可
 

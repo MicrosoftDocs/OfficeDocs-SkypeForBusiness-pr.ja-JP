@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 10adab9046a7cbd8cebccf6167075e38b1204dea
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 0c2ec3432a503755ba6164f4a46f7b35f9696271
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070436"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442313"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 承認アプリの利用の可否
 
@@ -198,6 +198,7 @@ Microsoft Forms の現在の機能に基づいて、各チームには最大 400
 ## <a name="approvals-e-signature-integration"></a>承認における電子署名の統合
 
 承認アプリの電子署名機能を使用するには、使用する特定の電子署名プロバイダーのライセンスが必要です。 組織のライセンスを取得するには、プロバイダーのサイトに移動する必要があります。
+
 ### <a name="enable-or-disable-e-signature-providers"></a>電子署名プロバイダーを有効または無効にする
 
 Teams 管理センターを使用して、承認アプリでユーザーが利用できるサード パーティの電子署名プロバイダーを制御できます。 既定では、承認アプリで電子署名プロバイダーが有効になります。 電子署名プロバイダーを無効にすると、ユーザーは承認を作成するときに、そのプロバイダーにアクセスできます。 また、ユーザーは、そのプロバイダーを使用して作成された電子署名要求を表示することはできません。

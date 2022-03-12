@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 組織内の割り当てられていない番号に通話をルーティングする方法について学習します。
-ms.openlocfilehash: 4d9c40a0b4a01f7fae4a755603cb5cf7eb132f5c
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: f53e83b3d4f26123feed70bdecad32cb45bc5588
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767370"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442795"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>割り当てられていない番号への通話のルーティング
 
@@ -67,9 +67,9 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 
 - アナウンスにルーティングする場合、音声ファイルは呼び出し元に対して 1 回再生されます。
 
-- 割り当てられていない Microsoft 通話プランのサブスクライバー番号に呼び出しをルーティングするには、テナントに使用可能な通信クレジット が [必要です](what-are-communications-credits.md)。
+- 割り当てられていない Microsoft 通話プランのサブスクライバー番号に呼び出しをルーティングするには、テナントに使用可能な通信クレジットが [必要です](what-are-communications-credits.md)。
 
-- 割り当てられていない Microsoft 通話プランのサービス番号に呼び出しをルーティングするには、テナントに少なくとも 1 つの仮想電話システム – 仮想ユーザー ライセンスが必要です。
+- 割り当てられていない Microsoft 通話プランサービス番号への呼び出しをルーティングするには、テナントに少なくとも 1 つの仮想ユーザー ライセンス電話システム必要があります。
 
 - サポートされるカスタム オーディオ ファイル形式は、WAV (非圧縮、モノラルまたはステレオの 8/16/32 ビット深度の線形 PCM)、WMA (モノラルのみ)、MP3 です。 オーディオ ファイルの内容は 5 MB を超えすることはできません。
 
@@ -82,3 +82,5 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 - [Set-CsTeamsUnassignedNumberTreatment](/powershell/module/teams/set-csteamsunassignednumbertreatment)
 
 - [Remove-CsTeamsUnassignedNumberTreatment](/powershell/module/teams/remove-csteamsunassignednumbertreatment)
+
+- [Test-CsTeamsUnassignedNumberTreatment](/powershell/module/teams/test-csteamsunassignednumbertreatment)

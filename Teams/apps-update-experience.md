@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: アプリを更新する方法については、Microsoft Teams。
-ms.openlocfilehash: fac8f10808300280f52a62501ebb5cb8d69b4bb8
-ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
+ms.openlocfilehash: ce788bcdfb690aec305b71ec881a865385c895c2
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/11/2022
-ms.locfileid: "63435711"
+ms.locfileid: "63442283"
 ---
 # <a name="update-apps-in-microsoft-teams"></a>Microsoft Teams でアプリを更新する
 
-ほとんどの場合、アプリ開発者がアプリの更新プログラムを発行すると、ユーザーの新しいバージョンが自動的に表示されます。 ただし、完了するためにユーザーの受け入れを<a href="/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">Microsoft Teamsマニフェスト</a>にはいくつかの更新があります。
+ほとんどの場合、アプリ開発者がアプリの更新プログラムを発行すると、ユーザーの新しいバージョンが自動的に表示されます。 ただし、完了するためにユーザーの受け入れを[Microsoft Teamsマニフェスト](/microsoftteams/platform/resources/schema/manifest-schema)にはいくつかの更新があります。
 
 * ボットが追加または削除されました
 * 既存のボットの "botId" プロパティが変更されました
@@ -41,8 +41,8 @@ ms.locfileid: "63435711"
 
 ![アプリのアップグレード オプション。](media/manage-your-custom-apps-update2.png)
 
-> [!NOTE] 
-> 更新プロセスは、Microsoft アプリ、カスタム アプリ、およびサード パーティ製アプリのすべてのアプリ更新プログラムに適用されます。 
+> [!NOTE]
+> 更新プロセスは、Microsoft アプリ、カスタム アプリ、およびサード パーティ製アプリのすべてのアプリ更新プログラムに適用されます。
 
 ## <a name="related-topics"></a>関連項目
 

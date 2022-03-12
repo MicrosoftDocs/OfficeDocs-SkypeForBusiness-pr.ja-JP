@@ -18,30 +18,32 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd07e375a35ea212bccd988395b5c1adbd721011
-ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
+ms.openlocfilehash: e65f7a0eef62197e90f77876129af95f32f4d6bc
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62299052"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442483"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Teams 管理センターで Teams テンプレートの使用を開始する
 
 **カスタム テンプレートを作成する機能は、EDU のお客様ではまだサポートされていません。**
 
 > [!NOTE]
-> プライベート チャネルと感度ラベルは、チーム テンプレートでは現在サポートされていません。 プライベート チャネルの作成は、テンプレート定義には含まれません。 [テンプレート フローからチームを作成 **する** ] の [感度ラベル] オプションは、チームには適用されません。
+> - プライベート チャネルは現在、チーム テンプレートではサポートされていません。 プライベート チャネルの作成は、テンプレート定義には含まれません。
+>
+> - 感度ラベルは、環境内のチーム テンプレートではGCCされません。 [テンプレートからチームを作成する] フローの [感度ラベル] オプションは、チームには適用されません。
 
 ## <a name="overview"></a>概要
 
-Microsoft Teamsチーム テンプレートは、ビジネスの必要性やプロジェクトを中心に設計されたチームの構造の定義です。 管理者は、テンプレートを使用して、組織全体に一貫性のあるチームを簡単にデプロイできます。 テンプレートを使用すると、ユーザーは定義済みの設定、チャネル、アプリを使用して、豊富なコラボレーション スペースをすばやく作成できます。
+Microsoft Teams チーム テンプレートは、ビジネスの必要性やプロジェクトを中心に設計されたチームの構造の定義です。 管理者は、テンプレートを使用して、組織全体に一貫性のあるチームを簡単にデプロイできます。 テンプレートを使用すると、ユーザーは定義済みの設定、チャネル、アプリを使用して、豊富なコラボレーション スペースをすばやく作成できます。
 
-チーム テンプレートは、Microsoft Teams または PowerShell を使用して管理できます。 用意されている事前構築済みのテンプレートを使用できます。また、独自のカスタム [テンプレートを作成することもできます](#create-your-own-team-templates)。 また、[テンプレート ポリシーを適用して](#apply-team-template-policies)、ユーザーが使用できるテンプレートを管理Teams。
+チーム テンプレートは、Microsoft Teams または PowerShell を使用して管理できます。 用意されている事前構築済みのテンプレートを使用できます。また、独自のカスタム [テンプレートを作成することもできます](#create-your-own-team-templates)。 また、テンプレート [ポリシーを適用して](#apply-team-template-policies)、ユーザーが使用できるテンプレートを管理Teams。
 
 この記事では、管理センターでチーム テンプレートを操作するTeams説明します。 テンプレートでサポートされているプロパティ、提供される事前構築済みのテンプレート、テンプレート サイズの制限、テンプレートの作成と管理の方法などについて説明します。
 
 > [!NOTE]
-> ユーザーは、[アプリ内の事前構築済](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)みのチーム テンプレートまたはカスタム チーム テンプレートからTeamsできます。 開発者は、Microsoft Graph を使用して、事前に構築されたチーム テンプレートからチームを作成することもできます。 詳細については、「Microsoft Graph を[使用してチーム テンプレートの使用を開始する」を参照してください](get-started-with-teams-templates.md)。
+> ユーザーは[、アプリ内の事前構築](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)済みのチーム テンプレートまたはカスタム チーム テンプレートからTeamsできます。 開発者は、Microsoft Graph を使用して、事前構築済みのチーム テンプレートからチームをプログラムで作成することもできます。 詳細については、「Microsoft Graph を[使用してチーム テンプレートの使用を開始する」を参照してください](get-started-with-teams-templates.md)。
 
 ## <a name="team-template-capabilities"></a>チーム テンプレートの機能
 
@@ -59,9 +61,9 @@ Microsoft Teamsチーム テンプレートは、ビジネスの必要性やプ�
 | ピン留めされたタブ | |
 
 > [!NOTE]
-> Microsoft Teams の今後のリリースでテンプレート機能を追加する予定なので、サポートされているプロパティに関する最新の情報を確認してください。
+> Microsoft Teams の将来のリリースでテンプレート機能を追加する予定なので、サポートされているプロパティに関する最新の情報を確認してください。
 
-## <a name="pre-built-team-templates-in-the-teams-admin-center"></a>Teams 管理センターの事前構築済みのチーム テンプレート
+## <a name="pre-built-team-templates-in-the-teams-admin-center"></a>管理センターの事前構築済Teamsテンプレート
 
 管理センターで使用できる事前構築済みのチーム Teamsを次に示します。 事前構築済みのテンプレートは、特定の業界向けに作成したテンプレートです。 これらのテンプレートを表示するには、管理センターの左側のナビゲーションTeams Team  >  テンプレートTeams **移動します**。
 
@@ -131,7 +133,7 @@ Microsoft Teamsチーム テンプレートは、ビジネスの必要性やプ�
 
 #### <a name="apply-team-template-policies"></a>チーム テンプレート ポリシーを適用する
 
-ユーザーがチームを作成するために Teams に表示されるテンプレートを制御[](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)するには、テンプレート ポリシーを設定し、組織内のユーザーとグループに割り当てる必要があります。 詳細については、「管理センターで[チーム テンプレートを管理するTeams参照してください](templates-policies.md)。
+ユーザーがチームを作成するために Teams に表示されるテンプレートを制御するには[](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)、テンプレート ポリシーを設定し、組織内のユーザーとグループに割り当てる必要があります。 詳細については、「管理センターで[チーム テンプレートを管理するTeams参照してください](templates-policies.md)。
 
 ### <a name="manage-team-templates-using-powershell"></a>PowerShell を使用してチーム テンプレートを管理する
 

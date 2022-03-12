@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: 391c852edc1eef06c41277a43661fc1cf15b7cd6
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: b2225429eee73ecd5c6b33b62d4d1be24da306b9
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070356"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442543"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Microsoft Teams のカスタム アプリのポリシーと設定を管理する
 
@@ -56,7 +56,7 @@ ms.locfileid: "63070356"
 ### <a name="user-custom-app-policy"></a>ユーザー カスタム アプリ ポリシー
 
 アプリセットアップ ポリシー [の](teams-app-setup-policies.md)一環として、管理者はポリシー設定 **アップロード** カスタム アプリを使用して、ユーザーがカスタム アプリを Teams にアップロードできるかどうかを制御できます。
- 
+
 この設定がオフになっている場合:
 
 - ユーザーは、組織内のチームや個人のコンテキストでカスタム アプリをアップロードできません。
@@ -65,7 +65,7 @@ ms.locfileid: "63070356"
 この設定が有効になっている場合:
 
 - ユーザーは、組織全体のカスタム アプリ設定に応じて、カスタム アプリを許可するチームと、所有者であるチームにカスタム アプリをアップロードできます。
-- ユーザーは、カスタム アプリを個人用コンテキストにアップロードできます。 
+- ユーザーは、カスタム アプリを個人用コンテキストにアップロードできます。
 - ユーザーは、組織全体のカスタム アプリ設定に応じて、カスタム アプリを操作できます。
 
 グローバル アプリセットアップ ポリシーの設定を編集して、必要なアプリを含めできます。 組織内のユーザーのグループTeamsをカスタマイズする場合は、1 つ以上のカスタム アプリ セットアップ ポリシーを作成して割り当てる必要があります。
@@ -81,7 +81,7 @@ ms.locfileid: "63070356"
 ### <a name="team-custom-app-setting"></a>チーム のカスタム アプリ設定
 
 管理者とチーム所有者は、チームがカスタム アプリを追加できるかどうかを制御できます。 この設定[ **カスタム アプリのアップロード** をメンバーに許可する] は、ユーザーのカスタム アプリ ポリシーと共に、特定のチームにカスタム アプリを追加できるユーザーを決定します。
- 
+
 この設定がオフになっている場合:
 
 - カスタム アプリ ポリシーで許可されている場合、チーム所有者はカスタム アプリを追加できます。

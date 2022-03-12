@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: ユーザーのアカウントをクラウド ボイスメールする方法について学習します。
-ms.openlocfilehash: d2bb29130bad312dbd420c0adb8b16558232c258
-ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
+ms.openlocfilehash: d78942c5cbfc6af8e921c26c806378b45f480835
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63392875"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442323"
 ---
 # <a name="set-up-cloud-voicemail"></a>クラウド ボイスメールのセットアップ
 
@@ -107,7 +107,7 @@ allowVoicemail パラメーターで Set-CsTeamsCallingPolicy コマンドレッ
 
 保護されたボイスメールを有効にした場合、ユーザーは、ボイスメール メールボックスを呼び出したり、Android または iOS の Outlook、Outlook on the web、または Outlook でメッセージを開いて、保護されたボイスメール メッセージをリッスンできます。 保護されたボイスメール メッセージは、Busimess のMicrosoft TeamsまたはSkype開くことができません。
 
-ボイスメールの感度ラベルを作成するには、「感度ラベルを使用 [する」を参照してください](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions)。 [**In Outlook] を選択し**、次のいずれかの制限を適用し、[転送しない] **オプションを選択** します。
+ボイスメールの感度ラベルを作成するには、「感度ラベルを使用 [する」を参照してください](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions)。 [暗号化] **セクション** で、[ユーザーが **ラベルを適用するときにアクセス許可を割り当て可能] を選択します**。 [**In Outlook] を選択し**、次のいずれかの制限を適用し、[転送しない] **オプションを選択** します。
 
 ボイスメールに感度ラベルを適用する自動ラベル付けポリシーを作成するには、「自動[](/microsoft-365/compliance/apply-sensitivity-label-automatically?view=o365-worldwide#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange)ラベル付けポリシーを構成する方法」を参照し、次の特定の設定を指定します。
 

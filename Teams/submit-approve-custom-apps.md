@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Teams App Submission API を使用して送信されるカスタム アプリを承認する方法について説明Microsoft Teams。
-ms.openlocfilehash: a1b6778c79fd389ebfd4b3ce172daa186e92b76e
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 3a4dfc0b14f20f367cd3580c5366adc26233dde9
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070406"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442333"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Teams App Submission API を使用して送信されたカスタム アプリを発行する
 
@@ -116,17 +116,17 @@ Graph API を使用して発行の状態を確認する方法の詳細 **につ�
 
 ### <a name="control-access-to-the-app"></a>アプリへのアクセスを制御する
 
-既定では、組織内のすべてのユーザーは、組織のアプリ ストア内のアプリにアクセスできます。 アプリを使用するアクセス許可を持つユーザーを制限および制御するには、アプリのアクセス許可ポリシーを作成して割り当てる必要があります。 詳細については、「<a href="/microsoftteams/teams-app-permission-policies" target="_blank">Teams のアプリのアクセス許可ポリシーを管理する</a>」を参照してください。
+既定では、組織内のすべてのユーザーは、組織のアプリ ストア内のアプリにアクセスできます。 アプリを使用するアクセス許可を持つユーザーを制限および制御するには、アプリのアクセス許可ポリシーを作成して割り当てる必要があります。 詳細については、「[Teams のアプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md)」を参照してください。
 
 ### <a name="pin-and-install-the-app-for-users-to-discover"></a>ユーザーが検出するアプリをピン留めしてインストールする
 
-既定では、ユーザーが組織のアプリ ストアにアクセスしてアプリを参照または検索する必要があるアプリを見つける場合。 ユーザーがアプリに簡単にアクセスするには、アプリをアプリ バーのアプリ バーにピン留Teams。 これを行うには、アプリセットアップ ポリシーを作成し、ユーザーに割り当てる必要があります。 詳細については、「<a href="/microsoftteams/teams-app-setup-policies" target="_blank">Teams でアプリの設定ポリシーを管理する</a>」を参照してください。
+既定では、ユーザーが組織のアプリ ストアにアクセスしてアプリを参照または検索する必要があるアプリを見つける場合。 ユーザーがアプリに簡単にアクセスするには、アプリをアプリ バーのアプリ バーにピン留Teams。 これを行うには、アプリセットアップ ポリシーを作成し、ユーザーに割り当てる必要があります。 詳細については、「[Teams でアプリの設定ポリシーを管理する](teams-app-setup-policies.md)」を参照してください。
 
 ### <a name="search-the-audit-log-for-teams-app-events"></a>監査ログでアプリ イベントTeams検索する
 
-監査ログを検索して、組織内のTeamsアクティビティを表示できます。 監査ログを検索する方法と、監査ログに記録されている Teams アクティビティの一覧を表示する方法の詳細については、「Teams でイベントの監査ログを検索する」<a href="/microsoftteams/audit-log-events" target="_blank">を</a>参照してください。
+監査ログを検索して、組織内のTeamsアクティビティを表示できます。 監査ログを検索する方法と、監査ログに記録されている Teams アクティビティの一覧を表示する方法の詳細については、「Teams でイベントの監査ログを検索する」[を](audit-log-events.md)参照してください。
 
-監査ログを検索できるようになるには、最初に<a href="https://protection.office.com" target="_blank">セキュリティ/コンプライアンス センター</a> で監査をオンにする必要があります。 詳細については、「<a href="https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014" target="_blank">監査ログの検索を有効または無効にする</a>」を参照してください。 利用できる監査データは、監査を有効にした時点以降のデータのみであることにご注意ください。
+監査ログを検索できるようになるには、最初に[セキュリティ/コンプライアンス センター](https://sip.protection.office.com/) で監査をオンにする必要があります。 詳細については、「[監査ログの検索を有効または無効にする](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide)」を参照してください。 利用できる監査データは、監査を有効にした時点以降のデータのみであることにご注意ください。
 
 ## <a name="discover-and-adopt"></a>検出して採用する
 
@@ -159,7 +159,7 @@ Graph API を使用して発行の状態を確認する方法の詳細 **につ�
 - アプリが承認されると、誰でもアプリに更新を送信できます。 つまり、アプリを最初に送信した開発者を含む他の開発者は、アプリに更新プログラムを送信できます。
 - 開発者がアプリを送信し、要求が保留中の場合、同じ開発者だけがアプリに更新を送信できます。 他の開発者は、アプリが承認された後にのみ更新プログラムを送信できます。
 
-Graph API を使用してアプリを更新する方法の詳細については、こちらを参照<a href="/graph/api/teamsapp-update">してください</a>。
+Graph API を使用してアプリを更新する方法の詳細については、こちらを参照[してください](/graph/api/teamsapp-update?view=graph-rest-1.0&tabs=http)。
 
 ## <a name="related-topics"></a>関連項目
 
@@ -169,4 +169,4 @@ Graph API を使用してアプリを更新する方法の詳細については�
 - [Teams のアプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md)
 - [Teams のアプリのセットアップ ポリシーを管理する](teams-app-setup-policies.md)
 - [Teams監視とアラート](alerts/teams-admin-alerts.md)
-- <a href="/graph/api/resources/teamsapp?view=graph-rest-beta" target="_blank">Microsoft Graph アプリ用 Teams API</a>
+- [Microsoft Graph アプリ用 Teams API](alerts/teams-admin-alerts.md)

@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Power Platform 上に構築されたカスタム アプリへのアクセスを管理する方法については、Microsoft Teamsしてください。
-ms.openlocfilehash: d2ccb100a0d6354b1fca62911b17afdd3479887b
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: c093d432faa8d4977f4d931ac948a35dc6fe6509
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070536"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442673"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターで Microsoft Power Platform アプリを管理する
 
@@ -76,7 +76,7 @@ Power Apps と Power Virtual Agents で作成されたアプリへのアクセ�
 
 ### <a name="allow-or-block-microsoft-power-platform-apps-for-specific-users"></a>特定のユーザーに対して Microsoft Power Platform アプリを許可またはブロックする
 
-組織内の特定のユーザーが Power Apps または Power Virtual Agents で作成されたアプリへのアクセスを許可またはブロックするには、1 つ以上のカスタム アプリアクセス許可ポリシーを作成して割り[当てる必要があります](teams-app-permission-policies.md)。 
+組織内の特定のユーザーが Power Apps または Power Virtual Agents で作成されたアプリへのアクセスを許可またはブロックするには、1 つ以上のカスタム アプリアクセス許可ポリシーを作成して割り[当てる必要があります](teams-app-permission-policies.md)。
 
 たとえば、特定のユーザーが Power Apps で作成したアプリへのアクセスをブロックするには、カスタム アプリのアクセス許可ポリシーを作成して共有 **Power Apps** をブロックし、そのユーザーにポリシーを割り当てる必要があります。
 
@@ -84,7 +84,7 @@ Power Apps と Power Virtual Agents で作成されたアプリへのアクセ�
 
 ### <a name="use-audit-logs-to-investigate-microsoft-power-platform-installation-activity"></a>監査ログを使用して Microsoft Power Platform のインストール アクティビティを調査する
 
-Teams の監査ログを使用すると、ユーザーが Microsoft Power Platform アプリをインストールしたイベントを調査できます。このイベントは、Teams の [アプリ] ページの [Built **by your colleagues**] セクションから行います。 これを行 [うには、(](./audit-log-events.md)**AppInstalled** 操作の下にある) インストール済み **アプリ Teams イベント** の監査ログで、ユーザーまたは一連のユーザーを検索します。 同僚によってビルドされたアプリを見つけるには、特定のレコードの詳細で **AppDistributionMode** プロパティの **TemplatedInstance** 値を探します。 
+Teams の監査ログを使用すると、ユーザーが Microsoft Power Platform アプリをインストールしたイベントを調査できます。このイベントは、Teams の [アプリ] ページの [Built **by your colleagues**] セクションから行います。 これを行 [うには、(](./audit-log-events.md)**AppInstalled** 操作の下にある) インストール済み **アプリ Teams イベント** の監査ログで、ユーザーまたは一連のユーザーを検索します。 同僚によってビルドされたアプリを見つけるには、特定のレコードの詳細で **AppDistributionMode** プロパティの **TemplatedInstance** 値を探します。
 
 :::image type="content" source="media/manage-power-platform-apps-audit.png" alt-text="AppDistributionMode プロパティの TemplatedInstance 値のスクリーンショット。":::
 

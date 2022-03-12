@@ -21,12 +21,12 @@ MS.collection:
 - microsoftcloud-retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ad0324509849700ea74afe582d4ce7a4934dc3e
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 90bdf2661432a5d68b8f6a727a272855f1a52173
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070596"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442453"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織の Tasks アプリを管理する
 
@@ -91,12 +91,12 @@ Tasks は、組織内のすべての Teams ユーザーに対して既定で有�
 
 タスクを発行すると、組織内の特定の場所 (チーム) を対象としたタスク リストを発行して、それらの場所で完了する作業プランを定義および共有できます。
 
-- 企業や地域のリーダーなど、発行チームのメンバーは、タスク リストを作成し、特定のチームに発行できます。<br>
+- 企業や地域のリーダーなど、発行チームのメンバーは、タスク リストを作成し、特定のチームに発行できます。
     ![タスクの発行のスクリーンショット。](media/manage-tasks-app-publish.png)
-- 受信チームのマネージャーは、発行されたタスク リストを確認し、個々のタスクをチーム メンバーに割り当てることができます。<br>
+- 受信チームのマネージャーは、発行されたタスク リストを確認し、個々のタスクをチーム メンバーに割り当てることができます。
     ![タスクを割り当てるスクリーンショット。](media/manage-tasks-app-assign.png)
 - 現場担当者が自分に割り当てられているタスクを簡単に確認できる簡単なモバイル エクスペリエンスが備わっています。 必要に応じて写真を添付して作業内容を表示し、作業完了のマークを付けることができます。
-- 発行者とマネージャーは、場所 (チーム)、タスク リスト、個々のタスクなど、各レベルのタスクの割り当てと完了状態を表示できます。<br>
+- 発行者とマネージャーは、場所 (チーム)、タスク リスト、個々のタスクなど、各レベルのタスクの割り当てと完了状態を表示できます。
     ![モバイルで割り当てられたタスクのスクリーンショット。](media/manage-tasks-app-reporting.png)
 
 ユーザーは、Tasks アプリの **[発行されたリスト]** タブでタスク リストを作成、管理、および発行します。 このタブは、組織が[チーム対象の階層を設定](#set-up-your-team-targeting-hierarchy)し、ユーザーが階層に含まれるチームに所属している場合にのみ、ユーザーに表示されます。 階層によって、ユーザーがタスク リストを発行または受信し、受信したリストのレポートを表示できるかどうかが決まります。
