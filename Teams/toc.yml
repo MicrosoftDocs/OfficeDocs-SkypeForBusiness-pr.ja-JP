@@ -1325,12 +1325,6 @@ items:
                 href: rooms/rooms-deploy.md
               - name: アカウントを構成する
                 href: rooms/rooms-configure-accounts.md
-              - name: Surface Hub
-                items:
-                  - name: 最適化された会議を設定する
-                    href: rooms/coordinated-meetings.md
-                  - name: Microsoft Teams 設定の管理
-                    href: rooms/surface-hub-manage-config.md
               - name: Office 365 の場合
                 href: rooms/with-office-365.md
               - name: Skype for Business Server の場合
@@ -1339,6 +1333,8 @@ items:
                 href: rooms/with-exchange-online.md
               - name: オンプレミスの Exchange の場合 (ハイブリッド)
                 href: rooms/with-exchange-on-premises.md
+              - name: Android に Microsoft Teams ミーティングを展開する
+                href: devices/collab-bar-deploy.md
               - name: コンソールを構成する
                 href: rooms/console.md
               - name: 手動でデバイスを更新する
@@ -1355,6 +1351,12 @@ items:
                 href: rooms/content-camera.md
               - name: インテリジェント スピーカー向け音声認識コントロール
                 href: rooms/voice-recognition.md
+              - name: Surface Hub
+                items:
+                  - name: 最適化された会議を設定する
+                    href: rooms/coordinated-meetings.md
+                  - name: Microsoft Teams 設定の管理
+                    href: rooms/surface-hub-manage-config.md
           - name: 管理
             items:
               - name: 管理の概要
@@ -1397,66 +1399,74 @@ items:
             href: rooms/standards-and-room-planner.md
       - name: デバイス
         items:
-          - name: Teams でのデバイスの管理
-            href: devices/device-management.md
-          - name: リモート プロビジョニングとサインイン
-            href: devices/remote-provision-remote-login.md
-          - name: リモート サインインおよびサインアウト
-            href: devices/remote-sign-in-and-sign-out.md
-          - name: デバイスをリモートで更新する
-            href: devices/remote-update.md
-          - name: Teams デバイス タグを管理する
-            href: devices/manage-device-tags.md
-          - name: 電話とディスプレイの展開を計画する
-            href: devices/plan-device-deployment.md
-          - name: Teams 対応の電話機
-            href: devices/phones-for-teams.md
-          - name: 共通領域電話をセットアップする
-            href: set-up-common-area-phones.md
-          - name: Teams ディスプレイ
-            href: devices/teams-displays.md
-          - name: Teams パネル
+          - name: 展開
             items:
+              - name: Intune を使用して Teams 電話と Teams ディスプレイを展開する
+                href: devices/phones-displays-deploy.md
+              - name: 共通領域電話をセットアップする
+                href: set-up-common-area-phones.md
+              - name: SIP ゲートウェイ
+                items:
+                  - name: SIP ゲートウェイの計画
+                    href: sip-gateway-plan.md
+                  - name: SIP ゲートウェイの構成
+                    href: sip-gateway-configure.md
+              - name: Teams Android デバイスの自動応答を設定する
+                href: set-up-auto-answer-on-teams-android.md
+              - name: リモート プロビジョニングとサインイン
+                href: devices/remote-provision-remote-login.md
+              - name: リモート サインインおよびサインアウト
+                href: devices/remote-sign-in-and-sign-out.md
+              - name: Android デバイスの認証のベスト プラクティス
+                href: devices/authentication-best-practices-for-android-devices.md
+          - name: 管理と監視
+            items:
+              - name: Teams でのデバイスの管理
+                href: devices/device-management.md
+              - name: 管理単位を使用してデバイスを管理する
+                href: administrative-unit.md
+              - name: Teams デバイス タグを管理する
+                href: devices/manage-device-tags.md
+              - name: デバイスをリモートで更新する
+                href: devices/remote-update.md
+              - name: Teams 対応の電話機
+                href: devices/phones-for-teams.md
+              - name: Teams ディスプレイ
+                href: devices/teams-displays.md
+              - name: Teams 電話を Teams ディスプレイにアップグレードする
+                href: devices/upgrade-phones-to-displays.md
               - name: Teams パネル
-                href: devices/teams-panels.md
-              - name: Teams パネルを使用する
-                href: devices/use-teams-panels.md
-              - name: Teams パネルでのアプリのサポート
-                href: app-support-on-Teams-panels.md
-              - name: チェックインと会議室のリリース
-                href: devices/check-in-and-room-release.md
-          - name: Teams 電話を Teams ディスプレイにアップグレードする
-            href: devices/upgrade-phones-to-displays.md
-          - name: Intune を使用して Teams 電話と Teams ディスプレイを展開する
-            href: devices/phones-displays-deploy.md
-          - name: USB オーディオ デバイスおよびビデオ デバイス
-            href: devices/usb-devices.md
-          - name: Android に Microsoft Teams ミーティングを展開する
-            href: devices/collab-bar-deploy.md
-          - name: Microsoft Teams Android デバイスのユーザー インターフェイスを設定する
-            href: devices/Teams-Android-devices-user-interface.md
-          - name: Android デバイスの認証のベスト プラクティス
-            href: devices/authentication-best-practices-for-android-devices.md
-          - name: Teams Android デバイスの自動応答を設定する
-            href: set-up-auto-answer-on-teams-android.md
-          - name: 会議室のデバイスとソリューション
-            href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+                items:
+                  - name: Teams パネル
+                    href: devices/teams-panels.md
+                  - name: Teams パネルを使用する
+                    href: devices/use-teams-panels.md
+                  - name: Teams パネルでのアプリのサポート
+                    href: app-support-on-Teams-panels.md
+                  - name: チェックインと会議室のリリース
+                    href: devices/check-in-and-room-release.md
+              - name: Teams 電話を Teams ディスプレイにアップグレードする
+                href: devices/upgrade-phones-to-displays.md
+              - name: Intune を使用して Teams 電話と Teams ディスプレイを展開する
+                href: devices/phones-displays-deploy.md
+              - name: USB オーディオ デバイスおよびビデオ デバイス
+                href: devices/usb-devices.md
+              - name: 監視
+                items:
+                  - name: Teams の警告と監視
+                    href: alerts/teams-admin-alerts.md
+                  - name: Teams のサービス正常性の監視
+                    href: alerts/device-health-status.md
+                  - name: Teams デバイスと周辺機器
+                    href: teams-device-health.md
+      - name: 参照
+        items:
           - name: Teams 認定 デバイス
             href: devices/teams-ip-phones.md
-          - name: SIP ゲートウェイ
-            items:
-              - name: SIP ゲートウェイの計画
-                href: sip-gateway-plan.md
-              - name: SIP ゲートウェイの構成
-                href: sip-gateway-configure.md
-          - name: Teams の警告と監視
-            href: alerts/teams-admin-alerts.md
-          - name: Teams のサービス正常性の監視
-            href: alerts/device-health-status.md
-          - name: Teams デバイスと周辺機器
-            href: teams-device-health.md
-          - name: 管理単位を使用してデバイスを管理する
-            href: administrative-unit.md
+          - name: 会議室のデバイスとソリューション
+            href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+          - name: 電話とディスプレイの展開を計画する
+            href: devices/plan-device-deployment.md
   - name: アプリ、ボット、コネクタ
     items:
       - name: 概要
