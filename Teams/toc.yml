@@ -829,6 +829,8 @@ items:
             href: dial-pad-configuration.md
           - name: 保留中の音楽
             href: music-on-hold.md
+          - name: ユーザーの通話設定を構成する
+            href: user-call-settings.md
       - name: PSTN 接続のオプション
         items:
           - name: 概要
@@ -1527,6 +1529,8 @@ items:
             href: non-standard-users.md
           - name: アプリのエクスペリエンスを更新する
             href: apps-update-experience.md
+          - name: Microsoft 365 全体でサードパーティの Teams アプリへのアクセスを管理する
+            href: manage-third-party-teams-apps.md
   - name: 業界および政府機関向けのガイダンス
     items:
       - name: 概要

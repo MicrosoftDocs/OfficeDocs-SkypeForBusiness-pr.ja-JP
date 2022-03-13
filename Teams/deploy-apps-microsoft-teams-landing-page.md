@@ -18,16 +18,16 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 05d683bbefa9b3cc564e4f97e52f0fad441f2763
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 3a9566ceb6d99bb7d665efea975ecee048607dc9
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070396"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442503"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Microsoft Teams のアプリ、ボット、およびコネクタ
 
-アプリを使用すると、お気に入りのサービスからコンテンツを見つけて、そのコンテンツを Teams で共有できるようになります。 チャネルの上部にサービスを固定したり、ボットとチャットしたり、タスクを共有および割り当てるときなどに役立ちます。 詳細については、「[Teams のアプリの概要](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)」を参照してください。 
+アプリを使用すると、お気に入りのサービスからコンテンツを見つけて、そのコンテンツを Teams で共有できるようになります。 チャネルの上部にサービスを固定したり、ボットとチャットしたり、タスクを共有および割り当てるときなどに役立ちます。 詳細については、「[Teams のアプリの概要](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)」を参照してください。
 
 Microsoft Teams で提供されるアプリを使用するか、認定されたサードパーティのアプリとテンプレートを使用するか、独自のカスタム アプリを作成することにより、Teams の展開にアプリを追加できます。
 
@@ -47,7 +47,6 @@ Microsoft が提供するアプリに加えて、Microsoft 認定のサード �
 
 Teams の [Microsoft Power Platform](teams-power-platfom-integration.md) との統合を使用すると、カスタムのローコード (わずかなコードを記述するだけで使用できる) ソリューションをすばやく構築できます。 ビジネス ニーズに合わせて独自のカスタム アプリを作成することもできます。 詳細については、「[Microsoft Teams 用アプリを構築する](/microsoftteams/platform/overview)」を参照してください。  
 
-
 ## <a name="apps-deployment-decisions"></a>アプリの展開に関する決定事項
 
 Teams は、すぐに使用できる優れたコラボレーション エクスペリエンスを組織に提供します。ほとんどの組織は、既定の設定がよく機能することに気づいています。この記事は、組織のプロファイルとビジネス要件に基づいて、既定の設定のいずれかを変更するかどうかを決定する方法について、その後、各変更について説明します。設定を 2 つのグループに分割しました。まず、[変更を加える可能性が高い](#core-deployment-decisions)コアセットから始めます。2 番目のグループには、組織のニーズに基づいて構成する可能性のある[追加の設定](#additional-deployment-decisions)が含まれています。
@@ -56,9 +55,10 @@ Teams は、すぐに使用できる優れたコラボレーション エクス�
 
 次に示すアプリの設定は、ほとんどの組織が変更を必要とするものです (Teams の既定の設定では適切に動作しない場合)。
 
-### <a name="app-availability-settings"></a>アプリの可用性の設定 
+### <a name="app-availability-settings"></a>アプリの可用性の設定
 
-Teams は、Microsoft とサード パーティによって発行された複数のアプリを提供します。それらのアプリは、ユーザー参加の促進、生産性のサポート、一般に使用されるビジネス サービスの Teams への統合に利用できます。 Teams Store からアプリを入手してください。 既定では、すべてのアプリ ([Teams Store 承認プロセス](/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process)で提出したカスタム アプリを含む) が、すべてのユーザーに対してオンにされています。 たとえば、ユーザーは Planner アプリを使用して Teams のチーム タスクを作成および管理できます。
+Teams は、Microsoft とサード パーティによって発行された複数のアプリを提供します。それらのアプリは、ユーザー参加の促進、生産性のサポート、一般に使用されるビジネス サービスの Teams への統合に利用できます。
+Teams Store からアプリを入手してください。 既定では、すべてのアプリ ([Teams Store 承認プロセス](/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process)で提出したカスタム アプリを含む) が、すべてのユーザーに対してオンにされています。 たとえば、ユーザーは Planner アプリを使用して Teams のチーム タスクを作成および管理できます。
 
 既定では、すべての Microsoft 提供のアプリ、サード パーティ製、カスタム アプリが使用可能になっていて、個別のアプリをオンまたはオフにすることができます。 すべてのサード パーティ製および/またはカスタム アプリを組織全体でオンまたはオフにできる、組織全体の設定があります。
 
@@ -68,6 +68,8 @@ Teams は、Microsoft とサード パーティによって発行された複数
 |||
 
 ### <a name="app-permissions-and-other-considerations"></a>アプリのアクセス許可とその他の考慮事項
+
+アプリはユーザーが同意し、管理者または IT 担当者がポリシーによって管理します。 ただし、全体として、アプリのアクセス許可とリスク プロファイルはアプリ自体で定義されています。
 
 アプリはユーザーが同意し、管理者または IT 担当者がポリシーによって管理します。 ただし、アプリのアクセス許可とリスク プロファイルは、アプリ自体で定義されます。
 
@@ -118,7 +120,9 @@ Teams は、Microsoft とサード パーティによって発行された複数
 
 ### <a name="app-templates"></a>アプリ テンプレート
 
-アプリ テンプレートは、Microsoft Teams 用の実稼働可能なアプリです。コミュニティ主導型、オープン ソースで、GitHub で利用できます。 各アプリには、組織用に展開してインストールするための詳細な手順が記載されています。使用可能な状態でアプリが提供されているため、すぐにインストールして使用を開始できます。 完全なソースコードも利用できるので、詳細を調べたり、コードをフォークして特定のニーズに合わせて変更したりできます。
+アプリ テンプレートは、Microsoft Teams 用の実稼働可能なアプリです。コミュニティ主導型、オープン ソースで、GitHub で利用できます。 各アプリには、組織用に展開してインストールするための詳細な手順が記載されています。使用可能な状態でアプリが提供されているため、すぐにインストールして使用を開始できます。
+
+完全なソースコードも利用できるので、詳細を調べたり、コードをフォークして特定のニーズに合わせて変更したりできます。
 
 | 確認事項 | アクション |
 |--------------|--------|
