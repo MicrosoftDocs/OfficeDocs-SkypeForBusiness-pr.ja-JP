@@ -1,7 +1,7 @@
 ---
 title: Lync Room システムデバイスを Microsoft Teams Rooms に移行する
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.assetid: ''
 description: このトピックでは、 Lync Room システムデバイスを移行して、Microsoft Teams Rooms のソフトウェアを使用する方法について説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 98604c36a987dde15633e9d9b1a3a283c0f36fa2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aae146767f66327e5678956a14dfe72d957a8164
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608824"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503514"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>Microsoft Teams Rooms にLync Room System (LRS) デバイスを移行する
 

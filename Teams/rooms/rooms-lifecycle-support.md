@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Rooms アプリ バージョンのサポート
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,23 +14,23 @@ f1.keywords:
 ms.localizationpriority: medium
 description: ダイナミック サポートの構造とそのフェーズを含めた Microsoft Teams Rooms のライフサイクル サポートの詳細について。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a04a98fa4a3d0b876b6abafff248916cb7e1443f
-ms.sourcegitcommit: 45756a51857ed1d8714175d2b715c388e2f0db81
+ms.openlocfilehash: b2f1ad2ce3be71667588288b82ca93646ff776a5
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62027570"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503674"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft Teams Rooms アプリ バージョンのサポート
  
-Microsoft Teams Rooms アプリは、新しいストアを通じてWindows取得します。 Microsoft Teams Room アプリは常に製品ライフサイクルを使用し、アプリの最新バージョンと最新バージョンだけがいつでもサポートされます。 Microsoft Teams Room アプリは、ルームで使用するために変更Teamsデスクトップ アプリの特定のバージョンをバンドルします。 2 Teamsデスクトップ アプリは 2 週間ごとに更新されます。 更新プロセスの詳細[Teams確認してください](../teams-client-update.md)。 つまり、Teams Rooms アプリの最新バージョンは最大 6 個の Teams デスクトップ アプリの更新が可能なので、Teams Room アプリケーションを常に最新バージョンの Teams Rooms アプリに更新し続けることです。 
+Microsoft Teams Rooms アプリは、Windows ストアを通じて更新を取得します。 Microsoft Teams Room アプリは常に製品ライフサイクルを使用し、アプリの最新バージョンと最新バージョンだけがいつでもサポートされます。 Microsoft Teams Room アプリは、ルームで使用するために変更されたTeamsデスクトップ アプリの特定のバージョンをバンドルします。 デスクトップ Teamsは 2 週間ごとに更新されます。 詳細については、更新プロセス[Teams確認してください](../teams-client-update.md)。 つまり、Teams Rooms アプリの最新バージョンは最大 6 個の Teams デスクトップ アプリの更新が可能なので、Teams Room アプリケーションを常に最新バージョンの Teams Rooms アプリに更新し続けることです。 
 
 Teams Rooms のサポート構造は動的であり、最新バージョンの可用性によって異なります。 最新ではないバージョンのアプリケーションでコードの欠陥が発生した場合は、最新バージョンをインストールして修正プログラムを受け取る必要があります。
 
 すべてのリリースが、[Microsoft Teams Rooms リリース ノート](rooms-release-note.md)に記載されています。
 
 > [!IMPORTANT]
-> 以前のバージョンの Teams Room アプリケーションにインストールした新しいデバイスをインストールする場合は、Windows[](manual-update.md)更新プログラムをダウンロードする前に、アカウントの設定後にアプリケーションを手動で更新Windowsがあります。 これにより、正しい OS バージョンとWindows更新プログラムがデバイスにインストールされます。  
+> 以前のバージョンの Teams Room アプリケーションにインストールされた新しいデバイスをインストールする場合は、Windows 更新プログラムをダウンロードする[](manual-update.md)前に、アカウントの設定後にアプリケーションを手動で更新Windowsがあります。 これにより、正しい OS バージョンとWindows更新プログラムがデバイスにインストールされます。  
 
 ## <a name="windows-10-release-support"></a>Windows 10 リリースのサポート
 
@@ -40,10 +40,10 @@ Microsoft Teams Rooms には、半期のチャネル サービス オプショ�
 - Windows 10 Internet of Things (IoT) Enterprise LTSB/LTSC エディション
 - Windows 10 Pro エディションや Windows 10 Home エディションなどの、その他の Windows エディション
 
-新Windows 10機能の更新プログラムは、Microsoft Teams Rooms デバイスではすぐに提供されません。 リリース情報ページに公開されている一般公開日から最大 6 か月以上の意図的[な遅延Windows 10があります](/windows/release-information/)。 この時間は、Windows 10 Rooms アプリ、デバイス ハードウェア、認定Microsoft Teamsオーディオ ビデオ周辺機器のリリース互換性を検証するために使用されます。 Windows 10 のメジャー リリースの各開発期間に検証が開始され、継続されます。 すべてのデバイスの製造元がデバイスの更新されたイメージを構築し、Microsoft がそれらのイメージを認定してテストするために、余分な時間が必要です。 検証期間中、Microsoft Teams Room アプリでは、Windows [Update for Business](/windows/deployment/update/waas-manage-updates-wufb)グループ ポリシーを使用して、機能の更新Windows 10遅延します。 互換性の問題が発見され、解決されると、Microsoft Store での新しいアプリ リリースを通して、グループ ポリシーを更新することにより、ブロックが解除されます。 Microsoft Teams Rooms アプリを実行するデバイスは、夜間のメンテナンス再起動中に、適切な Windows 10 リリースに自動的に更新されます。 MSI バージョンは、更新プログラムを手動で管理する必要があるお客様が利用できます。  
+新Windows 10機能の更新プログラムは、Microsoft Teams Rooms デバイスではすぐに提供されません。 リリース情報ページに公開された一般公開日から最大 6 か月以上の意図的[な遅延Windows 10があります](/windows/release-information/)。 この時間は、Windows 10 Rooms アプリ、Microsoft Teams ハードウェア、認定オーディオ ビデオ周辺機器のリリースの互換性を検証するために使用されます。 Windows 10 のメジャー リリースの各開発期間に検証が開始され、継続されます。 すべてのデバイスの製造元がデバイスの更新されたイメージを構築し、Microsoft がそれらのイメージを認定してテストするために、余分な時間が必要です。 検証期間中、Microsoft Teams Room アプリでは、Windows [Update for Business](/windows/deployment/update/waas-manage-updates-wufb) グループ ポリシーを使用して、機能の更新Windows 10遅延します。 互換性の問題が発見され、解決されると、Microsoft Store での新しいアプリ リリースを通して、グループ ポリシーを更新することにより、ブロックが解除されます。 Microsoft Teams Rooms アプリを実行するデバイスは、夜間のメンテナンス再起動中に、適切な Windows 10 リリースに自動的に更新されます。 MSI バージョンは、更新プログラムを手動で管理する必要があるお客様が利用できます。  
 
 > [!IMPORTANT]
-> 検証期間中は、Microsoft Teams Rooms デバイスが、何らかの方法で、次の Windows 10 のリリースに更新 **されない** ようにする必要があります。 これには、グループ ポリシーの施行の無効化または System Center やその他のサードパーティ製デバイス管理サービスの使用が含まれます。 これらが原因で、Microsoft Teams Room アプリの問題が発生したり、デバイスが使用できなくなる可能性があります。  
+> 検証期間中は、Microsoft Teams Rooms デバイスが、何らかの方法で、次の Windows 10 のリリースに更新 **されない** ようにする必要があります。 これには、グループ ポリシーの施行の無効化または System Center やその他のサードパーティ製デバイス管理サービスの使用が含まれます。 これらが原因で、Microsoft Teams Room アプリで問題が発生したり、デバイスが使用できなくなる可能性があります。  
 
 次の表は、Microsoft Teams Roomsのサポートが確認されている Windows 10 の推奨バージョンとサポート対象バージョンを示しています。 すべての日付は、ISO 8601 形式 (YYYY-MM-DD) で表示されます。
 
@@ -59,7 +59,7 @@ Microsoft Teams Rooms には、半期のチャネル サービス オプショ�
 | 1709 |2018-01-18 |非サポート                         |&#x2014; |&#x2014; |
 | 1703 |2017-07-11 |非サポート                         |&#x2014; |&#x2014; |
 
-&#x2780; Windows 10 Rooms アプリケーションとの互換性の問題が見つかり、バージョン 2004 Microsoft Teams勧めできません。 この特定の問題により、Microsoft Teams Rooms アプリケーションは夜間に再起動すると失敗します。 
+&#x2780; Windows 10 Rooms アプリケーションとの互換性の問題が見つかり、バージョン 2004 Microsoft Teamsは推奨されません。 この特定の問題により、Microsoft Teams Rooms アプリケーションは夜間に再起動すると失敗します。 
 
 &#x2781; Windows 10 Rooms アプリケーションとの互換性の問題が見つかったので、バージョン 1809 Microsoft Teamsは推奨されません。 この特定の問題により、Microsoft Teams Rooms アプリケーションは夜間に再起動すると失敗します。 この問題は、Windows 10 バージョン 1903 で解決されています。  
 

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Rooms のデバイス設定をリモートで管理する
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -16,16 +16,16 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: カスタム テーマの適用やマスター設定ファイルの作成など、Microsoft Teams Rooms デバイスで使用される既定の設定のリモート管理について説明します。
-ms.openlocfilehash: fdece0fb7ed554e229a5eef557e1bd2cbf8e4711
-ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
+ms.openlocfilehash: 4ce68a828a1284b9f1c917bff7b952c73406ea14
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62299022"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503894"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Microsoft Teams Rooms のコンソールの設定を、XML 構成ファイルを使用してリモートで管理する
 
-この記事では、カスタム テーマの適用など、 Microsoft Teams Rooms デバイスによって使用される既定の設定のリモート管理について説明します。 マスター設定ファイルを作成する方法と、必要に応じてマスター設定ファイルを会議室に配置する方法の説明Teams説明します。
+この記事では、カスタム テーマの適用など、 Microsoft Teams Rooms デバイスによって使用される既定の設定のリモート管理について説明します。 マスター設定ファイルを作成する方法と、必要に応じてマスター設定ファイルを会議室に配置する方法についてのTeams説明します。
   
 マスター XML ファイルを更新し、リモート Teams Rooms デバイスにコピーを送信することで、Teams Rooms の既定の設定を変更できます。 
   
@@ -128,7 +128,7 @@ ms.locfileid: "62299022"
 | \<DisableTeamsAudioSharing\>                | ブール値 &#x2777;            | First &#x2776; | [true] に設定すると、会議中の会議の参加者に対する HDMI オーディオ共有Teams無効になります。 既定の設定は False です。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | \<FrontRowEnabled>                          | ブール値 &#x2777;            | First &#x2776; | 既定では有効になっています。 false の場合、最前面行は無効になります。
 | \<DefaultFoRExperience>                     | ブール値 &#x2777;            | First &#x2776; | 既定ではギャラリー ビュー。 既定のレイアウトをギャラリー ビューから最前面行に変更するには、1 を配置します。
-| \<CortanaWakewordEnabled\>                  | ブール値 &#x2777;            | First &#x2776; | "Hey Cortana" というウェイク ワードCortanaを有効にするには、true に設定します。 この設定は、お客様の国または地域で Cortana サービスがサポートされ、接続されているオーディオ周辺機器がサポートしている場合をCortana。 既定の設定は False です。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| \<CortanaWakewordEnabled\>                  | ブール値 &#x2777;            | First &#x2776; | "Hey Cortana" というウェイク ワードを有効にするには、true にCortana。 この設定は、お客様の国または地域で Cortana サービスがサポートされ、接続されているオーディオ周辺機器がサポートされている場合をCortana。 既定の設定は False です。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | \<SendLogs\>                                | コンテナー                   | First &#x2776; |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | \<EmailAddressForLogsAndFeedback\>          | 文字列  &#x2778;            |                | [フィードバックの送信] ウィンドウが表示されたときにログの送信先となるオプションのメールアドレスを設定します。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | \<SendLogsAndFeedback\>                     | ブール値 &#x2777;            |                | True の場合、ログは管理者に送信されます。False の場合は、フィードバックのみが管理者に送信され、ログには送信されません。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |

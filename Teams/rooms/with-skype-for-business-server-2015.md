@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server で Microsoft Teams Rooms を展開する
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,12 +15,12 @@ ms.collection:
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: このトピックでは、Skype for Business Server を使用して Microsoft Teams Rooms を展開する方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 702eb2128dd37980fd3fc76548638102d45d7af9
-ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
+ms.openlocfilehash: 358fa9295ec150f9c57a18252c76d309078b8e29
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61355626"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503484"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>Skype for Business Server で Microsoft Teams Rooms を展開する
   
@@ -60,7 +60,7 @@ Microsoft Teams Rooms の展開を開始する前に、関連するコマンド�
    -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
-3. 会議室のリソース アカウントExchangeさまざまなプロパティTeams設定して、ユーザーの会議エクスペリエンスを向上できます。 [Exchange プロパティ] セクションで設定する必要があるプロパティが表示されます。
+3. ユーザーの会議エクスペリエンスExchange、Teams Rooms リソース アカウントでさまざまなプロパティを設定できます。 [Exchange プロパティ] セクションで設定する必要があるプロパティが表示されます。
 
    ``` Powershell
    Set-CalendarProcessing -Identity ConferenceRoom01 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments
@@ -80,14 +80,14 @@ Microsoft Teams Rooms の展開を開始する前に、関連するコマンド�
    Set-AdUser ConferenceRoom01@contoso.com -Enabled $true
    ```
 
-6. リソース プールで Skype for Business Server Rooms Active Directory アカウントMicrosoft Teamsを有効にして、リソース アカウントを有効Skype for Business Serverします。
+6. リソース プールで Skype for Business Server Rooms Active Directory アカウントMicrosoft Teamsを有効にして、リソース アカウントSkype for Business Serverします。
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity ConferenceRoom01 -SipAddress sip:ConferenceRoom01@contoso.com -DomainController DC-ND-001.contoso.com
    -RegistrarPool LYNCPool15.contoso.com 
    ```
 
-    と 属性 `-DomainController` を `-RegistrarPool` 、環境に適した値に変更します。
+    と 属性 `-DomainController` を、 `-RegistrarPool` 環境に適した値に変更します。
 
 7. **オプション。** アカウントのEnterprise Voice を有効にすることで、Microsoft Teams Rooms を使用して、公衆交換電話網 (PSTN) 通話を発着信することもできます。 エンタープライズ VoIP Microsoft Teams 会議室の要件ではないが、Microsoft Teams 会議室の PSTN ダイヤル機能が必要な場合は、次の方法で有効にします。
 

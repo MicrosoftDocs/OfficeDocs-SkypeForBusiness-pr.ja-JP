@@ -1,7 +1,7 @@
 ---
 title: Azure Monitor Microsoft Teams会議室の監視をデプロイする
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: Turgayo
 manager: serdars
 audience: ITPro
@@ -15,20 +15,20 @@ ms.collection:
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: この記事では、Azure Monitor を使用して、Microsoft Teams Rooms の監視を、統合されたエンドツーエンドの方法でデプロイする方法について説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1520e9a4c9eced048634a0fdc457bb2fd0ea0edb
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: b991465bfff8f67fdbd3bdc9c03eba485690d5fb
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62015217"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503874"
 ---
-# <a name="deploy-no-loc-textmicrosoft-teams-rooms-monitoring-with-no-loc-textazure-monitor"></a>を :::no-loc text="Microsoft Teams Rooms"::: 使用して監視をデプロイする :::no-loc text="Azure Monitor":::
+# <a name="deploy-no-loc-textmicrosoft-teams-rooms-monitoring-with-no-loc-textazure-monitor"></a>を使用 :::no-loc text="Microsoft Teams Rooms"::: して監視をデプロイする :::no-loc text="Azure Monitor":::
 
-この記事では、 を使用してデバイスの統合されたエンドツーエンドの監視を設定してデプロイする方法 :::no-loc text="Microsoft Teams Rooms"::: について説明します :::no-loc text="Azure Monitor"::: 。
+この記事では、 を使用して :::no-loc text="Microsoft Teams Rooms"::: デバイスの統合されたエンドツーエンドの監視を設定してデプロイする方法について説明します :::no-loc text="Azure Monitor":::。
 
-内を構成 :::no-loc text="Log Analytics"::: して :::no-loc text="Azure Monitor"::: 、管理に役立つ基本的なテレメトリとアラートを提供できます :::no-loc text="Microsoft Teams Rooms"::: 。 管理ソリューションの成熟に合わせ、追加のデータと管理機能をデプロイして、デバイスの可用性とパフォーマンスの詳細なビューを作成できます。
+内を構成して:::no-loc text="Log Analytics"::::::no-loc text="Azure Monitor":::、管理に役立つ基本的なテレメトリとアラートを提供できます:::no-loc text="Microsoft Teams Rooms":::。 管理ソリューションの成熟に合わせ、追加のデータと管理機能をデプロイして、デバイスの可用性とパフォーマンスの詳細なビューを作成できます。
 
-このガイドに従って、次の例のようなダッシュボードを使用して、デバイスの可用性、アプリケーションとハードウェアの正常性、アプリケーションとオペレーティング システムのバージョンの配布に関する詳細な状態レポート :::no-loc text="Microsoft Teams Rooms"::: を取得できます。
+このガイドに従 :::no-loc text="Microsoft Teams Rooms"::: って、次の例のようなダッシュボードを使用して、デバイスの可用性、アプリケーションとハードウェアの正常性、アプリケーションとオペレーティング システムのバージョンの配布に関する詳細な状態レポートを取得できます。
 
 ![会議室の Log Analytics ビューのMicrosoft Teamsスクリーンショット。](../media/Deploy-Azure-Monitor-1.png "Microsoft Teams 会議室の Log Analytics ビューのサンプル")
 
@@ -36,72 +36,72 @@ ms.locfileid: "62015217"
 
 
 1. [構成の :::no-loc text="Log Analytics"::: 検証](azure-monitor-deploy.md#validate_LogAnalytics)
-2. [管理セットアップ用にテスト デバイス :::no-loc text="Log Analytics"::: を構成する](azure-monitor-deploy.md#configure_test_devices)
+2. [管理セットアップ用にテスト デバイスを :::no-loc text="Log Analytics"::: 構成する](azure-monitor-deploy.md#configure_test_devices)
 3. [カスタム フィールドをマップする](azure-monitor-deploy.md#Custom_fields)
-4. [でビュー :::no-loc text="Microsoft Teams Rooms"::: を定義する :::no-loc text="Log Analytics":::](azure-monitor-deploy.md#Define_Views)
+4. [でビューを :::no-loc text="Microsoft Teams Rooms"::: 定義する :::no-loc text="Log Analytics":::](azure-monitor-deploy.md#Define_Views)
 5. [アラートを定義する](azure-monitor-deploy.md#Alerts)
 6. [監視用にすべてのデバイスを構成する](azure-monitor-deploy.md#configure_all_devices)
-7. [その他のソリューションを :::no-loc text="Azure Monitor"::: 構成する](azure-monitor-deploy.md#Solutions)
+7. [その他のソリューションを構成 :::no-loc text="Azure Monitor"::: する](azure-monitor-deploy.md#Solutions)
 
 > [!IMPORTANT]
-> 最小限の構成では、オペレーティング システムを実行しているコンピューターを監視することができますが、すべてのデバイスへのエージェントのデプロイを開始する前に実行する必要があるいくつかの具体的な手順がまだ :::no-loc text="Azure Monitor"::: :::no-loc text="Log Analytics"::: :::no-loc text="Windows"::: :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Microsoft Teams Rooms"::: 存在します。
+> 最小限の構成では :::no-loc text="Azure Monitor"::: :::no-loc text="Microsoft Teams Rooms"::::::no-loc text="Log Analytics"::: :::no-loc text="Windows"::: :::no-loc text="Microsoft Teams Rooms":::、オペレーティング システムを実行しているコンピューターを監視することができますが、すべてのデバイスへのエージェントのデプロイを開始する前に実行する必要があるいくつかの具体的な手順がまだ存在します。
 > そのため、制御されたセットアップと構成に対して、すべての構成手順を適切な順序で実行することを強くお勧めします。 結果の品質は、初期構成の品質によって大きな違いがあります。
 
 ## <a name="validate-no-loc-textlog-analytics-configuration"></a>構成の :::no-loc text="Log Analytics"::: 検証
 <a name="validate_LogAnalytics"> </a>
 
-からログの収集 :::no-loc text="Log Analytics"::: を開始するには、ワークスペースが必要です :::no-loc text="Microsoft Teams Rooms"::: 。 ワークスペースは、独自の :::no-loc text="Log Analytics"::: データ リポジトリ、データ ソース、ソリューションを備える一意の環境です。 既存のワークスペースが既に存在する場合は、それを使用してデプロイを監視するか、または監視ニーズに固有の専用ワークスペース :::no-loc text="Log Analytics"::: :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Log Analytics"::: を :::no-loc text="Microsoft Teams Rooms"::: 作成できます。
+からログの収集を :::no-loc text="Log Analytics"::: 開始するには、ワークスペースが必要です :::no-loc text="Microsoft Teams Rooms":::。 ワークスペースは、独自のデータ :::no-loc text="Log Analytics"::: リポジトリ、データ ソース、ソリューションを備える一意の環境です。 既存のワークスペースが既に :::no-loc text="Log Analytics"::: :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Log Analytics"::: 存在する場合は、それを使用してデプロイを監視するか、または監視ニーズに固有の専用ワークスペースを :::no-loc text="Microsoft Teams Rooms"::: 作成できます。
 
-新しいワークスペースを作成する必要がある場合は、「ポータルでワークスペースを作成する」の :::no-loc text="Log Analytics"::: [ :::no-loc text="Log Analytics"::: 手順に従 :::no-loc text="Azure"::: ってください。](/azure/azure-monitor/learn/quick-create-workspace)
+新しいワークスペースを作成する必要がある :::no-loc text="Log Analytics"::: 場合は、「ポータルでワークスペースを作成する」の [手順 :::no-loc text="Log Analytics"::: に従 :::no-loc text="Azure"::: ってください。](/azure/azure-monitor/learn/quick-create-workspace)
 
 > [!NOTE]
-> で使用 :::no-loc text="Log Analytics"::: :::no-loc text="Azure Monitor"::: するには、アクティブなサブスクリプションが必要 :::no-loc text="Azure"::: です。 サブスクリプションをお持ちでない :::no-loc text="Azure"::: 場合は、開始点として[](https://azure.microsoft.com/free)無料試用版サブスクリプションを作成できます。
+> で使用 :::no-loc text="Log Analytics"::: するには、 :::no-loc text="Azure Monitor":::アクティブなサブスクリプションが必要 :::no-loc text="Azure"::: です。 サブスクリプションをお持ちでない場合 :::no-loc text="Azure"::: は、開始点として無料 [試用版サブスクリプションを](https://azure.microsoft.com/free) 作成できます。
 
-### <a name="configure-no-loc-textlog-analytics-to-collect-no-loc-textmicrosoft-teams-rooms-event-logs"></a>イベント :::no-loc text="Log Analytics"::: ログを収集 :::no-loc text="Microsoft Teams Rooms"::: する構成
+### <a name="configure-no-loc-textlog-analytics-to-collect-no-loc-textmicrosoft-teams-rooms-event-logs"></a>イベント ログ :::no-loc text="Log Analytics"::: を収集する :::no-loc text="Microsoft Teams Rooms"::: 構成
 
 :::no-loc text="Log Analytics"::: 設定で指定されているイベント :::no-loc text="Windows"::: ログからのイベントのみを収集します。 ログごとに、選択した重大度のイベントだけが収集されます。
 
-デバイスとアプリケーションの :::no-loc text="Log Analytics"::: 状態を監視するために必要なログを収集するために :::no-loc text="Microsoft Teams Rooms"::: 構成する必要があります。 :::no-loc text="Microsoft Teams Rooms"::: イベント ログ **:::no-loc text="Skype Room System":::** を使用します。
+デバイスとアプリケーションの状態 :::no-loc text="Log Analytics"::: を監視するために必要なログを収集するために構成 :::no-loc text="Microsoft Teams Rooms"::: する必要があります。 :::no-loc text="Microsoft Teams Rooms"::: イベント ログを **:::no-loc text="Skype Room System":::** 使用します。
 
-イベントを :::no-loc text="Log Analytics"::: 収集するために構成 :::no-loc text="Microsoft Teams Rooms"::: するには、 の[ :::no-loc text="Windows"::: イベント ログ データ :::no-loc text="Azure Monitor"::: ソースに関するページを参照してください。](/azure/azure-monitor/platform/data-sources-windows-events)
+イベントを収集 :::no-loc text="Log Analytics"::: するために構成するには、 :::no-loc text="Microsoft Teams Rooms"::: [:::no-loc text="Windows"::: のイベント ログ データ ソースに関するページを参照してください。 :::no-loc text="Azure Monitor":::](/azure/azure-monitor/platform/data-sources-windows-events)
 
 ![イベント ログ設定のスクリーンショット。](../media/Deploy-Azure-Monitor-2.png "イベント ログの設定")
 
 > [!IMPORTANT]
-> イベント ログの設定を構成し、イベント ログ名として「」と入力し、[エラー]、[警告]、および [情報] :::no-loc text="Windows"::: **:::no-loc text="Skype Room System":::** チェック ボックスをオンにします。   
+> イベント :::no-loc text="Windows"::: ログの設定を構成し **:::no-loc text="Skype Room System":::**、イベント ログ名として「」と入力し、[エラー]、[警告]、および [情報 **] チェック ボックス** をオンにします。
 
 ## <a name="configure-test-devices-for-azure-monitoring"></a>Azure Monitoring のテスト デバイスを構成する
 <a name="configure_test_devices"> </a>
 
-関連するイベント :::no-loc text="Log Analytics"::: を監視できる状態 :::no-loc text="Microsoft Teams Rooms"::: を準備する必要があります。 最初に、物理的にアクセスできる 1 台または 2 台のデバイスにエージェントをデプロイし、それらのテスト デバイスにデータを生成してワークスペースにプッシュする :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Microsoft Teams Rooms"::: 必要 :::no-loc text="Log Analytics"::: があります。
+関連するイベントを :::no-loc text="Log Analytics"::: 監視できる状態を準備 :::no-loc text="Microsoft Teams Rooms":::する必要があります。 最初に、:::no-loc text="Microsoft Monitoring"::::::no-loc text="Microsoft Teams Rooms":::物理的にアクセスできる 1 台または 2 台のデバイスにエージェントをデプロイし、それらのテスト デバイスにデータを生成してワークスペースにプッシュする必要:::no-loc text="Log Analytics":::があります。
 
-### <a name="install-no-loc-textmicrosoft-monitoring-agents-to-test-devices"></a>エージェント :::no-loc text="Microsoft Monitoring"::: をインストールしてデバイスをテストする
+### <a name="install-no-loc-textmicrosoft-monitoring-agents-to-test-devices"></a>エージェントを :::no-loc text="Microsoft Monitoring"::: インストールしてデバイスをテストする
 
-エージェントをテスト デバイスにデプロイするには、次のコンピューターに関するページに記載Connectを使用して :::no-loc text="Microsoft Monitoring"::: [、 :::no-loc text="Windows"::: :::no-loc text="Log Analytics"::: のサービスにデプロイします :::no-loc text="Azure"::: ](/azure/azure-monitor/platform/agent-windows)。 この記事では、エージェントをデプロイする手順について詳しく説明します。ワークスペース ID _ と _ 主キー :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Windows"::: :::no-loc text="Log Analytics":::  * *** :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Azure Monitor"::: :::no-loc text="Log Analytics"::: を取得してデプロイに接続するデバイスを取得する手順と、インスタンスへのエージェント接続を確認する手順について説明します。
+エージェントをテスト :::no-loc text="Microsoft Monitoring"::: デバイスにデプロイするには、次のコンピューターに関するページに記載Connectを使用して[、 のサービスに:::no-loc text="Log Analytics":::デプロイします:::no-loc text="Azure":::。 :::no-loc text="Windows":::](/azure/azure-monitor/platform/agent-windows) :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Log Analytics"::::::no-loc text="Windows"::: *この記事では、 のエージェントをデプロイする手順について詳しく説明します。ワークスペース **ID** _ と _ *_primary key_** :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Azure Monitor"::: :::no-loc text="Log Analytics"::: を取得してデプロイに接続するデバイスを取得する手順と、インスタンスへのエージェント接続を確認する手順について説明します。
 
 ### <a name="generate-sample-no-loc-textmicrosoft-teams-rooms-events"></a>サンプル イベントを生成 :::no-loc text="Microsoft Teams Rooms"::: する
 
-エージェントを :::no-loc text="Microsoft Monitoring"::: テスト デバイスにデプロイした後、必要なイベント ログ データが によって収集されるのを確認します :::no-loc text="Azure Monitor"::: 。
+エージェントを :::no-loc text="Microsoft Monitoring"::: テスト デバイスにデプロイした後、必要なイベント ログ データが によって収集されるのを確認します :::no-loc text="Azure Monitor":::。
 
 > [!NOTE]
-> エージェントのインストール後にデバイスを再起動し、会議アプリが起動され、イベント ログに新しいイベントを生成できるよう :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Microsoft Teams Rooms"::: 確認します。
+> エージェントのインストール後に:::no-loc text="Microsoft Monitoring"::::::no-loc text="Microsoft Teams Rooms":::デバイスを再起動し、会議アプリが起動され、イベント ログに新しいイベントを生成できるよう確認します。
 
-1.  ポータルにサインイン[ :::no-loc text="Microsoft Azure"::: し、 に](https://portal.azure.com)移動して :::no-loc text="Log Analytics"::: ワークスペースを選択します。
+1.  ポータルにサインイン[し:::no-loc text="Microsoft Azure":::、 に](https://portal.azure.com)移動して:::no-loc text="Log Analytics":::ワークスペースを選択します。
 
 2.  デバイスによって生成されたハートビート イベントを一覧表示 :::no-loc text="Microsoft Teams Rooms"::: します。
-    1.  ワークスペースを選択し、[ログ] **に移動** し、クエリを使用して、 のカスタム フィールドを持つハートビート レコードを取得します :::no-loc text="Microsoft Teams Rooms"::: 。
+    1.  ワークスペースを選択し、[ **ログ] に移動** し、クエリを使用して、 のカスタム フィールドを持つハートビート レコードを取得します :::no-loc text="Microsoft Teams Rooms":::。
     2.  サンプル クエリ: `Event | where Source == "SRS-App" and EventID == 2000`
 
-3.  クエリが、会議アプリによって生成されたイベントを含むログ レコードを返す :::no-loc text="Microsoft Teams Rooms"::: 必要があります。
+3.  クエリが、会議アプリによって生成されたイベントを含むログ レコードを返す必要 :::no-loc text="Microsoft Teams Rooms"::: があります。
 
-4.  ハードウェアの問題を生成し、必要なイベントが に記録されるのを検証します :::no-loc text="Azure Log Analytics"::: 。
+4.  ハードウェアの問題を生成し、必要なイベントが に記録されるのを検証します :::no-loc text="Azure Log Analytics":::。
     1.  テスト システムの周辺機器の 1 つを取り外 :::no-loc text="Microsoft Teams Rooms"::: します。 カメラ、スピーカー、マイク、フロント ルーム ディスプレイなどです。
-    2.  イベント ログが に設定されるのを 10 分待ちます :::no-loc text="Azure Log Analytics"::: 。
+    2.  イベント ログが に設定されるのを 10 分待ちます :::no-loc text="Azure Log Analytics":::。
     3.  クエリを使用してハードウェア エラー イベントを一覧表示します。 `Event | where Source == "SRS-App" and EventID == 3001`
 
 5.  アプリケーションの問題を生成し、必要なイベントがログに記録されるのを検証します。
     1.  アカウント :::no-loc text="Microsoft Teams Rooms"::: の構成を変更し、正しくないメール/パスワードペアを入力します。
-    2.  イベント ログが に設定されるのを 10 分待ちます :::no-loc text="Azure Log Analytics"::: 。
+    2.  イベント ログが に設定されるのを 10 分待ちます :::no-loc text="Azure Log Analytics":::。
     3.  クエリを使用して、アプリケーション エラー イベントを一覧表示します。 `Event | where Source == "SRS-App" and EventID == 2001 and EventLevel == 1`
 
 > [!IMPORTANT]
@@ -110,11 +110,11 @@ ms.locfileid: "62015217"
 ## <a name="map-custom-fields"></a>カスタム フィールドをマップする
 <a name="Custom_fields"> </a>
 
-カスタム フィールドを使用して、イベント ログから特定のデータを抽出します。 後でタイル、ダッシュボード ビュー、アラートで使用するカスタム フィールドを定義する必要があります。 カスタム[フィールドの :::no-loc text="Log Analytics"::: 作成を開始する](/azure/azure-monitor/platform/custom-fields)前に、 のカスタム フィールド に関するページを参照し、概念を理解してください。
+カスタム フィールドを使用して、イベント ログから特定のデータを抽出します。 後でタイル、ダッシュボード ビュー、アラートで使用するカスタム フィールドを定義する必要があります。 カスタム [フィールドの作成を開始する :::no-loc text="Log Analytics":::](/azure/azure-monitor/platform/custom-fields) 前に、 のカスタム フィールド に関するページを参照し、概念を理解してください。
 
 キャプチャしたイベント ログからカスタム フィールドを抽出するには、次の手順に従います。
 
-1.  ポータルにサインイン[ :::no-loc text="Microsoft Azure"::: し、 に](https://portal.azure.com)移動して :::no-loc text="Log Analytics"::: ワークスペースを選択します。
+1.  ポータルにサインイン[し:::no-loc text="Microsoft Azure":::、 に](https://portal.azure.com)移動して:::no-loc text="Log Analytics":::ワークスペースを選択します。
 
 2. デバイスによって生成されたイベントを一覧表示 :::no-loc text="Microsoft Teams Rooms"::: します。
    1.  [ログ **] に** 移動し、クエリを使用して、カスタム フィールドを持つレコードを取得します。
@@ -122,47 +122,47 @@ ms.locfileid: "62015217"
 
 3. レコードのいずれかを選択し、左側のボタンを選択して、フィールド抽出ウィザードを開始します。
 4. RenderedDescription から抽出するデータを強調表示し、フィールド タイトルを指定します。 使用する必要があるフィールド名を表 1 に示します。
-5. 表 1 に示すマッピング *を使用します*。 :::no-loc text="Log Analytics":::は、新しいフィールド **\_ を定義** するときに CF 文字列を自動的に追加します。
+5. 表 1 に示すマッピング *を使用します*。 :::no-loc text="Log Analytics":::は、新しいフィールド **を\_定義するときに CF** 文字列を自動的に追加します。
 
 > [!IMPORTANT]
 > すべての JSON とフィールドでは大文字 :::no-loc text="Log Analytics"::: と小文字が区別されます。
 > 
-> 次の表のカスタム フィールドごとに必要なクエリに注意してください。 カスタム フィールド値を正常に抽出するには、 の :::no-loc text="Log Analytics"::: 適切なクエリを使用する必要があります。
+> 次の表のカスタム フィールドごとに必要なクエリに注意してください。 カスタム フィールド値を正常に抽出するには、 :::no-loc text="Log Analytics"::: の適切なクエリを使用する必要があります。
 > 
 **表 1**
 
 | **JSON フィールド**                   | **:::no-loc text="Log Analytics"::: カスタム フィールド** | **イベント ID** | **抽出で使用するクエリ**                   |
 |:---------------------------------|:-------------------------------|:-------------|:-------------------------------------------------------|
-| 説明                      | SRSEventDescription         | **2000**     | \|Source == "SRS-App" と EventID == 2000 のイベント |
-| ResourceState                    | SRSResourceState            | **2000**     | \|Source == "SRS-App" と EventID == 2000 のイベント |
-| OperationName                    | SRSOperationName            | **2000**     | \|Source == "SRS-App" と EventID == 2000 のイベント |
-| OperationResult                  | SRSOperationResult          | **2000**     | \|Source == "SRS-App" と EventID == 2000 のイベント |
-| OS                               | SRSOSVersion                | **2000**     | \|Source == "SRS-App" と EventID == 2000 のイベント |
-| OSVersion                        | SRSOSLongVersion            | **2000**     | \|Source == "SRS-App" と EventID == 2000 のイベント |
-| Alias                            | SRSAlias                    | **2000**     | \|Source == "SRS-App" と EventID == 2000 のイベント |
-| DisplayName                      | SRSDisplayName              | **2000**     | \|Source == "SRS-App" と EventID == 2000 のイベント |
-| AppVersion                       | SRSAppVersion               | **2000**     | \|Source == "SRS-App" と EventID == 2000 のイベント |
-| IPv4Address                      | SRSIPv4Address              | **2000**     | \|Source == "SRS-App" と EventID == 2000 のイベント |
-| IPv6Address                      | SRSIPv6Address              | **2000**     | \|Source == "SRS-App" と EventID == 2000 のイベント |
-| 電話会議マイクの状態     | SRSConfMicrophoneStatus     | **3001**     | \|Source == "SRS-App" と EventID == 3001 のイベント |
-| 電話会議の発表者の状態        | SRSConfSpeakerStatus        | **3001**     | \|Source == "SRS-App" と EventID == 3001 のイベント |
-| スピーカーの既定の状態           | SRSDefaultSpeakerStatus     | **3001**     | \|Source == "SRS-App" と EventID == 3001 のイベント |
-| カメラの状態                    | SRSCameraStatus             | **3001**     | \|Source == "SRS-App" と EventID == 3001 のイベント |
-| ルームの前面の表示状態     | SRSFORDStatus               | **3001**     | \|Source == "SRS-App" と EventID == 3001 のイベント |
-| モーション センサーの状態             | SRSMotionSensorStatus       | **3001**     | \|Source == "SRS-App" と EventID == 3001 のイベント |
-| HDMI 取り込み状態               | SRSHDMIIngestStatus         | **3001**     | \|Source == "SRS-App" と EventID == 3001 のイベント |
+| 説明                      | SRSEventDescription         | **2000**     | Source \| == "SRS-App" と EventID == 2000 のイベント |
+| ResourceState                    | SRSResourceState            | **2000**     | Source \| == "SRS-App" と EventID == 2000 のイベント |
+| OperationName                    | SRSOperationName            | **2000**     | Source \| == "SRS-App" と EventID == 2000 のイベント |
+| OperationResult                  | SRSOperationResult          | **2000**     | Source \| == "SRS-App" と EventID == 2000 のイベント |
+| OS                               | SRSOSVersion                | **2000**     | Source \| == "SRS-App" と EventID == 2000 のイベント |
+| OSVersion                        | SRSOSLongVersion            | **2000**     | Source \| == "SRS-App" と EventID == 2000 のイベント |
+| Alias                            | SRSAlias                    | **2000**     | Source \| == "SRS-App" と EventID == 2000 のイベント |
+| DisplayName                      | SRSDisplayName              | **2000**     | Source \| == "SRS-App" と EventID == 2000 のイベント |
+| AppVersion                       | SRSAppVersion               | **2000**     | Source \| == "SRS-App" と EventID == 2000 のイベント |
+| IPv4Address                      | SRSIPv4Address              | **2000**     | Source \| == "SRS-App" と EventID == 2000 のイベント |
+| IPv6Address                      | SRSIPv6Address              | **2000**     | Source \| == "SRS-App" と EventID == 2000 のイベント |
+| 電話会議マイクの状態     | SRSConfMicrophoneStatus     | **3001**     | Source \| == "SRS-App" と EventID == 3001 のイベント |
+| 電話会議の発表者の状態        | SRSConfSpeakerStatus        | **3001**     | Source \| == "SRS-App" と EventID == 3001 のイベント |
+| スピーカーの既定の状態           | SRSDefaultSpeakerStatus     | **3001**     | Source \| == "SRS-App" と EventID == 3001 のイベント |
+| カメラの状態                    | SRSCameraStatus             | **3001**     | Source \| == "SRS-App" と EventID == 3001 のイベント |
+| ルームの前面の表示状態     | SRSFORDStatus               | **3001**     | Source \| == "SRS-App" と EventID == 3001 のイベント |
+| モーション センサーの状態             | SRSMotionSensorStatus       | **3001**     | Source \| == "SRS-App" と EventID == 3001 のイベント |
+| HDMI 取り込み状態               | SRSHDMIIngestStatus         | **3001**     | Source \| == "SRS-App" と EventID == 3001 のイベント |
 
 
-## <a name="define-the-no-loc-textmicrosoft-teams-rooms-views-in-no-loc-textlog-analytics"></a>でビュー :::no-loc text="Microsoft Teams Rooms"::: を定義する :::no-loc text="Log Analytics":::
+## <a name="define-the-no-loc-textmicrosoft-teams-rooms-views-in-no-loc-textlog-analytics"></a>でビューを :::no-loc text="Microsoft Teams Rooms"::: 定義する :::no-loc text="Log Analytics":::
 <a name="Define_Views"> </a>
 
-データが収集され、カスタム フィールドがマップされた後、ビュー デザイナーを使用して、イベントを監視するさまざまなタイルを含むダッシュボードを開発 :::no-loc text="Microsoft Teams Rooms"::: できます。 ビュー デザイナーを使用して、次のタイルを作成します。 詳細については、「ビュー デザイナーを[使用してカスタム ビューを :::no-loc text="Log Analytics"::: 作成する」を参照してください。](/azure/azure-monitor/platform/view-designer)
+データが収集され、カスタム フィールドがマップされた後、ビュー デザイナーを使用して、イベントを監視するさまざまなタイルを含むダッシュボードを開発 :::no-loc text="Microsoft Teams Rooms"::: できます。 ビュー デザイナーを使用して、次のタイルを作成します。 詳細については、「ビュー デザイナーを [使用してカスタム ビューを作成する」を参照してください。 :::no-loc text="Log Analytics":::](/azure/azure-monitor/platform/view-designer)
 
 > [!NOTE]
 > ダッシュボード タイルが正常に動作するには、このガイドの前の手順を完了している必要があります。
 >
 > [!IMPORTANT]
-> Azure Monitor のビュー デザイナーは[2023](https://azure.microsoft.com/updates/view-designer-in-azure-monitor-is-retiring-on-31-august-2023/)年 8 月 31 日に廃止され、作成と複製の機能は 2020 年 11 月 30 日に無効になっています。 代わりにブックを使用できます。 ビュー デザイナーのブックへの移行ガイドの詳細については、プリセット ビュー デザイナー テンプレートを使用したクイック スタート [に関するページを参照してください](/azure/azure-monitor/visualize/view-designer-conversion-tasks#quickstart-with-preset-view-designer-templates)。
+> [Azure Monitor のビュー デザイナーは 2023](https://azure.microsoft.com/updates/view-designer-in-azure-monitor-is-retiring-on-31-august-2023/) 年 8 月 31 日に廃止され、作成と複製の機能は 2020 年 11 月 30 日に無効になっています。 代わりにブックを使用できます。 ビュー デザイナーのブックへの移行ガイドの詳細については、プリセット ビュー デザイナー テンプレートを使用したクイック スタート [に関するページを参照してください](/azure/azure-monitor/visualize/view-designer-conversion-tasks#quickstart-with-preset-view-designer-templates)。
 
 ### <a name="create-a-microsoft-teams-rooms-dashboard-manually"></a>会議室ダッシュボードMicrosoft Teams手動で作成する
 
@@ -170,13 +170,13 @@ ms.locfileid: "62015217"
 
 #### <a name="configure-the-overview-tile"></a>[概要] タイルを構成する
 
-1.  ビュー **デザイナー を開きます**。
+1.  ビュー デザイナー **を開きます**。
 2.  [概要 **タイル] を** 選択し、ギャラリーから **[2 つの** 数値] を選択します。
-3.  タイルに という名前を付 **:::no-loc text="Microsoft Teams Rooms":::** けします。
+3.  タイルに という名前を付け **:::no-loc text="Microsoft Teams Rooms":::** します。
 4.  最初のタイル **を定義します**。<br>
     **凡例:** 前月に少なくとも 1 回ハートビートを送信したデバイス<br>
     **クエリ:** ```Event | where EventLog == "Skype Room System" and TimeGenerated > ago(30d) | summarize TotalSRSDevices = dcount(Computer)```
-5.  2 番目 **のタイルを定義します**。<br>
+5.  2 番目の **タイルを定義します**。<br>
     **凡例:** 最後の 1 時間以内にハートビートを送信したアクティブ なデバイス<br>
     **クエリ:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(1h) | summarize TotalSRSDevices = dcount(Computer)```
 6.  **[適用]** を選択します。
@@ -193,10 +193,10 @@ ms.locfileid: "62015217"
     **タイルのクエリ:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize AggregatedValue = count() by Computer | count```
 5.  List プロパティ **を定義** します。<br>
     **リスト クエリ:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
-6.  列 **タイトルを定義する**:<br>
+6.  列タイトル **を定義する**:<br>
     **名前:** コンピューター名<br>
     **値:** 最後のハートビート
-7.  ナビゲーション **クエリ を定義します**。<br>
+7.  ナビゲーション クエリ **を定義します**。<br>
     ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
 8.  [適用 **] を選択** し、[閉じる] **を選択します**。
 
@@ -211,7 +211,7 @@ ms.locfileid: "62015217"
     **タイルのクエリ:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize LastHB = max(TimeGenerated) by Computer | where LastHB < ago(20m) | count```
 4.  List プロパティ **を定義** します。<br>
     **リスト クエリ:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize TimeGenerated = max(TimeGenerated) by Computer | where TimeGenerated < ago(20m) | order by TimeGenerated```
-5.  列 **タイトルを定義する**:<br>
+5.  列タイトル **を定義する**:<br>
     **名前:** コンピューター名<br>
     **値:** 最後のハートビート
 6.  ナビゲーション **クエリを定義する**:<br>
@@ -229,14 +229,14 @@ ms.locfileid: "62015217"
     **タイルのクエリ:** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
 4.  List プロパティ **を定義** します。<br>
     **リスト クエリ:** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
-5.  列 **タイトルを定義する**:<br>
+5.  列タイトル **を定義する**:<br>
     **名前:** コンピューター名<br>
     **値:** 最後のエラー
 6.  ナビゲーション **クエリを定義する**:<br>
     ```search {selected item} | where EventLog == "Skype Room System" and EventID == 3001 and EventLevelName == "Error" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSConfMicrophoneStatus_CF, SRSConfSpeakerStatus_CF, SRSDefaultSpeakerStatus_CF, SRSCameraStatus_CF, SRSFORDStatus_CF, SRSMotionSensorStatus_CF, SRSHDMIIngestStatus_CF, SRSEventDescription_CF | sort by TimeGenerated desc```
 7.  [適用 **] を選択** し、[閉じる] **を選択します**。
 
-### <a name="create-a-tile-that-displays-no-loc-textmicrosoft-teams-rooms-operating-system-versions"></a>オペレーティング システムのバージョンを表示 :::no-loc text="Microsoft Teams Rooms"::: するタイルを作成する
+### <a name="create-a-tile-that-displays-no-loc-textmicrosoft-teams-rooms-operating-system-versions"></a>オペレーティング システムのバージョンを表示する :::no-loc text="Microsoft Teams Rooms"::: タイルを作成する
 
 1.  ギャラリー **から [&] リスト** を選択し、新しいタイルを追加します。
 2.  [全般] **プロパティを定義** します。<br>
@@ -256,11 +256,11 @@ ms.locfileid: "62015217"
 6.  列タイトル **を定義します**。<br>
     **名前:** コンピューター名<br>
     **値:** 空のままにする
-7.  ナビゲーション **クエリ を定義します**。<br>
+7.  ナビゲーション クエリ **を定義します**。<br>
     ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSDisplayName_CF, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
-8.  [適用 **] を選択** し、[閉じる] **を選択します**。
+8.  [適用 **] を選択し** 、[閉じる] **を選択します**。
 
-### <a name="create-a-tile-that-displays-no-loc-textmicrosoft-teams-rooms-application-versions"></a>アプリケーションのバージョンを表示する :::no-loc text="Microsoft Teams Rooms"::: タイルを作成する
+### <a name="create-a-tile-that-displays-no-loc-textmicrosoft-teams-rooms-application-versions"></a>アプリケーションのバージョンを表示するタイル :::no-loc text="Microsoft Teams Rooms"::: を作成する
 
 1.  ギャラリー **から [&] リスト** を選択し、新しいタイルを追加します。
 2.  [全般] **プロパティを定義** します。<br>
@@ -280,9 +280,9 @@ ms.locfileid: "62015217"
 6.  列タイトル **を定義します**。<br>
     **名前:** コンピューター名<br>
     **値:** 空のままにする
-7.  ナビゲーション **クエリ を定義します**。<br>
+7.  ナビゲーション クエリ **を定義します**。<br>
     ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
-8.  [適用 **] を選択** し、[閉じる] **を選択します**。
+8.  [適用 **] を選択し** 、[閉じる] **を選択します**。
 
 ### <a name="create-a-tile-that-displays-devices-that-have-an-application-error"></a>アプリケーション エラーが発生したデバイスを表示するタイルを作成する
 
@@ -298,9 +298,9 @@ ms.locfileid: "62015217"
 5.  列タイトル **を定義します**。<br>
     **名前:** コンピューター名<br>
     **値:** 最後のエラー
-6.  ナビゲーション **クエリ を定義します**。<br>
+6.  ナビゲーション クエリ **を定義します**。<br>
     ```search {selected item} | where EventLog == "Skype Room System" and EventID == 2001 and EventLevelName == "Error" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF | sort by TimeGenerated desc```
-7.  [適用 **] を選択** し、[閉じる] **を選択します**。
+7.  [適用 **] を選択し** 、[閉じる] **を選択します**。
 
 ### <a name="create-a-tile-that-displays-devices-that-have-been-restarted"></a>再起動されたデバイスを表示するタイルを作成する
 
@@ -316,9 +316,9 @@ ms.locfileid: "62015217"
 5.  列タイトル **を定義します**。<br>
     **名前:** コンピューター名<br>
     **値:** 再起動の数
-6.  ナビゲーション **クエリ を定義します**。<br>
+6.  ナビゲーション クエリ **を定義します**。<br>
     ```search {selected item} | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
-7.  [適用 **] を選択** し、[閉じる] **を選択します**。
+7.  [適用 **] を選択し** 、[閉じる] **を選択します**。
 8.  [保存 **] を** 選択してダッシュボードを保存します。
 
 これで、ビューの作成が完了しました。
@@ -326,7 +326,7 @@ ms.locfileid: "62015217"
 ## <a name="configure-alerts-in-no-loc-textazure-monitor"></a>でアラートを構成する :::no-loc text="Azure Monitor":::
 <a name="Alerts"> </a>
 
-:::no-loc text="Azure Monitor"::: は、本体で問題が発生した場合に管理者に通知 :::no-loc text="Microsoft Teams Rooms"::: するアラートを生成できます。
+:::no-loc text="Azure Monitor"::: は、本体で問題が発生した場合 :::no-loc text="Microsoft Teams Rooms"::: に管理者に通知するアラートを生成できます。
 
 :::no-loc text="Azure Monitor"::: には、スケジュールされたログ検索を定期的に実行する組み込みのアラート メカニズムが含まれています。 ログ検索の結果が特定の条件と一致する場合は、アラート レコードが作成されます。
 
@@ -335,17 +335,17 @@ ms.locfileid: "62015217"
 -   HTTP POST 要求を介した外部プロセスの呼び出し
 -   サービスでの Runbook の :::no-loc text="Azure Automation"::: 開始
 
-の[アラートの詳細 :::no-loc text="Azure Monitor"::: については、「](/azure/azure-monitor/platform/alerts-unified-log)ログイン アラート」を参照してください :::no-loc text="Azure Monitor"::: 。
+の [アラートの詳細については、「 :::no-loc text="Azure Monitor":::](/azure/azure-monitor/platform/alerts-unified-log) ログイン アラート」を参照してください :::no-loc text="Azure Monitor":::。
 
 > [!NOTE]
-> 次の例では、デバイスがハードウェアまたはアプリケーション エラーを :::no-loc text="Microsoft Teams Rooms"::: 生成するときに電子メール アラートを送信します。
+> 次の例では、デバイスがハードウェアまたはアプリケーション エラー :::no-loc text="Microsoft Teams Rooms"::: を生成するときに電子メール アラートを送信します。
 
-### <a name="configure-an-email-alert-for-no-loc-textmicrosoft-teams-rooms-hardware-issues"></a>ハードウェアの問題に関する電子 :::no-loc text="Microsoft Teams Rooms"::: メール アラートを構成する
+### <a name="configure-an-email-alert-for-no-loc-textmicrosoft-teams-rooms-hardware-issues"></a>ハードウェアの問題に関する電子メール :::no-loc text="Microsoft Teams Rooms"::: アラートを構成する
 
-前の 1 時間以内にハードウェアの問題が発生したデバイスをチェックするアラート :::no-loc text="Microsoft Teams Rooms"::: ルールを構成します。
-1.  ポータルにサインイン[ :::no-loc text="Microsoft Azure"::: し、 に](https://portal.azure.com)移動して :::no-loc text="Log Analytics"::: ワークスペースを選択します。
+前の 1 時間以内にハードウェア :::no-loc text="Microsoft Teams Rooms"::: の問題が発生したデバイスをチェックするアラート ルールを構成します。
+1.  ポータルにサインイン[し:::no-loc text="Microsoft Azure":::、 に](https://portal.azure.com)移動して:::no-loc text="Log Analytics":::ワークスペースを選択します。
 
-2. ワークスペースに移動し :::no-loc text="Log Analytics"::: 、[アラート] を **選択し** 、[新しいアラート **ルール] を選択します。**
+2. ワークスペースに移動し、[ :::no-loc text="Log Analytics"::: アラート] を **選択し** 、[新しいアラート **ルール] を選択します。**
 
 3. [条件 **の追加] を** 選択し、[ **カスタム ログ検索] を選択します。**
 
@@ -370,10 +370,10 @@ ms.locfileid: "62015217"
 7. アクション グループを構成する:
     1.  [Create **New]を選択します。**
     2.  [アクション グループ名] フィールドと *[短い名前] フィールドに**適した名前を指定* します。
-    3.  一意の *アクション名を指定し* 、[ **電子メール/SMS/プッシュ/音声**] を選択し、[詳細の編集] **を選択します**。
+    3.  一意の *アクション名を指定し、[***電子メール/SMS/プッシュ/音声**] を選択し、[詳細の編集] **を選択します**。
     4.  [電子メール **] チェック** ボックスをオンにして、アラートを受信するユーザーまたはグループのメール アドレスを指定します。
     5.  また、SMS、音声通話、または両方で通知を受け取る電話番号を指定できます。
-    6. **[OK] を選択します**。
+    6. [ **OK] を選択します**。
 
 8. **アラート メール** の件名行をオーバーライドする場合は、[アクション] をカスタマイズします。
 
@@ -401,43 +401,43 @@ ms.locfileid: "62015217"
 
 アラートが生成されると、前の 1 時間以内に問題が発生したデバイスを一覧表示する電子メールが届きます。
 
-![アラート :::no-loc text="Azure Monitor"::: 電子メールのサンプル](../media/Deploy-Azure-Monitor-6.png "サンプル :::no-loc text=&quot;Azure Monitor&quot;::: アラート 電子メール")
+![アラート電子 :::no-loc text="Azure Monitor"::: メールのサンプル](../media/Deploy-Azure-Monitor-6.png "サンプル アラート 電子メール :::no-loc text=&quot;Azure Monitor&quot;::: ")
 
 ## <a name="configure-all-devices-for-no-loc-textazure-monitoring"></a>すべてのデバイスを構成する :::no-loc text="Azure Monitoring":::
-<a name="configure_all_devices"></a>ダッシュボードとアラートを構成したら、すべてのデバイスでエージェントを設定して構成し、監視 :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Microsoft Teams Rooms"::: のデプロイを完了できます。
+<a name="configure_all_devices"> </a>ダッシュボードとアラートを構成したら、すべての:::no-loc text="Microsoft Monitoring"::::::no-loc text="Microsoft Teams Rooms":::デバイスでエージェントを設定して構成し、監視のデプロイを完了できます。
 
-各デバイスにエージェントを手動でインストールして構成することもできますが、既存のソフトウェア展開ツールと方法を活用 :::no-loc text="Microsoft Monitoring"::: することを強くお勧めします。
+各デバイスにエージェントを手動 :::no-loc text="Microsoft Monitoring"::: でインストールして構成することもできますが、既存のソフトウェア展開ツールと方法を活用することを強くお勧めします。
 
-初めてデバイスをビルドする場合は、ビルド プロセスの一部としてエージェントのセットアップと構成 :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Microsoft Monitoring"::: の手順を含める必要があります。 詳細については、コマンド ラインを [使用したエージェントのインストールに関するページを参照してください](/azure/azure-monitor/platform/agent-windows#install-the-agent-using-the-command-line)。
+初めてデバイスをビルド:::no-loc text="Microsoft Teams Rooms"::::::no-loc text="Microsoft Monitoring":::する場合は、ビルド プロセスの一部としてエージェントのセットアップと構成の手順を含める必要があります。 詳細については、コマンド ラインを [使用したエージェントのインストールに関するページを参照してください](/azure/azure-monitor/platform/agent-windows#install-the-agent-using-the-command-line)。
 
 ### <a name="deploying-no-loc-textmicrosoft-monitoring-agent-by-using-a-group-policy-object-gpo"></a>グループ ポリシー :::no-loc text="Microsoft Monitoring"::: オブジェクト (GPO) を使用したエージェントのデプロイ
 
-を実装する前にデバイスを既にデプロイしている場合は、提供されているスクリプトを使用して、グループ ポリシー オブジェクトを使用してエージェントを :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Azure Monitoring"::: :::no-loc text="Active Directory"::: 設定および構成できます。
+を実装する前に:::no-loc text="Microsoft Teams Rooms"::::::no-loc text="Azure Monitoring"::::::no-loc text="Active Directory":::デバイスを既にデプロイしている場合は、提供されているスクリプトを使用して、グループ ポリシー オブジェクトを使用してエージェントを設定および構成できます。
 
 1.  共有ネットワーク パスを作成し、ドメイン コンピューター グループへの読み取 **りアクセス権を付与** します。
 
-2.  エージェントの 64 ビット バージョンを :::no-loc text="Microsoft Monitoring"::: からダウンロード :::no-loc text="Windows"::: します。 <https://go.microsoft.com/fwlink/?LinkID=517476>
+2.  エージェントの 64 ビット バージョンをから :::no-loc text="Microsoft Monitoring"::: ダウンロード :::no-loc text="Windows"::: します。 <https://go.microsoft.com/fwlink/?LinkID=517476>
 
 3.  セットアップ パッケージの内容をネットワーク共有に抽出します。
-    1.  コマンド プロンプト ウィンドウを開き、/cMMASetup-AMD64.exe **実行します。**
+    1.  コマンド プロンプト ウィンドウを開き、/ **cMMASetup-AMD64.exe実行します。**
     2.  作成した共有を指定し、コンテンツを抽出します。
 
-4.  新しいグループ ポリシー オブジェクトを作成し、マシン アカウントがある組織単位 :::no-loc text="Microsoft Teams Rooms"::: に割り当てる。
+4.  新しいグループ ポリシー オブジェクトを作成し、マシン アカウントがある組織 :::no-loc text="Microsoft Teams Rooms"::: 単位に割り当てる。
 
 5.  PowerShell 実行ポリシーを構成する:
-    1.  新しく作成したグループ ポリシー オブジェクトを編集し、[コンピューター構成ポリシー] \\ 管理用テンプレート コンポーネント \\ に \\ :::no-loc text="Windows"::: 移動します。 \\ :::no-loc text="Windows PowerShell":::
-    2.  [スクリプトの **実行を有効にする] を有効にして** 、[ **実行ポリシー] を [** ローカル スクリプト **を許可] に設定します**。
+    1.  新しく作成したグループ ポリシー オブジェクトを編集し、[コンピューター構成ポリシー] \\ 管理用テンプレート \\ コンポーネントに\\:::no-loc text="Windows":::移動します。\\ :::no-loc text="Windows PowerShell":::
+    2.  [スクリプトの **実行を有効にする] を有効にして**、[**実行ポリシー] を [****ローカル スクリプトを許可] に設定します**。
 
 6.  スタートアップ スクリプトを構成します。
-    1.  次のスクリプトをコピーし、次のスクリプトとしてInstall-MMAgent.ps1。
+    1.  次のスクリプトをコピーし、 として保存Install-MMAgent.ps1。
     2.  構成に合わせて WorkspaceId、WorkspaceKey、SetupPath パラメーターを変更します。
-    3.  同じグループ ポリシー オブジェクトを編集し、[コンピューター構成ポリシー] 設定 \\ \\ :::no-loc text="Windows"::: \\ (スタートアップ/シャットダウン) に移動します。
-    4.  ダブルクリックして [スタートアップ]**を選択し****、[PowerShell スクリプト] を選択します**。
-    5.  [ **ファイルの表示]** を選択し、Install-MMAgent.ps1 **ファイルを** そのフォルダーにコピーします。
-    6.  [追加 **] を選択** し、[参照] **を選択します**。
+    3.  同じグループ ポリシー オブジェクトを編集し、[コンピューター構成\\ \\ :::no-loc text="Windows"::: \\ポリシー] 設定 (スタートアップ/シャットダウン) に移動します。
+    4.  ダブルクリックして [スタートアップ] を **選択し**、[ **PowerShell スクリプト] を選択します**。
+    5.  [ **ファイルの表示]** を選択し、 **Install-MMAgent.ps1ファイルを** そのフォルダーにコピーします。
+    6.  [追加 **] を** 選択し、[参照] **を選択します**。
     7.  コピーした ps1 スクリプトを選択します。
 
-7.  :::no-loc text="Microsoft Teams Rooms"::: は、2 回目の :::no-loc text="Microsoft Monitoring"::: 再起動でエージェントをインストールして構成する必要があります。
+7.  :::no-loc text="Microsoft Teams Rooms"::: は、2 回目の再起動で :::no-loc text="Microsoft Monitoring"::: エージェントをインストールして構成する必要があります。
 
 ```PowerShell
 # Install-MMAgent.ps1
@@ -482,18 +482,18 @@ Stop-Transcript
 ```
 
 > [!NOTE]
-> エージェントの再構成、別の [ :::no-loc text="Log Analytics"::: ](/azure/azure-monitor/platform/agent-manage) ワークスペースへの移動、または初期インストール後のプロキシ設定の変更が必要な場合のエージェントの管理と保守に関する記事を参照してください。
+> エージェントの再構成[:::no-loc text="Log Analytics":::](/azure/azure-monitor/platform/agent-manage)、別のワークスペースへの移動、または初期インストール後のプロキシ設定の変更が必要な場合のエージェントの管理と保守に関する記事を参照してください。
 
 ## <a name="additional-solutions"></a>その他のソリューション
 <a name="Solutions"> </a>
 
-:::no-loc text="Azure Monitor"::: は、環境の監視に [役立つソリューション](/azure/azure-monitor/insights/solutions) ギャラリーを通じて組み込みの管理ソリューションを提供します。 アラート管理ソリューションと[Agent](/azure/azure-monitor/platform/alert-management-solution) [ :::no-loc text="Azure Log Analytics"::: Health](/azure/azure-monitor/insights/solution-agenthealth)ソリューションもワークスペースに追加することを強くお勧めします。
+:::no-loc text="Azure Monitor"::: は、環境の監視に [役立つソリューション](/azure/azure-monitor/insights/solutions) ギャラリーを通じて組み込みの管理ソリューションを提供します。 アラート管理ソリューションと [Agent](/azure/azure-monitor/platform/alert-management-solution) Health ソリューション[:::no-loc text="Azure Log Analytics":::](/azure/azure-monitor/insights/solution-agenthealth)もワークスペースに追加することを強くお勧めします。
 
 > [!NOTE]
-> Agent Health ソリューションは、環境内の古いエージェントや破損したエージェントを特定するのに役立ちます。アラート管理ソリューションは、特定の期間に発生したアラートに関する詳細 :::no-loc text="Microsoft Monitoring"::: を提供します。
+> Agent Health ソリューションは、 :::no-loc text="Microsoft Monitoring"::: 環境内の古いエージェントや破損したエージェントを特定するのに役立ちます。アラート管理ソリューションは、特定の期間に発生したアラートに関する詳細を提供します。
 
 ## <a name="see-also"></a>関連項目
 
-[を :::no-loc text="Microsoft Teams Rooms"::: 使用した計画管理 :::no-loc text="Azure Monitor":::](azure-monitor-plan.md)
+[を使用 :::no-loc text="Microsoft Teams Rooms"::: した計画管理 :::no-loc text="Azure Monitor":::](azure-monitor-plan.md)
 
-[を :::no-loc text="Microsoft Teams Rooms"::: 使用してデバイスを管理する :::no-loc text="Azure Monitor":::](azure-monitor-manage.md)
+[を使用 :::no-loc text="Microsoft Teams Rooms"::: してデバイスを管理する :::no-loc text="Azure Monitor":::](azure-monitor-manage.md)

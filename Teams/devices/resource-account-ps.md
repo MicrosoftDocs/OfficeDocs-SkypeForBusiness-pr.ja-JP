@@ -1,7 +1,7 @@
 ---
 title: PowerShell Microsoft Teams使用したコラボレーション バーのリソース Microsoft Teams作成
-ms.author: mitressl
-author: flinchbot
+ms.author: czawideh
+author: cazawideh
 manager: ericwe
 audience: ITPro
 ms.reviewer: payurevi
@@ -14,14 +14,14 @@ ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: コラボレーション バーをデプロイする方法については、このトピックを参照Microsoft Teams。
+description: このトピックでは、グループのコラボレーション バーをデプロイする方法についてMicrosoft Teams。
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3388e2eb1e086cd347769a50bb9603f4a0832402
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0bbafdfbfc9fb7e9b637216aeb9e5a0d6b470533
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605816"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503914"
 ---
 # <a name="create-a-microsoft-365-resource-account-using-the-powershell"></a>PowerShell をMicrosoft 365リソース アカウントを作成する
 
@@ -33,7 +33,7 @@ PowerShell を使用してコラボレーション バーのリソース アカ�
 
 ## <a name="requirements"></a>要件
 
-会議室と会議室をMicrosoft Teamsする前Office 365要件を満たしていることを確認してください。 詳細については、「コラボレーション バーを[デプロイする」を参照Microsoft Teams。](collab-bar-deploy.md)
+Microsoft Teams Office 365 を使用して会議室をデプロイする前に、要件を満たしていることを確認してください。 詳細については、「コラボレーション バーを[デプロイする」を参照Microsoft Teams](collab-bar-deploy.md)。
 
 - コラボレーション バーに PSTN 機能が必要な場合は、ライセンスを電話システムがあります。
 
@@ -110,13 +110,13 @@ PowerShell を使用してコラボレーション バーのリソース アカ�
    > [!NOTE]
    > [Azure Active Directory PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0) はサポートされていません。 
 
-5. 次の構文を使用 huddleroom01@contoso.onmicrosoft.com のパスワードを期限切れにしないに設定します。
+5. 次の構文を使用 huddleroom01@contoso.onmicrosoft.com パスワードを有効期限が切れなさそうに設定します。
 
       ``` Powershell
       Set-MsolUser -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -PasswordNeverExpires $true
       ```
     
-6. リソース アカウントには有効なライセンスが必要です (Office 365 SKU がミーティング ルームされます。 また、使用場所をデバイス アカウントに割り当てる必要があります。これにより、アカウントで使用できるライセンス SKU が決されます。 を使用 `Get-MsolAccountSku` して、テナントで使用可能な SKU の一覧Office 365できます。
+6. リソース アカウントには有効なライセンスが必要です (Office 365 SKU がミーティング ルームされます。 また、使用場所をデバイス アカウントに割り当てる必要があります。これにより、アカウントで使用できるライセンス SKU が決されます。 を使用して`Get-MsolAccountSku`、テナントに対して使用可能な SKU の一覧Office 365できます。
 
       ``` Powershell
       Get-MsolAccountSku
@@ -133,7 +133,7 @@ PowerShell を使用してコラボレーション バーのリソース アカ�
 
 
 
-[PowerShell を使用してコラボレーション バーのアカウントMicrosoft Teams構成する](resource-account-ps.md)
+[PowerShell を使用してグループのコラボレーション Microsoft Teamsを構成する](resource-account-ps.md)
 
 [グループのコラボレーション バーをデプロイMicrosoft Teams](collab-bar-deploy.md)
 

@@ -1,7 +1,7 @@
 ---
 title: 環境を準備する
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Microsoft Teams Rooms を展開するためのインフラストラクチャを準備して、すべての機能を利用できるようにする方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b92325fe9c7c43497fd9647306cfb6b218f5fde0
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: 5203972feee8276d9d63c19f65965f62386ee7a0
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62015037"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503954"
 ---
 # <a name="prepare-your-environment"></a>環境を準備する
 
@@ -37,7 +37,7 @@ ms.locfileid: "62015037"
     
 ### <a name="create-and-test-a-resource-account"></a>リソース アカウントを作成してテストする
 
-リソース *アカウント* は、Microsoft Teams Rooms クライアントが予定表など、Exchange から機能にアクセスし、Microsoft Teams に接続するために使用するアカウントです。 詳細については、「[Microsoft Teams Rooms をデプロイする](rooms-deploy.md)」を参照してください。
+リソース *アカウント* とは、Microsoft Teams Rooms クライアントが予定表など Exchange から機能にアクセスし、Microsoft Teams に接続するために使用するアカウントです。 詳細については、「[Microsoft Teams Rooms をデプロイする](rooms-deploy.md)」を参照してください。
   
 ### <a name="check-network-availability"></a>ネットワークの可用性を確認する
 
@@ -49,7 +49,7 @@ ms.locfileid: "62015037"
 
 - HTTP ポート 80 および 443 にアクセスします。
 
-- 「オンプレミスの Skype for Business Server 実装用[](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols)のサーバーのポートとプロトコルの要件」、または Microsoft Teams の Microsoft 365 と Office 365 の URL と[IP](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)アドレス範囲に関するページの説明に従って構成された TCP ポートと UDP ポート。
+- 「オンプレミスの Skype for Business Server 実装用のサーバー[](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols)のポートとプロトコルの要件」、または [Microsoft Teams の Microsoft 365 と Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) の URL と IP アドレス範囲に関するページで説明されているとおりに構成された TCP ポートと UDP ポート。
 
 プロキシを介してネットワークが動作している場合は、プロキシのアドレスまたはスクリプトの情報も必要です。
     
@@ -81,7 +81,7 @@ Microsoft Teams Rooms は、Windows OS からプロキシ設定を継承する�
 4. HKEY_USERS フォルダーをクリックして (コンピューター ユーザーの SID の一覧が表示されます)、ルート フォルダー HKEY_USERS が選択されていることを確認してください。
        
 5. [ファイル] をクリックし、**[ハイブの読み込み]** を選択します。
-6. **C:\Users\Skype** フォルダーを参照し、[ファイル名] ボックスに NTUSER.dat を入力し、開くボタンを押します。
+6. **C:\Users\Skype** フォルダーを参照し、[ファイル名] ボックスに NTUSER.dat を入力し、[開く] ボタンを押します。
 
 7. 新たに読み込まれたハイブのキー名が求められます。「Skype」と入力します (Skype ユーザーのレジストリ設定が表示されます)。
  
@@ -124,7 +124,7 @@ Microsoft Teams Rooms は、Windows OS からプロキシ設定を継承する�
 
 ### <a name="microsoft-teams-rooms-local-user-account"></a>Microsoft Teams Rooms のローカル ユーザー アカウント
 
-Teams Rooms には、"Skype" という名前のパスワードのないローカル アカウントが含まれています。 このアカウントは、Windows Rooms アプリを起動するためにTeams使用されます。 このアカウントにパスワードを適用することはできません。 詳細[についてはMicrosoft Teams会議室のセキュリティに関](security.md)するページを参照してください。
+Teams Rooms には、"Skype" という名前のパスワードのないローカル アカウントが含まれています。 このアカウントは、Windows Rooms アプリを起動するためにTeams使用されます。 このアカウントにパスワードを適用することはできません。 詳細については[Microsoft Teams会議室のセキュリティに関](security.md)するページを参照してください。
   
 ### <a name="admin---local-administrator-account"></a>"Admin" - ローカル管理者アカウント
 
@@ -135,13 +135,13 @@ Microsoft Teams Rooms の既定のパスワードは "sfb" に設定されます
   
 ローカル管理者パスワードは設定時の選択肢として含まれません。
 
-管理者アカウントの詳細については、「Microsoft Teams Rooms [Security」を参照](security.md)してください。
+管理者アカウントの詳細については、「Microsoft Teams [Rooms Security」を参照](security.md)してください。
   
 ### <a name="machine-account"></a>コンピューター アカウント
 
-他のデバイスと同様Windows名を変更するには、[PC 名の変更について] を右 **クリック** 設定 \> **を** \> **クリックします**。
+他のデバイスと同様Windows  \>名を変更するには、[PC 名の変更について] を右クリック設定 **クリック** \> **します**。
   
-ドメインに参加した後にコンピューターの名前を変更する場合は [、Rename-Computer](/powershell/module/microsoft.powershell.management/rename-computer?view=powershell-7.2)を使用し、PowerShell コマンドに続いてコンピューターの新しい名前を入力します。
+ドメインに参加した後にコンピューターの名前を変更する場合は、PowerShell コマンドの後にコンピューターの新しい名前を付け、 [Rename-Computer](/powershell/module/microsoft.powershell.management/rename-computer?view=powershell-7.2) を使用します。
   
 ## <a name="related-topics"></a>関連項目
 

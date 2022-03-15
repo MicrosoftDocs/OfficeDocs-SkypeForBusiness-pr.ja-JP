@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Rooms を管理する
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,16 +15,16 @@ ms.collection:
 - M365-collaboration
 description: 継続的なメンテナンスと運用を開発および実行して、Microsoft Teams Rooms システムをユーザーが確実に利用できるようにする方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 72e6a89e23ddb8874c6fe9e262759d2aab4522e7
-ms.sourcegitcommit: fd4d7557997c537c094e79ada21c569acde65aa6
+ms.openlocfilehash: 82725093e67b0f7619ea97837b53fd841b965146
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "62312250"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63504104"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Microsoft Teams Rooms を管理する
 
-組織内に会議室Microsoft Teamsがある場合は、柔軟な管理オプションがあります。  管理センターを使用して、すべてのソリューションを管理する中央の場所TeamsデバイスMicrosoft Teams管理できます。 または、会議室管理サービスを使用して、管理責任を専用[の専門家Microsoft Teams転送できます](https://portal.rooms.microsoft.com)。  どちらのオプションでも、選択したパートナーに管理アクセスを委任することもできます。
+組織内に会議室Microsoft Teamsがある場合は、柔軟な管理オプションがあります。  管理センターを使用して、すべてのソリューションを管理する中央の場所TeamsデバイスMicrosoft Teams管理できます。 または、会議室管理サービスを使用して、管理責任を専用の専門家Microsoft Teams[転送できます](https://portal.rooms.microsoft.com)。  どちらのオプションでも、選択したパートナーに管理アクセスを委任することもできます。
 
 管理Microsoft Teamsを使用すると、次の方法を実行できます。
 
@@ -34,17 +34,17 @@ ms.locfileid: "62312250"
 - 現在と過去のミーティングアクティビティ（通話品質、ネットワークの状態と接続、参加者数など）を確認する
 - 会議室に接続されている周辺機器 (カメラやプロジェクターなど) をMicrosoft Teamsする
 
-会議室デバイスTeams管理するには、Microsoft Teams [管理](https://admin.teams.microsoft.com) > センターを開き、[デバイス] Teams Teams **に移動Windows**。
+会議室デバイスTeams管理するには、 > Microsoft Teams 管理センターを [](https://admin.teams.microsoft.com)開き、[デバイス] Teams Teams **に移動Windows**。
 
-:::image type="content" source="../media/teams-rooms-summary2.png" alt-text="Teamsセンターの [会議室] Teamsページ。":::
+:::image type="content" source="../media/teams-rooms-summary2.png" alt-text="Teamsセンターの [会議室の概要Teamsページ] をクリックします。":::
 
 
 > [!IMPORTANT]
-> Teams 管理センターを使用してデバイスを管理するには、グローバル管理者、Teams、またはデバイス管理者Teams割り当てられている必要があります。
+> Teams 管理センターを使用してデバイスを管理するには、グローバル管理者、管理者、または Teams管理者ロールTeams割り当てられている必要があります。
 
 ## <a name="make-changes-to-teams-rooms-devices"></a>Teams ミーティング デバイスに変更を加える
 
-会議室に複数の Teamsがある場合は、複数のデバイスで同時にほとんどの操作を実行できます。 たとえば、すべての会議室でTeamsアプリの設定を同時Teams設定できます。
+会議室が複数あるTeams、複数のデバイスで同時にほとんどの操作を実行できます。 たとえば、すべての会議室Teamsアプリの設定を同時Teams設定できます。
 
 ### <a name="device-settings"></a>デバイス設定
 
@@ -57,7 +57,7 @@ ms.locfileid: "62312250"
     > [!CAUTION]
     > 更新を選択した設定の既存の値は、指定した値に置き換えられます。 既存の値のリストに追加する場合は、追加する値に既存の値を含める必要があります。 たとえば、設定に`contoso.com, fabrikam.com`の既存のドメインリストがあり、`northwindtraders.com`を追加する場合、指定する必要がある値は`contoso.com, fabrikam.com, northwindtraders.com`になります。
     >
-    > 会議室で複数のTeams選択すると、選択したすべてのデバイスの設定が、指定した値に変更されます。 会議室Teams設定に異なる値がある場合、それらはすべて同じ値に更新されます。
+    > 会議室で複数のTeams場合、選択したすべてのデバイスの設定が、指定した値に変更されます。 会議室Teams設定に異なる値がある場合、それらはすべて同じ値に更新されます。
 
 | Setting                                                      | 指定できる値                                        | 一括編集をサポートする |
 |--------------------------------------------------------------|--------------------------------------------------------|--------------------|
@@ -107,13 +107,13 @@ ms.locfileid: "62312250"
 
 ### <a name="cortana-settings"></a>Cortana設定
 
-組織内のすべてのデバイスCortanaデバイスごとに、PowerShell を使用して、音声のアクティブ化またはプッシュによる通話の共有を有効にできます。
+組織内のすべてのデバイスCortanaデバイスごとに、PowerShell を使用して、音声のアクティブ化またはプッシュによる通話に対する通話を有効にできます。
 
-「[Microsoft Teamsの音声アシスタンス](../cortana-in-teams.md)Windows」の記事Cortana「Teams 会議室」を参照してください。
+「[Microsoft Teams音声アシスタンス」Windows](../cortana-in-teams.md)「Cortanaの会議室」をTeamsしてください。
 
 ### <a name="front-row-layout-settings"></a>最前面行レイアウトの設定
 
-最前面の行は、[会議室] の [会議Teamsレイアウト オプションWindows。
+最前面行は、[会議室] の [会議ビュー] TeamsオプションWindows。
 
 | Teams デバイス | アプリのバージョン | 部屋の前面表示 |
 |--------------|-------------|-----------------------|
@@ -121,7 +121,7 @@ ms.locfileid: "62312250"
 
 フロント[Microsoft Teams要件を](rooms-operations.md#change-scale-and-resolution)満たして表示設定を調整するには、「会議室のメンテナンスと操作」を参照してください。
 
-会議室の既定のレイアウトとして Front 行を設定する方法、またはオフにする方法については、「XML 構成ファイルを使用して [Microsoft Teams Rooms](xml-config-file.md#set-front-row-as-the-default-layout) コンソール設定をリモートで管理する」を参照してください。
+会議室の既定のレイアウトとして最前面行を設定する方法、またはオフにする方法については、「XML 構成ファイルを使用して [Microsoft Teams 会議室](xml-config-file.md#set-front-row-as-the-default-layout)の本体設定をリモートで管理する」を参照してください。
 
 Front [行の管理の詳細](known-issues.md#Limits) については、「既知の問題」を参照してください。
 
@@ -139,13 +139,13 @@ Front [行の管理の詳細](known-issues.md#Limits) については、「既�
 
 ## <a name="remove-device"></a>デバイスを削除する
 
-デバイスを削除すると、デバイスは組織から削除され、Windows 管理センターの Teams 会議室の一覧Teams表示されなくなりました。
+デバイスを削除すると、デバイスは組織から削除され、Teams 管理センターの Teams Rooms on Windows の一覧に表示されなくなりました。
 
-デバイスを削除した後も、有効なユーザー名とパスワードで構成されている場合は、Microsoft 365 に再度接続すると、Teams 会議室の一覧に自動的に再追加されます。
+デバイスを削除し、有効なユーザー名とパスワードで構成されている場合、デバイスが Microsoft 365 に再び接続すると、デバイスは自動的に Teams 会議室の一覧に再追加されます。
 
 1つまたは複数のデバイスを削除するには、次の操作を行います。
 
-1. [デバイス] **Teams、[** > Teams] Windowsに **移動** し、削除するデバイスを選択します。
+1. [デバイス **] Teams、[** > Teams] Windowsに **移動** し、削除するデバイスを選択します。
 2. **削除** を選択します。
 
 ## <a name="download-device-logs"></a>デバイスログをダウンロードする
@@ -154,7 +154,7 @@ Microsoft サポートから要求された場合、デバイスの診断ログ�
 
 Teams ミーティング デバイスからコンピューターにログをダウンロードするには、次の手順を実行します。
 
-1. [デバイス **Teams Teams** > **[** 会議室Windows] に移動し、ログをダウンロードするデバイスの名前を選択します。
+1. [デバイス **] Teams、[** > Teams **]** Windowsに移動し、ログをダウンロードするデバイスの名前を選択します。
 1. **デバイスログのダウンロード** を選択します。 デバイスログが使用可能になるまでに数分かかることがあります。
 1. **[履歴]** タブを選択し、**Diagnostics ファイル** で [ログファイルのリンク] を選択します。 デバイスの診断ログファイルを含むzipファイルが、ブラウザの既定のダウンロードフォルダにダウンロードされます。
 
@@ -191,7 +191,7 @@ Teams ミーティング デバイスの詳細の **[アクティビティ]** �
 
 参加者の概要ページには、ミーティングに参加したすべての参加者が表示されます。 各参加者がミーティングに参加した時期、名前、音声品質、およびセッション中に使用された機能を確認できます。 参加者のセッションの詳細を表示するには、参加者のセッションの開始時刻を選択します。
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="Teamsデバイス会議の詳細。":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="Teams会議室のデバイス会議の詳細。":::
 
 ##### <a name="participant-details"></a>参加者の詳細
 

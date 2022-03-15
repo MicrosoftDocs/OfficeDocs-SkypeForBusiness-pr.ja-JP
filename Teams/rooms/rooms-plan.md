@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Rooms の計画
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: この記事では、次世代の Skype ミーティング システムである Microsoft Teams Rooms の展開に関連した計画時の考慮事項について説明します。
-ms.openlocfilehash: f0b1f8797a8d1f9d7589e959c71699b1efd84e3c
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: eb1bacc0d96cf48f174980bd7bee9ea476f545f1
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62015227"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63504084"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Microsoft Teams Rooms を計画する
 
@@ -32,8 +32,8 @@ ms.locfileid: "62015227"
 
 Microsoft Teams Rooms は、HD ビデオ、オーディオ、およびコンテンツ共有を、小さな会議室から大きな会議室まで、あらゆる規模の会議に提供する完全な会議環境を提供します。
 
-![ユーザーは、バックグラウンドでTeams表示された会議室コンソールをタップします。](../media/room-systems-image1.jpg "ユーザーが、バックグラウンドでTeams表示された会議室コンソールをタップする") 
-[Microsoft Teams会議室のヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)は、Microsoft Teams 会議室の詳細と、デプロイの一部として価値を追加する方法を確認するのに最適なリソースです。
+![ユーザーは、Teams表示された会議室コンソールをタップします。](../media/room-systems-image1.jpg "ユーザーがバックグラウンドでTeamsの会議室コンソールをタップする")
+[Microsoft Teams会議室のヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)は、Microsoft Teams 会議室の詳細と、デプロイの一部として価値を追加する方法を確認するための便利なリソースです。
 
 ## <a name="microsoft-teams-rooms-components"></a>Microsoft Teams Rooms のコンポーネント
 
@@ -48,12 +48,12 @@ Microsoft Teams Rooms には、優れたユーザー エクスペリエンスを
 
 これらのコンポーネントは、多数のベンダーからプリインストールされたバンドルとして購入できます。または、この記事に記載されている[要件](requirements.md)に従って、サポートされているコンポーネントを個別に購入できます。
 
-オンプレミスのデプロイMicrosoft Teams、Microsoft Teamsを使用Skype for Business会議室をデプロイできます。  必要なライセンスの詳細については、「[Teams の会議室ライセンスの更新](rooms-licensing.md)」を参照してください。
+オンプレミスのデプロイMicrosoft Teamsを使用Microsoft Teams、Skype for Business会議室をデプロイできます。  必要なライセンスの詳細については、「[Teams の会議室ライセンスの更新](rooms-licensing.md)」を参照してください。
 
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
 |![デプロイを決定します。](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Microsoft Teams Rooms を組織に展開しますか? </li><li>会議室システムの調達方法Microsoft Teamsですか?</li></ul> |
-| ![アクティビティを識別します。](../media/audio_conferencing_image9.png)<br/>次の手順 | <ul><li>展開全体を通して、主要な作業を引き受けるユーザーを特定します。</li><li>所有している (およびセットアップを計画している) 会議室を確認し、Microsoft Teams Rooms を展開する場所と、会議室の規模に適した周辺機器を把握します。</li></ul> |
+| ![アクティビティを識別します。](../media/audio_conferencing_image9.png)<br/>次のステップ | <ul><li>展開全体を通して、主要な作業を引き受けるユーザーを特定します。</li><li>所有している (およびセットアップを計画している) 会議室を確認し、Microsoft Teams Rooms を展開する場所と、会議室の規模に適した周辺機器を把握します。</li></ul> |
 | | |
 
 ## <a name="identify-who-will-undertake-the-key-activities-throughout-your-deployment"></a>展開全体を通して、主要な作業を引き受けるユーザーを特定する
@@ -90,7 +90,7 @@ Microsoft Teams Rooms には、優れたユーザー エクスペリエンスを
 
 | &nbsp;   | &nbsp;    |
 |-----------|------------|
-| ![deplyment rooms。](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>対象の会議室を確認し、Microsoft Teams Rooms の構成を定義します。</li></ul>|
+| ![deplyment rooms。](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>対象の会議室を確認し、Microsoft Teams Rooms の構成を定義します。</li></ul>|
 
 _会議のサンプルのリスト_
 
@@ -112,7 +112,7 @@ _会議のサンプルのリスト_
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
 | ![スコープ内の会議室。](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>リストから、どの種類の会議室が展開対象ですか?</li><li>各会議室の種類ごとにどのシステムを導入しますか?</li></ul>|
-| ![マテリアルを収集します。](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>選んだシステムの重要な運用材料を収集し、調達チームと連携します。</li></ul>|
+| ![マテリアルを収集します。](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>選んだシステムの重要な運用材料を収集し、調達チームと連携します。</li></ul>|
 
 _お客様の組織に適した Microsoft Teams Rooms の展開テンプレートの例_
 
@@ -136,20 +136,20 @@ _お客様の組織に適した Microsoft Teams Rooms の展開テンプレー�
 |   &nbsp; |  &nbsp;   |
 |-----------|------------|
 | ![出荷コンポーネント。](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>コンポーネントをサイトまたはステージング施設に直接発送しますか?</li><li>ステージング施設を管理するのは誰ですか (1 つを使用する場合)?</li></ul>|
-| ![プラン操作。](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>運用計画を立てます。</li><li>導入および変更管理を計画します。</li></ul>|
+| ![プラン操作。](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>運用計画を立てます。</li><li>導入および変更管理を計画します。</li></ul>|
 
 ## <a name="plan-for-operations"></a>運用計画 
 
 組織は継続的に監視、管理、および管理タスクを実行する必要があります。また、展開の早い段階で誰がこれらのタスクを担当するかについて合意することが重要です。 
 
-多くの組織には、会議室やデバイスを管理する AV チームまたはパートナーがいます。 または、Microsoft が会議室の管理をサポートTeams、会議室と会議室Microsoft Teams利用プレミアム。 パフォーマンスを監視し、ソフトウェアMicrosoft Teams修正プログラムを展開するために、今後、会議室デバイスを管理するユーザーを決定します。 
+多くの組織には、会議室やデバイスを管理する AV チームまたはパートナーがいます。 または、会議室と会議室を活用して、Teams会議室の管理を Microsoft Microsoft Teamsサポートプレミアム。 パフォーマンスを監視し、ソフトウェアMicrosoft Teams修正プログラムを展開するために、今後、会議室デバイスを管理するユーザーを決定します。 
 
 Microsoft Teams Rooms関連の連絡を転送するヘルプデスク キューを検討し、ヘルプデスク チームに FAQ を提供して、Microsoft Teams Rooms の使用方法と主要なトラブルシューティング手順を理解してもらいます。 この FAQ の良い開始点は、[ユーザー ヘルプ](https://support.microsoft.com/office/microsoft-teams-rooms-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)と[既知の問題](known-issues.md)です。
 
 |  &nbsp;  |  &nbsp;   |
 |-----------|------------|
 | ![[manager] を選択します。](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Microsoft Teams Rooms の管理者を決めます。</li><li>Microsoft Teams Rooms 関連の連絡を転送するヘルプデスク キューを決めます。</li></ul>|
-| ![ホスト アカウントを準備します。](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>アカウントのホストを準備します。 </li></ul>|
+| ![ホスト アカウントを準備します。](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>アカウントのホストを準備します。 </li></ul>|
 
 
 ## <a name="plan-for-adoption-and-change-management"></a>導入と変更の管理の計画

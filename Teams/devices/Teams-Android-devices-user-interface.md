@@ -1,7 +1,7 @@
 ---
 title: Android Microsoft Teamsユーザー インターフェイスを設定する
-ms.author: mitressl
-author: flinchbot
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 appliesto:
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: Android デバイスでユーザー インターフェイスを設定するTeams説明します。
-ms.openlocfilehash: 32f5129330bf46657f126fc00f7eddc2fc30f090
-ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
+ms.openlocfilehash: c1872fffef3f21c3fec6a9c693b02e218d5d8337
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2022
-ms.locfileid: "62279385"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503774"
 ---
 # <a name="set-microsoft-teams-android-devices-user-interface"></a>Android Microsoft Teamsユーザー インターフェイスを設定する
 
@@ -42,13 +42,13 @@ E3 [](/microsoftteams/user-access) や E5 ライセンスなどのアカウン�
 
 ## <a name="common-area-interface"></a>共通領域インターフェイス
 
-この画像では、ユーザー アカウントに共通領域ライセンスが割[り電話されています](/microsoftteams/set-up-common-area-phones)。 一般的なエリアの電話は、主に電話の送受信に使用されます。 そのため、ダイヤル パッドがディスプレイに表示されます。
+この画像では、ユーザー アカウントに共通領域ライセンスが[割り当電話されています](/microsoftteams/set-up-common-area-phones)。 一般的なエリアの電話は、主に電話の送受信に使用されます。 そのため、ダイヤル パッドがディスプレイに表示されます。
 
 :::image type="content" source="../media/teams-android-devices-cap1.jpg" alt-text="共通領域の電話インターフェイス。":::
 
 ## <a name="meeting-interface"></a>会議インターフェイス
 
-この画像は、Rooms Standard ライセンスが割り当[Microsoft Teamsアカウントを示](/MicrosoftTeams/rooms/rooms-licensing)しています。 Teams会議室ライセンスは会議室または共有スペースで使用することを意図しています。そのため、予定表ビューを表示することで、ユーザー インターフェイスが変更して会議に簡単に参加できます。
+この画像は、Microsoft Teams [Rooms Standard ライセンスが割り当てられているユーザー アカウントを示](/MicrosoftTeams/rooms/rooms-licensing)しています。 Teams会議室ライセンスは会議室または共有スペースで使用することを意図しています。そのため、予定表ビューを表示することで、ユーザー インターフェイスが変更して会議に簡単に参加できます。
 
 :::image type="content" source="../media/teams-android-devices-meeting.jpg" alt-text="会議インターフェイス。":::
 
@@ -92,7 +92,7 @@ E3 [](/microsoftteams/user-access) や E5 ライセンスなどのアカウン�
 
 ## <a name="impact-on-microsoft-teams-admin-center"></a>管理センター Microsoft Teamsへの影響
 
-Microsoft Teams管理センターでは、デバイスを管理Microsoft Teamsできます。 管理センターを使用してデバイスを管理する方法のTeams、管理センターでのデバイスの管理[に関するページMicrosoft Teams](device-management.md)。
+Microsoft Teams管理センターでは、デバイスを管理Microsoft Teamsできます。 管理センターを使用したデバイスの管理の詳細については、「Teams でデバイスを管理する[」を参照Microsoft Teams](device-management.md)。
 
 
 Teams管理センターには、電話を管理Teamsがあります。 電話は、ユーザーの電話、共通領域の電話、電話会議の機能に基づいて、3 つのタブの 1 つでフィルター処理されます。 

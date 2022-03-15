@@ -1,7 +1,7 @@
 ---
 title: Exchange Online を使用して Microsoft Teams Rooms を展開
-ms.author: v-lanac
-author: lanachin
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -14,17 +14,17 @@ ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
-description: このトピックでは、会議室と会議室をデプロイするMicrosoft Teamsを参照Exchange Online。
-ms.openlocfilehash: e6eb3253d7edb999ba74d28ef9a6d8ae835ac16d
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+description: このトピックでは、会議室と会議室をデプロイするMicrosoft TeamsをExchange Online。
+ms.openlocfilehash: ad3b621ef541fcec471e329d1696e4f7000f4cb5
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055487"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503744"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Exchange Online を使用して Microsoft Teams Rooms を展開
 
-このトピックでは、会議室と会議室をデプロイするMicrosoft Teamsを参照Exchange Online。
+このトピックでは、会議室と会議室をデプロイするMicrosoft TeamsをExchange Online。
   
 組織にサービスが混在していて、オンプレミスとオンラインでホストされているものがある場合、構成は各サービスのホスト場所によって異なります。 このトピックでは Exchangeがオンラインでホストする、Microsoft Teams Rooms のハイブリッドな展開について説明します。 この種類の展開には、さまざまな違いがあるため、すべての手順を詳細に説明することはできません。 次のプロセスは、多くの構成で機能します。 このプロセスがユーザーのセットアップに適していない場合は、Windows PowerShell を使用して、ここに記載されているのと同じ結果を達成するか、または他の展開オプションをお勧めします。
 
@@ -35,7 +35,7 @@ Microsoft Teams Rooms を Exchange Onlineで展開する前に、要件を満た
 Exchange Online を使用して Microsoft Teams Rooms を展開するには、次の手順に従います。 コマンドレットを実行するための適切なアクセス許可を持っている必要があります。 
 
    > [!NOTE]
-   >  この[Azure Active Directoryの](/powershell/azure/active-directory/overview?view=azureadps-1.0)Windows PowerShell 用モジュール (Set-MsolUser など) は、Microsoft Teams Rooms のアカウントの設定でテストされています。 他のコマンドレットでも機能することがありますが、この特定のシナリオではテストされていません。
+   >  この[Azure Active Directoryの](/powershell/azure/active-directory/overview?view=azureadps-1.0) Windows PowerShell 用モジュール (Set-MsolUser など) は、Microsoft Teams Rooms のアカウントの設定でテストされています。 他のコマンドレットでも機能することがありますが、この特定のシナリオではテストされていません。
 
 Active Directory フェデレーションサービス (AD FS) を展開した場合は、次の手順を実行する前に、ユーザーアカウントを管理されているユーザーに変換し、この手順を実行した後にユーザーをフェデレーションユーザーに戻す必要があります。
   
@@ -91,8 +91,8 @@ Active Directory フェデレーションサービス (AD FS) を展開した場
    Connect-MsolService
     ```
 
-2. ユーザー アカウントに接続するには、有効なOffice 365ライセンスが必要Microsoft Teams。 ライセンスを所有している場合は、使用場所をユーザーアカウントに割り当てる必要があります。これにより、アカウントに使用できるライセンス SKU が決まります。
-3. "Get-MsolAccountSku" を使用して、テナントで使用可能な SKU の一Office 365します。
+2. ユーザー アカウントに接続するには、ユーザー アカウントに有効Office 365ライセンスが必要Microsoft Teams。 ライセンスを所有している場合は、使用場所をユーザーアカウントに割り当てる必要があります。これにより、アカウントに使用できるライセンス SKU が決まります。
+3. "Get-MsolAccountSku" を使用して、テナントで使用可能な SKU の一覧Office 365します。
 4. SKU を一覧表示したら、'Set-MsolUserLicense' を使用してライセンスを追加できます。 <!-- Set-AzureADUserLicense--> することができます。 
 
     ```PowerShell

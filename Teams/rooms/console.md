@@ -1,7 +1,7 @@
 ---
 title: 会議室イメージMicrosoft Teams作成する
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: Travis-Snoozy
 manager: serdars
 audience: ITPro
@@ -15,16 +15,16 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: この記事では、Microsoft Teams Rooms のコンソールとその周辺機器の設定および構成方法を説明します。
-ms.openlocfilehash: d6c675ed6eb6f50cf41b817770caf723f75f556b
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: 42f10ffe4ed2b577e91ed13b57ea8efcae67a1a4
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055647"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63504014"
 ---
 # <a name="build-a-microsoft-teams-rooms-image"></a>会議室イメージMicrosoft Teams作成する
 
-この記事では、会議室の一括展開Microsoft Teams Rooms イメージを作成するTeams説明します。
+この記事では、会議室の一括展開Microsoft Teams Rooms イメージを構築するTeams説明します。
 
 > [!NOTE]
 > 次の手順は、一括デプロイ用に WIM ベースのイメージを [作成する場合にのみ](/windows-hardware/manufacture/desktop/capture-and-apply-an-image) 使用する必要があります。 個々のデバイスを回復する場合は、サポートを受け取る元の機器製造元 (OEM) にお問い合わせください。
@@ -75,7 +75,7 @@ CreateSrsMedia.ps1 スクリプトを実行すると、次のタスクが自動�
 ## <a name="install-windows-10-and-the-microsoft-teams-rooms-console-app"></a>Windows 10 と Microsoft Teams Rooms コンソール アプリをインストールする
 <a name="Reimage"> </a>
 
-ここで、作成したセットアップ メディアを適用する必要があります。 ターゲット デバイスはアプライアンスとして実行され、既定のユーザーは、Microsoft Teams Rooms アプリのみを実行Microsoft Teamsされます。
+ここで、作成したセットアップ メディアを適用する必要があります。 ターゲット デバイスはアプライアンスとして実行され、既定のユーザーは Microsoft Teams Rooms アプリのみを実行Microsoft Teams設定されます。
 
 1. ターゲット デバイスがドック (Surface Pro など) にインストールされている場合は、ドックとの接続を解除します。
 
@@ -146,7 +146,7 @@ Creators Update では、暗黙的に言語を選択するとアプリケーシ�
 ## <a name="initial-set-up-of-the-console"></a>コンソールの初期設定
 <a name="Initial"> </a>
 
-インストールWindows、Microsoft Teams Rooms アプリは初期セットアップ プロセスに入る必要があります。
+インストールWindows、Microsoft Teams Rooms アプリは初期セットアップ プロセスに入る。
   
 1. [ユーザー アカウント] 画面が表示されます。 本体で使用Exchangeルーム アカウントの Microsoft Exchange リソース アカウントサインイン アドレス (user@domain 形式) を入力します。
     
@@ -161,7 +161,7 @@ Creators Update では、暗黙的に言語を選択するとアプリケーシ�
     
 7. [**完了**] をクリックします。
     
-Microsoft Teams Rooms アプリは、上記で入力した資格情報を使用して Microsoft Teams または Skype for Business Server にサインインする必要があります。また、同じ資格情報を使用して予定表と Exchange の同期を開始する必要があります。 会議室の使用の詳細Teams、「会議室のヘルプ[」Microsoft Teams参照してください](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)。
+Microsoft Teams Rooms アプリは、上記で入力した資格情報を使用して Microsoft Teams または Skype for Business Server にサインインする必要があります。また、同じ資格情報を使用して予定表と Exchange の同期を開始する必要があります。 会議室の使用の詳細Teams、会議室のMicrosoft Teams[参照してください](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)。
   
 > [!IMPORTANT]
 > Microsoft Teams Rooms には、認定されたコンソール ハードウェアが必要です。 Microsoft Teams Rooms のコンソール アプリを含むイメージが正しく作成されていても、コンソール ハードウェアが検出されない限り、そのイメージは初期設定手順の後に起動しません。 Surface Pro ベースのソリューションの場合、このチェックが成功するには、Surface Pro と付属するドック ハードウェアが接続されている必要があります。
@@ -195,7 +195,7 @@ Microsoft Teamsルームは、接続するサーバーによって使用され�
 ### <a name="join-an-active-directory-domain-optional"></a>Active Directory ドメインに参加する (オプション)
 <a name="Certs"> </a>
 
-自分のドメインMicrosoft Teams会議室に参加できます。 Microsoft Teamsは PC ワークステーションとは別の OU に配置する必要があります。多くのワークステーション ポリシーは、Microsoft Teamsです。 たとえば、パスワードの強制ポリシーが設定されていると、Microsoft Teams Rooms は自動的に起動しなくなります。 GPO 設定の管理については、「会議室の管理[」をMicrosoft Teamsしてください](rooms-operations.md)。
+自分のドメインMicrosoft Teams会議室に参加できます。 Microsoft Teamsは PC ワークステーションとは別の OU に配置する必要があります。多くのワークステーション ポリシーは、Microsoft Teamsです。 たとえば、パスワードの強制ポリシーが設定されていると、Microsoft Teams Rooms は自動的に起動しなくなります。 GPO 設定の管理については、「会議室を管理[する」をMicrosoft Teamsしてください](rooms-operations.md)。
   
 ### <a name="to-join-microsoft-teams-rooms-to-a-domain"></a>Microsoft Teams Rooms をドメインに参加させるには
 

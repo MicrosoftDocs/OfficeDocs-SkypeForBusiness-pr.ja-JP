@@ -1,7 +1,7 @@
 ---
 title: 会議室Windows更新プログラムをMicrosoft Teamsする
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -13,14 +13,14 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.assetid: ''
-description: 管理者は、会議室の更新プログラムを管理Windows、Windows機能の更新プログラムをMicrosoft Teamsできます。
+description: 管理者は、会議室の更新プログラムとWindows機能の更新Windows管理する方法Microsoft Teamsできます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c904db6b168280619b203a1327d6477736077efe
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: 95b99e8869ed9fa63a372c6c40d1d0d2be28c019
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62015007"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503754"
 ---
 # <a name="manage-windows-updates"></a>更新プログラムWindows管理する
 
@@ -37,22 +37,22 @@ Windows更新プログラムは、次のセクションで説明したように�
 
 ## <a name="windows-updates-for-business-gpo-or-intune"></a>Windows (GPO または Intune) の更新プログラム  
 
-- [Windows for Business の更新プログラムの](/windows/deployment/update/waas-manage-updates-wufb)ダウンロード
+- [Windows for Business のダウンロード](/windows/deployment/update/waas-manage-updates-wufb)
 - 更新プログラムは更新プログラムWindows更新プログラム (WSUS) Windows Server Update Servicesからダウンロードされますが、元のリリース日を過ぎた遅延が構成されています。
 - 複数の OUs またはフィルター処理されたポリシーを使用してデプロイ "リング" を作成できます。この場合、管理者は、最初に品質更新プログラムをインストールする Teams Rooms デバイスと、後でインストールするデバイスを指定できます。 信頼性とパフォーマンスは、Configuration Manager で更新プログラムを管理するオーバーヘッドなしで、デプロイ全体に更新プログラムを展開する前に、一部のデバイスWindowsテストできます。
-- WSUS と Windows for Business[](/windows/deployment/update/waas-integrate-wufb)の更新プログラムは、帯域幅管理とビジネス向け更新プログラムの制御の両方が必要な場合Windows同時に構成できます。
+- WSUS と Windows for Business の更新プログラムは、帯域幅管理[](/windows/deployment/update/waas-integrate-wufb)とビジネス向け更新プログラムの制御の両方が必要Windows同時に構成できます。
 - 機能の更新。 次のノートを参照してください。
 
 ## <a name="wsusconfiguration-manager"></a>WSUS/構成マネージャー
 
 - [WSUS/Configuration Manager の](/windows/deployment/update/waas-manage-updates-configuration-manager) ダウンロード
-- ビジネス向Windows更新プログラムと同様ですが、各 "リング" またはデプロイ全体内の特定の KB を対象とする追加オプションがあります。 各更新プログラムは、遅延だけに依存するのではなく、個別にデプロイおよびテストできます。
+- Update for Business Windowsと同様ですが、各 "リング" またはデプロイ全体内の特定の KB を対象とする追加オプションがあります。 各更新プログラムは、遅延だけに依存するのではなく、個別にデプロイおよびテストできます。
 - 機能の更新。 次のノートを参照してください。
 
 ### <a name="feature-updates"></a>機能の更新
 
-品質および遅延不可の更新プログラムとは異なり、Windows 10 "機能更新プログラム" (メジャー OS リリース) は、Microsoft が Microsoft Teams Rooms で特定の更新プログラム機能をテストして検証した後にのみインストールされます。 更新プログラムが Semi-Annual チャネルにリリースされた場合 (またはテスト用にシステムをそのチャネルに設定している場合は対象指定) または手動でプッシュされた場合でも、Microsoft Teams Rooms はテストされていない更新プログラムのインストールを許可されません。
+品質および遅延不可の更新プログラムとは異なり、Windows 10 "機能更新プログラム" (メジャー OS リリース) は、Microsoft が Microsoft Teams Rooms で特定の更新プログラム機能をテストして検証した後にのみインストールされます。 更新プログラムが Semi-Annual チャネルにリリースされた場合 (またはテスト用にシステムがチャネルに設定されている場合は対象指定)、または手動でプッシュされた場合でも、Microsoft Teams Rooms ではテストされていない更新プログラムのインストールは許可されません。
 
-Microsoft Teamsルームは、ハンズオフアプローチで "アウトオブボックス" として機能します。 Teamsは更新プログラムをダウンロードし、次回の再起動がインストールされるのを待ちます。 誰かが手動で再起動しない限り、インストールは夜間の自動再起動時にのみ実行されます。 Windowsはルーム内で透過的に行う必要があります。また、通常の操作が更新プログラムによって中断Windows必要があります。
+Microsoft Teamsルームは、ハンズオフアプローチを使用して "アウトオブボックス" で機能します。 Teamsは更新プログラムをダウンロードし、次回の再起動がインストールされるのを待ちます。 誰かが手動で再起動しない限り、インストールは夜間の自動再起動時にのみ実行されます。 Windowsはルーム内で透過的であり、更新プログラムによって通常の操作が中断Windowsがあります。
 
-ドメイン参加デバイスを選択した場合は、Microsoft Endpoint Configuration Manager WSUS を使用できます。 営業時間内にデバイスの更新または強制再起動が発生するポリシーまたはアクションに特に注意してください。 Teamsは、使用時間中に UI を使用して更新プログラムWindows通知したり、再起動したりすることはできません。 その動作が発生した場合は、構成を確認します。
+ドメイン参加デバイスを選択した場合は、Microsoft Endpoint Configuration Manager WSUS を使用できます。 営業時間内にデバイスの更新または強制再起動が発生するポリシーまたはアクションに特に注意してください。 Teamsの間に会議室を再起動したり、使用時間中に UI Windows更新プログラムに関するアラートを送信したりすることはできません。 その動作が発生した場合は、構成を確認します。

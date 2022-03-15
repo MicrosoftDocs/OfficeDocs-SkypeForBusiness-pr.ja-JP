@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Rooms のアカウントを構成する
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: このトピックでは、Exchange と Skype for Business で Microsoft Teams Rooms のアカウントを構成する方法について説明します。
-ms.openlocfilehash: 77e1dbe097bbb75697ec52ef7d472df4707ac9cb
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: 9c898d63291d6b2d4a8d2557f2e307156b3487b4
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306122"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503494"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>Microsoft Teams Rooms のアカウントを構成する
  
@@ -36,20 +36,20 @@ ms.locfileid: "61306122"
     
   - Exchange Online とオンプレミスの Skype for Business Server。 詳細については、「[Exchange Online を使用して Microsoft Teams Rooms を展開 (ハイブリッド)](with-exchange-online.md)」をご覧ください。
     
-  - Exchangeを使用してオンプレミスにMicrosoft Teams。 詳細については、「[オンプレミスで Exchange を使用して Microsoft Teams Rooms を展開 (ハイブリッド)](with-exchange-on-premises.md)」をご覧ください。
+  - Exchangeを使用してオンプレミスMicrosoft Teams。 詳細については、「[オンプレミスで Exchange を使用して Microsoft Teams Rooms を展開 (ハイブリッド)](with-exchange-on-premises.md)」をご覧ください。
     
 どの構成かによって、デバイス セットアップの準備の方法が変わります。
   
-Microsoft Teams、Active Directory、Exchange、およびリソース アカウントに "リソース アカウント" が割り当てられているSkype for Business。 このアカウントは、会議の予定表にアクセスし、Microsoft Teams または Skype for Business の接続を確立するために使用されます。 このアカウントを使用して会議をスケジュールすることで、ユーザーはこのアカウントを予約することができます。 Microsoft Teams Rooms はその会議に参加して、会議の出席者にさまざまな機能を提供することができます。
+Microsoft Teamsルームには、Active Directory、Exchange、およびリソース アカウントで "リソース アカウント" が割り当Skype for Business。 このアカウントは、会議の予定表にアクセスし、Microsoft Teams または Skype for Business の接続を確立するために使用されます。 このアカウントを使用して会議をスケジュールすることで、ユーザーはこのアカウントを予約することができます。 Microsoft Teams Rooms はその会議に参加して、会議の出席者にさまざまな機能を提供することができます。
   
 > [!IMPORTANT]
 > リソース アカウントがない場合、これらの機能はいずれも機能しません。 
   
-すべてのリソース アカウントは、会議室のインストールMicrosoft Teams一意であり、いくつかのセットアップが必要です。
+すべてのリソース アカウントは、会議室の 1 つのMicrosoft Teams一意であり、いくつかのセットアップが必要です。
   
 - リソース アカウントが正しく構成されている必要があります。
     
-- お客様のインフラストラクチャは、Microsoft Teams アカウントを検証し、適切なリソース アカウントに到達Microsoft サービス。
+- インフラストラクチャは、Microsoft Teams Rooms がリソース アカウントを検証し、適切なリソース アカウントに到達Microsoft サービス。
 
 > [!NOTE] 
 > パネルをMicrosoft Teams場合、Teams Rooms リソース アカウントは、Teams Rooms と関連付けられている Teamsにサインインします。
@@ -62,7 +62,7 @@ Microsoft Teams Rooms で使用されるアカウントは、Azure Active Direct
   
 リソース アカウントは、ユーザーが会議室または共有スペースのアカウントとして認識するリソース アカウントと考える場合があります。 そのスペースを使用して会議をスケジュールする場合は、その会議にアカウントを招待します。
   
-Microsoft Teams 会議室をインストールする領域にリソース メールボックス アカウントが既に設定されている場合は、そのアカウントを Teams Rooms リソース アカウントに変更できます。 完了したら、そのアカウントで Microsoft Teams にサインインする必要があります。
+Microsoft Teams 会議室をインストールする領域にリソース メールボックス アカウントが既に設定されている場合は、そのアカウントを Teams Rooms リソース アカウントに変更できます。 この操作が完了したら、そのアカウントで Microsoft Teams にサインインする必要があります。
   
 ## <a name="basic-configuration"></a>基本構成
 
@@ -72,7 +72,7 @@ Microsoft Teams 会議室をインストールする領域にリソース メー
 |:-----|:-----|
 |Exchange メールボックス (Exchange 2013 SP1 以降、または Exchange Online)  <br/> |Exchange メールボックスを使用してアカウントを有効にすると、リソース アカウントは、メールと会議出席依頼の両方を送受信し、Microsoft Teams Rooms デバイスに会議予定表を表示できます。 Microsoft Teams Rooms のメールボックスは、会議室メールボックスである必要があります。  <br/> |
 |Skype for Business が有効  <br/> |Skype for Business、IM、画面共有など、さまざまな会議Skype for Business機能を使用するために、この機能を有効にできます。  <br/> |
-|Password が有効  <br/> |リソース アカウントは、パスワードで有効にする必要があります。または、Microsoft Teams、Exchange、またはSkype for Business Server。 パスワードの有効期限は、会議室のすべてのリソース アカウントTeams無効にする必要があります。   <br/> |
+|Password が有効  <br/> |リソース アカウントは、パスワードで有効にする必要があります。または、Microsoft Teams、Exchange、または Skype for Business Server で認証することはできません。 パスワードの有効期限は、会議室のすべてのリソース アカウントTeams無効にする必要があります。   <br/> |
    
 ## <a name="advanced-configuration"></a>詳細構成
 

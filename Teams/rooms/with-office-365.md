@@ -1,7 +1,7 @@
 ---
 title: Office 365 での Microsoft Teams ミーティングを展開する
-ms.author: v-lanac
-author: lanachin
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -14,21 +14,21 @@ ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: このトピックでは、会議室と会議室をデプロイするMicrosoft Teams方法についてOffice 365。
-ms.openlocfilehash: d4c66fb863c5c41a717808ddca43002752510fb5
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+description: このトピックでは、会議室と会議室をデプロイするMicrosoft Teams方法について説明Office 365。
+ms.openlocfilehash: f54e7f7e201127b0a61c99f09fee2084378dbbd9
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62056027"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503714"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Office 365 での Microsoft Teams ミーティングを展開する
 
-このトピックでは、会議室と会議室をデプロイするMicrosoft Teams方法についてOffice 365。
+このトピックでは、会議室と会議室をデプロイするMicrosoft Teams方法について説明Office 365。
 
 ## <a name="requirements"></a>要件
 
-会議室と会議室をMicrosoft TeamsするOffice 365、要件を満たしていることを確認してください。 詳細については、「[Microsoft Teams Rooms の要件](requirements.md)」をご覧ください。
+Microsoft Teams Office 365 を使用して会議室をデプロイする前に、要件を満たしていることを確認してください。 詳細については、「[Microsoft Teams Rooms の要件](requirements.md)」をご覧ください。
 
 ### <a name="add-a-resource-account"></a>リソース アカウントを追加する
 
@@ -62,7 +62,7 @@ ms.locfileid: "62056027"
      Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
      ```
 
-     この例では、ConferenceRoom02 というエイリアス値を持つ既存の会議室メールボックスのアカウントを有効にし、パスワードを 9898P@$$W 0rd に設定します。
+     この例では、エイリアス値 ConferenceRoom02 を持つ既存の会議室メールボックスのアカウントを有効にし、パスワードを 9898P@$$W 0rd に設定します。
 
      ``` PowerShell
      Set-Mailbox -Identity 'ConferenceRoom02' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
@@ -107,7 +107,7 @@ ms.locfileid: "62056027"
     ```
 
 
-1. リソース アカウントに接続するには、リソース アカウントOffice 365有効なライセンスが必要Microsoft Teams。 また、使用場所をデバイス アカウントに割り当てる必要があります。これにより、アカウントで使用できるライセンス SKU が決されます。 を使用 `Get-MsolAccountSku` して、テナントに対して使用可能な SKU の一Office 365できます。 コマンドレットを使用してライセンスを追加 `Set-MsolUserLicense` できます。
+1. リソース アカウントに接続するには、リソース アカウントOffice 365有効なライセンスが必要Microsoft Teams。 また、使用場所をデバイス アカウントに割り当てる必要があります。これにより、アカウントで使用できるライセンス SKU が決されます。 を使用して`Get-MsolAccountSku`、テナントに対して使用可能な SKU の一覧Office 365できます。 コマンドレットを使用してライセンスを追加 `Set-MsolUserLicense` できます。
 
    この例では、ミーティング ルームに米国に拠点を置くユーザーにライセンスを割り当てします。
 
