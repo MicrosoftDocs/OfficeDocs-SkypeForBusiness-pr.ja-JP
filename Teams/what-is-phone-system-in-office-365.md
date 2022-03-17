@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-apr2020
 - intro-overview
 description: この記事では、電話システム テクノロジについてMicrosoft 365。
-ms.openlocfilehash: 739745c288e24b1cdb7ddc4cf65644a9fd98cb9e
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: a838561b25a737025838095e643bd78a2c69af92
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518599"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514558"
 ---
 # <a name="what-is-phone-system"></a>電話システムとは
 
@@ -39,24 +39,26 @@ ms.locfileid: "62518599"
 
 外部通話を行う場合電話システム PSTN に接続するためのアドオン オプションが提供されます。 音声ソリューションと PSTN 接続オプションの詳細については、「音声ソリューションを[](cloud-voice-landing-page.md)計画するTeams PSTN へのConnect[」を参照してください](#connect-to-the-public-switched-telephone-network-pstn)。
 
+電話システムは、マカオを除く世界中で利用できます。 
+
 ## <a name="phone-system-features"></a>電話システムの機能
 
-この電話システム、ユーザーは Teams を使用して通話の送受信、通話の転送、通話のミュートまたはミュート解除を行います。 電話システムユーザーは、アドレス帳内の名前をクリックし、そのユーザーにTeamsを配置できます。 通話を送受信するために、電話システム ユーザーは、モバイル デバイス、ノート PC を搭載したヘッドセット、または Teams で動作する多くの IP 電話のいずれかを使用できます。 
+この電話システム、ユーザーは Teamsを使用して通話の送受信、通話の転送、通話のミュートまたはミュート解除を行います。 電話システムユーザーは、アドレス帳内の名前をクリックし、そのユーザー Teams呼び出しを配置できます。 通話を送受信するために、電話システム ユーザーは、モバイル デバイス、ノート PC を搭載したヘッドセット、または Teams で動作する多くの IP 電話のいずれかを使用できます。 
 
 電話システムの管理者は、メッセージや共同作業などで使用されるのと同じコンソールから通話オプションと設定を管理できます。
 
-この機能の詳細電話システム、使用する機能の概要に関する[ページを電話システム](here-s-what-you-get-with-phone-system.md)。
+この機能の詳細電話システム、次[の](here-s-what-you-get-with-phone-system.md)ページを参照電話システム。
   
 
 ## <a name="connect-to-the-public-switched-telephone-network-pstn"></a>公衆交換電話網 (PSTN) への接続
   
-外部通話の場合、電話システム方法の 1 つで PSTN に接続できます。
+外部通話の場合電話システム、次のいずれかの方法で PSTN に接続できます。
   
 - Microsoft 通話プラン (国内または国内および国際) を購入します。 Microsoft 通話プランは、PSTN キャリアとしての Microsoft が提供するオール イン ザ クラウド ソリューションです。 詳細については、「[電話システムと通話プラン](calling-plan-landing-page.md)」を参照してください。
 
 - オンプレミスの PSTN 接続には、既存のテレフォニー インフラストラクチャを使用します。
 
-  オペレーター ネットワーク通話または直接ルーティングを使用して電話システムオンプレミスのテレフォニー インフラストラクチャConnect接続できます。 
+  オペレーター と通話または直接ルーティングを使用して電話システムオンプレミスのテレフォニー インフラストラクチャConnect接続できます。 
 
 すべての PSTN 接続オプションの詳細については、「PSTN 接続 [オプション」を参照してください](pstn-connectivity.md)。
 

@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 21a499d10fa9dc1d04d1e1baab8743b739a4e45d
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: bf1f393c8f6caf27a53ec45af0f04401f93b6793
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62385315"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514538"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>OneDrive for Business と SharePoint または Stream を使用して会議の記録を行う
 
@@ -70,7 +70,7 @@ AMS に保存されている会議の記録は、自動的に削除される前�
 > [!Note]
 > Teams の会議ポリシー変更の反映にはしばらく時間がかかります。設定してから数時間後に再び確認し、サインアウトしてから、Teams デスクトップ アプリにもう一度サインインするか、コンピューターを再起動します。
 
-1. Teams PowerShell PowerShell をインストールします。
+1. PowerShell Teamsインストールします。
 
    > [!NOTE]
    > Skype for Business Online Connector は現在、最新の Teams PowerShell モジュールに含まれています。 最新の Teams PowerShell パブリック リリースをご利用の場合は、Skype for Business Online Connector をインストールする必要はありません。 「[PowerShell を使用する Skype for Business Online を管理する](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?preserve-view=true&view=o365-worldwide)」を参照してください。
@@ -98,13 +98,6 @@ AMS に保存されている会議の記録は、自動的に削除される前�
 > [!Note]
 > ユーザーの中に、開催者単位またはユーザー単位のポリシーが割り当てられているユーザーがいる場合は、ポリシーのこの設定を設定して、OneDrive for Business と SharePoint で会議の記録を保存できるようにする必要があります。 詳細については、「[Teams での会議ポリシーを管理する](meeting-policies-overview.md)」を参照してください。
 
-## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>OneDrive for Business と SharePoint をオプトアウトして Stream の使用を継続する
-
-ポリシーによって **Stream** に設定されているはずの場合でも、設定されていない可能性があります。 通常、ポリシーが設定されていない場合、既定の設定は **Stream** です。 ただし、この新しい変更では、SharePoint や OneDrive for business の使用をオプト アウトする場合は、**stream** が既定であることを確認するために、ポリシーを **Stream** に再設定する必要があります。
-
-```PowerShell
-Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
-```
 
 ## <a name="permissions-or-role-based-access"></a>アクセス許可とロール ベースのアクセス
 

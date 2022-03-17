@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: この記事では、Microsoft Teams Rooms のコンソールとその周辺機器の設定および構成方法を説明します。
-ms.openlocfilehash: 42f10ffe4ed2b577e91ed13b57ea8efcae67a1a4
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: c13a247f2ce9d7fee7571f7f3a202310b2ce8b41
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63504014"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514722"
 ---
 # <a name="build-a-microsoft-teams-rooms-image"></a>会議室イメージMicrosoft Teams作成する
 
@@ -117,30 +117,36 @@ Creators Update では、暗黙的に言語を選択するとアプリケーシ�
     
 4. **[時刻 &amp; 言語]** を選択します。
     
-5. **[地域 &amp; 言語]** を選択します。
+5. 言語を **選択します**。
     
 6. [**言語の追加**] を選択します。
     
 7. 追加する言語を選択します。
     
-8. [言語] 一覧に追加した言語を選択します。
+8. 言語機能をインストールします。
     
-9. [**既定に設定**] を選択します。
+9. [表示言語として設定] Windowsはオンにしない。
     
-10. 削除する言語については、次の操作を行います。
+10. [インストール] **を選択します**。
+    
+11. [言語] 一覧に追加した言語を選択します。
+    
+12. [既定値として設定] - 上方向キーを押して既定値を設定する
+
+13. 削除する言語については、次の操作を行います。
     
     a. 削除する言語を選択します。
     
-    b. [**削除**] を選択します。
-    
-11. 管理者特権でコマンド プロンプトを開始します。
-    
-12. 次のコマンドを実行します。 
+    b. [削除] を選択します。
+
+14. 管理者特権でコマンド プロンプトを開始します。
+
+15. 次のコマンドを実行します。 
     ```PowerShell
     powershell -executionpolicy unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentRegionAndLanguage.ps1
     ```
     
-13. システムを再起動します。
+16. システムを再起動します。
     
 これで、目的の言語が Microsoft Teams Rooms のコンソールに適用されます。
 ## <a name="initial-set-up-of-the-console"></a>コンソールの初期設定
@@ -154,12 +160,12 @@ Creators Update では、暗黙的に言語を選択するとアプリケーシ�
    
 3. サポートされている会議モードを選択します。Microsoft Teamsのみ、Skype for Businessのみ、または 2 つの複合モードオプションのいずれかを選択します。 必要に応じて、最新の認証を有効にします。
 
-4. **[次へ]** をクリックします。
+4. [**次へ**] を選択します。
     
 5. Skype for Business を使用し、Skype for Business SIP ドメインがユーザーの Exchange ドメインと異なる場合は、[詳細設定] セクションで Skype for Business Server の FQDN を設定します。 アプリケーションを使用していない場合Skype for Business SIP ドメインがドメインのドメインExchange一致する場合は、このセクションを空白のままにします。
-6. **[次へ]** をクリックします。
+6. [**次へ**] を選択します。
     
-7. [**完了**] をクリックします。
+7. [完了] **を選択します**。
     
 Microsoft Teams Rooms アプリは、上記で入力した資格情報を使用して Microsoft Teams または Skype for Business Server にサインインする必要があります。また、同じ資格情報を使用して予定表と Exchange の同期を開始する必要があります。 会議室の使用の詳細Teams、会議室のMicrosoft Teams[参照してください](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)。
   
@@ -195,7 +201,7 @@ Microsoft Teamsルームは、接続するサーバーによって使用され�
 ### <a name="join-an-active-directory-domain-optional"></a>Active Directory ドメインに参加する (オプション)
 <a name="Certs"> </a>
 
-自分のドメインMicrosoft Teams会議室に参加できます。 Microsoft Teamsは PC ワークステーションとは別の OU に配置する必要があります。多くのワークステーション ポリシーは、Microsoft Teamsです。 たとえば、パスワードの強制ポリシーが設定されていると、Microsoft Teams Rooms は自動的に起動しなくなります。 GPO 設定の管理については、「会議室を管理[する」をMicrosoft Teamsしてください](rooms-operations.md)。
+自分のドメインMicrosoft Teams会議室に参加できます。 Microsoft Teamsは PC ワークステーションとは別の OU に配置する必要があります。多くのワークステーション ポリシーは、Microsoft Teamsです。 一般的な例は、会議室が自動的に起動Microsoft Teams適用ポリシーです。 GPO 設定の管理については、「会議室を管理[する」をMicrosoft Teamsしてください](rooms-operations.md)。
   
 ### <a name="to-join-microsoft-teams-rooms-to-a-domain"></a>Microsoft Teams Rooms をドメインに参加させるには
 

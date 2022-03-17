@@ -15,20 +15,20 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: 電話システム で保留音楽機能を管理する方法について電話システム。
-ms.openlocfilehash: d3fa7188e3d2320ba4eeb17ca95d28d1f57c18c4
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: a1e2662c04cfa9300d034aaaf8d7975e44e63f69
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767410"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514784"
 ---
 # <a name="music-on-hold"></a>保留音
 
 ユーザーがMicrosoft Teams公衆交換電話網 (PSTN) からの着信通話を保留にした場合、PSTN 発信者は選択した音楽を聞き取ります。
 
-再生される音楽は、Microsoft が提供する既定の音楽か、アップロードして構成するカスタム音楽のいずれかです。 テナント管理者は、Teams 呼び出しポリシーを作成し、そのユーザーにポリシーを割り当て、保留音を使用できるかどうかTeamsします。
+再生される音楽は、Microsoft が提供する既定の音楽か、アップロードして構成するカスタム音楽のいずれかです。 テナント管理者は、Teams 呼び出し元ポリシーを作成し、そのユーザーにポリシーを割り当てるTeamsします。
 
-PSTN 通話シナリオで提供Microsoft Teamsの音楽は、組織が支払う使用料金は無料です。
+PSTN 通話シナリオで提供されるMicrosoft Teams音楽は、組織が支払う使用料金は無料です。
 
 PSTN 発信者は、他のシナリオでも保留音を聞けるので注意してください。たとえば、クラウド通話キューにコールインする場合や、通話がユーザーによってMicrosoft Teamsされます。 これらのシナリオは、この記事で説明する機能によってカバーまたは制御されません。
 
@@ -36,15 +36,15 @@ PSTN 発信者は、他のシナリオでも保留音を聞けるので注意し
 
 保留音を構成するには:
 
-1.  管理センターの左側のナビゲーションで、[音声Teams通話ポリシー **] に移動>します**。
+1.  管理センターの左側のナビゲーションでTeams通話ポリシー **に移動>します**。
 
 2.  [ポリシー **の管理] タブ** で、既存のポリシーのいずれかを選択するか、新しいポリシーを作成します。
 
-3.  **[PSTN 発信者の保留音]** フィールドで、ドロップダウン メニューの **[** 有効] を選択します。
+3.  **[PSTN 発信者の保留音] フィールドで**、ドロップダウン メニューの **[** 有効] を選択します。
 
 PowerShell モジュールの一部を使用して、保留Teams構成できます。 TeamsCallingPolicy で、MusicOnHoldEnabledType パラメーターを Enabled に変更し、そのポリシー インスタンスを 1 人または複数のユーザーに付与します。
 
-Teamsのユーザーが [保留時の音楽] を [無効] に設定した Teams 通話ポリシーを持つ場合、Teams ユーザーが通話を保留にした場合、音楽は再生されません。
+Teamsユーザーが [保留時の音楽] を [無効] に設定した Teams 通話ポリシーを持つ場合、Teams ユーザーが通話を保留にした場合、音楽は再生されません。
 
 ## <a name="configure-custom-music"></a>カスタム 音楽を構成する
 
@@ -52,11 +52,11 @@ PSTN 呼び出し元に既定の音楽を再生する以外に、音楽や他の
 たとえば、部門や組織では、外部 PSTN 発信者が保留にされている場合に、カスタムアナウンスやカスタム 音楽を再生することができます。  
 
 > [!NOTE]
-> お客様は、お客様の音楽またはオーディオ ファイルを使用するために必要なすべての権利とアクセス許可を個別に消去し、保護する責任をMicrosoft Teamsします。 これには、すべての関連する権利保有者の音楽、サウンド エフェクト、オーディオ、ブランド、名前、およびオーディオ ファイル内のその他のコンテンツに含まれる知的財産などの権利が含まれる場合があります。 所有者には、アーティスト、アクター、パフォーマー、音楽家、曲者、レコード ラベル、音楽パブリッシャー、ユニオン、ギルド、権限団体、集合管理組織、音楽著作権、サウンド エフェクト、オーディオ、その他の知的財産権を所有、管理、またはライセンスしているその他の当事者が含まれます。
+> お客様は、お客様の音楽またはオーディオ ファイルを使用するために必要なすべての権利とアクセス許可を個別に消去し、保護する責任をMicrosoft Teamsがあります。 これには、すべての関連する権利保有者の音楽、サウンド エフェクト、オーディオ、ブランド、名前、およびオーディオ ファイル内のその他のコンテンツに含まれる知的財産などの権利が含まれる場合があります。 所有者には、アーティスト、アクター、パフォーマー、音楽家、曲者、レコード ラベル、音楽パブリッシャー、ユニオン、ギルド、権限団体、集合管理組織、音楽著作権、サウンド エフェクト、オーディオ、その他の知的財産権を所有、管理、またはライセンスしているその他の当事者が含まれます。
 
-保留時のカスタムミュージックを構成するには、Teams PowerShell モジュール 3.0.0 以降の PowerShell コマンドレット New/Get/Set/Grant/Remove-CsTeamsCallHoldPolicy と Import/Get/Remove/Export-CsOnlineAudioFile を使用します。
+カスタムの保留音を構成するには、Teams PowerShell モジュール 3.0.0 以降の PowerShell コマンドレット New/Get/Set/Grant/Remove-CsTeamsCallHoldPolicy および Import/Get/Remove/Export-CsOnlineAudioFile を使用します。
 
-サポートされているオーディオ形式と最大ファイル サイズについては [、Import-CsOnlineAudioFile に関するページを参照してください。](/powershell/module/skype/import-csonlineaudiofile)
+サポートされているオーディオ形式と最大ファイル サイズについては、 [Import-CsOnlineAudioFile に関するページを参照してください。](/powershell/module/skype/import-csonlineaudiofile)
 
 
 1. 通話ポリシーでTeams PSTN 呼び出し元の音楽が [有効] に設定Teamsします。 
@@ -80,7 +80,7 @@ FileName      : customMoH1.mp3
 ApplicationId : TenantGlobal
 ```
 
-### <a name="reference-the-audio-file-in-a-teams-call-hold-policy"></a>通話ホールド ポリシーでオーディオ ファイルTeams参照する
+### <a name="reference-the-audio-file-in-a-teams-call-hold-policy"></a>通話ホールド ポリシーでオーディオ Teamsを参照する
 
 オーディオ ファイルをアップロードしたら、Teams 通話ホールド ポリシーを作成または設定するときに、ファイルの ID を使用して Teams 通話ホールド ポリシー内のファイルを参照する必要があります。 次に例を示します。
 
@@ -88,7 +88,7 @@ ApplicationId : TenantGlobal
 C:\> New-CsTeamsCallHoldPolicy -Identity "CustomMoH1" -Description "Custom MoH using CustomMoH1.mp3" -AudioFileId $AudioFile.Id
 ```
 
-新しい通話ホールド ポリシーをTeamsしたら、次の方法でユーザーにGrant-CsTeamsCallHoldPolicyできます。
+新しい通話ホールド ポリシーをTeamsしたら、次のコマンドを使用してユーザーGrant-CsTeamsCallHoldPolicyできます。
 
 ```PowerShell
 C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contoso.com
@@ -112,7 +112,7 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 
 ## <a name="restrictions"></a>制限
 
-- 保留音は商用クラウドでのみ利用できます。
+- 保留音は、商用およびクラウド インスタンスでのみGCC使用できます。
 
 - 保留音は、ユーザーが TeamsOnly モードの場合にのみ使用できます。
 

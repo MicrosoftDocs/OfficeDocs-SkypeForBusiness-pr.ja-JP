@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: USB 周辺機器とデバイス (ヘッドセット、スピーカーフォン、Web カメラ、モニターなど) が認定を受けたMicrosoft Teams。
-ms.openlocfilehash: 0e85a2317ba79bdedeca30dbd566ab84b557ec6f
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: 3fccae62c996e0301e6bbe928cae17ff163c650e
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63503554"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514528"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>USB オーディオ デバイスとビデオ デバイスは、Microsoft Teams
 
@@ -78,6 +78,9 @@ Microsoft Teams の[認定を受けたデバイスを参照します](https://pr
 
 | [製造元]        | モデル                                                     | 修飾      | 認定プログラム                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|EPOS                 |ADAPT 661                                                  |3/11/2022       |認定Microsoft Teams                           |
+|EPOS                 |ADAPT 461T                                                 |3/11/2022       |認定Microsoft Teams                           |
+|EPOS                 |ADAPT 361                                                  |3/11/2022       |認定Microsoft Teams                           |
 |Dell                 |Speakerphone SP3022                                        |2/7/2022        |認定Microsoft Teams                           |
 |Dell                 |スリム会議サウンドバー SB522A                          |1/25/2022       |認定Microsoft Teams                           | 
 |レドク               |Go Wired ANC Headset                                       |1/12/2022       |認定Microsoft Teams                           |
