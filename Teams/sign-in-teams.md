@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 716a18efda2c2c7f55adf68314dae4b1e07e387b
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: a00561f10e78a18acc146df4ed8a76b103c937c9
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537058"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514568"
 ---
 # <a name="sign-in-to-microsoft-teams"></a>Microsoft Teams にサイン インする
 
@@ -92,7 +92,7 @@ iOS と Android の Teams は、IT 管理者に、アカウント構成を Micro
 
 Microsoft Intune に登録されているユーザーは、Azure Portal の Intune を使用してアカウント構成設定を展開できます。
 
-MDM プロバイダーでアカウント セットアップ構成が構成され、ユーザーがデバイスを登録した後、iOS と Android の Teams は、許可されたアカウントのみ Teams サインイン ページに表示します。 ユーザーはこのページで許可されているアカウントをタップして、サインインできます。
+MDM プロバイダーでアカウント セットアップ構成が構成され、ユーザーがデバイスを登録した後、iOS と Android の Teams は、許可されたアカウントのみ Teams サインイン ページに表示します。ユーザーはこのページで許可されているアカウントをタップして、サインインできます。
 
 管理対象デバイスの Azure Intune ポータルで次の構成パラメーターを設定します。
 
@@ -139,7 +139,7 @@ Windows および MacOS の Teams アプリは、組織へのサインインを�
 
 ### <a name="global-sign-in"></a>グローバルなサイン インとサイン アウト
 
-Teams Android アプリは、グローバルなサインインとサインアウトをサポートするようになり、現場担当者は手間なくサインインとサインアウトができるようになりました。 従業員は、共有デバイスプールからデバイスを選択し、1回サインインするだけで、シフト中は"自分のものにする" ということができます。 これらのユーザーは、シフトの最後に、サインアウトすると、デバイスに対してグローバルにサイン アウトできます。 詳細については、[「Teams をサインアウトする」](sign-out-of-teams.md)を参照してください。 これにより、デバイスから個人情報と会社情報がすべて削除され、デバイスがデバイスプールに返されます。 この機能を利用するには、デバイスを shared モードにする必要があります。 共有デバイスをセットアップする方法の詳細については、「[Androidで共有デバイスモードを使用する方法](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode) 」を参照してください。
+Teams Android アプリは、グローバルなサインインとサインアウトをサポートするようになり、現場担当者は手間なくサインインとサインアウトができるようになりました。 従業員は、共有デバイスプールからデバイスを選択し、1回サインインするだけで、シフト中は"自分のものにする" ということができます。 これらのユーザーは、シフトの最後に、サインアウトすると、デバイスに対してグローバルにサイン アウトできます。 詳細については、[「Teams をサインアウトする」](sign-out-of-teams.md)を参照してください。 これにより、デバイスから個人情報と会社情報がすべて削除され、デバイスがデバイスプールに返されます。 この機能を利用するには、デバイスを shared モードにする必要があります。 サインアウトする前に、アクティブな会議を終了するか、デバイスに電話をかけてください。共有デバイスの設定方法については、「[Android で共有デバイス モードを使用する方法](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode)」をご覧ください。
 
 サインインエクスペリエンスは、Teams の標準的なサインイン操作と似ています。
 

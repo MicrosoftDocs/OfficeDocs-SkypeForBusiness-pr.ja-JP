@@ -12,13 +12,18 @@ description: Microsoft Teams からサインアウトする方法について説
 ms.custom: seo-marvel-apr2020
 ms.localizationpriority: high
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 f1.keywords:
-  - NOCSH
+- NOCSH
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: b453295c02ef371c06c3adea4c2c8489c0a58468
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.translationtype: HT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514712"
 ---
-
 # <a name="sign-out-of-microsoft-teams"></a>Microsoft Teams からサインアウトする
 
 ユーザーがチャット、着信通話、その他のアクティビティを引き続き受信したい場合は、Microsoft Teams アプリにサインインしたままにすることをお勧めします。 いくつかの理由のために、ユーザーが、 Teams アプリケーションからサインアウトすることが必要な場合があることでしょう。
@@ -49,7 +54,7 @@ Teams デスクトップ クライアントまたはブラウザーからサイ�
 
 ### <a name="global-sign-in-and-sign-out-for-frontline-workers"></a>現場担当者向けのグローバル サインインとサインアウト
 
-Teams Android アプリは、グローバルなサインインとサインアウトをサポートするようになり、現場担当者は手間なしでサインインとサインアウトができるようになりました。 従業員は、共有デバイス プールからデバイスを選択し 1 回サインインするだけで、シフト時間中は"自分用のデバイス" にすることができます。 これらのユーザーは、シフトの最後に、サインアウトすると、デバイスに対してグローバルにサイン アウトできます。 これにより、デバイスから個人情報と会社情報がすべて削除され、デバイスがデバイスプールに返されます。 この機能を利用するには、デバイスを shared モードにする必要があります。 共有デバイスをセットアップする方法の詳細については、「[Androidで共有デバイスモードを使用する方法](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode) 」を参照してください。
+Teams Android アプリは、グローバルなサインインとサインアウトをサポートするようになり、現場担当者は手間なしでサインインとサインアウトができるようになりました。 従業員は、共有デバイス プールからデバイスを選択し 1 回サインインするだけで、シフト時間中は"自分用のデバイス" にすることができます。 これらのユーザーは、シフトの最後に、サインアウトすると、デバイスに対してグローバルにサイン アウトできます。 これにより、デバイスから個人情報と会社情報がすべて削除され、デバイスがデバイスプールに返されます。 この機能を利用するには、デバイスを shared モードにする必要があります。  サインアウトする前に、アクティブな会議を終了するか、デバイスに電話をかけてください。共有デバイスの設定方法については、「[Android で共有デバイス モードを使用する方法](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode)」をご覧ください。
 
 ## <a name="manual-cleanup"></a>手動クリーンアップ
 

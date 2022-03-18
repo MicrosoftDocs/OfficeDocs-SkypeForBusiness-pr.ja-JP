@@ -1325,16 +1325,16 @@ items:
                 href: rooms/rooms-deploy.md
               - name: アカウントを構成する
                 href: rooms/rooms-configure-accounts.md
-              - name: Office 365 の場合
+              - name: Surface Hub
+                items:
+                  - name: 最適化された会議を設定する
+                    href: rooms/coordinated-meetings.md
+                  - name: Microsoft Teams 設定の管理
+                    href: rooms/surface-hub-manage-config.md
+              - name: リソース アカウントを作成する
                 href: rooms/with-office-365.md
               - name: Skype for Business Server の場合
                 href: rooms/with-skype-for-business-server-2015.md
-              - name: Exchange Online の場合 (ハイブリッド)
-                href: rooms/with-exchange-online.md
-              - name: オンプレミスの Exchange の場合 (ハイブリッド)
-                href: rooms/with-exchange-on-premises.md
-              - name: Android に Microsoft Teams ミーティングを展開する
-                href: devices/collab-bar-deploy.md
               - name: コンソールを構成する
                 href: rooms/console.md
               - name: 手動でデバイスを更新する
@@ -1785,8 +1785,6 @@ items:
         items:
           - name: Microsoft 365 グループと Teams
             href: office-365-groups.md
-          - name: Microsoft 365 管理センターを使用して、Microsoft 365 リソース アカウントを作成する
-            href: devices/resource-account-ui.md
           - name: 既存の Microsoft 365 グループを Teams で強化する
             href: enhance-office-365-groups.md
           - name: Exchange と Teams の連携

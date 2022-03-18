@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 継続的なメンテナンスと運用を開発および実行して、Microsoft Teams Rooms システムをユーザーが確実に利用できるようにする方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 82725093e67b0f7619ea97837b53fd841b965146
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: 12738e544e8bf0f2e46979df0a1d64ea762bfa1f
+ms.sourcegitcommit: 640f55fe6144ff867b41b57e52f45b8a64cf779e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63504104"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63556643"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Microsoft Teams Rooms を管理する
 
@@ -117,7 +117,7 @@ ms.locfileid: "63504104"
 
 | Teams デバイス | アプリのバージョン | 部屋の前面表示 |
 |--------------|-------------|-----------------------|
-|Microsoft Teamsの会議室Windows | 4.11.12.0 以上 (最新バージョンをお勧めします) | 単一ディスプレイとデュアル ディスプレイをサポートします。最小サイズ: 46 インチ;縦横比 16:9、解像度 1920*1080、解像度 21:9、解像度 2560x1080。すべてのディスプレイは、すべての設定で 100% のWindowsする必要があります。 |
+|Microsoft Teamsの会議室Windows | 4.11.12.0 以上 (最新バージョンをお勧めします) | 単一ディスプレイとデュアル ディスプレイをサポートします。最小サイズ: 46 インチ;縦横比 16:9、解像度 1920x1080、解像度 21:9、解像度 2560x1080。すべてのディスプレイは、すべての設定で 100% のWindowsする必要があります。 |
 
 フロント[Microsoft Teams要件を](rooms-operations.md#change-scale-and-resolution)満たして表示設定を調整するには、「会議室のメンテナンスと操作」を参照してください。
 

@@ -19,16 +19,19 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: この記事では、ゲストが利用できる Microsoft Teams の機能性について説明します。
-ms.openlocfilehash: 5d8bb9ab670da0a4002f69cf5ddec9f245cd9c13
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: c7052eb22a68b146c3ee998b57ba877da82e11b4
+ms.sourcegitcommit: 640f55fe6144ff867b41b57e52f45b8a64cf779e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62190698"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63556633"
 ---
 # <a name="guest-experience-in-teams"></a>Teams でのゲスト エクスペリエンス
 
 ゲストがチームに参加するように招待されると、「ようこそ」メール メッセージが届きます。 このメッセージには、チームに関するいくつかの情報と、メンバーとして想定されることが記載されています。 ゲストは、チームとそのチャネルにアクセスする前に、メール メッセージで **[Microsoft Teams を開く]** を選択して、招待を承諾する必要があります。
+
+> [!NOTE]
+> ゲストがチームに追加された後、ゲストがアクセスできるまで数時間かかる場合があります。
     
 ![ようこそメール メッセージの例を示すスクリーンショット。](media/guest-experience-image1.png)
     
