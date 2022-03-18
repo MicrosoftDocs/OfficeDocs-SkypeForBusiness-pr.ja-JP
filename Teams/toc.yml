@@ -629,8 +629,6 @@ items:
                 href: cloud-recording.md
               - name: OneDrive for Business と SharePoint または Stream を使用して会議の記録を行う
                 href: tmr-meeting-recording-change.md
-              - name: コンタクト センターの統合
-                href: teams-contact-center.md
               - name: Outlook で Teams の会議アドインを使用する
                 href: teams-add-in-for-outlook.md
               - name: Teams と連動するように Skype 会議アプリを構成する
@@ -1287,6 +1285,8 @@ items:
                 href: add-funds-and-manage-communications-credits.md
           - name: Microsoft Teams の通話フロー
             href: microsoft-teams-online-call-flows.md
+          - name: コンタクト センターの統合
+            href: teams-contact-center.md
   - name: デバイスと会議室の管理
     items:
       - name: Microsoft Teams Rooms
