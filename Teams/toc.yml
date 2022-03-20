@@ -973,6 +973,8 @@ items:
             href: cloud-voice-network-settings.md
           - name: クラウド ボイス機能のネットワーク トポロジを管理する
             href: manage-your-network-topology.md
+          - name: ビデオとメディアの設定を管理する
+            href: network-roaming-policy.md
       - name: 緊急通話
         items:
           - name: 概要
@@ -1364,7 +1366,7 @@ items:
               - name: メンテナンスと操作
                 href: rooms/rooms-operations.md
               - name: 既知の問題
-                href: rooms/known-issues.md
+                href: /microsoftteams/troubleshoot/teams-devices-and-rooms/rooms-known-issues
               - name: Azure Monitor でのデバイス
                 href: rooms/azure-monitor-manage.md
               - name: XML を使用した設定
