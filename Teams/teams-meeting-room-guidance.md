@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb74dcb92328890b71317818b3230571151fd0a6
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: b02e3f441ad7a4a338c86e89b2740561d3d552d7
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062718"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711571"
 ---
 # <a name="meeting-room-guidance-for-teams"></a>Teams の会議室ガイダンス
 
@@ -536,11 +536,12 @@ Teamsのすべての会議室Windowsインテリジェント キャプチャ機�
 
 ### <a name="displays"></a>表示
 
--   スリープ機能中に自動ウェイク オン同期とクールダウンを備えた、短いスローの高解像度レーザー プロジェクター。
+- スリープ機能中の自動ウェイク オン 同期とクールダウンを備えた、短いスローまたは超短いスロー、高解像度、高輝度レーザー プロジェクター。 周囲光を拒否するプロパティを備える低ゲインプロジェクター画面は、明るい部屋で最高の画質を提供します。
 
-次に示すように、
+次に示すように、 
 
-エピロークビジョン™ Ultra LS500
+- [ElPLX01S Ultra Short Throw レンズを搭載した Eb-PU1007 プロジェクター](https://epson.com/For-Work/Projectors/Large-Venue/EB-PU1007B-WUXGA-3LCD-Laser-Projector-with-4K-Enhancement/p/V11HA34820)
+- [Da-Lite UTB Contour Screen |HD プログレッシブ 0.6 画面|Cinemascope 138" Diagonal](https://www.legrandav.com/products/da-lite/screens/fixed_frame_screens/utb_contour)
 
 その他のオプション:
 

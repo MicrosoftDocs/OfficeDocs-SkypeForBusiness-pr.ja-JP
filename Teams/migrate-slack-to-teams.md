@@ -18,12 +18,12 @@ ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 description: Slack から Microsoft Teams への移行に関する詳細なガイダンス。
-ms.openlocfilehash: 9342c7e251cc7466df0d70e8cb699d7e514455b4
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 7879e839c8f5597761827fe42ea75b1f0c8dddf9
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456357"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711891"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Slack から Microsoft Teams に移行する
 
@@ -55,7 +55,7 @@ Slack のエクスポート オプションの詳細については、Slack の 
 ### <a name="assess-your-slack-workspaces"></a>Slack ワークスペースの評価
 組織の移行計画を立てる前に、Slack ワークスペースに関する情報をまとめる必要があります。 Slack ワークスペースがどのように使用されているかを理解することで、移行の範囲を特定しやすくなります。 たとえば、ワークスペースはいくつ移行するのでしょうか。 それらのワークスペースは特定の部署で使用されているものでしょうか。それとも組織全体で使用されているものでしょうか。
 
-移行する Slack ワークスペースのメンバーのユーザーは、*\<your Slack workspace\>slack.com/stats* にアクセスして使用状況をユーザー自身で分析できます。使用パターンは [チャンネル] タブと [メンバー] タブで確認できます。 移行するワークスペース (および移行しないワークスペース) を決定します。 
+移行する Slack ワークスペースのメンバーのユーザーは、*\<your Slack workspace\>.slack.com/stats* にアクセスして使用状況をユーザー自身で分析できます。使用パターンは [チャンネル] タブと [メンバー] タブで確認できます。移行するワークスペース (および移行しないワークスペース) を決定します。 
 
 > [!NOTE]
 > ユーザーが統計情報のページにアクセスできない場合、そのユーザーは管理者または所有者ではないことを意味します。 

@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams でのゲスト アクセスにより、組織内のチームは組織外の人にチームおよびチャネルへのアクセス権を付与することで、それらの人と共同作業することができるようになります。
-ms.openlocfilehash: 8ea0ae05823a1f7402d6a41f51794d0a169faf43
-ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
+ms.openlocfilehash: 99a17d521f0d244083c527803916bf8946730789
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62457257"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711451"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセス
 
@@ -35,16 +35,18 @@ ms.locfileid: "62457257"
 
 ゲストとは、組織の学校または職場アカウントを持っていないユーザーです。 たとえば、ゲストにはパートナー、製造元、供給元、コンサルタントなどが含まれます。 自分の組織に属していないユーザーを Teams のゲストとして追加することができます。 これは、ビジネス アカウント (すなわち、Azure Active Directory アカウント) または通常のメール アカウント (Outlook.com、Gmail.com、他) を持つすべてのユーザーが、チームとチャネルの操作や機能にアクセスできるゲストとして、Teams に参加できることを意味します。
 
-Teams のゲストは、Microsoft 365 と同様のコンプライアンスと監査による保護の対象となります。また、ゲストを Azure AD 内で管理できます。 ゲスト アクセスは Azure AD および、Microsoft 365 または Office 365 のサービス制限の対象になります。
+Teams にゲストを招待すると、ゲスト アカウントが Azure Active Directory に作成され、他の Microsoft 365 ユーザーと同じコンプライアンスと監査保護の対象になります。 ゲスト アクセスは Azure AD および Microsoft 365 のサービス制限の対象になります。
 
-ゲストのエクスペリエンスには、仕様上の制限があります。 ゲストが Teams で実行できる操作と実行できない操作の一覧は、「[Microsoft Teams のゲスト アクセス](guest-experience.md)」を参照してください。
+ゲストのエクスペリエンスには、仕様上の制限があります。ゲストが Teams で実行できる操作と実行できない操作の一覧は、「[Microsoft Teams のゲスト アクセス](guest-experience.md)」を参照してください。
 
 > [!IMPORTANT]
 > ゲストは、共存アップグレード モードの Teams の組織全体の設定に従います。これは変更できません。
 
-ゲスト アクセスを設定する方法については、「[チームでゲストと共同作業する](/microsoft-365/solutions/collaborate-as-team)」を参照してください。 
-
 外部アクセス (フェデレーション) とゲスト アクセスを比較する (および使用するアクセスを決定する) には、「[Teams の他の組織のユーザーと通信する](communicate-with-users-from-other-organizations.md)」をご覧ください。
+
+共有チャネルを使用すると、ゲスト アクセスの代替手段が提供されるため、Azure AD でゲスト アカウントを必要とせずに、組織外のユーザーを招待できます。 ゲスト アクセスと共有チャネルを比較するには、「[外部コラボレーションを計画する](/microsoft-365/solutions/plan-external-collaboration)」を参照してください。
+
+ゲスト アクセスを設定する方法については、「[チームでゲストと共同作業する](/microsoft-365/solutions/collaborate-as-team)」を参照してください。 
 
 ## <a name="set-up-guest-access"></a>ゲスト アクセスを設定する
 

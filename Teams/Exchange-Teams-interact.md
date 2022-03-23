@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1fbcadfefffe40bbd7c2919f269185b8116b7237
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: c1ade306ab1a9dc3c3f716b36d931bcf7a6d0b41
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205277"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711501"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携
 
@@ -47,10 +47,10 @@ Exchange Online 専用 (レガシ) にホストされるユーザーは、Micros
 
 | ユーザーのメールボックスのホスト先:                                       | 電子情報開示         | 法的な&nbsp;保全    | 保持        | チームとチャネルの管理 | Teams で会議を作成して表示する | ユーザー プロフィールの写真を変更する | 通話履歴 | 連絡先の管理 | Outlook の連絡先へのアクセス | ボイスメール        | コネクタを追加して構成する | タブを追加して構成する | ボットを追加して構成する |
 |--------------------------------------------------------------------|--------------------|--------------------|------------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------------|------------------------------|------------------------|------------------------|
-| **Exchange Online**                                                | はい <sup>1</sup>   | はい <sup>1</sup>   | はい              | Yes                   | Yes                               | はい<sup>7</sup>             | はい          | Yes             | はい <sup>6</sup>        | はい              | Yes                          | Yes                    | Yes                    |
-| **Exchange Online 専用 vNext**                                | はい <sup>1</sup>   | はい <sup>1</sup>   | はい              | Yes                   | Yes                               | はい<sup>7</sup>             | はい          | Yes             | はい <sup>6</sup>        | はい              | Yes                          | Yes                    | Yes                    |
-| **Exchange Online 専用 – レガシー** (Azure AD との同期が必要) | はい <sup>1</sup>   | はい <sup>1,2</sup> | はい <sup>3</sup> | はい                   | いいえ                                | いいえ                          | Yes          | はい             | いいえ                      | はい <sup>4</sup> | はい <sup>5</sup>             | はい                    | Yes                    |
-| **Exchange On-premises** (Azure AD との同期)                        | は <sup>い 1,9</sup> | はい <sup>1</sup>   | はい <sup>3</sup> | はい                   | はい <sup>8</sup>                  | は<sup>い 10</sup>            | Yes          | はい             | いいえ                      | はい <sup>4</sup> | はい <sup>5</sup>             | はい                    | Yes                    |
+| **Exchange Online**                                                | はい <sup>1</sup>   | はい <sup>1</sup>   | はい              | はい                   | はい                               | はい<sup>7</sup>             | はい          | はい             | はい <sup>6</sup>        | はい              | はい                          | はい                    | はい                    |
+| **Exchange Online 専用 vNext**                                | はい <sup>1</sup>   | はい <sup>1</sup>   | はい              | はい                   | はい                               | はい<sup>7</sup>             | はい          | はい             | はい <sup>6</sup>        | はい              | はい                          | はい                    | はい                    |
+| **Exchange Online 専用 – レガシー** (Azure AD との同期が必要) | はい <sup>1</sup>   | はい <sup>1,2</sup> | はい <sup>3</sup> | はい                   | いいえ                                | いいえ                          | はい          | はい             | いいえ                      | はい <sup>4</sup> | はい <sup>5</sup>             | はい                    | はい                    |
+| **Exchange On-premises** (Azure AD との同期)                        | は <sup>い 1,9</sup> | はい <sup>1</sup>   | はい <sup>3</sup> | はい                   | はい <sup>8</sup>                  | は<sup>い10</sup>            | はい          | はい             | いいえ                      | はい <sup>4</sup> | はい <sup>5</sup>             | はい                    | はい                    |
 
 <sup>1</sup> チャネル メッセージのコンプライアンスに関する電子情報開示および法的な保全は、すべてのホスティング オプションでサポートされています。
 
@@ -68,10 +68,11 @@ Exchange Online 専用 (レガシ) にホストされるユーザーは、Micros
 
 <sup>8</sup> 「[オンプレミスでホストされているメールボックスの会議を作成および表示するための要件](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises)」セクション記載されている要件を満たす必要があります。 
 
-<sup>9</sup>プラン 1 ライセンスExchange Online以上のライセンスも必要です。 詳細については、「オンプレミス ユーザーの[チャット データTeams検索する」を参照してください](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)。
+<sup>9</sup> プラン 1 ライセンスExchange Online以上のライセンスも必要です。 詳細については、「オンプレミス ユーザーの[チャット データTeams検索する」を参照してください](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)。
 
-<sup>10</sup>オンプレミス ユーザーは、web メールボックス ポリシーの Teams が に設定されている場合でも、Outlook を使用してプロファイル画像 `SetPhotoEnabled` を更新できます `false` 。
-
+<sup>10</sup> オンプレミス ユーザーは、web メールボックス ポリシー `SetPhotoEnabled` の Teams が に設定されている場合でも、Outlook を使用してプロファイル画像を更新できます`false`。
+ > [!NOTE]
+ > Teams クライアントを介した Office (OOF) の設定は、メールボックスがオンプレミスでホストされているユーザーに対して現在サポートされていません。これらのユーザーは、Outlook クライアントを介してこのアクションを実行する必要があります。
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Microsoft Teams を最大限に活用するための要件
 
 Microsoft Teams では、Microsoft 365 や Office 365 のさまざまなサービスにより、ユーザーに高度なエクスペリエンスを提供します。 そのようなエクスペリエンスをサポートするには、特定の機能またはサービスを有効にして、ライセンスを割り当てる必要があります。
@@ -104,18 +105,18 @@ Microsoft Teams では、Microsoft 365 や Office 365 のさまざまなサー�
   > [!NOTE]
   > Exchange は、EvoSTS として知られる Teams サービスからの OAuth トークンを信頼します。 手順 1 で十分ですが、EvoSTS だけで、ACS はカレンダーの空き時間情報の検索に使用されます。
 
-- Azure AD Connect の Exchange ハイブリッド展開機能のチェックボックスが設定されています。 詳細については、ハイブリッド ライト[バックのExchangeを参照してください](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized#exchange-hybrid-writeback)。
+- Azure AD Connect の Exchange ハイブリッド展開機能のチェックボックスが設定されています。 詳細については、「ハイブリッド ライト[バックExchange参照してください](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized#exchange-hybrid-writeback)。
 
 - カレンダー アプリのサポートと Mac 用の Teams Outlook アドインの場合、Exchange Web サービスの URL を Exchange サービス プリンシパルのテナント Azure AD で SPN として構成する必要があります。 この手順は、ハイブリッド構成ウィザードを使用するか、[手動でのハイブリッド先進認証の手順](/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication#add-on-premises-web-service-urls-as-spns-in-azure-ad)に従って実行します。
 
 これらのユーザーのカレンダー委任を有効にするには、
 
-- [「Skype for Business Online](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)と Exchange Server の間で統合と OAuth を構成する」の説明に従って手順を完了する必要があります。これらの手順では、Teams スケジュール アプリケーションに委任アクセス許可を確認するために必要なアクセス許可が提供されます。
+- Skype for Business Online と Exchange Server の間の[統合と OAuth](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises) の構成に関するページの説明に従って手順を完了する必要があります。これらの手順では、Teams スケジュール アプリケーションに代理人のアクセス許可を確認するために必要なアクセス許可が提供されます。
  
   > [!NOTE]
   > 手順 2 には、委任に必要のない ArchiveApplication の役割の割り当てが含まれています。
 
-- Teams の Outlook スケジュール 設定アドインでは、他のユーザーに代わって会議をスケジュールするExchange 2013 CU19 以降が必要です。 これは、委任メールボックスに対する委任権限をチェックするために、サービスによるメールボックスの認証されていない検出をサポートするためです。 代理人と代理人の場所は、Exchange 2013 以降、または Exchange オンラインですが、自動検出は Exchange 2013 CU19 以降に解決する必要があります。
+- Teamsスケジュール設定アドインでは、Outlook に代わって会議をスケジュールするときに、Exchange 2013 CU19 以降が必要です。 これは、委任メールボックスに対する委任権限をチェックするために、サービスによるメールボックスの認証されていない検出をサポートするためです。 代理人と代理人の場所は、Exchange 2013 以降、または Exchange オンラインですが、自動検出は Exchange 2013 CU19 以降に解決する必要があります。
 
 ## <a name="additional-considerations"></a>その他の考慮事項
 
@@ -125,7 +126,7 @@ Microsoft Teams では、Microsoft 365 や Office 365 のさまざまなサー�
 
 - 条件付きアクセスを使用して、Teams や Exchange のコンプライアンス ポリシーの構成を制御および保護します。 詳細については、「[Teams に条件付きアクセス ポリシーはどのように機能しますか?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)」を参照してください
 
-- すべての会議のディスカッションを確実に検出できるというコンプライアンス要件が組織にある場合、開催者に Exchange オンプレミス メールボックスがある場合は、プライベート会議を無効にする必要があります。 詳細については、「プライベート会議のスケジュール [設定」を参照してください](./meeting-policies-in-teams-general.md#private-meeting-scheduling)。
+- すべての会議のディスカッションを確実に検出できるというコンプライアンス要件が組織にある場合、開催者に Exchange オンプレミス メールボックスがある場合は、プライベート会議を無効にする必要があります。 詳細については、「プライベート会議の [スケジュール」を参照してください](./meeting-policies-in-teams-general.md#private-meeting-scheduling)。
 
 - Exchange ハイブリッド展開では、チャット参加者が使用するメールボックスがクラウド ベースかオンプレミスかにかかわらず、チャット メッセージのコンテンツは検索可能です。 詳細については、「[オンプレミス ユーザーのクラウドベース メールボックスの検索](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)」を参照してください。 Teams でコンテンツを検索する方法については、「[Microsoft 365 コンプライアンス センターのコンテンツ検索](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)」を参照してください。
 

@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 大規模な組織の自動応答を設定してテストする方法についてMicrosoft Teams。
-ms.openlocfilehash: 1b212edfc750210aa7ab66bb0184dfa07541280e
-ms.sourcegitcommit: 4af3638637456f21bc97f510ed9d2f7ff2da07e2
+ms.openlocfilehash: 3a501ee9cdea0cf04466be1cbbd9c8f4407a9842
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/19/2022
-ms.locfileid: "63660592"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711921"
 ---
 # <a name="set-up-an-auto-attendant"></a>自動応答を設定する
 
@@ -149,6 +149,8 @@ ms.locfileid: "63660592"
 
 > [!NOTE]
 > [名前でダイヤル] 機能と  [内線番号によるダイヤル] 機能の両方を使用する場合は、メインの自動応答でダイヤル キーを割り当て、名前でダイヤルが有効になっている自動応答に到達 **できます**。 その自動応答内で、1 つのキー (関連付けられている文字がない) を割り当て、内線番号によるダイヤル自動応答 **に** 到達できます。
+
+詳細については [、「ダイヤルと音声リファレンス](dial-voice-reference.md) 」を参照してください。
 
 ディレクトリ検索オプションを選択したら、[ **次** へ] を **選択します**。
 

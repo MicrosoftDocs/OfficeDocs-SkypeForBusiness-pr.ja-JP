@@ -1,5 +1,5 @@
 ---
-title: チャネル ポリシーを管理Microsoft Teams
+title: チャネル ポリシーを管理する Microsoft Teams
 author: MikePlumleyMSFT
 ms.author: mikeplum
 manager: serdars
@@ -24,20 +24,31 @@ ms.custom:
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
 description: 組織内のチーム チャネル ポリシーを使用して管理し、ユーザーがチームやチャネルで実行できる操作を制御する方法について説明します。
-ms.openlocfilehash: 787978d6863a66b39c75f3f2c7315fe1495730c3
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 5acac362485b1004e1db61229c437810fdbcbc6d
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605613"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711781"
 ---
-# <a name="manage-channel-policies-in-microsoft-teams"></a>チャネル ポリシーを管理Microsoft Teams
+# <a name="manage-channel-policies-in-microsoft-teams"></a>チャネル ポリシーを管理する Microsoft Teams
 
-管理者は、Microsoft Teams でチーム ポリシーを使用して、チームやチャネルで組織のユーザーが実行できる操作を制御できます。 たとえば、ユーザーがプライベート チャネルを作成できるかどうかを設定できます。
+管理者は、組織内のユーザーがチームMicrosoft Teamsチャネルで実行できる操作を管理するために、組織のポリシーを使用できます。 たとえば、ユーザーがプライベート チャネルと共有チャネルの作成を許可するかどうかを設定できます。
 
 チーム ポリシーを管理するには、Microsoft Teams 管理センターで **[Teams]** > **[チーム ポリシー]** の順に移動します。 グローバル (組織全体の既定) ポリシーを使用ことも、カスタム ポリシーを作成して割り当てることもできます。 カスタム ポリシーを作成して割り当てていない場合、組織内のユーザーにはグローバル ポリシーが自動的に適用されます。
 
-グローバル ポリシーを編集するか、カスタム ポリシーを作成して割り当てることもできます。 グローバル ポリシーを編集するか、ポリシーを割り当てると、変更が有効なまで数時間かかる場合があります。
+グローバル ポリシーを編集するか、カスタム ポリシーを作成して割り当てることもできます。 グローバル ポリシーを編集するか、ポリシーを割り当てると、変更が有効になるまで 24 時間かかる場合があります。
+
+## <a name="channel-policies"></a>チャネル ポリシー
+
+Teams チャネルでは、次のポリシーを使用できます。
+
+|ポリシー|説明|
+|:-----|:----------|
+|**プライベート チャネルを作成する**|オン **の場合**、チーム所有者とメンバーはプライベート チャネルを作成できます。 (チーム所有者は、メンバーが各チームでプライベート チャネルを作成できるのを制御できます)。|
+|**共有チャネルを作成する**|オン **の場合**、チーム所有者は共有チャネルを作成できます。 Teams利用可能なアプリは、共有チャネルでも利用できます。|
+|**外部ユーザーを共有チャネルに招待する**|オン **の** 場合、共有チャネルの所有者とメンバーは、組織間の信頼が構成されている組織から外部参加者を招待できます。 Teamsのポリシーは、これらのチャネルに適用されます。|
+|**外部共有チャネルに参加する**|オン **の** 場合、ユーザーは、組織間の信頼が構成されている他の組織によって作成された共有チャネルに参加できます。 Teams組織のポリシーは、これらのチャネルに適用されます。|
 
 ## <a name="create-a-custom-teams-policy"></a>カスタムのチーム ポリシーを作成する
 
@@ -46,7 +57,7 @@ ms.locfileid: "60605613"
 3. ポリシーの名前と説明を入力します。
 
     ![Teams のポリシー設定のスクリーンショット。](media/teams-policies.png)
-4. ユーザーにプライベート チャネルの **作成**<a name="createchannels"></a>を許可するかどうかに応じて、[プライベート チャネルの作成] をオンまたはオフにします。
+4. 希望する設定をオンまたはオフにしてから、**[保存]** をクリックします。
 
 5. **[保存]** をクリックします。
 
@@ -62,7 +73,7 @@ ms.locfileid: "60605613"
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Teams 接続済みサイトとチャネル サイトの管理](/SharePoint/teams-connected-sites)
 

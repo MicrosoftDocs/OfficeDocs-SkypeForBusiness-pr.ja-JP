@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Power Platform Teams、Power Apps、Power Automate、Power BI などの Microsoft Power Platform ツールとの統合について説明Power Virtual Agents。
-ms.openlocfilehash: f902e0a137f5a5f996623a9207e9e192b90bb6b7
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: a89068e5e70387275e21e2d5f8167980c57f51ee
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442493"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711271"
 ---
 # <a name="teams-integration-with-microsoft-power-platform"></a>Teams Microsoft Power Platform との統合
 
@@ -39,7 +39,10 @@ Microsoft Power Platform には、Teams ワークスペースに Power BI レポ
 - アプリとサービスの間で自動化されたワークフローを作成して、ファイルの同期、通知の取得、データの収集など、データの収集 **Power Automate。**
 - **Power Virtual Agents** を使用してガイド付きのコードなしグラフィカル インターフェイスを使用してボットを構築し、Teams 内でデジタル アシスタントを簡単に作成し、同僚がチャットを行うことができます。
 
-アプリ、ボット、ワークフローを作成する新しい機能は、Teams、[dataverse for Teams](/powerapps/teams/overview-data-platform) 用の新しい組み込みの低コード データ プラットフォームによって支え、リレーショナル データ ストレージ、リッチ データ型、エンタープライズ グレードのガバナンス、およびワンクリック ソリューションデプロイを提供します。 Dataverse for Teamsは[、Microsoft Dataverse の上に構築されます](/powerapps/maker/common-data-service/data-platform-intro)。 Teams 用 Dataverse を使用すると、Teams ユーザーは、Teams アプリ ストアから、業界全体の一般的なシナリオを紹介するカスタムのすぐに使用できるソリューションを見つけてインストールできます。 これらのカスタム ソリューションをカスタマイズして拡張し、組織のブランドと要件に合わせて調整できます。
+アプリ、ボット、ワークフローを作成する新しい機能は、Teams、[dataverse for Teams](/powerapps/teams/overview-data-platform) 用の新しい組み込みの低コード データ プラットフォームによって支え、リレーショナル データ ストレージ、リッチ データ型、エンタープライズ グレードのガバナンス、およびワンクリック ソリューションデプロイを提供します。
+
+Dataverse for Teamsは[、Microsoft Dataverse の上に構築されます](/powerapps/maker/common-data-service/data-platform-intro)。 Teamsユーザーは、業界全体の一般的なシナリオを紹介する Teams アプリ ストアから、すぐに使用できるカスタム ソリューションを見つけてインストールできます。
+これらのカスタム ソリューションをカスタマイズして拡張し、組織のブランドと要件に合わせて調整できます。
 
 ## <a name="licensing"></a>ライセンス
 
@@ -54,3 +57,6 @@ Microsoft Power Platform には、Teams ワークスペースに Power BI レポ
 - [Power AppsとTeams](/powerapps/teams/overview)
 - [Power AutomateとTeams](/power-automate/teams/overview)
 - [Power Virtual AgentsとTeams](/power-virtual-agents/teams/fundamentals-what-is-power-virtual-agents-teams)
+
+<!--- TBD: Remove this article from admin doc set. Belongs in dev doc set.
+--->

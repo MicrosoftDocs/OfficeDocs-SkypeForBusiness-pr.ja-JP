@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 727425a1dfcd1ea4ebeec27cc79982d996db42fa
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 523d35fd1e7981a52e5972232f0c00c276435f7f
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596381"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711881"
 ---
 # <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Microsoft Teams でチームを編成するためのベスト プラクティス
 
@@ -47,7 +47,7 @@ ms.locfileid: "58596381"
 
 ベストプラクティス: メンバー数が多く、多くのチャネルを持つチームを作成します。 ユーザーが参加する必要があるチームの数を最小限に抑えます。 チーム内のチャネルは、チームが共同の目的を達成するための作業を整理するのに役立つような、トピックまたはワークストリームと考える必要があります。 作成しなければならない特定のチャネル数はありません。 各チームは各自の作業、優先順位、スタイルに基づいてチャネルを策定する必要があります。
 
-チームの全員が投稿できる会話には標準チャネルを使用します。 選択したメンバー グループによる集中コラボレーション スペースが必要な場合は、[Teams のプライベート チャネル](private-channels.md)を利用できます。
+チームの全員が投稿できる会話には標準チャネルを使用します。 チーム メンバーの [一部のグループ](private-channels.md) と集中したコラボレーション スペースが必要な場合は、プライベート チャネルを活用します。 チーム [外のユーザー](shared-channels.md) と共同作業する必要がある場合は、共有チャネルを使用します。
 
 大規模な組織では、特定の種類の作業に関する情報を標準化するために、「テンプレート」としてチームを作成できます。 これは、戦略的な顧客管理、教室管理、医療機関向けのシナリオ、損害管理、インシデント管理、特定の業界に固有のその他のシナリオで役立ちます。 詳細については、「[Teams のテンプレートを使ってみる](get-started-with-teams-templates.md)」と「[中小企業向けの Teams テンプレート](smb-templates.md)」を参照してください。
 

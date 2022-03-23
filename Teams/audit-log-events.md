@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Microsoft 365 コンプライアンス センターの監査ログから Microsoft Teams のデータを取得する方法をご紹介します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7eec47d0ed2d2a299c930edee2e849c8eb20b8db
-ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
+ms.openlocfilehash: cdca912b77969e4157af641076dc683c3d17921c
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "61620491"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711331"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft Teams でイベントの監査ログを検索する
 
@@ -35,7 +35,7 @@ ms.locfileid: "61620491"
 - チャネルの削除
 - チャンネル設定の変更
 
-監査されるアクティビティの完全なTeams、アクティビティの詳細Teamsアクティビティとシフトに[](#teams-activities)関するページ[Teamsしてください](#shifts-in-teams-activities)。
+監査されるアクティビティの完全なTeamsについては、「監査アクティビティのTeamsシフト」を[](#teams-activities)[Teamsしてください](#shifts-in-teams-activities)。
 
 > [!NOTE]
 > プライベート チャネルからの監査イベントも、チームや標準チャネルの場合と同様に記録されます。
@@ -104,8 +104,9 @@ ms.locfileid: "61620491"
 |削除されたアプリ |AppDeletedFromCatalog           |カタログからアプリが削除されました。     |
 |チャネルの削除     |ChannelDeleted         |ユーザーがチームからチャネルを削除しました。         |
 |チームの削除  |TeamDeleted            |チーム所有者がチームを削除しました。      |
-|メッセージの URL リンクを含むメッセージを編集Teams     |MessageEditedHasLink         |ユーザーがメッセージを編集し、メッセージに URL リンクを追加Teams。         |
+|メッセージの URL リンクを含むメッセージを編集Teams     |MessageEditedHasLink         |ユーザーがメッセージを編集し、そのメッセージに URL リンクを追加Teams。         |
 |エクスポートされたメッセージ <sup>1、 </sup> <sup>2</sup> |    MessagesExported |チャットまたはチャネル メッセージがエクスポートされた。|
+|共有チャネルへの招待を検証できなかった<sup>3</sup> | FailedValidation |ユーザーは共有チャネルへの招待に応答しますが、招待の検証に失敗しました。 |
 |フェッチされたチャット <sup>1、 </sup> <sup>2</sup>   |ChatRetrieved  |チャットMicrosoft Teams取得されました。|
 |メッセージ <sup>1 </sup>、2 のすべてのホステッド コンテンツ <sup>をフェッチしました</sup> |MessageHostedContentsListed    |画像やコード スニペットなど、メッセージ内のすべてのホストされたコンテンツが取得されました。|
 |インストールされたアプリ |AppInstalled         |アプリがインストールされました。   |
@@ -117,12 +118,17 @@ ms.locfileid: "61620491"
 |チームからのボットの削除   |BotRemovedFromTeam         |ユーザーがチームからボットを削除しました。       |
 |コネクタの削除     |ConnectorRemoved         |ユーザーがチャネルからコネクタを削除しました。         |
 |メンバーの削除    |MemberRemoved        |チームの所有者が、チーム、チャネル、またはグループ チャットからメンバーを削除しました。         |
+|チーム チャネルの共有を削除<sup>しました3</sup> | TerminatedSharing |チームまたはチャネルの所有者が共有チャネルの共有を無効にしました。 |
+|チーム チャネルの共有の復元<sup>3</sup> | SharingRestored | チームまたはチャネルの所有者は、共有チャネルの共有を再び有効にします。 |
 |タブの削除    |TabRemoved         |ユーザーがチャネルからタブを削除しました。         |
+|共有チャネルの招待に応答<sup>しました3</sup> | InviteeResponded | ユーザーが共有チャネルの招待に応答しました。 |
+|共有チャネルへの招待者の応答に応答<sup>しました3</sup> | ChannelOwnerResponded |チャネル所有者は、共有チャネルの招待に応答したユーザーからの応答に応答しました。 |
 |取得したメッセージ <sup>1、 </sup> <sup>2</sup> |MessagesListed |チャットまたはチャネルからのメッセージが取得されました。|
 |URL リンクを含むメッセージを送信しました Teams |MessageCreatedHasLink|ユーザーは、URL リンクを含むメッセージを Teams。|
 |メッセージ作成 <sup>1 </sup>、2 の変更通知 <sup>を送信しました</sup>  |MessageCreatedNotification |サブスクライブしているリスナー アプリケーションに新しいメッセージを通知する変更通知が送信されました。|
 |メッセージ削除の変更通知を送信<sup>しました 1,2 </sup> <sup></sup>  |MessageDeletedNotification |削除されたメッセージをサブスクライブしているリスナー アプリケーションに通知する変更通知が送信されました。|
 |メッセージ更新プログラム 1、2 の <sup>変更通知を送信 </sup> <sup>しました</sup>    |MessageUpdatedNotification |サブスクライブしているリスナー アプリケーションに更新されたメッセージを通知する変更通知が送信されました。|
+|共有チャネルの招待を送信<sup>しました3</sup> | InviteSent |チャネルの所有者またはメンバーが共有チャネルに招待を送信します。 チャネル ポリシーがチャネルを外部ユーザーと共有するように構成されている場合、共有チャネルへの招待を組織外のユーザーに送信できます。  |
 |メッセージ変更通知のサブスクライブ <sup>1、 </sup> <sup>2</sup> |SubscribedToMessages   |メッセージの変更通知を受け取るリスナー アプリケーションによってサブスクリプションが作成されました。|
 |削除されたアプリ |AppUninstalled           |アプリがアンインストールされました。     |
 |更新されたアプリ |AppUpdatedInCatalog           |アプリがカタログで更新されました。     |
@@ -132,10 +138,10 @@ ms.locfileid: "61620491"
 |タブの更新   |TabUpdated         |ユーザーがチャネルのタブを変更しました。         |
 |アップグレードされたアプリ |AppUpgraded           |アプリがカタログで最新版にアップグレードされました。     |
 |Teams へのユーザーのサインイン     |TeamsSessionStarted         |ユーザーが Microsoft Teams クライアントにサインインしました。 このイベントは、トークン更新アクティビティをキャプチャしません。         |
-
+||||
 
 > [!NOTE]
-> <sup>1</sup> このイベントの監査レコードは、Microsoft Graph API を呼び出すことによって操作が実行された場合にのみ記録されます。 クライアントで操作が実行Teams、監査レコードはログに記録されません。<br/><br/><sup>2</sup> このイベントは、高度な監査でのみ使用できます。 つまり、これらのイベントが監査ログに記録される前に、ユーザーに適切なライセンスが割り当てられている必要があります。 高度な監査でのみ使用できるアクティビティの詳細については、「Advanced [Audit in Microsoft 365」を参照してください](/microsoft-365/compliance/advanced-audit#advanced-audit-events)。 高度な監査ライセンス要件については、「監査ソリューションの監査」を参照[Microsoft 365](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)。
+> <sup>1</sup> このイベントの監査レコードは、Microsoft Graph API を呼び出して操作が実行された場合にのみ記録されます。 クライアントで操作が実行Teams監査レコードはログに記録されません。<br/><sup>2</sup> このイベントは、高度な監査でのみ使用できます。 つまり、これらのイベントが監査ログに記録される前に、ユーザーに適切なライセンスが割り当てられている必要があります。 高度な監査でのみ使用できるアクティビティの詳細については、「Advanced [Audit in Microsoft 365」を参照してください](/microsoft-365/compliance/advanced-audit#advanced-audit-events)。 高度な監査ライセンス要件については、「監査ソリューションの監査」を[参照Microsoft 365](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)。 <br/> <sup>3</sup> このイベントはパブリック プレビュー中です。
 
 ## <a name="shifts-in-teams-activities"></a>Teams アクティビティにサインイン
 
@@ -185,7 +191,7 @@ Azure Active Directory (Azure AD)、Microsoft 365 管理センター、または
 
 [Microsoft Defender for Cloud Apps](/cloud-app-security/what-is-cloud-app-security) の統合を使用すると、[](/cloud-app-security/user-activity-policies)アプリ プロバイダーの API を使用して、さまざまな自動化されたプロセスを適用するアクティビティ ポリシーを設定できます。 これらのポリシーにより、さまざまなユーザーが行う特定のアクティビティを監視したり、予想外に高率で発生する特定のタイプのアクティビティをフォローしたりすることができます。
 
-アクティビティ検出ポリシーを設定すると、アラートの生成を開始します。 アラートは、ポリシーを作成した後に発生したアクティビティに対してのみ生成されます。 Cloud Apps の Defender でアクティビティ ポリシーを使用してアクティビティを監視する方法のシナリオTeamsします。
+アクティビティ検出ポリシーを設定すると、アラートの生成を開始します。 アラートは、ポリシーを作成した後に発生したアクティビティに対してのみ生成されます。 以下に、Defender for Cloud Apps のアクティビティ ポリシーを使用してアクティビティを監視する方法のシナリオTeams示します。
 
 ### <a name="external-user-scenario"></a>外部ユーザーのシナリオ
 

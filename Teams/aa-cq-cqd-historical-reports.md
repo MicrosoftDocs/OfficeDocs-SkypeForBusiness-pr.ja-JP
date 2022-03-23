@@ -21,13 +21,13 @@ ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-description: 通話品質ダッシュボード レポートを使用して、通話Power BI履歴データ自動応答を表示する方法について説明します。
-ms.openlocfilehash: bb83a31b083387bc945f7f4b4388ee6643c00f10
-ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
+description: 通話品質ダッシュボードレポートを使用して、Power BI履歴データ自動応答を表示する方法について説明します。
+ms.openlocfilehash: 57552af3a1df108dbbf86172793bb9ea86ed1b10
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "62921875"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711491"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>自動応答 &キュー履歴レポート
 
@@ -44,7 +44,7 @@ ms.locfileid: "62921875"
 ### <a name="power-bi-desktop"></a>Power BI Desktop
 インストールする必要Power BI Desktopがあります。 Microsoft Windows [Store からインストールできます](https://aka.ms/pbidesktopstore)。
 
-無料版の Power BI Desktop。 互換性のある最小バージョンは 2.85.681.0 (2020 年 9 月) です。
+無料バージョンの Power BI Desktop。 互換性のある最小バージョンは 2.85.681.0 (2020 年 9 月) です。
 
 ### <a name="permissions-to-access-the-cqd-pipeline"></a>CQD パイプラインにアクセスするためのアクセス許可
 
@@ -52,11 +52,11 @@ ms.locfileid: "62921875"
 
 ## <a name="installation"></a>インストール 
 
-次の手順では、コンピューターに Power BI Desktop が既にインストールされ、CQD データ パイプラインにアクセスするために必要なアクセス許可がアカウントに付与されていることを前提とします。
+次の手順では、コンピューターに Power BI Desktop がインストール済みであり、CQD データ パイプラインにアクセスするために必要なアクセス許可がアカウントに付与されていることを前提とします。
 
 次の手順を実行します。
 
-- [CQD クエリ テンプレートPower BIダウンロード](https://www.microsoft.com/download/details.aspx?id=102291)し、zip ファイルをコンピューター上のディレクトリに保存します。
+- [CQD Power BI クエリ テンプレートをダウンロード](https://www.microsoft.com/download/details.aspx?id=102291)し、zip ファイルをコンピューター上のディレクトリに保存します。
 
 - zip ファイルをダブルクリックして開きます。
 
@@ -79,7 +79,7 @@ ms.locfileid: "62921875"
 
  - レポートが起動し、サンプル データが表示されます。
  
- - 独自のデータを表示するには、[クエリ] の [ホーム] タブで [最新の情報に更新] Power BI Desktop。
+ - 独自のデータを表示するには、[ホーム] タブの [クエリ] で [更新] を選択Power BI Desktop。
 
    :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="更新オプションを選択したスクリーンショット。":::
 
@@ -158,10 +158,10 @@ ms.locfileid: "62921875"
 |名前                                    |データ型                |説明                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
 |AA 名                                 |テキスト                     |リソース にアタッチされているリソース アカウント自動応答<br><br>完全なリソース アカウント名が指定されている **aa_test@microsoft.com** 、この値は次の値 **aa_test** |
-|AACallerActionCount                     |数値を指定します。             |要約: 合計<br>通話中に呼び出し元によって自動応答されたアクションの数  |
+|AACallerActionCount                     |数値を指定します。             |要約: 合計<br>通話中に呼び出し元によって選択自動応答アクションの数  |
 |AACallFlow                              |テキスト                     |呼び出しの異なる状態自動応答可能な値をカプセル化します。<br><br>§ abs_search<br>§ announcement<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
 |AACallResult                            |テキスト                     |最終的な呼び出し結果 -- 指定可能な値:<br><br>§ failed_to_establish_media<br>§ failover_to_operator<br>§ oaa_chain_too_long<br>§ oaa_session_too_long<br>§ service_declined<br>§ service_terminated<br>§ terminated_automatic_selection<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>***§ transferred_to_operator***<br>§ transferred_to_receptionist<br>§ transferred_to_self<br>§ transferred_to_shared_voicemail<br>§ transferred_to_user<br>§ unknown<br>§ user_terminated |
-|AAChainDuration                         |10 進数           |要約: 合計<br>通話時間 (自動応答                     |
+|AAChainDuration                         |10 進数           |要約: 合計<br>自動応答 での通話の自動応答                     |
 |AAChainIndex                            |テキスト                     |                                                                         |
 |AAConnectivityType                      |テキスト                     |呼び出しの種類 -- 指定可能な値:<br><br>§ ExternalCall<br>§ InternalCall |
 |AACount                                 |テキスト                     |通話に関係する自動応答の数                               |
@@ -204,11 +204,11 @@ ms.locfileid: "62921875"
 |レポート セクション                      |Table -> フィールドの使用                |適用されたフィルター       |
 |:-----------------------------------|:-------------------------------------|:---------------------|
 |日付セレクター                       |Dates -> DateTime                     |なし                  |
-|キュー ID の呼び出し                 |dCQ-CQIdentity -> 呼び出しキュー ID |なし                  |
+|キュー ID の呼び出し                 |dCQ-CQIdentity -> Call Queue Identity |なし                  |
 |着信通話ソース <sup>1</sup>    |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> 呼び出しの種類    |外部呼び出し: 通話の種類は外部<br>内部呼び出し: 呼び出しの種類は内部です |
-|平均待機時間                    |fCallQueueFinalStateAction ->平均呼び出し時間 (秒) |転送前: 通話キュー呼び出しの結果がagent_joined_conferenceまたはtransferred_to_agent<br>電話を切る前: 通話キュー呼び出しの結果がagent_joined_conferenceまたはtransferred_to_agent |
+|平均待機時間                    |fCallQueueFinalStateAction ->平均呼び出し期間 (秒) |転送前: 通話キュー呼び出しの結果がagent_joined_conferenceまたはtransferred_to_agent<br>電話を切る前: 通話キュー呼び出しの結果がagent_joined_conferenceまたはtransferred_to_agent |
 |呼び出し結果                         |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Call Result | なし |
-|Timeout/Overflow 呼び出しの合計アクション |fCallQueueFinalStateAction -> Call Count<br>fCallQueueFinalStateAction -> Call Queue Final State Action |呼び出しキューの最終状態アクションが転送されない |
+|Timeout/Overflow 呼び出しの合計アクション |fCallQueueFinalStateAction -> Call Count<br>fCallQueueFinalStateAction -> 呼び出しキューの最終状態アクション |呼び出しキューの最終状態アクションが転送されない |
 |転送/Forard ターゲットの合計       |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Target Type |なし |
 |通話ボリューム                        |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Identify<br>fCallQueueAnalytics -> Date |なし |
 |破棄された呼び出し                     |fCallQueueAnalytics -> %Abandoned Calls<br>fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Date<br>fCallQueueAnalytics -> IsAbandoned |IsAbandoned は True です |
@@ -218,7 +218,7 @@ ms.locfileid: "62921875"
 
 |名前                                    |データ型                |説明                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|キュー ID の呼び出し                     |テキスト                     |通話キューに接続されているリソース アカウントの名前<br><br>完全なリソース アカウント名が指定されている **cq_test@microsoft.com** 、この値は次 **の値cq_test** |
+|キュー ID の呼び出し                     |テキスト                     |通話キューに接続されているリソース アカウントの名前<br><br>完全なリソース アカウント名が指定されている **cq_test@microsoft.com** 、この値は次の値 **cq_test** |
 
 #### <a name="fcallqueueanalytics-cqd-fields-description"></a>fCallQueueAnalytics CQD フィールドの説明
 
@@ -226,7 +226,7 @@ ms.locfileid: "62921875"
 |:---------------------------------------|:------------------------|:--------------------------------------------------------------------------|
 |通話数                              |数値を指定します。             |要約: 合計<br>通話の数                                          |
 |キュー呼び出しの結果を呼び出す                  |テキスト                     |呼び出しキュー呼び出しの最終状態 -- 可能な値:<br><br>§ agent_joined_conference<br>§ declined<br>§ disconnected<br>§ error<br>§ failed<br>§ invalid<br>§ overflown<br>§ timed_out<br>§ transferred_to_agent |
-|キュー ID の呼び出し                     |テキスト                     |通話キューに接続されているリソース アカウントの名前<br><br>完全なリソース アカウント名が指定されている **cq_test@microsoft.com** 、この値は次 **の値cq_test** |
+|キュー ID の呼び出し                     |テキスト                     |通話キューに接続されているリソース アカウントの名前<br><br>完全なリソース アカウント名が指定されている **cq_test@microsoft.com** 、この値は次の値 **cq_test** |
 |呼び出しキュー ターゲットの種類                  |テキスト                     |***呼び出しリダイレクトターゲットの種類 -- 可能な値:***<br><br>§ ApplicationEndpoint<br>§ Mailbox<br>§ Other<br>§ User |
 |通話の種類 <sup>1</sup>                   |テキスト                     |呼び出しの種類 -- 指定可能な値:<br><br>§ External<br>§ Internal           |
 |日付                                    |日付/時刻                |通話キュー呼び出しの開始日時 (時間) (UTC)                           | 
@@ -250,7 +250,7 @@ ms.locfileid: "62921875"
 |通話数                              |数値を指定します。             |要約: 合計<br>通話の数                  |
 |キュー呼び出しの結果を呼び出す                  |テキスト                     |呼び出しキュー呼び出しの最終状態 -- 可能な値:<br><br>§ agent_joined_conference<br>§ declined<br>§ disconnected<br>§ error<br>§ failed<br>§ invalid<br>§ overflown<br>§ timed_out<br>§ transferred_to_agent |
 |呼び出しキューの最終状態アクション           |テキスト                     |呼び出しキューの最終的なアクション -- 可能な値:<br><br>§ disconnect (timed_out 呼び出し)<br>§ disconnect_with_busy (オーバーフローした呼び出し)<br>§ failed_to_accept_call<br>§ forward<br>§ shared_voicemail<br>§ other<br>§ ボイスメール |
-|キュー ID の呼び出し                     |テキスト                     |通話キューに接続されているリソース アカウントの名前<br><br>完全なリソース アカウント名が指定されている **cq_test@microsoft.com** 、この値は次 **の値cq_test** |
+|キュー ID の呼び出し                     |テキスト                     |通話キューに接続されているリソース アカウントの名前<br><br>完全なリソース アカウント名が指定されている **cq_test@microsoft.com** 、この値は次の値 **cq_test** |
 |日付                                    |日付/時刻                |通話キュー呼び出しの開始日時 (時間) (UTC)   |
 |IsAbandoned                             |True/false               |エージェントが呼び出しに応答しない場合は true           |
 
@@ -289,10 +289,10 @@ ms.locfileid: "62921875"
 |名前                                    |データ型                |説明                                         |
 |:---------------------------------------|:------------------------|:---------------------------------------------------|
 |エージェント名                              |テキスト                     |User UPN<br>完全なユーザー名が有効 **user@microsoft.com** 、次の値は **user になります。** |
-|平均通話時間 (秒)          |10 進数           |要約: 合計<br>通話キュー呼び出しの平均継続時間 (秒) |
-|通話数                              |数値を指定します。             |要約: 合計<br>エージェントによって処理される呼び出しの数                    |
-|通話時間 (分)                  |数値を指定します。             |要約: 合計<br>通話キュー呼び出しの合計通話時間 (分単位)  |
-|通話キュー名                         |テキスト                     |通話キューに接続されているリソース アカウントの名前<br><br>完全なリソース アカウント名が指定されている **cq_test@microsoft.com** 、この値は次 **の値cq_test** |
+|平均通話時間 (秒)          |10 進数           |要約: 合計<br>応答された通話キュー呼び出しの平均継続時間 (秒) |
+|通話数                              |数値を指定します。             |要約: 合計<br>エージェントによって提示および応答された呼び出しの数     |
+|通話時間 (分)                  |数値を指定します。             |要約: 合計<br>応答した通話キュー呼び出しの合計通話時間 (分単位) (最も近い分に切り捨て)  |
+|通話キュー名                         |テキスト                     |通話キューに接続されているリソース アカウントの名前<br><br>完全なリソース アカウント名が指定されている **cq_test@microsoft.com** 、この値は次の値 **cq_test** |
 |日付                                    |日付                     |                                                    |
 
 
@@ -306,6 +306,6 @@ ms.locfileid: "62921875"
 
 - 通話キュー/自動応答データは個人データと見なされ、データプライバシー保持ポリシーの対象となるので、ダッシュボードで使用できる履歴は 28 日間のみです。
 
-- シナリオによっては、エージェントが Cloud Call Queue Agent Timeline レポートの呼び出し回数に応答した場合、クライアントの通話履歴に表示される呼び出しの数Teams異なる場合があります。 クライアントTeamsの呼び出し履歴が正しい。 サポートは調査中ですが、現時点では修復できる予定時間はありません。
+- シナリオによっては、エージェントが Cloud Call Queue Agent Timeline レポートの呼び出し回数に応答した場合、クライアントの通話履歴に表示される呼び出しの数Teams異なる場合があります。 クライアントTeams履歴が正しい場合。 サポートは調査中ですが、現時点では修復できる予定時間はありません。
 
 - <sup>1</sup> **自動応答の着信通話ソース** と通話キュー グラフには、初期呼び出しの読み取り元ではなく、最終的な通話の読み取り元が表示されます。 たとえば、自動応答が外部通話を受信し、その通話を別の自動応答または通話キューに転送した場合、着信通話ソースは内部として報告されます。

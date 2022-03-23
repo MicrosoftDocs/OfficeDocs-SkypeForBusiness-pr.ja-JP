@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6c18871756c8081b7013666d98d1599cfec4117f
-ms.sourcegitcommit: b635f3765498ae23f535a33fa9ffea5068eecb14
+ms.openlocfilehash: f70378e2be1dd47126ee3d83009759c63643ae2f
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "63463740"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711761"
 ---
 # <a name="skype-for-business-online-retirement"></a>Skype for Business Online のサポート終了
 
@@ -31,9 +31,7 @@ ms.locfileid: "63463740"
 
 ## <a name="why-is-skype-for-business-online-retiring"></a>Skype for Business Online が廃止される理由
 
-導入以来、Skype for Business Online は世界中の何百万人ものユーザーにとって貴重なツールでした。 インスタント メッセージング、通話、ビデオを組み合わせることで、Skype for Business Online はビジネスコミュニケーションの新しい可能性を確立しました。 Teamsは、そのビジョンの次の章です。 
-
-この機能は、Microsoft Teams Online の機能Skype for Business超えるものです。 継続的なプラットフォームの革新と開発は、Teams、機能、柔軟性、およびセキュリティの恩恵を受けるユーザーを意味します。 次の機能を 1 つのエクスペリエンスに組み合わせることでTeams新しい作業方法が可能になります。
+導入以来、Skype for Business Online は世界中の何百万人ものユーザーにとって貴重なツールでした。 インスタント メッセージング、通話、ビデオを組み合わせることで、Skype for Business Online はビジネスコミュニケーションの新しい可能性を確立しました。 Teamsは、そのビジョンの次の章です。  この機能は、Microsoft Teams Online の機能Skype for Business超えるものです。 継続的なプラットフォームの革新と開発は、Teams、機能、柔軟性、およびセキュリティの恩恵を受けるユーザーを意味します。 次の機能を 1 つのエクスペリエンスに組み合わせることでTeams新しい作業方法が可能になります。
 
 - チャット
 - ビデオ
@@ -43,15 +41,13 @@ ms.locfileid: "63463740"
 
 Teamsは、Skype for Business Online のアップグレード以上のものです。 これは、学校や組織の俊敏性を高め、主要なワークフローの効率を向上させる強力なツールです。 詳細については、「Forrester[™](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf?rtc=1) の総経済的影響」Teamsホワイト ペーパーを参照してください。このホワイト ペーパーでは、Microsoft Teams。
 
-Skype for Business Online の提供Skype for Businessについては、「FAQ - Skype for Business から Microsoft Teams」[を参照してください](FAQ-journey.yml)。
-
 ## <a name="organizations-with-skype-for-business-online"></a>Skype for Business Online を使用している組織
 
 Microsoft は、組織がオンライン ユーザーの残りのユーザーを [オンラインのみ] Skype for Business移行するための支援Teams提供しています。 Teamsは、ほとんどの Microsoft 365 Business プランと Enterprise プランで利用できます。また、既存のライセンス投資はビジネス プランにTeams。 現在 Skype for Business Online に含まれるプレミアム ワークロードの機能は Teams のプレミアム ワークロードとしても継続的に利用できます。 たとえば、電話会議をスタンドアロンで購入した場合、または Skype for Business を使用して E5 の一部として購入した場合、電話会議は Teams で有効になります。
 
 ## <a name="organizations-with-on-premises-deployments-of-skype-for-business-server"></a>オンプレミスにデプロイされた組織Skype for Business Server
 
-Skype for Business Online の提供が完了しても、Skype for Business Server Lync Server 2013 のオンプレミス 展開のサポートには影響しません。 ただし、オンラインとオンプレミスのユーザーが混在するハイブリッド顧客は、オンライン ユーザーをアップグレードする *必要* があります。 これらのオンライン ユーザーには、TeamsUpgradePolicy Teamsのみモードで割り当てる必要があります。 Microsoft は、オンライン ユーザーの残りのユーザーのアップグレードを自動化するための支援Skype for BusinessのみモードTeams提供しています。 ハイブリッド組織では、この提供が取 *り* やSkype for Business、オンプレミスのユーザーをクラウドに移行する必要があります。 Microsoft は、ハイブリッド組織とハイブリッド組織を完全にサポートTeamsユーザーとオンプレミスのユーザーのみをSkype for Businessしています。 Skype for Business Server または Lync Server 2013 のハイブリッド展開をお持ちのお客様は、「Skype for Business Online の提供が近日提供が予定されている場合の影響[」を確認する必要があります](/skypeforbusiness/hybrid/plan-hybrid-connectivity#implications-of-the-upcoming-retirement-of-skype-for-business-online)。
+Skype for Business Online の提供が完了しても、Skype for Business Server Lync Server 2013 のオンプレミス 展開のサポートには影響しません。 ただし、オンラインとオンプレミスのユーザーが混在するハイブリッド顧客は、オンライン ユーザーをアップグレードする *必要* があります。 これらのオンライン ユーザーには、TeamsUpgradePolicy Teamsのみモードで割り当てる必要があります。 Microsoft は、オンライン ユーザーの残りのユーザーのアップグレードを自動化するための支援Skype for BusinessのみモードTeams提供しています。 ハイブリッド組織では、この提供が取 *り* やSkype for Business、オンプレミスのユーザーをクラウドに移行する必要があります。 Microsoft は、ハイブリッド組織とハイブリッド組織を完全にサポートTeamsユーザーとオンプレミスのユーザーのみをSkype for Businessしています。 Skype for Business Server または Lync Server 2013 のハイブリッド展開をお持ちのお客様は、「Skype for Business Online の廃止の影響[」を確認する必要があります](/skypeforbusiness/hybrid/plan-hybrid-connectivity#implications-of-the-upcoming-retirement-of-skype-for-business-online)。
 
 ## <a name="what-to-expect-post-retirement"></a>提供提供後に期待する情報
 
@@ -87,7 +83,8 @@ Skype for Business Online の提供が完了しても、Skype for Business Serve
 
 - [Microsoft Teamsブログ](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog) - 新機能Teams導入と使用リソース、Teamsデバイス、他のビジネス アプリケーションとの統合に関するニュースを紹介します。
 
-現在オンラインのお客様の場合は、Skype for Businessにアップグレードする計画をTeamsしてください。 お客様が強力なコミュニケーション機能とコラボレーション機能を体験できると共に、お客様の支援に取り組み、取り組み中です。
+現在オンラインのお客様の場合は、Skype for Businessにアップグレードする計画をTeamsしてください。 お客様が強力なコミュニケーション機能とコラボレーション機能を体験できると共に、お客様の支援に取り組み、取り組み中です。  Skype for Business Online の提供Skype for Businessについては、「FAQ - Skype for Business から Microsoft Teams」[を参照してください](FAQ-journey.yml)。
+
 
 
 

@@ -13,12 +13,12 @@ ms.collection:
 description: PowerShell の最新の変更Teams説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e45a80f4e16c211ae37579dc7de273c53f64d16
-ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
+ms.openlocfilehash: dea6b9d93d3950d4a831fdf669a98e28028f3c41
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63435741"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711711"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell リリース ノート
 
@@ -31,6 +31,7 @@ ms.locfileid: "63435741"
 
 | 日付 | バージョン | 更新プログラム |
 |------- | -------------------- | ------------------------------ |
+| 2022 年 3 月 | [4.0.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.0.1-preview) |<li>ErrorAction 共通パラメーターに関する問題を修正しました。</li>
 | 2022 年 3 月 | [4.0.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.0.0) |<li>この GA リリースでは、組織に関連するすべてのコマンドレットの最新化Teams完了します。 最新バージョンは段階的に展開されます。そのため、一部の組織では引き続き古いリモート処理バージョンが表示されます。</li><li>GA の [NewSetRemove\|\|]-CsUserCallingDelegate コマンドレットと [GetSet\|]-CsUserCallingSettings コマンドレットをリリースします。</li><li>[BREAKING CHANGE]New-CsVoiceNormalizationRule を除く。InMemory スイッチは、他のコマンドレットではサポートされなくなりました。</li><li>ConvertTo-JsonForPSWS、 Set-CsUserServicesPolicy, [GetSet\|]-CsNetworkConfiguration, [SetRemove\|]-CsTenantNetworkConfiguration, New-CsNetworkMediaBypassConfiguration, [GetGrantNewRemoveSet\|\|\|\|]-CsTeamsVerticalPackagePolicy,[GetRemoveSet\|\|]-CsVoiceNormalizationRule。</li>
 | 2022 年 2 月 | [3.2.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/3.2.0-preview) |<li>このリリースでは、組織に関連するすべてのコマンドレットの最新化Teams完了します。 最新バージョンは段階的に展開されます。そのため、一部の組織では引き続き古いリモート処理バージョンが表示されます。</li><li>[BREAKING CHANGE]New-CsVoiceNormalizationRule を除く。InMemory スイッチは、他のコマンドレットではサポートされなくなりました。</li><li>Connect-MicrosoftTeamsパフォーマンスの向上。</li><li>プレフィックスを使用したImport-Module修正プログラム。</li><li>[GetSetRemove\|\|]-CsOnlineLisPort のスラッシュ文字 "/" を使用したポートの処理を修正しました。</li><li>このコマンドレットTest-CsTeamsUnassignedNumberTreatmentリリースします。</li><li>ConvertTo-JsonForPSWS、 Set-CsUserServicesPolicy, [GetSet\|]-CsNetworkConfiguration, [SetRemove\|]-CsTenantNetworkConfiguration, New-CsNetworkMediaBypassConfiguration, [GetGrantNewRemoveSet\|\|\|\|]-CsTeamsVerticalPackagePolicy, [GetRemoveSet\|\|]-CsVoiceNormalizationRule。</li>
 | 2022 年 2 月 | [3.1.1](https://www.powershellgallery.com/packages/MicrosoftTeams/3.1.1) |<li>Import-Module のパフォーマンスが向上しました。</li><li>PSListModifier の逆シリアル化の問題が修正されました。</li>

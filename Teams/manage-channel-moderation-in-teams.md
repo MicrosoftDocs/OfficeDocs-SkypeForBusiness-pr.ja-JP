@@ -18,21 +18,21 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: チーム メンバーをチャネルのモデレーターとして追加する方法を含む、Microsoft Teams でモデレート用にチャネルを設定する方法について説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4441eea880b5dcf1d71ca11f0ad32cf148f90cf4
-ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
+ms.openlocfilehash: b53a7d71fe7dfde77e9038ef4343539e2375985f
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "62960009"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711321"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Microsoft Teams でチャネルのモデレーションを設定および管理する
 
-チームMicrosoft Teams、標準チャネルのモデレーションを有効にし、新しい投稿を開始し、そのチャネルの投稿に返信できるユーザーを制御できます。
+このMicrosoft Teams、チーム所有者は標準チャネルのモデレーションを有効にし、新しい投稿を開始し、そのチャネルの投稿に返信できるユーザーを制御できます。
 
 チーム所有者は、チーム メンバーをモデレーターとして追加することもできます。 チーム所有者が、チャネルのモデレーションを最大限にサポートするためのチャネル レベルにおける領域の専門知識を持っていない場合もあります。 特定のチーム メンバーがチャネルをモデレートすることを許可することにより、チャネル内のコンテンツとコンテキストを管理する責任を、チーム所有者とチャネル モデレーターで共有できます。 たとえば、チーム所有者はモデレーターとしてビジネス オーナーまたはコンテンツ所有者を追加できます。これにより、対象チャネルで共有する情報を制御できます。
 
 > [!NOTE]
-> チャネル モデレーションは、標準チャネルで使用できます。 一般チャネルまたはプライベート チャネルでは使用できません。
+> チャネル モデレーションは、標準チャネルで使用できます。 これは、全般チャネルまたはプライベート チャネルまたは共有チャネルでは使用できません。
 
 ## <a name="what-can-a-channel-moderator-do"></a>チャネル モデレーターが行えること
 
@@ -62,7 +62,7 @@ ms.locfileid: "62960009"
 
 Teams でチャネルに移動し、**[その他のオプション...]** > **[チャネルを管理]** とクリックします。 ここでは、モデレーションを有効または無効にしたり、チーム メンバーをモデレーターとして追加したり、設定を行ったりすることができます。
 
-チャネルのモデレーションは、チャネルごとの設定です。 チャネルのモデレーションのテナント レベルの設定はありません。 テナント レベルのチャネル モデレーション設定を追加する場合は、フィードバック ポータルで要求Teams[します](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)。
+チャネルのモデレーションは、チャネルごとの設定です。 チャネルのモデレーションのテナント レベルの設定はありません。 テナント レベルのチャネル モデレーション設定を追加する場合は、フィードバック ポータルで要求[Teamsします](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)。
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 

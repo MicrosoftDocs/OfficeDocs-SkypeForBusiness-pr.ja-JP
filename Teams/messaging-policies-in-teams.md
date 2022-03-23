@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: メッセージング ポリシーについて、および Teams でメッセージング ポリシーを使用してチャット メッセージングを制御する方法について取り上げます。
-ms.openlocfilehash: 968e79952381b04f5165f285807cfe3a07237307
-ms.sourcegitcommit: abe942c294ed5fca70efdf039d38d611b9c21fe9
+ms.openlocfilehash: 9716fe3ba9a2162a3c6c85cfa61ef5541f34fb38
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63564769"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711721"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Teams でメッセージング ポリシーを管理する
 
@@ -109,7 +109,7 @@ ms.locfileid: "63564769"
 - **チャットのアクセス許可ロール** この設定を使用して、ユーザーの教師ありチャット ロールを定義します。  [監視付きチャット](supervise-chats-edu.md)の詳細をご覧ください。
 
 > [!NOTE]
-> Giphys などの一部の設定は、チームの所有者がチーム レベルで、プライベート チャネルの所有者がプライベート チャネル レベルでも構成できます。
+> Giphys の使用など、これらの設定の一部は、チーム所有者がチーム レベルで構成したり、チャネル所有者がプライベート または共有チャネル レベルで構成したりすることもできます。
 
 ### <a name="related-topics"></a>関連項目
 

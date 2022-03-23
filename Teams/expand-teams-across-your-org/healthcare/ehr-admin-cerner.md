@@ -23,16 +23,14 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Teams EHR コネクタを統合して、組織内の医療プロバイダーが Cerner EHR システムから直接 Teams で患者または他のプロバイダーと仮想訪問を行う方法について説明します。
-ms.openlocfilehash: d7f34be9729989f7930cc6f478738b43b716f6ac
-ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
+ms.openlocfilehash: 6c0f0020cbbee5ba6ecbb186681454b8d8b8a103
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63435881"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711751"
 ---
 # <a name="virtual-visits-with-teams---integration-into-cerner-ehr"></a>仮想アクセスと Teams - Cerner EHR への統合
-
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 Microsoft Teams電子健康記録 (EHR) コネクタを使用すると、医師は、Cerner EHR システムから直接、Microsoft Teams で仮想患者訪問を開始したり、別のプロバイダーと相談したりすることができます。 Microsoft 365 クラウド上に構築された Teams は、HIPAA、HITECH 認定などへの準拠をサポートする単一のハブで、チャット、ビデオ、音声、および医療ツールとの簡単で安全なコラボレーションと通信を可能にしています。
 

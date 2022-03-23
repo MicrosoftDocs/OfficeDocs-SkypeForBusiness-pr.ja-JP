@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f1dbd1d7c586c989484fa71b1e0b0e3d1fb47550
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
-ms.translationtype: HT
+ms.openlocfilehash: b6c370eee74266d2d24df4fa8e1e95904cd08386
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727406"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711291"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Teams のアイテム保持ポリシーを管理する
 
@@ -36,6 +36,9 @@ ms.locfileid: "58727406"
 Microsoft 365 のアイテム保持ポリシーと保持ラベルは、組織内の情報をより効果的に管理するのに役立ちます。 保持設定を構成して、組織の内部ポリシー、業界規制、または法的要件に準拠する必要のあるデータを保持します。 保持設定を構成して、責任があると見なされたデータ、保持する必要がなくなったデータ、または法的価値やビジネス価値のないデータを削除するためにも使用されます。
 
 Teams では、チャットやチャネルのメッセージ用にアイテム保持ポリシーを設定するサポートを行い、管理者としてデータを保持するか、削除するか、特定の期間保持した後に削除するかを前もって決定できます。 これらのアクションの保持期間の開始は、常にメッセージが作成されるタイミングに基づきます。 Teams のアイテム保持ポリシーは、組織全体に適用することも、特定のユーザーやチームに適用することもできます。 保持ラベルは、Teams ではサポートされていません。
+
+> [!NOTE]
+> [現在プレビュー](shared-channels.md)中の共有チャネルは、アイテム保持ポリシーでサポートされています。
 
 Microsoft 365 での保持ソリューションに関する詳細については、「[保持ポリシーと保持ラベルの詳細](/microsoft-365/compliance/retention)」を参照してください。
 

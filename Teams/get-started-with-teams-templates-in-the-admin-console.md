@@ -18,19 +18,19 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e65f7a0eef62197e90f77876129af95f32f4d6bc
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: 832d13955287d4166a575d213c04331b7e79e1bd
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442483"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711901"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Teams 管理センターで Teams テンプレートの使用を開始する
 
 **カスタム テンプレートを作成する機能は、EDU のお客様ではまだサポートされていません。**
 
 > [!NOTE]
-> - プライベート チャネルは現在、チーム テンプレートではサポートされていません。 プライベート チャネルの作成は、テンプレート定義には含まれません。
+> - プライベート チャネルと共有チャネルは、現在、チーム テンプレートではサポートされていません。 プライベート チャネルと共有チャネルの作成は、テンプレート定義には含まれません。
 >
 > - 感度ラベルは、環境内のチーム テンプレートではGCCされません。 [テンプレートからチームを作成する] フローの [感度ラベル] オプションは、チームには適用されません。
 
@@ -139,14 +139,14 @@ Microsoft Teams チーム テンプレートは、ビジネスの必要性やプ
 
 PowerShell でテンプレートを管理するには、次のコマンドレットを使用します。
 
-- [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate?view=teams-ps)
-- [Get-CsTeamTemplateList](/powershell/module/teams/get-csteamtemplatelist?view=teams-ps)
-- [New-CsTeamTemplate](/powershell/module/teams/new-csteamtemplate?view=teams-ps)
-- [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate?view=teams-ps)
-- [Update-CsTeamTemplate](/powershell/module/teams/update-csteamtemplate?view=teams-ps)
+- [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate)
+- [Get-CsTeamTemplateList](/powershell/module/teams/get-csteamtemplatelist)
+- [New-CsTeamTemplate](/powershell/module/teams/new-csteamtemplate)
+- [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate)
+- [Update-CsTeamTemplate](/powershell/module/teams/update-csteamtemplate)
 
 ## <a name="related-articles"></a>関連記事
 
 - [テンプレートからチームを作成する](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
 - [Microsoft Graph を使用して、チーム テンプレートの使用を開始する](get-started-with-teams-templates.md)
-- [チームを複製する](/graph/api/team-clone?view=graph-rest-1.0&tabs=http)
+- [チームを複製する](/graph/api/team-clone)

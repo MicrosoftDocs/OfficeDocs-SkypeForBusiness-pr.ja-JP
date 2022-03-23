@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams でプライベート チャネルを使用および管理する方法について説明します。
-ms.openlocfilehash: 097c7e4c43c6127b59423cab94b97ac949a2df57
-ms.sourcegitcommit: b635f3765498ae23f535a33fa9ffea5068eecb14
+ms.openlocfilehash: e3b8208f760d2ec549e242d390190fce8acba5fd
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "63463750"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711471"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams のプライベート チャネル
 
@@ -97,7 +97,7 @@ Teams は、プライベート チャネル サイトのライフサイクルを
 プライベート チャネルまたはプライベート チャネルを含むチームが復元されると、サイトも復元されます。 プライベート チャネル サイトが復元され、プライベート チャネルの 30 日間のソフト削除ウィンドウを超えている場合、サイトはスタンドアロン サイトとして動作します。
 
 > [!NOTE]
-> Microsoft Teams で新しいチームまたはプライベート チャネルを作成すると、SharePoint のチーム サイトが自動的に作成されます。 このチーム サイトのサイトの説明または分類を編集するには、対応するチャネルの [Microsoft Teams の設定](https://support.microsoft.com/office/change-a-team-s-data-security-classification-in-teams-bf39798f-90d2-44fb-a750-55fa05a56f1d)に移動します。
+> Microsoft Teams で新しいチーム、プライベート チャネル、または共有チャネルを作成すると、SharePoint のチーム サイトが自動的に作成されます。 このチーム サイトのサイトの説明または分類を編集するには、対応するチャネルの [Microsoft Teams の設定](https://support.microsoft.com/office/change-a-team-s-data-security-classification-in-teams-bf39798f-90d2-44fb-a750-55fa05a56f1d)に移動します。
 >
 > [Microsoft Teams に接続されたチーム サイト](/SharePoint/teams-connected-sites)の管理についての詳細情報をご覧ください。
 
@@ -105,7 +105,7 @@ Teams は、プライベート チャネル サイトのライフサイクルを
 
 プライベート チャネルで送信されたメッセージのコンプライアンス コピーは、グループのメールボックスではなく、すべてのプライベート チャネル メンバーのメールボックスに配信されます。 コンプライアンス コピーのタイトルは、送信元のプライベート チャネルが示されるように書式設定されています。
 
-プライベート チャネル メッセージの電子情報開示検索の実行の詳細については、「[プライベート チャネルの電子情報開示](ediscovery-investigation.md#ediscovery-of-private-channels)」を参照してください。
+プライベート チャネル メッセージの電子情報開示検索の実行の詳細については、「[プライベート チャネルの電子情報開示](ediscovery-investigation.md#ediscovery-of-private-and-shared-channels)」を参照してください。
 
 ## <a name="considerations-around-file-access-in-private-channels"></a>プライベート チャネルでのファイル アクセスに関する考慮事項
 
@@ -123,11 +123,13 @@ Teams は、プライベート チャネル サイトのライフサイクルを
 
 既存のチームからチームを作成する場合、既存のチームのプライベートチャネルは上書きされません。
 
-現時点では、プライベート チャネルからの通知は、見逃したアクティビティ メールには含まれません。
+プライベート チャネルからの通知は、見逃したアクティビティ メールには含まれません。
 
 チャネル会議をスケジュール設定できない。
 
 ## <a name="related-topics"></a>関連項目
+
+[Microsoft Teams の共有チャネル](/MicrosoftTeams/shared-channels)
 
 [Teams でのチームとチャネルの概要](teams-channels-overview.md)
 

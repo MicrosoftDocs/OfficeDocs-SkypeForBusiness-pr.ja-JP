@@ -1,5 +1,5 @@
 ---
-title: 非標準ユーザーに対する Teams アプリの動作
+title: Teamsの種類に基づいてアプリの動作を変更する
 author: guptaashish
 ms.author: guptaashish
 ms.reviewer: joglocke
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Microsoft Teams のアプリが非標準ユーザーに対してどのように動作するかを学びます。
+description: さまざまな種類のユーザーに対Microsoft Teamsアプリの動作について説明します。
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -17,16 +17,16 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4dd2a96b7df3ebcb3ae8659222744ed0f3273fa3
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 765c0b97d5e277bd086ac4b25ee11ac80cb6fc11
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070216"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711481"
 ---
-# <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>非標準ユーザーに対する Microsoft Teams アプリの動作
+# <a name="microsoft-teams-apps-behavior-based-on-types-of-users"></a>Microsoft Teamsの種類に基づいてアプリの動作を制御する
 
-この記事では、ゲスト、外部 (フェデレーション)、および匿名ユーザーが Teams コンテキストに存在する場合に、Teams 内のアプリがどのように動作するかについて説明します。
+Teamsアプリは、ゲスト、外部 (フェデレーション)、匿名ユーザーが特定のコンテキストに存在Teamsします。
 
 - **ゲスト ユーザー** とは、従業員、学生、または組織のメンバーではない人のことです。 ゲストは組織内での学校アカウントまたは職場アカウントを持ちません。
 

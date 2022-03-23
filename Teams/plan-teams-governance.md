@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 947ced749db6922d756400e99fb61035c5a86600
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 00a4fa6f2b0532ca0ff9837be4f3ee00f57662b0
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605653"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711301"
 ---
 # <a name="plan-for-governance-in-teams"></a>Teams でのガバナンスを計画する
 
@@ -40,24 +40,24 @@ Teams には組織が必要とする可能性のあるガバナンス機能を�
 |-        |-        |-        |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  |判断ポイント|<ul><li>自分の組織において、チームについての特定の名前付け規則はありますか?</li><li>チーム作成者は組織固有の分類をチームに割り当てる機能を必要としていますか?</li><li>チームにゲストを追加する機能を、チーム単位で制限する必要はありますか?</li><li>自分の組織において、チームを作成可能なユーザーを制限する必要はありますか?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|次のステップ|<ul><li>チームの作成、名前付け、分類、およびゲスト アクセスについて、自分の組織の要件を文書化します。</li><li>Teams のロールアウトの一部として、これらの要件を実施する計画を立てます。</li><li>ポリシーの伝達と公開を行い、Teams ユーザーに求められる動作について通知します。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|次の手順|<ul><li>チームの作成、名前付け、分類、およびゲスト アクセスについて、自分の組織の要件を文書化します。</li><li>Teams のロールアウトの一部として、これらの要件を実施する計画を立てます。</li><li>ポリシーの伝達と公開を行い、Teams ユーザーに求められる動作について通知します。</li></ul>|
 
 > [!NOTE]
 > 事前に計画を立てやすくなるために、[これらのポリシーの設定について、およびどのライセンスが必要とされるかについて確認してください](/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)。
 > 
 > [!NOTE]
-> グループとチームの作成を制限すると、多くの Microsoft 365 サービスと Office 365 サービスが機能するためにグループを作成する必要があるため、ユーザーの生産性が低下する可能性があります。 詳細については、「Plan [for governance in Teams 」を参照してください](/microsoft-365/solutions/manage-creation-of-groups)。
+> グループとチームの作成を制限すると、ユーザーの生産性が低下する可能性があります。多くの Microsoft 365 サービスと Office 365 サービスを機能するには、グループを作成する必要があります。 詳細については、「Plan [for governance in Teams」を参照してください](/microsoft-365/solutions/manage-creation-of-groups)。
 
 
-#### <a name="additional-information"></a>追加情報
+#### <a name="additional-information"></a>その他の情報
 
 要件の決定後、Azure AD のコントロールを使用してその要件を実装できます。これらの設定を実装する方法に関する技術面のガイダンスは、次をご覧ください。
 
 - [Azure Active Directory設定を構成するためのコマンドレット](/azure/active-directory/users-groups-roles/groups-settings-cmdlets)
 
-- [グループ内のグループに名前付けMicrosoft 365を適用Azure Active Directory](/azure/active-directory/users-groups-roles/groups-naming-policy)
+- [グループに名前付けポリシーを適用Microsoft 365グループAzure Active Directory](/azure/active-directory/users-groups-roles/groups-naming-policy)
 
-- [Microsoft 365グループの名前付けポリシー](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)
+- [Microsoft 365 グループの名前付けポリシー](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)
 
 - [感度ラベルを使用して、Microsoft Teams、グループ、Microsoft 365サイトのコンテンツをSharePointする](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
 
@@ -102,8 +102,8 @@ Teams には組織が必要とする可能性のあるガバナンス機能を�
 
 |-|-|-|
 |:-|:-|:-|
-|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  | 判断ポイント | 組織では、1 つ以上のチームのメンバーシップを管理するための一貫したプロセスが必要ですか? <br> 組織では、定期的に 1 つ以上のチームの継続的なメンバーシップを正当化するために、所有者またはメンバー自身が必要ですか。 <br> 組織では、チーム、グループ、サイト、アプリなどのリソースへのアクセスを要求するために、ユーザーとゲストSharePoint必要ですか? |
-|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>| 次の手順 | メンバーシップの有効期限について、各チームまたは特定のチームの組織の要件を文書化します。<br>アクセス パッケージにチーム、グループ、SharePoint、アプリをまとめてバンドルする方法を計画します。<br>要求者のマネージャー、プロジェクト マネージャー、接続されている組織のスポンサー、組織内のセキュリティ責任者などのユーザーが、アクセス要求を承認または拒否する必要があるユーザーを計画します。 |
+|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  | 判断ポイント | 組織では、1 つ以上のチームのメンバーシップを管理するための一貫したプロセスが必要ですか? <br> 組織では、定期的に 1 つ以上のチームの継続的なメンバーシップを正当化するために、所有者またはメンバー自身が必要ですか。 <br> 組織では、チーム、グループ、サイト、アプリなどのリソースへのアクセスを要求するために、ユーザーとゲストSharePoint必要ですか。 |
+|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>| 次の手順 | メンバーシップの有効期限について、各チームまたは特定のチームの組織の要件を文書化します。<br>アクセス パッケージにチーム、グループ、SharePointアプリをまとめてバンドルする方法を計画します。<br>要求者のマネージャー、プロジェクト マネージャー、接続されている組織のスポンサー、組織内のセキュリティ責任者などのユーザーが、アクセス要求を承認または拒否する必要があるユーザーを計画します。 |
 
 > [!TIP]
 > 次の表を使用して、組織の要件を把握します。
@@ -114,9 +114,9 @@ Teams には組織が必要とする可能性のあるガバナンス機能を�
 | 権利管理 | ユーザーとゲストがチームへのアクセスを要求できるアクセス パッケージを設定する | P2 | TBD |
 
 > [!NOTE]
-> 先に計画を立てるには、必要 [なライセンスの詳細を確認してください](https://azure.microsoft.com/pricing/details/active-directory/)。
+> 計画を立てるのに役立つ情報については、必要 [なライセンスの詳細を確認してください](https://azure.microsoft.com/pricing/details/active-directory/)。
 
-### <a name="additional-information"></a>追加情報
+### <a name="additional-information"></a>その他の情報
 
 これらの設定を実装する方法についての技術面のガイダンスは、次をご覧ください。
 
@@ -125,7 +125,7 @@ Teams には組織が必要とする可能性のあるガバナンス機能を�
 
 ## <a name="teams-feature-management"></a>Teams 機能の管理
 
-Teams でのガバナンスおよびライフサイクル管理のもう 1 つの重要な側面として、自分たちのユーザーがどの機能にアクセスするかを制御する機能があります。 メッセージング、会議、通話機能は、Microsoft 365または組織レベルOffice 365ユーザーごとに管理できます。
+Teams でのガバナンスおよびライフサイクル管理のもう 1 つの重要な側面として、自分たちのユーザーがどの機能にアクセスするかを制御する機能があります。 メッセージング、会議、通話機能は、組織レベルまたはユーザー Microsoft 365またはOffice 365で管理できます。
 
 
 |-        |-        |
@@ -142,11 +142,12 @@ Teams にはポリシーを介して、メッセージング、会議、通話�
 - [組織のMicrosoft Teams の設定を管理する](enable-features-office-365.md)
 - [新しい Microsoft Teams 管理センターへの移行中に Teams を管理する](manage-teams-skypeforbusiness-admin-center.md)
 - [Microsoft Teams のプライベート チャネル](private-channels.md)
+- [共有チャネル (Microsoft Teams](shared-channels.md)
 - [Teams での会議ポリシーを管理する](meeting-policies-overview.md)
 - [Teams のメッセージング ポリシーを管理する](messaging-policies-in-teams.md)
 - [管理センターでアプリMicrosoft Teamsする](manage-apps.md)
 
-さらに、チャネルのモデレーションを設定し、特定のユーザーにモデレーター機能を提供して、チャネル投稿を作成してそれに応答できるユーザーを制御できます。 詳細[については、「Microsoft Teams](manage-channel-moderation-in-teams.md)でのチャネル モデレーションの設定と管理」を参照してください。
+さらに、チャネルのモデレーションを設定し、特定のユーザーにモデレーター機能を提供して、チャネル投稿を作成してそれに応答できるユーザーを制御できます。 詳細[については、「Microsoft Teams でのチャネル モデレーションの設定](manage-channel-moderation-in-teams.md)と管理」を参照してください。
 
 ## <a name="security-and-compliance"></a>セキュリティとコンプライアンス
 
