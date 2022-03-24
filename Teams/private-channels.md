@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams でプライベート チャネルを使用および管理する方法について説明します。
-ms.openlocfilehash: e3b8208f760d2ec549e242d390190fce8acba5fd
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 908432588c1744027b03efee44b9506ea4388fa2
+ms.sourcegitcommit: b878c57b8e822913b7aac8c105f476bc4ebfcd7d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711471"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63761921"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams のプライベート チャネル
 
@@ -122,6 +122,8 @@ Teams は、プライベート チャネル サイトのライフサイクルを
 各チームは最大 30 のプライベート チャネルを持つことができ、各プライベート チャネルには最大 250 のメンバーを含めることができます。 30 というプライベート チャネルの制限は、チームごとに 200 という標準チャネルの上限に追加されます。 
 
 既存のチームからチームを作成する場合、既存のチームのプライベートチャネルは上書きされません。
+
+プライベート チャネルを別のチャネルの種類に変換することはできません。
 
 プライベート チャネルからの通知は、見逃したアクティビティ メールには含まれません。
 

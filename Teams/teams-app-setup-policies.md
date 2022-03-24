@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b5100bd09b371d90d5bede76b440f423eb527b9c
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: 677ee2b0d57477ee79a9af7510d0ccf2dfbcae28
+ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442343"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63774016"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのセットアップ ポリシーを管理する
 
@@ -35,6 +35,9 @@ ms.locfileid: "63442343"
 - **アップロード:** アプリセットアップ ポリシーを使用すると、ユーザーがカスタム アプリをカスタム アプリにアップロードTeams。 詳細については、「カスタム アプリ[のアップロード参照してください](#upload-custom-apps)。
 
 ## <a name="pin-apps"></a>アプリをピン留めする
+
+> [!NOTE]
+> 組織内のフロントライン ワーカーの場合は、カスタマイズされたフロントライン アプリ エクスペリエンスを使用することをお勧めします。 この機能は、F ライセンスを持つユーザー Teamsに最も関連性の高いアプリを[ピンで固定します](https://www.microsoft.com/en-us/microsoft-365/enterprise/frontline?rtc=1#office-SKUChooser-0dbn8nt)。 詳細については、「フロント ライン ワーカー[向Teamsアプリを調整する」を参照してください](pin-teams-apps-based-on-license.md)。
 
 アプリをピン留めすると、サード パーティや組織内の開発者によって構築されたアプリなど、組織内のユーザーが必要とするアプリを紹介できます。
 

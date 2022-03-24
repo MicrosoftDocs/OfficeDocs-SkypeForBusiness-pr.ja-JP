@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Microsoft Teams によって生成されたデバッグ ログ、メディア ログ、デスクトップ ログ、ログが見つかる場所、および監視とトラブルシューティングに役立つ方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56a665be7f2b647c3133b3dcd0617779b1e4165e
-ms.sourcegitcommit: 5b1d8d6f811fab0b350a09e5187d982f952d0edb
+ms.openlocfilehash: 3cb6718c88f3b084f8a38f039a7e707e65c344d7
+ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "63047127"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63774086"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>ログ ファイルを使用して、ログの監視とトラブルシューティングMicrosoft Teams
 
@@ -107,6 +107,9 @@ Linux のログを収集するには:
 詳細と _Mac の手順については、「ログの収集_ と有効化Windows」セクションを参照してください。 メディア ログには、音声、ビデオ、画面共有に関する診断データがTeamsされます。 これらは、通話関連の問題にリンクされているサポート ケースに必要です。
 
 メディア ログは既定でオフになっています。 会議の診断データをTeamsするには、ユーザーがクライアントでオプションを有効Teamsがあります。 [**設定** > **一** 般] に移動し、[会議の診断のログ記録を有効 **にする (** Teams を再起動する必要があります) チェック ボックスをオンにし、Teams を再起動して、問題を再現します。 
+
+> [!NOTE]
+> アカウントからサインアウトすると、Teamsが既定にリセットされます。 
 
 ログ ファイルを Microsoft サポートに送信する場合は、ログ ファイルのタイムスタンプを確認して、問題を再現した時間をログで確実にカバーしてください。
 

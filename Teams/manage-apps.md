@@ -17,12 +17,12 @@ description: 管理センターの [アプリのTeams] ページでアプリを�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 96acf3151c2b805fead94979010669520b7a000f
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: f8130d8f6d9d8609ce37d5f43f18dd083a5106e0
+ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442293"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63774076"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>管理センターでアプリMicrosoft Teamsする
 
@@ -150,14 +150,16 @@ ISV がグローバル アプリ ストアにアプリを発行する場合、�
 
 ## <a name="manage-org-wide-app-settings"></a>組織全体のアプリ設定を管理する
 
-組織全体のアプリ設定を使用して、ユーザーがライセンス (近日公開予定) に基づいてカスタマイズされたアプリ エクスペリエンスを取得するかどうか、ユーザーがサードパーティ製アプリをインストールできるかどうか、ユーザーが組織内のカスタム アプリをアップロードまたは操作できるかどうかを制御します。 組織全体のアプリ設定は、すべてのユーザーの動作を管理し、ユーザーに割り当てられた他のアプリ権限ポリシーを上書きします。 それらを使用して、悪意のあるアプリや問題のあるアプリを制御できます。
+組織全体のアプリ設定を使用して [、F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) ライセンスを持つユーザーがカスタマイズされたフロントエンド アプリ エクスペリエンス (近日公開予定)、ユーザーがサードパーティ製アプリをインストールできるかどうか、ユーザーが組織内のカスタム アプリをアップロードまたは操作できるかどうかを制御します。 組織全体のアプリ設定は、すべてのユーザーの動作を管理し、ユーザーに割り当てられた他のアプリ権限ポリシーを上書きします。 それらを使用して、悪意のあるアプリや問題のあるアプリを制御できます。
 
 > [!NOTE]
 > Teams の Microsoft 365 Government - Government Community Cloud High GCCH および国防総省 (DoD) デプロイで組織全体のアプリ設定を使用する方法については、「[Teams](teams-app-permission-policies.md) でアプリのアクセス許可ポリシーを管理する」を参照してください。
 
-1. [アプリの管理] ページで、[組織全体の **アプリ設定] を選択します**。 次に、パネルで必要な設定を構成できます。
+1. [アプリの管理] ページで、[組織全体の **アプリ設定] を選択します**。 その後、ウィンドウで必要な設定を構成できます。
 
-1. (近日公開予定)[ **カスタマイズされたアプリ] で**、[ライセンスに基づいてカスタマイズされた **アプリを表示する] をオフまたはオンにします**。 この設定がオンの場合、ユーザーはライセンスに基づいてアプリをピン留めするエクスペリエンスを取得します。 詳細については、「ライセンスに基[づいてアプリをカスタマイズTeamsする」を参照してください](pin-teams-apps-based-on-license.md)。
+    :::image type="content" source="media/manage-apps-org-wide-app-settings.png" alt-text="[アプリの管理] ページの [組織全体のアプリ設定] ウィンドウのスクリーンショット":::
+
+1. (近日公開予定)[ **カスタマイズされたアプリ] で**、[カスタマイズされたアプリを表示する] **をオフまたはオンにします**。 この設定がオンの場合、F ライセンスを持つユーザー [は](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) 、カスタマイズされたフロントエンド アプリ エクスペリエンスを取得します。 このエクスペリエンスでは、最も関連性の高いアプリをフロントライン Teamsにピン留めします。 詳細については、「フロント ライン ワーカー[向Teamsアプリを調整する」を参照してください](pin-teams-apps-based-on-license.md)。
 
     この機能は、F ライセンスで使用できます。 その他のライセンスの種類は、今後サポートされる予定です。
 1. **[サードパーティ アプリ]** で、次の設定をオフまたはオンにして、サードパーティ アプリへのアクセスを制御します。

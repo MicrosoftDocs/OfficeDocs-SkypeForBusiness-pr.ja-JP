@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 98c05106ef5d9446d1cf591126eb3cffcb7e8bff
-ms.sourcegitcommit: 4af3638637456f21bc97f510ed9d2f7ff2da07e2
+ms.openlocfilehash: 18e7b02a52a0ddc7c380ed3fb4c5879b45fe18dc
+ms.sourcegitcommit: b878c57b8e822913b7aac8c105f476bc4ebfcd7d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/19/2022
-ms.locfileid: "63660582"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63761931"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>会議のTeamsに対するポリシー ベースの記録の概要&説明
 
@@ -228,6 +228,7 @@ IT 管理者は、コンプライアンス記録ポリシーを作成して割�
 |Insightful テクノロジ |[https://insightfultechnology.com/teams/](https://insightfultechnology.com/teams/) |
 |NICE |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
 |Numonix |[https://numonix.cloud](https://numonix.cloud)    |
+|Oak Innovation |[https://www.oakinnovate.com/clarify](https://www.oakinnovate.com/clarify) |
 |赤いボックス |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/compliance-recording-for-microsoft-teams)  |
 |Theta Lake |[https://thetalake.com/integrations/microsoft/](https://thetalake.com/integrations/microsoft/) |
 |Verint |[https://www.verba.com/solutions/microsoft-teams-recording](https://www.verba.com/solutions/microsoft-teams-recording) |
@@ -244,6 +245,6 @@ IT 管理者は、コンプライアンス記録ポリシーを作成して割�
 
 このリストは、パートナーが参加して認定条件を満たしたときに更新されます。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 認定プログラムへの参加を希望しているベンダーの場合は、認定プログラムにメールを [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com)。

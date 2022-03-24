@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: 6b1e2fdc31e5f9ece9b1c52f1f0cf5881e29229b
-ms.sourcegitcommit: 47b14f57bc64544d63aec67b023ead13c71342b4
+ms.openlocfilehash: 84c0ef026b16ec19337ef8840b2285a1a98e5193
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/10/2022
-ms.locfileid: "63418839"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711731"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams のチャット、チーム、チャネル、およびアプリ
 
@@ -53,7 +53,6 @@ Teams は、すぐに使用できる優れたコラボレーション エクス�
 |確認事項|アクション |
 |------------|-------|
 |Teams を展開するために組織の準備が整っているか?|この質問に回答するには、次を参照してください。 <ul><li>[Teams 用に組織のネットワークを準備する](prepare-network.md)</li><li>[URL と IP アドレスの範囲](office-365-urls-ip-address-ranges.md)</li><li>[チームを作成するときの Microsoft 365 グループの計画](plan-office-365-groups.md)</li></ul>|
-|||
 
 ## <a name="core-deployment-decisions"></a>展開に関する重要な決定事項
 
@@ -68,7 +67,6 @@ Teams は、組織のチームを管理するために使用できる、カス�
 |Teams 通信管理者の役割を誰に割り当てるか?|Teams 管理者の役割の詳細については、「[Microsoft Teams の管理者ロールを使用して Teams を管理する](using-admin-roles.md)」を参照してください。|
 |Teams 通信サポート エンジニアの役割を誰に割り当てるか?|管理者の役割を割り当てるには、「[Active Directory で管理者の役割と管理者以外の役割をユーザーに割り当てる](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)」を参照してください。|
 |Teams 通信サポート スペシャリストの役割を誰に割り当てるか?||
-|||
 
 ### <a name="teams-owners-and-members"></a>Teams の所有者とメンバー
 
@@ -88,17 +86,15 @@ Teams は、組織のチームを管理するために使用できる、カス�
 |------------|-------|
 |グローバル メッセージング ポリシーをカスタマイズするか?|Microsoft Teams 管理センターを使用したグローバル メッセージング ポリシーの変更や新しいポリシーの追加に関する詳細については、「[Teams でのメッセージング ポリシーを管理する](messaging-policies-in-teams.md)」を参照してください。|
 |複数のメッセージング ポリシーが必要か?|メッセージング ポリシーを PowerShell で作成して割り当てる場合は、「[PowerShell スクリプトのサンプル: メッセージング ポリシーの作成と割り当て](scripts/powershell-script-teams-messaging-policy-edu.md)」を参照してください。|
-|どのユーザーのグループにどのメッセージング ポリシーを割り当てるかについて判断する方法は?|CsTeamsMessagingPolicy コマンドレットの詳細については、「[Set-CsTeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)」を参照してください。|
-||| 
+|どのユーザーのグループにどのメッセージング ポリシーを割り当てるかについて判断する方法は?|CsTeamsMessagingPolicy コマンドレットの詳細については、「[Set-CsTeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)」を参照してください。|
 
 ### <a name="external-access"></a>外部アクセス
 
-外部アクセス (旧称: フェデレーション) を使用すると、Teams と Skype for Business のユーザーが、組織外部のユーザーと通信できるようになります。これをオンにして許可リストにドメインを追加すると、ユーザーは別のドメインおよび別の組織のユーザーと通信できます。外部アクセスは、ゲスト アクセスとは異なり、個人ではなくドメイン全体にアクセス許可を与えます。外部アクセスは、既定でオンになっています。
+外部アクセス (フェデレーション) を使用すると、ユーザーはチャットを介して組織外のユーザーと通信できます。これをオンにし、許可リストにドメインを追加することにより、ユーザーは他のドメインや組織のユーザーと通信できます。外部アクセスは既定でオンになっています。
 
 |確認事項|アクション |
 |------------|-------|
-|<ul><li>自分の組織の外部アクセスをオンにするか?</li><li>有効にする場合は、自分の組織との通信を許可するドメインを制限するか?</li></ul> |<br>外部アクセスを有効にするには、「[外部アクセスを計画する](manage-external-access.md#plan-for-external-access)」を参照してください。|
-|||
+|<ul><li>自分の組織の外部アクセスをオフにするか?</li><li>有効にする場合は、自分の組織との通信を許可するドメインを制限するか?</li></ul> |<br>外部アクセスのオンとオフを切り替えるには、「[外部アクセスを計画する](manage-external-access.md#plan-for-external-access)」を参照してください。|
 
 ### <a name="guest-access"></a>ゲスト アクセス
 
@@ -110,9 +106,25 @@ Teams のゲスト アクセスを使用すると、組織の外部にいる個�
 
 |確認事項|アクション |
 |------------|-------|
-|自分の組織のゲスト アクセスをオンにするか?|ゲスト アクセスをオンにするに場合は、「[Teams のゲスト アクセスをオンまたはオフにする](set-up-guests.md)」を参照してください。|
+|自分の組織のゲスト アクセスをオフにするか?|ゲスト アクセスのオンとオフを切り替えるには、「[Teams でゲスト アクセスをオンまたはオフにする](set-up-guests.md)」を参照してください。|
 |有効にする場合、自分の組織でゲストが使用できる機能をカスタマイズするか?|ゲスト アクセス機能の有効/無効をカスタマイズする場合は、「[Teams のゲスト アクセスを許可する](teams-dependencies.md)」を参照してください。|
-|||
+
+### <a name="private-channels"></a>プライベート チャネル
+
+プライベート チャネルを使用すると、チーム メンバーのサブセットは、他のチーム メンバーが表示またはアクセスできないプライベート 空間で共同作業を行うことができます。 既にチームのメンバーである限り、ゲストを含む全てのユーザーをプライベート チャネルのメンバーとして追加できます。
+
+|確認事項|アクション |
+|------------|-------|
+|チームの所有者とメンバーにプライベート チャネルの作成を許可するか?|組織のプライベート チャネル ポリシーを設定するには、「[Microsoft Teams でチャネル ポリシーを管理する](teams-policies.md)」を参照してください。|
+
+### <a name="shared-channels"></a>共有チャネル
+
+共有チャネルを使用すると、チームのメンバーではないユーザーをチャネルに追加できます。 これには、組織外のユーザーが含まれます。 共有チャネルは、組織外のユーザーがディレクトリのゲスト アカウントを必要としないという点で、ゲスト アクセスよりも利点があります。
+
+|確認事項|アクション |
+|------------|-------|
+|共有チャネルとゲスト アクセスを使用する場合|「[Microsoft Teams の共有チャネル](shared-channels.md)」を参照してください。|
+|<ul><li>チームの所有者に共有チャネルの作成を許可するか?</li><li>チーム所有者が組織外のユーザーとチャネルを共有できるか?</li><li>ユーザーが組織外の共有チャネルに参加することを許可するか?</li></ul> |<br>組織の共有チャネル ポリシーを設定するには、「[Microsoft Teams でチャネル ポリシーを管理する](teams-policies.md)」を参照してください。|
 
 ### <a name="teams-settings"></a>Teams の設定
 
@@ -121,7 +133,6 @@ Teams の設定を使用すると、チームに対する電子メール統合�
 |確認事項|アクション |
 |------------|-------|
 |自分の組織に合わせて Teams の設定をカスタマイズするか? | Teams の設定とカスタマイズ方法の詳細は、「[Teams の設定](enable-features-office-365.md#teams-settings)」を参照してください。|
-|||
 
 ### <a name="teams-clients"></a>Teams のクライアント
 
@@ -131,7 +142,6 @@ Teams は、Web からデスクトップ、モバイルまで複数のクライ�
 |------------|-------|
 |自分の組織に合わせて Teams クライアントの利用可能性をカスタマイズするか?|「[Teams アプリのハードウェア要件](hardware-requirements-for-the-teams-app.md)」を確認してください。 |
 |自分の組織に合わせて Teams クライアントの設定をカスタマイズするか?|詳細については、「[MSI を使用した Teams のインストール](msi-deployment.md)」を参照してください。|
-|||
 
 ### <a name="teams-usage-reporting"></a>Teams の使用状況レポート
 
@@ -139,8 +149,7 @@ Teams は、Web からデスクトップ、モバイルまで複数のクライ�
 
 |確認事項|アクション |
 |------------|-------|
-|<br> 誰が Teams の使用状況レポートの確認を必要としていて、レポートを表示するための適切な役割が割り当てられているか? |<ul><li>そのユーザーが管理者でない場合は、[レポート閲覧者の役割を割り当てます](teams-activity-reports.md#reports-reader-role)。</li><li>Azure Active Directory で管理者の役割を割り当てる方法については、「[役割とアクセス許可](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)」および「[役割の表示と割り当て](/azure/active-directory/users-groups-roles/directory-manage-roles-portal)」を参照してください。 |
-|||
+|<br> 誰が Teams の使用状況レポートの確認を必要としていて、レポートを表示するための適切な役割が割り当てられているか? |<ul><li>そのユーザーが管理者でない場合は、[レポート閲覧者の役割を割り当てます](teams-activity-reports.md#reports-reader-role)。</li><li>Azure Active Directory で管理者の役割を割り当てる方法については、「[役割とアクセス許可](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)」および「[役割の表示と割り当て](/azure/active-directory/users-groups-roles/directory-manage-roles-portal)」を参照してください。|
 
 ### <a name="teams-default-apps"></a>Teams の既定のアプリ 
 
@@ -154,21 +163,19 @@ Teams のアプリを展開および管理する方法の詳細については�
 
 ### <a name="teams-licensing"></a>Teams のライセンス
 
-Teams は多くの Microsoft 365 ライセンスまたは Office 365 ライセンスの一部として提供されています。Teams のライセンスの詳細については、「[Microsoft Teams サービスのサービスの説明](/office365/servicedescriptions/teams-service-description)」を参照してください。
+Teams は多くの Microsoft 365 ライセンスの一部として提供されています。
 
 |確認事項|アクション |
 |------------|-------|
 |展開しようとしている Teams のすべての機能を使用するために必要なライセンスをユーザーが所持しているか? | ライセンス要件の詳細については、「[Microsoft Teams サービスのサービスの説明](/office365/servicedescriptions/teams-service-description)」を参照してください。|
-|||
 
 ### <a name="exchange-and-sharepoint-interoperability"></a>Exchange と SharePoint の相互運用性
 
-Teams のすべての機能を活用するために、すべてのユーザーは Exchange Online、SharePoint Online、および Microsoft 365 グループの作成が可能になっている必要があります。次の記事では、さまざまな環境でホストされている Exchange メールボックス、Exchange と Teams の相互作用のしくみ、および SharePoint と OneDrive for Business に関する同様の考慮事項について概要を示します。
+Teams のすべての機能を活用するために、すべてのユーザーは Exchange、SharePoint、および Microsoft 365 グループの作成が可能になっている必要があります。次の記事では、さまざまな環境でホストされている Exchange メールボックス、Exchange と Teams の相互作用のしくみ、および SharePoint と OneDrive に関する同様の考慮事項について概要を示します。
 
 |確認事項|アクション |
 |------------|-------|
-| 現在の Exchange および SharePoint の展開で Teams の必要な機能を展開できるか? |Teams での Exchange と SharePoint の詳細については、次を参照してください。<ul><li> [Exchange と Teams の連携](exchange-teams-interact.md)</li><li>[Teams との SharePoint Online と OneDrive for Business の連携](sharepoint-onedrive-interact.md)|
-|||
+| 現在の Exchange および SharePoint の展開で Teams の必要な機能を展開できるか? |Teams での Exchange と SharePoint の詳細については、次を参照してください。<ul><li> [Exchange と Teams の連携](exchange-teams-interact.md)</li><li>[Teams との SharePoint Online と OneDrive の連携](sharepoint-onedrive-interact.md)|
 
 ### <a name="teams-limits-and-specifications"></a>Teams の制限と仕様 
 
@@ -177,16 +184,14 @@ Teams のエンタープライズ展開を計画している場合は、1 つの
 |確認事項|アクション |
 |------------|-------|
 | Teams の展開でどのような制限が問題になる可能性があるか? | 詳細については、「[Teams の制限と仕様](limits-specifications-teams.md)」を参照してください。 |
-|||
 
 ### <a name="urls-and-ports"></a>URL とポート
 
-インターネット トラフィックの詳細な制御を維持している組織は、Teams の適切な構成が必要になる URL、IP アドレス、ポート、およびプロトコルに関する最新のリストについて、「[URL と IP アドレス範囲](/office365/enterprise/urls-and-ip-address-ranges)」を確認してください。Microsoft は、必要なポート、URL、IP アドレスが時間の経過とともに変更する可能性があることを踏まえて、継続して Microsoft 365 サービスおよび Office 365 サービスを改善し、新機能を追加します。この情報が更新または変更されたときに通知を受け取れるように、RSS で購読することをお勧めします。少なくとも、「[チャットの展開に関する前提条件](#chat-deployment-prerequisites)」で、上記のポートを開いていることを確認してください。
+インターネット トラフィックの詳細な制御を維持している組織は、Teams の適切な構成が必要になる URL、IP アドレス、ポート、およびプロトコルに関する最新のリストについて、「[URL と IP アドレス範囲](/office365/enterprise/urls-and-ip-address-ranges)」を確認してください。Microsoft は、必要なポート、URL、IP アドレスが時間の経過とともに変更する可能性があることを踏まえて、継続して Microsoft 365 サービスを改善し、新機能を追加します。この情報が更新または変更されたときに通知を受け取れるように、RSS で購読することをお勧めします。少なくとも、「[チャットの展開に関する前提条件](#chat-deployment-prerequisites)」で、上記のポートを開いていることを確認してください。
 
 |確認事項|アクション |
 |------------|-------|
 | ユーザーが Teams を使用できるようにするためにインターネット アクセスのルールが必要か、それとも最低限必要なポートを開くだけで十分か? | 詳細については、「[URL と IP アドレス範囲](office-365-urls-ip-address-ranges.md)」を参照してください。|
-|||
 
 ### <a name="governance-naming-conventions-who-can-create-teams"></a>ガバナンス (命名規則、チームの作成が可能なユーザー)
 
@@ -197,7 +202,6 @@ Teams のエンタープライズ展開を計画している場合は、1 つの
 |--------------|--------|
 |チームの作成が可能なユーザーに関する制御の実施が必要になるか?| 「[Teams でのガバナンスを計画する](plan-teams-governance.md)」を参照してください。|
 |チームの命名に関する制御の実施が必要になるか?|「[Azure Active Directory での Microsoft 365 グループに対する名前付けポリシーの強制](/azure/active-directory/users-groups-roles/groups-naming-policy)」を参照してください。|
-|||
 
 ### <a name="teams-application-policy-side-rail-control"></a>Teams のアプリケーション ポリシー (サイドレール制御)
 
@@ -207,7 +211,6 @@ Teams のエンタープライズ展開を計画している場合は、1 つの
 |--------------|--------|
 |事前に構成した固定の Teams アプリケーションのセットを作成する必要があるか? | 「[Teams でのアプリの管理設定](admin-settings.md)」を参照してください。|
 |該当するアプリのグループ化を受け取るグループの決定方法は?|「[Teams アプリのアクセス許可と考慮事項](app-permissions.md)」を参照してください。|
-|||
 
 ### <a name="archiving-and-compliance"></a>アーカイブとコンプライアンス 
 
@@ -218,17 +221,14 @@ Teams のエンタープライズ展開を計画している場合は、1 つの
 |チームの保持期間を構成する必要があるか?|保持ポリシーを設定する場合は、「[Teams の保持ポリシーを設定する](retention-policies.md)」を参照してください。|
 |チームのアーカイブを構成する必要があるか?|チームをアーカイブまたは復元する場合は、「[チームのアーカイブまたは復元](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)」を参照してください。|
 |追加のコンプライアンス設定を構成する必要があるか?|セキュリティとコンプライアンスの詳細については、「[Teams のセキュリティとコンプライアンスの概要](security-compliance-overview.md)」を参照してください。|
-|||
 
 ### <a name="conditional-access"></a>条件付きアクセス 
 
-Teams は、主要な生産性シナリオ (会議、予定表、相互運用チャット、ファイル共有など) に関して Exchange Online、SharePoint Online、および Skype for Business Online に大きく依存しています。これらのクラウド アプリ向けに設定された条件付きアクセス ポリシーは、ユーザーが任意のクライアントで Teams に直接サインインするときに Teams に適用されます。Teams のクラウド アプリ向けに設定された条件付きアクセス ポリシーでは、ユーザーが特定のネットワークから Teams のサービスにアクセスできるかどうかなどの側面を制御します。
+Teams は、主要な生産性シナリオ (会議、予定表、相互運用チャット、ファイル共有など) に関して Exchange と SharePoint に大きく依存しています。これらのクラウド アプリ向けに設定された条件付きアクセス ポリシーは、ユーザーが任意のクライアントで Teams に直接サインインするときに Teams に適用されます。Teams のクラウド アプリ向けに設定された条件付きアクセス ポリシーでは、ユーザーが特定のネットワークから Teams のサービスにアクセスできるかどうかなどの側面を制御します。
 
 | 確認事項 | アクション |
 |--------------|--------|
 |<br>Teams に対する条件付きアクセスを構成する必要があるか?|<ul><li>アクセス ポリシーのしくみについては、「[Teams で条件付きアクセス ポリシーはどのように機能しますか?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)」を参照してください。</li><li>Teams の多要素認証を設定する場合は、次を参照してください。<ul><li>[クイック スタート: Azure Active Directory の条件付きアクセスを使用して特定のアプリケーションに対して MFA を必要にする](/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Azure Active Directory の条件付きアクセス設定に関するリファレンス](/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
-|||
-
 
 ### <a name="education-edu"></a>教育機関 (EDU) 
 
@@ -239,7 +239,6 @@ Teams は、主要な生産性シナリオ (会議、予定表、相互運用チ
 |教育機関固有の Teams テンプレートを使用するか? |教育機関向け Teams の詳細については、「[Microsoft Education ガバナンスに関するよく寄せられる質問 (管理者向け)](plan-teams-governance-edu.md)」を参照してください。|
 |範囲設定された検索を展開するか?|教育機関向け Teams をセットアップする場合は、「[クイックスタート: 教育機関向け Teams の管理](teams-quick-start-edu.yml)」を参照してください。|
 |ユーザー アカウントのプロビジョニングのために Teams と学校データ同期サービスを統合するか?|[教育機関管理者向けの Teams のリソース](resources-teams-edu.md)|
-|||
 
 ### <a name="government---gcc-considerations"></a>政府機関: GCC に関する考慮事項
 
@@ -248,7 +247,6 @@ Office 365 for Government (GCC: Government Community Cloud) の使用は、米�
 | 確認事項 | アクション |
 |--------------|--------|
 | Office 365 for Government GCC – GCC 環境に Teams を展開する必要があるか? | 展開に関する考慮事項については、「[Office 365 for Government: GCC 展開の計画](plan-for-government-gcc.md)」を参照してください。|
-|||
 
 ## <a name="next-steps"></a>次のステップ
 - チャット、チーム、チャネル、およびアプリの[導入を推進する](adopt-microsoft-teams-landing-page.md)。

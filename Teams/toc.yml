@@ -1529,7 +1529,7 @@ items:
                 href: teams-app-setup-policies.md
               - name: Teams のカスタム アプリのポリシーと設定を管理する
                 href: teams-custom-app-policies-and-settings.md
-          - name: ライセンスに基づいて Teams アプリを調整する
+          - name: 現場担当者向けに Teams アプリを調整する
             href: pin-teams-apps-based-on-license.md
           - name: Azure AD アクセス許可を確認し、管理者の同意を付与する
             href: app-permissions-admin-center.md

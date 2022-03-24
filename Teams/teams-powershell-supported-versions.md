@@ -12,16 +12,16 @@ ms.collection:
 description: PowerShell モジュールでサポートされているバージョンについてTeams管理に使用される PowerShell モジュールMicrosoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9254afde824f072f6015531b90f4cacfb38acafe
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: ea8a755c75c5f91c5dbf3a4cd4dd749ac576557c
+ms.sourcegitcommit: b878c57b8e822913b7aac8c105f476bc4ebfcd7d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63689128"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762011"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Teams PowerShell モジュール - サポートされているバージョン
 
-Microsoft Teams 4.x.x シリーズの PowerShell モジュール (TPM) バージョンは、今後サポートされる唯一のバージョンです。 以前のバージョンはすべて提供提供のパス上に表示されます。
+Microsoft Teams PowerShell モジュール (TPM) バージョン 4.0.0 以上が、今後サポートされる唯一のバージョンです。 以前のバージョンはすべて提供提供のパス上に表示されます。
 
 
 
@@ -39,8 +39,7 @@ Teams に新しくオンボードする組織は、2022 年 4 月 1 日から Te
 
 ## <a name="current-organizations-tpm-active"></a>現在の組織 (TPM アクティブ)
 
-過去 3 か月間 (Jan'22 – Mar'22) に TPM を使用している組織は、TPM 4.x.x に更新する時間が長くなります。 詳細については、後で確認してください。
-
+過去 3 か月間 (Jan'22 – Mar'22) に TPM を使用している組織は、2022 年 6 月 15 日から TPM 4.0.0 以上のみを使用できます。 PowerShell モジュールを最新バージョンTeams更新をお勧めします。
 
 
 ## <a name="important-notes"></a>重要な注意事項
