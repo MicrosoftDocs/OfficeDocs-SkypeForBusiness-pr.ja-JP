@@ -18,13 +18,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
-description: コンテンツ共有用の会議ポリシー設定を管理する方法Teamsを確認します。
-ms.openlocfilehash: 6c713800aa0f95c7adfd6655455e6ff332f91595
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+description: コンテンツ共有用の会議ポリシー設定を Teamsする方法について学習します。
+ms.openlocfilehash: dccf36a257cde5731c140f2000e3d0733d3366c3
+ms.sourcegitcommit: 42c355d3f4bbe52c063b8f2119baefc0b88f9563
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205317"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "64403988"
 ---
 # <a name="meeting-policy-settings---content-sharing"></a>会議ポリシーの設定 - コンテンツの共有
 
@@ -35,8 +35,8 @@ ms.locfileid: "61205317"
 - [画面共有モード](#screen-sharing-mode)
 - [参加者に制御を渡す、または制御を要求する](#allow-a-participant-to-give-or-request-control)
 - [外部の参加者に制御を渡す、または制御を要求する](#allow-an-external-participant-to-give-or-request-control)
-- [PowerPoint共有](#powerpoint-sharing)
-- [Whiteboard](#whiteboard)
+- [PowerPoint Live](#powerpoint-live)
+- [ホワイトボード](#whiteboard)
 - [共有ノート](#shared-notes)
 
 ## <a name="screen-sharing-mode"></a>画面共有モード
@@ -99,26 +99,26 @@ Daniela は、共有デスクトップまたはウィンドウを、赤んじり
 
 PowerShell を使用して、外部の参加者が制御を渡すことができるか、または制御要求を受け入れることができるかを制御するには、AllowExternalParticipantGiveRequestControl コマンドレットを使用します。
 
-### <a name="powerpoint-sharing"></a>PowerPoint共有
+### <a name="powerpoint-live"></a>PowerPoint Live
 
 これは、ユーザーごとのポリシーです。 この設定は、ユーザーが会議で PowerPoint スライド セットを共有できるかどうかを制御します。 匿名ユーザー、ゲスト ユーザー、フェデレーション ユーザーを含む外部ユーザーは、会議開催者のポリシーを継承します。
 
 次の例を見てみましょう。
 
-|ユーザー |会議ポリシー  |PowerPoint共有 |
+|ユーザー |会議ポリシー  |PowerPoint Live |
 |---------|---------|---------|
 |Daniela   | グローバル   | オン       |
 |Amanda   | Location1MeetingPolicy        | オフ   |
 
 Amanda は、会議の開催者であっても、PowerPoint スライド セットを会議で共有することはできません。 Daniela は、会議が Amanda によって開催されている場合でも、PowerPoint スライド セットを共有することができます。 Amanda は、PowerPoint スライド セットを共有できない場合でも、会議の他のユーザーによって共有されている PowerPoint スライド セットを表示することができます。
 
-## <a name="whiteboard"></a>Whiteboard
+## <a name="whiteboard"></a>ホワイトボード
 
 この設定は、ユーザーごとのポリシーです。 この設定は、ユーザーが会議でホワイトボードを共有できるかどうかを制御します。 匿名ユーザー、B2B ユーザー、およびフェデレーション ユーザーを含む外部ユーザーは、会議開催者のポリシーを継承します。
 
 次の例を見てみましょう。
 
-|ユーザー |会議ポリシー  |Whiteboard|
+|ユーザー |会議ポリシー  |ホワイトボード|
 |---------|---------|---------|
 |Daniela   | グローバル   | オン       |
 |Amanda   | Location1MeetingPolicy        | オフ   |

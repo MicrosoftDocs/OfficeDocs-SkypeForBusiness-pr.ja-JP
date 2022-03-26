@@ -12,34 +12,35 @@ ms.collection:
 description: PowerShell モジュールでサポートされているバージョンについてTeams管理に使用される PowerShell モジュールMicrosoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea8a755c75c5f91c5dbf3a4cd4dd749ac576557c
-ms.sourcegitcommit: b878c57b8e822913b7aac8c105f476bc4ebfcd7d
+ms.openlocfilehash: 3fc980420b53d850c48e680d25bdbf6ec437e8f8
+ms.sourcegitcommit: d3d3d5a70a69359fc71f072ad6c651556f4eda00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63762011"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63783967"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Teams PowerShell モジュール - サポートされているバージョン
 
-Microsoft Teams PowerShell モジュール (TPM) バージョン 4.0.0 以上が、今後サポートされる唯一のバージョンです。 以前のバージョンはすべて提供提供のパス上に表示されます。
+Microsoft Teams 4.x.x シリーズ以上の PowerShell モジュール (TPM) バージョンは、今後サポートされる唯一のバージョンです。 以前のバージョンはすべて提供提供のパス上に表示されます。 PowerShell モジュールを最新バージョンTeams更新をお勧めします。
 
 
 
 ## <a name="new-organizations"></a>新しい組織
 
-Teams に新しくオンボードする組織は、2022 年 4 月 1 日から Teams PowerShell モジュール 4.0.0 以上のみを使用できます。
+Teams に新しくオンボードする組織は、2022 年 4 月 1 日から 4.x.x シリーズ以上の Teams PowerShell モジュールのみを使用できます。
 
 
 
 ## <a name="current-organizations-non-tpm-active"></a>現在の組織 (非 TPM アクティブ)
 
-過去 3 か月間 (Jan'22 – Mar'22) に TPM を使用していない組織は、2022 年 4 月 1 日から TPM 4.0.0 以上のみを使用できます。
+過去 3 か月間 (Jan'22 – Mar'22) に Teams PowerShell モジュールを使用していない組織は、2022 年 4 月 1 日から 4.x.x シリーズ以上の Teams PowerShell モジュールのみを使用できます。
 
 
 
 ## <a name="current-organizations-tpm-active"></a>現在の組織 (TPM アクティブ)
 
-過去 3 か月間 (Jan'22 – Mar'22) に TPM を使用している組織は、2022 年 6 月 15 日から TPM 4.0.0 以上のみを使用できます。 PowerShell モジュールを最新バージョンTeams更新をお勧めします。
+過去 3 か月間 (Jan'22 – Mar'22) に Teams PowerShell モジュールを使用している組織は、2022 年 6 月 15 日から 4.x.x シリーズ以上の Teams PowerShell モジュールのみを使用できます。 
+
 
 
 ## <a name="important-notes"></a>重要な注意事項
@@ -54,10 +55,10 @@ Teams に新しくオンボードする組織は、2022 年 4 月 1 日から Te
 
 -   PowerShell モジュール バージョン 1.1.6 Teamsから更新する場合は、 ではなく を使用するスクリプト`Connect-MicrosoftTeams`を更新します`New-CsOnlineSession`。
 
--   更新中は、3.0.0 より前のバージョンと共に TPM 4.x.x/3.x.x を使用しない方が推奨されます。 たとえば、同じ組織内の異なる管理操作にバージョン 4.0.0 & 2.6.0 を組み合わせて使用する場合は、お勧めしません。 
+-   更新中は、3.0.0 より前のバージョンと共に TPM 4.x.x/3.x.x を使用しない方が推奨されます。 たとえば、同じ組織内の異なる管理操作にバージョン 4.x.x & 2.6.0 を組み合わせて使用する場合は、お勧めしません。 
 
 - 関連する変更
-  * TPM 3.0.0 以上の Get-CsOnlineUser & Get-CsOnlineVoiceUser の更新プログラム – 詳細については、「[Get-CsOnlineUserGet-CsOnlineVoiceUser](/powershell/module/skype/get-csonlineuser) &  (メッセージ センターの投稿 – MC340774)」を参照してください。[](/powershell/module/skype/get-csonlinevoiceuser)
+  * TPM 3.x.x 以上の Get-CsOnlineUser & Get-CsOnlineVoiceUser の更新プログラム – 詳細については、「[Get-CsOnlineUserGet-CsOnlineVoiceUser](/powershell/module/skype/get-csonlineuser) &  (メッセージ センターの投稿 – MC340774)」を参照してください。[](/powershell/module/skype/get-csonlinevoiceuser)
 
   * 電話 番号の割り当てに関する変更 - [Set-CsUser](/powershell/module/skype/set-csuser)、[Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser)、[Set-CsOnlineApplicationInstanceSet-CsOnlineVoiceApplicationInstance](/powershell/module/skype/set-csonlineapplicationinstance) &  の詳細 (メッセージ センターの投稿 – MC316139)[](/powershell/module/skype/set-csonlinevoiceapplicationinstance)
 

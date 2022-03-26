@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 最適な結果を生み出す可能性があるMicrosoft Teams電話について学習します。
-ms.openlocfilehash: 745252b624f6b64800c91b91a9d1a6ee60f21614
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 3418abb7196e855ab86fff72bc7c1e10eb37bfc0
+ms.sourcegitcommit: d3d3d5a70a69359fc71f072ad6c651556f4eda00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711951"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63783916"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams認定 Android デバイス
 
@@ -102,6 +102,7 @@ Microsoft は、認定期間を超えて、認定期間の終了後 2 年間、�
 
 | デバイス モデル| ファームウェアのバージョン | 現在の認定終了日 | Android OS バージョン |                                         
 |:------------------------|:-----------------|:--------------|-----------------------|
+|ニート バー         | `NFB1.20220211.1158` | 2023 年 8 月 5 日 | 9 |
 |クレスロン TSS-770 | `1.003.0082` |2022 年 12 月 5 日  | 8.1 |
 |クレスロン TSS-1070 | `1.003.0082`|2022 年 12 月 5 日 | 8.1 |
 |Yealink RoomPanel | `147.15.0.1`|2023 年 8 月 5 日   | 9 |
