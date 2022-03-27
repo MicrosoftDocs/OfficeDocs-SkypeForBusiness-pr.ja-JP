@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Teams App Submission API を使用して送信されるカスタム アプリを承認する方法について説明Microsoft Teams。
-ms.openlocfilehash: 3a4dfc0b14f20f367cd3580c5366adc26233dde9
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: c414bf8af8dc7edbea8376031592260142d67732
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442333"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456920"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Teams App Submission API を使用して送信されたカスタム アプリを発行する
 
@@ -50,17 +50,17 @@ ms.locfileid: "63442333"
 
 ### <a name="submit-the-app"></a>アプリを送信する
 
-アプリを実稼働環境で使用する準備ができたら、開発者は Teams App Submission API を使用してアプリを送信できます。この API は[、Graph API](/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog)、Visual Studio Code などの統合された開発環境 (IDE)、または Power Apps や Power Virtual Agents などのプラットフォームから呼び出されます。 これにより、アプリを管理センターの [[](/microsoftteams/manage-apps)アプリの管理] ページMicrosoft Teams確認して承認できます。
+アプリを実稼働環境で使用する準備ができたら、開発者は Teams App Submission API を使用してアプリを送信できます。この API は[、Graph API](/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog&preserve-view=true)、Visual Studio Code などの統合された開発環境 (IDE)、または Power Apps や Power Virtual Agents などのプラットフォームから呼び出されます。 これにより、管理センターの [アプリの[](/microsoftteams/manage-apps)管理] ページTeamsアプリを確認および承認できます。
 
-[Microsoft Graph](/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog) 上に構築された Teams App Submission API を使用すると、組織は選択したプラットフォーム上で開発し、Teams 上のカスタム アプリの提出から承認へのプロセスを自動化できます。
+[Microsoft Graph](/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog&preserve-view=true) 上に構築された Teams App Submission API を使用すると、組織は選択したプラットフォーム上で開発し、Teams 上のカスタム アプリの提出から承認へのプロセスを自動化できます。
 
 このアプリの提出手順の例を次に示します。この手順は次Visual Studio Code。
 
 ![アプリを送信Visual Studio Code。](media/custom-app-lifecycle-submit-app.png)
 
-これにより、組織のアプリ ストアにアプリがまだ発行されていないことに気を付ける必要があります。 この手順では、アプリを Microsoft Teams 管理センターに送信し、組織のアプリ ストアへの発行を承認できます。
+これにより、組織のアプリ ストアにアプリがまだ発行されていないことに気を付ける必要があります。 この手順では、アプリを Teams 管理センターに送信し、組織のアプリ ストアへの発行を承認できます。
 
-Graph API を使用してアプリを送信する方法の詳細については、こちらを参照[してください](/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog)。
+Graph API を使用してアプリを送信する方法の詳細については、こちらを参照[してください](/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog&preserve-view=true)。
 
 ## <a name="notify"></a>通知
 
@@ -89,7 +89,7 @@ Graph API を使用してアプリを送信する方法の詳細については�
 
 ## <a name="validate"></a>検証
 
-Microsoft Teams [](/microsoftteams/manage-apps) 管理センターの [アプリの管理] ページ (左側のナビゲーションの [**[Teams** **appsManage** >  apps](https://admin.teams.microsoft.com/manage-apps)] に移動すると、組織のすべての Teams アプリが表示されます。 ページ **の上部にある** [承認待ち] ウィジェットでは、カスタム アプリが承認のためにいつ送信されたのか確認できます。
+Teams [](/microsoftteams/manage-apps) 管理センターの [アプリの管理] ページ (左側のナビゲーションの [**[Teams** **appsManage** >  apps](https://admin.teams.microsoft.com/manage-apps)] に移動すると、組織のすべての Teams アプリが表示されます。 ページ **の上部にある** [承認待ち] ウィジェットでは、カスタム アプリが承認のためにいつ送信されたのか確認できます。
 
 この表では、新しく送信されたアプリの発行状態が [**送信** 済み] と [状態] が **[ブロック] に自動的****に表示されます**。 [発行の状態 **] 列を** 降順で並べ替え、アプリをすばやく見つける。
 
@@ -99,14 +99,15 @@ Microsoft Teams [](/microsoftteams/manage-apps) 管理センターの [アプリ
 
 ![送信されたアプリのアプリの詳細ページ。](media/custom-app-lifecycle-app-details.png)
 
-Graph API を使用して発行の状態を確認する方法の詳細 **については**、こちらを参照 [してください](/graph/api/appcatalogs-list-teamsapps?tabs=http&view=graph-rest-beta#example-3-find-application-based-on-the-teams-app-manifest-id)。
+Graph API を使用して発行の状態を確認する方法の詳細 **については**、こちらを参照 [してください](/graph/api/appcatalogs-list-teamsapps?tabs=http&view=graph-rest-beta#example-3-find-application-based-on-the-teams-app-manifest-id&preserve-view=true)。
 
 ## <a name="publish"></a>発行
 
 アプリをユーザーが利用できる状態にできたら、アプリを発行します。
 
-1. Microsoft Teams 管理センターの左側のナビゲーションで、**[Teams アプリ]** > **[アプリを管理]** の順に移動します。
-2. アプリ名をクリックしてアプリの詳細ページに移動し、[発行状態]  ボックスで [発行] を選択 **します**。
+1. 管理センター [Teamsログインします](https://admin.teams.microsoft.com/dashboard)。
+1. 左側のウィンドウで、[アプリの管理 **] Teamsに** > **移動します**。
+1. アプリ名を選択してアプリの詳細ページに移動し、[発行の状態] ボックスで [発行] を選択 **します**。
 
     ![アプリの詳細ページの [発行] ボタン。](media/submitted-app-pending-action.png)
 
@@ -126,7 +127,7 @@ Graph API を使用して発行の状態を確認する方法の詳細 **につ�
 
 監査ログを検索して、組織内のTeamsアクティビティを表示できます。 監査ログを検索する方法と、監査ログに記録されている Teams アクティビティの一覧を表示する方法の詳細については、「Teams でイベントの監査ログを検索する」[を](audit-log-events.md)参照してください。
 
-監査ログを検索できるようになるには、最初に[セキュリティ/コンプライアンス センター](https://sip.protection.office.com/) で監査をオンにする必要があります。 詳細については、「[監査ログの検索を有効または無効にする](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide)」を参照してください。 利用できる監査データは、監査を有効にした時点以降のデータのみであることにご注意ください。
+監査ログを検索できるようになるには、最初に[セキュリティ/コンプライアンス センター](https://sip.protection.office.com/) で監査をオンにする必要があります。 詳細については、「[監査ログの検索を有効または無効にする](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&preserve-view=true)」を参照してください。 利用できる監査データは、監査を有効にした時点以降のデータのみであることにご注意ください。
 
 ## <a name="discover-and-adopt"></a>検出して採用する
 
@@ -146,7 +147,7 @@ Graph API を使用して発行の状態を確認する方法の詳細 **につ�
 
 アプリの更新プログラムを確認して発行するには:
 
-1. Microsoft Teams 管理センターの左側のナビゲーションで、**[Teams アプリ]** > **[アプリを管理]** の順に移動します。
+1. 管理センターの左側のナビゲーションTeamsアプリの管理Teams **に** > **移動します**。
 2. アプリ名をクリックしてアプリの詳細ページに移動し、[利用可能な更新] を選択して更新の詳細を確認します。
 
     ![アプリの詳細ページ。](media/custom-app-lifecycle-update-app.png)
@@ -159,7 +160,7 @@ Graph API を使用して発行の状態を確認する方法の詳細 **につ�
 - アプリが承認されると、誰でもアプリに更新を送信できます。 つまり、アプリを最初に送信した開発者を含む他の開発者は、アプリに更新プログラムを送信できます。
 - 開発者がアプリを送信し、要求が保留中の場合、同じ開発者だけがアプリに更新を送信できます。 他の開発者は、アプリが承認された後にのみ更新プログラムを送信できます。
 
-Graph API を使用してアプリを更新する方法の詳細については、こちらを参照[してください](/graph/api/teamsapp-update?view=graph-rest-1.0&tabs=http)。
+Graph API を使用してアプリを更新する方法の詳細については、こちらを参照[してください](/graph/api/teamsapp-update?view=graph-rest-1.0&tabs=http&preserve-view=true)。
 
 ## <a name="related-topics"></a>関連項目
 

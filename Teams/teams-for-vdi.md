@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ff97fae1fb2483dcddf301715018b6a94f908a7
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: d0f2364471b3800042e7536d1013b82d76209a02
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711441"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64457070"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -487,6 +487,10 @@ if($cleanup){
 - Teams は、ユーザーごとまたはマシンごとに展開する必要があります。 Teams のユーザーごとおよびマシンごとの同時展開はサポートされていません。 マシンごとまたはユーザーごとからこれらのモードのいずれかに移行するには、アンインストール手順に従っていずれかのモードに再展開します。
 - 現時点では、Azure Virtual Desktop は macOS および Linux ベースのクライアントをサポートしていません。
 - テナントの切り替えが速いと、画面共有が利用できないなど、VDI で通話関連の問題が発生する可能性があります。 クライアントを再起動すると、これらの問題が軽減されます。
+
+### <a name="notifications"></a>通知
+
+- タスク バーのメッセージ数の通知とWindowsは、ホスト上ではWindows Server 2016されません。
 
 ### <a name="calling-and-meetings"></a>通話と会議
 

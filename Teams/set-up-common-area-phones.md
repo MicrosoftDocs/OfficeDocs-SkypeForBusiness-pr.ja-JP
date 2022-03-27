@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 'ロビー、受付エリア、会議室に共通領域電話を設定する方法について説明します '
-ms.openlocfilehash: 144e32e1bf56bc3e2d64d0c6a1a137fd501442b7
-ms.sourcegitcommit: 5aae5eace62e491dac655882d24974824ce1aa07
+ms.openlocfilehash: 313a17d1829c8f3584ec5fb7f37e5f1ec49231d0
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "62856665"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456940"
 ---
 # <a name="deploy-common-area-phones-for-microsoft-teams"></a>一般的な地域の電話を展開Microsoft Teams
 
@@ -65,24 +65,24 @@ ms.locfileid: "62856665"
 
 2. [カテゴリ **別に表示]** セクションが表示されていない場合は、[ **Microsoft** から購入] に移動し、[製品の表示] **を選択します**。 次に、[ **コラボレーションとコミュニケーション] を選択します**。  
 
-3. 製品一覧で [共通領域] を **探電話** 詳細] を **選択します**。
+3. 製品一覧で [共通領域] を **探し電話** 詳細] を **選択します**。
 
 4. 必要なライセンス数を入力し、[購入] を **選択します**。
 
 >[!NOTE]
->環境内で Intune を使用し、デバイスのコンプライアンスを必要とする条件付きアクセス規則がある場合は、共通領域電話のデバイス アカウントに Azure Active Directory Premium プラン 1 と Intune ライセンスを割り当てる必要があります。
+>環境内で Intune を使用し、デバイスのコンプライアンスを必要とする条件付きアクセス規則がある場合は、共通エリア電話のデバイス アカウントに Azure Active Directory Premium プラン 1 と Intune ライセンスを割り当てる必要があります。
 >
 >一般的なエリア電話は、条件付きアクセス規則や、Multi-Factor Authentication などの他の ID 構成の影響を受け得る可能性があります。 詳細については[、「Teams Android デバイスの認証のベスト プラクティス](devices/authentication-best-practices-for-android-devices.md)」を参照してください。
 
 ## <a name="step-2---create-a-new-user-account-and-assign-licenses"></a>手順 2 - 新しいユーザー アカウントを作成し、ライセンスを割り当てる
 
-### <a name="using-the-microsoft-365-admin-center"></a>アプリケーションのMicrosoft 365 管理センター
+### <a name="using-the-microsoft-365-admin-center"></a>コマンドを使用Microsoft 365 管理センター
 
 一度に複数の共通領域電話を展開する場合は、PowerShell を使用してアカウントを作成し、ライセンスを割り当てる [方法について説明します](#using-powershell)。
 
 1 つのデバイスをデプロイする場合:
 
-1. [ユーザー] Microsoft 365 管理センターユーザーの **追加]** > **に** > **移動します**。
+1. [ユーザー] Microsoft 365 管理センターユーザーの **追加]** >  **に** > **移動します**。
 
 2. 名には "Main" のようなユーザー名を入力し、2 番目の名前には "フロント" を入力します。
 
@@ -104,7 +104,7 @@ ms.locfileid: "62856665"
 
 ### <a name="using-powershell"></a>PowerShell の使用
 
-複数のユーザー アカウントのライセンスを一度に作成して割り当てる場合は、PowerShell を使用します。 詳細[については、「PowerShell Microsoft 365を使用して](/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide)ユーザー アカウントを作成する」および「[PowerShell Microsoft 365 ライセンス](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide)をユーザー アカウントに割り当てる」を参照してください。
+複数のユーザー アカウントのライセンスを一度に作成して割り当てる場合は、PowerShell を使用します。 詳細[については、「PowerShell Microsoft 365を使用してユーザー](/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide) アカウントを作成する」および「[PowerShell Microsoft 365ライセンス](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide)をユーザー アカウントに割り当てる」を参照してください。
 
 ## <a name="step-3---set-policies-for-common-area-phones"></a>手順 3 - 共通エリア電話のポリシーを設定する
 
@@ -121,9 +121,9 @@ ms.locfileid: "62856665"
 
 ### <a name="calling-policies"></a>通話ポリシー
 
-通話ポリシーを使用して、プライベート通話、着信の転送、または共通エリアの電話での同時呼び出しを有効にします。 詳細[については、「通話と転送」](teams-calling-policy.md)Teamsを参照してください。
+通話ポリシーを使用して、プライベート通話、着信の転送、または共通エリアの電話での同時呼び出しを有効にします。 詳細[については、「Teamsの](teams-calling-policy.md)呼び出しと転送」を参照してください。
 
-既定では、コール パークは一般的なエリアの電話に対して有効になっていません。 ポリシーを有効にするには、ポリシーを作成する必要があります。 詳細[については、「Call park and retrieve in Microsoft Teams in](call-park-and-retrieve.md) Microsoft Teams」を参照してください。
+既定では、コール パークは一般的なエリアの電話に対して有効になっていません。 ポリシーを有効にするには、ポリシーを作成する必要があります。 詳細[については、「Call park and retrieve in Microsoft Teams](call-park-and-retrieve.md) in Microsoft Teams」を参照してください。
 
 ## <a name="step-4---acquire-and-assign-phone-numbers"></a>手順 4 - 電話番号を取得して割り当てる
 
@@ -147,6 +147,9 @@ PSTN [接続オプションに基づいて電話番号](manage-phone-numbers-lan
 
 3. デバイスのサインインの指示に従います。 サインインすると、電話に共通領域の電話ユーザー エクスペリエンスが表示されます。
 
+> [!NOTE]
+> 呼び出し元アプリのピン留めを解除するカスタム セットアップ ポリシーを使用している場合、ダイヤル パッドは [共通領域] ウィンドウに表示電話。 セットアップ ポリシーの詳細についてはTeamsでアプリセットアップ ポリシーを管理する[方法に関するページMicrosoft Teams](/microsoftteams/teams-app-setup-policies)。
+
 ### <a name="sign-in-from-another-device"></a>別のデバイスからサインインする
 
 コードを使用して、別のデバイスから共通のエリア電話にサインインすることもできます。 この方法でサインインすると、電話自体ではなく、別のデバイスでユーザー名とパスワードを入力します。
@@ -159,11 +162,11 @@ PSTN [接続オプションに基づいて電話番号](manage-phone-numbers-lan
 
 ### <a name="sign-in-using-the-teams-admin-center"></a>管理センターでサインインTeamsする
 
-管理者は、管理センターから一般的な地域の電話をリモートでプロビジョニングTeamsできます。 これは、一度に多数の電話を展開する場合に最も効率的なサインイン方法です。 詳細[については、「Android デバイスのリモート プロビジョニングTeamsサインイン」](devices/remote-provision-remote-login.md)を参照してください。
+管理者は、管理センターから共通エリア電話をリモートでプロビジョニングTeamsできます。 これは、一度に多数の電話を展開する場合に最も効率的なサインイン方法です。 詳細[については、Android デバイスのリモート プロビジョニングTeamsサインインに関する](devices/remote-provision-remote-login.md)ページを参照してください。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
-組織の共通領域電話をセットアップしてサインインしたので、管理センターで管理Teamsできます。 詳細[についてはMicrosoft Teams: デバイスの管理に関するページ](devices/device-management.md)を参照してください。
+組織の共通領域電話を設定してサインインしたので、管理センターで管理Teamsできます。 詳細[についてはMicrosoft Teams: デバイスの管理に関するページ](devices/device-management.md)を参照してください。
 
 ## <a name="related-topics"></a>関連項目
 

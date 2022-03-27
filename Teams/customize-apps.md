@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: アプリをカスタマイズする方法については、Microsoft Teams。
-ms.openlocfilehash: 1f32b7f7d00b6737d959a1687574ce4560bd4725
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: a8862e5c8b8d7d63f88274ed47cf647572b54401
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442643"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456900"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>アプリをカスタマイズMicrosoft Teams
 
@@ -67,7 +67,7 @@ ms.locfileid: "63442643"
 
      ![選択オプションをカスタマイズする 2.](media/app-details-customizable.png)
 
-   - アプリ名を選択し、[アクション] ドロップダウン **から [カスタマイズ** ] **を選択** します。
+   - アプリ名を選択し、[アクション] の [ **オーバーフロー] メニュー** ホバーを **クリックし、[** カスタマイズ] を選択します。
 
      ![選択オプションのカスタマイズ 3.](media/customize-action-menu.png)
 
