@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b84957e7451b75b804d2c279e160a260dabfbea8
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: d00cc5cd41d0b48f55564894a78f066406288151
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579537"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456950"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでチームを管理する
 
@@ -32,18 +32,19 @@ ms.locfileid: "60579537"
 
 この記事では、Microsoft Teams の管理センターでの Teams 管理ツールの概要を説明します。
 
-管理者である場合、自分の組織で共同作業のためにセットアップしたチームを表示したり更新したりする必要性が生じます。また、所有者のいないチームに所有者を割り当てるなどの修復アクションを実行しなければならない場合もあります。 組織のチームは、Microsoft Teams PowerShell モジュールと Microsoft Teams 管理センターの両方から管理することができます。 お客様は<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>にて、管理センターにアクセスできます。 これらの 2 つのツールセットを使用した完全な管理機能については、次の役割の 1 つが割り当てられることを確認する必要があります。
+管理者である場合、自分の組織で共同作業のためにセットアップしたチームを表示したり更新したりする必要性が生じます。また、所有者のいないチームに所有者を割り当てるなどの修復アクションを実行しなければならない場合もあります。 組織のチームは、Microsoft Teams PowerShell モジュールと Microsoft Teams 管理センターの両方から管理することができます。 お客様は<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>にて、管理センターにアクセスできます。 これらの 2 つのツールセットを使用した完全な管理機能については、次の役割の 1 つが割り当てられていることを確認する必要があります。
 
 - グローバル管理者
 - Teams 管理者
 
 Teams での管理者の役割の詳細については、「[ Microsoft Teams の管理者ロールを使用して Teams を管理する](using-admin-roles.md)」をご覧ください。また、PowerShell コマンドレットを使用してチームを管理する方法の詳細については、「[Microsoft Teams コマンドレットのリファレンス](/powershell/teams/)」をご覧ください。
 
-
+> [!NOTE]
+> Skype for Business Online 管理者は、PowerShell を使用して **Teams** と **Skype for Business Online** の両方のアプリ ポリシーを管理できます。
 
 ## <a name="teams-overview-grid"></a>Teams の概要グリッド
 
-チームの管理ツールは、Microsoft Teams 管理センターの [**Teams**] ノードの下にあります。 (管理センターでは、[**Teams**] > [**チームの管理**] を選択します。)各チームは Microsoft 365 グループによって支えられていて、このノードは自分の組織内で Microsoft Teams に対応しているグループの表示を提供します。
+Teams 用の管理ツールは、Microsoft Teams 管理センターの **[Teams]** ノードの下にあります (管理センターで **[Teams]** > **[チームの管理]** を選択します)。各チームは Microsoft 365 グループによって支援され、所属組織内で Microsoft Teams に対応しているグループがこのノードによって表示されます。
 
 ![Teams の概要グリッドのスクリーンショット。](media/manage-teams-in-modern-portal-grid.png)  
 
@@ -65,7 +66,7 @@ Teams での管理者の役割の詳細については、「[ Microsoft Teams �
 
 ### <a name="add"></a>追加
 
-新しいチームを追加するには、**[追加]** をクリックします。 **[新しいチームの追加]** ウィンドウで、チームの名前と説明を入力し、プライベート チームかパブリック チームのどちらにするかを決定し、分類を設定します。
+新しいチームを追加するには **[追加]** をクリックします。**[新しいチームの追加]** ウィンドウでチームの名前と説明を入力し、プライベート チームかパブリック チームのどちらにするかを決定し、分類を設定します。
 
 > [!NOTE]
 > 新しく作成されたチームは、Outlook などの他のクライアントのエクスペリエンスとは異なり、Teams 管理センターで簡単に管理できます。

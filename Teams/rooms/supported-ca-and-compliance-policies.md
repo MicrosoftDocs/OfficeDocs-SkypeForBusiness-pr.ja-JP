@@ -12,12 +12,12 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 description: Microsoft Teams Rooms でサポートおよび推奨される条件付きアクセスポリシーと Intune デバイス コンプライアンス ポリシーについてMicrosoft Teamsします。
-ms.openlocfilehash: f3b115430779324a260232ce45ba125859abdde8
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: ea27f71a7d4f64bc1d9e8c8a3cd3d7b2a52151f3
+ms.sourcegitcommit: ecc67b7b9378cc72f85517f30c32680045056fda
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63689134"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "64504197"
 ---
 # <a name="supported-conditional-access-and-intune-device-compliance-policies-for-microsoft-teams-rooms"></a>Microsoft Teams Rooms でサポートされている条件付きアクセスポリシーと Intune デバイス コンプライアンス ポリシー
 
@@ -28,7 +28,7 @@ ms.locfileid: "63689134"
 
 ## <a name="supported-conditional-access-policies"></a>サポートされている条件付きアクセス ポリシー  
 
-次の一覧には、Teams Rooms on Windows Android でサポートされている条件付きアクセス ポリシーが含まれています。
+次の一覧には、Teams および Android 上の Windows条件付きアクセス ポリシーが含まれています。 サポートされている Android ポリシーは、すべての Android デバイス、スマートフォン、パネルに適用されます。
 
 | 割り当て | Windows | Android |
 |------------|---------|---------|

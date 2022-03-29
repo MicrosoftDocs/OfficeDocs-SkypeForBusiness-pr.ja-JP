@@ -3,6 +3,86 @@
 
 
 
+## <a name="week-of-march-21-2022"></a>2022 年 3 月 21 日の週
+
+
+| 公開日 |トピックのタイトル | 変更 |
+|------|------------|--------|
+| 3/21/2022 | [Microsoft Teams の共有チャネル (プレビュー)](/MicrosoftTeams/shared-channels) | 追加済 |
+| 3/21/2022 | [Microsoft Teams でチーム所有者とメンバーを割り当てる](/MicrosoftTeams/assign-roles-permissions) | 更新日時 |
+| 3/21/2022 | [Microsoft Teams でイベントの監査ログを検索する。](/MicrosoftTeams/audit-log-events) | 更新日時 |
+| 3/21/2022 | [チームを編成するためのベスト プラクティス](/MicrosoftTeams/best-practices-organizing) | 更新日時 |
+| 3/21/2022 | [Microsoft Teams のチャット、チーム、チャネル、およびアプリ](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | 更新 |
+| 3/21/2022 | [Teams 用のデバイス](/MicrosoftTeams/devices/teams-ip-phones) | 更新日時 |
+| 3/21/2022 | [コンテンツの電子情報開示調査を実施する](/MicrosoftTeams/ediscovery-investigation) | 更新日時 |
+| 3/21/2022 | [Microsoft Teams for Educationウィザードを使用して、安全な学習のためにポリシーを簡単に適用する](/MicrosoftTeams/easy-policy-setup-edu) | 更新日時 |
+| 3/21/2022 | [仮想アクセスと Teams - Cerner EHR への統合](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin-cerner) | 更新日時 |
+| 3/21/2022 | [Teams 管理センターで Teams テンプレートの使用を開始する](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | 更新日時 |
+| 3/21/2022 | [Microsoft Teams でのゲスト アクセス](/MicrosoftTeams/guest-access) | 更新日時 |
+| 3/21/2022 | [Microsoft Teams ユーザーまたはチームを訴訟ホールドの対象にする](/MicrosoftTeams/legal-hold) | 更新 |
+| 3/21/2022 | [Microsoft Teams の制限事項と仕様](/MicrosoftTeams/limits-specifications-teams) | 更新日時 |
+| 3/21/2022 | [チャネル モデレーションの設定と管理](/MicrosoftTeams/manage-channel-moderation-in-teams) | 更新日時 |
+| 3/21/2022 | [Microsoft Teams でタグを管理する](/MicrosoftTeams/manage-tags) | 更新日時 |
+| 3/21/2022 | [Teams のメッセージング ポリシーを管理する](/MicrosoftTeams/messaging-policies-in-teams) | 更新日時 |
+| 3/21/2022 | [Slack から Microsoft Teams に移行する](/MicrosoftTeams/migrate-slack-to-teams) | 更新日時 |
+| 3/21/2022 | [Teamsの種類に基づいてアプリの動作を変更する](/MicrosoftTeams/non-standard-users) | 更新日時 |
+| 3/21/2022 | [Teams でのガバナンスを計画する - Microsoft Teams](/MicrosoftTeams/plan-teams-governance) | 更新日時 |
+| 3/21/2022 | [Microsoft Teams のプライベート チャネル](/MicrosoftTeams/private-channels) | 更新日時 |
+| 3/21/2022 | [Skype for Business Online のサポート終了](/MicrosoftTeams/skype-for-business-online-retirement) | 更新日時 |
+| 3/21/2022 | [Microsoft Teams でのチームとチャネルの概要](/MicrosoftTeams/teams-channels-overview) | 更新日時 |
+| 3/21/2022 | [チャネル ポリシーを管理する Microsoft Teams](/MicrosoftTeams/teams-policies) | 更新日時 |
+| 3/21/2022 | [Teams Microsoft Power Platform との統合](/MicrosoftTeams/teams-power-platfom-integration) | 更新日時 |
+| 3/21/2022 | [情報バリアと共有チャネル (プレビュー)](/MicrosoftTeams/information-barriers-shared-channels) | 追加済 |
+| 3/21/2022 | [Microsoft Teams の情報バリア](/MicrosoftTeams/information-barriers-in-teams) | 更新日時 |
+| 3/21/2022 | [CQD レポートをPower BIして通話キュー履歴自動応答 &を表示する](/MicrosoftTeams/cqd-teams-aa-cq-historical-report) | 更新日時 |
+| 3/21/2022 | [自動応答 &キュー履歴レポート](/MicrosoftTeams/aa-cq-cqd-historical-reports) | 更新日時 |
+| 3/21/2022 | [ユーザーの自動応答を設定Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 更新日時 |
+| 3/21/2022 | [次のページで呼び出しキューをMicrosoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | 更新日時 |
+| 3/21/2022 | [自動応答と通話キューのダイヤルと音声認識のリファレンス](/MicrosoftTeams/dial-voice-reference) | 更新日時 |
+| 3/21/2022 | [Teams のアイテム保持ポリシーを管理する](/MicrosoftTeams/retention-policies) | 更新日時 |
+| 3/21/2022 | [Microsoft Teams Rooms の要件](/MicrosoftTeams/rooms/requirements) | 更新日時 |
+| 3/21/2022 | [Teams の会議室ガイダンス](/MicrosoftTeams/teams-meeting-room-guidance) | 更新日時 |
+| 3/22/2022 | [Microsoft Teamsの標準と会議室の計画](/MicrosoftTeams/rooms/standards-and-room-planner) | 更新日時 |
+| 3/22/2022 | [Microsoft Teams でのチームとチャネルの概要](/MicrosoftTeams/teams-channels-overview) | 更新日時 |
+| 3/22/2022 | [仮想デスクトップ インフラストラクチャ用の Teams](/MicrosoftTeams/teams-for-vdi) | 更新日時 |
+| 3/22/2022 | [Microsoft Teams PowerShell リリース ノート](/MicrosoftTeams/teams-powershell-release-notes) | 更新日時 |
+| 3/22/2022 | [Microsoft Teams でタグを管理する](/MicrosoftTeams/manage-tags) | 更新日時 |
+| 3/23/2022 | [ユーザーとグループにポリシーを割り当てる](/MicrosoftTeams/assign-policies-users-and-groups) | 更新日時 |
+| 3/23/2022 | [Microsoft Teamsドキュメント # < 60 文字](/MicrosoftTeams/index) | 更新日時 |
+| 3/23/2022 | [Microsoft Teams のプライベート チャネル](/MicrosoftTeams/private-channels) | 更新日時 |
+| 3/23/2022 | [Azure Monitor Microsoft Teams会議室デバイスを監視する](/MicrosoftTeams/rooms/azure-monitor-manage) | 更新日時 |
+| 3/23/2022 | [Teams PowerShell モジュール - サポートされているバージョン](/MicrosoftTeams/teams-powershell-supported-versions) | 更新日時 |
+| 3/23/2022 | [会議をTeamsするポリシー ベースの記録の概要&説明](/MicrosoftTeams/teams-recording-policy) | 更新日時 |
+| 3/23/2022 | [ダイレクトルーティングが認定されたセッションボーダーコントローラー](/MicrosoftTeams/direct-routing-border-controllers) | 更新日時 |
+| 3/23/2022 | [ユーザーに直接ルーティングを有効にする](/MicrosoftTeams/direct-routing-enable-users) | 更新日時 |
+| 3/23/2022 | [電話システムのダイレクト ルーティング](/MicrosoftTeams/direct-routing-protocols-sip) | 更新日時 |
+| 3/23/2022 | [Microsoft Teams のトラブルシューティングでログ ファイルを使用する](/MicrosoftTeams/log-files) | 更新 |
+| 3/23/2022 | [管理センターでアプリMicrosoft Teamsする](/MicrosoftTeams/manage-apps) | 更新日時 |
+| 3/23/2022 | [フロントTeamsに合わせてアプリをカスタマイズする](/MicrosoftTeams/pin-teams-apps-based-on-license) | 更新日時 |
+| 3/23/2022 | [SIP ゲートウェイの構成](/MicrosoftTeams/sip-gateway-configure) | 更新日時 |
+| 3/23/2022 | [Microsoft Teams のアプリのセットアップ ポリシーを管理する](/MicrosoftTeams/teams-app-setup-policies) | 更新日時 |
+| 3/24/2022 | [Teams 用のデバイス](/MicrosoftTeams/devices/teams-ip-phones) | 更新日時 |
+| 3/24/2022 | [Skype for Business Online のサポート終了](/MicrosoftTeams/skype-for-business-online-retirement) | 更新日時 |
+| 3/24/2022 | [Teams PowerShell モジュール - サポートされているバージョン](/MicrosoftTeams/teams-powershell-supported-versions) | 更新日時 |
+| 3/24/2022 | [Business Online をSkype \| アップグレードをサポートTeamsアップグレード](/MicrosoftTeams/upgrade-assisted) | 更新日時 |
+| 3/24/2022 | [Microsoft Teams のアプリ、ボット、およびコネクタ](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 更新日時 |
+| 3/24/2022 | [ディメンションと測定値 - 通話品質ダッシュボード (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 更新日時 |
+| 3/24/2022 | [小売店向けの Teams](/MicrosoftTeams/expand-teams-across-your-org/teams-for-retail-landing-page) | 更新日時 |
+| 3/24/2022 | [コンテンツ共有の会議ポリシーを管理する](/MicrosoftTeams/meeting-policies-content-sharing) | 更新日時 |
+| 3/24/2022 | Teams Microsoft Power Platform との統合 | 削除されました |
+| 3/25/2022 | [ユーザーの電話番号を割り当て、変更、または削除する](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | 更新日時 |
+| 3/25/2022 | [アプリをカスタマイズMicrosoft Teams](/MicrosoftTeams/customize-apps) | 更新日時 |
+| 3/25/2022 | [Teams ストア](/MicrosoftTeams/devices/device-store) | 更新日時 |
+| 3/25/2022 | [Microsoft Teams 管理センターでチームを管理する](/MicrosoftTeams/manage-teams-in-modern-portal) | 更新日時 |
+| 3/25/2022 | [Teams 用に組織のネットワークを準備する](/MicrosoftTeams/prepare-network) | 更新日時 |
+| 3/25/2022 | [共通領域電話のライセンスをセットアップする](/MicrosoftTeams/set-up-common-area-phones) | 更新日時 |
+| 3/25/2022 | [Teams アプリ送信 API を使用してカスタム アプリを送信および承認する](/MicrosoftTeams/submit-approve-custom-apps) | 更新日時 |
+| 3/25/2022 | [Microsoft Teams のアプリのアクセス許可ポリシーを管理する](/MicrosoftTeams/teams-app-permission-policies) | 更新日時 |
+| 3/25/2022 | [仮想デスクトップ インフラストラクチャ用の Teams](/MicrosoftTeams/teams-for-vdi) | 更新日時 |
+| 3/25/2022 | [Business Online をSkype \| アップグレードをサポートTeamsアップグレード](/MicrosoftTeams/upgrade-assisted) | 更新日時 |
+| 3/25/2022 | [Microsoft Teams の管理者ロールを使用して Teams を管理する](/MicrosoftTeams/using-admin-roles) | 更新日時 |
+
+
 ## <a name="week-of-march-14-2022"></a>2022 年 3 月 14 日の週
 
 

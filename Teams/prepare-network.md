@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: f9e11a089c75f1060e509dc9895e97176fc30345
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 748380aec60c578ff6c2b7687cd51a8a07a8024c
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456347"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64457060"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams 用に組織のネットワークを準備する 
 
@@ -91,7 +91,7 @@ ms.locfileid: "59456347"
 </tr>
 <tr class="even">
 <td>Teams のアドバイザー</td>
-<td><a href="/microsoftteams/use-advisor-teams-roll-out">Teams のアドバイザー</a>は、<a href="https://admin.teams.microsoft.com">Teams 管理センター</a>の一部です。 Microsoft 365 または Office 365 の環境を評価し、Teams を正常に展開する前に更新または変更する必要がある最も一般的な構成を特定します。</td>
+<td><a href="/microsoftteams/use-advisor-teams-roll-out">Teams アドバイザー</a>は <a href="https://admin.teams.microsoft.com">Teams管理センター</a>に所属しています。Microsoft 365 または Office 365 の環境を評価し、Teams を正常に展開する前に更新または変更する必要がある最も一般的な構成を特定します。</td>
 </tr>
 <tr class="odd">
 <td>外部の名前解決</td>
@@ -106,7 +106,7 @@ ms.locfileid: "59456347"
 </tr>
 <tr class="even">
 <td>Microsoft データ センターへのルーティング</td>
-<td><a href="/office365/enterprise/client-connectivity">Microsoft データ センターへの最も効率的なルーティングを実装します</a>。 ローカルまたは地域の出力ポイントを使用して、Microsoft ネットワークにできるだけ効率的に接続できる場所を特定します。</td>
+<td><a href="/office365/enterprise/client-connectivity">Microsoft データ センターへの最も効率的なルーティングを実装します</a>。ローカルまたは地域の出力ポイントを使用して、Microsoft ネットワークにできるだけ効率的に接続できる場所を特定します。</td>
 </tr>
 <tr class="odd">
 <td>侵入検知/防御のガイダンス</td>
@@ -153,7 +153,7 @@ Teams は、ネットワークの状態に関係なく、最高のオーディ�
       **モダリティ**
    :::column-end:::
    :::column span="3":::
-      **帯域幅の要件 (ビットレート KB/秒 上昇/下降)**
+      **帯域幅の要件 (ビットレート KB/秒 上り/下り)**    
    :::column-end:::
 :::row-end:::
 :::row:::

@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 677ee2b0d57477ee79a9af7510d0ccf2dfbcae28
-ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
+ms.openlocfilehash: 1ed41c595a386607942c81dda8f151435a1d1ac7
+ms.sourcegitcommit: ecc67b7b9378cc72f85517f30c32680045056fda
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63774016"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "64504147"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのセットアップ ポリシーを管理する
 
@@ -57,32 +57,34 @@ ms.locfileid: "63774016"
 |![デスクトップ Teamsクライアント。](media/app-setup-policies-desktop-app-bar.png)<  |   ![モバイル Teamsクライアント](media/mobile-app-ui.png)      |
 
 > [!NOTE]
-> 割り当てMicrosoft Teams for Educationがグローバル ポリシーに既定で固定されている場合でも、現時点ではグローバル ポリシーに表示されません。 これは、クライアント上の固定アプリの一覧の 4 番目Teamsされます。
+> 割り当てMicrosoft Teams for Educationがグローバル ポリシーに既定で固定されている場合でも、現時点ではグローバル ポリシーに表示されません。 これは、クライアント上の固定されたアプリの一覧の 4 番目Teamsされます。
 
 アプリをピン留めするアプリ セットアップ ポリシーを作成するには、次の手順を実行します。
 
-1. 管理センターの左側の [ナビゲーションTeamsアプリ](https://www.admin.teams.microsoft.com)の設定ポリシー **Teams移動** > **します**。
+1. 管理センター [Microsoft Teamsログインします](https://admin.teams.microsoft.com)。
 
-2. **[追加]** を選択します。
+1. 左側のウィンドウで、[アプリの設定 **Teamsに** > **移動します**。
 
-3. ポリシーの名前と説明を入力します。
+1. **[追加]** を選択します。
 
-4. [ユーザー固定 **] をオンにする**。
+1. ポリシーの名前と説明を入力します。
+
+1. [ユーザー固定 **] をオンにする**。
 
    > [!NOTE]
    > ユーザーのピン留め設定は、Microsoft 365 Government Community Cloud (GCC) 環境 (GCC、GCC High、DoD) の Teams 管理センターで使用できますが、現在は無効です。
 
-5. [ピン **留めされたアプリ] で**、[アプリの **追加] を選択します**。
+1. [ピン **留めされたアプリ] で**、[アプリの **追加] を選択します**。
 
-6. [ピン留 **めされたアプリの追加** ] ウィンドウで、追加するアプリを検索し、[追加] を選択 **します**。 アプリのアクセス許可ポリシーでアプリをフィルター処理することもできます。
+1. [ピン留 **めされたアプリの追加** ] ウィンドウで、追加するアプリを検索し、[追加] を選択 **します**。 アプリのアクセス許可ポリシーでアプリをフィルター処理することもできます。
 
-7. **[追加]** を選択します。
+1. **[追加]** を選択します。
 
-8. [**アプリ バー] または** **[メッセージング** 拡張機能] で、アプリをアプリに表示する順序で並Teams。
+1. [**アプリ バー] または** **[メッセージング** 拡張機能] で、アプリをアプリに表示する順序で並Teams。
 
    ![[ピン留めされたアプリ] セクションに移動します。](media/pin-messaging-extensions.png)
 
-9. **[保存]** を選択します。
+1. **[保存]** を選択します。
 
 ## <a name="install-apps"></a>アプリをインストールする
 

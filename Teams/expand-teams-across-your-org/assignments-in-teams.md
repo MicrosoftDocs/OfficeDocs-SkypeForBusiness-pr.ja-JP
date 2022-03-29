@@ -17,29 +17,29 @@ ms.custom:
 - ms.teamsadmincenter.assignments.tooltip.emaildigest
 - ms.teamsadmincenter.assignments.tooltip.makecode
 - ms.teamsadmincenter.assignments.tooltip.turnitin
-description: Microsoft Teams 管理センターで課題を管理する方法についてMicrosoft Teams for Education。
+description: 管理センターの管理センターで課題Microsoft Teamsを管理する方法についてMicrosoft Teams for Education。
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 88414131b5ba8fee750efef8d0b6f6f5313e13fd
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.openlocfilehash: 529240db27824ce8bf872d23636b904198ef7db1
+ms.sourcegitcommit: ecc67b7b9378cc72f85517f30c32680045056fda
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62363143"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "64504137"
 ---
 # <a name="assignments-in-teams-for-education"></a>教育機関向けの Teams の課題 
 
-教師は、学生にタスク、Microsoft Teams for Education、またはテストを割り当て可能な課題と成績機能を提供します。 教師は、課題のタイムラインの管理、手順の管理、リソースの追加、ルーブリックを使用した成績の取得など、その他の操作を行えます。 また、[成績] タブでクラスと個々の学生の進捗状況を追跡することもできます。
+課題と成績の機能Microsoft Teams for Education、教師は学生にタスク、作業、またはテストを割り当てできます。 教師は、課題のタイムラインの管理、手順の管理、リソースの追加、ルーブリックを使用した成績の取得など、その他の操作を行えます。 また、[成績] タブでクラスと個々の学生の進捗状況を追跡することもできます。
 
 [課題と成績の詳細については、Microsoft Teams for Education](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)。
 
 > [!Note]
 > さまざまなプラットフォームでのTeamsの詳細については、「プラットフォーム別のTeams[を参照してください](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
-## <a name="assignments-integrations-in-the-microsoft-teams-admin-center"></a>管理センターでの割りMicrosoft Teams統合
+## <a name="assignments-integrations-in-the-microsoft-teams-admin-center"></a>管理センターでの割り当Microsoft Teams統合
 
-管理センターの管理者設定Microsoft Teams、組織内の教師とその学生の機能を有効またはオフにできます。 課題に関連する設定を次に示します。
+Microsoft Teams 管理センターの管理者設定を使用して、組織内の教師とその学生の機能を有効またはオフにできます。 課題に関連する設定を次に示します。
 
 <a name="#bkemaildigest"> </a>
 
@@ -52,13 +52,13 @@ ms.locfileid: "62363143"
 2. 設定が既定でオフになっているMicrosoft Teams管理センターで [保護者の設定] をオンにします。 これにより、教師は週刊ダイジェストを送信できます。
 
    > [!NOTE]
-   > 教師は、自分の個人クラス チーム内の設定を選択解除することで、ダイジェストをオプトアウトできます ([割り当て] 設定 >**親/** 保護者の電子メール)。
+   > 教師は、自分の個人クラス チーム内の設定を選択解除することで、ダイジェストをオプトアウトできます ([割り当て] 設定 >**親/** 保護者のメール)。
 
 保護者がメールを受け取るのを確認するには、次の 3 つの項目が true である必要があります。
 
 - SDS で学生のプロフィールに添付され、親または保護者としてタグ付 _けされた__メール アドレス。_ 詳細については、「親と保護者 [の同期ファイル形式」を参照してください](/schooldatasync/parent-contact-sync-file-format)。
 
-- 学生は、課題設定で教師がメールを無効にしていない少なくとも 1 つのクラス [に属しています](https://support.microsoft.com/office/adjust-assignment-settings-in-your-class-team-05bb3b89-1cdf-415a-b6c7-44add0376a77)。
+- 学生は、課題設定で教師によって電子メールが無効にされていない少なくとも 1 つのクラス [に属しています](https://support.microsoft.com/office/adjust-assignment-settings-in-your-class-team-05bb3b89-1cdf-415a-b6c7-44add0376a77)。
 
 - メールには、前の週または来週の期限がある割り当てに関する情報が含まれる。
 
@@ -74,7 +74,7 @@ MakeCode は、Microsoft の使用条件とプライバシー ポリシーの [�
 
 この機能の既定の設定は - **オフです**。
 
-Teams で MakeCode の割り当てを有効にするには、**Teams 管理** センターに移動し、[割り当て] セクションに **移動** し、[MakeCode] トグル オプションを [オン **] にします。** **[保存]** をクリックします。 これらの設定を有効にするために数時間を許可します。
+Teams で MakeCode の割り当てを有効にするには、**Teams** 管理センターに移動し、[割り当て] セクションに **移動** し、[MakeCode] トグル オプションを [オン] に切り替 **える**。 **[保存]** を選択します。 これらの設定を有効にするために数時間を許可します。
 
 この機能のしくみの詳細については、このビデオデモをご [覧ください](https://makecode.com/blog/teams/teams-assignments)。
 
@@ -86,7 +86,7 @@ Teams で MakeCode の割り当てを有効にするには、**Teams 管理** �
 
 [Turnitin は](https://www.turnitin.com/) 教育機関向け整合性サービスです。 これは、独自の条項とプライバシー ポリシーの対象となるサード パーティのサービスです。 お客様は、サード パーティの製品およびサービスを使用する責任を負います。
 
-この機能の既定の設定は - **オフ** です。
+この機能の既定の設定は - **オフです**。
 
 組織で Turnitin を有効にするには、Turnitin サブスクリプションが必要です。 次に、Turnitin 管理コンソールで確認できる次の情報を入力できます。
 
@@ -113,7 +113,7 @@ API キーをコピーし、管理センターのMicrosoft Teamsします。  �
 
 ## <a name="assignments-data"></a>割り当てデータ
 
-課題には、教師と学生の両方によって生成される情報が格納されます。 すべてのデータは、教師と、情報がクラスで意図されている特定の学生の間で共同共有されます。 この 2 つのストアは、SharePointと外部の 2 SharePoint。
+課題には、教師と学生の両方によって生成される情報が格納されます。 すべてのデータは、教師と、情報がクラスで意図されている特定の学生の間で共同共有されます。 このデータには 2 つのストアがあります。このSharePointと外部SharePoint。
 
 >[!NOTE]
 >同じルールは、閲覧の進行状況などのファースト パーティの統合にも適用されます。
@@ -128,7 +128,7 @@ IT 管理者は、コンテンツ検索ツールを使用して、課題の提�
 
 #### <a name="files-associated-with-the-teacher"></a>教師に関連付けられているファイル
 
-IT 管理者は、コンテンツ検索ツールを使用して、課題に関連する教師 *ファイル (学生* の作業ファイル、クラス ファイル、または他の 1st-party 統合ファイル) と、課題のクラス内の教師によって学生に配布されたファイルを検索できます。  たとえば、管理者は組織内のすべての SharePoint サイトを検索し、検索クエリで教師の名前とクラス名または課題名を使用して、DSR に関連するデータを検索できます。
+IT 管理者は、コンテンツ検索ツールを使用して、課題のクラス内の教師によって学生に配布された課題やファイルに関連する教師 *ファイル (学生* の作業ファイル、クラス ファイル、その他の第 1 者統合ファイル) を検索できます。 たとえば、管理者は組織内のすべての SharePoint サイトを検索し、検索クエリで教師の名前とクラス名または課題名を使用して、DSR に関連するデータを検索できます。
 
 ### <a name="assignments-data-outside-of-sharepoint-document-libraries"></a>ドキュメント ライブラリ以外のデータSharePoint割り当て
 
@@ -172,8 +172,41 @@ IT 管理者は、コンテンツ検索ツールを使用して、課題に関�
 
 ## <a name="removing-assignments-and-grades"></a>課題と成績の削除
 
-特定のユーザーまたはテナントTeams割り当てと成績を削除するには、このポリシーを使用できます。
+特定のユーザーまたはテナントTeams割り当てと成績を削除するには、ポリシーを使用して割り当てと成績を削除できます。
 
 個々のユーザーの課題と成績を削除するには、**Teams** 管理センターに移動し、**Teams アプリ >** アクセス許可ポリシーに移動して、新しいアプリのアクセス許可ポリシー定義を作成します。  新しいポリシー定義を作成するときに、[**Microsoft アプリ**] ポリシーを  [特定のアプリをブロック] に設定し、他のすべてのアプリを許可し、ブロックされているアプリケーションの一覧に割り当てを追加します。 新しいポリシー定義を保存したら、適切なユーザーに割り当てる必要があります。
 
-テナント全体の課題と成績を削除するには、[**Teams** 管理センター] に移動し、[Teams アプリ] **> [** アプリの管理] に移動し、アプリケーションの一覧から [割り当て] を検索して選択します。 [アプリケーションの割り当て設定] ページの状態設定を [ブロック] _に変更します_。
+テナント全体の課題と成績を削除するには、**Teams** 管理センターに移動し、[Teams アプリ> **アプリ** の管理] に移動し、アプリケーションの一覧から [課題] を検索して選択します。 [アプリケーションの割り当て設定] ページの状態設定を [ブロック] _に変更します_。
+
+## <a name="assignments-diagnostic-tool-for-users"></a>ユーザーの割り当て診断ツール
+
+Microsoft サポートは、割り当て機能に関連する問題を調査するために、Microsoft エンジニアリング チームの診断データを収集するツールを作成しました。
+
+このツールは、ユーザーに問題が発生した任意の画面の課題内でアクセスできます。
+
+診断ツールを次の方法でTeamsユーザーは次の方法を実行できます。
+
+- **デスクトップと Web の場合:**
+  - Ctrl + / を選択します。
+- **モバイル デバイスの場合:**
+  - 2 本の指で画面をタッチし、指を 45 度回転するか、
+  - 3 本の指で 15 秒間画面をタップする
+
+診断ツールがポップアップ表示され、Microsoft テクニカル サポートで必要になる可能性があるデータの一覧が表示されます。
+
+取得されるデータには、次のものが含まれます。
+
+- グループ ID
+- テナント ID
+- セッション ID
+- 割り当て ID
+- 提出 ID
+- ユーザー ID
+
+このデータは自動的に Microsoft に送信されません。 ユーザーは、サポート チケットに関するデータをコピーして Microsoft サポート エージェントに貼り付ける必要があります。
+
+ユーザーが診断ツールをプルして閉じると、データは送信されません。
+
+データが Microsoft サポート エージェントに送信された場合、データは組織のサービス契約に基Microsoft 365されます。
+
+教師や学生と共有できるこの診断ツールを使用する手順については、「診断データを取得して課題のトラブルシューティングを行う」 [を参照してください](https://support.microsoft.com/topic/b40793f5-dbae-4c8a-841a-6baa7f232e2e)。

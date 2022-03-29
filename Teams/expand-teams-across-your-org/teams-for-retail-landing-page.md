@@ -20,21 +20,20 @@ searchScope:
 - Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb32190c05dcbe165e203d9e4f097622d60943b8
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.openlocfilehash: f611afe731bc178759427efff2fe35d925ca0def
+ms.sourcegitcommit: 42c355d3f4bbe52c063b8f2119baefc0b88f9563
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763402"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "64403968"
 ---
 # <a name="get-started-with-teams-for-retail"></a>小売店向けの Teams の使用を開始する
 
-小売環境には、スケジュールのローテーションやスタッフの外出など、他の組織とは非常に異なるニーズがあります。 小売店の組織が最大限の恩恵を得るには、まず、毎日の業務で Teams が役立つシナリオを選択し、それらのシナリオをサポートするための適切な基礎、チーム、アプリを使用して Teams 環境を準備します。
+小売環境には、スケジュールのローテーションやスタッフの外出など、他の組織とは非常に異なるニーズがあります。小売店の組織が最大限の恩恵を得るには、まず、毎日の業務で Teams が役立つシナリオを選択し、それらのシナリオをサポートするための適切な基礎、チーム、アプリを使用して Teams 環境を準備します。
 
 1. ビジネスに実装する[シナリオを選択](#choose-your-scenarios)します。
 :::image type="content" source="../media/retail-teams-scenarios.png" alt-text="小売店向けの Teams シナリオを示す図。" lightbox="../media/retail-teams-scenarios.png":::
-1. [基礎を設定する](#set-up-the-fundamentals) - アカウントとデバイスを管理し、適切な Teams ポリシーが適用されていることを確認して、基礎によって従業員をサポートします。
-:::image type="content" source="../media/retail-teams-fundamentals.png" alt-text="Teams ポリシー、アカウント、デバイスなどを含む基礎を示す図。" lightbox="../media/retail-teams-fundamentals.png":::
+1. [基礎を設定する](#set-up-the-fundamentals) - アカウントとデバイスを管理し、適切な Teams ポリシーが適用されていることを確認して、基礎によって従業員をサポートします。:::image type="content" source="../media/retail-teams-fundamentals.png" alt-text="Teams ポリシー、アカウント、デバイスなどを含む基礎を示す図。" lightbox="../media/retail-teams-fundamentals.png":::
 1. [チームとアプリを設定する](#set-up-teams-and-apps) - チーム テンプレートを使用して、ビジネスに必要なチャネルやアプリなど、必要なチームをすばやく設定します。 必要に応じて、シナリオをサポートする Microsoft の他のアプリを追加します。
 :::image type="content" source="../media/retail-teams-apps.png" alt-text="チーム、チーム テンプレート、含めることのできるアプリを示す図。" lightbox="../media/retail-teams-apps.png":::
 
@@ -42,7 +41,7 @@ ms.locfileid: "62763402"
 
 ## <a name="choose-your-scenarios"></a>シナリオを選択する
 
-Microsoft 365 と Microsoft Teams では、小売店の組織の日常業務やデジタル変革に役立ついくつもの機能を提供しています。 小売店の組織には、次のシナリオをお勧めします。
+Microsoft 365 と Microsoft Teams では、小売店の組織の日常業務やデジタル変革に役立ついくつもの機能を提供しています。小売店の組織には、次のシナリオをお勧めします。
 
 [![ストア内コミュニケーションおよびコラボレーション。](../media/retail-scenarios-in-store.png)](#in-store-communication-and-collaboration) [![クロスストア コミュニケーションおよびコラボレーション。](../media/retail-scenarios-cross-store.png)](#cross-store-communication-and-collaboration) [![仮想試着と相談。](../media/retail-scenarios-virtual-visits.png)](#virtual-fittings-and-consultations) [![ビジネス プロセスの簡略化。](../media/retail-scenarios-business-processes.png)](#simplify-business-processes) [![企業内コミュニケーション。](../media/retail-scenarios-corp-comms.png)](#corporate-communications) [![新しい従業員のオンボーディング。](../media/retail-scenarios-onboarding.png)](#onboarding-new-employees)
 
@@ -79,7 +78,7 @@ Microsoft Teams の Bookings アプリは、組織が従業員と顧客の仮想
 
 ### <a name="simplify-business-processes"></a>ビジネス プロセスの簡略化
 
-Teams アプリ、Power Apps、Power BI を使用して、ビジネス プロセスを簡略化できます。 たとえば、次のようなことが可能です。
+Teams アプリ、Power Apps、Power BI を使用して、ビジネス プロセスを簡略化できます。例:
 
 - シフトを使用して、従業員のスケジュールを設定および管理します。
 - Power Apps を使用して、店舗と在庫の案内を実施します。
@@ -168,7 +167,7 @@ Teams は、シフト アプリおよび現場担当者アプリと統合され�
 | Microsoft のその他のアプリとサービス | 説明 | 管理 | ヘルプ |
 | ----- | ----- | ----- | ----- |
 | Bookings | 仮想試着と相談を可能にします。 | [Microsoft Teams と Bookings アプリを使用した仮想訪問](bookings-virtual-visits.md) | [Bookings を使用する](https://support.microsoft.com/en-us/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) |
-| Power Apps と Power Platform | ビジネス プロセスを統合し、ストアの在庫、売上高、インシデント レポートなどのデータをすばやく更新できます。 | [Teams の Microsoft Power Platform との統合](../teams-power-platfom-integration.md)および [Microsoft Teams 管理センターで Microsoft Power Platform アプリを管理する](../manage-power-platform-apps.md) | -  |
+| Power Apps と Power Platform | ビジネス プロセスを統合し、ストアの在庫、売上高、インシデント レポートなどのデータをすばやく更新できます。 | [Teams の Microsoft Power Platform との統合](/microsoftteams/platform/samples/teams-low-code-solutions)および [Microsoft Teams 管理センターで Microsoft Power Platform アプリを管理する](../manage-power-platform-apps.md) | -  |
 | SharePoint | 新しいチームを作成すると、新しい SharePoint サイトが作成され、チームに接続されます。 上記のシナリオの多くは、チームでのコラボレーションのためにドキュメントを共有するなど、Teams に既に埋め込まれている SharePoint 機能に依存しています。 | [Teams と SharePoint の統合](/sharepoint/teams-connected-sites) | [Teams で SharePoint ページ、リスト、またはドキュメント ライブラリをタブとして追加する](https://support.microsoft.com/office/add-a-sharepoint-page-list-or-document-library-as-a-tab-in-teams-131edef1-455f-4c67-a8ce-efa2ebf25f0b)|
 | Viva コネクション | Viva コネクションは Teams 内にハブを作成し、小売店の従業員が組織でカスタマイズされたニュース フィードや、必要なリソースを使用した個人向けのダッシュボードを閲覧できるようにします。 | [Viva コネクションの概要](/sharepoint/viva-connections-overview) | [Microsoft Teams の Viva コネクション](https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b) |
 | Viva ラーニング | 必要に応じて、仕事の流れの中でトレーニングを提供します。 | [Viva ラーニングを管理する](/microsoft-365/learning/) | [Viva ラーニング (プレビュー) を使用する](https://support.microsoft.com/office/viva-learning-preview-01bfed12-c327-41e0-a68f-7fa527dcc98a) |
@@ -190,7 +189,7 @@ Teams は、シフト アプリおよび現場担当者アプリと統合され�
 
 ## <a name="get-ready-to-roll-out-your-scenarios---identify-roles-and-responsibilities-for-scenarios"></a>シナリオを展開する準備をする - シナリオの役割と責任を特定する
 
-実装するシナリオとそれをサポートするのに必要なものがわかったので、チームを集めて計画と展開を行い、組織内での機能を監視できます。 たとえば、組織内でこれらのシナリオを展開するには、次の役割が必要かもしれません。
+実装するシナリオとそれをサポートするのに必要なものがわかったので、チームを集めて計画と展開を行い、組織内での機能を監視できます。たとえば、組織内でこれらのシナリオを展開するには、次の役割が必要かもしれません。
 
 | Image | 役割 | 責任 | 部署 |
 | ---- | ---- | ----- | ----- |
