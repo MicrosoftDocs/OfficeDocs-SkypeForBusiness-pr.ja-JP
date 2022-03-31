@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 765c0b97d5e277bd086ac4b25ee11ac80cb6fc11
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: fe3ad067844de3c7a5dda0a042dee837a9638eae
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711481"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556288"
 ---
 # <a name="microsoft-teams-apps-behavior-based-on-types-of-users"></a>Microsoft Teamsの種類に基づいてアプリの動作を制御する
 
@@ -49,7 +49,7 @@ Teamsアプリは、ゲスト、外部 (フェデレーション)、匿名ユー
 
 #### <a name="bots-installed-to-a-channel"></a>チャネルにインストールされたボット
 
-ボットはゲスト ユーザーに積極的にメッセージを送信できますが、ゲストはボットと対話できません。 ゲストは、ボットに対して 1 対 1 でメッセージを送信したり、ボットにメンションしたり、ボットと通信するアダプティブ カードを操作したりできない。
+ゲスト ユーザーは、ボットをメンションし、アダプティブ カードを操作できます。
 
 #### <a name="personal-bots-installed-with-policies"></a>ポリシーと一緒にインストールされた個人用ボット
 

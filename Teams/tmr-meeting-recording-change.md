@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bf1f393c8f6caf27a53ec45af0f04401f93b6793
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: 8d2863517ae4a147f9ded902dffff40ef315642e
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514538"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556338"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>OneDrive for Business と SharePoint または Stream を使用して会議の記録を行う
 
@@ -37,7 +37,7 @@ ms.locfileid: "63514538"
 |2021 年 3 月 1 日からロールアウト開始<br> *(完了)* 　&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC High および DoDのみ**<br> お客様は Microsoft Teams で初めてクラウド会議の記録を有効にできるようになりました。 これらの録画は既定で OneDrive および SharePoint に保存され、再生されます。 |
 |2021 年 8 月 16 日から段階的に展開します <br> *Complete* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**すべてのお客様 (エンタープライズ、教育、GCC)**<br>Microsoft Stream (クラシック) には、新しい会議の記録を保存できません。ユーザーがをチームの会議ポリシーを Stream に変更した場合でも、すべての顧客の会議記録は、OneDrive for Business と SharePoint に自動的に保存されます。<br><br> 組織の変化をより効果的に管理するために、変更が可能になるまで待つよりも、変更するのが都合が良いタイミングでオプト インすることをお薦めします。 |
 
-Microsoft Teams には、会議の記録を保存するための新しい方法があります。 従来の Microsoft Stream から[新しい Stream](/stream/streamnew/new-stream) への移行の最初のフェーズとして、このメソッドは Microsoft 365 の Microsoft OneDrive for Business と SharePoint に記録を保存し、多くの利点を提供します。
+Microsoft Teams には、会議の記録を保存するための新しい方法があります。従来の Microsoft Stream から[新しい Stream](/stream/streamnew/new-stream) への移行の最初のフェーズとして、このメソッドは Microsoft 365 の Microsoft OneDrive for Business と SharePoint に記録を保存し、多くの利点を提供します。
 
 > [!NOTE]
 > Teams 会議の記録が OneDrive/SharePoint に正常にアップロードされない場合、"記録が予期せず終了しました" というエラー メッセージが表示され、代わりに記録が一時的に Azure Media Services (AMS) に保存されます。 AMS に保存すると、記録を OneDrive/SharePoint または Stream に自動的にアップロードするための再試行は行われなくなります。
@@ -70,7 +70,7 @@ AMS に保存されている会議の記録は、自動的に削除される前�
 > [!Note]
 > Teams の会議ポリシー変更の反映にはしばらく時間がかかります。設定してから数時間後に再び確認し、サインアウトしてから、Teams デスクトップ アプリにもう一度サインインするか、コンピューターを再起動します。
 
-1. PowerShell Teamsインストールします。
+1. Teams PowerShell をインストールします。
 
    > [!NOTE]
    > Skype for Business Online Connector は現在、最新の Teams PowerShell モジュールに含まれています。 最新の Teams PowerShell パブリック リリースをご利用の場合は、Skype for Business Online Connector をインストールする必要はありません。 「[PowerShell を使用する Skype for Business Online を管理する](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?preserve-view=true&view=o365-worldwide)」を参照してください。
@@ -96,7 +96,7 @@ AMS に保存されている会議の記録は、自動的に削除される前�
    ```
 
 > [!Note]
-> ユーザーの中に、開催者単位またはユーザー単位のポリシーが割り当てられているユーザーがいる場合は、ポリシーのこの設定を設定して、OneDrive for Business と SharePoint で会議の記録を保存できるようにする必要があります。 詳細については、「[Teams での会議ポリシーを管理する](meeting-policies-overview.md)」を参照してください。
+> 開催者単位またはユーザー単位のポリシーが割り当てられているユーザーがおりOneDrive for Business と SharePoint でこれらのユーザーが会議の記録を保存できるようにするには、、このポリシーでこの設定を設定する必要があります。詳細については、「[Teams での会議ポリシーを管理する](meeting-policies-overview.md)」を参照してください。
 
 
 ## <a name="permissions-or-role-based-access"></a>アクセス許可とロール ベースのアクセス
@@ -121,11 +121,11 @@ AMS に保存されている会議の記録は、自動的に削除される前�
 
 **会議の記録はどこに保存されますか?**
 
-- チャネル以外の会議の場合、記録は **レコーディング** という名前のフォルダーに格納されており、 これは会議の記録を開始したユーザーに属している OneDrive for Business の最上位のレベルです。 例: 
+- チャネル以外の会議の場合、記録は「**レコーディング**」という名前のフォルダーに格納されています。会議の記録を開始したユーザーに属している OneDrive for Business の最上位のレベルにこのフォルダーがあります。例:
 
   <i>レコーダーの OneDrive for Business</i>/**レコーディング**
 
-- チャネル会議については、記録は、 **レコーディング** という名前のフォルダーにある Teams サイトのドキュメント ライブラリに格納されます。 例: 
+- チャネル会議については、記録は「**レコーディング**」という名前のフォルダーにある Teams サイトのドキュメント ライブラリに格納されます。例:
 
   <i>Teams 名 - チャネル名</i>/**ドキュメント**/**記録**
 
@@ -171,7 +171,7 @@ Teams 会議の記録ファイルは、OneDrive for Business と SharePoint の�
 
 **もしStreamに追加することを避難するつもりなら、既存のビデオは今のままで利用できますか、いつまで使用できますか?**
 
-Stream は、近い将来プラットフォームとして廃止の予定はありません。 現在、Stream に存在するビデオは、移行を開始するまで残っています。 移行すると、これらのビデオも OneDrive for Business または SharePoint に移行されます。 詳細については、「[Stream クラシックの移行](/stream/streamnew/classic-migration)」を参照してください。
+Stream は、近い将来プラットフォームとして廃止の予定はありません。 現在、Stream に存在するビデオは、移行を開始するまで残っています。 移行すると、これらのビデオも OneDrive for Business または SharePoint に移行されます。 詳細については [、「移行の詳細](/stream/streamnew/migration-details) 」を参照してください。
 
 **Microsoft Teams の会議の記録に保持ラベルを適用するにはどうすればよいですか?**
 

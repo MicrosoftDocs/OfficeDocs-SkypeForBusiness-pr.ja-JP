@@ -20,7 +20,7 @@ description: さまざまなトポロジにおいて、Teams が Office 365 フ�
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 6f152caaa90562a5223590ebcf97623646237e40
 ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 08/30/2021
 ms.locfileid: "58727846"
@@ -40,34 +40,34 @@ ms.locfileid: "58727846"
 
 この記事には、次の情報が記載されています:
 
-- **背景**。 フローが通過する可能性があるネットワーク、トラフィックの種類、顧客のネットワークから Microsoft 365 またはOffice 365 のサービス エンドポイントへの接続に関するガイダンス、サードパーティ製のコンポーネントとの相互運用性、Teams がメディア フローの選択に使用する原則などの背景情報を提供します。
+- **背景**。フローが通過する可能性があるネットワーク、トラフィックの種類、顧客のネットワークから Microsoft 365 または Office 365 のサービス エンドポイントへの接続に関するガイダンス、サードパーティ製のコンポーネントとの相互運用性、Teams がメディア フローの選択に使用する原則などの背景情報を提供します。
 
 - **さまざまなトポロジにおける通話フロー**。 さまざまなトポロジでの通話フローの使用を示します。 このセクションでは、各トポロジについて、サポートされるすべてのフローを列挙し、これらのフローの使用方法をいくつかのユース ケースを使って示します。 各ユース ケースについて、フローの順序と選択をフロー図を用いて示します。
 
-- **Teams と Express Route 最適化**。 Express Route が最適化のために使用される場合の、これらのフローの使用方法について、単純なトポロジを使用して分かりやすく説明します。
+- **Express Route による Teams の最適化**。最適化のために Express Route が展開された場合にこれらのフローがどのように使用されるかを、単純なトポロジを用いて説明します。
 
 ## <a name="background"></a>背景
 
 ### <a name="network-segments"></a>ネットワーク セグメント
 
-**顧客ネットワーク**。 これは、ユーザーが制御および管理するネットワーク セグメントです。 これには、顧客のオフィス内の有線または無線によるすべての接続、オフィスビル間の接続、オンプレミス データセンターへの接続、インターネット プロバイダーへの接続、Express Route、またはプライベート ピアリングへの接続が含まれます。
+**顧客ネットワーク**。これは、ユーザーが制御および管理するネットワーク セグメントです。これには、顧客のオフィス内の有線または無線によるすべての接続、オフィスビル間の接続、オンプレミス データセンターへの接続、インターネット プロバイダーへの接続、Express Route、またはプライベート ピアリングへの接続が含まれます。
 
 通常、顧客ネットワークには、ファイアウォールおよび/またはプロキシ サーバーを使用して組織のセキュリティ ポリシーを適用するネットワーク境界が複数あり、設定と構成を行った特定のネットワーク トラフィックのみが許可されるようになっています。 このネットワークの管理を行うのはユーザーであるため、ユーザーはネットワークのパフォーマンスを直接管理できます。ネットワーク上のサイトとネットワークから Microsoft 365 または Office 365 のネットワークの接続の両方のパフォーマンスについて、ネットワーク評価を行うことを強くお勧めします。
 
 **インターネット**。 これはネットワーク全体の一部で、顧客ネットワークの外部からMicrosoft 365 または Office 365 に接続するユーザーによって使用されるネットワークのセグメントです。 また、顧客ネットワークから Microsoft 365 または Office 365 へのトラフィックの一部にも使用されます。
 
-**アクセスした、またはゲストのプライベート ネットワーク**。 このネットワーク セグメントは顧客のネットワークには属しませんが、パブリック インターネットではアクセスできません。でもユーザーとそのゲストはアクセスする可能性があります。(たとえば、ホーム プライベート ネットワークやエンタープライズ プライベート ネットワークなどで、Teams を使用しない場合でも、Teams サービスを操作するユーザーまたは顧客が存在する可能性があります)。
+**アクセスした、またはゲストのプライベート ネットワーク**。このネットワーク セグメントは顧客のネットワークには属しませんが、パブリック インターネットではアクセスできません。でもユーザーとそのゲストはアクセスする可能性があります。(たとえば、ホーム プライベート ネットワークやエンタープライズ プライベート ネットワークなどで、Teams を使用しない場合でも、Teams サービスを操作するユーザーまたは顧客が存在する可能性があります)。
 
 > [!NOTE]
 > Microsoft 365 または Office 365 への接続は、これらのネットワークにも適用されます。
 
 **Microsoft 365 または Office 365**。 これは、Microsoft 365 または Office 365 のサービスをサポートするネットワーク セグメントです。 これは世界中に分散しているネットワークで、ほとんどの場所で顧客ネットワークに近接するエッジを使用しています。 機能には、トランスポート リレー、会議サーバー、およびメディア プロセッサが含まれます。
 
-**Express Route (オプション)**。 これはネットワーク全体の一部で、Microsoft 365 または Office 365 ネットワークへの専用のプライベート接続を提供するネットワーク セグメントです。
+**Express Route (オプション)**: これはネットワーク全体の一部で、Microsoft 365 または Office 365 ネットワークへの専用のプライベート接続を提供するネットワーク セグメントです。
 
 ### <a name="types-of-traffic"></a>トラフィックの種類
 
-**リアルタイムのメディア**。 オーディオ、ビデオ、および画面共有のワークロードをサポートする RTP (リアルタイム転送プロトコル) 内にカプセル化されたデータ。 一般に、メディア トラフィックは待機時間が大きいので、このトラフィックが可能な限り最も直接的なパスを取得し、トランスポート層プロトコルとして UDP と TCP を使用する必要があります。これは、高品質の観点から対話型のリアルタイム メディアに最適なトランスポートです。 (注: 最後の手段として、メディアには TCP/IP を使用し、HTTP プロトコル内でトンネリングすることができますが、品質に悪影響を与える可能性があるため、お勧めできません)。RTP フローは SRTP を使用して保護され、ペイロードのみが暗号化されます。
+**リアルタイムのメディア**。 オーディオ、ビデオ、および画面共有のワークロードをサポートする RTP (リアルタイム転送プロトコル) 内にカプセル化されたデータ。 一般的に、メディア トラッフィックは遅延に対して非常に敏感なため、このトラフィックはできるだけ直接的な経路を使用し、トランスポート層プロトコルとして TCP ではなく、品質の点で対話的なリアルタイム メディアには最良のトランスポートである UDP を使用します。 (注: 最後の手段として、メディアには TCP/IP を使用し、HTTP プロトコル内でトンネリングすることができますが、品質に悪影響を与える可能性があるため、お勧めできません)。RTP フローは SRTP を使用して保護され、ペイロードのみが暗号化されます。
 
 **シグナリング**。 クライアントとサーバーまたはその他のクライアントとの間の通信リンクで、アクティビティの制御 (たとえば、通話が開始された場合など) とインスタント メッセージの配信に使用されます。 ほとんどのシグナリング トラフィックは HTTPS ベースの REST インターフェイスを使用しますが、一部の シナリオ (Microsoft 365 または Office 365 とセッション ボーダー コントローラーの間の接続など) では、SIP プロトコルを使用します。 このトラフィックは遅延に対してあまり敏感ではありませんが、エンドポイント間に数秒を超える遅延があった場合、サービス停止や通話のタイムアウトが発生する可能性がある点にご注意ください。
 
@@ -87,12 +87,12 @@ Teams のメディア フロー接続は、標準の IETF ICE (Interactive Conne
 
 ### <a name="technologies-that-are-not-recommended-with-microsoft-teams"></a>Microsoft Teams で推奨されないテクノロジ
 
-**VPN ネットワーク**。 メディア トラフィック (またはフロー 2') にはお勧めできません。 VPN クライアントは、「Lync メディアで VPN トンネルをバイパスする」で指定されているTeams VPN 以外のユーザーと同様に、分割トンネリングを使用し、Teams メディア トラフィックを[ルーティングする必要があります](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Enabling-Lync-Media-to-Bypass-a-VPN-Tunnel/ba-p/620210)。
+**VPN ネットワーク**。 メディア トラフィック (またはフロー 2') にはお勧めできません。 「[Lync メディアが VPN トンネルをバイパス可能にする](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Enabling-Lync-Media-to-Bypass-a-VPN-Tunnel/ba-p/620210)」で指定されているように、VPN クライアントはスプリット トンネルを使用し、外部の非 VPN ユーザーなどの Teams メディア トラフィックをルーティングする必要があります。
 
 > [!NOTE]
 > タイトルは Lync となっていますが、Teams にも適用できます。
 
-**パケット シェーパー**。 すべての種類のパケット スニッパー、パケット インスペクション、またはパケット シェーパー デバイスは、Teamsメディア トラフィックには推奨されません。また、品質が大幅に低下する可能性があります。
+**パケット シェーパー**。Teams メディア トラフィックでは、あらゆる種類のパケット スニッパー、パケット検査、またはパケット シェーパーのデバイスの使用をお勧めしません。品質が大きく低下する場合があります。
 
 ### <a name="principles"></a>原則
 
@@ -102,7 +102,7 @@ Microsoft Teams の通話フローを理解するのに役立つ、4つの一般
 
 - Microsoft 365 または Office 365 の Teams メディア エンドポイントは、通話の種類に基づいてではなく、メディア処理のニーズに基づいて使用されます。 (たとえば、ポイントツーポイントの通話では、トランスクリプションおよび/または録音のためのメディア処理に、クラウド内のメディア エンドポイントを使用する場合がありますが、参加者が 2 人の会議ではクラウド内のメディア エンドポイントを使用しない場合があります。) ただし、ほとんどの会議では、ミキシングおよびルーティングのために、会議がホストされる場所に割り当てられているメディア エンドポイントが使用されます。 クライアントからメディア エンドポイントに送信されるメディア トラフィックは、直接ルーティングされる場合と、顧客ネットワークのファイアウォール制限のために必要な場合は、Microsoft 365 または Office 365 でトランスポート リレーを使用する場合とがあります。
 
-- ピアツーピア呼び出しのメディア トラフィックは、呼び出しでクラウド内のメディア エンドポイントが必須ではないと仮定して、利用可能な最も直接的なルートを受け取ります (前の原則を参照)。 リモート ピア (クライアント) への直接のルートが優先されますが、このルートが利用できない場合は、1 つまたは複数のトランスポート リレーがトラフィックを中継します。 メディアの品質に影響を与えるため、メディア トラフィックがパケット シェーパーや VPN サーバーなどのサーバーを通過しないことが推奨されます。
+- ピアツーピア通話のメディア トラフィックは、通話でクラウド内のメディア エンドポイントが要求されていない限り (上の原則を参照)、使用できる最も直接的なルートを使用します。 リモート ピア (クライアント) への直接のルートが優先されますが、このルートが利用できない場合は、1 つまたは複数のトランスポート リレーがトラフィックを中継します。 メディアの品質に影響を与えるため、メディア トラフィックがパケット シェーパーや VPN サーバーなどのサーバーを通過しないことが推奨されます。
 
 - シグナリング トラフィックは、常にユーザーに最も近いサーバーに送信されます。
 
@@ -114,7 +114,7 @@ Microsoft Teams の通話フローを理解するのに役立つ、4つの一般
 
 このトポロジは、Skype for Business Server や電話システムのダイレクト ルーティングなどのオンプレミスの展開がない状態でクラウドから Teams のサービスを利用するお客様に使用されます。 また、Microsoft 365 または Office 365 のインターフェイスは、Azure Express Route を使用せずにインターネット経由で実行されます。
 
-[![Microsoft Teamsオンライン通話フロー図 01.](media/microsoft-teams-online-call-flows-figure01.png)](media/microsoft-teams-online-call-flows-figure01.png)
+[![Microsoft Teams オンライン通話フローの図 01。](media/microsoft-teams-online-call-flows-figure01.png)](media/microsoft-teams-online-call-flows-figure01.png)
 
 *図 1 - Teams のトポロジ*
 
@@ -131,7 +131,7 @@ Microsoft Teams の通話フローを理解するのに役立つ、4つの一般
 
 **フローの説明**
 
-- **フロー 2** – ユーザーが、Teams の操作の一部として顧客ネットワーク上で開始するインターネットへのフローを表します。 この種類のフローの例は、DNS とピアツーピア メディアです。
+- **フロー 2** – ユーザーが、Teams の操作の一部として顧客ネットワーク上で開始するインターネットへのフローを表します。この種類のフローの例は、DNS とピアツーピア メディアです。
 - **フロー 2'** – Teams のリモート モバイル ユーザーが VPN を使用して開始する顧客ネットワークへのフローを表します。
 - **フロー 3** – Teams のリモート モバイル ユーザーが開始する Microsoft 365 または Office 365/Teams のエンドポイントへのフローを表します。
 - **フロー 4** – 顧客ネットワーク上のユーザーが開始する Microsoft 365 または Office 365/Teams のエンドポイントへのフローを表します。
@@ -159,7 +159,7 @@ Microsoft Teams の通話フローを理解するのに役立つ、4つの一般
 
 **顧客ネットワーク内:**
 
-[![Microsoft Teamsオンライン通話フロー図 02.](media/microsoft-teams-online-call-flows-figure02-thumbnail.png)](media/microsoft-teams-online-call-flows-figure02.png)
+[![Microsoft Teams オンライン通話フローの図 02。](media/microsoft-teams-online-call-flows-figure02-thumbnail.png)](media/microsoft-teams-online-call-flows-figure02.png)
 
 *図 2 - 顧客ネットワーク内*
 
@@ -169,7 +169,7 @@ Microsoft Teams の通話フローを理解するのに役立つ、4つの一般
 
 **顧客ネットワークから外部ユーザーへ (メディアは Teams トランスポート リレーが中継):**
 
-[![Microsoft Teamsオンライン通話フロー図 03.](media/microsoft-teams-online-call-flows-figure03-thumbnail.png)](media/microsoft-teams-online-call-flows-figure03.png)
+[![Microsoft Teams オンライン通話フローの図 03。](media/microsoft-teams-online-call-flows-figure03-thumbnail.png)](media/microsoft-teams-online-call-flows-figure03.png)
 
 *図 3 - 顧客ネットワークから外部ユーザーへ (メディアは Teams トランスポート リレーが中継):*
 
@@ -179,7 +179,7 @@ Microsoft Teams の通話フローを理解するのに役立つ、4つの一般
 
 **顧客ネットワークから外部ユーザーへ (ダイレクト メディア):**
 
-[![Microsoft Teamsオンライン通話フロー図 04.](media/microsoft-teams-online-call-flows-figure04-thumbnail.png)](media/microsoft-teams-online-call-flows-figure04.png)
+[![Microsoft Teams オンライン通話フローの図 04。](media/microsoft-teams-online-call-flows-figure04-thumbnail.png)](media/microsoft-teams-online-call-flows-figure04.png)
 
 *図 4 - 顧客ネットワークから外部ユーザーへ (ダイレクト メディア)*
 
@@ -187,11 +187,11 @@ Microsoft Teams の通話フローを理解するのに役立つ、4つの一般
 
 - リモート モバイル ユーザー (Microsoft 365 または Office 365 経由では中継されていません) とのダイレクト メディアは省略可能です。 Microsoft 365 または Office 365 のトランスポート リレー経由のメディア パスを強制するために、顧客はこのパスをブロックできることを意味します。
 
-- メディアは双方向です。 モバイル ユーザーへのフロー 2 の方向は、一方が通信を開始したことを接続の観点から示します。
+- メディアは双方向です。モバイル ユーザーへのフロー 2 の方向は、一方が通信を開始したことを接続の観点から示します。
 
 **VPN から内部ユーザーへ (メディアは Teams トランスポート リレーが中継)**
 
-[![Microsoft Teamsオンライン通話フロー図 05.](media/microsoft-teams-online-call-flows-figure05-thumbnail.png)](media/microsoft-teams-online-call-flows-figure05.png)
+[![Microsoft Teams オンライン通話フローの図 05。](media/microsoft-teams-online-call-flows-figure05-thumbnail.png)](media/microsoft-teams-online-call-flows-figure05.png)
 
 *図 5 - VPN ユーザーから内部ユーザーへ (メディアは Teams トランスポート リレーが中継)*
 
@@ -199,29 +199,29 @@ VPN と顧客ネットワークとの間のシグナリングは、フロー 2' 
 
 **VPN ユーザーから内部ユーザーへ (ダイレクトメディア)**
 
-[![Microsoft Teamsオンライン通話フロー図 06.](media/microsoft-teams-online-call-flows-figure06-thumbnail.png)](media/microsoft-teams-online-call-flows-figure06.png)
+[![Microsoft Teams オンライン通話フローの図 06。](media/microsoft-teams-online-call-flows-figure06-thumbnail.png)](media/microsoft-teams-online-call-flows-figure06.png)
 
 *図 6 - VPN ユーザーから内部ユーザーへ (ダイレクトメディア)*
 
 VPN と顧客ネットワークとの間のシグナリングは、フロー 2' を使用しています。 顧客ネットワークと Microsoft 365 または Office 365 の間のシグナリングはフロー 4 を使用します。 ただし、メディアは VPN をバイパスし、フロー 2 (顧客ネットワークからインターネット) 経由でルーティングされます。
 
-メディアは双方向です。 モバイル ユーザーへのフロー 2 の方向は、一方が通信を開始したことを接続の観点から示します。
+メディアは双方向です。モバイル ユーザーへのフロー 2 の方向は、一方が通信を開始したことを接続の観点から示します。
 
 **VPN ユーザーから外部ユーザーへ (ダイレクトメディア)**
 
-[![Microsoft Teamsフロー図 07.](media/microsoft-teams-online-call-flows-figure07-thumbnail.png)](media/microsoft-teams-online-call-flows-figure07.png)
+[![Microsoft Teams 通話フローの図 07。](media/microsoft-teams-online-call-flows-figure07-thumbnail.png)](media/microsoft-teams-online-call-flows-figure07.png)
 
 *図 7 - VPN ユーザーから外部ユーザーへ (ダイレクトメディア)*
 
-VPN ユーザーと顧客ネットワーク間のシグナリングにはフロー 2 ' を使用して、フロー 4 を Microsoft 365 または Office 365 に使用します。 ただし、メディアは VPN をバイパスし、フロー 6 経由でルーティングされます。
+VPN ユーザーと顧客ネットワーク間のシグナリングにはフロー 2' を使用して、フロー 4 を Microsoft 365 または Office 365 に使用します。ただし、メディアは VPN をバイパスし、フロー 6 経由でルーティングされます。
 
-メディアは双方向です。 モバイル ユーザーへのフロー 6 の方向は、一方が通信を開始したことを接続の観点から示します。
+メディアは双方向です。モバイル ユーザーへのフロー 6 の方向は、一方が通信を開始したことを接続の観点から示します。
 
 #### <a name="use-case-teams-to-pstn-through-microsoft-365-or-office-365-trunk"></a>ユース ケース: Microsoft 365 または Office 365 の トラ ンクを使用して、Teams から PSTNへ。
 
 Microsoft 365 および Office 365 には、公衆交換電話網 (PSTN) から、通話を発信および受信できる電話システムがあります。 PSTN トランクが電話システムの通話プランで接続されている場合、このユース ケースに関しては特別な接続要件はありません。 (自社のオンプレミスの PSTN トランクを Microsoft 365 または Office 365 に接続する場合は、電話システムのダイレクト ルーティングを使用できます。)
 
-[![Microsoft Teamsオンライン通話フロー図 08.](media/microsoft-teams-online-call-flows-figure08-thumbnail.png)](media/microsoft-teams-online-call-flows-figure08.png)
+[![Microsoft Teams オンライン通話フローの図 08。](media/microsoft-teams-online-call-flows-figure08-thumbnail.png)](media/microsoft-teams-online-call-flows-figure08.png)
 
 *図 8 - Office 365 トランク経由で Teams から PSTN へ*
 
@@ -239,7 +239,7 @@ Microsoft 365 および Office 365 には、公衆交換電話網 (PSTN) から�
 
 - ゲスト ユーザーまたは顧客ユーザーはゲスト プライベートネットワークから参加できます。このネットワークは、厳密なルールを適用して FW/NAT を介して保護されています。
 
-[![Microsoft Teamsオンライン通話フロー図 09.](media/microsoft-teams-online-call-flows-figure09-thumbnail.png)](media/microsoft-teams-online-call-flows-figure09.png)
+[![Microsoft Teams オンライン通話フローの図 09。](media/microsoft-teams-online-call-flows-figure09-thumbnail.png)](media/microsoft-teams-online-call-flows-figure09.png)
 
 *図 9 - Teams 会議*
 
@@ -247,7 +247,7 @@ Microsoft 365 および Office 365 には、公衆交換電話網 (PSTN) から�
 
 **Microsoft 365 または Office 365 で Teams トランスポート リレーによって中継されたメディア**
 
-[![Microsoft Teamsオンライン通話フロー図 10.](media/microsoft-teams-online-call-flows-figure10-thumbnail.png)](media/microsoft-teams-online-call-flows-figure10.png)
+[![Microsoft Teams オンライン通話フローの図 10。](media/microsoft-teams-online-call-flows-figure10-thumbnail.png)](media/microsoft-teams-online-call-flows-figure10.png)
 
 *図 10 - Office 365 内の Teams トランスポート リレーにより中継されるメディア*
 
@@ -255,7 +255,7 @@ Microsoft 365 および Office 365 には、公衆交換電話網 (PSTN) から�
 
 - フェデレーションは、その性質上、2 つのテナント間の通信です。 この例では、Teams を使用する テナント A は、Skype for Business オンプレミスを使用するテナント B とフェデレーションします。 もしテナント B も Microsoft 365 または Office 365 を使用していた場合は、Skype for Business クライアントは Microsoft 365 または Office 365 との接続にフロー 3 を使用していたはずです。
 
-- フェデレーションされた Skype for Business クライアントからオンプレミスの Skype for Business サーバーへのシグナリングとメディアについては、この記事では説明しません。 説明をわかりやすくするためにこれを図に示します。
+- フェデレーションされた Skype for Business クライアントからオンプレミスの Skype for Business サーバーへのシグナリングとメディアについては、この記事では説明しません。説明をわかりやすくするためにこれを図に示します。
 
 - Teams と Skype for Business の間のシグナリングは、ゲートウェイによりブリッジされます。
 
@@ -263,13 +263,13 @@ Microsoft 365 および Office 365 には、公衆交換電話網 (PSTN) から�
 
 **フェデレーションされたテナントの Skype for Business メディア リレーによって中継されるメディア**
 
-[![Microsoft Teamsオンライン通話フロー図 11.](media/microsoft-teams-online-call-flows-figure11-thumbnail.png)](media/microsoft-teams-online-call-flows-figure11.png)
+[![Microsoft Teams オンライン通話フローの図 11。](media/microsoft-teams-online-call-flows-figure11-thumbnail.png)](media/microsoft-teams-online-call-flows-figure11.png)
 
 *図 11 - フェデレーションされたテナントの Skype for Business メディア リレーによって中継されるメディア*
 
 次の点に注意してください。
 
-- フェデレーションされた Skype for Business クライアントからオンプレミスの Skype for Business サーバーへのシグナリングとメディアについては、この記事では説明しませんが、 説明をわかりやすくするためにこれを図に示します。
+- フェデレーションされた Skype for Business クライアントからオンプレミスの Skype for Business サーバーへのシグナリングとメディアについては、この記事では説明しません。説明をわかりやすくするためにこれを図に示します。
 
 - Teams と Skype for Business の間のシグナリングは、ゲートウェイによりブリッジされます。
 
@@ -277,7 +277,7 @@ Microsoft 365 および Office 365 には、公衆交換電話網 (PSTN) から�
 
 **直接 (ピアツーピア)**
 
-[![Microsoft Teamsオンライン通話フロー図 12.](media/microsoft-teams-online-call-flows-figure12-thumbnail.png)](media/microsoft-teams-online-call-flows-figure12.png)
+[![Microsoft Teams オンライン通話フローの図 12。](media/microsoft-teams-online-call-flows-figure12-thumbnail.png)](media/microsoft-teams-online-call-flows-figure12.png)
 
 *図 12 - 直接 (ピアツーピア)*
 
@@ -285,7 +285,7 @@ Microsoft 365 および Office 365 には、公衆交換電話網 (PSTN) から�
 
 このトポロジには、Skype for Business のオンプレミス展開を使用する Teams が含まれます。
 
-[![Microsoft Teamsオンライン通話フロー図 13.](media/microsoft-teams-online-call-flows-figure13-thumbnail.png)](media/microsoft-teams-online-call-flows-figure13.png)
+[![Microsoft Teams オンライン通話フローの図 13。](media/microsoft-teams-online-call-flows-figure13-thumbnail.png)](media/microsoft-teams-online-call-flows-figure13.png)
 
 *図 13 - Teams ハイブリッド トポロジ*
 
@@ -301,7 +301,7 @@ Microsoft 365 および Office 365 には、公衆交換電話網 (PSTN) から�
 
 **顧客ネットワーク内のハイブリッド**
 
-[![Microsoft Teamsオンライン通話フロー図 14.](media/microsoft-teams-online-call-flows-figure14-thumbnail.png)](media/microsoft-teams-online-call-flows-figure14.png)
+[![Microsoft Teams オンライン通話フローの図 14。](media/microsoft-teams-online-call-flows-figure14-thumbnail.png)](media/microsoft-teams-online-call-flows-figure14.png)
 
 *図 14 - 顧客ネットワーク内のハイブリッド*
 
@@ -309,13 +309,13 @@ Teams と Skype for Business の間のシグナリングは、ゲートウェイ
 
 **ハイブリッドの顧客ネットワークから外部の Skype for Business ユーザーへ (Microsoft 365 または Office 365 により中継)**
 
-[![Microsoft Teamsオンライン通話フロー図 15.](media/microsoft-teams-online-call-flows-figure15-thumbnail.png)](media/microsoft-teams-online-call-flows-figure15.png)
+[![Microsoft Teams オンライン通話フローの図 15。](media/microsoft-teams-online-call-flows-figure15-thumbnail.png)](media/microsoft-teams-online-call-flows-figure15.png)
 
 *図 15 - ハイブリッドの顧客ネットワークから外部の Skype for Business ユーザーへ (Office 365 により中継)*
 
 次の点に注意してください。
 
-- Skype for Business クライアントからオンプレミスの Skype for Business サーバーへのシグナリングとメディアについては、この記事では説明しませんが、 説明をわかりやすくするためにこれを図に示します。
+- Skype for Business クライアントからオンプレミスの Skype for Business サーバーへのシグナリングとメディアについては、この記事では説明しません。説明をわかりやすくするためにこれを図に示します。
 
 - Teams と Skype for Business の間のシグナリングは、ゲートウェイによりブリッジされます。
 
@@ -323,13 +323,13 @@ Teams と Skype for Business の間のシグナリングは、ゲートウェイ
 
 **ハイブリッドの顧客ネットワークから外部の Skype for Business ユーザーへ (オンプレミス エッジ により中継)**
 
-[![Microsoft Teamsオンライン通話フロー図 16.](media/microsoft-teams-online-call-flows-figure16-thumbnail.png)](media/microsoft-teams-online-call-flows-figure16.png)
+[![Microsoft Teams オンライン通話フローの図 16。](media/microsoft-teams-online-call-flows-figure16-thumbnail.png)](media/microsoft-teams-online-call-flows-figure16.png)
 
 *図 16 - ハイブリッドの顧客ネットワークから外部の Skype for Business ユーザーへ (オンプレミス エッジ により中継)*
 
 次の点に注意してください。
 
-- Skype for Business クライアントからオンプレミスの Skype for Business サーバーへのシグナリングとメディアについては、この記事では説明しませんが、 説明をわかりやすくするためにこれを図に示します。
+- Skype for Business クライアントからオンプレミスの Skype for Business サーバーへのシグナリングとメディアについては、この記事では説明しません。説明をわかりやすくするためにこれを図に示します。
 
 - シグナリングは、ゲートウェイによってブリッジされます。
 
@@ -343,7 +343,7 @@ Teams と Skype for Business の間のシグナリングは、ゲートウェイ
 
 このシナリオをサポートするには、顧客は、Microsoft の認定パートナーのいずれかによりダイレクト ルーティング用に認定された SBC を展開する必要があります。 SBC は製造元の推奨通りに構成する必要があり、Microsoft 365 または Office 365 からのダイレクト UDP トラフィックがルーティング可能である必要があります。 メディアは、Teams および/または Skype for Business クライアントから SBC に直接流れることも (Teams ゲートウェイをバイパスして)、Teams ゲートウェイを通過することもできます。 トランクが Teams ゲートウェイをバイパスするように構成されている場合は、SBC との接続は ICE に基づきます。SBC では ICE-Lite がサポートされ、Teams/Skype for Business のメディア エンドポイントでは ICE フル フォームがサポートされます。
 
-[![Microsoft Teamsオンライン通話フロー図 17.](media/microsoft-teams-online-call-flows-figure17-thumbnail.png)](media/microsoft-teams-online-call-flows-figure17.png)
+[![Microsoft Teams オンライン通話フローの図 17。](media/microsoft-teams-online-call-flows-figure17-thumbnail.png)](media/microsoft-teams-online-call-flows-figure17.png)
 
 *図 17 - 電話システムのダイレクト ルーティングを使用する Teams のトポロジ
 
@@ -361,7 +361,7 @@ Teams と Skype for Business の間のシグナリングは、ゲートウェイ
 
 **ダイレクト ルーティングによる内部ユーザー (メディアはTeams トランスポート リレーが中継)**
 
-[![Microsoft Teamsオンライン通話フロー図 18.](media/microsoft-teams-online-call-flows-figure18-thumbnail.png)](media/microsoft-teams-online-call-flows-figure18.png)
+[![Microsoft Teams オンライン通話フローの図 18。](media/microsoft-teams-online-call-flows-figure18-thumbnail.png)](media/microsoft-teams-online-call-flows-figure18.png)
 
 *図 18 - ダイレクト ルーティングによる内部ユーザー (メディアは Teams トランスポート リレーが中継)*
 
@@ -375,7 +375,7 @@ Teams と Skype for Business の間のシグナリングは、ゲートウェイ
 
 **ダイレクト ルーティングを使用するリモート ユーザー (メディアは メディア サーバー (MP) 経由でルーティング)**
 
-[![Microsoft Teamsオンライン通話フロー図 19.](media/microsoft-teams-online-call-flows-figure19-thumbnail.png)](media/microsoft-teams-online-call-flows-figure19.png)
+[![Microsoft Teams オンライン通話フローの図 19。](media/microsoft-teams-online-call-flows-figure19-thumbnail.png)](media/microsoft-teams-online-call-flows-figure19.png)
 
 *図 19 - ダイレクト ルーティングを使用するリモート ユーザー (メディアはメディア サーバー (MP) 経由でルーティング)*
 
@@ -389,7 +389,7 @@ Teams と Skype for Business の間のシグナリングは、ゲートウェイ
 
 **内部ユーザーのダイレクト ルーティング (メディアはバイパス)**
 
-[![Microsoft Teamsオンライン通話フロー図 20.](media/microsoft-teams-online-call-flows-figure20-thumbnail.png)](media/microsoft-teams-online-call-flows-figure20.png)
+[![Microsoft Teams オンライン通話フローの図 20。](media/microsoft-teams-online-call-flows-figure20-thumbnail.png)](media/microsoft-teams-online-call-flows-figure20.png)
 
 *図 20 - 内部ユーザーのダイレクト ルーティング (メディアはバイパス)*
 
@@ -405,7 +405,7 @@ Teams と Skype for Business の間のシグナリングは、ゲートウェイ
 
 **ダイレクト ルーティングによるリモート ユーザー (メディアのパイパスは Teams トランスポート リレーが中継)**
 
-[![Microsoft Teamsオンライン通話フロー図 21.](media/microsoft-teams-online-call-flows-figure21-thumbnail.png)](media/microsoft-teams-online-call-flows-figure21.png)
+[![Microsoft Teams オンライン通話フローの図 21。](media/microsoft-teams-online-call-flows-figure21-thumbnail.png)](media/microsoft-teams-online-call-flows-figure21.png)
 
 *図 21 - ダイレクト ルーティングによるリモート ユーザー (メディアのパイパスは Teams トランスポート リレーが中継)*
 
@@ -421,7 +421,7 @@ Teams と Skype for Business の間のシグナリングは、ゲートウェイ
 
 **ダイレクト ルーティングによるリモート ユーザー (メディアのバイパスはダイレクト)**
 
-[![Microsoft Teamsオンライン通話フロー図 22.](media/microsoft-teams-online-call-flows-figure22-thumbnail.png)](media/microsoft-teams-online-call-flows-figure22.png)
+[![Microsoft Teams オンライン通話フローの図 22。](media/microsoft-teams-online-call-flows-figure22-thumbnail.png)](media/microsoft-teams-online-call-flows-figure22.png)
 
 *図 22 - リモート ユーザーのダイレクト ルーティング (メディアのバイパスはダイレクト)*
 
@@ -437,7 +437,7 @@ Teams と Skype for Business の間のシグナリングは、ゲートウェイ
 
 **ダイレクト ルーティング (メディア バイパス) – PSTN ヘアピン コール (通話の転送を原因とする)**
 
-[![Microsoft Teamsオンライン通話フロー図 23.](media/microsoft-teams-online-call-flows-figure23-thumbnail.png)](media/microsoft-teams-online-call-flows-figure23.png)
+[![Microsoft Teams オンライン通話フローの図 23。](media/microsoft-teams-online-call-flows-figure23-thumbnail.png)](media/microsoft-teams-online-call-flows-figure23.png)
 
 *図 23 - ダイレクト ルーティング (メディア バイパス) – PSTN ヘアピン コール (通話の転送を原因とする)*
 
@@ -453,7 +453,7 @@ Teams と Skype for Business の間のシグナリングは、ゲートウェイ
 
 **ダイレクト ルーティング (メディアは Microsoft 365 または Office 365 を経由) – 2 つのテナントの間での PSTN ヘアピン コール**
 
-[![Microsoft Teamsオンライン通話フロー図 24.](media/microsoft-teams-online-call-flows-figure24-thumbnail.png)](media/microsoft-teams-online-call-flows-figure24.png)
+[![Microsoft Teams オンライン通話フローの図 24。](media/microsoft-teams-online-call-flows-figure24-thumbnail.png)](media/microsoft-teams-online-call-flows-figure24.png)
 
 *図 24 - ダイレクト ルーティング (メディアは Microsoft 365 または Office 365 を経由) – 2 つのテナントの間での PSTN ヘアピン コール*
 
@@ -469,7 +469,7 @@ Teams と Skype for Business の間のシグナリングは、ゲートウェイ
 
 ## <a name="teams-with-express-route-optimization"></a>Express Route による Teams の最適化
 
-[![Microsoft Teamsオンライン通話フロー図 25.](media/microsoft-teams-online-call-flows-figure25-thumbnail.png)](media/microsoft-teams-online-call-flows-figure25.png)
+[![Microsoft Teams オンライン通話フローの図 25。](media/microsoft-teams-online-call-flows-figure25-thumbnail.png)](media/microsoft-teams-online-call-flows-figure25.png)
 
 *図 25 - Express Route による Teams の最適化*
 
@@ -477,16 +477,16 @@ Express Route が正当化されて展開されているケースでは、Teams 
 
 Skype for Business のハイブリッド エッジ トラフィックは、外部ユーザーとの通信および他のテナントとのフェデレーションを行うために、Express Route ではなくインターネットにルーティングされることに注意してください。
 
-非対称のフローを防ぐには、再ルーティングは双方向に行う必要があります。 つまり、顧客ネットワーク内のアドレスは、(最適化のために) インターネットまたは Express Route のいずれを経由してもルーティング可能ですが、両方を経由することはできません。
+非対称のフローを防ぐには、再ルーティングは双方向に行う必要があります。つまり、顧客ネットワーク内のアドレスは、(最適化のために) インターネットまたは Express Route のいずれを経由してもルーティング可能ですが、両方を経由することはできません。
 
 
 **顧客ネットワークから外部ユーザーへ (メディアは Teams トランスポート リレーが中継):**
 
-[![Microsoft Teamsオンライン通話フロー図 26.](media/microsoft-teams-online-call-flows-figure26-thumbnail.png)](media/microsoft-teams-online-call-flows-figure26.png)
+[![Microsoft Teams オンライン通話フローの図 26。](media/microsoft-teams-online-call-flows-figure26-thumbnail.png)](media/microsoft-teams-online-call-flows-figure26.png)
 
 *図 26 - 顧客ネットワークから外部ユーザーへ (メディアは Teams トランスポート リレーが中継)*
 
-**大手順:**
+**大まかな手順:**
 
 1. 顧客ネットワーク内の Teams ユーザーが、フロー 2 経由で URL ドメイン名 (DNS) を解決します。
 1. 顧客ネットワーク内の Teams ユーザーが、フロー 1 経由で Teams トランスポート リレーでメディア リレー ポートを割り当てます。

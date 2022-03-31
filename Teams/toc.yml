@@ -855,6 +855,8 @@ items:
                 href: operator-connect-configure.md
           - name: ダイレクト ルーティング
             items:
+              - name: 新機能
+                href: direct-routing-whats-new.md
               - name: 概要
                 href: direct-routing-landing-page.md
               - name: ダイレクト ルーティングを計画する

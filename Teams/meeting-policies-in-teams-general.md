@@ -1,5 +1,5 @@
 ---
-title: 一般会議ポリシーを管理する
+title: 一般的な会議ポリシーを管理する
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -18,10 +18,10 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
-description: 会議の全般ポリシー設定を管理する方法については、Teams。
+description: Teams で一般的な会議ポリシー設定を管理する方法について説明します。
 ms.openlocfilehash: 1bf4958f74a95775d6d34c87ea6d7d65262530e4
 ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 01/25/2022
 ms.locfileid: "62191478"
@@ -30,24 +30,24 @@ ms.locfileid: "62191478"
 
 <a name="bkgeneral"> </a>
 
-この記事では、会議の一般的なポリシー設定についてTeamsします。
+この記事では、Teams 会議での次の一般的なポリシー設定について説明します。
 
-- [チャネルで今すぐ会う](#meet-now-in-channels)
+- [チャネルでの "今すぐ会議"](#meet-now-in-channels)
 - [Outlook アドイン](#outlook-add-in)
-- [チャネル会議のスケジュール](#channel-meeting-scheduling)
+- [チャネル会議のスケジュール設定](#channel-meeting-scheduling)
 - [プライベート会議のスケジュール設定](#private-meeting-scheduling)
-- [プライベート会議で今すぐ会議を行う](#meet-now-in-private-meetings)
-- [指定された発表者ロール モード](#designated-presenter-role-mode)
+- [プライベート会議での "今すぐ会議"](#meet-now-in-private-meetings)
+- [指定された発表者の役割モード](#designated-presenter-role-mode)
 - [エンゲージメント レポート](#engagement-report)
 - [会議の登録](#meeting-registration)
-- [Who登録可能](#who-can-register)
-- [諸島モードの会議プロバイダー](#meeting-provider-for-islands-mode)
+- [登録できるユーザー](#who-can-register)
+- [アイランド モードの会議プロバイダー](#meeting-provider-for-islands-mode)
 
-## <a name="meet-now-in-channels"></a>チャネルで今すぐ会う
+## <a name="meet-now-in-channels"></a>チャネルでの "今すぐ会議"
 
-これはユーザーごとのポリシーであり、会議が始まる前に適用されます。 この設定は、ユーザーが Teams チャネルでアドホック会議を開始できるかどうかを制御します。 これを有効にした場合、ユーザーは [会議] ボタンをクリックして、臨時の会議を開始したり、チャネルで会議をスケジュールすることができます。 既定値は True です。
+これはユーザーごとのポリシーであり、会議が始まる前に適用されます。 この設定は、ユーザーが Teams チャネルでアドホック会議を開始できるかどうかを制御します。 これを有効にすると、ユーザーは **[会議]** ボタンをクリックしてアドホック会議を開始したり、チャネルでの会議をスケジュール設定したりできます。 既定値は True です。
 
-[![メッセージの下に [今すぐ会う] アイコンを示すスクリーンショット。 ](media/meeting-policies-meet-now.png) ](media/meeting-policies-meet-now.png#lightbox)
+[ ![メッセージの下の [今すぐ会議] アイコンを示すスクリーンショット。](media/meeting-policies-meet-now.png) ](media/meeting-policies-meet-now.png#lightbox)
 
 ## <a name="outlook-add-in"></a>Outlook アドイン
 
@@ -57,54 +57,54 @@ ms.locfileid: "62191478"
 
 これをオフにすると、ユーザーは Outlook で新しい会議を作成するときに Teams 会議をスケジュールできなくなります。 たとえば、Windows 上の Outlook では、[**新しい Teams 会議**] オプションはリボンに表示されません。
 
-## <a name="channel-meeting-scheduling"></a>チャネル会議のスケジュール
+## <a name="channel-meeting-scheduling"></a>チャネル会議のスケジュール設定
 
 既存の[AllowChannelMeetingScheduling] ポリシーを使用して、チームのチャネルの予定表で作成できるイベントの種類を制御します。 これはユーザーごとのポリシーであり、会議が始まる前に適用されます。 この設定は、ユーザーが Teams チャネルで会議をスケジュールできるかどうかを制御します。 既定では、この設定は[オン] に設定されています。
 
-このポリシーがオフになっている場合、ユーザーは新しいチャネル会議を作成できます。 ただし、既存のチャネル会議は、イベントの開催者が編集できます。
+このポリシーが無効になっていると、ユーザーは新しいチャネル会議を作成できなくなります。 ただし、既存のチャネル会議は、イベントの開催者が編集できます。
 
 会議のスケジュールは無効になります。
 
-![[会議のスケジュール] オプションを示すスクリーンショットTeams。](media/schedule-meeting-option.png)
+![Teams での [会議のスケジュール設定] オプションを示すスクリーンショット。](media/schedule-meeting-option.png)
 
 チャネルの選択が無効になっています。
 
-[![会議のスケジュールを設定するチャネルを選択する予定表オプションを示すスクリーンショット。 ](media/meeting-policies-select-a-channel-to-meet-in.png) ](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
+[ ![会議をスケジュール設定するチャネルを選択するための予定表オプションを示すスクリーンショット。](media/meeting-policies-select-a-channel-to-meet-in.png) ](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
 
-チャネルの投稿ページで、次の機能が無効になります。
+チャネル投稿ページで、次のものが無効になります。
 
 - [チャネル返信の作成] ボックスの [**会議のスケジュール**] ボタン
-  ![会議をスケジュールするチャネルを選択する予定表オプションを示すスクリーンショット。](media/schedule-meeting-disabled-in-chat2.png)
+  ![会議をスケジュール設定するチャネルを選択するための予定表オプションを示すスクリーンショット。](media/schedule-meeting-disabled-in-chat2.png)
   
 - チャネル ヘッダーの [**会議のスケジュール**] ボタン。
-  ![会議のスケジュールを設定するチャネルを選択する予定表オプションを示すスクリーンショット。](media/schedule-now-in-header.png)
+  ![会議をスケジュール設定するチャネルを選択するための予定表オプションを示すスクリーンショット。](media/schedule-now-in-header.png)
 
 [チャネル カレンダー] で、次の操作を行います。
 
 - チャンネル予定表ヘッダーの[**新しいイベントの追加**] ボタンは、無効になります。
-  ![会議のスケジュールを設定できるチャネルを選択する予定表オプションを示すスクリーンショット。](media/add-new-event-disabled.png)
+  ![会議をスケジュール設定できるようにするチャネルを選択するための予定表オプションを示すスクリーンショット。](media/add-new-event-disabled.png)
 
-- ユーザーは、チャネル予定表で時間ブロックをドラッグして選択して、チャネル会議を作成できない。
+- ユーザーは、チャネルの予定表で時間ブロックをドラッグしたり、選択したりしてチャネル会議を作成することができなくなります。
 
-- ユーザーは、キーボード ショートカットを使用して、チャネルの予定表に会議を作成することはできません。
+- ユーザーは、キーボード ショートカットを使用してチャネルの予定表で会議を作成できません。
 
 管理センターにて
 
 [アプリのアクセス許可ポリシー] ページの [**Microsoft アプリ**] セクションに、チャネル カレンダー アプリが表示されます。
 
-![管理センターのアプリのアクセス許可ポリシー Teamsスクリーンショット。](media/manage-microsoft-apps-policy.png)
+![Teams 管理センターでのアプリのアクセス許可ポリシーを示すスクリーンショット。](media/manage-microsoft-apps-policy.png)
 
 ## <a name="private-meeting-scheduling"></a>プライベート会議のスケジュール設定
 
 これはユーザーごとのポリシーであり、会議が始まる前に適用されます。 この設定は、ユーザーが Teams でプライベート会議をスケジュールできるかどうかを制御します。 チームのチャネルに公開されていない会議はプライベートです。
 
-[**プライベート会議のスケジュールを許可する**] および [**チャネルの会議スケジュールを許可する**] を無効にすると、Teams のユーザーに対して [**必須出席者の追加**] および [**チャネルの追加**] オプションが無効になります。 既定では、この設定は[オン] に設定されています。
+**[プライベート会議のスケジュールを許可する]** と **[チャネルの会議スケジュールを許可する]** を無効にすると、Teams のユーザーに対する **[必須出席者を追加]** および **[チャネルを追加]** オプションが無効になることに注意してください。
 
-## <a name="meet-now-in-private-meetings"></a>プライベート会議で今すぐ会議を行う
+## <a name="meet-now-in-private-meetings"></a>プライベート会議での "今すぐ会議"
 
 これはユーザーごとのポリシーであり、会議が始まる前に適用されます。 この設定は、ユーザーがアドホック プライベート会議を開始できるかどうかを制御します。  既定では、この設定は[オン] に設定されています。
 
-## <a name="designated-presenter-role-mode"></a>指定された発表者ロール モード
+## <a name="designated-presenter-role-mode"></a>指定された発表者の役割モード
 
 これは、ユーザーごとのポリシーです。 この設定では、Teams クライアントの **会議オプション** の **誰がプレゼンをするか?** の設定の既定値を変更することができます。 このポリシー設定は、Meet Now (今すぐ会議) を含むすべての会議に影響します。
 
@@ -124,47 +124,47 @@ Teams の **誰がプレゼンをするか?** 設定の既定値を指定する�
 
 これは、ユーザーごとのポリシーです。 この設定では、会議の開催者が [会議出席レポート](teams-analytics-and-reports/meeting-attendance-report.md)をダウンロードできるかどうかを制御します。
 
-このポリシーは既定でオンになっています。開催者は、設定した会議やウェビナーを誰が登録して参加したのか確認できます。 管理センターで無効Teams会議ポリシー に移動し、[エンゲージメント レポート] 設定を [オフ]  >  に **設定します**。 
+このポリシーは既定で有効になっているため、開催者は、自分が設定した会議やウェビナーに登録したユーザーと出席したユーザーを確認できます。 Teams 管理センターでこれを無効にするには、**[会議]** > **[会議ポリシー]** の順に移動し、**[エンゲージメント レポート]** 設定を **[オフ]** に設定します。
 
-[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)コマンドレットをTeams既存の会議ポリシーを編集することもできます。 または、[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) コマンドレットを使用して、新しい Teams の会議ポリシーを作成し、ユーザーに割り当てます。
+[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) コマンドレットを使用して、既存の Teams 会議ポリシーを編集することもできます。 または、[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) コマンドレットを使用して、新しい Teams の会議ポリシーを作成し、ユーザーに割り当てます。
 
-既定では **、AllowEngagementReport** パラメーターは PowerShell で **[有効]** に設定されています。 会議の開催者が会議出席レポートをダウンロードするのを防ぐには **、AllowEngagementReport** パラメーターを [無効] に **設定します**。
+既定では、PowerShell で **AllowEngagementReport** パラメーターは **Enabled** に設定されています。 会議の開催者が会議出席レポートをダウンロードできないようにするには、**AllowEngagementReport** パラメーターを **Disabled** に設定します。
 
-このポリシーを有効にすると、[参加者] ウィンドウに会議出席レポートをダウンロードするオプション **が表示** されます。
+このポリシーが有効になっている場合は、会議出席レポートをダウンロードするためのオプションが **[参加者]** ウィンドウに表示されます。
 
 > [!NOTE]
-> 管理者は、開催しない会議の出席レポートを表示できない。 ただし、その会議から 24 時間以内に、特定の会議の参加者の詳細を表示できます。 管理センター Teams、[ユーザーの管理]**に**  >  **移動します**。 会議の開催者の表示名を選択します。 [会議 **] &通話** ] タブを選択し、適切な会議 ID または通話 ID を選択します。 次に、[参加者の **詳細] を選択します**。
+> 管理者は、自分が開催していない会議の出席レポートを表示できません。 ただし、特定の会議から 24 時間以内に、その会議の参加者の詳細を表示できます。 Teams 管理センターで、**[ユーザー]** > **[ユーザーの管理]** の順に移動します。 会議の開催者の表示名を選択します。 **[会議と通話]** タブを選択してから、適切な会議 ID または通話 ID を選択します。 次に、**[参加者の詳細]** を選択します。
 
-エンゲージメント レポートの制限など、詳細については、「会議出席レポートの表示とダウンロード」を参照[Teams。](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310)
+エンゲージメント レポートの制限を含む詳細については、[Teams での会議出席レポートの表示とダウンロード](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310)に関するページを参照してください。
 
 ## <a name="meeting-registration"></a>会議の登録
 
-これは、ユーザーごとのポリシーです。 これを有効にした場合、組織内のユーザーはウェビナーを設定できます。 このポリシーは既定で有効になっています。
+これは、ユーザーごとのポリシーです。 これを有効にすると、組織内のユーザーはウェビナーを設定できます。 このポリシーは、既定で有効になっています。
 
-管理センターでこのポリシーを編集Teams、[会議の会議ポリシー]  >  **に移動します**。 会議の登録をオフにする場合は、ポリシーを [オフ] に **設定します**。
-
-[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) コマンドレットを使用して、既存の Teams 会議ポリシーを編集することができます。 または、[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) コマンドレットを使用して、新しい Teams の会議ポリシーを作成し、ユーザーに割り当てます。
-
-会議の登録を有効にする場合は  **、MeetingRegistration パラメーター** を True に **設定します**。 これは既定で **True に** 設定されています。
-
-会議の登録をオフにし、ユーザーがウェビナーをスケジュールできない場合は、 パラメーターを False に **設定します**。
-
-## <a name="who-can-register"></a>Who登録可能
-
-このポリシーは、ウェビナーを登録して参加できるユーザーを制御します。 このポリシーには 2 つのオプションがあります。このオプションは、会議の登録が有効 **になっている** 場合にのみ使用できます。
-
-- 匿名 **Who** を含むすべてのユーザーが、組織内のユーザーが設定したウェビナーの登録と参加を許可する場合は、[すべてのユーザー] に登録できます。
-- 組織内 **Who** のユーザーにのみウェビナーの登録と参加を許可する場合は、[組織内のすべてのユーザー] に登録できるオプションを設定します。
-
-既定では、**登録Whoは [すべてのユーザー** ] に **設定されています**。 管理センターでこのポリシーを編集Teams、[会議の会議ポリシー]   >  **に移動します**。
+Teams 管理センターでこのポリシーを編集するには、**[会議]** > **[会議ポリシー]** の順に移動します。 会議の登録を無効にするには、このポリシーを **[オフ]** に設定します。
 
 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) コマンドレットを使用して、既存の Teams 会議ポリシーを編集することができます。 または、[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) コマンドレットを使用して、新しい Teams の会議ポリシーを作成し、ユーザーに割り当てます。
 
-匿名ユーザーを含むすべてのユーザーがウェビナーを登録して参加するには **、WhoCanRegister** パラメーターを Everyone に設定 **します**。 これは既定で [ **すべてのユーザー] に** 設定されています。
+会議の登録を有効にするには、**MeetingRegistration** パラメーターを **True** に設定します。 これは、既定では **True** に設定されています。
 
-組織内のユーザーだけがウェビナーの登録と参加を許可するには、 パラメーターを **EveryoneInCompany に設定します**。
+会議の登録を無効にし、ユーザーがウェビナーをスケジュール設定できないようにするには、このパラメーターを **False** に設定します。
 
-## <a name="meeting-provider-for-islands-mode"></a>諸島モードの会議プロバイダー
+## <a name="who-can-register"></a>登録できるユーザー
+
+このポリシーでは、どのユーザーがウェビナーに登録して参加できるかを制御します。 このポリシーには、**[会議の登録]** が有効になっている場合にのみ使用できる 2 つのオプションがあります。
+
+- 匿名ユーザーを含むすべてのユーザーが、組織内のユーザーが設定したウェビナーに登録して参加できるようにする場合は、**[登録できるユーザー]** を **[すべてのユーザー]** に設定します。
+- 組織内のユーザーのみがウェビナーに登録して参加できるようにする場合は、**[登録できるユーザー]** を **[組織内のすべてのユーザー]** に設定します。
+
+既定では、**[登録できるユーザー]** は **[すべてのユーザー]** に設定されています。 Teams 管理センターでこのポリシーを編集するには、**[会議]** > **[会議ポリシー]** の順に移動します。
+
+[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) コマンドレットを使用して、既存の Teams 会議ポリシーを編集することができます。 または、[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) コマンドレットを使用して、新しい Teams の会議ポリシーを作成し、ユーザーに割り当てます。
+
+匿名ユーザーを含むすべてのユーザーがウェビナーに登録して参加できるようにするには、**WhoCanRegister** パラメーターを **Everyone** に設定します。 これは、既定では **Everyone** に設定されています。
+
+組織内のユーザーのみがウェビナーに登録して参加できるようにするには、このパラメーターを **EveryoneInCompany** に設定します。
+
+## <a name="meeting-provider-for-islands-mode"></a>アイランド モードの会議プロバイダー
 
 これは、ユーザーごとのポリシーです。 この設定は、*アイランド モードのユーザー* がどの Outlook 会議アドインを使用するかを制御できます。 Teams 会議アドインのみを使用するか、Teams 会議アドインと Skype for Business 会議アドインの両方を使用するかを指定して、Outlook で会議をスケジュールできます。
 
@@ -174,12 +174,12 @@ Teams の **誰がプレゼンをするか?** 設定の既定値を指定する�
 
 ユーザーが使用できる会議アドインを指定するには、次のように **PreferredMeetingProviderForIslandsMode** パラメーターを指定します。
 
-- パラメーターを **TeamsAndSfB** に設定すると、Outlook の Teams 会議アドインと Skype for Business アドインの両方が有効になります。 これが既定値です。
+- Outlook で Teams 会議アドインと Skype for Business アドインの両方を有効にするには、このパラメーターを **TeamsAndSfB** に設定します。これが既定値です。
 - パラメーターを **Teams** に設定すると、Outlook の Teams 会議アドインのみが有効になります。 このポリシー設定では、今後のすべての会議にTeams の会議への参加リンクがあることが確実になります。 既存の Skype for Business 会議の参加リンクはTeams には移行されません。 このポリシー設定は、ユーザーが Skype for Business への参加、チャット、PSTN 通話、その他の機能を使用することに影響を与えません。ユーザーが Skype for Business の機能を引き続き使用できることを意味します。
 
   パラメーターを **Teams** に設定し、**の TeamsAndSfB** に戻すと、両方の会議アドインが有効になります。 ただし、既存の Teams 会議の参加リンクは、Skype for Business に移行されないことにご注意ください。 変更の後にスケジュールされた Skype for Business の会議のみが、Skype for Business の会議参加リンクを持つようになります。
 
-## <a name="meeting-reactions"></a>会議の反応
+## <a name="meeting-reactions"></a>会議の応答
 
 AllowMeetingReactions 設定は、PowerShell を使用してのみ適用できます。 Teams 管理センターから AllowMeetingReactions のオンまたはオフを切り替えるオプションはありません。
 
@@ -189,5 +189,5 @@ AllowMeetingReactions 設定は、PowerShell を使用してのみ適用でき�
 ## <a name="related-topics"></a>関連項目
 
 - [Teams での PowerShell の概要](teams-powershell-overview.md)
-- [Teams でポリシーを割り当Teams](policy-assignment-overview.md)
+- [Teams でポリシーを割り当てる](policy-assignment-overview.md)
 - [ユーザーから RestrictedAnonymousAccess Teams 会議ポリシーを削除する](meeting-policies-restricted-anonymous-access.md)

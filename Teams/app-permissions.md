@@ -19,32 +19,36 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2b15625ae6e487a54fb5dbad122064148465b0ad
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: c95f5ab273112b29b91a312111000ba2dac76f9e
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711701"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556328"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams アプリのアクセス許可と考慮事項
 
-Microsoft Teamsは、1 つ以上の機能を、インストール、アップグレード、アンインストールできるアプリ  パッケージに集約する方法です。 機能は次のとおりです。
+Microsoft Teamsは、1 つ以上の機能を、インストール、アップグレード、アンインストールできるアプリに集約する方法です。 アプリの機能は次のとおりです。
 
 * ボット
 * メッセージング拡張機能
 * タブ
 * コネクタ
 
-アプリはユーザーによって同意され、ポリシーの観点から IT によって管理されます。 ただし、アプリのアクセス許可とリスク プロファイルは、アプリに含まれる機能のアクセス許可とリスク プロファイルによって定義されます。 そのため、この記事では、機能レベルでのアクセス許可と考慮事項について説明します。
+管理者は、アプリのみを管理します。 ただし、この記事では、アプリの機能がアプリの必要なアクセス許可とリスク プロファイルに影響を与えるので、機能レベルでのアクセス許可と考慮事項について重点的に説明します。 使用の場合、アプリはユーザーによって同意され、ポリシーの観点から IT プロフェッショナルによって管理されます。
 
-以下に示すアクセス許可 (RECEIVE_MESSAGE や REPLYTO_MESSAGE など) は、Microsoft Teams 開発者向けドキュメントや [Microsoft Graph](/graph/permissions-reference) のアクセス許可のどこに[も](/microsoftteams/platform/overview)表示されません。
+以下に示すアクセス許可は、たとえば大文字で示され、`RECEIVE_MESSAGE``REPLYTO_MESSAGE`説明と説明のみを目的とします。 これらの文字列またはアクセス許可は、開発者向けドキュメントや Microsoft [](/microsoftteams/platform/overview) Microsoft Teams のアクセス許可のどこにも[表示Graph](/graph/permissions-reference)。
 
-| タイトル   | 説明    |
+<!--- TBD: What does this table mean? The icons are not used anywhere in this article so commenting this for now.
+
+| Title   | Description    |
 |-----------|------------|
-| ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>調査中のアプリが要求しているアクセス許可を理解するには、次の表をガイドとして使用します。</li></ul> |
-| ![次の手順を示すアイコン](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>アプリまたはサービス自体を調査して、組織内でアクセスを許可するかどうかを決定します。 たとえば、ボットはユーザーからのメッセージを送受信します。エンタープライズ カスタム ボットを除き、ボットはコンプライアンスの境界の外に配置されます。 そのため、ボットを含むアプリには、これらのアクセス許可が必要であり、その最小限のリスク プロファイルがあります。 </li></ul>|
+| ![An icon depicting a decision point](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Use the tables below as a guide to understand which permissions the apps you're investigating are requesting.</li></ul> |
+| ![An icon depicting the next step](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Research the app or service itself to decide whether you want to allow access to it within your organization. For example, bots send and receive messages from users, and—except for enterprise custom bots—they're located outside the compliance boundary. Therefore, any app that includes a bot requires those permissions and has that minimum risk profile. </li></ul>|
 
-「デバイスの[アクセス許可を要求する」を参照Microsoft Teamsしてください](/microsoftteams/platform/concepts/device-capabilities/native-device-permissions)。
+See also [Request device permissions for your Microsoft Teams tab](/microsoftteams/platform/concepts/device-capabilities/native-device-permissions).
+
+--->
 
 ## <a name="global-app-permissions-and-considerations"></a>グローバル アプリのアクセス許可と考慮事項
 
@@ -62,7 +66,7 @@ Microsoft Teamsは、1 つ以上の機能を、インストール、アップグ
 
 * [リソース固有の同意は](resource-specific-consent.md) 、アプリが要求できる一連のアクセス許可を提供します。このアクセス許可は、アプリのインストール画面に表示されます。 リソース固有の同意アクセス許可の詳細については、「アクセス許可の参照[Graph参照してください](/graph/permissions-reference#teams-resource-specific-consent-permissions)。
 
-* アプリには、リソース固有の同意アクセス許可以外のアクセス許可が必要な場合があります。 アプリがインストールされた後、アプリは同意プロンプトをGraphアクセス許可を要求できます。 詳細については、「アプリケーションの同意エクスペリエンス[についてAzure AD」を参照してください](/azure/active-directory/develop/application-consent-experience)。 API のアクセス許可と同意は、Azure Portal で構成できます。 詳細については、「同意フレームワーク[のAzure Active Directory参照してください](/azure/active-directory/develop/consent-framework)。
+* アプリには、リソース固有の同意アクセス許可以外のアクセス許可が必要な場合があります。 アプリがインストールされた後、アプリは同意プロンプトをGraphアクセス許可を要求できます。 詳細については、「アプリケーションの同意エクスペリエンス[についてAzure AD」を参照してください](/azure/active-directory/develop/application-consent-experience)。 API のアクセス許可と同意は、次のAzure portal。 詳細については、「同意フレームワーク[のAzure Active Directory参照してください](/azure/active-directory/develop/consent-framework)。
 
 ## <a name="bots-and-messaging-extensions"></a>ボットとメッセージング拡張機能
 
@@ -94,8 +98,7 @@ Microsoft Teamsは、1 つ以上の機能を、インストール、アップグ
 
   * RECEIVE_MESSAGE_PERSONAL、REPLYTO_MESSAGE_PERSONAL
   * RECEIVE_MESSAGE_GROUPCHAT、REPLYTO_MESSAGE_GROUPCHAT
-  * RECEIVE_MESSAGE_TEAM、REPLYTO_MESSAGE_TEAM    
-
+  * RECEIVE_MESSAGE_TEAM、REPLYTO_MESSAGE_TEAM
 
 * SEND_FILES、RECEIVE_FILES:<sup>2</sup> ボットが個人チャットでファイルを送受信できるかどうかを制御します (グループ チャットまたはチャネルではまだサポートされていません)。
 

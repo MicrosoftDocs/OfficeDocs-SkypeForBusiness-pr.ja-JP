@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bd5ab3395aa870d0be073a0afcd08aafe9110637
-ms.sourcegitcommit: 867e8b4120e81c93c029c0c1b9cb69c161fc87a4
+ms.openlocfilehash: be7ee83b510096d8d6ffc0c4a0a5984917ad55c5
+ms.sourcegitcommit: 42c355d3f4bbe52c063b8f2119baefc0b88f9563
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/26/2022
-ms.locfileid: "64480659"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "64403978"
 ---
 # <a name="about-apps-in-microsoft-teams"></a>Microsoft Teams のアプリについて
 
@@ -94,7 +94,7 @@ Teams Store からアプリを入手してください。 既定では、すべ�
 
 ### <a name="custom-connectors"></a>カスタム コネクタ
 
-コネクタにより、頻繁に使用するサービスからコンテンツと更新内容がチャネルに直接配信されるため、チームは最新の状態に保たれます。コネクタを使用すると、Teams ユーザーは Trello、Wunderlist、GitHub、Azure DevOps Services などのポピュラーなサービスから Teams チャットで最新情報を受け取ることができます。
+コネクタにより、頻繁に使用するサービスからコンテンツと更新内容がチャネルに直接配信されるため、チームは最新の状態に保たれます。コネクタを使用すると、Teams ユーザーは Twitter、Trello、Wunderlist、GitHub、Azure DevOps Services などのポピュラーなサービスから Teams チャットで最新情報を受け取ることができます。
 
 | 確認事項 | アクション |
 |--------------|--------|

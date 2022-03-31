@@ -18,12 +18,12 @@ ms.localizationpriority: high
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 65421d36c0a8c19d8c7118e348222e3b62175a95
-ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
+ms.openlocfilehash: 00b8079a360dbec05b14f1487755e96bfc98b76f
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62893526"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556518"
 ---
 # <a name="teams-update-process"></a>Teams の更新プロセス
 
@@ -43,11 +43,6 @@ Teams デスクトップ クライアントの更新プログラムは、TAP (Te
 
 Teams は、上記で説明した独自の更新プロセスに従います。 Teams は、Word や Excel などの他のオフィス アプリの更新プロセスには追従しません。 詳細については、「[Microsoft 365 Apps の更新プログラム チャネルの概要](/DeployOffice/overview-update-channels)」を参照してください。
 
-## <a name="what-about-updates-to-teams-on-vdi"></a>VDI 上の Teams の更新について
-
-
-仮想デスクトップ インフラストラクチャ (VDI) 上の Teams クライアントは、VDI 以外の Teams クライアントのように自動的には更新されません。 [VDI 上に Teams をインストールする](teams-for-vdi.md)ための手順に従って、新しい MSI をインストールして、VM イメージを更新する必要があります。 新しいバージョンに更新するには、現在のバージョンをアンインストールする必要があります。
-
 ## <a name="can-admins-deploy-updates-instead-of-teams-auto-updating"></a>Teams の自動更新の代わりに、管理者が更新プログラムを展開することはできますか?
 
 Teams では、どんな配信メカニズムを使用してであれ、管理者が更新プログラムを展開することはできません。
@@ -61,3 +56,7 @@ Teams では、どんな配信メカニズムを使用してであれ、管理�
 政府機関向けクラウドの Teams デスクトップ クライアントについては、現在のところ、別途お知らせするまでこのサービス契約の例外です。
 
 新しいバージョンのリリースの詳細については、[メッセージ センター](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter)で確認するか、クライアントの **[ヘルプ]** > **[What’s new](新機能)** を参照してください。
+
+## <a name="what-about-updates-to-teams-on-vdi"></a>VDI 上の Teams の更新について
+
+仮想デスクトップ インフラストラクチャ (VDI) 上の Teams クライアントは、VDI 以外の Teams クライアントのように自動的には更新されません。 [VDI 上に Teams をインストールする](teams-for-vdi.md)ための手順に従って、新しい MSI をインストールして、VM イメージを更新する必要があります。 新しいバージョンに更新するには、現在のバージョンをアンインストールする必要があります。

@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18e7b02a52a0ddc7c380ed3fb4c5879b45fe18dc
-ms.sourcegitcommit: b878c57b8e822913b7aac8c105f476bc4ebfcd7d
+ms.openlocfilehash: 554c2e893272ca8dfca1fde6c746e72f1b462f1e
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63761931"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556558"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>会議のTeamsに対するポリシー ベースの記録の概要&説明
 
@@ -58,9 +58,9 @@ Teamsは、Teams 通信を構成、管理、記録、保存、分析するため
 | イニシエーター              | ユーザー               | 管理者 (システム)  |
 | Target                 | 通話/会議ごとに | ユーザーごと        |
 | Storage所有者          | ユーザー               | コンプライアンス      |
-| 通知が必要ですか? | はい                | はい             |
+| 通知が必要ですか? | Yes                | Yes             |
 | アクセス所有者           | ユーザー               | コンプライアンス      |
-| アイテム保持ポリシー      | 省略可能           | はい             |
+| アイテム保持ポリシー      | 省略可能           | Yes             |
 
 Teamsは、会議やライブ [イベントの便利](./cloud-recording.md)で機能的な記録のためのさまざまな機能を提供します。 組織の記録とは、通話や会議に Teams を採用する組織が、関連する企業または規制ポリシーの要求に応じて、通話とオンライン会議を自動的に記録および保持するために、管理ポリシーを使用して自動的に記録およびキャプチャする必要がある場合に、それを可能に意味します。 このポリシーの下のユーザーは、Teams とのデジタル対話が記録されているが、記録を無効にできないので、対話が完了すると記録にアクセスできないという認識を受け取る必要があります。 記録は、電子情報開示、法的保持、その他の企業保有の使用に関するコンプライアンス担当者および法務担当者が利用できる組織のアーカイブの一部になります。
 
@@ -138,7 +138,7 @@ Azure および Windows VM の要件は Teams Bot コンポーネントにのみ
 
 ## <a name="compliance-recording-policy-assignment-and-provisioning"></a>コンプライアンス記録ポリシーの割り当てとプロビジョニング
 
-IT 管理者は、コンプライアンス記録ポリシーを作成して割り当てると、どのユーザーを記録し、どのレコーダーを各ユーザーに使用されるかを決定できます。 記録者は、通信操作が行われたときに、これらのポリシーの構成に基づいて会話に参加するために自動的に招待されます。 コンプライアンス記録ポリシーは [Microsoft PowerShell](./teams-powershell-overview.md) を使用して管理され、テナント、ユーザー単位、およびセキュリティ グループ レベルで組織ごとに適用できます。 会議ポリシー、通話ポリシー、[グループ ポリシーに](./meeting-policies-overview.md)関する Microsoft Docs [の詳細を](./teams-calling-policy.md)[確認できます](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group)。
+IT 管理者は、コンプライアンス記録ポリシーを作成して割り当てると、どのユーザーを記録し、どのレコーダーを各ユーザーに使用されるかを決定できます。 記録者は、通信操作が行われたときに、これらのポリシーの構成に基づいて会話に参加するために自動的に招待されます。 コンプライアンス記録ポリシーは [Microsoft PowerShell](./teams-powershell-overview.md) を使用して管理され、テナント、ユーザー単位、およびセキュリティ グループ レベルで組織ごとに適用できます。 会議ポリシー、通話ポリシー、[Microsoft Docsの詳細](./meeting-policies-overview.md)については、「会議ポリシー[」](./teams-calling-policy.md)を[参照してください](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group)。
 
 1. テナントにアプリケーション インスタンスを作成します。
 
@@ -226,7 +226,8 @@ IT 管理者は、コンプライアンス記録ポリシーを作成して割�
 |CallCabinet |[https://www.callcabinet.com/compliance-microsoft-teams-call-recording](https://www.callcabinet.com/compliance-microsoft-teams-call-recording ) |
 |ダバー |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
 |Insightful テクノロジ |[https://insightfultechnology.com/teams/](https://insightfultechnology.com/teams/) |
-|NICE |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
+|NICE Engage |[https://www.nice.com/products/workforce-engagement/call-recording/air-and-engage](https://www.nice.com/products/workforce-engagement/call-recording/air-and-engage) |
+|NICE NTR |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
 |Numonix |[https://numonix.cloud](https://numonix.cloud)    |
 |Oak Innovation |[https://www.oakinnovate.com/clarify](https://www.oakinnovate.com/clarify) |
 |赤いボックス |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/compliance-recording-for-microsoft-teams)  |
@@ -245,6 +246,6 @@ IT 管理者は、コンプライアンス記録ポリシーを作成して割�
 
 このリストは、パートナーが参加して認定条件を満たしたときに更新されます。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 認定プログラムへの参加を希望しているベンダーの場合は、認定プログラムにメールを [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com)。

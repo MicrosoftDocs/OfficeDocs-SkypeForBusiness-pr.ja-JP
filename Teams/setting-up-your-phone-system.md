@@ -24,12 +24,12 @@ ms.custom:
 - seo-marvel-apr2020
 - intro-get-started
 description: 詳細な手順については、組織内の組織のTeams 電話システムを設定する方法を説明Microsoft 365。
-ms.openlocfilehash: 3a5c275c7d7d881ff770e6e84a3d4fa935d2827f
-ms.sourcegitcommit: 71edff2670367082312de59c4e21775682871418
+ms.openlocfilehash: 6b56c68e7316c78c7c1881d6e9d6ca39b13823b1
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "63043345"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556298"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>組織内の電話システムの設定
 
@@ -50,7 +50,7 @@ ms.locfileid: "63043345"
 
 ## <a name="step-1-buy-and-assign-a-phone-system-license"></a>手順 1: ライセンスを購入して割り当電話システムする
 
-1 人の電話システムユーザーにライセンスを割り当てる手順は、ライセンスの割り当てとMicrosoft 365です。 複数のユーザーにライセンスを一括で割り当てて可能です。 使用可能な 電話システム ライセンスとライセンスの取得と割り当て方法の詳細については、「Teams [](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing) アドオン ライセンス」および「[Microsot Teams](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses) アドオン ライセンスの割り当て」を参照してください。
+1 人の電話システムユーザーにライセンスを割り当てる手順は、ライセンスの割り当てとMicrosoft 365です。 複数のユーザーにライセンスを一括で割り当てて可能です。 使用可能な 電話システム ライセンスとライセンスの取得と割り当て方法の詳細については、「Teams [](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing) アドオン ライセンス」および「Microsoft Teams アドオン ライセンスの割り当て」を参照[してください](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)。
 
 ## <a name="step-2-choose-a-pstn-connectivity-option"></a>手順 2. PSTN 接続オプションを選択する 
  
@@ -58,7 +58,7 @@ ms.locfileid: "63043345"
 
 - 通話プラン。 MICROSOFT を PSTN 通信事業者として使用する、クラウド内のすべてソリューション。 
 
-- 演算子Connect。 既存の運送業者が Microsoft Operator Connect プログラムに参加している場合は、PSTN 通話とセッション ボーダー コントローラー (SBC) を管理できます。 
+- オペレーター接続。 既存の通信事業者が Microsoft オペレーター接続 プログラムに参加している場合は、PSTN 通話とセッション ボーダー コントローラー (SBC) を管理できます。 
 
 - ダイレクト ルーティング。 SPC を接続して、独自の PSTN 通信業者を使用電話システム。 
 
@@ -81,12 +81,12 @@ ms.locfileid: "63043345"
 
 ユーザーの電話番号を取得する以外に、自動応答や通話キューなどのサービスの有料電話番号または無料電話番号を取得できます。 サービス番号は何百もの呼び出しを同時に処理できるのに対し、ユーザーの電話番号は数件の通話のみを同時に処理できます。   
 
-ライセンスに含まれる Microsoft からサービス番号を取得できます。 オペレーターサービスまたは直接ルーティングを通じて PSTN Connect接続している場合は、独自の通信事業者またはオペレーターが提供するサービス番号を使用できます。 
+ライセンスに含まれる Microsoft からサービス番号を取得できます。 PSTN 接続が オペレーター接続 または直接ルーティングを介している場合は、独自の通信事業者またはオペレーターが提供するサービス番号を使用できます。 
 
 詳細については、次を参照してください:
 
 - [組織の電話番号を管理する](manage-phone-numbers-landing-page.md) - PSTN 接続オプションに応じて番号を取得および管理するための特定の記事へのリンクを含む、電話番号の種類の概要を示します。  
-ライセンスに [含まれる](manage-phone-numbers-landing-page.md#service-telephone-numbers) Microsoft から利用できるサービス電話番号について説明します。 オペレーターサービスまたはダイレクト ルーティングによって提供されるサービスConnectについては、プロバイダーにお問い合わせください。 
+ライセンスに [含まれる](manage-phone-numbers-landing-page.md#service-telephone-numbers) Microsoft から利用できるサービス電話番号について説明します。 ダイレクト ルーティングまたはダイレクト ルーティングによって提供されるサービスオペレーター接続については、プロバイダーにお問い合わせください。 
 
 - [取得できる電話番号](how-many-phone-numbers-can-you-get.md) の数 – 購入して割り当てた電話番号の種類とライセンスの種類に応じて、取得できる電話番号の数について説明します。 
 
