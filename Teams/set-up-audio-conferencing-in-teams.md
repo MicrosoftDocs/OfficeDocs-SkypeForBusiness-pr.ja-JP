@@ -25,14 +25,14 @@ ms.custom:
 description: '電話を使用して電話会議に参加する必要がある社内ユーザーのダイヤルイン会議または電話会議をセットアップする方法について説明します。 '
 ms.openlocfilehash: 742393413ccf1a9e8a9d715f4ddfa199a4c4e35c
 ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 01/15/2022
 ms.locfileid: "62055157"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Microsoft Teams の電話会議を設定する
 
-組織内のユーザーが、会議にダイヤル インするために電話機を使用する必要がある場合があります。 Microsoft Teams には、こういった状況に最適な、電話会議機能があります。 ユーザーは、モバイル デバイスまたは PC 上で Microsoft Teams のアプリを使用する代わりに、電話機を使用して Teams 会議にダイヤル インすることができます。
+組織のメンバーが電話で会議に参加することが必要になる場合があります。Microsoft Teams では、このようなシチュエーションで活用できる電話会議機能が提供されています。ユーザーは、モバイル デバイスや PC 上の Microsoft Teams アプリを使用することなく、電話を使用して Microsoft Teams の会議に参加できます。
   
 電話会議の設定は、会議のスケジュールを設定または会議を進行するユーザーに対してのみ必要です。ダイヤルインで参加するユーザーについては、ライセンスの割り当てや他の設定は必要ありません。
   
@@ -75,9 +75,9 @@ ms.locfileid: "62055157"
 
 電話会議ブリッジに新規の電話番号を割り当てるには、以下の手順を実行します。
 
- **管理センター Microsoft Teams使用する**:
+ **Microsoft Teams 管理センターの使用**:
 
- 1. [ホーム] から [Voice **電話**  >  **に移動します**。
+ 1. [ホーム] から **[音声]** > **[電話番号]** に移動します。
  2. 電話番号を選択し、**[割り当て]** をクリックします。
 
 詳細については、「[電話会議ブリッジの電話番号を変更する](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)」を参照してください。
@@ -86,19 +86,19 @@ ms.locfileid: "62055157"
 
  次に、電話会議の電話番号にダイヤルインした時に、呼び出しをしたユーザーに挨拶するために会議の自動応答で使用する、[Microsoft Teams の電話会議の自動応答の言語を設定](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)します。
 
- **管理センター Microsoft Teams使用する**:
+ **Microsoft Teams 管理センターの使用**:
 
-1. ホームから、[会議会議ブリッジ]  >  **に移動します**。
+1. [ホーム] から **[会議]** > **[会議ブリッジ]** に移動します。
 2. 会議ブリッジ電話番号を選択して **[編集]** をクリックし、既定の言語を選択します。
 
 ## <a name="step-6-set-your-conferencing-bridge-settings"></a>手順 6: 会議ブリッジを設定する
 
 会議ブリッジをセットアップした後、使用する開始/終了の通知と PIN の長さが正しいかなど、既定の設定を確認します。正しくない場合は、変更することができます。
 
- **管理センター Microsoft Teams使用する**:
+ **Microsoft Teams 管理センターの使用**:
 
-1. ホームから、[会議会議ブリッジ]  >  **に移動します**。
-2. **[ブリッジの設定]** を選択します。 [**ブリッジの設定**] ウィンドウが開きます。
+1. [ホーム] から **[会議]** > **[会議ブリッジ]** に移動します。
+2. **[ブリッジの設定]** を選択すると、**[ブリッジの設定]** ペインが開きます。
 
 詳細については、[電話会議ブリッジの設定を変更する](change-the-settings-for-an-audio-conferencing-bridge.md) を参照してください。
 
@@ -108,16 +108,16 @@ ms.locfileid: "62055157"
 
 この操作を、会議を主催したり計画している組織内のすべてのユーザーに対して行う必要があります。
 
- **管理センター Microsoft Teams使用する**:
+ **Microsoft Teams 管理センターの使用**:
 
-1. [ホーム] で [ユーザー] **をクリックし**、一覧からユーザーを選択し、[編集] を **選択します**。
+1. [ホーム] から **[ユーザー]** をクリックし、リストからユーザーを選択して **[編集]** を選択します。
 2. **[電話会議]** の次にある **[編集]** をクリックしてから **[電話会議]** ウィンドウで **[有料番号]** と **[無料番号]** の番号リストから、番号を選択します。
 
 さらに詳細が必要な場合は、「[Microsoft を電話会議プロバイダーとして割り当てる](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)」を参照してください。
 
 ## <a name="step-8-set-up-meeting-invitations-optional"></a>手順 8: 会議の招集をセットアップする（オプション）
 
-ユーザー向けに設定されているダイヤルイン番号は、会議の出席者に送信される会議招集に自動的に追加されます。 ただし、必要に応じて、独自のヘルプや法律のリンク、テキスト メッセージ、小さな会社のグラフィックを追加できます。 「[会議への招待状をカスタマイズする](meeting-settings-in-teams.md#customize-meeting-invitations)」を参照してください。
+出席者に送信される会議の出席依頼には、ユーザーに設定されているダイヤルイン番号が自動的に追加されますが、望むなら、独自のヘルプ、法的事項へのリンク、テキスト メッセージ、および小さな会社ロゴを追加できます。「[会議出席依頼のカスタマイズ](meeting-settings-in-teams.md#customize-meeting-invitations)」を参照してください。
 
 ## <a name="related-topics"></a>関連項目
 

@@ -22,12 +22,12 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: b92cca01512d31fe193a718eede74fd04f44ae2e
-ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
+ms.openlocfilehash: 59e62ad1278c2703402a1186d198ae3ad877be63
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "62918870"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592773"
 ---
 # <a name="shifts-for-teams"></a>Shifts for Teams
 
@@ -54,15 +54,18 @@ ms.locfileid: "62918870"
 |&nbsp;  |&nbsp;  |
 |---------|---------|
 |<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[Shifts コネクタの概要](shifts/shifts-connectors.md)** Shifts コネクタの概要と動作について説明します。 使用可能なマネージド コネクタとオープン ソース コネクタと、サポートされている WFM システムについて説明します。   |
-|<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[Managed Shifts コネクタ](shifts/shifts-connectors.md#managed-shifts-connectors)** パートナーと共同で開発されたマネージド Shifts コネクタは、弊社またはパートナーによってホストおよび管理されます。 Rexis WFM システムを使用している場合は、「[Rexis Shifts connector for Microsoft Teams](shifts/shifts-connectors.md#reflexis-shifts-connector-for-microsoft-teams)」を参照してください。    |
-|<img src="/office/media/icons/api.png" alt="Three gears - API.">    | **[オープン ソースの Shifts コネクタ](/microsoftteams/platform/samples/shifts-wfm-connectors)** コミュニティ駆動 [型のオープン](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors) ソース コネクタを使用して、Shifts Graph API と SDK を使用して Kronos または JDA WFM システムを統合する方法について説明します。    |
+|<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[Managed Shifts コネクタ](shifts/shifts-connectors.md#managed-shifts-connectors)** パートナーと共同で開発されたマネージド Shifts コネクタは、弊社またはパートナーによってホストおよび管理されます。 詳細については、「[Blue Yonder および Reflexis Shifts connector for blue Yonder Microsoft Teams Shifts connector for Microsoft Teams」 (Blue Yonder](shifts/shifts-connectors.md#microsoft-teams-shifts-connector-for-blue-yonder) および [Reflexis Shifts コネクタの Shifts コネクタ) を参照](shifts/shifts-connectors.md#reflexis-shifts-connector-for-microsoft-teams)してください。    |
+|   | **[Shifts コネクタ ウィザードを使用して Shifts を Blue Yonder Workforce Management に接続する](shifts/shifts-connector-wizard.md)** MICROSOFT 365 管理センター Shifts コネクタ ウィザードを使用すると、WFM システムへの接続をすばやく設定できます。 現在、このウィザードでは、Blue Yonder の Teams Shifts コネクタをサポートし、Shifts と Blue Yonder Workforce Management を統合します。
+|  | **[PowerShell を使用してシフトを Blue Yonder Workforce Management に接続する](shifts/shifts-connector-blue-yonder-powershell-setup.md)** PowerShell を使用して、Blue Yonder 用の Teams Shifts コネクタを使用して Blue Yonder Workforce Management への接続を設定する方法について説明します。         |
+|   | **[PowerShell を使用して Blue Yonder Workforce Management へのシフト接続を管理する](shifts/shifts-connector-powershell-manage.md)** PowerShell を使用して、Shifts コネクタ ウィザードまたは PowerShell を使用して設定した後に、Blue Yonder Workforce Management への Shifts 接続を管理する方法に関するガイダンスを取得します。
+|<img src="/office/media/icons/api.png" alt="Three gears - API.">    | **[オープン ソースの Shifts コネクタ](/microsoftteams/platform/samples/shifts-wfm-connectors)** コミュニティ駆動 [型のオープン](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors) ソース コネクタを使用して、Shifts api と SDK を使用して Kronos または JDA WFM システムを統合するGraph説明します。    |
 
 ## <a name="shifts-extensions"></a>拡張機能をシフトする
 
 |&nbsp;|&nbsp;|
 | ------------- | ------------- |
-| <img src="/office/media/icons/api.png" alt="Three gears - API."> | **[Shift Graph API](/graph/api/resources/shift)** を使用Graph Shifts API を使用すると、Shifts データを外部の従業員管理 (WFM) システムと統合できます。 ユーザーは、カスタムの Shifts エクスペリエンスをバック エンドで柔軟に構築できる一方で、Teams で豊富なフロントエンド エクスペリエンスをユーザーに提供できます。             |
-|<img src="/office/media/icons/process-flow-teams.png" alt="Process/flow chart symbol."> | **[Shift + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Shift + Power Automate Shifts から情報を取得し、他のアプリでカスタム ワークフローを作成し、大規模な操作を実行できます。 コードをほとんどまたは一緒に使用して、主要なプロセスを自動化します。 トリガーとテンプレートは、マネージャーの承認が不要な場合にシフト要求の自動承認を有効にするなど、さまざまなシナリオをサポートします。 |
+| <img src="/office/media/icons/api.png" alt="Three gears - API."> | **[Shift Graph API を](/graph/api/resources/shift)** 使用Graph Shifts API を使用すると、Shifts データを外部の従業員管理 (WFM) システムと統合できます。 ユーザーは、カスタムの Shifts エクスペリエンスをバック エンドで柔軟に構築できる一方で、Teams で豊富なフロントエンド エクスペリエンスをユーザーに提供できます。             |
+|<img src="/office/media/icons/process-flow-teams.png" alt="Process/flow chart symbol."> | **[Shift + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Shift + Power Automate を使用すると、Shifts から情報を取得し、他のアプリとカスタム ワークフローを作成し、大規模な操作を実行できます。 コードをほとんどまたは一緒に使用して、主要なプロセスを自動化します。 トリガーとテンプレートは、マネージャーの承認が不要な場合にシフト要求の自動承認を有効にするなど、さまざまなシナリオをサポートします。 |
 
 ## <a name="featured-training"></a>おすすめのトレーニング
 

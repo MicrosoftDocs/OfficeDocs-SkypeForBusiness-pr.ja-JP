@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: ユーザーのアカウントをクラウド ボイスメールする方法について学習します。
-ms.openlocfilehash: d78942c5cbfc6af8e921c26c806378b45f480835
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: dd98275ac768990337a47f1f4ba6dacbdb385087
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442323"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592722"
 ---
 # <a name="set-up-cloud-voicemail"></a>クラウド ボイスメールのセットアップ
 
@@ -37,11 +37,11 @@ ms.locfileid: "63442323"
 
 ## <a name="cloud-voicemail-provisioning"></a>クラウド ボイスメールプロビジョニング
 
-ユーザー Teams、クラウド ボイスメール自動的に設定およびプロビジョニングされます。 *ライセンスMicrosoft Teams 電話ライセンスは必要クラウド ボイスメール。*
+ユーザー Teams、クラウド ボイスメール自動的に設定およびプロビジョニングされます。 *ライセンスMicrosoft Teams 電話ライセンスは必須クラウド ボイスメール。*
 
 オンライン ユーザー Teamsのプロビジョニングは、オンライン ユーザーの場合とSkype for Businessではありません。 Skype for Business Online ユーザーの場合、クラウド ボイスメール はユーザーに 電話システム ライセンスが割り当てられたときに自動的に設定され、プロビジョニング システムによって有効エンタープライズ VoIPプロビジョニングされました。
 
-オンプレミスSkype for Business Serverユーザーの場合、クラウド ボイスメールが自動的に設定およびプロビジョニングされます。 ただし、呼び出しをルーティングする Skype for Business Server環境を構成する必要クラウド ボイスメール。 詳細については、「オンプレミス ユーザーの[サービスクラウド ボイスメール計画する」を参照してください](/skypeforbusiness/hybrid/plan-cloud-voicemail.md)。
+オンプレミスSkype for Business Serverユーザーの場合、クラウド ボイスメールが自動的に設定およびプロビジョニングされます。 ただし、呼び出しをルーティングする Skype for Business Server環境を構成する必要クラウド ボイスメール。 詳細については、「オンプレミス ユーザーの[サービスクラウド ボイスメール計画する」を参照してください](/skypeforbusiness/hybrid/plan-cloud-voicemail)。
 
 ## <a name="cloud-voicemail-storage"></a>クラウド ボイスメール ストレージ
 
@@ -55,7 +55,7 @@ ms.locfileid: "63442323"
 
 通話の記録と文字起こしクラウド ボイスメール、Microsoft 365にルーティングされる呼び出しの起点から始クラウド ボイスメール。 その後、メッセージはユーザーのメールボックスにExchangeされます。
 
-たとえば、ヨーロッパのセッション ボーダー コントローラー (SBC) を介して使用できないダイレクト ルーティング ユーザーに通話が入った場合、ボイスメールの録音とトランスクリプションはヨーロッパで行われます。 その後、メッセージはユーザーのメールボックスにExchangeされます。 別の例として、北米のTeamsユーザーが、ヨーロッパで使用できないユーザー Teams呼び出したとします。 この場合、通話は北米で開始され、処理は北米で行われます。その後、ボイスメールはヨーロッパのユーザーの Exchange メールボックスに配信されます。
+たとえば、ヨーロッパのセッション ボーダー コントローラー (SBC) を介して使用できないダイレクト ルーティング ユーザーに通話が入った場合、ボイスメールの録音とトランスクリプションはヨーロッパで行われます。 その後、メッセージはユーザーのメールボックスにExchangeされます。 別の例として、ヨーロッパのTeamsユーザー北米を呼び出Teamsを想定します。 この場合、通話は 北米 で開始され、処理は 北米 で行われます。その後、ボイスメールはヨーロッパのユーザーの Exchange メールボックスに配信されます。
 
 メールボックスへのボイスメールの配信Exchange、他の電子メールと同様に、簡易メール転送プロトコル (SMTP) を使用して行われます。
 
@@ -75,7 +75,7 @@ ms.locfileid: "63442323"
 
 クラウド ボイスメール に対してプロビジョニングされたすべてのユーザーの既定の設定は、クラウド ボイスメール への呼び出しのルーティングを許可し、ユーザーが通話を クラウド ボイスメール に転送できる設定です。
 
-allowVoicemail パラメーターで Set-CsTeamsCallingPolicy コマンドレットを使用して、クラウド ボイスメール への呼び出しのルーティングを Teams ユーザーに許可するかどうかを制御できます。 詳細については、「 [Set-CsTeamsCallingPolicy」を参照してください](/powershell/module/skype/set-csteamscallingpolicy.md)。
+allowVoicemail パラメーターで Set-CsTeamsCallingPolicy コマンドレットを使用して、クラウド ボイスメール への呼び出しのルーティングを Teams ユーザーに許可するかどうかを制御できます。 詳細については、「 [Set-CsTeamsCallingPolicy」を参照してください](/powershell/module/skype/set-csteamscallingpolicy)。
 
 - AllowVoicemail を AlwaysDisabled に設定した場合、ユーザーの着信転送または未応答の設定に関係なく、通話はボイスメールにルーティングされません。 ボイスメールは、通話の転送または未応答の設定として、Teams。
 
@@ -105,7 +105,7 @@ allowVoicemail パラメーターで Set-CsTeamsCallingPolicy コマンドレッ
 
 ボイスメール メッセージを暗号化するには、感度ラベルを作成します。 自動ラベル付け機能を使用すると、ラベルが受信ボイスメール メッセージに自動的に適用されます。 
 
-保護されたボイスメールを有効にした場合、ユーザーは、ボイスメール メールボックスを呼び出したり、Android または iOS の Outlook、Outlook on the web、または Outlook でメッセージを開いて、保護されたボイスメール メッセージをリッスンできます。 保護されたボイスメール メッセージは、Busimess のMicrosoft TeamsまたはSkype開くことができません。
+保護されたボイスメールを有効にした場合、ユーザーは、ボイスメール メールボックスを呼び出したり、Android または iOS の Outlook、Outlook on the web、または Outlook でメッセージを開いて、保護されたボイスメール メッセージをリッスンできます。 保護されたボイスメール メッセージは、Microsoft TeamsまたはSkype for Business。
 
 ボイスメールの感度ラベルを作成するには、「感度ラベルを使用 [する」を参照してください](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions)。 [暗号化] **セクション** で、[ユーザーが **ラベルを適用するときにアクセス許可を割り当て可能] を選択します**。 [**In Outlook] を選択し**、次のいずれかの制限を適用し、[転送しない] **オプションを選択** します。
 

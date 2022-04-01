@@ -1,5 +1,5 @@
 ---
-title: チャネル モデレーションの設定と管理
+title: チャネルのモデレーションを設定および管理する
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -20,19 +20,19 @@ description: チーム メンバーをチャネルのモデレーターとして
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: b53a7d71fe7dfde77e9038ef4343539e2375985f
 ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/22/2022
 ms.locfileid: "63711321"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Microsoft Teams でチャネルのモデレーションを設定および管理する
 
-このMicrosoft Teams、チーム所有者は標準チャネルのモデレーションを有効にし、新しい投稿を開始し、そのチャネルの投稿に返信できるユーザーを制御できます。
+Microsoft Teams では、チーム所有者は標準チャネルのモデレーションを有効にして、対象チャネルで新しい投稿を開始できるユーザーと、投稿に返信できるユーザーを制御できます。
 
 チーム所有者は、チーム メンバーをモデレーターとして追加することもできます。 チーム所有者が、チャネルのモデレーションを最大限にサポートするためのチャネル レベルにおける領域の専門知識を持っていない場合もあります。 特定のチーム メンバーがチャネルをモデレートすることを許可することにより、チャネル内のコンテンツとコンテキストを管理する責任を、チーム所有者とチャネル モデレーターで共有できます。 たとえば、チーム所有者はモデレーターとしてビジネス オーナーまたはコンテンツ所有者を追加できます。これにより、対象チャネルで共有する情報を制御できます。
 
 > [!NOTE]
-> チャネル モデレーションは、標準チャネルで使用できます。 これは、全般チャネルまたはプライベート チャネルまたは共有チャネルでは使用できません。
+> チャネルのモデレーションは、標準チャネルで使用できます。 これは、全般チャネルや、プライベート チャネルまたは共有チャネルでは使用できません。
 
 ## <a name="what-can-a-channel-moderator-do"></a>チャネル モデレーターが行えること
 
@@ -54,7 +54,7 @@ ms.locfileid: "63711321"
 
 ### <a name="use-a-channel-for-class-discussions-in-teams-for-education"></a>Teams for Education におけるクラス ディスカッション用にチャネルを使用する
 
-このMicrosoft Teams for Education、サイエンス教師はチャネルを使用して、特定の教室のトピックに焦点を当てたディスカッションに学生を参加したいと思っています。
+Teams for Education では、科学の教師がチャネルを使用して、特定の授業トピックに的を絞ったディスカッションに生徒を参加させることができます。
 
 このシナリオでは、教師は、補助教員がチャネルをモデレートすることを許可します。 次に、補助教員は、新しい投稿を作成し、学生とのディスカッションを開始して促進できます。
 
@@ -62,11 +62,11 @@ ms.locfileid: "63711321"
 
 Teams でチャネルに移動し、**[その他のオプション...]** > **[チャネルを管理]** とクリックします。 ここでは、モデレーションを有効または無効にしたり、チーム メンバーをモデレーターとして追加したり、設定を行ったりすることができます。
 
-チャネルのモデレーションは、チャネルごとの設定です。 チャネルのモデレーションのテナント レベルの設定はありません。 テナント レベルのチャネル モデレーション設定を追加する場合は、フィードバック ポータルで要求[Teamsします](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)。
+チャネルのモデレーションは、チャネルごとの設定です。 チャネルのモデレーションのテナント レベルの設定はありません。 テナント レベルのチャネルのモデレーション設定を追加する場合は、[Teams フィードバック ポータル](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)で要求します。
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 
-![チームでのチャネル モデレーションの管理に関する基本設定を参照してください。](media/manage-channel-moderation-in-teams-preferences.png)
+![Teams でのチャネル モデレーションの管理に関する基本設定。](media/manage-channel-moderation-in-teams-preferences.png)
 
 ### <a name="turn-on-or-turn-off-moderation-for-a-channel"></a>チャンルのモデレーションを有効または無効にする
 

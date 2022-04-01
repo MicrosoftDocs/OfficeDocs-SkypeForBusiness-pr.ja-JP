@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: メッセージング ポリシーについて、および Teams でメッセージング ポリシーを使用してチャット メッセージングを制御する方法について取り上げます。
-ms.openlocfilehash: 74b9474eda7fd3c6bfe7224f62fbf58f61689743
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: 00146d35faac13ef511a06b6c442341832867bcc
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556248"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592792"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Teams でメッセージング ポリシーを管理する
 
@@ -99,7 +99,7 @@ ms.locfileid: "64556248"
 - **URL のプレビュー** この設定を使用して、メッセージの自動 URL プレビューを有効または無効にします。
 - **メッセージを翻訳する** この設定をオンにすると、ユーザーは、Teams またはユーザーの個人の言語設定で指定された言語にメッセージを自動的Microsoft 365翻訳Office 365。
 - **メッセージのイマーシブ リーダー** この設定をオンにすると、ユーザーは Microsoft イマーシブ リーダー でメッセージを表示できます。 イマーシブ リーダーは、テキストの読みやすさを向上させるための全画面閲覧エクスペリエンスを備えた学習ツールです。
-- **優先度通知を使用して緊急メッセージを送信する** これを有効にした場合、ユーザーは優先度の通知を使用してメッセージ [を送信できます](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462)。 優先度通知は、2 分ごとに 20 分間、または緊急とマークされたメッセージが受信者によって取得および読み上げされるまで、ユーザーに通知します。 この機能は、メッセージが時に応じて処理される可能性を高めます。
+- **優先度通知を使用して緊急メッセージを送信する** これを有効にした場合、ユーザーは優先度の通知を使用してメッセージ [を送信できます](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462)。 優先度通知は、2 分ごとに 20 分間、または緊急とマークされたメッセージが受信者によって取得および読み上げされるまで、ユーザーに通知します。 この機能は、メッセージが時に応じて処理される可能性を高めます。 緊急メッセージを送信した後は編集できない。
 - **音声メッセージを作成する**
   > [!Important]
   > 電子情報開示レポートでは、オーディオ メッセージはキャプチャされません。

@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 会議ポリシー設定を使用して、会議の有効期限を制御する方法についてMicrosoft Teams。
-ms.openlocfilehash: d4752251f65dac0afb41ba357ad03063b3f6dfb0
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: ed76ea0278cdbf8a00bbd0d3e8434103aad2f270
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514690"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592812"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>会議ポリシーと会議の有効期限 (Microsoft Teams
 
@@ -76,9 +76,6 @@ ms.locfileid: "63514690"
 > 会議が代理人によって送信された場合(管理者など、他のユーザーの代わりに会議出席依頼を送信するアクセス許可が与えられた場合)、会議ポリシー設定は、アクセス許可を付与したユーザー (マネージャー) に適用されます。
 
 ## <a name="changes-to-meeting-expiration"></a>会議の有効期限の変更
-
-> [!IMPORTANT]
-> テナントで会議の有効期限を早Teams有効にする場合は、会議の有効期限の早期導入プログラムMicrosoft Teamsに[適用します](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR8YMDA0A9INMv_DZ8yW5uG1URDc3U1VVMklPTzVMS0RLR0pUQTlWU1BEVC4u)。
 
 新しく作成Teams会議の記録 (TMRs) には、既定で 120 日間の有効期限が設定されます。 これは、すべてのテナントで既定でオンになっています。 つまり、既定では、この機能を有効にした後に作成された TMRs はすべて、作成日から 120 日後に削除されます。 管理者は、会議を自動期限切れに **しない設定に設定できます**。 OneDriveおよびSharePointシステムは、すべての TMRs で設定された有効期限を監視し、その有効期限に自動的に TMRs をごみ箱に移動します。
 
@@ -155,7 +152,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 
 記録を OneDrive または SharePoint にアップロードできない場合、Teams アプリケーションは、ユーザーが Teams サーバーから完全に削除される前に TMR をダウンロードするために最大 21 日間のメッセージをチャットに表示します。 TMR アップロードの失敗によるこの既存の有効期限エクスペリエンスは、ヘルプ ドキュメントで説明されている OneDrive および SharePoint の自動有効期限機能とは関係はありません。
 
-### <a name="how-do-i-know-the-distribution-of-tmr-playbacks-so-i-know-what-the-optimal-auto-expiration-default-should-be-for-my-tenant"></a>テナントに最適な自動有効期限の既定値を把握するために、TMR 再生の分布を知る方法
+### <a name="how-do-i-know-the-distribution-of-tmr-playbacks-so-i-know-what-the-optimal-auto-expiration-default-should-be-for-my-tenant"></a>操作方法、TMR 再生の分布を把握している必要があります。そのため、テナントに最適な自動有効期限の既定値がわかっているでしょうか。
 
 1. ライブラリでビデオを見つける。
 1. [ **...] を選択します。** > **詳細**

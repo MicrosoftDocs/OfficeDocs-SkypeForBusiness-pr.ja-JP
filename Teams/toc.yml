@@ -855,8 +855,6 @@ items:
                 href: operator-connect-configure.md
           - name: ダイレクト ルーティング
             items:
-              - name: 新機能
-                href: direct-routing-whats-new.md
               - name: 概要
                 href: direct-routing-landing-page.md
               - name: ダイレクト ルーティングを計画する
@@ -1333,6 +1331,12 @@ items:
                 href: rooms/rooms-deploy.md
               - name: アカウントを構成する
                 href: rooms/rooms-configure-accounts.md
+              - name: Surface Hub
+                items:
+                  - name: 最適化された会議を設定する
+                    href: rooms/coordinated-meetings.md
+                  - name: Microsoft Teams 設定の管理
+                    href: rooms/surface-hub-manage-config.md
               - name: リソース アカウントを作成する
                 href: rooms/with-office-365.md
               - name: Skype for Business Server の場合

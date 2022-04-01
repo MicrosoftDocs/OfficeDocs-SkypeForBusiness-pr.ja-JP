@@ -18,7 +18,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: fe954d5f6ec08e13db666e94c3dd7cc3d9121e61
 ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/07/2022
 ms.locfileid: "63070246"
@@ -43,9 +43,9 @@ ms.locfileid: "63070246"
 
     ![チャットのタブのスクリーンショット。](media/Use_built-in_and_custom_tabs_add_tabs_to_a_chat.png)
 
-- 所有者とチーム メンバーは、チャネルまたはチャットの上部にある [**タブの追加**] (![[タブの追加] ボタンのスクリーンショット、+ 記号を表示](media/Use_built-in_and_custom_tabs_add_a_tab_button.png)) をクリックして チャネルまたはチャットにより多くのタブを追加できます。
+- 所有者とチーム メンバーは、チャネルまたはチャットの上部にある [**タブの追加**] (![+ 記号を表示している [タブの追加] ボタンのスクリーンショット](media/Use_built-in_and_custom_tabs_add_a_tab_button.png)) をクリックして、チャネルまたはチャットにタブをさらに追加できます。
 
-- Excel、PowerPoint、Word、および PDF ファイルは、タブに変換する前に [**ファイル**] タブにアップロードする必要があります。 以下に示すように、既存のアップロードされたファイルは、一度のクリック操作でタブに変換できます。
+- Excel、PowerPoint、Word、PDF ファイルをタブに変換するには、まず最初に [**ファイル**] タブにアップロードする必要があります。既にアップロードしてあるファイルは、次に示すように単一のクリックでタブに変換できます。
 
     ![PowerPoint ファイルが選択された [ファイル] タブのスクリーンショット。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image2.png)
 
@@ -53,11 +53,11 @@ ms.locfileid: "63070246"
 
 - チーム メンバーがチャネルまたはチャットにカスタム タブを追加しようとすると、詳細な手順が提供されます。 チャネルにカスタム タブを追加すると、**タブの会話** が作成され、チーム メンバーはそこでコンテンツに関する集中的なディスカッションを行うことができます。
 
-    ![タブ会話が右側にあるカスタム タブのスクリーンショット。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
+    ![右側にタブの会話が含まれているカスタム タブのスクリーンショット。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
 
 ## <a name="develop-custom-tabs"></a>ユーザー設定のタブを開発する
 
-組み込みのタブに加えて、独自のタブを設計して開発することもできます。このタブは、Teams に統合することも、別のコミュニティと共有することもできます。 詳細については、「[開発者向けドキュメント](/microsoftteams/platform/tabs/what-are-tabs)」を参照してください:
+組み込みのタブに加えて、独自のタブを設計して開発することもできます。このタブは、Teams に統合することも、別のコミュニティと共有することもできます。詳細については、「[開発者向けドキュメント](/microsoftteams/platform/tabs/what-are-tabs)」を参照してください。
 
 ![Microsoft Teams のサンプル カスタム タブのスクリーンショット。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
 

@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4d8ae47e2e9963a6379c6516a6739f8fcf180154
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 41d5cf86085c944e414e1c78e3160f8f2678d0d1
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711941"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592942"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams の情報バリア
 
@@ -110,7 +110,7 @@ IB ポリシーは、次のイベントが発生Teamsアクティブ化されま
 
 - **ユーザーが Teams** で通話を行う: ユーザーが別のユーザーまたはユーザー のグループに対して (VOIP を介して) 音声通話を開始するたびに、その通話が評価され、他のチーム メンバーの IB ポリシーに違反していないと判断されます。 違反がある場合、音声通話はブロックされます。
 
-- **ゲスト Teams**: IB ポリシーは、TEAMS ゲストに適用されます。 組織のグローバル アドレス一覧でゲストを検出できる必要がある場合は、「グループ内のゲスト アクセスを管理する[」Microsoft 365してください](/microsoft-365/admin/create-groups/manage-guest-access-in-groups)。 ゲストが検出可能な場合は、 [IB ポリシーを定義できます](/office365/securitycompliance/information-barriers-policies)。
+- **ゲスト Teams**: IB ポリシーは、TEAMS ゲストに適用されます。 組織のグローバル アドレス一覧でゲストを検出できる必要がある場合は、「組織のゲスト アクセスを管理する[」をMicrosoft 365 グループ](/microsoft-365/admin/create-groups/manage-guest-access-in-groups)。 ゲストが検出可能な場合は、 [IB ポリシーを定義できます](/office365/securitycompliance/information-barriers-policies)。
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>ポリシーの変更が既存のチャットに与える影響
 
@@ -188,7 +188,7 @@ IB ポリシー管理者がポリシーに変更を加えた場合、または�
 
 - **[** 開く]: この構成は、情報バリアが有効にする前にプロビジョニングされた既存のすべてのグループの既定の IB モードです。 このモードでは、IB ポリシーは適用されません。
 - **暗黙的**: この構成は、情報バリアを有効にした後にチームがプロビジョニングされる場合の既定の IB モードです。 暗黙的モードでは、グループ内のすべての互換性のあるユーザーを追加できます。
-- **所有者モデタイル (プレビュー)**: このモードは、所有者によってモデ管理されている互換性のないセグメント ユーザー間のコラボレーションを許可する場合に、チームで設定されます。 チーム所有者は、IB ポリシーごとに新しいメンバーを追加できます。
+- **所有者のモデタイル**: このモードは、所有者がモデ管理している互換性のないセグメント ユーザー間のコラボレーションを許可する場合に、チームで設定されます。 チーム所有者は、IB ポリシーごとに新しいメンバーを追加できます。
 
 Teamsで情報バリア ポリシーをアクティブにする前に作成されたポリシーは、既定で *[開く] モードに* 自動的に設定されます。 テナントで IB ポリシーをアクティブ化したら、既存のチームのモードを *Implicit* に更新して、既存のチームが IB に準拠している必要があります。
 
@@ -202,7 +202,7 @@ Set-UnifiedGroup -InformationBarrierMode Implicit
 
 既存のすべてのチームのモードを [開く] から [暗黙的] に更新するには、この [PowerShell スクリプトを使用します](information-barriers-mode-script.md)。
 
-組織のコンプライアンス要件を満たすために既存の Teams に接続されているグループでオープン モードの構成を変更する場合は、Teams チームに接続されている関連付けられている SharePoint サイトの [IB](/sharepoint/information-barriers.md#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell) モードを更新する必要があります。
+組織のコンプライアンス要件を満たすために既存の Teams に接続されているグループでオープン モードの構成を変更する場合は、Teams チームに接続されている関連付けられている SharePoint サイトの [IB](/sharepoint/information-barriers#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell) モードを更新する必要があります。
 
 ## <a name="required-licenses-and-permissions"></a>必要なライセンスとアクセス許可
 
@@ -218,11 +218,10 @@ Set-UnifiedGroup -InformationBarrierMode Implicit
 ## <a name="more-information"></a>詳細情報
 
 - IB の詳細については、「情報バリア [」を参照してください](/office365/securitycompliance/information-barriers)。
-- IB ポリシーを設定するには、情報バリアの使用 [に関するページを参照してください](/office365/securitycompliance/information-barriers-policies)。
+- IB ポリシーを設定する方法については、「情報バリア[概要を使用する」を参照してください](/office365/securitycompliance/information-barriers-policies)。
 - IB ポリシーを編集または削除するには、情報バリア ポリシー [の管理に関するページを参照してください](/microsoft-365/compliance/information-barriers-edit-segments-policies)。
 - [情報バリアと共有チャネル](information-barriers-shared-channels.md)
 
 ## <a name="availability"></a>使用するための条件
 
-- この機能は、パブリック クラウドで利用できます。2021 年 1 月に、クラウドの情報バリアGCCしました。
-- この機能は、GCC DOD クラウドでは使用できません。
+クラウドの情報Teamsは、パブリック クラウド、GCC クラウド、GCC - 高クラウド、DOD クラウドで利用できます。

@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: この記事では、リソース アカウントを作成、編集、管理する方法についてMicrosoft Teams。
-ms.openlocfilehash: bc49142a5e40b0bb883761cde297d01d89a3f67b
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: cb89621d6049106cb090d72244644a4b14565657
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062561"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592712"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams のリソースのアカウントの管理
 
@@ -72,7 +72,7 @@ ms.locfileid: "63062561"
 
 3. [リソース **アカウントの追加] ウィンドウ** で、[表示名 **]、[****ユーザー** 名]、および [リソース アカウントの種類 **] に入力します**。 リソース アカウントの種類は **、このリソース** アカウントの使い方に応じて、自動応答または通話キューのいずれかになります。
 
-4. **[保存]** をクリックします。
+4. [**保存**] をクリックします。
 
 ![リソース アカウントの一覧のスクリーンショット。](media/resource-accounts-page.png)
 
@@ -100,14 +100,16 @@ ms.locfileid: "63062561"
 
 3. [割 **り当て済み** 電話番号] ボックスで、使用する番号を検索し、[追加] をクリック **します**。
 
-4. **[保存]** をクリックします。
+4. [**保存**] をクリックします。
 
 
 リソース アカウントに直接ルーティングまたはハイブリッド番号を割り当てるには、PowerShell を使用する必要があります。
 
-`Set-CsPhoneNumberAssignment -Identity aa-contoso_main@contoso64.net -PhoneNumber +19295550150 -PhoneNumberType DirectRouting`
+```powershell
+Set-CsPhoneNumberAssignment -Identity aa-contoso_main@contoso64.net -PhoneNumber +19295550150 -PhoneNumberType DirectRouting
+```
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 リソース アカウントのセットアップを完了し、必要に応じてサービス番号を割り当てると、自動応答または通話キューでリソース アカウントを使用する準備が整います。
 
@@ -156,5 +158,5 @@ ms.locfileid: "63062561"
 直接ルーティングの電話番号とリソース アカウントの関連付けを解除するには、次のコマンドレットを使用します。
 
 ```powershell
-Remove-CsPhoneNumberAssignment -Identity  <Resource Account oid> -PhoneNumber <assigned phone number> -PhoneNumberType DirectRouting
+Remove-CsPhoneNumberAssignment -Identity <Resource Account Object ID> -PhoneNumber <assigned phone number> -PhoneNumberType DirectRouting
 ```
