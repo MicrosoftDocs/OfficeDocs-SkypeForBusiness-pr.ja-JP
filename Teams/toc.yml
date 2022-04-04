@@ -415,6 +415,8 @@ items:
                 href: use-call-analytics-to-troubleshoot-poor-call-quality.md
               - name: リアルタイム テレメトリを使用して、低品質の会議をトラブルシューティングする
                 href: use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md
+              - name: レポート ラベルを追加して更新する
+                href: learn-more-about-site-upload.md
           - name: サービスの品質 (QoS)
             items:
               - name: Teams の QoS をセットアップする
@@ -839,6 +841,8 @@ items:
             href: pstn-connectivity.md
           - name: 通話プラン
             items:
+              - name: Microsoft 365 の通話プラン
+                href: calling-plans-for-office-365.md
               - name: どの通話プランが適していますか?
                 href: calling-plan-landing-page.md
               - name: 組織の通話プランをセットアップする
@@ -855,6 +859,8 @@ items:
                 href: operator-connect-configure.md
           - name: ダイレクト ルーティング
             items:
+              - name: 新機能
+                href: direct-routing-whats-new.md
               - name: 概要
                 href: direct-routing-landing-page.md
               - name: ダイレクト ルーティングを計画する
@@ -961,7 +967,7 @@ items:
             href: operator-connect-configure.md#set-up-phone-numbers
           - name: ダイレクト ルーティングの電話番号を管理する
             href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
-      - name: 音声ルーティング
+      - name: ダイヤル プランとルーティング
         items:
           - name: ダイヤル プランについて
             href: what-are-dial-plans.md
@@ -969,8 +975,6 @@ items:
             href: create-and-manage-dial-plans.md
           - name: 割り当てられていない番号に通話をルーティングする
             href: routing-calls-to-unassigned-numbers.md
-          - name: レポート ラベルを追加して更新する
-            href: learn-more-about-site-upload.md
       - name: ネットワーク設定とトポロジ
         items:
           - name: クラウド ボイス機能のネットワーク設定
@@ -1331,12 +1335,6 @@ items:
                 href: rooms/rooms-deploy.md
               - name: アカウントを構成する
                 href: rooms/rooms-configure-accounts.md
-              - name: Surface Hub
-                items:
-                  - name: 最適化された会議を設定する
-                    href: rooms/coordinated-meetings.md
-                  - name: Microsoft Teams 設定の管理
-                    href: rooms/surface-hub-manage-config.md
               - name: リソース アカウントを作成する
                 href: rooms/with-office-365.md
               - name: Skype for Business Server の場合
@@ -1577,6 +1575,12 @@ items:
                 items:
                   - name: 概要
                     href: expand-teams-across-your-org/shifts/shifts-connectors.md
+                  - name: シフト コネクタ ウィザードを使用して Blue Yonder WFM との接続を設定する
+                    href: expand-teams-across-your-org/shifts/shifts-connector-wizard.md
+                  - name: PowerShell を使用して Blue Yonder WFM との接続を設定する
+                    href: expand-teams-across-your-org/shifts/shifts-connector-blue-yonder-powershell-setup.md
+                  - name: PowerShell を使用して Blue Yonder WFM とのシフトを管理する
+                    href: expand-teams-across-your-org/shifts/shifts-connector-powershell-manage.md
               - name: シフト データに関するよくある質問
                 href: expand-teams-across-your-org/shifts/shifts-data-faq.md
       - name: 教育機関用 Teams

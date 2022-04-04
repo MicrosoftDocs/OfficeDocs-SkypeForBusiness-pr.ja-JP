@@ -1,5 +1,5 @@
 ---
-title: 'Contoso のケース スタディ: 電話システム企業のケース スタディ'
+title: 'Contoso のケース スタディ: 電話システム企業向けサポート'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -16,14 +16,14 @@ f1.keywords:
 description: 'Teams企業向け音声ケース スタディ: 電話システム'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c83cd07cb8943c19b783658a15db99351d11f995
-ms.sourcegitcommit: 8ddafd0901b6b4f4109f3b6e687ae7fae667d61c
+ms.openlocfilehash: abc7c2b3eb8cbbaf98842638526514171a8b23c7
+ms.sourcegitcommit: a77116a0b0fd7e3cf14de694c559338bea198851
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62353372"
+ms.lasthandoff: 04/03/2022
+ms.locfileid: "64628331"
 ---
-# <a name="contoso-case-study-phone-system-for-a-multi-national-corporation"></a>Contoso のケース スタディ: 電話システム企業のケース スタディ
+# <a name="contoso-case-study-phone-system-for-a-multi-national-corporation"></a>Contoso のケース スタディ: 電話システム企業向けサポート
 
 地理的な場所や他の要因に応じて、Contoso は次のテレフォニー ソリューションを使用してオフィスを持っています。
 
@@ -38,15 +38,15 @@ ms.locfileid: "62353372"
 
 - 電話システムプランの使用 
 
-- 電話システムルーティングを通じて PSTN 通信業者と通信する 
+- 電話システム直接ルーティングを使用して、独自の PSTN 通信業者と通信する 
 
-- 通話プランと電話システムの組み合わせと電話システム直接ルーティングによる独自の PSTN 通信業者との組み合わせ
+- 通話プランと電話システムの組み合わせと、電話システムルーティングによる独自の PSTN 通信業者との通信の組み合わせ
  
-Contoso は、組織 [Teams](/SkypeForBusiness/cloud-voice-landing-page)に適切なソリューションを決定するために、音声ソリューションの計画と Ignite 2019 セッションの呼び出しを使用[Microsoft Teams。](https://myignite.techcommunity.microsoft.com/sessions/83170?source=sessions)  
+Contoso は、組織に適切 [Teams](/microsoftteams/cloud-voice-landing-page)なソリューションを決定するために、「音声ソリューションの計画」と「Ignite 2019 session [Calling in Microsoft Teams」を使用](https://myignite.techcommunity.microsoft.com/sessions/83170?source=sessions)しました。  
 
 ## <a name="site-type-a-skype-for-business-enterprise-voice"></a>サイトの種類 A: Skype for Business エンタープライズ VoIP 
 
-Contoso Skype for Business エンタープライズ VoIPハブアンドスポークとして設定されています。 PSTN ゲートウェイをリージョン内に維持する中央の場所が、PSTN への接続を国のユーザーに提供Skype for Business エンタープライズ VoIPでした。 多くの場合、これらの衛星オフィスには独自のインターネットエグレスがなかった。 これらのユーザーの番号は、既存の SBC に接続する SIP トランクに存在します。 
+Contoso Skype for Business エンタープライズ VoIPハブアンドスポークとして設定されています。 PSTN ゲートウェイを保持する中央の場所は、PSTN ゲートウェイへの接続を国のユーザーに提供Skype for Business エンタープライズ VoIP場所でした。 多くの場合、これらの衛星オフィスには独自のインターネットエグレスがなかった。 これらのユーザーの番号は、既存の SBC に接続する SIP トランクに存在します。 
 
 既にデプロイされている SBC がダイレクト ルーティングとメディア バイパスの認定を受けたかどうかを確認するために、Contoso は直接ルーティングの認定を受けたセッション ボーダー コントローラーの一覧 [を確認しました](direct-routing-border-controllers.md)。  
 
@@ -68,7 +68,7 @@ Contoso は、次の質問に基づいて決定します。
 
 Contoso は、質問に対する回答に基づいて、次の点を決定しました。
 
-- PSTN 通話プランを利用できる地域にあるユーザーを、通話プランに電話システム移動します。 
+- PSTN 通話プランを利用できる地域にあるユーザーを、通話プランで電話システム移動します。 
 
 - PSTN 通話プランが利用可能な地域に存在しないユーザー、SBC の ROI がまだ満たされていないサイトに位置するユーザー、および直接ルーティングを使用して 電話システム にテレフォニー規制がある国に居住しているユーザーを移動します。 
 
@@ -93,7 +93,7 @@ Contoso は、次の質問に基づいて決定します。
 
 Contoso は、質問に対する回答に基づいて、次の点を決定しました。 
 
-- PSTN 通話プランを利用できる地域にあるユーザーを、通話プランに電話システム移動します。 
+- PSTN 通話プランを利用できる地域にあるユーザーを、通話プランで電話システム移動します。 
 
 - PSTN 通話プランを直接ルーティングで使用できるリージョンに電話システム移動します。 
 
@@ -130,9 +130,9 @@ Contoso は、質問に対する回答に基づいて、次の点を決定しま
 
 - ダイレクト ルーティングが有効になるレガシ テレフォニー ユーザーの場合、Contoso は、SBC がダイレクト ルーティングの認定を受けたので、TDM トランクから SBC の SIP トランクに番号を移植しました。 
 
-- 電話システム に移行するユーザーのサブセットをサポートし、レガシ システムを介したルーティングを継続するために、レガシ テレフォニー システムが SBC の次ホップとして設定されています。   
+- 電話システム に移行するユーザーのサブセットをサポートし、レガシ システムを介したルーティングを継続するために、レガシ テレフォニー システムは SBC の次ホップとして設定されています。   
 
-- さらに、ユーザーの行動の変更を促し、サイト間およびサイト内の内線番号のダイヤルに対する依存関係を削除するために、Contoso は、すべての内部呼び出しに Teams を使用するガイダンスを提供しました。  
+- さらに、ユーザーの動作の変更を促し、サイト間およびサイト内の内線番号のダイヤルに対する依存関係を削除するために、Contoso は、すべての内部呼び出しに Teams を使用するガイダンスを提供しました。  
 
 次の図は、元のSkype for Business エンタープライズ VoIPレガシ テレフォニー システムのデプロイと、ダイレクト ルーティングを使用した混合デプロイへの移行を示しています。
 
@@ -156,7 +156,7 @@ Contoso は、質問に対する回答に基づいて、次の点を決定しま
 
 ## <a name="direct-routing"></a>ダイレクト ルーティング
 
-Contoso は Ignite に参加し、Office 365システムと直接ルーティングで利用できる機能電話最新の状態を取り入れる必要がありました。 技術的なリーダーシップとアーキテクトは、Ignite 2019 の間に提供されたガイダンスを使用して、方向を決定しました。  使用された主なセッション: 
+Contoso は Ignite に出席して、Office 365システムと直接ルーティングで利用できる機能電話最新の状態を取り入れる必要がありました。 技術的なリーダーシップとアーキテクトは、Ignite 2019 の間に提供されたガイダンスを使用して、方向を決定しました。  使用された主なセッション: 
 
 - [直接ルーティングを使用して成功Microsoft Teams計画する](https://myignite.techcommunity.microsoft.com/sessions/80381?source=sessions)
 
@@ -169,7 +169,7 @@ Contoso は Ignite に参加し、Office 365システムと直接ルーティン
 
 ライセンスを取得し、ユーザーに電話番号を割り当てるには、「通話プランを設定する [」の手順に従いました](set-up-calling-plans.md)。 
 
-電話番号を割り当てる必要があるユーザーの数のため、Contoso は PowerShell を使用して電話番号を割り当てすることを決定しました。 他の設定に加えて PowerShellin&mdash; を使用して数値を割り当てる方法については、「PowerShell&mdash; の概要」Teams[使用しました](teams-powershell-overview.md)。  
+電話番号を割り当てる必要があるユーザーの数のため、Contoso は PowerShell を使用して電話番号を割り当てすることを決定しました。 他の設定に加えて PowerShellin&mdash; を使用して数値を割り当てる方法については、「PowerShell&mdash; の概要Teams[使用しました](teams-powershell-overview.md)。  
 
 ### <a name="direct-routing-sites"></a>直接ルーティング サイト
 
@@ -196,7 +196,7 @@ Contoso は、世界中の異なるリージョンでローカル メディア�
 
 ## <a name="networking-considerations"></a>ネットワークに関する考慮事項
 
-Contoso には多数のユーザーがいたが、ユーザーがリモートで作業を行う必要があったのは、そのユーザーがユーザーのアクセスを有効にした後、電話システム。 ユーザーは VPN を使用して特定の Line of Business アプリケーションにアクセスしました。 VPN を使用している間、電話システムユーザーは通話品質の低下を経験しました。 
+Contoso には、ユーザーがリモートで作業を行う必要があるユーザーが多数電話システム。 ユーザーは VPN を使用して特定の Line of Business アプリケーションにアクセスしました。 VPN を使用している間、電話システムユーザーは通話品質の低下を経験しました。 
 
 品質の問題を解決するために、Contoso は VPN 分割トンネリングを実装しました。この方法では、内部アプリへの接続が VPN 上に残っている間、Office 365 トラフィックがインターネットを通過する許可を与えました。 VPN 分割トンネリングを実装するために、Contoso は「VPN 分割トンネリングを実装する」のガイダンス[に従](/office365/enterprise/office-365-vpn-implement-split-tunnel)Office 365。  
 

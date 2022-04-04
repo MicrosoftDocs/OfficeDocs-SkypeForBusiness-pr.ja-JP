@@ -12,12 +12,12 @@ ms.collection:
 description: PowerShell モジュールでサポートされているバージョンについてTeams管理に使用される PowerShell モジュールMicrosoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3fc980420b53d850c48e680d25bdbf6ec437e8f8
-ms.sourcegitcommit: d3d3d5a70a69359fc71f072ad6c651556f4eda00
+ms.openlocfilehash: e292e3ea5659920bca6fe6f663afc53164da5b49
+ms.sourcegitcommit: e3a4df81721abe83886714a7c3c798e4c0888c35
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63783967"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "64617708"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Teams PowerShell モジュール - サポートされているバージョン
 
@@ -39,7 +39,7 @@ Teams に新しくオンボードする組織は、2022 年 4 月 1 日から 4.
 
 ## <a name="current-organizations-tpm-active"></a>現在の組織 (TPM アクティブ)
 
-過去 3 か月間 (Jan'22 – Mar'22) に Teams PowerShell モジュールを使用している組織は、2022 年 6 月 15 日から 4.x.x シリーズ以上の Teams PowerShell モジュールのみを使用できます。 
+過去 3 か月間 (Jan'22 – Mar'22) に Teams PowerShell モジュールを使用している組織は、2022 年 6 月 15 日から 4.x.x シリーズ以上の Teams PowerShell モジュールのみを使用できます。 参考用のメッセージ センターの投稿 - MC350371。 
 
 
 
@@ -61,6 +61,8 @@ Teams に新しくオンボードする組織は、2022 年 4 月 1 日から 4.
   * TPM 3.x.x 以上の Get-CsOnlineUser & Get-CsOnlineVoiceUser の更新プログラム – 詳細については、「[Get-CsOnlineUserGet-CsOnlineVoiceUser](/powershell/module/skype/get-csonlineuser) &  (メッセージ センターの投稿 – MC340774)」を参照してください。[](/powershell/module/skype/get-csonlinevoiceuser)
 
   * 電話 番号の割り当てに関する変更 - [Set-CsUser](/powershell/module/skype/set-csuser)、[Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser)、[Set-CsOnlineApplicationInstanceSet-CsOnlineVoiceApplicationInstance](/powershell/module/skype/set-csonlineapplicationinstance) &  の詳細 (メッセージ センターの投稿 – MC316139)[](/powershell/module/skype/set-csonlinevoiceapplicationinstance)
+
+  * 非推奨Get-CsOnlineDirectoryTenant – [Get-CsOnlineDirectoryTenant](/powershell/module/skype/get-csonlinedirectorytenant) (メッセージ センターの投稿 – MC346902) の詳細。
 
 
 

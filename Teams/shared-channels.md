@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams の共有チャネル (プレビュー) を使用および管理する方法について説明します。
-ms.openlocfilehash: 3a5b7f1005af95580f56b87188bc8a67325d440d
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 0c66d308ef5182c6ace69a7bdcd004c865109bec
+ms.sourcegitcommit: 3e7c491d2bb13c86ac8e73b1c6c9735660c673e3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63712124"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64590385"
 ---
 # <a name="shared-channels-in-microsoft-teams-preview"></a>Microsoft Teams の共有チャネル (プレビュー)
 
@@ -43,7 +43,7 @@ Microsoft Teams の共有チャネルは、チームに参加していないユ�
 
 ## <a name="getting-started-with-shared-channels"></a>共有チャネルの使用を開始する
 
-Teams で、共有チャネルは既定で有効になっています。 [チャネル ポリシーを作成](/MicrosoftTeams/teams-policies)して、ユーザーが共有チャネルを作成できるかどうか、組織外のユーザーと共有できるかどうか、外部の共有チャネルに参加できるかどうかを選択できます。
+Teamsでは、共有チャンネルがデフォルトで有効になっています。[チャネル ポリシーを作成](/MicrosoftTeams/teams-policies) すると、ユーザーが共有チャネルを作成できるかどうか、組織外のユーザーと共有できるかどうか、外部の共有チャネルに参加できるかどうかを選択できます。
 
 組織外のユーザーとチャネルを共有する場合は、計画に関する重要な考慮事項の詳細について「[外部との共同作業を計画する](/microsoft-365/solutions/plan-external-collaboration)」を参照してください。
 
@@ -73,7 +73,7 @@ Teams で、共有チャネルは既定で有効になっています。 [チャ
 
 共有チャネルの所有者は、1 つ以上の共有チャネルの最後の所有者である場合、Teams クライアントから削除できません。
 
-共有チャネルの最後の所有者が組織を離れた場合、またはチームに関連付けられた Microsoft 365 グループから削除された場合、共有チャネルのメンバーの 1 人が自動的に共有チャネルの所有者に昇格します。 この状況を回避するために、複数の所有者を追加することを検討してください。
+共有チャネルの最後の所有者が組織を離れた場合、またはチームに関連付けられた Microsoft 365 グループから削除された場合、共有チャネルのメンバーの 1 人が自動的に共有チャネルの所有者に昇格します。このような状況を回避するために、複数のオーナーを追加することを検討してください。
 
 ## <a name="channel-owner-settings"></a>チャネル所有者の設定
 
@@ -122,6 +122,22 @@ Teams は、共有チャネル サイトのライフ サイクルを管理しま
 ユーザーが SharePoint 経由で共有チャネル内のファイル、フォルダー、またはノートブックへのアクセスを許可されている場合、チームまたは共有チャネルからユーザーを削除しても、ユーザーのファイル、フォルダー、またはノートブックへのアクセスは削除されません。
 
 既存のノートブックがタブとして共有チャネルに追加された場合、共有チャネルへのアクセスは変更されません。ノートブックは既存のアクセス権限を維持します。
+
+## <a name="resources-for-your-users"></a>ユーザーのリソース
+
+次の記事は、組織内のユーザーが共有チャネルを使用する場合、役に立つかもしれません。
+
+[Teams で共有チャネルを作成します](https://support.microsoft.com/office/80712457-579e-42b2-b54f-112329578aaa)
+
+[Teams のユーザーとチャネルを共有します](https://support.microsoft.com/office/5f60de2d-0080-4e55-b26f-33a9dafa120e)
+
+[チームとチャネルを共有します](https://support.microsoft.com/office/b2e89992-2708-4583-b11e-bbb6edb4f1c3)
+
+[Teams で共有チャネルと他のチャネルの種類を使用する理由とは?](https://support.microsoft.com/office/e6ad61d0-6b3f-4e1b-baac-63e2978bd92e)
+
+[ゲストと Teams の共有チャネル](https://support.microsoft.com/office/612de4ce-e7a3-4579-b086-bb8ff9f2d11e)
+
+[Teams でチャネルの所有者とメンバーの役割を共有しました](https://support.microsoft.com/office/75b379f4-8e9c-4202-acf1-6ffc3878a2d7)
 
 ## <a name="limits-for-shared-channels-preview"></a>共有チャネル (プレビュー) の制限
 

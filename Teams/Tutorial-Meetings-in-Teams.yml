@@ -20,12 +20,12 @@ metadata:
   - Teams_ITAdmin_RemoteWorkers
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 1737461b1eface3038957a862ab2bcb743ca4615
-  ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
+  ms.openlocfilehash: 0a8f7affd933fbe8661609e90fa934a8597e4d3a
+  ms.sourcegitcommit: a77116a0b0fd7e3cf14de694c559338bea198851
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 02/25/2022
-  ms.locfileid: "62960059"
+  ms.lasthandoff: 04/03/2022
+  ms.locfileid: "64628341"
 items:
 - durationInMinutes: 1
   content: >
@@ -67,7 +67,7 @@ items:
     -   このチュートリアルの「次のステップ」ページの下部にあるコメント セクションから投稿してください
 
 
-    新機能のアイデアなど、Teamsに関する製品フィードバックを提供するには、フィードバック ポータルTeams[してください](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)。
+    新機能のアイデアなど、Teamsに関する製品フィードバックを提供する場合は、フィードバック ポータルTeams[してください](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)。
 - title: Teams での会議
   durationInMinutes: 16
   content: "\nTeams での会議を理解するには、以下をご覧ください。\n-   [Meetings and calls (会議と通話)](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)の「Have meetings (会議を開催する)」 (推定所要時間: 6 分)\n\n-   「[Meet now (今すぐ会議)](https://support.office.com/article/Video-Meet-now-26e06837-853d-4df1-a729-06bf700d4ecf)」ビデオ (1 時間 45 分)\n\n-   「[Scheduled meetings (予約された会議)](https://support.office.com/article/Video-Scheduled-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137)」ビデオ (1 時間 45 分)\n\n-   「[9 tips for meeting with Microsoft Teams (Microsoft Teams での会議に関する 9 のヒント)](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444)」で会議ロビー、匿名での会議への参加などについて解説します (推定所要時間: 6 分)\n"
@@ -113,4 +113,4 @@ items:
         - [Teams のブログ](https://aka.ms/teamsblog)をフォローしてください。
         - [Teams のロードマップ](https://aka.ms/O365Roadmap)をご覧ください。
         - 最新のリリースされた機能については、[リリース ノート](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)をご覧ください。
-    4.  [その他のトレーニングおよびチュートリアル](/OfficeDocs-SkypeForBusiness-pr/blob/master/Teams/ITAdmin-readiness#technical-training)を探索してください。
+    4.  [その他のトレーニングおよびチュートリアル](/microsoftteams/ITAdmin-readiness#technical-training)を探索してください。
