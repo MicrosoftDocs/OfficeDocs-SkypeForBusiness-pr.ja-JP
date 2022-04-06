@@ -1,7 +1,7 @@
 ---
-title: アプリについてMicrosoft Teams
+title: Microsoft Teamsのアプリについて知る
 ms.reviewer: ''
-description: アプリについて学習し、組織のプロファイルとビジネス要件にTeamsに基づいて、アプリで許可するアプリを決定します。
+description: アプリについて説明し、組織のプロファイルとビジネス要件に基づいて、Teamsで許可するアプリを決定します。
 ms.topic: article
 author: guptaashish
 ms.author: guptaashish
@@ -18,20 +18,20 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f8579d7c2c49749058c174aa71430803dce63286
-ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
+ms.openlocfilehash: bb3d38060a9538196795e3da7b325840321814d8
+ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "64643021"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "64686394"
 ---
 # <a name="about-apps-in-microsoft-teams"></a>Microsoft Teams のアプリについて
 
-アプリは、職場のツールやサービスを集め、他のユーザーと共同作業を行う最適な方法です。 アプリを使用すると、エンド ユーザーは、毎日のタスクで生産性、共同作業、効果的な作業を行うことができます。 組織は、アプリを使用して顧客との接続、サービスの提供、情報の共有を行います。 アプリを使用すると、ユーザーはチャット、会議、チャネルTeamsより効果的になります。 たとえば、エンド ユーザーが Teams のピン留めされた予定表を使用して他のユーザーとすばやく共同作業を行う場合、ボット機能を備えるアプリは、Teams チャネル内の Web サービスの QoS をユーザーに通知し、チャネル内のさまざまなエンド ユーザーにタスクを共有して割り当てるアプリです。
+アプリは、職場のツールとサービスをまとめ、他のユーザーと共同作業する優れた方法です。 アプリを使用すると、エンド ユーザーの生産性が向上し、共同作業が可能になり、日常的なタスクで効果的になります。 組織は、アプリを使用して顧客と接続し、サービスを提供し、情報を共有します。 アプリを使用すると、ユーザーはチャット、会議、チャネルのTeamsの効果を高めることができます。 たとえば、Teamsでピン留めされた予定表を使用してすばやく共同作業を行うエンド ユーザー、Teams チャネル内の Web サービスの QoS をユーザーに通知するボット機能を備えたアプリ、チャネル内のさまざまなエンド ユーザーにタスクを共有して割り当てるアプリなどがあります。
 
-ストア内の検証済みアプリとセキュリティで保護されたアプリの広範な選択により、エンド ユーザーは、組織が毎日必要とするツールやサービスにアクセスできます。 Microsoft Teamsは、デプロイする必要はない Web ベースの SaaS アプリです。 エンド ユーザーは、ユーザーが提供Teamsに基づいてアプリを使用できます。 管理者は、組織のユーザーに対するアプリの使用を承認またはブロックします。 会議、チャット、チャネルをまたがって、すべてのユーザーのアプリの可用性を制御できます。
+ストア内の検証済みおよびセキュリティで保護されたアプリの豊富な選択により、エンド ユーザーは組織が毎日必要とするツールやサービスにアクセスできます。 Microsoft Teams アプリは、デプロイする必要のない Web ベースの SaaS アプリです。 エンド ユーザーは、ユーザーが提供するアクセス許可のみに基づいて、Teamsでアプリを使用できます。 管理者は、組織のユーザーに対するアプリの使用を承認またはブロックするだけです。 会議、チャット、チャネルをまたがるすべてのユーザーに対するアプリの可用性を制御します。
 
-エンド ユーザーに必要なアプリを提供するには、アプリの種類とユーザーがそれらのアプリにアクセスする場所について説明します。 アプリの使用の詳細については、「エンドユーザー向け [アプリの概要」を参照してください。](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)
+エンド ユーザーに必要なアプリを提供するには、アプリの種類と、ユーザーがそれらのアプリにアクセスする場所を理解してください。 アプリの使用の詳細については、「[エンド ユーザー向けのアプリの概要」を](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)参照してください。
 
 <!--- Commenting the previous content as part of this article revamp.
 
@@ -39,76 +39,68 @@ Apps let users find content from their favorite services and share it in Teams. 
 
 --->
 
-エンド ユーザーがアプリケーションで使用できるさまざまな種類のアプリはTeams。
+エンド ユーザーがTeamsで使用できるさまざまな種類のアプリは次のとおりです。
 
-* [アプリの一部であるコア Teams](#core-apps)。
+* [Teamsの一部であるコア アプリ](#core-apps)。
 * [Microsoft によって作成されたその他のアプリ](#microsoft-provided-apps)。
-* [パートナーによるサード パーティ製](#third-party-apps-validated-by-microsoft) アプリ (Microsoft によって検証済み)。
-* [独自の組織](#custom-apps) によって作成されたカスタム アプリ。
+* パートナーによる[サード パーティ製アプリ](#third-party-apps-validated-by-microsoft) (Microsoft によって検証)。
+* 独自の組織によって作成された[カスタム アプリ](#custom-apps)。
 
 ## <a name="core-apps"></a>コア アプリ
 
-アクティビティ フィード、Teams チャネル、チャット、予定表、通話などの一部の既定の機能は、エンド ユーザーが簡単にアクセスするために既定で使用できます。 管理者は、セットアップ ポリシーを使用して既定の動作 [を変更できます](/microsoftteams/teams-app-setup-policies)。
+アクティビティ フィード、Teams チャネル、チャット、予定表、通話などの一部の既定の機能は、エンド ユーザーが簡単にアクセスできるように既定で使用でき、固定されています。 管理者は、 [セットアップ ポリシー](/microsoftteams/teams-app-setup-policies)を使用して既定の動作を変更できます。
 
-:::image type="content" source="media/core-apps-pinned1.png" alt-text="コア アプリは、既定で既定でTeamsアプリです。" lightbox="media/core-apps-pinned2.png":::
+:::image type="content" source="media/core-apps-pinned1.png" alt-text="コア アプリは、既定でTeamsにピン留めされたアプリです。" lightbox="media/core-apps-pinned2.png":::
 
-## <a name="microsoft-provided-apps"></a>Microsoft が提供するアプリ
+## <a name="microsoft-provided-apps"></a>Microsoft 提供のアプリ
 
-Microsoft では、生産性とコラボレーションを向上させるために多くのアプリを提供しています。 ユーザーとエンド ユーザーは、管理センターで Publisher として表示されている Microsoft を探したり、チーム ストアでプロバイダーとして表示したりして、これらのアプリを見つける可能性があります。
+Microsoft は、生産性とコラボレーションを向上させるための多くのアプリを提供しています。 管理者とエンド ユーザーは、管理センターのPublisherとして Microsoft を検索するか、チーム ストアでプロバイダーとして一覧表示することで、これらのアプリを見つけることができます。
 
 Teams には、リスト、Tasks、称賛、承認などを含む一連の組み込みアプリが付属しています。 Teams の初期展開時に、おすすめのアプリ (Planner など) を含めることをお勧めします。
 
-:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="管理センター Teams Microsoft アプリ" lightbox="media/microsoft-apps-in-tac2.png":::
+:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Teams管理センターの Microsoft アプリ" lightbox="media/microsoft-apps-in-tac2.png":::
 
 ## <a name="third-party-apps-validated-by-microsoft"></a>Microsoft によって検証されたサード パーティ製アプリ
 
-Microsoft が提供するアプリに加えて、Microsoft が検証したサード パーティ製アプリを使用できます。 Microsoft は、これらのアプリを Microsoft Store で利用できる前に、これらのアプリの機能Teamsします。
+Microsoft が提供するアプリに加えて、Microsoft が検証したサード パーティ製アプリも使用できます。 Microsoft は、これらのアプリをTeams ストアで利用できるようにする前に、これらのアプリの機能とセキュリティを検証します。 アプリの検証の利点を理解するには、 [サード パーティ製アプリの検証に関する](overview-of-app-validation.md)説明を参照してください。
 
-<!--- TBD: Link to the new article later when it is created.
-To understand the benefits of app validation, see [validation of third-party apps]().
-
---->
-
-:::image type="content" source="media/3p-apps-in-teams.png" alt-text="Teams Store のサード パーティ製アプリの例":::
-
-<!--- TBD: Check the relevance of this link here.
-For more information, see [Microsoft Teams App Security and Compliance](/microsoft-365-app-certification/teams/teams-apps).
---->
+:::image type="content" source="media/3p-apps-in-teams.png" alt-text="Teams ストア内のサード パーティ製アプリの例":::
 
 ## <a name="custom-apps"></a>カスタム アプリ
 
-組織内の開発者によって作成されたアプリは、カスタム アプリと呼ばれる。 このようなアプリの開発は、組織の特定の要件に対して委託され、そのようなアプリを許可または禁止するコントロールがあります。 組織内の開発者は、Microsoft Power Platform との統合を使用して、カスタムの低Teams[を迅速に構築できます](/microsoftteams/platform/samples/teams-low-code-solutions)。
+組織内の開発者によって作成されたアプリは、カスタム アプリと呼ばれます。 このようなアプリの開発は、組織の特定の要件に対して委託され、そのようなアプリを許可または禁止する制御があります。 組織内の開発者は、[Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions) とのTeams統合を使用して、カスタムの低コード ソリューションをすばやく構築できます。
 
-管理者がカスタム アプリの使用を許可すると、エンド ユーザーは、組織の左側のナビゲーションにある [ビルド] をクリックして、このようなアプリTeamsします。
+管理者がカスタム アプリの使用を許可すると、エンド ユーザーは、ストアの左側のナビゲーションで **組織の [ビルド]** をクリックしてそのようなアプリTeams見つけます。
 
-:::image type="content" source="media/built-for-your-org1.png" alt-text="カスタム アプリは、Teams デスクトップ アプリTeamsストアに保存されます" lightbox="media/built-for-your-org2.png":::
+:::image type="content" source="media/built-for-your-org1.png" alt-text="デスクトップ アプリのTeams ストア内のカスタム アプリTeams" lightbox="media/built-for-your-org2.png":::
 
-### <a name="understand-sideloading-of-custom-apps"></a>カスタム アプリのサイドローディングについて
+### <a name="understand-sideloading-of-custom-apps"></a>カスタム アプリのサイドローディングを理解する
 
-カスタム アプリを開発し、エンド ユーザーに配布する前に、開発者はアプリをストアに追加してテストし、独自にテストするか、アプリをサイドロードするチームでテストします。 このメソッドはアプリのサイドローディングと呼ばされ、カスタム アプリにのみ適用されます。
+カスタム アプリを開発し、エンド ユーザーに配布する前に、開発者はアプリをストアに追加してテストし、自分でテストするか、アプリをサイドロードするチームでテストします。 このメソッドは、アプリのサイドローディングと呼ばれ、カスタム アプリにのみ適用されます。
 
-開発者は、アプリをサイドロードして、特定のチームのメンバー (通常は開発中のアプリをテストする場合) に使用できます。 サイドローディングが許可されている場合、管理者の承認は必要ない。 管理者は、どの開発者に対してでもサイドローディングを禁止できます。
+開発者は、アプリをサイドロードして、開発中のアプリをテストするために、特定のチームのメンバーがアプリを利用できるようにします。 サイドローディングが許可されている場合、管理者の承認は必要ありません。 管理者は、任意の開発者のサイドローディングを禁止できます。
 
-サイドローディングを許可しなき場合でも、開発者はテスト テナントでアプリを [テストできます](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant)。 カスタム アプリの開発が完了すると、開発者は管理者にカスタム アプリをエンド ユーザーに配布する必要があります。 詳細については、カスタム アプリ [を発行する方法に関するページを参照してください](/microsoftteams/upload-custom-apps)。 管理者は、特定のユーザーに対してカスタム アプリの使用を許可または禁止できます。
+サイドローディングを禁止した場合でも、開発者は [テスト テナント](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant)でアプリをテストできます。 カスタム アプリの開発が完了すると、開発者は管理者にカスタム アプリをエンド ユーザーに配布するよう要求します。 詳細については、 [カスタム アプリを発行する方法を](/microsoftteams/upload-custom-apps)参照してください。 管理者は、特定のユーザーに対してカスタム アプリの使用を許可または禁止できます。
 
 ### <a name="about-app-templates"></a>アプリ テンプレートについて
 
-Teams 用のアプリ テンプレートは、一般的な使用例を示し、アプリ開発のベスト プラクティスを紹介し、開発者がカスタム アプリを作成するために拡張できるオープン ソース アプリを提供するために、Microsoft が作成した機能的で運用可能なサンプル アプリです。 組織の開発者は、組織のニーズに合わせてアプリ テンプレートをカスタマイズし、組織で使用できるコードを簡単に変更GitHub。 管理者は、これらのアプリをエンド ユーザーのカスタム アプリとして提供します。
+Teams用のアプリ テンプレートは、一般的なユース ケースを示し、アプリ開発のベスト プラクティスを紹介し、開発者がカスタム アプリを作成するために拡張できるオープンソース アプリを提供するために Microsoft によって作成された、機能する運用環境対応のサンプル アプリです。 組織の開発者は、GitHubで使用できるコードを簡単に変更して、組織のニーズに合わせてアプリ テンプレートをカスタマイズします。 管理者は、エンド ユーザー向けのカスタム アプリとしてこれらのアプリを提供します。
 
-詳細については、「アプリ テンプレート[のMicrosoft Teamsを参照してください](https://adoption.microsoft.com/microsoft-teams/app-templates/)。
+詳細については、「[Microsoft Teams アプリ テンプレート](https://adoption.microsoft.com/microsoft-teams/app-templates/)」を参照してください。
 
-## <a name="understand-app-capabilities"></a>アプリの機能について
+## <a name="understand-app-capabilities"></a>アプリの機能を理解する
 
-メッセージング アプリには、チャネルまたはチャット内のアプリのコンテンツが含まれます。 会議機能拡張アプリは、会議内で開発者のアプリを統合し、応答性の高い会議中のエクスペリエンスを提供します。 さまざまな機能を提供するために、アプリ開発者は次のアプリ機能を利用します。
+エンド ユーザーがTeams内で作業できるようにする豊富なエクスペリエンスを提供するために、アプリ開発者は次のアプリ機能を利用します。 メッセージング拡張機能を使用すると、ユーザーは Web サービスTeamsクライアントと対話できます。 外部システムでアクションを検索または開始します。 対話の結果を、リッチ フォーマットされたカードとしてTeams クライアントに送信できます。 会議機能拡張アプリは、会議内で開発者のアプリを統合し、会議内の応答性の高いエクスペリエンスを提供します。
 
-ボットは、回答、更新、および支援を提供します。 これらの 1 対 1 またはチャネル内でチャットできます。 タスク管理やスケジュール設定などについて支援できます。 たとえば、Polly アプリを使用して、迅速なアンケートの作成、フィードバックの取得、パルス チェックを行います。
+ボットは、チャットボットまたは会話型ボットとも呼ばれます。 これは、単純で反復的なタスクを実行するアプリです。 ボットの操作は、簡単な質問と回答にすることも、サービスやサポートへのアクセスを提供する複雑な会話である場合もあります。 ユーザーは、ビット 1 対 1 またはチャネルでチャットできます。 たとえば、Polly アプリを使用して、クイックアンケートを作成し、フィードバックを得て、パルス チェックを行うことができます。
 
-チャネルの上部にピン留めされたタブを使用すると、Web のようなエクスペリエンスでコンテンツやサービスを操作できます。
-コネクタは、頻繁に使用するサービス (Jira Cloud や Bitbucket など) からコンテンツと更新をチャネル会話に直接配信します。
+タブは、チャネルまたはチャットの上部にピン留めされたTeams対応の Web ページです。 タブを使用すると、Web に似たエクスペリエンスでコンテンツやサービスを操作できます。 個々のユーザーのチーム、グループ チャット、または個人用アプリ内のチャネルの一部としてタブを追加できます。
 
-メッセージング拡張機能は、エンド ユーザーが会話から離れることなく、アプリのコンテンツを挿入したり、メッセージに対して操作したりするショートカットです。 メッセージング拡張機能には、エンド ユーザーが外部コンテンツをすばやく検索し、メッセージまたはアクション コマンドに挿入する検索コマンドを使用できます。
+Webhook とコネクタは、エンド ユーザーが頻繁に使用するサービス (Jira Cloud や Bitbucket など) からコンテンツと更新プログラムをチャネル会話に直接配信します。 この機能を使用するアプリは、外部アプリと通信でき、外部サービスから通知やメッセージを送受信できます。
 
-アプリケーション機能にマップされている一般的な使用Teams、アプリケーション機能に使用する使用例Teams[参照してください](/microsoftteams/platform/concepts/design/map-use-cases)。
+メッセージング拡張機能は、アプリ コンテンツを挿入したり、エンド ユーザーが会話から離れることなくメッセージを操作したりするためのショートカットです。 メッセージング拡張機能には、エンド ユーザーが外部コンテンツをすばやく検索し、メッセージまたはアクション コマンドに挿入するための検索コマンドを含めることができます。
+
+Teams機能にマップされている一般的なユース ケースを表示するには、「[ユース ケースをアプリ機能にマップTeams](/microsoftteams/platform/concepts/design/map-use-cases)」を参照してください。
 
 <!--- TBD: Admins do many considerations and decisions around app adoption and app governance. These are to be covered in a separate article. Commenting the below content for now as part of this article revamp.
 

@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9accce27ded20f8ce78d4d5b80f6aff474213675
-ms.sourcegitcommit: c2a77ef9c1c9e6f00b3a4589bf02b100c37f5801
+ms.openlocfilehash: 384a57abb724ee29feb5f93fa171d0bc5ec96f3d
+ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "64649026"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "64686494"
 ---
 # <a name="checks-and-validation-performed-by-microsoft-on-teams-apps"></a>Teams アプリで Microsoft によって実行されるチェックと検証
 
@@ -31,15 +31,10 @@ Microsoft では、エンド 用途のためにストアに一覧表示される
 
 すべてのアプリは、Microsoft アプリ認定ポリシーに準拠する必要があります。 Teams ストア チームは、アプリが使用可能で、高いプライバシーとセキュリティの基準に準拠していることを確認するために、400 を超えるテストを実行します。
 
-アプリ開発者が準拠する詳細な検証ガイドラインについては、 [開発者の検証ガイドラインに関するページを](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines)参照してください。
+アプリ開発者が準拠する詳細な検証ガイドラインについては、 [開発者の検証ガイドラインに関するページを](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines)参照してください。 ガイダンスは、[Teams アプリの認定ポリシー](/legal/marketplace/certification-policies#1140-teams)に基づいています。
 
 > [!NOTE]
 > Microsoft による検証とチェックは、組織内で開発され、組織のメンバーのみが使用できるため、カスタム アプリでは使用できません。
-
-<!--- TBD: Add the link later. 
-To review the certification policies of any app, see [App certification policies]().
-Is the link /microsoft-365-app-certification/teams/teams-apps
---->
 
 ## <a name="app-validation-and-testing"></a>アプリの検証とテスト
 

@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: Teams で一般的な会議ポリシー設定を管理する方法について説明します。
-ms.openlocfilehash: 1bf4958f74a95775d6d34c87ea6d7d65262530e4
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
-ms.translationtype: HT
+ms.openlocfilehash: 2582327261e52f1d834cd3b368c79aa55ca7f103
+ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62191478"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "64686344"
 ---
 # <a name="meeting-policy-settings---general"></a>会議ポリシーの設定 - 全般
 
@@ -42,6 +42,7 @@ ms.locfileid: "62191478"
 - [会議の登録](#meeting-registration)
 - [登録できるユーザー](#who-can-register)
 - [アイランド モードの会議プロバイダー](#meeting-provider-for-islands-mode)
+- [Speaker Coach](#speaker-coach)
 
 ## <a name="meet-now-in-channels"></a>チャネルでの "今すぐ会議"
 
@@ -185,6 +186,16 @@ AllowMeetingReactions 設定は、PowerShell を使用してのみ適用でき�
 
 会議の反応は、既定ではオフになっています。 ユーザーに対して反応をオフにしても、ユーザーがスケジュールする会議で反応を利用できないという意味ではありません。 既定の設定に関係なく、会議の開催者は [会議のオプション] ページで反応をオンにできます。
 
+## <a name="speaker-coach"></a>Speaker Coach
+
+この設定を使用すると、ユーザーはTeams会議中に Speaker Coach を有効にすることができます。 Speaker Coach は、プレゼンテーション中にユーザーの音声に耳を傾け、改善のためのプライベートなリアルタイムのフィードバックと提案を提供します。 また、ユーザーは、会議の後にフィードバックの概要レポートを取得します。
+
+> [!NOTE]
+> 会議中に Speaker Coach を有効にしたユーザーは、フィードバックの概要レポートを表示できる唯一のユーザーです。 管理者は、このデータにアクセスできません。
+
+現時点では、PowerShell でのみこのポリシーを設定および編集できます。 [Set-CsTeamsMeetingPolicy コマンドレットを](/powershell/module/skype/set-csteamsmeetingpolicy)使用します。 または、[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) コマンドレットを使用して、新しい Teams の会議ポリシーを作成し、ユーザーに割り当てます。
+
+この設定は既定で有効になっています。 オフにするには、 **AllowMeetingCoach** を False に設定 **します**。
 
 ## <a name="related-topics"></a>関連項目
 

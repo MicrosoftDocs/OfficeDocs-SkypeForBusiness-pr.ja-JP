@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams ライセンスの追加
+title: アドオン ライセンスをMicrosoft Teamsする
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -19,107 +19,107 @@ ms.custom:
 - Licensing
 - LIL_Placement
 - seo-marvel-mar2020
-description: 各ライセンスで取得する機能Microsoft Teamsアドオン ライセンスについて説明します。
-ms.openlocfilehash: b5282cfe166a04cd58dbe5042cc2fc3e25e7405f
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+description: Microsoft Teamsのアドオン ライセンスと、各ライセンスで取得する機能について説明します。
+ms.openlocfilehash: 785ae1495e3a210883f489528ac401ad9442b526
+ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556308"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "64686384"
 ---
-# <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams ライセンスの追加
+# <a name="microsoft-teams-add-on-licenses"></a>アドオン ライセンスをMicrosoft Teamsする
 
-## <a name="which-capabilities-can-i-get-with-add-on-licenses"></a>アドオン ライセンスでは、どの機能を利用できますか?
+## <a name="which-capabilities-can-i-get-with-add-on-licenses"></a>アドオン ライセンスで取得できる機能はどれですか?
 
-アドオン ライセンスは、特定の機能を利用Microsoft Teamsライセンスです。 組織で必要なユーザーにのみ、柔軟に機能を追加できます。 機能を追加するには、その機能を使用するユーザーごとに 1 つのアドオン ライセンスを購入します。
+アドオン ライセンスは、特定のMicrosoft Teams機能のライセンスです。 これらの機能を使用すると、必要な組織内のユーザーに対してのみ機能を柔軟に追加できます。 機能を追加するには、それを使用するユーザーごとに 1 つのアドオン ライセンスを購入します。
 
-使用できるアドオン ライセンス オプションは、使用しているプランMicrosoft 365によって異なる場合があります。 利用できる音声通話と電話会議のオプションを確認するには、この記事の「自分のプランで利用できる [Microsoft](#which-microsoft-capabilities-are-available-with-my-plan) の機能を確認する」セクションを参照してください。
+使用可能なアドオン ライセンス オプションは、使用しているMicrosoft 365プランによって異なります。 利用可能な音声通話と電話会議のオプションを確認するには、この記事の「 [プランで使用できる Microsoft の機能](#which-microsoft-capabilities-are-available-with-my-plan) 」セクションを参照してください。
 
-サブスクリプションに追加できるTeamsライセンスとその機能の一覧をTeamsします。
+Teams サブスクリプションに追加できるTeamsアドオン ライセンスとその機能の一覧を次に示します。
 
 |ライセンス|説明|
 |-------|-----------|
-|**Microsoft 365 企業向け音声** <br/> |Business Voice は、中小企業向け Microsoft の音声機能バンドルでしたが、2022 年 3 月 1 日から購入できなくなりました。 現在の Business Voice サブスクライバーは、2022 年 6 月 30 日まで Business Voice ライセンスを更新できます。 <br/> <br/> 中小企業の場合は、地域で利用できる場合は、Teams 電話 を通話プラン ライセンス[](../business-voice/whats-business-voice.md)で購入することをお勧めします。 <br/> <br/> または、Teams 電話 Standard ライセンスを購入して、優先するサード パーティの PSTN プロバイダーに接続できます。 |
-|**Teams 電話プラン バンドルの使用** <br/> |通話Teams 電話ライセンス バンドルでは、PSTN Teams 電話システム PBX 機能と国内通話プランを使用できます。 <br/> |
-|**Teams 電話 Standard** <br/> |[Teams 電話システム](../what-is-phone-system-in-office-365.md)は、通話制御とプライベート ブランチ サービス (PBX) Exchange機能を提供するホスト型電話サービスです。 Teams 電話 Standard ライセンスでは、クラウド ボイスメール、発信者番号、コール パーク、着信の転送、自動応答、通話キュー、通話転送、発信者番号など、すべての Teams 電話システム 機能が提供されます。 <br/> <br/>詳細については、「電話システム使用する情報[」を参照Teams 電話システム](../here-s-what-you-get-with-phone-system.md)。 <br/> |
-|**Microsoft Teams Calling プラン** <br/> |ユーザーが組織外の電話番号に通話できる場合は、PSTN プロバイダーとして [microsoft](../calling-plans-for-office-365.md) と PSTN 電話番号に接続Microsoft Teams Calling プラン を購入できます。 国内通話プランと国内通話プランと国際通話プランがあります。 <br/> <br/> 通話プランが国またはTeams利用可能かどうかを確認するには、「電話会議と通話プランの国と地域の利用可否[」を参照してください](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 |
-|**通信クレジット** | 通信クレジットは、通話プランのすべての通話プラン分が来月の初めより前に使用される場合に、PSTN 通話にも使用できる月単位の分単位プールを提供します。 電話会議、自動応答、または通話キューの無料電話番号が必要な場合は、通信クレジットを [設定する必要があります](../set-up-communications-credits-for-your-organization.md)。 <br/> |
-|**電話会議** <br/> |組織内のユーザーは、コンピューターではなく、電話を使って会議にTeamsする必要があります。 [電話を使ってコールイン](../set-up-audio-conferencing-in-teams.md) する必要がある出席者との会議をスケジュールまたは開催するユーザー向け電話会議を設定します。 <br/> <br/>国または地域でオーディオ会議が利用可能かどうかを調べるには、 [オーディオ会議や呼び出しプランが利用可能な国および地域](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)を参照してください。 料金については、「[電話会議の料金](https://go.microsoft.com/fwlink/?linkid=799762)」をご覧ください。  <br/> <br/>組織は、電話会議番号にサードパーティのオペレーターを使用できます。 詳細については、「プランを作成する[」をオペレーター接続会議](../operator-connect-conferencing-plan.md)。 <br/>|
-|**Microsoft Teams ルーム** <br/> | Microsoft Teams会議室は、ビデオ、Microsoft Teams、コンテンツ共有を会議室に提供する追加の製品です。 組織は、これらの機能Microsoft Teams Roomsスタンドアロン ライセンスを購入できます。 詳細については、ライセンスに関[するTeams ミーティング ルーム参照してください](../rooms/rooms-licensing.md)。 <br/>|
+|**Microsoft 365 企業向け音声** <br/> |Business Voice は、中小企業向けの Microsoft の音声機能バンドルでしたが、2022 年 3 月 1 日から購入できなくなります。 現在の Business Voice サブスクライバーは、2022 年 6 月 30 日まで Business Voice ライセンスを更新できます。 <br/> <br/> 小規模または中規模のビジネスの場合は、お使いのリージョンで利用できる場合は、[通話プラン ライセンスを使用してTeams 電話](../business-voice/whats-business-voice.md)を購入することをお勧めします。 <br/> <br/> または、優先するサード パーティの PSTN プロバイダーに接続できる Teams 電話 Standard ライセンスを購入することもできます。 |
+|**通話プラン バンドルを使用したTeams 電話** <br/> |通話プラン ライセンスを使用するTeams 電話は、Teams 電話システムの PBX 機能と PSTN 接続用の国内通話プランをバンドルします。 <br/> |
+|**Teams 電話 Standard** <br/> |[Teams 電話システム](../what-is-phone-system-in-office-365.md)は、通話制御とプライベート ブランチ Exchange (PBX) 機能を提供するホスト型電話サービスです。 Teams 電話 Standard ライセンスでは、クラウド ボイスメール、発信者番号、コール パーク、通話転送、自動応答、通話キュー、通話転送、発信者 ID などのすべてのTeams 電話システム機能が提供されます。 <br/> <br/>電話システムの詳細については、Teams 電話システムに関する記事[をご覧](../here-s-what-you-get-with-phone-system.md)ください。 <br/> |
+|**Microsoft Teams Calling プラン** <br/> |ユーザーが組織外で電話番号を呼び出せるようにするには、[MICROSOFT TEAMS CALLING プラン](../calling-plans-for-office-365.md)を購入して PSTN プロバイダーとして Microsoft と PSTN 電話番号に接続できます。 国内通話プラン、国際通話プラン、国内通話プランと国際通話プランがあります。 <br/> <br/> 国または地域で通話プランTeams使用できるかどうかを確認するには、「[電話会議プランと通話プランの国と地域の可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)」を参照してください。 |
+|**通信クレジット** | 通信クレジットは、通話プランのすべての分が翌月の初めまでに使用される場合に、PSTN 通話にも使用できる分数の毎月のプールを提供します。 電話会議、自動応答、または通話キューの無料電話番号が必要な場合は、 [通信クレジットを設定](../set-up-communications-credits-for-your-organization.md)する必要があります。 <br/> |
+|**電話会議** <br/> |組織内のユーザーが、コンピューターの代わりに電話を使ってTeams会議に電話をかける必要がある場合があります。 電話を使用して通話する必要がある出席者と会議をスケジュールまたはリードするユーザーに対して[電話会議を設定](../set-up-audio-conferencing-in-teams.md)します。 <br/> <br/>国または地域でオーディオ会議が利用可能かどうかを調べるには、 [オーディオ会議や呼び出しプランが利用可能な国および地域](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)を参照してください。 料金については、「[電話会議の料金](https://go.microsoft.com/fwlink/?linkid=799762)」をご覧ください。  <br/> <br/>組織は、電話会議番号にサード パーティのオペレーターを使用できるようになりました。 詳細については、「[オペレーター接続会議の計画」を](../operator-connect-conferencing-plan.md)参照してください。 <br/>|
+|**Microsoft Teams ルーム** <br/> | Microsoft Teams 会議室は、ビデオ、オーディオ、コンテンツ共有を会議室に提供する追加のMicrosoft Teams製品です。 組織は、これらの機能Microsoft Teams Roomsスタンドアロン ライセンスを購入できます。 詳細については、「[Teams ミーティング ルーム ライセンス](../rooms/rooms-licensing.md)」を参照してください。 <br/>|
 
-## <a name="which-microsoft-capabilities-are-available-with-my-plan"></a>プランで利用できる Microsoft の機能
+## <a name="which-microsoft-capabilities-are-available-with-my-plan"></a>プランで使用できる Microsoft の機能はどれですか?
 
-すべてのMicrosoft 365プランでは、Teamsユーザーが VoIP テクノロジを使用して組織内でピアツーピア呼び出しを行います。 ただし、PSTN 番号の呼び出しや PBX の設定など、さまざまな機能のライセンスを追加できます。
+すべてのMicrosoft 365プランでは、Teams ユーザーが VoIP テクノロジを使用して組織内でピアツーピア通話を行うことができます。 ただし、PSTN 番号の呼び出しや PBX の設定などの機能について、さまざまなライセンスを追加することもできます。
 
 ### <a name="audio-conferencing"></a>電話会議
 
-電話会議ライセンス **は、** すべてのサブスクリプションに無料Microsoft 365できます。
+**電話会議ライセンスは**、すべてのMicrosoft 365サブスクリプションに無料で追加できます。
 
-Microsoft 365 E5/A5/G5 プランには電話会議ライセンスが含まれるので、これらのプランで追加の電話会議ライセンスを購入する必要はありません。
+Microsoft 365 E5/A5/G5 プランには電話会議ライセンスが含まれているため、これらのプランで追加の電話会議ライセンスを購入する必要はありません。
 
-### <a name="voice-and-pstn-connectivity"></a>音声および PSTN 接続
+### <a name="voice-and-pstn-connectivity"></a>音声接続と PSTN 接続
 
-中小企業、エンタープライズ組織、教育機関、政府機関、非営利団体のどちらの場合でも、次の 3 つの方法で、TEAMS 電話システム PSTN 接続を利用できます。
+小規模ビジネス、エンタープライズ組織、教育機関、政府機関、非営利団体のいずれであっても、Teams 電話システムと PSTN 接続を取得するには、次の 3 つの方法があります。
 
-- Microsoft 365 Business、E1/E3、A1/A3、または G1/G3 プランを購入し、通話プラン **バンドル ライセンス** で Teams 電話を追加します。
-  - このモデルでは、PBX 機能Teams 電話システム Microsoft 国内通話プランを提供します。
-  - すべての電話番号管理と請求を Microsoft が処理する場合は、このセットアップを選択します。
-  - ご利用の地域で[、Teams 電話バンドル ライセンスを持つサービスが利用できるのか確認します](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
+- Microsoft 365 Business、E1/E3、A1/A3、または G1/G3 プランを購入し、**通話プランバンドル ライセンスでTeams 電話を** 追加します。
+  - このモデルでは、TEAMS 電話システム PBX 機能と Microsoft 国内通話プランが提供されます。
+  - すべての電話番号管理と課金を Microsoft が処理する場合は、この設定を選択します。
+  - [プランの呼び出しバンドル ライセンスを使用したTeams 電話がリージョンで使用できるかどうかを確認します](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
 
-- E1/E3、A1/A3、または G1/G3 プランを購入し、**Teams 電話 Standard** ライセンスを追加して、Microsoft スタンドアロン通話プランまたはサード パーティの PSTN 通信事業者を選択します。
-  - このモデルでは、Teams 電話システムを提供しますが、PSTN に接続する必要があります。
-  - すべての PSTN 接続オプションを表示するには、「PSTN 接続 [オプション」を参照してください](../pstn-connectivity.md)。
-  - すべての音声ソリューションの詳細については、「音声ソリューションを計画[する」Teams参照してください](../cloud-voice-landing-page.md)。
+- E1/E3、A1/A3、または G1/G3 プランを購入し、**標準ライセンスTeams 電話** 追加し、Microsoft スタンドアロン通話プランまたはサード パーティの PSTN 通信事業者を選択します。
+  - このモデルではTeams 電話システムが提供されますが、PSTN に接続する必要があります。
+  - すべての PSTN 接続オプションを表示するには、「PSTN 接続 [オプション」](../pstn-connectivity.md)を参照してください。
+  - すべての音声ソリューションの詳細については、「[Teams音声ソリューションを計画する](../cloud-voice-landing-page.md)」を参照してください。
 
-- E5/A5/G5 プランを購入し、 **Microsoft 通話** プランを追加するか、サード パーティの PSTN 接続プロバイダーに接続します。
-  - このMicrosoft 365 E5、A5、G5 プランにはTeams 電話システムが含まれますが、組織は引き続き PSTN 接続オプション[を選択する必要があります](../pstn-connectivity.md)。
+- E5/A5/G5 プランを購入し、 **Microsoft 通話プラン** を追加するか、サード パーティの PSTN 接続プロバイダーに接続します。
+  - Microsoft 365 E5、A5、G5 のプランにはTeams 電話システムが含まれますが、組織は引き続き [PSTN 接続オプション](../pstn-connectivity.md)を選択する必要があります。
 
-購入する Microsoft 音声ライセンスと通話ライセンスの概要を次に示します。このプランMicrosoft 365します。
+Microsoft 365プランに基づいて、購入する Microsoft 音声ライセンスと通話ライセンスの概要を次に示します。
 
 <table>
 <thead>
 <tr class="header">
-<th><strong>基本プラン</strong></th>
-<th><strong>PSTN 通信事業者として Microsoft を使用する</strong></th>
-<th><strong>サード パーティの PSTN 通信事業者を使用する場合</strong></th>
+<th><strong>基本計画</strong></th>
+<th><strong>PSTN 通信事業者として Microsoft を希望する</strong></th>
+<th><strong>サード パーティの PSTN 通信事業者を使用する</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Teams Essentials (AAD ID) <br/> <br/>プランMicrosoft 365含むすべてのプランTeams <br/> </td>
-<td>Teams 電話プラン バンドル ライセンスの使用 <br/> <br/>または <br/> <br/>Teams 電話 Standard ライセンス <br/> plus <br/>国内通話プランまたは国内および国際通話プランのライセンス <br/> </td>
+<td>Teams Essentials (AAD ID) <br/> <br/>Teamsを含む任意のMicrosoft 365プラン <br/> </td>
+<td>プランバンドルライセンスの呼び出しに関するTeams 電話 <br/> <br/>または <br/> <br/>Teams 電話 Standard ライセンス <br/> プラス <br/>国内通話プラン、国際通話プラン、または国内および国際通話プランのライセンス <br/> </td>
 <td>Teams 電話 Standard ライセンス <br/> </td>
 </tr>
 <tr>
 <td>Microsoft 365 E5/A5/G5 プラン</td>
-<td>国内通話プランまたは国内および国際通話プランのライセンス <br/> </td>
+<td>国内通話プラン、国際通話プラン、または国内および国際通話プランのライセンス <br/> </td>
 <td></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="unassign-licenses-from-users"></a>ユーザーからのライセンスの割り当てを解除する
+## <a name="unassign-licenses-from-users"></a>ユーザーからライセンスの割り当てを解除する
 
-特定の製品に対するユーザーのアクセス権を削除するには、特定のユーザーからの製品ライセンスの割り当てを解除する方法と、特定の製品からのユーザー ライセンスの割り当てを解除する方法の 2 つの方法があります。
+特定の製品に対するユーザーのアクセス権を削除するには、特定のユーザーから製品ライセンスの割り当てを解除するか、特定の製品からユーザー ライセンスの割り当てを解除する方法の 2 つがあります。
 
-ライセンスの割り当てを解除する方法については、「ユーザーからのライセンスの割り当てを解除 [する」を参照してください](/microsoft-365/admin/manage/remove-licenses-from-users)。
+ライセンスの割り当てを解除する方法については、「 [ユーザーからのライセンスの割り当て解除](/microsoft-365/admin/manage/remove-licenses-from-users)」を参照してください。
 
 ## <a name="more-guidance-on-microsoft-plans"></a>Microsoft プランに関するその他のガイダンス
 
-Microsoft プランの詳細を確認し、組織の種類に応じてガイダンスを取得します。
+Microsoft プランの詳細を確認し、組織の種類に応じたガイダンスを取得します。
 
-- [中小企業向けガイダンス](../business-voice/whats-business-voice.md)
-- [エンタープライズ組織向けプラン](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans)
-- [教育機関向けガイダンス](https://www.microsoft.com/education/buy-license/microsoft365)
-- [政府機関と政府機関向けプラン](https://www.microsoft.com/microsoft-365/government/)
-- [非営利団体向けプラン](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing)
+- [中小企業向けのガイダンス](../business-voice/whats-business-voice.md)
+- [エンタープライズ組織向けのプラン](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans)
+- [教育機関向けのガイダンス](https://www.microsoft.com/education/buy-license/microsoft365)
+- [政府と政府機関の計画](https://www.microsoft.com/microsoft-365/government/)
+- [非営利団体向けのプラン](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing)
 
 ## <a name="need-help"></a>サポートが必要な場合
 
-アドオンオプションについて他のユーザーと話す必要がありますか? [ビジネス製品のサポートに問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
+アドオン オプションについて他のユーザーと話す必要がありますか? [ビジネス製品のサポートにお問い合わせください - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 
 ## <a name="related-content"></a>関連コンテンツ
 
-- [追加Teamsライセンスを割り当てる](assign-teams-add-on-licenses.md)
+- [アドオン ライセンスTeams割り当てる](assign-teams-add-on-licenses.md)
 - [Teams へのユーザー アクセスを管理する](../user-access.md)
-- [Teamsの説明](/office365/servicedescriptions/teams-service-description)
+- [Teamsサービスの説明](/office365/servicedescriptions/teams-service-description)
