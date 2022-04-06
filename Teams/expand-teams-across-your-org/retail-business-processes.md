@@ -19,12 +19,12 @@ searchScope:
 - Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dfe825f1ab21aab3dad2617236d61859ab6b90d8
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
-ms.translationtype: HT
+ms.openlocfilehash: 6f8f831b3e24018dfc3f5ba3cbf2a7767b66398b
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288887"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64643091"
 ---
 # <a name="simplify-business-processes-in-retail-environments"></a>小売環境でのビジネス プロセスを簡素化する
 
@@ -52,7 +52,7 @@ Power Apps を追加して、組織のために低コードまたはコードな
 
 ## <a name="track-key-performance-indicators-kpis-with-power-bi-reports"></a>Power BI レポートで主要業績評価指標 (KPI) を追跡します
 
-Microsoft Teams チャネルおよびチャットで対話型の Power BI コンテンツを共有し、共同作業を行います。 Teams に [Power BI タブ](../built-in-custom-tabs.md)を追加して、対話型レポートを埋め込んで Teams でレポートに関するチャットを行い、Power BI で重要なことが発生したときに Teams アクティビティ フィードで通知を直接受け取ることができます。
+Microsoft Teams チャネルおよびチャットで対話型の Power BI コンテンツを共有し、共同作業を行います。 Teams に [Power BI タブ](/microsoftteams/platform/tabs/what-are-tabs)を追加して、対話型レポートを埋め込んで Teams でレポートに関するチャットを行い、Power BI で重要なことが発生したときに Teams アクティビティ フィードで通知を直接受け取ることができます。
 
 詳細情報: [Microsoft Teams と Power BI で共同作業する](/power-bi/collaborate-share/service-collaborate-microsoft-teams)。
 

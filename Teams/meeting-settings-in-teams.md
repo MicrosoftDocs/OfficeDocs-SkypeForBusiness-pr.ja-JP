@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 組織のユーザーがスケジュールする Teams 会議の設定を管理する方法を説明します。
-ms.openlocfilehash: 294bbac570d1f1741449c7c81cb9389b20cdcdc6
-ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
-ms.translationtype: HT
+ms.openlocfilehash: 10afbcc30404122e9e4d497570bf0b69e4ef6fa7
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "62960029"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64642921"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams で会議の設定を管理する
 
@@ -70,7 +70,7 @@ ms.locfileid: "62960029"
 
 その他の値の組み合わせは、匿名ユーザーが会議に参加するのを防ぎます。
 > [!NOTE]
-> 組織ごとに匿名参加がオフになっている組織に開催者ごとのポリシーを使用するには、管理者はポリシーを作成し、ユーザーに割り当てる必要があります。 これを行う方法については、「[Microsoft Teams での会議ポリシーの管理](/microsoftteams/meeting-policies-overview)」を参照してください。
+> 会議ポリシーの管理の詳細については、「会議ポリシーを管理する」を参照[Microsoft Teams。](/microsoftteams/meeting-policies-overview)
 
 ### <a name="blocking-anonymous-join-for-specific-client-types"></a>特定のクライアントの種類の匿名参加をブロックする
 

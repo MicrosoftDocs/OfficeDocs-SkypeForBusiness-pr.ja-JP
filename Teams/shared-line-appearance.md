@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
 - seo-marvel-apr2020
 description: Microsoft Teams で音声会議情報を記載したメールをユーザーに送信する方法について説明します。
-ms.openlocfilehash: 1ec0b74bab289eaca1b1046eccebb870e8562a95
-ms.sourcegitcommit: fd4d7557997c537c094e79ada21c569acde65aa6
+ms.openlocfilehash: d47b763b877c49194c26eae05904ea1b7ccee5ec
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "62312270"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64642861"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Microsoft Teams での共有回線の外観
 
@@ -38,7 +38,7 @@ ms.locfileid: "62312270"
 
 ## <a name="license-required"></a>必要なライセンス
 
-ユーザーが PSTN 接続を持つ 電話システム (通話プラン ライセンスまたは直接ルーティング OnlineVoiceRoutingPolicy のいずれか) を委任または委任を設定し、他のユーザーが代わりに通話を発信または受信できる必要があります。
+ユーザーが代理または委任を設定し、他のユーザーが代わりに通話を発信または受信するには、PSTN 接続 (通話プラン ライセンスまたは直接ルーティング OnlineVoiceRoutingPolicy のいずれか) を持っている必要があります。 電話システム
 
 管理者と代理人の両方が、PSTN 接続 (通話プラン ライセンスまたは Direct Routing OnlineVoiceRoutingPolicy のいずれか) を備えた電話システムを持っている必要があります。 共有回線エクスペリエンスは委任の一部であり、電話システムに含まれています。 ライセンス モデルの詳細については、「[Microsoft Teams サービスの説明](/office365/servicedescriptions/teams-service-description)」を参照してください。
 
@@ -61,18 +61,20 @@ ms.locfileid: "62312270"
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|
 | 委任を設定する | はい | Yes | はい | いいえ | Yes |
 | 別の人に代わって電話を受ける | はい | Yes | Yes | Yes | Yes |
-| 別の人に代わって電話番号に電話する | はい | Yes | Yes | Yes | Yes |
-| 別のユーザーに代わって Teams ユーザーに電話する | はい | Yes | Yes | Yes | Yes |
+| 別の人に代わって電話番号に電話する | はい | Yes | Yes | Yes | はい |
+| 別のユーザーに代わって Teams ユーザーに電話する | はい | Yes | Yes | Yes | はい |
 | 共有行の代理人ビューを表示する | Yes | Yes | はい | いいえ | はい |
-| マネージャーの通話アクティビティの代理人ビューを表示する | Yes | Yes | はい | いいえ | はい |
-| 委任のマネージャー ビューを参照してください | はい | Yes | はい | いいえ | はい |
-| 代理人またはマネージャーが保留または再開できる | Yes | Yes | はい | いいえ | はい |
+| マネージャーの通話アクティビティの代理人ビューを表示する | Yes | Yes | はい | いいえ | Yes |
+| 委任のマネージャー ビューを参照してください | はい | Yes | はい | いいえ | Yes |
+| 代理人またはマネージャーが保留または再開できる | Yes | Yes | はい | いいえ | Yes |
 
 ## <a name="limitations"></a>制限事項
 
 管理者は最大 25 人の代理人を追加でき、代理人は最大 25 人の管理者を持つことができます。 テナントで作成できる委任関係の数に制限はありません。 
  
 委任者と委任者が同じ地理的場所にいない場合、委任された (代理の) 通話のために発信者 ID が異なる地理的場所から表示されるようにするのは PSTN プロバイダーの責任です。 
+
+循環委任の構成は許可されていません。 委任されたユーザーもそれらの間に委任を持っている場合、最初の委任ではなく、委任のみを表示できます。
  
 ## <a name="more-information"></a>詳細情報
 

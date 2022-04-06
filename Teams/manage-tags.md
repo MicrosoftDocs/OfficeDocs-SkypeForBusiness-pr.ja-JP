@@ -16,12 +16,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams で組織でのタグの使用方法を管理する方法について説明します。
-ms.openlocfilehash: af9855f1ca771cb9f5d4739194e26cba746859ff
-ms.sourcegitcommit: caaed4b48b8f2b05d035c1bdea00a61301bc9f05
+ms.openlocfilehash: 67bbc53b5619c47117ae227396ad8352aa1a382a
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63740204"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64642911"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Microsoft Teams でタグを管理する
 
@@ -61,7 +61,7 @@ Microsoft Teams のタグを使用すると、チーム内の一部のユーザ�
 
 既定では、チームの所有者がカスタム タグを追加できます。 この設定を変更して、チームの所有者とチーム メンバーがタグを作成、編集、削除、管理できるようにするか、組織のタグをオフにすることができます。
 
-1. Microsoft Teams 管理センターの左側のナビゲーションで、**[組織全体の設定]** > **[Teams の設定]** をクリックします。
+1. 管理センターの左側のナビゲーションMicrosoft Teams、[**設定] Teams** >  **Teamsします**。
 2. **[タグ付け]** で、**[タグの管理者]** の横で、次のいずれかのオプションを選択します。
 
     - **[チームの所有者とメンバー]**: チームの所有者とメンバーにタグの管理を許可します。
@@ -72,7 +72,7 @@ Microsoft Teams のタグを使用すると、チーム内の一部のユーザ�
 
 次のタグ設定を構成して、組織全体でのカスタム タグの使用方法を制御できます。
 
-1. Microsoft Teams 管理センターの左側のナビゲーションで、**[組織全体の設定]** > **[Teams の設定]** をクリックします。
+1. 管理センターの左側のナビゲーションMicrosoft Teams、[**設定] Teams** >  **Teamsします**。
 2. **[タグ付け]** で、組織のニーズに応じて次の設定を行います。
 
     - **[チーム所有者に、タグの管理が可能なユーザーを上書きしてもらいます]**: この設定をオンにすると、チーム の所有者はチーム メンバーがチーム内でタグを作成および管理できるかどうかを設定できます。また、**[タグの管理者]** 設定の値を各チームの既定値に設定することができます。 この設定をオフにした場合、**[タグの管理者]** 設定をチームごとに変更することはできません。

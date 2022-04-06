@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: この記事では、複数のパネル デバイスを使用するTeamsを提供します。
-ms.openlocfilehash: e39b54d290ac3c8d4809f9da011c2e28451c2ae7
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: 2928bb64881cad5fb5c6615d26767e963f725dcd
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062541"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64643041"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>パネルのMicrosoft Teams方法
 
@@ -33,7 +33,7 @@ Teamsパネルデバイスには、Microsoft Teamsがプレインストールさ
 
 パネル デバイスの概要と、デバイスを組織内で計画、配信、管理する方法に関するガイダンスについては、「Deploy Microsoft Teams [panels」を参照してください](teams-panels.md)。
 
-クイック スタートについては、「Get [started with Teams パネル」を参照してください](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)。
+クイック スタートについては、次のパネル[概要をTeamsしてください](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)。
 
 ## <a name="teams-panels-end-user-experience"></a>Teams パネルのエンド ユーザー エクスペリエンス
 
@@ -158,7 +158,7 @@ Teamsパネルデバイスには、Microsoft Teamsがプレインストールさ
 
 ## <a name="teams-panels-admin-experience"></a>Teamsパネルの管理エクスペリエンス
 
-パネルのリソース アカウントTeams [管理者](teams-panels.md\#resource-account-provisioning)である場合は、デバイス上の **パネル** アプリの管理者も同じになります。 パネル アプリ **管理者** は、デバイスのパネル アプリ設定の管理に加えて、エンド [](#teams-panels-end-user-experience) ユーザー エクスペリエンスに関するセクションに記載されているすべての機能を実行できます。
+デバイスのリソース [アカウントTeams パネルしている](teams-panels.md\#resource-account-provisioning)場合は、デバイス上の **パネル** アプリの管理者です。 パネル アプリ **管理者** は、デバイスのパネル アプリ設定の管理に加えて、エンド [](#teams-panels-end-user-experience) ユーザー エクスペリエンスに関するセクションに記載されているすべての機能を実行できます。
 
 パネル デバイスでは、2 種類の管理者設定が提供されます。 使用可能な管理者設定にアクセスするには、デバイス管理者である必要があります。 エンド ユーザーは、これらの設定にアクセスできない。
 
@@ -192,13 +192,15 @@ Teamsパネルデバイスには、Microsoft Teamsがプレインストールさ
     - [壁紙](#update-the-wallpaper)
     - [LED インジケーター](#change-the-busy-state-led-color)
 
-#### <a name="pair-a-teams-panel-with-a-microsoft-teams-room-on-android"></a>Android の Teams と Microsoft Teams パネルをペアリングする
+#### <a name="pair-a-teams-panel-with-a-microsoft-teams-room-on-android"></a>Android の Teams パネル ルームとMicrosoft Teamsをペアリングする
 
-[Teams パネルで、管理者の資格情報を使用してサインインします。  
+Android 上の Teams パネルと Teamsをペアリングするには、両方のデバイスが同じリソース アカウントにサインインする必要があります。
+
+[Teams パネルで、管理者の資格情報を使用してサインインします。
 
 1. [デバイスの **設定 >管理] 設定 > パネル 設定 >[会議設定 >デバイス>に移動します。**
 
-2. 6 桁のコードが、Android Teamsの会議室ディスプレイの前面に表示されます。 [パネル] のコードTeamsします。  
+2. 6 桁のコードが、Android のTeams Roomsの前面に表示されます。 [パネル] のコードTeamsします。  
 
 #### <a name="meeting-check-in-and-room-release"></a>会議のチェックインと会議室のリリース
 
@@ -208,6 +210,24 @@ Teams パネルが Android の Microsoft Teams Room とペアリングされて�
 
 チェックインとルーム リリースを有効にするには、「チェックイン パネルとルーム リリース」を参照Microsoft Teams[してください](check-in-and-room-release.md)。
 
+#### <a name="room-capacity-warning"></a>部屋の容量に関する警告
+
+Teams Teams Room on Android とペアのパネルでは、会議室が容量以上のときに警告メッセージを表示できます。 この機能を使用するには、Teams ルームにユーザーカウントをサポートするカメラが必要です。 Teams Rooms Android では、部屋の容量に関する警告が表示されます。Teams パネル。
+
+既定では、部屋の容量に関する警告はオフになっています。 Teams パネル から設定を有効Teams パネル、最初に Android の Teams パネル [Room Microsoft Teamsペアリングします](#pair-a-teams-panel-with-a-microsoft-teams-room-on-android)。 パネルと [Teams Room] は、同じリソース アカウントにサインインする必要があります。
+
+ 次に、[デバイスの設定 **] 設定 >パネル アプリ>の [管理者>設定] に移動します**。 次に、[ **会議] で** [最大部屋 **占有率通知] をオンにします**。
+
+#### <a name="view-room-equipment"></a>部屋の備品を表示する
+
+この機能を有効にすると、エンド ユーザーは、特定のデバイス上のスペースで使用可能な機器をTeams パネル。
+
+この機能は既定でオフになっています。デバイスごとに有効にできます。 有効にする場合は、PowerShell `VideoDeviceName``AudioDeviceName``DisplayDeviceName`で [Set-Place](/powershell/module/exchange/set-place?view=exchange-ps) を使用して、および の表示名を`Tags`構成します。`IsWheelChairAccessible`
+
+または、管理センターでこの機能Exchange有効にできます。 詳細については [、「リソースの編集](/exchange/recipients-in-exchange-online/manage-resource-mailboxes#edit-a-resource) 」を参照してください。
+
+
+
 #### <a name="update-the-wallpaper"></a>壁紙を更新する
 
 ホーム画面の壁紙の画像を変更します。
@@ -216,7 +236,7 @@ Teams パネルが Android の Microsoft Teams Room とペアリングされて�
 2. [壁紙 **] をタップします**。
 3. [ **画像の選択]** から、ホーム画面の背景画像として設定する画像を選択します。 [背景] で選択した画像を **プレビューします**。
 :::image type="content" source="../media/panels-wallpapers-setting.png" alt-text="このスクリーンショットには、壁紙の設定画面が表示されます。":::
-4. [ホーム] 画面に戻り、壁紙が更新されたのを確認します。
+4. 戻る画面に戻り、壁紙が更新されたのを確認します。
 
 #### <a name="change-the-busy-state-led-color"></a>ビジー状態の LED の色を変更する
 
@@ -226,7 +246,7 @@ Teams パネルが Android の Microsoft Teams Room とペアリングされて�
 2. [**LED 設定] をタップ** します。
 3. [ **LED の色の選択] で**、目的の色を選択します。
 :::image type="content" source="../media/panels-led-settings.png" alt-text="このスクリーンショットには、LED の色のビジー状態の設定が表示されます。":::
-4. [ホーム] 画面に戻り、ビジー状態の LED の色が更新された状態を確認します。 会議スペースが現在利用可能な場合は、テスト会議をスケジュールして、取り込み中の状態の LED の色の変更を確認してください。
+4. 戻る画面に戻り、ビジー状態の LED の色が更新された状態を確認します。 会議スペースが現在利用可能な場合は、テスト会議をスケジュールして、取り込み中の状態の LED の色の変更を確認してください。
 
 ## <a name="frequently-asked-questions"></a>よく寄せられる質問
 
