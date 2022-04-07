@@ -1493,6 +1493,10 @@ items:
             href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
       - name: サードパーティ製アプリを管理する
         items:
+          - name: サードパーティのアプリを理解する
+            href: overview-third-party-apps.md
+          - name: Microsoft によるアプリの検証を理解する
+            href: overview-of-app-validation.md
           - name: サード パーティ製アプリのセキュリティ、コンプライアンス、プライバシー、およびデータ処理
             href: /microsoft-365-app-certification/overview
           - name: Microsoft 365 または Office 365 とカスタム コネクタを使用する
