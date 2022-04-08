@@ -49,7 +49,7 @@ ms.locfileid: "60012961"
 || ![白線の入った赤い丸は、発表中を示します。](media/Presence_DND.png) プレゼンテーション|
 || ![白線の入った赤い丸は、フォーカスを示します。](media/Presence_DND.png) フォーカスは、ユーザーがカレンダーの MyAnalytics / Insights でフォーカス時間をスケジュールしたときに表示されます。|
 | ![黄色の時計アイコンは、退席中を示します。](media/Presence_Away.png) [退席中]| ![黄色の時計アイコンは、退席中を示します。](media/Presence_Away.png) 退席中|
-|| ![黄色の時計アイコンは、退席中を示す *前回の退席中表示](media/Presence_Away.png)時刻*|
+|| ![黄色の時計アイコンは、退席中を示す](media/Presence_Away.png)退席中、最終ログイン *時刻*|
 |![黄色の時計アイコンは、一時退席中を示します。](media/Presence_Away.png) 一時退席中| |
 |![X マーク付き灰色の丸、オフラインを示します。](media/Presence_Offline.png) オフライン表示|![X マーク付き灰色の丸、オフラインを示す](media/Presence_Offline.png) オフライン。ユーザーがどのデバイスにも数分間ログインしていない場合、ユーザーはオフラインとして表示されます。 |
 || ![灰色枠の丸は、状態不明を示します。](media/Presence_Unknown.png) 状態不明|

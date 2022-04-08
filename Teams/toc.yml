@@ -969,6 +969,8 @@ items:
             href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
       - name: ダイヤル プランとルーティング
         items:
+          - name: 概要
+            href: dial-plans-routing-overview.md
           - name: ダイヤル プランについて
             href: what-are-dial-plans.md
           - name: ダイヤル プランを作成および管理する

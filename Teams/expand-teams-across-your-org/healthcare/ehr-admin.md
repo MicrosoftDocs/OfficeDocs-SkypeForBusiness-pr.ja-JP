@@ -1,5 +1,5 @@
 ---
-title: 仮想アクセスと Teams - エピック EHR への統合
+title: Teamsを使用した仮想アクセス - エピック EHR への統合
 author: LanaChin
 ms.author: v-lanachin
 manager: samanro
@@ -22,77 +22,77 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
-description: Teams EHR コネクタを統合して、組織内の医療プロバイダーがエピック EHR システムから直接 Teams で患者または他のプロバイダーと仮想訪問を行う方法について説明します。
-ms.openlocfilehash: 86d6061f41c94d95098dbecdad2d92edb9f85a3b
-ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
+description: Teams EHR コネクタを統合して、組織内の医療プロバイダーがエピック EHR システムから直接Teamsの患者や他のプロバイダーと仮想訪問を行えるようにする方法について説明します。
+ms.openlocfilehash: e573c30720383554c9bda8467221ff48a1369e0b
+ms.sourcegitcommit: 1e8cff687b12348d4ecc538084ab57bbba23b523
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63435721"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "64703603"
 ---
-# <a name="virtual-visits-with-teams---integration-into-epic-ehr"></a>仮想アクセスと Teams - エピック EHR への統合
+# <a name="virtual-visits-with-teams---integration-into-epic-ehr"></a>Teamsを使用した仮想アクセス - エピック EHR への統合
 
-Microsoft Teams電子健康記録 (EHR) コネクタを使用すると、医師は、仮想患者の訪問を開始したり、エピック EHR システムから直接 Microsoft Teams で別のプロバイダーと相談したりすることができます。 Microsoft 365 クラウド上に構築された Teams は、HIPAA、HITECH 認定などへの準拠をサポートする単一のハブで、チャット、ビデオ、音声、および医療ツールとの簡単で安全なコラボレーションと通信を可能にしています。
+Microsoft Teams電子健康記録 (EHR) コネクタを使用すると、臨床医はエピック EHR システムから直接Microsoft Teamsで仮想患者の訪問や別のプロバイダーとの相談を簡単に開始できます。 Microsoft 365 クラウド上に構築されたTeamsは、HIPAA、HITECH 認定などのコンプライアンスをサポートする 1 つのハブで、チャット、ビデオ、音声、ヘルスケア ツールとの簡単で安全なコラボレーションとコミュニケーションを実現します。
 
-Teams のコミュニケーションおよびコラボレーション プラットフォームを使用すると、クリニアンは断片化されたシステムの煩雑な部分を簡単に切り取り、可能な限り最善のケアの提供に集中できます。 EHR コネクタTeams使用すると、次の方法を実行できます。
+Teamsのコミュニケーションとコラボレーション プラットフォームにより、臨床医は断片化されたシステムの混乱を簡単に切り取り、可能な限り最善のケアを提供することに集中できます。 Teams EHR コネクタを使用すると、次のことができます。
 
-- 統合Teams、エピック EHR システムから仮想アクセスを開始します。
-- 患者が患者ポータル内Teams SMS 経由で仮想訪問に参加できます。
+- 統合された臨床ワークフローを使用して、エピック EHR システムからTeams Virtual Visits を起動します。
+- 患者が患者ポータル内または SMS 経由で仮想訪問Teams参加できるようにします。
 - マルチ参加者、グループ訪問、インタープリター サービスなど、その他のシナリオをサポートします。
-- 出席者が接続、切断、自動監査と記録保持を有効にするときに記録する仮想アクセスTeams関するメタデータを EHR システムに書き戻します。
+- 出席者が接続、切断、および自動監査と記録の保持を有効にするときに記録するために、仮想訪問Teamsに関するメタデータを EHR システムに書き戻します。
 - EHR に接続された訪問の消費データ レポートとカスタマイズ可能な通話品質情報を表示します。
 
-EHR ポータルから Virtual Visits を管理する方法の概要については、このビデオをご覧ください。
+EHR ポータルから Virtual Visits を管理する方法の概要については、このビデオを参照してください。
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HAtn]
 
-この記事では、医療組織のエピック プラットフォームと統合Teams EHR コネクタを設定および構成する方法について説明します。 また、エピック EHR システムからの仮想Teamsエクスペリエンスの概要も示します。
+この記事では、Teams EHR コネクタを設定して、医療機関のエピック プラットフォームと統合する方法について説明します。 また、エピック EHR システムからのTeams Virtual Visits エクスペリエンスの概要についても説明します。
 
 ## <a name="before-you-begin"></a>はじめに
 
-開始する前に、統合を準備するためにいくつかの操作を行います。
+作業を開始する前に、統合の準備を行うためにいくつかの操作を行う必要があります。
 
-### <a name="get-familiar-with-the-integration-process"></a>統合プロセスを理解する
+### <a name="get-familiar-with-the-integration-process"></a>統合プロセスについて理解する
 
 統合プロセス全体を理解するには、次の情報を確認してください。
 
-:::image type="content" source="media/ehr-connector-epic-flow.png" alt-text="統合プロセス全体の手順を要約した画像。":::
+:::image type="content" source="media/ehr-connector-epic-flow.png" alt-text="統合プロセス全体の手順をまとめた画像。":::
 
 ||||||
 |---------|---------|---------|---------|---------|
-|**アクション**: アプリ [へのアクセスを要求Teamsします](#request-access-to-the-teams-app)。 <br> **結果**: テストのために組織を承認します。|**アクション**: 公開キー証明書とプライベート キー証明書を作成し、それをエピックにアップロードします。 <br> **結果**: エピックは公開キー証明書を同期します。|**対処** 方法: EHR コネクタ構成ポータルで構成手順を完了します。 <br> **結果**: エピック構成の FDI レコードを受け取る。| **対処**: エピックの技術スペシャリストと一緒に、エピックで FDI レコードを構成します。<br> **結果**: 構成が完了しました。 テストの準備ができました。|**対処** 方法: テスト環境でテストを完了します。<br> **結果**: フローの完全な検証と、実稼働環境への移行の決定。|
+|**アクション**: [Teams アプリへのアクセスを要求します](#request-access-to-the-teams-app)。 <br> **結果**: テストのために組織を承認します。|**アクション**: 公開キーと秘密キーの証明書を作成し、エピックにアップロードします。 <br> **結果**: エピックは公開キー証明書を同期します。|**アクション**: EHR コネクタ構成ポータルで構成手順を完了します。 <br> **結果**: エピック構成の FDI レコードを受け取ります。| **アクション**: エピックの技術スペシャリストと協力して、エピックで FDI レコードを構成します。<br> **結果**: 構成が完了しました。 テストする準備ができました。|**アクション**: テスト環境でテストを完了します。<br> **結果**: フローの完全な検証と、運用環境への移行の決定。|
 
-### <a name="request-access-to-the-teams-app"></a>アプリへのアクセスをTeamsする
+### <a name="request-access-to-the-teams-app"></a>Teams アプリへのアクセスを要求する
 
-アプリへのアクセスを要求するTeamsがあります。
+Teams アプリへのアクセスを要求する必要があります。
 
-1. エピック アプリ Teams Marketplace でアプリのダウンロード[を要求します](https://apporchard.epic.com/Gallery?id=6153)。 これにより、エピックから Microsoft EHR コネクタ チームへの要求がトリガーされます。
-1. 要求を行った後、組織名、テナント ID、 [およびエ TeamsForHealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) の技術連絡先の電子メール アドレスを含むメールを TeamsForHealthcare@service.microsoft.com に送信します。
-1. Microsoft EHR コネクタ チームは、有効化の確認を求め、メールに応答します。
+1. [Epic App Marketplace](https://apporchard.epic.com/Gallery?id=6153) でTeamsアプリのダウンロードを要求します。 これを行うと、エピックから Microsoft EHR コネクタ チームへの要求がトリガーされます。
+1. 要求を行った後、組織名、テナント ID、およびエピック技術連絡先の電子メール アドレスを含む電子メールを [TeamsForHealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) に送信します。
+1. Microsoft EHR コネクタ チームがメールに返信し、有効化の確認を行います。
 
-### <a name="review-the-epic-microsoft-teams-telehealth-integration-guide"></a>Telehealth Epic-Microsoft Teamsガイドを確認する
+### <a name="review-the-epic-microsoft-teams-telehealth-integration-guide"></a>Epic-Microsoft Teams Telehealth 統合ガイドを確認する
 
 「[Epic-Microsoft Teams Telehealth Integration ガイド](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357)」を Epic の技術専門家と一緒にご確認ください。 すべての前提条件が満たされていることを確認します。
 
 ## <a name="prerequisites"></a>前提条件
 
-- EHR コネクタスタンドアロン オファー医療向け Microsoft CloudまたはサブスクリプションをMicrosoft Teamsするアクティブなサブスクリプション (実稼働 EHR 環境でテストする場合にのみ適用されます)。
+- Microsoft Cloud for Healthcareへのアクティブなサブスクリプション、または EHR コネクタスタンドアロン オファー Microsoft Teamsサブスクリプション (運用環境の EHR 環境でテストする場合にのみ適用されます)。
 - エピック バージョン 2018 年 11 月以降。
-- ユーザーは、会議を含Microsoft 365またはOffice 365ライセンスを持Teamsがあります。
-- Teamsは、医療組織で採用および使用されます。
-- システムは、すべての[ソフトウェアとブラウザーの要件を満](../../hardware-requirements-for-the-teams-app.md)たTeams。
+- ユーザーは、Teams会議を含む適切なMicrosoft 365またはOffice 365ライセンスを持っています。
+- Teamsが採用され、医療組織で使用されます。
+- システムは、Teamsのすべての[ソフトウェアとブラウザーの要件](../../hardware-requirements-for-the-teams-app.md)を満たしています。
 
 > [!IMPORTANT]
-> 統合を進む前に、統合前の手順を完了し、すべての前提条件が満たされていることを確認してください。
+> 統合を進める前に、統合前の手順を完了し、すべての前提条件が満たされていることを確認してください。
 
 統合手順は、組織内の次のユーザーによって実行されます。
 
-- **Microsoft 365管理者**: 統合を担当する主な担当者。 管理者はコネクタを構成し、SMS を有効にし (必要に応じて)、構成を承認するエピックの顧客アナリストを追加します。
-- **エピック カスタマー アナリスト**: エピックへのログイン資格情報を持つ組織内のユーザー。 管理者が入力した構成設定を承認し、構成レコードをエピックに提供します。
+- **Microsoft 365グローバル管理者**: 統合を担当するメインユーザー。 管理者はコネクタを構成し、SMS (必要に応じて) を有効にし、構成を承認するエピックカスタマー アナリストを追加します。
+- **エピックカスタマー アナリスト**: 組織内で、エピックへのログイン資格情報を持つユーザー。 管理者が入力した構成設定を承認し、構成レコードをエピックに提供します。
 
-管理者Microsoft 365エピックの顧客アナリストは、同じ人物である可能性があります。
+Microsoft 365管理者とエピックの顧客アナリストは、同じユーザーにすることができます。
 
-## <a name="set-up-the-teams-ehr-connector"></a>EHR コネクタTeams設定する
+## <a name="set-up-the-teams-ehr-connector"></a>Teams EHR コネクタを設定する
 
 コネクタの設定には、次のことが必要です。
 
@@ -104,151 +104,151 @@ EHR ポータルから Virtual Visits を管理する方法の概要について
 
 ### <a name="launch-the-ehr-connector-configuration-portal"></a>EHR コネクタ構成ポータルを起動する
 
-最初に、管理者Microsoft 365 [EHR](https://ehrconnector.teams.microsoft.com) コネクタ構成ポータルを起動し、ユーザーの資格情報を使用Microsoft 365します。
+開始するには、Microsoft 365管理者が [EHR コネクタ構成ポータル](https://ehrconnector.teams.microsoft.com)を起動し、Microsoft 365資格情報を使用してサインインします。
 
-管理者Microsoft 365、統合をテストするために 1 つの組織または複数の組織を構成できます。 構成ポータルでテスト URL と本番 URL を構成します。 実稼働環境に移行する前に、必ずエピック テスト環境から統合をテストしてください。
+Microsoft 365管理者は、1 つの組織または複数の組織を構成して統合をテストできます。 構成ポータルでテスト URL と本番 URL を構成します。 運用環境に移行する前に、必ずエピック テスト環境からの統合をテストしてください。
 
 > [!NOTE]
-> 管理者Microsoft 365エピック カスタマー アナリストは、構成ポータルで統合手順を完了する必要があります。 エピックの構成手順については、組織に割り当てられているエピック テクニカル スペシャリストにお問い合わせください。
+> Microsoft 365管理者とエピックカスタマー アナリストは、構成ポータルで統合手順を完了する必要があります。 エピックの構成手順については、組織に割り当てられているエピック技術スペシャリストにお問い合わせください。
 
 ### <a name="enter-configuration-information"></a>構成情報を入力する
 
-次に、統合を設定するために、管理者Microsoft 365次の手順を実行します。
+次に、統合を設定するために、Microsoft 365管理者は次の操作を行います。
 
-1. エピックのテクニカル スペシャリストから Fast Health 相互運用性リソース (FHIR) ベース URL を追加し、環境を指定します。 組織のニーズとテストする環境に応じて、必要な数の FHIR ベース URL を構成します。
+1. エピック技術スペシャリストから Fast Health 相互運用性リソース (FHIR) ベース URL を追加し、環境を指定します。 組織のニーズとテストする環境に応じて、必要な数の FHIR ベース URL を構成します。
 
-    - FHIR ベース URL は、サーバーの FHIR API エンドポイントに対応する静的アドレスです。 URL の例は、`https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST` です。
+    - FHIR ベースの URL は、サーバー FHIR API エンドポイントに対応する静的アドレスです。 URL の例は、`https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST` です。
 
-    - テスト環境と実稼働環境の統合を設定できます。 初期セットアップでは、実稼働環境に移行する前に、テスト環境からコネクタを構成してください。
+    - テスト環境と運用環境の統合を設定できます。 初期セットアップでは、運用環境に移行する前に、テスト環境からコネクタを構成することをお勧めします。
 
-1. 後の手順で構成を承認するエピック カスタマー アナリストのユーザー名を追加します。
+1. 後の手順で構成を承認するエピックカスタマー アナリストのユーザー名を追加します。
 
-    :::image type="content" source="media/ehr-connector-epic-configure.png" alt-text="追加される承認者を示す [構成] ページのスクリーンショット。" lightbox="media/ehr-connector-epic-configure.png":::
+    :::image type="content" source="media/ehr-connector-epic-configure.png" alt-text="追加する承認者を示す [構成] ページのスクリーンショット。" lightbox="media/ehr-connector-epic-configure.png":::
 
 ### <a name="enable-sms-notifications-optional"></a>SMS 通知を有効にする (省略可能)
 
 > [!NOTE]
-> SMS 通知は現在、米国でのみ利用できます。 今後のリリースでは、この機能を他のリージョンで使用Teams予定であり、利用可能な場合は、この記事を更新します。
+> SMS 通知は現在、米国でのみ使用できます。 今後のリリースのTeamsでは、この機能を他のリージョンで使用できるように取り組んでおり、利用可能な場合はこの記事を更新します。
 
-組織で患者の SMS 通知を管理する必要がある場合は、この手順を完了します。 SMS 通知を有効にした場合、患者はスケジュールされた訪問の確認メッセージとアラーム メッセージを受信します。
+組織が患者の SMS 通知を Microsoft が管理することを望む場合は、この手順を完了します。 SMS 通知を有効にすると、患者はスケジュールされた訪問の確認メッセージとリマインダー メッセージを受け取ります。
 
-SMS 通知を有効にするには、管理者Microsoft 365次の手順を実行します。
+SMS 通知を有効にするには、Microsoft 365管理者が次の操作を行います。
 
-1. [SMS 通知] ページで、次の両方の同意チェック ボックスをオンにします。
+1. SMS 通知ページで、次の両方の同意チェック ボックスをオンにします。
 
-    - Microsoft が組織に代わって患者に SMS 通知を送信できます。
-    - 出席者が SMS メッセージの送受信に同意したと確認します。
+    - Microsoft が組織に代わって患者に SMS 通知を送信できるようにします。
+    - 出席者が SMS メッセージの送受信に同意したことを確認します。
     
-    :::image type="content" source="media/ehr-connector-epic-sms-notifications.png" alt-text="[SMS 通知] ページのスクリーンショット。同意チェック ボックスと電話番号を生成するオプションが表示されています。" lightbox="media/ehr-connector-epic-sms-notifications.png":::
+    :::image type="content" source="media/ehr-connector-epic-sms-notifications.png" alt-text="SMS 通知ページのスクリーンショット。同意チェック ボックスと電話番号を生成するオプションが表示されています。" lightbox="media/ehr-connector-epic-sms-notifications.png":::
 
-1. [ **電話番号] で、[** 新しい **電話番号の生成] を選択** して、組織の電話番号を生成します。 これにより、新しい電話番号を要求して生成するプロセスが開始されます。 このプロセスが完了するには、最大で 2 分かかる場合があります。
+1. [ **電話番号**] で [ **新しい電話番号の生成** ] を選択して、組織の電話番号を生成します。 これにより、新しい電話番号を要求して生成するプロセスが開始されます。 このプロセスが完了するまでに最大 2 分かかる場合があります。
 
-    電話番号が生成されると、画面に表示されます。 この番号は、SMS の確認とアラームを患者に送信するために使用されます。 この番号はプロビジョニングされましたが、まだ FHIR ベース URL にリンクされていません。 これは、次の手順で行います。
+    電話番号が生成されると、画面に表示されます。 この番号は、SMS の確認とリマインダーを患者に送信するために使用されます。 この番号はプロビジョニングされていますが、FHIR ベース URL にリンクされていません。 次の手順で行います。
 
-    :::image type="content" source="media/ehr-connector-epic-phone-number.png" alt-text="生成された電話番号の例を示すスクリーンショット。" lightbox="media/ehr-connector-epic-phone-number.png":::
+    :::image type="content" source="media/ehr-connector-epic-phone-number.png" alt-text="生成される電話番号の例を示すスクリーンショット。" lightbox="media/ehr-connector-epic-phone-number.png":::
 
-    [完了 **] を** 選択し、[次へ] を **選択します**。
+    [ **完了] を** 選択し、[ **次へ**] を選択します。
 
-1. 電話番号を FHIR ベース URL にリンクするには、[**SMS** 構成] **電話の** [電話番号] で番号を選択します。 これは、SMS 通知を有効にする FHIR ベース URL ごとに行います。
+1. 電話番号を FHIR ベース URL にリンクするには、[**SMS 構成**] セクション **の [電話番号**] で番号を選択します。 SMS 通知を有効にする FHIR ベース URL ごとにこれを行います。
 
     :::image type="content" source="media/ehr-connector-epic-link-phone-number.png" alt-text="電話番号を FHIR ベース URL にリンクする方法を示すスクリーンショット。" lightbox="media/ehr-connector-epic-link-phone-number.png":::
 
-    コネクタを初めて構成する場合は、前の手順で入力した FHIR ベース URL が表示されます。 同じ電話番号を複数の FHIR ベース URL にリンクできます。つまり、患者は組織や部門ごとに同じ電話番号から SMS 通知を受信します。
+    コネクタを初めて構成する場合は、前の手順で入力した FHIR ベースの URL が表示されます。 同じ電話番号を複数の FHIR ベースの URL にリンクできます。つまり、患者は異なる組織や部署に対して同じ電話番号から SMS 通知を受け取ります。
 
-1. 各 **FHIR ベース** URL の横にある [SMS セットアップ] を選択して、患者に送信する SMS 通知の種類を設定します。
+1. 各 FHIR ベース URL の横にある **SMS セットアップ** を選択して、患者に送信する SMS 通知の種類を設定します。
 
     :::image type="content" source="media/ehr-connector-epic-sms-setup.png" alt-text="SMS セットアップ設定を示すスクリーンショット。" lightbox="media/ehr-connector-epic-sms-setup.png":::
 
-    - **確認 SMS**: EHR システムで訪問がスケジュール、更新、または取り消された場合に、通知が患者に送信されます。
-    - **アラーム SMS**: 指定した時間間隔と訪問のスケジュールされた時刻に従って、通知が患者に送信されます。
+    - **確認 SMS**: EHR システムで訪問がスケジュール、更新、または取り消されたときに、患者に通知が送信されます。
+    - **アラーム SMS**: 通知は、指定した時間間隔と訪問のスケジュールされた時刻に従って患者に送信されます。
 
     [ **保存**] を選びます。
 
-1. [アップロード **] を選択** して公開キー証明書をアップロードします。 環境ごとに Base64 でエンコードされた (公開キーのみ) .cer 証明書をアップロードする必要があります。
+1. **アップロード証明書** を選択して公開キー証明書をアップロードします。 環境ごとに Base64 でエンコードされた (公開キーのみ) .cer 証明書をアップロードする必要があります。
 
-    SMS 通知を送信する予定情報を受信するには、公開キー証明書が必要です。 証明書は、受信情報が有効なソースからの情報を確認するために必要です。
+    SMS 通知を送信するための予定情報を受信するには、公開キー証明書が必要です。 証明書は、受信情報が有効なソースからの情報であることを確認するために必要です。
 
-    コネクタを使用して SMS アラームを送信すると、エピックで予定が作成されると、患者の電話番号が HL7v2 ペイロードでエピックによって送信されます。 これらの番号は、組織の地域の各予定に保存され、予定が行されるまで保持されます。 HL7v2 メッセージを構成する方法の詳細については、「[Telehealth 統合ガイド」の「Microsoft Teams」を参照してください](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357)。
+    コネクタを使用して SMS アラームを送信すると、エピックで予定が作成されると、患者の電話番号が HL7v2 ペイロードでエピックによって送信されます。 これらの番号は、組織の地域の予定ごとに格納され、予定が行われるまで保持されます。 HL7v2 メッセージを構成する方法の詳細については、[エピック Microsoft Teams Telehealth 統合ガイド](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357)を参照してください。
 
     **[次へ]** を選択します。
 
 > [!NOTE]
-> 管理者は、いつでもMICROSOFT 365の SMS 設定を更新できます。 設定を変更すると、SMS サービスが停止する可能性があります。 SMS レポートを表示する方法の詳細については、「EHR コネクタ管理者レポート[Teamsを参照してください](ehr-admin-reports.md)。
+> Microsoft 365管理者はいつでも SMS 設定を更新できます。 設定を変更すると、SMS サービスが停止する可能性があることに注意してください。 SMS レポートを表示する方法の詳細については、[EHR コネクタ管理者レポートTeams](ehr-admin-reports.md)を参照してください。
 
 ### <a name="approve-or-view-the-configuration"></a>構成を承認または表示する
 
-承認者として追加された組織のエピックカスタマー アナリストは、[EHR](https://ehrconnector.teams.microsoft.com) コネクタ構成ポータルを起動し、ユーザーの資格情報を使用してMicrosoft 365します。 検証に成功すると、承認者は、エピックの資格情報を使用してサインインして、エピック組織を検証する必要があります。
+承認者として追加された組織内のエピックカスタマー アナリストは[、EHR コネクタ構成ポータル](https://ehrconnector.teams.microsoft.com)を起動し、Microsoft 365資格情報を使用してサインインします。 検証に成功すると、承認者はエピックの資格情報を使用してエピック組織を検証するサインインを求められます。
 
 > [!Note]
-> 管理者Microsoft 365エピックの顧客アナリストが同じ人物である場合でも、アクセスを検証するには、エピックにサインインする必要があります。 エピック サインインは、FHIR ベース URL の検証にのみ使用されます。 Microsoft は、このサインインを使用して資格情報を保存したり、EHR データにアクセスしたりは行ないます。
+> Microsoft 365管理者とエピックの顧客アナリストが同じユーザーである場合でも、アクセスを検証するためにエピックにサインインする必要があります。 エピック サインインは、FHIR ベース URL を検証するためにのみ使用されます。 Microsoft では、このサインインで資格情報を保存したり、EHR データにアクセスしたりすることはありません。
 
 :::image type="content" source="media/ehr-connector-epic-login-approve.png" alt-text="[ログインと承認] オプションを示す [構成の承認または表示] ページのスクリーンショット。" lightbox="media/ehr-connector-epic-login-approve.png":::
 
-エピックへのサインインが成功したら、エピックの顧客アナリストが **構成を** 承認する必要があります。 構成が正しくなかった場合は、管理者Microsoft 365ポータルにサインインして設定を変更できます。
+エピックへのサインインに成功した後、エピックの顧客アナリストは構成を承認 **する必要があります** 。 構成が正しくない場合、Microsoft 365管理者は構成ポータルにサインインして設定を変更できます。
 
-:::image type="content" source="media/ehr-connector-epic-approve.png" alt-text="[承認] オプションを示す [構成の承認または表示] ページのスクリーンショット。" lightbox="media/ehr-connector-epic-approve.png":::
+:::image type="content" source="media/ehr-connector-epic-approve.png" alt-text="[承認] オプションを示す [構成の承認] ページまたは [構成の表示] ページのスクリーンショット。" lightbox="media/ehr-connector-epic-approve.png":::
 
 ### <a name="review-and-finish-the-configuration"></a>構成を確認して終了する
 
 構成情報が Epic 管理者によって承認されると、患者とプロバイダーの立ち上げに関する統合レコードが表示されます。 統合レコードには、次のものが含まれます。
 
 - 患者とプロバイダーのレコード
-- SMS レコードを直接送信する
+- ダイレクト SMS レコード
 - SMS 構成レコード
 - デバイス テスト構成レコード
 
-エピックの顧客アナリストは、これらのレコードをエピックに提供して、エピックの Virtual Visits 構成を完了する必要があります。 詳細については、「[Telehealth 統合ガイド」の「Microsoft Teams」を参照してください](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357)。
+エピックの顧客アナリストは、エピックの Virtual Visits 構成を完了するために、これらのレコードをエピックに提供する必要があります。 詳細については、[エピック Microsoft Teams Telehealth 統合ガイド](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357)を参照してください。
 
 > [!Note]  
-> 必要に応じて、Microsoft 365エピックの顧客アナリストは、いつでも構成ポータルにサインインして統合レコードを表示し、組織の構成を変更できます。
+> Microsoft 365またはエピックのカスタマー アナリストは、いつでも構成ポータルにサインインして統合レコードを表示し、必要に応じて組織の構成を変更できます。
 
-:::image type="content" source="media/ehr-connector-epic-finish.png" alt-text="統合情報を示す [レビューと完了] ページのスクリーンショット。" lightbox="media/ehr-connector-epic-finish.png":::
+:::image type="content" source="media/ehr-connector-epic-finish.png" alt-text="統合情報を示す [校閲と終了] ページのスクリーンショット。" lightbox="media/ehr-connector-epic-finish.png":::
 
 > [!Note]
-> エピックの顧客アナリストは、管理者が構成した FHIR ベース URL ごとに承認プロセスを完了Microsoft 365があります。
+> エピックの顧客アナリストは、Microsoft 365管理者によって構成された各 FHIR ベース URL の承認プロセスを完了する必要があります。
 
-## <a name="launch-teams-virtual-visits"></a>仮想Teamsを起動する
+## <a name="launch-teams-virtual-visits"></a>仮想アクセスTeams起動する
 
-EHR コネクタの手順とエピック構成を完了すると、組織はビデオアクセスをサポートする準備が整い、Teams。
+EHR コネクタの手順とエピック構成を完了すると、組織はTeamsを使用してビデオへのアクセスをサポートする準備が整いました。
 
 ### <a name="virtual-visits-prerequisites"></a>Virtual Visits の前提条件
 
-- システムは、すべてのソフトウェアと[ブラウザーの要件を満](../../hardware-requirements-for-the-teams-app.md)たす必要Teams。
+- システムは、Teamsのすべての[ソフトウェアとブラウザーの要件](../../hardware-requirements-for-the-teams-app.md)を満たしている必要があります。
 
-- エピック組織と自分の組織の間の統合Microsoft 365完了しました。
+- エピック組織とMicrosoft 365組織の間の統合セットアップが完了しました。
 
 ### <a name="provider-experience"></a>プロバイダー エクスペリエンス
 
-組織の医療プロバイダーは、エピック プロバイダー アプリ (Hyperspace、Haiku、Canto) から Teams を使用してアクセスに参加できます。 **[仮想アクセスの開始]** ボタンは、プロバイダー フローに組み込まれています。
+組織の医療プロバイダーは、エピック プロバイダー アプリ (Hyperspace、Haiku、Canto) からのTeamsを使用して訪問に参加できます。 **[仮想アクセスの開始]** ボタンは、プロバイダー フローに組み込まれています。
 
 プロバイダー エクスペリエンスの主な機能:
 
-- プロバイダーは、サポートされているブラウザーまたはアプリを使用してアクセスTeamsできます。
+- プロバイダーは、サポートされているブラウザーまたはTeams アプリを使用して、アクセスに参加できます。
 
-- プロバイダーは、初めてアクセスに参加するときに、Microsoft 365 アカウントで 1 回のサインインを行う必要があります。
+- プロバイダーは、初めてアクセスに参加するときに、Microsoft 365 アカウントで 1 回限りのサインインを行う必要があります。
 
-- 1 回サインインすると、プロバイダーは仮想マシンの仮想予定に直接Teams。 (プロバイダーは、Teams にサインインする必要があります)。
+- 1 回限りのサインイン後、プロバイダーはTeamsの仮想予定に直接移動します。 (プロバイダーはTeamsにサインインする必要があります)。
 
-- プロバイダーは、特定の予定の接続と切断の参加者のリアルタイムの更新を確認できます。 プロバイダーは、患者が訪問に接続されている時間を確認できます。
+- プロバイダーは、特定の予定の接続と切断を行う参加者のリアルタイムの更新を確認できます。 プロバイダーは、患者がいつ訪問に接続されているかを確認できます。
 
-  ![患者との訪問のプロバイダー エクスペリエンス。](media/ehc-provider-experience-6.png)
+  ![患者との訪問のプロバイダーエクスペリエンス。](media/ehc-provider-experience-6.png)
 
 > [!NOTE]
-> 医療記録の継続性または保持の目的で必要な会議チャットに入力された情報は、医療機関によってダウンロード、コピー、および記録される必要があります。 チャットは、法的医療記録や指定されたレコード セットを構成する必要があります。 チャットからのメッセージは、管理者が作成した設定に基づいてMicrosoft Teamsされます。
+> 医療記録の継続性または保有目的に必要な会議チャットに入力されたすべての情報は、医療提供者がダウンロード、コピー、および注意する必要があります。 チャットは、法的な医療記録や指定されたレコード セットを構成しません。 チャットからのメッセージは、Microsoft Teams管理者によって作成された設定に基づいて保存されます。
 
 ### <a name="patient-experience"></a>患者エクスペリエンス
 
-コネクタは、MyChart Web とモバイルを介した患者の参加訪問をサポートします。 予約の時点で、患者は [仮想訪問の開始] ボタンを使用して MyChart から **訪問を開始** できます。
+このコネクタは、MyChart Web とモバイルを介して訪問に参加する患者をサポートします。 予約の時点で、患者は **[仮想訪問の開始]** ボタンを使用して MyChart からの訪問を開始できます。
 
 患者エクスペリエンスの主な機能:
 
-- 患者は、デスクトップとモバイルの最新の Web ブラウザーからアクセスに参加できます。このアプリをインストール[Teamsできます](../mobile-browser-join.md)。
+- 患者は、[Teams アプリをインストールしなくても、デスクトップとモバイル上の最新の Web ブラウザー](../browser-join.md)からの訪問に参加できます。
 
-- 患者は 1 回のクリックで訪問に参加できます。他のアカウントやサインインは必要ありません。
+- 患者はワンクリックで訪問に参加でき、他のアカウントやサインインは必要ありません。
 
 - 患者は、Microsoft アカウントを作成したり、アクセスを開始するためにサインインしたりする必要はありません。
 
-- 患者は、プロバイダーが参加して受け入れるまでロビーに配置されます。
+- 患者は、プロバイダーが参加して入院するまでロビーに配置されます。
 
 - 患者は、訪問に参加する前にロビーでビデオとマイクをテストできます。
 
@@ -259,20 +259,20 @@ EHR コネクタの手順とエピック構成を完了すると、組織はビ�
 
 ## <a name="get-insight-into-virtual-visits-usage"></a>Virtual Visits の使用状況に関する分析情報を取得する
 
-Microsoft Teams 管理センターの [Virtual [Visits](../../teams-analytics-and-reports/virtual-visits-usage-report.md) usage](仮想アクセスの使用状況)レポートでは、組織内の仮想アクセスTeamsアクティビティの概要が管理者に表示されます。 このレポートには、EHR システムから実施された EHR 統合Teamsを含む、仮想予定の詳細な分析が表示されます。
+Microsoft Teams管理センターの [Virtual Visits 使用状況レポート](../../teams-analytics-and-reports/virtual-visits-usage-report.md)では、管理者に組織内のTeams Virtual Visits アクティビティの概要が表示されます。 レポートには、EHR システムから実施された EHR 統合会議Teams含む、仮想予定の詳細な分析が表示されます。
 
-ロビーの待機時間やアクセス時間などの主要なメトリックを表示できます。 この情報を使用して使用状況の傾向を把握し、より良いビジネス成果を実現するために Virtual Visits を最適化するのに役立ちます。
+ロビーの待機時間やアクセス時間などの主要なメトリックを表示できます。 この情報を使用して、使用傾向の分析情報を取得し、Virtual Visits を最適化してビジネス成果を向上させるのに役立ちます。
 
 ### <a name="privacy-and-location-of-data"></a>データのプライバシーと場所
 
-Teams統合すると、統合フローと Virtual Visits フロー中に使用および格納されるデータの量が最適化されます。 このソリューションは、Teams のプライバシーとデータ管理の原則、および Teams のプライバシーで概説されているガイドラインに従います。
+EHR システムへの統合Teams、統合および Virtual Visits フロー中に使用および格納されるデータの量を最適化します。 このソリューションは、Teams のプライバシーとデータ管理の原則、および Teams のプライバシーで概説されているガイドラインに従います。
 
-EHR Teams、EHR システムから特定可能な個人データや患者または医療プロバイダーの健康記録を保存または転送する必要があります。 EHR コネクタによって保存される唯一のデータは、EHR ユーザーの一意の ID であり、Teams 会議のセットアップ中に使用されます。
+Teams EHR コネクタは、EHR システムから識別可能な個人データや患者または医療提供者の健康記録を保存または転送しません。 EHR コネクタによって保存される唯一のデータは、EHR ユーザーの一意の ID であり、Teams 会議のセットアップ中に使用されます。
 
-EHR ユーザーの一意の ID は、「[Microsoft 365 の顧客データの保存場所](/microsoft-365/enterprise/o365-data-locations)」で説明されている 3 つの地理的地域のいずれかに保存されます。 会議の参加者が共有するチャット、録音、その他Teamsデータは、既存のストレージ ポリシーに従って保存されます。 データ内のデータの場所の詳細については、「Teamsのデータの場所[」をTeams](../../location-of-data-in-teams.md)。
+EHR ユーザーの一意の ID は、「[Microsoft 365 の顧客データの保存場所](/microsoft-365/enterprise/o365-data-locations)」で説明されている 3 つの地理的地域のいずれかに保存されます。 会議の参加者がTeamsで共有するすべてのチャット、レコーディング、その他のデータは、既存のストレージ ポリシーに従って保存されます。 Teams内のデータの場所の詳細については、「[Teamsのデータの場所」を](../../location-of-data-in-teams.md)参照してください。
 
 ## <a name="related-articles"></a>関連記事
 
-- [Teams Virtual Visits 利用状況レポート](../../teams-analytics-and-reports/virtual-visits-usage-report.md)
-- [Teams EHR コネクタ管理者レポート](ehr-admin-reports.md)
-- [医療組織向Teamsの使用を開始する](teams-in-hc.md)
+- [Teams Virtual Visits の使用状況レポート](../../teams-analytics-and-reports/virtual-visits-usage-report.md)
+- [EHR コネクタ管理者レポートのTeams](ehr-admin-reports.md)
+- [医療機関向けのTeamsとの概要](teams-in-hc.md)
