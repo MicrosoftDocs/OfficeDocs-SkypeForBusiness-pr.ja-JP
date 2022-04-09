@@ -1,9 +1,8 @@
 ---
-title: Microsoft Teams の範囲指定ディレクトリ検索を使用する
-author: SerdarSoysal
-ms.author: serdars
+title: Teamsでディレクトリを検索するときにユーザーが表示できるユーザーを制限する
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
-ms.date: 06/21/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -12,52 +11,42 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: スコープを指定したディレクトリMicrosoft Teamsを使用して、ディレクトリのカスタマイズされたビューを提供する方法について学習します。
+description: Teamsでディレクトリを検索するときに表示できるユーザーを制限する方法について説明します。
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 108a5895bf568207246ec6b1d7711e13e6c87069
-ms.sourcegitcommit: 5c88a07f07f9faad294d614d507e43173efc5f46
+ms.openlocfilehash: 8b073cdd67d89de7d934990abc33cb0586d0fc76
+ms.sourcegitcommit: 5fe5516f6118ce3fa0449ab194a6fe87bf48c664
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "61111987"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "64732225"
 ---
-# <a name="use-microsoft-teams-scoped-directory-search"></a>Microsoft Teams の範囲指定ディレクトリ検索を使用する
+# <a name="limit-who-users-can-see-when-searching-the-directory-in-teams"></a>Teamsでディレクトリを検索するときにユーザーが表示できるユーザーを制限する
 
-Microsoft Teamsを使用すると、組織は、ユーザーが組織内の他のユーザーを見つけて通信する方法を制御する仮想境界を作成できます。 
+Microsoft Teamsでは、組織はディレクトリのカスタム ビューをユーザーに提供できます。 これらのビューは、次の場合に役立ちます。
 
-Microsoft Teamsを使用すると、組織はディレクトリのカスタム ビューをユーザーに提供できます。 Microsoft Teams、Information [Barrier ポリシーを使用して、](/microsoft-365/compliance/information-barriers)これらのカスタム ビューをサポートします。 ポリシーが有効になると、他のユーザーの検索によって返される結果 (チャットの開始やチームへのメンバーの追加など) は、構成されたポリシーに従って範囲が設定されます。 スコープ検索が有効な場合、ユーザーはチームを検索または検出できますが、アクティブな Information Barrier ポリシーで許可されている通り、それらのチームの既存のメンバーはユーザーを追加できます。
+- 所属する組織において、テナント内に複数の会社があり、それらを切り離された状態で維持する場合。
+- ビジネス ポリシーでは、組織内の特定のグループが相互に通信できないようにする必要があります。
+- 所属する学校において、教職員と学生との間のチャットを制限する必要がある場合。
 
-> [!NOTE]
-> ハイブリッドExchangeでは、この機能はオンプレミスのメールボックスではなく、Exchange Online メールボックスでのみ機能します。
+Teamsでディレクトリを検索するときにユーザーが表示できるユーザーを制限するには、次の 2 つのオプションがあります。
 
-「アドレス帳[ポリシー」も参照Exchange Online。](/exchange/address-books/address-book-policies/address-book-policies)
+- [Microsoft Teamsの情報バリア](/MicrosoftTeams/information-barriers-in-teams)
+- [Exchange Onlineのアドレス帳ポリシー](/exchange/address-books/address-book-policies/address-book-policies)
 
-## <a name="when-should-you-use-scoped-directory-searches"></a>スコープ指定されたディレクトリ検索を使用する必要が生じ
+どちらのオプションを使用する場合も、Teams管理センターで名前による検索を有効にする必要があります。
 
-範囲指定されたディレクトリ検索のメリットを得るシナリオは、アドレス帳ポリシーのシナリオと似ています。 たとえば、次のような状況で、範囲指定されたディレクトリ検索を使用できます。
+組織が [必要なライセンスとアクセス許可](/microsoft-365/compliance/information-barriers#required-licenses-and-permissions)を満たしている場合は、情報バリアを使用することをお勧めします。
 
-- 所属する組織において、テナント内に複数の会社があり、それらを切り離された状態で維持する場合。 
-- 所属する学校において、教職員と学生との間のチャットを制限する必要がある場合。 
- 
-アドレス帳ポリシーを使用する方法については、次の記事の[「Information Barrier policies (情報バリア ポリシー)」をExchange Online。](/microsoft-365/compliance/information-barriers)
+名前で検索を有効にするには
 
-> [!IMPORTANT]
-> アドレス帳ポリシーは、ディレクトリの観点からのユーザーの仮想的な分離のみを提供します。 また、新しいアドレス帳ポリシーまたは更新されたアドレス帳ポリシーを適用する前に、既にキャッシュされているユーザー データは、最大 30 日間ユーザーが使用できる状態が維持されます。
+1. Microsoft Teams管理センターで、**Teams** >  **Teams設定** を選択します。
 
-## <a name="turn-on-scoped-directory-search"></a>スコープを指定したディレクトリ検索を有効にする
+1. [**名前による検索**] で、[**Exchange アドレス帳ポリシーを使用したスコープ ディレクトリ検索**] の横にあるトグル **[オン]** をオンにします。
 
-1. Information Barrier ポリシーを使用して、組織を仮想サブグループに構成します。 詳細については、「情報バリア ポリシー [の定義」を参照してください](/microsoft-365/compliance/information-barriers-policies)。
-
-2. 管理センター Microsoft Teamsで、[設定]   >  **Teams Teams選択します**。
-
-3. [**名前で検索]** で、[アドレス帳ポリシーを使用して Teams **の** ディレクトリ検索Exchangeの横にある をオン **にします。**
-
-    ![管理センターでのスコープMicrosoft Teams検索。](media/teams-scoped-directory-search-image1.png)
-
-> [!IMPORTANT]
-> この変更は、レプリケートに数時間かかる場合があります。
+> [!Note]
+> この変更が有効になるには数時間かかる場合があります。

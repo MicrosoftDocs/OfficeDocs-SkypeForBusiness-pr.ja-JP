@@ -1563,8 +1563,8 @@ items:
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: Bookings アプリを管理する
                 href: bookings-app-admin.md
-              - name: モバイル ブラウザーでの参加エクスペリエンスを管理する
-                href: expand-teams-across-your-org/mobile-browser-join.md
+              - name: ブラウザーでの参加エクスペリエンスを管理する
+                href: expand-teams-across-your-org/browser-join.md
               - name: 仮想訪問の使用状況レポート
                 href: teams-analytics-and-reports/virtual-visits-usage-report.md
           - name: Teams の Shifts
@@ -1693,8 +1693,8 @@ items:
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: 仮想訪問の使用状況レポート
                 href: teams-analytics-and-reports/virtual-visits-usage-report.md
-              - name: モバイル ブラウザーでの参加エクスペリエンスを管理する
-                href: expand-teams-across-your-org/mobile-browser-join.md
+              - name: ブラウザーでの参加エクスペリエンスを管理する
+                href: expand-teams-across-your-org/browser-join.md
           - name: ポリシー パッケージの表示と割り当て
             href: policy-packages-healthcare.md
           - name: セキュリティで保護されたメッセージング
