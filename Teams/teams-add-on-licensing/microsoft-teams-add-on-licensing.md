@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Microsoft Teamsのアドオン ライセンスと、各ライセンスで取得する機能について説明します。
-ms.openlocfilehash: 785ae1495e3a210883f489528ac401ad9442b526
-ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
+ms.openlocfilehash: 000678a0b41e660371de295ae40d2c6359774efe
+ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "64686384"
+ms.lasthandoff: 04/11/2022
+ms.locfileid: "64756953"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>アドオン ライセンスをMicrosoft Teamsする
 
@@ -50,12 +50,6 @@ Teams サブスクリプションに追加できるTeamsアドオン ライセ�
 ## <a name="which-microsoft-capabilities-are-available-with-my-plan"></a>プランで使用できる Microsoft の機能はどれですか?
 
 すべてのMicrosoft 365プランでは、Teams ユーザーが VoIP テクノロジを使用して組織内でピアツーピア通話を行うことができます。 ただし、PSTN 番号の呼び出しや PBX の設定などの機能について、さまざまなライセンスを追加することもできます。
-
-### <a name="audio-conferencing"></a>電話会議
-
-**電話会議ライセンスは**、すべてのMicrosoft 365サブスクリプションに無料で追加できます。
-
-Microsoft 365 E5/A5/G5 プランには電話会議ライセンスが含まれているため、これらのプランで追加の電話会議ライセンスを購入する必要はありません。
 
 ### <a name="voice-and-pstn-connectivity"></a>音声接続と PSTN 接続
 
