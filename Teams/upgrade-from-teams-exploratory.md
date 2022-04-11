@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d4816f3f05c37fe1a690ffea7f48789c41fd2603
-ms.sourcegitcommit: 949fbc3215f96e48c01b75b13c400bdb47c37e4b
+ms.openlocfilehash: 95dd3f01d07a2e393414013ab40ca97ec1a63bb6
+ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "61216673"
+ms.lasthandoff: 04/11/2022
+ms.locfileid: "64756973"
 ---
 # <a name="upgrade-users-from-the-teams-exploratory-trial"></a>Teams Exploratory 試用版からユーザーをアップグレードする
 
@@ -37,7 +37,7 @@ ms.locfileid: "61216673"
 
 ## <a name="step-1-when-to-upgrade"></a>ステップ 1: アップグレードするタイミング  
 
-組織の Teams Exploratory 試用版の有効期限が切れる時期と、アクティブユーザーの数を確認するには、Microsoft 365 管理センターの **[請求] >** <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank"><b> [お使いの製品]</b></a> に移動します。 Teams Exploratory の試用版の有効期限が切れる前にも通知されます。
+組織の Teams Exploratory 試用版が期限切れになる時期とアクティブなユーザーの数を確認するには、 Microsoft 365 管理センターで **［請求］ >** <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank"><b>［お使いの製品］</b></a> に移動します。また、Teams Exploratory 試用版の有効期限が切れる前にも通知が送信されます。
 
 > [!IMPORTANT]
 > ユーザーが Teams にアクセスできなくなることがないように、有効期限が切れる前にユーザーを有料ライセンスにアップグレードする計画を立てる必要があります。
@@ -45,6 +45,9 @@ ms.locfileid: "61216673"
 > ユーザーは、試用期間の満了日から 30 日後に Teams にアクセスできなくなります。 有効期限から 60 日以内にユーザーに有料ライセンスが割り当てられている限り、ユーザーは Teams へのアクセスを回復でき、すべてのコンテンツが引き続き存在します。 ただし、60 日後、ユーザーのデータは削除されます。 Teams の機能を有効にするために新しいライセンスがユーザーに割り当てられた後、猶予期間内にユーザーが追加された場合、すべてのコンテンツが残ります。 詳細については、「<a href="/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires?view=o365-worldwide" target="_blank">サブスクリプションが終了したとき、データとアクセスはどうなりますか?</a>」を参照してください。
 
 ## <a name="step-2-choose-an-upgrade-path"></a>ステップ 2: アップグレード パスを選択する
+
+> [!TIP]
+> 期限切れの Teams Exploratory 試用版をアップグレードする場合は、Teams Essentials を主要なオプションとしてお勧めします。 詳細については、「[Microsoft Teams Essentials と他のプランを比較する](get-started-with-teams-essentials.md#how-does-microsoft-teams-essentials-compare-to-other-microsoft-teams-plans)」 を参照してください。
 
 組織が現在持っているサブスクリプションに応じて、Microsoft Teams Exploratory 試用版から有料ライセンスにアップグレードする方法は 3 つあります。
 
@@ -67,7 +70,7 @@ ms.locfileid: "61216673"
 
 ### <a name="auto-claim-policies"></a>自動要求ポリシー
 
-次回アップグレードするときは、自動請求ポリシーを使用して組織のポリシーを作成し、有料サブスクリプションから Teams ライセンスを取得していない新しいユーザーにライセンスを自動的に割り当てます。 詳細については、「<a href="/microsoft-365/commerce/licenses/manage-auto-claim-policies?view=o365-worldwide" target="_blank">自動請求ポリシーを管理する</a>」を参照してください。
+次回アップグレードするときは、自動請求ポリシーを使用して組織のポリシーを作成し、有料サブスクリプションから Teams ライセンスを取得していない新しいユーザーにライセンスを自動的に割り当てます。詳しくは、「<a href="/microsoft-365/commerce/licenses/manage-auto-claim-policies?view=o365-worldwide" target="_blank">自動請求のポリシーを管理する</a>」 を参照してください。
 
 ## <a name="related-topics"></a>関連トピック
 

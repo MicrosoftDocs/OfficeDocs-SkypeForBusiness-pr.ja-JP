@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97af2abe8542a885f8a0056ed90f2a61330ba8a0
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 4bd98159e9e209cba855e1a0f2d0ee853b3ba889
+ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711931"
+ms.lasthandoff: 04/11/2022
+ms.locfileid: "64756893"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams でのチームとチャネルの概要
 
@@ -95,7 +95,10 @@ Microsoft 365 での Teams 管理者である場合は、Teams 管理センタ�
 |チャネルは、他のチームと直接共有できます。|いいえ|いいえ|はい|
 |チャネルは、その親チームと直接共有できます。|該当なし|いいえ|はい|
 |ゲストはチャネルに参加できます。|はい|はい|いいえ|
-|外部参加者 (B2B Direct Connect) は、チャネルに参加できます。|いいえ|いいえ|はい|
+|外部参加者 (B2B Direct Connect) は、チャネルに参加できます。|いいえ|いいえ|Yes|
+|モデレート|はい|いいえ|いいえ|
+|ブレークアウト ルーム|Yes|いいえ|いいえ|
+|チャネルへのリンクをコピー|はい|いいえ|いいえ|
 |各チャネルには専用の SharePoint サイトがあります。|いいえ|はい|はい|
 |予約された会議|はい|いいえ|はい|
 |プランナー|はい|いいえ|いいえ|
