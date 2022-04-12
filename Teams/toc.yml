@@ -1401,8 +1401,12 @@ items:
             href: rooms/multi-tenant-management-customer.md
           - name: Rooms アクティビティ向け監査ログ
             href: rooms/multi-tenant-auditing.md
+          - name: 正常性レポートと使用状況レポート
+            href: rooms/health-and-usage-reports.md
           - name: スタンダードとルーム プランナー
             href: rooms/standards-and-room-planner.md
+          - name: 顧客から報告されたインシデント
+            href: rooms/customer-reported-incidents.md
       - name: デバイス
         items:
           - name: Teams デバイス ストア
@@ -1499,8 +1503,8 @@ items:
             href: overview-third-party-apps.md
           - name: Microsoft によるアプリの検証を理解する
             href: overview-of-app-validation.md
-          - name: サード パーティ製アプリのセキュリティ、コンプライアンス、プライバシー、およびデータ処理
-            href: /microsoft-365-app-certification/overview
+          - name: アプリのセキュリティ、法令遵守、プライバシー
+            href: overview-of-app-certification.md
           - name: Microsoft 365 または Office 365 とカスタム コネクタを使用する
             href: Office-365-custom-connectors.md
           - name: Teams 用のサードパーティ製アプリを購入する
