@@ -1503,7 +1503,7 @@ items:
             href: overview-third-party-apps.md
           - name: Microsoft によるアプリの検証を理解する
             href: overview-of-app-validation.md
-          - name: アプリのセキュリティ、法令遵守、プライバシー
+          - name: サードパーティアプリのセキュリティ、コンプライアンス、プライバシー
             href: overview-of-app-certification.md
           - name: Microsoft 365 または Office 365 とカスタム コネクタを使用する
             href: Office-365-custom-connectors.md
