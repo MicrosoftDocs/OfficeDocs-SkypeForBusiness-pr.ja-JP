@@ -18,16 +18,16 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 59caf72dbc29c6cc97789a7dc85f8bd7b035274e
-ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
+ms.openlocfilehash: abb025b43e63ae68b82f49bec06a3fc7533e6f0c
+ms.sourcegitcommit: a31c02892e35babbbcf5e7c303c7f14d7ba5cb52
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64757157"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64784761"
 ---
-# <a name="microsoft-365-app-compliance-program"></a>Microsoft 365 アプリ コンプライアンス プログラム
+# <a name="microsoft-365-app-compliance-program-for-security-compliance-and-privacy-of-third-party-apps"></a>サード パーティ製アプリのセキュリティ用 Microsoft 365 アプリ コンプライアンス プログラム、コンプライアンス、プライバシー
 
-Microsoft コンプライアンス プログラムは、主要な業界標準フレームワークから派生した一連の制御に対してアプリが審査され、顧客データを保護するために強力なセキュリティとコンプライアンス プラクティスが実施されていることを示しています。 このプログラムには、次の 2 つのフェーズがあります。
+Microsoft コンプライアンス プログラムは、主要な業界標準フレームワークから派生した一連の制御に対してアプリが審査され、顧客データを保護するために強力なセキュリティとコンプライアンス プラクティスが実施されていることを示しています。 プログラムには、次の 2 つのフェーズがあります。
 
 * 発行元による構成証明。
 * Microsoft 365 認定。
@@ -36,11 +36,11 @@ Microsoft コンプライアンス プログラムは、主要な業界標準フ
 
 発行元による構成証明は、アプリ コンプライアンス プログラムの次の層です。 発行元によって構成証明されたアプリは、アプリのセキュリティとコンプライアンスの対策に対する管理者の信頼を高め、アプリのこれらの点を確認するのにかかる時間を短縮します。 構成証明には、[Microsoft Cloud App Security](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/cloud-app-security) によって識別された 80 を超えるリスク要因に対するアプリのセキュリティ、データ処理、コンプライアンス プラクティスが反映されます。
 
-アプリ開発者は、アプリのセキュリティとコンプライアンスを評価するために顧客と IT 管理者からよく寄せられる質問を含む自己評価を完了するように求められます。 その後、より簡単でタイムリーな評価のため、Microsoft はこの情報を公開します。 詳細については、[構成証明ガイド](/microsoft-365-app-certification/docs/enterprise-app-attestation-guide)を参照してください。
+アプリ開発者は、アプリのセキュリティとコンプライアンスを評価するために顧客と IT 管理者からよく寄せられる質問を含む自己評価を完了するように求められます。 その後、より簡単でタイムリーな評価のため、Microsoft はこの情報を公開します。 詳細については、「[構成証明ガイド](/microsoft-365-app-certification/docs/enterprise-app-attestation-guide)」を参照してください。
 
 管理者は、3 つの方法で、発行元によって構成証明されたアプリをすばやく確認できます。
 
-* Web で、アプリに関する詳細情報を収集する場合、[Microsoft Teams アプリのセキュリティとコンプライアンス](/microsoft-365-app-certification/teams/teams-apps)で、特定のアプリのリンクで詳細を確認します。 または、Teams 管理センターで発行元による構成証明リンクをクリックします。
+* Web で、アプリに関する詳細情報を収集する場合、「[Microsoft Teams アプリのセキュリティとコンプライアンス](/microsoft-365-app-certification/teams/teams-apps)」で、特定のアプリのリンクで詳細を確認します。 または、Teams 管理センターで発行元による構成証明リンクをクリックします。
 
   :::image type="content" source="media/attested-app-tac3.png" alt-text="Teams 管理センターで、発行元による構成証明リンクをクリックして、アプリの構成証明の詳細を表示します":::
 
