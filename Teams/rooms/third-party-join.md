@@ -13,14 +13,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: この記事では、Cisco WebEx と Zoom へのサード パーティ会議への参加をサポートするように組織とTeams Rooms デバイスを構成する方法について説明します。
-ms.openlocfilehash: 04be17003e39890ba74d6c7c4fc2393ba809f5c6
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: 6defa9c9287b130eb5534f0aea158a78f2de8b18
+ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817668"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64846606"
 ---
 # <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>会議室デバイスTeamsサード パーティの会議に参加できるようにする
+
+> [!NOTE]
+> この機能は現在、WindowsのTeams Roomsでのみ使用できます。
 
 Microsoft Teams Rooms デバイスは、ダイレクト ゲスト参加とも呼ばれるサード パーティのオンライン会議に参加するためのワンタッチ エクスペリエンスをサポートします。 有効にすると、Teams Roomsを使用して、Microsoft Teamsでホストされている会議に参加できるのと同じくらい簡単に Cisco WebEx とズームでホストされている会議に参加できます。
 

@@ -19,10 +19,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 37c899c1507a28f51bb881a9e7e66de6d7af0d58
-ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
+ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/05/2022
+ms.lasthandoff: 04/14/2022
 ms.locfileid: "64643071"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 承認アプリの利用の可否
@@ -36,7 +36,7 @@ Microsoft Teams ユーザーは、個人用アプリとして承認アプリを�
 
  ![PIN オプションを使用する承認アプリを表示する。](media/approvalApp-pin.png)
 
-アプリから最初に作成承認、既定の Microsoft Dataverse 環境での承認ソリューションのプロビジョニングがトリガーされます。 承認アプリから作成承認は、既定の Microsoft Dataverse 環境に格納されます。
+承認 アプリから作成された最初の承認により、既定の Microsoft Dataverse 環境で承認ソリューションのプロビジョニングがトリガーされます。 承認 アプリから作成された承認は、既定の Microsoft Dataverse 環境に格納されます。
 
 この記事では、承認アプリの要件と役割について説明します。
 
@@ -49,7 +49,7 @@ Microsoft Teams ユーザーは、個人用アプリとして承認アプリを�
 
 - Microsoft Dataverse データベースを作成するためのアクセス許可。
 
-- アカウントの [powerautomate.microsoft.com](https://powerautomate.microsoft.com/)
+- [powerautomate.microsoft.com](https://powerautomate.microsoft.com/) のアカウント
 
 - ターゲット環境における管理者の役割。
 
@@ -59,13 +59,13 @@ Microsoft Teams ユーザーは、個人用アプリとして承認アプリを�
 
 承認アプリを使用するには、Power Automate のライセンスが必要です。最初の承認割り当てで、ターゲット環境に [承認ユーザー] ロールにアカウントが自動的に追加されます。
 
-## <a name="storage-with-microsoft-dataverse"></a>Storage Microsoft Dataverse の使用
+## <a name="storage-with-microsoft-dataverse"></a>Microsoft Dataverse でのStorage
 
-共通データ モデル (CDM) は、Microsoft Dataverse のビジネス アプリケーションおよび分析アプリケーションで使用される共有データ言語です。 これは、Microsoft とそのパートナーによって公開された、一連の標準化された拡張可能なデータ スキーマで構成されており、アプリケーションとビジネス プロセス全体でデータとその意味の一貫性を実現します。 [Microsoft Power Platform の共通データ モデル](/power-automate/get-started-approvals)の詳細については、以下をご覧ください。
+Common Data Model (CDM) は、Microsoft Dataverse のビジネス および分析アプリケーションで使用される共有データ言語です。 これは、Microsoft とそのパートナーによって公開された、一連の標準化された拡張可能なデータ スキーマで構成されており、アプリケーションとビジネス プロセス全体でデータとその意味の一貫性を実現します。 [Microsoft Power Platform の共通データ モデル](/power-automate/get-started-approvals)の詳細については、以下をご覧ください。
 
 [承認ワークフロー](/power-automate/modern-approvals)の詳細。
 
-承認から作成されたデータは、タイトル、詳細、テンプレート ID など、Microsoft Dataverse に保存されます。 承認要求で送信される応答は Forms に保存されます。  [Microsoft Forms のデータの保存場所](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe)の詳細。
+テンプレートから作成された承認は、タイトル、詳細、テンプレート ID など、Microsoft Dataverse にデータを格納します。 承認要求で送信される応答は Forms に保存されます。  [Microsoft Forms のデータの保存場所](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe)の詳細。
 
 >[!Note]
 >Microsoft Forms サイトで Forms テンプレートを削除すると、承認テンプレートが破損し、ユーザーは要求を開始できなくなります。 ユーザーが Microsoft Forms で削除された承認テンプレートを開こうとすると、"CDB TableNotFound" というエラーが表示されます。
@@ -126,13 +126,13 @@ Teams アプリの承認では、次の機能にアクセスできます。
 
 ### <a name="retention-policy"></a>アイテム保持ポリシー
 
-承認アプリから承認は既定の Microsoft Dataverse 環境に格納されます。現時点ではバックアップはサポートされていません。 詳細については、「[環境のバックアップと復元の方法Power Platform \|Microsoft Docs](/power-platform/admin/backup-restore-environments)」をご覧ください。
+承認 アプリから作成された承認は、現時点ではバックアップをサポートしていない既定の Microsoft Dataverse 環境に格納されます。 詳細については、「[環境のバックアップと復元の方法Power Platform \|Microsoft Docs](/power-platform/admin/backup-restore-environments)」をご覧ください。
 
 Forms に保存されているデータは、チーム所有者が Microsoft Forms Web アプリの **[削除されたフォーム]** タブからクリーンアップするまで削除されません。
 
 ### <a name="conditional-access-policies"></a>条件付きアクセス ポリシー
 
-現在、承認 アプリではTeamsに設定されている条件付きアクセス ポリシーはサポートMicrosoft Teams。
+現在、Teamsの承認 アプリでは、Microsoft Teamsに設定された条件付きアクセス ポリシーはサポートされていません。
 
 ## <a name="data-limitations"></a>データの制限事項
 
@@ -182,7 +182,7 @@ Microsoft Forms の現在の機能に基づいて、各チームには最大 400
 
 - テンプレートを表示する
 
-Power Automate 内で他の監査承認にアクセスするには、プライマリ承認エンティティの承認、承認要求、承認応答の既定の環境で監査を有効にして構成します。 作成、更新、および削除の操作は、承認レコードにて監査可能なイベントです。 詳細については、「[セキュリティとコンプライアンスのための監査データとユーザー アクティビティ - Power Platform \|Microsoft Docs](/power-platform/admin/audit-data-user-activity)」をご覧ください。
+Power Automate内でより多くの監査承認にアクセスするには、プライマリ承認エンティティの承認、承認要求、承認応答の既定の環境で監査を有効にして構成します。 作成、更新、および削除の操作は、承認レコードにて監査可能なイベントです。 詳細については、「[セキュリティとコンプライアンスのための監査データとユーザー アクティビティ - Power Platform \|Microsoft Docs](/power-platform/admin/audit-data-user-activity)」をご覧ください。
 
 監査は、「[Microsoft 365 セキュリティとコンプライアンス センター](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US)」にてさらにカスタマイズできます。
 

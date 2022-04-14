@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: 組織をアップグレードして、Microsoft Teams Online 展開Skype for Business説明します。
+description: Skype for Business Online 展開から組織をMicrosoft Teamsにアップグレードする方法について説明します。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 699f360b8bafb023ad1a477d125d3fc2794e0f67
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: 49376910ce9ca0f777533e950600a19bd440c27f
+ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61563574"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64846556"
 ---
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>Skype for Business Online から Teams にアップグレードする
 
-![デプロイと実装を強調したアップグレード体験図。](media/upgrade-banner-deployment.png "「展開と実装」段階が強調表示された、アップグレード行程の各段階")
+![デプロイと実装を重視したアップグレード体験図。](media/upgrade-banner-deployment.png "「展開と実装」段階が強調表示された、アップグレード行程の各段階")
 
 この記事は、お客様のアップグレード手順における展開と実装の段階の一部を取り上げています。 先に進む前に、次のアクティビティを完了していることを確認してください。
 
@@ -41,72 +41,72 @@ ms.locfileid: "61563574"
 - [組織を準備した](./upgrade-prepare-organization.md)
 - [パイロットを実施した](./pilot-essentials.md)
 
-Skype for Business Online を完全にデプロイし、ユーザーを Skype for Business から Teams にアップグレードする場合は、この記事のガイダンスに従います。 適切な共存モードとアップグレード モードをユーザーに割り当てると、組織が選択したアップグレード体験に基づいて、ユーザーを選択的またはすべてアップグレードできます。
+Skype for Business Online を完全に展開し、ユーザーをSkype for BusinessからTeamsにアップグレードする場合は、この記事のガイダンスに従ってください。 適切な共存モードとアップグレード モードをユーザーに割り当てることで、組織が選択したアップグレード体験に基づいて、ユーザーを選択的またはオールインでアップグレードできます。
 
 > [!IMPORTANT]
-> Skype for Business Online は、2021 年 7 月 31 日に廃止されました。 移行によるメリットを最大限に高め、アップグレード実施のための時間を組織で十分確保できるよう、Microsoft Teams への移行をすぐに開始することをお勧めします。 アップグレードが成功すると、技術面およびユーザーの準備が整ったことになります。Microsoft Teams への移行を進める際には、必ずこのガイドを活用してください。
+> Skype for Business Online は 2021 年 7 月 31 日に廃止されました。 移行によるメリットを最大限に高め、アップグレード実施のための時間を組織で十分確保できるよう、Microsoft Teams への移行をすぐに開始することをお勧めします。 アップグレードが成功すると、技術面およびユーザーの準備が整ったことになります。Microsoft Teams への移行を進める際には、必ずこのガイドを活用してください。
 
 ## <a name="assign-the-coexistence-and-upgrade-mode"></a>共存モードとアップグレード モードを割り当てる
 
-TeamsUpgradePolicy の UpgradeToTeams インスタンスを割り当てると、ユーザーを TeamsOnly モードにアップグレードできます。このインスタンスは、Microsoft Teams 管理センターまたは Skype for Business リモート Windows PowerShell セッションを使用して実行できます。 これを行うには、ユーザーごとに、またはテナント全体を 1 つの手順でアップグレードする場合は、テナント全体で行います。 
+TeamsUpgradePolicy の UpgradeToTeams インスタンスを割り当てることで、ユーザーを TeamsOnly モードにアップグレードできます。これは、Microsoft Teams管理センターまたはSkype for Businessリモート Windows PowerShell セッションを使用して実行できます。 これを行うには、ユーザーごとに行うか、テナント全体を 1 つの手順でアップグレードする場合はテナント全体で行うことができます。 
 
 詳細については、「[共存およびアップグレードを設定する](./setting-your-coexistence-and-upgrade-settings.md)」および「[TeamsUpgradePolicy: 移行と共存の管理](upgrade-to-teams-on-prem-tools.md)」を参照してください。
 
-## <a name="upgrade-all-users-to-teams-at-one-time"></a>すべてのユーザーを一度Teamsにアップグレードする
+## <a name="upgrade-all-users-to-teams-at-one-time"></a>すべてのユーザーを一度にTeamsにアップグレードする
 
-次の手順に従って、すべてのユーザーを一度にTeamsアップグレードします。
+すべてのユーザーを一度にTeamsにアップグレードするには、次の手順に従います。
 
 ### <a name="step-1-notify-the-users-of-the-change-optional"></a>手順 1: 変更をユーザーに通知する (省略可能)
 
-1. [Microsoft Teams 管理センターで、[組織全体の設定] を選択し **、[アップグレード**  >  **] Teamsします**。
-2. [**共存モード] で**、[Skype for Businessアップグレードが利用可能Teams通知する] スイッチを [オン] に **変更します**。 
+1. Microsoft Teams管理センターで、**Teams** >  **Teamsアップグレード設定** を選択します。
+2. **共存モード** で、[**Teamsへのアップグレードが利用可能であることをユーザーに通知Skype for Business]** スイッチを **[オン]** に変更します。
 
-### <a name="step-2-set-the-coexistence-mode-to-teamsonly-for-the-organization"></a>手順 2: 組織の共存モードを TeamsOnly に設定する
+### <a name="step-2-set-the-coexistence-mode-to-teamsonly-for-the-organization"></a>手順 2: 共存モードを組織の TeamsOnly に設定する
 
-1. 管理センター Microsoft Teams、組織全体の設定 **を選択します**。
-2. [Teams **モード]** ドロップダウン リストから **[モード** のみ] を選択します。
+1. Microsoft Teams管理センターで、**Teams** >  **Teamsアップグレード設定** を選択します。
+2. 共存モードドロップダウン リストから **Teamsのみ****モード** を選択します。
 
-## <a name="upgrade-users-in-stages"></a>ユーザーをステージにアップグレードする
+## <a name="upgrade-users-in-stages"></a>段階的にユーザーをアップグレードする
 
-ユーザーを TeamsOnly に段階的にアップグレードする場合は、次の手順に従います。
+TeamsOnly にユーザーを段階的にアップグレードする場合は、次の手順に従います。
 
-### <a name="step-1-identify-groups-of-users-for-upgrade"></a>手順 1: アップグレードするユーザーのグループを識別する
+### <a name="step-1-identify-groups-of-users-for-upgrade"></a>手順 1: アップグレードするユーザーのグループを特定する
 
-多くの場合、組織はユーザーの成功の波で組織をアップグレードすることができます。  これらのユーザーを最初に特定して、管理センターで簡単に検索Microsoft Teamsします。 または、PowerShell を使用して、より効率的に行う必要がある場合があります。 特定のアップグレード ウェーブの一連のユーザーを特定したら、残りの手順に進みます。
+多くの場合、組織は、ユーザーの成功の波で組織をアップグレードすることを選択できます。  最初にこれらのユーザーを識別し、Microsoft Teams管理センターで簡単に検索できるようにします。 または、PowerShell を使用してこれをより効率的に行うこともできます。 特定のアップグレードウェーブの一連のユーザーを特定したら、残りの手順に進みます。
 
-### <a name="step-2-set-notification-for-the-users-in-the-current-upgrade-wave-optional"></a>手順 2: 現在のアップグレード ウェーブのユーザーに通知を設定する (省略可能)
+### <a name="step-2-set-notification-for-the-users-in-the-current-upgrade-wave-optional"></a>手順 2: 現在のアップグレードウェーブのユーザーに通知を設定する (省略可能)
 
-管理センター Microsoft Teams場合は、最大 20 人のユーザーに対して一度に TeamsUpgradePolicy を構成できます。
-1. 管理センター Microsoft Teams[ユーザー] を選択し、アップグレードする必要がある最大 20 人のユーザーのチェック ボックスを見つけて複数選択します。 
-2. リスト **ビューの左上** 隅にある [設定の編集] を選択します。 
-3. 右側の **[設定の** 編集] ウィンドウの [アップグレード] で、[Teams **通知**] を [ユーザーに通知 **Skype for Business]** スイッチを [オン] に **変更します**。 注: 共存モードの値が "組織全体の設定を使用" の場合、このスイッチは表示されません。そのため、これらのユーザーの共存モードを組織の既定値に明示的に設定する必要があります。
+Microsoft Teams管理センターを使用している場合は、最大 20 人のユーザーに対して TeamsUpgradePolicy を一度に構成できます。
+1. Microsoft Teams管理センターで [**ユーザー**] を選択し、アップグレードする必要がある最大 20 人のユーザーのチェック ボックスを見つけて複数選択します。 
+2. リストビューの左上隅にある **[設定の編集]** を選択します。 
+3. 右側の **[設定の編集]** ウィンドウの [**Teamsのアップグレード**] で、[**Skype for Businessユーザーに通知]** スイッチを **[オン]** に変更します。 注: 共存モードの値が "組織全体の設定を使用する" の場合、このスイッチは表示されないため、最初にこれらのユーザーの共存モードを組織の既定値に明示的に設定する必要があります。
 
-または、PowerShell を使用して一度にユーザー のグループに対する通知を有効にする方が簡単な場合があります。 
+または、PowerShell を使用してユーザーのグループの通知を一度に有効にする方が簡単な場合があります。 
 
-### <a name="step-3-set-the-coexistence-mode-for-users-to-teams-only"></a>手順 3: ユーザーの共存モードを [共有のみ] Teamsする
+### <a name="step-3-set-the-coexistence-mode-for-users-to-teams-only"></a>手順 3: ユーザーの共存モードを [Teamsのみ] に設定する
 
-現在のウェーブのユーザーをアップグレードして、Teams を唯一のアプリケーションとして使用する準備ができたら、ユーザーの共存モードを [Teams] に設定します。
+現在のウェーブのユーザーをアップグレードしてTeamsを唯一のアプリケーションとして使用する準備ができたら、ユーザーの共存モードを [Teams のみ] に設定します。
 
-管理センター Microsoft Teams場合は、最大 20 人のユーザーに対して一度に TeamsUpgradePolicy を構成できます。
-1. 管理センター Microsoft Teams、[ユーザー]**を選択** し、最大 20 人のユーザーのチェック ボックスをオンにします。
-2. リスト **ビューの左上** 隅にある [設定の編集] を選択します。
-3. 右側の **[** 設定の編集] ウィンドウの [Teams **アップグレード**] セクションで、共存モードをドロップダウン リストの [Teams **のみ**] に設定します。
+Microsoft Teams管理センターを使用している場合は、最大 20 人のユーザーに対して TeamsUpgradePolicy を一度に構成できます。
+1. Microsoft Teams管理センターで [**ユーザー**] を選択し、最大 20 人のユーザーのチェック ボックスをオンにします。
+2. リストビューの左上隅にある **[設定の編集]** を選択します。
+3. 右側の [**設定の編集]** ウィンドウの [**Teamsアップグレード**] セクションで、共存モードをドロップダウン リストの **[Teamsのみ**] に設定します。
 
-または、PowerShell を使用してユーザーのグループを一度にアップグレードする方が簡単な場合があります。 
+または、PowerShell を使用してユーザーのグループを一度にアップグレードする方が簡単な場合もあります。 
 
 ### <a name="step-4-repeat-steps-1-3-for-successive-waves-of-users"></a>手順 4: 連続するユーザーのウェーブに対して手順 1 ~ 3 を繰り返す
 
-Teams モードへのアップグレードを検証し、展開する準備ができたら、前の手順を繰り返して TeamsOnly を他のユーザーに適用します。  
+Teamsのみモードへのアップグレードを検証し、展開する準備ができたら、前の手順を繰り返して TeamsOnly を他のユーザーに適用します。  
 
 
-## <a name="phone-system-and-pstn-connectivity-options"></a>電話システム PSTN 接続オプション
+## <a name="phone-system-and-pstn-connectivity-options"></a>電話システムと PSTN 接続オプション
 
-電話システムのTeamsは、ユーザーが TeamsOnly モードに入った後にサポートされます。 (ユーザーが Islands モードの場合、電話システムは Skype for Business でのみサポートされます)。  
+Teamsの電話システムは、ユーザーが TeamsOnly モードになった後でサポートされます。 (ユーザーがアイランド モードの場合、電話システムはSkype for Businessでのみサポートされます)。  
 
 ### <a name="pstn-connectivity-options"></a>PSTN 接続オプション
 
-公衆交換電話網 (PSTN) 接続オプションを検討する場合、Skype for Business Online から TeamsOnly モードに移行する場合、次の 2 つのシナリオが考えられます。
+公衆交換電話網 (PSTN) 接続オプションを検討する場合、Skype for Business Online モードから TeamsOnly モードに移行する場合は、次の 2 つのシナリオが考えられます。
 
-- Microsoft 通話プランを使用している Skype for Business Online のユーザー。 アップグレードすると、このユーザーは Microsoft 通話プランを引き続き使用します。 これは、いくつかの手順のみを必要とする最も簡単なシナリオです。 詳細については、「Microsoft 通話プラン[を使用Skype for Businessオンラインから」を参照してください](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-microsoft-calling-plans)。
+- Microsoft 通話プランを使用している Skype for Business Online のユーザー。 アップグレードすると、このユーザーは Microsoft 通話プランを引き続き使用します。 これは、いくつかの手順のみを必要とする最も簡単なシナリオです。 詳細については、「[Microsoft 通話プランを使用したオンラインSkype for Businessから」を参照](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-microsoft-calling-plans)してください。
 
-- Skype for Business Online のユーザー。オンプレミスまたは Cloud Connector Edition を介してSkype for Business音声機能を使用します。 このユーザーの Teams へのアップグレードは、その TeamsOnly ユーザーが確実に PSTN 機能を持てるようにするため、ユーザーのダイレクト ルーティングへの移行に合わせた調整が必要になります。  詳細については、「オンプレミスの音声[を使用した Skype for Business Online から」を参照してください](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice)。
+- Skype for Business Online のユーザー。オンプレミスまたは Cloud Connector Edition を通じてオンプレミスの音声機能Skype for Business使用します。 このユーザーの Teams へのアップグレードは、その TeamsOnly ユーザーが確実に PSTN 機能を持てるようにするため、ユーザーのダイレクト ルーティングへの移行に合わせた調整が必要になります。  詳細については、「[オンプレミスの音声を使用したオンラインSkype for Business](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice)から」を参照してください。
