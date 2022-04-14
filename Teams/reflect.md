@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 27a3ed1d46626cb5f46aa3279246953b1dbe9a23
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.openlocfilehash: 62aa82c42acf3ca4477da6da60b1faec6c847be1
+ms.sourcegitcommit: 0d61ca384e7d76612743de41c8fea4729072fb5e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62363123"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "64837450"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Microsoft Teams の Reflect への IT 管理者ガイド
 
@@ -31,14 +31,20 @@ ms.locfileid: "62363123"
 
 
 ## <a name="privacy-and-security"></a>プライバシーとセキュリティ
-Reflect は、Education Insights と同じプライバシーとセキュリティ標準に従って学生の機密情報を保護します。
+Reflect は、[Education Insights](class-insights.md) と同じプライバシーとセキュリティ標準に従って学生の機密情報を保護します。
 
-Reflect で収集、表示される情報は、学生、子供、その他同様のプライバシーに関する規定に対して、[GDPR](/compliance/regulatory/gdpr)、家庭教育の[権利とプライバシーに関する法律 (FERPA)](/compliance/regulatory/offering-ferpa) などを含む [90 以上の規制および業界標準](/compliance/regulatory/offering-home)を満たしています。
+Microsoft 365 の一部として、Reflect は、[GDPR](/compliance/regulatory/gdpr) や学生の教育記録のプライバシーを保護する[学生と子供のセキュリティに関する家族教育権およびプライバシー法 (FERPA)](/compliance/regulatory/offering-ferpa) など、データの収集と使用に関する国、地域、業界固有の規制を満たしています。
+
+データは教育機関に属し、Microsoft はデータを収集して保存するだけです。 Microsoft の担当者は、データ リカバリなど、サービスを維持するための監査された方法でコンプライアンスによって許可されている場合を除き、データにアクセスしたり、データを表示したりすることはできません。
 
 学生が他の学生の名前を閲覧することは *なく*、反応の内容のみが表示されます。 回答の分布を確認することはできますが、それぞれの反応に関連付けられている名前を表示することは *できません*。 
 
 > [!NOTE]
 > 学生による回答が 5 人に満たない場合には、学生にデータは表示されません。 これは、学生同士がお互いの回答を識別してしまう可能性を最小限にするための措置です。
+
+> [!TIP]
+> * [Microsoft トラストセンターの](https://www.microsoft.com/trust-center) にアクセスして、Microsoft でデータを保護している方法をご確認ください。
+> * [Microsoft コンプライアンス オファリング](/compliance/regulatory/offering-home) にアクセスして、Microsoft 365 がお客様の機関で規制コンプライアンス基準を満たすためにどのような役割を果たすかご確認ください。
 
 ## <a name="data-collection-and-storage"></a>データの収集と記憶域
 データは教育機関に属しており、Microsoft が行うのはデータの収集と保存のみです。 Microsoft の担当者は、データ リカバリなど、サービスを維持するための監査された方法でコンプライアンスによって許可されている場合を除き、データにアクセスしたり、データを表示したりすることはできません。
@@ -75,4 +81,4 @@ Reflect を有効にしたら教師はクラスに移動し、**[新しい会話
 > このリンクから Reflect アプリを見つけることもできます。[https://aka.ms/getReflect](https://aka.ms/getReflect)
 
 > [!TIP]
-> 詳細については、「[Reflect support page (Reflect のサポート ページ)](https://support.microsoft.com/topic/e9198f62-7860-4532-821f-53ef14afa79a)」を参照してください。 このページでは、教師と学生の両方にガイドラインを提供し、初めての Reflect チェックインを作成する方法について説明しています。
+> 詳細については、「[Reflect サポート ページ](https://support.microsoft.com/topic/e9198f62-7860-4532-821f-53ef14afa79a)」 を参照してください。このページでは、教師と学生の両方に関するガイドラインを提供し、最初のリフレクション チェックインを作成する方法について説明します。
