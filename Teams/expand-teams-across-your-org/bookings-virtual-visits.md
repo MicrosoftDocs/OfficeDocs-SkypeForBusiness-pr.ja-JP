@@ -1,5 +1,5 @@
 ---
-title: Microsoft TeamsとBookings アプリを使用した仮想アクセス
+title: Microsoft TeamsとBookings アプリを使用した仮想予定
 author: lanachin
 ms.author: v-lanachin
 manager: samanro
@@ -20,15 +20,15 @@ ms.collection:
 - m365solution-healthcare
 - m365solution-scenario
 ms.reviewer: ''
-description: TeamsでBookings アプリを使用して仮想訪問をスケジュール、管理、実行する方法について説明します。
-ms.openlocfilehash: 45062831826ae0dee558f9c3541390308fb348f9
-ms.sourcegitcommit: 1e8cff687b12348d4ecc538084ab57bbba23b523
+description: TeamsでBookings アプリを使用して仮想予定をスケジュール、管理、および実行する方法について説明します。
+ms.openlocfilehash: 3a69140bd0a02adb879cc0914d7e5c4703623907
+ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "64703703"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64853208"
 ---
-# <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Microsoft Teams と Bookings アプリを使用した仮想訪問
+# <a name="virtual-appointments-with-microsoft-teams-and-the-bookings-app"></a>Microsoft TeamsとBookings アプリを使用した仮想予定
 
 ## <a name="overview"></a>概要
 
@@ -40,15 +40,17 @@ Bookings アプリを使用すると、組織の複雑なスケジュール要�
 
 各仮想予定には、電子メールで出席者に送信されるTeams会議リンクが含まれています。このリンクは、Web ブラウザーから、または任意のデバイスのTeamsで簡単に参加できます。 自動メール リマインダーは、ノーショーを減らし、顧客とクライアントのエンゲージメントを強化するのに役立ちます。
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4TQop]
+
 Bookingsを使用すると、業界に合わせてカスタマイズされたエクスペリエンスが得られます。 組織内で使用する方法の例をいくつか次に示します。
 
 |業界 | 例 |
 |---------|---------|
-|金融サービス    |  リモート販売とサービスの仮想訪問<br/>銀行関係マネージャー、財務アドバイザー、クレーム調整者の予定をスケジュールし、管理します。たとえば、数名を指定するだけで、効率と利便性を高めて顧客にサービスを提供できます。  |
+|金融サービス    |  リモート販売とサービスの仮想予定<br/>銀行関係マネージャー、財務アドバイザー、クレーム調整者の予定をスケジュールし、管理します。たとえば、数名を指定するだけで、効率と利便性を高めて顧客にサービスを提供できます。  |
 |小売   | 仮想試着と相談 <br/>営業アソシエイト、製品エキスパート、および設計コンサルタントの予定をスケジュールおよび管理して、顧客との仮想的な備品やコンサルテーションを行います。   |
-|医療   |  患者ケアのための仮想訪問 <br/>医療について話し合うために、患者や他の医療提供者と会うために、ケア チームのメンバーの予定をスケジュールして管理します。   |
+|医療   |  患者ケアの仮想予定 <br/>医療について話し合うために、患者や他の医療提供者と会うために、ケア チームのメンバーの予定をスケジュールして管理します。   |
 
-この記事では、TeamsのBookings アプリを使用して Virtual Visit をスケジュール、管理、および実行する方法の概要について説明します。
+この記事では、TeamsのBookings アプリを使用して仮想予定をスケジュール、管理、および実行する方法の概要について説明します。
 
 ## <a name="before-you-get-started"></a>使用を開始する前に
 
@@ -78,38 +80,38 @@ Bookings アプリはOutlookと統合されます。 スタッフを追加する
 
 ### <a name="create-appointment-types"></a>予定の種類を作成する
 
-組織が提供するサービスを表す特定の予定の種類を作成し、予約エクスペリエンスを調整します。 その後、スケジューラは予定の種類を使用して訪問をスケジュールできます。
+組織が提供するサービスを表す特定の予定の種類を作成し、予約エクスペリエンスを調整します。 その後、スケジューラは予定の種類を使用して予定をスケジュールできます。
 
 予約予定表で、**その他のオプション** (...) >**設定** に移動し、[**予定の種類**] を選択し、[**予定の種類の追加**] を選択します。 アカウントの開設、契約更新、ローン相談、税金の準備&mdash;などの情報や設定などの名前&mdash;を入力します。
 
 追加する情報は、この種類の予定が予約されるたびに出席者に送信される電子メールの確認に含まれます。 出席者が[デスクトップブラウザーまたはモバイル ブラウザーから参加](browser-join.md)できるかどうかなど、電子メールのリマインダーやその他のオプションをTeamsダウンロードせずに設定できます。
 
-Bookings管理者の場合は、この予定の種類が予約されるたびに出席者が入力できるように、最大 4 つのフォームをリンクできます。 たとえば、出席者が訪問に参加する前に、登録フォームに入力を求める場合があります。 フォームをリンクするには、[フォーム **のリンク**] を選択します。 フォームの URL を入力し、[ **リンク**] を選択します。 (フォームを初めてリンクする場合は、フォームを格納するMicrosoft 365 グループを作成するように求められます。 [ **グループの作成]** を選択してグループを作成します。 この操作は、予約予定表に対して 1 回だけ行う必要があります)。
+Bookings管理者の場合は、この予定の種類が予約されるたびに出席者が入力できるように、最大 4 つのフォームをリンクできます。 たとえば、出席者が予定に参加する前に、登録フォームに入力を求める場合があります。 フォームをリンクするには、[フォーム **のリンク**] を選択します。 フォームの URL を入力し、[ **リンク**] を選択します。 (フォームを初めてリンクする場合は、フォームを格納するMicrosoft 365 グループを作成するように求められます。 [ **グループの作成]** を選択してグループを作成します。 この操作は、予約予定表に対して 1 回だけ行う必要があります)。
 
 フォームを操作する場合は、次の点に注意してください。
 
 - 既に予定の種類にリンクされているフォームに変更を加えるには、予定の種類またはMicrosoft 365 グループ内で[https://forms.office.com](https://forms.office.com)フォームを選択します。
 - ファイルアップロードの質問を含むフォームへの [ファイルのアップロード](https://support.microsoft.com/office/add-questions-that-allow-for-file-uploads-6a75a658-c02b-450e-b119-d068f3cba4cf) は、すべての出席者が同じ組織の場合にサポートされます。
 
-スケジューラは、予定の種類を使用して訪問をスケジュールするときに、フォームの追加、削除、または予定の種類にリンクしたその他のフォームの追加を選択できます。 出席者は、訪問に参加する前にフォームに入力する必要があります。
+スケジューラは、予定の種類を使用して予定をスケジュールするときに、フォームの追加、削除、または予定の種類にリンクしたその他のフォームの追加を選択できます。 出席者は、予定に参加する前にフォームに入力する必要があります。
 
 詳細については、「 [予定の種類の作成」を](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887)参照してください。
 
-## <a name="schedule-a-visit"></a>訪問をスケジュールする
+## <a name="schedule-an-appointment"></a>予定をスケジュールする 
 
 予約カレンダーで、[ **新しい予約**] を選択します。 予定の種類を選択し、関連情報を入力します。
 
 これには、出席者の連絡先情報、サービスを提供するスタッフメンバー、スタッフだけが表示できる内部ノート、電子メールのリマインダー、出席者がモバイル ブラウザーから参加できるかどうかが含まれます。 フォームが予定の種類にリンクされている場合は、フォームを含めるか、削除するか、他のリンクされたフォームを追加するかを選択できます。
 
-出席者に送信される電子メールの確認には、会議のリンクと添付ファイルが含まれており、仮想予定を予定表に追加できます。 スタッフには、メールの確認と会議出席依頼も届きます。 フォームが予定に含まれていた場合、Bookings管理者とスケジューラは、訪問前に出席者がフォームを完了したかどうかを確認し、出席者の応答を表示できます。
+出席者に送信される電子メールの確認には、会議のリンクと添付ファイルが含まれており、仮想予定を予定表に追加できます。 スタッフには、メールの確認と会議出席依頼も届きます。 フォームが予定に含まれていた場合、Bookings管理者とスケジューラは、予定の前に出席者がフォームを完了したかどうかを確認し、出席者の応答を表示できます。
 
 詳細については、「[Teams Bookings アプリで予約をスケジュールする](https://support.microsoft.com/office/schedule-a-booking-in-the-teams-bookings-app-e275049d-0d0f-4161-8526-461a9f29439f)」を参照してください。
 
-## <a name="conduct-a-visit"></a>訪問を行う
+## <a name="conduct-an-appointment"></a>予定を実施する
 
 TeamsまたはOutlook予定表で、予約に移動し、[**参加**] または [Teams会議のリンク] を選択します。 オーディオとビデオの設定を確認し、[ **今すぐ参加**] を選択します。 詳細については、「[Bookings予定を実施する](https://support.microsoft.com/office/conduct-a-bookings-appointment-a86a4007-e26c-4909-9893-f7036e2747cd)」を参照してください。
 
-## <a name="monitor-visits-and-get-real-time-status-updates"></a>アクセスを監視し、リアルタイムの状態の更新を取得する
+## <a name="monitor-appointments-and-get-real-time-status-updates"></a>予定を監視し、リアルタイムの状態の更新を取得する
 
 Bookingsの[キュー ビュー](https://support.microsoft.com/office/queue-view-in-bookings-3eea2840-a1e0-4bcd-8e09-d3cf51c184d6)では、スタッフにダッシュボードが提供され、その日のすべての仮想予定をリアルタイムで更新して監視できます。 キューを表示するには、Bookingsの [**キュー**] タブに移動します。
 
@@ -128,15 +130,15 @@ Bookings Web アプリには、追加機能が用意されています。 たと
 
 詳細については、「[Microsoft Bookings](/microsoft-365/bookings/bookings-overview)」を参照してください。
 
-## <a name="get-insight-into-virtual-visits-usage"></a>Virtual Visits の使用状況に関する分析情報を取得する
+## <a name="get-insight-into-virtual-appointments-usage"></a>仮想予定の使用状況に関する分析情報を取得する
 
-Microsoft Teams管理センターの [Virtual Visits 使用状況レポート](../teams-analytics-and-reports/virtual-visits-usage-report.md)では、管理者に組織内のTeams Virtual Visits アクティビティの概要が表示されます。 このレポートには、Bookings訪問を含む仮想予定の詳細な分析が表示されます。
+Microsoft Teams管理センターの [Virtual Visits 使用状況レポート](../teams-analytics-and-reports/virtual-visits-usage-report.md)では、組織内の仮想予定アクティビティTeamsの概要を管理者に提供します。 レポートには、Bookings予定を含む仮想予定の詳細な分析が表示されます。
 
-ロビーの待機時間やアクセス時間などの主要なメトリックを表示できます。 この情報を使用して、使用傾向の分析情報を取得し、Virtual Visits を最適化してビジネス成果を向上させるのに役立ちます。
+ロビーの待機時間や予定の期間などの主要なメトリックを表示できます。 この情報を使用して使用状況の傾向を把握し、仮想予定を最適化してビジネス成果を向上させるために役立ちます。
 
 ## <a name="related-articles"></a>関連記事
 
-- [ブラウザーでのTeams Virtual Visits の参加エクスペリエンスを管理する](browser-join.md)
+- [モバイル ブラウザーでTeams仮想予定の参加エクスペリエンスを管理する](browser-join.md)
 
 - [Teams Virtual Visits の使用状況レポート](../teams-analytics-and-reports/virtual-visits-usage-report.md)
 

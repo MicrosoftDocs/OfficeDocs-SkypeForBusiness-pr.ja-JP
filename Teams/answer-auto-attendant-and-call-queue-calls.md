@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 83659cba18674e04daa0f9d181b9ac5acf53b146
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+ms.openlocfilehash: 595be9303c0d9732c3e2580b06bf3a0a55a27088
+ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249489"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64853078"
 ---
 # <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>自動応答および通話キューの通話に Teams から直接応答する
 
@@ -47,9 +47,9 @@ Teams ユーザーは、クラウドの自動応答および通話キューを T
 自動応答または通話キューの通話に応答すると、ユーザーは他の通話と同様に処理できます&#x2014。別のユーザーを追加したり、会議を行ったり、別の相手に転送したりできます。 また、自動応答通話はユーザーの構成に基づいて転送されます。
 
 > [!NOTE] 
-> 通話キューの呼び出しは、ユーザーの構成に基づいて転送されません。 これは、エージェントが通話に応答でき、発信者に予期しない転送がされない限り、発信者がキューに留まるようにするためです。
+> 通話キューの呼び出しは、ユーザーの通話応答ルールの構成に基づいて転送されません。 これは、エージェントが通話に応答でき、発信者に予期しない転送がされない限り、発信者がキューに留まるようにするためです。
 
-> エージェントは、通話キュー呼び出しの着信またはボイスメールを見逃した場合は通知されません。
+> エージェントには、通話キューの呼び出しの不在着信またはボイスメールは通知されません。
 
 ## <a name="supported-clients"></a>サポートされるクライアント
 
@@ -60,7 +60,7 @@ Teams ユーザーは、クラウドの自動応答および通話キューを T
 -    Microsoft Teams iPhone アプリ
 -    Microsoft Teams Android アプリ
 
-クライアントTeamsは、 の共同存在モードでのみサポートTeams[されます](/microsoftteams/setting-your-coexistence-and-upgrade-settings)。
+Teams クライアントは、[共存モードが [Teamsのみ] でのみ](/microsoftteams/setting-your-coexistence-and-upgrade-settings)サポートされます。
 
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Microsoft Teams の自動応答と通話キューのサポートを構成する
 
@@ -68,7 +68,7 @@ Microsoft Teams で自動応答および通話キューの通話を受信する�
 
 ## <a name="known-issues"></a>既知の問題
 
-通話キュー エージェントがモバイル デバイスで通話を受信すると、デバイスがロックされている場合、通話が保留される可能性があります。 ユーザーは最初にデバイスのロックを解除してから、通話に応答する必要があります。
+通話キュー エージェントがモバイル デバイスで通話を受信すると、デバイスがロックされている場合に通話が保留されることがあります。 ユーザーは最初にデバイスのロックを解除してから、通話に応答する必要があります。
 
 
 ## <a name="related-topics"></a>関連項目

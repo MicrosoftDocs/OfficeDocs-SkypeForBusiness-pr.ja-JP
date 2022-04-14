@@ -21,16 +21,16 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: 組織内のユーザーのTeamsでBookings アプリを管理する方法について説明します。
-ms.openlocfilehash: 98834770d48e0fd35f146b155e4970df7ddaaba3
-ms.sourcegitcommit: 1e8cff687b12348d4ecc538084ab57bbba23b523
+ms.openlocfilehash: aab7ce7a4813d851574f9a5796f5ce21d44774ff
+ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "64703613"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64853068"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Microsoft TeamsでBookings アプリを管理する
 
-Microsoft TeamsのBookings アプリは、対人および仮想の予定を簡単にスケジュールする方法を提供します。 たとえば、医療訪問、財務相談、面接、カスタマー サポート、教育の営業時間などです。 詳細については、[TeamsとBookings アプリを使用した仮想アクセスに関するページを](expand-teams-across-your-org/bookings-virtual-visits.md)参照してください。
+Microsoft TeamsのBookings アプリは、対人および仮想の予定を簡単にスケジュールする方法を提供します。 たとえば、医療訪問、財務相談、面接、カスタマー サポート、教育の営業時間などです。 詳細については、[TeamsとBookings アプリを使用した仮想予定に関するページを](expand-teams-across-your-org/bookings-virtual-visits.md)参照してください。
 
 スケジューラは、1 つのエクスペリエンスから、複数の部署とスタッフの予定表と内部および外部の出席者との通信を管理できます。 仮想予定は、堅牢なビデオ会議機能を提供するMicrosoft Teams会議を介して開催されます。
 
@@ -98,7 +98,7 @@ Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress busin
 
 ## <a name="related-articles"></a>関連記事
 
-[ブラウザーでのTeams Virtual Visits の参加エクスペリエンスを管理する](expand-teams-across-your-org/browser-join.md)
+[ブラウザーで仮想予定をTeamsするための参加エクスペリエンスを管理する](expand-teams-across-your-org/browser-join.md)
 
 
   [エンド ユーザー向け Bookings ドキュメント](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#PickTab=Bookings)

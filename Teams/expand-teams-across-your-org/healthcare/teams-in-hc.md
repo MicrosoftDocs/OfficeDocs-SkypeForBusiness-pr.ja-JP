@@ -26,26 +26,26 @@ description: Microsoft Teams 遠隔医療、EHR 統合、現場担当者のシ�
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 9ca90625fc8b3229d282d9f86ba4e12fdfa56f49
-ms.sourcegitcommit: f8b935e009895138eddfc1ae360b7b2ace747d3c
+ms.openlocfilehash: 6332f9fb5020e654401b9802e6d4a9dbe942d3ac
+ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "63050873"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64853048"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>医療機関向け Microsoft Teams の使用を開始する
 
 Microsoft Teams では、病院やその他の医療機関で役立つさまざまな遠隔医療機能が提供されています。 現在開発途中の病院支援用の Microsoft Teams 機能では、以下の機能が使用されています。
 
-- 仮想訪問と電子医療記録 (EHR) の統合
+- 仮想予定と電子医療記録 (EHR) の統合
 - Teams ポリシー パッケージ
 - セキュリティで保護されたメッセージング
 - Teams テンプレート
 - ケア コーディネーションとコラボレーション
 
-この機能は、この機能の医療向け Microsoft Cloud。 以下、Azure、Dynamics 365、Microsoft 365 の機能を [Microsoft Cloud for Healthcare](/industry/healthcare) で統合するこのソリューションの使用方法について説明します。
+この機能は、Microsoft Cloud for Healthcareの一部です。 以下、Azure、Dynamics 365、Microsoft 365 の機能を [Microsoft Cloud for Healthcare](/industry/healthcare) で統合するこのソリューションの使用方法について説明します。
 
-医療コレクションを使用して、医療チームの共同作業を強化する方法の詳細については、次のビデオをごTeams。
+次のビデオを参照して、医療コレクションを使用してTeamsの医療チームのコラボレーションを強化する方法の詳細を確認してください。
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Hqan]
 
@@ -56,23 +56,23 @@ Microsoft Teams では、病院やその他の医療機関で役立つさまざ�
 
 | シナリオ | 説明 | 要件 |
 | -------- | -------- | -------- |
-| [電子医療記録 (EHR) 統合による仮想訪問](#virtual-visits-and-electronic-healthcare-record-ehr-integration) | 患者との仮想予定をスケジュール、管理、実施します。 このシナリオでは、Teams Cerner または Epic プラットフォームを接続して、Virtual Visits をサポートします。 | EHR コネクタスタンドアロン オファー医療向け Microsoft CloudまたはサブスクリプションをMicrosoft Teams有効なサブスクリプション。 <br> ユーザーは、会議を含むMicrosoft 365またはOffice 365ライセンスを持Teamsがあります*。 <br> 組織には、Cerner バージョン 2018 以降またはエピック バージョン November 2018 以降が必要です。 <br>[Cerner EHR および](ehr-admin-cerner.md#before-you-begin)[エピック EHR](ehr-admin.md#before-you-begin) の要件の詳細 |
-| [Microsoft Bookings と Bookings アプリを使用した仮想アクセス](#virtual-visits-and-electronic-healthcare-record-ehr-integration) | 患者との仮想予定をスケジュール、管理、実施します。 このシナリオは、仮想アクセスをサポートするために Microsoft Bookings に依存します。 | 組織で Microsoft Bookings が有効になっている必要があります。 <br> Bookings アプリのすべてのユーザーおよび会議に参加するすべてのスタッフは、Teams 会議のスケジュール設定がサポートされているライセンスを所有している必要があります*。 <br>[Bookings の要件の詳細](../../bookings-app-admin.md#prerequisites-to-use-the-bookings-app-in-teams)|
+| [電子医療記録 (EHR) 統合を使用した仮想予定](#virtual-appointments-and-electronic-healthcare-record-ehr-integration) | 患者に対する仮想予定のスケジュール設定、管理、実施を行います。 このシナリオでは、仮想予定をサポートするために、Teamsと Cerner またはエピック プラットフォームを接続します。 | Microsoft Cloud for Healthcareへのアクティブなサブスクリプション、または EHR コネクタスタンドアロン オファー Microsoft Teamsサブスクリプション。 <br> ユーザーは、Teams会議*を含む適切なMicrosoft 365またはOffice 365ライセンスを持っている必要があります。 <br> 組織には、Cerner バージョン 2018 年 11 月以降または 2018 年 11 月以降のエピック バージョンが必要です。 <br>[Cerner EHR](ehr-admin-cerner.md#before-you-begin) と[エピック EHR](ehr-admin.md#before-you-begin) の要件の詳細 |
+| [Microsoft BookingsとBookings アプリを使用した仮想予定](#virtual-appointments-and-electronic-healthcare-record-ehr-integration) | 患者に対する仮想予定のスケジュール設定、管理、実施を行います。 このシナリオでは、仮想予定をサポートするためにMicrosoft Bookingsに依存しています。 | 組織で Microsoft Bookings が有効になっている必要があります。 <br> Bookings アプリのすべてのユーザーおよび会議に参加するすべてのスタッフは、Teams 会議のスケジュール設定がサポートされているライセンスを所有している必要があります*。 <br>[Bookings の要件の詳細](../../bookings-app-admin.md#prerequisites-to-use-the-bookings-app-in-teams)|
 | [Teams ポリシー パッケージ](#teams-policy-packages)| 医療スタッフ、情報処理担当者、患者室のデバイスに対して、Microsoft Teams の機能への適切なアクセス許可が付与されるようにします。| ユーザーは適切なライセンスを所有している必要があります*。 |
 | [セキュリティで保護されたメッセージング](#secure-messaging) | 緊急のメッセージにすばやく気付いてもらえるほか、メッセージが受信および開封されたことを確認できます。 | ユーザーは適切なライセンスを所有している必要があります*。  |
 | [Teams テンプレート](#teams-templates-for-healthcare-organizations) | 同じ病棟、ポッド、部門内での連絡と連携または病院内の複数の病棟、ポッド、部門間での連絡と連携のための定義済み設定テンプレート、チャネル、プレインストール済みアプリが備わったチームを作成します。 | ユーザーは適切なライセンスを所有している必要があります*。  |
 | [ケア コーディネーションとコラボレーション](#care-coordination-and-collaboration) | 診療担当者とスタッフは、スケジュール、ドキュメント、タスクなどに関する共同作業を院内で行うことができます。| ユーザーは適切なライセンスを所有している必要があります*。 |
 
-*Office 365 A3、A5、E3、E5、F1、F3、Microsoft 365 A3、A5、E3、E5 では、Business Standard がサポートされています。 Teams ライセンスの全般的な説明については、「[Teams へのユーザー アクセスを管理する](../../user-access.md)」を参照してください。
+*Office 365 A3、A5、E3、E5、F1、F3、Microsoft 365 A3、A5、E3、E5、Business Standard がサポートされています。 Teams ライセンスの全般的な説明については、「[Teams へのユーザー アクセスを管理する](../../user-access.md)」を参照してください。
 
-## <a name="virtual-visits-and-electronic-healthcare-record-ehr-integration"></a>仮想訪問と電子医療記録 (EHR) の統合
+## <a name="virtual-appointments-and-electronic-healthcare-record-ehr-integration"></a>仮想予定と電子医療記録 (EHR) の統合
 
-患者との仮想予定のスケジュールTeams、管理、実施するには、会議の完全なプラットフォームを使用します。
+Teamsの完全な会議プラットフォームを使用して、患者との仮想予定のスケジュール、管理、および実施を行います。
 
-- 組織で既に電子医療記録 (EHR) を使用している場合は、Teams統合して、よりシームレスなエクスペリエンスを実現できます。 Teams電子医療記録 (EHR) コネクタを使用すると、医師は eHR システムから直接 Teams で仮想患者訪問や別のプロバイダーとの相談を簡単に開始できます。 詳細については、「[Virtual Visits with Teams - Cerner EHR](ehr-admin-cerner.md) への統合」および「[Virtual Visits with Teams - Integration to Epic EHR (Teams - エピック EHR](ehr-admin.md) への統合)」を参照してください。
-- サポートされている EHR を使用していない場合は、Microsoft Bookings および Microsoft Teams の Bookings アプリを使用できます。 詳細については、「Virtual [Visits with Teams and the Bookings app」を参照してください](../bookings-virtual-visits.md)。
+- 組織で電子正常性レコード (EHR) が既に使用されている場合は、Teamsを統合して、よりシームレスなエクスペリエンスを実現できます。 Teams電子正常性レコード (EHR) コネクタを使用すると、臨床医は EHR システムから直接Teamsで仮想患者の予定を立ち上げたり、別のプロバイダーとの相談を簡単に開始したりできます。 詳細については、「[Teamsを使用した仮想予定 - Cerner EHR への統合](ehr-admin-cerner.md)と[、Teamsを使用した仮想予定のエピック EHR への統合」を](ehr-admin.md)参照してください。
+- サポートされている EHR を使用していない場合は、Microsoft Bookings および Microsoft Teams の Bookings アプリを使用できます。 詳細については、[TeamsとBookings アプリを使用した仮想予定に関するページを](../bookings-virtual-visits.md)参照してください。
 
-![仮想アクセスと Microsoft Teams。](../../media/virtual-visits-teams.png)
+![Microsoft Teamsを使用した仮想予定。](../../media/virtual-visits-teams.png)
 
 ## <a name="teams-policy-packages"></a>Teams ポリシー パッケージ
 
@@ -103,11 +103,11 @@ Teams ポリシー パッケージを適用して、Teams でさまざまな役�
 
 ## <a name="care-coordination-and-collaboration"></a>ケア コーディネーションとコラボレーション
 
-医療チームをまとめ、医療を調整し、チームと共同作業Teams。
+医療チームをまとめ、ケアを調整し、Teamsと共同作業します。
 
-![医療: 医療チームと連携して、Teams。](../../media/teams-healthcare-collaborate-in-teams.png)
+![医療: Teamsで正常性チームと共同作業を行います。](../../media/teams-healthcare-collaborate-in-teams.png)
 
-Teams、医師、看護師、その他のスタッフが、次のような、Teams に含まれるコラボレーション機能を使用して効率的に共同作業できます。
+Teamsにより、次のようなTeamsに含まれるコラボレーション機能を使用して、医師、臨床医、看護師、その他のスタッフが効率的に共同作業できます。
 
 - 医療チームと情報処理担当者のためにチームとチャネルを設定する。 作業を整理する方法として、チャネルにタブを追加して使用できます。タブに情報のソースをピン留めしてさらに便利に使うことができます。
 - チャット、メッセージの投稿、通信。注意して見守る必要がある個別の患者ごとに永続的な会話をチーム内で維持できます。
@@ -134,7 +134,7 @@ Microsoft Teams の Lists アプリは、チームが情報を追跡し、作業
 
 患者の回診用に作成されたリストの例を下に示します。
 
-:::image type="content" source="../../media/lists-patients-example.png" alt-text="患者の丸めを行う例の一覧のスクリーンショット。":::
+:::image type="content" source="../../media/lists-patients-example.png" alt-text="患者の丸めの一覧の例のスクリーンショット。":::
 
 詳細については、「[Teams で組織の Lists アプリを管理する](../../manage-lists-app.md)」を参照してください。
 
@@ -162,4 +162,4 @@ Teams は、シフト アプリおよび現場担当者アプリと統合され�
 
 - 組織で Teams を使い始めたばかりの場合も、Teams を組織のより多くの領域に拡大する場合も、「[Teams Adoption Center](https://adoption.microsoft.com/microsoft-teams/)」(Teams 導入センター) から Teams の展開に関するアドバイスを入手できます。
 - カスタマイズされた[学習経路](https://adoption.microsoft.com/microsoft-365-learning-pathways/)を設定し、ご自身の組織のユーザーが必要とする機能や作業のみを取り扱うことを検討してください。
-- クイック トレーニング ビデオなど、Teams サポート サイトの Teams で基本的なタスクを実行するTeamsの[](https://support.microsoft.com/teams)ヘルプとトレーニング[をユーザーに提供します](https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)。 このサイトでは、[Lists](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)、[Tasks](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070)、[承認](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3)、[Bookings](https://support.microsoft.com/office/overview-of-the-bookings-app-in-teams-7b8569e1-0c8a-444e-b712-d9968b05110b) および [Shifts](https://support.microsoft.com/office/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821) を含む、Teams アプリ用のサポートやトレーニングも提供されています。
+- [クイック トレーニング ビデオ](https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)など、Teams [サポート サイト](https://support.microsoft.com/teams)のTeamsで基本的なタスクを実行する方法について、ユーザーのヘルプとトレーニングを受けます。 このサイトでは、[Lists](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)、[Tasks](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070)、[承認](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3)、[Bookings](https://support.microsoft.com/office/overview-of-the-bookings-app-in-teams-7b8569e1-0c8a-444e-b712-d9968b05110b) および [Shifts](https://support.microsoft.com/office/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821) を含む、Teams アプリ用のサポートやトレーニングも提供されています。
