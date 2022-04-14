@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams でプライベート チャネルを使用および管理する方法について説明します。
-ms.openlocfilehash: 908432588c1744027b03efee44b9506ea4388fa2
-ms.sourcegitcommit: b878c57b8e822913b7aac8c105f476bc4ebfcd7d
+ms.openlocfilehash: 775019bc0151215557e7b0962619c4fe8fb8fe85
+ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63761921"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64817828"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams のプライベート チャネル
 
@@ -39,6 +39,8 @@ Microsoft Teams のプライベート チャネルは、チーム内でのコラ
 ロックのアイコンはプライベート チャネルであることを示しています。プライベート チャネルのメンバーのみが、自身が追加されたプライベート チャネルを表示して参加できます。
 
 プライベート チャネルは作成されると親チームにリンクされ、別のチームに移動させることはできません。 また、プライベート チャネルを標準チャネルに変換することはできません。
+
+[プライベート チャネルを他の種類のチャネルと比較します](/microsoftteams/teams-channels-overview#channel-feature-comparison)。
 
 ![チームのプライベート チャネルのスクリーンショット。](media/private-channels-in-teams.png)
 

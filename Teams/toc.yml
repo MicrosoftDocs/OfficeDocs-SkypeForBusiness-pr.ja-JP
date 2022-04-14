@@ -1483,7 +1483,7 @@ items:
     items:
       - name: 概要
         href: deploy-apps-microsoft-teams-landing-page.md
-      - name: Microsoft が提供するサンプル アプリを管理する
+      - name: Microsoft が提供する アプリを管理する
         items:
           - name: Bookings アプリを管理する
             href: bookings-app-admin.md

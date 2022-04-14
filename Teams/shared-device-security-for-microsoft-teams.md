@@ -1,14 +1,13 @@
 ---
-title: 'Microsoft Teams のセキュリティ ガイド: 共有コンピューターで Teams を安全に使用する'
+title: 'Microsoft Teams のゼロトラスト セキュリティ ガイド: 共有コンピューターで Teams を安全に使用する'
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
-ms.date: 08/21/2020
 ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: pawa
-description: 職場の共有コンピューターから Microsoft Teams を安全に使用するためのガイダンス。
+description: 職場の共有コンピューターから Microsoft Teams を安全に使用するためのゼロトラスト ガイダンス。
 ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c97ebd8cf9e43ada8d077ffbd33f6b39c8d9c64c
-ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
+ms.openlocfilehash: 83fc071aa50ed076fc2a6798cfaee9d4770a36a5
+ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62893546"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64817678"
 ---
 # <a name="use-microsoft-teams-securely-on-shared-computers"></a>共有コンピューターで Microsoft Teams を安全に使用する
 
@@ -54,17 +53,17 @@ ms.locfileid: "62893546"
 上記のガイダンスが満たされていない場合は、他のブラウザー セキュリティのベストプラクティスを利用することをお勧めします:
 
 1. ブラウザのセキュリティ機能を適用します。
-    1. プライベートブラウズセッションを使用して、ディスクに残るデータや履歴を最小限に抑えます。 たとえば、[Microsoft Edge での inPrivate ブラウズ](https://support.microsoft.com/help/4533513/microsoft-edge-browse-inprivate)、[Google Chrome でのシークレットブラウズ](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en)、または特定のブラウザでのプライベートブラウズ機能を使用します。 
-    1. *既定で* プライベートブラウズを行うようにシステムの動作を変更しておくことをお勧めします。 
+    1. プライベートブラウズセッションを使用して、ディスクに残るデータや履歴を最小限に抑えます。 たとえば、[Microsoft Edge での inPrivate ブラウズ](https://support.microsoft.com/help/4533513/microsoft-edge-browse-inprivate)、[Google Chrome でのシークレットブラウズ](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en)、または特定のブラウザでのプライベートブラウズ機能を使用します。
+    1. *既定で* プライベートブラウズを行うようにシステムの動作を変更しておくことをお勧めします。
 
 2. ダウンロード可能な Teams クライアントではなく、[Teams Web アプリ](https://teams.microsoft.com)（*Web* クライアントとも呼ばれます）を閲覧して使用します。
 
-3. 共有システムの使用が終了したら、次のことを行う必要があります。 
+3. 共有システムの使用が終了したら、次のことを行う必要があります。
     1. [Teams からサインアウトする](https://support.microsoft.com/office/sign-out-of-teams-a6d76e69-e1dd-4bc4-8e5f-04ba48384487)。
     1. ブラウザーのすべてのタブおよびウィンドウを閉じる。
     1. デバイスからサインアウトする。
 
-上記の項目は、すべてのケースを網羅するベスト プラクティスまたはセキュリティ管理の包括的なリストではなく、環境内で実行できる追加のアクションがある場合があります (たとえば、[Office 365 ATP プラン 1 または 2](/microsoft-365/security/office-365-security/office-365-atp#office-365-atp-plan-1-and-plan-2) を使用している場合、セキュリティ管理者は Teams の安全なリンクと安全な添付ファイルの使用を選択できます)。しかし、これらの手順は、共有デバイスから Teams を使用するためのガイダンスを構築するための出発点となります。
+上記の項目は、すべてのケースを網羅するベストプラクティスまたはセキュリティ管理の包括的なリストではなく、環境内で実行できる追加のアクションがある場合があります（たとえば、[Microsoft Defender for Office 365 ATP プラン 1 またはプラン 2](/microsoft-365/security/office-365-security/overview?view=o365-worldwide) を使用している場合、セキュリティ管理者は Teams のセーフリンクとセーフアタッチメントの使用を選択できます）。ただし、これらの手順は、共有デバイスから Teams を使用するためのガイダンスを構築するための開始点です。
 
 ## <a name="more-information"></a>詳細情報
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5e554672156f70556ebc18625115cd9a1ce8c58
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: 234121449025512f8a5ffe37814804cc775b7b37
+ms.sourcegitcommit: 0d61ca384e7d76612743de41c8fea4729072fb5e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062691"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "64837460"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams の Education Insights への IT 管理者ガイド
 
@@ -94,7 +94,7 @@ Insights では、クラスチーム内のすべてのチャネルのアクテ�
 **Teams に Insights アプリを追加するには:**
 * “**…**” をクリックします “…” はアプリ バーの上にあります。
 * **Insights** を検索して選択します。
-* 説明画面が開きます。 **[追加]** をクリックします。
+* 説明画面が開きます。**［追加］** をクリックしてください。
 
 :::image type="content" source="media/insights-add-personal-app.png" alt-text="Teams に Insights を追加します。":::
 
@@ -106,7 +106,7 @@ Insights では、クラスチーム内のすべてのチャネルのアクテ�
 > 次のリンクから Insights アプリを見つけることもできます。[https://aka.ms/addInsights](https://aka.ms/addInsights)
 
 ## <a name="when-is-insights-used"></a>インサイトはいつ使用されますか? 
-Insights は、**学習サイクル** 全体を通じて学習コミュニティをサポートします。 Insights は、複数の側面にわたるリアルタイムの指標を使用して、学校コミュニティのメンバー間での識別、考察、ディスカッション、およびアクションの継続的なサイクルをサポートします。
+Insights は、**学習サイクル** 全体で学習コミュニティをサポートしています。Insights は、複数のディメンションにわたるリアルタイムメトリックを使用して、学校コミュニティのメンバー間で識別、リフレクション、ディスカッション、アクションの継続的なサイクルをサポートします。
 *   学生が教職員、コース資料、および学友といつどのように関わるか、そして彼らが課題をどのように実行するかを **特定** します。 
 *   入力が学生が成功するようにサポートする方法、成長する領域を決定する方法、および支援が必要な場所を **検討** します。
 *   調査結果について生徒や学校のコミュニティと **話し合い**、関係を強化し、目標を設定し、自己レビューし、コラボレーションを促進し、成果を向上させます。
@@ -141,15 +141,17 @@ Insights は、教職員に関するデータを表示 *しません*。 デー�
 > 収集されたデータのほとんどは、数分以内に Insights に表示されます。クラス ミーティング (クラス チャネルの 1 つに関連するミーティング) への出席は、ミーティングの終了後数時間で、通常は最大 24 時間後に表示されます。
 
 > [!NOTE]
-> Education Insights で収集されたデータは、IT 管理者が [Education Analytics トグル](#turn-sds-for-insights-on-or-off)をオフにするか、テナントの Office サブスクリプションが終了するまで保持されます。 Teams の特定の機能をオフにしても、履歴データは削除されません。
+> Education Insights で収集されたデータは、IT 管理者が [Education Analytics トグル](#turn-sds-for-insights-on-or-off) をオフにするか、テナントの Office サブスクリプションが終了するまで保持されます。Teams で特定の機能をオフにしても、履歴データは削除されません。
 
 ### <a name="privacy-and-security"></a>プライバシーとセキュリティ
-Insights で収集、表示される情報は、学生、子供、その他同様のプライバシーに関する規定に対して、[GDPR](/compliance/regulatory/gdpr)、家庭教育の[権利とプライバシーに関する法律 (FERPA)](/compliance/regulatory/offering-ferpa) などを含む [90 以上の規制および業界標準](/compliance/regulatory/offering-home)を満たしています。
+Microsoft 365 の一部として、Reflect は、[GDPR](/compliance/regulatory/gdpr) や学生の教育記録のプライバシーを保護する [学生と子供のセキュリティに関する家族教育権およびプライバシー法 (FERPA)](/compliance/regulatory/offering-ferpa) など、データの収集と使用に関する国、地域、業界固有の規制を満たしています。
 
 データは教育機関に属し、Microsoft はデータを収集して保存するだけです。 Microsoft の担当者は、データ リカバリなど、サービスを維持するための監査された方法でコンプライアンスによって許可されている場合を除き、データにアクセスしたり、データを表示したりすることはできません。
 
-> [!NOTE]
-> [Microsoft トラストセンターの](https://www.microsoft.com/trust-center) にアクセスして、Microsoft でデータを保護している方法をご確認ください。
+> [!TIP]
+> * [Microsoft トラストセンターの](https://www.microsoft.com/trust-center) にアクセスして、Microsoft でデータを保護している方法をご確認ください。
+> * [Microsoft コンプライアンス オファリング](/compliance/regulatory/offering-home) にアクセスして、Microsoft 365 がお客様の機関で規制コンプライアンス基準を満たすためにどのような役割を果たすかご確認ください。
+
 
 ### <a name="performance-and-reliability"></a>パフォーマンスと信頼性
 Insights は、最適なパフォーマンスと信頼性を実現して Teams のアクティビティから収集される大量のデータを処理するように設計されています。 100％ の可用性を保証することはできませんが、可能な限りその目標に近い状態で利用できるように努めています。
@@ -191,7 +193,7 @@ Education Insights Premium アドオンは、テナント内のすべてのデ�
 詳細については、「[**学生情報システム (SIS) データを Education Insights と同期する**](education-insights-sis-data-sync.md)」をご確認ください。
 
 ## <a name="manage-permissions"></a>権限の管理
-IT 管理者として、教育リーダー、地区リーダー、学校長、学部長、カウンセラー、教科長、プログラム ディレクター、ソーシャル ワーカー、心理学者に許可を与える必要があります。 教職員には、クラス チームを所有している場合、*自動的* に許可が与えられます。
+IT管理者として、教育指導者、地区指導者、校長、教頭、カウンセラー、学習分野の責任者、プログラムディレクター、ソーシャルワーカー、心理学者に権限を与えることができます。教育関係者は、クラスチームを所有している場合、*自動的* に権限が与えられます。
 
 詳細については、「[**Education Insights へのユーザー アクセスを管理する**](education-insights-manage-access.md)」を参照してください。
 
@@ -273,7 +275,7 @@ Insights によって収集された完全なデータは、[ここに](class-in
 
 
 ### <a name="why-do-i-see-data-for-some-students-or-classes-not-all"></a>すべてではなく、一部の生徒またはクラスのデータが表示されるのはなぜですか?
-*ライセンスを取得した* 生徒のデータのみを収集するため、最も可能性の高い理由は、ゲスト生徒がクラスに参加していて、そのデータが収集されていないことです。 名前は表示されるかもしれませんが、データはありません。
+*ライセンスを取得した* 生徒のデータのみを収集するため、最も可能性の高い理由として、ゲスト生徒がクラスに参加していて、そのデータが収集されていないことが考えられます。その場合、名前は表示されても、データは表示されません。
 
 生徒の状態を確認して、全員がライセンスを持っていることを確認します。 
 
