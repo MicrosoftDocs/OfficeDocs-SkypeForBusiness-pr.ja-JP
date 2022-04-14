@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams へのゲスト アクセスをオンまたはオフにする
+title: Microsoft Teamsでのゲスト アクセスのオンとオフを切り替える
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -22,23 +22,22 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: Office 365 の管理者として Microsoft Teams のゲスト アクセス機能を有効または無効にする方法について説明します。
-ms.openlocfilehash: 2b444b8357d8edef9aaa1c9c8e72ae6762f5bd52
-ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
-ms.translationtype: HT
+ms.openlocfilehash: 1658ef97dd172209a965088caa2842a71e09e4e7
+ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60138243"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "64839198"
 ---
-# <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Microsoft Teams へのゲスト アクセスをオンまたはオフにする
+# <a name="turn-guest-access-in-microsoft-teams-on-or-off"></a>Microsoft Teamsでのゲスト アクセスのオンとオフを切り替える
 
-> [!Note]
->
-> **2021 年 2 月** まで、ゲスト アクセスは既定で無効になっています。 管理者やチームの所有者がゲストを追加できるようにするには、Teams へのゲスト アクセスをオンにする必要があります。 ゲストアクセスを有効にするには、変更を反映するのに、数時間かかりることもあります。 ユーザーがチームにゲストを追加しようとするときに **Contact your administrator (管理者にお問い合わせください)** というメッセージが表示される場合、ゲスト アクセスがオンになっていないか、設定が有効になっていないかのいずれかの可能性があります。
->
-> **2021 年 2 月** 以降、この設定を構成していない新規のお客様と既存のお客様へは、Microsoft Teams のゲスト アクセスが既定で有効になります。 この変更を実装すると、Microsoft Teams でゲスト アクセス機能をまだ構成していない場合、その機能はテナントで有効になります。 組織でゲスト アクセスを無効にしたままにする場合は、ゲスト アクセスの設定が **既定のサービス** ではなく **オフ** に設定されていることを確認する必要があります。
+この記事では、Teamsでゲスト アクセス設定 (通話、会議、チャットなど) を構成する方法について説明します。 Teamsでのゲスト アクセスには、Azure AD、Microsoft 365 グループ、SharePointの設定など、Microsoft 365の他の設定を構成する必要もあります。 ゲストを Teams に招待する準備ができている場合は、次のいずれかをお読みください。
 
-> [!IMPORTANT]
-> ゲスト アクセスをオンにする方法は、Azure Active Directory、Office 365、SharePoint Online、Teams の設定により異なります。 詳細については、「[チームでゲストと共同作業を行う](/microsoft-365/solutions/collaborate-as-team)」を参照してください。
+- 一般的な使用のためにチームのゲスト アクセスを構成する方法については、「 [チームでゲストと共同作業する](/microsoft-365/solutions/collaborate-as-team)」を参照してください。
+- Azure Active Directory を使用するパートナー組織とコラボレーションし、ゲストがチーム アクセスに自己登録できるようにするには、「[管理されたゲストで B2B エクストラネットを作成する](/microsoft-365/solutions/b2b-extranet)」を参照してください。
+
+> [!NOTE]
+> ただ他の組織の人々を見つけ、電話をかけ、チャットし、会議を設定する場合は、[外部アクセス](manage-external-access.md) を使用します。
 
 ## <a name="configure-guest-access-in-the-teams-admin-center"></a>Teams 管理センターでゲスト アクセスを構成する
 
@@ -69,15 +68,18 @@ ms.locfileid: "60138243"
           - **高** - ゲストは、Giphy をチャットに挿入することができますが、成人向けコンテンツの挿入については制限されます。
       - **会話でミームを使用** – この設定を [**オン**] にすると、ゲストが会話でミームを使用することができるようになります。
       - **会話でステッカーを使用** – この設定を [**オン**] にすると、ゲストが会話でステッカーを使用することができるようになります。
-      - **メッセージのインマーシブ リーダー** - この設定を [**オン**] に切り替えて、ゲストが[Teams 内でイマーシブ リーダー](https://support.microsoft.com/topic/a700c0d0-bc53-4696-a94d-4fbc86ac7a9a)を使用できるようにします。
+      - **メッセージのインマーシブ リーダー** - この設定を [**オン**] に切り替えて、ゲストが [Teams 内でイマーシブ リーダー](https://support.microsoft.com/topic/a700c0d0-bc53-4696-a94d-4fbc86ac7a9a)を使用できるようにします。
 
     ![Teams でのゲストのアクセス権の設定。](media/manage-guest-access-image1.png)
 
 5. **[保存]** を選択します。
 
-## <a name="external-access-federation-vs-guest-access"></a>外部アクセス (フェデレーション) とゲスト アクセス
+## <a name="turning-guest-access-off"></a>ゲスト アクセスをオフにする
 
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+Teams でゲスト アクセスをオフにすると、既存のゲストはチームにアクセスできなくなります。 ただし、チームから削除されることはありません。 チーム内のユーザーには引き続き表示され、@メンションできます。 Teams のゲスト アクセスを再度オンにすると、アクセスを回復します。
+
+ゲスト アクセスをオフのままにする場合は、チームの所有者に、チームからゲスト アカウントを手動で削除するようにアドバイスすることをお勧めします。 これらのゲストはアクセスできませんが、チーム内にアカウントが表示されると、チーム内の他のユーザーが混乱する可能性があります。
+
 
 ## <a name="see-also"></a>関連項目
 

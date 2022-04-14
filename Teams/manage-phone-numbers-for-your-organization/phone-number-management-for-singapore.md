@@ -1,5 +1,5 @@
 ---
-title: 電話の番号管理
+title: シンガポールの電話番号管理
 author: cazawideh
 ms.author: czawideh
 manager: serdars
@@ -19,31 +19,31 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: この表を使用して、シンガポールの電話番号の取得と管理に関する情報をMicrosoft Teams。
-ms.openlocfilehash: 4db07ac8e89583bfce2127b2b30de2df08ad064e
-ms.sourcegitcommit: ecc67b7b9378cc72f85517f30c32680045056fda
+description: この表を使用して、Microsoft Teamsのシンガポールでの電話番号の取得と管理に関する情報を確認します。
+ms.openlocfilehash: 968e44e8189bb5eebd50797983cbc639160cd3be
+ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2022
-ms.locfileid: "64504207"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "64839008"
 ---
-# <a name="phone-number-management-for-singapore"></a>電話の番号管理
+# <a name="phone-number-management-for-singapore"></a>シンガポールの電話番号管理
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
-この表を使用して、シンガポールの電話番号の取得と管理に関する情報をMicrosoft Teams。
+この表を使用して、Microsoft Teamsのシンガポールでの電話番号の取得と管理に関する情報を確認します。
   
 詳細については、「[組織のために電話番号を管理する](manage-phone-numbers-for-your-organization.md)」をご覧ください。
   
 |**実行する操作**|**正しいフォームをダウンロードする**|
 |:-----|:-----|
-|管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。 |シンガポールでは、管理センターで組織の電話番号Microsoft Teams取得できます。 フォームをダウンロードして新しい電話番号の要求を送信し、 [手順については TNS Service Desk にお問い合わせください](contact-tns-service-desk.md)。<br/><br/>[シンガポール (v.1.0) (en-sg)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true) の新しい電話番号要求。 <br/><br/>電話番号を割り当てる前に、次のいずれかの顧客フォームをダウンロードする必要があります。<ul><li>[顧客を知る シンガポール - 中国語 v1.0 cn](https://download.microsoft.com/download/1/4/7/147324ac-06a5-4c7b-a38b-7efa0166fdf7/know-your-customer-for-singapore-(v1.0)-(zh-CN).pdf)</li><li>[シンガポールの顧客を知る - タミール語 v1.0 ta-IN](https://download.microsoft.com/download/b/4/8/b48457c1-cef1-4bc7-ae44-71c5302e5eb2/know-your-customer-for-singapore-(v1.0)-(ta-IN).pdf)</li><li>[顧客を知る シンガポール - マレー語 v1.0 ms-MY](https://download.microsoft.com/download/f/5/9/f597a754-9478-4d5b-88af-a2a2fe5bbd62/know-your-customer-for-singapore-(v1.0)-(ms-MY).pdf)</li></ul>完全に完了し、 [手順については TNS サービス デスクにお問い合わせください](contact-tns-service-desk.md)。<br/><br/>この市場を埋めるには、新しい注文に 2 ~ 3 週間かかる場合があります。  |
-|転送された電話番号を取得します。  <br/> | このフォームをダウンロードします。 <br/>[シンガポールの承認状 (LOA) (すべての番号) (v.2.0) (en-sg)](<https://download.microsoft.com/download/e/9/5/e959053a-4b35-49f9-a23e-7085575c46f2/Letter of Authorization (LOA) for Singapore (all numbers) (v.2.0) (en-sg).pdf>)<br/> <br/>入力し、 [TNS サービス デスクに問い合わせ、手順を確認してください](contact-tns-service-desk.md)。 <br/><br/>この市場では、ポートの複雑さによっては、移行に 1 ~ 6 週間かかる場合があります。 <br/><br/>現時点では、これらの番号を会議に使用できません。  |
-|国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |[公開/発行を取](contact-tns-service-desk.md) り消す電話番号の一覧については、TNS サービス デスクにお問い合わせください。 <br/> |
-|ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換する](contact-tns-service-desk.md) ユーザー番号の一覧については、TNS サービス デスクにお問い合わせください。 <br/> |
-|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには、 [TNS サービス デスクに手順を問い合わせください](contact-tns-service-desk.md)。|
+|Microsoft Teams管理センターに一覧表示されていない新しいユーザーまたはサービスの電話番号を取得します。 |シンガポールでは、Microsoft Teams管理センターを使用して組織の電話番号を取得できます。 また、フォームをダウンロードして新しい電話番号要求を送信し、 [手順については TNS サービス デスクにお問い合わせください](contact-tns-service-desk.md)。<br/><br/>[シンガポール (v.1.0) (en-sg) の新しい電話番号要求](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true)。 <br/><br/>電話番号を割り当てる前に、次のいずれかの顧客フォームをダウンロードする必要があります。<ul><li>[顧客のシンガポールを把握する - 中国語 v1.0 の zn-CN](https://download.microsoft.com/download/1/4/7/147324ac-06a5-4c7b-a38b-7efa0166fdf7/know-your-customer-for-singapore-(v1.0)-(zh-CN).pdf)</li><li>[シンガポールの顧客を把握する - Tamil v1.0 ta-IN](https://download.microsoft.com/download/b/4/8/b48457c1-cef1-4bc7-ae44-71c5302e5eb2/know-your-customer-for-singapore-(v1.0)-(ta-IN).pdf)</li><li>[お客様のシンガポールを知る - Malay v1.0 ms-MY](https://download.microsoft.com/download/f/5/9/f597a754-9478-4d5b-88af-a2a2fe5bbd62/know-your-customer-for-singapore-(v1.0)-(ms-MY).pdf)</li></ul>完全に完了し、 [手順については TNS サービス デスクにお問い合わせください](contact-tns-service-desk.md)。<br/><br/>新しい注文は、この市場への入力に 2 ~ 3 週間かかる場合があります。  |
+|Microsoft に転送された電話番号を取得します。  <br/> | このフォームをダウンロードします。 <br/>[シンガポールの承認状 (LOA) (すべての番号)(en-sg)](<https://download.microsoft.com/download/e/9/5/e959053a-4b35-49f9-a23e-7085575c46f2/LOA-EN-SG-TN.pdf>)<br/> <br/>必要事項を入力し、 [手順については TNS サービス デスクにお問い合わせください](contact-tns-service-desk.md)。 <br/><br/>この市場では、ポートの複雑さに応じて、転送に 1 ~ 6 週間かかる場合があります。 <br/><br/>現時点では、これらの番号を会議に使用することはできません。  |
+|国内の電話番号ディレクトリで、電話番号を発行/公開解除します。  <br/> |発行/非公開にする電話番号の一覧については[、TNS サービス デスクにお問い合わせください](contact-tns-service-desk.md)。 <br/> |
+|ユーザーの番号をサービス番号に変更します。  <br/> |サービス番号に変換するユーザー番号の一覧については、[TNS サービス デスクにお問い合わせください](contact-tns-service-desk.md)。 <br/> |
+|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには、 [TNS サービス デスクに問](contact-tns-service-desk.md)い合わせてください。|
    
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
