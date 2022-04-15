@@ -16,10 +16,10 @@ description: Microsoft 365 コンプライアンス センターの監査ログ�
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: cdca912b77969e4157af641076dc683c3d17921c
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2022
+ms.lasthandoff: 04/14/2022
 ms.locfileid: "63711331"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft Teams でイベントの監査ログを検索する
@@ -42,7 +42,7 @@ ms.locfileid: "63711331"
 
 ## <a name="turn-on-auditing-in-teams"></a>Teams で監査をオンにする
 
-監査データを確認できるようになるには、最初に Microsoft 365 コンプライアンス センターで監査をオンにする必要があります。 詳細については、「[監査のオンとオフを切り替える](/microsoft-365/compliance/turn-audit-log-search-on-or-off)」を参照してください。
+監査データを確認するには、まず Microsoft 365 コンプライアンス センターで監査を有効にする必要があります。詳細については、「[監査のオンとオフの切り替え](/microsoft-365/compliance/turn-audit-log-search-on-or-off)」 を参照してください。
 
 > [!IMPORTANT]
 > 利用できる監査データは、監査を有効にした時点以降のデータのみです。
@@ -128,7 +128,7 @@ tオーディオ ログ検索の使い方は、[こちらの動画](https://www.
 |メッセージ作成のために変更通知を送信しました <sup>1、</sup><sup>2</sup>  |MessageCreatedNotification |サブスクライブしているリスナー アプリケーションに、新しいメッセージを通知する変更通知が送信されました。|
 |メッセージ削除の変更通知を送信しました <sup>1、</sup><sup>2</sup>  |MessageDeletedNotification |サブスクライブしているリスナー アプリケーションに、メッセージが削除されたことを通知する変更通知が送信されました。|
 |メッセージ更新の変更通知を送信しました <sup>1、</sup><sup>2</sup>    |MessageUpdatedNotification |サブスクライブしているリスナー アプリケーションに、メッセージが更新されたことを通知する変更通知が送信されました。|
-|共有チャネルの招待を送信しました<sup>3</sup> | InviteSent |チャネルの所有者またはメンバーが共有チャネルへの招待を送信します。 チャネルを外部ユーザーと共有するようにチャネル ポリシーが構成されている場合、共有チャネルへの招待を組織外のユーザーに送信できます。  |
+|共有チャネルの招待を送信しました<sup>3</sup> | InviteSent |チャネルの所有者またはメンバーが、共有チャネルに招待を送信します。チャネル ポリシーが外部ユーザーとチャネルを共有するように構成されている場合は、共有チャネルへの招待を組織外のユーザーに送信できます。  |
 |メッセージの変更通知が登録されました <sup>1、</sup><sup>2</sup> |SubscribedToMessages   |メッセージの変更通知を受け取るためのサブスクリプションがリスナー アプリケーションによって作成されました。|
 |削除されたアプリ |AppUninstalled           |アプリがアンインストールされました。     |
 |更新されたアプリ |AppUpdatedInCatalog           |アプリがカタログで更新されました。     |

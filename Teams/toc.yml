@@ -369,10 +369,6 @@ items:
                 href: guest-experience.md
               - name: ゲスト アクセスをオンまたはオフにする
                 href: set-up-guests.md
-              - name: チームのゲストを表示する
-                href: view-guests.md
-              - name: ゲスト情報を編集する
-                href: edit-guests-information.md
       - name: 通話品質を監視および管理する
         items:
           - name: 通話品質を監視および改善する
@@ -1571,6 +1567,8 @@ items:
                 href: expand-teams-across-your-org/browser-join.md
               - name: 仮想訪問の使用状況レポート
                 href: teams-analytics-and-reports/virtual-visits-usage-report.md
+              - name: クライアントと顧客が仮想予定を使用できるようにする
+                href: expand-teams-across-your-org/virtual-appointments-toolkit.md
           - name: Teams の Shifts
             items:
               - name: Shifts の使用を開始する

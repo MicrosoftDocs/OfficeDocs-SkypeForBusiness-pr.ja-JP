@@ -1,5 +1,5 @@
 ---
-title: ブラウザーでのTeams Virtual Visits の参加エクスペリエンスを管理する
+title: ブラウザーで仮想予定をTeamsするための参加エクスペリエンスを管理する
 author: lanachin
 ms.author: v-lanachin
 manager: samanro
@@ -20,15 +20,15 @@ ms.collection:
 - m365solution-healthcare
 - m365solution-scenario
 ms.reviewer: hafarmer
-description: ブラウザーでのTeams Virtual Visits の参加エクスペリエンスについて説明します。
-ms.openlocfilehash: 276e33b16972f0543566014adf264fd12e45c4ae
-ms.sourcegitcommit: 1e8cff687b12348d4ecc538084ab57bbba23b523
+description: ブラウザーでのTeams仮想予定の参加エクスペリエンスについて説明します。
+ms.openlocfilehash: 418186734befa66f145ca56f883605715d83aa30
+ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "64703746"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64853308"
 ---
-# <a name="manage-the-join-experience-for-teams-virtual-visits-on-browsers"></a>ブラウザーでのTeams Virtual Visits の参加エクスペリエンスを管理する
+# <a name="manage-the-join-experience-for-teams-virtual-appointments-on-browsers"></a>ブラウザーで仮想予定をTeamsするための参加エクスペリエンスを管理する
 
 Microsoft Teamsを使用すると、Teamsをダウンロードしなくても、仮想予定に簡単に参加できます。 よりシームレスなエクスペリエンスを実現するために、出席者は、デスクトップまたはモバイル ブラウザーから、医療訪問や財務コンサルテーションなどの予定に参加できます。 出席者は、デバイスにTeams アプリをインストールする必要はありません。
 
@@ -68,7 +68,7 @@ Bookingsで [**新しい予約**] を選択し、[**出席者がブラウザー�
 
 **Cerner EHR との統合**: Teams EHR コネクタは、SMS テキスト メッセージのリンクを介して仮想予定に参加する患者をサポートします。 予定の時点で、患者は SMS テキスト メッセージのリンクをタップして参加でき、ブラウザーでTeams開きます。
 
-**エピック EHR との統合**: Teams EHR コネクタは、MyChart Web とモバイルを介して仮想予定に参加する患者をサポートします。 予約の時点で、患者は **[仮想** 訪問の開始] ボタンを使用して MyChart からの訪問を開始でき、ブラウザーでTeamsが開きます。
+**エピック EHR との統合**: Teams EHR コネクタは、MyChart Web とモバイルを介して仮想予定に参加する患者をサポートします。 予定の時点で、患者は **[仮想訪問の開始**] ボタンを使用して MyChart から予定を開始できます。ブラウザーでTeamsが開きます。
 
 ## <a name="supported-browsers"></a>サポートされているブラウザー
 
@@ -88,12 +88,12 @@ Bookingsで [**新しい予約**] を選択し、[**出席者がブラウザー�
 
 ## <a name="things-to-consider"></a>考慮すべき点
 
-訪問を行うスタッフメンバーは、デスクトップ、モバイル、または Web クライアントTeamsデスクトップ、モバイル ブラウザーから参加する出席者と画面を共有できます。 ただし、出席者はデスクトップまたはモバイル ブラウザーから画面を共有することはできません。
+予定を実施するスタッフメンバーは、デスクトップ、モバイル、または Web クライアントのTeams画面を、デスクトップまたはモバイル ブラウザーから参加する出席者と共有できます。 ただし、出席者はデスクトップまたはモバイル ブラウザーから画面を共有することはできません。
 
 ## <a name="related-articles"></a>関連記事
 
-- [TeamsとBookings アプリを使用した仮想アクセス](bookings-virtual-visits.md)
+- [TeamsとBookings アプリを使用した仮想予定](bookings-virtual-visits.md)
 - [Bookings予定の種類を作成する](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887)
 - [出席者としてBookings予定に参加する](https://support.microsoft.com/office/join-a-bookings-appointment-as-an-attendee-95cea12d-2220-421f-a663-6efb20913c7f)
-- [Teamsを使用した仮想アクセス - Cerner EHR への統合](healthcare/ehr-admin-cerner.md)
-- [Teamsを使用した仮想アクセス - エピック EHR への統合](healthcare/ehr-admin.md)
+- [Teamsを使用した仮想予定 - Cerner EHR への統合](healthcare/ehr-admin-cerner.md)
+- [Teamsを使用した仮想予定 - エピック EHR への統合](healthcare/ehr-admin.md)
