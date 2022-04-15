@@ -13,102 +13,102 @@ ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 法的手続きのためにすべての電子的に保存された情報を送信する必要がある場合など、電子情報開示を実行する必要がある場合の操作について説明します。
+description: 電子情報開示を実行する必要がある場合 (法的手続きのために電子的に保存されたすべての情報を送信する必要がある場合など) について説明します。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 85124047c5bb894eb4eb4177fad0e0cfee53dfc3
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: d0906e24cc4bb749779bf432fe27c9c2af6ac0e3
+ms.sourcegitcommit: 204e4654f2c3977db260670f3ee1784d1ad6ed17
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711771"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "64866202"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Microsoft Teams のコンテンツに対して電子情報開示の調査を行う
 
-多くの場合、大企業は、すべての電子的に保存された情報 (ESI) の提出を要求する高いペナルティ訴訟手続きにさらされます。 Microsoft Teamsコンテンツは、電子情報開示調査中に検索して使用できます。
+大企業は、多くの場合、すべての電子的に保存された情報 (ESI) の提出を要求する高いペナルティ訴訟手続きにさらされます。 Microsoft Teamsコンテンツは、電子情報開示の調査中に検索および使用できます。
 
 ## <a name="overview"></a>概要
 
-すべてのMicrosoft Teams 1:1 またはグループ チャットは、それぞれのユーザーのメールボックスにジャーナルされます。 すべての標準チャネル メッセージは、チームを表すグループ メールボックスにジャーナルされます。 標準チャネルでアップロードされたファイルは、SharePoint Online および OneDrive for Business の電子情報開示機能の下で扱OneDrive for Business。
+すべてのMicrosoft Teams 1:1 またはグループ チャットは、それぞれのユーザーのメールボックスに記録されます。 すべての標準チャネル メッセージは、チームを表すグループ メールボックスに記録されます。 標準チャネルでアップロードされたファイルについては、SharePoint Online およびOneDrive for Businessの電子情報開示機能に関するページを参照してください。
 
-プライベート チャネルでのメッセージとファイルの電子情報開示 [は、](private-channels.md) 標準チャネルとは異なる方法で動作します。 詳細については、「プライベート チャネル [の電子情報開示」を参照してください](#ediscovery-of-private-and-shared-channels)。
+[プライベート チャネル](private-channels.md)内のメッセージとファイルの電子情報開示は、標準チャネルとは異なります。 詳細については、「 [プライベート チャネルの電子情報開示](#ediscovery-of-private-and-shared-channels)」を参照してください。
 
-すべてのコンテンツTeams eDiscoverable ではありません。 次の表は、Microsoft 電子情報開示ツールを使用して検索できるコンテンツ タイプを示しています。
+すべてのTeamsコンテンツが eDiscoverable であるわけではありません。 次の表は、Microsoft 電子情報開示ツールを使用して検索できるコンテンツ タイプを示しています。
 
 | コンテンツの種類 | eDiscoverable | メモ |
 |:--- | :--- |:--- |
-|オーディオ録音 | いいえ | |
-|カードの内容|はい|詳細については [、「カードコンテンツを検索する](#search-for-card-content) 」を参照してください。|
+|録音 | いいえ | |
+|カードコンテンツ|Yes|詳細については、「 [カード コンテンツの検索](#search-for-card-content) 」を参照してください。|
 |チャット リンク | はい | |
-|チャット メッセージ | はい |これには、Standard Teams チャネルのコンテンツ、1 対 1 のチャット、1:N グループ チャット、ゲスト ユーザー参加者とのチャットが含まれます。  |
+|チャット メッセージ | Yes |これには、標準Teams チャネルのコンテンツ、1 対 1 のチャット、1 対 1 のグループ チャット、ゲスト ユーザー参加者とのチャットが含まれます。  |
 |コード スニペット | いいえ | |
-|編集されたメッセージ | はい | ユーザーが保留の場合、以前のバージョンの編集されたメッセージも保持されます。 |
+|編集されたメッセージ | はい | ユーザーが保留中の場合は、以前のバージョンの編集済みメッセージも保持されます。 |
 |絵文字、GIF、ステッカー | はい | |
 |フィード通知 | いいえ | |
-|インライン 画像 | はい | |
-|ループ コンポーネント| はい|ループ コンポーネント内のコンテンツは、ループ コンポーネントを送信するユーザーの OneDrive for Business アカウントに格納されている .fluid ファイルに保存されます。 つまり、ループ コンポーネント内のOneDriveを検索するときに、データ ソースとしてデータ ソースを含める必要があります。 |
-|IM 会話を会議する | はい | |
-|会議メタデータ<sup>1</sup> | はい |  |
+|インライン イメージ | Yes | |
+|Loop コンポーネント| Yes|ループ コンポーネント内のコンテンツは、ループ コンポーネントを送信するユーザーのOneDrive for Business アカウントに格納されている .fluid ファイルに保存されます。 つまり、ループ コンポーネント内のコンテンツを検索するときに、データ ソースとしてOneDriveを含める必要があります。 |
+|IM 会話の会議 | Yes | |
+|会議のメタデータ <sup>1</sup> | Yes |  |
 |チャネルの名前 | はい | |
-|プライベート チャネルと共有チャネルのチャット メッセージ | はい | |
-|引用符 | はい | 引用符で囲まれたコンテンツは検索可能です。 ただし、検索結果は、コンテンツが引用されたというわけではありません。 |
-|反応 (例: Likes、ハート、その他の反応) | いいえ | |
-|件名 | はい | |
-|テーブル | はい | |
+|プライベートおよび共有チャネル チャット メッセージ | はい | |
+|引用符 | Yes | 引用符で囲まれたコンテンツは検索可能です。 ただし、検索結果は、コンテンツが引用符で囲まれたことを示すわけではありません。 |
+|リアクション (いいね、ハート、その他の反応など) | いいえ | |
+|件名 | Yes | |
+|テーブル | Yes | |
 ||||
 
-<sup>1 会議</sup> (および通話) メタデータには、次が含まれます。
+<sup>1</sup> 会議 (および通話) メタデータには、次のものが含まれます。
 
 - 会議の開始時刻と終了時刻、および期間
-- 各参加者の会議への参加と退出のイベント
-- VOIP の参加/呼び出し
+- 各参加者の会議参加と退席イベント
+- VOIP 参加/呼び出し
 - 匿名結合
-- フェデレーション ユーザー参加
-- ゲスト ユーザーの参加
+- フェデレーション ユーザーの参加
+- ゲスト ユーザー参加
 
 会議中の参加者間のチャット会話の例を次に示します。
 
-![Teams での参加者間の会話。](media/MeetingIMConversations.png)
+![Teamsの参加者間の会話。](media/MeetingIMConversations.png)
 
 [!div class="mx-imgBorder"]
 
-電子情報開示ツールで表示された同じチャット会話のコンプライアンス コピーの例を次に示します。
+電子情報開示ツールで表示されたのと同じチャット会話のコンプライアンス コピーの例を次に示します。
 
 ![電子情報開示検索結果の参加者間の会話。](media/MeetingImConversation2.png)
 
 会議のメタデータの例を次に示します。
 
   > [!div class="mx-imgBorder"]
-  > ![コンプライアンス コピーの会議メタデータ。](media/conversationOption3.png)
+  > ![コンプライアンス コピーからの会議メタデータ。](media/conversationOption3.png)
 
-電子情報開示調査の実施の詳細については、「Core [eDiscovery の概要」を参照してください](/microsoft-365/compliance/get-started-core-ediscovery)。
+電子情報開示調査の実施の詳細については、「Core 電子情報開示[を使用した概要](/microsoft-365/compliance/get-started-core-ediscovery)」を参照してください。
 
-Microsoft Teams電子情報開示のエクスポート出力に、データが IM または会話Excel表示されます。 ファイルをエクスポートした後`.pst`、Outlookファイルを開き、それらのメッセージを表示できます。
+Microsoft Teamsデータは、Excel電子情報開示エクスポート出力に IM または Conversations として表示されます。 Outlookでファイルを`.pst`開くと、エクスポート後にそれらのメッセージを表示できます。
 
-チームの .pst ファイルを表示すると、すべての会話が [会話履歴] の [チーム チャット] フォルダーに置きます。 メッセージのタイトルには、チーム名とチャネル名が含まれている。 たとえば、次の図は、製造仕様チームの Project 7 標準チャネルにメッセージを送信した Bob からのメッセージを示しています。
+チームの .pst ファイルを表示すると、すべての会話が [会話履歴] の [チーム チャット] フォルダーに配置されます。 メッセージのタイトルには、チーム名とチャネル名が含まれています。 たとえば、次の図は、製造仕様チームのProject 7 標準チャネルにメッセージを送信した Bob からのメッセージを示しています。
 
-![グループ内のユーザーのメールボックス内のチーム チャット フォルダー Outlook。](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
+![Outlookのユーザーのメールボックス内のチーム チャット フォルダーのスクリーンショット。](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
 
-ユーザーのメールボックス内のプライベート チャットは、[会話履歴] の [チーム チャット] フォルダーに保存されます。
+ユーザーのメールボックス内のプライベート チャットは、[会話履歴] の [チーム チャット] フォルダーに格納されます。
 
 ## <a name="ediscovery-of-private-and-shared-channels"></a>プライベート チャネルと共有チャネルの電子情報開示
 
 プライベート チャネルと共有チャネル内のメッセージのコンプライアンス コピーは、チャネルの種類に応じて異なるメールボックスに送信されます。 つまり、ユーザーがメンバーであるチャネルの種類に基づいて、さまざまなメールボックスの場所を検索する必要があります。
 
-- **プライベート チャネル**。 コンプライアンス コピーは、プライベート チャネル メンバーのすべてのメンバーのメールボックスに送信されます。 つまり、プライベート チャネル メッセージ内のコンテンツを検索するときに、ユーザー メールボックスを検索する必要があります。
+- **プライベート チャネル**。 コンプライアンス コピーは、プライベート チャネル メンバーのすべてのメンバーのメールボックスに送信されます。 つまり、プライベート チャネル メッセージでコンテンツを検索するときに、ユーザー メールボックスを検索する必要があります。
 
-- **共有チャネル**。 コンプライアンス コピーは、親チームに関連付けられているシステム メールボックスに送信されます。 Teams は共有チャネルの 1 つのシステム メールボックスの電子情報開示検索をサポートしないので、共有チャネルでメッセージ コンテンツを検索するときに、親チームのメールボックスを検索する (チーム メールボックスの名前を選択する) 必要があります。
+- **共有チャネル**。 コンプライアンス コピーは、親チームに関連付けられているシステム メールボックスに送信されます。 Teamsは共有チャネルの単一システム メールボックスの電子情報開示検索をサポートしていないため、共有チャネルでメッセージ コンテンツを検索する場合は、親チームのメールボックスを検索する必要があります (チーム メールボックスの名前を選択)。
 
-各プライベート チャネルと共有チャネルには、SharePointチーム サイトとは別の独自のサイトがあります。 つまり、プライベート チャネルと共有チャネル内のファイルは、独自のサイトに保存され、親チームとは独立して管理されます。 つまり、ファイル内のコンテンツとチャネル メッセージの添付ファイルを検索する際に、チャネルに関連付けられている特定のサイトを特定して検索する必要があります。
+各プライベート チャネルと共有チャネルには、親チーム サイトとは別の独自のSharePoint サイトがあります。 つまり、プライベート チャネルと共有チャネル内のファイルは、独自のサイトに格納され、親チームとは独立して管理されます。 つまり、ファイル内のコンテンツとチャネル メッセージの添付ファイルを検索するときに、チャネルに関連付けられている特定のサイトを特定して検索する必要があります。
 
-電子情報開示検索に含めるプライベート チャネルまたは共有チャネルを識別するには、次のセクションを使用します。
+電子情報開示検索に含めるプライベート チャネルまたは共有チャネルを特定するには、次のセクションを使用します。
 
 ### <a name="identifying-the-members-of-a-private-channel"></a>プライベート チャネルのメンバーの識別
 
-このセクションの手順を使用して、プライベート チャネルのメンバーを識別し、電子情報開示ツールを使用して、メンバーのメールボックスでプライベート チャネル メッセージ内のコンテンツを検索できます。
+このセクションの手順を使用してプライベート チャネルのメンバーを識別し、電子情報開示ツールを使用してメンバーのメールボックスでプライベート チャネル メッセージ内のコンテンツを検索できるようにします。
 
-これらの手順を実行する前に、[PowerShell](teams-powershell-overview.md) モジュールの最新バージョンTeams確認してください。
+これらの手順を実行する前に、[Teams PowerShell モジュールの最新バージョンが](teams-powershell-overview.md)インストールされていることを確認してください。
 
 1. 次のコマンドを実行して、検索する共有チャネルを含むチームのグループ ID を取得します。
 
@@ -117,7 +117,7 @@ Microsoft Teams電子情報開示のエクスポート出力に、データが I
    ```
 
    > [!TIP]
-   > パラメーターを **指定せずに Get-Team** コマンドレットを実行し、組織内のすべてのTeams一覧を表示します。 一覧には、すべてのチームのグループ ID と DisplayName が含まれている。
+   > パラメーターを指定せずに **Get-Team** コマンドレットを実行して、組織内のすべてのTeamsの一覧を表示します。 リストには、すべてのチームのグループ ID と DisplayName が含まれています。
 
 2. 次のコマンドを実行して、親チームのプライベート チャネルの一覧を取得します。 手順 1 で取得したチームのグループ ID を使用します。
 
@@ -125,30 +125,30 @@ Microsoft Teams電子情報開示のエクスポート出力に、データが I
     Get-TeamChannel -GroupId <parent team GroupId> -MembershipType Private
    ```
 
-3. 次のコマンドを実行して、特定のプライベート チャネルのプライベート チャネル所有者とメンバーの一覧を取得します。
+3. 次のコマンドを実行して、特定のプライベート チャネルのプライベート チャネルの所有者とメンバーの一覧を取得します。
 
    ```PowerShell
     Get-TeamChannelUser -GroupId <parent team GroupId> -DisplayName "Partner Shared Channel"
    ```
 
-4. プライベート チャネルの所有者とメンバーのメールボックスを[、Core eDiscovery](/microsoft-365/compliance/search-for-content-in-core-ediscovery) の電子情報開示検索クエリの一部として、または Advanced eDiscovery で管理人のコンテンツを識別して収集するときに含[める。](/microsoft-365/compliance/add-custodians-to-case)
+4. [Core 電子情報開示の電子情報開示検索クエリ](/microsoft-365/compliance/search-for-content-in-core-ediscovery)の一部として、または[Advanced eDiscoveryでカストディアン コンテンツを識別して収集](/microsoft-365/compliance/add-custodians-to-case)する場合は、プライベート チャネルの所有者とメンバーのメールボックスを含めます。
 
-### <a name="identifying-the-sharepoint-site-for-private-and-shared-channels"></a>プライベート チャネルSharePoint共有チャネルのサイトを識別する
+### <a name="identifying-the-sharepoint-site-for-private-and-shared-channels"></a>プライベート チャネルと共有チャネルのSharePoint サイトを識別する
 
-前に説明したように、プライベート チャネルと共有チャネルで共有されているファイル (およびチャネル メッセージに添付されたファイル) は、チャネルに関連付けられているサイト コレクションに格納されます。 このセクションの手順を使用して、特定のプライベート チャネルまたは共有チャネルに関連付けられているサイトの URL を特定します。 その後、電子情報開示ツールを使用して、サイト内のコンテンツを検索できます。
+前述のように、プライベート チャネルと共有チャネルで共有されたファイル (およびチャネル メッセージに添付されたファイル) は、チャネルに関連付けられたサイト コレクションに格納されます。 このセクションの手順を使用して、特定のプライベート チャネルまたは共有チャネルに関連付けられているサイトの URL を特定します。 次に、電子情報開示ツールを使用してサイト内のコンテンツを検索できます。
 
-これらの手順を実行する前に[、SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online) をインストールし、SharePointします。
+これらの手順を実行する前[に、SharePoint Online Management Shell をインストールし、SharePoint Online に接続](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)します。
 
-1. 必要に応じて、次のコマンドを実行して、親SharePoint共有チャネルに関連付けられているすべてのサイト コレクションの一覧を取得します。
+1. 必要に応じて、次を実行して、親チームの共有チャネルに関連付けられているすべてのSharePoint サイト コレクションの一覧を取得します。
 
    ```PowerShell
     Get-SPOSite
    ```
 
    > [!TIP]
-   > プライベート チャネルと共有チャネルに関連付けられているサイトの URL の名前付け規則は です `[SharePoint domain]/sites/[Name of parent team]-[Name of private or shared channel]`。 たとえば、Contoso 組織の "エンジニア チーム" 親チームにある "パートナー コラボレーション" という名前の共有チャネルの URL は です `https://contoso.sharepoint.com/sites/EngineeringTeam-PartnerCollaboration`。
+   > プライベート チャネルと共有チャネルに関連付けられているサイトの URL の名前付け規則は次のとおりです `[SharePoint domain]/sites/[Name of parent team]-[Name of private or shared channel]`。 たとえば、Contoso 組織の "エンジニア チーム" 親チームにある "パートナー コラボレーション" という名前の共有チャネルの URL は `https://contoso.sharepoint.com/sites/EngineeringTeam-PartnerCollaboration`.
 
-2. 次の PowerShell コマンドを実行して、組織内のプライベート チャネルSharePointに関連付けられているすべてのサイトの URL を表示します。 スクリプトの出力には、手順 3 でコマンドを実行する必要がある親チームのグループ ID も含まれています。
+2. 次の PowerShell コマンドを実行して、組織内のプライベート チャネルと共有チャネルに関連付けられているすべてのSharePoint サイトの URL を表示します。 スクリプトの出力には、親チームのグループ ID も含まれています。これは、手順 3. のコマンドを実行する必要があります。
 
     ```PowerShell
     $sites = Get-SPOSite -Template "TEAMCHANNEL#1"
@@ -156,9 +156,9 @@ Microsoft Teams電子情報開示のエクスポート出力に、データが I
     ```
 
    > [!NOTE]
-   > SharePoint 2021 `"TEAMCHANNEL#0"` 年 6 月 28 日より前に作成されたプライベート チャネルのサイトでは、カスタム テンプレート ID の値が使用されます。 この日付より後に作成されたプライベート チャネルを表示するには、前の `"TEAMCHANNEL#1"` 2 つのスクリプトを実行するときに 値を使用します。 共有チャネルでは、 の値のみを使用します `"TEAMCHANNEL#1"`。
+   > 2021 年 6 月 28 日より前に作成されたプライベート チャネルのサイトSharePoint、カスタム テンプレート ID の値`"TEAMCHANNEL#0"`を使用します。 この日以降に作成されたプライベート チャネルを表示するには、前の 2 つのスクリプトを実行するときに値 `"TEAMCHANNEL#1"` を使用します。 共有チャネルでは、 `"TEAMCHANNEL#1"`.
 
-3. 親チームごとに、次の PowerShell `$groupID` コマンドを実行してプライベート チャネル サイトと共有チャネル サイトを識別します。親チームのグループ ID は です。
+3. 親チームごとに、次の PowerShell コマンドを実行して、プライベート チャネル サイトと共有チャネル サイト (親チームのグループ ID) `$groupID` を識別します。
 
     ```PowerShell
     $sites = Get-SPOSite -Template "TEAMCHANNEL#1"
@@ -166,83 +166,91 @@ Microsoft Teams電子情報開示のエクスポート出力に、データが I
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
     ```
 
-4. プライベート チャネルまたは共有チャネルに関連付けられているサイトを[、Core eDiscovery](/microsoft-365/compliance/search-for-content-in-core-ediscovery) の電子情報開示検索クエリの一部として、または Advanced eDiscovery で管理人のコンテンツを識別して収集[するときに含める](/microsoft-365/compliance/add-custodians-to-case)。
+4. [Core 電子情報開示の電子情報開示検索クエリ](/microsoft-365/compliance/search-for-content-in-core-ediscovery)の一部として、または[Advanced eDiscoveryでカストディアン コンテンツを識別して収集](/microsoft-365/compliance/add-custodians-to-case)する場合は、プライベートチャネルまたは共有チャネルに関連付けられているサイトを含めます。
 
 ## <a name="search-for-content-for-guest-users"></a>ゲスト ユーザーのコンテンツを検索する
 
-電子情報開示ツールを使用して、組織内のTeamsに関連するコンテンツを検索できます。 Teamsに関連付けられているチャット コンテンツは、クラウドベースの保存場所に保持され、電子情報開示を使用して検索できます。 これには、ゲスト ユーザーが組織内の他のユーザーと参加者である 1:1 と 1:N のチャット会話内のコンテンツの検索が含まれます。 ゲスト ユーザーが参加者であるプライベート チャネル メッセージを検索し、ゲスト *と* ゲスト チャットの会話でコンテンツを検索することもできます。この会話では、参加者はゲスト ユーザーのみです。
+電子情報開示ツールを使用して、組織内のゲスト ユーザーに関連するTeamsコンテンツを検索できます。 Teamsゲスト ユーザーに関連付けられているチャット コンテンツはクラウドベースの保存場所に保持され、電子情報開示を使用して検索できます。 これには、ゲスト ユーザーが組織内の他のユーザーとの参加者である 1:1 と 1:N のチャット会話でコンテンツを検索することが含まれます。 また、ゲスト ユーザーが参加者であるプライベート チャネル メッセージを検索し、ゲストユーザーのみがゲスト ユーザーである *ゲスト チャット* 会話でコンテンツを検索することもできます。
 
 ゲスト ユーザーのコンテンツを検索するには:
 
-1. Connect PowerShell をAzure ADする方法について説明します。 手順については、「PowerShell を使用したConnect」の「Azure Active Directory PowerShell を使用したConnect[」Microsoft 365参照してください](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)。 前のトピックの手順 1 と手順 2 を必ず完了してください。
+1. PowerShell のAzure ADにConnectします。 手順については、PowerShell でMicrosoft 365するConnectの「[Azure Active Directory PowerShell を使用したConnect](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)」セクションを参照してください。 前の記事の手順 1 と手順 2 を必ず完了してください。
 
-2. PowerShell に正常にAzure ADしたら、次のコマンドを実行して、組織内のすべてのゲスト ユーザーのユーザー プリンシパル名 (UPN) を表示します。 手順 4 で検索を作成するときに、ゲスト ユーザーの UPN を使用する必要があります。
+2. Azure AD PowerShell に正常に接続したら、次のコマンドを実行して、組織内のすべてのゲスト ユーザーのユーザー プリンシパル名 (UPN) を表示します。 手順 4. で検索を作成するときは、ゲスト ユーザーの UPN を使用する必要があります。
 
    ```powershell
    Get-AzureADUser -Filter "userType eq 'Guest'" -All $true | FL UserPrincipalName
    ```
 
    > [!TIP]
-   > コンピューターの画面にユーザー プリンシパル名の一覧を表示する代わりに、コマンドの出力をテキスト ファイルにリダイレクトできます。 これを行うには、前のコマンドに `> filename.txt` を追加します。 ユーザー プリンシパル名を持つテキスト ファイルは、現在のフォルダーに保存されます。
+   > コンピューター画面にユーザー プリンシパル名の一覧を表示する代わりに、コマンドの出力をテキスト ファイルにリダイレクトできます。 これを行うには、前の `> filename.txt` コマンドに追加します。 ユーザー プリンシパル名を含むテキスト ファイルは、現在のフォルダーに保存されます。
 
-3. 別のウィンドウWindows PowerShell、Security & Compliance Center PowerShell に接続します。 手順については、「Security [Connect Compliance Center PowerShell &」を参照してください](/powershell/exchange/connect-to-scc-powershell)。 多要素認証を使用する場合と接続せずに接続できます。
+3. 別のWindows PowerShell ウィンドウで、Security & Compliance Center PowerShell に接続します。 手順については、「[セキュリティ & コンプライアンス センター PowerShell のConnect](/powershell/exchange/connect-to-scc-powershell)」を参照してください。 多要素認証の有無にかかわらず接続できます。
 
-4. 次のコマンドを実行して、指定されたゲスト ユーザーが参加者だったすべてのコンテンツ (チャット メッセージや電子メール メッセージなど) を検索するコンテンツ検索を作成します。
+4. 次のコマンドを実行して、指定したゲスト ユーザーが参加者であったすべてのコンテンツ (チャット メッセージや電子メール メッセージなど) を検索するコンテンツ検索を作成します。
 
    ```powershell
    New-ComplianceSearch <search name> -ExchangeLocation <guest user UPN>  -AllowNotFoundExchangeLocationsEnabled $true -IncludeUserAppContent $true
    ```
 
-   たとえば、ゲスト ユーザー Sara Davis に関連付けられているコンテンツを検索するには、次のコマンドを実行します。
+   たとえば、ゲスト ユーザーのサラ デビスに関連付けられているコンテンツを検索するには、次のコマンドを実行します。
 
    ```powershell
    New-ComplianceSearch "Sara Davis Guest User" -ExchangeLocation "sara.davis_hotmail.com#EXT#@contoso.onmicrosoft.com" -AllowNotFoundExchangeLocationsEnabled $true -IncludeUserAppContent $true
    ```
 
-    PowerShell を使用してコンテンツ検索を作成する方法の詳細については、「 [New-ComplianceSearch」を参照してください](/powershell/module/exchange/new-compliancesearch)。
+    PowerShell を使用してコンテンツ検索を作成する方法の詳細については、「 [New-ComplianceSearch」を](/powershell/module/exchange/new-compliancesearch)参照してください。
 
-5. 次のコマンドを実行して、手順 4 で作成したコンテンツ検索を開始します。
+5. 次のコマンドを実行して、手順 4. で作成したコンテンツ検索を開始します。
 
    ```powershell
    Start-ComplianceSearch <search name>
    ```
 
-6. に移動し [https://compliance.microsoft.com](https://compliance.microsoft.com)、[Show **allContent** >  **search]をクリックします**。
+6. [Show **allContent search**] ([https://compliance.microsoft.com](https://compliance.microsoft.com)**AllContent** >  検索の表示) に移動してクリックします。
 
-7. 検索の一覧で、手順 4 で作成した検索を選択して、フライアウト ページを表示します。
+7. 検索の一覧で、手順 4. で作成した検索を選択してポップアップ ページを表示します。
 
-8. フライアウト ページでは、次の操作を行います。
+8. ポップアップ ページでは、次の操作を行うことができます。
 
    - [ **結果の表示]** をクリックして検索結果を表示し、コンテンツをプレビューします。
 
-   - [クエリ] **フィールドの横** にある [編集 **] をクリック** して編集し、検索を再実行します。 たとえば、検索クエリを追加して結果を絞り込むなどです。
+   - **[クエリ**] フィールドの横にある **[編集]** をクリックして編集し、検索を再実行します。 たとえば、検索クエリを追加して結果を絞り込むことができます。
 
-   - [結果 **のエクスポート]** をクリックして、検索結果をエクスポートしてダウンロードします。
+   - **[結果のエクスポート]** をクリックして、検索結果をエクスポートしてダウンロードします。
 
-## <a name="search-for-card-content"></a>カードコンテンツを検索する
+## <a name="search-for-card-content"></a>カード コンテンツを検索する
 
-Teams チャネル、1 対 1 のチャット、および 1xN チャットのアプリによって生成されたカード コンテンツは、メールボックスに格納され、検索できます。 カード *は* 、短いコンテンツの UI コンテナーです。 カードには複数のプロパティと添付ファイルを含め、カードアクションをトリガーできるボタンを含めることができます。 詳細については、「カード」を [参照してください。](/microsoftteams/platform/task-modules-and-cards/what-are-cards)
+Teams チャネル、1 対 1 チャット、および 1xN チャットでアプリによって生成されたカード コンテンツは、メールボックスに格納され、検索できます。 *カード* は、短いコンテンツの UI コンテナーです。 カードには複数のプロパティと添付ファイルを含めることができます。また、カードアクションをトリガーできるボタンを含めることができます。 詳細については、「[カード](/microsoftteams/platform/task-modules-and-cards/what-are-cards)」を参照してください。
 
-他のTeamsコンテンツと同様に、カードコンテンツが格納される場所は、カードが使用された場所に基づいて行います。 チャネルで使用されるカードのTeamsは、グループ メールボックスTeams保存されます。 1 対 1 および 1xN のチャットのカード コンテンツは、チャット参加者のメールボックスに保存されます。
+他のTeams コンテンツと同様に、カード コンテンツが保存される場所は、カードが使用された場所に基づいています。 Teams チャネルで使用されるカードのコンテンツは、Teams グループ メールボックスに格納されます。 1:1 および 1xN チャットのカード コンテンツは、チャット参加者のメールボックスに格納されます。
 
-カードコンテンツを検索するには、 または 検索条件 `kind:microsoftteams` を `itemclass:IPM.SkypeTeams.Message` 使用します。 検索結果を確認すると、Teams チャネル内のボットによって生成されたカード コンテンツは、Sender **/Author** メール プロパティとして として設定されます`<appname>@teams.microsoft.com``appname`。ここでは、カード コンテンツを生成したアプリの名前です。 カードコンテンツがユーザーによって生成された場合、 **Sender/Author** の値はユーザーを識別します。
+カード コンテンツを検索するには、検索条件を`itemclass:IPM.SkypeTeams.Message`使用`kind:microsoftteams`します。 検索結果を確認するときに、Teams チャネル内のボットによって生成されたカード コンテンツには Sender **/Author** 電子メール プロパティがあります。この`appname`プロパティ`<appname>@teams.microsoft.com`は、カード コンテンツを生成したアプリの名前です。 カードコンテンツがユーザーによって生成された場合、 **Sender/Author** の値はユーザーを識別します。
 
-コンテンツ検索結果でカードコンテンツを表示すると、そのコンテンツがメッセージの添付ファイルとして表示されます。 添付ファイルの名前は `appname.html`です。ここで `appname` は、カードコンテンツを生成したアプリの名前です。 次のスクリーンショットは、(Asana という名前のアプリの) カード コンテンツが検索の結果Teamsに表示される方法を示しています。
+コンテンツ検索結果でカード コンテンツを表示すると、コンテンツはメッセージの添付ファイルとして表示されます。 添付ファイルの名前 `appname.html`は、 `appname` カード コンテンツを生成したアプリの名前です。 次のスクリーンショットは、(Asana という名前のアプリの) カード コンテンツがTeamsと検索結果にどのように表示されるかを示しています。
 
-### <a name="card-content-in-teams"></a>[カードコンテンツ] Teams
+### <a name="card-content-in-teams"></a>Teamsのカード コンテンツ
 
-![チャネル メッセージTeamsコンテンツ。](media/CardContentTeams.png)
+![Teams チャネル メッセージ内のカード コンテンツ。](media/CardContentTeams.png)
 
 ### <a name="card-content-in-search-results"></a>検索結果のカード コンテンツ
   
 ![コンテンツ検索の結果と同じカード コンテンツ。](media/CardContentEdiscoverySearchResults.png)
 
 > [!NOTE]
-> この時点でカードコンテンツの画像を検索結果に表示するには (前のスクリーンショットのチェックマークなど)、(検索結果の表示に使用したのと同じブラウザー セッションの別のタブで) https://teams.microsoft.com) Teams にサインインする必要があります。 それ以外の場合は、画像プレースホルダーが表示されます。
+> この時点で検索結果にカード コンテンツの画像 (前のスクリーンショットのチェックマークなど) を表示するには、(検索結果の表示に使用したのと同じブラウザー セッションの別のタブでhttps://teams.microsoft.com)) Teamsにサインインする必要があります。 それ以外の場合は、画像プレースホルダーが表示されます。
+
+## <a name="ediscovery-in-federated-and-non-federated-environments"></a>フェデレーション環境と非フェデレーション環境での電子情報開示
+
+管理者は、電子情報開示を使用して、次の制限に基づいて、フェデレーション (*外部アクセス* と呼ばれる) 環境と非フェデレーション (*ゲスト アクセス* と呼ばれる) 環境のTeams会議のチャット メッセージ内のコンテンツを検索できます。
+
+- **フェデレーション**: 組織のユーザーと外部組織のユーザー (組織内の外部アクセス権を持つユーザー) とのTeams会議では、両方の組織の管理者が会議のチャット メッセージでコンテンツを検索できます。
+
+- **非フェデレーション**: 組織のユーザーとゲスト ユーザーとのTeams会議では、Teams会議をホストする組織内の管理者のみが、会議のチャット メッセージ内のコンテンツを検索できます。
 
 ## <a name="related-topics"></a>関連項目
 
 - [Microsoft 365電子情報開示ソリューション](/microsoft-365/compliance/ediscovery)
-- [Core eDiscovery の使用](/microsoft-365/compliance/get-started-core-ediscovery)
-- [TeamsワークフローのAdvanced eDiscovery](/microsoft-365/compliance/teams-workflow-in-advanced-ediscovery)
+- [Core 電子情報開示を使用した概要](/microsoft-365/compliance/get-started-core-ediscovery)
+- [Advanced eDiscoveryでワークフローをTeamsする](/microsoft-365/compliance/teams-workflow-in-advanced-ediscovery)
 - [Teams PowerShell の概要](teams-powershell-overview.md)

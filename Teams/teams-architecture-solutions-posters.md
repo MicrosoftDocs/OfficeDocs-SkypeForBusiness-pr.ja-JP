@@ -16,12 +16,12 @@ search.appverid:
 f1.keywords:
 - NOCSH
 description: '概要: Microsoft Teams をリードする Microsoft 365 での生産性サービスの論理的なアーキテクチャについて説明します。また、Teams 音声ソリューションについても説明します。'
-ms.openlocfilehash: ec608f192c08a33b9505008eacb6f6549780e7bd
-ms.sourcegitcommit: abe942c294ed5fca70efdf039d38d611b9c21fe9
+ms.openlocfilehash: 6ac6f7f88ec838b445d382dbc6ba8d5ee4ec1bcf
+ms.sourcegitcommit: 204e4654f2c3977db260670f3ee1784d1ad6ed17
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63564749"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "64866192"
 ---
 # <a name="microsoft-teams-it-architecture-and-voice-solutions-posters"></a>Microsoft Teams IT アーキテクチャと音声ソリューション ポスター
 
@@ -37,7 +37,7 @@ Team は、データ ガバナンス、セキュリティ、およびコンプ�
 
 これは、IT アーキテクトが Microsoft 365 のグループについて知っておくべきことです。 これらの図は、さまざまな種類のグループがどのように作成および管理されているか、そしていくつかのガバナンスの推奨事項を詳述しています。
 
-[![グループ インフォグラフィックのサムネイル。](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.pdf)  <br/> [PDF](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.pdf) | [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.vsdx)
+[![グループ インフォグラフィックのサムネイル。](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups-architecture-thumb.png)](https://download.microsoft.com/download/6/3/0/6309218f-a169-4f2d-af4c-2fe49e30ba17/msft-m365-groups.pdf)  <br/> [PDF](https://download.microsoft.com/download/6/3/0/6309218f-a169-4f2d-af4c-2fe49e30ba17/msft-m365-groups.pdf) | [Visio](https://download.microsoft.com/download/6/3/0/6309218f-a169-4f2d-af4c-2fe49e30ba17/msft-m365-groups.vsdx)
 
 ## <a name="microsoft-voice-solutions"></a>Microsoft 音声ソリューション
 
