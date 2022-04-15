@@ -1559,7 +1559,7 @@ items:
         items:
           - name: Teams の Bookings
             items:
-              - name: Teams と Bookings による仮想訪問
+              - name: Teams と Bookings を使用した仮想予定
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: Bookings アプリを管理する
                 href: bookings-app-admin.md
@@ -1683,15 +1683,15 @@ items:
         items:
           - name: 医療関係組織のための Teams の使用を開始する
             href: expand-teams-across-your-org/healthcare/teams-in-hc.md
-          - name: 仮想訪問
+          - name: 仮想予定
             items:
-              - name: Teams での仮想アクセス - Cerner EHR への統合
+              - name: Teams での仮想予定 - Cerner EHR への統合
                 href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
               - name: Teams での仮想アクセス - Epic EHR への統合
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
               - name: EHR 管理者レポート
                 href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
-              - name: Teams と Bookings による仮想訪問
+              - name: Teams と Bookings を使用した仮想予定
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: 仮想訪問の使用状況レポート
                 href: teams-analytics-and-reports/virtual-visits-usage-report.md
