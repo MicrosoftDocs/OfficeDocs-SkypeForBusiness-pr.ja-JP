@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62aa82c42acf3ca4477da6da60b1faec6c847be1
-ms.sourcegitcommit: 0d61ca384e7d76612743de41c8fea4729072fb5e
+ms.openlocfilehash: d17409a09cbadc535e3b7971d6224b4e2fcb678b
+ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/13/2022
-ms.locfileid: "64837450"
+ms.locfileid: "64839038"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Microsoft Teams の Reflect への IT 管理者ガイド
 
@@ -44,7 +44,7 @@ Microsoft 365 の一部として、Reflect は、[GDPR](/compliance/regulatory/g
 
 > [!TIP]
 > * [Microsoft トラストセンターの](https://www.microsoft.com/trust-center) にアクセスして、Microsoft でデータを保護している方法をご確認ください。
-> * [Microsoft コンプライアンス オファリング](/compliance/regulatory/offering-home) にアクセスして、Microsoft 365 がお客様の機関で規制コンプライアンス基準を満たすためにどのような役割を果たすかご確認ください。
+> * [Microsoft コンプライアンス オファリング](/compliance/regulatory/offering-home)にアクセスして、Microsoft 365 がお客様の機関で規制コンプライアンス基準を満たすためにどのような役割を果たすかご確認ください。
 
 ## <a name="data-collection-and-storage"></a>データの収集と記憶域
 データは教育機関に属しており、Microsoft が行うのはデータの収集と保存のみです。 Microsoft の担当者は、データ リカバリなど、サービスを維持するための監査された方法でコンプライアンスによって許可されている場合を除き、データにアクセスしたり、データを表示したりすることはできません。
@@ -81,4 +81,4 @@ Reflect を有効にしたら教師はクラスに移動し、**[新しい会話
 > このリンクから Reflect アプリを見つけることもできます。[https://aka.ms/getReflect](https://aka.ms/getReflect)
 
 > [!TIP]
-> 詳細については、「[Reflect サポート ページ](https://support.microsoft.com/topic/e9198f62-7860-4532-821f-53ef14afa79a)」 を参照してください。このページでは、教師と学生の両方に関するガイドラインを提供し、最初のリフレクション チェックインを作成する方法について説明します。
+> 詳細については、「[Reflect サポート ページ](https://support.microsoft.com/topic/e9198f62-7860-4532-821f-53ef14afa79a)」を参照してください。このページでは、教師と学生の両方に関するガイドラインを提供し、最初のリフレクション チェックインを作成する方法について説明します。

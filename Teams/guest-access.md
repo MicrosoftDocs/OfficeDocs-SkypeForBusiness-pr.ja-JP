@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams でのゲスト アクセスにより、組織内のチームは組織外の人にチームおよびチャネルへのアクセス権を付与することで、それらの人と共同作業することができるようになります。
-ms.openlocfilehash: 99a17d521f0d244083c527803916bf8946730789
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: d7f850855ab131267b20bae07b015127777a21f4
+ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711451"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "64839068"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセス
 
@@ -35,7 +35,7 @@ ms.locfileid: "63711451"
 
 ゲストとは、組織の学校または職場アカウントを持っていないユーザーです。 たとえば、ゲストにはパートナー、製造元、供給元、コンサルタントなどが含まれます。 自分の組織に属していないユーザーを Teams のゲストとして追加することができます。 これは、ビジネス アカウント (すなわち、Azure Active Directory アカウント) または通常のメール アカウント (Outlook.com、Gmail.com、他) を持つすべてのユーザーが、チームとチャネルの操作や機能にアクセスできるゲストとして、Teams に参加できることを意味します。
 
-Teams にゲストを招待すると、ゲスト アカウントが Azure Active Directory に作成され、他の Microsoft 365 ユーザーと同じコンプライアンスと監査保護の対象になります。 ゲスト アクセスは Azure AD および Microsoft 365 のサービス制限の対象になります。
+Teams にゲストを招待すると、ゲスト アカウントが Azure Active Directory に作成され、他の Microsoft 365 ユーザーと同じコンプライアンスと監査保護の対象になります。ゲスト アクセスは Azure AD および Microsoft 365 のサービス制限の対象になります。
 
 ゲストのエクスペリエンスには、仕様上の制限があります。ゲストが Teams で実行できる操作と実行できない操作の一覧は、「[Microsoft Teams のゲスト アクセス](guest-experience.md)」を参照してください。
 
@@ -44,7 +44,7 @@ Teams にゲストを招待すると、ゲスト アカウントが Azure Active
 
 外部アクセス (フェデレーション) とゲスト アクセスを比較する (および使用するアクセスを決定する) には、「[Teams の他の組織のユーザーと通信する](communicate-with-users-from-other-organizations.md)」をご覧ください。
 
-共有チャネルを使用すると、ゲスト アクセスの代替手段が提供されるため、Azure AD でゲスト アカウントを必要とせずに、組織外のユーザーを招待できます。 ゲスト アクセスと共有チャネルを比較するには、「[外部コラボレーションを計画する](/microsoft-365/solutions/plan-external-collaboration)」を参照してください。
+共有チャネルを使用すると、ゲスト アクセスの代替手段が提供されるため、Azure AD でゲスト アカウントを必要とせずに、組織外のユーザーを招待できます。ゲスト アクセスと共有チャネルを比較するには、「[外部コラボレーションを計画する](/microsoft-365/solutions/plan-external-collaboration)」を参照してください。
 
 ゲスト アクセスを設定する方法については、「[チームでゲストと共同作業する](/microsoft-365/solutions/collaborate-as-team)」を参照してください。 
 
@@ -59,12 +59,6 @@ Teams でのゲスト アクセスには、Azure AD、Microsoft 365 グループ
 > Microsoft Teams の管理者であり、ゲスト アクセスで問題が発生している場合は、以下の **[テストの実行]** を選択します。それにより、Microsoft 365 管理センターにゲスト アクセス診断が表示されます。 これらのテストでは、構成を確認し、テナントのゲスト アクセスを有効にするための次の手順をすばやくお勧めします。
 >> [!div class="nextstepaction"]
 >> [テストの実行: ゲスト アクセス](https://aka.ms/TeamsGuestAccessDiagDMC)
-
-### <a name="turning-guest-access-off"></a>ゲスト アクセスをオフにする
-
-Teams でゲスト アクセスをオフにすると、既存のゲストはチームにアクセスできなくなります。 ただし、チームから削除されることはありません。 チーム内のユーザーには引き続き表示され、@メンションできます。 Teams のゲスト アクセスを再度オンにすると、アクセスを回復します。
-
-ゲスト アクセスをオフのままにする場合は、チームの所有者に、チームからゲスト アカウントを手動で削除するようにアドバイスすることをお勧めします。 これらのゲストはアクセスできませんが、チーム内にアカウントが表示されると、チーム内の他のユーザーが混乱する可能性があります。
 
 ## <a name="how-a-guest-gets-added-to-a-team"></a>ゲストをチームに追加する方法
 
