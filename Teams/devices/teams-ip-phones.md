@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 最適な結果を生み出すためにMicrosoft Teamsが認定されているデスクと会議の電話について説明します。
-ms.openlocfilehash: cd49aaab92f4f665d66b1c12b9d29c20c8d5dff3
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 353b96f1270ac1f7e52d454f76821b321c60a3e9
+ms.sourcegitcommit: 5bfd2e210617e4388241500eeda7b50d5f2a0ba3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839028"
+ms.lasthandoff: 04/16/2022
+ms.locfileid: "64885015"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams認定された Android デバイス
 
@@ -117,7 +117,7 @@ Android 認定プログラムのMicrosoft Teams Roomsでは、次のデバイス
 
 | 製品リリース | リリース日  | Microsoft Teams アプリのバージョン | ポータル サイト バージョン | 管理エージェントのバージョン |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
-| 2022 Update #2A  | 2022 年 4 月 13 日   | `1449/1.0.96.2022041102` |`5.0.5304.0` | `322` |
+| 2022 Update #2A  | 2022 年 4 月 13 日   | `1449/1.0.94.2022041102` |`5.0.5304.0` | `322` |
 | 2022 更新プログラム #2   | 2022 年 3 月 21 日   | `1449/1.0.94.2022030501` |`5.0.5304.0` | `322` |
 | 2022 Update #1C  | 2022 年 3 月 3 日  | `1449/1.0.94.2022022305` |`5.0.5304.0` | `322` |
 | 2022 Update #1B  | 2022 年 2 月 7 日   | `1449/1.0.94.2022020202` |`5.0.5304.0` | `322` |

@@ -1,5 +1,5 @@
 ---
-title: 会議室と共有デバイスのリソース アカウントTeamsする
+title: 会議室と共有Teamsデバイスのリソース アカウントを作成する
 ms.author: czawideh
 author: cazawideh
 manager: serdars
@@ -14,114 +14,119 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: Microsoft Teams Rooms、Teams Rooms on Surface Hub、Teams ディスプレイでのホット デスクなど、会議室と共有デバイスのリソース アカウントを作成する方法については、この記事を参照してください。
-ms.openlocfilehash: e7525a9e9ec6737bab18de4351675d567b61611b
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+description: Microsoft Teams Rooms、Surface HubのTeams Rooms、Teams ディスプレイでのホット デスクなど、会議室と共有デバイスのリソース アカウントを作成する方法については、この記事を参照してください。
+ms.openlocfilehash: e788ca2086faf86f602ef0938d520ea03dce4ef4
+ms.sourcegitcommit: 5bfd2e210617e4388241500eeda7b50d5f2a0ba3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514548"
+ms.lasthandoff: 04/16/2022
+ms.locfileid: "64885025"
 ---
-# <a name="create-and-configure-resource-accounts-for-rooms-and-shared-teams-devices"></a>会議室と共有デバイスのリソース アカウントを作成Teams構成する
+# <a name="create-and-configure-resource-accounts-for-rooms-and-shared-teams-devices"></a>会議室と共有Teamsデバイスのリソース アカウントを作成および構成する
 
-この記事では、共有スペースとデバイスのリソース アカウントを作成する手順について説明します。また、Microsoft Teams Rooms on Windows、Teams Rooms on Android、Teams Rooms on Surface Hub、および Teams ディスプレイでのホットデスクを構成する手順について説明します。
+この記事では、共有スペースとデバイスのリソース アカウントを作成する手順と、Windows、Android でのTeams Rooms、Surface HubでのTeams Rooms、ホットデスクのMicrosoft Teams Rooms用のリソース アカウントを構成する手順について説明します。Teamsが表示されます。
 
-Microsoft 365アカウントは、会議室Teamsプロジェクターなどの特定のリソース専用のメールボックス アカウントとリソース アカウントです。 これらのリソース アカウントは、作成時に定義したルールを使用して、会議出席招待に自動的に応答できます。 たとえば、会議室などの一般的なリソースがある場合は、予定表の空き時間に応じて会議出席招待を自動的に承諾または拒否する、その会議室のリソース アカウントを設定できます。
+Microsoft 365リソース アカウントは、会議室やプロジェクターなどの特定のリソース専用のメールボックスとTeams アカウントです。 これらのリソース アカウントは、作成時に定義したルールを使用して会議出席依頼に自動的に応答できます。 たとえば、会議室などの共通リソースがある場合は、その会議室のリソース アカウントを設定し、予定表の可用性に応じて会議の招待を自動的に受け入れるか拒否します。 
+
+すべてのリソース アカウントは、単一のMicrosoft Teams Roomsインストールに固有であるか、ホットデスク処理の実装を表示Teams。
+
+> [!NOTE]
+> Microsoft Teams パネルを使用している場合、Teams Rooms リソース アカウントは、Teams Rooms パネルと関連付けられたTeams パネルの両方にサインインします。
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
 > [!NOTE]
 > **Skype for Business** <br><br>
-> リソース アカウントでリソース アカウントを使用する必要がある場合は、「Skype for Business を使用して会議室をデプロイするMicrosoft Teams[」を参照Skype for Business Server](with-skype-for-business-server-2015.md)
+> リソース アカウントでSkype for Businessを操作できるようにする必要がある場合は、「Skype for Business Serverを使用[したMicrosoft Teams Roomsのデプロイ](with-skype-for-business-server-2015.md)」を参照してください。
 
 ## <a name="before-you-begin"></a>はじめに
 
 ### <a name="requirements"></a>要件
 
-環境によっては、リソース アカウントを作成するために 1 つ以上のロールが必要です。
+環境に応じて、リソース アカウントを作成するには、1 つ以上のロールが必要です。
 
 |**環境**|**必要なロール**|
 |-----|-----|
 |Azure Active Directory  <br/> |グローバル管理者またはユーザー管理者  <br/> |
-|Active Directory  <br/> |Active Directory Enterprise管理者、ドメイン管理者、またはユーザーを作成する委任された権限を持っています。 Azure Active Directory Connectを選択します。  <br/> |
+|Active Directory  <br/> |Active Directory Enterprise管理者、ドメイン管理者、またはユーザーを作成するための委任された権限を持っています。 同期権限をAzure Active Directory Connectします。  <br/> |
 |Exchange Online  <br/> |グローバル管理者またはExchange管理者   <br/> |
-|Exchange Server  <br/> |Exchange管理または受信者管理   <br/> |
+|Exchange Server  <br/> |Exchange組織管理または受信者管理   <br/> |
 
-TEAMS Rooms のリソース アカウントを作成する場合、UPN はリソース アカウントの SMTP アドレスと一致する必要があります。 会議室[をMicrosoft Teamsする前に、「](requirements.md)会議室の要件」Teamsしてください。
+Teams Roomsのリソース アカウントを作成する場合、UPN はリソース アカウントの SMTP アドレスと一致する必要があります。 [Teams Roomsをデプロイする](requirements.md)前に、Microsoft Teams Rooms要件を確認してください。
 
-### <a name="what-license-do-you-need"></a>どのようなライセンスが必要ですか?
+### <a name="what-license-do-you-need"></a>必要なライセンスは何ですか?
 
-リソース アカウントを作成Microsoft 365、必要なライセンスの種類を確認してください。
+Microsoft 365 リソース アカウントを作成する前に、必要なライセンスの種類を確認します。
 
-- **Teams** 会議 Microsoft Teams 会議室や Teams ディスプレイなどの共有デバイスにリソース アカウントを関連付け、それを使用して Teams 会議に参加し、出席者が会議を通じてビデオや音声を表示するには、ミーティング ルーム ライセンスが必要です。 会議室のライセンスの詳細については、「Teams ミーティング ルーム[」を参照してください](rooms-licensing.md)。
+- **Teams会議** リソース アカウントを共有デバイス (Microsoft Teams 会議室やTeamsディスプレイなど) にホット デスクで関連付け、それを使用してTeams会議に参加し、出席者がそれを使用してビデオやオーディオをプレゼンテーションできるようにする場合は、ミーティング ルーム ライセンスが必要です。 会議室のライセンスの詳細については、「[Teams ミーティング ルーム ライセンス](rooms-licensing.md)」を参照してください。
 
-- **PSTN 通話** リソースが外部の電話番号 (公衆交換電話網または PSTN 通話と呼ばれる) との間で通話を発信または受信するには、Microsoft 365 電話システム または Microsoft 365 Business Voice ライセンスが必要です。 手順 1 を完了する必要があるのは、次の概要のみです。 詳細については、「[Microsoft Teamsライセンスの追加」](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を参照してください。
+- **PSTN 通話** リソースが外部電話番号 (公衆交換電話網または PSTN 通話と呼ばれる) との間で通話を発信または受信する場合は、Microsoft 365 電話システムまたはMicrosoft 365 Business Voiceライセンスが必要です。 次の概要の手順 1 を完了するだけで済みます。 次に、詳細については、[アドオン ライセンスMicrosoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を参照してください。
 
-- &mdash;&mdash;リソース アカウントのみを使用してリソースを予約している場合は、リソースを会議に招待し、招待を自動的に承諾または拒否します。リソース アカウントにライセンスを割り当てる必要は一切ないので、次の概要の手順 1 を完了する必要があります。  
+- リソース アカウントのみを使用してリソース&mdash;を予約する場合は、リソースを会議に招待し、リソース アカウントにライセンスを割り当てる必要がなく、次の概要の手順 1 を完了するだけで済む招待&mdash;を自動的に承諾または拒否します。  
 
 ## <a name="overview"></a>概要
 
-**手順 1 - 新**[しいリソース アカウントを作成します](#create-a-resource-account)。 または、ルーム メールボックスが既に存在し、それをリソース アカウントに変換する場合は、既存のルーム メールボックスExchange[変更できます](?tabs=existing-account#create-a-resource-account)。
+**手順 1 -** [新しいリソース アカウントを作成します](#create-a-resource-account)。 または、会議室メールボックスが既に存在し、リソース アカウントに変換する場合は、[既存のExchange会議室メールボックスを変更](?tabs=existing-account#create-a-resource-account)できます。
 
-**手順 2 -** 次に [、会議用に](#configure-mailbox-properties)アカウントTeamsします。
+**手順 2 -** 次に、Teams会議用 [にアカウントを構成](#configure-mailbox-properties)します。
 
-**手順 3 -** リソース アカウントが共有デバイスに関連付けられる場合 (Teams など)、パスワードの有効期限を [オフにします](#turn-off-password-expiration)。
+**手順 3 -** リソース アカウントが共有デバイスに関連付けられている場合 (ホット デスクが表示されるTeamsなど) は、[パスワードの有効期限を無効にします](#turn-off-password-expiration)。
 
-**手順 4 -** 最後に、[アカウントが会議にアクセスできるよう](#assign-a-meeting-room-license)会議室のライセンスを割り当Microsoft Teams。
+**手順 4 -** 最後に、アカウントがMicrosoft Teamsにアクセスできるように [、会議室のライセンスを割り当てます](#assign-a-meeting-room-license)。
 
-リソース アカウントを作成して構成した後は、「[](#next-steps)次の手順」を参照して、配布グループ、ネットワーク機能、呼び出しなどの追加のセットアップ タスクを確認します。
+リソース アカウントを作成して構成したら、「 [次の手順に従](#next-steps) って、配布グループ、ネットワーク機能、通話などの追加のセットアップ タスクを確認する」を参照してください。
 
 ## <a name="create-a-resource-account"></a>リソース アカウントを作成する
 
 > [!TIP]
-> リソース アカウントに名前を付ける場合は、電子メール アドレスの先頭に標準の名前付け規則を使用することをお勧めします。 これは、動的グループの作成に役立ち、動的グループの管理を容易Azure Active Directory。 たとえば、会議室に関連付けられるすべてのリソース アカウントに "Microsoft Teamsできます。
+> リソース アカウントに名前を付ける場合は、電子メール アドレスの先頭に標準の名前付け規則を使用することをお勧めします。 これは、Azure Active Directoryでの管理を容易にする動的グループの作成に役立ちます。 たとえば、Microsoft Teams Roomsに関連付けられるすべてのリソース アカウントに対して "mrt-" を使用できます。
 
 > [!TIP]
-> リソース アカウントとリソース アカウントを使用して、すべてのリソース Exchange Online作成Azure Active Directory。
+> Exchange OnlineとAzure Active Directoryを使用して、すべてのリソース アカウントを作成することをお勧めします。
 
-次のいずれかのタブのメソッドを使用してリソース アカウントを作成します。
+次のいずれかのタブからメソッドを使用してリソース アカウントを作成します。
 
-#### <a name="in-microsoft-365-admin-center"></a>[**[in Microsoft 365 管理センター**](#tab/m365-admin-center)
+#### <a name="in-microsoft-365-admin-center"></a>[**Microsoft 365 管理センター**](#tab/m365-admin-center)
 
 1. Microsoft 365 管理センターにサインインします。
 
-2. テナントの管理者資格情報をMicrosoft 365します。
+2. Microsoft 365 テナントの管理者資格情報を指定します。
 
-3. 左側のパネル **で [** リソース] に移動し、[会議室] を選択& **します**。 これらのオプションが左側のパネルで使用できない場合は、[すべて表示] を最初に選択 **する必要** があります。
+3. 左側のパネルの **[リソース** ] に移動し、[ **Rooms & equipment**] を選択します。 これらのオプションが左側のパネルで使用できない場合は、最初に **[すべて表示** ] を選択することが必要になる場合があります。
 
-4. [ **リソース メールボックスの追加] を選択** して、新しいルーム アカウントを作成します。 アカウントの表示名とメール アドレスを入力し、[追加] を **選択して**、[閉じる] を **選択します**。
+4. [ **リソース メールボックスの追加]** を選択して、新しいルーム アカウントを作成します。 アカウントの表示名とメール アドレスを入力し、[ **追加**] を選択し、[ **閉じる**] を選択します。
 
 5. 既定では、リソース アカウントは次の設定で構成されます。
 
     - 繰り返し会議を許可する
-    - 次の制限を超え、会議を自動的に拒否する
+    - 次の制限外の会議を自動的に拒否する
       - 予約期間 (日): 180
       - 最大期間 (時間): 24
-    - 会議出席依頼を自動承諾する
+    - 会議出席依頼の自動承諾
 
-    変更する場合は、[閉じる] を選択する **前に [** スケジュール オプションの設定] を **選択します**。 後で変更する場合は、[**リソース** > ]**Rooms &、** リソース アカウントを選択します。 次に、[ **予約オプション] で [** 編集] を **選択します**。
+    それらを変更する場合は、[**閉じる**] を選択する前に [**スケジュール オプションの設定**] を選択します。 後で変更する場合は、**ResourcesRooms** >  **&機器** に移動し、リソース アカウントを選択します。 次に、[ **予約オプション**] で [編集] を選択 **します**。
 
-6. [ユーザー **]アクティブ** >  **ユーザーに移動** し、作成したルームを選択してプロパティ パネルを開きます。
+6. **UsersActive** >  **ユーザー** に移動し、作成したルームを選択してプロパティ パネルを開きます。
 
-7. 次に、リソース アカウントにパスワードを割り当てる。 パネルで、[パスワードのリセット] **を選択します**。
+7. 次に、リソース アカウントにパスワードを割り当てます。 パネルで、[パスワードの **リセット**] を選択します。
  
-8. ユーザーに共有デバイスのパスワードの変更を要求すると、サインインの問題が発生します。 [ **このユーザーが初めてサインインするときにパスワードを変更する] をオフにし、[** リセット] を **選択します**。
+8. 共有デバイスでユーザーにパスワードの変更を要求すると、サインインの問題が発生します。 [ **このユーザーが最初にサインインしたときにパスワードを変更するように要求** する] をオフにし、[リセット] を選択 **します**。
 
-9. [ライセンス **とアプリ] セクション** で **、[場所の** 選択] をデバイスがインストールされる国または地域に設定します。 次に、割り当てるライセンス (例: ミーティング ルーム選択し、[変更の保存] **を選択します**。 ライセンスは組織によって異なる場合があります。
+9. [ **ライセンスとアプリ]** セクションで、デバイスがインストールされる国または地域に **[場所の選択]** を設定します。 次に、割り当てるライセンス (ミーティング ルームなど) を選択し、[変更の **保存]** を選択します。 ライセンスは組織によって異なる場合があります。
 
-リソース メールボックスの設定を変更するには、「メールボックスの[](#configure-mailbox-properties)プロパティを構成する」または「管理センターでExchangeを使用する」を参照してください。
+リソース メールボックスの設定を変更するには、「メールボックスの[プロパティを構成](#configure-mailbox-properties)する」またはExchange管理センターを使用する方法に関するページを参照してください。
 
-また、このアカウントに帯域幅ポリシーまたは会議ポリシーを適用する必要がある場合があります。 詳細については [、「次のステップ](#next-steps) 」を参照してください。
+また、帯域幅ポリシーまたは会議ポリシーをこのアカウントに適用する必要がある場合もあります。 詳細については、「 [次の手順](#next-steps) 」を参照してください。
 
-#### <a name="with-exchange-online"></a>[**次のExchange Online**](#tab/exchange-online)
+#### <a name="with-exchange-online"></a>[**Exchange Onlineを使用する**](#tab/exchange-online)
 
-1. Connect [PowerShell をExchange Onlineします](/powershell/exchange/connect-to-exchange-online-powershell)。
+1. [PowerShell のExchange OnlineにConnect](/powershell/exchange/connect-to-exchange-online-powershell)します。
 
     ``` PowerShell
     Connect-ExchangeOnline
     ```
 
-2. 既定では、ルーム メールボックスにはアカウントが関連付けされません。 ルーム メールボックスを作成するときにアカウントを追加し、そのアカウントをMicrosoft Teams。
+2. 既定では、会議室メールボックスにはアカウントが関連付けられていない。 会議室メールボックスを作成するときに、Microsoft Teamsで認証できるようにアカウントを追加します。
 
     新しいリソース メールボックスを作成している場合:
     
@@ -131,27 +136,27 @@ TEAMS Rooms のリソース アカウントを作成する場合、UPN はリソ
     
     この例では、次の設定で新しい会議室メールボックスを作成します:
 
-        - Account: ConferenceRoom01@contoso.com
+    - アカウント: ConferenceRoom01@contoso.com
           
-        - Name: ConferenceRoom01
+    - 名前: ConferenceRoom01
         
-        - Alias: ConferenceRoom01
+     - エイリアス: ConferenceRoom01
         
-        - Account password: P@$$W0rd5959
+     - アカウントのパスワード: P@ $ $W 0rd5959
 
     ``` PowerShell
     New-Mailbox -MicrosoftOnlineServicesID ConferenceRoom01@contoso.com -Name "ConferenceRoom01" -Alias ConferenceRoom01 -Room -EnableRoomMailboxAccount $true  -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
     ```
 
-ハイブリッド構成を構成Exchange場合は、次の手順「メールボックスのプロパティを構成[する」に進みます](#configure-mailbox-properties)。
+Exchangeハイブリッド構成でない場合は、次の手順「[メールボックスのプロパティを構成する」](#configure-mailbox-properties)に進むことができます。
 
-ハイブリッド構成を使用Exchange場合は、オンプレミス ドメイン アカウントのメール アドレスを追加する必要があります。 詳細[については、「オンプレミスとユーザー アカウントのディレクトリOffice 365同期する](https://support.microsoft.com/topic/how-to-use-smtp-matching-to-match-on-premises-user-accounts-to-office-365-user-accounts-for-directory-synchronization-75673b94-e1b8-8a9e-c413-ee5a2a1a6a78)」を参照してください。
+Exchangeハイブリッド構成の場合は、オンプレミス ドメイン アカウントの電子メール アドレスを追加する必要があります。 詳細については、「[オンプレミスとOffice 365ユーザー アカウントディレクトリの同期](https://support.microsoft.com/topic/how-to-use-smtp-matching-to-match-on-premises-user-accounts-to-office-365-user-accounts-for-directory-synchronization-75673b94-e1b8-8a9e-c413-ee5a2a1a6a78)」を参照してください。
 
-#### <a name="with-exchange-server"></a>[**このExchange Server**](#tab/exchange-server)
+#### <a name="with-exchange-server"></a>[**Exchange Serverを使用する**](#tab/exchange-server)
 
-  1. Connect管理シェルExchangeにアクセスします。 [Exchange 管理シェルを開く](/powershell/exchange/exchange-server/open-the-exchange-management-shell) または、[リモート PowerShellを使用して Exchange サーバーに接続し ます](/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell)。
+  1. Exchange Management Shell にConnectします。 [Exchange 管理シェルを開く](/powershell/exchange/exchange-server/open-the-exchange-management-shell) または、[リモート PowerShellを使用して Exchange サーバーに接続し ます](/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell)。
 
-   2. 新しいルーム メールボックスを作成するには:
+   2. 新しい会議室メールボックスを作成するには:
 
       ``` PowerShell
       New-Mailbox -UserPrincipalName <UPN> -Name <String> -Alias <String> -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
@@ -171,9 +176,9 @@ TEAMS Rooms のリソース アカウントを作成する場合、UPN はリソ
    New-Mailbox -UserPrincipalName ConferenceRoom01@contoso.com -Name "ConferenceRoom01" -Alias ConferenceRoom01 -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
    ```
 
-#### <a name="modify-an-existing-exchange-room-mailbox"></a>[**既存のルーム メールボックスExchange変更する**](#tab/existing-account)
+#### <a name="modify-an-existing-exchange-room-mailbox"></a>[**既存のExchange会議室メールボックスを変更する**](#tab/existing-account)
 
-既存のルーム メールボックスをリソース アカウントに変更するには、次の構文を使用します。
+既存の会議室メールボックスを変更してリソース アカウントにするには、次の構文を使用します。
 
 ``` PowerShell
 Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
@@ -185,41 +190,41 @@ Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -Roo
 Set-Mailbox -Identity ConferenceRoom02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
 ```
 
-ハイブリッド構成Exchange場合は、オンプレミス ドメイン アカウントのメール アドレスも追加する必要があります。 詳細[については、「オンプレミスとユーザー アカウントのディレクトリOffice 365同期する](https://support.microsoft.com/topic/how-to-use-smtp-matching-to-match-on-premises-user-accounts-to-office-365-user-accounts-for-directory-synchronization-75673b94-e1b8-8a9e-c413-ee5a2a1a6a78)」を参照してください。
+Exchangeハイブリッド構成の場合は、オンプレミス ドメイン アカウントの電子メール アドレスも追加する必要があります。 詳細については、「[オンプレミスとOffice 365ユーザー アカウントディレクトリの同期](https://support.microsoft.com/topic/how-to-use-smtp-matching-to-match-on-premises-user-accounts-to-office-365-user-accounts-for-directory-synchronization-75673b94-e1b8-8a9e-c413-ee5a2a1a6a78)」を参照してください。
 
 構文とパラメーターの詳細については、「[New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox)」と「[Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox)」を参照してください。
 
 > [!NOTE]
-> このアカウントを Teams Room on Surface Hub作成する場合は、このアカウントで ActiveSync も有効にする必要があります。 これにより、Whiteboard のような機能に使用できる Surface Hubから直接メールを送信できます。 詳細[については、「デバイス アカウントへの ActiveSync ポリシーの適用 (Surface Hub)」](/surface-hub/apply-activesync-policies-for-surface-hub-device-accounts)を参照してください。
+> Surface Hubの Teams Room に対してこのアカウントを作成する場合は、このアカウントで ActiveSync も有効にする必要があります。 これにより、ホワイトボードなどの機能に使用できるSurface Hubから直接電子メールを送信できます。 詳細については、「[デバイス アカウントへの ActiveSync ポリシーの適用 (Surface Hub)](/surface-hub/apply-activesync-policies-for-surface-hub-device-accounts)」を参照してください。
 
 ---
 
 > [!IMPORTANT]
-> このリソース アカウントを使用してスペースを予約し、招待を自動的に承諾または拒否する場合は、設定が完了しています。 PSTN 通話にこのリソース アカウントを使用している場合は、「Microsoft Teams[アドオン](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) ライセンス」を参照して、必要なライセンスを確認してください。
+> このリソース アカウントのみを使用してスペースを予約し、招待を自動的に承諾または拒否する場合は、設定が完了しました。 PSTN 通話にこのリソース アカウントを使用している場合は、[アドオン ライセンスMicrosoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)参照して、必要なライセンスを確認してください。
 >
-> リソース アカウントが Teams Rooms on Windows、Teams Rooms on Android、Teams Rooms on Surface Hub、または Teams ディスプレイ (ホットデスク付き) の場合にのみ、次のセクションに進む。
+> リソース アカウントがWindowsのTeams Rooms、Android でのTeams Rooms、Surface HubのTeams Rooms、ホット デスクが表示されたTeamsの場合にのみ、次のセクションに進みます。
 
 ## <a name="configure-mailbox-properties"></a>メールボックスのプロパティを構成する
 
-オンラインまたはExchange PowerShell では、会議室メールボックスで次の設定を構成して、会議のエクスペリエンスを向上します。
+Exchange PowerShell (オンラインまたはオンプレミス) で、会議室メールボックスで次の設定を構成して、会議のエクスペリエンスを向上させます。
 
-- **AutomateProcessing: `AutoAccept`** 会議の開催者は、人の介入なしに直接会議室の予約決定を受け取る。
+- **AutomateProcessing: `AutoAccept`** 会議の開催者は、人間の介入なしに直接会議室予約の決定を受け取ります。
 
 - **AddOrganizerToSubject: `$false`** 会議の開催者は、会議出席依頼の件名に追加されません。
 
-- **DeleteComments: `$false`** 受信した会議出席依頼のメッセージ本文にテキストを保存します。 これは、One Touch Join エクスペリエンスを提供Teams外部の会議やサード パーティの会議を処理するために必要です。
+- **DeleteComments: `$false`** 受信会議出席依頼のメッセージ本文にテキストを保持します。 これは、One Touch Join エクスペリエンスを提供するために、外部Teamsとサードパーティの会議を処理するために必要です。
 
 - **DeleteSubject: `$false`** 受信した会議出席依頼の件名を保持します。
 
-- **ProcessExternalMeetingMessages: `$true`** 組織外の会議出席依頼を処理するかどうかをExchangeします。 外部の会議Teamsサードパーティ[の会議に必要です](/microsoftteams/rooms/third-party-join)。
+- **ProcessExternalMeetingMessages: `$true`** Exchange組織の外部から送信された会議出席依頼を処理するかどうかを指定します。 外部Teams会議と[サード パーティの会議に必要です](/microsoftteams/rooms/third-party-join)。
 
-- **RemovePrivateProperty: `$false`** 元の会議出席依頼で会議開催者によって送信されたプライベート フラグが指定されたままに維持されます。
+- **RemovePrivateProperty: `$false`** 元の会議出席依頼で会議の開催者によって送信されたプライベート フラグが指定されたとおりに保持されるようにします。
 
 - **AddAdditionalResponse: `$true`** AdditionalResponse パラメーターで指定されたテキストが会議出席依頼に追加されます。
 
-- **AdditionalResponse: "This is a Microsoft Teams Meeting room!"** 会議の承諾応答に追加する追加テキスト。
+- **AdditionalResponse: "これはMicrosoft Teams会議室です。** 会議の承諾応答に追加する追加のテキスト。
 
-この例では、ConferenceRoom01 という名前の会議室メールボックスでこれらの設定を構成します。
+次の使用例は、ConferenceRoom01 という名前の会議室メールボックスでこれらの設定を構成します。
 
 ``` PowerShell
 Set-CalendarProcessing -Identity "ConferenceRoom01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -ProcessExternalMeetingMessages $true -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Meeting room!"
@@ -227,26 +232,26 @@ Set-CalendarProcessing -Identity "ConferenceRoom01" -AutomateProcessing AutoAcce
 
 構文とパラメーターの詳細については、「[Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing)」を参照してください。
 
-## <a name="turn-off-password-expiration"></a>パスワードの有効期限をオフにする
+## <a name="turn-off-password-expiration"></a>パスワードの有効期限を無効にする
 
-リソース アカウントのパスワードの有効期限が切れた場合、有効期限が過ぎると、デバイスはサインインしません。 その後、リソース アカウントのパスワードを変更し、各デバイスで更新する必要があります。 これを回避するには、パスワードの有効期限をオフにします。
+リソース アカウントのパスワードの有効期限が切れた場合、デバイスは有効期限が切れた後はサインインしません。 その後、リソース アカウントのパスワードを変更し、各デバイスで更新する必要があります。 これを回避するには、パスワードの有効期限を無効にできます。
   
 > [!NOTE]
-> パスワード **の有効期限が切れない設定** は、共有デバイスMicrosoft Teamsです。 有効期限が切れないパスワードがドメイン ルールで禁止されている場合は、デバイス リソース アカウントの各ドメインTeams作成する必要があります。
+> **パスワードを期限切れにしない** 設定は、共有Microsoft Teamsデバイスの要件です。 ドメイン 規則で有効期限が切れていないパスワードを禁止している場合は、Teamsデバイス リソース アカウントごとに例外を作成する必要があります。
 
-次のいずれかのタブの手順に従って、パスワードの有効期限をオフにします。
+次のいずれかのタブの手順に従って、パスワードの有効期限を無効にします。
 
 #### <a name="azure-active-directory-20"></a>[**Azure Active Directory 2.0**](#tab/azure-active-directory2-password/)
 
-最初に、Connect Active Directory PowerShell に移動します。
+まず、Active Directory PowerShell にConnectします。
 
 ```PowerShell
    Connect-AzureAD
 ```
 
-次に、「 [パスワードを有効期限切れに設定する」を参照してください](/microsoft-365/admin/add-users/set-password-to-never-expire?view=o365-worldwide#set-a-password-to-never-expire)。
+次に、「 [パスワードを期限切れにならないように設定する」を](/microsoft-365/admin/add-users/set-password-to-never-expire?view=o365-worldwide#set-a-password-to-never-expire)参照してください。
 
-この例では、アカウントアカウントのパスワードを ConferenceRoom01@contoso.com に設定します。
+次の使用例は、アカウント ConferenceRoom01@contoso.com のパスワードを無期限に設定します。
 
 ```PowerShell
 Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies DisablePasswordExpiration
@@ -254,21 +259,21 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
 
 #### <a name="azure-active-directory-10"></a>[**Azure Active Directory 1.0**](#tab/azure-active-directory1-password/)
 
- 1. Connect MSOnline PowerShell に接続します。
+ 1. MSOnline PowerShell にConnect:
 
        ```PowerShell
        Connect-MsolService
        ```
 
-       Active Directory の詳細については、「Azure Active Directory [(MSOnline)」を参照してください](/powershell/azure/active-directory/overview?view=azureadps-1.0)。
+       Active Directory の詳細については、「[Azure Active Directory (MSOnline)」を](/powershell/azure/active-directory/overview?view=azureadps-1.0)参照してください。
 
-2. 次の構文を使用して、パスワードの有効期限を決して設定します。
+2. 次の構文を使用して、パスワードを期限切れにならないように設定します。
 
     ```PowerShell
     Set-MsolUser -Identity <samAccountName> -PasswordNeverExpires $true
     ```
 
-    この例では、アカウントアカウントのパスワードを ConferenceRoom01@contoso.com に設定します。
+    次の使用例は、アカウント ConferenceRoom01@contoso.com のパスワードを無期限に設定します。
 
     ```PowerShell
     Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -PasswordNeverExpires $true
@@ -276,21 +281,21 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
 
 #### <a name="active-directory-on-premises"></a>[**Active Directory (オンプレミス)**](#tab/active-directory1-password/)
 
-1. Connect Active Directory PowerShell に移動します。
+1. Active Directory PowerShell にConnectします。
 
     ```PowerShell
        Import-Module ActiveDirectory
     ```
     
-    Active Directory PowerShell の詳細については、「 [ActiveDirectory」を参照してください](/powershell/module/activedirectory/?view=windowsserver2022-ps)。
+    Active Directory PowerShell の詳細については、「 [ActiveDirectory」を](/powershell/module/activedirectory/?view=windowsserver2022-ps)参照してください。
 
-2. 次の構文を使用して、パスワードの有効期限を決して設定します。
+2. 次の構文を使用して、パスワードを期限切れにならないように設定します。
 
     ```PowerShell
     Set-ADUser -Identity <samAccountName> -PasswordNeverExpires $true
     ```
 
-    この例では、アカウントアカウントのパスワードを ConferenceRoom01@contoso.com に設定します。
+    次の使用例は、アカウント ConferenceRoom01@contoso.com のパスワードを無期限に設定します。
 
     ```PowerShell
     Set-ADUser -Identity ConferenceRoom01@contoso.com -PasswordNeverExpires $true
@@ -300,39 +305,39 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
 
 ## <a name="assign-a-meeting-room-license"></a>会議室のライセンスを割り当てる
 
-リソース アカウントにサインインするには、Microsoft 365またはOffice 365ライセンスが必要Microsoft Teams。
+Microsoft Teamsにサインインするには、リソース アカウントにMicrosoft 365またはOffice 365ライセンスが必要です。
 
 > [!NOTE]
-> Microsoft Teams会議室 Standard と Microsoft Teams 会議室 プレミアムは、会議室を含む共有会議室デバイスで使用できる 2 Teams SKU です。 会議室のライセンスは、ホットデスクTeamsディスプレイに必要です。 詳細については、「会議室の[ライセンスTeamsを参照してください](rooms-licensing.md)。
+> Microsoft Teams Rooms StandardとMicrosoft Teams Rooms Premiumは、Teams Roomsを含む共有会議室デバイスで使用できる 2 つの SKU です。 ホットデスクを使用するTeamsディスプレイには、会議室のライセンスが必要です。 詳細については、「[Teams会議室ライセンス](rooms-licensing.md)」を参照してください。
 
-ライセンスを割り当てるには、Microsoft 365 管理センターにライセンスを[割り当てるに関するページを参照してください](/microsoft-365/admin/manage/assign-licenses-to-users)。 ライセンスを割り当てるにはAzure AD次のいずれかのタブを参照してください。
+Microsoft 365 管理センターを使用してライセンスを割り[当てるには、「ユーザーにライセンスを割り当てる」を](/microsoft-365/admin/manage/assign-licenses-to-users)参照してください。 Azure ADを使用してライセンスを割り当てるには、次のいずれかのタブを参照してください。
 
 #### <a name="active-directory-20"></a>[**Active Directory 2.0**](#tab/active-directory2-license/)
 
 
-1. ConnectにAzure AD
+1. Azure ADにConnectする
   
     ```PowerShell
     Connect-AzureAD
     ```
 
-     Active Directory の詳細については、「[PowerShell for Azure Active Directory」を参照Graph](/powershell/azure/active-directory/overview?view=azureadps-2.0)。
+     Active Directory の詳細については、「[powerShell for GraphのAzure Active Directory」を](/powershell/azure/active-directory/overview?view=azureadps-2.0)参照してください。
     
-2. コマンドレットを使用して、リソース アカウントに使用場所を割り当 `Set-AzureADUser` てる。 これにより、使用可能なライセンス SKU が決定されます。
+2. コマンドレットを使用して、リソース アカウントに使用場所を `Set-AzureADUser` 割り当てます。 これにより、使用可能なライセンス SKU が決まります。
 
-    この例では、ユーザーは米国 (米国) に位置しています。
+    この例では、ユーザーは米国 (米国) にあります。
 
     ```PowerShell
     Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -UsageLocation 'US'
     ```
 
-3. 次に、 `Get-AzureADSubscribedSku` を使用して、組織または組織で使用可能な SKU Microsoft 365取得Office 365します。
+3. 次に、Microsoft 365またはOffice 365組織で使用可能な SKU の一覧を取得するために使用`Get-AzureADSubscribedSku`します。
 
     ```PowerShell
     Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
     ```
 
-4. ライセンスを割り当 `Set-AzureADUser` てるには、 コマンドレットを使用し、ライセンス SKU ID (手順 2 を参照) を PowerShell ライセンスタイプ オブジェクトに変換します。 次に、そのオブジェクトをリソース アカウントに割り当てる。 次の例では、ライセンス SKU ID は 6070a4c8-34c6-4937-8dfb-39bbc6397a60 であり、アカウント conferenceroom01@contoso.com に割り当てられます。
+4. ライセンスを割り当てるには、コマンドレットを `Set-AzureADUser` 使用し、ライセンス SKU ID (手順 2 を参照) を PowerShell ライセンスの種類オブジェクトに変換します。 次に、そのオブジェクトをリソース アカウントに割り当てます。 次の例では、ライセンス SKU ID は 6070a4c8-34c6-4937-8dfb-39bbc6397a60 で、アカウント conferenceroom01@contoso.com に割り当てられます。
 
     ```PowerShell
     #Create an object for a single license type
@@ -351,25 +356,25 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
 
 #### <a name="active-directory-10"></a>[**Active Directory 1.0**](#tab/active-directory1-license/)
 
-1. Connect MSOnline PowerShell に接続します。
+1. MSOnline PowerShell にConnectします。
 
    ```PowerShell
    Connect-MsolService
    ```
 
-    Active Directory の詳細については、「Azure Active Directory [(MSOnline)」を参照してください。](/powershell/azure/active-directory/overview?view=azureadps-1.0)
+    Active Directory の詳細については、[Azure Active Directory (MSOnline) を](/powershell/azure/active-directory/overview?view=azureadps-1.0)参照してください。
 
-2.  コマンドレットを使用して、リソース アカウントに使用場所を割り当 `Set-MsolUser` てる。 これにより、使用可能なライセンス SKU が決定されます。
+2.  コマンドレットを使用して、リソース アカウントに使用場所を `Set-MsolUser` 割り当てます。 これにより、使用可能なライセンス SKU が決まります。
 
-    この例では、ユーザーは米国 (米国) に位置しています。
+    この例では、ユーザーは米国 (米国) にあります。
     
     ```PowerShell
     Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -UsageLocation 'US'
     ```
     
-    その後、 を`Get-MsolAccountSku`使用して、組織または組織で使用できる SKU のMicrosoft 365取得Office 365できます。
+    その後`Get-MsolAccountSku`、Microsoft 365またはOffice 365組織で使用可能な SKU の一覧を取得できます。
 
-4. ライセンスを割り当てるには、 コマンドレットを使用 `Set-MsolUser` します。 この例では、"contoso:MEETING_ROOM" ライセンスがアカウント アカウントに割り当 conferenceroom01@contoso.com。
+4. ライセンスを割り当てるには、コマンドレットを使用します `Set-MsolUser` 。 この例では、"contoso:MEETING_ROOM" ライセンスがアカウント conferenceroom01@contoso.com に割り当てられます。
 
     ```PowerShell
     Set-MsolUserLicense -UserPrincipalName 'ConferenceRoom01@contoso.com' -AddLicenses 'contoso:MEETING_ROOM'
@@ -377,26 +382,29 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
 
 ---
 
-アカウントの作成とライセンスの割り当てを検証するには、作成したアカウントをTeamsクライアントにサインインします。
+アカウントの作成とライセンスの割り当てを検証するには、作成したアカウントを使用してTeamsクライアントにサインインします。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
-### <a name="network-and-bandwidth"></a>ネットワークと帯域幅
+### <a name="meeting-policies"></a>ミーティング ポリシー
 
-このアカウントには、カスタム ネットワーク、帯域幅、または会議ポリシーの適用が必要な場合があります。 ネットワークポリシーと帯域幅ポリシーの詳細については、「ビデオのオーディオと帯域幅の会議 [ポリシー設定」を&してください](/microsoftteams/meeting-policies-audio-and-video)。 会議室Teams、会議ポリシーの帯域幅を 10 Mbps に設定することをお勧めします。
+このアカウントには、カスタム ネットワーク、帯域幅、または会議ポリシーを適用することが必要な場合があります。 ネットワーク ポリシーと帯域幅ポリシーの詳細については、「 [オーディオ & ビデオの会議ポリシー設定](/microsoftteams/meeting-policies-audio-and-video)」を参照してください。 Teams Roomsでは、会議ポリシーの帯域幅を 10 Mbps に設定することをお勧めします。
 
-共同作業の目的で、Live、Whiteboard、PowerPoint共有ノートを有効にしてください。 会議ポリシーを作成して、会議室の参加者とゲスト設定を調整Teamsがあります。 たとえば、会議に自動的に参加を認める出席者などのロビー設定を確認します。 会議ポリシーの詳細については、「Teamsで会議ポリシーを[管理する」をMicrosoft Teams](/microsoftteams/meeting-policies-overview)。
+コラボレーションを目的として、PowerPoint Live、ホワイトボード、共有ノートを有効にします。 会議ポリシー設定を有効にすることをお勧めします。"今すぐプライベート会議に参加する" 設定を有効にすることをお勧めします。 会議ポリシーを作成して、Teams Roomsの参加者とゲストの設定を調整することができます。 たとえば、会議を自動的に許可する出席者など、ロビーの設定を確認します。 会議ポリシーのTeamsの詳細については、「[Microsoft Teamsでの会議ポリシーの管理](/microsoftteams/meeting-policies-overview)」を参照してください。
 
 ### <a name="calling"></a>通話
 
-リソース アカウントでの呼び出しを有効にする固有の要件はありません。 通常のユーザーを有効にするのと同じ方法で、 を呼び出すリソース アカウントを有効にできます。
+リソース アカウントでの呼び出しを有効にする一意の要件はありません。 通常のユーザーを有効にするのと同じ方法で、呼び出しに対してリソース アカウントを有効にします。
 
 > [!NOTE]
-> 通話ポリシーをデバイス リソース アカウントに割り当て、共有デバイスのボイス メールをオフにすることをお勧めします。 詳細[については、「Teams での](../teams-calling-policy.md)通話と転送」を参照してください。
+> デバイス リソース アカウントに通話ポリシーを割り当てることで、共有デバイスのボイス メールをオフにすることをお勧めします。 詳細については、「[Teamsでの通話と通話転送](../teams-calling-policy.md)」を参照してください。
 
-### <a name="configure-distribution-groups"></a>配布グループを構成する
+### <a name="configure-distribution-groups-for-teams-calendar"></a>Teams予定表の配布グループを構成する
 
-会議室の場所を整理するには、デバイス リソース アカウントを配布グループExchange追加できます。 たとえば、3 つの異なる地理的な場所にオフィスがある場合は、3 つの配布グループを作成し、適切なリソース アカウントを各場所に追加できます。 詳細については、「会議室リストを [作成する」を参照してください](/exchange/recipients/room-mailboxes?view=exchserver-2019#create-a-room-list)。
+会議室の場所を整理するには、デバイス リソース アカウントをExchange配布グループに追加します。 たとえば、3 つの異なる地理的な場所にオフィスがある場合は、3 つの配布グループを作成し、各場所に適切なリソース アカウントを追加できます。 詳細については、「 [ルームリストを作成する](/exchange/recipients/room-mailboxes?view=exchserver-2019#create-a-room-list)」を参照してください。
+
+### <a name="configure-places-for-outlook-calendar"></a>Outlook カレンダーの場所を構成する
+会議室の場所を Outlook 会議室検索に表示するには、Set-Place Exchange PowerShell コマンドレットを使用する必要があります。 Outlookに Room Finder を設定Set-Placeだけでなく、ルームの容量や、会議室の建物の床などのメタデータを追加することもできます。 詳細については、「 [Set-Place](/powershell/module/exchange/set-place)」を参照してください。
 
 ## <a name="related-articles"></a>関連記事
 

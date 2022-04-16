@@ -20,12 +20,12 @@ searchScope:
 - Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f611afe731bc178759427efff2fe35d925ca0def
-ms.sourcegitcommit: 42c355d3f4bbe52c063b8f2119baefc0b88f9563
+ms.openlocfilehash: 2c20137aab3299f4151b6ef3ee7906ec39cf4baf
+ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "64403968"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64853188"
 ---
 # <a name="get-started-with-teams-for-retail"></a>小売店向けの Teams の使用を開始する
 
@@ -74,7 +74,7 @@ Microsoft Teams の Bookings アプリは、組織が従業員と顧客の仮想
 
 **主要な機能とアプリ:** 会議、Bookings
 
-詳細情報: [Microsoft Teams と Bookings アプリを使用した仮想訪問](bookings-virtual-visits.md)
+詳細情報: [Microsoft Teams と Bookings アプリを使用した仮想予定](bookings-virtual-visits.md)
 
 ### <a name="simplify-business-processes"></a>ビジネス プロセスの簡略化
 
@@ -166,7 +166,7 @@ Teams は、シフト アプリおよび現場担当者アプリと統合され�
 
 | Microsoft のその他のアプリとサービス | 説明 | 管理 | ヘルプ |
 | ----- | ----- | ----- | ----- |
-| Bookings | 仮想試着と相談を可能にします。 | [Microsoft Teams と Bookings アプリを使用した仮想訪問](bookings-virtual-visits.md) | [Bookings を使用する](https://support.microsoft.com/en-us/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) |
+| Bookings | 仮想試着と相談を可能にします。 | [Microsoft Teams と Bookings アプリを使用した仮想予定](bookings-virtual-visits.md) | [Bookings を使用する](https://support.microsoft.com/en-us/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) |
 | Power Apps と Power Platform | ビジネス プロセスを統合し、ストアの在庫、売上高、インシデント レポートなどのデータをすばやく更新できます。 | [Teams の Microsoft Power Platform との統合](/microsoftteams/platform/samples/teams-low-code-solutions)および [Microsoft Teams 管理センターで Microsoft Power Platform アプリを管理する](../manage-power-platform-apps.md) | -  |
 | SharePoint | 新しいチームを作成すると、新しい SharePoint サイトが作成され、チームに接続されます。 上記のシナリオの多くは、チームでのコラボレーションのためにドキュメントを共有するなど、Teams に既に埋め込まれている SharePoint 機能に依存しています。 | [Teams と SharePoint の統合](/sharepoint/teams-connected-sites) | [Teams で SharePoint ページ、リスト、またはドキュメント ライブラリをタブとして追加する](https://support.microsoft.com/office/add-a-sharepoint-page-list-or-document-library-as-a-tab-in-teams-131edef1-455f-4c67-a8ce-efa2ebf25f0b)|
 | Viva コネクション | Viva コネクションは Teams 内にハブを作成し、小売店の従業員が組織でカスタマイズされたニュース フィードや、必要なリソースを使用した個人向けのダッシュボードを閲覧できるようにします。 | [Viva コネクションの概要](/sharepoint/viva-connections-overview) | [Microsoft Teams の Viva コネクション](https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b) |
