@@ -17,12 +17,12 @@ description: Microsoft Teams 管理センターの [アプリの管理] ペー�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: f8130d8f6d9d8609ce37d5f43f18dd083a5106e0
-ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
-ms.translationtype: HT
+ms.openlocfilehash: 830850be078da8086253bbb57bb4a29ce6d7c951
+ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63774076"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "64961240"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターで、Teams アプリの組織向けアプリを管理します。
 
@@ -150,7 +150,7 @@ ISV がグローバル アプリ ストアにアプリを発行する場合、�
 
 ## <a name="manage-org-wide-app-settings"></a>組織全体のアプリ設定の管理
 
-組織全体のアプリ設定を使用して、[F ライセンス](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)を持つユーザーがカスタマイズされた現場アプリ エクスペリエンス (近日公開予定) を取得するかどうか、ユーザーがサードパーティ製アプリをインストールできるかどうか、ユーザーが組織内のカスタム アプリをアップロードまたは操作できるかどうかを制御します。 組織全体のアプリ設定は、すべてのユーザーの動作を管理し、ユーザーに割り当てられた他のアプリ権限ポリシーを上書きします。 それらを使用して、悪意のあるアプリや問題のあるアプリを制御できます。
+組織全体のアプリ設定を使用して、 [F ライセンス](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) を持つユーザーがカスタマイズされた最前線のアプリ エクスペリエンスを利用できるかどうか、ユーザーがサード パーティのアプリをインストールできるかどうか、およびユーザーが組織内のカスタム アプリをアップロードまたは操作できるかどうかを制御します。 組織全体のアプリ設定は、すべてのユーザーの動作を管理し、ユーザーに割り当てられた他のアプリ権限ポリシーを上書きします。 それらを使用して、悪意のあるアプリや問題のあるアプリを制御できます。
 
 > [!NOTE]
 > Microsoft 365 Government - Government Community Cloud High GCCH および国防総省 (DoD) の Teams のデプロイで組織全体のアプリ設定を使用する方法については、「[Teams でアプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md)」を参照してください。
@@ -159,7 +159,7 @@ ISV がグローバル アプリ ストアにアプリを発行する場合、�
 
     :::image type="content" source="media/manage-apps-org-wide-app-settings.png" alt-text="[アプリの管理] ページの [組織全体のアプリ設定] ウィンドウを示すスクリーンショット":::
 
-1. (近日公開予定) **[カスタマイズされたアプリ]** で、[**カスタマイズしたアプリを表示]** をオンまたはオフにします。 この設定をオンにすると、 [F ライセンスを持つユーザー](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)は、カスタマイズされた現場アプリのエクスペリエンスを利用できます。 このエクスペリエンスにより、現場担当者にとって Teams で最も関連性の高いアプリがピン留めされます。 詳細については、「[現場担当者向けに Teams アプリを調整する](pin-teams-apps-based-on-license.md)」を参照してください。
+1. [ **カスタマイズされたアプリ**] で、[ **カスタマイズした** アプリの表示] をオフまたはオンにします。 この設定をオンにすると、 [F ライセンスを持つユーザー](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)は、カスタマイズされた現場アプリのエクスペリエンスを利用できます。 このエクスペリエンスにより、現場担当者にとって Teams で最も関連性の高いアプリがピン留めされます。 詳細については、「[現場担当者向けに Teams アプリを調整する](pin-teams-apps-based-on-license.md)」を参照してください。
 
     この機能は F ライセンスで使用できます。 その他のライセンスの種類は、今後サポートされる予定です。
 1. **[サードパーティ アプリ]** で、次の設定をオフまたはオンにして、サードパーティ アプリへのアクセスを制御します。
@@ -167,7 +167,7 @@ ISV がグローバル アプリ ストアにアプリを発行する場合、�
     - **[サードパーティ アプリを許可する]**: ここで、ユーザーがサードパーティ アプリを使用できるかどうかを制御します。 この設定をオフにした場合、ユーザーはサードパーティ製アプリをインストールまたは使用できず、これらのアプリのアプリ状態は、"**組織全体でブロック**" としてテーブルに表示されます。
 
         > [!NOTE]
-        > **[サードパーティ製アプリのを許可]** がオフの場合、[送信 Webhook](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) は引き続きすべてのユーザーに対して有効になりますが、[[アプリのアクセス許可ポリシー]](teams-app-permission-policies.md) を使用して送信 Webhook アプリを許可またはブロックすることで、ユーザー レベルの制御ができます。 **[特定のアプリを許可し、他のすべてをブロックする]** 設定を使用する **Microsoft アプリ** に対して既存の[アプリアクセス許可ポリシー](teams-app-permission-policies.md)があり、ユーザーに対して送信 Webhook を有効にする場合は、送信 Webhook アプリを一覧に追加します。
+        > **[サードパーティ製アプリのを許可]** がオフの場合、[送信 Webhook](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) は引き続きすべてのユーザーに対して有効になりますが、[[アプリのアクセス許可ポリシー]](teams-app-permission-policies.md) を使用して送信 Webhook アプリを許可またはブロックすることで、ユーザー レベルの制御ができます。 **[特定のアプリを許可し、他のすべてをブロックする]** 設定を使用する **Microsoft アプリ** に対して既存の [アプリアクセス許可ポリシー](teams-app-permission-policies.md)があり、ユーザーに対して送信 Webhook を有効にする場合は、送信 Webhook アプリを一覧に追加します。
 
         > [!NOTE]
         > Teams ユーザーは、他の組織のユーザーとの会議やチャットをホストするときにアプリを追加できます。 他の組織がホストする会議やチャットに参加するときに、他の組織のユーザーが共有するアプリを使用することもできます。 ホストしているユーザーの組織のデータ ポリシーと、そのユーザーの組織が共有するサードパーティ アプリのデータ共有の慣行が適用されます。

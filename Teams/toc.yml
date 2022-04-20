@@ -39,8 +39,6 @@ items:
                 href: tutorial-network-planner-example.yml
               - name: Teams または Skype for Business Online 向けのプロキシ サーバー
                 href: proxy-servers-for-skype-for-business-online.md
-              - name: Teams でチームを作成するときの Microsoft 365 グループの計画
-                href: plan-office-365-groups.md
               - name: Teams でのライフサイクル管理の計画
                 href: plan-teams-lifecycle.md
               - name: Teams でのガバナンスを計画する

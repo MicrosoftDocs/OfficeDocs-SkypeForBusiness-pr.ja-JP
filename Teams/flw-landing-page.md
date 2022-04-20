@@ -14,12 +14,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f2ea4c6f1257b0b206d04c4ef8591c1f2d257292
-ms.sourcegitcommit: fe71ecbe35b8adfb9166188923ed1111b3b8e2a1
+ms.openlocfilehash: ad9b66b249bc907071b00e1c2fd9f7b1c2148def
+ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63388199"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "64961300"
 ---
 # <a name="get-started-with-teams-for-frontline-workers"></a>現場担当者向けの Teams の使用を開始する
 
@@ -33,7 +33,7 @@ ms.locfileid: "63388199"
 - [現場担当者オンボード ウィザードを使用して、現場の従業員を稼働させます](flw-onboarding-wizard.md)
 - [現場担当者のために大規模に Teams をプロビジョニングする方法](flw-scripted-deployment.md)
 - [現場担当者およびマネージャー向けポリシー パッケージ](manage-policy-packages.md)
-- [現場担当者向けに Teams アプリを調整する](pin-teams-apps-based-on-license.md) (近日公開予定)
+- [現場担当者向けに Teams アプリを調整する](pin-teams-apps-based-on-license.md)
 - [Teams にサインインする](sign-in-teams.md)
 - [Teams からサインアウトする](sign-out-of-teams.md)
 - 現場担当者向けの Microsoft アプリは以下のとおりです。

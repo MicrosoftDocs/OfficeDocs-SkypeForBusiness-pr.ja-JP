@@ -13,12 +13,12 @@ ms.collection:
 description: Teams PowerShell の最新の変更点について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2bc774532f14e04e66018713bcd1c271151fe476
-ms.sourcegitcommit: 0d61ca384e7d76612743de41c8fea4729072fb5e
+ms.openlocfilehash: 66ed3281b2376810e4a87db8103b4b140e4675bd
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64837470"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922448"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>PowerShell リリース ノートのMicrosoft Teams
 
@@ -31,10 +31,10 @@ ms.locfileid: "64837470"
 
 | 日付 | バージョン | 更新 |
 |------- | -------------------- | ------------------------------ |
-| 2022 年 4 月 | [4.2.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.2.0) |<li>Teamsに関連するすべてのコマンドレットのプロキシ サポート。 サポートされているコマンドレットは段階的にロールアウトされています。</li><li>PSListModifier 型パラメーターと共に使用する場合に、最新化されたポリシー コマンドレット [NewSet\|]- に関する問題を修正しました。</li><li>[破壊的変更]PSListModifier 型パラメーターは、Add または Remove の Hashtable のみを受け入れます。 置換を使用したハッシュテーブルは現在サポートされていません。代わりに、パラメーターで値を直接設定できます。</li><li>いくつかの\|最新化されたポリシー コマンドレット (CsVideoInteropServiceProvider、CsInboundBlockedNumberPattern、CsTeamsComplianceRecordingApplication、CsTeamsTranslationRule、CsTeamsUnassignedNumberTreatment、CsVoiceNormalizationRule) に関する形式の問題を修正しました。</li><li>最新化されたコマンドレットを使用したパイプライン入力処理のパフォーマンスが向上しました。</li><li>パイプライン入力結果に関する軽微な問題を修正します。</li><li>Get-CsOnlineUser: Country 属性 (3.x.x より前のバージョンでは CountryOrRegionDisplayName と呼ばれます) が追加されます。</li><li>[破壊的変更]Get-CsOnlineUser: CountryAbbreviation 属性を -Identity パラメーターと共に使用した場合にのみ使用できるようになりました。</li><li>[BREAKING CHANGE] Get-CsOnlineVoicemailPolicyでは、TimeSpan の代わりに MaximumRecordingLength のデータが文字列形式で返されます。 </li>
+| 2022 年 4 月 | [4.2.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.2.0) |<li>Teamsに関連するすべてのコマンドレットのプロキシ サポート。 サポートされているコマンドレットは段階的にロールアウトされています。</li><li>PSListModifier 型パラメーターと共に使用する場合に、最新化されたポリシー コマンドレット [NewSet\|]- に関する問題を修正しました。</li><li>[破壊的変更]PSListModifier 型パラメーターは、Add または Remove の Hashtable のみを受け入れます。 置換を使用したハッシュテーブルは現在サポートされていません。代わりに、パラメーターで値を直接設定できます。</li><li>いくつかの\|最新化されたポリシー コマンドレット (CsVideoInteropServiceProvider、CsInboundBlockedNumberPattern、CsTeamsComplianceRecordingApplication、CsTeamsTranslationRule、CsTeamsUnassignedNumberTreatment、CsVoiceNormalizationRule) に関する形式の問題を修正しました。</li><li>最新化されたコマンドレットを使用したパイプライン入力処理のパフォーマンスが向上しました。</li><li>パイプライン入力結果に関する軽微な問題を修正します。</li><li>Get-CsOnlineUser: Country 属性 (3.x.x より前のバージョンでは CountryOrRegionDisplayName と呼ばれます) が追加されます。</li><li>[破壊的変更]Get-CsOnlineUser: CountryAbbreviation 属性を -Identity パラメーターと共に使用した場合にのみ使用できるようになりました。</li>
 | 2022 年 3 月 | [4.1.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.1.0) |<li>警告変数とエラー変数に関する問題を修正しました。</li><li>PowerShell Runspaces で最新化されたコマンドレットを使用する場合の問題を修正します。</li><li>リリース [GetNewSetRemove\|\|\|]-CsTeamsShiftsConnectionInstance コマンドレット。</li><li>リリース [GetNewRemove\|\|]-CsTeamsShiftsConnectionTeamMap コマンドレット。</li><li>Get-CsTeamsShiftsConnectionWfm[UserTeam\|] コマンドレットをリリースします。</li><li>Get-CsTeamsShiftsConnectionConnectionConnectionConnector、Get-CsTeamsShiftsConnectionSyncResult、New-CsTeamsShiftsConnectionBatchTeamMap、Remove-CsTeamsShiftsScheduleRecord、Test-CsTeamsShiftsConnectionValidate、Get-CsTeamsShiftsConnectionOperation & Get-CsTeamsShiftsConnectionErrorReport コマンドレットをリリースします。</li>
 | 2022 年 3 月 | [4.0.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.0.1-preview) |<li>ErrorAction 共通パラメーターに関する問題を修正しました。</li>
-| 2022 年 3 月 | [4.0.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.0.0) |<li>この GA リリースでは、組織のみに関連するすべてのコマンドレットの最新化Teams完了します。 最新バージョンは段階的にロールアウトされるため、一部の組織では古いリモート処理バージョンが引き続き表示されます。</li><li>GA で [NewSetRemove\|\|]-CsUserCallingDelegate および [GetSet\|]-CsUserCallingSettings コマンドレットをリリースします。</li><li>[破壊的変更]New-CsVoiceNormalizationRule を除く。InMemory スイッチは、他のコマンドレットではサポートされなくなりました。</li><li>ConvertTo-JsonForPSWS、Set-CsUserServicesPolicy、[GetSet\|]-CsNetworkConfiguration、[SetRemove\|]-CsTenantNetworkConfiguration、New-CsNetworkMediaBypassConfiguration、[GetGrantNewRemoveSet\|\|\|\|]-CsTeamsVerticalPackagePolicy、[GetRemoveSet\|\|]-CsVoiceNormalizationRule。</li>
+| 2022 年 3 月 | [4.0.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.0.0) |<li>この GA リリースでは、組織のみに関連するすべてのコマンドレットの最新化Teams完了します。 最新バージョンは段階的にロールアウトされるため、一部の組織では古いリモート処理バージョンが引き続き表示されます。</li><li>GA で [NewSetRemove\|\|]-CsUserCallingDelegate および [GetSet\|]-CsUserCallingSettings コマンドレットをリリースします。</li><li>[破壊的変更]New-CsVoiceNormalizationRule を除く。InMemory スイッチは、他のコマンドレットではサポートされなくなりました。</li><li>ConvertTo-JsonForPSWS、Set-CsUserServicesPolicy、[GetSet\|]-CsNetworkConfiguration、[SetRemove\|]-CsTenantNetworkConfiguration、New-CsNetworkMediaBypassConfiguration、[GetGrantNewRemoveSet\|\|\|\|]-CsTeamsVerticalPackagePolicy、[GetRemoveSet\|\|]-CsVoiceNormalizationRule。</li><li>[BREAKING CHANGE] Get-CsOnlineVoicemailPolicyでは、TimeSpan の代わりに MaximumRecordingLength のデータが文字列形式で返されます。 </li>
 | 2022 年 2 月 | [3.2.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/3.2.0-preview) |<li>このリリースでは、組織のみに関連するすべてのコマンドレットの最新化Teams完了します。 最新バージョンは段階的にロールアウトされるため、一部の組織では古いリモート処理バージョンが引き続き表示されます。</li><li>[破壊的変更]New-CsVoiceNormalizationRule を除く。InMemory スイッチは、他のコマンドレットではサポートされなくなりました。</li><li>Connect-MicrosoftTeamsパフォーマンスの向上。</li><li>プレフィックスを使用したImport-Moduleの修正。</li><li>[GetSetRemove\|\|]-CsOnlineLisPort のスラッシュ文字 "/" を持つポートの処理を修正しました。</li><li>コマンドレットTest-CsTeamsUnassignedNumberTreatmentリリースします。</li><li>ConvertTo-JsonForPSWS、Set-CsUserServicesPolicy、[GetSet\|]-CsNetworkConfiguration、[SetRemove\|]-CsTenantNetworkConfiguration、New-CsNetworkMediaBypassConfiguration、[GetGrantNewRemoveSet\|\|\|\|]-CsTeamsVerticalPackagePolicy、[GetRemoveSet\|\|]-CsVoiceNormalizationRule。</li>
 | 2022 年 2 月 | [3.1.1](https://www.powershellgallery.com/packages/MicrosoftTeams/3.1.1) |<li>Import-Module のパフォーマンスが向上しました。</li><li>PSListModifier 逆シリアル化の問題が修正されました。</li>
 | 2022 年 1 月 | [3.1.0](https://www.powershellgallery.com/packages/MicrosoftTeams/3.1.0) |<li>コマンドレットの名前をGet-CsTeamsShiftsConnectionUserから Get-CsTeamsShiftsConnectionWfmUser に変更しました。</li><li>Get-CsOnlineUser の新しいパラメーター ResultSize、SkipUserPolicies をリリースします。 </li><li>Get-CsOnlineDialInConferencingUser の新しいパラメーター ResultSize をリリースします。</li><li>新しいパラメーター First、NumberAssigned、NumberNotAssigned、PSTNConnectivity、EnterpriseVoiceStatus、CivicAddressId、LocationId for Get-CsOnlineVoiceUser をリリースします。</li>
@@ -66,7 +66,7 @@ ms.locfileid: "64837470"
 | 2020 年 3 月 | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>New-CsBatchPolicyAssignmentOperationを追加しました</li> |
 | 2020 年 2 月 | [1.0.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.4) | <li>Get-Teamの最適化</li>  |
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Teams PowerShell の概要](teams-powershell-overview.md)
 

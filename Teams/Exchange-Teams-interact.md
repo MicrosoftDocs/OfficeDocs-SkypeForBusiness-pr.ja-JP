@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b04e5937ad737feb39528c06f54ad8890ba32d0
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 52e4a9df0daded1a1091c32790dae2c15294529d
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839059"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922498"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携
 
@@ -131,7 +131,7 @@ Microsoft Teams では、Microsoft 365 や Office 365 のさまざまなサー�
 
 - すべての会議のディスカッションを確実に検出できるというコンプライアンス要件が組織にある場合、開催者に Exchange オンプレミス メールボックスがある場合は、プライベート会議を無効にする必要があります。 詳細については、「 [プライベート会議のスケジュール設定](./meeting-policies-in-teams-general.md#private-meeting-scheduling)」を参照してください。
 
-- Exchange ハイブリッド展開では、チャット参加者が使用するメールボックスがクラウド ベースかオンプレミスかにかかわらず、チャット メッセージのコンテンツは検索可能です。 詳細については、「[オンプレミス ユーザーのクラウドベース メールボックスの検索](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)」を参照してください。 Teams でコンテンツを検索する方法については、「[Microsoft 365 コンプライアンス センターのコンテンツ検索](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)」を参照してください。
+- Exchange ハイブリッド展開では、チャット参加者が使用するメールボックスがクラウド ベースかオンプレミスかにかかわらず、チャット メッセージのコンテンツは検索可能です。 詳細については、「[オンプレミス ユーザーのクラウドベース メールボックスの検索](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)」を参照してください。 Teamsでコンテンツを検索する方法については、[Microsoft Purview コンプライアンス ポータルのコンテンツ検索を](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)参照してください。
 
 - プレゼンス ステータスについては、Microsoft Teams はメールボックスが Exchange Online でホストされているかオンプレミスでホストされているかを確認する必要があります。 次に、サービスはメールボックスにアクセスする場所を決定します。 Teams サービスが Exchange Online サービスへの REST API 呼び出しを介してメールボックスの場所を確認できるようにするには、「[ハイブリッド構成ウィザードを使用したハイブリッド展開の作成](/exchange/hybrid-deployment/deploy-hybrid)」で説明されているように、Exchange ハイブリッド構成ウィザードを実行してExchange ハイブリッド環境を展開する必要があります。
 

@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4ab8adcbe4a717e62e0dff66ecf00fb1650e31b
-ms.sourcegitcommit: 823ad7fe5f7a27f681c95b2d369ce2cbe71cfdfe
+ms.openlocfilehash: 091fe5eba9d17cefc442978cb3090aaca87844d8
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "64691452"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922648"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>Microsoft Teamsとの通信コンプライアンス
 
-コミュニケーション コンプライアンスは、組織内の不適切なメッセージを検出、キャプチャ、および操作できるようにすることで、コミュニケーション リスクを最小限に抑えるMicrosoft 365のインサイダー リスク ソリューションです。
+Microsoft Purview Communication Compliance は、組織内の不適切なメッセージの検出、キャプチャ、および操作を支援することで、コミュニケーション リスクを最小限に抑えるMicrosoft 365のインサイダー リスク ソリューションです。
 
 Microsoft Teamsでは、コミュニケーション コンプライアンスは、Teams チャネル、プライベート Teams チャネル、または 1:1 およびグループ チャットで[、次の種類](/microsoft-365/compliance/communication-compliance-feature-reference)の不適切なコンテンツを特定するのに役立ちます。
 
@@ -33,7 +33,7 @@ Microsoft Teamsでは、コミュニケーション コンプライアンスは�
 - 成人用、racy、および gory の画像
 - 機密情報の共有
 
-コミュニケーション コンプライアンスと組織のポリシーを構成する方法の詳細については、「[Microsoft 365のコミュニケーション コンプライアンス](/microsoft-365/compliance/communication-compliance)」を参照してください。 通信コンプライアンスを含むMicrosoft 365サブスクリプションの詳細については、「[Insider リスク ソリューション](/microsoft-365/compliance/insider-risk-solution-overview#communication-compliance)」を参照してください。
+コミュニケーション コンプライアンスと組織のポリシーを構成する方法の詳細については、「 [通信コンプライアンスの詳細](/microsoft-365/compliance/communication-compliance)」を参照してください。
 
 ## <a name="how-to-use-communication-compliance-in-microsoft-teams"></a>Microsoft Teamsで通信コンプライアンスを使用する方法
 

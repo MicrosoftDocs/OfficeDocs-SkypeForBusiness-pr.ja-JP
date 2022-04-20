@@ -1,342 +1,346 @@
 ---
-title: 次の操作をMicrosoft Teams
+title: Microsoft Teams間を移動する
 author: Benny-54
 ms.author: v-bshilpa
 manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: null
-description: この記事では、ユーザーがKaizalaを移動する方法についてMicrosoft Teams。
-f1.keywords: null
+ms.reviewer: ''
+description: この記事では、ユーザー Kaizala Microsoft Teams間を移動する方法について説明します。
+f1.keywords: ''
 ms.localizationpriority: medium
-search.appverid: null
-ms.collection: null
-ms.custom: null
+search.appverid: ''
+ms.collection: ''
+ms.custom: ''
+ms.openlocfilehash: 5c87bca0eacfdc85ca39d997488a97faedaf0824
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922678"
 ---
+# <a name="navigate-microsoft-teams"></a>Microsoft Teamsに移動する
 
+組織固有のパスとニーズを明確に理解できたので、次は、Microsoft Teamsとの強力なコラボレーションへの道のりを始めましょう。 次のセクションを使用して、Teams内で補完される Kaziala の機能を移動する方法について説明します。
 
-# <a name="navigate-microsoft-teams"></a>ナビゲーションMicrosoft Teams
-
-組織固有のパスとニーズを明確に理解したので、次は、Microsoft Teams との強力なコラボレーションに取りかかります。 次のセクションを使用して、Kaziala の機能を各セクション内で強化する方法Teams。
-
-| Kaizala | 設定Teams |
+| Kaizalaから | Teamsするには |
 |---------|-----------------------|
-| 概要 - サインインとプロファイルのセットアップ| [Teams の使用を開始する](#getting-started) |
-| 新しいチャットの開始、1 対 1 の音声通話とビデオ通話 | [音声通話Teamsビデオ通話でのチャット](#starting-new-chats-11-audio-and-video-calls) |
-| グループKaizalaグループ| [グループをKaizalaに移動Teams](#moving-your-kaizala-groups-to-microsoft-teams) |
-| コンシューマー アプリのメッセージング エクスペリエンスを模倣する| [コンシューマー アプリのメッセージング エクスペリエンスを模倣する](#mimic-the-consumer-app-messaging-experience) |
-| Out of Box アクション カード |  [Teams で作業を完了Teams](#getting-work-done-in-teams) |
-| 投票、アンケート、チェックリスト| [アンケート、アンケート、チェックリストを実行Teams](#polls-surveys-and-checklists-in-teams) |
-| 会議 - アクション カード| [Let's Meet – 会議のTeams](#getting-work-done-in-teams) |
-| お知らせ - アクション カード| [Teams のお知らせ](#announcements-in-teams) |
-| 写真チェックイン アクション カード| [写真のチェックイン (Teams](#photo-check-ins)
-| クイズ - アクション カード| [テストのTeams](#quiz-in-teams)
-| トレーニング - アクション カード| [Teams でのトレーニング](#training-in-teams) |
-| カスタム アクション カード | [カスタム ソリューション (Teams](#moving-kaizala-custom-solutions-to-microsoft-teams) |
-| Kaizala管理ポータル| [IT のプロ向け](#it-professionals) |
-| | [エンド ユーザー向け](#end-user-guidance) |
-| Kaizalaグループの選択| [Kaizalaグループの選択](#kaizala-group-dissolution) |
-| Kaizala データのエクスポート| [テナント データKaizalaエクスポートする](#export-kaizala-tenant-data)  |
-| 外部ユーザー (ベンダー/サプライヤー/パートナー) との共同作業| [個人Teamsの相互運用性のためにTeamsと作業に使用する](#collaborating-with-external-usersvendorssupplierspartners) |
+| 作業の開始 - サインインとプロファイルの設定| [Teams の使用を開始する](#getting-started) |
+| 新しいチャットの開始、1:1 の音声通話とビデオ通話 | [Teams、オーディオ、ビデオ通話でのチャット](#starting-new-chats-11-audio-and-video-calls) |
+| Kaizala グループ| [Kaizala グループをTeamsに移動する](#moving-your-kaizala-groups-to-microsoft-teams) |
+| コンシューマー アプリ のメッセージング エクスペリエンスを模倣する| [コンシューマー アプリ のメッセージング エクスペリエンスを模倣する](#mimic-the-consumer-app-messaging-experience) |
+| Out Of Box アクション カード |  [Teamsで作業を完了する](#getting-work-done-in-teams) |
+| 投票、アンケート、チェックリスト| [Teamsでのポーリング、アンケート、チェックリストの実行](#polls-surveys-and-checklists-in-teams) |
+| 会議 - アクション カード| [会議を行う – Teamsでの会議](#getting-work-done-in-teams) |
+| お知らせ - アクション カード| [Teamsのお知らせ](#announcements-in-teams) |
+| フォト チェックイン アクション カード| [Teamsでの写真チェックイン](#photo-check-ins)
+| クイズ - アクション カード| [Teamsのクイズ](#quiz-in-teams)
+| トレーニング - アクション カード| [Teamsでのトレーニング](#training-in-teams) |
+| カスタム アクション カード | [Teamsのカスタム ソリューション](#moving-kaizala-custom-solutions-to-microsoft-teams) |
+| Kaizala管理ポータル| [IT 担当者向け](#it-professionals) |
+| | [エンド ユーザーの場合](#end-user-guidance) |
+| Kaizala グループの分解| [Kaizala グループの分解](#kaizala-group-dissolution) |
+| テナント データのエクスポートをKaizalaする| [テナント データKaizalaエクスポートする](#export-kaizala-tenant-data)  |
+| 外部ユーザー (ベンダー/仕入先/パートナー) との共同作業| [仕事とTeamsにTeamsを使用して、個人的な相互運用性を使用する](#collaborating-with-external-usersvendorssupplierspartners) |
 
 ## <a name="getting-started"></a>はじめに
 
-作業の開始ガイドでは、KaizalaからTeamsの移行をこれまでよりも簡単に開始できます。 新しい体験の開始の詳細については、「Microsoft Teamsの概要[」を参照Teams](https://support.microsoft.com/office/start-and-pin-chats-a864b052-5e4b-4ccf-b046-2e26f40e21b5?wt.mc_id=otc_microsoft_teams&ui=en-us&rs=en-us&ad=us)。
+KaizalaからTeamsへの移行の開始は、作業の開始ガイドを使用する方がこれまで以上に簡単です。 Microsoft Teams体験の開始の詳細については、「[Teamsの概要](https://support.microsoft.com/office/start-and-pin-chats-a864b052-5e4b-4ccf-b046-2e26f40e21b5?wt.mc_id=otc_microsoft_teams&ui=en-us&rs=en-us&ad=us)」を参照してください。
 
-## <a name="starting-new-chats-11-audio-and-video-calls"></a>新しいチャットの開始、1 対 1 の音声通話とビデオ通話
+## <a name="starting-new-chats-11-audio-and-video-calls"></a>新しいチャットの開始、1:1 の音声通話とビデオ通話
 
-1 対 1 またはグループ チャットを作成して、小規模なグループと共同作業したり、グループ内でプライベートTeams。 チャットをピン留めし、メッセージを保存してすばやくアクセスできます。 リッチ テキストの書式設定、絵文字、GIF を使ったチャットを開始するには、「Teams でのチャット」[を参照してください](https://support.microsoft.com/office/start-and-pin-chats-a864b052-5e4b-4ccf-b046-2e26f40e21b5?wt.mc_id=otc_microsoft_teams&ui=en-us&rs=en-us&ad=us)。
+小規模なグループと共同作業したり、Teams内でプライベートに話したりするために、1 対 1 またはグループ チャットを作成します。 チャットをピン留めし、メッセージを保存してすばやくアクセスできます。 リッチ テキストの書式設定、絵文字、GIF でチャットを開始するには、「[Teamsでのチャット](https://support.microsoft.com/office/start-and-pin-chats-a864b052-5e4b-4ccf-b046-2e26f40e21b5?wt.mc_id=otc_microsoft_teams&ui=en-us&rs=en-us&ad=us)」を参照してください。
 
-組織内のユーザーと 1 対 1 またはグループ通話を開始することで、効率的に通信できます。 このTeams、音声通話とビデオ通話の両方を柔軟に行える。  開始するには、「通話を行 [う」を参照してください](https://www.microsoft.com/videoplayer/embed/RE4rxv0?pid=ocpVideo0-innerdiv-oneplayer&postJsllMsg=true&maskLevel=20&market=en-us)。
+組織内のすべてのユーザーと 1 対 1 またはグループ通話を開始して効率的に通信します。 Teamsを使用すると、音声通話とビデオ通話の両方を柔軟に行うことができます。  開始するには、「 [呼び出しを行う」を](https://www.microsoft.com/videoplayer/embed/RE4rxv0?pid=ocpVideo0-innerdiv-oneplayer&postJsllMsg=true&maskLevel=20&market=en-us)参照してください。
 
-グループからグループKaizala、Microsoft Teams、チャネル、グループ チャットTeams作成を通じて、Teams。
+Kaizala グループからMicrosoft Teamsに移行するには、TeamsでTeams、チャネル、グループ チャットを作成します。
 
-Teamsは、組織内のさまざまなプロジェクトや結果を取り巻く人、コンテンツ、ツールのコレクションです。
+Teamsは、組織内のさまざまなプロジェクトや成果を取り巻く人、コンテンツ、ツールのコレクションです。
 
-Teamsチャネルで構成されます。チャネルは、チーム メイトとのトピック固有の会話です。 各チャネルは、特定のトピック、部門、またはプロジェクト専用です。 チャネルは、アプリケーションを使用して拡張する場合に最も重要です。 詳細については、「チャネルでの作業 [」を参照してください](https://support.microsoft.com/office/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499?ui=en-us&rs=en-us&ad=us#ID0EAABAAA=Work_in_channels)。
+Teamsは、チーム メンバーとのトピック固有の会話である **チャネル** で構成されます。 各チャネルは、特定のトピック、部署、またはプロジェクト専用です。 チャネルは、アプリケーションで拡張する場合に最も役立ちます。 詳細については、 [チャネルでの作業に関するページを](https://support.microsoft.com/office/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499?ui=en-us&rs=en-us&ad=us#ID0EAABAAA=Work_in_channels)参照してください。
 
-**グループ チャットを使用** すると、インスタント メッセージングを使って同僚を簡単に集めできます。
+**グループ チャット** を使用すると、同僚のクイック ハドルをインスタント メッセージングで収集できます。
 
-### <a name="conversations-in-teams-chat-vs-team-channel"></a>チャットとチーム チャネルTeamsでの会話
+### <a name="conversations-in-teams-chat-vs-team-channel"></a>Teams チャットとチーム チャネルの会話
 
 |チャットでの会話 | チーム チャネルでの会話 |
 |---------|---------|
-|受信者に直接メッセージを送信する軽量な会話の場合。   | オープン スペースで複数のトピックについて説明する対話用。  |
-|プライベート チャットは、チャット内のユーザーにのみ表示されます。     | チーム内のすべてのユーザーに表示される        |
-|1 つの継続的な未読の会話     | 構造化された複数のスレッド化された会話        |
+|軽量の会話の場合は、受信者に直接メッセージを送信します。   | オープンスペースで複数のトピックについて説明する対話の場合。  |
+|プライベート チャットは、チャット内のユーザーにのみ表示されます     | チーム内のすべてのユーザーに表示される        |
+|1 つの継続的な読み取りのない会話     | 構造化された複数のスレッド化された会話        |
 |最大 250 人     | 最大 25,000 人        |
-|新しいチャット参加者とチャット履歴を共有する場合の選択     | 履歴は、すべての新しいチーム メンバーと共有されます        |
-|新しいチャットの受信者は、既にチャットに参加しているユーザーによって追加される必要があります     | ユーザーは、チームを検索してチームに参加できます。 プライベート アカウントではTeams管理者Teams新しいメンバーを承認します。 チャネル メンバーは、新しいメンバーが管理者の承認なしで直接参加できるコードを生成できます。        |
-|スポット 画面共有、音声通話、ビデオ通話。 すべてのチャット参加者とのTeamsの簡単なスケジュール設定     | その場で予定されている音声通話とビデオ通話        |
-|アプリの一部の機能拡張     | アプリを使用した完全な拡張性とカスタマイズ        |
+|新しいチャット参加者とチャット履歴を共有するかどうかを選択する     | 履歴は、すべての新しいチーム メンバーと共有されます        |
+|新しいチャット受信者は、チャットに既に参加しているユーザーが追加する必要があります     | ユーザーは、検索してチームに参加できます。 プライベート Teamsでは、Teams管理者が新しいメンバーを承認します。 チャネル メンバーは、新しいメンバーが管理者の承認なしに直接参加できるようにするコードを生成できます。        |
+|スポット画面で共有し、音声とビデオの通話を行います。 すべてのチャット参加者とTeams会議の簡単なスケジュール設定     | その場で、スケジュールされた音声とビデオの通話        |
+|アプリを使用した一部の機能拡張     | アプリを使用した完全な拡張性とカスタマイズ        |
 
-チャット、チャネル、Teamsチャットの概要については、「[チームとチャネル](teams-channels-overview.md)」を参照Microsoft Teams。
+Teams、チャネル、グループ チャットの概要については、[Microsoft Teamsのチームとチャネルに](teams-channels-overview.md)関するページを参照してください。
 
-## <a name="moving-your-kaizala-groups-to-microsoft-teams"></a>グループをKaizalaに移動Microsoft Teams
+## <a name="moving-your-kaizala-groups-to-microsoft-teams"></a>Kaizala グループをMicrosoft Teamsに移動する
 
-このKaizalaグループはユーザーのコレクションです。 グループ内には、フラット グループ、階層グループKaizalaブロードキャスト グループの 3 種類のグループ構造があります。 Microsoft Teamsに移行すると、Teams、チャネル、グループ チャットを使用して、組織の同様の通信構造を作成できます。
+Kaizalaでは、グループはユーザーのコレクションです。 Kaizala内には、フラット グループ、階層グループ、ブロードキャスト グループの 3 種類のグループ構造があります。 Microsoft Teamsに移行するときに、Teams、チャネル、およびグループ チャットを使用して、組織の同様のコミュニケーション構造を作成できます。
 
-グループからグループ チャット、チャネル、グループ チャットに切り替えるTeamsガイダンスを使用します。
+グループからTeams、チャネル、グループ チャットへの切り替え手順については、次のガイダンスを参照してください。
 
-フラット グループをフラット グループにKaizala方法は 2 Teams。
+Kaizalaフラット グループをTeamsに移動するには、次の 2 つの方法があります。
 
-- オプション 1: フラット グループからKaizalaグループ チャットに切り替Teams
+- オプション 1: Kaizala フラット グループからTeamsのグループ チャットに切り替える
 
-- オプション 2: フラット グループKaizalaチームに切りTeamsする
+- オプション 2: Kaizala フラット グループからTeams チームに切り替える
 
-**オプション 1: フラット グループからKaizalaグループ チャットに切り替Teams**
+**オプション 1: Kaizala フラット グループからTeamsのグループ チャットに切り替える**
 
-最大 250 人のTeams簡単なチャットや一時的な会話を行うグループ チャットを作成できます。 グループ チャットを使用すると、組織内のユーザーは、誰でもチャットに追加できる、開いている会話の中心的な場所を持つことになります。
+Teams グループ チャットを作成して、最大 250 人の参加者とすばやくハドルや一時的な会話を行うことができます。 グループ チャットを使用すると、組織内のユーザーは、誰でもチャットに追加できるオープンな会話の中央の場所を確保できます。
 
-1. グループ チャットを開始して名前を付けします。
+1. グループ チャットを開始して名前を付けます。
 
-    ![グループ チャットに名前を付け](media/kaizala-to-teams-image4.png)
+    ![グループ チャットに名前を付けます](media/kaizala-to-teams-image4.png)
 
-    グループ チャットにアクセスできるすべてのユーザーがメッセージ [を送信できます](https://support.microsoft.com/office/send-and-read-messages-in-teams-b29e60ec-76af-4d97-8c3c-a4e36f2b64aa?ui=en-us&rs=en-us&ad=us)。
+    グループ チャットにアクセスできるすべてのユーザーは [、メッセージを送信](https://support.microsoft.com/office/send-and-read-messages-in-teams-b29e60ec-76af-4d97-8c3c-a4e36f2b64aa?ui=en-us&rs=en-us&ad=us)できます。
 
 2. 会話にユーザーを追加します。
 
     ![会話にユーザーを追加する](media/kaizala-to-teams-image5.png)
     
-   (1 対 1 ではなく) グループ チャットに他のユーザーを追加する場合は、共有するチャット履歴と履歴の期間を含めできます。
+   グループ チャット (1 対 1 ではない) に他のユーザーを追加する場合は、 **チャット履歴** と共有する **履歴の期間** を含めることができます。
 
 3. グループ チャットを管理します。
   
     ![グループ チャットを管理する](media/manage-groupchats.png)
     
-   グループ チャットに参加しているユーザーを確認するには、チャット ヘッダーの参加者数をポイントして、全員の名前の一覧を表示します。
+   グループ チャットに参加しているユーザーを確認するには、チャット ヘッダーの参加者の数にマウス ポインターを合わせて、全員の名前の一覧を表示します。
 
-**オプション 2: フラット グループKaizalaチームに切りTeamsする**
+**オプション 2: Kaizala フラット グループからTeams チームに切り替える**
    
-対象を絞った大規模なグループ通信の場合は、フラット グループのチームを作成できます。 スレッド化された会話と構造化された通信を行う最大 25,000 人のメンバーを追加できます。 この種類の通信では、モデレーションロールと管理ロールを使用して、スムーズに動作します。
+ターゲットを絞った大規模なグループ通信の場合は、フラット グループのチームを作成できます。 最大 25,000 人のメンバーを追加して、スレッド化された会話で構造化された通信を行うことができます。 この種類の通信により、モデレートロールと管理ロールを使用して、物事がスムーズに実行されるようにすることができます。
 
-1. チームを作成する: Teams で立ち上げ、実行するには、チームの作成、ユーザーの追加、チャネルの追加を行う必要があります。 詳細については、最初のチーム [を参照してください](get-started-with-teams-create-your-first-teams-and-channels.md)。
-2. チーム所有者向けガイドを確認します。
+1. チームを作成する: Teamsで起動して実行するには、チームを作成し、ユーザーを追加し、チャネルを追加する必要があります。 詳細については、 [最初のチームを参照してください](get-started-with-teams-create-your-first-teams-and-channels.md)。
+2. チーム所有者向けのガイドを確認します。
 
-チームの [所有者は](https://support.microsoft.com/office/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547?ui=en-us&rs=en-us&ad=us)、新しいメンバーとゲストを追加し、メンバーを所有者に変更し、チャネルと設定を管理し、使用されなくなったチームをアーカイブすることができます。
+[チーム所有者](https://support.microsoft.com/office/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547?ui=en-us&rs=en-us&ad=us)は、新しいメンバーとゲストを追加したり、メンバーを所有者に変更したり、チャネルや設定を管理したり、使用されなくなったチームをアーカイブしたりできます。
 
 3. チームに一括メンバーを追加する:
 
-    チームの所有者である場合は、チームの一覧でチーム名に移動し、[その他のオプション] ボタンを選択>メンバーを追加 **します**。
+    チーム所有者の場合は、チームの一覧のチーム名に移動し、[ **その他のオプション** ] ボタン> [メンバーの **追加]** を選択します。
 
     ![一括メンバーを追加する](media/kaizala-to-teams-image6.png)
 
-    配布リスト、セキュリティ グループ、またはチームに追加するMicrosoft 365グループの入力を開始できます。 詳細については、「チームにメンバーを追加[する」を参照Teams](https://support.microsoft.com/office/add-members-to-a-team-in-teams-aff2249d-b456-4bc3-81e7-52327b6b38e9?ui=en-us&rs=en-us&ad=us)。
+    配布リスト、セキュリティ グループ、またはMicrosoft 365 グループの入力を開始して、チームに追加できます。 詳細については、「[Teamsのチームにメンバーを追加する](https://support.microsoft.com/office/add-members-to-a-team-in-teams-aff2249d-b456-4bc3-81e7-52327b6b38e9?ui=en-us&rs=en-us&ad=us)」を参照してください。
 
 ### <a name="mimic-the-consumer-app-messaging-experience"></a>コンシューマー アプリのメッセージング エクスペリエンスを模倣する
 
-ユーザーのエクスペリエンスを簡素化する場合は、組織の Teams エクスペリエンスを構成して、ユーザーが既に使用しているコンシューマー ツールを模倣することができます。
+ユーザーのエクスペリエンスを簡略化する場合は、組織のTeams エクスペリエンスを構成して、ユーザーが既に使用しているコンシューマー ツールを模倣することを選択できます。
 
-簡単な Teamsコミュニケーションとシフト (省略可能) Kaizalaで [チャットでお気に入りのチャネルを表示する] を使用して、Kaizala ユーザーの新しい体験を開始することをお勧めします。
+**チャットでお気に入りのチャネルを表示** する機能を有効にして、コミュニケーションとシフトを簡略化する (省略可能) Kaizala ユーザーのTeams体験を開始することをお勧めします。
 
 ![管理センターでお気に入りのチャネル設定を表示する](media/kaizala-to-teams-image26.png)
 
-Shifts を使用したチームのインターフェイスの例を次に **示します**。
+**Shifts** を使用したチームのインターフェイスの例を次に示します。
 
 ![Shifts でのメッセージング エクスペリエンス](media/kaizala-to-teams-image24.png)
 
-Shifts を使用しない Team のインターフェイスの **例を次に示します**。
+**Shifts を使用しない** チームのインターフェイスの例を次に示します。
 
- ![シフトなしのメッセージング エクスペリエンス](media/kaizala-to-teams-images25.png)
+ ![Shifts を使用しないメッセージング エクスペリエンス](media/kaizala-to-teams-images25.png)
 
 > [!NOTE]
-> [チャット] ボタンへのアクセスTeams、チャットの上に表示されているチャネルだけが強調表示されている、Frontline worker の簡略化されたインターフェイスを作成できます。 詳細については、「Manage [messaging policies in Teams」を参照してください](messaging-policies-in-teams.md)。
+> [Teams] ボタンへのアクセス権を削除すると、チャットの上に強調表示されたチャネルのみが表示される Frontline worker の簡略化されたインターフェイスを作成できます。 詳細については、「[Teamsでのメッセージング ポリシーの管理](messaging-policies-in-teams.md)」を参照してください。
 
-### <a name="use-teams-and-channels-to-create-a-hierarchical-group-structure"></a>[Teams チャネル] を使用して階層構造のグループ構造を作成する
+### <a name="use-teams-and-channels-to-create-a-hierarchical-group-structure"></a>Teamsとチャネルを使用して階層グループ構造を作成する
 
-階層Kaizalaグループを使用すると、メンバー間の通信の種類に応じて、組織が異なるグループ構造で対話できます。  このTeams、組織図Teams一致するチャネルとチャネルを作成し、階層ベースの通信を設定できます。 必要なアクション、重要なニュース、更新Teamsメンバーに通知するために、階層構造を使用できます。
+Kaizalaでは、階層グループを使用すると、組織はメンバー間の通信の種類に応じて異なるグループ構造で対話できます。  Teamsでは、組織図に一致するTeamsとチャネルを作成し、階層ベースの通信を設定できます。 Teams内の階層構造を使用して、必要なアクション、重要なニュース、更新プログラムのメンバーにアラートを送信できます。
 
 ![Teams階層グラフ](media/kaizala-to-teams-image7.png)
 
-![地区マネージャーとストア アソシエイトのチャネルのインターフェイスTeamsします。](media/kaizala-to-teams-image27.png)
+![Teams チャネルの地区マネージャーとストア アソシエイトのインターフェイス](media/kaizala-to-teams-image27.png)
 
-詳細については、Microsoft Teams でチームを編成するためのベスト [プラクティスを参照してください](best-practices-organizing.md)。
+詳細については、[Microsoft Teamsでチームを編成するためのベスト プラクティス](best-practices-organizing.md)を参照してください。
 
-### <a name="use-teams-and-channels-to-broadcast-important-news"></a>重要Teamsニュースをブロードキャストするには、チャネルとチャネルを使用します。
+### <a name="use-teams-and-channels-to-broadcast-important-news"></a>Teamsとチャネルを使用して重要なニュースをブロードキャストする
 
-配信グループKaizala管理者は、対象のグループにメッセージとアクションを送信できます。 同様に、複数のチャネルに投稿して、複数のチャネルでメッセージをブロードキャストTeams。 重要なメッセージに注意を向け、お知らせの投稿を作成します。
+Kaizalaブロードキャスト グループでは、管理者はターゲット グループにメッセージとアクションを送信できます。 同様に、複数のチャネルに投稿して、Teamsでメッセージをブロードキャストできます。 重要なメッセージに注意を向けるには、お知らせの投稿を作成します。
 
-チャネル モデレーションを使用すると、メッセージを投稿および返信できるユーザーを制御できます。 チャネルは、配信者がより多くの対象ユーザーに到達するために、チーム全体で選択できます。 お知らせのやり取りを制限できるのは、選択した管理者とモデレーターに対して返信を許可する機能のみです。 次の手順に従って、チャネル モデレーションをTeamsします。
+チャネル モデレーションを使用すると、メッセージを投稿して返信できるユーザーを制御できます。 ブロードキャスト配信者が多くのユーザーにアクセスできるように、チャネルをチーム全体で選択できます。 お知らせに対する対話を制限できるのは、選択した管理者とモデレーターに返信する機能を許可することだけです。 次の手順に従って、Teams チャネル内でチャネル モデレーションを確立します。
 
 **手順 1**: チャネル モデレーションを設定します。
 
 - ブロードキャストのチャネルを選択する
 
-- [ **チャネル設定] を** 選択してモデレーションを設定する
+- モデレーションを設定する **チャネル設定** を選択する
 
-- [Whoは司会者ですか?] に移動します。 チャネルのモデレーターを手動で選択するには
+- [モデレーターはWhoですか?] に移動します。 チャネルのモデレーターを手動で選択するには
 
 ![チャネル モデレーションTeams設定する](media/kaizala-to-teams-image8.png)
 
-**手順 2**: メッセージを書式設定する。
-重要なニュースやアクションについてチーム メンバーに通知するアナウンスを作成します。
+**手順 2**: メッセージを書式設定します。
+重要なニュースやアクションをチーム メンバーに通知するアナウンスを作成します。
 
    ![Teamsのお知らせ](media/kaizala-to-teams-image9.png)
 
 - チャネルで、メッセージを入力するボックスの下にある [書式] を選択します。
 
-- 表示されるボックスの上部で、[新しい会話] の横にある矢印を選択し、[お知>します。
+- 表示されるボックスの上部にある [新しい会話>お知らせ] の横にある矢印を選択します。
 
-- 見出しを入力したり、背景色を変更したり、見出し領域の背景画像を追加したりします。
+- 見出しを入力するか、背景色を変更するか、見出し領域の背景イメージを追加します。
 
-- [小ヘッドの追加] 領域にアナウンスの件名を入力し、メッセージの本文を入力し、[送信] ボタンを選択します。
+- [サブヘッドの追加] 領域にアナウンスの件名を入力し、メッセージの本文を入力し、[送信] ボタンを選択します。
     ![モバイルのお知らせ](media/kaizala-to-teams-image10.png)
 
-**手順 3**: メッセージ配信のチャネルを選択します。
+**手順 3**: メッセージ ブロードキャストのチャネルを選択します。
 
-大規模なグループのユーザーに到達するために必要Teamsのお知らせや情報がある場合は、複数のグループとチャネルをまたがって投稿できます。
+大規模なユーザー グループに連絡する必要がある重要なお知らせや情報がある場合は、複数のTeamsとチャネル間でクロスポストできます。
 
-  ![ブロードキャスト用のチャネルを選択する](media/kaizala-to-teams-image11.png)
+  ![ブロードキャストのチャネルを選択する](media/kaizala-to-teams-image11.png)
 
-詳細については、「チャネル会話を[クロスポスト](https://support.microsoft.com/office/cross-post-a-channel-conversation-in-teams-9c1252a3-67ef-498e-a7c1-dd7147b3d295?ui=en-us&rs=en-us&ad=us)する」を参照Teams。
+詳細については、「[Teamsでチャネル会話をクロスポストする](https://support.microsoft.com/office/cross-post-a-channel-conversation-in-teams-9c1252a3-67ef-498e-a7c1-dd7147b3d295?ui=en-us&rs=en-us&ad=us)」を参照してください。
 
-## <a name="getting-work-done-in-teams"></a>Teams で作業を完了Teams
+## <a name="getting-work-done-in-teams"></a>Teamsで作業を完了する
 
-作業の完了に関しては、適切なツールを使用して効率を高めることができます。 このKaizala、[Out-of-box (OOB)](/kaizala/partnerdocs/kaizalaactioncards) アクション カードを使用して、毎日の作業管理を簡単かつ効率的にすることができます。
-Microsoft Teamsでは、さまざまな機能とソリューションを提供しています。この機能は、Kaizala。
+作業の完了に関しては、適切なツールを使用して効率を高めることができます。 Kaizalaでは、[Out-Of-Box (OOB) アクション カード](/kaizala/partnerdocs/kaizalaactioncards)を使用して、毎日の作業管理を簡単かつ効率的にすることができます。
+Microsoft Teamsには、Kaizalaの Out of Box Action カードに対するいくつかの機能とソリューションが用意されています。
 
-![ユーザーを他のユーザーとTeams](media/kaizala-to-teams-image12.png)
+![Teamsを使用してユーザーを引き付ける](media/kaizala-to-teams-image12.png)
 
-Teams プラットフォームでは、すぐに使用できる Microsoft 365 アプリケーションやサード パーティ製アプリと共に Microsoft Teams に統合することで、既存の組織ツールを使用できます。 現在、300 を超える外部アプリケーションが現在、Microsoft Teams。
+Teams プラットフォームを使用すると、すぐに使用できるMicrosoft 365 アプリケーションやサードパーティのアプリと共に、Microsoft Teamsに統合することで、既存の組織ツールを使用できます。 現在、Microsoft Teamsには 300 を超える外部アプリケーションが用意されています。
 
-### <a name="polls-surveys-and-checklists-in-teams"></a>アンケート、アンケート、チェックリスト (Teams
+### <a name="polls-surveys-and-checklists-in-teams"></a>Teamsの投票、アンケート、チェックリスト
 
-[ポーリング、](https://github.com/OfficeDev/microsoft-teams-apps-poll/wiki)[アンケート、](https://github.com/OfficeDev/microsoft-teams-apps-survey)およびチェックリスト[](https://github.com/OfficeDev/microsoft-teams-app-checklist)アクション カードは、Teams のメッセージ拡張機能アプリ テンプレートとしてすぐに[](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions)インストールGitHub。
+[投票](https://github.com/OfficeDev/microsoft-teams-apps-poll/wiki)、アンケート、[チェックリスト](https://github.com/OfficeDev/microsoft-teams-app-checklist)[の](https://github.com/OfficeDev/microsoft-teams-apps-survey)アクション カードは、GitHubにメッセージ拡張機能アプリ テンプレート[Teams](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions)すぐにインストールできるようになりました。
 
-**[** 投票] を使用すると、ユーザーはチャットまたはチャネルですばやく投票を作成して送信し、チームの意見を知る必要があります。 ポーリング アプリは、デスクトップ、ブラウザー、iOS、Android Teamsのすべてのプラットフォームでサポートされています。 既存のサブスクリプションの一部としてデプロイするMicrosoft 365です
+**投票** を使用すると、ユーザーはチームの意見を知るために、チャットまたはチャネルで投票をすばやく作成して送信できます。 ポーリング アプリは、デスクトップ、ブラウザー、iOS、Android クライアントTeams、すべてのプラットフォームでサポートされています。 既存のMicrosoft 365 サブスクリプションの一部としてデプロイする準備が整いました
 
-![アプリ テンプレートをポーリングするTeams](media/polltemplatecompose.gif)
+![Teamsでアプリ テンプレートをポーリングする](media/polltemplatecompose.gif)
 
-**アンケート** を使用すると、ユーザーはチャットまたはチャネルでアンケートを作成して、一連の質問を行い、アクションの可能な分析情報を取得できます。 登録、登録、フィードバック、声、リード キャプチャ、レポート、苦情、評価のアンケートを使用します。 アンケート アプリは、デスクトップ、ブラウザー、iOS、Android Teamsのすべてのプラットフォームでサポートされています。 既存のサブスクリプションの一部としてデプロイMicrosoft 365です。
+**アンケート** を使用すると、ユーザーはチャットまたはチャネルでアンケートを作成し、一連の質問をしたり、実用的な分析情報を得ることができます。 アンケートを使用して、登録、登録、フィードバック、声、リード キャプチャ、レポート、苦情、評価を行います。 アンケート アプリは、デスクトップ、ブラウザー、iOS、Android クライアントTeamsすべてのプラットフォームでサポートされています。 既存のMicrosoft 365 サブスクリプションの一部としてデプロイする準備が整いました。
 
-![Teams のアンケート アプリ テンプレート](media/surveytemplatecompose.gif)
+![Teamsのアンケート アプリ テンプレート](media/surveytemplatecompose.gif)
 
-**チェックリスト** を使用すると、チャットまたはチャネルで共有チェックリストを作成することで、チームと共同作業できます。 チェックリスト アプリは、デスクトップ、ブラウザー、iOS、Android Teamsのすべてのプラットフォームでサポートされています。 既存のサブスクリプションの一部としてデプロイMicrosoft 365です。
+**チェックリスト** を使用すると、チャットまたはチャネルで共有チェックリストを作成してチームと共同作業できます。 チェックリスト アプリは、デスクトップ、ブラウザー、iOS、Android クライアントTeamsすべてのプラットフォームでサポートされています。 既存のMicrosoft 365 サブスクリプションの一部としてデプロイする準備が整いました。
 
-![Teams のチェックリスト アプリ テンプレート](media/checklisttemplatecompose.gif)
+![Teamsのチェックリスト アプリ テンプレート](media/checklisttemplatecompose.gif)
 
-また、既存のアプリやサード パーティ製アプリを使用して、すばやく投票、アンケート、チェックリストをチームMicrosoft 365送信することもできます。
+また、既存のMicrosoft 365やサードパーティのアプリを使用して、迅速な投票、アンケート、チェックリストをチームに即座に送信することもできます。
 
-[Microsoft Forms では](https://techcommunity.microsoft.com/t5/microsoft-forms-blog/microsoft-forms-works-great-with-microsoft-teams/ba-p/109915) 、情報を収集し、意思決定を迅速に行います。 フォームを Teamsに統合すると、[フォーム] タブを簡単に設定し、フォームの通知を作成して、簡単に投票を行うことができます。 方法については、「フォームを作成、編集、レビューする」を[参照Microsoft Teams](https://support.microsoft.com/office/work-with-colleagues-to-create-edit-and-review-forms-in-microsoft-teams-333b97a3-41d9-48bc-a1cb-84a96bd44e14#:~:text=1%20In%20Teams%2C%20go%20to%20the%20channel%20you,name%20for%20your%20new%20form.%20More%20items...%20)。
+[Microsoft Forms](https://techcommunity.microsoft.com/t5/microsoft-forms-blog/microsoft-forms-works-great-with-microsoft-teams/ba-p/109915)を使用すると、情報を収集し、意思決定を迅速に行うことができます。 フォームをTeamsに統合すると、フォーム タブを簡単に設定したり、フォームの通知を作成したり、クイック投票を行うことができます。 方法については、「[Microsoft Teamsでフォームを作成、編集、レビュー](https://support.microsoft.com/office/work-with-colleagues-to-create-edit-and-review-forms-in-microsoft-teams-333b97a3-41d9-48bc-a1cb-84a96bd44e14#:~:text=1%20In%20Teams%2C%20go%20to%20the%20channel%20you,name%20for%20your%20new%20form.%20More%20items...%20)する」を参照してください。
 
-Polly や SurveyMonkey のようなサード パーティ製アプリを使用すると、アンケートやアンケートをさらに実施Teams。
+Polly や SurveyMonkey などのサード パーティ製アプリを使用すると、Teamsを使用して投票やアンケートをさらに実施できます。
 
-- **Polly を**  使用すると、リアルタイムの投票分析情報を得て、ビジネス上の意思決定を向上し、包括的なダッシュボード ビューを通じて投票全体のチームエンゲージメントを測定できます。
+- **Polly**  を使用すると、リアルタイムの投票分析情報を得て、ビジネス上の意思決定を改善し、包括的なダッシュボード ビューを通じて投票全体のチームエンゲージメントを測定できます。
 
-- **SurveyMonkey を** 使用すると、Microsoft Teams で既にビジネスを行っている場所にアンケートが表示されます。これにより、日常的なワークフローにアンケートを簡単に追加できます。 チーム 内から簡単な 1 質問投票を作成して送信Microsoft Teams、チーム メイトから結果が得られたのを確認します。
+- **SurveyMonkey** を使用すると、Microsoft Teamsで既にビジネスを行っている場所にアンケートが表示され、毎日のワークフローにアンケートを簡単に追加できます。 Microsoft Teams内から簡単な 1 質問の投票を書いて送信し、結果がチームメイトから得られます。
 
-### <a name="jobs-in-teams"></a>ジョブのTeams
+### <a name="jobs-in-teams"></a>Teamsのジョブ
 
-**[Microsoft Planner を使用](https://support.microsoft.com/office/organize-your-team-s-tasks-in-microsoft-planner-c931a8a8-0cbb-4410-b66e-ae13233135fb?ui=en-us&rs=en-us&ad=us)** して、Teams でジョブを実行します。 チームでプロジェクトで共同作業を行い、進捗状況レポートを表示し、個々の割り当てを追跡できます。
+**[Microsoft Planner](https://support.microsoft.com/office/organize-your-team-s-tasks-in-microsoft-planner-c931a8a8-0cbb-4410-b66e-ae13233135fb?ui=en-us&rs=en-us&ad=us)** を使用して、Teamsでジョブを実行します。 チームとプロジェクトで共同作業したり、進行状況レポートを表示したり、個々の割り当てを追跡したりできます。
 
-チーム チャネルMicrosoft Teams、1 つ以上の Planner タブを追加してタスクを整理できます。 その後、Teams 内または Web 向け Planner からプランを作業し、プランを削除または削除し、Planner でタスクが割り当てられたときに Teams で通知を受け取る。
+Microsoft Teamsを使用しているときに、1 つ以上の Planner タブをチーム チャネルに追加することで、タスクを整理できます。 その後、Teamsまたは Planner for Web からプランを操作したり、プランを削除または削除したり、Planner でタスクが割り当てられたときにTeamsで通知を受け取ることができます。
 
-### <a name="announcements-in-teams"></a>Teams のお知らせ
+### <a name="announcements-in-teams"></a>Teamsのお知らせ
 
-会社の Communicator アプリとのチャットを通して、複数のチームまたは多数の従業員を対象としたメッセージ [を作成して送信](/microsoftteams/platform/samples/app-templates#company-communicator) します。 簡単なインターフェイスにより、指定されたユーザーは、対象を絞った方法でメッセージを作成、プレビュー、共同作業、送信できます。 管理の決定に直接関連する洞察を持つメッセージを受信または操作したユーザーの数に関するカスタムの個人データなどのカスタムの対象を絞った通信機能を構築します。
+[会社のコミュニケーター](/microsoftteams/platform/samples/app-templates#company-communicator) アプリを使用して、複数のチームまたは多数の従業員を対象としたメッセージを作成して送信します。 その簡単なインターフェイスにより、指定されたユーザーは、ターゲットを絞った方法でメッセージを作成、プレビュー、共同作業、送信できます。 管理上の決定に直接関連する分析情報を使用して、メッセージを確認または操作したユーザーの数に関するカスタム個人データなどのカスタムターゲット通信機能を構築します。
 
-### <a name="photo-check-ins"></a>写真のチェックイン
+### <a name="photo-check-ins"></a>フォト チェックイン
 
-[Smart Camera Teamsを使用して、注釈付き画像をキャプチャしてチームと共有します。 正確に位置情報を簡単に共有して、チームを常に知ることができます。 新しい機能がどのようにマップされるのか、さらに詳しい情報Kaizala必要があります。Teams。 スライド デッキの情報は、ドキュメントにできる限り多くの情報を含む必要があります。
+Teamsスマート カメラを使用して、注釈付きの画像をキャプチャしてチームと共有します。 チームの把握を維持するために、正確に場所を簡単に共有できます。 Kaizala機能をTeamsにマップする方法を伝えるために、より多くの情報が必要です。 スライド デッキからドキュメントにできる限り多くの情報が含まれているのは間違いありません。
 
-[スタッフ チェックイン アプリ](/microsoftteams/platform/samples/app-templates#staff-check-ins) テンプレートを使用すると、フロント ラインスタッフがスケジュールされた情報や状況の更新を、スケジュール済みまたは臨時に、Teams から直接簡単に提供できます。 このアプリは、リアルタイムの場所、写真、メモ、アラーム通知、自動ワークフローをサポートします。
+[スタッフ チェックイン アプリ テンプレートを使用して](/microsoftteams/platform/samples/app-templates#staff-check-ins)、フロント ライン スタッフがスケジュールされた、またはアドホックベースでTeamsから直接、タイム クリティカルな情報と状態の更新を簡単に提供できるようにします。 アプリでは、リアルタイムの場所、写真、メモ、リマインダー通知、自動化されたワークフローがサポートされます。
 
-### <a name="quiz-in-teams"></a>テストのTeams
+### <a name="quiz-in-teams"></a>Teamsのクイズ
 
-クイズは、チャット[Teams](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions)、ナレッジ チェックと瞬時の結果を得るチャネル内でテストを作成できるカスタム テスト メッセージング拡張機能です。 クイズは、クラス内およびオフラインの試験、チーム内のナレッジ チェック、およびチーム内の楽しいテストに使用できます。 テスト アプリは、デスクトップ、ブラウザー、iOS、Android Teamsプラットフォーム間でサポートされています。 このアプリは、既存のサブスクリプションの一部としてデプロイMicrosoft 365です。
+Quiz はカスタム [Teams メッセージング拡張機能](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions)です。これにより、チャット内またはチャネル内でナレッジ チェックと瞬時の結果を得るためのクイズを作成できます。 クイズは、クラス内およびオフラインの試験、チーム内のナレッジ チェック、チーム内の楽しいクイズに使用できます。 クイズ アプリは、デスクトップ、ブラウザー、iOS、Android クライアントなどの複数のプラットフォームTeamsサポートされています。 このアプリは、既存のMicrosoft 365 サブスクリプションの一部としてデプロイする準備が整いました。
 
-[この情報は、GitHub](https://github.com/OfficeDev/microsoft-teams-apps-quiz)
+[GitHubで入手する](https://github.com/OfficeDev/microsoft-teams-apps-quiz)
 
-![テストビューでテストをTeamsする](media/quiz-app-template-compose-view.gif)  
+![Teams ビューでクイズを作成する](media/quiz-app-template-compose-view.gif)  
 
-### <a name="training-in-teams"></a>Teams でのトレーニング
+### <a name="training-in-teams"></a>Teamsでのトレーニング
 
-[スタッフ チェックイン アプリ](/microsoftteams/platform/samples/app-templates#staff-check-ins) テンプレートを使用して、フロント ラインスタッフがスケジュールされた情報や状況の更新を、スケジュール済みまたは臨時に、Teams から直接簡単に提供できます。 このアプリは、リアルタイムの場所、写真、メモ、アラーム通知、自動ワークフローをサポートします。
+[スタッフ チェックイン アプリ テンプレートを使用すると](/microsoftteams/platform/samples/app-templates#staff-check-ins)、フロント ライン スタッフは、スケジュールされた、またはアドホックベースでTeamsから直接、タイム クリティカルな情報と状態の更新を簡単に提供できます。 アプリでは、リアルタイムの場所、写真、メモ、リマインダー通知、自動化されたワークフローがサポートされます。
 
-組織Teamsトレーニングを簡単に行う場合は、このツールを使用します。 トレーニングは、ユーザーが[チャットTeams](/microsoftteams/platform/what-are-messaging-extensions)チャネル内でトレーニングを公開し、オフラインでのナレッジ共有とスキルアップを可能にするカスタム のメッセージング拡張機能アプリです。 このアプリは、デスクトップ、ブラウザー Teams iOS、Android など、複数のプラットフォーム クライアントでサポートされています。 このアプリは、サブスクリプションの一部としてデプロイMicrosoft 365です。
+Teamsを使用して、組織のトレーニングを簡単にします。 トレーニングは、ユーザーがオフラインのナレッジ共有とスキルアップのためにチャットまたはチャネル内でトレーニングを公開できるようにするカスタム Teams [メッセージング拡張機能](/microsoftteams/platform/what-are-messaging-extensions)アプリです。 このアプリは、デスクトップ、ブラウザー、iOS、Android など、複数のTeams プラットフォーム クライアントでサポートされています。 このアプリは、Microsoft 365 サブスクリプションの一部としてデプロイする準備が整いました。
 
-[この情報は、GitHub](https://github.com/OfficeDev/microsoft-teams-apps-training)
+[GitHubで入手する](https://github.com/OfficeDev/microsoft-teams-apps-training)
 
-![ビューでトレーニングをTeamsする](media/training-app-template-compose-view.gif)
+![Teams ビューでトレーニングを作成する](media/training-app-template-compose-view.gif)
 
-コンテキスト情報へのアクセスを提供することで、オンボードを簡略化できます。  従業員ガイド、トレーニング、より簡単かつ最新の情報を提供し、スキルを通じて組織を強化します。 トレーニング シナリオの詳細については、「新しい従業員のオンボード [」を参照してください](https://support.microsoft.com/office/effectively-onboard-new-employees-691faccd-1d1a-4f47-99ac-b6c82973f5ee)。
+コンテキスト情報へのアクセスを提供することで、オンボードを簡略化できます。  スキルを通じて組織を強化するために、従業員のガイド、トレーニング、およびより簡単に最新の情報を入手できるようにします。 トレーニング シナリオの詳細については、「 [新入社員のオンボード](https://support.microsoft.com/office/effectively-onboard-new-employees-691faccd-1d1a-4f47-99ac-b6c82973f5ee)」を参照してください。
 
-## <a name="moving-kaizala-custom-solutions-to-microsoft-teams"></a>カスタム Kaizalaソリューションを新しいソリューションにMicrosoft Teams
+## <a name="moving-kaizala-custom-solutions-to-microsoft-teams"></a>カスタム ソリューションKaizala Microsoft Teamsに移動する
 
-![Kaizalaに移動Teams](media/kaizala-to-teams-image1.png)
+![TeamsへのKaizalaの移動](media/kaizala-to-teams-image1.png)
 
-次の 3 つの手順に従って、ソリューションを開発Microsoft Teams。
+ソリューションをMicrosoft Teamsするには、次の 3 つの手順に従います。
 
-1. ソリューションの使用状況と頻度を検討します。
+1. ソリューションの使用と頻度を検討してください。
 
-    ソリューションの使用率と頻度が高くなると、カスタム開発のケースが強くなるというメリットがあります。
+    ソリューションの使用率と頻度が高い場合は、カスタム開発のケースが強力になります。
 
 2. ソリューションの複雑さを考慮してください。
 
-    複雑度が高いソリューションでは、カスタム開発のケースが強くなる可能性があります。
+    複雑さが高いソリューションでは、カスタム開発のケースが強化される可能性があります。
 
-3. 使用頻度と複雑さごとに、次のアプローチについて説明します。
+3. 使用頻度と複雑さごとに、次の方法を調べます。
 
-    - ネイティブ機能を使用して[回避策Microsoft Teams確認する](/microsoftteams/platform/concepts/capabilities-overview)
+    - [ネイティブ Microsoft Teams機能](/microsoftteams/platform/concepts/capabilities-overview)を使用して回避策を確認する
 
     - [3P アプリ統合を使用する](deploy-apps-microsoft-teams-landing-page.md)
 
-    - アプリ [テンプレートの検出](/microsoftteams/platform/samples/app-templates)
+    - [アプリ テンプレートを検出する](/microsoftteams/platform/samples/app-templates)
 
-    - カスタム [ソリューション開発のビルド](/microsoftteams/platform/overview)
+    - [カスタム ソリューション開発を構築する](/microsoftteams/platform/overview)
 
-## <a name="management-in-microsoft-teams"></a>管理のMicrosoft Teams
+## <a name="management-in-microsoft-teams"></a>Microsoft Teamsの管理
 
 ### <a name="it-professionals"></a>IT プロフェッショナル
 
-管理ポータルから管理Kaizala管理センターにMicrosoft Teamsします。 管理Teamsは、主に管理者ロールのみを使用します。
+Kaizala管理ポータルからMicrosoft Teams管理センターに管理を切り替えます。 Teams管理センターは、主に管理者ロールのみを使用します。
 
 管理者は Teams 全体のワークロードを管理できる場合もあれば、通話品質の問題のトラブルシューティングや組織のテレフォニーのニーズを管理するために委任されたアクセス許可を持つ場合もあります。
 
-管理センターに移動するには、管理[センター Microsoft Teamsアクセスします](https://admin.teams.microsoft.com/)。
+管理センターを移動するには、[Microsoft Teams管理センター](https://admin.teams.microsoft.com/)にアクセスします。
 
-コンプライアンス センターと Security Center を使用して、組織のセキュリティMicrosoft 365コンプライアンスMicrosoft 365[を](/microsoft-365/compliance/microsoft-365-compliance-center)[監視できます](/microsoft-365/security/defender/overview-security-center)。
+[Microsoft Purview コンプライアンス ポータル](/microsoft-365/compliance/microsoft-365-compliance-center)と [Microsoft Security Center](/microsoft-365/security/defender/overview-security-center) を使用すると、Microsoft 365全体で組織のセキュリティとコンプライアンスを監視できます。
 
-組織全体でグループ、ID[、ライセンス、](https://aad.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/c7736064-7b28-4f3d-b366-2740a8d48020)アクセスを確認できる Azure Active Directory 管理センターで、ビジネスを保護し、ユーザーを強化Microsoft 365。
+ビジネスを保護し、[Azure Active Directory管理センター](https://aad.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/c7736064-7b28-4f3d-b366-2740a8d48020)でユーザーを強化し、グループ、ID、ライセンス、Microsoft 365全体のアクセスを確認できます。
 
-## <a name="kaizala-management-portal-to-teams-admin-center"></a>Kaizala 管理ポータル管理センター Teamsに移動する
+## <a name="kaizala-management-portal-to-teams-admin-center"></a>管理センターのTeamsにKaizala 管理ポータルする
 
 ### <a name="end-user-guidance"></a>エンド ユーザー ガイダンス
 
-次の表を使用して、管理ポータルから Microsoft Teams対応する機能Kaizala移動します。
+次の表を使用して、Kaizala管理ポータルからMicrosoft Teamsの対応する機能を移動します。
 
 | Kaizala 管理ポータル | Microsoft Teams アプリ|
 |---------|-----------------------|
-| グループの作成 (組織に接続) | **デスクトップアプリまたは** モバイル アプリを使用してチームを作成する |
-| ユーザーを一括で追加する | ユーザーをチームに一括で追加する場合 - O365 グループ、O365 の DLL、またはセキュリティ グループを使用してチームを作成する |
-| ディレクトリ | チームの検索バーを使用して、組織内 **のすべてのユーザー** を検索します。 検索結果には、ファイル、メッセージ、投稿も返されます。 |
-| Analytics (アクション カード) | **アンケート、****アンケート、** およびChecklistsは、ダウンロード **可能なデータを含む組み込みのレポートを作成します。ジョブは、** Tasksin Planner のヘルプを使用して **割り当て可能です。その他のサード パーティ製アプリ (** Trello **、** Wrike** など) も、簡単に使用Microsoft Teams |
-| 拡張機能 – コネクタ | コネクタが **必要** なチャネルには、メニュー (...) の [コネクタ] オプションを使用します。 |
-| 分析 (利用状況) 導入レポート、使用状況レポート、アクティビティ レポート | チーム所有者は、メニュー (...) から移動して **teamanalytics** >  を管理することで、チームのレポートにアクセスできます。 |
+| グループの作成 (組織に接続) | デスクトップ またはモバイル アプリを使用して **チームを作成** する |
+| ユーザーを一括で追加する | チームに一括でユーザーを追加する場合は、O365 グループ、O365 DLs、またはセキュリティ グループを使用してチームを作成することを検討してください |
+| ディレクトリ | チームの **検索バー** を使用して、組織内のすべてのユーザーを検索します。 検索結果には、ファイル、メッセージ、投稿も返されます |
+| Analytics (アクション カード) | **Polls**、**Surveys、** Checklistshave は、**ダウンロード可能なデータを含むレポートに組み込まれています。ジョブは、Tasksin planner の助けを借りて割り当てることもできます****。Trello、Wrike** などの他のサードパーティ製アプリ** も、Microsoft Teamsで簡単に使用できます |
+| 拡張機能 – コネクタ | **コネクタ** が必要なチャネルのメニュー (...) からコネクタ オプションを使用します。 |
+| 分析 (利用状況) 導入レポート、使用状況レポート、アクティビティ レポート | チームの所有者は、メニュー (...) から移動してチームのレポートにアクセスし **、teamanalytics** >  を **管理** できます。 |
 
 > [!NOTE]
-> Teams ユーザーは、デスクトップまたはモバイル上の Teams を使用して個々のチームとチャネルを管理できます。また、Teams管理センターにアクセスする必要が生じます。
+> エンド ユーザー TeamsデスクトップまたはモバイルでTeamsを使用して個々のチームやチャネルを管理でき、Teams管理センターにアクセスする必要はありません。
 
-## <a name="kaizala-group-dissolution"></a>Kaizalaグループの選択
+## <a name="kaizala-group-dissolution"></a>Kaizala グループの分解
 
-チャネルとチャットTeams移行する際に、組織がコミュニケーションの 1 つの中心的な場所をKaizalaグループへの参加を検討できます。 グループを削除Kaizala、そのグループが [チャット] リストから削除されます。 グループ内の唯一の管理者である場合は、削除する前に、グループ内の少なくとも 1 人のユーザーに管理者ロールを割り当てる必要があります。
+Teams チャネルとチャットに移行する際に、組織がコミュニケーションの中心的な場所を 1 つ確保するために、グループの分解Kaizala検討する場合があります。 Kaizala グループを削除すると、チャットの一覧からグループが削除されます。 グループ内で唯一の管理者である場合は、削除する前に、グループ内の少なくとも 1 人のユーザーに管理者ロールを割り当てる必要があります。
 
-### <a name="to-move-a-kaizala-group-to-teams"></a>グループを別のKaizalaに移動Teams
+### <a name="to-move-a-kaizala-group-to-teams"></a>Kaizala グループをTeamsに移動するには
 
- 1. グループ メンバーとTeamsを共有Kaizalaする
+ 1. Kaizala グループ メンバーとTeamsティザーを共有する
 
- 2. サイトをTeamsする
+ 2. Teams サイトを設定する
 
- 3. ユーザーを他のユーザーにTeams
+ 3. Teamsにユーザーを追加する
 
- 4. すべてのグループ メンバーへの切り替Kaizala発表する
+ 4. すべてのKaizala グループ メンバーへの切り替えを発表する
 
- 5. 設定で、グループ [を読みKaizalaに](#to-switch-to-kaizala-group-to-read-only)**切り替えます。**
+ 5. 設定で、Kaizala グループを **読み取り専用** に [切り替えます](#to-switch-to-kaizala-group-to-read-only)
 
- 6. グループ メンバーとの間で、Teamsが優れたオプションである理由Kaizala共有します
+ 6. Kaizala グループ メンバーを使用して、Teamsが優れたオプションである理由を共有する
 
- 7. ガイドラインを共有します。たとえば、使用できる時間Teams、使用する方法などTeams
+ 7. Teamsがいつ利用可能になるか、Teamsを使用する方法など、ガイドラインを共有する
 
  8. エンゲージメント コンテストを開始する
 
@@ -344,27 +348,27 @@ Polly や SurveyMonkey のようなサード パーティ製アプリを使用�
 
  10. メンバーからのフィードバックを求める
 
- 11. コンテンツ カレンダーをフォローする
+ 11. コンテンツ カレンダーに従う
 
  12. [グループKaizala削除する](#to-delete-a-group)
 
-### <a name="to-switch-to-kaizala-group-to-read-only"></a>グループを読み取りKaizalaに **切り替える方法**
+### <a name="to-switch-to-kaizala-group-to-read-only"></a>Kaizala **グループに切** り替えるには
 
-1. 管理ポータルKaizalaサインインします。
+1. Kaizala管理ポータルにサインインします。
 
-2. 左側 **のナビゲーション** パネルで [グループ] タブを選択し、読み取り専用に設定するグループ **を選択します**。
+2. 左側のナビゲーション パネルで [ **グループ** ] タブを選択し、 **読み取り専用** として設定するグループを選択します。
 
     ![Group-switch](media/kaizala-to-teams-image16.png)
 
-3. ドロップダウン リストから 、[ポリシーの編集] **を選択します**。
+3. ドロップダウン リストから [ **ポリシーの編集]** を選択します。
   
     ![ポリシー](media/kaizala-to-teams-image17.png)
 
-4. [ **グループ ポリシー] ウィンドウ** で、次のオプションをオフにします。
+4. **グループ ポリシー** ウィンドウで、次のオプションをオフにします。
 
-     - 新しい参加者にチャット履歴の表示を許可します。 今後送信されたメッセージは、そのメッセージに表示されます。
+     - 新しい参加者にチャット履歴の表示を許可します。 これから送信されたメッセージが表示されます。
 
-     - メンバーがメッセージと添付ファイルを送信できます。
+     - メンバーがメッセージと添付ファイルを送信できるようにします。
 
        ![オプション](media/kaizala-to-teams-image18.png)
 
@@ -373,61 +377,61 @@ Polly や SurveyMonkey のようなサード パーティ製アプリを使用�
 
 ### <a name="to-delete-a-group"></a>グループを削除するには
 
-1. [チャット] リストで、グループ会話を長押しします。
+1. [チャット] ボックスの一覧で、グループの会話を長押しします。
 
 2. [グループの削除] をタップします。
 
 ## <a name="export-kaizala-tenant-data"></a>テナント データKaizalaエクスポートする
 
-テナント管理者Kaizala管理者またはグローバル管理者として、Kaizala管理ポータルからテナント データKaizalaエクスポートできます。 アプリケーションを使用Teams、引き続き企業データの管理を管理Kaizala。 詳細については、「管理ポータルから [テナント データをエクスポートする」を参照してください](/office365/kaizala/export-or-delete-your-data)。
+Kaizala テナント管理者/グローバル管理者は、Kaizala管理ポータルからKaizalaテナント データをエクスポートできます。 Teamsを使用している間も、Kaizalaで企業データの制御を維持できます。 詳細については、「 [管理ポータルからテナント データをエクスポートする」を参照してください](/office365/kaizala/export-or-delete-your-data)。
 
 ### <a name="to-export-data"></a>データをエクスポートするには
 
- 1. 左側の **ナビゲーション パネルで** [分析] タブを選択し、[テナント データの **エクスポート] を選択します**。
+ 1. 左側のナビゲーション パネルで [ **分析** ] タブを選択し、[ **テナント データのエクスポート**] を選択します。
   
-    ![reports](media/kaizala-to-teams-image19.png)
+    ![レポート](media/kaizala-to-teams-image19.png)
 
- 2. [エクスポート] **を選択します**。
+ 2. [ **エクスポート**] を選択します。
 
-    ![exports](media/kaizala-to-teams-image20.png)
+    ![輸出](media/kaizala-to-teams-image20.png)
 
- 3. テナント メッセージ ファイルを使用する – グループ名/タイムスタンプのフィルターを使用して、グループ レベルのチャット データにアクセスします。
+ 3. テナント メッセージ ファイルを使用します。グループ名/タイムスタンプのフィルターを使用して、グループ レベルのチャット データにアクセスします。
 
     ![files](media/kaizala-to-teams-images21.png)
 
-## <a name="deleting-a-kaizala-group"></a>グループのKaizala削除
+## <a name="deleting-a-kaizala-group"></a>Kaizala グループの削除
 
-グループを削除Kaizala、そのグループが [チャット] リストから削除されます。 グループ内の唯一の管理者である場合は、削除する前に、グループ内の少なくとも 1 人のユーザーに管理者ロールを割り当てる必要があります。
+Kaizala グループを削除すると、チャットの一覧からグループが削除されます。 グループ内で唯一の管理者である場合は、削除する前に、グループ内の少なくとも 1 人のユーザーに管理者ロールを割り当てる必要があります。
 
 グループを削除するには:
 
-- [チャット] リストで、グループ会話を長押しします。
+- [チャット] ボックスの一覧で、グループの会話を長押しします。
 
 - [グループの削除] をタップします。
 
-## <a name="kaizala-tenant-data-export"></a>Kaizala データのエクスポート
+## <a name="kaizala-tenant-data-export"></a>テナント データのエクスポートをKaizalaする
 
-アプリケーションを使用Teams、引き続き企業データの管理を管理Kaizala。 詳細については、「管理ポータルから [テナント データをエクスポートする」を参照してください](/office365/kaizala/export-or-delete-your-data)。
+Teamsを使用している間も、Kaizalaで企業データの制御を維持できます。 詳細については、「 [管理ポータルからテナント データをエクスポートする」を参照してください](/office365/kaizala/export-or-delete-your-data)。
 
-## <a name="collaborating-with-external-usersvendorssupplierspartners"></a>外部ユーザーとの共同作業 (ベンダー/サプライヤー/パートナー)
+## <a name="collaborating-with-external-usersvendorssupplierspartners"></a>外部ユーザーとの共同作業 (Vendors/suppliers/Partners)
 
-ベンダー、サプライヤー、パートナー、その他の外部ユーザーとの共同作業は、これまで以上に簡単Microsoft Teams。 このTeams、ユーザーは電話番号を持つ外部ユーザーを追加できます。 これは、Microsoft Teams Connect でサポートされています。 組織内のユーザーは、個人アカウントの相互運用性のために、Teamsを使用してTeams外部ユーザーと通信できます。 ゲスト アクセスを使用Teamsの外部ユーザーコラボレーションは、個人または公式の電子メールを使用して実行できます。 チーム間およびチャネル間でのアナウンスのクロスポスティングは、Teams。 たとえば、仕入先とベンダーは、チャネルまたはチームごとにお知らせTeams送信できます。 「[チャネルにアナウンスを送信する」を](https://support.microsoft.com/office/send-an-announcement-to-a-channel-8f244ea6-235a-4dcc-9143-9c5b801b4992)参照して、マイクロソフトがサポートする機能の詳細については、「Teams。
+ベンダー、サプライヤー、パートナー、その他の外部ユーザーとの共同作業は、Microsoft Teamsでこれまで以上に簡単です。 Teamsを使用すると、ユーザーは電話番号を持つ外部ユーザーを追加できます。 これはMicrosoft Teams Connectでサポートされています。 組織内のユーザーは、仕事用にTeamsを使用し、個人アカウントの相互運用性にTeamsを使用して外部ユーザーと通信できます。 Teamsの外部ユーザー コラボレーションは、個人または公式の電子メールを使用してゲスト アクセスを使用して行うこともできます。 Teamsでは、チームやチャネル間でのアナウンスのクロスポストがサポートされています。 たとえば、サプライヤーとベンダーは、個別のTeamsチャネルまたはチームにアナウンスを送信できます。 Teamsでサポートされている内容の詳細については、[チャネルにアナウンスを送信](https://support.microsoft.com/office/send-an-announcement-to-a-channel-8f244ea6-235a-4dcc-9143-9c5b801b4992)するをご覧ください。
 
-## <a name="what-is-external-access-in-teams"></a>外部アクセスとは何Teams?
+## <a name="what-is-external-access-in-teams"></a>Teamsの外部アクセスとは
 
-外部アクセスとは、ドメイン全体における Teams ユーザーが Teams で会議の検索、呼び出し、チャット、設定を行うための手段です。 外部アクセスの管理の詳細については、「外部アクセスの管理 [」を参照してください](/microsoftteams/manage-external-access)。
+外部アクセスとは、ドメイン全体における Teams ユーザーが Teams で会議の検索、呼び出し、チャット、設定を行うための手段です。 外部アクセスの管理の詳細については、外部アクセスの管理に関 [する](/microsoftteams/manage-external-access)ページを参照してください。
 
-## <a name="what-is-guest-access-in-teams"></a>ゲスト アクセスとは何Teams?
+## <a name="what-is-guest-access-in-teams"></a>Teamsのゲスト アクセスとは
 
-ゲスト [アクセスを](/MicrosoftTeams/guest-access)使用すると、組織外のユーザーにチーム、チャネル内のドキュメント、リソース、チャット、アプリケーションへのアクセスを提供しながら、企業データの制御を維持できます。 ゲストをゲスト に追加するために、追加のライセンスはTeams。
+[ゲスト アクセス](/MicrosoftTeams/guest-access)を使用すると、チーム、チャネル内のドキュメント、リソース、チャット、アプリケーションへのアクセスを組織外のユーザーに提供しながら、会社のデータを制御できます。 Teamsにゲストを追加するには、追加のライセンスは必要ありません。
 
-## <a name="who-can-be-a-guest-in-teams"></a>WhoゲストになTeams?
+## <a name="who-can-be-a-guest-in-teams"></a>TeamsでゲストWhoできますか?
 
-ゲストとは、従業員または組織のメンバーではないユーザーです。 組織の仕事用アカウントを持つユーザーはいます。 たとえば、ゲストにはパートナー、製造元、供給元、コンサルタントなどが含まれます。
-組織の一部ではないユーザーは、ゲストとしてゲストとして追加[Teams。](/MicrosoftTeams/guest-access#how-a-guest-becomes-a-member-of-a-team) つまり、ビジネス アカウント (Azure Active Directory アカウント) またはコンシューマーメール アカウント (outlook.com、gmail.com など) を持つすべてのユーザーが、チームやチャネルエクスペリエンスにアクセスできる Teams のゲストとして参加できます。
+ゲストとは、従業員または組織のメンバーではないユーザーのことです。 組織に職場アカウントがありません。 たとえば、ゲストにはパートナー、製造元、供給元、コンサルタントなどが含まれます。
+組織に属していないすべてのユーザーは[、Teamsでゲストとして追加](/MicrosoftTeams/guest-access#how-a-guest-becomes-a-member-of-a-team)できます。 つまり、ビジネス アカウント (つまり、Azure Active Directory アカウント) またはコンシューマーメール アカウント (outlook.com、gmail.com など) を持つすべてのユーザーが、チームやチャネル エクスペリエンスにアクセスできるTeamsにゲストとして参加できます。
 
 ## <a name="next-steps"></a>次のステップ
 
 <a name="ControlSyncThroughput"> </a>
 
-[Microsoft Teamsの作業員向け](/MicrosoftTeams/drive-adoption-optimize-kaizala)
+[フロントライン ワーカーのMicrosoft Teams](/MicrosoftTeams/drive-adoption-optimize-kaizala)

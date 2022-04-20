@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fa6a03c5408afcd7cce1d3e48b78b3b1ddb3675a
-ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
+ms.openlocfilehash: a916d6bdd57c2956c076461d7f36df64d5c503d9
+ms.sourcegitcommit: 745d707ec63685ce7f973785e7056628472b9c45
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64756993"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "64910903"
 ---
 # <a name="validation-performed-by-microsoft-for-all-teams-apps"></a>Microsoft がすべての Teams アプリに対して実行する検証
 
@@ -53,14 +53,6 @@ Microsoft では、最終用途のためにストアに登録される前に、�
 * ISV の連絡先の詳細は、ストア登録情報とそれぞれの[発行元の構成証明ページ](/microsoft-365-app-certification/teams/teams-apps)で入手できます。
 
 さらに、Microsoft はアプリ開発者に対し、アプリの品質、セキュリティ、コンプライアンスを確保するための厳格な 2 層のアプローチであるコンプライアンス プログラムに参加することをお勧めします。 Teams ストアは、既に詳細な検証ガイドラインを満たし、これらのプログラムに準拠する以上の数百ものアプリを提供しています。
-
-## <a name="publisher-verification"></a>発行元の検証
-
-アプリ開発者がアプリを Microsoft に送信する前に、開発者は検証を受ける必要があります。 発行元は、Microsoft パートナー ネットワーク (MPN) アカウントを使用して ID を確認し、この MPN アカウントをアプリの登録に関連付けます。 発行元の検証は、管理者とエンド ユーザーが Microsoft ID プラットフォームと統合するアプリケーション開発者の信頼性について理解するのに役立ちます。 発行元の検証には、次のような利点があります。
-
-* 顧客への透明性の強化とリスクの軽減 - この機能は、組織で使用されているどのアプリが信頼できる開発者によって公開されているかを顧客が理解するのに役立ちます。
-* ブランドの強化 - Azure Active Directory の同意プロンプト、Enterprise アプリ ページ、エンドユーザーと管理者が使用するその他のユーザー インターフェイスに `verified` バッジが表示されます。
-* よりスムーズなエンタープライズ導入 - 管理者は、発行元の検証状態をプライマリ ポリシー条件として、ユーザー同意ポリシーを構成できます。
 
 ## <a name="see-also"></a>関連項目
 

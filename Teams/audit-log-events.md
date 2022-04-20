@@ -12,15 +12,15 @@ f1.keywords:
 - NOCSH
 ms.reviewer: anwara
 search.appverid: MET150
-description: Microsoft 365 コンプライアンス センターの監査ログから Microsoft Teams のデータを取得する方法をご紹介します。
+description: Microsoft Purview コンプライアンス ポータルで監査ログからMicrosoft Teamsデータを取得する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cdca912b77969e4157af641076dc683c3d17921c
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
-ms.translationtype: HT
+ms.openlocfilehash: 744a18f2a8f7f2ed406853ef7efbc9842d0096f5
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "63711331"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922638"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft Teams でイベントの監査ログを検索する
 
@@ -42,7 +42,7 @@ ms.locfileid: "63711331"
 
 ## <a name="turn-on-auditing-in-teams"></a>Teams で監査をオンにする
 
-監査データを確認するには、まず Microsoft 365 コンプライアンス センターで監査を有効にする必要があります。詳細については、「[監査のオンとオフの切り替え](/microsoft-365/compliance/turn-audit-log-search-on-or-off)」 を参照してください。
+監査データを確認するには、まず Microsoft Purview コンプライアンス ポータルで監査を有効にする必要があります。 詳細については、「[監査のオンとオフを切り替える](/microsoft-365/compliance/turn-audit-log-search-on-or-off)」を参照してください。
 
 > [!IMPORTANT]
 > 利用できる監査データは、監査を有効にした時点以降のデータのみです。
@@ -235,4 +235,4 @@ Teams イベントを異常検出ポリシーに統合する作業を行って�
 
 ## <a name="related-topics"></a>関連項目
 
-- [Microsoft 365 コンプライアンス センターで監査ログを検索する](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
+- [Microsoft Purview コンプライアンス ポータルで監査ログを検索する](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)

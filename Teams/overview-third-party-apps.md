@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 85171e8125fc4e6cecbfde4a0f6832b48ca7ca84
-ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
+ms.openlocfilehash: 90395ab4bd9563a6bd9ad12ae6d9c1d164ddc89b
+ms.sourcegitcommit: 745d707ec63685ce7f973785e7056628472b9c45
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64756963"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "64910873"
 ---
 # <a name="overview-of-third-party-apps-in-microsoft-teams"></a>Microsoft Teams のサード パーティ製アプリの概要
 
@@ -34,8 +34,9 @@ Microsoft Teams のサード パーティ製アプリは、Microsoft によっ�
 管理者がサード パーティ製アプリを確実に制御できるだけでなく、Microsoft は高品質のアプリのみをストアで利用できるようにすることも保証します。 Microsoft では、すべてのアプリが、アプリの機能の確認、発行元の識別、アプリが求めるアクセス許可、アプリによって収集されたデータのコンプライアンス、プライバシー、およびデータ セキュリティを確認する、Microsoft による必須の検証ラウンドを実行する必要があります。 アプリは、セキュリティと業界標準へのコンプライアンスに重点を置いて実証するために、オプションのコンプライアンス プログラムに参加することをお勧めします。 これらのプログラムについては、次の記事を参照してください。
 
 1. [アプリ検証](overview-of-app-validation.md#app-validation-and-testing)
-1. [Publisher の検証](overview-of-app-validation.md#publisher-verification)
+
 1. Microsoft 365 アプリ コンプライアンス プログラム:
 
+   * [Publisher の検証](overview-of-app-certification.md#publisher-verification)
    * [パブリッシャーによる構成証明](overview-of-app-certification.md#publisher-attestation)
    * [Microsoft 365 認定](overview-of-app-certification.md#microsoft-365-certification)

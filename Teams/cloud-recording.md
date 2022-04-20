@@ -19,12 +19,12 @@ description: Teams にクラウド音声機能を展開して、音声、ビデ�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c91e964d9cc0bfc3047ed8413dff15e5aafb0cb8
-ms.sourcegitcommit: 4c608bf06f43e88c844492c262a26dcf3eacb4c3
+ms.openlocfilehash: aab8f71ec8c9eb5ad1e984a68985a8a425e21f16
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63523806"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922668"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議のレコーディング
 
@@ -313,7 +313,7 @@ Teams の文字起こしとレコーディングの間のリンクに対する�
 
 アイテム保持ポリシー 自動化ラベルを適用し、ProgID プロパティを使用して Teams 会議レコーディング ビデオ ファイルだけを抽出ターゲットにできます。 詳細については、「 [Teams 会議レコーディングにアイテム保持ポリシー ラベルを自動的に適用する方法](/microsoft-365/compliance/apply-retention-labels-automatically#microsoft-teams-meeting-recordings)」を参照してください。
 
-### <a name="data-loss-prevention-dlp-policies"></a>データ損失防止 (DLP) ポリシー
+### <a name="microsoft-purview-data-loss-prevention-dlp-policies"></a>Microsoft Purview データ損失防止 (DLP) ポリシー
 
 DLP ポリシーの会議のレコーディング ファイルへの適用は、ProgID プロパティを利用することでも可能となります。 SharePoint Online と OneDrive for Business のファイルのための DLP ルールにおいて、条件を次のように設定します:
 
