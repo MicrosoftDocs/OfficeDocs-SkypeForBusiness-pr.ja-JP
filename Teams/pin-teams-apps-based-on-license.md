@@ -15,17 +15,17 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb5bf166d9f7253a5cb72ffc92b674613d959334
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: b526733558570e4903d9dce43094c7ffa0f7de17
+ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "64961290"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "63774186"
 ---
 # <a name="tailor-teams-apps-for-your-frontline-workers"></a>現場担当者向けに Teams アプリを調整する
 
 > [!NOTE]
-> この機能は現在ロールアウト中であり、組織ではまだ使用できない可能性があります。 Teams 機能の最新情報を入手するには、「[Microsoft 365 ロードマップ](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)」を参照してください。
+> [!INCLUDE [new-feature-coming-soon-section](includes/new-feature-coming-soon-section.md)]
 
 ## <a name="overview"></a>概要
 
@@ -56,7 +56,7 @@ Teams は、現場担当者向けのアプリを簡単にピン留めする方�
 ## <a name="admin-controls"></a>管理制御
 
 > [!NOTE]
-> この機能を有効にするには、**ユーザー ピン留め** 設定をグローバル (組織全体の既定値) の [アプリ設定ポリシー](teams-app-setup-policies.md)で有効にする必要があります。
+> この機能を有効にするには、**ユーザー ピン留め** 設定をグローバル (組織全体の既定値) の[アプリ設定ポリシー](teams-app-setup-policies.md)で有効にする必要があります。
 
 調整された現場アプリ エクスペリエンスは、Teams 管理センターの [[アプリの管理]](manage-apps.md#manage-org-wide-app-settings) ページにある **[カスタマイズされたアプリの表示]** で組織全体のアプリ設定によって制御されます。 機能がオンの場合、F ライセンスを持つ組織内のすべてのユーザーが、カスタマイズされたアプリ エクスペリエンスを取得します。
 
