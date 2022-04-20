@@ -1,5 +1,5 @@
 ---
-title: 管理センター称賛アプリをTeamsする
+title: Teams管理センターで称賛 アプリを管理する
 author: guptaashish
 ms.author: guptaashish
 manager: prkosh
@@ -8,47 +8,47 @@ audience: admin
 ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
-description: 管理センターでアプリを称賛する方法Microsoft Teamsします。
+description: Microsoft Teams管理センターで称賛 アプリを管理する方法について説明します。
 ms.openlocfilehash: 364fb60b6a729062e358685426acd98704c7ac02
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2022
+ms.lasthandoff: 04/20/2022
 ms.locfileid: "63442683"
 ---
-# <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>管理センター称賛アプリをMicrosoft Teamsする
+# <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Microsoft Teams管理センターで称賛 アプリを管理する
 
-称賛アプリはMicrosoft Teams、ユーザーが組織または教室のメンバーに感謝の気持ちを示すのに役立ちます。 称賛 のバッジは、教師からフロントライン ワーカーまで、Teams ユーザーが行う幅広い作業に取り組む作業を認識するのに役立ちます。 詳細については、「ユーザーにメールを[送信称賛」を参照してください](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)。
+Microsoft Teamsの称賛 アプリは、ユーザーが組織またはクラスルームのメンバーに感謝を示すのに役立ちます。 称賛のバッジは、教育者から現場のワーカーまで、Teamsユーザーが行うさまざまな作業に取り組む作業を認識するのに役立ちます。 詳細については、「[称賛をユーザーに送信する」を](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)参照してください。
 
-管理者は、この機能にアクセスTeamsライセンスを持っている必要があります。 ライセンスなしでこの機能にアクセスTeams、エラー メッセージが表示されます。
+この機能にアクセスするには、管理者にTeamsライセンスが必要です。 Teams ライセンスなしでこの機能にアクセスしようとすると、エラー メッセージが表示されます。
 
 > [!NOTE]
-> この称賛はクラウド環境GCC使用できますが、High または DoD ではGCC使用できません。
+> 称賛 アプリは、GCC クラウド環境では使用できますが、GCC High または DoD では使用できません。
 
 ## <a name="enable-or-disable-praise-in-your-organization"></a>組織内の称賛を有効または無効にする
 
-称賛組織内のすべてのユーザーに対して既定Teams有効になっています。 組織レベルでアプリをオフまたはオンにするには、Microsoft Teams 管理センターの [[アプリの管理]](manage-apps.md) ページで行います。
+称賛は、組織内のすべてのTeams ユーザーに対して既定で有効になっています。 組織レベルでアプリをオフまたはオンにするには、Microsoft Teams 管理センターの [[アプリを管理]](manage-apps.md) ページで行います。
 
-:::image type="content" source="media/manage-praise-app-admin-center.png" alt-text="管理センター称賛アプリの詳細ページのスクリーンショットTeams状態] トグルが表示されています。":::
+:::image type="content" source="media/manage-praise-app-admin-center.png" alt-text="Teams管理センターの [称賛 アプリの詳細] ページのスクリーンショット。[状態] トグルが表示されています。":::
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、**[Teams アプリ]** > **[アプリを管理]** の順に移動します。
-2. アプリの一覧で、称賛 アプリを検索して選択し、[状態] トグルを [ブロック] または  [許可 **] に****切り替えます**。
+2. アプリの一覧で、称賛 アプリを検索して選択し、状態トグルを **[ブロック**] または [**許可****]** に切り替えます。
 
-この設定は、アプリ内の 称賛 アプリと 称賛 アプリの 称賛 機能の両方に影響インサイトにTeams。
+この設定は、称賛 アプリとTeamsのViva インサイト アプリの称賛機能の両方に影響します。
 
-## <a name="enable-or-disable-praise-for-specific-users-in-your-organization"></a>組織内の特定の称賛の設定を有効または無効にする
+## <a name="enable-or-disable-praise-for-specific-users-in-your-organization"></a>組織内の特定のユーザーの称賛を有効または無効にする
 
-組織内の特定のユーザーが 称賛 の使用を許可またはブロックするには、[アプリの管理] ページで称賛が組織に対して有効[になっていることを確認](manage-apps.md)します。 次に、カスタム アプリのアクセス許可ポリシーを作成し、それらのユーザーに割り当てる必要があります。 詳細については、「[Teams のアプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md)」を参照してください。
+組織内の特定のユーザーによる称賛の使用を許可またはブロックするには、[[アプリの管理](manage-apps.md)] ページで組織の称賛が有効になっていることを確認します。 次に、カスタム アプリのアクセス許可ポリシーを作成し、それらのユーザーに割り当てます。 詳細については、「[Teams のアプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md)」を参照してください。
 
 ## <a name="badges"></a>バッジ
 
-次に示すのは、称賛 の既定のバッジ セットです。 Teamsのユーザーは、これらのバッジを使用して、仕事を超えて行く同僚を認識できます。
+称賛のバッジの既定のセットを次に示します。 組織内のユーザー Teams、これらのバッジを使用して、同僚が自分の仕事を上回っていることを認識できます。
 
 :::image type="content" source="media/default-set-praise.png" alt-text="既定のバッジ セット内のバッジの画像。":::
 
 > [!NOTE]
-> 2022 年 2 月より、ユーザーは既定のバッジのみを送受信できます。 カスタム バッジは使用できなくなりました。カスタム バッジのオプションは管理センターからTeamsされています。
+> 2022 年 2 月以降、ユーザーは既定のバッジのみを送受信できます。 カスタム バッジは使用できなくなり、カスタム バッジのオプションはTeams管理センターから削除されました。
 
 ## <a name="related-articles"></a>関連記事
 
-[管理センターでアプリMicrosoft Teamsする](manage-apps.md)
+[Microsoft Teams 管理センターで、Teams アプリの組織向けアプリを管理します。](manage-apps.md)

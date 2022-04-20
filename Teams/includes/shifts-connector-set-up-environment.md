@@ -5,16 +5,16 @@ ms.date: 03/31/2022
 ms.topic: include
 audience: admin
 ms.service: msteams
-ms.openlocfilehash: c612f8d8e0f48249d9eabe19c5ae7513b0ae9d75
-ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
+ms.openlocfilehash: 3d4ec38f0007460fa119e69eadc79cd9c51887ee
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64593672"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64976021"
 ---
-1. PowerShell バージョン 7 以降をインストールします。 詳細なガイダンスについては、「[PowerShell](/powershell/scripting/install/installing-powershell-on-windows) のインストール」を参照Windows。
+1. PowerShell バージョン 7 以降をインストールします。 詳細なガイダンスについては、「[Windowsへの PowerShell のインストール](/powershell/scripting/install/installing-powershell-on-windows)」を参照してください。
 
-1. 管理者モードで PowerShell を実行します。
+1. PowerShell を管理者モードで実行します。
 1. Microsoft Graph PowerShell モジュールをインストールします。
 
     ```powershell
@@ -22,39 +22,32 @@ ms.locfileid: "64593672"
     Import-Module Microsoft.Graph
     ```
 
-    バージョン 1.6.1 以降を確認します。
+    バージョン 1.6.1 以降であることを確認します。
 
     ```powershell
     Get-InstalledModule Microsoft.Graph 
     ```
 
-1. プレビュー PowerShell Teamsをインストールします。
+1. Teams プレビュー PowerShell モジュールをインストールします。
 
     ```powershell
     Install-Module -Name MicrosoftTeams -AllowPrerelease -Force
     Import-Module MicrosoftTeams 
     ```
 
-    バージョン 4.1.0 以上で、Shifts コネクタ コマンドレットが含まれている必要があります。
+    少なくともバージョン 4.1.0 で、Shifts コネクタコマンドレットが含まれていることを確認します。
 
     ```powershell
     Get-Command -Module MicrosoftTeams -Name *teamsshiftsconnection* 
     ```
- 
-1. MSAL PowerShell モジュールをインストールします。
 
-    ```powershell
-    Install-Module -Name MSAL.PS
-    Import-Module MSAL.PS
-    ```
-
-1. スクリプトの実行中にエラーが発生した場合は、PowerShell を終了に設定します。
+1. スクリプトの実行時にエラーが発生した場合は、PowerShell を終了するように設定します。
 
     ```powershell
     $ErrorActionPreference = "Stop" 
     ```
 
-1. スクリプトをスクリプトで実行Windows。
+1. スクリプトをWindowsで実行できるようにします。
 
     ```powershell
     Set-ExecutionPolicy bypass 
