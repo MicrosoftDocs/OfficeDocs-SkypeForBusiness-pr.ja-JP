@@ -20,13 +20,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 開催者が電話会議ブリッジ会議に無料電話番号を使用する方法を制御する方法について説明します。
-ms.openlocfilehash: 18696143930c42649304bb62b5693e95179397e4
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+description: 電話会議ブリッジ会議で開催者がフリーダイヤル番号を使用する方法を制御する方法について説明します。
+ms.openlocfilehash: 6d841a48381609a019a1749095aac4a95901a7c4
+ms.sourcegitcommit: 296fbefe0481c0b8b94aee925118474375cdf138
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055437"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65016629"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>特定の Teams ユーザーの無料電話番号を無効にする
 
@@ -39,28 +39,14 @@ ms.locfileid: "62055437"
 - 対象の開催者が招待する会議で無料電話番号は含まれなくなります。
 - 無料電話番号は、対象の開催者が招待する会議で参照される [電話番号の検索] ページにリストされなくなります。
 - 参加者は、組織の無料電話番号をダイヤルしてその開催者の会議に参加できなくなります。
-- その開催者のすべての会議は自動的に再スケジュールされ、無料電話番号が削除されます。  
-
-    > [!IMPORTANT]
-    > この場合、それらの会議の参加者すべてに開催者の電子メールの全招待状が再送信されます。
-
 - 参加者は、電話番号 (有料) を使用して対象開催者の会議に引き続き参加できます。
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>特定のユーザーの無料電話番号を無効にする
 
-**Microsoft Teams 管理センター** から次の操作を行います。
+特定のユーザーのフリーダイヤル番号を無効にするには、それらのユーザーに割り当てられている *TeamsAudioConferencingPolicy* 内で *AllowTollFreeDialIn* の設定を **オフ** に変更します。 無効にすると、そのようなユーザーによって作成された新しい会議には無料電話番号は含まれません。 [有料電話番号とフリーダイヤル番号の電話会議ポリシー設定](audio-conferencing-toll-free-numbers-policy.md) の詳細については、以下をご覧ください。
 
-1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
-
-2. [**電話会議**] の横の [**編集**] をクリックします。
-
-3. **[このユーザーからの会議出席依頼にフリー ダイヤルの番号を含める]** を **[オフ]** に設定します。
-
-4. **[保存]** をクリックします。
+> [!IMPORTANT]
+> 以前および以前にスケジュールされた定期的な会議では、フリーダイヤル番号が表示される場合があり、参加者はフリーダイヤル番号を使用してそのような会議に参加することはできません。 これらのユーザーの古い定期的な会議のスケジュールを変更し、MMS を使用して無料の電話番号を削除できます。
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
-
-### <a name="using-powershell"></a>PowerShell の使用
-
-詳細については、[Microsoft Teams PowerShell のリファレンス](/powershell/module/teams/?view=teams-ps)をご覧ください。

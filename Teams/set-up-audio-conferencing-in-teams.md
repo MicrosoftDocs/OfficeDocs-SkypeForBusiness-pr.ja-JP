@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '電話を使用して電話会議に参加する必要がある社内ユーザーのダイヤルイン会議または電話会議をセットアップする方法について説明します。 '
-ms.openlocfilehash: 742393413ccf1a9e8a9d715f4ddfa199a4c4e35c
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
-ms.translationtype: HT
+ms.openlocfilehash: 2098ec90223ec7242f24368f2b6dc7687d3370fd
+ms.sourcegitcommit: 296fbefe0481c0b8b94aee925118474375cdf138
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055157"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65016639"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Microsoft Teams の電話会議を設定する
 
@@ -104,16 +104,12 @@ ms.locfileid: "62055157"
 
 ## <a name="step-7-assign-dial-in-phone-numbers-for-users-who-lead-meetings"></a>手順 7: 会議を開催するユーザー向けにダイヤルインの電話番号を割り当てる
 
-電話会議ブリッジを作成した後、ユーザー向けに有料番号と無料番号を設定する必要があります。
-
-この操作を、会議を主催したり計画している組織内のすべてのユーザーに対して行う必要があります。
-
- **Microsoft Teams 管理センターの使用**:
-
-1. [ホーム] から **[ユーザー]** をクリックし、リストからユーザーを選択して **[編集]** を選択します。
-2. **[電話会議]** の次にある **[編集]** をクリックしてから **[電話会議]** ウィンドウで **[有料番号]** と **[無料番号]** の番号リストから、番号を選択します。
+「[Microsoft Teamsの招待に含まれる電話番号を設定する](set-the-phone-numbers-included-on-invites-in-teams.md)」を参照してください。
 
 さらに詳細が必要な場合は、「[Microsoft を電話会議プロバイダーとして割り当てる](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)」を参照してください。
+
+> [!NOTE]
+> *TeamsAudioconferencingpolicy* に電話番号を追加し、ポリシーをユーザーに割り当てることで電話番号を設定することもできます。 ポリシーに追加された有料電話番号とフリーダイヤル電話番号は、電話会議設定ウィンドウでユーザーに対して個別に設定された電話番号よりも優先されます。 *Teamsaudioconferencingpolicy* に電話番号が追加されていない場合は、電話会議の設定ウィンドウでユーザーに個別に設定された電話番号が会議出席依頼Microsoft Teamsに表示されます。 [有料電話番号とフリーダイヤル番号の電話会議ポリシー設定](audio-conferencing-toll-free-numbers-policy.md) の詳細については、以下をご覧ください。
 
 ## <a name="step-8-set-up-meeting-invitations-optional"></a>手順 8: 会議の招集をセットアップする（オプション）
 

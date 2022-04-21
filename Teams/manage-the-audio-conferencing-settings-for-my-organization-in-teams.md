@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'ダイヤルイン電話会議ライセンスと会議 ID をユーザーおよびその他の多くのダイヤルイン電話会議の設定に割り当てるための Microsoft Teams での手順を確認します。 '
-ms.openlocfilehash: d6dccb2afc18f5497b08df583cde31fe249654bc
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: e9a464df1d4c3eb01815a652b2e55c6c269b837d
+ms.sourcegitcommit: 296fbefe0481c0b8b94aee925118474375cdf138
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62056067"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65016619"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織の電話会議の設定を管理する
 
@@ -40,13 +40,13 @@ ms.locfileid: "62056067"
 ## <a name="assign-an-audio-conferencing-license"></a>電話会議のライセンスを割り当てる
 
 > [!NOTE]
-> Teams を使用してライセンスを割り当てることはできません。 次のコマンドを使用Microsoft 365 管理センター。 「[アドオン ライセンスMicrosoft Teams割り当て」を参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+> Teams を使用してライセンスを割り当てることはできません。 Microsoft 365 管理センターを使用する必要があります。 [アドオン ライセンスMicrosoft Teams割り当てるに関するページを](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)参照してください。
 
 ### <a name="to-assign-a-license-for-a-user"></a>ユーザーにライセンスを割り当てる
 
 1. 職場または学校のアカウントを使用して、Microsoft 365 にサインインします。
 
-2. [ユーザー] の左側のナビゲーションMicrosoft 365 管理センター [アクティブなユーザー] に移動し、使用可能なユーザーの一覧からユーザー  >  またはユーザーを選択します。
+2. **Microsoft 365 管理センター** の左側のナビゲーションで、**UsersActive** >  ユーザーに移動し、使用可能 **なユーザー** の一覧からユーザーまたはユーザーを選択します。
 
     > [!NOTE]
     > 操作手順と PowerShell のサンプル スクリプトについては、「**Skype for Business と Microsoft Teams のライセンスを割り当てる**」をご覧ください。 次に [**編集**]、[**次へ**] を 2 回クリックしてからライセンスを選択し、[**送信**] をクリックします。  
@@ -56,11 +56,11 @@ ms.locfileid: "62056067"
 4. [**製品ライセンス**] ページで、[**電話会議**] を有効にし、[**保存**] をクリックします。ライセンスの詳細については、「[Microsoft Teams アドオン ライセンス](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
 
    > [!NOTE]
-   > ライセンスを割り当てると、最初に Microsoft が電話会議プロバイダーとしてリストに表示されない場合があります。 この場合は、管理センターからログアウトするか、Ctrl キーを押しながら F5 キーを押してブラウザー ウィンドウを更新します。
+   > ライセンスを割り当てた後、Microsoft は最初に電話会議プロバイダーとして一覧に表示されない可能性があります。 このような場合は、管理センターからログアウトするか、Ctrl キーを押しながら F5 キーを押してブラウザー ウィンドウを更新します。
   
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>電話会議ユーザーに送信されたメールを有効または無効にする
 
-### <a name="enable-or-disable-using-the-microsoft-teams-admin-center"></a>管理センターを使用してMicrosoft Teamsまたは無効にする
+### <a name="enable-or-disable-using-the-microsoft-teams-admin-center"></a>Microsoft Teams管理センターを使用して有効または無効にする
 
 1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。
 
@@ -70,13 +70,13 @@ ms.locfileid: "62056067"
 
 4. **[保存]** をクリックします。
 
-### <a name="enable-or-disable-using-windows-powershell"></a>アプリを使用して有効または無効Windows PowerShell
+### <a name="enable-or-disable-using-windows-powershell"></a>Windows PowerShellを使用して有効または無効にする
 
 詳細については、[Microsoft Teams PowerShell のリファレンス](/powershell/module/teams/?view=teams-ps)をご覧ください。
   
 ## <a name="reset-the-meeting-conference-id"></a>会議通話 ID をリセットする
 
-### <a name="reset-the-meeting-conference-id-using-the-microsoft-teams-admin-center"></a>管理センターを使用して会議 ID をMicrosoft Teamsする
+### <a name="reset-the-meeting-conference-id-using-the-microsoft-teams-admin-center"></a>Microsoft Teams管理センターを使用して会議会議 ID をリセットする
 
 1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 
@@ -90,7 +90,7 @@ ms.locfileid: "62056067"
 
 ユーザーがスケジュール設定した各会議には、一意の会議通話 ID が割り当てられます。 会議通話 ID は自動的に作成されユーザーに割り当てられますが、ユーザーは使わないため特定の番号に設定しようと考える場合や、ユーザーが会議通話 ID を覚えられない、または紛失してしまう場合があります。
 
-### <a name="reset-a-conference-organizers-pin-using-the-microsoft-teams-admin-center"></a>管理センターで会議開催者の PIN をMicrosoft Teamsする
+### <a name="reset-a-conference-organizers-pin-using-the-microsoft-teams-admin-center"></a>Microsoft Teams管理センターを使用して会議開催者の PIN をリセットする
 
 1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 
@@ -102,7 +102,7 @@ ms.locfileid: "62056067"
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>電話会議の情報が記載された電子メールをユーザーに送信する
 
-### <a name="send-an-email-using-the-microsoft-teams-admin-center"></a>管理センターでメールをMicrosoft Teamsする
+### <a name="send-an-email-using-the-microsoft-teams-admin-center"></a>Microsoft Teams管理センターを使用してメールを送信する
 
 1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 
@@ -115,21 +115,16 @@ ms.locfileid: "62056067"
   
 ## <a name="set-the-phone-numbers-included-on-invites"></a>招待状に含まれている電話番号を設定する
 
-### <a name="set-invite-phone-numbers-using-the-microsoft-teams-admin-center"></a>管理者センターで招待電話番号をMicrosoft Teamsする
+### <a name="set-invite-phone-numbers-using-the-microsoft-teams-admin-center"></a>Microsoft Teams管理センターを使用して招待電話番号を設定する
 
-1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
+「[Microsoft Teamsの招待に含まれる電話番号を設定する](set-the-phone-numbers-included-on-invites-in-teams.md)」を参照してください。
 
-2. [**電話会議**] の横の [**編集**] をクリックします。
-
-3. [**電話会議**] ウィンドウで、[**有料電話番号**] と、可能な場合は [**フリーダイヤル番号**] を設定できます。
-
-4. [**保存**] をクリックします。
-
-「[招待状に含まれている電話番号を設定する](set-the-phone-numbers-included-on-invites-in-teams.md)」を参照してください。
+> [!NOTE]
+> *TeamsAudioconferencingpolicy* に電話番号を追加し、ポリシーをユーザーに割り当てることで電話番号を設定することもできます。 ポリシーに追加された有料電話番号とフリーダイヤル電話番号は、電話会議設定ウィンドウでユーザーに対して個別に設定された電話番号よりも優先されます。 *Teamsaudioconferencingpolicy* に電話番号が追加されていない場合は、電話会議の設定ウィンドウでユーザーに個別に設定された電話番号が会議出席依頼Microsoft Teamsに表示されます。 [有料電話番号とフリーダイヤル番号の電話会議ポリシー設定](audio-conferencing-toll-free-numbers-policy.md) の詳細については、以下をご覧ください。
 
 ## <a name="choose-audio-conferencing-bridge-settings"></a>電話会議ブリッジの設定を選択する
 
-### <a name="set-the-meeting-experience-when-callers-join-a-meeting-using-the-microsoft-teams-admin-center"></a>管理者センターで発信者が会議に参加するときに会議Microsoft Teams設定する
+### <a name="set-the-meeting-experience-when-callers-join-a-meeting-using-the-microsoft-teams-admin-center"></a>Microsoft Teams管理センターを使用して、発信者が会議に参加するときに会議エクスペリエンスを設定する
 
 1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。
 
@@ -143,8 +138,8 @@ ms.locfileid: "62056067"
 
     [**名前または電話番号**] を選ぶと、[**発信者に会議に参加する前に自分の名前を記録するように要求する**] を有効または無効にすることもできます。
     > [!NOTE]
-    > 既定では、外部参加者はダイヤルインされた参加者の電話番号を表示されません。 これらの電話番号のプライバシーを維持したい場合は、**開始/終了のお知らせの種類** の **トーン** を選びます (これにより、数字が Teams によって読み上げられません)。
-5. **[保存]** をクリックします。
+    > 既定では、外部ユーザーはダイヤルインした参加者の電話番号を見ることができません。これらの電話番号のプライバシーを維持したい場合は、**入場/退出のお知らせの種類** として **トーン** を選択します (これにより、番号は Teams によって読み取られません)。
+5. [**保存**] をクリックします。
 
 [電話会議ブリッジの設定を変更する](change-the-settings-for-an-audio-conferencing-bridge.md)を参照してください。
   
@@ -178,7 +173,7 @@ ms.locfileid: "62056067"
 
 ## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>電話会議ブリッジの第 1 (既定) 言語と第 2 (代替) 言語を表示、設定する
 
-### <a name="see-primary-and-secondary-languages-using-the-microsoft-teams-admin-center"></a>管理センターでプライマリ言語と第 2 言語Microsoft Teams表示する
+### <a name="see-primary-and-secondary-languages-using-the-microsoft-teams-admin-center"></a>Microsoft Teams管理センターを使用してプライマリ言語と第 2 言語を表示する
 
 1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。
 
@@ -190,7 +185,7 @@ ms.locfileid: "62056067"
 
 [電話会議の自動案内の言語を設定する](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)を参照してください。
   
-## <a name="see-audio-conferencing-dial-in-numbers-using-the-microsoft-teams-admin-center"></a>管理センターで電話会議のダイヤルイン番号をMicrosoft Teamsする
+## <a name="see-audio-conferencing-dial-in-numbers-using-the-microsoft-teams-admin-center"></a>Microsoft Teams管理センターを使用した電話会議ダイヤルイン番号の表示
 
 1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。
 
@@ -204,11 +199,11 @@ ms.locfileid: "62056067"
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 
-Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作に関するすべてです。 このWindows PowerShell、単一の管理ポイントを使用して Microsoft 365 または Office 365 を管理し、複数のタスクを実行する場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+Windows PowerShell は、ユーザーと、ユーザーに許可されていることと許可されていないことを管理するためにあります。Windows PowerShell があれば、一元管理を使用して Microsoft 365 または Office 365 を管理し、複数のタスクを抱えているときに、日常の仕事を簡素化することができます。Windows PowerShell を開始するには、これらのトピックを参照してください。
 
-- [PowerShell または PowerShell をMicrosoft 365するOffice 365理由](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+- [Microsoft 365 または Office 365 PowerShell を使用する必要がある理由](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-- [アプリを使用してMicrosoft 365またはOffice 365を管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+- [Windows PowerShell で Microsoft 365 または Office 365 を管理するための最善の方法](/previous-versions//dn568025(v=technet.10))
 
 Windows PowerShell の詳細については、「[Microsoft Teams PowerShell のリファレンス](/powershell/module/teams/?view=teams-ps)」をご覧ください。
 
