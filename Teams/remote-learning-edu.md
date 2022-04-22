@@ -19,10 +19,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d061fa0cda1620980e7da68a345fc13acb6fc12a
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2022
+ms.lasthandoff: 04/20/2022
 ms.locfileid: "62362983"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>遠隔学習向けに Microsoft Teams の使用を開始する。
@@ -42,7 +42,7 @@ ms.locfileid: "62362983"
 > - 教育機関全体ですばやく Teams を準備して稼働させるには、こちらの [**1 ページにまとめた入門情報**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true)をご参照ください。
 > - 「[**Teams の使用を開始する方法**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true)」をダウンロード: セキュリティと変更管理に役立つプラクティスを掲載した IT プロフェッショナル向けのガイドです。
 > - [**Teams を使用した授業での重要な最初の手順**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)に関する使い方ガイドを含む、教師向けに書かれた複数の記事を提供しています。
-> - Microsoft Educator Center の 1 時間のオンライン コースでは、教師が教育の場において Teams を活用する方法を示します。 [**Microsoft Teams を使用して学習を刷新する**](https://education.microsoft.com/course/9c9f5c11/overview)。
+> - Microsoft Educator Center の 1 時間のオンライン コースでは、教師が教育の場において Teams を活用する方法を示します。[**Microsoft Teams を使用して学習を刷新する**](https://education.microsoft.com/course/9c9f5c11/overview)。
 > - Microsoft Educator Center の 1 時間のオンライン コースでは、クラス チームでの授業を活用して教師に説明します。 [**Class Teams を使用して協働学習環境を作る**](https://education.microsoft.com/course/b1e15cfc/overview)。
 > - 教師、生徒、保護者の方々は、[**Office 365 を使用した遠隔授業と遠隔学習**](https://aka.ms/RemoteLearningHelp)に関する追加のガイダンスをご覧いただけます。
 > - 保護者の方々は、[**保護者向けのサポート ページ**](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588)で遠隔学習に関する詳細情報をご覧いただけます。
@@ -232,7 +232,7 @@ PowerShell では、チームやチャネルを作成するためにスクリプ
 
 - 早期導入！早期に導入して、すべてが確実に機能し、初日の準備ができるようにします。
 - チームが 500,000 以上ある場合、[教師主導のチーム作成方法](#educator-led-team-creation-from-office-365-class-groups)を使用することをお勧めします。 関連性があり必要なクラスチームのみを作成することで、未使用のチームと混乱を減らします。  
-- SDSの自動チーム作成に問題があり（クラスが不足するなど）、教職員がチームをすぐに必要とする場合は、[教職員主導のチーム作成方法](#educator-led-team-creation-from-office-365-class-groups)を使用して再試行できます。 [チームの手動作成](#manual-team-creation)は別のソリューションですが、チームメンバーシップを更新し続けることはできません。  
+- SDSの自動チーム作成に問題があり (クラスが不足するなど)、教職員がチームをすぐに必要とする場合は、[教職員主導のチーム作成方法](#educator-led-team-creation-from-office-365-class-groups)を使用して再試行できます。[手動のチーム作成](#manual-team-creation)も別の解決策ですが、チーム メンバーシップを最新の状態に保つことはできません。  
 - テナントチームの上限は500,000チームです。 したがって、管理者は未使用のチームの数を積極的に減らして、制限に達したり、セットアップ時間を延長する必要がないようにしないようにしなければなりません。 制限の詳細については、「[Microsoft Teams の制限事項と仕様](limits-specifications-teams.md)」を参照してください。  
 
 #### <a name="early-access-to-class-teams"></a>クラスチームに早期アクセスする

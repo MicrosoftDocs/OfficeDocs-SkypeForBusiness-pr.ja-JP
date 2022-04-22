@@ -17,10 +17,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 3c80b93ef457048d006fb7a7eb6085b3ed5d8eb4
-ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
+ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/17/2022
+ms.lasthandoff: 04/20/2022
 ms.locfileid: "62864030"
 ---
 # <a name="microsoft-teams-essentials-quickstart-guide-for-small-businesses"></a>小規模企業向けの Microsoft Teams Essentials クイックスタート ガイド
@@ -97,7 +97,7 @@ Microsoft 認定パートナーを通じて Teams Essentials を購入した場�
 
 
 > [!IMPORTANT] 
-> 強化された管理と Teams の全機能を利用するには、ユーザーに適した [Microsoft 365 または Office 365 サブスクリプション プラン](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options)を購入して、Teams のフル バージョンにアップグレードする必要があります。 組織のコラボレーション方法をより柔軟に管理できるため、これをお勧めします。
+> 強化された管理と Teams の全機能を利用するには、ユーザーに適した [Microsoft 365 または Office 365 サブスクリプション プラン](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options)を購入して、Teams のフル バージョンにアップグレードする必要があります。組織のコラボレーション方法をより柔軟に管理できるため、これをお勧めします。
 
 ## <a name="administration-limits-and-specifications-for-microsoft-teams-essentials"></a>Microsoft Teams Essentials の管理制限と仕様
 
@@ -166,10 +166,10 @@ Teams へのサインインに使用する現在のメール アドレスを入�
 
 ### <a name="can-i-use-an-existing-email-system-with-microsoft-teams-essentials"></a>Microsoft Teams Essentials で既存のメール システムを使用できますか?  
 
-はい。 既存のメール システムを維持し、Teams Essentials を活用して、会議、チャット、およびコラボレーションを行うことができます。  
+はい。既存のメール システムを維持し、Teams Essentials を活用して、会議、チャット、およびコラボレーションを行うことができます。  
 
 ### <a name="can-i-connect-my-existing-calendar-solution-with-teams-essentials"></a>既存の予定表ソリューションを Teams Essentials に接続できますか?
-はい。 Outlook.com および Google の既存の予定表を Teams Essentials と同期できます。
+はい。Outlook.com および Google の既存の予定表を Teams Essentials と同期できます。
 
 既存の予定表ソリューションを Teams Essentials (AAD ID) に接続するには、この記事の後半の手順に従ってください。
 
