@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2e0238439bb79a7ca7833ef082f4f499c082aa9
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 1c41ac53e95c179fc62b5e2e469bb614cbdcd516
+ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922618"
+ms.lasthandoff: 04/22/2022
+ms.locfileid: "65031902"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft Teams のセキュリティとコンプライアンス
 
@@ -149,9 +149,9 @@ Microsoft Purview コンプライアンス ポータルで電子情報開示ツ�
 
 Microsoft Teamsでの[コンテンツの電子情報開示調査の実施](eDiscovery-investigation.md)に関する詳細については、Teams固有の記事があります。
 
-顧客は、要件に従って電子情報開示または[Advanced eDiscovery](/microsoft-365/compliance/office-365-advanced-ediscovery)を利用できます。 次の表で、これらの 2 つの違いについて説明します。
+顧客は、要件に従って[電子情報開示または電子情報開示 (プレミアム)](/microsoft-365/compliance/office-365-advanced-ediscovery) を利用できます。 次の表で、これらの 2 つの違いについて説明します。
 
-|&nbsp; |電子情報開示  |Advanced eDiscovery  |
+|&nbsp; |電子情報開示  |電子情報開示 (プレミアム)  |
 |---------|---------|---------|
 |ケース管理     |X        |X         |
 |アクセス制御  |X         |X         |
@@ -216,7 +216,7 @@ Microsoft では、お客様のデータを保護することが最優先事項�
 セキュリティとコンプライアンスの機能を実装するためのライセンスニーズの決定については、セキュリティ機能とコンプライアンス機能の [ライセンス要件を](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance) 確認してください。
 
 > [!NOTE]
-> コンテンツ検索、Core 電子情報開示、Advanced eDiscoveryは、Microsoft Purview コンプライアンス ポータルで有効にする必要はありません。 詳細については、「[Microsoft 365電子情報開示ソリューション](/microsoft-365/compliance/ediscovery)」を参照してください。
+> コンテンツ検索、電子情報開示 (Standard)、電子情報開示 (プレミアム) は、Microsoft Purview コンプライアンス ポータルで有効にする必要はありません。 詳細については、「[Microsoft 365電子情報開示ソリューション](/microsoft-365/compliance/ediscovery)」を参照してください。
 
 ## <a name="location-of-data-in-teams"></a>Teams のデータの場所
 

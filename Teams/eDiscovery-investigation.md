@@ -1,7 +1,7 @@
 ---
 title: コンテンツの電子情報開示調査を実施する
-author: markjjo
-ms.author: markjjo
+author: v-tophillips
+ms.author: v-tophillips
 manager: laurawi
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ description: 電子情報開示を実行する必要がある場合 (法的手�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d0906e24cc4bb749779bf432fe27c9c2af6ac0e3
-ms.sourcegitcommit: 204e4654f2c3977db260670f3ee1784d1ad6ed17
+ms.openlocfilehash: 207164f3e16768b7643d2bba2177d52d6b3940f3
+ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64866202"
+ms.lasthandoff: 04/22/2022
+ms.locfileid: "65031922"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Microsoft Teams のコンテンツに対して電子情報開示の調査を行う
 
@@ -44,12 +44,12 @@ ms.locfileid: "64866202"
 |チャット メッセージ | Yes |これには、標準Teams チャネルのコンテンツ、1 対 1 のチャット、1 対 1 のグループ チャット、ゲスト ユーザー参加者とのチャットが含まれます。  |
 |コード スニペット | いいえ | |
 |編集されたメッセージ | はい | ユーザーが保留中の場合は、以前のバージョンの編集済みメッセージも保持されます。 |
-|絵文字、GIF、ステッカー | はい | |
+|絵文字、GIF、ステッカー | Yes | |
 |フィード通知 | いいえ | |
 |インライン イメージ | Yes | |
 |Loop コンポーネント| Yes|ループ コンポーネント内のコンテンツは、ループ コンポーネントを送信するユーザーのOneDrive for Business アカウントに格納されている .fluid ファイルに保存されます。 つまり、ループ コンポーネント内のコンテンツを検索するときに、データ ソースとしてOneDriveを含める必要があります。 |
 |IM 会話の会議 | Yes | |
-|会議のメタデータ <sup>1</sup> | Yes |  |
+|会議のメタデータ <sup>1</sup> | はい |  |
 |チャネルの名前 | はい | |
 |プライベートおよび共有チャネル チャット メッセージ | はい | |
 |引用符 | Yes | 引用符で囲まれたコンテンツは検索可能です。 ただし、検索結果は、コンテンツが引用符で囲まれたことを示すわけではありません。 |
@@ -82,7 +82,7 @@ ms.locfileid: "64866202"
   > [!div class="mx-imgBorder"]
   > ![コンプライアンス コピーからの会議メタデータ。](media/conversationOption3.png)
 
-電子情報開示調査の実施の詳細については、「Core 電子情報開示[を使用した概要](/microsoft-365/compliance/get-started-core-ediscovery)」を参照してください。
+電子情報開示調査の実施の詳細については、「電子情報開示 [(Standard) を使用した概要](/microsoft-365/compliance/get-started-core-ediscovery)」を参照してください。
 
 Microsoft Teamsデータは、Excel電子情報開示エクスポート出力に IM または Conversations として表示されます。 Outlookでファイルを`.pst`開くと、エクスポート後にそれらのメッセージを表示できます。
 
@@ -131,7 +131,7 @@ Microsoft Teamsデータは、Excel電子情報開示エクスポート出力に
     Get-TeamChannelUser -GroupId <parent team GroupId> -DisplayName "Partner Shared Channel"
    ```
 
-4. [Core 電子情報開示の電子情報開示検索クエリ](/microsoft-365/compliance/search-for-content-in-core-ediscovery)の一部として、または[Advanced eDiscoveryでカストディアン コンテンツを識別して収集](/microsoft-365/compliance/add-custodians-to-case)する場合は、プライベート チャネルの所有者とメンバーのメールボックスを含めます。
+4. [電子情報開示 (Standard) で電子情報開示検索クエリ](/microsoft-365/compliance/search-for-content-in-core-ediscovery)の一部として、または電子情報開示 [(プレミアム) でカストディアン コンテンツを識別して収集する](/microsoft-365/compliance/add-custodians-to-case)場合は、プライベート チャネルの所有者とメンバーのメールボックスを含めます。
 
 ### <a name="identifying-the-sharepoint-site-for-private-and-shared-channels"></a>プライベート チャネルと共有チャネルのSharePoint サイトを識別する
 
@@ -166,7 +166,7 @@ Microsoft Teamsデータは、Excel電子情報開示エクスポート出力に
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
     ```
 
-4. [Core 電子情報開示の電子情報開示検索クエリ](/microsoft-365/compliance/search-for-content-in-core-ediscovery)の一部として、または[Advanced eDiscoveryでカストディアン コンテンツを識別して収集](/microsoft-365/compliance/add-custodians-to-case)する場合は、プライベートチャネルまたは共有チャネルに関連付けられているサイトを含めます。
+4. [電子情報開示 (Standard) で電子情報開示検索クエリ](/microsoft-365/compliance/search-for-content-in-core-ediscovery)の一部として、または電子情報開示 [(プレミアム) でカストディアン コンテンツを識別して収集する](/microsoft-365/compliance/add-custodians-to-case)場合は、プライベートチャネルまたは共有チャネルに関連付けられているサイトを含めます。
 
 ## <a name="search-for-content-for-guest-users"></a>ゲスト ユーザーのコンテンツを検索する
 
@@ -251,6 +251,6 @@ Teams チャネル、1 対 1 チャット、および 1xN チャットでアプ�
 ## <a name="related-topics"></a>関連項目
 
 - [Microsoft 365電子情報開示ソリューション](/microsoft-365/compliance/ediscovery)
-- [Core 電子情報開示を使用した概要](/microsoft-365/compliance/get-started-core-ediscovery)
-- [Advanced eDiscoveryでワークフローをTeamsする](/microsoft-365/compliance/teams-workflow-in-advanced-ediscovery)
+- [電子情報開示を使用した概要 (Standard)](/microsoft-365/compliance/get-started-core-ediscovery)
+- [電子情報開示のTeamsワークフロー (プレミアム)](/microsoft-365/compliance/teams-workflow-in-advanced-ediscovery)
 - [Teams PowerShell の概要](teams-powershell-overview.md)

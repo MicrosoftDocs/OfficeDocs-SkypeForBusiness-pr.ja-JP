@@ -295,7 +295,7 @@ items:
             href: legal-hold.md
           - name: コンテンツ検索
             href: content-search.md
-          - name: Advanced eDiscovery の　Teams ウォークフロー
+          - name: 電子情報開示の Teams ワークフロー (Premium)
             href: /microsoft-365/compliance/teams-workflow-in-advanced-ediscovery
           - name: 監査
             href: audit-log-events.md
@@ -667,90 +667,94 @@ items:
                 href: teams-live-events/live-events-recording-policies.md
       - name: 電話会議
         items:
-          - name: 展開の計画
-            href: deploy-audio-conferencing-teams-landing-page.md
-          - name: Microsoft 365 での電話会議
+          - name: M365 の電話会議
             href: audio-conferencing-in-office-365.md
-          - name: 電話会議のためのネットワーク上の会議
-            href: audio-conferencing-on-network.md
-          - name: 電話会議に関するよくある質問
-            href: audio-conferencing-common-questions.md
-          - name: Microsoft 365 での電話会議を試用または購入する
-            href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
+          - name: 計画
+            items:
+              - name: 展開の計画
+                href: deploy-audio-conferencing-teams-landing-page.md
+              - name: 電話会議のためのネットワーク上の会議
+                href: audio-conferencing-on-network.md
+              - name: 電話会議に関するよくある質問
+                href: audio-conferencing-common-questions.md
+              - name: Microsoft 365 での電話会議を試用または購入する
+                href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
+          - name: 設定
+            items:
+              - name: 電話会議をセットアップする
+                href: set-up-audio-conferencing-in-teams.md
+              - name: 電話会議をセットアップする - 中小企業向けのクイックスタート
+                href: audio-conferencing-smb.md
+          - name: 管理
+            items:
+              - name: 電話会議サービスを管理する
+                items:
+                  - name: 米国とカナダの拡張ダイヤルアウト分数
+                    href: dial-out-minutes-canada-us.md
+                  - name: 電話会議の月額プラン「ダイヤル アウト」/「折り返し先」のメリット
+                    href: /SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+                  - name: 分数ごと従量課金制電話会議
+                    href: audio-conferencing-pay-per-minute.md
+              - name: 電話会議ブリッジの管理
+                items:
+                  - name: 電話会議ブリッジの電話番号を変更する
+                    href: change-the-phone-numbers-on-your-audio-conferencing-bridge.md
+                  - name: 電話会議ブリッジの設定を変更する
+                    href: change-the-settings-for-an-audio-conferencing-bridge.md
+                  - name: 電話会議の電話番号のリストを表示する
+                    href: see-a-list-of-audio-conferencing-numbers-in-teams.md
+                  - name: 電話会議の自動案内の言語を設定する
+                    href: set-auto-attendant-languages-for-audio-conferencing-in-teams.md
+                  - name: ユーザー用の会議のダイヤルアウト確認をセットアップする
+                    href: set-up-meeting-dial-out-confirmation.md
+              - name: 組織の電話会議の設定を管理する
+                href: manage-the-audio-conferencing-settings-for-my-organization-in-teams.md
+              - name: ユーザーの電話会議の設定を管理する
+                items:
+                  - name: 概要
+                    href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
+                  - name: 電話会議が有効になっているユーザーのリストを表示する
+                    href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
+                  - name: ユーザーが会議に参加するときに名前を記録できるようにする
+                    href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
+                  - name: ユーザーの会議 ID をリセットする
+                    href: reset-a-conference-id-for-a-user-in-teams.md
+                  - name: ユーザーの電話会議の PIN をリセットする
+                    href: reset-the-audio-conferencing-pin-in-teams.md
+                  - name: ユーザーの設定が変更されるとユーザーに自動的に送信されるメール
+                    href: emails-sent-to-users-when-their-settings-change-in-teams.md
+                  - name: 電話会議の設定が変更されたときのメールの自動送信を有効または無効にする
+                    href: enable-or-disable-sending-emails-when-their-settings-change-in-teams.md
+                  - name: 有料電話番号とフリーダイヤル番号のポリシー設定
+                    href: audio-conferencing-toll-free-numbers-policy.md
+                  - name: 特定のユーザーの無料電話番号を無効にする
+                    href: disabling-toll-free-numbers-for-specific-teams-users.md
+                  - name: 電話会議およびユーザーの PSTN 通話に対する発信通話の制限ポリシー
+                    href: outbound-calling-restriction-policies.md
+                  - name: ユーザーに割り当てられた会議 ID の表示およびリセット
+                    href: see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md
+                  - name: 電話会議の情報が記載されたメールをユーザーに送信する
+                    href: send-an-email-to-a-user-with-their-dial-in-information-in-teams.md
+              - name: 電話会議の会議設定の管理
+                items:
+                  - name: 他のユーザーが参加できるように会議からダイヤル アウトする
+                    href: dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md
+                  - name: 会議の入退室通知をオンまたはオフにする
+                    href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
+                  - name: 電話会議の PIN の長さを設定する
+                    href: set-the-pin-length-for-audio-conferencing-meetings-in-teams.md
+                  - name: 招待状に含まれている電話番号を設定する
+                    href: set-the-phone-numbers-included-on-invites-in-teams.md
+                  - name: PIN を使用せずに電話で音声会議を開始する
+                    href: start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md
+                  - name: Teams 会議で電話番号をマスクする
+                    href: ptsn-mask-phone-numbers.md
           - name: オペレーター接続会議
             items:
               - name: 概要
                 href: operator-connect-conferencing-plan.md
               - name: オペレーター接続会議を設定する
                 href: operator-connect-conferencing-configure.md
-          - name: 米国とカナダの拡張ダイヤルアウト分数
-            href: dial-out-minutes-canada-us.md
-          - name: 電話会議の無料ダイヤル アウト期間
-            href: complimentary-dial-out-period.md
-          - name: 電話会議の月額プラン「ダイヤル アウト」/「折り返し先」のメリット
-            href: audio-conferencing-subscription-dial-out.md
-          - name: 電話会議をセットアップする
-            href: set-up-audio-conferencing-in-teams.md
-          - name: 電話会議をセットアップする - 中小企業向けのクイックスタート
-            href: audio-conferencing-smb.md
-          - name: Microsoft を電話会議プロバイダーとして割り当てる
-            href: /SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-          - name: 電話会議ブリッジの管理
-            items:
-              - name: 電話会議ブリッジの電話番号を変更する
-                href: change-the-phone-numbers-on-your-audio-conferencing-bridge.md
-              - name: 電話会議ブリッジの設定を変更する
-                href: change-the-settings-for-an-audio-conferencing-bridge.md
-              - name: 電話会議の電話番号のリストを表示する
-                href: see-a-list-of-audio-conferencing-numbers-in-teams.md
-              - name: 電話会議の自動案内の言語を設定する
-                href: set-auto-attendant-languages-for-audio-conferencing-in-teams.md
-              - name: ユーザー用の会議のダイヤルアウト確認をセットアップする
-                href: set-up-meeting-dial-out-confirmation.md
-          - name: 組織の電話会議の設定を管理する
-            href: manage-the-audio-conferencing-settings-for-my-organization-in-teams.md
-          - name: 分数ごと従量課金制電話会議
-            href: audio-conferencing-pay-per-minute.md
-          - name: ユーザーの電話会議の設定を管理する
-            items:
-              - name: 概要
-                href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
-              - name: 電話会議が有効になっているユーザーのリストを表示する
-                href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
-              - name: ユーザーが会議に参加するときに名前を記録できるようにする
-                href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
-              - name: ユーザーの会議 ID をリセットする
-                href: reset-a-conference-id-for-a-user-in-teams.md
-              - name: ユーザーの電話会議の PIN をリセットする
-                href: reset-the-audio-conferencing-pin-in-teams.md
-              - name: ユーザーの設定が変更されるとユーザーに自動的に送信されるメール
-                href: emails-sent-to-users-when-their-settings-change-in-teams.md
-              - name: 電話会議の設定が変更されたときのメールの自動送信を有効または無効にする
-                href: enable-or-disable-sending-emails-when-their-settings-change-in-teams.md
-              - name: 特定のユーザーの無料電話番号を無効にする
-                href: disabling-toll-free-numbers-for-specific-teams-users.md
-              - name: 電話会議およびユーザーの PSTN 通話に対する発信通話の制限ポリシー
-                href: outbound-calling-restriction-policies.md
-              - name: ユーザーに割り当てられた会議 ID の表示およびリセット
-                href: see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md
-              - name: 電話会議の情報が記載されたメールをユーザーに送信する
-                href: send-an-email-to-a-user-with-their-dial-in-information-in-teams.md
-          - name: 電話会議の会議設定の管理
-            items:
-              - name: 他のユーザーが参加できるように会議からダイヤル アウトする
-                href: dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md
-              - name: 会議の入退室通知をオンまたはオフにする
-                href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
-              - name: 電話会議の PIN の長さを設定する
-                href: set-the-pin-length-for-audio-conferencing-meetings-in-teams.md
-              - name: 招待状に含まれている電話番号を設定する
-                href: set-the-phone-numbers-included-on-invites-in-teams.md
-              - name: PIN を使用せずに電話で音声会議を開始する
-                href: start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md
-              - name: Teams 会議で電話番号をマスクする
-                href: ptsn-mask-phone-numbers.md
-          - name: 国および地域ごとの電話会議の利用可能性
-            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
           - name: 参照
             items:
               - name: 電話会議でサポートされている言語
@@ -759,6 +763,10 @@ items:
                 href: phone-numbers-for-audio-conferencing-in-teams.md
               - name: 国および地域ごとの電話会議の利用可能性
                 href: audio-conferencing-zones.md
+              - name: 国および地域ごとの電話会議の利用可能性
+                href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
+              - name: 電話会議の無料ダイヤル アウト期間
+                href: complimentary-dial-out-period.md
               - name: 'ビデオ: Teams での電話会議'
                 href: ./audio-conferencing-in-office-365.md
   - name: 音声 - 電話システムと PSTN 接続
@@ -1539,8 +1547,6 @@ items:
             href: resource-specific-consent.md
           - name: アプリのアクセス許可とリソースへのアクセスについて理解する
             href: app-permissions.md
-          - name: Teams でのアプリの管理設定
-            href: admin-settings.md
           - name: ユーザーの種類に基づくアプリの動作
             href: non-standard-users.md
           - name: エンド ユーザーとしてアプリを新しいバージョンに更新する

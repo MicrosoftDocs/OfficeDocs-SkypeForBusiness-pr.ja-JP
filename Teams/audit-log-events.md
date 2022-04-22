@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams でイベントの監査ログを検索する
-author: markjjo
-ms.author: markjjo
+author: v-tophillips
+ms.author: v-tophillips
 manager: laurawi
 ms.topic: article
 audience: admin
@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Microsoft Purview コンプライアンス ポータルで監査ログからMicrosoft Teamsデータを取得する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 744a18f2a8f7f2ed406853ef7efbc9842d0096f5
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 82da7932fb87101ee04759ede3d96b68cbb64aa2
+ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922638"
+ms.lasthandoff: 04/22/2022
+ms.locfileid: "65031892"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft Teams でイベントの監査ログを検索する
 
@@ -141,7 +141,7 @@ tオーディオ ログ検索の使い方は、[こちらの動画](https://www.
 ||||
 
 > [!NOTE]
-> <sup>1</sup> このイベントの監査レコードは、Microsoft Graph API の呼び出しによって操作が実行された場合にのみログに記録されます。 操作が Teams クライアントで実行された場合、監査レコードはログに記録されません<br/><sup>2</sup> このイベントは、高度な監査でのみ使用できます。 つまり、これらのイベントが監査ログに記録される前に、ユーザーに適切なライセンスを割り当てる必要があります。 高度な監査でのみ利用できるアクティビティの詳細については、「[Microsoft 365 の高度な監査](/microsoft-365/compliance/advanced-audit#advanced-audit-events)」を参照してください。 高度な監査のライセンス要件については、「[Microsoft 365 での監査ソリューション](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)」を参照してください。 <br/> <sup>3</sup> このイベントはパブリック プレビュー中です。
+> <sup>1</sup> このイベントの監査レコードは、Microsoft Graph API の呼び出しによって操作が実行された場合にのみログに記録されます。 操作が Teams クライアントで実行された場合、監査レコードはログに記録されません<br/><sup>2</sup> このイベントは、Audit (プレミアム) でのみ使用できます。 つまり、これらのイベントが監査ログに記録される前に、ユーザーに適切なライセンスを割り当てる必要があります。 監査 (プレミアム) でのみ使用できるアクティビティの詳細については、[Microsoft Purview の監査 (プレミアム) に](/microsoft-365/compliance/advanced-audit#advanced-audit-events)関するページを参照してください。 監査 (プレミアム) のライセンス要件については、[Microsoft 365の監査ソリューションに関するページを](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)参照してください。 <br/> <sup>3</sup> このイベントはパブリック プレビュー中です。
 
 ## <a name="shifts-in-teams-activities"></a>Teams アクティビティにサインイン
 

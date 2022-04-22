@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams ユーザーまたはチームに訴訟ホールドを適用する
-author: markjjo
-ms.author: markjjo
+author: v-tophillips
+ms.author: v-tophillips
 manager: laurawi
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ f1.keywords:
 description: Microsoft Purview コンプライアンス ポータルを使用して、Microsoft Teamsユーザーまたはチームを訴訟ホールドに配置し、データ要件に基づいて訴訟ホールドが必要な情報について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d56bece07fe7342c4156abdae73508a1a149864
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 1f0ea852b564ac339ac390994384258cc5d68ea1
+ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922458"
+ms.lasthandoff: 04/22/2022
+ms.locfileid: "65031912"
 ---
 # <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Microsoft Teams ユーザーまたはチームに訴訟ホールドを適用する
 
@@ -35,7 +35,7 @@ Microsoft Teams内では、チーム全体または一部のユーザーを訴�
 > ユーザーをホールドしてもグループは自動的にホールドされません。その逆も同様です。
 > アクティビティ フィードで送信された通知を保留にすることはできません。
 
-Core 電子情報開示ケースでユーザーまたはチームを訴訟ホールドにするには:
+電子情報開示 (Standard) ケースでユーザーまたはチームを訴訟ホールドにするには:
 
 1. [Microsoft Purview コンプライアンス ポータル](https://compliance.microsoft.com)に移動します。 新しいケースを作成すると、メールボックスまたはサイトを保留にするオプションが表示されます。
 
@@ -44,7 +44,7 @@ Core 電子情報開示ケースでユーザーまたはチームを訴訟ホー
    ![[電子情報開示] タブが選択Microsoft Teams、[ケースの作成] ボタンが表示されます。](media/LegalHold1.png)
 
    > [!NOTE]
-   > また、Advanced eDiscovery ケースに関連付けられている保留リストにユーザーを配置することもできます。 詳細については、「[Advanced eDiscoveryでの保留の管理](/microsoft-365/compliance/managing-holds)」を参照してください。
+   > 電子情報開示 (プレミアム) ケースに関連付けられている保留リストにユーザーを配置することもできます。 詳細については、「[電子情報開示での保留の管理 (プレミアム)](/microsoft-365/compliance/managing-holds)」を参照してください。
 
 3. 上部のメニューの [ **保留** ] タブに移動し、[ **作成** ] をクリックして保留を作成します。 ユーザーまたはチームを保留にすると、それらのユーザーが交換したすべてのメッセージが保持されます。 新しいケースを作成すると、メールボックスまたはサイトを保留にするオプションが表示されます。
 
