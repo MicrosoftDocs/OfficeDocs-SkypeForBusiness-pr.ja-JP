@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: あいさつメッセージ、保留音楽、通話リダイレクト、その他の機能を提供する、Microsoft Teamsの大規模な組織の通話キューを設定する方法について説明します。
-ms.openlocfilehash: 4e194a315abecdf779a2df48c7fbb7b6412693cc
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 0a62abc27eed0008a337b900f563f8e7e2a75097
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64846546"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059088"
 ---
 # <a name="create-a-call-queue"></a>呼び出しキューを作成する
 
@@ -207,6 +207,9 @@ Teams チャネルを介して最大 200 個のエージェントを追加でき
 
 > [!TIP]
 > **エージェントのアラート時間** を **20 秒** に設定することをお勧めします。
+
+> [!NOTE]
+> [呼び出しタイムアウト処理](#call-timeout-handling)設定は、エージェントのアラート時間よりも優先されます。 呼び出しタイムアウト処理用に構成された最大キュー時間に達した場合、エージェントアラート時間の制限に達していない場合でも、呼び出しはエージェントからプルバックされます。
 
 ## <a name="call-overflow-handling"></a>呼び出しオーバーフロー処理
 

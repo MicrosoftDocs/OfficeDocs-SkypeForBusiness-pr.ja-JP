@@ -21,7 +21,7 @@ ms.custom:
 description: Teams で一般的な会議ポリシー設定を管理する方法について説明します。
 ms.openlocfilehash: 2582327261e52f1d834cd3b368c79aa55ca7f103
 ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/06/2022
 ms.locfileid: "64686344"
@@ -42,7 +42,7 @@ ms.locfileid: "64686344"
 - [会議の登録](#meeting-registration)
 - [登録できるユーザー](#who-can-register)
 - [アイランド モードの会議プロバイダー](#meeting-provider-for-islands-mode)
-- [Speaker Coach](#speaker-coach)
+- [スピーチ コーチ](#speaker-coach)
 
 ## <a name="meet-now-in-channels"></a>チャネルでの "今すぐ会議"
 
@@ -161,7 +161,7 @@ Teams 管理センターでこのポリシーを編集するには、**[会議]*
 
 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) コマンドレットを使用して、既存の Teams 会議ポリシーを編集することができます。 または、[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) コマンドレットを使用して、新しい Teams の会議ポリシーを作成し、ユーザーに割り当てます。
 
-匿名ユーザーを含むすべてのユーザーがウェビナーに登録して参加できるようにするには、**WhoCanRegister** パラメーターを **Everyone** に設定します。 これは、既定では **Everyone** に設定されています。
+匿名ユーザーを含むすべてのユーザーがウェビナーに登録して参加できるようにするには、**WhoCanRegister** パラメーターを **Everyone** に設定します。これは既定で **Everyone** に設定されます。
 
 組織内のユーザーのみがウェビナーに登録して参加できるようにするには、このパラメーターを **EveryoneInCompany** に設定します。
 
@@ -186,16 +186,16 @@ AllowMeetingReactions 設定は、PowerShell を使用してのみ適用でき�
 
 会議の反応は、既定ではオフになっています。 ユーザーに対して反応をオフにしても、ユーザーがスケジュールする会議で反応を利用できないという意味ではありません。 既定の設定に関係なく、会議の開催者は [会議のオプション] ページで反応をオンにできます。
 
-## <a name="speaker-coach"></a>Speaker Coach
+## <a name="speaker-coach"></a>スピーチ コーチ
 
-この設定を使用すると、ユーザーはTeams会議中に Speaker Coach を有効にすることができます。 Speaker Coach は、プレゼンテーション中にユーザーの音声に耳を傾け、改善のためのプライベートなリアルタイムのフィードバックと提案を提供します。 また、ユーザーは、会議の後にフィードバックの概要レポートを取得します。
+この設定を使用すると、ユーザーは Teams 会議中にスピーチ コーチを有効にすることができます。 スピーチ コーチは、プレゼンテーション中にユーザーの音声に耳を傾け、改善のためのプライベートなリアルタイムのフィードバックと提案を提供します。 また、ユーザーは、会議の後にフィードバックの要約レポートを取得します。
 
 > [!NOTE]
-> 会議中に Speaker Coach を有効にしたユーザーは、フィードバックの概要レポートを表示できる唯一のユーザーです。 管理者は、このデータにアクセスできません。
+> 会議中にスピーチ コーチを有効にしたユーザーだけが、フィードバックの要約レポートを表示できます。 管理者は、このデータに全くアクセスできません。
 
-現時点では、PowerShell でのみこのポリシーを設定および編集できます。 [Set-CsTeamsMeetingPolicy コマンドレットを](/powershell/module/skype/set-csteamsmeetingpolicy)使用します。 または、[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) コマンドレットを使用して、新しい Teams の会議ポリシーを作成し、ユーザーに割り当てます。
+現時点では、PowerShell でのみこのポリシーを設定および編集できます。 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) コマンドレットを使用します。 または、[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) コマンドレットを使用して、新しい Teams の会議ポリシーを作成し、ユーザーに割り当てます。
 
-この設定は既定で有効になっています。 オフにするには、 **AllowMeetingCoach** を False に設定 **します**。
+この設定は既定で有効になっています。 オフにするには、**AllowMeetingCoach** を **False** に設定します。
 
 ## <a name="related-topics"></a>関連項目
 

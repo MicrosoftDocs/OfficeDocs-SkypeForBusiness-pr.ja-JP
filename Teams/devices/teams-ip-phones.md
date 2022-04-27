@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 最適な結果を生み出すためにMicrosoft Teamsが認定されているデスクと会議の電話について説明します。
-ms.openlocfilehash: 29cc086cd88ccf801eb1b19e56833f36e6ef86b6
-ms.sourcegitcommit: 06d1c50c9b55b062d61844a856676d9837fd5abe
+ms.openlocfilehash: de2dca728ede7c54480763a439296cde225d1447
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65030893"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059228"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams認定された Android デバイス
 
@@ -314,6 +314,7 @@ Android アプリとファームウェアのバージョンに関する最新の
 
 |製品リリース| リリース日 | Microsoft Teams アプリのバージョン | ポータル サイト バージョン | 管理エージェントのバージョン |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|2022 更新プログラム #2  | 2022 年 4 月 25 日 | `1449/1.0.97.2022733702` | `5.0.5304.0`  | `322` |
 |2022 Update #1A | 2022 年 2 月 25 日 | `1449/1.0.97.2022730007` | `5.0.5304.0`  | `322` |
 |2022 Update #1  | 2022 年 2 月 22 日 |`1449/1.0.97.2021726501` | `5.0.5304.0 `  | `322` |
 |2021 Update #1  | 2021 年 8 月 12 日 |`1449/1.0.97.2021070601`   | `5.0.5211.0`   |  `268`|

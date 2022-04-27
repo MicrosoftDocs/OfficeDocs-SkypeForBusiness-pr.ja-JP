@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Microsoft Teamsで認定されている USB 周辺機器とデバイス (ヘッドセット、スピーカーフォン、Web カメラ、モニターなど) を確認します。
-ms.openlocfilehash: e9196c52d74d8cdc7b0f511a3310e93228fe1bae
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: ee6f3c2634b44c4c510deb2c7a50818f6bc5ef7c
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817659"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059218"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teamsの認定を受けた USB オーディオおよびビデオ デバイス
 
@@ -75,6 +75,9 @@ Skype for BusinessからTeamsにアップグレードするときに、以前に
 ## <a name="certified-devices"></a>認定済みデバイス
 
 *2022 年 4 月に更新されたテーブル*
+
+> [!NOTE]
+> 日付形式は MMDDYYYY です。
 
 | [製造元]        | モデル                                                     | 修飾      | 認定プログラム                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|

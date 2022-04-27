@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6afd8cbf6a62665dbdb4c472df9620d623011452
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: 95f3b03ddad75cd36bb6dbbfd51eac08d7742aac
+ms.sourcegitcommit: 20d44ce9a62ba2fb60f989d2e7bbc9333055e783
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817708"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "65063258"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>インテリジェント スピーカーの音声認識テクノロジ コントロールを管理する
 
@@ -44,7 +44,7 @@ ms.locfileid: "64817708"
 エポ、Sennheiser、Yealink のインテリジェントスピーカーがサポートされています。
 
 > [!NOTE]
-> インテリジェント スピーカーは、まだサポートされていないインドを除くすべての国と地域で利用できます。 生体認証登録と会議中の文字起こしで現在サポートされているロケールの一覧については、「 [サポートされている](#supported-locales) ロケール」を参照してください。
+> インテリジェント スピーカーは、すべての国と地域で利用できます。 生体認証登録と会議中の文字起こしで現在サポートされているロケールの一覧については、「 [サポートされている](#supported-locales) ロケール」を参照してください。
 
 ## <a name="set-up-an-intelligent-speaker"></a>インテリジェント スピーカーを設定する
 
@@ -160,6 +160,6 @@ IT 管理者はいつでもオーディオ データをエクスポートでき�
 |スペイン語  <br/> |メキシコ  <br/> |es-MX  <br/> |
 |スペイン語  <br/> |スペイン  <br/> |es-ES  <br/> |
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [サポート記事: インテリジェント スピーカーを使用して室内参加者を特定する ](https://support.microsoft.com/office/use-teams-intelligent-speakers-to-identify-in-room-participants-in-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00)

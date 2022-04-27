@@ -12,12 +12,12 @@ ms.collection:
 description: Microsoft Teamsの管理に使用されるTeams PowerShell モジュールでサポートされているバージョンについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac948022050babeff0c5ea3c0dbde853e0fabc54
-ms.sourcegitcommit: 8cda22925ccddb612f91351a7593b521eee10f0e
+ms.openlocfilehash: c97e3c840452a20be60d6f27e2bf4c3375322be1
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65019329"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059418"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Teams PowerShell モジュール - サポートされているバージョン
 
@@ -60,7 +60,9 @@ ms.locfileid: "65019329"
 - 関連する変更
   * TPM 3.x.x 以降でのGet-CsOnlineUser & Get-CsOnlineVoiceUserの更新 – [Get-CsOnlineUserGet-CsOnlineVoiceUser](/powershell/module/skype/get-csonlineuser) &  (メッセージ センターポスト – MC340774) の詳細。[](/powershell/module/skype/get-csonlinevoiceuser)
 
-  * 電話番号の割り当てに関する変更 - [Set-CsUser](/powershell/module/skype/set-csuser)、[Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser)、[Set-CsOnlineApplicationInstanceSet-CsOnlineVoiceApplicationInstance](/powershell/module/skype/set-csonlineapplicationinstance) &  (メッセージ センターポスト – MC316139) の詳細[](/powershell/module/skype/set-csonlinevoiceapplicationinstance)
+  * 電話番号の割り当てに関する変更 - [Set-CsUser](/powershell/module/skype/set-csuser)、[Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser)、[Set-CsOnlineApplicationInstanceSet-CsOnlineVoiceApplicationInstance](/powershell/module/skype/set-csonlineapplicationinstance) &  (メッセージ センターポスト – MC316139) の詳細。[](/powershell/module/skype/set-csonlinevoiceapplicationinstance)
+  
+  * Get-CsTenantのパラメーターの変更 - [Get-CsTenant](/powershell/module/skype/get-cstenant) の詳細。  
 
 -   TPM 4.x.x 以降を使用している間は、 [以下](#deprecated-cmdlets)で説明する非推奨またはサポートされていないコマンドレットは使用しないことをお勧めします。 
 

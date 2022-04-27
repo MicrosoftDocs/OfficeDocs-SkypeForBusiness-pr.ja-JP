@@ -6,61 +6,59 @@ manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: null
-description: この記事では、Kaizalaの豊富な機能を高く賛同する方法について説明Microsoft Teams。
-f1.keywords: null
+ms.reviewer: ''
+description: この記事では、KaizalaがMicrosoft Teamsの豊富な機能と機能を補完する方法について説明します。
+f1.keywords: ''
 ms.localizationpriority: medium
-search.appverid: null
-ms.collection: null
-ms.custom: null
+search.appverid: ''
+ms.collection: ''
+ms.custom: ''
+ms.openlocfilehash: a0760e95f1b91cc12320142fd666c5e837da623d
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059318"
 ---
-
 # <a name="kaizala-and-microsoft-teams"></a>KaizalaとMicrosoft Teams 
 
-2019 年 4 月に、2019 年 4 月に、Kaizala **を組み合Microsoft Teams**。[](https://techcommunity.microsoft.com/t5/microsoft-kaizala-blog/update-on-kaizala-features-coming-to-microsoft-teams/ba-p/974525) この機能は、Kaizalaチームワークのハブである Teams の堅牢なコミュニケーションとコラボレーション機能を補完Microsoft 365。
+2019 年 4 月に、KaizalaとMicrosoft Teamsを組み合わせる計画を[発表しました](https://techcommunity.microsoft.com/t5/microsoft-kaizala-blog/update-on-kaizala-features-coming-to-microsoft-teams/ba-p/974525)。 Kaizalaの機能は、Microsoft 365のチームワークのハブであるTeamsの堅牢なコミュニケーションとコラボレーション機能を補完します。
 
-新しい方法でビジネスを行う新しい方法のドアを開Microsoft Teams。 Teams、Kaizalaの機能を拡張します。チャット、会議、通話、コラボレーション、アプリ統合、ファイル ストレージを 1 つのインターフェイスにまとめます。 Teamsは、顧客が投資からより多くの価値を認識し、最前線の従業員の毎日のエクスペリエンスを向上させるのに役立ちます。
+Microsoft Teamsでビジネスを行うまったく新しい方法への扉を開きます。 Teamsは、チャット、会議、通話、コラボレーション、アプリ統合、ファイル ストレージを 1 つのインターフェイスにまとめ、Kaizalaの機能を拡張します。 Teamsは、お客様が投資からより多くの価値を実現し、現場のワーカーの日常のエクスペリエンスを向上させるために役立ちます。
 
-Teamsは、組織がさまざまなアプリの配列から、チャット、会議、通話など、チームが必要とする情報を集めた単一の安全なハブに移行し、すべて Office 365 アプリにネイティブ統合することで、職場の共同作業を改善します。 現在、500,000 を超える組織が、Teams、タイム ゾーン、言語をまたがって共同作業を行っています。
+Teamsは、組織がさまざまなアプリから、チャット、会議、通話など、チームが必要とするものをすべてネイティブ統合して、Office 365 アプリに統合する単一のセキュリティで保護されたハブに移行できるようにすることで、職場のコラボレーションを向上させます。 現在、世界中の組織はTeamsを使用して、場所、タイム ゾーン、言語をまたいで共同作業を行っています。
 
-Microsoft Teams内の従業員と拡張ネットワーク内のユーザーの両方の Microsoft 365 の主要な通信クライアントとして、Kaizala サービスを置き換える必要があります。
+Microsoft Teamsは、内部従業員と拡張ネットワーク内のユーザーの両方のMicrosoft 365の主要な通信クライアントとしてKaizalaを置き換える予定です。
 
-**Kaizala Pro 機能の最初のセットが Teams で使用できる現在、投票、アンケート、チェックリスト、テスト、トレーニングなど、Teams アプリ テンプレートとして使用できる [](/microsoftteams/platform/samples/app-templates)Kaizala アクション [が含まれています](/microsoftteams/platform/samples/app-templates#training--)。[](/microsoftteams/platform/samples/app-templates#poll)[](/microsoftteams/platform/samples/app-templates#survey)[](/microsoftteams/platform/samples/app-templates#checklist)[](/microsoftteams/platform/samples/app-templates#quiz--)**
+Kaizala Pro機能はTeamsで使用できるようになり、[投票](/microsoftteams/platform/samples/app-templates#poll)、[アンケート](/microsoftteams/platform/samples/app-templates#survey)、[チェックリスト](/microsoftteams/platform/samples/app-templates#checklist)、[クイズ](/microsoftteams/platform/samples/app-templates#quiz--)、[トレーニング](/microsoftteams/platform/samples/app-templates#training--)など、Teams[アプリ テンプレート](/microsoftteams/platform/samples/app-templates)として使用できるKaizalaアクションが含まれています。 最近、すべてのTeams ユーザーが自分の電話番号を使用して外部ユーザーと対話する機能をリリースしました。 詳細については、 [ブログ](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832) と [記事](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57) をご覧ください。
 
-デジタル 通信およびコラボレーション ツールを使用して組織のネットワークのすべてのメンバーを有効にすると、作業の方法が変わる可能性があります。 この概要は、現在の状態からKaizala移行Microsoft Teams役立ちます。
+デジタルコミュニケーションとコラボレーション ツールを使用して組織のネットワークのすべてのメンバーを有効にすると、作業のやり方を変えることができます。 この概要は、Kaizalaから今日のMicrosoft Teamsへの移行を開始するのに役立ちます。
 
->[!NOTE]
-> 2020 年のリモート作業への突然のシフトに照らして、Microsoft Teams の使用量の急激な増加に対応し、この前例のない困難な時期に継続性を維持する顧客をサポートするためにリソースをピボットしました。 その結果、チームに追加の機能を提供Kaizala取り組むのが[遅れている。](https://techcommunity.microsoft.com/t5/microsoft-kaizala-blog/update-on-kaizala-features-in-microsoft-teams/ba-p/1497289) 調整を行う間、今後数か月以内にタイミングの更新を提供する予定です。
-
-この記事では、他のユーザーに関してよく寄せられる質問KaizalaとTeams。
+KaizalaとTeamsに関してよく寄せられる質問を読み続けます。
 
 ## <a name="faq"></a>よくあるご質問 (FAQ)
 
-## <a name="when-should-my-organization-move-from-kaizala-to-teams"></a>組織を移行する必要Kaizala移行Teams。
+## <a name="when-should-my-organization-move-from-kaizala-to-teams"></a>組織はいつKaizalaからTeamsに移行する必要がありますか?
 
-すべてのお客様Microsoft 365とOffice 365、Teams が提供する豊富な機能を活用[](https://www.microsoft.com/microsoft-teams/group-chat-software?ms.officeurl=teams&rtc=1&OCID=AID2388518_SEM_Ks5ySdZ9)するために、Teams の使用をTeamsしています。 これらの機能には、46 の言語と 181 の市場でのモバイル ユーザー向けシンプルで強力なエクスペリエンスが含まれます。 シフト管理、ゲスト アクセス、カスタム ワークフローやアプリのサポートなどの機能をフロント ラインのスタッフに提供し、Microsoft Flow PowerApps を使用できます。 Kaizala Teams でまだ使用できない特定の機能については、今後、更新された統合タイムラインを投稿する予定です。
+Teamsが提供する豊富な機能を利用するために、すべてのMicrosoft 365と[Office 365](https://www.microsoft.com/microsoft-teams/group-chat-software?ms.officeurl=teams&rtc=1&OCID=AID2388518_SEM_Ks5ySdZ9)のお客様に、今日のTeamsの使用を開始することをお勧めします。 これらの機能には、46 言語と 181 市場のモバイル ユーザー向けのシンプルで強力なエクスペリエンスが含まれます。 シフト管理、ゲスト アクセス、Microsoft Flowと PowerApps を使用したカスタム ワークフローやアプリのサポートなどの機能を使用して、現場のワーカー スタッフを強化します。 Teamsではまだ使用できない特定のKaizala機能については、今後、更新されたタイムラインを投稿する予定です。
 
-## <a name="how-can-i-continue-to-use-kaizala-pro-if-i-had-purchased-the-standalone-offering"></a>スタンドアロン 製品を購入した場合Kaizala Proを引き続き使用できますか?
+## <a name="how-can-i-continue-to-use-kaizala-pro-if-i-had-purchased-the-standalone-offering"></a>スタンドアロン オファリングを購入した場合、Kaizala Proを引き続き使用するにはどうすればよいですか?
 
-Microsoft は、2020 年 7 月 1 日のKaizala Pro終了しました。 Kaizala Teamsプランの一部として引き続きMicrosoft 365[アクセスOffice 365されます](/Office365/Kaizala/migrate-kaizala-pro)。
+2020 年 7 月 1 日の時点で、Microsoft はKaizala Proスタンドアロン サービスの販売を終了しました。 KaizalaとTeamsは、[Microsoft 365とOffice 365計画の一部](/Office365/Kaizala/migrate-kaizala-pro)として引き続きアクセスできます。
 
-## <a name="how-can-i-get-started-with-teams"></a>Teams の使用を開始Teams。
+## <a name="how-can-i-get-started-with-teams"></a>Teamsの使用を開始するにはどうすればよいですか?
 
-アプリ [Teams](https://www.microsoft.com/microsoft-teams/group-chat-software)からダウンロードし、ヘルプ センターのトレーニングとリソースにアクセス[して](https://support.microsoft.com/teams?ui=en-us&rs=en-us&ad=us)開始します。 また、Teams [Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams/ct-p/MicrosoftTeams) に参加して、フィードバックを送信し、機能要求に投票し、すばらしいコミュニティに参加することができます。
+アプリ ストアから[Teams](https://www.microsoft.com/microsoft-teams/group-chat-software)をダウンロードし、[ヘルプ センター](https://support.microsoft.com/teams?ui=en-us&rs=en-us&ad=us)のトレーニングとリソースにアクセスして作業を開始します。 また、[Teams Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams/ct-p/MicrosoftTeams)に参加して、フィードバックを提供したり、機能要求に投票したり、すばらしいコミュニティに参加したりすることもできます。
 
-## <a name="what-can-i-do-to-prepare-for-the-integration-of-kaizala-capabilities-in-teams"></a>Kaizala 機能の統合に備Teams?
+## <a name="what-can-i-do-to-prepare-for-the-transition-of-kaizala-to-teams"></a>KaizalaをTeamsに移行する準備をするには、どうすればよいですか?
 
-組織全体のTeamsを強化できるソリューションに、今すぐ使用を開始します。 Teams単なるアップグレードではないKaizala、ビジネスの全く新しい方法への扉を開く強力なツールです。 Teamsは、中小企業向けおよび中規模企業向けに設計された Teams Essentials (SMB) の導入と、Teams で個人使用する電話番号のみを使用して外部ユーザーと共同作業する機能により、さまざまなフロントライン ワーカー ユーザー シナリオに固有の位置付けです。
+組織全体のコミュニケーションを強化できるソリューションにTeamsを今すぐ使用します。 Teamsは単なるKaizalaのアップグレードではなく、まったく新しいビジネス方法への扉を開く強力なツールです。 Teamsは、[中小企業向けに設計されたTeams Essentials (SMB)](https://www.microsoft.com/microsoft-365/blog/2021/12/01/new-microsoft-teams-essentials-is-built-for-small-businesses/) の導入と、[個人で使用するTeamsで電話番号または完全な電子メール アドレスを入力して外部ユーザーと共同作業する機能](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832)により、さまざまな現場のワーカー ユーザー シナリオに対して一意に配置されています。
 
-## <a name="will-i-have-the-ability-to-sign-in-and-add-users-with-a-phone-number-on-teams"></a>サインインして、電話番号を持つユーザーを追加する機能はTeams。
+## <a name="will-i-be-able-to-use-teams-to-collaborate-with-customers-and-partners-outside-my-organization-using-a-phone-number"></a>Teamsを使用して、電話番号を使用して組織外の顧客やパートナーと共同作業できますか?
 
-ユーザーは、個人アカウントのTeamsを使用して、電話番号でTeamsサインインできます。
-
-このMicrosoft Teams Connect、ユーザーは電話番号を持つ外部ユーザーを追加できます。 ユーザーは、個人使用の相互運用性のためにTeamsを活用して、Teamsユーザーと共同作業できます。
-
-また、Teamsの外部ユーザーコラボレーションは、個人または公式の電子メールを使用してゲスト アクセスを使用して行う場合にも使用できます。
+はい、Teams Connectを使用すると、連絡する完全なメール アドレスまたは電話番号を入力して、任意のTeams ユーザーをチャットに招待し、Microsoft 個人アカウントを持つすべてのユーザーと 1 対 1 またはグループ チャットを開始できます。 テナントの切り替えは必要ありません。 セキュリティを確保するために、IT 管理者と Microsoft 個人アカウントTeamsユーザーにさまざまなコントロールとツールが提供されます。 [サポート ページ](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57)を表示します。 詳細については、 [ブログ](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832)を参照してください。
 
 ## <a name="next-steps"></a>次のステップ
 <a name="ControlSyncThroughput"> </a>
 
-[体験へのKaizalaグラフTeamsする](/MicrosoftTeams/prepare-for-teams-kaizala)
+[KaizalaをTeams体験にグラフ化する](/MicrosoftTeams/prepare-for-teams-kaizala)

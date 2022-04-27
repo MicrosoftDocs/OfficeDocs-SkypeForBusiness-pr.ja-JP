@@ -17,12 +17,12 @@ description: Microsoft Teams 管理センターの [アプリの管理] ペー�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: a6e6adbfbed5e1b371655ca74aa6ca6c717490c9
-ms.sourcegitcommit: 06d1c50c9b55b062d61844a856676d9837fd5abe
+ms.openlocfilehash: 2a4062bbf71c3ad112a52a10ad9c1b3ff71f3dad
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65030943"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059078"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams管理センターでTeams アプリを管理する
 
@@ -30,9 +30,9 @@ ms.locfileid: "65030943"
 
 ![[アプリの管理] ページのスクリーンショット。](media/manage-apps.png)
 
-アプリを管理するには、次のポリシーを使用して、ユーザーのアクセス許可、アプリのインストール、組織内に作成されたカスタム アプリのアップロードを制御します。 ポリシーについては、「 [アプリ ポリシーの概要](app-policies.md)」を参照してください。
+管理センター Teams使用するには、グローバル管理者またはサービス管理者Teams必要があります。詳細については、「[Teams管理者ロール](./using-admin-roles.md)」を参照してください。
 
-管理者ロールとアクセス許可の取得については、[管理者ロールTeams](./using-admin-roles.md)参照してください。
+アプリを管理するには、ポリシーを使用して、ユーザーのアクセス許可、アプリのインストール、組織内に作成されたカスタム アプリのアップロードを制御します。 ポリシーについては、「 [アプリ ポリシーの概要](app-policies.md)」を参照してください。
 
 > [!NOTE]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]

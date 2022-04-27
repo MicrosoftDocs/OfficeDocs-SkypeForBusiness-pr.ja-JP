@@ -18,12 +18,12 @@ description: Microsoft Teams のパブリック プレビューについて説�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 3c07244e49d0c61986ae6eb2c9c9d8e1f522e37b
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: e3fdf0901d150df63fded6dc49822ad81f81f7d5
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62417330"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059188"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams パブリック プレビュー
 
@@ -46,20 +46,22 @@ Teams パブリック プレビューで利用可能な機能の一覧につい�
 
 2. 更新ポリシーに名前を付け、説明を追加し **[プレビュー機能の表示]** の設定を選択します。
 
-   -   **Office Preview をフォローする** (既定): この新しい既定のオプションでは、Office 最新チャネル (プレビュー) に登録されているすべてのユーザーに対して、Teams パブリック プレビュー機能を自動的に有効にします。エンドユーザーが行うべき操作はこれ以上ありません。
-   -   **有効**: このオプションは、ユーザーが Office 最新機能提供チャネル (プレビュー) に登録しているかどうかに関わらず、Teams パブリック プレビューを有効にします。 エンド ユーザーは、Teams アプリで Teams パブリック プレビューに参加することも必要です。
+   -   **Office Preview をフォローする** (既定)
+       - この新しい既定のオプションでは、Office 最新チャネル (プレビュー) に登録されているすべてのユーザーに対して、Teams パブリック プレビュー機能を自動的に有効にします。 
+       - エンド ユーザーが必要とするアクションはもうありません。
+   -   **有効**
+       - このオプションは、ユーザーが Office 最新機能提供チャネル (プレビュー) に登録しているかどうかに関わらず、Teams パブリック プレビューを有効にします。 
+       - エンド ユーザーは、Teams アプリで Teams パブリック プレビューに参加することも必要です。
 
    > [!NOTE]  
    > Teams パブリック プレビューに存在する既存のユーザーで、**最新機能提供チャネル (プレビュー)** に存在しない場合、IT 管理者は、既定の **[Office Preview をフォローする]** から **[有効]** に切り替える必要があります。
  
-   - **無効**: エンド ユーザーは Teams パブリック プレビュー機能を使用できません。
+   - **無効** 
+     - エンド ユーザーは Teams パブリック プレビュー機能を使用できません。
 
     ![プレビュー設定ダイアログが表示されます。](media/public-preview-policy.png)  
 
 また、`-AllowPublicPreview` パラメーターを含む PowerShell `Set-CsTeamsUpdateManagementPolicy` コマンドレットを使用してポリシーを設定することもできます。
-
-> [!NOTE]   
-> AllowPreview パラメーターは間もなく使用されなくなります。
 
 ## <a name="enable-public-preview"></a>パブリック プレビューを有効にする
 
@@ -74,7 +76,7 @@ Teams パブリック プレビューで利用可能な機能の一覧につい�
 
 ## <a name="teams-now-follows-office-preview-users"></a>Office Preview ユーザーを Teams がフォロー
 
-新しいグローバル ポリシーの既定である **[Office Preview をフォローする]** は、Windows の Office 365 クライアントの最新機能提供チャネル (プレビュー) にユーザーが存在する場合、ユーザーは自動的に Teams のパブリック プレビュー チャネル参加するることができます。
+新しいグローバル ポリシーの既定である **[Office Preview をフォローする]** は、Windows および Mac の Office 365 クライアントの最新機能提供チャネル (プレビュー) にユーザーが存在する場合、ユーザーは自動的に Teams のパブリック プレビュー チャネル参加するることができます。
 
 Microsoft Office は引き続き最新機能提供チャネル (プレビュー) から、Teams クライアントはパブリック プレビュー チャネルから更新プログラムを受け取ります。 このポリシーは、Teams チャネルに基づいて Office チャネルを切り替えるものではありません。 
 
@@ -85,10 +87,6 @@ Teams パブリック プレビューへのオプトインまたはオプトア�
 **この設定をオプトアウトするにはどうすればいいですか?**
 
 Teams 管理センターで、**[Office Preview をフォローする]** から **[無効]** にして、設定を無効にすることができます ([更新ポリシーの設定](#set-the-update-policy)を参照してください)
-
-## <a name="known-issues"></a>既知の問題
-
-Office 最新機能提供チャネル (プレビュー) ユーザーは、更新ポリシーが **[Office Preview をフォローする]** に設定されている場合、Teams クライアントの [その他] メニューを通して Teams パブリック プレビューを終了することができます。 この機能は意図されたものではなく、将来的に削除される予定です。 Teams クライアントは、Office の最新機能提供チャネル (プレビュー) にユーザーが存在する場合、次回デバイスがアイドル状態になると、自動的にパブリック プレビューに戻る場合があります。
 
 ## <a name="related-topics"></a>関連項目
 

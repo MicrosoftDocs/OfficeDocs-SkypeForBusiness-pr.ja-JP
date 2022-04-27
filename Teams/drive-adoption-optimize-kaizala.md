@@ -1,5 +1,5 @@
 ---
-title: フロントライン ワーカーのKaizalaからMicrosoft Teamsへの導入を推進する
+title: 現場のワーカーの導入をKaizalaからMicrosoft Teamsに推進する
 author: Benny-54
 ms.author: v-bshilpa
 manager: serdars
@@ -7,31 +7,37 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: ''
-description: この記事では、フロントライン ワーカー向け Microsoft Teams導入を推進し、最適化する方法について説明します。
+description: この記事では、現場のワーカーのMicrosoft Teamsでの導入を推進し、最適化する方法について説明します。
 f1.keywords: ''
 ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: edc590b20678595fc7462901b6cae2c5a4d8f2cb
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: ed0221576b42c01de7a8c3d93188a94af2f74317
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62398674"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059288"
 ---
-# <a name="microsoft-teams-for-frontline"></a>Microsoft Teamsの詳細
+# <a name="microsoft-teams-for-frontline"></a>Frontline のMicrosoft Teams
 
-Microsoft は、Covid-19 の経済的および社会的な影響に対処するために、可能なことを行う取り組みです。 これらの困難な時代に必要なテクノロジ リソースと専門知識に、フロントラインワーカーが確実にアクセスできる必要があります。
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWPCnz]
 
-業界をまたがって、MICROSOFT のお[](https://customers.microsoft.com/story/837930-alcoa-manufacturing-teams)客様は、フロント ラインの従業員を支援するために[、TEAMS](https://customers.microsoft.com/story/799203-ikea-retailers-teams)を使用しています。
+Microsoft は、Covid-19 の経済的および社会的影響に対処するために、できることに取り組んでいます。 現場の従業員が、このような困難な時期に必要なテクノロジ リソースと専門知識に確実にアクセスできるようにしたいと考えています。
 
-シフト [スケジュールをシームレス](/microsoftteams/expand-teams-across-your-org/shifts-for-teams-landing-page)に管理するには、[](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4M6Xi)従業員を結び[](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4M4Uq)付け、タスク管理プロセスを簡素化し、コミュニティをアクティブ化し、Teamsと連携し、チームワーク[を保護します](/microsoftteams/teams-security-guide)。
+業界をまたいで、[MICROSOFT のお](https://customers.microsoft.com/story/799203-ikea-retailers-teams)客様 (例:[IKEA や Alcoa](https://customers.microsoft.com/story/837930-alcoa-manufacturing-teams)) は、現場の従業員を強化するためにTeamsを使用しています。
 
-1 対 1 の会話、グループ チャット、ビデオ通話に従業員の関与を結び付け、従業員のエンゲージメントを向上できます。 また、[Walkie Talkie を通](/MicrosoftTeams/walkie-talkie)じて、プッシュ対トーク アプリがネイティブに組み込Teams。
+[シフト スケジュールをシームレスに管理](/microsoftteams/expand-teams-across-your-org/shifts-for-teams-landing-page)するには、[従業員を接続し](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4M6Xi)、[タスク管理プロセスを簡素化](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4M4Uq)し、コミュニティをアクティブ化してTeamsに参加し、[チームワークを保護します](/microsoftteams/teams-security-guide)。
 
-対話型 IT 管理者クイック スタート ガイドを使用して、最前線の従業員に効果的 [なパイロットを設定します](https://config-flw-interactive-guide.immersivelearning.online/)。
+1 対 1 の会話、グループ チャット、ビデオ通話で従業員のエンゲージメントを高めることができます。 また、[Walkie Talkie](/MicrosoftTeams/walkie-talkie) を通じて、Teamsにネイティブに組み込まれたプッシュ対トーク アプリです。
 
-魅力的で教育的なビデオでMicrosoft Teamsのフロントライン トレーニングを実施[します](https://support.microsoft.com/office/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821)。
+対話型 [の IT 管理者クイック スタート ガイド](https://config-flw-interactive-guide.immersivelearning.online/)を使用して、現場の従業員に効果的なパイロットを設定します。
 
-Teams のフロントライン ワーカーに関するその他の管理者向けガイダンスについては、「[frontline worker - クイック Microsoft Teams ガイド」を参照してください](/Microsoftteams/flw-quickstart)。
+魅力的で教育的な[ビデオ](https://support.microsoft.com/office/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821)を使用して、Microsoft Teamsの現場トレーニングを実施します。
+
+Teamsのフロントライン ワーカーに関するその他の管理者向けガイダンスについては、[Microsoft Teams Frontline Worker - クイック スタート ガイドを](/Microsoftteams/flw-quickstart)参照してください。
+
+[製品と価格のページ](https://www.microsoft.com/microsoft-365/enterprise/frontline)を参照して、Microsoft 365を使用して現場の影響を最適化する方法の詳細について説明します。
+
+[フロントライン導入ハブのページ](https://adoption.microsoft.com/microsoft-teams/frontline-workers/)を参照して、Microsoft Teamsを使用してフロントライン ワーカーを有効にする方法の詳細について説明します。

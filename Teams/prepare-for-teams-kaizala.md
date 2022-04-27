@@ -1,101 +1,106 @@
 ---
-title: 新しい体験KaizalaグラフTeamsする
+title: KaizalaをTeams体験にグラフ化する
 author: Benny-54
 ms.author: v-bshilpa
 manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: null
-description: この記事では、移行を準備する方法について説明Kaizala Microsoft Teams。
-f1.keywords: null
+ms.reviewer: ''
+description: この記事では、KaizalaからMicrosoft Teamsへの移行に備える方法について説明します。
+f1.keywords: ''
 ms.localizationpriority: medium
-search.appverid: null
-ms.collection: null
-ms.custom: null
+search.appverid: ''
+ms.collection: ''
+ms.custom: ''
+ms.openlocfilehash: 246e6e66c27e2779a808c1ff81ae4f40088b9c58
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059351"
 ---
+# <a name="charting-your-kaizala-to-teams-journey"></a>KaizalaをTeams体験にグラフ化する
 
-# <a name="charting-your-kaizala-to-teams-journey"></a>新しい体験KaizalaグラフTeamsする
+KaizalaからMicrosoft Teamsに移行することにしました。
 
-移行する方法は、KaizalaからMicrosoft Teams。
+作業を開始する前に、次の 2 つの質問に答えることは重要です。
 
-開始する前に、次の 2 つの質問に答える必要があります。
+- Teamsに移行するユーザー グループは何ですか?  
 
-- どのユーザー グループをグループに移行Teams?  
-
-- 使用するパスは何Teams。
+- Teamsへのパスは何ですか?
 
 ## <a name="identify-user-groups"></a>ユーザー グループを識別する
 
-*組織内に存在するグループWhoを使用するTeams方法これらのグループは効果的なチームワークにどのようなニーズを必要としますか。* 移行の開始Teams移行の **ユーザー グループを特定します。**  ユーザー グループは、同じような業務領域で作業を行う従業員のセットです。 
+*組織内に存在するグループは何ですか?Who Teamsとその使用方法を使用しますか?これらのグループは、効果的なチームワークのためにどのようなニーズを必要としますか?* Teamsへの移行を開始するには、まず **、移行のユーザー グループを特定します。**  ユーザー グループは、従業員内の一連の従業員であり、ビジネスの同様の領域で作業を行います。 
 
-コラボレーションのニーズの特定をサポートするために、3 つの一般的なユーザー グループが特定されました。 すべてのユーザー グループには、通信に関して独自のニーズがあります。 
+コラボレーションニーズの特定をサポートする 3 つの一般的なユーザー グループを特定しました。 すべてのユーザー グループには、通信に関して独自の固有のニーズがあります。 
 
-![移行用のユーザー グループのグラフ](media/kaizala-user-groups.png)
+![切り替え用のユーザー グループのグラフ](media/kaizala-user-groups.png)
 
- 1. **情報ワーカーは、** 作業の過程で情報を作成、使用、変換、使用、または管理する従業員です。
+ 1. **インフォメーション ワーカー** は、作業の過程で情報を作成、使用、変換、使用、または管理する従業員です。
 
- 2. **フロントライン** ワーカーは、主に顧客または一般向け提供サービス、サポート、および製品の販売に直接取り組むか、製品/サービスの製造に直接関与する主な機能を持つ、デスクレスのワーカーです。
+ 2. **フロントラインワーカー** は、主にデスクレスのワーカーであり、その主な機能は、顧客または一般向けのサービスの提供、サポート、販売、または製品/サービスの製造に直接関与することです。
 
- 3. **外部ユーザー** とは、仕入先、ベンダー、ビジネス パートナー、クライアント、顧客など、組織外のユーザーです。
+ 3. **外部ユーザー** は、サプライヤー、ベンダー、ビジネス パートナー、クライアント、顧客など、組織外のユーザーです。
 
-従業員の他の情報ワーカーと接続するユーザーには、次の条件が必要です。
+従業員の他のインフォメーション ワーカーと接続するユーザーは、次の必要があります。
 
-- チャット、会議、ファイルの共同作業
+- チャット、会議、ファイルコラボレーション
 
-- 複数のデバイスで作業する
+- デバイス間で作業する
 
-- 業界のソリューション
+- 業界向けソリューション
 
 - 高度な IT コントロール
   
-- メールを使用した内部および外部の共同作業
+- メールを使用した内部および外部のコラボレーション
 
-Frontline 従業員と接続するユーザーには、次の条件が必要です。
+フロントラインの従業員と接続するユーザーには、次のものが必要です。
 
-- 組織内のディレクトリ内の Frontline Worker との接続
+- 組織のディレクトリ内の Frontline Workers との接続
 
 - オフライン、リモートの場所
 
-- 従業員の関与とアウトリーチ
+- 従業員のエンゲージメントとアウトリーチ
 
-- デジタル化されたプロセスとワークフロー
+- デジタイズされたプロセスとワークフロー
 
-- スケジュール設定とタスク管理をシフトする
+- スケジュールとタスクの管理をシフトする
 
-外部ユーザー (サプライヤー/ベンダー) と接続しているユーザーは、次のコマンドを使用できます。
+外部ユーザー (サプライヤー/ベンダー) と接続しているユーザーは、次を使用できます。
 
-- [ゲスト アクセスコラボレーション](/MicrosoftTeams/guest-joins)
+- [Microsoft Teams ユーザーは、組織外の任意のTeams ユーザーとチャットできます](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832)
 
-- [フェデレーション](/microsoftteams/manage-external-access)
+- [Teams組織外のユーザーをチャットに追加または招待する](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57)
 
 ## <a name="determine-your-path"></a>パスを決定する
 
-ユーザー グループのコラボレーションのニーズを確認した後、ユーザー グループからグループへのパスKaizala Teams確認できます。 すべての組織は一意であり、従業員の体験はまったく同じではありません。 現在、移行プロセスをTeams移行体験を成功するには、追加の戦略的決定を行う必要があります。 パスを決定すると、移行を成功するために完了する必要がある重要なアクションを特定するのに役立ちます。
+ユーザー グループのコラボレーションニーズを確認したら、KaizalaからTeamsへのパスがどのようなものかを判断できます。 すべての組織は一意であり、従業員の体験はまったく同じではありません。 現在Teamsを使用していない組織は、移行の成功を確実にするために、追加の戦略的決定を行う必要があります。 パスを決定すると、正常に移行するために完了する必要がある重要なアクションを特定するのに役立ちます。
 
-現在の組織の使用状況に応じて、パスの構成内容を説明しました。  
+現在の組織の使用状況に応じて、パスが何で構成されているかについて説明しました。  
 
-アプリケーションを **使用していない組織Teams**。
+**Teamsを使用していない** 組織の場合:
 
-![現在使用していない組織のパスTeams](media/kaizala-not-using-teams.png)
+![現在Teamsを使用していない組織のパス](media/kaizala-not-using-teams.png)
 
- 1. 組織のチームワークを思い描く
+ 1. 組織のチームワークを想定する
 
- 2. パイロットTeams
+ 2. パイロット Teams
   
- 3. デプロイTeams
+ 3. Teamsのデプロイ
   
- 4. [Kaizala と Teams
+ 4. KaizalaとTeamsを使用する
   
  5. 変更を管理する
 
- 6. アプリケーションの導入を計画Teams
+ 6. Teamsの導入を計画する
 
- 7. 組織を新しい組織にTeams
+ 7. 組織をTeamsに移動する
 
-既にアプリケーション **を使用している組織Teams**。
+**Teamsを既に使用している** 組織の場合:
 
-![現在使用している組織のパスTeams](media/kaizala-using-teams.png)
+![現在Teamsを使用している組織のパス](media/kaizala-using-teams.png)
 
  1. 移行を計画する
 
@@ -105,4 +110,4 @@ Frontline 従業員と接続するユーザーには、次の条件が必要で�
 
 <a name="ControlSyncThroughput"> </a>
 
-[移行の成功を計画Microsoft Teams](/MicrosoftTeams/plan-your-move-kaizala)
+[Microsoft Teamsへの正常な移行を計画する](/MicrosoftTeams/plan-your-move-kaizala)

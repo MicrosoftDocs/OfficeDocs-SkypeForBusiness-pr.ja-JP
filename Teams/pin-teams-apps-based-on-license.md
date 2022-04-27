@@ -15,23 +15,25 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b526733558570e4903d9dce43094c7ffa0f7de17
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 5c3112740ab2b25b0f0107823d41c5b5e2d68f0f
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "63774186"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059308"
 ---
 # <a name="tailor-teams-apps-for-your-frontline-workers"></a>現場担当者向けに Teams アプリを調整する
 
 > [!NOTE]
-> [!INCLUDE [new-feature-coming-soon-section](includes/new-feature-coming-soon-section.md)]
+> この機能は現在ロールアウト中であり、組織ではまだ使用できない可能性があります。 Teams 機能の最新情報を入手するには、「[Microsoft 365 ロードマップ](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)」を参照してください。
 
 ## <a name="overview"></a>概要
 
 Teams は、現場担当者向けのアプリを簡単にピン留めする方法を提供します。 この機能は、ライセンスに基づいてアプリをピン留めして、現場担当者がニーズに合わせてカスタマイズされた Teams ですぐに使用できるエクスペリエンスを提供します。
 
 現場担当者は、カスタマイズされた現場アプリ エクスペリエンスを使用して、管理者から何のアクションも必要とせずに、Teams で最も関連性の高いアプリを入手できます。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4VuCH]
 
 ## <a name="tailored-frontline-app-experience"></a>カスタマイズされた現場アプリ エクスペリエンス
 
@@ -56,7 +58,7 @@ Teams は、現場担当者向けのアプリを簡単にピン留めする方�
 ## <a name="admin-controls"></a>管理制御
 
 > [!NOTE]
-> この機能を有効にするには、**ユーザー ピン留め** 設定をグローバル (組織全体の既定値) の[アプリ設定ポリシー](teams-app-setup-policies.md)で有効にする必要があります。
+> この機能を有効にするには、**ユーザー ピン留め** 設定をグローバル (組織全体の既定値) の [アプリ設定ポリシー](teams-app-setup-policies.md)で有効にする必要があります。
 
 調整された現場アプリ エクスペリエンスは、Teams 管理センターの [[アプリの管理]](manage-apps.md#manage-org-wide-app-settings) ページにある **[カスタマイズされたアプリの表示]** で組織全体のアプリ設定によって制御されます。 機能がオンの場合、F ライセンスを持つ組織内のすべてのユーザーが、カスタマイズされたアプリ エクスペリエンスを取得します。
 
