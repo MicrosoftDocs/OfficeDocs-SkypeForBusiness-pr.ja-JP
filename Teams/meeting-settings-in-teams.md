@@ -24,7 +24,7 @@ ms.collection:
 description: 組織のユーザーがスケジュールする Teams 会議の設定を管理する方法を説明します。
 ms.openlocfilehash: 10afbcc30404122e9e4d497570bf0b69e4ef6fa7
 ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/05/2022
 ms.locfileid: "64642921"
@@ -36,7 +36,7 @@ ms.locfileid: "64642921"
 管理者は、開催者ごとのポリシー設定を通じて、特定のユーザーまたはユーザーのグループが匿名ユーザーを自分が開催する会議に参加させることができるかどうかを制御できるようになりました。 開催者ごとのポリシー設定と組織全体のポリシー設定は、両方とも匿名参加を制御し、より制限が厳しい設定が有効になります。
 
 > [!Important]
- > **-DisableAnonymousJoin** は、組織全体のポリシー設定です。 将来的には非推奨になり、開催者ごとのポリシーが匿名参加を制御する唯一の方法になります。
+ > **-DisableAnonymousJoin** は、組織全体のポリシー設定です。これは将来的に非推奨となり、その後は開催者ごとのポリシーが匿名参加を制御する唯一の方法となります。
 
 ## <a name="allow-anonymous-users-to-join-meetings"></a>匿名ユーザーによる会議への参加を許可する
 
@@ -70,16 +70,16 @@ ms.locfileid: "64642921"
 
 その他の値の組み合わせは、匿名ユーザーが会議に参加するのを防ぎます。
 > [!NOTE]
-> 会議ポリシーの管理の詳細については、「会議ポリシーを管理する」を参照[Microsoft Teams。](/microsoftteams/meeting-policies-overview)
+> 会議ポリシーの管理の詳細については、「[Microsoft Teams の会議ポリシーの管理](/microsoftteams/meeting-policies-overview)」 を参照してください。
 
 ### <a name="blocking-anonymous-join-for-specific-client-types"></a>特定のクライアントの種類の匿名参加をブロックする
 
 匿名ユーザーが会議への参加を許可されている場合は、Teams クライアントまたは [Azure Communication Services](/azure/communication-services/)を使用して構築されたカスタム クライアントのいずれかを使用できます。 管理者は、[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) の **-BlockedAnonymousJoinClientTypes** パラメーターを使用して、選択したクライアントの種類をブロックできます。
 
 値は次のいずれかです。
-- Null (既定値)。 すべてのクライアントの種類が許可されます。
-- Acs。 [Azure Communication Services](/azure/communication-services/) を使用して構築されたカスタム クライアントをブロックします。
-- Teams。 Teams クライアントをブロックします。
+- Null (既定値)。すべての種類のクライアントが許可されます。
+- ACS。[Azure Communication Services](/azure/communication-services/) を使用して構築されたカスタム クライアントをブロックします。
+- Teams。Teams のクライアントをブロックします。
 
 ## <a name="allow-anonymous-users-to-interact-with-apps-in-meetings"></a>匿名ユーザーが会議でアプリを操作できるようにする
 
@@ -179,7 +179,7 @@ ms.locfileid: "64642921"
 |:---             |:---                         |:---    |:---      |:---      |
 |オーディオ            | 50,000–50,019               |TCP/UDP |46        |完全優先転送 (EF)|
 |ビデオ            | 50,020–50,039               |TCP/UDP |34        |相対的優先転送 (AF41)|
-|アプリケーション/画面共有| 50,040–50,059      |TCP/UDP |18        |相対的優先転送 (AF21)|
+|アプリケーション/画面共有| 50,040–50,059      |TCP/UDP |18         |相対的優先転送 (AF21)|
 | | | | |
 
 \* 割り当てたポート範囲は重なり合うことができず、相互に隣接することになります。

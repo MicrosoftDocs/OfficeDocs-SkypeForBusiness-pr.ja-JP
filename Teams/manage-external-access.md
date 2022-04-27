@@ -23,7 +23,7 @@ appliesto:
 ms.localizationpriority: high
 ms.openlocfilehash: 06243ca47e26f66dd4194a9ec9e50cc5a6bfbde7
 ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/05/2022
 ms.locfileid: "64642851"
@@ -49,7 +49,7 @@ ms.locfileid: "64642851"
 Teams 管理センターは、組織レベルで外部アクセスを制御します。 ほとんどのオプション (ドメイン制限を除く) は、PowerShell を使用してユーザー レベルで使用できます。 詳細については、以下の「[PowerShell の使用](#using-powershell)」を参照してください。
 
 > [!NOTE]
-> 組織で外部アクセスをオフにしても、組織外のユーザーは匿名参加で会議に参加できます。 詳細については、「[Teams での会議設定を管理する](meeting-settings-in-teams.md)」を参照してください。
+> 組織で外部アクセスをオフにしても、組織外のユーザーは匿名参加で会議に参加できます。詳細については、「[Teams の会議の設定を管理する](meeting-settings-in-teams.md)」を参照してください。
 
 > [!NOTE]
 > Teams ユーザーは、他の組織のユーザーとの会議やチャットをホストするときにアプリを追加できます。 他の組織がホストする会議やチャットに参加するときに、他の組織のユーザーが共有するアプリを使用することもできます。 ホストしているユーザーの組織のデータ ポリシーと、そのユーザーの組織が共有するサードパーティ アプリのデータ共有の慣行が適用されます。
@@ -108,7 +108,7 @@ Teams 管理センターは、組織レベルで外部アクセスを制御し�
 ## <a name="manage-contact-with-external-teams-users-not-managed-by-an-organization"></a>組織が管理していない外部の Teams ユーザーとの連絡先を管理する
 
 > [!NOTE]
-> このTeamsと Skypeの相互運用機能は、GCC、GCC High、DOD のデプロイ、またはプライベート クラウド環境では使用できません。
+> この記事で説明する Teams と Skype 相互運用機能は、GCC、GCC High、または DOD の展開、またはプライベート クラウド環境では使用できません。
 
 管理者は、組織が管理していない ("管理されていない”) 外部の Teams ユーザーとの通信を有効にするか無効にするかを選択できます。 有効にした場合は、管理されていないアカウントを持つユーザーが連絡を開始できるかどうかを制御することもできます (次の図を参照してください)。 **[組織が管理していない Teams アカウントを持つ外部ユーザーは、組織内のユーザーに連絡できる]** がオフになっている場合、管理されていない Teams ユーザーは、完全なメール アドレスを検索して組織の連絡先を見つけることができません。また、管理されていない Teams ユーザーとのすべての通信は組織ユーザーが開始する必要があります。
 
@@ -157,7 +157,7 @@ Teams ユーザーと Skype ユーザーが通信できるようにする方法�
 |組織が管理していない Teams ユーザーによる会話の開始の有効化/無効化|`-AllowTeamsConsumerInbound`|`-EnableTeamsConsumerInbound`|
 |Skype とのフェデレーションの有効化/無効化|`-AllowPublicUsers`|`-EnablePublicCloudAccess`|
 
-重要な点として、ポリシーを無効にすると、テナントからユーザーに "細分化" されます。 次に例を示します。
+重要な点として、ポリシーを無効にすると、テナントからユーザーに "細分化" されます。次の例をご覧ください。
 
 ```PowerShell
 Set-CsTenantFederationConfiguration -AllowFederatedUsers $false
