@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 次の表を使用して、Microsoft Teamsのニュージーランドでの電話番号の取得と管理に関する情報を確認します。
-ms.openlocfilehash: 7a2ea252b5e3a232e0ff87f1204183411d7207b3
-ms.sourcegitcommit: 5bfd2e210617e4388241500eeda7b50d5f2a0ba3
+ms.openlocfilehash: f451e9cdac172660fcd70a0f200249f0c77337cb
+ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "64884995"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "65106292"
 ---
 # <a name="phone-number-management-for-new-zealand"></a>ニュージーランドの電話番号管理
 
@@ -38,7 +38,7 @@ ms.locfileid: "64884995"
 |**実行する操作**|**正しいフォームをダウンロードする**|
 |:-----|:-----|
 |Microsoft Teams管理センターに一覧表示されていない新しいユーザーまたはサービスの電話番号を取得します。|ニュージーランドでは、Microsoft Teams管理センターを使用して組織の電話番号を取得できます。 また、フォームをダウンロードして新しい電話番号要求を送信し、 [手順については TNS サービス デスクにお問い合わせください](contact-tns-service-desk.md)。<br/><br/>[ニュージーランド (en-nz) の新しい電話番号要求](https://download.microsoft.com/download/e/6/7/e67f46ef-e1cd-4e70-a5cc-f53fd74285aa/LNS-EN-NZ-TN.pdf)。 <br/><br/>[ニュージーランドの新しい電話番号要求 (mi-nz)](https://download.microsoft.com/download/4/a/a/4aa04212-a13d-46bf-b09e-1efbcbb2e622/new-phone-number-request-for-new-zealand-(v1.0)-(mi-NZ).pdf)。 <br/><br/> 電話番号を割り当てる前に、顧客情報フォームをダウンロードし、完全に入力し、 [TNS サービス デスクに問い合わせて手順を確認する](contact-tns-service-desk.md)必要があります。<br/><br/>新しい注文は、この市場への入力に 2 ~ 3 週間かかる場合があります。  |
-|Microsoft に転送された電話番号を取得します。  <br/> | このフォームをダウンロードします。 <br/>[ニュージーランドの承認状 (LOA) (すべての数値) (v.1.0) (en-nz)](https://download.microsoft.com/download/e/6/7/e67f46ef-e1cd-4e70-a5cc-f53fd74285aa/LOA-EN-NZ-TN.pdf) <br/> <br/>必要事項を入力し、 [手順については TNS サービス デスクにお問い合わせください](contact-tns-service-desk.md)。 <br/><br>この市場では、ポートの複雑さに応じて、転送に 1 ~ 6 週間かかる場合があります。<br/><br/>現時点では、これらの番号を会議に使用することはできません。  |
+|Microsoft に転送された電話番号を取得します。  <br/> | このフォームをダウンロードします。 <br/>[ニュージーランドの承認状 (LOA) (ユーザー番号とサービス番号) (v.1.0) (en-nz)](https://download.microsoft.com/download/e/6/7/e67f46ef-e1cd-4e70-a5cc-f53fd74285aa/LOA-NZ-GEO-EN.pdf) <br/> <br/>必要事項を入力し、 [手順については TNS サービス デスクにお問い合わせください](contact-tns-service-desk.md)。 <br/><br>この市場では、ポートの複雑さに応じて、転送に 1 ~ 6 週間かかる場合があります。<br/><br/>現時点では、これらの番号を会議に使用することはできません。  |
 |国内の電話番号ディレクトリで、電話番号を発行/公開解除します。  <br/> |発行/非公開にする電話番号の一覧については[、TNS サービス デスクにお問い合わせください](contact-tns-service-desk.md)。 <br/> |
 |ユーザーの番号をサービス番号に変更します。  <br/> |サービス番号に変換するユーザー番号の一覧については、[TNS サービス デスクにお問い合わせください](contact-tns-service-desk.md)。 <br/> |
 |通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには、 [TNS サービス デスクに問](contact-tns-service-desk.md)い合わせてください。|

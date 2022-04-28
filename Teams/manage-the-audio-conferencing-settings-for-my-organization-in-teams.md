@@ -22,13 +22,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 'ダイヤルイン電話会議ライセンスと会議 ID をユーザーおよびその他の多くのダイヤルイン電話会議の設定に割り当てるための Microsoft Teams での手順を確認します。 '
-ms.openlocfilehash: e9a464df1d4c3eb01815a652b2e55c6c269b837d
-ms.sourcegitcommit: 296fbefe0481c0b8b94aee925118474375cdf138
+description: ダイヤルイン電話会議ライセンスと会議 ID をユーザーおよびその他の多くのダイヤルイン電話会議の設定に割り当てるための Microsoft Teams での手順を確認します。
+ms.openlocfilehash: 6d8270d21c90d363ebb74089ce0b37e6c558ecb1
+ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65016619"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "65106332"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織の電話会議の設定を管理する
 
@@ -139,7 +139,7 @@ ms.locfileid: "65016619"
     [**名前または電話番号**] を選ぶと、[**発信者に会議に参加する前に自分の名前を記録するように要求する**] を有効または無効にすることもできます。
     > [!NOTE]
     > 既定では、外部ユーザーはダイヤルインした参加者の電話番号を見ることができません。これらの電話番号のプライバシーを維持したい場合は、**入場/退出のお知らせの種類** として **トーン** を選択します (これにより、番号は Teams によって読み取られません)。
-5. [**保存**] をクリックします。
+5. **[保存]** をクリックします。
 
 [電話会議ブリッジの設定を変更する](change-the-settings-for-an-audio-conferencing-bridge.md)を参照してください。
   

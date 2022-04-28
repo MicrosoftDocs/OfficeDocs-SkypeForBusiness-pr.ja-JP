@@ -14,14 +14,14 @@ ms.localizationpriority: medium
 ms.collection:
 - m365initiative-meetings
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-description: 理想的な仮想会議室をMicrosoft Teamsシステムの計画、展開、管理など、会議室を設定する方法について説明します。
+description: 理想的な仮想会議室を作成するためのシステムの計画、展開、管理など、Microsoft Teams Roomsを設定する方法について説明します。
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 0458513bc75bf352aed1b611895ef918fc621dcc
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: 85ddcccc2de769a20f12357aafcb2d5743f981c3
+ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63504114"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "65106322"
 ---
 # <a name="microsoft-teams-rooms"></a>Microsoft Teams Rooms
 
@@ -31,12 +31,12 @@ ms.locfileid: "63504114"
 
        ワンタッチ参加で会議を時間どおりに開始し、即座に会議室内ディスプレイに表示し、リモート参加者と共有できます。
 
-       パートナーの 1 つから適切なシステムおよびオーディオ ビデオ周辺機器 (Dell、Yealink、Logitech、クリストロン、Polycom、Lenovo、HP) を選択します。
+       Dell、Yealink、Logitech、Mountron、Polycom、Lenovo、HP のいずれかのパートナーから適切なシステムおよびオーディオ ビデオ周辺機器を選択します。
 
-       会議室の概要Teams、右側のビデオをクリックします。
+       Teams Roomsの簡単な概要については、右側のビデオをクリックします。
     :::column-end:::
     :::column:::
-       [:::image type="content" source="../media/teams-rooms-microsoft-mechanics.jpg" alt-text="Microsoft Teamsルームの Microsoft Mechanics ビデオ。":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
+       [:::image type="content" source="../media/teams-rooms-microsoft-mechanics.jpg" alt-text="microsoft Mechanics ビデオMicrosoft Teams Rooms。":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
     :::column-end:::
 :::row-end:::
 
@@ -47,14 +47,11 @@ ms.locfileid: "63504114"
 |  **[計画](./rooms-plan.md)** |  **[展開](./rooms-deploy.md)** |  **[管理](./rooms-manage.md)** |
 
 
-[:::image type="content" source="../media/teams-rooms-microsoft-mechanics.jpg" alt-text="Microsoft Teamsルームの Microsoft Mechanics ビデオ。":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
+[:::image type="content" source="../media/teams-rooms-microsoft-mechanics.jpg" alt-text="microsoft Mechanics ビデオMicrosoft Teams Rooms。":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
 
 > [!NOTE]
-> Microsoft Teamsルームは、2019 年Microsoft Teams 2019 年Skype for Business Server 2015 年Skype for Business Serverです。
+> Microsoft Teams Roomsは、Microsoft Teams、Skype for Business Server 2019、または 2015 Skype for Business Serverで使用することを目的としています。
 >
-> Lync Server 2013 のような以前のプラットフォームは、会議室Microsoft Teamsされていません。
+> Lync Server 2013 のような以前のプラットフォームは、Microsoft Teams Roomsではサポートされていません。
 
-これらの記事は、これらの会議室の計画、展開、管理を担当するMicrosoft Teamsされています。 エンド ユーザーは、「Microsoft Teams オンライン ヘルプ」に[関心を持つ必要があります](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)。
-
-> [!NOTE]
-> [Skype Room System](../rooms/lrs-migration.md) (旧称 Lync Room System) と Microsoft Teams Rooms は、依存関係や展開手順が異なる別個の製品です。
+これらの記事は、これらのMicrosoft Teams Roomsの計画、デプロイ、管理を担当するユーザーを対象としています。 エンド ユーザーは、[Microsoft Teams Roomsオンライン ヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)に関心を持つようになります。
