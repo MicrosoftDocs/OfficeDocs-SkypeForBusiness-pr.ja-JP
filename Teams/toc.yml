@@ -1327,34 +1327,28 @@ items:
                 href: rooms/security.md
               - name: オンライン ライセンス
                 href: rooms/rooms-licensing.md
-              - name: 条件付きアクセスと Intune コンプライアンスのベスト プラクティス
-                href: rooms/conditional-access-and-compliance-for-devices.md
-              - name: サポートされている条件付きアクセスと Intune コンプライアンス ポリシー
-                href: rooms/supported-ca-and-compliance-policies.md
               - name: Azure Monitor による管理の計画
                 href: rooms/azure-monitor-plan.md
           - name: 展開
             items:
               - name: 展開の概要
                 href: rooms/rooms-deploy.md
-              - name: アカウントを構成する
-                href: rooms/rooms-configure-accounts.md
               - name: リソース アカウントを作成する
                 href: rooms/with-office-365.md
-              - name: Skype for Business Server の場合
-                href: rooms/with-skype-for-business-server-2015.md
               - name: コンソールを構成する
                 href: rooms/console.md
+              - name: 認証
+                items:
+                  - name: 認証を構成する
+                    href: rooms/rooms-authentication.md
+                  - name: 条件付きアクセスと Intune コンプライアンスのベスト プラクティス
+                    href: rooms/conditional-access-and-compliance-for-devices.md
+                  - name: サポートされている条件付きアクセスと Intune コンプライアンス ポリシー
+                    href: rooms/supported-ca-and-compliance-policies.md
               - name: 手動でデバイスを更新する
                 href: rooms/manual-update.md
-              - name: 認証を構成する
-                href: rooms/rooms-authentication.md
-              - name: サードパーティ製の会議に参加する
-                href: rooms/third-party-join.md
               - name: Azure Monitor による管理
                 href: rooms/azure-monitor-deploy.md
-              - name: SRS v1 または LRS の移行
-                href: rooms/lrs-migration.md
               - name: コンテンツ カメラ
                 href: rooms/content-camera.md
               - name: インテリジェント スピーカー向け音声認識コントロール
@@ -1371,11 +1365,13 @@ items:
                 href: rooms/rooms-manage.md
               - name: メンテナンスと操作
                 href: rooms/rooms-operations.md
+              - name: サードパーティ製の会議に参加する
+                href: rooms/third-party-join.md
               - name: 既知の問題
                 href: /microsoftteams/troubleshoot/teams-devices-and-rooms/rooms-known-issues
-              - name: Azure Monitor でのデバイス
+              - name: Azure Monitor でデバイスを管理する
                 href: rooms/azure-monitor-manage.md
-              - name: XML を使用した設定
+              - name: XML ファイルを使用した設定
                 href: rooms/xml-config-file.md
               - name: 回復ツールの使用
                 href: rooms/recovery-tool.md
@@ -1481,6 +1477,8 @@ items:
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
           - name: 電話とディスプレイの展開を計画する
             href: devices/plan-device-deployment.md
+          - name: Skype for Business Server 2015 のリソース アカウント
+            href: rooms/with-skype-for-business-server-2015.md
   - name: アプリを管理する
     items:
       - name: 概要
