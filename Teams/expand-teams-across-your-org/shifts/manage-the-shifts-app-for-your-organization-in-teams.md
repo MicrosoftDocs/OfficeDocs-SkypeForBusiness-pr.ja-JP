@@ -12,7 +12,7 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 - Microsoft Cloud for Retail
-description: 組織内のフロントライン ワーカー向け Teams Shifts アプリを設定および管理する方法について学習します。
+description: 組織内のフロントライン ワーカーのTeamsで Shifts アプリを設定および管理する方法について説明します。
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -24,23 +24,23 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d38af9f55f1620a1f38ad5860c71366201bb9444
-ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
+ms.openlocfilehash: 2dcc945795da34ed3045ffadbc55445303b48281
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "63039905"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65137008"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織のシフト アプリを管理する
 
 ## <a name="overview-of-shifts"></a>シフトの概要
 
-Shifts アプリは、Microsoft Teamsワーカーを接続し、同期を維持します。チームの時間管理とコミュニケーションを迅速かつ効果的に行うモバイルを最初に構築します。 シフトを使用すると、フロントラインの従業員とそのマネージャーは、モバイル デバイスを使用してスケジュールを管理し、連絡を取り合います。
+Microsoft Teamsの Shifts アプリでは、フロントライン ワーカーが接続され、同期されます。これは、チームの迅速かつ効果的な時間管理とコミュニケーションを実現するために、モバイルファーストで構築されています。 シフトにより、現場の従業員とそのマネージャーは、モバイル デバイスを使用してスケジュールを管理し、連絡を取り合うことができます。
 
 - マネージャーは、チームのシフト スケジュールを作成、更新、および管理します。 マネージャーは、メッセージを 1 人のユーザーに送ることも ("床が汚れています" など)、チーム全体に送ることもできます ("地区本部長があと 20 分で到着します" など)。 マネージャーは、ポリシー ドキュメント、ニュース速報、およびビデオを送信することもできます。
 - 従業員は、自分の今後のシフトの確認、自分の他にその日にスケジュールが入っている従業員の表示、シフトの入れ替えや申し出のリクエスト、および休暇のリクエストを行います。
 
-Shifts では現在ゲストがサポートされていません。 つまり、Teams でゲスト アクセスがオンになっていると、チームのゲストをシフト スケジュールに追加することも、チームのゲストがシフト スケジュールを使用することもできません。
+Shifts は現在、ゲストをサポートしていないことを知しておくことが重要です。 つまり、Teams でゲスト アクセスがオンになっていると、チームのゲストをシフト スケジュールに追加することも、チームのゲストがシフト スケジュールを使用することもできません。
 
 > [!Note]
 > さまざまなプラットフォームでの Shifts 機能の詳細については、「[プラットフォームごとの Teams の機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)」を参照してください。
@@ -50,13 +50,13 @@ Shifts では現在ゲストがサポートされていません。 つまり、
 シフトは、Teams が使用可能なすべてのエンタープライズ SKU で使用できます。
 
 > [!NOTE]
-> シフトは、Government Community Cloud (GCC) 環境では使用できますが、High または DoD GCCでは使用できません。
+> シフトは、Government Community Cloud (GCC) 環境では使用できますが、GCC High 環境や DoD 環境では使用できません。
 
 ## <a name="location-of-shifts-data"></a>シフトのデータの場所
 
-シフト データは現在、アジア太平洋 (APAC)、欧州連合 (EU)、および北米のデータ センターに Azure に格納されています。 データが保存される場所の詳細については、「[データの保存場所](http://o365datacentermap.azurewebsites.net/)」を参照してください。
+Shifts データは現在、アジア太平洋 (APAC)、欧州連合 (EU)、北米のデータ センターに Azure に格納されています。 データが保存される場所の詳細については、「[データの保存場所](http://o365datacentermap.azurewebsites.net/)」を参照してください。
 
-Shifts データの保存、保持、取得、暗号化など、Shifts データの詳細については、「Shifts データに関する [FAQ」を参照してください](shifts-data-faq.md)。
+Shifts データのストレージ、リテンション期間、取得、暗号化など、Shifts データの詳細については、「 [Shifts データに関する FAQ](shifts-data-faq.md)」を参照してください。
 
 ## <a name="set-up-shifts"></a>シフトのセットアップ
 
@@ -65,21 +65,21 @@ Shifts データの保存、保持、取得、暗号化など、Shifts データ
 シフトは、組織内のすべての Teams ユーザーに対して既定で有効になっています。 組織レベルでアプリをオフまたはオンにするには、Microsoft Teams 管理センターの [[アプリを管理]](../../manage-apps.md) ページで行います。
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、**[Teams アプリ]** > **[アプリを管理]** の順に移動します。
-2. アプリの一覧で Shifts アプリを検索して選択し、[状態] トグルを [ブロック] または [許可 **] に****切り替えます**。
+2. アプリの一覧で Shifts アプリを検索し、それを選択し、[ **状態** ] トグルを **[ブロック** ] または [ **許可**] に切り替えます。
 
 ### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>組織内の特定のユーザーのシフトを有効または無効にする
 
-組織内の特定のユーザーによる Shifts の使用を許可またはブロックするには、[アプリの管理] ページで組織の Shifts が有効 [になっていることを確認](../../manage-apps.md) します。 次に、カスタム アプリのアクセス許可ポリシーを作成し、それらのユーザーに割り当てる必要があります。 詳細については、「[Teams のアプリのアクセス許可ポリシーを管理する](../../teams-app-permission-policies.md)」を参照してください。
+組織内の特定のユーザーに Shifts の使用を許可またはブロックするには、[ [アプリの管理](../../manage-apps.md) ] ページで組織の Shift が有効になっていることを確認します。 次に、カスタム アプリのアクセス許可ポリシーを作成し、それらのユーザーに割り当てます。 詳細については、「[Teams のアプリのアクセス許可ポリシーを管理する](../../teams-app-permission-policies.md)」を参照してください。
 
-### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>アプリセットアップ ポリシーを使用して、Shifts をアプリにピン留Teams
+### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>アプリのセットアップ ポリシーを使用して Shifts をTeamsにピン留めする
 
 アプリ セットアップ ポリシーを使用すると、組織内のユーザーにとって最も重要なアプリを強調表示するように Teams をカスタマイズできます。 ポリシーに設定されたアプリは、アプリ バー (Teams デスクトップ クライアントの横、および Teams モバイル クライアントの一番下にある) にピン留めされ、ユーザーはそこからすばやく簡単にアプリにアクセスできます。
 
-Shifts アプリを [追加してカスタム アプリセットアップ ポリシー](../../teams-app-setup-policies.md) を作成し、そのポリシーを [ユーザー](../../assign-policies-users-and-groups.md) に割り当てできます。 または、Frontline Worker および Frontline Manager ポリシー パッケージの一部であるアプリセットアップ ポリシーを使用できます。
+Shifts アプリを追加して [カスタム アプリセットアップ ポリシー](../../teams-app-setup-policies.md) を作成し、その [ポリシーをユーザーに割り当てることができます](../../assign-policies-users-and-groups.md) 。 または、Frontline Worker および Frontline Manager ポリシー パッケージの一部であるアプリ設定ポリシーを使用することもできます。
 
-Teams [の](../../manage-policy-packages.md)ポリシー パッケージは、組織内で同様のロールを持つユーザーに割り当て可能な定義済みのポリシーとポリシー設定のコレクションです。 Frontline Worker ポリシー パッケージと Frontline Manager ポリシー パッケージの一連のポリシーには、Shifts アプリと、そのロールのコミュニケーションおよびコラボレーション アクティビティをサポートする他のアプリをピン留めするアプリセットアップ ポリシーが含まれています。
+Teamsの[ポリシー パッケージ](../../manage-policy-packages.md)は、組織内で同様のロールを持つユーザーに割り当てることができる定義済みのポリシーとポリシー設定のコレクションです。 Frontline Worker および Frontline Manager ポリシー パッケージの一連のポリシーには、Shifts アプリとそのロールのコミュニケーションとコラボレーション アクティビティをサポートするその他のアプリを固定するアプリセットアップ ポリシーが含まれます。
 
-Frontline Worker ポリシー パッケージと Frontline Manager ポリシー パッケージを使用することをお勧めします。Frontline Worker と Frontline Manager のポリシー パッケージは、フロントラインの従業員のポリシーを管理する際に簡素化、合理化、一貫性を提供するのに役立ちます。
+フロントライン ワーカーと Frontline Manager ポリシー パッケージは、フロントラインの従業員のポリシーを管理する際に簡略化、合理化、一貫性を提供するために使用することをお勧めします。
 
 ## <a name="search-the-audit-log-for-shifts-events"></a>Teams でシフト イベントの監査ログを検索する
 
@@ -92,7 +92,7 @@ Frontline Worker ポリシー パッケージと Frontline Manager ポリシー 
 ## <a name="related-articles"></a>関連記事
 
 - [Shifts for Teams](../shifts-for-teams-landing-page.md)
-- [シフト データに関する FAQ](shifts-data-faq.md)
+- [Shifts データに関する FAQ](shifts-data-faq.md)
 - [コネクタをシフトする](shifts-connectors.md)
-- [フロントライン ワーカー向けシフト ヘルプ](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+- [フロントライン ワーカーの Shifts ヘルプ](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 - [ Teams でユーザーにポリシーを割り当てる](../../policy-assignment-overview.md)

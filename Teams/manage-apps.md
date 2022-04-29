@@ -17,12 +17,12 @@ description: Microsoft Teams 管理センターの [アプリの管理] ペー�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 2a4062bbf71c3ad112a52a10ad9c1b3ff71f3dad
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: facb10f1ad20482c8760a32ba1319b3ed80100e8
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059078"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65137028"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams管理センターでTeams アプリを管理する
 
@@ -198,24 +198,3 @@ ISV がグローバル アプリ ストアにアプリを発行する場合、�
 
 1. **[カスタム アプリ]** で、**[カスタム アプリとの対話を許可する]** をオフまたはオンにします。 この設定は、ユーザーがカスタム アプリを操作できるかどうかを制御します。 詳細については、「[Teams のカスタム アプリのポリシーと設定を管理する](teams-custom-app-policies-and-settings.md)」をご覧ください。
 1. 組織全体のアプリ設定を有効にするには、**[保存]** を選択します。
-
-<!--- TBD: Commenting this info for now. Move it later to the new article about compliance program and how/where admins can find info about compliant apps.
-
-## View security and compliance information for Microsoft 365 Certified apps
-
-When evaluating an app for their organization, admins can use independent Cloud Access Security Brokers (CASB), such as Microsoft Cloud App Security (MCAS), to find information about security and behaviors of an app. The Teams admin center includes security and compliance information from MCAS for Microsoft 365 Certified apps so you'll have more information on whether or not the app meets your needs.
-
-> [!NOTE]
-> This feature is available to all admins, whether or not your organization has a license that supports MCAS.
-
-To access MCAS information, follow these steps:
-
-1. In the Teams admin center, select **Manage apps** under **Teams apps**.
-1. Select **Certification** to sort apps and push all Microsoft 365 Certified apps to the top of the table.
-1. Choose a Microsoft 365 Certified app.
-1. Select the **Security and compliance** tab.
-
-![Screenshot of Teams admin center security and compliance tab.](media/mcas.png)
-
-On this tab, you'll find information on security, compliance, and data protection. You can also expand each dropdown list to get more details about which capabilities are supported for the selected application.
---->

@@ -21,12 +21,12 @@ MS.collection:
 - microsoftcloud-retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 90bdf2661432a5d68b8f6a727a272855f1a52173
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
-ms.translationtype: HT
+ms.openlocfilehash: e4d410d643dcf0c3753e87fa03e4040812dd9a5a
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442453"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65137038"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織の Tasks アプリを管理する
 
@@ -62,7 +62,7 @@ Tasks を使用すると、デスクトップ、Web、およびモバイル エ�
 
 Tasks は、組織内のすべての Teams ユーザーに対して既定で有効になっています。 組織レベルでアプリをオフまたはオンにするには、Microsoft Teams 管理センターの [[アプリを管理]](manage-apps.md) ページで行います。
 
-1. Microsoft Teams 管理センターの左側のナビゲーションで、**[Teams アプリ]** > **[アプリの管理]** の順に移動します。
+1. Microsoft Teams管理センターの左側のウィンドウで、**Teams** **appsManage アプリ** > に移動します。
 2. アプリ リストで、次のいずれかの操作を実行します。
 
     - 組織の Tasks をオフにするには、Tasks アプリを検索して選択し、**[ブロック]** を選択します。

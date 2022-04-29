@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams管理センターで Microsoft Power Platform 上に構築されたカスタム アプリへのアクセスを管理する方法について説明します。
-ms.openlocfilehash: c093d432faa8d4977f4d931ac948a35dc6fe6509
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 9f212cf52ec757fc4860f081fb67da2cb1b4fcd5
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "63442673"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65136998"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams管理センターで Microsoft Power Platform アプリを管理する
 
@@ -66,7 +66,7 @@ Power AppsおよびPower Virtual Agentsで作成されたすべてのアプリ�
 
 既定では、**組織内のすべてのTeams** ユーザーに対して共有Power Appsアプリと **Shared Power Virtual Agent Apps が** 許可されます。 Microsoft Teams管理センターの [[アプリの管理](manage-apps.md)] ページで、組織レベルでブロックまたは許可できます。  
 
-1. Microsoft Teams 管理センターの左側のナビゲーションで、**[Teams アプリ]** > **[アプリを管理]** の順に移動します。 これらのポリシーを管理するには、グローバル管理者または Teams サービス管理者である必要があります。
+1. Microsoft Teams管理センターの左側のウィンドウで、**Teams** **appsManage アプリ** > に移動します。 これらのポリシーを管理するには、グローバル管理者または Teams サービス管理者である必要があります。
 2. アプリの一覧で、次のいずれかの操作を行います。
 
     :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text="共有された Microsoft Power Platform アプリを示す [アプリの管理] ページのスクリーンショット":::

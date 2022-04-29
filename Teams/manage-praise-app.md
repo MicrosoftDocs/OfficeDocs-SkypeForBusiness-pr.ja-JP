@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: Microsoft Teams管理センターで称賛 アプリを管理する方法について説明します。
-ms.openlocfilehash: 364fb60b6a729062e358685426acd98704c7ac02
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 16f59a8fbe0958a63f824762cfede020dbf54b8e
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "63442683"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65136978"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Microsoft Teams管理センターで称賛 アプリを管理する
 
@@ -31,7 +31,7 @@ Microsoft Teamsの称賛 アプリは、ユーザーが組織またはクラス�
 
 :::image type="content" source="media/manage-praise-app-admin-center.png" alt-text="Teams管理センターの [称賛 アプリの詳細] ページのスクリーンショット。[状態] トグルが表示されています。":::
 
-1. Microsoft Teams 管理センターの左側のナビゲーションで、**[Teams アプリ]** > **[アプリを管理]** の順に移動します。
+1. Microsoft Teams管理センターの左側のウィンドウで、**Teams** **appsManage アプリ** > に移動します。
 2. アプリの一覧で、称賛 アプリを検索して選択し、状態トグルを **[ブロック**] または [**許可****]** に切り替えます。
 
 この設定は、称賛 アプリとTeamsのViva インサイト アプリの称賛機能の両方に影響します。
