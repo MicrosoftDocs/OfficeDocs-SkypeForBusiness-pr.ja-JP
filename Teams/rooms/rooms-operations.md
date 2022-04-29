@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Microsoft Teams Roomsの管理について説明します。
-ms.openlocfilehash: e214d0b438ea7dd9b710a7aba8597de6c5b76bdf
-ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
+ms.openlocfilehash: d57f84aa07c90b6a75693f0cbf739402a6e90a4c
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65106262"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125472"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams Rooms のメンテナンスと運用
  
@@ -37,6 +37,15 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 ```
 
 ログは ZIP ファイルとして c:\rigel に出力されます。
+
+### <a name="managing-disk-space"></a>ディスク領域の管理
+<a name="Space"> </a>
+
+デバイスにダウンロードされたログは、ディスク領域を占有する可能性があります。 ログが定期的にクリーンアップされない場合は、ルームの通常の機能に干渉する可能性があります。 Teams Roomsダウンロードしたログは 30 日後に削除されます。 IT 管理者は、デバイス レジストリ設定を使用してログクリーンアップをオーバーライドできます。
+
+|Setting|許可されること|
+|:-----|:-----|
+|HKLM\SOFTWARE\Microsoft\PPI\SkypeSettings\LogCleanupAgeThreshold  <br/> |30 日後にログをクリーンアップします。  <br/> |
   
 ## <a name="front-of-room-display-settings"></a>ルームの前面の表示設定
 <a name="Display"> </a>

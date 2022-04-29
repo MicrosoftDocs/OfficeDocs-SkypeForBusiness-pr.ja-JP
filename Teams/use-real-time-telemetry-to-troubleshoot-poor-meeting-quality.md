@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: デバイス、ネットワーク、接続に関する詳細を含むリアルタイムテレメトリを使用して、スケジュールされた会議に関するユーザーの問題Microsoft Teamsトラブルシューティングします。
-ms.openlocfilehash: 09c31b7734a849740cf1b0ff5749e4d82c667faf
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 4f56e50ddc8ac861e109bbc4d4a2a74533043d24
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "62518729"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125802"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>リアルタイム テレメトリを使用して低品質の会議をトラブルシューティングする
 
@@ -57,11 +57,11 @@ Teams管理者は、各ユーザーのすべてのリアルタイム テレメ�
 
 デバイス、ネットワーク、オーディオの統計情報など、進行中の会議の参加者に関する追加情報を取得するには、 **最近の会議で会議** を見つけて、[ **参加者** ] 列のリンクを選択します。
 
-:::image type="content" alt-text="参加者の詳細テーブルのスクリーンショット。" source="media/participant-details.png" lightbox="media/participant-details.png":::
+:::image type="content" alt-text="参加者の詳細テーブルのスクリーンショット。" source="media/participant-details-edit.png" lightbox="media/participant-details-edit.png":::
 
 デバイス、ネットワーク、オーディオ、ビデオ、コンテンツ共有の詳細に関する情報など、進行中の会議に対する特定のユーザーのテレメトリを確認するには、 **会議 ID** を選択します。
 
-:::image type="content" alt-text="通話分析のユーザー セッション データのスクリーンショット。" source="media/real-time-telemetry.png" lightbox="media/real-time-telemetry.png":::
+:::image type="content" alt-text="通話分析のユーザー セッション データのスクリーンショット。" source="media/real-time-telemetry-edit.png" lightbox="media/real-time-telemetry-edit.png":::
 
 ## <a name="measures-available-in-real-time-analytics"></a>Real-Time Analytics で使用できるメジャー
 

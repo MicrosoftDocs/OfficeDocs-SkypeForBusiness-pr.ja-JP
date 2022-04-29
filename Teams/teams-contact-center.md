@@ -13,38 +13,38 @@ f1.keywords:
 description: Microsoft Teams の統合されたサービスとしてのコンタクト センター（CCaaS）ソリューションの概要
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52de716c35e934e13140af278814a93620dd4962
-ms.sourcegitcommit: 2c8d6183920fd0df7e0491cf4e79b2311503dba7
+ms.openlocfilehash: 6ed7e2df1af7ceab02119d52ef9ed7bc5811a87c
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63073745"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125642"
 ---
-# <a name="contact-center-integrations-for-microsoft-teams"></a>連絡先センターと連絡先センターの統合Microsoft Teams
+# <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teamsの連絡先センターの統合
 
-  この記事では、Microsoft Teams および Microsoft Teams 接続済み連絡先センター認定プログラムに参加しているソリューション プロバイダーと連絡先センター ソリューションを統合する方法の概要を説明します。
+  この記事では、Microsoft TeamsおよびMicrosoft Teamsコネクテッド コンタクト センター認定プログラムに参加しているソリューション プロバイダーと連絡先センター ソリューションを統合する方法の概要について説明します。
 
-## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>連絡先センターの統合とは何Microsoft Teams?
+## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>Microsoft Teamsの連絡先センター統合とは
 
-Microsoft Teamsは、チャット、ビデオ会議、通話などの通信モードを通して、内部および外部の顧客接続のハブとして機能することで、顧客の対話作業ストリームをサポートします。 組織によっては、自動応答[Microsoft Teams通話キュー](./cloud-voice-landing-page.md)など、クラウド音声機能がニーズ[](./what-are-phone-system-auto-attendants.md)を満た[](./create-a-phone-system-call-queue.md)しています。
+Microsoft Teamsは、チャット、ビデオ会議、通話など、コミュニケーションモード全体で内部および外部の顧客接続のハブとして機能することで、顧客の対話作業ストリームをサポートします。 一部の組織では、[自動応答](./what-are-phone-system-auto-attendants.md)や[通話キュー](./create-a-phone-system-call-queue.md)など、Microsoft Teams[のクラウド音声機能](./cloud-voice-landing-page.md)がニーズを満たしています。
 
-ビジネス ツールとワークフローを備えるソリューションが顧客体験を後押しする必要がある組織では、Microsoft Teams のコンタクト センター統合により、Contact Center as a Service (CCaaS) ソリューション プロバイダーはソリューションを Teams に統合できます。
+ビジネス ツールとワークフローを使用してソリューションを顧客体験を促進する組織の場合、Microsoft Teamsのコンタクト センター統合により、Contact Center as a Service (CCaaS) ソリューション プロバイダーはソリューションをTeamsに統合できます。
 
 
-## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>認定プログラム用の接続Microsoft Teamsセンター
+## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Microsoft Teams認定プログラムのコネクテッド コンタクト センター
 
-Microsoft Teams 認定プログラム用の接続されたコンタクト センターでは、参加している各プロバイダーのソリューションが、Microsoft ソリューションから期待される品質、互換性、信頼性を提供する必要があります。
+Microsoft Teams認定プログラムのコネクテッド コンタクト センターは、参加している各プロバイダーのソリューションが、Microsoft ソリューションに期待される品質、互換性、信頼性を提供することを確認します。
 
-統合されたコンタクト センター ソリューションを探している組織の場合は、「認定ソリューション プロバイダーの一覧については、連絡先センター向け[認定 Microsoft Teams](https://cloudpartners.transform.microsoft.com/contact-center-solutions) ソリューション」を参照し、認定プロセスのプロバイダー[](#connected-contact-center-solutions)の一覧については、「接続された連絡先センター ソリューション」を参照してください。
+統合連絡先センター ソリューションを探している組織の場合は、認定ソリューション プロバイダーの一覧については、[連絡先センターの認定Microsoft Teams ソリューション](https://cloudpartners.transform.microsoft.com/contact-center-solutions)に関する説明と、認定プロセスのプロバイダーの一覧については、[接続された連絡先センター ソリューション](#connected-contact-center-solutions)を参照してください。
 
-認定プログラムへの参加を希望しているベンダーの場合は、 にメールでお問い合わせください <Teamscategorypartner@microsoft.com>。
+認定プログラムに参加しようとしているベンダーの場合は、次の手順として [このフォーム](https://aka.ms/CallingPlatformIntake) に入力します。 追加のコンテキストと詳細を指定する必要がある場合は、 [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com) にメールを送信します。
 
 [!INCLUDE [contact-center-integration-models](./includes/contact-center-integration-models.md)]
 
 
 ## <a name="connected-contact-center-solutions"></a>コネクテッド コンタクト センター ソリューション
 
-次のプロバイダーは、Teams、拡張、または Power 統合モデルのいずれかを使用して、Connect に統合されたコンタクト センター ソリューションを提供します。
+次のプロバイダーは、Connect、拡張、または Power 統合モデルのいずれかを使用して、Teamsに統合されるコンタクト センター ソリューションを提供します。
 
 ### <a name="certified-solutions"></a>認定ソリューション
 
@@ -77,7 +77,8 @@ Microsoft Teams 認定プログラム用の接続されたコンタクト セン
 | `Luware` | https://luware.com/en/solutions/                                                                                       |
 | `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/                                        |
 | `Netcall` | https://www.netcall.com/platform/contact-centre/                         |
-| `novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
-| `talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
+| `Novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
+| `Puzzel` | https://www.puzzel.com/microsoft-teams                            |
+| `Talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
 
-この一覧は、より多くのソリューション プロバイダーが参加し、認定基準を満たすと更新されます。
+この一覧は、より多くのソリューション プロバイダーが参加し、認定基準を満たすにつれて更新されます。

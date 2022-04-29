@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 最適な結果を生み出すためにMicrosoft Teamsが認定されているデスクと会議の電話について説明します。
-ms.openlocfilehash: de2dca728ede7c54480763a439296cde225d1447
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: e9ddd0a2e9988614bd2f0fe7825a75b790736027
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059228"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125512"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams認定された Android デバイス
 
@@ -141,6 +141,7 @@ Android 認定プログラムのMicrosoft Teams Roomsでは、次のデバイス
 
 | デバイス モデル  | ファームウェアのバージョン  | 付属の製品リリース  |
 |:----------------|:--------------|:----------------------------|
+|Audiocodes C470HD  | `1.17.558` | 2022 Update #1C   |
 |Audiocodes C455HD | `1.15.289`    | 2022 Update #1C    |
 |Audiocodes C448HD  | `1.14.524` | 2022 Update #1C |
 |Audiocodes C450HD  | `1.14.524` | 2022 Update #1C |

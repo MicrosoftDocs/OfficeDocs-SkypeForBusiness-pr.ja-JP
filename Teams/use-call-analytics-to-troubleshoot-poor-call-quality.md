@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: Microsoft Teams の通話や会議に関する問題のトラブルシューティングを行うには、デバイス、ネットワーク、接続に関するユーザーごとの通話分析の詳細を使用します。
-ms.openlocfilehash: 9f61796d83977c9d0782957fe3bafe787f60403b
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
-ms.translationtype: HT
+ms.openlocfilehash: 47b60eb979c36508ed1911a70f531695c03533e5
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731936"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125652"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>通話分析を使用して低品質な通話をトラブルシューティングする
 
@@ -77,7 +77,7 @@ Teams 管理者は、各ユーザーのすべての Call Analytics データへ�
 ||||
 
 > [!NOTE]
-> [デバッグ] タブに含まれる情報には、Microsoft サポート エンジニアを支援するためのテレメトリとサービスの診断データが含まれています。 サポート エンジニアが利用できる追加データの文脈なしには、冗長な、不正確な、またはわかりにくいものに見える場合があります。 通話の問題のトラブルシューティングを行う際により高度なレベルの詳細を求めている上級ユーザー向けに提供していますが、Microsoft サポートを受けずにこのデータに基づいて判断することはお勧めしません。
+> [詳細設定] タブの [その他] セクションと [デバッグ] タブの両方に含まれる情報には、Microsoft サポート エンジニアを支援するためのテレメトリとサービス診断データが含まれています。 サポート エンジニアが利用できる追加データの文脈なしには、冗長な、不正確な、またはわかりにくいものに見える場合があります。 通話の問題のトラブルシューティングを行う際により高度なレベルの詳細を求めている上級ユーザー向けに提供していますが、Microsoft サポートを受けずにこのデータに基づいて判断することはお勧めしません。
 
 ## <a name="troubleshoot-user-call-quality-problems"></a>ユーザーの通話品質の問題をトラブルシューティングする
 

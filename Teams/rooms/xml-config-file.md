@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: カスタム テーマの適用やマスター設定ファイルの作成など、Microsoft Teams Rooms デバイスで使用される既定の設定のリモート管理について説明します。
-ms.openlocfilehash: ae529b99fc2e76aeb6c7f511de533be57b65ac08
-ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
+ms.openlocfilehash: c363dce55df4d9bdcf125492c2ca92b3b20feba7
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65106282"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125462"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Microsoft Teams Rooms のコンソールの設定を、XML 構成ファイルを使用してリモートで管理する
 
@@ -64,6 +64,8 @@ ms.locfileid: "65106282"
   <DisableTeamsAudioSharing>true</DisableTeamsAudioSharing>
   <FrontRowEnabled>true</FrontRowEnabled>
   <DefaultFoRExperience>0</DefaultFoRExperience>
+  <EnablePublicPreview>false</EnablePublicPreview>
+  <NoiseSuppressionDefault>0</NoiseSuppressionDefault>
   <SendLogs>
     <EmailAddressForLogsAndFeedback>username@microsoft.com</EmailAddressForLogsAndFeedback>
     <SendLogsAndFeedback>True</SendLogsAndFeedback>
@@ -137,6 +139,8 @@ ms.locfileid: "65106282"
 | \<DisableTeamsAudioSharing\>                | ブール値 &#x2777;            | First &#x2776; | 会議の会議参加者に対する HDMI オーディオ共有を無効にするには、true に設定Teams。 既定の設定は False です。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | \<FrontRowEnabled>                          | ブール値 &#x2777;            | First &#x2776; | 既定では有効になっています。 false の場合、フロント行は無効になります。
 | \<DefaultFoRExperience>                     | ブール値 &#x2777;            | First &#x2776; | 既定ではギャラリー ビュー。 既定のレイアウトをギャラリー ビューからフロント 行に変更するには、1 を配置します。
+| \<EnablePublicPreview\>                     | ブール値 &#x2777;            | First &#x2776; | 既定では無効になっています。 true の場合、パブリック プレビューが有効になり、エンド ユーザーは有効なTeams Roomsのパブリック プレビューの機能にアクセスできます。 詳細については、[WindowsのMicrosoft Teams Roomsのパブリック プレビュー](../public-preview-doc-updates.md#public-preview-for-microsoft-teams-rooms-on-windows)を参照してください。 |
+| \<NoiseSuppressionDefault\>                 | ブール値 &#x2777;            | First &#x2776; | 既定では有効になっています。 無効にするには 0 を指定します。 無効にしてもデスクトップ設定には影響しません。これは、Teams Room アカウントにのみ適用されます。
 | \<CortanaWakewordEnabled\>                  | ブール値 &#x2777;            | First &#x2776; | Cortanaウェイク ワード "Hey Cortana" を有効にするには、true に設定します。 この設定は、Cortana サービスが国または地域でサポートされ、接続されているオーディオ周辺機器がCortanaをサポートしている場合を除き、何の効果も得られません。 既定の設定は False です。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | \<SendLogs\>                                | コンテナー                   | First &#x2776; |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | \<EmailAddressForLogsAndFeedback\>          | 文字列  &#x2778;            |                | [フィードバックの送信] ウィンドウが表示されたときにログの送信先となるオプションのメールアドレスを設定します。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -274,7 +278,7 @@ XML 構成でルームの既定の表示レイアウトを設定しない場合�
 
 ## <a name="turn-off-front-row"></a>フロント行をオフにする
 
-フロント行は既定で有効になっています。 エンド ユーザーが特定の部屋でフロント行を使用できないようにする場合は、フロント行をオフにします。 これを行うには、XML 構成ファイルに追加 ```<FrontRowEnabled>false</FrontRowEnabled>``` します。
+フロント行は既定で有効になっています。 エンド ユーザーが特定の部屋でフロント行を使用することを許可しない場合は、フロント行をオフにします。 これを行うには、XML 構成ファイルに追加 ```<FrontRowEnabled>false</FrontRowEnabled>``` します。
 
 ## <a name="set-front-of-room-scale-and-resolution"></a>ルームのスケールと解像度の前面を設定する
 

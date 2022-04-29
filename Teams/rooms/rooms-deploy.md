@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 展開フェーズを含む、Microsoft Teams Rooms の展開方法の詳細については、この記事を参照してください。
-ms.openlocfilehash: 61fce84f9f3737f771e0417443de566444cc2ca2
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 18a5d72fb9c11b34bb994734b8d064c3aaa2cdae
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839078"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125772"
 ---
 # <a name="deployment-overview"></a>展開の概要
 
@@ -53,12 +53,12 @@ Microsoft Teams Rooms の展開は、基本的に次のフェーズに分けら�
 Microsoft Teams Rooms の展開を準備するには、次の主要な中心的タスクを実行します。
 
 -   Microsoft Teams Roomsリソース アカウントを定義します。
--   Teams Room をAzure Active Directoryに参加させる場合は、動的メンバーシップを持つAzure AD グループを準備して、すべてのTeams Rooms リソース アカウントを保持します。 これにより、条件付きアクセス ポリシーの適用など、将来の管理が簡略化されます。 動的グループAzure AD最も簡単に活用するために、Teams Roomsリソース アカウントを一意に識別する名前付け規則を決定します。
--   Teams Room を Active Directory に参加させる場合は、Microsoft Teams Roomsマシンとリソース アカウントを保持する組織単位と Active Directory グループを準備し、必要に応じて powerShell リモート処理を有効にするためにグループ ポリシー オブジェクト (GPO) を準備します。
+-   Azure Active DirectoryにTeams Rooms参加する場合は、動的メンバーシップを持つAzure AD グループを準備して、すべてのTeams Roomsリソース アカウントを保持します。 これにより、条件付きアクセス ポリシーの適用など、将来の管理が簡略化されます。 動的グループAzure AD最も簡単に活用するために、Teams Roomsリソース アカウントを一意に識別する名前付け規則を決定します。
+-   Teams Rooms Active Directory に参加する場合は、Microsoft Teams Roomsマシンとリソース アカウントを保持する組織単位と Active Directory グループを準備し、必要に応じてグループ ポリシー オブジェクト (GPO) を準備して PowerShell リモート処理を有効にします。
 
 ### <a name="define-microsoft-teams-rooms-resource-account-features"></a>リソース アカウント機能Microsoft Teams Rooms定義する 
 
-Microsoft Teams Roomsデプロイで有効にすることに決めたコラボレーション シナリオに応じて、有効にする各Microsoft Teams ルームに割り当てる機能と機能を決定する必要があります。
+Microsoft Teams Roomsデプロイで有効にすることを決定したコラボレーション シナリオに応じて、有効にする各Microsoft Teams Roomsに割り当てる機能と機能を決定する必要があります。
 
 | **シナリオ** | **説明** | **Microsoft Teams Rooms のサービス アカウント機能** |
 |---------- |------------- | --- |
