@@ -451,6 +451,8 @@ items:
                 href: teams-analytics-and-reports/pstn-minute-pools-report.md
               - name: PSTN の使用状況のレポート
                 href: teams-analytics-and-reports/pstn-usage-report.md
+              - name: Teams 電話会議ダイヤルアウトの使用状況レポート
+                href: audio-conferencing-dial-out-usage-report.md
               - name: Teams のライブ イベントの使用状況レポート
                 href: teams-analytics-and-reports/teams-live-event-usage-report.md
               - name: Teams 情報保護ライセンス レポート
@@ -543,9 +545,9 @@ items:
         items:
           - name: 別の組織のユーザーと通信する
             href: communicate-with-users-from-other-organizations.md
-          - name: 外部アクセス (フェデレーション)
+          - name: 外部会議とチャット
             items:
-              - name: 外部アクセスを管理する
+              - name: 外部会議とチャットを管理する
                 href: manage-external-access.md
               - name: ネイティブ Teams のチャット
                 href: native-chat-for-external-users.md
