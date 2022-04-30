@@ -20,12 +20,12 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teamsでポリシー パッケージを使用および管理して、ユーザー グループのポリシーを管理する際の一貫性を簡素化、合理化、および提供する方法について説明します。
-ms.openlocfilehash: 173d5d1488196ea048a64ce12916f8115362c572
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: d38384889e48e7d666036675b1a52ae194ea9582
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "63055307"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65144995"
 ---
 # <a name="manage-policy-packages-for-microsoft-teams"></a>Microsoft Teamsのポリシー パッケージを管理する
 
@@ -87,7 +87,7 @@ Teams現在、次のポリシー パッケージが含まれています。
 
 新しいカスタム ポリシー パッケージを作成するには:
 
-1. Microsoft Teams管理センターの左側のナビゲーションで、**ポリシー パッケージ** を選択し、[**追加**] をクリックします。
+1. Microsoft Teams管理センターの左側のウィンドウで、**ポリシー パッケージ** を選択し、[**追加**] をクリックします。
 
     :::image type="content" source="media/policy-packages-add.png" alt-text="管理センターの [ポリシー パッケージ] ページの [追加] ボタンのスクリーンショット。":::
 
@@ -97,7 +97,7 @@ Teams現在、次のポリシー パッケージが含まれています。
 
 3. パッケージに含めるポリシーの種類とポリシー名を選択します。
 
-4. [**保存**] をクリックします。
+4. **[保存]** を選択します。
 
 ## <a name="how-to-use-policy-packages"></a>ポリシー パッケージを使用する方法
 
@@ -120,17 +120,17 @@ Microsoft Teams管理センターでポリシー パッケージを表示、割�
 
 ### <a name="view-the-settings-of-a-policy-in-a-policy-package"></a>ポリシー パッケージ内のポリシーの設定を表示する
 
-1. Microsoft Teams管理センターの左側のナビゲーションで、**ポリシー パッケージ** を選択し、パッケージ名の左側をクリックしてポリシー パッケージを選択します。
+1. Microsoft Teams管理センターの左側のウィンドウで、**ポリシー パッケージ** を選択し、パッケージ名の左側をクリックしてポリシー パッケージを選択します。
 
-2. 表示するポリシーをクリックします。
+2. 表示するポリシーを選択します。
 
 ### <a name="customize-policies-in-a-policy-package"></a>ポリシー パッケージ内のポリシーをカスタマイズする
 
 ポリシーの設定は、[**ポリシー パッケージ**] ページを使用するか、Microsoft Teams管理センターのポリシー ページに直接移動して編集できます。
 
-1. Microsoft Teams管理センターの左側のナビゲーションで、次のいずれかの操作を行います。
-    - [ **ポリシー パッケージ**] をクリックし、パッケージ名の左側をクリックしてポリシー パッケージを選択します。
-    - ポリシーの種類をクリックします。  たとえば、[ **メッセージング ポリシー**] をクリックします。
+1. Microsoft Teams管理センターの左側のウィンドウで、次のいずれかの操作を行います。
+    - **[ポリシー パッケージ**] を選択し、パッケージ名の左側をクリックしてポリシー パッケージを選択します。
+    - ポリシーの種類を選択します。  たとえば、[ **メッセージング ポリシー**] をクリックします。
 
 2. 編集するポリシーを選択します。 ポリシー パッケージにリンクされているポリシーの名前は、ポリシー パッケージと同じです。
 
