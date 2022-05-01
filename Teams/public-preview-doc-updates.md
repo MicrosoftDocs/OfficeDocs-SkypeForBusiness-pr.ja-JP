@@ -18,12 +18,12 @@ description: Microsoft Teams のパブリック プレビューについて説�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: e3fdf0901d150df63fded6dc49822ad81f81f7d5
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: f814483cee8941d3fd29d2442d653c444915d1a5
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059188"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125782"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams パブリック プレビュー
 
@@ -73,6 +73,14 @@ Teams パブリック プレビューで利用可能な機能の一覧につい�
 
 > [!NOTE]  
 > このオプションは、**[プレビュー機能の表示]** が **[有効]** に設定されている場合のみ利用可能です。
+
+### <a name="public-preview-for-microsoft-teams-rooms-on-windows"></a>Windows の Microsoft Teams Rooms のパブリック プレビュー
+
+パブリック プレビューは既定でオフになっています。 パブリック プレビューがオンの場合、エンドユーザーは有効な Teams Rooms のパブリック プレビューにある機能にアクセスできます。 パブリック プレビューをオンにするには、XML 構成ファイルに ```<EnablePublicPreview>True</EnablePublicPreview>``` を追加します。
+
+パブリック プレビューに 5 - 10 台のデバイスを登録することをお勧めします。 
+
+すべてのパブリック プレビュー機能は、[Microsoft Teams パブリック プレビュー - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview) で発表されます。
 
 ## <a name="teams-now-follows-office-preview-users"></a>Office Preview ユーザーを Teams がフォロー
 

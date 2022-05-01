@@ -1,5 +1,5 @@
 ---
-title: 外部アクセス (フェデレーション) の管理
+title: 外部会議とチャットを管理する
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -17,20 +17,20 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.externalaccess.overview
 - seo-marvel-mar2020
-description: Teams または IT 管理者は、他のドメインの外部アクセス (フェデレーション) を構成して、それらのドメインのユーザーがユーザーとの会議を検索、呼び出し、チャット、設定できるようにすることができます。
+description: Teams または IT 管理者は、他のドメインの外部会議とチャットを構成して、それらのドメインのユーザーがユーザーとの会議を検索、呼び出し、チャット、設定できるようにすることができます。
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 06243ca47e26f66dd4194a9ec9e50cc5a6bfbde7
-ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
+ms.openlocfilehash: b3b1fb8a51993f0c1510a000e835bbae3098e11b
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "64642851"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125722"
 ---
-# <a name="manage-external-access-in-microsoft-teams"></a>Microsoft Teams での外部アクセスの管理
+# <a name="manage-external-meetings-and-chat-in-microsoft-teams"></a>Microsoft Teams で外部の会議とチャットを管理する
 
-外部アクセスとは、組織外の Teams ユーザーが Teams で会議の検索、呼び出し、チャット、設定を行うための手段です。 外部アクセスを使用して、Skype for Business (オンラインおよびオンプレミス) および Skype を引き続き使用している他の組織のユーザーと通信することもできます。
+*外部アクセス* 機能を使用して、外部会議を構成し、Teams でチャットすることができます。 外部アクセスとは、組織外の Teams ユーザーが Teams で会議の検索、呼び出し、チャット、設定を行うための手段です。 外部アクセスを使用して、Skype for Business (オンラインおよびオンプレミス) および Skype を引き続き使用している他の組織のユーザーと通信することもできます。
 
 他の組織のユーザーにチームやチャネルへのアクセスを許可する場合は、代わりにゲスト アクセスを使用してください。 外部アクセスとゲスト アクセスの違いの詳細については、「[外部アクセスとゲスト アクセスの比較](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)」を参照してください。 
 
@@ -42,9 +42,9 @@ ms.locfileid: "64642851"
 
 - ユーザーのメール アドレスを使用して、世界中の Teams のユーザーは誰でもそのユーザーを検索して連絡を取れるようにする場合。 
 
-## <a name="plan-for-external-access"></a>外部アクセスの計画
+## <a name="plan-for-external-meetings-and-chat"></a>外部会議とチャットを計画する
 
-外部アクセス ポリシーには、組織レベルとユーザー レベルの両方におけるフェデレーションの各種類に対する制御が含まれます。 ポリシーを組織レベルでオフにすると、ユーザー レベルの設定に関係なく、すべてのユーザーに対してオフになります。 既定では、すべての外部アクセス設定が有効になっています。
+外部アクセス ポリシーには、組織レベルとユーザー レベルの両方の制御が含まれます。 ポリシーを組織レベルでオフにすると、ユーザー レベルの設定に関係なく、すべてのユーザーに対してオフになります。 既定では、すべての外部アクセス設定が有効になっています。
 
 Teams 管理センターは、組織レベルで外部アクセスを制御します。 ほとんどのオプション (ドメイン制限を除く) は、PowerShell を使用してユーザー レベルで使用できます。 詳細については、以下の「[PowerShell の使用](#using-powershell)」を参照してください。
 

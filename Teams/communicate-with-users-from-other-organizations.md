@@ -17,24 +17,24 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-description: 外部アクセス (フェデレーション) とゲスト アクセスを使用して、Microsoft Teams で組織外のユーザーと電話およびチャットし、ユーザーを検索および追加する方法を説明します。
-ms.openlocfilehash: db5d29a9d7afd121c3cecc47aa3ce717bb815f54
-ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
+description: 外部アクセスとゲスト アクセスを使用して、Microsoft Teams で組織外のユーザーと電話およびチャットし、ユーザーを検索および追加する方法を説明します。
+ms.openlocfilehash: c2cf4a3820cceacf1f84401161d130995ecbc98f
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64592742"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125482"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>ゲスト アクセスと外部アクセスを使用して、組織外の人々とコラボレーションする
 
-組織外のユーザーとコミュニケーションや共同作業を行う必要がある場合、Microsoft Teams には次の 2 つのオプションがあります。
+この記事では、組織外の人々と協力するための 2 つのオプションについて説明します。
 
 - **外部アクセス** - ユーザーが他の組織のユーザーを検索、通話、およびチャットできるようにするフェデレーションの一種です。 これらのユーザーは、ゲストとして招待されない限り、チームに追加できません。
 - **ゲスト アクセス** - ゲスト アクセスでは、組織外のユーザーをチームに招待できます。 招待されたユーザーは、Azure Active Directory でゲスト アカウントを取得します。
 
-Teams を使用すると、組織外のユーザーを会議に招待できます。 これには、外部アクセスまたはゲスト アクセスを構成する必要はありません。
+Microsoft 365 の外部コラボレーションの完全な概要については、「[Microsoft 365 の外部コラボレーション オプションの概要](/microsoft-365/enterprise/external-guest-access)」を参照してください。
 
-## <a name="external-access-federation"></a>外部アクセス (フェデレーション)
+## <a name="external-access-external-chat-and-meetings"></a>外部アクセス (外部チャットおよび会議)
 
 Teams、Skype for Business (オンラインまたはオンプレミス)、Skype を使用する組織外のユーザーを検索、電話、チャット、および会議を設定する必要がある場合は、外部アクセスを設定します。 
 

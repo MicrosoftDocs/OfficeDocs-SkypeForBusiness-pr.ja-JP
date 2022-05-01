@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: どのセッション ボーダー コントローラー (SBC) がダイレクト ルーティングの認証済みであるかについて説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d8a1a3e739188859cf34ea60c0160e9532a9ab3d
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: 2ebc88b42257ca6f6f6cdce482d042b0dc3b406c
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556578"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125762"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングが認定されたセッション ボーダー コントローラー
 
@@ -49,9 +49,7 @@ Microsoft は以下の各ベンダーと協力します。
 
 次の表に、ダイレクト ルーティングに対応する認定済みデバイスを一覧表示します。 (ローカル メディアの最適化をサポートする SBC ベンダーの詳細については、「[ダイレクト ルーティング向けローカル メディアの最適化を構成する](direct-routing-media-optimization-configure.md)」を参照してください。)
 
-[ダイレクト ルーティングの詳細についてはこちらをご覧ください](https://aka.ms/dr)。
-ダイレクト ルーティングの SBC 認証プログラムに関する質問がある場合は、drsbccertification@microsoft.com にお問い合わせください。 今後通知がなされるまで、認定のための新しい推薦は受け付けないことに注意してください。
-<br/>
+[ダイレクト ルーティングの詳細についてはこちらをご覧ください](https://aka.ms/dr)。今後通知がなされるまで、認定のための新しい推薦は受け付けないことに注意してください。<br/>
 
 ## <a name="certified-sbc-vendors"></a>認定済み SBC ベンダー
 
@@ -91,8 +89,7 @@ Microsoft は以下の各ベンダーと協力します。
 |                                 |     1000 シリーズ向け Cisco Unified Border Element (CUBE) 集約サービス ルータ      |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.2.1r サポート済み (17.6.1a 推奨)         |    &#10004;     |    |
 |                                 |     Catalyst 8000 Edge プラットフォーム向け Cisco Unified Border Element (CUBE)      |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.3.2 サポート済み (17.6.1a 推奨)      |    &#10004;     |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    エンタープライズ向け Avaya セッション ボーダー コントローラー (ASBCE)    |     &#10004;     |       &#10004;     |       8.1.1 のリリース (メディア バイパス向け 8.1.2)      |     |    |
-|                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Nokia セッション ボーダー コントローラー    |     &#10004;     |           |       19.5 (1908)       |     |    |
-|                     |    Nokia セッション ボーダー コントローラー    |     &#10004;     |           |       20.8       |      &#10004;        |    |
+|                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Nokia セッション ボーダー コントローラー    |     &#10004;     |      &#10004;     |       22.0       |   &#10004;  |    |
 |                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |      &#10004;     |       5.0、5.1 サポート済み (5.3 推奨)     |     |    |
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    |
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Orchid Link    |     &#10004;     |           |      3.1        |     |    |
