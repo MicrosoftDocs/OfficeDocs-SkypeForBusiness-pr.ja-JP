@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5a8edd0afc2adde7a6867242dd0bdc0b406ca682
-ms.sourcegitcommit: 745d707ec63685ce7f973785e7056628472b9c45
+ms.openlocfilehash: 85277e9948dac1e083eb587f9bfc3787be3644a6
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "64910913"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65137158"
 ---
 # <a name="microsoft-365-app-compliance-program-for-security-compliance-and-privacy-of-third-party-apps"></a>サード パーティ製アプリのセキュリティ用 Microsoft 365 アプリ コンプライアンス プログラム、コンプライアンス、プライバシー
 
@@ -49,7 +49,7 @@ Microsoft コンプライアンス プログラムは、主要な業界標準の
 
 管理者は、3 つの方法で、発行元によって構成証明されたアプリをすばやく確認できます。
 
-* アプリに関する詳細情報を収集する場合、「[Microsoft Teams アプリのセキュリティとコンプライアンス](/microsoft-365-app-certification/teams/teams-apps)」で、特定のアプリのリンクで詳細を確認します。 または、Teams 管理センターで発行元の構成証明リンクを選択します。
+* アプリに関する詳細情報を収集する場合、「[Microsoft Teams アプリのセキュリティとコンプライアンス](/microsoft-365-app-certification/teams/teams-apps)」で、特定のアプリのリンクで詳細を確認するか、Teams 管理センターで発行元の構成証明リンクを選択します。
 
   :::image type="content" source="media/attested-app-tac3.png" alt-text="Teams 管理センターで、発行元による構成証明リンクをクリックして、アプリの構成証明の詳細を表示します":::
 
@@ -80,7 +80,7 @@ Microsoft コンプライアンス プログラムは、主要な業界標準の
 
 * Web 上のアプリに関する詳細情報を収集する場合は、アプリに関する Microsoft ドキュメントのシールド アイコンを参照してください。
 
-  :::image type="content" source="media/attested-app-doc-details.png" alt-text="アプリのセキュリティとコンプライアンスに関する詳細なヘルプ記事で、Microsoft 365 認定情報を確認してください。":::
+  :::image type="content" source="media/attested-app-doc-details.png" alt-text="アプリのセキュリティとコンプライアンスに関する詳細なヘルプ記事で、Microsoft 365 認定情報を確認してください":::
 
 * Teams 管理センターでアプリケーションを確認する場合は、[認定] 列を使用してアプリの一覧を並べ替えます。 アイコンを参照し、必要に応じてリンクを選択して、上記のアプリ固有のページにアクセスします。
 
@@ -92,13 +92,35 @@ Microsoft コンプライアンス プログラムは、主要な業界標準の
 
 * Teams 管理センターでアプリにアクセス許可を付与する場合、アプリ名の前に青いチェックマークが付いていると、アプリが発行元によって構成証明されたアプリと、Microsoft 365 認定されたアプリのどちらであるかを示します。
 
-   :::image type="content" source="media/attested-app-tac2.png" alt-text="管理者は、アプリが Microsoft 365 認定証明がされていることを確認するため、Teams 管理センターのアクセス許可を付与するダイアログで青いチェックマークをオンにできます。":::
+   :::image type="content" source="media/attested-app-tac2.png" alt-text="管理者は、アプリが Microsoft 365 認定証明がされていることを確認するため、Teams 管理センターのアクセス許可を付与するダイアログで青いチェックマークをオンにできます":::
 
-## <a name="view-security-compliance-and-privacy-information-in-microsoft-documentation"></a>Microsoft ドキュメントでセキュリティ、コンプライアンス、およびプライバシー情報を表示する
+## <a name="view-security-compliance-and-privacy-information"></a>セキュリティ、コンプライアンス、プライバシーの情報を表示する
 
-認定済みまたは認定済みのアプリの場合、各アプリのセキュリティ、プライバシー、コンプライアンスなどの詳細は、「[Microsoft Teams アプリのセキュリティとコンプライアンス](/microsoft-365-app-certification/teams/teams-apps)」からリンクされているアプリ固有のヘルプ記事に記載されています。
+Microsoft ドキュメントと Teams 管理センターでは、構成証明されたアプリまたは認定済みアプリのセキュリティ、プライバシー、コンプライアンス、および動作に関する情報を確認できます。
+
+### <a name="microsoft-documentation"></a>Microsoft ドキュメント
+
+リストされている各アプリのセキュリティ、プライバシー、コンプライアンスなどの詳細は、「[Microsoft Teams アプリのセキュリティとコンプライアンス](/microsoft-365-app-certification/teams/teams-apps)」からリンクされているアプリ固有のヘルプ記事に記載されています。
 
 :::image type="content" source="media/attested-app-doc-details.png" alt-text="Microsoft コンプライアンス プログラムを受けるアプリに関して提供される詳細情報。":::
+
+### <a name="teams-admin-center"></a>Teams 管理センター
+
+組織のアプリを評価するときは、Microsoft Cloud App Security (MCAS) などの独立した Cloud Access Security Brokers (CASB) を使用して、アプリのセキュリティと動作に関する情報を見つけることができます。 Teams 管理センターには、Microsoft 365 認定アプリの MCAS からのセキュリティとコンプライアンスの情報が含まれているため、アプリがニーズを満たしているかどうかを確認できます。
+
+> [!NOTE]
+> この機能は、組織が MCAS をサポートするライセンスを持っているかどうかにかかわらず、すべての管理者が利用できます。
+
+アプリの MCAS 情報にアクセスするには:
+
+1. Teams 管理センターで、**[Teams アプリ]** の **[アプリの管理]** を選択します。
+1. **[認定]** を選択してアプリを並べ替え、すべての Microsoft 365 認定アプリをテーブルの一番上にプッシュします。
+1. Microsoft 365 認定アプリを選択します。
+1. **[セキュリティとコンプライアンス]** タブを選択します。
+
+   :::image type="content" source="media/mcas.png" alt-text="Teams 管理センターの [セキュリティとコンプライアンス] タブを示すスクリーンショット":::
+
+   アプリでサポートされている機能の詳細を取得するには、各カテゴリのドロップダウン リストを選択します。
 
 <!--- TBD: Move to the permissions article 
 
@@ -119,7 +141,7 @@ After admins grant the org-wide permissions to an app, they can review the Graph
 
 Teams 管理センターの各アプリのページには、アプリのプライバシーに関する声明と利用規約へのリンクが含まれています。
 
-:::image type="content" source="media/tac-app-tou-privacy-info1.png" alt-text="管理者は、Teams 管理センターから、すべてのアプリのプライバシー ポリシーと利用規約へのリンクにアクセスできます。" lightbox="media/tac-app-tou-privacy-info2.png":::
+:::image type="content" source="media/tac-app-tou-privacy-info1.png" alt-text="管理者は、Teams 管理センターから、すべてのアプリのプライバシー ポリシーと利用規約へのリンクにアクセスできます" lightbox="media/tac-app-tou-privacy-info2.png":::
 
 <!--- TBD: Parking some content for later review. Check if this content needs to be published.
 
