@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 234121449025512f8a5ffe37814804cc775b7b37
-ms.sourcegitcommit: 0d61ca384e7d76612743de41c8fea4729072fb5e
+ms.openlocfilehash: 3ce84036102407c31076ea2ec12fb5dc96e6b082
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64837460"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125622"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams の Education Insights への IT 管理者ガイド
 
@@ -231,6 +231,17 @@ IT 管理者として、教職員やリーダーが Teams の使用を開始す�
 
 > [!NOTE]
 > Insights をオフにした場合、収集されたデータは削除されます。 オプトアウトによって削除されたデータは、Insights が再び有効になった場合でも、後から復元することはできません。
+
+
+### <a name="turn-machine-learning-in-insights-on-or-off"></a>Insights の機械学習をオンまたはオフにする
+
+既定では、Insights の機械学習ベースのエクスペリエンスはオフになっています。 これらの分析情報を許可するには、**[機械学習ベースの分析情報を許可する]** 必要があります。 このトグルをオンにしても、Education Insights によって既に収集されているデータ以外の追加データは収集されません。
+
+* この設定を調整するには、[SDS 管理センター](https://sds.microsoft.com/)を開き、**[設定]** > **[Education Insights の管理]** に移動します。 
+* **[機械学習ベースの分析情報を許可する]** トグルをオフまたはオンに調整します。
+
+> [!NOTE]
+> このトグルは、**[分析情報のアクティビティ データを収集する]** トグルに依存します。 **[分析情報のアクティビティ データを収集する]** をオフにすると、**[機械学習ベースの分析情報を許可する]** トグルもオフになります。
 
 ### <a name="turn-sds-for-insights-on-or-off"></a>Insights 用 SDS をオンまたはオフにする
 

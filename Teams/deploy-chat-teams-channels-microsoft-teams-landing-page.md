@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: 84c0ef026b16ec19337ef8840b2285a1a98e5193
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: a2d6ee4129128df8acf17906b0bc45140b57f6f4
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711731"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125502"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams のチャット、チーム、チャネル、およびアプリ
 
@@ -94,7 +94,7 @@ Teams は、組織のチームを管理するために使用できる、カス�
 
 |確認事項|アクション |
 |------------|-------|
-|<ul><li>自分の組織の外部アクセスをオフにするか?</li><li>有効にする場合は、自分の組織との通信を許可するドメインを制限するか?</li></ul> |<br>外部アクセスのオンとオフを切り替えるには、「[外部アクセスを計画する](manage-external-access.md#plan-for-external-access)」を参照してください。|
+|<ul><li>外部会議をオフにして、組織のチャットをしますか?</li><li>有効にする場合は、自分の組織との通信を許可するドメインを制限するか?</li></ul> |<br>外部会議とチャットをオンまたはオフにするには、「[外部会議とチャットの管理](manage-external-access.md)」を参照してください。|
 
 ### <a name="guest-access"></a>ゲスト アクセス
 
