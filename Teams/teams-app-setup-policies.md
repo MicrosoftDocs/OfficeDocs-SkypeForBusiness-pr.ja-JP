@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 328f2676ccec6cd1450166d7032877e176d5f1cd
-ms.sourcegitcommit: 745d707ec63685ce7f973785e7056628472b9c45
+ms.openlocfilehash: 7c00a5e70684a93f31a11d48ac542920fca3b697
+ms.sourcegitcommit: 9f7372f7568b4275169590510d2b7a0c0ad7577b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "64910823"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "65171733"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのセットアップ ポリシーを管理する
 
@@ -80,7 +80,7 @@ ms.locfileid: "64910823"
 
 1. **アプリ バー** または **メッセージング拡張機能** の下で、アプリをTeamsに表示する順序で配置します。
 
-   ![[ピン留めされたアプリ] セクション。](media/pin-messaging-extensions.png)
+   :::image type="content" source="media/pin-messaging-extensions.png" alt-text="[ピン留めされたアプリ] セクション"border="true":::
 
 1. **[保存]** を選択します。
 
@@ -216,7 +216,7 @@ Teamsモバイル クライアントを使用すると、アクティビティ�
 
 ### <a name="custom-teams-apps"></a>カスタム Teams アプリ
 
-#### <a name="my-organization-built-a-custom-teams-app-and-published-it-either-to-appsource-or-the-tenant-app-catalog-but-the-app-icon-isnt-displayed-as-expected-when-the-app-is-pinned-to-the-app-bar-in-teams-how-do-i-fix-it"></a>組織はカスタム Teams アプリを構築し、AppSource またはテナント アプリ カタログに発行しましたが、アプリがTeamsのアプリ バーにピン留めされている場合、アプリ アイコンは期待どおりに表示されません。 如何实现修正しますか?
+#### <a name="my-organization-built-a-custom-teams-app-and-published-it-either-to-appsource-or-the-tenant-app-catalog-but-the-app-icon-isnt-displayed-as-expected-when-the-app-is-pinned-to-the-app-bar-in-teams-how-do-i-fix-it"></a>組織はカスタム Teams アプリを構築し、AppSource またはテナント アプリ カタログに発行しましたが、アプリがTeamsのアプリ バーにピン留めされている場合、アプリ アイコンは期待どおりに表示されません。 操作方法修正しますか?
 
 アプリを送信する前に、必ずロゴ ガイドラインに従ってください。 詳細については、「 [販売者ダッシュボードの提出のチェックリスト](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview)」を参照してください。
 
