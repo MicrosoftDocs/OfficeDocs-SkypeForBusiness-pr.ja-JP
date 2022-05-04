@@ -21,12 +21,12 @@ MS.collection:
 - microsoftcloud-retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4d410d643dcf0c3753e87fa03e4040812dd9a5a
-ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
+ms.openlocfilehash: 051ea9a68cda344cf10bc297c84b3cbda6e61437
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65137038"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65186993"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織の Tasks アプリを管理する
 
@@ -37,7 +37,7 @@ Tasks アプリは、Microsoft Teams にまとまりのあるタスク管理エ�
 > [!NOTE]
 > Teams デスクトップ クライアントで Tasks エクスペリエンスをロールアウトする際、最初はアプリ名が **Planner** として表示されます。 その後、名前が一時的に **Planner と To Do による Tasks** に変更され、後で **Tasks** に変更されます。 Teams モバイル クライアントでは、アプリ名は常に **Tasks** と表示されます。 デスクトップ エクスペリエンスが利用可能になった後、モバイル エクスペリエンスの利用が多少遅れる場合があります。
 
-   ![Teams リストのタスク リスト表示のスクリーンショット。](media/manage-tasks-app-tasks.png)
+:::image type="content" source="media/manage-tasks-app-tasks.png" alt-text="タスクのリスト ビューのスクリーンショット。" lightbox="media/manage-tasks-app-tasks.png":::
 
 現場担当者のタスク管理を合理化したい組織のために、Tasks には、現場担当者全体のタスクを対象にし、発行し、追跡できる機能も含まれています。 たとえば、企業や地域のリーダーは、特定の小売店など、関連する場所を対象としたタスク リストを作成および発行したり、リアルタイム レポートを使用して進捗を追跡したりできます。 マネージャーは、各自のスタッフにタスクを割り当て、各自の場所内で作業を指示することができます。また、現場担当者は、割り当てられたタスクの優先順位リストをモバイルまたはデスクトップで確認できます。 [タスクの発行](#task-publishing)を有効にするには、まず、組織のチーム対象の階層を設定する必要があります。この階層では、すべてのチームが互いにどのように関連付けられているかを定義します。
 
@@ -75,9 +75,19 @@ Tasks は、組織内のすべての Teams ユーザーに対して既定で有�
 
 組織内の特定のユーザーによる Tasks の使用を許可またはブロックするには、[[アプリの管理]](manage-apps.md) ページで組織の Tasks がオンになっていることを確認してからカスタムのアプリのアクセス許可ポリシーを作成し、それらのユーザーに割り当てます。詳細については、[[Teams のアプリのアクセス許可ポリシーを管理する]](teams-app-permission-policies.md) を参照してください。
 
-### <a name="use-an-app-setup-policy-to-pin-tasks-to-teams"></a>アプリのセットアップ ポリシーを使用して、Tasks をチームにピン留めする
+### <a name="pin-tasks-to-teams"></a>タスクをTeamsにピン留めする
 
-アプリ セットアップ ポリシーを使用すると、組織内のユーザーにとって最も重要なアプリを強調表示するように Teams をカスタマイズできます。 ポリシーに設定されたアプリは、アプリ バー (Teams デスクトップ クライアントの横、および Teams モバイル クライアントの一番下にある) にピン留めされ、ユーザーはそこからすばやく簡単にアプリにアクセスできます。
+#### <a name="use-the-tailored-frontline-app-experience-to-pin-tasks-and-other-apps-to-teams"></a>カスタマイズされたフロントライン アプリ エクスペリエンスを使用して、タスクやその他のアプリをTeamsにピン留めする
+
+Teamsのカスタマイズされたフロントライン アプリ エクスペリエンスは、[F ライセンス](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)を持つユーザーにとってTeamsで最も関連性の高いアプリをピン留めします。 ピン留めされたアプリには、タスク、Walkie Talkie、Shifts、承認が含まれます。 既定では、この機能はオンになっており、現場のワーカーはニーズに合わせてすぐに使えるエクスペリエンスを提供します。
+
+アプリは、アプリ バー (Teams デスクトップ クライアントの側とTeamsモバイル クライアントの下部にあるバー) にピン留めされ、ユーザーはすばやく簡単にアクセスできます。
+
+設定したアプリ ポリシーでのエクスペリエンスの動作など、詳細については、「[現場のワーカー向けにアプリTeamsを調整する](pin-teams-apps-based-on-license.md)」を参照してください。
+
+#### <a name="use-an-app-setup-policy-to-pin-tasks-to-teams"></a>アプリのセットアップ ポリシーを使用して、Tasks をチームにピン留めする
+
+アプリのセットアップ ポリシーを使用すると、Teamsをカスタマイズして、ユーザーのユーザーにとって最も重要なアプリをピン留めできます。
 
 ユーザーの Tasks アプリをピン留めするには、グローバル (組織全体の既定) ポリシーを編集するか、カスタムのアプリ セットアップ ポリシーを作成して割り当てます。詳細については、「[Teams でアプリのセットアップ ポリシーを管理する](teams-app-setup-policies.md)」を参照してください。
 
@@ -91,10 +101,13 @@ Tasks は、組織内のすべての Teams ユーザーに対して既定で有�
 
 タスクを発行すると、組織内の特定の場所 (チーム) を対象としたタスク リストを発行して、それらの場所で完了する作業プランを定義および共有できます。
 
-- 企業や地域のリーダーなど、発行チームのメンバーは、タスク リストを作成し、特定のチームに発行できます。   ![タスクの発行のスクリーンショット。](media/manage-tasks-app-publish.png)
-- 受信チームのマネージャーは、発行されたタスク リストを確認し、個々のタスクをチーム メンバーに割り当てることができます。   ![タスクの割り当てのスクリーンショット。](media/manage-tasks-app-assign.png)
+- 企業や地域のリーダーなど、発行チームのメンバーは、タスク リストを作成し、特定のチームに発行できます。
+
+    :::image type="content" source="media/manage-tasks-app-publish.png" alt-text="タスクの発行のスクリーンショット。" lightbox="media/manage-tasks-app-publish.png":::
+- 受信チームのマネージャーは、発行されたタスク リストを確認し、個々のタスクをチーム メンバーに割り当てることができます。   :::image type="content" source="media/manage-tasks-app-assign.png" alt-text="タスクの割り当てのスクリーンショット。" lightbox="media/manage-tasks-app-assign.png":::
 - 現場担当者が自分に割り当てられているタスクを簡単に確認できる簡単なモバイル エクスペリエンスが備わっています。 必要に応じて写真を添付して作業内容を表示し、作業完了のマークを付けることができます。
-- 発行者とマネージャーは、場所 (チーム)、タスク リスト、個々のタスクなど、各レベルのタスクの割り当てと完了状態を表示できます。   ![モバイルに割り当て済みのタスクのスクリーンショット。](media/manage-tasks-app-reporting.png)
+- 発行者とマネージャーは、場所 (チーム)、タスク リスト、個々のタスクなど、各レベルのタスクの割り当てと完了状態を表示できます。
+    :::image type="content" source="media/manage-tasks-app-reporting.png" alt-text="公開されたタスクのスクリーンショット。" lightbox="media/manage-tasks-app-reporting.png":::
 
 ユーザーは、Tasks アプリの **[発行されたリスト]** タブでタスク リストを作成、管理、および発行します。 このタブは、組織が[チーム対象の階層を設定](#set-up-your-team-targeting-hierarchy)し、ユーザーが階層に含まれるチームに所属している場合にのみ、ユーザーに表示されます。 階層によって、ユーザーがタスク リストを発行または受信し、受信したリストのレポートを表示できるかどうかが決まります。
 

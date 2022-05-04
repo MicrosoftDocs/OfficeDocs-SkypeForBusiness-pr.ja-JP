@@ -18,12 +18,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c19894106dfd06c13ec9936657837aa42fcdade0
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 776f0f31d54788fbffd86bbcbedd44e30ada28a3
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "62015017"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65186973"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams のトランシーバー アプリ
 
@@ -35,23 +35,25 @@ Teamsの Walkie Talkie を使用すると、現場のワーカーは、かさば
 
 ### <a name="deploying-walkie-talkie"></a>トランシーバーの展開
 
-Walkie Talkie は、Google Mobile Services (GMS) および iOS デバイスを搭載した Android デバイスでサポートされています。 
+Walkie Talkie は、Google Mobile Services (GMS) および iOS デバイスを搭載した Android デバイスでサポートされています。
 
-現在、トランシーバーはプリインストールされていません。 組織内のユーザーに対してこの機能を有効にするには、[[Teams 管理センター]](https://admin.teams.microsoft.com/) からユーザーに割り当てられた [アプリ セットアップ ポリシー](teams-app-setup-policies.md) にトランシーバーを追加する必要があります。 有効にすると、Walkie Talkie は 48 時間以内にアプリで利用できるようになります。
+### <a name="pin-walkie-talkie-to-teams"></a>Walkie Talkie をTeamsにピン留めする
 
-### <a name="adding-walkie-talkie-to-your-app-list"></a>トランシーバーをアプリ リストに追加する
+#### <a name="use-the-tailored-frontline-app-experience-to-pin-walkie-talkie-and-other-apps-to-teams"></a>カスタマイズされたフロントライン アプリ エクスペリエンスを使用して、Walkie Talkie やその他のアプリをTeamsにピン留めする
 
-Microsoft Teams 管理センターの **[Teams アプリ]** > **[セットアップ ポリシー]** で、**[ユーザーのピン留めを許可]** を **[オン]** に設定する必要があります。 次に、「ピン留めされたアプリ」セクションで、**[アプリの追加]** をクリックします。
+Teamsのカスタマイズされたフロントライン アプリ エクスペリエンスは、[F ライセンス](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)を持つユーザーにとってTeamsで最も関連性の高いアプリをピン留めします。 ピン留めされたアプリには、Walkie Talkie、Shifts、Tasks、承認が含まれます。 既定では、この機能はオンになっており、現場のワーカーはニーズに合わせてすぐに使えるエクスペリエンスを提供します。
 
-:::image type="content" source="media/deploy-walkie-talkie-1.png" alt-text="「ピン留めされたアプリ」セクションと選択する [アプリの追加] ボタンが表示されます。":::
+アプリは、アプリ バー (Teams デスクトップ クライアントの側とTeamsモバイル クライアントの下部にあるバー) にピン留めされ、ユーザーはすばやく簡単にアクセスできます。
 
-右側に表示される **[ピン留めされたアプリを追加]** パネルで、**[検索]** テキストボックスを使用してトランシーバーを探します。 検索結果として表示されたら、名前の右側にある [ **追加** ] ボタンを選択して、リストに追加します。
+設定したアプリ ポリシーでのエクスペリエンスの動作など、詳細については、「[現場のワーカー向けにアプリTeamsを調整する](pin-teams-apps-based-on-license.md)」を参照してください。
 
-:::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="検索ウィンドウにトランシーバーが入力された [ピン留めされたアプリを追加] サイドバーと、検索結果にトランシーバー アプリが表示され、その横に [追加] ボタンが表示されます。":::
+#### <a name="use-an-app-setup-policy-to-pin-walkie-talkie-to-teams"></a>アプリセットアップ ポリシーを使用して Walkie Talkie をTeamsにピン留めする
 
-トランシーバー アプリが [ピン留めされたアプリ] リストに表示され、**[保存]** ボタンをクリックすると使用できるようになります。
+アプリのセットアップ ポリシーを使用すると、Teamsをカスタマイズして、ユーザーのユーザーにとって最も重要なアプリをピン留めできます。
 
-:::image type="content" source="media/deploy-walkie-talkie-3.png" alt-text="トランシーバー アプリが追加されたピン留めされたアプリのリストと、リストの下にある [保存] ボタンが表示されます。":::
+ユーザーの Walkie Talkie アプリをピン留めするには、グローバル (組織全体の既定) ポリシーを編集するか、カスタム アプリ設定ポリシーを作成して割り当てることができます。 詳細については、「[Teams でアプリの設定ポリシーを管理する](teams-app-setup-policies.md)」を参照してください。
+
+:::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="[ピン留めされたアプリの追加] ウィンドウのピン留めされたアプリの一覧に Walkie Talkie を追加する方法を示すスクリーンショット。" lightbox="media/deploy-walkie-talkie-2.png":::
 
 ### <a name="network-documentation"></a>ネットワーク ドキュメント
 

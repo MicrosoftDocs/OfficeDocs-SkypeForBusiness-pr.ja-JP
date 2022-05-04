@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams for Education での保護者の管理者Microsoft Teams for Education
+title: Microsoft Teams for Educationでの保護者の管理者セットアップ
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: ''
-description: Microsoft Teamsの前提条件とセットアップについて説明した記事Microsoft Teams for Education。
+description: Microsoft Teams for Educationでの保護者の前提条件とセットアップに関する記事Microsoft Teams。
 ms.localizationpriority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 search.appverid: MET150
@@ -17,65 +17,93 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8d1b84fc78558fcbb1945cbc56b311b5e06234a5
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: d80006e46598d03dd8defffe7baf4ada17415fe2
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062531"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65187113"
 ---
-# <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>[親接続の設定] Microsoft Teams for Education
+# <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Microsoft Teams for Educationで親接続を設定する
 
-Microsoft Teams for Education の親接続は、教師が Teams チャットを使用して、クラス チームの学生の保護者と安全に接続し、関与するのに役立ちます。このチャットは、教師の組織全体で拡張されます。 保護者のすべてのデータは、IT スタッフがスムーズに設定学校データ同期を使用してプロビジョニングされます。
+Microsoft Teams for Educationの親接続は、教育者がTeamsを使用して、クラス チームの学生の保護者と安全に接続して関わるのに役立ちます。
 
-教師と保護者が設定された後、教師と保護者はチャットを使ってTeamsできます。 
+この記事では、親接続の要件とセットアップに関する教育 IT プロフェッショナル向けのガイダンスを提供します。
 
-保護者を教師に接続する方法のガイダンスについては、「Connectの教師と一緒に[Teams。](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960)
+## <a name="share-guardian-and-educator-resources"></a>保護者と教育者のリソースを共有する
 
-保護者とコミュニケーションを取る教師を設定する方法のガイダンスについては、「保護者とコミュニケーションを取る」を[参照](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e?ui=en-us&rs=en-us&ad=us)Microsoft Teams。
+IT 管理者が保護者や教育者と親接続の使用を開始する方法について共有できるリソースを次に示します。
 
-保護者は教師ありチャットでも機能します。 保護者は完全な Teams アクセス許可を持たなかったり、学生との会話を開始したり、フルアクセス許可のユーザー (教師など) をチャットから削除したりすることはできません。 教師ありチャットの詳細については、「[教師ありチャット](supervise-chats-edu.md)を使用する」を参照Microsoft Teams。
+- 保護者の設定に関するガイダンスについては、[Teamsの教育者とのConnectを](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960)参照してください。
+- 教育者のセットアップに関するガイダンスについては、「[Microsoft Teamsで保護者とコミュニケーションを](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e?ui=en-us&rs=en-us&ad=us)取る」を参照してください。
+
+## <a name="benefits-of-parent-connection"></a>親接続の利点
+
+保護者向け接続を使用すると、教育者や保護者は、Teamsを使用してチャット、電子メール、通話を行うことができます。
+
+- Teams保護者の連絡先データは、学校データ同期 (SDS) を使用して SIS で最新の状態を維持します。
+- 監視付きチャットで動作します。 詳細については、「[Microsoft Teamsで監視付きチャットを使用する](supervise-chats-edu.md)」を参照してください。
+  - 保護者は既定でアクセス許可を制限しているため、学生とチャットしたり、チャットからユーザーを削除したりすることはできません。
+  - この設定は、テナント管理者が変更できます。
+- 教師は保護者とチャットを開始できます。
+  - 保護者がTeamsコンシューマー アカウントを持っていない場合は、教育者からの最初のメッセージと、Teamsに移動するための電子メール招待が届きます。
+- 教師は保護者のメールをクリックして、ネイティブメール クライアントを使用してメールを送信できます。
+- 教師は保護者の電話番号をクリックして、Teams内で電話をかけることができます。
+
+> [!IMPORTANT]
+> Teamsでクリックして機能を呼び出すには、テナントが必要です。
+>
+> - Public Branch Exchange (PBX) 機能。
+> - PSTN への接続。
+>
+> Microsoft 365 A1および A3 プランには、PBX 機能や PSTN 接続は含まれません。 [これらのそれぞれに対してアドオン ライセンスを](/teams-add-on-licensing/microsoft-teams-add-on-licensing)購入できます。
+>
+> Microsoft 365 A5プランには、Teams 電話システムを使用した PBX 機能のみが含まれます。 引き続き[、Teams通話プランを購入するか、サード パーティのソリューションを使用](pstn-connectivity.md)して PSTN の外部番号に接続する必要があります。
+>
+> PSTN 接続を取得するためのすべてのオプションの詳細については、「 [PSTN 接続オプション」を](pstn-connectivity.md)参照してください。
+>
+> ライセンスの呼び出しTeamsの詳細については、「[アドオン ライセンス オプションTeams](/teams-add-on-licensing/microsoft-teams-add-on-licensing)参照してください。
 
 ## <a name="requirements"></a>要件
 
 ### <a name="school-data-sync"></a>学校データ同期
 
-- 各学生学校データ同期保護者に関連する連絡先情報を入力するには、SDS (サポート情報) **が必要** です。
+- 各学生の親および保護者 **関連の連絡先情報** を設定するには、学校データ同期 (SDS) が必要です。
   - [SDS を展開する](/schooldatasync/parents-and-guardians-in-sds)
 
-- SDS の設定と、テナント内の学生の保護者関連の連絡先の設定に関するサポートが必要な場合は、次の方法で EDU Customer Success チームに問い合わせてください。
-  - RFA プロセスの[完了 (FastTrack](https://www.microsoft.com/fasttrack?rtc=1))。
-  - サポートでチケットを開 [く](https://aka.ms/sdssupport)。
+- SDS を設定し、テナント内の学生に親および保護者 **関連の連絡先** を設定する際にサポートが必要な場合は、次の方法で EDU Customer Success チームにお問い合わせください。
+  - [FastTrack](https://www.microsoft.com/fasttrack?rtc=1)で RFA プロセスを完了する。
+  - [サポート](https://aka.ms/sdssupport)でチケットを開きます。
 
-- 現在、SDS では、親連絡先の CSV ベースのデータ インジェストのみをサポートしています。ただし、すべてのリスト データに [PowerSchool API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-powerschool-sync) または [OneRoster API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-oneroster-sync) を使用し、CSV を使用して親連絡先を追加できます。
-  - [SDS v1 CSV 同期形式を使用して、2 つ目の同期プロファイルを作成します](/schooldatasync/school-data-sync-format-csv-files-for-sds)。
-  - 残りの v1 ファイルが空 [の 2](/schooldatasync/parent-contact-sync-file-format) つの親ファイルをプルします (ヘッダーだけ)。
+- 現在、SDS では親連絡先の CSV ベースのデータ インジェストのみがサポートされています。ただし、すべての名簿データに [PowerSchool API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-powerschool-sync) または [OneRoster API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-oneroster-sync) を使用し、CSV を使用して親連絡先を追加するだけです。
+  - [SDS v1 CSV 同期形式](/schooldatasync/school-data-sync-format-csv-files-for-sds)を使用して、2 つ目の同期プロファイルを作成します。
+  - 設定された 2 つの [親ファイル](/schooldatasync/parent-contact-sync-file-format) をプルし、残りの v1 ファイルを空にします (ヘッダーのみ)。
     - User.csv
     - Guardianrelationship.csv
-  - v1 CSV ファイルのサンプル セットを表示するには、「最小必須属性」を参照GitHub[してください](https://github.com/OfficeDev/O365-EDU-Tools/tree/master/CSV%20Samples/SDS%20Format/Min%20Required%20Attributes)。
-  - 初期同期後に CSV ファイルのプルを自動化する場合は、CSV ファイル同期 Automation に関する [ドキュメントを参照してください](/schooldatasync/csv-file-sync-automation)。
-  - SDS データ同期の設定に関するヘルプが必要な場合[](https://www.microsoft.com/fasttrack?rtc=1)は、カスタマー サクセス チームに連絡するか、サポート [チケットを開きます](https://edusupport.microsoft.com/support?product_id=data_sync)。
+  - v1 CSV ファイルのサンプル セットを表示するには、「[最小必須属性GitHubファイル」を](https://github.com/OfficeDev/O365-EDU-Tools/tree/master/CSV%20Samples/SDS%20Format/Min%20Required%20Attributes)参照してください。
+  - 初期同期後に CSV ファイルのプルを自動化する場合は、[CSV File Sync Automation ドキュメント](/schooldatasync/csv-file-sync-automation)を参照してください。
+  - SDS データ同期の設定に関するヘルプについては、 [カスタマー サクセス チーム](https://www.microsoft.com/fasttrack?rtc=1) に連絡するか、 [サポート チケットを開いてください](https://edusupport.microsoft.com/support?product_id=data_sync)。
 
-### <a name="teams-admin-center---policies"></a>Teams 管理センター - ポリシー
+### <a name="teams-admin-center---policies"></a>Teams管理センター - ポリシー
 
-- クラス チームの所有者は、チャットTeamsオンになっている必要があります。
-- クラス チームの所有者は、組織によって管理されていないアカウントTeams **外部アクセス権を持っている** 必要があります。
-  - これは、テナント レベルとユーザー レベルで有効になっている必要があります。 テナント レベルの設定は、管理センターの [ユーザー> **外部** アクセス] Teamsにあります。 この設定には、PowerShell を使用してアクセスできます。 ユーザー レベルの外部アクセス ポリシーには、PowerShell 経由でのみアクセスできます。 詳細なガイダンスについては、以下の PowerShell コマンドを参照してください。
+- クラス チームの所有者は、チャットTeams有効にする必要があります。
+- クラス チームの所有者は、**組織が管理していないTeams アカウント** を有効にした外部アクセス権を持っている必要があります。
+  - これは、テナント レベルとユーザー レベルで有効にする必要があります。 テナント レベルの設定は、Teams管理センターの **ユーザー >外部アクセス** にあります。 この設定には、PowerShell を使用してアクセスすることもできます。 ユーザー レベルの外部アクセス ポリシーには、PowerShell 経由でのみアクセスできます。 詳細については、以下の PowerShell コマンドを参照してください。
 
 > [!NOTE]
->保護者は、保護者機能で外部ユーザーとして分類されます。つまり、完全なテナント権限はありません。 ユーザーは、追加されたチャットまたはチャットだけでなく、チャットで共有されているファイル、画像、その他のコンテンツにのみアクセスできます。
+>保護者は、親機能の外部ユーザーとして分類されます。つまり、完全なテナント権限がありません。 チャットまたはチャットにアクセスできるのは、追加されたチャットだけでなく、チャットで共有されているファイル、画像、その他のコンテンツのみです。
 >
->また、外部ユーザーは組織のユーザーのプレゼンス (オフライン、利用可能、取り込み中など) を確認できますが、これは PowerShell を使用してユーザーのプライバシーを保護するためにオフにできます。 PowerShell で [Set-CsPrivacyConfiguration を使用し、](/powershell/module/skype/set-csprivacyconfiguration) を設定します ``EnablePrivacyMode=true``。
+>また、外部ユーザーは組織のユーザーのプレゼンス (オフライン、使用可能、ビジーなど) を表示できますが、PowerShell を使用してユーザーのプライバシーを保護するためにオフにすることができます。 PowerShell では、 [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) と set ``EnablePrivacyMode=true``を使用します。
 >
->保護者が外部ユーザーである場合でも、チャットへの投稿は検出可能です。 「電子情報開示の調査を行Teams電子情報開示調査を行う」を参照して、電子情報開示調査を実施[する方法Microsoft Teams](ediscovery-investigation.md)。
+>保護者が外部ユーザーであっても、チャットへの貢献は検出可能です。 Microsoft Teamsでコンテンツの電子情報開示調査を実施する方法に関する記事を参照して[、Teams電子情報開示調査を実施](ediscovery-investigation.md)する方法について説明します。
 
-## <a name="allow-external-access-with-teams-accounts-not-managed-by-an-organization"></a>組織が管理していないアカウントTeams外部アクセスを許可する
+## <a name="allow-external-access-with-teams-accounts-not-managed-by-an-organization"></a>組織で管理されていないTeams アカウントで外部アクセスを許可する
 
-教師が Teams で保護者と通信するには、教育機関のテナントの IT 管理者がテナントのポリシーを更新して、テナントの外部の Teams アカウントに対する外部アクセスを許可する必要があります。 外部アクセスの管理の詳細については、「外部アクセスの管理」を参照[Microsoft Teams](manage-external-access.md)。
+教育者がTeamsで保護者と通信できるようにするには、教育テナントの IT 管理者がテナントのポリシーを更新して、テナント外のTeams アカウントに対する外部アクセスを許可する必要があります。 外部アクセスの管理の詳細については、「[Microsoft Teamsの外部アクセスの管理](manage-external-access.md)」を参照してください。
 
-保護者の外部アクセスを有効にする手順を次に示します。
+保護者向けの外部アクセスを有効にする手順を次に示します。
 
-1. PowerShell モジュール プレビュー Microsoft Teams最新バージョンをインストールします。
+1. 最新のMicrosoft Teams PowerShell モジュール プレビューをインストールします。
 
     ```powershell
     Install-Module -Name PowerShellGet -Force -AllowClobber
@@ -89,49 +117,49 @@ Microsoft Teams for Education の親接続は、教師が Teams チャットを�
     Connect-MicrosoftTeams -Credential $credential
     ```
 
-    ユーザー レベル (`EnableTeamsConsumerAccess`) で組織によって管理されていない Teams アカウントで外部アクセスを有効にするポリシー設定は、すべてのユーザー レベルの外部アクセス ポリシーに対して既定で有効になっています。 ユーザーが組織によって管理されていない Teams アカウントで外部アクセスを持つには、テナント レベルの設定とユーザー レベルのポリシー設定の両方を有効にする必要があります。 テナント内のすべてのユーザーにこのアクセスを有効にしたくない場合は、テナント レベルの設定がオフになっていることを確認し、ユーザーに割り当てられているユーザー レベルの外部アクセス ポリシーを更新してから、テナント レベルの設定を有効にする必要があります。
+    ユーザー レベル (`EnableTeamsConsumerAccess`) で組織によって管理されていないTeams アカウントを使用して外部アクセスを有効にするポリシー設定は、すべてのユーザー レベルの外部アクセス ポリシーに対して既定でオンになっています。 ユーザーが組織によって管理されていないTeams アカウントで外部アクセス権を持つには、テナント レベルの設定とユーザー レベルのポリシー設定の両方を有効にする必要があります。 テナント内のすべてのユーザーにこのアクセスを有効にしたくない場合は、テナント レベルの設定がオフになっていることを確認し、ユーザーに割り当てられているユーザー レベルの外部アクセス ポリシーを更新してから、テナント レベルの設定をオンにする必要があります。
 
-    どのユーザーレベルの外部アクセス ポリシーが存在し、誰に割り当てられているのか確認するには、次の手順を使用します。
+    どのユーザー レベルの外部アクセス ポリシーが存在し、誰に割り当てられているかを確認するには、次の手順を使用します。
 
-3. ユーザー レベルの外部アクセス ポリシーが存在する必要があります。
+3. ユーザー レベルの外部アクセス ポリシーが存在することを確認します。
 
     ```powershell
     Get-CsExternalAccessPolicy
     ```
 
-4. "グローバル" ポリシー以外の各ポリシーについて、ポリシーが割り当てられているユーザーを確認します。
+4. 'Global' ポリシー以外のポリシーごとに、ポリシーが割り当てられているユーザーを確認します。
 
    > [!NOTE]
-   > 特定のポリシーが割り当てられていないユーザーは、"グローバル" ポリシーに戻されます。 テナントに追加された新しいユーザーには、"グローバル" ポリシーが割り当てられます。
+   > 特定のポリシーが割り当てられていないユーザーは、"グローバル" ポリシーにフォールバックします。 テナントに追加されたすべての新しいユーザーには、"グローバル" ポリシーが割り当てられます。
 
     ```powershell
     Get-CsOnlineUser -Filter {ExternalAccessPolicy -eq "<PolicyName>"} | Select-Object DisplayName,ObjectId,UserPrincipalName
     ```
 
-`EnableTeamsConsumerAccess`すべてのユーザー レベルの外部アクセス ポリシーは既定で true `EnableTeamsConsumerAccess` に設定されています。特定のユーザーの設定を調整する場合は、次の PowerShell コマンドレットを使用して、調整された設定で既存の外部アクセス ポリシーを作成/変更したり、ユーザーを新規または既存のポリシーに再割り当てすることができます。
+すべてのユーザー レベルの外部アクセス ポリシーは `EnableTeamsConsumerAccess` 既定で true に設定されているため、特定のユーザーの設定を調整 `EnableTeamsConsumerAccess` する場合は、次の PowerShell コマンドレットを使用して、設定を調整して既存の外部アクセス ポリシーを作成または変更したり、新しいポリシーまたは既存のポリシーにユーザーを再割り当てしたりできます。
 
-- 新しい外部アクセス ポリシーを作成する: [New-CsExternalAccessPolicy](/powershell/module/skype/new-csexternalaccesspolicy)
+- 新しい外部アクセス ポリシーの作成: [New-CsExternalAccessPolicy](/powershell/module/skype/new-csexternalaccesspolicy)
 
-- 既存の外部アクセス ポリシー ("グローバル" ポリシーを含む) をカスタマイズする: [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy)
+- 既存の外部アクセス ポリシーをカスタマイズする ("グローバル" ポリシーを含む): [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy)
 
 > [!NOTE]
-> "FederationAndPICDefault"、"FederationOnly"、"NoFederationAndPIC" のサブスクリプションの既定のポリシーは変更できません。 既定ではすべてのユーザーに割り当てられた 'FederationAndPICDefault' ポリシーが使用されましたが、新しいユーザーには既定で "グローバル" ポリシーが割り当てられます。 これらのサブスクリプションの既定のポリシーが割り当てられているユーザーのポリシー設定を変更する必要がある場合は、正しい設定の異なるポリシーをこれらのユーザーに割り当てる必要があります。
+> 次のサブスクリプションの既定のポリシーは変更できません。'FederationAndPICDefault'、'FederationOnly'、'NoFederationAndPIC'。 'FederationAndPICDefault' ポリシーは、既定ですべてのユーザーに割り当て以前は使用されましたが、新しいユーザーには既定で 'Global' ポリシーが割り当てられます。 これらのサブスクリプションの既定のポリシーが割り当てられているユーザーのポリシー設定を変更する必要がある場合は、これらのユーザーに正しい設定で異なるポリシーを割り当てます。
 
 - 1 人のユーザーに外部アクセス ポリシーを割り当てる: [Grant-CsExternalAccessPolicy](/powershell/module/skype/grant-csexternalaccesspolicy)
 
 - 一連のユーザーにポリシーを割り当てる: [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
-テナント内のユーザーに対してユーザー レベルの外部アクセス ポリシーが正しく設定された後は、次のコマンドレットを使用して、テナントのテナント レベルの設定 (`AllowTeamsConsumer`) を有効にできます。
+テナント内のユーザーに対してユーザー レベルの外部アクセス ポリシーが正しく設定されたら、次のコマンドレットを使用してテナントのテナント レベルの設定 (`AllowTeamsConsumer`) を有効にすることができます。
 
 - テナントのフェデレーション構成設定を設定する: [Set-CsTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration)
 
-## <a name="turn-on-the-parents-app-in-the-teams-admin-center"></a>管理センターで保護者アプリをTeamsする
+## <a name="turn-on-the-parents-app-in-the-teams-admin-center"></a>Teams管理センターで保護者向けアプリを有効にする
 
-保護者アプリは既定で無効になっているので、クラス チームの所有者は、管理センターで許可されるまで、クラス チームのTeamsされません。 保護者向けアプリは、パブリッシャーによってブロックTeamsアプリを許可するを使用して、管理センター[で有効にされます](manage-apps.md#apps-blocked-by-publishers)。
+保護者向けアプリは既定でオフになっているため、クラス チームの所有者は、Teams管理センターを通じて許可されるまで、そのアプリをクラス チームに表示しません。 保護者向けアプリは、[発行元によってブロックされた](manage-apps.md#apps-blocked-by-publishers)アプリを許可するを使用して、Teams管理センターで有効になっています。
 
-アプリは、管理センターの [許可] と [ブロック] を使用[](manage-apps.md#allow-and-block-apps)して、テナント レベルTeamsできます。 テナント レベルでオフになっている場合、ユーザー レベルのアクセス許可が有効になっている場合でも、すべてのユーザーに対してブロックされます。
+アプリはいつでも、Teams管理センターでアプリを[許可およびブロック](manage-apps.md#allow-and-block-apps)して、テナント レベルでオフにすることができます。 テナント レベルでオフになっている場合、ユーザー レベルのアクセス許可がオンになっている場合でも、すべてのユーザーに対してブロックされます。
 
-Parents アプリは、アプリのアクセス許可ポリシーの管理を使用して、ユーザー レベルでオフ[Microsoft Teams](teams-app-permission-policies.md)。
+保護者向けアプリは、[Microsoft Teamsのアプリアクセス許可ポリシーの管理](teams-app-permission-policies.md)を使用して、ユーザー レベルでオフにすることもできます。
 
 ## <a name="more-information"></a>詳細情報
 

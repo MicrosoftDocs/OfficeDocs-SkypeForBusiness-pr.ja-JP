@@ -24,12 +24,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2dcc945795da34ed3045ffadbc55445303b48281
-ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
+ms.openlocfilehash: 2cd0032291054e5a4c7ee8d9204d6173cdcdebdf
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65137008"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65187003"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織のシフト アプリを管理する
 
@@ -71,9 +71,19 @@ Shifts データのストレージ、リテンション期間、取得、暗号�
 
 組織内の特定のユーザーに Shifts の使用を許可またはブロックするには、[ [アプリの管理](../../manage-apps.md) ] ページで組織の Shift が有効になっていることを確認します。 次に、カスタム アプリのアクセス許可ポリシーを作成し、それらのユーザーに割り当てます。 詳細については、「[Teams のアプリのアクセス許可ポリシーを管理する](../../teams-app-permission-policies.md)」を参照してください。
 
-### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>アプリのセットアップ ポリシーを使用して Shifts をTeamsにピン留めする
+### <a name="pin-shifts-to-teams"></a>Teamsにシフトをピン留めする
 
-アプリ セットアップ ポリシーを使用すると、組織内のユーザーにとって最も重要なアプリを強調表示するように Teams をカスタマイズできます。 ポリシーに設定されたアプリは、アプリ バー (Teams デスクトップ クライアントの横、および Teams モバイル クライアントの一番下にある) にピン留めされ、ユーザーはそこからすばやく簡単にアプリにアクセスできます。
+#### <a name="use-the-tailored-frontline-app-experience-to-pin-shifts-and-other-apps-to-teams"></a>調整済みフロントライン アプリ エクスペリエンスを使用して、Shifts やその他のアプリをTeamsにピン留めする
+
+Teamsのカスタマイズされたフロントライン アプリ エクスペリエンスは、[F ライセンス](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)を持つユーザーにとってTeamsで最も関連性の高いアプリをピン留めします。 ピン留めされたアプリには、Shifts、Walkie Talkie、Tasks、承認が含まれます。 既定では、この機能はオンになっており、現場のワーカーはニーズに合わせてすぐに使えるエクスペリエンスを提供します。
+
+アプリは、アプリ バー (Teams デスクトップ クライアントの側とTeamsモバイル クライアントの下部にあるバー) にピン留めされ、ユーザーはすばやく簡単にアクセスできます。
+
+設定したアプリ ポリシーでのエクスペリエンスの動作など、詳細については、「[現場のワーカー向けにアプリTeamsを調整する](../../pin-teams-apps-based-on-license.md)」を参照してください。  
+
+#### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>アプリのセットアップ ポリシーを使用して Shifts をTeamsにピン留めする
+
+アプリセットアップ ポリシーを使用すると、ユーザーにとって最も重要なアプリをピン留めするためにTeamsをカスタマイズできます。
 
 Shifts アプリを追加して [カスタム アプリセットアップ ポリシー](../../teams-app-setup-policies.md) を作成し、その [ポリシーをユーザーに割り当てることができます](../../assign-policies-users-and-groups.md) 。 または、Frontline Worker および Frontline Manager ポリシー パッケージの一部であるアプリ設定ポリシーを使用することもできます。
 

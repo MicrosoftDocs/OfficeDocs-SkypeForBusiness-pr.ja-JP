@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c3112740ab2b25b0f0107823d41c5b5e2d68f0f
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 4f717672c4cb297d7f3d2e95ceaa038eeceaa2ee
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059308"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65187123"
 ---
 # <a name="tailor-teams-apps-for-your-frontline-workers"></a>現場担当者向けに Teams アプリを調整する
 
@@ -29,7 +29,7 @@ ms.locfileid: "65059308"
 
 ## <a name="overview"></a>概要
 
-Teams は、現場担当者向けのアプリを簡単にピン留めする方法を提供します。 この機能は、ライセンスに基づいてアプリをピン留めして、現場担当者がニーズに合わせてカスタマイズされた Teams ですぐに使用できるエクスペリエンスを提供します。
+Teamsは、ライセンスに基づいてアプリをピン留めし、現場のワーカーがニーズに合わせてカスタマイズされたTeamsですぐに使えるエクスペリエンスを提供します。 
 
 現場担当者は、カスタマイズされた現場アプリ エクスペリエンスを使用して、管理者から何のアクションも必要とせずに、Teams で最も関連性の高いアプリを入手できます。
 

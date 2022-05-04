@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45f663f2c75d12a21fe38c4bbc71e2b3d93d8247
-ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
+ms.openlocfilehash: 205f0869e699384c9a37590db50e690b5b8bd804
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65137128"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65186983"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 承認アプリの利用の可否
 
@@ -122,15 +122,29 @@ Teams アプリの承認では、次の機能にアクセスできます。
 
      :::image type="content" alt-text="承認アプリの詳細を表示する。" source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
 
-## <a name="app-policies"></a>アプリのポリシー
+## <a name="pin-approvals-to-teams"></a>Teamsに承認をピン留めする
 
-### <a name="retention-policy"></a>アイテム保持ポリシー
+### <a name="use-the-tailored-frontline-app-experience-to-pin-approvals-and-other-apps-to-teams"></a>カスタマイズされたフロントライン アプリ エクスペリエンスを使用して、承認やその他のアプリをTeamsにピン留めする
+
+Teamsのカスタマイズされたフロントライン アプリ エクスペリエンスは、[F ライセンス](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)を持つユーザーにとってTeamsで最も関連性の高いアプリをピン留めします。 ピン留めされたアプリには、承認、Walkie Talkie、Tasks、Shifts などがあります。 既定では、この機能はオンになっており、現場のワーカーはニーズに合わせてすぐに使えるエクスペリエンスを提供します。
+
+アプリは、アプリ バー (Teams デスクトップ クライアントの側とTeamsモバイル クライアントの下部にあるバー) にピン留めされ、ユーザーはすばやく簡単にアクセスできます。
+
+設定したアプリ ポリシーでのエクスペリエンスの動作など、詳細については、「[現場のワーカー向けにアプリTeamsを調整する](pin-teams-apps-based-on-license.md)」を参照してください。
+
+### <a name="use-an-app-setup-policy-to-pin-approvals-to-teams"></a>アプリセットアップ ポリシーを使用して承認をTeamsにピン留めする
+
+アプリのセットアップ ポリシーを使用すると、Teamsをカスタマイズして、ユーザーのユーザーにとって最も重要なアプリをピン留めできます。
+
+ユーザーの承認 アプリをピン留めするには、グローバル (組織全体の既定) ポリシーを編集するか、カスタム アプリ設定ポリシーを作成して割り当てることができます。 詳細については、「[Teams でアプリの設定ポリシーを管理する](teams-app-setup-policies.md)」を参照してください。
+
+## <a name="retention-policy"></a>アイテム保持ポリシー
 
 承認アプリから作成された承認は既定の Microsoft Dataverse 環境に保存されます。現時点では、バックアップはサポートされません。 詳細については、「[環境のバックアップと復元の方法Power Platform \|Microsoft Docs](/power-platform/admin/backup-restore-environments)」をご覧ください。
 
 Forms に保存されているデータは、チーム所有者が Microsoft Forms Web アプリの **[削除されたフォーム]** タブからクリーンアップするまで削除されません。
 
-### <a name="conditional-access-policies"></a>条件付きアクセス ポリシー
+## <a name="conditional-access-policies"></a>条件付きアクセス ポリシー
 
 現時点では、Teams の承認アプリでは、Microsoft Teams 用に設定されている条件付きアクセス ポリシーはサポートされていません。
 
