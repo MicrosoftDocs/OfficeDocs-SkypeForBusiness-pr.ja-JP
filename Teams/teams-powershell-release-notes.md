@@ -13,12 +13,12 @@ ms.collection:
 description: Teams PowerShell の最新の変更点について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 827f38a2be539583a30d6b94341bbfa76203f8c4
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 169519741bb0107086679a0472ead65c0e512529
+ms.sourcegitcommit: 3aa1c3cbd8ba9919e2a4dd4c7d4b95c40ed3d55d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125662"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65230981"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>PowerShell リリース ノートのMicrosoft Teams
 
@@ -31,6 +31,7 @@ ms.locfileid: "65125662"
 
 | 日付 | バージョン | 更新 |
 |------- | -------------------- | ------------------------------ |
+| 2022 年 5 月 | [4.3.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.3.0) |<li>[SetRemove\|]-CsPhoneNumberAssignment コマンドレットのエラー処理を修正しました。</li><li>[Get\|SetRemove\|]-CsOnlineLisSubnet – 最新化されたコマンドレットの Subnet パラメーターの修正。</li><li>[Get\|Set]-CsOnlineLisLocation & [GetSet\|]-CsOnlineLisCivicAddress – 最新化されたコマンドレットでサポートされているパラメーターに関する修正 (それぞれのパブリック ドキュメントの詳細)。</li>
 | 2022 年 4 月 | [4.2.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.2.1-preview) |<li>[SetRemove\|]-CsPhoneNumberAssignment コマンドレットのエラー処理を修正しました。</li><li>[Get\|SetRemove\|]-CsOnlineLisSubnet – 最新化されたコマンドレットの Subnet パラメーターの修正。</li><li>[Get\|Set]-CsOnlineLisLocation & [GetSet\|]-CsOnlineLisCivicAddress – 最新化されたコマンドレットでサポートされているパラメーターを修正します。</li>
 | 2022 年 4 月 | [4.2.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.2.0) |<li>Teamsに関連するすべてのコマンドレットのプロキシ サポート。 サポートされているコマンドレットは段階的にロールアウトされています。</li><li>PSListModifier 型パラメーターと共に使用する場合に、最新化されたポリシー コマンドレット [NewSet\|]- に関する問題を修正しました。</li><li>[破壊的変更]PSListModifier 型パラメーターは、Add または Remove の Hashtable のみを受け入れます。 置換を使用したハッシュテーブルは現在サポートされていません。代わりに、パラメーターで値を直接設定できます。</li><li>いくつかの\|最新化されたポリシー コマンドレット (CsVideoInteropServiceProvider、CsInboundBlockedNumberPattern、CsTeamsComplianceRecordingApplication、CsTeamsTranslationRule、CsTeamsUnassignedNumberTreatment、CsVoiceNormalizationRule) に関する形式の問題を修正しました。</li><li>最新化されたコマンドレットを使用したパイプライン入力処理のパフォーマンスが向上しました。</li><li>パイプライン入力結果に関する軽微な問題を修正します。</li><li>Get-CsOnlineUser: Country 属性 (3.x.x より前のバージョンでは CountryOrRegionDisplayName と呼ばれます) が追加されます。</li><li>[破壊的変更]Get-CsOnlineUser: CountryAbbreviation 属性を -Identity パラメーターと共に使用した場合にのみ使用できるようになりました。</li>
 | 2022 年 3 月 | [4.1.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.1.0) |<li>警告変数とエラー変数に関する問題を修正しました。</li><li>PowerShell Runspaces で最新化されたコマンドレットを使用する場合の問題を修正します。</li><li>リリース [GetNewSetRemove\|\|\|]-CsTeamsShiftsConnectionInstance コマンドレット。</li><li>リリース [GetNewRemove\|\|]-CsTeamsShiftsConnectionTeamMap コマンドレット。</li><li>Get-CsTeamsShiftsConnectionWfm[UserTeam\|] コマンドレットをリリースします。</li><li>Get-CsTeamsShiftsConnectionConnectionConnectionConnector、Get-CsTeamsShiftsConnectionSyncResult、New-CsTeamsShiftsConnectionBatchTeamMap、Remove-CsTeamsShiftsScheduleRecord、Test-CsTeamsShiftsConnectionValidate、Get-CsTeamsShiftsConnectionOperation & Get-CsTeamsShiftsConnectionErrorReport コマンドレットをリリースします。</li>
