@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 最適な結果を生み出すためにMicrosoft Teamsが認定されているデスクと会議の電話について説明します。
-ms.openlocfilehash: 97be4ba35a480872e36113926c1f45c1ccd955aa
-ms.sourcegitcommit: 9f7372f7568b4275169590510d2b7a0c0ad7577b
+ms.openlocfilehash: 6a17faead9926ea6a7a7475eb867804d974f700e
+ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "65171713"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65217941"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams認定された Android デバイス
 
@@ -141,6 +141,7 @@ Android 認定プログラムのMicrosoft Teams Roomsでは、次のデバイス
 
 | デバイス モデル  | ファームウェアのバージョン  | 付属の製品リリース  |
 |:----------------|:--------------|:----------------------------|
+|Audiocodes C470HD  | `1.17.561` | 2022 Update #1C |
 |Yealink MP54/MP56/MP58   | `122.15.0.80`     | 2022 Update #2A  |
 |Yealink MP52 | `145.15.0.28`  | 2022 Update #2A         |
 |Audiocodes C470HD  | `1.17.558` | 2022 Update #1C   |
@@ -240,6 +241,8 @@ Android アプリとファームウェアのバージョンに関する最新の
 
 | デバイス モデル  | ファームウェアのバージョン | 付属の製品リリース |
 |:--------------|:-----------------|:-------------------------|
+| Logi Rallybar Mini   |   `1.6.272`   | 2022 Update #1  |
+| Logi Rallybar    |   `1.6.272`   | 2022 Update #1   |
 | Logi Roommate |   `1.5.705`   | 2022 Update #1    |
 | Logi Rallybar Mini   |   `1.5.705`   | 2022 Update #1    |
 | Logi Rallybar    |   `1.5.705`   | 2022 Update #1    |
@@ -328,6 +331,7 @@ Android アプリとファームウェアのバージョンに関する最新の
 
 | デバイス モデル  | ファームウェアのバージョン | 付属の製品リリース|
 |:--------------|:-----------------|:-------------------------|
+|Logitech Tap Scheduler | `1.6.215` |2022 Update #1A  |
 |レストロン Touchpanel /770-T/1070-T | `1.006.0046 ` | 2022 Update #1|
 |Yealink RoomPanel | ` 147.15.0.30 ` | 2022 Update #1 |
 |ストロン -TSS770  | `1.004.0115` |2021 Update #1 |

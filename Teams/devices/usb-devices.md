@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Microsoft Teamsで認定されている USB 周辺機器とデバイス (ヘッドセット、スピーカーフォン、Web カメラ、モニターなど) を確認します。
-ms.openlocfilehash: ee6f3c2634b44c4c510deb2c7a50818f6bc5ef7c
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 272d0c0eb1b3885da9a313666c8eac2d7bb09fe0
+ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059218"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65217921"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teamsの認定を受けた USB オーディオおよびビデオ デバイス
 
@@ -74,13 +74,16 @@ Skype for BusinessからTeamsにアップグレードするときに、以前に
 
 ## <a name="certified-devices"></a>認定済みデバイス
 
-*2022 年 4 月に更新されたテーブル*
+*2022 年 5 月に更新されたテーブル*
 
 > [!NOTE]
 > 日付形式は MMDDYYYY です。
 
 | [製造元]        | モデル                                                     | 修飾      | 認定プログラム                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Yealink              |UH38 ヘッドセット                                               |5/2/2022        |Microsoft Teams認定済み                           |   
+|Yealink              |BH72 ヘッドセット                                               |5/2/2022        |Microsoft Teams認定済み                           |
+|ロジクール             |Zone True Wireless Earbuds                                 |5/2/2022        |Microsoft Teams認定済み                           |
 |レノボ               |Go Wireless ANC ヘッドセット                                    |4/11/2022       |Microsoft Teams認定済み                           |
 |EPOS                 |ADAPT 661                                                  |3/11/2022       |Microsoft Teams認定済み                           |
 |EPOS                 |ADAPT 461T                                                 |3/11/2022       |Microsoft Teams認定済み                           |

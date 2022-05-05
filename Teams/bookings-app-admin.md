@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: 組織内のユーザーのTeamsでBookings アプリを管理する方法について説明します。
-ms.openlocfilehash: aab7ce7a4813d851574f9a5796f5ce21d44774ff
-ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
+ms.openlocfilehash: 5740da885fb271af212ba755d7db0228a996b429
+ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64853068"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65217931"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Microsoft TeamsでBookings アプリを管理する
 
@@ -41,7 +41,7 @@ Microsoft TeamsのBookings アプリは、対人および仮想の予定を簡�
 
 * ExchangeメールボックスはExchange Onlineにあります。 オンプレミスのExchange Server メールボックスはサポートされていません。
 * Microsoft Bookingsは組織で使用できます。
-* ユーザーは適切なライセンスを持っています。 Office 365 A3、A5、E3、E5、F1、F3、Microsoft 365 A3、A5、E3、E5、F1、F3、および Business Standard がサポートされています。
+* ユーザーは適切なライセンスを持っています。 Office 365 A3、A5、E1、E3、E5、F1、F3、Microsoft 365 A3、A5、E3、E5、F1、F3、ビジネス 標準がサポートされています。
 * Bookings アプリのすべてのユーザーと、会議に参加しているすべてのスタッフは、会議のスケジュール設定Teamsサポートするライセンスを持っています。
 * [ソフトウェアとブラウザーの前提条件](hardware-requirements-for-the-teams-app.md)。
 

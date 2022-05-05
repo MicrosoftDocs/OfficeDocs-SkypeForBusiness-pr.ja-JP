@@ -1,5 +1,5 @@
 ---
-title: パネル上のチェックインとルーム Microsoft Teamsリリース
+title: Microsoft Teams パネルでのチェックインと会議室のリリース
 ms.author: czawideh
 author: cazawideh
 manager: serdars
@@ -14,53 +14,53 @@ ms.collection:
 - M365-voice
 ms.topic: reference
 search.appverid: MET150
-description: この記事では、パネル デバイスでチェックインとルーム リリースを有効にする方法Teams示します。
-ms.openlocfilehash: 9e90916c5db4d5ec32a40f0e021f9bf7b294d09f
-ms.sourcegitcommit: f8b935e009895138eddfc1ae360b7b2ace747d3c
+description: この記事では、チェックインと会議室のリリースTeamsパネル デバイスを有効にする方法に関するガイダンスを提供します。
+ms.openlocfilehash: 3cf1f48a71f88f012c6d33ba608ee40b53cda474
+ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "63689102"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65218021"
 ---
-# <a name="check-in-and-room-release-on-microsoft-teams-panels"></a>パネル上のチェックインとルーム Microsoft Teamsリリース
+# <a name="check-in-and-room-release-on-microsoft-teams-panels"></a>Microsoft Teams パネルでのチェックインと会議室のリリース
 
-チェックインと会議室の解放が有効になっている場合、ユーザーは会議のTeamsに予約した会議室のパネルにチェックインします。 ユーザーが会議の開始時刻から一定の時間内にチェックインしない場合、会議室は会議出席を拒否し、会議の開催者にキャンセル メッセージを送信し、会議室は他のユーザーが予約できます。  
+チェックインと会議室のリリースが有効になっている場合、ユーザーは会議の開始時に予約した会議室のTeams パネルでチェックインします。 ユーザーが会議の開始時刻の後に一定の時間内にチェックインしなかった場合、会議室は会議出席依頼を拒否し、会議の開催者にキャンセル メッセージを送信し、他のユーザーが予約できる会議室になります。  
 
 ## <a name="requirements"></a>要件 
 
-この機能は、スタンドアロンのパネル デプロイTeams使用できます。 アプリ バージョン 1449/1.0.96.2022011305 以降で Teams パネルと Teams Rooms on Android をペアリングして、チェックイン通知のような追加機能を利用することもできます。  
+この機能は、スタンドアロンのTeams パネルデプロイで使用できます。 また、チェックイン通知などの追加機能については、Android 上のTeams Roomsとアプリ バージョン 1449/1.0.96.202201305 以降のTeams パネルをペアリングすることもできます。  
 
-## <a name="enable-check-in-and-room-release"></a>チェックインとルーム リリースを有効にする 
+## <a name="enable-check-in-and-room-release"></a>チェックインと会議室のリリースを有効にする 
 
-チェックインとルーム リリースは既定でオフになっています。 オンにする場合は、  
+チェックインと会議室のリリースは既定でオフになっています。 これをオンにするには、  
 
-1. [Teams] パネルで、管理者の資格情報を使用してサインインします。  
+1. Teams パネルで、管理者資格情報を使用してサインインします。  
 
-2. [デバイスと **設定 >管理者] 設定 >パネル 設定 >会議] 設定 >します**。
+2. **[設定 > デバイスの設定] > [管理者設定] > Teams [会議] >管理設定に移動します**。
 
-3. 誰も確認できない場合は、リリース ルームを有効にしてください。
+3. 誰もチェックインしない場合は、リリース ルームをオンにします。
 
-4. ルームが解放される前にユーザーがチェックインする必要がある時間を調整するには、[リリース後: ] に移動し、ドロップダウンからオプションを選択します。  
+4. ユーザーが会議室をリリースする前にチェックインする必要がある時間を調整するには、[ **リリース後にリリース:]** に移動し、ドロップダウンからオプションを選択します。  
 
-パネルTeams Android の Teams Room とペアリングされている場合、ユーザーは Teams Room で会議に参加してチェックインできます。  
+Teamsパネルが Android のTeamsルームとペアリングされている場合、ユーザーはTeams会議室で会議に参加していることを確認できます。  
 
 ## <a name="turn-on-check-in-notifications"></a>チェックイン通知を有効にする
 
 > [!NOTE]
-> 現在、この機能は、Android Teams Room とペアにされているTeamsでのみ使用できます。 このTeamsとTeams、同じリソース アカウントにサインインする必要があります。 詳細[については、「Teams パネルと Android Microsoft Teamsルーム](use-teams-panels.md#pair-a-teams-panel-with-a-microsoft-teams-room-on-android)をペアリングする」を参照してください。  
+> この機能は現在、Android のTeams ルームとペアリングされているTeams パネルでのみ使用できます。 Teams パネルとTeamsルームは、同じリソース アカウントにサインインする必要があります。 詳細については、「[Android の Microsoft Teams ルームとTeams パネルをペアリング](use-teams-panels.md#pair-a-teams-panel-with-a-microsoft-teams-room-on-android)する」を参照してください。  
 
-チェックイン通知は、会議が予約されたタイム スロットを過ぎた後に送信されます。 次の会議のユーザーが入室すると、スケジュールされた会議の開始時刻に通知が会議室の前面に表示され、前の会議の参加者に予約が終了し、参加者が空き時間を待つことを通知します。  
+チェックイン通知は、会議が予約済みの時間帯を過ぎても続く場合に送信されます。 次の会議のユーザーがチェックインすると、スケジュールされた会議の開始時刻に会議室の前面に通知が表示され、前の会議参加者が予約が終了し、ユーザーが空きを待っていることがわかります。  
 
 チェックイン通知を有効にするには、  
 
-1. [Teams] パネルで、管理者の資格情報を使用してサインインします。 
+1. Teams パネルで、管理者資格情報を使用してサインインします。 
 
-2. [デバイスと **設定 >管理者] 設定 >パネル 設定 >会議] 設定 >します**。
+2. **[設定 > デバイスの設定] > [管理者設定] > Teams [会議] >管理設定に移動します**。
 
-3. [チェックイン **] に移動し** 、[チェックイン通知 **の送信] をオンにします**。
+3. **チェックイン** に移動し、[チェックイン通知の **送信**] をオンにします。
 
 ## <a name="related-topics"></a>関連項目
 
-- [パネルのMicrosoft Teams方法](use-teams-panels.md)
+- [Microsoft Teams パネルの使用方法](use-teams-panels.md)
 
 - [Microsoft Teams パネル](teams-panels.md)
