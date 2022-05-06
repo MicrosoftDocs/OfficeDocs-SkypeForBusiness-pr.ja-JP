@@ -22,72 +22,72 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: コマンドレットを使用して自動応答を構成する方法について説明します
-ms.openlocfilehash: 3911010b201e2b19376c24c6c4b84ae8dbcc5db8
-ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
+ms.openlocfilehash: 8161071a277f7f98633d5e2f5b80a069c1908215
+ms.sourcegitcommit: c06d806778f3e6ea4b184bae271e55c34fd9594d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62457467"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "65244924"
 ---
 # <a name="create-an-auto-attendant-via-cmdlets"></a>コマンドレットを使用して自動応答を作成する
 
-## <a name="assumptions"></a>前提条件
+## <a name="assumptions"></a>仮定
 1)  PowerShell がコンピューターにインストールされている
-- コンピューターを[セットアップしてWindows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-- MSTeams モジュールのインストール ````  (Install-Module -Name MicrosoftTeams -Force -AllowClobber) ````
-- インストールされている MSOnline モジュール ```` Install-Module -Name MSOnline -Force -AllowClobber ````
-2)  テナントの管理権限がある
-3)  お客様が購入したMicrosoft Teams 電話
-4)  PowerShell コマンドレットを使用した通話キューの作成に関するガイドに従って、以下に示す呼び出しキュー [が既に設定](create-a-phone-system-call-queue-via-cmdlets.md) されています。
+- [Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)用にコンピューターを設定する
+- MSTeams モジュールがインストールされている ````  (Install-Module -Name MicrosoftTeams -Force -AllowClobber) ````
+- MSOnline モジュールがインストールされている ```` Install-Module -Name MSOnline -Force -AllowClobber ````
+2)  テナント管理権限を持っている
+3)  Microsoft Teams 電話を購入しました
+4)  以下に示す呼び出しキューは、 [PowerShell コマンドレットを使用した通話キューの作成](create-a-phone-system-call-queue-via-cmdlets.md) ガイドに従って既に設定されています。
                                                                                                
-注: 以下で参照されるコマンドレットの一部は、PowerShell モジュールのパブリック プレビュー バージョンTeams可能性があります。  詳細については、「[PowerShell パブリック プレビュー Teamsインストール](teams-powershell-install.md)する」を参照し、「[PowerShell リリース Microsoft Teams」も参照してください](teams-powershell-release-notes.md)。
+注: 以下で参照されるコマンドレットの一部は、パブリック プレビュー バージョンの Teams PowerShell モジュールの一部である可能性があります。  詳細については、「[PowerShell パブリック プレビュー Teamsインストール](teams-powershell-install.md)する」を参照し、[PowerShell リリース ノートMicrosoft Teams](teams-powershell-release-notes.md)参照してください。
 
-MicrosoftTeams モジュールが既にインストール ````Update-Module MicrosoftTeams```` されているユーザーは、最新バージョンがインストールされていることを確認する必要があります。
+MicrosoftTeams モジュールを既にインストールしているユーザーは、最新バージョンがインストールされていることを確認する必要があります ````Update-Module MicrosoftTeams```` 。
 
 ## <a name="scenario"></a>シナリオ
 
 次の自動応答呼び出しフローが構築されます。
 
-![コマンドレットを使用して構築されている自動アテラント呼び出しフローの図。](media/create-a-phone-system-auto-attendant-via-cmdlets.png)
+![コマンドレットを使用して構築されている自動 Attenant 呼び出しフローの図。](media/create-a-phone-system-auto-attendant-via-cmdlets.png)
 
-追加の構成情報:
+その他の構成情報:
 
 - 自動応答: Contso Main
 - - 演算子: Adele Vance
 - - 音声入力を有効にする: オフ
 - - ディレクトリ検索: なし
-- - 祝日:
+- - 休日：
 - - - 2022 年 1 月 1 日
 - - - 2022 年 12 月 24 日
 - - - 2022 年 12 月 25 日
 
-- 自動応答: Contoso の名前でダイヤルする
+- 自動応答: Contoso ダイヤルバイ ネーム
 - - 演算子: Adele Vance
 - - タイム ゾーン: UTC
 - - 言語: 英語 (米国)
 - - 音声入力を有効にする: オン
-- - あいさつ: なし
-- - メニュー: TTS で、"到達するユーザーの名前を入力してください。 前のメニューに戻る場合は、9" を押します。
-- - ディレクトリ検索: 名前でダイヤルする
-- - ダイヤル スコープ: セールス & サポート メンバー
+- - あいさつ文: なし
+- - メニュー: TTS、「連絡する相手の名前を言うか入力してください。 前のメニューに戻るには、9" キーを押します。
+- - ディレクトリ検索: 名前によるダイヤル
+- - ダイヤル スコープ: Sales & サポート メンバー
 
 ## <a name="login"></a>ログイン
-管理者の資格情報を入力するように求Teamsされます。
+Teams管理者の資格情報を入力するように求められます。
 ```
 $credential = Get-Credential
 Connect-MicrosoftTeams -Credential $credential
 Connect-MsolService -Credential $credential
 ````
 
-## <a name="get-operator-information"></a>Get Operator Information
+## <a name="get-operator-information"></a>演算子情報を取得する
 ````
-$operatorID = (Get-CsOnlineUser -Identity “sip:adele@contoso.com”).ObjectID
+$operatorID = (Get-CsOnlineUser -Identity “sip:adele@contoso.com”).Identity
 
 $operatorEntity = New-CsAutoAttendantCallableEntity -Identity $operatorID -Type User
 ````
 
-## <a name="dial-by-name-auto-attendant---resource-account-creation"></a>[名前でダイヤル自動応答 - リソース アカウントの作成
-注: メイン自動応答で参照できるよう、ここでリソース アカウントを作成します。  実際のダイヤル バイ ネーム自動応答は後で作成されます。
+## <a name="dial-by-name-auto-attendant---resource-account-creation"></a>名前によるダイヤル自動応答 - リソース アカウントの作成
+注: メインの自動応答で参照できるように、ここでリソース アカウントを作成します。  実際の名前によるダイヤルの自動応答は、後で作成されます。
 
 ### <a name="get-license-types"></a>ライセンスの種類を取得する
 ````
@@ -95,7 +95,7 @@ Get-MsolAccountSku
 ````
 
 ### <a name="create-and-assign-resource-account"></a>リソース アカウントを作成して割り当てる
-注: 電話キューはキューによってフロント エンドされるので、この番号は必須自動応答
+注: コール キューは自動応答によってフロントエンドされるため、ここでは必要ない電話番号
 - ApplicationID
 - - 自動応答: ce933385-9390-45d1-9512-c8d228074e07
 - - 通話キュー: 11cd3e2e-fccb-42ad-ad00-878b93575e07
@@ -109,8 +109,8 @@ Set-MsolUserLicense -UserPrincipalName “ContosoDialByNameAA-RA@contoso.com” 
 $dialByNameApplicationInstanceID = (Get-CsOnlineUser "ContosoDialByNameAA-RA@contoso.com").ObjectID
 ````
 
-## <a name="contoso-main-menu-auto-attendant"></a>Contoso メイン メニュー 自動応答
-### <a name="create-holiday-schedules"></a>休日のスケジュールを作成する
+## <a name="contoso-main-menu-auto-attendant"></a>Contoso メイン メニューの自動応答
+### <a name="create-holiday-schedules"></a>休日スケジュールを作成する
 ````
 $dtr = New-CsOnlineDateTimeRange -Start "24/12/2022" -End "25/12/2022"
 
@@ -121,7 +121,7 @@ $dtr = New-CsOnlineDateTimeRange -Start "01/01/2022" -End "02/01/2022"
 $newyearSchedule = New-CsOnlineSchedule -Name "New Year" -FixedSchedule -DateTimeRanges @($dtr)
 ````
 
-### <a name="create-address-fax-and-email-information-prompt"></a>住所、FAX、メール情報プロンプトを作成する
+### <a name="create-address-fax-and-email-information-prompt"></a>アドレス、FAX、電子メール情報プロンプトを作成する
 ````
 $addressPrompt = New-CsAutoAttendantPrompt -TextToSpeechPrompt "To repeat this information at any time press the * key. Our mailing address is: 123 Main Street, Any town, Any Place, County. Our email address is: info@contoso.com. Our fax number is: 929-555-0151"
 ````
@@ -158,7 +158,7 @@ $timerangeSa = New-CsOnlineTimeRange -Start 10:00 -end 16:00
 $afterHoursSchedule = New-CsOnlineSchedule -Name "After Hours Schedule" -WeeklyRecurrentSchedule -MondayHours @($timerangeMoFr) -TuesdayHours @($timerangeMoFr) -WednesdayHours @($timerangeMoFr) -ThursdayHours @($timerangeMoFr) -FridayHours @($timerangeMoFr) -SaturdayHours @($timerangeSa) -Complement
 ````
 
-### <a name="create-after-hours-prompts-and-menu-options"></a>[時間後の作成] プロンプトとメニュー オプション
+### <a name="create-after-hours-prompts-and-menu-options"></a>時間外プロンプトとメニュー オプションを作成する
 ````
 $afterHoursGreetingPrompt = New-CsAutoAttendantPrompt -TextToSpeechPrompt "Thank you for calling Contoso. Our offices are now closed. Regular business hours are Monday through Friday from 8:30 am to 5:00 pm and Saturday from 10:00 am to 4:00 pm eastern time."
 
@@ -176,7 +176,7 @@ $afterHoursMenuOption2Entity = New-CsAutoAttendantCallableEntity -Identity $afte
 
 $afterHoursMenuOption2 = New-CsAutoAttendantMenuOption -Action TransferCallToTarget -DtmfResponse Tone2 -CallTarget $afterHoursMenuOption2Entity
 
-$dialbynameAAOption3Target = (Get-CsOnlineUser -Identity “ContosoDialByNameAA-RA@contso.com”).ObjectID
+$dialbynameAAOption3Target = (Get-CsOnlineUser -Identity “ContosoDialByNameAA-RA@contso.com”).Identity
 
 $dialbynameAAMenuOption3Entity = New-CsAutoAttendantCallableEntity -Identity $dialbynameAAOption3Target -Type applicationendpoint
 
@@ -185,7 +185,7 @@ $dialbynameAAMenuOption3 = New-CsAutoAttendantMenuOption -Action TransferCallToT
 $afterHoursMenuOption4 = New-CsAutoAttendantMenuOption -Action Announcement -DtmfResponse Tone4 -Prompt $addressPrompt
 ````
 
-### <a name="create-after-hours-menu-and-call-flow"></a>[時間後の作成] メニューと [通話Flow
+### <a name="create-after-hours-menu-and-call-flow"></a>[時間外の作成] メニューと [通話] Flow
 ````
 $afterHoursMenu = New-CsAutoAttendantMenu -Name "After Hours Menu" -MenuOptions @($afterHoursMenuOption1, $afterHoursMenuOption2, $dialbynameAAMenuOption3, $afterHoursMenuOption4) -Prompt $afterHoursMenuPrompt
 
@@ -217,14 +217,14 @@ $openHoursMenuOption4 = New-CsAutoAttendantMenuOption -Action Announcement -Dtmf
 $openHoursMenuOption0 = New-CsAutoAttendantMenuOption -Action TransferCallToOperator -DtmfResponse Tone0
 ````
 
-### <a name="create-open-hours-menu"></a>[開いている時間の作成] メニュー
+### <a name="create-open-hours-menu"></a>[営業時間の作成] メニュー
 ````
 $openHoursMenu = New-CsAutoAttendantMenu -Name "Open Hours Menu" -MenuOptions @($openHoursMenuOption1, $openHoursMenuOption2, $dialbynameAAMenuOption3, $openHoursMenuOption4, $openHoursMenuOption0) -Prompt $openHoursMenuPrompt
 
 $openHoursCallFlow = New-CsAutoAttendantCallFlow -Name "Open Hours Call Flow" -Greetings @($openHoursGreetingPrompt) -Menu $openHoursMenu
 ````
 
-### <a name="create-auto-attendant"></a>作成自動応答
+### <a name="create-auto-attendant"></a>自動応答を作成する
 ````
 $autoAttendant = New-CsAutoAttendant -Name “Contoso Main” -DefaultCallFlow $openHoursCallFlow -CallFlows @($afterHoursCallFlow, $christmasCallFlow, $newyearCallFlow) -CallHandlingAssociations @($afterHoursCallHandlingAssociation, $christmasCallHandlingAssociation, $newyearCallHandlingAssociation) -LanguageId “en-US” -TimeZoneId “Eastern Standard Time” -Operator $operatorEntity
 ````
@@ -245,7 +245,7 @@ Set-MsolUser -UserPrincipalName "ContosoMainAA-RA@contoso.com" -UsageLocation US
 
 Set-MsolUserLicense -UserPrincipalName “ContosoMainAA-RA@contoso.com” -AddLicenses "contoso:PHONESYSTEM_VIRTUALUSER"
 
-$applicationInstanceID = (Get-CsOnlineUser "ContosoMainAA-RA@contoso.com").ObjectID
+$applicationInstanceID = (Get-CsOnlineUser "ContosoMainAA-RA@contoso.com").Identity
 
 $autoAttendantID = (Get-CsAutoAttendant -NameFilter "Contoso Main").Identity
 
@@ -258,14 +258,14 @@ Get-CsOnlineTelephoneNumber -IsNotAssigned -InventoryType Service
 ````
 
 #### <a name="assign-available-phone-number"></a>使用可能な電話番号を割り当てる
-注: 電話番号に割り当てられた使用場所は、リソース アカウントに割り当てられている使用場所と一致する必要があります。
+注: 電話番号に割り当てられた使用場所は、リソース アカウントに割り当てられている使用場所と一致している必要があります。
 
 ````
 Set-CsPhoneNumberAssignment -Identity ContosoMainAA-RA@contoso.com -PhoneNumber +{spare number from output of above command} -PhoneNumberType CallingPlan
 ````
 
-## <a name="dial-by-name-auto-attendant---completion"></a>[名前でダイヤル] 自動応答 - 完了
-### <a name="create-dial-scope"></a>ダイヤル スコープを作成する
+## <a name="dial-by-name-auto-attendant---completion"></a>名前によるダイヤルオートアテンダント - 完了
+### <a name="create-dial-scope"></a>ダイヤル スコープの作成
 ````
 $salesGroupID = Find-CsGroup -SearchQuery "Sales" | % { $_.Id }
 
@@ -278,7 +278,7 @@ $dialScope = New-CsAutoAttendantDialScope -GroupScope -GroupIds @($salesGroupID,
 ````
 $dialByNameMenuPrompt = New-CsAutoAttendantPrompt -TextToSpeechPrompt "Please say or enter the name of the person you would like to reach. To return to the previous menu press 9”
 
-$dialByNameMenuOption9Target = (Get-CsOnlineUser "ContosoMainAA-RA@contoso.com").ObjectID
+$dialByNameMenuOption9Target = (Get-CsOnlineUser "ContosoMainAA-RA@contoso.com").Identity
 
 $dialByNameMenuOption9Entity = New-CsAutoAttendantCallableEntity -Identity $dialByNameMenuOption9Target -Type applicationendpoint
 

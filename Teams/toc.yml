@@ -431,34 +431,30 @@ items:
         href: FAQ-support-remote-workforce.md
       - name: レポート
         items:
-          - name: Microsoft 365 管理センターのアクティビティ レポート
-            href: teams-activity-reports.md
-          - name: Teams 管理センターの分析とレポート
-            items:
-              - name: 概要
-                href: teams-analytics-and-reports/teams-reporting-reference.md
-              - name: Teams の使用状況レポート
-                href: teams-analytics-and-reports/teams-usage-report.md
-              - name: Teams ユーザー アクティビティ レポート
-                href: teams-analytics-and-reports/user-activity-report.md
-              - name: Teams アプリの使用状況レポート
-                href: teams-analytics-and-reports/app-usage-report.md
-              - name: Teams のデバイス使用状況レポート
-                href: teams-analytics-and-reports/device-usage-report.md
-              - name: PSTN のブロックされたユーザー レポート
-                href: teams-analytics-and-reports/pstn-blocked-users-report.md
-              - name: PSTN の利用分数プール レポート
-                href: teams-analytics-and-reports/pstn-minute-pools-report.md
-              - name: PSTN の使用状況のレポート
-                href: teams-analytics-and-reports/pstn-usage-report.md
-              - name: Teams 電話会議ダイヤルアウトの使用状況レポート
-                href: audio-conferencing-dial-out-usage-report.md
-              - name: Teams のライブ イベントの使用状況レポート
-                href: teams-analytics-and-reports/teams-live-event-usage-report.md
-              - name: Teams 情報保護ライセンス レポート
-                href: teams-analytics-and-reports/information-protection-license-report.md
-              - name: Teams 仮想訪問の使用状況レポート
-                href: teams-analytics-and-reports/virtual-visits-usage-report.md
+          - name: 概要
+            href: teams-analytics-and-reports/teams-reporting-reference.md
+          - name: Teams の使用状況レポート
+            href: teams-analytics-and-reports/teams-usage-report.md
+          - name: Teams ユーザー アクティビティ レポート
+            href: teams-analytics-and-reports/user-activity-report.md
+          - name: Teams アプリの使用状況レポート
+            href: teams-analytics-and-reports/app-usage-report.md
+          - name: Teams のデバイス使用状況レポート
+            href: teams-analytics-and-reports/device-usage-report.md
+          - name: PSTN のブロックされたユーザー レポート
+            href: teams-analytics-and-reports/pstn-blocked-users-report.md
+          - name: PSTN の利用分数プール レポート
+            href: teams-analytics-and-reports/pstn-minute-pools-report.md
+          - name: PSTN の使用状況のレポート
+            href: teams-analytics-and-reports/pstn-usage-report.md
+          - name: Teams 電話会議ダイヤルアウトの使用状況レポート
+            href: audio-conferencing-dial-out-usage-report.md
+          - name: Teams のライブ イベントの使用状況レポート
+            href: teams-analytics-and-reports/teams-live-event-usage-report.md
+          - name: Teams 情報保護ライセンス レポート
+            href: teams-analytics-and-reports/information-protection-license-report.md
+          - name: Teams 仮想訪問の使用状況レポート
+            href: teams-analytics-and-reports/virtual-visits-usage-report.md
       - name: ログ ファイル、サービス正常性、サポート
         items:
           - name: ログ ファイルを使用して Teams の監視とトラブルシューティングを行う
