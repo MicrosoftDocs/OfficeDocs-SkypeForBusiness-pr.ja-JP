@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: stbyer
 description: Microsoft Teams のプライバシー ガイダンスと情報。
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec3c035986d61dda78c6a940a7699fef7f4217a6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2df42e7edfe5df2ab42ed802e7960323d631b482
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094047"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58972895"
 ---
 # <a name="privacy-and-microsoft-teams"></a>プライバシーと Microsoft Teams
 
@@ -66,7 +66,7 @@ Microsoft は次の場合を除き、個人情報を開示しません。
 
 個人データは、「[オンライン サービス条件](https://go.microsoft.com/fwlink/p/?linkid=2050263)」に明記されているように、転送および保存されます。
 
-EEA、EU、スイス、英国からの個人データの転送について、Microsoft は、EU - US プライバシー シールド フレームワークおよびスイス - US プライバシー シールド フレームワークの認定を受けており、必然的にそれらを遵守します。 プライバシー シールド証明書は[こちらの URL](https://www.privacyshield.gov/participant?id=a2zt0000000KzNaAAK&status=Active) を参照してください。
+EEA、EU、スイス、英国から個人データを転送する場合、Microsoft は EU-米国およびスイス -米国に認定されます。プライバシー シールド フレームワークとそれらが伴うコミットメント。ただし、Microsoft は、ケース C-311/18 における EU の司法裁判所の判断に照らして、個人データの譲渡に法的根拠として EU-米国プライバシー シールド フレームワークを依存していません。
 
 詳細を確認する必要がある場合は、「[Microsoft Teams のデータの場所](location-of-data-in-teams.md)」に情報があります。
 

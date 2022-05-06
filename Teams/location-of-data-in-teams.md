@@ -8,7 +8,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: anach, kehardy
 description: この記事では、Microsoft Teams におけるデータの地理的な場所について説明します。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7781b7700bc1d53255c9604232e1fe2c574ba105
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8c9310280784fd5b9265fc38a99410cc8cc2767e
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120588"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732506"
 ---
 # <a name="location-of-data-in-microsoft-teams"></a>Microsoft Teams のデータの場所
 
@@ -37,7 +37,7 @@ Teams のデータはご利用の Microsoft 365 または Office 365 の組織�
 ご利用のテナントのデータがどの地域に格納されるかを確認するには、[[Microsoft 365 管理センター]](https://portal.office.com/adminportal/home) > **[設定]** > **[組織プロファイル]** に移動してください。 下にスクロールして **[データの場所]** に移動します。
 
 > [!div class="mx-imgBorder"]
-> ![管理センターの、Teams を含む、データの場所の表を示すスクリーンショット](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
+> ![管理センターのTeamsを含むデータの場所テーブルのスクリーンショット。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 
 保存されている国とデータの詳細なリストについては、「[Microsoft 365 の顧客データの保存場所](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide)」を参照してください。
 
