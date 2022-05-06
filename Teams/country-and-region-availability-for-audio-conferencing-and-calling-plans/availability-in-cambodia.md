@@ -1,42 +1,47 @@
 ---
-title: カンボジアでの空き時間情報
+title: 2018 年 10 月 1 日
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
-ms.reviewer: 'mikedav, jastark, oscarr, v-sukade, rcole, fafan'
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-  - M365-collaboration
-  - M365-voice
+- M365-collaboration
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
-  - Skype for Business
-  - Microsoft Teams
+- Skype for Business
+- Microsoft Teams
 ms.localizationpriority: medium
-ROBOTS: 'NOINDEX, NOFOLLOW'
+ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.custom:
-  - Audio Conferencing
-  - Phone System
-  - Calling Plans
-description: カンボジアで利用できるMicrosoft 365とOffice 365サービスSkype for Business Microsoft Teams次に示します。
+- Audio Conferencing
+- Phone System
+- Calling Plans
+description: 以下に、Skype for BusinessとMicrosoft TeamsのMicrosoft 365サービスとOffice 365 サービスを示します。
+ms.openlocfilehash: 06f3bf8ea0ff41b9a70e7e1e612026b92c80d981
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416330"
 ---
-
-# <a name="availability-in-cambodia"></a>カンボジアでの空き時間情報
+# <a name="availability-in-cambodia"></a>2018 年 10 月 1 日
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-カンボジアで利用できるMicrosoft 365とOffice 365サービスSkype for Business Microsoft Teams次に示します。
+以下に、Skype for BusinessとMicrosoft TeamsのMicrosoft 365サービスとOffice 365 サービスを示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|電話会議は購入できますか?  <br/> |はい [(分単位の支払いのみ](../audio-conferencing-pay-per-minute.md) )  <br/> |
+|電話会議は購入できますか?  <br/> |はい( [分あたりの支払い](../audio-conferencing-pay-per-minute.md) のみ)  <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> |いいえ  <br/> |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> | 通信クレジットが必要 <br/> |
    
@@ -57,17 +62,17 @@ description: カンボジアで利用できるMicrosoft 365とOffice 365サー�
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
 
-通話プランを購入できない場合は、利用可能なすべてのオプションの [PSTN](../pstn-connectivity.md) 接続オプションに関するページを参照してください。
+通話プランを購入できない場合は、使用可能なすべての [オプションについて PSTN 接続オプション](../pstn-connectivity.md) を参照してください。
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
+## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号とフリーダイヤル番号
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|有料電話番号を取得できる首都または主要都市はどこですか?   | プリトア ・プリト |
+|有料電話番号を取得できる首都または主要都市はどこですか?   | プノンペン |
 |有料電話番号は使用できますか?  <br/> |はい <br/> |
-|無料電話番号は利用できますか?  <br/> |いいえ <br/> |
+|フリーダイヤル番号は利用できますか?  <br/> |いいえ <br/> |
    
- 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「Skype for Business および Microsoft Teams のサービス電話番号を取得する」[を参照](../getting-service-phone-numbers.md)してください。
+ 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「[Skype for BusinessとMicrosoft Teamsのサービス電話番号を取得](../getting-service-phone-numbers.md)する」を参照してください。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 

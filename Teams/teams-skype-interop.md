@@ -1,5 +1,5 @@
 ---
-title: TeamsとSkype相互運用性
+title: 相互運用性のTeamsとSkype
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -10,7 +10,7 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: vinbel
 search.appverid: MET150
-description: 組織内のユーザーとコンシューマー (コンシューマー) Teamsユーザー間の相互運用Skypeについて説明します。
+description: 組織内のTeams ユーザーとSkype (コンシューマー) ユーザー間の相互運用性機能について説明します。
 ms.localizationpriority: medium
 ms.openlocfilehash: b18933b70708661dbb9f7f3a05aaa65983792c5c
 ms.sourcegitcommit: 71edff2670367082312de59c4e21775682871418
@@ -19,81 +19,81 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 03/01/2022
 ms.locfileid: "63043335"
 ---
-# <a name="teams-and-skype-interoperability"></a>TeamsとSkype相互運用性
+# <a name="teams-and-skype-interoperability"></a>相互運用性のTeamsとSkype
 
-この記事では、コンシューマー (コンシューマー) と Microsoft Teams間の相互運用Skype概要を示します。 ユーザーとTeamsユーザー Skypeがチャットや通話、適用される管理者コントロールを通じて通信する方法について学習します。
+この記事では、Microsoft TeamsとSkype (コンシューマー) の間の相互運用性機能の概要について説明します。 ユーザーとSkype ユーザー Teamsチャットや通話、および適用される管理者コントロールを通じて通信する方法について説明します。
 
-Teams組織内のユーザーは、メール アドレスを使用して、Skypeユーザーとチャットや通話を行うことができます。
+組織内のTeamsユーザーは、自分のメール アドレスを使用してSkypeユーザーとチャットしたり、通話したりできます。
 
-- Teamsユーザーは、1 対 1 のテキスト専用会話または音声/ビデオ通話を検索して開始Skypeできます。
-- Skypeユーザーは、1 対 1 のテキスト専用会話または音声/ビデオ通話を検索して開始Teamsできます。
+- Teamsユーザーは、1 対 1 のテキストのみの会話や、Skype ユーザーとの音声/ビデオ通話を検索して開始できます。
+- Skypeユーザーは、1 対 1 のテキストのみの会話や、Teams ユーザーとの音声/ビデオ通話を検索して開始できます。
 
-これらの機能は、デスクトップ、Web、モバイル (Android および iOS) クライアントで、Teams と Skype。 最適なエクスペリエンスを得る場合は、Skype 8.58 以降を使用することをお勧めします。
+これらの機能は、デスクトップ、Web、モバイル (Android および iOS) クライアントで、TeamsとSkypeの両方で使用できます。 最適なエクスペリエンスを得るには、バージョン 8.58 以降Skypeすることをお勧めします。
 
 > [!NOTE]
-> このTeamsと Skypeの相互運用機能は、GCC、GCC High、DOD のデプロイ、またはプライベート クラウド環境では使用できません。
+> この記事で説明する Teams と Skype 相互運用機能は、GCC、GCC High、または DOD の展開、またはプライベート クラウド環境では使用できません。
 
 ## <a name="chat-and-calling-experience"></a>チャットと通話のエクスペリエンス
 
-チャットと通話エクスペリエンスの概要を次に示します。
+チャットと通話のエクスペリエンスの概要を次に示します。
 
-### <a name="teams-user-starts-a-chat-or-call-with-a-skype-user"></a>Teamsユーザーがチャットを開始したり、他のユーザーと通話Skypeする
+### <a name="teams-user-starts-a-chat-or-call-with-a-skype-user"></a>TeamsユーザーがSkype ユーザーとチャットまたは通話を開始する
 
-Teamsユーザーは、新しいチャットSkype検索バーにメール アドレスを入力して、ユーザーを検索できます。  そのTeamsユーザーは、検索結果Skypeユーザーを選択して、チャットを開始したり、チャットを呼び出したりすることができます。
+Teamsユーザーは、新しいチャットまたは検索バーにメール アドレスを入力して、Skype ユーザーを検索できます。  その後、Teams ユーザーは検索結果でSkypeユーザーを選択してチャットを開始したり、チャットを開始したり、ユーザーと通話したりできます。
 
-ユーザー Skype検索結果に表示しない場合があります。 この場合、ユーザーは Teams の検索結果に表示されTeamsユーザーは検索結果を見つけ出せない可能性があります。
+Skypeユーザーは、検索結果に表示しないことを選択できます。 この場合、ユーザーは検索結果にTeamsに表示されません。Teamsユーザーは検索できません。
 
-### <a name="skype-user-starts-a-chat-or-call-with-a-teams-user"></a>Skypeユーザーがチャットを開始するか、他のユーザーと通話Teamsする
+### <a name="skype-user-starts-a-chat-or-call-with-a-teams-user"></a>SkypeユーザーがTeams ユーザーとチャットまたは通話を開始する
 
-Skypeユーザーは、自分のメール アドレスを使用して、Teamsを検索し、チャットを開始できます。 ユーザー Teams、Skype ユーザーから新しいメッセージを受け取り、返信する前に最初にメッセージを受け入れる必要があるという通知が表示されます。
+Skypeユーザーは、自分のメール アドレスを使用して、Teams ユーザーとチャットを検索して開始できます。 Teams ユーザーは、Skype ユーザーからの新しいメッセージがあることを通知され、最初にメッセージを受け入れてから返信する必要があります。
 
-- ユーザーが [Teams] を選択した場合、会話は受け入れ、両方のユーザーがチャットし、互いに通話できます。
-- ユーザーが Teams **を** 選択すると、会話はブロックされ、そのユーザーからの後続のメッセージと呼び出Skypeブロックされます。
-- ユーザーが [Teams メッセージの表示] を選択すると、メッセージが Teams に表示され、ユーザーが会話を受け入れるかブロックするかの決定に役立ちます。
+- Teams ユーザーが **[同意** する] を選択した場合、会話は受け入れられ、両方のユーザーがチャットして互いに通話できます。
+- Teams ユーザーが **[ブロック**] を選択した場合、会話はブロックされ、そのSkype ユーザーからの後続のメッセージと呼び出しはブロックされます。
+- Teams ユーザーが [**メッセージの表示**] を選択した場合、メッセージはTeamsに表示されます。これにより、ユーザーは会話を受け入れるかブロックするかを決定できます。
 
 > [!NOTE]
-> Skype for Business から Teams にアップグレードし、ユーザーが Teams のみモードの場合は、Skype ユーザーから Teams ユーザーへのチャットと呼び出しが Teams に配信されます。 ユーザーが諸島モードの場合、チャットや通話は、SkypeからTeamsに配信Skype for Business。
+> Skype for BusinessからTeamsにアップグレードし、ユーザーがTeamsのみモードになっている場合、Skype ユーザーからTeams ユーザーへのチャットと通話がTeamsに配信されます。 ユーザーがアイランド モードの場合、Skype ユーザーからTeamsユーザーへのチャットと通話がSkype for Businessに配信されます。
 
-### <a name="teams-user-blocks-or-unblocks-a-skype-user"></a>Teamsユーザーをブロックまたはブロック解除Skypeする
+### <a name="teams-user-blocks-or-unblocks-a-skype-user"></a>TeamsユーザーがSkype ユーザーをブロックまたはブロック解除する
 
-ユーザーはTeams Skype ユーザーからの最初の会話要求を受け入れるかブロックした後、いつでもそのユーザーをブロックまたはブロック解除できます。 この操作は、会話またはユーザーのプライバシー設定で行Teams。 Skypeユーザーは、ブロックされたと知りません。
+Teams ユーザーは、Skype ユーザーからの最初の会話要求を受け入れるかブロックした後、いつでもそのユーザーをブロックまたはブロック解除することができます。 この操作は、会話またはTeamsのプライバシー設定で行うことができます。 Skypeユーザーは、ブロックされたことを知りません。
 
-ブロックSkype他のユーザーと、Teams ユーザーがブロックした公衆交換電話網 (PSTN) 電話番号と共に、Teams のユーザーのブロックされた連絡先リストに一覧表示されます。
+ブロックSkypeユーザーは、Teams ユーザーがブロックした他のユーザーや公衆交換電話網 (PSTN) の電話番号と共に、Teamsのユーザーのブロックされた連絡先リストに一覧表示されます。
 
 ## <a name="limitations"></a>制限事項
 
-- 会話はテキスト専用です。 つまり、リッチな書式設定、@mentions、絵文字、またはネイティブのチャット エクスペリエンスで使用できるその他のチャット機能Teams[はありません](native-chat-for-external-users.md)。
+- 会話はテキスト専用です。 つまり、ネイティブのTeams チャット エクスペリエンスで利用できる豊富な書式設定、@mentions、絵文字、その他の[チャット](native-chat-for-external-users.md)機能はありません。
 - 会話は 1 対 1 のみです。 グループ チャットはサポートされていません。
-- TeamsユーザーとSkypeユーザーが互いにプレゼンスを表示できない。
-- ユーザー ID Skype電話番号を使用してSkypeユーザーを検索する機能はサポートされていません。
-- Skypeユーザーは、別のユーザーの番号、代理人の番号、または公衆交換電話網 (PSTN) 番号への転送を設定した Teams ユーザーに通話を発信できない。  ボイスメールだけがサポートされます。
-- 相互運用のエスカレーション、グループ通話、会議はサポートされていません。
-- 代理人がユーザーに代わってSkypeを呼び出す機能Teamsサポートされていません。
+- Teams ユーザーとSkype ユーザーは互いのプレゼンスを確認できません。
+- Skype ID または電話番号を使用したSkypeユーザーの検索はサポートされていません。
+- Skypeユーザーは、別のユーザーの番号、代理人の番号、または公衆交換電話網 (PSTN) 番号への通話転送を設定したTeamsユーザーを呼び出すことはできません。  ボイスメールのみがサポートされています。
+- 相互運用エスカレーション、グループ通話、会議はサポートされていません。
+- 代理人がTeams ユーザーに代わってSkype ユーザーを呼び出す機能はサポートされていません。
 - チャットでの画面共有はサポートされていません。
 
-## <a name="set-whether-teams-users-can-communicate-with-skype-users"></a>ユーザーがTeamsと通信できるかどうかをSkypeする
+## <a name="set-whether-teams-users-can-communicate-with-skype-users"></a>TeamsユーザーがSkypeユーザーと通信できるかどうかを設定する
 
-管理者は、Microsoft Teams 管理センターまたは PowerShell を使用して外部アクセス設定を設定し、組織内の Teams ユーザーが Skype ユーザーと通信できるかどうかを制御します。 既定では、この機能は新しいテナントに対して有効になっています。 ただし、ドメインでまだ使用できない場合は、次の DNS SRV レコードを IT 管理者によって構成する必要があります (例: _sipfederationtls._tcp.contoso.com)。  
+管理者は、Microsoft Teams管理センターまたは PowerShell を使用して外部アクセス設定を設定し、組織内TeamsユーザーがSkype ユーザーと通信できるかどうかを制御します。 既定では、この機能は新しいテナントに対して有効になっています。 ただし、ドメイン (_sipfederationtls_tcp.contoso.com など) で使用できない場合は、IT 管理者が次の DNS SRV レコードを構成する必要があるという前提条件があります。  
 
 **サービス**: sipfederationtls<br/>
 **プロトコル**: TCP<br/>
 **優先度**: 100<br/>
-**重** み: 1<br/>
+**重み**: 1<br/>
 **ポート**: 5061<br/>
 **ターゲット**: sipfed.online.lync.com
 
-Skype for Business から Teams にアップグレードした場合、Skype for Business 管理センターで構成した外部通信設定は、Teams に移行されます。
+Skype for BusinessからTeamsにアップグレードした場合、Skype for Business管理センターで構成した外部通信設定がTeamsに移行されます。
 
 ### <a name="in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターで
 
-管理センター Microsoft Teams > 、組織全体の設定 **External access** に移動し、[ユーザーは他のユーザーと通信Skype **します**。 この設定と他の外部アクセス設定を構成する方法の詳細なガイダンスについては、「外部アクセスの管理」を参照[Teams。](./manage-external-access.md#allow-or-block-domains)
+Microsoft Teams管理センターで、組織全体の **settingsExternal** >  access に移動し、**ユーザーがSkypeユーザーと通信できるようにします**。 これと他の外部アクセス設定を構成する方法の詳細なガイダンスについては、「[Teamsで外部アクセスを管理する](./manage-external-access.md#allow-or-block-domains)」を参照してください。
 
 ### <a name="using-powershell"></a>PowerShell の使用
 
 以下の操作を行います。 
-1. [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy) ```EnablePublicCloudAccess``` コマンドレットを パラメーターと共に使用して、Teamsユーザーと通信できるかどうかSkypeします。 パラメーターを に設定すると、```true```ユーザー Teamsユーザーと通信Skypeできます。 パラメーターを使用して、 ```EnablePublicCloudAudioVideoAccess``` 音声/ビデオ通話を有効/無効にできます。
+1. [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy) コマンドレットをパラメーターと```EnablePublicCloudAccess```共に使用して、Teams ユーザーがSkype ユーザーと通信できるかどうかを制御します。 パラメーターを設定して```true```、Teams ユーザーがSkype ユーザーと通信できるようにします。 このパラメーターを ```EnablePublicCloudAudioVideoAccess``` 使用して、オーディオ/ビデオ通話を有効/無効にすることができます。
 
-2. [Set-CsTenantPublicProvider](/powershell/module/skype/Set-CsTenantPublicProvider) ```Provider``` ```"WindowsLive"``` コマンドレットを パラメーター を に設定して、Teamsユーザーと通信Skypeします。
+2. [Set-CsTenantPublicProvider](/powershell/module/skype/Set-CsTenantPublicProvider) コマンドレットをパラメーターと```Provider```共に使用して```"WindowsLive"```、Teams ユーザーがSkype ユーザーと通信できるようにします。
 
 ## <a name="related-topics"></a>関連項目
 

@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 可用性、有線/固定回線、モバイル ネットワークの可用性、制限など、インドネシアの無料電話番号のダイヤルについて学習します。
+description: 可用性、有線/固定回線、モバイル ネットワークの可用性、制限など、インドネシアでのフリーダイヤル番号のダイヤルについて説明します。
 ms.openlocfilehash: 55e17f036261ce7f03417b8cde4a8cb403f3bffe
 ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT

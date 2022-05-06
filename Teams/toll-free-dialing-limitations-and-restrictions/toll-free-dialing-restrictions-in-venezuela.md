@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限など、ベネズエラの無料電話番号のダイヤルについて学習します。
+description: 可用性、有線/固定回線、モバイル ネットワークの可用性、制限など、ベネズエラでのフリーダイヤル番号のダイヤルについて説明します。
 ms.openlocfilehash: 732e648b4d5c0c9a6c0d5d0ea1d6aa7366f57373
 ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT

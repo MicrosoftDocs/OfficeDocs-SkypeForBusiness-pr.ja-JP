@@ -1,5 +1,5 @@
 ---
-title: オンライン電話システムロールアウト用のユーザー通知メール テンプレート
+title: オンライン電話システムロールアウト用のユーザー通知電子メール テンプレート
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: テンプレートを使用して、クラウドの音声機能を Teams または Skype for Business に送信します。
+description: TeamsまたはSkype for Businessにクラウド音声機能を実装するときに、テンプレートを使用してユーザーに電子メールを送信します。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -25,11 +25,11 @@ ms.locfileid: "62393475"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>新しいオンライン電話システムのユーザー導入を促進する
 
-電話はユーザーのライフラインです。 従来の電話システムからオンライン電話システムへの切り替えは、ユーザーの作業方法の大きな変化を表し、生産性に悪影響を及ぼす可能性があります。 この変更を通じてユーザーに通知、ガイド、サポートを行う時間を取り、ユーザー エクスペリエンスを向上し、投資収益を最大化するのに役立ちます。
+電話はユーザーの生存線にすることができます。 従来の電話システムからオンライン電話システムへの切り替えは、ユーザーの作業方法に大きな変化を表し、生産性に悪影響を与える可能性があります。 この変更を通じてユーザーに通知、ガイド、サポートを行う時間を取ることで、ユーザー エクスペリエンスを向上し、投資収益率を最大限に高めることができます。
 
-この記事には、新しい電話システムについてユーザーに知らせるのに役立つカスタマイズ可能なメール テンプレートが含まれている。 特定の音声展開に合わせて適切なメールをカスタマイズして送信します。 個人用設定を簡単に行うセクションを示すために角かっこを使用しましたが、お知らせをユーザーにとって最も関連性の高い情報にするために、組織固有のメッセージングを追加することをお勧めします。 デプロイに該当する場合は、すべての参照を "Teams" に置き換Skype for Business。
+この記事には、新しい電話システムについてユーザーに通知するのに役立つカスタマイズ可能な電子メール テンプレートが含まれています。 特定の音声展開に合わせて適切なメールをカスタマイズして送信します。 角かっこを使用して、簡単にパーソナル化できるようにセクションを示してきましたが、組織固有のメッセージングを追加して、発表をユーザーにとって最も関連性の高いものにすることをお勧めします。 デプロイに該当する場合は、"Teams" への参照をすべて "Skype for Business" に置き換えます。
 
-## <a name="email-number-1-send-three-weeks-before-launch"></a>メール番号 1: 起動の 3 週間前に送信する
+## <a name="email-number-1-send-three-weeks-before-launch"></a>電子メール番号 1: 起動の 3 週間前に送信する
 
 件名行: 
 
@@ -94,7 +94,7 @@ If you have questions concerning this change, contact <INSERT NAME/EMAIL>.
 <INSERT NAME OF EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-2-send-one-week-before-launch"></a>メール番号 2: 起動の 1 週間前に送信する
+## <a name="email-number-2-send-one-week-before-launch"></a>電子メール番号 2: 起動の 1 週間前に送信する
 
 件名行: 
 
@@ -138,7 +138,7 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER>
 ```
 
-## <a name="email-number-3-send-on-launch-day"></a>メール番号 3: 発売日に送信する
+## <a name="email-number-3-send-on-launch-day"></a>電子メール番号 3: 開始日に送信する
 
 件名行: 
 

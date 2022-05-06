@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 可用性、有線/固定回線、モバイル ネットワークの可用性、制限など、フィリピンの無料電話番号にダイヤルする方法について学習します。
+description: 可用性、有線/固定回線、モバイル ネットワークの可用性、制限など、フィリピンでのフリーダイヤル番号のダイヤルについて説明します。
 ms.openlocfilehash: 1566415bc30085293ba576f6dc91d341bc41b7dd
 ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT

@@ -22,20 +22,20 @@ ms.locfileid: "63039975"
 ---
 # <a name="install-microsoft-teams-powershell-module"></a>PowerShell モジュールMicrosoft Teamsインストールする
 
-この記事では、PowerShell ギャラリーを使用して powerShell Microsoft Teamsをインストールする方法について説明します。 PowerShell Microsoft Teamsは、すべてのプラットフォームでWindowsされます。 Mac と Linux はサポートされていません。
+この記事では、PowerShell ギャラリーを使用してMicrosoft Teams PowerShell モジュールをインストールする方法について説明します。 Microsoft Teams PowerShell モジュールは、すべてのWindows プラットフォームでサポートされています。 Mac と Linux はサポートされていません。
 
 ## <a name="requirements"></a>要件
 
-Microsoft Teams PowerShell モジュールでは、すべてのプラットフォームで PowerShell 5.1 以上が必要です。 オペレーティング システム [用の PowerShellavailable](/powershell/scripting/install/installing-powershell)  の最も最新バージョンをインストールします。 
+PowerShell モジュールMicrosoft Teams、すべてのプラットフォームで PowerShell 5.1 以降が必要です。 オペレーティング システム用 [の PowerShellavailable](/powershell/scripting/install/installing-powershell)  の最新バージョンをインストールします。 
 
 PowerShell のバージョンを確認するには、PowerShell セッション内から次のコマンドを実行します。 
 
 ```powershell
 $PSVersionTable.PSVersion 
 ```
-PowerShell モジュールのインストールには、Install-Module コマンドレットを使用Microsoft Teamsすることをお勧めします。 
+Install-Module コマンドレットを使用して、Microsoft Teams PowerShell モジュールをインストールすることをお勧めします。 
  
-PowerShell ギャラリー (PSGallery) が **PowerShellGet** の信頼できるリポジトリとして構成されていない場合、PSGallery を初めて使用すると、次のメッセージが表示されます。
+PowerShell ギャラリー (PSGallery) が **PowerShellGet** の信頼済みリポジトリとして構成されていない場合は、PSGallery を初めて使用すると、次のメッセージが表示されます。
 
 ```console
 Untrusted repository
@@ -47,20 +47,20 @@ Are you sure you want to install the modules from 'PSGallery'?
 [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"):
 ```
 
-[ **はい]** または **[はい] を [すべて** ] に回答して、インストールを続行します。
+インストールを続行するには、[ **はい]** または **[はい] を [すべて** ] に応答します。
 
 ## <a name="installing-using-the-powershellgallery"></a>PowerShellGallery を使用したインストール
 
-Microsoft Teams PowerShell モジュールは、現在、PowerShell 5.1 で使用Windows。 モジュールをインストールするには、次の手順に従います。 
+Microsoft Teams PowerShell モジュールは、Windowsで PowerShell 5.1 で使用するために現在サポートされています。 モジュールをインストールするには、次の手順に従います。 
 
-- [5.1 Windows PowerShell更新](/powershell/scripting/windows-powershell/install/installing-windows-powershell#upgrading-existing-windows-powershell)します。 バージョン 1607 Windows 10を使用している場合は、PowerShell 5.1 が既にインストールされています。 
-- [4.7.2 .NET Framework以降をインストール](/dotnet/framework/install)します。 
+- [Windows PowerShell 5.1](/powershell/scripting/windows-powershell/install/installing-windows-powershell#upgrading-existing-windows-powershell) に更新します。 バージョン 1607 以降Windows 10している場合は、PowerShell 5.1 が既にインストールされています。 
+- [.NET Framework 4.7.2](/dotnet/framework/install) 以降をインストールします。 
 - 次のコマンドを実行して、最新の PowerShellGet をインストールします。
  
 ```powershell
 Install-Module -Name PowerShellGet -Force -AllowClobber
 ```
-- PowerShell モジュールTeamsインストールします。
+- Teams PowerShell モジュールをインストールします。
 
 ```powershell
 Install-Module -Name MicrosoftTeams -Force -AllowClobber
@@ -68,31 +68,31 @@ Install-Module -Name MicrosoftTeams -Force -AllowClobber
 
 ## <a name="offline-installation"></a>オフライン インストール 
 
-一部の環境では、PowerShell ギャラリーに接続できません。 このような場合は、次の手動インストール [手順に従ってください](https://aka.ms/psgallery-manualdownload)。  
+一部の環境では、PowerShell ギャラリーに接続できません。 このような状況では、これらの [手動インストール手順](https://aka.ms/psgallery-manualdownload)に従ってください。  
 
 ## <a name="sign-in"></a>サインイン
 
-PowerShell モジュールのMicrosoft Teamsするには、Azure 資格情報でサインインします。
+Microsoft Teams PowerShell モジュールの操作を開始するには、Azure 資格情報を使用してサインインします。
 
 ```PowerShell
 Connect-MicrosoftTeams 
 ``` 
 
-## <a name="update-teams-powershell-module"></a>PowerShell Teams更新
+## <a name="update-teams-powershell-module"></a>PowerShell モジュールTeams更新する
 
-PowerShell モジュールを更新するには、モジュールのインストールに使用したのと同じ方法を使用する必要があります。 たとえば、最初に Install-Module を使用した場合は、 [Update-Module](/powershell/module/powershellget/update-module) を使用して最新バージョンを取得する必要があります。  
+PowerShell モジュールを更新するには、モジュールのインストールに使用するのと同じ方法を使用する必要があります。 たとえば、最初に Install-Module を使用していた場合は、 [Update-Module](/powershell/module/powershellget/update-module) を使用して最新バージョンを取得する必要があります。  
 
 ```powershell
 Update-Module MicrosoftTeams
 ```
 
 > [!WARNING]
-> PowerShell Teams PowerShell セッションにインポートされている場合、モジュールの更新は失敗します。 PowerShell を閉じて、新しい管理者特権の PowerShell セッションを再び開きます。
+> PowerShell Teams既に PowerShell セッションにインポートされている場合、モジュールの更新は失敗します。 PowerShell を閉じて、新しい管理者特権の PowerShell セッションを再度開きます。
 
 
 ## <a name="uninstall-teams-powershell"></a>PowerShell Teamsアンインストールする
 
-PowerShell をMicrosoft Teamsするには、新しい PowerShell コマンド プロンプトを開き、次のコマンドを実行します。 
+PowerShell Microsoft Teamsアンインストールするには、新しい PowerShell コマンド プロンプトを開き、次のコマンドを実行します。 
 
 ```powershell
 Uninstall-Module MicrosoftTeams
@@ -103,7 +103,7 @@ Uninstall-Module MicrosoftTeams -Allversions
 
 ## <a name="next-steps"></a>次のステップ 
 
-これで、PowerShell を使用してMicrosoft Teams管理Microsoft Teams準備が整いました。 使用[を開始するにはTeams PowerShell Teamsの管理に関](teams-powershell-managing-teams.md)するページを参照してください。 
+これで、Microsoft Teams PowerShell を使用してMicrosoft Teamsを管理する準備が整いました。 Teams [PowerShell を使用したTeamsの管理](teams-powershell-managing-teams.md)を開始する方法に関する説明を参照してください。 
 
 ## <a name="related-topics"></a>関連項目
 

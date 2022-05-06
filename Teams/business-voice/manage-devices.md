@@ -14,7 +14,7 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: 通話プランを使用してデバイスをTeams 電話システムする方法について学習します。
+description: 通話プランを使用してTeams 電話システムのデバイスを管理する方法について説明します。
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 002e6494465c3e036284c36d505582e6285f34c2

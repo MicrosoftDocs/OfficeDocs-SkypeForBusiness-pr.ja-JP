@@ -79,10 +79,10 @@ Teams Roomsで使用するためのデバイス コンプライアンス設定�
 |コードの整合性を要求する |サポート  | コードの整合性は、既にTeams Roomsの要件です。 |
 | [**デバイスのプロパティ**](/mem/intune/protect/compliance-policy-create-windows%22%20/l%20%22device-properties) | -- | -- |
 |オペレーティング システムのバージョン (最小、最大) |非サポート | Teams Rooms新しいバージョンのWindowsに自動的に更新され、ここで値を設定すると、OS の更新後のサインインが正常に行われなくなる可能性があります。|
-|モバイル デバイスの OS バージョン (最小、最大) | サポートされていません。 | 該当なし |
-| 有効なオペレーティング システム ビルド | 非サポート | 該当なし |
+|モバイル デバイスの OS バージョン (最小、最大) | サポートされていません。 | N/A |
+| 有効なオペレーティング システム ビルド | 非サポート | N/A |
 | [**Configuration Managerコンプライアンス**](/mem/intune/protect/compliance-policy-create-windows%22%20/l%20%22device-properties) | -- | -- |
-| Configuration Managerからデバイスコンプライアンスを要求する | サポート |  該当なし |
+| Configuration Managerからデバイスコンプライアンスを要求する | サポート |  N/A |
 | [**システム セキュリティ**](/mem/intune/protect/compliance-policy-create-windows%22%20/l%20%22system-security) | -- | -- |
 | すべてのパスワード ポリシー | 非サポート | パスワード ポリシーを使用すると、ローカル Skype アカウントが自動的にサインインできなくなります。 |
 | デバイス上のデータ ストレージの暗号化が必要です。 | サポート  | Teams Roomsでデータ ストレージの暗号化を最初に有効にした場合にのみ使用します。 |
@@ -96,7 +96,7 @@ Teams Roomsで使用するためのデバイス コンプライアンス設定�
 最新 | サポート | Microsoft Defender マルウェア対策が既にTeams Roomsの要件であることを検証します。 |
 | リアルタイム保護 | サポート | リアルタイム保護は、既にTeams Roomsの要件です。 |
 | [**Microsoft Defender for Endpoint**](/mem/intune/protect/compliance-policy-create-windows%22%20/l%20%22microsoft-defender-for-endpointws) | -- | -- |
-| デバイスがコンピューターのリスク スコア以下である必要があります。 | サポート |  該当なし |
+| デバイスがコンピューターのリスク スコア以下である必要があります。 | サポート |  N/A |
 
 #### <a name="teams-rooms-on-android"></a>[Android でのTeams Rooms](#tab/mtr-a)
 
@@ -105,30 +105,30 @@ Teams Roomsで使用するためのデバイス コンプライアンス設定�
 | ポリシー | 使用するための条件 | メモ |
 |---------|-------------|-------|
 | [**Microsoft Defender for Endpoint**](/mem/intune/protect/compliance-policy-create-android#microsoft-defender-for-endpoint) | -- | -- |
-| デバイスがコンピューターのリスク スコアの下に存在することを要求する | 非サポート |  該当なし |
+| デバイスがコンピューターのリスク スコアの下に存在することを要求する | 非サポート |  N/A |
 | [**デバイスの正常性**](/mem/intune/protect/compliance-policy-create-android%22%20/l%20%22device-health) | -- | -- |
 | デバイス管理者が管理するデバイス | 必須 | Android デバイス管理Teams、デバイス管理者を有効にする必要があります。 |
-| ルート化されたデバイス | サポート |  該当なし |
-| デバイスがデバイスの脅威レベル以下である必要がある | 非サポート |  該当なし |
+| ルート化されたデバイス | サポート |  N/A |
+| デバイスがデバイスの脅威レベル以下である必要がある | 非サポート |  N/A |
 | [**Google Play Protect**](/mem/intune/protect/compliance-policy-create-android#device-health) | -- | -- |
 | Google Play Services が構成されている | 非サポート | Teams Android デバイスに Google Play がインストールされていません。 |
 | 最新のセキュリティ プロバイダー | 非サポート | Teams Android デバイスに Google Play がインストールされていません。 |
 | アプリでの脅威スキャン | 非サポート | Teams Android デバイスに Google Play がインストールされていません。 |
 | SafetyNet デバイス構成証明 | 非サポート | Teams Android デバイスに Google Play がインストールされていません。|
 | [**デバイスのプロパティ**](/mem/intune/protect/compliance-policy-create-android#device-properties) | -- | -- |
-| オペレーティング システムのバージョン (最小、最大) | サポート |  該当なし |
+| オペレーティング システムのバージョン (最小、最大) | サポート |  N/A |
 [**システム セキュリティ**](/mem/intune/protect/compliance-policy-create-android#system-security) | -- | -- |
-| デバイス上のデータ ストレージの暗号化が必要です。 |サポート |  該当なし |
+| デバイス上のデータ ストレージの暗号化が必要です。 |サポート |  N/A |
 [**デバイスのセキュリティ**](/mem/intune/protect/compliance-policy-create-android#device-security) | -- | -- |
 | 不明なソースからアプリをブロックする | 非サポート | Teams管理者のみがアプリまたは OEM ツールをインストールする |
-| アプリ ランタイムの整合性をポータル サイトする | サポート |  該当なし|
-| 制限付きアプリ | 非サポート |  該当なし |
-| デバイスで USB デバッグをブロックする | サポート |  該当なし|
+| アプリ ランタイムの整合性をポータル サイトする | サポート |  N/A|
+| 制限付きアプリ | 非サポート |  N/A |
+| デバイスで USB デバッグをブロックする | サポート |  N/A|
 [**すべての Android デバイス*](/mem/intune/protect/compliance-policy-create-android#all-android-devices) | -- | -- |
-|パスワードが必要になるまでの最大非アクティブ時間 (分) | 非サポート |  該当なし |
-| モバイル デバイスのロックを解除するためにパスワードを要求する | 非サポート | 該当なし |
+|パスワードが必要になるまでの最大非アクティブ時間 (分) | 非サポート |  N/A |
+| モバイル デバイスのロックを解除するためにパスワードを要求する | 非サポート | N/A |
 | [**Android 10 以降**](/mem/intune/protect/compliance-policy-create-android#android-10-and-later) | -- | -- |
 | [**Android 9 以前または Samsung Knox**](/mem/intune/protect/compliance-policy-create-android#android-9-and-earlier-or-samsung-knox) | -- | -- |
-|必要なパスワードの種類 |非サポート | 該当なし|
+|必要なパスワードの種類 |非サポート | N/A|
 
 ---

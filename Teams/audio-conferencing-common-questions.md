@@ -21,7 +21,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-description: 電話会議を使用したいお客様からよく聞く質問を次に示します。
+description: 電話会議を使用したいお客様から寄せられる主な質問の一部を次に示します。
 ms.openlocfilehash: 9ab6e8b752dd0a1e60af3b971007217bcf1355c2
 ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
@@ -31,11 +31,11 @@ ms.locfileid: "62055717"
 ---
 # <a name="audio-conferencing-common-questions"></a>電話会議に関するよくある質問
 
-電話会議を使用したいお客様からよく聞く質問を次に示します。
+電話会議を使用したいお客様から寄せられる主な質問の一部を次に示します。
   
 ## <a name="what-are-the-benefits-of-audio-conferencing"></a>電話会議の利点は何ですか?
 
-たとえば、ユーザーが移動中で、ノート PC やモバイル デバイスで Skype for Business または Microsoft Teams アプリを使用して会議に出席できない場合は、会議にコールインすると便利です。 ただし、コンピューター上のアプリよりも電話を使用して Skype for Business または Microsoft Teams 会議に参加したほうが良い場合があります。
+たとえば、人が移動中で、ノート PC やモバイル デバイスでSkype for BusinessアプリやMicrosoft Teams アプリを使用して会議に出席できない場合、会議に呼び出すことは有益です。 ただし、コンピューター上のアプリよりも電話を使用して Skype for Business または Microsoft Teams 会議に参加したほうが良い場合があります。
   
 - インターネット接続が制限されている。
 
@@ -43,123 +43,123 @@ ms.locfileid: "62055717"
 
 - ユーザーが Skype for Business 会議に参加しようとして失敗した。
 
-- 通話品質は、ダイヤルインする方が良いです。
+- ダイヤルインする場合は、通話の品質が向上します。
 
 - Bluetooth デバイスを使用すると「ハンズフリー」で会議に参加できる。
 
 - 状況によっては、そのほうが簡単で便利なことがあります。
 
-## <a name="who-can-attend-an-audio-conferencing-meeting-and-who-can-i-hear"></a>Who会議に出席できますか? 誰が聞こえるか
+## <a name="who-can-attend-an-audio-conferencing-meeting-and-who-can-i-hear"></a>電話会議会議に出席できるWho また、だれが読み上げられますか?
 
-ダイヤルイン番号と会議 ID を持つユーザーは、会議の開催者が会議をロックしない限り、Skype for Business または Microsoft Teams 会議に参加できます。
+ダイヤルイン番号と会議 ID を持つすべてのユーザーは、会議の開催者が会議をロックしていない限り、Skype for BusinessまたはMicrosoft Teams会議に参加できます。
   
-電話または Skype for Business アプリまたは Microsoft Teams アプリを使用してコールインしている場合でも、通話で他のすべてのユーザーの声が聞こえ、他のユーザーが自分の声を聞く可能性があります。 会議の開催者は、会議の出席者の音声を聞きたくない場合は、会議の出席者を "ミュート" することができます。
+電話、Skype for Business、Microsoft Teamsアプリのどちらを使用して通話を行う場合でも、通話中の他のすべてのユーザーの音声を聞くことができ、音声を聞くことができます。 会議の開催者は、会議の出席者の音声を聞きたくない場合に、会議の出席者を "ミュート" する機能を持っています。
   
-## <a name="can-i-add-a-toll-free-number-for-my-audio-conferencing-users"></a>電話会議ユーザーの無料電話番号を追加できますか?
+## <a name="can-i-add-a-toll-free-number-for-my-audio-conferencing-users"></a>電話会議ユーザーのフリーダイヤル番号を追加できますか?
 
-はい。無料電話番号 (サービス番号) は利用できますが、一部の国/地域でのみ利用できます。 使用可能な番号の一覧については、「電話会議と通話プランの国と地域の可用性 [」を参照してください](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
+はい。フリーダイヤル電話番号 (サービス番号) を使用できますが、一部の国/地域でのみ使用できます。 使用可能な番号の一覧については、「 [電話会議と通話プランの国と地域の可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)」を参照してください。
   
-## <a name="how-many-local-dial-in-numbers-are-currently-supported"></a>現在サポートされているローカル ダイヤルイン番号の数
+## <a name="how-many-local-dial-in-numbers-are-currently-supported"></a>現在サポートされているローカル ダイヤルイン番号はいくつですか?
 
-電話会議のライセンスを購入するときに割り当てられるローカル ダイヤルイン番号があります。 ダイヤルイン番号が会議出席招待に含まれます。 これらのローカル番号は、組織でのみ使用できます。 組織に割り当てられている電話と、その番号は、電話会議が有効になっている組織内のユーザーによって共有されます。 そのため、Skype for Business A Microsoft Teams別のユーザー B がスケジュールした会議のダイヤルイン番号はどちらも同じです。
+電話会議のライセンスを購入するときに割り当てられるローカル ダイヤルイン番号があります。 ダイヤルイン番号は、会議の招待に含まれます。 これらのローカル番号は、組織でのみ使用できます。 組織に割り当てられている電話とその番号は、電話会議が有効になっている組織内のユーザーによって共有されます。 そのため、ユーザー A と別のユーザー B によってスケジュールされたSkype for BusinessまたはMicrosoft Teamsの会議は、どちらも同じダイヤルイン番号を持ちます。
   
-ローカル ダイヤルイン番号、場合によっては、組織が存在する国の国際ダイヤルイン番号も会議出席招待に含まれます。 会議の出席者が、招待に含まれる別の番号を使用している場合は、共有の電話番号です。
+ローカル ダイヤルイン番号と、組織が所在する国からの国際ダイヤルイン番号が会議出席依頼に含まれる場合もあります。 会議出席者が招待に含まれる別の番号を使用している場合は、共有電話番号になります。
   
-## <a name="how-many-international-dial-in-numbers-does-audio-conferencing-in-microsoft-365-or-office-365-support"></a>電話会議の国際ダイヤルイン番号の数は、Microsoft 365またはOffice 365ですか?
+## <a name="how-many-international-dial-in-numbers-does-audio-conferencing-in-microsoft-365-or-office-365-support"></a>Microsoft 365またはOffice 365の電話会議でサポートされている国際ダイヤルイン番号はいくつですか?
 
-現在の国/地域の一覧については、「Microsoft Teams での電話会議の 電話 番号」または[「Skype for Business](phone-numbers-for-audio-conferencing-in-teams.md) Online の電話会議の 電話 番号」[を参照](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)してください。
+現在の国/地域の一覧については、「[Microsoft Teams での電話会議の電話番号](phone-numbers-for-audio-conferencing-in-teams.md)」または[「Skype for Business Online での電話会議の電話番号](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)」を参照してください。
   
-## <a name="can-i-set-up-local-numbers-for-audio-conferencing-from-additional-cities-in-the-country"></a>国の他の都市から電話会議の電話番号を設定できますか?
+## <a name="can-i-set-up-local-numbers-for-audio-conferencing-from-additional-cities-in-the-country"></a>国内の他の都市から電話会議のローカル番号を設定できますか?
 
-お客様の地域で電話会議の電話番号が利用できない場合、または組織のニーズを満たしていない場合は [、SkypeFeedback](http://www.skypefeedback.com/forums/299910--preview/category/119971-pstn-conferencing)フォーラム でフィードバックをお送りください。
+電話会議の電話番号が地域で利用できない場合、または組織のニーズを満たしていない場合は、 [SkypeFeedback フォーラム](http://www.skypefeedback.com/forums/299910--preview/category/119971-pstn-conferencing)でフィードバックをお送りください。
   
-## <a name="what-is-the-maximum-length-of-the-audio-conferencing-meetings"></a>電話会議の最大長は何ですか?
+## <a name="what-is-the-maximum-length-of-the-audio-conferencing-meetings"></a>電話会議会議の最大長はどのくらいですか?
 
 最大時間は、会議に参加しているユーザーと、会議への参加に使用した認証の種類によって異なります。
   
 |**会議の出席者**|**会議の終了時刻**|
 |:-----|:-----|
-|ユーザーは、Skype for BusinessまたはMicrosoft Teamsを使用して参加している、または会議にダイヤルインしている。  <br/> |会議は、24 時間後に出席者リストに変更がない場合に終了します。  <br/> |
-|すべてのユーザーが会議にダイヤルインされますが、他のユーザーが PIN を使用して会議に入っています。  <br/> |会議は 24 時間後に終了します。  <br/> |
-|すべてのユーザーが会議にダイヤルインされますが、PIN を使用して会議に参加したユーザーはいません。  <br/> | 匿名ユーザーが会議を開始できる場合、会議は 4 時間後に終了します。 匿名ユーザーが会議の開始を許可されていない場合、すべての認証された参加者が会議を離れた場合、最後に認証された参加者が離れた 90 分後に会議が終了します。 <br/> |
+|ユーザーは、Skype for BusinessまたはMicrosoft Teams アプリを使用して参加しているか、会議にダイヤルインしています。  <br/> |24 時間後に出席者リストに変更がない場合、会議は終了します。  <br/> |
+|すべてのユーザーが会議にダイヤルインされますが、他のユーザーが会議に参加するために PIN を使用しています。  <br/> |会議は 24 時間後に終了します。  <br/> |
+|すべてのユーザーが会議にダイヤルインされますが、会議に参加するために PIN を使用したユーザーはだれもいませんでした。  <br/> | 匿名ユーザーが会議の開始を許可されている場合、会議は 4 時間後に終了します。 匿名ユーザーが会議を開始できず、認証されたすべての参加者が会議を離れた場合、会議は最後に認証された参加者が退席してから 90 分後に終了します。 <br/> |
 
-## <a name="how-many-total-phone-participants-can-i-have-in-meetings"></a>会議に参加できる電話参加者の総数は何人ですか?
+## <a name="how-many-total-phone-participants-can-i-have-in-meetings"></a>会議に参加できる電話参加者の総数はどれくらいですか?
 
-会議 [で許可される出席者の](limits-specifications-teams.md) 総数については、「制限と仕様」を参照してください。
+会議で許可される出席者の合計数については、「 [制限と仕様](limits-specifications-teams.md) 」を参照してください。
   
-会議の制限については、「オンライン制限[」Skype for Business参照してください](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-limits#bkmk_Meeting_LyncOnlineLimits)。
+会議の制限については、「[オンライン制限のSkype for Business](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-limits#bkmk_Meeting_LyncOnlineLimits)」を参照してください。
   
-## <a name="why-did-users-start-receiving-emails-with-their-audio-conferencing-information"></a>ユーザーが電話会議情報を含むメールの受信を開始した理由
+## <a name="why-did-users-start-receiving-emails-with-their-audio-conferencing-information"></a>ユーザーが電話会議情報を含む電子メールの受信を開始した理由
 
-管理者である ユーザーが電話会議情報と PIN[](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)を電子メールで送信および更新できる新しい機能が追加されました。 無効にする方法など、詳細については[、「Microsoft Teams](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)で電話会議の設定が変更された場合にメールの送信を有効または無効にする」または[「Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change)で電話会議の設定が変更された場合のメールの送信を有効または無効にする」を参照してください。
+[管理者](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)は、電話会議情報と PIN を電子メールで送信および更新できる新機能を追加しました。 無効にする方法など、詳細については、「[電話会議の設定がMicrosoft Teamsで変更されたときに電子メールの送信を有効または無効にする](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)」を参照するか、オンラインで[電話会議の設定が変更されたときに電子メールの送信を有効または無効Skype for Business](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change)。
   
-## <a name="can-audio-conferencing-be-used-by-the-users-who-are-part-of-an-on-premises-deployment-of-skype-for-business-server"></a>電話会議は、電話会議のオンプレミス デプロイの一部であるユーザーが使用Skype for Business Server。
+## <a name="can-audio-conferencing-be-used-by-the-users-who-are-part-of-an-on-premises-deployment-of-skype-for-business-server"></a>電話会議は、Skype for Business Serverのオンプレミス展開の一部であるユーザーが使用できますか?
 
-[[会議の最初](meetings-first.md)] を使用Skype for Business Serverユーザーは、会議や電話会議TeamsをTeamsを利用できます。
+[Meetings First](meetings-first.md) では、Skype for Business Server ユーザーは、Teams会議や電話会議のTeamsを利用できます。
   
 ## <a name="can-a-user-get-a-personal-conference-id"></a>ユーザーは個人の会議 ID を取得できますか?
 
-Skype for BusinessとMicrosoft Teamsユーザーには、会議 ID がランダムに割り当てられます。 ユーザーは、使用できる静的電話会議 ID を予約または設定することはできません。
+Skype for BusinessユーザーとMicrosoft Teamsユーザーには、会議 ID がランダムに割り当てられます。 ユーザーは、自分だけが使用できる静的な会議 ID を予約または設定できません。
   
-## <a name="can-i-use-audio-conferencing-with-skype-meeting-broadcast"></a>会議ブロードキャストで電話会議Skypeできますか?
+## <a name="can-i-use-audio-conferencing-with-skype-meeting-broadcast"></a>会議ブロードキャストで電話会議Skype使用できますか?
 
-現在、電話会議が有効になっているユーザーが会議ブロードキャストに参加Skypeサポートされていません。
+電話会議が有効になっているユーザーがSkype会議ブロードキャストに参加することは現在サポートされていません。
   
-## <a name="can-a-user-get-operator-assistance-during-a-meeting"></a>ユーザーが会議中にオペレーターのサポートを受け取れるか。
+## <a name="can-a-user-get-operator-assistance-during-a-meeting"></a>ユーザーは会議中にオペレーターのサポートを受けることができますか?
 
-いいえ。ユーザーは、会議中に *0 を押してもオペレーターの支援やサポートを受け取る必要はありません。 電話会議に問題がある場合は、組織の管理者が[Microsoft](https://support.office.com/article/Microsoft-support-for-Office-365-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)サポートに問い合わせてOffice 365。
+いいえ。ユーザーは、会議中に *0 を押してオペレーターのサポートやサポートを受けることはできません。 電話会議に問題がある場合は、組織の管理者が [Microsoft サポートに連絡してOffice 365](https://support.office.com/article/Microsoft-support-for-Office-365-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
   
 ## <a name="how-does-a-user-access-or-change-their-conference-id"></a>ユーザーが会議 ID にアクセスまたは変更する方法
 
-Skype for BusinessまたはMicrosoft Teamsユーザーは、会議のスケジュールを設定して、ユーザーに割り当てられている会議 ID Outlook検索Outlook on the web。 また、ユーザーは、セットアップ後に送信される電子メールで会議 ID を確認できます。
+Skype for BusinessまたはMicrosoft Teamsユーザーは、OutlookとOutlook on the webで会議をスケジュールすることで、割り当てられている会議 ID を見つけることができます。 また、ユーザーは、セットアップ後に送信される会議 ID を電子メールで見つけることができます。
   
 > [!NOTE]
-> ユーザーは会議 ID をリセットできない。 会議 ID は、組織の管理者によって [のみ](https://support.office.com/article/admin-eac4d046-1afd-4f1a-85fc-8219c79e1504)リセットできます。
+> ユーザーは会議 ID をリセットできません。 会議 ID は、 [組織の管理者](https://support.office.com/article/admin-eac4d046-1afd-4f1a-85fc-8219c79e1504)のみがリセットできます。
   
-ユーザーが組織の管理者の支援を受けずに会議 ID にアクセスしてリセットできるソリューションに取り組み中です。
+組織の管理者の助けを借りずに、ユーザーが会議 ID にアクセスしてリセットできるようにするソリューションに取り組んでいます。
   
 ## <a name="how-do-users-access-or-change-their-pin"></a>ユーザーが PIN にアクセスまたは変更する方法
 
-Skype for BusinessまたはMicrosoft Teamsユーザーは、セットアップ後に送信されるメールで PIN を検索できます。
+Skype for BusinessユーザーまたはMicrosoft Teamsユーザーは、セットアップ後に送信される電子メールで PIN を見つけることができます。
   
 > [!NOTE]
-> Teamsユーザーはピンを変更できます。 会議出席招待の下部に、ピンをリセットするリンクがあります。
+> Teamsユーザーはピンを変更できます。 会議出席依頼の下部にピンをリセットするためのリンクがあります。
   
-ユーザーが組織の管理者の支援を受けずに PIN にアクセスしてリセットできるソリューションに取り組み中です。
+ユーザーが組織の管理者の助けを借りずに PIN にアクセスしてリセットできるようにするソリューションに取り組んでいます。
   
-## <a name="what-in-meeting-dial-pad-commands-are-supported"></a>どのような会議中のダイヤルパッド コマンドがサポートされていますか。
+## <a name="what-in-meeting-dial-pad-commands-are-supported"></a>どのような会議内ダイヤルパッド コマンドがサポートされていますか?
 
 会議の参加者と開催者の場合:
 
 | コマンド名    | コマンド キー | 説明                                                                 |
 |--------------   |--------------|-----------------------------------------------------------------------------|
-| コマンド メニュー    | \*1          | \*1 キーを押して、使用可能なダイヤルパッド コマンドの説明を再生します。 |
-| 上げ/下手| \*5          | \*5 キーを押して、手を上げるか下げる。                                           |  
-| ミュート/ミュート解除     | \*6          | \*6 キーを押して、自分自身をミュートまたはミュート解除します。                                     |
+| コマンド メニュー    | \*1          | 1 キーを押して \*、使用可能なダイヤル パッド コマンドの説明を再生します。 |
+| 手を上げる/下げる| \*5          | 5 キーを押 \*して、手を上げたり下げたりします。                                           |  
+| ミュート/ミュート解除     | \*6          | 6 キーを押して \*、ミュートまたはミュート解除を行います。                                     |
 
-会議開催者の場合のみ:
+会議の開催者の場合のみ:
 
 | コマンド名                   | コマンド キー | 説明                                                 |
 |--------------------------------|--------------|-------------------------------------------------------------|
-| [すべて認める]                      | \*21         | \*ロビーで待機しているすべての参加者を認めるには、21 キーを押します。  |
-| すべてミュートする                       | \*22         | \*(開催者を除く) すべての参加者をミュートするには、21 キーを押します。 |
-| Enter/Exit Announcement を切り替える | \*23         | \*23 キーを押して、Enter/Exit Announcement を有効または無効にします。    |
+| すべて許可する                      | \*21         | ロビーで待機しているすべての参加者を許可するには、21 キーを押 \*します。  |
+| すべてミュートする                       | \*22         | 21 キーを押して \*すべての参加者をミュートします (開催者を除く)。 |
+| Enter/Exit のお知らせを切り替える | \*23         | Enter/Exit Announcement を有効または無効にするには、23 キーを押 \*します。    |
 
-## <a name="can-attendees-dial-out-to-international-phone-numbers-when-they-are-in-a-skype-for-business-or-microsoft-teams-meeting"></a>出席者が会議中または会議中に国際電話番号Skype for BusinessダイヤルMicrosoft Teamsできますか?
+## <a name="can-attendees-dial-out-to-international-phone-numbers-when-they-are-in-a-skype-for-business-or-microsoft-teams-meeting"></a>出席者は、Skype for BusinessまたはMicrosoft Teams会議に参加しているときに、国際電話番号にダイヤルアウトできますか?
 
-はい。出席者は国際ダイヤルアウトし、他の発信者を会議や会議Skype for Business招待Microsoft Teamsできます。 「[他のユーザーが](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)参加Microsoft Teams会議からダイヤルアウトする」または「Skype for Business Online 会議からダイヤルアウトして他のユーザーが参加できるようする」[を参照してください](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)。
+はい。出席者は国際電話でダイヤルアウトし、他の発信者をSkype for BusinessまたはMicrosoft Teams会議に招待できます。 [他のユーザーが参加できるようにMicrosoft Teams会議からダイヤルアウト](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)する方法、または他のユーザーが参加[できるようにSkype for Business Online 会議からダイヤルアウトする](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)方法に関するページを参照してください。
   
-## <a name="how-does-a-skype-for-business-or-microsoft-teams-user-schedule-a-meeting-with-audio-conferencing-meeting-details"></a>電話会議のSkype for Businessユーザー Microsoft Teams会議の詳細を使用して会議をスケジュールする方法
+## <a name="how-does-a-skype-for-business-or-microsoft-teams-user-schedule-a-meeting-with-audio-conferencing-meeting-details"></a>Skype for BusinessまたはMicrosoft Teamsユーザーは電話会議会議の詳細を使用して会議をどのようにスケジュールしますか?
 
-ユーザーに電話会議ライセンスが割り当て済みで、ユーザーが Outlook または Outlook on the web で新しい Skype for Business または Microsoft Teams 会議を作成すると、ダイヤルイン電話番号と会議 ID が会議出席招待に自動的に追加されます。
+ユーザーに **電話会議** ライセンスが割り当てられ、ユーザーがOutlookまたはOutlook on the webで新しいSkype for BusinessまたはMicrosoft Teams会議を作成すると、ダイヤルイン電話番号と会議 ID が会議の招待に自動的に追加されます。
   
-## <a name="how-does-a-user-schedule-and-start-a-meeting-when-all-attendees-will-be-using-a-phone-to-dial-in"></a>すべての出席者が電話を使ってダイヤルインする場合、ユーザーはどのようにして会議をスケジュールし、会議を開始しますか?
+## <a name="how-does-a-user-schedule-and-start-a-meeting-when-all-attendees-will-be-using-a-phone-to-dial-in"></a>すべての出席者が電話を使用してダイヤルインする場合、ユーザーはどのようにスケジュールして会議を開始しますか?
 
-電話を使ってダイヤルインを行うすべての出席者が参加する会議のスケジュールは、通常のオンライン会議のスケジュール設定と変わる必要があります。 ただし、すべての参加者が電話を使ってダイヤルインする会議を開始するには、次の 2 つの方法があります。
+電話を使用してダイヤルインするすべての出席者が参加する会議のスケジュール設定は、通常のオンライン会議のスケジュールと変わりはありません。 ただし、すべての参加者が電話を使用してダイヤルインする会議を開始するには、次の 2 つの方法があります。
 
-- **オプション 1:** 既定では、会議の開催者とすべての参加者が電話を使って会議に参加している場合、会議の開催者は電話会議 PIN を入力して開始する必要があります。 発信者は、オンライン会議の電話番号にダイヤルするときに、特定の会議の開催者として認証を受け取る必要がある場合に求めらされます。 開催者が開始する前にダイヤルインを使用して会議に参加しているすべての参加者はロビーに配置され、保留の音楽を聴きます。 会議Skype for Business、開催者が電話会議 PIN を入力して会議を開始すると、ロビーのすべての参加者が自動的に会議に参加します。 会議Microsoft Teams、開催者の会議ポリシーの [自動的に参加を認めるユーザー] 設定の値に従って、参加者は会議に参加します。
+- **オプション #1**: 既定では、会議の開催者とすべての参加者が電話を使用して会議に参加している場合、会議の開催者は電話会議 PIN を入力して会議を開始する必要があります。 発信者は、オンライン会議の電話番号をダイヤルするときに、特定の会議の開催者として認証するかどうかを尋ねられます。 開催者が開始する前にダイヤルインを使用して会議に参加するすべての参加者はロビーに配置され、保留音を聞きます。 Skype for Business会議の場合、開催者が電話会議 PIN を入力して会議を開始すると、ロビーのすべての参加者が自動的に会議に参加します。 Microsoft Teams会議の場合、参加者は、開催者の会議ポリシーに設定されているユーザーを自動的に許可する値に従って会議に参加します。
 
-- **オプション 2:** 既定では、"認証されていない発信者を会議の最初のユーザーに許可する" 設定は無効になっています。 設定が特定の開催者に対して有効になっている場合は、開催者が電話会議 PIN を入力する前に、その開催者によってスケジュールされている会議を開始できます。 この設定を有効にすると、最初の参加者がダイヤルイン電話番号を介して参加するとすぐに会議が開始され、最初の参加者はロビーに置かれなされます。 詳細については、「Microsoft Teams でユーザーの電話会議設定を管理する」または[「Skype for Business](manage-the-audio-conferencing-settings-for-a-user-in-teams.md) Online でユーザーの電話会議設定[を管理する」を参照してください](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)。
+- **オプション #2**: [認証されていない発信者を会議の最初のユーザーに許可する] 設定は既定で無効になっています。 特定の開催者に対して設定が有効になっている場合、開催者が電話会議 PIN を入力する前に、その開催者によってスケジュールされたすべての会議を開始できます。 この設定を有効にすると、最初の参加者がダイヤルイン電話番号を介して会議に参加するとすぐに会議が開始され、最初の参加者はロビーに配置されません。 詳細については、「Microsoft Teams[でユーザーの電話会議設定を管理](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)する」または「Skype for Business [Online でユーザーの電話会議設定を管理する」を参照](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)してください。
   
 ## <a name="related-topics"></a>関連項目
 

@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: このページでは、電話会議の自動応答言語を電話会議の番号として選択する方法Microsoft Teams。
+description: Microsoft Teamsで電話会議番号の電話会議の自動応答言語を選択する方法について説明します。
 ms.openlocfilehash: 433ccd3baa7f0a91ded991e9fc6cec9b069faee8
 ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
@@ -31,28 +31,28 @@ ms.locfileid: "62055897"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams で電話会議の自動案内の言語を設定する
 
-会議の電話会議の自動応答Microsoft Teams会議に参加するときに、さまざまな言語で音声発信者にあいさつすることができます。
+Microsoft Teamsの電話会議の自動応答は、会議に参加するときに、さまざまな言語で音声発信者にあいさつできます。
   
 第 1 言語 1 つと、第 2 言語 4 つまで選びます。設定する第 1 言語が最初に使用され、第 2 言語は選択した順に自動応答で使用されます。
   
 > [!NOTE]
-> [専用] カテゴリの電話会議番号の言語のみを変更できます。 共有電話会議番号の言語は変更できません。
+> 変更できるのは、専用カテゴリの電話会議番号の言語のみです。 共有電話会議番号の言語は変更できません。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>電話会議の自動応答の言語を設定する
 
-管理センター Microsoft Teams使用します。
+Microsoft Teams管理センターの使用:
 
 1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。
 
-2. 一覧 **から [専用** 電話会議の電話番号] を選択し、ページの上部にある [編集] を **クリックします**。 専用電話会議番号の言語を変更できるのは、その言語のみです。 [ **編集]** オプションは、[専用電話会議番号] が選択されている場合にのみ表示されます。
+2. 一覧から **[専用** の電話会議電話番号] を選択し、ページの上部にある [編集] をクリック **します**。 専用電話会議番号の言語を変更することだけが可能です。 **[編集]** オプションは、専用電話会議番号が選択されている場合にのみ表示されます。
 
-3. 右側のウィンドウで、必要な既定の言語と代替言語を選択します。
+3. 右側のウィンドウで、必要な既定の言語と任意の代替言語を選択します。
 
     > [!NOTE]
-    > サポートされている既定の言語と代替言語が一覧表示されます。 リストでそれらを選択する順序は、発信者に表示される言語の順序です。
+    > サポートされている既定の言語と代替言語が一覧表示されます。 リストで選択する順序は、呼び出し元に表示される言語の順序になります。
 
 4. [ **保存**] をクリックします。
 
@@ -62,7 +62,7 @@ ms.locfileid: "62055897"
 
 - 専用電話番号には言語を設定できますが、共有電話番号には設定できません。
 
-- プロバイダーとして Microsoft を使用して Microsoft 365 または Office 365 の電話会議を利用できる国/地域の一覧については、「電話会議の 電話 番号」[を参照してください](phone-numbers-for-audio-conferencing-in-teams.md)。
+- プロバイダーとして Microsoft を使用して電話会議をMicrosoft 365またはOffice 365する国/地域の一覧については、[電話会議の電話番号を](phone-numbers-for-audio-conferencing-in-teams.md)参照してください。
 
 ## <a name="want-to-use-windows-powershell"></a>Windows PowerShell を使用する場合
 
@@ -70,4 +70,4 @@ ms.locfileid: "62055897"
   
 ## <a name="related-topics"></a>関連項目
 
-[電話会議を試用または購入するには、Microsoft 365またはOffice 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Microsoft 365またはOffice 365での電話会議の試用または購入](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

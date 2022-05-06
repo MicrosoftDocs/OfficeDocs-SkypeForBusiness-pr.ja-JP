@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限など、マレーシアの無料電話番号のダイヤルについて学習します。
+description: 可用性、有線/固定回線、モバイル ネットワークの可用性、制限など、マレーシアでのフリーダイヤル番号のダイヤルについて説明します。
 ms.openlocfilehash: 7a5541a0352555a6c77598005f795d10e3f64682
 ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT

@@ -1,5 +1,5 @@
 ---
-title: 通話品質ダッシュボード (CQD) を設定する
+title: 通話品質ダッシュボード (CQD) をセットアップする
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -22,7 +22,7 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
-description: 通話品質ダッシュボードを有効にし、使用する方法と、通話品質の概要レポートを取得する方法について学習します。
+description: 通話品質ダッシュボードを有効にして使用し、通話品質の概要レポートを取得する方法について説明します。
 ms.openlocfilehash: 5a220ac01965623417354df35a9052648652f607
 ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
@@ -32,51 +32,51 @@ ms.locfileid: "60081619"
 ---
 # <a name="set-up-call-quality-dashboard"></a>通話品質ダッシュボードをセットアップする
 
-で Microsoft 通話品質ダッシュボード (CQD) を開 [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) きます (管理者の資格情報でサインインします)。 または、管理センターに移動Teams **Analytics** の [通話品質ダッシュボード] &レポート  >  **] を選択します**。
+Microsoft 通話品質ダッシュボード (CQD) を [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) 開きます (管理者資格情報を使用してサインインします)。 または、Teams管理センターに移動し、**Analytics & reportsCall** >  **品質ダッシュボード** を選択します。
 
-:::image type="content" source="media/turning-on-and-using-call-quality-dashboard3.png" alt-text="管理センターの [通話品質] ダッシュボード ボタンTeamsスクリーンショット。":::
+:::image type="content" source="media/turning-on-and-using-call-quality-dashboard3.png" alt-text="管理センターの [通話品質ダッシュボード] ボタンTeamsスクリーンショット。":::
 
-表示されたページで、[サインイン]**を** クリックし、グローバル管理者アカウントまたは管理者アカウントMicrosoft Teams入力します。 初めてサインインすると、CQD はデータの収集と処理を開始します。 レポートに意味のある結果を表示するのに十分なデータを処理するのに 1 時間以上かかる場合があります。
+開いたページで、[**サインイン**] をクリックし、グローバル管理者アカウントを入力するか、管理者アカウント情報をMicrosoft Teamsします。 初めてサインインすると、CQD によってデータの収集と処理が開始されます。 レポートに意味のある結果を表示するのに十分なデータを処理するには、1 時間以上かかる場合があることに注意してください。
 
-CQD では、Microsoft Teams、Skype for Business Online、および 2019 年の組織全体で通話と会議の品質がSkype for Business Serverされます。 
+CQD では、Microsoft Teams、Skype for Business Online、Skype for Business Server 2019 の通話と会議の品質が組織全体で表示されます。 
 
 > [!IMPORTANT]
-> Skype for Business Server 2019 で CQD を使用するには、通話データ コネクタ を[構成する必要があります](/skypeforbusiness/hybrid/configure-call-data-connector)。 開始する [前に、「通話データ コネクタを計画](/skypeforbusiness/hybrid/plan-call-data-connector) する」を参照してください。
+> Skype for Business Server 2019 で CQD を使用するには、[通話データ コネクタを構成](/skypeforbusiness/hybrid/configure-call-data-connector)する必要があります。 開始する前に、「 [通話データ コネクタを計画](/skypeforbusiness/hybrid/plan-call-data-connector) する」を参照してください。
 
 
-## <a name="assign-admin-roles-for-access-to-cqd"></a>CQD にアクセスするために管理者ロールを割り当てる
+## <a name="assign-admin-roles-for-access-to-cqd"></a>CQD にアクセスするための管理者ロールの割り当て
 
-[CQD](/microsoft-365/admin/add-users/about-admin-roles)にアクセスするロールを、それを使用する必要があるユーザーに割り当てます。
+CQD にアクセスするための [ロール](/microsoft-365/admin/add-users/about-admin-roles) を、それを使用する必要があるユーザーに割り当てます。
 
-管理者以外のユーザー (サポート エンジニアやヘルプデスク エージェントなど) に通話品質ダッシュボードを使用する場合は、これらのユーザーに次のいずれかのロールを割り当てることができます。これにより、CQD にアクセスできます。 
+管理者以外のユーザー (サポート エンジニアやヘルプデスク エージェントなど) に通話品質ダッシュボードを使用させる場合は、これらのユーザーに次のいずれかのロールを割り当てて、CQD にアクセスできます。 
 
 
-|&nbsp;  |レポートを表示する  |EUII フィールドを表示する  |レポートを作成する  |アップロードの作成  |
+|&nbsp;  |レポートを表示する  |EUII フィールドを表示する  |レポートを作成する  |データの構築アップロード  |
 |---------|:-------:|:-------:|:-------:|:-------:|
-|グローバル管理者     |はい         |はい         |はい         |はい         |
-|Teams 管理者     |はい         |はい         |はい         |はい         |
-|Teams 通信管理者     |はい         |はい         |はい         |はい         |
-|Teams 通信サポート エンジニア     |はい         |はい         |はい         |いいえ         |
-|Teams 通信サポート スペシャリスト     |はい         |いいえ         |はい         |いいえ         |
-|Skype for Business管理者     |はい         |はい         |はい         |はい         |
-|グローバル リーダー |はい         |はい         |はい         |いいえ         |
-|レポート閲覧<sup>者 1</sup>     |はい         |いいえ         |はい         |いいえ         |
+|グローバル管理者     |Yes         |Yes         |Yes         |Yes         |
+|Teams 管理者     |Yes         |Yes         |Yes         |Yes         |
+|Teams 通信管理者     |Yes         |Yes         |Yes         |Yes         |
+|Teams 通信サポート エンジニア     |Yes         |Yes         |Yes         |いいえ         |
+|Teams 通信サポート スペシャリスト     |Yes         |いいえ         |Yes         |いいえ         |
+|Skype for Business管理者     |Yes         |Yes         |Yes         |Yes         |
+|グローバル リーダー |Yes         |Yes         |Yes         |いいえ         |
+|レポート リーダー <sup>1</sup>     |Yes         |いいえ         |Yes         |いいえ         |
 
-<sup>1</sup>レポート閲覧者は、CQD レポートを読み取る[](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263)だけでなく、管理センター内のすべてのアクティビティ レポートと、導入コンテンツ パック からのすべてのレポートMicrosoft 365[表示できます](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)。
+<sup>1</sup> CQD レポートの読み取りに加えて、レポート リーダーは管理センター内のすべての[アクティビティ レポート](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263)と[、Microsoft 365導入コンテンツ パック](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)からのすべてのレポートを表示できます。
 
 > [!NOTE]
-> [EUII (](CQD-data-and-reports.md#euii-data)エンドユーザーを特定できる情報) が表示されない場合、この情報の表示が許可されているロールの 1 つがある場合、CQD は EUII を 28 日間のみ保持します。 28 日より前のデータは削除されます。
+> [EUII (エンド ユーザー識別可能な情報)](CQD-data-and-reports.md#euii-data) が表示されず、この情報の表示が許可されているロールの 1 つがある場合は、CQD が EUII を 28 日間だけ保持することに注意してください。 28 日を超えたものは削除されます。
 
-これらのロールの詳細については、「管理者ロールについて[」Office 365参照してください](/office365/admin/add-users/about-admin-roles)。
+これらのロールの詳細については、「管理者ロール[Office 365について](/office365/admin/add-users/about-admin-roles)」を参照してください。
 
 
-初めてサインインすると、CQD はデータの収集と処理を開始します。
+初めてサインインすると、CQD によってデータの収集と処理が開始されます。
 
-## <a name="use-power-bi-to-analyze-cqd-data"></a>CQD Power BI分析するには、次のコマンドを使用します。
+## <a name="use-power-bi-to-analyze-cqd-data"></a>Power BI を使用して CQD データを分析する
 
-2020 年 1 月の新機能: [CQD Power BIテンプレートをダウンロードします](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。 カスタマイズ可能Power BIテンプレートを使用して、CQD データの分析とレポートを行います。
+2020 年 1 月の新機能: [CQD 用の Power BI クエリ テンプレートのダウンロード](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。 CQD データの分析やレポートに使えるカスタマイズ可能な Power BI テンプレートです。
 
-詳細[については、「Power BI を使用して CQD データを分析する](CQD-Power-BI-query-templates.md)」を参照してください。
+「[Power BI を使って CQD データを分析する](CQD-Power-BI-query-templates.md)」をご覧ください。
 
 ## <a name="related-topics"></a>関連項目
 
@@ -84,14 +84,14 @@ CQD では、Microsoft Teams、Skype for Business Online、および 2019 年の
 
 [CQD とは](CQD-what-is-call-quality-dashboard.md)
 
-[アップロードとデータの構築](CQD-upload-tenant-building-data.md)
+[テナントと建物のデータをアップロードする](CQD-upload-tenant-building-data.md)
 
-[CQD データとレポート](CQD-data-and-reports.md)
+[CQD のデータとレポート](CQD-data-and-reports.md)
 
 [CQD を使用して通話と会議の品質を管理する](quality-of-experience-review-guide.md)
 
-[CQD で使用可能なディメンションとメジャー](dimensions-and-measures-available-in-call-quality-dashboard.md)
+[CQD で利用できるディメンションとメジャー](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
 [CQD のストリーム分類](stream-classification-in-call-quality-dashboard.md)
 
-[CQD Power BI分析するには、次のコマンドを使用します。](CQD-Power-BI-query-templates.md)
+[Power BI を使用して CQD データを分析する](CQD-Power-BI-query-templates.md)

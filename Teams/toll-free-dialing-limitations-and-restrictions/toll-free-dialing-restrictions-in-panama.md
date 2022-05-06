@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 可用性、有線/固定回線、モバイル ネットワークの可用性、制限など、パナマでの無料電話番号のダイヤルについて学習します。
+description: 可用性、有線/固定回線、モバイル ネットワークの可用性、制限など、パナマでのフリーダイヤル番号のダイヤルについて説明します。
 ms.openlocfilehash: a6c07bb9cd61469bca298c5190f4c68aee5b04d5
 ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
@@ -45,7 +45,7 @@ ms.locfileid: "58629929"
 |対象外の島/地域  <br/> |該当なし  <br/> |
 |有線/固定回線の状態  <br/> |C&amp;W からのみ。  <br/> |
 |携帯電話ネットワークの状態  <br/> |なし  <br/> |
-|コメント、制限、アクセスの問題など  <br/> |お客様は、無料電話番号の前に 011 (国際長距離のパナマ コード) をダイヤルする必要があります。  <br/> |
+|コメント、制限、アクセスの問題など  <br/> |お客様は、フリーダイヤル番号の前に 011 (国際長距離のパナマ コード) をダイヤルする必要があります。  <br/> |
    
 ## <a name="related-topics"></a>関連項目
 

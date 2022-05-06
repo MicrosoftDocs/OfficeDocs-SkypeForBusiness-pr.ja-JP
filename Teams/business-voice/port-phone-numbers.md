@@ -14,7 +14,7 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: 既存の電話番号を現在のプロバイダーから通話プランに移行Microsoft Teams 電話システム説明します。
+description: 通話プランを使用して既存の電話番号を現在のプロバイダーから Microsoft Teams 電話 システムに移動する方法について説明します。
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 29ad72d5186c57d75127fded33c4bf7763aac66c
@@ -24,31 +24,31 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 03/03/2022
 ms.locfileid: "63053216"
 ---
-# <a name="step-7-port-phone-numbers-to-teams-phone-system-with-calling-plan-optional"></a>手順 7: 通話プランを使用してTeams 電話システムに電話番号を移植する (省略可能)
+# <a name="step-7-port-phone-numbers-to-teams-phone-system-with-calling-plan-optional"></a>手順 7: 通話プランを使用して電話番号をTeams 電話システムに移植する (省略可能)
 
 > [!IMPORTANT]
-> この記事の情報は、通話プラン バンドルTeams 電話システム **に** 適用されます。 通話電話システムバンドルに関するページは、一部の国と地域でのみ利用できます。 この記事を読む前に、[Teams 電話システム with Calling Plan](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) バンドルの国と地域の利用可否を確認し、お客様の国または地域が通話プラン バンドルの 電話システム をサポートするかどうかを確認してください。
+> この記事の情報は、プランの呼び出しバンドルを **使用** するTeams 電話システムにのみ適用されます。 通話プラン バンドルの電話システムは、一部の国と地域でのみ使用できます。 この記事を読む前に、[通話プラン バンドルを使用してTeams 電話システムの国と地域の可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)を確認し、お使いの国または地域が通話プラン バンドルで電話システムをサポートしているかどうかを確認してください。
 >
-> テナントが通話プラン バンドルで 電話システム をサポートしない国または地域にある場合は、「Microsoft リセラーまたはパートナーからヘルプを受ける」を[参照してください](reseller-partner-support.md)。
+> テナントが通話プラン バンドルの電話システムをサポートしていない国または地域にある場合は、[Microsoft リセラーまたはパートナーのヘルプを参照](reseller-partner-support.md)してください。
 
-このセットアップ ガイドの前に、メイン会社の電話番号と、通話プラン バンドル ライセンスを持つ Teams 電話 を割り当てたすべてのユーザーの電話番号を取得しました。 **新しい企業で、通話プランを使用して通話プランを利用する既存の電話番号電話システム場合は、この手順をスキップできます。**
+このセットアップ ガイドの前半では、メインの会社の回線と、通話プラン バンドル ライセンスでTeams 電話を割り当てたすべてのユーザーの電話番号を取得しました。 **新しいビジネスで、通話プランで電話システムする既存の電話番号がない場合は、この手順をスキップできます。**
 
-通話プランで 電話システム に移行するときに保持する電話番号が既に存在する場合は、通話プランを使用して電話番号の移行と呼ばれるプロセスを使用して、電話番号を 電話システム に持ち込む方法があります。 通話プランに電話番号を電話システムすると、ユーザーとサービスに電話番号を割り当てる必要があります。 以前の番号は、このセットアップ ガイドの前に取得した一時的な番号に置き換わるものです。
+通話プランを使用して電話システムに移動するときに保持する電話番号が既にある場合は、電話番号移植と呼ばれるプロセスを使用して通話プランで電話システムに引き継ぐことができます。 通話プランを使用して電話番号を電話システムに移植した後、ユーザーとサービスに電話番号を割り当てます。 以前の番号は、このセットアップ ガイドの前に取得した一時的な番号に置き換わるものです。
 
-通話プランを使用して電話番号を電話システムする前に、「電話番号の転送に関する一般的な[質問」を確認してください](../phone-number-calling-plans/port-order-overview.md)。 この記事には、サポートされている国や地域、転送できる番号と転送できない番号、必要な情報を含む質問への回答が含まれています。
+通話プランで番号を電話システムに移動する前に、電話番号の転送に[関する一般的な質問をご確認ください](../phone-number-calling-plans/port-order-overview.md)。 この記事には、サポートされている国や地域、転送できる番号と転送できない番号、必要な情報を含む質問への回答が含まれています。
 
-通話プランで電話番号を 電話システム に移動する準備ができたら、「電話番号を Microsoft Teams に転送する」の手順に[](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md)従って、ポート注文を作成します。 この注文には、現在の電話サービス会社から通話プランに電話番号を移行するために必要電話システム情報が含まれます。
+通話プランで電話番号を電話システムに移動する準備ができたら、「[電話番号を転送してMicrosoft Teamsする](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md)」の手順に従って、ポート注文を作成します。 この注文には、電話番号を現在の電話サービス会社から通話プランで電話システムに移動するために必要な情報が含まれています。
 
-通話プランを使用して電話番号電話システムに移動した後、その電話番号をユーザーに割り当てる必要があります。 これを行うには、「[ユーザーの電話番号を変更する](../assign-change-or-remove-a-phone-number-for-a-user.md#change-a-phone-number-for-a-user)」の手順に従います。 これらの手順を実行すると、ユーザーに一時的に割り当てられた電話番号がポートした元の電話番号に置き換えられます。
+通話プランを使用して電話番号を電話システムに移動したら、その電話番号をユーザーに割り当てる必要があります。 これを行うには、「[ユーザーの電話番号を変更する](../assign-change-or-remove-a-phone-number-for-a-user.md#change-a-phone-number-for-a-user)」の手順に従います。 これらの手順を実行すると、ユーザーに一時的に割り当てられた電話番号がポートした元の電話番号に置き換えられます。
 
-サポートが必要な場合は、お知らせします。 通話プランを使用して、電話番号を通話プラン電話システムに移動するためのサポートを受け取っています。 以下の情報が含まれていることを確認します。
+ヘルプが必要な場合は、お知らせください。 通話プランを使用して電話番号を電話システムに移動できるように、できるだけ簡単にお手伝いします。 以下の情報が含まれていることを確認します。
 
 - 組織の ID (例えば、***contoso***.onmicrosoft.com)
 - ヘルプが必要なデータの種類と数
 - アカウントで承認を行うユーザー
 - 問題または質問の説明
 
-電話番号のヘルプについては、「 [電話番号サービス (TNS) - サービス デスク」を参照してください](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。
+電話番号のヘルプについては、 [電話番号サービス (TNS) - サービス デスク](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)を参照してください。
 
 > [!div class="nextstepaction"]
-> [次の手順: 通話プランのTeams 電話システムを完了する](set-up-finish.md)
+> [次の手順: 通話プランの設定でTeams 電話システムを完了する](set-up-finish.md)

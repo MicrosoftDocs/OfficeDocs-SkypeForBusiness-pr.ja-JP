@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams を導入する
 ms.reviewer: karuanag
-description: 組織でのデプロイの計画とデプロイに役立つ導入Microsoft Teamsについて学習します。
+description: 組織でのMicrosoft Teamsの計画とデプロイに役立つ導入リソースについて説明します。
 ms.topic: overview
 author: serdarsoysal
 ms.author: serdars
@@ -29,18 +29,18 @@ ms.locfileid: "60013851"
 # <a name="adopt-microsoft-teams"></a>Microsoft Teams を導入する
 
 > [!NOTE]
-> 開始に役立つリモート学習とリソースへの移行の概要については、「リモート学習のための Microsoft Teams の概要」[を参照してください](remote-learning-edu.md)。
+> リモート ラーニングとリソースへの移行の概要については、[リモート ラーニングのMicrosoft Teams](remote-learning-edu.md)に関する概要を参照してください。
 
-チャット、チーム & チャネル、会議から始めて Teams を展開する場合は、すぐに開始して実行するように設計された「Get [started](get-started-with-teams-quick-start.md)ガイダンス」を使用してください。 ハイブリッドまたはオンプレミスの Skype for Business 構成を持つ大規模な組織の場合、または音声機能 (Microsoft 365 または Office 365 通話プランや電話システムなど) を展開する場合は、開始ガイダンスから始めますが、以下の「導入の詳細ガイダンス」で追加のガイダンスが必要[です。](#deeper-adoption-guidance)
+チャット、チーム、& チャネル、会議から始めてTeamsを展開する場合は、迅速に実行できるように設計された規範的な[概要ガイダンス](get-started-with-teams-quick-start.md)を使用します。 ハイブリッドまたはオンプレミスのSkype for Business構成を持つ大規模な組織の場合、または音声機能 (通話プランや電話システムのMicrosoft 365やOffice 365など) を展開する場合は、概要ガイダンスから開始できますが、詳細な[導入ガイダンス](#deeper-adoption-guidance)の下で、以下の追加のガイダンスが必要になります。
 
 |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 | :-------------| :-------------| :-------------| :-------------| :-------------| :-------------|
 | <img src="/office/media/icons/clock-teams.svg" alt="clock" width="40 px" height="40 px"> | [クイック スタート](./teams-adoption-quick-start-checklist.md) | <img src="/office/media/icons/chat.svg" alt="chat bubbles" width="40 px" height="40 px"> | [チームとチャネルの概要](./teams-adoption-understand-teams-and-channels.md) | <img src="/office/media/icons/task-checklist-planning-teams.svg" alt="checklist" width="40 px" height="40 px"> | [最初のチームを計画する](./teams-adoption-your-first-teams.md) |
 | <img src="/office/media/icons/best-practices-teams.svg" alt="best practices" width="40 px" height="40 px"> | [チャンピオンを強化する](./teams-adoption-create-champions-program.md) | <img src="/office/media/icons/education-tutorial-teams.svg" alt="prize ribbon" width="40 px" height="40 px"> | [トレーニング](./training-microsoft-teams-landing-page.md) | <img src="/office/media/icons/toolbox.svg" alt="wrench" width="40 px" height="40 px"> | [ツールとダウンロード](./adopt-tools-and-downloads.md) |
 
-### <a name="deeper-adoption-guidance"></a>[より詳細な導入ガイダンス](#deeper-adoption-guidance)
+### <a name="deeper-adoption-guidance"></a>[より深い導入ガイダンス](#deeper-adoption-guidance)
 
-導入計画は、環境に応じて簡単に複雑にできます。 大規模なデプロイの場合は、以下のガイダンスに従って、組織が移行をスムーズに行Teams。
+導入計画は、環境に応じて簡単に複雑にすることができます。 大規模なデプロイの場合は、次のガイダンスに従って、組織がTeamsにスムーズに移行できるようにしてください。
 
 |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 | :-------------| :-------------| :-------------| :-------------| :-------------| :-------------|

@@ -1,6 +1,6 @@
 ---
 title: '政府機関用の Teams '
-description: 政府機関の環境でアプリケーションを計画TeamsデプロイMicrosoft 365学習します。
+description: Microsoft 365 Government 環境でTeamsを計画およびデプロイする方法について説明します。
 author: SerdarSoysal
 ms.author: serdars
 ms.topic: article
@@ -23,11 +23,11 @@ ms.locfileid: "62417410"
 ---
 # <a name="teams-for-government"></a>政府機関用の Teams 
 
-これらのリソースを使用して、政府機関環境にデプロイする際のTeamsについてMicrosoft 365説明します。 準備ができたら、「デプロイをロールアウトする方法」で説明Teamsの推奨されるデプロイ パス[に従](../deploy-overview.md)Microsoft Teams。
+これらのリソースを使用して、Microsoft 365 Government 環境にTeamsをデプロイするための具体的な考慮事項について説明します。 準備ができたら、「Microsoft Teamsを[ロールアウトする方法](../deploy-overview.md)」で説明されているTeamsの推奨されるデプロイ パスに従います。
 
 | &nbsp; |&nbsp; |
 | ------------- | ------------- |
-| ![番号付きリスト アイコンのスクリーンショット。](../media/list-123-teams.svg)  |  [Microsoft 365 Government の計画 - GCCデプロイ](../plan-for-government-gcc.md) |
-| ![タスクアイコンの一覧が表示されたクリップボードのスクリーンショット。](../media/tasks-teams.svg) | [Microsoft 365 Government の計画: GCC High](../plan-for-government-gcc-high.md) |
-| ![箇条書き項目アイコンのスクリーンショット。](../media/task-list-planning-teams.svg)  |  [政府機関向Microsoft 365 - DOD デプロイの計画](../plan-for-government-dod.md) |
-| ![右矢印アイコンのスクリーンショット。](../media/arrow-right-2-teams.svg)  |  [GCC High および DoD のダイレクト ルーティングを使用する電話会議](../audio-conferencing-with-direct-routing-for-gcch-and-dod.md) |
+| ![番号付きリスト アイコンのスクリーンショット。](../media/list-123-teams.svg)  |  [Microsoft 365 Government - GCCデプロイを計画する](../plan-for-government-gcc.md) |
+| ![タスクの一覧アイコンが表示されたクリップボードのスクリーンショット。](../media/tasks-teams.svg) | [Microsoft 365 Government の計画: GCC High](../plan-for-government-gcc-high.md) |
+| ![箇条書きの項目アイコンのスクリーンショット。](../media/task-list-planning-teams.svg)  |  [Microsoft 365 Government - DOD デプロイを計画する](../plan-for-government-dod.md) |
+| ![右方向アイコンのスクリーンショット。](../media/arrow-right-2-teams.svg)  |  [GCC High および DoD のダイレクト ルーティングを使用する電話会議](../audio-conferencing-with-direct-routing-for-gcch-and-dod.md) |

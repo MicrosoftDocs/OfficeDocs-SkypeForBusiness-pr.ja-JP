@@ -16,7 +16,7 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: この記事では、組織内のユーザーに緊急対応の場所を割り当てる方法または変更する方法について学習します。
+description: この記事では、組織内のユーザーに緊急対応の場所を割り当てるか変更する方法について説明します。
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 004635be112bb8d38b88277e89c24d263b21ec37
 ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
@@ -27,40 +27,40 @@ ms.locfileid: "62180900"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>ユーザーの緊急対応の場所を割り当てたり変更したりする
 
-[PSTN](pstn-connectivity.md)接続オプションに関係なく、Microsoft 通話プラン、オペレーター Connect、または直接ルーティングを選択するには、緊急対応の場所を各電話番号またはユーザーに割り当てる &mdash; &mdash; 必要があります。
+[PSTN 接続オプション](pstn-connectivity.md)に関係なく、&mdash;Microsoft 通話プラン、オペレーター接続、またはダイレクト ルーティング&mdash;緊急の場所を各電話番号またはユーザーに割り当てる必要があります。
 
-ただし、PSTN 接続オプションによっては、ユーザーの緊急対応の場所を管理および割り当てる方法が異なる場合があります。 詳細については、「緊急通話の [管理」を参照してください](what-are-emergency-locations-addresses-and-call-routing.md)。
+ただし、PSTN 接続オプションによっては、ユーザーの緊急対応の場所を管理および割り当てる方法が異なる場合があります。 詳細については、「 [緊急通話の管理](what-are-emergency-locations-addresses-and-call-routing.md)」を参照してください。
 
-この記事では、ユーザーの緊急対応の場所を割り当てる方法または変更する方法について説明します。 
+この記事では、ユーザーの緊急対応の場所を割り当てるか変更する方法について説明します。 
 
-この記事は、通話プランとオペレーターサービスにConnect。
+この記事は、通話プランとオペレーター接続に適用されます。
   
-管理者センターまたは PowerShell を使用して、ユーザーの緊急対応Microsoft Teamsを割り当てまたは変更できます。
+Microsoft Teams管理センターまたは PowerShell を使用して、ユーザーの緊急対応の場所を割り当てたり変更したりできます。
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
 
-1. 管理センターの左側のナビゲーションで、[音声Microsoft Teams **番号]**  >  **を電話します**。
+1. Microsoft Teams管理センターの左側のナビゲーションで、[**音声** > **電話番号**] をクリックします。
 
-2. [番号 **電話ページで**、[数値] タブをクリックし、一覧からユーザー番号を選択し、[編集] を **クリックします**。
+2. **[電話番号**] ページの [**数値**] タブをクリックし、一覧でユーザー番号を選択して、[編集] をクリック **します**。
 
-3. [編集] **ウィンドウの** [緊急対応の **場所] で**、次のいずれかの操作を行います。
+3. **[編集]** ウィンドウの [**緊急の場所**] で、次のいずれかの操作を行います。
 
-   - 緊急対応の場所を割り当てるには、緊急対応の場所を検索して選択します。
+   - 緊急対応の場所を割り当てるには、緊急の場所を検索して選択します。
 
-   - ユーザーに既に割り当てられている緊急対応の場所を変更するには **、[X]** をクリックして既存の場所を削除し、割り当てる場所を検索して選択します。
+   - ユーザーに既に割り当てられている緊急対応の場所を変更するには、[ **X** ] をクリックして既存の場所を削除し、割り当てる場所を検索して選択します。
 
-4. ユーザーに電話番号情報を含むメールを送信するかどうかに応じて、電話番号情報を含むメール ユーザーをオフまたは **オンにします**。 既定では、この設定はオンになっています。
+4. 電話番号情報を含む電子メールをユーザーに送信するかどうかに応じて、電話番号情報を **含む電子メール ユーザーを** オフまたはオンにします。 既定では、これはオンです。
 
 5. [**適用**] をクリックします。
 
 ## <a name="using-powershell"></a>PowerShell の使用
 
-[「Set-CsPhoneNumberAssignment」を参照してください](/powershell/module/teams/set-csphonenumberassignment)。 
+[Set-CsPhoneNumberAssignment を](/powershell/module/teams/set-csphonenumberassignment)参照してください。 
 
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
-- [緊急通話を管理する](what-are-emergency-locations-addresses-and-call-routing.md)
+- [緊急通報を管理する](what-are-emergency-locations-addresses-and-call-routing.md)
 - [組織の緊急対応の場所を追加、変更、削除する](add-change-remove-emergency-location-organization.md)
 - [ユーザーの緊急対応の場所の位置情報を割り当てたり変更したりする](assign-change-emergency-place-user.md)
 - [組織の緊急対応の場所の位置情報を追加、変更、削除する](add-change-remove-emergency-place-organization.md)

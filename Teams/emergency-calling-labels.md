@@ -1,5 +1,5 @@
 ---
-title: 緊急通話の免責事項ラベル
+title: 緊急通話免責事項ラベル
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
-description: 通話プランを使用している場合は、これらのラベルをダウンロードして緊急通話用に印刷Microsoft 365またはOffice 365。
+description: Microsoft 365またはOffice 365で通話プランを使用している場合は、緊急通報用にこれらのラベルをダウンロードして印刷できます。
 ms.openlocfilehash: 3d269374a5cbce2d6f3c68fa6e9a06d83dbd7a29
 ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT

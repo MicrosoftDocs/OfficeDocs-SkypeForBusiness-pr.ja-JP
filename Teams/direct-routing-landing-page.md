@@ -15,7 +15,7 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: ダイレクト ルーティングのTeams 電話システムについて説明します。
+description: ダイレクト ルーティングを使用したTeams 電話システムについて説明します。
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
@@ -30,63 +30,63 @@ ms.locfileid: "62518709"
 ---
 # <a name="direct-routing"></a>ダイレクト ルーティング
 
-[使用開始](get-started-with-teams-quick-start.md)の手順は完了しています。 Teams の[チャット、チーム、チャネル、およびアプリ](deploy-chat-teams-channels-microsoft-teams-landing-page.md)を組織全体に展開しました。 [会議および電話会議](deploy-meetings-microsoft-teams-landing-page.md)を展開した可能性があります。 これで音声ワークロードを追加する準備が整い、直接ルーティングで 電話システム を使用して、公衆交換電話網 (PSTN) 接続に独自のテレフォニー 通信事業者を使用することを決定しました。 ダイレクト ルーティングでは、事実上すべてのテレフォニー 電話システムを使用できます。
+[使用開始](get-started-with-teams-quick-start.md)の手順は完了しています。 Teams の[チャット、チーム、チャネル、およびアプリ](deploy-chat-teams-channels-microsoft-teams-landing-page.md)を組織全体に展開しました。 [会議および電話会議](deploy-meetings-microsoft-teams-landing-page.md)を展開した可能性があります。 音声ワークロードを追加する準備ができました。これで、ダイレクト ルーティングで電話システムを使用して、公衆交換電話網 (PSTN) 接続に独自のテレフォニー通信事業者を使用することにしました。 ダイレクト ルーティングを使用すると、実質的に任意のテレフォニーキャリアで電話システムを使用できます。
 
-この記事では、直接ルーティングの主要なデプロイの決定と、組織のニーズに基づいて考慮する必要があるその他の考慮事項について説明します。 Microsoft の音声サービス [の詳細については、「音声ソリューションを](cloud-voice-landing-page.md) 計画する」も参照してください。
+この記事では、組織のニーズに基づいて、ダイレクト ルーティングの主要な展開に関する決定に加え、検討する必要がある追加の考慮事項について説明します。 Microsoft の音声サービスの詳細については、「 [音声ソリューションの計画](cloud-voice-landing-page.md) 」も参照してください。
 
-## <a name="learn-more-about-direct-routing"></a>ダイレクト ルーティングの詳細を確認する
+## <a name="learn-more-about-direct-routing"></a>ダイレクト ルーティングの詳細
 
-次の記事では、ダイレクト ルーティングの構成と使用の詳細について説明します。 直接ルーティングを構成するには、PSTN ルーティング設計について理解する必要があります。 直接ルーティングを計画および構成する方法を理解するには、次のすべての記事を読む必要があります。
+次の記事では、ダイレクト ルーティングの構成と使用について詳しく説明します。 ダイレクト ルーティングを構成するには、PSTN ルーティングの設計について理解する必要があります。 ダイレクト ルーティングを計画および構成する方法については、次のすべての記事を参照してください。
 
 - [ダイレクト ルーティングを計画する](direct-routing-plan.md) 
 - [ダイレクト ルーティングを構成する](direct-routing-configure.md)
 - [ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト](direct-routing-border-controllers.md)
 - [ダイレクト ルーティングの監視とトラブルシューティング](direct-routing-monitor-and-troubleshoot.md)
 
-さらに、要件に応じて次の記事を読む必要がある場合があります。
+さらに、要件に応じて、次の記事を読む必要があります。
 
 -  [複数のテナントにセッション ボーダー コントローラーを構成する](direct-routing-sbc-multiple-tenants.md)
 -  [ダイレクト ルーティングに移行する](direct-routing-migrating.md)
 -  [PSTN 接続を使用するハイブリッド環境でのユーザー アカウント](direct-routing-user-accounts-in-a-hybrid-environment.md)
-- ダイレクト ルーティングの詳細については、次のセッションをご [Microsoft Teams覧](https://aka.ms/teams-direct-routing)ください。
+- ダイレクト ルーティング: [Microsoft Teamsでのダイレクト ルーティング](https://aka.ms/teams-direct-routing)の詳細については、次のセッションを参照してください。
 
 ## <a name="core-deployment-decisions"></a>展開に関する重要な決定事項
 
-これらは、ダイレクト ルーティングに関して考慮すべき主要な決定です。 
+これらは、ダイレクト ルーティングで考慮すべき主要な決定事項です。 
 
 |確認事項|アクション |
 | :------------|:-------|
-|ダイレクト ルーティングを有効にするユーザー | 詳細については、「ダイレクト ルーティング サービスの [ユーザーを有効にする」を参照してください](direct-routing-configure.md)。 |
-ダイレクト ルーティングに必要なライセンスはありますか。 | 詳細については、「ライセンスと他 [の要件」を参照してください](direct-routing-plan.md#licensing-and-other-requirements)。
+|ダイレクト ルーティングを有効にするユーザーはどれですか? | 詳細については、「 [ダイレクト ルーティング サービスのユーザーを有効にする」を](direct-routing-configure.md)参照してください。 |
+ダイレクト ルーティングに必要なライセンスはありますか? | 詳細については、「 [ライセンスとその他の要件」を](direct-routing-plan.md#licensing-and-other-requirements)参照してください。
 |||
 
 ### <a name="session-border-controller-sbc-considerations"></a>セッション ボーダー コントローラー (SBC) に関する考慮事項
 
-直接ルーティングを使用すると、独自のセッション ボーダー コントローラー (SBC) を直接接続して、電話システム。 認定された SBC の一覧については、「サポートされているセッション ボーダー コントローラー [」を参照してください](direct-routing-border-controllers.md)。
+ダイレクト ルーティングでは、独自のセッション ボーダー コントローラー (SBC) を電話システムに直接接続します。 認定された SBC の一覧については、「 [サポートされているセッション ボーダー コントローラー](direct-routing-border-controllers.md)」を参照してください。
 
 |確認事項|アクション |
 |:------------|:-------|
-| SBC をデプロイする場所と方法 | 詳細については、「ダイレクト ルーティングの [構成」を参照してください。](direct-routing-configure.md) | 
-複数のテナントがありますか? | 詳細については、「複数のテナント [のセッション ボーダー コントローラーを構成する」を参照してください](direct-routing-sbc-multiple-tenants.md)。|
+| SBC を展開する場所と方法 | 詳細については、「[ダイレクト ルーティングの構成」を参照してください](direct-routing-configure.md)。 | 
+複数のテナントはありますか? | 詳細については、「 [複数のテナントのセッション ボーダー コントローラーを構成する](direct-routing-sbc-multiple-tenants.md)」を参照してください。|
 |||
 
 ### <a name="voice-routing-considerations"></a>音声ルーティングに関する考慮事項
 
-呼び出しを特定の SBC にルーティング電話システムを構成する必要があります。
+呼び出しを特定の SBC にルーティングするように電話システムを構成する必要があります。
 
 |確認事項|アクション |
 |:------------|:-------|
-| 作成する必要がある音声ルーティング ポリシー、PSTN 使用法、音声ルート | 音声ルーティングの情報については、「音声ルーティングの [構成」を参照してください](direct-routing-configure.md)。
-| 定義する音声ルーティング ポリシーに割り当てられるユーザー | 「音声ルーティングの構成」 [の例を参照してください](direct-routing-configure.md)。 |
+| どのような音声ルーティング ポリシー、PSTN 使用法、音声ルートを作成する必要がありますか? | 音声ルーティングの情報については、「 [音声ルーティングの構成」を](direct-routing-configure.md)参照してください。
+| どのユーザーが、定義する音声ルーティング ポリシーに割り当てられますか? | [音声ルーティングの構成](direct-routing-configure.md)の例を参照してください。 |
 |||
 
-### <a name="ensure-incoming-calls-land-in-the-teams-client-using-teamsupgradepolicy"></a>TeamsUpgradePolicy を使用して、Teamsクライアントに着信通話が着信する
+### <a name="ensure-incoming-calls-land-in-the-teams-client-using-teamsupgradepolicy"></a>TeamsUpgradePolicy を使用して、着信呼び出しがTeams クライアントに到着することを確認する
 
-ダイレクト ルーティングは、直接ルーティングがサポートされているMicrosoft Teams。 直接ルーティングを介して PSTN 通話を受信するには、TeamsUpgradePolicy を構成して、着信通話が着信通話で受信Teams。 ユーザーは TeamsOnly モードである必要があります。このモードでは、TeamsUpgradePolicy の "UpgradeToTeams" インスタンスを割り当てる必要があります。 
+ダイレクト ルーティングは、Microsoft Teamsでのみサポートされます。 ダイレクト ルーティングを介して PSTN 通話を受信するには、Teamsで着信呼び出しを確実に受信するように TeamsUpgradePolicy を構成する必要があります。 ユーザーは TeamsOnly モードである必要があります。ユーザーは TeamsUpgradePolicy の "UpgradeToTeams" インスタンスを割り当てることで実行できます。 
 
 |確認事項|アクション |
 |:------------|:-------|
-|TeamsOnly モードとはどういう意味ですか? | 詳細については、「移行と相互運用性に関するガイダンス」を参照して、Teams[を使用Skype for Business](./migration-interop-guidance-for-teams-with-skype.md)。|
+|TeamsOnly モードとはどういう意味ですか? | 詳細については、「[TeamsとSkype for Businessを使用する組織の移行と相互運用性に関するガイダンス」を](./migration-interop-guidance-for-teams-with-skype.md)参照してください。|
 |||
 
 

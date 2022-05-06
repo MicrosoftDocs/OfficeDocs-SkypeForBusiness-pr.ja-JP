@@ -1,5 +1,5 @@
 ---
-title: 'Teams Contoso のケース スタディ: 電話会議'
+title: 'Teams音声 Contoso のケース スタディ: 電話会議'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,7 +13,7 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 'Teams企業向け音声ケース スタディ: 電話会議'
+description: 'Teams多国籍企業向けの音声ケース スタディ: 電話会議'
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: f25fa2e81244365d1c0c3dfcacf918f1b35a6fa71d2b619eaaa55c8aa219c310
@@ -25,30 +25,30 @@ ms.locfileid: "54335797"
 ---
 # <a name="contoso-case-study-audio-conferencing"></a>Contoso のケース スタディ: 電話会議
 
-電話会議の機能、コスト、可用性、および機能について理解するために、Contoso は、電話会議を Office 365 &mdash; &mdash; で確認[しました](deploy-audio-conferencing-teams-landing-page.md)。 
+電話会議&mdash;の内容、コスト、可用性、およびどのように機能&mdash;するかを理解するために、Contoso は[Office 365で電話会議を](deploy-audio-conferencing-teams-landing-page.md)確認しました。 
 
 ## <a name="overview"></a>概要 
 
-電話会議では、組織内だけでなく外部でもよく知られている電話番号を使用しました。 Contoso は、可能な限りこれらの番号を維持したいと考えたため、電話会議ブリッジへの専用電話番号と共有電話番号の割り当てに関する情報を確認しました。 
+電話会議では、Contoso は組織内だけでなく外部でもよく知られている電話番号を使用しました。 Contoso は可能な限りこれらの番号を維持したいと考えたため、電話会議ブリッジへの専用電話番号と共有電話番号の割り当てに関する情報を確認しました。 
 
 Contoso は調査に基づいて、次の決定を行いました。 
 
-- 電話会議の呼び出しを定期的にホストする人口のセグメントだけが、電話会議ライセンスを受け取る必要があります。 
+- 電話会議の呼び出しを定期的にホストする母集団のセグメントのみが電話会議ライセンスを受け取ります。 
 
-- Contoso は、電話会議で使用するために、専用の電話番号を使用し、既存の番号を移植します。   
+- Contoso は専用の電話番号を使用し、電話会議で使用するために既存の番号を移植します。   
 
-Contoso ユーザーはユーザーを使用Skype for Businessすべてのユーザーのメールボックスがオンラインに存在していたため、多くのユーザーは既存の会議をスケジュールしています。 Contoso は [「Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json) の使用」を読み、エンド ユーザーを TeamsOnly モードに変更すると、既存の会議が Contoso に対して自動的に更新されます。  
+Contoso ユーザーはSkype for Businessを使用していて、すべてのユーザーのメールボックスがオンラインになっているため、多くのユーザーが既存の会議をスケジュールしています。 Contoso は [、会議移行サービス (MMS) を使用して](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json) 、エンド ユーザーを TeamsOnly モードに変更すると、Contoso の既存の会議が自動的に更新されることを確認しました。  
 
 
 ## <a name="configuration"></a>構成
 
-電話に関連付けられている電話番号は、電話会議内のサービス番号と呼電話システム。 
+電話会議に関連付けられている電話番号は、電話システム内のサービス番号と呼ばれます。 
 
-- 通話プランを使用している場所では、既存の電話番号を携帯電話会社から Office 365 に移行するために、Contoso は「サービスの電話番号を取得する」の手順に[従いました](getting-service-phone-numbers.md)。
+- 通話プランを使用している場所の場合、電話会社からOffice 365に既存の電話番号を移植するために、Contoso は[サービス電話番号の取得](getting-service-phone-numbers.md)に関するページの手順に従いました。
 
-- 技術パイロットのエンド ユーザーに電話会議ライセンスを割り当てるには、Contoso 管理者は「組織の電話会議設定を管理する」の手順 [に従いました](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)。 
+- 技術パイロットのエンド ユーザーに電話会議ライセンスを割り当てるには、Contoso 管理者が [組織の電話会議設定の管理](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)に関するページの手順に従いました。 
 
-- Contoso は[、Azure Active Directory](/azure/active-directory/users-groups-roles/licensing-groups-assign)ビジネス パイロットと移行のために、グループ ベースのライセンスを使用しました。次の手順に従います。  
+- ビジネス パイロットと移行の場合、Contoso は「Azure Active Directoryのグループ [メンバーシップでユーザーにライセンスを割り当てる」の手順に従って、グループ ベースのライセンスを](/azure/active-directory/users-groups-roles/licensing-groups-assign)使用しました。  
 
  
 

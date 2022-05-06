@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 可用性、有線/固定回線、モバイル ネットワークの可用性、制限など、エジプトの無料電話番号のダイヤルについて学習します。
+description: 可用性、有線/固定回線、モバイル ネットワークの可用性、制限など、エジプトでのフリーダイヤル番号のダイヤルについて説明します。
 ms.openlocfilehash: 67ac708bbde22c650cb8ab729098cc6ef48c12ba
 ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT

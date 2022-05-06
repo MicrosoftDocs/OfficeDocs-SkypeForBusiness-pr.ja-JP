@@ -1,5 +1,5 @@
 ---
-title: 新Teams管理センターへの移行Teams管理する
+title: 新しいTeams管理センターに移行するTeamsを管理する
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -8,7 +8,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: ''
 ROBOTS: NOINDEX, NOFOLLOW
-description: Teams のテナント全体とユーザー設定を管理する方法について、Microsoft 365 管理センター の Teams から新しい管理センター Teamsします。
+description: Microsoft 365 管理センターのTeamsから新しいTeams管理センターへの移行中に、Teamsのテナント全体とユーザー設定を管理する方法について説明します。
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
@@ -33,9 +33,9 @@ ms.locfileid: "59491737"
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-## <a name="what-is-the-new-microsoft-teams-admin-center"></a>管理センターのMicrosoft Teamsについて  
+## <a name="what-is-the-new-microsoft-teams-admin-center"></a>新しいMicrosoft Teams管理センターとは  
 
-新しい管理センターでは、Teams と Skype for Business の両方を一元管理することができます。 その他の機能、エンド to エンドの分析情報、ユーザー レベルで Teams設定を管理する機能を提供しています。
+新しい管理センターでは、Teams と Skype for Business の両方を一元管理することができます。 追加の機能、エンド ツー エンドの分析情報、およびユーザー レベルでTeams設定を管理する機能を提供しています。
 
 ![Microsoft Teams 管理センターのスクリーンショット。](media/manage-teams-skype-for-business-admin-center-portal.png)
 
@@ -46,7 +46,7 @@ ms.locfileid: "59491737"
 |Microsoft 365 管理センターの Teams のセクション  |設定名 (テナント レベル)  |Microsoft Teams 管理センターのポリシー   |レベル: テナントまたはユーザー   |
 |---------|---------|---------|---------|
 |全般     |個人用プロファイルで組織図を表示する        |  [TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)       |  テナント       |
-|全般     |[Skype for Business] を使用して、自分のメールアドレスを持Teams         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |テナント         |
+|全般     |Teamsがない受信者にSkype for Businessを使用する         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |テナント         |
 |電子メールの統合     |ユーザーがチャネルにメールを送信することを許可する         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |テナント         |
 |電子メールの統合     |差出人のリストを許可する         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)        |テナント         |
 |カスタム クラウド ストレージ     |Box         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |テナント         |
@@ -87,7 +87,7 @@ ms.locfileid: "59491737"
 <sup>3</sup> 既定のアプリと外部アプリは、TeamsAppPermissionPolicy でユーザー レベルで有効または無効にできます。 また、アプリは、組織全体のアプリ設定でテナント レベルでブロックすることもできます。この場合、ユーザー設定やテナントレベルの設定は上書きされます。
 
 > [!NOTE]
-> グループとチャネルに関連する構成については、Microsoft 365 管理センター の [グループ] ダッシュボードTeams使用します。 アプリの設定は Microsoft 365 管理センターの Teams エリアに残っていますが、将来移行される予定です。
+> Teamsとチャネルに関連する構成では、Microsoft 365 管理センターの [グループ] ダッシュボードを引き続き使用します。 アプリの設定は Microsoft 365 管理センターの Teams エリアに残っていますが、将来移行される予定です。
 
 ## <a name="manage-settings-during-the-migration"></a>移行時に設定を管理する
 
@@ -114,4 +114,4 @@ ms.locfileid: "59491737"
 
 ## <a name="manage-settings-after-the-migration"></a>移行後に設定を管理する
 
-これらの設定の移行が完了したら、Microsoft 365 管理センター と Skype for Business 管理センターで設定を無効にし、新しい Microsoft Teams 管理センターで管理できます。
+これらの設定の移行が完了したら、Microsoft 365 管理センターとSkype for Business管理センターで無効にし、新しいMicrosoft Teams管理センターで管理できるようになります。

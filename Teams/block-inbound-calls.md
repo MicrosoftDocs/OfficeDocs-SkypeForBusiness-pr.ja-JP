@@ -7,20 +7,25 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-  - M365-voice
+- M365-voice
 audience: Admin
 ms.reviewer: roykuntz
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.localizationpriority: medium
 ms.custom: Learn how to use PowerShell to manage inbound call blocking.
+ms.openlocfilehash: 2d1d90b83b9233b559cc14269cc644cfdc0d0960
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62412780"
 ---
-
 # <a name="block-inbound-calls"></a>受信通話をブロックする
 
-Microsoft 通話プラン、直接ルーティング、およびオペレーター Connect、パブリック交換電話網 (PSTN) からの着信通話のブロックをサポートしています。 この機能を使用すると、管理者はテナント グローバル レベルで番号パターンのリストを定義し、テナントに対するすべての着信 PSTN 呼び出しの発信者番号を一致のリストに対してチェックできます。 一致した場合、着信は拒否されます。
+Microsoft 通話プラン、ダイレクト ルーティング、およびオペレーター接続はすべて、公衆交換電話網 (PSTN) からの着信通話のブロックをサポートします。 この機能を使用すると、管理者はテナント グローバル レベルで番号パターンの一覧を定義し、テナントに対するすべての着信 PSTN 通話の発信者 ID を一致のリストに対して確認できます。 一致した場合、着信は拒否されます。
 
-この着信呼び出しブロック機能は、PSTN から発信され、テナント グローバル レベルでのみ機能する受信呼び出しでのみ機能します。 個々Teamsユーザーは、このリストを操作できない。 このTeamsでは、個々のユーザーが PSTN 通話をブロックできます。 エンド ユーザーが通話ブロックを実装する方法については、「通話の設定を管理する」を[参照](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)Teams。
+この受信通話ブロック機能は、PSTN から発信された受信通話でのみ機能し、テナントグローバル レベルでのみ機能します。 個々のTeams ユーザーはこのリストを操作できません。 Teams クライアントでは、個々のユーザーが PSTN 通話をブロックできます。 エンド ユーザーが通話ブロックを実装する方法については、「[Teamsでの通話設定の管理](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)」を参照してください。
 
 >[!NOTE]
 > ブロックされた発信者は、ブロックされたときにわずかに異なる動作を経験する可能性があります。 この動作は、ブロックされた発信者の通信事業者が、通話を正常に完了できないという通知をどのように処理するかに基づいています。 例としては、ダイヤルされたとおりに通話を完了できないことを案内するキャリアのメッセージや、通話の切断などが含まれます。
@@ -31,29 +36,29 @@ Microsoft 通話プラン、直接ルーティング、およびオペレータ�
 
 ## <a name="call-blocking-powershell-commands"></a>ブロッキング PowerShell コマンドの呼び出し
 
-番号パターンは、New-、**Get-**、**Set-**、**Remove-CsInboundBlockedNumberPattern** コマンドレットを使用して管理します。 これらのコマンドレットを使用して、アクティブ化を切り替える機能などを含む、指定されたパターンを管理できます。
+番号パターンは、 **New-**、 **Get-**、 **Set-**、 **Remove-CsInboundBlockedNumberPattern コマンドレットを** 使用して管理します。 これらのコマンドレットを使用して、アクティブ化を切り替える機能などを含む、指定されたパターンを管理できます。
 
 - [Get-CsInboundBlockedNumberPattern](/powershell/module/skype/get-csinboundblockednumberpattern) それぞれの名前、説明、Enabled (True/False)、およびパターンを含む、テナント リストに追加されたすべてのブロックされた番号パターンのリストを返します。
 - [New-CsInboundBlockedNumberPattern](/powershell/module/skype/new-csinboundblockednumberpattern) ブロックされた番号パターンをテナント リストに追加します。
 - [Remove-CsInboundBlockedNumberPattern](/powershell/module/skype/remove-csinboundblockednumberpattern) ブロックされた番号パターンをテナント リストから削除します。
 - [Set-CsInboundBlockedNumberPattern](/powershell/module/skype/set-csinboundblockednumberpattern) テナント リスト内のブロックされた番号パターンの 1 つ以上のパラメーターを変更します。
 
-呼び出しブロック機能全体の表示とアクティブ化は、 **Get と** **Set-CsTenantBlockingCallingNumbers** コマンドレットを使用して管理されます。
+呼び出しブロック機能全体の表示とアクティブ化は、 **Get-** コマンドレットと **Set-CsTenantBlockingCallingNumbers コマンドレットを** 使用して管理されます。
 
-- [Get-CsTenantBlockedCallingNumbers](/powershell/module/skype/get-cstenantblockedcallingnumbers) は、グローバルブロック番号リストの受信ブロック番号パターンと受信除外番号パターン パラメーターを返します。 このコマンドレットは、ブロックが有効になっている (True または False) も返します。 機能をオンまたはオフにする以外に、手動で変更できない単一のグローバル テナント ポリシーがあります。
+- [Get-CsTenantBlockedCallingNumbers](/powershell/module/skype/get-cstenantblockedcallingnumbers) は、受信ブロック番号パターンと、グローバルブロック番号リストの受信除外番号パターン パラメーターを返します。 このコマンドレットは、ブロックが有効になっているかどうかも返します (True または False)。 機能をオンまたはオフにする以外に、手動で変更できない単一のグローバル テナント ポリシーがあります。
 - [Set-CsTenantBlockedCallingNumbers](/powershell/module/skype/set-cstenantblockedcallingnumbers) グローバル テナントのブロックされたコールを変更して、テナント レベルでオンとオフを切り替えることができます。
 
 ### <a name="examples"></a>例
 
 #### <a name="block-a-number"></a>番号をブロックする
 
-次の例では、テナント管理者は、番号範囲 1 (312) 555-0000 から 1 (312) 555-9999 へのすべての呼び出しをブロックしたいと考っています。 番号パターンが作成され、+ プレフィックスが付く範囲内の数値と、+ プレフィックスのない範囲内の数値の両方が一致します。 一致する前にシステムがこれらの記号を取り除くので、電話番号に記号と () を含める必要はない。  数値パターンを有効にするには、 **Enabled パラメーターを** True に設定します。 この特定の番号パターンを無効にするには、 パラメーターを False に設定します。
+次の例では、テナント管理者は、番号範囲 1 (312) 555-0000 から 1 (312) 555-9999 までのすべての呼び出しをブロックする必要があります。 番号パターンが作成され、+プレフィックスが付いた範囲内の数値と、+ プレフィックスが付いてない範囲内の数字の両方が一致するようにします。 一致する前にこれらの記号が削除されるため、電話番号に記号と () を含める必要はありません。  数値パターンを有効にするには、 **Enabled** パラメーターが True に設定されます。 この特定の数値パターンを無効にするには、パラメーターを False に設定します。
 
 ```PowerShell
 New-CsInboundBlockedNumberPattern -Name "BlockRange1" -Enabled $True -Description "Block Contoso" -Pattern "^\+?1312555\d{4}$"
 ```
 
-次の例では、テナント管理者は、番号 1 (412) 555-1234 からのすべての呼び出しをブロックする必要があります。 数値パターンを有効にするには、 **Enabled パラメーターを** True に設定します。
+次の例では、テナント管理者は、番号 1 (412) 555- 1234 からのすべての呼び出しをブロックする必要があります。 数値パターンを有効にするには、 **Enabled** パラメーターが True に設定されます。
 
 ```PowerShell
 New-CsInboundBlockedNumberPattern -Name "BlockNumber1" -Enabled $True -Description "Block Fabrikam" -Pattern "^\+?14125551234$"
@@ -63,19 +68,19 @@ New-CsInboundBlockedNumberPattern -Name "BlockNumber1" -Enabled $True -Descripti
 
 パターンが追加された理由を簡単に理解できるように、意味のある名前を付けることをお勧めします。 単にスパム番号をブロックする場合は、一致する番号パターンと同じようにルールに名前を付け、必要に応じて説明に追加情報を追加することを検討してください。
 
-パターンは、正規表現 (Regex) を使用して照合されます。 詳細については、正規表現の使用 [に関するページを参照してください](#using-regex)。
+パターンは、正規表現 (Regex) を使用して照合されます。 詳細については、「Regex の [使用](#using-regex)」を参照してください。
 
 テストと検証を行う前に、レプリケーションの時間を確保してください。 
 
 #### <a name="allow-a-number"></a>番号を許可する
 
-ブロックされた番号パターンを削除することで、番号の呼び出しを許可できます。 次の例では、テナント管理者は、1 (412) 555-1234 が再度呼び出しを行うのを許可します。
+ブロックされた番号パターンを削除することで、番号の呼び出しを許可できます。 次の例では、テナント管理者は、1 (412) 555- 1234 が再び呼び出しを行うことを許可する必要があります。
 
 ```PowerShell
 Remove-CsInboundBlockedNumberPattern -Identity "BlockNumber1"
 ```
  
-IDがわからない場合は、**Get-CsInboundBlockedNumberPattern** コマンドレットを使用して、最初に適切なパターンを見つけ、ID をメモします。 次に **、Remove-CsInboundBlockedNumberPattern** コマンドレットを実行し、適切な ID 値を渡します。
+IDがわからない場合は、**Get-CsInboundBlockedNumberPattern** コマンドレットを使用して、最初に適切なパターンを見つけ、ID をメモします。 次に、 **Remove-CsInboundBlockedNumberPattern** コマンドレットを実行し、適切な ID 値を渡します。
 
 テストと検証を行う前に、レプリケーションの時間を確保してください。
 
@@ -91,24 +96,24 @@ Get-CsInboundBlockedNumberPattern
 
 ## <a name="add-number-exceptions"></a>番号の例外を追加する
 
-New-、**Get-**、**Set-**、**Remove-CsInboundExemptNumberPattern** コマンドレットを使用して、ブロックされた番号パターンに例外を追加できます。
+ブロックされた番号パターンに例外を追加するには、 **New-**、 **Get-**、 **Set-**、 **Remove-CsInboundExemptNumberPattern** コマンドレットを使用します。
 
-- [New-CsInboundExemptNumberPattern](/powershell/module/skype/New-CsInboundExemptNumberPattern) は、テナントリストに数例外パターンを追加します。 
-- [Get-CsInboundExemptNumberPattern](/powershell/module/skype/Get-CsInboundExemptNumberPattern) は、テナント リストに追加された例外パターンの一覧を返します。
-- [Set-CsInboundExemptNumberPattern](/powershell/module/skype/Set-CsInboundExemptNumberPattern) は、テナントリスト内の 1 つ以上のパラメーターを数値例外パターンに変更します。
-- [Remove-CsInboundExemptNumberPattern](/powershell/module/skype/Remove-CsInboundExemptNumberPattern) は、テナントリストから数値例外パターンを削除します。
+- [New-CsInboundExemptNumberPattern](/powershell/module/skype/New-CsInboundExemptNumberPattern) は、テナントリストに番号例外パターンを追加します。 
+- [Get-CsInboundExemptNumberPattern](/powershell/module/skype/Get-CsInboundExemptNumberPattern) は、テナント リストに追加されたすべての番号例外パターンの一覧を返します。
+- [Set-CsInboundExemptNumberPattern](/powershell/module/skype/Set-CsInboundExemptNumberPattern) は、1 つ以上のパラメーターをテナント リスト内の番号例外パターンに変更します。
+- [Remove-CsInboundExemptNumberPattern](/powershell/module/skype/Remove-CsInboundExemptNumberPattern) は、テナントリストから番号の例外パターンを削除します。
 
 ### <a name="examples"></a>例
 
 #### <a name="add-a-number-exception"></a>番号の例外を追加する
 
-次の例では、テナント管理者は、1 (312) 555-8882 と 1 (312) 555-8883 の電話番号を、上記の例でブロックされている範囲内にある場合でも、テナントへの呼び出しを許可したいとします。 これを有効にするには、次のように新しい数値例外パターンが作成されます。
+次の例では、テナント管理者は、1 (312) 555-8882 と 1 (312) 555-8883 の電話番号をテナントに対して呼び出しを許可する必要があります。この 2 つの電話番号が上記の例でブロックされている範囲内にある場合でも、テナントに対する呼び出しを行います。 これを有効にするには、次のように新しい番号例外パターンが作成されます。
 
 ```PowerShell
 New-CsInboundExemptNumberPattern  -Identity "AllowContoso1" -Pattern "^\+?1312555888[2|3]$" -Description "Allow Contoso helpdesk" -Enabled $True
 ```
 
-数値パターンを有効にするには、 **Enabled パラメーターを** True に設定します。 この特定の番号パターンを無効にするには、 パラメーターを False に設定します。
+数値パターンを有効にするには、 **Enabled** パラメーターが True に設定されます。 この特定の数値パターンを無効にするには、パラメーターを False に設定します。
 
 
 #### <a name="view-all-number-exceptions"></a>番号の例外をすべて表示する
@@ -125,7 +130,7 @@ Get-CsInboundExemptNumberPattern
 
 #### <a name="modify-a-number-exception"></a>番号の例外を変更する
 
-**Set-CsInboundExemptNumberPattern** コマンドレットを使用すると、特定の番号パターン ID の 1 つ以上のパラメーターを変更できます。 この例では、**Identity** パラメーターが必要です。
+**Set-CsInboundExemptNumberPattern** コマンドレットを使用すると、特定の数値パターン ID の 1 つ以上のパラメーターを変更できます。 この例では、**Identity** パラメーターが必要です。
  
 ```powershell
 Set-CsInboundExemptNumberPattern -Identity <String> -Enabled <bool> -Description <string> -Pattern <string> 
@@ -137,9 +142,9 @@ Set-CsInboundExemptNumberPattern -Identity "AllowContoso1" -Enabled $False
 
 #### <a name="remove-a-number-exception"></a>番号の例外を削除する
 
-**Remove-CsInboundExemptNumberPattern** コマンドレットは、指定された番号パターンをテナントリストから削除します。 この例では、**Identity** パラメーターが必要です。 
+**Remove-CsInboundExemptNumberPattern** コマンドレットは、テナントリストから指定された番号パターンを削除します。 この例では、**Identity** パラメーターが必要です。 
 
-ID が知られていない場合は、 **Get-CsInboundExemptNumberPattern** コマンドレットを使用して、最初に適切なパターンを見つけて ID をメモします。 次に **、Remove-CsInboundExemptNumberPattern** コマンドレットを実行し、適切な ID 値を渡します。テストと検証を行う前に、レプリケーションの時間を確保してください。  
+ID が不明な場合は、 **Get-CsInboundExemptNumberPattern** コマンドレットを使用して、最初に適切なパターンを見つけて ID をメモします。 次に、 **Remove-CsInboundExemptNumberPattern** コマンドレットを実行し、適切な ID 値を渡します。テストと検証を行う前に、レプリケーションの時間を確保してください。  
 
 ```powershell
 Remove-CsInboundExemptNumberPattern -Identity <String>
@@ -153,7 +158,7 @@ Remove-CsInboundExemptNumberPattern -Identity "AllowContoso1"
 
 **Test-CsInboundBlockedNumberPattern** コマンドレットを使用して、テナントで番号がブロックされているかどうかを確認します。
  
-**PhoneNumber パラメーターは** 必須であり、+、- 、() などの追加の文字を含めずに数値文字列である必要があります。 結果の **IsNumberBlocked** パラメーターは、テナントで数値がブロックされている場合は True の値を返します。パラメーターがブロックされていない場合は False を返します。
+**PhoneNumber** パラメーターは必須であり、+、-、() などの追加の文字を含まない数値文字列にする必要があります。 結果の **IsNumberBlocked** パラメーターは、テナントで番号がブロックされている場合は True の値を返します。パラメーターは、ブロックされていない場合は False を返します。
 
 ```powershell
 Test-CsInboundBlockedNumberPattern –Tenant <GUID> -PhoneNumber <String>
@@ -161,7 +166,7 @@ Test-CsInboundBlockedNumberPattern –Tenant <GUID> -PhoneNumber <String>
 
 ### <a name="examples"></a>例
 
-これらの例では、電話番号 1 (312) 555-8884 が上記のブロック範囲にある必要があるのに対し、電話番号 1 (312) 555-8883 は上記で作成した例外に基づいて、通話を許可されています。
+これらの例では、電話番号 1 (312) 555-8884 が上記のブロック範囲内にあることが原因でブロックされていることがわかります。電話番号 1 (312) 555-8883 は、上記で作成した除外に基づいて呼び出すことができます。
 
 ```PowerShell
 Test-CsInboundBlockedNumberPattern -PhoneNumber 13125558884
@@ -181,4 +186,4 @@ errorMessage    :
 
 ## <a name="using-regex"></a>Regex の使用
 
-ブロッキング呼び出し元のパターン マッチングは、Regex を使用して行われます。 RegEx パターンの一致を検証するのに役立つ複数のツールがオンラインで利用できます。 RegEx パターンに慣れていない場合は、時間をとって基本を理解することをお勧めします。 期待どおりの結果が得られるようにするには、ブロックされた新しい番号の一致をテナントに追加する前に、パターンの一致を検証するためのツールを使用してください。
+呼び出し元をブロックするためのパターン マッチングは、Regex を使用して行われます。 RegEx パターンの一致を検証するのに役立つ複数のツールがオンラインで利用できます。 RegEx パターンに慣れていない場合は、時間をとって基本を理解することをお勧めします。 期待どおりの結果が得られるようにするには、ブロックされた新しい番号の一致をテナントに追加する前に、パターンの一致を検証するためのツールを使用してください。

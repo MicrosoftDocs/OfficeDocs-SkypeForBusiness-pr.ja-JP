@@ -1,5 +1,5 @@
 ---
-title: PowerShell Teamsを使用Microsoft Teams管理する
+title: Microsoft Teams PowerShell を使用してTeamsを管理する
 ms.reviewer: brandber
 author: brandber
 ms.author: brandber
@@ -10,7 +10,7 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-description: PowerShell を使用してMicrosoft Teams管理Teams説明します。
+description: Teams PowerShell を使用してMicrosoft Teamsを管理する方法について説明します。
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 86d5069794d160d4c4241a67f0c8d45fc9cac708
@@ -20,19 +20,19 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 10/01/2021
 ms.locfileid: "60046023"
 ---
-# <a name="manage-teams-with-microsoft-teams-powershell"></a>PowerShell Teamsを使用Microsoft Teams管理する
+# <a name="manage-teams-with-microsoft-teams-powershell"></a>Microsoft Teams PowerShell を使用してTeamsを管理する
 
-この記事では、PowerShell を使用して、Microsoft Teamsを管理する方法Teams説明Skype for Business。
+この記事では、Microsoft Teams PowerShell を使用してTeamsとSkype for Businessを管理する方法について説明します。
 
-このガイダンスは、Microsoft Teams コマンドレット リファレンス[および](/powershell/teams/?view=teams-ps)Skype for Business[リファレンスと組み合わせて使用します](/powershell/skype/intro?view=skype-ps)。
+このガイダンスは、[Microsoft Teams コマンドレットリファレンスとSkype for Businessコマンドレットリファレンス](/powershell/teams/?view=teams-ps)と組み合わせて使用[します](/powershell/skype/intro?view=skype-ps)。
 
-管理センターでTeams管理Teams Azure Cloud Shell を使用Teams管理[する」を参照してください](#manage-teams-with-azure-cloud-shell)。
+Teams管理センターでTeamsを管理するには、「[Azure Cloud Shellを使用したTeamsの管理](#manage-teams-with-azure-cloud-shell)」を参照してください。
 
 ## <a name="create-and-manage-teams-using-powershell"></a>PowerShell を使用してチームを作成および管理する
 
 チームを作成し管理するためのコマンドレットは、[Microsoft Teams PowerShell モジュール](https://www.powershellgallery.com/packages/MicrosoftTeams/)にあります。
 
-TeamsグループによってOffice 365されるので、チームを作成するときにグループを作成します。 コア チームとその設定を操作するためのコマンドレット (``new-team``、``get-team``、``set-team``)、チームのユーザーを管理するためのコマンドレット (``add-teamuser``、``remove-teamuser``)、およびチームのチャネルを管理するためのコマンドレット (``new-teamchannel``、``remove-teamchannel``) のセットが用意されています。 これらのコマンドレットはすべてエンド ユーザーとして実行できますが、自分が所有している、またはメンバーであるチームのみが機能します。 グローバル管理者または管理者Teams、組織内のすべてのチームに対して行動できます。
+TeamsはOffice 365 グループによってサポートされるため、チームを作成するときにグループを作成します。 コア チームとその設定を操作するためのコマンドレット (``new-team``、``get-team``、``set-team``)、チームのユーザーを管理するためのコマンドレット (``add-teamuser``、``remove-teamuser``)、およびチームのチャネルを管理するためのコマンドレット (``new-teamchannel``、``remove-teamchannel``) のセットが用意されています。 これらのコマンドレットはすべてエンド ユーザーとして実行できますが、自分が所有している、またはメンバーであるチームのみが機能します。 グローバル管理者またはTeams管理者の場合は、組織内のすべてのチームに対応できます。
 
 ```powershell
 New-Team -DisplayName "Contoso Marketing" -Description "Collaboration space for Contoso's Marketing department"
@@ -41,57 +41,57 @@ New-Team -DisplayName "Contoso Marketing" -Description "Collaboration space for 
 > [!NOTE]
 > Microsoft Teams PowerShell モジュールのコマンドレットで使用されている **GroupId** は、Exchange PowerShell モジュールで ``Get-UnifiedGroup`` により返された **Identity** プロパティと同じです。
 
-## <a name="manage-teams-with-azure-cloud-shell"></a>Azure Cloud Shell Teamsを管理する
+## <a name="manage-teams-with-azure-cloud-shell"></a>Azure Cloud Shellを使用してTeamsを管理する
 
-Cloud Shell は、認証された、ブラウザーでアクセス可能な対話型シェルで、リソースを管理できます。 Cloud Shell の詳細については、Azure Cloud Shell に関 [するページを参照してください](/azure/cloud-shell/overview)。
+Cloud Shellは、リソースを管理できる、対話型で認証されたブラウザーからアクセス可能なシェルです。 Cloud Shellの詳細については、「[Azure Cloud Shell](/azure/cloud-shell/overview)」を参照してください。
 
-Azure Cloud Shell にアクセスし、PowerShell を使用してTeamsを管理するには、Teamsにサインインします。
+Azure Cloud Shellにアクセスし、PowerShell を使用してTeamsを管理するには、Teams管理センターにサインインします。
 
-1. 右上隅にある Cloud Shell アイコンを選択します。
+1. 右上隅にあるCloud Shell アイコンを選択します。
 
-    ![Cloud Shell アイコンTeams付き管理センター ヘッダーのスクリーンショット。](media/cloud-shell-icon-select.png)
+    ![Cloud Shell アイコンTeams管理センター ヘッダーのスクリーンショット。](media/cloud-shell-icon-select.png)
 
-1. メッセージが表示されたら **、[PowerShell] を選択します**。
+1. メッセージが表示されたら、 **PowerShell** を選択します。
 
     ![Azure Cloud Shell プロンプトのスクリーンショット。](media/cloud-shell.png)
 
-1. 次のコマンドを実行して、PowerShell Teams開始します。
+1. 次のコマンドを実行して、Teams PowerShell セッションを開始します。
 
     ```powershell
     Connect-MicrosoftTeams
     ```
 
-これらの手順を完了すると、PowerShell コマンドをTeamsできます。
+これらの手順を完了すると、powerShell コマンドTeams実行できるようになります。
 
 > [!IMPORTANT]
-> Cs* コマンドレットを使用する場合は、まず コマンドを使用して Teamsに接続する必要 ``Connect-MicrosoftTeams -UseDeviceAuthentication`` があります。
+> Cs* コマンドレットを使用する場合は、最初にコマンドを使用してTeamsに接続する``Connect-MicrosoftTeams -UseDeviceAuthentication``必要があります。
 
 ## <a name="manage-policies-via-powershell"></a>PowerShell を使用してポリシーを管理する
 
 > [!NOTE]
-> - Skype for Businessオンライン コネクタは、PowerShell Teams統合されています。 現在、パブリック プレビューで使用できます。 その後、Skype for Businessに適用される Teams Online コマンドレットは、PowerShell モジュールでネイティブTeams使用できます。 インストール手順については[、PowerShell のインストールに関するTeams記事を参照](teams-powershell-install.md)してください。
+> - Skype for Businessオンライン コネクタは powerShell Teams統合されています。 現在、パブリック プレビューで利用できます。 Teamsに適用されるSkype for Business Online コマンドレットは、Teams PowerShell モジュールでネイティブに使用できるようになります。 インストール手順については、[PowerShell のインストールに関する記事Teams](teams-powershell-install.md)参照してください。
 > - Skype for Business Online に接続すると、PowerShell セッションでコマンドレットを使用できるようになります。 詳細については、「[Office 365 PowerShell を使用して Skype for Business Online を管理する](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)」を参照してください。
 
-Skype for Business コマンドレット モジュールでポリシーを[管理するためのコマンドレットを探します](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)。
+[Skype for Business コマンドレット モジュール](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)でポリシーを管理するためのコマンドレットを見つけます。
 
 ポリシーは、個々のユーザーに細かく適用できる設定のまとまりです。 各ポリシーの種類にはポリシーそのものの作成、表示、削除、更新を行い、これらのポリシーをユーザーに割り当てるための独自のコマンドレットのセットがあります。 一般的な構成は次のとおりです。
 
-- **GET** コマンド (例: ): 使用する Microsoft によって作成されたポリシーや、作成したカスタム ポリシーなど、組織内で割り当て可能なポリシー ドキュメントを返します。 ``Get-CsTeamsMeetingPolicy``
-  - 組織で作成したカスタム ポリシーのみを検索するには、 を使用します ``-Filter "tag:*"`` 。
+- **GET** コマンド (たとえば): ``Get-CsTeamsMeetingPolicy``組織で割り当て可能なポリシー ドキュメントを返します。これには、Microsoft が使用するために作成したポリシーや、作成したカスタム ポリシーが含まれます。
+  - 組織内で作成したカスタム ポリシーのみを検索するには、 ``-Filter "tag:*"``.
 
-- **新** しいコマンド (例: ): 組織内のユーザーに割り当てる組織の新しいポリシー ``New-CsTeamsMeetingPolicy`` を作成します。 すべてのポリシーがカスタム ポリシーの作成をサポートするわけではありません。 多くの場合、組織で使用するポリシーに、サポート対象の設定の組み合わせがあることを確認するためです。
+- **NEW** コマンド (たとえば): ``New-CsTeamsMeetingPolicy``組織内のユーザーに割り当てる組織の新しいポリシーを作成します。 すべてのポリシーがカスタム ポリシーの作成をサポートするわけではありません。 多くの場合、組織で使用するポリシーに、サポート対象の設定の組み合わせがあることを確認するためです。
 
-- **SET** コマンド (例: ``Set-CsTeamsMeetingPolicy`` ): 特定のポリシーの特定の値を設定します。 一部のポリシーには SET コマンドが使用できないか、ポリシーでカスタマイズできないパラメーターが含まれています。 PowerShell の説明では、カスタマイズできないパラメーターが示されます。
+- **SET** コマンド (たとえば): ``Set-CsTeamsMeetingPolicy``特定のポリシーの特定の値を設定します。 一部のポリシーには SET コマンドが使用できないか、ポリシーでカスタマイズできないパラメーターが含まれています。 PowerShell の説明では、カスタマイズできないパラメーターが示されています。
   - カスタム ポリシーが割り当てられていない組織内のユーザーに既定で割り当てられるポリシーを編集するには、``Set-Cs<PolicyName> -Identity Global`` を実行します。
 
-- **REMOVE** コマンド (例: ): テナントに作成されたカスタム ``Remove-CsTeamsMeetingPolicy`` ポリシーを削除します。 組織内の少なくとも 1 人のユーザーに割り当てられているカスタム ポリシーを削除した場合、そのユーザーはグローバル ポリシーに戻ります。
-  - 組織のグローバル ポリシーを実際に削除する必要がありますが、組織のグローバル ポリシーを Microsoft が提供する既定の設定にリセットする場合は、 を実行します ``Remove-Cs<PolicyName> -Identity Global`` 。
+- **REMOVE** コマンド (たとえば): ``Remove-CsTeamsMeetingPolicy``テナントに作成されたカスタム ポリシーを削除します。 組織内の少なくとも 1 人のユーザーに割り当てられているカスタム ポリシーを削除した場合、そのユーザーはグローバル ポリシーに戻ります。
+  - 実際に組織内のグローバル ポリシーを削除することはできませんが、組織内のグローバル ポリシーを Microsoft が提供する既定の設定にリセットする場合は、実行 ``Remove-Cs<PolicyName> -Identity Global``します。
 
-- **GRANT** コマンド (例 ``Grant-CsTeamsMeetingPolicy`` : ): 特定のユーザーにポリシーを割り当てる。
+- **GRANT** コマンド (たとえば): ``Grant-CsTeamsMeetingPolicy``特定のユーザーにポリシーを割り当てます。
   - カスタム ポリシーの割り当てを削除し、組織の既定のポリシーにユーザーを戻すには、``Grant-Cs<PolicyName> -Identity <User Identity> -PolicyName $null`` を実行します。
 
 > [!TIP]
-> すべてのポリシーでカスタム ポリシーの作成が許可されているわけではなく、一部のポリシーにはカスタマイズできない設定が含まれています (そのため、設定は表示できますが、``set-`` と``new-`` の間にカスタム値を設定できません)。 各コマンドレットのドキュメントでは、顧客がパラメーターを使用できるかどうかが示されています。
+> すべてのポリシーでカスタム ポリシーの作成が許可されているわけではなく、一部のポリシーにはカスタマイズできない設定が含まれています (そのため、設定は表示できますが、``set-`` と``new-`` の間にカスタム値を設定できません)。 各コマンドレットのドキュメントでは、お客様がパラメーターを使用できるかどうかを示しています。
 
 共通パラメーター:
 
@@ -99,9 +99,9 @@ Skype for Business コマンドレット モジュールでポリシーを[管�
 
 ## <a name="manage-configurations-via-powershell"></a>PowerShell を使用して構成を管理する
 
-構成を管理するためのコマンドレットは、Skype for Business[モジュールで確認してください](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)。
+[Skype for Business コマンドレット モジュール](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)で、構成を管理するためのコマンドレットを見つけます。
 
-構成は、ユーザー レベルで指定できない、サービスで保持される設定のバケットです。 設定は常に組織全体に適用されます。 グローバル構成は、組織で唯一の有効な構成です。 各構成の種類には、次の 2 つの主なコマンドレットが用意されています。
+構成は、ユーザー レベルでは指定できない、サービスで管理される設定のバケットです。 設定は常に組織全体に適用されます。 グローバル構成は、組織で唯一の有効な構成です。 各構成の種類には、次の 2 つの主なコマンドレットが用意されています。
 
 - ``Get-Cs<ConfigurationName>`` (例: ``Get-CsTeamsClientConfiguration``):
 
@@ -111,9 +111,9 @@ Skype for Business コマンドレット モジュールでポリシーを[管�
 
 ## <a name="what-can-each-admin-role-do"></a>管理者の役割がそれぞれできること
 
-各 PowerShell[コマンドレットMicrosoft Teams実行できる](using-admin-roles.md)管理者ロールをTeams管理者ロールを使用して管理する方法に関するページを参照してください。
+[Microsoft Teams管理者ロールを使用してTeamsを管理](using-admin-roles.md)し、各 PowerShell コマンドレットを実行できる管理者ロールを理解する方法に関する記事を参照してください。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Teams Powershell のインストール](teams-powershell-install.md)
 

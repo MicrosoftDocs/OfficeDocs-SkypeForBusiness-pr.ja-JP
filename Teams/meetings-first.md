@@ -32,11 +32,11 @@ ms.locfileid: "62385325"
 
 ## <a name="what-is-meetings-first"></a>Meetings First とは
 
-Meetings First は、**SfBWithTeamsCollabAndMeetings** 共存モードに基づいています。 Meetings First は製品や機能ではない。Teams と Skype for Business の機能と機能を使用して、独自にカスタマイズされた共存エクスペリエンスを提供する構成です。
+Meetings First は、**SfBWithTeamsCollabAndMeetings** 共存モードに基づいています。 Meetings First は製品や機能ではなく、TeamsとSkype for Businessの機能と機能を使用して、一意にカスタマイズされた共存エクスペリエンスを提供する構成です。
 
 Meetings First では、ユーザーは、Skype for Business でチャット、通話、プレゼンスを使用しながら、Teams で会議を作成します。 Teams と Skype for Business の間にモダリティの重複はありません。 チャット、通話、プレゼンスは、Skype for Business ではオンになり、Teams ではオフになります。 これにより、Skype for Business と Teams の間で、共存中のユーザーの操作環境を向上する独自の "優れた連携" シナリオだけでなく、**Teams のみ** のユーザーを対象とした相互運用性のシナリオも実現します。
 
-![一緒に使用するシナリオのスクリーンショットとTeamsとSkype for Business。](media/meetings-first-meeting-in-meeting.png)
+![TeamsとSkype for Businessとの組み合わせの優れたシナリオのスクリーンショット。](media/meetings-first-meeting-in-meeting.png)
 
 > [!Important]
 > Meetings First は、アクティブな Teams チャット ユーザーがいない、またはほとんどいない組織に適しています。 アクティブな Teams チャット ユーザーは、Meetings First モードに切り替えると、Teams でチャットしたり、自分のチャット履歴にアクセスしたりできなくなるため切り替えるべきではありません。 これらのユーザーは、代わりに **Islands** モードで許可される必要があり、Meetings First は Teams のチャットでまだアクティブでないユーザーにのみ許可する必要があります。
@@ -61,7 +61,7 @@ Meetings First では、次の機能が提供されます。
 - 優れた [Teams 会議環境](tutorial-meetings-in-teams.yml)。
 - Teams と Skype for Business との "優れた連携"  
   - 自動ホールド: Teams の会議中に Skype for Business で電話を受けると、Teams 会議が保留にされます (逆も同様)。 これにより、ユーザーは会議の参加者にプライベートな通話を聞かれないようにすることができます。
-    ![一緒に使用するシナリオのスクリーンショットとTeamsとSkype for Business。](media/meetings-first-better-together-hold.png)
+    ![TeamsとSkype for Businessとの組み合わせの優れたシナリオのスクリーンショット。](media/meetings-first-better-together-hold.png)
   - プレゼンスの調整: Teams でのアクティビティは、ユーザーのプレゼンスに反映されます。チャットと通話は Skype for Business にあるため、これは Skype for Business のプレゼンスです。 具体的に言うと、Meetings First ユーザーが Teams 会議に参加しているとき、そのユーザーのプレゼンスは、それを反映して更新されます。 ユーザーが画面を提示すると、そのユーザーのプレゼンスは (Skype for Business の設定に基づいて) [応答不可] が表示されるように更新されます。
   - USB デバイス HID コントロール調整 (Mac でも使用可能): HID コントロールは、Teams 会議中は Teams に従い、他の状況ではすべての Skype for Business に従います。
   - 特に記載がない限り、Better Together 機能には、現時点で最新の Windows デスクトップ クライアントが必要です。
@@ -109,9 +109,9 @@ Meetings First は、フル デスクトップ クライアント (Windows お�
 
 Meetings First のすべての機能とユーザー エクスペリエンス (Teams クライアント構成、ユーザー エクスペリエンスの[自動適合](teams-client-experience-and-conformance-to-coexistence-modes.md)、会議移行サービス、Better Together 機能を含む) は、[Microsoft Teams 管理センター](manage-teams-in-modern-portal.md)で、または [PowerShell](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps) を使ってユーザー (またはユーザーのグループ、あるいはテナントの既定) に[SfBWithTeamsCollabAndMeetings 共存モード](setting-your-coexistence-and-upgrade-settings.md)を付与することによって構成されます。
 
-![最初に会議を有効にする管理者設定のスクリーンショット。](media/teams-meeting-admin-settings.png)
+![会議を最初に有効にする管理者設定のスクリーンショット。](media/teams-meeting-admin-settings.png)
 
-必要に応じて、ユーザーの Teams クライアントの左側のナビゲーションから Teams と Channels アプリケーションを非表示にし、アプリセットアップ ポリシーを使用して実現できる会議にさらに集中する必要があります。[](teams-app-setup-policies.md)
+必要に応じて、ユーザーのTeams クライアントの左側のナビゲーションから Teams アプリケーションとチャネル アプリケーションを非表示にして、[アプリセットアップ ポリシー](teams-app-setup-policies.md)を使用して実現できる会議に自分のエクスペリエンスをさらに集中させる必要があります。
 
 ## <a name="reporting-and-call-analytics"></a>レポート作成と通話分析
 

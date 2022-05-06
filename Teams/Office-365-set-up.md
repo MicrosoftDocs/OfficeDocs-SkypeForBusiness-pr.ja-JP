@@ -1,5 +1,5 @@
 ---
-title: アカウントでTeamsを有効Microsoft 365
+title: Microsoft 365でTeamsを有効にする
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 audience: admin
-description: 組織のアカウントを有効Microsoft Teamsする方法Microsoft 365します。
+description: Microsoft 365組織のMicrosoft Teamsを有効にする方法について説明します。
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
@@ -29,6 +29,6 @@ ms.locfileid: "62893516"
 ---
 # <a name="turn-on-teams-in-your-organization"></a>組織で Teams を有効にする
 
-Microsoft Teams組織に対して有効になっている。 ユーザー レベルのライセンスを使用Teams組織内のユーザー へのアクセスを制御できます。 詳細については、「[Microsoft Teams へのユーザー アクセスを管理する](user-access.md)」をご覧ください。 個々のライセンスの管理の詳細については、「サービスの説明Microsoft Teams[参照してください](/office365/servicedescriptions/teams-service-description)。
+Microsoft Teamsは、すべての組織で有効になっています。 ユーザー レベルのライセンスを使用して、組織内のTeamsへのアクセスを制御できます。 詳細については、「[Microsoft Teams へのユーザー アクセスを管理する](user-access.md)」をご覧ください。 個々のライセンスの管理の詳細については、[サービスの説明Microsoft Teams](/office365/servicedescriptions/teams-service-description)参照してください。
 
-組織の管理者は、Teams への個々のアクセスを制御するユーザー ライセンスを割り当て、Teams で使用できるコンテンツ ソースを許可またはブロックできます。 詳細[については、「組織Microsoft Teams設定](enable-features-office-365.md)を管理する」または「組織内のアプリの管理[Microsoft Teams」を](admin-settings.md)参照してください。
+組織の管理者として、ユーザー ライセンスを割り当ててTeamsへの個々のアクセスを制御したり、Teamsで使用できるコンテンツ ソースを許可またはブロックしたりできます。 詳細については、「[組織のMicrosoft Teams設定の管理](enable-features-office-365.md)」または[「Microsoft Teamsのアプリの管理者設定](admin-settings.md)」を参照してください。

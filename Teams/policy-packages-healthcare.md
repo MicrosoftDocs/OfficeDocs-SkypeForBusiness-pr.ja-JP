@@ -56,7 +56,7 @@ Microsoft Teams には現在、次のヘルスケア ポリシー パッケー�
 
 ポリシー パッケージにリンクされているポリシーを容易に識別できるように、個々のポリシーにはポリシー パッケージ名が付けられます。 たとえば、医療職員のポリシー パッケージを組織内の臨床医に割り当てると、パッケージ内のポリシーごとに Healthcare_ClinicalWorker という名称のポリシーが作成されます。
 
-![Healthcare clinical worker パッケージのポリシーのスクリーンショット。](media/policy-packages-healthcare-clinical-worker.png)
+![Healthcare 臨床ワーカー パッケージのポリシーのスクリーンショット。](media/policy-packages-healthcare-clinical-worker.png)
 
 ## <a name="get-started-with-policy-packages"></a>ポリシー パッケージの概要
 

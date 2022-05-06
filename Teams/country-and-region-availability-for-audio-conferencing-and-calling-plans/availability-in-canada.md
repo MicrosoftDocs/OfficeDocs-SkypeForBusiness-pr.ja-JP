@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: カナダで利用できるMicrosoft 365およびOffice 365サービスSkype for BusinessとMicrosoft Teamsを次に示します。
+description: カナダで利用可能なSkype for BusinessとMicrosoft TeamsのMicrosoft 365サービスとOffice 365 サービスを次に示します。
 ms.openlocfilehash: 034a9655afad69b90c9195dad5f7f7bceeac4cba
 ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "58593141"
 
 電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。
 
-カナダで利用できるMicrosoft 365およびOffice 365サービスSkype for BusinessとMicrosoft Teamsを次に示します。
+カナダで利用可能なSkype for BusinessとMicrosoft TeamsのMicrosoft 365サービスとOffice 365 サービスを次に示します。
 
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -60,15 +60,15 @@ ms.locfileid: "58593141"
 | **機能**                                        | **詳細**                                                                                                                                                                                                                                                                 |
 |:---------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 通話プランは購入できますか?  <br/>    | はい  <br/>                                                                                                                                                                                                                                                                  |
-| 通話プランで利用できる分数。               | 予定表の月ごとに使用できるプラン オプションは 4 種類です。 <ul><li>120 分国内通話プラン </li><li>240 分国内通話プラン</li></li><li>3,000 分の国内通話プラン</li></li><li>国内通話プランと国際通話プラン: 国内通話の 3,000 分 -OR - 600 分の国際通話 (カレンダー月の最初に到達した方)</li>|
-| Premium 番号への発信呼び出しはできますか?  <br/> | 現時点ではサポートされていません。<br/>                                                                                                                                                                                                                                            |
-| 発信通話を行うことができますか?  <br/>                 | [これらの国を含む](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 の国に通話を発信できます。<br/>                                                                                                                                                                  |
+| 通話プランで利用できる分数。               | カレンダー月には、次の 4 つのプラン オプションがあります。 <ul><li>120 分の国内通話プラン </li><li>240 分国内通話プラン</li></li><li>3000 分国内通話プラン</li></li><li>国内通話と国際通話プラン: 国内通話の 3000 分 -OR- 国際通話の 600 分 (暦月の最初に到達した方)</li>|
+| プレミアム番号に対して発信通話を行うことはできますか?  <br/> | 現時点ではサポートされていません。<br/>                                                                                                                                                                                                                                            |
+| 発信できる相手先  <br/>                 | [これらの国を含む](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 の国に通話を発信できます。<br/>                                                                                                                                                                  |
 
 > [!Note]
-> 米国の通話プラン (国内または国内および国際) ユーザーがカナダの電話番号にダイヤルすると、国内通話として扱います。 これは、カナダのユーザーが米国内の電話番号にダイヤルする場合にも当たっています。ただし、通話プラン ポリシーを使用してユーザーのダイヤルアウトを "国内" にのみ制限する場合、米国のユーザーはカナダに電話を発信することはできません。同様に、カナダのユーザーは米国のユーザーに電話をかけることができます。
+> 米国内の通話プラン (国内または国内および国際) ユーザーがカナダで電話番号をダイヤルすると、国内通話として扱われます。 これは、カナダのユーザーが米国で電話番号をダイヤルする場合にも該当します。ただし、通話プラン ポリシーを使用してユーザーのダイヤルアウトを "国内" のみに制限する場合、米国のユーザーはカナダを呼び出すことができず、同様に、カナダのユーザーは米国のユーザーを呼び出すことはできません。
 
 > [!Note]
-> 米国への呼び出しは国内通話として扱います。
+> 米国への呼び出しは、国内通話として扱われます。
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 
@@ -88,7 +88,7 @@ ms.locfileid: "58593141"
 
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

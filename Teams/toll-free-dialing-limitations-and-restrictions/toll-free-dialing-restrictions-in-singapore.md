@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: シンガポールの無料電話番号にダイヤルする方法 (空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限など) について学習します。
+description: 可用性、有線/固定回線、モバイル ネットワークの可用性、制限など、シンガポールでのフリーダイヤル番号のダイヤルについて説明します。
 ms.openlocfilehash: caf86cfe7d02e5af31ce755e312d9a7e19986c32
 ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT

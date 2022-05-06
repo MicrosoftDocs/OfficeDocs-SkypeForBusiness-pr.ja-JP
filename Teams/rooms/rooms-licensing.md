@@ -33,9 +33,9 @@ ms.locfileid: "63503504"
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>共有コミュニケーション デバイスのライセンス ソリューション
 
-Microsoft には、会議のライセンスを取得し、会議室デバイス (Microsoft Teams 会議室、Microsoft Surface Hub、Microsoft Teams のコラボレーション バーなど) をデバイスごとに呼び出す専用 SKU が 2 つあります。
+Microsoft には、会議のライセンスを付与し、会議室デバイス (Microsoft Teams Rooms、Microsoft Surface Hub、Microsoft Teamsのコラボレーション バーなど) に対してデバイスごとに呼び出すための専用 SKU が 2 つあります。
 
-|&nbsp;|Microsoft Teams Rooms Standard |Microsoft Teams ルームプレミアム |
+|&nbsp;|Microsoft Teams Rooms Standard |Microsoft Teams Rooms Premium |
 |:--- |:---: |:---: |
 |Microsoft Teams|  &#x2714;|  &#x2714;|
 |電話システム|  &#x2714;|  &#x2714;|
@@ -51,30 +51,30 @@ Microsoft には、会議のライセンスを取得し、会議室デバイス 
 
 &sup2; ソブリン クラウドでは使用不可  
 
-&sup3;詳細と可用性については、「Microsoft Teams [Rooms マネージド サービス」を参照してください](microsoft-teams-rooms-premium.md)。
+&sup3;詳細と可用性については、[マネージド サービスMicrosoft Teams Rooms](microsoft-teams-rooms-premium.md)参照してください。
 
-どちらのライセンスにも、2021 年 7 月 31 日Skype for Business提供終了の Skype for Business Online の資格が含まれています。
+どちらのライセンスにも、2021 年 7 月 31 日に廃止された Skype for Business Online の権利が含まれています。
 
 次の表に、Microsoft Teams Rooms で使用できる機能と、その機能を利用するために購入する必要のあるライセンスをまとめて示します。
   
 > [!NOTE]
 > セットアップされる会議室はユーザー オブジェクトで、これらのライセンスが割り当てられている必要があります。
 
-| &nbsp; | 次のMicrosoft Teams。 <br/> 購入が必要なもの:   |2015/2019 Skype for Business Server (オンプレミス) をご利用いただけます。 <br/> 購入が必要なもの:|
+| &nbsp; | Microsoft Teamsがあります。 <br/> 購入が必要なもの:   |2015/2019 (オンプレミス) Skype for Business Serverがあります。 <br/> 購入が必要なもの:|
 |:-----|:-----|:-----|
-|スケジュールされた会議への参加  | Microsoft Teams Rooms Standard または プレミアム  |Skype for Business Server Standard CAL  |
-|アドホック会議の開始 | Microsoft Teams Rooms Standard または プレミアム  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL|
-|アドホック会議を開始し、会議から電話番号にダイヤル アウト |  Microsoft Teams Rooms Standard または プレミアム |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL|
-|会議室に電話番号を付け、会議室から通話を送受信するか、電話番号を使用して音声会議に参加します。  | ダイレクト ルーティングやオペレーター の操作Connect: Microsoft Teams Rooms Standard または プレミアム<br/>直接ルーティングまたはオペレーターサービスConnect: 国内または国際通話プラン<br/>Microsoft 365 Business Voice  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  |
-|Microsoft Intune を使用した会議室デバイスの管理 |Microsoft Teams Rooms Standard または プレミアム  |[オンプレミス MDM](/configmgr/mdm/plan-design/plan-on-premises-mdm) を含む Microsoft Intune サブスクリプション |
-|Microsoft Teams Rooms Managed Services | Microsoft Teams ルームプレミアム ||
+|スケジュールされた会議への参加  | Microsoft Teams Rooms Standardまたはプレミアム  |Skype for Business Server Standard CAL  |
+|アドホック会議の開始 | Microsoft Teams Rooms Standardまたはプレミアム  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL|
+|アドホック会議を開始し、会議から電話番号にダイヤル アウト |  Microsoft Teams Rooms Standardまたはプレミアム |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL|
+|会議室に電話番号を入力し、会議室から電話を発信または受信するか、電話番号を使用して電話会議に参加する  | ダイレクト ルーティングまたはオペレーター接続: Microsoft Teams Rooms Standardまたはプレミアム<br/>ダイレクト ルーティングまたはオペレーター接続なし: 国内または国際通話プラン<br/>Microsoft 365 Business Voice  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  |
+|Microsoft Intune を使用した会議室デバイスの管理 |Microsoft Teams Rooms Standardまたはプレミアム  |[オンプレミス MDM](/configmgr/mdm/plan-design/plan-on-premises-mdm) を含む Microsoft Intune サブスクリプション |
+|Microsoft Teams Rooms マネージド サービス | Microsoft Teams Rooms Premium ||
 
 
 > [!NOTE]
 > 
-> ルーム システム (E3 や E5 など) に割り当てられている既存のユーザー ライセンスがある場合、これらは中断することなく引き続き機能します。 ただし、今後の変更に準拠するには、割り当てられたユーザー ライセンスの有効期限が切ミーティング ルームライセンスに移行する必要があります。
+> ルーム システム (E3 や E5 など) に対して既存のユーザー ライセンスが割り当てられている場合、これらは中断することなく引き続き機能します。 ただし、今後の変更に準拠するには、割り当てられたユーザー ライセンスの有効期限が切れたときに、ミーティング ルーム ライセンスに移行する必要があります。
 > 
 
- 「会議室の[素晴らしい体験: 会議室の新しいMicrosoft Teamsと会議」もプレミアム](https://www.microsoft.com/en-us/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/)。
+ 新[しいMicrosoft Teams Rooms Standardとプレミアムを満たすという優れた会議室エクスペリエンス](https://www.microsoft.com/en-us/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/)もご覧ください。
 
- 共通領域電話[のライセンスについては、「電話](../set-up-common-area-phones.md) の共通領域ライセンスMicrosoft Teams設定」を参照してください。
+ Common Area Phone のライセンスに関する情報については、「[Microsoft Teamsの共通領域電話ライセンスの設定](../set-up-common-area-phones.md)」を参照してください。

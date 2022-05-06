@@ -1,5 +1,5 @@
 ---
-title: アップグレードを実行Skype for Business計画Microsoft Teamsする
+title: アップグレードをMicrosoft TeamsするSkype for Businessを計画する
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 関係者を参加し、プロジェクトをスコープすることで、アップグレードを計画する方法について学習します。
+description: 関係者を参加させ、プロジェクトのスコープを設定して、アップグレードを計画する方法について説明します。
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
@@ -29,19 +29,19 @@ ms.locfileid: "58728456"
 ---
 # <a name="plan-for-your-upgrade"></a>アップグレードの計画
 
-![アップグレードのTeams図。](media/upgrade-banner-main.png "プロジェクトが適切なプロジェクト チームで成功するために設定されている必要があります。プロジェクトの範囲、目標、タイムラインを定義します。技術的な準備とユーザーの準備の両方を確認します。ロールアウト計画を実行します。結果を最大化する勢いを維持します。")
+![Teamsアップグレードの体験の図。](media/upgrade-banner-main.png "適切なプロジェクト チームでプロジェクトが成功するように設定されていることを確認します。プロジェクトのスコープ、目標、タイムラインを定義します。技術的な準備とユーザーの準備の両方を確認します。ロールアウト計画を実行します。結果を最大化するために勢いを維持します。")
 
-健全な技術環境、持続的なユーザー採用、そしてビジネス目標の実現はすべて、適切な計画から始まります。 しっかりした計画はアップグレード プロジェクトのためのフレームワークを与え、すべての関係者が同じ目標に向かって取り組んでいることを保証します。 成功を適切に定義するために時間を取って、デプロイの進行に合った結果を測定し、目的の結果が得られたことを確認できます。 行程の計画は以下のとおりです。
+健全な技術環境、持続的なユーザー採用、そしてビジネス目標の実現はすべて、適切な計画から始まります。 しっかりした計画はアップグレード プロジェクトのためのフレームワークを与え、すべての関係者が同じ目標に向かって取り組んでいることを保証します。 時間を取って成功を適切に定義することで、デプロイの進行に伴う結果を測定し、目的の結果を達成していることを確認できます。 行程の計画は以下のとおりです。
 
 - [プロジェクト関係者の参加](upgrade-enlist-stakeholders.md)
-- [プロジェクトのスコープの定義](./upgrade-define-project-scope.md)
-- [アプリケーションとアプリケーションの共存と相互運用性Skype for Business理解Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+- [プロジェクトのスコープを定義する](./upgrade-define-project-scope.md)
+- [Skype for BusinessとTeamsの共存と相互運用性について](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [ビジネス ニーズに基づいてアップグレード体験を選択する](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [ユーザー パイロットの計画](pilot-essentials.md)
 
-体験を計画した後、アップグレードを実装する前に、環境[](upgrade-prepare-environment.md)の準備と組織の[](upgrade-prepare-organization.md)準備に関する[トピックを読み取ります](upgrade-to-teams.md)。  
+体験を計画した後は、アップグレードを実装する前に、 [環境の準備](upgrade-prepare-environment.md) と [組織の準備](upgrade-prepare-organization.md) に関するトピック [を読みます](upgrade-to-teams.md)。  
 
 > [!TIP]
-> アップグレードの計画と実装を開始するために設計されたガイダンス、ベスト プラクティス、およびリソースを共有する、ライブで対話型のワークショップに参加してください。
+> アップグレードの計画と実装を開始するために設計されたガイダンス、ベスト プラクティス、リソースを共有する、ライブで対話型のワークショップにご参加ください。
 >
 > アップグレードを開始するには、最初に「[アップグレードの計画](./upgrade-workshops-landing-page.yml)」セッションにご参加ください。

@@ -10,20 +10,24 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: このクイック スタート チェックリストを使用して、組織がアプリケーションの導入を開始する際に成功Microsoft Teams。
+description: このクイック スタート チェックリストを使用して、組織がMicrosoft Teamsの導入を開始する場合に成功を確保します。
 f1.keywords:
-  - CSH
+- CSH
 ms.custom:
-  - Adopt
-  - seo-marvel-apr2020
+- Adopt
+- seo-marvel-apr2020
 ms.collection:
-  - Teams_ITAdmin_Adopt
-  - M365-collaboration
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: 40d15b393a74cd2e760c2d0e741676a56d1467a6
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62414220"
 ---
-
-
 # <a name="microsoft-teams-adoption-quick-start-checklist"></a>Microsoft Teams の導入クイック スタートのチェックリスト
 
 [チェックリストのコピーをダウンロードする](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-quickstart-checklist-oct2018.pdf?raw=true)
@@ -36,7 +40,7 @@ appliesto:
 
 - [チームとチャネルについて理解する](teams-adoption-understand-teams-and-channels.md)
 - [最初のチームを作成する](teams-adoption-your-first-teams.md)
-- [使用する準備はTeams?](teams-adoption-assess-readiness.md)
+- [Teamsの準備はできましたか?](teams-adoption-assess-readiness.md)
 - [関係者と会う](teams-adoption-assess-readiness.md#assess-your-stakeholders)
 - [早期導入者を特定する](teams-adoption-assess-readiness.md#identify-early-adopters)
 
@@ -45,21 +49,21 @@ appliesto:
 - [主導者プログラムを作成する](teams-adoption-create-champions-program.md)
 - [ガバナンスのクイック スタートを完了する](teams-adoption-governance-quick-start.md)
 - [使用シナリオを定義する](teams-adoption-define-usage-scenarios.md)
-- [ビジネス関係者へのインタビュー](teams-adoption-define-usage-scenarios.md#interview-business-stakeholders)
+- [ビジネス関係者にインタビューする](teams-adoption-define-usage-scenarios.md#interview-business-stakeholders)
 - [ビジネス シナリオのマップと優先順位付け](teams-adoption-define-usage-scenarios.md#map-and-prioritize-business-scenarios)
 - [アーリー アダプターに関与してフィードバックを収集する](teams-adoption-onboard-early-adopters.md)
 - [参加サポート](teams-adoption-onboard-support.md)
 
 ## <a name="phase-3---scale"></a>フェーズ 3: スケール
 
-- [結果と成功の対策を定義する](teams-adoption-define-outcomes.md)
-- [サービスの有効化戦略を選択する](teams-adoption-define-outcomes.md#select-a-service-enablement-strategy)
-- [関係者の関与](teams-adoption-define-outcomes.md#engage-stakeholders)
-- [実装チームを拡大する](teams-adoption-define-outcomes.md#expand-your-implementation-team)
+- [成果と成功の指標を定義する](teams-adoption-define-outcomes.md)
+- [サービス有効化戦略を選択する](teams-adoption-define-outcomes.md#select-a-service-enablement-strategy)
+- [利害関係者の関与](teams-adoption-define-outcomes.md#engage-stakeholders)
+- [実装チームを拡張する](teams-adoption-define-outcomes.md#expand-your-implementation-team)
 - [ガバナンスと情報管理ポリシーを拡張する](teams-adoption-define-outcomes.md#expand-your-governance-and-information-management-policies)
 - [フィードバックとレポートを最適化する](teams-adoption-optimize-feedback-and-reporting.md)
 - [啓発とトレーニングの実施](teams-adoption-drive-awareness.md)
-- [サービス レビューのスケジュールを設定する](teams-adoption-schedule-service-health-reviews.md)
+- [サービス レビューをスケジュールする](teams-adoption-schedule-service-health-reviews.md)
 
 
 

@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: オランダの無料電話番号 (空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限など) のダイヤルについて学習します。
+description: オランダのフリーダイヤル番号 (可用性、有線/固定回線、モバイル ネットワークの可用性、制限など) について説明します。
 ms.openlocfilehash: 10bc5a02317004014626e41febcc88320cf41b17
 ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT

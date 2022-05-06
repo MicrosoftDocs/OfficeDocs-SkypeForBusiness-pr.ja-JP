@@ -1,5 +1,5 @@
 ---
-title: ボイスメール ポリシーの管理
+title: ボイスメール ポリシーを管理する
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -32,21 +32,21 @@ ms.locfileid: "58604426"
 # <a name="setting-voicemail-policies-in-your-organization"></a>組織内のボイスメール ポリシーの設定
 
 > [!WARNING]
-> 顧客Skype for Business、通話ポリシーを使用してボイスメールを無効Microsoft Teams、ユーザーのボイスメール サービスを無効Skype for Businessがあります。
+> Skype for Business顧客の場合、Microsoft Teams通話ポリシーを使用してボイスメールを無効にすると、Skype for Business ユーザーのボイスメール サービスも無効になる可能性があります。
 
 ## <a name="voicemail-organization-defaults-for-all-users"></a>すべてのユーザーのボイスメール組織の既定値
-- ボイスメールのトランスクリプションが有効になっています。
-- ボイスメールのトランスクリプション不適切なマスクが無効になっています。
+- ボイスメールの文字起こしが有効になっている。
+- ボイスメール文字起こしの不適切なマスクは無効です。
 - 最大記録時間は 5 分に設定されます。
 
-これらの既定値は [、Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) コマンドレットと [Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Get-CsOnlineVoicemailPolicy) コマンドレットを使用して制御できます。
+[Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) コマンドレットと [Grant-CsOnlineVoicemailPolicy コマンドレットを](/powershell/module/skype/Get-CsOnlineVoicemailPolicy)使用して、これらの既定値を制御できます。
 
-組織内のユーザーが受信したボイスメール メッセージは、組織がホストされているMicrosoft 365またはOffice 365に書き起こされます。 テナントがホストされているリージョンは、ボイスメール メッセージを受信するユーザーが保存されているリージョンと同じではない可能性があります。 テナントがホストされているリージョンを表示するには、[組織プロファイル][](https://go.microsoft.com/fwlink/p/?linkid=2067339)ページに移動し、[データの場所] の横にある [詳細の **表示]****をクリックします**。
+組織内のユーザーが受信したボイスメール メッセージは、Microsoft 365またはOffice 365組織がホストされているリージョンで文字起こしされます。 テナントがホストされているリージョンが、ボイスメール メッセージを受信しているユーザーが配置されているリージョンと同じではない可能性があります。 テナントがホストされているリージョンを表示するには、[[組織プロファイル](https://go.microsoft.com/fwlink/p/?linkid=2067339)] ページに移動し、[**データの場所**] の横にある **[詳細の表示**] をクリックします。
 
 > [!IMPORTANT]
-> **New-CsOnlineVoiceMailPolicy** コマンドレットを使用して、トランスクリプションおよびトランスクリプション不適切な文字起こしマスク用の新しいポリシー インスタンスを作成したり **、Remove-CsOnlineVoiceMailPolicy** コマンドレットを使用して既存のポリシー インスタンスを削除したりできない。
+> **New-CsOnlineVoiceMailPolicy** コマンドレットを使用して、文字起こしと文字起こしの不適切な表現をマスクするための新しいポリシー インスタンスを作成することはできません。また、**Remove-CsOnlineVoiceMailPolicy** コマンドレットを使用して既存のポリシー インスタンスを削除することはできません。
 
-ボイスメール ポリシーを使用してユーザーのトランスクリプション設定を管理することができます。 使用可能なすべてのボイスメール ポリシー インスタンスを表示するには [、Get-CsOnlineVoicemailPolicy コマンドレットを使用](/powershell/module/skype/Get-CsOnlineVoicemailPolicy) できます。
+ボイスメール ポリシーを使用してユーザーのトランスクリプション設定を管理することができます。 使用可能なすべてのボイスメール ポリシー インスタンスを表示するには、 [Get-CsOnlineVoicemailPolicy](/powershell/module/skype/Get-CsOnlineVoicemailPolicy) コマンドレットを使用します。
 
 ```PowerShell
 PS C:\> Get-CsOnlineVoicemailPolicy
@@ -103,15 +103,15 @@ Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
 
 ## <a name="changing-the-recording-duration-for-your-organization"></a>組織の記録期間を変更する
 
-記録の最大長は、組織の既定で 5 分に設定されます。 記録の最大長を増減するビジネス要件がある場合は [、Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy)を使用して行います。 たとえば、最大記録時間を 60 秒に設定するには、次のコマンドを実行します。
+組織では、記録の最大長は既定で 5 分に設定されます。 最大記録長を増減するビジネス要件がある場合は、 [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) を使用して行うことができます。 たとえば、最大記録時間を 60 秒に設定するには、次のコマンドを実行します。
 
 ```PowerShell
 Set-CsOnlineVoicemailPolicy -MaximumRecordingLength ([TimeSpan]::FromSeconds(60))
 ```
 
-## <a name="dual-language-system-prompts-for-your-organization"></a>組織の二重言語システムプロンプト
+## <a name="dual-language-system-prompts-for-your-organization"></a>組織に対するデュアル言語システムのプロンプト
 
-既定では、ボイスメール システムのプロンプトは、ボイスメールの設定時にユーザーが選択した言語で発信者に表示されます。 2 つの言語でボイスメール システムプロンプトを表示するビジネス要件がある場合は [、Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy)を使用してこれを行います。 第 1 言語と第 2 言語を設定する必要があります。同じではない可能性があります。 これを行う場合は、次を実行します。
+既定では、ボイスメール システムのプロンプトは、ボイスメールの設定時にユーザーが選択した言語で発信者に表示されます。 ボイスメール システムプロンプトを 2 つの言語で表示する必要がある場合は、 [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) を使用して行うことができます。 プライマリ言語とセカンダリ言語を設定する必要があり、同じでない場合があります。 これを行う場合は、次を実行します。
 
 ```PowerShell
 Set-CsOnlineVoicemailPolicy -PrimarySystemPromptLanguage en-US -SecondarySystemPromptLanguage es-ES
@@ -119,7 +119,7 @@ Set-CsOnlineVoicemailPolicy -PrimarySystemPromptLanguage en-US -SecondarySystemP
 
 ## <a name="turning-off-transcription-for-a-user"></a>ユーザーのトランスクリプションをオフにする
 
-ユーザー ポリシーは組織の既定の設定より前に評価されます。 たとえば、すべてのユーザーに対してボイスメールトランスクリプションが有効になっている場合 [、Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Grant-CsOnlineVoicemailPolicy) コマンドレットを使用して、特定のユーザーのトランスクリプションを無効にするポリシーを割り当てできます。
+ユーザー ポリシーは組織の既定の設定より前に評価されます。 たとえば、すべてのユーザーに対してボイスメール文字起こしが有効になっている場合、 [Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Grant-CsOnlineVoicemailPolicy) コマンドレットを使用して、特定のユーザーの文字起こしを無効にするポリシーを割り当てることができます。
 
 単一ユーザーに対するトランスクリプションを無効にするには、次を実行します。
 
@@ -139,41 +139,41 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -
 
 ## <a name="changing-the-recording-duration-for-a-user"></a>ユーザーの記録期間を変更する
 
-最初に [、New-CsOnlineVoicemailPolicy コマンドレット](/powershell/module/skype/New-CsOnlineVoicemailPolicy) を使用してカスタム ボイスメール ポリシーを作成する必要があります。 次に示すコマンドは、MaximumRecordingLength が 60 秒に設定され、他のフィールドがテナント レベルのグローバル値に設定された、ユーザーごとのオンライン ボイスメール ポリシー OneMinuteVoicemailPolicy を作成します。
+まず [、New-CsOnlineVoicemailPolicy](/powershell/module/skype/New-CsOnlineVoicemailPolicy) コマンドレットを使用してカスタム ボイスメール ポリシーを作成する必要があります。 次に示すコマンドは、MaximumRecordingLength が 60 秒に設定され、その他のフィールドがテナント レベルのグローバル値に設定された、ユーザーごとのオンライン ボイスメール ポリシー OneMinuteVoicemailPolicy を作成します。
 
 ```PowerShell
 New-CsOnlineVoicemailPolicy -Identity "OneMinuteVoicemailPolicy" -MaximumRecordingLength ([TimeSpan]::FromSeconds(60))
 ```
 
-このカスタム ポリシーをユーザーに割り当てるには、次のコマンドを実行します。 
+このカスタム ポリシーをユーザーに割り当てるには、次を実行します。 
 
 ```PowerShell
 Grant-CsOnlineVoicemailPolicy -PolicyName OneMinuteVoicemailPolicy -Identity sip:amosmar@contoso.com
 ```
 
-## <a name="dual-language-system-prompts-for-a-user"></a>ユーザーに対する二重言語システムのプロンプト
+## <a name="dual-language-system-prompts-for-a-user"></a>デュアル言語システムでユーザーの入力を求めるメッセージが表示される
 
-最初に [、New-CsOnlineVoicemailPolicy コマンドレット](/powershell/module/skype/New-CsOnlineVoicemailPolicy) を使用してカスタム ボイスメール ポリシーを作成する必要があります。 次に示すコマンドは、PrimarySystemPromptLanguage を en-US (英語 - 米国) に設定し、SecondarySystemPromptLanguage を es-SP (スペイン語 - スペイン) に設定して、ユーザーごとのオンライン ボイスメール ポリシー enUS-esSP-VoicemailPolicy を作成します。
+まず [、New-CsOnlineVoicemailPolicy](/powershell/module/skype/New-CsOnlineVoicemailPolicy) コマンドレットを使用してカスタム ボイスメール ポリシーを作成する必要があります。 次に示すコマンドは、PrimarySystemPromptLanguage が en-US (英語 - 米国) に設定され、SecondarySystemPromptLanguage が es-SP (スペイン語 - スペイン) に設定された、ユーザーごとのオンライン ボイスメール ポリシー enUS-esSP-VoicemailPolicy を作成します。
 
 ```PowerShell
 New-CsOnlineVoicemailPolicy -Identity "enUS-esES-VoicemailPolicy" -PrimarySystemPromptLanguage en-US -SecondarySystemPromptLanguage es-ES
 ```
 
-このカスタム ポリシーをユーザーに割り当てるには、次のコマンドを実行します。 
+このカスタム ポリシーをユーザーに割り当てるには、次を実行します。 
 
 ```PowerShell
 Grant-CsOnlineVoicemailPolicy -PolicyName "enUS-esES-VoicemailPolicy" -Identity sip:amosmar@contoso.com
 ```
 
 > [!NOTE]
-> 現在Get-CsOnlineVoicemailPolicyコマンドレットは、PrimarySystemPromptLanguage と SecondarySystemPromptLanguage の値を返していない。 これらの値を表示するには、次のように コマンドを変更します。
+> Get-CsOnlineVoicemailPolicy コマンドレットは現在、PrimarySystemPromptLanguage と SecondarySystemPromptLanguage の値を返していません。 これらの値を確認するには、次のようにコマンドを変更します。
 >
 > >```PowerShell
 > > (Get-CsOnlineVoicemailPolicy -Identity PolicyName).PrimarySystemPromptLanguage or
 > > (Get-CsOnlineVoicemailPolicy -Identity PolicyName).SecondarySystemPromptLanguage 
 >
-> **PolicyName をポリシー** の名前に置き換える。
+> **PolicyName をポリシー** の名前に置き換えます。
 
 
 > [!IMPORTANT]
-> Microsoft 365 および Office 365ボイスメール サービスは、ボイスメール ポリシーをキャッシュし、6 時間ごとにキャッシュを更新します。 そのため、ポリシーの変更が適用されるのに最大 6 時間かかる場合があります。
+> Microsoft 365およびOffice 365のボイスメール サービスは、ボイスメール ポリシーをキャッシュし、6 時間ごとにキャッシュを更新します。 そのため、ポリシーの変更が適用されるまでに最大で 6 時間かかる場合があります。

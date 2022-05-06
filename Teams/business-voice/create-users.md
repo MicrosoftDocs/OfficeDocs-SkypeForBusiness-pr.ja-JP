@@ -1,5 +1,5 @@
 ---
-title: ユーザー Microsoft 365作成し、通話Teams 電話バンドル ライセンスを使用して通話プランを追加し、電話番号を割り当てる
+title: Microsoft 365 ユーザーを作成し、通話プラン バンドル ライセンスを使用してTeams 電話を追加し、電話番号を割り当てる
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -13,7 +13,7 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
-description: 通話プラン バンドル ユーザーを使用してTeams 電話システムライセンスを取得し、電話番号を割り当てる方法について学習します。
+description: 通話プラン バンドル ユーザーを使用してTeams 電話システムを作成してライセンスを付与し、電話番号を割り当てる方法について説明します。
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: eb60d60a12949cbb2a0b9ac60e727cfab393de12
@@ -23,20 +23,20 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 03/03/2022
 ms.locfileid: "63053276"
 ---
-# <a name="create-and-license-teams-phone-system-with-calling-plan-bundle-users-and-assign-them-phone-numbers"></a>通話プラン バンドル ユーザー Teams 電話システムを作成してライセンスを取得し、電話番号を割り当てる
+# <a name="create-and-license-teams-phone-system-with-calling-plan-bundle-users-and-assign-them-phone-numbers"></a>通話プランバンドル ユーザーを使用してTeams 電話システムを作成してライセンスを付与し、電話番号を割り当てる
 
-通話プラン バンドルでTeams 電話システムを使用するには、通話プラン バンドル ライセンスMicrosoft 365持Teams 電話アカウントが必要です。 アカウントとライセンスを持っている場合は、電話番号の割り当てを開始できます。
+通話プラン バンドルでTeams 電話システムを使用するには、通話プラン バンドル ライセンスにTeams 電話を持つMicrosoft 365 アカウントが必要です。 アカウントとライセンスがある場合は、電話番号の割り当てを開始できます。
 
 ## <a name="create-and-license-users"></a>ユーザーの作成とユーザーへのライセンスの割り当て
 
 「[ユーザーを個別または一括で追加する](/microsoft-365/admin/add-users/add-users)」および「[ユーザーにライセンスを割り当てる](/microsoft-365/admin/manage/assign-licenses-to-users)」の手順に従います。
 
 > [!NOTE]
-> [製品ライセンス **の割り当て**] ウィンドウで、[通話プラン **Teams 電話を選択します**。
+> [**製品ライセンスの割り当て**] ウィンドウで、[**通話プラン] で [Teams 電話**] を選択します。
 
 ## <a name="assign-phone-numbers-to-users"></a>ユーザーに電話番号を割り当てる
 
-ユーザーを作成し、通話プラン バンドル ライセンスTeams 電話割り当てた後、そのユーザーに電話番号を割り当てることができます。 外部電話番号に対し発信または受信する必要がある各ユーザーに、割り当てられていない電話番号が必要です。 未使用の電話番号が十分ない場合、この記事で後述する「[追加の電話番号を取得する](#get-more-phone-numbers)」を参照してください。
+ユーザーを作成し、通話プラン バンドル ライセンスでTeams 電話割り当てた後、電話番号を割り当てることができます。 外部電話番号に対し発信または受信する必要がある各ユーザーに、割り当てられていない電話番号が必要です。 未使用の電話番号が十分ない場合、この記事で後述する「[追加の電話番号を取得する](#get-more-phone-numbers)」を参照してください。
 
 1. [Teams 管理センター](https://admin.teams.microsoft.com)に移動します。
 2. 電話番号の要求の名前と説明を入力します。

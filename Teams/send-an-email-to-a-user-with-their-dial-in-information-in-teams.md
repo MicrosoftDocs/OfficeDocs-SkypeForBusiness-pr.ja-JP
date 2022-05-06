@@ -31,32 +31,32 @@ ms.locfileid: "62056037"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Microsoft Teams の電話会議情報が含まれたメールをユーザーに送信する
 
-ユーザー Microsoft Teams電話会議情報を送信する必要がある場合があります。 これを行うには、ユーザーのプロパティの **下** にある [電子メールで電話会議情報を送信する] をクリックします。 このメールを送信すると、次を含むすべての電話会議情報が含まれる。
+ユーザー Microsoft Teams電話会議情報を送信する必要がある場合があります。 これを行うには、ユーザーのプロパティの下にある **[会議情報を電子メールで送信** ] をクリックします。 この電子メールを送信すると、次のようなすべての電話会議情報が含まれます。
   
 - ユーザー用の会議の電話番号またはダイヤルイン電話番号。
 
 - ユーザーの会議 ID。
 
-送信されるメールの例を次に示します。
+送信される電子メールの例を次に示します。
 
 ![ダイヤルイン会議の電子メール メッセージの例。](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>電話会議情報を含むメールをユーザーに送信する
+## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>電話会議情報を含む電子メールをユーザーに送信する
 
-### <a name="sending-an-email-using-the-microsoft-teams-admin-center"></a>管理センターでメールをMicrosoft Teamsする
+### <a name="sending-an-email-using-the-microsoft-teams-admin-center"></a>Microsoft Teams管理センターを使用したメールの送信
 
 1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 
-2. ページの上部にある [編集] を **クリックします**。
+2. ページの上部にある [編集] をクリック **します**。
 
 3. [**電話会議**] の [**電話会議情報をメールで送信**] をクリックします。
 
 ## <a name="what-else-should-you-know-about-this-email"></a>このようなメールについて知っておくべきその他のこと
 
-- 電話会議を有効にした後、組織内のユーザーに送信されるメールは複数あります。
+- 電話会議を有効にした後、組織内のユーザーに送信される電子メールがいくつかあります。
 
   - **電話会議** のライセンスがユーザーに割り当てられた場合。
 
@@ -66,10 +66,10 @@ ms.locfileid: "62056037"
 
   - **電話会議** のライセンスがユーザーから削除された場合。
 
-  - ユーザーの電話会議プロバイダーが Microsoft から別のプロバイダーまたはなし に変更 **された場合**。
+  - ユーザーの電話会議プロバイダーが Microsoft から別のプロバイダーまたは **None** に変更された場合。
 
-  - ユーザーの電話会議プロバイダーが Microsoft に変更された場合。
+  - ユーザーの電話会議プロバイダーが Microsoft に変更されたとき。
   
 ## <a name="related-topics"></a>関連項目
 
-[電話会議を試用または購入するには、Microsoft 365またはOffice 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Microsoft 365またはOffice 365での電話会議の試用または購入](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

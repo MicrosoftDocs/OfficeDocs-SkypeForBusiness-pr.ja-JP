@@ -96,11 +96,11 @@ Microsoft Teams Roomsが正常に動作していない場合は、出荷時の�
 
 |ワークグループ|ドメインに参加していない場合|ドメインに参加している場合|
 |:-----|:-----|:-----|
-|再起動  <br/> |Teams管理センター  <br/> リモート デスクトップ  <br/> リモート PowerShell  <br/> | <br/>リモート デスクトップ (詳細な設定が必要)  <br/> リモート PowerShell (追加の構成が必要)  <br/> Configuration Manager  <br/> |
+|再起動  <br/> |Teams 管理センター  <br/> リモート デスクトップ  <br/> リモート PowerShell  <br/> | <br/>リモート デスクトップ (詳細な設定が必要)  <br/> リモート PowerShell (追加の構成が必要)  <br/> Configuration Manager  <br/> |
 |OS の更新  <br/> |Windows Update  <br/> |Windows Update  <br/> WSUS  <br/> |
 |アプリの更新  <br/> |Windows ストア  <br/> |Windows ストア  <br/> Configuration Manager  <br/> |
-|アカウント構成  <br/> |Teams管理センター  <br/> |Teams管理センター  <br/> |
-|ログへのアクセス  <br/> |Teams管理センター  <br/> Powershell  <br/> |Teams管理センター <br/> Powershell  <br/>  |
+|アカウント構成  <br/> |Teams 管理センター  <br/> |Teams 管理センター  <br/> |
+|ログへのアクセス  <br/> |Teams 管理センター  <br/> Powershell  <br/> |Teams 管理センター <br/> Powershell  <br/>  |
    
 ## <a name="configuring-group-policy-for-microsoft-teams-rooms"></a>Microsoft Teams Rooms のグループ ポリシーを構成する
 <a name="GroupPolicy"> </a>

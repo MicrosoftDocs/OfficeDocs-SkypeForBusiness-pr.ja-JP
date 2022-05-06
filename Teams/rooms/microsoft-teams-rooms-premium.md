@@ -32,23 +32,23 @@ Microsoft Teams Rooms の管理サービスは、Microsoft Teams Rooms デバイ
 
 Microsoft Teams Rooms の管理サービスは、エンド ポイントのソフトウェア対応管理、機械学習、およびインテリジェント自動化に関する Microsoft の専門知識に基づいて構築されています。 Microsoft Teams Rooms の管理サービスは、組織が複数のリモート サイトにわたって高品質の環境を提供し、組織が必要とするあらゆる成長ペースに対応できるよう支援します。
 
-サービスの 3 つの重要な側面を次に示します。  
+サービスの主な側面は次の 3 つです。  
 
-- インテリジェント操作  
+- インテリジェントな操作  
 
-   Microsoft Teams Rooms の更新、問題の検出、問題の解決を自動化するソフトウェアと機械学習。  
+   更新プログラム、問題検出、Microsoft Teams Roomsの問題解決を自動化するソフトウェアと機械学習。  
 
 
 
 - 専用のエキスパート  
 
-   24 時間 365 日のサービス操作、階層化されたサポート、インシデント解決の支援を提供する専門家チーム。  
+   24 時間 365 日のサービス運用、階層化されたサポート、インシデント解決の支援を提供する専門家チーム。  
 
 
 
 - 強化された分析情報  
 
-   豊富な分析、レポート作成、実証済みの学習を多数の顧客に提供します。  
+   豊富な分析、レポート、および実証済みの学習を、多くのお客様に大規模に提供しています。  
 
 
 ## <a name="service-capabilities"></a>サービス機能
@@ -63,7 +63,7 @@ Microsoft Teams Rooms の管理サービスの概要を以下に示します。
 |**分析情報と推奨事項**     |お客様の健康状態、使用状況、使用率、および機器の信頼性に関する分析情報。         |
 |**コンプライアンスと認定**   |Microsoft オンライン サービスの該当するすべての基準を満たしています。         |
 |**カスタマー サポート**   |Microsoft Teams Rooms の管理サービス オペレーション センター (SOC) による 24 時間 365 日対応のチケット サポート お客様に代わって他の主要ベンダーにエスカレーションします (該当する場合)。 詳細については、[カスタマー サポート](#customer-support)を参照してください。|
-|**サポートされるデバイス**    |認定された Microsoft Teams Rooms のシステムとその周辺機器。<br>*Surface Hub 2021 年後半にサポートされる予定です*        |
+|**サポートされるデバイス**    |認定された Microsoft Teams Rooms のシステムとその周辺機器。<br>*Surface Hub 2021 年後半のサポート*        |
 |**サポートされる地域**    |[サポートされる地域](#supported-regions)を参照してください。        |
 |**統合**    |お客様がホストする ServiceNow との統合が可能です。         |
 
@@ -110,7 +110,7 @@ Microsoft Teams Rooms の管理サービスのサポート対象の詳細につ�
 
 ## <a name="supported-regions"></a>サポートされる地域
 
-Microsoft Teams Rooms プレミアムライセンスは、利用可能なすべての国と地域Microsoft 365利用できます。 国と地域の完全な一覧については、「Microsoft 365[を参照してください](https://www.microsoft.com/microsoft-365/business/international-availability)。
+Microsoft Teams Rooms Premium ライセンスは、Microsoft 365が利用可能なすべての国と地域で使用できます。 国と地域の完全な一覧については、[Microsoft 365国際可用性](https://www.microsoft.com/microsoft-365/business/international-availability)に関するページを参照してください。
 
 ## <a name="support-inclusions-and-exclusions"></a>サポート内容と除外事項
 

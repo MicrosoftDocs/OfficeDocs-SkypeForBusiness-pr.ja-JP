@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams で People Manager チームを作成する
+title: Microsoft Teamsで People Manager チームを作成する
 ms.reviewer: pbethi
 author: SerdarSoysal
 ms.author: serdars
@@ -23,26 +23,26 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 08/26/2021
 ms.locfileid: "58628359"
 ---
-# <a name="create-people-manager-teams-in-microsoft-teams"></a>Microsoft Teams で People Manager チームを作成する
+# <a name="create-people-manager-teams-in-microsoft-teams"></a>Microsoft Teamsで People Manager チームを作成する
 
 
-"空白のスレート" (チームやチャネルなし) で起動するのではなく、Microsoft Teams を展開する場合は、チームとチャネルの基本フレームワークを設定することを強く推奨します。 これは、ユーザーが既存のチームでチャネルを作成する必要があるときに多数のチームを作成する "チームの広がり" を防ぐのに役立ちます。 デザインが整ったチームとチャネルの構造を使い始めるのに役立つ PowerShell スクリプトを作成しました。このスクリプトでは、各マネージャーの直下の部下をチーム メンバーとして、1 番目と 2 番目の各担当者マネージャーのチームを作成します。 これは "ポイントインタイム" スクリプトです (ユーザーが組織に追加または削除されると、チームやチャネルは自動的に更新されません)。 ただし、最初からシステム構造に何らかの順序を付けるTeamsツールです。 このスクリプトは、Azure ADを読み取り、マネージャーとその直下のレポートの一覧を取得します。 このリストを使用して、People マネージャーごとに 1 つのチームを作成します。 
+"空白のスレート" (チームまたはチャネルなし) で起動するのではなく、Microsoft Teamsをロールアウトする場合は、チームとチャネルの基本フレームワークを設定することを強くお勧めします。 これは、ユーザーが既存のチームでチャネルを作成する必要があるときに多数のチームを作成する "チームスプロール" を防ぐのに役立ちます。 適切に設計されたチームとチャネルの構造を開始するために、各マネージャーの直属のレポートをチーム メンバーとして使用して、第 1 および第 2 行の各ユーザー マネージャーのチームを作成する PowerShell スクリプトを作成しました。 これは "ポイントインタイム" スクリプトです (ユーザーが組織に追加または削除されたときに、チームやチャネルが自動的に更新されることはありません)。 しかし、最初からTeams構造に何らかの順序を付けるために使用できる貴重なツールです。 このスクリプトは、Azure ADを読み取り、マネージャーとその直属のレポートの一覧を取得します。 この一覧を使用して、ユーザー マネージャーごとに 1 つのチームを作成します。 
 
-## <a name="how-to-use-the-powershell-script"></a>PowerShell スクリプトの使い方 
+## <a name="how-to-use-the-powershell-script"></a>PowerShell スクリプトを使用する方法 
 
-まず、エクスポート マネージャーとその直接[スクリプトを実行](scripts/powershell-script-create-teams-from-managers-export-managers.md)します ([これは、Connect-AzureAd](/powershell/module/azuread/connect-azuread?view=azureadps-2.0)モジュールと[Connect-MicrosoftTeams](/powershell/module/teams/connect-microsoftteams?view=teams-ps) PowerShell モジュールを既に実行済みである前提としています)。 エクスポート *マネージャーとその* 直接スクリプトでは、すべてのマネージャーを直接レポートと一覧表示するタブ区切りファイル (ExportedManagerDirects.txt) が作成されます。 
+[まず、エクスポート マネージャーとそのダイレクト スクリプト](scripts/powershell-script-create-teams-from-managers-export-managers.md) ([Connect-AzureAd](/powershell/module/azuread/connect-azuread?view=azureadps-2.0) および [Connect-MicrosoftTeams](/powershell/module/teams/connect-microsoftteams?view=teams-ps) PowerShell モジュールを既に実行していることを前提としています) を実行します。 *エクスポート マネージャーとそのダイレクト* スクリプトは、すべてのマネージャーをダイレクト レポートで一覧表示するタブ区切りファイル (ExportedManagerDirects.txt) を作成します。 
 
-次に、新しい [People マネージャー チームの作成スクリプト を実行します](scripts/powershell-script-create-teams-from-managers-new-teams.md)。 このスクリプトは、ExportedManagerDirects.txt ファイルを読み取り、各マネージャーのチームを作成し、そのマネージャーの直接レポートをメンバーとして使用します。 管理者または直接が管理者に対して有効になっていないTeamsスクリプトはそれらをスキップし、チームを作成しません。 (レポートを確認し、必要なユーザーに対して Teamsを有効にした後、スクリプトを再実行します。 スクリプトでは、既にチームを作成しているマネージャーの 2 つ目のチームは作成されません)。
+次に、 [新しいユーザー マネージャー チームの作成スクリプト](scripts/powershell-script-create-teams-from-managers-new-teams.md)を実行します。 このスクリプトは、ExportedManagerDirects.txt ファイルを読み取り、マネージャーごとのチームを作成し、そのマネージャーの直属部下をメンバーとして作成します。 マネージャーまたはダイレクトがTeamsに対して有効になっていない場合、スクリプトはこれらをスキップし、チームを作成しません。 (レポートを確認し、必要なユーザーのTeamsを有効にした後、スクリプトを再実行します。 このスクリプトでは、既にチームを作成しているマネージャーの 2 番目のチームは作成されません)。
 
-各チームについて、スクリプトは General チャネルと "Just for fun" チャネルを作成します。 
+各チームに対して、スクリプトによって General チャネルと "Just for fun" チャネルが作成されます。 
 
 ## <a name="best-practices"></a>ベスト プラクティス
 
-- 各チームの [全般] チャネルにタブとして組織の危機コミュニケーション Web サイトを追加して、各人のマネージャーに問い合わせください。 
+- 各チームの全般チャネルに、組織の危機通信 Web サイトをタブとして追加するように各ユーザー マネージャーに依頼します。 
 
-- 2020 年 3 月 8 日のブログ記事「Microsoft Teams + Power Platform を使用して危機的な通信を調整する」を参照して、新しいクライシス コミュニケーション アプリ[を確認してください](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/coordinate-crisis-communications-using-microsoft-teams-power/ba-p/1216715)。
+- 2020 年 3 月 8 日のブログ投稿「[Microsoft Teams + Power Platform を使用して危機の通信を調整する](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/coordinate-crisis-communications-using-microsoft-teams-power/ba-p/1216715)」を参照して、新しい Crisis Communications アプリを確認してください。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [チームを編成するためのベスト プラクティス](best-practices-organizing.md)
 

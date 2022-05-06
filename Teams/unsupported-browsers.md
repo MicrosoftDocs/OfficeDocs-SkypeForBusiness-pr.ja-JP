@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teamsブラウザーで会議を行う
+title: サポートされていないブラウザーで会議をMicrosoft Teamsする
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -7,42 +7,47 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 MS.collection:
-  - M365-collaboration
+- M365-collaboration
 ms.reviewer: nakulm
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-description: サポートされていないブラウザー Teamsオーディオとビデオをサポートする方法について学習します。
+description: サポートされていないブラウザー Teamsオーディオとビデオをサポートする方法について説明します。
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: 237e080451fdf6a2c979ce488c3b430a61c2c3fa
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402661"
 ---
+# <a name="microsoft-teams-meetings-on-unsupported-browsers"></a>サポートされていないブラウザーで会議をMicrosoft Teamsする
 
-# <a name="microsoft-teams-meetings-on-unsupported-browsers"></a>Microsoft Teamsブラウザーで会議を行う
-
-Internet Explorer 11、Safari、Firefox などの一部のブラウザーでは、Microsoft Teams Web アプリがサポートされますが、Teams 通話および会議機能の一部はサポートされていません。 この制限を回避するために、Teams Web アプリを使用すると、ユーザーは PSTN 接続を介して音声を受信し、表示されたコンテンツ (画面共有) を低い表示レートで表示できます。
+Internet Explorer 11、Safari、Firefox などの一部のブラウザーでは、Microsoft Teams Web アプリがサポートされていますが、Teams通話機能や会議機能の一部はサポートされていません。 この制限を回避するために、Teams Web アプリを使用すると、ユーザーは PSTN 接続を介してオーディオを受信し、表示速度を下げ、表示されるコンテンツ (画面共有) を表示できます。
 
 > [!Note]
-> Microsoft 365アプリとサービスでは、2021 年 8 月 17 日から Internet Explorer 11 はサポートされていません (Microsoft Teams は、2020 年 11 月 30 日から Internet Explorer 11 以前はサポートされていません)。 [詳細情報を参照してください](https://aka.ms/AA97tsw)。 Internet Explorer 11 は、サポート対象のブラウザーとして残ることに注意してください。 Internet Explorer 11 は、Windows オペレーティング システムのコンポーネントであり、インストールされている製品のライフサイクル ポリシーに[](/lifecycle/faq/internet-explorer-microsoft-edge)従います。
+> Microsoft 365アプリとサービスは、2021 年 8 月 17 日から Internet Explorer 11 をサポートしません (Microsoft Teamsは、2020 年 11 月 30 日から Internet Explorer 11 をサポートしません)。 [詳細情報を参照してください](https://aka.ms/AA97tsw)。 Internet Explorer 11 は、サポート対象のブラウザーとして残ることに注意してください。 Internet Explorer 11 は、Windows オペレーティング システムのコンポーネントであり、インストールされている製品[のライフサイクル ポリシーに従います](/lifecycle/faq/internet-explorer-microsoft-edge)。
 
-サポートTeamsが検出されると、問題とセッションの制限を説明するメッセージが自動的に表示されます。 このメッセージでは、Teams がユーザーに通話できるよう、ユーザーにコール バック番号を残すようユーザーに指示したり、会議出席依頼に含まれる電話会議番号に電話するようにユーザーに指示したりして、会議の音声にアクセスする手順をさらに説明します。 また、このメッセージを使用すると、ユーザーはデスクトップ クライアント[](https://teams.microsoft.com/downloads)をダウンロードTeams完全なエクスペリエンスを得Teamsされます。
+サポートされていないブラウザー Teams検出すると、問題とセッションの制限事項を説明するメッセージが自動的に表示されます。 このメッセージには、会議の音声にアクセスするための詳細な手順が表示されます。たとえば、ユーザーにコールバック番号を残すようにユーザーに勧めたり、会議出席依頼に含まれる電話会議番号を呼び出すようにユーザーに指示したりTeamsします。 このメッセージでは、完全なTeamsエクスペリエンスのために[Teamsデスクトップ クライアント](https://teams.microsoft.com/downloads)をダウンロードして使用することをユーザーに推奨します。
 
-PSTN が利用できない場合、ユーザーは会議にアクセスする手順を表示し、会議に参加できません。
+PSTN が利用できない場合、ユーザーは会議にアクセスするための手順を表示せず、会議に参加できません。
 
 ## <a name="browser-limitations"></a>ブラウザーの制限事項
 
-サポートされていないブラウザーで Teams Web アプリを使用するユーザーには、次の制限があります。
+サポートされていないブラウザーでTeams Web アプリを使用するユーザーには、次の制限事項が発生します。
 
-- 音声は PSTN 接続でのみ使用できます。 ユーザーは自分のマイクを使用することはできません。
-- ユーザーはカメラを共有したり、他の参加者のビデオを見たりできないが、画像ベースの画面共有を通じて表示されたコンテンツを表示できる。
-- ユーザーは自分の画面を共有できないが、別の会議参加者が共有する画面を表示できる。
-- ユーザーは、画面共有セッション中に制御を受け取る必要があります。
-- ユーザーは着信通話通知を受け取らない。
+- 音声は PSTN 接続でのみ使用できます。 ユーザーは自分のマイクを使用できません。
+- ユーザーはカメラを共有したり、他の参加者のビデオを見たりすることはできませんが、画像ベースの画面共有を通じて表示されたコンテンツを表示できます。
+- ユーザーは自分の画面を共有できませんが、別の会議参加者が共有する画面が表示されます。
+- ユーザーは画面共有セッション中に制御を取ることはできません。
+- ユーザーは着信通知を受け取りません。
 - 通話が中断された場合、会議は自動的に再接続されません。
-- ユーザーが会議を開始できない。
+- ユーザーは会議を開始できません。
 
-ブラウザーのサポートの詳細については、「Teamsの制限と仕様[」を参照](./limits-specifications-teams.md#browsers)Teams。
+Teamsでのブラウザーのサポートの詳細については、「[Teamsの制限と仕様」を](./limits-specifications-teams.md#browsers)参照してください。
 
 ## <a name="related-topics"></a>関連項目
 
-- [サポートされていないブラウザー Teams会議に参加する](https://support.office.com/article/daafdd3c-ac7a-4855-871b-9113bad15907)
+- [サポートされていないブラウザーでTeams会議に参加する](https://support.office.com/article/daafdd3c-ac7a-4855-871b-9113bad15907)

@@ -146,7 +146,7 @@ Windowsデバイスと同様に、[コンピューター名の変更について
   
 ドメインに参加した後でコンピューターの名前を変更する場合は、PowerShell コマンドである [Rename-Computer](/powershell/module/microsoft.powershell.management/rename-computer?view=powershell-7.2) を使用し、その後にコンピューターの新しい名前を付けます。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Microsoft Teams Rooms を計画する](rooms-plan.md)
 

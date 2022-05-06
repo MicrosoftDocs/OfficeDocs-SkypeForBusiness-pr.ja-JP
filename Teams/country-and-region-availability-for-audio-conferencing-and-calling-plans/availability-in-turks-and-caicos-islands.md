@@ -1,5 +1,5 @@
 ---
-title: タークス・カイコス諸島の空き時間情報
+title: トルコとカイコ諸島での可用性
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -23,7 +23,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: タークス・カイコス諸島Microsoft 365、Office 365およびSkype for BusinessおよびMicrosoft Teamsサービスの一覧を次に示します。
+description: トルコとカイコ諸島で利用できるSkype for BusinessとMicrosoft TeamsのMicrosoft 365サービスとOffice 365 サービスを次に示します。
 ms.openlocfilehash: 26d95fd94887cdfb7574c2d18f602d8b087b2d5a
 ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
@@ -31,17 +31,17 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 02/05/2022
 ms.locfileid: "62409860"
 ---
-# <a name="availability-in-turks-and-caicos-islands"></a>タークス・カイコス諸島の空き時間情報
+# <a name="availability-in-turks-and-caicos-islands"></a>トルコとカイコ諸島での可用性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-タークス・カイコス諸島Microsoft 365、Office 365およびSkype for BusinessおよびMicrosoft Teamsサービスの一覧を次に示します。
+トルコとカイコ諸島で利用できるSkype for BusinessとMicrosoft TeamsのMicrosoft 365サービスとOffice 365 サービスを次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|電話会議は購入できますか?  <br/> |はい。 分単位の支払いのみ。 <br/> |
+|電話会議は購入できますか?  <br/> |はい。 従量課金制。 <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> | いいえ |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> | 通信クレジットが必要 <br/> |
    
@@ -62,17 +62,17 @@ ms.locfileid: "62409860"
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
 
-通話プランを購入できない場合は、利用可能なすべてのオプションの [PSTN](../pstn-connectivity.md) 接続オプションに関するページを参照してください。
+通話プランを購入できない場合は、使用可能なすべての [オプションについて PSTN 接続オプション](../pstn-connectivity.md) を参照してください。
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
+## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号とフリーダイヤル番号
 
 |**機能**|**詳細**|
 |:-----|:-----|
 |有料電話番号を取得できる首都または主要都市はどこですか?   | 該当なし<br/> |
 |有料電話番号は使用できますか?  <br/> |いいえ<br/> |
-|無料電話番号は利用できますか?  <br/> |Yes  <br/> |
+|フリーダイヤル番号は利用できますか?  <br/> |Yes  <br/> |
    
- 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「Skype for Business および Microsoft Teams のサービス電話番号を取得する」を参照[してください。](../getting-service-phone-numbers.md)
+ 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「[Skype for BusinessとMicrosoft Teamsのサービス電話番号を取得](../getting-service-phone-numbers.md)する」を参照してください。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 

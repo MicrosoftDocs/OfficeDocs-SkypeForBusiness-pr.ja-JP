@@ -1,5 +1,5 @@
 ---
-title: PowerShell スクリプト サンプル - エクスポート マネージャーとその担当者
+title: PowerShell スクリプト サンプル - マネージャーとそのダイレクトをエクスポートする
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: brandber
 ms.service: msteams
 audience: admin
-description: この PowerShell スクリプトを使用して、各マネージャーのチームをチーム メンバーとして作成する準備として、組織のマネージャーとその担当者のリストをエクスポートします。
+description: この PowerShell スクリプトを使用して、マネージャーとその組織の指示の一覧をエクスポートし、各マネージャーのチームをチーム メンバーとして作成する準備をします。
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -23,11 +23,11 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 08/26/2021
 ms.locfileid: "58577821"
 ---
-# <a name="powershell-script-sample---export-managers-and-their-directs"></a>PowerShell スクリプト サンプル - エクスポート マネージャーとその担当者
+# <a name="powershell-script-sample---export-managers-and-their-directs"></a>PowerShell スクリプト サンプル - マネージャーとそのダイレクトをエクスポートする
 
-この PowerShell スクリプトを使用して、各マネージャーの担当者をチーム メンバーとして作成する準備として、組織のマネージャーとその担当者のリストをエクスポートします。
+この PowerShell スクリプトを使用して、マネージャーとその組織の指示の一覧をエクスポートし、各マネージャーのユーザー マネージャー チームをチーム メンバーとして作成する準備をします。
 
-この PowerShell スクリプトの詳細については、「People Manager チームを作成 [する」を参照してください](../create-manager-directs-teams.md)。
+この PowerShell スクリプトの詳細については、「 [People Manager チームの作成」](../create-manager-directs-teams.md)を参照してください。
 
 PowerShell をこれまでに使用したことがなく、使用開始のためのヘルプが必要な場合は、「[Azure PowerShell の概要](/powershell/azure/overview?view=azurermps-5.1.1)」をご覧ください。
 

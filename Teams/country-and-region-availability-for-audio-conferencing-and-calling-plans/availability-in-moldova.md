@@ -25,7 +25,7 @@ ms.custom:
 - Phone System
 - Calling Plans for Business and Microsoft Teams available for Moldova."
 - seo-marvel-mar2020
-description: モルドバでMicrosoft 365およびOffice 365サービスSkype for Business Microsoft Teams情報を確認します。
+description: モルドバで使用できるSkype for BusinessおよびMicrosoft TeamsのMicrosoft 365サービスとOffice 365 サービスに関する情報を確認します。
 ms.openlocfilehash: fad85c4f1e875ffd65f255fb95eac209f74c8f7b
 ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
@@ -37,13 +37,13 @@ ms.locfileid: "62191568"
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-以下は、Microsoft 365、Office 365およびSkype for BusinessのMicrosoft Teamsサービスです。
+モルドバで使用できるSkype for BusinessとMicrosoft TeamsのMicrosoft 365サービスとOffice 365 サービスを次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|電話会議は購入できますか?  <br/> |はい [(分単位の支払いのみ](../audio-conferencing-pay-per-minute.md) )  <br/> |
+|電話会議は購入できますか?  <br/> |はい( [分あたりの支払い](../audio-conferencing-pay-per-minute.md) のみ)  <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> |いいえ  <br/> |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> |通信クレジットが必要  <br/> |
    
@@ -64,7 +64,7 @@ ms.locfileid: "62191568"
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
 
-通話プランを購入できない場合は、利用可能なすべてのオプションの [PSTN](../pstn-connectivity.md) 接続オプションに関するページを参照してください。
+通話プランを購入できない場合は、使用可能なすべての [オプションについて PSTN 接続オプション](../pstn-connectivity.md) を参照してください。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 
@@ -84,7 +84,7 @@ ms.locfileid: "62191568"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

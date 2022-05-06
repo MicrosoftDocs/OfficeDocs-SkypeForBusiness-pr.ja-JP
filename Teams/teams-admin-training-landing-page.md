@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams の管理者トレーニング
 ms.reviewer: ''
-description: 組織の管理に必要な管理者のトレーニングとMicrosoft Teams取得します。
+description: 組織内のMicrosoft Teamsを管理するために必要な管理者のトレーニングとサポートを受けます。
 author: SerdarSoysal
 manager: serdars
 audience: admin
@@ -29,7 +29,7 @@ ms.locfileid: "62387495"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニング
 
-組織の組織のTeamsを管理する方法について学習します。
+組織のTeamsを管理する方法について説明します。
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -43,7 +43,7 @@ ms.locfileid: "62387495"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>新しい: 教師主導のトレーニング (Teams</h3>
+                        <h3>NEW: Teamsのインストラクター主導のトレーニング</h3>
                     </div>
                 </div>
             </div>

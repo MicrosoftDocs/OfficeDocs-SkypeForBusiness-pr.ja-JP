@@ -14,7 +14,7 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: 通話品質ダッシュボードを使用Teams 電話システム通話プランの通話品質で通話を監視する方法について学習します。
+description: 通話品質ダッシュボードを使用して通話プランの通話品質でTeams 電話システムを監視する方法について説明します。
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 4d06d9fd80b2f77ec4b017a9d4a056685f3a5706

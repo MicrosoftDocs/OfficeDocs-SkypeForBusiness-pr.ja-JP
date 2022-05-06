@@ -24,7 +24,7 @@ ms.locfileid: "63503484"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>Skype for Business Server で Microsoft Teams Rooms を展開する
   
-このトピックでは、単一フォレストのオンプレミスデプロイがある場合に Microsoft Teams Rooms のリソース アカウントを追加する方法について説明します。
+このトピックでは、単一フォレストのオンプレミスデプロイがある場合に、Microsoft Teams Roomsのリソース アカウントを追加する方法について説明します。
   
 単一つのフォレスト、Exchange 2013 SP1 以降のオンプレミス展開、および Skype for Business Server 2015 以降を使用している場合、提供されている Windows PowerShell スクリプトを使用してデバイスアカウントを作成できます。 複数のフォレストを使用している場合は、同じ結果を生成する同じコマンドレットを使用できます。 ここでは、これらのツールについて説明します。
   
@@ -60,7 +60,7 @@ Microsoft Teams Rooms の展開を開始する前に、関連するコマンド�
    -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
-3. ユーザーの会議エクスペリエンスExchange、Teams Rooms リソース アカウントでさまざまなプロパティを設定できます。 [Exchange プロパティ] セクションで設定する必要があるプロパティが表示されます。
+3. Teams Rooms リソース アカウントにさまざまなExchangeプロパティを設定して、ユーザーの会議エクスペリエンスを向上させることができます。 [Exchange プロパティ] セクションで設定する必要があるプロパティが表示されます。
 
    ``` Powershell
    Set-CalendarProcessing -Identity ConferenceRoom01 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments
@@ -68,28 +68,28 @@ Microsoft Teams Rooms の展開を開始する前に、関連するコマンド�
    Set-CalendarProcessing -Identity ConferenceRoom01 -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams and Skype for Business meeting room!"
    ```
 
-4. リソース アカウントでパスワードの有効期限をオフにします。
+4. リソース アカウントでパスワードの有効期限を無効にします。
 
    ``` Powershell
    Set-AdUser ConferenceRoom01@contoso.com -PasswordNeverExpires $true
    ```
 
-5. Active Directory でリソース アカウントを有効にして、会議室に対してMicrosoft Teamsします。
+5. Microsoft Teams Roomsに対して認証されるように、Active Directory でリソース アカウントを有効にします。
 
    ``` Powershell
    Set-AdUser ConferenceRoom01@contoso.com -Enabled $true
    ```
 
-6. リソース プールで Skype for Business Server Rooms Active Directory アカウントMicrosoft Teamsを有効にして、リソース アカウントSkype for Business Serverします。
+6. Skype for Business Server プールでMicrosoft Teams Rooms Active Directory アカウントを有効にして、Skype for Business Serverでリソース アカウントを有効にします。
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity ConferenceRoom01 -SipAddress sip:ConferenceRoom01@contoso.com -DomainController DC-ND-001.contoso.com
    -RegistrarPool LYNCPool15.contoso.com 
    ```
 
-    と 属性 `-DomainController` を、 `-RegistrarPool` 環境に適した値に変更します。
+    環境に `-DomainController` 適した値に属性と `-RegistrarPool` 属性を変更します。
 
-7. **オプション。** アカウントのEnterprise Voice を有効にすることで、Microsoft Teams Rooms を使用して、公衆交換電話網 (PSTN) 通話を発着信することもできます。 エンタープライズ VoIP Microsoft Teams 会議室の要件ではないが、Microsoft Teams 会議室の PSTN ダイヤル機能が必要な場合は、次の方法で有効にします。
+7. **オプション。** アカウントのEnterprise Voice を有効にすることで、Microsoft Teams Rooms を使用して、公衆交換電話網 (PSTN) 通話を発着信することもできます。 エンタープライズ VoIPはMicrosoft Teams Roomsの要件ではありませんが、Microsoft Teams Roomsの PSTN ダイヤル機能が必要な場合は、有効にする方法を次に示します。
 
    ``` Powershell
    Set-CsMeetingRoom -Identity ConferenceRoom01 -DomainController DC-ND-001.contoso.com -LineURI "tel:+14255550555;ext=50555"
@@ -98,7 +98,7 @@ Microsoft Teams Rooms の展開を開始する前に、関連するコマンド�
    Grant-CsDialPlan -Identity ConferenceRoom01 -PolicyName DP1
    ```
 
-   繰り返しますが、提供されるドメイン コントローラーと電話番号の例は、実際に使用する情報に置き換える必要があります。 パラメータ値 $true は同じままです。 また、音声ポリシーとダイヤル プラン ポリシー名を置き換える必要があります。
+   繰り返しますが、提供されるドメイン コントローラーと電話番号の例は、実際に使用する情報に置き換える必要があります。 パラメータ値 $true は同じままです。 また、音声ポリシーとダイヤル プラン のポリシー名を置き換える必要もあります。
 
 ## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-on-premises"></a>サンプル: Exchange およびオンプレミスの Skype for Business Serverの会議室アカウントのセットアップ
 

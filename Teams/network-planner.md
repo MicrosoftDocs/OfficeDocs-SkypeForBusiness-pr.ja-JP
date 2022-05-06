@@ -1,5 +1,5 @@
 ---
-title: ネットワーク プランナーを使用してMicrosoft Teams
+title: Microsoft Teamsにネットワーク プランナーを使用する
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -29,13 +29,13 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 08/30/2021
 ms.locfileid: "58731316"
 ---
-# <a name="use-the-network-planner-for-microsoft-teams"></a>ネットワーク プランナーを使用してMicrosoft Teams
+# <a name="use-the-network-planner-for-microsoft-teams"></a>Microsoft Teamsにネットワーク プランナーを使用する
 
-Network Planner は、Teams 管理センターで利用できる新しいツールです。 これは、Planning Network Plannerにアクセス  >  **して確認できます**。 ほんの少しの手順で、Network Planner では組織全体で Microsoft Teams ユーザーに接続するためのネットワーク要件を決定し、整理できます。 ネットワークの詳細と Teams の使用状況を提示すると、Network Planner は、組織の物理的な場所で Teams とクラウドの音声を展開するためのネットワーク要件を計算します。
+Network Planner は、Teams 管理センターで利用できる新しいツールです。 **PlanningNetwork** >  Planner に移動すると見 **つかります**。 ほんの少しの手順で、Network Planner では組織全体で Microsoft Teams ユーザーに接続するためのネットワーク要件を決定し、整理できます。 ネットワークの詳細と Teams の使用状況を提示すると、Network Planner は、組織の物理的な場所で Teams とクラウドの音声を展開するためのネットワーク要件を計算します。
 
-![Network Planner のスクリーンショット。](media/network-planner.png)
+![ネットワーク プランナーのスクリーンショット。](media/network-planner.png)
 
-Network Planner では、次の機能を使用できます。
+ネットワーク プランナーを使用すると、次のことが可能になります。
 
 - サイトと Microsoft 推奨のペルソナ (オフィス ワーカー、リモート ワーカー、Teams ルーム システム) を使用して組織の表現を作成します。
 
@@ -44,13 +44,13 @@ Network Planner では、次の機能を使用できます。
 
 - Teams の使用状況の帯域幅要件に関するレポートを作成し計算します。
 
-Network Planner を使用するには、グローバル管理者、管理者、またはコミュニケーションTeams管理者Teams必要があります。
+ネットワーク プランナーを使用するには、グローバル管理者、Teams管理者、または通信管理者Teams必要があります。
 
 ## <a name="create-a-custom-persona"></a>カスタム ペルソナを作成する
 
 カスタム レポートを作成するには、次の手順に従います。
 
-1. 管理センターで Network planner にMicrosoft Teamsします。
+1. Microsoft Teams管理センターのネットワーク プランナーに移動します。
 
 2. [**ペルソナ**] タブで、[**+ カスタム ペルソナ**] をクリックします。 
 
@@ -64,7 +64,7 @@ Network Planner を使用するには、グローバル管理者、管理者、�
 
 ネットワーク プランを作成するには、次の手順を実行します。
 
-1. 管理センターで Network planner にMicrosoft Teamsします。
+1. Microsoft Teams管理センターのネットワーク プランナーに移動します。
 
 2. [**ネットワーク プラン**] タブで、[**ネットワーク プランの追加**] をクリックします。
 
@@ -107,4 +107,4 @@ Network Planner を使用するには、グローバル管理者、管理者、�
 
 ## <a name="example-scenario"></a>シナリオ例
 
-Network Planner を使用してネットワーク プランを設定し、これらの手順を使用してレポートを生成する方法の例については[、Network Planner](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true) How-To PowerPoint デッキをダウンロードします (英語のみ)。
+ネットワーク プランナーを使用してネットワーク プランを設定し、これらの手順を使用してレポートを生成する方法の例については、[ネットワーク プランナー How-To PowerPoint デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true) (英語のみ) をダウンロードします。

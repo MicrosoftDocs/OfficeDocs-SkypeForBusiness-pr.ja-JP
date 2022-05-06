@@ -50,5 +50,5 @@ ms.locfileid: "58629189"
 
 [無料電話ダイヤルの制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Skype for Business と Microsoft Teams) のサービス電話番号を取得します](../getting-service-phone-numbers.md)。
+[Skype for BusinessとMicrosoft Teams ) のサービス電話番号を取得する](../getting-service-phone-numbers.md)
   

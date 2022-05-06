@@ -1,5 +1,5 @@
 ---
-title: このPower BIを使用して、CQD データを分析Microsoft Teams
+title: Power BIを使用してMicrosoft Teamsの CQD データを分析する
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-description: このPower BIを使用して、CQD データを分析Microsoft Teams。
+description: Power BIを使用して、Microsoft Teamsの CQD データを分析します。
 ms.openlocfilehash: 4a96a53454f1f4d89feed3ea87342a7991d7975c
 ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
@@ -23,29 +23,29 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 09/30/2021
 ms.locfileid: "60013771"
 ---
-# <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>このPower BIを使用して、CQD データを分析Microsoft Teams
+# <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Power BIを使用してMicrosoft Teamsの CQD データを分析する
 
-2020 年 1 月の新機能: [CQD Power BIテンプレートをダウンロードします](https://www.microsoft.com/download/details.aspx?id=102291)。 カスタマイズ可能Power BIテンプレートを使用して、CQD データの分析とレポートを行います。
+2020 年 1 月の新機能: [CQD 用の Power BI クエリ テンプレートのダウンロード](https://www.microsoft.com/download/details.aspx?id=102291)。 CQD データの分析やレポートに使えるカスタマイズ可能な Power BI テンプレートです。
 
-Teams の通話品質ダッシュボード (CQD) レポートでは、Power BI を使用してデータのクエリとレポートを行う場合は、CQD Power BI テンプレートをダウンロードします。 テンプレートを Power BI開き、CQD 管理者の資格情報でサインインするように求めるメッセージが表示されます。 これらのクエリ テンプレートをカスタマイズし、Power BIおよび CQD 管理者のアクセス許可を持つ組織内のすべてのユーザーに配布できます。
+Teamsの通話品質ダッシュボード (CQD) レポートでは、Power BIを使用してデータのクエリとレポートを行う場合は、CQD Power BI テンプレートをダウンロードします。 Power BIでテンプレートを開くと、CQD 管理者資格情報でサインインするように求められます。 これらのクエリ テンプレートをカスタマイズし、Power BI ライセンスと CQD 管理者アクセス許可を持つ組織内のすべてのユーザーに配布できます。
 
-これらの PBIT ファイルを使用するには、ダウンロード に含まれる *MicrosoftCallQuality.p Power BI* ファイルを使用して、Microsoft [CQD](CQD-Power-BI-connector.md)用 Power BI コネクタをインストールする必要 [があります](https://www.microsoft.com/download/details.aspx?id=102291)。 
+これらの PBIT ファイルを使用する前に、[ダウンロード](https://www.microsoft.com/download/details.aspx?id=102291)に含まれている *MicrosoftCallQuality.ppfx* ファイルを使用して、[Microsoft CQD 用のPower BI コネクタをインストール](CQD-Power-BI-connector.md)する必要があります。 
 
-レポートにアクセスする適切な[CQD](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)アクセス ロールPower BIします。 
+Power BI レポートにアクセスするための適切な [CQD アクセス ロール](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)があることを確認します。 
 
 |&nbsp;|&nbsp;|
 |---------|---------|
-|<strong>(New!)</strong>CQD Teams 自動応答 & Call Queue Historical Report.pbit     |  このテンプレートは、次の 3 つのレポートを提供します。</p><li>自動応答 – 自動応答に着信する通話の分析を表示します。</li><li>通話キュー – 通話キューに着信する通話の分析を示します。</li><li>エージェント タイムライン – 通話キュー呼び出しでアクティブなエージェントのタイムライン ビューを示します。</li><br>詳細については、「通話キュー履歴 [レポート自動応答 &」を参照してください](aa-cq-cqd-historical-reports.md)。        |
-|CQD Helpdesk Report.pbit     |このレポートは、建物と EUII データを統合して、1 人のユーザーからドリルダウンして、そのユーザーの低品質の通話品質のアップストリームの根本原因を見つけ出せするように設計されています (たとえば、ユーザーはネットワークの問題が発生しているビルにいます)。         |
-|CQD Location Enhanced Report.pbit     | CQD SPD の場所レポートを再想像します。 9 つのレポートが含まれています。通話品質、ビルの WiFi、信頼性、および通話料金 (RMC) の情報を、ビルまたはユーザーによる追加のドリルスルーで提供します。  レポートのエクスペリエンスを最大化するために、必ず建物のデータをアップロードしてください。        |
-|CQD Mobile Device Report.pbit     | 通話品質、信頼性、通話の評価など、モバイル デバイス ユーザー向けに特にチューニングされた分析情報を提供します。 モバイル ネットワーク、WiFi ネットワーク、およびモバイル オペレーティング システム レポート (Android、iOS) を表示します。        |
-|CQD PSTN ダイレクト ルーティング レポート.pbit     |直接ルーティングを経由する PSTN 通話に固有の分析情報を提供します。 詳細については、「CQD PSTN ダイレクト ルーティング [レポートの使用」を参照してください](CQD-PSTN-report.md)。         |
-|CQD Summary Report.pbit     |視覚エフェクトの向上、プレゼンテーションの改善、情報密度の向上、およびローリング日付。 これらのレポートを使用すると、外れ値を簡単に識別できます。 使いやすい対話型マップを使用して、通話品質を場所別にドリルダウンします。 9 つの新しいレポート:</p>- 品質全体<br>- 信頼性全体<br>- RMC (通話料金) 全体<br>- 会議の品質<br>- P2P 品質<br>- 会議の信頼性<br>- P2P の信頼性<br>- Conference RMC<br>- P2P RMC         |
-|<strong>(New!)</strong>CQD Teams使用率レポート.pbit     | 組織内のユーザーがアプリを使用している方法Teams量を示します。 レポートのエクスペリエンスを最大化するために、必ず建物のデータをアップロードしてください。 詳細については[、「CQD レポートを使用してPower BIを表示する」をMicrosoft Teamsしてください](CQD-teams-utilization-report.md)。        |
-|CQD ユーザー フィードバック (通話の評価) Report.pbit     | 組織の通話をサポートするために簡単に使用できる方法で、通話データを評価する方法を示します。 エンド ユーザー教育の機会を識別するために、言葉による相互参照。        |
+|<strong>(New!)</strong>CQD Teams自動応答&呼び出しキュー履歴レポート.pbit     |  このテンプレートには、次の 3 つのレポートが用意されています。</p><li>自動応答 – 自動応答に着信する呼び出しの分析を示します。</li><li>通話キュー – 通話キューに着信する通話の分析を示します。</li><li>エージェント タイムライン – 通話キューの呼び出しでアクティブになっているエージェントのタイムライン ビューを示します。</li><br>詳細については、「 [通話キュー履歴レポート&自動応答](aa-cq-cqd-historical-reports.md)」を参照してください。        |
+|CQD Helpdesk Report.pbit     |このレポートは、建物と EUII データを統合して、1 人のユーザーからドリルダウンして、そのユーザーの呼び出し品質が低いアップストリームの根本原因を見つけられるように設計されています (たとえば、ユーザーがネットワークの問題が発生している建物にいる場合など)。         |
+|CQD Location Enhanced Report.pbit     | CQD SPD の場所レポートを再想像します。 9 つのレポートが含まれており、通話品質、建物の WiFi、信頼性、および通話のレート (RMC) の情報を、ビルドまたはユーザー別に追加のドリルスルーで提供します。  レポート エクスペリエンスを最大限に高めるために、必ず建物データをアップロードしてください。        |
+|CQD モバイル デバイス Report.pbit     | 通話品質、信頼性、通話の評価など、モバイル デバイス ユーザー向けに特別に調整された分析情報を提供します。 モバイル ネットワーク、WiFi ネットワーク、モバイル オペレーティング システムのレポート (Android、iOS) を表示します。        |
+|CQD PSTN ダイレクト ルーティング レポート.pbit     |ダイレクト ルーティングを経由する PSTN 通話に固有の分析情報を提供します。 詳細については、「 [CQD PSTN ダイレクト ルーティング レポートの使用」](CQD-PSTN-report.md)を参照してください。         |
+|CQD の概要レポート.pbit     |視覚化の向上、プレゼンテーションの改善、情報密度の向上、およびローリング日付。 これらのレポートを使用すると、外れ値を識別しやすくなります。 使いやすい対話型マップを使用して、場所ごとの通話品質を掘り下がります。 9 つの新しいレポート:</p>- 全体的な品質<br>- 信頼性全体<br>- RMC (通話のレート) 全体<br>- 会議の品質<br>- P2P 品質<br>- 会議の信頼性<br>- P2P の信頼性<br>- 電話会議 RMC<br>- P2P RMC         |
+|<strong>(New!)</strong>CQD Teams使用率レポート.pbit     | 組織内のユーザーがTeamsを使用している方法と量を示します。 レポート エクスペリエンスを最大限に高めるために、必ず建物データをアップロードしてください。 詳細については、「[CQD Power BI レポートを使用してMicrosoft Teams使用率を表示する」を](CQD-teams-utilization-report.md)参照してください。        |
+|CQD ユーザー フィードバック (通話のレート) Report.pbit     | 組織の呼び出しをサポートするために簡単に使用できる方法で、通話率データを表示します。 エンド ユーザー教育の機会を特定するための詳細を含む相互参照。        |
 
 > [!TIP]
-> CQD データ用にPower BIレポートを設定したら、それらをタブとしてチャネルに追加します。 チャネルで選択 **+** した後、[Power BI]を選択し、レポートを検索します。 詳細については、「レポートを埋め[込む」を参照Power BIタブを参照Teams。](/power-bi/service-embed-report-microsoft-teams) これらのレポートにアクセスできるのは、Power BIと CQD 管理者の資格情報を持つユーザーのみです。
+> CQD データのPower BI レポートを設定したら、チャネルにタブとして追加します。 チャネルで選択 **+** した後、**Power BI** を選択し、レポートを見つけます。 詳細については、Teamsの [[Power BI] タブでレポートを埋め込む方法に関するページを参照](/power-bi/service-embed-report-microsoft-teams)してください。 これらのレポートにアクセスできるのは、Power BI ライセンスと CQD 管理者資格情報を持つユーザーのみです。
 
 
 ## <a name="related-topics"></a>関連項目

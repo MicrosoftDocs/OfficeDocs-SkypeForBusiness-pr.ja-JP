@@ -1,5 +1,5 @@
 ---
-title: Teams Rooms デバイスを管理されたサービスの Microsoft Teams Rooms プレミアム登録する
+title: Microsoft Teams Rooms Premium マネージド サービスにTeams Rooms デバイスを登録する
 author: v-smandalika
 ms.author: v-smandalika
 manager: serdars
@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 管理対象サービスの Microsoft Teams Rooms に Microsoft Teamsアカウントプレミアムについて説明します。
+description: マネージド サービスにMicrosoft Teams RoomsアカウントMicrosoft Teams Rooms Premium登録する方法について説明します。
 f1keywords: ''
 ms.openlocfilehash: d00c4f84447e8ba41f0328cca9b907db45e8fdb7
 ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
@@ -24,23 +24,23 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 03/07/2022
 ms.locfileid: "63070416"
 ---
-# <a name="enroll-a-device-in-the-microsoft-teams-rooms-premium-managed-service"></a>管理対象サービスの Microsoft Teams Rooms プレミアムデバイスを登録する
+# <a name="enroll-a-device-in-the-microsoft-teams-rooms-premium-managed-service"></a>Microsoft Teams Rooms Premium マネージド サービスにデバイスを登録する
 
-Teams Rooms プレミアム マネージド サービスに Microsoft Teams Rooms デバイスを登録するには、1 人または複数のユーザーを管理対象サービス管理者に割り当て、そのユーザーを使用して登録手順を完了する必要があります。
+Teams Rooms プレミアムマネージド サービスにMicrosoft Teams Rooms デバイスを登録するには、1 人以上のユーザーをマネージド サービス管理者に割り当て、そのユーザーを使用して登録手順を完了する必要があります。
 
-## <a name="assign-users-to-the-managed-service-administrator-role"></a>管理対象サービス管理者ロールにユーザーを割り当てる
+## <a name="assign-users-to-the-managed-service-administrator-role"></a>マネージド サービス管理者ロールにユーザーを割り当てる
 
 マネージド サービス管理者ロールにユーザーを割り当てるには、次の手順を実行します。
 
-1. Teams にログインプレミアム管理者特権で Teams [Rooms](https://portal.rooms.microsoft.com/) ポータルにログインMicrosoft 365 管理センター。
-2. [**設定** > **設定** > **Roles] に移動し**、[マネージド サービス管理者 **] を選択します**。
-3. [ **管理対象サービス管理者] で、[** 割り当て] タブ **を選択** し、[追加] を **選択します**。
-4. ウィザードに従って割り当ての名前を付け、追加する必要があるユーザーを選択します。 課題は、すべてのルームとルーム グループに適用されます。
-5. 割り当てウィザードの最後で、[割り当ての追加 **] を選択します**。
+1. Microsoft 365 管理センターへのログインに使用したのと同じ管理者特権で、Teams Rooms プレミアム [ポータル](https://portal.rooms.microsoft.com/)にログインします。
+2. **設定** > **設定** > **Roles** に移動し、**マネージド サービス管理者** を選択します。
+3. **[マネージド サービス管理者**] で [**割り当て**] タブを選択し、[**追加**] を選択します。
+4. ウィザードに従って割り当ての名前を指定し、割り当てに追加するユーザーを選択します。 割り当ては、すべての会議室とルーム グループに適用されます。
+5. 割り当てウィザードの最後で、[割り当 **ての追加**] を選択します。
 
-マネージド サービス管理者ロールが割り当てられているユーザーは、マネージド サービス ポータルの Teams Rooms プレミアムの管理と監視を担当します。
+マネージド サービス管理者ロールが割り当てられているユーザーは、Teams Rooms プレミアムマネージド サービス ポータルの日常的な管理と監視を担当します。
 
-管理対象サービス管理者ロールにユーザーを割り当てた後は、[Teams Rooms](enroll-a-device.md) デバイスの登録に進み、Teams Rooms デバイスをマネージド サービス ポータルに追加します。
+マネージド サービス管理者ロールにユーザーを割り当てた後は、[Teams Rooms デバイスの登録](enroll-a-device.md)に進み、Teams Rooms デバイスをマネージド サービス ポータルに追加します。
 
 <!-- ## Enroll a Teams Rooms device
 

@@ -7,26 +7,31 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: 組織をオンプレミスのデプロイからMicrosoft Teams移行するSkype for Business説明します。
+description: Skype for Businessのオンプレミス展開から組織をMicrosoft Teamsに移行する方法について説明します。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
-  - CSH
+- CSH
 ms.custom:
-  - Teams-upgrade-guidance
-  - seo-marvel-apr2020
+- Teams-upgrade-guidance
+- seo-marvel-apr2020
 ms.collection:
-  - Teams_ITAdmin_JourneyFromSfB
-  - M365-collaboration
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: ff82f4e36332f138e67156ca450fc6071c28d234
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62419320"
 ---
-
-# <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>オンプレミスのデプロイSkype for BusinessからデプロイにアップグレードTeams
+# <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>Skype for BusinessのオンプレミスデプロイからTeamsにアップグレードする
 
 ![「展開と実装」段階が強調表示された、アップグレード行程の各段階。](media/upgrade-banner-deployment.png "「展開と実装」段階が強調表示された、アップグレード行程の各段階")
 
-この記事は、アップグレード体験のデプロイと実装のステージの一部です。 先に進む前に、次のアクティビティを完了していることを確認してください。
+この記事は、アップグレード体験のデプロイと実装の段階の一部です。 先に進む前に、次のアクティビティを完了していることを確認してください。
 
 - [プロジェクトの関係者をリスト化した](upgrade-enlist-stakeholders.md)
 - [プロジェクトの対象範囲を定義した](./upgrade-define-project-scope.md)
@@ -36,7 +41,7 @@ appliesto:
 - [組織を準備した](./upgrade-prepare-organization.md)
 - [パイロットを実施した](./pilot-essentials.md)
 
-Skype for Business または Microsoft Lync をオンプレミスに展開し、組織が複数の共存モードを使用して選択的に Microsoft Teams にアップグレードする場合、またはすべて使用する場合は、この記事のガイダンスに従います。 
+Skype for Businessまたは Microsoft Lync をオンプレミスに展開し、組織が複数の共存モードを使用して選択的にMicrosoft Teamsにアップグレードする場合は、この記事のガイダンスに従ってください。 
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
@@ -45,22 +50,22 @@ Skype for Business または Microsoft Lync をオンプレミスに展開し、
 
 ユーザーを Teams にアップグレードする際の重要な前提条件は、ハイブリッド接続を展開することです。
 
-詳細については、「Deploy [hybrid connectivity between Skype for Business Server and Skype for Business Online 」を参照してください。](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)
+詳細については、「[Skype for Business Serverと Skype for Business Online の間のハイブリッド接続のデプロイ](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)」を参照してください。
 
 ## <a name="step-2-implement-your-chosen-upgrade-journey-for-your-organization"></a>手順 2: 選択したアップグレード体験を組織に実装する
 
-ハイブリッドセットアップが完了したら、ユーザーを別のユーザーに移行Microsoft 365またはOffice 365。
+ハイブリッドセットアップが完了したら、ユーザーをMicrosoft 365またはOffice 365に移動することを計画できます。
 
 詳細については、次を参照してください:
 
 - [TeamsUpgradePolicy: 移行と共存の管理](upgrade-to-teams-on-prem-tools.md)。
 
-- [オンプレミスからオンラインにユーザーをSkype for Businessします](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)。
+- [オンプレミスから Skype for Business Online にユーザーを移動します](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)。
 
 ## <a name="phone-system-and-teams-upgrade"></a>電話システムと Teams のアップグレード
 
-オンプレミスの電話システムから Teams に移行すると、電話システム ダイレクト ルーティング ("ダイレクト ルーティング") または Microsoft が提供する Microsoft 365 または Office 365 の通話プランを利用できます。
+オンプレミスの電話システムからTeamsに移行すると、電話システムダイレクト ルーティング ("ダイレクト ルーティング") またはMicrosoft 365またはOffice 365用の Microsoft 提供の通話プランを利用できます。
 
-通話プランを使用していない場合は、アップグレードの一環として、エンタープライズ音声展開を 電話システム 直接ルーティングに移行する必要Teams。
+通話プランを使用していない場合は、Teamsへのアップグレードの一環として、エンタープライズ音声展開を電話システムダイレクト ルーティングに移行する必要があります。
 
-詳細については、「ダイレクト ルーティング[の追加の考慮事項電話システム参照してください](./direct-routing-landing-page.md)。 通話プランを使用する予定の場合は、電話番号を通話プランに移行する方法に関するガイダンス[Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
+詳細については、[電話システム ダイレクト ルーティングに関するその他の考慮事項を](./direct-routing-landing-page.md)参照してください。 通話プランを使用する予定の場合は、[電話番号をTeamsに転送するためのガイダンスを](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)参照してください。

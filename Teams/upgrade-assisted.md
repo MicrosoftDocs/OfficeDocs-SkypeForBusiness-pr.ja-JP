@@ -1,5 +1,5 @@
 ---
-title: 支援付きアップグレード|Skype Business Online をアップグレードTeamsする
+title: アップグレードのサポート|Teams アップグレードに Business Online をSkypeする
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: billkau
 audience: admin
-description: Skype for Business Online から Teams への支援付きアップグレードの概要
+description: Skype for Business Online から Teams へのアップグレードの概要
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -25,45 +25,45 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 03/25/2022
 ms.locfileid: "64456890"
 ---
-# <a name="assisted-upgrades-from-skype-for-business-online-to-microsoft-teams"></a>Skype for Business Online から Microsoft Teams への支援付きMicrosoft Teams
+# <a name="assisted-upgrades-from-skype-for-business-online-to-microsoft-teams"></a>Skype for Business Online から Microsoft Teams へのアップグレードの支援
 
-Microsoft は、Skype for Business 2021 年 7 月 31 日に Microsoft Online の提供を終了しました。  Microsoft は、組織がオンライン ユーザーの残りのユーザーを [オンラインのみ] Skype for Business移行するための支援Teams提供しています。  Microsoft の支援によるアップグレードでは、次の組織に関係なく、技術タスクの数を減らし、Skype for Business Online を使用せずに世界への移行を簡素化します。
- - Skype for Business *Online* からアップグレードして、純粋な組織Teamsする必要がある純粋なオンライン組織。
- - *Skype for Business Online とオンプレミスの Skype for Business Server*  環境の両方にユーザーを含むハイブリッド組織。Skype for Business *Online* ユーザーのみを Teams にアップグレードする必要があります。
+Microsoft は、2021 年 7 月 31 日に Skype for Business Online を廃止しました。  Microsoft は、組織が残りのオンライン ユーザーを Teams のみSkype for Business移行できるように、アップグレード プロセスを支援しています。  Microsoft が支援するアップグレードにより、技術的なタスクの数が減り、組織が次の場合、Skype for Business Online なしで世界への移行が簡略化されます。
+ - Skype for Business Online から純粋なTeamsのみになるようにアップグレードする必要がある純粋な *オンライン* 組織、または
+ - *Skype for Business Online* **と** オンプレミスの *Skype for Business Server* 環境の両方にユーザーを含むハイブリッド組織。Skype for Business *Online* ユーザーのみを Teams のみにアップグレードする必要があります。
 
-アップグレードの前に、アップグレードガイダンス [を確認](https://aka.ms/SkypeToTeams) することをお勧めします。 アップグレード ガイダンスには、推奨されるアクティビティと、Skype for Business Online から Teams へのアップグレードを完了するための役に立つリソースが含まれています。 このガイダンスは、アップグレードのすべての側面を管理するか、支援されたプロセスを使用Teams、Teams へのアップグレードを計画しているすべての組織に適用されます。
+アップグレードする前に [、アップグレードガイダンス](https://aka.ms/SkypeToTeams) を確認することをお勧めします。 アップグレード ガイダンスには、Skype for Business Online から Teams へのアップグレードを完了するための推奨アクティビティと役立つリソースが含まれています。 このガイダンスは、アップグレードのすべての側面を管理するか、支援されたプロセスを使用するかに関係なく、Teamsへのアップグレードを計画しているすべての組織に適用されます。
 
-## <a name="the-assisted-upgrade-experience"></a>支援されたアップグレード エクスペリエンス
-Skype for Business Teams へのアップグレードを支援する予定のオンラインのお客様は、Microsoft 365 メッセージ センターでの投稿の変更、Teams 管理センターでのダッシュボード通知のアップグレード、エンド ユーザーへのアプリ内フラグなど、さまざまな形式の通知を受け取ります。 メッセージ センターと Teams 管理センターのアップグレード通知には、サポートされたアップグレードのスケジュールされた日付と、Teams の導入と使用を促進するためのリソースとトレーニングをアップグレードするためのリンクが含まれます。
+## <a name="the-assisted-upgrade-experience"></a>アップグレード支援エクスペリエンス
+Teamsへのアップグレードを支援するようにスケジュールされているSkype for Business Online のお客様には、Microsoft 365 メッセージ センターでの *変更の投稿の計画*、Teams管理センターでのダッシュボード通知のアップグレード、エンド ユーザーへのアプリ内フラグなど、さまざまな形式の通知が表示されます。 メッセージ センターとTeams管理センターのアップグレード通知には、アップグレードのスケジュールされた日付と、Teamsの導入と使用を促進するためのアップグレード リソースとトレーニングへのリンクが含まれます。
 
-アップグレードの支援のエクスペリエンスは、組織にオンプレミスの環境にユーザーが所属しているかどうかによって少しSkype for Business Serverされます。
-- **純粋なオンライン組織:** Busineess Server  `TeamsUpgradeOverridePolicy` ユーザー向Skypeオンプレミスのアプリケーションがない組織の場合、支援されたアップグレード プロセスによって組織にポリシーが適用されます。 このポリシーを適用すると、Skype for Business Online のすべてのユーザーが TeamsOnly モードになります。
-- **オンプレミスの Skype for Business** ユーザーを持つハイブリッド組織: これには、ハイブリッドが構成されているかどうかに関係なく、Skype for Business Server にホームしているユーザーを持つ組織が含まれます。 これらの組織には、次のいずれかのカテゴリに分類されるユーザーが含まれます。
+アップグレードを支援するエクスペリエンスは、組織にオンプレミスのSkype for Business Server環境にユーザーが所属しているかどうかによって若干異なります。
+- **純粋なオンライン組織:** Busineess Server ユーザーのオンプレミス Skype *がない* 組織の場合、支援されたアップグレード プロセスによってポリシーが`TeamsUpgradeOverridePolicy`組織に適用されます。 このポリシーが適用されると、Skype for Business Online のすべてのユーザーが TeamsOnly モードになります。
+- **オンプレミス Skype for Business ユーザーを含むハイブリッド組織:** これには、ハイブリッドが構成されているかどうかに関係なく、Skype for Business Serverに所属するすべてのユーザーを持つ組織が含まれます。 これらの組織には、次のいずれかのカテゴリに分類されるユーザーが存在する場合があります。
 
-  - Skype for Business Server にホームされたオンプレミス ユーザー (Teams を使用する場合と使用しない場合Teamsユーザーのみ)
-  - Skype for Business Online にホームを持つ TeamsOnly ユーザー
-  - Skype for Business Online にホームされている Teams 以外のユーザー
+  - Skype for Business Serverに所属するオンプレミス ユーザー (Teamsを使用する場合と使用しない場合がありますが、ユーザーのみTeamsされません)
+  - Skype for Business Online に所属している TeamsOnly ユーザー
+  - Skype for Business Online に所属している TeamsOnly 以外のユーザー
 
-支援されたアップグレード プロセスは、ユーザーの最後のカテゴリにのみ影響を与えます。Skype for Business Online にホームされている非 Teams ユーザーのみ、Teams のみモードにアップグレードされます。 オンプレミスのSkype for Businessユーザーと既存の TeamsOnly ユーザーは、支援されたアップグレード プロセスの影響を受け取る必要はありません。
+アップグレード支援プロセスは、ユーザーの最後のカテゴリにのみ影響します。非Teams オンラインに所属しているユーザーのみが Skype for Business Teamsのみモードにアップグレードされます。 オンプレミス Skype for Business ユーザーと既存の TeamsOnly ユーザーは、アップグレード の支援プロセスの影響を受けません。
 
 > [!NOTE]
-> アップグレードが完了するまで、Skype for Business Online を引き続き使用できます。 Teams への支援付きアップグレードをスケジュールしている場合は、スケジュールされたアップグレード日の前に Skype for Business Online から独自のアップグレードを実行できます。 アプリケーションに手動でアップグレードする方法の詳細については、Teamsガイダンスを[参照してください](https://aka.ms/SkypeToTeams)。
+> アップグレードが完了するまで、組織は引き続き Skype for Business Online を使用できます。 Teamsへのアップグレードを支援する予定の場合は、スケジュールされたアップグレード日の前に、Skype for Business Online から独自のアップグレードを実行できます。 Teamsに手動でアップグレードする方法の詳細については、[アップグレードガイダンス](https://aka.ms/SkypeToTeams)を参照してください。
 
-アップグレードの期間は、ユーザーの量とデプロイの特性によって異なります。 ほとんどの場合、テナント内のユーザーは、アップグレードの開始から 24 時間以内にアップグレードされます。 この間、エンド ユーザーは引き続きオンライン機能Skype for Businessアクセスできます。 アップグレードが完了し、ユーザーが Skype for Business Online からサインアウトすると、メッセージング、会議、通話に Teams の使用が開始されます。
+アップグレードの期間は、ユーザーの量とデプロイの特性によって異なります。 ほとんどの場合、テナント内のユーザーは、アップグレードの開始から 24 時間以内にアップグレードされます。 この間、エンド ユーザーは引き続き Skype for Business Online 機能にアクセスできます。 アップグレードが完了し、ユーザーが Skype for Business Online からサインアウトすると、メッセージング、会議、通話にTeamsの使用が開始されます。
 
 ## <a name="the-post-upgrade-experience"></a>アップグレード後のエクスペリエンス
 
-支援付きアップグレードが完了すると、アップグレードされたユーザーの共存モードが [共存モード] Teamsされます。 アップグレードの前に、Teams[モードに関する考慮事項を確認](teams-only-mode-considerations.md)することをお勧めします。 次の表は、「ユーザー エクスペリエンスのみ」の概要Teamsを示しています。
+支援されたアップグレードが完了すると、アップグレードされたユーザーの **共存モード** が [Teamsのみ] に設定されます。 アップグレード前に[Teamsモードのみの考慮事項を](teams-only-mode-considerations.md)確認することをお勧めします。 次の表に、Teamsのみユーザー エクスペリエンスの概要を示します。
 
 :::row:::
     :::column span="1":::
         **チャットと通話**
     :::column-end:::
     :::column span="3":::
-        - すべての通話とチャットが開始され、受信Teams
-        - ユーザーは、任意のユーザーと通信 (チャット/通話) Skype for Businessできます
-        - 組織は、外部Teamsアクセス許可を管理することで、ユーザーが Skype コンシューマー サービスのユーザーと通信[できます。](manage-external-access.md)
-        - Teams Online にサインインしようとしたユーザーは、Skype for BusinessにリダイレクトTeams
+        - すべての通話とチャットは、Teamsで開始および受信されます。
+        - ユーザーは、任意のSkype for Business ユーザーと通信 (チャット/通話) できます
+        - 組織は、[外部アクセス許可](manage-external-access.md)を管理することで、Teams ユーザーがSkypeコンシューマー サービスのユーザーと通信できるようにします
+        - Skype for Business Online にサインインしようとしたユーザーがTeamsにリダイレクトTeams
     :::column-end:::
 :::row-end:::
 :::row:::
@@ -71,7 +71,7 @@ Skype for Business Teams へのアップグレードを支援する予定のオ�
         **会議**
     :::column-end:::
     :::column span="3":::
-        - ユーザーは、すべての新しい会議を Teamsスケジュールします (プラグインは置き換え)
+        - ユーザーは、Teamsのすべての新しい会議をスケジュールします (プラグインが置き換えられました)
     :::column-end:::
 :::row-end:::
 :::row:::
@@ -79,17 +79,17 @@ Skype for Business Teams へのアップグレードを支援する予定のオ�
         **移行されたデータ**
     :::column-end:::
     :::column span="3":::
-        - フェデレーションを含む Skype for Business Online の既存の連絡先 (ただし、配布リストは含め)
-        - 連絡先は、ユーザーが初めてログインTeams移行されます。
+        - フェデレーションを含む Skype for Business Online からの既存の連絡先 (配布リストは含まない)
+        - ユーザーが初めてTeamsにログインすると、連絡先が移行されます。
             > [!IMPORTANT]
-            >連絡先は、アップグレードが完了した後 90 日以内に移行する必要があります。
-        - 既存の Skype for Business Online 会議は、オンライン会議にTeamsされます
+            >アップグレードが完了してから 90 日以内に連絡先を移行する必要があります。
+        - 既存のSkype for Business オンライン会議は、Teams会議に変換されます
             > [!IMPORTANT]
-            > 純粋な Skype for Business Online 構成をお持ちのお客様は、Meeting Migration Service (MMS) を使用して、既存の Skype for Business Online 会議を別の会議にTeams必要があります。 アップグレードの支援日より前に MMS を使用することをお勧めします。 MMS の詳細については、「Meeting [Migration Service (MMS) の使用」を参照してください](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)。
+            > 純粋なSkype for Business Online 構成をお持ちのお客様は、Meeting Migration Service (MMS) を使用して、既存のSkype for Business Online 会議をTeams会議に移行する必要があります。 アップグレードを支援する日付より前に MMS を使用することをお勧めします。 MMS の詳細については、「 [会議移行サービス (MMS) の使用](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)」を参照してください。
     :::column-end:::
 :::row-end:::
 
-ハイブリッド デプロイをSkype for Business Serverして Teams にアップグレードする場合は、アップグレードが完了した後、Skype for Business Server と Teams の間でユーザーを移動できます。
+Skype for Business Serverハイブリッド展開があり、Teamsにアップグレードする場合は、アップグレード完了後にユーザーをSkype for Business ServerとTeamsの間で移動できます。
 
 ## <a name="related-content"></a>関連コンテンツ
 

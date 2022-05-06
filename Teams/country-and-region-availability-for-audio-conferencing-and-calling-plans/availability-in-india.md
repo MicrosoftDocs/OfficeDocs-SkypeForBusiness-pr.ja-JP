@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: インドで使用できるMicrosoft 365およびOffice 365サービスのSkype for BusinessとMicrosoft Teamsを次に示します。
+description: インドで利用可能なSkype for BusinessとMicrosoft TeamsのMicrosoft 365サービスとOffice 365 サービスを次に示します。
 ms.openlocfilehash: 8a6a3878e2dcafafd03be7ea3e75316083d12d42
 ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
@@ -36,13 +36,13 @@ ms.locfileid: "62191118"
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-インドで使用できるMicrosoft 365およびOffice 365サービスのSkype for BusinessとMicrosoft Teamsを次に示します。
+インドで利用可能なSkype for BusinessとMicrosoft TeamsのMicrosoft 365サービスとOffice 365 サービスを次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|電話会議は購入できますか?  <br/> |Microsoft は、インドでは電話会議を販売しない。 TATA Communications は、会議に対応したダイヤルインおよびダイヤルアウト サービスMicrosoft Teamsしています。 詳細については [、TATA Communications の Web サイト を参照してください](https://www.tatacommunications.com/for-you/tata-communications-connections-for-microsoft-teams/)。   <br/> |
+|電話会議は購入できますか?  <br/> |Microsoft はインドでは電話会議を販売していません。 TATA Communications では、Microsoft Teams会議と互換性のあるダイヤルインおよびダイヤルアウト サービスを提供しています。 詳細については、 [TATA Communications の Web サイト](https://www.tatacommunications.com/for-you/tata-communications-connections-for-microsoft-teams/)を参照してください。   <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> |次の場合は、はい:<br/><ul><li> ムンバイ</ul>専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)」をご覧ください。  <br/> |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> |利用可能  <br/> |
 
@@ -63,17 +63,17 @@ ms.locfileid: "62191118"
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
 
-通話プランを購入できない場合は、利用可能なすべてのオプションの [PSTN](../pstn-connectivity.md) 接続オプションに関するページを参照してください。
+通話プランを購入できない場合は、使用可能なすべての [オプションについて PSTN 接続オプション](../pstn-connectivity.md) を参照してください。
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |<ul><li>チェンナイ</li><li>ムンバイ<li>要求に応 [じて他の都市](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)</ul> |
+|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |<ul><li>チェンナイ</li><li>ムンバイ<li>その他 [の都市 (要求時)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)</ul> |
 |有料電話番号は使用できますか?  <br/> |はい  <br/> |
 |無料電話番号は使用できますか?  <br/> |はい  <br/> |
 
- インドでは、サービス番号は電話会議にのみ使用できます。 そのため、電話会議の有料電話番号と無料電話番号を取得する場合は、電話会議と電話会議のサービス電話番号の取得に関するSkype for Business[を](../getting-service-phone-numbers.md)Microsoft Teams。
+ インドでは、サービス番号は電話会議にのみ使用できることに注意してください。 そのため、電話会議の有料電話番号とフリーダイヤル電話番号を取得する場合は、「[Skype for BusinessとMicrosoft Teamsのサービス電話番号を取得する](../getting-service-phone-numbers.md)」を参照してください。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 
@@ -83,7 +83,7 @@ ms.locfileid: "62191118"
 
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

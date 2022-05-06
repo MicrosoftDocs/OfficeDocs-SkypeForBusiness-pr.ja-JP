@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ルーマニアで利用できるSkype for BusinessとMicrosoft Teamsサービスを次に示します。
+description: ルーマニアで利用できるSkype for BusinessとMicrosoft Teamsのサービスを次に示します。
 ms.openlocfilehash: 101b240bd79aa7ef867e4dd5a26452a28676759d
 ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "58618603"
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ルーマニアで使用Microsoft 365およびOffice 365のSkype for BusinessとMicrosoft Teamsサービスを次に示します。
+ルーマニアで利用できるSkype for BusinessとMicrosoft TeamsのMicrosoft 365サービスとOffice 365 サービスを次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -60,9 +60,9 @@ ms.locfileid: "58618603"
 |**機能**|**詳細**|
 |:-----|:-----|
 |通話プランは購入できますか?  <br/> |はい  <br/> |
-|通話プランで利用できる分数。 |予定表の月ごとに使用できるプラン オプションは 4 種類です。 <ul><li>120 分国内通話プラン </li><li>240 分国内通話プラン</li></li><li>1200 分国内通話プラン </li></li><li>国内通話プランと国際通話プラン: 国内通話の 1200 分 -OR - 600 分の国際通話 (カレンダー月の最初に到達した方)</li></li></ul>Microsoft Teams [Prezentare generalのアクセシビリティのサポート Microsoft Teams - Asisten Office](https://support.microsoft.com/ro-ro/office/prezentare-general%C4%83-accesibilitate-a-microsoft-teams-2d4009e7-1300-4766-87e8-7a217496c3d5?ui=ro-RO&rs=ro-RO&ad=RO)<br>[MicrosoftOnlineServicesTerms(WW)(ルーマニア語)(February2021)](https://www.microsoft.com/licensing/terms/productoffering/AudioServices/EAEAS#GeneralServiceTerms)|
-|Premium 番号への発信呼び出しはできますか?  <br/> | 現時点ではサポートされていません。 <br/> |
-|発信通話を行うことができますか?  <br/> | [これらの国を含む](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 の国に通話を発信できます。<br/> |
+|通話プランで利用できる分数。 |カレンダー月には、次の 4 つのプラン オプションがあります。 <ul><li>120 分国内通話プラン </li><li>240 分国内通話プラン</li></li><li>1200 分国内通話プラン </li></li><li>国内通話と国際通話プラン: 国内通話の 1200 分 -OR- 国際通話の 600 分 (暦月の最初に到達した方)</li></li></ul>Microsoft Teams [Prezentare generală accesibilitate a Microsoft Teamsのアクセシビリティサポート - Asistență Office](https://support.microsoft.com/ro-ro/office/prezentare-general%C4%83-accesibilitate-a-microsoft-teams-2d4009e7-1300-4766-87e8-7a217496c3d5?ui=ro-RO&rs=ro-RO&ad=RO)<br>[MicrosoftOnlineServicesTerms(WW)(ルーマニア語)(2021 年 2 月)](https://www.microsoft.com/licensing/terms/productoffering/AudioServices/EAEAS#GeneralServiceTerms)|
+|プレミアム番号に対して発信通話を行うことはできますか?  <br/> | 現時点ではサポートされていません。 <br/> |
+|発信できる相手先  <br/> | [これらの国を含む](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 の国に通話を発信できます。<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 
@@ -82,7 +82,7 @@ ms.locfileid: "58618603"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

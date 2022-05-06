@@ -1,5 +1,5 @@
 ---
-title: 演算子Connect
+title: オペレーター接続
 author: cazawideh
 ms.author: czawideh
 manager: serdars
@@ -15,7 +15,7 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: デプロイの要件やConnectなど、オペレーターの管理方法の詳細を確認します。
+description: オペレーター接続の詳細 (要件やデプロイの計画など) について説明します。
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
@@ -28,35 +28,35 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 10/09/2021
 ms.locfileid: "60249669"
 ---
-# <a name="plan-for-operator-connect"></a>オペレーター サービスのConnect
+# <a name="plan-for-operator-connect"></a>オペレーター接続の計画
 
-オペレーター Connectは、PSTN (公衆交換電話網) と通信ネットワークとの接続を提供するためのTeamsオプション電話システム。 音声ソリューションと PSTN Teamsオプションの詳細については、「音声ソリューションと PSTN 接続オプションTeams[計画](cloud-voice-landing-page.md)する[」を参照してください](pstn-connectivity.md)。
+オペレーター接続は、Teamsと電話システムに公衆交換電話網 (PSTN) 接続を提供するためのもう 1 つのオプションです。 Teams音声ソリューションと PSTN 接続オプションの詳細については、「[Teams音声ソリューション](cloud-voice-landing-page.md)と [PSTN 接続オプション](pstn-connectivity.md)を計画する」を参照してください。
 
-この記事では、特典と要件について説明し、Microsoft Operator Connect Program に参加しているオペレーターへのリンクを提供します。  組織に適切なソリューションConnect Operator Connect決定した場合は、この記事を読んだ後、「Configure Operator Connect 」[を参照してください](operator-connect-configure.md)。  
+この記事では、利点と要件について説明し、Microsoft オペレーター接続 プログラムに参加しているオペレーターへのリンクを提供します。  組織に適したソリューションオペレーター接続決定した場合は、この記事を読んだ後、「[オペレーター接続の構成」を](operator-connect-configure.md)参照してください。  
 
 ## <a name="benefits"></a>利点
 
-オペレーター Connectを使用すると、既存のオペレーターが Microsoft Operator Connect Program に参加している場合、PSTN 通話を Teams に持ち込むサービスを管理できます。 Operator Connect プログラムには、次の利点があります。
+オペレーター接続を使用すると、既存のオペレーターが Microsoft オペレーター接続 プログラムの参加者である場合、PSTN 通話をTeamsに持ち込むサービスを管理できます。 オペレーター接続 プログラムには、次の利点があります。
 
-- **既存のコントラクトを活用するか、新しい演算子を見つける。** 希望するオペレーターと契約を維持するか、ビジネス ニーズに合わせて、参加しているオペレーターの選択から新しいオペレーターを選択します。
+- **既存のコントラクトを活用するか、新しい演算子を見つけます。** 希望するオペレーターと契約を保持するか、ビジネス ニーズを満たすために参加しているオペレーターの選択から新しいオペレーターを選択します。
 
-- **オペレーターが管理するインフラストラクチャ。** オペレーターが PSTN 通話サービスとセッション ボーダー コントローラー (SBC) を管理し、ハードウェアの購入と管理を節約できます。
+- **オペレーターが管理するインフラストラクチャ。** オペレーターは PSTN 通話サービスとセッション ボーダー コントローラー (SBC) を管理し、ハードウェアの購入と管理を節約できます。
 
-- **デプロイの高速化、簡単。** オペレーターにすばやく接続し、電話番号をユーザーに割り当て、管理センターからTeamsできます。
+- **デプロイを高速化し、簡単に行います。** オペレーターにすばやく接続し、電話番号をユーザーに割り当てることができます(すべてTeams管理センターから)。
 
-- **サポートと信頼性の強化。** オペレーターは、サポート サービスを向上させるためにテクニカル サポートと共有サービス レベル アグリーメントを提供しますが、Azure を利用した直接ピアリングでは、信頼性を向上させるために 1 対 1 のネットワーク接続が作成されます。
+- **サポートと信頼性の強化。** オペレーターは、サポート サービスを向上させるためにテクニカル サポートと共有サービス レベル アグリーメントを提供しますが、Azure を利用した直接ピアリングでは、信頼性を高めるために 1 対 1 のネットワーク接続が作成されます。
 
 ## <a name="requirements"></a>要件
 
- オペレーター Connectは、次の場合に組織に適切なソリューションになる可能性があります。
+ オペレーター接続は、次の場合に組織に適したソリューションである可能性があります。
 
 - Microsoft 通話プランは、地理的な場所では利用できません。
-- お好みのオペレーターは、Microsoft Operator Connect Program の参加者です。
-- 呼び出しを有効にする新しい演算子を検索するには、Teams。
+- 優先演算子は、Microsoft オペレーター接続 プログラムの参加者です。
+- Teamsでの呼び出しを有効にする新しい演算子を見つける必要があります。
 
-オペレーター アカウントで電話番号の割り当てを有効Connect、ユーザーが次の条件を持つ必要があります。
+オペレーター接続で電話番号の割り当てを有効にするには、ユーザーが次のユーザーであることを確認します。
 
-- Teams 電話ライセンスされています。 詳細については、「What [is 電話システム?」](what-is-phone-system-in-office-365.md)および「Teams アドオン ライセンスをユーザーに割り当[てる」を参照してください](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
-- TeamsOnly モード。 ユーザーは TeamsOnly モードである必要がありますが、組織全体で行う必要があります。 詳細については、「共存と相互[運用性のMicrosoft Teams Skype for Business」を参照してください](teams-and-skypeforbusiness-coexistence-and-interoperability.md)。
+- ライセンスTeams 電話。 詳細については、「[電話システムとは」](what-is-phone-system-in-office-365.md)と「ユーザーに[アドオン ライセンスTeams割り当てる」を](teams-add-on-licensing/assign-teams-add-on-licenses.md)参照してください。
+- TeamsOnly モード。 ユーザーは TeamsOnly モードである必要がありますが、組織全体ではそうではありません。 詳細については、「[Microsoft TeamsとSkype for Business共存と相互運用性について理解](teams-and-skypeforbusiness-coexistence-and-interoperability.md)する」を参照してください。
 
-Microsoft Operator Connect Program に参加しているオペレーターと、そのサービスを利用できる国または地域の一覧については、「Microsoft 365 [Operator Connect」を参照してください](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory)。
+Microsoft オペレーター接続 プログラムに参加しているオペレーターとそのサービスが利用可能な国または地域の一覧については、[Microsoft 365 オペレーター接続 ディレクトリ](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory)を参照してください。

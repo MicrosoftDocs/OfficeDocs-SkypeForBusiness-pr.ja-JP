@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: ドイツの無料電話番号にダイヤルする方法 (空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限など) について学習します。
+description: 可用性、有線/固定回線、モバイル ネットワークの可用性、制限など、ドイツでのフリーダイヤル番号のダイヤルについて説明します。
 ms.openlocfilehash: 6a2328c34d38825432783f76a36a204a0b6dc1aa
 ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT

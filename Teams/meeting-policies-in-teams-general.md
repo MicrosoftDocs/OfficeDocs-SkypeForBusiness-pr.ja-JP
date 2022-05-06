@@ -191,7 +191,7 @@ AllowMeetingReactions 設定は、PowerShell を使用してのみ適用でき�
 この設定を使用すると、ユーザーは Teams 会議中にスピーチ コーチを有効にすることができます。 スピーチ コーチは、プレゼンテーション中にユーザーの音声に耳を傾け、改善のためのプライベートなリアルタイムのフィードバックと提案を提供します。 また、ユーザーは、会議の後にフィードバックの要約レポートを取得します。
 
 > [!NOTE]
-> 会議中にスピーチ コーチを有効にしたユーザーだけが、フィードバックの要約レポートを表示できます。 管理者は、このデータに全くアクセスできません。
+> 会議中にスピーチ コーチをオンにしたユーザーだけが、フィードバックの概要レポートを表示できます。管理者は、このデータにアクセスできません。
 
 現時点では、PowerShell でのみこのポリシーを設定および編集できます。 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) コマンドレットを使用します。 または、[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) コマンドレットを使用して、新しい Teams の会議ポリシーを作成し、ユーザーに割り当てます。
 

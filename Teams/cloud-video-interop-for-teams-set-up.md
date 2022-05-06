@@ -28,7 +28,7 @@ ms.locfileid: "58732956"
 
 [クラウド ビデオ相互運用パートナーを選択](cloud-video-interop.md)した後は、展開を計画し、プロビジョニングの詳細とパートナーのテナント キーを使用して設定を行い、組織のビデオ相互運用アプリに同意する必要があります。 この手順を次の図に示します。 
 
-![組織内での CVI のデプロイ。](media/deploying-cvi.png)
+![組織内に CVI を展開する。](media/deploying-cvi.png)
 
 ## <a name="plan"></a>計画
 

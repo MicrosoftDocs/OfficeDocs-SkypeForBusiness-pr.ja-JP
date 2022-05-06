@@ -46,7 +46,7 @@ Microsoft Teams Rooms の展開は、基本的に次のフェーズに分けら�
 |  &nbsp;  | &nbsp;    |
 |-----------|------------|
 | ![サイトを確認します。](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>サイトが Microsoft Teams Rooms の重要な要件を満たしていることを確認します。</li><li>各サイトに十分な帯域幅があることを確認します。</li></ul>| 
-| ![デバイスの展開を計画します。](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>デバイスの展開と構成の計画を開始します。</li></ul>| 
+| ![デバイスの展開を計画します。](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>デバイスの展開と構成の計画を開始します。</li></ul>| 
 
 ## <a name="service-readiness"></a>サービスの準備
 
@@ -72,7 +72,7 @@ Microsoft Teams Rooms のアカウントの詳細については、「[Microsoft
 |  &nbsp;  |  &nbsp;   |
 |-----------|------------|
 | ![シナリオのサポート。](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>サポートするシナリオを決定し、Microsoft Teams Roomsリソース アカウントのライセンス要件を特定します。</li></ul>| 
-| ![ホスト マシンを準備します。](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>マシン アカウントとリソース アカウントをホストする準備をします。</li></ul>| 
+| ![ホスト マシンを準備します。](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>マシン アカウントとリソース アカウントをホストする準備をします。</li></ul>| 
 
 
 _リソース アカウント計画テーブルMicrosoft Teams Rooms例_
@@ -120,7 +120,7 @@ PowerShell を使用すると、構成情報の取得や設定など、いくつ
 |  &nbsp;  | &nbsp;    |
 |-----------|------------|
 | ![名前付け規則を決定します。](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Microsoft Teams Roomsリソース アカウントの名前付け規則を決定します。</li><li>個別のアカウントを作成するか、一括プロビジョニング スクリプトを使用するかを決定します。</li></ul>| 
-| ![次の手順を実行します。](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>デバイスの展開の計画を開始します。</li></ul>| 
+| ![次の手順を実行します。](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>デバイスの展開の計画を開始します。</li></ul>| 
 
 
 ### <a name="device-software-installation"></a>デバイス ソフトウェアのインストール 
@@ -134,7 +134,7 @@ Teams Roomsは、元の機器メーカー (OEM) によって事前にインス�
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
 | ![decision points デバイスの名前付け。](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>デプロイ中に使用するMicrosoft Teams Roomsリソース アカウントの名前付け規則を決定します。</li><li>Microsoft Teams Roomsデバイスをドメインに参加させるかどうかを決定します。 </li><li>Azure Monitor を使用してMicrosoft Teams Roomsデプロイを監視するかどうかを決定します。</li> 
-| ![次の手順では、デバイスを計画します。](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>デバイスの展開手法の計画を開始します。</li></ul>| 
+| ![次の手順では、デバイスを計画します。](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>デバイスの展開手法の計画を開始します。</li></ul>| 
 
 
 ### <a name="device-deployment"></a>デバイスの展開
@@ -145,7 +145,7 @@ Microsoft Teams Roomsリソース アカウントを作成して管理する方�
 |  &nbsp;  |   &nbsp;  |
 |-----------|------------|
 | ![サイトごとの展開を管理します。](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>サイトごとの展開を管理するユーザーを決定します。</li><li> サイトにMicrosoft Teams Roomsをインストールし、構成とテストを行うリソースを特定します。</li></ul>| 
-| ![デバイス テストを開始します。](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>デバイスのテストを開始します。</li></ul>| 
+| ![デバイス テストを開始します。](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>デバイスのテストを開始します。</li></ul>| 
 
 _サンプル: 展開テーブル_
 
@@ -167,7 +167,7 @@ XML 構成ファイルの使用方法の詳細については、「[XML 構成�
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
 | ![デシジョン ポイントの構成。](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>各Microsoft Teams Rooms システムを手動で構成するか、一元管理された XML ファイル (Microsoft Teams Rooms デバイスごとに作成される 1 つのファイル) を使用するかを決定します。</li></ul>| 
-| ![次の手順のリモート アプローチ。](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>リモート管理手法を定義します。</li></ul>| 
+| ![次の手順のリモート アプローチ。](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>リモート管理手法を定義します。</li></ul>| 
 
 ### <a name="testing"></a>テスト
 

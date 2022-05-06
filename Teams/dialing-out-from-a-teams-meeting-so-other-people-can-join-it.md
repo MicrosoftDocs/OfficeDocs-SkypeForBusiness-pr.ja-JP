@@ -1,5 +1,5 @@
 ---
-title: 他のユーザーが参加できるよう会議からダイヤルアウトする
+title: 他のユーザーが参加できるように会議からダイヤルアウトする
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: 会議の開催者は、Teams アプリを使用してダイヤルアウトして、他のユーザーが自分の電話を使って同じ会議に参加する方法を学習できます。
+description: 会議の開催者は、Teams アプリを使用してダイヤルアウトして、他のユーザーが自分の携帯電話を使用して同じ会議に参加できるようにする方法を学習できます。
 ms.openlocfilehash: 13389099e936ee8b3d6a005ae808f46f48abafea
 ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
@@ -31,36 +31,36 @@ ms.locfileid: "62055837"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>他のユーザーが参加できるように Microsoft Teams 会議からダイヤル アウトする
 
-会議の開催者は、Teams アプリを使用してダイヤルアウトして、他のユーザーが自分の電話を使って同じ会議に参加できます。
+会議の開催者は、Teams アプリを使用してダイヤルアウトし、他のユーザーが自分の電話を使用して同じ会議に参加できるようにします。
 
-他のユーザーにダイヤルアウトする場合は、完全な電話番号 (国/地域コード E.164 形式を含む) を使用することをお勧めします。
+他のユーザーにダイヤルアウトする場合は、完全な電話番号 (国/地域コード - E.164 形式を含む) を使用することをお勧めします。
   
   次の点に注意してください。
 
-- ダイヤルアウトできるのは、会議に参加する場合にのみ、Teams。
-- 会議の開催者は電話会議に対して有効になっています。電話会議ライセンスが割り当てられていない場合、オンライン通話プランまたは直接ルーティングを介して、公衆交換電話網に通話を発信できます。
-- 会議の開催者には、会議からダイヤルアウトを有効にするオンライン [ダイヤルアウト ポリシーが付与されます。](/powershell/module/skype/grant-csdialoutpolicy?view=skype-ps)
+- ダイヤルアウトできるのは、Teamsを使用して会議に参加する場合のみです。
+- 会議の開催者は電話会議に対して有効になっており、電話会議のライセンスが割り当てられていない場合は、オンライン通話プランまたは直接ルーティングを介して公衆交換電話ネットワークへの通話を許可されます。
+- 会議の開催者には、 [会議からのダイヤルアウトを有効にするオンライン ダイヤルアウト ポリシーが付与されます](/powershell/module/skype/grant-csdialoutpolicy?view=skype-ps)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-ダイヤルアウトを機能する方法を次に示します。
+ダイヤルアウトを実行する方法を次に示します。
 
- **手順 1:** 会議で、[ユーザーの追加] **ボタン** の ![ [ユーザーの追加] スクリーンショットを使用します。](media/add-people-button.png) オプションを使用して、電話番号にダイヤルアウトします。
- **手順 2:** [ユーザーの招待または電話番号のダイヤル] ボックスに、国/地域コードを含む **完全な電話番号を入力** します。
+ **手順 1:** 会議で、[ **ユーザーの追加]** ボタンの [ユーザー ![の追加] スクリーンショットを使用します。](media/add-people-button.png) 電話番号にダイヤルアウトするオプション。
+ **手順 2:** [ **ユーザーの招待] ボックスまたは [電話番号のダイヤル** ] ボックスに国/地域コードを含む完全な電話番号を入力します。
   
-![[他のユーザーを招待するか、番号をダイヤルする] ボックスのスクリーンショット。](media/invite-someone-box.png)
+![[ユーザーの招待] ボックスまたは [番号のダイヤル] ボックスのスクリーンショット。](media/invite-someone-box.png)
 
 ## <a name="supported-countries-and-regions"></a>サポートされている国と地域
 
-ダイヤルアウトは一部の国と地域でのみ使用可能です。 完全な一覧については、「電話会議と通話プランの国と地域の可用性 [」を参照してください](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
+ダイヤルアウトは一部の国と地域でのみ使用可能です。 完全な一覧については、「 [電話会議プランと通話プランの国と地域の可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)」を参照してください。
 
 ## <a name="allow-users-to-dial-in"></a>ユーザーにダイヤルインを許可する
 
-ユーザーが Teams 会議にダイヤルインする方法については、「Microsoft Teams の電話会議の 電話 番号」を[参照してください](phone-numbers-for-audio-conferencing-in-teams.md)。
+ユーザーがTeams会議にダイヤルインできるようにする方法については、[Microsoft Teamsの電話会議の電話番号を](phone-numbers-for-audio-conferencing-in-teams.md)参照してください。
 
-## <a name="want-to-know-more-about-audio-conferencing"></a>電話会議の詳細については、次のページを参照してください。
+## <a name="want-to-know-more-about-audio-conferencing"></a>電話会議の詳細については、こちらをご覧ください。
 
-[電話会議を試用または購入する](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
+[電話会議の試用または購入](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 
 [Microsoft Teams アドオン ライセンス](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)

@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 可用性、有線/固定回線、モバイル ネットワークの可用性、制限など、日本の無料電話番号にダイヤルする方法について学習します。
+description: 可用性、有線/固定回線、モバイル ネットワークの可用性、制限など、国内のフリーダイヤル番号のダイヤルについて説明します。
 ms.openlocfilehash: 899e15806f09568fcb80d85fe9cd65b95a7b18a7
 ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT

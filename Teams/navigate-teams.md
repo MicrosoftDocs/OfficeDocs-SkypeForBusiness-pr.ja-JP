@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 5c87bca0eacfdc85ca39d997488a97faedaf0824
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 355737184294a93eb85c5eb473493aff2ca7fd97
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922678"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059248"
 ---
 # <a name="navigate-microsoft-teams"></a>Microsoft Teamsに移動する
 
-組織固有のパスとニーズを明確に理解できたので、次は、Microsoft Teamsとの強力なコラボレーションへの道のりを始めましょう。 次のセクションを使用して、Teams内で補完される Kaziala の機能を移動する方法について説明します。
+組織固有のパスとニーズを明確に理解できたので、次は、Microsoft Teamsとの強力なコラボレーションへの道のりを始めましょう。 次のセクションを使用して、Teams内で補完されるKaizalaの機能を移動する方法について説明します。
 
 | Kaizalaから | Teamsするには |
 |---------|-----------------------|
@@ -42,7 +42,7 @@ ms.locfileid: "64922678"
 | | [エンド ユーザーの場合](#end-user-guidance) |
 | Kaizala グループの分解| [Kaizala グループの分解](#kaizala-group-dissolution) |
 | テナント データのエクスポートをKaizalaする| [テナント データKaizalaエクスポートする](#export-kaizala-tenant-data)  |
-| 外部ユーザー (ベンダー/仕入先/パートナー) との共同作業| [仕事とTeamsにTeamsを使用して、個人的な相互運用性を使用する](#collaborating-with-external-usersvendorssupplierspartners) |
+| 外部ユーザー (ベンダー/仕入先/パートナー) との共同作業| [Teams組織外のユーザーをチャットに追加または招待する](#collaborating-with-external-usersvendorssupplierspartners) |
 
 ## <a name="getting-started"></a>はじめに
 
@@ -185,6 +185,7 @@ Kaizalaブロードキャスト グループでは、管理者はターゲット
 - 見出しを入力するか、背景色を変更するか、見出し領域の背景イメージを追加します。
 
 - [サブヘッドの追加] 領域にアナウンスの件名を入力し、メッセージの本文を入力し、[送信] ボタンを選択します。
+
     ![モバイルのお知らせ](media/kaizala-to-teams-image10.png)
 
 **手順 3**: メッセージ ブロードキャストのチャネルを選択します。
@@ -202,7 +203,7 @@ Microsoft Teamsには、Kaizalaの Out of Box Action カードに対するいく
 
 ![Teamsを使用してユーザーを引き付ける](media/kaizala-to-teams-image12.png)
 
-Teams プラットフォームを使用すると、すぐに使用できるMicrosoft 365 アプリケーションやサードパーティのアプリと共に、Microsoft Teamsに統合することで、既存の組織ツールを使用できます。 現在、Microsoft Teamsには 300 を超える外部アプリケーションが用意されています。
+Teams プラットフォームを使用すると、すぐに使用できるMicrosoft 365 アプリケーションやサードパーティのアプリと共に、Microsoft Teamsに統合することで、既存の組織ツールを使用できます。 現在、Microsoft Teamsには 800 を超える外部アプリケーションが用意されています。
 
 ### <a name="polls-surveys-and-checklists-in-teams"></a>Teamsの投票、アンケート、チェックリスト
 
@@ -282,13 +283,13 @@ Teamsを使用して、組織のトレーニングを簡単にします。 ト�
 
 3. 使用頻度と複雑さごとに、次の方法を調べます。
 
-    - [ネイティブ Microsoft Teams機能](/microsoftteams/platform/concepts/capabilities-overview)を使用して回避策を確認する
+    - ネイティブ Microsoft Teams機能を活用する
 
-    - [3P アプリ統合を使用する](deploy-apps-microsoft-teams-landing-page.md)
+    - [サード パーティのアプリ統合を使用してアプリ ストアを探索する](deploy-apps-microsoft-teams-landing-page.md)
 
     - [アプリ テンプレートを検出する](/microsoftteams/platform/samples/app-templates)
 
-    - [カスタム ソリューション開発を構築する](/microsoftteams/platform/overview)
+    - [Teams プラットフォームを使用してカスタム アプリを](/microsoftteams/platform/overview)ビルドする
 
 ## <a name="management-in-microsoft-teams"></a>Microsoft Teamsの管理
 
@@ -315,9 +316,9 @@ Kaizala管理ポータルからMicrosoft Teams管理センターに管理を切�
 | グループの作成 (組織に接続) | デスクトップ またはモバイル アプリを使用して **チームを作成** する |
 | ユーザーを一括で追加する | チームに一括でユーザーを追加する場合は、O365 グループ、O365 DLs、またはセキュリティ グループを使用してチームを作成することを検討してください |
 | ディレクトリ | チームの **検索バー** を使用して、組織内のすべてのユーザーを検索します。 検索結果には、ファイル、メッセージ、投稿も返されます |
-| Analytics (アクション カード) | **Polls**、**Surveys、** Checklistshave は、**ダウンロード可能なデータを含むレポートに組み込まれています。ジョブは、Tasksin planner の助けを借りて割り当てることもできます****。Trello、Wrike** などの他のサードパーティ製アプリ** も、Microsoft Teamsで簡単に使用できます |
+| Analytics (アクション カード) | **投票**、 **アンケート**、 **チェックリスト** には、ダウンロード可能なデータを含むレポートが組み込まれています。 ジョブは、ユーザーが利用できるTeamsのタスク アプリの助けを借りて割り当てることもできます。 その他のシナリオでは、**Trello**、**Asana** などのサードパーティ製アプリをTeams内で使用することもできます。 |
 | 拡張機能 – コネクタ | **コネクタ** が必要なチャネルのメニュー (...) からコネクタ オプションを使用します。 |
-| 分析 (利用状況) 導入レポート、使用状況レポート、アクティビティ レポート | チームの所有者は、メニュー (...) から移動してチームのレポートにアクセスし **、teamanalytics** >  を **管理** できます。 |
+| [分析 (利用状況) 導入レポート](teams-analytics-and-reports/view-analytics.md)、 [使用状況レポート](teams-analytics-and-reports/teams-usage-report.md)、 [アクティビティ レポート](teams-analytics-and-reports/user-activity-report.md) | チームの所有者は、メニュー (...) から移動してチームのレポートにアクセスし **、teamanalytics** >  を **管理** できます。 |
 
 > [!NOTE]
 > エンド ユーザー TeamsデスクトップまたはモバイルでTeamsを使用して個々のチームやチャネルを管理でき、Teams管理センターにアクセスする必要はありません。
@@ -415,20 +416,27 @@ Teamsを使用している間も、Kaizalaで企業データの制御を維持�
 
 ## <a name="collaborating-with-external-usersvendorssupplierspartners"></a>外部ユーザーとの共同作業 (Vendors/suppliers/Partners)
 
-ベンダー、サプライヤー、パートナー、その他の外部ユーザーとの共同作業は、Microsoft Teamsでこれまで以上に簡単です。 Teamsを使用すると、ユーザーは電話番号を持つ外部ユーザーを追加できます。 これはMicrosoft Teams Connectでサポートされています。 組織内のユーザーは、仕事用にTeamsを使用し、個人アカウントの相互運用性にTeamsを使用して外部ユーザーと通信できます。 Teamsの外部ユーザー コラボレーションは、個人または公式の電子メールを使用してゲスト アクセスを使用して行うこともできます。 Teamsでは、チームやチャネル間でのアナウンスのクロスポストがサポートされています。 たとえば、サプライヤーとベンダーは、個別のTeamsチャネルまたはチームにアナウンスを送信できます。 Teamsでサポートされている内容の詳細については、[チャネルにアナウンスを送信](https://support.microsoft.com/office/send-an-announcement-to-a-channel-8f244ea6-235a-4dcc-9143-9c5b801b4992)するをご覧ください。
+Microsoft Teamsは、外部の関係者と共同作業するための安全なソリューションを提供します。また、Microsoft Teams Connectを使用すると、組織外のユーザーとの共同作業がさらに簡単になります。 Teamsは、商用ユーザーが外部の商用ユーザー (つまり他の組織の商用ユーザー) とチャットできるようにします。 この特権を基に、組織外のチーム メンバーとチャットすることができます(個人アカウントTeams使用している場合でも)。 これらのアカウントは SMB によって頻繁に使用されるため、この新しい機能は外部パートナーとの関係を強化するのに役立ちます。
 
-## <a name="what-is-external-access-in-teams"></a>Teamsの外部アクセスとは
+[Ignite](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-ignite-fall-2021-innovations-coming-to-microsoft-teams/ba-p/2824127) で既に発表したように、任意のTeams ユーザーに連絡する完全なメール アドレスまたは電話番号を入力してチャットに招待し、テナントの切り替えを必要とせずに、Microsoft 個人アカウントを持つすべてのユーザーと 1 対 1 またはグループ チャットを開始できます。
 
-外部アクセスとは、ドメイン全体における Teams ユーザーが Teams で会議の検索、呼び出し、チャット、設定を行うための手段です。 外部アクセスの管理の詳細については、外部アクセスの管理に関 [する](/microsoftteams/manage-external-access)ページを参照してください。
+テナントを切り替える必要なく外部ユーザーとチャットすると、必要な結果を迅速に取得できます。 動作について詳しく見てみましょう。
 
-## <a name="what-is-guest-access-in-teams"></a>Teamsのゲスト アクセスとは
+組織とTeams個人アカウント ユーザーの管理設定に応じて、外部Teams個人アカウント ユーザーとの会話を開始でき、外部Teams個人アカウント ユーザーは職場のユーザーでTeamsとの会話を開始できます。
 
-[ゲスト アクセス](/MicrosoftTeams/guest-access)を使用すると、チーム、チャネル内のドキュメント、リソース、チャット、アプリケーションへのアクセスを組織外のユーザーに提供しながら、会社のデータを制御できます。 Teamsにゲストを追加するには、追加のライセンスは必要ありません。
+組織で管理されているTeamsユーザーは、完全なメール アドレスまたは電話番号を入力して、チャットする個人アカウント ユーザー Teams招待できます。 個人ユーザー Teams、連絡するユーザーの正確な組織の電子メール アドレスを入力し、チャットを開始することができます。
 
-## <a name="who-can-be-a-guest-in-teams"></a>TeamsでゲストWhoできますか?
+チャットするユーザーがまだTeamsされていない場合は、個人用アカウントを使用して会話に参加するよう招待する電子メールまたはテキスト メッセージが届きます。 Teams個人アカウントに登録してサインインすると、チャットに参加できるようになります。
 
-ゲストとは、従業員または組織のメンバーではないユーザーのことです。 組織に職場アカウントがありません。 たとえば、ゲストにはパートナー、製造元、供給元、コンサルタントなどが含まれます。
-組織に属していないすべてのユーザーは[、Teamsでゲストとして追加](/MicrosoftTeams/guest-access#how-a-guest-becomes-a-member-of-a-team)できます。 つまり、ビジネス アカウント (つまり、Azure Active Directory アカウント) またはコンシューマーメール アカウント (outlook.com、gmail.com など) を持つすべてのユーザーが、チームやチャネル エクスペリエンスにアクセスできるTeamsにゲストとして参加できます。
+招待したユーザーが招待を承諾したら、新しい 1 対 1 またはグループ チャットを開始することも、既存の外部グループ チャットに追加することもできます。 このチャット スレッドは他のチャットと共に表示され、チャットを表示するためにテナントの切り替えは必要ありません。
+
+チャットの一環として、豊富なメッセージ、GIF、メディアを送受信することで、自分自身を表現できます。
+
+自分が参加する会話にのみ残ることを選択できます。 外部ユーザーからのメッセージをブロックしたり、グループ チャットを終了したりできます。
+
+組織によって管理Teamsユーザーと個人アカウントTeamsユーザーは、外部招待を拒否できます。 外部ユーザーが受け入れる前に最大 10 回メッセージを送信できますが、10 件のメッセージの後に受け入れがない場合は、このユーザーに追加のメッセージを送信することはできません。
+
+[サポート ページ](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57)を表示し、[ブログ](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832)を読んで、信頼できるTeams ワークスペースの安全性とセキュリティ内で外部の顧客やパートナーとシームレスに共同作業Teams方法の詳細を確認します。
 
 ## <a name="next-steps"></a>次のステップ
 

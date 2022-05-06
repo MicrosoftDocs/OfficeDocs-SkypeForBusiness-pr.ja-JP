@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: スロベニアで使用できるMicrosoft 365とOffice 365のSkype for BusinessとMicrosoft Teamsサービスを次に示します。
+description: スロベニアで利用できるSkype for BusinessとMicrosoft TeamsのMicrosoft 365サービスとOffice 365 サービスを次に示します。
 ms.openlocfilehash: 35c529a3953e6798ad4a05ba85c0f6705319d38e
 ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "59941850"
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-スロベニアで使用できるMicrosoft 365とOffice 365のSkype for BusinessとMicrosoft Teamsサービスを次に示します。
+スロベニアで利用できるSkype for BusinessとMicrosoft TeamsのMicrosoft 365サービスとOffice 365 サービスを次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -60,15 +60,15 @@ ms.locfileid: "59941850"
 |**機能**|**詳細**|
 |:-----|:-----|
 |通話プランは購入できますか?  <br/> |はい  <br/> |
-|通話プランで利用できる分数。 |予定表の月ごとに使用できるプラン オプションは 4 種類です。 <ul><li>120 分間の国内通話プラン </li><li>240 分の国内通話プラン</li></li><li>1,200 分の国内通話プラン </li></li><li>国内通話プランと国際通話プラン: 国内通話の 1200 分 -OR - 600 分の国際通話 (カレンダー月の最初に到達した方)</li></li></ul>|
-|Premium 番号への発信呼び出しはできますか?  <br/> | 現時点ではサポートされていません。 <br/> |
-|発信できる相手先  <br/> | 196 の国または地域 (以下を含む) [まで](users-can-make-outbound-calls-to-these-countries-and-regions.md)。<br/> 
+|通話プランで利用できる分数。 |カレンダー月には、次の 4 つのプラン オプションがあります。 <ul><li>120 分の国内通話プラン </li><li>240 分の国内通話プラン</li></li><li>1200 分の国内通話プラン </li></li><li>国内通話と国際通話プラン: 国内通話の 1200 分 -OR- 国際通話の 600 分 (暦月の最初に到達した方)</li></li></ul>|
+|プレミアム番号に対して発信通話を行うことはできますか?  <br/> | 現時点ではサポートされていません。 <br/> |
+|発信できる相手先  <br/> | [これらを](users-can-make-outbound-calls-to-these-countries-and-regions.md)含め、196 の国または地域に。<br/> 
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |<ul><li>ツェリェ <li>  リュブリャナ <li>  マティボール市 </ul> |
+|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |<ul><li>ツェリェ <li>  リュブリャナ <li>  マリボール 市 </ul> |
 |有料電話番号は使用できますか?  <br/> |はい  <br/> |
 |無料電話番号は使用できますか?  <br/> |はい  <br/> |
    

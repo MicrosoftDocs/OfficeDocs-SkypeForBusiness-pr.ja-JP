@@ -1,5 +1,5 @@
 ---
-title: オーストラリアの無料ダイヤル制限
+title: オーストラリアでのフリーダイヤル制限
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限など、オーストラリアの無料電話番号のダイヤルについて学習します。
+description: 可用性、有線/固定回線、モバイル ネットワークの可用性、制限など、オーストラリアでのフリーダイヤル番号のダイヤルについて説明します。
 ms.openlocfilehash: a2d3b79e95eadc9c85abd0d5812dbf7ba785c6d8
 ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
@@ -31,7 +31,7 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 08/26/2021
 ms.locfileid: "58608664"
 ---
-# <a name="toll-free-dialing-restrictions-in-australia"></a>オーストラリアの無料ダイヤル制限
+# <a name="toll-free-dialing-restrictions-in-australia"></a>オーストラリアでのフリーダイヤル制限
 
 [別の国または地域を検索](../toll-free-dialing-limitations-and-restrictions.md)、またはフリーダイヤルの制限について詳しく説明します。
 

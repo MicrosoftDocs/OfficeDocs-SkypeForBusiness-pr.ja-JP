@@ -43,9 +43,9 @@ OutlookおよびOffice.com で使用するために、強化されたアプリ�
 
 | アクセスを管理するオプション |ポータル|グローバル管理者|Teams管理者|
 |--|---|---|--|
-| ターゲット リリースのエンド ユーザーのみが新しいアプリにアクセスできます。 ユーザーを Standard リリースに移動します。 [「Standard または Targeted リリース オプションを設定する」を](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide&preserve-view=true)参照してください。 | Microsoft 365 管理センター | はい | いいえ |
-| 特定のエンド ユーザーの新しいアプリへのアクセスを管理します。 [「カスタムアクセス許可ポリシーを追加し、カスタム ポリシー](teams-app-permission-policies.md#create-a-custom-app-permission-policy)[をユーザーに割り当てる」を参照してください](policy-assignment-overview.md)。 | Teams管理センター | Yes | Yes |
-| 組織全体のすべてのエンド ユーザーの新しいアプリへのアクセスを管理します。 [「アプリを許可またはブロックする](manage-apps.md#allow-and-block-apps)」を参照してください。 | Teams管理センター | はい | Yes |
+| ターゲット リリースのエンド ユーザーのみが新しいアプリにアクセスできます。 ユーザーを Standard リリースに移動します。 [「Standard または Targeted リリース オプションを設定する」を](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide&preserve-view=true)参照してください。 | Microsoft 365 管理センター | Yes | いいえ |
+| 特定のエンド ユーザーの新しいアプリへのアクセスを管理します。 [「カスタムアクセス許可ポリシーを追加し、カスタム ポリシー](teams-app-permission-policies.md#create-a-custom-app-permission-policy)[をユーザーに割り当てる」を参照してください](policy-assignment-overview.md)。 | Teams 管理センター | Yes | Yes |
+| 組織全体のすべてのエンド ユーザーの新しいアプリへのアクセスを管理します。 [「アプリを許可またはブロックする](manage-apps.md#allow-and-block-apps)」を参照してください。 | Teams 管理センター | Yes | Yes |
 
 > [!NOTE]
 > [Standard リリース オプションを](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide&preserve-view=true)使用して、エンド ユーザー アクセスを管理することをお勧めします。 その他のオプションでは、エンド ユーザー アクセスが削除され、Teamsで既存のアプリを使用できなくなります。

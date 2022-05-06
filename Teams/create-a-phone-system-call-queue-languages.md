@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teamsキューでサポートされている言語
+title: Microsoft Teams呼び出しキューでサポートされている言語
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,7 +20,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Microsoft Teamsキューでサポートされている言語
+description: Microsoft Teams呼び出しキューでサポートされている言語
 ms.openlocfilehash: 54d9a49dc3671a2b7148ba964c20dcb50def0622
 ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
@@ -28,19 +28,19 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 10/09/2021
 ms.locfileid: "60249549"
 ---
-# <a name="microsoft-teams-call-queue-supported-languages"></a>Microsoft Teamsキューでサポートされている言語
+# <a name="microsoft-teams-call-queue-supported-languages"></a>Microsoft Teams呼び出しキューでサポートされている言語
 
-呼び出しキューは、テキスト読み上げ (TTS) に対して次の言語をサポートしています。
+呼び出しキューでは、Text to Speech (TTS) に対して次の言語がサポートされています。
 
 |言語                                |
 |:---------------------------------------|
 |アラビア語 (エジプト)                          |
-|カトラン語 (カトラン)                       |
+|カタラン語 (カタラン語)                       |
 |中国語 (簡体字、PRC)               |
 |中国語 (繁体字、香港)        |
 |中国語 (繁体字、台湾)           |
 |クロアチア語 (クロアチア)                      |
-|チェコ語 (チェコ共和国)                  |
+|チェコ語 (チェコ)                  |
 |デンマーク語 (デンマーク)                        |
 |オランダ語 (オランダ)                     |
 |英語 (オーストラリア)                     |
@@ -74,4 +74,4 @@ ms.locfileid: "60249549"
 |ベトナム語 (ベトナム)                    |
 
 > [!NOTE]
-> テキスト読み上げを使用する場合、システムは翻訳を実行しなく、選択した言語でテキストを入力する必要があります。
+> Text to Speech を使用する場合は、システムが翻訳を実行しないため、選択した言語でテキストを入力する必要があります。

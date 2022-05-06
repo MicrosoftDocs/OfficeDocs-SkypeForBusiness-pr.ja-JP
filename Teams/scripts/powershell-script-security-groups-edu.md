@@ -1,5 +1,5 @@
 ---
-title: PowerShell スクリプト サンプル - 学校の教師と学生用のセキュリティ グループを作成する
+title: PowerShell スクリプト サンプル - 学校の教育者と学生のセキュリティ グループを作成する
 author: serdars
 ms.author: serdars
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: angch
 ms.service: msteams
 audience: admin
-description: この PowerShell スクリプトを使用して、学校の教師と学生のTeamsポリシーを管理するために必要なセキュリティ グループを作成します。
+description: この PowerShell スクリプトを使用して、学校の教育者と学生のTeamsポリシーを管理するために必要なセキュリティ グループを作成します。
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -24,28 +24,28 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 02/05/2022
 ms.locfileid: "62398391"
 ---
-# <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>PowerShell スクリプト サンプル - 学校の教師と学生用のセキュリティ グループを作成する
+# <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>PowerShell スクリプト サンプル - 学校の教育者と学生のセキュリティ グループを作成する
 
-この PowerShell スクリプトを使用して、学校でポリシーを管理するために必要Microsoft Teamsグループを作成します。 グループ[へのポリシーの割り](../assign-policies-users-and-groups.md#assign-a-policy-to-a-group)当Teamsグループなど、ユーザーのグループにポリシーを割り当てできます。 ポリシーの割り当ては、優先規則に従ってグループのメンバーに反映されます。 グループのメンバーが追加または削除されると、それに応じて継承されたポリシーの割り当てが更新されます。
+この PowerShell スクリプトを使用して、学校でMicrosoft Teams ポリシーを管理するために必要なセキュリティ グループを作成します。 Teamsの[グループへのポリシーの割り当て](../assign-policies-users-and-groups.md#assign-a-policy-to-a-group)機能を使用すると、セキュリティ グループなどのユーザーのグループにポリシーを割り当てることができます。 ポリシーの割り当ては、優先規則に従ってグループのメンバーに反映されます。 グループのメンバーが追加または削除されると、それに応じて継承されたポリシーの割り当てが更新されます。
 
-この PowerShell スクリプトは、2 つのセキュリティ グループを作成します。1 つはスタッフと教師用、もう 1 つはライセンスの種類に基づいて学校の学生用です。 その後、作成したセキュリティ グループにポリシーを割り当てできます。 このスクリプトの使用の詳細については、「学校の大規模なユーザーにポリシーを割り当てる [」を参照してください](../batch-group-policy-assignment-edu.md)。
+この PowerShell スクリプトでは、ライセンスの種類に基づいて、2 つのセキュリティ グループ (スタッフと教育者用と学校内の学生用) が作成されます。 その後、作成したセキュリティ グループにポリシーを割り当てることができます。 このスクリプトの使用の詳細については、「 [学校内の大規模なユーザー セットにポリシーを割り当てる](../batch-group-policy-assignment-edu.md)」を参照してください。
 
-このスクリプトでは、次の手順を実行します。
+このスクリプトでは、次の処理が行われます。
 
-- Faculty SKU が割り当てられているスタッフと教師を識別し、セキュリティ グループを作成し、そのグループにスタッフと教師を追加します。
-- Student SKU が割り当てられている学生を識別し、セキュリティ グループを作成して、その学生をグループに追加します。
-- ライセンスを持っているかどうかに基づいて、各セキュリティ グループのメンバーシップを更新して、スタッフ、教育者、学生を追加または削除します。
+- 教職員 SKU が割り当てられているスタッフと教育者を識別し、セキュリティ グループを作成し、そのグループにスタッフと教育者を追加します。
+- Student SKU が割り当てられている学生を識別し、セキュリティ グループを作成し、学生をグループに追加します。
+- 各セキュリティ グループのメンバーシップを更新し、ライセンスがあるかどうかに基づいて、スタッフ、教育者、学生を追加または削除します。
 
-セキュリティ グループを最新の状態に保つには、このスクリプトを定期的に実行する必要があります。
+セキュリティ グループを最新の状態に保つために、このスクリプトを定期的に実行する必要があります。
 
 > [!IMPORTANT]
-> ポリシーをグループに割り当[てる場合は、](../assign-policies-users-and-groups.md#precedence-rules)[優先順位ルールと](../assign-policies-users-and-groups.md#group-assignment-ranking)グループ割り当てのランク付けについて理解することが重要です。 グループへのポリシー割り当てについて知る必要がある概念を読み、 [理解してください](../assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)。
+> グループにポリシーを割り当てるときに [、優先順位ルール](../assign-policies-users-and-groups.md#precedence-rules) と [グループ割り当て順位](../assign-policies-users-and-groups.md#group-assignment-ranking) を理解することが重要です。 [「グループへのポリシーの割り当てについて知っておくべきこと](../assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)」の概念を読んで理解していることを確認します。
 
 ## <a name="before-you-start"></a>開始する前に
 
-Skype for Business [Online PowerShell モジュールをダウンロードしてインストールし](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)、メッセージが表示されたらコンピューターを再起動します。
+[Skype for Business Online PowerShell モジュール](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)をダウンロードしてインストールし、メッセージが表示されたらコンピューターを再起動します。
 
-詳細については、「PowerShell を使用した [Skype for Business Online の管理」Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) の概要Teams[を参照してください](../teams-powershell-overview.md)。
+詳細については、「[Office 365 PowerShell を使用したオンラインSkype for Businessの管理」と PowerShell の](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)[Teamsの概要](../teams-powershell-overview.md)に関するページを参照してください。
 
 
 ## <a name="sample-script"></a>サンプル スクリプト

@@ -1,5 +1,5 @@
 ---
-title: PowerShell のサンプル スクリプト - Teams で自動開始設定をリセットする
+title: PowerShell スクリプト サンプル - Teamsの自動開始設定をリセットする
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -7,24 +7,29 @@ ms.topic: article
 ms.reviewer: amitsri
 ms.service: msteams
 audience: admin
-description: この PowerShell スクリプトを使用して、ユーザーごとに Teams設定をリセットします。
+description: この PowerShell スクリプトを使用して、ユーザーごとにTeamsの自動開始設定をリセットします。
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: 0d9b5c46348f3805f42f6fc35eab60b6aef61ec6
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62406009"
 ---
+# <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>PowerShell スクリプト サンプル - Teamsの自動開始設定をリセットする
 
-# <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>PowerShell のサンプル スクリプト - Teams で自動開始設定をリセットする
+このスクリプトを使用して、ユーザーごとにTeams自動開始設定をリセットします。 これには、ユーザーまたはTeams アプリによって設定されたすべての値が含まれます。 既定では、ユーザーがコンピューターのインストール後にログインすると、Teamsが自動的に開始されます。
 
-このスクリプトを使用して、Teamsに基づいて自動開始設定をリセットします。 これには、ユーザーまたはアプリによって設定された値Teams含まれます。 既定では、Teamsがインストールされた後にコンピューターにログインすると、自動的に開始されます。
+Teamsを既にデプロイしていて、[[インストール後にMicrosoft Teamsを自動的に開始しない] グループ ポリシー設定を](../msi-deployment.md#use-group-policy-recommended)設定して自動起動Teams無効にする場合は、最初にグループ ポリシー設定を目的の値に設定してから、このスクリプトを実行する必要があります。
 
-Teams を既にデプロイ済みで、[グループ ポリシーのインストール後に [](../msi-deployment.md#use-group-policy-recommended) Microsoft Teams が自動的に開始されるのを防ぐ] 設定を設定して Teams の自動開始を無効にする場合は、最初にグループ ポリシー設定を必要な値に設定してから、このスクリプトを実行する必要があります。
-
-ユーザー Teams開始した後は、グループ ポリシーを使用して自動開始設定を無効にすることはできません。
+ユーザーのTeamsが開始されると、グループ ポリシーを使用して自動開始設定を無効にすることはできません。
 
 ## <a name="sample-script"></a>サンプル スクリプト
 
@@ -145,4 +150,4 @@ if($null -eq $teamsProc) {
 ## <a name="related-topics"></a>関連項目
 
 - [MSI を使用した Teams のインストール](../msi-deployment.md)
-- [新しいTeamsをデプロイMicrosoft 365 Apps for enterprise](/deployoffice/teams-install)
+- [Microsoft 365 Apps for enterpriseを使用してTeamsをデプロイする](/deployoffice/teams-install)

@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限など、ケインで無料電話番号にダイヤルする方法について学習します。
+description: 可用性、有線/固定回線、モバイル ネットワークの可用性、制限など、ケニアでのフリーダイヤル番号のダイヤルについて説明します。
 ms.openlocfilehash: d7f5938e8259645fca4df12100bb2f56a3ce934e
 ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT

@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: この記事では、導入の試験段階を実施する方法についてMicrosoft Teamsします。
+description: この記事では、Microsoft Teams導入の実験段階を実施する方法について説明します。
 f1.keywords:
 - CSH
 ms.custom:
@@ -30,15 +30,15 @@ ms.locfileid: "62390789"
 ---
 # <a name="microsoft-teams-adoption-phase-2---experiment"></a>Microsoft Teams の導入段階 2 - 実験
 
-これで、組織に関するプロジェクト チームと重要な情報が用意され、新しいプロジェクトをTeams。 積極的な関係を持ち、組織に十分な数の早期採用者がいて、意味のあるフィードバックを提供できる関係者が主導する、グループ内の 2 ~ 3 つの現実世界のプロジェクトを実験することをお勧めします。 組織の規模が大きいか小規模かに関係ない場合は、このフェーズを完了して、Teams がチャット機能やファイル ストレージ機能を使用する以外にコラボレーションを改善する方法を把握することをお勧めします。  
+これで、優れたプロジェクト チームと組織に関する重要な情報に武装し、Teamsを試す準備が整いました。 良好な関係を持ち、組織内に有意義なフィードバックを提供するのに十分な数の早期導入者がいる関係者によって導かれるグループ内で、2 から 3 つの現実世界のプロジェクトを実験することをお勧めします。 組織の規模が大きい場合でも小さい場合でも、このフェーズを完了して、チャット機能やファイル ストレージ機能を使用する以外にTeamsコラボレーションを改善する方法を把握することをお勧めします。  
 
-このフェーズでは、次の手順を実行します。
+このフェーズでは、次の手順を完了します。
 
 1. [チャンピオン プログラムを作成します](teams-adoption-create-champions-program.md)。
 2. [ガバナンスのクイック スタートを完了します](teams-adoption-governance-quick-start.md)。
-3. [使用例を定義します](teams-adoption-define-usage-scenarios.md)。
-4. [早期導入者プログラムの参加者を最終決定します](teams-adoption-onboard-early-adopters.md)。
+3. [ユース ケースを定義します](teams-adoption-define-usage-scenarios.md)。
+4. [早期導入者プログラムの参加者を終了します](teams-adoption-onboard-early-adopters.md)。
 5. [フィードバック チャネルを設定します](teams-adoption-onboard-early-adopters.md#gather-feedback)。
-6. [サポート スタッフを乗乗します](teams-adoption-onboard-support.md)。
+6. [サポート スタッフをオンボードします](teams-adoption-onboard-support.md)。
 
-![次のステップを表すアイコン。](media/teams-adoption-next-icon.png) 次へ: [チャンピオン プログラムを作成する](teams-adoption-create-champions-program.md)
+![次の手順を表すアイコン。](media/teams-adoption-next-icon.png) 次へ: [チャンピオン プログラムを作成する](teams-adoption-create-champions-program.md)

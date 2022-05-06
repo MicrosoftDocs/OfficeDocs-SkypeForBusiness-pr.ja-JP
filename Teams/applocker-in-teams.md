@@ -12,7 +12,7 @@ ms.reviewer: rafarhi
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: AppLocker アプリケーション制御ポリシーを使用Teamsデスクトップ クライアント アプリケーションを有効にする方法について説明します。
+description: AppLocker アプリケーション制御ポリシーを使用してTeamsデスクトップ クライアント アプリケーションを有効にする方法について説明します。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
@@ -23,25 +23,25 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 08/05/2021
 ms.locfileid: "54288445"
 ---
-# <a name="applocker-application-control-policies-in-microsoft-teams"></a>AppLocker アプリケーション制御ポリシー (Microsoft Teams
+# <a name="applocker-application-control-policies-in-microsoft-teams"></a>Microsoft Teamsの AppLocker アプリケーション制御ポリシー
 
-この記事では、AppLocker アプリケーション制御ポリシーをTeamsデスクトップ クライアント アプリを有効にする方法について説明します。 AppLocker の使用は、管理者以外のユーザーによるプログラムとスクリプトの実行を制限するように設計されています。 AppLocker の詳細とガイダンスについては、「AppLocker とは [」を参照してください](/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker)。
+この記事では、AppLocker アプリケーション制御ポリシーでTeamsデスクトップ クライアント アプリを有効にする方法について説明します。 AppLocker の使用は、管理者以外のユーザーによるプログラムとスクリプトの実行を制限するように設計されています。 AppLocker の詳細とガイダンスについては、「 [AppLocker とは」を](/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker)参照してください。
 
-AppLocker を使用してTeamsするには、AppLocker ベースの許可リストポリシーを作成する必要があります。 ポリシーは、AppLocker のグループ ポリシー管理ソフトウェアや Windows PowerShell コマンドレットを使用して作成されます (詳細については[、AppLocker](/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference)のテクニカル リファレンスを参照してください)。 AppLocker ポリシーは XML 形式で保存され、任意のテキストエディターまたは XML エディターで編集できます。
+AppLocker でTeamsを有効にするプロセスでは、AppLocker ベースの許可リスト ポリシーを作成する必要があります。 ポリシーは、グループ ポリシー管理ソフトウェアまたは AppLocker 用のWindows PowerShellコマンドレットを使用して作成されます (詳細については、[AppLocker のテクニカル リファレンス](/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference)を参照してください)。 AppLocker ポリシーは XML 形式で保存され、任意のテキスト エディターまたは XML エディターで編集できます。
 
-## <a name="teams-allow-list-with-applocker"></a>appLocker Teams許可リストを作成する
+## <a name="teams-allow-list-with-applocker"></a>AppLocker で許可リストをTeamsする
 
-AppLocker ルールは、ルールのコレクションに編成されます。 AppLocker ルールは対象のアプリに適用され、AppLocker ポリシーを構成するコンポーネントです。  
+AppLocker ルールは、ルールのコレクションにまとめられます。 AppLocker ルールは対象のアプリに適用され、AppLocker ポリシーを構成するコンポーネントです。  
 
-アプリ ファイルTeams、すべてのアプリ ファイルがデジタル署名Teams[](/windows/security/threat-protection/windows-defender-application-control/applocker/understanding-the-publisher-rule-condition-in-applocker)条件ルールを使用することをお勧めします。
+Teamsを許可するには、すべてのTeamsアプリ ファイルがデジタル署名されるため、[発行元の条件規則](/windows/security/threat-protection/windows-defender-application-control/applocker/understanding-the-publisher-rule-condition-in-applocker)を使用することをお勧めします。
   
-インストール ディレクトリはユーザーが書き込み可能なので、パスTeams使用はお勧めしません。 また、クライアント アプリが更新されるごとにルールを更新する必要Teamsハッシュ 規則の使用はお勧めしません。
+Teams インストール ディレクトリはユーザーが書き込み可能であるため、パス規則の使用はお勧めしません。 また、Teams クライアント アプリが更新されるたびにルールを更新する必要があるため、ハッシュ ルールの使用はお勧めしません。
 
-デスクトップTeamsファイルがデジタル署名されている場合、発行元の条件はデジタル署名と埋め込みバージョン属性に基づいてアプリ ファイルを識別します。 デジタル署名には、アプリ ファイル (発行元) を作成した会社に関する情報が含まれている。 バイナリ リソースから取得されるバージョン情報には、ファイルが含まれる製品の名前とアプリケーション ファイルのバージョン番号が含まれます。
+デスクトップ実行可能ファイルTeamsデジタル署名されるため、発行元の条件は、デジタル署名と埋め込みバージョンの属性に基づいてアプリ ファイルを識別します。 デジタル署名には、アプリ ファイル (発行元) を作成した会社に関する情報が含まれています。 バイナリ リソースから取得されるバージョン情報には、ファイルの一部である製品の名前と、アプリケーション ファイルのバージョン番号が含まれます。
 
 ### <a name="example-of-publisher-condition-rules"></a>発行元の条件ルールの例
 
-新しいTeams クライアント アプリ (すべてのファイル、すべてのバージョン) で、次のコードを DLL ルールの実行可能&追加します。
+Teams クライアント アプリ (すべてのファイル、すべてのバージョン) の場合は、実行可能規則& DLL 規則に次を追加します。
 
 ```console
 Publisher: O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US
@@ -50,5 +50,5 @@ Product name: MICROSOFT TEAMS UPDATE
 ```
 
 ## <a name="related-topics"></a>関連項目
-[AppLocker とは](/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker) 
-[AppLocker のテクニカル リファレンス](/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference)
+[AppLocker](/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker)
+ とは[AppLocker テクニカル リファレンス](/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference)

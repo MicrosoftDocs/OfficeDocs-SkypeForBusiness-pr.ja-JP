@@ -161,7 +161,7 @@ Remove-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso
 ```
 
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Get-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings?view=teams-ps) 
 

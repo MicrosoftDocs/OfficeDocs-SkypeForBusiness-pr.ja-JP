@@ -1,6 +1,6 @@
 ---
 title: Shifts for Teams
-description: スケジュール管理ツールである Shifts を設定および管理するために必要な管理者ガイダンスをTeams。
+description: スケジュール管理ツールである Shifts をTeamsで設定および管理するために必要な管理者ガイダンスを取得します。
 ms.topic: conceptual
 author: LanaChin
 ms.author: v-lanachin
@@ -31,44 +31,44 @@ ms.locfileid: "64592773"
 ---
 # <a name="shifts-for-teams"></a>Shifts for Teams
 
-シフトは、スケジュール管理ツールであり、Teams従業員の接続と同期を維持します。モバイルを最初に構築し、迅速かつ効果的なスケジュール管理と通信を行います。 シフトを使用すると、フロントライン マネージャーと作業員はスケジュールをシームレスに管理し、連絡を取り合います。
+シフトは、Teamsのスケジュール管理ツールであり、現場の従業員の接続と同期を維持します。高速で効果的なスケジュール管理と通信を実現するために、モバイルファーストが構築されています。 Shifts を使用すると、フロントライン マネージャーとワーカーはスケジュールをシームレスに管理し、連絡を取り合うことができます。
 
-マネージャーは、チームのシフト スケジュールを作成、更新、管理できます。 シフトの割り当て、オープン シフトの追加、従業員からのスケジュール要求の承認を行います。 従業員は、自分とチームのスケジュールを表示したり、空き時間を設定したり、シフトを交換または提供したり、休み取りを要求したり、出勤したりすることができます。
+マネージャーは、チームのシフト スケジュールを作成、更新、管理できます。 シフトの割り当て、オープン シフトの追加、従業員からのスケジュール要求の承認を行うことができます。 従業員は、自分とチームのスケジュールを表示したり、可用性を設定したり、シフトを交換または提供したりするように要求したり、休暇を要求したり、出勤したりすることができます。
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE42FjP]
 
-組織で Shifts を設定および管理するには、次のリソースを使用します。
+次のリソースを使用して、組織内の Shifts を設定および管理します。
 
-## <a name="set-up-and-manage-shifts"></a>シフトの設定と管理
+## <a name="set-up-and-manage-shifts"></a>Shifts の設定と管理
 
 |&nbsp;  |&nbsp; |
 |---------|---------|
-|<img src="/office/media/icons/calendar-teams.png" alt="Calendar symbol.">   |**[シフトを管理する](shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** 組織のシフトを管理する方法について学習します。         |
+|<img src="/office/media/icons/calendar-teams.png" alt="Calendar symbol.">   |**[シフトを管理する](shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** 組織のシフトを管理する方法について説明します。         |
 |<img src="/office/media/icons/users-people.png" alt="Users/people symbol.">   |**[シフト管理のスケジュール所有者を管理する](shifts/schedule-owner-for-shift-management.md)** この機能を使用すると、従業員をチーム所有者にすることなく、チーム メンバーのアクセス許可をスケジュール所有者に昇格できます。         |
-|<img src="/office/media/icons/help.png" alt="Help symbol.">     | **[シフト データに関する FAQ](shifts/shifts-data-faq.md)** Shifts データが格納される場所と、保持、取得、暗号化など、シフト データに関連するその他のトピックについて説明します。        |
+|<img src="/office/media/icons/help.png" alt="Help symbol.">     | **[Shifts データに関する FAQ](shifts/shifts-data-faq.md)** Shifts データの保存場所と、保持、取得、暗号化など、Shifts データに関連するその他のトピックについて説明します。        |
 
 ## <a name="shifts-connectors"></a>コネクタをシフトする
 
-スケジュール設定にサード パーティの従業員管理 (WFM) システムを使用している場合は、管理された Shifts コネクタを介して Shifts と直接統合し、オープン ソースの Shifts コネクタを使用して Shifts Graph API と SDK を使用して統合できます。 接続を設定すると、フロントライン ワーカーは、シフト内から WFM システム内のスケジュールをシームレスに表示および管理できます。
+スケジュール設定にサード パーティの従業員管理 (WFM) システムを使用している場合は、マネージド Shifts コネクタを使用し、Shifts Graph API および SDK とオープン ソースの Shifts コネクタを使用して Shifts と直接統合できます。 接続を設定すると、フロントライン ワーカーは Shifts 内から WFM システムでスケジュールをシームレスに表示および管理できます。
 
 |&nbsp;  |&nbsp;  |
 |---------|---------|
-|<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[Shifts コネクタの概要](shifts/shifts-connectors.md)** Shifts コネクタの概要と動作について説明します。 使用可能なマネージド コネクタとオープン ソース コネクタと、サポートされている WFM システムについて説明します。   |
-|<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[Managed Shifts コネクタ](shifts/shifts-connectors.md#managed-shifts-connectors)** パートナーと共同で開発されたマネージド Shifts コネクタは、弊社またはパートナーによってホストおよび管理されます。 詳細については、「[Blue Yonder および Reflexis Shifts connector for blue Yonder Microsoft Teams Shifts connector for Microsoft Teams」 (Blue Yonder](shifts/shifts-connectors.md#microsoft-teams-shifts-connector-for-blue-yonder) および [Reflexis Shifts コネクタの Shifts コネクタ) を参照](shifts/shifts-connectors.md#reflexis-shifts-connector-for-microsoft-teams)してください。    |
-|   | **[Shifts コネクタ ウィザードを使用して Shifts を Blue Yonder Workforce Management に接続する](shifts/shifts-connector-wizard.md)** MICROSOFT 365 管理センター Shifts コネクタ ウィザードを使用すると、WFM システムへの接続をすばやく設定できます。 現在、このウィザードでは、Blue Yonder の Teams Shifts コネクタをサポートし、Shifts と Blue Yonder Workforce Management を統合します。
-|  | **[PowerShell を使用してシフトを Blue Yonder Workforce Management に接続する](shifts/shifts-connector-blue-yonder-powershell-setup.md)** PowerShell を使用して、Blue Yonder 用の Teams Shifts コネクタを使用して Blue Yonder Workforce Management への接続を設定する方法について説明します。         |
-|   | **[PowerShell を使用して Blue Yonder Workforce Management へのシフト接続を管理する](shifts/shifts-connector-powershell-manage.md)** PowerShell を使用して、Shifts コネクタ ウィザードまたは PowerShell を使用して設定した後に、Blue Yonder Workforce Management への Shifts 接続を管理する方法に関するガイダンスを取得します。
-|<img src="/office/media/icons/api.png" alt="Three gears - API.">    | **[オープン ソースの Shifts コネクタ](/microsoftteams/platform/samples/shifts-wfm-connectors)** コミュニティ駆動 [型のオープン](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors) ソース コネクタを使用して、Shifts api と SDK を使用して Kronos または JDA WFM システムを統合するGraph説明します。    |
+|<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[Shifts コネクタの概要](shifts/shifts-connectors.md)** Shifts コネクタとその動作の概要について説明します。 使用可能なマネージド コネクタとオープン ソース コネクタ、およびサポートされている WFM システムについて説明します。   |
+|<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[マネージド シフト コネクタ](shifts/shifts-connectors.md#managed-shifts-connectors)** パートナーと共同で開発されたマネージド シフト コネクタは、Microsoft またはパートナーによってホストおよび管理されます。 詳細については、「[Microsoft Teams用の Blue Yonder および Reflectionis Shifts コネクタの Shifts コネクタ](shifts/shifts-connectors.md#microsoft-teams-shifts-connector-for-blue-yonder)[Microsoft Teams](shifts/shifts-connectors.md#reflexis-shifts-connector-for-microsoft-teams)参照してください。    |
+|   | **[Shifts コネクタ ウィザードを使用して Shifts を Blue Yonder Workforce Management に接続する](shifts/shifts-connector-wizard.md)** Microsoft 365 管理センターの Shifts コネクタ ウィザードを使用すると、WFM システムへの接続をすばやく設定できます。 現在、ウィザードは Blue Yonder 用の Teams Shifts コネクタをサポートし、Shifts と Blue Yonder Workforce Management を統合しています。
+|  | **[PowerShell を使用してシフトを Blue Yonder Workforce Management に接続する](shifts/shifts-connector-blue-yonder-powershell-setup.md)** PowerShell を使用して、Blue Yonder の Teams Shifts コネクタを使用して Blue Yonder Workforce Management への接続を設定する方法について説明します。         |
+|   | **[PowerShell を使用して、Blue Yonder Workforce Management への Shifts 接続を管理する](shifts/shifts-connector-powershell-manage.md)** Shifts コネクタ ウィザードまたは PowerShell を使用してセットアップした後、PowerShell を使用して Blue Yonder Workforce Management への Shifts 接続を管理する方法に関するガイダンスを取得します。
+|<img src="/office/media/icons/api.png" alt="Three gears - API.">    | **[オープンソースの Shifts コネクタ](/microsoftteams/platform/samples/shifts-wfm-connectors)**[コミュニティ主導のオープンソース コネクタ](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)を使用して、Shifts Graph API と SDK を使用して Kronos または JDA WFM システムを統合する方法について説明します。    |
 
 ## <a name="shifts-extensions"></a>拡張機能をシフトする
 
 |&nbsp;|&nbsp;|
 | ------------- | ------------- |
-| <img src="/office/media/icons/api.png" alt="Three gears - API."> | **[Shift Graph API を](/graph/api/resources/shift)** 使用Graph Shifts API を使用すると、Shifts データを外部の従業員管理 (WFM) システムと統合できます。 ユーザーは、カスタムの Shifts エクスペリエンスをバック エンドで柔軟に構築できる一方で、Teams で豊富なフロントエンド エクスペリエンスをユーザーに提供できます。             |
-|<img src="/office/media/icons/process-flow-teams.png" alt="Process/flow chart symbol."> | **[Shift + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Shift + Power Automate を使用すると、Shifts から情報を取得し、他のアプリとカスタム ワークフローを作成し、大規模な操作を実行できます。 コードをほとんどまたは一緒に使用して、主要なプロセスを自動化します。 トリガーとテンプレートは、マネージャーの承認が不要な場合にシフト要求の自動承認を有効にするなど、さまざまなシナリオをサポートします。 |
+| <img src="/office/media/icons/api.png" alt="Three gears - API."> | **[Shift Graph API](/graph/api/resources/shift)** Shifts Graph API を使用すると、Shifts データと外部従業員管理 (WFM) システムを統合できます。 バックエンドでカスタム Shifts エクスペリエンスを構築し、ユーザーにTeamsで豊富なフロントエンド エクスペリエンスを提供する柔軟性があります。             |
+|<img src="/office/media/icons/process-flow-teams.png" alt="Process/flow chart symbol."> | **[Shifts + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Shifts + Power Automate を使用すると、Shift から情報を取得し、他のアプリでカスタム ワークフローを作成し、大規模な操作を実行できます。 コードをほとんどまたはまったく使用せずに、キー プロセスを自動化します。 トリガーとテンプレートは、マネージャーの承認が必要ない場合にシフト要求の自動承認を有効にするなど、さまざまなシナリオをサポートします。 |
 
 ## <a name="featured-training"></a>おすすめのトレーニング
 
 |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| <img src="/office/media/icons/get-started-teams.png" alt="Get started symbol.">  |  [ビデオ: Shifts とは](https://support.office.com/article/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821) |<img src="/office/media/icons/clock-teams.png" alt="Clock symbol."> |  [ビデオ: シフト スケジュールを作成する](https://support.microsoft.com/office/create-a-shifts-schedule-2b94ca38-36db-4a1c-8fee-f8f0fec9a984) |<img src="/office/media/icons/blocks-teams.png" alt="Blocks symbol.">|  [ビデオ: シフト スケジュールを管理する](https://support.microsoft.com/office/manage-and-view-a-shifts-schedule-63acda7b-ea39-441a-b1c6-c404a72e79f7) |
+| <img src="/office/media/icons/get-started-teams.png" alt="Get started symbol.">  |  [ビデオ: Shifts とは何ですか?](https://support.office.com/article/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821) |<img src="/office/media/icons/clock-teams.png" alt="Clock symbol."> |  [ビデオ: シフト スケジュールを作成する](https://support.microsoft.com/office/create-a-shifts-schedule-2b94ca38-36db-4a1c-8fee-f8f0fec9a984) |<img src="/office/media/icons/blocks-teams.png" alt="Blocks symbol.">|  [ビデオ: シフト スケジュールを管理する](https://support.microsoft.com/office/manage-and-view-a-shifts-schedule-63acda7b-ea39-441a-b1c6-c404a72e79f7) |

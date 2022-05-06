@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: smahadevan
 ms.service: msteams
 audience: admin
-description: 情報バリアをデプロイした後、この PowerShell スクリプトを使用して、テナント内のすべてのグループでモードをオープンから暗黙的に更新します。
+description: この PowerShell スクリプトは、情報バリアを展開した後に使用して、テナント内のすべてのグループのモードをオープンから暗黙的に更新します。
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -25,13 +25,13 @@ ms.locfileid: "61767656"
 ---
 # <a name="change-information-barriers-modes-with-a-powershell-script"></a>PowerShell スクリプトを使用して情報バリア モードを変更する
 
-この PowerShell スクリプトを使用して、テナント内のすべてのグループに接続Teamsバリア (IB) モードを更新します。 情報バリアをデプロイした後、これらのグループのモードを更新する必要があります。 IB を有効にする前にプロビジョニングされたグループには、オープン モードが *割り当* てられます。 オープン *モード* では、該当する IB ポリシーは適用されません。 IB を有効にした後 *、Implicit* は、作成する新しいグループの既定のモードになります。 ただし、既存のグループは引き続き *オープン モードの構成* を保持します。 これらの既存のグループを暗黙的モードに変更するには、このスクリプト *を実行* します。
+この PowerShell スクリプトを使用して、テナント内のすべてのTeams接続されたグループの情報バリア (IB) モードを更新します。 情報バリアを展開した後、これらのグループのモードを更新する必要があります。 IB を有効にする前にプロビジョニングされたグループには *、オープン* モードが割り当てられます。 *オープン* モードでは、該当する IB ポリシーはありません。 IB を有効にすると、 *作成* した新しいグループの既定のモードが暗黙的になります。 ただし、既存のグループは引き続き *オープン* モードの構成を維持します。 このスクリプトを実行して、これらの既存のグループを *暗黙的* モードに変更します。
 
-このスクリプトでは、PowerShell モジュールの一覧にある[Get-UnifiedGroup](/powershell/module/exchange/Set-UnifiedGroup)コマンドレットを使用Exchange Onlineモードを更新します。 PowerShell を使用した管理の詳細Teams PowerShell の概要に関する[Teamsを参照してください](./teams-powershell-overview.md)。
+このスクリプトでは、Exchange Online PowerShell モジュールにある [Get-UnifiedGroup](/powershell/module/exchange/Set-UnifiedGroup) コマンドレットを使用してモードを更新します。 PowerShell を使用したTeamsの管理の詳細については、PowerShell [の概要Teams](./teams-powershell-overview.md)参照してください。
 
 ## <a name="sample-script"></a>サンプル スクリプト
 
-このスクリプトを実行するには、テナントのグローバル管理者ロールが割り当てられている、仕事用または学校用のアカウントを使用する必要があります。
+このスクリプトを実行するには、テナントのグローバル管理者ロールが割り当てられている職場または学校アカウントを使用する必要があります。
 
 ```powershell
 <#

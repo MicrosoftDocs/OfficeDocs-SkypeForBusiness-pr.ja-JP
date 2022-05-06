@@ -29,7 +29,7 @@ ms.locfileid: "60824676"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Microsoft Teams と Skype for Business の共存と相互運用性を理解する
 
-![新しい定義ステージを強調したProject図。](media/upgrade-banner-project-definition.png "「プロジェクトの定義」段階が強調表示された、アップグレード行程の各段階")
+![Project定義ステージを強調したアップグレード体験図。](media/upgrade-banner-project-definition.png "「プロジェクトの定義」段階が強調表示された、アップグレード行程の各段階")
 
 この記事は、お客様のアップグレード行程の「プロジェクトの定義」段階の一部です。 スポンサー連合とプロジェク チームを作成し、プロジェクトの適用範囲、目標、ビジョンを定義した後に実行します。 先に進む前に、次のアクティビティを完了していることを確認してください。
 
@@ -54,11 +54,11 @@ Teams では、共同作業の機能だけでなく、チャット、通話、�
 どのパスが組織に一番適しているかを判断するために、以下の共存モードを確認することをお勧めします。
 
 > [!Important]
-> 共存モードは、Skype for Business Online の提供終了後も引き続き存在しますが、オンラインに自宅にいたユーザーは TeamsOnly のモードのみを使用できます。 TeamsOnly 以外のモードをオンラインで自宅のユーザーに割り当てなくなりました。  Skype for Business Online の提供終了前と同様に、オンプレミスに自宅にいたユーザーには、TeamsOnly 以外の任意のモード *を割り当てることができます*。
+> 共存モードは、Skype for Business Online の廃止後も引き続き存在しますが、オンラインに所属するユーザーは TeamsOnly のモードしか持つことができません。 TeamsOnly 以外のモードをオンラインホームユーザーに割り当てることはできなくなります。  Skype for Business Online を廃止する前と同様に、オンプレミスに所属するユーザーには *TeamsOnly 以外* の任意のモードを割り当てることができます。
 
 ### <a name="islands-mode"></a>アイランド モード
 
-既定では、ユーザーは、類似した重なり合う機能を提供する 2 つの別個のソリューションとして、Teams と Skype for Business を並列で実行できます。 プレゼンス、チャット、通話、会議などの機能を利用できます。 Teamsユーザーは、チームやチャネルなどの新しいコラボレーション機能、アプリケーション内のファイルへのアクセスMicrosoft 365利用することもできます。
+既定では、ユーザーは、類似した重なり合う機能を提供する 2 つの別個のソリューションとして、Teams と Skype for Business を並列で実行できます。 プレゼンス、チャット、通話、会議などの機能を利用できます。 Teamsユーザーは、チームやチャネル、Microsoft 365内のファイルへのアクセス、アプリケーションなどの新しいコラボレーション機能を利用することもできます。
 
 「**アイランド**」と呼ばれるこの共存モードでは、各クライアント アプリケーションが別個のアイランド (島) として動作します。 Skype for Business は Skype for Business とやり取りし、Teams は Teams とやり取りします。 ユーザーは、両方のクライアントを常時実行することが想定されており、コミュニケーションを開始したクライアントでネイティブにコミュニケーションできます。 そのため、[**アイランド**] モードでは、相互運用性は必要ありません。
 
@@ -84,7 +84,7 @@ Skype for Business が混乱したり、エクスペリエンスが低下した�
 
 [**Teams のみ**] モードへの移行に関するその他の考慮事項については、「[Teams のみモードの考慮事項](teams-only-mode-considerations.md)」を参照してください。
 
-![確認メッセージTeamsスクリーン ショット。](media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "ユーザーが、「Teams のみ」のユーザーにアップグレードされた後に、特別のモードで実行中の Skype for Business クライアント")
+![Teams確認メッセージのスクリーン ショット。](media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "ユーザーが、「Teams のみ」のユーザーにアップグレードされた後に、特別のモードで実行中の Skype for Business クライアント")
 
 ### <a name="skype-for-business-only"></a>Skype for Business のみ
 
@@ -159,7 +159,7 @@ Skype for Business ユーザーは、Teams ユーザーとの 1 対 1 の音声�
 <!--![Screen shot of Interop calling experience from Teams.](media/Interop_calling_experience_from_Teams.png "Interop calling experience from Teams")-->
 
 > [!Important]
-> オンプレミスの環境のデプロイとの相互運用Skype for Business、オンプレミス環境がオンプレミス環境とハイブリッド モードである必要Teams。 詳細については、「Skype for Business Server と Microsoft 365 または Office 365 の間のハイブリッド[接続を構成する」を参照してください](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)。
+> オンプレミスのSkype for Businessのデプロイに対する相互運用エクスペリエンスでは、オンプレミス環境がTeamsとハイブリッド モードになっている必要があります。 詳細については、[Skype for Business ServerとMicrosoft 365またはOffice 365の間のハイブリッド接続を構成します](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)。
 
 これらの相互運用エクスペリエンスは、[**Skype for Business と Teams のコラボレーション**]、[**Skype for Business と Teams のコラボレーションと会議**]、[**Skype for Business Only のみ**]、および [**Teams のみ**] の共存モードが割り当てられているユーザーが利用でき、これらのユーザー間で使用できます。 [**アイランド**] モードのユーザーの場合、相互運用性はありません。
 
@@ -197,11 +197,11 @@ Skype for Business からの相互運用と相互運用エスカレーション�
 
 こうした誤検知を防ぐために、プレゼンス サービスでは、相手のユーザーが実際に **Teams のみ** ユーザーである場合に Skype for Business クライアントに通知するようになりました。 これにより、会話ウィンドウが作成されてしまう前に相互運用会話および相互運用専用の会話ウィンドウを作成する必要があることを Skype for Business に認識させられます。
 
-![ユーザーとの相互Teamsを作成するメッセージのスクリーン Skype for Business。](media/teams-and-skypeforbusiness-coexistence-and-interop-create-conversation-with-skype-user.png)
+![Skype for Business ユーザーとの相互運用会話を作成するためのTeams メッセージのスクリーン ショット。](media/teams-and-skypeforbusiness-coexistence-and-interop-create-conversation-with-skype-user.png)
 
 Skype for Business ユーザーがデスクトップを共有しようとすると、会議が始まることが通知され、手順が案内されます。
 
-![ユーザーとのTeamsを開始するメッセージのスクリーン Teams。](media/teams-and-skypeforbusiness-coexistence-and-interop-start-meeting-with-teams-user.png)
+![Teams ユーザーとの会議を開始するためのTeamsメッセージのスクリーン ショット。](media/teams-and-skypeforbusiness-coexistence-and-interop-start-meeting-with-teams-user.png)
 
 それと同時に、Teams ユーザーには会議へのリンクが含まれたチャット メッセージが届き、参加するためのガイドが示されます。
 
@@ -217,7 +217,7 @@ Teams から Teams 会議への相互運用エスカレーションが、Skype f
 
 ユーザーが通話中の場合は、Teams と Skype for Business 間で行われている現在の通話が、Teams 会議に参加すると終了することも警告されます。 選択した場合は、承諾前に Skype for Business ユーザーに警告できます。
 
-![他のユーザー Teams共有するメッセージのスクリーン Skype for Business。](media/teams-and-skypeforbusiness-coexistence-and-interop-share-meeting-with-skype-user.png)
+![Skype for Business ユーザーと会議を共有するTeamsメッセージのスクリーン ショット。](media/teams-and-skypeforbusiness-coexistence-and-interop-share-meeting-with-skype-user.png)
 
 承諾すると、Teams 会議に参加できます。会議の共有トレイから共有を開始する必要があります。
 
@@ -284,15 +284,15 @@ Teams 会議へのこのエスカレーションは、テナント内の相互�
 
 ユーザー G3 Test とのネイティブな "Teams から Teams" の会話
 
-![ネイティブの Teams 対 Teamsを示す図。](media/teams-upgrade-native-thread.png)
+![ネイティブのTeams対Teams会話を示す図。](media/teams-upgrade-native-thread.png)
 
 同じユーザー G3 Test との相互運用会話
 
-![相互運用Teamsを示Teams図。](media/teams-upgrade-interop-thread.png)
+![相互運用Teams対Teams会話を示す図。](media/teams-upgrade-interop-thread.png)
 
 会話スレッドが一旦作成されると、その種類は変更されません。 作成された Teams の相互運用スレッドは、常にターゲット ユーザーの Skype for Business クライアントにルーティングされます。 ネイティブ スレッドは、常にターゲット ユーザーの Teams クライアントにルーティングされます。  受信者ユーザーのモードが変わると、そのユーザーに対する既存の Teams スレッドは機能しなくなり、次のスクリーンショットに示すように、メモと、ネイティブな会話を新たに始めるためのリンクがそのチャット上に表示されます。
 
-![アップグレードされたユーザーとのチャットSkype for Business図。](media/teams-upgrade-chat-with-upgraded-sfb-user.png)
+![アップグレードされたSkype for Business ユーザーとのチャットを示す図。](media/teams-upgrade-chat-with-upgraded-sfb-user.png)
 
 ### <a name="presence"></a>プレゼンス
 
@@ -331,7 +331,7 @@ Teams と Skype for Business は、連絡先の別個のリストを保持しま
 
 - Skype for Business Online ユーザーが初めて Teams にログオンすると、Skype for Business の連絡先が Teams にコピーされます。  この動作は、Skype for Business Server のオンプレミス アカウントを持つユーザーには利用できません。  
 
-- ユーザーが TeamsOnly にアップグレードされ (TeamsUpgradePolicy を割り当てるか Move-CsUser -MoveToTeams で) た後に、次にユーザーが Teams にログインすると、Skype for Business の既存の連絡先が Teams の既存の連絡先とマージされます。 この動作は、ユーザーがオンプレミスまたはオンラインから TeamsOnly に移動されたかどうかによって発生します。 
+- ユーザーが TeamsOnly にアップグレードされ (TeamsUpgradePolicy を割り当てるか Move-CsUser -MoveToTeams で) た後に、次にユーザーが Teams にログインすると、Skype for Business の既存の連絡先が Teams の既存の連絡先とマージされます。 この動作は、ユーザーがオンプレミスまたはオンラインから TeamsOnly に移動されたかどうかに関係なく発生します。 
 
 どちらの場合も、Skype for Business から Teams への連絡先の転送は非同期なので、連絡先が Teams に表示されるまでに数分かかることがあります。 上述の 2 つのイベントがコピーをトリガーします。  
 

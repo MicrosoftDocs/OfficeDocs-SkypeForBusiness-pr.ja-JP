@@ -30,10 +30,10 @@ ms.locfileid: "64480649"
 Skype 会議アプリを優先アプリとして指定するには、次の操作を行います。
 
 1. Microsoft Teams 管理センターにサインインする。
-2. 左側のウィンドウの [アップグレード] で **Teams** 設定Teams **選択します**。
+2. 左側のウィンドウの **[Teams**] で、[**Teamsアップグレード設定**] を選択します。
 3. Teams のアップグレード ページの **[アプリの環境設定]** で、**[Skype for Business 会議に参加するユーザー向けの優先アプリ]** ドロップダウンリストから、**[Skype 会議アプリ]** を選択します。
 
-    ![ユーザーが会議に参加する場合は、[優先アプリSkype for Business選択します。](media/teams-configure-skype-meetings-app-to-work-with-teams-image1.png)
+    ![ユーザーが会議に参加するための優先アプリSkype for Business選択します。](media/teams-configure-skype-meetings-app-to-work-with-teams-image1.png)
 
 ## <a name="known-limitations"></a>既知の制限
 
