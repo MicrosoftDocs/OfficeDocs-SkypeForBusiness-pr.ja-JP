@@ -349,11 +349,11 @@ items:
         items:
           - name: Teams でのファイル共有と共同作業をセキュリティで保護する
             href: /microsoft-365/solutions/setup-secure-collaboration-with-teams?wt.mc_id=TeamsTOCSecureCollab001
-          - name: 別の組織のユーザーと通信する
+          - name: 組織外のユーザーと共同作業する
             href: communicate-with-users-from-other-organizations.md
-          - name: 外部アクセス (フェデレーション)
+          - name: 外部会議とチャット
             items:
-              - name: 外部アクセスを管理する
+              - name: 外部会議とチャットを管理する
                 href: manage-external-access.md
               - name: ネイティブ Teams のチャット
                 href: native-chat-for-external-users.md

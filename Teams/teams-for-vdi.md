@@ -19,7 +19,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d0f2364471b3800042e7536d1013b82d76209a02
 ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/25/2022
 ms.locfileid: "64457070"
@@ -201,7 +201,7 @@ Teams と Microsoft 365 Apps for enterprise の詳細については、「[Micro
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
         ```
 
-        このプロセスでは、Teams は 64 ビット オペレーティング システムの `%ProgramFiles(x86)%` フォルダー、および 32 ビット オペレーティング システム の `%ProgramFiles%` フォルダーにインストールされます。 この時点で、ゴールデン イメージのセットアップは完了です。
+        このプロセスでは、Teams は 64 ビット オペレーティング システムの `%ProgramFiles(x86)%` フォルダー、および 32 ビット オペレーティング システム の `%ProgramFiles%` フォルダーにインストールされます。この時点で、ゴールデン イメージのセットアップは完了です。
 
         > [!IMPORTANT]
         >  非永続的なセットアップについては、マシンごとに Teams をインストールする必要があります。
@@ -486,11 +486,11 @@ if($cleanup){
 - Citrix 環境では、Teams の実行中にユーザーが仮想マシンから切断すると、Teams の更新により、ユーザーが再接続したときに AV に対して最適化されていない状態になる可能性があります。 このシナリオを回避するために、ユーザーは Citrix 仮想マシンから切断する前に Teams を終了することをお勧めします。
 - Teams は、ユーザーごとまたはマシンごとに展開する必要があります。 Teams のユーザーごとおよびマシンごとの同時展開はサポートされていません。 マシンごとまたはユーザーごとからこれらのモードのいずれかに移行するには、アンインストール手順に従っていずれかのモードに再展開します。
 - 現時点では、Azure Virtual Desktop は macOS および Linux ベースのクライアントをサポートしていません。
-- テナントの切り替えが速いと、画面共有が利用できないなど、VDI で通話関連の問題が発生する可能性があります。 クライアントを再起動すると、これらの問題が軽減されます。
+- テナントの切り替えが速いと、画面共有が利用できないなど、VDI で通話関連の問題が発生する可能性があります。クライアントを再起動すると、これらの問題が軽減されます。
 
 ### <a name="notifications"></a>通知
 
-- タスク バーのメッセージ数の通知とWindowsは、ホスト上ではWindows Server 2016されません。
+- Windows タスク バーでのメッセージ数の通知とプレゼンスは、Windows Server 2016 ホストではサポートされていません。
 
 ### <a name="calling-and-meetings"></a>通話と会議
 
