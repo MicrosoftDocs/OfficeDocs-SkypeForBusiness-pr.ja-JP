@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 組織内の割り当てられていない番号に通話をルーティングする方法について説明します。
-ms.openlocfilehash: f53e83b3d4f26123feed70bdecad32cb45bc5588
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: cc464419375b6391d0d95d6e99441777a40da9cb
+ms.sourcegitcommit: bc73017b4a3fe6271830bc8c5044bfd43eec80c0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442795"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "65266926"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>割り当てられていない番号への呼び出しのルーティング
 
@@ -72,6 +72,10 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 - 割り当てられていない Microsoft Calling Plan サービス番号に呼び出しをルーティングするには、テナントに少なくとも 1 つの電話システム仮想ユーザー ライセンスが必要です。
 
 - サポートされるカスタム オーディオ ファイル形式は、WAV (モノラルまたはステレオで 8/16/32 ビット深度の非圧縮の線形 PCM)、WMA (モノラルのみ)、MP3 です。 オーディオ ファイルのコンテンツは 5 MB を超えることはできません。
+
+- Microsoft Teamsへの着信呼び出しとMicrosoft Teamsからの発信呼び出しの両方に、割り当てられていない番号範囲に対して着信番号がチェックされます。
+
+- 指定したパターン/範囲に、テナント内のユーザーまたはリソース アカウントに割り当てられている電話番号が含まれている場合、これらの電話番号への呼び出しは適切なターゲットにルーティングされ、指定された割り当てられていない番号処理にはルーティングされません。 範囲内の数値の他のチェックはありません。 範囲に有効な外部電話番号が含まれている場合、Microsoft Teamsからその電話番号への発信通話は、処理に従ってルーティングされます。
 
 ## <a name="related-topics"></a>関連項目
 
