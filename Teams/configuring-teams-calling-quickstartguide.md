@@ -11,7 +11,7 @@ ms.reviewer: rowille, crowe
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 一連のユーザーを起動して実行Microsoft Teams通話プランを構成するためのクイック スタート ガイド。
+description: 一連のユーザーを起動して実行できるように、Microsoft Teamsで通話プランを構成するためのクイック スタート ガイド。
 ms.localizationpriority: medium
 ms.collection:
 - M365-voice
@@ -35,9 +35,9 @@ Teams の通話プランに関する 2017 年 12 月 12 日付けの発表「[In
 > [!NOTE]
 > 展開を成功させるため、このクイック スタート ガイドとともに、「[通話プランが設定された電話システム](calling-plan-landing-page.md)」と「[FastTrack](https://aka.ms/cloudvoice)」をご覧になることをお勧めします。
 
-Skype for Business を利用した通話プラン (Microsoft 365 および Office 365 機能) を追加することで、Teams を使用して、公衆交換電話網 (PSTN) を介して、固定電話や携帯電話を送受信できます。
+通話プラン (Skype for Businessを使用したMicrosoft 365機能とOffice 365機能) を追加することで、Teamsを使用して、公衆交換電話網 (PSTN) を介して陸上線や携帯電話との間で電話を発信したり、電話を受け取ったりできるようになりました。
 
-![[連絡先] ページを示すスクリーン Teams。](media/Calling_in_Teams.png)
+![Teamsの [連絡先] ページを示すスクリーン ショット。](media/Calling_in_Teams.png)
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Teams の [**通話**] タブを有効にするための前提条件
 Teams の [**通話**] を有効にするには、Teams で 1:1 の通話を有効にする必要があります。また、Teams の 1:1 の通話をサポートする Teams クライアントを使用する必要があります。 Teams で 1:1 の通話を管理する方法の詳細については、「[Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)」を参照してください。 通話をサポートしているクライアントの詳細については、「[Microsoft Teams の制限事項と仕様](./limits-specifications-teams.md)」を参照してください。
 

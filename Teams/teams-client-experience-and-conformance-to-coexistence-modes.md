@@ -7,30 +7,35 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: bjwhalen
 audience: admin
-description: クライアントエクスペリエンスTeams共存モード (SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings) に準拠する方法について学習します。
+description: Teamsクライアント エクスペリエンスと共存モード (SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings) への準拠について説明します。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
-  - CSH
+- CSH
 ms.custom:
-  - Teams-upgrade-guidance
-  - seo-marvel-apr2020
+- Teams-upgrade-guidance
+- seo-marvel-apr2020
 ms.collection:
-  - Teams_ITAdmin_JourneyFromSfB
-  - M365-collaboration
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: 51f894bb82680c65560e861d186918c208790b04
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62408450"
 ---
-
 # <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Teams のクライアント エクスペリエンスおよび共存モードへの準拠
 
 <a name="about-upgrade-basic"></a>
 
-Skype for Business 共存モード (SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings) の目的は、組織が Skype for Business から Teams に移行する際に、シンプルで予測可能なエクスペリエンスをエンド ユーザーに提供することです。  Teams に移行する組織にとって、最終的にはすべてのユーザーを **TeamsOnly** モードにすることが目標ですが、**TeamsOnly** (またはその他のモード) を全員に同時に割り当てる必要はありません。  ユーザーが TeamsOnly モードに到達する前に、組織は Skype for Business 共存モードを使用して、Teams **のみ** であるユーザーと、まだないユーザーとの間で予測可能な通信を確保できます。 
+Skype for Business 共存モード (SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings) の目的は、組織が Skype for Business から Teams に移行する際に、シンプルで予測可能なエクスペリエンスをエンド ユーザーに提供することです。  Teams に移行する組織にとって、最終的にはすべてのユーザーを **TeamsOnly** モードにすることが目標ですが、**TeamsOnly** (またはその他のモード) を全員に同時に割り当てる必要はありません。  ユーザーが TeamsOnly モードに到達する前に、組織は任意のSkype for Business共存モードを使用して、**Teamsのみ** であるユーザーとまだいないユーザー間の通信を予測可能にすることができます。 
 
-ユーザーが任意の Skype for Business モードにある場合、すべての着信チャットと呼び出しは、ユーザーのクライアントにSkype for Businessされます。 ユーザーがいずれかの Skype for Business モードに設定されている場合、エンド ユーザーを混乱させない適切なルーティングを確保するために、Teams クライアントの通話とチャット機能は無効化されます。 同様に、Teams での会議のスケジュールも、ユーザーが SfBOnly または SfBWithTeamsCollab モードの場合は明示的に無効化され、ユーザーが SfBWithTeamsCollabAndMeetings の場合には明示的に有効化されます。
+ユーザーがいずれかのSkype for Business モードの場合、すべての着信チャットと通話がユーザーのSkype for Business クライアントにルーティングされます。 ユーザーがいずれかの Skype for Business モードに設定されている場合、エンド ユーザーを混乱させない適切なルーティングを確保するために、Teams クライアントの通話とチャット機能は無効化されます。 同様に、Teams での会議のスケジュールも、ユーザーが SfBOnly または SfBWithTeamsCollab モードの場合は明示的に無効化され、ユーザーが SfBWithTeamsCollabAndMeetings の場合には明示的に有効化されます。
 
-プレゼンスはチャットや通話を通じて到達可能性を示すので、チャットと通話が無効になっている場合、Teams での自己プレゼンス (つまり、ユーザーの写真の Teams クライアントでの自分のプレゼンスの表示) も非表示になります。 
+プレゼンスはチャットと通話を通じて到達可能性を示すため、チャットと通話が無効になっている場合、Teamsでの自己プレゼンス (つまり、ユーザーの画像内のTeams クライアントでの自分のプレゼンスの表示) も非表示になります。 
 
 ## <a name="how-the-available-functionality-in-teams-client-changes-based-on-mode"></a>Teams クライアントで使用可能な機能がモードによってどのように変化するか
 
@@ -45,11 +50,11 @@ Teams で使用できる機能は、TeamsUpgradePolicy で設定されている�
 
 次のスクリーンショットでは、**TeamsOnly** または **アイランド** モードと、その他のすべてのモードとの違いを示しています。 **TeamsOnly** または **アイランド** モード (左側のスクリーンショット) を使用する場合、既定ではチャットと通話のアイコンが表示されますが、他のモード (右のスクリーンショット) では表示されません。
 
-![各モードを並べて比較Teamsします。](media/teams-mode-comparison.png)
+![Teams モードを並べて比較します。](media/teams-mode-comparison.png)
 
 また、次に示すように、他のモードでは自己プレゼンスを使用できません。
 
-![会議の最初の自己プレゼンスのスクリーンショット。](media/meetings-first-no-self-presence-general.png)
+![Meetings First での自己プレゼンスのスクリーンショット。](media/meetings-first-no-self-presence-general.png)
  
 **注:**
 <sup>1</sup> 現時点では、SfBwithTeamsCollab と SfBOnly は同じように動作しますが、SfBOnly モードでは、Teams のチャネルとファイル機能も無効にします。 その間、アプリの権限ポリシーを使用してチャネルを非表示にできます。

@@ -1,5 +1,5 @@
 ---
-title: 記録と文字起こしの会議ポリシーを管理する
+title: 記録と文字起こしのための会議ポリシーを管理する
 author: KarliStites
 ms.author: kastites
 manager: serdars
@@ -17,7 +17,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.recordingandtranscription
-description: レコーディングとトランスクリプションのための会議ポリシー設定Teamsを管理する方法について学習します。
+description: 記録と文字起こしのTeamsで会議ポリシー設定を管理する方法について説明します。
 ms.openlocfilehash: ee558ae87d7bea781cae3d2bc267f82bc1fdb18a
 ms.sourcegitcommit: faeb8976299375e7658499ff31d25e8ef6003144
 ms.translationtype: MT
@@ -25,21 +25,21 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 01/26/2022
 ms.locfileid: "62224074"
 ---
-# <a name="meeting-policy-settings-for-recording--transcription"></a>文字起こしを記録する会議&設定
+# <a name="meeting-policy-settings-for-recording--transcription"></a>&文字起こしを記録するための会議ポリシー設定
 
 この記事では、次のような記録と文字起こしに固有の会議ポリシー設定について説明します。
 
 - [文字起こしを許可する](#allow-transcription)
 - [クラウド記録を許可する](#allow-cloud-recording)
-- [お客様の国または地域以外の場所にレコーディングを保存する](#store-recordings-outside-of-your-country-or-region)
+- [国または地域以外の場所に記録を保存する](#store-recordings-outside-of-your-country-or-region)
 
 ## <a name="allow-transcription"></a>文字起こしを許可する
 
-これは、開催者単位とユーザーごとのポリシーの組み合わせです。 この設定は、会議の記録の再生中にキャプションと文字起こし機能を使用できるかどうかを制御します。 録音を開始したユーザーは、これらの機能が記録を使用するためにこの設定を有効にしている必要があります。
+これは、開催者単位とユーザーごとのポリシーの組み合わせです。 この設定は、会議の記録の再生中にキャプションと文字起こし機能を使用できるかどうかを制御します。 記録を開始したユーザーは、これらの機能で記録を操作できるようにするため、この設定を有効にする必要があります。
 
-この設定をオンにすると、会議記録に保存されているトランスクリプトのコピーが作成され、会議の記録で検索 **、CC、** およびトランスクリプトが有効にされます。 
+この設定をオンにすると、会議記録に保存されているトランスクリプトのコピーが作成されます。これにより、会議記録で **検索**、**CC**、および **トランスクリプト** を実行できるようになります。
 
-現在、記録された会議の文字起こしは、会議中に自分の言語を英語に設定または英語で話すユーザー Teamsされています。
+記録された会議の文字起こしは、現在、Teams会議で自分の言語を設定または英語を話すユーザーに対してのみサポートされています。
 
 ## <a name="allow-cloud-recording"></a>クラウド記録を許可する
 
@@ -57,19 +57,19 @@ ms.locfileid: "62224074"
 |Amanda | Location1MeetingPolicy | オン|
 |John (外部ユーザー) | 該当なし | 該当なし|
 
-- Daniela が開催した会議は記録されません。
-- Amanda は、Daniela が開催した会議を記録できない。
+- Daniela によって開催された会議は記録できません。
+- Amanda は Daniela によって開催された会議を記録できません。
 - Amanda によって開催された会議を記録できます。
-- Daniela は、Amanda が開催した会議を記録できない。
-- John は、Amanda が開催した会議を記録できない。
+- Daniela は、Amanda によって開催された会議を記録できません。
+- John は、Amanda によって開催された会議を記録できません。
 
 クラウド会議の記録の詳細については、「[Teams のクラウド会議の記録](cloud-recording.md)」を参照してください。
 
-## <a name="store-recordings-outside-of-your-country-or-region"></a>お客様の国または地域以外の場所にレコーディングを保存する
+## <a name="store-recordings-outside-of-your-country-or-region"></a>国または地域以外の場所に記録を保存する
 
-このポリシーは、会議レコードを別の国または地域に永続的に保存できるかどうかを制御します。 有効になっている場合は、レコーディングを移行できません。 クラウド会議とレコーディングの保存場所の詳細については、「クラウド会議の記録Teams[を参照してください](cloud-recording.md)。
+このポリシーは、会議レコードを別の国または地域に永続的に保存できるかどうかを制御します。 有効になっている場合は、記録を移行できません。 クラウド会議とレコーディングの保存場所の詳細については、「[クラウド会議の記録Teams](cloud-recording.md)参照してください。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
-- [グループ内のユーザーにポリシーを割り当Teams](policy-assignment-overview.md)
+- [Teamsのユーザーにポリシーを割り当てる](policy-assignment-overview.md)
 - [クラウド会議の記録](cloud-recording.md)

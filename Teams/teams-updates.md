@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teamsコンテンツアップデート
+title: コンテンツの更新をMicrosoft Teamsする
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.date: 05/16/2019
 ms.reviewer: LolaJ
-description: このトピックは、最近更新Microsoft Teamsトピックへのリンクなど、ヘルプ トピックの一覧です。
+description: このトピックは、更新されたトピックへのリンクなど、最近更新されたMicrosoft Teamsヘルプ トピックの一覧です。
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
@@ -25,8 +25,8 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 08/26/2021
 ms.locfileid: "58616173"
 ---
-# <a name="microsoft-teams-content-updates"></a>Microsoft Teamsコンテンツアップデート
+# <a name="microsoft-teams-content-updates"></a>コンテンツの更新をMicrosoft Teamsする
 
-このトピックでは、Microsoft Teams変更されたトピックの一覧を示します。
+このトピックでは、最近変更されたMicrosoft Teamsトピックの一覧を示します。
 
 > [!INCLUDE [teams-content-updates](includes/teams-content-updates.md)]

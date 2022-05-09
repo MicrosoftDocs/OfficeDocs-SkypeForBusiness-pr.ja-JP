@@ -1,5 +1,5 @@
 ---
-title: 組織をアップグレードする準備をSkype for BusinessからTeams
+title: Skype for BusinessからTeamsへのアップグレードのために組織を準備する
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 変更を受け入れる組織の準備状況を評価し、ユーザーが組織から組織にアップグレードする準備をSkype for Business準備Microsoft Teams。
+description: 変更を受け入れる組織の準備を評価し、ユーザーがSkype for BusinessからMicrosoft Teamsにアップグレードする準備をするための計画を準備します。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -29,19 +29,19 @@ ms.locfileid: "58731586"
 ---
 # <a name="prepare-your-organization"></a>組織を準備する
 
-![ユーザーの準備段階に重点を置いたアップグレード体験のステージ。](media/upgrade-banner-user-readiness.png "アップグレード体験のステージ。ユーザーの準備段階に重点を置いて")
+![ユーザーの準備段階に重点を置いたアップグレード体験のステージ。](media/upgrade-banner-user-readiness.png "ユーザーの準備段階に重点を置いたアップグレード体験のステージ")
 
-この記事は、アップグレード体験のユーザー準備ステージの一部です。技術準備ステージと並行して完了するアクティビティです。 先に進む前に、前のステージからこれらのアクティビティを完了してください。
+この記事は、アップグレード体験のユーザー準備ステージの一部であり、Technical Readiness ステージと並行して完了するアクティビティです。 続行する前に、前の段階でこれらのアクティビティが完了したことを確認します。
 
 - [プロジェクトの関係者をリスト化した](upgrade-enlist-stakeholders.md)
 - [プロジェクトの対象範囲を定義した](./upgrade-define-project-scope.md)
 - [Skype for Business と Teams の共存と相互運用を理解した](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [アップグレードの手順を選択した](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-Teams の最大値を実現するには、ユーザーが実際に使用する必要がありますが、ユーザーに作業方法を変更するのは必ずしも簡単ではありません。 ユーザーを理解し、適切な準備計画を設計する時間を取って、変更を促進し、Teams。 これらのアクティビティは、技術的な準備と並行して完了する必要があります。
+Teamsから最大値を実現するには、ユーザーが実際にそれを使用する必要がありますが、ユーザーに作業方法を変更させるのは必ずしも簡単ではありません。 時間を取ってユーザーを理解し、適切な準備計画を設計すると、変更を容易にし、Teamsの導入を加速できます。 これらのアクティビティは、技術的な準備と並行して完了する必要があります。
 
-- [組織の変更の](./upgrade-org-change-readiness.md)準備状況の評価: これには、ユーザーが誰か、ユーザーが新しいテクノロジを使用する方法、およびユーザーが変更に適応する容易さについて理解することが含まれます。 また、集中オンボードのメリットを得る特定のユーザー プロファイルを特定する機会にもなっています。
-- [ユーザー](./upgrade-user-readiness.md)準備計画の準備: 認識、トレーニング、およびサポートアクティビティで構成される準備計画は、変更の準備状況の評価に関する記事で示されている、広範なユーザー[](./upgrade-org-change-readiness.md)ベースと対象指定プロファイルの両方に対処する必要があります。
+- [組織変更の準備状況を評価する](./upgrade-org-change-readiness.md): これには、ユーザーが誰であるか、新しいテクノロジを使用する方法、および変更にどの程度簡単に適応するかを理解することが含まれます。 また、これは、集中的なオンボードの恩恵を受ける特定のユーザー プロファイルを特定する機会でもあります。
+- [ユーザー準備計画の準備](./upgrade-user-readiness.md): 認識、トレーニング、およびサポート アクティビティで構成される準備計画は、変更準備の評価に関する記事で確認されているように、広範なユーザー ベースとターゲット プロファイルの両方に対処 [する](./upgrade-org-change-readiness.md) 必要があります。
 
 > [!Tip]
-> アップグレード プロジェクト [のサンプル 計画](https://aka.ms/UpgradeSuccessKit) とパイロット テスト計画に加えて、コミュニケーションやユーザーアンケートなどのテンプレート ユーザー対応資料用のアップグレード成功キットをダウンロードします。
+> アップグレード プロジェクト 計画とパイロット テスト 計画のサンプルに加えて、コミュニケーションやユーザーアンケートなどのテンプレート ユーザー準備資料用の Upgrade [Success Kit](https://aka.ms/UpgradeSuccessKit) をダウンロードします。

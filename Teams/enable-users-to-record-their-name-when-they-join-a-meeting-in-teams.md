@@ -1,5 +1,5 @@
 ---
-title: ユーザーが会議の名前を記録できる
+title: ユーザーが会議の名前を記録できるようにする
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: ユーザーが会議に参加するときにユーザーが自分の名前を記録できるかどうかを有効または無効にする方法についてMicrosoft Teams。
+description: Microsoft Teamsで会議に参加するときに、ユーザーが自分の名前を記録できるかどうかを有効または無効にする方法について説明します。
 ms.openlocfilehash: 801b71f2880eb7e8a590a43654f84e75bb4c1d38
 ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
@@ -31,21 +31,21 @@ ms.locfileid: "62055427"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>Microsoft Teams でユーザーが会議に参加したときに自分の名前を記録できるようにする
 
-Microsoft 365 または Office 365 で電話会議を設定すると、電話番号と電話会議ブリッジと呼ばれるものが受信されます。 会議ブリッジには、1 つ以上の電話番号を含め、専用の電話番号または共有電話番号を使用できます。
+Microsoft 365またはOffice 365で電話会議を設定すると、電話番号と電話会議ブリッジと呼ばれる電話番号が表示されます。 会議ブリッジには、専用または共有の電話番号を使用できる 1 つ以上の電話番号を含めることができます。
   
 ユーザーが電話を使って会議にダイヤルインすると、その通話は会議ブリッジによって応答されます。会議ブリッジでは、自動応答の音声プロンプトで発信者に応答してから、設定に応じて、お知らせを再生したり、発信者に名前を記録するように依頼したり、会議開催者の PIN セキュリティをセットアップしたりします。PIN が会議開催者に与えられて、開催者は会議を開始できるようになります。ただし、PIN がなくても会議を開始できるように設定できます。
 
-## <a name="set-whether-callers-should-record-their-name"></a>発信者が名前を記録するかどうかを設定する
+## <a name="set-whether-callers-should-record-their-name"></a>呼び出し元が自分の名前を記録するかどうかを設定する
 
-管理センター Microsoft Teams使用します。
+Microsoft Teams管理センターの使用:
 
 1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。
 
 2. [**会議ブリッジ**] ページの最上部で、[**ブリッジの設定**] をクリックします。
 
-3. 会議の入退出 **通知を有効または無効にします**。
+3. **会議の参加と終了の通知を** 有効または無効にします。
 
-4. 通知を有効にする場合は、[開始 **/** 終了のお知らせの種類] で [名前] または [電話番号] を選択し、[会議に参加する前に発信者に名前を記録する] を **オンにします。**
+4. 通知を有効にする場合は、[**入力/終了のお知らせの種類**] で **[名前] または [電話番号**] を選択し、**会議に参加する前に発信者に名前を記録するように求める** をオンにします。
 
 5. **[保存]** をクリックします。
 
@@ -54,9 +54,9 @@ Microsoft 365 または Office 365 で電話会議を設定すると、電話番
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 
-Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作に関するすべてです。 このWindows PowerShell、単一の管理ポイントを使用して Microsoft 365 または Office 365 を管理し、複数のタスクを実行する場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+Windows PowerShell は、ユーザーと、ユーザーに許可されていることと許可されていないことを管理するためにあります。Windows PowerShell があれば、一元管理を使用して Microsoft 365 または Office 365 を管理し、複数のタスクを抱えているときに、日常の仕事を簡素化することができます。Windows PowerShell を開始するには、これらのトピックを参照してください。
 
-- [Windows PowerShell で Office 365 を管理するための最善の方法](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+- [Office 365 PowerShell を使用する必要がある理由](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
 - [Windows PowerShell で Office 365 を管理するための最善の方法](/previous-versions//dn568025(v=technet.10))
 
@@ -64,4 +64,4 @@ Windows PowerShell の詳細については、「[Microsoft Teams PowerShell の
   
 ## <a name="related-topics"></a>関連トピック
 
-[電話会議を試用または購入する](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[電話会議の試用または購入](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

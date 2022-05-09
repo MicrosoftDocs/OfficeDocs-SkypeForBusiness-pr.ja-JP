@@ -1,5 +1,5 @@
 ---
-title: 電話デバイスとディスプレイTeams展開を計画する
+title: Teams電話デバイスとディスプレイの展開を計画する
 ms.author: czawideh
 author: cazawideh
 manager: serdars
@@ -12,7 +12,7 @@ appliesto:
 f1.keywords:
 - NOCSH
 search.appverid: MET150
-description: この記事では、組織の電話やディスプレイにTeamsタスクと手順について説明します。
+description: この記事では、組織内の電話とディスプレイTeams展開するタスクと手順について説明し、概要を説明します。
 ms.openlocfilehash: 2ad9840d6ebd1ac6973027dedf6be294704f5326
 ms.sourcegitcommit: 73d12d90fc20e3d943301f57ee434379d0b0e91b
 ms.translationtype: MT
@@ -20,20 +20,20 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 12/21/2021
 ms.locfileid: "61577797"
 ---
-# <a name="plan-your-deployment-for-teams-phone-devices-and-displays"></a>電話デバイスとディスプレイTeams展開を計画する
+# <a name="plan-your-deployment-for-teams-phone-devices-and-displays"></a>Teams電話デバイスとディスプレイの展開を計画する
 
-電話デバイスとディスプレイのTeams展開が成功Teamsは、計画から始まります。 この記事では、組織にこれらのデバイスをデプロイするためのタスクと手順について説明します。 また、デバイスの使用状況、ライセンス、環境、タッチポイント、管理との統合に関するガイダンスも提供します。
+Teams電話デバイスとTeamsディスプレイの正常な展開は、計画から始まります。 この記事では、これらのデバイスを組織内に展開するためのタスクと手順について説明します。 また、デバイスの使用状況、ライセンス、環境との統合、タッチポイント、および管理に関するガイダンスも提供されます。
 
 > [!TIP]
-> [導入Microsoft 365ハブは](https://adoption.microsoft.com/)、導入プロセスを開始する際に最適なMicrosoft Teams。
+> [Microsoft 365導入ハブ](https://adoption.microsoft.com/)は、Microsoft Teamsを使用して導入を開始するのに最適な場所です。
 
-## <a name="task-1-what-are-your-deployment-objectives"></a>タスク 1: デプロイの目的は何ですか。
+## <a name="task-1-what-are-your-deployment-objectives"></a>タスク 1: デプロイの目標は何ですか?
 
-組織の電話とディスプレイTeams展開の計画は、展開の目標から始まります。 Teamsデバイスは、会議室、オフィス、その他の機能スペースでのハイブリッド作業をサポートします。 これらのデバイスが使用される場所と使用者を決定する必要があります。
+組織内のTeams電話とディスプレイのロールアウトの計画は、展開の目標から始まります。 Teams デバイスは、会議室、オフィス、その他の機能空間でのハイブリッド作業をサポートします。 これらのデバイスを使用する場所と使用者を特定する必要があります。
 
-### <a name="objective-identify-your-device-personas"></a>目的: デバイスのペルサを識別する
+### <a name="objective-identify-your-device-personas"></a>目標: デバイスペルソナを特定する
 
-Teamsとディスプレイは、次の 2 つのペルサのいずれかを使用できます。 
+Teams電話とディスプレイは、次の 2 つのペルソナのいずれかに適合します。 
 
 - 個人用デバイス
 - 共有スペース デバイス
@@ -42,109 +42,109 @@ Teamsとディスプレイは、次の 2 つのペルサのいずれかを使用
 
 **個人用デバイス:** 
 
-- 通常、1 人のユーザーに割り当て、そのユーザーのアカウントでサインインし、サービスにアクセスする Teams機能ライセンスを有効にします。
-- 個人用デバイスは、1 対 1 の関係を持ち、1 人のユーザーにつき 1 つのデバイスと考えます。
-- デスクトップ クライアントとペアTeams、Better Together のような機能を使用できます。
-- ヘッドセット、有線、またはワイヤレスに接続できる
-- 個人用デバイスのその他の機能には、ホットデスクやホーム画面が含まれます。 
+- 通常、1 人のユーザーに割り当てられ、そのユーザーのアカウントでサインインし、サービスにアクセスするためのTeams機能ライセンスで有効になります。
+- 個人用デバイスは、1 人のユーザーにつき 1 台のデバイスで、1 対 1 のリレーションシップを持つと考えてください。
+- Teams デスクトップ クライアントとペアリングでき、Better Together などの機能を使用できます
+- ヘッドセット、ワイヤード(有線)、またはワイヤレスに接続できます
+- 個人用デバイスのその他の機能には、ホットデスクとホーム画面が含まれます。 
 
 **共有スペース デバイス:**
 
-- 共通のエリア電話や会議室デバイスなど、特定の機能を実行し、サービスにアクセスするには専用のアカウントと機能ライセンスが必要です。
-- 共有デバイスは、一対多リレーションシップを持つデバイスと考えます。1 つのデバイスは多くのユーザーによって共有されます。
+- 共通エリアの電話や会議室デバイスなどの特定の機能を実行し、サービスにアクセスするには専用のアカウントと機能ライセンスが必要です。
+- 共有デバイスは、多くのユーザーが共有する 1 つのデバイスという 1 対多のリレーションシップを持つと考えてください。
 - 会議室、受付エリア、製造フロアなどの共有スペースに展開されます。 
-- ユーザー インターフェイス (UI) は、共通領域 電話 UI などの機能に固有のインターフェイスです。また、会議室の UI は、共有デバイスの機能と配置に依存します。
-- 設定が変更されないか、アカウントのサインアウトを防ぐために、構成とオプションのセキュリティ強化が必要です。 
-- 共有空間デバイスのその他の機能には、共通領域の電話での検索やアイドル タイムアウトを使用したホットデスク機能が含まれます。
+- ユーザー インターフェイス (UI) は、Common Area 電話 UI や会議室 UI など、その機能に固有です。共有デバイスの機能と配置によって異なります。
+- 設定が変更されないようにしたり、アカウントがサインアウトできないようにしたりするには、構成とセキュリティ強化を必要とします。 
+- 共有スペース デバイスのその他の機能には、共通領域の電話での検索や、アイドル タイムアウトを伴うホット デスク処理などがあります。
 
-### <a name="objective-how-many-personal-and-shared-space-devices-do-you-need"></a>目的: 必要な個人用および共有空間デバイスの数。
+### <a name="objective-how-many-personal-and-shared-space-devices-do-you-need"></a>目標: 必要な個人用と共有スペースのデバイスの数はどれくらいですか?
 
-デバイスのペルサを特定したので、使用する認定デバイスと必要なデバイスの数を決定する必要があります。 この決定を支援するために、次の質問を検討してください。 
+デバイスペルソナを特定したので、使用する認定デバイスと必要なデバイスの数を決定する必要があります。 この決定に役立つには、次の質問を検討してください。 
 
-- 必要な個人用デバイスの数と、必要なデバイスを持つユーザー
-- 共有デバイスが必要な会議室またはスペースの数 すべての領域に同じ種類のデバイスがありますか? 
+- 必要な個人用デバイスの数と、必要な個人デバイスの数はどれですか?
+- 共有デバイスを必要とする会議室またはスペースの数はどれくらいですか? すべての領域に同じ種類のデバイスがありますか? 
 - デバイスは特定の要件を満たす必要がありますか?
-    - たとえば、画面サイズ、フォーム ファクター、製造元またはモデルなどです。 認定された電話とディスプレイの一覧については、「認定デバイスのMicrosoft Teams[を参照してください](teams-ip-phones.md)。
--  携帯電話やディスプレイTeams必要Teamsですか? Teams スマートフォンでサポートされる機能の一覧については、「Microsoft Teams の[](phones-for-teams.md#features-supported-by-teams-phones)電話」を参照し、Teams ディスプレイでサポートされる機能の一覧については、「Microsoft Teams ディスプレイ」[を参照してください](teams-displays.md#features-supported-by-teams-displays)。
-- 新しいユーザー用のデバイスが十分にあるか、新しい注文と配送のプロセスがありますか。
-- メンテナンスまたはハードウェアの問題が発生した場合に、予備のデバイスを使用できますか。 デバイスを交換できると、ユーザー エクスペリエンスの中断がすぐに回避されます。
+    - たとえば、画面サイズ、フォーム ファクター、製造元またはモデルなどです。 認定された電話とディスプレイの一覧については、[認定されたデバイスMicrosoft Teams](teams-ip-phones.md)参照してください。
+-  電話またはTeamsディスプレイTeams必要がありますか? Teamsスマートフォンでサポートされている機能の一覧については、「[Microsoft Teams用の電話](phones-for-teams.md#features-supported-by-teams-phones)」と、Teamsディスプレイでサポートされている機能の一覧については、「[Microsoft Teamsディスプレイ」を](teams-displays.md#features-supported-by-teams-displays)参照してください。
+- 新しいユーザーに十分なデバイスがあるか、新しい注文と配送のためのプロセスがありますか?
+- メンテナンスやハードウェアの問題が発生した場合に、予備のデバイスを使用できますか? デバイスを交換できることで、ユーザー エクスペリエンスの中断を迅速に防ぎます。
 
 ## <a name="task-2-what-are-your-licensing-requirements"></a>タスク 2: ライセンス要件は何ですか? 
 
-必要なデバイスの数がわかったので、次の手順では、必要なライセンスの数を決定します。 Teamsとディスプレイにアクセスするには、電話とディスプレイにライセンスMicrosoft Teams必要Microsoft 365。
+必要なデバイスの数がわかったら、次の手順では、必要なライセンスの数を決定します。 Teams電話とディスプレイでは、Microsoft TeamsとMicrosoft 365にアクセスするためのライセンスが必要です。
 
-共有デバイスと個人用デバイスには、異なるライセンスが必要です。 個人用デバイスの場合、ユーザー アカウントに割り当てられたライセンスを使用できます。 共有デバイスには、その機能に固有のライセンスが必要です。 電話とディスプレイの場合、該当するライセンスは、電話 の共通領域ライセンスMicrosoft Teams、Microsoft Teams [Rooms Standard](../rooms/rooms-licensing.md#licensing-solutions-for-shared-communication-devices)ライセンスです。 [](../set-up-common-area-phones.md#step-1---buy-the-licenses)
+共有デバイスと個人用デバイスには、異なるライセンスが必要です。 個人用デバイスの場合は、ユーザー アカウントに割り当てられたライセンスを使用できます。 共有デバイスには、その機能に固有のライセンスが必要です。 電話とディスプレイの場合、該当するライセンスは、[Microsoft TeamsおよびMicrosoft Teams Rooms Standard ライセンスの共通領域](../set-up-common-area-phones.md#step-1---buy-the-licenses)[電話 ライセンス](../rooms/rooms-licensing.md#licensing-solutions-for-shared-communication-devices)です。
 
-ライセンス オプションの詳細と比較については、「ライセンス プランのMicrosoft 365[参照してください](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)。 
+ライセンス オプションの詳細と比較については、「[Microsoft 365 ライセンス プラン](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)」を参照してください。 
 
 ## <a name="task-3-what-are-your-dependencies"></a>タスク 3: 依存関係は何ですか? 
 
-### <a name="objective-plan-your-device-identities"></a>目的: デバイス ID を計画する
+### <a name="objective-plan-your-device-identities"></a>目標: デバイス ID を計画する
 
-ID を使用すると、デバイスは Microsoft 365 サービスにアクセスできます。また、デバイスを組織内で検出、管理、および接続しやすくする必要があります。 これを実現するには、デバイス ID を計画するときに次の点を考慮してください。
+ID を使用すると、デバイスはMicrosoft 365サービスにアクセスでき、デバイスは組織内で簡単に検出、管理、接続できるようになります。 これを実現するには、デバイス ID を計画する際に、次の点を考慮してください。
 
 - ユーザー プリンシパル名とその形式とドメイン
 - 表示名
 - アドレス帳の検出可能性
-- 個人用デバイスと共有スペース デバイスの種類
-- グループ割り当てライセンスとユーザー割り当てライセンス
+- 個人用デバイスと共有空間のデバイスの種類
+- グループとユーザー割り当てライセンス
 
-### <a name="objective-review-conditional-access-policies"></a>目的: 条件付きアクセス ポリシーを確認する
+### <a name="objective-review-conditional-access-policies"></a>目標: 条件付きアクセス ポリシーを確認する
 
 Azure Active Directory条件付きアクセス ポリシーは、デバイスをサインインする前に満たす必要がある追加の要件です。
 
-デプロイを計画する場合
+デプロイを計画する際
 
-- 携帯電話やディスプレイに影響を与える可能性がある既存Teamsポリシーを確認します。 これは、What If ツールとサインイン Azure AD使用して[](/azure/active-directory/conditional-access/what-if-tool)、管理センターで[実行できます。](/azure/active-directory/reports-monitoring/concept-sign-ins)
+- Teamsの電話やディスプレイに影響を与える可能性がある既存の条件付きアクセス ポリシーを確認します。 What [If ツール](/azure/active-directory/conditional-access/what-if-tool)と[サインイン ログ](/azure/active-directory/reports-monitoring/concept-sign-ins)を使用して、Azure AD管理センターでこれを行うことができます
 
 - 必要に応じて新しいルールを計画する
 
-- デバイス フィルターのような条件付きアクセス機能を使用して、携帯電話やディスプレイTeamsルールを適用します。
+- デバイス フィルターなどの条件付きアクセス機能を使用して、Teams電話やディスプレイにルールを適用します。
 
 >[!NOTE]
->Android デバイスがサポートしない条件付きアクセス ポリシーがあります。 ガイダンスとベスト プラクティスについては、Android デバイスに関するページを参照[Teams](authentication-best-practices-for-android-devices.md)してください。
+>Android デバイスではサポートされていない条件付きアクセス ポリシーがいくつかあります。 ガイダンスとベスト プラクティスについては、Android デバイスに関するページTeams [Android デバイスの認証のベスト プラクティス](authentication-best-practices-for-android-devices.md)に関するページを参照してください。
 
 ## <a name="task-4-prepare-your-environment"></a>タスク 4: 環境を準備する
 
-### <a name="objective-plan-network-basics"></a>目的: ネットワークの基本を計画する
+### <a name="objective-plan-network-basics"></a>目標: ネットワークの基本を計画する
 
-Teams 電話デバイスとディスプレイでは、インターネットにアクセスして、意図したTeamsに接続し、機能する必要があります。 ネットワークをデプロイする準備をするには、次の点を考慮してください。
+Teams 電話デバイスとディスプレイでは、インターネットにアクセスしてTeamsに接続し、意図したとおりに機能する必要があります。 ネットワークをデプロイする準備を整えるには、次の点を考慮してください。
 
-- ネットワーク インフラストラクチャに十分な容量がありますか。 スイッチ ポート、ワイヤレス アクセス ポイント、その他のカバレッジを検討してください。
-- VLAN と DHCP を使用する場合、スコープのサイズは変更されますか。
-- デバイスをデプロイするネットワーク パスを評価し、テストMicrosoft 365。 
-- ガイダンスに従って、要求に必要なファイアウォール Microsoft 365 URL を開きます。
-- 場所の精度とコンプライアンスについて、E911 の要件と構成を確認し、テストします。 
-- プロキシ サーバーを使用しないようにし、信頼性と品質のためにメディア パスを最適化します。
+- ネットワーク インフラストラクチャに十分な容量がありますか? スイッチ ポート、ワイヤレス アクセス ポイント、およびその他のカバレッジについて検討します。
+- VLAN と DHCP を使用する場合、スコープはそれに応じてサイズ設定されますか?
+- デバイスがMicrosoft 365に展開される場所からネットワーク パスを評価し、テストします。 
+- ガイダンスに従って、Microsoft 365に必要なファイアウォール ポートと URL を開きます。
+- E911 の要件と構成を確認してテストし、場所の正確性とコンプライアンスを確認します。 
+- プロキシ サーバーの使用を避け、信頼性と品質のためにメディア パスを最適化します。
 
-### <a name="objective-physical-considerations"></a>目的: 物理的な考慮事項
+### <a name="objective-physical-considerations"></a>目標: 物理的な考慮事項
 
-携帯電話やディスプレイで使用Teamsスペースを検討してください。
+Teams電話とディスプレイが使用される物理空間について考えてみましょう。
 
 主な側面は次のとおりです。
 
-- **電源:** 十分な電気コンセントはありますか? デバイスに外部電源が必要な場合は、どのくらい近くにコンセントに配置できますか?
-- **デバイスの配置:** デバイスの物理的な場所 デスク スタンド、壁掛け、および OEM (元の機器メーカー) のその他のアクセサリを確認します。
-- **セキュリティ:** デバイスを特定のスペースでロックする必要がありますか?
-- **アクセシビリティ:** デバイスはプライマリ ユーザーのアクセシビリティ要件を満たしていますか? 配置場所、ワイヤの長さ、ハンドセットまたはヘッドセットの使いやすさを検討します。
+- **電源：** コンセントは十分ですか? デバイスに外部電源が必要な場合は、コンセントにどの程度近く配置できますか?
+- **デバイスの配置:** デバイスは物理的にどこにありますか? 元の機器メーカー (OEM) のデスク スタンド、壁取り付け、その他のアクセサリを確認します。
+- **セキュリティ：** デバイスを特定のスペースにロックする必要がありますか?
+- **アクセシビリティ：** デバイスはプライマリ ユーザーのアクセシビリティ要件を満たしていますか? 配置場所、ワイヤの長さ、受話器またはヘッドセットの使いやすさを検討してください。
 
-### <a name="task-5-how-will-you-manage-deployed-devices"></a>タスク 5: デプロイされたデバイスを管理する方法
+### <a name="task-5-how-will-you-manage-deployed-devices"></a>タスク 5: 展開されたデバイスを管理する方法
 
-Teamsとディスプレイは、2 ~ 3 つのポータルとそれぞれの PowerShell モジュールMicrosoft 365から管理されます。 
+Teams電話とディスプレイは、2 つから 3 つのMicrosoft 365 ポータルとそれぞれの PowerShell モジュールから管理されます。 
 
 #### <a name="azure-active-directory-admin-center"></a>Azure Active Directory管理センター
 
-管理センター Azure AD使用して管理する
+Azure AD管理センターを使用して管理する
 
-- 携帯電話とディスプレイの ID 関連Teamsタスク
+- Teams電話とディスプレイのすべての ID 関連タスク
 - 条件付きアクセス ポリシー 
 - パスワードのリセット
 
 #### <a name="teams-admin-center"></a>Teams管理センター
 
-管理センター Teams使用して管理する
+Teams管理センターを使用して管理する
 
-- [デバイスの設定Teams](../business-voice/manage-devices.md)
+- [Teamsのデバイス設定](../business-voice/manage-devices.md)
 - [構成プロファイル](device-management.md#use-configuration-profiles-in-teams)
 - [デバイスのタグ付け](manage-device-tags.md)
 - [リモート サインインとサインアウト](remote-sign-in-and-sign-out.md)
@@ -152,9 +152,9 @@ Teamsとディスプレイは、2 ~ 3 つのポータルとそれぞれの Power
 - ファームウェア
 - ログのトラブルシューティングとダウンロード
 
-#### <a name="endpoint-manager-admin-center-if-you-use-intune-for-device-management"></a>エンドポイント マネージャー 管理センター (デバイス管理に Intune を使用する場合)
+#### <a name="endpoint-manager-admin-center-if-you-use-intune-for-device-management"></a>エンドポイント マネージャー管理センター (デバイス管理にIntuneを使用する場合)
 
-管理センターエンドポイント マネージャー使用して、次の情報を管理します。 
+エンドポイント マネージャー管理センターを使用して管理します。 
 
 - デバイス コンプライアンス ポリシー
 - 登録の制限

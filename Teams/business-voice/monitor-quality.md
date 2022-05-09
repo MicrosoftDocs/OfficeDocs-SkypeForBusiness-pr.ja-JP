@@ -14,7 +14,7 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: 通話プランを使用して通話品質を監視するTeams 電話システムを確認します。
+description: 通話プランを使用してTeams 電話システムの通話品質を監視する方法について説明します。
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 8471067396840ec30c7b5e643517403e3696f24f

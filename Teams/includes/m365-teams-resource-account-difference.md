@@ -1,4 +1,4 @@
 > [!IMPORTANT]
-> Microsoft 365リソース アカウントは、リソース アカウントと同Teamsではありません。 Teamsリソース アカウントを通話キューや自動応答と一緒に使用して、外部の電話番号からの電話を受け入れられます。 Microsoft 365アカウントは、Exchange Onlineメールボックスに関連付け、会議室、プロジェクターなどの共有リソースの予約を有効にします。
+> Microsoft 365リソース アカウントは、Teamsリソース アカウントと同じではありません。 Teamsリソース アカウントは、通話キューと自動応答と共に使用して、外部電話番号からの電話を受け入れます。 Microsoft 365リソース アカウントは、Exchange Online メールボックスに関連付けられ、会議室、プロジェクターなどの共有リソースの予約が可能になります。
 >
-> リソース アカウントの詳細については、「Teams リソース アカウントの管理[」を参照Microsoft Teams。](../manage-resource-accounts.md)
+> Teamsリソース アカウントの詳細については、「[Microsoft Teamsでリソース アカウントを管理する](../manage-resource-accounts.md)」を参照してください。

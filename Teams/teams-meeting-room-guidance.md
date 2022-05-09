@@ -150,193 +150,193 @@ Teams Rooms ソリューションをインストールするか、会議室に�
 
 ## <a name="enhanced-microsoft-teams-room"></a>拡張Microsoft Teamsルーム
 
-![拡張された会議室のレンダリング。](media/emr1.png)
+![強化された会議室のレンダリング。](media/emr1.png)
 
-このセクションでは、Microsoft が標準の会議室を拡張された会議室に変換する方法について説明Microsoft Teams Rooms、新しい会議室と最前面のTeamsを引き出します。 この記事は、部屋の設計と技術に関するガイダンス、推奨される製品、および Microsoft 企業施設のリファレンス仕様に関するページをご覧ください。
+このセクションでは、Microsoft が標準会議室を、新しいTeams最前列エクスペリエンスを最大限に引き出す強化されたMicrosoft Teams Roomsに変換する方法について説明します。 この記事は、部屋の設計とテクノロジのガイダンス、推奨される製品、および Microsoft 企業施設のリファレンス仕様に関する記事を使用してください。
 
 ## <a name="microsofts-vision-for-the-future-of-meeting-rooms"></a>会議室の将来に向けた Microsoft のビジョン
 
-作業の将来は、流動的で、クラウドを利用する予定です。 Microsoft では、どこからでも、いつでも参加できる会議エクスペリエンスを実現しています。 これらの会議はハイブリッドです。つまり、シームレスに参加できます。 Microsoft デバイスで強化された会議は包括的です。すべての音声が聞こえ、すべてのユーザーが明確に表されます。
+将来の作業は、クラウドによって流動的で動的で、電源が入ります。 Microsoft は、いつでもどこからでも、ユーザーがそこにいられるようにする会議エクスペリエンスを可能にします。 これらの会議はハイブリッドであり、シームレスに参加できることを意味します。 Microsoft デバイスで強化された会議は包括的です。すべての音声が聞こえ、全員が明確に表されます。
 
-Microsoft では、会議が臨場感を持ち、人を中心にスペースが設計される未来が見受け取ります。 動的な会議ビューでは、すべてのユーザーがコンテンツに接続され、互いにつながっています。正式なプレゼンテーションは、コラボレーション チャットと組み合わせです。 デジタル キャンバスは、グループの創造性を発揮します。 どこにいても、誰もが顔を見つめ合って接続できます。
+Microsoft は、会議がイマーシブであり、人々の周りにスペースが設計される未来を見ている。 動的な会議ビューを使用すると、すべてのユーザーがコンテンツと相互に接続し続けます。正式なプレゼンテーションは、コラボレーション チャットと組み合わせられます。 デジタル キャンバスは、グループの創造性を発揮します。 誰もがどこにいても、顔を向けて接続できます。
 
-会議の将来に向けたビジョンは、単純な理念に基づくものになります。会議は、単なる 1 回のトランザクション以上の機能を提供する必要があります。 会議は、自分が部屋にいる場合も、世界中の会議でも、すべてのユーザー向けに設計されます。
+会議の将来のビジョンは、単純な考え方に基になっています。会議は、単なる 1 回限りのトランザクション以上のものを提供する必要があります。 会議は、会議室にいても世界中にいる場合でも、すべての人に合わせて設計されます。
 
-## <a name="what-is-an-enhanced-microsoft-teams-room"></a>拡張されたルームとはMicrosoft Teamsですか?
+## <a name="what-is-an-enhanced-microsoft-teams-room"></a>強化されたMicrosoft Teamsルームとは何ですか?
 
-Microsoft のハイブリッド ワークプレースでは、リモート参加者と部屋内参加者の両方のニーズによって、次世代のルーム標準が通知されます。 拡張された会議室は、Microsoft Teams 会議室で、ハイブリッド会議エクスペリエンスを高め、より自然で臨場感のあるつながりを促進しながら、会議の全員が参加、表現、生産性を高めることができます。 このルームは、ソフトウェアとハードウェアの機能と部屋の構成に関するガイダンスTeams Rooms組み合わせて実際に行われる一連の原則に従います。
+Microsoft のハイブリッド 職場では、次世代の会議室の標準は、リモート参加者と室内参加者の両方のニーズによって通知されます。 強化された会議室は、*高い* ハイブリッド会議エクスペリエンスを提供するように設計されたMicrosoft Teamsルームであり、より自然で没入感のある接続を促進すると同時に、会議の全員が含まれ、表現され、生産性を感じられるようにします。 この部屋は、Teams Roomsソフトウェアとハードウェアの機能と部屋の構成に関するガイダンスの組み合わせを通じて実際に行われた一連の原則に従います。
 
-拡張された Microsoft Teams Room の概念は、一連のエクスペリエンス原則でサポートされる 2 つの主要な目標に基Microsoft Teams設計されています。
+強化されたMicrosoft Teamsルームの概念は、一連のエクスペリエンス原則によってサポートされる 2 つの主要な目標を中心に設計されています。
 
-**目標 1: 会議の全員が含まれていて、表され、生産的だと感じる。**
+**目標 1: 会議の全員が含まれ、表され、生産性が高いと感じています。**
 
-設計原則:
+設計の原則:
 
 -   リモート参加者は、部屋に本物のプレゼンスを確立できます
 
--   会議室の参加者は、会議で個々の ID を保持できます。
+-   会議室内の参加者は、会議で個々の ID を保持できます
 
--   すべての会議参加者は、境界のない共同作業に参加できます。
+-   すべての会議参加者は、境界のないコラボレーションに参加できます。
 
-**目標 2: 接続は自然で臨場感のあるものになります。**
+**目標 2: 接続は自然で没入感があります。**
 
-設計原則:
+設計の原則:
 
--   エクスペリエンスは人間のつながりのためにスケーリングされ、誰もが同じ部屋に入っているような対話が可能になります。
+-   エクスペリエンスは人間のつながりに合わせてスケーリングされ、全員が同じ部屋にいるように感じる対話が可能になります。
 
-拡張されたルーム エクスペリエンスは、これらのすべてのコンポーネントとアイデアを組み合わせて、エクスペリエンスを定義する単一の機能ではありません。 強化されたサービスで見つかった個々の機能Microsoft Teams Rooms、独自にデプロイされる場合があります。
+強化されたルーム エクスペリエンスは、エクスペリエンスを定義する 1 つの機能を備えたすべてのコンポーネントとアイデアです。 強化されたMicrosoft Teams Roomsに含まれる個々の機能と概念も、独自に展開できます。
 
 特定の機能のデプロイの例:
 
--   新しい最前面の会議室の前面表示エクスペリエンスは、それをサポートする Microsoft Teams Room ソリューションがあるすべての種類の会議スペースで利用できます。
+-   すべての種類の会議スペースで、それをサポートする Microsoft Teams Room ソリューションがある新しい最前列の会議室の表示エクスペリエンスを活用します。
 
--   従来の Microsoft Teams Room エクスペリエンスを使用して曲線テーブルと正面レイアウトを実装し、すべての会議スペースで体験の継続性を維持しながら、部屋での人間のつながりを高めることができます。
+-   従来のMicrosoft Teamsルーム エクスペリエンスを備えた曲線テーブルと前面に向いたレイアウトを実装して、すべての会議スペースでエクスペリエンスの継続性を維持しながら、室内での人間のつながりを向上させます。
 
-## <a name="when-should-you-deploy-this-room-type"></a>このルームの種類をデプロイする必要が生まれるのは、いつですか?
+## <a name="when-should-you-deploy-this-room-type"></a>この部屋の種類をいつ展開する必要がありますか?
 
-拡張Microsoft Teams Roomsは、組織内の他のすべての会議スペースの代わりではなく、Microsoft Teams を利用する既存の会議スペースの補足として機能することを意図しています。 リモート会議参加者との対面対話が最も重要になる空間と場所に、組織内で戦略的に展開する必要があります。
+強化されたMicrosoft Teams Roomsは、組織内の他のすべての会議スペースの代わりではなく、Microsoft Teamsを利用する既存の会議スペースの補足として機能することを目的としています。 リモート会議の参加者との対面対話が最も重要な空間や場所に、組織内で戦略的に展開する必要があります。
 
-Microsoft Teams Roomsは、ソフトウェア更新プログラムを通じて提供されるユーザー中心のハイブリッド会議エクスペリエンスを引き続き提供します。 ただし、一部の強化されたエクスペリエンスを最適化する上で重要な役割を果たすハードウェア テクノロジとルーム構成ガイダンスがあります。 これらのコンポーネントの組み合わせによって、拡張された Microsoft Teams Room が構成されます。 拡張された Microsoft Teams Rooms Room に進化させる必要があるMicrosoft Teams評価する場合は、次の点を考慮してください。
+Microsoft Teams Roomsは、引き続きソフトウェア更新プログラムを通じて利用できる、人中心のハイブリッド会議エクスペリエンスを提供します。 ただし、強化されたエクスペリエンスの一部を最適化する上で重要な役割を果たすハードウェア テクノロジとルーム構成ガイダンスがあります。 強化されたMicrosoft Teamsルームを構成するこれらのコンポーネントの組み合わせです。 拡張Microsoft Teamsルームに進化させるMicrosoft Teams Roomsの数を評価する場合は、次の点を考慮してください。
 
--   どのようなハードウェアのアップグレードや投資を行う必要があります。
+-   どのようなハードウェアのアップグレードや投資を行う必要があるか。
 
--   ほとんどの会議室は、部屋の寸法と部屋の容量の密接な関係を持つ貴重な四角形の映像を最大化するように設計されています。 拡張されたMicrosoft Teams会議室は、正方形の映像を最大化するよりも会議のエクスペリエンスを優先します。 すべての組織が、会議スペースごとにこの方法を優先順位付けできるとは限り、会議室の数が減る可能性があります。
+-   ほとんどの会議室は、会議室の寸法と部屋の容量の間に密接な関係を持つ貴重な平方フィートを最大化するように設計されています。 強化されたMicrosoft Teamsルームでは、正方形の映像を最大化する上で会議のエクスペリエンスに優先順位を付けます。 すべての組織が、すべての会議スペースに対してこのように優先順位を付けることができるわけではありません。そのため、会議室の数が減る可能性があります。
 
 ### <a name="understanding-this-space"></a>この領域について 
 
-*ハイブリッドの柔軟性と組み込みとのバランスを取る*
+*ハイブリッドの柔軟性と包含のバランス*
 
-Microsoft では、柔軟な作業ガイドラインにより、従業員が作業場所と時間に関する選択と柔軟性を優先します。 このポリシーの根本的な変化により、会議スペースとテクノロジの進化を再考しました。
+Microsoft では、柔軟な作業ガイドラインは、従業員にどこでいつ働くかについての選択肢と柔軟性を提供することを優先しています。 この基本的なポリシーの変化により、会議スペースとテクノロジの進化が再考されました。
 
-私たちの研究では、パンデミック中のリモート会議には、特に公平性と包含の感情の増加に関して、多くの利点があるという結果が出ていました。 リモートと対人の共同作業が同時に行われ、ハイブリッド環境での復帰を考える中で、会議室の設計と技術を通じてすべての参加者のレベルのプレイ フィールドを維持しながら、柔軟な作業ポリシーをより適切にサポートする会議スペースを作成しました。
+私たちの研究では、パンデミック中のリモート会議には、特に公平性と包含に対する感情の高まりに関して、多くの利点があることが示されています。 リモートコラボレーションと対面コラボレーションが同時に行われるハイブリッド環境での復帰を考える中で、会議室の設計と技術を通じてすべての参加者のレベルのプレイフィールドを維持しながら、柔軟な作業ポリシーをサポートする会議スペースを作成しようとしました。
 
-### <a name="what-is-this-space-used-for"></a>このスペースは何に使用されますか?
+### <a name="what-is-this-space-used-for"></a>この領域は何に使用されますか?
 
-このスペースは、会議室の小さなグループTeamsで最も臨場感のある会議エクスペリエンスに特化しています。
+このスペースは、物理的な部屋にいる少数のグループの人にとって最も没入感のあるTeams会議エクスペリエンスに特化しています。
 
-一般的な Microsoft Teams 会議室と同様に、会議の参加者は、コンテンツの表示と共同作成の両方を行う一方で、リモートおよびローカルで会議を行ってシームレスに作業できます。
+一般的なMicrosoft Teams ルームと同様に、会議参加者はリモートとローカルで会議を行い、コンテンツのプレゼンテーションと共同作成の両方を行いながらシームレスに連携できます。
 
-### <a name="how-is-this-space-laid-out"></a>このスペースはどのようにしてレイアウトされますか?
+### <a name="how-is-this-space-laid-out"></a>このスペースはどのようにレイアウトされていますか?
 
-ルーム レイアウトは、リモートの参加者やコンテンツを最大限に可視化し、関与するように設計されています。
+部屋のレイアウトは、リモート参加者やコンテンツとの可視性とエンゲージメントを最大限に高める目的で設計されています。
 
-レイアウトには、参加者が一緒にフォローできる、ディスプレイに面しているすべての椅子を備え、対面の目を合わせ、リモート参加者への向きを示す曲線テーブルが特徴です。
+レイアウトには、参加者が従うことができるように、すべての椅子がディスプレイに向いているリモート参加者に対する対面の目の接触と向きのための曲線テーブルが備わっています。
 
-### <a name="how-does-the-audio-work"></a>オーディオの動作 
+### <a name="how-does-the-audio-work"></a>オーディオのしくみ 
 
-Microsoft Teams Rooms 認定されたオーディオ ソリューションを使用すると、ユーザーははっきりと聞き取り、聞き取りを行えるのです。
+Microsoft Teams Rooms認定されたオーディオ ソリューションを使用すると、ユーザーは明確に聞こえて聞こえます。
 
-今後、空間オーディオTeams Rooms概念を利用するオーディオ システムをサポートする予定です。 空間オーディオでは、音声は話している人の方向から生み出されます。 たとえば、会議ギャラリーの右側に位置するユーザーが話した場合、音声は、その場所に最も近い場所にあるスピーカーから提供されます。 この種の臨場感のあるオーディオ エクスペリエンスは、会議が対人会話に近い形で行うのに役立ちます。
+将来的には、Teams Roomsは空間オーディオと呼ばれる概念を利用するオーディオ システムをサポートします。 空間オーディオでは、音声は話す人の方向から発せられる。 たとえば、会議ギャラリーの右側にあるユーザーが話す場合、その場所に最も近いスピーカーから音声が届きます。 この種のイマーシブ オーディオ エクスペリエンスは、会議が対面会話によく似ているのに役立ちます。
 
-### <a name="how-does-the-camera-work"></a>カメラの動作
+### <a name="how-does-the-camera-work"></a>カメラはどのように動作しますか?
 
-超広角カメラは、ディスプレイの下の部屋の前面に配置され、空間内のすべてのユーザーをキャプチャします。
+超ワイド角度カメラは、ディスプレイの下の部屋の前面に配置され、空間内のすべてのユーザーをキャプチャします。
 
-超広角カメラは、会議の参加者をインテリジェントに追跡する機能を備え、部屋全体の大きな画像内の顔としてではなく、大きなビューで個別に表現できます。
+超ワイド角度カメラは、会議参加者をインテリジェントに追跡し、部屋全体の大きな画像内の顔としてではなく、大きなビューで個別に表すことができます。
 
-![オーバーヘッド ビューからの拡張会議室のレンダリング。](media/emr5.png)
+![オーバーヘッド ビューからの強化された会議室のレンダリング。](media/emr5.png)
 
-### <a name="how-do-the-front-of-room-displays-work"></a>部屋の前に表示する機能 
+### <a name="how-do-the-front-of-room-displays-work"></a>会議室の前面ディスプレイはどのように機能しますか? 
 
-この部屋は、最前行と呼ばれる Microsoft Teams Rooms レイアウト用に最適化され、特殊な短いスローの高解像度プロジェクターを通じて表示され、Teams 会議専用に設計された臨場感のあるフロント オブ ルーム エクスペリエンスを作成します。 
+この部屋は、最前列と呼ばれるMicrosoft Teams Roomsレイアウト用に最適化されており、特殊な短スロー高解像度プロジェクターを使用して表示され、Teams会議専用に設計されたイマーシブなフロント オブ ルーム エクスペリエンスを作成します。 
 
-### <a name="what-is-front-row"></a>最前面行とは
+### <a name="what-is-front-row"></a>最前列とは何ですか?
 
-会議前、会議中、会議後に、部屋のユーザーにリモート参加者とのつながりを高め、共同作業をサポートするために、Microsoft は最前列と呼ばれる Microsoft Teams Rooms の新しいコンテンツ レイアウトを導入しました。 視覚的には、この新しいレイアウトはビデオ ギャラリーを画面の下部に移動し、顔のサイズをリアルに保つために特定の比率で固定されています。 このレイアウトを使用すると、同じ部屋にいた場合と同様に、部屋の参加者はリモートの同僚が水平平面をまたがって向き合っているのを確認できます。
+会議室のユーザーにリモート参加者とのつながりを高め、会議の前後にコラボレーションをサポートするために、Microsoft は最前列と呼ばれるMicrosoft Teams Roomsの新しいコンテンツ レイアウトを導入しました。 視覚的に見た場合、この新しいレイアウトはビデオ ギャラリーを画面の下部に移動し、顔のサイズをリアルに保つために特定の比率で固定されます。 このレイアウトでは、室内参加者は、同じ部屋にいる場合と同様に、リモートの同僚が水平面をまたいで対面しているのを見ることができます。
 
-会議コンテンツは、議題、タスク、ノートなど、コンテキストに応じた流動的なコンポーネントで囲まれ、リアルタイムで更新できます。参加者の熱中と生産性を維持できます。 また、Teams 会議室から Teams 会議に参加すると、リアルタイムで簡単に会話を見て参加できるよう、会議チャットが明確に表示されます。 拡張 Microsoft Teams 会議室では、このコンテンツは、会議コンテンツのサイズと同時に表示できる参加者の数を最大化するために、広い縦横比の画面に表示されます。
+会議のコンテンツは、議題、タスク、メモなどのコンテキストに応じた流動的なコンポーネントに囲まれており、リアルタイムで更新でき、参加者のエンゲージメントと生産性の維持に役立ちます。 さらに、会議チャットが明確に表示されるため、Teams ルームからTeams会議に参加すると、会話をリアルタイムで簡単に表示して参加できます。 強化されたMicrosoft Teamsルームでは、このコンテンツが縦横比の広い画面に表示され、会議コンテンツのサイズと同時に表示できる参加者の数が最大になります。
 
-このレイアウトは、シングルディスプレイ構成とデュアルディスプレイ構成の両方でサポートされます。 最前面のレイアウトは、拡張された部屋で特にインパクトが強いレイアウトですが、家具やハードウェアの構成に関係なく、Windows で実行されている Teams Room で最前面行を使用できます。
+このレイアウトは、シングルディスプレイ構成とデュアルディスプレイ構成の両方でサポートされています。 強化された部屋では最前列のレイアウトが特に影響を受けますが、家具やハードウェアの構成に関係なく、Windowsで実行されている任意のTeamsルームで最前列を使用できます。
 
-### <a name="how-do-you-co-create-content"></a>コンテンツを共同で作成する方法
+### <a name="how-do-you-co-create-content"></a>コンテンツを共同作成する方法
 
-このMicrosoft Teams Roomsユーザーは、インテリジェント キャプチャ機能を使用して従来のアナログ ホワイトボードを利用できます。 Microsoft Whiteboard すべての参加者が一緒に描画およびインクを行う最新のエクスペリエンスを実現するには、タッチスクリーンの部屋前ディスプレイ、PC、電話、タブレットのようなコンパニオン デバイス、Microsoft Surface Hub を使用して Microsoft Surface Hub にアクセスできます。
+Microsoft Teams Roomsでは、ユーザーはインテリジェント キャプチャ機能を使用して、従来のアナログ ホワイトボードを利用できます。 すべての参加者が描画とインクを一緒に描画できるモダン化されたエクスペリエンスでは、タッチスクリーンの会議室の前面ディスプレイ、PC、スマートフォン、タブレットなどのコンパニオン デバイス、およびMicrosoft Surface Hubを使用してMicrosoft Whiteboardにアクセスできます。
 
-## <a name="enhanced-microsoft-teams-room-design-guidance"></a>拡張Microsoft Teamsルームの設計ガイダンス
+## <a name="enhanced-microsoft-teams-room-design-guidance"></a>強化されたMicrosoft Teamsルーム設計ガイダンス
 
-このセクションでは、一から部屋を作る方法について説明します。 
+このセクションは、最初から部屋を構築することを目的としています。 
 
-### <a name="room-layout"></a>ルーム レイアウト 
+### <a name="room-layout"></a>部屋のレイアウト 
 
 #### <a name="room-size"></a>部屋のサイズ
 
-![強化された会議室設計のブループリント。](media/emr10.png)
+![強化された会議室の設計のブループリント。](media/emr10.png)
 
-25 フィート x 14 フィート
+25 ft x 14 ft
 
-#### <a name="room-capacity"></a>部屋の容量 
+#### <a name="room-capacity"></a>会議室の容量 
 
-この拡張Microsoft Teamsルームは、6 ~ 8 人のユーザーに最適化されています。 
+この強化されたMicrosoft Teamsルームは、6 ~ 8 人に最適化されています。 
 
-#### <a name="room-furniture"></a>部屋の家具
+#### <a name="room-furniture"></a>ルームの家具
 
-この部屋には、参加者が一方の側に座っている曲線テーブルが用意されています。これにより、部屋の参加者は互いに可視性を維持し、リモートの参加者と対面して配置することができます。
+この部屋には、参加者が一方の側に座った曲線テーブルが備わっています。これにより、室内の参加者は互いの可視性を維持し、リモート参加者と対面して配置できます。
 
-高さが 30 cm または 76 cm の標準的な会議室テーブルが備わる会議室です。
+高さ 30 インチまたは 76 cm の標準会議室テーブルが備わるお部屋です。
 
 #### <a name="equipment-mounting"></a>機器の取り付け
 
-通常、ハードウェアの場所の選択は、特定の会議スペース内でTeams認定ハードウェアの選択によって駆動されます。
+通常、ハードウェアの場所の選択は、特定の会議スペース内で使用されるTeamsルーム認定ハードウェアの選択によって決まります。
 
-Microsoft の施設内での拡張ルームの初期展開では、Microsoft Teams Rooms コンピューティングおよびタッチ コンソールをテーブルにマウントし、カメラとサウンドバー デバイス (空間オーディオ用の個別の左チャンネルと右チャンネルのオーディオを含む) を特殊な家具に取り付け、表示された画像の下、および会議室の前面プロジェクションとテーブルの間にマウントします。 個人用デバイスやドキュメントの表の使用を妨さずに、参加者の手の届く範囲に本体を保持することが重要です。 ディスプレイには、短いスローの高解像度プロジェクターが使用されます。
+Microsoft の施設内で拡張された部屋を最初に展開する場合は、テーブルにMicrosoft Teams Roomsコンピューティングコンソールとタッチ コンソールを取り付け、特殊な家具にカメラとサウンドバーデバイス (空間オーディオ用の個別の左チャンネルと右チャンネルのオーディオ付き) を取り付け、表示された画像の下に配置し、部屋の前面プロジェクションとテーブルの間に配置することを選択しました。 個人のデバイスやドキュメントにテーブルを使用することを妨げることなく、本体を参加者の手の届かない範囲に維持することが重要です。 ディスプレイには、短スローの高解像度プロジェクターが使用されます。
 
-ほとんどの参加者は、個人用デバイスを介して会議に参加して、この種類の会議室Teamsコンテンツを共有します。 ただし、会議に参加できないユーザーが簡単にアクセスできる方法で、会議室のローカル ビデオ プレゼンテーションもテーブルで利用できる必要があります。
+ほとんどの参加者は、個人用デバイスを使用してTeams会議に参加することで、この種類の会議室内でコンテンツを共有することを選択します。 ただし、会議の呼び出しに参加できない場合は、室内のローカル ビデオ プレゼンテーションをテーブルで簡単に利用できるようにする必要があります。
 
 #### <a name="touch-console-placement"></a>タッチ コンソールの配置
 
-タッチ Microsoft Teams Roomsは、個人用デバイスやドキュメントのテーブルの使用をブロックすることなく、会議参加者が簡単にアクセスできる範囲内で、表の中央にマウントする必要があります。
+Microsoft Teams Roomsタッチ コンソールは、個人用デバイスやドキュメントのテーブルの使用をブロックすることなく、会議参加者の簡単なアクセスの範囲内でテーブルの中央に取り付ける必要があります。
 
 #### <a name="local-video-presentation"></a>ローカル ビデオ プレゼンテーション
 
-多くの参加者は、個人用デバイス経由で Teams 通話に Teams 会議に参加することで、この種類の会議室内のコンテンツを共有することもできますが、簡単にアクセスできる方法で、テーブルでローカル ビデオ プレゼンテーションを利用することもできます。
+多くの参加者は、個人用デバイスを介してTeams通話にTeams会議に参加することで、この種類の会議室内のコンテンツを共有することを選択できますが、室内のローカル ビデオ プレゼンテーションも、簡単にアクセスできる方法でテーブルで利用できるようにする必要があります。
 
 ## <a name="infrastructure"></a>インフラストラクチャ 
 
 ### <a name="infrastructure-power"></a>インフラストラクチャの電源
 
-少なくとも、電源接続は、テーブル (エンド ユーザー向け) と機器の取り付け場所の両方で提供する必要があります。 この空間で共同作成デバイスを使用する場合は、その場所で電力接続が必要になる場合があります。
+少なくとも、(エンド ユーザー向けの) テーブルと機器の取り付け場所の両方で電力接続を提供する必要があります。 共同作成デバイスが空間内で使用されている場合は、その場所で電力接続が必要になる場合もあります。
 
 ### <a name="infrastructure-data"></a>インフラストラクチャ データ
 
-ネットワーク接続は、テーブル (エンド ユーザー向け) と機器の取り付け場所 (ソリューションのメイン ネットワーク用) の両方で提供Teams Roomsがあります。 スペースでデバイスを共同作成する場合は、ネットワーク接続も必要になります。この接続は、ネットワーク ソリューションのメイン ネットワークTeams Roomsされます。
+ネットワーク接続は、テーブル (エンド ユーザー向け) と機器の取り付け場所 (Teams Rooms ソリューションのメイン ネットワーク) の両方で提供する必要があります。 この領域で共同作成デバイスが使用されている場合は、Teams Rooms ソリューションのメイン ネットワークに接続するネットワーク接続も必要になります。
 
 ### <a name="acoustic-wall-treatments"></a>音響壁の処理
 
-このタイプの部屋の少なくとも 2 つの壁は、会議中にエコーや周囲のノイズの問題を防ぐために音響的に処理する必要があります。
+会議中にエコーと周囲のノイズの問題を防ぐために、このタイプの部屋に少なくとも 2 つの壁を音響的に処理する必要があります。
 
-### <a name="window-treatments"></a>ウィンドウの処理
+### <a name="window-treatments"></a>ウィンドウ処理
 
-このタイプの部屋の窓からの光は照明に悪影響を及ぼし、カメラ画像と部屋の前面ディスプレイの両方に反射と影を生み出す可能性があります。 ウィンドウを備えたスペースには、会議中に外部ライトをブロックできるウィンドウ処理も備える必要があります。
+この種類の部屋のウィンドウからの光は、照明に悪影響を与え、カメラの画像と部屋の前面のディスプレイの両方に光と影を与える可能性があります。 ウィンドウを備えたスペースには、会議中に外部の光をブロックできるウィンドウ処理も含まれている必要があります。
 
-### <a name="floor-treatments"></a>フロア の処理
+### <a name="floor-treatments"></a>床の処理
 
-このタイプの部屋の床は、会議中にエコーや周囲の雑音の問題を防ぐために、タイルをかき立て、それ以外の場合は音響的に処理する必要があります。
+このタイプの部屋の床は、会議中にエコーや周囲のノイズの問題を防ぐために、床を床に入れるか、音響的に処理する必要があります。
 
 ### <a name="lighting"></a>照明 
 
-会議室の参加者が落ち着かなくても暗い空間に座っている状態で、スペースを照明するオーバーヘッド ライトを用意する必要があります。 部屋の前面ディスプレイの直接照明、デバイスの共同作成、または空間内の他の反射面の照明を最小限に抑えるための取り組みは、まぶしさが発生しないようにする必要があります。
+スペースを均等に照らすためにオーバーヘッド ライトを提供する必要があります。会議室の参加者は、暗い空間で洗い流されたり座ったりしないように見えます。 前面のディスプレイの直接照明を最小限に抑える取り組み、デバイスの共同作成、または空間内のその他の反射面は、まぶしさの発生を防ぐために取り組む必要があります。
 
 ## <a name="technology-guidance"></a>テクノロジガイダンス 
 
-### <a name="microsoft-teams-rooms-solution"></a>Microsoft Teams Rooms ソリューション
+### <a name="microsoft-teams-rooms-solution"></a>Microsoft Teams Roomsソリューション
 
-拡張された会議室ではMicrosoft Teams Microsoft Microsoft Teams Roomsを使用する必要Windows。
+Microsoft Teamsの拡張されたルームでは、Microsoft WindowsでMicrosoft Teams Roomsを使用する必要があります。
 
 ### <a name="cameras"></a>カメラ
 
-#### <a name="camera-options"></a>カメラ オプション
+#### <a name="camera-options"></a>カメラ のオプション
 
-このタイプの部屋では、空間の幅と深さについて適切に評価される、インテリジェントで超広角のフロント オブ ルーム カメラを使用する必要があります。
+このタイプの部屋では、空間の幅と奥行きに対して適切に評価されるインテリジェントな超ワイド角度のフロント オブ ルーム カメラを使用する必要があります。
 
 #### <a name="camera-placement"></a>カメラの配置
 
-カメラは会議室の前面投影の下の部屋の前面に配置し、テーブルの上部に配置して、すべての会議室の参加者を可能な限り目の高いレベルでキャプチャする必要があります。
+カメラは、会議室の前面プロジェクションの下の部屋の前に配置する必要がありますが、できるだけ目の高いレベルですべての会議室の参加者をキャプチャするには、テーブルの上部の上に配置する必要があります。
 
 ### <a name="microphones"></a>マイク
 
 #### <a name="microphone-options"></a>マイクのオプション
 
-このタイプのスペースでは、フロント オブ ルームマイク アレイと卓上マイクとオーバーヘッド マイクが機能します。
+このタイプの空間では、部屋の前面マイク アレイと卓上マイクとオーバーヘッド マイクが機能します。
 
 #### <a name="microphone-placement"></a>マイクの配置
 
@@ -344,85 +344,85 @@ Microsoft の施設内での拡張ルームの初期展開では、Microsoft Tea
 
 ### <a name="speakers"></a>スピーカー
 
-#### <a name="speaker-options"></a>スピーカー オプション
+#### <a name="speaker-options"></a>話者のオプション
 
-このタイプの空間では、フロント オブ ルーム スピーカー アレイとオーバーヘッド スピーカーが機能します。
+このタイプの空間では、部屋の前面のスピーカー 配列とオーバーヘッド スピーカーが機能します。
 
-注: 空間オーディオはまだ使用できません。特定のオーディオ デバイスが必要な場合があります。
+注: 空間オーディオはまだ使用できず、特定のオーディオ デバイスが必要な場合があります。
 
-#### <a name="speaker-placement"></a>スピーカーの配置
+#### <a name="speaker-placement"></a>話者の配置
 
-使用するデバイスまたはデバイスの認定範囲内のすべての会議室参加者の対象範囲を提供するには、スピーカーを配置する必要があります。
+使用されるデバイスの認定範囲内のすべての会議室参加者にカバレッジを提供するには、話者を配置する必要があります。
 
-### <a name="front-of-room-display"></a>フロント オブ ルーム ディスプレイ
+### <a name="front-of-room-display"></a>部屋の前面表示
 
 #### <a name="display-type"></a>表示の種類
 
-このタイプのルームでは、最大の可視性と明瞭さを確保するために、スペースの幅と深度に合った適切なサイズの超ワイドな高解像度のフロント オブ ルーム ディスプレイを使用する必要があります。
+このタイプの部屋では、最大の可視性と明瞭さを確保するために、スペースの幅と奥行きに適したサイズの超ワイド縦横比の高解像度のフロントオブルーム ディスプレイを使用する必要があります。
 
 表示の種類の例を次に示します。
 
 -   レーザー プロジェクター
 
--   LED ビデオの壁
+-   LED ビデオウォール
 
--   特殊なスクリーン パネルディスプレイまたは OLED フラット パネル ディスプレイ
+-   特殊な LCD または OLED フラット パネル ディスプレイ
 
-#### <a name="display-functions"></a>表示関数
+#### <a name="display-functions"></a>関数を表示する
 
-拡張Microsoft Teams Rooms、他のすべてのソリューションと同様Microsoft Teams Rooms、適切な操作のために次の機能に対応できるディスプレイを使用する必要があります。
+強化されたMicrosoft Teams Roomsは、他のすべてのMicrosoft Teams Rooms ソリューションと同様に、適切な操作のために次の機能に対応できるディスプレイを使用する必要があります。
 
--   HDMI 同期に基づいてスリープ状態からスリープ状態とクイック ウェイク アップ。
+-   HDMI 同期に基づいてスリープ状態からスリープ状態にし、クイック ウェイク アップします。
 
-    -   プロジェクターの場合、自動ウォームアップ期間とクールダウン期間は、ユーザーの介入なしでサポートする必要があります。
+    -   プロジェクターの場合は、ユーザーの介入を必要とせずに、自動ウォームアップとクールダウン期間をサポートする必要があります。
 
--   ディスプレイは、設計に必要な適切な EDID と解像度Microsoft Teams Rooms必要があります。
+-   ディスプレイは、Microsoft Teams Rooms設計に必要な適切な EDID と解像度をサポートしている必要があります。
 
-#### <a name="display-placement"></a>表示の配置
+#### <a name="display-placement"></a>ディスプレイの配置
 
-拡張された会議室では、テーブルの真向かいにある会議室のすべての参加者の前にディスプレイを配置する必要があります。
+強化された会議室では、テーブルの真向かいにあるすべての会議室の参加者の前にディスプレイを配置する必要があります。
 
-ディスプレイの水平方向の中心線は、表と同じ中央の線の中央に配置する必要があります。
+表示の水平方向の中心線は、テーブルと同じ中心線の中央に配置する必要があります。
 
-ディスプレイの垂直方向の中央の線は、表に座っている一般的な会議室の参加者の目線から +/- 15 度のオフセット以下である必要があります。
+ディスプレイの垂直方向の中央線は、テーブルに座った一般的な室内会議参加者の目線から +/- 15 度以内のオフセットにする必要があります。
 
-#### <a name="display-count"></a>表示回数
+#### <a name="display-count"></a>表示数
 
-会議室を拡張するには、1 つのワイド縦横比ディスプレイまたは組み合わせのディスプレイが必要です。これは、会議室の参加者が見た場合に 1 つのディスプレイの効果を実現できる必要があります。
+強化された会議室では、ディスプレイが単一のワイド縦横比ディスプレイであるか、または会議室内の会議参加者が見たときに 1 つのディスプレイになる効果を実現できるディスプレイのブレンドされた組み合わせであることが必要です。
 
 ### <a name="co-create-options"></a>共同作成オプション
 
 #### <a name="microsoft-whiteboard"></a>Microsoft Whiteboard
 
-すべての Teams Rooms は、Microsoft Surface Hub、タッチスクリーンのフロント オブ ルーム ディスプレイなどの対話型コラボレーション デバイス、PC、スマートフォン、タブレットなどのコンパニオン デバイスを通じて Microsoft Whiteboard を利用できます。
+すべてのTeams Roomsは、Microsoft Surface Hub、タッチスクリーンの部屋の前面ディスプレイ、PC、スマートフォン、タブレットなどのコンパニオン デバイスを介して、対話型コラボレーション デバイスを通じてMicrosoft Whiteboardを利用できます。
 
 #### <a name="traditional-whiteboard"></a>従来のホワイトボード 
 
-Teams RoomsのすべてのWindows、インテリジェント キャプチャ機能とセカンダリ コンテンツ カメラを使用して、Teams 会議で従来のホワイトボードを利用できます。
+WindowsのすべてのTeams Roomsは、インテリジェント キャプチャ機能とセカンダリ コンテンツ カメラを使用して、Teams会議で従来のホワイトボードを活用できます。
 
-## <a name="recommended-products-for-this-space"></a>このスペースの推奨製品
+## <a name="recommended-products-for-this-space"></a>この領域に推奨される製品
 
-### <a name="microsoft-teams-room-console-and-compute"></a>Microsoft Teamsコンソールとコンピューティング
+### <a name="microsoft-teams-room-console-and-compute"></a>Microsoft Teams Room コンソールとコンピューティング
 
--   WindowsベースのMicrosoft Teams Roomsソリューション。
+-   Windows ベースのMicrosoft Teams Rooms ソリューション。
 
 次に示すように、
 
-[タッチ コンソール用の Logitech TAP と、Compute デバイスと組み合わせ。](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/logitech-tap-room-systems-with-thinksmart-edition-tiny/523)
+[Logitech TAP for the touch console with a Lenovo Compute device.](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/logitech-tap-room-systems-with-thinksmart-edition-tiny/523)
 
 その他のオプション:
 
 -   [Lenovo ThinkSmart Core + Controller](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-core-controller/948)
 
--   [クレスロン Flex のカスタマイズ可能な会議システム](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/crestron-flex-customizable-conference-system/849)
+-   [山の Flex カスタマイズ可能な会議システム](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/crestron-flex-customizable-conference-system/849)
 
--   [クレスロン Flex のカスタマイズ可能な会議システム Advanced](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/crestron-flex-customizable-conference-system/849)
+-   [クレストロン Flex カスタマイズ可能な会議システム Advanced](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/crestron-flex-customizable-conference-system/849)
 
 -   [Poly G10-T](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-g10-t/564)
 
 ### <a name="camera"></a>カメラ
 
--   インテリジェントなフレーミングを備え、超ワイドカメラ。
+-   インテリジェントなフレーミングを備えた超ワイド カメラ。
 
 次に示すように、
 
@@ -444,7 +444,7 @@ Teams RoomsのすべてのWindows、インテリジェント キャプチャ機�
 
 ### <a name="microphone"></a>マイク
 
--   会議室のすべての参加者を明確にキャプチャする認定マイク ソリューション。
+-   すべての会議室参加者を明確にキャプチャする認定マイク ソリューション。
 
 次に示すように、
 
@@ -462,23 +462,23 @@ Teams RoomsのすべてのWindows、インテリジェント キャプチャ機�
 
 -   [Lenovo ThinkSmart Bar XL](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
 
--   [Biamp Devio 会議室ハブと Parle Ceiling マイク](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
+-   [Biamp Devio 会議室ハブと Parle Ceiling mic](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
 
--   [Biamp Devio 会議室ハブと Parle テーブル マイク](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
+-   [Parle テーブル マイク付き Biamp Devio 会議室ハブ](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
 
--   [Shure MXA710-4FT 壁掛けオーディオ システム](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/shure-mxa710-audio-systems/967)
+-   [Shure MXA710-4FT ウォールマウント オーディオ システム](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/shure-mxa710-audio-systems/967)
 
--   [Nureva HDL300 電話会議システム](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/nureva-hdl300-audio-conferencing-system/739)
+-   [Nureva XSLT300 電話会議システム](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/nureva-hdl300-audio-conferencing-system/739)
 
--   [QSC 会議室の音声: 天井の高いスピーカー](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/700)
+-   [QSC 会議室のオーディオ: 天井の高いスピーカー](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/700)
 
 -   [QSC 方向オーディオ - 天井オーディオ](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-directional-audio/704)
 
--   [QSC 会議室の音声: スピーカー](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-pendant-speakers/711)
+-   [QSC 会議室のオーディオ: 講演者](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-pendant-speakers/711)
 
--   [Parlé の天井マイク付きバイアンプ オーディオ](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
+-   [Parlé の天井マイクを備えた Biamp オーディオ](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
 
--   [Parlé の卓上マイクを使用したバイアンプ オーディオ](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
+-   [Parlé 卓上マイクを使用した Biamp オーディオ](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
 
 -   [Bose DS4 の天井オーディオ ソリューション](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-ds4-ceiling-audio-solution/694)
 
@@ -490,7 +490,7 @@ Teams RoomsのすべてのWindows、インテリジェント キャプチャ機�
 
 ### <a name="speakers"></a>スピーカー
 
--   すべての会議室の参加者に明確で分解性の高い音声を提供する認定スピーカー ソリューション。
+-   会議室内のすべての参加者に明確でわかりやすい音声を提供する認定スピーカー ソリューション。
 
 次に示すように、
 
@@ -508,23 +508,23 @@ Teams RoomsのすべてのWindows、インテリジェント キャプチャ機�
 
 -   [Lenovo ThinkSmart Bar XL](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
 
--   [Biamp Devio 会議室ハブと Parle Ceiling マイク](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
+-   [Biamp Devio 会議室ハブと Parle Ceiling mic](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
 
--   [Biamp Devio 会議室ハブと Parle テーブル マイク](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
+-   [Parle テーブル マイク付き Biamp Devio 会議室ハブ](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
 
--   [Shure MXA710-4FT 壁掛けオーディオ システム](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/shure-mxa710-audio-systems/967)
+-   [Shure MXA710-4FT ウォールマウント オーディオ システム](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/shure-mxa710-audio-systems/967)
 
--   [Nureva HDL300 電話会議システム](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/nureva-hdl300-audio-conferencing-system/739)
+-   [Nureva XSLT300 電話会議システム](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/nureva-hdl300-audio-conferencing-system/739)
 
--   [QSC 会議室の音声: 天井の高いスピーカー](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/700)
+-   [QSC 会議室のオーディオ: 天井の高いスピーカー](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/700)
 
 -   [QSC 方向オーディオ - 天井オーディオ](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-directional-audio/704)
 
--   [QSC 会議室の音声: スピーカー](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-pendant-speakers/711)
+-   [QSC 会議室のオーディオ: 講演者](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-pendant-speakers/711)
 
--   [Parlé の天井マイク付きバイアンプ オーディオ](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
+-   [Parlé の天井マイクを備えた Biamp オーディオ](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
 
--   [Parlé の卓上マイクを使用したバイアンプ オーディオ](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
+-   [Parlé 卓上マイクを使用した Biamp オーディオ](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
 
 -   [Bose DS4 の天井オーディオ ソリューション](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-ds4-ceiling-audio-solution/694)
 
@@ -536,20 +536,20 @@ Teams RoomsのすべてのWindows、インテリジェント キャプチャ機�
 
 ### <a name="displays"></a>表示
 
-- スリープ機能中の自動ウェイク オン 同期とクールダウンを備えた、短いスローまたは超短いスロー、高解像度、高輝度レーザー プロジェクター。 周囲光を拒否するプロパティを備える低ゲインプロジェクター画面は、明るい部屋で最高の画質を提供します。
+- スリープ機能中の自動ウェイクオン同期とクールダウンを備えた、短いスローまたは超短いスロー、高解像度、高輝度のレーザー プロジェクター。 低ゲインのプロジェクター画面と周囲の光の拒否プロパティにより、明るい部屋で最高の画質を提供します。
 
 次に示すように、 
 
-- [ElPLX01S Ultra Short Throw レンズを搭載した Eb-PU1007 プロジェクター](https://epson.com/For-Work/Projectors/Large-Venue/EB-PU1007B-WUXGA-3LCD-Laser-Projector-with-4K-Enhancement/p/V11HA34820)
-- [Da-Lite UTB Contour Screen |HD プログレッシブ 0.6 画面|Cinemascope 138" Diagonal](https://www.legrandav.com/products/da-lite/screens/fixed_frame_screens/utb_contour)
+- [ELPLX01S Ultra Short Throw レンズを搭載したエプソン EB-PU1007 プロジェクター](https://epson.com/For-Work/Projectors/Large-Venue/EB-PU1007B-WUXGA-3LCD-Laser-Projector-with-4K-Enhancement/p/V11HA34820)
+- [Da-Lite UTB 輪郭スクリーン |HD プログレッシブ 0.6 画面|Cinemascope 138" Diagonal](https://www.legrandav.com/products/da-lite/screens/fixed_frame_screens/utb_contour)
 
 その他のオプション:
 
-理想的なシナリオでは、他の表示オプション (代替プロジェクター、LED 壁、フラット パネル ディスプレイ) は、イメージにまたがるテーブルを作成し、4K イメージと 21:9 の縦横比をサポートできる必要があります。
+理想的なシナリオでは、その他の表示オプション (代替プロジェクター、LED ウォール、フラット パネル ディスプレイ) で、4k の画像と 21:9 の縦横比をサポートするテーブルを作成できる必要があります。
 
 ### <a name="co-create-options"></a>共同作成オプション
 
--   コンテンツ カメラが搭載されたアナログ ホワイトボード OR
+-   コンテンツ カメラを備えたアナログホワイトボード OR
 
 -   互換性のある対話型タッチ ディスプレイ。
 

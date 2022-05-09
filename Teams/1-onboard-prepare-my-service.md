@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: オンボード チェックリストを使用して、Microsoft 365 または Office 365 を Teams 用に準備し、Teams コア機能、ネットワーク、クラウド音声ワークロードを構成します。
+description: オンボード チェックリストを使用して、TeamsのMicrosoft 365またはOffice 365を準備し、Teamsコア機能、ネットワーク、クラウド音声ワークロードを構成します。
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -28,101 +28,101 @@ ms.locfileid: "58590931"
 ---
 # <a name="prepare-my-service"></a>サービスを準備する
 
-この記事では、組織のクラウド 音声サービスを準備するための要件の概要を説明します。 適切に準備することで、組織にクラウド音声機能を提供する準備が整います。
+この記事では、組織のクラウド 音声サービスを準備するための要件の概要について説明します。 適切な準備をすることで、組織にクラウド音声機能を提供する準備ができていることを確認できます。
 
-## <a name="onboarding-checklists-for-microsoft-teams-voice-workloads"></a>音声ワークロードのMicrosoft Teamsチェックリスト
+## <a name="onboarding-checklists-for-microsoft-teams-voice-workloads"></a>Microsoft Teams音声ワークロードのオンボーディング チェックリスト
 
-次のチェックリストでは、電話会議、電話システム と通話プラン ("通話プラン")、電話システム ダイレクト ルーティング ("ダイレクト ルーティング") 機能を Microsoft Teams で実装する手順について説明します。
+次のチェックリストでは、電話会議を実装する手順、通話プラン ("通話プラン") を使用した電話システム、Microsoft Teamsでのダイレクト ルーティング ("ダイレクト ルーティング") 機能の電話システム手順について説明します。
 
-*  [準備Microsoft 365またはOffice 365準備Teams](onboarding-checklist-enable-office-365.md)
+*  [TeamsのMicrosoft 365またはOffice 365を準備する](onboarding-checklist-enable-office-365.md)
 
 *  [コア機能Teams構成する](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 
 *  [ネットワークを準備する](prepare-network.md)
 
-*  [クラウド 音声ワークロードを構成する Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
+*  [Teamsでクラウド音声ワークロードを構成する](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
 
-*  [[ダイレクト ルーティングの構成] Teams](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)
+*  [Teamsでのダイレクト ルーティングの構成](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)
 
-これらのチェックリストのタスクとアクティビティは、クラウド音声機能の各デプロイに適用される主要な "To Do" Teams。 チェックリストをカスタマイズして、独自のアクティビティ体験に固有のアクティビティやタスクTeamsできます。
-
->[!NOTE]
->このガイダンスでは、通話プラン、電話会議、ダイレクト ルーティングのみを中心に説明します。 新しいアプリケーションを使用する場合はTeamsの[概要に関するページをMicrosoft Teams。](teams-overview.md) デプロイの計画に関する一般的なガイダンスTeams、「チャット、[チーム](deploy-chat-teams-channels-microsoft-teams-landing-page.md)、チャネル、アプリをデプロイする」から始Microsoft Teams。
-
-提供されているチェックリストを使用して、個々のアクティビティとタスクの状態を追跡し、重要な手順をスキップしていないか確認します。 各アクティビティには、必要なアクションの詳細な説明と、そのアクティビティを完了するために使用できる追加情報への参照が含まれています。
-
-チェックリストを順番に実行することをお勧めしますが、正確な順序は、デプロイの範囲と環境の構成と複雑さによって異なります。 "greenfield" Teams デプロイ (以前の Skype for Business Online プレゼンスがないデプロイ) または Skype for Business Online から Teams への移行をサポートするために編成されています。 Skype for Business Online から移行する場合は、これらのアクティビティの一部が既に完了している可能性があります。現在は無視できます。
-
-サイトごとにユーザーをオンボードする場合は、これらのチェックリストの補足ガイドとして、サイト有効化プレイブック [for Voice (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) を使用することを強くお勧めします。
+これらのチェックリストのタスクとアクティビティは、Teamsを使用したクラウド音声機能のすべてのデプロイに適用される主要な "to Do" 項目です。 チェックリストをカスタマイズして、独自のTeams体験に固有のアクティビティとタスクを含めることができます。
 
 >[!NOTE]
->構成設定の多くが、Teams Online Skype for Businessです。 これらの設定は、Microsoft 365 管理センターとMicrosoft Teams管理センターで構成します。
+>このガイダンスは、通話プラン、電話会議、およびダイレクト ルーティングのみに焦点を当てています。 Teamsを初めて使用する場合は、[Microsoft Teamsの概要を](teams-overview.md)確認してください。 Teams展開を計画するための一般的なガイダンスについては、[Microsoft Teamsでのチャット、チーム、チャネル、アプリのデプロイ](deploy-chat-teams-channels-microsoft-teams-landing-page.md)から始めます。
+
+提供されたチェックリストを使用して、個々のアクティビティとタスクの状態を追跡し、重要な手順をスキップしていないことを確認します。 各アクティビティには、必要なアクションの詳細な説明と、そのアクティビティを完了するために使用できる追加情報への参照が含まれています。
+
+チェックリストを順番に従うことをお勧めしますが、正確なシーケンスは、デプロイの範囲と環境の構成と複雑さによって異なります。 "greenfield" Teamsデプロイ (以前の Skype for Business Online プレゼンスのないデプロイ) または Skype for Business Online から Teamsへの移行をサポートするように編成されています。 Skype for Business Online から移行する場合は、これらのアクティビティの一部が既に完了しており、現在は無視できます。
+
+サイトごとにユーザーをオンボードする場合は、これらのチェックリストの補足ガイドとして、 [Site Enablement Playbook for Voice (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) を使用することを強くお勧めします。
+
+>[!NOTE]
+>構成設定のほとんどは、Teamsと Skype for Business Online の間で一般的です。 Microsoft 365 管理 センターとMicrosoft Teams管理センターを使用して、これらの設定を構成します。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断ポイント</td><td><ul><li>Whoチェックリストの完了を監視する責任は何ですか?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>オンボード チェックリストをダウンロードします。</li><li>組織の展開計画に従って、オンボーディング チェックリスト項目をステップ バイ ステップで実行します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断ポイント</td><td><ul><li>オンボーディング チェックリストの完了を監督する責任はWhoですか?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>オンボード チェックリストをダウンロードします。</li><li>組織の展開計画に従って、オンボード チェックリスト項目を段階的に実行します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
 
-## <a name="continue-onboarding"></a>オンボードを続行する
+## <a name="continue-onboarding"></a>オンボーディングを続行する
 
-これらのチェックリストを完了すると、展開に音声機能が正常に追加Teamsされます。
+これらのチェックリストを完了すると、Teamsデプロイに音声機能が正常に追加されます。
 
-次の手順として、音声用のサイト有効化プレイブック [(Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) を使用して、各サイトでユーザーをオンボードし、サイト固有の重要なアクティビティを計画して実行するのに役立ちます。
+次の手順として、 [Site Enablement Playbook for Voice (Playbook) を](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) 使用して、各サイトにユーザーをオンボードし、重要なサイト固有のアクティビティを計画して実行できるようにします。
 
--   準備完了サイト(サイト別) ロールアウト 計画
+-   サイト別の準備完了サイトロールアウト計画
 
 -   サービス管理プロセスを確立する
 
--   テストと修復の実行
+-   テストと修復を実行する
 
 <!--ENDOFSECTION-->
 
-## <a name="test-cloud-voice-workloads-in-teams"></a>クラウド音声ワークロードをテスト Teamsする
+## <a name="test-cloud-voice-workloads-in-teams"></a>Teamsでクラウド音声ワークロードをテストする
 
-Teams クラウド音声ビジネスの成功と技術実装計画を定義して文書化し、管理センターで必要な構成を実行した後、次の手順は、機能、機能、およびユーザビリティによって組織の期待と要件が満たされるのを検証します。 この検証手順は、実稼働環境でパイロットまたは最終的なデプロイをデプロイする前に実行する必要があります。
+Teamsクラウド 音声ビジネスの成功と技術的な実装計画を構想フェーズの一部として定義して文書化し、管理センターで必要な構成を実行したら、次の手順は、機能、機能、使いやすさを通じて組織の期待と要件が満たされていることを検証することです。 運用環境にパイロットまたは最終デプロイをデプロイする前に、この検証手順を実行する必要があります。
 
-計画フェーズで定義したビジネス成功計画を活用して、テスト フェーズ中に評価されるアクティビティ、期待値、機能/機能テスト ケース、および全体的な範囲を決定するための基礎として機能することができます。
+構想フェーズで定義したビジネス成功計画を活用して、テスト フェーズ中に評価されるアクティビティ、期待値、機能/機能テスト ケース、および全体的なスコープを決定するための基礎として機能します。
 
-## <a name="define-your-testing-approach"></a>テストアプローチを定義する
+## <a name="define-your-testing-approach"></a>テスト アプローチを定義する
 
-最も単純な形式では、テストアプローチは、電話会議、通話プラン、または直接ルーティング サービスの機能を確認し、スコープ内のユーザーに対して機能要件が満たされるのを確認するためのテスト計画の開発に基づいて行います。 電話会議実装のオンボード フェーズのテスト計画の例を次に示します。
+最も簡単な形式では、テスト アプローチは、電話会議、通話プラン、またはダイレクト ルーティング サービスの機能を確認し、スコープ内のユーザーに対して機能要件が満たされていることを確認するためのテスト計画を開発することに基づいています。 電話会議の実装のオンボード フェーズのテスト計画の例を次に示します。
 
 
-| テストする電話会議機能 | 結果の概要 | その他のメモ |
+| テストする電話会議機能 | 結果の概要 | その他の注意事項 |
 |------------|-----------------|------------------|
-| 電話会議のダイヤルTeamsを含む臨時の会議をスケジュールする | Pass/Fail   | TBD |
-| PSTN からダイヤルイン情報が表示された会議にダイヤルインして音声会議に電話を使用する | Pass/Fail | TBD |
-| PSTN 経由でダイヤルアウトして、他のユーザーを既存の会議に参加する | Pass/Fail | TBD |
+| 電話会議ダイヤルイン情報を含むアドホック Teams会議をスケジュールする | 成功/失敗   | TBD |
+| ダイヤルイン情報を提供して PSTN から会議にダイヤルインして、会議の音声に電話を使用する | 成功/失敗 | TBD |
+| PSTN 経由でダイヤルアウトして、他のユーザーを既存の会議に参加させる | 成功/失敗 | TBD |
 
 
 
-| テストする通話プランまたはダイレクト ルーティング機能 | 結果の概要 | その他のメモ |
+| プランまたはダイレクト ルーティング機能を呼び出してテストする | 結果の概要 | その他の注意事項 |
 |----------------------------------------------------|-----------------|------------------|
-| PSTN 番号をダイヤルして PSTN 通話を発信する       | Pass/Fail       | TBD |
-| PSTN 番号を外部回線 (携帯電話、固定電話) からダイヤルして PSTN 通話を受信する | Pass/Fail | TBD|
-| PSTN 通話を別のユーザー Teamsに転送する | Pass/Fail | TBD |
+| PSTN 番号をダイヤルして PSTN 通話を行う       | 成功/失敗       | TBD |
+| 外部回線 (モバイル、固定電話) から PSTN 番号をダイヤルして PSTN 通話を受信する | 成功/失敗 | TBD|
+| あるTeams ユーザーから別のユーザーに PSTN 通話を転送する | 成功/失敗 | TBD |
 
 
 >[!TIP]
->テスト ケースの作成を開始点として支援するには、「会議と通話」で利用できるユーザー[ガイダンスTeamsを参照してください](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8#bkmk_havingmeetings)。
+>テスト ケースの作成を開始点として支援するには、[Teams会議と通話](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8#bkmk_havingmeetings)で利用できるユーザー ガイダンスの一覧を参照してください。
 
 <!--ENDOFSECTION-->
 
-## <a name="set-up-cloud-voice-workloads-for-teams"></a>クラウド音声ワークロードを設定する Teams
+## <a name="set-up-cloud-voice-workloads-for-teams"></a>Teamsのクラウド音声ワークロードを設定する
 
-テストアプローチを定義したら、次の手順では、クラウド音声機能を使用するためのスコープ内のサービス環境とTeams構成します。
+テスト アプローチを定義したので、次の手順では、クラウド音声機能のスコープ内でサービス環境とユーザー Teams構成します。
 
-詳細については、以下を参照してください。
+詳細については、次を参照してください。
 
 - [音声会議での電話会議の計画  ](./cloud-voice-landing-page.md)
 
 - [Microsoft Teams の電話会議を設定する](set-up-audio-conferencing-in-teams.md)
 
-- [通話プランを使用電話システムの技術計画](calling-plan-landing-page.md)
+- [通話プランを使用した電話システムの技術計画](calling-plan-landing-page.md)
 
-- [通話プランをセットアップして、Skype for BusinessとMicrosoft Teams](/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
+- [Skype for BusinessとMicrosoft Teamsの通話プランを設定する](/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
 
 - [ダイレクト ルーティングを計画する](./direct-routing-plan.md)
 
@@ -130,69 +130,69 @@ Teams クラウド音声ビジネスの成功と技術実装計画を定義し�
 
 ### <a name="execute-the-test-plan"></a>テスト計画を実行する
 
-[//]: # (編集は問題ありませんか?"ユーザー" は私には少しあいまいに思えました。)
-ユーザー環境とサービスが構成された後、テストの最後の手順には、機能と機能の検証に焦点を当てたテスト 計画の実行が含まれます。 
+[//]: # (編集は問題ありませんか?"User" は少しあいまいに思えました。)
+ユーザー環境とサービスが構成された後、テストの最後の手順には、機能と機能の検証に重点を置いたテスト計画の実行が含まれます。 
 
 **電話会議テストの前提条件と、スコープ内のユーザーとサイトの前提条件:**
 
--   電話会議サービスのビジネス の使用事例の定義が完了しました。
+-   電話会議サービスのビジネス ユース ケース定義が完了しました。
 
--   電話会議に必要なライセンスが利用可能であり、割り当て済みです。
+-   電話会議に必要なライセンスが利用可能であり、割り当てられています。
 
--   組織サイトとユーザー グループの一覧が特定されました。
+-   組織サイトとユーザー グループの一覧が識別されました。
 
--   言語を優先する番号の専用および共有電話会議ダイヤルの一覧が識別され、構成されています。
+-   言語設定を使用して、専用および共有の電話会議ダイヤルイン番号の一覧が識別され、構成されています。
 
--   [通信クレジット](what-are-communications-credits.md) (必要な場合) は、組織に対して設定されています。
+-   [コミュニケーション クレジット](what-are-communications-credits.md) (必要な場合) は、組織に対して設定されています。
 
--   電話会議会議ブリッジの設定が識別され、構成されています (PIN の長さ、開始/終了通知、有効化通知の設定)。
+-   電話会議会議ブリッジの設定が識別され、構成されています (PIN の長さ、入退室通知、有効化通知の基本設定)。
 
--   電話会議のダイヤルアウト シナリオをサポートするテナント会議ポリシーとダイヤル プランの設定は、識別、構成、適用されています。
+-   電話会議のダイヤルアウト シナリオをサポートするテナント会議ポリシーとダイヤル プランの設定は、識別、構成、および適用されています。
 
 -   電話会議のコンプライアンス要件が特定され、構成されています。
 
-**スコープ内のユーザーとサイトの前提条件と前提条件をテストする通話プラン:**
+**スコープ内のユーザーとサイトの前提条件と前提条件をテストするプランの呼び出し:**
 
--   通話プラン サービスのビジネス の使用事例の定義が完了しました。
+-   通話プラン サービスのビジネス ユース ケース定義が完了しました。
 
--   通話プランに必要なライセンスが利用可能であり、割り当て済みです。
+-   通話プランに必要なライセンスが利用可能であり、割り当てられています。
 
--   組織サイトとユーザー グループの一覧が特定されました。
+-   組織サイトとユーザー グループの一覧が識別されました。
 
--   電話に割り当てる番号が取得または Microsoft に移植され、テナント ポータルで使用できます。
+-   ユーザーに割り当てる電話番号は、Microsoft に取得または移植されており、テナント ポータルで使用できます。
 
--   [通信クレジット](what-are-communications-credits.md) (必要な場合) は、組織に対して設定されています。
+-   [コミュニケーション クレジット](what-are-communications-credits.md) (必要な場合) は、組織に対して設定されています。
 
--   通話プランのシナリオをサポートするテナント ユーザー ポリシーとダイヤル プランの設定が識別、構成、適用されました。
+-   通話プランのシナリオをサポートするテナント ユーザー ポリシーとダイヤル プランの設定は、識別、構成、および適用されています。
 
 -   通話プランのコンプライアンス要件が特定され、構成されています。
 
-**ダイレクト ルーティング テストの前提条件と、スコープ内のユーザーとサイトの前提条件:**
+**スコープ内のユーザーとサイトのダイレクト ルーティング テストの前提条件と前提条件:**
 
--   ダイレクト ルーティング サービスのビジネス の使用事例の定義が完了しました。
+-   ダイレクト ルーティング サービスのビジネス ユース ケース定義が完了しました。
 
--   直接ルーティングに必要なライセンスが利用可能であり、割り当て済みです。
+-   直接ルーティングに必要なライセンスが使用可能であり、割り当てられています。
 
--   組織サイトとユーザー グループの一覧が特定されました。
+-   組織サイトとユーザー グループの一覧が識別されました。
 
--   認定[セッション ボーダー コントローラー (SBC)](./direct-routing-plan.md#supported-session-border-controllers-sbcs)がデプロイされ、構成され、電話システム。
+-   [認定されたセッション ボーダー コントローラー (SBC)](./direct-routing-plan.md#supported-session-border-controllers-sbcs) がデプロイされ、構成され、電話システムとペアになっています。
 
--   Enterpriseが有効になっている場合、電話番号が割り当て済みです。
+-   Enterprise音声が有効になっており、電話番号が割り当てられています。
 
--   音声ルーティング ポリシーが識別され、構成され、割り当て済みです。
+-   音声ルーティング ポリシーが識別され、構成され、割り当てられています。
 
--   Microsoft Teams、スコープ内のユーザーの優先呼び出し元クライアントとして設定されています。
+-   Microsoft Teamsは、スコープ内のユーザーの優先呼び出しクライアントとして設定されています。
  
--   直接ルーティングのコンプライアンス要件が特定され、構成されています。
+-   ダイレクト ルーティングコンプライアンス要件が特定され、構成されています。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断ポイント</td><td><ul><li>展開する電話会議機能を決定します (サービスの決定)。</li><li>電話会議のユーザー機能の要件を特定します。</li><li>電話会議のサービス構成要件を特定します。</li><br><li>直接ルーティングまたは通話プランをデプロイして構成するかどうかを決定します。<li>デプロイする電話システム機能を決定します (サービスの決定)。</li><li>通話プランまたは直接ルーティングのユーザー機能要件を特定します。</li><li>通話プランまたは直接ルーティングのサービス構成要件を特定します。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>テスト計画のアプローチを開発して文書化します。</li><li>電話会議機能のスコープ内でサービス環境とユーザーを準備します。</li><li>通話プランまたは直接ルーティング機能のスコープでサービス環境とユーザーを準備します。</li><li>有効にする電話会議機能のテスト検証を実行します。</li><li>有効にする通話プランまたは直接ルーティング機能のテスト検証を実行します。</li><li>テストエラーが発生した場合は、構成が正しいか確認し、コミュニティ記事を確認し、必要に応じてサポート ケースを作成します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断ポイント</td><td><ul><li>展開する電話会議機能を決定します (サービスの決定)。</li><li>電話会議のユーザー機能要件を特定します。</li><li>電話会議のサービス構成要件を特定します。</li><br><li>ダイレクト ルーティングプランと通話プランのどちらを展開して構成するかを決定します。<li>デプロイする機能の電話システムを決定します (サービスの決定)。</li><li>プランの呼び出しまたは直接ルーティングのユーザー機能要件を特定します。</li><li>プランの呼び出しまたは直接ルーティングのサービス構成要件を特定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>テスト計画のアプローチを開発して文書化します。</li><li>電話会議機能のスコープ内でサービス環境とユーザーを準備します。</li><li>プランの呼び出しまたはダイレクト ルーティング機能のスコープ内で、サービス環境とユーザーを準備します。</li><li>有効にする電話会議機能のテスト検証を実行します。</li><li>有効にする通話プランまたはダイレクト ルーティング機能のテスト検証を実行します。</li><li>テスト エラーが発生した場合は、構成が正しいことを確認し、コミュニティの記事を確認し、必要に応じてサポート ケースを作成します。</li></ul></td></tr>
 </table>
 
 
-Teams で電話会議のテストを実行する方法の詳細なガイダンスについては、電話会議の詳細なテスト ガイド[を参照してください](./deploy-audio-conferencing-teams-landing-page.md)。
+Teamsで電話会議のテストを実行する方法の詳細なガイダンスについては、[電話会議の詳細なテスト ガイドを](./deploy-audio-conferencing-teams-landing-page.md)参照してください。
 
-Teams で通話プランのテストを実行する方法の詳細なガイダンスについては、電話システム の詳細なテスト[ガイドを参照してください](./cloud-voice-landing-page.md)。
+Teamsでプランを呼び出すためのテストを実行する方法の詳細なガイダンスについては、電話システム[の詳細なテスト ガイドを](./cloud-voice-landing-page.md)参照してください。
 
 <!--ENDOFSECTION-->

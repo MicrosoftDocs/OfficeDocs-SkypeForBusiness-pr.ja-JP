@@ -7,21 +7,26 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: 管理センターがテナントで点灯しない場合Microsoft Teamsアップグレードの停止方法について確認します。
+description: 管理センターがテナントで点灯していない場合にMicrosoft Teamsにアップグレードするための停止機能について説明します。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
-  - CSH
+- CSH
 ms.custom:
-  - Teams-upgrade-guidance
-  - seo-marvel-apr2020
+- Teams-upgrade-guidance
+- seo-marvel-apr2020
 ms.collection:
-  - Teams_ITAdmin_JourneyFromSfB
-  - M365-collaboration
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: 63721004e4f5d45cb28f6741dc02b35313c4c3ba
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62421430"
 ---
-
 # <a name="upgrading-your-users-from-skype-for-business-online-to-microsoft-teams"></a>Skype for Business Online から Microsoft Teams へのユーザーのアップグレード
 
 > [!Note]

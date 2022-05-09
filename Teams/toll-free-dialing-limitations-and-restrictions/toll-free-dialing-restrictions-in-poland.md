@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: ポーランドの無料電話番号にダイヤルする方法 (空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限など) について学習します。
+description: 可用性、有線/固定回線、モバイル ネットワークの可用性、制限など、ポーランドでのフリーダイヤル番号のダイヤルについて説明します。
 ms.openlocfilehash: d14f0dd9981c3002e7e230d65e2a4bc95f4394e7
 ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT

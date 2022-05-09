@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams Rooms プレミアムマネージド サービス
+title: Microsoft Teams Rooms Premiumマネージド サービス
 author: v-smandalika
 ms.author: v-smandalika
 manager: serdars
@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Microsoft Teams Rooms アカウントが Microsoft Teams Rooms Premium マネージド サービスにアクセスするライセンスを取得する方法について説明します。
+description: Microsoft Teams Rooms アカウントが、Microsoft Teams Rooms Premium マネージド サービスにアクセスするためのライセンスを取得する方法について説明します。
 f1keywords: ''
 ms.openlocfilehash: a72dd47184487ed9364ceafacadfdc155743c292
 ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
@@ -24,25 +24,25 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 03/16/2022
 ms.locfileid: "63514836"
 ---
-# <a name="getting-started-with-microsoft-teams-rooms-premium-managed-service"></a>管理されたサービスMicrosoft Teams Rooms プレミアムの使用を開始する
+# <a name="getting-started-with-microsoft-teams-rooms-premium-managed-service"></a>Microsoft Teams Rooms Premiumマネージド サービスの概要
 
-Microsoft Teams Rooms プレミアム管理されたサービスにより、Teams 会議室の管理者は、会議室内の会議の生産性を向上させる改善された会議室操作を提供することで、複雑さを軽減します。
+Microsoft Teams Rooms Premiumマネージド サービスは、会議室の生産性を向上させる改善された会議室操作を提供することで、Teams Rooms管理者の複雑さを軽減します。
 
 ## <a name="obtain-and-assign-a-license"></a>ライセンスを取得して割り当てる
 
-Microsoft Teams Rooms リソース アカウントでは、Microsoft Teams Rooms プレミアム管理されたサービスを操作するために、Microsoft Teams Rooms プレミアム ライセンスが必要です。
+Microsoft Teams Roomsリソース アカウントでは、Microsoft Teams Rooms Premiumマネージド サービスを操作するためにMicrosoft Teams Rooms Premium ライセンスが必要です。
 
 ライセンスを割り当てるには、次の手順に従います。
 
-1. 管理者として[Microsoft 365 管理センター](https://admin.microsoft.com)ログインします。
+1. 管理者として[Microsoft 365 管理センター](https://admin.microsoft.com)にログインします。
 
     > [!NOTE]
-    > この種類の管理者は、グローバル管理者と呼 **ばれる場合があります**。 「概要」を[参照Microsoft 365 管理センター](/microsoft-365/business-video/admin-center-overview)。
+    > この種類の管理者は、 **グローバル管理者** と呼ばれることもあります。 [Microsoft 365 管理センター](/microsoft-365/business-video/admin-center-overview)の概要に関するページを参照してください。
 
-2. 左側 **のナビゲーション ウィンドウ> [ライセンス** の課金] を選択します。
-3. 目的の使用状況に **Teamsルーム プレミアム** ライセンスを選択します (有料ライセンスと試用版ライセンスを利用できます)。 「[Shared Communications Devices の](rooms-licensing.md)ライセンス ソリューション」を参照して、Microsoft Teams Rooms Standard SKU と プレミアム比較してください。
-4. [請求先 **アカウント] ページで、[** ライセンスの割り当 **て] を選択します**。 [ **ユーザーにライセンスを割り当てる]** ページが表示されます。
-5. ライセンスの割り当 **てMicrosoft Teamsルーム** の既存の **Teamsアカウントプレミアム** 入力します。 会議室アカウントの新規設定または既存の Microsoft Teams アカウントの検証の詳細については、「会議室と共有デバイスのリソース アカウントを作成する」[をTeamsしてください](with-office-365.md)。
-6. アカウントの提出が完了したら、[割り当て] **を選択し** 、[閉じる] を **選択します**。 会議室 **Microsoft Teamsライセンスプレミアム**、会議室アカウントMicrosoft Teams **割り当** て済みです。
+2. 左側のナビゲーション ウィンドウで [ **ライセンスの課金>** ] を選択します。
+3. 目的の使用に適 **したTeams Rooms Premium** ライセンスを選択します (有料ライセンスと試用版ライセンスを使用できます)。 Microsoft Teams Rooms Standard SKU と プレミアム SKU の比較については、「[共有通信デバイスのライセンス ソリューション](rooms-licensing.md)」を参照してください。
+4. [ **課金アカウント** ] ページで、[ **ライセンスの割り当て**] を選択します。 [ **ユーザーにライセンスを割り当てる** ] ページが表示されます。
+5. Teams Rooms プレミアムライセンス割り当 **ての既存の****Microsoft Teams Rooms アカウントを** 入力します。 新しいアカウントの設定または既存の Microsoft Teams Rooms アカウントの検証の詳細については、「[会議室と共有Teamsデバイスのリソース アカウントを作成する](with-office-365.md)」を参照してください。
+6. アカウントの申請が完了したら、[ **割り当て** ]、[ **閉じる**] の順に選択します。 **Microsoft Teams Rooms Premium** ライセンスは **、Microsoft Teams Rooms** アカウントに割り当てられています。
 
-これで、リソース アカウントと関連付けられている認定済み Microsoft Teams Rooms デバイスを、Microsoft Teams Rooms プレミアム管理されたサービスに登録する準備が整いました。 詳細については、「管理対象サービスの会議室にデバイスをMicrosoft Teams[するプレミアム」を参照してください](enrolling-mtrp-managed-service.md)。
+これで、Microsoft Teams Rooms Premium マネージド サービスにリソース アカウントと関連する認定Microsoft Teams Rooms デバイスを登録する準備が整いました。 詳細については、「[Microsoft Teams Rooms Premium マネージド サービスにデバイスを登録する](enrolling-mtrp-managed-service.md)」を参照してください。

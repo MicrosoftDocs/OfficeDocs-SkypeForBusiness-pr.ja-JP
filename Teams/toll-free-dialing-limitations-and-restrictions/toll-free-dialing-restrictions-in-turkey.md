@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: トルコの無料電話番号にダイヤルする方法 (空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限など) について学習します。
+description: 可用性、有線/固定回線、モバイル ネットワークの可用性、制限など、トルコでのフリーダイヤル番号のダイヤルについて説明します。
 ms.openlocfilehash: 7fde495bc0fbe99d40559d2e52bafe8f2f8d0149
 ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
@@ -43,7 +43,7 @@ ms.locfileid: "58631171"
 |国/地域の ISO コード  <br/> |TR  <br/> |
 |対象となる島/地域  <br/> |該当なし  <br/> |
 |対象外の島/地域  <br/> |該当なし  <br/> |
-|有線/固定回線の状態  <br/> | はい (スーパー オンラインを除く)。 <br/> |
+|有線/固定回線の状態  <br/> | スーパー オンラインを除き、はい。 <br/> |
 |携帯電話ネットワークの状態  <br/> |なし  <br/> |
 |コメント、制限、アクセスの問題など  <br/> |なし  <br/> |
    

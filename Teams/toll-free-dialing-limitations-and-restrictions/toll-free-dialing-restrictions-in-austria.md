@@ -1,5 +1,5 @@
 ---
-title: オーストリアの無料ダイヤル制限
+title: オーストリアでのフリーダイヤル制限
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -21,7 +21,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: これにより、各国/地域でフリーダイヤル番号をダイヤルする方法を確認できます。 国/地域を選択すると、国固有のページが表示されます。このページには、フリーダイヤル サービスを利用できる国/地域の詳細、および制限が表示されます。 ダイヤル形式または形式には、無料電話番号にダイヤルするために、国または地域ごとに必要なアクセス コードが表示されます。
+description: これにより、各国/地域でフリーダイヤル番号をダイヤルする方法を確認できます。 国/地域を選択すると、国固有のページが表示されます。このページには、フリーダイヤル サービスを利用できる国/地域の詳細、および制限が表示されます。 ダイヤル形式または形式には、フリーダイヤル番号をダイヤルするために必要な各国または地域内のアクセス コードが表示されます。
 ms.openlocfilehash: 8335435d8eac35b0e65ae8f8165ad2f9160b00d2
 ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
@@ -29,7 +29,7 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 02/05/2022
 ms.locfileid: "62394439"
 ---
-# <a name="toll-free-dialing-restrictions-in-austria"></a>オーストリアの無料ダイヤル制限
+# <a name="toll-free-dialing-restrictions-in-austria"></a>オーストリアでのフリーダイヤル制限
 
 [別の国または地域を検索](../toll-free-dialing-limitations-and-restrictions.md)、またはフリーダイヤルの制限について詳しく説明します。
 
@@ -38,7 +38,7 @@ ms.locfileid: "62394439"
 |:-----|:-----|
 |フリーダイヤルを利用できますか?  <br/> |はい  <br/> |
 |ダイヤル形式  <br/> | 0 800 XX XXX <br>|
-|国/地域の ISO コード  <br/> |AT  <br/> |
+|国/地域の ISO コード  <br/> |で  <br/> |
 |対象となる島/地域  <br/> |該当なし  <br/> |
 |対象外の島/地域  <br/> | 該当なし  <br/>  |
 |有線/固定回線の状態  <br/> |はい  <br/> |

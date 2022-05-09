@@ -1,5 +1,5 @@
 ---
-title: Education Insights エンド ユーザーに関する通知
+title: エンド ユーザー通知Education Insights
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: karsmith
-description: Education Insights エンド ユーザーに関する通知
+description: エンド ユーザー通知Education Insights
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -23,10 +23,10 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 12/03/2021
 ms.locfileid: "61284953"
 ---
-# <a name="education-insights-end-user-notice"></a>Education Insights エンド ユーザーに関する通知
+# <a name="education-insights-end-user-notice"></a>エンド ユーザー通知Education Insights
 
-このアプリケーションは Microsoft によって提供されますが、このアプリケーションの一部Microsoft Teams。
-このアプリケーションを使用するには、サブスクリプションが必要な場合Microsoft 365アプリケーション ("Application Services") をMicrosoft サービス他のアプリケーションを使用する必要があります。
-このアプリケーションと対応する Application Services へのアクセスは、(a) Microsoft サービス契約へのお客様の契約、または (b) Microsoft との組織のサブスクリプション契約を通じて適用される、このような Application Services の既存の条件によって管理されます。
-組織のサブスクリプションの有効期限が切れる場合、または ii) 組織がサブスクリプション、アプリケーション、またはアプリケーション サービスへのアクセスを終了する場合、このアプリケーションへのアクセスが失われる可能性があります。 アプリケーションには、別の条項に従って、お客様にライセンスが与えらるサード パーティ製コンポーネントが含まれる場合があります。
-このようなサード パーティ コンポーネントに関するサード パーティの通知は、サード パーティの通知でオンライン [でアクセスできます](https://eduinsights.microsoft.com/thirdpartynotice.txt)。 
+このアプリケーションは Microsoft によって提供されますが、Microsoft Teamsの一部ではありません。
+このアプリケーションを使用するには、このアプリケーション ("Application Services") の電源をMicrosoft 365またはその他のMicrosoft サービスのサブスクリプションが必要になる場合があります。
+このアプリケーションと対応する Application Services へのアクセスは、(a) Microsoft サービス契約に対する契約、または (b) お客様の組織の Microsoft とのサブスクリプション契約を通じてお客様に適用される、そのような Application Services の既存の条項によって管理されます。
+i) 組織のサブスクリプションの有効期限が切れた場合、または ii) 組織がサブスクリプション、アプリケーション、または Application Services へのアクセスを終了することを決定した場合、このアプリケーションにアクセスできなくなる可能性があります。 アプリケーションには、個別の条項に基づき、お客様にライセンスが付与されたサード パーティ製コンポーネントが含まれる場合があります。
+このようなサード パーティコンポーネントに対するサード パーティの通知は、 [サード パーティの通知](https://eduinsights.microsoft.com/thirdpartynotice.txt)でオンラインでアクセスできます。 

@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Microsoft 365 Office 365ラトビアでSkype for BusinessおよびMicrosoft Teamsサービスを利用できます。
+description: Skype for BusinessおよびMicrosoft Teams向けのMicrosoft 365サービスとOffice 365 サービスは、ラトビアで利用できます。
 ms.openlocfilehash: dac4a1294020414e01c901d2593180d16beacfb3
 ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "60733048"
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ラトビアで使用できるMicrosoft 365サービスOffice 365とSkype for BusinessサービスMicrosoft Teams次に示します。
+以下に、Skype for BusinessおよびMicrosoft Teams向けのMicrosoft 365サービスとOffice 365 サービスを示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -60,19 +60,19 @@ ms.locfileid: "60733048"
 |**機能**|**詳細**|
 |:-----|:-----|
 |通話プランは購入できますか?  <br/> |はい  <br/> |
-|通話プランで利用できる分数。 |予定表の月ごとに使用できるプラン オプションは 4 種類です。 <ul><li>120 分間の国内通話プラン </li><li>240 分の国内通話プラン</li></li><li>1,200 分の国内通話プラン </li></li><li>国内通話プランと国際通話プラン: 国内通話の 1200 分 -OR - 600 分の国際通話 (カレンダー月の最初に到達した方)</li></li></ul>|
-|Premium 番号への発信呼び出しはできますか?  <br/> | 現時点ではサポートされていません。 <br/> |
-|発信できる相手先  <br/> | [196 の国または地域へ](users-can-make-outbound-calls-to-these-countries-and-regions.md)。<br/> |
+|通話プランで利用できる分数。 |カレンダー月には、次の 4 つのプラン オプションがあります。 <ul><li>120 分の国内通話プラン </li><li>240 分の国内通話プラン</li></li><li>1200 分の国内通話プラン </li></li><li>国内通話と国際通話プラン: 国内通話の 1200 分 -OR- 国際通話の 600 分 (暦月の最初に到達した方)</li></li></ul>|
+|プレミアム番号に対して発信通話を行うことはできますか?  <br/> | 現時点ではサポートされていません。 <br/> |
+|発信できる相手先  <br/> | [196 の国または地域](users-can-make-outbound-calls-to-these-countries-and-regions.md)に。<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |Riiga ([要求に応じて](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
+|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |Riga ([要求時](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
 |有料電話番号は使用できますか?  <br/> |はい  <br/> |
-|無料電話番号は使用できますか?  <br/> |はい ([要求に応じて](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
+|無料電話番号は使用できますか?  <br/> |はい ([要求時](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
    
-電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得するには、「Skype for Business および通話キューのサービス電話番号を取得する」を参照[Microsoft Teams。](../getting-service-phone-numbers.md)
+電話会議、自動応答、通話キューの有料電話番号とフリーダイヤル電話番号を取得するには、「[Skype for BusinessとMicrosoft Teamsのサービス電話番号を取得する](../getting-service-phone-numbers.md)」を参照してください。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 

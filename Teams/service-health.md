@@ -13,7 +13,7 @@ ms.collection:
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams サービスが正常であり、Exchange、SharePoint、OneDrive for Business などの他の Microsoft 365 または Office 365 コンポーネントも同様SharePoint確認OneDrive for Business。
+description: Teams サービスが正常であり、Exchange、SharePoint、OneDrive for Businessなどの他のMicrosoft 365コンポーネントやOffice 365 コンポーネントも正常であることを確認することをお勧めします。
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c7aebfec6aedd018580ddece9d3d7dac4e30ca731b91decf5d74bc0acf9c3e91
@@ -25,9 +25,9 @@ ms.locfileid: "54316693"
 ---
 # <a name="verify-service-health-for-microsoft-teams"></a>Microsoft Teams のサービス正常性を確認する
 
-サービスの正常性がMicrosoft Teamsに表示Microsoft 365 管理センター。 問題をトラブルシューティングする前に、サービスが正常な状態Teamsをお試しください。 サービス正常性コンソールTeams<a href=" https://admin.microsoft.com/adminportal/home?ref=servicehealth" target="_blank">に移動</a>して、サービスの正常性を確認します。
+Microsoft Teamsのサービス正常性がMicrosoft 365 管理センターに表示されます。 問題のトラブルシューティングを行う前に、Teams サービスが正常であることを確認することをお勧めします。 Teams Service Health コンソールに移動して<a href=" https://admin.microsoft.com/adminportal/home?ref=servicehealth" target="_blank">、サービスの</a>正常性を確認します。
 
-また、Microsoft Teams は他の Microsoft 365 または Office 365 サービスの上に構築されているので、Service Health を確認する場合は、Exchange、SharePoint、OneDrive for Business の状態も確認してください。 これらの他のサービスの Service Health の問題は、Teams が影響を受けるという意味ではありません (たとえば、Exchange でのアドレス帳のダウンロードは利用できません)、影響を受けるサービスの勧告を確認して、Microsoft Teams に影響を与えるかどうかを判断する必要があります。
+また、Microsoft Teamsは他のMicrosoft 365またはOffice 365 サービスの上に構築されているため、Service Health を確認するときは、Exchange、SharePoint、およびOneDrive for Businessの状態も必ず確認してください。 これらの他のサービスの Service Health の問題は、Teamsが自動的に影響を受けるという意味ではありませんが (たとえば、Exchangeのアドレス帳のダウンロードは利用できません)、影響を受けるサービスのアドバイザリを確認して、Microsoft Teamsに影響があるかどうかを判断する必要があります。
 
 ![[サービス正常性] ページのスクリーンショット。](media/Verify_service_health_for_Microsoft_Teams_image1.png)
 

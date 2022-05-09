@@ -32,8 +32,8 @@ ms.locfileid: "63504084"
 
 Microsoft Teams Rooms は、HD ビデオ、オーディオ、およびコンテンツ共有を、小さな会議室から大きな会議室まで、あらゆる規模の会議に提供する完全な会議環境を提供します。
 
-![ユーザーは、Teams表示された会議室コンソールをタップします。](../media/room-systems-image1.jpg "ユーザーがバックグラウンドでTeamsの会議室コンソールをタップする")
-[Microsoft Teams会議室のヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)は、Microsoft Teams 会議室の詳細と、デプロイの一部として価値を追加する方法を確認するための便利なリソースです。
+![ユーザーがTeams Roomsコンソールをタップし、背景にディスプレイを表示します。](../media/room-systems-image1.jpg "ユーザーがTeams Roomsコンソールをタップし、背景にディスプレイを表示する")
+[Microsoft Teams Roomsヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)は、Microsoft Teams Roomsの詳細と、デプロイの一部として価値を追加する方法を確認するのに役立つ優れたリソースです。
 
 ## <a name="microsoft-teams-rooms-components"></a>Microsoft Teams Rooms のコンポーネント
 
@@ -48,17 +48,17 @@ Microsoft Teams Rooms には、優れたユーザー エクスペリエンスを
 
 これらのコンポーネントは、多数のベンダーからプリインストールされたバンドルとして購入できます。または、この記事に記載されている[要件](requirements.md)に従って、サポートされているコンポーネントを個別に購入できます。
 
-オンプレミスのデプロイMicrosoft Teamsを使用Microsoft Teams、Skype for Business会議室をデプロイできます。  必要なライセンスの詳細については、「[Teams の会議室ライセンスの更新](rooms-licensing.md)」を参照してください。
+Microsoft TeamsまたはSkype for Businessのオンプレミス展開でMicrosoft Teams Roomsをデプロイできます。  必要なライセンスの詳細については、「[Teams の会議室ライセンスの更新](rooms-licensing.md)」を参照してください。
 
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
-|![デプロイを決定します。](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Microsoft Teams Rooms を組織に展開しますか? </li><li>会議室システムの調達方法Microsoft Teamsですか?</li></ul> |
+|![デプロイを決定します。](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Microsoft Teams Rooms を組織に展開しますか? </li><li>Microsoft Teams Rooms システムをどのように調達しますか?</li></ul> |
 | ![アクティビティを識別します。](../media/audio_conferencing_image9.png)<br/>次のステップ | <ul><li>展開全体を通して、主要な作業を引き受けるユーザーを特定します。</li><li>所有している (およびセットアップを計画している) 会議室を確認し、Microsoft Teams Rooms を展開する場所と、会議室の規模に適した周辺機器を把握します。</li></ul> |
 | | |
 
 ## <a name="identify-who-will-undertake-the-key-activities-throughout-your-deployment"></a>展開全体を通して、主要な作業を引き受けるユーザーを特定する
 
-以下に示す方法を使用して、デプロイの手順を説明し、必要に応じて組織に提供されるサンプル出力をカスタマイズします。
+次に示す方法を使用して、展開をガイドし、組織に必要に応じて提供されるサンプル出力をカスタマイズします。
 
 まず、どのような会議室があるかを把握し、将来的にどのような会議室が最適かを想定してから、必要な機器の選択と調達、サイトの準備、サービスの設定と展開、変更とユーザー導入の管理、運用とメンテナンス手順の開発に進みます。
 
@@ -82,7 +82,7 @@ Microsoft Teams Rooms には、優れたユーザー エクスペリエンスを
 
 ## <a name="room-inventory-and-capability-planning"></a>会議室のリスト化と機能の計画
 
-最初の手順では、組織の既存の会議スペースと会議室のインベントリを作成して、環境、部屋のサイズ、レイアウト、および目的を理解します。 その後、インテリジェント カメラ、ホワイトボード、コンテンツ カメラなど、各部屋に必要な機能を特定できます。
+最初の手順では、組織の既存の会議スペースと会議室をインベントリし、環境、部屋のサイズ、レイアウト、目的を把握します。 その後、インテリジェント カメラ、ホワイトボード、コンテンツ カメラなど、各ルームに必要な機能を特定できます。
 
 既存の各部屋の機器と機能のリストを作成したら、その部屋の要件がデバイス選択計画に入力され、豊富な会議ソリューションが作成されます。 各部屋に必要なモダリティ (オーディオ、ビデオ) は、部屋の規模と目的に加えて、すべて各部屋に最適なソリューションを決定する際に重要な役割を果たします。 
 
@@ -90,7 +90,7 @@ Microsoft Teams Rooms には、優れたユーザー エクスペリエンスを
 
 | &nbsp;   | &nbsp;    |
 |-----------|------------|
-| ![deplyment rooms。](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>対象の会議室を確認し、Microsoft Teams Rooms の構成を定義します。</li></ul>|
+| ![deplyment rooms.](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>対象の会議室を確認し、Microsoft Teams Rooms の構成を定義します。</li></ul>|
 
 _会議のサンプルのリスト_
 
@@ -111,8 +111,8 @@ _会議のサンプルのリスト_
 
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
-| ![スコープ内の会議室。](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>リストから、どの種類の会議室が展開対象ですか?</li><li>各会議室の種類ごとにどのシステムを導入しますか?</li></ul>|
-| ![マテリアルを収集します。](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>選んだシステムの重要な運用材料を収集し、調達チームと連携します。</li></ul>|
+| ![スコープ内のルーム。](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>リストから、どの種類の会議室が展開対象ですか?</li><li>各会議室の種類ごとにどのシステムを導入しますか?</li></ul>|
+| ![素材を収集します。](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>選んだシステムの重要な運用材料を収集し、調達チームと連携します。</li></ul>|
 
 _お客様の組織に適した Microsoft Teams Rooms の展開テンプレートの例_
 
@@ -135,25 +135,25 @@ _お客様の組織に適した Microsoft Teams Rooms の展開テンプレー�
 
 |   &nbsp; |  &nbsp;   |
 |-----------|------------|
-| ![出荷コンポーネント。](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>コンポーネントをサイトまたはステージング施設に直接発送しますか?</li><li>ステージング施設を管理するのは誰ですか (1 つを使用する場合)?</li></ul>|
-| ![プラン操作。](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>運用計画を立てます。</li><li>導入および変更管理を計画します。</li></ul>|
+| ![は、コンポーネントを出荷します。](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>コンポーネントをサイトまたはステージング施設に直接発送しますか?</li><li>ステージング施設を管理するのは誰ですか (1 つを使用する場合)?</li></ul>|
+| ![計画操作。](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>運用計画を立てます。</li><li>導入および変更管理を計画します。</li></ul>|
 
 ## <a name="plan-for-operations"></a>運用計画 
 
 組織は継続的に監視、管理、および管理タスクを実行する必要があります。また、展開の早い段階で誰がこれらのタスクを担当するかについて合意することが重要です。 
 
-多くの組織には、会議室やデバイスを管理する AV チームまたはパートナーがいます。 または、会議室と会議室を活用して、Teams会議室の管理を Microsoft Microsoft Teamsサポートプレミアム。 パフォーマンスを監視し、ソフトウェアMicrosoft Teams修正プログラムを展開するために、今後、会議室デバイスを管理するユーザーを決定します。 
+多くの組織には、会議室やデバイスを管理する AV チームまたはパートナーがいます。 または、Microsoft Teams Rooms Premiumを活用してTeams Roomsを管理する Microsoft のサポートを受けることができます。 パフォーマンスを監視したり、ソフトウェアの更新プログラムや修正プログラムを展開したりするために、今後Microsoft Teams Roomsデバイスを管理するユーザーを決定します。 
 
 Microsoft Teams Rooms関連の連絡を転送するヘルプデスク キューを検討し、ヘルプデスク チームに FAQ を提供して、Microsoft Teams Rooms の使用方法と主要なトラブルシューティング手順を理解してもらいます。 この FAQ の良い開始点は、[ユーザー ヘルプ](https://support.microsoft.com/office/microsoft-teams-rooms-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)と[既知の問題](known-issues.md)です。
 
 |  &nbsp;  |  &nbsp;   |
 |-----------|------------|
-| ![[manager] を選択します。](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Microsoft Teams Rooms の管理者を決めます。</li><li>Microsoft Teams Rooms 関連の連絡を転送するヘルプデスク キューを決めます。</li></ul>|
+| ![マネージャーを選択します。](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Microsoft Teams Rooms の管理者を決めます。</li><li>Microsoft Teams Rooms 関連の連絡を転送するヘルプデスク キューを決めます。</li></ul>|
 | ![ホスト アカウントを準備します。](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>アカウントのホストを準備します。 </li></ul>|
 
 
 ## <a name="plan-for-adoption-and-change-management"></a>導入と変更の管理の計画
 
-Microsoft Teams Rooms システムは、ユーザーに新しい機能を紹介します。 これがユーザーの変更になるのを認識し、社内のマーケティング キャンペーンで新しいシステムがユーザーに与えるメリットを特定し、リードがチームと話し合う重要なポイントを特定する必要があります。 
+Microsoft Teams Rooms システムは、ユーザーに新しい機能を紹介します。 これはユーザーの変更であることを認識しておくことが重要です。また、内部マーケティング キャンペーンで、新しいシステムがユーザーに与えるメリットと、チームとの話し合いに役立つ主要な話し合いポイントを確実に特定する必要があります。 
 
-ユーザーに新しい機能を知らせるために、各サイトで見せたり説明したりするイベントとポスターをスケジュールすることを検討してください。 また、社内に「クイック スタート ガイド」を作成することもできます。 各サイトで会議の開催者を見つけることを検討してください。他のユーザーがデバイスを使い始めるのに役立ちます。
+ユーザーに新しい機能を知らせるために、各サイトで見せたり説明したりするイベントとポスターをスケジュールすることを検討してください。 また、社内に「クイック スタート ガイド」を作成することもできます。 各サイトで会議のチャンピオンを見つけることを検討してください。これにより、他のユーザーがデバイスの速度を上げて使用を開始するのに役立ちます。

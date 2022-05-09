@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams対応言語の自動応答
+title: 自動応答でサポートされている言語をMicrosoft Teamsする
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -20,7 +20,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Microsoft Teams対応言語の自動応答
+description: 自動応答でサポートされている言語をMicrosoft Teamsする
 ms.openlocfilehash: 52dc175b5c8d7379d538c3a80b28b763279c7c41
 ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
@@ -28,19 +28,19 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 08/26/2021
 ms.locfileid: "58605836"
 ---
-# <a name="microsoft-teams-auto-attendant-supported-languages"></a>Microsoft Teams対応言語の自動応答
+# <a name="microsoft-teams-auto-attendant-supported-languages"></a>自動応答でサポートされている言語をMicrosoft Teamsする
 
 自動応答では、テキスト読み上げ (TTS) と音声認識に対して次の言語がサポートされます。
 
 |言語                                |テキスト読み上げ (TTS)     |音声認識                     |
 |:---------------------------------------|:-----------------------:|:-------------------------------------:|
 |アラビア語 (エジプト)                          |Y                        |                                       |
-|カトラン語 (カトラン)                       |Y                        |Y                                      |
+|カタラン語 (カタラン語)                       |Y                        |Y                                      |
 |中国語 (簡体字、PRC)               |Y                        |Y                                      |
 |中国語 (繁体字、香港)        |Y                        |                                       |
 |中国語 (繁体字、台湾)           |Y                        |                                       |    
 |クロアチア語 (クロアチア)                      |Y                        |                                       |    
-|チェコ語 (チェコ共和国)                  |Y                        |                                       |    
+|チェコ語 (チェコ)                  |Y                        |                                       |    
 |デンマーク語 (デンマーク)                        |Y                        |                                       |    
 |オランダ語 (オランダ)                     |Y                        |                                       |    
 |英語 (オーストラリア)                     |Y                        |Y                                      |
@@ -74,7 +74,7 @@ ms.locfileid: "58605836"
 |ベトナム語 (ベトナム)                    |Y                        |                                       |    
 
 > [!NOTE]
-> 音声認識をサポートしていない言語を選択すると、メニュー内の音声入力オプションが無効になります。名前によるダイヤルは、キーパッド (DTMF) エントリの使用にのみ制限されます。 詳細については、「 [名前によるダイヤル - キーパッド (DTMF) エントリ」](dial-voice-reference.md#dial-by-name---keypad-dtmf-entry) を参照してください。
+> 音声認識をサポートしない言語を選択すると、メニュー内の音声入力オプションが無効になり、名前によるダイヤルはキーパッド (DTMF) エントリのみを使用するように制限されます。 詳細については、「 [名前によるダイヤル - キーパッド (DTMF) エントリ](dial-voice-reference.md#dial-by-name---keypad-dtmf-entry) 」を参照してください。
 
 > [!NOTE]
-> テキスト読み上げを使用する場合、システムは翻訳を実行しなく、選択した言語でテキストを入力する必要があります。
+> Text to Speech を使用する場合は、システムが翻訳を実行しないため、選択した言語でテキストを入力する必要があります。

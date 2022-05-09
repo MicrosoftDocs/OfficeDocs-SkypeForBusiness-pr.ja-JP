@@ -48,6 +48,6 @@ ms.locfileid: "62387415"
 ## <a name="related-topics"></a>関連項目
 [無料電話ダイヤルの制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 
-[サービス電話番号の取得](../getting-service-phone-numbers.md)
+[サービスの電話番号を取得する](../getting-service-phone-numbers.md)
 
   

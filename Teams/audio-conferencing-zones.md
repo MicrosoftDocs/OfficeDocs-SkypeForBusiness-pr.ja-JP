@@ -84,6 +84,6 @@ ms.locfileid: "62055847"
 
 - [国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [音声会議の無料ダイヤル アウト期間](complimentary-dial-out-period.md)
-- [電話会議サブスクリプション "ダイヤルアウト"/"通話場所" 分の特典](audio-conferencing-subscription-dial-out.md)
+- [電話会議サブスクリプション "Dial-Out"/"Call Me At" 分特典](audio-conferencing-subscription-dial-out.md)
 - [電話会議およびユーザーの PSTN 通話に対する発信通話の制限ポリシー](outbound-calling-restriction-policies.md)
 - [コミュニケーション クレジットについて](what-are-communications-credits.md)

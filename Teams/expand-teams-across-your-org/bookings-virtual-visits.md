@@ -1,5 +1,5 @@
 ---
-title: Microsoft TeamsとBookings アプリを使用した仮想予定
+title: Microsoft Teams と Bookings アプリを使用した仮想予定
 author: lanachin
 ms.author: v-lanachin
 manager: samanro
@@ -28,7 +28,7 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 04/14/2022
 ms.locfileid: "64853208"
 ---
-# <a name="virtual-appointments-with-microsoft-teams-and-the-bookings-app"></a>Microsoft TeamsとBookings アプリを使用した仮想予定
+# <a name="virtual-appointments-with-microsoft-teams-and-the-bookings-app"></a>Microsoft Teams と Bookings アプリを使用した仮想予定
 
 ## <a name="overview"></a>概要
 
