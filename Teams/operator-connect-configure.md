@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bcb26d86e9b95ee629c252ea7cec25fc5f3eaf4
-ms.sourcegitcommit: 5bfd2e210617e4388241500eeda7b50d5f2a0ba3
+ms.openlocfilehash: 222ea1852ef4336c21cfb24c977c20665a667ff3
+ms.sourcegitcommit: 9968ef7d58c526e35cb58174db3535fd6b2bd1db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "64885005"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "65284072"
 ---
 # <a name="configure-operator-connect"></a>オペレーター接続を構成する
 
@@ -104,52 +104,51 @@ Teams管理センターで演算子を有効、編集、削除できます。 �
 
 #### <a name="step-1---remove-existing-direct-routing-numbers"></a>手順 1 - 既存のダイレクト ルーティング番号を削除します。
 
-既存のダイレクト ルーティング番号を削除する方法は、その番号がオンプレミスとオンラインのどちらに割り当てられているかによって異なります。 確認するには、次のコマンドを実行します。
+既存のダイレクト ルーティング番号を削除する方法は、その番号がオンプレミスとオンラインのどちらに割り当てられているかによって異なります。 確認するには、次のTeams PowerShell モジュール コマンドを実行します。
     
 ```PowerShell
-Get-CsOnlineUser -Identity <user> | fl RegistrarPool,OnPremLineURIManuallySet, OnPremLineURI, LineURI 
+Get-CsOnlineUser -Identity <user> | fl RegistrarPool, OnPremLineURI, LineURI 
 ```
 
-E.164 電話番号に`False`設定され`LineUri`、設定されている場合`OnPremLineUriManuallySet`、電話番号はオンプレミスに割り当てられ、Office 365に同期されました。
+E.164 電話番号が入力されている場合`OnPremLineUri`、電話番号はオンプレミスに割り当てられ、Office 365に同期されました。
     
-**オンプレミスに割り当てられているダイレクト ルーティング番号を削除するには、次の** コマンドを実行します。
+**オンプレミスに割り当てられているダイレクト ルーティング番号を削除するには、** 次のSkype for Business Server PowerShell コマンドを実行します。
     
 ```PowerShell
 Set-CsUser -Identity <user> -LineURI $null 
 ```
 
-削除が有効になるまでにかかる時間は、構成によって異なります。 オンプレミスの番号が削除され、変更が同期されているかどうかを確認するには、次の PowerShell コマンドを実行します。 
+削除が有効になるまでにかかる時間は、構成によって異なります。 オンプレミスの番号が削除され、変更が同期されているかどうかを確認するには、次のTeams PowerShell モジュール コマンドを実行します。 
     
 ```PowerShell
-Get-CsOnlineUser -Identity <user> | fl RegistrarPool,OnPremLineURIManuallySet, OnPremLineURI, LineURI 
+Get-CsOnlineUser -Identity <user> | fl RegistrarPool, OnPremLineURI, LineURI 
 ```
        
 変更がオンライン ディレクトリOffice 365同期された後、予想される出力は次のようになります。 
        
  ```console
 RegistrarPool                        : pool.infra.lync.com
- OnPremLineURIManuallySet             : True
- OnPremLineURI                        : 
+OnPremLineURI                        : 
 LineURI                              : 
 ```
 
-<br> **オンラインで割り当てられている既存のオンライン ダイレクト ルーティング番号を削除するには、** 次の PowerShell コマンドを実行します。
+<br> **オンラインで割り当てられている既存のオンライン ダイレクト ルーティング番号を削除するには、** 次のTeams PowerShell モジュール コマンドを実行します。
 
 
 ```PowerShell
 Remove-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <pn> -PhoneNumberType DirectRouting
 ```
 
-電話番号を削除するには、最大で 10 分かかる場合があります。 まれに、最大 24 時間かかる場合があります。 オンプレミスの番号が削除され、変更が同期されているかどうかを確認するには、次の PowerShell コマンドを実行します。 
+電話番号を削除するには、最大で 10 分かかる場合があります。 まれに、最大 24 時間かかる場合があります。 電話番号が削除されたかどうかを確認するには、次のTeams PowerShell モジュール コマンドを実行します。 
 
 
 ```PowerShell
-Get-CsOnlineUser -Identity <user> | fl Number
+Get-CsOnlineUser -Identity <user> | fl LineUri
 ```
 
 #### <a name="step-2---remove-the-online-voice-routing-policy-associated-with-your-user"></a>手順 2 - ユーザーに関連付けられているオンライン音声ルーティング ポリシーを削除する
 
-番号が割り当てられていない場合は、次の PowerShell コマンドを実行して、ユーザーに関連付けられているオンライン音声ルーティング ポリシーを削除します。
+番号が割り当てられていない場合は、次のTeams PowerShell モジュール コマンドを実行して、ユーザーに関連付けられているオンライン音声ルーティング ポリシーを削除します。
 
 ```PowerShell
 Grant-CsOnlineVoiceRoutingPolicy -Identity <user> -PolicyName $Null

@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: ユーザーがダイレクト ルーティングをMicrosoft Teams 電話できるようにする方法について説明します。
-ms.openlocfilehash: e82865abcc7bb37835009fb9ab7f93e11c423d66
-ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
+ms.openlocfilehash: edf02077bf5c15da56fe7894d1faec2a9b87b0d5
+ms.sourcegitcommit: 9968ef7d58c526e35cb58174db3535fd6b2bd1db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63774096"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "65284082"
 ---
 # <a name="enable-users-for-direct-routing"></a>ダイレクト ルーティングのユーザーを有効にする
 
@@ -57,7 +57,7 @@ Skype for Business Online 展開がSkype for Business 2015 または Lync 2010 �
 
 この手順は、Teams ダイレクト ルーティングに移行される有効なユーザー Skype for Business Server エンタープライズ VoIPに適用されます。
 
-ダイレクト ルーティングでは、ユーザーがオンラインでホームになっている必要があります。 infra.lync.com ドメインに値が必要な RegistrarPool パラメーターを調べて確認できます。 Microsoft では、ユーザーを Teams ダイレクト ルーティングに移行するときに、LineURI をオンプレミスからオンラインに変更することを推奨していますが、必須ではありません。 
+ダイレクト ルーティングでは、ユーザーがオンラインでホームになっている必要があります。 infra.lync.com ドメインに値が必要な RegistrarPool パラメーターを調べて確認できます。 Microsoft では、ユーザーを Teams ダイレクト ルーティングに移行するときに、LineURI をオンプレミスからオンラインに変更することを推奨していますが、必要ありません。 
 
 1. Microsoft Teams PowerShell セッションをConnectします。
 
@@ -66,7 +66,7 @@ Skype for Business Online 展開がSkype for Business 2015 または Lync 2010 �
     ```PowerShell
     Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUri,LineUri
     ``` 
-    OnPremLineUri に<E.164 電話番号>が設定されている場合、電話番号はオンプレミスに割り当てられ、Microsoft 365に同期されました。 オンラインで電話番号を管理する場合は、オンプレミスのSkype for Business管理シェルを使用してパラメーターをクリーニングし、Microsoft 365に同期してから、powerShell Teams使用して電話番号を構成します。 
+    OnPremLineUri に<E.164 電話番号>が設定されている場合、電話番号はオンプレミスに割り当てられ、Microsoft 365に同期されました。 オンラインで電話番号を管理する場合は、オンプレミスのSkype for Business管理シェルを使用してパラメーターをクリアし、Microsoft 365に同期してから、powerShell Teams使用して電話番号を構成します。 
 
 1. 管理シェルSkype for Businessから、次のコマンドを発行します。 
 
@@ -76,11 +76,10 @@ Skype for Business Online 展開がSkype for Business 2015 または Lync 2010 �
  > [!NOTE]
  > 必須がないため、EnterpriseVoiceEnabled を False に設定しないでください。レガシ Skype for Business電話が使用中で、テナント ハイブリッド構成が UseOnPremDialPlan $Trueで設定されている場合、ダイヤル プランの正規化の問題が発生する可能性があります。 
     
-   変更がMicrosoft 365に同期された後、予想される出力`Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri`は次のようになります。
+   変更がMicrosoft 365に同期された後、予想される出力は次のようになります`Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUri,LineUri`。
 
    ```console
    RegistrarPool                        : pool.infra.lync.com
-   OnPremLineURIManuallySet             : True
    OnPremLineURI                        : 
    LineURI                              : 
    ```
@@ -89,7 +88,7 @@ Skype for Business Online 展開がSkype for Business 2015 または Lync 2010 �
 
 ## <a name="configure-the-phone-number-and-enable-enterprise-voice"></a>電話番号を構成し、エンタープライズ音声を有効にする 
 
-ユーザーを作成してライセンスを割り当てた後、ユーザーのオンライン電話設定を構成する必要があります。 ユーザーのクラウド ボイスメールの構成は自動的に行われます。追加の構成を行う必要はありません。
+ユーザーを作成してライセンスを割り当てた後、ユーザーのオンライン電話設定を構成する必要があります。 ユーザーのクラウド ボイスメールの構成は自動的に行われます。他の構成を行う必要はありません。
 
 電話番号は、Teams管理センターを使用するか、powerShell Teams使用して構成できます。
 
@@ -114,7 +113,7 @@ Skype for Business Online 展開がSkype for Business 2015 または Lync 2010 �
 
 1. Microsoft Teams PowerShell セッションにConnectします。 
 
-2. 次の手順は、ユーザーの電話番号をオンプレミスとオンラインのどちらで管理しているかによって異なります。 電話番号をオンプレミスで管理している場合は、「デ[コミット後に属性](/skypeforbusiness/hybrid/cloud-consolidation-managing-attributes)を管理する方法を決定する」で説明されている方法の 1 つ、またはオンプレミス Skype for Business管理シェル、コントロール パネル、またはいずれかの方法を使用する必要があります。
+2. 次の手順は、ユーザーの電話番号をオンプレミスとオンラインのどちらで管理しているかによって異なります。 電話番号をオンプレミスで管理している場合は、「[使用停止後に属性](/skypeforbusiness/hybrid/cloud-consolidation-managing-attributes)を管理する方法を決定する」で説明されている方法の 1 つ、またはオンプレミス Skype for Business Management Shell、コントロール パネル、またはいずれかの方法を使用する必要があります。
 
    - ユーザーの電話番号をオンプレミスで管理している場合は、次のコマンドを使用して、ユーザーがオンラインで有効エンタープライズ VoIPことを確認する必要があります。
 
@@ -140,7 +139,7 @@ Skype for Business Online 展開がSkype for Business 2015 または Lync 2010 �
        Set-CsPhoneNumberAssignment -Identity "stacy.quinn@contoso.com" -PhoneNumber "+14255388701;ext=1002" -PhoneNumberType DirectRouting
        ```
 
-    Microsoft では、電話番号を国番号を含む完全な E.164 電話番号として構成することをお勧めしますが、必須ではありません。 内線番号を使用して電話番号を構成できます。 これらの拡張機能は、ベース番号に対する参照が複数の結果を返すときに、ユーザーを検索するために使用されます。 この機能により、会社は同じ基本番号と一意の拡張機能を使用して電話番号を構成できます。 参照を成功させるには、次のように、招待に拡張子を含む完全な番号を含める必要があります。
+    Microsoft では、電話番号を国番号を含む完全な E.164 電話番号として構成することをお勧めしますが、必要ありません。 内線番号を使用して電話番号を構成できます。 これらの拡張機能は、ベース番号に対する参照が複数の結果を返すときに、ユーザーを検索するために使用されます。 この機能により、会社は同じ基本番号と一意の拡張機能を使用して電話番号を構成できます。 参照を成功させるには、次のように、招待に拡張子を含む完全な番号を含める必要があります。
     
     ```PowerShell
     To: <sip:+14255388701;ext=1001@sbc1.adatum.biz
@@ -149,7 +148,7 @@ Skype for Business Online 展開がSkype for Business 2015 または Lync 2010 �
 
 ## <a name="configure-sending-calls-directly-to-voicemail"></a>ボイスメールに直接通話を送信するように構成する
 
-ダイレクト ルーティングを使用すると、ユーザーへの呼び出しを終了し、ユーザーのボイスメールに直接送信できます。 通話をボイスメールに直接送信する場合は、OPAQUE=app:ボイスメールを Request URI ヘッダーにアタッチします。 たとえば、"sip:user@yourdomain.com;opaque=app:ボイスメール" などです。 Teams ユーザーは通話通知を受け取りません。通話はユーザーのボイスメールに直接接続されます。
+ダイレクト ルーティングを使用すると、ユーザーへの呼び出しを終了し、ユーザーのボイスメールに直接送信できます。 通話をボイスメールに直接送信する場合は、OPAQUE=app:ボイスメールを Request URI ヘッダーにアタッチします。 たとえば、"sip:user@yourdomain.com;opaque=app:ボイスメール" などです。 Teams ユーザーは呼び出し元の通知を受け取りません。 代わりに、通話はユーザーのボイスメールに直接接続されます。
 
 ## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>Teamsのみモードをユーザーに割り当てて、通話が確実にMicrosoft Teams
 
