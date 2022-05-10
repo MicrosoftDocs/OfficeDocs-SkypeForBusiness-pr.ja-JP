@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0d9cb6888243f86e1967105720e3859fa905cfb5
-ms.sourcegitcommit: 06d1c50c9b55b062d61844a856676d9837fd5abe
+ms.openlocfilehash: 3a488d026a0879da29a448381e1f2b800a2d9504
+ms.sourcegitcommit: 56d529cdbd8d8733350625316082f339ae8d66c9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65030903"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "65294108"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -59,7 +59,7 @@ ms.locfileid: "65030903"
 
 <sup>5</sup> 28 KBは、メッセージ自体 （テキスト、画像リンクなど）、@メンション、コネクタの数、およびリアクションを含むため、おおよその制限です。
 
-チーム外の <sup>6</sup> 人の共有チャネル メンバーは、この制限にカウントされます。 GCC の チーム は 25,000 人のメンバーを収容できますが、GCCH / DoD のチームは 2,500 人のメンバーしか収容できません。 さらに、メンバー数が 10,000 人以上のチームでは、チーム/チャネルのメンションはブロックされます。
+チーム外の <sup>6</sup> 人の共有チャネル メンバーは、この制限にカウントされます。 さらに、メンバー数が 10,000 人以上のチームでは、チーム/チャネルのメンションはブロックされます。
 
 > [!NOTE]
 > 共有チャネル プレビューの制限については、「[共有チャネル (プレビュー) の制限](/MicrosoftTeams/shared-channels#limits-for-shared-channels-preview)」を参照してください。
