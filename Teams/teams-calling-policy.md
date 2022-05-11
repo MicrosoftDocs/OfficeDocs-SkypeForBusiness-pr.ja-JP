@@ -20,12 +20,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1ed56a843fc0582c903d7b8b549ab1b97eb050a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5097586825b231decd220a30bdde85bf258e27fc
+ms.sourcegitcommit: d847256fca80e4e8954f767863c880dc8472ca04
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60783174"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "65313109"
 ---
 # <a name="calling-and-call-forwarding-in-teams"></a>Teamsでの通話と通話転送
 
@@ -105,10 +105,30 @@ Microsoft Teamsでは、通話ポリシーによって、ユーザーが使用�
 
 ### <a name="allow-music-on-hold"></a>保留音を許可する
 
-この設定を使用すると、PSTN 発信者が保留になったときに保留音をオンまたはオフにすることができます。 既定ではオンになっています。 この設定は、コール パークと上司の委任機能には適用されません。現時点では PowerShell でのみ使用できます。
+この設定を使用すると、PSTN 発信者が保留になったときに保留音をオンまたはオフにすることができます。 既定ではオンになっています。 この設定は、コール パークと上司の代理機能には適用されません。
+
+### <a name="allow-sip-devices-calling"></a>SIP デバイスの呼び出しを許可する
+
+この設定により、ユーザーは SIP デバイスを使用して通話の発信と受信を行うことができます。
+
+### <a name="spam-filtering"></a>スパム フィルター処理
+
+この設定を使用すると、着信呼び出しで使用できるスパム フィルター処理の種類を制御できます。
+
+### <a name="call-recording-live-captions-and-transcription"></a>通話録音、ライブ キャプション、文字起こし
+
+これらの設定を使用すると、通話記録、ライブ キャプション、文字起こしをユーザーが使用できるかどうかを制御できます。
 
 ## <a name="related-articles"></a>関連記事
 
-[Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
+[New-CsTeamsCallingPolicy](/powershell/module/skype/new-csteamscallingpolicy)
+
+[Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
+
+[Get-CsTeamsCallingPolicy](/powershell/module/skype/get-csteamscallingpolicy)
+
+[Grant-CsTeamsCallingPolicy](/powershell/module/skype/grant-csteamscallingpolicy)
+
+[Remove-CsTeamsCallingPolicy](/powershell/module/skype/remove-csteamscallingpolicy)
 
 [ Teams でユーザーにポリシーを割り当てる](policy-assignment-overview.md)
