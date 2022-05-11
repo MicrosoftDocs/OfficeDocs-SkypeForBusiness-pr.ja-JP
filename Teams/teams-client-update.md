@@ -18,18 +18,18 @@ ms.localizationpriority: high
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 00b8079a360dbec05b14f1487755e96bfc98b76f
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: a7d296e296b2f5a20b5d7d10da6e598a989f0d71
+ms.sourcegitcommit: cd4464fe9bf0f38ed4c3ca058a51bcd29578eef9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556518"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "65316503"
 ---
 # <a name="teams-update-process"></a>Teams の更新プロセス
 
-Teams Web アプリは毎週更新されます。
+Teams Web アプリの更新プログラムは、通常、毎月第 4 月曜日にリリースされます。
 
-Teams デスクトップ クライアントの更新プログラムは、TAP (Technology Adoption Program) を使用した厳格な内部テストと検証の後、2 週間ごとにリリースされます。 このアップデートは、通常火曜日にリリースされます。 緊急更新プログラムが必要な場合、Teams ではこのスケジュールをバイパスし、利用可能になり次第更新プログラムをリリースします。
+Teams デスクトップ クライアントの更新プログラムは、TAP (Technology Adoption Program) を使用した厳格な内部テストと検証の後、毎月リリースされます。 デスクトップ クライアントの更新プログラムは通常、毎月第 4 月曜日に開始され、残りの週を通じて徐々にユーザーにロールアウトされます。 緊急更新プログラムが必要な場合、Teams ではこのスケジュールをバイパスし、利用可能になり次第更新プログラムをリリースします。
 
 デスクトップ クライアントは自動的に更新されます。Teams は、数時間ごとにバックグラウンドで更新プログラムを確認します。更新プログラムをダウンロードすると、コンピューターがアイドル状態になるまで待機してから、更新プログラムをサイレント インストールします。
 
