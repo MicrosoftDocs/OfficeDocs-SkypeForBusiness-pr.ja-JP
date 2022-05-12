@@ -21,23 +21,23 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 最適な結果を生み出すためにMicrosoft Teamsが認定されているデスクと会議の電話について説明します。
-ms.openlocfilehash: 6a17faead9926ea6a7a7475eb867804d974f700e
-ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
+ms.openlocfilehash: e5588662279a1eda0728b57553d0e0a4a473e2da
+ms.sourcegitcommit: 73df40ce6fbd1d305fd381140f293a2feb0d27bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65217941"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "65359787"
 ---
-# <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams認定された Android デバイス
+# <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams認定Androidデバイス
 
 Microsoft Teams デバイス認定プログラムは、認定されたデバイスが、Teams エクスペリエンス全体 (オーディオ、ビデオ、ユーザー インターフェイス) 全体で高いパフォーマンス目標と品質メトリックを備えた高い標準を満たしていることを保証します。 Microsoft と OEM パートナーは、デバイスがセキュリティ、オーディオとビデオの品質、Teamsエクスペリエンス、アクセシビリティなど、すべての認定要件を満たしていることを確認するために積極的に協力しています。
 
-認定プログラムは、認定されたすべてのデバイスが、TeamsおよびTeams管理センターに必要な機能セットを使用して Android バージョンを実行するように設計されています。 認定終了日は、認定プログラムに入ったときにデバイスで実行されている Android OS バージョンに基づいています。 OEM パートナーは、Android OS のバージョンをアップグレードして再認定するか、最先端の新しいモデルをリリースすることで、認定の有効期間を延ばすために取り組んでいます。
+認定プログラムは、すべての認定デバイスが、TeamsおよびTeams管理センターに必要な機能セットを使用してAndroidバージョンを実行するように設計されています。 認定終了日は、認定プログラムに入ったときにデバイスで実行されているAndroid OS バージョンに基づいています。 OEM パートナーは、Android OS のバージョンをアップグレードして再認定するか、最先端の新しいモデルをリリースすることで、認定の有効期間を延長することに取り組んでいます。
 
 認定期間を超えて、Microsoft は、認定期間の終了後 2 年間、このようなデバイスで最新バージョンのTeams クライアントをサポートすることに取り組んでいます。
 
 >[!NOTE]
->認定終了日は、新しい Android OS バージョンにアップグレードする OEM パートナー計画に基づいて定期的に更新されます。
+>認定の終了日は、新しいAndroid OS バージョンにアップグレードする OEM パートナー計画に基づいて定期的に更新されます。
 
 ## <a name="certified-teams-phones"></a>認定Teams電話
 
@@ -66,22 +66,22 @@ Microsoft Teams デバイス認定プログラムは、認定されたデバイ�
 | Yealink MP56 | `122.15.0.6` | 2023 年 8 月 5 日  | 9 |
 | Yealink VP59 | `91.15.0.16` | 2023 年 8 月 5 日  | 9 |
 
-## <a name="certified-teams-rooms-on-android"></a>Android での認定Teams Rooms
+## <a name="certified-teams-rooms-on-android"></a>Androidの認定Teams Rooms
 
-Android 認定プログラムのMicrosoft Teams Roomsでは、次のデバイスが認定されます。
+次のデバイスは、Android認定プログラムのMicrosoft Teams Roomsで認定されています。
 
 | デバイス モデル | ファームウェアのバージョン | 現在の認定終了日 | 部屋のサイズ                                        |  Android OS バージョン    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
 | 端正なバー | `NFB1.20220211.1400` |2024 年 9 月 3 日|    小ミーティング ルーム (4.5 m x 4.5 m) | 10 |
 | 端正なパッドタッチ コンソール | `NFA1.20220211.1400`  | 2023 年 8 月 5 日 |  ニート バーとの互換性のみ | 9 |
 | 端正なボード | `NFC1.20220211.1400 ` | 2024 年 9 月 3 日 |    小ミーティング ルーム (4.5 m x 4.5 m) | 10 |
-| Logitech Roommate | `1.4.71` | 2024 年 9 月 3 日  | 広い会議室 (4.5m x 8.5m)  |   10  |
+| Logitech Roommate | `1.4.71` | 2024 年 9 月 3 日  | 大規模な会議室 (4.5 m x 8.5 m)  |   10  |
 | 80T を展開する | `1.2.2.21182.10` | 2023 年 8 月 5 日 | 3T の一連の組み込み | 9 |
 | Logitech Tap Device     | `1.2.982`  |   2024 年 9 月 3 日  | Logitech Rally Bar および Rally Bar Mini と互換性がある | 10 |
 | Logitech Rally Bar Mini | `1.2.982`     |   2024 年 9 月 3 日  |    小ミーティング ルーム (4.5 m x 4.5 m) | 10 |
 | Logitech Rally Bar      | `1.2.788`     |   2024 年 9 月 3 日  |    中規模の部屋 (4.5 m x 6 m)       | 10 |
-| AudioCodes RXV80 | `1.9.155`        |   2023 年 8 月 5 日  | フォーカス ルーム(3m x 3m) </br> 小さな会議室(4.5 m x 4.5 m) | 9 |
-| エポポス EXPAND Vision 3T       | `1.2.0.21102.03`    | 2023 年 8 月 5 日 | フォーカス ルーム(3m x 3m) </br> 小さな会議室(4.5 m x 4.5 m) | 9 |
+| AudioCodes RXV80 | `1.9.155`        |   2023 年 8 月 5 日  | フォーカス ルーム(3 m x 3 m) </br> 小さな会議室(4.5 m x 4.5 m) | 9 |
+| エポポス EXPAND Vision 3T       | `1.2.0.21102.03`    | 2023 年 8 月 5 日 | フォーカス ルーム(3 m x 3 m) </br> 小さな会議室(4.5 m x 4.5 m) | 9 |
 | Yealink MeetingBar A30       | `133.15.0.52`    | 2023 年 8 月 5 日   | 中規模の部屋 (4.5 m x 6 m) | 9 |
 | Yealink CTP18 タッチ コンソール  | `137.15.0.28`    | 2023 年 8 月 5 日   | Yealink MeetingBar A20 および Yealink MeetingBar A30 と互換性がある | 9 |
 | Yealink MeetingBar A20  | `133.15.0.19`      | 2023 年 8 月 5 日 | フォーカス ルーム(3 m x 3 m) </br> 小さな会議室(4.5 m x 4.5 m) | 9 |
@@ -92,7 +92,7 @@ Android 認定プログラムのMicrosoft Teams Roomsでは、次のデバイス
 
 ## <a name="certified-teams-displays"></a>認定Teamsディスプレイ
 
-次のデバイスは、Microsoft Teams Displays Android 認定プログラムで認定されています。
+次のデバイスは、Microsoft Teams ディスプレイ Android認定プログラムで認定されています。
 
 | デバイス モデル | ファームウェアのバージョン | 現在の認定終了日  | Android OS バージョン |
 |:------------------------|:-----------------|:--------------|----------------------------------|
@@ -218,7 +218,7 @@ Android 認定プログラムのMicrosoft Teams Roomsでは、次のデバイス
 
 [Microsoft Teams表示を参照](teams-displays.md)してください。
 
-### <a name="product-release-information-for-teams-rooms-on-android"></a>Android でのTeams Roomsの製品リリース情報
+### <a name="product-release-information-for-teams-rooms-on-android"></a>Androidに関するTeams Roomsの製品リリース情報
 
 Android アプリとファームウェアのバージョンに関する最新のTeams Roomsを次に示します。
 
@@ -241,6 +241,7 @@ Android アプリとファームウェアのバージョンに関する最新の
 
 | デバイス モデル  | ファームウェアのバージョン | 付属の製品リリース |
 |:--------------|:-----------------|:-------------------------|
+| Logi Roommate |   `1.6.290`   | 2022 Update #1    |
 | Logi Rallybar Mini   |   `1.6.272`   | 2022 Update #1  |
 | Logi Rallybar    |   `1.6.272`   | 2022 Update #1   |
 | Logi Roommate |   `1.5.705`   | 2022 Update #1    |

@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: Microsoft Teams管理センターで称賛 アプリを管理する方法について説明します。
-ms.openlocfilehash: 495000af61c2b5d48dfdc30fe3b013a4ca8b8811
-ms.sourcegitcommit: d847256fca80e4e8954f767863c880dc8472ca04
+ms.openlocfilehash: ff9985025146136ae78d8e822dd5b61903443605
+ms.sourcegitcommit: 73df40ce6fbd1d305fd381140f293a2feb0d27bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "65303989"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "65359777"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Microsoft Teams管理センターで称賛 アプリを管理する
 
@@ -36,7 +36,7 @@ Microsoft Teamsの称賛 アプリは、ユーザーが組織またはクラス�
 
 この設定は、称賛 アプリとTeamsのViva インサイト アプリの称賛機能の両方に影響します。
 
-[状態] が [ブロック] に設定されている場合、称賛 アプリは数分以内にブロックされます。 ただし、Viva インサイトでの評価は、ブロックされるまでに 7 ~ 9 日かかる場合があります。
+[状態] を [ブロック] に設定すると、称賛 アプリは数分以内にTeamsブロックされます。 ただし、Viva インサイトでの評価は、ブロックされるまでに 7 ~ 9 日かかる場合があります。
 
 ## <a name="enable-or-disable-praise-for-specific-users-in-your-organization"></a>組織内の特定のユーザーの称賛を有効または無効にする
 
