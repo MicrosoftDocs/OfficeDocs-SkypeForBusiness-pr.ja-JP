@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b94251de11c302c18f7de725c76cfaaaa8b8f76
-ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
+ms.openlocfilehash: 72fdabd1ba25254876bc3d4506c889d50cbc6613
+ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63774166"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "65370890"
 ---
 # <a name="configure-sip-gateway"></a>SIP ゲートウェイを構成する
 
@@ -36,13 +36,13 @@ SIP ゲートウェイを構成する前に、次の操作を行います。
 
 - **SIP デバイスを出荷時の既定の設定にリセットします。** 自分または組織のユーザーは、SIP ゲートウェイで使用される各 SIP デバイスを工場出荷時の既定の設定にリセットする必要があります。 その方法については、製造元の手順を参照してください。
 
-- **ファイアウォールを開いてMicrosoft 365してTeamsします。** Office 365 URL と IP アドレス範囲の説明に従って、ネットワークのファイアウォールを開いてトラフィック[をMicrosoft 365してTeamsします](/microsoft-365/enterprise/urls-and-ip-address-ranges)。
+- **ファイアウォールを開いてMicrosoft 365してTeamsします。** Office 365 URL と IP アドレス範囲の説明に従って、ネットワークのファイアウォールを開いてトラフィック[をMicrosoft 365してTeamsします](/microsoft-365/enterprise/urls-and-ip-address-ranges)。 ファイアウォール規則は、送信トラフィックに対してのみ必要です。
 
 - **SIP デバイスがプロキシの背後にないことを確認します。** http/s トラフィックが企業の http/s プロキシをバイパスすることを確認します。
 
-- **UDP ポートを開きます。** IP 範囲 52.112.0.0/14 から 52.120.0.0/14 の範囲 49152 から 53247 の UDP ポートを開きます。
+- **UDP ポートを開きます。** IP 範囲 52.112.0.0/14 および 52.120.0.0/14 の範囲 49152 から 53247 の UDP ポートを開きます。
 
-- **TCP ポートを開きます。** IP 範囲 52.112.0.0/14 から 52.120.0.0/14 の TCP ポート 5061 を開きます。
+- **TCP ポートを開きます。** IP 範囲 52.112.0.0/14 と 52.120.0.0/14 の TCP ポート 5061 を開きます。
 
 - **次の https エンドポイント (IP アドレスと URL) を開きます。**
 
@@ -107,7 +107,6 @@ Teams管理センターで SIP ゲートウェイを有効にするには、次�
 
 PowerShell [Set-CsTeamsCallingPolicy コマンドレットを](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) 使用して SIP ゲートウェイを有効にすることもできます。 SIP デバイスのユーザーを有効にするには、ポリシーを選択し、属性`True`を `-AllowSIPDevicesCalling` [ . 既定値は 、ユーザーが `False`SIP デバイスを有効にしない限り使用できないようにするためです。
 
-
 > [!NOTE]
 > - ポリシーの伝達には最大 24 時間かかる場合があります。
 
@@ -147,7 +146,7 @@ SIP デバイスが、オンボードでサポートされているファーム�
 
 ## <a name="configure-conditional-access"></a>条件付きアクセスを構成する
 
-条件付きアクセスは、Microsoft 365 リソースにアクセスするデバイスが適切に管理され、セキュリティで保護されるようにするのに役立つAzure Active Directory (Azure AD) 機能です。 SIP ゲートウェイはAzure ADで SIP デバイスを認証するため、組織が企業ネットワーク内のデバイスに条件付きアクセスを使用する場合は、次の IP アドレスを除外する必要があります。
+条件付きアクセスは、Microsoft 365 リソースにアクセスするデバイスが適切に管理され、セキュリティで保護されるようにするのに役立つ、Azure Active Directory (Azure AD) 機能です。 SIP ゲートウェイは Azure AD で SIP デバイスを認証するため、組織が企業ネットワーク内のデバイスに条件付きアクセスを使用する場合は、次の IP アドレスを除外する必要があります。
 
 - 北米:
     - 米国東部: 52.170.38.140
@@ -252,7 +251,6 @@ Teams管理センターでデバイスをサインアウトするには:
 
 4. デバイスの **[詳細] ウィンドウで** [ **詳細** ] タブを選択し、[ **操作]** メニューの右上にある [ **サインアウト**] を選択します。 
 
-
 ## <a name="view-and-monitor-sip-devices"></a>SIP デバイスの表示と監視
 
 デバイスのユーザーが少なくとも 1 回サインインした後、Teams管理センターで SIP デバイス インベントリを表示および監視できます。 次の操作を実行してください。
@@ -268,6 +266,11 @@ Teams管理センターでデバイスをサインアウトするには:
 2. **Teams devicesSIP** >  **デバイスを選択します**。 
 
 3. 右側で、再起動する SIP デバイスを選択し、[再起動] を選択 **します**。
+
+
+> [!NOTE]
+> - テナントから SIP デバイスを削除することは、現在、Teams管理センターで使用できません。 
+> - コマンドの実行はデバイスの可用性によって異なり、Teams管理センターに表示される実行状態と一致しない可能性があります。 サポートされていないデバイスで SIP ゲートウェイを有効にしようとすると、コマンドは実行されません。
 
 ## <a name="sync-policy-changes-to-sip-devices-to-enforce-policies"></a>ポリシーの変更を SIP デバイスに同期してポリシーを適用する
 

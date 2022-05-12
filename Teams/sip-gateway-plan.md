@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 817f3dc7ce7f0b6f407607417c0cadb92b65e943
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: 77d33d29a51fe32fff6901fdcb8ba33ecad107f7
+ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514752"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "65370900"
 ---
 # <a name="plan-for-sip-gateway"></a>SIP ゲートウェイの計画
 
@@ -79,6 +79,7 @@ TEAMSユーザーは、SIP ゲートウェイを使用するために PSTN 通�
 |          |8861       |11.1.1MPP   |11-3-3MPP  |   |   |
 |          |8865       |11.1.1MPP   |11-3-3MPP  |   |   |
 |**ポリ**  |           |            |           |デバイスは自動再起動し、選択したファームウェアをインストールします。|   |
+|          |CCX 500    |7.0.3.0515  |7.2.1.1826 |   |   |
 |          |トリオン 8500  |5.9.5.3182  |7.1.1.0997 |   |   |
 |          |Trio 8800  |5.9.5.3182  |7.1.1.0997 |   |   |
 |          |VVX150     |5.9.5       |6.3.1.8427 |   |   |
