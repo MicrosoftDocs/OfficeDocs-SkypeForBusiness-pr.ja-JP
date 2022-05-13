@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d80006e46598d03dd8defffe7baf4ada17415fe2
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: 1f08ddd68d036d18e4ea18073dd0711e32e0c91e
+ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65187113"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65393871"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Microsoft Teams for Educationで親接続を設定する
 
@@ -71,31 +71,41 @@ IT 管理者が保護者や教育者と親接続の使用を開始する方法�
 - 各学生の親および保護者 **関連の連絡先情報** を設定するには、学校データ同期 (SDS) が必要です。
   - [SDS を展開する](/schooldatasync/parents-and-guardians-in-sds)
 
-- SDS を設定し、テナント内の学生に親および保護者 **関連の連絡先** を設定する際にサポートが必要な場合は、次の方法で EDU Customer Success チームにお問い合わせください。
+- テナント内の学生のSDSの設定と保護者 **関連の連絡先** の設定に関するサポートが必要な場合は、次の方法で EDU Customer Success チームにお問い合わせください。
   - [FastTrack](https://www.microsoft.com/fasttrack?rtc=1)で RFA プロセスを完了する。
   - [サポート](https://aka.ms/sdssupport)でチケットを開きます。
 
-- 現在、SDS では親連絡先の CSV ベースのデータ インジェストのみがサポートされています。ただし、すべての名簿データに [PowerSchool API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-powerschool-sync) または [OneRoster API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-oneroster-sync) を使用し、CSV を使用して親連絡先を追加するだけです。
+- 現在、SDSでは親連絡先の CSV ベースのデータ インジェストのみがサポートされています。ただし、すべての名簿データに [PowerSchool API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-powerschool-sync) または [OneRoster API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-oneroster-sync) を使用し、CSV を使用して親連絡先を追加することができます。
   - [SDS v1 CSV 同期形式](/schooldatasync/school-data-sync-format-csv-files-for-sds)を使用して、2 つ目の同期プロファイルを作成します。
   - 設定された 2 つの [親ファイル](/schooldatasync/parent-contact-sync-file-format) をプルし、残りの v1 ファイルを空にします (ヘッダーのみ)。
     - User.csv
     - Guardianrelationship.csv
   - v1 CSV ファイルのサンプル セットを表示するには、「[最小必須属性GitHubファイル」を](https://github.com/OfficeDev/O365-EDU-Tools/tree/master/CSV%20Samples/SDS%20Format/Min%20Required%20Attributes)参照してください。
   - 初期同期後に CSV ファイルのプルを自動化する場合は、[CSV File Sync Automation ドキュメント](/schooldatasync/csv-file-sync-automation)を参照してください。
-  - SDS データ同期の設定に関するヘルプについては、 [カスタマー サクセス チーム](https://www.microsoft.com/fasttrack?rtc=1) に連絡するか、 [サポート チケットを開いてください](https://edusupport.microsoft.com/support?product_id=data_sync)。
+  - SDSデータ同期の設定については、[カスタマー サクセス チーム](https://www.microsoft.com/fasttrack?rtc=1)に連絡するか、[サポート チケットを開いてください](https://edusupport.microsoft.com/support?product_id=data_sync)。
 
-### <a name="teams-admin-center---policies"></a>Teams管理センター - ポリシー
+### <a name="teams-admin-center-policies"></a>管理センター ポリシーをTeamsする
 
 - クラス チームの所有者は、チャットTeams有効にする必要があります。
 - クラス チームの所有者は、**組織が管理していないTeams アカウント** を有効にした外部アクセス権を持っている必要があります。
   - これは、テナント レベルとユーザー レベルで有効にする必要があります。 テナント レベルの設定は、Teams管理センターの **ユーザー >外部アクセス** にあります。 この設定には、PowerShell を使用してアクセスすることもできます。 ユーザー レベルの外部アクセス ポリシーには、PowerShell 経由でのみアクセスできます。 詳細については、以下の PowerShell コマンドを参照してください。
 
-> [!NOTE]
->保護者は、親機能の外部ユーザーとして分類されます。つまり、完全なテナント権限がありません。 チャットまたはチャットにアクセスできるのは、追加されたチャットだけでなく、チャットで共有されているファイル、画像、その他のコンテンツのみです。
->
->また、外部ユーザーは組織のユーザーのプレゼンス (オフライン、使用可能、ビジーなど) を表示できますが、PowerShell を使用してユーザーのプライバシーを保護するためにオフにすることができます。 PowerShell では、 [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) と set ``EnablePrivacyMode=true``を使用します。
->
->保護者が外部ユーザーであっても、チャットへの貢献は検出可能です。 Microsoft Teamsでコンテンツの電子情報開示調査を実施する方法に関する記事を参照して[、Teams電子情報開示調査を実施](ediscovery-investigation.md)する方法について説明します。
+#### <a name="parent-and-guardian-restrictions"></a>親と保護者の制限
+保護者は、保護者接続の外部ユーザーとして分類されます。つまり、完全なテナント権限がありません。 追加したチャットやチャットにアクセスできるのは、チャット内で共有されているファイル、画像、その他のコンテンツだけです。
+
+また、外部ユーザーは組織のユーザーのプレゼンス (オフライン、使用可能、ビジーなど) を表示できますが、PowerShell を使用してユーザーのプライバシーを保護するためにオフにすることができます。 PowerShell では、 [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) と set ``EnablePrivacyMode=true``を使用します。
+
+保護者が外部ユーザーであっても、チャットへの貢献は検出可能です。 Microsoft Teamsでコンテンツの電子情報開示調査を実施する方法に関する記事を参照して[、Teams電子情報開示調査を実施](ediscovery-investigation.md)する方法について説明します。
+
+#### <a name="blocking-a-parent-or-guardian-in-a-chat"></a>チャットで親または保護者をブロックする
+教師は、親接続で開始されたチャットで保護者をブロックできます。
+
+クラスの所有者は、次のことができます。
+
+1. 保護者のプロフィール カードを開き、省略記号と **ブロック ユーザー** を選択します。 
+2. 次に、チャットから保護者を削除します。 
+
+ブロックされたユーザーは、クラスの所有者と追加のチャットを開始できません。
 
 ## <a name="allow-external-access-with-teams-accounts-not-managed-by-an-organization"></a>組織で管理されていないTeams アカウントで外部アクセスを許可する
 

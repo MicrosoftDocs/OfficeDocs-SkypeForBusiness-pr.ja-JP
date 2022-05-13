@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 参加者とゲストのTeamsで会議ポリシー設定を管理する方法について説明します。
-ms.openlocfilehash: 05408ade76aa96b64f07899881beb68fa52c74b4
-ms.sourcegitcommit: a31c02892e35babbbcf5e7c303c7f14d7ba5cb52
+ms.openlocfilehash: 6a3c2dda51c40c57cd100eda9c8c959583dfb60b
+ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64784701"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65393751"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>会議ポリシーの設定 - 参加者とゲスト
 
@@ -32,6 +32,7 @@ ms.locfileid: "64784701"
 
 これらの設定では、会議への入室が許可されるまでロビーで待機する必要がある会議参加者およびそれらの参加者に許可する会議への参加レベルが制御されます。
 
+- [匿名ユーザーが会議に参加できるようにする](#let-anonymous-people-join-a-meeting)
 - [匿名ユーザーが会議を開始できるようにする](#let-anonymous-people-start-a-meeting)
 - [ユーザーの参加を自動的に許可する](#automatically-admit-people)
 - [ダイヤルイン ユーザーによるロビーのバイパスを許可する](#allow-dial-in-users-to-bypass-the-lobby)
@@ -41,6 +42,9 @@ ms.locfileid: "64784701"
 > [!NOTE]
 >会議に参加するためのオプションは、各 Teams グループの設定および接続方法によって異なります。 グループに電話会議があり、それを使用して接続する場合は、「[電話会議](/microsoftteams/audio-conferencing-in-office-365)」を参照してください。 Teams グループに電話会議がない場合は、「[Teams で会議に参加](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9)」を参照してください。
 
+## <a name="let-anonymous-people-join-a-meeting"></a>匿名ユーザーが会議に参加できるようにする
+
+この開催者ごとの設定では、会議出席依頼のリンクを選択することで、だれでも匿名ユーザーとして会議に参加できます。 詳細については、「[Teams のアカウントなしに会議に参加する](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508)」を参照してください。 匿名ユーザーが会議に参加する機能も組織レベルで制御されるため、より制限の厳しい設定が有効になります。 詳細については、「[Microsoft Teams管理センターを使用して組織全体のポリシーを構成する](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)」を参照してください。
 
 ## <a name="let-anonymous-people-start-a-meeting"></a>匿名ユーザーが会議を開始できるようにする
 
