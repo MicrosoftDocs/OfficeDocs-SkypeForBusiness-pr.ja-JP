@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams のトランシーバー アプリケーション
+title: Microsoft Teams のトランシーバー アプリ
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -18,24 +18,27 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 776f0f31d54788fbffd86bbcbedd44e30ada28a3
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: 29a632efc433a14d578eff80fdeb74a6f167dfc3
+ms.sourcegitcommit: a388fd72e399f6e205c34707dc92cc309997e737
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65186973"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65400233"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams のトランシーバー アプリ
 
-Teamsの Walkie Talkie アプリは、チームに即座にプッシュツートーク (PTT) 通信を提供し、Android & iOS で利用できるようになりました。 トランシーバーを使用すると、ユーザーは、メンバーと同じ基本チャネルを使用してチームとつながることができます。 チャネルでトランシーバーに接続するユーザーのみが参加者になり、プッシュツートークを使用して一度に 1 つずつ相互に通信できます。
+Teamsの Walkie Talkie アプリは、チームに即座にプッシュツートーク (PTT) 通信を提供し、Android & iOSで利用できるようになりました。 トランシーバーを使用すると、ユーザーは、メンバーと同じ基本チャネルを使用してチームとつながることができます。 チャネルでトランシーバーに接続するユーザーのみが参加者になり、プッシュツートークを使用して一度に 1 つずつ相互に通信できます。
 
 Teamsの Walkie Talkie を使用すると、現場のワーカーは、かさばるラジオを持ち運ぶ必要なく、使い慣れた PTT エクスペリエンスと安全に通信できるようになり、Walkie Talkie は WiFi または携帯インターネット接続を使用してどこでも動作します。
+
+> [!NOTE]
+> Walkie Talkie は現在、中国では利用できません。
 
 ## <a name="getting-started"></a>はじめに
 
 ### <a name="deploying-walkie-talkie"></a>トランシーバーの展開
 
-Walkie Talkie は、Google Mobile Services (GMS) および iOS デバイスを搭載した Android デバイスでサポートされています。
+Walkie Talkie は、Google Mobile Services (GMS) および iOS デバイスを使用するAndroid デバイスでサポートされています。
 
 ### <a name="pin-walkie-talkie-to-teams"></a>Walkie Talkie をTeamsにピン留めする
 
@@ -62,7 +65,7 @@ Teams のトランシーバーにはインターネット接続が必要であ�
 |測定基準 | 必須 |
 |---|---|
 |遅延 (RTT) | < 300 ミリ秒 |
-|ジッター |< 30 ミリ秒 |
+|ジッター |30 ミリ秒未満 |
 |パケット損失 |< 1% |
 
 上記のように、IP ネットワークを介したリアルタイム メディアの品質は、ネットワーク接続の品質、特に次の量によって大きく影響されます。
@@ -80,9 +83,9 @@ Walkie Talkie からの予想されるデータ使用量は、オーディオの
 - **ヘッドセット**
   - ワイヤレス ヘッドセット (iOS & Android)
     - [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie)
-  - ワイヤード ヘッドセット (Android のみ)
+  - ワイヤード ヘッドセット (Androidのみ)
     - [クライン エレクトロニクス](https://www.kleinelectronics.com/poc-accessories/mtwt/)
-- **堅牢な Android スマートフォン**
+- **堅牢なAndroid電話**
   - [Samsung Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/)、[Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy)、[Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
     - 手動セットアップ - Teamsがインストールされている場合は、XCover/Active キー>設定 >高度な機能に移動します。 [アプリで XCover キーを制御する] をオンにし、[Teams] を選択します。
     - [MDM のセットアップ](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
@@ -98,9 +101,9 @@ Walkie Talkie からの予想されるデータ使用量は、オーディオの
 
 ## <a name="further-information"></a>詳細情報
 
-- ITAdmins は、アプリ ポリシーを通じてトランシーバーを使用しているユーザーの制御を維持できます。
+- IT 管理者は、アプリ ポリシーを通じて Walkie Talkie を使用しているユーザーを制御できます。
 - フロントライン ワーカーがモバイル データを使用してTeams経由で通信している場合、Walkie Talkie は同じ方法を使用します。
-- トランシーバーは、低帯域幅の状況、またはスマートフォンが接続されて機能している状況でうまく機能するはずです。 接続がまったくない場合、トランシーバーは機能しません。
+- トランシーバーは、低帯域幅の状況、またはスマートフォンが接続されて機能している状況でうまく機能するはずです。 接続がまったくない場合、Walkie Talkie は機能しません。
 
 エンドユーザー エクスペリエンスの詳細については、以下を参照してください。
 
