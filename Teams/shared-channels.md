@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams の共有チャネル (プレビュー) を使用および管理する方法について説明します。
-ms.openlocfilehash: feecbdfe45e890b1e302d49bfdcaf7b6d3e19157
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: 1f222d8994c435c315a91deaba77e383b55cba42
+ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817848"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65393881"
 ---
 # <a name="shared-channels-in-microsoft-teams-preview"></a>Microsoft Teams の共有チャネル (プレビュー)
 
@@ -150,7 +150,7 @@ Teams は、共有チャネル サイトのライフ サイクルを管理しま
 |チームのメンバー|25,000|チーム内のすべてのユーザーと、共有チャネルの直接のメンバーが含まれます。|
 |チームあたりの共有チャネル数|50|ホストされ、チームと共有されます。 (30 日間の復元可能期間中に削除されたチャネルが含まれます。)|
 |チャネルを共有できるチーム|50|親チーム以外|
-|共有チャネルのメンバー|直接のメンバー 1,000 人 (最大 50 チームを含む)。 (この制限の目的のため、チャネルが共有される各チームは 1 人のメンバーとしてカウントされます。)|リアルタイムの更新は一度に 25,000 人のユーザーしか利用できず、チャネル リストには 25,000 人のユーザーしか表示されません。|
+|共有チャネルのメンバー|直接のメンバー 5,000 人 (最大 50 チームを含む)。 (この制限の目的のため、チャネルが共有される各チームは 1 人のメンバーとしてカウントされます。)|リアルタイムの更新は一度に 25,000 人のユーザーしか利用できず、チャネル リストには 25,000 人のユーザーしか表示されません。|
 
 次の制限も適用されます。
 
