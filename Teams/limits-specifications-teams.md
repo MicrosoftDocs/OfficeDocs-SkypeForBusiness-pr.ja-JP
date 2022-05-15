@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3a488d026a0879da29a448381e1f2b800a2d9504
-ms.sourcegitcommit: 56d529cdbd8d8733350625316082f339ae8d66c9
+ms.openlocfilehash: 94d59c27841e873c4e178a1b5c0d09df6942c1fc
+ms.sourcegitcommit: a388fd72e399f6e205c34707dc92cc309997e737
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "65294108"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65400243"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -124,9 +124,9 @@ Teams のチャット リストの一部である会話に参加したユーザ�
 |------------|---------------|
 |会議に参加できるユーザー数 (チャットして電話をかけることができる)  | 1000。GCC、GCCH、DoD は含まれますが、A1 (300) は含まれません。 **表示専用** では、開催者が E3/E5/A3/A5 SKU および Government (GCC、GCC High、DoD) のライセンスを持っている会議に、最大 2 万人の聴取のみの参加者が参加できます。 閲覧限定のエクスペリエンスは、ウェビナーでも間もなく利用できるようになります。 「[表示専用エクスペリエンス](view-only-meeting-experience.md)」の詳細情報。<sup>1,2</sup>|
 |チャットから開始されるビデオまたは音声通話に参加できるユーザー数 | 20 |
-|同時アクティブな呼び出しの数 | 4 |
-|PowerPoint ファイルの最大サイズ | 2GB|
+|PowerPoint ファイルの最大サイズ | 2 GB|
 |Teams は[会議の記録](cloud-recording.md)を保持しますが、これは Microsoft Stream にはアップロードされず、ローカルのダウンロード用です | 20 日間 |
+| 会議記録の最大長 | 4 時間または 1.5 GB。 この制限に達すると、記録は終了し、自動的に再開されます。
   
 <sup>1</sup> 大規模な会議、ウェビナー、ライブ イベントで最適なエクスペリエンスを実現するために、Microsoft では最新バージョンの Teams デスクトップ クライアントまたは Teams モバイル クライアントの使用をお勧めします。
 
