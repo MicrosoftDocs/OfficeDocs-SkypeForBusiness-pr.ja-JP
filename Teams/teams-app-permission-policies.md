@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 2a4862b1daedd90dce4d486ed1517efbfeaca336
-ms.sourcegitcommit: f3c380f745af4c3aaa2720234860b45696a0c333
-ms.translationtype: HT
+ms.openlocfilehash: a7276c2a538eacefc579a7233bb99fb7882afb8f
+ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/09/2022
-ms.locfileid: "64737579"
+ms.lasthandoff: 05/17/2022
+ms.locfileid: "65442043"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのアクセス許可ポリシーを管理する
 
@@ -86,14 +86,9 @@ Teams 管理センターを使用して、作成したグローバル ポリシ�
 
 ## <a name="manage-org-wide-app-settings-for-microsoft-365-government"></a>Microsoft 365 Government の組織全体のアプリ設定を管理する  
 
-Microsoft 365 Government - Teams の GCCH および DoD 展開では、GCCH および DoD に固有のサードパーティ アプリ設定について次のことを知っておくことが重要です。
+Microsoft 365 Government - GCC、GCCH、および DoD Teams の展開では、すべてのサード パーティアプリが既定でブロックされます。 GCCH および DOD クラウドでは、サード パーティ製アプリは使用できません。 さらに、GCC では、Microsoft Teams の管理センターのアプリ許可ポリシーページで、サードパーティ アプリの管理について以下のような注意事項が表示されます。
 
-GCC、GCCH、DoD のデプロイでは、すべてのサード パーティ製アプリが既定でブロックされます。 さらに、GCC では、Microsoft Teams の管理センターのアプリ許可ポリシーページで、サードパーティ アプリの管理について以下のような注意事項が表示されます。
-
-:::image type="content" source="media/app-permission-policies-gcc-trimmed.png" alt-text="GCCH および DoD 内のアプリのアクセス許可ポリシーのスクリーンショット。" lightbox="media/app-permission-policies-gcc.png":::
-
-> [!NOTE]
-> GCCH および DOD クラウドでは、サード パーティ製アプリは使用できません。
+:::image type="content" source="media/app-permission-policies-gcc.png" alt-text="GCCH および DoD 内のアプリのアクセス許可ポリシーのスクリーンショット。":::
 
 組織全体のアプリ設定を使用して、ユーザーがサード パーティのアプリをインストールできるかどうかを制御します。 組織全体のアプリ設定は、すべてのユーザーの動作を管理し、ユーザーに割り当てられた他のアプリ権限ポリシーを上書きします。 それらを使用して、悪意のあるアプリや問題のあるアプリを制御できます。
 

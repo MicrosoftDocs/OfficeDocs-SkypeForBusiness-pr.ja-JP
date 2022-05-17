@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 会議ポリシー設定を使用して、Microsoft Teamsでの会議の有効期限を制御する方法について説明します。
-ms.openlocfilehash: 4496896cc86cfd64f175b9cab7c58c3798b9249f
-ms.sourcegitcommit: 20d44ce9a62ba2fb60f989d2e7bbc9333055e783
+ms.openlocfilehash: 74b47d296b06d2ef9462dfafec136a99ebff0a34
+ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65063248"
+ms.lasthandoff: 05/17/2022
+ms.locfileid: "65442023"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Microsoft Teamsでの会議ポリシーと会議の有効期限
 
@@ -181,3 +181,5 @@ Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 [ Teams でユーザーにポリシーを割り当てる](policy-assignment-overview.md)
 
 [Teams での PowerShell の概要](teams-powershell-overview.md)
+
+[Microsoft Teams の制限事項と仕様](/microsoftteams/limits-specifications-teams)

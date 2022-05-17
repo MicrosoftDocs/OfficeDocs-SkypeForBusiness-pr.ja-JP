@@ -16,12 +16,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams で組織でのタグの使用方法を管理する方法について説明します。
-ms.openlocfilehash: 67bbc53b5619c47117ae227396ad8352aa1a382a
-ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
-ms.translationtype: HT
+ms.openlocfilehash: 0fa615f2bbcdd7965777925b2413717779ad4a7a
+ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "64642911"
+ms.lasthandoff: 05/17/2022
+ms.locfileid: "65442013"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Microsoft Teams でタグを管理する
 
@@ -55,7 +55,7 @@ Microsoft Teams のタグを使用すると、チーム内の一部のユーザ�
 
 ![Microsoft Teams 管理センターのタグ付け設定のスクリーンショット。](media/manage-tags-admin-settings.png)
 
-各チームは最大 100 個のタグを持つことができ、1 つのタグに対して最大 100 人のチーム メンバーを、1 人のユーザーに対して最大 25 個のタグを割り当てることができます。 
+チームには最大 100 個のタグを割り当て、最大 200 人のチーム メンバーをタグに割り当て、同じチーム内の最大 25 個のタグを 1 人のユーザーに割り当てることができます。 
 
 ### <a name="set-who-can-add-custom-tags"></a>カスタム タグを追加できるユーザーを設定する
 

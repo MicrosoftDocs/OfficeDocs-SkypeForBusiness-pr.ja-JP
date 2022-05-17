@@ -13,14 +13,14 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: この記事では、Cisco WebEx と Zoom へのサード パーティ会議への参加をサポートするように組織とTeams Rooms デバイスを構成する方法について説明します。
-ms.openlocfilehash: 6defa9c9287b130eb5534f0aea158a78f2de8b18
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 91b730f998a1c17ed41f42a1e2990c82045d3117
+ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64846606"
+ms.lasthandoff: 05/17/2022
+ms.locfileid: "65442003"
 ---
-# <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>会議室デバイスTeamsサード パーティの会議に参加できるようにする
+# <a name="enable-teams-rooms-devices-to-join-third-party-meetings"></a>Teams Rooms デバイスがサード パーティの会議に参加できるようにする
 
 > [!NOTE]
 > この機能は現在、WindowsのTeams Roomsでのみ使用できます。
@@ -65,8 +65,8 @@ Team Rooms からワンタッチ参加エクスペリエンスを有効にする
 
 Defender for Office 365 セーフ リンクの *書き換えリスト* またはサード パーティの URL 書き換え例外リストに追加する必要があるエントリの例を次に示します。
 
-- **Cisco WebEx** `*.webex.com*`
-- **ズーム** `*.zoom.us*`、 、 `*.zoom.com*``*.zoomgov.com*`
+- **Cisco WebEx** `*.webex.com/*`
+- **ズーム** `*.zoom.us/*`、 、 `*.zoom.com/*``*.zoomgov.com/*`
 
 Defender for Office 365 セーフ *リンクに* 追加する URL の完全な一覧については、会議の招待を受け入れるサード パーティの会議サービス プロバイダーにお問い合わせください。
 
