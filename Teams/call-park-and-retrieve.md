@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: コール パークを使用して取得し、Microsoft Teamsで通話を保留にする方法について説明します。
-ms.openlocfilehash: eac146ee80624152e3f0be1ab2523f848328bb95
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: a2a70515bbe263716fab8e2deded75e44d12fd6e
+ms.sourcegitcommit: 3cb40132e36717dfbdc6dfe83e7ea319f3ec9347
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605803"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "65465448"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Microsoft Teams でのコール パークおよび保留解除
 
@@ -51,17 +51,13 @@ ms.locfileid: "60605803"
 
 タイムアウトは、パークされた呼び出しがピックアップされていないときに呼び出し元に戻るまで待機する秒数として指定できます。 指定できる範囲は 120 ~ 1800 秒で、既定値は 300 秒です。
 
-カスタム パーク範囲とパーク タイムアウトを設定するには、PowerShell モジュール 2.6.0 以降で使用できる New コマンドレットとSet-CsTeamsCallParkPolicy コマンドレットTeams使用します。 (カスタム パーク範囲とパーク タイムアウトの変更は、Teams管理センターでは管理できません。 Teams管理センターは引き続き既定値を表示します。
-
 コール パーク ポリシーを有効にするには:
 
 1. Microsoft Teams管理センターの左側のナビゲーションで、**VoiceCall** >  **パーク ポリシー** に移動します。
 2. [ **ポリシーの管理** ] タブで、[ **追加**] をクリックします。
-3. ポリシーに名前を付け、[ **コール パークを許可する** ] を **[オン]** に切り替えます。 (通話のピックアップ範囲とタイムアウトはカスタマイズできません)。
-
-    ![コール パーク ポリシー設定のスクリーンショット。](media/call-park-add-policy.png)
-
-4. **[保存]** を選択します。
+3. ポリシーに名前を付け、[ **コール パークを許可する** ] を **[オン]** に切り替えます。
+4. 必要に応じて、範囲とパーク タイムアウトを変更します。
+5. **[保存]** を選択します。
 
 ポリシーを編集するには、一覧でポリシーを選択し、[ **編集]** をクリックします。
 
