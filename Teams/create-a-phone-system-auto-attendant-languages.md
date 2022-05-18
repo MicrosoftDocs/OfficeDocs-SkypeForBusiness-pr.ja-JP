@@ -1,7 +1,7 @@
 ---
 title: 自動応答でサポートされている言語をMicrosoft Teamsする
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 自動応答でサポートされている言語をMicrosoft Teamsする
-ms.openlocfilehash: 52dc175b5c8d7379d538c3a80b28b763279c7c41
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0a513e31f94052abc07707ddd57bc116c4768aff
+ms.sourcegitcommit: 2c3c067cccd7b84064b5619a0b5f87242af52984
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605836"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "65462041"
 ---
 # <a name="microsoft-teams-auto-attendant-supported-languages"></a>自動応答でサポートされている言語をMicrosoft Teamsする
 
