@@ -19,14 +19,16 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c734fe5d6326d0fc4bfddfbc381d66339303d36e
-ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
+ms.openlocfilehash: 8415ee8dc79c8c67189ae801b1287c56115e6d72
+ms.sourcegitcommit: 2c3c067cccd7b84064b5619a0b5f87242af52984
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63392879"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "65462031"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook で Teams の会議アドインを使用する
+
+この記事では、エンド ユーザー向けの Outlook の Teams 会議アドインの認証要件と機能について詳しく説明します。 また、プライベート会議を有効にし、アイランド モードでユーザーのポリシー設定を調整する方法についても説明します。 アドインに問題がある場合は、「[最新のトラブルシューティング ガイダンス](/MicrosoftTeams/troubleshoot/meetings/resolve-teams-meeting-add-in-issues)」 を参照してください。
 
 Teams 会議アドインを使用すると、ユーザーは Outlook から Teams 会議をスケジュールできます。 このアドインは、Outlook for Windows、Mac、Web、モバイルで使用できます。
 
@@ -126,59 +128,6 @@ Teams の会議アドインは継続して機能が開発されていますの�
 - ユーザーが Outlook 内でライブ イベントをスケジュールすることはできません。 Teams に移動し、ライブ イベントをスケジュールします。 詳細については、「[Microsoft Teams のライブ イベントについて](teams-live-events/what-are-teams-live-events.md)」を参照してください。
 
 [Microsoft Teams での会議と通話](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)についてご確認ください。
-
-## <a name="troubleshooting"></a>トラブルシューティング
-
-次の手順を使用して、Teams 会議アドインの問題のトラブルシューティングを行います。
-
-> [!NOTE]
-> このシナリオは、[コマンドライン バージョンの Microsoft サポート/回復アシスタント](/office365/troubleshoot/administration/sara-command-line-version)と SaRAcmd.exe -S TeamsAddinScenario -AcceptEula -CloseOutlook を使用して管理することもできます。
-
-### <a name="teams-meeting-add-in-in-outlook-for-windows-does-not-show"></a>Outlook for Windows の Teams 会議アドインが表示されない
-
-Outlook 用の Teams 会議アドインをインストールできない場合、次のトラブルシューティングの手順をお試しください。
-
-[Microsoft Support and Recovery Assistant (Microsoft サポート/回復アシスタント)](https://aka.ms/SaRA-TeamsAddInScenario) をダウンロードして、「[Microsoft サポート/回復アシスタントについて](https://aka.ms/SaRA_Home)」の手順に従って自動修正を実行します。
-
-または、次の手順を手動で実行します。
-
-- Windows 7 ユーザーは、Teams 会議アドインを機能させるために、[Windows ユニバーサル C ランタイム更新プログラム](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)をインストールする必要があります。
-- ユーザーが Teams で会議をスケジュールできる Teams アップグレード ポリシーを持っていることを確認します。 詳細については、「[Skype for Business から Teams へのアップグレード](/microsoftteams/meeting-policies-in-teams-general)」を参照してください。
-- Outlook アドインを許可する Teams 会議ポリシーが設定されていることを確認します。 詳細については、「[会議ポリシーの設定 - 全般](./meeting-policies-in-teams-general.md#outlook-add-in)」を参照してください。
-- ユーザーが Teams デスクトップ クライアントをインストールしていることを確認します。 Teams の Web クライアントのみを使用している場合には、会議アドインはインストールされません。
-- ユーザーが Outlook 2013 以降をインストールしていることを確認します。
-- ユーザーが regsvr32.exe の実行権限を持っていることを確認します。
-- Outlook デスクトップ クライアントのすべての利用可能な更新プログラムが適用されていることを確認します。
-- 次の手順を実行します。
-  - Teamsのデスクトップ クライアントを再起動します。
-  - [Teamsのデスクトップ クライアント]からサインアウトして、もう一度サインインします。
-  - Outlook デスクトップ クライアントを再起動します。 (管理者モードで Outlook が実行されていないことをご確認ください。)
-
-それでもアドインが表示されない場合、Outlook でアドインが無効になっていないかをご確認ください。
-
-- Outlook で、[**ファイル**]、[**オプション**] の順に選択します。
-- [**Outlook のオプション**] ダイアログ ボックスの [**アドイン**] タブを選択します。
-- [**Microsoft Office 用の Microsoft Teams 会議アドイン**] が [**有効なアプリケーション アドイン**] の一覧に表示されていることを確認します。
-- Teams 会議アドインが [**無効なアプリケーション アドイン**] の一覧に表示されている場合は、[**管理**] の [**COM アドイン**] を選択し、[**移動**] を選択します。
-- [**Microsoft Office 用の Microsoft Teams 会議アドイン**] の横にあるチェックボックスをオンにします。
-- すべてのダイアログボックスで [**OK**] をクリックして、Outlook を再起動します。
-
-アドインを管理する方法に関する全般的なガイドラインについては、「[Office プログラムでアドインを表示、管理、インストールする](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D)」をご覧ください。
-
-それでもアドインが表示されない場合には、次の手順でレジストリ設定を確認します。
-
-> [!NOTE]
-> レジストリを正しく編集しないと、システムが正常に動作しなくなる場合があります。 レジストリを変更する前に、コンピューター上の重要なデータをバックアップする必要があります。
-- RegEdit.exe を起動します。
-- HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\Addins に移動します。
-- TeamsAddin.FastConnect が存在することを確認します。
-- TeamsAddin.FastConnect 内に LoadBehavior が存在し、3 に設定されていることを確認します。
-  - LoadBehavior の値が 3 以外の場合には、3 に変更して Outlook を再起動します。
-
-### <a name="delegate-scheduling-does-not-work"></a>代理人によるスケジュール設定が機能しない
-
-管理者が、[Exchange Web Server (EWS) へのアクセスを制御する](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)ように Microsoft Exchange を構成している場合、代理人は上司の代わりに Teams 会議をスケジュールできません。 この構成のソリューションは開発中で、今後リリースされる予定です。 回避策として、管理者は次の文字列を EWS の許可リストに追加することができます: "*SchedulingService*"。 
-
 
 ## <a name="related-topics"></a>関連項目
 
