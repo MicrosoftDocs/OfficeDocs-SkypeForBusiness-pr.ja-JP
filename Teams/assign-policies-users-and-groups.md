@@ -18,12 +18,12 @@ description: Microsoft Teamsのユーザーとグループにポリシーを割�
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 82fa6f1469b0ffc65ec95d057c5e944728209078
-ms.sourcegitcommit: b878c57b8e822913b7aac8c105f476bc4ebfcd7d
+ms.openlocfilehash: b332f66328048f08bae5e92d0b5421dfabde5a07
+ms.sourcegitcommit: 7a9c3e8857608b97d0f456ab296b46228a806acb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63761941"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "65587657"
 ---
 # <a name="assign-policies-to-users-and-groups"></a>ユーザーとグループにポリシーを割り当てる
 
@@ -112,6 +112,9 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
 - ユーザーに直接割り当てられているポリシーが削除されます。
 
 #### <a name="group-assignment-ranking"></a>グループ割り当てのランク付け
+
+> [!NOTE]
+> 特定のポリシーの種類は、その種類のポリシー インスタンス全体で最大 64 個のグループに割り当てることができます。
 
 ポリシーをグループに割り当てるときは、グループ割り当てのランクを指定します。 これは、ユーザーが 2 つ以上のグループのメンバーであり、各グループに同じ種類のポリシーが割り当てられている場合に、ユーザーが有効なポリシーとして継承する必要があるポリシーを決定するために使用されます。
 
@@ -299,7 +302,7 @@ Connect-MicrosoftTeams
 
 #### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module-optional"></a>Azure AD PowerShell for Graph モジュールをインストールして接続する (オプション)
 
-Azure AD [PowerShell for Graph モジュール](/powershell/azure/active-directory/install-adv2) (まだインストールしていない場合) をダウンロードしてインストールし、Azure ADに接続して、組織内のユーザーの一覧を取得することもできます。
+また、Azure [AD PowerShell for Graph モジュール](/powershell/azure/active-directory/install-adv2) (まだインストールしていない場合) をダウンロードしてインストールし、Azure AD に接続して、組織内のユーザーの一覧を取得することもできます。
 
 以下を実行して、Azure AD に接続します。
 
