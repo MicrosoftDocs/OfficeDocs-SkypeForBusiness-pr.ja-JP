@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 930f4b7a311acc7c34e60b7916071d10349c0313
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: a4759bc010367e6531a557e2a5ff951d1b613505
+ms.sourcegitcommit: 3b86e55787c34da76428d6915964ac4f3c6239fc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "64592892"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65598360"
 ---
 # <a name="shifts-connectors"></a>コネクタをシフトする
 
@@ -30,7 +30,7 @@ Shifts コネクタを使用すると、Microsoft Teamsのスケジュール管�
 
 WFM システムをTeamsに接続することで、現場の従業員はスケジュールをより効果的に管理し、より高いエンゲージメントと生産性を実現するために日常のプロセスを合理化できます。 現場のワーカーは、スケジュール設定、コミュニケーション、コラボレーションを行うための 1 つの場所を持ち、どこからでも、あらゆるデバイスで作業を完了する必要があります。
 
-マネージドおよびオープンソースの Shifts コネクタを提供しています。 この記事では、Shifts コネクタとその動作の概要について説明します。
+この記事では、Shifts コネクタとその動作の概要について説明します。
 
 ## <a name="how-shifts-connectors-work"></a>Shifts コネクタのしくみ
 
@@ -115,17 +115,6 @@ Microsoft Teams用の Reflectionis Shifts コネクタは、Zebra によって�
 - Shifts で、休暇の要求、シフトのオープン、シフトのスワップとオファーを行います。
 
 詳細については、次のページを https://connect.zebra.com/microsoft-connectors参照してください。
-
-## <a name="open-source-shifts-connectors"></a>オープンソースの Shifts コネクタ
-
-オープンソースの Shifts コネクタは、[Shifts Graph API](/graph/api/resources/shift) 上に構築されたコミュニティ主導の統合です。 次のオープン ソース コネクタを使用できます。
-
-- Kronos-to-Teams WFC オンプレミス
-- JDA からTeams Shifts コネクタ (Blue Yonder バージョン 2017 から 2020.2 の場合)
-
-各コネクタには、詳細なデプロイと構成のガイダンスが付属しています。 これには、Microsoft Azureで必要なすべてのサービスをホストできる Azure Resource Manager (ARM) デプロイ スクリプトが含まれています。 ソース コードとデプロイ スクリプトは、[GitHub リポジトリ](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)でダウンロードできます。 そのままデプロイすることも、ニーズに合わせてカスタマイズまたは拡張することもできます。
-
-詳細については、 [実稼働対応の Shifts コネクタに関するページを](/microsoftteams/platform/samples/shifts-wfm-connectors)参照してください。
 
 ## <a name="related-articles"></a>関連記事
 

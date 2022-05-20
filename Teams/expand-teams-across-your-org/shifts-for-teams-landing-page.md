@@ -22,12 +22,12 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 59e62ad1278c2703402a1186d198ae3ad877be63
-ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
+ms.openlocfilehash: f8980116dab90abd3c9c96ac17b577e6abf64f90
+ms.sourcegitcommit: 3b86e55787c34da76428d6915964ac4f3c6239fc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64592773"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65598310"
 ---
 # <a name="shifts-for-teams"></a>Shifts for Teams
 
@@ -49,16 +49,15 @@ ms.locfileid: "64592773"
 
 ## <a name="shifts-connectors"></a>コネクタをシフトする
 
-スケジュール設定にサード パーティの従業員管理 (WFM) システムを使用している場合は、マネージド Shifts コネクタを使用し、Shifts Graph API および SDK とオープン ソースの Shifts コネクタを使用して Shifts と直接統合できます。 接続を設定すると、フロントライン ワーカーは Shifts 内から WFM システムでスケジュールをシームレスに表示および管理できます。
+スケジュール設定にサード パーティの従業員管理 (WFM) システムを使用している場合は、マネージド Shifts コネクタを介して Shifts と直接統合できます。 接続を設定すると、フロントライン ワーカーは Shifts 内から WFM システムでスケジュールをシームレスに表示および管理できます。
 
 |&nbsp;  |&nbsp;  |
 |---------|---------|
-|<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[Shifts コネクタの概要](shifts/shifts-connectors.md)** Shifts コネクタとその動作の概要について説明します。 使用可能なマネージド コネクタとオープン ソース コネクタ、およびサポートされている WFM システムについて説明します。   |
+|<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[Shifts コネクタの概要](shifts/shifts-connectors.md)** Shifts コネクタとその動作の概要について説明します。 使用可能なマネージド コネクタとサポートされている WFM システムについて説明します。   |
 |<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[マネージド シフト コネクタ](shifts/shifts-connectors.md#managed-shifts-connectors)** パートナーと共同で開発されたマネージド シフト コネクタは、Microsoft またはパートナーによってホストおよび管理されます。 詳細については、「[Microsoft Teams用の Blue Yonder および Reflectionis Shifts コネクタの Shifts コネクタ](shifts/shifts-connectors.md#microsoft-teams-shifts-connector-for-blue-yonder)[Microsoft Teams](shifts/shifts-connectors.md#reflexis-shifts-connector-for-microsoft-teams)参照してください。    |
 |   | **[Shifts コネクタ ウィザードを使用して Shifts を Blue Yonder Workforce Management に接続する](shifts/shifts-connector-wizard.md)** Microsoft 365 管理センターの Shifts コネクタ ウィザードを使用すると、WFM システムへの接続をすばやく設定できます。 現在、ウィザードは Blue Yonder 用の Teams Shifts コネクタをサポートし、Shifts と Blue Yonder Workforce Management を統合しています。
 |  | **[PowerShell を使用してシフトを Blue Yonder Workforce Management に接続する](shifts/shifts-connector-blue-yonder-powershell-setup.md)** PowerShell を使用して、Blue Yonder の Teams Shifts コネクタを使用して Blue Yonder Workforce Management への接続を設定する方法について説明します。         |
 |   | **[PowerShell を使用して、Blue Yonder Workforce Management への Shifts 接続を管理する](shifts/shifts-connector-powershell-manage.md)** Shifts コネクタ ウィザードまたは PowerShell を使用してセットアップした後、PowerShell を使用して Blue Yonder Workforce Management への Shifts 接続を管理する方法に関するガイダンスを取得します。
-|<img src="/office/media/icons/api.png" alt="Three gears - API.">    | **[オープンソースの Shifts コネクタ](/microsoftteams/platform/samples/shifts-wfm-connectors)**[コミュニティ主導のオープンソース コネクタ](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)を使用して、Shifts Graph API と SDK を使用して Kronos または JDA WFM システムを統合する方法について説明します。    |
 
 ## <a name="shifts-extensions"></a>拡張機能をシフトする
 

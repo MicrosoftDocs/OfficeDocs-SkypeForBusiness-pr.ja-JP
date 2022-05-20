@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac7ac28eca8a139d9a7d1ff5a8100af1de772955
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: 91356e6716836b78115f6e6a3e19fffd3f521aa5
+ms.sourcegitcommit: 3b86e55787c34da76428d6915964ac4f3c6239fc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556278"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65598350"
 ---
 # <a name="meeting-room-guidance-for-teams"></a>Teams の会議室ガイダンス
 
@@ -250,7 +250,7 @@ Microsoft Teams Rooms認定されたオーディオ ソリューションを使�
 
 ### <a name="how-do-you-co-create-content"></a>コンテンツを共同作成する方法
 
-Microsoft Teams Roomsでは、ユーザーはインテリジェント キャプチャ機能を使用して、従来のアナログ ホワイトボードを利用できます。 すべての参加者が描画とインクを一緒に描画できるモダン化されたエクスペリエンスでは、タッチスクリーンの会議室の前面ディスプレイ、PC、スマートフォン、タブレットなどのコンパニオン デバイス、およびMicrosoft Surface Hubを使用してMicrosoft Whiteboardにアクセスできます。
+Microsoft Teams Roomsでは、ユーザーはインテリジェント キャプチャ機能を使用して、従来のアナログ ホワイトボードを利用できます。 すべての参加者が描画とインクを一緒に描画できるモダン化されたエクスペリエンスでは、タッチスクリーンの会議室の前面ディスプレイ、PC、電話、Tablet PCなどのコンパニオン デバイス、Microsoft Surface Hubを使用してMicrosoft Whiteboardにアクセスできます。
 
 ## <a name="enhanced-microsoft-teams-room-design-guidance"></a>強化されたMicrosoft Teamsルーム設計ガイダンス
 
@@ -324,11 +324,11 @@ Microsoft Teamsの拡張されたルームでは、Microsoft WindowsでMicrosoft
 
 ### <a name="cameras"></a>カメラ
 
-#### <a name="camera-options"></a>カメラ のオプション
+#### <a name="camera-options"></a>カメラ オプション
 
 このタイプの部屋では、空間の幅と奥行きに対して適切に評価されるインテリジェントな超ワイド角度のフロント オブ ルーム カメラを使用する必要があります。
 
-#### <a name="camera-placement"></a>カメラの配置
+#### <a name="camera-placement"></a>カメラ配置
 
 カメラは、会議室の前面プロジェクションの下の部屋の前に配置する必要がありますが、できるだけ目の高いレベルですべての会議室の参加者をキャプチャするには、テーブルの上部の上に配置する必要があります。
 
@@ -394,7 +394,7 @@ Microsoft Teamsの拡張されたルームでは、Microsoft WindowsでMicrosoft
 
 #### <a name="microsoft-whiteboard"></a>Microsoft Whiteboard
 
-すべてのTeams Roomsは、Microsoft Surface Hub、タッチスクリーンの部屋の前面ディスプレイ、PC、スマートフォン、タブレットなどのコンパニオン デバイスを介して、対話型コラボレーション デバイスを通じてMicrosoft Whiteboardを利用できます。
+すべてのTeams Roomsは、Microsoft Surface Hub、タッチスクリーンの部屋の前面ディスプレイ、PC、電話、Tablet PCなどのコンパニオン デバイスを介して、対話型のコラボレーション デバイスを通じてMicrosoft Whiteboardを利用できます。
 
 #### <a name="traditional-whiteboard"></a>従来のホワイトボード 
 
@@ -441,6 +441,12 @@ WindowsのすべてのTeams Roomsは、インテリジェント キャプチャ�
 -   [Poly Studio](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-studio/206)
 
 -   Poly Studio E70
+
+-   [Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)
+
+-   [Logitech Rally Bar](https://www.logitech.com/products/video-conferencing/room-solutions/rallybar.960-001308.html)
+
+-   [Logitech Rally Bar Mini](https://www.logitech.com/products/video-conferencing/room-solutions/rallybarmini.960-001336.html)
 
 ### <a name="microphone"></a>マイク
 
