@@ -21,12 +21,12 @@ description: Microsoft Teamsの緊急通報ルーティング ポリシーを使
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: f04204377f4b90f5a96143e579863f4acdbf3989
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: 33a0493d038586aa51daf29e320e9ffa9c6c7b5b
+ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62190898"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65624121"
 ---
 # <a name="manage-emergency-call-routing-policies-for-direct-routing"></a>ダイレクト ルーティングの緊急通話ルーティング ポリシーを管理する
 
@@ -86,6 +86,16 @@ ms.locfileid: "62190898"
 [Grant-CsTeamsEmergencyCallRoutingPolicy](/powershell/module/skype/grant-csteamsemergencycallroutingpolicy) も参照してください。
 
 ## <a name="assign-a-custom-emergency-call-routing-policy-to-a-network-site"></a>カスタム緊急通報ルーティング ポリシーをネットワーク サイトに割り当てる
+
+### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
+
+グローバル ポリシーまたは作成した任意のカスタム ポリシーを割り当てることができます。
+
+1. Microsoft Teams管理センターの左側のナビゲーションで、**LocationsNetwork** >  **トポロジに** 移動し、[**ネットワーク サイト**] タブをクリックします。
+2. 名前の左側をクリックしてサイトを選択し、[ **編集]** をクリックします。
+3. [ **緊急通話ルーティング ポリシー**] でポリシーを選択し、[ **保存**] をクリックします。
+
+### <a name="using-powershell"></a>PowerShell の使用
 
 [Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite) コマンドレットを使用して、緊急通話ルーティング ポリシーをネットワーク サイトに割り当てます。
 

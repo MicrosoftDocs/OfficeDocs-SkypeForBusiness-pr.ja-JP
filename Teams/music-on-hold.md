@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: 電話システムで保留音機能を管理する方法について説明します。
-ms.openlocfilehash: 3e3e9c12eb459fdf52506be4577dfea88943ffa7
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 4899ffd2a3b6bfda80164ca2df4a5460a2b005e2
+ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922658"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65624238"
 ---
 # <a name="music-on-hold"></a>保留音
 
@@ -69,7 +69,7 @@ Teams ユーザーが保留音が無効に設定されたTeams通話ポリシー
 
 カスタム保留音の構成は、オーディオ ファイルのアップロードから始まります。 この目的のために PowerShell コマンドレット [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile) を使用します。
 
-PowerShell インターフェイスを使用して MP3 オーディオ ファイルをアップロードする例を次に示します。
+Windows PowerShell 5.1 を使用して MP3 オーディオ ファイルをアップロードする例を次に示します。 その他の例については、「 [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)」を参照してください。
 
 ```PowerShell
 C:\> $content = Get-Content "C:\tmp\customMoH1.mp3" -Encoding byte -ReadCount 0
@@ -132,6 +132,10 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 
 - [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
+- [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)
+
+- [Export-CsOnlineAudioFile](/powershell/module/skype/export-csonlineaudiofile)
+
 - [Get-CsOnlineAudioFile](/powershell/module/skype/get-csonlineaudiofile)
 
 - [Remove-CsOnlineAudioFile](/powershell/module/skype/remove-csonlineaudiofile)
@@ -144,6 +148,3 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 
 - [Remove-CsTeamsCallHoldPolicy](/powershell/module/skype/remove-csteamscallholdpolicy)
 
-- [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)
-
-- [Export-CsOnlineAudioFile](/powershell/module/skype/export-csonlineaudiofile)

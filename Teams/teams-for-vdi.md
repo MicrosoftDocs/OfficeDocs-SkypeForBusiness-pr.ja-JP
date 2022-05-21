@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0f2364471b3800042e7536d1013b82d76209a02
-ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
-ms.translationtype: HT
+ms.openlocfilehash: ce8e702682ebcc4b05e94f077882d51f09aac0ff
+ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64457070"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65624151"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -168,8 +168,8 @@ Teams と Microsoft 365 Apps for enterprise の詳細については、「[Micro
 
 1. 次のリンクのいずれかを使用して、VDI VM オペレーティング システムに一致する Teams MSI パッケージをダウンロードします。
 
-    - [32 ビット版](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)
-    - [64 ビット版](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)
+    - [32 ビット版](https://statics.teams.cdn.office.net/production-windows/1.5.00.11865/Teams_windows.msi)
+    - [64 ビット版](https://statics.teams.cdn.office.net/production-windows-x64/1.5.00.11865/Teams_windows_x64.msi)
 
     > [!NOTE]
     > 政府機関のクラウドの場合、MSI ファイルへのダウンロード リンクについては、「[Windows インストーラー (MSI) を使用して Teams を一括インストールする](msi-deployment.md)」を参照してください。
