@@ -1,7 +1,7 @@
 ---
 title: KaizalaとMicrosoft Teams
-author: Benny-54
-ms.author: v-bshilpa
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: a0760e95f1b91cc12320142fd666c5e837da623d
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: a81aac5cb0a23ad8cadfa988bf4f28e72df0c6f9
+ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059318"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65635355"
 ---
 # <a name="kaizala-and-microsoft-teams"></a>KaizalaとMicrosoft Teams 
 
@@ -40,7 +40,7 @@ KaizalaとTeamsに関してよく寄せられる質問を読み続けます。
 
 ## <a name="when-should-my-organization-move-from-kaizala-to-teams"></a>組織はいつKaizalaからTeamsに移行する必要がありますか?
 
-Teamsが提供する豊富な機能を利用するために、すべてのMicrosoft 365と[Office 365](https://www.microsoft.com/microsoft-teams/group-chat-software?ms.officeurl=teams&rtc=1&OCID=AID2388518_SEM_Ks5ySdZ9)のお客様に、今日のTeamsの使用を開始することをお勧めします。 これらの機能には、46 言語と 181 市場のモバイル ユーザー向けのシンプルで強力なエクスペリエンスが含まれます。 シフト管理、ゲスト アクセス、Microsoft Flowと PowerApps を使用したカスタム ワークフローやアプリのサポートなどの機能を使用して、現場のワーカー スタッフを強化します。 Teamsではまだ使用できない特定のKaizala機能については、今後、更新されたタイムラインを投稿する予定です。
+Teamsが提供する豊富な機能を利用するために、すべてのMicrosoft 365と[Office 365](https://www.microsoft.com/microsoft-teams/group-chat-software?ms.officeurl=teams&rtc=1&OCID=AID2388518_SEM_Ks5ySdZ9)のお客様に、今日のTeamsの使用を開始することをお勧めします。 これらの機能には、46 言語と 181 市場のモバイル ユーザー向けのシンプルで強力なエクスペリエンスが含まれます。 シフト管理、ゲスト アクセス、Microsoft Flowと PowerApps を使用したカスタム ワークフローやアプリのサポートなどの機能を使用して、現場のワーカー スタッフをMicrosoft Empower for ISV Initiativeします。 Teamsではまだ使用できない特定のKaizala機能については、今後、更新されたタイムラインを投稿する予定です。
 
 ## <a name="how-can-i-continue-to-use-kaizala-pro-if-i-had-purchased-the-standalone-offering"></a>スタンドアロン オファリングを購入した場合、Kaizala Proを引き続き使用するにはどうすればよいですか?
 

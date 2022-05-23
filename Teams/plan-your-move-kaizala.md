@@ -1,7 +1,7 @@
 ---
 title: KaizalaからMicrosoft Teamsへの正常な移行を計画する
-author: Benny-54
-ms.author: v-bshilpa
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: e453a9c12ebd9e83a84b3e955b6dae3ed8bd052f
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 4416fa65f38ad3489d05312382cce55b4a21898f
+ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62422999"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65635395"
 ---
 # <a name="planning-for-a-successful-transition-from-kaizala-to-microsoft-teams"></a>KaizalaからMicrosoft Teamsへの正常な移行を計画する
 
@@ -78,7 +78,7 @@ Kaizalaからの正常な移行を計画するための推奨されるフレー�
 
  4. 次のトレーニング リソースを使用して、組織内のユーザーがTeamsを学習して最大限に活用できるようにします。
 
-    - IT 管理者の準備については、「 [管理者トレーニング リソース」を](/microsoftteams/itadmin-readiness)参照してください。
+    - IT 管理準備については、[トレーニング リソース管理](/microsoftteams/itadmin-readiness)参照してください。
 
     - インストラクター主導のトレーニングについては、[Microsoft Teamsのインストラクター主導のトレーニングに関するページを](/microsoftteams/instructor-led-training-teams-landing-page)参照してください。
   

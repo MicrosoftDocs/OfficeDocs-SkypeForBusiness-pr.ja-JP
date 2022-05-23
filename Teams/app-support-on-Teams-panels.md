@@ -1,8 +1,8 @@
 ---
 title: Teams パネルでのMicrosoft Teams アプリ/基幹業務 (LOB) アプリのサポート
-author: amandafrechinjackson
-ms.author: v-amandaf
-manager: jsarrasin
+author: dstrome
+ms.author: dstrome
+manager: serdars
 ms.date: 8/5/2021
 ms.topic: conceptual
 audience: ITPro
@@ -20,12 +20,12 @@ f1.keywords:
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8852ef3d212d2a284f4af72662c771d4c13b13af
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 2bf4066675755e0f93844644a6a59404af678a38
+ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205637"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65635415"
 ---
 # <a name="microsoft-teams-appsline-of-business-lob-app-support-on-teams-panels"></a>Teams パネルでのMicrosoft Teams アプリ/基幹業務 (LOB) アプリのサポート
 

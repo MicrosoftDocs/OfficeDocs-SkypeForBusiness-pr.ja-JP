@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Rooms Premium マネージド サービスにTeams Rooms デバイスを登録する
-author: v-smandalika
-ms.author: v-smandalika
+author: donnah007
+ms.author: v-donnahill
 manager: serdars
 ms.reviewer: ''
 ms.topic: article
@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: マネージド サービスにMicrosoft Teams RoomsアカウントMicrosoft Teams Rooms Premium登録する方法について説明します。
 f1keywords: ''
-ms.openlocfilehash: d00c4f84447e8ba41f0328cca9b907db45e8fdb7
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: c64fcaf6e817eb57be2915f4f7b6d8684f2ae49b
+ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070416"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65635455"
 ---
 # <a name="enroll-a-device-in-the-microsoft-teams-rooms-premium-managed-service"></a>Microsoft Teams Rooms Premium マネージド サービスにデバイスを登録する
 

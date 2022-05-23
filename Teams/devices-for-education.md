@@ -1,8 +1,8 @@
 ---
 title: Education 用のデバイスをTeamsする
-author: amandafrechinjackson
-ms.author: v-amandaf
-manager: jsarrasin
+author: dstrome
+ms.author: dstrome
+manager: serdars
 ms.date: 08/3/2021
 ms.topic: conceptual
 audience: ITPro
@@ -20,12 +20,12 @@ f1.keywords:
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 71af93e7d8fa5368480753a50c790dfe77f40693
-ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
+ms.openlocfilehash: 3f50a76eb6dfafdabfb2ea679fe86b91954c364f
+ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64593022"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65635475"
 ---
 # <a name="teams-devices-for-education"></a>Education 用のデバイスをTeamsする
 
@@ -68,7 +68,7 @@ Teams Rooms では、個人用デバイスの Teams で行える以上のこと�
 
 **任意の部屋に対応する広範なデバイス ポートフォリオ**
 
-Android または Windows オペレーティング システム全体で、完全にモジュール化または統合されたフォーム ファクターから選択する
+AndroidまたはWindowsオペレーティング システム全体で、完全にモジュール化または統合されたフォーム ファクターから選択する
 
 **再考されたルーム エクスペリエンス**
 
@@ -76,7 +76,7 @@ Teams会議に参加して、学生と教育者を問わず、包括的で協調
 
 **1 か所から簡単に管理**
 
-デバイスを完全に管理して最新の状態に保ち、Teams管理センターに入り、Microsoft から 24 時間 365 日のプロアクティブ管理をMicrosoft Teams Rooms Premium
+デバイスを完全に管理して最新の状態に保ち、Teams 管理 センターに入る準備を整え、microsoft から 24 時間 365 日の事前管理をMicrosoft Teams Rooms Premium
 
 ## <a name="space-considerations"></a>スペースに関する考慮事項
 
@@ -250,7 +250,7 @@ Teamsを実行しているノート PC を使用すると、ユーザーは 1 �
 
     -   Surface Hub ソリューションは、コラボレーションと対話型の使用のプレミアム エクスペリエンスを表します。 大きなディスプレイと組み合わせた[Microsoft Teams Room ソリューション](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20?page=1&filterIds=)は、この同じシナリオの代替手段として使用できます。
 
--   アナログ ホワイトボード キャプチャ – [Logitech Brio Content Camera Kit](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/logitech-brio-content-camera-kit/349)
+-   アナログ ホワイトボード キャプチャ – [Logitech Brio Content カメラ Kit](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/logitech-brio-content-camera-kit/349)
 
 -   カメラとオーディオ - [Logitech Rally Plus キット](https://www.logitech.com/products/video-conferencing/room-solutions/rally-ultra-hd-conferencecam.html)
 

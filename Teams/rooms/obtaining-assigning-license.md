@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Rooms Premiumマネージド サービス
-author: v-smandalika
-ms.author: v-smandalika
+author: donnah007
+ms.author: v-donnahill
 manager: serdars
 ms.reviewer: ''
 ms.topic: article
@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams Rooms アカウントが、Microsoft Teams Rooms Premium マネージド サービスにアクセスするためのライセンスを取得する方法について説明します。
 f1keywords: ''
-ms.openlocfilehash: a72dd47184487ed9364ceafacadfdc155743c292
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: 8150e520b50818b3f5251d6645a7a231c1188798
+ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514836"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65635365"
 ---
 # <a name="getting-started-with-microsoft-teams-rooms-premium-managed-service"></a>Microsoft Teams Rooms Premiumマネージド サービスの概要
 

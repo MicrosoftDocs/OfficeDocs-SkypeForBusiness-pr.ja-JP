@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams間を移動する
-author: Benny-54
-ms.author: v-bshilpa
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 355737184294a93eb85c5eb473493aff2ca7fd97
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 9bf52e68f8db5ecacfb4683b0a4809437a860d77
+ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059248"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65635245"
 ---
 # <a name="navigate-microsoft-teams"></a>Microsoft Teamsに移動する
 
@@ -213,11 +213,11 @@ Teams プラットフォームを使用すると、すぐに使用できるMicro
 
 ![Teamsでアプリ テンプレートをポーリングする](media/polltemplatecompose.gif)
 
-**アンケート** を使用すると、ユーザーはチャットまたはチャネルでアンケートを作成し、一連の質問をしたり、実用的な分析情報を得ることができます。 アンケートを使用して、登録、登録、フィードバック、声、リード キャプチャ、レポート、苦情、評価を行います。 アンケート アプリは、デスクトップ、ブラウザー、iOS、Android クライアントTeamsすべてのプラットフォームでサポートされています。 既存のMicrosoft 365 サブスクリプションの一部としてデプロイする準備が整いました。
+**アンケート** を使用すると、ユーザーはチャットまたはチャネルでアンケートを作成し、一連の質問をしたり、実用的な分析情報を得ることができます。 アンケートを使用して、登録、登録、フィードバック、声、リード キャプチャ、レポート、苦情、評価を行います。 アンケート アプリは、デスクトップ、ブラウザー、iOS、Android クライアントTeams、すべてのプラットフォームでサポートされています。 既存のMicrosoft 365 サブスクリプションの一部としてデプロイする準備が整いました。
 
 ![Teamsのアンケート アプリ テンプレート](media/surveytemplatecompose.gif)
 
-**チェックリスト** を使用すると、チャットまたはチャネルで共有チェックリストを作成してチームと共同作業できます。 チェックリスト アプリは、デスクトップ、ブラウザー、iOS、Android クライアントTeamsすべてのプラットフォームでサポートされています。 既存のMicrosoft 365 サブスクリプションの一部としてデプロイする準備が整いました。
+**チェックリスト** を使用すると、チャットまたはチャネルで共有チェックリストを作成してチームと共同作業できます。 チェックリスト アプリは、デスクトップ、ブラウザー、iOS、Android クライアントTeams、すべてのプラットフォームでサポートされています。 既存のMicrosoft 365 サブスクリプションの一部としてデプロイする準備が整いました。
 
 ![Teamsのチェックリスト アプリ テンプレート](media/checklisttemplatecompose.gif)
 
@@ -243,13 +243,13 @@ Microsoft Teamsを使用しているときに、1 つ以上の Planner タブを
 
 ### <a name="photo-check-ins"></a>フォト チェックイン
 
-Teamsスマート カメラを使用して、注釈付きの画像をキャプチャしてチームと共有します。 チームの把握を維持するために、正確に場所を簡単に共有できます。 Kaizala機能をTeamsにマップする方法を伝えるために、より多くの情報が必要です。 スライド デッキからドキュメントにできる限り多くの情報が含まれているのは間違いありません。
+Teams Smart カメラを使用して、注釈付きの画像をキャプチャしてチームと共有します。 チームの把握を維持するために、正確に場所を簡単に共有できます。 Kaizala機能をTeamsにマップする方法を伝えるために、より多くの情報が必要です。 スライド デッキからドキュメントにできる限り多くの情報が含まれているのは間違いありません。
 
 [スタッフ チェックイン アプリ テンプレートを使用して](/microsoftteams/platform/samples/app-templates#staff-check-ins)、フロント ライン スタッフがスケジュールされた、またはアドホックベースでTeamsから直接、タイム クリティカルな情報と状態の更新を簡単に提供できるようにします。 アプリでは、リアルタイムの場所、写真、メモ、リマインダー通知、自動化されたワークフローがサポートされます。
 
 ### <a name="quiz-in-teams"></a>Teamsのクイズ
 
-Quiz はカスタム [Teams メッセージング拡張機能](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions)です。これにより、チャット内またはチャネル内でナレッジ チェックと瞬時の結果を得るためのクイズを作成できます。 クイズは、クラス内およびオフラインの試験、チーム内のナレッジ チェック、チーム内の楽しいクイズに使用できます。 クイズ アプリは、デスクトップ、ブラウザー、iOS、Android クライアントなどの複数のプラットフォームTeamsサポートされています。 このアプリは、既存のMicrosoft 365 サブスクリプションの一部としてデプロイする準備が整いました。
+Quiz はカスタム [Teams メッセージング拡張機能](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions)です。これにより、チャット内またはチャネル内でナレッジ チェックと瞬時の結果を得るためのクイズを作成できます。 クイズは、クラス内およびオフラインの試験、チーム内のナレッジ チェック、チーム内の楽しいクイズに使用できます。 テスト アプリは、デスクトップ、ブラウザー、iOS、Android クライアントなどの複数のプラットフォームTeamsでサポートされています。 このアプリは、既存のMicrosoft 365 サブスクリプションの一部としてデプロイする準備が整いました。
 
 [GitHubで入手する](https://github.com/OfficeDev/microsoft-teams-apps-quiz)
 
@@ -259,7 +259,7 @@ Quiz はカスタム [Teams メッセージング拡張機能](/microsoftteams/p
 
 [スタッフ チェックイン アプリ テンプレートを使用すると](/microsoftteams/platform/samples/app-templates#staff-check-ins)、フロント ライン スタッフは、スケジュールされた、またはアドホックベースでTeamsから直接、タイム クリティカルな情報と状態の更新を簡単に提供できます。 アプリでは、リアルタイムの場所、写真、メモ、リマインダー通知、自動化されたワークフローがサポートされます。
 
-Teamsを使用して、組織のトレーニングを簡単にします。 トレーニングは、ユーザーがオフラインのナレッジ共有とスキルアップのためにチャットまたはチャネル内でトレーニングを公開できるようにするカスタム Teams [メッセージング拡張機能](/microsoftteams/platform/what-are-messaging-extensions)アプリです。 このアプリは、デスクトップ、ブラウザー、iOS、Android など、複数のTeams プラットフォーム クライアントでサポートされています。 このアプリは、Microsoft 365 サブスクリプションの一部としてデプロイする準備が整いました。
+Teamsを使用して、組織のトレーニングを簡単にします。 トレーニングは、ユーザーがオフラインのナレッジ共有とスキルアップのためにチャットまたはチャネル内でトレーニングを公開できるようにするカスタム Teams [メッセージング拡張機能](/microsoftteams/platform/what-are-messaging-extensions)アプリです。 このアプリは、デスクトップ、ブラウザー、iOS、Androidなど、複数のTeams プラットフォーム クライアントでサポートされています。 このアプリは、Microsoft 365 サブスクリプションの一部としてデプロイする準備が整いました。
 
 [GitHubで入手する](https://github.com/OfficeDev/microsoft-teams-apps-training)
 
@@ -295,17 +295,17 @@ Teamsを使用して、組織のトレーニングを簡単にします。 ト�
 
 ### <a name="it-professionals"></a>IT プロフェッショナル
 
-Kaizala管理ポータルからMicrosoft Teams管理センターに管理を切り替えます。 Teams管理センターは、主に管理者ロールのみを使用します。
+Kaizala管理ポータルから Microsoft Teams 管理 センターへの管理の移行を行います。 Teams管理センターは、主に管理者ロールのみを使用します。
 
 管理者は Teams 全体のワークロードを管理できる場合もあれば、通話品質の問題のトラブルシューティングや組織のテレフォニーのニーズを管理するために委任されたアクセス許可を持つ場合もあります。
 
-管理センターを移動するには、[Microsoft Teams管理センター](https://admin.teams.microsoft.com/)にアクセスします。
+管理センターを移動するには、[Microsoft Teams 管理 センターにアクセスします](https://admin.teams.microsoft.com/)。
 
-[Microsoft Purview コンプライアンス ポータル](/microsoft-365/compliance/microsoft-365-compliance-center)と [Microsoft Security Center](/microsoft-365/security/defender/overview-security-center) を使用すると、Microsoft 365全体で組織のセキュリティとコンプライアンスを監視できます。
+[Microsoft Purview コンプライアンス ポータル](/microsoft-365/compliance/microsoft-365-compliance-center)と [Microsoft Security Center](/microsoft-365/security/defender/overview-security-center) を使用して、Microsoft 365全体で組織のセキュリティとコンプライアンスを監視できます。
 
 ビジネスを保護し、[Azure Active Directory管理センター](https://aad.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/c7736064-7b28-4f3d-b366-2740a8d48020)でユーザーを強化し、グループ、ID、ライセンス、Microsoft 365全体のアクセスを確認できます。
 
-## <a name="kaizala-management-portal-to-teams-admin-center"></a>管理センターのTeamsにKaizala 管理ポータルする
+## <a name="kaizala-management-portal-to-teams-admin-center"></a>Teams 管理 センターへのKaizala 管理ポータル
 
 ### <a name="end-user-guidance"></a>エンド ユーザー ガイダンス
 
@@ -321,7 +321,7 @@ Kaizala管理ポータルからMicrosoft Teams管理センターに管理を切�
 | [分析 (利用状況) 導入レポート](teams-analytics-and-reports/view-analytics.md)、 [使用状況レポート](teams-analytics-and-reports/teams-usage-report.md)、 [アクティビティ レポート](teams-analytics-and-reports/user-activity-report.md) | チームの所有者は、メニュー (...) から移動してチームのレポートにアクセスし **、teamanalytics** >  を **管理** できます。 |
 
 > [!NOTE]
-> エンド ユーザー TeamsデスクトップまたはモバイルでTeamsを使用して個々のチームやチャネルを管理でき、Teams管理センターにアクセスする必要はありません。
+> Teamsエンド ユーザーは、デスクトップまたはモバイルでTeamsを使用して個々のチームとチャネルを管理でき、Teams 管理 センターにアクセスする必要はありません。
 
 ## <a name="kaizala-group-dissolution"></a>Kaizala グループの分解
 
