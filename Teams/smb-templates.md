@@ -1,8 +1,8 @@
 ---
 title: Microsoft Graphで構築された中小企業向けのチーム テンプレート
-author: serdarsoysal
-ms.author: serdars
-manager: serdars
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
@@ -17,12 +17,12 @@ appliesto:
 ms.reviewer: lavenkat
 description: Microsoft Graphに組み込まれている定義済みテンプレートMicrosoft Teams使用して、中小企業向けのチームを迅速かつ簡単に作成します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 324470ffc3366750777c75776e4ae4e783dbb17f
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 5317b989bd7fe77f34743b6554cd356c226c2fa8
+ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045683"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65646306"
 ---
 # <a name="team-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>小規模および中規模の企業向けの Microsoft Graphに組み込まれているチーム テンプレート
 

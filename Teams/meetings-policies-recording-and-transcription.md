@@ -1,7 +1,7 @@
 ---
 title: 記録と文字起こしのための会議ポリシーを管理する
-author: KarliStites
-ms.author: kastites
+author: mkbond007
+ms.author: mabond
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.recordingandtranscription
 description: 記録と文字起こしのTeamsで会議ポリシー設定を管理する方法について説明します。
-ms.openlocfilehash: ee558ae87d7bea781cae3d2bc267f82bc1fdb18a
-ms.sourcegitcommit: faeb8976299375e7658499ff31d25e8ef6003144
+ms.openlocfilehash: da7a5d43231abcb00339f2ffc2c57c7e90ff2d2e
+ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62224074"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65646366"
 ---
 # <a name="meeting-policy-settings-for-recording--transcription"></a>&文字起こしを記録するための会議ポリシー設定
 
@@ -31,7 +31,7 @@ ms.locfileid: "62224074"
 
 - [文字起こしを許可する](#allow-transcription)
 - [クラウド記録を許可する](#allow-cloud-recording)
-- [国または地域以外の場所に記録を保存する](#store-recordings-outside-of-your-country-or-region)
+- [国または地域以外のMicrosoft Store記録](#store-recordings-outside-of-your-country-or-region)
 
 ## <a name="allow-transcription"></a>文字起こしを許可する
 
@@ -65,7 +65,7 @@ ms.locfileid: "62224074"
 
 クラウド会議の記録の詳細については、「[Teams のクラウド会議の記録](cloud-recording.md)」を参照してください。
 
-## <a name="store-recordings-outside-of-your-country-or-region"></a>国または地域以外の場所に記録を保存する
+## <a name="store-recordings-outside-of-your-country-or-region"></a>国または地域以外のMicrosoft Store記録
 
 このポリシーは、会議レコードを別の国または地域に永続的に保存できるかどうかを制御します。 有効になっている場合は、記録を移行できません。 クラウド会議とレコーディングの保存場所の詳細については、「[クラウド会議の記録Teams](cloud-recording.md)参照してください。
 

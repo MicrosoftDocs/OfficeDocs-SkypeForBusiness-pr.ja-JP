@@ -1,7 +1,7 @@
 ---
 title: ユーザーとグループにポリシー パッケージを割り当てる
-author: KarliStites
-ms.author: kastites
+author: mkbond007
+ms.author: mabond
 ms.reviewer: tomkau, saragava, ritikag, jastark
 manager: serdars
 ms.topic: article
@@ -18,12 +18,12 @@ description: Microsoft Teamsのユーザーとグループにポリシー パッ
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 553e30fa694403b2ad5e2edfd86b53fe8231eed3
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 48391db005ca7d40081c0aeb22f71be58fcc9f9f
+ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015071"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65646526"
 ---
 # <a name="assign-policy-packages-to-users-and-groups"></a>ユーザーとグループにポリシー パッケージを割り当てる
 

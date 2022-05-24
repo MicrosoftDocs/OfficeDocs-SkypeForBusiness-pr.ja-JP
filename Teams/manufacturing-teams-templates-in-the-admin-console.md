@@ -1,8 +1,8 @@
 ---
 title: 管理センターで製造チーム テンプレートを使用した概要
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18fbc93923177c97b4c2d395d10e62311d05d567
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: cd2f7329e293d8b3b20747382686599d18d47bea
+ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62400101"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65646326"
 ---
 # <a name="use-manufacturing-team-templates-in-the-admin-center"></a>管理センターで製造チーム テンプレートを使用する
 

@@ -1,7 +1,7 @@
 ---
 title: Teamsで音声ポリシーと通話ポリシーを管理する
-author: karlistites
-ms.author: kastites
+author: mkbond007
+ms.author: mabond
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c5207f9bbfc7212d09394f5b507559c715e561b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8a63aa772d94a4a385301315d1c1bd3b6488fa3b
+ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58577741"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65646466"
 ---
 # <a name="manage-voice-and-calling-policies-in-microsoft-teams"></a>Microsoft Teamsで音声ポリシーと通話ポリシーを管理する
 

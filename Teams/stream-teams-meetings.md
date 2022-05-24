@@ -1,7 +1,7 @@
 ---
 title: 会議Teamsストリーミングする
-author: KarliStites
-ms.author: kastites
+author: mkbond007
+ms.author: mabond
 manager: serdars
 ms.reviewer: suchakr
 ms.topic: article
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Teams会議のストリーミングを設定および管理する方法について説明します。
-ms.openlocfilehash: d5cc83e1ea75d1c28ea4c30bac7cdabc4e60143d
-ms.sourcegitcommit: 99503baa8b5183972caa8fe61e92a362213599d9
+ms.openlocfilehash: 352a0c2e7a0584640e466b5e46456906e4912d00
+ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60127547"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65646346"
 ---
 # <a name="stream-teams-meetings"></a>会議Teamsストリーミングする
 

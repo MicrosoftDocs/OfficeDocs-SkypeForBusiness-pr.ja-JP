@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams でのウェビナーのセットアップ
-author: KarliStites
-ms.author: kastites
+author: mkbond007
+ms.author: mabond
 manager: serdars
 ms.reviewer: sachung, emryan
 ms.topic: article
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Teams会議のウェビナー ポリシーを管理する方法について説明します。
-ms.openlocfilehash: 5536a6c03df15be349edea7d980932b5fc0173ab
-ms.sourcegitcommit: faeb8976299375e7658499ff31d25e8ef6003144
+ms.openlocfilehash: 2cf3af39b64506fc8802eafd1e2c45f35b7a4d00
+ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62224004"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65646246"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Microsoft Teams でのウェビナーのセットアップ
 

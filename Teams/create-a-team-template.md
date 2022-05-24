@@ -1,9 +1,9 @@
 ---
 title: Microsoft Teamsでカスタム チーム テンプレートを作成する
-author: SerdarSoysal
-ms.author: serdars
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 ms.reviewer: aaglick
-manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1fa114e6bc15ff8aeb6d0e75dcb6c0c45871b436
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 6a6d5d119d3b941bae1f3eedc3033a364df2b18a
+ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62399551"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65646286"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Microsoft Teamsでカスタム チーム テンプレートを作成する
 
