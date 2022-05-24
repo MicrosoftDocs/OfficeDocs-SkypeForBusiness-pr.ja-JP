@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Microsoft パートナーまたは PSTN 通信事業者の複数のテナントにサービスを提供するように 1 つのセッション ボーダー コントローラー (SBC) を構成する方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 59a17da1a1fb77bbe30c79831480014fe1278bae
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.openlocfilehash: 7a465945a55482c84b9d6373240bc89850b80e3a
+ms.sourcegitcommit: 3f046142c40b3b776165e964f2b8718e2fe55df3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763362"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "65661678"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>複数のテナントにセッション ボーダー コントローラーを構成する
 
@@ -38,7 +38,7 @@ ms.locfileid: "62763362"
 - 通話品質をエンドツーエンドで管理します。
 - PSTN サービスに対して個別に課金されます。
 
-Microsoft は運送業者を管理していません。 Microsoft では、電話システム-a Private Branch Exchange (PBX) とTeams クライアントを提供しています。 Microsoft はまた、電話を認証し、電話システムで使用できる SBC を認定します。 キャリアを選択する前に、選択した SBC が認定されており、音声品質をエンドツーエンドで管理できることを確認します。
+Microsoft は運送業者を管理していません。 Microsoft では、電話システム (プライベート ブランチ Exchange (PBX) とTeams クライアントを提供しています。 Microsoft はまた、電話を認証し、電話システムで使用できる SBC を認定します。 キャリアを選択する前に、選択した SBC が認定されており、音声品質をエンドツーエンドで管理できることを確認します。
 
 シナリオを構成するための技術的な実装手順を次に示します。
 
@@ -58,11 +58,11 @@ Microsoft は運送業者を管理していません。 Microsoft では、電�
 
 SBC ホスティング シナリオ用に SBC をデプロイおよび構成する方法の詳細な手順については、SBC ベンダーのドキュメントを参照してください。
 
-- **AudioCodes: - 「AudioCodes** SBC を [ダイレクト ルーティング](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams) ホスティング モデル構成ノートに接続する」の説明に従って、SBC ホスティング シナリオの構成に関するダイレクト ルーティング構成ノートMicrosoft Teams参照してください。 
-- **Oracle:** - 「Microsoft」セクションで説明されているように、SBC ホスティング シナリオの構成については、 [ダイレクト ルーティング構成に](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html) 関する注意事項を参照してください。 
+- **AudioCodes:**「AudioCodes SBC を [Microsoft Teams ダイレクト ルーティング](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams) ホスティング モデル構成ノートに接続する」で説明されているように、SBC ホスティング シナリオの構成に関するダイレクト ルーティング構成に関する注意事項を参照してください。 
+- **Oracle：** 「Microsoft」セクションで説明されているように、SBC ホスティング シナリオの構成については、 [ダイレクト ルーティング構成に](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html) 関する注意事項を参照してください。 
 - **リボン通信:** Ribbon Core Series SBC を構成する方法については、「[Ribbon Communications SBC Core Microsoft Teams 構成ガイド](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)」を参照してください。 [「リボンのベスト プラクティス - Microsoft Teams ダイレクト ルーティング SBC Edge 用の通信事業者の構成](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)」も参照してください。
-- **TE-Systems (anynode):** - 複数のテナントに対して anynode SBC を構成する方法に関するドキュメントと例については、[TE-Systems Community ページ](https://community.te-systems.de/) サイトに登録します。
-- **Metaswitch:** - 複数のテナントに対して Perimeta SBC を有効にする方法に関するドキュメントについては、[Metaswitch Community ページ](https://manuals.metaswitch.com/MAN39555) サイトに登録します。
+- **TE-Systems (anynode):** 複数のテナントに anynode SBC を構成する方法のドキュメントと例については、[TE-Systems Community ページ](https://community.te-systems.de/) サイトに登録します。
+- **Metaswitch:** 複数のテナントに対して Perimeta SBC を有効にする方法に関するドキュメントについては、[Metaswitch Community ページ](https://manuals.metaswitch.com/MAN39555) サイトに登録します。
 
 > [!NOTE]
 > "Contact" ヘッダーを構成する方法を理解していることを確認します。 連絡先ヘッダーは、受信招待メッセージで顧客テナントを検索するために使用されます。 
@@ -87,7 +87,7 @@ SBC ホスティング シナリオ用に SBC をデプロイおよび構成す�
 
 次の図は、基本ドメイン、サブドメイン、連絡先ヘッダーに対する要件をまとめたものです。
 
-![ドメインと連絡先ヘッダーの要件を示す図。](media/direct-routing-1-sbc-requirements.png)
+:::image type="content" source="media/direct-routing-1-sbc-requirements.png" alt-text="ドメインと連絡先ヘッダーの要件を示す図。" lightbox="media/direct-routing-1-sbc-requirements.png":::
 
 SBC には、接続を認証するための証明書が必要です。 SBC ホスティング シナリオの場合、通信事業者は CN または SAN *\*.base_domain (.customers.adatum.biz など \*)* を使用して証明書を要求する必要があります。 この証明書は、1 つの SBC から提供される複数のテナントへの接続を認証するために使用できます。
 
@@ -100,7 +100,6 @@ SBC には、接続を認証するための証明書が必要です。 SBC ホ�
 |sbc1.customers.adatum.biz|    サブドメイン  |    顧客テナント内  |    \*.customers.adatum.biz  | woodgrovebank.us  |  sbc1.customers.adatum.biz|
 |sbc2.customers.adatum.biz  |   サブドメイン | 顧客テナント内   |   \*.customers.adatum.biz   |contoso.com   |sbc2.customers.adatum.biz |
 |sbc3.customers.adatum.biz |   サブドメイン | 顧客テナント内 |   \*.customers.adatum.biz  |  adventureworks.com | sbc3.customers.adatum.biz |
-||         |         |         |         |         |
 
 ベースとサブドメインを構成するには、次に説明する手順に従います。 この例では、1 人の顧客 (Woodgrove Bank テナントの sbc1.customers.adatum.biz) の基本ドメイン名 (customers.adatum.biz) とサブドメインを構成します。
 
@@ -229,7 +228,7 @@ Direct Routing の最初のリリースでは、microsoft は、New-CSOnlinePSTN
 
 - 通信事業者は、Set-CSOnlinePSTNGateway コマンドを使用して、1 つのトランク (キャリア ドメイン内のキャリア トランク) のみを設定して管理する必要があります。 上の例では、adatum.biz です。
 
-- カスタマー テナントでは、キャリアは派生トランク FQDN をユーザーの音声ルーティング ポリシーに追加する必要があります。 トランクのNew-CSOnlinePSTNGatewayを実行する必要はありません。
+- カスタマー テナントでは、キャリアは派生トランク FQDN を音声ルートに追加する必要があります。 トランクのNew-CSOnlinePSTNGatewayを実行する必要はありません。
 
 - 派生トランクは、名前が示すように、すべての構成パラメーターをキャリア トランクから継承または派生させます。 
 
@@ -266,7 +265,7 @@ Direct Routing の最初のリリースでは、microsoft は、New-CSOnlinePSTN
    customer1.sbc1.contoso.com <br>
    customer1.sbc2.contoso.com <br>
 
-- ユーザーのオンライン音声ルーティング ポリシーで、両方の SBC を指定します。 1 つの SBC が失敗した場合、ルーティング ポリシーは 2 番目の SBC に呼び出しをルーティングします。
+- オンライン音声ルートで、両方の SBC を指定します。 1 つの SBC が失敗した場合、ルーティング ポリシーは 2 番目の SBC に呼び出しをルーティングします。
 
 
 ## <a name="see-also"></a>関連項目
