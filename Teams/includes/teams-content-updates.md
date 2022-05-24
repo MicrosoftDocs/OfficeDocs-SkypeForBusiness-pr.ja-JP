@@ -3,6 +3,23 @@
 
 
 
+## <a name="week-of-may-16-2022"></a>2022 年 5 月 16 日の週
+
+
+| 公開日 |トピックのタイトル | 変更 |
+|------|------------|--------|
+| 5/17/2022 | [Outlook で Microsoft Teams 会議アドインを使用する](/MicrosoftTeams/teams-add-in-for-outlook) | 更新日時 |
+| 5/18/2022 | [Microsoft Teams でのコール パークおよび保留解除](/MicrosoftTeams/call-park-and-retrieve) | 更新日時 |
+| 5/18/2022 | [Teamsを使用した仮想予定 - エピック EHR への統合](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | 更新日時 |
+| 5/19/2022 | [コネクタをシフトする](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connectors) | 更新日時 |
+| 5/20/2022 | [自動応答と呼び出しキュー Teams計画する](/MicrosoftTeams/plan-auto-attendant-call-queue) | 更新日時 |
+| 5/20/2022 | [応答メッセージとメールに使用する既定の言語を変更する](/MicrosoftTeams/change-the-default-language-for-greetings-and-emails) | 更新日時 |
+| 5/20/2022 | [ボイスメールのあいさつ文とメッセージのTeams言語](/MicrosoftTeams/languages-for-voicemail-greetings-and-messages) | 更新日時 |
+| 5/20/2022 | [ダイレクト ルーティングの緊急通話ルーティング ポリシーを管理する](/MicrosoftTeams/manage-emergency-call-routing-policies) | 更新日時 |
+| 5/20/2022 | [Microsoft Teamsで緊急通報ポリシーを管理する](/MicrosoftTeams/manage-emergency-calling-policies) | 更新日時 |
+| 5/20/2022 | [PowerShell リリース ノートのMicrosoft Teams](/MicrosoftTeams/teams-powershell-release-notes) | 更新日時 |
+
+
 ## <a name="week-of-may-09-2022"></a>2022 年 5 月 9 日の週
 
 
@@ -17,7 +34,7 @@
 | 5/10/2022 | [Microsoft Teams Rooms アプリ バージョンのサポート](/MicrosoftTeams/rooms/rooms-lifecycle-support) | 更新日時 |
 | 5/12/2022 | [ボイスメール ポリシーを管理する](/MicrosoftTeams/manage-voicemail-policies) | 更新日時 |
 | 5/12/2022 | [SIP ゲートウェイを構成する](/MicrosoftTeams/sip-gateway-configure) | 更新日時 |
-| 5/12/2022 | [Microsoft Teams for Educationでの保護者の管理者セットアップ](/MicrosoftTeams/edu-parents-app) | 更新日時 |
+| 5/12/2022 | [Microsoft Teams for Educationでの保護者の管理設定](/MicrosoftTeams/edu-parents-app) | 更新日時 |
 | 5/13/2022 | [Microsoft Teams のトランシーバー アプリ](/MicrosoftTeams/walkie-talkie) | 更新日時 |
 | 5/13/2022 | [Microsoft Teams Rooms の要件](/MicrosoftTeams/rooms/requirements) | 更新日時 |
 
@@ -29,7 +46,7 @@
 |------|------------|--------|
 | 5/2/2022 | [Microsoft Teams PSTN 使用状況レポート](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | 更新日時 |
 | 5/3/2022 | [Teams における承認アプリケーションの利用の可否](/MicrosoftTeams/approval-admin) | 更新日時 |
-| 5/3/2022 | [Microsoft Teams for Educationでの保護者の管理者セットアップ](/MicrosoftTeams/edu-parents-app) | 更新日時 |
+| 5/3/2022 | [Microsoft Teams for Educationでの保護者の管理設定](/MicrosoftTeams/edu-parents-app) | 更新日時 |
 | 5/3/2022 | [組織のシフト アプリを管理する](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 更新日時 |
 | 5/3/2022 | [Microsoft Teams で組織の Tasks アプリを管理する](/MicrosoftTeams/manage-tasks-app) | 更新日時 |
 | 5/3/2022 | [Microsoft Teams のトランシーバー アプリケーション](/MicrosoftTeams/walkie-talkie) | 更新日時 |
@@ -87,28 +104,3 @@
 | 4/29/2022 | [Microsoft Teams 管理センターで、Teams アプリの組織向けアプリを管理します。](/MicrosoftTeams/manage-apps) | 更新日時 |
 | 4/29/2022 | [Microsoft Teamsでポリシー パッケージを管理する](/MicrosoftTeams/manage-policy-packages) | 更新日時 |
 | 4/29/2022 | [Microsoft によるアプリ認定の概要](/MicrosoftTeams/overview-of-app-certification) | 更新日時 |
-
-
-## <a name="week-of-april-18-2022"></a>2022 年 4 月 18 日の週
-
-
-| 公開日 |トピックのタイトル | 変更 |
-|------|------------|--------|
-| 4/18/2022 | [Microsoft によるアプリ認定の概要](/MicrosoftTeams/overview-of-app-certification) | 更新日時 |
-| 4/18/2022 | チームを作成するときの Microsoft 365 グループの計画 | 削除されました |
-| 4/18/2022 | [Microsoft Teams のアプリのセットアップ ポリシーを管理する](/MicrosoftTeams/teams-app-setup-policies) | 更新日時 |
-| 4/19/2022 | [保留音](/MicrosoftTeams/music-on-hold) | 更新日時 |
-| 4/19/2022 | [ユーザーの種類に基づいてアプリの動作をTeamsする](/MicrosoftTeams/non-standard-users) | 更新日時 |
-| 4/19/2022 | [セキュリティとコンプライアンスの概要](/MicrosoftTeams/security-compliance-overview) | 更新日時 |
-| 4/20/2022 | [無料電話番号ポリシーを電話会議する](/MicrosoftTeams/audio-conferencing-toll-free-numbers-policy) | 追加済 |
-| 4/20/2022 | [ブリッジの電話番号を変更電話会議](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | 更新日時 |
-| 4/20/2022 | [特定の Teams ユーザーの無料電話番号を無効にする](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users) | 更新 |
-| 4/20/2022 | [電話会議設定を管理する](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams) | 更新日時 |
-| 4/20/2022 | [招待状に含まれている電話番号を設定する](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams) | 更新日時 |
-| 4/20/2022 | [Microsoft Teams の電話会議を設定する](/MicrosoftTeams/set-up-audio-conferencing-in-teams) | 更新日時 |
-| 4/21/2022 | Microsoft StaffHub は廃止されました | 削除されました |
-| 4/21/2022 | Microsoft Teams でのアプリの管理設定 | 削除されました |
-| 4/21/2022 | [Microsoft Teams 管理センターで、Teams アプリの組織向けアプリを管理します。](/MicrosoftTeams/manage-apps) | 更新日時 |
-| 4/21/2022 | [コンテンツの電子情報開示調査を実施する](/MicrosoftTeams/ediscovery-investigation) | 更新日時 |
-| 4/22/2022 | [KaizalaとMicrosoft Teams](/MicrosoftTeams/get-started-kaizala-teams) | 更新日時 |
-| 4/22/2022 | [Microsoft Teams間を移動する](/MicrosoftTeams/navigate-teams) | 更新日時 |
