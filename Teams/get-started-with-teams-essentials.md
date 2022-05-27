@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c80b93ef457048d006fb7a7eb6085b3ed5d8eb4
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 46624ff1e1eeeede5066cf6972cc92469cf8979c
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "62864030"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675049"
 ---
 # <a name="microsoft-teams-essentials-quickstart-guide-for-small-businesses"></a>小規模企業向けの Microsoft Teams Essentials クイックスタート ガイド
 
@@ -153,7 +153,7 @@ Teams Essentials の使用を開始するには、次の手順に従います。
 
 #### <a name="how-do-i-upgrade-my-organization"></a>組織をアップグレードするにはどうすればよいですか?
 
-Teams の Microsoft Teams Essentials バージョンにアップグレードするには、**[...]** を選択します。 上部のナビゲーション バー。 次に、表示されるドロップ ダウン メニューの下部にある **[アップグレード]**  ボタンを選択します。   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="[アップグレード] ボタンを示すスクリーンショット"::: 
+Microsoft Teams Essentials バージョンの Teams にアップグレードするには、上部のナビゲーション メニューで **...** を選択します。 次に、表示されるドロップ ダウン メニューの下部にある **[アップグレード]** ボタンを選択します。   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="[アップグレード] ボタンを示すスクリーンショット"::: 
 
 Teams で **[アップグレード]** ボタンを選択すると、次の場所に移動します: [中小企業向け Microsoft Teams](https://www.microsoft.com/microsoft-teams/upgrade-teams)
 
@@ -164,9 +164,9 @@ Teams へのサインインに使用する現在のメール アドレスを入�
 
 いいえ。 AAD ID を持つ Teams Essentials は、一部の Microsoft Cloud パートナーからのみ利用できます。 パートナーとの連携に関心がある場合は、「[Microsoft パートナー クラウド ソリューション プロバイダーの検索](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider)」にアクセスしてください。
 
-### <a name="can-i-use-an-existing-email-system-with-microsoft-teams-essentials"></a>Microsoft Teams Essentials で既存のメール システムを使用できますか?  
+### <a name="can-i-use-an-existing-email-system-with-microsoft-teams-essentials"></a>Microsoft Teams Essentials で既存のメール システムを使用できますか?  
 
-はい。既存のメール システムを維持し、Teams Essentials を活用して、会議、チャット、およびコラボレーションを行うことができます。  
+はい。既存のメール システムを維持し、Teams Essentials を活用して、会議、チャット、およびコラボレーションを行うことができます。  
 
 ### <a name="can-i-connect-my-existing-calendar-solution-with-teams-essentials"></a>既存の予定表ソリューションを Teams Essentials に接続できますか?
 はい。Outlook.com および Google の既存の予定表を Teams Essentials と同期できます。

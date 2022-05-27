@@ -20,12 +20,12 @@ f1.keywords:
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2bf4066675755e0f93844644a6a59404af678a38
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: 1f9d2e3b17f852dcd020dc11c323bbc24c2dfc30
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635415"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675909"
 ---
 # <a name="microsoft-teams-appsline-of-business-lob-app-support-on-teams-panels"></a>Teams パネルでのMicrosoft Teams アプリ/基幹業務 (LOB) アプリのサポート
 
@@ -36,7 +36,7 @@ Teams パネルでは、[Teams アプリ/基幹業務 (LOB) アプリの](/micro
 
 ## <a name="teams-app-experience-on-teams-panels"></a>Teams パネルでのアプリエクスペリエンスのTeams
 
-![ユーザーがアプリに移動できるセクションを示すTeams管理センターのスクリーンショット。](media/tac1update.png) 
+![ユーザーがアプリに移動できるセクションを示すTeams管理センターのスクリーンショット。](media/tac1update.png)
 
 *Teams パネルのホーム画面には、アプリのナビゲーション オプションが含まれています。赤のスクリーンショットに示されています。これらはアイコンの例であり、使用できない場合があることに注意してください。*
 
@@ -44,7 +44,7 @@ Teams パネルでは、[Teams アプリ/基幹業務 (LOB) アプリの](/micro
 
 *エンドユーザーがいずれかのアプリ アイコンをタップすると、前のスクリーンショットにTeamsアプリ画面が表示されます。スクリーンショットの灰色の四角形は、アプリがTeams パネルに表示される場所です。アプリ バーは固定されており、Teams パネル アプリの一部です。*
 
-## <a name="set-up-and-manage-teams-panels-apps-in-teams-admin-center"></a>Teams管理センターでTeams パネル アプリを設定および管理する 
+## <a name="set-up-and-manage-teams-panels-apps-in-teams-admin-center"></a>Teams管理センターでTeams パネル アプリを設定および管理する
 
 Microsoft Teams アプリは、重要な情報、一般的なツール、信頼できるプロセスを、ユーザーが集まり、学び、働く場所に提供します。 Teams アプリは[、統合された機能を通じて機能します](/microsoftteams/platform/concepts/capabilities-overview)。 IT 管理者は、組織のTeams パネル デバイスに含めるアプリを選択し、[Teams管理センター](https://admin.teams.microsoft.com/)を使用してアクセス許可をカスタマイズできます。
 
@@ -62,11 +62,11 @@ Teams パネルでTeams アプリを使用し、組織のニーズに基づい�
 
 Teamsにはさまざまなアプリを表示する機能があるため、管理者は組織にとって最も重要なアプリを決定し、すばやくアクセスできるようにTeams パネル **のホーム** 画面に対してのみアプリをピン留めできます。 ピン留めされたアプリまたはピン留めされていないアプリが 5 つ以上ある場合は、[ **その他** ] 画面に表示されます。 Microsoft では、Teams パネル専用のカスタム アプリセットアップ ポリシーを作成することをお勧めします。
 
-![アプリのセットアップ ポリシー ページのユーザー インターフェイスのスクリーンショット。](media/appsetup1.png) 
+![アプリのセットアップ ポリシー ページのユーザー インターフェイスのスクリーンショット。](media/appsetup1.png)
 
 Teams パネルに表示されるピン留めされたアプリを管理するには、組織のTeams管理センターにサインインし、**Teams アプリ** \> **のセットアップ ポリシー** \> **の選択または新しいポリシー** \> **のピン留めアプリ** の作成に移動します。
 
-![ユーザー インターフェイス内のピン留めされたアプリセクションのスクリーンショット。](media/appsetup2.png) 
+![ユーザー インターフェイス内のピン留めされたアプリセクションのスクリーンショット。](media/appsetup2.png)
 
 *この画像に含まれるアプリは例に過ぎません。使用できない場合があります。*
 
@@ -74,7 +74,7 @@ Teams パネルで最適 **なTeams アプリ** エクスペリエンスを実�
 
 アプリのピン留めの詳細については、「 [アプリセットアップ ポリシーの管理」を](/microsoftteams/teams-app-setup-policies)参照してください。
 
-## <a name="manage-apps-display-order-in-teams-panels"></a>Teams パネルでアプリの表示順序を管理する 
+## <a name="manage-apps-display-order-in-teams-panels"></a>Teams パネルでアプリの表示順序を管理する
 
 ![ユーザー インターフェイス内のアプリ セクションのスクリーンショット。](media/appsetup3.png)
 
@@ -122,6 +122,6 @@ Teams パネルで使用されているルーム リソース アカウントの
 
 ![ユーザー のピン留めがアクティブであることを確認するポップアップが表示された、ユーザー インターフェイス内のセットアップ ポリシー セクションのスクリーンショット。](media/appsetup4.png)
 
-*この画像に含まれるアプリは例に過ぎません。使用できない場合があります。* 
+*この画像に含まれるアプリは例に過ぎません。使用できない場合があります。*
 
 この動作は、共有空間内のデバイスに対して想定され、意図しないアプリのピン留めを防ぐのに役立ちます。

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f31df258558e052e887a679321dd6ed2db48f344
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 93b0a74feb2d9333d634b9a7858ff6136ca5b5ec
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646256"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676499"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 承認アプリの利用の可否
 
@@ -65,7 +65,7 @@ Microsoft Teams ユーザーは、個人用アプリとして承認アプリを�
 
 [承認ワークフロー](/power-automate/modern-approvals)の詳細。
 
-テンプレートから作成された承認は、タイトル、詳細、テンプレート ID などのデータを引き続き Microsoft Dataverse に保存します。 承認要求で送信される応答は Forms に保存されます。  [Microsoft Forms のデータの保存場所](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe)の詳細。
+テンプレートから作成された承認は、タイトル、詳細、テンプレート ID などのデータを引き続き Microsoft Dataverse に保存します。 承認要求で送信される応答は Forms に保存されます。 [Microsoft Forms のデータの保存場所](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe)の詳細。
 
 >[!Note]
 >Microsoft Forms サイトでフォーム テンプレートを削除すると、承認テンプレートが中断され、ユーザーは要求を開始できません。 ユーザーは、Microsoft Formsで削除された承認テンプレートを開こうとすると、"CDB TableNotFound" というエラーが発生します。
@@ -140,7 +140,7 @@ Teamsのカスタマイズされたフロントライン アプリ エクスペ�
 
 ## <a name="retention-policy"></a>アイテム保持ポリシー
 
-承認アプリから作成された承認は既定の Microsoft Dataverse 環境に保存されます。現時点では、バックアップはサポートされません。 詳細については、「[環境のバックアップと復元の方法Power Platform \|Microsoft Docs](/power-platform/admin/backup-restore-environments)」をご覧ください。
+承認 アプリから作成された承認は、現時点ではバックアップをサポートしていない既定の Microsoft Dataverse 環境に格納されます。 詳細については、「[環境のバックアップと復元の方法Power Platform \|Microsoft Docs](/power-platform/admin/backup-restore-environments)」をご覧ください。
 
 Forms に保存されているデータは、チーム所有者が Microsoft Forms Web アプリの **[削除されたフォーム]** タブからクリーンアップするまで削除されません。
 
@@ -217,13 +217,13 @@ Power Automate 内の他の監査承認にアクセスするには、プライ�
 
 ## <a name="approvals-e-signature-integration"></a>承認における電子署名の統合
 
-承認アプリの電子署名機能を使用するには、使用する特定の電子署名プロバイダーのライセンスが必要です。 組織用にライセンスを取得するには、プロバイダーのサイトにアクセスする必要があります。
+承認アプリの電子署名機能を使用するには、使用する特定の電子署名プロバイダーのライセンスが必要です。 組織のライセンスを取得するには、プロバイダーのサイトに移動する必要があります。
 
 ### <a name="enable-or-disable-e-signature-providers"></a>電子署名プロバイダーを有効または無効にする
 
 Teams管理センターを使用して、承認 アプリでユーザーが利用できるサードパーティの電子署名プロバイダーを制御できます。 既定では、電子署名プロバイダーは承認アプリで有効になっています。 電子署名プロバイダーを無効にすると、ユーザーは承認を作成するときにそのプロバイダーにアクセスできなくなります。 また、ユーザーは、そのプロバイダーを使用して作成された電子署名要求を表示することもできません。
 
-1. Teams管理センターの左側のウィンドウで、**Teams** **appsManage アプリ** > に移動します。
+1. Teams管理センターの左側のウィンドウで、**アプリの管理Teamsに** > 移動します。
 2. 承認アプリを検索し、それを選択します。
 3. **[設定]** タブに移動し、次のいずれかの操作を行います。
 

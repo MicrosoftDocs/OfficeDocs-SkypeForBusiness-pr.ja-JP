@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams管理センターの組織のアプリ ストアにカスタム アプリをアップロードする方法について説明します。
-ms.openlocfilehash: e27bd96477846ae3a74b1b405519e2a2c833ec39
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: 586ece26155daa5a1627dc6288cbc5c88ee52f18
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442263"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681938"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>アプリ パッケージをアップロードしてカスタム アプリを発行する
 
@@ -57,13 +57,13 @@ Microsoft は[、これらのガイドライン](/microsoftteams/platform/concep
 信頼されたユーザーがカスタム アプリをアップロードできるようにするには、次の手順に従います。
 
 1. [ **カスタム アプリとの対話を許可する** ] 組織全体のアプリ設定をオンにします。 その手順は次のとおりです。
-    1. Microsoft Teams管理センターの左側のナビゲーションで、**Teams** **appsManage** >  アプリに移動し、[**組織全体のアプリ設定**] をクリックします。
+    1. Microsoft Teams管理センターの左側のナビゲーションで、**Teams アプリ** の **[アプリ** > の管理] に移動し、[**組織全体のアプリ設定**] をクリックします。
     2. [ **カスタム アプリ**] で、[ **カスタム アプリとの対話を許可する**] をオンにし、[ **保存**] をクリックします。
 2. グローバル アプリ設定ポリシー **で、アップロードカスタム** アプリ設定をオフにします。 その手順は次のとおりです。
-    1. Microsoft Teams管理センターの左側のナビゲーションで、**Teams appsSetup** >  **ポリシー** に移動し、**グローバル (組織全体の既定)** ポリシーをクリックします。
+    1. Microsoft Teams管理センターの左側のナビゲーションで、**Teams アプリ** > **のセットアップ ポリシー** に移動し、**グローバル (組織全体の既定)** ポリシーをクリックします。
     2. **カスタム アプリアップロード** オフにし、[**保存**] をクリックします。
 3. カスタム アプリのアップロードを許可する新しいアプリセットアップ ポリシーを作成し、信頼できるユーザーのセットに割り当てます。 その手順は次のとおりです。
-    1. Microsoft Teams管理センターの左側のナビゲーションで、**Teams appsSetup** >  **ポリシー** に移動し、[**追加**] をクリックします。 新しいポリシーに名前と説明を付けて、**カスタム アプリアップロード** オンにし、[**保存**] をクリックします。
+    1. Microsoft Teams管理センターの左側のナビゲーションで、**Teams アプリ** > **のセットアップ ポリシー** に移動し、[**追加**] をクリックします。 新しいポリシーに名前と説明を付けて、**カスタム アプリアップロード** オンにし、[**保存**] をクリックします。
     2. 作成した新しいポリシーを選択し、[ **ユーザーの管理**] をクリックします。 ユーザーを検索し、[ **追加]** をクリックして、[ **適用**] をクリックします。 この手順を繰り返して、信頼できるすべてのユーザーにポリシーを割り当てます。
 
         ![[アプリセットアップ ポリシーの追加] ページのスクリーンショット](media/manage-your-lob-apps-new-app-setup-policy.png)
@@ -93,7 +93,7 @@ Microsoft は[、これらのガイドライン](/microsoftteams/platform/concep
 
 監査ログを検索して、組織内のTeamsアプリアクティビティを表示できます。 監査ログを検索する方法と、監査ログに記録されているTeamsアクティビティの一覧を表示する方法の詳細については、「[Teamsのイベントの監査ログを検索する](audit-log-events.md)」を参照してください。
 
-監査ログを検索できるようになるには、最初に[セキュリティ/コンプライアンス センター](https://sip.protection.office.com/homepage) で監査をオンにする必要があります。 詳細については、「[監査ログの検索を有効または無効にする](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide)」を参照してください。 利用できる監査データは、監査を有効にした時点以降のデータのみであることにご注意ください。
+監査ログを検索できるようになるには、最初に[セキュリティ/コンプライアンス センター](https://sip.protection.office.com/homepage) で監査をオンにする必要があります。 詳細については、「[監査ログの検索を有効または無効にする](/microsoft-365/compliance/turn-audit-log-search-on-or-off)」を参照してください。 利用できる監査データは、監査を有効にした時点以降のデータのみであることにご注意ください。
 
 ## <a name="discover-and-adopt"></a>検出して採用する
 
@@ -107,19 +107,19 @@ Microsoft は[、これらのガイドライン](/microsoftteams/platform/concep
 
 アプリを更新するには、開発者は引き続き [開発](#develop) と [検証](#validate) のセクションの手順に従う必要があります。
 
-アプリは、Microsoft Teams管理センターの [アプリの管理] ページで更新できます。 これを行うには、Microsoft Teams管理センターの左側のナビゲーションで、**Teams** **appsManage** >  アプリに移動します。 アプリ名をクリックし、[ **更新**] をクリックします。 これにより、既存のアプリが置き換わり、更新されたアプリに対してすべてのアプリアクセス許可ポリシーとアプリセットアップ ポリシーが適用されたままになります。
+アプリは、Microsoft Teams管理センターの [アプリの管理] ページで更新できます。 これを行うには、Microsoft Teams管理センターの左側のナビゲーションで、**アプリの管理Teamsに** > 移動 **します**。 アプリ名をクリックし、[ **更新**] をクリックします。 これにより、既存のアプリが置き換わり、更新されたアプリに対してすべてのアプリアクセス許可ポリシーとアプリセットアップ ポリシーが適用されたままになります。
 
 ### <a name="end-user-update-experience"></a>エンド ユーザー更新エクスペリエンス
 
 ほとんどの場合、アプリの更新が完了すると、エンド ユーザーに対して新しいバージョンが自動的に表示されます。 ただし、ユーザーの同意を完了する必要がある[Microsoft Teams マニフェスト](/microsoftteams/platform/resources/schema/manifest-schema)にいくつかの更新プログラムがあります。
 
-* ボットが追加または削除されました
-* 既存のボットの "botId" プロパティが変更されました
-* 既存のボットの "isNotificationOnly" プロパティが変更されました
-* ボットの SupportsCalling、SupportsVideo、および SupportsFiles 機能が追加されました
-* メッセージング拡張機能が追加されました
-* 新しいコネクタが追加されました
-* "Authorization" 内のアクセス許可が追加または変更されました
+- ボットが追加または削除されました
+- 既存のボットの "botId" プロパティが変更されました
+- 既存のボットの "isNotificationOnly" プロパティが変更されました
+- ボットの SupportsCalling、SupportsVideo、および SupportsFiles 機能が追加されました
+- メッセージング拡張機能が追加されました
+- 新しいコネクタが追加されました
+- "Authorization" 内のアクセス許可が追加または変更されました
 
 ![新しいバージョンが利用可能なアプリを示すアプリの一覧のスクリーンショット。](media/manage-your-custom-apps-update1.png)
 
@@ -127,10 +127,10 @@ Microsoft は[、これらのガイドライン](/microsoftteams/platform/concep
 
 ## <a name="related-topics"></a>関連項目
 
-* [Teams アプリ申請 API を使用して送信されたカスタム アプリを発行する](submit-approve-custom-apps.md)
+- [Teams アプリ申請 API を使用して送信されたカスタム アプリを発行する](submit-approve-custom-apps.md)
 
-* [Microsoft Teams 管理センターで、Teams アプリの組織向けアプリを管理します。](manage-apps.md)
-* [Teams のカスタム アプリのポリシーと設定を管理する](teams-custom-app-policies-and-settings.md)
+- [Microsoft Teams 管理センターで、Teams アプリの組織向けアプリを管理します。](manage-apps.md)
+- [Teams のカスタム アプリのポリシーと設定を管理する](teams-custom-app-policies-and-settings.md)
 
-* [Teams のアプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md)
-* [Teams のアプリのセットアップ ポリシーを管理する](teams-app-setup-policies.md)
+- [Teams のアプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md)
+- [Teams のアプリのセットアップ ポリシーを管理する](teams-app-setup-policies.md)

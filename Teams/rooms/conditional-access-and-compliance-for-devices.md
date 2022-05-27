@@ -12,12 +12,12 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 description: 推奨される条件付きアクセスとIntuneデバイス コンプライアンス ポリシーとMicrosoft Teams Roomsのベスト プラクティスについて説明します。
-ms.openlocfilehash: 1f4bec9d47b73be1638b1740afeb879b4dfb4026
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: b4e1d3cb91ff68e664d590c8e180e55211ca93b0
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63689140"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675489"
 ---
 # <a name="conditional-access-and-intune-compliance-for-microsoft-teams-rooms"></a>Microsoft Teams Roomsの条件付きアクセスとIntuneコンプライアンス
 
@@ -25,20 +25,20 @@ ms.locfileid: "63689140"
 
 ## <a name="requirements"></a>要件
 
-Teams Roomsは、条件付きアクセス ポリシーを割り当てるデバイスに既にデプロイされている必要があります。 Teams Roomsまだデプロイしていない場合は、「[会議室と共有Teamsデバイスのリソース アカウントを作成](with-office-365.md)する」と [Android でのMicrosoft Teams Roomsのデプロイ](../devices/collab-bar-deploy.md)に関するページを参照してください。
+Teams Roomsは、条件付きアクセス ポリシーを割り当てるデバイスに既にデプロイされている必要があります。 Teams Roomsまだデプロイしていない場合は、「[会議室と共有Teamsデバイスのリソース アカウントを作成する」と「Android](with-office-365.md)[にMicrosoft Teams Roomsを展開](../devices/collab-bar-deploy.md)する」を参照してください。
 
 条件付きアクセスを使用するには、Azure Active Directory P1 サービス プランが必要です。 Microsoft Teams Rooms ライセンスに含まれています。
 
 ## <a name="teams-rooms-conditional-access-best-practices"></a>条件付きアクセスのベスト プラクティスをTeams Roomsする
 
-条件付きアクセス ポリシーは、共有スペース内にあり、複数のユーザーが使用するデバイスでサインイン プロセスをセキュリティで保護できます。 Azure Active Directoryの条件付きアクセス (Azure AD) の概要については、「[Azure Active Directoryの条件付きアクセスとは](/azure/active-directory/conditional-access/overview)」を参照してください。
+条件付きアクセス ポリシーは、共有スペース内にあり、複数のユーザーが使用するデバイスでサインイン プロセスをセキュリティで保護できます。 Azure Active Directory (Azure AD) での条件付きアクセスの概要については、「[Azure Active Directoryの条件付きアクセスとは?](/azure/active-directory/conditional-access/overview)」を参照してください。
 
 条件付きアクセスを使用してTeams Roomsをセキュリティで保護する場合は、次のベスト プラクティスを検討してください。
 
 -   デプロイと管理を簡略化するには、Teams Roomsに関連付けられているすべてのMicrosoft 365ルーム リソース アカウントを 1 つのユーザー グループに含めます。
 
 -   すべてのTeams Roomsリソース アカウントの名前付け標準を持ちます。 たとえば、アカウント名 'mtr-room1@contoso.com' と 'mtr-room2@contoso.com' はどちらもプレフィックス 'mrt-' で始まります。
-    アカウント名が標準化されている場合は、Azure ADの動的グループを使用して、これらのすべてのアカウントに条件付きアクセス ポリシーを一度に自動的に適用できます。 [動的グループの詳細については、「動的に設定されたグループ メンバーシップの規則](/azure/active-directory/enterprise-users/groups-dynamic-membership)」を参照してください。
+    アカウント名が標準化されている場合は、Azure AD の動的グループを使用して、これらのすべてのアカウントに条件付きアクセス ポリシーを一度に自動的に適用できます。 [動的グループの詳細については、「動的に設定されたグループ メンバーシップの規則](/azure/active-directory/enterprise-users/groups-dynamic-membership)」を参照してください。
 
 Teams Roomsでサポートされている条件付きアクセスの割り当ての一覧については、「[サポートされている条件付きアクセス ポリシー](supported-ca-and-compliance-policies.md#supported-conditional-access-policies)」を参照してください。
 
@@ -62,7 +62,7 @@ Teams Roomsでサポートされている条件付きアクセスの割り当て
 
 Teams RoomsでサポートされているIntuneコンプライアンス ポリシーの一覧については、「[サポートされているデバイス コンプライアンス ポリシー](supported-ca-and-compliance-policies.md#supported-device-compliance-policies)」を参照してください。
 
-Teams Android デバイスでIntuneを設定する方法の詳細については、「Android ベースのデバイス[を登録するIntune Teams構成](../devices/phones-displays-deploy.md#configure-intune-to-enroll-teams-android-based-devices)する」を参照してください。
+Teams Android デバイスでIntuneを設定する方法の詳細については、「[Teams Android ベースのデバイスを登録するIntuneを構成する」を参照してください](../devices/phones-displays-deploy.md#configure-intune-to-enroll-teams-android-based-devices)。
 
 ## <a name="example-windows-only-conditional-access-with-intune-device-compliance"></a>例 (Windowsのみ): Intune デバイスコンプライアンスを使用した条件付きアクセス
 

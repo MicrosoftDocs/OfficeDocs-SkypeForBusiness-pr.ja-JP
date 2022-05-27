@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 554c2e893272ca8dfca1fde6c746e72f1b462f1e
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: b9b12d77823f6fcf5417370b496507b627858c6c
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556558"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681988"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>通話&会議のポリシーベースの記録Teamsの概要
 
@@ -55,10 +55,10 @@ Teamsは、Teams通信を構成、管理、記録、保存、分析するため�
 
 | 種類                   | 便利 (通常のTeams記録) | 組織 - 規制 (コンプライアンス記録) |
 | ---------------------- | ------------------ | --------------- |
-| イニシエーター              | ユーザー               | 管理者 (システム)  |
+| イニシエーター              | ユーザー               | 管理 (システム)  |
 | Target                 | 通話/会議ごと | ユーザーごと        |
 | Storage所有者          | ユーザー               | コンプライアンス      |
-| 通知が必要ですか? | Yes                | Yes             |
+| 通知が必要ですか? | はい                | Yes             |
 | アクセス所有者           | ユーザー               | コンプライアンス      |
 | アイテム保持ポリシー      | 省略可能           | Yes             |
 

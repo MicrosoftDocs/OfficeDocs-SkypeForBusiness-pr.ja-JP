@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3cdf1c9a9accc43275dc0573e90826d554adb12c
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: 0cfc8a3855da45b80ac5cd97d273b9f6c1d90ded
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61563620"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681968"
 ---
 # <a name="about-the-upgrade-framework"></a>アップグレードのフレームワークについて
 
@@ -42,16 +42,16 @@ ms.locfileid: "61563620"
 アップグレードの手順は、変更の計画を開始すると開始されます。 成功フレームワークをガイドラインとして活用すると、アップグレード前のフェーズから、アップグレードを通じてアップグレードの計画と準備を行い、結果を維持および増幅するように設計されたアップグレード後の運用フェーズに移行するサンプル タイムラインを次に示します。 
 
 > [!NOTE]
-> Teamsへの道のりには、ユーザーの複数 [モード](./teams-and-skypeforbusiness-coexistence-and-interoperability.md) とアップグレードグループを異なる時間に活用することが含まれる可能性があることを理解しています。これにより、ユーザーのアップグレード エクスペリエンスを制御しながら、Teamsで勢いを維持できます。  
+> Teamsへの道のりには、複数の[モード](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)を活用し、異なる時間にユーザーのグループをアップグレードすることが含まれる可能性があることを理解しています。これにより、Teamsで勢いを維持しながら、ユーザーのアップグレード エクスペリエンスを制御できます。  
 
-アップグレードの体験がどのように展開されるかを示すために、以下に、オンラインモードからアイランド モードSkype for Business Teamsのみの体験を定義するサンプル プランを提供しました。 さらに、サンプル プランでは、ユーザーを 4 つのアップグレード グループ (コホート) に分割した組織の概要を示します。 これをテンプレートとして使用して、Teamsへの特定の道のりを網羅するように計画をカスタマイズし、使用するさまざまな [モード](./teams-and-skypeforbusiness-coexistence-and-interoperability.md) と、ユーザーをセグメント化するアップグレード グループの数を組み込みます。 
+アップグレードの体験がどのように展開されるかを示すために、以下に、オンラインモードからアイランド モードSkype for Business Teamsのみの体験を定義するサンプル プランを提供しました。 さらに、サンプル プランでは、ユーザーを 4 つのアップグレード グループ (コホート) に分割した組織の概要を示します。 これをテンプレートとして使用して、Teamsへの特定の移動を包含するように計画をカスタマイズし、使用するさまざまな[モード](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)と、ユーザーをセグメント化するアップグレード グループの数を組み込みます。 
 
 ## <a name="pre-upgrade"></a>アップグレード前
 
 **Teamsのために組織を準備します**。 Teamsへのアップグレードを成功させるには、準備に十分な時間を割り当てることが重要です。 組織がTeamsの価値の実現を迅速に開始できるだけでなく、Teamsが準備できたらすぐに、Skype for Businessからのアップグレードを高速化できます。 Skype for Businessと共にTeamsを既に有効にしている場合は、これらのアップグレード前アクティビティをチェックポイントとして使用して、ユーザーをTeamsにアップグレードする前に組織の準備状況を検証します。 
 
 > [!TIP]
-> アップグレード プロジェクト計画とパイロット テスト 計画のサンプルに加えて、コミュニケーションやユーザーアンケートなどの [Upgrade Success Kitfor](https://aka.ms/UpgradeSuccessKit)  テンプレート ユーザー準備資料をダウンロードします。 キットで入手できるアイテムには、次の一覧にアスタリスク (*) が付いています。
+> アップグレード プロジェクト 計画とパイロット テスト 計画のサンプルに加えて、コミュニケーションやユーザーアンケートなどのテンプレート ユーザー準備資料用の Upgrade [Success Kit](https://aka.ms/UpgradeSuccessKit) をダウンロードします。 キットで入手できるアイテムには、次の一覧にアスタリスク (*) が付いています。
 
 ### <a name="plan-create-your-upgrade-plan-to-help-ensure-your-organization-is-set-up-for-long-term-success"></a>プラン: 長期的な成功のために組織が確実に設定されるようにアップグレード計画を作成する
 

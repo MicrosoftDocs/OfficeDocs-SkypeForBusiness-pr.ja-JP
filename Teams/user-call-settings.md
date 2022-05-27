@@ -22,21 +22,19 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: 通話転送と委任のユーザー設定を構成する方法について説明します。
-ms.openlocfilehash: 360be8c46418abba1419b94678dd87666e280269
-ms.sourcegitcommit: 3cb40132e36717dfbdc6dfe83e7ea319f3ec9347
+ms.openlocfilehash: 41d954f468166fd8600601f98ea98d5be129eccd
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "65465488"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681998"
 ---
 # <a name="configure-call-settings-for-your-users"></a>ユーザーの通話設定を構成する
 
 この記事では、管理者がユーザーの通話転送と委任の設定を変更する方法について説明します。 次のような場合は、これらの設定を変更できます。
 
 - ユーザーが病気休暇中であるため、ユーザーへの着信呼び出しが同僚に確実に転送されるようにする必要があります。
-
 - 部門内のすべてのユーザーの通話転送設定を調べて、必要に応じて修正する必要があります。
-
 - 新しいアシスタントが採用され、従業員のグループの代理人としてアシスタントを追加する必要があります。
 
 Teams管理センターまたはTeams PowerShell コマンドレットを使用して、ユーザーの通話設定を表示および変更できます。
@@ -45,11 +43,11 @@ Teams管理センターまたはTeams PowerShell コマンドレットを使用�
 
 ## <a name="use-the-teams-admin-center"></a>Teams管理センターを使用する
 
-Teams管理センターを使用して、ユーザーの転送と応答のない設定、グループ通話ピックアップ、通話委任を構成できます。 
+Teams管理センターを使用して、ユーザーの転送と応答のない設定、グループ通話ピックアップ、通話委任を構成できます。
 
 即時転送の設定を構成するには:
 
-1. Teams管理センターで、**UsersManage**  >  ユーザーに移動し、ユーザーを選択します。
+1. Teams管理センターで、[ユーザー **の管理****]** >  に移動し、ユーザーを選択します。
 
 2. ユーザーの詳細ページで、[ **音声** ] タブに移動します。
 
@@ -61,21 +59,15 @@ Teams管理センターを使用して、ユーザーの転送と応答のない
 
 呼び出し委任とグループ通話ピックアップの構成は、適切な種類を選択することで、通話転送と応答のない設定に統合されます。 たとえば、呼び出しがユーザーの代理人を呼び出すように構成するには、同じページで [**また許可**] で [**委任の呼び出し**] を選択します。 次に、[ **ユーザー** の追加] を選択して **[保存]** をクリックして、適切な代理人を追加します。
 
-
 ## <a name="use-powershell"></a>PowerShell を使用する
 
 PowerShell を使用して、ユーザーの呼び出し転送と委任の設定を構成できます。  PowerShell モジュール バージョン 4.0 以降Teams使用できる次のコマンドレットを使用します。
 
-- [Get-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings?view=teams-ps) - ユーザーの通話転送設定、代理人、委任者情報を表示します。
-
-- [Set-CsUserCallingSettings](/powershell/module/teams/set-csusercallingsettings?view=teams-ps) - ユーザーの通話転送設定を設定します。
-
-- [New-CsUserCallingDelegate](/powershell/module/teams/new-csusercallingdelegate?view=teams-ps) - ユーザーのアクセス許可を持つ新しいデリゲートを追加します。
-
--   [Set-CsUserCallingDelegate](/powershell/module/teams/set-csusercallingdelegate?view=teams-ps) - 既存のデリゲートのアクセス許可を変更します。
-
--   [Remove-CsUserCallingDelegate](/powershell/module/teams/remove-csusercallingdelegate?view=teams-ps) - ユーザーからデリゲートを削除します。
-
+- [Get-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings) - ユーザーの通話転送設定、代理人、委任者情報を表示します。
+- [Set-CsUserCallingSettings](/powershell/module/teams/set-csusercallingsettings) - ユーザーの通話転送設定を設定します。
+- [New-CsUserCallingDelegate](/powershell/module/teams/new-csusercallingdelegate) - ユーザーのアクセス許可を持つ新しいデリゲートを追加します。
+- [Set-CsUserCallingDelegate](/powershell/module/teams/set-csusercallingdelegate) - 既存のデリゲートのアクセス許可を変更します。
+- [Remove-CsUserCallingDelegate](/powershell/module/teams/remove-csusercallingdelegate) - ユーザーからデリゲートを削除します。
 
 ### <a name="display-call-forward-and-delegation-settings-for-a-user"></a>ユーザーの通話転送と委任の設定を表示する
 
@@ -93,7 +85,7 @@ UnansweredTarget          :
 UnansweredTargetType      : Voicemail
 UnansweredDelay           : 00:00:20
 Delegates                 : Id:sip:user2@contoso.com
-Delegators                : 
+Delegators                :
 CallGroupOrder            : InOrder
 CallGroupTargets          : {}
 GroupMembershipDetails    :
@@ -109,22 +101,21 @@ ReceiveCalls   : True
 
 出力は、user1 が構成されているデリゲートへの同時呼び出しを持っていることを示しています。 応答のない通話は、20 秒後にボイスメールに送信されます。 User2 は、すべてのデリゲートアクセス許可を持つデリゲートとして定義されます。
 
-
 ### <a name="set-call-forward-settings-for-a-user"></a>ユーザーの転送呼び出し設定を設定する
 
-user1 のすべての呼び出しを user2 に転送するには、次の例に示すように、Set-CsUserCallingSettings コマンドレットを使用します。 
+user1 のすべての呼び出しを user2 に転送するには、次の例に示すように、Set-CsUserCallingSettings コマンドレットを使用します。
 
 ```PowerShell
 Set-CsUserCallingSettings -Identity user1@contoso.com -IsForwardingEnabled $true -ForwardingType Immediate -ForwardingTargetType SingleTarget -ForwardingTarget user2@contoso.com
 ```
 
-user3 のすべてのデリゲートを同時に呼び出すには、次の例に示すように、Set-CsUserCallingSettings コマンドレットを使用します。 
+user3 のすべてのデリゲートを同時に呼び出すには、次の例に示すように、Set-CsUserCallingSettings コマンドレットを使用します。
 
 ```PowerShell
 Set-CsUserCallingSettings -Identity user3@contoso.com -IsForwardingEnabled $true -ForwardingType Simultaneous -ForwardingTargetType MyDelegates
 ```
 
-次の例では、Set-CsUserCallingSettings コマンドレットを使用して、user5 と user6 をメンバーとして使用する user4 の呼び出しグループを構成します。 グループのメンバーに対するすべての呼び出しは、定義された順序で転送されます。 
+次の例では、Set-CsUserCallingSettings コマンドレットを使用して、user5 と user6 をメンバーとして使用する user4 の呼び出しグループを構成します。 グループのメンバーに対するすべての呼び出しは、定義された順序で転送されます。
 
 ```PowerShell
 $cgm = @("user5@contoso.com","user6@contoso.com")
@@ -134,11 +125,11 @@ Set-CsUserCallingSettings -Identity user4@contoso.com -CallGroupOrder InOrder -C
 Set-CsUserCallingSettings -Identity user4@contoso.com -IsForwardingEnabled $true -ForwardingType Immediate -ForwardingTargetType Group
 ```
 
-その他の例については、「 [Set-CsUserCallingSettings」を参照してください](/powershell/module/teams/get-csusercallingsettings?view=teams-ps)。
+その他の例については、「 [Set-CsUserCallingSettings」を参照してください](/powershell/module/teams/get-csusercallingsettings)。
 
 ### <a name="add-a-calling-delegate-for-a-user"></a>ユーザーの呼び出し元デリゲートを追加する
 
-許可されているすべてのアクセス許可を持つ user1 の代理人として user2 を追加するには、次の例に示すように、New-CsUserCallingDelegate コマンドレットを使用します。 
+許可されているすべてのアクセス許可を持つ user1 の代理人として user2 を追加するには、次の例に示すように、New-CsUserCallingDelegate コマンドレットを使用します。
 
 ```PowerShell
 New-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.com -MakeCalls $true -ReceiveCalls $true -ManageSettings $true
@@ -146,7 +137,7 @@ New-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.co
 
 ### <a name="change-calling-delegate-permissions"></a>呼び出し元のデリゲートのアクセス許可を変更する
 
-委任のアクセス許可を変更するには(たとえば、user2 が user1 の呼び出しを許可しないようにする)、次の例に示すように、Set-CsUserCallingDelegate コマンドレットを使用します。 
+委任のアクセス許可を変更するには(たとえば、user2 が user1 の呼び出しを許可しないようにする)、次の例に示すように、Set-CsUserCallingDelegate コマンドレットを使用します。
 
 ```PowerShell
 Set-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.com -MakeCalls $false
@@ -154,21 +145,16 @@ Set-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.co
 
 ### <a name="remove-a-calling-delegate-for-a-user"></a>ユーザーの呼び出し元デリゲートを削除する
 
-user1 の代理人として user2 を削除するには、次の例に示すように、Remove-CsUserCallingDelegate コマンドレットを使用します。 
+user1 の代理人として user2 を削除するには、次の例に示すように、Remove-CsUserCallingDelegate コマンドレットを使用します。
 
 ```PowerShell
 Remove-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.com
 ```
 
-
 ## <a name="related-topics"></a>関連項目
 
-- [Get-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings?view=teams-ps) 
-
-- [Set-CsUserCallingSettings](/powershell/module/teams/set-csusercallingsettings?view=teams-ps) 
-
-- [New-CsUserCallingDelegate](/powershell/module/teams/new-csusercallingdelegate?view=teams-ps) 
-
--   [Set-CsUserCallingDelegate](/powershell/module/teams/set-csusercallingdelegate?view=teams-ps) 
-
--   [Remove-CsUserCallingDelegate](/powershell/module/teams/remove-csusercallingdelegate?view=teams-ps) 
+- [Get-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings)
+- [Set-CsUserCallingSettings](/powershell/module/teams/set-csusercallingsettings)
+- [New-CsUserCallingDelegate](/powershell/module/teams/new-csusercallingdelegate)
+- [Set-CsUserCallingDelegate](/powershell/module/teams/set-csusercallingdelegate)
+- [Remove-CsUserCallingDelegate](/powershell/module/teams/remove-csusercallingdelegate)

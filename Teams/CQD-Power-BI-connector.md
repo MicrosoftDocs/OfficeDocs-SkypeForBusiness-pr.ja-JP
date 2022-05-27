@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: 通話品質ダッシュボード (CQD) クエリ テンプレートを使用するPower BI コネクタをインストールする
-ms.openlocfilehash: 474edeca9e694e38e1503074fc45c8bcdaca3483
-ms.sourcegitcommit: f0eaaf67b4fdce87d5c01b456c506c1435714ced
+ms.openlocfilehash: 3ca8a4c70b23923dcf49906b85529c7b7e369008
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "62852500"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675259"
 ---
 # <a name="install-microsoft-call-quality-connector-for-power-bi-to-use-call-quality-dashboard-query-templates"></a>通話品質ダッシュボード クエリ テンプレートを使用するPower BI用の Microsoft 通話品質コネクタをインストールする
 
@@ -51,11 +51,11 @@ Power BI レポートにアクセスするための適切な [CQD アクセス �
 
 1. Power BI Desktopの [ホーム] タブで、[*データの取得*] をクリックします。
 
-    ![スクリーンショット: Power BI コネクタ。](media/CQD-power-bi-connector1-resize.png)
+    ![Power BI コネクタでデータを取得します。](media/CQD-power-bi-connector1-resize.png)
 
 2. この時点で、[ *データの取得* ] ウィンドウが表示されます。 *Online Services* に移動し、*Microsoft 通話品質 (ベータ)* を選択し *、Connect* をクリックします。
 
-    ![スクリーンショット: Power BI コネクタ。](media/CQD-power-bi-connector2-resize.png)
+    ![Power BI コネクタの Microsoft 通話品質。](media/CQD-power-bi-connector2-resize.png)
 
 3. 次にサインインするように求められます。 通話品質ダッシュボードで使用するのと同じ資格情報を使用します。<sup>2</sup>
 
@@ -73,18 +73,18 @@ Power BI レポートにアクセスするための適切な [CQD アクセス �
 
 1. [視覚化] ウィンドウから使用する *視覚化* を選択します。 その視覚化の空のバージョンがページに表示されます。 この例では、 *テーブル* の視覚化を使用します。
 
-    ![スクリーンショット: Power BI コネクタ。](media/CQD-power-bi-connector3-resize.png)
+    ![Power BI コネクタの [視覚化] ウィンドウ。](media/CQD-power-bi-connector3-resize.png)
 
 2. クエリに使用するディメンションとメジャー (集計記号の名前で示される) を決定し、手動で選択して黒い視覚化にドラッグします。 または、視覚化オプションの下にある *[値]* フィールドにドラッグします。
 
-    ![スクリーンショット: Power BI コネクタ。](media/CQD-power-bi-connector4-resize2.png)
+    !Power BI コネクタの視覚化クエリ。](media/CQD-power-bi-connector4-resize2.png)
 
     > [!IMPORTANT]
     > 通話品質ダッシュボードには、クエリを実行するためのメジャーが必要です。 クエリにメジャーを追加しないと、そのクエリは失敗します。
 
 3. 次に、フィルターを適用するディメンションを選択 *し、[* フィルター] ウィンドウの *[このビジュアルのフィルター*] フィールドにドラッグします。 Microsoft 通話品質コネクタは現在、 *基本的なフィルター処理* (可能なディメンション値の一覧から値を選択)、 *高度なフィルター処理* (通話品質ダッシュボードと同様に、フィルターを適用する値とオペランドを手動で指定)、 *相対日付フィルター処理* ( *終了時刻* ディメンションと *開始時刻* ディメンションでのみ使用できます) をサポートしています。 *上位 N* に従ったフィルター処理は、通話品質ダッシュボードではサポートされていません。
 
-    ![スクリーンショット: Power BI コネクタ。](media/CQD-power-bi-connector5-resize.png)
+    ![Power BI コネクタの視覚化フィルター。](media/CQD-power-bi-connector5-resize.png)
 
     > [!IMPORTANT]
     > フィルターは、ディメンションに適用された場合にのみサポートされます。 測定の値に対するフィルター処理は、通話品質ダッシュボードではサポートされていません。
@@ -102,11 +102,11 @@ Power BI レポートにアクセスするための適切な [CQD アクセス �
 
 2. ドリルスルー フィルターとして使用するディメンションを選択し、[*視覚化*] ウィンドウの [*ドリルスルー*] フィールドにドラッグします。
 
-    ![スクリーンショット: Power BI コネクタ。](media/CQD-power-bi-connector6-resize.png)
+    ![Power BI コネクタのドリルスルー。](media/CQD-power-bi-connector6-resize.png)
 
 3. **それです\!** そのディメンションを使用する別のページ上の他のクエリでも、そのページにドリルスルーできるようになり、ドリルスルー ディメンションの値がフィルターとして自動的に適用されます。
 
-    ![スクリーンショット: Power BI コネクタ。](media/CQD-power-bi-connector7-resize.png)
+    ![Power BI コネクタのドリルスルー フィルター。](media/CQD-power-bi-connector7-resize.png)
 
 通話品質ダッシュボードとは異なり、Power BIでは、連続しないドリルスルーがサポートされています。 クエリに必要なディメンションが含まれている場合は、他のページにドリルスルーできます。
 

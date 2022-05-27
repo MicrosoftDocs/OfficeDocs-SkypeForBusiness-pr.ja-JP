@@ -17,12 +17,12 @@ description: Microsoft Teams管理センターのTeams情報保護ライセン�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 73ce4b5720c42cdb4e468182d6290912baf95d7e
-ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
+ms.openlocfilehash: fade7b4d5d89061cdc1dd5eb231a80d5ee9e8938
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63435861"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681538"
 ---
 # <a name="microsoft-teams-information-protection-license-report"></a>Microsoft Teams情報保護ライセンス レポート
 
@@ -34,7 +34,7 @@ Teams情報保護ライセンス レポートは、[ライセンスと支払い�
 
 これらの変更を行うには、Teams サービス管理者であることが必要です。 「[Teams 管理者ロールを使用してチームを管理する](../using-admin-roles.md)」をご覧いただき、管理者ロールとアクセス許可を取得する方法について読んでください。
 
-1. Microsoft Teams管理センターの左側のナビゲーションで、**Analytics & reportsUsage** >  **レポートを** 選択します。 [**レポートの表示**] タブの [**レポート**] で、[**ライセンスのInformation Protection**] を選択します。
+1. Microsoft Teams管理センターの左側のナビゲーションで、[**Analytics & レポート****使用状況レポート** > ] を選択します。 [**レポートの表示**] タブの [**レポート**] で、[**ライセンスのInformation Protection**] を選択します。
 2. **[日付範囲**] で範囲を選択します。
 3. [ **アプリ]** でアプリを選択し、[ **レポートの実行**] を選択します。
 

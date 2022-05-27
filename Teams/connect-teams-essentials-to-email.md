@@ -1,5 +1,5 @@
 ---
-title: 予定表を使用して既存の電子メール システムにConnect Microsoft Teams Essentials (AAD ID)
+title: 予定表を使用して既存の電子メール システムにConnect Microsoft Teams Essentials (AAD ID) する
 author: adjoseph
 ms.author: adjoseph
 ms.reviewer: jimmyw
@@ -10,7 +10,7 @@ ms.service: msteams
 searchScope:
 - Microsoft Teams
 search.appverid: MET150
-description: Google ワークスペースなどの予定表を使用して、Microsoft Teams Essentials (AAD Id) を既存のメール システムに接続する方法について説明します
+description: Google ワークスペースなどの予定表を使用してMicrosoft Teams Essentials (AAD ID) を既存のメール システムに接続する方法について説明します
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -18,18 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3b05fb30b6e7e4a3f3725ca8e591cc5caf56fdde
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 8bc388f533d39d6e1bc0140bcd975d6354898d5a
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "62279245"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674909"
 ---
-# <a name="connect-microsoft-teams-essentials-aad-identity-to-an-existing-email-system-with-calendar"></a>予定表を使用して既存の電子メール システムにConnect Microsoft Teams Essentials (AAD ID)
+# <a name="connect-microsoft-teams-essentials-aad-identity-to-an-existing-email-system-with-calendar"></a>予定表を使用して既存の電子メール システムにConnect Microsoft Teams Essentials (AAD ID) する
 
 このガイドでは、Microsoft Teams Essentials (AAD Identity) を予定表を使用して既存の電子メール システムに接続するための構成手順について説明します。
 
-Microsoft Teams Essentials (AAD Identity) は、会議、チャット、通話、コラボレーションとTeamsのベストを結び付けます。 Teams Essentials (AAD Identity) は、既存の電子メール システムに接続して、既存のメール 受信トレイ内のすべてのTeams通知、Teamsのすべての予定表イベント、既存のメール アドレスを使用してTeamsにサインインする機能などの統合されたエクスペリエンスを提供できます。
+Microsoft Teams Essentials (AAD Identity) は、会議、チャット、通話、コラボレーションとTeamsのベストを結び付けます。 Teams Essentials (AAD Identity) は、既存の電子メール システムに接続して、既存のメール 受信トレイ内のすべてのTeams通知、Teamsのすべての予定表イベント、既存のメール アドレスでTeamsにサインインする機能などの統合されたエクスペリエンスを提供できます。
 
 接続すると、スケジュールされた会議や招待に対する応答を確認して、メールボックスとMicrosoft Teamsで共同作業を行うことができます。 また、Teamsや Google ワークスペースなどのサードパーティの会議ソフトウェアを使用して、予定表から受信した会議を表示および操作することもできます。
 
@@ -40,7 +40,7 @@ Microsoft Teams Essentials (AAD Identity) は、会議、チャット、通話�
 自動転送を有効にするには:
 
 1. Microsoft 365 Defender ポータルに移動します。<https://security.microsoft.com/>
-2. 左側のナビゲーション メニューの [ポリシー] セクション **の [Email &** **collaborationPolicies** >  & **rulesThreat** >  **policiesAnti-spam** > ] に移動します
+2. 左側のナビゲーション メニューの [ポリシー] セクション **の [電子メール & コラボレーション** > **ポリシー&ルール** > **脅威ポリシー** > **のスパム対策** ] に移動します。
 3. [ **スパム対策ポリシー** ] ページで、一覧から **[スパム対策送信ポリシー (既定)]** を選択します。
 4. 表示されるポリシーの詳細ポップアップで、[ **保護設定の編集]** を選択して自動転送ルールを変更します。
 5. [ **転送ルール**] で、自動転送条件を **[オン - 転送] に** 変更し、変更を保存します。
@@ -51,9 +51,9 @@ Microsoft Teams Essentials (AAD Identity) は、会議、チャット、通話�
 
 ## <a name="connect-teams-essentials-to-exchange-online-with-exchange-on-premises"></a>ExchangeオンプレミスでExchange OnlineするためのConnect Teams Essentials
 
-オンプレミスでMicrosoft TeamsとExchange Onlineの間の接続を構成するハイブリッド アプローチを使用して、Teams Essentials (AAD) が提供する必要があるすべてをExchange楽しむことができます。
+オンプレミスでMicrosoft Teamsと Teams Exchange Onlineの間の接続を構成するハイブリッド アプローチを使用して、Essentials (AAD) が提供する必要があるすべてのExchangeを楽しむことができます。
 
-オンプレミスのメールボックスに対して予定表アクセスを機能させるには、オンプレミスメールボックスの[Teams予定表アクセスの構成](https://techcommunity.microsoft.com/t5/exchange-team-blog/configuring-teams-calendar-access-for-exchange-on-premises/ba-p/1484009)に関するExchangeに関するガイダンスに従ってください - Microsoft Tech Community
+オンプレミスメールボックスの予定表アクセスを機能させるには、「オンプレミスメールボックスの[Teams予定表 Exchangeアクセスを構成する - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/exchange-team-blog/configuring-teams-calendar-access-for-exchange-on-premises/ba-p/1484009)
 
 Exchangeオンプレミスのハイブリッド環境にMicrosoft Teams Roomsをデプロイするには、「オンプレミス[でExchange Microsoft Teams Roomsをデプロイする - Microsoft Teams |Microsoft Docs](rooms/with-exchange-on-premises.md)
 
@@ -71,11 +71,11 @@ Microsoft 365で生成されたすべてのメールは Google ワークスペ�
 
 これらの例は、Exchange Online PowerShell [V2 モジュール](/powershell/exchange/exchange-online-powershell-v2&preserve-view=true)の一部である [Connect-ExchangeOnline](/powershell/module/exchange/connect-exchangeonline?view=exchange-ps&preserve-view=true) PowerShell コマンドレットに依存しています。 Connect-ExchangeOnline の実行時にエラーが発生した場合は、[EXO V2 モジュールのインストール](/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps&preserve-view=true)を使用してモジュールをインストールするための推奨手順に従っていることを確認します。 Connect-ExchangeOnline資格情報の入力を求めるメッセージが表示されたら、必ずテナント管理者アカウントを使用してください。
 
-**手順 1: 新しいMicrosoft 365 テナント ドメインを設定する**
+#### <a name="step-one-set-up-a-new-microsoft-365-tenant-domain"></a>手順 1: 新しいMicrosoft 365 テナント ドメインを設定する
 
 1. <https://admin.microsoft.com> で管理センターにアクセスします。
 
-2. **[セットアップ** > **ドメイン**] に移動し、[**ドメインの追加]** を選択して既存のドメインを追加します。 ドメインを追加しない場合、組織内のユーザーは、自分の電子メール アドレスに onmicrosoft.com ドメインを使用します。 ユーザーを追加する前にドメインを追加してください。そのため、2 回設定する必要はありません。
+2. **[ドメイン** の **セットアップ** > ] に移動し、[**ドメインの追加]** を選択して既存のドメインを追加します。 ドメインを追加しない場合、組織内のユーザーは、自分の電子メール アドレスに onmicrosoft.com ドメインを使用します。 ユーザーを追加する前にドメインを追加してください。そのため、2 回設定する必要はありません。
 
 3. TXT レコードを使用して確認するに関するページの手順に従って [、TXT レコードを使用してドメインを確認します](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider?view=o365-worldwide&preserve-view=true)。
 
@@ -89,7 +89,7 @@ Microsoft 365で生成されたすべてのメールは Google ワークスペ�
 
 8. Microsoft 365 管理センターに<https://admin.microsoft.com/AdminPortal/>サインインして DKIM を有効にする
 
-9. 左側のナビゲーション パネルで、[**SetupDomains** > ] を選択します。
+9. 左側のナビゲーション パネルで、[**ドメインのセットアップ]** >  を選択 **します**。
 
 10. チェック ボックスを使用して、現在のドメインの一覧から既存の Microsoft 以外のドメイン (例: TomislavK@thephone-company.com) を選択します。
 
@@ -102,11 +102,11 @@ Microsoft 365で生成されたすべてのメールは Google ワークスペ�
 
     Microsoft 365にドメインを追加する方法の詳細については、「Microsoft 365[にドメインを追加する](https://support.office.com/article/add-a-domain-to-office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611?ui=en-US&rs=en-US&ad=US)」で説明されている手順に従います。
 
-**手順 2: ユーザーを追加し、Essentials ライセンスTeams割り当てる**
+#### <a name="step-two-add-users-and-assign-teams-essentials-licenses"></a>手順 2: ユーザーを追加し、Essentials ライセンスTeams割り当てる
 
 1. 管理センター <https://admin.microsoft.com> に移動して、個々のユーザーを追加する
 
-2. **UsersActive ユーザー** > に移動し、[**ユーザーの追加]** を選択します。
+2. **[ユーザー** > **のアクティブなユーザー**] に移動し、[**ユーザーの追加]** を選択します。
 
 3. [ **基本の設定]** ウィンドウで、基本的なユーザー情報を入力し、[ **次へ**] を選択します。
     - **名前：** 名と姓、表示名、ユーザー名を入力します。
@@ -121,7 +121,7 @@ Microsoft 365で生成されたすべてのメールは Google ワークスペ�
 
 複数のユーザーを同時に追加するには、「[ユーザーの追加とライセンスの割り当て - Microsoft 365管理者|」の推奨手順に従います。Microsoft Docs](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true)
 
-**手順 3: Google ワークスペースを構成する**
+#### <a name="step-three-configure-google-workspace"></a>手順 3: Google ワークスペースを構成する
 
 ***添付ファイルをMicrosoft 365してストリップする電子メールの二重配信を構成します。***
 
@@ -129,7 +129,7 @@ Microsoft 365で生成されたすべてのメールは Google ワークスペ�
 
 2. Office 365のルートを追加する
 
-    - Google 管理コンソール <https://admin.google.com>に移動します (
+    - Google 管理 コンソールに<https://admin.google.com>移動します)
     - Gmail > ホスト> Google ワークスペース>アプリに移動します。
     - ルート名を入力します。 (たとえば、Microsoft 365)
     - [単一ホスト] を選択し、Microsoft 365のドメインに指定された MX レコードを入力します (例: ContosoLandscaping2-m365master-com.mail.protection.outlook.com)
@@ -142,9 +142,9 @@ Microsoft 365で生成されたすべてのメールは Google ワークスペ�
 
 3. Office 365へのルートを構成する
 
-    - **Google 管理コンソール** を開きます。<https://admin.google.com>
+    - **Google 管理 コンソール** を開きます。<https://admin.google.com>
 
-    - **AppsGoogle** >  **WorkspaceGmailRouting** >  >  に移動する
+    - **Apps** > **Google ワークスペース****の Gmail** > **ルーティング** に移動する > 
 
     - [**ルーティング**] タブで、[**構成**] を選択します。
 
@@ -170,9 +170,9 @@ Microsoft 365で生成されたすべてのメールは Google ワークスペ�
 
   次に、サブドメインへのメールボックスMicrosoft 365転送ルールを作成します。 Microsoft 365からメールを受信するために Google ワークスペースで使用するサブドメインを選択します (g.contosolandscaping2.m365master.com など)
 
-1. **Google 管理コンソール** から開始する (admin.google.com)
+1. **Google 管理 コンソール** から開始する (admin.google.com)
 
-2. **AccountDomainsManage** >  >  ドメインに移動 **する**
+2. **アカウント** > **ドメイン管理** > ドメインに移動 **する**
 
 3. **[ドメインの追加] を選択する**
 
@@ -198,9 +198,9 @@ Microsoft 365で生成されたすべてのメールは Google ワークスペ�
 
 3. Microsoft 365 テナントからのメールを一意に識別する電子メール ヘッダーを選択します。 (たとえば、X-MS-Exchange-CrossTenant-id: 92f60fc7-eab3-403b-9d7d-9d683bf0a4b5)
 
-4. **Google 管理コンソールに移動します。**<https://admin.google.com>
+4. **Google 管理 コンソール** に移動します。<https://admin.google.com>
 
-5. **AppsGoogle** >  **WorkspaceGmailCompliance** >  に移動 **する** > 
+5. **Apps** > **Google ワークスペース****Gmail** > **コンプライアンス** に移動する > 
 
 6. **コンテンツ コンプライアンス** に移動し、[**構成**] を選択します。
 
@@ -224,17 +224,17 @@ Microsoft 365で生成されたすべてのメールは Google ワークスペ�
 
 16. **[保存] を選択する**
 
-**手順 4: 統合のMicrosoft 365設定を構成する**
+#### <a name="step-four-configure-microsoft-365-settings-for-the-integration"></a>手順 4: 統合のMicrosoft 365設定を構成する
 
 *Microsoft 365から Gmail にメールをルーティングするようにコネクタを構成します。*
 
-1. **Microsoft Admin Center** に移動します。<https://admin.microsoft.com/AdminPortal>
+1. **Microsoft 管理 センター** に移動します。<https://admin.microsoft.com/AdminPortal>
 
 2. 左側のナビゲーション メニューで [ **すべて表示** ] を選択します。
 
-3. [**管理センター]** で **[Exchange**] を選択して、新しいタブでExchange管理センターを開きます
+3. **[管理 センター**] **で [Exchange**] を選択し、新しいタブでExchange管理センターを開きます
 
-4. **Exchange管理センター** の左側のナビゲーション メニューで、**Mail** **flowConnectors** >  を選択し、オーバーフロー メニュー (...) を開き、[コネクタの追加] を選択します。
+4. **Exchange管理センター** の左側のナビゲーション メニューで、[**メール フロー** > **コネクタ**] を選択し、オーバーフロー メニュー (...) を開き、[コネクタの追加] を選択します。
 
 5. [新しいコネクタ] ウィンドウの [**接続** 元] で、[**Office 365**] を選択します。
 
@@ -256,7 +256,7 @@ Microsoft 365で生成されたすべてのメールは Google ワークスペ�
 
 14. コネクタが作成した通知が表示されたら、**完了** キーを押します。
 
-*Microsoft 365メールボックスから Gmail にメールを転送する*
+*Microsoft 365メールボックスから Gmail にメールを転送します。*
 
 1. **Microsoft 365 管理 センター** を使用して各メールボックスを更新するか、次のような **PowerShell** スクリプトを使用できます。
 
@@ -265,29 +265,29 @@ Microsoft 365で生成されたすべてのメールは Google ワークスペ�
     Connect-ExchangeOnline
     $Mailboxes = Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"}
     Foreach ($mbx in $mailboxes) {
-    
+
     Set-Mailbox $mbx.Identity -DeliverToMailboxAndForward $true -ForwardingSMTPAddress $($mbx.Alias,$forwardingDomain -join "@")
-    } 
+    }
     ```
 
     **Connect-ExchangeOnline のトラブルシューティング:**
 
-    Connect-ExchangeOnline を実行しているときにエラーが発生していますか? これは、組織の自動メール転送ルールの結果である可能性があります。 既定では、自動転送は無効になっています。 Teams Essentials を Google ワークスペースに接続するには、ルールを有効にする必要があります。  
+    Connect-ExchangeOnline を実行しているときにエラーが発生していますか? これは、組織の自動メール転送ルールの結果である可能性があります。 既定では、自動転送は無効になっています。 Teams Essentials を Google ワークスペースに接続するには、ルールを有効にする必要があります。
 
     次のスクリプトを入力します。
 
    ```powershell
-    Set-ExecutionPolicy Unrestricted 
+    Set-ExecutionPolicy Unrestricted
      ```
 
     その後、次のコマンドを実行します。
 
     ```powershell
-    Enable-OrganizationCustomization 
+    Enable-OrganizationCustomization
     Get-HostOutboundSpamFilterPolicy | set-HostedOutboundSpamFilterPolicy -AutoForwardingMode On
     ```
 
-*予定表トランスポート ルールに直接Exchange Online構成する*
+*予定表トランスポート ルールに直接Exchange Online構成します。*
 
 1. この設定を構成すると、予定表の招待が自動的に受け入れられ、Teams予定表に表示されるため、ユーザーはOutlook Web Appで招待を操作する必要はありません。
 
@@ -297,14 +297,14 @@ Microsoft 365で生成されたすべてのメールは Google ワークスペ�
     Connect-ExchangeOnline
     New-TransportRule -Name "Direct to Calendar" -MessageTypeMatches Calendaring -SetHeaderName "X-MS-Exchange-Organization-CalendarBooking-Response" -SetHeaderValue Tentative
     New-TransportRule -Name "Direct to Calendar triage action" -MessageTypeMatches Calendaring -SetHeaderName "X-MS-Exchange-Organization-CalendarBooking-TriageAction" -SetHeaderValue MoveToDeletedItems
-    
+
     ```
 
-*メールボックスのOutlook on the webを無効にする*
+*メールボックスのOutlook on the webを無効にします。*
 
 1. メールボックスの[Outlook on the webを無効にするには、「Exchange OnlineのメールボックスのOutlook on the webを有効または無効にする](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)」の手順に従います。
 
-2. **Exchange管理センター** または **PowerShell** を使用して、Outlook on the webを無効にすることができます。 次の PowerShell の例を使用して、すべてのメールボックスのOutlook on the webを無効にすることができます。
+2. Exchange 管理 センターまたは **PowerShell** を使用して **、Outlook on the web** を無効にすることができます。 次の PowerShell の例を使用して、すべてのメールボックスのOutlook on the webを無効にすることができます。
 
     ```powershell
     Connect-ExchangeOnline
@@ -314,15 +314,15 @@ Microsoft 365で生成されたすべてのメールは Google ワークスペ�
     }
     ```
 
-**手順 5: 内部リレーのExchange Online ドメインを構成する**
+#### <a name="step-five-configure-exchange-online-domain-for-internal-relay"></a>手順 5: 内部リレーのExchange Online ドメインを構成する
 
 この手順では、最終的な解決のために電子メールがサード パーティシステムに確実に送信されます。
 
-1. **Microsoft Admin Center** に移動します。<https://admin.microsoft.com/AdminPortal>
+1. **Microsoft 管理 センター** に移動します。<https://admin.microsoft.com/AdminPortal>
 
 2. 左側のナビゲーションで、[**すべて表示**] を選択します
 
-3. [**管理センター]** で **[Exchange**] を選択して、新しいタブExchange管理センターを開きます
+3. **[管理 センター**] **でExchange** を選択し、新しいタブで管理センター Exchange開きます
 
 4. **管理センター Exchange** 左側のナビゲーション メニューから **[メール フロー**] を選択し、[**承認済みドメイン**] を選択します。
 
@@ -334,35 +334,34 @@ Microsoft 365で生成されたすべてのメールは Google ワークスペ�
 
     :::image type="content" source="media/essentials-internalrelay2.png" alt-text="内部リレー設定を保存する動作を示す画像。":::
 
-**手順 6: 予定表を除くすべての受信メールをExchange Onlineに削除するルールを作成する**
+#### <a name="step-six-create-a-rule-to-delete-all-inbound-mail-to-exchange-online-except-for-calendaring"></a>手順 6: 予定表を除くすべての受信メールをExchange Onlineに削除するルールを作成する
 
-1. このルールは **、Exchange管理センター** または **PowerShell** で構成できます。 次の **PowerShell** の例を使用してルールを作成できます。
+1. このルールは **、Exchange 管理 センター** または **PowerShell** で構成できます。 次の **PowerShell** の例を使用してルールを作成できます。
 
     ```powershell
     Connect-ExchangeOnline
-    New-TransportRule -Name "Delete all except Calendaring" -ExceptIfMessageTypeMatches Calendaring -FromScope NotInOrganization -DeleteMessage:$true 
-    
+    New-TransportRule -Name "Delete all except Calendaring" -ExceptIfMessageTypeMatches Calendaring -FromScope NotInOrganization -DeleteMessage:$true
     ```
 
 ### <a name="connect-teams-essentials-to-third-party-email-not-using-vanity-domain-gmail-example"></a>Connect Teams Vanity ドメインを使用していないサード パーティの電子メールに関する要点 (Gmail の例)
 
-Teams [G Suite アドオン](https://support.microsoft.com/en-us/office/install-the-teams-meeting-add-on-for-google-workspace-bba2dfbe-0b2b-4ee7-be10-261ad80ddb60)に主に依存してコンシューマー Gmail アカウントを Teams Essentials に接続することで、Google ワークスペースから直接Teams会議をスケジュールして参加できます。 これにより、画面共有、会議チャット、デジタルホワイトボードなどを使用してビデオ会議と電話会議をスケジュールできます。
+Teams [G Suite アドオン](https://support.microsoft.com/office/install-the-teams-meeting-add-on-for-google-workspace-bba2dfbe-0b2b-4ee7-be10-261ad80ddb60)に主に依存してコンシューマー Gmail アカウントを Teams Essentials に接続することで、Google ワークスペースから直接Teams会議をスケジュールして参加できます。 これにより、画面共有、会議チャット、デジタルホワイトボードなどを使用してビデオ会議と電話会議をスケジュールできます。
 
 Gmail を構成して、Exchange Onlineからメールをプルして、Microsoft 365で生成されたメールと Gmail に正常に到着Teams確認します。 この接続を実現するには、セキュリティの既定値を無効にする必要がある場合があります。これにより、強力な一意のパスワードを使用することが不可欠になります。 このシナリオではカスタム ドメインは必要ありませんが、使用する場合は Gmail で使用できるようにMicrosoft 365で構成できます。
 
 :::image type="content" source="media/essentials-gmail.png" alt-text="Teams Essentials と Gmail の間のメール フローを示す画像":::
 
-**Gmail アカウントが設定されていることを確認します。**
+#### <a name="1-ensure-that-you-have-a-gmail-account-set-up"></a>1. Gmail アカウントが設定されていることを確認する
 
 既に既存のアカウントを持っている場合は、次の手順に進むことができます。 そうでない場合は、 [新しい Google アカウントの作成](https://accounts.google.com/SignUp?hl=en) に関するページにアクセスして、新しい Gmail アカウントを設定します。
 
-**2. Microsoft 365 テナントを設定する**
+#### <a name="2-set-up-your-microsoft-365-tenant"></a>2. Microsoft 365 テナントを設定する
 
-*Teams AAD ユーザーを構成する*
+*AAD ユーザー Teams構成します。*
 
-1. ガイダンスに従って[ユーザーを追加し、ライセンスを割り当てて](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true) 複数のユーザーを追加する
+1. [「ユーザーの追加とライセンスの割り当て](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true)」のガイダンスに従って複数のユーザーを追加する
 
-*ID 保護を構成する*
+*ID 保護を構成します。*
 
 1. アクティブな場合は、セキュリティの既定値を無効にします。
 
@@ -370,7 +369,7 @@ Gmail を構成して、Exchange Onlineからメールをプルして、Microsof
 
 3. 条件付きアクセスを使用する場合は、メールボックスへの POP アクセスの例外を必ず行ってください
 
-*Microsoft 365 管理 センターにドメインを追加する (省略可能)*
+*Microsoft 365 管理 センターにドメインを追加します (省略可能)。*
 
 1. ナビゲーションで [設定 > ドメイン] を選択し、[ドメインの追加] を選択します。
 
@@ -386,9 +385,9 @@ Gmail を構成して、Exchange Onlineからメールをプルして、Microsof
 
 7. Microsoft 365用に DKIM TXT レコードを構成する手順を完了します
 
-8. DKIM が有効になっていることを確認するには、ログアウトして管理センターにサインインします。
+8. ログアウトして管理 センターにサインインして DKIM が有効になっていることを確認する
 
-**3. Gmail を構成する**
+#### <a name="3-configure-gmail"></a>3. Gmail を構成する
 
 1. メールをシステムにプルExchange Online Gmail を構成する
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f30bab1e96fc16b135b178a1933bbfd08289e861
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 05f5a53974444341ecc7da8431525b69bc8f1923
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58577801"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681558"
 ---
 # <a name="powershell-script-sample---create-new-people-manager-teams"></a>PowerShell スクリプト サンプル - 新しいユーザー マネージャー チームを作成する
 
@@ -29,26 +29,23 @@ ms.locfileid: "58577801"
 
 この PowerShell スクリプトの詳細については、「 [People Manager チームの作成」](../create-manager-directs-teams.md)を参照してください。
 
-PowerShell をこれまでに使用したことがなく、使用開始のためのヘルプが必要な場合は、「[Azure PowerShell の概要](/powershell/azure/overview?view=azurermps-5.1.1)」をご覧ください。
+PowerShell をこれまでに使用したことがなく、使用開始のためのヘルプが必要な場合は、「[Azure PowerShell の概要](/powershell/azure/overview)」をご覧ください。
 
-
-## <a name="create-new-people-manager-teams"></a>新しいユーザー マネージャー チームを作成する 
+## <a name="create-new-people-manager-teams"></a>新しいユーザー マネージャー チームを作成する
 
 ```powershell
-<# 
-.SYNOPSIS 
-  Name: New-TeamsFromManagers.ps1 
-  This sample script creates a new team for each people manager that includes the manager and their direct reports, based off the ExportedManagerDirects.txt file. 
-   
-.DESCRIPTION 
+<#
+.SYNOPSIS
+  Name: New-TeamsFromManagers.ps1
+  This sample script creates a new team for each people manager that includes the manager and their direct reports, based off the ExportedManagerDirects.txt file.
+
+.DESCRIPTION
  This sample script create new Teams based on the tab delimited .txt file you provide of managers and direct reports.
- 
-.NOTES 
-  &copy; 2020 Microsoft Corporation.  All rights reserved.  This document is provided 
-    "as-is." Information and views expressed in this document, including URL and 
-    other Internet Web site references, may change without notice.
- 
-.EXAMPLE 
+
+.NOTES
+  &copy; 2020 Microsoft Corporation.  All rights reserved.  This document is provided "as-is." Information and views expressed in this document, including URL and other Internet Web site references, may change without notice.
+
+.EXAMPLE
   New-TeamsFromManagers.ps1 -Input .\TeamsToCreate.txt
 #>
 
@@ -112,7 +109,7 @@ Function ProcessData ($Managers) {
                     $person.TeamsEnabled = IsTeamsEnabled $person.UserPrincipalName
                     if ($person.TeamsEnabled -eq $false) {
                         $countNonEnabled++
-                        Write-Verbose "$(Get-Timestamp) Warning: $($person.UserPrincipalName) is not enabled for Teams."                        
+                        Write-Verbose "$(Get-Timestamp) Warning: $($person.UserPrincipalName) is not enabled for Teams."
                     }
                     $boss.DirectReports.Add($person)
                 }
@@ -211,5 +208,4 @@ foreach ($Manager in $Managers) {
 Write-Host -ForegroundColor Green "$(Get-Timestamp) Info: Step 3: Completed."
 Write-Host -ForegroundColor Green "$(Get-Timestamp) Info: Exiting.."
 #endregion
-
 ```

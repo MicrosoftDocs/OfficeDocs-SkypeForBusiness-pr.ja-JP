@@ -1,5 +1,5 @@
 ---
-title: 電話会議ブリッジの電話番号を変更する
+title: ブリッジの電話番号を変更電話会議
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 会議ブリッジに新しいサービス電話番号を割り当てて、ユーザーのカバレッジを拡大するために必要な手順について説明します。
-ms.openlocfilehash: 25af462ec7e531bdbaec01ee2a8b37c43376a48e
-ms.sourcegitcommit: 296fbefe0481c0b8b94aee925118474375cdf138
+ms.openlocfilehash: 0433577334dca5f84854ba1cdc14b81e4ec37e63
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65016649"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674779"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>電話会議ブリッジの電話番号を変更する
 
-**電話会議ライセンスを** 購入すると、Microsoft は組織の電話会議ブリッジをホストします。 電話会議ブリッジは、会議の開催者や参加者が電話を使用してSkype for Business会議に参加したり、会議をMicrosoft Teamsしたりできるように、さまざまな場所のダイヤルイン電話番号を提供します。
-  
+**電話会議** ライセンスを購入すると、Microsoft は組織の電話会議ブリッジをホストします。 電話会議ブリッジは、会議の開催者や参加者が電話を使用してSkype for Business会議に参加したり、会議をMicrosoft Teamsしたりできるように、さまざまな場所のダイヤルイン電話番号を提供します。
+
 会議ブリッジに既に割り当てられている電話番号に加えて、他の場所から [追加のサービス番号](./getting-service-phone-numbers.md) (電話会議に使用される有料電話番号とフリーダイヤル番号) を取得し、会議ブリッジに割り当てて、ユーザーのカバレッジを拡大することができます。
-  
+
 > [!NOTE]
 > 会議ブリッジの電話番号を割り当て/割り当て解除できるようにするには、電話番号を "*サービス*" 番号にする必要があります。 番号の種類は、Microsoft Teams管理センターで **Voice** > **電話 番号** に移動し、[**数値の種類]** 列を確認することで確認できます。 ユーザーがフリーダイヤル番号でブリッジにダイヤルインするには、Microsoft 365またはOffice 365通信クレジットを最初に設定する必要があります。
 
@@ -50,7 +50,7 @@ ms.locfileid: "65016649"
 
 2. 一覧から電話番号を選択し、[編集] をクリック **します**。
 
-3. **[編集]** ページの [**割り当て対象**] でドロップダウンを展開し、**Conference** **bridgeApply** >  を選択します。
+3. **[編集]** ページの [**割り当て対象**] でドロップダウンを展開し、[**会議ブリッジ** > の **適用**] を選択します。
 
 ### <a name="step-2---change-the-default-phone-number-of-your-conference-bridge-optional"></a>手順 2 - 会議ブリッジの既定の電話番号を変更する (省略可能)
 
@@ -58,7 +58,7 @@ ms.locfileid: "65016649"
 
 会議ブリッジの既定の番号として設定できるのは、サービス料金番号のみです。 **サービスのフリーダイヤル番号を会議ブリッジの既定の番号として設定することはできません**。 サービスの有料電話番号を割り当て、それを電話会議ブリッジの新しい既定の番号として設定する場合は、次の手順を実行します。
 
-1. 左側のナビゲーション ウィンドウで、**MeetingsConference** >  ブリッジに移動します。
+1. 左側のナビゲーション ウィンドウで、[ **会議** > **ブリッジ**] に移動します。
 
 2. 既定として構成するサービスの有料電話番号を強調表示します。
 
@@ -69,14 +69,14 @@ ms.locfileid: "65016649"
 「[Microsoft Teamsの招待に含まれる電話番号を設定する](set-the-phone-numbers-included-on-invites-in-teams.md)」を参照してください。
 
 > [!NOTE]
-> *TeamsAudioconferencingpolicy* に電話番号を追加し、ポリシーをユーザーに割り当てることで電話番号を設定することもできます。 ポリシーに追加された有料電話番号とフリーダイヤル電話番号は、電話会議設定ウィンドウでユーザーに対して個別に設定された電話番号よりも優先されます。 *Teamsaudioconferencingpolicy* に電話番号が追加されていない場合は、電話会議の設定ウィンドウでユーザーに個別に設定された電話番号が会議出席依頼Microsoft Teamsに表示されます。 [有料電話番号とフリーダイヤル番号の電話会議ポリシー設定](audio-conferencing-toll-free-numbers-policy.md) の詳細については、以下をご覧ください。
+> *TeamsAudioconferencingpolicy* に電話番号を追加し、ポリシーをユーザーに割り当てることで電話番号を設定することもできます。 ポリシーに追加された有料電話番号とフリーダイヤル電話番号は、電話会議設定ウィンドウでユーザーに対して個別に設定された電話番号よりも優先されます。 *Teamsaudioconferencingpolicy* に電話番号が追加されていない場合は、電話会議の設定ウィンドウでユーザーに個別に設定された電話番号が会議出席依頼Microsoft Teamsに表示されます。 [有料電話番号とフリーダイヤル番号の電話会議ポリシー設定](audio-conferencing-toll-free-numbers-policy.md)の詳細については、以下をご覧ください。
 
 ### <a name="step-4---update-existing-meeting-invites-of-users-using-the-meeting-migration-service-optional"></a>手順 4 - Meeting Migration Service を使用してユーザーの既存の会議出席依頼を更新する (省略可能)
 
 次の 2 つの手順では、Windows PowerShellを開始する必要があります。
-  
+
 一部またはすべてのユーザーの会議出席依頼に含まれる既定の電話番号を更新した場合は、会議移行サービスを使用して既定の電話番号を変更する前に、組織のユーザーに既に送信されている会議出席依頼を更新することもできます。 詳細については、「 [会議移行サービス (MMS) の設定](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)」を参照してください。
-  
+
 - 手順 2. で既定の電話番号を変更したユーザーに対して会議移行サービス (MMS) を実行します。 これを行うには、次のコマンドを実行します。
 
 ```PowerShell
@@ -122,7 +122,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 ```
 
 会議移行サービスの詳細については、「 [会議移行サービス (MMS) のセットアップ](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)」を参照してください。
-  
+
 ### <a name="step-3---unassign-the-old-phone-number-from-the-audio-conferencing-bridge"></a>手順 3 - 電話会議ブリッジから古い電話番号の割り当てを解除する
 
 Unregister-CsOnlineDialInConferencingServiceNumber コマンドレットを使用して、会議ブリッジから有料または無料の電話番号の登録を解除する
@@ -192,7 +192,7 @@ Get-CsOnlineDialInConferencingBridge -Name "Conference Bridge"
 **たとえば**、割り当てを解除するには、DefaultServiceNumber "8005551234"
 
 ```PowerShell
-Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridge" -RemoveDefaultServiceNumber 8005551234 
+Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridge" -RemoveDefaultServiceNumber 8005551234
 ```
 
 ## <a name="about-windows-powershell"></a>Windows PowerShellについて

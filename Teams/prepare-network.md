@@ -19,20 +19,20 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 8a8e8b21bb3b224586ef7e74f971059070d0a74c
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: d530cc3947c738753f053d126ded1dd77b815009
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059298"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676399"
 ---
-# <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams 用に組織のネットワークを準備する 
+# <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams 用に組織のネットワークを準備する
 
 ## <a name="network-requirements"></a>ネットワーク要件
 
 既に[ネットワークを Microsoft 365 または Office 365 用に最適化](/Office365/Enterprise/assessing-network-connectivity)している場合は、Microsoft Teams の準備ができている可能性があります。 いずれの場合でも、特に **リモート ワーカー** をサポートする最初の Microsoft 365 または Office 365 ワークロードとして Teams を迅速に展開する場合は、Teams の展開を開始する前に次のことを確認してください。
 
-1.  (Microsoft 365 または Office 365 に接続できるように) すべての場所にインターネット アクセスがありますか? 通常の Web トラフィックに加えて、[Office 365 の URL と IP アドレスの範囲](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)に記載されている Teams 用の TCP ポートと IP アドレスを開いていることを確認してください。
+1. (Microsoft 365 または Office 365 に接続できるように) すべての場所にインターネット アクセスがありますか? 通常の Web トラフィックに加えて、[Office 365 の URL と IP アドレスの範囲](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)に記載されている Teams 用の TCP ポートと IP アドレスを開いていることを確認してください。
 
     > [!IMPORTANT]
     > オンプレミスまたはオンラインのいずれかで Skype for Business と連携する必要がある場合は、追加の DNS レコードを構成する必要があります。
@@ -40,14 +40,14 @@ ms.locfileid: "65059298"
     >|DNS レコード  |サービス  |Protocol  |Priority  |Weight  |Port  |Target  |
     >|---------|---------|---------|---------|---------|---------|---------|
     >|SRV     |sipfederationtls     |TCP     |100     |1     |5061     |sipfed.online.lync.com     |
-    
-2.  Microsoft 365 または Office 365 の検証済みドメイン (たとえば、contoso.com) はありますか?
-    
+
+2. Microsoft 365 または Office 365 の検証済みドメイン (たとえば、contoso.com) はありますか?
+
     - 組織が Microsoft 365 または Office 365 を展開していない場合は、「[概要](/microsoft-365/admin/admin-overview/get-started-with-office-365)」を参照してください。
     - 組織が Microsoft 365 または Office 365 の検証済みドメインを追加または構成していない場合は、「[ドメインに関する FAQ](/microsoft-365/admin/setup/domains-faq)」を参照してください。
 
-3.  組織は Exchange Online と SharePoint Online を展開していますか?
-    
+3. 組織は Exchange Online と SharePoint Online を展開していますか?
+
     - 組織で Exchange Online が導入されていない場合は、「[Exchange と Microsoft Teams の連携](exchange-teams-interact.md)」をご覧ください。
     - 組織で SharePoint Online が導入されていない場合は、「[Microsoft Teams との SharePoint Online と OneDrive for Business の連携](sharepoint-onedrive-interact.md)」をご覧ください。
 
@@ -55,12 +55,12 @@ ms.locfileid: "65059298"
 
 > [!IMPORTANT]
 > **教育機関の場合**: 組織が教育機関であり、学生情報システム (SIS) を使用している場合は、Teams を展開する前に [学校データ同期を展開](/schooldatasync/)します。
->  
+>
 > **オンプレミスの Skypefor Business Server の実行**: 組織でオンプレミスの Skype for Business Server (または Lync Server) を実行している場合、オンプレミスのディレクトリと Microsoft 365 または Office 365 を同期するよう [Azure AD Connect を構成](/skypeforbusiness/hybrid/configure-azure-ad-connect)する必要があります。
 
-### <a name="best-practice-monitor-your-network-using-cqd-and-call-analytics"></a>ベスト プラクティス: CQD と通話分析を使用してネットワークを監視する 
+### <a name="best-practice-monitor-your-network-using-cqd-and-call-analytics"></a>ベスト プラクティス: CQD と通話分析を使用してネットワークを監視する
 
-[通話品質ダッシュボード (CQD)](turning-on-and-using-call-quality-dashboard.md) を使用して、Teams 内の通話と会議の品質に関する分析情報を取得します。 CQD は、品質、信頼性、およびユーザー エクスペリエンスを注意深く監視して、ネットワークを最適化するのに役立ちます。 CQD は、全体的なパターンが明らかになる可能性のある組織全体の集約テレメトリを調べます。これにより、問題を特定し、修復を計画できます。 さらに、CQD は、全体的な品質、信頼性、およびユーザー エクスペリエンスに関する分析情報を提供する豊富なメトリックス レポートを提供します。 
+[通話品質ダッシュボード (CQD)](turning-on-and-using-call-quality-dashboard.md) を使用して、Teams 内の通話と会議の品質に関する分析情報を取得します。 CQD は、品質、信頼性、およびユーザー エクスペリエンスを注意深く監視して、ネットワークを最適化するのに役立ちます。 CQD は、全体的なパターンが明らかになる可能性のある組織全体の集約テレメトリを調べます。これにより、問題を特定し、修復を計画できます。 さらに、CQD は、全体的な品質、信頼性、およびユーザー エクスペリエンスに関する分析情報を提供する豊富なメトリックス レポートを提供します。
 
 [通話分析](set-up-call-analytics.md)を使用して、個々のユーザーの通話と会議の問題を調査します。
 
@@ -70,9 +70,9 @@ ms.locfileid: "65059298"
 
 次の場合は、追加のネットワーク最適化を行うことをお勧めします。
 
-  - Teams の実行速度が遅い (帯域幅が不足している可能性があります)
-  - 通話が途切れ続ける (ファイアウォールまたはプロキシ ブロッカーが原因である可能性があります)
-  - 通話が静的で途切れている、または音声がロボットのように聞こえる (ジッターまたはパケット損失の可能性があります)
+- Teams の実行速度が遅い (帯域幅が不足している可能性があります)
+- 通話が途切れ続ける (ファイアウォールまたはプロキシ ブロッカーが原因である可能性があります)
+- 通話が静的で途切れている、または音声がロボットのように聞こえる (ジッターまたはパケット損失の可能性があります)
 
 ネットワーク障害を特定して修正するためのガイダンスを含む、ネットワーク最適化の詳細については、「[Microsoft 365 および Office 365 ネットワーク接続の原則](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles)」をご確認ください。
 
@@ -117,9 +117,9 @@ ms.locfileid: "65059298"
 <td><p>一般に<a href="/windows/security/identity-protection/vpn/vpn-routing">スプリット トンネル VPN</a> と呼ばれる、仮想プライベート ネットワーク (VPN) をバイパスする Teams トラフィックの代替パスを提供することをお勧めします。 スプリット トンネリングとは、Microsoft 365 または Office 365 のトラフィックが VPN を通過せず、代わりに Microsoft 365 または Office 365 に直接送信されることを意味します。 VPN をバイパスすると、Teams の品質にプラスの影響があり、VPN デバイスと組織のネットワークからの負荷が軽減されます。 スプリット トンネル VPN を実装するには、VPN ベンダーにご相談ください。</p>
 <p>VPN をバイパスすることをお勧めするその他の理由:
 <ul>
-<li><p>VPN は通常、リアルタイム メディアをサポートするように設計または構成されていません。</p></li> 
-<li><p>一部の VPN は、UDP (Teams に必要) をサポートしていない場合もあります。</p></li> 
-<li><p>また VPN は、既に暗号化されているメディア トラフィックの上に、暗号化の追加レイヤーを導入することもあります。</p></li> 
+<li><p>VPN は通常、リアルタイム メディアをサポートするように設計または構成されていません。</p></li>
+<li><p>一部の VPN は、UDP (Teams に必要) をサポートしていない場合もあります。</p></li>
+<li><p>また VPN は、既に暗号化されているメディア トラフィックの上に、暗号化の追加レイヤーを導入することもあります。</p></li>
 <li><p>VPN デバイスを介したヘアピン型トラフィックが原因で、Teams への接続が効率的ではない可能性があります。</p></li></td>
 </tr>
 <tr class="odd">
@@ -153,7 +153,7 @@ Teams は、ネットワークの状態に関係なく、最高のオーディ�
       **モダリティ**
    :::column-end:::
    :::column span="3":::
-      **帯域幅の要件 (ビットレート KB/秒 上り/下り)**    
+      **帯域幅の要件 (ビットレート KB/秒 上り/下り)**
    :::column-end:::
 :::row-end:::
 :::row:::
@@ -304,13 +304,13 @@ Teams は、ネットワークの状態に関係なく、最高のオーディ�
 
 **最小**、**推奨**、および **最高のパフォーマンス** の帯域幅の要件は、エンドポイントごとの使用状況に基づきます。 一般には、コンピューター デバイスやモバイル デバイスなどのユーザーごとに 1 つのエンドポイントがあります。 ただし、ユーザーがコンピューター *と* モバイル デバイスの *両方* で Teams 会議に参加した場合は、2 つのエンドポイントがそのユーザーに関連付けられます。
 
-- ビデオ通話の **最小** 帯域幅要件は、最大 240p の解像度で、画面共通コンテンツのフレーム レートは Adaptive 1.875 から 7.5fps で、Together モードのギャラリー ビデオは最大 540p 解像度です。  
+- ビデオ通話の **最小** 帯域幅要件は、最大 240p の解像度で、画面共通コンテンツのフレーム レートは Adaptive 1.875 から 7.5fps で、Together モードのギャラリー ビデオは最大 540p 解像度です。
 
-- ビデオ通話の **推奨** 帯域幅要件は、最大 1080p の解像度 <sup>\*</sup>で、画面共通コンテンツのフレーム レートは Adaptive 7.5 から 30fps で、Together モードのギャラリー ビデオは最大 1080p 解像度 <sup>\*</sup>です。  
+- ビデオ通話の **推奨** 帯域幅要件は、最大 1080p の解像度 <sup>\*</sup>で、画面共通コンテンツのフレーム レートは Adaptive 7.5 から 30fps で、Together モードのギャラリー ビデオは最大 1080p 解像度 <sup>\*</sup>です。
 
 - **最高のパフォーマンス** ガイダンスでは、大規模な出席者の会議向けのハイファイ ビデオ、高損失環境で、かつ画面共有フレーム レートが Adaptive 15 から 30fps の高モーション コンテンツを使用することができます。
 
-<sup>\*</sup>最大 1080p の画質を想定していても、ネットワーク状態に応じて、ビデオ解像度や品質が適宜最適化されます。  
+<sup>\*</sup>最大 1080p の画質を想定していても、ネットワーク状態に応じて、ビデオ解像度や品質が適宜最適化されます。
 
 ## <a name="related-topics"></a>関連トピック
 

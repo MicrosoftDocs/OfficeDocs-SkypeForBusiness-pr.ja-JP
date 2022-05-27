@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: 電話システムで保留音機能を管理する方法について説明します。
-ms.openlocfilehash: 4899ffd2a3b6bfda80164ca2df4a5460a2b005e2
-ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
+ms.openlocfilehash: 3f5121e72436966a82b38917453bcd21d8efa10f
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "65624238"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674419"
 ---
 # <a name="music-on-hold"></a>保留音
 
@@ -36,11 +36,11 @@ Microsoft Teams通話シナリオで提供される既定の音楽には、組�
 
 保留音を構成するには:
 
-1.  Teams管理センターの左側のナビゲーションで、**Voice >通話ポリシー** に移動します。
+1. Teams管理センターの左側のナビゲーションで、**Voice >通話ポリシー** に移動します。
 
-2.  [ **ポリシーの管理** ] タブで、既存のポリシーのいずれかを選択するか、新しいポリシーを作成します。
+2. [ **ポリシーの管理** ] タブで、既存のポリシーのいずれかを選択するか、新しいポリシーを作成します。
 
-3.  [ **PSTN 発信者の保留音** ] フィールドで、ドロップダウン メニューで **[有効]** を選択します。
+3. [ **PSTN 発信者の保留音** ] フィールドで、ドロップダウン メニューで **[有効]** を選択します。
 
 Teams PowerShell モジュールを使用して保留音を構成することもできます。 TeamsCallingPolicy で、MusicOnHoldEnabledType パラメーターを Enabled に変更し、そのポリシー インスタンスを 1 人以上のユーザーに付与します。
 
@@ -57,7 +57,6 @@ Teams ユーザーが保留音が無効に設定されたTeams通話ポリシー
 保留のカスタムミュージックを構成するには、PowerShell モジュール 3.0.0 以降で PowerShell コマンドレット New/Get/Set/Grant/Remove-CsTeamsCallHoldPolicy および Import/Get/Remove/Export-CsOnlineAudioFile Teams使用します。
 
 サポートされているオーディオ形式と最大ファイル サイズについては、「[Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)」を参照してください。
-
 
 1. Teams通話ポリシーで、Teams ユーザーが PSTN 発信者の保留音を有効に設定していることを確認します。 
 
@@ -104,7 +103,6 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 
 次の表は、保留音と保留音のカスタム音楽をサポートするクライアントとデバイスの機能を示しています。 Microsoft は引き続き機能サポートを追加しているため、多くの場合、追加の可用性を確認してください。
 
-
 | 機能 | デスクトップ <br> Windows/Mac OS | ブラウザー | モバイル <br> iOS | モバイル <br> Android | Teams 電話 |
 | :------------| :------- | :------- | :------- | :------- | :------- |
 | 1:1 PSTN 通話を保留する | -保留音<br>-Custom Music on Hold | -保留音<br>-Custom Music on Hold | -保留音<br>-Custom Music on Hold | -保留音<br>-Custom Music on Hold | -保留音<br>-Custom Music on Hold |
@@ -147,4 +145,3 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 - [Grant-CsTeamsCallHoldPolicy](/powershell/module/skype/grant-csteamscallholdpolicy)
 
 - [Remove-CsTeamsCallHoldPolicy](/powershell/module/skype/remove-csteamscallholdpolicy)
-

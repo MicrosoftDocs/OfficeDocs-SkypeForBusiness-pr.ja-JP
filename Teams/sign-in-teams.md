@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a00561f10e78a18acc146df4ed8a76b103c937c9
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: b6fb93bf7f8e3278ba4fba16604769c6f8f10e36
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514568"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681608"
 ---
 # <a name="sign-in-to-microsoft-teams"></a>Microsoft Teams にサイン インする
 
@@ -84,7 +84,7 @@ IOS と Android の Teams では、複数の仕事用または学校用、およ
 
 ## <a name="restrict-sign-in-to-teams"></a>Teams へのサイン インを制限する
 
-組織は、管理されたデバイスで組織が承認したアプリケーションを使用する方法を制限しようとする場合があります。たとえば、学生や従業員が他の組織のデータにアクセスするのを制限したり、組織が承認したアプリを個人で使用するのを制限する場合があります。このような制限は、Teams アプリケーションが認識可能なデバイスポリシーを設定することで、導入することができます。
+組織は、組織が承認したアプリケーションを管理されたデバイで使用する方法を制限しようとする場合があります。たとえば、学生や従業員が他の組織のデータにアクセスするのを制限したり、組織が承認したアプリを個人の目的で使用するのを制限できるようにする場合があります。 これらの制限は、Teams アプリケーションが認識するデバイスポリシーを設定することによって設定できます。
 
 ### <a name="how-to-restrict-sign-in-on-mobile-devices"></a>モバイル デバイスでのサイン インを制限する方法
 

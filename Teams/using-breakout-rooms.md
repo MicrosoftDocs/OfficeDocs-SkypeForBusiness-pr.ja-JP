@@ -11,12 +11,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: エンド ユーザーは、Microsoft Teamsでブレークアウト ルームを使用する方法を学習できます
-ms.openlocfilehash: 77646dad78459b108f39803bb4927d849bce703f92e36c832d8606dbc3e15e94
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 308f07c071f6a88b3de9043ca986896dbabb08fc
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345116"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681418"
 ---
 # <a name="using-breakout-rooms-in-microsoft-teams"></a>Microsoft Teamsでのブレークアウト ルームの使用
 

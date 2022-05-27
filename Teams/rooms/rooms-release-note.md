@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理者は、Microsoft Teams Rooms の累積的な改善リストである Microsoft Teams Rooms のリリース ノートを参照できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f91c286f08046d1a521d3758f1fc297bf2aa0d59
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: 03a23ecb47fb0efca19ce3a7085a1fcc41b80dc3
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65187023"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674199"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams Roomsのリリース ノート
 
@@ -95,9 +95,9 @@ Teams Roomsは、モダン ライフサイクル ポリシーによって管理�
 
 この更新プログラムで導入されるもの:
 - IT 管理者は、TEAMS ルーム デバイスを登録して、XML 設定を使用してパブリック プレビュー機能を受け取ることができます。 登録すると、デバイスはベータ機能の受信を開始します。 ベータ テストに行くすべての機能は[、Microsoft Teamsパブリック プレビューで発表されます - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview) <sup>1,2</sup>  
-- IT 管理者は、FRONT of Room ディスプレイの解像度を設定し、XML 設定を使用してリモートでスケーリング<sup>することができます2</sup>
-- IT 管理者は、XML 設定を使用して Microsoft ノイズ抑制を無効にすることができます<sup>3</sup> 
-- IT 管理者は、レジストリ キーの設定 <sup>4</sup> を使用して、デバイス上のダウンロード フォルダーのクリーンアップをオーバーライドできます
+- IT 管理者は、FRONT of Room ディスプレイの解像度を設定し、XML 設定<sup>2</sup> を使用してリモートでスケーリングできます
+- IT 管理者は、XML 設定<sup>3</sup> を使用して Microsoft ノイズ抑制を無効にすることができます 
+- IT 管理者は、レジストリ キー設定<sup>4</sup> を使用してデバイス上のダウンロード フォルダーのクリーンアップをオーバーライドできます
 - ユーザーが別のクラウドでホストされているTeams会議に参加できるようにする (つまり、GCCH のお客様はコマーシャル クラウドでホストされているTeams会議に参加できます。その逆も可能) 
 - Teamsルームで、タッチ ディスプレイを備えたTeamsルームのセキュリティ対策として、PowerPoint Liveの URL からのエッジ ブラウザーの起動がブロックされるようになりました 
 - ユーザーがルームにユーザーを招待するための手順を追加するために、今すぐ会議のエクスペリエンスが向上しました 
@@ -125,21 +125,21 @@ Teams Roomsは、モダン ライフサイクル ポリシーによって管理�
 
 この更新プログラムで導入されるもの:
 - Windows <sup>1</sup> の MRT のフロント行レイアウト (プレビュー) 
-- フロント行レイアウトを既定として設定する管理者設定  
-- 今すぐ会議を行い、アプリの更新をTeamsのみに呼び出します。既定のクライアント モードTeams <sup>1,2</sup>
-- Teams会議で複数のビデオ カメラを切り替える <sup>1</sup> 
+- front row layout を既定として設定する管理設定  
+- 今すぐ会議を行い、Teamsのみのアプリの更新を呼び出します。既定のクライアント モード<sup>1,2</sup> Teams
+- Teams会議<sup>1</sup> で複数のビデオ カメラを切り替える 
 - 既定のビデオ カメラ設定 
 - CORTANA、MRT コンソールでプッシュツートーク アイコンを更新する 
 - Room Standard および プレミアム SKU に 1 ライセンスを含めるAzure AD Premium 
-- AAD条件付きアクセス ポリシーのサポート <sup>3</sup> 
+- AAD 条件付きアクセス ポリシーでは<sup>、3 が</sup>サポートされます 
 - OOBE で音声アクティブ化が既定で有効になっているCortana
-- リモート PTZ コントロールのサポート <sup>4</sup>
+- リモート PTZ コントロールは<sup>4 をサポートしています</sup>
 
 > <sup>1</sup> これらの機能は、Teams Web クライアントを使用してロールアウトされ、今後数週間でロールアウトが完了します。 [詳細については、Teams更新プログラムの](../teams-client-update.md)詳細をご覧ください。
 > 
 > Microsoft Teamsでのみ実行されているWindowsの <sup>2 つの</sup>Teams ルーム、またはSkype for BusinessとMicrosoft Teams (既定値) は新しい Meet and Call エクスペリエンスで更新されていますが、他のモードはこの更新の影響を受けません。
 > 
-> <sup>3</sup> Teams Roomsの[条件付きアクセス ポリシー AAD](../rooms/rooms-authentication.md#azure-ad-conditional-access)設定に関する追加の詳細を参照してください。
+> <sup>3</sup> Teams Roomsの [AAD 条件付きアクセス](../rooms/rooms-authentication.md#azure-ad-conditional-access) ポリシーの設定に関する追加の詳細を参照してください。
 > 
 > <sup>4</sup> この機能では、IT 管理者がデスクトップ クライアントのリモート PTZ コントロール アプリTeams構成する必要があります。
 > 
@@ -352,7 +352,7 @@ Teams Roomsは、モダン ライフサイクル ポリシーによって管理�
 - テーマの更新: 部屋のディスプレイの前面にカスタム背景イメージのみを保持し、コンソールの背景をニュートラルな色にして、コンソール UI コントロールが色のコントラスト (アクセシビリティの要件) を満たしていることを確認する
 - Teams 通話/会議で Microsoft Teams PC、Web、モバイル クライアントに一貫性のあるエクスペリエンスを提供するための会議中通話制御用のユニバーサル バー<sup>1</sup>
 - Teams 通話/会議後の通話品質フィードバックの評価<sup>1</sup>
-- PC/Web/Mobile Teams <sup>client1</sup> <sup>2</sup> から共有されている場合、ルームディスプレイの前面Microsoft Teams Rooms Microsoft Whiteboardを受信/レンダリングする
+- PC/Web/Mobile Teams クライアント<sup>1</sup> <sup>2</sup> から共有された場合、ルームディスプレイの前面Microsoft Teams Rooms Microsoft Whiteboardを受信/レンダリングする
 - Microsoft Teams Rooms クライアントに伴う互換性の問題が原因で、Windows 10 バージョン 1809 のアップグレードに対するサポートが削除。 Windows 10 バージョン 19H1 のサポートは今後のリリースで追加されます
 
 <sup>1</sup> Microsoft Teams サービスが Teams リングを使用して提供されます。 この機能は 4.0.105.0 クライアントの更新の前後に使用可能になります

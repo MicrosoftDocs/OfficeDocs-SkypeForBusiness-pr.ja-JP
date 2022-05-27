@@ -1,5 +1,5 @@
 ---
-title: 発信通話の制限 - 電話会議& PSTN 通話
+title: 発信通話の制限 - PSTN 通話を電話会議 &する
 ms.reviewer: ''
 ms.author: heidip
 author: MicrosoftHeidi
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 管理者は、ユーザーが行うことができる電話会議とエンド ユーザーの PSTN 通話の種類を制御できます。
-ms.openlocfilehash: 39a51c1fdf6bbb7597b255fc5879a4d7a77be2db
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: fd7dc24d7a920e5fb2c151600c3a6604381044e6
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055177"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674809"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>電話会議およびユーザーの PSTN 通話に対する発信通話の制限ポリシー
 
@@ -39,7 +39,7 @@ ms.locfileid: "62055177"
 |電話会議 PSTN 通話|送信の種類を制限します </br>内から許可されている呼び出し </br>ユーザーが編成した会議。|任意の宛先 (既定値)</br>開催者と同じ国または地域 </br> [ゾーン A の国または地域](audio-conferencing-zones.md) のみ </br>許可しない|
 |エンド ユーザー PSTN 通話|呼び出しの種類を制限します </br>ユーザーが作成できる。|国際および国内 (既定値)</br>国内</br>なし|
 
-ゾーン A と見なされる国と地域については、「 [電話会議の国と地域のゾーン](audio-conferencing-zones.md)」を参照してください。
+ゾーン A と見なされる国と地域については、「[電話会議の国と地域のゾーン」を](audio-conferencing-zones.md)参照してください。
 
    > [!NOTE]
    > ダイヤルされた番号が、会議の開催者 (電話会議の場合) またはエンド ユーザー (エンド ユーザー PSTN 通話の場合) にMicrosoft 365またはOffice 365が設定されているのと同じ国にある場合、通話は国内と見なされます。
@@ -53,7 +53,7 @@ ms.locfileid: "62055177"
 
 1. 左側のナビゲーションで [ **ユーザー**] を選択し、使用可能なユーザーの一覧からユーザーの表示名を選択します。
 
-2. 次に **、電話会議** に移動し、[ **編集]** を選択します。
+2. 次に **電話会議** に移動し、[**編集]** を選択します。
 
 3. [ **会議からのダイヤルアウト**] で、必要なダイヤルアウト制限オプションを選択します。
 
@@ -74,7 +74,7 @@ Grant-CsDialoutPolicy -Identity <username> -PolicyName <policy name>
 **次のコマンドレットを使用して、テナント レベルでポリシーを設定します**。
 
 ```powershell
-Grant-CsDialoutPolicy -PolicyName <policy name>  -Global 
+Grant-CsDialoutPolicy -PolicyName <policy name>  -Global 
 ```
 
 ダイヤルアウト ポリシーが割り当てられていないテナントのすべてのユーザーは、このポリシーを取得します。 他のユーザーは現在のポリシーのままです。

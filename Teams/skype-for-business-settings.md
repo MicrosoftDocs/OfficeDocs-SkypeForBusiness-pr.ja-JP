@@ -22,12 +22,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams管理センターでSkype for Business機能の設定を管理する方法について説明します。
-ms.openlocfilehash: 00f9f97b3276b3fb39792de0c8397848211a6338
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: f3c79e40d55319af9a45063893bed285140c6d7f
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62405939"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681338"
 ---
 # <a name="manage-skype-for-business-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams管理センターでSkype for Business設定を管理する
 
@@ -42,7 +42,7 @@ ms.locfileid: "62405939"
 > [!NOTE]
 > Skype for Business設定は、以前はMicrosoft Teams管理センターの **レガシ ポータル** にありました。 レガシ ポータルの廃止に伴い、Skype for Business管理のために、Teams管理センターのこれらの新しい場所に設定を移行しました。
 
-[Microsoft Teams管理センターでSkype for Business](/azure/active-directory/roles/permissions-reference)機能を管理するには、グローバル管理者またはSkype for Business管理者のAzure AD管理者ロールが割り当てられている必要があります。
+Microsoft Teams管理センターでSkype for Business機能を管理するには、グローバル管理者またはSkype for Business管理者の [Azure AD 管理者ロール](/azure/active-directory/roles/permissions-reference)が割り当てられている必要があります。
 
 ## <a name="manage-skype-for-business-settings-for-your-organization"></a>組織のSkype for Business設定を管理する
 
@@ -80,7 +80,7 @@ Microsoft Teams管理センターの左側のナビゲーションで、**組織
 既定では、組織内のSkype for Businessユーザーは、他のSkype for Business ユーザーのプレゼンス状態 (使用可能、ビジー、退席中など) を表示できます。 次のいずれかを選択して、Skype for Business ユーザーの存在を確認できるユーザーを設定します。
 
 - **プレゼンス情報を自動的に表示** する: ユーザーの **外部** または **ブロック** リストに追加されていない組織内のSkype for Businessユーザーは、そのユーザーのプレゼンスを確認できます。
-- **ユーザーの連絡先にのみプレゼンス情報を表示する: ユーザーの連絡先** リストに追加されていないユーザーの連絡先リスト内のSkype for Businessユーザーは、そのユーザーのプレゼンスを確認できます。 ユーザーは、設定 **ToolsOptions** に移動することで **、Skype for Business** > でこの設定 **を** > オーバーライドできます。
+- **ユーザーの連絡先にのみプレゼンス情報を表示する: ユーザーの連絡先** リストに追加されていないユーザーの連絡先リスト内のSkype for Businessユーザーは、そのユーザーのプレゼンスを確認できます。 ユーザーは、設定 **Tools****オプション** に移動することで **、Skype for Business** > でこの設定を > オーバーライドできます。
 
 #### <a name="mobile-notifications"></a>モバイル通知
 

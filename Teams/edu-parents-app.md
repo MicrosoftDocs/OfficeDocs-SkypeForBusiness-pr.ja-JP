@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams for Educationでの保護者の管理者セットアップ
+title: Microsoft Teams for Educationでの保護者の管理設定
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f08ddd68d036d18e4ea18073dd0711e32e0c91e
-ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
+ms.openlocfilehash: ccc69a07d523b046298643ad387e31e25138096f
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65393871"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676129"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Microsoft Teams for Educationで親接続を設定する
 
@@ -102,8 +102,8 @@ IT 管理者が保護者や教育者と親接続の使用を開始する方法�
 
 クラスの所有者は、次のことができます。
 
-1. 保護者のプロフィール カードを開き、省略記号と **ブロック ユーザー** を選択します。 
-2. 次に、チャットから保護者を削除します。 
+1. 保護者のプロフィール カードを開き、省略記号と **ブロック ユーザー** を選択します。
+2. 次に、チャットから保護者を削除します。
 
 ブロックされたユーザーは、クラスの所有者と追加のチャットを開始できません。
 

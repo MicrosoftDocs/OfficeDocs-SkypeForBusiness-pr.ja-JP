@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb13db7a7ebb5728913b58fb712ad86d851d469a
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 2a768424033ff300a079fc0b505d1e9ce32a970e
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62409830"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65682028"
 ---
 # <a name="share-to-teams-from-outlook"></a>OutlookからTeamsに共有する
 
@@ -43,9 +43,9 @@ Share to TeamsのOutlook アドインは、次の PowerShell コマンドレッ�
 > [!NOTE]
 > アドインを無効にできるのは、アドインがインストールされた後のみです。 テナント内のすべてのユーザーに対して無効化を強制する場合は、スクリプトを定期的に実行します。
 
-Share がTeamsに使用するOutlookのアドインを無効にするには、[ここで見つかったコマンドレット](/powershell/module/exchange/disable-app?view=exchange-ps)を実行します。 
+Share がTeamsに使用するOutlookのアドインを無効にするには、[ここで見つかったコマンドレット](/powershell/module/exchange/disable-app)を実行します。
 
-Share でTeamsに使用されるOutlookのアドインを有効にするには、[ここで見つかったコマンドレット](/powershell/module/exchange/enable-app?view=exchange-ps)を実行します。
+Share でTeamsに使用されるOutlookのアドインを有効にするには、[ここで見つかったコマンドレット](/powershell/module/exchange/enable-app)を実行します。
 
 ## <a name="browsers-and-single-sign-on"></a>ブラウザーとシングル サインオン
 
@@ -54,4 +54,4 @@ Outlook on the webクライアントとOutlookデスクトップ クライアン
 > [!IMPORTANT]
 > Teamsに共有するには、ユーザーのブラウザーに対してサード パーティの Cookie とローカル ストレージ アクセスの両方を有効にする必要があります。
 
-Share to Teamsではシングル サインオン (SSO) が使用されます。つまり、ユーザーは Share を使用してアドインを使用してTeamsするときに資格情報を指定する必要はありません。 既定では、Outlook on the webの SSO は URL をサポートhttps://outlook.office365.com/owa/extSSO.aspxし、https://outlook.office.com/owa/extSSO.aspx応答します。 バニティ ドメインの場合、管理者は適切なAzure Active Directory応答 URL を追加する必要があります。
+Share to Teamsではシングル サインオン (SSO) が使用されます。つまり、ユーザーは Share を使用してアドインを使用してTeamsするときに資格情報を指定する必要はありません。 既定では、Outlook on the webの SSO は URL をサポート<https://outlook.office365.com/owa/extSSO.aspx>し、<https://outlook.office.com/owa/extSSO.aspx>応答します。 バニティ ドメインの場合、管理者は適切なAzure Active Directory応答 URL を追加する必要があります。

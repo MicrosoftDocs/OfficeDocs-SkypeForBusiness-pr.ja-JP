@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: TRM の監査ログ。
 f1keywords: ''
-ms.openlocfilehash: bb002ad546553e906339b03ff7b36ff2ccce8506
-ms.sourcegitcommit: 848e462c4f0c94548d3f90f28fb1c69a9bce64be
+ms.openlocfilehash: 3681f50f0e15a7688a944c14e69907ba53dd2817
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "61620531"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676613"
 ---
 # <a name="audit-logging-in-the-teams-rooms-managed-service"></a>Teams Rooms マネージド サービスの監査ログ
 

@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: acolonna
 description: '[退席中] 状態または [応答不可] 状態のユーザーが、状態メッセージで別のユーザーを代理人として明示的に設定する方法について説明します。'
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fd1b11038d4dbd0f1ea773065628170d7f55a33c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 14f58861074ed8b9291ca725f60ff1612534f4dc
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596191"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674209"
 ---
 # <a name="message-delegation"></a>メッセージの委任
 
@@ -62,7 +62,7 @@ ms.locfileid: "58596191"
   
 メモが Skype for Business から設定されていることを視覚的に示すものはありません。
 
-Skype for Business の状態メモに文字数の制限は適用されていません。 Microsoft Teams は、Skype for Business からのメモ セットのうち最初の 280 文字のみを表示します。 メモの最後にある省略記号 (…) は省略されたことを示します。
+Skype for Business の状態メモに文字数の制限は適用されていません。 Microsoft Teams は、Skype for Business からのメモ セットのうち最初の 280 文字のみを表示します。 ノートの末尾にある省略記号 (...) は、切り捨てを示します。
   
 Skype for Business は、メモの有効期限をサポートしていません。
 

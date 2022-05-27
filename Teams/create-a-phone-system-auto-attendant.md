@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft Teamsの大規模な組織の自動応答を設定してテストする方法について説明します。
-ms.openlocfilehash: a0b50a83e54059dca68562c2140ece6253448dd0
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 5f4b4f21f2e1cca8c8bbc350541cdd861b1bda3f
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059098"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674369"
 ---
 # <a name="set-up-an-auto-attendant"></a>自動応答を設定する
 
@@ -130,9 +130,9 @@ ms.locfileid: "65059098"
 
 ダイヤルバイ拡張機能を使用できるようにするユーザーは、Active Directory で定義されている次の電話属性の一部として拡張機能を指定する必要があります (Azure AD Connectを使用して同期)、またはAzure Active Directory。 (詳細については、「 [ユーザーを個別または一括で追加](/microsoft-365/admin/add-users/add-users) する」を参照してください)。
 
-- OfficePhone/PhoneNumber (AD およびAzure AD)
+- OfficePhone/PhoneNumber (AD と Azure AD)
 - HomePhone (AD)
-- Mobile/MobilePhone (AD とAzure AD)
+- Mobile/MobilePhone (AD と Azure AD)
 - OtherTelephone (AD)
 
 ユーザーの電話番号フィールドに内線番号を入力するために必要な形式は、次のいずれかの形式になります。

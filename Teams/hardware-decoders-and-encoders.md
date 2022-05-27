@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8d483f914c486c9912f608f16de5ab421d0fa47e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 282ae2aa177fba42aa35d132f7c5c5d540696526
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632121"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675129"
 ---
 # <a name="hardware-decoder-and-encoder-driver-recommendations"></a>ハードウェア デコーダー/エンコーダー ドライバーの推奨事項
 

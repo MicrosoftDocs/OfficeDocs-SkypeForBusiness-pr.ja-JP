@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d061fa0cda1620980e7da68a345fc13acb6fc12a
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 67be704ae81379a122a9c205305da1c4d4a5dcbd
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "62362983"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675649"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>遠隔学習向けに Microsoft Teams の使用を開始する。
 
@@ -106,12 +106,12 @@ Teams ポリシーにより、特定のユーザーまたはユーザーのグ�
 
 ### <a name="create-class-teams-for-secure-classroom-use"></a>授業で安全に使用できる、クラス チームを作成する
 
-Microsoft Teams for Education は、教育機関向けに  [特別なチームタイプ](https://support.office.com/article/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67) を提供しています。 [クラスチームタイプ](https://support.office.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)は教室での使用を目的として設計されており、教室のニーズを次の特定の機能でサポートします。  
+Microsoft Teams for Education では、教育機関向けの [特別なチーム タイプ](https://support.office.com/article/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67) が提供されています。 [クラスチームタイプ](https://support.office.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)は教室での使用を目的として設計されており、教室のニーズを次の特定の機能でサポートします。  
 
 - 宿題
 - 成績
 - OneNote クラスルームノートブック  
-- 学生向けの読み取り専用コンテンツを保護するための[授業で使用する教材用フォルダー](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988) 
+- 学生向けの読み取り専用コンテンツを保護するための授業で使用する [教材用フォルダー](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988)
 - 各教室の学生の関与、課題、幸福に関するリアルタイム データを提供するための [Insights](./class-insights.md)。 
 - 生徒が追加される前に教職員がクラスを設定できるようにするための[教職員の早期アクセス](https://support.microsoft.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78) 
 - 授業妨害をする学生をミュートする機能やその他の特別な権限  
@@ -127,7 +127,7 @@ Microsoft Teams for Education は、教育機関向けに  [特別なチーム
 
 #### <a name="automatic-team-creation-using-sds"></a>SDS を使用したチームの自動作成
 
-チーム作成を自動化することで、IT 管理者と教職員の作業時間を短縮します。 この機能によって、教職員はすべてのクラス チームを作成し、サインイン時にセットアップできるようになります。 [School Data Sync（SDS）](/SchoolDataSync)は、Office 365 Education の無料ツールで、教育機関の記録システム（学生情報システム（SIS）や学習管理システム（LMS）など）からデータを読み取ります。 SDS はデータを使用して、Office 365 のセットアップをさまざまな方法で強化します。例えば、クラスチームを一括で作成したり、情報システムと常に同期して、講師や学生のメンバーシップをクラス登録の変更に応じて更新します。 SDS は、任意の記録システムからデータをインポートでき、世界中の[SIS ベンダー](/schooldatasync/frequently-asked-questions#what-sismis-vendors-does-school-data-sync-support)への組み込みコネクタを備えています。 推奨する SDS の利点。  
+チーム作成を自動化することで、IT 管理者と教職員の作業時間を短縮します。 この機能によって、教職員はすべてのクラス チームを作成し、サインイン時にセットアップできるようになります。 [School Data Sync（SDS）](/SchoolDataSync)は、Office 365 Education の無料ツールで、教育機関の記録システム（学生情報システム（SIS）や学習管理システム（LMS）など）からデータを読み取ります。 SDS はデータを使用して、Office 365 のセットアップをさまざまな方法で強化します。例えば、クラスチームを一括で作成したり、情報システムと常に同期して、講師や学生のメンバーシップをクラス登録の変更に応じて更新します。 SDS は、任意の記録システムからデータをインポートでき、世界中の [SIS ベンダー](/schooldatasync/frequently-asked-questions#what-sismis-vendors-does-school-data-sync-support) への組み込みコネクタを備えています。 推奨する SDS の利点。  
 
 ###### <a name="benefits"></a>利点
 
@@ -241,7 +241,7 @@ PowerShell では、チームやチャネルを作成するためにスクリプ
 
 ##### <a name="how-do-i-create-class-teams-that-allow-educators-early-access-to-set-up-a-team-before-admitting-students"></a>学生にアクセス許可を付与する前に、教職員が早期アクセスしてクラス チームを作成するにはどうすればいいですか?
 
-グループから作成されるチーム (SDS、教職員主導、または Graph API) では、既定で自動的に早期アクセス チームを作成します。 Graph API を使用して自身の早期アクセス チームを作成するには、[クラスを作成](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true)して、[グループからチームを作成](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group&preserve-view=true)する必要があります。
+グループから作成されるチーム (SDS、教職員主導、または Graph API) では、既定で自動的に早期アクセス チームを作成します。 Graph API を使用して自身の早期アクセス チームを作成するには、[クラスを作成](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true) して、[グループからチームを作成する](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group&preserve-view=true) 必要があります。
 
 ##### <a name="how-do-i-check-if-a-class-is-activated"></a>クラスがアクティブ化されているか確認するにはどうすればいいですか?
 
@@ -249,7 +249,7 @@ PowerShell では、チームやチャネルを作成するためにスクリプ
 
 ##### <a name="how-do-i-activate-a-class-for-an-educator"></a>教職員用のクラスをアクティブ化するにはどうすればいいですか?
 
-[Team API の更新](/graph/api/team-update?tabs=http&view=graph-rest-beta&preserve-view=true) を使用して、```isMembershipLimitedToOwners```プロパティを False に設定すると、教職員の代わりにチームがアクティブ化します。 チームをアクティブ化すると、元に戻すことができないことに注意してください。
+[Team API の更新](/graph/api/team-update?tabs=http&view=graph-rest-beta&preserve-view=true) を使用して、```isMembershipLimitedToOwners``` プロパティを False に設定すると、教師の代わりにチームがアクティブ化します。 チームをアクティブ化すると、元に戻すことができないことに注意してください。
 
 ### <a name="create-staff-teams-for-staff-communication-and-collaboration"></a>職員の通信と共同作業用にスタッフ チームを作成する
 

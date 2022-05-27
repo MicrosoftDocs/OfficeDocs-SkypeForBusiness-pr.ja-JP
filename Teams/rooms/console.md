@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: この記事では、Microsoft Teams Rooms のコンソールとその周辺機器の設定および構成方法を説明します。
-ms.openlocfilehash: c13a247f2ce9d7fee7571f7f3a202310b2ce8b41
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: 9c1358b5e9561f197dc1142c40144646b5a11ce4
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514722"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676389"
 ---
 # <a name="build-a-microsoft-teams-rooms-image"></a>Microsoft Teams Rooms イメージをビルドする
 
@@ -212,7 +212,7 @@ Microsoft Teams Roomsをドメインに参加させることができます。 �
 3. Powershell に次のコマンドを入力します。
     
    ```PowerShell
-   Add-Computer -DomainName <Fully qualified domain> -OUPath "OU=<Child OU>, … ,OU=<Top level OU>,DC=<child domain>,…,DC=<top level domain>"
+   Add-Computer -DomainName <Fully qualified domain> -OUPath "OU=<Child OU>, ... ,OU=<Top level OU>,DC=<child domain>,...,DC=<top level domain>"
    ```
 
 たとえば、完全修飾ドメインが redmond.corp.microsoft.com で、Microsoft Teams Rooms のコンソールを "Resources" OU の子である "Microsoft Teams Rooms" OU に配置する場合、次のコマンドを実行します。

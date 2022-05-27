@@ -17,12 +17,12 @@ description: 電子情報開示を実行する必要がある場合 (法的手�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 207164f3e16768b7643d2bba2177d52d6b3940f3
-ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
+ms.openlocfilehash: a89f2ac8fc94505ec0d97bb426bc8fc92901aa52
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2022
-ms.locfileid: "65031922"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675309"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Microsoft Teams のコンテンツに対して電子情報開示の調査を行う
 
@@ -36,27 +36,26 @@ ms.locfileid: "65031922"
 
 すべてのTeamsコンテンツが eDiscoverable であるわけではありません。 次の表は、Microsoft 電子情報開示ツールを使用して検索できるコンテンツ タイプを示しています。
 
-| コンテンツの種類 | eDiscoverable | メモ |
-|:--- | :--- |:--- |
-|録音 | いいえ | |
+|コンテンツの種類|eDiscoverable|メモ|
+|---|---|---|
+|録音|いいえ||
 |カードコンテンツ|Yes|詳細については、「 [カード コンテンツの検索](#search-for-card-content) 」を参照してください。|
-|チャット リンク | Yes | |
-|チャット メッセージ | Yes |これには、標準Teams チャネルのコンテンツ、1 対 1 のチャット、1 対 1 のグループ チャット、ゲスト ユーザー参加者とのチャットが含まれます。  |
-|コード スニペット | いいえ | |
-|編集されたメッセージ | Yes | ユーザーが保留中の場合は、以前のバージョンの編集済みメッセージも保持されます。 |
-|絵文字、GIF、ステッカー | Yes | |
-|フィード通知 | いいえ | |
-|インライン イメージ | Yes | |
-|Loop コンポーネント| Yes|ループ コンポーネント内のコンテンツは、ループ コンポーネントを送信するユーザーのOneDrive for Business アカウントに格納されている .fluid ファイルに保存されます。 つまり、ループ コンポーネント内のコンテンツを検索するときに、データ ソースとしてOneDriveを含める必要があります。 |
-|IM 会話の会議 | Yes | |
-|会議のメタデータ <sup>1</sup> | Yes |  |
-|チャネルの名前 | Yes | |
-|プライベートおよび共有チャネル チャット メッセージ | Yes | |
-|引用符 | Yes | 引用符で囲まれたコンテンツは検索可能です。 ただし、検索結果は、コンテンツが引用符で囲まれたことを示すわけではありません。 |
-|リアクション (いいね、ハート、その他の反応など) | いいえ | |
-|件名 | Yes | |
-|テーブル | Yes | |
-||||
+|チャット リンク|Yes||
+|チャット メッセージ|Yes|これには、標準Teams チャネルのコンテンツ、1 対 1 のチャット、1 対 1 のグループ チャット、ゲスト ユーザー参加者とのチャットが含まれます。|
+|コード スニペット|いいえ||
+|編集されたメッセージ|Yes|ユーザーが保留中の場合は、以前のバージョンの編集済みメッセージも保持されます。|
+|絵文字、GIF、ステッカー|Yes||
+|フィード通知|いいえ||
+|インライン イメージ|Yes||
+|Loop コンポーネント|Yes|ループ コンポーネント内のコンテンツは、ループ コンポーネントを送信するユーザーのOneDrive for Business アカウントに格納されている .fluid ファイルに保存されます。 つまり、ループ コンポーネント内のコンテンツを検索するときに、データ ソースとしてOneDriveを含める必要があります。|
+|IM 会話の会議|Yes||
+|会議メタデータ<sup>1</sup>|Yes||
+|チャネルの名前|Yes||
+|プライベートおよび共有チャネル チャット メッセージ|Yes||
+|引用符|Yes|引用符で囲まれたコンテンツは検索可能です。 ただし、検索結果は、コンテンツが引用符で囲まれたことを示すわけではありません。|
+|リアクション (いいね、ハート、その他の反応など)|いいえ||
+|件名|Yes||
+|テーブル|Yes||
 
 <sup>1</sup> 会議 (および通話) メタデータには、次のものが含まれます。
 
@@ -174,7 +173,7 @@ Microsoft Teamsデータは、Excel電子情報開示エクスポート出力に
 
 ゲスト ユーザーのコンテンツを検索するには:
 
-1. PowerShell のAzure ADにConnectします。 手順については、PowerShell でMicrosoft 365するConnectの「[Azure Active Directory PowerShell を使用したConnect](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)」セクションを参照してください。 前の記事の手順 1 と手順 2 を必ず完了してください。
+1. Azure AD PowerShell にConnectします。 手順については、PowerShell でMicrosoft 365するConnectの「[Azure Active Directory PowerShell を使用したConnect](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)」セクションを参照してください。 前の記事の手順 1 と手順 2 を必ず完了してください。
 
 2. Azure AD PowerShell に正常に接続したら、次のコマンドを実行して、組織内のすべてのゲスト ユーザーのユーザー プリンシパル名 (UPN) を表示します。 手順 4. で検索を作成するときは、ゲスト ユーザーの UPN を使用する必要があります。
 
@@ -207,7 +206,7 @@ Microsoft Teamsデータは、Excel電子情報開示エクスポート出力に
    Start-ComplianceSearch <search name>
    ```
 
-6. [Show **allContent search**] ([https://compliance.microsoft.com](https://compliance.microsoft.com)**AllContent** >  検索の表示) に移動してクリックします。
+6. [**すべての** > **コンテンツ検索** の [https://compliance.microsoft.com](https://compliance.microsoft.com)表示] に移動してクリックします。
 
 7. 検索の一覧で、手順 4. で作成した検索を選択してポップアップ ページを表示します。
 
@@ -234,11 +233,11 @@ Teams チャネル、1 対 1 チャット、および 1xN チャットでアプ�
 ![Teams チャネル メッセージ内のカード コンテンツ。](media/CardContentTeams.png)
 
 ### <a name="card-content-in-search-results"></a>検索結果のカード コンテンツ
-  
+
 ![コンテンツ検索の結果と同じカード コンテンツ。](media/CardContentEdiscoverySearchResults.png)
 
 > [!NOTE]
-> この時点で検索結果にカード コンテンツの画像 (前のスクリーンショットのチェックマークなど) を表示するには、(検索結果の表示に使用したのと同じブラウザー セッションの別のタブでhttps://teams.microsoft.com)) Teamsにサインインする必要があります。 それ以外の場合は、画像プレースホルダーが表示されます。
+> この時点で検索結果にカード コンテンツの画像 (前のスクリーンショットのチェックマークなど) を表示するには、検索結果の表示に使用するのと同じブラウザー セッションの別のタブでTeamsに<https://teams.microsoft.com>サインインする必要があります。 それ以外の場合は、画像プレースホルダーが表示されます。
 
 ## <a name="ediscovery-in-federated-and-non-federated-environments"></a>フェデレーション環境と非フェデレーション環境での電子情報開示
 

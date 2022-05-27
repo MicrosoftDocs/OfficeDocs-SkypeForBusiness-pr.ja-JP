@@ -12,61 +12,61 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 072b4bdc-0f1e-4fce-a41e-5c60d24556d5
-description: 次の表に、Skype for Business クラウド コネクタ エディションコマンドレットの概要と詳細へのリンクを示します。
-ms.openlocfilehash: 19fc33912075e7737a4fa7fc242e74dd1de92289
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 次の表に、Skype for Business クラウド コネクタ エディション コマンドレットの簡単な説明と詳細情報へのリンクを示します。
+ms.openlocfilehash: efe4a048e939b6491acc93b7ccd4717ffc9aca8b
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583731"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676169"
 ---
 # <a name="cloud-connector-cmdlet-reference"></a>クラウド コネクタ コマンドレットのリファレンス
- 
-> [!Important]
-> Cloud Connector Edition は、2021 年 7 月 31 日にオンライン版と共Skype for Business廃止されます。 組織がネットワーク にアップグレードしたらTeamsルーティングを使用してオンプレミスのテレフォニー ネットワークをネットワークに接続するTeams[説明します](/MicrosoftTeams/direct-routing-landing-page)。
 
-次の表に、Skype for Business クラウド コネクタ エディションコマンドレットの概要と詳細へのリンクを示します。
+> [!Important]
+> Cloud Connector Edition は、Skype for Business Online と共に 2021 年 7 月 31 日に廃止されます。 組織がTeamsにアップグレードしたら、[ダイレクト ルーティング](/MicrosoftTeams/direct-routing-landing-page)を使用してオンプレミステレフォニー ネットワークをTeamsに接続する方法について説明します。
+
+次の表に、Skype for Business クラウド コネクタ エディション コマンドレットの簡単な説明と詳細情報へのリンクを示します。
   
 > [!NOTE]
-> すべてのコマンドレットを Cloud Connector ホスト コンピューターで実行し、PowerShell セッションを管理者として実行する必要があります。 
+> Cloud Connector ホスト コンピューターですべてのコマンドレットを実行し、PowerShell セッションを管理者として実行する必要があります。 
   
-|**コマンドレット名**|**Description**|
-|:-----|:-----|
-|[Backup-CcCertificationAuthority](backup-cccertificationauthority.md) <br/> バージョン 1.4.2 以降  <br/> |証明機関サービスをファイルにバックアップし、サイト共有ディレクトリの CA フォルダーに保存します。     <br/> |
-|[Convert-CcIsoToVhdx](convert-ccisotovhdx.md) <br/> |R2 ISO ファイルから提供された顧客を使用して、基本仮想ハード ディスク ファイル (VHDX) Windows Server 2012作成します。 VHDX ファイルは、クラウド コネクタの展開中に使用されます。  <br/> |
-|[Enter-CcUpdate](enter-ccupdate.md) <br/> |クラウド コネクタ ホスト サーバーをメンテナンス モードにすることで、更新プロセス用に準備します。 アプライアンスは "ドレイン" です。つまり、既存のすべての呼び出しは完了しますが、新しい呼び出しは拒否されます。  <br/> |
-|[Exit-CcUpdate](exit-ccupdate.md) <br/> |Cloud Connector ホスト サーバーの更新メンテナンス モードを終了します。  <br/> |
-|[Export-CcConfiguration](export-ccconfiguration.md) <br/> | サーバー構成をSkype for Business クラウド コネクタ エディションホスト サーバー上のローカル ファイルにSkype for Business クラウド コネクタ エディションします。 <br/> |
-|[Export-CcConfigurationSampleFile](export-ccconfigurationsamplefile.md) <br/> |クラウド コネクタ のサンプル構成ファイル (.ini) をクラウド コネクタ アプライアンスのアプライアンス ディレクトリにエクスポートします。 展開に使用するファイルを変更して名前を変更できます。  <br/> |
-|[Export-CcRootCertificate](export-ccrootcertificate.md) <br/> バージョン 1.4.2 以降  <br/> |ルート CA 証明書をクラウド コネクタ ホスト サーバー上のローカル ファイルにエクスポートします。  <br/> |
-|[Get-CcApplianceDirectory](get-ccappliancedirectory.md) <br/> |クラウド コネクタ ホスト サーバー上の作業ディレクトリを取得します。 すべての展開ファイルは、このディレクトリに格納されます。  <br/> |
-|[Get-CcApplianceLogDirectory](get-ccappliancelogdirectory.md) <br/> |クラウド コネクタ アプライアンスのログが格納されている現在のディレクトリを表示します。  <br/> |
-|[Get-CcApplianceStatus](get-ccappliancestatus.md) <br/> バージョン 2.1 以降  <br/> |クラウド コネクタ アプライアンスの診断情報を提供します。  <br/> |
-|[Get-CcCredential](get-cccredential.md) <br/> |現在のクラウド コネクタ展開の資格情報を返します。  <br/> |
-|[Get-CcExternalCertificateFilePath](get-ccexternalcertificatefilepath.md) <br/> |クラウド コネクタ展開の外部証明書ファイル パスを返します。 ユーザーは、この証明書を準備します。  <br/> |
-|[Get-CcSiteDirectory](get-ccsitedirectory.md) <br/> |サイト レベル構成ファイルが格納されている現在のディレクトリを表示します。 フォルダーには、基本 VHD とクラウド コネクタのインストール ファイルが含まれる。 このフォルダーは、クラウド コネクタ サイトの他のすべてのアプライアンスと共有する必要があります。  <br/> |
-|[Get-CcSiteLogDirectory](get-ccsitelogdirectory.md) <br/> |クラウド コネクタのサイト レベル ログが格納されている現在のディレクトリを表示します。  <br/> |
-|[Get-CcVersion](get-ccversion.md) <br/> バージョン 2.0 以降  <br/> |Cloud Connector インスタンスのバージョンを返します。 Get-CCVersionは、クラウド コネクタのホスト コンピューターでのみ使用できます。  <br/> |
-|[Import-CcConfiguration](import-ccconfiguration.md) <br/> バージョン 2.0 以降  <br/> |ローカル ファイルからSkype for Business クラウド コネクタ エディション構成を Cloud Connector ホスト サーバーにインポートします。  <br/> |
-|[Install-CcAppliance](install-ccappliance.md) <br/> |クラウド コネクタ アプライアンス (AD、中央管理ストア、仲介サーバー、エッジ サーバーの仮想マシンを含む) をホスト サーバーにインストールします。  <br/> |
-|[Publish-CcAppliance](publish-ccappliance.md) <br/> | オンライン テナント構成から高可用性情報を取得し、ホスト サーバー上のクラウド コネクタ アプライアンスに発行します。 <br/> |
-|[Register-CcAppliance](register-ccappliance.md) <br/> | オンライン テナント構成で PSTN サイトにアプライアンス情報を登録します。 アプライアンスをクラウド コネクタ管理サービスによって展開および管理するには、その前にアプライアンスを登録する必要があります。 <br/> |
-|[Remove-CcCertificationAuthorityFile](remove-cccertificationauthorityfile.md) <br/> バージョン 1.4.2 以降  <br/> |クラウド コネクタのサイト共有ディレクトリの CA フォルダーにある証明機関サービス バックアップ ファイル \<SiteRootDirectory\> "\CA\SfB CCE Root.p12" を削除します。  <br/> |
-|[Remove-CcLegacyServerCertificate](remove-cclegacyservercertificate.md) <br/> バージョン 1.4.2 以降  <br/> |サーバーの全体管理ストア、仲介サーバー、およびエッジ サーバーの従来のサーバー証明書は、CcServerCertificate コマンドレットまたは更新 CcServerCertificate コマンドレットを実行した後Renew-CcCACertificate削除します。  <br/> |
-|[Renew-CcCACertificate](renew-cccacertificate.md) <br/> バージョン 1.4.2 のみ  <br/> |証明機関サービス サーバーを再インストールAD新しいルート CA 証明書を作成します。  <br/> |
-|[Renew-CcServerCertificate](renew-ccservercertificate.md) <br/> バージョン 1.4.2 のみ  <br/> |Cloud Connector の証明書の有効期限が近い場合、または既に有効期限が切れている場合は、証明書を更新します。  <br/> |
-|[Reset-CcCACertificate](reset-cccacertificate.md) <br/> バージョン 1.4.2 以降  <br/> |証明機関サーバーをリセットして、新しい証明機関証明書をインストールします。  <br/> |
-|[Restore-CcCredentials](restore-cccredentials.md) <br/> バージョン 2.1 以降  <br/> |資格情報をクリーンアップし、現在のクラウド コネクタ展開で使用されている資格情報を再入力するように求めるメッセージが表示されます。  <br/> |
-|[Search-CcLog](search-cclog.md) <br/> |クラウド コネクタ アプライアンス ログ ディレクトリ内の着信および発信の通話ログを検索します。  <br/> |
-|[Set-CcApplianceDirectory](set-ccappliancedirectory.md) <br/> |クラウド コネクタ ホスト サーバー上の作業ディレクトリを設定します。 すべての展開ファイルは、このディレクトリに格納されます。  <br/> |
-|[Set-CcCredential](set-cccredential.md) <br/> |現在のクラウド コネクタ展開の資格情報を設定します。  <br/> |
-|[Set-CcExternalCertificateFilePath](set-ccexternalcertificatefilepath.md) <br/> |仲介サーバーまたはエッジ サーバーの証明書が格納されるパスを指定します。  <br/> |
-|[Set-CcSiteDirectory](set-ccsitedirectory.md) <br/> |クラウド コネクタのサイト レベル構成ファイルが格納されるディレクトリを設定します。 フォルダーには、基本 VHD とクラウド コネクタ構成ファイルが含まれる。  <br/> |
-|[Start-CcDownload](start-ccdownload.md) <br/> |クラウド コネクタ ビットと msi ファイルを同期的にダウンロードします。  <br/> |
-|[Start-CcLogging](start-cclogging.md) <br/> |クラウド コネクタ アプライアンスの着信および発信通話ログを生成します。  <br/> |
-|[Stop-CcLogging](stop-cclogging.md) <br/> |クラウド コネクタ アプライアンスの着信および発信通話ログの生成を停止します。  <br/> |
-|[Switch-CcVersion](switch-ccversion.md) <br/> |実行中のアプライアンスを切断し、新しく展開されたアプライアンスまたはバックアップ アプライアンスに切り替します。  <br/> |
-|[Uninstall-CcAppliance](uninstall-ccappliance.md) <br/> |実行中のクラウド コネクタ アプライアンスをホスト サーバーからアンインストールします。  <br/> |
-|[Unregister-CcAppliance](unregister-ccappliance.md) <br/> |オンライン テナント構成の PSTN サイトから現在のクラウド コネクタ アプライアンスの登録を解除します。  <br/> |
-|[Update-CcCACertificate](update-cccacertificate.md) <br/> バージョン 2.0 以降  <br/> |証明機関サービス サーバーを再インストールAD新しいルート CA 証明書を作成します。  <br/> |
-|[Update-CcServerCertificate](update-ccservercertificate.md) <br/> バージョン 2.0 以降  <br/> |Cloud Connector の証明書の有効期限が近い場合、または既に有効期限が切れている場合は、証明書を更新します。  <br/> |
+|コマンドレット名**|説明|
+|---|---|
+|[Backup-CcCertificationAuthority](backup-cccertificationauthority.md) <p> バージョン 1.4.2 以降|証明機関サービスをファイルにバックアップし、サイト共有ディレクトリの下の CA フォルダーに保存します。|
+|[Convert-CcIsoToVhdx](convert-ccisotovhdx.md)|お客様から提供された R2 ISO ファイルを使用して、基本仮想ハード ディスク ファイル (VHDX) Windows Server 2012作成します。 VHDX ファイルは、Cloud Connector のデプロイ中に使用されます。|
+|[Enter-CcUpdate](enter-ccupdate.md)|Cloud Connector ホスト サーバーをメンテナンス モードにして、更新プロセス用に準備します。 アプライアンスは "ドレイン済み" です。つまり、既存のすべての呼び出しは完了しますが、新しい呼び出しは拒否されます。|
+|[Exit-CcUpdate](exit-ccupdate.md)|Cloud Connector ホスト サーバーの更新メンテナンス モードを終了します。|
+|[Export-CcConfiguration](export-ccconfiguration.md)|Skype for Business クラウド コネクタ エディション構成を、Skype for Business クラウド コネクタ エディション ホスト サーバー上のローカル ファイルにエクスポートします。|
+|[Export-CcConfigurationSampleFile](export-ccconfigurationsamplefile.md)|Cloud Connector のサンプル構成ファイル (.ini) を Cloud Connector アプライアンスのアプライアンス ディレクトリにエクスポートします。 デプロイに使用するファイルを変更したり、名前を変更したりできます。|
+|[Export-CcRootCertificate](export-ccrootcertificate.md) <p> バージョン 1.4.2 以降|ルート CA 証明書を Cloud Connector ホスト サーバー上のローカル ファイルにエクスポートします。|
+|[Get-CcApplianceDirectory](get-ccappliancedirectory.md)|Cloud Connector ホスト サーバー上の作業ディレクトリを取得します。 すべてのデプロイ ファイルは、このディレクトリに格納されます。|
+|[Get-CcApplianceLogDirectory](get-ccappliancelogdirectory.md)|Cloud Connector アプライアンスのログが格納されている現在のディレクトリを示します。|
+|[Get-CcApplianceStatus](get-ccappliancestatus.md) <p> バージョン 2.1 以降|Cloud Connector アプライアンスの診断情報を提供します。|
+|[Get-CcCredential](get-cccredential.md)|現在の Cloud Connector デプロイの資格情報を返します。|
+|[Get-CcExternalCertificateFilePath](get-ccexternalcertificatefilepath.md)|Cloud Connector デプロイの外部証明書ファイル パスを返します。 ユーザーはこの証明書を準備します。|
+|[Get-CcSiteDirectory](get-ccsitedirectory.md)|サイト レベルの構成ファイルが格納されている現在のディレクトリを示します。 フォルダーには、ベース VHD と Cloud Connector のインストール ファイルが含まれています。 このフォルダーは、Cloud Connector サイトの他のすべてのアプライアンスと共有する必要があります。|
+|[Get-CcSiteLogDirectory](get-ccsitelogdirectory.md)|Cloud Connector のサイト レベルログが格納されている現在のディレクトリを表示します。|
+|[Get-CcVersion](get-ccversion.md) <p> バージョン 2.0 以降|Cloud Connector インスタンスのバージョンを返します。 Get-CCVersionは、Cloud Connector のホスト マシンでのみ使用できます。|
+|[Import-CcConfiguration](import-ccconfiguration.md) <p> バージョン 2.0 以降|Skype for Business クラウド コネクタ エディション構成をローカル ファイルから Cloud Connector ホスト サーバーにインポートします。|
+|[Install-CcAppliance](install-ccappliance.md)|ホスト サーバーにクラウド コネクタ アプライアンス (AD、Central Management Microsoft Store、仲介サーバー、エッジ サーバー仮想マシンなど) をインストールします。|
+|[Publish-CcAppliance](publish-ccappliance.md)|オンライン テナント構成から高可用性情報を取得し、ホスト サーバー上の Cloud Connector アプライアンスに発行します。|
+|[Register-CcAppliance](register-ccappliance.md)|オンライン テナント構成で、アプライアンス情報を PSTN サイトに登録します。 アプライアンスを Cloud Connector 管理サービスでデプロイおよび管理するには、事前にアプライアンスを登録する必要があります。|
+|[Remove-CcCertificationAuthorityFile](remove-cccertificationauthorityfile.md) <p> バージョン 1.4.2 以降|Cloud Connector のサイト共有ディレクトリの下にある CA フォルダー内の証明機関サービス バックアップ ファイル "\<SiteRootDirectory\>\CA\SfB CCE Root.p12" を削除します。|
+|[Remove-CcLegacyServerCertificate](remove-cclegacyservercertificate.md) <p> バージョン 1.4.2 以降|Renew-CcCACertificateコマンドレットまたは更新 CcServerCertificate コマンドレットを実行した後、Central Management Microsoft Store、仲介サーバー、およびエッジ サーバー上のレガシ サーバー証明書を削除します。|
+|[Renew-CcCACertificate](renew-cccacertificate.md) <p> バージョン 1.4.2 のみ|証明機関サービス AD Server を再インストールして、新しいルート CA 証明書を作成します。|
+|[Renew-CcServerCertificate](renew-ccservercertificate.md) <p> バージョン 1.4.2 のみ|Cloud Connector の有効期限が近づいているか、既に有効期限が切れている場合に、Cloud Connector の証明書を更新します。|
+|[Reset-CcCACertificate](reset-cccacertificate.md) <p> バージョン 1.4.2 以降|証明機関サーバーをリセットして、新しい証明機関証明書をインストールします。|
+|[Restore-CcCredentials](restore-cccredentials.md) <p> バージョン 2.1 以降|資格情報をクリーンアップし、現在の Cloud Connector デプロイに使用されているすべての資格情報を再入力するように求められます。|
+|[Search-CcLog](search-cclog.md)|Cloud Connector アプライアンスのログ ディレクトリで着信と発信の通話ログを検索します|
+|[Set-CcApplianceDirectory](set-ccappliancedirectory.md)|Cloud Connector ホスト サーバー上の作業ディレクトリを設定します。 すべてのデプロイ ファイルは、このディレクトリに格納されます。|
+|[Set-CcCredential](set-cccredential.md)|現在の Cloud Connector デプロイの資格情報を設定します。|
+|[Set-CcExternalCertificateFilePath](set-ccexternalcertificatefilepath.md)|仲介サーバーまたはエッジ サーバーの証明書が格納されるパスを指定します。|
+|[Set-CcSiteDirectory](set-ccsitedirectory.md)|Cloud Connector のサイト レベルの構成ファイルを格納するディレクトリを設定します。 フォルダーには、ベース VHD と Cloud Connector の構成ファイルが含まれます。|
+|[Start-CcDownload](start-ccdownload.md)|Cloud Connector ビットと msi ファイルを同期的にダウンロードします。|
+|[Start-CcLogging](start-cclogging.md)|Cloud Connector アプライアンスの着信と発信の呼び出しログを生成します。|
+|[Stop-CcLogging](stop-cclogging.md)|Cloud Connector アプライアンスの着信と発信の呼び出しログの生成を停止します。|
+|[Switch-CcVersion](switch-ccversion.md)|実行中のアプライアンスを切断し、新しくデプロイされたアプライアンスまたはバックアップ アプライアンスに切り替えます。|
+|[Uninstall-CcAppliance](uninstall-ccappliance.md)|実行中の Cloud Connector アプライアンスをホスト サーバーからアンインストールします。|
+|[Unregister-CcAppliance](unregister-ccappliance.md)|オンライン テナント構成で PSTN サイトから現在の Cloud Connector アプライアンスの登録を解除します。|
+|[Update-CcCACertificate](update-cccacertificate.md) <p> バージョン 2.0 以降|証明機関サービス AD Server を再インストールして、新しいルート CA 証明書を作成します。|
+|[Update-CcServerCertificate](update-ccservercertificate.md) <p> バージョン 2.0 以降|Cloud Connector の有効期限が近づいているか、既に有効期限が切れている場合に、Cloud Connector の証明書を更新します。|

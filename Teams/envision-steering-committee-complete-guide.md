@@ -16,12 +16,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fb615c326b5d9cbf0fc293b96541f768e48947d8
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 0aee75ce49734dad37d4e75b77c224fa82301f0b
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62401661"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674679"
 ---
 # <a name="steering-committee"></a>運営委員会
 

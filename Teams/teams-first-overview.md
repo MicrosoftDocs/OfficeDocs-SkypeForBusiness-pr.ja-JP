@@ -15,12 +15,12 @@ description: このガイダンスを使用して、最初のMicrosoft 365また
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f6dba57003aaa58b9d0b72e7e866da261bed578e
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 2621ea94e2a35e7de9eed3dac2994f9b1932b0bb
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922688"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681728"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>最初にMicrosoft Teamsロールアウトする
 
@@ -39,8 +39,8 @@ Teams最初のデプロイを開始するには、少なくともいくつかの
 
 1.  ドメイン名で構成されたMicrosoft 365またはOffice 365組織
 
-2.  Azure Active Directory接続 (AAD接続) または同様のクラウド ID 同期ソリューション - 必要なすべての属性をテナントと同期する  
-    AAD同期と同期される属性を理解するには、「[Azure AD Connect同期: Azure Active Directoryに同期された属性」を](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)参照してください。
+2.  Azure Active Directory接続 (AAD 接続) または同様のクラウド ID 同期ソリューション - 必要なすべての属性をテナントと同期する  
+    AAD 同期と同期される属性を理解するには、「[Azure AD Connect同期: Azure Active Directoryに同期された属性」を](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)参照してください。
 
 3.  Teamsに割り当てられた適切なユーザー ライセンス  
     Teamsライセンスについて理解するには、[Microsoft Teamsサービスの説明](/office365/servicedescriptions/teams-service-description)を参照してください。
@@ -111,7 +111,7 @@ Teamsは、2 種類の PSTN 接続をサポートします。 Microsoft 通話�
 <tr class="odd">
 <td>Teamsで会議を作成して表示する</td>
 <td><p>Outlook アドインを使用して内部および外部の会議を作成できます。</p>
-<p>PSTN ダイヤルイン機能とダイヤルアウト機能は、電話会議ライセンスで使用できます。</p>
+<p>PSTN ダイヤルイン機能とダイヤルアウト機能は、電話会議 ライセンスで使用できます。</p>
 <p>予定表へのアクセスTeams、ハイブリッドが確立されたExchangeで展開された 2016 CU3 以降のオンプレミスExchange必要があります。<a href="/exchange/hybrid-deployment/deploy-hybrid">ハイブリッド構成ウィザードを使用してハイブリッド展開を作成します。</a> </p>
 
 ハイブリッド構成をExchangeするだけでなく、Exchange OAuth 認証を確立します。[ExchangeとExchange Online組織の間で OAuth 認証を構成します](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)。 
@@ -136,7 +136,7 @@ Teamsの VoIP/PSTN</td>
 <tr class="odd">
 <td>アプリケーション プラットフォーム</td>
 <td>ユーザーは、会社のポリシーに従って、指定されたアプリを使用できます。<br />
-詳細情報: <a href="/microsoftteams/admin-settings">Teamsのアプリの管理者設定</a></td>
+詳細情報: <a href="/microsoftteams/admin-settings">Teamsでアプリの設定を管理</a>する</td>
 </tr>
 <tr class="even">
 <td>セキュリティとコンプライアンスの機能</td>
@@ -190,7 +190,7 @@ Teamsの VoIP/PSTN</td>
 <tr class="odd">
 <td>Teamsで会議を作成して表示する</td>
 <td><p>Outlook アドインを使用して内部および外部の会議を作成できます。</p>
-<p>PSTN ダイヤルイン機能とダイヤルアウト機能は、電話会議ライセンスで使用できます。</p>
+<p>PSTN ダイヤルイン機能とダイヤルアウト機能は、電話会議 ライセンスで使用できます。</p>
 <p>予定表へのアクセスTeams、Exchangeハイブリッドが確立された 2016 CU3 以降のオンプレミスExchange必要があります。<br />
 <a href="/exchange/hybrid-deployment/deploy-hybrid">ハイブリッド構成ウィザードを使用してハイブリッド展開を作成します。</a></p>
 <p>管理者は、Teams会議ポリシーの PreferredMeetingProviderForIslandsMode 属性 (<a href="/powershell/module/skype/set-csteamsmeetingpolicy">set-csteamsmeetingpolicy</a>) を使用して、Skype for Business Outlook アドインを制御できます。</p> 
@@ -214,7 +214,7 @@ Teamsの VoIP/PSTN</td>
 <tr class="odd">
 <td>アプリケーション プラットフォーム</td>
 <td>ユーザーは、会社のポリシーに従って、指定されたアプリを使用できます。<br />
-詳細情報: <a href="/microsoftteams/admin-settings">Teamsのアプリの管理者設定</a></td>
+詳細情報: <a href="/microsoftteams/admin-settings">Teamsでアプリの設定を管理</a>する</td>
 </tr>
 <tr class="even">
 <td>セキュリティとコンプライアンスの機能</td>

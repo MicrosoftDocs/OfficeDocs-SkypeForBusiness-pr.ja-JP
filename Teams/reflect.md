@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d17409a09cbadc535e3b7971d6224b4e2fcb678b
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 5df52ff5de4db994cb049db1dde2b27c2465dce5
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839038"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675759"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Microsoft Teams の Reflect への IT 管理者ガイド
 
@@ -69,7 +69,7 @@ Reflect では学生からデータを収集しますが、ゲスト データ�
 > 詳細については、「[How to allow an app or to add it to a class team (アプリを許可するか、クラスのチームに追加する方法)](manage-apps.md#allow-and-block-apps)」を参照してください。
 
 ## <a name="where-do-educators-find-reflect"></a>Reflect はどこから利用できますか?
-Reflect を有効にしたら教師はクラスに移動し、**[新しい会話]** を選択します。 そして、**[...]** を選択してメッセージング拡張機能を表示し、検索バーに 「**Reflect**」と入力します。 ダイアログ ボックスでは、質問や、誰が何を表示できるかに関する定義をガイドします。
+Reflect を有効にしたら教師はクラスに移動し、**[新しい会話]** を選択します。 そして、**[...]** を選択してメッセージング拡張機能を表示し、検索バーに **「リフレクト」** と入力します。 ダイアログ ボックスでは、質問や、誰が何を表示できるかに関する定義をガイドします。
 
 :::image type="content" source="media/reflect-add-app.png" alt-text="クラス チームに Reflect を追加します。":::
 

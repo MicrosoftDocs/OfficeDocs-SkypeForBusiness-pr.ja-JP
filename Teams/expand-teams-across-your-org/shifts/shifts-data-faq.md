@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d4fc6e36c0c78bdf86e1384fe6269f292f20deb7
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 35447b432118737821f578ddaee364e780f18e0d
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922828"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675349"
 ---
 # <a name="shifts-data-faq"></a>Shifts データに関する FAQ
 
@@ -45,9 +45,9 @@ Teamsを初めて設定するときは、サブスクリプション レベル�
 
 ## <a name="can-i-access-and-export-or-delete-a-users-personal-data-in-shifts"></a>Shifts でユーザーの個人データにアクセスしたり、エクスポートしたり、削除したりできますか?
 
-シフトは、一般的なデータ保護規則 (GDPR) に準拠しています。個人データに対してアクションを実行するための人物 (データ主体と呼ばれる) による正式な要求は、データ 主体要求 (DSR) と呼ばれます。 DSR に応答して、Shifts で個人データを検索して操作できます。
+シフトは、一般的なデータ保護規則 (GDPR) に準拠しています。 個人データに対してアクションを実行するための人物 (データ主体と呼ばれる) による正式な要求は、データ 主体要求 (DSR) と呼ばれます。 DSR に応答して、Shifts で個人データを検索して操作できます。
 
-Microsoft Purview コンプライアンス ポータルの Content Search 電子情報開示ツールを使用して、スケジュールと時刻のデータを検索してExcelにエクスポートできます。 他のすべての Shifts データの場合は、データのスクリーンショットを撮ることができます。
+Microsoft Purview コンプライアンス ポータルのコンテンツ検索電子情報開示ツールを使用して、スケジュールと時刻のデータを検索してExcelにエクスポートできます。 他のすべての Shifts データの場合は、データのスクリーンショットを撮ることができます。
 
 詳細については、「[OFFICE 365 GDPR と CCPA のデータ主体要求](/microsoft-365/compliance/gdpr-dsr-office365)」を参照してください。
 
@@ -63,7 +63,7 @@ Shifts データのみを削除するオプションはありません。 Teams�
 
 削除されたスケジュールを復元できるのは、それをバックアップするMicrosoft 365 グループ (またはTeamsのチーム) が復元された場合です。
 
-既定では、削除された Office 365 グループは 30 日間保持されます。 この 30 日間は、グループを復元できるため、"論理的な削除" と呼ばれます。 詳細については、「[削除されたMicrosoft 365 グループを復元する](/microsoft-365/admin/create-groups/restore-deleted-group?view=o365-worldwide&tabs=admin-center)」を参照してください。
+既定では、削除された Office 365 グループは 30 日間保持されます。 この 30 日間は、グループを復元できるため、"論理的な削除" と呼ばれます。 詳細については、「[削除されたMicrosoft 365 グループを復元する](/microsoft-365/admin/create-groups/restore-deleted-group?tabs=admin-center)」を参照してください。
 
 ## <a name="can-i-use-custom-retention-policies-for-shifts-data"></a>Shifts データにカスタムアイテム保持ポリシーを使用できますか?
 
@@ -77,7 +77,7 @@ Teamsのアイテム保持ポリシーの詳細については、「Teams[のリ
 
 ## <a name="what-type-of-encryption-does-shifts-use-for-data-at-rest-and-in-transit"></a>保存時および転送中のデータに対して、Shifts はどのような種類の暗号化を使用しますか?
 
-Shifts データは、Azure Cosmos DB と Azure Storageによって保存時に暗号化されます。 詳細については、「[保存時の Azure データ暗号化](/azure/security/fundamentals/encryption-atrest)」と「[Azure Cosmos DB のデータ暗号化](/azure/cosmos-db/database-encryption-at-rest)」を参照してください。
+Shifts データは、Azure Cosmos DB とAzure Storageによって保存時に暗号化されます。 詳細については、「[保存時の Azure データ暗号化](/azure/security/fundamentals/encryption-atrest)」と「[Azure Cosmos DB のデータ暗号化](/azure/cosmos-db/database-encryption-at-rest)」を参照してください。
 
 シフトは、転送中のデータの暗号化に関するMicrosoft 365ガイドラインに従います。 詳細については、「 [転送中データの暗号化](/compliance/assurance/assurance-encryption-in-transit)」を参照してください。
 

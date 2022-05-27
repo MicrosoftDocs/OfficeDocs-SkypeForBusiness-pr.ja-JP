@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 7d73de1b5327eb7eb15f48b139ddb0e81ecc643d
-ms.sourcegitcommit: 0486ca906fc7f66460e54e400541e5d5cbfc6dde
+ms.openlocfilehash: 45a52e438fb74286a571cd81461e3de174f9a38f
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/21/2022
-ms.locfileid: "62160986"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675059"
 ---
 #  <a name="use-cqd-to-manage-call-and-meeting-quality-in-microsoft-teams"></a>CQD を使用して、Microsoft Teamsで通話と会議の品質を管理する 
 
@@ -103,7 +103,7 @@ TeamsまたはオンラインSkype for Business展開する前に適切な計画
 
 ### <a name="intended-audience"></a>対象ユーザー
 
-この記事は、コラボレーション リーダー/アーキテクト、コンサルタント、変更管理/導入スペシャリスト、サポート/ヘルプ デスク リーダー、ネットワーク リーダー、デスクトップ リーダー、IT 管理者などのロールを持つパートナーおよび顧客の利害関係者が使用することを目的としています。
+この記事は、コラボレーション リーダー/アーキテクト、コンサルタント、変更管理/導入スペシャリスト、サポート/ヘルプ デスク リーダー、ネットワーク リーダー、デスクトップ リーダー、IT 管理などのロールを持つパートナーおよび顧客の利害関係者が使用することを目的としています。
 
 この記事は、指定された品質チャンピオンも使用することを目的としています。 詳細については、「 [品質チャンピオンロール](4-envision-plan-my-service-management.md#the-quality-champion-role)」を参照してください。
 
@@ -290,7 +290,7 @@ Teamsパフォーマンスに関するほとんどの問題は、次のカテゴ
 CQD は、傾向とサブネットの分析に役立ちますが、特定のシナリオに対して特定の原因が常に提供されるとは限りません。 これを理解し、CQD を使用するときに正しい期待値を設定することが重要です。
 
 -   CQD は、すべてのシナリオの根本原因を提供しません
--   CQD には電話システムストリームまたは電話会議ストリームは含まれません
+-   CQD には、電話システムストリームまたは電話会議 ストリームは含まれません
 -   CQD は、傾向に基づいてさらなる調査のための領域を呼び出します
 
 ### <a name="cqd-reports-overview"></a>CQD レポートの概要
@@ -318,7 +318,7 @@ CQD は、TeamsとSkype for Businessの両方についてレポートできま�
 /filter/[AllStreams].[Is Teams]|[FALSE]
 ```
 
-**例:**
+**例：**
 
 ```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-5/filter/[AllStreams].[Is Teams]|[FALSE]```
 
@@ -679,7 +679,7 @@ HTTP 使用の最も一般的な原因は、プロキシに例外規則がない
 これらのレポートでは、使用中のSkype for Businessクライアント バージョンと環境内の相対ボリュームを特定することに重点を置きます。
 
 > [!IMPORTANT]
-> 現在、Teams クライアントは Azure Content Delivery Networkを介して自動的に配布および更新され、サービスによって最新の状態に保たれます。 その結果、クライアント バージョンTeams監視する必要はありません (自動更新をオフにしない限り、お勧めしません)。
+> 現在、Teams クライアントは Azure Content Delivery Network を介して自動的に配布および更新され、サービスによって最新の状態に保たれます。 その結果、クライアント バージョンTeams監視する必要はありません (自動更新をオフにしない限り、お勧めしません)。
 
 フェデレーション参加者データを除外しない限り、これらのレポートにはフェデレーション エンドポイントからのクライアント テレメトリが含まれます。 フェデレーション エンドポイントを除外するには、組織の [テナント](CQD-data-and-reports.md#how-to-find-your-tenant-id) ID に設定された Second Tenant ID のクエリ フィルターを追加する必要があります。 または、 [URL フィルター](CQD-data-and-reports.md#url-filters) を使用してフェデレーション参加者テレメトリを除外することもできます。
 
@@ -754,7 +754,7 @@ Wi-Fi ドライバーには、定期的な周期にもパッチを適用する�
 
 ## <a name="related-topics"></a>関連項目
 
-[Teamsに Advisor を使用する](use-advisor-teams-roll-out.md)
+[Teamsにアドバイザーを使用する](use-advisor-teams-roll-out.md)
 
 [Teams 用に組織のネットワークを準備する](prepare-network.md)
 

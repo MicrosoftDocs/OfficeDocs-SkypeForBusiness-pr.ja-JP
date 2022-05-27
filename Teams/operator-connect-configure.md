@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 222ea1852ef4336c21cfb24c977c20665a667ff3
-ms.sourcegitcommit: 9968ef7d58c526e35cb58174db3535fd6b2bd1db
+ms.openlocfilehash: 8d3b56a7935f31413829c89285fc81ee70023ab4
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "65284072"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675769"
 ---
 # <a name="configure-operator-connect"></a>オペレーター接続を構成する
 
@@ -71,7 +71,7 @@ Teams管理センターで演算子を有効、編集、削除できます。 �
 4. **番号を割り当てます。** オペレーターが注文を完了すると、番号がテナントにアップロードされます。 ボイス > 電話番号に移動すると、Teams管理センターで番号とプロバイダー **を** 表示できます。 Teams管理センターまたは PowerShell を使用してユーザーに番号を割り当てます。 詳細については、「番号の [割り当て](#assign-numbers)」を参照してください。
 
 > [!NOTE]
->  [ユーザーの電話番号を取得](getting-phone-numbers-for-your-users.md)するだけでなく、電話会議 (会議ブリッジ)、自動応答、通話キュー (サービス番号とも呼ばれます) などのサービスの有料電話番号またはフリーダイヤル電話番号を取得できます。 サービス用電話番号の同時通話容量は、ユーザーまたは登録者の電話番号より大きくなります。 たとえば、サービス番号は数百の呼び出しを同時に処理できますが、ユーザーの電話番号は同時に少数の呼び出しのみを処理できます。 サービス番号を取得するには、オペレーターに問い合わせてください。
+> [ユーザーの電話番号を取得](getting-phone-numbers-for-your-users.md)するだけでなく、電話会議 (会議ブリッジ)、自動応答、通話キュー (サービス番号とも呼ばれます) などのサービスの有料電話番号またはフリーダイヤル電話番号を取得できます。 サービス用電話番号の同時通話容量は、ユーザーまたは登録者の電話番号より大きくなります。 たとえば、サービス番号は数百の呼び出しを同時に処理できますが、ユーザーの電話番号は同時に少数の呼び出しのみを処理できます。 サービス番号を取得するには、オペレーターに問い合わせてください。
 
 ### <a name="emergency-addresses"></a>緊急対応のアドレス
 

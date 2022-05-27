@@ -21,12 +21,12 @@ description: Microsoft Teams for EducationのMicrosoft Teams管理センター�
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 529240db27824ce8bf872d23636b904198ef7db1
-ms.sourcegitcommit: ecc67b7b9378cc72f85517f30c32680045056fda
+ms.openlocfilehash: ed8b01b683d201bc26dec3d220c94fbc12e76f1c
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2022
-ms.locfileid: "64504137"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674669"
 ---
 # <a name="assignments-in-teams-for-education"></a>教育機関向けの Teams の課題 
 
@@ -47,7 +47,7 @@ Microsoft Teams管理センターの管理者設定を使用すると、組織�
 
 保護者向けメールは、各週末に保護者または保護者に送信されます。 メールには、前の週と今後の週の割り当てに関する情報が含まれています。 親と保護者の同期は[、学校データ同期](/schooldatasync/parent-contact-sync)を使用して設定できます。
 
-1. SDS で親と保護者の同期を使用して親連絡先情報をインポートします。 親と保護者の同期を有効にする方法については、「親と保護者の同期 [を有効にする」を](/schooldatasync/parent-contact-sync#enabling-parent-and-guardian-sync)参照してください。
+1. SDSの親と保護者の同期を使用して親連絡先情報をインポートします。 親と保護者の同期を有効にする方法については、「親と保護者の同期 [を有効にする」を](/schooldatasync/parent-contact-sync#enabling-parent-and-guardian-sync)参照してください。
 
 2. 既定では設定がオフになっているので、Microsoft Teams管理センターでガーディアン設定をオンにします。 これにより、教師は毎週ダイジェストを送信できるようになります。
 
@@ -56,7 +56,7 @@ Microsoft Teams管理センターの管理者設定を使用すると、組織�
 
 保護者が電子メールを受け取ることを確認するには、次の 3 つの項目に該当する必要があります。
 
-- SDS で学生プロファイルに添付され、 _親_ または _保護者_ としてタグ付けされたメール アドレス。 詳細については、「 [親と保護者の同期ファイル形式」を](/schooldatasync/parent-contact-sync-file-format)参照してください。
+- SDSで学生プロファイルに添付され、_親_ または _保護者_ としてタグ付けされたメール アドレス。 詳細については、「 [親と保護者の同期ファイル形式」を](/schooldatasync/parent-contact-sync-file-format)参照してください。
 
 - 学生は、 [課題](https://support.microsoft.com/office/adjust-assignment-settings-in-your-class-team-05bb3b89-1cdf-415a-b6c7-44add0376a77)設定で教師が電子メールを無効にしていない少なくとも 1 つのクラスに属しています。
 
@@ -74,7 +74,7 @@ MakeCode は、Microsoft の [使用条件](https://go.microsoft.com/fwlink/?Lin
 
 この機能の既定の設定は - **オフです**。
 
-Teamsで MakeCode の割り当てを有効にするには、**Teams管理センター** に移動し、[**割り当て]** セクションに移動し、[MakeCode] トグル オプションを **[オン]** に切り替えます。 **[保存]** を選択します。 これらの設定を有効にするには、数時間かかります。
+Teamsで MakeCode の割り当てを有効にするには、**Teams 管理 センター** に移動し、[**割り当て]** セクションに移動して、[MakeCode] トグル オプションを **[オン]** に切り替えます。 **[保存]** を選択します。 これらの設定を有効にするには、数時間かかります。
 
 この機能の動作の詳細については、この [ビデオデモをご覧](https://makecode.com/blog/teams/teams-assignments)ください。
 
@@ -148,7 +148,7 @@ IT 管理者は、コンテンツ検索ツールを使用して、課題に関�
 
 #### <a name="for-a-student"></a>学生の場合
 
-1 人の学生のデータを一括エクスポートするには、参加しているクラスから学生を削除する前に [、スクリプトを実行](/microsoft-365/education/deploy/configure-assignments-for-teams) して ``userId``、 . 学生がサイトから削除された場合は、管理者はスクリプトを実行する前に学生をクラスに追加するか、管理者が学生が参加した日時を指定``userId````classId``できます。
+1 人の学生のデータを一括エクスポートするには、参加しているクラスから学生を削除する前に、 [スクリプトを実行](/microsoft-365/education/deploy/configure-assignments-for-teams) して ``userId``、 . 学生がサイトから削除された場合は、管理者はスクリプトを実行する前に学生をクラスに追加するか、管理者が学生が参加した日時を指定``userId````classId``できます。
 
 学生の提出に関するデータがエクスポートされます。
 
@@ -168,15 +168,15 @@ a を ``ClassId`` 指定すると、管理者は特定のクラスから学生�
 
 教師の割り当てのデータはクラス間で共有されるため、一括削除オプションはありません。 代わりに、管理者は自分自身をクラスに追加し、アプリに移動して、割り当てを削除できます。
 
-詳細については、「 [Teamsの割り当ての構成」を](/microsoft-365/education/deploy/configure-assignments-for-teams)参照してください。
+詳細については、「[Teamsの割り当ての構成」を](/microsoft-365/education/deploy/configure-assignments-for-teams)参照してください。
 
 ## <a name="removing-assignments-and-grades"></a>課題と成績の削除
 
 Teams ポリシーを使用して、特定のユーザーまたはテナント全体の割り当てと成績を削除することもできます。
 
-個々のユーザーの割り当てと成績を削除するには、**管理センター Teams** 移動し、**Teams アプリ>アクセス許可ポリシー** に移動して、新しいアプリアクセス許可ポリシー定義を作成します。  新しいポリシー定義を作成するときは、Microsoft アプリ ポリシーを [特定 **のアプリ** をブロックする] に設定 _し、他のすべてのアプリを許可_ し、ブロックされたアプリケーションの一覧に **割り当てを** 追加します。 新しいポリシー定義を保存したら、適切なユーザーに割り当てます。
+個々のユーザーの割り当てと成績を削除するには、**Teams 管理 センター** に移動し、**Teams アプリ>アクセス許可ポリシー** に移動して、新しいアプリアクセス許可ポリシー定義を作成します。  新しいポリシー定義を作成するときは、Microsoft アプリ ポリシーを [特定 **のアプリ** をブロックする] に設定 _し、他のすべてのアプリを許可_ し、ブロックされたアプリケーションの一覧に **割り当てを** 追加します。 新しいポリシー定義を保存したら、適切なユーザーに割り当てます。
 
-テナント全体の課題と成績を削除するには、**Teams管理センター** に移動し、**Teams アプリ>アプリの管理** に移動し、アプリケーションの一覧から **課題** を検索して選択します。 [割り当てアプリケーション設定] ページ内の状態設定を _[ブロック]_ に変更します。
+テナント全体の課題と成績を削除するには、**Teams 管理 センター** に移動し、**Teams アプリ>アプリの管理** に移動し、アプリケーションの一覧から **[割り当て**] を検索して選択します。 [割り当てアプリケーション設定] ページ内の状態設定を _[ブロック]_ に変更します。
 
 ## <a name="assignments-diagnostic-tool-for-users"></a>ユーザーの割り当て診断ツール
 

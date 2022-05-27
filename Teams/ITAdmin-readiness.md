@@ -1,5 +1,5 @@
 ---
-title: 管理者トレーニング リソース - Microsoft Teams
+title: トレーニング リソースの管理 - Microsoft Teams
 ms.reviewer: jhwang
 author: SerdarSoysal
 ms.author: serdars
@@ -19,12 +19,12 @@ ms.custom:
 description: Microsoft Teamsの計画、展開、および実行方法に関するトレーニングビデオ、PowerPointデッキ、チュートリアル、およびその他の管理者向けリソース。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5cf197ac9ceca799a7df683e6a655acac1e85b56
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 0bc4841e67606f467bc13940755a7de77038d7b6
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922488"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675589"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teamsの管理者トレーニングの概要
 
@@ -81,35 +81,35 @@ ms.locfileid: "64922488"
 
 <h2>Teams Android デバイス</h2>
 
-<p>次の表に、Teams ディスプレイ、Teams Phone、Android 用Teams Rooms、Microsoft Teams Teams パネルを含む android デバイスのPowerPoint デッキ (PDF 形式) を含む包括的なトレーニングへのリンクを示します。  
+<p>次の表に、Teams ディスプレイ、Teams Phone、AndroidのTeams Roomsを含むMicrosoft Teams Android デバイス上のPowerPoint デッキ (PDF 形式) を使用した包括的なトレーニングへのリンクを示します。Teams パネル。  
 
 | モジュール | PowerPoint デッキ (PDF)  |
 | ------------| -------------------- |
 | モジュール 1: Microsoft Teams Android デバイスの概要  |[デッキ](https://download.microsoft.com/download/8/0/2/8020c233-8989-4def-b3ea-fb06365c663a/%281%29%20Introduction%20to%20Microsoft%20Teams%20Android%20Devices.pdf) |
-| モジュール 2: Android デバイスMicrosoft Teams計画する|[デッキ](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
+| モジュール 2: デバイスMicrosoft Teams Android計画する|[デッキ](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
 |モジュール 3: Microsoft Teams Android デバイスの機能 |[デッキ](https://download.microsoft.com/download/c/9/9/c9922544-7e27-40af-bf19-dbdc8516f0c1/Module%203-%20Features%20of%20Microsoft%20Teams%20Android%20Devices.pdf)|
 |モジュール 4: Microsoft Teams Android デバイスの管理|[デッキ](https://download.microsoft.com/download/c/e/b/ceb686ff-9be2-495c-9e2e-80047765e5b4/(4)%20Managing%20Microsoft%20Teams%20Android%20Devices.pdf)|
-|モジュール 5: Android デバイスのMicrosoft Teams - トラブルシューティング |[デッキ](https://download.microsoft.com/download/d/3/7/d3728209-5caa-4bfb-b46a-3b840e80142a/Microsoft%20Teams%20Android%20Devices%20-%20Troubleshooting.pdf)|
+|モジュール 5: Microsoft Teams Android デバイス - トラブルシューティング |[デッキ](https://download.microsoft.com/download/d/3/7/d3728209-5caa-4bfb-b46a-3b840e80142a/Microsoft%20Teams%20Android%20Devices%20-%20Troubleshooting.pdf)|
 
 <h2>対話型ガイド</h2>
 
 | タイトル                                                                       | 抽象                                                                                                                                                                                                               |  ガイドへのリンク                             |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | Teams用の ID、アクセス管理& Threat Protection                   | Microsoft 管理センターと PowerShell を使用してアクセス ポリシーと ID ポリシーを構成し、Teamsの Advanced Threat Protection Office 365有効にする方法について説明します                                                            | [Teams セキュリティ ガイド](https://aka.ms/teamsesecurityinteractiveguide)         |
-| Microsoft Teamsの Microsoft Purview データ損失防止 (DLP) ポリシー                     | 既存の DLP ポリシーにMicrosoft Teamsを追加する方法と、テンプレートに基づくか、組織のデータ保護のニーズに合わせて完全にカスタマイズされているかに関係なく、新しいポリシーを作成する方法について説明します。                        | [Teams DLP ガイド](https://aka.ms/teamsdlpguide)         |
+| Microsoft TeamsのMicrosoft Purviewデータ損失防止 (DLP) ポリシー                     | 既存の DLP ポリシーにMicrosoft Teamsを追加する方法と、テンプレートに基づくか、組織のデータ保護のニーズに合わせて完全にカスタマイズされているかに関係なく、新しいポリシーを作成する方法について説明します。                        | [Teams DLP ガイド](https://aka.ms/teamsdlpguide)         |
 | Teamsでのコンプライアンスの管理                                                | Microsoft 365セキュリティ、Microsoft 365コンプライアンス、Microsoft Teams管理センター、Windows PowerShellを使用して、Office 365組織のMicrosoft Teams ポリシーを管理および構成すると設定。 | [Teams ガイドでのコンプライアンスの管理](https://aka.ms/complianceinteamsinteractiveguide)      |
-| Teams Advisor: Microsoft Teamsでのチャット、チーム、チャネル、アプリの展開 | Teams advisor を使用して環境を評価し、チャット、チーム、チャネル、アプリを展開するための計画を構築する方法について説明します。                                                                                         |  [Teams Advisor ガイド](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
+| Teams アドバイザー: Microsoft Teamsでのチャット、チーム、チャネル、アプリの展開 | Teams advisor を使用して環境を評価し、チャット、チーム、チャネル、アプリを展開するための計画を構築する方法について説明します。                                                                                         |  [Teams アドバイザー ガイド](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
 | PowerShell と動的グループを使用したTeams管理の合理化        | Office 365 グループを静的メンバーシップから動的に変換し、Windows PowerShellを使用して新しいアプリアクセス許可ポリシーをすべてのメンバーに割り当てます。                                                                         |  [Teams管理ガイドの合理化](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
 | Microsoft Teams管理センターでのTeamsとゲスト アクセスの管理         | 組織のMicrosoft Teamsとゲスト アクセスを構成および管理する方法について説明します。                                                                                                                              | [Teamsとゲスト アクセス ガイドの管理](https://aka.ms/TeamsandGuestAccessInteractiveGuide)    |
 | Teams 電話システムの構成: 通話キュー&自動応答                   | Microsoft Teams管理センターを使用して通話を呼び出すMicrosoft Teamsの一環として、通話キューと自動応答を作成して展開するプロセスをステップ実行します。                                                          |  [電話システム ガイドTeams構成する](https://aka.ms/TeamsPhoneInteractiveGuide)             |
 | ダイレクト ルーティングの構成: SBC と音声ルーティングの接続                 | Microsoft Teams 電話 システム ダイレクト ルーティングを使用して、既存のテレフォニー インフラストラクチャと統合します。                                                                                                              | [ダイレクト ルーティング ガイドを構成する](https://aka.ms/DirectRoutingInteractiveGuide)          |
 | Microsoft Teamsでガバナンスを構成する                                     | 組織のTeamsメッセージングアイテム保持ポリシーを作成する方法と、個々のTeamsをアーカイブ、削除、復元する方法について説明します                                                                                   |  [Microsoft Teams ガイドでガバナンスを構成する](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
 | Microsoft Teams会議の構成と展開                          | Microsoft Teamsの会議ワークロードをデプロイするプロセスをステップ実行します。                                                                                                                                       |  [会議の構成と展開Microsoft Teamsガイド](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
-| Microsoft Teamsの電話会議を構成する                            | Teamsの電話会議の機能を確認し、会議ブリッジとダイヤルイン電話番号を割り当てる方法について説明します。                                                                                          |  [Microsoft Teams ガイドの電話会議の構成](https://aka.ms/AudioConferencingInteractiveGuide)      |
+| Microsoft Teamsの電話会議を構成する                            | Teamsで電話会議の機能を確認し、会議ブリッジとダイヤルイン電話番号を割り当てる方法について説明します。                                                                                          |  [Microsoft Teams ガイドの電話会議の構成](https://aka.ms/AudioConferencingInteractiveGuide)      |
 | Firstline Worker のMicrosoft Teamsの構成                           | Firstline Workforce に適したMicrosoft Teams環境を構成してデプロイする方法について説明します。                                                                                                                  | [Firstline Workers のMicrosoft Teamsの構成ガイド](https://aka.ms/ConfigFLWInteractiveGuide)              |
-| 現場の従業員の ID: IT、マネージャー、および現場のワーカーを強化する                    | Microsoft Teamsを既存の人事システムと統合し、軽量の委任された ID 管理を構成し、共有デバイスを使用するユーザーに対して簡単なサインインとシームレスな切り替えを構成する方法について説明します。                                                                                                                  | [フロントライン ワーカー ID ガイド](https://aka.ms/FLWIdentityIG)              |
+| 現場の従業員の ID: IT、マネージャー、およびフロントライン ワーカーのMicrosoft Empower for ISV Initiative                    | Microsoft Teamsを既存の人事システムと統合し、軽量の委任された ID 管理を構成し、共有デバイスを使用するユーザーに対して簡単なサインインとシームレスな切り替えを構成する方法について説明します。                                                                                                                  | [フロントライン ワーカー ID ガイド](https://aka.ms/FLWIdentityIG)              |
 | Microsoft Teams Roomsのデプロイ                           | Microsoft Teams Roomsで使用するアカウントを作成して構成し、Microsoft Teams管理センターでデバイスを管理する方法について説明します。                                                                                                                  | [Microsoft Teams Roomsのデプロイ](https://aka.ms/teamsroomslab)              |
-|Teams認定された Android デバイスの操作|電話、Microsoft Teamsディスプレイ、Microsoft Teams Rooms、Microsoft Teams パネルMicrosoft Teams管理およびアップグレードする方法について説明します。|[Microsoft Teams認定された Android デバイスの操作](https://aka.ms/teamsandroiddeviceslab)|
+|Teams認定Android デバイスの操作|電話、Microsoft Teamsディスプレイ、Microsoft Teams Rooms、Microsoft Teams パネルMicrosoft Teams管理およびアップグレードする方法について説明します。|[Microsoft Teams認定Androidデバイスの操作](https://aka.ms/teamsandroiddeviceslab)|
 
 <h2>クイック スタート ガイド</h2>
 

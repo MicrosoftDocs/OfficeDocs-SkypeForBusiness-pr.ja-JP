@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ce8e702682ebcc4b05e94f077882d51f09aac0ff
-ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
+ms.openlocfilehash: 5b85befa685458f5460ab21bb962af3f0df4f004
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "65624151"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681588"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -101,6 +101,9 @@ MSI パッケージを使用したマシンごとのインストールまたは�
 専用の永続的なセットアップの場合、マシンごととユーザーごとの両方のインストールが機能します。 ただし、非永続的なセットアップの場合、Teams が効率的に機能するにはマシンごとにインストールする必要があります。 [非永続のセットアップ](#non-persistent-setup)のセクションを参照してください。
 
 マシンごとのインストールでは、自動更新は無効になっています。 つまり、Teams アプリを更新するには、現在のバージョンをアンインストールして新しいバージョンに更新する必要があります。 ユーザーごとのインストールでは、自動更新は有効になっています。
+
+> [!IMPORTANT]
+> TEAMSデスクトップ アプリを VDI 環境に最新の状態に保ちます。 Teamsデスクトップ アプリのバージョンで、[現在のバージョンのリリース日](/officeupdates/teams-app-versioning)より 90 日を超えるリリース日はサポートされていません。 サポートされていないTeamsデスクトップ アプリのバージョンでは、ユーザーにブロック ページが表示され、アプリの更新を要求します。
 
 ほとんどの VDI の展開について、マシンごとのインストールを使用して Teams を展開することをお勧めします。 最新の Teams バージョンに更新するには、アンインストール手順から始めて、次に最新の Teams バージョンを展開します。
 

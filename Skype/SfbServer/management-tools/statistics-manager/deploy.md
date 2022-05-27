@@ -12,297 +12,298 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
-description: '概要: このトピックを参照して、統計マネージャーを展開する方法について説明Skype for Business Server。'
-ms.openlocfilehash: 98a1a405ccccf9ee88941588e6e43f152d2f6bb3
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: '概要: このトピックを読んで、Skype for Business Server用の Statistics Manager をデプロイする方法について説明します。'
+ms.openlocfilehash: 1debe0c38b3e3df0b6be193e892991c09e15fb61
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62410720"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675989"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Skype for Business Server の統計情報マネージャーの展開
- 
-**概要:** このトピックを参照して、統計マネージャーを展開する方法についてSkype for Business Server。
-  
- 統計マネージャー for Skype for Business Serverは、正常性データとパフォーマンス データをリアルタイムSkype for Business Server表示できる強力なツールです。 数百のサーバーでパフォーマンス データを数秒ごとにポーリングし、統計マネージャー Web サイトで即座に結果を表示できます。
-  
-Statistics Manager のインストールを試みる前に、ソフトウェア、ネットワーク、およびハードウェアの要件に精通していることを確認してください。 詳細については、「Plan [for Statistics Manager for Skype for Business Server」 を参照してください](plan.md)。
-  
+
+**概要：** Skype for Business Server用の Statistics Manager をデプロイする方法については、このトピックを参照してください。
+
+ Skype for Business Server用の Statistics Manager は、Skype for Business Server正常性データとパフォーマンス データをリアルタイムで表示できる強力なツールです。 数百台のサーバー間で数秒ごとにパフォーマンス データをポーリングし、Statistics Manager Web サイトで結果を即座に表示できます。
+
+Statistics Manager をインストールする前に、ソフトウェア、ネットワーク、ハードウェアの要件について理解していることを確認してください。 詳細については、「[Skype for Business Server用の統計マネージャーの計画」を](plan.md)参照してください。
+
 > [!NOTE]
-> 以前のバージョンの Statistics Manager からアップグレードする場合は、「アップグレード統計マネージャー」を参照[Skype for Business Server](upgrade.md)。 
-  
+> 以前のバージョンの Statistics Manager からアップグレードする場合は、「[Skype for Business Server用の Statistics Manager のアップグレード」を](upgrade.md)参照してください。
+
 > [!NOTE]
-> Statistics Manager Web サイトは、Internet Explorer 11+、Edge 20.10240+、および Chrome 46+ (現在の常緑樹バージョン) でテストされ、正しく動作します。 
-  
-統計マネージャーは、次のページからダウンロードできます [https://aka.ms/StatsManDownload](https://aka.ms/StatsManDownload)。 
-  
+> Statistics Manager Web サイトは、Internet Explorer 11 以降、Edge 20.10240 以降、Chrome 46 以降 (現在のエバーグリーン バージョン) でテストされ、正しく動作します。
+
+Statistics Manager はダウンロード可能です [https://aka.ms/StatsManDownload](https://aka.ms/StatsManDownload)。
+
 このトピックは、以下のセクションで構成されています。
-  
-- [統計マネージャーの展開](deploy.md#BKMK_Deploy)
-    
-- [展開のトラブルシューティング](deploy.md#BKMK_Troubleshoot)
-    
-- [自己署名証明書の作成](deploy.md#BKMK_SelfCert)
-    
-## <a name="deploy-statistics-manager"></a>統計マネージャーの展開
+
+- [Statistics Manager をデプロイする](deploy.md#BKMK_Deploy)
+
+- [デプロイのトラブルシューティング](deploy.md#BKMK_Troubleshoot)
+
+- [自己署名証明書を作成する](deploy.md#BKMK_SelfCert)
+
+## <a name="deploy-statistics-manager"></a>Statistics Manager をデプロイする
 <a name="BKMK_Deploy"> </a>
 
-Statistics Manager を展開するには、次の手順を実行します。
-  
-1. Redis インメモリ キャッシュ システムをインストールし、適切な証明書がインストールされていることを確認して、リスナー ホスト コンピューターを準備します。
-    
-2. ホスト コンピューターにリスナー サービスをインストールします。 
-    
+Statistics Manager をデプロイするには、次の手順に従います。
+
+1. Redis インメモリ キャッシュ システムをインストールし、適切な証明書がインストールされていることを確認して、リスナー ホスト マシンを準備します。
+
+2. ホスト コンピューターにリスナー サービスをインストールします。
+
 3. ホスト コンピューターに Web サイトをインストールします。
-    
-4. 監視する各コンピューター Skype for Business Serverエージェントをインストールします。
-    
+
+4. 監視する各Skype for Business Server コンピューターにエージェントをインストールします。
+
 5. 監視しているサーバーのトポロジをインポートします。
-    
+
 > [!NOTE]
-> Redis、Listener サービス、および Web サイトは、すべて同じホスト コンピューターにインストールする必要があります。 ホスト コンピューターにインストールされていないSkype for Business Serverしてください。 
-  
+> Redis、リスナー サービス、および Web サイトはすべて、同じホスト コンピューターにインストールされている必要があります。 ホスト コンピューターにSkype for Business Serverがインストールされていないことを確認します。
+
 ### <a name="prepare-the-listener-host-machine"></a>リスナー ホスト コンピューターを準備する
 
-ホスト コンピューターを準備するには、Redis インメモリ キャッシュ システムをインストールし、有効な証明書がコンピューター上にインストールされている必要があります。 Redis 3.0 の最新の安定したビルドをインストールしてください。 Statistics Manager バージョン 2.0 は Redis 3.2.100 でテストされました。 
-  
-1. 次のサイトから Redis をダウンロードします。 [https://github.com/MSOpenTech/redis](https://github.com/MSOpenTech/redis) 
-    
+ホスト コンピューターを準備するには、Redis メモリ内キャッシュ システムをインストールし、有効な証明書がマシン上にあることを確認する必要があります。 Microsoft では、Redis 3.0 の最新の安定したビルドをインストールすることをお勧めします。 Statistics Manager バージョン 2.0 は Redis 3.2.100 でテストされました。
+
+1. 次のサイトから Redis をダウンロードします [https://github.com/MSOpenTech/redis](https://github.com/MSOpenTech/redis)。
+
     署名されていないインストーラーは、次の場所からダウンロードできます。 [https://github.com/MSOpenTech/redis/releases](https://github.com/MSOpenTech/redis/releases)
-    
-    必要に応じて、署名されたバイナリは、一般的なパッケージ マネージャーである [Nuget](https://www.nuget.org/packages/Redis-64/) と [Choclatey を通じて利用できます](https://chocolatey.org/packages/redis-64)。
-    
+
+    署名されたバイナリは、 [Nuget](https://www.nuget.org/packages/Redis-64/) と [Choclatey](https://chocolatey.org/packages/redis-64) という一般的なパッケージ マネージャーから入手できます。
+
    - 指定された msi を実行し、プロンプトに従います。
-    
-   - ファイアウォール ルールを追加する場合は、このチェック ボックスをオンにしない。
-    
-2. リスナー サービスには証明書が必要です。 信頼できる証明機関によって署名された証明書を持つ必要があります。 
-    
-    自己署名証明書を使用する場合は、たとえば、「自己署名証明書を作成する」を [参照してください](deploy.md#BKMK_SelfCert)。
-    
-    エージェントは証明書の拇印検証を使用します (チェーン検証の代わりに)。 自己署名証明書を使用できるので、完全な証明書の検証は実行しません。
-    
-### <a name="install-the-listener-service"></a>リスナー サービスのインストール
 
-ホスト コンピューターにリスナー サービスをインストールするには、次のStatsManPerfAgentListener.msiを指定します。
-  
-1. 使用許諾契約書を確認し、同意する場合は、[使用許諾契約書の条項に同意する] を **選択** し、[次へ] をクリック **します**。 
-    
+   - ファイアウォール規則を追加するには、このチェック ボックスをオンにしないでください。
+
+2. リスナー サービスには証明書が必要です。 Microsoft では、信頼された証明機関によって署名された証明書があることを強くお勧めします。
+
+    自己署名証明書を使用する場合は、たとえば、ラボでのテスト用に自己署名証明書を [作成](deploy.md#BKMK_SelfCert)する方法に関する記事をご覧ください。
+
+    エージェントは証明書の拇印検証を使用します (チェーン検証の代わりに)。 自己署名証明書を使用できるため、完全な証明書検証は行われません。
+
+### <a name="install-the-listener-service"></a>リスナー サービスをインストールする
+
+StatsManPerfAgentListener.msiを実行し、次を指定して、ホスト マシンにリスナー サービスをインストールします。
+
+1. 使用許諾契約書を確認し、同意する場合は、 **使用許諾契約書の条項に同意する** を選択し、[ **次へ**] をクリックします。
+
 2. 次のページで、次の情報を指定します。
-    
-   - **サービス パスワード:** これは、リモート エージェントがリスナー サービスへの認証に使用するパスワードです。
-    
-   - **サービス ポート:** これは、リスナーがエージェントとの通信に使用する HTTPS ポート番号です。 インストール時に、このポートはローカル ファイアウォール経由で許可され、URL ACL が作成され、SSL 証明書はこのポートにバインドされます。 既定値は 8443 です。
-    
-   - **証明書の拇印:** これは、リスナーが HTTPS プロトコルの暗号化に使用する証明書の拇印です。 ネットワーク サービスには、プライベート キーへの読み取りアクセス権が必要です。
-    
-     [ **Select....] ボタン** をクリックして拇印を選択します。
-    
+
+   - **サービス パスワード:** このパスワードは、リモート エージェントがリスナー サービスに対して認証するために使用します。
+
+   - **サービス ポート:** この HTTPS ポート番号は、エージェントとの通信にリスナーによって使用されます。 インストール中、このポートはローカル ファイアウォール経由で許可され、URL ACL が作成され、SSL 証明書がこのポートにバインドされます。 既定値は 8443 です。
+
+   - **証明書の拇印:** この証明書は、HTTPS プロトコルを暗号化するためにリスナーによって使用されます。 Network Service には、秘密キーへの読み取りアクセス権が必要です。
+
+     **[選択]...** ボタンをクリックして拇印を選択します。
+
      証明書の拇印は、証明書マネージャーを使用するか、次の PowerShell コマンドを使用して確認できます。
-    
-       ```PowerShell
-       Get-ChildItem -path cert:\LocalMachine\My
-       ```
 
-   - **Install Dir:** これは、バイナリがインストールされるディレクトリです。 [参照...] ボタンを使用して、既定 **から変更** できます。
-    
-   - **AppData Dir:** これは、Logs フォルダーと他のデータが格納されるディレクトリです。 既定から変更できます。 アンインストール時に削除されません。
-    
+      ```PowerShell
+      Get-ChildItem -path cert:\LocalMachine\My
+      ```
+
+   - **Dir のインストール:** このディレクトリは、バイナリがインストールされる場所です。 **[参照]...** ボタンを使用して、既定から変更できます。
+
+   - **AppData Dir:** このディレクトリは、ログ フォルダーとその他のデータが格納される場所です。 既定値から変更できます。 アンインストール時には削除されません。
+
 3. **[インストール]** をクリックします。
-    
-インストールを検証するには、次の手順を実行します。
-  
-1. ブラウザーを開き、[ https://localhost:\<service-port\>/healthcheck/ ] に移動します。
-    
-    既定では、サービス ポートは 8443 です (別のポートを指定しない限り)。
-    
-2. リスナーが正しくインストールされていることを確認するには、次の情報を探します。
-    
-   - 正常性チェック ページが表示された場合は、リスナーのインストールが成功しました。
-    
+
+インストールを検証するには、次の手順に従います。
+
+1. ブラウザーを開き、`https://localhost:<service-port>/healthcheck/` に移動します。
+
+    既定では、サービス ポートは 8443 です (別のポートを指定した場合を除く)。
+
+2. リスナーが正しくインストールされていることを確認するには、次を探します。
+
+   - 正常性チェック ページが表示された場合、リスナーのインストールは成功しました。
+
    - KnownServerCount が 1 以上の場合、Redis への接続が確立されます。
-    
-   - 数分待った後、少なくとも 1 つのエージェントがインストールされた後で、Valueswritten カウンターがインクリメントされていることを確認します。
-    
-### <a name="install-the-website"></a>Web サイトのインストール
 
-[StatsManWebSite.msi (Skype for Business Server、Real-Time Statistics Manager (64 ビット)](https://www.microsoft.com/en-in/download/details.aspx?id=57518) に含まれる) を実行し、以下を指定して、ホスト コンピューターに Web サイトをインストールします。
-  
-1. 使用許諾契約書を確認し、同意する場合は、[使用許諾契約書の条項に同意する] を **選択** し、[次へ] をクリック **します**。 
-    
+   - 数分待ってから、少なくとも 1 つのエージェントがインストールされた後、ValuesWritten カウンターがインクリメントされていることを確認します。
+
+### <a name="install-the-website"></a>Web サイトをインストールする
+
+StatsManWebSite.msiを実行してホスト コンピューターに Web サイトをインストールします ([Skype for Business Server、Real-Time Statistics Manager (64 ビット)に](https://www.microsoft.com/download/details.aspx?id=57518)含まれています)。
+
+1. 使用許諾契約書を確認し、同意する場合は、 **使用許諾契約書の条項に同意する** を選択し、[ **次へ**] をクリックします。
+
 2. 次のページで、次の情報を指定します。
-    
-   - **サービス ポート:** これは、Web サイトがリッスンするポート番号です。 後で IIS マネージャー バインドを使用して変更できます。 インストール時に、このポートはローカル ファイアウォール経由で許可されます。
-    
-   - **Install Dir:** これは、バイナリがインストールされるディレクトリです。 [参照...] ボタンを使用して、既定 **から変更** できます。
-    
-   - **AppData Dir:** これは、Logs フォルダーと他のデータが格納されるディレクトリです。 既定から変更できます。 アンインストール時に削除されません。
-    
+
+   - **サービス ポート:** この TCP ポートは、Web サイトがリッスンする場所です。 後で IIS マネージャー バインドを使用して変更できます。 インストール中、このポートはローカル ファイアウォール経由で許可されます。
+
+   - **Dir のインストール:** このディレクトリは、バイナリがインストールされる場所です。 **[参照]...** ボタンを使用して、既定から変更できます。
+
+   - **AppData Dir:** このディレクトリは、ログ フォルダーとその他のデータが格納される場所です。 既定値から変更できます。 アンインストール時には削除されません。
+
 3. **[インストール]** をクリックします。
-    
-Web サイトを表示するには、ブラウザーを開き、[ http://localhost,webport/] に移動\>します。
-  
-正常性情報のみを表示するには、ブラウザーを開き、[/ http://localhost:\<webport\>healthcheck/] に移動します。
-  
+
+Web サイトを表示するには、ブラウザーを開き、次の場所に移動します `http://<localhost:webport/>`。
+
+正常性情報のみを表示するには、ブラウザーを開き、次の場所に移動します `http://localhost:<webport>/healthcheck/`。
+
 既定では、Web ポート番号は 8080 です。 IIS マネージャーを使用して、Web サイトのポート バインドを変更できます。
-  
-Web インストーラーは、StatsManWebSiteUsers というローカル セキュリティ グループを追加します。 このセキュリティ グループにアカウントを追加して、Web サイトへのアクセスを許可できます。 
-  
-### <a name="install-the-agents"></a>エージェントのインストール
 
-監視する各サーバーにエージェントSkype for Business Serverインストールするには、次のコマンドを実行StatsManPerfAgent.msiを指定します。
-  
-1. 使用許諾契約書を確認し、同意する場合は、[使用許諾契約書の条項に同意する] を **選択** し、[次へ] をクリック **します**。 
-    
+Web インストーラーは、StatsManWebSiteUsers と呼ばれるローカル セキュリティ グループを追加します。 このセキュリティ グループにアカウントを追加して、Web サイトへのアクセスを許可できます。
+
+### <a name="install-the-agents"></a>エージェントをインストールする
+
+StatsManPerfAgent.msiを実行して、監視する各Skype for Business Serverにエージェントをインストールします。
+
+1. 使用許諾契約書を確認し、同意する場合は、 **使用許諾契約書の条項に同意する** を選択し、[ **次へ**] をクリックします。
+
 2. 次のページで、次の情報を指定します。
-    
-   - **サービス パスワード:** これは、リモート エージェントがリスナー サービスへの認証に使用するパスワードです。
-    
-   - **サービス URI:** これは、リスナーが存在する URI です。 この形式を使用する必要 https://name:port があります。
-    
-     NETBIOS 名または FQDN を使用できます。 リスナー サービスで証明書のサブジェクトまたはサブジェクトの代替名として指定されている名前を使用できますが、これは要件ではありません。
-    
-   - **サービス拇印:** これは、リスナーが使用している SSL 証明書の拇印です。 エージェントは、この拇印を使用してリスナーに対する認証を行います。 (自己署名証明書を使用できるので、完全な証明書の検証は実行しません)。
-    
-   - **Install Dir:** これは、バイナリがインストールされるディレクトリです。 [参照...] ボタンを使用して、既定 **から変更** できます。
-    
-   - **AppData Dir:** これは、Logs フォルダーと暗号化されたファイルが格納password.txtディレクトリです。 既定の設定から変更できます。 アンインストール時に削除されません。
-    
+
+   - **サービス パスワード:** このパスワードは、リモート エージェントがリスナー サービスに対する認証に使用します。
+
+   - **サービス URI:** この URL は、リスナーが存在する場所です。 `https://name:port` 演算子は次の形式で使用します。
+
+     NETBIOS 名または FQDN を使用できます。 リスナー サービスの証明書の **サブジェクト** または **サブジェクトの別名** としても指定されている名前を使用できますが、これは要件ではありません。
+
+   - **サービス拇印:** この SS: 証明書はリスナーによって使用されます。 エージェントはこの拇印を使用してリスナーに対する認証を行います。 自己署名証明書を使用できるため、完全な証明書検証は行われません。
+
+   - **Dir のインストール:** このディレクトリは、バイナリがインストールされる場所です。 **[参照]...** ボタンを使用して、既定から変更できます。
+
+   - **AppData Dir:** このディレクトリは、ログ フォルダーと暗号化されたpassword.txt ファイルが格納される場所です。 既定値から変更してもかまいません。 アンインストール時には削除されません。
+
 3. **[インストール]** をクリックします。
-    
-多数のコンピューターにエージェントをインストールする場合は、無人モードでこれを行う必要があります。 次に例を示します。 
-  
+
+多数のマシンにエージェントをインストールする場合は、無人モードでこれを行う必要があります。 例として以下のようなものがあります。
+
 ```console
-msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> SERVICE_PASSWORD=<password> SERVICE_URI=https://<hostname>:<servicePort>/[INSTALLDIR=<directory>][DIR_  STATSMANAPPDATA=<directory>]
+msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> SERVICE_PASSWORD=<password> SERVICE_URI=https://<hostname>:<servicePort>/[INSTALLDIR=<directory>][DIR_STATSMANAPPDATA=<directory>]
 ```
 
-### <a name="import-the-topology"></a>トポロジのインポート
+### <a name="import-the-topology"></a>トポロジをインポートする
 <a name="BKMK_ImportTopology"> </a>
 
-Statistics Manager をインストールして実行した後、統計マネージャーが各サーバーのサイト、プール、および役割を知Skype for Business Serverトポロジをインポートする必要があります。 Skype for Business Server トポロジをインポートするには、[Get-CsPool](/powershell/module/skype/get-cspool?view=skype-ps) コマンドレットを使用して、組織内で使用されている各プールに関する情報を取得し、この情報を統計マネージャーにインポートします。
-  
-トポロジをインポートSkype for Business Server、次の手順を実行します。
-  
-1. PowerShell コマンドレットを使用するホストSkype for Business Server次のコマンドを実行します。
-    
-    a. 次のコマンドを実行します。 
-    
+Statistics Manager をインストールして実行した後、Statistics Manager が各サーバーのサイト、プール、およびロールを認識できるように、Skype for Business Server トポロジをインポートする必要があります。 Skype for Business Server トポロジをインポートするには、[Get-CsPool](/powershell/module/skype/get-cspool) コマンドレットを使用して組織内で使用されている各プールに関する情報を取得し、この情報を Statistics Manager にインポートします。
+
+Skype for Business Server トポロジをインポートするには、次の手順に従います。
+
+1. Skype for Business Server PowerShell コマンドレットを持つホストで、次の操作を行います。
+
+    a. 次のコマンドを実行します。
+
    ```PowerShell
    Get-CsPool | Export-Clixml -Path mypoolinfo.xml
    ```
-    b. "mypoolinfo.xml" ファイルをリスナーを実行するサーバーにコピーします。
-    
-2. リスナーを実行するホストで、次のコマンドを実行します。
-    
-   a. PowerShell を実行します。
-    
-   b. リスナーがインストールされているディレクトリに移動します。 既定値は次の値です。 
-    
+
+    b. "mypoolinfo.xml" ファイルを、リスナーを実行するサーバーにコピーします。
+
+2. リスナーを実行するホストで、次の手順を実行します。
+
+   a.  PowerShell を実行します。
+
+   b. リスナーがインストールされているディレクトリに移動します。 既定値は次のとおりです。
+
    ```console
    cd C:\Program Files\Skype for Business Server StatsMan Listener
    ```
 
-3. 追加および更新されるサーバーを確認するには、次のコマンドを実行します。
-    
+3. 追加および更新するサーバーを確認するには、次のコマンドを実行します。
+
    ```console
-    .\Update-StatsManServerInfo.ps1 -CsPoolFile  <path to mypoolinfo.xml>
+   .\Update-StatsManServerInfo.ps1 -CsPoolFile  <path to mypoolinfo.xml>
    ```
 
 次のコマンドを使用すると、すべてのオプションを表示できます。
-  
+
 ```powershell
-Get-Help .\Update-StatsManServerInfo.ps1 -Detailed 
+Get-Help .\Update-StatsManServerInfo.ps1 -Detailed
 ```
 
-現在インポートされているサーバー情報を表示するには、次のスクリプトを実行します。 
-  
+現在インポートされているサーバー情報を表示するには、次のスクリプトを実行します。
+
 ```powershell
 .\Get-StatsManServerInfo.ps1
 ```
 
-Skype for Business Server トポロジ (Exchange Server) に含されていないサーバーを監視する場合は、リスナーを実行するホストで単一サーバーインポートを実行できます。 単一サーバーのインポートを実行するには、次の手順を実行します。
-  
-1. リスナーがインストールされているディレクトリに移動します。 既定値は次の値です。 
-    
+Skype for Business Server トポロジに含まれていないサーバー (たとえば、Exchange Server) を監視する場合は、リスナーを実行するホストに対して単一サーバー インポートを実行できます。 単一サーバーのインポートを実行するには、次の手順に従います。
+
+1. リスナーがインストールされているディレクトリに移動します。 既定値は次のとおりです。
+
    ```console
    cd C:\Program Files\Skype for Business Server StatsMan Listener
    ```
 
 2. 次のコマンドを実行します。
-    
+
    ```powershell
-    .\Update-StatsManServerInfo.ps1 -HostName <hostname> -SiteName <name of site> -PoolName <poolName> -Roles <role1>[,<role2>,<roleN>]
+   .\Update-StatsManServerInfo.ps1 -HostName <hostname> -SiteName <name of site> -PoolName <poolName> -Roles <role1>[,<role2>,<roleN>]
    ```
 
-## <a name="troubleshoot-your-deployment"></a>展開のトラブルシューティング
+## <a name="troubleshoot-your-deployment"></a>デプロイのトラブルシューティング
 <a name="BKMK_Troubleshoot"> </a>
 
-エージェントの起動に失敗した場合は、次の情報を確認します。 
-  
-- エージェントは統計マネージャーに登録されていますか?
-    
-    1. トポロジをインポートする手順に従ってください。 「 [トポロジのインポート」を参照してください](deploy.md#BKMK_ImportTopology)。
-        
-    2. エージェントがトポロジにリストされていないサーバー (たとえば、SQL AlwaysOn クラスター内のノード) にある場合は、「トポロジのインポート」の手順に従って手動でエージェントを追加する必要があります。[](deploy.md#BKMK_ImportTopology)
-    
+エージェントの起動に失敗した場合は、次の問題を確認します。
+
+- エージェントは Statistics Manager に登録されていますか?
+
+   1. トポロジをインポートする手順に従っていることを確認します。 [「トポロジをインポートする」を参照してください](deploy.md#BKMK_ImportTopology)。
+
+   2. エージェントがトポロジに一覧表示されていないサーバー上にある場合 (たとえば、SQL AlwaysOn クラスター内のノード)、トポロジのインポートの手順に従ってエージェントを手動で追加[する必要があります](deploy.md#BKMK_ImportTopology)。
+
 - エージェントはリスナーに連絡できますか?
-    
-    1. リスナー サービスが実行されている必要があります。 
-        
-        実行されていない場合は、Redis が実行されている状態を確認し、リスナーの再起動を試みる。
-        
-    2. ポートがリスナー サービスに対して開いていると、エージェント コンピューターがポートと通信可能なポートを確認します。
-    
-- 統計マネージャーがデータを収集するために、CSV ファイルを次のように確認できます。 
-    
-    次のコマンドは、カウンター ストレージ名を取得します。 
-    
+
+   1. リスナー サービスが実行されていることを確認します。
+
+      実行されていない場合は、Redis が実行されていることを確認してから、リスナーの再起動を試みます。
+
+   2. ポートがリスナー サービスに対して開かれていることを確認し、エージェント コンピューターがポートと通信できることを確認します。
+
+- Statistics Manager がデータを収集していることを確認するには、次のように CSV ファイルを確認します。
+
+    次のコマンドは、カウンター ストレージ名を取得します。
+
   ```console
   .\PerfAgentStorageManager.exe -redis=localhost -a=listcounterstoragenames -mode=verbose | findstr /i processor
   ```
 
-    次のコマンドは、指定したカウンターの値を取得します。 
-    
+    次のコマンドは、指定したカウンターの値を取得します。
+
   ```console
   .\PerfAgentStorageManager.exe -redis=localhost -a=getcountervalues  -counter="\\*\Processor Information\% Processor Time_Mean_Mean\_Total" -file:all-processor.csv
   ```
 
-アプリケーション イベント ログに表示される可能性があるすべてのイベントの詳細については、「統計マネージャーのトラブルシューティング」を参照[Skype for Business Server](troubleshoot.md)。
-  
-## <a name="create-a-self-signed-certificate"></a>自己署名証明書の作成
+アプリケーション イベント ログに表示されるすべてのイベントの詳細については、「[Skype for Business Serverの Statistics Manager のトラブルシューティング」を](troubleshoot.md)参照してください。
+
+## <a name="create-a-self-signed-certificate"></a>自己署名証明書を作成する
 <a name="BKMK_SelfCert"> </a>
 
-Microsoft では、信頼できる証明機関によって署名された証明書を使用する必要があります。 ただし、テスト目的で自己署名証明書を使用する場合は、次の操作を行います。 
-  
-1. 管理者としてログオンしている間に PowerShell コンソールから、次のように入力します。
-    
+Microsoft では、信頼された証明機関によって署名された証明書を使用することを強くお勧めします。 ただし、テスト目的で自己署名証明書を使用する場合は、次の手順に従います。
+
+1. 管理者としてログオンしているときに PowerShell コンソールから、次のコマンドを実行します。
+
    ```powershell
    New-SelfSignedCertificate -DnsName StatsManListener -CertStoreLocation Cert:\LocalMachine\My
    ```
 
-2. Type  `certlm.msc`. これにより、ローカル コンピューターの証明書マネージャーが開きます。
-    
-3. [個人用] **に移動** し、[証明書] **を開きます**。
-    
-4. [**StatsManListener-All Tasks-Manage\>\> Private Keys..] を右クリックします。**
-    
+2. 型  `certlm.msc`. これにより、ローカル コンピューターの証明書マネージャーが開きます。
+
+3. **[個人用**] に移動し、[**証明書]** を開きます。
+
+4. **StatsManListener - [すべてのタスク] - \> \>[秘密キーの管理**] を右クリックします。..
+
 5. **[追加]** をクリックします。
-    
-6. [選択 **するオブジェクト名を入力する] ボックス** に、次の値を入力します。
-    
+
+6. [ **選択するオブジェクト名を入力** します] ボックスに、次のテキストを入力します。
+
 7. [**OK**] をクリックします。
-    
-8. [ **フル コントロール] で**、[許可] チェック ボックス **を** オフにします。 (読み取りアクセスのみ必要です。
-    
+
+8. [ **フル コントロール] で**、[ **許可** ] チェック ボックスをオフにします。 (読み取りアクセスのみが必要です。)
+
 9. [**OK**] をクリックします。
-    
+
 ## <a name="for-more-information"></a>関連情報
 <a name="BKMK_SelfCert"> </a>
 
-詳細については、次のトピックを参照してください。
-  
+詳細については、次のトピックをご覧ください。
+
 - [Skype for Business Server の Statistics Manager の計画](plan.md)
-    
+
 - [Skype for Business Server の Statistics Manager のアップグレード](upgrade.md)
-    
-- ß [の統計マネージャーのSkype for Business Server](troubleshoot.md)する
+
+- [Skype for Business Server の Statistics Manager のトラブルシューティング](troubleshoot.md)

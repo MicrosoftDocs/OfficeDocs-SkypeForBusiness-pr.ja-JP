@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ebbac20f7306aa5014aa5703a57813e3c631a9d3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1ebcf7c6595da3e1774571be4c65a796838115b3
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601222"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675719"
 ---
 # <a name="microsoft-365-and-office-365-urls-and-ip-address-ranges"></a>URL と IP アドレス範囲のMicrosoft 365とOffice 365
 

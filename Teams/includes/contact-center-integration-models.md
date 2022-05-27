@@ -20,22 +20,21 @@ Connect モデルでは、Microsoft 認定の SBC とダイレクト ルーテ�
 
 これらの機能は、この統合モデルの機能の包括的な一覧ではありませんが、主な領域は次のとおりです。
 
-  - エージェントが統合された CCaaS クライアントから Microsoft テナントに接続するための authN をOffice 365する 
+- エージェントが統合された CCaaS クライアントから Microsoft テナントに接続するための authN をOffice 365する
 
-  - Teamsでエージェントを使用できるタイミングを確認する
+- Teamsでエージェントを使用できるタイミングを確認する
 
-  - Teamsでの転送とグループ通話のサポート 
+- Teamsでの転送とグループ通話のサポート
 
-  - Teams との統合のための Teams Graph API とクラウド通信 API 
+- Teams との統合のための Teams Graph API とクラウド通信 API
 
-  - ソリューション プロバイダーの SBC で複数の顧客をサポートするためのマルチテナント SIP トランキング。  
+- ソリューション プロバイダーの SBC で複数の顧客をサポートするためのマルチテナント SIP トランキング。
 
-  - [<span class="underline">Microsoft 認定セッション ボーダー コントローラー (SBC)</span> を使用するソリューション プロバイダー](../direct-routing-border-controllers.md)
-
+- [<span class="underline">Microsoft 認定セッション ボーダー コントローラー (SBC)</span> を使用するソリューション プロバイダー](../direct-routing-border-controllers.md)
 
 ### <a name="the-extend-model"></a>[**拡張モデル**](#tab/extend)
 
-Extend モデルは、Microsoft GraphのTeams クライアント プラットフォーム、[Teams Graph API](/graph/api/resources/teams-api-overview?view=graph-rest-1.0)、[Cloud Communications API](/graph/api/resources/communications-api-overview?view=graph-rest-1.0) を使用して、Teams [クライアント](/microsoftteams/platform/overview)と統合されます。 延長モデルでは、すべての連絡先センター通話と通話制御エクスペリエンスにTeams電話システムも使用され、連絡先センター ソリューション プロバイダーはMicrosoft 365と共にテレフォニーキャリアとして機能します。
+Extend モデルは、Microsoft GraphのTeams クライアント プラットフォーム、[Teams Graph API](/graph/api/resources/teams-api-overview)、[Cloud Communications API](/graph/api/resources/communications-api-overview) を使用して、Teams [クライアント](/microsoftteams/platform/overview)と統合されます。 延長モデルでは、すべての連絡先センター通話と通話制御エクスペリエンスにTeams電話システムも使用され、連絡先センター ソリューション プロバイダーはMicrosoft 365と共にテレフォニーキャリアとして機能します。
 
 エージェントは、内部コラボレーションと外部コミュニケーションにTeamsを使用でき、エンゲージメントを開始する前に複数のシステムのデータを関連付ける動的なコンテキスト ノートの恩恵を受け、コストのかかるコンテキストの切り替えを回避できます。
 
@@ -45,21 +44,21 @@ Extend モデルは、Microsoft GraphのTeams クライアント プラットフ
 
 これらの機能は、この統合モデルの機能の包括的な一覧ではありませんが、主な領域は次のとおりです。
 
-  - Teams との統合のための Teams Graph API とクラウド通信 API 
+- Teams との統合のための Teams Graph API とクラウド通信 API
 
-  - エージェント エクスペリエンス用のTeams ベースのアプリ 
+- エージェント エクスペリエンス用のTeams ベースのアプリ
 
-  - エージェントのプライマリ通話エンドポイントとしての Teams 
+- エージェントのプライマリ通話エンドポイントとしての Teams
 
-  - すべての通話コントロールを対象とした Teams クライアントの呼び出し
+- すべての通話コントロールを対象とした Teams クライアントの呼び出し
 
-  - Teams Web クライアントとモバイル クライアントの両方のエージェント エクスペリエンス アプリ
+- Teams Web クライアントとモバイル クライアントの両方のエージェント エクスペリエンス アプリ
 
-  - Teamsの CCaaS アプリのエージェントの分析、ワークフロー管理、ロールベースのエクスペリエンス
+- Teamsの CCaaS アプリのエージェントの分析、ワークフロー管理、ロールベースのエクスペリエンス
 
-  - Teams クライアントと統合されたチャットと共同作業操作 
+- Teams クライアントと統合されたチャットと共同作業操作
 
-  - すべてのアプリでの Teams クライアント操作のパフォーマンスと品質の維持  
+- すべてのアプリでの Teams クライアント操作のパフォーマンスと品質の維持
 
 ### <a name="the-power-model"></a>[**Power モデル**](#tab/power)
 
@@ -69,13 +68,13 @@ Power モデルを使用すると、ソリューション プロバイダーは�
 
 これらの機能は、この統合モデルの機能の包括的な一覧ではありませんが、主な領域は次のとおりです。
 
-  - 正式なエージェントでは、Teams SDK を介してオムニチャネル通信がネイティブで有効になります 
+- 正式なエージェントでは、Teams SDK を介してオムニチャネル通信がネイティブで有効になります
 
-  - Teams コラボレーション サービスを使用して、エージェントのコラボレーションと顧客との対話を行う  
+- Teams コラボレーション サービスを使用して、エージェントのコラボレーションと顧客との対話を行う
 
-  - クラウド サービスの迅速なプロビジョニング、どこからでも展開 
+- クラウド サービスの迅速なプロビジョニング、どこからでも展開
 
-  - Teams での会話中に、直接会話を制御し、対話することができます 
+- Teams での会話中に、直接会話を制御し、対話することができます
 
->[!NOTE]
+> [!NOTE]
 > Power モデルは、2021 年末に利用可能になります。

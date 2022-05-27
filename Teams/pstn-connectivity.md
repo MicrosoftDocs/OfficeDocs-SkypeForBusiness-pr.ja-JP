@@ -24,12 +24,12 @@ search.appverid: MET150
 description: 通話 (PSTN 接続) オプションTeams詳細と、組織で行う決定事項について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28cb740146fc23f3dfdda35c35f280cba8a950c4
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.openlocfilehash: f37265a445a4b7361cdda8e6729944bb5250b029
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763751"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675809"
 ---
 # <a name="pstn-connectivity-options"></a>PSTN 接続オプション
 
@@ -41,17 +41,15 @@ PSTN に電話システム接続するには、次のオプションから選択
 
 - [**プランの呼び出し**](#phone-system-with-calling-plan)。 MICROSOFT を PSTN 通信事業者として使用する、クラウド内のオール イン ソリューション。
 
-- [**オペレーター接続**](#phone-system-with-operator-connect)。 オペレーター接続では、既存の通信事業者が Microsoft オペレーター接続 プログラムに参加している場合、PSTN 通話とセッション ボーダー コントローラー (SBC) を管理できます。 
+- [**オペレーター接続**](#phone-system-with-operator-connect)。 オペレーター接続では、既存の通信事業者が Microsoft オペレーター接続 プログラムに参加している場合、PSTN 通話とセッション ボーダー コントローラー (SBC) を管理できます。
 
 - [**ダイレクト ルーティング**](#phone-system-with-direct-routing)。これにより、セッション ボーダー コントローラー (SBC) を 電話システムに接続して、独自の PSTN 通信事業者を使用できます。
-
 
 オプションの組み合わせを選択することもできます。これにより、複雑な環境のソリューションを設計したり、複数ステップの移行を管理したりできます。
 
 選択するオプションは、一部の電話システム機能の構成方法に影響します。 詳細については、この記事の後半の [「構成に関する考慮事項」を](#configuration-considerations) 参照してください。
 
-
-## <a name="phone-system-with-calling-plan"></a>通話プランを使用した電話システム 
+## <a name="phone-system-with-calling-plan"></a>通話プランを使用した電話システム
 
 通話プランの電話システムは、Teams ユーザー向けの Microsoft のオール イン クラウド音声ソリューションです。 このソリューションは、電話システムを PSTN に接続する最も簡単なオプションです。 このオプションを使用すると、次の図に示すように、Microsoft は PSTN 通信事業者として機能します。
 
@@ -63,11 +61,11 @@ PSTN に電話システム接続するには、次のオプションから選択
 - 現在の PSTN 通信事業者を保持する必要はありません。
 - PSTN への Microsoft マネージド アクセスを使用する必要があります。
 
-このオプションを使用すると、次のようになります。 
+このオプションを使用すると、次のようになります。
 
 - (ライセンスされているサービスのレベルに応じて) 世界中の電話への通話を可能にする追加の国内通話プランまたは国際通話プランを使用して電話システムを取得します。
 
-- 通話プランがMicrosoft 365で動作するからといって、オンプレミスのデプロイのデプロイ&mdash;やメンテナンスは必要ありません。
+- 計画の呼び出しがMicrosoft 365外で動作するため、オンプレミスのデプロイのデプロイ&mdash;やメンテナンスは必要ありません。
 
 - 注: サポートされているセッション ボーダー コントローラー (SBC) をダイレクト ルーティングを介して接続して、SBC でサポートされているサードパーティの PBX、アナログ デバイス、およびその他のテレフォニー機器との相互運用性を実現できます。
 
@@ -80,7 +78,6 @@ PSTN に電話システム接続するには、次のオプションから選択
 - [通話プランが利用可能な国と地域](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [通話プランを設定する](set-up-calling-plans.md)
 
-
 ## <a name="phone-system-with-operator-connect"></a>オペレーター接続を使用した電話システム
 
 オペレーター接続を使用すると、既存の通信事業者が Microsoft オペレーター接続 プログラムに参加している場合、PSTN 通話をTeamsに持ち込むサービスを管理できます。 通信事業者は PSTN 通話サービスとセッション ボーダー コントローラー (SBC) を管理し、ハードウェアの購入と管理を節約できます。
@@ -92,7 +89,6 @@ PSTN に電話システム接続するには、次のオプションから選択
 - Teamsで通話を有効にする新しい通信事業者を見つける必要があります。
 
 オペレーター接続の利点と要件、およびこのプログラムに参加している運送業者の一覧については、「[計画オペレーター接続](operator-connect-plan.md)」を参照してください。 オペレーター接続を構成する方法については、「[オペレーター接続の構成」を](operator-connect-configure.md)参照してください。
-
 
 ## <a name="phone-system-with-direct-routing"></a>ダイレクト ルーティングを使用した電話システム
 
@@ -115,7 +111,7 @@ PSTN に電話システム接続するには、次のオプションから選択
 
 - このオプションを構成および管理することも、通信事業者またはパートナーによって構成および管理することもできます (通信事業者またはパートナーがこのオプションを提供しているかどうかを確認してください)。
 
-- テレフォニー機器&mdash;間の相互運用性は、サード パーティ製 PBX やアナログ デバイス&mdash;、電話システムとして構成できます。
+- サードパーティの PBX やアナログ デバイス&mdash;、電話システムなどのテレフォニー機器&mdash;間の相互運用性を構成できます。
 
 このオプションには、次のものが必要です。
 
@@ -134,8 +130,6 @@ PSTN に電話システム接続するには、次のオプションから選択
 - [ダイレクト ルーティングの場所に基づくルーティングを計画する](location-based-routing-plan.md)
 - [ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト](direct-routing-border-controllers.md)
 
-
-
 ## <a name="configuration-considerations"></a>構成に関する考慮事項
 
 ほとんどの電話システム機能は、選択した PSTN 接続オプションに関係なく同じです。 たとえば、未応答の通話と転送の設定、通話転送、保留状態のカスタム音楽、コール パーク、共有回線、音声アプリはすべて利用できます。 電話システム機能の完全な一覧については、「[電話システムで得られる](here-s-what-you-get-with-phone-system.md)機能を次に示します。
@@ -146,11 +140,9 @@ PSTN に電話システム接続するには、次のオプションから選択
 
 | オプション | 説明 | 電話番号の管理 | 通話ルーティング | 緊急通話の可用性 |
 | :------------| :-------| :-------| :-------| :-------| 
-| 通話プラン | -Microsoft は PSTN 通信事業者として機能します。<br>-SBC を購入または管理する必要はありません。| Microsoft を通じて取得。| -Managed by Microsoft。 <br> -Admin は、番号変換用にユーザー ダイヤル プランを構成します。 | -Microsoft によって有効になっています。 <br> -Admin はアドレスを登録します。 <br> -Dynamic 呼び出しがサポートされています。 |
-| オペレーター接続 | -Carrier は PSTN 接続と SBC を管理します。 <br> -SBC を購入または管理する必要はありません。 | -キャリアを介して取得します。 <br> - キャリアによって管理される緊急対応アドレスに関連付けられている番号。   | -Managed by Carrier。 <br>-Admin は、番号変換用にユーザー ダイヤル プランを構成します。 | -Carrier によって有効になっています。 <br> -Admin はアドレスを登録します。 <br> -Dynamic 呼び出しがサポートされています。 |
-| ダイレクト ルーティング | -サード パーティベンダーから購入した認定 SBC が必要です。<br>-SBC を電話システムにConnectします。<br> -既存の PSTN 通信事業者を使用します。 | キャリアを介して取得されます。 | -管理者による追加の構成が必要です。<br>-Admin は、番号変換用にトランク ダイヤル プランを構成します。 <br>-LBR は有料バイパスを制限するために使用できます。 | -管理者による追加の構成が必要です。 <br>-登録済みのアドレスはサポートされていません。 <br>-動的呼び出しはサポートされていますが、追加の構成が必要です。 |
-|||||
-
+| 通話プラン | -Microsoft は PSTN 通信事業者として機能します。<br>-SBC を購入または管理する必要はありません。| Microsoft を通じて取得。| -Managed by Microsoft。 <br> -管理は、番号変換用のユーザー ダイヤル プランを構成します。 | -Microsoft によって有効になっています。 <br> -管理 アドレスを登録します。 <br> -Dynamic 呼び出しがサポートされています。 |
+| オペレーター接続 | -Carrier は PSTN 接続と SBC を管理します。 <br> -SBC を購入または管理する必要はありません。 | -キャリアを介して取得します。 <br> - キャリアによって管理される緊急対応アドレスに関連付けられている番号。 | -Managed by Carrier。 <br>-管理は、番号変換用のユーザー ダイヤル プランを構成します。 | -Carrier によって有効になっています。 <br> -管理 アドレスを登録します。 <br> -Dynamic 呼び出しがサポートされています。 |
+| ダイレクト ルーティング | -サード パーティベンダーから購入した認定 SBC が必要です。<br>-SBC を電話システムにConnectします。<br> -既存の PSTN 通信事業者を使用します。 | キャリアを介して取得されます。 | -管理者による追加の構成が必要です。<br>-管理は、番号変換用のトランク ダイヤル プランを構成します。 <br>-LBR は有料バイパスを制限するために使用できます。 | -管理者による追加の構成が必要です。 <br>-登録済みのアドレスはサポートされていません。 <br>-動的呼び出しはサポートされていますが、追加の構成が必要です。 |
 
 ### <a name="phone-number-management"></a>電話番号の管理
 
@@ -170,7 +162,6 @@ Microsoft には、組織内のユーザーに割り当てることができる�
 
 - ダイレクト ルーティングの電話番号の管理の詳細については、「電話番号 [を構成してエンタープライズ音声を有効にする](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice)」を参照してください。
 
-
 ### <a name="call-routing-and-dial-plans"></a>通話ルーティングとダイヤル プラン
 
 通話ルーティングの構成方法は、PSTN 接続オプションによって異なります。  
@@ -181,7 +172,6 @@ Microsoft には、組織内のユーザーに割り当てることができる�
 
 - ダイレクト ルーティングの場合は、音声ルートを指定し、音声ルーティング ポリシーをユーザーに割り当てることで、通話ルーティングを構成する必要があります。 番号変換のダイヤル プランをトランク レベルで構成して、セッション ボーダー コントローラー (SBC) との相互運用性を確保できます。 詳細については、「 [ダイレクト ルーティングの音声ルーティングの構成](direct-routing-voice-routing.md)、 [音声ルーティング ポリシーの管理](manage-voice-routing-policies.md) 、 [および電話番号の変換](direct-routing-translate-numbers.md)」を参照してください。 
 
-
 ### <a name="location-based-routing-for-direct-routing"></a>ダイレクト ルーティングのLocation-Based ルーティング
 
 一部の国と地域では、PSTN 通信事業者をバイパスして、長距離通話コストを削減することは違法です。 ダイレクト ルーティングのLocation-Based ルーティング (LBR) を使用すると、地理的な場所に基づいてTeamsユーザーの有料バイパスを制限できます。 LBR を計画および構成する方法の詳細については、次の記事を参照してください。
@@ -191,7 +181,6 @@ Microsoft には、組織内のユーザーに割り当てることができる�
 - [ダイレクト ルーティングの場所に基づくルーティングを有効にする](location-based-routing-enable.md)
 - [Contoso のケース スタディ: Location-Based ルーティング](voice-case-study-location-based-routing.md)<br>
   架空の多国籍企業 Contoso が組織のルーティングLocation-Based実装した方法について説明します。
-
 
 ### <a name="emergency-calling"></a>緊急通話
 
@@ -212,13 +201,9 @@ Microsoft には、組織内のユーザーに割り当てることができる�
 - [Contoso のケース スタディ: 緊急通話](voice-case-study-emergency-calling.md)<br>
   架空の多国籍企業 Contoso が、組織の緊急呼び出しを実装した方法について説明します。
 
-
 ### <a name="network-topology-for-voice-features"></a>音声機能のネットワーク トポロジ
 
 動的緊急通報またはダイレクト ルーティングのLocation-Basedルーティングを展開する場合は、Microsoft Teamsでこれらの機能のネットワーク設定を構成する必要があります。 ネットワーク リージョン、ネットワーク サイト、ネットワーク サブネット、信頼された IP アドレスのネットワーク設定を構成する方法については、次の記事を参照してください。
 
 - [Microsoft Teamsのクラウド音声機能のネットワーク設定 - 概念と用語](cloud-voice-network-settings.md)
 - [Microsoft Teamsでクラウド音声機能のネットワーク トポロジを管理する](manage-your-network-topology.md)
-
-
-

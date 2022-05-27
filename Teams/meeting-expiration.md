@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 会議ポリシー設定を使用して、Microsoft Teamsでの会議の有効期限を制御する方法について説明します。
-ms.openlocfilehash: 014989cd2fda0ce28ef96ee53c82908f814ee8c7
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 08cdcd9b7d7f18dafa468bd33ca065dafb5768a6
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646216"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675359"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Microsoft Teamsでの会議ポリシーと会議の有効期限
 
@@ -131,7 +131,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 
 ### <a name="will-this-feature-enforce-file-retention"></a>この機能はファイルの保持を強制しますか?
 
-いいえ。この機能またはその設定により、ファイルは保持されません。 削除権限を持つユーザーが、有効期限が設定された TMR を削除しようとした場合、そのユーザーの削除アクションが実行されます。
+いいえ。この機能またはその設定により、ファイルは保持されません。 削除アクセス許可を持つユーザーが有効期限設定を持つ TMR を削除しようとすると、そのユーザーの削除アクションが実行されます。
 
 ### <a name="what-skus-are-required-for-this-feature"></a>この機能に必要な SKU は何ですか?
 

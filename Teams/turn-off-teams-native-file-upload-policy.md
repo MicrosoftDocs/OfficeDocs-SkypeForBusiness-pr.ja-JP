@@ -15,23 +15,23 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64bd9d23527ef1a63df4f258e89de5e60862a878
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: 2b6089e93b4754fa35edaa9befb5cfa6bb176238
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62192496"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681908"
 ---
 # <a name="turn-off-teams-native-file-upload-policy"></a>ネイティブ ファイル アップロード ポリシー Teamsオフにする
 
-Microsoft TeamsはOneDriveとSharePoint (ODSP) を使用してコンテンツを保存および共有しますが、一部の組織やユーザーはサード パーティのストレージ プロバイダーを使用することを好む場合があります。  
+Microsoft Teamsでは、コンテンツの保存と共有にOneDriveとSharePointを使用しますが、一部の組織やユーザーはサード パーティのストレージ プロバイダーを使用することを好む場合があります。  
 
-組織がコンテンツ ストレージのサード パーティを選択した場合は、Teams Files ポリシーでパラメーターをオフ``NativeFileEntryPoints``にする必要があります。 このパラメーターは既定で有効になっており、ODSP から Teams チャットまたはチャネルにコンテンツをアップロードするオプションが表示されます。
+組織がコンテンツ ストレージのサード パーティを選択した場合は、Teams Files ポリシーでパラメーターをオフ`NativeFileEntryPoints`にする必要があります。 このパラメーターは既定で有効になっており、OneDriveまたはSharePointからTeams チャットやチャネルにコンテンツをアップロードするオプションが表示されます。
 
-この記事では、PowerShell を使用してパラメーターを作成、設定、割り当て、削除 ``NativeFileEntryPoints`` する方法について説明します。
+この記事では、PowerShell を使用してパラメーターを作成、設定、割り当て、削除 `NativeFileEntryPoints` する方法について説明します。
 
 >[!NOTE]
->Teams ファイル ポリシーがオフになっていると、ユーザーはTeamsにOneDriveとSharePoint (ODSP) のアクセス ポイントを表示しませんが、新しいチームとチャネルを作成すると、一致するSharePoint ライブラリの生成が引き続きトリガーされます。
+>Teams ファイル ポリシーがオフになっていると、ユーザーはTeamsにOneDriveとSharePointのアクセス ポイントを表示しませんが、新しいチームとチャネルを作成すると、一致するSharePoint ライブラリの生成が引き続きトリガーされます。
 
 ## <a name="prepare-to-update-the-teams-files-policy"></a>Teams ファイル ポリシーを更新する準備をする
 
@@ -45,7 +45,7 @@ Teams PowerShell モジュールをインストールまたはダウンロード
 
 Teams管理用に PowerShell を設定する方法の詳細については、「Microsoft Teams [PowerShell でTeamsを管理](teams-powershell-managing-teams.md)する」を参照してください。
 
-### <a name="allow-third-party-apps-in-teams-admin-center"></a>Teams管理センターでサード パーティ製アプリを許可する
+### <a name="allow-third-party-apps-in-teams-admin-center"></a>Teams 管理 センターでサード パーティ製アプリを許可する
 
 この手順は、Teams ファイル ポリシーを変更する必要はありませんが、サード パーティのストレージ プロバイダーをユーザーのTeams エクスペリエンスに統合する準備ができたら必須です。
 
@@ -55,11 +55,11 @@ Microsoft 365 テナント管理者は、Teams管理センターで "サード�
 
 ## <a name="turn-off-nativefileentrypoints-for-your-entire-tenant"></a>テナント全体の NativeFileEntryPoints をオフにする
 
-パラメーターを ``-Identity`` 設定すると ``Global`` 、組織内のすべてのユーザーにポリシー設定が適用されます。
+パラメーターを `-Identity` 設定すると `Global` 、組織内のすべてのユーザーにポリシー設定が適用されます。
 
 ### <a name="sample-powershell-policy-cmdlet-for-entire-tenant"></a>テナント全体の PowerShell ポリシー コマンドレットのサンプル
 
-このサンプル PowerShell コマンドは、テナント全体の``NativeFileEntryPoints`` パラメーターを ``Disabled`` 設定します。
+このサンプル PowerShell コマンドは、テナント全体の`NativeFileEntryPoints` パラメーターを `Disabled` 設定します。
 
 ```powershell
 Set-CsTeamsFilesPolicy -Identity Global -NativeFileEntryPoints Disabled
@@ -67,7 +67,7 @@ Set-CsTeamsFilesPolicy -Identity Global -NativeFileEntryPoints Disabled
 
 ### <a name="check-the-status-of-your-tenant"></a>テナントの状態を確認する  
 
-テナントの Teams ファイル ポリシーの現在の状態を表示するには、コマンドレットを``Get-CsTeamsFilesPolicy``使用します。
+テナントの Teams ファイル ポリシーの現在の状態を表示するには、コマンドレットを`Get-CsTeamsFilesPolicy`使用します。
 
 ```powershell
 Get-CsTeamsFilesPolicy -Identity Global
@@ -75,7 +75,7 @@ Get-CsTeamsFilesPolicy -Identity Global
 
 ### <a name="turn-on-or-turn-off-native-file-upload-point"></a>ネイティブ ファイルアップロード ポイントをオンまたはオフにする
 
-テナント全体のネイティブ ファイル アップロード ポイントをオンまたはオフにするには、パラメーターを ``NativeFileEntryPoints`` どちらか ``Enabled`` または両方に設定します ``Disabled``。
+テナント全体のネイティブ ファイル アップロード ポイントをオンまたはオフにするには、パラメーターを `NativeFileEntryPoints` どちらか `Enabled` または両方に設定します `Disabled`。
 
 ```powershell
 Set-CsTeamsFilesPolicy -Identity Global -NativeFileEntryPoints Enabled
@@ -87,7 +87,7 @@ Set-CsTeamsFilesPolicy -Identity Global -NativeFileEntryPoints Disabled
 
 ### <a name="remove-the-policy-for-your-users"></a>ユーザーのポリシーを削除する
 
-ユーザーの Teams Files ポリシーを削除するには、コマンドレットを``Remove-CsTeamsFilesPolicy``使用します。
+ユーザーの Teams Files ポリシーを削除するには、コマンドレットを`Remove-CsTeamsFilesPolicy`使用します。
 
 ```powershell
 Remove-CsTeamsFilesPolicy -Identity Global
@@ -95,37 +95,37 @@ Remove-CsTeamsFilesPolicy -Identity Global
 
 ## <a name="turn-off-nativefileentrypoints-for-specific-users"></a>特定のユーザーの NativeFileEntryPoints をオフにする
 
-新しい Teams Files ポリシー文字列を作成し、新しく作成したポリシーをユーザーに割り当てることで、特定のユーザーの Teams ファイル ポリシー``-Identity``を更新することもできます。
+新しい Teams Files ポリシー文字列を作成し、新しく作成したポリシーをユーザーに割り当てることで、特定のユーザーの Teams ファイル ポリシー`-Identity`を更新することもできます。
 
 ### <a name="sample-powershell-policy-cmdlet-for-specific-users"></a>特定のユーザーの PowerShell ポリシー コマンドレットのサンプル
 
-このサンプル PowerShell コマンドでは、名前付きの名前``UserPolicy``付きの``-Identity``新しい``CsTeamsFilesPolicy``コマンドが作成され、パラメーター``Disabled``は ``NativeFileEntryPoints`` .
+このサンプル PowerShell コマンドでは、名前付きの名前`UserPolicy`付きの`-Identity`新しい`CsTeamsFilesPolicy`コマンドが作成され、パラメーター`Disabled`は `NativeFileEntryPoints` .
 
-ユーザーに with が割り当てられる ``CsTeamsFilesPolicy`` と ``-Identity UserPolicy``、ネイティブ ファイルエントリ ポイントはオフになります。
+ユーザーに with が割り当てられる `CsTeamsFilesPolicy` と `-Identity UserPolicy`、ネイティブ ファイルエントリ ポイントはオフになります。
 
 ```powershell
-New-CsTeamsFilesPolicy -Identity UserPolicy -NativeFileEntryPoints Disabled
+New-CsTeamsFilesPolicy -Identity UserPolicy -NativeFileEntryPoints Disabled
 ```
 
 ### <a name="assign-a-policy-to-user"></a>ユーザーにポリシーを割り当てる
 
-新しいポリシーを作成したら、コマンドレットを使用してそのポリシーをユーザーに ``Grant-CsTeamsFilesPolicy`` 割り当てることができます。
+新しいポリシーを作成したら、コマンドレットを使用してそのポリシーをユーザーに `Grant-CsTeamsFilesPolicy` 割り当てることができます。
 
 ```powershell
-Grant-CsTeamsFilesPolicy  -identity "user email id" -PolicyName UserPolicy
+Grant-CsTeamsFilesPolicy  -identity "user email id" -PolicyName UserPolicy
 ```
 
 ### <a name="update-the-policy"></a>ポリシーを更新する
 
-新しいTeams ファイル ポリシー``UserPolicy``の設定を変更する必要がある場合は、コマンドレットを``Set-CsTeamsFilePolicy``使用します。
+新しいTeams ファイル ポリシー`UserPolicy`の設定を変更する必要がある場合は、コマンドレットを`Set-CsTeamsFilePolicy`使用します。
 
 ```powershell
-Set-CsTeamsFilesPolicy -Identity UserPolicy -NativeFileEntryPoints Enabled
+Set-CsTeamsFilesPolicy -Identity UserPolicy -NativeFileEntryPoints Enabled
 ```
 
 ### <a name="remove-the-policy-for-the-complete-list-of-users"></a>ユーザーの完全な一覧のポリシーを削除する
 
-Teams ファイル ポリシーに割り当てられているすべてのユーザーからポリシー``UserPolicy``を削除するには、コマンドレットを``Remove-CsTeamsFilesPolicy``使用します。
+Teams ファイル ポリシーに割り当てられているすべてのユーザーからポリシー`UserPolicy`を削除するには、コマンドレットを`Remove-CsTeamsFilesPolicy`使用します。
 
 ```powershell
 Remove-CsTeamsFilesPolicy -Identity UserPolicy

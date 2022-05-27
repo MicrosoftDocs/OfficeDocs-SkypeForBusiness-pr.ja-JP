@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Teams Android デバイスのリモート プロビジョニングとサインインの方法について説明します
-ms.openlocfilehash: e7e5acd491f15d4cc52ce1b898112da868f80594
-ms.sourcegitcommit: a3b3eb85354d62b2a5325ba7c8dda88352c6711a
+ms.openlocfilehash: 4b3831bc42da92939c7aa61ff52a15266dc4a940
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/18/2021
-ms.locfileid: "61070151"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674339"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Teams Android デバイスのリモート プロビジョニングとサインイン
 
@@ -30,30 +30,30 @@ IT 管理者は、Teams Android デバイスをリモートでプロビジョニ
 
 ## <a name="review-the-supported-devices"></a>サポートされているデバイスを確認する
 
-次の一覧は、Android デバイスのファームウェア要件を示しています。
+次の一覧は、Androidデバイスファームウェアの要件を示しています。
 
 |デバイス カテゴリ|デバイス モデル|ファームウェアのバージョン|
-|-|-|-|
+|---|---|---|
 |Teams電話|Yealink T55/T56/T58|58.15.0.124|
 |Teams電話|Yealink VP59|91.15.0.58|
 |Teams電話|Yealink CP960|73.15.0.117|
 |Teams電話|Yealink MP56/MP54/MP58|122.15.0.36|
 |Teams電話|レストロン UC-2|1.0.3.52|
-|Teams電話|  PolyTrio C60|  7.0.2.1071|
-|Teams電話|  CCX400/CCX500/CCX600    |7.0.2.1072|
-|Teams電話|  オーディオ コード C448HD/C450HD/C470HD|   1.10.120|
-|Teams パネル|  770/1070|  1.004.0115|
-|Android でのTeams Rooms|Logitech Rally Bar Mini|1.2.982|
-|Android でのTeams Rooms|Logitech Rally Bar|1.2.982|
-|Android でのTeams Rooms|AudioCodes RXV80|1.13.361|
-|Android でのTeams Rooms|エポポス EXPAND Vision 3T|1.2.2.21182.10|
-|Android でのTeams Rooms|Yealink MeetingBar A30|133.15.0.60|
-|Android でのTeams Rooms|Yealink MeetingBar A20|133.15.0.60|
-|Android でのTeams Rooms|Yealink CTP18 タッチ コンソール|137.15.0.37|
-|Android でのTeams Rooms|Poly Studio X30|3.5.0.344025|
-|Android でのTeams Rooms|Poly Studio X50|3.5.0.344025|
-|Android でのTeams Rooms|Poly TC8 タッチ コンソール |3.5.0.210489|
-|Android でのTeams Rooms|Yealink VC210|118.15.0.54|
+|Teams電話|PolyTrio C60|7.0.2.1071|
+|Teams電話|CCX400/CCX500/CCX600 |7.0.2.1072|
+|Teams電話|オーディオ コード C448HD/C450HD/C470HD|1.10.120|
+|Teams パネル|770/1070|1.004.0115|
+|AndroidのTeams Rooms|Logitech Rally Bar Mini|1.2.982|
+|AndroidのTeams Rooms|Logitech Rally Bar|1.2.982|
+|AndroidのTeams Rooms|AudioCodes RXV80|1.13.361|
+|AndroidのTeams Rooms|エポポス EXPAND Vision 3T|1.2.2.21182.10|
+|AndroidのTeams Rooms|Yealink MeetingBar A30|133.15.0.60|
+|AndroidのTeams Rooms|Yealink MeetingBar A20|133.15.0.60|
+|AndroidのTeams Rooms|Yealink CTP18 タッチ コンソール|137.15.0.37|
+|AndroidのTeams Rooms|Poly Studio X30|3.5.0.344025|
+|AndroidのTeams Rooms|Poly Studio X50|3.5.0.344025|
+|AndroidのTeams Rooms|Poly TC8 タッチ コンソール |3.5.0.210489|
+|AndroidのTeams Rooms|Yealink VC210|118.15.0.54|
 
 ## <a name="add-a-device-mac-address"></a>デバイスの MAC アドレスを追加する
 

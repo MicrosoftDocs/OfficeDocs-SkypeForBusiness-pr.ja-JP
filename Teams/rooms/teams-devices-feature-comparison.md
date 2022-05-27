@@ -1,5 +1,5 @@
 ---
-title: Windowsと Android のTeamsデバイスの共有スペース機能の比較
+title: 共有スペースのデバイスTeams WindowsとAndroidの機能の比較
 author: cazawideh
 ms.author: czawideh
 manager: jsarrasin
@@ -9,7 +9,7 @@ audience: ITPro
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
-description: Windowsと Android の間の共有スペース機能のTeamsデバイスを比較するガイド。
+description: WindowsとAndroidの間の共有スペース機能のTeams デバイスを比較するガイド。
 ms.collection:
 - M365-voice
 - M365-collaboration
@@ -20,15 +20,15 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 23f8421bbe0249114cbdbd2925f5ee9232137ddc
-ms.sourcegitcommit: abe942c294ed5fca70efdf039d38d611b9c21fe9
+ms.openlocfilehash: 30e1bc6043d48ff222963c2794ad5099af9308ca
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63564833"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676299"
 ---
-# <a name="teams-devices-for-shared-spaces-feature-comparison-between-windows-and-android"></a>Windowsと Android のTeamsデバイスの共有スペース機能の比較 
-Microsoft Teams Roomsエクスペリエンスは、顧客を念頭に置いて設計されています。 すべてのお客様に固有のニーズがあります。そのため、Microsoft は、Windowsや Android でのTeams Roomsなど、さまざまなオプションを提供しています。 
+# <a name="teams-devices-for-shared-spaces-feature-comparison-between-windows-and-android"></a>共有スペースのデバイスTeams WindowsとAndroidの機能の比較 
+Microsoft Teams Roomsエクスペリエンスは、顧客を念頭に置いて設計されています。 すべてのお客様に固有のニーズがあります。そのため、Microsoft では、WindowsやAndroidに関するTeams Roomsなど、さまざまなオプションを提供しています。 
 
 コア機能は両方のプラットフォームで利用できるため、エンド ユーザーは常に優れたオーディオとビデオエクスペリエンスを提供し、ワンタッチ参加を使用して会議に参加し、ライブ キャプションや挙手などの包括的な機能にアクセスできます。 
 
@@ -37,7 +37,7 @@ Microsoft は新機能をTeamsおよびTeams Roomsに提供するため、すべ
 さまざまなプラットフォームで使用できる機能については、以下のグラフを参照してください。これは定期的に更新されます。 この一覧には、すべてのTeams Rooms機能が含まれるわけではありませんので、詳細については、[Microsoft 365ロードマップ](https://www.microsoft.com/en-us/microsoft-365/roadmap)と Microsoft 営業担当者にお問い合わせください。    
 
 ## <a name="teams-devices-for-shared-spaces"></a>共有スペース用のデバイスをTeamsする
-### <a name="feature-comparison-between-windows-and-android"></a>Windowsと Android の機能比較
+### <a name="feature-comparison-between-windows-and-android"></a>WindowsとAndroidの機能比較
 (2022 年 3 月) 
 
 | &ensp; | 機能 |Windows|Android|
@@ -68,7 +68,7 @@ Microsoft は新機能をTeamsおよびTeams Roomsに提供するため、すべ
 ||デュアル 画面のサポート |連絡可能  |利用可能 |
 |**セキュリティ**|安全な取り付け、セキュリティ ロック スロット (Kensington ロック)、I/O ポートアクセス |連絡可能  |利用可能 |
 ||オペレーティング システム |Windows 10  |Android 8.1 以降 |
-||OS セキュリティ機能 |TPM 2.0、特定のポートを無効にする、セキュア ブート、Credential Guard、OOBE 設定アクセス制御、ダイレクト メモリ アクセス保護、ネットワーク セキュリティ |Android フル ディスク暗号化、OEM 固有の機能 |
+||OS セキュリティ機能 |TPM 2.0、特定のポートを無効にする、セキュア ブート、Credential Guard、OOBE 設定アクセス制御、ダイレクト メモリ アクセス保護、ネットワーク セキュリティ |Android完全ディスク暗号化、OEM 固有の機能 |
 ||キオスク モード |連絡可能  |利用可能 |
 |**管理と管理**|パートナーに管理アクセスを安全に委任する |連絡可能  |利用可能 |
 ||ロールベースのアクセス制御 |連絡可能  |利用可能 |

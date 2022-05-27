@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77d33d29a51fe32fff6901fdcb8ba33ecad107f7
-ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
+ms.openlocfilehash: 0a1a178c279a418c0555f100c48a63c9efe71717
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "65370900"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681788"
 ---
 # <a name="plan-for-sip-gateway"></a>SIP ゲートウェイの計画
 
@@ -47,8 +47,7 @@ SIP ゲートウェイは、互換性のある SIP デバイスをTeamsに接続
 - **デュアルトーンマルチ周波数:** SIP デバイスユーザーは、番号キーを押して、対話型音声応答通話中に入力を提供できます。
 - **Teams会議:** SIP デバイス ユーザーは、会議のアクセス番号をダイヤルすることで、Teams会議に参加できます。 会議参加者は、ユーザーの電話番号にダイヤルアウトするか、[参加要求] をクリックして参加者を追加するだけで、SIP デバイス ユーザーを会議に追加できます。また、ユーザーの SIP デバイスにもアラートが表示されます。 別の組織のゲスト ユーザーは、ゲスト ユーザーの番号にダイヤルアウトしてそのゲストを含める参加者によって、Teams会議に追加できます。
 - **通話転送:** SIP デバイスユーザーは通話を転送できます。 SIP ゲートウェイは、ブラインド転送とコンサルティング転送の両方をサポートします。
-- **ローカル通話転送:** SIP デバイス ユーザーは、デバイスの転送ルール (常に、タイムアウト時、ビジー状態) を設定できます。 デバイスが SIP ゲートウェイに接続されている場合、デバイス ユーザーが設定したルールに基づいて、呼び出しがターゲット アドレスにリダイレクトされます。 ローカル通話転送を機能させるには、管理者が属性`Set-CsTeamsCallingPolicy``Enabled`を `AllowCallRedirect` . 
-
+- **ローカル通話転送:** SIP デバイス ユーザーは、デバイスの転送ルール (常に、タイムアウト時、ビジー状態) を設定できます。 デバイスが SIP ゲートウェイに接続されている場合、デバイス ユーザーが設定したルールに基づいて、呼び出しがターゲット アドレスにリダイレクトされます。 ローカル通話転送を機能させるには、管理者が属性`Set-CsTeamsCallingPolicy``Enabled`を `AllowCallRedirect` .
 
 ## <a name="requirements-to-use-sip-gateway"></a>SIP ゲートウェイを使用するための要件
 
@@ -56,7 +55,8 @@ TEAMSユーザーは、SIP ゲートウェイを使用するために PSTN 通�
 
 ### <a name="hardware-software-and-licenses"></a>ハードウェア、ソフトウェア、ライセンス
 
-3PIP または SIP デバイスがある場合は、次の機能が必要です。 
+3PIP または SIP デバイスがある場合は、次の機能が必要です。
+
 - 電話システムのライセンス (E5 またはスタンドアロン ライセンス経由)
 - Microsoft Teams通話プラン、ダイレクト ルーティング、またはオペレーター接続を介した PSTN の有効化 (電話番号など)
 - 共通領域デバイスの共通領域電話 ライセンス

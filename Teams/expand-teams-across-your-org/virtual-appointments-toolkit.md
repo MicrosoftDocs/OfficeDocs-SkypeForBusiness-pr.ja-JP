@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Microsoft TeamsでBookings アプリを使用して、仮想予定のスケジュール、管理、実行を行う方法について説明します。
-ms.openlocfilehash: 3fb6b28b9e9e1b7581ef80d9830bce97f6a7070d
-ms.sourcegitcommit: 02fcd6686a2f7a59c0ad67430c2b85f809c1b662
+ms.openlocfilehash: 7579c524a28ee51c622a805d1ea945c33596cb56
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "65534382"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65682138"
 ---
 # <a name="help-your-clients-and-customers-use-virtual-appointments"></a>クライアントと顧客が仮想予定を使用できるように支援する
 
@@ -76,7 +76,7 @@ ms.locfileid: "65534382"
 
 **Who予定を作成できますか?**
 
-スタッフが排他的に仮想的または対人的に操作している場合は、共有することで、クライアントが優先プロバイダーとの関係を維持できることを確認します。
+スタッフメンバーが排他的に仮想的または対人的に操作している場合は、クライアントが優先プロバイダーとの関係を維持できることを確認します。
 
 **仮想予定をキャンセルまたは再スケジュール操作方法?**
 
@@ -110,10 +110,10 @@ Web サイトで機能するように、これらのインフォグラフィッ�
 
 | グラフィック                | 説明とリンク              |
 | :------------------- | -------------------: |
-| [![金融サービスインフォグラフィックの画像](../media/vv-finserv-thumbnail.png)](//download.microsoft.com/download/8/5/7/85784cd8-6945-4fcc-a3c3-972bd88d3fef/VirtualVisit_Financial_Infographic.pdf) | 金融サービス組織向けのカスタマイズ可能なインフォグラフィック <br> [PDF としてダウンロードする](//download.microsoft.com/download/8/5/7/85784cd8-6945-4fcc-a3c3-972bd88d3fef/VirtualVisit_Financial_Infographic.pdf) <br> [PowerPointとしてダウンロードする](//download.microsoft.com/download/8/5/7/85784cd8-6945-4fcc-a3c3-972bd88d3fef/VirtualVisit_Financial_Infographic.pptx)
-| [![小売インフォグラフィックの画像](../media/vv-retail-thumbnail.png)](//download.microsoft.com/download/a/b/5/ab5c07d9-cf7a-47b3-ba54-05a8a0a2a1bd/VirtualVisit_Retail_Infographic.pdf) | 小売組織向けのカスタマイズ可能なインフォグラフィック <br> [PDF としてダウンロードする](//download.microsoft.com/download/a/b/5/ab5c07d9-cf7a-47b3-ba54-05a8a0a2a1bd/VirtualVisit_Retail_Infographic.pdf) <br> [PowerPointとしてダウンロードする](//download.microsoft.com/download/a/b/5/ab5c07d9-cf7a-47b3-ba54-05a8a0a2a1bd/VirtualVisit_Retail_Infographic.pptx) |
-| [![医療インフォグラフィックの画像](../media/vv-healthcare-thumbnail.png)](//download.microsoft.com/download/4/d/3/4d3d9c53-0304-4aea-a56a-60a16402c58f/VirtualVisit_Healthcare_Infographic.pdf) | 医療組織向けのカスタマイズ可能なインフォグラフィック <br> [PDF としてダウンロードする](//download.microsoft.com/download/4/d/3/4d3d9c53-0304-4aea-a56a-60a16402c58f/VirtualVisit_Healthcare_Infographic.pdf) <br> [PowerPointとしてダウンロードする](//download.microsoft.com/download/4/d/3/4d3d9c53-0304-4aea-a56a-60a16402c58f/VirtualVisit_Healthcare_Infographic.pptx) |
-| [![業界固有ではないインフォグラフィックの画像。](../media/va-generic-thumb.png)](//download.microsoft.com/download/c/6/9/c69d3f29-a8f5-462b-a645-79119beab406/VirtualVisit_Generic_Infographic.pdf) | 特定の業界に固有ではないカスタマイズ可能なインフォグラフィック <br> [PDF としてダウンロードする](//download.microsoft.com/download/c/6/9/c69d3f29-a8f5-462b-a645-79119beab406/VirtualVisit_Generic_Infographic.pdf) <br> [PowerPointとしてダウンロードする](//download.microsoft.com/download/c/6/9/c69d3f29-a8f5-462b-a645-79119beab406/VirtualVisit_Generic_Infographic.pptx) |
+| [![金融サービスインフォグラフィックの画像](../media/vv-finserv-thumbnail.png)](https://go.microsoft.com/fwlink/?linkid=2196520&clcid=0x409) | 金融サービス組織向けのカスタマイズ可能なインフォグラフィック <br> [PDF としてダウンロードする](https://go.microsoft.com/fwlink/?linkid=2196520&clcid=0x409) <br> [PowerPointとしてダウンロードする](https://go.microsoft.com/fwlink/?linkid=2196449&clcid=0x409)
+| [![小売インフォグラフィックの画像](../media/vv-retail-thumbnail.png)](https://go.microsoft.com/fwlink/?linkid=2196452&clcid=0x409) | 小売組織向けのカスタマイズ可能なインフォグラフィック <br> [PDF としてダウンロードする](https://go.microsoft.com/fwlink/?linkid=2196452&clcid=0x409) <br> [PowerPointとしてダウンロードする](https://go.microsoft.com/fwlink/?linkid=2196451&clcid=0x409) |
+| [![医療インフォグラフィックの画像](../media/vv-healthcare-thumbnail.png)](https://go.microsoft.com/fwlink/?linkid=2196357&clcid=0x409) | 医療組織向けのカスタマイズ可能なインフォグラフィック <br> [PDF としてダウンロードする](https://go.microsoft.com/fwlink/?linkid=2196357&clcid=0x409) <br> [PowerPointとしてダウンロードする](https://go.microsoft.com/fwlink/?linkid=2196450&clcid=0x409) |
+| [![業界固有ではないインフォグラフィックの画像。](../media/va-generic-thumb.png)](https://go.microsoft.com/fwlink/?linkid=2196355&clcid=0x409) | 特定の業界に固有ではないカスタマイズ可能なインフォグラフィック <br> [PDF としてダウンロードする](https://go.microsoft.com/fwlink/?linkid=2196355&clcid=0x409) <br> [PowerPointとしてダウンロードする](https://go.microsoft.com/fwlink/?linkid=2196356&clcid=0x409) |
 
 ### <a name="customize-your-infographic"></a>インフォグラフィックをカスタマイズする
 

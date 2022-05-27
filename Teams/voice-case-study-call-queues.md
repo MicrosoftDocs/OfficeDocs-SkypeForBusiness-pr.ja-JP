@@ -16,12 +16,12 @@ f1.keywords:
 description: 'Teams多国籍企業向けの音声ケース スタディ: 自動応答と通話キュー'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bf1d7a5457af0d7463207c0bdbc9d50433b3142e2f72e7efc7f8c89ade82bc93
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6c0b6da7bf00fd4e62cf3e9b3b08074bf1b42788
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296424"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681718"
 ---
 # <a name="contoso-case-study-auto-attendants-and-call-queues"></a>Contoso のケース スタディ: 自動応答と呼び出しキュー
 

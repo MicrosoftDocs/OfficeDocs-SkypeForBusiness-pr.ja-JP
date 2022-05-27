@@ -8,12 +8,12 @@ ms.service: msteams
 ms.author: serdars
 audience: admin
 manager: serdars
-ms.openlocfilehash: 4af245f7a3bcd9b00c192a0d616266b60200c002
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 35ec6c883c880543c9d27a18a9af87d3cff7ab6d
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62411450"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675119"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Ignite 2020 でのTeams セッション
 
@@ -26,7 +26,7 @@ ms.locfileid: "62411450"
 |[Microsoft Teamsを使用した回復性、包括的、ハイブリッドの職場の作成](https://aka.ms/IG20-DB156-R1) |組織は、リモートおよびオンサイトの従業員のニーズをサポートするためにハイブリッド ワークプレースに移行しています。 最初のパートでは、Teams会議、仮想イベント、通話を通じてチームを接続し続ける方法と、新しいデバイス エクスペリエンスについて説明します。 Teams プラットフォームがワークフローの効率化、意思決定の改善、アプリケーションのエコシステムの統合にどのように役立つかを説明します。 <br> また、このシリーズの第 2 部であるセッション コード DB158 も確認してください。|ニコール Herskowitz                 |
 |[Microsoft Teams会議で、よりスマートに会い、集中し、より多くのことを達成する](https://aka.ms/IG20-DB151)  |会議は、作業を行う方法の基礎です。 Teams会議は、新しい働き方に適応しながら、自分と組織の生産性を高める方法について説明します。  |ラシャズ キューパラ|
 |[Microsoft Teams呼び出しが簡単になりました](https://aka.ms/IG20-DB149)  |Enterprise Teamsでの呼び出しは、デプロイと使用が簡単です。 新しい通話エクスペリエンスや共同通話など、通話の最新情報を確認しながら、Teams通話の基本について説明します。 |Paul 大砲、Laura Kramer、バーバラ 金|
-|[管理者がMicrosoft Teamsを管理する 1 つの場所: Teams管理の新機能](https://aka.ms/IG20-DB144) |Teams管理者は、柔軟できめ細かな管理機能を備えています。 この機能を使用すると、ビジネスのニーズに最も適した組織向けのカスタム エクスペリエンスを作成できます。 このセッションでは、Team Admin Center ポータルに関する最新かつ最高の機能を紹介し、ポリシー、アプリ管理、デバイス管理、レポート、分析とトラブルシューティング、PowerShell の新機能について説明します。 |Ronit Ben-Sheffer、Jamie Stark|
+|[管理者がMicrosoft Teamsを管理する 1 つの場所: Teams管理の新機能](https://aka.ms/IG20-DB144) |Teams管理者は、柔軟できめ細かな管理機能を備えています。 この機能を使用すると、ビジネスのニーズに最も適した組織向けのカスタム エクスペリエンスを作成できます。 このセッションでは、Team 管理 Center ポータルに関する最新かつ最大の機能を紹介し、ポリシー、アプリ管理、デバイス管理、レポート、分析とトラブルシューティング、PowerShell の新機能について説明します。 |Ronit Ben-Sheffer、Jamie Stark|
 |[Microsoft Teamsを使用した仮想会議とイベントのスケーリングとカスタマイズ](https://aka.ms/IG20-DB138)|会議にはあらゆる形とサイズがあります。Teamsを使用して、次の大規模なイベントを構造化および管理する方法について説明します。 Teamsは、組織のニーズに合わせてシームレスにスケーリングでき、あらゆる規模のイベントに最適な出席者エクスペリエンスをカスタマイズして提供する方法を提供します。  |Christina Torok、Ashwin Appiah|
 |[Microsoft Teams デバイスを使用してハイブリッド ワークプレース全体で最新の会議エクスペリエンスを実現する](https://aka.ms/IG20-DB147) |Microsoft Teams デバイスの概要。 Teamsデバイスは、ユーザーがTeamsの能力を最大限に高め、リモートワークスペースと共有ワークスペースの間のギャップを埋めるのに役立つよう設計されています。 ユーザー中心の会議室エクスペリエンスを提供するように設計されたデバイスと、Microsoft Teams デバイスを使用したより包括的で共同作業的なエクスペリエンスを可能にする個人ワークスペースの再考について説明します。  |Kendra 𱘼亥、Greg Baribault|
 |[Microsoft Teams プラットフォームを使用して最新の職場を変革する](https://aka.ms/IG20-DB157) |Teams プラットフォーム内のすべての新しい機能拡張ポイントと既存の機能拡張ポイントについて説明します。 ビジネス ニーズを解決するための強力なアプリとソリューションを作成する方法について説明します。|Archana Saseetharan、Michal Lesiczka|
@@ -107,7 +107,7 @@ ms.locfileid: "62411450"
 
 | タイトル | 抽象            | レベル|  スピーカー|
 |---|----------|---|---|
-|[Microsoft Teamsを使用して現場の従業員のビジネス継続性を有効にする](https://aka.ms/OD258)|組織が事業継続性を維持するために業務と従業員を調整し続けるにつれて、Microsoft Teamsの新機能は、フロントライン ワーカーが顧客のニーズを満たす作業に集中し続けるのに役立ちます。このセッションでは、Shifts、Tasks、およびコアコミュニケーションと Walkie Talkie 機能に焦点を当てて、時間とコストを節約する安全で一元的なユーザー エクスペリエンスを作成します。|200|Scott・スモーソン、Zoe Hawtof|
+|[Microsoft Teamsを使用して現場の従業員のビジネス継続性を有効にする](https://aka.ms/OD258)|組織が事業継続性を維持するために業務と従業員を調整し続けるにつれて、Microsoft Teamsの新機能は、フロントライン ワーカーが顧客のニーズを満たす作業に集中し続けるのに役立ちます。 このセッションでは、Shifts、Tasks、およびコアコミュニケーションと Walkie Talkie 機能に焦点を当てて、時間とコストを節約する安全で一元的なユーザー エクスペリエンスを作成します。|200|Scott・スモーソン、Zoe Hawtof|
 |[現場の従業員の多様なニーズを満たすために、Teams対応デバイスを展開および管理する](https://aka.ms/PR114)|Frontline 固有のデバイスを展開して、ワーカーが目の前のジョブに集中するための新しい方法を実現する方法について説明します。  このチュートリアルには、Teams Walkie Talkie とハンズフリー コラボレーションのシナリオが含まれます。 |200|Abid Chaudhry、James Ellis|
-|[Microsoft 365管理センターで機能を使用して分散フロントラインの従業員を管理する](https://aka.ms/PR115)|フロントライン ワーカー向けのMicrosoft 365で一般的な IT 展開と管理のシナリオに関するベスト プラクティスと実用的なガイダンスを確認します。 Microsoft Teamsで適切なエクスペリエンスを構築し、フロントラインの従業員をサポートするソリューションを正常にロールアウトする方法について説明します。|300|Iina Parsina、Zoe Hawtof|  
+|[Microsoft 365 管理 センターで機能を使用して分散フロントラインの従業員を管理する](https://aka.ms/PR115)|フロントライン ワーカー向けのMicrosoft 365で一般的な IT 展開と管理のシナリオに関するベスト プラクティスと実用的なガイダンスを確認します。 Microsoft Teamsで適切なエクスペリエンスを構築し、フロントラインの従業員をサポートするソリューションを正常にロールアウトする方法について説明します。|300|Iina Parsina、Zoe Hawtof|  
 

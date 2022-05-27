@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: ユーザーのクラウド ボイスメールを設定する方法について説明します。
-ms.openlocfilehash: 96c96f85625d0cda7e6d7a28a59d6c9415f2bb79
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 6a75856954da509677a1c9ccdb54e34055f171ed
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922628"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681408"
 ---
 # <a name="set-up-cloud-voicemail"></a>クラウド ボイスメールのセットアップ
 
@@ -67,7 +67,7 @@ Exchange メールボックスへのボイスメールの配信は、他の電�
 通話応答ルール、ボイスメール文字起こし、文字起こし不適切な表現マスク、文字起こし翻訳、システム プロンプト言語などの機能に対して、既存または新しいボイスメール ポリシーを構成して割り当てることができます。 詳細については、「 [New-CsOnlineVoicemailPolicy](/powershell/module/skype/new-csonlinevoicemailpolicy)」を参照してください。
 
 個々のユーザーのクラウド ボイスメール設定を管理するには、[Set-CsOnlineVoicemailUserSettings コマンドレットを](/powershell/module/skype/set-csonlinevoicemailusersettings)使用します。 個々のユーザーに適用できるクラウド ボイスメール設定には、通話応答ルール、プロンプト言語、テキスト読み上げの既定値、休暇のあいさつなどがあります。 詳細については、「 [Set-CsOnlineVoicemailUserSettings」を参照](/powershell/module/skype/set-csonlinevoicemailusersettings)してください。
-(エンド ユーザーは、設定 **CallsConfigure** ->  ボイスメールに移動することで **、Teams** ->  クライアントでこれらの設定 **を** 構成することもできます。
+(エンド ユーザーは、設定 **Calls** -> **Configure ボイスメール** に移動して **、Teams** ->  クライアントでこれらの設定を構成することもできます。
 
 [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) コマンドレットを使用し、ボイスメールEnabled パラメーターを$falseに設定することで、ユーザーのクラウド ボイスメールを無効にすることもできます。 この設定により、クラウド ボイスメールはユーザーのボイスメールを記録できなくなります。
 
@@ -75,7 +75,7 @@ Exchange メールボックスへのボイスメールの配信は、他の電�
 
 クラウド ボイスメール用にプロビジョニングされたすべてのユーザーの既定の設定は、クラウド ボイスメールへの呼び出しのルーティングを許可し、ユーザーが通話をクラウド ボイスメールに転送できるようにすることです。
 
-AllowVoicemail パラメーターでSet-CsTeamsCallingPolicyコマンドレットを使用して、クラウド ボイスメールへの呼び出しのルーティングをTeamsユーザーに許可するかどうかを制御できます。 詳細については、「 [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)」を参照してください。
+AllowVoicemail パラメーターでSet-CsTeamsCallingPolicyコマンドレットを使用して、クラウド ボイスメールへの呼び出しのルーティングをTeamsユーザーに許可するかどうかを制御できます。 詳細については、「 [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)」を参照してください。
 
 - AllowVoicemail を AlwaysDisabled に設定した場合、通話はボイスメールにルーティングされることはありません。ユーザーの通話転送または未回答の設定に関係なく。 ボイスメールは、Teamsの通話転送または応答のない設定として使用できません。
 
@@ -99,36 +99,34 @@ AllowVoicemail パラメーターでSet-CsTeamsCallingPolicyコマンドレッ�
 
 ## <a name="enable-protected-voicemail-in-your-organization"></a>組織内で保護されたボイスメールを有効にする
 
-組織内のユーザーのボイスメール メッセージを他のユーザーが残すと、ボイスメールは電子メール メッセージの添付ファイルとしてユーザーのメールボックスに配信されます。 
+組織内のユーザーのボイスメール メッセージを他のユーザーが残すと、ボイスメールは電子メール メッセージの添付ファイルとしてユーザーのメールボックスに配信されます。
 
-Microsoft Purview Information Protectionを使用すると、内部発信者と外部発信者の両方によって残されたボイスメール メッセージを暗号化できます。 また、ユーザーがこれらのメッセージを転送できないようにすることもできます。 この機能は、Exchange Onlineメールボックスを持つユーザーに対してサポートされています。
+Microsoft Purview 情報保護を使用すると、内部発信者と外部発信者の両方によって残されたボイスメール メッセージを暗号化できます。 また、ユーザーがこれらのメッセージを転送できないようにすることもできます。 この機能は、Exchange Onlineメールボックスを持つユーザーに対してサポートされています。
 
-ボイスメール メッセージを暗号化するには、秘密度ラベルを作成します。 自動ラベル付け機能を使用すると、着信ボイスメール メッセージにラベルが自動的に適用されるようにすることができます。 
+ボイスメール メッセージを暗号化するには、秘密度ラベルを作成します。 自動ラベル付け機能を使用すると、着信ボイスメール メッセージにラベルが自動的に適用されるようにすることができます。
 
-保護されたボイスメールを有効にすると、ユーザーは自分のボイスメール メールボックスを呼び出すか、Android または iOS のOutlook、Outlook on the web、またはOutlookでメッセージを開くことで、保護されたボイスメール メッセージをリッスンできます。 保護されたボイスメール メッセージは、Microsoft TeamsまたはSkype for Businessで開くできません。
+保護されたボイスメールを有効にすると、ユーザーは自分のボイスメール メールボックスを呼び出すか、AndroidまたはiOSのOutlook、Outlook on the web、またはOutlookでメッセージを開くことで、保護されたボイスメール メッセージをリッスンできます。 保護されたボイスメール メッセージは、Microsoft TeamsまたはSkype for Businessで開くできません。
 
-ボイスメールの秘密度ラベルを作成するには、「 [秘密度ラベルを使用する](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions)」を参照してください。 [ **暗号化** ] セクションで、[ **ユーザーがラベルを適用するときにアクセス許可を割り当てる]** を選択します。 **[Outlook] を選択し、次のいずれかの制限を適用** してから、[**転送しない**] オプションを選択します。
+ボイスメールの秘密度ラベルを作成するには、「 [秘密度ラベルを使用する](/microsoft-365/compliance/encryption-sensitivity-labels#let-users-assign-permissions)」を参照してください。 [ **暗号化** ] セクションで、[ **ユーザーがラベルを適用するときにアクセス許可を割り当てる]** を選択します。 **[Outlook] を選択し、次のいずれかの制限を適用** してから、[**転送しない**] オプションを選択します。
 
-ボイスメールに秘密度ラベルを適用する自動ラベル付けポリシーを作成するには、「 [自動ラベル付けポリシーを構成する方法](/microsoft-365/compliance/apply-sensitivity-label-automatically?view=o365-worldwide#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange)」を参照し、次の特定の設定を指定します。
+ボイスメールに秘密度ラベルを適用する自動ラベル付けポリシーを作成するには、「 [自動ラベル付けポリシーを構成する方法](/microsoft-365/compliance/apply-sensitivity-label-automatically#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange)」を参照し、次の特定の設定を指定します。
 
--   **[このラベルを適用する情報の選択] で**、[**カスタム ポリシー**] を選択します。
+- **[このラベルを適用する情報の選択] で**、[**カスタム ポリシー**] を選択します。
 
--   **[ラベルを適用する場所の選択**] で、**すべてのユーザーの [場所: Exchange**] を選択します。
+- **[ラベルを適用する場所の選択**] で、**すべてのユーザーの [場所: Exchange**] を選択します。
 
--   [  **共通ルールまたは詳細ルールの設定**] で、[ **詳細ルール**] を選択します。
+- [  **共通ルールまたは詳細ルールの設定**] で、[ **詳細ルール**] を選択します。
 
 - Exchange規則:
-    - 条件：<br>
-        - **ヘッダーはパターンに一致します。**<br>
-              Content-Class = Voice-CA
-       -  **送信者の IP アドレスは次のとおりです。**<br>
-               13.107.64.0/18, 52.112.0.0/14, 52.120.0.0/14, 52.238.119.141/32, 52.244.160.207/32
+  - 条件：
+    - **ヘッダー一致パターン**: Content-Class = Voice-CA
+    - **送信者 IP アドレス:** 13.107.64.0/18、52.112.0.0/14、52.120.0.0/14、52.238.119.141/32、52.244.160.207/207/23
 
 - **[自動適用するラベルの選択]** で、上の手順でボイスメール用に作成した秘密度ラベルを選択します。
 
-- **電子メールのその他の設定** については、[**組織外から受信したメールに暗号化を適用** する] を選択し、Rights Management の所有者を指定します。
+- **電子メールのその他の設定** については、[**組織外から受信した電子メールに暗号化を適用** する] を選択し、Rights Management所有者を指定します。
 
-送信者 IP アドレスで指定された IP V4 範囲は、[OFFICE 365 URL と IP アドレス範囲](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#skype-for-business-online-and-microsoft-teams)の ID 12 の一覧に基づいています。
+送信者 IP アドレスで指定された IP V4 範囲は、[OFFICE 365 URL と IP アドレス範囲](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)の ID 12 の一覧に基づいています。
 
 メッセージの暗号化の詳細については、「 [メール メッセージを暗号化するメール フロー ルールを定義する」を](/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email)参照してください。
 
