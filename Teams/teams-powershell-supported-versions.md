@@ -12,12 +12,12 @@ ms.collection:
 description: Microsoft Teamsの管理に使用されるTeams PowerShell モジュールでサポートされているバージョンについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80465e1685ea05d6f49c6119110ddf2004098055
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 6915448d76de64a65a9ac50e5c66e3ca41e051ef
+ms.sourcegitcommit: 8ce73ea99be607f5cdccb22a5366bc96e8fb09c8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681918"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65758315"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Teams PowerShell モジュール - サポートされているバージョン
 
@@ -29,11 +29,11 @@ ms.locfileid: "65681918"
 
 ## <a name="current-organizations-non-tpm-active"></a>現在の組織 (TPM 以外のアクティブ)
 
-過去 3 か月間 (1 月 22 日から 3 月 22 日) Teams PowerShell モジュールを使用していない組織は、2022 年 4 月 1 日から 4.x.x シリーズ以降のTeams PowerShell モジュールのみを使用できます。
+1 月 22 日から 3 月 22 日Teams PowerShell モジュールを使用していない組織は、2022 年 4 月 1 日から 4.x.x シリーズ以降の powerShell モジュールTeamsのみ使用できます。
 
 ## <a name="current-organizations-tpm-active"></a>現在の組織 (TPM アクティブ)
 
-過去 3 か月間 (1 月 22 日から 3 月 22 日) にTeams PowerShell モジュールを使用している組織は、2022 年 6 月 15 日から 4.x.x シリーズ以降のTeams PowerShell モジュールのみを使用できます。 参照用のメッセージ センターの投稿 - MC350371。
+2022 年 1 月 22 日から 3 月 22 日の間に powerShell モジュールTeams使用した組織は、2022 年 6 月 15 日から 4.x.x シリーズ以降のTeams PowerShell モジュールのみを使用できます。 参照用のメッセージ センターの投稿 - MC350371。
 
 ## <a name="important-notes"></a>重要な注意事項
 
@@ -54,7 +54,9 @@ ms.locfileid: "65681918"
 
   - 電話番号の割り当てに関する変更 - [Set-CsUser](/powershell/module/skype/set-csuser)、[Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser)、[Set-CsOnlineApplicationInstance](/powershell/module/skype/set-csonlineapplicationinstance) & [Set-CsOnlineVoiceApplicationInstance](/powershell/module/skype/set-csonlinevoiceapplicationinstance) (メッセージ センターポスト – MC316139) の詳細。
 
-  - Get-CsTenantのパラメーターの変更 - [Get-CsTenant](/powershell/module/skype/get-cstenant) の詳細。
+  - Get-CsTenantのパラメーターの変更 - [Get-CsTenant](/powershell/module/skype/get-cstenant) (メッセージ センターポスト – MC365397) の詳細。
+  
+  - スクリプトで、PSListModifier 型パラメーターで New/Set of Policy または Configuration コマンドレットを使用する場合は、最新バージョン (4.2.0 以降) を使用することをお勧めします。
 
 - TPM 4.x.x 以降を使用している間は、 [以下](#deprecated-cmdlets)で説明する非推奨またはサポートされていないコマンドレットは使用しないことをお勧めします。
 
@@ -77,7 +79,7 @@ ms.locfileid: "65681918"
   - [Grant|Get|Set|新規|Remove]-CsClientPolicy
   - [Grant|Get]-CsHostedVoicemailPolicy
   - [Grant|Get|Set|新規|Remove]-CsMobilityPolicy
-  - [Grant|Get] CsVoiceRoutingPolicy
+  - [Grant|Get]-CsVoiceRoutingPolicy
   - [Grant|Get]-CsBroadcastMeetingPolicy
   - [Grant|Get]-CsCloudMeetingPolicy
   - [Grant|Get]-CsGraphPolicy
@@ -96,7 +98,7 @@ ms.locfileid: "65681918"
   - Get-CsHostingProvider
   - [Get|Set|登録|登録解除]-CsHybridPSTNAppliance
   - [Get|Set|新規|Remove]-CsHybridPSTNSite
-  - [Get|Set]- CsHybridMediationServer
+  - [Get|Set]-CsHybridMediationServer
   - [Get|Set|新規|Remove]-CsTenantUpdateTimeWindow
   - Get-CsUserLocationStatus
   - Invoke-CsUcsRollback

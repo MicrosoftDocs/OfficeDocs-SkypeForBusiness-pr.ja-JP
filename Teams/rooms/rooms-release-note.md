@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理者は、Microsoft Teams Rooms の累積的な改善リストである Microsoft Teams Rooms のリリース ノートを参照できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 03a23ecb47fb0efca19ce3a7085a1fcc41b80dc3
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: eadeea6648da5ef2a5b5210b45bb3c884a1cabe8
+ms.sourcegitcommit: 55926815f13efce42fb45f63d95515a5765e0d40
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674199"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65753060"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams Roomsのリリース ノート
 
@@ -39,6 +39,7 @@ Teams Roomsは、モダン ライフサイクル ポリシーによって管理�
 
 |リリース |公開日 <br/> Microsoft Store |
 |--- |--- |
+|4.12.138.0 |5/26/2022 |
 |4.12.126.0 |4/27/2022 |
 |4.11.17.0 |3/3/2022 |
 |4.11.12.0 |1/24/2022 |
@@ -90,6 +91,13 @@ Teams Roomsは、モダン ライフサイクル ポリシーによって管理�
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams Rooms 機能の概要と問題の解決
+
+### <a name="4121380-5262022"></a>4.12.138.0 (5/26/2022)
+
+この更新プログラムで導入されるもの:
+- Jabra Panacast 50 のバグ修正
+- Cross Cloud 匿名会議への参加に関するバグ修正
+- 品質と信頼性の修正
 
 ### <a name="4121260-4272022"></a>4.12.126.0 (4/27/2022)
 

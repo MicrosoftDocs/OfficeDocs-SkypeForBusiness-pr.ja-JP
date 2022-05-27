@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 最適な結果を生み出すためにMicrosoft Teamsが認定されているデスクと会議の電話について説明します。
-ms.openlocfilehash: c5b4ab39768d0485de5fb5f6060d5567d035a343
-ms.sourcegitcommit: de0233e51364b7730c4b307fd41a2166eda3c3fc
+ms.openlocfilehash: 17682a64ee6a5df1c029fdad09307e8fb5789769
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/26/2022
-ms.locfileid: "65741899"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65682128"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams認定Androidデバイス
 
@@ -48,6 +48,8 @@ Microsoft Teams デバイス認定プログラムは、認定されたデバイ�
 | AudioCodes C450HD                      | `1.17.443`                                                  |    2023 年 8 月 5 日              | 9 |
 | AudioCodes C448HD(Cap モードのみ)       |  `1.17.443`                                                   | 2023 年 8 月 5 日            | 9 |
 | Yealink CP965    | `143.15.0.7 `          | 2025 年 9 月 3 日     | 11 |
+| AudioCodes C450HD                      | `C450HD_TEAMS_0.225`                                                  | 2022 年 4 月 22 日               | 7.1.x |
+| AudioCodes C448HD(Cap モードのみ)       | `C450HD_TEAMS_0.225`                                                  | 2022 年 4 月 22 日               | 7.1.x |
 | レストロン UC-P10/T/CT                   | `1.0.0.80`       | 2023 年 8 月 5 日            | 9 |
 | スレストロン UC-P8/T /CT                   | `1.0.0.56`       | 2023 年 8 月 5 日            | 9 |
 | Audiocodes C470HD                      | `1.8.293   `                                               | 2023 年 8 月 5 日               | 9 |
