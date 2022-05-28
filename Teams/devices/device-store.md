@@ -1,7 +1,7 @@
 ---
 title: デバイス ストアTeams
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: rahulimi
 ms.topic: article
@@ -16,12 +16,12 @@ search.appverid: MET150
 f1.keywords:
 - CSH
 description: Teams管理センターのデバイス ストアでデバイスを参照して購入する方法について説明します
-ms.openlocfilehash: f83fd22192a8145167ff04a2bd73b88746dd3ce7
-ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
+ms.openlocfilehash: da520b6396fa7e47288f4fdaa6b9f028ba16b3dd
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64457080"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761449"
 ---
 # <a name="purchase-devices-in-the-teams-device-store"></a>Teams デバイス ストアでデバイスを購入する
 
@@ -30,7 +30,7 @@ ms.locfileid: "64457080"
 
 Teams管理センターのデバイス ストアを使用すると、Microsoft Teamsの認定を受けたデバイスを参照、購入、プロビジョニングできます。  
 
- Teams管理センターでデバイス ストアを使用するには、**デバイス > ストア** に移動します。
+ Teams管理センターのデバイス ストアを使用するには、[**デバイス > Microsoft Store]** に移動します。
 
 ## <a name="requirements"></a>要件
 
@@ -58,7 +58,7 @@ Teamsデバイス ストアは、Teams管理センターで購入を有効にす
 
 ## <a name="order-tracking-and-history"></a>注文の追跡と履歴
 
-注文履歴を表示するには、[ **ストア >注文履歴**] に移動します。これには、自分と組織内の他の管理者が行ったすべての注文が含まれます。 注文履歴には、注文の発送状態も含まれます。 注文の追跡、返品、または返金に関する質問については、UnifiedCommunications.com にお問い合わせください。 連絡先の情報は、[注文履歴] ページで確認できます。
+注文履歴を表示するには、[**注文履歴] Microsoft Store >** 移動します。これには、組織内の自分や他の管理者が行ったすべての注文が含まれます。 注文履歴には、注文の発送状態も含まれます。 注文の追跡、返品、または返金に関する質問については、UnifiedCommunications.com にお問い合わせください。 連絡先の情報は、[注文履歴] ページで確認できます。
 
 Teams デバイス ストアに配置された注文とそれに関連付けられているすべてのデータは、テナントの注文とテナント データとして分類されます。
 

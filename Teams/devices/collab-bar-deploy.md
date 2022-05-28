@@ -1,7 +1,7 @@
 ---
-title: Android でMicrosoft Teams Roomsをデプロイする
-ms.author: czawideh
-author: cazawideh
+title: AndroidにMicrosoft Teams Roomsをデプロイする
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: payurevi
@@ -14,20 +14,20 @@ ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
-description: Android でのMicrosoft Teams Roomsのデプロイの詳細については、この記事を参照してください。
-ms.openlocfilehash: 7b37f03bdecf0bb6b1d3f3545d096836aa81b805
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+description: AndroidにMicrosoft Teams Roomsをデプロイする方法については、この記事を参照してください。
+ms.openlocfilehash: d97af4854ca276d1d5a31f2990e607f357b01f58
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514518"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761119"
 ---
-# <a name="deploy-microsoft-teams-rooms-on-android"></a>Android でMicrosoft Teams Roomsをデプロイする
+# <a name="deploy-microsoft-teams-rooms-on-android"></a>AndroidにMicrosoft Teams Roomsをデプロイする
 
-Android でのMicrosoft Teams Roomsのデプロイは、次のフェーズに分けることができます。
+AndroidでのMicrosoft Teams Roomsのデプロイは、次のフェーズに分けることができます。
 
 - **サイトの準備状況** デプロイの場所 (ルーム) がデプロイ要件を満たしていることを確認します。
-- **サービスの準備** リソース アカウントを作成し、デバイスに割り当てます ([「Microsoft 365 管理センターを使用したリソース アカウントの作成」を参照)。](resource-account-ui.md) 専用ルーム ライセンスを使用することをお勧めしますが、適切なライセンスを持つエンド ユーザー アカウントは Android でTeams Roomsにサインインすることもできます。
+- **サービスの準備** リソース アカウントを作成し、デバイスに割り当てます ([「Microsoft 365 管理センターを使用したリソース アカウントの作成」を参照)。](resource-account-ui.md) 専用ルーム ライセンスを使用することをお勧めしますが、適切なライセンスを持つエンド ユーザー アカウントは、AndroidでTeams Roomsにサインインすることもできます。
 - **構成とデプロイ** Teams Roomsを設定し、必要な周辺機器を接続します (詳細については、製造元のドキュメントを参照してください)。
 
 Teams Roomsを管理するには、グローバル管理者、Teams サービス管理者、またはデバイス管理者Teams必要があります。管理者ロールの詳細については、「[Microsoft Teams管理者ロールを使用してTeamsを管理する」を](../using-admin-roles.md)参照してください。
@@ -54,7 +54,7 @@ Teams Roomsを管理するには、グローバル管理者、Teams サービス
 |&nbsp;|&nbsp;|
 |-----------|------------|
 | ![判断ポイントを表すアイコン。](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>サイトが、Microsoft Teamsのコラボレーション バーのサイト準備要件を満たしていることを確認します。</li><li>各サイトに十分な帯域幅があることを確認します。</li></ul>|
-| ![次の手順を示すアイコン。](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>コラボレーション バーの展開と構成の計画を開始します。</li></ul>|
+| ![次の手順を示すアイコン。](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>コラボレーション バーの展開と構成の計画を開始します。</li></ul>|
 
 ## <a name="service-readiness"></a>サービスの準備
 
@@ -75,7 +75,7 @@ Microsoft 365リソース アカウントの詳細については、「[Microsof
 |&nbsp;|&nbsp;|
 |-----------|------------|
 | ![判断ポイントを表すアイコン。](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>外部の電話を発信するか受信するかを決定し、リソース アカウントのライセンス要件を特定します。</li></ul>|
-| ![次の手順を示すアイコン。](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>リソース アカウントを準備します。</li></ul>|
+| ![次の手順を示すアイコン。](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>リソース アカウントを準備します。</li></ul>|
 
 ## <a name="configuration-and-deployment"></a>構成と展開
 
@@ -94,12 +94,12 @@ Microsoft 365 リソース アカウントを使用してユーザーがコラ�
 プライベート使用のためにTeams Roomsを個々のユーザーに割り当てる場合は、追加のアカウントを設定する必要はありません。 ユーザーは、個人用アカウントを使用してコラボレーション バーにサインインできます。
 
 > [!TIP]
-> Microsoft 365 リソース アカウントの表示名をわかりやすく説明します。 これらは、会議にTeams Roomsを検索して追加するときにユーザーに表示される名前です。 *SiteRoom*- *Name*(*Max Room Capacity*) のような規則を使用できます。そのため、たとえば、ロンドンの 4 人用会議室である Curie に表示名 LON-CURIE(4) を付けることができます。
+> Microsoft 365 リソース アカウントの表示名をわかりやすく説明します。 これらは、会議にTeams Roomsを検索して追加するときにユーザーに表示される名前です。 *Site*-*Room Name*(*Max Room Capacity*) のような規則を使用できます。そのため、たとえば、ロンドンの 4 人用会議室である Curie に表示名 LON-CURIE(4) を付けることができます。
 
 |&nbsp;|&nbsp;|
 |-----------|------------|
 | ![判断ポイントを表すアイコン。](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>専用リソース アカウントの名前付け規則を決定します。</li><li>個々のアカウントを作成するか、一括プロビジョニング スクリプトを使用するかを決定します。</li></ul>|
-| ![次の手順を示すアイコン。](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>デバイスの展開の計画を開始します。</li></ul>|
+| ![次の手順を示すアイコン。](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>デバイスの展開の計画を開始します。</li></ul>|
 
 ### <a name="device-deployment"></a>デバイスの展開
 
@@ -108,7 +108,7 @@ Microsoft 365 リソース アカウントを使用してユーザーがコラ�
 |&nbsp;|&nbsp;|
 |-----------|------------|
 | ![判断ポイントを表すアイコン。](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>サイトごとの展開を管理するユーザーを決定します。</li><li> サイトにTeams Roomsをインストールし、構成とテストを行うリソースを特定します。</li></ul>|
-| ![次の手順を示すアイコン。](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>デバイスのテストを開始します。</li></ul>|
+| ![次の手順を示すアイコン。](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>デバイスのテストを開始します。</li></ul>|
 
 ### <a name="testing"></a>テスト
 

@@ -1,7 +1,7 @@
 ---
 title: Teams Rooms用に ServiceNow を構成する
-author: cazawideh
-ms.author: czawideh
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.reviewer: ''
 ms.topic: article
@@ -12,12 +12,12 @@ appliesto:
 localization_priority: Normal
 description: Teams Rooms プレミアム ポータルでの ServiceNow の構成の詳細
 f1keywords: ''
-ms.openlocfilehash: deca4f8111dec958b19d9a6fa2651fca34f4050f
-ms.sourcegitcommit: 9caa3131e9896b140afe10edea2b1e599eacd02b
+ms.openlocfilehash: c11a4e3cf4f128c8043ad2451f7d0a7a2ffe1c2e
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "62082213"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761499"
 ---
 # <a name="configure-servicenow-for-teams-rooms"></a>Teams Rooms用に ServiceNow を構成する
 

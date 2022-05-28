@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Teams EHR コネクタを統合して、組織内の医療プロバイダーがエピック EHR システムから直接Teamsで患者や他のプロバイダーと仮想予約を行えるようにする方法について説明します。
-ms.openlocfilehash: abe826b1e71c37e0932404233c234282ec90b7f9
-ms.sourcegitcommit: 3cb40132e36717dfbdc6dfe83e7ea319f3ec9347
+ms.openlocfilehash: c34c8fbb32d78c1380267ce6876e947b877ce383
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "65465438"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65760949"
 ---
 # <a name="virtual-appointments-with-teams---integration-into-epic-ehr"></a>Teamsを使用した仮想予定 - エピック EHR への統合
 
@@ -62,7 +62,7 @@ Teamsのコミュニケーションとコラボレーション プラットフ�
 
 Teams アプリへのアクセスを要求する必要があります。
 
-1. [Epic App Marketplace](https://apporchard.epic.com/Gallery?id=6153) でTeamsアプリのダウンロードを要求します。 これを行うと、エピックから Microsoft EHR コネクタ チームへの要求がトリガーされます。
+1. [Epic App Marketplace](https://apporchard.epic.com/Gallery?id=16793) でTeamsアプリのダウンロードを要求します。 これを行うと、エピックから Microsoft EHR コネクタ チームへの要求がトリガーされます。
 1. 要求を行った後、組織名、テナント ID、およびエピック技術連絡先の電子メール アドレスを含む電子メールを [TeamsForHealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) に送信します。
 1. Microsoft EHR コネクタ チームがメールに返信し、有効化の確認を行います。
 

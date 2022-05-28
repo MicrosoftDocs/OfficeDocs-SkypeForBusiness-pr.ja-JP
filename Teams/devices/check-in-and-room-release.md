@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams パネルでのチェックインと会議室のリリース
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: gary.lai
 ms.service: msteams
@@ -15,12 +15,12 @@ ms.collection:
 ms.topic: reference
 search.appverid: MET150
 description: この記事では、チェックインと会議室のリリースTeamsパネル デバイスを有効にする方法に関するガイダンスを提供します。
-ms.openlocfilehash: 3cf1f48a71f88f012c6d33ba608ee40b53cda474
-ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
+ms.openlocfilehash: a1fc01b349a2189ab2f5ca09ff6b856338fbcdbb
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65218021"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761279"
 ---
 # <a name="check-in-and-room-release-on-microsoft-teams-panels"></a>Microsoft Teams パネルでのチェックインと会議室のリリース
 
@@ -28,7 +28,7 @@ ms.locfileid: "65218021"
 
 ## <a name="requirements"></a>要件 
 
-この機能は、スタンドアロンのTeams パネルデプロイで使用できます。 また、チェックイン通知などの追加機能については、Android 上のTeams Roomsとアプリ バージョン 1449/1.0.96.202201305 以降のTeams パネルをペアリングすることもできます。  
+この機能は、スタンドアロンのTeams パネルデプロイで使用できます。 チェックイン通知などの追加機能については、Teams パネルとAndroidのTeams Roomsをアプリ バージョン 1449/1.0.96.2022011305 以降とペアリングすることもできます。  
 
 ## <a name="enable-check-in-and-room-release"></a>チェックインと会議室のリリースを有効にする 
 
@@ -36,18 +36,18 @@ ms.locfileid: "65218021"
 
 1. Teams パネルで、管理者資格情報を使用してサインインします。  
 
-2. **[設定 > デバイスの設定] > [管理者設定] > Teams [会議] >管理設定に移動します**。
+2. **[設定 >デバイス設定] > 管理設定> Teams管理者設定>会議** に移動します。
 
 3. 誰もチェックインしない場合は、リリース ルームをオンにします。
 
 4. ユーザーが会議室をリリースする前にチェックインする必要がある時間を調整するには、[ **リリース後にリリース:]** に移動し、ドロップダウンからオプションを選択します。  
 
-Teamsパネルが Android のTeamsルームとペアリングされている場合、ユーザーはTeams会議室で会議に参加していることを確認できます。  
+TeamsパネルがAndroidのTeamsルームとペアリングされている場合、ユーザーはTeams会議室で会議に参加していることを確認できます。  
 
 ## <a name="turn-on-check-in-notifications"></a>チェックイン通知を有効にする
 
 > [!NOTE]
-> この機能は現在、Android のTeams ルームとペアリングされているTeams パネルでのみ使用できます。 Teams パネルとTeamsルームは、同じリソース アカウントにサインインする必要があります。 詳細については、「[Android の Microsoft Teams ルームとTeams パネルをペアリング](use-teams-panels.md#pair-a-teams-panel-with-a-microsoft-teams-room-on-android)する」を参照してください。  
+> この機能は現在、AndroidのTeamsルームとペアリングされているTeams パネルでのみ使用できます。 Teams パネルとTeamsルームは、同じリソース アカウントにサインインする必要があります。 詳細については、「[AndroidのMicrosoft Teams ルームとTeams パネルをペアリング](use-teams-panels.md#pair-a-teams-panel-with-a-microsoft-teams-room-on-android)する」を参照してください。  
 
 チェックイン通知は、会議が予約済みの時間帯を過ぎても続く場合に送信されます。 次の会議のユーザーがチェックインすると、スケジュールされた会議の開始時刻に会議室の前面に通知が表示され、前の会議参加者が予約が終了し、ユーザーが空きを待っていることがわかります。  
 
@@ -55,7 +55,7 @@ Teamsパネルが Android のTeamsルームとペアリングされている場�
 
 1. Teams パネルで、管理者資格情報を使用してサインインします。 
 
-2. **[設定 > デバイスの設定] > [管理者設定] > Teams [会議] >管理設定に移動します**。
+2. **[設定 >デバイス設定] > 管理設定> Teams管理者設定>会議** に移動します。
 
 3. **チェックイン** に移動し、[チェックイン通知の **送信**] をオンにします。
 

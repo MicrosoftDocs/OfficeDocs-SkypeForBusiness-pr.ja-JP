@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams パネル デバイスの使用方法
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference
@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: この記事では、Teams パネル デバイスを使用する方法に関するガイダンスを提供します。
-ms.openlocfilehash: 2928bb64881cad5fb5c6615d26767e963f725dcd
-ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
+ms.openlocfilehash: 00d2657179e35e2a5e43cbc0665a6d1533ec70d1
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "64643041"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65760909"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>Microsoft Teams パネルの使用方法
 
@@ -162,8 +162,8 @@ Teams パネル デバイスを使用して、次の手順を実行します。
 
 パネル デバイスには、2 種類の管理者設定が用意されています。 使用可能な管理者設定にアクセスするには、デバイス管理者である必要があります。 エンド ユーザーはこれらの設定にアクセスできません。
 
-- ディスプレイ、時刻、日付、言語、Bluetooth、WiFi など、デバイスに固有の管理者設定。 これらの設定の詳細については、OEM のドキュメントを参照してください。
-- 壁紙や LED インジケーターの色など、デバイス上の **パネル アプリ** に固有の管理者設定。 **パネル アプリ** の管理者のみがこれらの設定にアクセスできます。 **パネル アプリ** の設定は管理者設定の一部として使用できるため、パネル アプリ **の設定に** アクセスするには、デバイスアプリと **パネル アプリ** の両方の管理者サインイン資格情報が必要です。
+- 管理、ディスプレイ、時刻、日付、言語、Bluetooth、WiFi など、デバイスに固有の設定です。 これらの設定の詳細については、OEM のドキュメントを参照してください。
+- 管理、壁紙や LED インジケーターの色など、デバイス上の **パネル アプリ** に固有の設定です。 **パネル アプリ** の管理者のみがこれらの設定にアクセスできます。 **パネル アプリ** の設定は管理者設定の一部として使用できるため、パネル アプリ **の設定に** アクセスするには、デバイスアプリと **パネル アプリ** の両方の管理者サインイン資格情報が必要です。
 
 > [!NOTE]
 > デバイスを介して行われる **パネル アプリ** 設定の更新は、その特定のデバイスにのみ適用されます。 これらの更新プログラムは、組織内の他のパネル デバイスには影響しません。 たとえば、 **パネル アプリ** の設定からホーム画面の壁紙画像を変更すると、その特定のデバイスに対してのみ壁紙イメージが変更されます。
@@ -176,7 +176,7 @@ Teams パネル デバイスを使用して、次の手順を実行します。
 
 1. ホーム画面で **設定** アイコンをタップします。
 2. **設定** 画面で、[**デバイスの設定**] をタップします。
-3. **[管理者] 設定** をタップします。
+3. 管理 設定をタップ **します**。
 
     > [!NOTE]
     > デバイスの OEM によっては、デバイス管理者パスワードを今すぐ入力するか、次の手順の後に入力する必要がある場合があります。
@@ -192,31 +192,31 @@ Teams パネル デバイスを使用して、次の手順を実行します。
     - [壁紙](#update-the-wallpaper)
     - [LED インジケーター](#change-the-busy-state-led-color)
 
-#### <a name="pair-a-teams-panel-with-a-microsoft-teams-room-on-android"></a>Android 上の Microsoft Teams ルームとTeams パネルをペアリングする
+#### <a name="pair-a-teams-panel-with-a-microsoft-teams-room-on-android"></a>Teams パネルをAndroid上のMicrosoft Teamsルームとペアリングする
 
-Android で Teams パネル と Teams Room をペアリングするには、両方のデバイスが同じリソース アカウントにサインインしている必要があります。
+Android上のTeams パネルとTeamsルームをペアリングするには、両方のデバイスが同じリソース アカウントにサインインしている必要があります。
 
 Teams パネルで、管理者資格情報を使用してサインインします。
 
-1. **デバイス 設定 >管理設定 > パネル アプリ設定 >会議>デバイス ペアリング設定 >に移動します。**
+1. **デバイス 設定 > 管理 設定 > パネル アプリ設定 >会議>デバイス ペアリング設定 >に移動します。**
 
-2. Android のルーム ディスプレイの前面のTeams Roomsに 6 桁のコードが表示されます。 Teams パネルにコードを入力します。  
+2. ルームディスプレイの前面のTeams Roomsに 6 桁のコードAndroid表示されます。 Teams パネルにコードを入力します。  
 
 #### <a name="meeting-check-in-and-room-release"></a>会議のチェックインと会議室のリリース
 
 チェックインと会議室のリリース設定を使用すると、ユーザーは会議の開始時に予約した会議室のTeams パネルで会議にチェックインできます。 ユーザーが会議の開始時刻の後に一定の時間内にチェックインしない場合、会議室は解放され、他のユーザーが予約できるようになります。
 
-Teams パネルが Android 上のMicrosoft Teams ルームとペアリングされている場合、会議が遅れた場合に、チェックイン通知を会議室の前面のディスプレイに表示できます。
+Teams パネルがAndroidのMicrosoft Teamsルームとペアリングされている場合、会議が遅れた場合に会議室の前面ディスプレイにチェックイン通知を表示できます。
 
 チェックインと会議室のリリースを有効にするには、[Microsoft Teams パネルのチェックインと会議室のリリースに関するページを参照してください](check-in-and-room-release.md)。
 
 #### <a name="room-capacity-warning"></a>会議室の容量に関する警告
 
-Android 上の Teams ルームとペアになっているTeams パネルでは、会議室の容量が超過した場合に警告メッセージを表示できます。 この機能を使用するには、Teams ルームに、ユーザーのカウントをサポートするカメラが必要です。 Android のTeams Roomsでは、Teams パネルのない会議室容量の警告がサポートされます。
+Android上のTeamsルームとペアになっているTeams パネルでは、会議室の容量が超過した場合に警告メッセージを表示できます。 この機能を使用するには、Teams ルームに、ユーザーのカウントをサポートするカメラが必要です。 Teams パネルのない会議室容量の警告をサポートAndroidに関するTeams Rooms。
 
-会議室容量の警告は既定でオフになっています。 Teams パネルから設定を有効にするには、まず [android のMicrosoft Teams ルームとTeams パネルをペアリング](#pair-a-teams-panel-with-a-microsoft-teams-room-on-android)します。 パネルと Teams 会議室は、同じリソース アカウントにサインインしている必要があります。
+会議室容量の警告は既定でオフになっています。 Teams パネルから設定を有効にするには、最初に[Teams パネルをAndroidのMicrosoft Teamsルームとペアリング](#pair-a-teams-panel-with-a-microsoft-teams-room-on-android)します。 パネルと Teams 会議室は、同じリソース アカウントにサインインしている必要があります。
 
- 次に、[**デバイスの設定] 設定 > [管理設定] >パネル アプリの設定>移動します**。 次に、[ **会議**] で、[ **最大会議室の占有率の通知**] をオンにします。
+ 次に、**パネル アプリの設定>デバイス設定> 管理設定 >** に移動します。 次に、[ **会議**] で、[ **最大会議室の占有率の通知**] をオンにします。
 
 #### <a name="view-room-equipment"></a>会議室の機器を表示する
 

@@ -1,7 +1,7 @@
 ---
 title: Teams Android デバイスのリモート サインインとサインアウト
-author: cazawideh
-ms.author: czawideh
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.reviewer: prasad.gholve
 ms.topic: article
@@ -17,17 +17,17 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Teams Android デバイスからリモートでサインインしてサインアウトする方法について説明します
-ms.openlocfilehash: 13566268df77f0d5f963829444002dc753569ec8
-ms.sourcegitcommit: a3b3eb85354d62b2a5325ba7c8dda88352c6711a
+description: リモートでサインインし、Teams Android デバイスからサインアウトする方法について説明します
+ms.openlocfilehash: 5688ed8b7edf49e3048cb8b36b7e033030c09d5b
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/18/2021
-ms.locfileid: "61070574"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761429"
 ---
 # <a name="remote-sign-in-and-sign-out-for-teams-android-devices"></a>Teams Android デバイスのリモート サインインとサインアウト
 
-この記事では、Teams管理センターから Android デバイスTeamsリモート サインインしてサインアウトする方法について説明します。 デバイスをまだプロビジョニングしていない場合、またはデバイスがプロビジョニングされているがサインインしたことがない場合は、「[Teams Android デバイスのリモート プロビジョニングとサインイン](remote-provision-remote-login.md)」を参照してください。
+この記事では、Teams管理センターからデバイスTeams Androidリモート サインインしてサインアウトする方法について説明します。 デバイスをまだプロビジョニングしていない場合、またはデバイスがプロビジョニングされているがサインインしていない場合は、[Teams Android デバイスのリモート プロビジョニングとサインインに関するページを](remote-provision-remote-login.md)参照してください。
 
 ## <a name="remote-sign-in"></a>リモート サインイン
 

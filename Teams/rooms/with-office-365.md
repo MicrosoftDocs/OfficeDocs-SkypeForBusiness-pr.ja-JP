@@ -1,7 +1,7 @@
 ---
 title: 会議室と共有Teamsデバイスのリソース アカウントを作成する
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,16 +15,16 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Microsoft Teams Rooms、Surface HubのTeams Rooms、Teams ディスプレイでのホット デスクなど、会議室と共有デバイスのリソース アカウントを作成する方法については、この記事を参照してください。
-ms.openlocfilehash: e788ca2086faf86f602ef0938d520ea03dce4ef4
-ms.sourcegitcommit: 5bfd2e210617e4388241500eeda7b50d5f2a0ba3
+ms.openlocfilehash: 53d69a5dd91e012bc948bad1b9d7350afcbbb1b2
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "64885025"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65760889"
 ---
 # <a name="create-and-configure-resource-accounts-for-rooms-and-shared-teams-devices"></a>会議室と共有Teamsデバイスのリソース アカウントを作成および構成する
 
-この記事では、共有スペースとデバイスのリソース アカウントを作成する手順と、Windows、Android でのTeams Rooms、Surface HubでのTeams Rooms、ホットデスクのMicrosoft Teams Rooms用のリソース アカウントを構成する手順について説明します。Teamsが表示されます。
+この記事では、共有スペースとデバイスのリソース アカウントを作成する手順について説明します。また、WindowsのMicrosoft Teams Rooms、AndroidのTeams Rooms、Surface HubでのTeams Rooms、およびTeamsディスプレイのホット デスク。
 
 Microsoft 365リソース アカウントは、会議室やプロジェクターなどの特定のリソース専用のメールボックスとTeams アカウントです。 これらのリソース アカウントは、作成時に定義したルールを使用して会議出席依頼に自動的に応答できます。 たとえば、会議室などの共通リソースがある場合は、その会議室のリソース アカウントを設定し、予定表の可用性に応じて会議の招待を自動的に受け入れるか拒否します。 
 
@@ -62,7 +62,7 @@ Microsoft 365 リソース アカウントを作成する前に、必要なラ�
 
 - **PSTN 通話** リソースが外部電話番号 (公衆交換電話網または PSTN 通話と呼ばれる) との間で通話を発信または受信する場合は、Microsoft 365 電話システムまたはMicrosoft 365 Business Voiceライセンスが必要です。 次の概要の手順 1 を完了するだけで済みます。 次に、詳細については、[アドオン ライセンスMicrosoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を参照してください。
 
-- リソース アカウントのみを使用してリソース&mdash;を予約する場合は、リソースを会議に招待し、リソース アカウントにライセンスを割り当てる必要がなく、次の概要の手順 1 を完了するだけで済む招待&mdash;を自動的に承諾または拒否します。  
+- リソース アカウントのみを使用してリソース&mdash;を予約する場合は、リソースを会議に招待し、リソース アカウントにライセンスを割り当てる必要のない招待&mdash;を自動的に承諾または拒否し、次の概要の手順 1 を完了するだけで済みます。  
 
 ## <a name="overview"></a>概要
 
@@ -104,9 +104,9 @@ Microsoft 365 リソース アカウントを作成する前に、必要なラ�
       - 最大期間 (時間): 24
     - 会議出席依頼の自動承諾
 
-    それらを変更する場合は、[**閉じる**] を選択する前に [**スケジュール オプションの設定**] を選択します。 後で変更する場合は、**ResourcesRooms** >  **&機器** に移動し、リソース アカウントを選択します。 次に、[ **予約オプション**] で [編集] を選択 **します**。
+    それらを変更する場合は、[**閉じる**] を選択する前に [**スケジュール オプションの設定**] を選択します。 後で変更する場合は、 **リソース** > **ルーム&機器** に移動し、リソース アカウントを選択します。 次に、[ **予約オプション**] で [編集] を選択 **します**。
 
-6. **UsersActive** >  **ユーザー** に移動し、作成したルームを選択してプロパティ パネルを開きます。
+6. **[ユーザー****アクティブ ユーザー**]  >  に移動し、作成したルームを選択してプロパティ パネルを開きます。
 
 7. 次に、リソース アカウントにパスワードを割り当てます。 パネルで、[パスワードの **リセット**] を選択します。
  
@@ -202,7 +202,7 @@ Exchangeハイブリッド構成の場合は、オンプレミス ドメイン �
 > [!IMPORTANT]
 > このリソース アカウントのみを使用してスペースを予約し、招待を自動的に承諾または拒否する場合は、設定が完了しました。 PSTN 通話にこのリソース アカウントを使用している場合は、[アドオン ライセンスMicrosoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)参照して、必要なライセンスを確認してください。
 >
-> リソース アカウントがWindowsのTeams Rooms、Android でのTeams Rooms、Surface HubのTeams Rooms、ホット デスクが表示されたTeamsの場合にのみ、次のセクションに進みます。
+> リソース アカウントがWindowsのTeams Rooms、AndroidのTeams Rooms、Surface HubのTeams Rooms、ホット デスクが表示されたTeamsの場合にのみ、次のセクションに進みます。
 
 ## <a name="configure-mailbox-properties"></a>メールボックスのプロパティを構成する
 
@@ -310,12 +310,12 @@ Microsoft Teamsにサインインするには、リソース アカウントにM
 > [!NOTE]
 > Microsoft Teams Rooms StandardとMicrosoft Teams Rooms Premiumは、Teams Roomsを含む共有会議室デバイスで使用できる 2 つの SKU です。 ホットデスクを使用するTeamsディスプレイには、会議室のライセンスが必要です。 詳細については、「[Teams会議室ライセンス](rooms-licensing.md)」を参照してください。
 
-Microsoft 365 管理センターを使用してライセンスを割り[当てるには、「ユーザーにライセンスを割り当てる」を](/microsoft-365/admin/manage/assign-licenses-to-users)参照してください。 Azure ADを使用してライセンスを割り当てるには、次のいずれかのタブを参照してください。
+Microsoft 365 管理センターを使用してライセンスを割り[当てるには、「ユーザーにライセンスを割り当てる」を](/microsoft-365/admin/manage/assign-licenses-to-users)参照してください。 Azure AD を使用してライセンスを割り当てるには、次のいずれかのタブを参照してください。
 
 #### <a name="active-directory-20"></a>[**Active Directory 2.0**](#tab/active-directory2-license/)
 
 
-1. Azure ADにConnectする
+1. Azure AD へのConnect
   
     ```PowerShell
     Connect-AzureAD
@@ -384,7 +384,7 @@ Microsoft 365 管理センターを使用してライセンスを割り[当て�
 
 アカウントの作成とライセンスの割り当てを検証するには、作成したアカウントを使用してTeamsクライアントにサインインします。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 ### <a name="meeting-policies"></a>ミーティング ポリシー
 

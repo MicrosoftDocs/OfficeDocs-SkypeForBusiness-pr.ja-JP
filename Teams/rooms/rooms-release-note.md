@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Roomsのリリース ノート (Windows)
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理者は、Microsoft Teams Rooms の累積的な改善リストである Microsoft Teams Rooms のリリース ノートを参照できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eadeea6648da5ef2a5b5210b45bb3c884a1cabe8
-ms.sourcegitcommit: 55926815f13efce42fb45f63d95515a5765e0d40
+ms.openlocfilehash: cbf840eb8abc60cbdc53325e41b3d9f95e6b4713
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/27/2022
-ms.locfileid: "65753060"
+ms.locfileid: "65761109"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams Roomsのリリース ノート
 
@@ -95,8 +95,8 @@ Teams Roomsは、モダン ライフサイクル ポリシーによって管理�
 ### <a name="4121380-5262022"></a>4.12.138.0 (5/26/2022)
 
 この更新プログラムで導入されるもの:
-- Jabra Panacast 50 のバグ修正
-- Cross Cloud 匿名会議への参加に関するバグ修正
+- Jabra Panacast 50 からの複数の同時ビデオ ストリームのバグ修正 (会議ビデオ、コンテンツ カメラ ビデオ)
+- クロスクラウド会議で既定の会議オーディオ デバイスを使用できるようになりました
 - 品質と信頼性の修正
 
 ### <a name="4121260-4272022"></a>4.12.126.0 (4/27/2022)

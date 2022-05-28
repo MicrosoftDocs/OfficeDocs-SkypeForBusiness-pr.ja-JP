@@ -1,7 +1,7 @@
 ---
-title: Android デバイスのユーザー インターフェイスMicrosoft Teams設定する
-ms.author: czawideh
-author: cazawideh
+title: デバイスのユーザー インターフェイスMicrosoft Teams Android設定する
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 appliesto:
@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: Teams Android デバイスでユーザー インターフェイスを設定する方法について説明します。
-ms.openlocfilehash: c1872fffef3f21c3fec6a9c693b02e218d5d8337
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: f97603fa4dcd173192f1fdf2e715c2f9792c2f03
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63503774"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761459"
 ---
-# <a name="set-microsoft-teams-android-devices-user-interface"></a>Android デバイスのユーザー インターフェイスMicrosoft Teams設定する
+# <a name="set-microsoft-teams-android-devices-user-interface"></a>デバイスのユーザー インターフェイスMicrosoft Teams Android設定する
 
-Microsoft Teams Android デバイスでは、サインインしているアカウントに割り当てられているライセンスの種類に基づいて、特定のユーザー インターフェイスを表示できます。 この動作をオーバーライドし、表示されるインターフェイスを制御できます。 この記事では、既定のユーザー インターフェイスを選択する方法と、Powershell ポリシーを使用してインターフェイスを変更する方法について詳しく説明します。
+Microsoft Teams Androidデバイスは、サインインアカウントに割り当てられているライセンスの種類に基づいて、特定のユーザー インターフェイスを表示できます。 この動作をオーバーライドし、表示されるインターフェイスを制御できます。 この記事では、既定のユーザー インターフェイスを選択する方法と、Powershell ポリシーを使用してインターフェイスを変更する方法について詳しく説明します。
 
 Teams Android デバイスには、次の 3 種類のユーザー インターフェイスがあります。
 
@@ -60,7 +60,7 @@ E3 や E5 ライセンスなどのアカウントに[ユーザー ライセン�
 
 ## <a name="override-automatic-user-interface-detection"></a>自動ユーザー インターフェイス検出をオーバーライドする
 
-場合によっては、目的の使用に一致しないアカウントにライセンスを割り当てることを選択できます。 たとえば、Android でTeams Roomsにサインインするためのユーザー ライセンスをアカウントに割り当てることができます。 既定では、会議室のインターフェイスの代わりにエンド ユーザー インターフェイスが表示されます。 既定のインターフェイスをオーバーライドするには、新しい[Teams IP 電話 ポリシー](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps)を作成し、そのアカウントに適用します。
+場合によっては、目的の使用に一致しないアカウントにライセンスを割り当てることを選択できます。 たとえば、AndroidでTeams Roomsにサインインすることを目的としたアカウントにユーザー ライセンスを割り当てることができます。 既定では、会議室のインターフェイスの代わりにエンド ユーザー インターフェイスが表示されます。 既定のインターフェイスをオーバーライドするには、新しい[Teams IP 電話 ポリシー](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps)を作成し、そのアカウントに適用します。
 
 > [!NOTE]
 > ユーザー アカウントに割り当てられているライセンスには、目的のユーザー インターフェイスと少なくとも同じライセンス資格が必要です。 Common Area 電話 ライセンスでは、Common Area Phone ユーザー インターフェイスのみが許可されます。 会議室ライセンスを使用すると、会議室と共通エリアの電話ユーザー インターフェイスを使用できます。 E3 または E5 ライセンスでは、すべてのサインイン モードがサポートされます。

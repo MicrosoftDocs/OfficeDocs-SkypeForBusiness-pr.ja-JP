@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Roomsでサポートされている条件付きアクセスとIntuneデバイス コンプライアンス ポリシー
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: kspiess
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 description: Microsoft Teams Roomsでサポートされ推奨される条件付きアクセスポリシーとIntuneデバイス コンプライアンス ポリシーについて説明します。
-ms.openlocfilehash: 1c355280622d03cf0a8100f0ee4a23dd17df88a1
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 8492f94106423498c7e301e48c8f4d046d569674
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675239"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761469"
 ---
 # <a name="supported-conditional-access-and-intune-device-compliance-policies-for-microsoft-teams-rooms-and-teams-android-devices"></a>Microsoft Teams RoomsおよびTeams Android デバイスに対してサポートされている条件付きアクセスポリシーとIntuneデバイス コンプライアンス ポリシー
 

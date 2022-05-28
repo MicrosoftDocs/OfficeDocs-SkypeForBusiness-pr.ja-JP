@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Rooms セキュリティ
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 appliesto:
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: Microsoft Teams Rooms デバイスをセキュリティで保護する方法について説明します。
-ms.openlocfilehash: bbb61023772e5116d2ca96171d30649ab85bf68c
-ms.sourcegitcommit: 109be23768ae183e07a0833fa9a9e5cb0369cb43
+ms.openlocfilehash: 135e286ce255f097dc3751bc509c05fc94f2ffb2
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63368382"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761099"
 ---
 # <a name="microsoft-teams-rooms-security"></a>Microsoft Teams Rooms セキュリティ
 

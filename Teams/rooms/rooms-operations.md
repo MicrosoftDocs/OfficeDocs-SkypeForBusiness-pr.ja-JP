@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Rooms のメンテナンスと運用
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Microsoft Teams Roomsの管理について説明します。
-ms.openlocfilehash: d57f84aa07c90b6a75693f0cbf739402a6e90a4c
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: df9760694bd8e0c650be25eec7d435efcae02127
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125472"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761059"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams Rooms のメンテナンスと運用
  
@@ -30,7 +30,7 @@ Microsoft Teams Roomsは、会議室を豊富なコラボレーション エク�
 
 Teams管理センターでログを収集するには、**Windowsで> Teams RoomsデバイスTeamsに** 移動します。 ログの対象となるデバイスの表示名を選択します。 上部のパネルで、[デバイス ログのダウンロード] を選択します。 確認すると、数分後に [履歴] タブでログをダウンロードできるようになります。
 
-PowerShell を使用してログを収集することもできます。 Microsoft Teams Rooms アプリに付属するログ 収集スクリプトを呼び出す必要があります。 [管理者モード](rooms-operations.md)で管理者特権のコマンド プロンプトを起動し、次のコマンドを発行します。
+PowerShell を使用してログを収集することもできます。 Microsoft Teams Rooms アプリに付属するログ 収集スクリプトを呼び出す必要があります。 [管理 モード](rooms-operations.md)で管理者特権のコマンド プロンプトを起動し、次のコマンドを発行します。
   
 ```PowerShell
 powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
@@ -221,7 +221,7 @@ Copy-Item $movefile $targetDevice
 ## <a name="software-updates"></a>ソフトウェアの更新
 <a name="SWupdate"> </a>
 
-既定では、Microsoft Teams RoomsはWindows ストアへの接続を試み、Microsoft Teams Rooms ソフトウェアの最新バージョンを取得します。 そのため、Teams Roomsには通常のインターネット アクセスが必要です。 サポートの問題で Microsoft に連絡する前に、Microsoft Teams Roomsが最新バージョンのアプリで読み込まれていることを確認してください。
+既定では、Microsoft Teams Roomsは最新バージョンのMicrosoft Teams Rooms ソフトウェアを取得するためにWindows Microsoft Storeに接続しようとします。 そのため、Teams Roomsには通常のインターネット アクセスが必要です。 サポートの問題で Microsoft に連絡する前に、Microsoft Teams Roomsが最新バージョンのアプリで読み込まれていることを確認してください。
   
 Microsoft Teams RoomsはWindows Updateに接続して、オペレーティング システムと周辺機器のファームウェアの更新プログラムを取得します。 また、Microsoft Storeに接続して、アプリケーションの更新プログラムを取得します。
 
@@ -230,9 +230,9 @@ Microsoft Teams RoomsはWindows Updateに接続して、オペレーティング
 ## <a name="admin-mode-and-device-management"></a>管理者モードおよびデバイスの管理
 <a name="AdminMode"> </a>
 
-プライベート CA 証明書の手動インストールなど、一部の管理機能では、管理モードでTeams Roomsを配置する必要があります。 
+プライベート CA 証明書の手動インストールなど、一部の管理機能では、管理 モードでTeams Roomsを配置する必要があります。 
   
-### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>管理モードに切り替え、Microsoft Teams Rooms アプリが実行されているときに戻る
+### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>管理 モードに切り替え、Microsoft Teams Rooms アプリが実行されているときに戻る
 
 1. 現在の通話を切って、ホーム画面に戻ります。
 2. 歯車アイコンをクリックすると、メニューが表示されます (オプションは、**[設定]**、**[アクセシビリティ]**、**[デバイスを再起動]** です)。
@@ -247,7 +247,7 @@ Microsoft Teams RoomsはWindows Updateに接続して、オペレーティング
   
 ### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes"></a>管理者モードに切り替え、Microsoft Teams Rooms アプリがクラッシュしたら元に戻す
 
-1. Windows キーを 5 回連続で、素早く押します。これによって、Windows のログオン画面が開きます。 
+1. Windows キーを 5 回連続で、素早く押します。 これによって、Windows のログオン画面が開きます。 
 2. 管理者の資格情報を使用してデスクトップにログインします。
 3. 必要な管理上のタスクを実行します。
 4. 終了したら、コンピューターを再起動します。

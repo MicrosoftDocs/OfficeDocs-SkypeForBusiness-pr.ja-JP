@@ -1,7 +1,7 @@
 ---
 title: 環境を準備する
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Microsoft Teams Rooms を展開するためのインフラストラクチャを準備して、すべての機能を利用できるようにする方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b04ecd5b10f82e3f331bc2e888f59927de52e18c
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 4e479a3bc51cdab49a742d9084601505f13020d8
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64838998"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761249"
 ---
 # <a name="prepare-your-environment"></a>環境を準備する
 
@@ -131,14 +131,14 @@ Teams Roomsには、"Skype" という名前のパスワードなしのローカ�
   
 ### <a name="admin---local-administrator-account"></a>"Admin" - ローカル管理者アカウント
 
-Microsoft Teams Rooms の既定のパスワードは "sfb" に設定されます。 パスワードは、管理者モードまたはAutoUnattend.xml ファイルを使用してローカルで変更できます (ADK のシステム イメージ マネージャー Windowsを使用して、xml ファイルに変更を加えます)。
+Microsoft Teams Rooms の既定のパスワードは "sfb" に設定されます。 パスワードは、管理 モードまたはAutoUnattend.xml ファイルを使用してローカルで変更できます (ADK の Windows System Image Manager を使用して xml ファイルに変更を加えます)。
   
 > [!CAUTION]
 > できるだけ早く Microsoft Teams Rooms のパスワードを変更してください。 
   
 ローカル管理者パスワードは設定時の選択肢として含まれません。
 
-管理者アカウントの詳細については、[Microsoft Teams Roomsセキュリティ](security.md)に関する記事を参照してください。
+管理 アカウントの詳細については、[Microsoft Teams Rooms セキュリティ](security.md)に関する記事を参照してください。
   
 ### <a name="machine-account"></a>コンピューター アカウント
 
