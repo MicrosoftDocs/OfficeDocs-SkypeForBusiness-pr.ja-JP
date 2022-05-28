@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams でのデバイスの管理
-author: cazawideh
-ms.author: czawideh
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4346d82e490d28840e029d257cbeeb4c4e10765
-ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
+ms.openlocfilehash: 576c22d95dbbbb16105eb8e365c717ba7140cfb8
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65220638"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65767243"
 ---
 # <a name="microsoft-teams-managing-your-devices"></a>Microsoft Teams: デバイスの管理 
 
@@ -66,13 +66,13 @@ Teams Rooms デバイスを管理する方法の詳細については、「[Micr
 | 会議のアクティビティを表示する                  | デバイス名を選択して、 **アクティビティ**>デバイスの詳細を開きます。 **[アクティビティ**] タブを開くと、デバイスが参加したすべての会議が表示されます。 この概要ビューには、会議の開始時刻、参加者の数、その継続時間、通話の全体的な品質が表示されます。                                                                                        |
 | 会議の詳細を表示する                   | デバイス名を選択してデバイスの詳細を開> **アクティビティ** >会議を選択します。 会議の詳細を開くと、会議のすべての参加者、通話中の時間、Teamsセッションの種類、個々の通話の品質を確認できます。 参加者の通話に関する技術情報を表示する場合は、参加者の通話開始時刻を選択します。 |
 
-## <a name="manage-phones-teams-rooms-on-android-teams-displays-and-teams-panels"></a>Android で電話、Teams Rooms、Teamsディスプレイ、Teams パネルを管理する 
+## <a name="manage-phones-teams-rooms-on-android-teams-displays-and-teams-panels"></a>Android、Teamsディスプレイ、Teams パネルで電話、Teams Roomsを管理する 
 
-Teams管理センターでは、組織内のTeamsに登録されている電話、Android でのTeams Rooms、Teams表示、およびTeams パネルを表示および管理できます。 デバイスごとに表示される情報には、デバイス名、製造元、モデル、ユーザー、状態、アクション、最後に表示された操作、履歴が含まれます。 ビューをカスタマイズして、ニーズに合った情報を表示できます。
+Teams管理センターでは、組織のTeamsに登録されている電話、AndroidのTeams Rooms、Teams表示、Teams パネルを表示および管理できます。 デバイスごとに表示される情報には、デバイス名、製造元、モデル、ユーザー、状態、アクション、最後に表示された操作、履歴が含まれます。 ビューをカスタマイズして、ニーズに合った情報を表示できます。
 
-Android 上の電話、Teams Rooms、Teamsディスプレイ、Teams パネルは、サインアップした場合、Microsoft Intuneに自動的に登録されます。 デバイスが登録されると、デバイスのコンプライアンスが確認され、条件付きアクセス ポリシーがデバイスに適用されます。
+電話、AndroidのTeams Rooms、Teams表示、Teams パネルは、サインアップした場合、Microsoft Intuneに自動的に登録されます。 デバイスが登録されると、デバイスのコンプライアンスが確認され、条件付きアクセス ポリシーがデバイスに適用されます。
 
-携帯電話、Android でのTeams Rooms、Teamsディスプレイ、組織内のTeams パネルを管理する方法の例を次に示します。  
+組織内の電話、AndroidのTeams Rooms、Teamsディスプレイ、Teams パネルを管理する方法の例を次に示します。  
 
 | これを行うには...                           | 操作                                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -87,13 +87,13 @@ Android 上の電話、Teams Rooms、Teamsディスプレイ、Teams パネル�
 
 ### <a name="use-configuration-profiles-in-teams"></a>Teamsで構成プロファイルを使用する
 
-構成プロファイルを使用して、Android、Teams ディスプレイ、Teams電話、Teams パネルのTeams Roomsなど、組織内のさまざまなTeams デバイスの設定と機能を管理します。 構成プロファイルを作成またはアップロードして、有効または無効にする設定と機能を含め、デバイスまたは一連のデバイスにプロファイルを割り当てることができます。 
+構成プロファイルを使用して、Android、Teamsディスプレイ、Teams電話、Teams パネルのTeams Roomsなど、組織内のさまざまなTeams デバイスの設定と機能を管理します。 構成プロファイルを作成またはアップロードして、有効または無効にする設定と機能を含め、デバイスまたは一連のデバイスにプロファイルを割り当てることができます。 
 
 #### <a name="create-a-configuration-profile"></a>構成プロファイルを作成する
 
 Teamsデバイスの種類の構成プロファイルを作成するには:
 
-1. 左側のナビゲーションで、[**Teams デバイス**] に移動>、Teamsデバイスの種類> **[構成プロファイル]** を選択します。 たとえば、**Teams デバイス** > **Teams** **panelsConfiguration** >  プロファイルを選択して、Teams パネルの新しい構成プロファイルを作成します。
+1. 左側のナビゲーションで、[**Teams デバイス**] に移動>、Teamsデバイスの種類> **[構成プロファイル]** を選択します。 たとえば、**Teams デバイス** > **Teams パネル** > **構成プロファイル** を選択して、Teams パネルの新しい構成プロファイルを作成します。
 2. **[追加]** をクリックします。
 3. プロファイルの名前を入力し、必要に応じてわかりやすい説明を追加します。
 4. プロファイルの設定を指定し、[ **保存**] をクリックします。
