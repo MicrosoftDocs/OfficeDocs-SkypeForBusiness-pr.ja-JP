@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 4872cb6222d8841bb2efe6be0e19fa17d3557e33
-ms.sourcegitcommit: b8098d6ea36f10ee3a630a230ebd84bc2d96e37a
+ms.openlocfilehash: 20993aea7665893d71be1fd1094df9f0d1acdc91
+ms.sourcegitcommit: e8a78c24fda7e56c7b217a843a8a5f1c30aa95f6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/31/2022
-ms.locfileid: "65780643"
+ms.locfileid: "65785957"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのアクセス許可ポリシーを管理する
 
@@ -55,7 +55,7 @@ ms.locfileid: "65780643"
 1. 左側のパネルで、**Teams アプリ** > **アクセス許可ポリシー** に移動します。
 1. **[追加]** を選択します。
 
-    ![新しいアプリのアクセス許可ポリシーのスクリーンショット。](media/app-permission-policies-new-policy.png)
+   ![新しいアプリのアクセス許可ポリシーのスクリーンショット。](media/app-permission-policies-new-policy.png)
 
 1. ポリシーの名前と説明を入力します。
 1. **[Microsoft アプリ]**、**[サードパーティアプリ]**、および **[カスタムアプリ]** で、次のいずれかを選択します。
@@ -102,7 +102,7 @@ Microsoft 365 Government - GCC、GCCH、および DoD Teams の展開では、�
 
 1. [ **アプリの管理** ] ページ **で、[組織全体のアプリ設定**] を選択します。 次に、パネルで必要な設定を構成できます。
 
-  ![GCCの組織全体のアプリ設定のスクリーンショット。](media/app-permission-policies-gcc-org-wide.png)
+   ![GCCの組織全体のアプリ設定のスクリーンショット。](media/app-permission-policies-gcc-org-wide.png)
 
 1. **[サードパーティ アプリ]** で、次の設定をオフまたはオンにして、サードパーティ アプリへのアクセスを制御します。
 
@@ -119,7 +119,7 @@ Microsoft 365 Government - GCC、GCCH、および DoD Teams の展開では、�
 
 1. **[権限ポリシー]** ページで、**[組織全体のアプリ設定]** を選択します。 次に、パネルで必要な設定を構成できます。
 
-  ![GCCH と DoD の組織全体のアプリ設定のスクリーンショット。](media/app-permission-policies-gcch-dod-org-wide.png)
+   ![GCCH と DoD の組織全体のアプリ設定のスクリーンショット。](media/app-permission-policies-gcch-dod-org-wide.png)
 
 1. **[ブロック済みのアプリ]** で、組織全体でブロックするアプリを追加します。 Microsoft 365 Government の場合 - Teams の GCCH および DoD 展開では、すべてのサードパーティ アプリが既定でこのリストに追加されます。 組織全体でアプリをブロックすると、アプリのアクセス許可ポリシーで許可されているかどうかに関係なく、すべてのユーザーに対してアプリが自動的にブロックされます。
 1. 組織全体のアプリ設定を有効にするには、**[保存]** を選択します。
