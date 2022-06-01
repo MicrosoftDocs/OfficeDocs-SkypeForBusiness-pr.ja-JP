@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Microsoft パートナーまたは PSTN 通信事業者の複数のテナントにサービスを提供するように 1 つのセッション ボーダー コントローラー (SBC) を構成する方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7a465945a55482c84b9d6373240bc89850b80e3a
-ms.sourcegitcommit: 3f046142c40b3b776165e964f2b8718e2fe55df3
+ms.openlocfilehash: be75743752f34024baf7b2fd017557c2f0044ba6
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "65661678"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823688"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>複数のテナントにセッション ボーダー コントローラーを構成する
 
@@ -52,7 +52,7 @@ Microsoft は運送業者を管理していません。 Microsoft では、電�
 2. サブドメイン名をアクティブにします。
 3. キャリアから顧客テナントへのトランクを構成し、ユーザーをプロビジョニングします。
 
-*DNS の基本と、Microsoft 365でドメイン名を管理する方法について理解していることを確認します。さらに進 [む前に、Microsoft 365 ドメインに関するヘルプを](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)参照してください。*
+*DNS の基本と、Microsoft 365でドメイン名を管理する方法について理解していることを確認します。さらに進 [む前に、Microsoft 365 ドメインに関するヘルプを](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)参照してください。*
 
 ## <a name="deploy-and-configure-the-sbc"></a>SBC をデプロイして構成する
 
@@ -83,7 +83,7 @@ SBC ホスティング シナリオ用に SBC をデプロイおよび構成す�
 
 呼び出しがMicrosoft 365ダイレクト ルーティング インターフェイスに到着すると、インターフェイスは Contact ヘッダーを使用して、ユーザーを検索する必要があるテナントを見つけます。 一部の顧客は、複数のテナントで重複する可能性がある DID 以外の番号を持つ可能性があるため、ダイレクト ルーティングでは招待で電話番号参照を使用しません。 そのため、電話番号でユーザーを検索する正確なテナントを識別するには、連絡先ヘッダーの FQDN 名が必要です。
 
-*Microsoft 365組織でのドメイン名の作成の詳細については、「[Microsoft 365 ドメインのヘルプを参照](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)してください。*
+*Microsoft 365組織でのドメイン名の作成の詳細については、「[Microsoft 365 ドメインのヘルプを参照](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)してください。*
 
 次の図は、基本ドメイン、サブドメイン、連絡先ヘッダーに対する要件をまとめたものです。
 
@@ -114,13 +114,13 @@ SBC には、接続を認証するための証明書が必要です。 SBC ホ�
 
 グローバル管理者としてMicrosoft 365 管理センターにサインインした場合にのみ、新しいドメインを追加できます。 
 
-自分のロールを検証するには、Microsoft 365 管理センターにサインインします (https://portal.office.com)**UsersActive** >  **Users** に移動し、グローバル管理者ロールがあることを確認します。 
+自分のロールを検証するには、Microsoft 365 管理センターにサインインします (https://portal.office.com)[**ユーザー****アクティブ ユーザー]** >  に移動し、グローバル管理者ロールがあることを確認します。 
 
 管理者ロールと、Microsoft 365でロールを割り当てる方法の詳細については、「[管理者ロールについて](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)」を参照してください。
 
 ### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>テナントにベース ドメインを追加し、それを確認する
 
-1. Microsoft 365 管理センターで **、****SetupDomainsAdd** >  >  **ドメイン** に移動します。
+1. Microsoft 365 管理センターで、[**ドメインの追加ドメインの** > **セットアップ]** >  に移動 **します**。
 
 2. [ **所有するドメインを入力** する] ボックスに、ベース ドメインの FQDN を入力します。 次の例では、基本ドメインが *customers.adatum.biz* されています。
 
@@ -139,7 +139,7 @@ SBC には、接続を認証するための証明書が必要です。 SBC ホ�
 > [!NOTE]
 > キャリア テナントは、Skype for Business構成の削除を回避するために、少なくとも 1 つの電話システム ライセンスをテナントに割り当てる必要があります。 
 
-*Microsoft 365組織にユーザーを追加する方法の詳細については、「[Microsoft 365 ドメインに関するヘルプを参照](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)してください。*
+*Microsoft 365組織にユーザーを追加する方法の詳細については、「[Microsoft 365 ドメインに関するヘルプを参照](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)してください。*
 
 たとえば、test@customers.adatum.biz
 
@@ -155,13 +155,13 @@ SBC には、接続を認証するための証明書が必要です。 SBC ホ�
 
 グローバル管理者としてMicrosoft 365 管理センターにサインインした場合にのみ、新しいドメインを追加できます。 
 
-自分のロールを検証するには、Microsoft 365 管理センターにサインインします (https://portal.office.com)**UsersActive** >  **Users** に移動し、グローバル管理者ロールがあることを確認します。 
+自分のロールを検証するには、Microsoft 365 管理センターにサインインします (https://portal.office.com)[**ユーザー****アクティブ ユーザー]** >  に移動し、グローバル管理者ロールがあることを確認します。 
 
 管理者ロールと、Microsoft 365でロールを割り当てる方法の詳細については、「[管理者ロールについて](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)」を参照してください。
 
 ### <a name="add-a-subdomain-to-the-customer-tenant-and-verify-it"></a>顧客テナントにサブドメインを追加して確認する
 
-1. Microsoft 365 管理センターで **、****SetupDomainsAdd** >  >  **ドメイン** に移動します。
+1. Microsoft 365 管理センターで、[**ドメインの追加ドメインの** > **セットアップ]** >  に移動 **します**。
 
 2. [ **所有するドメインを入力** する] ボックスに、このテナントのサブドメインの FQDN を入力します。 次の例では、サブドメインが sbc1.customers.adatum.biz されています。
 
@@ -196,7 +196,7 @@ SBC には、接続を認証するための証明書が必要です。 SBC ホ�
 
 ドメイン名を登録した後、少なくとも 1 人のユーザーを追加してアクティブ化し、顧客テナントで作成されたサブドメインと一致する SIP アドレスの FQDN 部分を持つ SIP アドレスを割り当てる必要があります。 
 
-*Microsoft 365組織にユーザーを追加する方法の詳細については、「[Microsoft 365に関するヘルプを参照](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)してください。*
+*Microsoft 365組織にユーザーを追加する方法の詳細については、「[Microsoft 365に関するヘルプを参照](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)してください。*
 
 たとえば、test@sbc1.customers.adatum.biz
 

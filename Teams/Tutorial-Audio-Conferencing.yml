@@ -22,12 +22,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 3394afabda431f5a9da72fed1d3f8939d2b1a12d
-  ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+  ms.openlocfilehash: 3aaa1944ab3a4fb1aaf63f91f26d72b6ce80aeea
+  ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 05/25/2022
-  ms.locfileid: "65681378"
+  ms.lasthandoff: 06/01/2022
+  ms.locfileid: "65823196"
 items:
 - durationInMinutes: 1
   content: >
@@ -70,7 +70,7 @@ items:
     新機能のアイデアなど、Teamsに関する製品フィードバックについては、[Teamsフィードバック ポータル](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)をご覧ください。
 - title: Teams での電話会議
   durationInMinutes: 12
-  content: "\n電話会議を利用すると、参加者は通常の電話機を使用して Teams 会議に参加できます。その際、電話機から会議にダイヤルインするか、会議内のダイヤルアウト機能を使用して参加できます。 電話会議について詳しくは、次のリソースをご覧ください。\n-   [電話会議機能](https://products.office.com/skype-for-business/audio-conferencing#Features) (推定所要時間: 1 分)\n-   [Microsoft Teamsとの会議に関する 9 つのヒント](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) (\"\\#1 - 電話会議経由で会議に参加する\" の読み取り時間は 1 分です。記事全体を読む場合は詳細)\n-   [電話会議に関するよくある質問](/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions) (推定所要時間: 7 分)\n-   [他のユーザーが参加できるように会議からダイヤルアウトする](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it) (推定所要時間: 2 分)\n"
+  content: "\n電話会議を利用すると、参加者は通常の電話機を使用して Teams 会議に参加できます。その際、電話機から会議にダイヤルインするか、会議内のダイヤルアウト機能を使用して参加できます。 電話会議について詳しくは、次のリソースをご覧ください。\n-   [電話会議機能](/skypeforbusiness/plan-your-deployment/conferencing/conferencing) (推定所要時間: 1 分)\n-   [Microsoft Teamsとの会議に関する 9 つのヒント](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) (\"\\#1 - 電話会議経由で会議に参加する\" の読み取り時間は 1 分です。記事全体を読む場合は詳細)\n-   [電話会議に関するよくある質問](/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions) (推定所要時間: 7 分)\n-   [他のユーザーが参加できるように会議からダイヤルアウトする](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it) (推定所要時間: 2 分)\n"
 - title: シナリオ – 電話会議
   durationInMinutes: 1
   content: "\nGarth はオフィスが複数ある Contoso で働いています。 Garth は頻繁に他のオフィスの場所の人とつながりを持つ必要があります。また、自宅で仕事をしたり、外出したりすることが多いため、Teams会議の大ファンです。 Garth が会議の招待を送信すると、電話会議の情報が自動的に追加されます。 これにより、次のシナリオが可能になります。\n-   Alice は Garth の会議に出席したいと考えていますが、その道を歩んでいるので、信頼できるネットワークにアクセスできなくなります。 そのため、会議の招待に記載されているダイヤルイン座標を使用して会議に参加します。 ダイヤルイン プロセス中に、PIN を使用して認証を行うので、システムによって \"Alice\" と認識されます。\n-   現在ホテルにいる Bob は、PC でTeams クライアントを使用して会議に参加します。 残念ながら、ホテル内のインターネット接続を介したオーディオ品質は優れていないため、Bob は会議から自分の電話番号にダイヤルアウトし、公衆交換電話網 (PSTN) を介して参加します。\n-   会議参加者が通話中に、別の電話番号のユーザーを追加したい場合、その電話番号にダイヤルアウトするだけで、会議にユーザーを参加させることができます。\n-   また他のユーザーも自分の PC、Mac、またはモバイル デバイスの Teams クライアントから参加できます。\n\nTeams では、会議の開催者は会議の参加者すべてに対して会議を終了できます。 これは、次のようなシナリオで役立ちます。\n\n-   教師は授業の終了後に生徒が教師のいない会議に留まらないようにすることができます。\n-   ウェビナーなどの録画されている会議の場合、会議の主催者は、会議の終了時に録画が終了することを確認できます。\n-   すべての参加者に対して会議を終了すると、組織の PSTN の使用量と請求を減らすことができます。 \n\nたとえば、会議が終了すると、Garth は Teams の会議内から **[会議の終了]** をクリックして会議を終了し、すべての参加者を会議から削除できます。\n"
@@ -88,7 +88,7 @@ items:
   content: "\nこの演習では、Teamsで電話会議をテストする機会があります。\nすべてのアクションを実行する方法については説明していませんが、いくつかのシナリオを試してみることをお勧めします。\n\n### <a name=\"requirements\"></a>要件\n-   Teams を使用するための適切なライセンスを備えた Office 365 組織\n    -   テスト専用のテナントを使用することを強く推奨します。\n    -   テスト テナントがない場合は、[Office 365 Enterprise E5 試用版](https://go.microsoft.com/fwlink/p/?LinkID=698279)で試用版テナントにサインアップできます。\n    -   運用環境でテストを実行しないでください。 設定またはポリシーの変更により、すべてのユーザーに悪影響が及び、ユーザー エクスペリエンスにも影響が生じる可能性があります。\n-   2 つ以上のエンドポイント\n    -   エンドポイントは 2 台の PC でも構いませんが、携帯電話上でクライアントを使用することもできます。\n    -   会議にダイヤルインおよびダイヤルアウトできる電話機\n\n### <a name=\"suggested-scenarios-to-test\"></a>推奨されるテストのシナリオ\n-   電話会議についてユーザーを有効にします。\n-   ユーザーごとに異なる会議ブリッジ番号を設定します。\n-   テナントの既定の会議ブリッジ番号を変更します。\n-   会議ブリッジ番号 (別の言語) の設定を変更します。\n-   (会議への入退出通知、暗証番号の長さ、メール通知など) 会議ブリッジのグローバル設定を変更します。\n-   メールがユーザーに送信されることを確認します。\n-   Teams 会議をスケジュールし、会議の招待を確認します。\n-   電話機から会議に参加します。\n-   会議から電話機にダイヤルアウトします。\n-   会議で電話機をミュートおよびミュート解除しながら、DTMF (Dual-Tone Multi-Frequency) 制御を使用します。\n-   全てのユーザに対して会議を終了します。 \n"
 - title: 価値を創出する
   durationInMinutes: 1
-  content: "\nレポートの観点から、確認すべき領域は次の 2 つです。\n-   使用量: 開催されている会議の数について\n-   品質: 会議の品質について\n\nこれらの両方の領域について注意して監視する必要があります。\n-   使用率が低いということは、何かの理由でユーザーが製品を使用していないことを意味します。 さらに調査する場合にのみ、その理由を特定できます。\n    理由として考えられるのは、会議がユーザーの要件を満たしていないと認知されていることや、啓発不足やトレーニング不足、または品質の問題などです。\n-   低品質は、一方で、ユーザーと Office 365 との間の接続に問題があることを意味します。 低品質により、ユーザー エクスペリエンスの悪化と低使用量につながる可能性があります。 使用量のレポートの詳細については、「[管理センターの Microsoft 365 レポート - Microsoft Teams ユーザー アクティビティ](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524) (推定所要時間: 5 分) をご覧ください。\n\n品質の管理については、このトレーニングの対象範囲外ですが、次のトレーニング資料をご覧ください。\n\n-   [サービスを運用する](./1-drive-value-operate-my-service.md)\n"
+  content: "\nレポートの観点から、確認すべき領域は次の 2 つです。\n-   使用量: 開催されている会議の数について\n-   品質: 会議の品質について\n\nこれらの両方の領域について注意して監視する必要があります。\n-   使用率が低いということは、何かの理由でユーザーが製品を使用していないことを意味します。 さらに調査する場合にのみ、その理由を特定できます。\n    理由として考えられるのは、会議がユーザーの要件を満たしていないと認知されていることや、啓発不足やトレーニング不足、または品質の問題などです。\n-   低品質は、一方で、ユーザーと Office 365 との間の接続に問題があることを意味します。 低品質により、ユーザー エクスペリエンスの悪化と低使用量につながる可能性があります。 使用量のレポートの詳細については、「[管理センターの Microsoft 365 レポート - Microsoft Teams ユーザー アクティビティ](https://docs.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-teams-user-activity-preview?view=o365-worldwide) (推定所要時間: 5 分) をご覧ください。\n\n品質の管理については、このトレーニングの対象範囲外ですが、次のトレーニング資料をご覧ください。\n\n-   [サービスを運用する](./1-drive-value-operate-my-service.md)\n"
 - title: 次のステップ
   durationInMinutes: 1
   content: >-

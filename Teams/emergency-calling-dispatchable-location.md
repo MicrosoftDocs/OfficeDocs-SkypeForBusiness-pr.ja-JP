@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 緊急通報をサポートするために、Microsoft がディスパッチ可能な位置情報をサポートする方法について説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d80854fc36e6914ba48e8993d298c75b136bd06f
-ms.sourcegitcommit: 4af3638637456f21bc97f510ed9d2f7ff2da07e2
+ms.openlocfilehash: e45b5a18d8acd09714ebedd40a722bcbd152fc3c
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/19/2022
-ms.locfileid: "63660712"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823539"
 ---
 # <a name="emergency-addresses-for-remote-locations"></a>リモートの場所の緊急アドレス
 
@@ -79,6 +79,20 @@ Teamsの緊急対応アドレスは、さまざまな種類で分類できます
 
 
 ## <a name="enable-end-users-to-configure-their-emergency-address"></a>エンド ユーザーが緊急対応アドレスを構成できるようにする
+
+### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
+
+1. Microsoft Teams管理センターの左側のナビゲーションで、**音声** > **緊急ポリシー** に移動します。
+2. **[追加]** を選択します。
+3. 緊急通報ポリシーの名前 ("E911WFH" など) を入力します。
+4. **外部の場所の参照モード** を有効にします。
+5. **[適用]** を選択します。
+
+#### <a name="assign-a-custom-emergency-calling-policy-to-users"></a>ユーザーにカスタム緊急通報ポリシーを割り当てる
+
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
+
+### <a name="using-powershell"></a>PowerShell の使用
 
 エンド ユーザーに対してこの機能を有効にするには、New-CsTeamsEmergencyCallingPolicy PowerShell コマンドレットを使用し、ExternalLocationLookupMode パラメーターを Enabled に設定します。 次の例を参照してください。 
 

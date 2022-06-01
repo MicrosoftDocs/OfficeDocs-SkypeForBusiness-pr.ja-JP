@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c6c1faaff2ce252b1363fab149c7d168c5e042e5
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 09254f9ed85f69551ee825dbeb8ae063a010f780
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62390839"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823708"
 ---
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>PowerShell サンプル スクリプト - メッセージング ポリシーの作成と割り当て
 
@@ -35,7 +35,7 @@ ms.locfileid: "62390839"
 
 ## <a name="before-you-start"></a>開始する前に
 
-[Skype for Business Online PowerShell モジュール](https://www.microsoft.com/download/details.aspx?id=39366)をダウンロードしてインストールし、メッセージが表示されたらコンピューターを再起動します。
+[Skype for Business Online PowerShell モジュール](https://www.microsoft.com/download/details.aspx?id=54616)をダウンロードしてインストールし、メッセージが表示されたらコンピューターを再起動します。
 
 詳細については、「[Office 365 PowerShell を使用したオンラインSkype for Business管理](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)」を参照してください。
 

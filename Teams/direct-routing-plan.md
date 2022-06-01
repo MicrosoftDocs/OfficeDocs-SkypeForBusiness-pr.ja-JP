@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Microsoft Direct Routing を使用して、サポートされている顧客が提供するセッション ボーダー コントローラー (SBC) を電話システムに接続する方法について説明します。
-ms.openlocfilehash: 9070acf8483041115308335abac49796be311453
-ms.sourcegitcommit: 2ddbaecb0bb7776dc5ab88727b1335e7e46d3704
+ms.openlocfilehash: dd3b9ef6517c1a4c63fe12f7b7eeba4078df8ddd
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "62881542"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823066"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -56,7 +56,7 @@ Microsoft では、通話プランなどのクラウド内のすべての音声�
 
 ダイレクト ルーティングでは、Microsoft 通話プランの追加ライセンスを持つユーザーもサポートされます。 詳細については、[電話システムと通話プラン](calling-plan-landing-page.md)に関する記事をご覧ください。 
 
-ダイレクト ルーティングでは、ユーザーがスケジュールされた会議に参加すると、ダイヤルイン番号が Microsoft 電話会議サービスによって提供されます。これには適切なライセンスが必要です。  ダイヤルアウトすると、Microsoft 電話会議サービスは、適切なライセンスが必要なオンライン通話機能を使用して通話を発信します。 (ユーザーが Microsoft 電話会議ライセンスを持っていない場合は、通話はダイレクト ルーティング経由でルーティングされることに注意してください)。詳細については、「[Teamsを使用したオンライン会議](https://products.office.com/microsoft-teams/online-meeting-solutions)」を参照してください。 
+ダイレクト ルーティングでは、ユーザーがスケジュールされた会議に参加すると、ダイヤルイン番号が Microsoft 電話会議 サービスによって提供されます。これには適切なライセンスが必要です。  ダイヤルアウトすると、Microsoft 電話会議 サービスは、適切なライセンスが必要なオンライン通話機能を使用して通話を発信します。 (ユーザーが Microsoft 電話会議 ライセンスを持っていない場合、通話はダイレクト ルーティング経由でルーティングされることに注意してください)。詳細については、「[Teamsを使用したオンライン会議](https://www.microsoft.com/en-us/microsoft-teams/online-meetings)」を参照してください。 
  
 ダイレクト ルーティングの展開を計画することは、実装を成功させるために重要です。 この記事では、インフラストラクチャとライセンスの要件について説明し、SBC 接続に関する情報を提供します。 
 
@@ -97,27 +97,27 @@ Microsoft Teams メディアのファイアウォール IP アドレスとポー
 
 - Microsoft 電話 システム
 - Microsoft Teams + Skype for Business プラン 2 (ライセンスに含まれる場合)
-- Microsoft 電話会議 (このライセンスが必要な場合の具体的な例については、以下のノートと段落を参照してください)。
+- Microsoft 電話会議 (このライセンスが必要な場合の具体的な例については、以下の注意事項と段落を参照してください)。
 
 > [!NOTE]
 > Skype for Businessプランが含まれているライセンス契約から削除しないでください。 
 > 
 > [!IMPORTANT]
-> GCC High ユーザーと DoD ユーザーは、G5 に含まれる電話会議ライセンスを無効にし、直接ルーティングが完全に構成されるまで電話会議を有効にするまで待つ必要があります。 ユーザーは、電話会議ライセンスを有効にする前に、ダイヤルイン電話番号が構成され、ダイヤル パッドが動作している必要があります。 詳細については、「[GCC High と DoD の直接ルーティングを使用した電話会議](./audio-conferencing-with-direct-routing-for-gcch-and-dod.md)」を参照してください。
+> GCC High および DoD ユーザーは、G5 に含まれる電話会議 ライセンスを無効にし、ダイレクト ルーティングが完全に構成されるまで電話会議を有効にするまで待つ必要があります。 ユーザーは、電話会議 ライセンスを有効にする前に、ダイヤルイン電話番号が構成され、ダイヤル パッドが動作している必要があります。 詳細については、「[GCC High と DoD のダイレクト ルーティングに関する電話会議](./audio-conferencing-with-direct-routing-for-gcch-and-dod.md)」を参照してください。
 
 
 > [!IMPORTANT]
 >  外部参加者をスケジュールされた会議に追加する場合は、ダイヤルアウトするか、ダイヤルイン番号を指定して、電話会議ライセンスが必要です。
-> GCC High および DoD の場合は、G5 ユーザーに電話会議ライセンスを割り当てないでください。 G3 ユーザーの場合は、直接ルーティングが完全に構成され、ユーザーにダイヤル パッドが動作するまで、電話会議ライセンスを割り当てないでください。
+> GCC High および DoD の場合は、G5 ユーザーに電話会議ライセンスを割り当てないでください。 G3 ユーザーの場合は、ダイレクト ルーティングが完全に構成され、ユーザーにダイヤル パッドが動作するまで、電話会議 ライセンスを割り当てないでください。
 
 
 ### <a name="ad-hoc-call-escalation-and-audio-conferencing-license"></a>アドホック通話エスカレーションと電話会議ライセンス
 
-Teams ユーザーは、1 対 1 のTeams対 PSTN またはTeams対Teams通話を開始し、PSTN 参加者を追加できます。 このシナリオは、アドホック会議と呼ばれます。 通話のパスは、通話をエスカレートするユーザーに Microsoft 電話会議ライセンスが割り当てられているかどうかによって異なります。
+Teams ユーザーは、1 対 1 のTeams対 PSTN またはTeams対Teams通話を開始し、PSTN 参加者を追加できます。 このシナリオは、アドホック会議と呼ばれます。 呼び出しのパスは、通話をエスカレートするユーザーに Microsoft 電話会議 ライセンスが割り当てられているかどうかによって異なります。
 
-- **通話をエスカレートするTeams ユーザーに Microsoft 電話会議ライセンスが割り当てられている場合**、エスカレーションは Microsoft 電話会議サービスを通じて行われます。 既存の通話に招待されたリモート PSTN 参加者は、着信に関する通知を受け取り、エスカレーションを開始したTeams ユーザーに割り当てられた Microsoft ブリッジの番号を確認します。
+- **通話をエスカレートするTeams ユーザーに Microsoft 電話会議 ライセンスが割り当てられている場合**、エスカレーションは Microsoft 電話会議 サービスを通じて行われます。 既存の通話に招待されたリモート PSTN 参加者は、着信に関する通知を受け取り、エスカレーションを開始したTeams ユーザーに割り当てられた Microsoft ブリッジの番号を確認します。
 
-- **通話をエスカレートするTeams ユーザーに Microsoft 電話会議ライセンスが割り当てられていない場合**、エスカレーションはダイレクト ルーティング インターフェイスに接続されたセッション ボーダー コントローラーを介して行われます。 通話に招待されたリモート PSTN 参加者は、着信通話に関する通知を受け取り、エスカレーションを開始したTeams ユーザーの数を確認します。 エスカレーションに使用される特定の SBC は、ユーザーのルーティング ポリシーによって定義されます。 
+- **通話をエスカレートするTeams ユーザーに Microsoft 電話会議 ライセンスが割り当てられていない場合**、エスカレーションはダイレクト ルーティング インターフェイスに接続されたセッション ボーダー コントローラーを介して行われます。 通話に招待されたリモート PSTN 参加者は、着信通話に関する通知を受け取り、エスカレーションを開始したTeams ユーザーの数を確認します。 エスカレーションに使用される特定の SBC は、ユーザーのルーティング ポリシーによって定義されます。 
 
 次のことを確認する必要があります。
  
@@ -150,7 +150,7 @@ SBC ドメイン名は、テナントのドメインに登録されている名�
 
 |DNS 名|SBC FQDN に使用できます|FQDN 名の例|
 |:--- |:--- |:--- |
-contoso.com|Yes|**有効な名前:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
+contoso.com|はい|**有効な名前:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
 |contoso.onmicrosoft.com|いいえ|*.onmicrosoft.com ドメインの使用は、SBC 名ではサポートされていません
 
 新しいドメイン名を使用することを想定しています。 たとえば、テナントにドメイン名として contoso.com が登録されており、sbc1.sip.contoso.com を使用します。 SBC と名前 sbc1.sip.contoso.com をペアリングする前に、テナント内のドメインにドメイン名 sip.contoso.com を登録する必要があります。 ドメイン名を登録する前に SBC と sbc1.sip.contoso.com のペアリングを試みると、「このテナント用に構成されていないため、"sbc1.sip.contoso.com" ドメインを使用できません」というエラーが表示されます。
@@ -182,7 +182,7 @@ SBC には 1 つの FQDN のみが必要であり、ペアになっているテ�
 - DigiCert High Assurance EV ルート CA
 
 > [!NOTE]
-> SBC 上のTeams接続に対して相互 TLS (MTLS) のサポートが有効になっている場合は、Teams TLS コンテキストの SBC 信頼されたルート ストアに、Baltimore CyberTrust ルートと DigiCert グローバル ルート G2 証明書をインストールする必要があります。 (これは、Microsoft サービス証明書でこれら 2 つのルート証明書のいずれかを使用するためです)。これらのルート証明書をダウンロードするには、「[Office 365暗号化チェーン](/microsoft-365/compliance/encryption-office-365-certificate-chains)」を参照してください。 詳細については、「[Office TLS 証明書の変更](/microsoft-365/compliance/encryption-office-365-tls-certificates-changes)」を参照してください。
+> SBC 上のTeams接続に対して相互 TLS (MTLS) のサポートが有効になっている場合は、Teams TLS コンテキストの SBC 信頼ルート Microsoft Storeに、Baltimore CyberTrust ルートと DigiCert グローバル ルート G2 証明書をインストールする必要があります。 (これは、Microsoft サービス証明書でこれら 2 つのルート証明書のいずれかを使用するためです)。これらのルート証明書をダウンロードするには、「[Office 365暗号化チェーン](/microsoft-365/compliance/encryption-office-365-certificate-chains)」を参照してください。 詳細については、「[Office TLS 証明書の変更](/microsoft-365/compliance/encryption-office-365-tls-certificates-changes)」を参照してください。
 
 ## <a name="sip-signaling-fqdns"></a>SIP シグナリング: FQDN 
 

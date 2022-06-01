@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Microsoft Teams Rooms を展開するためのインフラストラクチャを準備して、すべての機能を利用できるようにする方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4e479a3bc51cdab49a742d9084601505f13020d8
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: 0bedb70ade23f92424a14e4bea3f1462fc2cbccf
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761249"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823056"
 ---
 # <a name="prepare-your-environment"></a>環境を準備する
 
@@ -32,8 +32,8 @@ ms.locfileid: "65761249"
   
 3. エクスペリエンスを向上させるために、Microsoft ではデータを収集します。 Microsoft にデータの収集を許可するには、次のサイトを許可します。
 
-   - テレメトリ クライアント エンドポイント: https://vortex.data.microsoft.com/
-   - テレメトリ設定エンドポイント: https://settings.data.microsoft.com/
+   - テレメトリ クライアント エンドポイント: `https://vortex.data.microsoft.com/`
+   - テレメトリ設定エンドポイント:` https://settings.data.microsoft.com/`
     
 ### <a name="create-and-test-a-resource-account"></a>リソース アカウントを作成してテストする
 
@@ -144,7 +144,7 @@ Microsoft Teams Rooms の既定のパスワードは "sfb" に設定されます
 
 Windowsデバイスと同様に、[コンピューター名の変更について] **設定** \>  \>右クリックすると、**コンピューター名の名前を変更** できます。
   
-ドメインに参加した後でコンピューターの名前を変更する場合は、PowerShell コマンドである [Rename-Computer](/powershell/module/microsoft.powershell.management/rename-computer?view=powershell-7.2) を使用し、その後にコンピューターの新しい名前を付けます。
+ドメインに参加した後でコンピューターの名前を変更する場合は、PowerShell コマンドである [Rename-Computer](/powershell/module/microsoft.powershell.management/rename-computer) を使用し、その後にコンピューターの新しい名前を付けます。
   
 ## <a name="related-topics"></a>関連項目
 

@@ -16,12 +16,12 @@ f1.keywords:
 description: 'Teams多国籍企業向けの音声ケース スタディ: アップグレード計画。'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c2d64e93e8f9ab53cd2a696af69de4b7f0d4f7348fec27a189b60896ee1ec02
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 39cfd66f0ff34fb0f8792871ddfdcceebb2b9961
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350179"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65822986"
 ---
 # <a name="contoso-case-study-teams-upgrade-plan"></a>Contoso のケース スタディ: Teams アップグレード 計画
 
@@ -33,7 +33,7 @@ Skype for BusinessからTeamsに移行するという決定では、Contoso は�
 - [IT 管​​理者向けのアップグレード戦略](upgrade-to-teams-on-prem-implement.md) 
 - 詳細については、「[移行と相互運用に関するガイドライン](migration-interop-guidance-for-teams-with-skype.md)」を参照してください。
  
-Contoso は、Ignite 2019 セッションに参加しました[。Skype for BusinessからTeamsへのパスの設計](https://myignite.techcommunity.microsoft.com/sessions/81820?source=sessions)も行いました。 Contoso は次について学習しました。
+Contoso は、Ignite 2019 セッションに参加しました[。Skype for BusinessからTeamsへのパスの設計](https://myignite.microsoft.com/archives/IG20-OD251)も行いました。 Contoso は次について学習しました。
 
 - 相互運用性、フェデレーション、アップグレード動作などの基本的な概念 
 

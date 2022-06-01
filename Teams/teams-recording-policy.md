@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b9b12d77823f6fcf5417370b496507b627858c6c
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 6a86535c701b38b65d1610dc3aa8af2b5616d4a3
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681988"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823006"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>通話&会議のポリシーベースの記録Teamsの概要
 
@@ -58,9 +58,9 @@ Teamsは、Teams通信を構成、管理、記録、保存、分析するため�
 | イニシエーター              | ユーザー               | 管理 (システム)  |
 | Target                 | 通話/会議ごと | ユーザーごと        |
 | Storage所有者          | ユーザー               | コンプライアンス      |
-| 通知が必要ですか? | はい                | Yes             |
+| 通知が必要ですか? | はい                | はい             |
 | アクセス所有者           | ユーザー               | コンプライアンス      |
-| アイテム保持ポリシー      | 省略可能           | Yes             |
+| アイテム保持ポリシー      | 省略可能           | はい             |
 
 Teamsには、会議やライブ イベントの[便利](./cloud-recording.md)で機能的な記録のためのさまざまな機能が用意されています。 組織の記録とは、呼び出しと会議のTeamsを採用する組織が、関連する企業または規制のポリシーで必要に応じて、通話とオンライン会議を自動的に記録し、その後の処理とリテンションのためにキャプチャする必要がある場合に、管理ポリシーを使用して規定することを可能にすることを意味します。 このポリシーのユーザーは、Teamsとのデジタル操作が記録されていることに注意しますが、記録を無効にすることはできず、操作が完了すると記録にアクセスできなくなります。 記録は、電子情報開示、訴訟ホールド、およびその他の企業保有に使用するコンプライアンス担当者と法務担当者が利用できる組織アーカイブの一部になります。
 
@@ -230,7 +230,7 @@ IT 管理者は、コンプライアンス記録ポリシーを作成して割�
 |NICE NTR |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
 |Numonix |[https://numonix.cloud](https://numonix.cloud)    |
 |Oak Innovation |[https://www.oakinnovate.com/clarify](https://www.oakinnovate.com/clarify) |
-|赤いボックス |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/compliance-recording-for-microsoft-teams)  |
+|赤いボックス |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/red-box-partners/microsoft-integration/compliance-recording-for-microsoft-teams)  |
 |Theta Lake |[https://thetalake.com/integrations/microsoft/](https://thetalake.com/integrations/microsoft/) |
 |Verint |[https://www.verba.com/solutions/microsoft-teams-recording](https://www.verba.com/solutions/microsoft-teams-recording) |
 |Oak Innovation |[https://www.oakinnovate.com/clarify](https://www.oakinnovate.com/clarify) |
@@ -246,6 +246,6 @@ IT 管理者は、コンプライアンス記録ポリシーを作成して割�
 
 このリストは、パートナーが参加して認定条件を満たしたときに更新されます。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 認定プログラムに参加しようとしているベンダーの場合は、 [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com) にメールを送信します。

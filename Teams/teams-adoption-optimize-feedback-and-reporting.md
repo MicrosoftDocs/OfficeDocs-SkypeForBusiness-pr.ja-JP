@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c65c3e4f80119339bed00751c9810b1786c28aa
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: a1f7338e7d70afee603357d55fd3323e88a2d47d
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62416300"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823186"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Microsoft Teams の導入についてのフィードバックとレポートを最適化する
 
@@ -57,7 +57,7 @@ Microsoft Teamsの使用量をスケーリングする準備をするときに�
 Microsoft Teamsを展開して採用するときに確認する必要があるレポートには、次の 3 種類があります。
 
 - [サービス正常性](https://status.office365.com/) – Microsoft 365、Office 365、社内の IT サポート部門から。
-- [管理センターでレポートをMicrosoft 365](/microsoft-365/admin/activity-reports/activity-reports)します。管理センターのMicrosoft 365またはOffice 365ビュー [Microsoft 365レポートから、ユーザー アクティビティをMicrosoft Teams](/microsoft-365/admin/activity-reports/microsoft-teams-user-activity)します。 組織内の他のシステムからの情報を使用することもできます。
+- [管理センターでレポートをMicrosoft 365](/microsoft-365/admin/activity-reports/activity-reports)します。管理センターのMicrosoft 365またはOffice 365ビュー [Microsoft 365レポートから、ユーザー アクティビティをMicrosoft Teams](/microsoft-365/admin/activity-reports/activity-reports)します。 組織内の他のシステムからの情報を使用することもできます。
 - サービスの満足度 – 特定のエクスペリエンスに関する内部コミュニティ フォーラムやアンケートから収集された
 
 ![次の手順を表すアイコン。](media/teams-adoption-next-icon.png) 次へ: [意識を高め、トレーニングを実装する](teams-adoption-drive-awareness.md)

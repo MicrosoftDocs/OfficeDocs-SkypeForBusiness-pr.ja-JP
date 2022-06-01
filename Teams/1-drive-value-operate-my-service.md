@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: feb801bb1e9ed7d573bee48a44d0796f8891221b
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 614b3a16a5c0d59a63f06d1328c68f42e3497af5
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728422"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823422"
 ---
 # <a name="operate-my-service"></a>サービスを運用する
 
@@ -46,7 +46,7 @@ ms.locfileid: "58728422"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断ポイント</td><td><ul><li>Teamsに対して操作を実装する方法を決定します。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>操作ガイドを完全に確認します。</li><li>クラウド音声ワークロードの品質と信頼性を実現するための組織の目標に合わせた運用戦略を実装します。</li><li>[通話の品質を監視する](monitor-call-quality-qos.md)を確認します。</li><li> 運用戦略を実装して、Quality of Experience Reviews を定期的に実行して、クラウド音声のデプロイがピーク時に動作していることを確認します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>操作ガイドを完全に確認します。</li><li>クラウド音声ワークロードの品質と信頼性を実現するための組織の目標に合わせた運用戦略を実装します。</li><li>[通話の品質を監視する](monitor-call-quality-qos.md)を確認します。</li><li> 運用戦略を実装して、Quality of Experience Reviews を定期的に実行して、クラウド音声のデプロイがピーク時に動作していることを確認します。</li></ul></td></tr>
 </table>
 
 
@@ -65,7 +65,7 @@ ms.locfileid: "58728422"
 契約が締結されたら、対応するチームがロールの運用を開始する必要があります。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td>
 <td><ul><li>このドキュメントを使用して、操作ロール マッピングの演習を容易にします。</li><li>必要なアクティビティの一覧の各項目に名前を割り当てるには、それぞれのサポート チームに問い合わせてください。</li><li>割り当てられたロールに同意またはサインオフします。</li><li>対応するチームに、必要なアクティビティを完了するための適切なトレーニング、準備、リソースがあることを確認します。</li></ul></td></table>
 
 ### <a name="teams-service-dependencies"></a>Teams サービスの依存関係
@@ -164,7 +164,7 @@ System Centerを利用してTeamsサービスの正常性 (および依存サー
 
 Microsoft Teamsはクラウドベースのサービスです。 そのため、新しい機能を迅速に提供できます。 継続的なイノベーションを提供することは、組織に明らかな利点をもたらしますが、これらの変更は、ヘルプデスクに対するユーザーの抵抗やエスカレーションを回避するために、組織内で適切に管理する必要があります。
 
-Teamsの更新は、ユーザーに自動的にロールアウトされます。 ユーザーは常に、Teams サービスで使用できる最新のクライアントと機能を持っています。 ユーザーへのTeams更新プログラムのロールアウトを管理することはできないため、効果的なコミュニケーション、トレーニング、導入プログラムを通じて変更を管理することは非常に重要です。 ユーザーが変更に気づき、利点について教育を受け、新しい機能&mdash;を活用する権限を与えられた場合、より迅速に適応し、変更を歓迎することができます。
+Teamsの更新は、ユーザーに自動的にロールアウトされます。 ユーザーは常に、Teams サービスで使用できる最新のクライアントと機能を持っています。 ユーザーへのTeams更新プログラムのロールアウトを管理することはできないため、効果的なコミュニケーション、トレーニング、導入プログラムを通じて変更を管理することは非常に重要です。 ユーザーが変更に気づき、利点について教育を受け、新しい機能&mdash;を活用する権限を与えられた場合は、より迅速に適応し、変更を歓迎することができます。
 
 ### <a name="monitoring-for-change"></a>変更の監視
 
@@ -193,8 +193,8 @@ Teams サービスに対する今後の変更を認識したので、次の手�
 
 |       準備を変更する       | ステータス |                      メモ/次の手順                      |    所有者     |
 |------------------------------|--------|------------------------------------------------------------|--------------|
-|     IT の変更が必要      |  Yes   | 管理者は、識別されたユーザーに対してのみ記録を有効にする必要があります。 | サポート チーム |
-| 技術的準備完了 |  Yes   |                                                            | サポート チーム |
+|     IT の変更が必要      |  はい   | 管理は、識別されたユーザーに対してのみ記録を有効にする必要があります。 | サポート チーム |
+| 技術的準備完了 |  はい   |                                                            | サポート チーム |
 |                              |        |                                                            |              |
 
 **ユーザー変更管理** 
@@ -202,9 +202,9 @@ Teams サービスに対する今後の変更を認識したので、次の手�
 | 準備を変更する | ステータス   | メモ/次の手順 | 所有者 |
 |----|----|----|-----|
 | ユーザーの影響                  | 低                  |                                                                 |                        |
-| ユーザーの準備が必要      | Yes                  |                                                                 |                        |
+| ユーザーの準備が必要      | はい                  |                                                                 |                        |
 | 通信の準備完了         | いいえ                   | コミュニケーションメールが下書きされました。レビューは保留中です。            | コミュニケーション チーム    |
-| トレーニングの準備               | Yes                  | トレーニングでは、既存の Microsoft ビデオが活用されます。                | トレーニング チーム          |
+| トレーニングの準備               | はい                  | トレーニングでは、既存の Microsoft ビデオが活用されます。                | トレーニング チーム          |
 
 **ステータス トラック**
 
@@ -247,9 +247,9 @@ Teamsの使用状況データは、レポート ダッシュボードで使用�
 
 他の 2 つのレポートはTeams固有であり、ユーザーとデバイスの観点からTeams使用状況の詳細を提供します。 両方のレポートは、次の場所にあります。
 
-[Microsoft Teams のデバイス使用状況レポート](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-device-usage-917b3e1d-203e-4439-8539-634e80196687)
+[Microsoft Teams のデバイス使用状況レポート](/microsoftteams/teams-analytics-and-reports/device-usage-report)
 
-[Microsoft Teams ユーザー アクティビティ レポート](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
+[Microsoft Teams ユーザー アクティビティ レポート](/microsoftteams/teams-analytics-and-reports/user-activity-report)
 
 #### <a name="required-permissions"></a>必要なアクセス許可
 
@@ -405,13 +405,13 @@ NPS は、-100 から 100 までのインデックスであり、会社の製品
 
 ## <a name="manage-endpoints"></a>エンドポイントを管理する
 
-Microsoft Teamsエンドポイントは、Teams クライアントを実行する任意の PC、Mac、タブレット、モバイル (またはその他の) デバイスとして定義できます。 *エンドポイント* という用語は、デバイス自体だけでなく、デバイスの組み込みのマイクやスピーカー、earbuds、最適化されたヘッドセットを使用するなど、ユーザーがデバイスに接続する方法を包含します。 デプロイ後は、エンドポイントを忘れてはなりません。 Teams エンドポイントには、継続的なケアとメンテナンスが必要です。 次のセクションでは、焦点を当てる特定の領域について説明します。
+Microsoft Teamsエンドポイントは、Teams クライアントを実行している任意の PC、Mac、Tablet PC、モバイル (またはその他の) デバイスとして定義できます。 *エンドポイント* という用語は、デバイス自体だけでなく、デバイスの組み込みのマイクやスピーカー、earbuds、最適化されたヘッドセットを使用するなど、ユーザーがデバイスに接続する方法を包含します。 デプロイ後は、エンドポイントを忘れてはなりません。 Teams エンドポイントには、継続的なケアとメンテナンスが必要です。 次のセクションでは、焦点を当てる特定の領域について説明します。
 
 ### <a name="endpoint-requirements"></a>エンドポイントの要件
 
 Teamsの主な利点の 1 つは、クライアントが自動的に最新の状態に保たれることです。 PC と Mac 上のクライアントは、アプリがアイドル状態のときに新しいビルドがあるかを確認したり、新しいクライアントをダウンロードしたりする、バックグラウンド プロセスを使用して更新されます。 Teamsモバイル アプリは、それぞれのアプリ ストアを通じて最新の状態に保たれます。
 
-Teams クライアントには、基になるソフトウェア プラットフォームの観点から最小要件があります。 これらの要件は時間の経過と共に変化する可能性があるため、変更を監視することが重要です。 たとえば、Teams クライアントには最小の iOS バージョンがあります。 クライアントがインターネット ブラウザーを使用している場合は、ブラウザーも最新の状態に保たれる必要があります。 サポートされているプラットフォームの一覧については、「[Microsoft Teams 用のクライアントを取得する」を参照](get-clients.md)してください。
+Teams クライアントには、基になるソフトウェア プラットフォームの観点から最小要件があります。 これらの要件は時間の経過と共に変化する可能性があるため、変更を監視することが重要です。 たとえば、Teams クライアントには最小iOSバージョンがあります。 クライアントがインターネット ブラウザーを使用している場合は、ブラウザーも最新の状態に保たれる必要があります。 サポートされているプラットフォームの一覧については、「[Microsoft Teams 用のクライアントを取得する」を参照](get-clients.md)してください。
 
 ### <a name="endpoint-firewalls"></a>エンドポイントのファイアウォール
 
@@ -511,13 +511,13 @@ Teams サービスには、テナント全体で構成できる複数の設定�
 
 ### <a name="license-management"></a>ライセンス管理
 
-組織が成長または契約するにつれて、現在および将来のニーズに合わせてライセンスを計画することが重要です。 クラウド音声機能 (電話システムおよび[電話会議](https://products.office.com/skype-for-business/audio-conferencing)) のライセンスに加えて、基本[Teams](here-s-what-you-get-with-phone-system.md) ライセンスがあります。
+組織が成長または契約するにつれて、現在および将来のニーズに合わせてライセンスを計画することが重要です。 クラウド音声機能電話システムと[電話会議](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing#requirements-for-audio-conferencing)のライセンスに加えて、基本[Teams](here-s-what-you-get-with-phone-system.md) ライセンスがあります。
 
 Teamsの場合、電話システム ライセンスには、関連する[通話プラン](calling-plan-landing-page.md) ライセンスが必要です。 プランのライセンスを呼び出すと、国内または国際電話の発信および受信が可能になります。 これらのプランは使用量ベースであり、分単位のプールが関連付けられます。 [通信クレジットを](what-are-communications-credits.md)プロビジョニングすると、サービスが不足することはありません。
 
-電話会議では、有料ダイヤルイン会議と国内ダイヤルアウト会議サービスを利用できます。 無料ダイヤルイン会議や国内以外のダイヤルアウト シナリオでは、 [通信クレジット](what-are-communications-credits.md) が必要な追加料金が発生する可能性があります。
+電話会議では、有料ダイヤルイン会議と国内ダイヤルアウト会議サービスを使用できます。 無料ダイヤルイン会議や国内以外のダイヤルアウト シナリオでは、 [通信クレジット](what-are-communications-credits.md) が必要な追加料金が発生する可能性があります。
 
-通信クレジットは、通話プランと電話会議の両方のライセンスを補完できます。 通話プランのライセンスと通信クレジットはどちらも使用量ベースであるため、それに応じて監視およびプロビジョニングする必要があります。
+通信クレジットは、通話プランと電話会議ライセンスの両方を補完できます。 通話プランのライセンスと通信クレジットはどちらも使用量ベースであるため、それに応じて監視およびプロビジョニングする必要があります。
 
 [PSTN 使用状況レポート](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)を利用して、通話プランの分単位と通信クレジットの使用状況を監視できます。 このアクティビティの結果に基づいて、それに応じてライセンスを調整できます。 近日公開予定の [PSTN 分プール](/skypeforbusiness/skype-for-business-online-reporting/pstn-minute-pools-report) レポートを提供し、このタスクをより効果的に支援します。
 

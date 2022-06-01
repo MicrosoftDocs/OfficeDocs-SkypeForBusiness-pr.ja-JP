@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 4416fa65f38ad3489d05312382cce55b4a21898f
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: c65b51b34de54f419db341d5e1328a93746f0984
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635395"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823312"
 ---
 # <a name="planning-for-a-successful-transition-from-kaizala-to-microsoft-teams"></a>KaizalaからMicrosoft Teamsへの正常な移行を計画する
 
@@ -70,7 +70,7 @@ Kaizalaからの正常な移行を計画するための推奨されるフレー�
 
 ### <a name="get-ready"></a>準備をして
 
- 1. すべてのユーザーにTeamsライセンスがあることを確認します。 [チーム プラン](/microsoft-teams/compare-microsoft-teams-options?rtc=1)と [Microsoft Teams サービスの説明](/office365/servicedescriptions/teams-service-description)を確認します。
+ 1. すべてのユーザーにTeamsライセンスがあることを確認します。 [チーム プラン](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options?activetab=pivot%3aprimaryr1)と [Microsoft Teams サービスの説明](/office365/servicedescriptions/teams-service-description)を確認します。
 
  2. [Microsoft Teams導入](https://adoption.microsoft.com/microsoft-teams/#get-started)ガイダンスを使用して、組織全体にTeamsを展開します。
 

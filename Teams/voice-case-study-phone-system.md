@@ -16,12 +16,12 @@ f1.keywords:
 description: 'Teams多国籍企業向けの音声ケース スタディ: 電話システム'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: abc7c2b3eb8cbbaf98842638526514171a8b23c7
-ms.sourcegitcommit: a77116a0b0fd7e3cf14de694c559338bea198851
+ms.openlocfilehash: 95ba8e36948a3d61a2e81f9c1954919709eb3a77
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2022
-ms.locfileid: "64628331"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823668"
 ---
 # <a name="contoso-case-study-phone-system-for-a-multi-national-corporation"></a>Contoso のケース スタディ: 多国籍企業の電話システム
 
@@ -34,7 +34,7 @@ Contoso は、地理的な場所やその他の要因に応じて、次のテレ
 - サイト タイプ C: Skype for Business エンタープライズ VoIPと従来のレガシ テレフォニー システムの組み合わせ
 
 
-組織全体に対してMicrosoft 電話 システム ソリューションを実装するには、Contoso は、次のオプションの種類ごとに、公衆交換電話網 (PSTN) に接続するために電話システムで使用されるサイトの種類&mdash;を決定&mdash;する必要がありました。
+組織全体に対してMicrosoft 電話システム ソリューションを実装するには、Contoso はサイトの種類&mdash;ごとに、次のオプションのうち、公衆交換電話網 (PSTN) に接続するために電話システムで使用するオプションを決定&mdash;する必要がありました。
 
 - 通話プランを使用した電話システム 
 
@@ -42,7 +42,7 @@ Contoso は、地理的な場所やその他の要因に応じて、次のテレ
 
 - 通話プランとの電話システムの組み合わせと、ダイレクト ルーティングによる独自の PSTN キャリアとの電話システム
  
-Contoso は、組織に適したソリューションを決定するために、[Teams音声ソリューション](/microsoftteams/cloud-voice-landing-page)とMicrosoft Teamsでの Ignite 2019 セッション通話の計画[を](https://myignite.techcommunity.microsoft.com/sessions/83170?source=sessions)使用しました。  
+Contoso は、組織に適したソリューションを決定するために、[Teams音声ソリューション](/microsoftteams/cloud-voice-landing-page)とMicrosoft Teamsでの Ignite 2019 セッション通話の計画[を](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/what-s-new-for-calling-in-microsoft-teams-ignite-2019-edition/ba-p/974935)使用しました。  
 
 ## <a name="site-type-a-skype-for-business-enterprise-voice"></a>サイトの種類 A: Skype for Business エンタープライズ VoIP 
 
@@ -158,9 +158,9 @@ Contoso は、その質問に対する回答に基づいて、次のことを決
 
 Contoso は Ignite に出席し、電話 システムとダイレクト ルーティングで利用できる機能を含むOffice 365機能を最新の状態に保つ必要があります。 技術的なリーダーシップとアーキテクトは、Ignite 2019 で提供されたガイダンスを使用して、その方向を決定しました。  使用されたキー セッション: 
 
-- [Microsoft Teamsダイレクト ルーティングを使用して成功を計画する](https://myignite.techcommunity.microsoft.com/sessions/80381?source=sessions)
+- [Microsoft Teamsダイレクト ルーティングを使用して成功を計画する](https://docs.shanehoey.com/videos/ignite/ignite19-planfor%20successwithteamsdirectrouting/)
 
-- [ダイレクト ルーティングの更新プログラム](https://myignite.techcommunity.microsoft.com/sessions/80381?source=sessions)
+- [ダイレクト ルーティングの更新プログラム](https://docs.shanehoey.com/videos/ignite/ignite19-planfor%20successwithteamsdirectrouting/)
 
 
 ## <a name="configuration"></a>構成
@@ -169,13 +169,13 @@ Contoso は Ignite に出席し、電話 システムとダイレクト ルー�
 
 ライセンスを取得し、ユーザーに電話番号を割り当てるには、「 [通話プランの設定](set-up-calling-plans.md)」の手順に従いました。 
 
-電話番号を割り当てる必要があるユーザーの数が原因で、Contoso は PowerShell を使用して電話番号を割り当てることにしました。 他の設定&mdash;に PowerShellin&mdash; を使用して数値を割り当てる方法について説明しますContoso では[、Teams PowerShell の概要](teams-powershell-overview.md)を使用しました。  
+電話番号を割り当てる必要があるユーザーの数が原因で、Contoso は PowerShell を使用して電話番号を割り当てることにしました。 Contoso が powerShell&mdash;の概要Teams使用した他の設定&mdash;に加えて、[PowerShell](teams-powershell-overview.md) を使用して番号を割り当てる方法について説明します。  
 
 ### <a name="direct-routing-sites"></a>ダイレクト ルーティング サイト
 
 Contoso のオンプレミス テレフォニー インフラストラクチャをMicrosoft Teamsに接続するために、Contoso の管理者は[ダイレクト ルーティングの構成](direct-routing-configure.md)に関する手順に従い、[Microsoft Teamsのビデオ ダイレクト ルーティングに](https://www.youtube.com/watch?v=1ASftX_Msb8&index=10&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl)関するガイダンスを確認しました。  Contoso は、認定された SBC ベンダーによるダイレクト ルーティング展開のドキュメントも参照しました。 
 
-SBC と Microsoft 電話 システムの間でダイレクト ルーティングを構成したら、Contoso が構成をテストする必要がありました。 これを行うために、Contoso 管理者は [、Ignite 2019 のダイレクト ルーティングの更新プログラム セッションで](https://myignite.techcommunity.microsoft.com/sessions/83178?source=sessions)説明した SIP テスター クライアントを使用しました。 SIP Tester クライアント スクリプトとドキュメントは、直接ルーティング セッション ボーダー コントローラー接続をテストするために PowerShell スクリプトからダウンロードされました。   
+SBC と Microsoft 電話 システムの間でダイレクト ルーティングを構成したら、Contoso が構成をテストする必要がありました。 これを行うために、Contoso 管理者は、「[Ignite 2019 でのダイレクト ルーティング セッションの更新プログラム」で](https://techcommunity.microsoft.com/t5/microsoft-teams-events-blog/ignite-live-blog-session-vce20-updates-for-direct-routing/ba-p/1025138)説明されている SIP テスター クライアントを使用しました。 SIP Tester クライアント スクリプトとドキュメントは、直接ルーティング セッション ボーダー コントローラー接続をテストするために PowerShell スクリプトからダウンロードされました。   
 
 
 ### <a name="local-media-optimization"></a>ローカル メディアの最適化

@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 2455d386e9bdf297995880f679e5db74b299e64d
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: cbea53abb94bc3cb591d98781187ac2f4cb68dfd
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674839"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823462"
 ---
 # <a name="navigate-microsoft-teams"></a>Microsoft Teamsに移動する
 
@@ -259,7 +259,7 @@ Quiz はカスタム [Teams メッセージング拡張機能](/microsoftteams/p
 
 [スタッフ チェックイン アプリ テンプレートを使用すると](/microsoftteams/platform/samples/app-templates#staff-check-ins)、フロント ライン スタッフは、スケジュールされた、またはアドホックベースでTeamsから直接、タイム クリティカルな情報と状態の更新を簡単に提供できます。 アプリでは、リアルタイムの場所、写真、メモ、リマインダー通知、自動化されたワークフローがサポートされます。
 
-Teamsを使用して、組織のトレーニングを簡単にします。 トレーニングは、ユーザーがオフラインのナレッジ共有とスキルアップのためにチャットまたはチャネル内でトレーニングを公開できるようにするカスタム Teams [メッセージング拡張機能](/microsoftteams/platform/what-are-messaging-extensions)アプリです。 このアプリは、デスクトップ、ブラウザー、iOS、Androidなど、複数のTeams プラットフォーム クライアントでサポートされています。 このアプリは、Microsoft 365 サブスクリプションの一部としてデプロイする準備が整いました。
+Teamsを使用して、組織のトレーニングを簡単にします。 トレーニングは、ユーザーがオフラインのナレッジ共有とスキルアップのためにチャットまたはチャネル内でトレーニングを公開できるようにするカスタム Teams [メッセージング拡張機能](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions?tabs=dotnet)アプリです。 このアプリは、デスクトップ、ブラウザー、iOS、Androidなど、複数のTeams プラットフォーム クライアントでサポートされています。 このアプリは、Microsoft 365 サブスクリプションの一部としてデプロイする準備が整いました。
 
 [GitHubで入手する](https://github.com/OfficeDev/microsoft-teams-apps-training)
 

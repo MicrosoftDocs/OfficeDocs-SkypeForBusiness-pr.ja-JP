@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: "Microsoft Teams l'outil de chat collaboratif d'Office 365 qui intègre toutes les personnes, contenus et outils don votre équipe a besoin pour être plus impliquée et efficace. "
-ms.openlocfilehash: b366a21f278735c887f9c92a23f87e7217228218
-ms.sourcegitcommit: e6dc3f6818f7761b6b1e9645769636e991be15c3
+ms.openlocfilehash: 5f32c00201257168c5dacffbe36de60498e5f2f4
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/20/2021
-ms.locfileid: "61129877"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823162"
 ---
 # <a name="microsoft-teams-en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>Microsoft Teams: EN 301 549 Déclaration de marketplaceé en matière d'accessibilité
 
@@ -49,7 +49,7 @@ Pour obtenir de l'aide sur ce rapport, veuillez [nous envoyer un email](mailto:e
 
 ## <a name="section-1-champ-dapplication"></a>セクション 1 Champ d'application
 
-La présente attestation de parseé à la norme [EN 301 549 v2.1.2](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf) (PDF) [précise les exigences fonctionnelles en matière d'accessibilité](http://mandate376.standards.eu/standard/scope) applicables aux produits et services TIC de Microsoft.
+La présente attestation de parseé à la norme [EN 301 549 v2.1.2](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf) (PDF) [précise les exigences fonctionnelles en matière d'accessibilité](https://www.levelaccess.com/accessibility-regulations/m376/#:~:text=The%20European%20Commission%E2%80%99s%20%28EC%29%20Mandate%20M%20376%20directs,procurement%20of%20accessible%20information%20and%20communication%20technologies%20%28ICT%29.) applicables aux produits et services TIC de Microsoft.
 
 ## <a name="section-2-rfrences"></a>Section 2 Références
 

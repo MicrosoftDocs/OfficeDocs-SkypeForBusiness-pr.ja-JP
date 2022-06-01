@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 994fa61664b136c2f76f962420435755ae2488cd
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 925ab3c7ab6889651e9e66e0b38266f7dbe17e7a
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62394419"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823236"
 ---
 # <a name="operate-your-service"></a>サービスを運用する
 
@@ -50,7 +50,7 @@ ms.locfileid: "62394419"
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断ポイント</td><td><ul><li>Teamsに対して操作を実装する方法を決定します。</li></ul></td></tr>
 
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>操作ガイドを完全に確認します。</li><li>Teamsワークロードの品質と信頼性を実現するための組織の目標に合わせた運用戦略を実装します。</li><li>Quality of Experience Review ガイドを確認します。</li><li> Quality of Experience Reviews を定期的に実行する運用戦略を実装して、Teamsデプロイがピーク時に動作していることを確認します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>操作ガイドを完全に確認します。</li><li>Teamsワークロードの品質と信頼性を実現するための組織の目標に合わせた運用戦略を実装します。</li><li>Quality of Experience Review ガイドを確認します。</li><li> Quality of Experience Reviews を定期的に実行する運用戦略を実装して、Teamsデプロイがピーク時に動作していることを確認します。</li></ul></td></tr>
 
 </table>
 
@@ -69,7 +69,7 @@ ms.locfileid: "62394419"
 契約が締結されたら、対応するチームがロールの運用を開始する必要があります。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td>
 <td><ul><li>このドキュメントを使用して、操作ロール マッピングの演習を容易にします。</li><li>必要なアクティビティの一覧の各項目に名前を割り当てるには、それぞれのサポート チームに問い合わせてください。</li><li>割り当てられたロールに同意またはサインオフします。</li><li>対応するチームに、必要なアクティビティを完了するための適切なトレーニング、準備、リソースがあることを確認します。</li></ul></td></table>
 
 ### <a name="teams-service-dependencies"></a>Teams サービスの依存関係
@@ -168,7 +168,7 @@ Service Communications API を利用して、サービスの正常性と変更�
 
 Microsoft Teamsはクラウドベースのサービスです。 そのため、新しい機能を迅速に提供できます。 継続的なイノベーションを提供することは、組織に明らかな利点をもたらしますが、これらの変更は、ヘルプデスクに対するユーザーの抵抗やエスカレーションを回避するために、組織内で適切に管理する必要があります。
 
-Teamsの更新は、ユーザーに自動的にロールアウトされます。 ユーザーは常に、Teams サービスで使用できる最新のクライアントと機能を持っています。 ユーザーへのTeams更新プログラムのロールアウトを管理することはできないため、効果的なコミュニケーション、トレーニング、導入プログラムを通じて変更を管理することは非常に重要です。 ユーザーが変更に気づき、利点について教育を受け、新しい機能&mdash;を活用する権限を与えられた場合、より迅速に適応し、変更を歓迎することができます。
+Teamsの更新は、ユーザーに自動的にロールアウトされます。 ユーザーは常に、Teams サービスで使用できる最新のクライアントと機能を持っています。 ユーザーへのTeams更新プログラムのロールアウトを管理することはできないため、効果的なコミュニケーション、トレーニング、導入プログラムを通じて変更を管理することは非常に重要です。 ユーザーが変更に気づき、利点について教育を受け、新しい機能&mdash;を活用する権限を与えられた場合は、より迅速に適応し、変更を歓迎することができます。
 
 ### <a name="monitoring-for-change"></a>変更の監視
 
@@ -197,8 +197,8 @@ Teams サービスに対する今後の変更を認識したので、次の手�
 
 | 準備を変更する | ステータス | メモ/次の手順 | 所有者 |
 |---|---|---|---|
-| IT の変更が必要 | Yes | 管理者は、識別されたユーザーに対してのみ記録を有効にする必要があります。 | サポート チーム |
-| 技術的準備完了 | Yes | | サポート チーム |
+| IT の変更が必要 | はい | 管理は、識別されたユーザーに対してのみ記録を有効にする必要があります。 | サポート チーム |
+| 技術的準備完了 | はい | | サポート チーム |
 | | | | |
 
 **ユーザー変更管理**
@@ -206,9 +206,9 @@ Teams サービスに対する今後の変更を認識したので、次の手�
 | 準備を変更する | ステータス | メモ/次の手順 | 所有者 |
 |---|---|---|---|
 | ユーザーの影響 | 低 | | |
-| ユーザーの準備が必要 | Yes | | |
+| ユーザーの準備が必要 | はい | | |
 | 通信の準備完了 | いいえ | コミュニケーションメールが下書きされました。レビューは保留中です。 | コミュニケーション チーム |
-| トレーニングの準備 | Yes | トレーニングでは、既存の Microsoft ビデオが活用されます。 | トレーニング チーム |
+| トレーニングの準備 | はい | トレーニングでは、既存の Microsoft ビデオが活用されます。 | トレーニング チーム |
 
 **ステータス トラック**
 
@@ -251,9 +251,9 @@ Teamsの使用状況データは、レポート ダッシュボードで使用�
 
 他の 2 つのレポートはTeams固有であり、ユーザーとデバイスの観点からTeams使用状況の詳細を提供します。 両方のレポートは、次の場所にあります。
 
-[Microsoft Teams のデバイス使用状況レポート](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-device-usage-917b3e1d-203e-4439-8539-634e80196687)
+[Microsoft Teams のデバイス使用状況レポート](/microsoftteams/teams-analytics-and-reports/device-usage-report)
 
-[Microsoft Teams ユーザー アクティビティ レポート](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
+[Microsoft Teams ユーザー アクティビティ レポート](/microsoft-365/admin/activity-reports/microsoft-teams-user-activity-preview)
 
 #### <a name="required-permissions"></a>必要なアクセス許可
 
@@ -406,13 +406,13 @@ NPS は、会社の製品やサービスを推奨する顧客の意欲を測定�
 
 ## <a name="manage-endpoints"></a>エンドポイントを管理する
 
-Microsoft Teamsエンドポイントは、Teams クライアントを実行する任意の PC、Mac、タブレット、モバイル (またはその他の) デバイスとして定義できます。 *エンドポイント* という用語は、デバイス自体だけでなく、デバイスの組み込みのマイクやスピーカー、earbuds、最適化されたヘッドセットを使用するなど、ユーザーがデバイスに接続する方法を包含します。 デプロイ後は、エンドポイントを忘れてはなりません。 Teams エンドポイントには、継続的なケアとメンテナンスが必要です。 次のセクションでは、焦点を当てる特定の領域について説明します。
+Microsoft Teamsエンドポイントは、Teams クライアントを実行している任意の PC、Mac、Tablet PC、モバイル (またはその他の) デバイスとして定義できます。 *エンドポイント* という用語は、デバイス自体だけでなく、デバイスの組み込みのマイクやスピーカー、earbuds、最適化されたヘッドセットを使用するなど、ユーザーがデバイスに接続する方法を包含します。 デプロイ後は、エンドポイントを忘れてはなりません。 Teams エンドポイントには、継続的なケアとメンテナンスが必要です。 次のセクションでは、焦点を当てる特定の領域について説明します。
 
 ### <a name="endpoint-requirements"></a>エンドポイントの要件
 
 Teamsの主な利点の 1 つは、クライアントが自動的に最新の状態に保たれることです。 PC と Mac 上のクライアントは、アプリがアイドル状態のときに新しいビルドがあるかを確認したり、新しいクライアントをダウンロードしたりする、バックグラウンド プロセスを使用して更新されます。 Teamsモバイル アプリは、それぞれのアプリ ストアを通じて最新の状態に保たれます。
 
-Teams クライアントには、基になるソフトウェア プラットフォームの観点から最小要件があります。 これらの要件は時間の経過と共に変化する可能性があるため、変更を監視することが重要です。 たとえば、Teams クライアントには最小の iOS バージョンがあります。 クライアントがインターネット ブラウザーを使用している場合は、ブラウザーも最新の状態に保たれる必要があります。 サポートされているプラットフォームの一覧については、「[Microsoft Teams 用のクライアントを取得する」を参照](get-clients.md)してください。
+Teams クライアントには、基になるソフトウェア プラットフォームの観点から最小要件があります。 これらの要件は時間の経過と共に変化する可能性があるため、変更を監視することが重要です。 たとえば、Teams クライアントには最小iOSバージョンがあります。 クライアントがインターネット ブラウザーを使用している場合は、ブラウザーも最新の状態に保たれる必要があります。 サポートされているプラットフォームの一覧については、「[Microsoft Teams 用のクライアントを取得する」を参照](get-clients.md)してください。
 
 ### <a name="endpoint-firewalls"></a>エンドポイントのファイアウォール
 
@@ -439,7 +439,7 @@ Wi-Fiドライバーが問題になる可能性があります。 たとえば�
 
 4. **Microsoft Teams コミュニティにアクセスしてください。**[Microsoft Teams コミュニティ](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)には、Teams専用のスペースがあります。 Teams コミュニティでは、Teamsを中心としたディスカッション リスト、ブログの投稿、お知らせを提供します。 問題の解決策については、質問を投稿するか、以前のディスカッションを検索できます。
 
-5. **Microsoft サポートにお問い合わせください。** オンラインまたは電話でTeamsに関する問題については、Microsoft サポートにお問い合わせください。 詳細については、「 [ビジネス製品のサポートにお問い合わせください - 管理者向けヘルプ」を参照してください](/microsoft-365/admin/contact-support-for-business-products)。 Premier のお客様の場合は、Microsoft Teams [(Premier のお客様) のサポートにお問い合わせ](https://support.microsoft.com/premier/contacts)のガイダンスに従って、サポートリクエストを開始できます。
+5. **Microsoft サポートにお問い合わせください。** オンラインまたは電話でTeamsに関する問題については、Microsoft サポートにお問い合わせください。 詳細については、「[ビジネス製品のサポートにお問い合わせください - 管理 ヘルプ」を参照してください](/microsoft-365/admin/contact-support-for-business-products)。 Premier のお客様の場合は、Microsoft Teams [(Premier のお客様) のサポートにお問い合わせ](https://support.microsoft.com/premier/contacts)のガイダンスに従って、サポートリクエストを開始できます。
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>毎日/毎週/毎月/必要に応じてタスク
 

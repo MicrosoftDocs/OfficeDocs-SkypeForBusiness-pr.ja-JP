@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22ee8e22f7954814aa98b43d1eac250ac38b17cd
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: ae69bab918a9c8bd542e5ec70a95df7544677d8d
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014611"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823226"
 ---
 # <a name="conduct-a-user-pilot"></a>ユーザー パイロットを実施する
 
@@ -113,4 +113,5 @@ ms.locfileid: "60014611"
 - **パイロットが望む成果 (ユーザーの満足度やネットワーク品質など) を達成できず、** 時間をかけて計画を適切に調整し、パイロットを再検討します。
 
 > [!Tip]
-> パイロットの参加者をピア チャンピオンとして登録し、新しいユーザーの Teams への伝道とオンボーディングを支援します。 ピア チャンピオンは他のユーザーと簡単に交流でき、自分の経験や学習内容を共有し、同僚をサポートしたりガイダンスを提供したりすることができます。 [チャンピオン](https://go.microsoft.com/fwlink/?linkid=859068)の詳細と独自の展開でそれらを使用する方法について説明します。
+> パイロットの参加者をピア チャンピオンとして登録し、新しいユーザーの Teams への伝道とオンボーディングを支援します。 ピア チャンピオンは他のユーザーと簡単に交流でき、自分の経験や学習内容を共有し、同僚をサポートしたりガイダンスを提供したりすることができます。 [チャンピオン](
+https://adoption.microsoft.com/become-a-champion/)の詳細と独自の展開でそれらを使用する方法について説明します。

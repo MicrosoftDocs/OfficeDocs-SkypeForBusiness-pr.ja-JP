@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 8c538a4de417bcc6b19e579162357e56c444abdb
-ms.sourcegitcommit: b8098d6ea36f10ee3a630a230ebd84bc2d96e37a
+ms.openlocfilehash: 39b0e358e57a8780918c6969a562b28d9e3fe49d
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/31/2022
-ms.locfileid: "65781062"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823728"
 ---
 # <a name="manage-the-updates-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teamsで組織の更新プログラム アプリを管理する
 
@@ -53,6 +53,8 @@ Teamsでは、ユーザーはTeamsアプリ ストアから更新プログラム
 ![モバイル デバイス上の週次安全チュートリアル テンプレートの画像。](media/updates-mobile.png)
 
 一方、リモート ワーカーのチームがストアの Web サイトを更新しています。 タイム ゾーンに分散されているため、毎日の立ち上げ会議は便利ではありません。 代わりに、各チーム メンバーは、その進捗状況に関する毎日の更新レポートをチーム リーダーに送信します。
+
+[Updates のルックブックをダウンロード](https://go.microsoft.com/fwlink/?linkid=2197649&clcid=0x409) して、Updates で実行できる操作の例をさらに確認します。
 
 ## <a name="required-permissions-and-licenses"></a>必要なアクセス許可とライセンス
 

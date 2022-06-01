@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b378ee327f2ba284a348ff7458c617fed71541c6
-ms.sourcegitcommit: 12044ab8b2e79a7b23bf9a0918ae070925d21f3d
+ms.openlocfilehash: f087498d3a9d679ea10ba2c8cc9505ab772d85ab
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "61401891"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823648"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing"></a>ダイレクト ルーティング用の存続可能ブランチ アプライアンス (SBA)
 
@@ -58,7 +58,7 @@ SBA 機能は、次のMicrosoft Teams クライアントでサポートされて
 
 - デスクトップMicrosoft Teams Windows 
 
-- macOS デスクトップをMicrosoft Teamsする
+- デスクトップMicrosoft Teams macOS
 - モバイル向けのTeams 
 - Teams Phone
 
@@ -179,7 +179,7 @@ SBA アプリケーションの場合は、次の点に注意してください�
 - サポートされているアカウントの種類 = この組織のディレクトリ内のアカウントのみ。 
 - Web リダイレクト Uri = https://login.microsoftonline.com/common/oauth2/nativeclient.
 - 暗黙的な付与トークン = アクセス トークンと ID トークン。 
-- API のアクセス許可 = Skypeとテナント管理者アクセスのTeams -> アプリケーションのアクセス許可 -> application_access_custom_sba_appliance。
+- API のアクセス許可 = Skypeおよびテナント Teams 管理 Access -> アプリケーションのアクセス許可 -> application_access_custom_sba_appliance。
 - クライアント シークレット: 任意の説明と有効期限を使用できます。 
 - クライアント シークレットを作成した直後に必ずコピーしてください。 
 - [概要] タブにアプリケーション (クライアント) ID が表示されます。
@@ -196,7 +196,7 @@ SBA アプリケーションの場合は、次の点に注意してください�
 
 組み込みの存続可能ブランチ アプライアンスを使用してセッション ボーダー コントローラーを構成する方法の詳細なガイダンスについては、SBC ベンダーが提供するドキュメントを参照してください。 
 
-- [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-survivable-branch-appliances)
+- [AudioCodes](https://www.audiocodes.com/library/technical-documents?query=sba)
 
 - [リボン](https://support.sonus.net/pages/viewpage.action?pageId=248644034)
 
@@ -214,7 +214,7 @@ SBC ベンダーのサポート組織に問題を報告します。 問題を報
 
 - 存続可能ブランチ アプライアンス ポリシーをユーザーに割り当てると、Get-CsOnlineUser の出力に SBA が表示されるまでに時間がかかる場合があります。 
 
-- Azure AD連絡先に対する逆引き番号参照は実行されません。 
+- Azure AD 連絡先に対する逆引き番号参照は実行されません。 
 
 - SBA では、通話転送設定はサポートされていません。 
 

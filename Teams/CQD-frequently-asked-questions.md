@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: よく寄せられる質問 (FAQ) とMicrosoft Teams通話品質ダッシュボード (CQD) に関する回答を参照してください。
-ms.openlocfilehash: 3d795393f99765ab445a5495b626ebd9b8722131
-ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
+ms.openlocfilehash: f320bab549ee322c1254babd0feb49cc24419215
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64592932"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823206"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>通話品質ダッシュボード (CQD) よく寄せられる質問 (FAQ)
 
@@ -92,11 +92,11 @@ CQD にアクセスできるロール (EUII を含む) の詳細については�
 
 CQD、Call Analytics、CallRecord Graph API、リアルタイム分析などの通話品質管理ツールは、診断テレメトリに基づいています。 通話品質管理ツールTeams表示する情報は、通話に参加しているクライアントから受け取るテレメトリ データと同じくらい完全です。 ネットワークの停止、 [ファイアウォールやプロキシの構成の誤](/microsoft-365/enterprise/urls-and-ip-address-ranges)りなど、完全なテレメトリを受信できない理由はいくつかあります。 Teams クライアントがサービスにテレメトリを提供する信頼性と回復性の向上に引き続き取り組みます。
 
-この点を念頭に置いて、使用状況レポートに通話品質管理ツールを使用することはサポートされていません。 これらは、このような種類のレポート シナリオに対応したり意図したりするように設計されておらず、多くの使用状況統計は、これらのツール内では使用できません。また、使用できません。 Teams管理センターには一連の[使用状況レポート](teams-analytics-and-reports/teams-reporting-reference.md)が用意されており、[会議出席レポート](teams-analytics-and-reports/meeting-attendance-report.md)はTeams クライアントから直接入手できます。
+この点を念頭に置いて、使用状況レポートに通話品質管理ツールを使用することはサポートされていません。 これらは、このような種類のレポート シナリオに対応したり意図したりするように設計されておらず、多くの使用状況統計は、これらのツール内では使用できません。また、使用できません。 Teams 管理 センターには一連の[使用状況レポート](teams-analytics-and-reports/teams-reporting-reference.md)が用意されており、[会議出席レポート](teams-analytics-and-reports/meeting-attendance-report.md)はTeamsクライアントから直接入手できます。
 
 ### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>Teamsのみをフィルター処理した場合に CQD にSkype for Business情報が表示されるのはなぜですか?
 
-CQD レポートでのみTeamsをフィルター処理する場合 (isTeams = 1) は、*最初のエンドポイント* がTeamsされているすべての呼び出しをフィルター処理します。 *2 番目のエンドポイント* がSkype for Businessされている場合、その情報は CQD レポートに表示されます。 顧客のシナリオによっては、[データ コネクタの呼び出](/skypeforbusiness/hybrid/plan-call-data-connector.md)しが構成されている場合、CQD には 2019 Skype for Business Server呼び出しが含まれる場合があります。 また、Skype Bot 通話 (AA、CVI、VDI)、ライブ イベント、PSTN 通話も含まれる場合があります。
+CQD レポートでのみTeamsをフィルター処理する場合 (isTeams = 1) は、*最初のエンドポイント* がTeamsされているすべての呼び出しをフィルター処理します。 *2 番目のエンドポイント* がSkype for Businessされている場合、その情報は CQD レポートに表示されます。 顧客のシナリオによっては、[データ コネクタの呼び出](/skypeforbusiness/hybrid/plan-call-data-connector)しが構成されている場合、CQD には 2019 Skype for Business Server呼び出しが含まれる場合があります。 また、Skype Bot 通話 (AA、CVI、VDI)、ライブ イベント、PSTN 通話も含まれる場合があります。
 
 最初のユーザー エージェント カテゴリや *2 番目* の *ユーザー エージェント カテゴリ* などのディメンションをフィルター処理することで、クエリからSkype for Business情報を削除できます。 また、1 つのフィルターに 1 つの第 1 ディメンションと第 2 ディメンションを組み合わせた *ユーザー エージェント カテゴリ ペア* を使用することもできます。
 

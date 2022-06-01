@@ -22,16 +22,16 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: それぞれの国/地域のダイヤルイン会議の言語と割り当てられたカルチャ ID (en-US、da-DK、de-DE など) を検索します。
-ms.openlocfilehash: 38277b1b4b24c544cd271c9bbdb52f53d407fceb
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: 63cc7b7f20fd121801a00e43b95e1c7e33762d93
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055457"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823453"
 ---
 # <a name="audio-conferencing-supported-languages"></a>電話会議でサポートされている言語
 
-Microsoft 365またはOffice 365で電話会議を設定および構成する場合は、発信者がSkype for Businessまたは会議にダイヤルインするときに使用されるプライマリ言語とセカンダリ言語 (最大 4 言語) を選択Microsoft Teams。 電話会議でサポートされている言語の一覧を示します。
+Microsoft 365またはOffice 365で電話会議を設定および構成する場合は、発信者がSkype for BusinessまたはMicrosoft Teams会議にダイヤルインするときに使用されるプライマリ言語とセカンダリ言語 (最大 4) を選択できます。 電話会議でサポートされている言語の一覧を示します。
   
 > [!IMPORTANT]
 > プライマリとセカンダリの言語は、専用の電話会議の電話番号でのみ変更できます。
@@ -108,8 +108,8 @@ Microsoft 365またはOffice 365で電話会議を設定および構成する場
   - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
     > [!NOTE]
-    > Skype for Business Online 用の Windows PowerShell モジュールがあれば、Skype for Business Online に接続するリモートの Windows PowerShell セッションを作成できます。このモジュールは、64 ビット版のコンピューターでのみサポートされており、「[Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)」の Microsoft ダウンロード センターからダウンロードできます。
+    > Skype for Business Online 用の Windows PowerShell モジュールがあれば、Skype for Business Online に接続するリモートの Windows PowerShell セッションを作成できます。このモジュールは、64 ビット版のコンピューターでのみサポートされており、「[Windows PowerShell Module for Skype for Business Online](/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1)」の Microsoft ダウンロード センターからダウンロードできます。
   
 ## <a name="related-topics"></a>関連項目
 
-[Microsoft 365またはOffice 365での電話会議の試用または購入](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Microsoft 365またはOffice 365で電話会議を試すか購入する](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

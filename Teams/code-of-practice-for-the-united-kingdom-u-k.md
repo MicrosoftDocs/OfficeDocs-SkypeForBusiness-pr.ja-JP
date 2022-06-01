@@ -23,12 +23,12 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: サポートを受ける場所、苦情を提出してクレームを解決する方法など、Skype for Business英国向けの PSTN 通話プランの実践コードについて説明します。
-ms.openlocfilehash: afddab7205572386a616e0dcb07d00f226efda9c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 526e34bce5ec36188287154a4f578a56942fa36f
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580201"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823036"
 ---
 # <a name="calling-plans-in-microsoft-365---code-of-practice-for-the-united-kingdom-uk"></a>Microsoft 365での通話プラン - 英国 (英国) の実践コード
 
@@ -118,7 +118,7 @@ TPS と同様に、迷惑 FAX 防止サービス (「FPS」) は、企業と個�
 
 ### <a name="phonepayplus"></a>PhonepayPlus
 
-すべてのサービス プロバイダーは、Ofcom に承認された独立組織である PhonepayPlus に登録する必要があります。PhonepayPlus は、プレミアム レート サービスを規制し、消費者が申し立てた苦情を調査します。すべてのサービス プロバイダーは、PhonepayPlus の実施規約を順守する必要があります。この規約は、[http://www.phonepayplus.org.uk/for-business/code-of-practice](http://www.phonepayplus.org.uk/for-business/code-of-practice) に掲載されています。サービス プロバイダーがこの実施規約に違反すると、PhonepayPlus は次のように対処します。
+すべてのサービス プロバイダーは、Ofcom によって承認された独立した組織である PhonepayPlus に登録する必要があります。 PhonepayPlus は、プレミアム Rate Services を規制し、消費者が提出した苦情を調査します。 すべてのサービス プロバイダーは、PhonepayPlus Code of Practice に準拠している必要があります。これは、 [実践コード](https://psauthority.org.uk/for-business/code-15)に記載されています。 サービス プロバイダーが行動規範に違反した場合、PhonepayPlus は次の可能性があります。
 
 - 団体に違反の是正を求める
 
@@ -128,7 +128,7 @@ TPS と同様に、迷惑 FAX 防止サービス (「FPS」) は、企業と個�
 
 ### <a name="service-provider-contact-information"></a>サービス プロバイダーの連絡先情報
 
-サービス プロバイダーの連絡先情報を見つけるには、PhonepayPlus の #NumberChecker ツール ([http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry)) を使用できます。プレミアム レート サービスが誤って課金されたと確信した場合は、サービス プロバイダーに直接問い合わせる必要があります。
+サービス プロバイダーの連絡先情報を見つけるには、PhonepayPlus の#NumberChecker ツール [を使用してオンラインの問い合わせを送信](https://psauthority.org.uk/For-Consumers/Contact-Us)します。 プレミアム レート サービスが誤って課金されたと確信した場合は、サービス プロバイダーに直接問い合わせる必要があります。
 
 ### <a name="complaints"></a>苦情
 
@@ -136,7 +136,7 @@ TPS と同様に、迷惑 FAX 防止サービス (「FPS」) は、企業と個�
 
 - 電話: 0300 30 300 20 (月曜日から金曜日の午前 9 時 30 分から午後 5 時まで)
 
-- オンラインでの問い合わせ: [http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry)
+- オンラインの問い合 [わせ: オンラインの問い合わせを送信する](https://psauthority.org.uk/For-Consumers/Contact-Us)
 
 ### <a name="dispute-resolution"></a>争議の解決
 

@@ -23,12 +23,12 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: ビジネス通話サービス (英国での PSTN 通話) のSkype、返信のタイムライン、未解決の苦情に対するクレームの解決に関する苦情を申し立てる。
-ms.openlocfilehash: 648f7b171e8d04f4bad6ef1cdb1021b987cf042e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 996149ad23ec8c9258dd3ef953aeffe8c3aea041
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604606"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823718"
 ---
 # <a name="calling-plans-in-microsoft-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Microsoft 365での通話プラン - 英国 (英国) の苦情処理コード
 
@@ -62,7 +62,7 @@ Skype for Business では、サービスに関連するすべての苦情を、�
 
 すべての苦情は、Skype for Business に申し立ててから 12 か月以内に、オンブズマン サービスに送る必要があります。
 
-オンブズマン サービスに苦情を持ち込むための手順は、オンブズマン サービスの [Web サイト](https://go.microsoft.com/fwlink/?LinkID=820708&amp;clcid=0x809)に記載されています。
+Ombudsman Services に対する苦情を参照するための手順については、Ombudsman Services の [Ombudsman Services の Web サイト](https://www.ombudsman-services.org/)を参照してください。
 
 Ombudsman Services の Web サイトまたは電話、レター、または電子メールで連絡先フォームに記入することで、Ombudsman Services にアクセスできます。
 

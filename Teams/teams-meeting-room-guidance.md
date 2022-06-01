@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fb3eb61de1372012f2a530be86d394ca46893a6
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 8df4740d6f5facc427900e7af760b11a9c8cb43f
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681748"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823402"
 ---
 # <a name="meeting-room-guidance-for-teams"></a>Teams の会議室ガイダンス
 
@@ -83,7 +83,7 @@ Teams Rooms では、個人用デバイスの Teams で行える以上のこと�
 
 この計画を開始するには、すべての非 AV または非コラボレーション装備の会議スペースを処理します。 会議室に Teams デバイスがまだインストールされていない場合でも、引き続き会議室で Teams を利用できます。
 
-*オーディオ：* 完全なTeamsルームへの大きな橋渡しは、個々のユーザーに小さな部屋やグループ用のTeams認定オーディオ デバイスを提供するか、小さなデバイスで切断されない大規模なグループ向けの大規模なスペース用の完全なTeams Rooms ソリューションの前に部屋に展開することで、会議テクノロジを計画することです。
+*オーディオ：* 完全なTeams Roomsへの大きな橋渡しは、個々のユーザーに小さな部屋やグループ用のTeams認定オーディオ デバイスを提供するか、小さなデバイスで切断されない大規模なグループ向けの大規模なスペース用の完全なTeams Rooms ソリューションの前に部屋に展開することで、会議テクノロジを計画することです。
 
 *ビデオ:* これらの会議室を使用する場合、個々のユーザーは自分のデバイスを持ち込み、Teams 会議のコンテンツ内で共有し、個々のカメラで自分の表現をキャプチャできます。 その後、ユーザーはローカル グループの唯一の音源となるように任意のユーザーを指定して、その個人用デバイスを認定されたオーディオ デバイスに接続できます。これにより、すべての人 (ローカルとリモートの両方) が会議のオーディオから肯定的なエクスペリエンスを得ることができます。
 

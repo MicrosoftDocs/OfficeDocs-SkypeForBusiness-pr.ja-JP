@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 745500dd0ac30d717e37ec9287618342554b26c9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1cf7d4e9670d8ea282105eaa057347fa7e9f6dac
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627029"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65822996"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel および Microsoft Teams
 
@@ -220,13 +220,13 @@ SigninLogs
 
 **Pete Bryan、Nicholas DiCola、および Matthew Lowe によるコンテンツの共同作業に感謝します。** Pete Bryan および彼と共同作業している人は、Teams の検出クエリと検索クエリを開発し続けています。
 
-更新に関しては、[Git Hub](https://github.com/Azure/Azure-Sentinel/tree/master/Hunting%20Queries/TeamsLogs) リポジトリと連絡を取り合ってください。
+更新に関しては、[Git Hub](https://github.com/Azure/Azure-Sentinel/tree/master/Hunting%20Queries/) リポジトリと連絡を取り合ってください。
 
 この記事で使用している[パーサー](https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/Teams_parser.txt)および[ロジック アプリ](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks/Get-O365Data)の更新プログラムに注意してください。
 
 [Azure Sentinel コミュニティ](https://github.com/Azure/Azure-Sentinel/wiki)に参加して投稿する必要があります。 この記事に関するフィードバックを心よりお待ちしておりいますので、以下のフィードバック オプションをご利用ください。 ご利用ありがとうございます。
 
-[Azure AD でアプリケーションを登録する](/skype-sdk/ucwa/registeringyourapplicationinazuread%C2%A0%20%20%C2%A0)
+[Azure AD でアプリケーションを登録する](/skype-sdk/trusted-application-api/docs/registrationinazureactivedirectory)
 
 [監査ログ検索を有効または無効にする](/microsoft-365/compliance/turn-audit-log-search-on-or-off)
 
