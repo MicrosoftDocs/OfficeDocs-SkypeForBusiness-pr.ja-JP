@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams の共有チャネル (プレビュー)
+title: Microsoft Teams の共有チャネル
 author: MikePlumleyMSFT
 ms.author: mikeplum
 manager: serdars
@@ -17,15 +17,15 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 search.appverid: MET150
-description: Microsoft Teams の共有チャネル (プレビュー) を使用および管理する方法について説明します。
-ms.openlocfilehash: 1f222d8994c435c315a91deaba77e383b55cba42
-ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
+description: Microsoft Teams の共有チャネルを使用および管理する方法について説明します。
+ms.openlocfilehash: 72701d71712a553c9a02cf9ab41ce0ced0597c3a
+ms.sourcegitcommit: c74c83fdb3fdbf1a5ebc9398bf0379d33f888d1b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65393881"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65795639"
 ---
-# <a name="shared-channels-in-microsoft-teams-preview"></a>Microsoft Teams の共有チャネル (プレビュー)
+# <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams の共有チャネル
 
 Microsoft Teams の共有チャネルは、チームに参加していないユーザーを招待できるコラボレーション スペースを提供します。 共有チャネルの所有者またはメンバーであるユーザーのみが、そのチャネルにアクセスできます。 ゲスト (組織内の Azure Active Directory ゲスト アカウントを持つユーザー) を共有チャネルに追加することはできませんが、Azure AD B2B 直接接続を使用して、共有チャネルに参加するよう組織外のユーザーを招待できます。
 
@@ -36,12 +36,6 @@ Microsoft Teams の共有チャネルは、チームに参加していないユ�
 共有チャネルが作成されると、親チームにリンクされます。別のチームに移動させることはできません。 また、共有チャネルを標準チャネルに変換することはできません。
 
 [共有チャネルを他の種類のチャネルと比較します](/microsoftteams/teams-channels-overview#channel-feature-comparison)。
-
-## <a name="best-practices-for-the-shared-channels-preview"></a>共有チャネルのプレビューのベスト プラクティス
-
-共有チャネルはプレビュー中で、[Microsoft Teams パブリック プレビュー](/MicrosoftTeams/public-preview-doc-updates)が構成されている必要があります。 チャネルを他の組織と共有する場合は、それらの組織でも Teams パブリック プレビューが構成されている必要があります。
-
-すべてのユーザーに対してプレビューを有効にすることをお勧めします。 プレビューが有効になっていないユーザーは、共有チャネルを作成することはできませんが、共有チャネルに追加してもらうことはできます。 すべてのユーザーのプレビューを有効にすると、エクスペリエンスが確実に一貫性のあるものとなります。
 
 ## <a name="getting-started-with-shared-channels"></a>共有チャネルの使用を開始する
 
@@ -90,10 +84,10 @@ Teamsでは、共有チャンネルがデフォルトで有効になっていま
 |アクション  |チーム所有者|チーム メンバー|チームのゲスト|共有チャネルの所有者|共有チャネルのメンバー|共有チャネルの外部の参加者|
 |---------|---------|---------|---------|---------|---------|---------|
 |共有チャネルを作成する|管理者による制御|管理者とチームの所有者の制御|いいえ|該当なし|いいえ|いいえ|
-|共有チャネルを削除する|はい|いいえ|いいえ|Yes|いいえ|いいえ|
+|共有チャネルを削除する|はい|いいえ|いいえ|はい|いいえ|いいえ|
 |共有チャネルから退出する|該当なし|該当なし|該当なし|[はい]-最後の所有者でない場合|はい|はい|
 |共有チャネルを編集する|いいえ|該当なし|該当なし|はい|いいえ|いいえ|
-|削除されたプライベート チャネルを復元する|はい|いいえ|いいえ|Yes|いいえ|いいえ|
+|削除されたプライベート チャネルを復元する|はい|いいえ|いいえ|はい|いいえ|いいえ|
 |メンバーを追加する|いいえ|該当なし|該当なし|はい|いいえ|いいえ|
 |編集を設定する|いいえ|該当なし|該当なし|はい|いいえ|いいえ|
 |タブとアプリを管理する|いいえ|該当なし|該当なし|はい、アプリがチームにインストールされている必要があります|チャンネルの所有者の制御|いいえ|
@@ -141,14 +135,14 @@ Teams は、共有チャネル サイトのライフ サイクルを管理しま
 
 [Teams でチャネルの所有者とメンバーの役割を共有しました](https://support.microsoft.com/office/75b379f4-8e9c-4202-acf1-6ffc3878a2d7)
 
-## <a name="limits-for-shared-channels-preview"></a>共有チャネル (プレビュー) の制限
+## <a name="limits-for-shared-channels"></a>共有チャネルの制限
 
 次の表では、チャネルとメンバーの最大数について説明します。
 
 |最大...|値|メモ|
 |:---------|:----|:----|
 |チームのメンバー|25,000|チーム内のすべてのユーザーと、共有チャネルの直接のメンバーが含まれます。|
-|チームあたりの共有チャネル数|50|ホストされ、チームと共有されます。 (30 日間の復元可能期間中に削除されたチャネルが含まれます。)|
+|チームあたりの共有チャネル数|200|ホストされ、チームと共有されます。 (30 日間の復元可能期間中に削除されたチャネルが含まれます。)|
 |チャネルを共有できるチーム|50|親チーム以外|
 |共有チャネルのメンバー|直接のメンバー 5,000 人 (最大 50 チームを含む)。 (この制限の目的のため、チャネルが共有される各チームは 1 人のメンバーとしてカウントされます。)|リアルタイムの更新は一度に 25,000 人のユーザーしか利用できず、チャネル リストには 25,000 人のユーザーしか表示されません。|
 
@@ -156,11 +150,78 @@ Teams は、共有チャネル サイトのライフ サイクルを管理しま
 
 - 共有チャネルではタブがサポートされますが、Stream、Planner、Forms は除きます。
 
-- LOB アプリ、ボット、コネクタ、メッセージ拡張機能は、パブリック プレビューではサポートされていません。
+- LOB アプリ、ボット、コネクタ、メッセージ拡張機能はサポートされていません。
 
 - 既存のチームからチームを作成する場合、既存のチームの共有チャネルは上書きされません。
 
 - 共有チャネルからの通知は、見逃したアクティビティ メールには含まれません。
+
+## <a name="supported-apps-in-shared-channels"></a>共有チャネルでサポートされているアプリ
+
+共有チャネル用にアプリを準備する方法の詳細については、「[Microsoft Teams Connect を使用して組織間の共同作業を行うためにアプリを開く方法](https://mybuild.microsoft.com/sessions/4d84d73c-08de-4f56-990b-2a73b2037df1)」 を参照してください。
+
+次のアプリは、共有チャネルでの使用がサポートされています。 
+
+- アクティビティ
+- Adobe Acrobat Sign
+- Asana
+- カレンダー
+- カレンダー Pro
+- 通話
+- チャット
+- Vivani によるコード
+- Conceptboard
+- Excel
+- FileBrowser
+- ファイル
+- Flipgrid
+- InVision によるフリーハンド
+- HeyTaco
+- Jira Cloud
+- Kahoot
+- リスト
+- Lucidchart
+- Lumio
+- MeisterTask
+- MindMeister
+- Mindomo
+- Miro
+- monday.com
+- MURAL
+- Nearpod
+- OneNote
+- PDF
+- Pear Deck
+- PowerPoint
+- Priority Matrix
+- Quicklinks
+- Quizlet
+- Saved
+- Scrum-Poker
+- 検索
+- SharePoint
+- SharePoint ページ
+- Slido
+- Smartsheet
+- SurveyMonkey
+- ボックス内のタスク
+- Teams
+- Teams マネージャー
+- TeamViewer
+- チームワーク
+- テストポート
+- TrackingTime
+- Trello
+- Vevox
+- Visio
+- VSTS
+- Wakelet
+- Web
+- クラップ
+- Word
+- YouTube
+- Zendesk
+- Zoho Projects
 
 ## <a name="related-topics"></a>関連項目
 
