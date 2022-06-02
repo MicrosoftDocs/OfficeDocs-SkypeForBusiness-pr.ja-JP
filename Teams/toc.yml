@@ -228,7 +228,7 @@ items:
                   - name: ハイブリッドを無効にして Teams のみの移行を完了する
                     href: /SkypeForBusiness//hybrid/cloud-consolidation-disabling-hybrid
                   - name: DNS エントリの更新
-                    href: /SkypeForBusiness//hybrid/decommission-manage-dns-entries.md
+                    href: /SkypeForBusiness//hybrid/decommission-manage-dns-entries
                   - name: 使用停止後に属性を管理する方法を決定する
                     href: /SkypeForBusiness//hybrid/cloud-consolidation-managing-attributes
               - name: アプリケーション エンドポイントをクラウドに移動する
@@ -1838,7 +1838,7 @@ items:
           - name: Skype for Business Online Connector から Teams PowerShell モジュールに移動する
             href: teams-powershell-move-from-sfbo.md
           - name: Teams のコマンドレット リファレンス
-            href: /powershell/module/teams/?view=teams-ps
+            href: /powershell/module/teams
       - name: Teams の開発者向けドキュメント
         href: /microsoftteams/platform
       - name: Teams のコンテンツ アップデート
