@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Microsoft Teamsで認定されている USB 周辺機器とデバイス (ヘッドセット、スピーカーフォン、Web カメラ、モニターなど) を確認します。
-ms.openlocfilehash: 912d6d3481ba6f9885a79e0600f74c9ecd031c8c
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: ac06ca93423039714de87a5bce036b18becedb27
+ms.sourcegitcommit: 18a26d07a335184dbcda71908452e82a6ddc3158
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65760899"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65840969"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teamsの認定を受けた USB オーディオおよびビデオ デバイス
 
@@ -74,13 +74,14 @@ Skype for BusinessからTeamsにアップグレードするときに、以前に
 
 ## <a name="certified-devices"></a>認定済みデバイス
 
-*2022 年 5 月に更新されたテーブル*
+*2022 年 6 月に更新されたテーブル*
 
 > [!NOTE]
 > 日付形式は MMDDYYYY です。
 
 | [製造元]        | モデル                                                     | 修飾      | 認定プログラム                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|EPOS                 |C10/C20/C50 シリーズ ヘッドセット                                |5/31/2022       |Microsoft Teams認定済み                           |
 |ポリ                 |Studio P21 モニター                                         |5/12/2022       |Microsoft Teams認定済み                           |
 |Yealink              |UH38 ヘッドセット                                               |5/2/2022        |Microsoft Teams認定済み                           |   
 |Yealink              |BH72 ヘッドセット                                               |5/2/2022        |Microsoft Teams認定済み                           |
@@ -146,8 +147,8 @@ Skype for BusinessからTeamsにアップグレードするときに、以前に
 |レノボ               |Pro 有線 VoIP ステレオ ヘッドセット                              |12/21/2020      |Microsoft Teamsへのアップグレードを使用したSkype for Business      |
 |ポリ                 |Savi Office 7320                                           |12/18/2020      |Microsoft Teams認定済み                           |
 |ポリ                 |Savi Office 7310                                           |12/18/2020      |Microsoft Teams認定済み                           |
-|Jabra                |Evolve 75e ヘッドセット                                         |12/16/2020      |Microsoft Teamsへのアップグレードを使用したSkype for Business      |
-|Jabra                |Evolve 65e ヘッドセット                                         |12/16/2020      |Microsoft Teamsへのアップグレードを使用したSkype for Business      |
+|Jabra                |Evolve 75e / Standard Edition ヘッドセット                                         |12/16/2020      |Microsoft Teamsへのアップグレードを使用したSkype for Business      |
+|Jabra                |Evolve 65e/ Standard Edition ヘッドセット                                         |12/16/2020      |Microsoft Teamsへのアップグレードを使用したSkype for Business      |
 |Dell                 |C3422WE モニター                                            |12/11/2020      |Microsoft Teams認定済み                           |
 |Dell                 |C2722DE モニター                                            |12/11/2020      |Microsoft Teams認定済み                           |
 |Dell                 |C2422HE モニター                                            |12/11/2020      |Microsoft Teams認定済み                           |

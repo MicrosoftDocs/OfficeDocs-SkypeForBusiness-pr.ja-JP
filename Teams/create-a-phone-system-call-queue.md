@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: あいさつメッセージ、保留音楽、通話リダイレクト、その他の機能を提供する、Microsoft Teamsの大規模な組織の通話キューを設定する方法について説明します。
-ms.openlocfilehash: 0a62abc27eed0008a337b900f563f8e7e2a75097
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 7678d132b8711ea828bf643201df5501323ab77e
+ms.sourcegitcommit: 18a26d07a335184dbcda71908452e82a6ddc3158
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059088"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65840989"
 ---
 # <a name="create-a-call-queue"></a>呼び出しキューを作成する
 
@@ -149,13 +149,15 @@ Teams チャネルを介して最大 200 個のエージェントを追加でき
 
 **会議モード** では、エージェントが呼び出しを受け入れた後に、発信者がエージェントに接続されるまでにかかる時間が大幅に短縮されます。 会議モードを機能させるには、通話キュー内のエージェントが次のいずれかのクライアントを使用する必要があります。
 
-  - Microsoft Teams デスクトップ クライアント、Android アプリ、または iOS アプリの最新バージョン
+  - Microsoft Teams デスクトップ クライアント、Android アプリ、またはiOS アプリの最新バージョン
   - Microsoft Teams 電話 バージョン 1449/1.0.94.2020051601 以降
   
 エージェントのTeams アカウントは、Teams専用モードに設定する必要があります。 要件を満たしていないエージェントは、通話ルーティングリストに含まれません。 エージェントがすべて互換性のあるクライアントを使用している場合は、通話キューの電話会議モードを有効にすることをお勧めします。
 
 > [!NOTE]
 > 通話が、場所ベースのルーティングが有効になっているダイレクト ルーティング ゲートウェイからキューにルーティングされる場合、会議モードはサポートされません。
+>
+> 会議モードは、Teamsユーザーが通話キューを使用して通話を参照/転送する必要がある場合に必要です。
 
 > [!TIP]
 > **会議モード** を **[オン]** に設定することをお勧めします。
@@ -221,6 +223,9 @@ Teams チャネルを介して最大 200 個のエージェントを追加でき
 
 > [!NOTE]
 > 呼び出しの最大数が 0 に設定されている場合、あいさつメッセージは再生されません。
+>
+> 共有ボイスメールにリダイレクトする場合は、**この組織の外部のユーザー** が、Microsoft 365 管理 センターのチーム/グループに対してこのチームにメールを送信できるようにします。
+
 
 ## <a name="call-timeout-handling"></a>呼び出しタイムアウト処理
 
@@ -229,6 +234,9 @@ Teams チャネルを介して最大 200 個のエージェントを追加でき
 **呼び出しタイムアウト: 最大待機時間** は、呼び出しがリダイレクトまたは切断されるまでのキュー内で保留できる最大時間を指定します。 0 秒から 45 分の値を指定できます。
 
 呼び出しを切断するか、呼び出しルーティング先のいずれかにリダイレクトするかを選択できます。 たとえば、呼び出し元がキュー内のエージェントのボイスメールを残す場合があります。 外部転送については、「前提条件と[外部電話番号の転送 - 番号の書式設定に関する技術的な詳細](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)」を参照[してください](plan-auto-attendant-call-queue.md#prerequisites)。
+
+> [!NOTE]
+> 共有ボイスメールにリダイレクトする場合は、**この組織の外部のユーザー** が、Microsoft 365 管理 センターのチーム/グループに対してこのチームにメールを送信できるようにします。
 
 通話タイムアウト オプションを選択したら、[ **保存]** をクリックします。
 
@@ -244,20 +252,21 @@ Teams チャネルを介して最大 200 個のエージェントを追加でき
 
 ## <a name="call-queue-feature-compatibility"></a>通話キュー機能の互換性
 
-|機能                          |Teams <sup>Desktop1</sup> |Teams <sup>Mobile2</sup> |Lync |IP 電話 | 標準呼び出しキュー |チャネル ベースの呼び出しキュー | コメント |
+|機能                          |Teams デスクトップ<sup>1</sup> |Teams Mobile<sup>2</sup> |Lync |IP 電話 | 標準呼び出しキュー |チャネル ベースの呼び出しキュー | コメント |
 |:--------------------------------|:------------------------:|:-----------------------:|:---:|:--------:|:--------------------:|:------------------------:|:-------------|
 |**エージェント ルーティング方法**        |                          |                         |     |          |                      |                          |              |
 |`Attendant Routing`              |Y                         |Y                        |Y    |Y         |Y                     |Y                         |*既定値*     |
 |`Longest Idle`<sup>3</sup>       |Y                         |Y                        |N    |Y         |Y                     |Y                         |*推奨* |
 |`Round Robin`                    |Y                         |Y                        |Y    |Y         |Y                     |Y                         |*推奨* |
-|`Serial`                         |Y                         |Y                        |Y    |Y         |Y4<sup></sup>         |Y4<sup></sup>             |              |
+|`Serial`                         |Y                         |Y                        |Y    |Y         |Y<sup>4</sup>         |Y<sup>4</sup>             |              |
+|**エージェント ルーティング オプション**        |                          |                         |     |          |                      |                          |              |
+|`Presence Based Routing`<sup>3</sup>|Y                        |Y                        |N    |Y         |Y                     |Y                         |*推奨* |
+|`Agents can Opt-out`               |Y                         |Y                        |Y<sup>7</sup>|Y<sup>7</sup>|Y          |Y                         |*既定値*     |
 |**転送モード**               |                          |                         |     |          |                      |                          |              |
-|`Conference Mode`<sup>5</sup>    |Y                         |Y                        |N    |Y6<sup></sup>|Y                  |Y                         |*推奨* |
-|`Transfer Mode`                  |Y                         |Y                        |Y    |Y         |Y                     |Y                         |              |
-|プレゼンス ベースのルーティング <sup>3</sup>|Y                        |Y                        |N    |Y         |Y                     |Y                         |*推奨* |
-|エージェントはオプトアウトできます               |Y                         |Y                        |Y7<sup></sup>|Y7<sup></sup>|Y          |Y                         |*既定値*     |
-|チャネル ベースのキュー             |Y                         |N                        |N    |N         |N/a                   |Y8<sup></sup>             |              |
-|通話トーストにリソース アカウント名が表示される |Y9<sup></sup>       |Y                        |Y    |          |Y                     |Y                         |              |
+|`Conference Mode`<sup>5</sup>    |Y                         |Y                        |N    |Y<sup>6</sup>|Y                  |Y                         |*推奨* |
+|`Transfer Mode`                  |Y                         |Y                        |Y    |Y         |Y                     |Y                         |*既定値*              |
+|**共同通話**        |                          |                         |     |          |                      |                          |              |
+|`Channel Based Queues`             |Y                         |N                        |N    |N         |N/a                   |Y<sup>8</sup>             |              |
 |**動的呼び出し元 ID**            |                          |                         |     |          |                      |                          |              |
 |`Standard call queue`            |N                         |Y                        |N    |N         |Y                     |N/a                       |              |
 |`Channel based call queue`       |Y                         |N/a                      |N/a  |N/a       |N/a                   |Y                         |              |
@@ -265,10 +274,12 @@ Teams チャネルを介して最大 200 個のエージェントを追加でき
 |`Calling Plans`                  |Y                         |Y                        |Y    |Y         |Y                     |Y                         |              |
 |`Direct Routing`                 |Y                         |Y                        |N    |N         |Y                     |Y                         |              |
 |`Operator Connect`               |Y                         |Y                        |     |          |Y                     |Y                         |              |
+|**他**    |                          |                         |     |          |                      |                          |注 10 を参照してください   |
+|`Call toast shows Resource Account Name` |Y<sup>9</sup>       |Y                        |Y    |          |Y                     |Y                         |              |
 
 注:
 1. Microsoft Teams Windows クライアント、Microsoft Teams Mac クライアント、仮想化デスクトップ インフラストラクチャ上のMicrosoft Teams、web クライアントMicrosoft Teams。
-2. Microsoft Teams iPhone アプリ、Android アプリMicrosoft Teams。
+2. アプリ、Microsoft Teams Android アプリMicrosoft Teams iPhone。
 3. エージェント ルーティング方法で [最長アイドル時間] を選択すると、プレゼンス ベースのルーティングが自動的に有効になります。
 4. 個々のユーザーを標準呼び出しキューの一部として追加する場合にのみ、順序を設定できます。 配布リストまたはTeams チャネルが使用されている場合、順序はアルファベット順になります。
 5. 通話が、場所ベースのルーティングが有効になっているダイレクト ルーティング ゲートウェイからキューにルーティングされる場合、会議モードはサポートされません。

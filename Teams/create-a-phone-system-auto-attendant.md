@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft Teamsの大規模な組織の自動応答を設定してテストする方法について説明します。
-ms.openlocfilehash: 5f4b4f21f2e1cca8c8bbc350541cdd861b1bda3f
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: f177f1dd34f4f8f9497e7800007b5be868230dfe
+ms.sourcegitcommit: 18a26d07a335184dbcda71908452e82a6ddc3158
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674369"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65840979"
 ---
 # <a name="set-up-an-auto-attendant"></a>自動応答を設定する
 
@@ -44,6 +44,7 @@ ms.locfileid: "65674369"
 - **組織内のユーザー** - 音声通話を受信できる組織内のユーザー。 このユーザーは、オンライン ユーザーでも、Skype for Business Serverを使用してオンプレミスでホストされているユーザーでもかまいません。
 - **音声アプリ** - 別の自動応答または通話キュー。 (この宛先を選択するときに、自動応答または通話キューに関連付けられているリソース アカウントを選択します)。
 - **ボイスメール** - 指定したMicrosoft 365 グループに関連付けられているボイス メールボックス。 ボイスメールの文字起こしと"トーンの後にメッセージを残してください" を選択できます。 システム プロンプト。
+- - M365 管理 センターで、特定のMicrosoft 365 グループに対して "組織外のユーザーがこのチームにメールを送信できるようにする" ことを有効にします
 - **外部電話番号** - 任意の電話番号。 ( [外部転送の技術的な詳細](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)を参照してください)。
 - **アナウンス (オーディオ ファイル)** - オーディオ ファイルを再生します。 オーディオとして保存された、アップロードした録音されたアナウンス メッセージ。WAV、.MP3、または .WMA 形式。 記録は 5 MB 以下にできます。 システムによってアナウンスが再生され、自動応答メニューに戻ります。
 - **お知らせ (型指定)** - メッセージを入力します。 システムで読み取るテキスト。 最大 1,000 文字を入力できます。 システムによってアナウンスが再生され、自動応答メニューに戻ります。
