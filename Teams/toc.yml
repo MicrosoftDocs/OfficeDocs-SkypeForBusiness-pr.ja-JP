@@ -1495,7 +1495,9 @@ items:
             href: approval-admin.md
           - name: シフト アプリを管理する
             href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-      - name: サードパーティ製アプリを管理する
+          - name: 更新プログラム アプリを管理する
+            href: manage-updates-app.md
+      - name: サードパーティ製のアプリを管理する
         items:
           - name: サードパーティのアプリを理解する
             href: overview-third-party-apps.md
@@ -1511,7 +1513,7 @@ items:
         href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
       - name: カスタム基幹業務アプリを管理する
         items:
-          - name: Microsoft Teams 管理センターで Power Platform アプリを管理する
+          - name: Teams 管理センターで Power Platform アプリを管理する
             href: manage-power-platform-apps.md
           - name: 組織ストアにカスタム アプリを公開する
             href: submit-approve-custom-apps.md
@@ -1521,7 +1523,7 @@ items:
             href: customize-apps.md
           - name: 組織のアプリ ストアをブランド化する
             href: customize-your-app-store.md
-      - name: 管理者コントロールとアプリ ガバナンス
+      - name: アプリを管理する管理者コントロール
         items:
           - name: 管理者向けのアプリ管理の概要
             href: manage-apps.md
@@ -1537,11 +1539,11 @@ items:
                 href: teams-custom-app-policies-and-settings.md
           - name: 現場担当者向けに Teams アプリを調整する
             href: pin-teams-apps-based-on-license.md
-          - name: Azure AD アクセス許可を確認し、管理者の同意を付与する
+          - name: Azure AD のアクセス許可と管理者の同意について
             href: app-permissions-admin-center.md
           - name: 組織に対するリソース固有の同意を管理する
             href: resource-specific-consent.md
-          - name: アプリのアクセス許可とリソースへのアクセスについて理解する
+          - name: アプリのアクセス許可とリソースへのアクセスを把握する
             href: app-permissions.md
           - name: ユーザーの種類に基づくアプリの動作
             href: non-standard-users.md
