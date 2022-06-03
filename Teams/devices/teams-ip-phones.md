@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 最適な結果を生み出すためにMicrosoft Teamsが認定されているデスクと会議の電話について説明します。
-ms.openlocfilehash: 2daf43e3166c70c0947706d3d8f9ce8166fc1e91
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: a5ebc44e3fb7f4f49f97efe61cec59828b6b5e7c
+ms.sourcegitcommit: e99471689ff60f9ab1095bc075f8b4c5569c9634
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823026"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65860748"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams認定Androidデバイス
 
@@ -245,6 +245,7 @@ Android アプリとファームウェアのバージョンに関する最新の
 
 | デバイス モデル  | ファームウェアのバージョン | 付属の製品リリース |
 |:--------------|:-----------------|:-------------------------|
+| Logi Tap Device  |  `1.5.705`   | 2022 Update #1    |
 | Poly Studio X30 | `3.11.0.364021`          | 2022 Update #1    |
 | Poly Studio X50 | `3.11.0.364021`          | 2022 Update #1    |
 | Logi Roommate |   `1.6.290`   | 2022 Update #1    |

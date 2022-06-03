@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ccc69a07d523b046298643ad387e31e25138096f
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 7c26f70bb6592c418968b77c9ef2a495cb98648a
+ms.sourcegitcommit: e99471689ff60f9ab1095bc075f8b4c5569c9634
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676129"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65860798"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Microsoft Teams for Educationで親接続を設定する
 
@@ -56,13 +56,13 @@ IT 管理者が保護者や教育者と親接続の使用を開始する方法�
 > - Public Branch Exchange (PBX) 機能。
 > - PSTN への接続。
 >
-> Microsoft 365 A1および A3 プランには、PBX 機能や PSTN 接続は含まれません。 [これらのそれぞれに対してアドオン ライセンスを](/teams-add-on-licensing/microsoft-teams-add-on-licensing)購入できます。
+> Microsoft 365 A1および A3 プランには、PBX 機能や PSTN 接続は含まれません。 [これらのそれぞれに対してアドオン ライセンスを](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)購入できます。
 >
 > Microsoft 365 A5プランには、Teams 電話システムを使用した PBX 機能のみが含まれます。 引き続き[、Teams通話プランを購入するか、サード パーティのソリューションを使用](pstn-connectivity.md)して PSTN の外部番号に接続する必要があります。
 >
 > PSTN 接続を取得するためのすべてのオプションの詳細については、「 [PSTN 接続オプション」を](pstn-connectivity.md)参照してください。
 >
-> ライセンスの呼び出しTeamsの詳細については、「[アドオン ライセンス オプションTeams](/teams-add-on-licensing/microsoft-teams-add-on-licensing)参照してください。
+> ライセンスの呼び出しTeamsの詳細については、「[アドオン ライセンス オプションTeams](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)参照してください。
 
 ## <a name="requirements"></a>要件
 
@@ -91,13 +91,20 @@ IT 管理者が保護者や教育者と親接続の使用を開始する方法�
   - これは、テナント レベルとユーザー レベルで有効にする必要があります。 テナント レベルの設定は、Teams管理センターの **ユーザー >外部アクセス** にあります。 この設定には、PowerShell を使用してアクセスすることもできます。 ユーザー レベルの外部アクセス ポリシーには、PowerShell 経由でのみアクセスできます。 詳細については、以下の PowerShell コマンドを参照してください。
 
 #### <a name="parent-and-guardian-restrictions"></a>親と保護者の制限
-保護者は、保護者接続の外部ユーザーとして分類されます。つまり、完全なテナント権限がありません。 追加したチャットやチャットにアクセスできるのは、チャット内で共有されているファイル、画像、その他のコンテンツだけです。
 
-また、外部ユーザーは組織のユーザーのプレゼンス (オフライン、使用可能、ビジーなど) を表示できますが、PowerShell を使用してユーザーのプライバシーを保護するためにオフにすることができます。 PowerShell では、 [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) と set ``EnablePrivacyMode=true``を使用します。
+保護者は、保護者接続の *外部ユーザー* として分類されます。つまり、完全なテナント権限がありません。 チャットまたはチャットにアクセスできるのは、自分が参加しているチャットと、チャット内で共有されているファイル、画像、その他のコンテンツだけです。
+
+外部チャットの場合、内部ユーザーと外部ユーザーの両方がチャットにユーザーを追加できます。 外部チャット エクスペリエンスの詳細については、「[Microsoft Teamsでの外部会議とチャットの管理](manage-external-access.md)」を参照してください。
+
+また、外部ユーザーは組織のユーザーのプレゼンス (オフライン、使用可能、ビジーなど) を確認できますが、PowerShell を使用してユーザーのプライバシーを保護するためにオフにすることができます。 PowerShell では、 [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) と set ``EnablePrivacyMode=true``を使用します。
 
 保護者が外部ユーザーであっても、チャットへの貢献は検出可能です。 Microsoft Teamsでコンテンツの電子情報開示調査を実施する方法に関する記事を参照して[、Teams電子情報開示調査を実施](ediscovery-investigation.md)する方法について説明します。
 
+> [!IMPORTANT]
+> IT 管理者は、学生のプライバシーに関するリスクを含め、チャットで学生情報を共有するためのベスト プラクティスについて、すべてのクラス所有者を教育する必要があります。
+
 #### <a name="blocking-a-parent-or-guardian-in-a-chat"></a>チャットで親または保護者をブロックする
+
 教師は、親接続で開始されたチャットで保護者をブロックできます。
 
 クラスの所有者は、次のことができます。

@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Microsoft Teams Rooms をサポートするための要件 (適切なデバイス、マイク、スピーカー、カメラ、ディスプレイの選択) について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 91d9740e987c93dc05ea969b50ecd8e8a12de6b4
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: 29b58a57d052acb529bc4c21db184589ed3739d8
+ms.sourcegitcommit: e99471689ff60f9ab1095bc075f8b4c5569c9634
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823638"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65860608"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams Rooms の要件
 
@@ -206,7 +206,7 @@ Microsoft Teams Rooms異なる部屋のサイズにスケールします。 Team
 |[Shure Intellimix P300 オーディオ プロセッサ](https://www.shure.com/products/mixers/p300)+</br>[Shure MXA 310 テーブル アレイ マイク](https://www.shure.com/products/microphones/mxa310) | 4.1 |
 |[Shure Intellimix P300 オーディオ プロセッサ](https://www.shure.com/products/mixers/p300) +</br>[Shure MXA 910 + Intellimix シーリング アレイ マイク](https://www.shure.com/products/microphones/mxa910) | 4.1|
 |[Shure Intellimix P300 オーディオ プロセッサ](https://www.shure.com/products/mixers/p300)+</br>[Shure MXA 310 Table Array Mic ](https://www.shure.com/products/microphones/mxa310) +</br>[MXN5W-C Ceiling スピーカー](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.1.11 </br> MXA310 Table Array mic: 4.1.41 </br> MXN5W-C スピーカー: 1.0.4 |
-|[Shure Intellimix P300 オーディオ プロセッサ](https://www.shure.com/products/mixers/p300) + </br>[Intellimix Ceiling Array Mic を使用した Shure MXA 910](https://www.shure.com/products/microphones/mxa910) +</br>[MXN5W-C Ceiling スピーカー](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.1.11 </br> MXA910 Ceiling Array mic: 4.1.41 </br> MXN5W-C スピーカー: 1.0.4 |
+|[Shure Intellimix P300 オーディオ プロセッサ](https://www.shure.com/products/mixers/p300) + </br>[Intellimix Ceiling Array Mic を使用した Shure MXA 920](https://www.shure.com/en-US/products/microphones/mxa920?utm_source=linkedin&utm_medium=social&sfid=&prod=) +</br>[MXN5W-C Ceiling スピーカー](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.7.7 </br> MXA920 Ceiling Array mic: 1.1.56 </br> MXN5W-C スピーカー: 1.5.6 |
 |[Shure MXA 710 2ft Table Linear Array マイク](https://www.shure.com/products/microphones/mxa710) + </br>[Shure Intellimix P300 オーディオ プロセッサ](https://www.shure.com/products/mixers/p300) +</br>[MXN5-C 天井スピーカー](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 2ft Table Linear Array Mic: 1.2.0 </br> P300 DSP: 4.4.8 </br> MXN5-C スピーカー: 1.1.1 |
 |[Shure MXA 710 4ft Wall Linear Array マイク](https://www.shure.com/products/microphones/mxa710) + </br>[Shure Intellimix P300 オーディオ プロセッサ](https://www.shure.com/products/mixers/p300) +</br>[MXN5-C 天井スピーカー](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 4ft Wall Linear Array Mic: 1.2.0 </br> P300 DSP: 4.4.8 </br> MXN5-C スピーカー: 1.1.1 |
 |[Intellimix Ceiling Array マイクを使用した Shure MXA 910](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br> [100-T-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Shure Intellimix Room Software: 3.0.4.14 </br> Intellimix Ceiling Array マイクを使用した Shure MXA 910: 4.4.11 </br> Shure MXN5-C スピーカー: 1.2.1 </br> HW Tek Computer INC 9934 コンピューティングを使用した、レストロン UC-C100-T | 

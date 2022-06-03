@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c975abb16b8c131b21733d57463435aa7e643639
-ms.sourcegitcommit: 6e7af2e556526bd8b2bcc8f689192e254d8cb4a3
+ms.openlocfilehash: 39025c0ccd9cb3b7bc02de85719f98f4ec7f3090
+ms.sourcegitcommit: 1788f852508208a01f230f6f68a5a81ec8594c47
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62146254"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65860070"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams のハードウェア要件
 
@@ -35,7 +35,7 @@ ms.locfileid: "62146254"
 
 | コンポーネント | 要件 |
 |---------|---------|
-|コンピューターとプロセッサ    | 最小速度 1.1 GHz 以上、2コア<br><br>注: Intel プロセッサの場合、Intel Turbo Boost Technology を使用して実現される最大速度 (Max Turbo Frequency) を考慮する必要があります。         |
+|コンピューターとプロセッサ    | 最小速度 1.1 GHz 以上、2 コア<br><br>注: Intel プロセッサの場合、Intel Turbo Boost Technology を使用して実現される最大速度 (Max Turbo Frequency) を考慮する必要があります。         |
 |メモリ     |  4.0 GB RAM |
 |ハード ディスク    | 3.0 GB の空きディスク容量        |
 |ディスプレイ    |   1024 x 768 の画面解像度 |
@@ -44,7 +44,7 @@ ms.locfileid: "62146254"
 |.NET のバージョン    |  NET 4.5 CLR 以降が必要       |
 |ビデオ    |  USB 2.0 ビデオ カメラ       |
 |デバイス    |   標準ラップトップ カメラ、マイク、スピーカー    |
-|ビデオ通話と会議|<ul><li>2 コア プロセッサが必要です。ビデオ/画面共有の解像度とフレーム レートを高くするには、4 コア プロセッサまたはそれ以上のものをお勧めします。</li> <li>背景ビデオの効果には、Windows 10 または、AVX2 命令セット付プロセッサが必要です。</li> <li>サポートされていないデコーダーとエンコーダーのリストについては、「[ハードウェア デコーダーとエンコーダー ドライバーの推奨事項](hardware-decoders-and-encoders.md)」を参照してください。</li><li>Microsoft Teams Room で類似性検出を使用して会議に参加するには Bluetooth LE が必要です。これにはクライアント デバイスで Bluetooth を有効にする必要があり、Windows クライアントの場合は 64 ビットの Teams クライアントが必要です。この機能は、32 ビットの Teams クライアントでは利用できません。</li></ul> |
+|ビデオ通話と会議|<ul><li>2 コア プロセッサが必要です。 ビデオ/画面共有の解像度とフレーム レートを高くするには、4 コア以上のプロセッサをお勧めします。</li> <li>背景ビデオの効果には、Windows 10 または、AVX2 命令セット付プロセッサが必要です。</li> <li>サポートされていないデコーダーとエンコーダーのリストについては、「[ハードウェア デコーダーとエンコーダー ドライバーの推奨事項](hardware-decoders-and-encoders.md)」を参照してください。</li><li>Microsoft Teams Room で類似性検出を使用して会議に参加するには Bluetooth LE が必要です。これにはクライアント デバイスで Bluetooth を有効にする必要があり、Windows クライアントの場合は 64 ビットの Teams クライアントが必要です。この機能は、32 ビットの Teams クライアントでは利用できません。</li></ul> |
 |Teams のライブ イベント | Teams ライブ イベントを作成する場合は、Core i5 Kaby Lake プロセッサ、4.0 GB RAM (またはそれ以上) とハードウェア エンコーダーを搭載したコンピューターの使用をお勧めします。 **サポートされていない** デコーダーとエンコーダーのリストについては、「[ハードウェア デコーダーとエンコーダー ドライバーの推奨事項](hardware-decoders-and-encoders.md)」を参照してください。 |
 
 ## <a name="hardware-requirements-for-teams-on-a-mac"></a>Mac での Teams のハードウェア要件
@@ -58,7 +58,7 @@ ms.locfileid: "62146254"
 |オペレーティング システム  |    MacOS の 3 つの最新バージョンのいずれか。 最新の MacOS バージョンについての詳細とMacOS バージョンをアップグレードする方法については、[こちら](https://support.apple.com/en-us/HT201260)を参照 してください。 たとえば、新しいバージョンの MacOS がリリースされたときに、新しいバージョンとそのすぐ前にある 2つのバージョンがサポートされています。      |
 |ビデオ  |    互換性のある Web カメラ     |
 |音声    |  互換性のあるマイクとスピーカー、マイク付きヘッドセット、または同等のデバイス       |
-|ビデオ通話と会議 | <ul><li>2 コア プロセッサが必要です。ビデオ/画面共有の解像度とフレーム レートを高くするには、4 コア プロセッサまたはそれ以上のものをお勧めします。 </li><li>Microsoft Teams Room の類似性検出を使用して会議に参加する機能は、MacOS では利用できません。</li></ul>
+|ビデオ通話と会議 | <ul><li>2 コア プロセッサが必要です。 ビデオ/画面共有の解像度とフレーム レートを高くするには、4 コア以上のプロセッサをお勧めします。 </li><li>Microsoft Teams Room の類似性検出を使用して会議に参加する機能は、MacOS では利用できません。</li></ul>
 |
 
 ## <a name="hardware-requirements-for-teams-on-linux"></a>Linux での Teams のハードウェア要件
@@ -74,7 +74,7 @@ ms.locfileid: "62146254"
 |ビデオ    |  USB 2.0 ビデオ カメラ       |
 |デバイス    |   標準ラップトップ カメラ、マイク、スピーカー    |
 |音声    |  互換性のあるマイクとスピーカー、マイク付きヘッドセット、または同等のデバイス       |
-|ビデオ通話と会議 | <ul><li>2 コア プロセッサが必要です。ビデオ/画面共有の解像度とフレーム レートを高くするには、4 コア プロセッサまたはそれ以上のものをお勧めします。</li><li>Microsoft Teams Room の類似性検出を使用して会議に参加する機能は、Linux では利用できません。</li></ul>
+|ビデオ通話と会議 | <ul><li>2 コア プロセッサが必要です。 ビデオ/画面共有の解像度とフレーム レートを高くするには、4 コア以上のプロセッサをお勧めします。</li><li>Microsoft Teams Room の類似性検出を使用して会議に参加する機能は、Linux では利用できません。</li></ul>
 |サポートされている Linux ディストリビューション | Ubuntu 18.04 LTS, 20.04 LTS, Fedora 30 Workstation, RHEL 8 Workstation, CentOS 8       |
 |サポートされているデスクトップ環境 | GNOME、KDE       |
 |サポートされるディスプレイ サーバー | X11       |
@@ -101,6 +101,6 @@ Teams は、次のようなモバイル プラットフォームで使用でき�
 ### <a name="related-topics"></a>関連項目
 
 - [Teams アプリの入手](get-clients.md)
-- [モバイル デバイスでの Microsoft Teams](https://support.office.com/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
+- [モバイル デバイスでの Microsoft Teams](https://support.microsoft.com/office/set-up-your-teams-mobile-apps-1ba8dce3-1122-47f4-8db6-00a4f93117e8)
 - [MSI を使用して Microsoft Teams アプリをインストールする](msi-deployment.md)
 - [Microsoft Teams の制限事項と仕様](limits-specifications-teams.md)
