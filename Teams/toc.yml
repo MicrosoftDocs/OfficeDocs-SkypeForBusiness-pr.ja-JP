@@ -1693,7 +1693,7 @@ items:
                 href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
               - name: Teams での仮想アクセス - Epic EHR への統合
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
-              - name: EHR 管理者レポート
+              - name: EHR コネクタ仮想予定レポート
                 href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
               - name: Teams と Bookings を使用した仮想予定
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
