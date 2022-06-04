@@ -15,29 +15,29 @@ ms.collection:
 - M365-collaboration
 description: Microsoft Teams Rooms をサポートするための要件 (適切なデバイス、マイク、スピーカー、カメラ、ディスプレイの選択) について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 29b58a57d052acb529bc4c21db184589ed3739d8
-ms.sourcegitcommit: e99471689ff60f9ab1095bc075f8b4c5569c9634
+ms.openlocfilehash: e2f8ae10f19d59d9eefdc5f4f5fcf0eac4085eb0
+ms.sourcegitcommit: e3931446943684db155bb3edf7d7e52d41775013
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65860608"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65886654"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams Rooms の要件
 
-Microsoft Teams Rooms異なる部屋のサイズにスケールします。 Teams Rooms部屋のサイズと使用に基づいて、さまざまな認定オーディオおよびビデオ周辺機器を使用します。 適切なコア デバイスとコンソールを選択し、マイク、スピーカー、カメラ、およびスペースに適したディスプレイと組み合わせることで、小さなハドルスペースから大規模な会議スペースや会議室まで、あらゆるサイズのスペースにMicrosoft Teams Roomsを展開できます。  Microsoft Teams Rooms を構成するために使用できる認定オーディオ/ビデオ周辺機器一式は、[デバイス ショーケース](https://products.office.com/microsoft-teams/across-devices)に用意されています。
+Microsoft Teams Rooms は、異なる部屋サイズにスケーリングされます。 Teams Rooms では、部屋のサイズと使用に基づいて、さまざまな認定オーディオ周辺機器とビデオ周辺機器が使用されます。 適切なコア デバイスとコンソールを選択し、マイク、スピーカー、カメラ、およびスペースに適したディスプレイと組み合わせることで、大規模な会議スペースや会議室を通じて、小さなハドルスペースから任意のサイズのスペースに Microsoft Teams Rooms を展開できます。  Microsoft Teams Rooms を構成するために使用できる認定オーディオ/ビデオ周辺機器一式は、[デバイス ショーケース](https://products.office.com/microsoft-teams/across-devices)に用意されています。
 
 この記事では、Microsoft Teams Rooms をサポートするためのデバイスの展開と構成に関する要件をまとめます。
 
-デプロイには、Microsoft Teams Roomsのデプロイに関する説明に従って、リソース アカウントの作成とTeams Rooms[のセットアップが](rooms-deploy.md)含まれます。
+展開には、「 [Microsoft Teams](rooms-deploy.md) Rooms の展開」の説明に従って、リソース アカウントの作成と Teams Rooms のセットアップが含まれます。
 
 以下を参照してください。
 
 - [プランに基づいたライセンス オプション: Microsoft Teams Rooms](rooms-licensing.md)
 
 > [!NOTE]
-> Microsoft Teams Rooms Microsoft Teams、Skype for Business Server 2019、Skype for Business Server 2015 にサインインし、これらのサービスがホストする会議に参加できます。
+> Microsoft Teams Rooms は、Microsoft Teams、Skype for Business Server 2019、または Skype for Business Server 2015 にサインインし、これらのサービスがホストする会議に参加できます。
 >
-> Lync Server 2013 のような以前のプラットフォームは、Microsoft Teams Rooms ではサポートしていません。 Microsoft Teams Roomsは、21Vianet または DoD 環境で動作するMicrosoft 365またはOffice 365ではサポートされていません。
+> Lync Server 2013 のような以前のプラットフォームは、Microsoft Teams Rooms ではサポートしていません。 Microsoft Teams Rooms は、21Vianet または DoD 環境で動作する Microsoft 365 または Office 365 ではサポートされていません。
 >
 > オンプレミスの Exchange サーバーをご使用の場合、Microsoft Teams Rooms では Exchange Server 2013 SP1 以降を使用する必要があります。
 
@@ -133,14 +133,14 @@ Microsoft Teams Rooms異なる部屋のサイズにスケールします。 Team
 
 |Microsoft Teams Rooms の周辺機器|認定ファームウェア バージョン | コンテンツ カメラとして使用できるカメラ|
 |:--- |:--- | :--- |
-|[Aver VC520 Pro カメラ + Speakerphone](https://www.averusa.com/products/conference-camera/vc520pro) |1004.35|
+|[Aver VC520 Pro Camera + Speakerphone](https://www.averusa.com/products/conference-camera/vc520pro) |1004.35|
 |[Aver VC520 PRO2 会議システム](https://www.averusa.com/products/conference-camera/vc520pro2) | 00.0.7200.79 |
-|[Aver VB342+ カメラ Soundbar](https://www.averusa.com/products/conference-camera/vb342plus) | Soundbar: 0.0.0000.97|
+|[Aver VB342+ カメラ サウンドバー](https://www.averusa.com/products/conference-camera/vb342plus) | Soundbar: 0.0.0000.97|
 |[Aver CAM 540](https://www.averusa.com/products/conference-camera/cam540) |0.0.6002.83 |
 |[Aver CAM 520 Pro](https://www.averusa.com/products/conference-camera/cam520pro) |0.0.1000.73 |
 |[Aver CAM 520 Pro 2](https://www.averusa.com/products/conference-camera/cam520pro2) |0.0.7200.3 |
 |[Aver CAM 130](https://www.averusa.com/products/conference-camera/cam130) |0.0.7450.02 | &#x2714; |
-|[Aver VB130 カメラ Soundbar](https://www.averusa.com/products/conference-camera/vb130) |0.0.7300.71 |
+|[Aver VB130 カメラ サウンドバー](https://www.averusa.com/products/conference-camera/vb130) |0.0.7300.71 |
 |[Bose ビデオ バー VB1](https://pro.bose.com/en_us/products/conferencing/videobars/bose-videobar-vb1.html?mc=25_PS_VB_BO_00_BI_&&msclkid=fc99b79880f714727a63e86ea0e5642a&utm_source=bing&utm_medium=cpc&utm_campaign=US%20-%20Brand_Videobar%20VB1_Exact&utm_term=bose%20videobar%20vb1&utm_content=Bose%20Videobar%20VB1&gclid=fc99b79880f714727a63e86ea0e5642a&gclsrc=3p.ds) |19.2|
 |[Biamp Devio SCR-20CX Web-Based会議ハブ (天井マイク付き)](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9|
 |[Biamp Devio SCR-20TX Web-Based会議ハブ (テーブルトップ マイク付き)](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9 |
@@ -150,13 +150,13 @@ Microsoft Teams Rooms異なる部屋のサイズにスケールします。 Team
 |[Huddly IQ Lite](https://www.huddly.com/conference-cameras/iq/) |1.3.29|
 |[Huddly IQ カメラ](https://www.huddly.com/conference-cameras/iq/) |1.3.27|
 |[Huddly L1](https://www.huddly.com/conference-cameras/l1/) | 1.2.9 |
-|Huddly L1 カメラ [with 薔薇 UC-C100-T MRT](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) キット | Huddly L1 カメラ: 1.2.1 </br> HW Tek Computer INC 9934 コンピューティング 1.0.20.246 以降を使用した、レストロン UC-C100-T |
-|Huddly L1 カメラ [with 薔薇 UC-CX100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-CX100-T) MRT-W キット | Huddly L1 カメラ: 1.2.9 </br> 1.00.20.246 以降の 9934 1.00.CX100-T |
+|Huddly L1 Camera with [Crestron UC-C100-T MRT](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) キット | Huddly L1 カメラ: 1.2.1 </br> HW Tek Computer INC 9934 コンピューティング 1.0.20.246 以降を使用した、レストロン UC-C100-T |
+|Huddly L1 Camera with [Crestron UC-CX100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-CX100-T) MRT-W Kit | Huddly L1 カメラ: 1.2.9 </br> 1.00.20.246 以降の 9934 1.00.CX100-T |
 |Huddly L1 カメラ with 薔薇 UC-M70-T MRT キット | Huddly L1 カメラ: 1.2.1 </br> Tek Computer INC 9934 Compute 1.0.20.246 以降を使用した、レストロン UC-M70-T |
 |Huddly L1 カメラ with 薔薇 UC-MX70-T MRT キット | Huddly L1 カメラ: 1.2.1 </br> Tek Computer INC 9934 Compute 1.0.20.246 以降を使用した、レストロン UC-MX70-T |
 |[Jabra Panacast3 カメラ](https://www.jabra.com/business/video-conferencing/jabra-panacast)|1.3.9.12|
 |[Jabra Panacast 50 ビデオ バー](https://www.jabra.com/business/video-conferencing/jabra-panacast-50)|3.4.0| &#x2714; |
-|[Lenovo ThinkSmart Cam カメラ](https://www.lenovo.com/us/en/accessories-and-monitors/webcams-and-video/webcams/SMARTOF-BO-ThinkSmart-Cam/p/4Y71C41660)|1.0.111.4|
+|[Lenovo ThinkSmart Cam Camera](https://www.lenovo.com/us/en/accessories-and-monitors/webcams-and-video/webcams/SMARTOF-BO-ThinkSmart-Cam/p/4Y71C41660)|1.0.111.4|
 |[Lenovo ThinkSmart Bar](https://www.lenovo.com/us/en/virtual-reality-and-smart-devices/smart-collaboration/thinksmart/ThinkSmart-Bar/p/11SP1TSSDBR)|0.9.3|
 |Lenovo ThinkSmart Bar Expand XL|5.9.5|
 |[Logitech Brio](https://www.logitech.com/product/brio)   |V2.2.50| &#x2714; |
@@ -207,6 +207,7 @@ Microsoft Teams Rooms異なる部屋のサイズにスケールします。 Team
 |[Shure Intellimix P300 オーディオ プロセッサ](https://www.shure.com/products/mixers/p300) +</br>[Shure MXA 910 + Intellimix シーリング アレイ マイク](https://www.shure.com/products/microphones/mxa910) | 4.1|
 |[Shure Intellimix P300 オーディオ プロセッサ](https://www.shure.com/products/mixers/p300)+</br>[Shure MXA 310 Table Array Mic ](https://www.shure.com/products/microphones/mxa310) +</br>[MXN5W-C Ceiling スピーカー](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.1.11 </br> MXA310 Table Array mic: 4.1.41 </br> MXN5W-C スピーカー: 1.0.4 |
 |[Shure Intellimix P300 オーディオ プロセッサ](https://www.shure.com/products/mixers/p300) + </br>[Intellimix Ceiling Array Mic を使用した Shure MXA 920](https://www.shure.com/en-US/products/microphones/mxa920?utm_source=linkedin&utm_medium=social&sfid=&prod=) +</br>[MXN5W-C Ceiling スピーカー](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.7.7 </br> MXA920 Ceiling Array mic: 1.1.56 </br> MXN5W-C スピーカー: 1.5.6 |
+|ANIUSB + </br> [Intellimix Ceiling Array Mic を使用した Shure MXA 920](https://www.shure.com/en-US/products/microphones/mxa920?utm_source=linkedin&utm_medium=social&sfid=&prod=) +</br>[MXN5 Ceiling Speaker](https://www.shure.com/en-US/products/loudspeakers/mxn5)| ANIUSB: 4.4.7 </br> MXA920: 1.1.56 </br> MXN5: 1.5.6|
 |[Shure MXA 710 2ft Table Linear Array マイク](https://www.shure.com/products/microphones/mxa710) + </br>[Shure Intellimix P300 オーディオ プロセッサ](https://www.shure.com/products/mixers/p300) +</br>[MXN5-C 天井スピーカー](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 2ft Table Linear Array Mic: 1.2.0 </br> P300 DSP: 4.4.8 </br> MXN5-C スピーカー: 1.1.1 |
 |[Shure MXA 710 4ft Wall Linear Array マイク](https://www.shure.com/products/microphones/mxa710) + </br>[Shure Intellimix P300 オーディオ プロセッサ](https://www.shure.com/products/mixers/p300) +</br>[MXN5-C 天井スピーカー](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 4ft Wall Linear Array Mic: 1.2.0 </br> P300 DSP: 4.4.8 </br> MXN5-C スピーカー: 1.1.1 |
 |[Intellimix Ceiling Array マイクを使用した Shure MXA 910](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br> [100-T-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Shure Intellimix Room Software: 3.0.4.14 </br> Intellimix Ceiling Array マイクを使用した Shure MXA 910: 4.4.11 </br> Shure MXN5-C スピーカー: 1.2.1 </br> HW Tek Computer INC 9934 コンピューティングを使用した、レストロン UC-C100-T | 
@@ -220,7 +221,7 @@ Microsoft Teams Rooms異なる部屋のサイズにスケールします。 Team
 |[Bose ControlSpace EX-440C DSP + </br>Bose P2600A AmpLink アンプ + ゼンハイザー TCC2 シーリング マイク + </br> Bose DesignMax DM2C-P 天井埋め込み型スピーカー](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2.290  </br> P2600A: 1.160  </br> TCC2: 1.4.2  |  |
 |[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink アンプ +</br> [Sennheiser TCC2 Ceiling Microphone](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [DesignMax DM2C -LP Ceiling Speaker](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/designmax/designmax_dm2c_lp.html#v=designmax_dm2c_lp_black) | Bose DSP: 2.290  </br> P2600A: 1.160  </br> TCC2: 1.4.2  | 
 |[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink アンプ+</br> [Sennheiser TCC2 Ceiling Microphone](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [EdgeMax EM180 Ceiling Speaker](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/edgemax/edgemax_em180.html#v=edgemax_em180_white) | Bose DSP: 2.290  </br> P2600A: 1.160  </br> TCC2: 1.4.2  |
-|QSC Q-SYS Core ([110f](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-110f/)、 [8 Flex](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-8-flex/)、 [Nano](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-nano/)、または [NV-32-H](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/nv-32-h-core-capable/)) + </br> [Sennheiser TCC2 Ceiling Microphone](https://en-us.sennheiser.com/tcc2) + </br> QSC 増幅器 ([SPA シリーズ](https://www.qsc.com/solutions-products/power-amplifiers/installed/non-network/low-power-applications/spa-series/) または [CX-Q シリーズ](https://www.qsc.com/solutions-products/power-amplifiers/installed/network/cx-q-series/)) + </br> [QSC AcousticDesign シリーズ のスピーカー](https://www.qsc.com/solutions-products/loudspeakers/installed/passive/solutions/acousticdesigntm-series-solutions/) + </br> QSC IP カメラ ([PTZ-IP 20x60](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/)、 [PTZ-IP 12x72](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/)) オプション + </br> [QSC Q-SYS I/O USB ブリッジ](https://www.qsc.com/solutions-products/q-sys-ecosystem/audio-io-peripherals/io-usb-bridge/) (省略可能) | QSC Q-SYS Core、PTZ-IP カメラ、I/O USB ブリッジ: QSC Q-SYS Designer 9.0.1-2104.022 </br> Sennheiser TCC2 Ceiling Microphone: TCC2 - 1.5.1, Dante 1.2.0 </br> QSC 増幅器: N/A </br> QSC AcousticDesign Series Loudspeakers: N/A | 
+|QSC Q-SYS Core ([110f](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-110f/)、 [8 Flex](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-8-flex/)、 [Nano](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-nano/)、または [NV-32-H](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/nv-32-h-core-capable/)) + </br> [Sennheiser TCC2 Ceiling Microphone](https://en-us.sennheiser.com/tcc2) + </br> QSC 増幅器 ([SPA シリーズ](https://www.qsc.com/solutions-products/power-amplifiers/installed/non-network/low-power-applications/spa-series/) または [CX-Q シリーズ](https://www.qsc.com/solutions-products/power-amplifiers/installed/network/cx-q-series/)) + </br> [QSC AcousticDesign シリーズ のスピーカー](https://www.qsc.com/solutions-products/loudspeakers/installed/passive/solutions/acousticdesigntm-series-solutions/) + </br> QSC IP カメラ ([PTZ-IP 20x60](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/), [PTZ-IP 12x72](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/)) オプション + </br> [QSC Q-SYS I/O USB ブリッジ](https://www.qsc.com/solutions-products/q-sys-ecosystem/audio-io-peripherals/io-usb-bridge/) (省略可能) | QSC Q-SYS Core、PTZ-IP カメラ、I/O USB ブリッジ: QSC Q-SYS Designer 9.0.1-2104.022 </br> Sennheiser TCC2 Ceiling Microphone: TCC2 - 1.5.1, Dante 1.2.0 </br> QSC 増幅器: N/A </br> QSC AcousticDesign Series Loudspeakers: N/A | 
 
 
 &Dagger; お客様は、Dante インターフェース、または Biamp/ゼンハイザーがこのバンドル用に推奨しているネットワーク スイッチのいずれかを選択できます。

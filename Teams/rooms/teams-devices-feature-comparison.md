@@ -1,15 +1,15 @@
 ---
-title: 共有スペースのデバイスTeams WindowsとAndroidの機能の比較
+title: 共有スペース用 Teams デバイスの Windows と Android の機能の比較
 author: dstrome
 ms.author: dstrome
 manager: jsarrasin
-ms.date: 10/07/2021
+ms.date: 06/03/2022
 ms.topic: conceptual
 audience: ITPro
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
-description: WindowsとAndroidの間の共有スペース機能のTeams デバイスを比較するガイド。
+description: Windows と Android の間の共有スペース機能について Teams デバイスを比較するガイド。
 ms.collection:
 - M365-voice
 - M365-collaboration
@@ -20,24 +20,24 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: de089e5c87615f039e91832d95310faa8ff41ac6
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: 46ea03016b329801b5cdd4b422192ff35496dbdd
+ms.sourcegitcommit: e3931446943684db155bb3edf7d7e52d41775013
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761079"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65886704"
 ---
-# <a name="teams-devices-for-shared-spaces-feature-comparison-between-windows-and-android"></a>共有スペースのデバイスTeams WindowsとAndroidの機能の比較 
-Microsoft Teams Roomsエクスペリエンスは、顧客を念頭に置いて設計されています。 すべてのお客様に固有のニーズがあります。そのため、Microsoft では、WindowsやAndroidに関するTeams Roomsなど、さまざまなオプションを提供しています。 
+# <a name="teams-devices-for-shared-spaces-feature-comparison-between-windows-and-android"></a>共有スペース用の Teams デバイスの Windows と Android の機能の比較 
+Microsoft Teams Rooms エクスペリエンスは、お客様を念頭に置いて設計されています。 すべてのお客様に固有のニーズがあり、Microsoft では Windows や Android 上の Teams Rooms など、さまざまなオプションを提供しています。 
 
 コア機能は両方のプラットフォームで利用できるため、エンド ユーザーは常に優れたオーディオとビデオエクスペリエンスを提供し、ワンタッチ参加を使用して会議に参加し、ライブ キャプションや挙手などの包括的な機能にアクセスできます。 
 
-Microsoft は新機能をTeamsおよびTeams Roomsに提供するため、すべてのプラットフォームに導入するよう努めていますが、技術的な実現可能性や各プラットフォームの顧客からのフィードバックなど、さまざまな要因により、機能が異なる時期にロールアウトされる場合があります。 つまり、Android プラットフォームに移行する前に、Windowsで一部の機能がロールアウトされる可能性があります。 
+Microsoft は Teams と Teams Rooms に新機能を提供するため、すべてのプラットフォームに導入するよう努めていますが、技術的な実現可能性や各プラットフォームの顧客からのフィードバックなど、さまざまな要因により、機能が異なる時期にロールアウトされる場合があります。 つまり、Android プラットフォームに移行する前に、Windows で一部の機能がロールアウトされる可能性があります。 
 
-さまざまなプラットフォームで使用できる機能については、以下のグラフを参照してください。これは定期的に更新されます。 この一覧には、すべてのTeams Rooms機能が含まれるわけではありませんので、詳細については、[Microsoft 365ロードマップ](https://www.microsoft.com/en-us/microsoft-365/roadmap)と Microsoft 営業担当者にお問い合わせください。    
+さまざまなプラットフォームで使用できる機能については、以下のグラフを参照してください。これは定期的に更新されます。 すべての Teams Rooms 機能がこの一覧に含まれるわけではないので、詳細については [、Microsoft 365 のロードマップ](https://www.microsoft.com/en-us/microsoft-365/roadmap) と Microsoft 営業担当者を引き続き参照してください。    
 
-## <a name="teams-devices-for-shared-spaces"></a>共有スペース用のデバイスをTeamsする
-### <a name="feature-comparison-between-windows-and-android"></a>WindowsとAndroidの機能比較
+## <a name="teams-devices-for-shared-spaces"></a>共有スペース用の Teams デバイス
+### <a name="feature-comparison-between-windows-and-android"></a>Windows と Android の機能比較
 (2022 年 3 月) 
 
 | &ensp; | 機能 |Windows|Android|
@@ -45,7 +45,7 @@ Microsoft は新機能をTeamsおよびTeams Roomsに提供するため、すべ
 |**会議への参加**|One-touch-join |連絡可能  |利用可能 |
 ||近接結合 |連絡可能  |利用可能 |
 ||今すぐ会議 |連絡可能  |利用可能 |
-||ダイレクト ゲスト参加 |連絡可能  |近日対応予定 |
+||ダイレクト ゲスト参加 |連絡可能  |利用可能 |
 |**会議のエンゲージメントとコラボレーション**|直感的で目的に合ったアプリ エクスペリエンス |連絡可能  |利用可能 |
 ||ビデオとコンテンツのレイアウト (たとえば、Together Mode、大きなギャラリー、ギャラリーのみ、ギャラリーとコンテンツなど) |連絡可能  |利用可能 |
 ||チャットのバブル|連絡可能 |近日対応予定 |
@@ -56,7 +56,7 @@ Microsoft は新機能をTeamsおよびTeams Roomsに提供するため、すべ
 ||コンパニオン モード |連絡可能 |利用可能 |
 ||ライブ クローズド キャプション |連絡可能  |利用可能 |
 ||クラウドの記録と会議の文字起こし |連絡可能  |利用可能 |
-||Surface Hubを使用した会議の調整 |連絡可能 |該当なし |
+||Surface Hub を使用した会議の調整 |連絡可能 |該当なし |
 ||Microsoft Whiteboard (タッチスクリーン ディスプレイで利用可能なオンスクリーン インク) |連絡可能  |利用可能 |
 ||インテリジェント コンテンツ キャプチャ |連絡可能  |近日対応予定 |
 |**会議とデバイスのコントロール**|モバイル上の会議室のリモコン |連絡可能  |利用可能 |
@@ -64,11 +64,11 @@ Microsoft は新機能をTeamsおよびTeams Roomsに提供するため、すべ
 ||モバイルからのキャスト |連絡可能  |利用可能 |
 ||ビデオとコンテンツの解像度: 1080p、30 FPS |連絡可能  |利用可能 |
 ||会議参加者名簿 |連絡可能  |利用可能 |
-||音声スキルをCortanaする |連絡可能  |近日対応予定 |
+||Cortana の音声スキル |連絡可能  |近日対応予定 |
 ||デュアル 画面のサポート |連絡可能  |利用可能 |
 |**セキュリティ**|安全な取り付け、セキュリティ ロック スロット (Kensington ロック)、I/O ポートアクセス |連絡可能  |利用可能 |
 ||オペレーティング システム |Windows 10  |Android 8.1 以降 |
-||OS セキュリティ機能 |TPM 2.0、特定のポートを無効にする、セキュア ブート、Credential Guard、OOBE 設定アクセス制御、ダイレクト メモリ アクセス保護、ネットワーク セキュリティ |Android完全ディスク暗号化、OEM 固有の機能 |
+||OS セキュリティ機能 |TPM 2.0、特定のポートを無効にする、セキュア ブート、Credential Guard、OOBE 設定アクセス制御、ダイレクト メモリ アクセス保護、ネットワーク セキュリティ |Android フル ディスク暗号化、OEM 固有の機能 |
 ||キオスク モード |連絡可能  |利用可能 |
 |**管理と管理**|パートナーに管理アクセスを安全に委任する |連絡可能  |利用可能 |
 ||ロールベースのアクセス制御 |連絡可能  |利用可能 |
@@ -76,7 +76,7 @@ Microsoft は新機能をTeamsおよびTeams Roomsに提供するため、すべ
 ||全体的なデバイス正常性監視 |連絡可能  |利用可能 |
 ||接続された周辺機器の正常性の監視 |連絡可能  |近日対応予定 |
 ||リモート構成 (再起動、設定、ログ収集) |連絡可能  |利用可能 |
-||アプリの自動更新Teams |連絡可能  |利用可能 |
+||Teams アプリの自動更新 |連絡可能  |利用可能 |
 ||デバイスの自動登録 |連絡可能 |近日対応予定 |
 ||通話品質分析 |連絡可能  |利用可能 |
 |**Good for / Space**|フォーカス (2 ~ 4 人) |連絡可能  |利用可能 |
