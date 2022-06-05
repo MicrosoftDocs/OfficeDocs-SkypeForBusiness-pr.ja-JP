@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 94d59c27841e873c4e178a1b5c0d09df6942c1fc
-ms.sourcegitcommit: a388fd72e399f6e205c34707dc92cc309997e737
+ms.openlocfilehash: 16ca31652f3b5b9daa0216e683d80e6d9b0c809d
+ms.sourcegitcommit: e3931446943684db155bb3edf7d7e52d41775013
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65400243"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65886634"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -97,6 +97,8 @@ Teams のチャット リストの一部である会話に参加したユーザ�
 |各添付ファイルのサイズ | 10 MB 未満 |
 |インライン画像の数 <sup>2</sup> |50   |
 
+> [!NOTE]
+> チャネルに送信できるメールの数には制限があります。 制限は、1 ユーザーあたりチャネルあたり 10 秒あたり 6 通のメール、ユーザーあたりテナントあたり 10 秒あたり 8 通のメールです。
 <sup>1</sup> メッセージがこの制限を超えると、プレビュー メッセージが生成され、ユーザーは提供されたリンクから元のメールをダウンロードして表示するように求められます。
 
 <sup>2</sup> 添付ファイルまたは画像の数がこの制限を超えると、エラー メッセージが表示されます。
