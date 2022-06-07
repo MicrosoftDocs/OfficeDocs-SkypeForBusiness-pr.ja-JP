@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 16ca31652f3b5b9daa0216e683d80e6d9b0c809d
-ms.sourcegitcommit: e3931446943684db155bb3edf7d7e52d41775013
+ms.openlocfilehash: cdbae6cacd861602baea69ec9682f8069dc720a0
+ms.sourcegitcommit: 1ac37cc27d4ccb3e1dae20ca1929214e17be2075
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2022
-ms.locfileid: "65886634"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "65913435"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -168,7 +168,7 @@ Teams のチャット リストの一部である会話に参加したユーザ�
 > [!IMPORTANT]
 > **Microsoft 365 ライブ イベントの上限の引き上げ**
 >
-> **お客様のニーズを引き続きサポートするため、** などのライブ イベントの一時的な制限の引き上げを 2022 年 6 月 30 日まで延長します:
+> **お客様のニーズを引き続きサポートするために、ライブ イベントの一時的な制限の引き上げを 2022 年 12 月 31 日まで延長します**:
 >
 >- イベントでは、最大2万の出席者をサポートします
 >- テナント全体で 50 のイベントを同時にホストできます

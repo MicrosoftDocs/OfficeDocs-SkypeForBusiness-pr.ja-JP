@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ffd0ad9f9b765839a4543dd8600b558000fa164f
-ms.sourcegitcommit: abe942c294ed5fca70efdf039d38d611b9c21fe9
+ms.openlocfilehash: 330faa00c2ba14f03e5219642fa274fc24eb8765
+ms.sourcegitcommit: 1ac37cc27d4ccb3e1dae20ca1929214e17be2075
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63564739"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "65913425"
 ---
 # <a name="meetings-webinars-and-live-events"></a>会議、ウェビナー、ライブ イベント 
 
@@ -51,9 +51,9 @@ Microsoft Teams では、会議、ウェビナー、ライブ イベントなど
 | ライブ イベント | 最大 20,000 人** |- 大規模な視聴者に配信。 <br>- 対象ユーザーの相互作用に対するモデレートされた Q&A。 <br> - 外部発表者を含むプロデューサーと発表者を指定できます。<br>- より高度な運用機能をサポートしています。 | いいえ |
 ||||
 
-*通常 10,000 人が、2022 年 6 月 30 日まで 20,000 人に増やされます。<br>
+*通常の 10,000 が、2022 年 12 月 31 日まで 20,000 に増やされます。<br>
 
-**通常 10,000 人が、2022 年 6 月 30 日まで 20,000 人に増やされます。 Yammer や Microsoft Stream のライブ イベントを使用して、さらに多くの人数をスケジュールすることさえできます。 詳細については、「[Microsoft 365 全体でライブ イベントをする](/stream/live-event-m365)」を参照してください。 ただし、20,000 人を超える参加者のイベントには、[Live Events Assistance Program](/stream/live-events-assistance) が必要であることにご留意ください。 
+**通常の 10,000 が、2022 年 12 月 31 日まで 20,000 に増やされます。 Yammer や Microsoft Stream のライブ イベントを使用して、さらに多くの人数をスケジュールすることさえできます。 詳細については、「[Microsoft 365 全体でライブ イベントをする](/stream/live-event-m365)」を参照してください。 ただし、20,000 人を超える参加者のイベントには、[Live Events Assistance Program](/stream/live-events-assistance) が必要であることにご留意ください。 
 
 NDI は会議、ウェビナー、ライブ イベントで完全にサポートされているため、OBS や Wirecast などのツールを使用してブロードキャストを作成できます。詳細については、「[Microsoft Teams で NDI® テクノロジを使用する](use-ndi-in-meetings.md)」を参照してください。
 
