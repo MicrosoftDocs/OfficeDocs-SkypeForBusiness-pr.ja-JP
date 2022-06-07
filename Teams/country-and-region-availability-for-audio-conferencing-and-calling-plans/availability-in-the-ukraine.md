@@ -1,5 +1,5 @@
 ---
-title: ウクライナでの利用可能性
+title: ウクライナでの可用性
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ウクライナで利用できるSkype for BusinessとMicrosoft TeamsのMicrosoft 365とOffice 365サービスを次に示します。
-ms.openlocfilehash: 90009ddb0d35e920c13389caa5acfb838204adbb
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+description: ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 サービスと Office 365 サービスをウクライナで利用できます。
+ms.openlocfilehash: 27fa2f6985eaadc345cc8b8e52148603feb9da7c
+ms.sourcegitcommit: 1ac37cc27d4ccb3e1dae20ca1929214e17be2075
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62191448"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "65913405"
 ---
-# <a name="availability-in-the-ukraine"></a>ウクライナでの利用可能性
+# <a name="availability-in-ukraine"></a>ウクライナでの可用性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ウクライナで利用できるSkype for BusinessとMicrosoft TeamsのMicrosoft 365とOffice 365サービスを次に示します。
+ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 サービスと Office 365 サービスをウクライナで利用できます。
   
 ## <a name="audio-conferencing"></a>電話会議
 
