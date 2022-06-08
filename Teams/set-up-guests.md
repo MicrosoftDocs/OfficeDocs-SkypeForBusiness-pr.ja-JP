@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teamsでのゲスト アクセスのオンとオフを切り替える
+title: Microsoft Teams でゲスト アクセスを有効または無効にする
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -24,14 +24,14 @@ appliesto:
 description: Office 365 の管理者として Microsoft Teams のゲスト アクセス機能を有効または無効にする方法について説明します。
 ms.openlocfilehash: 935fac44863ef2c3da4a9fc4f07fcd7e34265024
 ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/12/2022
 ms.locfileid: "65370810"
 ---
-# <a name="turn-guest-access-in-microsoft-teams-on-or-off"></a>Microsoft Teamsでのゲスト アクセスのオンとオフを切り替える
+# <a name="turn-guest-access-in-microsoft-teams-on-or-off"></a>Microsoft Teams でゲスト アクセスを有効または無効にする
 
-この記事では、Teamsでゲスト アクセス設定 (通話、会議、チャットなど) を構成する方法について説明します。 Teamsのゲスト アクセスには、Azure AD、Microsoft 365 グループ、SharePointの設定など、Microsoft 365で他の設定を構成する必要もあります。 ゲストを Teams に招待する準備ができている場合は、次のいずれかをお読みください。
+この記事では、Teams でゲスト アクセス設定 (通話、会議、チャットなど) を構成する方法について説明します。 Teams でのゲスト アクセスには、Azure AD、Microsoft 365 グループ、SharePoint の設定など、Microsoft 365 の他の設定を構成する必要があります。 ゲストを Teams に招待する準備ができている場合は、次のいずれかをお読みください。
 
 - 一般的な使用のためにチームのゲスト アクセスを構成する方法については、「 [チームでゲストと共同作業する](/microsoft-365/solutions/collaborate-as-team)」を参照してください。
 - Azure Active Directory を使用するパートナー組織とコラボレーションし、ゲストがチーム アクセスに自己登録できるようにするには、「[管理されたゲストで B2B エクストラネットを作成する](/microsoft-365/solutions/b2b-extranet)」を参照してください。
