@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams エンタープライズ展開の概要
-author: dstrome
-ms.author: dstrome
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,19 +16,19 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f6e6a2835df6f00bc9103594b1cfe5ae011c6960
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fae55eb230c3c0a450a95eb00e50861888bbe3f1
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617423"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045576"
 ---
 # <a name="teams-enterprise-deployment-overview"></a>Teams エンタープライズ展開の概要
 
 中規模または大企業の場合は、ユーザーにサービスを展開する方法、Microsoft Teams クライアントを展開する方法、ネットワーク設計がリアルタイム通信の品質に与える影響などについて考える必要があります。以下のセクションで、組織における Teams の計画に役立つ記事へのポインタをチェックしてください。
 
 > [!NOTE]
-> まだ行っていない場合は、パイロットから Teams の展開を開始することを強くお勧めします。 パイロットにより、計画と最終的な展開の前に、あなたや早期採用者が Teams とその機能に精通することができます。 パイロットを開始する方法の詳細については、「[Microsoft Teams を開始する](get-started-with-teams-quick-start.md)」を参照してください。
+> まだ行っていない場合は、パイロットから Teams の展開を開始することを強くお勧めします。パイロットにより、計画と最終的な展開の前に、あなたや早期採用者が Teams とその機能に精通することができます。パイロットを開始する方法の詳細については、「[Microsoft Teams を開始する](get-started-with-teams-quick-start.md)」を参照してください。
 
 以下のセクションを読み、組織での Teams の展開を開始する準備ができたら、「[企業で Microsoft Teams を設定する](deploy-enterprise-setup.md)」を参照してください。
 

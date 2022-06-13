@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 'ロビー、受付エリア、会議室に共通領域電話を設定する方法について説明します '
-ms.openlocfilehash: 313a17d1829c8f3584ec5fb7f37e5f1ec49231d0
-ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
+ms.openlocfilehash: f3f3ee2c98e48a41bb12dcaa7fc461c623f49994
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64456940"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045826"
 ---
 # <a name="deploy-common-area-phones-for-microsoft-teams"></a>Microsoft Teams用の共通領域の電話を展開する
 
@@ -36,23 +36,24 @@ ms.locfileid: "64456940"
 
 ## <a name="overview"></a>概要
 
-共通領域電話のライセンスは以下をサポートしています: 
+共通領域電話のライセンスは以下をサポートしています:
 
+|                                           | 共通領域電話                                 |
+|-------------------------------------------|---------------------------------------------------|
+| **Microsoft Teams**                       | &#x2714;                                          |
+| **Teams 電話** &sup1;                   | &#x2714;                                          |
+| **電話会議**                    | &#x2718; &sup2;                                   |
+| **Microsoft Intune**                      | &#x2714;                                          |
+| **Azure Active Directory Premiumプラン 1** | &#x2714;                                          |
+| **Exchange Online プラン 2**                | &#x2714;  &sup3;                                  |
+| **世界的な可用性**                | &#x2714;                                          |
+| **チャネルの可用性**                  | EA、EAS、EES、CSP、Web Direct、GCC、GCC-High、DoD |
 
-| &nbsp;  |  共通領域電話  |
-|---------|---------|
-|Skype for Business |   &#x2714; |
-|Microsoft Teams |   &#x2714; |
-|電話システム |    &#x2714; |
-|電話会議 |       &#x2718; &sup1;  |
-|Microsoft Intune |    &#x2718; |
-|世界的な可用性 |       &#x2718; &sup2;  |
-|チャネルの可用性 |    EA、EAS、CSP、GCC、EES、Web Direct  |
-|      |         |
+&sup1;以前は 電話システム と呼ばられていました。
 
-&sup1;共通領域電話は、会議開催者が提供するダイヤルイン番号を使用して音声会議に参加できます
+&sup2;Common Area Phones は、会議の開催者が提供するダイヤルイン番号を使用して電話会議に参加できます。  
 
-&sup2; ソブリン クラウドでは使用できません  
+&sup3;クラウドベースのボイスメール機能のみ。
 
 >[!NOTE]
 > Skype for Business Serverで作成された共通エリアフォン オブジェクトのアカウントをMicrosoft Teamsに移行することはできません。 この記事の手順に従って、Teams用にこれらのアカウントを再作成し、必要に応じて PTSN 接続を移行します。
@@ -61,7 +62,7 @@ ms.locfileid: "64456940"
 
 まず、共通領域電話 (CAP) のライセンスを購入し、認定された電話があることを確認する必要があります。 認定された電話の検索方法、および詳細情報を確認するには、[Microsoft Teams デバイス](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)にアクセスしてください。
 
-1. Microsoft 365 管理センターで、**BillingPurchase** >  サービスに移動します。 
+1. Microsoft 365 管理センターで、**課金** > **購入サービス** に移動します。 
 
 2. [ **カテゴリ別の表示** ] セクションがまだ表示されていない場合は、[ **Microsoft から購入**] に移動し、[ **製品の表示**] を選択します。 次に、[ **コラボレーションと通信**] を選択します。  
 
@@ -72,7 +73,7 @@ ms.locfileid: "64456940"
 >[!NOTE]
 >環境でIntuneを使用していて、デバイスコンプライアンスを必要とする条件付きアクセス規則がある場合は、Azure Active Directory Premiumプラン 1 を割り当て、共通エリア電話のデバイス アカウントにライセンスをIntuneする必要があります。
 >
->共通領域の電話は、条件付きアクセス 規則や、Multi-Factor Authentication などの他の ID 構成の影響を受ける可能性があります。 詳細については、[Teams Android デバイスの認証のベスト プラクティス](devices/authentication-best-practices-for-android-devices.md)に関するページを参照してください。
+>共通領域の電話は、条件付きアクセス 規則や、Multi-Factor Authentication などの他の ID 構成の影響を受ける可能性があります。 詳細については、「[Teams Android デバイスの認証のベスト プラクティス](devices/authentication-best-practices-for-android-devices.md)」を参照してください。
 
 ## <a name="step-2---create-a-new-user-account-and-assign-licenses"></a>手順 2 - 新しいユーザー アカウントを作成し、ライセンスを割り当てる
 
@@ -82,7 +83,7 @@ ms.locfileid: "64456940"
 
 1 つのデバイスをデプロイする場合:
 
-1. Microsoft 365 管理センターで、**UsersActive** >  **UsersAdd** >  **a user** に移動します。
+1. Microsoft 365 管理センターで、[**ユーザーアクティブ ユーザー** > の追加]  >  に移動 **します**。
 
 2. 名の "Main" や、2 番目の名前の "受信" などのユーザー名を入力します。
 
@@ -104,7 +105,7 @@ ms.locfileid: "64456940"
 
 ### <a name="using-powershell"></a>PowerShell の使用
 
-複数のユーザー アカウントのライセンスを一度に作成して割り当てる場合は、PowerShell を使用します。 詳細については、「[PowerShell でMicrosoft 365ユーザー アカウントを作成](/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide)する」と「PowerShell [を使用したユーザー アカウントへのMicrosoft 365 ライセンスの割り当て](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide)」を参照してください。
+複数のユーザー アカウントのライセンスを一度に作成して割り当てる場合は、PowerShell を使用します。 詳細については、「[PowerShell でMicrosoft 365ユーザー アカウントを作成](/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)する」と「PowerShell [を使用したユーザー アカウントへのMicrosoft 365 ライセンスの割り当て](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)」を参照してください。
 
 ## <a name="step-3---set-policies-for-common-area-phones"></a>手順 3 - 共通エリア電話のポリシーを設定する
 
@@ -117,7 +118,7 @@ ms.locfileid: "64456940"
 
 共通領域電話ライセンスが割り当てられているアカウントでサインインした電話には、共通領域のユーザー エクスペリエンスが表示されます。
 
-電話の既定のインターフェイスをオーバーライドする場合は、 [IP 電話ポリシー](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps)の作成を検討してください。 たとえば、共用エリアの電話がパブリック エリアで使用されている場合は、組織のグローバル アドレス帳の検索を制限し、ホットデスクをブロックするように IP 電話ポリシーを設定します。 詳細については、「[Android デバイスのユーザー インターフェイスTeams設定](devices/Teams-Android-devices-user-interface.md)する」を参照してください。
+電話の既定のインターフェイスをオーバーライドする場合は、 [IP 電話ポリシー](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps&preserve-view=true)の作成を検討してください。 たとえば、共用エリアの電話がパブリック エリアで使用されている場合は、組織のグローバル アドレス帳の検索を制限し、ホットデスクをブロックするように IP 電話ポリシーを設定します。 詳細については、「[デバイスのユーザー インターフェイスTeams Android設定](devices/Teams-Android-devices-user-interface.md)する」を参照してください。
 
 ### <a name="calling-policies"></a>通話ポリシー
 
@@ -164,7 +165,7 @@ PSTN 接続オプションに基づいて [電話番号を](manage-phone-numbers
 
 管理者は、Teams管理センターからリモートで共通領域の電話をプロビジョニングしてサインインできます。 これは、多数の電話を一度に展開する場合に最も効率的なサインイン方法です。 詳細については、「[リモート プロビジョニングとTeams Android デバイスのサインイン](devices/remote-provision-remote-login.md)」を参照してください。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 組織の共通エリア電話を設定してサインインしたので、Teams管理センターで管理できます。 詳細については、「[Microsoft Teams: デバイスの管理](devices/device-management.md)」を参照してください。
 

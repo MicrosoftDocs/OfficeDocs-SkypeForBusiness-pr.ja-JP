@@ -16,12 +16,12 @@ search.appverid: MET150
 f1.keywords:
 - CSH
 description: Teams管理センターのデバイス ストアでデバイスを参照して購入する方法について説明します
-ms.openlocfilehash: da520b6396fa7e47288f4fdaa6b9f028ba16b3dd
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: e5cedb84d50111d90d90d47802f667fb6fdbc106
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761449"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045646"
 ---
 # <a name="purchase-devices-in-the-teams-device-store"></a>Teams デバイス ストアでデバイスを購入する
 
@@ -34,7 +34,7 @@ Teams管理センターのデバイス ストアを使用すると、Microsoft T
 
 ## <a name="requirements"></a>要件
 
-デバイス ストアを使用するには、グローバル管理者、Teams管理者、またはTeamsデバイス管理者である必要があります。
+デバイス ストアを使用するには、グローバル管理者またはTeams管理者である必要があります。
 
 ## <a name="browse-the-store"></a>ストアを参照する
 

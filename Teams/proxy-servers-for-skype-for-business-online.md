@@ -1,7 +1,7 @@
 ---
 title: Teams または Skype for Business Online 向けのプロキシ サーバー
-ms.author: tonysmit
-author: tonysmit
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: jastark
 ms.topic: reference
@@ -22,12 +22,12 @@ ms.custom:
 - Optimization
 - seo-marvel-apr2020
 description: この記事では、Microsoft TeamsまたはSkype for Businessでプロキシ サーバーを使用する方法について説明します。
-ms.openlocfilehash: 559a42c19aa47a9e72a5c0549e80f45de8d50fdf
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 61a1878b3c7057de7dddbcd63c480f80c2f16e0f
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582161"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045436"
 ---
 # <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Teams または Skype for Business Online 向けのプロキシ サーバー
 

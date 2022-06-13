@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b073cdd67d89de7d934990abc33cb0586d0fc76
-ms.sourcegitcommit: 5fe5516f6118ce3fa0449ab194a6fe87bf48c664
+ms.openlocfilehash: c20c5acdafff69e5a43f02093b515b456daa8ff7
+ms.sourcegitcommit: 193aec6f3f6b6ac14b07e778b3485eed813f5e99
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "64732225"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046429"
 ---
 # <a name="limit-who-users-can-see-when-searching-the-directory-in-teams"></a>Teamsでディレクトリを検索するときにユーザーが表示できるユーザーを制限する
 
@@ -50,3 +50,5 @@ Teamsでディレクトリを検索するときにユーザーが表示できる
 
 > [!Note]
 > この変更が有効になるには数時間かかる場合があります。
+> 
+> 名前で検索を有効にすると、[チームの **検索**] ボックスと [参加] の一覧の公開チームが非表示になるか、Teamsで **チームを作成します**。 また、Teamsの上部にあるコマンド ボックスに入力`/join`して、チームへの参加も無効になります。

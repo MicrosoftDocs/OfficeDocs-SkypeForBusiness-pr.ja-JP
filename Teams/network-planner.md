@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teamsにネットワーク プランナーを使用する
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 06/24/2019
 ms.topic: article
@@ -22,16 +22,16 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08884e7a8cf4aaebf7f2063cec0e80fcf5619ced
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: fba570bdd7a83c26d68d10e65f631a0d028d7408
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731316"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045556"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>Microsoft Teamsにネットワーク プランナーを使用する
 
-Network Planner は、Teams 管理センターで利用できる新しいツールです。 **PlanningNetwork** >  Planner に移動すると見 **つかります**。 ほんの少しの手順で、Network Planner では組織全体で Microsoft Teams ユーザーに接続するためのネットワーク要件を決定し、整理できます。 ネットワークの詳細と Teams の使用状況を提示すると、Network Planner は、組織の物理的な場所で Teams とクラウドの音声を展開するためのネットワーク要件を計算します。
+Network Planner は、Teams 管理センターで利用できる新しいツールです。 **これは、Planning** > **Network Planner** に移動することで確認できます。 ほんの少しの手順で、Network Planner では組織全体で Microsoft Teams ユーザーに接続するためのネットワーク要件を決定し、整理できます。 ネットワークの詳細と Teams の使用状況を提示すると、Network Planner は、組織の物理的な場所で Teams とクラウドの音声を展開するためのネットワーク要件を計算します。
 
 ![ネットワーク プランナーのスクリーンショット。](media/network-planner.png)
 

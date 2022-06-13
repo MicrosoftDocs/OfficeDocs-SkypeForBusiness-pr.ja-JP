@@ -1,19 +1,19 @@
 ---
 title: Ignite 2020 でのTeams セッション
 description: Business Central で使用可能なすべての学習を見つけます。
-author: SerdarSoysal
+ms.author: mikeplum
+author: MikePlumleyMSFT
 ms.date: 09/21/2020
 ms.topic: article
 ms.service: msteams
-ms.author: serdars
 audience: admin
 manager: serdars
-ms.openlocfilehash: 35ec6c883c880543c9d27a18a9af87d3cff7ab6d
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: a956af4c9eedf5e9b4c10c61c219651da94f4ffb
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675119"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046016"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Ignite 2020 でのTeams セッション
 
@@ -26,7 +26,7 @@ ms.locfileid: "65675119"
 |[Microsoft Teamsを使用した回復性、包括的、ハイブリッドの職場の作成](https://aka.ms/IG20-DB156-R1) |組織は、リモートおよびオンサイトの従業員のニーズをサポートするためにハイブリッド ワークプレースに移行しています。 最初のパートでは、Teams会議、仮想イベント、通話を通じてチームを接続し続ける方法と、新しいデバイス エクスペリエンスについて説明します。 Teams プラットフォームがワークフローの効率化、意思決定の改善、アプリケーションのエコシステムの統合にどのように役立つかを説明します。 <br> また、このシリーズの第 2 部であるセッション コード DB158 も確認してください。|ニコール Herskowitz                 |
 |[Microsoft Teams会議で、よりスマートに会い、集中し、より多くのことを達成する](https://aka.ms/IG20-DB151)  |会議は、作業を行う方法の基礎です。 Teams会議は、新しい働き方に適応しながら、自分と組織の生産性を高める方法について説明します。  |ラシャズ キューパラ|
 |[Microsoft Teams呼び出しが簡単になりました](https://aka.ms/IG20-DB149)  |Enterprise Teamsでの呼び出しは、デプロイと使用が簡単です。 新しい通話エクスペリエンスや共同通話など、通話の最新情報を確認しながら、Teams通話の基本について説明します。 |Paul 大砲、Laura Kramer、バーバラ 金|
-|[管理者がMicrosoft Teamsを管理する 1 つの場所: Teams管理の新機能](https://aka.ms/IG20-DB144) |Teams管理者は、柔軟できめ細かな管理機能を備えています。 この機能を使用すると、ビジネスのニーズに最も適した組織向けのカスタム エクスペリエンスを作成できます。 このセッションでは、Team 管理 Center ポータルに関する最新かつ最大の機能を紹介し、ポリシー、アプリ管理、デバイス管理、レポート、分析とトラブルシューティング、PowerShell の新機能について説明します。 |Ronit Ben-Sheffer、Jamie Stark|
+|[管理者がMicrosoft Teamsを管理する 1 つの場所: Teams管理の新機能](https://aka.ms/IG20-DB144) |Teams管理者は、柔軟できめ細かな管理機能を備えています。 この機能を使用すると、ビジネスのニーズに最も適した組織向けのカスタム エクスペリエンスを作成できます。 このセッションでは、Team Admin Center ポータルに関する最新かつ最高の機能を紹介し、ポリシー、アプリ管理、デバイス管理、レポート、分析とトラブルシューティング、PowerShell の新機能について説明します。 |Ronit Ben-Sheffer、Jamie Stark|
 |[Microsoft Teamsを使用した仮想会議とイベントのスケーリングとカスタマイズ](https://aka.ms/IG20-DB138)|会議にはあらゆる形とサイズがあります。Teamsを使用して、次の大規模なイベントを構造化および管理する方法について説明します。 Teamsは、組織のニーズに合わせてシームレスにスケーリングでき、あらゆる規模のイベントに最適な出席者エクスペリエンスをカスタマイズして提供する方法を提供します。  |Christina Torok、Ashwin Appiah|
 |[Microsoft Teams デバイスを使用してハイブリッド ワークプレース全体で最新の会議エクスペリエンスを実現する](https://aka.ms/IG20-DB147) |Microsoft Teams デバイスの概要。 Teamsデバイスは、ユーザーがTeamsの能力を最大限に高め、リモートワークスペースと共有ワークスペースの間のギャップを埋めるのに役立つよう設計されています。 ユーザー中心の会議室エクスペリエンスを提供するように設計されたデバイスと、Microsoft Teams デバイスを使用したより包括的で共同作業的なエクスペリエンスを可能にする個人ワークスペースの再考について説明します。  |Kendra 𱘼亥、Greg Baribault|
 |[Microsoft Teams プラットフォームを使用して最新の職場を変革する](https://aka.ms/IG20-DB157) |Teams プラットフォーム内のすべての新しい機能拡張ポイントと既存の機能拡張ポイントについて説明します。 ビジネス ニーズを解決するための強力なアプリとソリューションを作成する方法について説明します。|Archana Saseetharan、Michal Lesiczka|

@@ -1,8 +1,8 @@
 ---
-title: トレーニング リソースの管理 - Microsoft Teams
+title: 管理者トレーニング リソース - Microsoft Teams
 ms.reviewer: jhwang
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.custom:
 description: Microsoft Teamsの計画、展開、および実行方法に関するトレーニングビデオ、PowerPointデッキ、チュートリアル、およびその他の管理者向けリソース。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bc4841e67606f467bc13940755a7de77038d7b6
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 3cda81a54bce9310454cd6b0607e943eb7c2bb37
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675589"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045856"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teamsの管理者トレーニングの概要
 
@@ -96,7 +96,7 @@ ms.locfileid: "65675589"
 | タイトル                                                                       | 抽象                                                                                                                                                                                                               |  ガイドへのリンク                             |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | Teams用の ID、アクセス管理& Threat Protection                   | Microsoft 管理センターと PowerShell を使用してアクセス ポリシーと ID ポリシーを構成し、Teamsの Advanced Threat Protection Office 365有効にする方法について説明します                                                            | [Teams セキュリティ ガイド](https://aka.ms/teamsesecurityinteractiveguide)         |
-| Microsoft TeamsのMicrosoft Purviewデータ損失防止 (DLP) ポリシー                     | 既存の DLP ポリシーにMicrosoft Teamsを追加する方法と、テンプレートに基づくか、組織のデータ保護のニーズに合わせて完全にカスタマイズされているかに関係なく、新しいポリシーを作成する方法について説明します。                        | [Teams DLP ガイド](https://aka.ms/teamsdlpguide)         |
+| Microsoft Teamsの Microsoft Purview データ損失防止 (DLP) ポリシー                     | 既存の DLP ポリシーにMicrosoft Teamsを追加する方法と、テンプレートに基づくか、組織のデータ保護のニーズに合わせて完全にカスタマイズされているかに関係なく、新しいポリシーを作成する方法について説明します。                        | [Teams DLP ガイド](https://aka.ms/teamsdlpguide)         |
 | Teamsでのコンプライアンスの管理                                                | Microsoft 365セキュリティ、Microsoft 365コンプライアンス、Microsoft Teams管理センター、Windows PowerShellを使用して、Office 365組織のMicrosoft Teams ポリシーを管理および構成すると設定。 | [Teams ガイドでのコンプライアンスの管理](https://aka.ms/complianceinteamsinteractiveguide)      |
 | Teams アドバイザー: Microsoft Teamsでのチャット、チーム、チャネル、アプリの展開 | Teams advisor を使用して環境を評価し、チャット、チーム、チャネル、アプリを展開するための計画を構築する方法について説明します。                                                                                         |  [Teams アドバイザー ガイド](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
 | PowerShell と動的グループを使用したTeams管理の合理化        | Office 365 グループを静的メンバーシップから動的に変換し、Windows PowerShellを使用して新しいアプリアクセス許可ポリシーをすべてのメンバーに割り当てます。                                                                         |  [Teams管理ガイドの合理化](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |

@@ -17,20 +17,20 @@ description: Microsoft Teams 管理センターの [アプリの管理] ペー�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: c28dfafb4ef895f4eb6b958ba2ef7cca63b825b9
-ms.sourcegitcommit: d54217d3c339fe02f83d86efe50dabe67528a14c
+ms.openlocfilehash: b73041f85abceeaa7eb6817fea040bd1912ba961
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/08/2022
-ms.locfileid: "65947206"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045976"
 ---
-# <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターで Teams アプリを管理する
+# <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams管理センターでTeams アプリを管理する
 
-管理センターの Teams アプリで、組織の **アプリ** を管理します。 [[アプリの管理]](https://admin.teams.microsoft.com/policies/manage-apps) ページを使用して、組織のアプリ カタログにあるすべての Teams アプリを表示および管理できます。 [アプリの管理] ページでは、テナント カタログ内の使用可能なすべてのアプリを確認することができます。また、組織全体で許可またはブロックするアプリを決定するために必要な情報を提供します。 アプリの組織レベルでの状態とプロパティの確認、組織レベルでのアプリのブロックまたは許可、テナント カタログへの新しいカスタム アプリのアップロード、組織全体のアプリ設定の管理を行うことができます。
+管理センターの **Teams アプリ** で、組織のアプリを管理します。 [[アプリの管理]](https://admin.teams.microsoft.com/policies/manage-apps) ページを使用して、組織のアプリ カタログにあるすべての Teams アプリを表示および管理できます。 [アプリの管理] ページでは、テナント カタログ内の使用可能なすべてのアプリを確認することができます。また、組織全体で許可またはブロックするアプリを決定するために必要な情報を提供します。 アプリの組織レベルでの状態とプロパティの確認、組織レベルでのアプリのブロックまたは許可、テナント カタログへの新しいカスタム アプリのアップロード、組織全体のアプリ設定の管理を行うことができます。
 
 ![[アプリの管理] ページのスクリーンショット。](media/manage-apps.png)
 
-Teams 管理センターを使用するには、グローバル管理者または Teams サービス管理者である必要があります。詳細については、「 [Teams 管理者ロール](./using-admin-roles.md)」を参照してください。
+管理センター Teams使用するには、グローバル管理者またはサービス管理者Teams必要があります。詳細については、「[Teams管理者ロール](./using-admin-roles.md)」を参照してください。
 
 アプリを管理するには、ポリシーを使用して、ユーザーのアクセス許可、アプリのインストール、組織内に作成されたカスタム アプリのアップロードを制御します。 ポリシーについては、「 [アプリ ポリシーの概要](app-policies.md)」を参照してください。
 
@@ -38,7 +38,9 @@ Teams 管理センターを使用するには、グローバル管理者また�
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 > [!NOTE]
-> [アプリの管理] ページは、Microsoft 365 Government Community Cloud High (GCCH) または国防総省 (DoD) の Teams の展開では使用できません。
+> [アプリの管理] ページは、Teamsの Microsoft 365 Government Community Cloud High (GCCH) または国防総省 (DoD) のデプロイでは使用できません。
+
+アプリの作成中に、開発者はアプリ ID を作成してマニフェスト ファイルに追加します。 この外部アプリ ID は、列設定から列 `External app ID` を有効にした後、[アプリの管理] ページで表示できます。 カスタム アプリのアプリの詳細ページでも表示できます。 この ID は、カスタム アプリにのみ適用されます。
 
 ## <a name="publish-a-custom-app-to-your-organizations-app-store"></a>カスタム アプリを組織のアプリ ストアに発行します。
 
@@ -71,7 +73,7 @@ Teams 管理センターを使用するには、グローバル管理者また�
 
 アプリを許可またはブロックするには:
 
-1. Teams 管理センター> Teams アプリ>アプリの管理に移動します。
+1. Teams管理センター> Teamsアプリ>アプリの管理に移動します。
 1. アプリの一覧からアプリを選択します。
 1. **[許可]** または [ブロック] を選択 **します**。
 
@@ -82,13 +84,13 @@ Teams 管理センターを使用するには、グローバル管理者また�
 
 ## <a name="manage-user-requests-to-unblock-apps"></a>アプリのブロックを解除するためのユーザー要求を管理する
 
-ブロックされたアプリを使用できるように要求を表示できます。 要求は IT 管理者に送信され、Teams 管理センターでユーザー要求を表示および管理できます。
+ブロックされたアプリを使用できるように要求を表示できます。 要求は IT 管理者に送信されます。このユーザー要求は、Teams管理センターで表示および管理できます。
 
   :::image type="content" source="media/user-request.png" alt-text="ブロックされたアプリの承認を要求する":::
 
 ### <a name="view-a-request"></a>要求を表示する
 
- 1. Teams 管理センターにサインインし、[アプリの[管理](https://admin.teams.microsoft.com/policies/manage-apps)] を選択します。
+ 1. Teams管理センターにサインインし、[[アプリの管理](https://admin.teams.microsoft.com/policies/manage-apps)] を選択します。
 
     :::image type="content" source="media/requested-apps1.png" alt-text="ユーザーによる要求" lightbox="media/requested-apps.png" border="true":::
 
@@ -100,7 +102,7 @@ Teams 管理センターを使用するには、グローバル管理者また�
     * すべてのユーザーに対してアプリがブロックされている場合は、 [アプリを許可します](#allow-and-block-apps)。
     * すべてのアプリがすべてのユーザーに対してブロックされている場合は、 [組織全体の設定を変更します](#manage-org-wide-app-settings)。
 
- 管理者がアプリを許可した場合、要求が処理されたことをエンド ユーザーに通知しません。 ユーザーは、ストア内のアプリにアクセスして、アプリのブロックが解除されているかどうかを確認する必要があります。
+ 管理者がアプリを許可した場合、要求が処理されたことをエンド ユーザーに通知しません。 ユーザーは、アプリのブロックが解除されているかどうかを確認するために、Microsoft Store内のアプリにアクセスする必要があります。
 
 ### <a name="dismiss-a-user-request"></a>ユーザー要求を無視する
 
@@ -110,13 +112,13 @@ Teams 管理センターを使用するには、グローバル管理者また�
 
   :::image type="content" source="media/reject.png" alt-text="ブロックされたアプリの拒否。"border="true":::
 
-管理者が要求を却下した場合、要求が処理されたことをエンド ユーザーに通知しません。 ユーザーは、ストア内のアプリにアクセスして、アプリのブロックが解除されているかどうかを確認する必要があります。
+管理者が要求を却下した場合、要求が処理されたことをエンド ユーザーに通知しません。 ユーザーは、アプリのブロックが解除されているかどうかを確認するために、Microsoft Store内のアプリにアクセスする必要があります。
 
 ## <a name="apps-blocked-by-publishers"></a>発行元にブロックされているアプリ
 
 ISV がグローバル アプリ ストアにアプリを発行する場合、アプリ エクスペリエンスを構成またはカスタマイズするために管理者が必要になる場合があります。 管理者は、アプリが完全に設定されたときにエンド ユーザーが利用できるようにします。
 
-たとえば、Contoso Electronics は、Microsoft Teams 用のヘルプ デスク アプリを作成した ISV です。 Contoso Electronics は、その顧客がアプリを操作するときに期待どおりに機能するように、顧客がアプリの特定のプロパティを設定することを望んでいます。 管理者がアプリケーションを許可またはブロックする前に、Teams 管理センターで "**発行元 によってブロック済み**" として表示され、既定ではエンド ユーザーから非表示になっています。 アプリを設定するための発行元のガイダンスに従った後、状態を **[許可]** に変更してユーザーが利用できるようにしたり、状態を **[ブロック**] に変更してユーザーがアプリを使用できないようにしたりできます。
+たとえば、Contoso Electronics は、Microsoft Teams用のヘルプ デスク アプリを作成した ISV です。 Contoso Electronics は、その顧客がアプリを操作するときに期待どおりに機能するように、顧客がアプリの特定のプロパティを設定することを望んでいます。 管理者がアプリケーションを許可またはブロックする前に、Teams 管理センターで "**発行元 によってブロック済み**" として表示され、既定ではエンド ユーザーから非表示になっています。 アプリを設定するための発行元のガイダンスに従った後、状態を **[許可]** に変更してユーザーが利用できるようにしたり、状態を **[ブロック**] に変更してユーザーがアプリを使用できないようにしたりできます。
 
 ![Teams 管理センターの発行元の状態によってブロックされていることを示すスクリーンショット。](media/blocked-by-publisher.png)
 

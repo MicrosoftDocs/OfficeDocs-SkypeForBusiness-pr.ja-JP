@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: 通話品質ダッシュボード Power BI レポートを使用して、自動応答と通話キューの履歴データを表示する方法について説明します。
-ms.openlocfilehash: 66394094f51d58344f151b8ebb7059c2e390c089
-ms.sourcegitcommit: 56d529cdbd8d8733350625316082f339ae8d66c9
+ms.openlocfilehash: e2d71410d10fb809debd1699afcf452c71a6e088
+ms.sourcegitcommit: 193aec6f3f6b6ac14b07e778b3485eed813f5e99
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "65294098"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046449"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>自動応答&通話キュー履歴レポート
 
@@ -42,7 +42,7 @@ Teams自動応答&通話キュー履歴レポート Power BI テンプレート�
 ## <a name="prerequisites"></a>前提条件
 
 ### <a name="power-bi-desktop"></a>Power BI Desktop
-Power BI Desktopがインストールされている必要があります。 [Microsoft Windows ストア](https://aka.ms/pbidesktopstore)からインストールできます。
+Power BI Desktopがインストールされている必要があります。 [Microsoft Windows Microsoft Store](https://aka.ms/pbidesktopstore)からインストールできます。
 
 無料版のPower BI Desktopを使用できます。 互換性のある最小バージョンは 2.85.681.0 (2020 年 9 月) です。
 
@@ -122,7 +122,7 @@ Power BI Desktopがインストールされている必要があります。 [Mi
 
 |[レポート] セクション                          |説明                                                       |
 |:---------------------------------------|:-----------------------------------------------------------------|
-|着信呼び出し元 <sup>1</sup>        |内部/外部の呼び出し元による呼び出しの配布             |
+|着信元<sup>1</sup>        |内部/外部の呼び出し元による呼び出しの配布             |
 |ディレクトリ検索メソッドの合計          |検索の種類別の呼び出しの分布                               |
 |呼び出し元のアクション                           |呼び出し元別の通話の分布                             |
 |結果の呼び出し                             |最終呼び出し状態による呼び出しの分布                          |
@@ -145,7 +145,7 @@ Power BI Desktopがインストールされている必要があります。 [Mi
 |:-----------------------------------------------|:------------------------------------------|:-------------------|
 |日付セレクター                                   |AAStartTime                                |なし                |
 |自動応答                                  |AA 名                                    |なし                |
-|着信呼び出し元 <sup>1</sup>                |通話の種類<br>TotalCallCount                |外部呼び出し: 呼び出しの種類は外部です<br>内部呼び出し: 呼び出しの種類は内部です |
+|着信元<sup>1</sup>                |通話の種類<br>TotalCallCount                |外部呼び出し: 呼び出しの種類は外部です<br>内部呼び出し: 呼び出しの種類は内部です |
 |ディレクトリ検索メソッドの合計                  |AADirectorySearchMethod<br>TotalCallCount  |AADirectorySearchMethod がabs_search_dtmfまたはabs_search_name    |
 |呼び出し元のアクション                                  |AATransferAction<br>TotalCallCount         |なし                                                             |
 |AA の平均秒数<br>呼び出し元の平均アクション |AAChainDuration<br>AACallerActionCount     |なし                                                             |
@@ -160,7 +160,7 @@ Power BI Desktopがインストールされている必要があります。 [Mi
 |AA 名                                 |テキスト                     |自動応答にアタッチされているリソース アカウントの名前<br><br>完全なリソース アカウント名が **aa_test@microsoft.com** されている場合、この値は **次のようになります:aa_test** |
 |AACallerActionCount                     |整数             |要約: 合計<br>通話中に自動応答で呼び出し元によって選択されたアクションの数  |
 |AACallFlow                              |テキスト                     |自動応答呼び出し可能な値のさまざまな状態をカプセル化します。<br><br>§ abs_search<br>§ お知らせ<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
-|AACallResult                            |テキスト                     |最終的な呼び出しの結果-可能な値:<br><br>§ failed_to_establish_media<br>§ failover_to_operator<br>§ oaa_chain_too_long<br>§ oaa_session_too_long<br>§ service_declined<br>§ service_terminated<br>§ terminated_automatic_selection<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>***§ transferred_to_operator***<br>§ transferred_to_receptionist<br>§ transferred_to_self<br>§ transferred_to_shared_voicemail<br>§ transferred_to_user<br>§ 不明<br>§ user_terminated |
+|AACallResult                            |テキスト                     |最終的な呼び出しの結果-可能な値:<br><br>§ failed_to_establish_media (通話のメディア部分を確立できませんでした)<br>§ failover_to_operator (通常はシステム エラーが原因でオペレーターに転送される呼び出し)<br>§ oaa_chain_too_long (AA で足が多すぎます)<br>§ oaa_session_too_long (AA セッションが長すぎます)<br>§ service_declined (AA が呼び出しを受け入れませんでした)<br>§ service_terminated (AA 構成が呼び出しを切断する)<br>§ terminated_automatic_selection (AA 構成は呼び出しを切断します)<br>§ terminated_no_operator (エラーが原因で呼び出しが終了し、演算子が定義されていません) <br>§ terminated_transfer_failed (転送に失敗して終了した呼び出し - 通常は expernal number)<br>***§ transferred_to_operator*** (呼び出しはオペレーターに転送されました 。通常はユーザー入力エラーが原因)<br>§ transferred_to_receptionist (transferred_to_operatorと同じ)<br>§ transferred_to_self (呼び出しは AA の先頭に返されました 。通常はメニューのお知らせオプションから)<br>§ transferred_to_shared_voicemail (通話が共有ボイスメールに転送されました)<br>§ transferred_to_user (通話がユーザーに転送された - 通話キューを含む)<br>§ unknown (不明なエラーが発生しました)<br>§ user_terminated (発信者がハングアップ) |
 |AAChainDuration                         |10 進数           |要約: 合計<br>自動応答での呼び出しの継続時間                     |
 |AAChainIndex                            |テキスト                     |                                                                         |
 |AAConnectivityType                      |テキスト                     |呼び出し可能な値の種類:<br><br>§ ExternalCall<br>§ InternalCall |
@@ -168,7 +168,7 @@ Power BI Desktopがインストールされている必要があります。 [Mi
 |AADirectorySearchMethod                 |テキスト                     |最後のアドレス帳検索方法 - 可能な値:<br><br>§ abs_search_dtmf<br>§ abs_search_extension_x<br>§ abs_search_name |
 |AAStartTime                             |日付/時刻                |自動応答呼び出しの開始時刻                                           |
 |AATransferAction                        |テキスト                     |転送先の種類の呼び出し可能な値:<br><br>***§ アプリケーション - 音声アプリケーション エンティティ**_<br>§ external_pstn<br>_*_§ hunt_group - キュー エンティティ_*_<br>_*の呼び出し _§ orgaa - 組織の自動応答エンティティ_**<br>§ shared_voicemail<br>§ 不明<br>§ ユーザー |
-|呼び出しの種類 <sup>1</sup>                   |テキスト                     |呼び出し可能な値の種類:<br><br>§ 外部<br>§ 内部         |
+|呼び出しの種類<sup>1</sup>                   |テキスト                     |呼び出し可能な値の種類:<br><br>§ 外部<br>§ 内部         |
 |IsAAInvolved                            |テキスト                     |常に 1                                                                 |
 |PSTNMinutes                             |整数             |要約: 合計<br>合計分の使用量                                     |
 |TotalCallCount                          |整数             |要約: 合計<br>常に 1 - すべての呼び出しの合計を提供するために使用されます            |
@@ -180,7 +180,7 @@ Power BI Desktopがインストールされている必要があります。 [Mi
 
 |[レポート] セクション                          |説明                                                        |
 |:---------------------------------------|:------------------------------------------------------------------|
-|着信呼び出し元 <sup>1</sup>        |内部/外部の呼び出し元による呼び出しの分布              |
+|着信元<sup>1</sup>        |内部/外部の呼び出し元による呼び出しの分布              |
 |通話ボリューム                             |呼び出しキュー別の呼び出しの分布                                |
 |呼び出し元の結果                           |呼び出し結果による呼び出しの分布                                |
 |タイムアウト/オーバーフロー呼び出しの合計アクション      |呼び出し結果による NOT Forwarded(Abandoned) 呼び出しの分布       |
@@ -205,7 +205,7 @@ Power BI Desktopがインストールされている必要があります。 [Mi
 |:-----------------------------------|:-------------------------------------|:---------------------|
 |日付セレクター                       |Date -> DateTime                     |なし                  |
 |キュー ID の呼び出し                 |dCQ-CQIdentity -> コール キュー ID |なし                  |
-|着信呼び出し元 <sup>1</sup>    |fCallQueueAnalytics ->呼び出し数<br>fCallQueueAnalytics ->呼び出しの種類    |外部呼び出し: 呼び出しの種類は外部です<br>内部呼び出し: 呼び出しの種類は内部です |
+|着信元<sup>1</sup>    |fCallQueueAnalytics ->呼び出し数<br>fCallQueueAnalytics ->呼び出しの種類    |外部呼び出し: 呼び出しの種類は外部です<br>内部呼び出し: 呼び出しの種類は内部です |
 |平均待機時間                    |fCallQueueFinalStateAction ->平均通話時間 (秒) |転送前: 呼び出しキュー呼び出しの結果がagent_joined_conferenceまたはtransferred_to_agent<br>ハングアップする前: 呼び出しキュー呼び出しの結果がagent_joined_conferenceまたはtransferred_to_agent |
 |結果の呼び出し                         |fCallQueueAnalytics ->呼び出し数<br>fCallQueueAnalytics -> 呼び出しキュー呼び出し結果 | なし |
 |タイムアウト/オーバーフロー呼び出しの合計アクション |fCallQueueFinalStateAction ->呼び出し数<br>fCallQueueFinalStateAction -> コール キューの最終状態アクション |キューの最終状態の呼び出しアクションが転送されない |
@@ -225,10 +225,10 @@ Power BI Desktopがインストールされている必要があります。 [Mi
 |名前                                    |データ型                |説明                                                                |
 |:---------------------------------------|:------------------------|:--------------------------------------------------------------------------|
 |通話数                              |整数             |要約: 合計<br>通話の数                                          |
-|呼び出しキュー呼び出しの結果                  |テキスト                     |呼び出しキュー呼び出しの最終状態 -- 可能な値:<br><br>§ agent_joined_conference<br>§ 拒否済み<br>§ 切断済み<br>§ エラー<br>§ 失敗しました<br>§ 無効<br>§ overflown<br>§ timed_out<br>§ transferred_to_agent |
+|呼び出しキュー呼び出しの結果                  |テキスト                     |呼び出しキュー呼び出しの最終状態 -- 可能な値:<br><br>§ agent_joined_conference (応答済みの電話会議モードの呼び出し)<br>§ 拒否済み<br>§ 切断済み<br>§ エラー<br>§ 失敗しました<br>§ 無効<br>§ overflown (オーバーフロー条件が満たされました)<br>§ timed_out (タイムアウト条件が満たされている)<br>§ transferred_to_agent (応答された転送モード呼び出し {default}) |
 |キュー ID の呼び出し                     |テキスト                     |呼び出しキューにアタッチされているリソース アカウントの名前<br><br>完全なリソース アカウント名が **cq_test@microsoft.com** されている場合、この値は **次のようになります: cq_test** |
 |呼び出しキュー ターゲットの種類                  |テキスト                     |***呼び出しリダイレクト ターゲットの型-可能な値:***<br><br>§ ApplicationEndpoint<br>§ メールボックス<br>§ その他<br>§ ユーザー |
-|呼び出しの種類 <sup>1</sup>                   |テキスト                     |呼び出し可能な値の種類:<br><br>§ 外部<br>§ 内部           |
+|呼び出しの種類<sup>1</sup>                   |テキスト                     |呼び出し可能な値の種類:<br><br>§ 外部<br>§ 内部           |
 |日付                                    |日付/時刻                |通話キュー呼び出しの開始日時 (時間) (UTC)                           | 
 |IsAbandoned                             |True/false               |True の呼び出しがエージェントによって応答されない場合                                   |
 |PSTN 接続の種類                  |テキスト                     |呼び出し可能な値の種類:<br><br>§ ExternalCall<br>§ InternalCall   |
@@ -248,7 +248,7 @@ Power BI Desktopがインストールされている必要があります。 [Mi
 |:---------------------------------------|:------------------------|:--------------------------------------------------|
 |平均通話時間 (秒)         |10 進数           |要約: 合計<br>平均通話時間 (秒単位) |
 |通話数                              |整数             |要約: 合計<br>通話の数                  |
-|呼び出しキュー呼び出しの結果                  |テキスト                     |呼び出しキュー呼び出しの最終的な状態 -可能な値:<br><br>§ agent_joined_conference<br>§ 拒否済み<br>§ 切断済み<br>§ エラー<br>§ 失敗しました<br>§ 無効<br>§ overflown<br>§ timed_out<br>§ transferred_to_agent |
+|呼び出しキュー呼び出しの結果                  |テキスト                     |呼び出しキュー呼び出しの最終的な状態 -可能な値:<br><br>§ agent_joined_conference (応答済みの電話会議モードの呼び出し)<br>§ 拒否済み<br>§ 切断済み<br>§ エラー<br>§ 失敗しました<br>§ 無効<br>§ overflown (オーバーフロー条件が満たされました)<br>§ timed_out (タイムアウト条件が満たされている)<br>§ transferred_to_agent (応答転送モード呼び出し {default} |
 |キューの最終的な状態の呼び出しアクション           |テキスト                     |呼び出しキューの最終的なアクション-可能な値:<br><br>§ 切断 (timed_out呼び出し)<br>§ disconnect_with_busy (オーバーフロー呼び出し)<br>§ failed_to_accept_call<br>§ 前方<br>§ shared_voicemail<br>§ その他<br>§ ボイスメール |
 |キュー ID の呼び出し                     |テキスト                     |呼び出しキューにアタッチされているリソース アカウントの名前<br><br>完全なリソース アカウント名が **cq_test@microsoft.com** されている場合、この値は **次のようになります: cq_test** |
 |日付                                    |日付/時刻                |通話キュー呼び出しの開始日時 (時間) (UTC)   |

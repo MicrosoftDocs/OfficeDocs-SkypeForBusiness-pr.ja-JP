@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams でのウェビナーのセットアップ
-author: mkbond007
-ms.author: mabond
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: sachung, emryan
 ms.topic: article
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Teams会議のウェビナー ポリシーを管理する方法について説明します。
-ms.openlocfilehash: 2cf3af39b64506fc8802eafd1e2c45f35b7a4d00
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 247d5c560075dfd0498ea76b476d5515d0fc6f07
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646246"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045706"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Microsoft Teams でのウェビナーのセットアップ
 
@@ -41,7 +41,7 @@ ms.locfileid: "65646246"
 
 ## <a name="allow-users-to-schedule-webinars-in-the-teams-admin-center"></a>Teams管理センターでウェビナーをスケジュールできるようにする
 
-Teams管理センターを使用して、組織のウェビナーを設定できます。 ウェビナーを設定するポリシーは、**MeetingsMeeting** >  ポリシーのTeams管理センターにあります。
+Teams管理センターを使用して、組織のウェビナーを設定できます。 ウェビナーを設定するポリシーは、会議の会議ポリシーの下にあるTeams管理センター > **にあります。**
 
 ### <a name="meeting-registration"></a>会議の登録
 
