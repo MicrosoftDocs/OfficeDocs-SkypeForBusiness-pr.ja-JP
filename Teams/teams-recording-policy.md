@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a86535c701b38b65d1610dc3aa8af2b5616d4a3
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: b6fb06062902ee5bb0b3ab3f41f25a712933dd37
+ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823006"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66056927"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>通話&会議のポリシーベースの記録Teamsの概要
 
@@ -55,12 +55,12 @@ Teamsは、Teams通信を構成、管理、記録、保存、分析するため�
 
 | 種類                   | 便利 (通常のTeams記録) | 組織 - 規制 (コンプライアンス記録) |
 | ---------------------- | ------------------ | --------------- |
-| イニシエーター              | ユーザー               | 管理 (システム)  |
+| イニシエーター              | ユーザー               | 管理者 (システム)  |
 | Target                 | 通話/会議ごと | ユーザーごと        |
 | Storage所有者          | ユーザー               | コンプライアンス      |
-| 通知が必要ですか? | はい                | はい             |
+| 通知が必要ですか? | はい                | Yes             |
 | アクセス所有者           | ユーザー               | コンプライアンス      |
-| アイテム保持ポリシー      | 省略可能           | はい             |
+| アイテム保持ポリシー      | 省略可能           | Yes             |
 
 Teamsには、会議やライブ イベントの[便利](./cloud-recording.md)で機能的な記録のためのさまざまな機能が用意されています。 組織の記録とは、呼び出しと会議のTeamsを採用する組織が、関連する企業または規制のポリシーで必要に応じて、通話とオンライン会議を自動的に記録し、その後の処理とリテンションのためにキャプチャする必要がある場合に、管理ポリシーを使用して規定することを可能にすることを意味します。 このポリシーのユーザーは、Teamsとのデジタル操作が記録されていることに注意しますが、記録を無効にすることはできず、操作が完了すると記録にアクセスできなくなります。 記録は、電子情報開示、訴訟ホールド、およびその他の企業保有に使用するコンプライアンス担当者と法務担当者が利用できる組織アーカイブの一部になります。
 
@@ -240,6 +240,7 @@ IT 管理者は、コンプライアンス記録ポリシーを作成して割�
 
 |パートナー|ソリューションの Web サイト |
 |:--|:--|
+|GuardRec |[https://www.guardrec.com/en/teams-compliance-recording/](https://www.guardrec.com/en/teams-compliance-recording/) |
 |Landis Technologies |[https://landistechnologies.com/](https://landistechnologies.com/) |
 |Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
 

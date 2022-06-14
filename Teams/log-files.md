@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Microsoft Teamsによって生成されるデバッグ、メディア、デスクトップのログについて説明します。このログを見つけることができます。また、監視とトラブルシューティングに役立つ方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d8e3ab079498ecfca11a7d2ba48736aaf457329
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 178e89ff91de4638f6a9ff56a4dcb935d18f6f91
+ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059108"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66056947"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>ログ ファイルを使用してMicrosoft Teamsを監視およびトラブルシューティングする
 
@@ -95,12 +95,16 @@ Windowsと Mac の手順については、「_ログの収集と有効化_」セ
 -   通話/会話
 
 Linux のログを収集するには:
-- キーボード ショートカット: <kbd>CtrlAltShift1</kbd> + <kbd></kbd> + <kbd></kbd> + <kbd></kbd>  
+- キーボード ショートカット: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>  
 - ファイルは次のページで使用できます。 `~/Downloads`
 
 ブラウザーとWindowsのログを収集するには:
-- キーボード ショートカット: <kbd>CtrlAltShift1</kbd> + <kbd></kbd> + <kbd></kbd> + <kbd></kbd>  
+- キーボード ショートカット: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>  
 - ファイルは次のページで使用できます。 `%userprofile%\Downloads`
+
+Mac のログを収集するには:
+- キーボード ショートカット: <kbd>Option</kbd> + <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>  
+- ファイルは次のページで使用できます。 `~/Downloads`
 
 ## <a name="media-logs"></a>メディア ログ
 
@@ -153,7 +157,11 @@ Windowsと Mac の手順については、「_ログの収集と有効化_」セ
 Linux のログを収集するには:
 - システム トレイのMicrosoft Teams アイコンをクリックし、[ログの取得] を選択 **します**。
 - ファイルは .`~/.config/Microsoft/Microsoft Teams/logs.txt`
-  
+
+Mac のログを収集するには:
+- Microsoft Teamsの [ヘルプ] メニューをクリックし、[**サポート ファイルの収集**] を選択します。
+- ファイルは `logs.txt` 、 _MSTeams Diagnostics Log \<local date and time>_ フォルダー内のデスクトップ フォルダーに格納されます。
+
 Windowsのログを収集するには:
 - システム トレイのMicrosoft Teams アイコンをクリックし、[**サポート ファイルの収集**] を選択します。
 - ファイルは`logs.txt`自動的にメモ帳で開きます。

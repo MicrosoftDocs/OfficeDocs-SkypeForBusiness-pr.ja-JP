@@ -13,12 +13,12 @@ f1.keywords:
 description: Microsoft Teams の統合されたサービスとしてのコンタクト センター（CCaaS）ソリューションの概要
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e4df6a7f8fbdc907bb4fc88e95fe119fbbbdf47
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: f441785af609c9336fd03707f9eee334070fb885
+ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823432"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66056937"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teamsの連絡先センターの統合
 
@@ -68,6 +68,8 @@ Microsoft Teams認定プログラムのコネクテッド コンタクト セン
 
 |  ソリューション プロバイダー                                                                                                                               |  ソリューションの Web サイト                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `CentrePal` | https://www.centrepal.com/                                 |
+| `Cisco` | https://www.cisco.com/c/en/us/products/contact-center/webex-contact-center/index.html                                |
 | `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | `ContactCenter4All` | www.contactcenter4all.com |
 | `Cirrus` | https://www.cirrusresponse.com/cloud-contact-centre/microsoft-teams/ |
@@ -84,6 +86,5 @@ Microsoft Teams認定プログラムのコネクテッド コンタクト セン
 | `Sikom` | http://www.sikom.de/microsoft-teams/                            |
 | `Talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
 | `Vonage` |  https://www.vonage.com/contact-centers/integrations/microsoft-teams/                                 |
-| `GuardRec` | https://www.guardrec.com/en/teams-compliance-recording                          |
 
 この一覧は、より多くのソリューション プロバイダーが参加し、認定基準を満たすにつれて更新されます。

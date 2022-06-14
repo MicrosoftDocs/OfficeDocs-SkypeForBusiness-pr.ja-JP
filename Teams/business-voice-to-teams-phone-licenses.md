@@ -6,23 +6,20 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-f1.keywords:
-- NOCSH
 ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-- m365initiative-voice
 search.appverid: MET150
 description: Business Voice ライセンスを Teams 電話 ライセンスに変更する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39e374175b4ba0a7613405305c4db3baa0e69171
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: e9e973d00761e62e62a3c749163f9e6dcaa8a636
+ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046189"
+ms.locfileid: "66057097"
 ---
 # <a name="move-from-business-voice-to-teams-phone-licenses"></a>Business Voice から Teams 電話 ライセンスに移行する
 
@@ -38,6 +35,11 @@ Business Voice には、次の 3 つのTeamsアドオン ライセンスがバ�
 
 この記事は、同じ機能を維持しながら、Business Voice ライセンスをMicrosoft Teams 電話ライセンスに変更し、ライセンスを電話会議する必要がある IT 管理者向けです。
 
+> [!WARNING]
+> この記事の手順に密接に従ってください。 指示に従って **[保存** ] ボタンを選択しないように指示されている場合は、[ **保存]** ボタンを選択しないでください。
+>
+> 途中で保存すると、電話番号の割り当て、ダイヤル プラン、自動応答、通話キューが失われる可能性があります。
+
 ## <a name="acquire-new-licenses"></a>新しいライセンスを取得する
 
 Business Voice ライセンスを置き換える前に、まずユーザーの代替ライセンスを購入する必要があります。
@@ -52,18 +54,17 @@ Business Voice ライセンスを置き換える前に、まずユーザーの�
 
 | 古いライセンス プラン | 推奨されるライセンス プラン | 説明 |
 | ---------------- | ------------------------ | ----------- |
-| 通話プラン付き Business Voice | 通話プランが設定された Teams 電話 | PSTN プロバイダーとして Microsoft とクラウド ベースの電話システム機能と国内通話プランを提供します。 |
-| 通話プランのないビジネス音声 | Teams 電話スタンダード | オペレーター接続[またはダイレクト ルーティングを使用してサード パーティの PSTN プロバイダーを使用して通話プラン](pstn-connectivity.md)と組み合わせることができるクラウドベースの電話システム機能を提供します |
-| Business Voice (任意のバージョン) | Microsoft Team 電話会議ダイヤルアウトまたは電話会議を選択する | ライセンスを持つユーザーが開催した会議出席者にダイヤルイン機能とダイヤルアウト機能を提供します |
+| 通話プラン付き Business Voice | 通話プランを使用したTeams 電話と米国/CAN へのダイヤルアウトを使用したMicrosoft Teams 電話会議 | クラウドベースの電話システム機能、PSTN プロバイダーとして Microsoft を使用した国内通話プラン、ライセンスユーザーが組織した出席者へのダイヤルインおよびダイヤルアウト機能を提供します。 |
+| 通話プランのないビジネス音声 | USA/CAN へのダイヤルアウトを使用したTeams 電話スタンダードとMicrosoft Teams 電話会議 | オペレーター接続[またはダイレクト ルーティングを使用して PSTN プロバイダーとサード パーティ通話プランと](pstn-connectivity.md)組み合わせることができるクラウドベースの電話システム機能を提供し、ライセンスを持つユーザーによって組織された出席者にダイヤルインおよびダイヤルアウト機能を提供します。 |
 
 ## <a name="how-to-update-licenses"></a>ライセンスを更新する方法
 
 ライセンスを更新するには、次の 4 つの方法があります。
 
-- Microsoft 365 管理センターによるシングル ユーザー ライセンスの更新。
-- Microsoft 365 管理センターを使用したユーザー ライセンスの一括更新。
-- PowerShell スクリプトを使用したユーザー ライセンスの一括更新。
-- Azure グループ ベースのライセンスを使用したユーザー ライセンスの一括更新。
+- Microsoft 365 管理センターによるシングル ユーザー ライセンスの更新
+- Microsoft 365 管理センターを使用した一括ユーザー ライセンスの更新
+- PowerShell スクリプトを使用したユーザー ライセンスの一括更新
+- Azure グループ ベースのライセンスを使用した一括ユーザー ライセンスの更新
 
 # <a name="option-1-single-user-in-admin-center"></a>[オプション 1: 管理センターの 1 人のユーザー](#tab/single-user)
 
