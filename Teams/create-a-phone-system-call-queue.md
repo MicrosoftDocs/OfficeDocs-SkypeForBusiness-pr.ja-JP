@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Microsoft Teamsの大規模な組織の通話キューを設定する方法について説明します。 通話キューは、あいさつメッセージ、保留音楽、通話リダイレクト、その他の機能を提供します。
-ms.openlocfilehash: d6dd0d7211f9e430dbb716ff905c82443d5f4830
-ms.sourcegitcommit: 193aec6f3f6b6ac14b07e778b3485eed813f5e99
+ms.openlocfilehash: 0d871572f1b1c9b3baa727d35e66f21d93be1f58
+ms.sourcegitcommit: cd34cb3082392d4ca3390b2ecf5bcfe1db7d1046
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046439"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66068682"
 ---
 # <a name="create-a-call-queue"></a>呼び出しキューを作成する
 
@@ -155,6 +155,8 @@ Teams チャネルを介して最大 200 個のエージェントを追加でき
 > [!NOTE]
 > 場所ベースのルーティングが有効になっているダイレクト ルーティング ゲートウェイから通話がキューにルーティングされている場合、会議モードはサポートされません。
 >
+> 電話会議モードは、通話がSkype for Business Serverからキューにルーティングされる場合はサポートされません。
+> 
 > 会議モードは、Teamsユーザーが通話キューを使用して通話を参照/転送する必要がある場合に必要です。
 
 > [!TIP]
