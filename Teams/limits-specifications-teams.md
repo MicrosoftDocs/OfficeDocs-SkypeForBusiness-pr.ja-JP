@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cdbae6cacd861602baea69ec9682f8069dc720a0
-ms.sourcegitcommit: 1ac37cc27d4ccb3e1dae20ca1929214e17be2075
+ms.openlocfilehash: 2d31474233057d930ccdbc0bdfea27262cc5dc04
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "65913435"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046006"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -45,8 +45,8 @@ ms.locfileid: "65913435"
 |チームごとのチャネル数    | 200 (削除されたチャネルを含む)<sup>4</sup>        |
 |チームごとのプライベート チャネル数    |30 (削除されたチャネルを含む)<sup>4</sup>        |
 |プライベート チャネルのメンバー数    |250|
-|チームにインポートできる配布リスト、セキュリティ グループ、または Office 365 グループの最大サイズ    |3,500|
-|チームに変換できる Office 365 グループのメンバーの最大数    |10,000<sup>6</sup>     |
+|チームにインポートできる配布リスト、セキュリティ グループ、または Microsoft 365 グループの最大サイズ    |3,500|
+|チームに変換できる Microsoft 365 グループのメンバーの最大数    |10,000<sup>6</sup>     |
 |チャネル会話の投稿サイズ | 投稿ごとに約 28 KB<sup>5</sup> |
 
 <sup>1</sup> Azure Active Directory のすべてのディレクトリ オブジェクトはこの制限にカウントされます。グローバル管理者は、[アプリケーションのアクセス許可](/graph/permissions-reference)を使用して Microsoft Graph を呼び出すアプリと同様に、この制限から除外されます。
@@ -62,7 +62,7 @@ ms.locfileid: "65913435"
 チーム外の <sup>6</sup> 人の共有チャネル メンバーは、この制限にカウントされます。 さらに、メンバー数が 10,000 人以上のチームでは、チーム/チャネルのメンションはブロックされます。
 
 > [!NOTE]
-> 共有チャネル プレビューの制限については、「[共有チャネル (プレビュー) の制限](/MicrosoftTeams/shared-channels#limits-for-shared-channels-preview)」を参照してください。
+> 共有チャネルの制限については、「[共有チャネルの制限](/MicrosoftTeams/shared-channels#limits-for-shared-channels)」 を参照してください。
 
 ## <a name="messaging"></a>Messaging
 
