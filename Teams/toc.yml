@@ -1033,7 +1033,7 @@ items:
         items:
           - name: 電話システムのガイダンス
             href: business-voice/whats-business-voice.md
-          - name: Business Voice から Teams Phone のライセンスに移行する
+          - name: Business Voice から Teams 電話のライセンスに移行する
             href: business-voice-to-teams-phone-licenses.md
           - name: 国および地域ごとの利用可能性
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
@@ -1407,6 +1407,8 @@ items:
             href: rooms/standards-and-room-planner.md
           - name: 顧客から報告されたインシデント
             href: rooms/customer-reported-incidents.md
+          - name: データとプライバシー情報
+            href: rooms/data-and-privacy-info.md
           - name: Teams Rooms モバイル アプリケーションの使用
             href: rooms/extended-mobile-app.md
       - name: デバイス
