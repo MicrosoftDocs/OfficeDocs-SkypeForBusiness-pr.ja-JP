@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62aad63fcf2f3e04cd917de9cef60a8b95dbf489
-ms.sourcegitcommit: 20d44ce9a62ba2fb60f989d2e7bbc9333055e783
+ms.openlocfilehash: 2fb436ef2e8b32f737fcfa10823b54dc0e6a7cca
+ms.sourcegitcommit: 07abd8fdb653e57a839ded72620d0179049f25dc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65063308"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66088583"
 ---
 # <a name="overview-of-loop-components-in-teams"></a>TeamsのLoop コンポーネントの概要
 
@@ -42,7 +42,7 @@ TeamsのLoop コンポーネントの管理者設定については、「SharePo
 
 ## <a name="clients-and-platforms"></a>クライアントとプラットフォーム
 
-Windows、Mac、Linux、iOS、Android 上のTeams アプリで利用できます。
+Windows、Mac、Linux、iOS、Android上のTeams アプリで利用できます。
 
 ## <a name="loop-components-and-fluid-files"></a>Loop コンポーネントと .fluid ファイル
 
@@ -76,9 +76,17 @@ Office.com でTeams チャットからコンポーネントを開くと、他の
 
 .fluid ファイルは検出可能ですが、電子情報開示ワークフローのサポートは限られています。 現在、.fluid ファイルは作成者のOneDriveに格納され、電子情報開示 (Standard) と電子情報開示 (プレミアム) の両方で検索と収集に使用できます。 ただし、プレビューではレンダリングされず、レビュー用のエクスポート形式は既存のツールでは使用できません。 エクスポートされたコンテンツを表示するには、OneDriveにアップロードします。 必要に応じて、[設定管理](/sharepoint/manage-loop-components#settings-management)セクションで説明されているように、これらのエクスペリエンスを一時的に無効にすることができます。
 
+## <a name="if-loop-is-disabled-from-the-admin-switch-what-will-the-user-experience-be"></a>管理者スイッチからLoopが無効になっている場合、ユーザー エクスペリエンスはどうなりますか?
+
+[設定管理](/sharepoint/manage-loop-components#settings-management)セクションで説明されているようにこれらのエクスペリエンスを無効にすると、次のエクスペリエンスの変更が適用されます。
+
+- メッセージング内の作成/挿入エントリ ポイントTeams非表示になります。 ユーザーは新しい .fluid ファイルを作成できません。
+- 以前は対話型のLoop コンポーネントとしてレンダリングされた既存のメッセージは、代わりにハイパーリンク "Loop コンポーネント" としてレンダリングされます。 Teams内に対話型コンテンツは表示されません。
+- エンド ユーザーが "Loop コンポーネント" ハイパーリンクをクリックするか、OneDrive for Businessの .fluid ファイルを参照して開くと、別のブラウザー タブでファイルが開きますが、エンド ユーザーはファイルを編集できません。
+
 ## <a name="known-issues"></a>既知の問題
 
-- Android でTeamsを使用している場合、チャット内のLoopコンポーネントをOffice アプリ経由で編集することはできません。
+- AndroidでTeamsを使用している場合、チャット内のLoopコンポーネントをOffice アプリ経由で編集することはできません。
 - テナントの既定のファイルのアクセス許可が *特定のユーザー* (ユーザーが指定したユーザーのみ) に設定され、コンポーネントの作成時に送信者が [アクセス許可] ダイアログの *[特定のユーザー* ] リストから一部のユーザーを削除した場合、それらのユーザーは引き続きコンテンツにアクセスできます。
 - テナントの既定のファイルアクセス許可が *[特定のユーザー* ] に設定されている場合 (ユーザーが指定したユーザーのみ)、ライブ コンポーネントへのリンクをコピーし、別のチャットで貼り付ける場合は、送信者がアクセス許可ダイアログを使用し、[特定のユーザー] オプションで受信者を追加して適切にアクセスを許可する必要があります。
 - テナントの既定のファイルアクセス許可が *[特定のユーザー* ] に設定されている場合 (ユーザーが指定したユーザーのみ)、20 人を超えるメンバーを含むグループ チャットでライブ コンポーネントを作成するには、送信者がコンポーネントのアクセス許可オプションを手動で選択する必要があります。
