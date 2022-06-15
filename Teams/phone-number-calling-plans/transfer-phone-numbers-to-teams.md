@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 移植ウィザードを使用して、現在のサービス プロバイダーからMicrosoft Teamsに電話番号を転送する方法について説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f7d41f95dce78d7ebe783ccb44f23998c0898009
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 5b139d332026ffe0ec8338cbe54f6a5309e6e2df
+ms.sourcegitcommit: 39fc58109da6b4628ffb658f2c6b94099e0ab604
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62418350"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66103254"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Microsoft Teamsに電話番号を転送する
 
@@ -34,6 +34,7 @@ Microsoft Teams管理センターの移植ウィザードを使用して、現�
 
   > [!NOTE]
   > 電話番号を転送するポート注文は、祝日や週末ではなく、米国営業日にのみ処理されます。
+  > 無料電話番号の移植の可用性は、国と地域によって異なる場合があります。 詳細については、お客様の国または地域固有のドキュメントを参照して、移植サービスのサポートを参照してください。
 
 ## <a name="create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>ポート注文を作成し、電話番号をTeamsに転送する
 
@@ -89,7 +90,7 @@ Microsoft Teams管理センターの移植ウィザードを使用して、現�
 
 ポート注文を受け取ると、要求を確認する電子メールが届きます。 要求は毎日チェックされ、更新され、その進行状況と状態が電子メールで通知されます。 ポート要求が失われる通信事業者によって拒否された場合は、 [TNS サービス デスク](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)にお問い合わせください。
 
-ポート注文の状態を表示するには、Microsoft Teams管理センターの左側のナビゲーションで **、VoicePort** >  **の注文** を>し、[**注文履歴**] をクリックします。 各ポートの順序の状態が [ **状態]** 列に一覧表示されます。 詳細については、 [ポート注文の状態に関するページを参照してください。](port-order-status.md)
+ポート注文の状態を表示するには、Microsoft Teams管理センターの左側のナビゲーションで、**音声** > **ポートの注文**>移動し、[**注文履歴**] をクリックします。 各ポートの順序の状態が [ **状態]** 列に一覧表示されます。 詳細については、 [ポート注文の状態に関するページを参照してください。](port-order-status.md)
 
 
 ## <a name="reporting-telephone-number-issues"></a>電話番号の問題を報告しますか?

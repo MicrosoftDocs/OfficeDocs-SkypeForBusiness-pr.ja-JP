@@ -13,12 +13,12 @@ ms.collection:
 description: Teams PowerShell の最新の変更点について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55b942cb3bf57c169d0f278a90e94d9792c315eb
-ms.sourcegitcommit: e8a78c24fda7e56c7b217a843a8a5f1c30aa95f6
+ms.openlocfilehash: 87f3a65821b243372dcf990071b3bf1a2eb3b484
+ms.sourcegitcommit: 39fc58109da6b4628ffb658f2c6b94099e0ab604
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/31/2022
-ms.locfileid: "65785997"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66103224"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>PowerShell リリース ノートのMicrosoft Teams
 
@@ -31,6 +31,7 @@ ms.locfileid: "65785997"
 
 | 日付 | バージョン | 更新 |
 |------- | -------------------- | ------------------------------ |
+| 2022 年 6 月 | [4.4.3-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.4.3-preview) |<li>Get-CsAutoAttendantStatus コマンドレットの IncludeResources パラメーターをサポートします。</li><li>Get-CsOnlineUser コマンドレットの SoftDeletedUsers パラメーターをサポートします。</li><li>[Get\|Grant]-CsTeamsMediaLoggingPolicy コマンドレットをリリースします。</li><li>[New Set]-CsAutoAttendant & [New\|\|Set]-CsCallQueue コマンドレットの AuthorizedUsers 省略可能なパラメーターをサポートします。</li><li>コマンドレットの設定後にプロンプトの種類を切り替えることができなかった共有ボイスメール プロンプト パラメーターSet-CsCallQueue修正しました。</li><li> [New\|Set]-CsOnlineSchedule コマンドレットがヨーロッパの日時形式で動作するように修正しました。</li>
 | 2022 年 5 月 | [4.4.1](https://www.powershellgallery.com/packages/MicrosoftTeams/4.4.1) |<li>モジュールのサイズの改善。</li><li>最新バージョンのすべてのコマンドレットでサポートされていないパラメーターは、エラーが発生します。</li><li>[Get\|Set]-CsOnlineDialInConferencingUser、Get-CsOnlineDialInConferencingBridge、[Get\|Set\|Register\|Unregister]-CsOnlineDialInConferencingServiceNumber & Get-CsOnlineDialInConferencingLanguagesSupported コマンドレットのエラー処理を修正しました。</li><li>Test-CsOnlineLisCivicAddressコマンドレットを非推奨にしました。</li><li>ユーザー プリンシパル名 (UPN) & GUID は、最新化された [Get\|Remove]-CsOnlineApplicationInstanceAssociation コマンドレットの ID として使用できるようになりました。</li><li> [BREAKING CHANGE] Get-CsOnlineUser - ユーザーにそのポリシーが割り当てられていない場合、出力のポリシー属性は null になります。 以前のバージョン (3.0.0 から 4.3.1) では、これらの属性は空の UserPolicyDefinition オブジェクトでした。</li><li>入力パラメーターで null または空の配列値を許可するSet-CsCallQueueを修正しました。</li><li>Get-CsPhoneNumberAssignment - City & IsoSubdivision 属性が出力に追加されます。</li>
 | 2022 年 5 月 | [4.3.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.3.1-preview) |<li>モジュールのサイズの改善。</li><li>最新バージョンのすべてのコマンドレットでサポートされていないパラメーターは、エラーが発生します。</li><li>[Get\|Set]-CsOnlineDialInConferencingUser、Get-CsOnlineDialInConferencingBridge、[Get\|Set\|Register\|Unregister]-CsOnlineDialInConferencingServiceNumber & Get-CsOnlineDialInConferencingLanguagesSupported コマンドレットのエラー処理を修正しました。</li><li>プレビュー段階で Scale コマンドレットでのデプロイをリリースします - Get-CsBatchTeamsDeploymentStatus New-CsBatchTeamsDeployment &。</li><li>ユーザー プリンシパル名 (UPN) & GUID は、最新化された [Get\|Remove]-CsOnlineApplicationInstanceAssociation コマンドレットの ID として使用できるようになりました。</li>
 | 2022 年 5 月 | [4.3.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.3.0) |<li>[Set\|Remove]-CsPhoneNumberAssignment コマンドレットのエラー処理を修正しました。</li><li>[Get\|削除の設定\|]-CsOnlineLisSubnet – 最新化されたコマンドレットの Subnet パラメーターの修正。</li><li>[Get\|Set]-CsOnlineLisLocation & [Get\|Set]-CsOnlineLisCivicAddress – 最新化されたコマンドレットでサポートされているパラメーターに関する修正 (それぞれのパブリック ドキュメントの詳細)。</li>

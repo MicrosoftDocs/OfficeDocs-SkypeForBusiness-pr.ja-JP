@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: ポート注文の概要と、サービス プロバイダーからTeamsに電話番号を転送する方法について説明します。
-ms.openlocfilehash: bb9ebd91b1f5a08fb07eff0f469be4496714ecfc
-ms.sourcegitcommit: 766199440a152d97c95c2c45b7c4654815e64d9a
+ms.openlocfilehash: 37b8a56603ab7cd6888a624cca1b9e76ae8cfb03
+ms.sourcegitcommit: 39fc58109da6b4628ffb658f2c6b94099e0ab604
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "62963418"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66103244"
 ---
 # <a name="whats-a-port-order"></a>番号移行注文について
 
@@ -57,7 +57,8 @@ ms.locfileid: "62963418"
 - フリー ダイヤル電話番号。
 
     > [!NOTE]
-    > UIFN (世界共通国際フリーダイヤル番号) はマイクロソフトに移すことができません。 
+    > UIFN (世界共通国際フリーダイヤル番号) はマイクロソフトに移すことができません。
+    > 無料電話番号の移植の可用性は、国と地域によって異なる場合があります。 詳細については、お客様の国または地域固有のドキュメントを参照して、移植サービスのサポートを参照してください。 
   
 - 会議ブリッジや自動応答などで使用されるサービス電話番号。
 
@@ -70,7 +71,7 @@ ms.locfileid: "62963418"
 **次を転送することはできません。**
   
 > [!NOTE]
-> 現時点では、VoIP 電話プロバイダーの電話番号を含め、サポートされている国または地域からではない電話番号または電話番号を転送することはできません。 サポートされている国/地域の一覧については、「[電話会議と通話プランの国と地域の可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)」を参照してください。
+> 現時点では、VoIP 電話プロバイダーの電話番号を含め、サポートされている国または地域からではない電話番号または電話番号を転送することはできません。 サポートされている国/地域の一覧については、「[電話会議 プランと通話プランの国と地域の可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)」を参照してください。
   
 - DSL 回線やブロードバンド インターネット接続などのデータ接続で使用される電話番号を移転することもできません。
 
@@ -122,7 +123,7 @@ ms.locfileid: "62963418"
 
     移植する国と電話番号の種類には、正しい承認文字 (LOA) を使用することが重要です。 [ここで必要な LOA をダウンロード](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)できます。
 
-- **携帯電話番号** には、移行を承認するための PIN コードが必要です。したがって、個別の番号移行要求が必要です。
+- **携帯電話番号** には、移行を承認するための PIN コードが必要です。 したがって、個別の番号移行要求が必要です。
 
 - **サービス電話番号** の移行要求は、別に送信する必要があります。 他の種類の番号で送信することはできません。
 
