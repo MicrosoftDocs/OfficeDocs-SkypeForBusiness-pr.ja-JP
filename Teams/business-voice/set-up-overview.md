@@ -18,12 +18,12 @@ search.appverid: MET150
 description: 小規模から中規模のビジネスまたは組織で、通話プランを使用してシステムMicrosoft Teams 電話を設定する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a01a20172c07cba8d2bd501762acf0d726dff008
-ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
+ms.openlocfilehash: 80b58e19053b799adf85d1e04947f87de0d4eba5
+ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "63053066"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "66124142"
 ---
 # <a name="set-up-the-teams-phone-system-with-calling-plan-bundle-for-small-to-medium-businesses"></a>小規模から中規模の企業向けの通話プラン バンドルを使用してTeams 電話システムを設定する
 
@@ -43,7 +43,7 @@ ms.locfileid: "63053066"
 
 通話プラン バンドルを使用して電話システムを設定する前に、いくつかの操作を行う必要があります。 次のタスクは、組織の準備が整っていることを確認します。
 
-* **通話プラン バンドル ライセンスを使用してTeams 電話を購入** し、フリーダイヤル番号を取得する場合、通話通話を発信する場合、または通信クレジットを購入する場合は、「[通話プラン バンドル ライセンスを使用してTeams 電話を購入](whats-business-voice.md#purchase-teams-phone-with-calling-plan-bundle-licenses)する」を参照してください。
+* **通話プラン バンドル ライセンスを使用してTeams 電話を購入** し、フリーダイヤル番号を取得する場合、通話通話を発信する場合、または通信クレジットを購入する場合は、「[通話プラン バンドル ライセンスを使用してTeams 電話を購入](whats-business-voice.md#how-do-i-purchase-teams-phone-with-calling-plan-bundle-licenses)する」を参照してください。
 * **インターネット接続が電話システムをサポートできることを確認します**。 詳細については、「[Teams 電話システムのインターネット接続を確認する」を参照してください](get-ready-internet.md)。
 
 通話プラン バンドルを使用して電話システムの組織を準備したら、[**次の手順: 通話プランでTeams 電話システムの設定を開始** する] を選択します。

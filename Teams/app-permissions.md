@@ -12,19 +12,19 @@ ms.collection:
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: rowille
-description: 管理者は、アプリが組織に要求Microsoft Teamsデータとアクセス許可を確認できます。
+description: 管理アプリが組織に要求Microsoft Teamsデータとアクセス許可を確認できます。
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c95f5ab273112b29b91a312111000ba2dac76f9e
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: a9ce3fccd8974bd7f8cba04d01bf16738772ea11
+ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556328"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "66124182"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams アプリのアクセス許可と考慮事項
 
@@ -38,17 +38,6 @@ Microsoft Teams アプリは、1 つ以上の機能を、インストール、�
 管理者は、アプリのみを管理します。 ただし、この記事では、アプリの機能がアプリの必要なアクセス許可とリスク プロファイルに影響を与えるので、機能レベルでのアクセス許可と考慮事項に焦点を当てています。 使用のために、アプリはユーザーによって同意され、ポリシーの観点から IT 担当者によって管理されます。
 
 たとえば `RECEIVE_MESSAGE` 、以下に示すアクセス許可は大文字で示されており `REPLYTO_MESSAGE` 、説明と説明のみを目的としています。 これらの文字列またはアクセス許可は、[Microsoft Teams開発者向けドキュメント](/microsoftteams/platform/overview)や [Microsoft Graphのアクセス許可](/graph/permissions-reference)のどこにも表示されません。
-
-<!--- TBD: What does this table mean? The icons are not used anywhere in this article so commenting this for now.
-
-| Title   | Description    |
-|-----------|------------|
-| ![An icon depicting a decision point](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Use the tables below as a guide to understand which permissions the apps you're investigating are requesting.</li></ul> |
-| ![An icon depicting the next step](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Research the app or service itself to decide whether you want to allow access to it within your organization. For example, bots send and receive messages from users, and—except for enterprise custom bots—they're located outside the compliance boundary. Therefore, any app that includes a bot requires those permissions and has that minimum risk profile. </li></ul>|
-
-See also [Request device permissions for your Microsoft Teams tab](/microsoftteams/platform/concepts/device-capabilities/native-device-permissions).
-
---->
 
 ## <a name="global-app-permissions-and-considerations"></a>グローバル アプリのアクセス許可と考慮事項
 
@@ -66,7 +55,7 @@ See also [Request device permissions for your Microsoft Teams tab](/microsofttea
 
 * [リソース固有の同意](resource-specific-consent.md) は、アプリが要求できる一連のアクセス許可を提供します。アプリのインストール画面に表示されます。 リソース固有の同意アクセス許可の詳細については、「[Graphアクセス許可のリファレンス」を参照](/graph/permissions-reference#teams-resource-specific-consent-permissions)してください。
 
-* アプリには、リソース固有の同意アクセス許可以外のアクセス許可が必要な場合もあります。 アプリをインストールした後、アプリは同意プロンプトを使用してGraphアクセス許可を要求できます。 詳細については、「[アプリケーションの同意エクスペリエンスAzure AD理解](/azure/active-directory/develop/application-consent-experience)する」を参照してください。 API のアクセス許可と同意は、Azure portalで構成できます。 詳細については、[同意フレームワークAzure Active Directory](/azure/active-directory/develop/consent-framework)参照してください。
+* アプリには、リソース固有の同意アクセス許可以外のアクセス許可が必要な場合もあります。 アプリをインストールした後、アプリは同意プロンプトを使用してGraphアクセス許可を要求できます。 詳細については、「 [Azure AD アプリケーションの同意エクスペリエンスについて](/azure/active-directory/develop/application-consent-experience)」を参照してください。 API のアクセス許可と同意は、Azure portalで構成できます。 詳細については、[同意フレームワークAzure Active Directory](/azure/active-directory/develop/consent-framework)参照してください。
 
 ## <a name="bots-and-messaging-extensions"></a>ボットとメッセージング拡張機能
 
@@ -74,11 +63,7 @@ See also [Request device permissions for your Microsoft Teams tab](/microsofttea
 
 * RECEIVE_MESSAGE、REPLYTO_MESSAGE: ボットは、ユーザーからメッセージを受信し、それらに返信できます。<sup>1</sup>
 
-
 * POST_MESSAGE_USER: ユーザーがボットにメッセージを送信した後、ボットはユーザーダイレクト メッセージ ( *プロアクティブ メッセージ* とも呼ばれます) をいつでも送信できます。
-
-- POST_MESSAGE_USER。 ユーザーがボットにメッセージを送信した後、ボットはユーザーダイレクト メッセージ ( _プロアクティブ メッセージ_ とも呼ばれます) をいつでも送信できます。
-
 
 * GET_CHANNEL_LIST: チームに追加されたボットは、チーム内のチャネルの名前と ID の一覧を取得できます。
 
@@ -112,19 +97,17 @@ See also [Request device permissions for your Microsoft Teams tab](/microsofttea
 
 * ユーザーがボットと会話するとき、ボットがユーザーの ID を格納している場合、ユーザーのダイレクト メッセージはいつでも送信できます。
 
-* 理論的には、ボット メッセージにフィッシングサイトやマルウェア サイトへのリンクを含めることができる。 ただし、ボットは、ユーザー、テナント管理者、または Microsoft によってグローバルにブロックできます。
+* 理論的には、ボット メッセージにフィッシングサイトやマルウェア サイトへのリンクを含めることができる。 ただし、ボットは、ユーザー、テナント管理者、または Microsoft によってグローバルにブロックできます。 [アプリの検証と検証のチェック](overview-of-app-validation.md)により、偽のアプリがTeams ストアで使用できないことが保証されます。
 
-* ボットは、アプリが追加されたチーム メンバー、または個人チャットまたはグループ チャットの個々のユーザーの基本的な ID 情報を取得 (および格納する場合があります) できます。 これらのユーザーに関する詳細情報を取得するには、ボットがAzure Active Directoryにサインインする必要があります (Azure AD)。
+* ボットは、アプリが追加されたチーム メンバー、または個人チャットまたはグループ チャットの個々のユーザーの基本的な ID 情報を取得 (および格納する場合があります) できます。 これらのユーザーに関する詳細情報を取得するには、ボットがAzure Active Directory (Azure AD) にサインインする必要があります。
 
 * ボットは、チーム内のチャネルの一覧を取得 (および格納) できます。このデータは企業ネットワークから離れる。
 
-* ファイルがボットに送信されると、ファイルは企業ネットワークから離れる。 ファイルの送受信には、ファイルごとにユーザーの承認が必要です。 
+* 既定では、ボットにはユーザーに代わって行動する機能はありませんが、ボットはユーザーにサインインを求めることができます。ユーザーがサインインするとすぐに、ボットはアクセス トークンを持ち、追加の操作を行うことができます。 その他の内容は、ボットとユーザーがサインインする場所によって正確に異なります。ボットは Azure AD アプリに https://apps.dev.microsoft.com/ 登録されており、独自のアクセス許可のセットを持つことができます。
 
-* 既定では、ボットにはユーザーに代わって行動する機能はありませんが、ボットはユーザーにサインインを求めることができます。ユーザーがサインインするとすぐに、ボットはアクセス トークンを持ち、追加の操作を行うことができます。 これらの他の内容は、ボットとユーザーがサインインする場所によって正確に異なります。ボットは、登録されているAzure AD アプリでありhttps://apps.dev.microsoft.com/、独自のアクセス許可のセットを持つことができます。
+* ファイルがボットに送信されると、ファイルは企業ネットワークから離れる。 ファイルの送受信には、ファイルごとにユーザーの承認が必要です。
 
-- ファイルがボットに送信されると、ファイルは企業ネットワークから離れる。 ファイルの送受信には、ファイルごとにユーザーの承認が必要です。
-
-- 既定では、ボットにはユーザーに代わって行動する機能はありませんが、ボットはユーザーにサインインを求めることができます。ユーザーがサインインするとすぐに、ボットはアクセス トークンを持ち、追加の操作を行うことができます。 これらの追加機能は、ボットとユーザーがサインインする場所によって正確に異なります。ボットは[、アプリケーション登録ポータル](https://apps.dev.microsoft.com/?referrer=https:%2f%2fdocs.microsoft.com%2f#/appList)で登録されたAzure AD アプリであり、独自のアクセス許可のセットを持つことができます。
+* 既定では、ボットにはユーザーに代わって行動する機能はありませんが、ボットはユーザーにサインインを求めることができます。ユーザーがサインインするとすぐに、ボットはアクセス トークンを持ち、追加の操作を行うことができます。 これらの追加機能は、ボットとユーザーがサインインする場所によって正確に異なります。ボットは [、アプリケーション登録ポータル](https://apps.dev.microsoft.com/?referrer=https:%2f%2fdocs.microsoft.com%2f#/appList) に登録された Azure AD アプリであり、独自のアクセス許可のセットを持つことができます。
 
 * ボットは、ユーザーがチームに追加または削除されるたびに通知されます。
 
@@ -136,12 +119,12 @@ See also [Request device permissions for your Microsoft Teams tab](/microsofttea
 
 <sup>1</sup> 一部のボットはメッセージのみを送信します (POST_MESSAGE_USER)。 "通知専用" ボットと呼ばれますが、この用語はボットが許可されているか許可されていないかを指すのではなく、ボットが会話エクスペリエンスを公開したくないことを意味します。 Teamsこのフィールドを使用して、通常は有効になる UI の機能を無効にします。ボットは、会話エクスペリエンスを公開するボットと比較して許可される操作に制限されません。
 
-<sup>2</sup> アプリの manifest.json ファイル内のボット オブジェクトの supportsFiles Boolean プロパティによって管理されます。
+<sup>2</sup> アプリのファイル内 `manifest.json` のボット オブジェクトの supportsFiles Boolean プロパティによって管理されます。
 
 > [!NOTE]
 > ボットに独自のサインインがある場合は、ユーザーが初めてサインインする際の同意エクスペリエンスとは異なる 2 つ目があります。
 >
->現在、Teams アプリ内の機能 (ボット、タブ、コネクタ、またはメッセージング拡張機能) に関連付けられているAzure ADアクセス許可は、ここに示すTeamsアクセス許可とは完全に分離されています。
+>現時点では、Teams アプリ内の機能 (ボット、タブ、コネクタ、またはメッセージング拡張機能) に関連付けられている Azure AD アクセス許可は、ここに示すTeamsアクセス許可とは完全に分離されています。
 
 ## <a name="tabs"></a>タブ
 
@@ -157,13 +140,9 @@ None (現在)
 
 ### <a name="considerations"></a>考慮事項
 
-
 * タブのリスク プロファイルは、ブラウザー タブで実行されているのと同じ Web サイトとほぼ同じです。
 
-- タブのリスク プロファイルは、ブラウザー タブで実行されているのと同じ Web サイトとほぼ同じです。
-
-
-* タブは、現在のユーザーのサインイン名と UPN、現在のユーザーのAzure AD オブジェクト ID、それが存在するMicrosoft 365 グループの ID (チームの場合)、テナント ID、ユーザーの現在のロケールなど、実行されているコンテキストも取得します。 ただし、これらの ID をユーザーの情報にマップするには、タブでユーザーをAzure ADにサインインさせる必要があります。
+* タブは、現在のユーザーのサインイン名と UPN、現在のユーザーの Azure AD オブジェクト ID、それが存在するMicrosoft 365 グループの ID (チームの場合)、テナント ID、ユーザーの現在のロケールなど、実行されているコンテキストも取得します。 ただし、これらの ID をユーザーの情報にマップするには、タブでユーザーを Azure AD にサインインさせる必要があります。
 
 ## <a name="connectors"></a>コネクタ
 
@@ -198,7 +177,7 @@ REPLYTO_CONNECTOR_MESSAGE。 特定のコネクタでは、アクション可能
 
 ## <a name="outgoing-webhooks"></a>送信 Webhook
 
-_送信 Webhook_ は、チームの所有者またはチーム メンバーによってその場で作成されます。 これらは、Teams アプリの機能ではありません。この情報は完全に含まれています。
+_送信 Webhook_ は、チームの所有者またはチーム メンバーによって作成されます。 これらは、Teams アプリの機能ではありません。この情報は完全に含まれています。
 
 ### <a name="required-permissions"></a>必要なアクセス許可
 
@@ -216,8 +195,4 @@ RECEIVE_MESSAGE、REPLYTO_MESSAGE。 ユーザーからメッセージを受信�
 
 * シークレットを検証しない送信 Webhook を作成することは可能ですが、それに対して推奨されます。
 
-
 * メッセージの受信と返信以外に、送信 Webhook は多くのことを行うことはできません。メッセージをプロアクティブに送信できない、ファイルを送受信できない、メッセージの受信と返信以外にボットが行うことができる他の操作は実行できません。
-
-- メッセージの受信と返信以外に、送信 Webhook は多くのことを行うことはできません。メッセージをプロアクティブに送信できない、ファイルを送受信できない、メッセージの受信と返信以外にボットが行うことができる他の操作は実行できません。
-

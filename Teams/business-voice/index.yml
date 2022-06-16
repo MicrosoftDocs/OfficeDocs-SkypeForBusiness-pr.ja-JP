@@ -8,12 +8,12 @@ metadata:
   author: dstrome
   ms.author: dstrome
   ms.date: 06/17/2020
-  ms.openlocfilehash: 827b20998f8f787f4dcc980e92a1c7113f86aa14
-  ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
+  ms.openlocfilehash: 3ddbe9ac2d6882cef72f9aa3b3bc7a5a2525e0d2
+  ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 03/03/2022
-  ms.locfileid: "63053386"
+  ms.lasthandoff: 06/16/2022
+  ms.locfileid: "66124152"
 productDirectory:
   items:
   - title: 確認
@@ -28,7 +28,7 @@ productDirectory:
   - title: セットアップ
     imageSrc: https://docs.microsoft.com/office/media/icons/deploy-blue.svg
     links:
-    - url: ./whats-business-voice.md#purchase-teams-phone-with-calling-plan-bundle-licenses
+    - url: ./whats-business-voice.md#how-do-i-purchase-teams-phone-with-calling-plan-bundle-licenses
       text: 通話プランでTeams 電話システムを取得する方法
     - url: get-ready-internet.md
       text: インターネット接続を確認する
@@ -41,7 +41,7 @@ productDirectory:
     links:
     - url: port-phone-numbers.md
       text: 既存の電話番号をポートする
-    - url: ./create-a-phone-system-auto-attendant-smb.md
+    - url: ./set-up-auto-attendant.md
       text: 自動応答をセットアップする
     - url: set-up-policies.md
       text: ポリシーを設定する
