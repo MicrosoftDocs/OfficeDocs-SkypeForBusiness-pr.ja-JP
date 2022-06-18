@@ -805,11 +805,13 @@ items:
                 href: more-about-calling-line-id-and-calling-party-name.md
           - name: 自動応答と呼び出しキュー
             items:
-              - name: 計画
+              - name: 自動応答と通話キューを計画する
                 href: plan-auto-attendant-call-queue.md
-              - name: Auto attendantのセットアップ
+              - name: 通話ルーティング フローを計画する
+                href: plan-your-call-routing-flow.md
+              - name: 自動応答をセットアップする
                 href: create-a-phone-system-auto-attendant.md
-              - name: 通話キューの設定
+              - name: 通話キューを設定する
                 href: create-a-phone-system-call-queue.md
               - name: Teams のリソース アカウントを管理する
                 href: manage-resource-accounts.md
@@ -819,6 +821,8 @@ items:
                 href: answer-auto-attendant-and-call-queue-calls.md
               - name: レポート
                 href: aa-cq-cqd-historical-reports.md
+              - name: 自動応答と通話キューの PowerShell コマンドレット リファレンス
+                href: call-queue-auto-attendant-cmdlets.md
               - name: ダイヤルおよび音声参照
                 href: dial-voice-reference.md
           - name: 受信通話をブロックする
@@ -1056,7 +1060,7 @@ items:
               - name: '手順 5:ユーザーに電話番号を割り当てる'
                 href: business-voice/set-up-assign-numbers.md
               - name: '手順 6: 自動応答を設定する'
-                href: business-voice/set-up-auto-attendant.md
+                href: create-a-phone-system-auto-attendant.md
               - name: '手順 7: ポートの電話番号 (省略可能)'
                 href: business-voice/port-phone-numbers.md
               - name: 設定後の参考資料
@@ -1072,13 +1076,9 @@ items:
               - name: さらにユーザーを作成する
                 href: business-voice/create-users.md
               - name: 通話キューを設定する
-                href: business-voice/create-a-phone-system-call-queue-smb.md
-              - name: 自動応答を設定する
-                href: business-voice/create-a-phone-system-auto-attendant-smb.md
+                href: create-a-phone-system-call-queue.md
           - name: 電話システムのセットアップを管理する
             items:
-              - name: 1 名以上のユーザーを作成する
-                href: business-voice/create-users.md
               - name: デバイスを管理する
                 href: business-voice/manage-devices.md
               - name: 通話品質を監視する
@@ -1793,7 +1793,7 @@ items:
             href: teams-add-on-licensing/advanced-communications.md
           - name: メッセージング ポリシーのライセンス
             href: teams-add-on-licensing/pri-message.md
-          - name: Microsoft 365 電話システム - 仮想ユーザー ライセンス
+          - name: Microsoft Teams 電話標準 - 仮想ユーザー ライセンス
             href: teams-add-on-licensing/virtual-user.md
           - name: Teams Essentials の使用を開始する
             href: get-started-with-teams-essentials.md
