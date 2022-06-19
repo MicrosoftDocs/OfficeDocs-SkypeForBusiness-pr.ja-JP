@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03a2501236cd8dfa708790e49719d8103a187783
-ms.sourcegitcommit: 5640e8264b61c1f8cf8eb212315eeba1a794e494
+ms.openlocfilehash: 1b7ae345e3d3d94d93bb7ccc0eeb5f284296c2d5
+ms.sourcegitcommit: 39fc58109da6b4628ffb658f2c6b94099e0ab604
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "65928830"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66103264"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook で Teams の会議アドインを使用する
 
@@ -46,7 +46,7 @@ Teams の会議アドインは、Microsoft Teams と Office 2013、Office 2016�
 > - Regsvr32.exe ファイルを実行するユーザーのアクセス許可は、コンピューターに Teams 会議アドインをインストールするための最小要件です。
 > - Teams の会議アドインが表示されないユーザーに対しては、Outlook と Teams を閉じて、先に Teams クライアントを再起動してから Teams にサインインし、次に Outlook クライアントを再起動する操作を順に行うよう指示します。
 > - Microsoft ストアから Office Outlook のインストールを使用している場合、Teams 会議アドインはサポートされていません。 このアドインが必要なユーザーは、「[S モードでの Windows 10 の Office](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f)」の記事で説明されているとおり、Office のクイック実行バージョンをインストールすることをお勧めします。
-> - Teams 会議アドイン機能、埋め込み会議オプションには、[Webview2](/microsoft-edge/webview2/concepts/distribution) のインストールが必要になります。 WebView2 がインストールされていない場合、ユーザーはブラウザーにリダイレクトされます。これにより、特に会議の作成時にエクスペリエンスが低下する可能性があります。
+> - [webview2](/microsoft-edge/webview2/concepts/distribution) と .Net 4.8 のインストールは、Teams 会議アドインでのエクスペリエンスの低下を回避するために必要です。
 
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Outlook for Mac の Teams 会議アドイン
 
