@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 組織内のTeams ユーザーとSkype (コンシューマー) ユーザー間の相互運用性機能について説明します。
 ms.localizationpriority: medium
-ms.openlocfilehash: b18933b70708661dbb9f7f3a05aaa65983792c5c
-ms.sourcegitcommit: 71edff2670367082312de59c4e21775682871418
+ms.openlocfilehash: dd5bb05f1206baf94f2651899d0c49edbf6fe902
+ms.sourcegitcommit: 5bb00d639828c744951a39705fefe81ed6698efe
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "63043335"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "66167271"
 ---
 # <a name="teams-and-skype-interoperability"></a>相互運用性のTeamsとSkype
 
@@ -28,7 +28,7 @@ ms.locfileid: "63043335"
 - Teamsユーザーは、1 対 1 のテキストのみの会話や、Skype ユーザーとの音声/ビデオ通話を検索して開始できます。
 - Skypeユーザーは、1 対 1 のテキストのみの会話や、Teams ユーザーとの音声/ビデオ通話を検索して開始できます。
 
-これらの機能は、デスクトップ、Web、モバイル (Android および iOS) クライアントで、TeamsとSkypeの両方で使用できます。 最適なエクスペリエンスを得るには、バージョン 8.58 以降Skypeすることをお勧めします。
+これらの機能は、デスクトップ、Web、モバイル (AndroidおよびiOS) クライアントで、TeamsとSkypeの両方で使用できます。 最適なエクスペリエンスを得るには、バージョン 8.58 以降Skypeすることをお勧めします。
 
 > [!NOTE]
 > この記事で説明する Teams と Skype 相互運用機能は、GCC、GCC High、または DOD の展開、またはプライベート クラウド環境では使用できません。
@@ -73,7 +73,7 @@ Teams ユーザーは、Skype ユーザーからの最初の会話要求を受�
 
 ## <a name="set-whether-teams-users-can-communicate-with-skype-users"></a>TeamsユーザーがSkypeユーザーと通信できるかどうかを設定する
 
-管理者は、Microsoft Teams管理センターまたは PowerShell を使用して外部アクセス設定を設定し、組織内TeamsユーザーがSkype ユーザーと通信できるかどうかを制御します。 既定では、この機能は新しいテナントに対して有効になっています。 ただし、ドメイン (_sipfederationtls_tcp.contoso.com など) で使用できない場合は、IT 管理者が次の DNS SRV レコードを構成する必要があるという前提条件があります。  
+管理者は、Microsoft Teams管理センターまたは PowerShell を使用して外部アクセス設定を設定し、組織内TeamsユーザーがSkype ユーザーと通信できるかどうかを制御します。 既定では、この機能は新しいテナントに対して有効になっています。 ただし、ドメインでまだ使用できない場合は、IT 管理によって次の DNS SRV レコードを構成する必要があるという前提条件があります (例: _sipfederationtls._tcp.contoso.com)。  
 
 **サービス**: sipfederationtls<br/>
 **プロトコル**: TCP<br/>
@@ -86,7 +86,7 @@ Skype for BusinessからTeamsにアップグレードした場合、Skype for Bu
 
 ### <a name="in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターで
 
-Microsoft Teams管理センターで、組織全体の **settingsExternal** >  access に移動し、**ユーザーがSkypeユーザーと通信できるようにします**。 これと他の外部アクセス設定を構成する方法の詳細なガイダンスについては、「[Teamsで外部アクセスを管理する](./manage-external-access.md#allow-or-block-domains)」を参照してください。
+Microsoft Teams管理センターで、[ユーザー **の外部アクセス****]** >  に移動し、[**ユーザーはSkype ユーザーと通信できます**] をオンにします。 これと他の外部アクセス設定を構成する方法の詳細なガイダンスについては、「[Teamsで外部アクセスを管理する](./manage-external-access.md#allow-or-block-domains)」を参照してください。
 
 ### <a name="using-powershell"></a>PowerShell の使用
 

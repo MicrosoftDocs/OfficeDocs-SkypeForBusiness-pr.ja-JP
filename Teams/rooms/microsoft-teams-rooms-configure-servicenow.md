@@ -1,9 +1,9 @@
 ---
 title: Teams Rooms用に ServiceNow を構成する
-author: dstrome
-ms.author: dstrome
+author: donnah007
+ms.author: v-donnahill
 manager: serdars
-ms.reviewer: ''
+ms.reviewer: ronmart
 ms.topic: article
 ms.service: msteams
 audience: Admin
@@ -12,18 +12,21 @@ appliesto:
 localization_priority: Normal
 description: Teams Rooms プレミアム ポータルでの ServiceNow の構成の詳細
 f1keywords: ''
-ms.openlocfilehash: c11a4e3cf4f128c8043ad2451f7d0a7a2ffe1c2e
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: 6362d0bed4263ce374c1fb5cfd05d4d8815044c2
+ms.sourcegitcommit: 5bb00d639828c744951a39705fefe81ed6698efe
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761499"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "66167311"
 ---
 # <a name="configure-servicenow-for-teams-rooms"></a>Teams Rooms用に ServiceNow を構成する
 
 この記事では、Teams Rooms プレミアム ポータルで ServiceNow 環境を構成するための前提条件と手順について説明します。
 
-## <a name="before-you-begin"></a>はじめに
+## <a name="watch-microsoft-teams-rooms--managed-services-service-now-integration"></a>ウォッチ: Microsoft Teams Rooms — Managed Services Service Now Integration
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ZK4B]
+
 
 ### <a name="teams-rooms-prerequisites"></a>Teams Rooms前提条件
 
