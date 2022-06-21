@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a9ce3fccd8974bd7f8cba04d01bf16738772ea11
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+ms.openlocfilehash: 925136660ef6adda6374fab1acccf10a2b9f1722
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124182"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190287"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams アプリのアクセス許可と考慮事項
 
@@ -73,13 +73,13 @@ Microsoft Teams アプリは、1 つ以上の機能を、インストール、�
 
 * POST_MESSAGE_TEAM: アプリのボットは、ユーザーがボットと対話したことがない場合でも、いつでもチーム メンバーに直接 (プロアクティブ) メッセージを送信できます。
 
-* 次は明示的なアクセス許可ではありませんが、RECEIVE_MESSAGEとREPLYTO_MESSAGE、およびボットを使用できるスコープ (マニフェストで宣言) によって暗黙的に示されています。
+* 次は明示的なアクセス許可ではありませんが、RECEIVE_MESSAGEとREPLYTO_MESSAGE、およびボットを使用できるスコープ (マニフェストで宣言) によって暗黙的に示されます。
 
   * RECEIVE_MESSAGE_PERSONAL、REPLYTO_MESSAGE_PERSONAL
   * RECEIVE_MESSAGE_GROUPCHAT、REPLYTO_MESSAGE_GROUPCHAT
   * RECEIVE_MESSAGE_TEAM、REPLYTO_MESSAGE_TEAM
 
-* 次は明示的なアクセス許可ではありませんが、RECEIVE_MESSAGEとREPLYTO_MESSAGE、およびボットを使用できるスコープ (マニフェストで宣言) によって暗黙的に示されています。
+* 次は明示的なアクセス許可ではありませんが、RECEIVE_MESSAGEとREPLYTO_MESSAGE、およびボットを使用できるスコープ (マニフェストで宣言) によって暗黙的に示されます。
 
   * RECEIVE_MESSAGE_PERSONAL、REPLYTO_MESSAGE_PERSONAL
   * RECEIVE_MESSAGE_GROUPCHAT、REPLYTO_MESSAGE_GROUPCHAT
@@ -168,7 +168,7 @@ REPLYTO_CONNECTOR_MESSAGE。 特定のコネクタでは、アクション可能
 
 * コネクタ メッセージに添付ファイルを含めることはできません。
 
-* コネクタ インスタンスの URL はシークレット/機密として扱う必要があります。その URL を持つすべてのユーザーは、電子メール アドレスなど、その URL に投稿できます。 そのため、スパムやフィッシングサイトやマルウェア サイトへのリンクのリスクがあります。 その場合、チーム所有者はコネクタ インスタンスを削除できます。
+* コネクタ インスタンスの URL はシークレット/機密として扱う必要があります。その URL を持つすべてのユーザーは、電子メール アドレスなど、その URL に投稿できます。 そのため、スパムやフィッシングサイトやマルウェア サイトへのリンクのリスクがあります。 その場合、チームの所有者はコネクタ インスタンスを削除できます。
 
 * コネクタ メッセージを送信するサービスが侵害され、スパム/フィッシング/マルウェア のリンクの送信を開始した場合、テナント管理者は新しいコネクタ インスタンスの作成を禁止し、Microsoft がそれらを一元的にブロックできます。
 

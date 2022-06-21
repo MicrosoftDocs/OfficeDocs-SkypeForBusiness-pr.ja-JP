@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams管理センターの組織のアプリ ストアにカスタム アプリをアップロードする方法について説明します。
-ms.openlocfilehash: 33f2a1234c041029b44f63f42f224784cc487fdc
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+ms.openlocfilehash: 01a74422ef5bc1f9c63c6ea1c7ecf2e05cc377a4
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124352"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190357"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>アプリ パッケージをアップロードしてカスタム アプリを発行する
 
@@ -41,7 +41,7 @@ Microsoft Teams開発者プラットフォームを使用すると、開発者�
 
 ### <a name="get-the-app-package"></a>アプリ パッケージを取得する
 
-アプリを運用環境で使用する準備ができたら、開発者はアプリ パッケージを生成します。 その場合は [、App Studio を](/microsoftteams/platform/concepts/build-and-test/app-studio-overview) 使用できます。 ファイルは.zip形式で送信されます。
+アプリを運用環境で使用する準備ができたら、開発者はアプリ パッケージを作成する必要があります。 [App Studio を](/microsoftteams/platform/concepts/build-and-test/app-studio-overview)使用できます。 ファイルは.zip形式で送信されます。
 
 Teams ストア内のすべてのアプリは、グローバル Teams アプリ ストアの品質とセキュリティの標準に準拠するために必須のアプリ[検証](overview-of-app-validation.md)に合格します。 さらに、Microsoft は、アプリ開発者に対して、コンプライアンス、セキュリティ、およびプライバシーの制御の強化を示すオプション [のアプリ コンプライアンス プログラム](overview-of-app-certification.md) に参加することを強くお勧めします。 詳細については、[Teamsアプリの検証ガイドラインに関するページ](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines)を参照してください。
 

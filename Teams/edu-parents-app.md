@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c26f70bb6592c418968b77c9ef2a495cb98648a
-ms.sourcegitcommit: e99471689ff60f9ab1095bc075f8b4c5569c9634
+ms.openlocfilehash: 6a38bfbcc8ec7de5e9c1535b1a597b534e46d009
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65860798"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190614"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Microsoft Teams for Educationで親接続を設定する
 
@@ -41,12 +41,11 @@ IT 管理者が保護者や教育者と親接続の使用を開始する方法�
 
 保護者向け接続を使用すると、教育者や保護者は、Teamsを使用してチャット、電子メール、通話を行うことができます。
 
-- Teams保護者の連絡先データは、学校データ同期 (SDS) を使用して SIS で最新の状態を維持します。
+- 教師は保護者とチャットを開始できます。
+  - 保護者がTeamsコンシューマー アカウントを持っていない場合は、教育者からの最初のメッセージと、Teamsに移動するための電子メール招待が届きます。
 - 監視付きチャットで動作します。 詳細については、「[Microsoft Teamsで監視付きチャットを使用する](supervise-chats-edu.md)」を参照してください。
   - 保護者は既定でアクセス許可を制限しているため、学生とチャットしたり、チャットからユーザーを削除したりすることはできません。
   - この設定は、テナント管理者が変更できます。
-- 教師は保護者とチャットを開始できます。
-  - 保護者がTeamsコンシューマー アカウントを持っていない場合は、教育者からの最初のメッセージと、Teamsに移動するための電子メール招待が届きます。
 - 教師は保護者のメールをクリックして、ネイティブメール クライアントを使用してメールを送信できます。
 - 教師は保護者の電話番号をクリックして、Teams内で電話をかけることができます。
 
@@ -66,7 +65,17 @@ IT 管理者が保護者や教育者と親接続の使用を開始する方法�
 
 ## <a name="requirements"></a>要件
 
+Microsoft Graphまたは学校データ同期 (SDS) を使用して、各学生の親および保護者関連の連絡先情報を設定する必要があります。
+
+### <a name="graph-api"></a>Graph API
+
+[Microsoft Graph PowerShell SDK](/powershell/microsoftgraph/overview) を既に使用して学生 ID を作成している場合は、[relatedContact リソースの種類](/graph/api/resources/relatedcontact)を簡単に含めることができます。
+
 ### <a name="school-data-sync"></a>学校データ同期
+
+SDSが定期的に同期するように設定されている場合、学校データ同期 (SDS) を使用してTEAMS保護者の連絡先データは SIS で最新の状態を維持します。
+
+*保護者が学生の* レコードから削除された場合、それらを含む既存のチャットには、チャットの所有者に表示されるバナーが含まれます。 このバナーにより、チャットの所有者は変更を認識し、チャットから保護者を削除するよう求められます。 Microsoft は、保護者を削除するためにチャット メンバーシップを自動的に更新しません。
 
 - 各学生の親および保護者 **関連の連絡先情報** を設定するには、学校データ同期 (SDS) が必要です。
   - [SDS を展開する](/schooldatasync/parents-and-guardians-in-sds)

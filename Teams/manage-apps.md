@@ -13,16 +13,16 @@ ms.reviewer: vaibhava
 search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.manageapps.overview
-description: Microsoft Teams 管理センターの [アプリの管理] ページで Teams アプリを管理する方法について説明します。
+description: Teams アプリを管理する方法について説明します。 アプリの許可またはブロック、組織レベルの状態とアプリのプロパティの確認、カスタム アプリのアップロード、アプリ設定の管理について説明します。
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: b73041f85abceeaa7eb6817fea040bd1912ba961
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: 8ff77c528f51fa1c3cf21e0fce636a664291d3ce
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045976"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190518"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams管理センターでTeams アプリを管理する
 

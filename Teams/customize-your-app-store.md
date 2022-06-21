@@ -17,13 +17,13 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Microsoft Teamsで組織のアプリ ストアをカスタマイズする方法について説明します。
-ms.openlocfilehash: 18ea62e608fe7f357ca0848a1b39fa5a337c7442
-ms.sourcegitcommit: b8098d6ea36f10ee3a630a230ebd84bc2d96e37a
+description: ロゴ、カスタム背景、およびカスタム テキストの色を追加して、組織のTeams アプリ ストアをカスタマイズする方法について説明します。
+ms.openlocfilehash: a838164ffc9d2403d4755cdef8b1bdcdb153958e
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/31/2022
-ms.locfileid: "65780633"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190313"
 ---
 # <a name="customize-your-organizations-app-store-in-microsoft-teams"></a>Microsoft Teamsで組織のアプリ ストアをカスタマイズする
 
