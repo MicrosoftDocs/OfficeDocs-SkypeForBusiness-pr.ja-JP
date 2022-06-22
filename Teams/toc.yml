@@ -1487,7 +1487,7 @@ items:
             href: rooms/with-skype-for-business-server-2015.md
   - name: アプリを管理する
     items:
-      - name: 概要
+      - name: Teams でアプリを理解する
         href: deploy-apps-microsoft-teams-landing-page.md
       - name: Microsoft が提供する アプリを管理する
         items:
@@ -1513,7 +1513,7 @@ items:
             href: overview-of-app-validation.md
           - name: サードパーティアプリのセキュリティ、コンプライアンス、プライバシー
             href: overview-of-app-certification.md
-          - name: Microsoft 365 または Office 365 とカスタム コネクタを使用する
+          - name: Microsoft 365 とカスタム コネクタを管理する
             href: Office-365-custom-connectors.md
           - name: Teams 用のサードパーティ製アプリを購入する
             href: purchase-third-party-apps.md
@@ -1533,7 +1533,7 @@ items:
             href: customize-your-app-store.md
       - name: アプリを管理する管理者コントロール
         items:
-          - name: 管理者向けのアプリ管理の概要
+          - name: アプリ管理の概要
             href: manage-apps.md
           - name: アプリのポリシー
             items:
@@ -1547,7 +1547,7 @@ items:
                 href: teams-custom-app-policies-and-settings.md
           - name: 現場担当者向けに Teams アプリを調整する
             href: pin-teams-apps-based-on-license.md
-          - name: Azure AD のアクセス許可と管理者の同意について
+          - name: Azure AD のグラフ アクセス許可と管理者の同意
             href: app-permissions-admin-center.md
           - name: 組織に対するリソース固有の同意を管理する
             href: resource-specific-consent.md
@@ -1555,11 +1555,11 @@ items:
             href: app-permissions.md
           - name: ユーザーの種類に基づくアプリの動作
             href: non-standard-users.md
-          - name: エンド ユーザーとしてアプリを新しいバージョンに更新する
+          - name: アプリの更新と管理者の役割
             href: apps-update-experience.md
           - name: Microsoft 365 全体で Teams アプリへのアクセスを管理する
             href: manage-third-party-teams-apps.md
-      - name: アプリの使用状況レポート
+      - name: アプリの使用状況レポートと分析
         href: teams-analytics-and-reports/app-usage-report.md
   - name: 業界および政府機関向けのガイダンス
     items:
