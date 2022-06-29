@@ -2,6 +2,7 @@
 title: 顧客から報告されたインシデントをMicrosoft Teams Roomsする
 author: donnah007
 ms.author: v-donnahill
+ms.date: 06/27/2022
 manager: serdars
 ms.reviewer: dstrome
 ms.topic: article
@@ -16,24 +17,24 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: パートナー/顧客は、手動でインシデントを終了し、MRTP で会議室の正常性を正確に報告できます。
-ms.openlocfilehash: e8697ac3190e28a3ae3682da14598096252fc039
-ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
+ms.openlocfilehash: 3f765627e2d18d52a6b3db8abbdd2ad59cee7019
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64757113"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66494676"
 ---
 # <a name="customer-reported-incident-tickets"></a>顧客から報告されたインシデント チケット
 
 Microsoft がフラグを設定しなかったあらゆる種類のインシデント、またはサービス/機能に関する質問については、お客様に代わって顧客またはパートナーがインシデント報告機能を使用して、問題を調査するか質問に回答するよう Microsoft に警告することができます。
 
-<!--![screenshot of the Incidents->Report incident](../media/customer-reported-incidents-001.png)-->
+![インシデント ->レポート インシデントのスクリーンショット](../media/customer-reported-incidents-001.png)
 
-[説明] フィールドで、できるだけ最適な方法で、Microsoft からのサポートが必要な問題について説明します。 1 つ以上のルームを追加できます。
+[説明] フィールドで、Microsoft からサポートが必要な問題をできるだけ適切に説明します。 1 つ以上のルームを追加できます。
 
-<!--![screenshot of the incident report rooms affected](../media/customer-reported-incidents-002.png)-->
+![影響を受けたインシデント レポート ルームのスクリーンショット](../media/customer-reported-incidents-002.png)
 
-顧客から報告されたインシデント (CRI) は重要なチケットと見なされます。つまり、最初に、これらのチケットが MRTP サービス 運用センターによってトリアージされます。  (「顧客から報告されたインシデントのサービスの説明 SLA [」を参照してください](microsoft-teams-rooms-premium.md) 。部屋または部屋が CRI の一部として選択されている場合、CRI が閉じられるまで、各ルームは異常としてマークされます。
+顧客から報告されたインシデント (CRI) は重要なチケットと見なされます。つまり、Teams Rooms Service Operations Center が最初にこれらのチケットをトリアージします。 お客様から報告されたインシデントのサービス説明 SLA については、 [こちらをご覧ください](microsoft-teams-rooms-premium.md)。 部屋が CRI の一部として選択されている (または部屋が) 選択されている場合、各ルームは CRI が閉じられるまで **異常** としてマークされます。
 
 ## <a name="closing-customer-reported-incident-tickets"></a>顧客から報告されたインシデント チケットを終了する
 
@@ -41,19 +42,19 @@ Microsoft がフラグを設定しなかったあらゆる種類のインシデ�
 
 **インシデントを閉じるには**
 
-1. **[閉じる]** を選択します。
+1. [ **チケットを閉じる**] を選択します。
+
+   ![インシデントの概要の詳細のスクリーンショット](../media/customer-reported-incidents-003.png)
+
 1. 一覧からカテゴリを選択して、閉じる理由を選択します。
 
    終了の理由を確認すると、チケットは閉じられ、 **解決済** みに移動されます。
 
-<!--![Screenshot of the incident ticket details](../media/customer-reported-incidents-003.png)-->
+   ![終了したチケットのスクリーンショット](../media/customer-reported-incidents-004.png)
 
+チケットの [詳細の概要] セクションには、Managed Rooms Service (Microsoft) または顧客/パートナーの名前によってチケットが閉じられたことが表示されます。  
 
-<!--![Screenshot of list of reasons for ticket](../media/customer-reported-incidents-004.png)-->
-
-[チケットの詳細の概要] セクションで、顧客に代わってルームを管理する顧客またはパートナーは、チケットを終了したユーザー (Managed Rooms Service (Microsoft) または顧客/パートナーの名前を確認できます。  
-
-<!--![screenshot of the Incidents Overview details](../media/customer-reported-incidents-005.png)-->
+ ![チケットを終了したユーザーのスクリーンショット ](../media/customer-reported-incidents-005.png)
 
 ## <a name="faq"></a>よくあるご質問 (FAQ)
 

@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Microsoft Teams Rooms をサポートするための要件 (適切なデバイス、マイク、スピーカー、カメラ、ディスプレイの選択) について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f3bdfc24344f481a2846790ae13b6c964c69d4c2
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 3b725dc6a39ac777e7f15e3fbf2e4389b5f4333b
+ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/29/2022
-ms.locfileid: "66241026"
+ms.locfileid: "66529719"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams Rooms の要件
 
@@ -90,6 +90,8 @@ Microsoft Teams Rooms異なる部屋のサイズにスケールします。 Team
   |Logitech TAP Console with Lenovo Core Compute |Core i5|8 GB|128 GB|
   |[Logitech Tap and Lenovo ThinkSmart Tiny](https://www.logitech.com/video-collaboration/partners/lenovo.html)|Core i5|8 GB |128 GB|
   |[Lenovo ThinkSmart Tiny を使用した Poly G10-T](https://www.poly.com/us/en/products/video-conferencing/g/g10) |Core i5| 8 GB | 128 GB|
+  |[Poly Studio USB を使用した Poly G40-T キット(Lenovo を使用)](https://www.poly.com/us/en/support/products/video-conferencing/poly-room-solutions/g40) |Core i5| 8 GB | 128 GB|
+  |[Poly 85-T Kit with Poly Eagle Eye Director II, with Lenovo](https://www.poly.com/us/en/support/products/video-conferencing/poly-room-solutions/g85) |Core i5| 8 GB | 128 GB|
   |Lenovo Thinksmart Core を使用した Poly GC8 コンソール|Core i5|8 GB|128 GB|
   |Dell Optplex 7080 を使用した Poly GC8 コンソール|Core i5|8 GB|128 GB|
   |[Yealink MVC300 と Intel NUC](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |

@@ -19,17 +19,17 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom:
 - Phone System - seo-marvel-apr2020
-description: 自動応答を作成および管理し、Microsoft Teamsでキューを呼び出す PowerShell コマンドレットについては、この記事を参照してください。
-ms.openlocfilehash: 33e553f90677eb0b1fa3e230215ff97d8d05066c
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+description: Microsoft Teams で自動応答と通話キューを作成および管理する PowerShell コマンドレットについては、この記事を参照してください。
+ms.openlocfilehash: afb3b6d7992c828c85cebdf83d89a2b17fff6065
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124579"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66494814"
 ---
-# <a name="powershell-cmdlet-reference-for-call-queues-and-auto-attendants"></a>通話キューと自動応答の PowerShell コマンドレット リファレンス
+# <a name="powershell-cmdlet-reference-for-auto-attendants-and-call-queues"></a>自動応答と呼び出しキューの PowerShell コマンドレット リファレンス
 
-次のコマンドレット参照は、自動応答と呼び出しキュー Microsoft Teams用です。
+次のコマンドレット参照は、Microsoft Teams の自動応答と呼び出しキュー用です。
 
 ## <a name="auto-attendant-cmdlets"></a>自動応答のコマンドレット
 
@@ -56,50 +56,8 @@ ms.locfileid: "66124579"
 - [Get-CsAutoAttendantStatus](/powershell/module/skype/Get-CsAutoAttendantStatus)
 - [Get-CsAutoAttendantTenantInformation](/powershell/module/skype/Get-CsAutoAttendantTenantInformation)
 
-次のコマンドレットは、ユーザー、リソース アカウント、Microsoft Teams 電話 ライセンス、電話番号、オーディオ ファイル、および自動応答で使用されるサポートされている言語を管理するためにも必要です。
-
-### <a name="usersteams"></a>Users/Teams
-
-- ユーザー
-  - [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser)
-
-- Teams:
-  - [Get-Team](/powershell/module/teams/Get-Team)
-
-### <a name="resource-accounts"></a>リソース アカウント
-
-- [New-CsOnlineApplicationInstance](/powershell/module/skype/New-CsOnlineApplicationInstance)
-- [Find-CsOnlineApplicationInstance](/powershell/module/skype/Find-CsOnlineApplicationInstance)
-- [Get-CsOnlineApplicationInstance](/powershell/module/skype/Get-CsOnlineApplicationInstance)
-- [Set-CsOnlineApplicationInstance](/powershell/module/skype/Set-CsOnlineApplicationInstance)
-- [New-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/New-CsOnlineApplicationInstanceAssociation)
-- [Get-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociation)
-- [Remove-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Remove-CsOnlineApplicationInstanceAssociation)
-- [Get-CsOnlineApplicationInstanceAssociationStatus](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociationStatus)
-
-### <a name="virtual-teams-phone-licenses"></a>仮想Teams 電話 ライセンス
-
-- [Get-MsolAccountSku](/powershell/module/msonline/get-msolaccountsku)
-- [Set-MsolUserLicense](/powershell/module/msonline/set-msoluserlicense)
-
-### <a name="phone-number-assignment"></a>電話番号の割り当て
-
-- [Get-CsOnlineTelephoneNumber](/powershell/module/skype/Get-CsOnlineTelephoneNumber)
-- [Set-CsPhoneNumberAssignment](/powershell/module/teams/Set-CsPhoneNumberAssignment)
-
-### <a name="audio-files"></a>オーディオ ファイル
-
-- [Get-CsOnlineAudioFile](/powershell/module/skype/Get-CsOnlineAudioFile)
-- [Import-CsOnlineAudioFile](/powershell/module/skype/Import-CsOnlineAudioFile)
-- [Export-CsOnlineAudioFile](/powershell/module/skype/Export-CsOnlineAudioFile)
-- [Remove-CsOnlineAudioFile](/powershell/module/skype/Remove-CsOnlineAudioFile)
-
-### <a name="support-languages-and-time-zones"></a>言語とタイム ゾーンをサポートする
-
-- [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
-- [Get-CsAutoAttendantSupportedTimeZone](/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
-
 PowerShell で自動応答を作成する手順については、「PowerShell コマンドレットを使用した[自動応答の作成](create-a-phone-system-auto-attendant-via-cmdlets.md)」を参照してください。
+
 
 ## <a name="call-queue-cmdlets"></a>通話キューのコマンドレット
 
@@ -110,14 +68,20 @@ PowerShell で自動応答を作成する手順については、「PowerShell �
 - [Set-CsCallQueue](/powershell/module/skype/Set-CsCallQueue)
 - [Remove-CsCallQueue](/powershell/module/skype/Remove-CsCallQueue)
 
-また、通話キューで使用されるユーザー、リソース アカウント、Microsoft Teams 電話 ライセンス、電話番号、オーディオ ファイル、サポートされている言語を管理するには、次のコマンドレットが必要です。
 
-### <a name="users-and-teams"></a>ユーザーとTeams
+PowerShell を使用して通話キューを作成する手順については、「PowerShell [コマンドレットを使用した呼び出しキューの作成](create-a-phone-system-call-queue-via-cmdlets.md)」を参照してください。
+
+
+## <a name="common-cmdlets-used-by-both-auto-attendants-and-call-queues"></a>自動応答と呼び出しキューの両方で使用される一般的なコマンドレット
+
+次のコマンドレットは、ユーザー、リソース アカウント、Microsoft Teams 電話 ライセンス、電話番号、オーディオ ファイル、および自動応答で使用されるサポートされている言語を管理するためにも必要です。
+
+### <a name="users-and-teams"></a>ユーザーと Teams
 
 - ユーザー
   - [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser)
 
-- Teams:
+- チーム：
   - [Get-Team](/powershell/module/teams/Get-Team)
   - [Get-TeamChannel](/powershell/module/teams/Get-TeamChannel)
 
@@ -132,15 +96,18 @@ PowerShell で自動応答を作成する手順については、「PowerShell �
 - [Remove-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Remove-CsOnlineApplicationInstanceAssociation)
 - [Get-CsOnlineApplicationInstanceAssociationStatus](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociationStatus)
 
-### <a name="virtual-teams-phone-standard-licenses"></a>仮想Teams 電話スタンダード ライセンス
+
+### <a name="virtual-teams-phone-licenses"></a>Virtual Teams Phone ライセンス
 
 - [Get-MsolAccountSku](/powershell/module/msonline/get-msolaccountsku)
 - [Set-MsolUserLicense](/powershell/module/msonline/set-msoluserlicense)
 
-### <a name="assign-phone-numbers"></a>電話番号を割り当てる
 
-- [Get-CsOnlineTelephoneNumber](/powershell/module/skype/Get-CsOnlineTelephoneNumber)
-- [Set-CsPhoneNumberAssignment](/powershell/module/teams/Set-csphonenumberassignment)
+### <a name="phone-number-assignment"></a>電話番号の割り当て
+
+- [Get-CsPhoneNumberAssignment](/powershell/module/teams/Get-CsPhoneNumberAssignment)
+- [Set-CsPhoneNumberAssignment](/powershell/module/teams/Set-CsPhoneNumberAssignment)
+
 
 ### <a name="audio-files"></a>オーディオ ファイル
 
@@ -149,8 +116,9 @@ PowerShell で自動応答を作成する手順については、「PowerShell �
 - [Export-CsOnlineAudioFile](/powershell/module/skype/Export-CsOnlineAudioFile)
 - [Remove-CsOnlineAudioFile](/powershell/module/skype/Remove-CsOnlineAudioFile)
 
-### <a name="support-language-lists"></a>サポート言語リスト
+
+### <a name="support-languages-and-time-zones"></a>言語とタイム ゾーンをサポートする
 
 - [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
+- [Get-CsAutoAttendantSupportedTimeZone](/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
 
-PowerShell を使用して通話キューを作成する手順については、「PowerShell [コマンドレットを使用した呼び出しキューの作成](create-a-phone-system-call-queue-via-cmdlets.md)」を参照してください。

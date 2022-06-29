@@ -22,25 +22,25 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Microsoft Teams管理センターを使用して、組織内のすべての電話番号と、ユーザーに割り当てられている、または割り当てられていないすべての番号の一覧を表示する方法について説明します。
-ms.openlocfilehash: 45d292ae1ba4ffd714f0c302fe140978968ba1c9
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+description: Microsoft Teams 管理センターを使用して、組織内のすべての電話番号と、ユーザーに割り当てられているか割り当てられていないすべての番号の一覧を表示する方法について説明します。
+ms.openlocfilehash: 84162b3971b1730df114482d30820dcf7e86a684
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763630"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66494464"
 ---
 # <a name="see-a-list-of-telephone-numbers"></a>電話番号の一覧を表示する 
 
 電話会議[や](deploy-audio-conferencing-teams-landing-page.md)[通話キュー](plan-auto-attendant-call-queue.md)などのユーザーや音声アプリケーションに割り当てることができる電話番号には、さまざまな種類があります。 詳細については、「 [組織の電話番号を管理する」を参照してください](/microsoftteams/manage-phone-numbers-landing-page)。
 
-この記事は、通話プランとオペレーター接続に適用されます。 ダイレクト ルーティングの詳細については、「 [電話番号を構成してエンタープライズ音声を有効にする](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice)」を参照してください。
+この記事は、プランの呼び出しとオペレーター接続に適用されます。 ダイレクト ルーティングの詳細については、「 [電話番号を構成してエンタープライズ音声を有効にする](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice)」を参照してください。
   
 ## <a name="to-see-all-telephone-numbers-in-your-organization"></a>組織内のすべての電話番号を表示するには
 
 組織内のすべての電話番号の一覧を表示するには:
 
-1. **Microsoft Teams管理センター** に移動します。
+1. **Microsoft Teams 管理センター** に移動します。
 
 2. In the left navigation, go to **Voice** > **Phone numbers**.
 
@@ -62,12 +62,12 @@ ms.locfileid: "62763630"
 
 ユーザーを設定するときに、ユーザーに既に割り当てられている電話番号と、割り当て可能な電話番号の一覧を表示する必要がある場合があります。
 
-1. **Microsoft Teams管理センター** に移動します。
+1. **Microsoft Teams 管理センター** に移動します。
 
 2. In the left navigation, go to **Voice** > **Phone numbers**.
 
     > [!IMPORTANT]
-    > Microsoft Teams管理センターの左側のナビゲーションで **[音声**] オプションを表示するには、最初に少なくとも 1 つの **Enterprise E5 ライセンス**、1 つの **電話システム** アドオン ライセンス、または 1 つの電話会議アドオン ライセンス **を購入する** 必要があります。
+    > Microsoft Teams 管理センターの左側のナビゲーションで **[音声** ] オプションを表示するには、まず少なくとも 1 つの **Enterprise E5 ライセンス**、1 つの **電話システム** アドオン ライセンス、または 1 つの電話会議アドオン ライセンス **を購入する** 必要があります。
 
 3. 割り当てられている数値をすばやく並べ替えるには、[割り当て **状態]** 列見出しをクリックします。 または、フィルター アイコンをクリックし、ビューをフィルター処理して、既にユーザーに割り当てられている電話番号またはユーザーに割り当てることができる割り当てられていない番号を表示することもできます。 以下の分類でフィルターすることができます。
 
@@ -80,7 +80,7 @@ ms.locfileid: "62763630"
 
 組織内のユーザーが電話を発信および受信するように設定する場合は、最初に電話番号を取得してからユーザーに割り当てる必要があります。 電話番号を取得したら、番号の割り当てのアクティブ化状態を確認できます。
   
-1. **Microsoft Teams管理センター** に移動します。
+1. **Microsoft Teams 管理センター** に移動します。
 
 2. In the left navigation, go to **Voice** > **Phone numbers**.
 
@@ -94,12 +94,12 @@ ms.locfileid: "62763630"
 
 ## <a name="using-the-teams-powershell-module"></a>Teams PowerShell モジュールの使用
 
-Teams PowerShell モジュールを使用すると、前のセクションと同じ情報を取得できますが、バージョン 1.1.6 以降 (Skype for Business Online コネクタの統合を含む) が必要です。 モジュールの詳細については、[PowerShell の概要Microsoft Teams](teams-powershell-overview.md)参照してください。
+Teams PowerShell モジュールを使用すると、前のセクションと同じ情報を取得できますが、バージョン 1.1.6 以降が必要です。これには、Skype for Business Online コネクタの統合が含まれます。 モジュールの詳細については、「 [Microsoft Teams PowerShell の概要」を](teams-powershell-overview.md)参照してください。
 
-組織のすべての電話番号の一覧を表示するには、 [Get-CsOnlineTelephoneNumber](/powershell/module/skype/get-csonlinetelephonenumber) コマンドレットを使用します。 たとえば、各電話番号とその状態を確認するには、次のコマンドを実行します。
+組織のすべての電話番号の一覧を表示するには、 [Get-CsPhoneNumberAssignment](/powershell/module/teams/get-csphonenumberassignment) コマンドレットを使用します。 たとえば、各電話番号、その種類とその状態を確認するには、次のコマンドを実行します。
 
 ```PowerShell
-Get-CsOnlineTelephoneNumber | ft Id,ActivationState
+Get-CsPhoneNumberAssignment | ft TelephoneNumber,ActivationState,NumberType
 ```
 
 ユーザーに割り当てられているすべての電話番号を表示するには、 [Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser) コマンドレットを使用します。 たとえば、電話番号が割り当てられているすべてのユーザーを表示するには、次のコマンドを実行します。
@@ -116,6 +116,6 @@ Get-CsOnlineUser | Where-Object  { $_.LineURI -notlike $null } | ft DisplayName,
 
 [緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
-[Get-CsOnlineTelephoneNumber](/powershell/module/skype/get-csonlinetelephonenumber)
+[Get-CsPhoneNumberAssignment](/powershell/module/teams/get-csphonenumberassignment)
   
 [Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser)

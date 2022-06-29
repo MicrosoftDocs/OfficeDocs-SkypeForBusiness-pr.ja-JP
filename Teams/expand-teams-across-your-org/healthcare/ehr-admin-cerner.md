@@ -1,5 +1,5 @@
 ---
-title: Teamsを使用した仮想予定 - Cerner EHR への統合
+title: Teams を使用した仮想予定 - Cerner EHR への統合
 author: LanaChin
 ms.author: v-lanachin
 manager: samanro
@@ -22,25 +22,25 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
-description: Teams EHR コネクタを統合して、組織内の医療プロバイダーが Cerner EHR システムから直接Teamsで患者や他のプロバイダーと仮想予約を行えるようにする方法について説明します。
-ms.openlocfilehash: 8caa80bca9a7b8278aff9133f81bfa807e6727ed
-ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
+description: Teams EHR コネクタを統合して、組織内の医療プロバイダーが Cerner EHR システムから直接 Teams の患者または他のプロバイダーと仮想予約を行えるようにする方法について説明します。
+ms.openlocfilehash: 990d1816d33fde527195faf81ff6153b6aa9ab8f
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64853298"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66494824"
 ---
-# <a name="virtual-appointments-with-teams---integration-into-cerner-ehr"></a>Teamsを使用した仮想予定 - Cerner EHR への統合
+# <a name="virtual-appointments-with-teams---integration-into-cerner-ehr"></a>Teams を使用した仮想予定 - Cerner EHR への統合
 
-Microsoft Teams電子正常性レコード (EHR) コネクタを使用すると、臨床医は簡単に仮想患者の予約を開始したり、Cerner EHR システムから直接Microsoft Teams別のプロバイダーに相談したりできます。 Microsoft 365 クラウド上に構築されたTeamsは、HIPAA、HITECH 認定などのコンプライアンスをサポートする 1 つのハブで、チャット、ビデオ、音声、ヘルスケア ツールとの簡単で安全なコラボレーションとコミュニケーションを実現します。
+Microsoft Teams Electronic Health Record (EHR) コネクタを使用すると、臨床医は簡単に仮想患者の予定を開始したり、Cerner EHR システムから Microsoft Teams の別のプロバイダーと直接相談したりできます。 Microsoft 365 クラウド上に構築された Teams は、HIPAA、HITECH 認定などのコンプライアンスをサポートする 1 つのハブで、チャット、ビデオ、音声、ヘルスケア ツールとの簡単で安全なコラボレーションとコミュニケーションを実現します。
 
-Teamsのコミュニケーションとコラボレーション プラットフォームにより、臨床医は断片化されたシステムの混乱を簡単に切り取り、可能な限り最善のケアを提供することに集中できます。 Teams EHR コネクタを使用すると、次のことができます。
+Teams のコミュニケーションとコラボレーション プラットフォームにより、臨床医は断片化されたシステムの混乱を簡単に切り取り、可能な限り最善のケアを提供することに集中できます。 Teams EHR コネクタを使用すると、次のことができます。
 
-- 統合された臨床ワークフローを使用して、Cerner EHR システムからTeams仮想予定を実施します。
-- 患者が電子メールまたは SMS 通知から仮想予定Teams参加できるようにします。
+- 統合された臨床ワークフローを使用して、Cerner EHR システムから Teams 仮想予定を実施します。
+- 患者が電子メールまたは SMS 通知から Teams 仮想予定に参加できるようにします。
 - EHR に接続された予定の消費データ レポートとカスタマイズ可能な通話品質情報を表示します。
 
-この記事では、Cerner プラットフォームと統合するようにTeams EHR コネクタを設定して構成する方法について説明します。 また、Cerner EHR システムからのTeams仮想予定エクスペリエンスの概要も示します。
+この記事では、Cerner プラットフォームと統合するように Teams EHR コネクタを設定して構成する方法について説明します。 また、Cerner EHR システムの Teams 仮想予定エクスペリエンスの概要についても説明します。
 
 ## <a name="before-you-begin"></a>はじめに
 
@@ -49,12 +49,12 @@ Teamsのコミュニケーションとコラボレーション プラットフ�
 
 ### <a name="prerequisites"></a>前提条件
 
-医療機関でTeams EHR コネクタを統合する前に、次のものが必要です。
+医療組織で Teams EHR コネクタを統合する前に、次のものが必要です。
 
-- EHR コネクタスタンドアロン オファー Microsoft Teamsアクティブなサブスクリプションです (運用環境の EHR 環境でのテスト中にのみ適用)。
-- ユーザーは、Teams会議を含む適切なMicrosoft 365またはOffice 365ライセンスを持っています。
-- Teamsが採用され、医療組織で使用されます。
-- システムは、Teamsのすべての[ソフトウェアとブラウザーの要件](../../hardware-requirements-for-the-teams-app.md)を満たしています。
+- Microsoft Cloud for Healthcareのアクティブなサブスクリプション、または Microsoft Teams EHR コネクタのスタンドアロン オファーのサブスクリプション。
+- ユーザーは、Teams 会議を含む適切な Microsoft 365 またはOffice 365 ライセンスを持っています。
+- Teams が採用され、医療組織で使用されます。
+- システムは、Teams のすべての [ソフトウェアとブラウザーの要件](../../hardware-requirements-for-the-teams-app.md) を満たしています。
 - Cerner バージョン 2018 年 11 月以降
 
 ## <a name="set-up-the-teams-ehr-connector"></a>Teams EHR コネクタを設定する
@@ -67,17 +67,17 @@ Teamsのコミュニケーションとコラボレーション プラットフ�
 - [構成を確認して終了する](ehr-admin-cerner.md#review-and-finish-the-configuration)
 
 > [!IMPORTANT]
-> これらの手順は、組織内のMicrosoft 365グローバル管理者が完了する必要があります。  
+> これらの手順は、組織内の Microsoft 365 グローバル管理者が完了する必要があります。  
 
 ### <a name="launch-the-ehr-connector-configuration-portal"></a>EHR コネクタ構成ポータルを起動する
 
-開始するには、Microsoft 365管理者が [EHR コネクタ構成ポータル](https://ehrconnector.teams.microsoft.com)を起動し、Microsoft 資格情報を使用してサインインします。
+まず、Microsoft 365 管理者が [EHR コネクタ構成ポータル](https://ehrconnector.teams.microsoft.com) を起動し、Microsoft 資格情報を使用してサインインします。
 
-Microsoft 365管理者は、統合をテストするために 1 つの部署または複数の部門を構成できます。 構成ポータルでテスト URL と本番 URL を構成します。 運用に移行する前に、Cerner テスト環境から統合をテストしてください。
+Microsoft 365 管理者は、統合をテストするために、1 つの部署または複数の部門を構成できます。 構成ポータルでテスト URL と本番 URL を構成します。 運用に移行する前に、Cerner テスト環境から統合をテストしてください。
 
 ### <a name="enter-configuration-information"></a>構成情報を入力する
 
-次に、統合を設定するために、Microsoft 365管理者は Cerner から Fast Health 相互運用性リソース (FHIR) ベース URL を追加し、環境を指定します。 組織のニーズとテストする環境に応じて、必要な数の FHIR ベース URL を構成します。
+次に、統合を設定するために、Microsoft 365 管理者は Cerner から Fast Health 相互運用性リソース (FHIR) ベース URL を追加し、環境を指定します。 組織のニーズとテストする環境に応じて、必要な数の FHIR ベース URL を構成します。
 
 :::image type="content" source="media/ehr-admin-cerner-configuration.png" alt-text="Teams EHR コネクタ構成ポータルの [構成情報] ページのスクリーンショット。" lightbox="media/ehr-admin-cerner-configuration.png":::
 
@@ -93,7 +93,7 @@ FHIR ベース URL が検証され、環境が選択されたら、[完了] を�
 
 組織が患者の SMS 通知を Microsoft が管理することを望む場合は、この手順を完了します。 SMS 通知を有効にすると、患者はスケジュールされた予定の確認メッセージとリマインダー メッセージを受け取ります。
 
-SMS 通知を有効にするには、Microsoft 365管理者が次の操作を行います。
+SMS 通知を有効にするには、Microsoft 365 管理者が次の操作を行います。
 
 1. SMS 通知ページで、次の両方の同意チェック ボックスをオンにします。
 
@@ -110,7 +110,7 @@ SMS 通知を有効にするには、Microsoft 365管理者が次の操作を行
 
     [ **完了] を** 選択し、[ **次へ**] を選択します。
 
-1. 電話番号を FHIR ベース URL にリンクするには、[**SMS 構成**] セクション **の [電話番号**] で番号を選択します。 SMS 通知を有効にする FHIR ベース URL ごとにこれを行います。
+1. 電話番号を FHIR ベース URL にリンクするには、[**SMS 構成**] セクションの [**電話番号**] で番号を選択します。 SMS 通知を有効にする FHIR ベース URL ごとにこれを行います。
 
     :::image type="content" source="media/ehr-admin-cerner-link-phone-number.png" alt-text="電話番号を FHIR ベース URL にリンクする方法を示すスクリーンショット。" lightbox="media/ehr-admin-cerner-link-phone-number.png":::
 
@@ -123,32 +123,32 @@ SMS 通知を有効にするには、Microsoft 365管理者が次の操作を行
 患者とプロバイダーの起動に関する統合レコードが表示されます。 これらのレコードは、Cerner で仮想予定の構成を完了するために必要です。 詳細については、Cerner-Microsoft Teams Telehealth 統合ガイドを参照してください。
 
 > [!NOTE]
-> Microsoft 365管理者はいつでも、構成ポータルにサインインして統合レコードを表示し、必要に応じて構成設定を変更できます。
+> Microsoft 365 管理者はいつでも、構成ポータルにサインインして統合レコードを表示し、必要に応じて構成設定を変更できます。
 
-## <a name="launch-teams-virtual-appointments"></a>仮想予定Teams起動する
+## <a name="launch-teams-virtual-appointments"></a>Teams 仮想予定を起動する
 
-EHR コネクタの手順と Cerner の構成手順を完了すると、組織はTeamsでビデオの予定をサポートする準備が整いました。
+EHR コネクタの手順と Cerner の構成手順を完了すると、組織は Teams でビデオの予定をサポートする準備が整いました。
 
 ### <a name="virtual-appointments-prerequisites"></a>仮想予定の前提条件
 
-- システムは、Teamsのすべての[ソフトウェアとブラウザーの要件](../../hardware-requirements-for-the-teams-app.md)を満たしている必要があります。
-- Cerner 組織とMicrosoft 365組織の間の統合セットアップが完了しました。
+- システムは、Teams のすべての [ソフトウェアとブラウザーの要件](../../hardware-requirements-for-the-teams-app.md) を満たしている必要があります。
+- Cerner 組織と Microsoft 365 組織の間の統合セットアップが完了しました。
 
 ### <a name="provider-experience"></a>プロバイダー エクスペリエンス
 
-組織内の医療プロバイダーは、PowerChart ポータルからTeamsを使用して予定に参加できます。 プロバイダーは、Teams オプションが使用可能な患者ボードに移動する必要があります。
+組織内の医療プロバイダーは、PowerChart ポータルから Teams を使用して予定に参加できます。 プロバイダーは、Teams オプションを使用できる患者ボードに移動する必要があります。
 
-そこから、プロバイダーは予定情報を表示し、予定に参加し、会議のリンクを送信できます。 1 回限りのサインイン後、プロバイダーはTeamsの仮想予定に直接移動します。
+そこから、プロバイダーは予定情報を表示し、予定に参加し、会議のリンクを送信できます。 1 回限りのサインイン後、プロバイダーは Teams の仮想予定に直接移動します。
 
 プロバイダー エクスペリエンスの主な機能:
 
-- プロバイダーは、サポートされているブラウザーまたはTeams アプリを使用して予定に参加できます。
-- プロバイダーは、画面共有、カスタム背景、記録など、サポートされているすべてのTeams会議機能を使用できます。
+- プロバイダーは、サポートされているブラウザーまたは Teams アプリを使用して予定に参加できます。
+- プロバイダーは、画面共有、カスタム背景、記録など、サポートされているすべての Teams 会議機能を使用できます。
 - プロバイダーは、PowerChart で特定の予定の予定に接続している患者のリアルタイムの更新を確認できます。
 - プロバイダー情報は、予定中に患者に表示されません。
 
 > [!NOTE]
-> 医療記録の継続性または保有目的に必要な会議チャットに入力されたすべての情報は、医療提供者がダウンロード、コピー、および注意する必要があります。 チャットは、法的な医療記録や指定されたレコード セットを構成しません。 チャットからのメッセージは、Microsoft Teams管理者によって作成された設定に基づいて保存されます。
+> 医療記録の継続性または保有目的に必要な会議チャットに入力されたすべての情報は、医療提供者がダウンロード、コピー、および注意する必要があります。 チャットは、法的な医療記録や指定されたレコード セットを構成しません。 チャットからのメッセージは、Microsoft Teams 管理者によって作成された設定に基づいて保存されます。
 
 ### <a name="patient-experience"></a>患者エクスペリエンス
 
@@ -156,7 +156,7 @@ EHR コネクタの手順と Cerner の構成手順を完了すると、組織�
 
 患者エクスペリエンスの主な機能
 
-- 患者は、[Teams アプリをインストールしなくても、デスクトップとモバイルの最新の Web ブラウザー](../browser-join.md)から予定に参加できます。
+- 患者は、 [Teams アプリをインストールしなくても、デスクトップとモバイルの最新の Web ブラウザー](../browser-join.md)から予定に参加できます。
 - 患者はワンクリックで予定に参加でき、他のアカウントやサインインは必要ありません。
 - 患者は、Microsoft アカウントを作成したり、アクセスを開始するためにサインインしたりする必要はありません。
 - 患者は、プロバイダーが参加して入院するまでロビーに配置されます。
@@ -164,20 +164,20 @@ EHR コネクタの手順と Cerner の構成手順を完了すると、組織�
 
 ## <a name="get-insight-into-virtual-appointments-usage"></a>仮想予定の使用状況に関する分析情報を取得する
 
-Microsoft Teams管理センターの [Virtual Visits 使用状況レポート](../../teams-analytics-and-reports/virtual-visits-usage-report.md)では、組織内の仮想予定アクティビティTeamsの概要を管理者に提供します。 レポートには、EHR システムから実施された EHR 統合会議Teams含む、仮想予定の詳細な分析が表示されます。
+Microsoft Teams 管理センター [の Virtual Visits 使用状況レポート](../../teams-analytics-and-reports/virtual-visits-usage-report.md) では、組織内の Teams 仮想予定アクティビティの概要が管理者に表示されます。 レポートには、EHR システムから行われる Teams EHR 統合会議を含む、仮想予定の詳細な分析が表示されます。
 
 ロビーの待機時間や予定の期間などの主要なメトリックを表示できます。 この情報を使用して使用状況の傾向を把握し、仮想予定を最適化してビジネス成果を向上させるために役立ちます。
 
 ## <a name="privacy-and-location-of-data"></a>データのプライバシーと場所
 
-EHR システムへのTeams統合により、統合および仮想予定フロー中に使用および格納されるデータの量が最適化されます。 このソリューションは、Teams のプライバシーとデータ管理の原則、および Teams のプライバシーで概説されているガイドラインに従います。
+Teams を EHR システムに統合すると、統合および仮想予定フロー中に使用および保存されるデータの量が最適化されます。 このソリューションは、Teams のプライバシーとデータ管理の原則、および Teams のプライバシーで概説されているガイドラインに従います。
 
-Teams EHR コネクタは、EHR システムから識別可能な個人データや患者または医療提供者の健康記録を保存または転送しません。 EHR コネクタが格納する唯一のデータは、会議のセットアップ中に使用される EHR ユーザーの一意の ID Teams。
+Teams EHR コネクタは、EHR システムから識別可能な個人データや患者または医療提供者の健康記録を保存または転送しません。 EHR コネクタが格納する唯一のデータは、Teams 会議のセットアップ中に使用される EHR ユーザーの一意の ID です。
 
-EHR ユーザーの一意の ID は、「[Microsoft 365 の顧客データの保存場所](/microsoft-365/enterprise/o365-data-locations)」で説明されている 3 つの地理的地域のいずれかに保存されます。 会議参加者がTeamsで共有するすべてのチャット、レコーディング、その他のデータは、既存のストレージ ポリシーに従って保存されます。 Teams内のデータの場所の詳細については、「[Teamsのデータの場所」を](../../location-of-data-in-teams.md)参照してください。
+EHR ユーザーの一意の ID は、「[Microsoft 365 の顧客データの保存場所](/microsoft-365/enterprise/o365-data-locations)」で説明されている 3 つの地理的地域のいずれかに保存されます。 会議参加者が Teams で共有するすべてのチャット、レコーディング、その他のデータは、既存のストレージ ポリシーに従って保存されます。 Teams のデータの場所の詳細については、「Teams の [データの場所」を参照してください](../../location-of-data-in-teams.md)。
 
 ## <a name="related-articles"></a>関連記事
 
 - [Teams Virtual Visits の使用状況レポート](../../teams-analytics-and-reports/virtual-visits-usage-report.md)
-- [EHR コネクタ管理者レポートのTeams](ehr-admin-reports.md)
-- [医療機関向けのTeamsとの概要](teams-in-hc.md)
+- [Teams EHR コネクタ管理者レポート](ehr-admin-reports.md)
+- [Teams for healthcare Organization の使用を開始する](teams-in-hc.md)

@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 教育機関と学生のライセンス プランと SKU ID の一覧を示します。
 f1keywords: ''
-ms.openlocfilehash: f7b33a887f21d5f916524f908cb1012933d89f3d
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: f91896a23cf69d09ab5ba922d8b893a496737037
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62405969"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66494504"
 ---
 # <a name="education-sku-reference"></a>Education SKU リファレンス
 
@@ -50,7 +50,7 @@ ms.locfileid: "62405969"
 |製品名 |SkuPartNumber   |SkuID |
 |---------|---------|---------|
 |学生向け E3 Office 365 Education       |ENTERPRISEPACK_STUDENT         |8fc2205d-4e51-4401-97f0-5c89ef1aafbb         |
-|学生向けのOffice 365 Education     |STANDARDWOFFPACK_IW_STUDENT         |314c4481-f395-4525-be8b-2ec4bb1e9d91         |
+|学生向けのOffice 365 Education     |STANDARDWOFFPACK_STUDENT         |314c4481-f395-4525-be8b-2ec4bb1e9d91         |
 |学生向け E5 Office 365 Education      |ENTERPRISEPREMIUM_STUDENT         |ee656612-49fa-43e5-b67e-cb1fdf7699df         |
 |学生向けの PSTN 会議を使用しない E5 のOffice 365 Education     |ENTERPRISEPREMIUM_NOPSTNCONF_STUDENT         |1164451b-e2e5-4c9e-8fa6-e5122d90dbdc         |
 |学生向け E1 Office 365 Education       |STANDARDPACK_STUDENT         |d37ba356-38c5-4c82-90da-3d714f72a382         |

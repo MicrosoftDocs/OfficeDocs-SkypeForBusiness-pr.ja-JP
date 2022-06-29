@@ -13,25 +13,25 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: この記事では、Cisco Webex と Zoom へのサード パーティ会議への参加をサポートするように組織とTeams Rooms デバイスを構成する方法について説明します。
-ms.openlocfilehash: 93b853e8b9d0a692062bb0c81d670c42701ca415
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: 23eefeb564e3333b1bc2105a1fc4d57a0ff41bbe
+ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045416"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66529679"
 ---
 # <a name="enable-teams-rooms-devices-to-join-third-party-meetings"></a>Teams Rooms デバイスがサード パーティの会議に参加できるようにする
 
-Microsoft Teams Rooms デバイスは、ダイレクト ゲスト参加とも呼ばれるサード パーティのオンライン会議に参加するためのワンタッチ エクスペリエンスをサポートします。 有効にすると、Teams Roomsを使用して、Microsoft Teamsでホストされている会議に参加できるのと同じくらい簡単に Cisco Webex とズームでホストされている会議に参加できます。
+Microsoft Teams Rooms デバイスは、ダイレクト ゲスト参加とも呼ばれるサード パーティのオンライン会議に参加するためのワンタッチ エクスペリエンスをサポートします。 有効にすると、Teams Roomsを使用して、Microsoft Teams でホストされている会議に参加できるのと同じくらい簡単に Cisco Webex とズームでホストされている会議に参加できます。
 
 サポートされているデバイスとサービス:
 
-- Windows上の MRT、すべての認定モデル – Zoom、Cisco WebEx
+- Windows 上の MRT、すべての認定モデル – Zoom、Cisco Webex
 
-- ANDROID、Poly、Yealink、および Logitech 認定モデルの MRT - Zoom
+- Android、Poly、Yealink、および Logitech 認定モデルの MRT - Zoom
 
 > [!NOTE]
-> Teams Rooms デバイスから Cisco WebEx 会議に参加するには、Cisco WebEx Web アプリケーション バージョン WBS 40.7 以降を使用して、WebEx Meetings Proで Cisco 会議をホストする必要があります。 
+> Teams Rooms デバイスから Cisco Webex 会議に参加するには、Cisco Webex Web アプリケーション バージョン WBS 40.7 以降を使用して、Cisco 会議を Webex Meetings Pro でホストする必要があります。 
 
 Teams Roomsからサード パーティの会議に参加するには、次の操作を行う必要があります。
 
@@ -45,7 +45,7 @@ Teams Roomsからサード パーティの会議に参加するには、次の�
 
 Team Rooms からワンタッチ参加エクスペリエンスを有効にするために最初に行う必要があるのは、デバイスのExchange Online会議室メールボックスの予定表処理ルールを設定することです。 会議室メールボックスは、外部会議を許可し、サード パーティ会議に参加するために必要な URL を確認できるように、メッセージ本文と件名を保持する必要があります。 [Set-CalendarProcessing](/powershell/module/exchange/set-calendarprocessing.) コマンドレットを使用してこれらの会議室メールボックス オプションを設定するには、次の操作を行います。
 
-1. Exchange Online PowerShell に接続します。 詳細については、「[基本認証を使用して PowerShell をExchange OnlineするConnect](/powershell/exchange/connect-to-exchange-online-powershell)」を参照するか、認証方法に応じて[多要素認証を使用して PowerShell をExchange OnlineするConnect](/powershell/exchange/mfa-connect-to-exchange-online-powershell)を参照してください。
+1. Exchange Online PowerShell に接続します。 詳細については、認証方法に応じて、「[基本認証を使用して PowerShell Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell)[に接続する」または「多要素認証を使用して PowerShell に接続](/powershell/exchange/mfa-connect-to-exchange-online-powershell)Exchange Online」を参照してください。
 
 2. 会議室メールボックスのユーザー プリンシパル名 (UPN) を取得するには、次のコマンドを実行します。
 
@@ -65,30 +65,30 @@ Team Rooms からワンタッチ参加エクスペリエンスを有効にする
 
 ## <a name="step-2-configure-office-365-threat-protection-and-link-rewrite"></a>手順 2: Office 365 Threat Protection とリンクの書き換えを構成する
 
-ワンタッチ参加エクスペリエンスを有効にするには、サードパーティの会議からの会議参加リンク情報が会議の招待に表示され、読み取り可能である必要があります。 組織[でMicrosoft Defender for Office 365](/microsoft-365/security/office-365-security/safe-links)の安全なリンク機能を使用している場合、またはすべての受信 URL と送信 URL をスキャンして脅威を検出するサードパーティ ソリューションを使用している場合は、会議参加 URL が変更され、Teams Rooms デバイスで会議が認識できなくなる可能性があります。 これが発生しないようにするには、サード パーティの会議サービスの URL を Defender for [Office 365 セーフ リンクの **書き換えリスト**](/microsoft-365/security/office-365-security/safe-links)またはサード パーティの URL 書き換え例外リストに追加する必要があります。
+ワンタッチ参加エクスペリエンスを有効にするには、サードパーティの会議からの会議参加リンク情報が会議の招待に表示され、読み取り可能である必要があります。 組織[でMicrosoft Defender for Office 365](/microsoft-365/security/office-365-security/safe-links)の安全なリンク機能を使用している場合、またはすべての受信 URL と送信 URL をスキャンして脅威を検出するサードパーティ ソリューションを使用している場合は、会議参加 URL が変更され、Teams Rooms デバイスで会議が認識できなくなる可能性があります。 これが発生しないようにするには、サード パーティの会議サービスの URL を Defender for [Office 365 安全なリンクの **書き換えリスト**](/microsoft-365/security/office-365-security/safe-links)またはサード パーティの URL 書き換え例外リストに追加する必要があります。
 
  サード パーティのソリューションを使用する場合は、そのソリューションの手順を参照して URL を URL 書き換え例外リストに追加します。
 
-Defender for Office 365 セーフ リンクの *書き換えリスト* またはサード パーティの URL 書き換え例外リストに追加する必要があるエントリの例を次に示します。
+安全なリンクリストまたはサードパーティの URL *書き換え例外リストを書き換えない* Defender for Office 365に追加する必要があるエントリの例を次に示します。
 
 - **Cisco Webex** `*.webex.com/*`
 - **ズーム** `*.zoom.us/*`、 、 `*.zoom.com/*``*.zoomgov.com/*`
 
-Defender for Office 365 セーフ *リンクに* 追加する URL の完全な一覧については、会議の招待を受け入れるサード パーティの会議サービス プロバイダーにお問い合わせください。
+安全 *なリンクを* Defender for Office 365に追加する URL の完全な一覧については、会議の招待を受け入れるサード パーティの会議サービス プロバイダーにお問い合わせください。
 
 > [!CAUTION]
-> 信頼できる URL をMicrosoft Defender for Office 365 セーフ リンクにのみ追加する リストまたはサード パーティの URL 書き換え例外リストを書き換 *えないでください*。
+> 信頼できる URL をMicrosoft Defender for Office 365セーフ リンクにのみ追加する リストまたはサードパーティの URL 書き換え例外リストを書き換 *える必要はありません*。
 
-## <a name="step-3a-enable-third-party-meetings-on-teams-rooms-on-windows"></a>手順 3a: WindowsでTeams Roomsでサード パーティの会議を有効にする
+## <a name="step-3a-enable-third-party-meetings-on-teams-rooms-on-windows"></a>手順 3a: Windows でTeams Roomsでサード パーティの会議を有効にする
 
-最後に行う必要がある手順は、Teams Roomsがサード パーティの会議に参加できるようにすることです。 サードパーティの会議に参加するには、ユーザー名と電子メール アドレスが必要です。 使用する必要があるユーザー名と電子メール アドレスがデバイスの会議室メールボックスと異なる場合は、デバイスに追加する必要があります。 これを行うには、Teams Rooms設定または XML 構成ファイルで行います。 これを行うには、任意の対応するTeams RoomsのTeams Rooms設定、またはWindowsのTeams Rooms用の XML 構成ファイルで行うことができます。
+最後に行う必要がある手順は、Teams Roomsがサード パーティの会議に参加できるようにすることです。 サードパーティの会議に参加するには、ユーザー名と電子メール アドレスが必要です。 使用する必要があるユーザー名と電子メール アドレスがデバイスの会議室メールボックスと異なる場合は、デバイスに追加する必要があります。 これを行うには、Teams Rooms設定または XML 構成ファイルで行います。 これは、任意の対応するTeams RoomsのTeams Rooms設定、または Windows 上のTeams Rooms用の XML 構成ファイルで行うことができます。
 
 ### <a name="use-device-settings"></a>デバイス設定を使用する
 
-タッチスクリーン コンソールを使用してWindowsでTeams Roomsを構成するには、次の操作を行います。
+タッチスクリーン コンソールを使用して Windows でTeams Roomsを構成するには、次の操作を行います。
 
 1. Microsoft Teams Rooms コンソールで、[**その他**] を選択します。
-2. **設定** 選択し、デバイス管理者のユーザー名とパスワードを入力します。
+2. **[設定] を** 選択し、デバイス管理者のユーザー名とパスワードを入力します。
 3. **[会議**] タブに移動し、有効にするサードパーティの会議プロバイダー (**Webex**、**ズーム** など) を選択します。
 4. 会議室メールボックスに関連付けられているユーザー名とメール アドレスを使用して会議に参加する場合は、[ **会議室情報を含む参加**] を選択します。
 5. 別のユーザー名とメール アドレスを使用して会議に参加する場合は、[ **カスタム情報を使用して参加** する] を選択し、使用するユーザー名とメール アドレスを入力します。
@@ -119,18 +119,18 @@ Zoom 会議を有効にするには、次のように XML 要素を `ZoomMeeting
 
 <CustomDisplayEmailForThirdPartyMeetings>guest@contoso.com</CustomDisplayEmailForThirdPartyMeetings>
 ```
-## <a name="step-3b-enable-third-party-meetings-on-teams-rooms-on-android"></a>手順 3b: AndroidでTeams Roomsでサード パーティの会議を有効にする
+## <a name="step-3b-enable-third-party-meetings-on-teams-rooms-on-android"></a>手順 3b: Android でTeams Roomsでサード パーティの会議を有効にする
 
-タッチスクリーン コンソールまたはルーム前面ディスプレイを使用してAndroidでTeams Roomsを構成するには、次の操作を行います。
+タッチスクリーン コンソールまたはルーム前面ディスプレイを使用して Android でTeams Roomsを構成するには、次の操作を行います。
 
 1.  Microsoft Teams Rooms コンソールまたは部屋の前面ディスプレイで、[**その他**] を選択します。
-2.  **設定** を選択し、次の操作を行います。
+2.  **[設定] を** 選択し、次の操作を行います。
     -   個人用アカウント (E5 ライセンスを持つアカウントなど) を使用する場合は、[ **会議** ] オプションを選択します。
-    -   共有アカウント (たとえば、Teams Rooms ライセンスを持つリソース アカウント) を使用している場合は、[**デバイスの設定**] を選択 **し、Teams管理者設定を** 見つけて、管理者パスワードを入力し、[**会議**] オプションを選択します。
+    -   共有アカウント (たとえば、Teams Rooms ライセンスを持つリソース アカウント) を使用している場合は、[**デバイス設定**] を選択 **し、Teams 管理設定** を見つけて、管理者パスワードを入力して、[**会議**] オプションを選択します。
       > [!NOTE]
       > デバイスの一部の製造元では、 **デバイス設定** にアクセスする前に管理者パスワードが必要です。
 
-    ![Androidの MRT の会議設定](..\media\mtrandroid.png)
+    ![Android 上の MRT の会議設定](..\media\mtrandroid.png)
 
 3.  有効にするサードパーティの会議プロバイダーを選択します。
 4.  カスタム ユーザー名とメール アドレスを使用して会議に参加する場合は、[ **カスタム名とメールで参加** する] を選択します。 カスタム個人情報を更新するには、[ **カスタム情報の編集]** を押し、希望する名前とメール アドレスを入力します。
