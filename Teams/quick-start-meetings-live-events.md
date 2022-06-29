@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 330faa00c2ba14f03e5219642fa274fc24eb8765
-ms.sourcegitcommit: 1ac37cc27d4ccb3e1dae20ca1929214e17be2075
+ms.openlocfilehash: f33ab77f2b615bcdd08f14512585b653027c38e8
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "65913425"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240976"
 ---
 # <a name="meetings-webinars-and-live-events"></a>会議、ウェビナー、ライブ イベント 
 
@@ -176,6 +176,8 @@ Teams で提供されるアプリを使用し、認定されたサード パー�
 ### <a name="guidelines-for-your-end-users"></a>エンド ユーザー向けのガイドライン
 
 開催者と発表者は、以下の推奨事項を実装する必要があります。
+
+- 10 人以上の参加者を含む会議の場合は、 [Q&A](/MicrosoftTeams/manage-qna-for-teams) を使用して、質問に対する回答を正式に質問および受け取る機会を参加者に提供し、構造化されたディスカッションを行います。
 
 - スムーズな会議を作成するために、イベント開催者は事前定義済の発表者を設定できます。 会議が開始すると、発表者は他の出席者を発表者の役割に昇格できます。
 

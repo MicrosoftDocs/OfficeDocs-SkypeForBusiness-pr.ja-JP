@@ -637,6 +637,8 @@ items:
                 href: set-up-the-call-me-feature-for-your-users.md
               - name: 会議出席レポートを入手する
                 href: teams-analytics-and-reports/meeting-attendance-report.md
+              - name: Teams 会議の Q&A を管理する
+                href: manage-qna-for-teams.md
               - name: Teams でホワイトボードを管理する
                 href: manage-whiteboard.md
               - name: Google Workspace 用のTeams 会議アドオンを設定する
@@ -785,10 +787,12 @@ items:
             href: set-up-common-area-phones.md
           - name: ボイスメール
             items:
-              - name: クラウド ボイスメールのセットアップ
+              - name: クラウド ボイスメールの管理
                 href: set-up-phone-system-voicemail.md
               - name: ボイスメール ポリシーの管理
                 href: manage-voicemail-policies.md
+              - name: ボイス メール設定の管理
+                href: manage-voicemail-settings.md
               - name: ボイスメールのデフォルト言語を変更する
                 href: change-the-default-language-for-greetings-and-emails.md
               - name: ボイスメールの応答メッセージとメッセージで使用する言語
@@ -1618,7 +1622,7 @@ items:
             href: easy-policy-setup-edu.md
           - name: Teams for Education の親接続
             href: edu-parents-app.md
-          - name: Teams for Education のキャリア コーチ アプリ
+          - name: Teams for Education のキャリア コーチ
             href: career-coach.md
           - name: Teams でのチャットを監督する
             href: supervise-chats-edu.md
@@ -1658,8 +1662,8 @@ items:
             href: flw-quickstart.yml
           - name: 現場担当者のオンボーディング ウィザード
             href: flw-onboarding-wizard.md
-          - name: 現場担当者のスクリプト化された展開
-            href: flw-scripted-deployment.md
+          - name: 現場担当者向けに大規模なチームをデプロイする
+            href: deploy-teams-at-scale.md
           - name: 現場担当者向けに Teams アプリを調整する
             href: pin-teams-apps-based-on-license.md
           - name: Teams で組織の シフト アプリを管理する
@@ -1743,8 +1747,8 @@ items:
             href: get-started-with-retail-teams-templates.md
           - name: 現場担当者のオンボーディング ウィザード
             href: flw-onboarding-wizard.md
-          - name: 現場担当者のスクリプト化された展開
-            href: flw-scripted-deployment.md
+          - name: 現場担当者向けに大規模なチームをデプロイする
+            href: deploy-teams-at-scale.md
           - name: Teams の Shifts
             items:
               - name: Teams の Shifts
