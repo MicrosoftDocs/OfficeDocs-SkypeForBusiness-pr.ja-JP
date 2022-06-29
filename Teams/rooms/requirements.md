@@ -15,29 +15,29 @@ ms.collection:
 - M365-collaboration
 description: Microsoft Teams Rooms をサポートするための要件 (適切なデバイス、マイク、スピーカー、カメラ、ディスプレイの選択) について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e2f8ae10f19d59d9eefdc5f4f5fcf0eac4085eb0
-ms.sourcegitcommit: e3931446943684db155bb3edf7d7e52d41775013
+ms.openlocfilehash: f3bdfc24344f481a2846790ae13b6c964c69d4c2
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2022
-ms.locfileid: "65886654"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66241026"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams Rooms の要件
 
-Microsoft Teams Rooms は、異なる部屋サイズにスケーリングされます。 Teams Rooms では、部屋のサイズと使用に基づいて、さまざまな認定オーディオ周辺機器とビデオ周辺機器が使用されます。 適切なコア デバイスとコンソールを選択し、マイク、スピーカー、カメラ、およびスペースに適したディスプレイと組み合わせることで、大規模な会議スペースや会議室を通じて、小さなハドルスペースから任意のサイズのスペースに Microsoft Teams Rooms を展開できます。  Microsoft Teams Rooms を構成するために使用できる認定オーディオ/ビデオ周辺機器一式は、[デバイス ショーケース](https://products.office.com/microsoft-teams/across-devices)に用意されています。
+Microsoft Teams Rooms異なる部屋のサイズにスケールします。 Teams Rooms部屋のサイズと使用に基づいて、さまざまな認定オーディオおよびビデオ周辺機器を使用します。 適切なコア デバイスとコンソールを選択し、マイク、スピーカー、カメラ、およびスペースに適したディスプレイと組み合わせることで、小さなハドルスペースから大規模な会議スペースや会議室まで、あらゆるサイズのスペースにMicrosoft Teams Roomsを展開できます。  Microsoft Teams Rooms を構成するために使用できる認定オーディオ/ビデオ周辺機器一式は、[デバイス ショーケース](https://products.office.com/microsoft-teams/across-devices)に用意されています。
 
 この記事では、Microsoft Teams Rooms をサポートするためのデバイスの展開と構成に関する要件をまとめます。
 
-展開には、「 [Microsoft Teams](rooms-deploy.md) Rooms の展開」の説明に従って、リソース アカウントの作成と Teams Rooms のセットアップが含まれます。
+デプロイには、Microsoft Teams Roomsのデプロイに関する説明に従って、リソース アカウントの作成とTeams Rooms[のセットアップが](rooms-deploy.md)含まれます。
 
 以下を参照してください。
 
 - [プランに基づいたライセンス オプション: Microsoft Teams Rooms](rooms-licensing.md)
 
 > [!NOTE]
-> Microsoft Teams Rooms は、Microsoft Teams、Skype for Business Server 2019、または Skype for Business Server 2015 にサインインし、これらのサービスがホストする会議に参加できます。
+> Microsoft Teams Rooms Microsoft Teams、Skype for Business Server 2019、Skype for Business Server 2015 にサインインし、これらのサービスがホストする会議に参加できます。
 >
-> Lync Server 2013 のような以前のプラットフォームは、Microsoft Teams Rooms ではサポートしていません。 Microsoft Teams Rooms は、21Vianet または DoD 環境で動作する Microsoft 365 または Office 365 ではサポートされていません。
+> Lync Server 2013 のような以前のプラットフォームは、Microsoft Teams Rooms ではサポートしていません。 Microsoft Teams Roomsは、Microsoft 365 または 21Vianet または DoD 環境で動作するOffice 365ではサポートされていません。
 >
 > オンプレミスの Exchange サーバーをご使用の場合、Microsoft Teams Rooms では Exchange Server 2013 SP1 以降を使用する必要があります。
 
@@ -182,6 +182,7 @@ Microsoft Teams Rooms は、異なる部屋サイズにスケーリングされ�
 |[PolyTrio C60](https://www.poly.com/us/en/products/phones/trio/trio-c60)  |5.9.5.3066|
 |[Poly Studio P15 ビデオ バー](https://www.poly.com/us/en/products/video-conferencing/studio-p/studio-p15)|1.2.0.000287 |
 |[Poly Studio E70 カメラ](https://www.poly.com/us/en/products/video-conferencing/studio/studio-e70)|1.1|
+|[Poly Studio R30](https://www.poly.com/us/en/products/video-conferencing/studio/studio-r30)|2.0.0.001096|
 |[EPOS SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc)   |2.0.12.0   |
 |[EPOS SP20](https://www.eposaudio.com/en/us/enterprise/products/sp-20-ml-142ee5ca-speakerphone-1000226)   |1.2.15   |
 |[EPOS SP30](https://www.eposaudio.com/en/us/enterprise/products/sp-30-78c0cecc-bluetooth-speakerphone-1000223)   |2.1.52  |

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teamsの自動応答を設定する
+title: Microsoft Teams の自動応答を設定する
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -19,28 +19,28 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom:
 - Phone System
-description: Microsoft Teamsで自動応答を設定および管理する方法について説明します。
-ms.openlocfilehash: 7cfce516946d38f794e9803e5ecfb30c128cb149
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+description: Microsoft Teams で自動応答を設定および管理する方法について説明します。
+ms.openlocfilehash: 37326ec03c22c91de5f4c4edb94aaad67f52bde5
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124172"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240946"
 ---
 # <a name="set-up-an-auto-attendant"></a>自動応答を設定する
 
-自動応答を使用すると、ユーザーが組織を呼び出し、メニュー システムを移動して、適切な部署、通話キュー、ユーザー、またはオペレーターに話しかけることができます。 Microsoft Teams管理センターまたは PowerShell を使用して、組織の自動応答を作成できます。
+自動応答を使用すると、ユーザーが組織を呼び出し、メニュー システムを移動して、適切な部署、通話キュー、ユーザー、またはオペレーターに話しかけることができます。 Microsoft Teams 管理センターまたは PowerShell を使用して、組織の自動応答を作成できます。
 
-この記事の手順に従う前に[、Teams自動応答と通話キューの計画](plan-auto-attendant-call-queue.md)を読み、[作業の開始手順](plan-auto-attendant-call-queue.md#getting-started)に従っていることを確認してください。
+この記事の手順に従う前に、 [Teams の自動応答と通話キューの計画](plan-auto-attendant-call-queue.md) を読み、 [作業の開始手順](plan-auto-attendant-call-queue.md#getting-started) に従っていることを確認してください。
 
 自動応答では、呼び出し元の入力に基づいて、次のいずれかの宛先に通話を送信できます。
 
 - **演算子** - 自動応答に対して定義された演算子。 演算子の定義は省略可能です。 演算子は、この一覧内の他の任意の変換先として定義できます。
 - **組織内のユーザー** - 音声通話を受信できる組織内のユーザー。 このユーザーは、オンライン ユーザーでも、Skype for Business Serverを使用してオンプレミスでホストされているユーザーでもかまいません。
 - **音声アプリ** - 別の自動応答または通話キュー。 (この宛先を選択するときに、自動応答または通話キューに関連付けられているリソース アカウントを選択します)。
-- **ボイスメール** - 指定したMicrosoft 365 グループに関連付けられているボイス メールボックス。 ボイスメールの文字起こしと"トーンの後にメッセージを残してください" を選択できます。 システム プロンプト。
-  - M365 管理 センターで、指定したMicrosoft 365 グループの [組織外のユーザーがこのチームにメールを送信できるようにする] を有効にします
-- **外部電話番号** - 任意の電話番号。 ( [外部転送の技術的な詳細](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)を参照してください)。
+- **ボイスメール** - 指定した Microsoft 365 グループに関連付けられているボイス メールボックス。 ボイスメールの文字起こしと"トーンの後にメッセージを残してください" を選択できます。 システム プロンプト。
+  - M365 管理 センターで、指定した Microsoft 365 グループの "組織外のユーザーがこのチームにメールを送信できるようにする" ことを有効にします
+- **外部電話番号** - 任意の電話番号。 [外部転送の技術的な詳細を参照してください](create-a-phone-system-auto-attendant.md?tabs=additional-resources)。
 - **アナウンス (オーディオ ファイル)** - オーディオ ファイルを再生します。 オーディオとして保存された、アップロードした録音されたアナウンス メッセージ。WAV、.MP3、または .WMA 形式。 記録は 5 MB 以下にできます。 システムによってアナウンスが再生され、自動応答メニューに戻ります。
 - **お知らせ (型指定)** - メッセージを入力します。 システムで読み取るテキスト。 最大 1,000 文字を入力できます。 システムによってアナウンスが再生され、自動応答メニューに戻ります。
 
@@ -53,15 +53,15 @@ ms.locfileid: "66124172"
 1. ダイヤル スコープを設定します。
 1. リソース アカウントを設定します。
 
-記事で説明されている手順では、Teams管理センターを使用して自動応答を作成します。 **PowerShell を使用して自動応答を作成する** 手順については、「[PowerShell コマンドレットを使用した自動応答の作成](create-a-phone-system-auto-attendant-via-cmdlets.md)」を参照してください。
+記事で説明されている手順では、Teams 管理センターを使用して自動応答を作成します。 **PowerShell を使用して自動応答を作成する** 手順については、「[PowerShell コマンドレットを使用した自動応答の作成](create-a-phone-system-auto-attendant-via-cmdlets.md)」を参照してください。
 
 ## <a name="follow-these-steps-to-set-up-your-auto-attendant"></a>自動応答を設定するには、次の手順に従います
-
-自動応答を設定するには、[Teams管理センター](https://go.microsoft.com/fwlink/p/?linkid=2066851)で **[音声**]、[**自動応答**] の順に展開し、[**追加**] を選択します。
 
 # <a name="step-1---general-info"></a>[手順 1 - 全般情報](#tab/general-info)
 
 ## <a name="step-1---set-the-auto-attendants-general-information"></a>手順 1 - 自動応答の一般的な情報を設定する
+
+自動応答を設定するには、 [Teams 管理センター](https://go.microsoft.com/fwlink/p/?linkid=2066851)で **[音声**] を展開し、[ **自動応答**] を選択して、[ **追加**] を選択します。
 
 1. 上部のボックスに自動応答の名前を入力します。
 
@@ -78,13 +78,14 @@ ms.locfileid: "66124172"
 
 自動応答の一般的な情報を設定したら、[ **次へ**] を選択します。
 
+
 # <a name="step-2---basic-call-flow"></a>[手順 2 - 基本的な呼び出しフロー](#tab/call-flow)
 
 ## <a name="step-2---set-up-the-basic-call-flow"></a>手順 2 - 基本的な呼び出しフローを設定する
 
 ### <a name="set-a-greeting"></a>あいさつ文を設定する
 
-- **[オーディオ ファイルの再生**] を選択した場合は、[**アップロード ファイル**] ボタンを使用して、オーディオとして保存された録音済みのあいさつメッセージをアップロードできます。WAV、.MP3、または .WMA 形式。 記録は 5 MB 以下にできます。
+- **[オーディオ ファイルの再生**] を選択した場合は、[**ファイルのアップロード**] ボタンを使用して、オーディオとして保存された録音済みのあいさつメッセージをアップロードできます。WAV、.MP3、または .WMA 形式。 記録は 5 MB 以下にできます。
 
 - **[あいさつメッセージの入力**] を選択すると、自動応答が通話に応答するときに、入力したテキスト (最大 1,000 文字) がシステムによって読み取られます。
 
@@ -181,7 +182,7 @@ ms.locfileid: "66124172"
 
 *ダイヤル スコープ* は、呼び出し元がダイヤルバイネームまたはダイヤルバイ拡張子を使用する場合に、ディレクトリで使用できるユーザーを定義します。 **[すべてのオンライン ユーザー**] の既定値には、組織内のすべてのユーザーがオンライン ユーザーであるか、Skype for Business Serverを使用してオンプレミスでホストされているユーザーが含まれます。
 
-[含める **] または [****除外**] で **[カスタム ユーザー グループ**] を選択し、1 つ以上のMicrosoft 365 グループ、配布リスト、またはセキュリティ グループを選択することで、特定のユーザーを含めたり除外したりできます。 たとえば、組織内のエグゼクティブをダイヤル ディレクトリから除外することができます。
+[含める **] または [****除外**] で **[カスタム ユーザー グループ**] を選択し、1 つ以上の Microsoft 365 グループ、配布リスト、またはセキュリティ グループを選択することで、特定のユーザーを含めたり除外したりできます。 たとえば、組織内のエグゼクティブをダイヤル ディレクトリから除外することができます。
 
 ユーザーが両方のリストに含まれている場合は、ディレクトリから除外されます。
 
@@ -200,7 +201,7 @@ ms.locfileid: "66124172"
 
 リソース アカウントを追加したら、[ **次へ**] を選択します。
 
-詳細については、「[Teams リソース アカウントの管理](manage-resource-accounts.md)」を参照してください。
+詳細については、「 [Teams リソース アカウントの管理](manage-resource-accounts.md) 」を参照してください。
 
 # <a name="additional-resources"></a>[その他のリソース](#tab/additional-resources)
 
@@ -216,7 +217,7 @@ ms.locfileid: "66124172"
 
 表示される送信電話番号は、次のように決定されます。
 
-- 通話プランとオペレーター接続番号の場合は、元の発信者の電話番号が表示されます。
+- 通話プラン番号とオペレーター接続番号の場合は、元の発信者の電話番号が表示されます。
 - ダイレクト ルーティング番号の場合、送信される番号は、次のように SBC の P アサート ID (PAI) 設定に基づいています。
   - [無効] に設定すると、元の発信者の電話番号が表示されます。 これが既定の推奨設定です。
   - [有効] に設定すると、リソース アカウントの電話番号が表示されます。
@@ -230,7 +231,7 @@ Skype for Businessハイブリッド環境で、PSTN に自動応答通話を転
 1. 以下の **[テストの実行]** を選択すると、診断が Microsoft 365 管理センターに表示されます。
 
    > [!div class="nextstepaction"]
-   > [テストの実行: 自動応答のTeams](https://aka.ms/TeamsAADiag)
+   > [テストの実行: Teams 自動応答](https://aka.ms/TeamsAADiag)
 
 2. [実行] 診断ウィンドウで、[ **ユーザー名] または [電子メール** ] フィールドにリソース アカウントを入力し、[ **テストの実行**] を選択します。
 
@@ -240,7 +241,7 @@ Skype for Businessハイブリッド環境で、PSTN に自動応答通話を転
 
 ### <a name="related-topics"></a>関連項目
 
-[Teams 電話で得られる内容を次に示します。](./here-s-what-you-get-with-phone-system.md)
+[Teams Phone で入手できる内容は次のとおりです。](./here-s-what-you-get-with-phone-system.md)
 
 [サービス電話番号を取得する](./getting-service-phone-numbers.md)
 

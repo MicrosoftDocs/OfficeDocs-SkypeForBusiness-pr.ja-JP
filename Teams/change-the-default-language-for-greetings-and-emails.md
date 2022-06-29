@@ -1,7 +1,7 @@
 ---
 title: 応答メッセージとメールに使用する既定の言語を変更する
-author: dstrome
-ms.author: dstrome
+author: crowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jenstr
 ms.topic: article
@@ -22,13 +22,13 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-mar2020
-description: 組織の既定のボイスメールグリーティングに別の言語を使用するようにMicrosoft TeamsとSkype for Businessを設定する方法について説明します。
-ms.openlocfilehash: 5e486e94470fd6303d132fdaa9c23b0ca6f65b98
-ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
+description: Microsoft Teams とSkype for Businessを設定して、組織の既定のボイスメールあいさつ文に別の言語を使用する方法について説明します。
+ms.openlocfilehash: 30e122c0d41c93326cdfa39de4c0ceb3a6d55cd2
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "65624091"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66241126"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>応答メッセージとメールに使用する既定の言語を変更する
 
@@ -59,33 +59,36 @@ ms.locfileid: "65624091"
 クラウド ボイスメールは、ユーザーまたは既定のテナント言語に指定された優先言語に基づいて、優先度順に言語テンプレートを使用してボイスメール メッセージを生成します。
 
 ## <a name="setting-the-preferred-language-for-a-user"></a>ユーザーの優先言語を設定する
-PowerShell を使用するユーザーの優先言語は、Azure Active Directoryまたはオンプレミスの Active Directoryで設定できます。 詳細については、「[Microsoft 365またはOffice 365の言語と地域の設定を設定する方法」を](/office365/troubleshoot/access-management/set-language-and-region)参照してください。
+Azure Active Directory またはオンプレミスの Active Directoryで PowerShell を使用して、ユーザーの優先言語を設定できます。 詳細については、「[Microsoft 365 またはOffice 365の言語と地域の設定を設定する方法](/office365/troubleshoot/access-management/set-language-and-region)」を参照してください。
 
-ユーザーは、サインイン後に設定を使用して独自の優先言語を変更できます。 詳細については、「[ビジネス向けMicrosoft 365で表示言語とタイム ゾーンを変更する」を参照してください](https://support.office.com/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US)。
+ユーザーは、サインイン後に設定を使用して独自の優先言語を変更できます。 詳細については、「[Microsoft 365 for Business で表示言語とタイム ゾーンを変更する」を参照してください](https://support.office.com/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US)。
 
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>組織のユーザー全員に対してシステムの言語を変更する
 
 1. [グローバル管理者](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)アカウントで[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)サインインします。
 
-2. Microsoft 365 管理センターで、**設定** > **Org** **settingsOrganization** >  プロファイルを選択します。
+2. Microsoft 365 管理センターで、[**組織の設定の組織** プロファイル **の設定** > ]  >  を選択 **します**。
+
 3. [ **組織情報] を選択します**。
+
 4. [ **優先言語**] リストから、組織内のすべてのユーザーのための言語を選択します。
+
 5. [ **保存**] を選びます。
 
 **利用できる言語は組織の場所によって決まります** 。 たとえば、組織が米国内にある場合は、既定の言語を英語またはスペイン語に設定できます。 組織がカナダにある場合は、英語とフランス語から選べます。
 
 ## <a name="supported-languages-in-cloud-voicemail"></a>クラウド ボイスメールでサポートされている言語
-Microsoft TeamsとSkype for Businessのクラウド ボイスメールでサポートされている言語の一覧については、[サポートされている言語クラウド ボイスメール](languages-for-voicemail-greetings-and-messages.md)参照してください。
+Microsoft Teams とSkype for Businessのクラウド ボイスメールでサポートされている言語の一覧については、[サポートされている言語クラウド ボイスメール](languages-for-voicemail-greetings-and-messages.md)参照してください。
   
 
 ## <a name="custom-greeting-recorded-by-a-user"></a>ユーザーが記録したカスタムあいさつ文
-ユーザーは、独自のカスタムおよび不在時のカスタムあいさつ文を記録できます。 [デスクトップ クライアントTeams設定](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)と[ボイスメールとオプションSkype for Business確認](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8)するを参照してください。
+ユーザーは、独自のカスタムおよび不在時のカスタムあいさつ文を記録できます。 [Teams デスクトップ クライアントの設定](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)と[ボイスメールとオプションSkype for Business確認](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8)するを参照してください。
 
 ## <a name="custom-text-to-speech-greeting-specified-for-a-user"></a>ユーザーに対して指定されたカスタムテキスト読み上げあいさつ
-テナント管理者は、 [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) コマンドレットを使用して、ユーザーのカスタムテキスト読み上げあいさつおよびプロンプト言語を指定できます。
+テナント管理者は、Teams 管理センターの [ユーザーの詳細] ページの [ボイスメール] タブを使用するか、 [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) コマンドレットを使用して、ユーザーのカスタムテキスト読み上げあいさつおよびプロンプト言語を指定できます。
 
 ## <a name="custom-text-to-speech-greeting-specified-by-a-user"></a>ユーザーが指定したカスタムテキスト読み上げあいさつ
-ユーザーは、独自のカスタムテキスト読み上げあいさつ文と、あいさつ文に使用する言語を指定できます。 Microsoft Teams - ユーザーは、[Teams デスクトップ クライアントの設定](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)からボイスメールあいさつ文を変更できます。 Skype for Business - [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) **プロンプト言語** で新しい言語を選択します。 
+ユーザーは、独自のカスタムテキスト読み上げあいさつ文と、あいさつ文に使用する言語を指定できます。 Microsoft Teams の場合、ユーザーは [Teams デスクトップ クライアント設定](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)からボイスメールのあいさつ文を変更できます。 Skype for Business - [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) **プロンプト言語** で新しい言語を選択します。 
 
 
 ## <a name="related-articles"></a>関連記事

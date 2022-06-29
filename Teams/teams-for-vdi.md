@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b85befa685458f5460ab21bb962af3f0df4f004
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
-ms.translationtype: HT
+ms.openlocfilehash: 8dc80503c2b949fb77cc8d593ba5a8dd71e68654
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681588"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240446"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -499,9 +499,8 @@ if($cleanup){
 
 次の通話および会議機能はサポートされていません。
 
-- 新しい会議エクスペリエンスなどのマルチウィンドウ機能、または新しい会議エクスペリエンスに付属する機能
 - Teams アプリと Citrix および VMware のデバイス間の HID ボタンと LED コントロール
-- 背景のぼかしと効果
+- Citrix と VMware の背景のぼかしと効果
 - ブロードキャストとライブ イベントのプロデューサーと発表者の役割
 - 場所に基づくルーティング (LBR)
 - PSTN 通話のリングバック トーン
@@ -516,14 +515,12 @@ if($cleanup){
 
 - Skype for Business との相互運用性は、音声通話に限定されます。ビデオ モダリティはありません。
 - 受信および送信ビデオ ストリームの解像度は、720p に制限されています。
-- 受信カメラまたは画面共有ストリームからの 1 つのビデオ ストリームのみがサポートされます。 受信画面共有がある場合、主要な発表者のビデオではなく、その画面共有が表示されます。
 - デバイスが切断されて再接続された場合、ユーザーが最後に選択したオーディオ デバイスが使用されるように切り替えられません。
 - ライブ イベントは最適化されていません。
 - 送信画面の共有:
-  - アプリケーションの共有はサポートされていません。
+  - アプリケーション共有は、VMware および AVD/W365 ではサポートされていません。
 - 制御の受け渡し:
-  - 画面共有またはアプリケーション共有セッション中はサポートされていません。
-  - PowerPoint 共有セッション中はサポートされます。
+  - アプリケーション共有セッション中はサポートされません。
 
 VDI に関連しない Teams の既知の問題については、「[組織で Teams をサポートする](/MicrosoftTeams/troubleshoot/teams-welcome)」を参照してください。
 

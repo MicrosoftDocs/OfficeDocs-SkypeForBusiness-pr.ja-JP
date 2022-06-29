@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teamsで現場のワーカーに大規模にチームをデプロイする
+title: Microsoft Teams でフロントライン ワーカーの大規模なチームを展開する
 author: LanaChin
 ms.author: v-lanachin
 ms.reviewer: rahuldey
@@ -15,18 +15,18 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 561eaf310201b99ada9cce4dde49746d58d77088
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: feffd8e6f651b4592e789cd24243f01417f1b966
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046026"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240734"
 ---
-# <a name="deploy-teams-at-scale-for-frontline-workers-in-microsoft-teams"></a>Microsoft Teamsで現場のワーカーに大規模にチームをデプロイする
+# <a name="deploy-teams-at-scale-for-frontline-workers-in-microsoft-teams"></a>Microsoft Teams でフロントライン ワーカーの大規模なチームを展開する
 
 > [!NOTE]
-> この機能は現在プライベート プレビュー段階です。 プライベート プレビューに参加する場合は、 [dscale@microsoft.com](mailto:dscale@microsoft.com) にお問い合わせください。
+> この機能は現在パブリック プレビュー段階です。 参加する場合は、 [dscale@microsoft.com](mailto:dscale@microsoft.com) にお問い合わせください。
+
 
 ## <a name="overview"></a>概要
  
@@ -51,7 +51,7 @@ ms.locfileid: "66046026"
 ## <a name="how-to-deploy-teams-at-scale"></a>大規模にチームを展開する方法
 
 > [!NOTE]
-> チームを展開する前に、すべてのチームの所有者がTeamsライセンスを持っていることを確認します。
+> チームを展開する前に、すべてのチームの所有者が Teams ライセンスを持っていることを確認します。
 
 一度に多数のチームをデプロイするには、次の手順に従います。
 
@@ -66,7 +66,7 @@ ms.locfileid: "66046026"
     |**チーム名**|チームの名前。|
     |**既存のチーム ID**|既存のチームにユーザーを追加または削除する場合は、チームのチーム ID を指定します。|
     |**可視 性**|チームがパブリック (組織内のすべてのユーザーが参加可能) かプライベート (ユーザーが参加するにはチーム所有者の承認が必要) かどうか。 オプションは **パブリック** と **プライベートです**。|
-    |**チーム テンプレート ID**|事前構築済みテンプレートまたはカスタム テンプレートからチームを作成する場合は、チーム テンプレート ID を指定します。 事前構築済みのチーム テンプレートと ID の一覧については、[Teams管理センターの](get-started-with-teams-templates-in-the-admin-console.md)チーム テンプレートに関する概要を参照してください。 標準の既定のチーム テンプレートを使用する場合は、この空白のままにします。|
+    |**チーム テンプレート ID**|事前構築済みテンプレートまたはカスタム テンプレートからチームを作成する場合は、チーム テンプレート ID を指定します。 事前構築済みのチーム テンプレートと ID の一覧については、 [Teams 管理センターの](get-started-with-teams-templates-in-the-admin-console.md) チーム テンプレートの概要に関する説明をご覧ください。 標準の既定のチーム テンプレートを使用する場合は、この空白のままにします。|
 
 - **追加するユーザーを各チームにマップする CSV ファイル**。 このファイルには、最初の列から始まる次の順序で、これらの必要な列が含まれている必要があります。
 
@@ -86,31 +86,31 @@ ms.locfileid: "66046026"
 
 |チーム名|既存のチーム ID|可視 性|チーム テンプレート ID|
 |---------|---------|---------|---------|
-|Contoso Microsoft Store 1||公共|com.microsoft.teams.template.retailStore|
-|Contoso Microsoft Store 2||公共|com.microsoft.teams.template.retailStore|
-|Contoso Microsoft Store 3||公共|com.microsoft.teams.template.retailStore|
-|Contoso Microsoft Store 4||公共|com.microsoft.teams.template.retailStore|
-|Contoso Microsoft Store 5||公共|com.microsoft.teams.template.ManageAProject|
-|Contoso Microsoft Store 6||公共|com.microsoft.teams.template.ManageAProject|
-|Contoso Microsoft Store 7||公共||
-|Contoso Microsoft Store 8||プライベート|com.microsoft.teams.template.OnboardEmployees|
-|Contoso Microsoft Store 9||プライベート|com.microsoft.teams.template.OnboardEmployees|
-|Contoso Microsoft Store 10||プライベート|com.microsoft.teams.template.OnboardEmployees|
+|Contoso Store 1||公共|com.microsoft.teams.template.retailStore|
+|Contoso Store 2||公共|com.microsoft.teams.template.retailStore|
+|Contoso Store 3||公共|com.microsoft.teams.template.retailStore|
+|Contoso Store 4||公共|com.microsoft.teams.template.retailStore|
+|Contoso Store 5||公共|com.microsoft.teams.template.ManageAProject|
+|Contoso Store 6||公共|com.microsoft.teams.template.ManageAProject|
+|Contoso Store 7||公共||
+|Contoso Store 8||プライベート|com.microsoft.teams.template.OnboardEmployees|
+|Contoso Store 9||プライベート|com.microsoft.teams.template.OnboardEmployees|
+|Contoso Store 10||プライベート|com.microsoft.teams.template.OnboardEmployees|
 
 **Users.csv**
 
 |ユーザーの完全な名前 |ユーザー UPN または ID|チーム名|ActionType|所有者またはメンバー|
 |---------|---------|---------|---------|---------|
-|Avery Howard|averyh@contoso.com|Contoso Microsoft Store 1|AddMember|所有者|
-|Casey Jensen|caseyj@contoso.com|Contoso Microsoft Store 2|AddMember|所有者|
-|ジェシー Irwin|jessiei@contoso.com|Contoso Microsoft Store 3|AddMember|所有者|
-|Manjeet Bhatia|manjeetb@contoso.com|Contoso Microsoft Store 4|AddMember|所有者|
-|ミカメラ リー|mikaelal@contoso.com|Contoso Microsoft Store 5|AddMember|所有者|
-|モルガン Conners|morganc@contoso.com|Contoso Microsoft Store 6|AddMember|メンバー|
-|オスカーワード|oscarw@contoso.com|Contoso Microsoft Store 7|AddMember|メンバー|
-|レネ・ペトニア|renep@contoso.com|Contoso Microsoft Store 8|AddMember|メンバー|
-|シドニー マトロス|sydneym@contoso.com|Contoso Microsoft Store 9|AddMember|メンバー|
-|紫色のマルチネス|violetm@contoso.com|Contoso Microsoft Store 10|AddMember|メンバー|
+|Avery Howard|averyh@contoso.com|Contoso Store 1|AddMember|所有者|
+|Casey Jensen|caseyj@contoso.com|Contoso Store 2|AddMember|所有者|
+|ジェシー Irwin|jessiei@contoso.com|Contoso Store 3|AddMember|所有者|
+|Manjeet Bhatia|manjeetb@contoso.com|Contoso Store 4|AddMember|所有者|
+|ミカメラ リー|mikaelal@contoso.com|Contoso Store 5|AddMember|所有者|
+|モルガン Conners|morganc@contoso.com|Contoso Store 6|AddMember|メンバー|
+|オスカーワード|oscarw@contoso.com|Contoso Store 7|AddMember|メンバー|
+|レネ・ペトニア|renep@contoso.com|Contoso Store 8|AddMember|メンバー|
+|シドニー マトロス|sydneym@contoso.com|Contoso Store 9|AddMember|メンバー|
+|紫色のマルチネス|violetm@contoso.com|Contoso Store 10|AddMember|メンバー|
 
 ### <a name="step-2-deploy-your-teams"></a>手順 2: チームをデプロイする
 
@@ -118,18 +118,18 @@ CSV ファイルを作成したので、環境を設定してチームをデプ�
 
 コマンドレットを ```New-CsBatchTeamsDeployment``` 使用して、作成するチームのバッチを送信します。 バッチごとにオーケストレーション ID が生成されます。 その後、コマンドレットを ```Get-CsBatchTeamsDeployment``` 使用して、各バッチの進行状況と状態を追跡できます。
 
-1. PowerShell バージョン 7 以降をインストールします。 詳細なガイダンスについては、「[Windowsへの PowerShell のインストール](/powershell/scripting/install/installing-powershell-on-windows)」を参照してください。
+1. PowerShell バージョン 7 以降をインストールします。 詳細なガイダンスについては、「 [Windows への PowerShell のインストール](/powershell/scripting/install/installing-powershell-on-windows)」を参照してください。
 1. PowerShell を管理者モードで実行します。
-1. 次の手順を実行して、以前にインストールした powerShell モジュールTeamsアンインストールします。
+1. 以前にインストールされた Teams PowerShell モジュールをアンインストールするには、次を実行します。
 
     ```powershell
     Uninstall-module -Name MicrosoftTeams -Force -Allversions
     ```
 
     エラー メッセージが表示された場合は、既に設定されています。 次の手順に進みます。
-1. [Teams PowerShell モジュールの最新バージョンを](https://www.powershellgallery.com/packages/MicrosoftTeams)ダウンロードしてインストールします。
+1. [Teams PowerShell モジュールの最新バージョンをダウンロードしてインストールします](https://www.powershellgallery.com/packages/MicrosoftTeams)。
 
-1. 次のコマンドを実行して、Teamsに接続します。
+1. Teams に接続するには、次を実行します。
 
     ```powershell
     Connect-MicrosoftTeams
@@ -137,7 +137,7 @@ CSV ファイルを作成したので、環境を設定してチームをデプ�
 
     メッセージが表示されたら、管理者の資格情報を使用してサイン インします。
 
-1. 次のコマンドを実行して、Teams PowerShell モジュールのコマンドの一覧を取得します。
+1. Teams PowerShell モジュールのコマンドの一覧を取得するには、次のコマンドを実行します。
 
     ```powershell
     Get-Command -Module MicrosoftTeams

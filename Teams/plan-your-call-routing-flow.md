@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teamsの呼び出しルーティング フローを計画する
+title: Microsoft Teams の通話ルーティング フローを計画する
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -19,13 +19,13 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom:
 - Phone System
-description: Microsoft Teamsで自動応答と通話キューの呼び出しルーティング フローを計画する方法について説明します。
-ms.openlocfilehash: 3be72f17f876eb694d3b46293f039ccc07d65fbb
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+description: Microsoft Teams で自動応答と通話キューの通話ルーティング フローを計画する方法について説明します。
+ms.openlocfilehash: 7788bbe07b33a133af04c8a7fe8333ba66f7f2df
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124582"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240986"
 ---
 # <a name="plan-your-call-routing-flow"></a>通話ルーティング フローを計画する
 
@@ -47,8 +47,9 @@ ms.locfileid: "66124582"
 
 - **組織内のユーザー** - 音声通話を受け取ることができる組織内のユーザー。 これは、オンライン ユーザーか、Skype for Business Serverを使用してオンプレミスでホストされているユーザーです。
 - **音声アプリ** - 別の自動応答または通話キュー。 変換先に関連付けられているリソース アカウントを選択します。
-- **外部電話番号** - 任意の電話番号。 ( [外部転送の技術的な詳細](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)を参照してください)。
-- **ボイスメール** - 指定したMicrosoft 365 グループに関連付けられているボイス メールボックス。 ボイスメールの文字起こしと"トーンの後にメッセージを残してください" を選択できます。 システム プロンプト。
+- **外部電話番号** - 任意の電話番号。 [外部転送の技術的な詳細を参照してください](create-a-phone-system-auto-attendant.md?tabs=additional-resources)。
+
+- **ボイスメール** - 指定した Microsoft 365 グループに関連付けられているボイス メールボックス。 ボイスメールの文字起こしと"トーンの後にメッセージを残してください" を選択できます。 システム プロンプト。
 - **演算子** (自動応答のみ) - 自動応答に対して定義された演算子。 演算子の定義は省略可能です。 演算子は、この一覧内の他の任意の変換先にすることができます。
 
 自動応答では、営業時間外および休日に受信した通話に対して個別の通話ルーティング オプションが提供されます。

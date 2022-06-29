@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d6cfc36c2f695775940c97441d87dc776619ffd8
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: cfb9cf174488cfc8043cf04ab08f7eadba920bc3
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675969"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240756"
 ---
 # <a name="create-an-organization-wide-team-in-microsoft-teams"></a>Microsoft Teams で組織全体にわたるチームを作成する
 
@@ -40,7 +40,7 @@ ms.locfileid: "65675969"
 
 以下の種類のアカウントは、組織全体のチームには追加されません。
 
-- サインインがブロックされるアカウントの種類
+- サインインからブロックされているアカウント
 - ゲスト ユーザー
 - リソース アカウントやサービス アカウント (自動応答や通話キューに関連するアカウントなど)
 - 会議室または備品用のアカウント
@@ -71,7 +71,7 @@ ms.locfileid: "65675969"
 @メンションを減らして、組織全体がオーバー ロードしないようにします。
 
 1. チームに移動し、**... をクリックします。その他のオプション** \> **[チームの管理]**
-2. **[設定**] タブで、[@mentions] をクリック **@team** \> **または @[チーム名] のオプションを [メンバーに表示]** をオフにします。
+2. [ **設定]** タブで、[ **@team** \> **または @[チーム名] のオプションを [メンバーに表示] を** オフ@mentionsクリックします。
 
 ### <a name="automatically-show-important-channels"></a>重要なチャネルを自動的に表示する
 
@@ -115,4 +115,4 @@ ms.locfileid: "65675969"
 
 ## <a name="see-also"></a>関連項目
 
-[Microsoft Teams で会社全体のチームを作成する](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3)方法に関するビデオをご覧ください。
+[Microsoft Teams で組織全体のチームを作成する方法](https://www.youtube.com/watch?v=x3qGlwwCz_w)に関するビデオをご覧ください。
