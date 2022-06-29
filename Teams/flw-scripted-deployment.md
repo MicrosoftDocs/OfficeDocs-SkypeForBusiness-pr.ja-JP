@@ -19,12 +19,13 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7123d45819f6e956ecf562fd321e7762b50e5ae6
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ROBOTS: NOINDEX, NOFOLLOW
+ms.openlocfilehash: 0c51c0e2225d73d140f424535f3dc1bd7a302afa
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674659"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240416"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>現場担当者のために大規模に Teams をプロビジョニングする方法
 
@@ -105,7 +106,7 @@ Microsoft Teams に多数のユーザーをすばやく登録し、作業を効�
 > [!IMPORTANT]
 > これらのスクリプトでの資格情報の管理方法は、使用環境に適していない場合があります。要件を満たすために簡単に変更することができます。 会社の基準と慣行に常に準拠して、サービス アカウントと管理されている ID をセキュリティで保護します。
 
-このスクリプトは、$ENV:LOCALAPPDATA\keys (AppData\Local フォルダー) 内に xml ファイルとして格納されている資格情報を使用します。 **BulkAddFunctions.psm1** モジュールのヘルパー関数 **Set-Creds** を呼び出して、これらのスクリプトの実行に使用する資格情報を設定する必要があります。 この手法により、ローカル ストアで資格情報を維持しながら、さまざまなサービス エンドポイントすべてに対して認証を行う必要がなくなります。 各スクリプト内から、適切な資格情報が **Get-Creds** ヘルパー関数で読み取られ、それらの認証情報はさまざまなサービスへの接続に使用されます。
+このスクリプトは、`$ENV:LOCALAPPDATA\keys` (AppData\Local フォルダー) 内に xml ファイルとして格納されている資格情報を使用します。 **BulkAddFunctions.psm1** モジュールのヘルパー関数 **Set-Creds** を呼び出して、これらのスクリプトの実行に使用する資格情報を設定する必要があります。 この手法により、ローカル ストアで資格情報を維持しながら、さまざまなサービス エンドポイントすべてに対して認証を行う必要がなくなります。 各スクリプト内から、適切な資格情報が **Get-Creds** ヘルパー関数で読み取られ、それらの認証情報はさまざまなサービスへの接続に使用されます。
 
 **Set-Creds** を呼び出すと、$ENV:LOCALAPPDATAkeys に書き込まれる XML ファイル名を指定するよう求めるメッセージが表示されます。 サービスごとに資格情報が異なる場合があります。 たとえば、Microsoft Teams、AzureAD、MSonline に異なる資格情報がある場合、**Set-Creds** を複数回実行して、各資格情報ファイルを独自の意味のある名前を付けて保存できます。
 
