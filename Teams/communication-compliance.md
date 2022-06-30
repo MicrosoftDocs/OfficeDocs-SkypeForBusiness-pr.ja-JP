@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01b51694b22d44ace9980f2b98fdb89a9150a12d
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: b96108f3bf548475cd19822967ba4e484fb26703
+ms.sourcegitcommit: b383b309dbdf9caac7ad7e4a94df8d89016dc485
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240746"
+ms.locfileid: "66551204"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>Microsoft Teams との通信コンプライアンス
 
@@ -53,7 +53,7 @@ Teams 管理者は、次のレベルで通信コンプライアンス ポリシ�
 >[!NOTE]
 >[コミュニケーション コンプライアンス](/microsoft-365/compliance/communication-compliance-configure#subscriptions-and-licensing)と Microsoft Teams のライセンスを取得し、使用している組織に対するユーザーから報告されたメッセージの可用性は、2022 年 5 月に開始されました。 この機能は 2022 年 8 月 31 日までに、2022 年 7 月までの通信コンプライアンスのライセンスを取得し、使用しているすべての組織で利用できるようになります。 2022 年 7 月以降に通信コンプライアンスの使用を開始する組織の場合、ユーザーから報告されたメッセージ ポリシーの可用性は、ライセンスの日付と通信コンプライアンスの最初の使用から最大 30 日かかる場合があります。
 
-Teams 内部チャット メッセージの *[懸念事項の報告* ] オプションは既定で有効になっており、 [Teams 管理センター](/microsoftteams/manage-teams-in-modern-portal)の Teams メッセージング ポリシーを使用して制御できます。 これにより、組織内のユーザーは、ポリシーのコミュニケーション コンプライアンス レビュー担当者によるレビューに不適切な内部チャット メッセージを送信できます。 通信コンプライアンスにおけるユーザーから報告されたメッセージの詳細については、「 [コミュニケーション コンプライアンス ポリシー](/microsoft-365/compliance/communication-compliance-policies#user-reported-messages-policy)」を参照してください。
+Teams の個人用およびグループ チャット メッセージの *懸念事項を報告* するオプションは既定で有効になっており、 [Teams 管理センター](/microsoftteams/manage-teams-in-modern-portal)の Teams メッセージング ポリシーを使用して制御できます。 これにより、組織内のユーザーは、ポリシーのコミュニケーション コンプライアンス レビュー担当者によるレビューに不適切な内部チャット メッセージを送信できます。 通信コンプライアンスにおけるユーザーから報告されたメッセージの詳細については、「 [コミュニケーション コンプライアンス ポリシー](/microsoft-365/compliance/communication-compliance-policies#user-reported-messages-policy)」を参照してください。
 
 ![懸念事項を報告するメニュー。](./media/communication-compliance-report-a-concern-full-menu.png)
 

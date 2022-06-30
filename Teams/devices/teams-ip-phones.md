@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Microsoft Teams が最適な結果を生み出すために認定されているデスクフォンと会議電話について説明します。
-ms.openlocfilehash: 4182487d03b2628553ed9b7fee860a080ad3c6c6
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 95a92b964773e7ed1aafa9e4e87004acad61b3f3
+ms.sourcegitcommit: b383b309dbdf9caac7ad7e4a94df8d89016dc485
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494354"
+ms.locfileid: "66551214"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 認定 Android デバイス
 
@@ -72,6 +72,8 @@ Android 認定プログラムのMicrosoft Teams Roomsでは、次のデバイス
 
 | デバイス モデル | ファームウェアのバージョン | 現在の認定終了日 | 部屋のサイズ                                        |  Android OS バージョン    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
+| Yealink MeetingBar A20 | `133.15.0.108  `   | 2024 年 9 月 3 日 | 小さな会議室(4.5 m x 4.5 m)| 10|
+| Yealink MeetingBar A30 | `133.15.0.108  `   | 2024 年 9 月 3 日 | 中規模の部屋 (4.5 m x 6 m) | 10|
 | Logitech Tap IP VR0029     | `1.6.762`  |   2024 年 9 月 3 日  | Logitech Rally Bar および Rally Bar Mini と互換性がある | 10 |
 | 端正なバー | `NFB1.20220211.1400` |2024 年 9 月 3 日|    小会議室 (4.5 m x 4.5 m) | 10 |
 | 端正なパッドタッチ コンソール | `NFA1.20220211.1400`  | 2023 年 8 月 5 日 |  ニート バーとの互換性のみ | 9 |
@@ -246,6 +248,8 @@ Android アプリとファームウェアのバージョンに関する最新の
 
 | デバイス モデル  | ファームウェアのバージョン | 付属の製品リリース |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X30 | `3.12.0.366027` | 2022 Update #1   |
+| Poly Studio X50 | `3.12.0.366027` | 2022 Update #1  |
 | Logi Rallybar    | `1.6.552`         | 2022 更新プログラム #2    |
 | Logi Rallybar Mini | `1.6.552`       | 2022 更新プログラム #2   |
 | 端正なバー | `NFB1.20220512.2200` | 2022 更新プログラム #2 |
