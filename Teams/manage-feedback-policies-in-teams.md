@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams でフィードバック ポリシーを管理する
-author: serdarsoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: heprecel
 ms.topic: article
@@ -17,34 +17,34 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 組織内の Teams ユーザーが Teams に関するフィードバックを Microsoft に送信できるかどうかを制御するフィードバック ポリシーの使用方法について説明します。
-ms.openlocfilehash: 4cb8914a793ddb6342b047caada087006da8f670
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 206533faba3ae7c79c5e6bed54eb738061ed37bb
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605773"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562446"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Microsoft Teams でフィードバック ポリシーを管理する
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-組織内のユーザーは、Microsoft Teamsに関するフィードバックを送信して、Teams デスクトップ、Web クライアント、モバイル内から直接実行している方法を知らせることができます。 Microsoft は、Teams エクスペリエンスを継続的に向上しており、このフィードバックを使用して Teams を改善しています。
+組織内のユーザーは、Microsoft Teams に関するフィードバックを送信して、Teams デスクトップ、Web クライアント、モバイル内から直接実行している方法を知らせることができます。 Microsoft は、Teams エクスペリエンスを継続的に向上しており、このフィードバックを使用して Teams を改善しています。
 
 > [!NOTE]
 > フィードバック ポリシーは、GCC、GCC High、DOD の展開では使用できません。
 
 ****フィードバックの提供** 機能**
 
-ユーザーは、デスクトップと Web の **HelpGive**  >  フィードバックにアクセスして、Teamsに関するコメントや提案Teams送信できます。
+ユーザーは、Teams デスクトップと Web での **フィードバックの提供** に関する **ヘルプ** > にアクセスして、Teams に関するコメントや提案を送信できます。
 
 
-![Teamsでフィードバックオプションを提供する](media/manage-feedback-policies-in-teams-give-feedback.png)
+![Teams でフィードバック オプションを提供する](media/manage-feedback-policies-in-teams-give-feedback.png)
 
-**設定Help &** >  **feedbackSend フィードバック** を使用して、モバイルの **フィードバック** > にアクセスします。
+**設定** > ヘルプを使用してモバイルでフィードバック **にアクセス&フィードバック** > **を送信します**。
 
-![モバイルでTeamsでフィードバック オプションを提供する](media/feedback3.jpg)
+![Teams on Mobile でフィードバック オプションを提供する](media/feedback3.jpg)
 
- **フィードバックの送信** と **フィードバックの送信** を通じて送信されたデータは、Microsoft 365またはOffice 365契約に基づく "サポート データ" と見なされます。これには、それ以外の場合は "顧客データ" または "個人データ" と見なされる情報が含まれます。
+ **フィードバックの送信** と **フィードバックの送信** を通じて送信されたデータは、Microsoft 365 またはOffice 365契約に基づく "サポート データ" と見なされます。これには、それ以外の場合は "顧客データ" または "個人データ" と見なされる情報が含まれます。
 
 
 
@@ -52,11 +52,11 @@ ms.locfileid: "60605773"
 
 ユーザーはまた、Teams でのエクスペリエンスを評価し、評価に関する詳細を送信することもできます。 このポップアップ アンケートは、[Teams] に随時表示されます。 ユーザーが通知で **[フィードバックの提供** ] を選択すると、アンケートが表示されて完了します。
 
-![Teamsのアンケート通知とフォーム。](media/manage-feedback-policies-in-teams-survey.png)
+![Teams のアンケート通知とフォーム。](media/manage-feedback-policies-in-teams-survey.png)
 
 ## <a name="set-whether-users-can-send-feedback-about-teams-to-microsoft"></a>ユーザーが Teams に関するフィードバックを Microsoft に送信できるかどうかを設定する
 
-管理者は、組織内のユーザーが Microsoft にTeamsに関するフィードバックを送信できるかどうか、およびアンケートを受け取るかどうかを制御できます。 既定では、組織内のすべてのユーザーにグローバル (組織全体の既定) ポリシーが自動的に割り当てられ、フィードバック機能とアンケートがポリシーで有効になります。 例外は、Teams for Education で、この機能は教師に対しては有効になっていますが、生徒に対しては無効になっています。
+管理者は、組織内のユーザーが Teams に関するフィードバックを Microsoft に送信できるかどうか、およびアンケートを受け取るかどうかを制御できます。 既定では、組織内のすべてのユーザーにグローバル (組織全体の既定) ポリシーが自動的に割り当てられ、フィードバック機能とアンケートがポリシーで有効になります。 例外は、Teams for Education で、この機能は教師に対しては有効になっていますが、生徒に対しては無効になっています。
 
 グローバル ポリシーを編集するか、カスタム ポリシーを作成して割り当てることもできます。 グローバル ポリシーを編集するか、カスタム ポリシーを割り当てた後、変更が反映されるまでに数時間かかる場合があります。
 

@@ -1,13 +1,13 @@
 ---
-title: Microsoft Teamsで大規模なチームを管理する - ベスト プラクティス
+title: Microsoft Teams で大規模なチームを管理する - ベスト プラクティス
 ms.reviewer: abgupta
-author: lolaj
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-description: 組織のニーズを満たすためにMicrosoft Teamsで大規模なチームを管理するためのベスト プラクティスについて説明します。
+description: 組織のニーズを満たすために Microsoft Teams で大規模なチームを管理するためのベスト プラクティスについて説明します。
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -17,16 +17,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d856a47fb4d7888dcaa990cde9a3dd151dac79ea
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 313c570cfcded3b5a896a773577863f7a8817fa8
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619673"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562406"
 ---
-# <a name="manage-large-teams-in-microsoft-teams---best-practices"></a>Microsoft Teamsで大規模なチームを管理する - ベスト プラクティス
+# <a name="manage-large-teams-in-microsoft-teams---best-practices"></a>Microsoft Teams で大規模なチームを管理する - ベスト プラクティス
 
-Microsoft Teamsは、数十のメンバーを持つ小規模なグループと、数千のメンバーを持つ大規模なグループ間の通信を容易にする場合も同様に効果的です。 チーム [サイズの更新に関するTeamsの制限と仕様](limits-specifications-teams.md)を確認します。 チームサイズの増加は、一意の管理と運用上の課題につながります。 この記事では、数千人のメンバーで構成される大規模なチームを作成および管理するためのベスト プラクティスについて説明します。
+Microsoft Teams は、数十人のメンバーを持つ小規模なグループと、数千人のメンバーを持つ大規模なグループ間の通信を容易にする場合も同様に効果的です。 [チーム のサイズに関する更新プログラムについては、Teams の制限と仕様](limits-specifications-teams.md)を確認してください。 チームサイズの増加は、一意の管理と運用上の課題につながります。 この記事では、数千人のメンバーで構成される大規模なチームを作成および管理するためのベスト プラクティスについて説明します。
 
 ## <a name="value-of-large-teams"></a>大規模なチームの価値
 
@@ -40,17 +40,17 @@ Microsoft Teamsは、数十のメンバーを持つ小規模なグループと�
 
 ## <a name="create-teams-from-existing-groups"></a>既存のグループからチームを作成する
 
-連絡先グループ、セキュリティ グループ、またはOffice グループを使用して、チームを開始します。 グループをインポートしてチームを作成したり、Office グループからチームを作成したりできます。
+連絡先グループ、セキュリティ グループ、または Office グループを使用して、チームをジャンプスタートします。 グループをインポートしてチームを作成したり、Office グループからチームを作成したりできます。
 
-**グループをインポートしてチームを作成する**: 最大 3,500 人のメンバーを含むグループをTeamsにインポートすると、Teamsグループ内のメンバーの合計数が自動的に計算されます。 これは 1 回限りのインポートであり、グループ内の今後の変更はTeamsで自動的に更新されません。
+**グループをインポートしてチームを作成** する: 最大 3,500 人のメンバーを含むグループを Teams にインポートすると、Teams によってグループ内のメンバーの合計数が自動的に計算されます。 これは 1 回限りのインポートであり、グループ内の今後の変更は Teams では自動的に更新されません。
 
-**大規模なMicrosoft 365 グループからチームを作成** する: 大規模なMicrosoft 365 グループからチームを作成すると、メンバーは自動的にMicrosoft 365 グループ **と** チームの一部になります。 今後、チーム メンバーがMicrosoft 365 グループに参加または退出すると、チームに自動的に追加または削除されます。
+**大規模な Microsoft 365 グループからチームを作成** する: 大規模な Microsoft 365 グループからチームを作成すると、メンバーは自動的に Microsoft 365 グループ **と** チームの一部になります。 今後、チーム メンバーが Microsoft 365 グループに参加または退出すると、チームに自動的に追加または削除されます。
 
 ## <a name="bulk-importexportremove-members-in-a-team"></a>チーム内のメンバーの一括インポート/エクスポート/削除
 
-Azure portalを使用すると、ユーザーはMicrosoft 365 グループ内のメンバーを一括インポート/エクスポート/削除できます。 詳細については、「 [グループ メンバーを一括インポートするには](/azure/active-directory/enterprise-users/groups-bulk-import-members#to-bulk-import-group-members)」を参照してください。
+Azure portalを使用すると、ユーザーは Microsoft 365 グループのメンバーを一括インポート/エクスポート/削除できます。 詳細については、「 [グループ メンバーを一括インポートするには](/azure/active-directory/enterprise-users/groups-bulk-import-members#to-bulk-import-group-members)」を参照してください。
 
-すべてのチームはMicrosoft 365 グループによってサポートされているため、Azure portalを使用して、チームに対応するグループでこれらの操作を実行できます。 メンバーの操作は、24 時間以内にチームに反映されます。
+すべてのチームは Microsoft 365 グループによってサポートされているため、Azure portalを使用して、チームに対応するグループでこれらの操作を実行できます。 メンバーの操作は、24 時間以内にチームに反映されます。
 
 ## <a name="create-channels-to-focus-discussions"></a>ディスカッションのためのチャネルを作成する
 
@@ -58,9 +58,9 @@ Azure portalを使用すると、ユーザーはMicrosoft 365 グループ内の
 
 ## <a name="restrict-channel-creation"></a>チャネルの作成を制限する
 
-チーム メンバーがチャネルの作成を許可されている場合、そのチームはチャネルスプロールを持つことができます。 チームの所有者は、メンバー **のアクセス許可設定 >** メンバーのチャネルの作成、更新、削除、復元を無効にする必要があります。 [チームとチャネルの概要に関するページを](teams-channels-overview.md)参照してください。
+チーム メンバーがチャネルの作成を許可されている場合、そのチームはチャネルスプロールを持つことができます。 チームの所有者は、[ **設定] >メンバーのアクセス許可** でメンバーのチャネルの作成、更新、削除、復元を無効にする必要があります。 [チームとチャネルの概要に関するページを](teams-channels-overview.md)参照してください。
 
-![管理コンソールの [設定] タブの [メンバーのアクセス許可] セクションを示す画面イメージ。](media/no-channel-creation.png "管理コンソールの [メンバーのアクセス許可] セクションの画面イメージ設定タブ。メンバーによるチャネルの作成または削除を許可するオプションはオフになっています。")
+![管理コンソールの [設定] タブの [メンバーのアクセス許可] セクションを示す画面イメージ。](media/no-channel-creation.png "管理コンソールの [設定] タブの [メンバーのアクセス許可] セクションの画面イメージ。メンバーによるチャネルの作成または削除を許可するオプションはオフになっています。")
 
 ## <a name="add-favorite-channels"></a>お気に入りのチャネルを追加する
 
@@ -72,7 +72,7 @@ Azure portalを使用すると、ユーザーはMicrosoft 365 グループ内の
 
 ## <a name="regulate-applications-and-bots-in-large-teams"></a>大規模なチームでアプリケーションとボットを規制する
 
-気が散るアプリケーションやボットの追加を防ぐために、チームの所有者は、チーム メンバーのアプリとコネクタを無効、追加、削除、アップロードできます。 管理センターの **[設定 > メンバーのアクセス許可**] で、メンバーがアプリまたはコネクタを追加できるようにする 3 つのオプションをオフにします。
+気が散るアプリケーションやボットの追加を防ぐために、チームの所有者は、チーム メンバーのアプリとコネクタを無効、追加、削除、アップロードできます。 管理センターの **[設定] > [メンバーのアクセス許可**] で、メンバーがアプリまたはコネクタを追加できるようにする 3 つのオプションをオフにします。
 
 ![[設定] ウィンドウの [メンバーのアクセス許可] セクションを示す画面イメージ。](media/disable-bots-connectors.png "[設定] ウィンドウの [メンバーのアクセス許可] セクションを示す画面イメージ。メンバーがアプリまたはコネクタを追加できるようにするオプションはオフになっています。")
 
@@ -80,7 +80,7 @@ Azure portalを使用すると、ユーザーはMicrosoft 365 グループ内の
 
 ## <a name="regulate-team-and-channel-mentions"></a>チームとチャネルのメンションを規制する
 
-チームとチャネルのメンションは、チーム全体の注目を特定のチャネル投稿に引き付けるために使用できます。 投稿でメンションが使用されると、何千人ものチーム メンバーに通知が送信されます。 通知が頻繁に行われすぎると、チーム メンバーが過負荷になり、チームの所有者に不平を言う可能性があります。 チームまたはチャネルのメンションを防ぐには、チーム **の [設定 > @mentions**] ウィンドウのボックスをオフにして、メンバーのチームメンションとチャネルメンションをオフにします。
+チームとチャネルのメンションは、チーム全体の注目を特定のチャネル投稿に引き付けるために使用できます。 投稿でメンションが使用されると、何千人ものチーム メンバーに通知が送信されます。 通知が頻繁に行われすぎると、チーム メンバーが過負荷になり、チームの所有者に不平を言う可能性があります。 チームまたはチャネルのメンションを防止するには、[チーム **の設定]** > @mentions ウィンドウのボックスをオフにして、メンバーのチームメンションとチャネルメンションをオフにします。
 
 ![[設定] ウィンドウの [メンション] セクションを示す画面イメージ。](media/no-at-mentions.png "[設定] ウィンドウの [メンション] セクションを示す画面イメージ。メンションでメンバーにアクセス権を表示および付与するオプションはオフになっています。")
 
@@ -90,5 +90,5 @@ Azure portalを使用すると、ユーザーはMicrosoft 365 グループ内の
 
 ## <a name="related-topics"></a>関連項目
 
-- [Teamsを整理するためのベスト プラクティス](best-practices-organizing.md)
+- [Teams を整理するためのベスト プラクティス](best-practices-organizing.md)
 - [組織全体のチームを作成する](create-an-org-wide-team.md)

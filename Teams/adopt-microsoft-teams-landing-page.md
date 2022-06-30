@@ -1,10 +1,10 @@
 ---
 title: Microsoft Teams を導入する
 ms.reviewer: karuanag
-description: 組織でのMicrosoft Teamsの計画とデプロイに役立つ導入リソースについて説明します。
+description: 組織での Microsoft Teams の計画と展開に役立つ導入リソースについて説明します。
 ms.topic: overview
-author: serdarsoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: admin
 ms.service: msteams
@@ -19,19 +19,19 @@ ms.custom:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 57f93cc72402f229acf8587c86ce31847cc896dc
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 12831234a1b997164e0f274ec9e0d3d15a435eb2
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013851"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562206"
 ---
 # <a name="adopt-microsoft-teams"></a>Microsoft Teams を導入する
 
 > [!NOTE]
-> リモート ラーニングとリソースへの移行の概要については、[リモート ラーニングのMicrosoft Teams](remote-learning-edu.md)に関する概要を参照してください。
+> リモート ラーニングとリソースへの移行を開始する方法の概要については、「 [Microsoft Teams のリモート ラーニングの使用を開始](remote-learning-edu.md)する」を参照してください。
 
-チャット、チーム、& チャネル、会議から始めてTeamsを展開する場合は、迅速に実行できるように設計された規範的な[概要ガイダンス](get-started-with-teams-quick-start.md)を使用します。 ハイブリッドまたはオンプレミスのSkype for Business構成を持つ大規模な組織の場合、または音声機能 (通話プランや電話システムのMicrosoft 365やOffice 365など) を展開する場合は、概要ガイダンスから開始できますが、詳細な[導入ガイダンス](#deeper-adoption-guidance)の下で、以下の追加のガイダンスが必要になります。
+チャット、チーム、& チャネル、会議から Teams を展開する場合は、迅速な稼働を実現するために設計された規範的な作業 [開始ガイダンス](get-started-with-teams-quick-start.md)を使用します。 ハイブリッドまたはオンプレミスのSkype for Business構成を持つ大規模な組織の場合、または音声機能 (Microsoft 365 や通話プランや電話システムOffice 365など) を展開する場合は、作業の開始に関するガイダンスから始めることができますが、詳細な[導入ガイダンス](#deeper-adoption-guidance)の下で、以下の追加のガイダンスが必要です。
 
 |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 | :-------------| :-------------| :-------------| :-------------| :-------------| :-------------|
@@ -40,7 +40,7 @@ ms.locfileid: "60013851"
 
 ### <a name="deeper-adoption-guidance"></a>[より深い導入ガイダンス](#deeper-adoption-guidance)
 
-導入計画は、環境に応じて簡単に複雑にすることができます。 大規模なデプロイの場合は、次のガイダンスに従って、組織がTeamsにスムーズに移行できるようにしてください。
+導入計画は、環境に応じて簡単に複雑にすることができます。 大規模な展開の場合は、以下のガイダンスに従って、組織が Teams にスムーズに移行できるようにします。
 
 |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 | :-------------| :-------------| :-------------| :-------------| :-------------| :-------------|

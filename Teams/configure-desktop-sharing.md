@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams でのデスクトップ共有を構成する
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: jastark
 ms.date: 03/22/2019
@@ -11,18 +11,18 @@ ms.service: msteams
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: ユーザーがTeamsチャットや会議でデスクトップを共有できるように会議ポリシーを構成する方法について説明します。
+description: ユーザーが Teams チャットまたは会議でデスクトップを共有できるように会議ポリシーを構成する方法について説明します。
 ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5db10ce87dc98cfb793eefb1daa953385c95f6d
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 6c94991255b7309e1510a934645f1f4cf0b7e049
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205288"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562386"
 ---
 # <a name="configure-desktop-sharing-in-microsoft-teams"></a>Microsoft Teams でのデスクトップ共有を構成する
 

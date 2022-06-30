@@ -1,8 +1,8 @@
 ---
 title: 変更管理戦略を作成する
 ms.reviewer: ''
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
@@ -11,16 +11,16 @@ audience: admin
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 主要な利害関係者、ビジネス成果、成功の手段、キャンペーンの管理を特定することで、Microsoft Teamsの変更管理戦略を作成します。
+description: 主要な利害関係者、ビジネス成果、成功の対策、キャンペーンの管理を特定することで、Microsoft Teams の変更管理戦略を作成します。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 65bd3c7c4ded22f2ca8286215171408f7d86b1e1
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: 589294402d093afef8686dd7a376f0d88d7025cb
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823246"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562376"
 ---
 # <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Microsoft Teams の変更管理戦略を作成する
 
@@ -59,8 +59,8 @@ Teams の変更管理のためのベスト プラクティスは次のとおり�
 |アイコン  |説明  |
 |---------|---------|
 |![エグゼキュティブ スポンサー アイコン。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image1.png)     |**エグゼキュティブ スポンサー** とは、組織内の主要なリーダーであり、彼らの参加は従業員の適応を促進する上で欠かすことができません。企業文化に対して最も大きな影響力を持つ彼らは新しいテクノロジーや手法の価値や恩恵を積極的に伝えることができます。         |
-|![サービス所有者アイコン。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |**サービス所有者** は、ユーザーがサービスを使用し、そこから価値を得られるようにする責任があります。 組織内でサービス所有者を設定することは、Microsoft 365またはOffice 365に設定されたビジネス目標を確実に実現するために重要です。         |
-|![チャンピオン アイコン。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |組織全体のすべてのユーザーからバイインを獲得することは課題です。 **チャンピオン** は、この課題を軽減し、Microsoft 365またはOffice 365の導入において重要な役割を果たすことができます。 知識豊富で、専門知識の強化に取り組み、ピア コーチングとサポートを提供します。 Microsoft 365やOffice 365を自分の部署やチームの現実に翻訳するのに役立ちます。         |
+|![サービス所有者アイコン。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |**サービス所有者** は、ユーザーがサービスを使用し、そこから価値を得られるようにする責任があります。 Microsoft 365 またはOffice 365に設定されたビジネス目標を確実に実現するには、組織内でサービス所有者を設定することが重要です。         |
+|![チャンピオン アイコン。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |組織全体のすべてのユーザーからバイインを獲得することは課題です。 **チャンピオン** は、この課題を軽減し、Microsoft 365 または Office 365の導入において重要な役割を果たすことができます。 知識豊富で、専門知識の強化に取り組み、ピア コーチングとサポートを提供します。 Microsoft 365 またはOffice 365を部署またはチームの現実に翻訳するのに役立ちます。         |
 
 プログラムの進捗状況を最新の状態に保つために、これらの利害関係者の定期的な会議をお勧めします。 フィードバックとディスカッションを可能にする "コラボレーション 会議" を開始することは、企業の文化に応じて便利なツールになる可能性があります。
 
@@ -138,15 +138,15 @@ Teams の変更管理のためのベスト プラクティスは次のとおり�
 
 ## <a name="measure-and-share-success"></a>成功を測定、共有する
 
-プロジェクト チームには、自分の組織から IT 管理者を配置する必要があります。 これらの個人は、Microsoft 365 管理センター エクスペリエンスに組み込まれているMicrosoft 365またはOffice 365 Microsoft Teams使用状況レポートにアクセスできます。 この情報により、会社での Microsoft Teams の使用状況が示されます。 Teams の操作性や機能についての意見や、追加で使用したい機能などについてのアイディアを、ユーザーから直接受け取ることもお勧めします。 これらの実例を自社内で共有することは、ユーザー コミュニティで時間をかけて持続的に変更を定着させるために、極めて価値のあることになります。  
+プロジェクト チームには、自分の組織から IT 管理者を配置する必要があります。 これらの個人は、Microsoft 365 管理センター エクスペリエンスに組み込まれている Microsoft 365 またはOffice 365 Microsoft Teams 使用状況レポートにアクセスできます。 この情報により、会社での Microsoft Teams の使用状況が示されます。 Teams の操作性や機能についての意見や、追加で使用したい機能などについてのアイディアを、ユーザーから直接受け取ることもお勧めします。 これらの実例を自社内で共有することは、ユーザー コミュニティで時間をかけて持続的に変更を定着させるために、極めて価値のあることになります。  
 
-Microsoft 365 管理センターのMicrosoft 365 管理センター Microsoft Teams[使用状況レポートのMicrosoft Teams使用状況レポートの](/microsoftteams/teams-analytics-and-reports/user-activity-report)詳細について説明します。
+Microsoft Teams の使用状況レポートの詳細については、Microsoft 365 管理センターの [Microsoft Teams 使用状況レポート](/microsoftteams/teams-analytics-and-reports/user-activity-report)Microsoft 365 管理センターを参照してください。
 
 > [!TIP]
 > 自分のパブリック チームまたは Yammer コミュニティを使用して、使用量についての洞察を収集します。 それらを #TeamsStories タグを使用して共有し、簡単に引き出せるできるようにします。  1 か月ごとに、イントラネットで #TeamsStory を共有し、組織での生産性とコラボレーションを向上するために変更を受け入れている従業員をハイライト表示します。  
 
 ## <a name="ongoing-adoption"></a>継続的な導入
 
-組織内での変更を推進することは、継続的なアクティビティであり、単発のイベントではありません。 キックオフ ミーティングは、ユーザーがより効果的に共同作業できるようなるための単なる開始地点です。 この体験では、成功を強調し、新機能を導入し、IT 部門が作成する全体的なMicrosoft 365またはOffice 365サービス戦略に接続する瞬間を計画することが重要です。 自分の組織のユーザーが受け身ではなく積極的に関与しているようにすることで、それらのユーザーは、変更での負担が軽減されるとともに、添付ファイルをメールで送信するような旧来の習慣を止めてクラウドでドキュメントを保管するような新しい機能を活用できるように導かれることになります。
+組織内での変更を推進することは、継続的なアクティビティであり、単発のイベントではありません。 キックオフ ミーティングは、ユーザーがより効果的に共同作業できるようなるための単なる開始地点です。 成功を強調し、新機能を導入し、IT 部門が作成する Microsoft 365 またはOffice 365サービス戦略全体に接続する、この取り組みの瞬間を計画することが重要です。 自分の組織のユーザーが受け身ではなく積極的に関与しているようにすることで、それらのユーザーは、変更での負担が軽減されるとともに、添付ファイルをメールで送信するような旧来の習慣を止めてクラウドでドキュメントを保管するような新しい機能を活用できるように導かれることになります。
 
-Microsoft Technical Community サイトの [Driving Adoption コミュニティ](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption)で、TeamsとMicrosoft 365またはOffice 365のサービス導入に関する質問を共有します。 お客様の導入について、お客様からご意見をいただくことや、お客様にサポートを提供することができるよう、常に準備を整えております。
+Teams と Microsoft 365 のサービス導入またはOffice 365に関する質問を、Microsoft Technical Community サイトの [Driving Adoption コミュニティ](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption)で共有します。 お客様の導入について、お客様からご意見をいただくことや、お客様にサポートを提供することができるよう、常に準備を整えております。

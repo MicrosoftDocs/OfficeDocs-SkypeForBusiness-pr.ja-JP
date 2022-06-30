@@ -1,14 +1,14 @@
 ---
 title: ダイレクト ルーティングの場所に基づくルーティングを計画する
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: roykuntz
 search.appverid: MET150
-description: Teams 電話 ダイレクト ルーティングのLocation-Basedルーティングを計画する方法について説明します。
+description: Teams Phone Direct Routing のLocation-Basedルーティングを計画する方法について説明します。
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -16,18 +16,18 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f156b287969303edbf195c0054b3bb1eb631db2
-ms.sourcegitcommit: d847256fca80e4e8954f767863c880dc8472ca04
+ms.openlocfilehash: d282a2cd9588c2e7104b3093d03da082e9cf388b
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "65304005"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562626"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>ダイレクト ルーティングの場所に基づくルーティングを計画する
 
 一部の国と地域では、公衆交換電話網 (PSTN) プロバイダーをバイパスして、長距離通話コストを削減することは違法です。 
 
-この記事では、Location-Based ルーティングを使用して、地理的な場所に基づいてMicrosoft Teamsユーザーの有料バイパスを制限するために知っておくべきことについて説明します。 この記事は、ダイレクト ルーティングにのみ適用されます。 Location-Based ルーティングは通話プランまたはオペレーター接続には適用されません。
+この記事では、Location-Based ルーティングを使用して、地理的な場所に基づいて Microsoft Teams ユーザーの有料バイパスを制限するために知っておくべきことについて説明します。 この記事は、ダイレクト ルーティングにのみ適用されます。 Location-Basedルーティングは、通話プランまたはオペレーター接続には適用されません。
 
 Location-Basedルーティングを有効にする準備ができたら、次を参照してください。
 
@@ -44,9 +44,9 @@ Location-Based ルーティングを使用すると、ポリシーと、着信�
 
 Location-Based ルーティングでは、ネットワークリージョン、サイト、サブネットに対して定義したネットワーク トポロジが使用されます。 場所に対して有料バイパスが制限されている場合は、その場所の各 IP サブネットと各 PSTN ゲートウェイをネットワーク サイトに関連付けます。 
 
-PSTN 通話時に、ユーザーの場所は、ユーザーのTeams エンドポイントが接続されている IP サブネットによって決まります。 ユーザーが複数のTeams クライアントを異なるサイトに配置している場合、Location-Based ルーティングでは、Teams エンドポイントの場所に応じて、各クライアントのルーティングが個別に適用されます。
+PSTN 通話時に、ユーザーの場所は、ユーザーの Teams エンドポイントが接続されている IP サブネットによって決まります。 ユーザーが複数の Teams クライアントを異なるサイトに配置している場合、Location-Based ルーティングでは、Teams エンドポイントの場所に応じて、各クライアントのルーティングが個別に適用されます。
 
-ネットワーク設定の詳細については、「[Teamsのクラウド音声機能のネットワーク設定](cloud-voice-network-settings.md)」を参照してください。
+ネットワーク設定の詳細については、「 [Teams のクラウド音声機能のネットワーク設定](cloud-voice-network-settings.md)」を参照してください。
 
 この記事では、ネットワーク サイトが次のいずれかの状態にある可能性があることを前提としています。
 
@@ -58,11 +58,11 @@ PSTN 通話時に、ユーザーの場所は、ユーザーのTeams エンドポ
 
 ### <a name="toll-bypass-evaluation-and-outcome"></a>有料バイパスの評価と結果
 
-Location-Based ルーティングを使用すると、Teams ユーザーと PSTN の間の呼び出しが評価され、有料バイパスが制限されているかどうかを判断します。 結果に応じて、呼び出しは完了するか、完了しません。 
+Location-Basedルーティングを使用すると、Teams ユーザーと PSTN の間の通話が評価され、有料バイパスが制限されているかどうかを判断します。 結果に応じて、呼び出しは完了するか、完了しません。 
 
-ユーザーがLocation-Basedルーティングを有効にしていて、ユーザーがLocation-Basedルーティング制限が有効になっているサイトにある場合、そのユーザーの有料バイパスが制限されます。 Teamsは、次の情報を使用して、有料バイパスが制限されているかどうかを判断します。 
+ユーザーがLocation-Basedルーティングを有効にしていて、ユーザーがLocation-Basedルーティング制限が有効になっているサイトにある場合、そのユーザーの有料バイパスが制限されます。 Teams では、次の情報を使用して、有料バイパスが制限されているかどうかを判断します。 
 
-- Teams ユーザーが、ユーザーのTeams呼び出しポリシーで定義されているLocation-Basedルーティングに対して有効になっているかどうか。
+- ユーザーの Teams 通話ポリシーで定義されているLocation-Basedルーティングに対して Teams ユーザーが有効になっているかどうか。
 
 - Teams ユーザーのエンドポイント ネットワーク サイトの場所と、サイトがLocation-Basedルーティングに対して有効になっているかどうか。
 
@@ -70,15 +70,15 @@ Location-Based ルーティングを使用すると、Teams ユーザーと PSTN
 
 - 通話で使用されている PSTN ゲートウェイがLocation-Basedルーティングに対して有効になっているかどうか。
 
-- 転送シナリオの場合、PSTN 通話のルートは、通話を転送するユーザーのルーティング設定と、通話の転送先となるTeams ユーザーのLocation-Basedルーティング設定に基づいています。  
+- 転送シナリオでは、PSTN 通話のルートは、通話を転送するユーザーのルーティング設定と、通話の転送先である Teams ユーザーのLocation-Basedルーティング設定に基づいています。  
 
-- 会議およびグループ通話のシナリオでは、有料バイパスが制限されているTeams ユーザーが通話の一部であるか、または通話の一部であったか。
+- 会議とグループ通話のシナリオでは、有料バイパスが制限されている Teams ユーザーが通話の一部であるか、または通話の一部であったか。
 
-呼び出しを完了できない場合は、Teams ユーザーに次のように通知されます。
+通話を完了できない場合は、Teams ユーザーに次のように通知されます。
 
 - 発信 PSTN 通話の場合、通話ウィンドウに次のメッセージが表示されます。組織の設定により通話は許可されません。
 
-- 着信 PSTN 通話の場合、通話は呼び出されたTeamsユーザーの応答のない通話転送設定 (通常はボイスメール) に基づいてルーティングされます。 Teams ユーザーに未応答の通話設定が構成されていない場合、通話は切断されます。
+- 着信 PSTN 通話の場合、通話は、呼び出された Teams ユーザーの応答のない通話転送設定 (通常はボイスメール) に基づいてルーティングされます。 Teams ユーザーに未回答の通話設定が構成されていない場合、通話は切断されます。
 
 ## <a name="apply-location-based-routing"></a>Location-Basedルーティングを適用する
 
@@ -106,7 +106,7 @@ Location-Basedルーティングを次に適用する必要があります。
 
 ユーザーが有料バイパス制限を受けている場合、そのユーザーはLocation-Basedルーティングを有効にする必要があります。 有効なユーザーが、Location-Based ルーティングが有効になっているサイトに配置されている場合、ユーザーは、サイトに接続され、Location-Based ルーティングが有効になっているゲートウェイを介して呼び出す必要があります。 
 
-Location-Based ルーティングは、ユーザーのTeams エンドポイントの IP アドレスに基づいてユーザーの現在の場所を決定することで機能し、それに応じてルールを適用します。 Location-Based ルーティングが有効になっているユーザーの場所は、次のように分類できます。 
+Location-Based ルーティングは、ユーザーの Teams エンドポイントの IP アドレスに基づいてユーザーの現在の場所を決定することで機能し、それに応じてルールを適用します。 Location-Based ルーティングが有効になっているユーザーの場所は、次のように分類できます。 
 
 - **ユーザーは、DID が割り当てられている PSTN ゲートウェイに関連付けられているのと同じLocation-Basedルーティングが有効なサイトにあります。**<br>このシナリオでは、ユーザーは、Location-Based ルーティングが有効になっている構成済みのネットワーク サイトに配置され、同じネットワーク サイト内にある PSTN ゲートウェイでユーザーの直接内向きダイヤル (DID) 番号が終了します。 たとえば、ユーザーは自分のオフィスにいるとします。 
 
@@ -163,7 +163,7 @@ PSTN ゲートウェイでLocation-Basedルーティングを適用するには�
 
    - ユーザーがローミングしている場合など、その他のシナリオでは、通話は許可されておらず、ユーザーの応答のない通話転送設定 (通常はボイスメール) にルーティングされます。  
    
-- **VoIP 通話と PSTN への転送Teams 1:1 の場合** は、次の点に注意してください。
+- **1:1 Teams VoIP 通話と PSTN への転送については**、次の点に注意してください。
 
   - 通話のルーティング(つまり、通話を発信する PSTN ゲートウェイ) は、通話を転送するユーザーのルーティング設定に基づいています。
 
@@ -175,7 +175,7 @@ PSTN ゲートウェイでLocation-Basedルーティングを適用するには�
 
     転送されるユーザーが同じ PSTN ゲートウェイを使用してその PSTN 通話を現在の場所で行うことができる場合、転送は許可されます。
 
-- **着信または発信の PSTN 通話と別のTeams ユーザーへの転送** の場合、転送が許可されるかどうかは、次の条件によって異なります。
+- **着信または発信の PSTN 通話と別の Teams ユーザーへの転送の場合**、転送が許可されるかどうかは、次によって異なります。
 
    - 転送された通話を受信しているユーザーのルーティング設定。 
    - エンドポイント ネットワーク サイトの場所。
@@ -186,7 +186,7 @@ PSTN ゲートウェイでLocation-Basedルーティングを適用するには�
 
 ### <a name="user-is-not-enabled-for-location-based-routing"></a>ユーザーがLocation-Basedルーティングに対して有効になっていない
 
-Teams ユーザーが Location-Based ルーティングに対して有効になっていない場合、そのユーザーとの間のすべての呼び出しは、Location-Based ルーティングが有効になっていない PSTN ゲートウェイを経由する必要があります。 Location-Basedルーティングが有効になっている PSTN ゲートウェイを介してルーティングされたこのようなユーザーへの受信通話は、ユーザーの応答のない通話転送設定 (通常はボイスメール) にルーティングされます。
+Teams ユーザーが Location-Based ルーティングを有効にしていない場合、そのユーザーとの間のすべての通話は、Location-Based ルーティングが有効になっていない PSTN ゲートウェイ経由でルーティングする必要があります。 Location-Basedルーティングが有効になっている PSTN ゲートウェイを介してルーティングされたこのようなユーザーへの受信通話は、ユーザーの応答のない通話転送設定 (通常はボイスメール) にルーティングされます。
 
 ### <a name="decision-flows-for-inbound-and-outbound-calls"></a>着信呼び出しと送信呼び出しのデシジョン フロー
 
@@ -205,10 +205,10 @@ Teams ユーザーが Location-Based ルーティングに対して有効にな�
 
 このセクションでは、Location-Based ルーティングを使用して有料バイパスを制限するためのさまざまなシナリオについて説明します。 このシナリオでは、Location-Based ルーティングが有効になっていないユーザーに対して呼び出しをルーティングする方法と、Location-Based ルーティングが有効になっているユーザーを比較します。
 
-- [Teamsユーザーが PSTN への発信通話を発信する](#teams-user-places-an-outbound-call-to-the-pstn)
-- [Teamsユーザーが PSTN から受信通話を受信する](#teams-user-receives-an-inbound-call-from-the-pstn)
-- [Teamsユーザーが別のTeams ユーザーに通話を転送または転送する](#teams-user-transfers-or-forwards-call-to-another-teams-user)
-- [Teamsユーザーが PSTN エンドポイントに通話を転送または転送する](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)
+- [Teams ユーザーが PSTN への発信通話を発信する](#teams-user-places-an-outbound-call-to-the-pstn)
+- [Teams ユーザーが PSTN から受信通話を受信する](#teams-user-receives-an-inbound-call-from-the-pstn)
+- [Teams ユーザーが別の Teams ユーザーに通話を転送または転送する](#teams-user-transfers-or-forwards-call-to-another-teams-user)
+- [Teams ユーザーが PSTN エンドポイントに通話を転送または転送する](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)
 - [同時呼び出し](#simultaneous-ringing)
 - [デリゲーション](#delegation)
 
@@ -216,7 +216,7 @@ Teams ユーザーが Location-Based ルーティングに対して有効にな�
 
 ![Location-Based ルーティングのシナリオを示す図。](media/lbr-direct-routing.png "Location-Based ルーティングのシナリオを示す図")
 
-### <a name="teams-user-places-an-outbound-call-to-the-pstn"></a>Teamsユーザーが PSTN への発信通話を発信する
+### <a name="teams-user-places-an-outbound-call-to-the-pstn"></a>Teams ユーザーが PSTN への発信通話を発信する
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>Location-Based ルーティングが有効になっていないユーザー
 
@@ -234,7 +234,7 @@ Location-Based ルーティングを有効にしていないユーザーは、�
 |不明な内部ネットワーク (Location4)    |  ゲートウェイに GatewayLbrEnabledUserOverride が True に設定されていない限り、PSTN 通話は許可されません       |
 |不明な外部ネットワーク (Location5)    | ゲートウェイに GatewayLbrEnabledUserOverride が True に設定されていない限り、PSTN 通話は許可されません       |
 
-### <a name="teams-user-receives-an-inbound-call-from-the-pstn"></a>Teamsユーザーが PSTN から受信通話を受信する
+### <a name="teams-user-receives-an-inbound-call-from-the-pstn"></a>Teams ユーザーが PSTN から受信通話を受信する
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>Location-Based ルーティングが有効になっていないユーザー
 
@@ -252,11 +252,11 @@ Location-Based ルーティングを有効にしていないユーザーは、�
 |不明な内部ネットワーク (Location4)   | Location4 のエンドポイントにルーティングされない呼び出し        |
 |不明な外部ネットワーク (Location5)     | Location5 のエンドポイントにルーティングされない呼び出し        |
 
-### <a name="teams-user-transfers-or-forwards-call-to-another-teams-user"></a>Teamsユーザーが別のTeams ユーザーに通話を転送または転送する
+### <a name="teams-user-transfers-or-forwards-call-to-another-teams-user"></a>Teams ユーザーが別の Teams ユーザーに通話を転送または転送する
 
 PSTN エンドポイントが関係している場合、Location-Based ルーティングは、一方または両方のユーザーがLocation-Basedルーティングに対して有効になっているかどうかを分析し、両方のエンドポイントの場所に応じて通話を転送するか転送するかを決定します。 
  
-通話転送では、開始ユーザーが通話を受け取る必要がありますが、通話転送では最初の呼び出しに応答する必要はありません。 着信呼び出しを受信する場所に User1 がない場合 (TEAMS [ユーザーが PSTN セクションから受信通話を受信](#teams-user-receives-an-inbound-call-from-the-pstn)する場所を参照)、ユーザー 1 が受信通話を受信できない場合は通話を転送できない場合でも、通話を転送できます。 
+通話転送では、開始ユーザーが通話を受け取る必要がありますが、通話転送では最初の呼び出しに応答する必要はありません。 着信呼び出しを受信する場所に User1 がない場合 ( [Teams ユーザーが PSTN セクションから受信通話を受信](#teams-user-receives-an-inbound-call-from-the-pstn) する表を参照)、ユーザー 1 が着信通話を受信できない場合は通話を転送できない場合でも、通話を転送できます。 
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>Location-Based ルーティングが有効になっていないユーザー
 
@@ -268,7 +268,7 @@ Location-Based ルーティングを有効にしていないユーザーは、Lo
 
 Location-Based ルーティングが有効になっているゲートウェイからの着信 PSTN 通話の転送と転送は、ターゲット ユーザーがLocation-Based ルーティングが有効で、同じサイトにある場合にのみ許可されます。 それ以外の場合、通話の転送と転送は許可されません。 
 
-次の表は、ターゲット ユーザーの場所に応じて、通話転送と通話転送を許可するかどうかを示しています。 この表では、サイト 1 にある User1 は、Location-Based ルーティングも有効になっている他のTeams ユーザーと異なる場所にいる他のTeams ユーザーへの転送または転送を開始します。  
+次の表は、ターゲット ユーザーの場所に応じて、通話転送と通話転送を許可するかどうかを示しています。 この表では、サイト 1 にある User1 は、Location-Based ルーティングも有効になっている他の Teams ユーザーと異なる場所にいる他の Teams ユーザーへの転送または転送を開始します。  
 
 |ターゲット ユーザー エンドポイントの場所|User1 が通話転送を開始する |User1 が転送呼び出しを開始する|
 |---------|---------|---------|
@@ -278,7 +278,7 @@ Location-Based ルーティングが有効になっているゲートウェイ�
 |不明な内部ネットワーク (User5)| 許可されていません|許可されていません|
 |不明な外部ネットワーク (User6)| 許可されていません|許可されていません|
 
-### <a name="teams-user-transfers-or-forwards-call-to-pstn-endpoint"></a>Teamsユーザーが PSTN エンドポイントに通話を転送または転送する
+### <a name="teams-user-transfers-or-forwards-call-to-pstn-endpoint"></a>Teams ユーザーが PSTN エンドポイントに通話を転送または転送する
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>Location-Based ルーティングが有効になっていないユーザー
 
@@ -313,7 +313,7 @@ Location-Based ルーティングが有効になっているゲートウェイ�
 
 Location-Based ルーティングを有効にしたユーザーが通話を受信し、同時呼び出しが有効になっている場合、Location-Based ルーティングでは、発信側の場所と呼び出し元のエンドポイントが分析され、通話をルーティングする必要があるかどうかを判断します。 同時呼び出しは、呼び出しの転送と転送と同じLocation-Based規則に従います。 
 
-#### <a name="simultaneous-ringing-for-another-teams-user"></a>別のTeams ユーザーの同時呼び出し
+#### <a name="simultaneous-ringing-for-another-teams-user"></a>別の Teams ユーザーの同時呼び出し音
 
 次の表は、Location-Based ルーティングで、ユーザー 1 の受信 PSTN 通話に対して異なるユーザーへの同時呼び出しを許可するかどうかを示しています。
 
@@ -350,11 +350,11 @@ Location-Based ルーティングを有効にしたユーザーは、着信 PSTN
 
 ### <a name="delegation"></a>デリゲーション
 
-Teams ユーザーは、代理で通話を発信および受信できる代理人を選択できます。 Teamsの委任機能は、次のようにLocation-Basedルーティングの影響を受ける。 
+Teams ユーザーは、代理で通話を発信および受信できる代理人を選択できます。 Teams の委任機能は、次のようにLocation-Basedルーティングの影響を受ける。 
 
-- 委任者に代わってLocation-Basedルーティングが有効なデリゲートからの送信呼び出しの場合、同じ規則が適用されます。 通話ルーティングは、代理人の通話承認ポリシー、音声ルーティング ポリシー、および場所に基づいています。 詳細については、「[ユーザーが PSTN への発信通話を発信Teams」を](#teams-user-places-an-outbound-call-to-the-pstn)参照してください。 
+- 委任者に代わってLocation-Basedルーティングが有効なデリゲートからの送信呼び出しの場合、同じ規則が適用されます。 通話ルーティングは、代理人の通話承認ポリシー、音声ルーティング ポリシー、および場所に基づいています。 詳細については、「 [Teams ユーザーが PSTN への発信通話を発信する」を](#teams-user-places-an-outbound-call-to-the-pstn)参照してください。 
 
-- 委任者への着信 PSTN 通話の場合、通話転送または同時に他のユーザーへの呼び出しを適用するのと同じLocation-Basedルーティング規則も代理人に適用されます。 詳細については、「[Teamsユーザーが別のTeams ユーザーに通話を転送または転送する](#teams-user-transfers-or-forwards-call-to-another-teams-user)、[Teamsユーザーが PSTN エンドポイントに通話を転送または転送する](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)、[同時呼び出しを行う](#simultaneous-ringing)」を参照してください。 代理人が PSTN エンドポイントを同時リング ターゲットとして設定すると、通話を PSTN にルーティングするために代理人の音声ルーティング ポリシーが使用されます。 
+- 委任者への着信 PSTN 通話の場合、通話転送または同時に他のユーザーへの呼び出しを適用するのと同じLocation-Basedルーティング規則も代理人に適用されます。 詳細については、「 [Teams ユーザーが別の Teams ユーザーに通話を転送または転送する](#teams-user-transfers-or-forwards-call-to-another-teams-user)」、 [Teams ユーザーによる PSTN エンドポイントへの通話の転送または転送](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)、および [同時呼び出しを](#simultaneous-ringing)参照してください。 代理人が PSTN エンドポイントを同時リング ターゲットとして設定すると、通話を PSTN にルーティングするために代理人の音声ルーティング ポリシーが使用されます。 
 
 - 委任の場合、委任者と関連するデリゲートを同じネットワーク サイトに配置することをお勧めします。 
 
@@ -370,20 +370,20 @@ IPv4 サブネットと IPv6 サブネットはサポートされていますが
 
 ### <a name="client-support-for-location-based-routing"></a>Location-Based ルーティングのクライアント サポート
 
-次のTeams クライアントがサポートされています。
-- Teams デスクトップ クライアント (Windowsと Mac)
-- Teams モバイル クライアント (iOSとAndroid)
+次の Teams クライアントがサポートされています。
+- Teams デスクトップ クライアント (Windows と Mac)
+- Teams モバイル クライアント (iOS と Android)
 - Teams IP Phone
 
 Teams Web クライアントとSkype for Business クライアントはサポートされていません。
 
 ### <a name="capabilities-not-supported-by-location-based-routing"></a>場所に基づくルーティングでサポートされていない機能
 
-Location-Based ルーティングは、次の種類の操作には適用されません。 Location-Based ルーティングは、Teams エンドポイントが PSTN エンドポイントと対話する場合、次のシナリオでは適用されません。 
+Location-Based ルーティングは、次の種類の操作には適用されません。 Location-Based ルーティングは、Teams エンドポイントが次のシナリオで PSTN エンドポイントと対話するときに適用されません。 
 
 - 通話保留による PSTN 通話の保留または再開 
 
-- オンプレミス Skype for Business ユーザーまたは Skype for Business Online ユーザーがTeams ユーザーを呼び出す  
+- オンプレミスのSkype for Business ユーザーまたは Skype for Business Online ユーザーが Teams ユーザーを呼び出す  
 
 ### <a name="location-based-routing-for-conferencing"></a>会議のLocation-Basedルーティング
 
@@ -395,7 +395,7 @@ PSTN 通話でLocation-Basedルーティングが有効なユーザーは、別�
 
 Location-Based ルーティングが有効なユーザーが、Location-Based ルーティングが有効になっていない内部サイトからの電話会議に参加している場合、上記の段落の制限は適用されません。 
 
-電話会議のオンネットワーク会議は、インドのテレフォニー機器と一緒に展開することはできません。
+電話会議のネットワーク上会議は、インドのテレフォニー機器と共に展開しないでください。
 
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>Location-Based ルーティングのメディア バイパス要件
@@ -410,4 +410,4 @@ Direct Voice over IP (VoIP) は、インドのテレフォニー機器と共に�
 ## <a name="related-articles"></a>関連記事
 
 - [ダイレクト ルーティングの場所に基づくルーティングを有効にする](location-based-routing-enable.md)
-- [Teamsのクラウド音声機能のネットワーク設定](cloud-voice-network-settings.md)
+- [Teams のクラウド音声機能のネットワーク設定](cloud-voice-network-settings.md)
