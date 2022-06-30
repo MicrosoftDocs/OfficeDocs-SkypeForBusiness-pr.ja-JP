@@ -22,12 +22,12 @@ searchScope:
 - Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03b68923ae47324525f192949d442e94e36685c2
-ms.sourcegitcommit: 55926815f13efce42fb45f63d95515a5765e0d40
+ms.openlocfilehash: f965e69e3dda921cf5fdf348a728db403fc26a84
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65753050"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66494734"
 ---
 # <a name="get-started-with-teams-for-retail"></a>小売店向けの Teams の使用を開始する
 
@@ -127,7 +127,7 @@ Teams アプリ、Power Apps、Power BI を使用して、ビジネス プロセ
 
 転職率が高い場合、アカウントをすばやく追加および削除し、適切なポリシーを割り当てる機能が重要です。 Microsoft 365 管理センターで現場担当者のオンボーディング ウィザードの使用を開始します。 ウィザードは、現場担当者のチームを設定し、各チーム メンバーにライセンスとポリシー パッケージを割り当てます。 詳細については、「[現場担当者オンボード ウィザードを使用して、現場の従業員を稼働させる](../flw-onboarding-wizard.md)」を参照してください。
 
-追加するユーザーが多い (100 を超える) 場合は、[現場担当者向けのスクリプト化された展開](../flw-scripted-deployment.md)を使用して、ユーザーとチームをすばやくプロビジョニングし、関連するすべてのポリシーを割り当てることができます。
+展開するチームが多数ある場合は、「[現場のワーカー向けに大規模にチームをデプロイする](../deploy-teams-at-scale.md)」を参照してください。
 
 現場担当者は、通常、稼働時間が毎日同じではないため、プレゼンスの予測が他のスタッフより難しい場合があります。 管理者は、シフトベースのアクセス (プレビュー) で Teams を構成して、組織内の現場担当者のシフトベースのプレゼンス状態のセットを表示し、シフト中とシフト外のどちらであるかを表示できます。 また、現場担当者がシフト外のときの Teams へのアクセスアクセスを管理できます。 詳細については、「[現場担当者のシフトベースのアクセスを管理する](shifts/manage-shift-based-access-flw.md)」を参照してください。
 
