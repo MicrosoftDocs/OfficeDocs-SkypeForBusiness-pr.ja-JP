@@ -1,7 +1,7 @@
 ---
-title: Microsoft Teamsでポリシー パッケージを管理する
-author: SerdarSoysal
-ms.author: serdars
+title: Microsoft Teams でポリシー パッケージを管理する
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.reviewer: sekrantz, aaglick
 ms.topic: article
@@ -19,32 +19,32 @@ ms.custom:
 - seo-marvel-apr2020
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Microsoft Teamsでポリシー パッケージを使用および管理して、ユーザー グループのポリシーを管理する際の一貫性を簡素化、合理化、および提供する方法について説明します。
-ms.openlocfilehash: d38384889e48e7d666036675b1a52ae194ea9582
-ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
+description: Microsoft Teams でポリシー パッケージを使用および管理して、ユーザー グループのポリシーを管理する際の一貫性を簡素化、合理化、および提供する方法について説明します。
+ms.openlocfilehash: 7ba8f21014f892d2170684a8a4cccdfce21cee91
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65144995"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66572196"
 ---
-# <a name="manage-policy-packages-for-microsoft-teams"></a>Microsoft Teamsのポリシー パッケージを管理する
+# <a name="manage-policy-packages-for-microsoft-teams"></a>Microsoft Teams のポリシー パッケージを管理する
 
 Microsoft Teams のポリシー パッケージは、組織内で類似の役割を持つユーザーに割り当てることができる定義済みのポリシーおよびポリシー設定のコレクションです。 組織全体のユーザー グループのポリシーを管理する際に一貫性を提供するために、ポリシー パッケージを構築しました。  
 
-[Teamsに含まれるポリシー パッケージを](#policy-packages-included-in-teams)使用することも、[独自のカスタム ポリシー パッケージを作成](#custom-policy-packages)することもできます。
+[Teams に含まれるポリシー パッケージを](#policy-packages-included-in-teams)使用することも、[独自のカスタム ポリシー パッケージを作成](#custom-policy-packages)することもできます。
 
 :::image type="content" source="media/policy-packages-admin-center.png" alt-text="管理センターの [ポリシー パッケージ] ページのスクリーンショット。":::
 
-ポリシー パッケージ内のポリシーの設定は、ユーザーのニーズに合わせてカスタマイズできます。 パッケージ内のポリシーの設定を変更すると、そのパッケージに割り当てられているすべてのユーザーが更新された設定を取得します。 Microsoft Teams管理センターまたは PowerShell を使用してポリシー パッケージを管理します。
+ポリシー パッケージ内のポリシーの設定は、ユーザーのニーズに合わせてカスタマイズできます。 パッケージ内のポリシーの設定を変更すると、そのパッケージに割り当てられているすべてのユーザーが更新された設定を取得します。 ポリシー パッケージは、Microsoft Teams 管理センターまたは PowerShell を使用して管理します。
 
 > [!NOTE]
-> この機能は、すべてのMicrosoft Teamsユーザー向けのパブリック プレビューで一時的に利用できます。 プレビュー後にこの機能を取得するには、各ユーザーに Advanced Communications アドオン ライセンスが必要です。 詳細については、「[Microsoft Teams 用 Advanced Communications アドオン](/microsoftteams/teams-add-on-licensing/advanced-communications)」を参照してください。
+> この機能は、すべての Microsoft Teams のお客様向けのパブリック プレビューで一時的に利用できます。 プレビュー後にこの機能を取得するには、各ユーザーに Advanced Communications アドオン ライセンスが必要です。 詳細については、「[Microsoft Teams 用 Advanced Communications アドオン](/microsoftteams/teams-add-on-licensing/advanced-communications)」を参照してください。
 
 ## <a name="what-is-a-policy-package"></a>ポリシー パッケージとは
 
-ポリシー パッケージを使用すると、組織全体の特定のユーザー セットに対して許可または制限するTeams機能を制御できます。 Teamsの各ポリシー パッケージは、ユーザー ロールを中心に設計されており、そのロールに一般的なコラボレーションアクティビティと通信アクティビティをサポートする定義済みのポリシーとポリシー設定が含まれています。
+ポリシー パッケージを使用すると、組織全体の特定のユーザー セットを許可または制限する Teams 機能を制御できます。 Teams の各ポリシー パッケージは、ユーザー ロールを中心に設計されており、そのロールに一般的なコラボレーションと通信アクティビティをサポートする定義済みのポリシーとポリシー設定が含まれています。
 
-ポリシー パッケージでは、次のTeamsポリシーの種類がサポートされます。
+ポリシー パッケージでは、次の Teams ポリシーの種類がサポートされます。
 
 - メッセージング ポリシー
 - 会議ポリシー
@@ -52,9 +52,9 @@ Microsoft Teams のポリシー パッケージは、組織内で類似の役割
 - 通話ポリシー
 - ライブ イベント ポリシー
 
-## <a name="policy-packages-included-in-teams"></a>Teamsに含まれるポリシー パッケージ
+## <a name="policy-packages-included-in-teams"></a>Teams に含まれるポリシー パッケージ
 
-Teams現在、次のポリシー パッケージが含まれています。
+Teams には現在、次のポリシー パッケージが含まれています。
 
 | パッケージ名 | 説明 |
 |---------|---------|
@@ -69,12 +69,12 @@ Teams現在、次のポリシー パッケージが含まれています。
 |医療施設の職員  |一連のポリシーとポリシー設定を作成して、登録済看護師、担当看護師、医師、およびソーシャル ワーカーに対して、チャット、通話、シフト管理、会議へのフル アクセスを提供します。 |
 |医療情報提供者  |一連のポリシーとポリシー設定を作成して、IT 担当者、情報スタッフ、財務担当者、法令遵守責任者に対して、チャット、通話、会議へのフル アクセスを提供します。|
 |医療患者室  |貴社の医療組織の患者室に適用される一連のポリシーとポリシー設定を作成します。|
-|小規模および中規模のビジネス ユーザー (通話プラン バンドルを使用したTeams 電話システム) |プランの呼び出しバンドル エクスペリエンスを使用して、Teams 電話システムのアプリを含むアプリセットアップ ポリシーを作成します。|
-|小規模および中規模のビジネス ユーザー (通話プラン バンドルを使用したTeams 電話システムなし) |小規模および中規模のビジネス Teams ユーザーに関連するアプリセットアップ ポリシーを作成します (通話プラン バンドル エクスペリエンスを使用してTeams 電話システムされません)。
+|小規模および中規模のビジネス ユーザー (通話プラン バンドルを使用した Teams Phone System) |通話プラン バンドル エクスペリエンスを備えた Teams Phone System 用のアプリを含むアプリセットアップ ポリシーを作成します。|
+|小規模および中規模のビジネス ユーザー (通話プラン バンドルを含む Teams Phone System なし) |小規模および中規模のビジネス Teams ユーザーに関連するアプリセットアップ ポリシーを作成します (通話プランバンドルエクスペリエンスを備えた Teams 以外の電話システム)。
 |公安担当者   |組織内の公衆安全責任者に適用される一連のポリシーとポリシー設定を作成します。|
 
 > [!NOTE]
-> 今後のリリースのTeamsでポリシー パッケージを追加する予定なので、最新の情報を確認してください。  
+> Teams の今後のリリースでポリシー パッケージを追加する予定なので、最新の情報を確認してください。  
 
 ポリシー パッケージにリンクされているポリシーを容易に識別できるように、個々のポリシーにはポリシー パッケージ名が付けられます。
 たとえば、教育機関 (教師) ポリシー パッケージを学校の教師に割り当てると、パッケージ内のポリシーごとにEducation_Teacherという名前のポリシーが作成されます。
@@ -87,7 +87,7 @@ Teams現在、次のポリシー パッケージが含まれています。
 
 新しいカスタム ポリシー パッケージを作成するには:
 
-1. Microsoft Teams管理センターの左側のウィンドウで、**ポリシー パッケージ** を選択し、[**追加**] をクリックします。
+1. Microsoft Teams 管理センターの左側のウィンドウで、 **ポリシー パッケージ** を選択し、[ **追加**] をクリックします。
 
     :::image type="content" source="media/policy-packages-add.png" alt-text="管理センターの [ポリシー パッケージ] ページの [追加] ボタンのスクリーンショット。":::
 
@@ -116,19 +116,19 @@ Teams現在、次のポリシー パッケージが含まれています。
 > [!NOTE]
 > パッケージを割り当てた後で、ポリシー パッケージ内のポリシーの設定を変更することもできます。 ポリシー設定の変更は、パッケージが割り当てられているユーザーに自動的に適用されます。
 
-Microsoft Teams管理センターでポリシー パッケージを表示、割り当て、カスタマイズする手順を次に示します。
+Microsoft Teams 管理センターでポリシー パッケージを表示、割り当て、カスタマイズする手順を次に示します。
 
 ### <a name="view-the-settings-of-a-policy-in-a-policy-package"></a>ポリシー パッケージ内のポリシーの設定を表示する
 
-1. Microsoft Teams管理センターの左側のウィンドウで、**ポリシー パッケージ** を選択し、パッケージ名の左側をクリックしてポリシー パッケージを選択します。
+1. Microsoft Teams 管理センターの左側のウィンドウで、 **ポリシー パッケージ** を選択し、パッケージ名の左側をクリックしてポリシー パッケージを選択します。
 
 2. 表示するポリシーを選択します。
 
 ### <a name="customize-policies-in-a-policy-package"></a>ポリシー パッケージ内のポリシーをカスタマイズする
 
-ポリシーの設定は、[**ポリシー パッケージ**] ページを使用するか、Microsoft Teams管理センターのポリシー ページに直接移動して編集できます。
+ポリシーの設定は、[ **ポリシー パッケージ** ] ページまたは Microsoft Teams 管理センターのポリシー ページに直接移動して編集できます。
 
-1. Microsoft Teams管理センターの左側のウィンドウで、次のいずれかの操作を行います。
+1. Microsoft Teams 管理センターの左側のウィンドウで、次のいずれかの操作を行います。
     - **[ポリシー パッケージ**] を選択し、パッケージ名の左側をクリックしてポリシー パッケージを選択します。
     - ポリシーの種類を選択します。  たとえば、[ **メッセージング ポリシー**] をクリックします。
 
@@ -143,6 +143,6 @@ Microsoft Teams管理センターでポリシー パッケージを表示、割�
 ## <a name="related-topics"></a>関連項目
 
 - [ポリシー パッケージを割り当てる](assign-policy-packages.md)
-- [EDU 管理者向けのポリシー パッケージをTeamsする](policy-packages-edu.md)
+- [EDU 管理者向けの Teams ポリシー パッケージ](policy-packages-edu.md)
 - [ヘルスケア向けの Teams ポリシー パッケージ](policy-packages-healthcare.md)
-- [政府機関向けのポリシー パッケージをTeamsする](policy-packages-gov.md)
+- [政府機関向けの Teams ポリシー パッケージ](policy-packages-gov.md)
