@@ -1,7 +1,7 @@
 ---
 title: Teams でメッセージング ポリシーを管理する
-ms.author: serdars
-author: SerdarSoysal
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -20,18 +20,18 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: メッセージング ポリシーについて、および Teams でメッセージング ポリシーを使用してチャット メッセージングを制御する方法について取り上げます。
-ms.openlocfilehash: 00146d35faac13ef511a06b6c442341832867bcc
-ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
+ms.openlocfilehash: f74ae28176f147d768e8e551ac07d1bcf189836b
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64592792"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66563965"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Teams でメッセージング ポリシーを管理する
 
 <!--- Add zone marker here--->
 
-メッセージング ポリシーは、Microsoft Teamsの[ユーザー (所有者とメンバー)](assign-roles-permissions.md) が使用できるチャットとチャネルのメッセージング機能を制御するために使用されます。 自動的に作成されるグローバル (組織全体の既定) ポリシーを使用するか、カスタム メッセージング ポリシーを作成して割り当てることができます。
+メッセージング ポリシーは、Microsoft Teams の [ユーザー (所有者とメンバー)](assign-roles-permissions.md) が利用できるチャットとチャネルのメッセージング機能を制御するために使用されます。 自動的に作成されるグローバル (組織全体の既定) ポリシーを使用するか、カスタム メッセージング ポリシーを作成して割り当てることができます。
 
 カスタム ポリシーを作成して割り当てる場合を除き、組織内のユーザーは自動的にグローバル ポリシーを取得します。 グローバル ポリシーの設定を編集するか、1 つ以上のカスタム ポリシーを作成して割り当てて、必要な機能を有効または無効にします。
 
@@ -40,7 +40,7 @@ ms.locfileid: "64592792"
 
 ## <a name="create-a-custom-messaging-policy"></a>カスタム メッセージング ポリシーを作成する
 
-1. Microsoft Teams管理センターの左側のナビゲーションで、**メッセージング ポリシー** に移動します。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、 **メッセージング ポリシー** に移動します。
 2. **[追加]** を選択します。
 3. ポリシーの名前と説明を入力します。
 4. 希望する設定を選びます。
@@ -58,7 +58,7 @@ ms.locfileid: "64592792"
 
 グローバル ポリシーおよび作成したカスタム ポリシーを編集できます。
 
-1. Microsoft Teams管理センターの左側のナビゲーションで、**メッセージング ポリシー** に移動します。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、 **メッセージング ポリシー** に移動します。
 2. ポリシー名の左側をクリックしてポリシーを選び、**[編集]** を選択します。
 3. ここで、希望する変更を行います。
 4. **[保存]** を選択します。
@@ -97,7 +97,7 @@ ms.locfileid: "64592792"
 - **会話中のミーム** Memes をオンにすると、ユーザーは他のユーザーとのチャット会話に Memes を含めることができます。
 - **会話のステッカー** これを有効にすると、ユーザーは他のユーザーとのチャット会話にステッカーを含めることができます。
 - **URL プレビュー** この設定を使用して、メッセージで URL の自動プレビューをオンまたはオフにします。
-- **メッセージを翻訳する** この設定をオンにすると、ユーザーはTeamsメッセージを、Microsoft 365またはOffice 365の個人用言語設定で指定された言語に自動的に翻訳できます。
+- **メッセージを翻訳する** ユーザーが Microsoft 365 または Office 365 の個人用言語設定で指定された言語に Teams メッセージを自動的に変換できるようにするには、この設定をオンにします。
 - **メッセージのイマーシブ リーダー** ユーザーが Microsoft イマーシブ リーダーでメッセージを表示できるようにするには、この設定をオンにします。 イマーシブ リーダーは、テキストの読みやすさを向上させるための全画面閲覧エクスペリエンスを備えた学習ツールです。
 - **優先度通知を使用して緊急メッセージを送信** するこれを有効にすると、ユーザーは [優先度通知](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462)を使用してメッセージを送信できます。 優先度通知は、20 分間、または *緊急* としてマークされたメッセージが受信者によって取得されて読み取されるまで、2 分ごとにユーザーに通知します。 この機能により、メッセージが適時に処理される可能性が高くなります。 送信後に緊急メッセージを編集することはできません。
 - **音声メッセージを作成する**
@@ -118,5 +118,5 @@ ms.locfileid: "64592792"
 
 ### <a name="related-topics"></a>関連項目
 
-- [Teamsのユーザーとグループにポリシーを割り当てる](assign-policies-users-and-groups.md)
+- [Teams のユーザーとグループにポリシーを割り当てる](assign-policies-users-and-groups.md)
 - [Microsoft Teams でチーム所有者とメンバーを割り当てる](assign-roles-permissions.md)

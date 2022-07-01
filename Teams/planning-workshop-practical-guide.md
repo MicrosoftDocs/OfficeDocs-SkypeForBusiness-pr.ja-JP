@@ -1,7 +1,7 @@
 ---
-title: ツール&ワークショップ - 計画、提供、&導入Teams
-author: SerdarSoysal
-ms.author: serdars
+title: ツール&ワークショップ - Teams の計画、提供、&導入
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 159ff348fcc519b2ddc837021263f5c6851214d1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 24e48a99d4c9b6cc63da517fb8efb7dd4e5fab51
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636671"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66563755"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>ツールとワークショップ: Microsoft Teams の計画、提供、導入
 
@@ -29,24 +29,24 @@ ms.locfileid: "58636671"
 
 - [Microsoft Teams カスタマー サクセス キット](https://aka.ms/TeamsCustomerSuccess)
 
-    このキットには、さまざまなプレゼンテーション、電子メール テンプレート、ヒント&テクニック、ポスターが含まれており、組織でのTeamsの導入をロールアウトして推進するために使用できます。 これには、管理者とチーム リーダー向けの 2 つのクイック スタート ガイドと、すべての部門のユース ケースの例が含まれています。 これらのリソースを使用して、マーケティング、営業、財務、人事、IT、エンジニアリング、Project Management など、組織内のさまざまな機能のTeamsを最大限に活用します。
+    このキットには、さまざまなプレゼンテーション、電子メール テンプレート、ヒント&テクニック、ポスターが含まれています。このキットを使用すると、組織内の Teams の導入をロールアウトして推進できます。 これには、管理者とチーム リーダー向けの 2 つのクイック スタート ガイドと、すべての部門のユース ケースの例が含まれています。 これらのリソースを使用して、マーケティング、営業、財務、人事、IT、エンジニアリング、Project Management など、組織内のさまざまな機能で Teams を最大限に活用します。
 
 - [Teams の展開方法](./deploy-overview.md)
 
-    推奨されるパスに従って、Teamsをロールアウトします。
+    推奨されるパスに従って Teams をロールアウトします。
 
 
-- [テクニカル トレーニングTeams入手する](itadmin-readiness.md)
+- [Teams のテクニカル トレーニングを受ける](itadmin-readiness.md)
 
     これらのテクニカル トレーニング リソースを使用して、自分自身を教育したり、他のユーザーに教えたり、ワークショップを実行したりします。
 
 - [Office 365 Government顧客](plan-for-government-gcc.md)
 
-   Teamsへの道のりは、企業のお客様のエクスペリエンスとよく似ています。 Teamsがテナントで一般公開されるようになったので、Microsoft 365[政府機関向けの計画 - GCC展開に関する](plan-for-government-gcc.md)記事と[管理者クイック スタート ガイド](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)から開始することをお勧めします。 [Microsoft のセキュリティとコンプライアンス](security-compliance-overview.md)の概要は、お客様が環境内のTeamsに自信を持てるのに役立ちます。
+   Teams への道のりは、企業のお客様のエクスペリエンスとよく似ています。 Teams がテナントで一般公開されるようになったので、[Microsoft 365 Government の計画 - GCC 展開に関](plan-for-government-gcc.md)する記事と[クイック スタート ガイド管理](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)開始することをお勧めします。 [Microsoft のセキュリティとコンプライアンス](security-compliance-overview.md)の概要は、環境内の Teams に自信を持てるのに役立ちます。
 
 - [Microsoft Teams for Education - 管理者向けのクイック スタート](./teams-quick-start-edu.yml)
 
-    このチュートリアルを使用して、教育機関向けのTeamsロールアウトについて説明します。
+    このチュートリアルを使用して、教育機関向けの Teams ロールアウトについて説明します。
 
 ### <a name="see-also"></a>関連項目
 
@@ -56,7 +56,7 @@ ms.locfileid: "58636671"
 
 [導入のためのツール](adopt-tools-and-downloads.md)
 
-[Teamsアップグレード計画ワークショップへのSkype for Business](https://www.microsoft.com/microsoft-365/partners/intelligentcommunications/skype-for-business-teams)
+[Teams アップグレード 計画ワークショップへのSkype for Business](https://www.microsoft.com/microsoft-365/partners/intelligentcommunications/skype-for-business-teams)
 
 [オンプレミスから Teams にユーザーを移動する](/skypeforbusiness/hybrid/move-users-from-on-premises-to-teams)
 

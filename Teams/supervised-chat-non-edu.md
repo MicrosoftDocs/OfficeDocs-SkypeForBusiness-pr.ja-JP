@@ -1,7 +1,7 @@
 ---
 title: 教育以外のテナントに対して監視付きチャットを使用する
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: angch
 ms.topic: article
@@ -14,13 +14,13 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Microsoft Teams会議での非教育テナントの監視付きチャットについて説明します。
-ms.openlocfilehash: 4076a2dfa93a037912649bbac88c876c498f1586
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+description: Microsoft Teams 会議の非教育テナント向けの監視付きチャットについて説明します。
+ms.openlocfilehash: a06aa7b9ae24e29a70b3c1a4fc74fae134616b6b
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681568"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66564185"
 ---
 # <a name="supervised-chats-for-non-educational-tenants"></a>教育以外のテナント向けの監視付きチャット
 
@@ -48,13 +48,13 @@ ms.locfileid: "65681568"
 
 - 制限付きアクセス許可: このロールは、監視する必要があるユーザーに最適です。 完全な権限を持つユーザーとのみチャットを開始できます。 完全な権限を持つユーザーが招待する会話に参加できます。 フェデレーション チャットの場合、制限付きユーザーは、制限付きユーザーのテナントからの完全なアクセス許可を持つユーザーのみがチャットに追加できます。
 
-ユーザーのチャットアクセス許可ロールを設定するには、Teams管理ポータルのメッセージング ポリシー オプション内にある **チャットアクセス許可ロール** ポリシーを使用します。 PowerShell を使用して、値が完全、限定、または制限の ChatPermissionRole ポリシーを使用して役割を定義できます。 このポリシーは [CsTeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy) の下です。
+ユーザーのチャットアクセス許可ロールを設定するには、Teams 管理ポータルのメッセージング ポリシー オプション内にある **チャットアクセス許可ロール** ポリシーを使用します。 PowerShell を使用して、値が完全、限定、または制限の ChatPermissionRole ポリシーを使用して役割を定義できます。 このポリシーは [CsTeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy) の下です。
 
 テナント内のゲストに役割を割り当てることはできません。 ゲストには限定された役割が割り当てられます。
 
 ## <a name="allow-supervised-chat"></a>監視ありチャットを許可する
 
-監視ありチャットは、テナントに対して既定で無効になっています。 ユーザーのチャットアクセス許可ロールを設定したら、**組織全体の設定** \> **Teams 設定** に移動し、**ロールベースのチャットアクセス許可** ポリシーを **[オン**] に設定することで、テナント内で監視チャットを有効にすることができます。 また、PowerShell を使用して、AllowRoleBasedChatPermissions を True に設定することにより、監視ありチャットを有効にすることもできます。 このコマンドレットは [CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration) の下です。
+監視ありチャットは、テナントに対して既定で無効になっています。 ユーザーのチャットアクセス許可ロールを設定したら、 **組織全体の設定** \> **Teams の設定** に移動し、 **ロールベースのチャットアクセス許可** ポリシーを **[オン**] に設定することで、テナント内で監視チャットを有効にすることができます。 また、PowerShell を使用して、AllowRoleBasedChatPermissions を True に設定することにより、監視ありチャットを有効にすることもできます。 このコマンドレットは [CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration) の下です。
 
 監視ありチャットは、テナント内のすべてのユーザーに対して有効にする必要があり、一部のユーザーに対してのみ有効にすることはできません。
 

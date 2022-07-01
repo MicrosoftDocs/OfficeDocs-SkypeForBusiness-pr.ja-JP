@@ -1,13 +1,13 @@
 ---
-title: Microsoft Teams クライアントにサービス品質 (QoS) を実装する
-author: SerdarSoysal
-ms.author: serdars
+title: Microsoft Teams クライアントでサービス品質 (QoS) を実装する
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: Serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: vkorlep, siunies
 audience: admin
-description: Quality of Service (QoS) を使用して、Microsoft Teams デスクトップ クライアントのネットワーク トラフィックを最適化する方法について説明します。
+description: サービス品質 (QoS) を使用して、Microsoft Teams デスクトップ クライアントのネットワーク トラフィックを最適化する方法について説明します。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -19,16 +19,16 @@ appliesto:
 ms.custom:
 - seo-marvel-mar2020
 - seo-marvel-apr2020
-ms.openlocfilehash: c283a66db274bc8723d429631bf265fdb0f5206b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 70dbc5794fe64a1afed86bc82d0005ad7d510c5f
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606016"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66563925"
 ---
-# <a name="implement-quality-of-service-qos-in-microsoft-teams-clients"></a>Microsoft Teams クライアントにサービス品質 (QoS) を実装する
+# <a name="implement-quality-of-service-qos-in-microsoft-teams-clients"></a>Microsoft Teams クライアントでサービス品質 (QoS) を実装する
 
-グループ ポリシー内でポリシーベースのサービス品質 (QoS) を使用して、Teams クライアントで定義済みの DSCP 値のソース ポート範囲を設定できます。 次の表に示すポート範囲は、各ワークロードのポリシーを作成するための開始点です。
+ポリシー ベースの QoS (QoS) をグループ ポリシー内で使用して、Teams クライアントで定義済みの DSCP 値のソース ポート範囲を設定できます。 次の表に示すポート範囲は、各ワークロードのポリシーを作成するための開始点です。
 
 *表 1.推奨される初期ポート範囲*
 
@@ -51,7 +51,7 @@ ms.locfileid: "58606016"
 
 1. 新しく作成したポリシーを右クリックし、[ **編集]** をクリックします。
 
-1. グループ ポリシー管理エディターで、[**コンピューターの構成]** を展開し、**Windows 設定** 展開し、[**ポリシー ベースの QoS**] を右クリックして、[**新しいポリシーの作成**] をクリックします。
+1. グループ ポリシー管理エディターで、[**コンピューターの構成]** を展開し、[**Windows 設定]** を展開し、[**ポリシー ベースの QoS**] を右クリックして、[**新しいポリシーの作成**] をクリックします。
 
 1. [ **ポリシー ベースの QoS** ] ダイアログ ボックスの開きページで、[名前 **] ボックスに** 新しいポリシーの名前を入力します。 [ **DSCP 値の指定]** を選択し、値を **46** に設定します。 **[送信スロットル レートの指定]** をオフのままにし、[**次へ**] をクリックします。
 
@@ -99,11 +99,11 @@ ms.locfileid: "58606016"
 
 1. レジストリ エディターを開き、
 
-   HKEYLOCALMACHINESoftwarePoliciesMicrosoft\_\\\\\\\_\\ Windows\\ QoS
+   HKEY\_LOCAL\_MACHINE\\ソフトウェア\\ポリシー\\Microsoft\\Windows\\QoS
 
    表 2 に記載されているレジストリ エントリの値を確認します。
 
-   *表 2.QoS のWindowsレジストリ エントリの値*
+   *表 2.QoS の Windows レジストリ エントリの値*
 
    |          名前          |  種類  |    データ     |
    |         :---:          | :---:  |    :---:    |
@@ -124,4 +124,4 @@ ms.locfileid: "58606016"
 
 ## <a name="related-topics"></a>関連項目
 
-[Teamsでサービス品質 (QoS) を実装する](QoS-in-Teams.md)
+[Teams でサービス品質 (QoS) を実装する](QoS-in-Teams.md)

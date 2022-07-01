@@ -1,7 +1,7 @@
 ---
-title: Teamsのポリシー パッケージを作成する
-author: serdars
-ms.author: serdars
+title: 政府機関向けの Teams ポリシー パッケージ
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.reviewer: aaglick
 ms.topic: article
@@ -16,18 +16,18 @@ f1.keywords: ''
 ms.custom: ''
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 政府機関向けポリシー パッケージをTeams管理する方法について学習します。
-ms.openlocfilehash: 40804e4536be5f4263623c48ace2450dec92036a
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: 政府機関の Teams ポリシー パッケージを使用して管理する方法について説明します。
+ms.openlocfilehash: fdaacb8b551c1031d71c522dffdbc4afd9f551a8
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62384105"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66564095"
 ---
-# <a name="teams-policy-packages-for-government"></a>Teamsのポリシー パッケージを作成する
+# <a name="teams-policy-packages-for-government"></a>政府機関向けの Teams ポリシー パッケージ
 
 > [!NOTE]
-> ポリシー パッケージは、現在、Government Microsoft 365 High または DoD GCCでは使用できません。
+> ポリシー パッケージは現在、Microsoft 365 Government GCC High または DoD 展開では使用できません。
 
 ## <a name="overview"></a>概要
 
@@ -41,19 +41,19 @@ Microsoft Teams の[ポリシー パッケージ](manage-policy-packages.md)は�
 - アプリのセットアップ
 - ライブ イベント
 
-Teams現在、政府機関向け次のポリシー パッケージが含まれています。
+Teams には現在、政府機関向けの次のポリシー パッケージが含まれています。
 
 |Microsoft Teams 管理センターのパッケージ名|以下の目的での使用に最適です|説明 |
 |---------|---------|---------|
-|公安責任者  |政府機関の公安責任者  |組織内の公安責任者に適用される一連のポリシーとポリシー設定を作成します。 |
-|Frontline Manager  |政府機関のフロントライン マネージャー |一連のポリシーを作成し、それらの設定を組織内の Frontline Managers に適用します。|
-|Frontline worker  |政府機関のフロントライン ワーカー |一連のポリシーを作成し、それらの設定を組織内の Frontline Worker に適用します。|
+|公安担当者  |政府機関の公安担当者  |組織内の公衆安全責任者に適用される一連のポリシーとポリシー設定を作成します。 |
+|フロントライン マネージャー  |政府機関のフロントライン マネージャー |一連のポリシーを作成し、その設定を組織内のフロントライン マネージャーに適用します。|
+|フロントライン ワーカー  |政府機関のフロントライン ワーカー |一連のポリシーを作成し、その設定を組織内の Frontline Workers に適用します。|
 
 ![医療ポリシー パッケージのスクリーンショット。](media/policy-packages-gov.png)
 
-ポリシー パッケージにリンクされているポリシーを容易に識別できるように、個々のポリシーにはポリシー パッケージ名が付けられます。 たとえば、組織内のユーザーに Public safety officer ポリシー パッケージを割り当てると、パッケージ内のポリシーごとに PublicSafety_Officer という名前のポリシーが作成されます。
+ポリシー パッケージにリンクされているポリシーを容易に識別できるように、個々のポリシーにはポリシー パッケージ名が付けられます。 たとえば、組織のユーザーに Public safety officer ポリシー パッケージを割り当てると、パッケージ内のポリシーごとにPublicSafety_Officerという名前のポリシーが作成されます。
 
-![Healthcare clinical worker パッケージのポリシーのスクリーンショット。](media/policy-packages-public-safety-officer.png)
+![Healthcare 臨床ワーカー パッケージのポリシーのスクリーンショット。](media/policy-packages-public-safety-officer.png)
 
 ## <a name="manage-policy-packages"></a>ポリシー パッケージを管理する
 

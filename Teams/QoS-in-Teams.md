@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams でサービス品質を実装する
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: Serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f87dfea2eb847a8bf6ae4c6aa95b099d93b0c1e0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 6015c7b7cf1e7be5bc6b9b3e1fe0577a7f707377
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732936"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66564145"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Microsoft Teams でサービス品質 (QoS) を実装する
 
@@ -64,13 +64,13 @@ _図 1. 組織のネットワークと Microsoft 365 または Office 365 サー
       > [!IMPORTANT]
       > これらの QoS ポリシーは、クライアントの送信元ポートと、送信元と宛先の IP アドレスを "any"として実装することをお勧めします。 これにより、内部ネットワーク上の受信と送信の両方のメディア トラフィックがキャッチされます。  
 
-   3. [Teams会議のメディア トラフィックを処理する方法を設定します](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)。
+   3. [Teams 会議のメディア トラフィックを処理する方法を設定します](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)。
 
 5. ネットワーク上の Teams トラフィックを分析して [QoS 実装を検証](#validate-your-qos-implementation)します。
 
 QoS の実装を準備する際には、次のガイドラインに留意してください。
 
-- Microsoft 365への最短パスが最適です。
+- Microsoft 365 への最短パスが最適です。
 - ポートを閉じると品質が低下するだけです。
 - プロキシなどの間の障害物はお勧めしません。
 - ポップ数を制限します:

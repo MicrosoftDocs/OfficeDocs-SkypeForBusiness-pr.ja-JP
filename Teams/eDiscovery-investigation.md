@@ -17,12 +17,12 @@ description: 電子情報開示を実行する必要がある場合 (法的手�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6f24c780944bfed6bb10fb8b1cd7634edc1ce850
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 4b5a0ca0cb52c4b444769b7bfc25b17cab80a02b
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562426"
+ms.locfileid: "66563945"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Microsoft Teams のコンテンツに対して電子情報開示の調査を行う
 
@@ -38,7 +38,7 @@ ms.locfileid: "66562426"
 
 |コンテンツの種類|eDiscoverable|メモ|
 |---|---|---|
-|録音|いいえ||
+|録音|はい||
 |カードコンテンツ|はい|詳細については、「 [カード コンテンツの検索](#search-for-card-content) 」を参照してください。|
 |チャット リンク|はい||
 |チャット メッセージ|はい|これには、標準 Teams チャネルのコンテンツ、1 対 1 のチャット、1 対 1 のグループ チャット、ゲスト ユーザー参加者とのチャットが含まれます。|
@@ -51,7 +51,6 @@ ms.locfileid: "66562426"
 |IM 会話の会議|はい||
 |会議メタデータ<sup>1</sup>|はい||
 |チャネルの名前|はい||
-|プライベートおよび共有チャネル チャット メッセージ|はい||
 |引用符|はい|引用符で囲まれたコンテンツは検索可能です。 ただし、検索結果は、コンテンツが引用符で囲まれたことを示すわけではありません。|
 |リアクション (いいね、ハート、その他の反応など)|はい||
 |件名|はい||
