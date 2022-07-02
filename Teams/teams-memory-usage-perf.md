@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams のメモリ使用方法
-author: msdmaguire
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 70862d2d48d98517365b35d05ccd36dd9cb4ffd3
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 0d55caf2a1642b28ccc63e3be1cf3eccc69bb260
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58734036"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66605676"
 ---
 # <a name="how-microsoft-teams-uses-memory"></a>Microsoft Teams のメモリ使用方法
 
@@ -36,7 +36,7 @@ Electron で設計されている Teams を使用すると、迅速な展開が�
 
 次の画像では、Windows 用の Teams デスクトップ アプリと Teams Web アプリ (この例では Google Chrome で実行されています) のメモリ使用量を並べて示しています。
 
-![デスクトップ アプリと Web アプリのメモリ使用量をTeamsします。](media/teams-memory-clientweb.png)
+![デスクトップ アプリと Web アプリの Teams メモリ使用量。](media/teams-memory-clientweb.png)
 
 ## <a name="memory-usage-in-teams"></a>Teams でのメモリ使用量
 
@@ -50,7 +50,7 @@ Teams デスクトップ アプリと Teams Web アプリのどちらを実行�
 
 次のグラフは、4 つの独立したシステムにおける Teams でのメモリ使用量を示しています。システムごとに使用できるメモリ量が異なります。 各システムは同様のワークロードを処理しています (同じアプリを開いて実行しています)。
 
-![さまざまなシステム間でメモリ使用量をTeamsします。](media/teams-memory-usage.png)
+![さまざまなシステムでの Teams メモリ使用量。](media/teams-memory-usage.png)
 
 コンピューターに搭載されているメモリが多い場合、Teams はそのメモリを使用します。 メモリが十分にないシステムでは、Teams が使用するメモリは少なくなります。
 
@@ -64,6 +64,6 @@ Teams デスクトップ アプリと Teams Web アプリのどちらを実行�
 
 次の画像は、システム メモリ使用率が異常に高い場合のタスク マネージャーのビューの例を示しています。
 
-![タスク マネージャーでメモリ使用量ビューをTeamsします。](media/teams-memory-high-mem-process-list.png)
+![タスク マネージャーの Teams メモリ使用量ビュー。](media/teams-memory-high-mem-process-list.png)
 
-![タスク マネージャーでメモリ使用量グラフをTeamsします。](media/teams-memory-high-mem-process-list2.png)
+![タスク マネージャーの Teams メモリ使用量グラフ。](media/teams-memory-high-mem-process-list2.png)

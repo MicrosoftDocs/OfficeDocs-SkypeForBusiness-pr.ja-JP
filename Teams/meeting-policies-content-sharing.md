@@ -18,13 +18,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
-description: コンテンツ共有のTeamsで会議ポリシー設定を管理する方法について説明します。
-ms.openlocfilehash: dccf36a257cde5731c140f2000e3d0733d3366c3
-ms.sourcegitcommit: 42c355d3f4bbe52c063b8f2119baefc0b88f9563
+description: Teams でコンテンツ共有の会議ポリシー設定を管理する方法について説明します。
+ms.openlocfilehash: cd493d21b774e260f2188ac8d174d1208cf4eba7
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "64403988"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66605846"
 ---
 # <a name="meeting-policy-settings---content-sharing"></a>会議ポリシーの設定 - コンテンツの共有
 
@@ -123,7 +123,13 @@ Amanda は、会議の開催者であっても、PowerPoint スライド セッ�
 |Daniela   | グローバル   | オン       |
 |Amanda   | Location1MeetingPolicy        | オフ   |
 
-Amanda は、会議の開催者であっても、会議でホワイトボードを共有することはできません。 Daniela は、Amanda が会議を開催する場合でも、ホワイトボードを共有することができます。  
+Amanda は、会議の開催者であっても、会議でホワイトボードを共有することはできません。 Daniela は、Amanda が会議を開催する場合でも、ホワイトボードを共有することができます。
+
+PowerShell を使用して Whiteboard を有効にするには、IsWBFluidEnabled コマンドレットを [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant) から$trueに設定します。
+
+### <a name="annotation"></a>アノテーション
+
+ホワイトボードが有効になっている場合、ユーザーは [注釈](/office/use-annotation-while-sharing-your-screen-in-teams)を使用するオプションを使用できます。この機能を使用すると、参加者は Teams 会議で画面を共有しながら共同作業できます。 ホワイトボードが無効になっている場合、ユーザーは注釈にアクセスできません。
 
 ## <a name="shared-notes"></a>共有ノート
 

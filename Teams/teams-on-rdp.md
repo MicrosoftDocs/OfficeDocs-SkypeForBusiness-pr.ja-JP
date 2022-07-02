@@ -1,14 +1,14 @@
 ---
-title: リモート デスクトップ サービスでTeamsを使用する
-author: serdars
-ms.author: serdars
+title: リモート デスクトップ サービスで Teams を使用する
+ms.author: mikeplum
+author: MikePlumleyMSFT
 ms.reviewer: alivano
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: リモート デスクトップ サービスでMicrosoft Teamsを使用する方法について説明します。
+description: リモート デスクトップ サービスで Microsoft Teams を使用する方法について説明します。
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -17,27 +17,27 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6bfd184738428c8ebe3d61c999c46c172f93e2fd
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 7e18aa0ad95033550d0ef2f7c6049e700d917798
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62398381"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66606096"
 ---
-# <a name="teams-in-remote-desktop-services"></a>リモート デスクトップ サービスのTeams
+# <a name="teams-in-remote-desktop-services"></a>リモート デスクトップ サービスの Teams
 
-この記事では、リモート デスクトップ サービス (RDS) 環境でMicrosoft Teamsを使用するための要件と制限事項について説明します。
+この記事では、リモート デスクトップ サービス (RDS) 環境で Microsoft Teams を使用するための要件と制限事項について説明します。
 
 ## <a name="what-is-rds"></a>RDS とは
 
 リモート デスクトップ サービス (RDS) は、エンド カスタマーのニーズに合った仮想化ソリューションを構築するための選択のプラットフォームです。 RDS を使用すると、個々の仮想化されたアプリケーションを提供し、セキュリティで保護されたモバイルおよびリモート デスクトップ アクセスを提供し、エンド ユーザーにアプリケーションとデスクトップをクラウドから実行する機能を提供できます。
 
-RDS は、デプロイの柔軟性、コスト効率、拡張性を提供します。 RDS は、オンプレミスデプロイのWindows Server 2016、クラウドデプロイのMicrosoft Azure、堅牢なパートナー ソリューションの配列など、さまざまなデプロイ オプションを通じて提供されます。
+RDS は、デプロイの柔軟性、コスト効率、拡張性を提供します。 RDS は、オンプレミスデプロイのWindows Server 2016、クラウドデプロイ用の Microsoft Azure、堅牢なパートナー ソリューションの配列など、さまざまなデプロイ オプションを通じて提供されます。
 環境と設定に応じて、セッション ベースの仮想化用の RDS ソリューションを仮想デスクトップ インフラストラクチャ (VDI) として設定できます。
 
-現在、リモート デスクトップ サービス環境のTeamsは、コラボレーションとチャット機能のサポートで利用できます。 最適なユーザー エクスペリエンスを確保するには、この記事のガイダンスに従ってください。
+現在、リモート デスクトップ サービス環境の Teams は、コラボレーションとチャット機能のサポートで利用できます。 最適なユーザー エクスペリエンスを確保するには、この記事のガイダンスに従ってください。
 
-## <a name="teams-on-rds-with-chat-and-collaboration"></a>チャットとコラボレーションを使用した RDS のTeams
+## <a name="teams-on-rds-with-chat-and-collaboration"></a>チャットとコラボレーションを行う RDS 上の Teams
 
 組織で Teams のチャットおよび共同作業機能のみを使用する場合は、ユーザーレベル ポリシーを設定して、Teams の通話および会議機能を無効にすることができます。
 
@@ -73,8 +73,8 @@ DisallowCalling 通話ポリシーと AllOff 会議ポリシーをユーザー�
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、割り当てるポリシーに移動します。 次に例を示します。
 
-    - **VoiceCalling** >  **ポリシー** に移動し、**許可しない呼び出しを** 選択します。
-    - **MeetingsMeeting** >  ポリシーに移動し、**AllOff** を選択します。
+    - **音声** > **通話ポリシー** に移動し、**許可しない呼び出しを** 選択します。
+    - **[会議** > **の会議ポリシー**] に移動し、[**AllOff**] を選択します。
 
 2. [**ユーザーを管理する**] を選択します。
 3. [**ユーザーを管理**] ウィンドウで、表示名またはユーザー名でユーザーを検索し、名前を選択して [**追加**] を選びます。 追加するユーザーごとに、この手順を繰り返します。

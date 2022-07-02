@@ -1,7 +1,7 @@
 ---
 title: アーリー アダプターに関与してフィードバックを収集する
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Teams導入の実験段階で早期導入者を選択し、プロジェクトのフィードバックを収集します。
+description: Teams 導入の実験段階で早期導入者を選択し、プロジェクトのフィードバックを収集します。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0cbc0f8d77aaa29c7c1d5ba76715840b6a535707
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 31fda9f6b1336181b80491ae7d882f3910e5fd6f
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62390809"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66605636"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>アーリー アダプターに関与して、Microsoft Teams についてのフィードバックを収集する
 
-早期採用者プログラムに関心を示した従業員の一覧に戻ります。 Teamsを使用して最初の実験に参加する必要がある個人を決定します。 関心のあるユーザーの全部または一部である可能性があります。 これらの初期プロジェクトに対して選択しない場合でも、引き続き連絡を取り合い、関心を持ち続け、今後も参加する予定です。 これらは、ビジネス関係者、技術チーム、および上記の優先順位付け演習とのディスカッションに基づいて、選択したプロジェクトのオンボード プロセスの一部になります。 
+早期採用者プログラムに関心を示した従業員の一覧に戻ります。 Teams での最初の実験に参加する必要がある個人を決定します。 関心のあるユーザーの全部または一部である可能性があります。 これらの初期プロジェクトに対して選択しない場合でも、引き続き連絡を取り合い、関心を持ち続け、今後も参加する予定です。 これらは、ビジネス関係者、技術チーム、および上記の優先順位付け演習とのディスカッションに基づいて、選択したプロジェクトのオンボード プロセスの一部になります。 
 
 これらの早期導入者を使用して、次の手順を実行します。
 
@@ -41,9 +41,9 @@ ms.locfileid: "62390809"
 
 ## <a name="gather-feedback"></a>フィードバックの収集
 
-Microsoft 365またはOffice 365のコンポーネントを使用して、プロジェクトのフィードバックを収集します。
+Microsoft 365 またはOffice 365のコンポーネントを使用して、プロジェクトのフィードバックを収集します。
   
-![デシジョン ポイントを表すアイコン。](media/teams-adoption-decision-icon.png) 決定: 組織が既にYammer ネットワークに投資している場合は、早期導入者プログラムのフィードバック フォーラムとして使用できます。 そうでない場合は、早期導入者プログラムのメンバー数が 5,000 人未満の場合は、Teamsにチームを作成してフィードバックを収集し、トレーニングを提供します。
+![デシジョン ポイントを表すアイコン。](media/teams-adoption-decision-icon.png) 決定: 組織が Yammer ネットワークに既に投資している場合は、早期導入者プログラムのフィードバック フォーラムとして使用できます。 そうでない場合は、早期導入者プログラムのメンバー数が 5,000 人未満の場合は、Teams でチームを作成してフィードバックを収集し、トレーニングを提供します。
   
 > [!Note]
 > 一部の組織では、早期導入者からのフィードバックのためのチャネルをチームワーク チャンピオン プログラム チームに組み合わせます。 これは、多くの早期導入者が将来チャンピオンになる可能性があり、より強力なコミュニティを構築するため、優れたアプローチです。 

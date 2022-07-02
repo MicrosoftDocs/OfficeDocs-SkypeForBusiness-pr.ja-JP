@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Microsoft Teams で認定されている USB 周辺機器とデバイス (ヘッドセット、スピーカーフォン、Web カメラ、モニターなど) を確認します。
-ms.openlocfilehash: 93e0832b73ef0f62a00cfdf454b1fbcffb715542
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: a2f106b71cc6494594ad34b9aa8dbfb61789a67a
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494344"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66605706"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams の認定を受けた USB オーディオ デバイスとビデオ デバイス
 
@@ -81,6 +81,7 @@ Teams での通話制御のサポートの詳細については、Teams [のヘ�
 
 | [製造元]        | モデル                                                     | 修飾      | 認定プログラム                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Dell                 |WB5023 カメラ                                              |6/29/2022       |Microsoft Teams 認定                           |
 |EPOS                 |ADAPT 560 II ヘッドセット                                       |6/22/2022       |Microsoft Teams 認定                           |
 |EPOS                 |C10/C20/C50 シリーズ ヘッドセット                                |5/31/2022       |Microsoft Teams 認定                           |
 |ポリ                 |Studio P21 モニター                                         |5/12/2022       |Microsoft Teams 認定                           |

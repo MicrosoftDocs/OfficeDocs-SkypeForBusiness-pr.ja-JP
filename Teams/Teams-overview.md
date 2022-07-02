@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams にようこそ
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.custom:
 - intro-overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 57ec8ab827eae0d0c6334e11fa75b068544f8505
-ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
+ms.openlocfilehash: 9b91bff459d93dee392a428e1a141622c8937c70
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/29/2021
-ms.locfileid: "61625928"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66606246"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Microsoft Teams にようこそ
 所属する組織での Microsoft Teams の管理者である場合は、このページの内容をよくお読みください。 Teams の使用を開始する準備ができたら、「[Teams のロールアウト方法](./deploy-overview.md)」および「[Microsoft 365 と Microsoft Teams を使用してセキュリティで保護された共同作業を設定する](/microsoft-365/solutions/setup-secure-collaboration-with-teams)」から開始します。
@@ -34,7 +34,7 @@ Teams を使うのが初めてで、詳細を知りたい場合は、「[Teams �
 
 Teams の管理者向けビデオの「Teams へようこそ」をお見逃しなく (3 分強):
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vxWd]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
 
 エンド ユーザー向けの Teams のヘルプを探している場合は、アプリの左側にある **[ヘルプ]** をクリックするか、「[Microsoft Teams ヘルプ センター](https://support.office.com/teams)」に移動します。トレーニングについては、「[Microsoft Teams のトレーニング](training-microsoft-teams-landing-page.md)」を参照してください。 
 

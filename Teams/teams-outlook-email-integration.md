@@ -1,7 +1,7 @@
 ---
 title: Teams と Outlook のメールの統合
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd1226cddb41ee40139029b64c65d6c151c3993b
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
-ms.translationtype: HT
+ms.openlocfilehash: 76a2ecf05a8769b51ffcb9827c0fe6ff75df7b18
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681758"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66606236"
 ---
 # <a name="teams-and-outlook-email-integration"></a>Teams と Outlook のメールの統合
 

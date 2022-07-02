@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams の使用状況シナリオを定義する
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 10/31/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Teams導入の実験フェーズに最適な使用シナリオを選択する方法について説明します。
+description: Teams 導入の実験フェーズに最適な使用シナリオを選択する方法について説明します。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e932ce57212b2efc88a0b26316b7d9668062045c
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: e63fca2ac3b9dad300c6cb01f6f30acef618db58
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62387465"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66605666"
 ---
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>Microsoft Teams の使用状況シナリオを定義する
 
@@ -45,9 +45,9 @@ ms.locfileid: "62387465"
 - 売上の生産性を向上させ、収益を拡大する
 - ビジネス レビューを合理化する
 
-![すべてのシナリオに対するTeamsユース ケースの図。](media/teams-adoption-use-cases.png)
+![すべてのシナリオにおける Teams のユース ケースの図。](media/teams-adoption-use-cases.png)
 
-このシナリオの最新化の動きは、累積的なプロセスと考えてください。より基本的なシナリオで物事を進め、この新しい作業方法に対する情熱、親しみやすさ、信頼性を生み出します。 その後、より意欲的な影響領域に進む。 Microsoft Teamsに対するより多くの影響がビジネス 同僚に示されるように、より多くの人が関与し、勢いを増します。 多くのお客様にとって、このプロセスを開始すると、同僚がMicrosoft Teamsから価値を得た方法を学んだ後、ビジネス関係者がアプローチすることがわかります。
+このシナリオの最新化の動きは、累積的なプロセスと考えてください。より基本的なシナリオで物事を進め、この新しい作業方法に対する情熱、親しみやすさ、信頼性を生み出します。 その後、より意欲的な影響領域に進む。 Microsoft Teams に対するより多くの影響がビジネス 同僚に示されているように、より多くの人が関与し、勢いが増します。 多くのお客様にとって、このプロセスを完了すると、同僚が Microsoft Teams から価値を得た方法を学んだ後、ビジネス関係者がアプローチすることがわかります。
 
 ## <a name="interview-business-stakeholders"></a>ビジネス関係者にインタビューする
 
@@ -55,7 +55,7 @@ ms.locfileid: "62387465"
 
 - コミュニケーションとコラボレーションに関連する組織の課題や問題点は何ですか?
 - 組織で改善したい分野は何ですか?
-- Teamsがサポートできる組織の戦略的イニシアチブや現在の変革プロジェクトは何ですか?
+- Teams がサポートできる組織の戦略的イニシアチブや現在の変革プロジェクトは何ですか?
 - 通常、組織は他の方法よりも、どのようなコミュニケーションとコラボレーションの方法を受け取る方がよいでしょうか。
 - 情報の下書き、配布、共有を行うプロセスは何ですか?
 
@@ -70,6 +70,6 @@ ms.locfileid: "62387465"
 ![シナリオの影響と難易度を示す図。](media/teams-adoption-impact-difficulty.png)
 
 > [!Note]
-> 私たちは常に、お客様が革新的な新しい方法でTeamsを使用する方法について学ぶことを熱望しています。 [導入の推進](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption)に関するディスカッション フォーラムで、#TeamsStoriesを弊社と共有します。 投稿にハッシュタグ **#TeamsStories** を含めます。 組織でTeamsを使用する方法に常に関心があります。
+> お客様が革新的な新しい方法で Teams を使用する方法について常に知ることを熱望しています。 [導入の推進](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption)に関するディスカッション フォーラムで、#TeamsStoriesを弊社と共有します。 投稿にハッシュタグ **#TeamsStories** を含めます。 組織で Teams を使用する方法に常に関心があります。
 
 ![次の手順を表すアイコン。](media/teams-adoption-next-icon.png) 次へ: [早期導入者をオンボードし、フィードバックを収集します](teams-adoption-onboard-early-adopters.md)。

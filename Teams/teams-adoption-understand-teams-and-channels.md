@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams でのチームとチャネルの概要を理解する
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 10/29/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Microsoft Teamsでのチームとチャネルの構造化と、Teamsを使用して組織間のコラボレーションを推進する方法について説明します。
+description: Microsoft Teams でチームとチャネルを構成する方法と、Teams を使用して組織間のコラボレーションを推進する方法について説明します。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,22 +21,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 09aba3d8f6bcdb06d75bf0563a437a87197cb254
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: b78faceead8a7a94c7a5ec75622fea7b775df0c8
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62400841"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66606056"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams でのチームとチャネルの概要を理解する
 
-チームとチャネルの概念は、Microsoft Teamsの健全で生産性の高い実装の基本です。 
+チームとチャネルの概念は、Microsoft Teams の健全で生産性の高い実装の基本です。 
 
 - チームは、会社のビジネス成果を生み出すために連携する人、コンテンツ、ツールのコレクションです。 Teams は、Microsoft 365 グループを基にして構築されていて、Microsoft 365 グループ メンバーシップに対する変更はチームに同期されます。
 
 - チャネルは、実際の作業が行われるチーム内のコラボレーション スペースです。 
 
-チームとチャネルの詳細については、[Microsoft Teamsのチームとチャネルの概要に](teams-channels-overview.md)関するページを参照してください。 包括的なTeams導入ガイダンスについては、[Teams導入ガイド](https://aka.ms/teamstoolkit)を参照してください。 TeamsとMicrosoft 365 グループの詳細については、「[Microsoft 365 グループとMicrosoft Teams](office-365-groups.md)」と「[Microsoft 365 グループの詳細」を参照](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)してください。
+チームとチャネルの詳細については、 [Microsoft Teams のチームとチャネルの概要に関するページを](teams-channels-overview.md)参照してください。 包括的な Teams 導入ガイダンスについては、 [Teams 導入ガイド](https://aka.ms/teamstoolkit)を参照してください。 Teams とMicrosoft 365 グループの詳細については、「[Microsoft 365 グループと Microsoft Teams](office-365-groups.md)」を参照し、[Microsoft 365 グループの詳細を確認してください](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
 
 
 | &nbsp; |&nbsp;  |
@@ -51,7 +51,7 @@ ms.locfileid: "62400841"
 
 - *パブリック* チームは組織内のすべてのユーザーに公開されており、ユーザーは直接参加できます。 パブリック チームは、さまざまな部署のユーザーや、さまざまなプロジェクトに取り組んでいるユーザーに対して、一般的な関心のあるトピックに関する共同作業に役立ちます。 これは、より小規模な組織向けの既定の設定です。
 
-## <a name="use-teams-to-drive-cross-organization-collaboration"></a>Teamsを使用して組織間のコラボレーションを推進する
+## <a name="use-teams-to-drive-cross-organization-collaboration"></a>Teams を使用して組織間コラボレーションを推進する
 
 チームを使用して組織間のコラボレーションを改善することはベスト プラクティスであり、多くのプロジェクトがこのモデルに適しています。 さらに、組織内のリーダーまたは部門は、自分の人に専用のチームを必要とする場合があります。 次の図に示す組織モデルとプロジェクト モデルについて考えてみましょう。
 

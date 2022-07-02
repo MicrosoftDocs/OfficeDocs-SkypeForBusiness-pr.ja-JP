@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams の導入クイック スタートのチェックリスト
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: このクイック スタート チェックリストを使用して、組織がMicrosoft Teamsの導入を開始する場合に成功を確保します。
+description: このクイック スタート チェックリストを使用して、組織が Microsoft Teams の導入を開始する場合に成功を確保します。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40d15b393a74cd2e760c2d0e741676a56d1467a6
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: b8def4ffe234ee63a3ade0d30ccae53f74773de1
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62414220"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66606066"
 ---
 # <a name="microsoft-teams-adoption-quick-start-checklist"></a>Microsoft Teams の導入クイック スタートのチェックリスト
 
@@ -40,7 +40,7 @@ ms.locfileid: "62414220"
 
 - [チームとチャネルについて理解する](teams-adoption-understand-teams-and-channels.md)
 - [最初のチームを作成する](teams-adoption-your-first-teams.md)
-- [Teamsの準備はできましたか?](teams-adoption-assess-readiness.md)
+- [Teams の準備はできましたか?](teams-adoption-assess-readiness.md)
 - [関係者と会う](teams-adoption-assess-readiness.md#assess-your-stakeholders)
 - [早期導入者を特定する](teams-adoption-assess-readiness.md#identify-early-adopters)
 

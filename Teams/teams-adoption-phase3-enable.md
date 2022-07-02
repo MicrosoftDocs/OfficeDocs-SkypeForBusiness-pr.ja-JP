@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams の導入段階 3 - 規模
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 組織のTeamsの広範な有効化をサポートするために学習する必要がある手順の概要を参照してください。
+description: 組織の Teams の広範な有効化をサポートするために学習する必要がある手順の概要を参照してください。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59eb0cf0edd35f327a632f762c9db862c4bfeff6
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: fd673037ec72530bdb6c394e6c797e9c3493c43c
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62419380"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66605876"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Microsoft Teams の導入段階 3 - 規模
 
-このフェーズでは、学習、才能のあるプロジェクト チーム、関係者、チャンピオン、早期導入者との関係を使用して、組織のTeamsの広範な有効化をサポートします。 組織でのMicrosoft Teamsの使用に関する継続的なビジネスエンゲージメントに備えて、次の手順を完了します。
+このフェーズでは、学習、才能のあるプロジェクト チーム、関係者、チャンピオン、早期導入者との関係を使用して、組織の Teams の広範な有効化をサポートします。 組織での Microsoft Teams の使用に関する継続的なビジネスエンゲージメントの準備として、次の手順を完了します。
 
 1. 成果と成功のメジャーを定義します。
 2. サービス戦略を選択します。

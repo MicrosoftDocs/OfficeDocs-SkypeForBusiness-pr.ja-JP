@@ -1,7 +1,7 @@
 ---
 title: 管理センターでチーム テンプレートを管理する
-author: serdars
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: yinchang
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 管理センターでチーム テンプレートを管理する方法について説明します
-ms.openlocfilehash: 46b59d42ae464a5f09e9f24ecc91378bd6464034
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 9f2044f059414f9afe1ff335f8204cd26861164b
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681398"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66605906"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>管理センターでチーム テンプレートを管理する
 
@@ -113,7 +113,7 @@ A: はい。
 
 詳細については、「個々の [ユーザーにポリシーを割り当てる」を](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users)参照してください。
 
-**Q: 特定のポリシーに割り当てられているすべてのユーザーを表示するにはどうすればよいですか?**
+**Q: 特定のポリシー操作方法割り当てられているすべてのユーザーを表示しますか?**
 
 A: Teams 管理センターで次の手順を実行します。
 
