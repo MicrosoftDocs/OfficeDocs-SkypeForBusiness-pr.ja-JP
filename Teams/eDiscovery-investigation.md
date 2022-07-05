@@ -17,12 +17,12 @@ description: 電子情報開示を実行する必要がある場合 (法的手�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4b5a0ca0cb52c4b444769b7bfc25b17cab80a02b
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: ac4aa6e8182342f36da0434aaf78123937d6d8ce
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563945"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616413"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Microsoft Teams のコンテンツに対して電子情報開示の調査を行う
 
@@ -52,7 +52,7 @@ ms.locfileid: "66563945"
 |会議メタデータ<sup>1</sup>|はい||
 |チャネルの名前|はい||
 |引用符|はい|引用符で囲まれたコンテンツは検索可能です。 ただし、検索結果は、コンテンツが引用符で囲まれたことを示すわけではありません。|
-|リアクション (いいね、ハート、その他の反応など)|はい||
+|リアクション (いいね、ハート、その他の反応など)|はい|リアクションは、2022 年 6 月 1 日以降、すべての商用顧客に対してサポートされます。 この日付より前のリアクションは、電子情報開示では使用できません。 政府機関のクラウド サポートが計画されています。 反応に対する法的ホールドサポートはありません。|
 |件名|はい||
 |テーブル|はい||
 

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Microsoft パートナーまたは PSTN 通信事業者の複数のテナントにサービスを提供するように 1 つのセッション ボーダー コントローラー (SBC) を構成する方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 48a045ea84cabf34ec6f95b4aa0f605a3155d50e
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 9221414053b0ee92b87553e0f81c23b41b23f0fb
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240666"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616343"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>複数のテナントにセッション ボーダー コントローラーを構成する
 
@@ -139,7 +139,7 @@ SBC には、接続を認証するための証明書が必要です。 SBC ホ�
 - Office 365 E1/E3/E5/A3/A5 またはMicrosoft 365 E3/E5/A3/A5 のユーザー アカウント
 - Office 365 F1/F3 またはMicrosoft 365 F1/F3 のユーザー アカウント
 - 共通エリア電話を使用するユーザー アカウント
-- 仮想ユーザー ライセンスを持つリソース アカウント
+- **Microsoft Teams 電話 リソース アカウント** ライセンスを持つリソース アカウント
 
 さらに、アカウントの UPN (ユーザー プリンシパル名) またはオンプレミス SIP アドレスSkype for Business、新しく作成されたドメインと同じ FQDN を使用する必要があります。
 
@@ -189,22 +189,22 @@ Microsoft 365 組織にユーザーを追加する方法の詳細については
 
 10. [**DNS 設定の更新**] ページで **[完了] を選択します**。
 
-11. 状態が **セットアップ完了** であることを確認します。 
-    
+11. 状態が **セットアップ完了** であることを確認します。
+
     ![セットアップ完了の状態を示すページのスクリーンショット。](media/direct-routing-12-sbc-setup-complete.png)
-    
+
 > [!NOTE]
 > _ダイレクト ルート_ トランクを追加するには、個々のクライアントのベース URL とサブドメインが同じテナント上にある必要があります。
 
 ### <a name="activate-the-subdomain-name"></a>サブドメイン名をアクティブ化する
 
 サブドメイン名を登録したら、少なくとも 1 つの Teams ライセンスユーザーまたはリソース アカウントを追加して、サブドメイン名をアクティブ化する必要があります。 許容されるアカウントは、次のいずれかの SKU でライセンスが付与されます。
- 
+
 -   Office 365 E1/E3/E5/A3/A5 またはMicrosoft 365 E3/E5/A3/A5 のユーザー アカウント
 -   Office 365 F1/F3 またはMicrosoft 365 F1/F3 のユーザー アカウント
 -   共通エリア電話を使用するユーザー アカウント
--   仮想ユーザー ライセンスを持つリソース アカウント
- 
+-   **Microsoft Teams 電話 リソース アカウント** ライセンスを持つリソース アカウント
+
 さらに、アカウントの UPN (ユーザー プリンシパル名) またはオンプレミス SIP アドレスSkype for Business、新しく作成されたサブドメインと同じ FQDN を使用する必要があります。
 
 Microsoft 365 組織にユーザーを追加する方法の詳細については、「 [Microsoft 365 のヘルプを参照](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)してください。

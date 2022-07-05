@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: Microsoft Teams で自動応答を設定および管理する方法について説明します。
-ms.openlocfilehash: 37326ec03c22c91de5f4c4edb94aaad67f52bde5
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 384c7aae5e11c938a6bf8ab5f82924d0379a83aa
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240946"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616113"
 ---
 # <a name="set-up-an-auto-attendant"></a>自動応答を設定する
 
@@ -57,9 +57,9 @@ ms.locfileid: "66240946"
 
 ## <a name="follow-these-steps-to-set-up-your-auto-attendant"></a>自動応答を設定するには、次の手順に従います
 
-# <a name="step-1---general-info"></a>[手順 1 - 全般情報](#tab/general-info)
+# <a name="step-1-general-info"></a>[手順 1: 一般的な情報](#tab/general-info)
 
-## <a name="step-1---set-the-auto-attendants-general-information"></a>手順 1 - 自動応答の一般的な情報を設定する
+## <a name="step-1-set-the-auto-attendants-general-information"></a>手順 1: 自動応答の一般的な情報を設定する
 
 自動応答を設定するには、 [Teams 管理センター](https://go.microsoft.com/fwlink/p/?linkid=2066851)で **[音声**] を展開し、[ **自動応答**] を選択して、[ **追加**] を選択します。
 
@@ -78,10 +78,9 @@ ms.locfileid: "66240946"
 
 自動応答の一般的な情報を設定したら、[ **次へ**] を選択します。
 
+# <a name="step-2-basic-call-flow"></a>[手順 2: 基本的な呼び出しフロー](#tab/call-flow)
 
-# <a name="step-2---basic-call-flow"></a>[手順 2 - 基本的な呼び出しフロー](#tab/call-flow)
-
-## <a name="step-2---set-up-the-basic-call-flow"></a>手順 2 - 基本的な呼び出しフローを設定する
+## <a name="step-2-set-up-the-basic-call-flow"></a>手順 2: 基本的な呼び出しフローを設定する
 
 ### <a name="set-a-greeting"></a>あいさつ文を設定する
 
@@ -131,9 +130,9 @@ ms.locfileid: "66240946"
 
 基本的な通話フロー オプションを設定したら、[ **次へ**] を選択します。
 
-# <a name="step-3---after-hours-call-flow"></a>[手順 3 - 時間外呼び出しフロー](#tab/after-hours)
+# <a name="step-3-after-hours-call-flow"></a>[手順 3: 時間外呼び出しフロー](#tab/after-hours)
 
-## <a name="step-3---set-up-call-flow-for-after-hours-optional"></a>手順 3 - 時間外の呼び出しフローを設定する (省略可能)
+## <a name="step-3-set-up-call-flow-for-after-hours-optional"></a>手順 3: 時間外の呼び出しフローを設定する (省略可能)
 
 自動応答ごとに営業時間を設定できます。
 
@@ -151,9 +150,9 @@ ms.locfileid: "66240946"
 
 時間外通話フローを追加したら、[ **次へ**] を選択します。
 
-# <a name="step-4---holiday-call-flow"></a>[手順 4 - 休日の通話フロー](#tab/holidays)
+# <a name="step-4-holiday-call-flow"></a>[手順 4: 休日の通話フロー](#tab/holidays)
 
-## <a name="step-4---set-up-call-flows-for-holidays-optional"></a>手順 4 - 休日の通話フローを設定する (省略可能)
+## <a name="step-4-set-up-call-flows-for-holidays-optional"></a>手順 4: 休日の通話フローを設定する (省略可能)
 
 自動応答には、 [設定した休日](set-up-holidays-in-teams.md)ごとに通話フローを設定できます。 各自動応答には、最大 20 個の決められた休業日を追加できます。
 
@@ -176,9 +175,9 @@ ms.locfileid: "66240946"
 
 すべての休日時間を追加したら、[ **次へ**] を選択します。
 
-# <a name="step-5---dial-scope"></a>[手順 5 - ダイヤル スコープ](#tab/dial-scope)
+# <a name="step-5-dial-scope"></a>[手順 5: ダイヤル スコープ](#tab/dial-scope)
 
-## <a name="step-5---set-up-dial-scope-optional"></a>手順 5 - ダイヤル スコープを設定する (省略可能)
+## <a name="step-5-set-up-dial-scope-optional"></a>手順 5: ダイヤル スコープを設定する (省略可能)
 
 *ダイヤル スコープ* は、呼び出し元がダイヤルバイネームまたはダイヤルバイ拡張子を使用する場合に、ディレクトリで使用できるユーザーを定義します。 **[すべてのオンライン ユーザー**] の既定値には、組織内のすべてのユーザーがオンライン ユーザーであるか、Skype for Business Serverを使用してオンプレミスでホストされているユーザーが含まれます。
 
@@ -191,9 +190,9 @@ ms.locfileid: "66240946"
 
 **ダイヤル スコープ** オプションを選択したら、[**次へ**] を選択します。
 
-# <a name="step-6---resource-accounts"></a>[手順 6 - リソース アカウント](#tab/resource-accounts)
+# <a name="step-6-resource-accounts"></a>[手順 6: リソース アカウント](#tab/resource-accounts)
 
-## <a name="step-6---set-up-resource-accounts-optional"></a>手順 6 - リソース アカウントを設定する (省略可能)
+## <a name="step-6-set-up-resource-accounts-optional"></a>手順 6: リソース アカウントを設定する (省略可能)
 
 すべての自動応答には、関連付けられたリソース アカウントが必要です。  第 1 レベルの自動応答には、サービス番号が関連付けられている少なくとも 1 つのリソース アカウントが必要です。 必要に応じて、複数のリソース アカウントを自動応答に割り当てることができます。各アカウントに個別のサービス番号を割り当てることができます。
 
@@ -203,9 +202,9 @@ ms.locfileid: "66240946"
 
 詳細については、「 [Teams リソース アカウントの管理](manage-resource-accounts.md) 」を参照してください。
 
-# <a name="additional-resources"></a>[その他のリソース](#tab/additional-resources)
+---
 
-## <a name="resources-for-more-complex-scenarios"></a>より複雑なシナリオのリソース
+## <a name="resources-for-complex-scenarios"></a>複雑なシナリオのリソース
 
 ### <a name="external-phone-number-transfers---technical-details"></a>外部電話番号の転送 - 技術的な詳細
 
@@ -236,8 +235,6 @@ Skype for Businessハイブリッド環境で、PSTN に自動応答通話を転
 2. [実行] 診断ウィンドウで、[ **ユーザー名] または [電子メール** ] フィールドにリソース アカウントを入力し、[ **テストの実行**] を選択します。
 
 3. テストでは、テナント、ポリシー、またはリソース アカウントの構成を識別し、自動応答が通話を受信できないようにし、特定された問題を修正する手順を提供します。
-
----
 
 ### <a name="related-topics"></a>関連項目
 

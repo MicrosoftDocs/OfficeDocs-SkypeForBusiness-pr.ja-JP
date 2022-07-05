@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams の管理者ロールを使用して Teams を管理する
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 09/19/2018
 ms.topic: article
@@ -22,12 +22,12 @@ ms.reviewer: islubin
 description: 管理者ロールを使用して、Teams を管理するために必要な、異なるレベルのアクセス権限を持つ管理者を指定する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c227abe677d75d06fd6577ccbfc8057c82f00002
-ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
-ms.translationtype: HT
+ms.openlocfilehash: 17a8f6e9475355a5ee0f8960294bf3589d228ed1
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64456960"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615453"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Microsoft Teams の管理者ロールを使用して Teams を管理する
 

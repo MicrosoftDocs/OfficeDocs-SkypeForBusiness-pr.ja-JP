@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 組織内の割り当てられていない番号に通話をルーティングする方法について説明します。
-ms.openlocfilehash: f092cf5501d723dabb4336d648387833dd376e9b
-ms.sourcegitcommit: d847256fca80e4e8954f767863c880dc8472ca04
+ms.openlocfilehash: 8874fc5a47ede1c35178cf16c7d3eded6f7826a7
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "65304059"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615733"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>割り当てられていない番号への呼び出しのルーティング
 
@@ -40,7 +40,7 @@ ms.locfileid: "65304059"
 
 ## <a name="configuration"></a>構成
 
-割り当てられていない番号に呼び出しをルーティングするには、PowerShell モジュール 2.5.1 以降で使用できる New/Get/Set/Remove-CsTeamsUnassignedNumberTreatment コマンドレットTeams使用します。
+割り当てられていない番号に呼び出しをルーティングするには、Teams PowerShell モジュール 2.5.1 以降で使用できる New/Get/Set/Remove-CsTeamsUnassignedNumberTreatment コマンドレットを使用します。
 
 これらの番号の呼び出しに対して、呼び出された番号または番号の範囲と、関連するルーティングを指定する必要があります。 たとえば、次のコマンドは、番号 +1 (555) 222-3333 へのすべての呼び出しがリソース アカウント aa@contoso.com にルーティングされるように指定します。
 
@@ -69,13 +69,13 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 
 - 割り当てられていない Microsoft 通話プランサブスクライバー番号に通話をルーティングするには、テナントで使用可能な [通信クレジット](what-are-communications-credits.md)が必要です。
 
-- 割り当てられていない Microsoft Calling Plan サービス番号に呼び出しをルーティングするには、テナントに少なくとも 1 つの電話システム仮想ユーザー ライセンスが必要です。
+- 割り当てられていない Microsoft Calling Plan サービス番号に呼び出しをルーティングするには、テナントに少なくとも 1 つの **リソース アカウント ライセンスMicrosoft Teams 電話** 必要があります。
 
 - サポートされるカスタム オーディオ ファイル形式は、WAV (モノラルまたはステレオで 8/16/32 ビット深度の非圧縮の線形 PCM)、WMA (モノラルのみ)、MP3 です。 オーディオ ファイルのコンテンツは 5 MB を超えることはできません。
 
-- Microsoft Teamsへの着信呼び出しとMicrosoft Teamsからの発信呼び出しの両方に、割り当てられていない番号範囲に対して着信番号がチェックされます。
+- Microsoft Teams への着信通話と Microsoft Teams からの発信通話の両方で、着信番号が割り当てられていない番号範囲に対してチェックされます。
 
-- 指定したパターン/範囲に、テナント内のユーザーまたはリソース アカウントに割り当てられている電話番号が含まれている場合、これらの電話番号への呼び出しは適切なターゲットにルーティングされ、指定された割り当てられていない番号処理にはルーティングされません。 範囲内の数値の他のチェックはありません。 範囲に有効な外部電話番号が含まれている場合、Microsoft Teamsからその電話番号への発信通話は、処理に従ってルーティングされます。
+- 指定したパターン/範囲に、テナント内のユーザーまたはリソース アカウントに割り当てられている電話番号が含まれている場合、これらの電話番号への呼び出しは適切なターゲットにルーティングされ、指定された割り当てられていない番号処理にはルーティングされません。 範囲内の数値の他のチェックはありません。 範囲に有効な外部電話番号が含まれている場合、Microsoft Teams からその電話番号への発信通話は、処理に従ってルーティングされます。
 
 ## <a name="related-topics"></a>関連項目
 

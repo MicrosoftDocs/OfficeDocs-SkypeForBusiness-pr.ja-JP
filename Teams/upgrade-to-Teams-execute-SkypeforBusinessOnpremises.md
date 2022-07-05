@@ -1,13 +1,13 @@
 ---
 title: Skype for Business オンプレミスから Teams にアップグレードする
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Skype for Businessのオンプレミス展開から組織をMicrosoft Teamsに移行する方法について説明します。
+description: Skype for Businessのオンプレミス展開から組織を Microsoft Teams に移行する方法について説明します。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -20,14 +20,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff82f4e36332f138e67156ca450fc6071c28d234
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 7b06134a0fe0f72e8dc9c01b4faa85c67a6063f3
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62419320"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615443"
 ---
-# <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>Skype for BusinessのオンプレミスデプロイからTeamsにアップグレードする
+# <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>オンプレミスのSkype for Business展開から Teams へのアップグレード
 
 ![「展開と実装」段階が強調表示された、アップグレード行程の各段階。](media/upgrade-banner-deployment.png "「展開と実装」段階が強調表示された、アップグレード行程の各段階")
 
@@ -41,7 +41,7 @@ ms.locfileid: "62419320"
 - [組織を準備した](./upgrade-prepare-organization.md)
 - [パイロットを実施した](./pilot-essentials.md)
 
-Skype for Businessまたは Microsoft Lync をオンプレミスに展開し、組織が複数の共存モードを使用して選択的にMicrosoft Teamsにアップグレードする場合は、この記事のガイダンスに従ってください。 
+Skype for Businessまたは Microsoft Lync をオンプレミスに展開し、組織が Microsoft Teams に選択的にアップグレードする場合は、この記事のガイダンスに従ってください。複数の共存モードを使用するか、またはオールインを使用します。 
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
@@ -54,7 +54,7 @@ Skype for Businessまたは Microsoft Lync をオンプレミスに展開し、�
 
 ## <a name="step-2-implement-your-chosen-upgrade-journey-for-your-organization"></a>手順 2: 選択したアップグレード体験を組織に実装する
 
-ハイブリッドセットアップが完了したら、ユーザーをMicrosoft 365またはOffice 365に移動することを計画できます。
+ハイブリッドセットアップが完了したら、ユーザーを Microsoft 365 または Office 365に移動することを計画できます。
 
 詳細については、次を参照してください:
 
@@ -64,8 +64,8 @@ Skype for Businessまたは Microsoft Lync をオンプレミスに展開し、�
 
 ## <a name="phone-system-and-teams-upgrade"></a>電話システムと Teams のアップグレード
 
-オンプレミスの電話システムからTeamsに移行すると、電話システムダイレクト ルーティング ("ダイレクト ルーティング") またはMicrosoft 365またはOffice 365用の Microsoft 提供の通話プランを利用できます。
+オンプレミスの電話システムから Teams に移行すると、電話システム ダイレクト ルーティング ("ダイレクト ルーティング") または Microsoft 365 またはOffice 365向けの Microsoft 提供の通話プランを利用できます。
 
-通話プランを使用していない場合は、Teamsへのアップグレードの一環として、エンタープライズ音声展開を電話システムダイレクト ルーティングに移行する必要があります。
+通話プランを使用していない場合は、Teams へのアップグレードの一環として、エンタープライズ音声展開を Phone System Direct Routing に移行する必要があります。
 
-詳細については、[電話システム ダイレクト ルーティングに関するその他の考慮事項を](./direct-routing-landing-page.md)参照してください。 通話プランを使用する予定の場合は、[電話番号をTeamsに転送するためのガイダンスを](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)参照してください。
+詳細については、 [電話システム ダイレクト ルーティングに関するその他の考慮事項を](./direct-routing-landing-page.md)参照してください。 通話プランを使用する予定の場合は、 [電話番号を Teams に転送](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)するためのガイダンスを参照してください。

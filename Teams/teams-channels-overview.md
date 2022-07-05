@@ -6,6 +6,7 @@ ms.reviewer: ''
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+ms.subservice: teams-chat
 audience: admin
 search.appverid: MET150
 description: 財務、イベント計画、販売など、多岐にわたる要件で利用できるさまざまなチーム、チャネル、アプリについて紹介します。
@@ -18,16 +19,17 @@ ms.custom:
 - ms.teamsadmincenter.teamschannel.overview
 - ms.teamsadmincenter.teamssettings.overview
 - okr_smb
+- intro-overview
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bd98159e9e209cba855e1a0f2d0ee853b3ba889
-ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
+ms.openlocfilehash: 74f4580eee7ee7ee935b405cfe51c4a3e49ef98c
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64756893"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616283"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams でのチームとチャネルの概要
 
@@ -75,7 +77,7 @@ Teams には、次の 2 つの主な役割があります。
 
 Microsoft 365 での Teams 管理者である場合は、Teams 管理センターのシステム全体の設定にアクセスすることができます。 これらの設定は、チーム設定でチーム所有者に表示されるオプションと既定値に影響します。 たとえば、チーム全体の通知、ディスカッション、リソースのために、既定のチャネル「一般」を有効にして、それらがすべてのチームにわたって表示されるようにすることができます。
 
-既定では、すべてのユーザーがチームを作成するアクセス許可を持っています。これを変更するには、「[Teams でロールとアクセス許可を割り当てる](assign-roles-permissions.md)」をご覧ください。
+既定では、すべてのユーザーにチームを作成するアクセス許可があります。 これを変更するには、「[Teams での役割とアクセス許可の割り当て](assign-roles-permissions.md)」を参照してください。
 
 ユーザーを Teams に関与させるために鍵となる初期段階の計画アクティビティは、日々の生活で Teams がどのようにコラボレーションを深めているのかについて、洞察と理解を促進することです。 ユーザーと話し合い、断片的な方法で現在共同作業を行っている状況でビジネス シナリオを選択できるように支援します。 ユーザーたちが作業を完了するために役に立つ関連するタブとともに、それらのユーザーをチャネルに取り込みます。 Teams の最も強力なユース ケースの 1 つは、あらゆる組織横断型のプロセスです。
 

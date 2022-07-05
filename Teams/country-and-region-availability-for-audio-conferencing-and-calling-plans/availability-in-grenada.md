@@ -1,7 +1,7 @@
 ---
 title: グレナダでの可用性
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: グレナダで使用できるSkype for BusinessとMicrosoft TeamsのMicrosoft 365サービスとOffice 365 サービスを次に示します。
-ms.openlocfilehash: 0ef62823a991706948e25f1562867b75685e26ba
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: グレナダで利用できるSkype for Businessおよび Microsoft Teams の Microsoft 365 サービスとOffice 365 サービスを次に示します。
+ms.openlocfilehash: 6b56cd490b2780b47ca3140c2987c4bc459b27e3
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62407509"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615663"
 ---
 # <a name="availability-in-grenada"></a>グレナダでの可用性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-グレナダで使用できるSkype for BusinessとMicrosoft TeamsのMicrosoft 365サービスとOffice 365 サービスを次に示します。
+グレナダで利用できるSkype for Businessおよび Microsoft Teams の Microsoft 365 サービスとOffice 365 サービスを次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -70,9 +70,9 @@ ms.locfileid: "62407509"
 |:-----|:-----|
 |有料電話番号を取得できる首都または主要都市はどこですか?   | 該当なし <br/> |
 |有料電話番号は使用できますか?  <br/> |いいえ <br/> |
-|フリーダイヤル番号は利用できますか?  <br/> |Yes  <br/> |
+|フリーダイヤル番号は利用できますか?  <br/> |はい  <br/> |
    
- 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「[Skype for BusinessとMicrosoft Teamsのサービス電話番号を取得](../getting-service-phone-numbers.md)する」を参照してください。
+ 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「[Skype for Businessと Microsoft Teams のサービス電話番号を取得](../getting-service-phone-numbers.md)する」を参照してください。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 

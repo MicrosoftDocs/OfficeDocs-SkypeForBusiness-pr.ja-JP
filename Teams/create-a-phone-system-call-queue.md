@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Microsoft Teams で通話キューを設定する方法について説明します。 通話キューは、あいさつメッセージ、保留音楽、通話リダイレクト、その他の機能を提供します。
-ms.openlocfilehash: b90dc937d9df1b8578e80c34c96030caf2db5bad
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: cd5e0cc291b353b8bb46d82333275cc44ef860d3
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494694"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616173"
 ---
 # <a name="create-a-call-queue"></a>呼び出しキューを作成する
 
@@ -96,7 +96,7 @@ ms.locfileid: "66494694"
 エージェントの発信発信者番号を割り当てるには、電話番号で 1 つ以上のリソース アカウントを指定します。 エージェントは、発信呼び出しのたびに使用する発信発信者番号を選択できます。 通話アプリ内では、エージェントは通話キュー (CQ) /自動応答 (AA) 番号または独自の個人用の直接内向きダイヤル (DID) を使用できます。
 
 > [!NOTE]
-> 呼び出し ID の目的で使用されるリソース アカウントには **、Microsoft Teams 電話 System - Virtual User** ライセンスが必要であり、次のいずれかが割り当てられている必要があります。
+> 呼び出し ID の目的で使用されるリソース アカウントには **、Microsoft Teams 電話リソース アカウント** ライセンスが必要であり、次のいずれかが割り当てられている必要があります。
 >
 > - 通話プランのライセンスと電話番号が割り当てられている
 > - オペレーター接続の電話番号が割り当てられている
@@ -121,7 +121,7 @@ ms.locfileid: "66494694"
 
 この新しいリソース アカウントを作成して ID を呼び出した後も、次のことを行う必要があります。
 
-- Teams 電話スタンダードの割り当て [- 仮想ユーザー ライセンス](manage-resource-accounts.md#assign-a-license)
+- [Teams Phone リソース アカウント ライセンス](manage-resource-accounts.md#assign-a-license)を割り当てる
 - Microsoft 通話プランのライセンスの割り当て、オペレーター接続の電話番号の割り当て、またはダイレクト ルーティングのオンライン音声ルーティング ポリシーの割り当て
 - Microsoft 通話プランを使用している場合は、 [サービスの電話番号をリソース アカウント](manage-resource-accounts.md#assign-a-service-number)に割り当てます
 
@@ -133,7 +133,7 @@ ms.locfileid: "66494694"
 
 言語を選択したら、[**通話キューの追加**] ページの下部にある [**次へ**] ボタンを選択します。
 
-# <a name="step-2---greeting-and-music"></a>[手順 2 - あいさつと音楽](#tab/greeting-music)
+# <a name="step-2-greeting-and-music"></a>[手順 2: あいさつと音楽](#tab/greeting-music)
 
 ## <a name="step-2-add-a-greeting-and-on-hold-music"></a>手順 2: あいさつ文と保留音を追加する
 
@@ -151,7 +151,7 @@ Teams は、キューに保留されている間、発信者に既定 *の音楽
 
 あいさつ文と保留音を選択したら、[**通話キューの追加**] ページの下部にある [**次へ**] ボタンを選択します。
 
-# <a name="step-3---call-answering"></a>[手順 3 - 通話応答](#tab/call-answering)
+# <a name="step-3-call-answering"></a>[手順 3: 通話応答](#tab/call-answering)
 
 ## <a name="step-3-set-up-who-will-answer-incoming-calls"></a>手順 3: 着信に応答するユーザーを設定する
 
@@ -223,7 +223,7 @@ Teams チャネルを介して最大 200 のエージェントを追加できま
 
 通話応答オプションを選択したら、[通話 **キューの追加**] ページの下部にある [**次へ**] ボタンを選択します。
 
-# <a name="step-4---agent-routing"></a>[手順 4 - エージェント のルーティング](#tab/agent-routing)
+# <a name="step-4-agent-routing"></a>[手順 4: エージェント のルーティング](#tab/agent-routing)
 
 ## <a name="step-4-select-your-agent-routing-options"></a>手順 4: エージェント ルーティング オプションを選択する
 
@@ -285,7 +285,7 @@ Teams チャネルを介して最大 200 のエージェントを追加できま
 
 エージェント通話ルーティング オプションを選択したら、[**通話キューの追加**] ページの下部にある [**次へ**] ボタンを選択します。
 
-# <a name="step-5---call-overflow"></a>[手順 5 - 呼び出しオーバーフロー](#tab/call-overflow)
+# <a name="step-5-call-overflow"></a>[手順 5: オーバーフローを呼び出す](#tab/call-overflow)
 
 ## <a name="step-5-set-how-to-handle-call-overflow"></a>手順 5: 呼び出しオーバーフローを処理する方法を設定する
 
@@ -308,7 +308,7 @@ Teams チャネルを介して最大 200 のエージェントを追加できま
 
 通話タイムアウト オプションを選択したら、[通話 **キューの追加**] ページの下部にある [**次へ**] ボタンを選択します。
 
-# <a name="step-6---call-timeout"></a>[手順 6 - 通話タイムアウト](#tab/call-timeout)
+# <a name="step-6-call-timeout"></a>[手順 6: 呼び出しタイムアウト](#tab/call-timeout)
 
 ## <a name="step-6-set-how-to-handle-call-timeouts"></a>手順 6: 呼び出しタイムアウトを処理する方法を設定する
 
@@ -327,9 +327,11 @@ Teams チャネルを介して最大 200 のエージェントを追加できま
 
 エージェント通話ルーティング オプションを選択したら、[**通話キューの追加**] ページの下部にある [**送信]** ボタンを選択します。
 
-# <a name="additional-resources"></a>[その他のリソース](#tab/additional-resources)
+---
 
-## <a name="summary-of-recommended-call-queue-settings"></a>推奨される通話キュー設定の概要
+## <a name="resources-for-complex-scenarios"></a>複雑なシナリオのリソース
+
+### <a name="summary-of-recommended-call-queue-settings"></a>推奨される通話キュー設定の概要
 
 次の設定をお勧めします。
 
@@ -338,7 +340,7 @@ Teams チャネルを介して最大 200 のエージェントを追加できま
 - **プレゼンス ベースのルーティング** から **On** へのルーティング
 - **エージェントのアラート時間:** **20 秒** まで
 
-## <a name="call-queue-feature-compatibility"></a>通話キュー機能の互換性
+### <a name="call-queue-feature-compatibility"></a>通話キュー機能の互換性
 
 |機能                          |Teams Desktop<sup>1</sup> |Teams Web | Teams Mobile<sup>2</sup> |Lync |IP 電話 | 標準呼び出しキュー |チャネル ベースの呼び出しキュー | コメント |
 |:--------------------------------|:------------------------:|:--------:|:--------------:|:---:|:--------:|:--------------------:|:------------------------:|:--------|
@@ -356,7 +358,7 @@ Teams チャネルを介して最大 200 のエージェントを追加できま
 |**共同通話**        |                          |          |                |     |          |                      |                          |   |
 |`Channel Based Queues`             |Y                       |N         |N               |N    |N         |N/a                   |Y<sup>8</sup>             |   |
 |**動的呼び出し元 ID**            |                          |          |                |     |          |                      |                          |   |
-|`Standard call queue`            |N                         |N         |Y               |N    |N         |Y                     |N/a                       |   |
+|`Standard call queue`            |Y                         |Y         |Y               |N    |N         |Y                     |N/a                       |   |
 |`Channel based call queue`       |Y                         |N/a       |N/a             |N/a  |N/a       |N/a                   |Y                         |   |
 |**PSTN 接続方法**    |                          |          |                |     |          |                      |                          |注 9 を参照してください   |
 |`Calling Plans`                  |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |   |
@@ -365,7 +367,7 @@ Teams チャネルを介して最大 200 のエージェントを追加できま
 |**他**                |                          |          |                |     |          |                      |                          |   |
 |`Call toast shows Resource Account Name` |Y                 |N         |Y               |Y    |          |Y                     |Y                         |              |
 
-### <a name="notes"></a>メモ
+#### <a name="notes"></a>メモ
 
 1. Microsoft Teams Windows クライアント、Microsoft Teams Mac クライアント、仮想化デスクトップ インフラストラクチャ上の Microsoft Teams。
 2. Microsoft Teams iPhone アプリ、Microsoft Teams Android アプリ。
@@ -377,7 +379,7 @@ Teams チャネルを介して最大 200 のエージェントを追加できま
 8. パブリック チャネルのみがサポートされます。
 9. 自動応答と通話キューでは、PSTN 接続方法間で通話を転送できません。
 
-## <a name="supported-clients"></a>サポートされるクライアント
+### <a name="supported-clients"></a>サポートされるクライアント
 
 呼び出しキュー内の呼び出しエージェントでは、次のクライアントがサポートされています。
 
@@ -397,7 +399,7 @@ Teams チャネルを介して最大 200 のエージェントを追加できま
   > [!NOTE]
   > ダイレクト ルーティング番号が割り当てられた通話キューでは、クライアント、Lync クライアント、またはエージェントとしての ip Phone Skype for Business Skype for Businessサポートされません。 Teams クライアントは、 [Teams のみの共存モード](setting-your-coexistence-and-upgrade-settings.md)でのみサポートされます。
 
-## <a name="call-queue-diagnostic-tool"></a>キュー診断ツールの呼び出し
+### <a name="call-queue-diagnostic-tool"></a>キュー診断ツールの呼び出し
 
 管理者の場合は、次の診断ツールを使用して、通話キューが通話を受信できることを検証できます。
 
@@ -410,9 +412,7 @@ Teams チャネルを介して最大 200 のエージェントを追加できま
 
 3. テストでは、テナント、ポリシー、リソース アカウントの構成に対処するための最適な次の手順が返され、呼び出しキューが呼び出しを受信できることを検証します。
 
----
-
-## <a name="related-topics"></a>関連項目
+### <a name="related-topics"></a>関連項目
 
 [Microsoft Teams 電話で得られる内容を次に示します。](here-s-what-you-get-with-phone-system.md)
 

@@ -11,47 +11,47 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.collection: ''
-description: 2019 年にクラウド自動応答を使用するSkype for Business Server。
-ms.openlocfilehash: 1dffa2e0b92f9888fc9b24323c7fa638468c8b1b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Skype for Business Server 2019 でのクラウド自動応答の使用の概要。
+ms.openlocfilehash: df8013a4abc2029d585032b3d0bce810175e04f4
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578171"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615423"
 ---
 # <a name="plan-cloud-call-queues"></a>クラウド通話キューの計画
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-クラウド通話キューは、顧客の呼び出しを受け入れ、案内応答メッセージを再生し、これらの呼び出しに応答するために事前に構成されたエージェントのリストを検索しながら、これらの呼び出しを待機キューに入れるサービスです。 メールが有効な配布リストまたはセキュリティ グループでエージェントのセットを定義できます。 組織には、1 つ以上の呼び出しキューを設定できます。 通話キューは、通常、自動応答と組み合わせて使用されます。
+クラウド呼び出しキューは、顧客の呼び出しを受け入れ、あいさつメッセージを再生し、これらの呼び出しに応答するために事前に構成されたエージェントの一覧を検索するときに、これらの呼び出しを待機キューに配置するサービスです。 メールが有効な配布リストまたはセキュリティ グループでエージェントのセットを定義できます。 組織は、1 つまたは複数の通話キューを持つことができます。 通常、通話キューは自動応答と組み合わせて使用されます。
 
-さらに、クラウド通話キューは次の機能を提供できます。
+さらに、クラウド呼び出しキューでは、次の情報を提供できます。
 
-- 発信者が保留を待っている間の音楽
-- 通話キューの最大サイズ、タイムアウト、通話処理オプションのカスタマイズされた設定
+- 発信者が保留状態で待機している間の音楽
+- 呼び出しキューの最大サイズ、タイムアウト、および呼び出し処理オプションのカスタマイズされた設定
 
-各通話キューには、Skype for Business Server 2019 システムのリソース アカウント **(「** リソース アカウントの構成」を [参照)](configure-onprem-ra.md)が割り当てられます。このアカウントは、Microsoft Teams 管理センターの通話キューに直接リンクされます。 通話 [キューの種類と](/MicrosoftTeams/create-a-phone-system-call-queue) 、通話キューに存在するオプションと機能の詳細については、「Create a Cloud call queue」を参照してください。
+各通話キューには、Microsoft Teams 管理センターの通話キューに直接リンクされる、Skype for Business Server 2019 システムの **リソース アカウント** ([リソース アカウントの構成](configure-onprem-ra.md)を参照) が割り当てられます。 [呼び出しキューの種類と呼び出しキュー](/MicrosoftTeams/create-a-phone-system-call-queue)に存在するオプションと機能の詳細については、「クラウド呼び出しキューの作成」を参照してください。
 
 > [!NOTE]
-> 複数の電話番号を通話キューに割り当てできますが、Microsoft サービス番号、ダイレクト ルーティング番号、またはハイブリッド番号である必要があります。
+> 通話キューに複数の電話番号を割り当てることができますが、Microsoft サービス番号、ダイレクト ルーティング番号、またはハイブリッド番号である必要があります。
 
 ## <a name="requirements"></a>要件
 
-次の要件では、サポートされているトポロジSkype for Business Server 2019 を既に展開していることを前提とします。  要件はシナリオによって異なります。
+次の要件は、Skype for Business Server 2019 がサポートされているトポロジに既にデプロイされていることを前提としています。  要件は、シナリオによって異なります。
 
-- クラウド通話キューの新しい構成については、「リソース アカウントの構成」で説明されている [手順に従います](configure-onprem-ra.md)。 2019 年 2019 年にオンラインまたは Skype for Business Server でリソース アカウントを作成する必要があります。また、電話番号を通話キューに関連付ける必要がある場合があります。
+- クラウド呼び出しキューの新しい構成については、「 [リソース アカウントの構成](configure-onprem-ra.md)」で説明されている手順に従います。 リソース アカウントは、オンラインまたは 2019 Skype for Business Serverで作成する必要があります。また、電話番号を通話キューに関連付ける必要がある場合もあります。
 
-上記の要件に加えて、Microsoft Cloud 通話キュー サービスに接続するように以下の要件を構成する必要があります。
+上記の要件に加えて、Microsoft Cloud 通話キュー サービスに接続するには、次の要件を構成する必要があります。
 
-- ハイブリッド接続。 Skype for Business Serverが既に展開済みで、オンプレミスユーザーに対してクラウド通話キューを有効にする場合は、オンプレミス環境とオンライン環境の間にハイブリッド接続がセットアップされている必要があります。 これは、分割ドメイン構成と呼ばれる場合があります。
+- ハイブリッド接続。 Skype for Business Server既にデプロイ済みで、オンプレミス ユーザーのクラウド通話キューを有効にする場合は、オンプレミス環境とオンライン環境の間にハイブリッド接続が設定されていることを確認する必要があります。 これは分割ドメイン構成と呼ばれることもあります。
 
-   詳細については、「Skype for Business Server と Microsoft 365 または Office 365 のハイブリッド接続を計画する」および[「Skype for Business Server](plan-hybrid-connectivity.md)と Microsoft 365 または Office 365 のハイブリッド接続を構成する」[を参照してください](configure-hybrid-connectivity.md)。
+   詳細については、「[Skype for Business Serverと Microsoft 365 またはOffice 365間のハイブリッド接続を計画](plan-hybrid-connectivity.md)する」と「[Skype for Business Serverと Microsoft 365 またはOffice 365間のハイブリッド接続を構成](configure-hybrid-connectivity.md)する」を参照してください。
 
-- 電話番号をリソース アカウントに割り当てる場合は、無料の仮想ユーザー ライセンス電話システム使用できます。 これにより、組織電話システム電話番号に対応する機能を提供し、自動応答機能と通話キュー機能を作成できます。
+- リソース アカウントに電話番号を割り当てる場合は、コストフリー **のMicrosoft Teams 電話リソース アカウント** ライセンスを使用できるようになりました。 これにより、組織レベルの電話番号に電話システム機能が提供され、自動応答機能と通話キュー機能を作成できます。
 
-- 各通話キューのオンプレミス [リソース アカウント](configure-onprem-ra.md) を作成し、必要に応じてライセンスと電話番号を割り当てる。  
+- 通話キューごとにオンプレミス [リソース アカウント](configure-onprem-ra.md) を作成し、必要に応じてライセンスと電話番号を割り当てます。  
 
-ニーズを満たす堅実な構造と、顧客を効率的に導くスクリプトがある場合は、「リソース アカウントの構成」に  [進んでください](configure-onprem-ra.md)。
+ニーズを満たす強固な構造と、顧客を効率的に導くスクリプトがある場合は、  [リソース アカウントの構成](configure-onprem-ra.md)に進みます。
 
 ## <a name="see-also"></a>関連項目
 
@@ -65,6 +65,6 @@ ms.locfileid: "58578171"
 
 [Skype for Business Server と Microsoft 365 または Office 365 の間のハイブリッド接続を計画する](plan-hybrid-connectivity.md)
 
-[ハイブリッド接続を構成するには、Skype for Business ServerとMicrosoft 365またはOffice 365](configure-hybrid-connectivity.md)
+[Skype for Business Serverと Microsoft 365 またはOffice 365間のハイブリッド接続を構成する](configure-hybrid-connectivity.md)
 
 [Microsoft Teams のリソースのアカウントの管理](/MicrosoftTeams/manage-resource-accounts)

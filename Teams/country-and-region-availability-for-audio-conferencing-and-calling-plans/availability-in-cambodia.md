@@ -1,7 +1,7 @@
 ---
 title: 2018 年 10 月 1 日
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下に、Skype for BusinessとMicrosoft TeamsのMicrosoft 365サービスとOffice 365 サービスを示します。
-ms.openlocfilehash: 06f3bf8ea0ff41b9a70e7e1e612026b92c80d981
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: ここでは、Skype for Business および Microsoft Teams の Microsoft 365 サービスとOffice 365 サービスを紹介します。
+ms.openlocfilehash: c5bfe7453d86e7448d8916415fd5d979b6480caa
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62416330"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616219"
 ---
 # <a name="availability-in-cambodia"></a>2018 年 10 月 1 日
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-以下に、Skype for BusinessとMicrosoft TeamsのMicrosoft 365サービスとOffice 365 サービスを示します。
+ここでは、Skype for Business および Microsoft Teams の Microsoft 365 サービスとOffice 365 サービスを紹介します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -72,7 +72,7 @@ ms.locfileid: "62416330"
 |有料電話番号は使用できますか?  <br/> |はい <br/> |
 |フリーダイヤル番号は利用できますか?  <br/> |いいえ <br/> |
    
- 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「[Skype for BusinessとMicrosoft Teamsのサービス電話番号を取得](../getting-service-phone-numbers.md)する」を参照してください。
+ 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「[Skype for Businessと Microsoft Teams のサービス電話番号を取得](../getting-service-phone-numbers.md)する」を参照してください。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 

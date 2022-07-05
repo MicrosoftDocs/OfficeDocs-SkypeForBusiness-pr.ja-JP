@@ -5,6 +5,8 @@ ms.author: guptaashish
 manager: prkosh
 ms.topic: article
 ms.service: msteams
+ms.subservice: teams-apps
+ms.custom: intro-get-started
 audience: admin
 ms.collection:
 - Teams_ITAdmin_Help
@@ -17,18 +19,18 @@ description: Teams アプリを管理する方法について説明します。 
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 25e540a7709ab12b73a97cc94b1350630c302197
-ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
+ms.openlocfilehash: 82ab9372f925e40beac41d4075b49b34118f8851
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66529729"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616053"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターで Teams アプリを管理する
 
 Teams 管理センター ポータルの **[Teams アプリ** ] ページで、組織のアプリを管理します。 [アプリの管理] ページを使用して、組織のアプリ カタログにあるすべての Teams アプリを表示および管理できます。
 
-![[アプリの管理] ページのスクリーンショット。](media/manage-apps.png)
+:::image type="content" source="media/manage-apps.png" alt-text="[アプリの管理] ページのスクリーンショット。" lightbox="media/manage-apps.png":::
 
 Teams 管理センターを使用するには、グローバル 管理または Teams 管理者ロールが必要です。 詳細については、次のヘルプ記事を参照してください。
 
@@ -156,7 +158,7 @@ ISV がグローバル アプリ ストアにアプリを発行する場合、�
 1. その名前でアプリを検索し、アプリを選択します。 アプリの詳細ページを開かないでください。
 1. **[チームに追加]** を選択します。
 
-   :::image type="content" source="media/manage-apps-add-app-team-trimmed.png" alt-text="チーム スコープに追加できるアプリの [チームに追加] オプションのスクリーンショット。" lightbox="media/manage-apps-add-app-team.png":::
+   :::image type="content" source="media/manage-apps-add-app-team-trimmed.png" alt-text="チーム スコープに追加できるアプリの [チームに追加] オプションのスクリーンショット。":::
 
 1. **[チームに追加]** ウィンドウで、アプリを追加するチームを検索し、チームを選択して、**[適用]** 選択します。
 

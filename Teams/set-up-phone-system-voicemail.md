@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: ユーザーのクラウド ボイスメールを設定する方法について説明します。
-ms.openlocfilehash: 259072194dc474d88a979ac3afb591e72eb51248
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 9d6752098ff9dee6294d53fb24f6b7df6ee8e21c
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494374"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616253"
 ---
 # <a name="set-up-cloud-voicemail"></a>クラウド ボイスメールのセットアップ
 
@@ -105,7 +105,7 @@ Microsoft Purview 情報保護を使用すると、内部発信者と外部発�
 
 ボイスメール メッセージを暗号化するには、秘密度ラベルを作成します。 自動ラベル付け機能を使用すると、着信ボイスメール メッセージにラベルが自動的に適用されるようにすることができます。
 
-保護されたボイスメールを有効にすると、ユーザーは自分のボイスメール メールボックスを呼び出すか、Outlook、Outlook on the web、Outlook for Android または iOS でメッセージを開くことで、保護されたボイスメール メッセージをリッスンできます。 保護されたボイスメール メッセージは、Microsoft Teams またはSkype for Businessで開くできません。
+保護されたボイスメールを有効にすると、ユーザーは Outlook、Outlook on the web、または Outlook for Android または iOS でメッセージを開くことで、保護されたボイスメール メッセージをリッスンできます。 保護されたボイスメール メッセージは、Microsoft Teams またはSkype for Businessで開くできません。
 
 ボイスメールの秘密度ラベルを作成するには、「 [秘密度ラベルを使用する](/microsoft-365/compliance/encryption-sensitivity-labels#let-users-assign-permissions)」を参照してください。 [ **暗号化** ] セクションで、[ **ユーザーがラベルを適用するときにアクセス許可を割り当てる]** を選択します。 **[Outlook] を選択し、次のいずれかの制限を適用** してから、[**転送しない**] オプションを選択します。
 

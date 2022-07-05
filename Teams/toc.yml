@@ -1797,7 +1797,7 @@ items:
             href: teams-add-on-licensing/advanced-communications.md
           - name: メッセージング ポリシーのライセンス
             href: teams-add-on-licensing/pri-message.md
-          - name: Microsoft Teams 電話標準 - 仮想ユーザー ライセンス
+          - name: Microsoft Teams 電話リソース アカウントのライセンス
             href: teams-add-on-licensing/virtual-user.md
           - name: Teams Essentials の使用を開始する
             href: get-started-with-teams-essentials.md

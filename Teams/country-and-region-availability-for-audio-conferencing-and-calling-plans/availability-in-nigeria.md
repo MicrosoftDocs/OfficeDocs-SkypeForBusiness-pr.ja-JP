@@ -1,7 +1,7 @@
 ---
 title: ナイジェリアでの可用性
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ナイジェリアで利用可能なSkype for BusinessとMicrosoft TeamsのMicrosoft 365とOffice 365サービスを次に示します。
-ms.openlocfilehash: bfb76aa91f2af5e52f53e96862e121ae5bf8c0cb
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: ナイジェリアで利用できるSkype for Businessと Microsoft Teams の Microsoft 365 サービスとOffice 365 サービスを次に示します。
+ms.openlocfilehash: 5eb7fb2d39ff4a0b8455cc211fa1dad5b02f79cf
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62389039"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615793"
 ---
 # <a name="availability-in-nigeria"></a>ナイジェリアでの可用性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ナイジェリアで利用可能なSkype for BusinessとMicrosoft TeamsのMicrosoft 365とOffice 365サービスを次に示します。
+ナイジェリアで利用できるSkype for Businessと Microsoft Teams の Microsoft 365 サービスとOffice 365 サービスを次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -72,7 +72,7 @@ ms.locfileid: "62389039"
 |有料電話番号は使用できますか?  <br/> |はい  <br/> |
 |フリーダイヤル番号は利用できますか?  <br/> |いいえ  <br/> |
    
- 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「[Skype for BusinessとMicrosoft Teamsのサービス電話番号を取得](../getting-service-phone-numbers.md)する」を参照してください。
+ 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「[Skype for Businessと Microsoft Teams のサービス電話番号を取得](../getting-service-phone-numbers.md)する」を参照してください。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 

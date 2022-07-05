@@ -1,7 +1,7 @@
 ---
 title: Dominica での可用性
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, fafan
 ms.topic: reference
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Dominica で利用できるSkype for BusinessとMicrosoft TeamsのMicrosoft 365サービスとOffice 365 サービスを次に示します。
-ms.openlocfilehash: 196355cde6246b4ae6a97f523e1edcb527e14c94
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: ここでは、Skype for Business および Microsoft Teams 向けの Microsoft 365 サービスとOffice 365 サービスを Dominica で利用できます。
+ms.openlocfilehash: 90c96c4d1ba17ac59a0d5693e74e4e5fd5e80a03
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62407519"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615813"
 ---
 # <a name="availability-in-dominica"></a>Dominica での可用性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-Dominica で利用できるSkype for BusinessとMicrosoft TeamsのMicrosoft 365サービスとOffice 365 サービスを次に示します。
+ここでは、Skype for Business および Microsoft Teams 向けの Microsoft 365 サービスとOffice 365 サービスを Dominica で利用できます。
   
 ## <a name="audio-conferencing"></a>電話会議
 

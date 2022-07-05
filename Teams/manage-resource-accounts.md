@@ -20,13 +20,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
-description: この記事では、Microsoft Teamsでリソース アカウントを作成、編集、管理する方法について説明します。
-ms.openlocfilehash: 176cf304909094ae12c102f26ccbcd777366b649
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+description: この記事では、Microsoft Teams でリソース アカウントを作成、編集、管理する方法について説明します。
+ms.openlocfilehash: 0b8c77f7d6371ba1bfefa9837488415405e48f67
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124162"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615803"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams のリソースのアカウントの管理
 
@@ -43,16 +43,16 @@ ms.locfileid: "66124162"
 
 **[編集]** オプションを使用して、リソース アカウント **の表示名** と **リソース アカウント** の種類を編集できます。 完了したら、[ **保存] をクリックします** 。
 
-## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a>仮想ユーザー ライセンスを使用するように既存のリソース アカウントを変更する
+## <a name="change-an-existing-resource-account-to-use-a-teams-phone-resource-account-license"></a>Teams Phone リソース アカウント ライセンスを使用するように既存のリソース アカウントを変更する
 
-既存のリソース アカウントのライセンスを **Teams 電話スタンダード** ライセンスから仮想ユーザー ライセンスに切り替える場合は、無料の仮想ユーザー ライセンスを取得し、Microsoft 365 管理センターの手順に従って [ユーザーを別のサブスクリプションに移動する必要があります](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)。
+既存のリソース アカウントのライセンスを Teams 電話スタンダード ライセンスから **Microsoft Teams 電話** **リソース アカウント** ライセンスに切り替える場合は、無料 **の Teams Phone リソース アカウント** ライセンスを取得し、Microsoft 365 管理センターの手順に [従ってユーザーを別のサブスクリプションに移動します](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)。
 
 > [!WARNING]
-> 常に完全なTeams 電話スタンダード ライセンスを削除し、同じライセンス アクティビティで仮想ユーザー ライセンスを割り当てます。 古いライセンスを削除し、アカウントの変更を保存し、新しいライセンスを追加して、アカウント設定をもう一度保存すると、リソース アカウントが期待どおりに機能しなくなる可能性があります。 このような場合は、仮想ユーザー ライセンスの新しいリソース アカウントを作成し、壊れたリソース アカウントを削除することをお勧めします。
+> 常に完全なTeams 電話スタンダード ライセンスを削除し、Microsoft Teams 電話 **リソース アカウント** ライセンスを同じライセンス アクティビティに割り当てます。 古いライセンスを削除し、アカウントの変更を保存し、新しいライセンスを追加して、アカウント設定をもう一度保存すると、リソース アカウントが期待どおりに機能しなくなる可能性があります。 このような場合は、Microsoft Teams 電話 リソース アカウント ライセンスの新しいリソース アカウントを作成し、破損した **リソース アカウント** を削除することをお勧めします。
 
 ## <a name="skype-for-business-server-2019"></a>Skype For Business Server 2019
 
-クラウド通話キューとクラウド自動応答で使用できる Skype For Business Server 2019 にホームされているリソース アカウントについては、「[クラウド通話キューの計画](/SkypeforBusiness/hybrid/plan-call-queue)」または「[クラウド自動応答の計画](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)」を参照してください。 ハイブリッド実装 (ダイレクト ルーティングに基づく番号) は、オンプレミスの 2019 サーバー上の [New-CsHybridApplicationEndpoint](/powershell/module/skype/new-cshybridapplicationendpoint) コマンドレットを使用Skype for Business Server構成されます。
+クラウド通話キューとクラウド自動応答で使用できる Skype For Business Server 2019 にホームされているリソース アカウントについては、「 [クラウド通話キューを計画](/SkypeforBusiness/hybrid/plan-call-queue) する」または「 [クラウドの自動応答を計画する](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)」を参照してください。 ハイブリッド実装 (ダイレクト ルーティングに基づく番号) は、オンプレミスの 2019 サーバー上の [New-CsHybridApplicationEndpoint](/powershell/module/skype/new-cshybridapplicationendpoint) コマンドレットを使用Skype for Business Server構成されます。
 
 アプリケーション インスタンスの作成時に使用する必要があるアプリケーション ID は次のとおりです。
 
@@ -60,7 +60,7 @@ ms.locfileid: "66124162"
 - **通話キュー:** 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
 > [!NOTE]
-> 通話キューまたは自動応答を Skype For Business Server 2019 ユーザーが検索できるようにするには、オンライン リソース アカウントが Active Directory に同期されないため、Skype For Business Server 2019 でリソース アカウントを作成する必要があります。 sipfederationtls の DNS SRV レコードが Skype for Business Server 2019 に解決される場合は、SfB Management シェルを使用して Skype For Business Server 2019 にリソース アカウントを作成し、Azure AD に同期する **必要があります**。
+> 通話キューまたは自動応答を Skype For Business Server 2019 ユーザーが検索できるようにするには、オンライン リソース アカウントが Active Directory に同期されないため、Skype For Business Server 2019 でリソース アカウントを作成する必要があります。 sipfederationtls の DNS SRV レコードが Skype for Business Server 2019 に解決される場合は、SfB Management シェルを使用して Skype For Business Server 2019 でリソース アカウントを作成し、Azure AD に同期する **必要があります**。
 
 Skype for Business Serverとハイブリッドである実装の場合:
 
