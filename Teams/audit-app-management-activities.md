@@ -15,14 +15,14 @@ description: 組織内のユーザーと管理者の Teams アプリ アクテ�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: d75773db33f1648e3fff0c7bf06944da133f0604
-ms.sourcegitcommit: 4be2a5db44972b35bdde5752eea0d74cf831607a
+ms.openlocfilehash: 77c7ac5d80304e82f1309e3a22b21c17d106a58c
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 07/06/2022
-ms.locfileid: "66642889"
+ms.locfileid: "66647834"
 ---
-# <a name="search-the-audit-logs-for-app-events"></a>アプリ イベントの監査ログを検索する
+# <a name="audit-for-app-management-activities-and-events"></a>アプリ管理アクティビティとイベントの監査
 
 Microsoft 365 のMicrosoft Purview 監査 (Standard) を使用すると、エンド ユーザーと管理者によってさまざまな Microsoft 365 サービスで実行されたアクティビティの監査レコードを検索できます。
 
@@ -32,7 +32,7 @@ Microsoft 365 のMicrosoft Purview 監査 (Standard) を使用すると、エン
 * [Microsoft Purview コンプライアンス ポータルで監査を有効にする](/microsoft-365/compliance/turn-audit-log-search-on-or-off)。
 * [監査ログを検索するためのアクセス許可を割り当てる](/microsoft-365/compliance/set-up-basic-audit)。
 
-## <a name="audit-logs-for-app-events-in-teams"></a>Teams のアプリ イベントの監査ログ
+## <a name="search-the-audit-logs-for-app-events-in-teams"></a>Teams でアプリ イベントの監査ログを検索する
 
 Teams のアプリ イベントの監査ログは、特定のアクションを調査するのに役立ちます。 ログを検索してさまざまなアクションを検索できますが、ログに記録される Teams アプリ アクションの一部を次の表に示します。 さらに、コネクタ、ボット、タブに関連するアクティビティを検索することもできます。
 
