@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Microsoft Teams で認定されている USB 周辺機器とデバイス (ヘッドセット、スピーカーフォン、Web カメラ、モニターなど) を確認します。
-ms.openlocfilehash: a2f106b71cc6494594ad34b9aa8dbfb61789a67a
-ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
+ms.openlocfilehash: 7df6ca32a359931a62935d68257583c4d499aa93
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66605706"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66647659"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams の認定を受けた USB オーディオ デバイスとビデオ デバイス
 
@@ -149,8 +149,8 @@ Teams での通話制御のサポートの詳細については、Teams [のヘ�
 |レノボ               |Pro Wired VoIP ステレオ ヘッドセット                              |12/21/2020      |Microsoft Teams へのアップグレードによるSkype for Business      |
 |ポリ                 |Savi Office 7320                                           |12/18/2020      |Microsoft Teams 認定                           |
 |ポリ                 |Savi Office 7310                                           |12/18/2020      |Microsoft Teams 認定                           |
-|Jabra                |Evolve 75e / SE ヘッドセット                                         |12/16/2020      |Microsoft Teams へのアップグレードによるSkype for Business      |
-|Jabra                |Evolve 65e / SE ヘッドセット                                         |12/16/2020      |Microsoft Teams へのアップグレードによるSkype for Business      |
+|Jabra                |Evolve 75e ヘッドセット                                         |12/16/2020      |Microsoft Teams へのアップグレードによるSkype for Business      |
+|Jabra                |Evolve 65e ヘッドセット                                         |12/16/2020      |Microsoft Teams へのアップグレードによるSkype for Business      |
 |Dell                 |C3422WE モニター                                            |12/11/2020      |Microsoft Teams 認定                           |
 |Dell                 |C2722DE モニター                                            |12/11/2020      |Microsoft Teams 認定                           |
 |Dell                 |C2422HE モニター                                            |12/11/2020      |Microsoft Teams 認定                           |
@@ -167,8 +167,8 @@ Teams での通話制御のサポートの詳細については、Teams [のヘ�
 |エポレス/Sennheiser      |USB-ED CC 01 MS コネクタを使用した SC 660 への影響               |8/20/2020       |Microsoft Teams へのアップグレードによるSkype for Business      |
 |エポレス/Sennheiser      |USB-ED CC 01 MS コネクタを使用した SC 630 への影響               |8/20/2020       |Microsoft Teams へのアップグレードによるSkype for Business      |
 |エポレス/Sennheiser      |USB-ED CC 01 MS コネクタを使用した SC 260 への影響               |8/20/2020       |Microsoft Teams へのアップグレードによるSkype for Business      |
-|Jabra                |Evolve 75 ヘッドセット                                          |7/31/2020       |Microsoft Teams へのアップグレードによるSkype for Business      |
-|Jabra                |Evolve 65 ヘッドセット                                          |7/31/2020       |Microsoft Teams へのアップグレードによるSkype for Business      |
+|Jabra                |Evolve 75 / SE ヘッドセット                                          |7/31/2020       |Microsoft Teams へのアップグレードによるSkype for Business      |
+|Jabra                |Evolve 65 / SE ヘッドセット                                          |7/31/2020       |Microsoft Teams へのアップグレードによるSkype for Business      |
 |Jabra                |Engage 50 ヘッドセット                                          |7/31/2020       |Microsoft Teams へのアップグレードによるSkype for Business      |
 |Avocor               |WCD- AVW-6555                                              |7/30/2020       |Microsoft Teams 認定                           |
 |Jabra                |Evolve2 85 ヘッドセット                                         |7/17/2020       |Microsoft Teams 認定                           |

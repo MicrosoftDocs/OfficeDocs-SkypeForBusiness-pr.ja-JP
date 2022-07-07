@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 595be9303c0d9732c3e2580b06bf3a0a55a27088
-ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
+ms.openlocfilehash: 1a9058dbd583c9d795d04f27b43995c75095e80d
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64853078"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66647669"
 ---
 # <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>自動応答および通話キューの通話に Teams から直接応答する
 
@@ -48,7 +48,9 @@ Teams ユーザーは、クラウドの自動応答および通話キューを T
 
 > [!NOTE] 
 > 通話キューの呼び出しは、ユーザーの通話応答ルールの構成に基づいて転送されません。 これは、エージェントが通話に応答でき、発信者に予期しない転送がされない限り、発信者がキューに留まるようにするためです。
-
+>
+> 自動応答と通話キューから通話を受信したユーザーは、PSTN から提供された場合、または発信者の番号がターゲット ユーザーのローカル チームのクライアント連絡先と一致する場合にのみ、発信者の名前が表示されます。
+>
 > エージェントには、通話キューの呼び出しの不在着信またはボイスメールは通知されません。
 
 ## <a name="supported-clients"></a>サポートされるクライアント
@@ -60,7 +62,7 @@ Teams ユーザーは、クラウドの自動応答および通話キューを T
 -    Microsoft Teams iPhone アプリ
 -    Microsoft Teams Android アプリ
 
-Teams クライアントは、[共存モードが [Teamsのみ] でのみ](/microsoftteams/setting-your-coexistence-and-upgrade-settings)サポートされます。
+Teams クライアントは、 [Teams のみの共存モード](/microsoftteams/setting-your-coexistence-and-upgrade-settings)でのみサポートされます。
 
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Microsoft Teams の自動応答と通話キューのサポートを構成する
 

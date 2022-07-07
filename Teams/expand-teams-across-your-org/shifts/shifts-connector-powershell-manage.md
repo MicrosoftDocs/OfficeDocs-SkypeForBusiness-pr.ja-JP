@@ -1,5 +1,5 @@
 ---
-title: PowerShell を使用して、Blue Yonder Workforce Management への Shifts 接続を管理する
+title: PowerShell を使用して Blue Yonder Workforce Managementへの Shifts 接続を管理する
 author: LanaChin
 ms.author: v-lanachin
 ms.reviewer: ''
@@ -8,25 +8,25 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: PowerShell を使用して、Blue Yonder Workforce Management への Shifts 接続を管理する方法について説明します。
+description: PowerShell を使用して Blue Yonder Workforce Managementへの Shifts 接続を管理する方法について説明します。
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a102001c9c35b3d93467a9955329ce9d314532d0
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: c4edf815a3ce21a820fa292a06d41275c97d78a5
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675369"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66647822"
 ---
-# <a name="use-powershell-to-manage-your-shifts-connection-to-blue-yonder-workforce-management"></a>PowerShell を使用して、Blue Yonder Workforce Management への Shifts 接続を管理する
+# <a name="use-powershell-to-manage-your-shifts-connection-to-blue-yonder-workforce-management"></a>PowerShell を使用して Blue Yonder Workforce Managementへの Shifts 接続を管理する
 
 ## <a name="overview"></a>概要
 
-[Blue Yonder 用の Microsoft Teams Shifts コネクタ](shifts-connectors.md#microsoft-teams-shifts-connector-for-blue-yonder)を使用すると、Microsoft Teamsの Shifts アプリを Blue Yonder Workforce Management (Blue Yonder WFM) と統合できます。 接続を設定すると、フロントライン ワーカーは、Shifts 内から Blue Yonder WFM でスケジュールをシームレスに表示および管理できます。
+[Blue Yonder 用の Microsoft Teams Shifts コネクタ](shifts-connectors.md#microsoft-teams-shifts-connector-for-blue-yonder)を使用すると、Microsoft Teams の Shifts アプリを Blue Yonder Workforce Management (Blue Yonder WFM) と統合できます。 接続を設定すると、フロントライン ワーカーは、Shifts 内から Blue Yonder WFMでスケジュールをシームレスに表示および管理できます。
 
 Microsoft 365 管理センターまたは [PowerShell](shifts-connector-blue-yonder-powershell-setup.md) で [Shifts コネクタ ウィザード](shifts-connector-wizard.md)を使用して接続を設定できます。 接続が設定されたら、 [Shifts コネクタの PowerShell コマンドレット](#shifts-connector-cmdlets)を使用して管理します。
 
@@ -40,7 +40,7 @@ Microsoft 365 管理センターまたは [PowerShell](shifts-connector-blue-yon
 - [接続の同期を無効にする](#disable-sync-for-a-connection)
 
 > [!NOTE]
-> この記事では、ウィザードまたは PowerShell を使用して、Blue Yonder WFM への接続を既に設定していることを前提としています。
+> この記事では、ウィザードまたは PowerShell を使用して、Blue Yonder WFMへの接続が既に設定されていることを前提としています。
 
 ## <a name="before-you-begin"></a>はじめに
 
@@ -53,7 +53,7 @@ Microsoft 365 管理センターまたは [PowerShell](shifts-connector-blue-yon
 
 [!INCLUDE [shifts-connector-set-up-environment](../../includes/shifts-connector-set-up-environment.md)]
 
-7. TeamsにConnectします。
+7. Teams に接続します。
 
     ```powershell
     Connect-MicrosoftTeams
@@ -101,7 +101,7 @@ Microsoft 365 管理センターまたは [PowerShell](shifts-connector-blue-yon
 
 ### <a name="user-mapping-errors"></a>ユーザー マッピング エラー
 
-Blue Yonder WFM サイトの 1 人以上のユーザーが、Teamsのマップされたチームのメンバーでない場合、ユーザー マッピング エラーが発生する可能性があります。 この問題を解決するには、マップされたチームのユーザーが Blue Yonder WFM サイトのユーザーと一致していることを確認します。
+Blue Yonder WFM インスタンスの 1 人以上のユーザーが Teams でマップされたチームのメンバーでない場合、ユーザー マッピング エラーが発生する可能性があります。 この問題を解決するには、マップされたチームのユーザーが Blue Yonder WFM インスタンスのユーザーと一致していることを確認します。
 
 マップされていないユーザーの詳細を表示するには、(まだない場合は) [環境を設定](#set-up-your-environment) し、次のスクリプトを実行します。
 
@@ -151,22 +151,22 @@ ForEach ($mapping in $mappings){
 
 ### <a name="account-authorization-errors"></a>アカウント承認エラー
 
-Blue Yonder WFM サービス アカウントまたはMicrosoft 365システム アカウントの資格情報が正しくない場合、または必要なアクセス許可がない場合、アカウント承認エラーが発生する可能性があります。
+Blue Yonder WFM サービス アカウントまたは Microsoft 365 システム アカウントの資格情報が正しくない場合、または必要なアクセス許可がない場合、アカウント承認エラーが発生する可能性があります。
 
-接続の Blue Yonder WFM サービス アカウントまたはMicrosoft 365システム アカウント資格情報を変更するには、[Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance) コマンドレットを実行するか、この記事の[[接続設定の変更](#change-connection-settings)] セクションの PowerShell スクリプトを使用します。
+接続の Blue Yonder WFMサービス アカウントまたは Microsoft 365 システム アカウントの資格情報を変更するには、[Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance) コマンドレットを実行するか、この記事の [[接続設定の変更]](#change-connection-settings) セクションの PowerShell スクリプトを使用します。
 
 ## <a name="change-connection-settings"></a>接続設定を変更する
 <a name="change_settings"> </a>
 
-このスクリプトを使用して接続設定を変更します。 変更できる設定には、Blue Yonder WFM サービス アカウントとパスワード、Microsoft 365 システム アカウント、チーム マッピング、同期設定が含まれます。
+このスクリプトを使用して接続設定を変更します。 変更できる設定には、Blue Yonder WFMサービス アカウントとパスワード、Microsoft 365 システム アカウント、チーム マッピング、同期設定が含まれます。
 
-同期設定には、同期頻度 (分単位) と、Blue Yonder WFM と Shifts の間で同期されるスケジュール データが含まれます。 スケジュール データは、 [Get-CsTeamsShiftsConnectionConnectionConnector](/powershell/module/teams/get-csteamsshiftsconnectionconnector) を実行して表示できる次のパラメーターで定義されています。
+同期設定には、同期頻度 (分単位) と、Blue Yonder WFMと Shifts の間で同期されるスケジュール データが含まれます。 スケジュール データは、 [Get-CsTeamsShiftsConnectionConnectionConnector](/powershell/module/teams/get-csteamsshiftsconnectionconnector) を実行して表示できる次のパラメーターで定義されています。
 
-- **enabledConnectorScenarios** パラメーターは、Blue Yonder WFM から Shifts に同期されるデータを定義します。 オプションは `Shift`、 , , `SwapRequest``UserShiftPreferences`, `OpenShift`, `TimeOff``OpenShiftRequest``TimeOffRequest`, .
-- **enabledWfiScenarios** パラメーターは、Shifts から Blue Yonder WFM に同期されるデータを定義します。 オプションは `SwapRequest`、 、 `OpenShiftRequest`、 `TimeOffRequest`. `UserShiftPreferences`
+- **enabledConnectorScenarios** パラメーターは、Blue Yonder WFMから Shifts に同期されるデータを定義します。 オプションは `Shift`、 , , `SwapRequest``UserShiftPreferences`, `OpenShift`, `TimeOff``OpenShiftRequest``TimeOffRequest`, .
+- **enabledWfiScenarios** パラメーターは、Shifts から Blue Yonder WFMに同期されるデータを定義します。 オプションは `SwapRequest`、 、 `OpenShiftRequest`、 `TimeOffRequest`. `UserShiftPreferences`
 
     > [!NOTE]
-    > オープン シフト、オープン シフト要求、スワップ要求、または Shifts と Blue Yonder WFM の間で休暇要求を同期しない場合は、Shifts で機能を非表示にするには、別の手順を実行する必要があります。 このスクリプトを実行した後は、この記事の後半の「 [オープン シフトを無効にする、シフト要求を開く、要求をスワップする、および休暇要求を無効にする](#disable-open-shifts-open-shifts-requests-swap-requests-and-time-off-requests) 」セクションの手順に従っていることを確認します。
+    > オープン シフト、オープン シフト要求、スワップ要求、または Shifts と Blue Yonder WFMの間の休暇要求を同期しない場合は、Shifts で機能を非表示にするには、別の手順を実行する必要があります。 このスクリプトを実行した後は、この記事の後半の「 [オープン シフトを無効にする、シフト要求を開く、要求をスワップする、および休暇要求を無効にする](#disable-open-shifts-open-shifts-requests-swap-requests-and-time-off-requests) 」セクションの手順に従っていることを確認します。
 
 > [!IMPORTANT]
 > 変更しない設定の場合は、スクリプトからメッセージが表示されたら、元の設定を再入力する必要があります。
@@ -275,13 +275,13 @@ Write-Host "Success"
 > [!IMPORTANT]
 > この記事の「 [接続設定の変更](#change-connection-settings) 」セクションのスクリプトを使用するか、 [Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance) コマンドレットを使用して、オープン シフト、オープン シフト要求、スワップ要求、または休暇要求を無効にすることを選択した場合にのみ、次の手順に従います。 この手順を完了すると、Shifts で機能が非表示になります。 この 2 番目の手順を実行しないと、Shifts で機能が表示され、使用しようとすると"サポートされていない操作" というエラー メッセージが表示されます。
 
-Shifts でオープン シフト、スワップ要求、および休暇要求を非表示にするには、リソース[の種類をスケジュール](/graph/api/resources/schedule)Graph API使用して、Blue Yonder WFM サイトにマップした各チームに対して```false```次のパラメーターを設定します。
+Shifts でオープン シフト、スワップ要求、および休暇要求を非表示にするには、リソース[の種類をスケジュール](/graph/api/resources/schedule)Graph API使用して、Blue Yonder WFM インスタンスにマップした各チームに対して```false```次のパラメーターを設定します。
 
 - 開いているシフト: ```openShiftsEnabled```
 - スワップ要求:  ```swapShiftsRequestsEnabled```
 - 休暇要求: ```timeOffRequestsEnabled```
 
-Shifts で開いているシフト要求を非表示にするには、Shifts **の [設定**] に移動し、[**シフトを開く**] 設定をオフにします。
+Shifts で開いているシフト要求を非表示にするには、Shifts の **[設定]** に移動し、[シフトを **開く** ] 設定をオフにします。
 
 ## <a name="unmap-a-team-from-one-connection-and-map-it-to-another-connection"></a>ある接続からチームのマップを解除し、別の接続にマップする
 
@@ -313,7 +313,7 @@ Shifts で開いているシフト要求を非表示にするには、Shifts **�
 
 ## <a name="disable-sync-for-a-connection"></a>接続の同期を無効にする
 
-このスクリプトを使用して、接続の同期を無効にします。 このスクリプトでは、接続が削除または削除されないことに注意してください。 指定した接続に対して Shifts と Blue Yonder WFM の間でデータが同期されないよう、同期がオフになります。
+このスクリプトを使用して、接続の同期を無効にします。 このスクリプトでは、接続が削除または削除されないことに注意してください。 指定した接続の Shifts と Blue Yonder WFM間でデータが同期されないよう、同期がオフになります。
 
 [環境をセットアップし](#set-up-your-environment) (まだない場合)、次のスクリプトを実行します。
 
@@ -393,7 +393,7 @@ Shifts コネクタ コマンドレットのヘルプについては、[Teams Po
 ## <a name="related-articles"></a>関連記事
 
 - [コネクタをシフトする](shifts-connectors.md)
-- [Shifts コネクタ ウィザードを使用して Shifts を Blue Yonder Workforce Management に接続する](shifts-connector-wizard.md)
-- [PowerShell を使用してシフトを Blue Yonder Workforce Management に接続する](shifts-connector-blue-yonder-powershell-setup.md)
+- [Shifts コネクタ ウィザードを使用して Shifts を Blue Yonder Workforce Managementに接続する](shifts-connector-wizard.md)
+- [PowerShell を使用して Shifts を Blue Yonder Workforce Managementに接続する](shifts-connector-blue-yonder-powershell-setup.md)
 - [Shifts アプリを管理する](manage-the-shifts-app-for-your-organization-in-teams.md)
 - [Teams での PowerShell の概要](../../teams-powershell-overview.md)
