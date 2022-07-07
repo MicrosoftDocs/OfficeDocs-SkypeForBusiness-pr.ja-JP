@@ -14,14 +14,15 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- m365initiative-edu
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ff797e0793373d0cb7b476b31411ccdf377639c
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 2694981d18bfbee7f75ea8157fb656d77675a71d
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674379"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66647689"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams の Education Insights への IT 管理者ガイド
 
@@ -252,15 +253,17 @@ IT 管理者として、教職員やリーダーが Teams の使用を開始す�
 > [!NOTE]
 > Insights をオフにした場合、収集されたデータは削除されます。 オプトアウトによって削除されたデータは、Insights が再び有効になった場合でも、後から復元することはできません。
 
-### <a name="turn-machine-learning-in-insights-on-or-off"></a>Insights の機械学習をオンまたはオフにする
+### <a name="turn-on-and-off-advanced-inferences-in-insights"></a>Insights で高度な推論のオンとオフを切り替える
 
-既定では、Insights の機械学習ベースのエクスペリエンスはオフになっています。 これらの分析情報を許可するには、**[機械学習ベースの分析情報を許可する]** 必要があります。 このトグルをオンにしても、Education Insights によって既に収集されているデータ以外の追加データは収集されません。
+Education Insights の **[高度な推論を許可する]** トグルがオンになっている場合、Education Insights は、学生、教師、および教育リーダーに、学習に関する高度な推論 (エンゲージメント警告など) を提示する場合があります。 これらの推論により、教師は学生により合わせたサポートを提供できます。 トグルは、モデリングのためのテナント データの使用も制御します。
+
+このトグルをオンにしても、Education Insights によって既に収集されているデータ以外の追加データは収集されません。
 
 - この設定を調整するには、[SDS 管理センター](https://sds.microsoft.com/)を開き、**[設定]** > **[Education Insights の管理]** に移動します。
-- **[機械学習ベースの分析情報を許可する]** トグルをオフまたはオンに調整します。
+- **[高度な推論を許可する]** トグルをオフまたはオンに調整します。
 
 > [!NOTE]
-> このトグルは、**[分析情報のアクティビティ データを収集する]** トグルに依存します。 **[分析情報のアクティビティ データを収集する]** をオフにすると、**[機械学習ベースの分析情報を許可する]** トグルもオフになります。
+> このトグルは、**[分析情報のアクティビティ データを収集する]** トグルに依存します。 **[Insights のアクティビティ データを収集する]** をオフにすると、**[高度な推論を許可する]** トグルもオフになります。
 
 ### <a name="turn-sds-for-insights-on-or-off"></a>Insights 用 SDS をオンまたはオフにする
 
