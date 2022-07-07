@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: SBC を構成して Teams Phone システム ダイレクト ルーティングに接続する方法について説明します。
-ms.openlocfilehash: e33f9538fdf69696e0a87da84dc5aec8e8d304af
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 0423c374e903aab2e283ee45bcabf9ceb31ef869
+ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66241106"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66682666"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>セッション ボーダー コントローラー (SBC) をダイレクト ルーティングに接続する
 
@@ -95,6 +95,8 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxCo
   > テナントに登録されているドメインに加えて、そのドメインを持つユーザーと E3 または E5 ライセンスが割り当てられていることが重要です。 そうでない場合は、次のエラーが表示されます。<br/>
   `Can not use the "sbc.contoso.com" domain as it was not configured for this tenant`.
   > 3. SBC 側で同じ FQDN でマップされた複数の IP はサポートされていません。
+  > 4. お客様にクラス最高の暗号化を提供するために、Microsoft はダイレクト ルーティング SIP インターフェイスに TLS1.2 の使用を強制します。
+  > サービスへの影響を回避するには、TLS1.2 をサポートするように SBC が構成されており、次のいずれかの暗号スイートを使用して接続できることを確認します。TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384つまり。 ECDHE-RSA-AES256-GCM-SHA384 TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256つまり ECDHE-RSA-AES128-GCM-SHA256 TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384すなわち ECDHE-RSA-AES256-SHA384 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 i.e. ECDHE-RSA-AES128-SHA2564
 
 以下は、実行例です。
 

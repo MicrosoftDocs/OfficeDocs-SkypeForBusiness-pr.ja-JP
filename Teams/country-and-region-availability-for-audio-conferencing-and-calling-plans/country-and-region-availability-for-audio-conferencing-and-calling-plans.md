@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 電話会議、電話システム、通話プラン、通信クレジット、有料電話番号とフリーダイヤル電話番号が国または地域で利用可能かどうかを確認します。
-ms.openlocfilehash: 71aa417de6a6ec9f6388ac414512f42a881be001
-ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
+ms.openlocfilehash: 7693ae0421d186d1ac230d48bf4df2369aa4e3f8
+ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "64686314"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66682466"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>国および地域ごとの電話会議および通話プランの利用可能性
 
@@ -161,7 +161,7 @@ ms.locfileid: "64686314"
 
 ***
 
-Skype for BusinessサービスまたはMicrosoft Teams サービスの 1 つが使用可能かどうかを確認したら、Skype for Business[とMicrosoft Teamsアドオン ライセンスを](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)確認し、ライセンスを購入してユーザーに割り当てるのに役立ちます。
+Skype for Businessサービスまたは Microsoft Teams サービスのいずれかが利用可能かどうかを確認したら、ライセンスを購入してユーザーに割り当てるのに役立つ[Skype for Businessと Microsoft Teams アドオン のライセンスを](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)確認できます。
 
 > [!NOTE]
 >
@@ -171,7 +171,7 @@ Skype for BusinessサービスまたはMicrosoft Teams サービスの 1 つが�
 
 ### <a name="audio-conferencing"></a>電話会議
 
-自分の組織内のユーザーが、会議にダイヤル インするために電話機を使用する必要がある場合があります。 Skype for BusinessとMicrosoft Teamsには、このような状況に対応する電話会議機能が含まれています。 ユーザーは、モバイル デバイスまたは PC 上で Skype for Business や Microsoft Teams のアプリを使用する代わりに、電話機を使用して会議にダイヤル インすることができます。 組織の電話会議が必要であると判断したら、電話会議をスケジュールまたはホストする組織内の各ユーザーに対して 1 つの **電話会議** ライセンスを購入します。
+自分の組織内のユーザーが、会議にダイヤル インするために電話機を使用する必要がある場合があります。 Skype for Businessと Microsoft Teams には、このような状況に対応する電話会議機能が含まれています。 ユーザーは、モバイル デバイスまたは PC 上で Skype for Business や Microsoft Teams のアプリを使用する代わりに、電話機を使用して会議にダイヤル インすることができます。 組織の電話会議が必要であると判断したら、電話会議をスケジュールまたはホストする組織内の各ユーザーに対して 1 つの **電話会議** ライセンスを購入します。
   
 電話会議では、ユーザーが会議にダイヤルインするために使用できる有料電話番号とフリーダイヤル電話番号があります。 次に示す国や地域からの有料電話番号は、組織が電話会議を利用できるよう有効になっている場合に、共有の電話会議の電話番号として自動的に組織に割り当てられます。 専用の有料電話番号とフリーダイヤル番号は、追加の都市から組織に割り当てることができます。
 
@@ -193,7 +193,7 @@ Skype for BusinessサービスまたはMicrosoft Teams サービスの 1 つが�
   
 ### <a name="phone-system"></a>電話システム
 
-電話システムでは、自動応答と通話キュー (有料またはフリーダイヤル) を作成して、組織の着信呼び出しに応答します。 ユーザーの通話プランを追加すると、Skype for Businessを使用して、通話の発信と受信、通話の転送、通話のミュートとミュート解除などの基本的な呼び出し制御タスクを処理できます。 **電話システム** ユーザーがアドレス帳の名前をクリックすると、Skype for Businessそのユーザーに通話が発信されます。 通話を発信および受信するには、**電話システム** ユーザーがモバイル デバイス、ノート PC を搭載したヘッドセット、またはSkype for Businessで動作する多数の IP 電話のいずれかを使用します。
+電話システムを使用すると、組織の着信呼び出しに応答する自動応答と通話キュー (有料またはフリーダイヤル) を作成します。 ユーザーの通話プランを追加すると、Skype for Businessを使用して、通話の発信と受信、通話の転送、通話のミュートとミュート解除などの基本的な呼び出し制御タスクを処理できます。 **電話システム** ユーザーがアドレス帳の名前をクリックすると、Skype for Businessそのユーザーに電話が発信されます。 電話を発信および受信するために、**Phone System** ユーザーはモバイル デバイス、ノート PC を搭載したヘッドセット、またはSkype for Businessで動作する多くの IP 電話のいずれかを使用します。
 
 これらの場所の一部では、有料電話番号の使用可能性が、在庫レベルによって随時変わる場合があります。 個々のユーザーの電話番号を取得するだけでなく、電話会議 (会議ブリッジ)、自動応答、通話キューなどのサービスの有料電話番号または無料電話番号を検索して取得することもできます。 これらはサービス番号と呼ばれます。 電話番号を取得する方法については、「[サービス電話番号を取得する](../getting-service-phone-numbers.md)」を参照してください。 ただし、自分のユーザーに対しては、通話プランの割り当て後に、ユーザーの電話番号を割り当てて通話の発信や受信をできるようにすることができます。 このような電話番号を見つけるには、「[ユーザー用に電話番号を取得する](../getting-phone-numbers-for-your-users.md)」を参照してください。 詳細については、「[ユーザーの電話番号の割り当て、変更、削除を行う](../assign-change-or-remove-a-phone-number-for-a-user.md)」をご覧ください。
 
@@ -206,7 +206,7 @@ Skype for BusinessサービスまたはMicrosoft Teams サービスの 1 つが�
 
 ### <a name="calling-plans"></a>通話プラン
 
-電話システムとともに通話プランを利用することで、ユーザーは通話を発信したり着信したりすることができるようになります。 まず、ユーザーに割り当てるユーザー (サブスクライバー) の電話番号 (サービス番号ではなく) を取得してから、通話プランを割り当てます。 通話プランには、 **国内**、 **国際** 、 **国内、国際** の 3 種類があります。 詳細については、「[電話システムと通話プラン](../calling-plan-landing-page.md)」を参照してください。
+電話システムとともに通話プランを利用することで、ユーザーは通話を発信したり着信したりすることができるようになります。 まず、ユーザーに割り当てるユーザー (サブスクライバー) の電話番号 (サービス番号ではなく) を取得してから、通話プランを割り当てます。 通話プランには、 **国内** と **国際** の 2 種類があります。 詳細については、「[電話システムと通話プラン](../calling-plan-landing-page.md)」を参照してください。
 
 ライセンス情報については、「[Microsoft Teams アドオン ライセンス](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」も参照してください。
 

@@ -1,5 +1,5 @@
 ---
-title: ユーザー Teamsアドオン ライセンスを割り当てる
+title: Teams アドオン ライセンスをユーザーに割り当てる
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -13,22 +13,22 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.reviewer: mikedav
-description: 電話会議、電話システム、通話プランなどの機能で、Teams アドオン ライセンスをユーザーに割り当てる方法について説明します。
+description: 電話会議、電話システム、通話プランなどの機能について、Teams アドオン ライセンスをユーザーに割り当てる方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8668b31caf0dc10e8585a518a9c4c9be890d1d0d
-ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
+ms.openlocfilehash: 2fca8eb5acac30210e67068f9a2b1eb8dfdce3cb
+ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63435841"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66682496"
 ---
-# <a name="assign-teams-add-on-licenses-to-users"></a>ユーザー Teamsアドオン ライセンスを割り当てる
+# <a name="assign-teams-add-on-licenses-to-users"></a>Teams アドオン ライセンスをユーザーに割り当てる
 
-アドオン ライセンスは、電話会議、電話システム、通話プランなどの特定のTeams機能のライセンスです。 この記事では、アドオン ライセンスを個々のユーザーと大規模なユーザー セットに一括で割り当てる方法について説明します。
+アドオン ライセンスは、電話会議、電話システム、通話プランなどの特定の Teams 機能のライセンスです。 この記事では、アドオン ライセンスを個々のユーザーと大規模なユーザー セットに一括で割り当てる方法について説明します。
 
 > [!NOTE]
-> [アドオン ライセンスで](./microsoft-teams-add-on-licensing.md)使用できるTeams機能については、アドオン ライセンスTeamsを参照してください。 プランに応じて、購入する必要があるライセンスと購入方法に関する情報も表示されます。 ユーザーに必要な機能を決定したら、そのユーザーにライセンスを割り当てます。
+> [アドオン ライセンスで](./microsoft-teams-add-on-licensing.md)使用できる Teams 機能については、Teams アドオン のライセンスに関するページを参照してください。 プランに応じて、購入する必要があるライセンスと購入方法に関する情報も表示されます。 ユーザーに必要な機能を決定したら、そのユーザーにライセンスを割り当てます。
 
 Microsoft 365 管理センターまたは PowerShell を使用して、組織内のユーザーにライセンスを割り当てることができます。 ライセンスを管理するには、グローバル管理者またはユーザー管理管理者である必要があります。
 
@@ -36,13 +36,13 @@ Microsoft 365 管理センターまたは PowerShell を使用して、組織内
 
 作業を開始する前に、次の要件を確認してください。
 
-- ユーザーに対してオンプレミスの公衆交換電話網 (PSTN) 接続を使用している場合は、Teams 電話 Standard ライセンスのみを割り当てる必要があります。 通話プラン ライセンスを割り当てないでください。
+- ユーザーに対してオンプレミスの公衆交換電話網 (PSTN) 接続を使用している場合は、Teams 電話スタンダード ライセンスを割り当てる必要があります。 通話プラン ライセンスを割り当てないでください。
 
-- Microsoft 通話プランをユーザーに割り当てた後、Teams クライアントにダイヤル パッドが表示されるまでに最大 24 時間かかることがあります。 24 時間以内にダイヤル パッドが表示されない場合は、 [ダイヤル パッドの構成](../dial-pad-configuration.md)を確認します。 必要に応じて、 [サポートにお問い合わせください](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
+- Microsoft 通話プランをユーザーに割り当てた後、Teams クライアントにダイヤル パッドが表示されるまでに最大 24 時間かかる場合があります。 24 時間以内にダイヤル パッドが表示されない場合は、 [ダイヤル パッドの構成](../dial-pad-configuration.md)を確認します。 必要に応じて、 [サポートにお問い合わせください](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 
 - 正しいライセンス数を購入していない場合は、エラー メッセージが表示されます。 通話プランライセンスをさらに購入する必要がある場合は、さらに購入するオプションを選択します。
 
-- ユーザーに E5 ライセンスEnterprise割り当てられている場合でも、PSTN に接続する必要があります。 MICROSOFT TEAMS CALLING プラン、ダイレクト ルーティング、オペレーター接続など、いくつかの [PSTN 接続オプション](../pstn-connectivity.md)があります。
+- ユーザーに Enterprise E5 ライセンスが割り当てられている場合でも、PSTN に接続する必要があります。 Microsoft Teams Calling プラン、ダイレクト ルーティング、オペレーター接続など、いくつかの [PSTN 接続オプション](../pstn-connectivity.md)があります。
 
 - 通話プランまたは通信クレジットのライセンスをユーザーに割り当てた後、組織の電話番号を取得し、それらの番号をユーザーに割り当てる必要があります。 詳しい手順については、「[通話プランのセットアップ](../set-up-calling-plans.md)」をご覧ください。
 
@@ -54,7 +54,7 @@ Microsoft 365 管理センターを使用して、一度に個々のユーザー
 
 詳細な手順については、「 [ユーザーにライセンスを割り当てる」を](/microsoft-365/admin/manage/assign-licenses-to-users)参照してください。
 
-数百または数千のユーザーなど、多数のユーザーにライセンスを割り当てる必要がある場合は、[Azure Active Directory (Azure AD) で Powershell またはグループ ベースのライセンスを](/azure/active-directory/users-groups-roles/licensing-groups-assign)使用します。
+数百または数千のユーザーなど、多数のユーザーにライセンスを割り当てる必要がある場合は、 [Azure Active Directory (Azure AD) で Powershell またはグループベースのライセンスを](/azure/active-directory/users-groups-roles/licensing-groups-assign)使用します。
 
 ## <a name="using-powershell"></a>PowerShell の使用
 
@@ -71,7 +71,7 @@ PowerShell を使用して、ライセンスをユーザーに一括で割り当
         ```powershell
         Install-Module MSOnline
         ```
-    3. NuGet プロバイダーのインストールを求めるメッセージが表示されたら、「**Y**」と入力し、Enter キーを押します。
+    3. NuGet プロバイダーのインストールを求めるメッセージが表示されたら、「 **Y**」と入力し、Enter キーを押します。
     4. PSGallery からモジュールをインストールするように求められた場合は、「 **Y**」と入力し、Enter キーを押します。
 3. Windows PowerShellコマンド プロンプトで、次のスクリプトを実行してユーザーにライセンスを割り当てます。ここで\<CompanyName:License>、組織名と割り当てるライセンスの識別子を指定します。 たとえば、litwareinc:MCOMEETADV です。
 
@@ -119,7 +119,7 @@ PowerShell を使用して、ライセンスをユーザーに一括で割り当
       Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:MCOMEETADV" -ErrorAction SilentlyContinue
       ```
 
-    プランの呼び出しライセンスでTeams 電話を割り当てるには、スクリプトで次の構文を使用します。
+    通話プラン ライセンスを使用して Teams Phone を割り当てるには、スクリプトで次の構文を使用します。
 
       ```powershell
       Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:MCOTEAMS_ESSENTIALS" -ErrorAction SilentlyContinue
@@ -127,13 +127,13 @@ PowerShell を使用して、ライセンスをユーザーに一括で割り当
 
 ## <a name="product-names-and-sku-identifiers-for-licensing"></a>ライセンスの製品名と SKU 識別子
 
-PowerShell を使用してTeamsでライセンスを管理するときに参照できる製品名とその対応する SKU パーツ名の一部を次に示します。
+PowerShell を使用して Teams でライセンスを管理するときに参照できる製品名とその対応する SKU パーツ名の一部を次に示します。
 
 詳細については、「 [PowerShell を使用したライセンスとサービスの表示](/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)」、ライセンス [の製品名とサービス プラン識別子](/azure/active-directory/users-groups-roles/licensing-service-plan-reference)、 [Education SKU リファレンスを参照](../sku-reference-edu.md)してください。
 
 | 製品名| SKU 部品名 |
 |--------------|---------------|
-| Microsoft Enterprise E5 (電話システム) | ENTERPRISEPREMIUM |
+| Microsoft Enterprise E5 (電話システムを使用) | ENTERPRISEPREMIUM |
 | Microsoft Enterprise E5 (電話会議なし) | ENTERPRISEPREMIUM_NOPSTNCONF |
 | Microsoft Enterprise E5 (電話会議あり) | ENTERPRISEPREMIUM |
 | Microsoft Enterprise E3 | ENTERPRISEPACK |
@@ -143,9 +143,9 @@ PowerShell を使用してTeamsでライセンスを管理するときに参照�
 | Microsoft 365 Business | SPB|
 | 電話会議 | MCOMEETADV |
 | 電話会議の 1 分あたりの支払い (従量課金) 通信クレジットを設定して有効にする必要があります。* | MCOMEETACPEA |
-| Teams 電話 Standard | MCOEV |
+| Teams 電話スタンダード | MCOEV |
 | 通話プランが設定された Teams 電話 | MCOTEAMS_ESSENTIALS |
-| 国内および国際通話プラン | MCOPSTN2 |
+| 国際通話プラン | MCOPSTN2 |
 | 国内通話プラン (米国/PR/CA の場合はユーザー/月あたり 3000 分、EU 各国の場合はユーザー/月あたり 1200 分) | MCOPSTN1 |
 | 国内通話プラン (各国のユーザー/月あたり 120 分) </br>*このプランは、米国では使用できません。* | MCOPSTN5 |
 | 国内通話プラン (各国のユーザー/月あたり 240 分) </br>*このプランは、米国では使用できません。* | MCOPSTN6 |

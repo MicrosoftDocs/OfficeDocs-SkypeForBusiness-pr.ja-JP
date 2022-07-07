@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Microsoft Teams および Skype for Business Online の通話品質ダッシュボード (CQD) で使用されるディメンションと測定値に関する詳細情報を取得します。
-ms.openlocfilehash: 27b7800efd8835254c5f093781881296b4db2464
-ms.sourcegitcommit: b383b309dbdf9caac7ad7e4a94df8d89016dc485
+ms.openlocfilehash: bc2289f06641e206f3188c865b936962e5f1b1f5
+ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66551224"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66682536"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>通話品質ダッシュボード (CQD) で使用できるディメンションと測定値
 
@@ -551,6 +551,9 @@ CQD で使用される文字列は、多くの場合、データ ファイルか
 |呼び出しキューが関係している|Boolean|True の場合、呼び出しキューは特定の呼び出しまたはストリームに関与していました。 ||
 |**会議**||||
 |ソース アプリ ID のスケジュール設定|文字列 |会議を予約した最初またはサードパーティのスケジュール クライアントの AppID。|スケジュール クライアントは、テレメトリを使用してこのパラメーターを指定していません。|
+|**共通**||||
+| 最初の ACS リソース ID |文字列 |最初のエンドポイントに関連付けられている Azure Communication Service の不変リソース識別子。 <br/> **例:** 000000000-0000-0000-0000-00000-000000000 | エンドポイントが Azure Communication Services API を使用していない|
+| 2 番目の ACS リソース ID |文字列 |2 つ目のエンドポイントに関連付けられた Azure Communication Service の不変リソース識別子。 <br/> **例:** 000000000-0000-0000-0000-00000-000000000 | エンドポイントが Azure Communication Services API を使用していない|
 |**Datapair**||||
 | Network Connection Detail Pair  | ペアの列挙 <br/>**使用可能な値:** <br/> WiFi : WiFi <br/> WiFi : 有線 <br/> 有線 : WiFi <br/> 有線 : 有線 <br/> MobileBB : MobileBB <br/> MobileBB : その他 <br/> MobileBB : トンネル <br/> MobileBB : WiFi <br/> MobileBB : 有線 <br/> その他 : その他 <br/> その他 : WiFi <br/> その他 : 有線 <br/> トンネル : トンネル <br/> トンネル : WiFi <br/> トンネル : 有線 <br/> : MobileBB <br/> : その他 <br/> : トンネル <br/> : WiFi <br/> : 有線 <br/> :  | 第 1 および第 2 のエンドポイントに関するネットワーク接続詳細のペア。  | &bull; エンドポイント ネットワーク接続の種類が不明でした。 これは、通話が確立できなかった場合に発生する可能性があります。   |
 | User Agent Category Pair  | ペアの列挙  | 第 1 および第 2 のエンドポイントのユーザー エージェント カテゴリのペア。 <br/> **値の例:** AV-MCU : OC  | &bull; エンドポイント ユーザー エージェントが既知の種類ではありませんでした  |
