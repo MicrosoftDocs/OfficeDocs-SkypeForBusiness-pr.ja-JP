@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 組織の電話番号またはポート (転送) 番号を取得する場合は、TNS サービス デスクでヘルプとサポートを受ける必要がある場合があります。
-ms.openlocfilehash: bd12ac951e6a0f23ffeebf7a9d2e7655ce73d906
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 8fd5bb73ebdf5aba4cbadeb885404e1a6a6b4fca
+ms.sourcegitcommit: 9175c6d542dd825ce965d0cb7c67264f22315202
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240726"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66687873"
 ---
 # <a name="telephone-number-services-tns---service-desk"></a>電話番号サービス (TNS) - サービス デスク
 
@@ -43,7 +43,7 @@ ms.locfileid: "66240726"
 
 2. 左側のウィンドウで[ **音声**]、[ **電話番号**] の順に選択します。
 
-3. ページの右上隅にある [ **アクション]** をクリックし、[ **電話番号のサポートの取得**] を選択します。 **電話番号サービス センター (サービス** デスク ポータル) に転送されます。
+3. ページの右上隅にある [ **アクション]** をクリックし、[ **電話番号のサポートの取得**] を選択します。 [電話番号サービス センター](https://pstnsd.powerappsportals.com/)に転送されます
 
 > [!NOTE]
 > ケースの作成は、同じテナントのユーザーのみが許可されます。 たとえば、@fabrikam.com のユーザーは@contoso.com に代わってケースを作成できません。
