@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Microsoft Direct Routing を使用して、サポートされている顧客が提供するセッション ボーダー コントローラー (SBC) を電話システムに接続する方法について説明します。
-ms.openlocfilehash: a5ccb8534ed8772124ae6e2506af81e5b63134d0
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: fd5f2733fc11511e6cfc2e646c0bb78aff26b522
+ms.sourcegitcommit: 15ec17eff4ad4c962d00b8683513f9b269d82917
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682516"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "66695060"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -160,6 +160,9 @@ contoso.com|はい|**有効な名前:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso
 
 SBC には 1 つの FQDN のみが必要であり、ペアになっているテナント内の任意のアドレス空間からユーザーにサービスを提供できます。 たとえば、sbc1.contoso.com という名前の SBC は、これらの SIP アドレス空間が同じテナントに登録されている限り、user@contoso.com アドレスと user@fabrikam.com を持つユーザーの PSTN トラフィックを受信および送信できます。  
 
+ > [!NOTE]
+ > 直接ルーティングAzure Communication Services SBC FQDN は、Teams ダイレクト ルーティングの SBC FQDN とは異なる必要があります。
+  
 ## <a name="public-trusted-certificate-for-the-sbc"></a>SBC のパブリック信頼された証明書
 
 認定署名要求 (CSR) を生成して、SBC の証明書を要求することをお勧めします。 SBC の CSR の生成に関する具体的な手順については、SBC ベンダーが提供する相互接続の手順またはドキュメントを参照してください。 

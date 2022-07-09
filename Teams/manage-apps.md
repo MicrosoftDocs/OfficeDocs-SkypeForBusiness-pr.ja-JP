@@ -19,12 +19,12 @@ description: Teams アプリを管理する方法について説明します。 
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 92f7c6d69fbc9f680c204f0210aaa80742dd6384
-ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
+ms.openlocfilehash: f9bf05364ae990930da89a64643fa86b2b0467c4
+ms.sourcegitcommit: 15ec17eff4ad4c962d00b8683513f9b269d82917
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66647749"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "66695070"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターで Teams アプリを管理する
 
@@ -119,7 +119,7 @@ Teams 管理センターを使用するには、グローバル 管理または 
 
  1. Teams 管理センターにサインインし、[アプリの[管理](https://admin.teams.microsoft.com/policies/manage-apps)] を選択します。
 
-    :::image type="content" source="media/requested-apps1.png" alt-text="ユーザーによる要求" lightbox="media/requested-apps.png" border="true":::
+    :::image type="content" source="media/requested-apps1.png" alt-text="ブロックされたアプリに対するエンド ユーザー要求は、Teams 管理センターの [ユーザーによる要求] というタイトルの列に表示されます。" lightbox="media/requested-apps.png":::
 
  1. 各アプリの要求の数を表示して確認するには、[要求] の [ **ユーザー別の要求] 列で要求を** 並べ替えます。
  1. ブロックを解除するアプリの名前を選択すると、アプリの詳細ページが開きます。
