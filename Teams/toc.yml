@@ -1489,7 +1489,7 @@ items:
             href: devices/plan-device-deployment.md
           - name: Skype for Business Server 2015 のリソース アカウント
             href: rooms/with-skype-for-business-server-2015.md
-  - name: アプリを管理する
+  - name: Teams でアプリを管理する
     items:
       - name: Teams でアプリを理解する
         href: deploy-apps-microsoft-teams-landing-page.md
@@ -1517,10 +1517,10 @@ items:
             href: overview-of-app-validation.md
           - name: サードパーティアプリのセキュリティ、コンプライアンス、プライバシー
             href: overview-of-app-certification.md
-          - name: Microsoft 365 とカスタム コネクタを管理する
-            href: Office-365-custom-connectors.md
           - name: Teams 用のサードパーティ製アプリを購入する
             href: purchase-third-party-apps.md
+          - name: Microsoft 365 とカスタム コネクタを管理する
+            href: Office-365-custom-connectors.md
       - name: Teams 用のアプリ テンプレート
         href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
       - name: カスタム基幹業務アプリを管理する
@@ -1531,7 +1531,7 @@ items:
             href: submit-approve-custom-apps.md
           - name: アプリ パッケージをアップロードしてカスタム アプリを発行する
             href: upload-custom-apps.md
-          - name: Teams でアプリをカスタマイズする
+          - name: アプリの表示方法とメタデータをカスタマイズする
             href: customize-apps.md
           - name: 組織のアプリ ストアをブランド化する
             href: customize-your-app-store.md
@@ -1541,13 +1541,13 @@ items:
             href: manage-apps.md
           - name: アプリのポリシー
             items:
-              - name: Teams のアプリ ポリシーを管理する
+              - name: アプリ ポリシーを理解する
                 href: app-policies.md
-              - name: Teams のアプリのアクセス許可ポリシーを管理する
+              - name: アプリのアクセス許可ポリシーを管理する
                 href: teams-app-permission-policies.md
-              - name: Teams のアプリのセットアップ ポリシーを管理する
+              - name: アプリのセットアップ ポリシーを管理する
                 href: teams-app-setup-policies.md
-              - name: Teams のカスタム アプリのポリシーと設定を管理する
+              - name: カスタム アプリのポリシーと設定を管理する
                 href: teams-custom-app-policies-and-settings.md
           - name: 現場担当者向けに Teams アプリを調整する
             href: pin-teams-apps-based-on-license.md
@@ -1557,16 +1557,16 @@ items:
             href: resource-specific-consent.md
           - name: アプリのアクセス許可とリソースへのアクセスを把握する
             href: app-permissions.md
-          - name: ユーザーの種類に基づくアプリの動作
-            href: non-standard-users.md
-          - name: アプリの更新と管理者の役割
-            href: apps-update-experience.md
           - name: Microsoft 365 全体でアプリへのアクセスを管理する
             href: manage-third-party-teams-apps.md
           - name: アプリ管理アクティビティの監査
             href: audit-app-management-activities.md
-      - name: アプリの使用状況レポートと分析
-        href: teams-analytics-and-reports/app-usage-report.md
+          - name: アプリの使用状況レポートと分析
+            href: teams-analytics-and-reports/app-usage-report.md
+          - name: ユーザーの種類に基づくアプリの動作
+            href: non-standard-users.md
+          - name: アプリの更新と管理者の役割
+            href: apps-update-experience.md
   - name: 業界および政府機関向けのガイダンス
     items:
       - name: 概要
