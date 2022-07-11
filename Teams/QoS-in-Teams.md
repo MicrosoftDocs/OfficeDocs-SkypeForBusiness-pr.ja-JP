@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6015c7b7cf1e7be5bc6b9b3e1fe0577a7f707377
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: 5b9c049942808da9b2df97d031ff850949bca211
+ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66564145"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "66713315"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Microsoft Teams でサービス品質 (QoS) を実装する
 
@@ -151,7 +151,7 @@ _推奨される初期ポート範囲_
 
 - モバイル クライアントや Teams デバイスを含むすべてのクライアントは、これらのポート範囲を使用し、これらの送信元ポート範囲を使用して実装するすべての DSCP ポリシーの影響を受けます。 動的ポートを引き続き使用するクライアントは、ブラウザーベースのクライアント (参加者を各自のブラウザーを使用して会議に参加させるクライアント) のみです。
 
-- Mac クライアントは同じポート範囲を使用しますが、オーディオ (EF) とビデオ (AF41) のハードコードされた値も使用します。 これらの値を構成することはできません。
+- Mac クライアントは同じポート範囲を使用しますが、オーディオ (EF) とビデオとアプリケーション/画面共有 (AF41) にもハードコーディングされた値を使用します。 これらの値を構成することはできません。
 
 - ユーザー エクスペリエンスを向上させるために、後でポート範囲を調整する必要がある場合は、ポート範囲が重なることなく、相互に隣接するようにする必要があります。
 

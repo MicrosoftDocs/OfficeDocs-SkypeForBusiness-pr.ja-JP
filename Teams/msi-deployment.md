@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc9e17f958b1770573cf6729ef6aca9b22ffe03d
-ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
-ms.translationtype: HT
+ms.openlocfilehash: 7b8c8521aa5e19abe59aa9e4c60fcc41eff9b1c7
+ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62893566"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "66713325"
 ---
 # <a name="bulk-install-teams-using-windows-installer-msi"></a>Windows インストーラー (MSI) を使用して Teams を一括インストールする
 
@@ -118,7 +118,7 @@ msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 ```
 
-ユーザーが Windows にログインすると、Teams は MSI と一緒にインストールされ、Teams を起動するためのショートカットがユーザーのデスクトップに追加されます。 そのユーザーが手動で Teams を起動するまで Teams は起動しません。 ユーザーが手動で Teams を起動すると、そのユーザーがログインするたびに Teams は自動起動するようになります。
+ユーザーが Windows にログインすると、MSI を使用して Teams がインストールされます。 そのユーザーが手動で Teams を起動するまで Teams は起動しません。 ユーザーが手動で Teams を起動すると、そのユーザーがログインするたびに Teams は自動起動するようになります。
 
 これらの例でも **ALLUSERS=1** パラメーターを使用していることに注意してください。 このパラメーターを設定すると、コンピューターのすべてのユーザーの [コントロール パネル] の [プログラムと機能] および [Windows の設定] の [アプリと機能] に Teams Machine-Wide Installer が表示されます。 コンピューターに管理者資格情報がある場合、すべてのユーザーは Teams をアンインストールできます。
 

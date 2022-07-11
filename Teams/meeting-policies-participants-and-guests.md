@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Teams で参加者とゲストの会議ポリシー設定を管理する方法について説明します。
-ms.openlocfilehash: 5770c4d998a28edf2b8fc8131650b98420e826f9
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 7f9cb76e12671425ee2b7b0543263195796e04d5
+ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66241136"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "66713355"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>会議ポリシーの設定 - 参加者とゲスト
 
@@ -112,9 +112,11 @@ ms.locfileid: "66241136"
 
 ## <a name="qa-in-meetings"></a>会議での Q&A
 
-これは開催者単位のポリシーです。 この設定は、開催者が会議に Q&A エクスペリエンスを追加できるかどうかを制御します。 既定では、この設定は [オフ] です。 Q&A の詳細については [、こちらを参照してください](/manage-qna-for-meetings)。 
+これは開催者単位のポリシーです。 この設定により、Microsoft 365 テナント管理者は、質問&回答エクスペリエンス (Q&A) を有効または無効にすることができます。
 
-パラメーター QnAEngagementMode を指定するには、PowerShell でこのポリシーを制御し、Q&A は管理ポータルで調整することもできます。
+この設定は、会議が作成されるか、開催者によって更新されたときに適用されます。 既定では、この設定は [オフ] です。 Q&A の詳細については [、こちらを参照してください](/manage-qna-for-meetings)。
+
+パラメーター QnAEngagementMode は、PowerShell でこのポリシーを制御します。 Q&A は、管理ポータル内で調整することもできます。
 
 |値を設定する |動作  |
 |---------|---------|
