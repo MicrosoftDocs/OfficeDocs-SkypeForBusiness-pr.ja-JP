@@ -3,6 +3,30 @@
 
 
 
+## <a name="week-of-july-04-2022"></a>2022 年 7 月 4 日の週
+
+
+| 公開日 |トピックのタイトル | 変更 |
+|------|------------|--------|
+| 7/5/2022 | [自動応答と呼び出しキューの PowerShell コマンドレット リファレンス](/MicrosoftTeams/call-queue-auto-attendant-cmdlets) | 更新日時 |
+| 7/5/2022 | [Microsoft Teams の自動応答を設定する](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 更新日時 |
+| 7/5/2022 | [Microsoft Teams で通話キューを作成する](/MicrosoftTeams/create-a-phone-system-call-queue) | 更新日時 |
+| 7/5/2022 | [Microsoft Teams でのミーティングと会議](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | 更新日時 |
+| 7/5/2022 | [セッション ボーダー コントローラーの構成 - 複数のテナント](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 更新日時 |
+| 7/5/2022 | [Teams の自動応答と通話キューを計画する](/MicrosoftTeams/plan-auto-attendant-call-queue) | 更新日時 |
+| 7/5/2022 | [会議、ウェビナー、ライブ イベント](/MicrosoftTeams/quick-start-meetings-live-events) | 更新日時 |
+| 7/5/2022 | [Microsoft Teams 電話 リソース アカウント ライセンス](/MicrosoftTeams/teams-add-on-licensing/virtual-user) | 更新日時 |
+| 7/5/2022 | [Teams 音声 Contoso のケース スタディ: 自動応答と通話キュー](/MicrosoftTeams/voice-case-study-call-queues) | 更新日時 |
+| 7/5/2022 | [アプリ管理イベントの監査ログを検索する](/MicrosoftTeams/audit-app-management-activities) | 追加済 |
+| 7/6/2022 | [Microsoft Teams の Education Insights への IT 管理者ガイド](/MicrosoftTeams/class-insights) | 更新日時 |
+| 7/6/2022 | [PowerShell を使用して Shifts を Blue Yonder Workforce Managementに接続する](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connector-blue-yonder-powershell-setup) | 更新日時 |
+| 7/6/2022 | [Shifts コネクタ ウィザードを使用して Shifts を Blue Yonder Workforce Managementに接続する](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connector-wizard) | 更新日時 |
+| 7/6/2022 | [組織での発信者番号の利用方法](/MicrosoftTeams/how-can-caller-id-be-used-in-your-organization) | 更新日時 |
+| 7/7/2022 | Microsoft Teams での通話について理解する | 削除されました |
+| 7/7/2022 | [Microsoft 365 のプランを呼び出す](/MicrosoftTeams/calling-plans-for-office-365) | 更新日時 |
+| 7/8/2022 | [Microsoft Teams と Bookings アプリを使用した仮想予定](/MicrosoftTeams/expand-teams-across-your-org/bookings-virtual-visits) | 更新日時 |
+
+
 ## <a name="week-of-june-27-2022"></a>2022 年 6 月 27 日の週
 
 
@@ -85,22 +109,3 @@
 | 6/10/2022 | [Microsoft Teams でフロントライン ワーカーの大規模なチームを展開する](/MicrosoftTeams/deploy-teams-at-scale) | 更新日時 |
 | 6/10/2022 | [Business Voice から Teams Phone ライセンスに移行する](/MicrosoftTeams/business-voice-to-teams-phone-licenses) | 追加済 |
 | 6/10/2022 | [Teams Rooms デバイスがサード パーティの会議に参加できるようにする](/MicrosoftTeams/rooms/third-party-join) | 更新日時 |
-
-
-## <a name="week-of-may-30-2022"></a>2022 年 5 月 30 日の週
-
-
-| 公開日 |トピックのタイトル | 変更 |
-|------|------------|--------|
-| 5/31/2022 | [組織の更新 アプリを管理する](/MicrosoftTeams/manage-updates-app) | 追加済 |
-| 5/31/2022 | [Teams でアプリ ストアをカスタマイズする](/MicrosoftTeams/customize-your-app-store) | 更新日時 |
-| 5/31/2022 | [Microsoft Teams のアプリのアクセス許可ポリシーを管理する](/MicrosoftTeams/teams-app-permission-policies) | 更新日時 |
-| 5/31/2022 | [Microsoft Teams の共有チャネル](/MicrosoftTeams/shared-channels) | 更新日時 |
-| 5/31/2022 | [Microsoft Teams のアプリのセットアップ ポリシーを管理する](/MicrosoftTeams/teams-app-setup-policies) | 更新日時 |
-| 6/1/2022 | [ダイレクトルーティングが認定されたセッションボーダーコントローラー](/MicrosoftTeams/direct-routing-border-controllers) | 更新日時 |
-| 6/1/2022 | [リモートの場所の緊急アドレス](/MicrosoftTeams/emergency-calling-dispatchable-location) | 更新日時 |
-| 6/1/2022 | [Microsoft Teams で通話キューを作成する](/MicrosoftTeams/create-a-phone-system-call-queue) | 更新日時 |
-| 6/2/2022 | [Microsoft Teams のハードウェア要件](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 更新日時 |
-| 6/2/2022 | [Teams のポリシーでの特殊文字の制限](/MicrosoftTeams/special-character-restrictions-in-policy-names) | 更新日時 |
-| 6/2/2022 | [Microsoft Teams for Educationでの保護者の管理設定](/MicrosoftTeams/edu-parents-app) | 更新日時 |
-| 6/3/2022 | [Microsoft Teams EHR コネクタ 仮想予定 レポート](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin-reports) | 更新日時 |
