@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: コマンドレットを使用して自動応答を構成する方法について説明します
-ms.openlocfilehash: a3f669a6540e42cd0ff4a016da0215ca79f3bd22
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 4dccd4e5026d78dada222cedf98659cdcd5ce6e5
+ms.sourcegitcommit: 6fb15729b2ff5ca142cb90605f3c98112cb36804
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676618"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "66744323"
 ---
 # <a name="create-an-auto-attendant-via-cmdlets"></a>コマンドレットを使用して自動応答を作成する
 
@@ -52,7 +52,7 @@ ms.locfileid: "65676618"
 3. Microsoft Teams 電話を購入しました
 4. 以下に示す呼び出しキューは、 [PowerShell コマンドレットを使用した通話キューの作成](create-a-phone-system-call-queue-via-cmdlets.md) ガイドに従って既に設定されています。
 
-**注**: 以下で参照されるコマンドレットの一部は、パブリック プレビュー バージョンの Teams PowerShell モジュールの一部である可能性があります。 詳細については、「[PowerShell パブリック プレビュー Teamsインストール](teams-powershell-install.md)する」を参照し、[PowerShell リリース ノートMicrosoft Teams](teams-powershell-release-notes.md)参照してください。
+**注**: 以下で参照されるコマンドレットの一部は、Teams PowerShell モジュールのパブリック プレビュー バージョンの一部である可能性があります。 詳細については、「 [Teams PowerShell パブリック プレビューのインストール](teams-powershell-install.md) 」を参照し、 [Microsoft Teams PowerShell のリリース ノート](teams-powershell-release-notes.md)も参照してください。
 
 MicrosoftTeams モジュールを既にインストールしているユーザーは、最新バージョンがインストールされていることを確認する必要があります `Update-Module MicrosoftTeams` 。
 
@@ -85,7 +85,7 @@ MicrosoftTeams モジュールを既にインストールしているユーザ�
 
 ## <a name="login"></a>ログイン
 
-Teams管理者の資格情報を入力するように求められます。
+Teams 管理者の資格情報の入力を求めるメッセージが表示されます。
 
 ```PowerShell
 $credential = Get-Credential
@@ -113,7 +113,7 @@ Get-MsolAccountSku
 
 ### <a name="create-and-assign-resource-account"></a>リソース アカウントを作成して割り当てる
 
-**注**: コール キューは自動応答によってフロントエンドされるため、ここでは必要ない電話番号
+**注**: 通話キューは自動応答によってフロントエンドされるため、ここでは電話番号は必要ありません
 
 - ApplicationID
   - 自動応答: ce933385-9390-45d1-9512-c8d228074e07
@@ -211,7 +211,7 @@ $dialbynameAAMenuOption3 = New-CsAutoAttendantMenuOption -Action TransferCallToT
 $afterHoursMenuOption4 = New-CsAutoAttendantMenuOption -Action Announcement -DtmfResponse Tone4 -Prompt $addressPrompt
 ```
 
-### <a name="create-after-hours-menu-and-call-flow"></a>[時間外の作成] メニューと [通話] Flow
+### <a name="create-after-hours-menu-and-call-flow"></a>[時間外の作成] メニューと [通話フロー]
 
 ```PowerShell
 $afterHoursMenu = New-CsAutoAttendantMenu -Name "After Hours Menu" -MenuOptions @($afterHoursMenuOption1, $afterHoursMenuOption2, $dialbynameAAMenuOption3, $afterHoursMenuOption4) -Prompt $afterHoursMenuPrompt
@@ -288,7 +288,7 @@ New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID)
 ### <a name="get-list-of-unassigned-service-numbers"></a>割り当てられていないサービス番号の一覧を取得する
 
 ```PowerShell
-Get-CsOnlineTelephoneNumber -IsNotAssigned -InventoryType Service
+Get-CsPhoneNumberAssignment -PstnAssignmentStatus Unassigned -CapabilitiesContain VoiceApplicationAssignment
 ```
 
 #### <a name="assign-available-phone-number"></a>使用可能な電話番号を割り当てる
