@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Microsoft Teams が最適な結果を生み出すために認定されているデスクフォンと会議電話について説明します。
-ms.openlocfilehash: ad6db1f1766173b8d1e167b912555d85115087e3
-ms.sourcegitcommit: f608811288c82a6348a6af1671246a93ed06e578
+ms.openlocfilehash: f0cfd75ed37937abc988f7f865a1357aec352b3c
+ms.sourcegitcommit: 8fc2d6a824e1e119f54ea2347bc5c10cc076956d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66660973"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "66773696"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 認定 Android デバイス
 
@@ -72,6 +72,7 @@ Android 認定プログラムのMicrosoft Teams Roomsでは、次のデバイス
 
 | デバイス モデル | ファームウェアのバージョン | 現在の認定終了日 | 部屋のサイズ                                        |  Android OS バージョン    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
+| Yealink MeetingBoard 65" | `155.15.0.6 `   | 2024 年 9 月 3 日 | 中規模の部屋 (4.5 m x 6 m) | 10|
 | Yealink MeetingBar A20 | `133.15.0.108  `   | 2024 年 9 月 3 日 | 小さな会議室(4.5 m x 4.5 m)| 10|
 | Yealink MeetingBar A30 | `133.15.0.108  `   | 2024 年 9 月 3 日 | 中規模の部屋 (4.5 m x 6 m) | 10|
 | Logitech Tap IP VR0029     | `1.6.762`  |   2024 年 9 月 3 日  | Logitech Rally Bar および Rally Bar Mini と互換性がある | 10 |

@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8dc80503c2b949fb77cc8d593ba5a8dd71e68654
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 90e577f9d6ef7567387fbc7a26a944d20e976f66
+ms.sourcegitcommit: 8fc2d6a824e1e119f54ea2347bc5c10cc076956d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240446"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "66773706"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -176,8 +176,6 @@ Teams と Microsoft 365 Apps for enterprise の詳細については、「[Micro
 
     > [!NOTE]
     > 政府機関のクラウドの場合、MSI ファイルへのダウンロード リンクについては、「[Windows インストーラー (MSI) を使用して Teams を一括インストールする](msi-deployment.md)」を参照してください。
-
-    必要な Teams デスクトップ アプリの最小バージョンは、バージョン 1.3.00.4461 です。 PSTN ホールドは以前のバージョンではサポートされていません。
 
 2. 次のいずれかのコマンドを実行して、MSI を VDI VM にインストールします。
 
