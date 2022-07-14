@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2d31474233057d930ccdbc0bdfea27262cc5dc04
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: 30938e8175c12802339767ba0f2e6324cae3b871
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046006"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789422"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -228,7 +228,7 @@ Microsoft Teams for Education には、教室での授業など、独自の教�
 |---------|---------|
 |チームごとのタグ数    | 100        |
 |チームごとに推奨される既定のタグ数    | 25        |
-|タグに割り当てられたチームメンバーの数    |100         |
+|1 つのタグに割り当てられるチームメンバーの数    |200         |
 |チームごとにユーザーに割り当てられたタグ数    |25         |
 
 ## <a name="contacts"></a>連絡先
