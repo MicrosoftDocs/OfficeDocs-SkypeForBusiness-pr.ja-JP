@@ -1,7 +1,7 @@
 ---
 title: 移植の詳細
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: tonysmit,jastark
 ms.topic: article
@@ -18,19 +18,19 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
-description: 電話番号をMicrosoft Teamsに移植するために必要なガイダンスを取得します。
-ms.openlocfilehash: 6c1bca140c5842e36ddd82ae6417228caea75c9e
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: Microsoft Teams に電話番号を移植するために必要なガイダンスを取得します。
+ms.openlocfilehash: 6edb3f617a890659d6aeedb817b38fba4a2c1da1
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62414240"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66790362"
 ---
 # <a name="more-information-about-porting"></a>移植の詳細
 
-電話番号をMicrosoft Teamsに移植する方法の詳細については、以下をご覧ください。
+Microsoft Teams への電話番号の移植に関する詳細については、以下をご覧ください。
 
-詳細な手順については、「[Teamsに電話番号を転送する」を](transfer-phone-numbers-to-teams.md)参照してください。
+詳細な手順については、「 [Teams に電話番号を転送する](transfer-phone-numbers-to-teams.md)」を参照してください。
 
 ヘルプが必要な場合、または電話番号を増やす必要がある場合は、 [TNS サービス デスクのヘルプ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)にお問い合わせください。
 
@@ -67,7 +67,7 @@ ms.locfileid: "62414240"
 - 入力したアカウント情報が電話会社に登録されている内容と正確に一致することを確認してください。 情報の不一致はエラーの最も一般的な原因であり、ポートの順序を遅らせる可能性があります。
     
 > [!CAUTION]
-> サービス プロバイダーまたは通信事業者とサービスを切断しないでください。 電話番号をTeamsに移植するには、以前のサービスをアクティブにしておく必要があります。 サービス プロバイダーまたは通信事業者でアカウントを凍結しないでください。 アカウントを凍結すると、アカウント上で携帯電話会社を変更できません。 認定ユーザーは、凍結を解除するために、現在の携帯電話会社に注文を送信する必要があります。 このプロセスは、運送業者によっては、1 週間から 3 週間かかる場合があります。
+> サービス プロバイダーまたは通信事業者とサービスを切断しないでください。 Teams に電話番号を移植するには、以前のサービスをアクティブにしておく必要があります。 サービス プロバイダーまたは通信事業者でアカウントを凍結しないでください。 アカウントを凍結すると、アカウント上で携帯電話会社を変更できません。 認定ユーザーは、凍結を解除するために、現在の携帯電話会社に注文を送信する必要があります。 このプロセスは、運送業者によっては、1 週間から 3 週間かかる場合があります。
 
 ## <a name="authorized-person-on-the-account"></a>アカウントの承認されたユーザー
 
@@ -103,7 +103,7 @@ ms.locfileid: "62414240"
  - ファイルに任意の名前を付けることができます。
  - このファイルには、PhoneNumber という名前のヘッダーを含む列が 1 つだけ含まれている必要があります。
  - 各電話番号は、個別の行にある必要があります。
- - 電話数字は数字のみ、または E.164 形式で指定できます。
+ - 電話番号には数字のみ、または E.164 形式を使用できます。
  - 電話番号の形式は、選択した国または地域と一致する必要があります。 たとえば、移植ウィザードで英国を選択した場合は、国番号である 44 を使用し、電話番号の後に正しい数字を付けます。 たとえば、4420812341234。
 
 ## <a name="how-do-i-see-the-status-of-my-port-order"></a>ポート注文の状態を確認操作方法。

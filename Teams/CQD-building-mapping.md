@@ -1,7 +1,7 @@
 ---
 title: 通話品質ダッシュボード (CQD) のビルド マップを作成する
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -20,16 +20,16 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: 通話品質ダッシュボード (CQD) でテナントのアップロードとデータの構築に使用できる建物マップを作成する方法について説明します。
-ms.openlocfilehash: a119324090d05b593eb1ed66f41efbb7a5bd7a0a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 71d1872bbd81769f9a49f4ca9f6ac9aae641252f
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634101"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789822"
 ---
 # <a name="create-a-building-map-for-call-quality-dashboard-cqd"></a>通話品質ダッシュボード (CQD) のビルド マップを作成する
 
-Microsoft TeamsまたはSkype for Business Online 展開では、すべてのクライアントが外部です。 その結果、既定では、クライアントが内部企業ネットワークに接続されているかどうかに関係なく、すべてのクライアントが通話品質ダッシュボード (CQD) の外部として報告されます。
+Microsoft Teams または Skype for Business Online 展開では、すべてのクライアントが外部です。 その結果、既定では、クライアントが内部企業ネットワークに接続されているかどうかに関係なく、すべてのクライアントが通話品質ダッシュボード (CQD) の外部として報告されます。
 
 CQD を使用する場合は、エンドポイントの場所と、エンドポイントが管理できるネットワークに接続されていたか、管理できないネットワークに接続されていたかを知る必要があります。これは、管理できるネットワークのみを改善できるということです。 サブネットをアップロードして CQD に情報を構築することで、CQD を有効にして、エンドポイントが内部 (マネージド) ネットワークに接続されていたか、外部 (非管理対象) ネットワークに接続されていたかを判断できます。 そのため、組織のビルド マップを作成し、 [CQD にアップロードすることが](CQD-upload-tenant-building-data.md)重要です。
 
@@ -44,4 +44,4 @@ CQD を使用する場合は、エンドポイントの場所と、エンドポ�
 
 ## <a name="related-topics"></a>関連項目
 
-[CQD でのテナントとデータの構築をアップロードする](CQD-upload-tenant-building-data.md)
+[CQD でのテナントのアップロードとデータの構築](CQD-upload-tenant-building-data.md)

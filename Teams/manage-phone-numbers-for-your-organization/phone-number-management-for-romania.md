@@ -1,7 +1,7 @@
 ---
 title: ルーマニアの電話番号管理
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: chandra.kilaru, kristen.kutser
 ms.topic: reference
@@ -19,25 +19,25 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 次の表を使用して、Microsoft Teamsのルーマニアでの電話番号の取得と管理に関する情報を確認します。
-ms.openlocfilehash: 1f1d2fe98cd7dbfb1fd15df20a5e8553efbb5bd8
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: 次の表を使用して、Microsoft Teams のルーマニアでの電話番号の取得と管理に関する情報を確認します。
+ms.openlocfilehash: 202b194fbadfb35123b3867e3fcc0bbc1820f42d
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62399471"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789202"
 ---
 # <a name="phone-number-management-for-romania"></a>ルーマニアの電話番号管理
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
-次の表を使用して、Microsoft Teamsのルーマニアでの電話番号の取得と管理に関する情報を確認します。
+次の表を使用して、Microsoft Teams のルーマニアでの電話番号の取得と管理に関する情報を確認します。
   
 詳細については、「[組織のために電話番号を管理する](manage-phone-numbers-for-your-organization.md)」をご覧ください。
   
 |**実行する操作**|**正しいフォームをダウンロードする**|
 |:-----|:-----|
-|Microsoft Teams管理センターに一覧表示されていない新しいユーザーまたはサービスの電話番号を取得します。 <br/> |ルーマニアでは、Microsoft Teams管理センターを使用して組織の電話番号を取得できます。 また、フォームをダウンロードして新しい電話番号要求を送信し、 [手順については TNS サービス デスクにお問い合わせください](contact-tns-service-desk.md)。<br/><br/>[ルーマニア (v.1.0) (rm-rm) の新しい電話番号要求](https://download.microsoft.com/download/1/4/d/14d27bf9-4326-409e-be0c-30f88d1fae83/new-phone-number-request-for-romania-(v1.0)-(ro-RO).pdf)。 <br/><br/> 電話番号を割り当てる前に、顧客情報フォームをダウンロードし、完全に入力し、 [TNS サービス デスクに問い合わせて手順を確認する](contact-tns-service-desk.md)必要があります。<br/><br/>新しい注文は、この市場への入力に 2 ~ 3 週間かかる場合があります。 |
+|Microsoft Teams 管理センターに一覧表示されていない新しいユーザーまたはサービスの電話番号を取得します。 <br/> |ルーマニアでは、Microsoft Teams 管理センターを使用して、組織の電話番号を取得できます。 また、フォームをダウンロードして新しい電話番号要求を送信し、 [手順については TNS サービス デスクにお問い合わせください](contact-tns-service-desk.md)。<br/><br/>[ルーマニア (v.1.0) (rm-rm) の新しい電話番号要求](https://download.microsoft.com/download/1/4/d/14d27bf9-4326-409e-be0c-30f88d1fae83/new-phone-number-request-for-romania-(v1.0)-(ro-RO).pdf)。 <br/><br/> 電話番号を割り当てる前に、顧客情報フォームをダウンロードし、完全に入力し、 [TNS サービス デスクに問い合わせて手順を確認する](contact-tns-service-desk.md)必要があります。<br/><br/>新しい注文は、この市場への入力に 2 ~ 3 週間かかる場合があります。 |
 |Microsoft に転送された電話番号を取得します。<br/> | このフォームをダウンロードします。 <br/>[ルーマニアの承認状 (LOA) (すべての数値) (v.1.0) (rm-rm)](https://download.microsoft.com/download/9/c/1/9c1dcdc3-2161-4e2e-bdce-34397d20782e/letter-of-authorization-(loa)-for-romania-(all-numbers)-(v.1.0)-(rm-rm).pdf) <br/> <br/>必要事項を入力し、 [手順については TNS サービス デスクにお問い合わせください](contact-tns-service-desk.md)。<br/><br/>この市場で数値を転送するには、4 ~ 5 週間かかる場合があります。 <br/><br/>現時点では、これらの番号を会議に使用することはできません。  <br/> |
 |国内の電話番号ディレクトリで、電話番号を発行/公開解除します。  <br/> |発行/非公開にする電話番号の一覧については[、TNS サービス デスクにお問い合わせください](contact-tns-service-desk.md)。 <br/> |
 |ユーザーの番号をサービス番号に変更します。  <br/> |サービス番号に変換するユーザー番号の一覧については、[TNS サービス デスクにお問い合わせください](contact-tns-service-desk.md)。 <br/> |

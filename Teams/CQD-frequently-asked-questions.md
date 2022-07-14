@@ -1,7 +1,7 @@
 ---
 title: 通話品質ダッシュボード (CQD) よく寄せられる質問 (FAQ)
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -20,13 +20,13 @@ f1.keywords:
 ms.custom:
 - Reporting
 - seo-marvel-apr2020
-description: よく寄せられる質問 (FAQ) とMicrosoft Teams通話品質ダッシュボード (CQD) に関する回答を参照してください。
-ms.openlocfilehash: f320bab549ee322c1254babd0feb49cc24419215
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+description: Microsoft Teams 通話品質ダッシュボード (CQD) に関するよく寄せられる質問 (FAQ) と回答をお読みください。
+ms.openlocfilehash: 862967138321b1855f2fdc5b0c8b6ce6caca887f
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823206"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789398"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>通話品質ダッシュボード (CQD) よく寄せられる質問 (FAQ)
 
@@ -40,13 +40,13 @@ ms.locfileid: "65823206"
 
 [使用状況の種類のレポートに CQD を使用しようとしていますが、データの一部が不完全であることがわかります。なぜですか?](#im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that)
 
-[Teamsのみをフィルター処理した場合に CQD にSkype for Business情報が表示されるのはなぜですか?](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
+[Teams のみを対象にフィルター処理した場合、CQD にSkype for Business情報が表示されるのはなぜですか?](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
 
 [カスタム レポートで返される行数が最大で 10,000 行しかないのに、エントリが増える必要があることがわかっているのはなぜですか?](#why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries)
 
 [Wi-Fi VPN 接続が Wi-Fi の代わりにワイヤード (有線) と表示されるのはなぜですか?](#why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi)
 
-[Teamsでポリシーベースのレコーディングをオンにし、ピアツーピア通話が電話会議としてマークされるようになりました。何が起こったのか。](#i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened)
+[Teams でポリシーベースの記録を有効にし、ピアツーピア通話が電話会議としてマークされるようになりました。何が起こったのか。](#i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened)
 
 ### <a name="why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience"></a>1 人以上の会議参加者の経験が低い場合、CQD によって通話が "良い" とマークされるのはなぜですか?
 
@@ -83,20 +83,20 @@ CQD で詳細なレポートを作成し、会議 ID でフィルター処理し
 
 これらの管理者ロールは CQD にアクセスできますが、EUII (エンド ユーザーが識別できる情報) を表示することはできません。
 
-- Microsoft 365 レポート 閲覧者
+- Microsoft 365 Reports Reader
 - Teams 通信サポート スペシャリスト
 
 CQD にアクセスできるロール (EUII を含む) の詳細については、「 [CQD にアクセスするためのロールの割り当て](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)」を参照してください。
 
 ### <a name="im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that"></a>使用状況の種類のレポートに CQD を使用しようとしていますが、データの一部が不完全であることがわかります。なぜですか?
 
-CQD、Call Analytics、CallRecord Graph API、リアルタイム分析などの通話品質管理ツールは、診断テレメトリに基づいています。 通話品質管理ツールTeams表示する情報は、通話に参加しているクライアントから受け取るテレメトリ データと同じくらい完全です。 ネットワークの停止、 [ファイアウォールやプロキシの構成の誤](/microsoft-365/enterprise/urls-and-ip-address-ranges)りなど、完全なテレメトリを受信できない理由はいくつかあります。 Teams クライアントがサービスにテレメトリを提供する信頼性と回復性の向上に引き続き取り組みます。
+CQD、Call Analytics、CallRecord Graph API、リアルタイム分析などの通話品質管理ツールは、診断テレメトリに基づいています。 Teams 通話品質管理ツールに表示される情報は、通話に参加しているクライアントから受け取るテレメトリ データと同じくらい完全です。 ネットワークの停止、 [ファイアウォールやプロキシの構成の誤](/microsoft-365/enterprise/urls-and-ip-address-ranges)りなど、完全なテレメトリを受信できない理由はいくつかあります。 Teams クライアントがサービスにテレメトリを提供する信頼性と回復性の向上に引き続き取り組みます。
 
-この点を念頭に置いて、使用状況レポートに通話品質管理ツールを使用することはサポートされていません。 これらは、このような種類のレポート シナリオに対応したり意図したりするように設計されておらず、多くの使用状況統計は、これらのツール内では使用できません。また、使用できません。 Teams 管理 センターには一連の[使用状況レポート](teams-analytics-and-reports/teams-reporting-reference.md)が用意されており、[会議出席レポート](teams-analytics-and-reports/meeting-attendance-report.md)はTeamsクライアントから直接入手できます。
+この点を念頭に置いて、使用状況レポートに通話品質管理ツールを使用することはサポートされていません。 これらは、このような種類のレポート シナリオに対応したり意図したりするように設計されておらず、多くの使用状況統計は、これらのツール内では使用できません。また、使用できません。 Teams 管理 センターには一連の[使用状況レポート](teams-analytics-and-reports/teams-reporting-reference.md)が用意されており、[会議出席レポート](teams-analytics-and-reports/meeting-attendance-report.md)は Teams クライアントから直接入手できます。
 
-### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>Teamsのみをフィルター処理した場合に CQD にSkype for Business情報が表示されるのはなぜですか?
+### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>Teams のみを対象にフィルター処理した場合、CQD にSkype for Business情報が表示されるのはなぜですか?
 
-CQD レポートでのみTeamsをフィルター処理する場合 (isTeams = 1) は、*最初のエンドポイント* がTeamsされているすべての呼び出しをフィルター処理します。 *2 番目のエンドポイント* がSkype for Businessされている場合、その情報は CQD レポートに表示されます。 顧客のシナリオによっては、[データ コネクタの呼び出](/skypeforbusiness/hybrid/plan-call-data-connector)しが構成されている場合、CQD には 2019 Skype for Business Server呼び出しが含まれる場合があります。 また、Skype Bot 通話 (AA、CVI、VDI)、ライブ イベント、PSTN 通話も含まれる場合があります。
+CQD レポートでのみ Teams をフィルター処理する場合 (isTeams = 1)、 *最初のエンドポイント* が Teams であるすべての呼び出しをフィルター処理します。 *2 番目のエンドポイント* がSkype for Businessされている場合、その情報は CQD レポートに表示されます。 顧客のシナリオによっては、[データ コネクタの呼び出](/skypeforbusiness/hybrid/plan-call-data-connector)しが構成されている場合、CQD には 2019 Skype for Business Server呼び出しが含まれる場合があります。 また、Skype Bot 通話 (AA、CVI、VDI)、ライブ イベント、PSTN 通話も含まれる場合があります。
 
 最初のユーザー エージェント カテゴリや *2 番目* の *ユーザー エージェント カテゴリ* などのディメンションをフィルター処理することで、クエリからSkype for Business情報を削除できます。 また、1 つのフィルターに 1 つの第 1 ディメンションと第 2 ディメンションを組み合わせた *ユーザー エージェント カテゴリ ペア* を使用することもできます。
 
@@ -108,9 +108,9 @@ CQD は、集計されたデータ クエリ用に設計されており、デー
 
 これは想定された動作です。 VPN ベンダーは、有線接続のように扱われる仮想イーサネット アダプターを作成しました。 適切なラベルが付いていないため、オペレーティング システムは、それがWi-Fi接続であることを認識せず、ワイヤード (有線) として報告します。
 
-### <a name="i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened"></a>Teamsでポリシーベースのレコーディングをオンにし、ピアツーピア通話が電話会議としてマークされるようになりました。何が起こったのか。
+### <a name="i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened"></a>Teams でポリシーベースの記録を有効にし、ピアツーピア通話が電話会議としてマークされるようになりました。何が起こったのか。
 
-これは、Microsoft Teamsでポリシー ベースの記録が有効になっている場合に想定される動作です。 ポリシー ベースの記録では、Microsoft Azureに展開されたTeamsレコーダー ボットを使用して、コンプライアンスを目的として会議の内容をキャプチャします。 通話品質管理では、"ピアツーピア" は、ユーザー間の対話ではなく、メディア トラフィックのフローの説明です。 レコーダー ボット自体が通話の当事者であるため、通話はピアツーピアではなく、複数パーティの呼び出しです。 マルチパーティ通話はMicrosoft Teams別に電話会議として分類されるため、CQD やその他の通話品質ツールでこれらの通話を表示すると、そのように表示されます。
+これは、Microsoft Teams でポリシー ベースの記録が有効になっている場合に想定される動作です。 ポリシー ベースの記録では、Microsoft Azure にデプロイされた Teams レコーダー ボットを使用して、コンプライアンスを目的として会議の内容をキャプチャします。 通話品質管理では、"ピアツーピア" は、ユーザー間の対話ではなく、メディア トラフィックのフローの説明です。 レコーダー ボット自体が通話の当事者であるため、通話はピアツーピアではなく、複数パーティの呼び出しです。 複数パーティ通話は Microsoft Teams によって電話会議として分類されるため、CQD やその他の通話品質ツールでこれらの通話を表示すると、そのように表示されます。
 
 ## <a name="related-articles"></a>関連記事
 

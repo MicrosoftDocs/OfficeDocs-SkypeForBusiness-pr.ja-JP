@@ -23,4 +23,4 @@ Teams では、通話および会議に対する記載の通りの例外を除�
 > [!NOTE]
 > ブラウザーでの Teams の実行は、Microsoft Teams の最小限の[ハードウェア要件](../hardware-requirements-for-the-teams-app.md)を満たす PC と Mac でサポートされています。 たとえば、Linux オペレーティング システムで Firefox を実行すれば、Teams を使用する一つのオプションになります。
 >
-> モバイル デバイスでは、Teams アプリの使用をお勧めします。 Teams アプリは、Android および iOS ストアから利用可能です。 モバイル デバイスのブラウザーでの Teams の実行はサポートされていますが、多くの機能は使用できません。
+> モバイル デバイスでは、Teams アプリの使用をお勧めします。 Teams アプリは、Android および iOS ストアから利用可能です。

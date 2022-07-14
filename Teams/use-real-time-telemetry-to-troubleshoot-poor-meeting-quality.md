@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: デバイス、ネットワーク、接続に関する詳細を含むリアルタイムテレメトリを使用して、Microsoft Teams のスケジュールされた会議に関するユーザーの問題をトラブルシューティングします。
-ms.openlocfilehash: 794c0097c3bdcc757e0a469cb0f65b5eb4e6c285
-ms.sourcegitcommit: ce1cbdcfce8c785c66f6a51ef8e84092124f3ef0
+ms.openlocfilehash: 26ee7b809d7b18bb07a7f8ae57852c2333b26d94
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/12/2022
-ms.locfileid: "66716803"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789622"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>リアルタイム テレメトリを使用して低品質の会議をトラブルシューティングする
 
@@ -155,7 +155,7 @@ Teams 管理者は、各ユーザーのすべてのリアルタイム テレメ�
 - 外部参加者または匿名ユーザーが会議に参加した場合、表示名はテナント間のプライバシーを保持 **するために使用できない** と表示されます。
 
 > [!NOTE]
-> 期間限定のパブリック プレビューの一環として、会議が終了してから **7 日間** 、リアルタイムテレメトリ データを利用できます。 パブリック プレビューが完了すると、上記の制限が適用されます。
+> 期間限定のパブリック プレビューの一環として、会議が終了してから **7 日間** 、リアルタイムテレメトリ データを利用できます。 プレビューが終了すると、Advanced Communications アドオン ライセンスを持つテナントのみが、延長 7 日間利用できるようになります。 他のすべてのテナントは、前述の制限の対象となります。
 
 ## <a name="related-topics"></a>関連トピック
 

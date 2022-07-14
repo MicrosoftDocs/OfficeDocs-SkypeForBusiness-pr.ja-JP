@@ -1,7 +1,7 @@
 ---
 title: 通話品質ダッシュボード (CQD) のデータとレポート
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Microsoft 通話品質ダッシュボード (CQD) で使用できるデータとレポートについて説明します。
-ms.openlocfilehash: c30840ea4bf1de02572300044964211c5668056f
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: ba30be8d63dab1f5720be5637ea0a28c26d5d877
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675009"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789812"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>通話品質ダッシュボード (CQD) のデータとレポート
 
@@ -39,9 +39,9 @@ CQD データには、さまざまな方法でアクセスできます。 ニー
 
 |&nbsp;|&nbsp;|
 |---|---|
-|Teams管理センター [(https://admin.teams.microsoft.com)](https://admin.teams.microsoft.com)|CQD データは、Teams管理センターの **[ユーザー]** ページに含まれており、読みやすい形式で必要な最も一般的なデータが表示されます。 **[ユーザー]** の下にある CQD データはカスタマイズできません。|
+|Teams 管理センター [(https://admin.teams.microsoft.com)](https://admin.teams.microsoft.com)|CQD データは Teams 管理センターの **[ユーザー]** ページに含まれており、読みやすい形式で必要な最も一般的なデータが表示されます。 **[ユーザー]** の下にある CQD データはカスタマイズできません。|
 |CQD ポータル [(https://cqd.teams.microsoft.com)](https://cqd.teams.microsoft.com)|ドリルスルー フィルターを使用して、ほとんどのニーズを満たす堅牢な概要と詳細なレポート。 CQD ポータルでレポートをカスタマイズすることもできます。 <br><br>[CQD](#import-the-cqd-report-templates) ポータルでデータを分析するのに役立つ 2 つの CQD レポート テンプレートを取得します。|
-|Power BI|カスタマイズ[可能なPower BI テンプレート](CQD-Power-BI-query-templates.md)を使用して、直接クエリを使用してPower BIで CQD データを表示します。 [CQD のPower BIクエリ テンプレートをダウンロード](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)します。<br><br>[REST API を使用して、Power BI経由で CQD データにアクセス](/skypeforbusiness/management-tools/call-quality-dashboard/data-api)することもできます。 オフラインで作業できるように CQD データをダウンロードする場合は、このメソッドを使用します。 この方法を使用する利点は、パフォーマンスが向上することです。特に、オンラインの場合にPower BIで停止する大規模なデータ セットに便利です。|
+|Power BI|[カスタマイズ可能な Power BI テンプレート](CQD-Power-BI-query-templates.md)を使用して、直接クエリを使用して Power BI で CQD データを表示します。 [CQD 用の Power BI クエリ テンプレートをダウンロードします](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。<br><br>[REST API を使用して、Power BI を介して CQD データにアクセス](/skypeforbusiness/management-tools/call-quality-dashboard/data-api)することもできます。 オフラインで作業できるように CQD データをダウンロードする場合は、このメソッドを使用します。 この方法を使用する利点は、パフォーマンスの向上です。特に、オンラインの場合に Power BI で停止する大規模なデータ セットに便利です。|
 |Graph API|Graph APIを使用して、自分で通話品質データにアクセス[します](/graph/api/resources/callrecords-api-overview)。 これは最も複雑な方法ですが、通話品質データを分析する際に最も制御と柔軟性を提供します。 たとえば、組織の他のデータと結合する必要がある場合は、Graph APIを使用してデータ モデルを作成し、通話品質データを組み込むことができます。|
 
 ## <a name="import-the-cqd-report-templates"></a>CQD レポート テンプレートをインポートする
@@ -80,8 +80,8 @@ CQD データには、さまざまな方法でアクセスできます。 ニー
 これらの [RBAC](/azure/role-based-access-control/overview) ロール **には** 、EUII アクセス権があります。
 
 - グローバル 管理
-- Teams サービス 管理
-- Teams通信管理
+- Teams Service 管理
+- Teams Communications 管理
 - Teams 通信サポート エンジニア
 - グローバル リーダー
 - Skype for Business 管理
@@ -115,32 +115,32 @@ URL Date パラメーターは、日フィールドを受け入れます。 ロ�
 
 既定の概要レポートと詳細な CQD レポートは、組織の通話品質を管理するために必要なものすべてである場合があります。必要に応じて、 [カスタム レポートを作成](#create-custom-detailed-reports)できます。
 
-Power BIを使用して CQD データを分析する場合は、「[Power BIを使用してTeamsの CQD データを分析する」を参照](CQD-Power-BI-query-templates.md)してください。
+Power BI を使用して CQD データを分析する場合は、「 [Power BI を使用して Teams の CQD データを分析する」](CQD-Power-BI-query-templates.md)を参照してください。
 
 |機能|概要レポート|詳細なレポート|
 |:---|:---|:---|
-|アプリケーション共有メトリック|いいえ|Yes|
-|顧客ビル情報のサポート|はい|Yes|
+|アプリケーション共有メトリック|いいえ|はい|
+|顧客ビル情報のサポート|はい|はい|
 |顧客エンドポイント情報のサポート|<span>cqd.teams.microsoft.com でのみ<span/>|<span>cqd.teams.microsoft.com でのみ<span/>|
-|ドリルダウン分析のサポート|いいえ|Yes|
-|メディアの信頼性メトリック|いいえ|Yes|
-|既定のレポート|はい|Yes|
-|概要レポート|Yes|はい|
+|ドリルダウン分析のサポート|いいえ|はい|
+|メディアの信頼性メトリック|いいえ|はい|
+|既定のレポート|はい|はい|
+|概要レポート|はい|はい|
 |ユーザーごとのレポート セット|いいえ|はい|
 |レポート セットのカスタマイズ (レポートの追加、削除、変更)|いいえ|はい|
 |ビデオベースの画面共有メトリック|いいえ|はい|
 |ビデオ メトリック|いいえ|はい|
 |使用可能なデータの量|過去 12 か月間|過去 12 か月間|
-|データをMicrosoft Teamsする|Yes|はい|
+|Microsoft Teams のデータ|はい|はい|
 
 ### <a name="select-product-data-to-see-in-reports"></a>レポートに表示する製品データを選択する
 
-[概要] レポートと [Location-Enhanced レポート] で、[**製品フィルター] ドロップダウンを** 使用して、すべての製品データ、Microsoft Teams データのみ、またはオンライン データのみをSkype for Businessできます。
+[概要] レポートと [Location-Enhanced レポート] で、[**製品フィルター**] ドロップダウンを使用して、すべての製品データ、Microsoft Teams データのみ、またはオンライン データのみをSkype for Businessできます。
 
 > [!div class="mx-imgBorder"]
 > ![スクリーンショット: 製品フィルター コントロールのオプションを示します。](media/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
 
-詳細レポートでは、**Is Teams** ディメンションを使用して、データをフィルター処理してオンライン データをMicrosoft TeamsまたはSkype for Businessできます。
+詳細レポートでは、**Is Teams** ディメンションを使用して、データを Microsoft Teams または Skype for Business Online データにフィルター処理できます。
 
 ## <a name="summary-reports"></a>概要レポート
 
@@ -214,13 +214,13 @@ Server-Client シナリオの内部テストでは、クライアント エン�
 
 ## <a name="tenant-data-information"></a>テナント データ情報
 
-CQD サマリー レポート ダッシュボードには、右上隅の設定メニューから **[テナント データ アップロード**] を選択してアクセスする **テナント データ アップロード** ページが含まれています。 このページは、管理者が次のような独自の情報をアップロードするために使用されます。
+CQD サマリー レポート ダッシュボードには **、[テナント データのアップロード** ] ページが含まれ、右上隅の設定メニューから **[テナント データのアップロード** ] を選択してアクセスできます。 このページは、管理者が次のような独自の情報をアップロードするために使用されます。
 
 - IP アドレスと地理情報のマップ。
 - 各ワイヤレス AP とその MAC アドレスのマップ。
 - Endpoint to Endpoint Make/Model/Type などのマップ。
 
-CQD でこの情報をレポートに含めることができるように、テナント、建物、および場所のデータをアップロードすることをお勧めします。 このデータをまだアップロードしていない場合は、テナントアップロード読み取り[、データの構築を行](CQD-upload-tenant-building-data.md)います。
+CQD でこの情報をレポートに含めることができるように、テナント、建物、および場所のデータをアップロードすることをお勧めします。 このデータをまだアップロードしていない場合は、「 [テナントのアップロードとデータの構築](CQD-upload-tenant-building-data.md)」を参照してください。
 
 ## <a name="detailed-reports"></a>詳細なレポート
 
@@ -238,7 +238,7 @@ CQD でこの情報をレポートに含めることができるように、テ�
 
 ## <a name="create-custom-detailed-reports"></a>カスタム詳細レポートを作成する
 
-既定の CQD レポートがニーズを満たしていない場合は、次の手順に従ってカスタム レポートを作成します。 または (2020 年 1 月時点) 代わりに [CQD レポートにPower BIを使用](cqd-power-bi-query-templates.md)します。
+既定の CQD レポートがニーズを満たしていない場合は、次の手順に従ってカスタム レポートを作成します。 または (2020 年 1 月時点) 代わりに [Power BI for CQD レポートを使用 ](cqd-power-bi-query-templates.md)します。
 
 ログイン \(時に表示される画面の上部にあるレポートのプルダウン リストから、[ **概要レポート]** 画面\) で **[詳細レポート**  を選択]、[ **新規**] の順に選択します。 レポートで **[編集]** をクリックすると、クエリ エディターが表示されます。 それぞれのレポートは、キューブに対するクエリに基づきます。 レポートは、クエリから返されたデータを視覚化したものです。 クエリ エディターは、これらのクエリとレポートの表示オプションを編集するのに役立ちます。
 
@@ -335,7 +335,7 @@ CQD レポートからフェデレーション データを除外することは
 
 `filter/DATA_MODEL_NAME|VALUE`
 
-たとえば、Microsoft Teamsの製品フィルター値を適用するには、次を追加します。
+たとえば、Microsoft Teams の製品フィルター値を適用するには、次を追加します。
 
 `filter/[AllStreams].[Is%20Teams]|[True]`
 
@@ -349,7 +349,7 @@ URL 全体は次のようになります。
 
 無効な名前または値を指定した場合、URL フィルターは適用されません。
 
-URL フィルターを使用して、特定のディメンションのすべてのレポートをフィルター処理できます。 最も一般的な URL フィルターは、レポートをフィルター処理してフェデレーション参加者テレメトリを除外したり、オンラインTeamsまたはSkype for Businessのみに焦点を当てたりするために使用されます。 CQD レポートからフェデレーション データを除外することは、フェデレーション エンドポイントがレポートに影響を与える可能性があるマネージド ビルまたはネットワークを修復する場合に便利です。
+URL フィルターを使用して、特定のディメンションのすべてのレポートをフィルター処理できます。 最も一般的な URL フィルターは、レポートをフィルター処理してフェデレーション参加者テレメトリを除外したり、Teams または Skype for Business Online のみに焦点を当てたりするために使用されます。 CQD レポートからフェデレーション データを除外することは、フェデレーション エンドポイントがレポートに影響を与える可能性があるマネージド ビルまたはネットワークを修復する場合に便利です。
 
 |フィルター|説明|CQD クエリ フィルターの例|
 |---|---|---|
@@ -361,9 +361,9 @@ URL フィルターを使用して、特定のディメンションのすべて�
 
 CQD のテナント ID は、Azure のディレクトリ ID に対応します。 ディレクトリ ID がわからない場合は、Azure portalで確認できます。
 
-1. Microsoft Azure ポータルにサインインします。<https://portal.azure.com>
+1. Microsoft Azure portalにサインインします。<https://portal.azure.com>
 
-2. Azure Active Directoryを選択 **します**。
+2. **Azure Active Directory を選択します**。
 
 3. [ **管理**] で [ **プロパティ**] を選択します。 テナント ID は [ **ディレクトリ ID** ] ボックスにあります。
 
@@ -373,14 +373,14 @@ PowerShell を使用してテナント ID を検索することもできます�
 Login-AzureRmAccount
 ```
 
-## <a name="comparing-teams-and-skype-for-business-cqd-data"></a>CQD データのTeamsとSkype for Businessの比較
+## <a name="comparing-teams-and-skype-for-business-cqd-data"></a>Teams と Skype for Business CQD データの比較
 
-データを確認すると、TeamsとSkype for Businessの間にデータの違いが表示される場合があります。 いくつかの理由:
+データを確認すると、Teams とSkype for Business間のデータの違いが表示される場合があります。 いくつかの理由:
 
 - パフォーマンスと信頼性を確保するためのメカニズムの違い:
-  - Teams自動再接続と高速ローミングが行われます。 Skype for Businessは行いません。
-  - Teamsには動的な帯域幅管理があります。 Skype for Businessは行いません。
-- TeamsとSkype for Businessの IP [アドレス範囲](Office-365-URLs-IP-address-ranges.md)の違い。 Teams IP 範囲が新しいため、ファイアウォールで接続の問題が発生する可能性があります。
+  - Teams には自動再接続と高速ローミングがあります。 Skype for Businessは行いません。
+  - Teams には動的な帯域幅管理があります。 Skype for Businessは行いません。
+- Teams とSkype for Businessの [IP アドレス範囲](Office-365-URLs-IP-address-ranges.md)の違い。 Teams の IP 範囲が新しいため、ファイアウォールで接続の問題が発生する可能性があります。
 
 ## <a name="related-topics"></a>関連項目
 

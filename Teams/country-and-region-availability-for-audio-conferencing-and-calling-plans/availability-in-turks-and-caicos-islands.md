@@ -1,7 +1,7 @@
 ---
 title: トルコとカイコ諸島での可用性
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: トルコとカイコ諸島で利用できるSkype for BusinessとMicrosoft TeamsのMicrosoft 365サービスとOffice 365 サービスを次に示します。
-ms.openlocfilehash: 26d95fd94887cdfb7574c2d18f602d8b087b2d5a
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: トルコとカイコ諸島で利用できるSkype for Businessおよび Microsoft Teams の Microsoft 365 サービスとOffice 365 サービスを次に示します。
+ms.openlocfilehash: f1a0a06d19ca89a8f1ed07be1b89d387bcad9a42
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62409860"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789732"
 ---
 # <a name="availability-in-turks-and-caicos-islands"></a>トルコとカイコ諸島での可用性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-トルコとカイコ諸島で利用できるSkype for BusinessとMicrosoft TeamsのMicrosoft 365サービスとOffice 365 サービスを次に示します。
+トルコとカイコ諸島で利用できるSkype for Businessおよび Microsoft Teams の Microsoft 365 サービスとOffice 365 サービスを次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -70,9 +70,9 @@ ms.locfileid: "62409860"
 |:-----|:-----|
 |有料電話番号を取得できる首都または主要都市はどこですか?   | 該当なし<br/> |
 |有料電話番号は使用できますか?  <br/> |いいえ<br/> |
-|フリーダイヤル番号は利用できますか?  <br/> |Yes  <br/> |
+|フリーダイヤル番号は利用できますか?  <br/> |はい  <br/> |
    
- 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「[Skype for BusinessとMicrosoft Teamsのサービス電話番号を取得](../getting-service-phone-numbers.md)する」を参照してください。
+ 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「[Skype for Businessと Microsoft Teams のサービス電話番号を取得](../getting-service-phone-numbers.md)する」を参照してください。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 

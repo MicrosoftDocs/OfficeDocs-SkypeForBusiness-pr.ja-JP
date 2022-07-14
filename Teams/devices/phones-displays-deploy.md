@@ -1,7 +1,7 @@
 ---
-title: Intuneを使用してTeams電話、Teamsディスプレイ、Teams パネル、Microsoft Teams RoomsをAndroidに展開する
-ms.author: serdars
-author: SerdarSoysal
+title: Intuneを使用して Android で Teams の電話、Teams のディスプレイ、Teams パネル、Microsoft Teams Roomsを展開する
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference
@@ -16,27 +16,27 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: この記事では、Microsoft Teams Android デバイスでサポートされている機能の概要と機能について説明します。
-ms.openlocfilehash: 17f5e537b44d3aacd967ff5e8ffaa84df9da3f9b
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 5522c29c74eb9679d26d13627dcb69b315dc33fd
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674859"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66790312"
 ---
-# <a name="deploy-teams-phones-teams-displays-teams-panels-and-microsoft-teams-rooms-on-android-using-intune"></a>Intuneを使用してTeams電話、Teamsディスプレイ、Teams パネル、Microsoft Teams RoomsをAndroidに展開する
+# <a name="deploy-teams-phones-teams-displays-teams-panels-and-microsoft-teams-rooms-on-android-using-intune"></a>Intuneを使用して Android で Teams の電話、Teams のディスプレイ、Teams パネル、Microsoft Teams Roomsを展開する
 
-この記事では、Intuneを使用してAndroidにTeams電話、Teamsディスプレイ、Teams パネル、Microsoft Teams Roomsを展開する方法の概要について説明します。
+この記事では、Intuneを使用して Android で Teams の電話、Teams ディスプレイ、Teams パネル、Microsoft Teams Roomsを展開する方法の概要について説明します。
 
 ## <a name="conditional-access"></a>条件付きアクセス
 
-条件付きアクセスは、Office 365 リソースにアクセスするデバイスが適切に管理され、セキュリティで保護されていることを確認するのに役立つ、Azure Active Directory (Azure AD) 機能です。  条件付きアクセス ポリシーをTeams サービスに適用する場合、Teams電話、Teamsディスプレイ、Teams パネル、AndroidのMicrosoft Teams Roomsを含む) Teamsに登録する必要があるデバイスをAndroidします。Intuneとその設定は、ポリシーに準拠している必要があります。  デバイスがIntuneに登録されていない場合、またはデバイスが登録されているが、その設定がポリシーに準拠していない場合、条件付きアクセスにより、ユーザーがデバイスでTeams アプリにサインインしたり、Teams アプリを使用したりできなくなります。
+条件付きアクセスは、Office 365 リソースにアクセスするデバイスが適切に管理され、セキュリティで保護されていることを確認するのに役立つ Azure Active Directory (Azure AD) 機能です。  Teams サービスに条件付きアクセス ポリシーを適用する場合、Teams にアクセスする Android デバイス (Teams スマートフォン、Teams ディスプレイ、Teams パネル、Android のMicrosoft Teams Roomsを含む) は、Intuneに登録する必要があり、その設定はポリシーに準拠している必要があります。  デバイスがIntuneに登録されていない場合、またはデバイスが登録されているが、その設定がポリシーに準拠していない場合、条件付きアクセスにより、ユーザーがデバイスで Teams アプリにサインインしたり、Teams アプリを使用したりできなくなります。
 
-通常、Intune内で定義されたコンプライアンス ポリシーは、ユーザーのグループに割り当てられます。  つまり、Android コンプライアンス ポリシーを user@contoso.com に割り当てると、そのポリシーはAndroidスマートフォンとサインイン user@contoso.com AndroidベースのTeams デバイスに等しく適用されます。
+通常、Intune内で定義されたコンプライアンス ポリシーは、ユーザーのグループに割り当てられます。  つまり、Android コンプライアンス ポリシーを user@contoso.com に割り当てると、そのポリシーは Android スマートフォンと、user@contoso.com サインインするすべての Android ベースの Teams デバイスに同じように適用されます。
 
 条件付きアクセスを使用する場合は、Intune登録を適用する必要があります。組織内では、Intune登録を正常に行えるように設定する必要があります。
 
-- **Intune ライセンス** Teams デバイスにサインインするユーザーは、Intuneに対してライセンスが付与されている必要があります。  Teams デバイスが有効なIntune ライセンスを持つユーザー アカウントにサインインしている限り、デバイスはサインイン プロセスの一環としてMicrosoft Intuneに自動的に登録されます。
-- **Intuneを構成** するには、デバイス管理者の登録用に適切に構成IntuneテナントAndroid設定する必要があります。
+- **Intune ライセンス** Teams デバイスにサインインするユーザーには、Intuneのライセンスが必要です。  Teams デバイスが有効なIntune ライセンスを持つユーザー アカウントにサインインしている限り、デバイスはサインイン プロセスの一環としてMicrosoft Intuneに自動的に登録されます。
+- **Intuneを構成** する Android デバイス管理者登録用に適切に構成Intuneテナントが設定されている必要があります。
 
 ## <a name="configure-intune-to-enroll-teams-android-based-devices"></a>Teams Android ベースのデバイスを登録するようにIntuneを構成する
 
@@ -51,17 +51,17 @@ Teams Android ベースのデバイスは、Android デバイス管理者 (DA) �
 1. MDM (モバイル デバイス管理) 機関Intune設定します。  
 
    Intuneを使用したことがない場合は、デバイスを登録する前に MDM 機関を設定する必要があります。 詳細については、「 [モバイル デバイス管理機関の設定](/intune/fundamentals/mdm-authority-set)」を参照してください。  これは、新しいIntune テナントを作成するときに実行する必要がある 1 回限りの手順です。
-1. デバイス管理者の登録Android有効にします。
+1. Android デバイス管理者の登録を有効にします。
   
-   Android ベースのTeams デバイスは、Intuneを使用してデバイス管理者デバイスとして管理されます。  新しく作成されたテナントの場合、デバイス管理者の登録は既定でオフになっています。 [デバイス管理者の登録Android参照してください](/intune/enrollment/android-enroll-device-administrator)。
+   Android ベースの Teams デバイスは、Intuneを使用してデバイス管理者デバイスとして管理されます。  新しく作成されたテナントの場合、デバイス管理者の登録は既定でオフになっています。 [Android デバイス管理者の登録](/intune/enrollment/android-enroll-device-administrator)を参照してください。
 1. ユーザーにライセンスを割り当てます。 
  
-   Intuneに登録しているTeamsデバイスのユーザーには、有効なIntune ライセンスを割り当てる必要があります。 詳細については、「[Intuneにデバイスを登録できるように、ユーザーにライセンスを割り当てる](/intune/fundamentals/licenses-assign)」を参照してください。
+   Intuneに登録している Teams デバイスのユーザーには、有効なIntune ライセンスが割り当てられている必要があります。 詳細については、「[Intuneにデバイスを登録できるように、ユーザーにライセンスを割り当てる](/intune/fundamentals/licenses-assign)」を参照してください。
 1. デバイス管理者のコンプライアンス ポリシーを割り当てます。  
 
-   1. Androidデバイス管理者コンプライアンス ポリシーを作成します。
+   1. Android デバイス管理者コンプライアンス ポリシーを作成します。
 
-   1. Teams デバイスにサインインするユーザーを含むAzure Active Directory グループに割り当てます。 [コンプライアンス ポリシーを使用して、Intuneで管理するデバイスのルールを設定する方法](/mem/intune/protect/device-compliance-get-started)に関するページを参照してください。
+   1. Teams デバイスにサインインするユーザーを含む Azure Active Directory グループに割り当てます。 [コンプライアンス ポリシーを使用して、Intuneで管理するデバイスのルールを設定する方法](/mem/intune/protect/device-compliance-get-started)に関するページを参照してください。
 
 ## <a name="see-also"></a>関連項目
 
@@ -69,7 +69,7 @@ Teams Android ベースのデバイスは、Android デバイス管理者 (DA) �
 
 [Microsoft Teams 認定 IP 電話](teams-ip-phones.md)
 
-[Teams表示](teams-displays.md)
+[Teams の表示](teams-displays.md)
 
 [Teams でのデバイスの管理](device-management.md)
 

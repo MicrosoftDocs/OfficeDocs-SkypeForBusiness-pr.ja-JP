@@ -1,7 +1,7 @@
 ---
 title: イタリアの電話番号管理
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: davlick,krkilaru
 ms.topic: reference
@@ -18,23 +18,23 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 次の表を使用して、Microsoft Teamsのイタリアでの電話番号の取得と管理に関する情報を確認します。
-ms.openlocfilehash: 1e1ca63cbc9ebdffccc4b3d200425a908067179b
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: この表を使用して、Microsoft Teams のイタリアでの電話番号の取得と管理に関する情報を確認します。
+ms.openlocfilehash: 8fe89bd892f1df694f51475f1336f470b2576c5d
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62401222"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789342"
 ---
 # <a name="phone-number-management-for-italy"></a>イタリアの電話番号管理
 
-次の表を使用して、Microsoft Teamsのイタリアでの電話番号の取得と管理に関する情報を確認します。
+この表を使用して、Microsoft Teams のイタリアでの電話番号の取得と管理に関する情報を確認します。
   
 詳細については、「[組織のために電話番号を管理する](manage-phone-numbers-for-your-organization.md)」をご覧ください。
   
 |**実行する操作**|**正しいフォームをダウンロードして、マイクロソフトに送信する**|
 |:-----|:-----|
-|Microsoft Teams管理センターに一覧表示されていない新しいユーザーまたはサービスの電話番号を取得します。   <br/> |これらのフォームのいずれかをダウンロードします。 <br>  [イタリアの新しい電話番号要求 (v.5.0) (it-it)](https://download.microsoft.com/download/7/2/7/727217df-80e4-4ff5-b9ed-65b84cdceba6/new-phone-number-request-for-italy-(v.5.0)-(it-it).pdf) <br/>  [イタリアの新しい電話番号要求 (v.5.0) (en-us)](https://download.microsoft.com/download/4/1/7/417d2578-3686-4530-87ea-e9f36e8653c1/new-phone-number-request-for-italy-(v.5.0)-(en-us).pdf)<br/>  <br/>必要事項を入力し、 [手順については TNS にお問い合わせください](contact-tns-service-desk.md)。 |
+|Microsoft Teams 管理センターに一覧表示されていない新しいユーザーまたはサービスの電話番号を取得します。   <br/> |これらのフォームのいずれかをダウンロードします。 <br>  [イタリアの新しい電話番号要求 (v.5.0) (it-it)](https://download.microsoft.com/download/7/2/7/727217df-80e4-4ff5-b9ed-65b84cdceba6/new-phone-number-request-for-italy-(v.5.0)-(it-it).pdf) <br/>  [イタリアの新しい電話番号要求 (v.5.0) (en-us)](https://download.microsoft.com/download/4/1/7/417d2578-3686-4530-87ea-e9f36e8653c1/new-phone-number-request-for-italy-(v.5.0)-(en-us).pdf)<br/>  <br/>必要事項を入力し、 [手順については TNS にお問い合わせください](contact-tns-service-desk.md)。 |
 |Microsoft に転送された電話番号を取得します。  <br/> | このフォームをダウンロードします。 <br/>[イタリアの承認状 (LOA) (すべての数値) (v.6.0) (it-it)](https://download.microsoft.com/download/e/8/a/e8a20665-cbea-4f15-a50c-b8e1f6ef352d/letter-of-authorization-(loa)-for-italy-(all-numbers)-(v.6.0)-(it-it).pdf) <br/> <br/>必要事項を入力し、 [手順については TNS サービス デスクにお問い合わせください](contact-tns-service-desk.md)。 |
 |国内の電話番号ディレクトリで、電話番号を発行/公開解除します。  <br/> |発行/非公開にする電話番号の一覧については[、TNS サービス デスクにお問い合わせください](contact-tns-service-desk.md)。      <br/> |
 |ユーザーの番号をサービス番号に変更します。  <br/> |サービス番号に変換するユーザー番号の一覧については、[TNS サービス デスクにお問い合わせください](contact-tns-service-desk.md)。 <br/> |

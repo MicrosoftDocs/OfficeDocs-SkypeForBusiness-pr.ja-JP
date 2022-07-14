@@ -1,7 +1,7 @@
 ---
 title: クラウド ボイス機能のネットワーク設定
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: conceptual
 ms.reviewer: roykuntz
@@ -18,18 +18,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 80d7bd7400a53a15d16e456b3c6ed1fdfcdeacf9
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 49709c2c3cc8816b404c88970c6ec916470f200e
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62403591"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66790152"
 ---
-# <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>Microsoft Teamsのクラウド音声機能のネットワーク設定
+# <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>Microsoft Teams のクラウド音声機能のネットワーク設定
 
-ネットワーク リージョン、ネットワーク サイト、ネットワーク サブネット、信頼された IP アドレスについて説明します。 これらの用語と概念は、ダイレクト ルーティングと[動的緊急通報](configure-dynamic-emergency-calling.md)[のための場所ベースのルーティングに関](location-based-routing-plan.md)するクラウド音声ドキュメント全体で使用されます。 組織にこれらのクラウド機能をデプロイする場合は、Microsoft Teamsでこれらの機能で使用するネットワーク設定を構成する必要があります。
+ネットワーク リージョン、ネットワーク サイト、ネットワーク サブネット、信頼された IP アドレスについて説明します。 これらの用語と概念は、ダイレクト ルーティングと[動的緊急通報](configure-dynamic-emergency-calling.md)[のための場所ベースのルーティングに関](location-based-routing-plan.md)するクラウド音声ドキュメント全体で使用されます。 組織でこれらのクラウド機能を展開する場合は、Microsoft Teams でこれらの機能で使用するネットワーク設定を構成する必要があります。
 
-この記事では、Location-Basedルーティングと動的緊急通報に共通するネットワーク設定の概要について説明します。 デプロイするクラウド音声機能と機能に応じて、これらの設定の一部またはすべてを構成します。 これらの設定を構成する手順については、「[Teamsでクラウド機能のネットワーク トポロジを管理する](manage-your-network-topology.md)」を参照してください。
+この記事では、Location-Basedルーティングと動的緊急通報に共通するネットワーク設定の概要について説明します。 デプロイするクラウド音声機能と機能に応じて、これらの設定の一部またはすべてを構成します。 これらの設定を構成する方法については、「 [Teams でクラウド機能のネットワーク トポロジを管理する」を参照してください](manage-your-network-topology.md)。
 
 > [!NOTE]
 > ネットワーク設定の機能固有の要件については、その機能の構成トピックに記載されています。
@@ -63,4 +63,4 @@ ms.locfileid: "62403591"
 ユーザーの外部 IP アドレスが、信頼された IP アドレスの一覧にある IP アドレスと一致しない場合、エンドポイントは不明な場所にあるものとして分類されます。
 
 > [!Important]
-> ネットワーク構成設定の参照は、Teams クライアントからのソース IP アドレスを変更するクラウド プロキシ サービスのデプロイではサポートされていません。
+> ネットワーク構成設定の参照は、Teams クライアントからのソース IP アドレスを変更するクラウド プロキシ サービスの展開ではサポートされていません。

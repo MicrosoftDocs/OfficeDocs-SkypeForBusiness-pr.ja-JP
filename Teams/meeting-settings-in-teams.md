@@ -1,7 +1,7 @@
 ---
 title: 会議の設定を管理する
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: sonua
 ms.topic: article
@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 組織のユーザーがスケジュールする Teams 会議の設定を管理する方法を説明します。
-ms.openlocfilehash: 10afbcc30404122e9e4d497570bf0b69e4ef6fa7
-ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
+ms.openlocfilehash: c76267ae5cd9a19cae272d995a24077a58a7ec6f
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "64642921"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789792"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams で会議の設定を管理する
 

@@ -1,7 +1,7 @@
 ---
 title: 手動で番号移行注文を送信する
-author: serdarsoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: ポート注文要求を手動で送信する方法について説明します。
-ms.openlocfilehash: 221f35bf300ed9ab33ab3088f18e154ecbecc5e3
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: f8a1276ce35cea38cbe2fbb080bd6c6c6312f64c
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733498"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789382"
 ---
 # <a name="manually-submit-a-port-order"></a>手動で番号移行注文を送信する
 
@@ -41,7 +41,7 @@ Microsoft の移植ウィザードに国または地域が表示されていな�
 
 ## <a name="what-else-should-you-know-about-number-porting"></a>番号の移植について他に知っておくべきこと
 
-- 通話プランを使用するには、ライセンスを購入してユーザーに割り当てる必要があります。 [アドオン ライセンスTeams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)参照してください。
+- 通話プランを使用するには、ライセンスを購入してユーザーに割り当てる必要があります。 [Teams アドオンのライセンスに関するページを](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)参照してください。
 
 - 各ユーザーに、利用可能な新しい電話番号を割り当てる必要があります。 「[ユーザーの電話番号の割り当て、変更、削除を行う](../assign-change-or-remove-a-phone-number-for-a-user.md)」を参照してください。
 

@@ -1,7 +1,7 @@
 ---
 title: CQD PSTN ダイレクト ルーティング レポートの使用
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: siunies, fan.fan
 ms.topic: article
@@ -14,17 +14,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-description: Microsoft Teams通話品質ダッシュボード (CQD)) PSTN ダイレクト ルーティング レポートを使用して、Microsoft Teamsでの PSTN 通話を監視およびトラブルシューティングします。
-ms.openlocfilehash: ae36ff214de2142b74b8493e925e25f32572709c
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: Microsoft Teams 通話品質ダッシュボード (CQD) PSTN ダイレクト ルーティング レポートを使用して、Microsoft Teams での PSTN 通話を監視およびトラブルシューティングします。
+ms.openlocfilehash: 8d6e971adc3cd7e4ec9b4038356e744d4451146f
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726426"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789892"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>CQD PSTN ダイレクト ルーティング レポートの使用
 
-2020 年 3 月の新機能として、CQD のダウンロード可能なPower BI クエリ テンプレートに、Microsoft Teams通話品質ダッシュボード ([CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)) PSTN ダイレクト ルーティング レポートが追加されました。 
+2020 年 3 月の新機能として、Microsoft Teams 通話品質ダッシュボード (CQD) PSTN ダイレクト ルーティング レポートが [CQD 用のダウンロード可能な Power BI クエリ テンプレート](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)に追加されました。 
 
 
 CQD PSTN ダイレクト ルーティング レポート (CQD PSTN ダイレクト ルーティング レポート.pbit) は、PSTN サービスの使用パターンと品質を理解するのに役立ちます。 このレポートを使用して、サービスの使用状況、セッション ボーダー コントローラー (SBC)、テレフォニー サービス、ネットワーク パラメーター、ネットワーク有効性比の詳細に関する情報を監視します。 この情報は、通話が削除された理由など、問題を特定するのに役立ちます。 たとえば、ボリュームがいつ低下したか、または影響を受ける呼び出しの数と、その理由を確認できます。
@@ -125,7 +125,7 @@ NER Good Percentage Hourly Trend から、21:00 頃にディップが発生す�
 
 ## <a name="network-parameters"></a>ネットワーク パラメーター
 
-すべてのネットワーク パラメーターは、ダイレクト ルーティング インターフェイスからセッション ボーダー コントローラーに測定されます。 推奨される値の詳細については、「[組織のネットワークをMicrosoft Teamsに準備](prepare-network.md)する」を参照し、Customer Edge で推奨値をMicrosoft Edgeしてください。
+すべてのネットワーク パラメーターは、ダイレクト ルーティング インターフェイスからセッション ボーダー コントローラーに測定されます。 推奨される値の詳細については、「 [Microsoft Teams 用に組織のネットワークを準備](prepare-network.md)する」を参照し、Customer Edge から Microsoft Edge への推奨値を確認してください。
 
   - **ジッター** – RTCP (RTP 制御プロトコル) を使用して 2 つのエンドポイント間で計算されるネットワーク伝達遅延時間の変動のミリ秒の測定値です。
 
@@ -145,6 +145,6 @@ NER Good Percentage Hourly Trend から、21:00 頃にディップが発生す�
 
 ## <a name="related-topics"></a>関連項目
 
-[Power BIを使用してMicrosoft Teamsの CQD データを分析する](CQD-PSTN-report.md)
+[Power BI を使用して Microsoft Teams の CQD データを分析する](CQD-PSTN-report.md)
 
 [Teams のトラブルシューティング](/MicrosoftTeams/troubleshoot/teams)

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams のクラウド ビデオ相互運用性
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -10,7 +10,7 @@ search.appverid: MET150
 ms.reviewer: naforer
 f1.keywords:
 - NOCSH
-description: Cloud Video Interop を中間ソリューションとして使用して、サードパーティの会議室デバイスがMicrosoft Teams会議に参加できるようにします。
+description: Cloud Video Interop を中間ソリューションとして使用して、サードパーティの会議室デバイスが Microsoft Teams 会議に参加できるようにします。
 ms.localizationpriority: medium
 ms.collection:
 - M365-voice
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e48b29ec04d10c899d646f4a28605e40fc2da09
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 91ec337ad94341e20b07cd376be5156a526d8cd0
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725506"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789362"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams のクラウド ビデオ相互運用性
 
@@ -49,7 +49,7 @@ Microsoft Teams は、クラウド ビデオ相互運用性により、会議室
 
 ### <a name="office-365-us-government-and-third-party-services"></a>Office 365米国政府機関およびサード パーティのサービス
 
-Office 365では、Microsoft 365 Apps for enterpriseに含まれるSharePoint Online サイト、Skype for Business、Teams、Office アプリケーション (例:Word、Excel、PowerPoint、Outlook)、Outlook Web App。 さらに、Office 365は、サード パーティのサービス プロバイダーとの統合をサポートしています。 これらのサード パーティ製のアプリケーションとサービスには、組織の顧客データを、Office 365 インフラストラクチャの外部にあるサード パーティ システムに格納、送信、処理することが含まれる可能性があるため、Office 365コンプライアンスとデータ保護のコミットメントの対象とされません。 **組織に対するこれらのサービスの適切な使用を評価する際には、サード パーティが提供するプライバシーとコンプライアンスに関する声明を確認することをお勧めします。**
+Office 365では、サード パーティ製アプリケーションを SharePoint Online サイト、Skype for Business、Teams、Microsoft 365 Apps for enterpriseに含まれる Office アプリケーション (Word、Excel、PowerPoint、Outlook など) に統合する機能を提供します。Outlook Web App。 さらに、Office 365は、サード パーティのサービス プロバイダーとの統合をサポートしています。 これらのサード パーティ製のアプリケーションとサービスには、組織の顧客データを、Office 365 インフラストラクチャの外部にあるサード パーティ システムに格納、送信、処理することが含まれる可能性があるため、Office 365コンプライアンスとデータ保護のコミットメントの対象とされません。 **組織に対するこれらのサービスの適切な使用を評価する際には、サード パーティが提供するプライバシーとコンプライアンスに関する声明を確認することをお勧めします。**
 
 
 
@@ -62,7 +62,7 @@ Office 365では、Microsoft 365 Apps for enterpriseに含まれるSharePoint On
 |![Poly RealConnect を表すロゴ。](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Poly RealConnect サービス</a> |
 |![Pexip Infinity を表すロゴ。](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Pexip Infinity for Microsoft Teams</a> | 
 |![BlueJeans Gateway を表すロゴ。](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">BlueJeans Gateway for Microsoft Teams</a> |
-|![Cisco CVI を表すロゴ。](media/cisco.png)|<a href="https://aka.ms/CiscoCVI" target="_blank">Microsoft Teams用 Cisco Webex Video Integration</a>|
+|![Cisco CVI を表すロゴ。](media/cisco.png)|<a href="https://aka.ms/CiscoCVI" target="_blank">Microsoft Teams の Cisco Webex Video Integration</a>|
 
 ### <a name="cloud-video-interop-overview"></a>クラウド ビデオ相互運用性の概要
 
@@ -107,7 +107,7 @@ CVI 展開用に選択したパートナーは、組織内で正常に展開す�
   - tenantkey@domain を使用して、パートナーの IVR にダイヤルインできます。
   - パートナー IVR にいると、VTC conferenceId を入力するように求められます。これにより、Teams 会議に接続されます。
 - 直接ダイヤル 
-  - テナントキーの完全な文字列を使用して、ダイレクト ダイヤル機能を使用して、パートナーの IVR と対話することなく、Teams 会議に直接ダイヤルインできます。VTC ConferenceId@domain。
+  - テナントキーの完全な文字列を使用して、直接ダイヤル機能を使用して、パートナーの IVR と対話せずに Teams 会議に直接ダイヤルインできます。VTC ConferenceId@domain。
 - ワンタッチ ダイヤル 
   - Teams ミーティングが統合されている場合は、パートナーが提供するワンタッチ ダイヤル機能を使用できます (ダイヤルの文字列を入力する必要はありません)。
 

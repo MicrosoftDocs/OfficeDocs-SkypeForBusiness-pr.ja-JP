@@ -1,7 +1,7 @@
 ---
 title: 通話品質ダッシュボード (CQD) とは?
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 通話品質ダッシュボード (CQD) と、それを使用して Microsoft Teams の会議と通話品質に関するレポートを表示する方法について説明します。
-ms.openlocfilehash: f87f8184b0417d04206d31780392f21dca387d10
-ms.sourcegitcommit: 115e44f33fc7993f6eb1bc781f83eb02a506e29b
-ms.translationtype: HT
+ms.openlocfilehash: 3bc3c9dcd83e4ff95a07fbffb6f07da39d254cde
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "60909558"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66790072"
 ---
 # <a name="what-is-call-quality-dashboard-cqd"></a>通話品質ダッシュボード (CQD) とは?
 
@@ -39,13 +39,13 @@ Microsoft 通話品質ダッシュボード (CQD) - [https://cqd.teams.microsoft
 
 CQD に [個人を特定できる情報 (EUII) データが含まれている場合](CQD-data-and-reports.md#euii-data)、[Microsoft 365 全体の EUII](/office365/Enterprise/office-365-data-retention-deletion-and-destruction-overview) と同じ方法で管理されます。
 
-CQD は、Teams 管理者、Skype for Business 管理者、ネットワーク エンジニアが組織全体のレベルで通話と会議の品質を監視できるように設計されています。 CQD を使用して **ネットワークを最適化** してパフォーマンスの品質を向上させます。 **固有のユーザー** の通話と会議の情報を確認する必要がある場合は、CQD データをユーザーごとの[通話分析](use-call-analytics-to-troubleshoot-poor-call-quality.md)と組み合わせて使用します。
+CQD は、Teams 管理者、Skype for Business 管理者、ネットワーク エンジニアが組織全体のレベルで通話と会議の品質を監視できるように設計されています。 CQD を使用して **ネットワークを最適化** してパフォーマンスの品質を向上させます。 **固有のユーザー** の通話と会議の情報を確認する必要がある場合は、CQD データをユーザーごとの [通話分析](use-call-analytics-to-troubleshoot-poor-call-quality.md)と組み合わせて使用します。
 
 たとえば、CQD を使用すると、(ユーザーごとの通話分析を使用して観察した) ユーザーの通話品質の低下は、他の多くのユーザーにも影響するネットワークの問題が原因であると判断できます。 CQD は、個々の通話エクスペリエンスと、Teams または Skype for Business を使用して行われた通話の全体的な品質の両方を捕捉します。 CQD を使うと、全体的なパターンが明らかになる場合があるので、ネットワーク エンジニアは情報に基づいた通話品質の評価を行うことができます。 CQD には、通話品質の指標に関するレポートが示されます。これにより、全体的な通話品質、サーバー/クライアント間のストリーム、クライアント/クライアント間のストリーム、および音声品質 [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252) についての分析情報が得られます。 
   
 ![通話品質ダッシュボードのスクリーンショット。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image3.png)
 
-CQD では、建物とエンドポイントの情報をアップロードすることをお勧めします。これにより、位置情報拡張レポートを使用して、ユーザーの建物内の通話の品質と信頼性を分析できます。 データを評価して、問題が 1 人のユーザーに分離されているか、より大きなユーザー セグメントに影響するかを判断できます。 CQD で建物またはエンドポイント固有のビューを有効にするには、管理者が CQD の **テナント データのアップロード** ページに[建物またはエンドポイントの情報をアップロードする](CQD-upload-tenant-building-data.md)必要があります。
+CQD では、建物とエンドポイントの情報をアップロードすることをお勧めします。これにより、位置情報拡張レポートを使用して、ユーザーの建物内の通話の品質と信頼性を分析できます。 データを評価して、問題が 1 人のユーザーに分離されているか、より大きなユーザー セグメントに影響するかを判断できます。 CQD で建物またはエンドポイント固有のビューを有効にするには、管理者が CQD の **テナント データのアップロード** ページに [建物またはエンドポイントの情報をアップロードする](CQD-upload-tenant-building-data.md)必要があります。
 
 ![通話品質ダッシュボードの位置情報拡張レポートのスクリーンショット。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
 

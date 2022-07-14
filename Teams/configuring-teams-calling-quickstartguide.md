@@ -1,7 +1,7 @@
 ---
 title: クイック スタート ガイド - 通話プランの構成
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 8/21/2018
 ms.topic: article
@@ -11,7 +11,7 @@ ms.reviewer: rowille, crowe
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 一連のユーザーを起動して実行できるように、Microsoft Teamsで通話プランを構成するためのクイック スタート ガイド。
+description: 一連のユーザーを起動して実行できるように、Microsoft Teams で通話プランを構成するためのクイック スタート ガイド。
 ms.localizationpriority: medium
 ms.collection:
 - M365-voice
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7be6b946d174241467d2afa1b9d2e30f7946365c
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 0ff6c85e337e2a3fe226347fc0b0ef68710d3d18
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62398441"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789582"
 ---
 # <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>クイック スタート ガイド: Microsoft Teams での通話プランの設定
 
@@ -35,9 +35,9 @@ Teams の通話プランに関する 2017 年 12 月 12 日付けの発表「[In
 > [!NOTE]
 > 展開を成功させるため、このクイック スタート ガイドとともに、「[通話プランが設定された電話システム](calling-plan-landing-page.md)」と「[FastTrack](https://aka.ms/cloudvoice)」をご覧になることをお勧めします。
 
-通話プラン (Skype for Businessを使用したMicrosoft 365機能とOffice 365機能) を追加することで、Teamsを使用して、公衆交換電話網 (PSTN) を介して陸上線や携帯電話との間で電話を発信したり、電話を受け取ったりできるようになりました。
+通話プラン (Skype for Businessを搭載した Microsoft 365 およびOffice 365機能) を追加することで、Teams を使用して、公衆交換電話網 (PSTN) を介して陸上線や携帯電話との間で通話を発信および受信できるようになりました。
 
-![Teamsの [連絡先] ページを示すスクリーン ショット。](media/Calling_in_Teams.png)
+![Teams の [連絡先] ページを示すスクリーン ショット。](media/Calling_in_Teams.png)
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Teams の [**通話**] タブを有効にするための前提条件
 Teams の [**通話**] を有効にするには、Teams で 1:1 の通話を有効にする必要があります。また、Teams の 1:1 の通話をサポートする Teams クライアントを使用する必要があります。 Teams で 1:1 の通話を管理する方法の詳細については、「[Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)」を参照してください。 通話をサポートしているクライアントの詳細については、「[Microsoft Teams の制限事項と仕様](./limits-specifications-teams.md)」を参照してください。
 

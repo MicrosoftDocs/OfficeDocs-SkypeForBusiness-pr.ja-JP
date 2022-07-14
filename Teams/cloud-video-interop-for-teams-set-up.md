@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams のクラウド ビデオ相互運用機能の設定
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b76e7c5e79b3928c7fb19ad9c5f5fb8f241b29a
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: f9ae7d59a97989d7f0677bf56b46c0a3d51f3e49
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674739"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789332"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams のクラウド ビデオ相互運用機能の設定
 
@@ -102,7 +102,7 @@ ms.locfileid: "65674739"
   - tenantkey@domain を使用して、パートナーの IVR にダイヤルインできます。
   - パートナー IVR に入ると、VTC conferenceId を入力するように求められます。これにより、Teams 会議に接続されます。
 - 直接ダイヤル
-  - テナントキーの完全な文字列を使用してダイレクト ダイヤル機能を使用して、パートナーの IVR と対話することなく、Teams会議に直接ダイヤルインできます。VTC ConferenceId@domain。
+  - テナントキーの完全な文字列を使用してダイレクト ダイヤル機能を使用して、パートナーの IVR と対話することなく、Teams 会議に直接ダイヤルインできます。VTC ConferenceId@domain。
 - ワンタッチ ダイヤル
   - Teams ミーティングが統合されている場合は、パートナーが提供するワンタッチ ダイヤル機能を使用できます (ダイヤルの文字列を入力する必要はありません)。
 

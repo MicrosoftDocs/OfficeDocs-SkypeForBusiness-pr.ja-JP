@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams で受信通話をブロックする
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -15,18 +15,18 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: PowerShell を使用して受信通話のブロックを管理する方法について説明します。
-ms.openlocfilehash: 25b271cbcf62acd732463e9dd34d4189479d2417
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 217a4fe6770d916e9013acf7f90ebf6a5556b837
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674389"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789602"
 ---
 # <a name="block-inbound-calls"></a>受信通話をブロックする
 
-Microsoft 通話プラン、ダイレクト ルーティング、およびオペレーター接続はすべて、公衆交換電話網 (PSTN) からの着信通話のブロックをサポートします。 この機能を使用すると、管理者はテナント グローバル レベルで番号パターンの一覧を定義し、テナントに対するすべての着信 PSTN 通話の発信者 ID を一致のリストに対して確認できます。 一致した場合、着信は拒否されます。
+Microsoft 通話プラン、ダイレクト ルーティング、オペレーター接続はすべて、公衆交換電話網 (PSTN) からの着信通話のブロックをサポートします。 この機能を使用すると、管理者はテナント グローバル レベルで番号パターンの一覧を定義し、テナントに対するすべての着信 PSTN 通話の発信者 ID を一致のリストに対して確認できます。 一致した場合、着信は拒否されます。
 
-この受信通話ブロック機能は、PSTN から発信された受信通話でのみ機能し、テナントグローバル レベルでのみ機能します。 個々のTeams ユーザーはこのリストを操作できません。 Teams クライアントでは、個々のユーザーが PSTN 通話をブロックできます。 エンド ユーザーが通話ブロックを実装する方法については、「[Teamsでの通話設定の管理](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)」を参照してください。
+この受信通話ブロック機能は、PSTN から発信された受信通話でのみ機能し、テナントグローバル レベルでのみ機能します。 個々の Teams ユーザーはこのリストを操作できません。 Teams クライアントでは、個々のユーザーが PSTN 通話をブロックできます。 エンド ユーザーが通話ブロックを実装する方法については、「 [Teams での通話設定の管理](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)」を参照してください。
 
 > [!NOTE]
 > ブロックされた発信者は、ブロックされたときにわずかに異なる動作を経験する可能性があります。 この動作は、ブロックされた呼び出し元のキャリアが、通話が正常に完了できないという通知を処理する方法に基づいています。 例としては、ダイヤルされたとおりに通話を完了できないことを案内するキャリアのメッセージや、通話の切断などが含まれます。

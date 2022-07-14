@@ -1,7 +1,7 @@
 ---
 title: チュニジアでの可用性
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: チュニジアで利用できるSkype for BusinessとMicrosoft TeamsのMicrosoft 365とOffice 365サービスを次に示します。
-ms.openlocfilehash: e954b50e18bf22baef6c2a66256af43af4e3b91c
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: 次に示すのは、Skype for Businessおよび Microsoft Teams 向けの Microsoft 365 サービスとOffice 365 サービスです。
+ms.openlocfilehash: 400d3f2400b864d5c07369cd6460bd92da3ccb98
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62389749"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789222"
 ---
 # <a name="availability-in-tunisia"></a>チュニジアでの可用性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-チュニジアで利用できるSkype for BusinessとMicrosoft TeamsのMicrosoft 365とOffice 365サービスを次に示します。
+次に示すのは、Skype for Businessおよび Microsoft Teams 向けの Microsoft 365 サービスとOffice 365 サービスです。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -72,7 +72,7 @@ ms.locfileid: "62389749"
 |有料電話番号は使用できますか?  <br/> |はい  <br/> |
 |フリーダイヤル番号は利用できますか?  <br/> |いいえ  <br/> |
    
- 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「[Skype for BusinessとMicrosoft Teamsのサービス電話番号を取得](../getting-service-phone-numbers.md)する」を参照してください。
+ 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「[Skype for Businessと Microsoft Teams のサービス電話番号を取得](../getting-service-phone-numbers.md)する」を参照してください。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 
