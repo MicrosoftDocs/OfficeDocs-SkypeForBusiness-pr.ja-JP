@@ -1,7 +1,7 @@
 ---
-title: MICROSOFT TEAMS PSTN 分プール レポート
-author: serdarsoysal
-ms.author: serdars
+title: Microsoft Teams PSTN 分プール レポート
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -13,26 +13,26 @@ ms.localizationpriority: medium
 search.appverid: MET150
 MS.collection:
 - M365-voice
-description: Microsoft Teams管理センターの Teams PSTN 分プール レポートを使用して、現在の月に組織内で消費された分数を表示する方法。
+description: Microsoft Teams 管理センターの Teams PSTN 分プール レポートを使用して、現在の月に組織内で消費された分数を表示する方法。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ef2e207352bf4ad7ee3d0f6c8fae674c4022e0b0
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 3aafc45cebab24f5524a4d3120dd0c03083d0c6c
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045993"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794355"
 ---
-# <a name="microsoft-teams-pstn-minute-pools-report"></a>MICROSOFT TEAMS PSTN 分プール レポート
+# <a name="microsoft-teams-pstn-minute-pools-report"></a>Microsoft Teams PSTN 分プール レポート
 
-Microsoft Teams管理センターの Teams PSTN 分プール レポートでは、組織内の電話会議と通話アクティビティの概要を確認できます。このレポートには、現在の月に消費された分数が表示されます。 通話に使用されるライセンス、使用可能な合計分数、使用済み分数、場所別のライセンス使用量など、アクティビティの内訳を確認できます。
+Microsoft Teams 管理センターの Teams PSTN 分プール レポートでは、現在の月に消費された分数を示すことで、組織内の電話会議と通話アクティビティの概要を確認できます。 通話に使用されるライセンス、使用可能な合計分数、使用済み分数、場所別のライセンス使用量など、アクティビティの内訳を確認できます。
 
 ## <a name="view-the-pstn-minute-pools-report"></a>PSTN 分プール レポートを表示する
 
 Microsoft Teams 管理センターの左側のナビゲーションで、**[分析 & レポート]** > **[使用状況レポート]** をクリックします。 [ **レポートの表示** ] タブの [ **レポート**] で、[ **PSTN 分プールと SMS(プレビュー)] プール** を選択し、[ **レポートの実行**] をクリックします。
 
-![管理センターのTeams PSTN 分プール レポートのスクリーンショット。](../media/teams-reports-pstn-minute-pools-with-callouts.png "Microsoft Teams管理センターのTeams PSTN 分プール レポートのスクリーンショット(番号付き吹き出しあり)")
+![管理センターの Teams PSTN 分プール レポートのスクリーンショット。](../media/teams-reports-pstn-minute-pools-with-callouts.png "Microsoft Teams 管理センターの Teams PSTN 分プール レポートのスクリーンショット(番号付き吹き出しあり)")
 
 ## <a name="interpret-the-report"></a>レポートを解釈する
 

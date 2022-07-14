@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 会議出席レポート
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -17,12 +17,12 @@ description: Teams 内から会議出席レポートを入手する。 このレ
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: ecd4e95ca70a7d5e89c85fe43b8c72c798703b73
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: ff591bbb48a194dd7924aa329248fb56d7369cee
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205367"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794475"
 ---
 # <a name="microsoft-teams-meeting-attendance-report"></a>Microsoft Teams 会議出席レポート
 
@@ -36,7 +36,7 @@ ms.locfileid: "61205367"
 
 会議の開催者が会議内で入手可能なレポートで提供される会議出席データよりも多くのデータにアクセスする必要がある場合は、これらの開催者に *レポート閲覧者* の役割を割り当てることができます。開催者が Teams 管理者レポートにアクセスできるようになります。 詳細については、「[Teams アクティビティ レポートにアクセスできるユーザー](../teams-activity-reports.md#who-can-access-the-teams-activity-reports)」を参照してください。 
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Teams の分析とレポート](teams-reporting-reference.md)
 - [Teams の使用状況レポート](teams-usage-report.md)

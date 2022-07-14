@@ -1,7 +1,7 @@
 ---
 title: 北マリアナ諸島での可用性
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 北マリアナ諸島で利用できるSkype for BusinessとMicrosoft TeamsのMicrosoft 365サービスとOffice 365 サービスを次に示します。
-ms.openlocfilehash: 2e301ce11d99866f841ce7eb5287a427f3e47784
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: 北マリアナ諸島で利用できるSkype for Businessと Microsoft Teams の Microsoft 365 サービスとOffice 365 サービスを次に示します。
+ms.openlocfilehash: 57d0ee2f993cdf964da02b76d4f248f581e41f77
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62405209"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794515"
 ---
 # <a name="availability-in-northern-mariana-islands"></a>北マリアナ諸島での可用性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-北マリアナ諸島で利用できるSkype for BusinessとMicrosoft TeamsのMicrosoft 365サービスとOffice 365 サービスを次に示します。
+北マリアナ諸島で利用できるSkype for Businessと Microsoft Teams の Microsoft 365 サービスとOffice 365 サービスを次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -70,9 +70,9 @@ ms.locfileid: "62405209"
 |:-----|:-----|
 |有料電話番号を取得できる首都または主要都市はどこですか?   | 該当なし <br/> |
 |有料電話番号は使用できますか?  <br/> |いいえ <br/> |
-|フリーダイヤル番号は利用できますか?  <br/> |Yes <br/> |
+|フリーダイヤル番号は利用できますか?  <br/> |はい <br/> |
    
- 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「[Skype for BusinessとMicrosoft Teamsのサービス電話番号を取得](../getting-service-phone-numbers.md)する」を参照してください。
+ 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「[Skype for Businessと Microsoft Teams のサービス電話番号を取得](../getting-service-phone-numbers.md)する」を参照してください。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 

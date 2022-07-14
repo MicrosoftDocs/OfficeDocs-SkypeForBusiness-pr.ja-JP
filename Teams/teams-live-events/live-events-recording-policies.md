@@ -1,7 +1,7 @@
 ---
 title: ライブ イベント記録ポリシー
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,16 +17,16 @@ description: ライブ イベント記録ポリシーについて説明します
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3725abe49c72251b8672fb5851177586be8bf871
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 5ae98255edf26843e59839192a9f20096182bfa2
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62386365"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794115"
 ---
-# <a name="live-event-recording-policies-in-microsoft-teams"></a>Microsoft Teamsでのライブ イベント記録ポリシー
+# <a name="live-event-recording-policies-in-microsoft-teams"></a>Microsoft Teams のライブ イベント記録ポリシー
 
-Microsoft Teamsライブ イベントを記録するには、いくつかのオプションがあります。 記録オプションは、記録ポリシーを使用して設定されます。 この記事では、さまざまな設定について説明します。
+Microsoft Teams ライブ イベントを記録するには、いくつかのオプションがあります。 記録オプションは、記録ポリシーを使用して設定されます。 この記事では、さまざまな設定について説明します。
 
 記録オプションは、PowerShell コマンド [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy) を使用して設定されます。
 
@@ -54,7 +54,7 @@ Microsoft Teamsライブ イベントを記録するには、いくつかのオ�
 | 開催者が記録できるかどうか | 既定で有効および選択されている                  | 既定で有効および選択されている   |
 | レコードを記録しない               | 無効で選択されていません                            | 無効で選択されていません      |
 
-## <a name="storage-and-persistence-behavior"></a>Storageと永続化の動作
+## <a name="storage-and-persistence-behavior"></a>ストレージと永続化の動作
 
 | オプション                                       | 都道府県   | DVR                                                   | VOD                                                     | 記録                |
 | ------------------------------------------------ | ------------ | --------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------- |
@@ -69,4 +69,4 @@ Microsoft Teamsライブ イベントを記録するには、いくつかのオ�
 - [Teams のライブ イベントについて](what-are-teams-live-events.md)
 - [Teams のライブ イベントの計画](plan-for-teams-live-events.md)
 - [Teams でライブ イベント設定を構成する](configure-teams-live-events.md)
-- [クラウド会議の記録をTeamsする](../cloud-recording.md)
+- [Teams クラウド会議の記録](../cloud-recording.md)

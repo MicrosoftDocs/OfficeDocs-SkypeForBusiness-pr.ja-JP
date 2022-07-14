@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams での共有回線の外観
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 02/19/2019
 ms.reviewer: srividhc
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
 - seo-marvel-apr2020
 description: Microsoft Teams で音声会議情報を記載したメールをユーザーに送信する方法について説明します。
-ms.openlocfilehash: d47b763b877c49194c26eae05904ea1b7ccee5ec
-ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
+ms.openlocfilehash: 3646cf27e22f5224dc825c758f757cc04d5804fc
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "64642861"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794325"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Microsoft Teams での共有回線の外観
 
@@ -38,7 +38,7 @@ ms.locfileid: "64642861"
 
 ## <a name="license-required"></a>必要なライセンス
 
-ユーザーは、PSTN 接続を持つ電話システム (通話プラン ライセンスまたは Direct Routing OnlineVoiceRoutingPolicy) を代理人にするか、委任を設定し、他のユーザーが自分の代わりに通話を発信または受信できるようにする必要があります。
+ユーザーは、PSTN 接続を持つ電話システム (通話プラン ライセンスまたは Direct Routing OnlineVoiceRoutingPolicy) を代理人として持っているか、委任を設定し、他のユーザーが自分の代わりに通話を発信または受信できるようにする必要があります。
 
 管理者と代理人の両方が、PSTN 接続 (通話プラン ライセンスまたは Direct Routing OnlineVoiceRoutingPolicy のいずれか) を備えた電話システムを持っている必要があります。 共有回線エクスペリエンスは委任の一部であり、電話システムに含まれています。 ライセンス モデルの詳細については、「[Microsoft Teams サービスの説明](/office365/servicedescriptions/teams-service-description)」を参照してください。
 
@@ -59,14 +59,14 @@ ms.locfileid: "64642861"
 
 | 機能 | Teams デスクトップ | Teams Mac アプリ | Teams Web アプリ (Edge) |Teams モバイル iOS/Android アプリ | Teams IP 電話 |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|
-| 委任を設定する | はい | Yes | Yes | いいえ | Yes |
-| 別の人に代わって電話を受ける | はい | Yes | Yes | Yes | Yes |
-| 別の人に代わって電話番号に電話する | はい | Yes | Yes | Yes | Yes |
-| 別のユーザーに代わって Teams ユーザーに電話する | はい | Yes | Yes | Yes | Yes |
-| 共有行のデリゲート ビューを表示する | Yes | Yes | Yes | いいえ | はい |
-| マネージャーの通話アクティビティのデリゲート ビューを表示する | Yes | Yes | Yes | いいえ | はい |
-| 委任のマネージャー ビューを参照してください | はい | Yes | Yes | いいえ | はい |
-| 代理人またはマネージャーは、保留または再開できます | Yes | Yes | Yes | いいえ | はい |
+| 委任を設定する | はい | はい | はい | いいえ | はい |
+| 別の人に代わって電話を受ける | はい | はい | はい | はい | はい |
+| 別の人に代わって電話番号に電話する | はい | はい | はい | はい | はい |
+| 別のユーザーに代わって Teams ユーザーに電話する | はい | はい | はい | はい | はい |
+| 共有行のデリゲート ビューを表示する | はい | はい | はい | いいえ | はい |
+| マネージャーの通話アクティビティのデリゲート ビューを表示する | はい | はい | はい | いいえ | はい |
+| 委任のマネージャー ビューを参照してください | はい | はい | はい | いいえ | はい |
+| 代理人またはマネージャーは、保留または再開できます | はい | はい | はい | いいえ | はい |
 
 ## <a name="limitations"></a>制限事項
 

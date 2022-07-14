@@ -1,7 +1,7 @@
 ---
 title: Saint Kitts と Nevis での可用性
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Skype for BusinessとMicrosoft TeamsのMicrosoft 365サービスとOffice 365 サービスを次に示します。
-ms.openlocfilehash: 94a70a117cf2cbd592a88de859eaea46e94cfac3
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: ここでは、Skype for Business および Microsoft Teams 向けの Microsoft 365 サービスとOffice 365 サービスを、サンキッツとネビスで利用できます。
+ms.openlocfilehash: 3e61918d2c5676566c4d756265bd6238b0ee864c
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62394629"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794485"
 ---
 # <a name="availability-in-saint-kitts-and-nevis"></a>Saint Kitts と Nevis での可用性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-Skype for BusinessとMicrosoft TeamsのMicrosoft 365サービスとOffice 365 サービスを次に示します。
+ここでは、Skype for Business および Microsoft Teams 向けの Microsoft 365 サービスとOffice 365 サービスを、サンキッツとネビスで利用できます。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -70,9 +70,9 @@ Skype for BusinessとMicrosoft TeamsのMicrosoft 365サービスとOffice 365 �
 |:-----|:-----|
 |有料電話番号を取得できる首都または主要都市はどこですか?   | 該当なし <br/> |
 |有料電話番号は使用できますか?  <br/> |いいえ <br/> |
-|フリーダイヤル番号は利用できますか?  <br/> |Yes  <br/> |
+|フリーダイヤル番号は利用できますか?  <br/> |はい  <br/> |
    
- 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「[Skype for BusinessとMicrosoft Teamsのサービス電話番号を取得](../getting-service-phone-numbers.md)する」を参照してください。
+ 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「[Skype for Businessと Microsoft Teams のサービス電話番号を取得](../getting-service-phone-numbers.md)する」を参照してください。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 

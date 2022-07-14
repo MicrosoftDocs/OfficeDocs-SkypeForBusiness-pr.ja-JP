@@ -1,14 +1,14 @@
 ---
 title: オンライン電話システムロールアウト用のユーザー通知電子メール テンプレート
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: TeamsまたはSkype for Businessにクラウド音声機能を実装するときに、テンプレートを使用してユーザーに電子メールを送信します。
+description: Teams またはSkype for Businessでクラウド音声機能を実装するときに、テンプレートを使用してユーザーに電子メールを送信します。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -16,20 +16,20 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d709dbbf52746c5eb3a264f6423133ac26b3c744
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 515dcd3438db958eb09554671ad1fd28195c720d
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62393475"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794575"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>新しいオンライン電話システムのユーザー導入を促進する
 
 電話はユーザーの生存線にすることができます。 従来の電話システムからオンライン電話システムへの切り替えは、ユーザーの作業方法に大きな変化を表し、生産性に悪影響を与える可能性があります。 この変更を通じてユーザーに通知、ガイド、サポートを行う時間を取ることで、ユーザー エクスペリエンスを向上し、投資収益率を最大限に高めることができます。
 
-この記事には、新しい電話システムについてユーザーに通知するのに役立つカスタマイズ可能な電子メール テンプレートが含まれています。 特定の音声展開に合わせて適切なメールをカスタマイズして送信します。 角かっこを使用して、簡単にパーソナル化できるようにセクションを示してきましたが、組織固有のメッセージングを追加して、発表をユーザーにとって最も関連性の高いものにすることをお勧めします。 デプロイに該当する場合は、"Teams" への参照をすべて "Skype for Business" に置き換えます。
+この記事には、新しい電話システムについてユーザーに通知するのに役立つカスタマイズ可能な電子メール テンプレートが含まれています。 特定の音声展開に合わせて適切なメールをカスタマイズして送信します。 角かっこを使用して、簡単にパーソナル化できるようにセクションを示してきましたが、組織固有のメッセージングを追加して、発表をユーザーにとって最も関連性の高いものにすることをお勧めします。 展開に該当する場合は、"Teams" への参照をすべて "Skype for Business" に置き換えます。
 
-## <a name="email-number-1-send-three-weeks-before-launch"></a>電子メール番号 1: 起動の 3 週間前に送信する
+## <a name="email-number-1-send-three-weeks-before-launch"></a>Email番号 1: 起動の 3 週間前に送信する
 
 件名行: 
 
@@ -94,7 +94,7 @@ If you have questions concerning this change, contact <INSERT NAME/EMAIL>.
 <INSERT NAME OF EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-2-send-one-week-before-launch"></a>電子メール番号 2: 起動の 1 週間前に送信する
+## <a name="email-number-2-send-one-week-before-launch"></a>Email番号 2: 起動の 1 週間前に送信する
 
 件名行: 
 
@@ -138,7 +138,7 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER>
 ```
 
-## <a name="email-number-3-send-on-launch-day"></a>電子メール番号 3: 開始日に送信する
+## <a name="email-number-3-send-on-launch-day"></a>Email番号 3: 起動日に送信する
 
 件名行: 
 
@@ -175,7 +175,7 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER OR EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-4-send-two-weeks-after-launch"></a>電子メール番号 4: 起動後 2 週間後に送信する
+## <a name="email-number-4-send-two-weeks-after-launch"></a>Email番号 4: 起動後 2 週間後に送信する
 
 件名行: 
 

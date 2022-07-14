@@ -1,7 +1,7 @@
 ---
 title: OneDrive for Business と SharePoint を使用して会議の記録を行う
-author: serdars
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 ms.reviewer: debhag
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8d2863517ae4a147f9ded902dffff40ef315642e
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
-ms.translationtype: HT
+ms.openlocfilehash: bc315353e1ece0b4d455937c1677e35e3c18d152
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556338"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794155"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>OneDrive for Business と SharePoint または Stream を使用して会議の記録を行う
 

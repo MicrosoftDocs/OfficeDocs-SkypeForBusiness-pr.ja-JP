@@ -1,7 +1,7 @@
 ---
 title: 通話品質ダッシュボード (CQD) のストリーム分類
-ms.author: serdars
-author: lolaj
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: gageames
 ms.topic: article
@@ -19,21 +19,21 @@ f1.keywords:
 - CSH
 ms.custom:
 - Optimization
-description: Microsoft TeamsとSkype for Business Online の通話品質ダッシュボード (CQD) でストリーム品質を分類する方法について説明します。
-ms.openlocfilehash: 5ee2575cf952eb9d7e78f14b2b8ba7693cd3f878
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+description: Microsoft Teams および Skype for Business Online の通話品質ダッシュボード (CQD) でストリーム品質を分類する方法について説明します。
+ms.openlocfilehash: 9b17cf115759e96edbccdb85369ac42fd5861ff7
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059258"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794295"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>通話品質ダッシュボード (CQD) のストリーム分類
 
-Microsoft TeamsおよびSkype for Business Online の通話品質ダッシュボード (CQD) を使用すると、Microsoft TeamsおよびSkype for Business サービスを使用して行われた通話の品質に関する分析情報を得ることができます。 このトピックでは、メディアストリームの品質分類に関する詳細情報を提供します。 CQD とその設定方法の詳細については、「 [通話品質ダッシュボードの設定」を](turning-on-and-using-call-quality-dashboard.md)参照してください。
+Microsoft Teams と Skype for Business Online の通話品質ダッシュボード (CQD) を使用すると、Microsoft Teams とSkype for Business サービスを使用して行われた通話の品質に関する分析情報を得ることができます。 このトピックでは、メディアストリームの品質分類に関する詳細情報を提供します。 CQD とその設定方法の詳細については、「 [通話品質ダッシュボードの設定」を](turning-on-and-using-call-quality-dashboard.md)参照してください。
 
 ## <a name="classifier-definitions"></a>分類子の定義
 
-CQD のストリームは、使用可能なキー品質メトリックの値に基づいて、_Good_、_Poor_、または _Unclassified_ として分類されます。 ストリームの分類に使用されるメトリックと条件は、次の表に示されています。 CQD の "不適切な原因" ディメンションを使用すると、分類の _不十分_ なメトリックを把握できます。 これらのディメンションの詳細については、「 [通話品質ダッシュボードで使用できるディメンションとメジャー」を](dimensions-and-measures-available-in-call-quality-dashboard.md)参照してください。
+CQD のストリームは、使用可能なキー品質メトリックの値に基づいて、 _Good_、 _Poor_、または _Unclassified_ として分類されます。 ストリームの分類に使用されるメトリックと条件は、次の表に示されています。 CQD の "不適切な原因" ディメンションを使用すると、分類の _不十分_ なメトリックを把握できます。 これらのディメンションの詳細については、「 [通話品質ダッシュボードで使用できるディメンションとメジャー」を](dimensions-and-measures-available-in-call-quality-dashboard.md)参照してください。
 
 ### <a name="audio-classifier"></a>オーディオクラシファイアー
 
@@ -48,7 +48,7 @@ CQD のストリームは、使用可能なキー品質メトリックの値に�
 
 ### <a name="video-classifier-due-to-freeze"></a>フリーズによるビデオ分類子
 
-ビデオ ストリームは、エンド ユーザーが Frozen Video を体験したと推定するために生成された分類子スコアの値に基づいて  _、Good_ または _Poor_ とマークされます。 この分類子は、Microsoft Teams製品でのみ使用できます。
+ビデオ ストリームは、エンド ユーザーが Frozen Video を体験したと推定するために生成された分類子スコアの値に基づいて  _、Good_ または _Poor_ とマークされます。 この分類子は、Microsoft Teams 製品でのみ使用できます。
 
 |手順 #|測定基準|シナリオ|状態 |条件が真である場合の分類 |条件が偽の場合の分類 |メトリックが利用できない場合の分類 |説明 |
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |

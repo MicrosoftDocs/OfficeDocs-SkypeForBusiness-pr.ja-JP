@@ -1,7 +1,7 @@
 ---
 title: 通話分析を使用して低品質な通話をトラブルシューティングする
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, vkorlep
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: Microsoft Teams の通話や会議に関する問題のトラブルシューティングを行うには、デバイス、ネットワーク、接続に関するユーザーごとの通話分析の詳細を使用します。
-ms.openlocfilehash: 47b60eb979c36508ed1911a70f531695c03533e5
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 38636d911be55648ec17628bcec7d4cee21358c5
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125652"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794315"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>通話分析を使用して低品質な通話をトラブルシューティングする
 
