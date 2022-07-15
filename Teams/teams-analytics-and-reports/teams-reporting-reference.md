@@ -18,12 +18,12 @@ description: この記事では、Microsoft Teams 管理センターで使用で
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f0891b9267039d8c07d437cb8e67eb2b982a0016
-ms.sourcegitcommit: cf2f2d23e6dcda0c03f22a5800a210a1c88e583f
+ms.openlocfilehash: ad17bd2932786253f7dd3a925856d46780032204
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "65883550"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819312"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams の分析とレポート
 
@@ -31,12 +31,12 @@ Microsoft Teams 管理センターで、Microsoft Teams についての新しい
 
 ## <a name="how-to-access-the-reports"></a>レポートにアクセスする方法
 
-レポートにアクセスするには、Microsoft 365 または Office 365 のグローバル管理者、Microsoft 365 または Office 365 のグローバル リーダー、Teams サービス管理者、または Skype for Business 管理者である必要があります。Teams 管理者ロールと、各管理者ロールがアクセスできるレポートの詳細については、「 [Teams 管理者ロールを使用して Teams を管理する」を参照してください](../using-admin-roles.md)。
+レポートにアクセスするには、Microsoft 365 またはOffice 365のグローバル管理者、Microsoft 365 またはOffice 365のグローバル リーダー、Teams サービス管理者、またはSkype for Business管理者である必要があります。Teams 管理者ロールと、各管理者ロールがアクセスできるレポートの詳細については、「[Teams 管理者ロールを使用して Teams を管理する」を参照してください](../using-admin-roles.md)。
 
 Microsoft Teams 管理センターに移動し、左側のナビゲーションで **[Analytics & レポート**] を選択し、[ **レポートの表示**] で実行するレポートを選択します。
 
 > [!NOTE]
-> Microsoft Teams 管理センターのレポートは、Microsoft 365 管理センターの Microsoft 365 レポートの一部である Teams のアクティビティ レポートとは別です。 Microsoft 365 管理センターのアクティビティ レポートの詳細については、[Microsoft 365 管理センターの Teams アクティビティ レポートを](../teams-activity-reports.md)参照してください。
+> Microsoft Teams 管理センターのレポートは、Microsoft 365 管理センターの Microsoft 365 レポートの一部である Teams のアクティビティ レポートとは別です。 Microsoft 365 管理センターのアクティビティ レポートの詳細については、Microsoft 365 管理センター[の Teams アクティビティ レポートに関するページを](../teams-activity-reports.md)参照してください。
 
 ## <a name="teams-reporting-reference"></a>Teams レポートの参照
 
@@ -55,17 +55,17 @@ Microsoft では、Teams のレポート エクスペリエンスの継続的な
 |[Teams PSTN 使用状況レポート - 通話プラン](pstn-usage-report.md#calling-plans)|  タイムスタンプ<br>ユーザー名<br>電話番号<br>通話の種類 <br>呼び出し対象<br>国または地域へ <br>呼び出し元 <br>国または地域から<br>通話料<br>通貨<br>[時間]<br>国内/国際<br>通話 ID<br>数値の種類<br>国または地域<br>電話会議 ID<br>機能 (ライセンス)|
 |[Teams PSTN 使用状況レポート - ダイレクト ルーティング](pstn-usage-report.md#direct-routing)  |  タイムスタンプ<br>表示名<br>SIP アドレス<br>電話番号 <br>通話の種類<br>呼び出し対象<br>開始時刻<br>招待時間<br>失敗時間<br>終了時刻<br>[時間]<br>数値の種類<br>メディアのバイパス<br>SBC FQDN<br>Azure リージョン<br>イベントの種類<br>最終 SIP コード<br>最終 Microsoft サブコード<br>最終的な SIP フレーズ<br>関連付け ID  |
 |[Teams の情報保護ライセンス レポート](information-protection-license-report.md)  | <br>ユーザーが変更通知を介してメッセージをプッシュする有効なライセンスを持っているかどうか</br><br>ユーザーによってトリガーされた変更通知イベントの合計数<br><br>組織全体の変更通知イベントをリッスンしているアプリ<br>|
-|[Teams Virtual Visits の使用状況レポート](virtual-visits-usage-report.md)  | 仮想予定の数<br>Bookings の予定の数<br>Teams 電子正常性レコード (EHR) の統合予定の数<br>予定の平均期間<br>出席者のロビーの平均待機時間<br>開始時刻<br>会議 ID<br>ロビーの待機時間<br>[時間]<br>ステータス<br>製品の種類<br>出席者<br>SMS 送信済み
-|[Teams EHR コネクタの仮想予定レポート](../expand-teams-across-your-org/healthcare/ehr-admin-reports.md) | 開始時刻<br>[時間]<br>プライマリ (会議の開催者の名前)<br>プライマリのメール (会議の開催者のメール)<br>部署<br>応答<br>ロビーの待機時間<br>予定が割り当て制限内にあるかどうか
+|[Teams Virtual Visits の使用状況レポート](/microsoft-365/frontline/virtual-visits-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)  | 仮想予定の数<br>Bookings の予定の数<br>Teams 電子正常性レコード (EHR) の統合予定の数<br>予定の平均期間<br>出席者のロビーの平均待機時間<br>開始時刻<br>会議 ID<br>ロビーの待機時間<br>[時間]<br>ステータス<br>製品の種類<br>出席者<br>SMS 送信済み
+|[Teams EHR コネクタ 仮想予定 レポート](/microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) | 開始時刻<br>[時間]<br>プライマリ (会議の開催者の名前)<br>プライマリのメール (会議の開催者のメール)<br>部署<br>応答<br>ロビーの待機時間<br>予定が割り当て制限内にあるかどうか|
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## <a name="make-the-user-specific-data-anonymous"></a>ユーザー固有のデータを匿名にする
 
 Teams ユーザー アクティビティと Teams デバイス使用状況レポートのデータを匿名にするには、グローバル管理者である必要があります。 これにより、レポートとそのエクスポートの表示名、電子メール、Microsoft Azure Active Directory ID などの識別可能な情報が非表示になります。
 
-1. Microsoft 365 管理センターで、[設定 **組織の設定]** \> に移動し、[**サービス**] タブで [**レポート**] を選択します。
+1. Microsoft 365 管理センターで、[設定 **組織の設定]** \> に移動し、[**サービス**] タブで [レポート] を選択 **します**。
     
-2. [ **レポート]** を選択し、 **非表示にされたユーザー名、グループ名、サイト名をすべてのレポートに表示** することを選択します。 この設定は、Microsoft 365 管理センターと Teams 管理センターの使用状況レポートの両方に適用されます。
+2. [ **レポート]** を選択し、 **非表示にされたユーザー名、グループ名、サイト名をすべてのレポートに表示** することを選択します。 この設定は、Microsoft 365 管理センターの使用状況レポートと Teams 管理センターの両方に適用されます。
   
 3. [ **変更の保存] を選択します**。
 

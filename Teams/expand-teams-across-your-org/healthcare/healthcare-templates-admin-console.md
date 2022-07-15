@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: yinchang
 description: 医療組織のチームを迅速かつ簡単に作成するために、Teams 管理センターや Microsoft Graph で医療テンプレートを管理および使用する方法を説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 78269b393c384af82e48284e3ffefe8785013975
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 831e4e257277ce2fca6dc007ac5f3bfe963bca35
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046003"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819442"
 ---
 # <a name="use-healthcare-team-templates"></a>Teamsの医療テンプレートを使用する
 
@@ -73,7 +73,7 @@ Teams には、医療組織用に特化して設計されたテンプレート�
 &sup1; アプリがタブとしてチャネルに追加されました
 ## <a name="use-team-templates-with-microsoft-graph"></a>Microsoft Graph で Teams テンプレートを使用する
 
-開発者は、Microsoft Graph を使用して、事前構築済みのチーム テンプレートからチームを作成できます。Microsoft Graph でチーム テンプレートを使用する方法の詳細については、「[Microsoft Graph を使用して、チーム テンプレートの使用を開始する](../../get-started-with-teams-templates.md)」、「[Microsoft Teams API の概要](/graph/teams-concept-overview?view=graph-rest-1.0)」、および「[teamsTemplate リソースの種類](/graph/api/resources/teamstemplate?view=graph-rest-1.0)」を参照してください。
+開発者は、Microsoft Graph を使用して、事前構築済みのチーム テンプレートからチームを作成できます。Microsoft Graph でチーム テンプレートを使用する方法の詳細については、「[Microsoft Graph で、チーム テンプレートの使用を開始する](../../get-started-with-teams-templates.md)」、「[Microsoft Teams API の概要](/graph/teams-concept-overview)」、および「[teamsTemplate リソースの種類](/graph/api/resources/teamstemplate)」を参照してください。
 
 こちらに事前構築済みの医療チーム テンプレートを示します。
 ### <a name="ward"></a>病棟
@@ -214,4 +214,4 @@ Teams には、医療組織用に特化して設計されたテンプレート�
 - [テンプレートからチームを作成する](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
 - [Teams 管理センターで Teams テンプレートの使用を開始する](../../get-started-with-teams-templates-in-the-admin-console.md)
 - [Microsoft Graph を使用して、チーム テンプレートの使用を開始する](../../get-started-with-teams-templates.md)
-- [医療組織向けの Teams の使用を開始する](teams-in-hc.md)
+- [医療組織向けの Teams の使用を開始する](/microsoft-365/frontline/teams-in-hc?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)

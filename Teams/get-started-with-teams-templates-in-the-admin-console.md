@@ -11,19 +11,19 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: チーム テンプレートと、Microsoft Teams管理センターで管理する方法について説明します。
+description: チーム テンプレートと、Microsoft Teams 管理センターで管理する方法について説明します。
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ab184e198c28f4100a224ae17f955ecf73e14cf9
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 0bff3c2c63b94df4c1e19a748d3e9e9912574faa
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676155"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819358"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Teams 管理センターで Teams テンプレートの使用を開始する
 
@@ -32,18 +32,18 @@ ms.locfileid: "65676155"
 > [!NOTE]
 > - 現在、プライベート チャネルと共有チャネルはチーム テンプレートではサポートされていません。 プライベート チャネルと共有チャネルの作成は、テンプレート定義には含まれません。
 >
-> - 秘密度ラベルは、GCC環境のチーム テンプレートではサポートされていません。 [テンプレートからチームを作成する] フローの秘密度ラベル オプションは、チームには適用されません。
+> - GCC 環境のチーム テンプレートでは、秘密度ラベルはサポートされていません。 [テンプレートからチームを作成する] フローの秘密度ラベル オプションは、チームには適用されません。
 
 ## <a name="overview"></a>概要
 
-Microsoft Teamsのチーム テンプレートは、ビジネスニーズまたはプロジェクトを中心に設計されたチームの構造の定義です。 管理者は、テンプレートを使用して、組織全体に一貫性のあるチームを簡単にデプロイできます。 テンプレートを使用すると、ユーザーは定義済みの設定、チャネル、アプリを使用して豊富なコラボレーション 空間をすばやく作成できます。
+Microsoft Teams のチーム テンプレートは、ビジネスニーズまたはプロジェクトを中心に設計されたチームの構造の定義です。 管理者は、テンプレートを使用して、組織全体に一貫性のあるチームを簡単にデプロイできます。 テンプレートを使用すると、ユーザーは定義済みの設定、チャネル、アプリを使用して豊富なコラボレーション 空間をすばやく作成できます。
 
-チーム テンプレートは、Microsoft Teams管理センターまたは PowerShell を使用して管理できます。 Microsoft が提供する事前構築済みテンプレートを使用し、 [独自のカスタム テンプレートを作成](#create-your-own-team-templates)することもできます。 テンプレート ポリシーを[適用](#apply-team-template-policies)して、Teamsでユーザーが使用できるテンプレートを制御することもできます。
+チーム テンプレートは、Microsoft Teams 管理センターまたは PowerShell を使用して管理できます。 Microsoft が提供する事前構築済みテンプレートを使用し、 [独自のカスタム テンプレートを作成](#create-your-own-team-templates)することもできます。 テンプレート ポリシーを [適用](#apply-team-template-policies) して、Teams でユーザーが使用できるテンプレートを制御することもできます。
 
-この記事では、Teams管理センターでチーム テンプレートを操作する概要について説明します。 テンプレートでサポートされているプロパティ、Microsoft が提供する事前構築済みテンプレート、テンプレート サイズの制限、テンプレートの作成方法と管理方法などについて説明します。
+この記事では、Teams 管理センターでのチーム テンプレートの操作の概要について説明します。 テンプレートでサポートされているプロパティ、Microsoft が提供する事前構築済みテンプレート、テンプレート サイズの制限、テンプレートの作成方法と管理方法などについて説明します。
 
 > [!NOTE]
-> ユーザーは、Teams アプリ[の事前構築済みまたはカスタム のチーム テンプレートからチームを作成](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)できます。 開発者は、Microsoft Graphを使用して、事前に構築されたチーム テンプレートからチームをプログラムで作成することもできます。 詳細については、[Microsoft Graphを使用したチーム テンプレートの概要](get-started-with-teams-templates.md)に関するページを参照してください。
+> ユーザーは、Teams アプリ [の事前構築済みまたはカスタム のチーム テンプレートからチームを作成](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) できます。 開発者は、Microsoft Graph を使用して、事前構築済みのチーム テンプレートからチームをプログラムで作成することもできます。 詳細については、「 [Microsoft Graph を使用したチーム テンプレートの概要](get-started-with-teams-templates.md)」を参照してください。
 
 ## <a name="team-template-capabilities"></a>チーム テンプレートの機能
 
@@ -61,11 +61,11 @@ Microsoft Teamsのチーム テンプレートは、ビジネスニーズまた�
 | ピン留めされたタブ | |
 
 > [!NOTE]
-> 今後のMicrosoft Teamsリリースでは、テンプレート機能を追加する予定です。そのため、サポートされているプロパティに関する最新の情報を確認してください。
+> Microsoft Teams の今後のリリースでは、テンプレート機能を追加する予定です。そのため、サポートされているプロパティに関する最新の情報を確認してください。
 
-## <a name="pre-built-team-templates-in-the-teams-admin-center"></a>Teams管理センターの事前構築済みチーム テンプレート
+## <a name="pre-built-team-templates-in-the-teams-admin-center"></a>Teams 管理センターの事前構築済みチーム テンプレート
 
-Teams管理センターで使用できる事前構築済みのチーム テンプレートを次に示します。 事前構築済みテンプレートは、特定の業界向けに作成したテンプレートです。 これらのテンプレートを表示するには、Teams管理センターの左側のナビゲーションで **、Teams** >  **Team テンプレート** に移動します。
+Teams 管理センターで使用できる事前構築済みのチーム テンプレートを次に示します。 事前構築済みテンプレートは、特定の業界向けに作成したテンプレートです。 これらのテンプレートを表示するには、Teams 管理センターの左側のナビゲーションで Teams **チーム テンプレート****に** > 移動します。
 
 事前構築済みのテンプレートは複製できますが、編集することはできません。 事前構築済みテンプレートのプロパティを変更する場合は、既存のテンプレートから新しいテンプレートを作成し、必要なプロパティを追加または削除できます。 一部のテンプレートの特定のプロパティは変更できないことに注意してください。
 
@@ -97,7 +97,7 @@ Teams管理センターで使用できる事前構築済みのチーム テン�
 - [医療チーム テンプレート](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 - [製造チーム テンプレート](manufacturing-teams-templates-in-the-admin-console.md)
 - [非営利団体チーム テンプレート](team-templates-nonprofit.md)
-- [リテール チーム テンプレート](retail-teams-templates-in-the-admin-console.md)
+- [リテール チーム テンプレート](get-started-with-retail-teams-templates.md)
 
 ## <a name="team-template-size-limits"></a>チーム テンプレートのサイズ制限
 
@@ -113,7 +113,7 @@ Teams管理センターで使用できる事前構築済みのチーム テン�
 |テンプレートごとのアプリ | 50|
 |||
 
-詳細については、「[Teamsの制限と仕様](limits-specifications-teams.md)」を参照してください。
+詳細については、「 [Teams の制限と仕様](limits-specifications-teams.md)」を参照してください。
 
 ## <a name="manage-team-templates"></a>チーム テンプレートを管理する
 
@@ -121,7 +121,7 @@ Teams管理センターで使用できる事前構築済みのチーム テン�
 
 #### <a name="view-team-templates"></a>チーム テンプレートを表示する
 
-チーム テンプレートを表示するには、Teams管理センターの左側のナビゲーションで **、Teams** >  **Team テンプレート** に移動します。 テンプレートを選択すると、そのテンプレートに含まれるチャネルやアプリなど、詳細が表示されます。
+チーム テンプレートを表示するには、Teams 管理センターの左側のナビゲーションで Teams **チーム テンプレート****に** > 移動します。 テンプレートを選択すると、そのテンプレートに含まれるチャネルやアプリなど、詳細が表示されます。
 
 #### <a name="create-your-own-team-templates"></a>独自のチーム テンプレートを作成する
 
@@ -133,7 +133,7 @@ Teams管理センターで使用できる事前構築済みのチーム テン�
 
 #### <a name="apply-team-template-policies"></a>チーム テンプレート ポリシーを適用する
 
-[チームを作成](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)するためにユーザーがTeamsに表示するテンプレートを制御するには、テンプレート ポリシーを設定し、組織内のユーザーとグループに割り当てることができます。 詳細については、「[Teams管理センターでチーム テンプレートを管理する](templates-policies.md)」を参照してください。
+[チームを作成](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)するために Teams に表示されるテンプレートを制御するには、テンプレート ポリシーを設定し、組織内のユーザーとグループに割り当てることができます。 詳細については、「 [Teams 管理センターでチーム テンプレートを管理する](templates-policies.md)」を参照してください。
 
 ### <a name="manage-team-templates-using-powershell"></a>PowerShell を使用してチーム テンプレートを管理する
 
