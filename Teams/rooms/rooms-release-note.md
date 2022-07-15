@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理者は、Microsoft Teams Rooms の累積的な改善リストである Microsoft Teams Rooms のリリース ノートを参照できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d4ac16e7214a6340eb74f1c154661f78a50992ee
-ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
+ms.openlocfilehash: 07b4661df5df7ac766c17a07c2bdd940b3d2cb6b
+ms.sourcegitcommit: 2871c05e00458a0cc76d919ff822b0b354bd1f72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66529699"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66810109"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams Roomsのリリース ノート
 
@@ -27,18 +27,19 @@ ms.locfileid: "66529699"
 
 Teams Roomsには、Teams Rooms アプリの更新プログラムと Teams Web クライアントの 2 種類の更新プログラムがあります。 
 
-Teams Roomsアプリの更新は、Microsoft Store または[手動更新](manual-update.md)によって行われます。 これにより、デバイスにローカルにインストールされているユニバーサル Windows プラットフォーム (UWP) アプリケーションが更新されます。
+Teams Roomsアプリの更新は、Microsoft Store または[手動更新](manual-update.md)によって行われます。 更新は、デバイスにローカルにインストールされているユニバーサル Windows プラットフォーム (UWP) アプリケーションに適用されます。
 
-Teams Web クライアントの更新は、Teams Web アプリ配信サービスを介して行われます。 これは、デバイスにインストールされているローカル UWP アプリケーションの更新を必要としないクラウドベースのサービスです。
+Teams Web クライアントの更新は、Teams Web アプリ配信サービスを介して行われます。 Teams Web クライアントは、デバイスにインストールされているローカル UWP アプリケーションの更新を必要としないクラウドベースのサービスです。
 
 Teams の更新方法の詳細については、「Teams の[更新プロセス」を](../teams-client-update.md)参照してください。
 
-Teams Roomsは、モダン ライフサイクル ポリシーによって管理されます。 詳細については、「 [Teams の更新プロセス](../teams-client-update.md#servicing-agreement) 」を参照してください。
+Teams Roomsは、モダン ライフサイクル ポリシーによって管理されます。 詳細については、「 [Teams の更新プロセス」を](../teams-client-update.md#servicing-agreement)参照してください。
 
 ## <a name="version-history"></a>バージョン履歴
 
 |リリース |公開日 <br/> Microsoft Store |
 |--- |--- |
+|4.12.139.0 |7/14/2022 |
 |4.12.138.0 |5/26/2022 |
 |4.12.126.0 |4/27/2022 |
 |4.11.17.0 |3/3/2022 |
@@ -92,6 +93,15 @@ Teams Roomsは、モダン ライフサイクル ポリシーによって管理�
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams Rooms 機能の概要と問題の解決
 
+### <a name="4121390-7142022"></a>4.12.139.0 (7/14/2022)
+
+この更新プログラムで導入されるもの:
+
+- Windows [KB5013942](https://support.microsoft.com/topic/may-10-2022-kb5013942-os-builds-19042-1706-19043-1706-and-19044-1706-60b51119-85be-4a34-9e21-8954f6749504) の影響を受けるシステムが起動できるように、アプリを再登録できるようにバージョン番号を変更します。 このアプリバージョンでは、4.1.2.138.0 からの機能変更はありません。
+
+> [!NOTE]
+> 詳細については、「Teams Rooms[とデバイスの既知の問題](/microsoftteams/troubleshoot/teams-rooms-and-devices/rooms-known-issues)」の「Teams Rooms アプリの更新後の起動に失敗する」を参照してください。
+
 ### <a name="4121380-5262022"></a>4.12.138.0 (5/26/2022)
 
 この更新プログラムで導入されるもの:
@@ -102,7 +112,7 @@ Teams Roomsは、モダン ライフサイクル ポリシーによって管理�
 ### <a name="4121260-4272022"></a>4.12.126.0 (4/27/2022)
 
 この更新プログラムで導入されるもの:
-- IT 管理者は、TEAMS ルーム デバイスを登録して、XML 設定を使用してパブリック プレビュー機能を受け取ることができます。 登録すると、デバイスはベータ機能の受信を開始します。 ベータ テストに行くすべての機能は、 [Microsoft Teams パブリック プレビューで発表されます - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)<sup>1,2</sup>  
+- IT 管理者は、TEAMS ルーム デバイスを登録して、XML 設定を使用してパブリック プレビュー機能を受け取ることができます。 登録すると、デバイスはベータ機能の受信を開始します。 ベータ テストに行くすべての機能は、[Microsoft Teams パブリック プレビュー](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)で発表されます - Microsoft Tech Community <sup>1,2</sup>  
 - IT 管理者は、FRONT of Room ディスプレイの解像度を設定し、XML 設定<sup>2</sup> を使用してリモートでスケーリングできます
 - IT 管理者は、XML 設定<sup>3</sup> を使用して Microsoft ノイズ抑制を無効にすることができます 
 - IT 管理者は、レジストリ キー設定<sup>4</sup> を使用してデバイス上のダウンロード フォルダーのクリーンアップをオーバーライドできます

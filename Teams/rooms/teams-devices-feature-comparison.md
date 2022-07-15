@@ -20,21 +20,21 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46ea03016b329801b5cdd4b422192ff35496dbdd
-ms.sourcegitcommit: e3931446943684db155bb3edf7d7e52d41775013
+ms.openlocfilehash: c7b61ebcc5fa650e7282b48d45862b2649783af7
+ms.sourcegitcommit: 2871c05e00458a0cc76d919ff822b0b354bd1f72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2022
-ms.locfileid: "65886704"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66810169"
 ---
 # <a name="teams-devices-for-shared-spaces-feature-comparison-between-windows-and-android"></a>共有スペース用の Teams デバイスの Windows と Android の機能の比較 
-Microsoft Teams Rooms エクスペリエンスは、お客様を念頭に置いて設計されています。 すべてのお客様に固有のニーズがあり、Microsoft では Windows や Android 上の Teams Rooms など、さまざまなオプションを提供しています。 
+Microsoft Teams Roomsエクスペリエンスは、顧客を念頭に置いて設計されています。 すべてのお客様に固有のニーズがあります。そのため、Microsoft は Windows や Android のTeams Roomsを含む幅広いオプションを提供しています。 
 
 コア機能は両方のプラットフォームで利用できるため、エンド ユーザーは常に優れたオーディオとビデオエクスペリエンスを提供し、ワンタッチ参加を使用して会議に参加し、ライブ キャプションや挙手などの包括的な機能にアクセスできます。 
 
-Microsoft は Teams と Teams Rooms に新機能を提供するため、すべてのプラットフォームに導入するよう努めていますが、技術的な実現可能性や各プラットフォームの顧客からのフィードバックなど、さまざまな要因により、機能が異なる時期にロールアウトされる場合があります。 つまり、Android プラットフォームに移行する前に、Windows で一部の機能がロールアウトされる可能性があります。 
+Microsoft は Teams とTeams Roomsに新機能を提供するため、すべてのプラットフォームに導入するよう努めていますが、技術的な実現可能性や各プラットフォームの顧客からのフィードバックなど、さまざまな要因により、機能が異なる時期にロールアウトされる場合があります。 つまり、Android プラットフォームに移行する前に、Windows で一部の機能がロールアウトされる可能性があります。 
 
-さまざまなプラットフォームで使用できる機能については、以下のグラフを参照してください。これは定期的に更新されます。 すべての Teams Rooms 機能がこの一覧に含まれるわけではないので、詳細については [、Microsoft 365 のロードマップ](https://www.microsoft.com/en-us/microsoft-365/roadmap) と Microsoft 営業担当者を引き続き参照してください。    
+さまざまなプラットフォームで使用できる機能については、以下のグラフを参照してください。これは定期的に更新されます。 一部のTeams Rooms機能がこの一覧に含まれるわけではありませんので、詳細については、[Microsoft 365 ロードマップ](https://www.microsoft.com/en-us/microsoft-365/roadmap)と Microsoft 営業担当者にお問い合わせください。    
 
 ## <a name="teams-devices-for-shared-spaces"></a>共有スペース用の Teams デバイス
 ### <a name="feature-comparison-between-windows-and-android"></a>Windows と Android の機能比較
@@ -77,10 +77,11 @@ Microsoft は Teams と Teams Rooms に新機能を提供するため、すべ�
 ||接続された周辺機器の正常性の監視 |連絡可能  |近日対応予定 |
 ||リモート構成 (再起動、設定、ログ収集) |連絡可能  |利用可能 |
 ||Teams アプリの自動更新 |連絡可能  |利用可能 |
-||デバイスの自動登録 |連絡可能 |近日対応予定 |
+||デバイスの自動登録 |連絡可能 |利用可能 |
 ||通話品質分析 |連絡可能  |利用可能 |
 |**Good for / Space**|フォーカス (2 ~ 4 人) |連絡可能  |利用可能 |
 ||小 (4 ~ 6 人) |連絡可能  |利用可能 |
 ||中 (6 ~ 12 人) |連絡可能  |利用可能 |
 ||大 (12 ~ 16 人) |連絡可能  |利用可能 |
 ||多目的ルーム (16 人以上) |連絡可能  |該当なし |
+

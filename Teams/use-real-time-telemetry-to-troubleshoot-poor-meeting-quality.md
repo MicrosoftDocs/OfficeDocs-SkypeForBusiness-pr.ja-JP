@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: デバイス、ネットワーク、接続に関する詳細を含むリアルタイムテレメトリを使用して、Microsoft Teams のスケジュールされた会議に関するユーザーの問題をトラブルシューティングします。
-ms.openlocfilehash: e1f9b445917a0bfd8ba06a736444fc532aa1a0b7
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: 203f16d83d211a4a85f3217992d509bccba5dea3
+ms.sourcegitcommit: 2871c05e00458a0cc76d919ff822b0b354bd1f72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794345"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66810179"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>リアルタイム テレメトリを使用して低品質の会議をトラブルシューティングする
 
@@ -137,10 +137,10 @@ Teams 管理者は、各ユーザーのすべてのリアルタイム テレメ�
 
 ## <a name="teams-devices-with-support-for-real-time-telemetry"></a>リアルタイム テレメトリをサポートする Teams デバイス
 
-- MRT - Surface Hub
-- MRT - Teams ディスプレイ
-- MRT - コラボレーション バー
-- IP Phone デバイス
+- Teams の表示
+- Teams Phone
+- Teams Rooms
+- Surface Hub でのTeams Rooms
 
 > [!NOTE]
 > Cloud Video Interop (CVI) ソリューションを使用して会議に参加したデバイスは、Real-Time Analytics ではサポートされていません。

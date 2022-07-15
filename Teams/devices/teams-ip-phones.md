@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Microsoft Teams が最適な結果を生み出すために認定されているデスクフォンと会議電話について説明します。
-ms.openlocfilehash: f0cfd75ed37937abc988f7f865a1357aec352b3c
-ms.sourcegitcommit: 8fc2d6a824e1e119f54ea2347bc5c10cc076956d
+ms.openlocfilehash: 940f03324ea5a3112296dcb42708a5635c2e2e9f
+ms.sourcegitcommit: 2871c05e00458a0cc76d919ff822b0b354bd1f72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "66773696"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66810079"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 認定 Android デバイス
 
@@ -127,6 +127,7 @@ Teams の最新の電話アプリとファームウェアのバージョンを�
 | 2022 Update #1C  | 2022 年 3 月 3 日  | `1449/1.0.94.2022022305` |`5.0.5304.0` | `322` |
 | 2022 Update #1B  | 2022 年 2 月 7 日   | `1449/1.0.94.2022020202` |`5.0.5304.0` | `322` |
 | 2022 Update #1   | 2022 年 2 月 7 日   | `1449/1.0.94.2022011305` |`5.0.5304.0` | `322` |
+| 2021 Update #3C | 2021 年 12 月 16 日   | `1449/1.0.94.2021121302` | `5.0.5304.0` | `298` |
 | 2021 Update #3B | 2021 年 12 月 6 日   | `1449/1.0.94.2021112302 ` | `5.0.5304.0` | `298` |
 | 2021 Update #3A | 2021 年 11 月 22 日   | `1449/1.0.94.2021110101 ` | `5.0.5304.0` | `298` |
 | 2021 Update #3  | 2021 年 11 月 3 日   | `1449/1.0.94.2021101205` | `5.0.5304.0` | `298` |
@@ -176,9 +177,7 @@ Teams の最新の電話アプリとファームウェアのバージョンを�
 | Yealink CP960  | `73.15.0.150`  | 2022 Update #1B      |
 | Yealink MP52 | `145.15.0.25`  | 2022 Update #1B         |
 | PolyTrio C60  | `7.1.4.0250 ` | 2021 Update #3C  |
-| Poly CCX600    | `7.1.4.0253  `| 2021 Update #3C  |
-| Poly CCX500    | `7.1.4.0253  `| 2021 Update #3C  |
-| Poly CCX400    | `7.1.4.0253  `| 2021 Update #3C  |
+| Poly CCX400/CCX500/CCX600    | `7.1.4.0253  `| 2021 Update #3C  |
 | PolyTrio C60   | `7.1.4.0201`  | 2021 Update #3B                        |
 | Poly CCX400/CCX500/CCX600   | `7.1.4.0200`  | 2021 Update #3B                 |
 |Audiocodes C448HD  | `1.14.449` | 2021 Update #3  |
