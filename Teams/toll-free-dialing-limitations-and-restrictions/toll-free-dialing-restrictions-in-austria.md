@@ -1,7 +1,7 @@
 ---
 title: オーストリアでのフリーダイヤル制限
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: davlick, krkilaru
 ms.topic: reference
@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: これにより、各国/地域でフリーダイヤル番号をダイヤルする方法を確認できます。 国/地域を選択すると、国固有のページが表示されます。このページには、フリーダイヤル サービスを利用できる国/地域の詳細、および制限が表示されます。 ダイヤル形式または形式には、フリーダイヤル番号をダイヤルするために必要な各国または地域内のアクセス コードが表示されます。
-ms.openlocfilehash: 8335435d8eac35b0e65ae8f8165ad2f9160b00d2
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: b109d27f3e2a6c608ca92ac537ce9a51c623aa2f
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62394439"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825471"
 ---
 # <a name="toll-free-dialing-restrictions-in-austria"></a>オーストリアでのフリーダイヤル制限
 

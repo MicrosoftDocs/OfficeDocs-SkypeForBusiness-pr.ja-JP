@@ -1,13 +1,13 @@
 ---
 title: PowerShell スクリプト サンプル - メッセージング ポリシーを割り当てる&作成する
-author: serdars
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.reviewer: ritikag
 ms.service: msteams
 audience: admin
-description: この PowerShell スクリプトを使用して、Teamsでメッセージング ポリシーを作成し、それを組織内のユーザーに割り当てます。
+description: この PowerShell スクリプトを使用して、Teams でメッセージング ポリシーを作成し、それを組織内のユーザーに割り当てます。
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -17,20 +17,20 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 09254f9ed85f69551ee825dbeb8ae063a010f780
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: 764de690bbf743991536416c7fed08d0b88e7e97
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823708"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825891"
 ---
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>PowerShell サンプル スクリプト - メッセージング ポリシーの作成と割り当て
 
-この PowerShell スクリプトを使用して、Microsoft Teamsでメッセージング ポリシーを作成し、それをユーザーに割り当てます。 
+この PowerShell スクリプトを使用して、Microsoft Teams でメッセージング ポリシーを作成し、それをユーザーに割り当てます。 
 
 この PowerShell スクリプトの使用の詳細については、「[クイック スタート - Microsoft Teams for Education」を](../teams-quick-start-edu.yml)参照してください。
 
-このスクリプトでは、Skype for Business Online PowerShell モジュールにある [Grant-CsTeamsMessagingPolicy](/powershell/module/skype/grant-csteamsmessagingpolicy) コマンドレットを使用します。 [PowerShell を使用したTeams](../teams-powershell-overview.md)の管理の詳細については、PowerShell の概要Teams参照してください。
+このスクリプトでは、Skype for Business Online PowerShell モジュールにある [Grant-CsTeamsMessagingPolicy](/powershell/module/skype/grant-csteamsmessagingpolicy) コマンドレットを使用します。 [PowerShell を](../teams-powershell-overview.md)使用した Teams の管理の詳細については、「Teams PowerShell の概要」を参照してください。
 
 
 ## <a name="before-you-start"></a>開始する前に
@@ -61,4 +61,4 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
 ```
 
 > [!NOTE]
-> また、バッチ ポリシーの割り当てまたはユーザーがメンバーであるグループに、大規模なユーザーにメッセージング ポリシーを直接割り当てることもできます。 詳細については、「[学校内の大規模なユーザー セットにポリシーを割り当てる](../batch-group-policy-assignment-edu.md)」と「[Teamsのユーザーにポリシーを割り当てる」を参照してください](../policy-assignment-overview.md)。
+> また、バッチ ポリシーの割り当てまたはユーザーがメンバーであるグループに、大規模なユーザーにメッセージング ポリシーを直接割り当てることもできます。 詳細については、「 [学校内の大規模なユーザー セットにポリシーを割り当てる](../batch-group-policy-assignment-edu.md) 」と「 [Teams のユーザーにポリシーを割り当てる」を参照してください](../policy-assignment-overview.md)。

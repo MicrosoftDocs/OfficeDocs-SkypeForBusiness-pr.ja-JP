@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams の使用状況レポート
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -17,12 +17,12 @@ description: 自分の組織での Teams のアクティビティの概要を把
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bf9e609dbd1cf53eef6b94733eacb168855c5f97
-ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
-ms.translationtype: HT
+ms.openlocfilehash: 3770d3e45e75808d8dc92e139c1886f6623df922
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "64642961"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825541"
 ---
 # <a name="microsoft-teams-usage-report"></a>Microsoft Teams の使用状況レポート
 

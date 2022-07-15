@@ -1,13 +1,13 @@
 ---
-title: PowerShell スクリプト サンプル - Teamsの自動開始設定をリセットする
-author: SerdarSoysal
-ms.author: serdars
+title: PowerShell スクリプト サンプル - Teams の自動開始設定をリセットする
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.reviewer: amitsri
 ms.service: msteams
 audience: admin
-description: この PowerShell スクリプトを使用して、ユーザーごとにTeamsの自動開始設定をリセットします。
+description: この PowerShell スクリプトを使用して、Teams の自動開始設定をユーザー単位でリセットします。
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -16,20 +16,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d9b5c46348f3805f42f6fc35eab60b6aef61ec6
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: fbe75347317b625a45e2e74eb26c6ba43886df2a
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62406009"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825481"
 ---
-# <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>PowerShell スクリプト サンプル - Teamsの自動開始設定をリセットする
+# <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>PowerShell スクリプト サンプル - Teams の自動開始設定をリセットする
 
-このスクリプトを使用して、ユーザーごとにTeams自動開始設定をリセットします。 これには、ユーザーまたはTeams アプリによって設定されたすべての値が含まれます。 既定では、ユーザーがコンピューターのインストール後にログインすると、Teamsが自動的に開始されます。
+このスクリプトを使用して、ユーザーごとに Teams の自動開始設定をリセットします。 これには、ユーザーまたは Teams アプリによって設定されたすべての値が含まれます。 既定では、ユーザーがコンピューターのインストール後にログインすると、Teams が自動的に開始されます。
 
-Teamsを既にデプロイしていて、[[インストール後にMicrosoft Teamsを自動的に開始しない] グループ ポリシー設定を](../msi-deployment.md#use-group-policy-recommended)設定して自動起動Teams無効にする場合は、最初にグループ ポリシー設定を目的の値に設定してから、このスクリプトを実行する必要があります。
+Teams を既に展開していて、[[インストール後に Microsoft Teams を自動的に開始できないようにする] グループ ポリシー設定](../msi-deployment.md#use-group-policy-recommended)を設定して Teams の自動起動を無効にする場合は、最初にグループ ポリシー設定を目的の値に設定してから、このスクリプトを実行する必要があります。
 
-ユーザーのTeamsが開始されると、グループ ポリシーを使用して自動開始設定を無効にすることはできません。
+Teams をユーザーに対して開始した後は、グループ ポリシーを使用して自動開始設定を無効にすることはできません。
 
 ## <a name="sample-script"></a>サンプル スクリプト
 
@@ -150,4 +150,4 @@ if($null -eq $teamsProc) {
 ## <a name="related-topics"></a>関連項目
 
 - [MSI を使用した Teams のインストール](../msi-deployment.md)
-- [Microsoft 365 Apps for enterpriseを使用してTeamsをデプロイする](/deployoffice/teams-install)
+- [Microsoft 365 Apps for enterpriseを使用して Teams を展開する](/deployoffice/teams-install)

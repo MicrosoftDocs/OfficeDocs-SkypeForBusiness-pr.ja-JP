@@ -1,13 +1,13 @@
 ---
 title: PowerShell スクリプト サンプル - 新しいユーザー マネージャー チームを作成する
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.reviewer: brandber
 ms.service: msteams
 audience: admin
-description: この PowerShell スクリプトを使用して、各マネージャーのチームをチーム メンバーとして直接作成します。
+description: この PowerShell スクリプトを使用して、チーム メンバーとして直属のレポートを含む各マネージャーのチームを作成します。
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -16,20 +16,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 05f5a53974444341ecc7da8431525b69bc8f1923
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 0b8eb4f60b5bf15e54821181ffedc584d9202669
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681558"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825661"
 ---
 # <a name="powershell-script-sample---create-new-people-manager-teams"></a>PowerShell スクリプト サンプル - 新しいユーザー マネージャー チームを作成する
 
-この PowerShell スクリプトを使用して、各マネージャーのチームをチーム メンバーとして直接作成します。 このスクリプトを実行する前に、 [マネージャーのエクスポート](powershell-script-create-teams-from-managers-export-managers.md) スクリプトを実行して 、(Active Directory から) 組織のマネージャーとその指示の一覧をエクスポートします。
+この PowerShell スクリプトを使用して、チーム メンバーとして直属のレポートを含む各マネージャーのチームを作成します。 このスクリプトを実行する前に、 [マネージャーのエクスポート](powershell-script-create-teams-from-managers-export-managers.md) スクリプトを実行して(Active Directory から) マネージャーの一覧と、組織の直属のレポートをエクスポートします。
 
 この PowerShell スクリプトの詳細については、「 [People Manager チームの作成」](../create-manager-directs-teams.md)を参照してください。
 
-PowerShell をこれまでに使用したことがなく、使用開始のためのヘルプが必要な場合は、「[Azure PowerShell の概要](/powershell/azure/overview)」をご覧ください。
+PowerShell を初めて使用していて、作業の開始に関するヘルプが必要な場合は、「[Azure PowerShellの概要](/powershell/azure/overview)」を参照してください。
 
 ## <a name="create-new-people-manager-teams"></a>新しいユーザー マネージャー チームを作成する
 

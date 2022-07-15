@@ -1,7 +1,7 @@
 ---
-title: PowerShell スクリプト サンプル - マネージャーとそのダイレクトをエクスポートする
-author: SerdarSoysal
-ms.author: serdars
+title: PowerShell スクリプト サンプル - マネージャーとその直属のレポートをエクスポートする
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.reviewer: brandber
@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 436f9566031a2cd9bc3b06a23df7b3b7346d3bec
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: fbd1758c0de6d0cb7751b4a447e21ab386f823ba
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674179"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825671"
 ---
-# <a name="powershell-script-sample---export-managers-and-their-directs"></a>PowerShell スクリプト サンプル - マネージャーとそのダイレクトをエクスポートする
+# <a name="powershell-script-sample---export-managers-and-their-direct-reports"></a>PowerShell スクリプト サンプル - マネージャーとその直属のレポートをエクスポートする
 
-この PowerShell スクリプトを使用して、組織のマネージャーとその指示の一覧をエクスポートします。 このスクリプトは、直属のレポートをチーム メンバーとして使用して、各マネージャーの People Manager チームを作成する準備として使用します。
+この PowerShell スクリプトを使用して、組織のマネージャーとその直属のレポートの一覧をエクスポートします。 このスクリプトは、直属のレポートをチーム メンバーとして使用して、各マネージャーの People Manager チームを作成する準備として使用します。
 
 この PowerShell スクリプトの詳細については、「 [People Manager チームの作成](../create-manager-directs-teams.md)」を参照してください。
 

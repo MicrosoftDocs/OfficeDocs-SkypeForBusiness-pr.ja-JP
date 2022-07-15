@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams の分析とレポート
-author: serdarsoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 ms.topic: conceptual
@@ -18,12 +18,12 @@ description: この記事では、Microsoft Teams 管理センターで使用で
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ad17bd2932786253f7dd3a925856d46780032204
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
+ms.openlocfilehash: 02acd95084b814e6f49634972eebeedfdeeb9472
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819312"
+ms.locfileid: "66825861"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams の分析とレポート
 
