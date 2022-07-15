@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams の共有チャネルを使用および管理する方法について説明します。
-ms.openlocfilehash: 11abe6245dea7ee72bc2f71b412addbed5aa6e30
-ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
+ms.openlocfilehash: 9a547963854f981e723d29b1472c2bda808b90c2
+ms.sourcegitcommit: 8fc2d6a824e1e119f54ea2347bc5c10cc076956d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66057057"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "66773766"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams の共有チャネル
 
@@ -94,7 +94,7 @@ Teamsでは、共有チャンネルがデフォルトで有効になっていま
 
 ## <a name="shared-channel-sharepoint-sites"></a>共有チャネルの SharePoint サイト
 
-各共有チャネルには、[独自の SharePoint サイト](/SharePoint/teams-connected-sites)があります。 個別のサイトは、共有チャネル ファイルへのアクセスが確実に共有チャネルのメンバーのみに制限されるようにするためにあります。 これらのサイトは規定でドキュメント ライブラリを使用して作成され、[サイト管理インターフェイス](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04)を介してフル機能のサイトへと簡単に拡張できます。 各サイトは、親チームのサイトと同じ地理的な場所に作成されます。 これらの軽量サイトは、PowerShell および Graph API による管理を容易にするためのカスタム テンプレート ID "TEAMCHANNEL#0" を持っています。 
+各共有チャネルには、[独自の SharePoint サイト](/SharePoint/teams-connected-sites)があります。 個別のサイトは、共有チャネル ファイルへのアクセスが確実に共有チャネルのメンバーのみに制限されるようにするためにあります。 これらのサイトは規定でドキュメント ライブラリを使用して作成され、[サイト管理インターフェイス](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04)を介してフル機能のサイトへと簡単に拡張できます。 各サイトは、親チームのサイトと同じ地理的な場所に作成されます。 これらの軽量サイトは、PowerShell および Graph API による管理を容易にするためのカスタム テンプレート ID "TEAMCHANNEL#1" を持っています。 
 
 共有チャネル サイトは、親チームの秘密度ラベルを継承します。 これは、チャネルが別のチームと直接共有されている場合でも当てはまります。
 
