@@ -1,8 +1,8 @@
 ---
 title: Microsoft Teams で組織の Tasks アプリを管理する
-author: mkbond007
-ms.author: mabond
-manager: serdars
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: andfried
@@ -21,12 +21,12 @@ MS.collection:
 - microsoftcloud-retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cff25b181af1f5280834080bb2308c9ab9bbc8b0
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
-ms.translationtype: HT
+ms.openlocfilehash: 1749c4b21c6b67f40eddd437ff0766918b5dc5df
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646396"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819272"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織の Tasks アプリを管理する
 
@@ -83,7 +83,7 @@ Teams のカスタマイズされたフロントライン アプリ エクスペ
 
 このアプリは、アプリ バー (Teams デスクトップ クライアントの横、および Teams モバイル クライアントの一番下にある) にピン留めされ、ユーザーはそこからすばやく簡単にアプリにアクセスできます。
 
-設定したアプリ ポリシーでのエクスペリエンスの動作など、詳細については、「[最前線のワーカー向けの Teams アプリの調整](pin-teams-apps-based-on-license.md)」を参照してください。
+設定したアプリ ポリシーでのエクスペリエンスの動作など、詳細については、「[最前線のワーカー向けの Teams アプリの調整](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)」を参照してください。
 
 #### <a name="use-an-app-setup-policy-to-pin-tasks-to-teams"></a>アプリのセットアップ ポリシーを使用して、Tasks をチームにピン留めする
 

@@ -1,8 +1,8 @@
 ---
 title: ヘルスケア向けの Teams ポリシー パッケージ
-ms.author: mabond
-author: mkbond007
-manager: serdars
+ms.author: v-lanachin
+author: LanaChin
+manager: samanro
 ms.reviewer: aaglick
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -21,12 +21,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: 医療組織用の Teams ポリシー パッケージを使用および管理する方法について説明します。
-ms.openlocfilehash: c4a1d6909cd6a2c7f58c3a30353a3d4398c4c70e
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: a4613716b1c5ce626e5a00ce2ed884cfb208f097
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563725"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819422"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>ヘルスケア向けの Teams ポリシー パッケージ
 
@@ -101,9 +101,7 @@ Microsoft Teams には現在、次のヘルスケア ポリシー パッケー�
 
 #### <a name="assign-a-policy-package-to-a-group"></a>ポリシー パッケージをグループに割り当てる
 
-**この機能はプライベート プレビューです**
-
-グループにポリシー パッケージを割り当てると、セキュリティ グループや配布リストなど、ユーザーのグループに複数のポリシーを割り当てることができます。 ポリシーの割り当ては、優先規則に従ってグループのメンバーに反映されます。 グループのメンバーが追加または削除されると、それに応じて継承されたポリシーの割り当てが更新されます。 この方法は、最大 50,000 ユーザーのグループに推奨されますが、より大きなグループでも機能します。
+グループへのポリシー パッケージの割り当てでは、セキュリティ グループや配布リストなど、ユーザーのグループに複数のポリシーを割り当てることができます。 ポリシーの割り当ては、優先規則に従ってグループのメンバーに反映されます。 グループのメンバーが追加または削除されると、それに応じて継承されたポリシーの割り当てが更新されます。 この方法は、最大 50,000 ユーザーのグループに推奨されますが、より大きなグループでも機能します。
 
 詳細については、[「グループにポリシー パッケージを割り当てる」](assign-policy-packages.md#assign-a-policy-package-to-a-group)を参照してください。
 
@@ -111,7 +109,7 @@ Microsoft Teams には現在、次のヘルスケア ポリシー パッケー�
 
 バッチ ポリシーパッケージの割り当てを使用して、多数のユーザー セットに同時にポリシーパッケージを割り当てることができます。 [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) コマンドレットを使用して、割り当てたい一群のユーザーおよびポリシー パッケージを送信します。 割り当てはバックグラウンド操作として処理され、各バッチの操作 ID が生成されます。
 
-バッチには最大 5,000 のユーザーを含めることができます。 ユーザーをオブジェクト ID、UPN、SIP アドレス、またはメール アドレスで指定できます。 詳細については、[「一群のユーザーにポリシー パッケージを割り当てる」](assign-policy-packages.md#assign-a-policy-package-to-a-batch-of-users)を参照してください。
+バッチには最大 5,000 のユーザーを含めることができます。 ユーザーは、オブジェクト ID、UPN、SIP アドレス、または電子メール アドレスで指定できます。 詳細については、[「一群のユーザーにポリシー パッケージを割り当てる」](assign-policy-packages.md#assign-a-policy-package-to-a-batch-of-users)を参照してください。
 
 ## <a name="related-topics"></a>関連項目
 

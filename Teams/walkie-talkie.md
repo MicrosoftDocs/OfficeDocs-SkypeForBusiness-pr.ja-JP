@@ -18,18 +18,18 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e311fb94996e1c51bb5f73190539cd0e1f9f127
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: bfd87dbd6b8cc96377c8163294a3fda41934d801
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681898"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819262"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams のトランシーバー アプリ
 
-Teamsの Walkie Talkie アプリは、チームに即座にプッシュツートーク (PTT) 通信を提供し、Android & iOSで利用できるようになりました。 トランシーバーを使用すると、ユーザーは、メンバーと同じ基本チャネルを使用してチームとつながることができます。 チャネルでトランシーバーに接続するユーザーのみが参加者になり、プッシュツートークを使用して一度に 1 つずつ相互に通信できます。
+Teams の Walkie Talkie アプリは、チームに即座にプッシュツートーク (PTT) 通信を提供し、Android & iOS で利用できるようになりました。 トランシーバーを使用すると、ユーザーは、メンバーと同じ基本チャネルを使用してチームとつながることができます。 チャネルでトランシーバーに接続するユーザーのみが参加者になり、プッシュツートークを使用して一度に 1 つずつ相互に通信できます。
 
-Teamsの Walkie Talkie を使用すると、現場のワーカーは、かさばるラジオを持ち運ぶ必要なく、使い慣れた PTT エクスペリエンスと安全に通信できるようになり、Walkie Talkie は WiFi または携帯インターネット接続を使用してどこでも動作します。
+Teams の Walkie Talkie を使用すると、現場のワーカーは、かさばるラジオを持ち運ぶ必要なく、使い慣れた PTT エクスペリエンスと安全に通信できるようになり、Walkie Talkie は WiFi または携帯インターネット接続を使用してどこでも動作します。
 
 > [!NOTE]
 > Walkie Talkie は現在、中国では利用できません。
@@ -38,21 +38,21 @@ Teamsの Walkie Talkie を使用すると、現場のワーカーは、かさば
 
 ### <a name="deploying-walkie-talkie"></a>トランシーバーの展開
 
-Walkie Talkie は、Google Mobile Services (GMS) および iOS デバイスを使用するAndroid デバイスでサポートされています。
+Walkie Talkie は、Google Mobile Services (GMS) および iOS デバイスを搭載した Android デバイスでサポートされています。
 
-### <a name="pin-walkie-talkie-to-teams"></a>Walkie Talkie をTeamsにピン留めする
+### <a name="pin-walkie-talkie-to-teams"></a>Walkie Talkie を Teams にピン留めする
 
-#### <a name="use-the-tailored-frontline-app-experience-to-pin-walkie-talkie-and-other-apps-to-teams"></a>カスタマイズされたフロントライン アプリ エクスペリエンスを使用して、Walkie Talkie やその他のアプリをTeamsにピン留めする
+#### <a name="use-the-tailored-frontline-app-experience-to-pin-walkie-talkie-and-other-apps-to-teams"></a>カスタマイズされたフロントライン アプリ エクスペリエンスを使用して、Walkie Talkie やその他のアプリを Teams にピン留めする
 
-Teamsのカスタマイズされたフロントライン アプリ エクスペリエンスは、[F ライセンス](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)を持つユーザーにとってTeamsで最も関連性の高いアプリをピン留めします。 ピン留めされたアプリには、Walkie Talkie、Shifts、Tasks、承認が含まれます。 既定では、この機能はオンになっており、現場のワーカーはニーズに合わせてすぐに使えるエクスペリエンスを提供します。
+Teams のカスタマイズされたフロントライン アプリ エクスペリエンスは、 [F ライセンス](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)を持つユーザーにとって Teams で最も関連性の高いアプリをピン留めします。 ピン留めされたアプリには、Walkie Talkie、Shifts、Tasks、Approvals などがあります。 既定では、この機能はオンになっており、現場の従業員はニーズに合わせてすぐに使えるエクスペリエンスを提供します。
 
-アプリは、アプリ バー (Teams デスクトップ クライアントの側とTeamsモバイル クライアントの下部にあるバー) にピン留めされ、ユーザーはすばやく簡単にアクセスできます。
+このアプリは、アプリ バー (Teams デスクトップ クライアントの横、および Teams モバイル クライアントの一番下にある) にピン留めされ、ユーザーはそこからすばやく簡単にアプリにアクセスできます。
 
-設定したアプリ ポリシーでのエクスペリエンスの動作など、詳細については、「[現場のワーカー向けにアプリTeamsを調整する](pin-teams-apps-based-on-license.md)」を参照してください。
+その他設定したアプリ ポリシーでのエクスペリエンスの動作など、詳細については、「[現場の従業員向けの Teams アプリの調整](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)」を参照してください。
 
-#### <a name="use-an-app-setup-policy-to-pin-walkie-talkie-to-teams"></a>アプリセットアップ ポリシーを使用して Walkie Talkie をTeamsにピン留めする
+#### <a name="use-an-app-setup-policy-to-pin-walkie-talkie-to-teams"></a>アプリセットアップ ポリシーを使用して Walkie Talkie を Teams にピン留めする
 
-アプリのセットアップ ポリシーを使用すると、Teamsをカスタマイズして、ユーザーのユーザーにとって最も重要なアプリをピン留めできます。
+アプリのセットアップ ポリシーを使用すると、チームをカスタマイズして、ユーザーにとって最も重要なアプリをユーザーに固定できます。
 
 ユーザーの Walkie Talkie アプリをピン留めするには、グローバル (組織全体の既定) ポリシーを編集するか、カスタム アプリ設定ポリシーを作成して割り当てることができます。 詳細については、「[Teams でアプリの設定ポリシーを管理する](teams-app-setup-policies.md)」を参照してください。
 
@@ -83,26 +83,26 @@ Walkie Talkie からの予想されるデータ使用量は、オーディオの
 - **ヘッドセット**
   - ワイヤレス ヘッドセット (iOS & Android)
     - [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie)
-  - ワイヤード ヘッドセット (Androidのみ)
+  - ワイヤード ヘッドセット (Android のみ)
     - [クライン エレクトロニクス](https://www.kleinelectronics.com/poc-accessories/mtwt/)
-- **堅牢なAndroid電話**
-  - [Samsung Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/)、[Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy)、[Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
-    - 手動セットアップ - Teamsがインストールされている場合は、XCover/Active キー>設定 >高度な機能に移動します。 [アプリで XCover キーを制御する] をオンにし、[Teams] を選択します。
+- **堅牢な Android スマートフォン**
+  - [Samsung Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/), [Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy), [Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
+    - 手動セットアップ - Teams がインストールされている場合は、[設定] > [高度な機能] > XCover/Active キーに移動します。 [アプリで XCover キーを制御する] をオンにし、[Teams] を選択します。
     - [MDM のセットアップ](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
   - Zebra [TC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc52-tc57-series-touch-computer.html)、 [TC7x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc72-tc77-series-touch-computer.html)、 [TC2x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc21-tc26.html)、 [EC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec50-ec55.html)、 [EC30](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec30.html)、 [MC3300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc3300.html)、 [MC9300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc9300.html) 
-    - 手動セットアップ - Teamsがインストールされている場合、専用 PTT ボタン (LEFT_TRIGGER_2) は既定で Walkie Talkie で動作します
+    - 手動セットアップ - Teams がインストールされている場合、既定では、専用 PTT ボタン (LEFT_TRIGGER_2) は Walkie Talkie で動作します
     
 > [!NOTE]
 > これらのデバイスは Teams 認定を受けていません。 Teams トランシーバーで動作することが検証されています。
 
 ### <a name="license-requirements"></a>ライセンス要件
 
-トランシーバー アプリは、[Office 365 サブスクリプション](/office365/servicedescriptions/teams-service-description)の Teams のすべての有料ライセンスに含まれています。 Teamsの取得の詳細については、[Microsoft Teamsへのアクセス操作方法確認](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)してください。
+トランシーバー アプリは、[Office 365 サブスクリプション](/office365/servicedescriptions/teams-service-description)の Teams のすべての有料ライセンスに含まれています。 Teams の取得の詳細については、[Microsoft Teams にアクセス操作方法確認してください](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)。
 
 ## <a name="further-information"></a>詳細情報
 
 - IT 管理者は、アプリ ポリシーを通じて Walkie Talkie を使用しているユーザーを制御できます。
-- フロントライン ワーカーがモバイル データを使用してTeams経由で通信している場合、Walkie Talkie は同じ方法を使用します。
+- フロントライン ワーカーがモバイル データを使用して Teams 経由で通信している場合、Walkie Talkie は同じ方法を使用します。
 - トランシーバーは、低帯域幅の状況、またはスマートフォンが接続されて機能している状況でうまく機能するはずです。 接続がまったくない場合、Walkie Talkie は機能しません。
 
 エンドユーザー エクスペリエンスの詳細については、以下を参照してください。

@@ -1,16 +1,16 @@
 ---
-title: Teams における承認アプリケーションの利用の可否
-author: mkbond007
-ms.author: mabond
+title: Microsoft Teams で承認アプリを管理する
+author: LanaChin
+ms.author: v-lanachin
 ms.reviewer: farhazk
-manager: serdars
+manager: samanro
 ms.topic: article
 audience: admin
 ms.service: msteams
 searchScope:
 - Microsoft Teams
 search.appverid: MET150
-description: Microsoft Teams で承認アプリケーションを使用する方法について説明します。
+description: Microsoft Teams で組織の承認アプリを管理する方法について説明します。
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -18,14 +18,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93b0a74feb2d9333d634b9a7858ff6136ca5b5ec
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
-ms.translationtype: HT
+ms.openlocfilehash: 888bd2a3cc9b53595625f43e04ab3b1603645944
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676499"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819282"
 ---
-# <a name="teams-approvals-app-availability"></a>Teams 承認アプリの利用の可否
+# <a name="manage-the-approvals-app-in-microsoft-teams"></a>Microsoft Teams で承認アプリを管理する
 
 Microsoft Teams ユーザーは、個人用アプリとして承認アプリを利用することができます。
 承認アプリは、Teams 内の構造化された承認と構造化されていない承認の両方に対して、監査、コンプライアンス、説明責任、およびワークフローを簡単にする方法を提供します。 
@@ -130,7 +130,7 @@ Teams のカスタマイズされたフロントライン アプリ エクスペ
 
 このアプリは、アプリ バー (Teams デスクトップ クライアントの横、および Teams モバイル クライアントの一番下にある) にピン留めされ、ユーザーはそこからすばやく簡単にアプリにアクセスできます。
 
-その他設定したアプリ ポリシーでのエクスペリエンスの動作など、詳細については、「[現場の従業員向けの Teams アプリの調整](pin-teams-apps-based-on-license.md)」を参照してください。
+その他設定したアプリ ポリシーでのエクスペリエンスの動作など、詳細については、「[現場の従業員向けの Teams アプリの調整](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)」を参照してください。
 
 ### <a name="use-an-app-setup-policy-to-pin-approvals-to-teams"></a>アプリのセットアップ ポリシーを使用して、Tasks をチームにピン留めする
 

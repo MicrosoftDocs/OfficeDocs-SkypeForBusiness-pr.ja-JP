@@ -1,9 +1,9 @@
 ---
 title: 組織のシフト アプリを管理する
-author: mkbond007
-ms.author: mabond
+author: LanaChin
+ms.author: v-lanachin
 ms.reviewer: aaku
-manager: serdars
+manager: samanro
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -12,7 +12,7 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 - Microsoft Cloud for Retail
-description: 組織内のフロントライン ワーカーのTeamsで Shifts アプリを設定および管理する方法について説明します。
+description: 組織内のフロントライン ワーカー用に Teams で Shifts アプリを設定および管理する方法について説明します。
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -24,18 +24,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4c4b76bb4f2f63ffadc0a98d00a8f2d10ec8ef91
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: e97e90a3a6e97bd2637d63cf3ee0d0bceb57dc15
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646266"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819412"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織のシフト アプリを管理する
 
 ## <a name="overview-of-shifts"></a>シフトの概要
 
-Microsoft Teamsの Shifts アプリでは、フロントライン ワーカーが接続され、同期されます。これは、チームの迅速かつ効果的な時間管理とコミュニケーションを実現するために、モバイルファーストで構築されています。 シフトにより、現場の従業員とそのマネージャーは、モバイル デバイスを使用してスケジュールを管理し、連絡を取り合うことができます。
+Microsoft Teams の Shifts アプリでは、現場のワーカーが接続され、同期されます。これは、チームの迅速かつ効果的な時間管理とコミュニケーションを実現するために、モバイルファーストで構築されています。 シフトにより、現場の従業員とそのマネージャーは、モバイル デバイスを使用してスケジュールを管理し、連絡を取り合うことができます。
 
 - マネージャーは、チームのシフト スケジュールを作成、更新、および管理します。 マネージャーは、メッセージを 1 人のユーザーに送ることも ("床が汚れています" など)、チーム全体に送ることもできます ("地区本部長があと 20 分で到着します" など)。 マネージャーは、ポリシー ドキュメント、ニュース速報、およびビデオを送信することもできます。
 - 従業員は、自分の今後のシフトの確認、自分の他にその日にスケジュールが入っている従業員の表示、シフトの入れ替えや申し出のリクエスト、および休暇のリクエストを行います。
@@ -50,7 +50,7 @@ Shifts は現在、ゲストをサポートしていないことを知してお�
 シフトは、Teams が使用可能なすべてのエンタープライズ SKU で使用できます。
 
 > [!NOTE]
-> シフトは、Government Community Cloud (GCC) 環境では使用できますが、GCC High 環境や DoD 環境では使用できません。
+> シフトは Government Community Cloud (GCC) 環境で使用できますが、GCC High 環境や DoD 環境では使用できません。
 
 ## <a name="location-of-shifts-data"></a>シフトのデータの場所
 
@@ -71,23 +71,23 @@ Shifts データのストレージ、リテンション期間、取得、暗号�
 
 組織内の特定のユーザーに Shifts の使用を許可またはブロックするには、[ [アプリの管理](../../manage-apps.md) ] ページで組織の Shift が有効になっていることを確認します。 次に、カスタム アプリのアクセス許可ポリシーを作成し、それらのユーザーに割り当てます。 詳細については、「[Teams のアプリのアクセス許可ポリシーを管理する](../../teams-app-permission-policies.md)」を参照してください。
 
-### <a name="pin-shifts-to-teams"></a>Teamsにシフトをピン留めする
+### <a name="pin-shifts-to-teams"></a>Teams にシフトをピン留めする
 
-#### <a name="use-the-tailored-frontline-app-experience-to-pin-shifts-and-other-apps-to-teams"></a>調整済みフロントライン アプリ エクスペリエンスを使用して、Shifts やその他のアプリをTeamsにピン留めする
+#### <a name="use-the-tailored-frontline-app-experience-to-pin-shifts-and-other-apps-to-teams"></a>カスタマイズされたフロントライン アプリ エクスペリエンスを使用して、Shift やその他のアプリを Teams にピン留めする
 
-Teamsのカスタマイズされたフロントライン アプリ エクスペリエンスは、[F ライセンス](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)を持つユーザーにとってTeamsで最も関連性の高いアプリをピン留めします。 ピン留めされたアプリには、Shifts、Walkie Talkie、Tasks、承認が含まれます。 既定では、この機能はオンになっており、現場のワーカーはニーズに合わせてすぐに使えるエクスペリエンスを提供します。
+Teams のカスタマイズされたフロントライン アプリ エクスペリエンスは、 [F ライセンス](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)を持つユーザーにとって Teams で最も関連性の高いアプリをピン留めします。 ピン留めされたアプリには、Shifts、Walkie Talkie、タスク、承認などがあります。 既定では、この機能はオンになっており、現場のワーカーはニーズに合わせてすぐに使えるエクスペリエンスを提供します。
 
-アプリは、アプリ バー (Teams デスクトップ クライアントの側とTeamsモバイル クライアントの下部にあるバー) にピン留めされ、ユーザーはすばやく簡単にアクセスできます。
+このアプリは、アプリ バー (Teams デスクトップ クライアントの横、および Teams モバイル クライアントの一番下にある) にピン留めされ、ユーザーはそこからすばやく簡単にアプリにアクセスできます。
 
-設定したアプリ ポリシーでのエクスペリエンスの動作など、詳細については、「[現場のワーカー向けにアプリTeamsを調整する](../../pin-teams-apps-based-on-license.md)」を参照してください。  
+その他設定したアプリ ポリシーでのエクスペリエンスの動作など、詳細については、「[現場の従業員向けの Teams アプリの調整](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)」を参照してください。  
 
-#### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>アプリのセットアップ ポリシーを使用して Shifts をTeamsにピン留めする
+#### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>アプリセットアップ ポリシーを使用して Shifts を Teams にピン留めする
 
-アプリセットアップ ポリシーを使用すると、ユーザーにとって最も重要なアプリをピン留めするためにTeamsをカスタマイズできます。
+アプリセットアップ ポリシーを使用すると、Teams をカスタマイズして、ユーザーにとって最も重要なアプリをピン留めできます。
 
 Shifts アプリを追加して [カスタム アプリセットアップ ポリシー](../../teams-app-setup-policies.md) を作成し、その [ポリシーをユーザーに割り当てることができます](../../assign-policies-users-and-groups.md) 。 または、Frontline Worker および Frontline Manager ポリシー パッケージの一部であるアプリ設定ポリシーを使用することもできます。
 
-Teamsの[ポリシー パッケージ](../../manage-policy-packages.md)は、組織内で同様のロールを持つユーザーに割り当てることができる定義済みのポリシーとポリシー設定のコレクションです。 Frontline Worker および Frontline Manager ポリシー パッケージの一連のポリシーには、Shifts アプリとそのロールのコミュニケーションとコラボレーション アクティビティをサポートするその他のアプリを固定するアプリセットアップ ポリシーが含まれます。
+Teams の [ポリシー パッケージ](../../manage-policy-packages.md) は、組織内で同様のロールを持つユーザーに割り当てることができる定義済みのポリシーとポリシー設定のコレクションです。 Frontline Worker および Frontline Manager ポリシー パッケージの一連のポリシーには、Shifts アプリとそのロールのコミュニケーションとコラボレーション アクティビティをサポートするその他のアプリを固定するアプリセットアップ ポリシーが含まれます。
 
 フロントライン ワーカーと Frontline Manager ポリシー パッケージは、フロントラインの従業員のポリシーを管理する際に簡略化、合理化、一貫性を提供するために使用することをお勧めします。
 
@@ -101,8 +101,8 @@ Teamsの[ポリシー パッケージ](../../manage-policy-packages.md)は、組
 
 ## <a name="related-articles"></a>関連記事
 
-- [Shifts for Teams](../shifts-for-teams-landing-page.md)
+- [Shifts for Teams](/microsoft-365/frontline/shifts-for-teams-landing-page)
 - [Shifts データに関する FAQ](shifts-data-faq.md)
-- [コネクタをシフトする](shifts-connectors.md)
+- [コネクタをシフトする](/microsoft-365/frontline/shifts-connectors)
 - [フロントライン ワーカーの Shifts ヘルプ](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 - [ Teams でユーザーにポリシーを割り当てる](../../policy-assignment-overview.md)
