@@ -1,7 +1,7 @@
 ---
 title: イタリアでのフリーダイヤルの制限
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: davlick, krkilaru
 ms.topic: reference
@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: これにより、各国/地域でフリーダイヤル番号をダイヤルする方法を確認できます。 国/地域を選択すると、国固有のページが表示されます。このページには、フリーダイヤル サービスを利用できる国/地域の詳細、および制限が表示されます。 ダイヤル形式または形式には、フリーダイヤル番号をダイヤルするために必要な各国または地域内のアクセス コードが表示されます。
-ms.openlocfilehash: 5aa3ed9f387821b92d36a34d01a47743519a75ef
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 1cb50919d18ee7ed02596f2416f295b0545ac600
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62414180"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825731"
 ---
 # <a name="toll-free-dialing-restrictions-in-italy"></a>イタリアでのフリーダイヤルの制限
 

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams でのライブ イベントのセットアップ
-author: serdarsoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ description: Teams でライブ イベントをセットアップします。こ
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a2e7061252afc5c485da01c3c1c30e9625bd07cc
-ms.sourcegitcommit: 3f046142c40b3b776165e964f2b8718e2fe55df3
+ms.openlocfilehash: f972fa2a78796a2768c62d191a95e68f41a91a5e
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "65661668"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825911"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントのセットアップ
 
@@ -50,7 +50,7 @@ Teams で作成したライブ イベントを配信するには、[Teams 用に
 
 <a name="bkcreatepolicy"> </a>
 
-1. Microsoft Teams管理センターの左側のナビゲーションで、**MeetingsLive** >  **イベント ポリシー** > **の [Manage ポリシー**] タブに移動します。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、**Meetings****Live イベント ポリシー** > の **[ポリシーの** > 管理] タブに移動します。
 2. 次のいずれかを行います。
 
     - 既存の既定のポリシーを編集する場合は、**[グローバル (組織全体の既定値)]** を選択します。
@@ -70,7 +70,7 @@ Teams で作成したライブ イベントを配信するには、[Teams 用に
 |**スケジュールされたライブ イベントに参加できるユーザー**    |次のいずれかのオプションを選びます。<br><br>**すべてのユーザー**: 組織外部のユーザーを含め、すべてのユーザーが出席できるライブ イベントを作成できます。 この設定では、ユーザーがライブ イベントをスケジュールするときに、Teams で **[パブリック]** タイプのアクセス許可が有効になります。<br> **組織内のすべてのユーザー**: 組織に追加された [ゲスト ユーザー](../add-guests.md)を含め、組織内のすべてのユーザーが出席できるライブ イベントを作成できます。 匿名ユーザーが出席するライブ イベントを作成することはできません。 この設定では、ユーザーがライブ イベントをスケジュールするときに、Teams で **[組織全体]** タイプのアクセス許可が有効になります。<br> **特定のユーザーまたはグループ**: 特定のユーザーまたは組織内のグループだけが出席できるライブ イベントを作成できます。 組織内のすべてのユーザーや匿名ユーザーが出席するライブ イベントを作成することはできません。 この設定では、ユーザーがライブ イベントをスケジュールするときに、Teams で **[ユーザーとグループ]** タイプのアクセス許可が有効になります。       |
 |**録画設定**  <br>     | この設定は、Teams で作成されるイベントにのみ適用できます。 次のいずれかのオプションを選びます。 <br><br> **常に録画**: ユーザーが作成したライブ イベントは常に録画されます。 イベントの終了後、イベントのチーム メンバーは録画をダウンロードできます。また、出席者はイベントを視聴できます。 <br> **録画しない**: ユーザーが作成したライブ イベントは録画されません。 <br>**開催者が録画可能または不可**: ライブ イベントを録画するかどうかをユーザーが決定できます。 録画する場合は、イベントの終了後、イベントのチーム メンバーは録画をダウンロードできます。また、出席者はイベントを視聴できます。
 
-これを行うには、Windows PowerShellを使用し、現在、High および DoD のお客様GCCこの方法を使用する必要があります。 詳細については、「[PowerShell を使用して Microsoft Teams でのライブ イベント ポリシーを設定する](set-teams-live-events-policies-using-powershell.md)」を参照してください。
+また、Windows PowerShellを使用してこれを行うこともできます。現在、GCC High および DoD のお客様はこの方法を使用する必要があります。 詳細については、「[PowerShell を使用して Microsoft Teams でのライブ イベント ポリシーを設定する](set-teams-live-events-policies-using-powershell.md)」を参照してください。
 
 ### <a name="assign-a-live-events-policy-to-users"></a>ユーザーにライブ イベント ポリシーを割り当てる
 

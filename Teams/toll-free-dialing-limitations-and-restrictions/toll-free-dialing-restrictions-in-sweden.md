@@ -1,7 +1,7 @@
 ---
 title: スウェーデンでのフリーダイヤル制限
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: davlick, krkilaru
 ms.topic: reference
@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: これにより、各国/地域でフリーダイヤル番号をダイヤルする方法を確認できます。 国/地域を選択すると、国固有のページが表示されます。このページには、フリーダイヤル サービスを利用できる国/地域の詳細、および制限が表示されます。 ダイヤル形式には、フリーダイヤル番号をダイヤルするために必要な国/地域内のアクセス コードが表示されます。
-ms.openlocfilehash: ac318cb2be4991ff9bd39677ace7b69b2bf272e1
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 208d41af4196eaac46adef9d92dd1e98e392ef51
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62418320"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825901"
 ---
 # <a name="toll-free-dialing-restrictions-in-sweden"></a>スウェーデンでのフリーダイヤル制限
 
@@ -38,7 +38,7 @@ ms.locfileid: "62418320"
 |:-----|:-----|
 |フリーダイヤルを利用できますか?  <br/> |はい  <br/> |
 |ダイヤル形式  <br/> | 020 <br/> |
-|国/地域の ISO コード  <br/> |Standard Edition  <br/> |
+|国/地域の ISO コード  <br/> |SE  <br/> |
 |対象となる島/地域  <br/> |該当なし  <br/> |
 |対象外の島/地域  <br/> |該当なし  <br/> |
 |有線/固定回線の状態  <br/> |はい  <br/> |
