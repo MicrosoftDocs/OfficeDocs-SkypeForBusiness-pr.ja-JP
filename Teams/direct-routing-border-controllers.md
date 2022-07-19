@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: どのセッション ボーダー コントローラー (SBC) がダイレクト ルーティングの認証済みであるかについて説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bb4363fec70a7bcf139929541a7dfe3686089937
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: 3a0db349d1e828a238a6b7a68d8f005e7389182b
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823549"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838852"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングが認定されたセッション ボーダー コントローラー
 
@@ -178,3 +178,6 @@ Microsoft は以下の各ベンダーと協力します。
 メジャー バージョンに付与された認証に注意してください。 これは、SBC ファームウェアでメジャー バージョンに続く任意の番号のファームウェアがサポートされていることを意味します。
 
 新機能のアイデアなどTeamsに関するフィードバックを提供するには、[Microsoft フィードバック ポータルを参照してください](https://feedbackportal.microsoft.com/)。
+
+> [!NOTE]
+> メディアの再ターゲット設定はサポートされていません。 ダイレクト ルーティングの呼び出し中に、SBC が新しいメディア IP を Teams ダイレクト ルーティングに送信する場合、SIP 信号でネゴシエートされますが、メディアは Teams ダイレクト ルーティングから新しい IP アドレスに送信されることはありません。

@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: f802506ff815745aaf555501e37171ebddfc7f91
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 24115de31c06c38ff1f0217868cf19993aa24555
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66615863"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838862"
 ---
 # <a name="about-apps-in-microsoft-teams"></a>Microsoft Teams のアプリについて
 
@@ -83,9 +83,15 @@ Microsoft 提供のアプリに加えて、Microsoft 検証済みのサードパ
 
 サイドローディングを禁止した場合でも、開発者は[テスト テナント](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant)でアプリをテストできます。 カスタム アプリの開発が完了すると、開発者はカスタム アプリをエンド ユーザーに配布するよう管理者に要求します。 詳細については、[カスタム アプリを発行する方法](/microsoftteams/upload-custom-apps)を参照してください。 管理者であるお客様は、特定のユーザーに対してカスタム アプリの使用を許可または禁止できます。
 
-### <a name="about-app-templates"></a>アプリ テンプレートについて
+## <a name="about-app-templates"></a>アプリ テンプレートについて
 
-Teams 用のアプリ テンプレートは、Microsoft が作成した機能的で本番環境に対応したサンプル アプリであり、一般的なユース ケースを示し、アプリ開発のベスト プラクティスを紹介し、開発者がカスタム アプリを作成するために拡張できるオープンソース アプリを提供します。 組織の開発者は、GitHub で公開されたコードを簡単に変更して、アプリ テンプレートを組織のニーズに合わせてカスタマイズします。 管理者であるお客様は、エンド ユーザー向けのカスタム アプリとしてこれらのアプリを提供します。
+Teams 用のアプリ テンプレートは、以下を実現するために Microsoft が作成した、機能的で実稼働可能なサンプル アプリです。
+
+* 一般的なユース ケースを示す
+* アプリ開発のベスト プラクティスを紹介する
+* 開発者がカスタム アプリを作成するために拡張できるオープンソース アプリを提供する
+
+組織の開発者は、GitHub で公開されているコードに簡単な変更を加えて、アプリ テンプレートをカスタマイズします。 これらのアプリをエンド ユーザー向けのカスタム アプリとして提供して、組織のニーズを満たします。
 
 詳細については、「[Microsoft Teams アプリ テンプレート](https://adoption.microsoft.com/microsoft-teams/app-templates/)」を参照してください。
 
