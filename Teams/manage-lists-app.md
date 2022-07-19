@@ -1,9 +1,9 @@
 ---
 title: 組織のリスト アプリを管理する
-author: mkbond007
-ms.author: mabond
+author: LanaChin
+ms.author: v-lanachin
 ms.reviewer: anach,v-jasuk
-manager: serdars
+manager: samanro
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -24,12 +24,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 6c756fcdf8251bc2b468be1f89c98b1f069a1779
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: efb9f2ce1f96dbddef049166e34fd999a5ed987e
+ms.sourcegitcommit: ea9cbb8e32b7f23c17930eadc0a1dcbd906449ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646496"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66842233"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織のシフト アプリを管理する
 
@@ -60,7 +60,7 @@ Teams では、ユーザーはチャネル内のタブとしてリストにア�
 
 打ち合わせ後、郵便配達員が郵便物を受け取り、配達ルートへの移動を開始します。 インシデントはルート上で発生する可能性があります。たとえば、車両事故、犬に関連する問題、社会問題に対する抗議運動などです。 配達員がインシデントに遭遇した場合、モバイル デバイス上の Teams を使用してインシデントの詳細を記録します。そしてそのインシデントは、チーム チャネル内のリストで追跡されます。 現場の郵便配達員を含むチームの全員がこの情報を確認しながら、常に情報を得ることができます。
 
-Teamsに移行する前に、メール配送業者はポスト オフィスに戻ってハード コピー フォームを完成してインシデントを報告し、Excel スプレッドシートに入力する必要がありました。 Teams は、リストを使用して現場で発生したインシデントを報告したり、インシデントの詳細をチーム メンバーと共有したり、チャネル上で会話したり、インシデントを解決したりすることができるモバイル ファーストな使用体験を郵便配達員に提供します。
+Teams に移行する前に、メールキャリアはポスト オフィスに戻ってハードコピー フォームを完成してインシデントを報告する必要がありました。その後、Excel スプレッドシートに入力されました。 Teams は、リストを使用して現場で発生したインシデントを報告したり、インシデントの詳細をチーム メンバーと共有したり、チャネル上で会話したり、インシデントを解決したりすることができるモバイル ファーストな使用体験を郵便配達員に提供します。
 
 ## <a name="what-you-need-to-know-about-lists"></a>リストについて知っておくべきこと
 
@@ -93,9 +93,9 @@ SharePoint で設定したアクセス許可は、リスト アプリで作成�
 
 ### <a name="enable-or-disable-lists-in-your-organization"></a>組織のリストを有効または無効にする
 
-リストは、組織内のすべての Teams ユーザーに対して既定で有効になっています。 組織レベルでアプリをオフまたはオンにするには、Microsoft Teams 管理センターの [[アプリの管理]](manage-apps.md) ページで行います。
+リストは、組織内のすべての Teams ユーザーに対して既定で有効になっています。 組織レベルでアプリをオフまたはオンにするには、Microsoft Teams 管理センターの [[アプリを管理]](manage-apps.md) ページで行います。
 
-1. Microsoft Teams管理センターの左側のウィンドウで、**Teams** **appsManage アプリ** > に移動します。
+1. Microsoft Teams 管理センターの左側のウィンドウで、**[Teams アプリ]** > **[アプリの管理]** の順に移動します。
 2. 次のいずれかの操作を行います。
 
     - 組織のリストをオフにするには、リスト アプリを検索して選択し、 **ブロック** を選択します。
@@ -119,7 +119,7 @@ Teams のリスト アプリに関連する監査イベントの一覧につい�
 
 ## <a name="give-feedback-or-report-an-issue"></a>フィードバックの提供/問題の報告
   
-フィードバックを送信したり、問題を報告したりするには、Teamsの左側のウィンドウの下部にある **[ヘルプ**] を選択し、[**問題の報告**] を選択します。 **[リスト]** を選択し、フィードバックや発生している問題についての詳細情報を入力します。
+フィードバックを送信したり、問題を報告したりするには、Teams の左側のウィンドウの下部にある **[ヘルプ** ] を選択し、[ **問題の報告**] を選択します。 **[リスト]** を選択し、フィードバックや発生している問題についての詳細情報を入力します。
 
 ## <a name="related-articles"></a>関連記事
 

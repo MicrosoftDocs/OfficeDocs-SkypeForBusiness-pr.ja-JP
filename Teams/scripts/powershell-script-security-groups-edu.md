@@ -1,13 +1,13 @@
 ---
 title: PowerShell スクリプト サンプル - 学校の教育者と学生のセキュリティ グループを作成する
-author: serdars
-ms.author: serdars
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.reviewer: angch
 ms.service: msteams
 audience: admin
-description: この PowerShell スクリプトを使用して、学校の教育者と学生のTeamsポリシーを管理するために必要なセキュリティ グループを作成します。
+description: この PowerShell スクリプトを使用して、学校の教育者と学生の Teams ポリシーを管理するために必要なセキュリティ グループを作成します。
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -17,16 +17,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f46bd50e47640c575489788ccd3e5db0ce778564
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 99c4e10cc37513323eb3dcfb8159977b269a667d
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681548"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838792"
 ---
 # <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>PowerShell スクリプト サンプル - 学校の教育者と学生のセキュリティ グループを作成する
 
-この PowerShell スクリプトを使用して、学校でMicrosoft Teams ポリシーを管理するために必要なセキュリティ グループを作成します。 Teamsの[グループへのポリシーの割り当て](../assign-policies-users-and-groups.md#assign-a-policy-to-a-group)機能を使用すると、セキュリティ グループなどのユーザーのグループにポリシーを割り当てることができます。 ポリシーの割り当ては、優先規則に従ってグループのメンバーに反映されます。 グループのメンバーが追加または削除されると、それに応じて継承されたポリシーの割り当てが更新されます。
+この PowerShell スクリプトを使用して、学校で Microsoft Teams ポリシーを管理するために必要なセキュリティ グループを作成します。 Teams の [グループへのポリシーの割り当て](../assign-policies-users-and-groups.md#assign-a-policy-to-a-group) 機能を使用すると、セキュリティ グループなどのユーザーのグループにポリシーを割り当てることができます。 ポリシーの割り当ては、優先規則に従ってグループのメンバーに反映されます。 グループのメンバーが追加または削除されると、それに応じて継承されたポリシーの割り当てが更新されます。
 
 この PowerShell スクリプトでは、ライセンスの種類に基づいて、2 つのセキュリティ グループ (スタッフと教育者用と学校内の学生用) が作成されます。 その後、作成したセキュリティ グループにポリシーを割り当てることができます。 このスクリプトの使用の詳細については、「 [学校内の大規模なユーザー セットにポリシーを割り当てる](../batch-group-policy-assignment-edu.md)」を参照してください。
 
@@ -34,7 +34,7 @@ ms.locfileid: "65681548"
 
 - 教職員 SKU が割り当てられているスタッフと教育者を識別し、セキュリティ グループを作成し、そのグループにスタッフと教育者を追加します。
 - Student SKU が割り当てられている学生を識別し、セキュリティ グループを作成し、学生をグループに追加します。
-- 各セキュリティ グループのメンバーシップを更新し、ライセンスがあるかどうかに基づいて、スタッフ、教育者、学生を追加または削除します。
+- 各セキュリティ グループのメンバーシップを更新、ライセンスを持っているかどうかに基づいてスタッフ、教育者、学生を追加または削除します。
 
 セキュリティ グループを最新の状態に保つために、このスクリプトを定期的に実行する必要があります。
 
@@ -45,7 +45,7 @@ ms.locfileid: "65681548"
 
 [Skype for Business Online PowerShell モジュール](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)をダウンロードしてインストールし、メッセージが表示されたらコンピューターを再起動します。
 
-詳細については、「[Office 365 PowerShell を使用したオンラインSkype for Businessの管理」と PowerShell の](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)[Teamsの概要](../teams-powershell-overview.md)に関するページを参照してください。
+詳細については、「[Office 365 PowerShell と Teams PowerShell を使用したオンラインSkype for Businessの管理](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)の概要」を参照[してください](../teams-powershell-overview.md)。
 
 
 ## <a name="sample-script"></a>サンプル スクリプト

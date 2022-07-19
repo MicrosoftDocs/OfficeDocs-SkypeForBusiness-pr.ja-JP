@@ -2,7 +2,7 @@
 title: 顧客から報告されたインシデントをMicrosoft Teams Roomsする
 author: donnah007
 ms.author: v-donnahill
-ms.date: 06/27/2022
+ms.date: 07/08/2022
 manager: serdars
 ms.reviewer: dstrome
 ms.topic: article
@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: パートナー/顧客は、手動でインシデントを終了し、MRTP で会議室の正常性を正確に報告できます。
-ms.openlocfilehash: 3f765627e2d18d52a6b3db8abbdd2ad59cee7019
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: f28462c6fab02a2a6b8e7db00b1f89ff30b80da1
+ms.sourcegitcommit: ea9cbb8e32b7f23c17930eadc0a1dcbd906449ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494676"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66842306"
 ---
 # <a name="customer-reported-incident-tickets"></a>顧客から報告されたインシデント チケット
 
@@ -31,6 +31,11 @@ Microsoft がフラグを設定しなかったあらゆる種類のインシデ�
 ![インシデント ->レポート インシデントのスクリーンショット](../media/customer-reported-incidents-001.png)
 
 [説明] フィールドで、Microsoft からサポートが必要な問題をできるだけ適切に説明します。 1 つ以上のルームを追加できます。
+
+インシデントがサービスまたは重大な部屋の重大な正常性低下を引き起こしている場合は、  **高い影響** を確認します。 Microsoft が要求に適切に優先順位を付けられるように、これが大きな影響を与える理由を詳細に説明します。
+
+> [!NOTE]
+> このフィールドは、一般的な質問、会議室、または利用可能な軽減策がない問題には使用しないでください。
 
 ![影響を受けたインシデント レポート ルームのスクリーンショット](../media/customer-reported-incidents-002.png)
 

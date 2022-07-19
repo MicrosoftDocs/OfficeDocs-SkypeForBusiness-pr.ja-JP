@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6bf8e6ab6f2a5ba7303887e9e7d7d72d22c50964
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: bbb03bcf092d1379065ced1d95e3aa61980febcc
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794685"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66839002"
 ---
 # <a name="plan-for-sip-gateway"></a>SIP ゲートウェイの計画
 
@@ -52,6 +52,9 @@ SIP ゲートウェイは、互換性のある SIP デバイスを Teams に接�
 ## <a name="requirements-to-use-sip-gateway"></a>SIP ゲートウェイを使用するための要件
 
 TEAMS ユーザーは、SIP ゲートウェイを使用するために PSTN 通話が有効になっている電話番号を持っている必要があります。
+
+> [!NOTE]
+> SIP ゲートウェイは、政府機関の環境 (GCC、GCC High、DoD) では使用できません。
 
 ### <a name="hardware-software-and-licenses"></a>ハードウェア、ソフトウェア、ライセンス
 

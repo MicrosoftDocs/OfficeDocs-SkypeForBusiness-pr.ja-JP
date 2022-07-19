@@ -18,19 +18,19 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Teams Rooms用のモバイル アプリケーション拡張機能
 f1keywords: Microsoft Teams Rooms Managed Service mobile app extension
-ms.openlocfilehash: cfeb5573ce164ea136ba3617fe73661f8ac4ca97
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: 939ac7d5bd61f51a229400b2c1aee1bd38047369
+ms.sourcegitcommit: ea9cbb8e32b7f23c17930eadc0a1dcbd906449ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046133"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66842323"
 ---
 # <a name="teams-rooms-mobile-client-application-features"></a>モバイル クライアント アプリケーションの機能をTeams Roomsする
 
-モバイル デバイスからマネージド サービス (MTMS) Teams Rooms管理する必要がある場合があります。 モバイル アプリには、モバイルまたはTablet PC デバイスから管理できるさまざまな機能があります。
+モバイル デバイスからマネージド サービス (MTMS) Teams Rooms管理する必要がある場合があります。 モバイル アプリには、モバイルまたはタブレット デバイスから管理できるさまざまな機能があります。
 ## <a name="before-you-begin"></a>はじめに
 
-Teams Rooms モバイル アプリを使用するには、Microsoft 365組織内の管理者である必要があります。
+Teams Roomsモバイル アプリを使用するには、Microsoft 365 組織の管理者である必要があります。
 Apple App StoreまたはGoogle Play ストアから[Teams Rooms](https://apps.apple.com/app/apple-store/id761397963?pt=80423&ct=docsaboutadminapp&mt=8)モバイル アプリをダウンロード[します](https://play.google.com/store/search?q=Microsoft%20Teams%20Rooms&c=apps)。
 
 **MTMS モバイル アプリを取得するには**
@@ -52,7 +52,7 @@ Apple App StoreまたはGoogle Play ストアから[Teams Rooms](https://apps.ap
 
 [インシデント] ページには、開いているインシデントの種類が表示されます。
 
-![MTMS モバイル アプリケーションインシデントページ画面](../media/mtms-extended-app-001.png)<!--作成者ごとの Microsoft 承認済み画像.>
+![MTMS モバイル アプリケーションインシデントページ画面](../media/mtms-extended-app-001.png)
 
 ## <a name="managing-tickets"></a>チケットの管理
 モバイル アプリでチケットを管理するための機能の一部を次に示します。
@@ -99,7 +99,7 @@ Apple App StoreまたはGoogle Play ストアから[Teams Rooms](https://apps.ap
 
 **アプリを使用できるようにするには、どうすればよいですか?**
 
-アプリを使用するには、管理者のアクセス許可と有効なMicrosoft 365サブスクリプションが必要です。
+アプリを使用するには、管理者権限と有効な Microsoft 365 サブスクリプションが必要です。
 
 
 **アプリでサポートされている言語は何ですか?**
@@ -116,7 +116,7 @@ Apple App StoreまたはGoogle Play ストアから[Teams Rooms](https://apps.ap
 一般的なモバイル アプリのトラブルシューティング手順をいくつか試すことができます。
 - アプリを閉じてから再度開きます。
 - アプリをアンインストールして再インストールします。アプリの最新バージョンであることを確認します。
-- デバイスにMicrosoft Authenticatorまたはポータル サイト アプリがインストールされている場合は、再インストールするか、最新バージョンに更新してみてください。 それでも問題が解決しない場合は、feedback365@microsoft.com にお知らせください。
+- デバイスに Microsoft Authenticator またはポータル サイト アプリがインストールされている場合は、再インストールするか、最新バージョンに更新してみてください。 それでも問題が解決しない場合は、feedback365@microsoft.com にお知らせください。
 
 **質問に回答がない場合はどうすればよいですか?**
 
@@ -127,5 +127,5 @@ Apple App StoreまたはGoogle Play ストアから[Teams Rooms](https://apps.ap
 **Teams Rooms モバイル アプリを使用するには**
 
 1. [Apple App Store]()または[Google Play ストア]()のいずれかにアプリをダウンロードする
-1. 有効なMicrosoft 365 サブスクリプションがあることを確認します。
+1. 有効な Microsoft 365 サブスクリプションがあることを確認します。
 1. Teams Rooms デスクトップ アプリへのアクセスに使用する作業資格情報を使用します。

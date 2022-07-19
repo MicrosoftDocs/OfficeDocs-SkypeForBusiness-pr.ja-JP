@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b508b368629ce716a1269380eb1fffe2137620c8
-ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
+ms.openlocfilehash: 0a2af1aae614763432ce0c856c9bad12fc7bceef
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66647649"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838812"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>Microsoft Teams Export API を使用してコンテンツをエクスポートする
 
@@ -43,7 +43,7 @@ Teams Export API を使用すると、Microsoft Teams から 1:1、グループ 
 - **ハイブリッド環境:** エクスポート API は、ハイブリッド環境 (オンプレミスの Exchange と Teams) でプロビジョニングされたユーザーによって送信されるメッセージをサポートします。 ハイブリッド環境用に構成されているユーザーによって送信されたメッセージには、エクスポート API を使用してアクセスできます。
 - **ユーザーが削除したメッセージ:** Teams クライアントからユーザーによって削除されたメッセージには、削除時から最大 21 日間のエクスポート API を使用してアクセスできます。
 - **メッセージの添付ファイル:** エクスポート API には、メッセージの一部として送信される添付ファイルへのリンクが含まれます。 エクスポート API を使用すると、メッセージに添付されているファイルを取得できます。
-- **反応：** エクスポート API は、Teams メッセージでユーザーによって無効にされた反応をサポートします。 現在サポートされている反応は、心、腹立たしい、悲しい、驚き、笑いなどです。
+- **反応：** エクスポート API は、Teams メッセージでユーザーによって開始された反応をサポートします。 現在サポートされている反応は、心、腹立たしい、悲しい、驚き、笑いなどです。
 - **チャット メッセージのプロパティ:** ここでは、Teams Export API でサポートされているプロパティの完全な一覧を参照 [してください](/graph/api/resources/chatmessage#properties)。
 
 
