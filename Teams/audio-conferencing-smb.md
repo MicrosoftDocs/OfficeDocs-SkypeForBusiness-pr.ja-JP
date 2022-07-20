@@ -21,23 +21,23 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '電話を使用して会議に呼び出す必要があるユーザーに対して、小規模または中規模のビジネスで電話会議を設定する方法について説明します。 '
-ms.openlocfilehash: 91db0bc151d48b2aa7e9557fff7157626ca4ef4f
-ms.sourcegitcommit: 296fbefe0481c0b8b94aee925118474375cdf138
+ms.openlocfilehash: b7b5fbc958c67aa966619c961e011cda9450faf3
+ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65016589"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66884826"
 ---
 # <a name="set-up-audio-conferencing-for-small-and-medium-businesses"></a>中小企業向けに音声会議を設定する
 
-電話会議を使用すると、モバイル デバイスやコンピューターでTeams アプリを使用する代わりに、電話を使用して会議をTeamsに呼び出すことができます。  
+電話会議を使用すると、モバイル デバイスやコンピューターで Teams アプリを使用する代わりに、電話を使用して Teams 会議に参加できます。  
 
 最大 300 人のユーザーを持つ小規模または中規模のビジネスで、現在電話会議ライセンスがない場合は、電話会議を 1 年間無料で入手できます。 この無料プランは、2020 年 10 月 1 日から提供されています。
 
-電話会議アドオン ライセンスは、Microsoft 365 Business Basic、Business Standard、Business プレミアム、Enterprise E1、または Enterprise E3 ライセンスを持つユーザーに適用できます。 詳細については、[アドオン ライセンスのTeamsに関するページを](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)参照してください
+電話会議アドオン ライセンスは、Microsoft 365 Business Basic、Business Standard、Business Premium、Enterprise E1、または Enterprise E3 ライセンスを持つユーザーに適用できます。 詳細については、「[Teams アドオン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
 
 > [!NOTE]
-> E5 またはMicrosoft 365 Business Voice Enterpriseしている場合、これらのライセンスには電話会議が既に含まれているため、無料の電話会議オファーを使用することはできません。
+> Enterprise E5 または Microsoft 365 Business Voiceをお持ちのお客様は、これらのライセンスに電話会議が既に含まれているため、無料の電話会議プランを使用することはできません。
 
 この記事では、電話会議を設定する方法について説明します。 電話会議のセットアップは、ミーティングのスケジュールを設定するユーザーまたはミーティングを主催するユーザーにのみ必要です。 会議に呼び出す会議出席者には、ライセンスやその他の設定は必要ありません。 詳細については、「 [電話会議](audio-conferencing-in-office-365.md)」を参照してください。
 
@@ -52,8 +52,8 @@ ms.locfileid: "65016589"
 
 会議を主導する各ユーザーに対して 1 つの電話会議ライセンスを取得します。 これを行うには、Microsoft 365 管理センターを使用します。
 
-1. Microsoft 365 管理センター **で** **BillingPurchase** >  サービスに移動し、ページの下部にある **[アドオン**] を選択します。
-2. **[電話会議の導入のプロモーション** > **を** Microsoft 365]、[**今すぐ取得**] の順に選択します。
+1. Microsoft 365 管理センターで **課金** > **購入サービス** に移動し、ページの下部にある **[アドオン**] を選択します。
+2. **Microsoft 365 電話会議導入プロモーション** > **の詳細** を選択し、[**今すぐ取得**] を選択します。
 3. 会議の開催者に必要なライセンスの数を入力し、注文を完了します。
 
     :::image type="content" source="media/audio-conferencing-smb-add.png" alt-text="電話会議導入プロモーション ライセンスのスクリーンショット。":::
@@ -67,20 +67,23 @@ ms.locfileid: "65016589"
 
 #### <a name="assign-a-license-to-one-user"></a>1 人のユーザーにライセンスを割り当てる
 
-1. Microsoft 365 管理センターで、**UsersActive** >  ユーザーに移動 **します**。  
+1. Microsoft 365 管理センターで、[ユーザー **アクティブ ユーザー****]** >  に移動します。  
 2. ライセンスを割り当てるユーザーの行を選択し、ウィンドウで **[ライセンスとアプリ**] を選択します。
-3. **[Microsoft 365電話会議**] チェック ボックスをオンにし、[**変更の保存]** を選択します。
+3. **[Microsoft 365 電話会議**] チェック ボックスをオンにし、[変更の **保存]** を選択します。
 
 #### <a name="assign-a-license-to-multiple-users"></a>複数のユーザーにライセンスを割り当てる
 
-1. Microsoft 365 管理センターで、**UsersActive** >  ユーザーに移動 **します**。  
+1. Microsoft 365 管理センターで、[ユーザー **アクティブ ユーザー****]** >  に移動します。  
 2. ライセンスを割り当てるユーザーの横にある円を選択し、[ **製品ライセンスの管理**] を選択します。
 3. [ **製品ライセンスの管理** ] ウィンドウで、[ **その他の割り当て**] を選択します。
-4. **[Microsoft 365電話会議**] チェック ボックスをオンにし、[**変更の保存]** を選択します。  
+4. **[Microsoft 365 電話会議**] チェック ボックスをオンにし、[変更の **保存]** を選択します。  
 
-## <a name="schedule-teams-meetings-in-outlook"></a>OutlookでTeams会議をスケジュールする
+> [!IMPORTANT]
+> 割り当てられた電話番号が会議出席依頼に表示されるまでには、最大で 24 時間かかる場合があります。 更新された番号が表示されない場合は、少なくとも 24 時間待ってからサポートにお問い合わせください。
 
-会議の開催者は、Outlookで会議をスケジュールできるようになりました。 Outlookで、[**予定表**] に移動し、[**新しいTeams会議**] ボタンを選択します。 会議のダイヤルイン番号と会議 ID は、会議出席者に送信される会議出席依頼に自動的に追加されます。 詳細については、「[OutlookでTeams会議をスケジュール](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)する」を参照してください。
+## <a name="schedule-teams-meetings-in-outlook"></a>Outlook で Teams 会議をスケジュールする
+
+会議の開催者が Outlook で会議をスケジュールできるようになりました。 Outlook で[ **予定表]** に移動し、[ **新しい Teams 会議** ] ボタンを選択します。 会議のダイヤルイン番号と会議 ID は、会議出席者に送信される会議出席依頼に自動的に追加されます。 詳細については、「 [Outlook で Teams 会議をスケジュールする](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)」を参照してください。
 
 > [!NOTE]
 > 必要に応じて、会議出席依頼をカスタマイズして、会社のロゴ、サポート Web サイトへのリンク、免責事項、テキストのみのフッターを追加できます。 詳細については、「 [会議出席依頼をカスタマイズする](meeting-settings-in-teams.md#customize-meeting-invitations)」を参照してください。
@@ -93,7 +96,7 @@ ms.locfileid: "65016589"
 
 共有番号は、すべての組織で共有される数値です。 共有番号は有料電話番号であり、電話会議を設定すると自動的に割り当てられます。
 
-会議ブリッジに割り当てられている既定の番号を表示するには、Microsoft Teams管理センターの左側のナビゲーションで **MeetingsConference** >  ブリッジに移動し、最も近い場所の番号を見つけます。
+会議ブリッジに割り当てられている既定の番号を表示するには、Microsoft Teams 管理センターの左側のナビゲーションで **会議** > **ブリッジ** に移動し、最も近い場所の番号を見つけます。
 
 ### <a name="dedicated-numbers"></a>専用番号
 
@@ -103,25 +106,25 @@ ms.locfileid: "65016589"
 
 フリーダイヤル番号を使用する場合は、まず会議を主導する各ユーザーに通信クレジット ライセンスを割り当てる必要があることに注意してください。 詳細については、「 [組織の通信クレジットを設定する」を参照してください](set-up-communications-credits-for-your-organization.md)。
 
-電話番号を取得したら、それを会議ブリッジに割り当てます。 これを行うには、Microsoft Teams管理センターを使用します。
+電話番号を取得したら、それを会議ブリッジに割り当てます。 これを行うには、Microsoft Teams 管理センターを使用します。
 
-1. Microsoft Teams管理センターの左側のナビゲーションで、**MeetingsConference** >  ブリッジに移動します。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、会議 **ブリッジ****に** > 移動します。
 2. [ **追加]** を選択し、 **有料電話番号** または **フリーダイヤル番号を** 選択します。
 3. [ **電話番号の追加] ウィンドウで、番号** を選択し、[ **適用**] を選択します。
 
 #### <a name="assign-dial-in-phone-numbers-for-users-who-lead-meetings"></a>会議をリードするユーザーにダイヤルイン電話番号を割り当てる
 
-「[Microsoft Teamsの招待に含まれる電話番号を設定する](set-the-phone-numbers-included-on-invites-in-teams.md)」を参照してください。
+[「Microsoft Teams の招待に含まれる電話番号を設定する」を参照してください](set-the-phone-numbers-included-on-invites-in-teams.md)。
 
 > [!NOTE]
-> *TeamsAudioconferencingpolicy* に電話番号を追加し、ポリシーをユーザーに割り当てることで電話番号を設定することもできます。 ポリシーに追加された有料電話番号とフリーダイヤル電話番号は、電話会議設定ウィンドウでユーザーに対して個別に設定された電話番号よりも優先されます。 *Teamsaudioconferencingpolicy* に電話番号が追加されていない場合は、電話会議の設定ウィンドウでユーザーに個別に設定された電話番号が会議出席依頼Microsoft Teamsに表示されます。 [有料電話番号とフリーダイヤル番号の電話会議ポリシー設定](audio-conferencing-toll-free-numbers-policy.md) の詳細については、以下をご覧ください。
+> *TeamsAudioconferencingpolicy* に電話番号を追加し、ポリシーをユーザーに割り当てることで電話番号を設定することもできます。 ポリシーに追加された有料電話番号とフリーダイヤル電話番号は、電話会議設定ウィンドウでユーザーに対して個別に設定された電話番号よりも優先されます。 *Teamsaudioconferencingpolicy* に電話番号が追加されていない場合は、電話会議の設定ウィンドウでユーザーに個別に設定された電話番号が Microsoft Teams の会議出席依頼に表示されます。 [有料電話番号とフリーダイヤル番号の電話会議ポリシー設定](audio-conferencing-toll-free-numbers-policy.md) の詳細については、以下をご覧ください。
 
 ## <a name="related-topics"></a>関連項目
 
 - [電話会議](audio-conferencing-in-office-365.md)
-- [Teamsの電話会議を設定する](set-up-audio-conferencing-in-teams.md)
+- [Teams の電話会議を設定する](set-up-audio-conferencing-in-teams.md)
 - [電話会議の電話番号](phone-numbers-for-audio-conferencing-in-teams.md)
 - [電話会議に関するよくある質問](audio-conferencing-common-questions.md)
 - [サービス番号の取得](getting-service-phone-numbers.md)
-- [アドオン ライセンスをTeamsする](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [Teams アドオン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [ユーザーにライセンスを割り当てる](/microsoft-365/admin/manage/assign-licenses-to-users)

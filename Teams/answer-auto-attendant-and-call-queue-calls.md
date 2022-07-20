@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1a9058dbd583c9d795d04f27b43995c75095e80d
-ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
+ms.openlocfilehash: fb621661ab8b5b8ace8a965e77513cd72966cf23
+ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66647669"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66880371"
 ---
 # <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>自動応答および通話キューの通話に Teams から直接応答する
 
@@ -49,7 +49,7 @@ Teams ユーザーは、クラウドの自動応答および通話キューを T
 > [!NOTE] 
 > 通話キューの呼び出しは、ユーザーの通話応答ルールの構成に基づいて転送されません。 これは、エージェントが通話に応答でき、発信者に予期しない転送がされない限り、発信者がキューに留まるようにするためです。
 >
-> 自動応答と通話キューから通話を受信したユーザーは、PSTN から提供された場合、または発信者の番号がターゲット ユーザーのローカル チームのクライアント連絡先と一致する場合にのみ、発信者の名前が表示されます。
+> 通話キューから通話を受信したユーザーは、PSTN から提供された場合、または発信者の番号がターゲット ユーザーのローカル チームのクライアント連絡先と一致する場合にのみ、発信者の名前が表示されます。
 >
 > エージェントには、通話キューの呼び出しの不在着信またはボイスメールは通知されません。
 

@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Teams 管理センターで Microsoft Power Platform を使用して構築されたカスタム アプリへのアクセスを管理する方法について説明します。
-ms.openlocfilehash: bf75d65f9ebc84ec836dd64839b3e6178d828867
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 85aa9904b22dd03e1056b353bf91904909c11f59
+ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240526"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66880261"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-teams-admin-center"></a>Teams 管理センターで Microsoft Power Platform アプリを管理する
 
@@ -69,10 +69,10 @@ Power Apps と Power Virtual Agent で作成されたすべてのアプリへの
 1. Microsoft Teams 管理センターの左側のウィンドウで、**[Teams アプリ]** > **[アプリの管理]** の順に移動します。 これらのポリシーを管理するには、グローバル管理者または Teams サービス管理者である必要があります。
 2. アプリの一覧で、次のいずれかの操作を行います。
 
-    :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text="共有された Microsoft Power Platform アプリを示す [アプリの管理] ページのスクリーンショット":::
+    :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text="共有された Microsoft Power Platform アプリを示す [アプリの管理] ページのスクリーンショット。":::
 
-    - 組織内のすべてのユーザーの Power Apps または Power Virtual Agent で作成されたアプリをブロックするには、 **共有 Power Apps** または **Shared Power Virtual Agent Apps** を検索して選択し、[ **ブロック**] をクリックします。
-    - 組織内のすべてのユーザーに対して Power Apps または Power Virtual Agent で作成されたアプリを許可するには、 **Shared Power Apps** または **Shared Power Virtual Agent Apps** を検索して選択し、[ **許可**] をクリックします。
+    * 組織内のすべてのユーザーの Power Apps または Power Virtual Agent で作成されたアプリをブロックするには、 **共有 Power Apps** または **Shared Power Virtual Agent Apps** を検索し、それを選択して[ **ブロック**] を選択します。
+    * 組織内のすべてのユーザーに対して Power Apps または Power Virtual Agent で作成されたアプリを許可するには、 **Shared Power Apps** または **Shared Power Virtual Agent Apps** を検索して選択し、 **許可** を選択します。
 
 ### <a name="allow-or-block-microsoft-power-platform-apps-for-specific-users"></a>特定のユーザーに対して Microsoft Power Platform アプリを許可またはブロックする
 
@@ -91,10 +91,10 @@ Teams の監査ログを使用すると、Teams の [アプリ] ページの [ *
 > [!NOTE]
 > フィルター処理を容易にするために、監査レコードを CSV 形式でエクスポートできます。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-articles"></a>関連記事
 
-- [Power Apps でキャンバス アプリを共有する](/powerapps/maker/canvas-apps/share-app)
-- [ボットを他のユーザーと共有する](/power-virtual-agents/admin-share-bots)
-- [Microsoft Teams 管理センターでアプリを管理する](manage-apps.md)
-- [Teams のアプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md)
-- [Teams アプリ申請 API を使用して送信されたカスタム アプリを発行する](submit-approve-custom-apps.md)
+* [Power Apps でキャンバス アプリを共有する](/powerapps/maker/canvas-apps/share-app)
+* [ボットを他のユーザーと共有する](/power-virtual-agents/admin-share-bots)
+* [Microsoft Teams 管理センターでアプリを管理する](manage-apps.md)
+* [Teams のアプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md)
+* [Teams アプリ申請 API を使用して送信されたカスタム アプリを発行する](submit-approve-custom-apps.md)
