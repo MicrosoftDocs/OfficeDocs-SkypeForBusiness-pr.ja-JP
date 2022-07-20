@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 86da9e6284c5fd295a1fee8894ec61734b2ebe1e
-ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
+ms.openlocfilehash: b18e8e596fc1b8180a056c5a141b45e60bd7f889
+ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/21/2022
-ms.locfileid: "66190626"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66880421"
 ---
 # <a name="microsoft-365-app-compliance-program-for-security-compliance-and-privacy-of-third-party-apps"></a>サード パーティ製アプリのセキュリティ用 Microsoft 365 アプリ コンプライアンス プログラム、コンプライアンス、プライバシー
 
@@ -49,15 +49,15 @@ Microsoft コンプライアンス プログラムは、主要な業界標準の
 
 管理者は、3 つの方法で、発行元によって構成証明されたアプリをすばやく確認できます。
 
-* アプリに関する詳細情報を収集する場合、「[Microsoft Teams アプリのセキュリティとコンプライアンス](/microsoft-365-app-certification/teams/teams-apps)」で、特定のアプリのリンクで詳細を確認するか、Teams 管理センターで発行元の構成証明リンクを選択します。
+* アプリに関する詳細情報を収集する場合、「[Microsoft Teams アプリのセキュリティとコンプライアンス](/microsoft-365-app-certification/teams/teams-apps)」で、特定のアプリのリンクで詳細を確認します。 または、[Teams 管理センター](https://admin.teams.microsoft.com/)で `Publisher attestation` リンクを選択します。
 
-  :::image type="content" source="media/attested-app-tac3.png" alt-text="Teams 管理センターで、発行元による構成証明リンクをクリックして、アプリの構成証明の詳細を表示します":::
+  :::image type="content" source="media/attested-app-tac3.png" alt-text="Teams 管理センターで、発行元による構成証明リンクを選択して、アプリの構成証明の詳細を表示します。":::
 
-* Teams 管理センターで、**[アプリの管理]** ページからアプリの詳細を確認する場合、アプリの詳細ページのバナーにある発行元による構成証明済みアイコンを参照してください。
+* Teams 管理センターで、**[[アプリの管理]](https://admin.teams.microsoft.com/policies/manage-apps)** ページからアプリの詳細を確認する場合、アプリの詳細ページのバナーにある発行元による構成証明済みアイコンを参照してください。
 
   :::image type="content" source="media/attested-app-tac1.png" alt-text="Teams 管理センターでは、構成証明されたすべてのアプリに発行元による構成証明済みアイコンが表示されます。":::
 
-* Teams 管理センターでアプリにアクセス許可を付与する場合、アプリ名の前に青いチェックマークが付いていると、アプリが発行元によって構成証明されたアプリと、Microsoft 365 認定されたアプリのどちらであるかを示します。
+* Teams 管理センターで[アプリにアクセス許可を付与する](app-permissions-admin-center.md)際の、アプリ名の前の青いチェックマークは、発行元によって構成証明されたアプリか、Microsoft 365 認定されたアプリのどちらかであることを示しています。
 
    :::image type="content" source="media/attested-app-tac2.png" alt-text="Teams 管理センターの、アクセス許可を付与するダイアログの青いチェックマークは、発行元によって構成証明されたアプリを示しています。":::
 
@@ -74,15 +74,15 @@ Microsoft コンプライアンス プログラムは、主要な業界標準の
 
 主要な業界標準のフレームワークから派生した一連のセキュリティ コントロールに対してアプリをチェックします。
 
-証明書は、アプリが組織でアクティブ化されたときに、顧客データを保護するために強力なセキュリティとコンプライアンスのプラクティスが実施されていることを示します。 Microsoft 365 認定が管理者およびエンドユーザーにとってどのように役立つかについての詳細は、「[Microsoft 365 アプリ コンプライアンス プログラム](/microsoft-365-app-certification/docs/enterprise-app-certification-guide)」の [概要] を参照してください。
+証明書は、アプリが組織で使用されたときに、顧客データを保護するために強力なセキュリティとコンプライアンスのプラクティスが実施されていることを示します。 管理者とエンドユーザーが証明書でどのような恩恵を受けるかについての詳細は、「[Microsoft 365 アプリ コンプライアンス プログラムの概要](/microsoft-365-app-certification/docs/enterprise-app-certification-guide)」を参照してください。
 
 管理者は、次の方法で Microsoft 365 認定アプリをすばやく確認できます。
 
-* Web 上のアプリに関する詳細情報を収集する場合は、アプリに関する Microsoft ドキュメントのシールド アイコンを参照してください。
+* Web 上のアプリに関する詳細情報を収集する場合は、[アプリに関する Microsoft ドキュメント](/microsoft-365-app-certification/teams/teams-apps)のシールド アイコンを参照してください。
 
   :::image type="content" source="media/attested-app-doc-details.png" alt-text="アプリのセキュリティとコンプライアンスに関する詳細なヘルプ記事で、Microsoft 365 認定情報を確認してください":::
 
-* Teams 管理センターでアプリケーションを確認する場合は、[認定] 列を使用してアプリの一覧を並べ替えます。 アイコンを参照し、必要に応じてリンクを選択して、上記のアプリ固有のページにアクセスします。
+* [Teams 管理センター](https://admin.teams.microsoft.com/policies/manage-apps)でアプリケーションを確認する場合は、[認定] 列を使用してアプリの一覧を並べ替えます。 アイコンを参照し、必要に応じてリンクを選択して、上記のアプリ固有のページにアクセスします。
 
   :::image type="content" source="media/m365cert-apps-list1.png" alt-text="Teams 管理センターでアプリの Microsoft 365 認定ステータスを表示します。" lightbox="media/m365cert-apps-list2.png":::
 
@@ -90,13 +90,13 @@ Microsoft コンプライアンス プログラムは、主要な業界標準の
 
   :::image type="content" source="media/m365cert-app-details-banner.png" alt-text="Teams 管理センターで特定のアプリを管理するときに、アプリ バナーで Microsoft 365 認定情報を表示する":::
 
-* Teams 管理センターでアプリにアクセス許可を付与する場合、アプリ名の前に青いチェックマークが付いていると、アプリが発行元によって構成証明されたアプリと、Microsoft 365 認定されたアプリのどちらであるかを示します。
+* Teams 管理センターで[アプリにアクセス許可を付与する](app-permissions-admin-center.md)際の、アプリ名の前の青いチェックマークは、発行元によって構成証明されたアプリか、Microsoft 365 認定されたアプリのどちらかであることを示しています。
 
    :::image type="content" source="media/attested-app-tac2.png" alt-text="管理者は、アプリが Microsoft 365 認定証明がされていることを確認するため、Teams 管理センターのアクセス許可を付与するダイアログで青いチェックマークをオンにできます":::
 
 ## <a name="view-security-compliance-and-privacy-information"></a>セキュリティ、コンプライアンス、プライバシーの情報を表示する
 
-Microsoft ドキュメントと Teams 管理センターでは、構成証明されたアプリまたは認定済みアプリのセキュリティ、プライバシー、コンプライアンス、および動作に関する情報を確認できます。
+[Microsoft ドキュメント](/microsoft-365-app-certification/teams/teams-apps)と [Teams 管理センター](https://admin.teams.microsoft.com/policies/manage-apps)では、構成証明されたアプリまたは認定済みアプリのセキュリティ、プライバシー、コンプライアンス、および動作に関する情報を確認できます。
 
 ### <a name="microsoft-documentation"></a>Microsoft ドキュメント
 
@@ -106,51 +106,31 @@ Microsoft ドキュメントと Teams 管理センターでは、構成証明さ
 
 ### <a name="teams-admin-center"></a>Teams 管理センター
 
-組織のアプリを評価するときは、Microsoft Cloud App Security (MCAS) などの独立した Cloud Access Security Brokers (CASB) を使用して、アプリのセキュリティと動作に関する情報を見つけることができます。 Teams 管理センターには、Microsoft 365 認定アプリの MCAS からのセキュリティとコンプライアンスの情報が含まれているため、アプリがニーズを満たしているかどうかを確認できます。
+アプリを評価するときは、Microsoft Cloud App Security (MCAS) などの独立した Cloud Access Security Brokers (CASB) を使用して、アプリのセキュリティと動作に関する情報を見つけることができます。 Teams 管理センターには、Microsoft 365 認定アプリの MCAS からのセキュリティとコンプライアンスの情報が含まれています。 アプリの詳細ページでこの情報を確認し、アプリがセキュリティ ニーズを満たしているかどうかを確認します。
 
 > [!NOTE]
 > この機能は、組織が MCAS をサポートするライセンスを持っているかどうかにかかわらず、すべての管理者が利用できます。
 
 アプリの MCAS 情報にアクセスするには:
 
-1. Teams 管理センターで、**[Teams アプリ]** の **[アプリの管理]** を選択します。
+1. Teams 管理センターで、**[Teams アプリ]** > **[[アプリの管理]](https://admin.teams.microsoft.com/policies/manage-apps)** を選択します。
+
 1. **[認定]** を選択してアプリを並べ替え、すべての Microsoft 365 認定アプリをテーブルの一番上にプッシュします。
+
 1. Microsoft 365 認定アプリを選択します。
+
 1. **[セキュリティとコンプライアンス]** タブを選択します。
 
    :::image type="content" source="media/mcas.png" alt-text="Teams 管理センターの [セキュリティとコンプライアンス] タブを示すスクリーンショット":::
 
    アプリでサポートされている機能の詳細を取得するには、各カテゴリのドロップダウン リストを選択します。
 
-<!--- TBD: Move to the permissions article 
-
-## View the granted Graph permissions in Azure Portal
-
-Admins can grant permission to an app on behalf of all organization users. It helps avoid each user to individually request the permissions. Permissions granted of an admin are called delegated permissions in [Azure Portal](https://aad.portal.azure.com/).
-
-Before you grant any permission to an app, review a list of requested permissions in the [Manage Apps](https://admin.teams.microsoft.com/policies/manage-apps) section of Teams admin center.
-
-:::image type="content" source="media/attested-app-tac2.png" alt-text="In Teams admin center, on the dialog to grant permissions, admins can check the permissions requested by an app.":::
-
-After admins grant the org-wide permissions to an app, they can review the Graph permissions in Azure Portal.
-
-:::image type="content" source="media/tac-perms-in-aad-after-granting1.png" alt-text="Admins can see all the app permissions granted by users and admins in the Azure Portal." lightbox="media/tac-perms-in-aad-after-granting2.png":::
---->
-
 ## <a name="view-privacy-policy-and-terms-of-use-of-an-app"></a>アプリのプライバシー ポリシーと利用規約を表示する
 
 Teams 管理センターの各アプリのページには、アプリのプライバシーに関する声明と利用規約へのリンクが含まれています。
 
-:::image type="content" source="media/tac-app-tou-privacy-info1.png" alt-text="管理者は、Teams 管理センターから、すべてのアプリのプライバシー ポリシーと利用規約へのリンクにアクセスできます" lightbox="media/tac-app-tou-privacy-info2.png":::
+:::image type="content" source="media/tac-app-tou-privacy-info1.png" alt-text="管理者は、Teams 管理センターから、すべてのアプリのプライバシー ポリシーと利用規約へのリンクにアクセスできます。" lightbox="media/tac-app-tou-privacy-info2.png":::
 
-<!--- TBD: Parking some content for later review. Check if this content needs to be published.
-
-- How to view the support information for an app in TAC?
-
-- We also have a few more quality and security checks for apps. We have launched Microsoft Cloud App Security (MCAS) program for the customer who have E5 or EMS license, where we rate risk for your cloud apps based on regulatory certification, industry standards, and best practices. We are also working on an Apps Quality Score system (launching soon) for all apps on Teams platform, and you will be able to check an app’s quality score quickly on Teams Store.
-
---->
-
-## <a name="see-also"></a>関連項目
+## <a name="related-articles"></a>関連記事
 
 * [アプリのアクセス許可を表示し、管理者の同意を付与します](app-permissions-admin-center.md)。
