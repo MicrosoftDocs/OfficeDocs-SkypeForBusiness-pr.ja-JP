@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams の共有チャネルを使用および管理する方法について説明します。
-ms.openlocfilehash: 9a547963854f981e723d29b1472c2bda808b90c2
-ms.sourcegitcommit: 8fc2d6a824e1e119f54ea2347bc5c10cc076956d
+ms.openlocfilehash: 2c15567c78000de187877477554c233b59c5e58f
+ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "66773766"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66884916"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams の共有チャネル
 
@@ -157,6 +157,8 @@ Teams は、共有チャネル サイトのライフ サイクルを管理しま
 - 既存のチームからチームを作成する場合、既存のチームの共有チャネルは上書きされません。
 
 - 共有チャネルからの通知は、見逃したアクティビティ メールには含まれません。
+
+- 共有チャネルは、クラス チームではサポートされていません。
 
 ## <a name="supported-apps-in-shared-channels"></a>共有チャネルでサポートされているアプリ
 
