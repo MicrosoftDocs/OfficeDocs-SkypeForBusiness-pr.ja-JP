@@ -1,7 +1,7 @@
 ---
 title: オペレーター接続を構成する
-author: cazawideh
-ms.author: czawideh
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 09/30/2021
 ms.topic: article
@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c37c6e52eac53e2cf3e43e45566243a6c83025a7
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: e9a773e7c8767164480374826a2410050681505a
+ms.sourcegitcommit: 5a8a077b30a0eab2342afc422869adaa682a015b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240506"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "66915195"
 ---
 # <a name="configure-operator-connect"></a>オペレーター接続を構成する
 
@@ -91,18 +91,15 @@ Teams 管理センターでオペレーターを有効、編集、削除でき�
 
 1. オペレーターに問い合わせて、オペレーター接続に番号を移植してください。 オペレーターの Web サイトを見つけるには、 [Microsoft 365 Operator Connect ディレクトリ](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory) を参照してください。
 
-2. オペレーターが移植順序を完了したら、ユーザーの通話プランの電話番号の割り当てを解除し、通話プラン ライセンスを削除できます。 その後、オペレーターはテナントに番号をアップロードできます。
+2. オペレーターが移植順序を完了すると、オペレーターはテナントに番号をアップロードします。
 
 3. Teams 管理センターを使用するか、PowerShell を使用して、オペレーター接続番号をユーザーに割り当てます。 詳細については、「番号の [割り当て](#assign-numbers)」を参照してください。
 
 ### <a name="move-numbers-from-direct-routing-to-operator-connect"></a>直接ルーティングからオペレーター接続に番号を移動する
 
-直接ルーティングからオペレーター接続に番号を移動するには、オペレーターによってテナントにアップロードされた既存のダイレクト ルーティング番号を、割り当てられているユーザーから削除する必要があります。 次に、番号を Operator Connect に移行した後、ユーザーに番号を再割り当てることができます。 オンプレミスまたはオンラインの電話番号で直接ルーティングからオペレーター接続に移行するには、次の手順に従います。
+オンプレミスまたはオンラインの電話番号で直接ルーティングからオペレーター接続に移行するには、次の手順に従います。
 
->[!IMPORTANT]
-> 移行中は電話番号が使用できなくなります。そのため、開始する前に Operator Connect オペレーターと調整してください。
-
-#### <a name="step-1---remove-existing-direct-routing-numbers"></a>手順 1 - 既存のダイレクト ルーティング番号を削除します。
+#### <a name="step-1---identify-if-the-existing-direct-routing-numbers-are-assigned-online-or-on-premises"></a>手順 1 - 既存のダイレクト ルーティング番号がオンラインまたはオンプレミスに割り当てられているかどうかを特定します。
 
 Teams PowerShell モジュール コマンドを実行して、ユーザーにダイレクト ルーティング番号が割り当てられていることを確認します。
 
@@ -119,9 +116,13 @@ Get-CsOnlineUser -Identity <user> | fl RegistrarPool, OnPremLineURI, LineURI
 ```
 
 E.164 電話番号が入力されている場合 `OnPremLineUri` 、電話番号はオンプレミスに割り当てられ、Microsoft 365 に同期されました。
-    
-**オンプレミスに割り当てられているダイレクト ルーティング番号を削除するには、** 次のSkype for Business Server PowerShell コマンドを実行します。
-    
+
+**オンラインで割り当てられている既存のダイレクト ルーティング番号を Operator Connect に移行するには、オペレーター** に問い合わせてください。 オペレーターの Web サイトを見つけるには、 [Microsoft 365 Operator Connect ディレクトリに関するページ](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory)を参照してください。 合意された日時に、オペレーターは直接ルーティングからオペレーター接続に番号を移行します。
+
+**オンプレミスに割り当てられているダイレクト ルーティング番号を Operator Connect に移行するには**、次のSkype for Business Server PowerShell コマンドを実行します。
+>[!IMPORTANT]
+> 移行中は電話番号が使用できなくなります。そのため、開始する前に Operator Connect オペレーターと調整してください。
+
 ```PowerShell
 Set-CsUser -Identity <user> -LineURI $null 
 ```
@@ -140,7 +141,7 @@ OnPremLineURI                        :
 LineURI                              : 
 ```
 
-<br> **オンラインで割り当てられている既存のオンライン ダイレクト ルーティング番号を削除するには、** 次の Teams PowerShell モジュール コマンドを実行します。
+
 
 
 ```PowerShell

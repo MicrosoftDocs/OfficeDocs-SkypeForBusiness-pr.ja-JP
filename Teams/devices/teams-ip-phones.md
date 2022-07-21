@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Microsoft Teams が最適な結果を生み出すために認定されているデスクフォンと会議電話について説明します。
-ms.openlocfilehash: 33be6dce1359637602ee81bcefdb6b4035c22f6c
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: 39806bd983bb9cd0f7c35e14bd78a93b185d5b7a
+ms.sourcegitcommit: 5a8a077b30a0eab2342afc422869adaa682a015b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880251"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "66915205"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 認定 Android デバイス
 
@@ -45,6 +45,7 @@ Microsoft Teams デバイス認定プログラムは、認定されたデバイ�
 
 |デバイス モデル    | ファームウェアのバージョン    | 現在の認定終了日 | Android OS バージョン                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
+| Poly CCX505                            | `7.3.1.0811`                                                  |  2023 年 8 月 5 日              | 9 |
 | AudioCodes C450HD                      | `1.17.443`                                                  |    2023 年 8 月 5 日              | 9 |
 | AudioCodes C448HD(Cap モードのみ)       |  `1.17.443`                                                   | 2023 年 8 月 5 日            | 9 |
 | Yealink CP965    | `143.15.0.7 `          | 2025 年 9 月 3 日     | 11 |
