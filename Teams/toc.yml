@@ -1535,10 +1535,6 @@ items:
             href: submit-approve-custom-apps.md
           - name: アプリ パッケージをアップロードしてカスタム アプリを発行する
             href: upload-custom-apps.md
-          - name: アプリの表示方法とメタデータをカスタマイズする
-            href: customize-apps.md
-          - name: 組織のアプリ ストアをブランド化する
-            href: customize-your-app-store.md
       - name: アプリを管理する管理者コントロール
         items:
           - name: アプリ管理の概要
@@ -1561,16 +1557,20 @@ items:
             href: resource-specific-consent.md
           - name: アプリのアクセス許可とリソースへのアクセスを把握する
             href: app-permissions.md
+          - name: アプリの表示方法とメタデータをカスタマイズする
+            href: customize-apps.md
+          - name: 組織のアプリ ストアをブランド化する
+            href: customize-your-app-store.md
           - name: Microsoft 365 全体でアプリへのアクセスを管理する
             href: manage-third-party-teams-apps.md
-          - name: アプリ管理アクティビティの監査
-            href: audit-app-management-activities.md
-          - name: アプリの使用状況レポートと分析
-            href: teams-analytics-and-reports/app-usage-report.md
           - name: ユーザーの種類に基づくアプリの動作
             href: non-standard-users.md
           - name: アプリの更新と管理者の役割
             href: apps-update-experience.md
+          - name: アプリ管理アクティビティの監査
+            href: audit-app-management-activities.md
+          - name: アプリの使用状況レポートと分析
+            href: teams-analytics-and-reports/app-usage-report.md
   - name: 業界および政府機関向けのガイダンス
     items:
       - name: 概要

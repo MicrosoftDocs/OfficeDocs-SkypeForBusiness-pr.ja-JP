@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teamsでのアプリの更新エクスペリエンス
+title: Microsoft Teams でのアプリの更新エクスペリエンス
 author: guptaashish
 ms.author: guptaashish
 manager: prkosh
@@ -17,29 +17,29 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: この記事では、Microsoft Teamsの Microsoft アプリ、カスタム アプリ、およびサード パーティ製アプリの更新方法について説明します。
-ms.openlocfilehash: cf4a062cd035feb0850a64c49a4c2363de0badce
-ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
+description: この記事では、Microsoft Teams の Microsoft アプリ、カスタム アプリ、サード パーティ製アプリの更新方法について説明します。
+ms.openlocfilehash: 27d51a487af918e6fcee2b7806c81d31506bd1af
+ms.sourcegitcommit: 70185cd963c5a9d539e65e302d4230018209ecae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/21/2022
-ms.locfileid: "66190317"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "66958042"
 ---
-# <a name="update-apps-in-microsoft-teams"></a>Microsoft Teamsでアプリを更新する
+# <a name="update-apps-in-microsoft-teams"></a>Microsoft Teams でアプリを更新する
 
-ほとんどの場合、アプリ開発者がアプリの更新プログラムを発行すると、ユーザーに対して新しいバージョンが自動的に表示されます。 ただし、ユーザーの同意を完了する必要がある[Microsoft Teams マニフェスト](/microsoftteams/platform/resources/schema/manifest-schema)にいくつかの更新プログラムがあります。
+ほとんどの場合、アプリ開発者がアプリの更新プログラムを発行すると、ユーザーに対して新しいバージョンが自動的に表示されます。 ただし、 [Microsoft Teams マニフェスト](/microsoftteams/platform/resources/schema/manifest-schema) には、ユーザーの同意を完了する必要がある更新プログラムがいくつかあります。
 
-* ボットが追加または削除されました
-* 既存のボットの "botId" プロパティが変更されました
-* 既存のボットの "isNotificationOnly" プロパティが変更されました
-* ボットの SupportsCalling、SupportsVideo、および SupportsFiles 機能が追加されました
-* メッセージング拡張機能が追加されました
-* 新しいコネクタが追加されました
-* "Authorization" 内のアクセス許可が追加または変更されました
+* ボットが追加または削除されました。
+* 既存のボットの "botId" プロパティが変更されました。
+* 既存のボットの "isNotificationOnly" プロパティが変更されました。
+* ボットの SupportsCalling、SupportsVideo、および SupportsFiles 機能が追加されました。
+* メッセージング拡張機能が追加されました。
+* 新しいコネクタが追加されました。
+* "Authorization" 内のアクセス許可が追加または変更されました。
 
-![新しいバージョンを使用できます。](media/manage-your-custom-apps-update1.png)
+:::image type="content" source="media/manage-your-custom-apps-update1.png" alt-text="利用可能な新しいバージョン。" lightbox="media/manage-your-custom-apps-update1.png":::
 
-![アプリのアップグレード オプション。](media/manage-your-custom-apps-update2.png)
+:::image type="content" source="media/manage-your-custom-apps-update2.png" alt-text="アプリのアップグレード オプション。" lightbox="media/manage-your-custom-apps-update2.png":::
 
 > [!NOTE]
 > 更新プロセスは、Microsoft アプリ、カスタム アプリ、およびサード パーティアプリのすべてのアプリ更新プログラムに適用されます。
