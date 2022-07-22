@@ -1513,6 +1513,8 @@ items:
             href: expand-teams-across-your-org/shifts/shifts-data-faq.md
           - name: 更新プログラム アプリを管理する
             href: manage-updates-app.md
+          - name: トランシーバー アプリを管理する
+            href: walkie-talkie.md
       - name: サードパーティ製のアプリを管理する
         items:
           - name: サードパーティのアプリを理解する

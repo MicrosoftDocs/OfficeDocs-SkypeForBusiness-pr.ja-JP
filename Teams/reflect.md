@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5df52ff5de4db994cb049db1dde2b27c2465dce5
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 0e6fdb36148f87ce243fff044a08a3bdcdd28d58
+ms.sourcegitcommit: f5546acf02ec644225f6d0fb41f38b1912da6adf
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675759"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "66952771"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Microsoft Teams の Reflect への IT 管理者ガイド
 
@@ -29,15 +29,15 @@ ms.locfileid: "65675759"
 
 このチェックイン アプリは、絵文字や研究に裏付けられた感情についての精度を用いて、教師の忙しい日常業務への社会性や感情に関する学びの場の追加をサポートします。
 
-
 ## <a name="privacy-and-security"></a>プライバシーとセキュリティ
+
 Reflect は、[Education Insights](class-insights.md) と同じプライバシーとセキュリティ標準に従って学生の機密情報を保護します。
 
 Microsoft 365 の一部として、Reflect は、[GDPR](/compliance/regulatory/gdpr) や学生の教育記録のプライバシーを保護する[学生と子供のセキュリティに関する家族教育権およびプライバシー法 (FERPA)](/compliance/regulatory/offering-ferpa) など、データの収集と使用に関する国、地域、業界固有の規制を満たしています。
 
 データは教育機関に属し、Microsoft はデータを収集して保存するだけです。 Microsoft の担当者は、データ リカバリなど、サービスを維持するための監査された方法でコンプライアンスによって許可されている場合を除き、データにアクセスしたり、データを表示したりすることはできません。
 
-学生が他の学生の名前を閲覧することは *なく*、反応の内容のみが表示されます。 回答の分布を確認することはできますが、それぞれの反応に関連付けられている名前を表示することは *できません*。 
+学生が他の学生の名前を閲覧することは *なく*、反応の内容のみが表示されます。 回答の分布を確認することはできますが、それぞれの反応に関連付けられている名前を表示することは *できません*。
 
 > [!NOTE]
 > 学生による回答が 5 人に満たない場合には、学生にデータは表示されません。 これは、学生同士がお互いの回答を識別してしまう可能性を最小限にするための措置です。
@@ -51,9 +51,9 @@ Microsoft 365 の一部として、Reflect は、[GDPR](/compliance/regulatory/g
 
 データは Education Insights に保存されます。 既定では、Education Insights はオンになっています。 オプトアウトすると、Reflect 用に収集された **すべてのデータが削除されます**。 Education Insights をオンに戻すと、データが再度有効になった時点からデータの収集が開始されます。
 
-「[Education Insights への IT 管理者ガイド](class-insights.md)」では、Education Insights の仕組み (保存場所など) や、データを削除したり、サービスを有効にしたりする際に [Education Insights をオフまたはオンにする方法](class-insights.md#turn-insights-on-or-off)について説明しています。
+「[Education Insights への IT 管理者ガイド](class-insights.md)」では、Education Insights の仕組み (保存場所など) や、データを削除したり、サービスを有効にしたりする際に [Education Insights をオフまたはオンにする方法](class-insights.md#turn-on-and-off-insights)について説明しています。
 
-Reflect では学生からデータを収集しますが、ゲスト データは収集されません。 **学生がゲストとして定義されている場合には、そのユーザーのデータは収集されません。** 
+Reflect では学生からデータを収集しますが、ゲスト データは収集されません。 **学生がゲストとして定義されている場合には、そのユーザーのデータは収集されません。**
 
 ## <a name="enable-reflect"></a>Reflect を有効にする
 教育機関のアプリ設定ポリシーを管理する場合は、Reflect がテナントで *許可* されていることをご確認ください。 また、Teams 管理センターから Reflect を関連するクラスのチームに追加することもできます。

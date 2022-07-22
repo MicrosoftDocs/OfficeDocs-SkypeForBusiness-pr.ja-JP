@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db4b3adabecf147f5adf9cadb9891892b5a82e5a
-ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
+ms.openlocfilehash: e2ac9a38e16000829b391e77dffdd718ed349299
+ms.sourcegitcommit: f5546acf02ec644225f6d0fb41f38b1912da6adf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66606226"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "66952761"
 ---
 # <a name="share-to-teams-from-outlook"></a>Outlook から Teams に共有する
 
@@ -30,9 +30,9 @@ Outlook から Teams に共有 (Teams に共有) すると、ユーザーは Out
 Teams への共有機能には、Outlook 用のアドインが必要です。 このアドインは、ユーザーが Teams Web アプリまたは Teams デスクトップ クライアントにログオンするたびに自動的にインストールされます。
 
 > [!NOTE]
-> [Outlook 用アドイン](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook)が正しく機能していることを確認するには、Exchange Onlineの Outlook 用アドインと[Exchange Onlineのクライアント アクセス規則](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules)を確認してください。 また、接続エクスペリエンスを無効にすると、Outlook のアドインが正常に動作しなくなる可能性があります。 詳細については、「 [Office のコネクテッド エクスペリエンス](https://support.microsoft.com/topic/connected-experiences-in-office-8d2c04f7-6428-4e6e-ac58-5828d4da5b7c) 」を参照してください。  
+> [Outlook 用アドイン](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook)が正しく機能していることを確認するには、Exchange Onlineの Outlook 用アドインと[Exchange Onlineのクライアント アクセス規則](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules)を確認してください。 また、接続エクスペリエンスを無効にすると、Outlook のアドインが正常に動作しなくなる可能性があります。 詳細については、「 [Office のコネクテッド エクスペリエンス](https://support.microsoft.com/topic/connected-experiences-in-office-8d2c04f7-6428-4e6e-ac58-5828d4da5b7c) 」を参照してください。 共有メールボックスは、アドインではサポートされていません。 
 
-Teams への共有では、ユーザーがチャネルに電子メールを送信したときと同じトランスポート メカニズムが使用されます。 チャットに共有する場合は、電子メール (電子メールの添付ファイルを含む) が送信者の OneDrive にコピーされます。 チャネルに共有する場合、メールと添付ファイルは SharePoint の **[電子メール メッセージ** ] フォルダーにコピーされます。
+Teams への共有では、ユーザーがチャネルに電子メールを送信したときと同じトランスポート メカニズムが使用されます。 チャットに共有する場合は、電子メール (電子メールの添付ファイルを含む) が送信者の OneDrive にコピーされます。 チャネルに共有する場合、メールと添付ファイルは SharePoint **の Email メッセージ** フォルダーにコピーされます。
 
 Outlook アドインの Share to Teams では、Outlook アドインの [詳細、Outlook アドイン](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook)の環境要件、および要件セット 1.7 でサポートされている特定の Outlook クライアントを含む、要件セット 1.7 が使用されます。
 
