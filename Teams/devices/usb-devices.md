@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Microsoft Teams で認定されている USB 周辺機器とデバイス (ヘッドセット、スピーカーフォン、Web カメラ、モニターなど) を確認します。
-ms.openlocfilehash: 956034bff42cdf3694c648306caf218057bca1da
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: 63813ca51626ae16903b57e56de9b47345f44c10
+ms.sourcegitcommit: 911fdb6df0511b4a4d9e4705799877045a09113c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880391"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "66972782"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams の認定を受けた USB オーディオ デバイスとビデオ デバイス
 
@@ -41,6 +41,12 @@ Teams での通話制御のサポートの詳細については、Teams [のヘ�
 - **Microsoft Teams 認定** このレベルで認定されたデバイスは、妥協のない Teams エクスペリエンスのために認定された最新のデバイスを示します。 これらのデバイスは、以前の認定のすべての利点を提供し、LED インジケーターを備えた専用の Teams ボタンも含まれています。 ほとんどのフォーム 要素では、Teams のボタンは Teams ロゴが付いた簡単に見つかる触覚ボタンになります。 Microsoft は引き続きデバイス製造元と連携し、ファームウェアの更新を通じて新しい価値を提供しています。
 
 ### <a name="special-usage-designations"></a>特別な使用の指定
+
+- **ネイティブ Bluetooth 認定オーディオ周辺機器**  Microsoft Teams の認定を受けたほとんどの Bluetooth ヘッドセットとスピーカーフォンは、PC と Mac ホストへの接続に USB ドングルで使用するように設計されています。 多くのユーザーは、デバイスをホストと直接ペアリングするオプションを求めています。これは、十分な USB ポートがない場合や、別の場所で作業するときに USB ドングルを持ち込む必要がないためです。
+
+    ヘッドセットやスピーカーフォンを含む Bluetooth 認定のネイティブ デバイスは、Windows PC でサポートされています (MacOS は今後サポートされる可能性があります)。 デバイスは、USB ドングルを使用する場合と使用しない場合の両方で、オーディオ パフォーマンス、通話制御、Teams ボタンの統合についてテストされます。
+
+    ネイティブ Bluetooth モードのパフォーマンスは、ホスト PC の Bluetooth 無線の影響を受けます。そのため、デバイスと Bluetooth 無線の両方に最新のファームウェア更新プログラムをインストールすることをお勧めします。 ユーザーのごく一部は、高密度無線環境で作業する場合、PC Bluetooth が複数のペアリングされたデバイスで頻繁に使用されている場合、または Bluetooth 無線のパフォーマンスが低い特定の PC など、USB ドングルを引き続き使用する必要がある場合があります。
 
 - **Open Office 用 Premium マイク** すべてのヘッドセットは明確なオーディオを提供するためにテストされますが、オープン オフィスやその他のノイズの多い環境では、より大きな課題が生じます。 この指定を持つヘッドセットは、ヘッドセット ユーザーの声を受け取りますが、近隣の音声は送信しません。
 - **会議室のサイズ** スピーカーフォンやカメラなどの共有デバイスでは、使用距離がサポートされます。 推奨される距離は、製造元によって異なる場合があります。 お客様に明確なガイダンスを提供するために、すべての共有デバイスは、明確に定義された部屋のサイズとノイズ環境に対する認定でテストされます。
