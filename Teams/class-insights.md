@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-edu
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2694981d18bfbee7f75ea8157fb656d77675a71d
-ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
+ms.openlocfilehash: 02a425d325721dc732e0bd06aa3aee8fd3973dda
+ms.sourcegitcommit: f5546acf02ec644225f6d0fb41f38b1912da6adf
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66647689"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "66952781"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams の Education Insights への IT 管理者ガイド
 
@@ -99,13 +99,13 @@ Insights では、クラスチーム内のすべてのチャネルのアクテ�
 
 **Teams に Insights アプリを追加するには:**
 
-- アプリ バーの"**...**"をクリックします。
+- アプリ バーの **[...]** を選択します。
 - **Insights** を検索して選択します。
-- 説明画面が開きます。**［追加］** をクリックしてください。
+- 説明画面が開きます。 **[追加]** を選択します。
 
   :::image type="content" source="media/insights-add-personal-app.png" alt-text="Teams に Insights を追加します。":::
 
-- Insightsアイコンを右クリックし、**[固定]** を選択します。
+- Insights アイコンを右クリックし、**[固定]** を選択します。
 
   :::image type="content" source="media/insights-pin-app.png" alt-text="Insights アプリを固定します。":::
 
@@ -125,13 +125,13 @@ Insights は、**学習サイクル** 全体で学習コミュニティをサポ
 
 ## <a name="how-insights-works"></a>Insights はどのように機能しますか?
 
-Insights は、教職員がより良い学習成果を提供するのに役立つ強力な分析を生成します。これは、Teams 内の学生の活動を分析し、オプションで、提供する学生情報システム (SIS) データを活用して、その活動のコンテキスト化とグループ化を支援することによって行われます。
+Insights は、教職員がより良い学習成果を提供するのに役立つ強力な分析を生成します。 これは、Teams 内の学生の活動を分析し、オプションで、提供する学生情報システム (SIS) データを使用して、その活動のコンテキスト化とグループ化を支援することによって行われます。
 
-教育機関に Insights の導入を開始する前に、Insights の仕組み、データ倫理への取り組み、および必要なライセンスの概要について確認してください。
+教育機関に Insights の導入を開始する前に、Insights の仕組み、データ倫理への取り組み、および必要なライセンスの概要について確認します。
 
 ### <a name="data-collection"></a>データ収集
 
-Teams での学生と教職員の活動から Insights のデータが収集されます。ゲスト データは収集されません。
+Teams での学生と教職員の活動から Insights のデータが収集されます。 ゲスト データは収集されません。
 
 Insights は、教職員に関するデータを表示 *しません*。 データの分析は、教育と学習に役立つ実用的な情報を提供します。
 
@@ -166,6 +166,7 @@ Microsoft 365 の一部として、Reflect は、[GDPR](/compliance/regulatory/g
 > - [Microsoft コンプライアンス オファリング](/compliance/regulatory/offering-home) にアクセスして、Microsoft 365 がお客様の機関で規制コンプライアンス基準を満たすためにどのような役割を果たすかご確認ください。
 
 ### <a name="performance-and-reliability"></a>パフォーマンスと信頼性
+
 Insights は、最適なパフォーマンスと信頼性を実現して Teams のアクティビティから収集される大量のデータを処理するように設計されています。 100％ の可用性を保証することはできませんが、可能な限りその目標に近い状態で利用できるように努めています。
 
 [Insights] タブが Teams にインストールされているかどうかに関係なく、データ収集のプロセスは別のサーバーで実行されます。 Teams の機能の残りを使用しているので、[Insights] タブや個人用アプリは、教職員と学生用のアプリケーションのパフォーマンスやネットワーク帯域幅には影響しません。
@@ -187,7 +188,7 @@ Microsoft は、データ保護を確実にするために Insights をゼロか
 
 Insights は、学生の学習とデジタル エンゲージメントにスポットライトを当てています。 データは学習をサポートし、デジタル学習プラットフォームでの学生の関与のレベルを示しています。 クラス アクティビティの個々のレベルにドリル ダウンすることはできますが、Microsoft はこれらのアクションに割り当てられた **正または負の値を割り当てません**。 データを収集する目的は、学生と教職員が最善を尽くすのをサポートすることです。
 
-教職員は学生について最もよく知っており、理解しています。 Insights で提示される情報は、デジタル学習シナリオで **学生にサポートを提供する** 手助けをするためにあります。 この情報は、対面での環境で通常利用できる分析情報を再現します。 たとえば、学生が特定の期間活動していないか、先週は時間どおりにすべての課題を完了しなかったとします。 データは教職員に表示され、適切なナッジを提供したり、生徒にチェックインしたりします。 学生、学生の家族、または保護者と連絡を取り合って、検知されたアクティビティの原因を特定したり、アクティビティがなかったことへの原因を特定するのは、教職員の責任の範ちゅうです。
+教職員は学生について最もよく知っており、理解しています。 Insights で提示される情報は、デジタル学習シナリオで **学生にサポートを提供する** 手助けをするためにあります。 この情報は、対面での環境で利用できる分析情報を再現します。 たとえば、学生が特定の期間活動していないか、先週は時間どおりにすべての課題を完了しなかったとします。 データは教職員に表示され、適切なナッジを提供したり、生徒にチェックインしたりします。 学生、学生の家族、または保護者と連絡を取り合って、検知されたアクティビティの原因を特定したり、アクティビティがなかったことへの原因を特定するのは、教職員の責任の範ちゅうです。
 
 Insights は、デジタル学習環境フレームワークで学生と教職員の両方をサポートするように設計されています。 Insights は、**教職員に関するデータを直接キャプチャしません**。 個々の学生データに加えて、特定の教職員との学生の活動と結果の集計を提供し、教育リーダーが学生と教職員をサポートできるようにします。
 
@@ -205,7 +206,7 @@ Education Insights Premium アドオンは、テナント内のすべてのデ�
 
 組織レベルの Insights を提供するには、[学校データ同期 (SDS)](/SchoolDataSync) を使用して学生情報システム (SIS) に接続する必要があります。これは、Insights が教育システムの階層構造を正しくマッピングできるようにするためです。
 
-クラスの教師としてクラス レベルの Insights を表示する場合は、*その必要はありません*。これは、Teams のクラス構造とアクセス許可が使用されるためです。
+クラスの教師としてクラス レベルの Insights を表示する場合は、その必要は *ありません*。これは、Teams のクラス構造とアクセス許可が使用されるためです。
 
 詳細については、「[**学生情報システム (SIS) データを Education Insights と同期する**](education-insights-sis-data-sync.md)」をご確認ください。
 
@@ -233,22 +234,35 @@ IT 管理者として、教職員やリーダーが Teams の使用を開始す�
 次の資料は **教職員** のみなさんにご自由に配布できます。
 
 - 詳細については、[Insights サポート ページ](https://support.microsoft.com/office/27b56255-90c0-47aa-bac3-1c9f50157181)を確認してください。
-- すぐに起動して実行 – [Insights についての 1 ページの PDF](https://aka.ms/insights/start) を入手してください。
+- すぐに起動して実行 – [Insights についての 1 ページの PDF を入手してください](https://aka.ms/insights/start)。
 - [完全ガイド PDF](https://aka.ms/insights/guide) をお読みください。
 - Insights の使用方法に関する[手順ごとのチュートリアル](https://aka.ms/insights/resources)をご覧ください。
 - Microsoft 教師センターの[無料の Insights コース](https://aka.ms/insights/course) を使って、ご自身でトレーニングできます。
 - そして最後に、Insights 専用の[このブログ](https://techcommunity.microsoft.com/t5/education-blog/6-ways-to-be-insight-ful-and-support-student-engagement/ba-p/1903091)をチェックしてください。
 
 **教育リーダー** 向けの資料:
+
 - [教育機関向けの分析情報サポート ページ](https://support.microsoft.com/office/8738d1b1-4e1c-49bd-9e8d-b5292474c347)。
 
-### <a name="turn-insights-on-or-off"></a>Insights をオンまたはオフにする
+### <a name="turn-on-and-off-insights"></a>Insights のオンとオフを切り替える
 
-既定では、Insights が有効になっています。これにより、Microsoft は Teams 内の学生のアクティビティの分析を収集し、分析情報で使用できます。 Insights からオプトアウトすることにした場合、Insights に *収集されたすべてのデータを削除* し、今後のデータの収集を停止します。 Insights を再びオンにすると、再度有効になった時点からデータの収集が開始されます。
+既定では、Insights が有効になっています。これにより、Microsoft は Teams 内の学生のアクティビティの分析情報を Insights で使用できます。 Insights からオプトアウトした場合、Insights に *収集されたすべてのデータを削除* し、今後のデータの収集を停止します。 Insights を再びオンにすると、再度有効になった時点からデータの収集が開始されます。
 
-- Insights をオフまたはオンにするには、[SDS 管理センター](https://sds.microsoft.com/)を開き、**[設定]** > **[Education Insights の管理]** の順に移動します。 **[Insights のアクティビティ データを収集する]** をオフまたはオンにして、Insights を無効または有効にします。
+*Education Insights* を制御できる場所は 2 つあります。 どちらのオプションで作成しても、同じ結果になります。 *SDS (クラシック)* から *プロビジョニング用 SDS* に移行したお客様は、Teams クライアント オプションのみを使用できます。
 
-:::image type="content" source="media/insights-settings.png" alt-text="Insights をオンまたはオフにする設定オプションがある SDS 管理センター ページのスクリーンショット。":::
+#### <a name="turn-on-and-off-insights-from-the-sds-admin-center"></a>SDS 管理センターで Insights のオンとオフを切り替える
+
+1. [SDS 管理センター](https://sds.microsoft.com/)を開きます。
+1. **[設定]** > **[Education Insights の管理]** の順に移動します。
+1. **[Insights のアクティビティ データを収集する]** トグルを調整します。
+
+![Insights をオフまたはオンを切り替える SDS 管理センターのトグルのスクリーンショット](media/manage-insights-toggles.png)
+
+#### <a name="turn-on-and-off-insights-from-the-teams-client"></a>Teams クライアントで Insights のオンとオフを切り替える
+
+1. *Education Insights* の個人用アプリがピン留めされていない場合は、[次の手順](class-insights.md#education-leaders)に従って追加します。
+1. Microsoft 365 管理者アカウントを使用して、*Education Insights* の右上隅にある省略記号アイコンを使用して、**[管理者設定]** ページを開きます。
+1. **[Insights のアクティビティ データを収集する]** トグルを調整します。
 
 > [!NOTE]
 > Insights をオフにした場合、収集されたデータは削除されます。 オプトアウトによって削除されたデータは、Insights が再び有効になった場合でも、後から復元することはできません。
@@ -257,10 +271,21 @@ IT 管理者として、教職員やリーダーが Teams の使用を開始す�
 
 Education Insights の **[高度な推論を許可する]** トグルがオンになっている場合、Education Insights は、学生、教師、および教育リーダーに、学習に関する高度な推論 (エンゲージメント警告など) を提示する場合があります。 これらの推論により、教師は学生により合わせたサポートを提供できます。 トグルは、モデリングのためのテナント データの使用も制御します。
 
-このトグルをオンにしても、Education Insights によって既に収集されているデータ以外の追加データは収集されません。
+このトグルをオンにしても、Education Insights によって既に収集されているデータ以外に追加のデータは収集されません。
 
-- この設定を調整するには、[SDS 管理センター](https://sds.microsoft.com/)を開き、**[設定]** > **[Education Insights の管理]** に移動します。
-- **[高度な推論を許可する]** トグルをオフまたはオンに調整します。
+*高度な推論* を制御できる場所は 2 つあります。 どちらのオプションで作成しても、同じ結果になります。 *SDS (クラシック)* から *プロビジョニング用 SDS* に移行したお客様は、Teams クライアント オプションのみを使用できます。  
+
+#### <a name="turn-on-and-off-advanced-inferences-from-the-sds-admin-center"></a>SDS 管理センターで高度な推論のオンとオフを切り替える
+
+1. [SDS 管理センター](https://sds.microsoft.com/)を開きます。
+1. **[設定]** > **[Education Insights の管理]** の順に移動します。
+1. **[高度な推論を許可する]** トグルをオフまたはオンに調整します。
+
+#### <a name="turn-on-and-off-advanced-inferences-from-the-teams-client"></a>Teams クライアントで高度な推論のオンとオフを切り替える
+
+1. *Education Insights* の個人用アプリがピン留めされていない場合は、[次の手順](class-insights.md#education-leaders)に従って追加します。
+1. Microsoft 365 管理者アカウントを使用して、*Education Insights* の右上隅にある省略記号アイコンを使用して、**[管理者設定]** ページを開きます。
+1. **[高度な推論を許可する]** トグルをオフまたはオンに調整します。
 
 > [!NOTE]
 > このトグルは、**[分析情報のアクティビティ データを収集する]** トグルに依存します。 **[Insights のアクティビティ データを収集する]** をオフにすると、**[高度な推論を許可する]** トグルもオフになります。
@@ -271,17 +296,18 @@ School Data Sync (SDS) は、Student Information System (SIS) データをイン
 
 Insights を使用するときに SDS を使用する必要は *ありません*。 ただし、いつでも Insights からオプトアウトすることを選択できます。
 
-- Insights でSchool Data Sync の使用をオフにするには、[[SDS for Insights の無効化]](/schooldatasync/how-to-deploy-sds-for-insights#disabling-sds-for-insights) の手順に従ってください。
+- Insights でSchool Data Sync の使用をオフにするには、[[Insights で SDS を無効にする]](/schooldatasync/how-to-deploy-sds-for-insights#disabling-sds-for-insights) の手順に従ってください。
 
 - これを元に戻すには、「[Insights 用 SDS の展開方法](/schooldatasync/how-to-deploy-sds-for-insights)」の手順に従ってください。
 
 ### <a name="how-to-delete-user-data-from-education-insights"></a>Education Insights からユーザー データを削除する方法
+
 Insights は、Microsoft Teams for Education で実行された学生と教育者のアクティビティを保存します。
 
 Insights によって収集されるデータには、次の 2 つの種類があります:
 
 - **混合データ** – クラス学習活動の一部として生成されるデータ。
-- **非混合 (プライベート) データ** – クラス学習活動の一部ではない教育の Teams の学生アクティビティによって収集されたデータ。
+- **非混合 (プライベート) データ** – クラス学習活動の一部ではない Teams for Education の学生アクティビティによって収集されたデータ。
 
 Insights によって収集された完全なデータは、[ここに](class-insights.md#data-collection)リストされています。
 
@@ -302,7 +328,7 @@ Insights によって収集された完全なデータは、[ここに](class-in
 
 *新規* テナントで、Insights でデータを *見たことがない* 場合、テナントが Insights にアクセスするために **教育テナントとして認証されているかどうか** を確認してください。 Microsoft アカウント マネージャーに問い合せて、テナントが正しく構成されていることを確認するよう依頼します。
 
-アカウント マネージャーがいない場合は、チケットをオープンしてください。 [Office 365 管理センター](https://admin.microsoft.com/AdminPortal/) > **[サポート]** > **[新しいお問い合わせ]** の順に進みます。  チケットのタイトルに「教育機関の認証に関するサポートが必要」と記載します。
+アカウント マネージャーがいない場合は、チケットをオープンにします。 [Microsoft 365 管理センター](https://admin.microsoft.com/AdminPortal/) > **[サポート]** > **[新しいお問い合わせ]** の順に移動します。  チケットのタイトルに「教育機関の認証に関するサポートが必要」と記載します。
 
 また、Insights のデータ収集が有効になっていることを確認します。 既定でオンになっている間は、IT 管理者がオフにしている可能性があるため、Insights が保持しているすべてのデータが削除されます。
 
@@ -312,7 +338,7 @@ Insights によって収集された完全なデータは、[ここに](class-in
 
 ### <a name="why-do-i-see-data-for-some-students-or-classes-not-all"></a>すべてではなく、一部の生徒またはクラスのデータが表示されるのはなぜですか?
 
-*ライセンスを取得した* 生徒のデータのみを収集するため、最も可能性の高い理由として、ゲスト生徒がクラスに参加していて、そのデータが収集されていないことが考えられます。その場合、名前は表示されても、データは表示されません。
+*ライセンスを取得した* 生徒のデータのみを収集するため、最も可能性の高い理由は、ゲスト生徒がクラスに参加していて、そのデータが収集されていないことです。 名前は表示されるかもしれませんが、データはありません。
 
 生徒の状態を確認して、全員がライセンスを持っていることを確認します。
 
@@ -320,7 +346,7 @@ Insights によって収集された完全なデータは、[ここに](class-in
 
 Insights レポートで会議データを表示するには、最大 24 時間かかります。 十分な時間が経過したことを確認してください。
 
-また、生徒が [Teams アカウントなしでクラス会議に参加](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508)*しなかった* ことを確認してください。 このようなシナリオでは、生徒のアクティビティは収集されません。
+また、生徒が [Teams アカウントなしでクラス会議に参加](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508)しなかったことを確認してください。 このようなシナリオでは、生徒のアクティビティは収集されません。
 
 > [!TIP]
 > 生徒の出席状況を追跡する必要がある教育者は、会議中に生徒に返信を求めるメッセージを送信することをおすすめします。これで生徒の出席状況が数分でわかるようになります。
