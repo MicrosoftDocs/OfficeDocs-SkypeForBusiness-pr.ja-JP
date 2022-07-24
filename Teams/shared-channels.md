@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams の共有チャネルを使用および管理する方法について説明します。
-ms.openlocfilehash: 2c15567c78000de187877477554c233b59c5e58f
-ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
+ms.openlocfilehash: 8bd0fe39031fdae6d47e7c738a1c883b6b066f7d
+ms.sourcegitcommit: 1398570f56d5918d309f95fb734a2e8c5b4981b5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66884916"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "66968908"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams の共有チャネル
 
@@ -149,6 +149,8 @@ Teams は、共有チャネル サイトのライフ サイクルを管理しま
 |共有チャネルのメンバー|直接のメンバー 5,000 人 (最大 50 チームを含む)。 (この制限の目的のため、チャネルが共有される各チームは 1 人のメンバーとしてカウントされます。)|リアルタイムの更新は一度に 25,000 人のユーザーしか利用できず、チャネル リストには 25,000 人のユーザーしか表示されません。|
 
 次の制限も適用されます。
+
+- 外部参加者には、Azure AD の職場または学校アカウントのみがサポートされます。
 
 - 共有チャネルではタブがサポートされますが、Stream、Planner、Forms は除きます。
 
