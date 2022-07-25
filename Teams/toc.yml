@@ -1525,6 +1525,8 @@ items:
             href: overview-of-app-certification.md
           - name: Teams 用のサードパーティ製アプリを購入する
             href: purchase-third-party-apps.md
+          - name: Teams の既定の PDF ビューアーとしての Adobe Acrobat
+            href: adobe-acrobat-pdf-viewer-teams.md
           - name: Microsoft 365 とカスタム コネクタを管理する
             href: Office-365-custom-connectors.md
       - name: カスタム基幹業務アプリを管理する
