@@ -459,8 +459,10 @@ items:
             href: /microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
       - name: ログ ファイル、サービス正常性、サポート
         items:
-          - name: ログ ファイルを使用して Teams の監視とトラブルシューティングを行う
+          - name: Teams で監視とトラブルシューティングを行うログ ファイルを構成する
             href: log-files.md
+          - name: Teams のブラウザー ログとトレース
+            href: browser-logs-and-tracing-for-teams.md
           - name: Teams のサービス正常性を確認する
             href: service-health.md
           - name: サポート PIN を確認する方法
@@ -977,6 +979,8 @@ items:
             href: operator-connect-configure.md#set-up-phone-numbers
           - name: ダイレクト ルーティングの電話番号を管理する
             href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
+          - name: ライセンスと電話番号の管理
+            href: phone-numbers-licensing-changes.md
       - name: ダイヤル プランとルーティング
         items:
           - name: 概要
