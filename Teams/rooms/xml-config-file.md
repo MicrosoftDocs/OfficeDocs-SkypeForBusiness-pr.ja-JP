@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: カスタム テーマの適用やマスター設定ファイルの作成など、Microsoft Teams Rooms デバイスで使用される既定の設定のリモート管理について説明します。
-ms.openlocfilehash: d991c90fb9d5f652e684343a292cf61d0043c61d
-ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
+ms.openlocfilehash: b31c6519c04070c644d297071b07cc75c7dfc0f6
+ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66529669"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67005347"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Microsoft Teams Rooms のコンソールの設定を、XML 構成ファイルを使用してリモートで管理する
 
@@ -63,6 +63,7 @@ ms.locfileid: "66529669"
   <DuplicateIngestDefault>true</DuplicateIngestDefault>
   <DisableTeamsAudioSharing>true</DisableTeamsAudioSharing>
   <FrontRowEnabled>true</FrontRowEnabled>
+  <SingleFoRDefaultContentLayout>1</SingleFoRDefaultContentLayout>
   <DefaultFoRExperience>0</DefaultFoRExperience>
   <EnablePublicPreview>false</EnablePublicPreview>
   <NoiseSuppressionDefault>1</NoiseSuppressionDefault>
@@ -139,8 +140,9 @@ ms.locfileid: "66529669"
 | `<DisableTeamsAudioSharing>`                | ブール値 &#x2777;            | First &#x2776; | Teams 会議の会議参加者への HDMI オーディオ共有を無効にするには、true に設定します。 既定の設定は False です。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | `<FrontRowEnabled>`                          | ブール値 &#x2777;            | First &#x2776; | 既定では有効になっています。 false の場合、フロント行は無効になります。
 | `<DefaultFoRExperience>`                     | ブール値 &#x2777;            | First &#x2776; | 既定ではギャラリー ビュー。 既定のレイアウトをギャラリー ビューからフロント 行に変更するには、1 を配置します。
+| `<SingleFoRDefaultContentLayout>`           | 文字列                      |                 | 単一表示モードでは、Content+people と Content の間の既定のレイアウトのみを設定できます。<br><ul><li><b>0</b> コンテンツのみ</li><li><b>1</b> Content+people (既定)</li></ul>|
 | `<EnablePublicPreview>`                     | ブール値 &#x2777;            | First &#x2776; | 既定では無効になっています。 true の場合、パブリック プレビューが有効になり、エンド ユーザーは有効なTeams Roomsのパブリック プレビューの機能にアクセスできます。 詳細については、「[Windows でのMicrosoft Teams Roomsのパブリック プレビュー](../public-preview-doc-updates.md#public-preview-for-microsoft-teams-rooms-on-windows)」を参照してください。 |
-| `<NoiseSuppressionDefault>`                 | ブール値 &#x2777;            | First &#x2776; | Teams のノイズ抑制レベルを制御します。<br><ul><li><b>0</b> オフ。 OEM 提供のノイズ抑制のみを使用します。</li><li><b>1</b> 自動 (既定値)。 Teams は、ローカル ノイズに基づいて最適なレベルのノイズ抑制を決定します。</li><li><b>2</b> 低。 コンピューター ファンや空調機など、低レベルの永続的なバックグラウンド ノイズを抑制します。</li><li><b>3</b> 高。 音声ではないすべてのバックグラウンド サウンドを抑制します。</li></ul>
+| `<NoiseSuppressionDefault>`                 | 文字列                      | First &#x2776; | Teams のノイズ抑制レベルを制御します。<br><ul><li><b>0</b> オフ。 OEM 提供のノイズ抑制のみを使用します。</li><li><b>1</b> 自動 (既定値)。 Teams は、ローカル ノイズに基づいて最適なレベルのノイズ抑制を決定します。</li><li><b>2</b> 低。 コンピューター ファンや空調機など、低レベルの永続的なバックグラウンド ノイズを抑制します。</li><li><b>3</b> 高。 音声ではないすべてのバックグラウンド サウンドを抑制します。</li></ul>
 | `<CortanaWakewordEnabled>`                  | ブール値 &#x2777;            | First &#x2776; | Cortana ウェイク ワード "Cortana さん" を有効にするには、true に設定します。 この設定は、Cortana サービスが国または地域でサポートされ、接続されているオーディオ周辺機器が Cortana をサポートしている場合を除き、何の効果も得られません。 既定の設定は False です。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | `<SendLogs>`                                | コンテナー                   | First &#x2776; |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | `<EmailAddressForLogsAndFeedback>`          | 文字列  &#x2778;            |                | [フィードバックの送信] ウィンドウが表示されたときにログの送信先となるオプションのメールアドレスを設定します。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |

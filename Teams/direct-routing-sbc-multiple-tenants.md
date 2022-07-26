@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Microsoft パートナーまたは PSTN 通信事業者の複数のテナントにサービスを提供するように 1 つのセッション ボーダー コントローラー (SBC) を構成する方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9221414053b0ee92b87553e0f81c23b41b23f0fb
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 8880f912ae21af3bf269e86469241f345bc33f74
+ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616343"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67005357"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>複数のテナントにセッション ボーダー コントローラーを構成する
 
@@ -60,7 +60,7 @@ SBC ホスティング シナリオ用に SBC をデプロイおよび構成す�
 
 - **AudioCodes:** 「AudioCodes SBC を Microsoft Teams [ダイレクト ルーティング](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams) ホスティング モデル構成ノートに接続する」の説明に従って、SBC ホスティング シナリオの構成に関するダイレクト ルーティング構成ノートを参照してください。 
 - **Oracle：** 「Microsoft」セクションで説明されているように、SBC ホスティング シナリオの構成については、 [ダイレクト ルーティング構成に](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html) 関する注意事項を参照してください。 
-- **リボン通信:** リボン コア シリーズ SBC を構成する方法のドキュメントについては、Ribbon [Communications SBC Core Microsoft Teams 構成ガイド](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) を参照してください。 [「リボンのベスト プラクティス - Microsoft Teams Direct Routing SBC Edge の通信事業者の構成](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)」も参照してください。
+- **リボン通信:** リボン コア シリーズ SBC を構成する方法のドキュメントについては、Ribbon [Communications SBC Core Microsoft Teams 構成ガイド](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+MS+Teams+Solution+Guide) を参照してください。 [「リボンのベスト プラクティス - Microsoft Teams Direct Routing SBC Edge の通信事業者の構成](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)」も参照してください。
 - **TE-Systems (anynode):** 複数のテナントに対して anynode SBC を構成する方法に関するドキュメントと例については [、TE-Systems コミュニティ ページ](https://community.te-systems.de/) サイトに登録します。
 - **Metaswitch:** 複数のテナントに対して Perimeta SBC を有効にする方法に関するドキュメントについては [、Metaswitch コミュニティ ページ](https://manuals.metaswitch.com/MAN39555) サイトに登録します。
 

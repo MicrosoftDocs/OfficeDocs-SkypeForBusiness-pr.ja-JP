@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 会議ポリシー設定を使用して、Microsoft Teams で会議の有効期限を制御する方法について説明します。
-ms.openlocfilehash: 08ca5a75b8dd470b006d44e562eb795f814faba6
-ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
+ms.openlocfilehash: 3d79041cf6e8e16ed4ebd680cf5f4370e04cd62a
+ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66529689"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67005337"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Microsoft Teams での会議ポリシーと会議の有効期限
 
@@ -101,8 +101,8 @@ Microsoft Teams の[会議ポリシー](meeting-policies-overview.md)は、組�
 有効期限の値は、次のように設定できます。
 
 - 最小値: **1 日**
-- 最大値: **99,999 日**
-- 記録が期限切れにならないように、有効期限を **-1** に設定することもできます。
+- 最大値: **999999 日**
+- また、PowerShell で有効期限を **-1** に設定して、記録が期限切れにならないようにすることもできます。
 
 PowerShell コマンドの例は、以下のとおりです。
 
@@ -114,24 +114,19 @@ Teams 管理センターの [**会議ポリシー**] で有効期限を設定で
 
 ![会議の有効期限ポリシーの中央のスクリーンショット管理。](media/meeting-expiration-policy.jpg)
 
-### <a name="security-and-compliance"></a>セキュリティとコンプライアンス
+### <a name="compliance"></a>コンプライアンス
 
-#### <a name="should-i-rely-on-this-feature-for-strict-security-and-compliance-adherence"></a>この機能は、厳密なセキュリティとコンプライアンスの遵守に依存する必要がありますか?
+エンド ユーザーが制御するすべての記録の有効期限を変更できるため、法的保護のために TMR の有効期限設定に依存しないでください。
 
-いいえ。エンド ユーザーが制御するすべての記録の有効期限を変更できるため、法的保護に依存しないでください。
+#### <a name="teams-meeting-recording-expiration-settings-and-microsoft-365-retention-policies-in-microsoft-purview"></a>Microsoft Purview の Teams 会議記録の有効期限設定と Microsoft 365 アイテム保持ポリシー
 
-#### <a name="will-a-retention-andor-deletion-policy-ive-set-in-the-security--compliance-center-override-the-teams-meeting-recording-expiration-setting"></a>セキュリティ & コンプライアンス センターで設定したアイテム保持または削除ポリシーは、Teams 会議記録の有効期限設定よりも優先されますか?
+ファイルの保持期間は、ファイルの削除よりも優先されます。 Purview アイテム保持ポリシーを使用した会議の記録は、保持期間が完了するまで TMR 有効期限ポリシーによって削除できません。 たとえば、ファイルが 5 年間保持され、TMR の有効期限ポリシーが 60 日間設定されるという Purview 借用ポリシーがある場合、TMR 有効期限ポリシーは 5 年後に記録を削除します。  
 
-はい。コンプライアンス センターで設定したポリシーはすべて優先されます。
+TMR 有効期限ポリシーと Purview 削除ポリシーに異なる削除日がある場合、ファイルは 2 つの日付の最も早い時点で削除されます。 たとえば、1 年後にファイルが削除され、TMR の有効期限が 120 日間設定されている Purview 削除ポリシーがある場合、TMR の有効期限設定は 120 日後にファイルを削除します。
 
-次に例を示します。
+### <a name="enforcement-of-file-retention-with-the-teams-meeting-recording-expiration-setting"></a>Teams 会議記録の有効期限設定を使用したファイルリテンション期間の適用
 
-- サイト内のすべてのファイルを 100 日間保持する必要があり、Teams 会議の記録の有効期限設定が 30 日間であるポリシーがある場合、記録は完全な 100 日間保持されます。
-- すべての Teams 会議記録が 5 日後に削除され、Teams 会議の記録の有効期限が 30 日後に設定されているという削除ポリシーがある場合、記録は 5 日後に削除されます。
-
-### <a name="will-this-feature-enforce-file-retention"></a>この機能はファイルの保持を強制しますか?
-
-いいえ。この機能またはその設定により、ファイルは保持されません。 削除アクセス許可を持つユーザーが有効期限設定を持つ TMR を削除しようとすると、そのユーザーの削除アクションが実行されます。
+この機能またはその設定により、ファイルは保持されません。 削除アクセス許可を持つユーザーが有効期限設定を持つ TMR を削除しようとすると、そのユーザーの削除アクションが実行されます。
 
 ### <a name="what-skus-are-required-for-this-feature"></a>この機能に必要な SKU は何ですか?
 
