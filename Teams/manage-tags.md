@@ -18,7 +18,7 @@ search.appverid: MET150
 description: Microsoft Teams で組織でのタグの使用方法を管理する方法について説明します。
 ms.openlocfilehash: 146b8fa36eccb446921c87dd98aa3af44458ba00
 ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/30/2022
 ms.locfileid: "66563715"

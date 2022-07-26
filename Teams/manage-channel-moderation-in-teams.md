@@ -20,7 +20,7 @@ description: チーム メンバーをチャネルのモデレーターとして
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: 52fb88d6371c033713c5b14d96ecf2a9211420b0
 ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/30/2022
 ms.locfileid: "66562366"
