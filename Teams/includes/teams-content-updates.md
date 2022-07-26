@@ -3,6 +3,28 @@
 
 
 
+## <a name="week-of-july-18-2022"></a>2022 年 7 月 18 日の週
+
+
+| 公開日 |トピックのタイトル | 変更 |
+|------|------------|--------|
+| 7/18/2022 | [Microsoft Teams のアプリについて知っておくべきこと](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 更新日時 |
+| 7/18/2022 | [Microsoft Teams のアプリのセットアップ ポリシーを管理する](/MicrosoftTeams/teams-app-setup-policies) | 更新日時 |
+| 7/18/2022 | 現場担当者のために大規模に Microsoft Teams をプロビジョニングする | 削除されました |
+| 7/19/2022 | [Microsoft 365 およびカスタム コネクタを管理する](/MicrosoftTeams/office-365-custom-connectors) | 更新日時 |
+| 7/19/2022 | [Microsoft Teams のアプリについて知っておくべきこと](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 更新日時 |
+| 7/19/2022 | [Microsoft Teams 管理センターで Microsoft Power Platform アプリを管理する](/MicrosoftTeams/manage-power-platform-apps) | 更新日時 |
+| 7/19/2022 | [Teams 会議で Q&A を管理する](/MicrosoftTeams/manage-qna-for-teams) | 更新日時 |
+| 7/19/2022 | [Microsoft によるアプリ認定の概要](/MicrosoftTeams/overview-of-app-certification) | 更新日時 |
+| 7/19/2022 | [Teams 用のサード パーティ製アプリを購入する](/MicrosoftTeams/purchase-third-party-apps) | 更新日時 |
+| 7/20/2022 | [オペレーター接続を構成する](/MicrosoftTeams/operator-connect-configure) | 更新日時 |
+| 7/21/2022 | [Microsoft Teams の Education Insights への IT 管理者ガイド](/MicrosoftTeams/class-insights) | 更新日時 |
+| 7/21/2022 | [Microsoft Teams でのアプリの更新エクスペリエンス](/MicrosoftTeams/apps-update-experience) | 更新日時 |
+| 7/21/2022 | [Microsoft Teams 管理センターで、Teams アプリの組織向けアプリを管理します。](/MicrosoftTeams/manage-apps) | 更新日時 |
+| 7/21/2022 | [Teams アプリ申請 API を使用してカスタム アプリを送信および承認する](/MicrosoftTeams/submit-approve-custom-apps) | 更新日時 |
+| 7/21/2022 | [Microsoft Teams 管理センターでカスタム アプリをアップロードする](/MicrosoftTeams/upload-custom-apps) | 更新日時 |
+
+
 ## <a name="week-of-july-11-2022"></a>2022 年 7 月 11 日の週
 
 
@@ -103,35 +125,3 @@
 | 6/23/2022 | [Microsoft Teams for Educationの Career Coach を購入、構成、および有効にする](/MicrosoftTeams/career-coach) | 更新日時 |
 | 6/23/2022 | [オペレーター接続を構成する](/MicrosoftTeams/operator-connect-configure) | 更新日時 |
 | 6/24/2022 | [Microsoft Teams 管理センターで、Teams アプリの組織向けアプリを管理します。](/MicrosoftTeams/manage-apps) | 更新日時 |
-
-
-## <a name="week-of-june-13-2022"></a>2022 年 6 月 13 日の週
-
-
-| 公開日 |トピックのタイトル | 変更 |
-|------|------------|--------|
-| 6/13/2022 | [Microsoft Teams で通話キューを作成する](/MicrosoftTeams/create-a-phone-system-call-queue) | 更新日時 |
-| 6/13/2022 | [Power BI を使用して Microsoft Teams の CQD データを分析する](/MicrosoftTeams/cqd-power-bi-query-templates) | 更新日時 |
-| 6/13/2022 | [Business Voice から Teams Phone ライセンスに移行する](/MicrosoftTeams/business-voice-to-teams-phone-licenses) | 更新日時 |
-| 6/13/2022 | [Microsoft Teams のトラブルシューティングでログ ファイルを使用する](/MicrosoftTeams/log-files) | 更新 |
-| 6/13/2022 | [データとプライバシー情報](/MicrosoftTeams/rooms/data-and-privacy-info) | 更新日時 |
-| 6/13/2022 | [Microsoft Teams Rooms更新管理](/MicrosoftTeams/rooms/update-management) | 更新日時 |
-| 6/15/2022 | [Teams PowerShell モジュール - サポートされているバージョン](/MicrosoftTeams/teams-powershell-supported-versions) | 更新日時 |
-| 6/16/2022 | [自動応答と呼び出しキューの PowerShell コマンドレット リファレンス](/MicrosoftTeams/call-queue-auto-attendant-cmdlets) | 追加済 |
-| 6/16/2022 | [Microsoft Teams の通話ルーティング フローを計画する](/MicrosoftTeams/plan-your-call-routing-flow) | 追加済 |
-| 6/16/2022 | [Microsoft Teams アプリのアクセス許可と考慮事項](/MicrosoftTeams/app-permissions) | 更新日時 |
-| 6/16/2022 | [ユーザーの電話番号を割り当て、変更、または削除する](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | 更新日時 |
-| 6/16/2022 | Microsoft Teams の自動応答を設定する - 小規模ビジネスのチュートリアル | 削除されました |
-| 6/16/2022 | Microsoft Teams 電話 System - small business チュートリアルで通話キューを作成する | 削除されました |
-| 6/16/2022 | [Teams Phone System の電話番号をユーザーに割り当てる](/MicrosoftTeams/business-voice/set-up-assign-numbers) | 更新日時 |
-| 6/16/2022 | 会社のメイン電話番号の自動応答を設定する | 削除されました |
-| 6/16/2022 | [Microsoft Teams 電話 システム リソース アカウントを設定する](/MicrosoftTeams/business-voice/set-up-resource-account) | 更新日時 |
-| 6/16/2022 | [中小企業向けの Teams Phone System ガイダンス](/MicrosoftTeams/business-voice/whats-business-voice) | 更新日時 |
-| 6/16/2022 | [Microsoft Teams の自動応答を設定する](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 更新日時 |
-| 6/16/2022 | [Microsoft Teams で通話キューを作成する](/MicrosoftTeams/create-a-phone-system-call-queue) | 更新日時 |
-| 6/16/2022 | [組織の Teams ストア内のアプリの外観を変更する](/MicrosoftTeams/customize-apps) | 更新日時 |
-| 6/16/2022 | [自動応答と通話キューのダイヤルと音声認識のリファレンス](/MicrosoftTeams/dial-voice-reference) | 更新日時 |
-| 6/16/2022 | [Teams のリソース アカウントを管理する](/MicrosoftTeams/manage-resource-accounts) | 更新日時 |
-| 6/16/2022 | [Teams の自動応答と通話キューを計画する](/MicrosoftTeams/plan-auto-attendant-call-queue) | 更新日時 |
-| 6/16/2022 | [Microsoft Teams 管理センターでカスタム アプリをアップロードする](/MicrosoftTeams/upload-custom-apps) | 更新日時 |
-| 6/16/2022 | [参加者とゲストの会議ポリシーを管理する](/MicrosoftTeams/meeting-policies-participants-and-guests) | 更新日時 |
