@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 735fc17c7e82c1c2362b235508b28b9b4a392439
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: d99dacdd0580d2ee9eaf775d843c5c46a0960259
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563975"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67024000"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでチームを管理する
 
@@ -58,7 +58,7 @@ Teams 用の管理ツールは、Microsoft Teams 管理センターの **[Teams]
 - **プライバシー** - 基となる Microsoft 365 グループの可視性/AccessType。
 - **状態** - このチームの状態がアーカイブ済みかアクティブか。 チームのアーカイブに関する詳細については、「[チームをアーカイブまたは復元する](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)」を参照してください。
 - **説明** - 基となる Microsoft 365 グループの説明。
-- **分類** - 基となる Microsoft 365 グループに割り当てられている分類 (組織内で使用されている場合)。 分類の詳細については、「[組織の Office グループに対する分類を作成する](/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization)」を参照してください。
+- **分類** - 基となる Microsoft 365 グループに割り当てられている分類 (組織内で使用されている場合)。 分類の詳細については、「[組織内の Microsoft 365 グループの分類を作成する](/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershell#create-classifications-for-microsoft-365-groups-in-your-organization)」 を参照してください。
 - **GroupID** - 基となる Microsoft 365 グループの一意の GroupID。
 
 > [!NOTE]

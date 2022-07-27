@@ -1600,8 +1600,16 @@ items:
             href: easy-policy-setup-edu.md
           - name: Teams for Education の親接続
             href: edu-parents-app.md
-          - name: Teams for Education のキャリア コーチ
-            href: career-coach.md
+          - name: キャリア コーチ
+            items:
+              - name: キャリア コーチの使用を開始
+                href: career-coach.md
+              - name: キャリア コーチの設定と構成
+                href: career-coach-set-up-steps.md
+              - name: キャリア コーチのトラブルシューティング
+                href: career-coach-troubleshoot.md
+              - name: キャリア コーチのリソース
+                href: career-coach-resources.md
           - name: Teams でのチャットを監督する
             href: supervise-chats-edu.md
           - name: Education Insights
@@ -1998,6 +2006,8 @@ items:
             href: complaint-handling-code-for-the-united-kingdom-u-k.md
           - name: 緊急通話の利用条件
             href: emergency-calling-terms-and-conditions.md
+      - name: 共有チャネルのエラー
+        href: shared-channels-errors.md
       - name: 探索アンケートをアップグレードする
         href: upgrade-plan-journey-discovery-questionnaire.md
       - name: Teams 管理者機能のリリースノート

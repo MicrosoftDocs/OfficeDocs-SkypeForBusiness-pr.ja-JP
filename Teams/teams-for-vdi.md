@@ -19,7 +19,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 1e557e0901293c26d48e30ed163883f9cd97f12e
 ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 07/14/2022
 ms.locfileid: "66790352"
@@ -498,7 +498,7 @@ if($cleanup){
 次の通話および会議機能はサポートされていません。
 
 - Teams アプリと Citrix および VMware のデバイス間の HID ボタンと LED コントロール
-- Citrix と VMware の背景のぼかしと効果
+- Citrix と VMware の背景ぼかしと効果
 - ブロードキャストとライブ イベントのプロデューサーと発表者の役割
 - 場所に基づくルーティング (LBR)
 - PSTN 通話のリングバック トーン
@@ -516,7 +516,7 @@ if($cleanup){
 - デバイスが切断されて再接続された場合、ユーザーが最後に選択したオーディオ デバイスが使用されるように切り替えられません。
 - ライブ イベントは最適化されていません。
 - 送信画面の共有:
-  - アプリケーション共有は、VMware および AVD/W365 ではサポートされていません。
+  - アプリケーションの共有は、VMware および AVD/W365 ではサポートされていません。
 - 制御の受け渡し:
   - アプリケーション共有セッション中はサポートされません。
 
