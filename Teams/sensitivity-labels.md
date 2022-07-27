@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teamsの秘密度ラベル
+title: Microsoft Teams の秘密度ラベル
 ms.author: cabailey
 author: cabailey
 manager: laurawi
@@ -16,31 +16,31 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 秘密度ラベルを使用してMicrosoft Teamsでチームを保護する方法について説明します。
-ms.openlocfilehash: fab5ad4e3be3da5afc6ee373aa6bebe2afae819e
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+description: 秘密度ラベルを使用して Microsoft Teams のチームを保護する方法について説明します。
+ms.openlocfilehash: 6bbeb4d804c9f397936d331df902cc295d044d75
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922698"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023778"
 ---
-# <a name="sensitivity-labels-for-microsoft-teams"></a>Microsoft Teamsの秘密度ラベル
+# <a name="sensitivity-labels-for-microsoft-teams"></a>Microsoft Teams の秘密度ラベル
 
-[秘密度ラベル](/microsoft-365/compliance/sensitivity-labels)を使用すると、Teams管理者は、チーム内での共同作業中に作成された機密組織のコンテンツへのアクセスを保護し、規制することができます。 [Microsoft Purview コンプライアンス ポータル](/microsoft-365/compliance/go-to-the-securitycompliance-center)で、関連付けられているポリシーを使用して秘密度ラベルを構成した後、これらのラベルを組織内のチームに適用できます。
+[秘密度ラベル](/microsoft-365/compliance/sensitivity-labels) を使用すると、Teams 管理者は、チーム内での共同作業中に作成された機密性の高い組織コンテンツへのアクセスを保護および規制できます。 [Microsoft Purview コンプライアンス ポータル](/microsoft-365/compliance/go-to-the-securitycompliance-center)に関連付けられたポリシーを使用して秘密度ラベルを構成した後、これらのラベルを組織内のチームに適用できます。
 
 現在、Teams Education SKU を使用しているお客様のクラス チームでは、秘密度ラベルはサポートされていません。 Teams のライセンスの詳細については、「[Microsoft Teams サービスのサービスの説明](/office365/servicedescriptions/teams-service-description)」を参照してください。
 
-## <a name="whats-the-difference-between-sensitivity-labels-and-teams-classification"></a>秘密度ラベルとTeams分類の違いは何ですか?
+## <a name="whats-the-difference-between-sensitivity-labels-and-teams-classification"></a>秘密度ラベルと Teams 分類の違いは何ですか?
 
-秘密度ラベルは、Teams分類 (Azure AD グループ分類とも呼ばれます) とは異なります。 分類は、Microsoft 365 グループに関連付けることができるが、実際のポリシーが関連付けられていないテキスト文字列です。 メタデータとして分類を使用し、内部ツールやスクリプトなどの他のメソッドを使用してポリシーを適用する必要があります。
+秘密度ラベルは Teams の分類とは異なり、Azure AD グループ分類とも呼ばれます。 分類は、Microsoft 365 グループに関連付けることができるが、実際のポリシーが関連付けられていないテキスト文字列です。 メタデータとして分類を使用し、内部ツールやスクリプトなどの他のメソッドを使用してポリシーを適用する必要があります。
 
-秘密度ラベルを使用する利点は、Microsoft 365 グループ プラットフォーム、コンプライアンス センター、Teams サービスの組み合わせによって、ポリシーがエンド ツー エンドで自動的に適用されることです。 秘密度ラベルは、組織の機密データをセキュリティで保護し、内部ポリシーまたは規制に準拠するための強力なインフラストラクチャ サポートを提供します。
+秘密度ラベルを使用する利点は、Microsoft 365 グループ プラットフォーム、Microsoft Purview コンプライアンス ポータル、Teams サービスの組み合わせによって、ポリシーがエンド ツー エンドで自動的に適用されることです。 秘密度ラベルは、組織の機密データをセキュリティで保護し、内部ポリシーまたは規制に準拠するための強力なインフラストラクチャ サポートを提供します。
 
-現在Teams分類を使用している場合は、これらの値を機密ラベル ([クラシック Azure AD グループ分類](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#classic-azure-ad-group-classification)) に変換する方法の詳細と手順については、次のドキュメントを参照してください。
+Teams 分類を現在使用している場合は、これらの値を秘密度ラベルに変換する方法の詳細と手順については、次のドキュメントを参照してください。 [クラシック Azure AD グループ分類](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#classic-azure-ad-group-classification)。
 
 ## <a name="example-scenarios-for-sensitivity-labels"></a>秘密度ラベルのシナリオの例
 
-組織内のTeamsで秘密度ラベルを使用する方法のシナリオの例を次に示します。
+組織内の Teams で秘密度ラベルを使用する方法のシナリオの例を次に示します。
 
 - [チームのプライバシー レベル (パブリックまたはプライベート) を設定する](#set-the-privacy-level-for-teams)
 - [チームへのゲスト アクセスを制御する](#control-guest-access-to-teams)
@@ -69,30 +69,28 @@ ms.locfileid: "64922698"
 
 ### <a name="control-guest-access-to-teams"></a>チームへのゲスト アクセスを制御する
 
-秘密度ラベルを使用して、チームへのゲスト アクセスを制御できます。 ゲスト アクセスを許可しないラベルで作成されたTeamsは、組織内のユーザーのみが使用できます。 組織外のユーザーをチームに追加することはできません。
+秘密度ラベルを使用して、チームへのゲスト アクセスを制御できます。 ゲスト アクセスを許可しないラベルで作成された Teams は、組織内のユーザーのみが使用できます。 組織外のユーザーをチームに追加することはできません。
 
 ## <a name="microsoft-teams-admin-center"></a>Microsoft Teams 管理センター
 
-秘密度ラベルは、Microsoft Teams管理センターでチームを作成または編集するときに適用できます。 
-
-秘密度ラベルは、チームのプロパティや、Microsoft Teams管理センターの [**チームの管理**] ページの **[分類]** 列にも表示されます。
+秘密度ラベルは、Microsoft Teams 管理センターでチームを作成または編集するときに適用できます。 秘密度ラベルは、チームのプロパティや、Microsoft Teams 管理センターの [**チームの管理**] ページの **[分類**] 列にも表示されます。
 
 ## <a name="limitations"></a>制限事項
 
-Teamsに秘密度ラベルを使用する前に、次の制限事項に注意してください。
+Teams で秘密度ラベルを使用する前に、次の制限事項に注意してください。
 
-- **秘密度ラベルは、Teams Graph API および PowerShell コマンドレットではサポートされていません**
+- **秘密度ラベルは Teams Graph API および PowerShell コマンドレットではサポートされていません**
     
-    ユーザーは、Teams Graph API または powerShell コマンドレットを使用して直接チームを作成するときに秘密度ラベル Teamsを指定することはできません。 ただし、モダン グループGraph API および PowerShell コマンドレットでは、機密ラベルを持つグループを作成できます。 つまり、これらのメソッドを使用して秘密度ラベルを持つグループを作成し、これらのグループをチームに変換できます。
+    Teams Graph API または Teams PowerShell コマンドレットを使用してチームを直接作成するときに、ユーザーは秘密度ラベルを指定できません。 ただし、Modern Groups Graph API と PowerShell コマンドレットでは、機密ラベルを持つグループを作成できます。 つまり、これらのメソッドを使用して秘密度ラベルを持つグループを作成し、これらのグループをチームに変換できます。
 
 - **プライベート チャネルのサポート**
     
-    チームで作成されたプライベート チャネルは、チームに適用された秘密度ラベルを継承します。 同じラベルが、プライベート チャネルのSharePoint サイト コレクションに自動的に適用されます。
+    チームで作成されたプライベート チャネルは、チームに適用された秘密度ラベルを継承します。 プライベート チャネルの SharePoint サイト コレクションには、同じラベルが自動的に適用されます。
     
-    ただし、ユーザーがプライベート チャネルのSharePoint サイトの秘密度ラベルを直接変更した場合、そのラベルの変更はTeams クライアントには反映されません。 このシナリオでは、ユーザーはプライベート チャネル ヘッダーでチームに適用された元の秘密度ラベルを引き続き表示します。
+    ただし、ユーザーがプライベート チャネルの SharePoint サイトの秘密度ラベルを直接変更した場合、そのラベルの変更は Teams クライアントに反映されません。 このシナリオでは、ユーザーはプライベート チャネル ヘッダーでチームに適用された元の秘密度ラベルを引き続き表示します。
 
-## <a name="how-to-create-and-configure-sensitivity-labels-for-teams"></a>Teamsの秘密度ラベルを作成して構成する方法
+## <a name="how-to-create-and-configure-sensitivity-labels-for-teams"></a>Teams の秘密度ラベルを作成して構成する方法
 
-Microsoft 365ドキュメントの手順を使用して、Teamsの秘密度ラベルを作成および構成します。 
+Microsoft Purview のドキュメントの手順を使用して、Teams の秘密度ラベルを作成および構成します。 
 
-- [秘密度ラベルを使用して、Microsoft Teams、Microsoft 365 グループ、SharePoint サイト内のコンテンツを保護](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)します。
+- [秘密度ラベルを使用して、Microsoft Teams、Microsoft 365 グループ、SharePoint サイトのコンテンツを保護](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)します。

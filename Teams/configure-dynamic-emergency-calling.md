@@ -18,12 +18,12 @@ description: Microsoft 通話プランと電話システム ダイレクト ル�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9da8f8f082812063de7d2fb81c7d5b716ad1e07a
-ms.sourcegitcommit: 911fdb6df0511b4a4d9e4705799877045a09113c
+ms.openlocfilehash: bc7fb0ae87cda84dfbf7b164d38b709b7ef2eef9
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "66972792"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023698"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>動的な緊急通話を計画して構成する 
 
@@ -156,7 +156,7 @@ Microsoft Teams 管理センターまたは PowerShell を使用して、ネッ�
 
 - 緊急通報の動的有効化またはセキュリティ デスク通知の動的構成が必要な場合は、信頼された IP アドレスとネットワーク サイトの両方を構成する必要があります。
 
-- 動的な場所のみが必要な場合は、信頼できる IP アドレスのみを構成する必要があります。metwork 設定を構成する必要はありません。
+- 動的な場所のみが必要な場合は、信頼できる IP アドレスのみを構成する必要があります。ネットワーク設定を構成する必要はありません。
 
 - どちらも必要ない場合は、ネットワーク設定を構成する必要はありません。
 

@@ -22,16 +22,16 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: 通話品質ダッシュボード Power BI レポートを使用して、自動応答と通話キューの履歴データを表示する方法について説明します。
-ms.openlocfilehash: e2d71410d10fb809debd1699afcf452c71a6e088
-ms.sourcegitcommit: 193aec6f3f6b6ac14b07e778b3485eed813f5e99
+ms.openlocfilehash: b9bb3cf0990058cd16ed35d52d07f63be6cd90fb
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046449"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67024010"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>自動応答&通話キュー履歴レポート
 
-Teams自動応答&通話キュー履歴レポート Power BI テンプレートには、次の 3 つのレポートがあります。
+Teams 自動応答&通話キュー履歴レポート Power BI テンプレートには、次の 3 つのレポートがあります。
 
 - [自動応答 – 自動応答](media/cqd-teams-aa-cq-historical-report-sample-aa.png) に着信する呼び出しの分析を示します。
 - [通話キュー – 通話キュー](media/cqd-teams-aa-cq-historical-report-sample-cq.png) に着信する通話の分析を示します。
@@ -39,10 +39,12 @@ Teams自動応答&通話キュー履歴レポート Power BI テンプレート�
 
 これらのレポートでは、 [通話品質ダッシュボード](CQD-Power-BI-query-templates.md) データ ストアのデータが使用されます。 このレポートを使用すると、組織は自動応答と通話キューによって処理される通話の数を報告できます。  また、レポートは、呼び出しキュー内のエージェントのパフォーマンスに関する分析情報も提供します。
 
+### <a name="v160-published-on-july-22-2022"></a>2022 年 7 月 22 日に公開された V1.60
+
 ## <a name="prerequisites"></a>前提条件
 
 ### <a name="power-bi-desktop"></a>Power BI Desktop
-Power BI Desktopがインストールされている必要があります。 [Microsoft Windows Microsoft Store](https://aka.ms/pbidesktopstore)からインストールできます。
+Power BI Desktopがインストールされている必要があります。 [Microsoft Windows ストア](https://aka.ms/pbidesktopstore)からインストールできます。
 
 無料版のPower BI Desktopを使用できます。 互換性のある最小バージョンは 2.85.681.0 (2020 年 9 月) です。
 
@@ -56,11 +58,11 @@ Power BI Desktopがインストールされている必要があります。 [Mi
 
 次の手順を実行します。
 
-- [CQD Power BIクエリ テンプレート](https://www.microsoft.com/download/details.aspx?id=102291)をダウンロードし、zip ファイルをコンピューターのディレクトリに保存します。
+- [CQD Power BI クエリ テンプレート](https://www.microsoft.com/download/details.aspx?id=102291)をダウンロードし、zip ファイルをコンピューターのディレクトリに保存します。
 
 - zip ファイルをダブルクリックして開きます。
 
-- "CQ と AA combined Analytics 20201105.pbit" テンプレート ファイルをダブルクリックします。 Power BI Desktopが起動する必要があります。
+- "CQD Teams 自動応答&通話キュー履歴レポート V1.60.pbit" テンプレート ファイルをダブルクリックします。 Power BI Desktopが起動する必要があります。
 
 - CQD データ パイプラインリージョンを選択するように求められます。 テナントが配置されているリージョンを選択します。
 
@@ -83,23 +85,23 @@ Power BI Desktopがインストールされている必要があります。 [Mi
 
    :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="更新オプションを選択するスクリーンショット。":::
 
-- その後、サインインするように求められます。 [ **組織アカウント]** を選択し、[ **サインイン**] を選択します。
+- サインインするように求められます。 **[組織アカウント]** を選択し、[**サインイン**] を選択します。
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="ログインを示すスクリーンショット。":::
 
-- **Connect** を選択し、データ更新を確認します。
+- [ **接続** ] を選択し、データ更新を確認します。
 
 ## <a name="data-latency-and-aa--cq-analytics"></a>データ待機時間と AA & CQ 分析
 
-データは、30 分以内に CQD データ パイプラインで使用できるようになります。
+データは通常、通話が完了してから 30 分以内に利用できます。ただし、データが表示されるまでに数時間かかる場合があります。 
 
-新しい分析データを表示するには、データを更新する必要があります。 
+新しいデータを表示するには、データを更新する必要があります。
 
 ## <a name="customization"></a>カスタマイズ 
 
 さまざまな視覚化に表示されるフィールドの追加や削除、グラフの種類の変更など、レポートの特定の視覚化の側面をカスタマイズできます。
 
-レポートにデータ フィールドを追加することはできません。
+レポートには、現在使用可能なすべてのデータ メトリックが含まれています。
 
 ### <a name="change-color-schema"></a>カラー スキーマを変更する 
 
@@ -225,7 +227,7 @@ Power BI Desktopがインストールされている必要があります。 [Mi
 |名前                                    |データ型                |説明                                                                |
 |:---------------------------------------|:------------------------|:--------------------------------------------------------------------------|
 |通話数                              |整数             |要約: 合計<br>通話の数                                          |
-|呼び出しキュー呼び出しの結果                  |テキスト                     |呼び出しキュー呼び出しの最終状態 -- 可能な値:<br><br>§ agent_joined_conference (応答済みの電話会議モードの呼び出し)<br>§ 拒否済み<br>§ 切断済み<br>§ エラー<br>§ 失敗しました<br>§ 無効<br>§ overflown (オーバーフロー条件が満たされました)<br>§ timed_out (タイムアウト条件が満たされている)<br>§ transferred_to_agent (応答された転送モード呼び出し {default}) |
+|呼び出しキュー呼び出しの結果                  |テキスト                     |呼び出しキュー呼び出しの最終的な状態 -可能な値:<br><br>§ agent_joined_conference (応答済みの電話会議モードの呼び出し)<br>§ 拒否済み<br>§ 切断済み<br>§ エラー<br>§ 失敗しました<br>§ 無効<br>§ overflown (オーバーフロー条件が満たされました)<br>§ timed_out (タイムアウト条件が満たされている)<br>§ transferred_to_agent (応答された転送モード呼び出し {default}) |
 |キュー ID の呼び出し                     |テキスト                     |呼び出しキューにアタッチされているリソース アカウントの名前<br><br>完全なリソース アカウント名が **cq_test@microsoft.com** されている場合、この値は **次のようになります: cq_test** |
 |呼び出しキュー ターゲットの種類                  |テキスト                     |***呼び出しリダイレクト ターゲットの型-可能な値:***<br><br>§ ApplicationEndpoint<br>§ メールボックス<br>§ その他<br>§ ユーザー |
 |呼び出しの種類<sup>1</sup>                   |テキスト                     |呼び出し可能な値の種類:<br><br>§ 外部<br>§ 内部           |
@@ -306,6 +308,15 @@ Power BI Desktopがインストールされている必要があります。 [Mi
 
 - 通話キュー/自動応答データは個人データと見なされ、データプライバシー保持ポリシーの対象であるため、ダッシュボードでは 28 日間の履歴しか使用できません。
 
-- 一部のシナリオでは、Cloud Call Queue Agent Timeline レポートのエージェント応答通話数が、Teamsクライアントの通話履歴に表示される通話の数と異なる場合があります。 Teamsクライアント呼び出し履歴が正しい。 サポートは調査中ですが、現時点では修復可能な見積もり時間はありません。
+- 一部のシナリオでは、クラウド通話キュー エージェントタイムライン レポートのエージェント応答通話数が、Teams クライアントの通話履歴に表示される通話の数と異なる場合があります。 Teams クライアントの通話履歴が正しい。 サポートは調査中ですが、現時点では修復可能な見積もり時間はありません。
 
 - <sup>1</sup> 自動応答と **呼び出** しキューのグラフの着信呼び出し元は、最初の呼び出しレグ ソースではなく、最終的な呼び出しレグ ソースを示します。 たとえば、自動応答が外部通話を受信し、その呼び出しを別の自動応答または呼び出しキューに転送した場合、 **着信呼び出し元** は内部として報告されます。
+
+## <a name="version-history"></a>バージョン履歴
+|バージョン  |発行日     |Filename                                                           |説明                                         |
+|:--------|:------------------|:------------------------------------------------------------------|:---------------------------------------------------|
+|1.60     |2022 年 7 月 22 日      |CQD Teams 自動応答&通話キュー履歴レポート V1.60.pbit |以下を参照してください。<br>CQD Teams 自動応答&通話キュー履歴レポート - ダウンロードした zip ファイルの変更Log.docxを変更して変更の一覧を表示する                                                                             |
+|1.00     |2020 年 11 月 5 日   |CQ と AA を組み合わせた Analytics 20201105.pbit                         |初期リリース                                     |
+
+
+

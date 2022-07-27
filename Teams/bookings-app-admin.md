@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: 組織内のユーザー向けに Teams で Bookings アプリを管理する方法について説明します。
-ms.openlocfilehash: f11739784dcb9897bf9a3fcbffdadc8aea00d3e0
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
+ms.openlocfilehash: e7b8cbabd7c013c47d0d3d75982eb879ccc23e98
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819292"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023788"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Microsoft Teams で Bookings アプリを管理する
 
@@ -75,7 +75,7 @@ Bookings がスケジュールの可用性情報を共有する前に、他の�
 
 Bookings メールボックスをセットアップするときに、Microsoft 365 または Office 365 組織の既定のメール ドメインが使用されます。 ただし、既定のドメインでは、会議出席依頼を外部の受信者に送信するときに問題が発生する可能性があります。 たとえば、招待のフラグがスパムとして設定され、受信者の迷惑メール フォルダーに移動された場合、受信者に招待が表示されない可能性があります。
 
-Bookings メールボックスを作成する前に、既定のドメインを変更することをお勧めします。 ドメインに [関する FAQ を参照してください](/microsoft-365/admin/setup/domains-faq#how-do-i-set-or-change-the-default-domain-in-office-365)。
+Bookings メールボックスを作成する前に、既定のドメインを変更することをお勧めします。 ドメインに [関する FAQ を参照してください](/microsoft-365/admin/setup/domains-faq#how-do-i-set-or-change-the-default-domain-in-microsoft-365)。
 
 Bookings メールボックスの作成後に既定のドメインを変更する必要がある場合は、PowerShell を使用します。
 

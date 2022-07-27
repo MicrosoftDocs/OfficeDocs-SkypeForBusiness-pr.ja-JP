@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Microsoft パートナーまたは PSTN 通信事業者の複数のテナントにサービスを提供するように 1 つのセッション ボーダー コントローラー (SBC) を構成する方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8880f912ae21af3bf269e86469241f345bc33f74
-ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
+ms.openlocfilehash: 9d7ee3960f88b1c6ed4ee140b4f291162e37da30
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 07/26/2022
-ms.locfileid: "67005357"
+ms.locfileid: "67024020"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>複数のテナントにセッション ボーダー コントローラーを構成する
 
@@ -246,7 +246,7 @@ Direct Routing の最初のリリースでは、microsoft は、New-CSOnlinePSTN
 例：
 - Customers.adatum.biz – キャリア テナントで作成する必要があるキャリア トランク。
 
-- Sbc1.customers.adatum.biz – 顧客テナント内の派生トランク。 顧客テナントの派生トランクの名前は、作成せずにオンライン音声ルーティング ポリシーに追加できます。
+- Sbc1.customers.adatum.biz – 顧客テナント内の派生トランク。 顧客テナント内の派生トランクの名前は、音声ルートで作成せずに追加できます。
 
 - キャリアは、派生トランク FQDN をキャリア SBC IP アドレスに解決する DNS レコードを設定する必要があります。
 
