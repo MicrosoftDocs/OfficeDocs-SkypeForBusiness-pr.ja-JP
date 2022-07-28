@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Microsoft Teams が最適な結果を生み出すために認定されているデスクフォンと会議電話について説明します。
-ms.openlocfilehash: 9708efebd884684e825ecd493f9b1cb124a1a95e
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 0fd39009285f411fce3719cac3b8e6f2b0673c59
+ms.sourcegitcommit: 08fe98cc6760028bdd1946ecc5d4ec61ce65e096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023798"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "67058928"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 認定 Android デバイス
 
@@ -357,6 +357,7 @@ Microsoft Teams Displays アプリとファームウェアの最新バージョ�
 
 | デバイス モデル  | ファームウェアのバージョン | 付属の製品リリース|
 |:--------------|:-----------------|:-------------------------|
+|レストロン Touchpanel TSS-1070 / TSS-770 | `2.001.0058 ` | 2022 Update #1|
 |Logitech Tap Scheduler | `1.6.762` |2022 更新プログラム #2  |
 |端正なパッド パネル |NFA1.20220512.2158 | 2022 更新プログラム #2 |
 |Logitech Tap Scheduler | `1.6.215` |2022 Update #1A  |
