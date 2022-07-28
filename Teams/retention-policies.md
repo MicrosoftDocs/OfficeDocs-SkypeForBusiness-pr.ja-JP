@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 508f10c07a25bb2dc3cef7af84d7dacc62989f28
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 000c279c32237fd7477a375bf9968db03ec5376d
+ms.sourcegitcommit: 644374fcad6372494e87d729de690af4c060f635
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023688"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "67054928"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Teams のアイテム保持ポリシーを管理する
 
@@ -42,7 +42,7 @@ Teams では、チャットやチャネルのメッセージ用にアイテム�
 
 Microsoft 365 での保持ソリューションに関する詳細については、「[保持ポリシーと保持ラベルの詳細](/microsoft-365/compliance/retention)」を参照してください。
 
-Teams でのアイテム保持ポリシーの対象となるユーザーは、Office 365 E3 や Office 365 A3 などの適切なライセンスを所有している必要があります。 これらのアイテム保持ポリシーへのその他のライセンス オプションについては、[[セキュリティとコンプライアンス向け Microsoft 365 ライセンス ガイド]](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-governance) で [[情報ガバナンス]](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-governance) セクションを参照してください。 Teams のライセンスの詳細については、「[Microsoft Teams サービスのサービスの説明](/office365/servicedescriptions/teams-service-description)」を参照してください。
+Teams でのアイテム保持ポリシーの対象となるユーザーは、Office 365 E3 や Office 365 A3 などの適切なライセンスを所有している必要があります。 これらのアイテム保持ポリシーのその他のライセンス オプションについては、セキュリティ[&](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#microsoft-purview-data-lifecycle-management)[コンプライアンスに関する Microsoft 365 ライセンス ガイダンスのMicrosoft Purview データ ライフサイクル管理セクションを](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-governance)参照してください。 Teams のライセンスの詳細については、「[Microsoft Teams サービスのサービスの説明](/office365/servicedescriptions/teams-service-description)」を参照してください。
 
 ## <a name="how-teams-retention-policies-support-retain-and-delete-actions"></a>Teams のアイテム保持ポリシーが保持と削除のアクションをサポートする方法
 
