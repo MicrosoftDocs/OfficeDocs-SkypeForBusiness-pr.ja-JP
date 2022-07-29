@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 自動応答と通話キューについて説明し、それらを使用して発信者がメニュー システムを移動して組織内のユーザーや部署にアクセスできるようにする方法について説明します。
-ms.openlocfilehash: 1f439ca0a6eb9ff3487582253cdd0aad7b2fad6c
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 218377b2082d1a057f503abbf83d37ff78686986
+ms.sourcegitcommit: 55ba3ed53421da6619724a360d15e80262241079
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616083"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "67070738"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Teams の自動応答と通話キューを計画する
 
@@ -69,7 +69,7 @@ ms.locfileid: "66616083"
 
 自動応答と呼び出しキューを構成するには、次のリソースが必要です。
 
-- 各自動応答と各呼び出しキューのリソース アカウント
+- 各自動応答と各呼び出しキューの[リソース アカウント](manage-resource-accounts.md)
 - Teams ユーザーまたは外部の電話番号から直接ダイヤルできる、リソース アカウントごとに無料のMicrosoft Teams 電話 リソース アカウント ライセンス
 - 外部電話番号から直接ダイヤル可能にするリソース アカウントごとに、少なくとも 1 つの [Microsoft サービス番号](getting-service-phone-numbers.md)、オペレーター接続番号、ダイレクト ルーティング番号、またはハイブリッド番号
   - サービス番号は、有料またはフリーダイヤルの番号である可能性があります

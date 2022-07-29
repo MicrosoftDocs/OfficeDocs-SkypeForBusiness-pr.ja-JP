@@ -21,23 +21,23 @@ ms.custom:
 - ms.teamsadmincenter.autoattendants.overview
 - Phone System
 - seo-marvel-apr2020
-description: Teamsの自動応答と通話キューのダイヤルと音声認識のオプションについて説明します。
-ms.openlocfilehash: 784dcbf16c5122c165dc1a949fa237769c9837d3
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+description: Teams の自動応答と通話キューのダイヤルと音声認識のオプションについて説明します。
+ms.openlocfilehash: 93a20be62f09ed7b636c593ecac48927d70e237f
+ms.sourcegitcommit: 55ba3ed53421da6619724a360d15e80262241079
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124192"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "67070728"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>自動応答と通話キューのダイヤルと音声認識のリファレンス
 
-名前または拡張機能によるダイヤルは、発信者が組織内のTeamsユーザーにアクセスできるようにする自動応答機能です。 音声または電話のキーパッドの呼び出し元を使用すると、連絡を取る相手の完全な名前または部分名、または拡張子を言ったり入力したりできます。 自動応答は、会社のディレクトリを検索し、ユーザーを見つけて、発信者を転送します。  名前によるダイヤルまたは内線番号によるダイヤルは、 [自動応答で通話フロー設定を構成](create-a-phone-system-auto-attendant.md?tabs=call-flow)するときに設定するオプションです。
+名前または拡張機能によるダイヤルは、発信者が組織内の Teams ユーザーに連絡できるようにする自動応答機能です。 音声または電話のキーパッドの呼び出し元を使用すると、連絡を取る相手の完全な名前または部分名、または拡張子を言ったり入力したりできます。 自動応答は、会社のディレクトリを検索し、ユーザーを見つけて、発信者を転送します。  名前によるダイヤルまたは内線番号によるダイヤルは、 [自動応答で通話フロー設定を構成](create-a-phone-system-auto-attendant.md?tabs=call-flow)するときに設定するオプションです。
 
 ## <a name="searching-for-users"></a>ユーザーの検索
 
-ダイヤル バイ ネームを使用してアクセスできるTeamsユーザー **は、電話番号を持っているか、通話プランが割り当てられている必要はありませんが、Skype for Business Server ユーザーに対して有効エンタープライズ VoIP必要があります**。 複数の国の組織の場合、名前でダイヤルすると、さまざまな国または地域にいるMicrosoft Teamsユーザーに発信者が検索され、転送されます。
+名前によるダイヤルを使用してアクセスできる Teams ユーザー **は、電話番号を持っているか、通話プランが割り当てられている必要はありませんが、Skype for Business Server ユーザーに対して有効エンタープライズ VoIP必要があります**。 複数の国の組織の場合、ダイヤル バイ ネームは、さまざまな国または地域にいる Microsoft Teams ユーザーに発信者を検索して転送します。
 
-ダイヤルバイ拡張機能を使用してアクセスできるTeamsユーザー **は、電話番号を持っているか、通話プランが割り当てられている必要はありませんが、Skype for Business Server ユーザーに対して有効エンタープライズ VoIP必要があります**。 また、ユーザーに対して適切に構成されたダイヤル プランが必要です。 複数の国内組織の場合、ダイヤル バイ 拡張機能は、さまざまな国または地域にいるMicrosoft Teamsユーザーを検索して転送します。
+ダイヤルバイ拡張機能を使用してアクセスできる Teams ユーザー **は、電話番号を持っているか通話プランが割り当てられている必要はありませんが、Skype for Business Server ユーザーに対して有効エンタープライズ VoIP必要があります**。 また、ユーザーに対して適切に構成されたダイヤル プランが必要です。 複数の国の組織の場合、ダイヤル バイ 拡張機能は、さまざまな国または地域にいる Microsoft Teams ユーザーを検索して、発信者を検索して転送します。
 
 必要な前提条件を考慮して、自動応答を構成するときに、名前または拡張機能によるダイヤルを明示的に有効にする必要があります。
 
@@ -90,7 +90,7 @@ ms.locfileid: "66124192"
 
 ユーザーは、自分の音声 (音声認識) を使用して組織内の他のユーザーを検索できます。 また、検索しようとしているユーザーの完全な名前または部分名を言って、Active Directory 内のすべてのユーザーにアクセスすることもできます。 音声入力を使用すると、FirstName、LastName、FirstName + LastName、LastName + FirstName など、さまざまな形式の名前を認識できます。
   
-自動応答で音声認識を有効にできますが、電話キーパッド エントリ (DTMF) は無効にされていません。 電話キーパッドエントリは、自動応答で音声認識が有効になっている場合でも、いつでも使用できます。
+自動応答で音声認識を有効にできますが、電話キーパッド エントリ (DTMF) は無効にされていません。 自動応答で音声認識が有効になっている場合でも、電話のキーパッド エントリはいつでも使用できます。
   
 電話のキーパッドエントリと同様に、複数の名前が見つかった場合、呼び出し元のユーザーは選択する名前の一覧を読み上げられます。
 
@@ -113,11 +113,11 @@ ms.locfileid: "66124192"
 
 ### <a name="dial-by-extension"></a>内線番号によるダイヤル
 
-**ダイヤルバイ拡張機能** を使用できるようにするユーザーは、Active Directory で定義されている次の電話属性の一部として拡張機能を指定する必要があります (Azure AD Connectを使用して同期)、またはAzure Active Directory。 (詳細については、「 [ユーザーを個別または一括で追加](/microsoft-365/admin/add-users/add-users) する」を参照してください)。
+**ダイヤルバイ拡張機能** を使用できるようにするユーザーは、Active Directory で定義されている次の電話属性の一部として拡張機能を指定する必要があります (Azure AD Connect を使用して同期) または Azure Active Directory。 (詳細については、「 [ユーザーを個別または一括で追加](/microsoft-365/admin/add-users/add-users) する」を参照してください)。
 
-- OfficePhone/PhoneNumber (AD と Azure AD)
+- TelephoneNumber (AD と Azure AD)
 - HomePhone (AD)
-- Mobile/MobilePhone (AD と Azure AD)
+- モバイル (AD と Azure AD)
 - OtherTelephone (AD)
 
 ユーザーの電話番号フィールドに内線番号を入力するために必要な形式は、次のいずれかの形式になります。
@@ -130,7 +130,11 @@ ms.locfileid: "66124192"
 - 例 2: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678x5678"
 - 例 3: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "x5678"
 
-拡張機能は、[Microsoft 365 管理センター](https://admin.microsoft.com/)または[Azure Active Directory管理センター](https://aad.portal.azure.com)で設定できます。 自動応答と呼び出しキューに変更が使用可能になるまでには、最大で 12 時間かかる場合があります。
+[拡張機能は、Microsoft 365 管理センター](https://admin.microsoft.com/)または [Azure Active Directory 管理センター](https://aad.portal.azure.com)で設定できます。 自動応答と呼び出しキューに変更が使用可能になるまでには、最大で 12 時間かかる場合があります。
+
+> [!NOTE]
+>  If using the TelephoneNumber field to define the extension, Microsoft recommends that you use the format *+\<phone number>;ext=\<extension>*. ユーザーに Teams 電話番号も割り当てられている場合は、両方の番号を同じ方法で定義する必要があります。
+
 
 ## <a name="language-support"></a>言語のサポート
 
@@ -140,7 +144,7 @@ ms.locfileid: "66124192"
   
 |音声コマンド| に対応します。 |
 |:-----|:-----|
-|はい | [はい] で 1 キーを押します。 |
+|Yes | [はい] で 1 キーを押します。 |
 |いいえ | [いいえ] に 2 キーを押します。 |
 |繰り返し |オプションの一覧を繰り返します。 キーパッドの * キーを押して、オプションの一覧を繰り返します。 |
 |オペレーター | "Operator" に 0 キーを押す |
