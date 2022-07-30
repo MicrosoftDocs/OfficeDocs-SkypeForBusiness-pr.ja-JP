@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Microsoft Teams Rooms をサポートするための要件 (適切なデバイス、マイク、スピーカー、カメラ、ディスプレイの選択) について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3d8084c1136ef462dcced10b73879d2de2a48671
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: fc7c56ff41eb5d5cab01162468acf6b4dd11b344
+ms.sourcegitcommit: 3f6ae7946b64e857f6358019be2f0fdf19a207ad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789762"
+ms.lasthandoff: 07/29/2022
+ms.locfileid: "67074645"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams Rooms の要件
 
@@ -133,8 +133,8 @@ Microsoft Teams Rooms異なる部屋のサイズにスケールします。 Team
 
 これらのデバイスは、[ミーティング システム アクセサリの製品ショーケース](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=73&page=1&filterIds=)および [https://office.com/teamsdevices](https://office.com/teamsdevices) に用意されています。
 
-|Microsoft Teams Rooms の周辺機器|認定ファームウェア バージョン | コンテンツ カメラとして使用できるカメラ|
-|:--- |:--- | :--- |
+|Microsoft Teams Rooms の周辺機器|認定ファームウェア バージョン | コンテンツ カメラをサポートする|インテリジェント カメラ|
+|:--- |:--- | :--- |:--- |
 |[Aver VC520 Pro Camera + Speakerphone](https://www.averusa.com/products/conference-camera/vc520pro) |1004.35|
 |[Aver VC520 PRO2 会議システム](https://www.averusa.com/products/conference-camera/vc520pro2) | 00.0.7200.79 |
 |[Aver VB342+ カメラ サウンドバー](https://www.averusa.com/products/conference-camera/vb342plus) | Soundbar: 0.0.0000.97|
@@ -158,7 +158,7 @@ Microsoft Teams Rooms異なる部屋のサイズにスケールします。 Team
 |Huddly L1 カメラ with 薔薇 UC-M70-T MRT キット | Huddly L1 カメラ: 1.2.1 </br> Tek Computer INC 9934 Compute 1.0.20.246 以降を使用した、レストロン UC-M70-T |
 |Huddly L1 カメラ with 薔薇 UC-MX70-T MRT キット | Huddly L1 カメラ: 1.2.1 </br> Tek Computer INC 9934 Compute 1.0.20.246 以降を使用した、レストロン UC-MX70-T |
 |[Jabra Panacast3 カメラ](https://www.jabra.com/business/video-conferencing/jabra-panacast)|1.3.9.12|
-|[Jabra Panacast 50 ビデオ バー](https://www.jabra.com/business/video-conferencing/jabra-panacast-50)|3.4.0| &#x2714; |
+|[Jabra Panacast 50 ビデオ バー](https://www.jabra.com/business/video-conferencing/jabra-panacast-50)|4.0.15| &#x2714; | &#x2714;|
 |[Lenovo ThinkSmart Cam Camera](https://www.lenovo.com/us/en/accessories-and-monitors/webcams-and-video/webcams/SMARTOF-BO-ThinkSmart-Cam/p/4Y71C41660)|1.0.111.4|
 |[Lenovo ThinkSmart Bar](https://www.lenovo.com/us/en/virtual-reality-and-smart-devices/smart-collaboration/thinksmart/ThinkSmart-Bar/p/11SP1TSSDBR)|0.9.3|
 |Lenovo ThinkSmart Bar Expand XL|5.9.5|
