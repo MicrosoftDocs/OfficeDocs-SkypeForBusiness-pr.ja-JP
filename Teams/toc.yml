@@ -489,7 +489,7 @@ items:
         href: best-practices-large-groups.md
       - name: Teams で組織全体にわたるチームを作成する
         href: create-an-org-wide-team.md
-      - name: people manager teams を作成する
+      - name: People Manager チームを作成する
         href: create-manager-directs-teams.md
       - name: チームとチャネル ポリシーを管理する
         href: teams-policies.md
