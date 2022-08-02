@@ -3,6 +3,29 @@
 
 
 
+## <a name="week-of-july-25-2022"></a>2022 年 7 月 25 日の週
+
+
+| 公開日 |トピックのタイトル | 変更 |
+|------|------------|--------|
+| 7/25/2022 | [電話番号とライセンスの変更](/MicrosoftTeams/phone-numbers-licensing-changes) | 追加済 |
+| 7/25/2022 | [Microsoft Teamsでの会議ポリシーと会議の有効期限](/MicrosoftTeams/meeting-expiration) | 更新日時 |
+| 7/25/2022 | [Teams Room デバイスをマネージド サービスに登録する](/MicrosoftTeams/rooms/enroll-a-device) | 更新日時 |
+| 7/25/2022 | [Teams のブラウザー ログとトレース](/MicrosoftTeams/browser-logs-and-tracing-for-teams) | 追加済 |
+| 7/25/2022 | [Teams で監視とトラブルシューティングを行うためのログ ファイルの構成](/MicrosoftTeams/log-files) | 更新日時 |
+| 7/26/2022 | [Microsoft Teamsでの Career Coach 統合のためのリソース](/MicrosoftTeams/career-coach-resources) | 追加済 |
+| 7/26/2022 | [Microsoft Teamsの Career Coach を設定して構成する](/MicrosoftTeams/career-coach-set-up-steps) | 追加済 |
+| 7/26/2022 | [Microsoft Teamsの Career Coach のトラブルシューティング](/MicrosoftTeams/career-coach-troubleshoot) | 追加済 |
+| 7/26/2022 | [Microsoft Teamsの共有チャネル エラー](/MicrosoftTeams/shared-channels-errors) | 追加済 |
+| 7/26/2022 | [Microsoft Teamsのキャリア コーチの使用を開始する](/MicrosoftTeams/career-coach) | 更新日時 |
+| 7/26/2022 | [Microsoft Teamsのキャリア コーチの使用を開始する](/MicrosoftTeams/cloud-recording) | 更新日時 |
+| 7/26/2022 | [ゲスト アクセスと外部アクセスを使用して、組織外の人々とコラボレーションする](/MicrosoftTeams/communicate-with-users-from-other-organizations) | 更新日時 |
+| 7/26/2022 | [顧客のパートナー管理](/MicrosoftTeams/rooms/multi-tenant-management-customer) | 更新日時 |
+| 7/26/2022 | [パートナー向けのマルチテナント顧客管理](/MicrosoftTeams/rooms/multi-tenant-management-partner) | 更新日時 |
+| 7/26/2022 | [Teams アドオン ライセンスをユーザーに割り当てる](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) | 更新日時 |
+| 7/29/2022 | [組織の電話番号を管理する](/MicrosoftTeams/manage-phone-numbers-landing-page) | 更新日時 |
+
+
 ## <a name="week-of-july-18-2022"></a>2022 年 7 月 18 日の週
 
 
@@ -13,16 +36,16 @@
 | 7/18/2022 | 現場担当者のために大規模に Microsoft Teams をプロビジョニングする | 削除されました |
 | 7/19/2022 | [Microsoft 365 およびカスタム コネクタを管理する](/MicrosoftTeams/office-365-custom-connectors) | 更新日時 |
 | 7/19/2022 | [Microsoft Teams のアプリについて知っておくべきこと](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 更新日時 |
-| 7/19/2022 | [Microsoft Teams 管理センターで Microsoft Power Platform アプリを管理する](/MicrosoftTeams/manage-power-platform-apps) | 更新日時 |
+| 7/19/2022 | [Microsoft Teams管理センターで Microsoft Power Platform アプリを管理する](/MicrosoftTeams/manage-power-platform-apps) | 更新日時 |
 | 7/19/2022 | [Teams 会議で Q&A を管理する](/MicrosoftTeams/manage-qna-for-teams) | 更新日時 |
 | 7/19/2022 | [Microsoft によるアプリ認定の概要](/MicrosoftTeams/overview-of-app-certification) | 更新日時 |
 | 7/19/2022 | [Teams 用のサード パーティ製アプリを購入する](/MicrosoftTeams/purchase-third-party-apps) | 更新日時 |
 | 7/20/2022 | [オペレーター接続を構成する](/MicrosoftTeams/operator-connect-configure) | 更新日時 |
 | 7/21/2022 | [Microsoft Teams の Education Insights への IT 管理者ガイド](/MicrosoftTeams/class-insights) | 更新日時 |
-| 7/21/2022 | [Microsoft Teams でのアプリの更新エクスペリエンス](/MicrosoftTeams/apps-update-experience) | 更新日時 |
+| 7/21/2022 | [Microsoft Teamsでのアプリの更新エクスペリエンス](/MicrosoftTeams/apps-update-experience) | 更新日時 |
 | 7/21/2022 | [Microsoft Teams 管理センターで、Teams アプリの組織向けアプリを管理します。](/MicrosoftTeams/manage-apps) | 更新日時 |
 | 7/21/2022 | [Teams アプリ申請 API を使用してカスタム アプリを送信および承認する](/MicrosoftTeams/submit-approve-custom-apps) | 更新日時 |
-| 7/21/2022 | [Microsoft Teams 管理センターでカスタム アプリをアップロードする](/MicrosoftTeams/upload-custom-apps) | 更新日時 |
+| 7/21/2022 | [Microsoft Teams管理センターでカスタム アプリをアップロードする](/MicrosoftTeams/upload-custom-apps) | 更新日時 |
 
 
 ## <a name="week-of-july-11-2022"></a>2022 年 7 月 11 日の週
@@ -34,14 +57,14 @@
 | 7/14/2022 | [SIP ゲートウェイを計画する](/MicrosoftTeams/sip-gateway-plan) | 更新日時 |
 | 7/15/2022 | [Microsoft Teams Rooms (Windows) のリリース ノート](/MicrosoftTeams/rooms/rooms-release-note) | 更新日時 |
 | 7/15/2022 | [現場担当者向けの Teams ポリシー パッケージ](/MicrosoftTeams/policy-packages-flw) | 追加済 |
-| 7/15/2022 | [Microsoft Teams で承認アプリを管理する](/MicrosoftTeams/approval-admin) | 更新日時 |
-| 7/15/2022 | [Microsoft Teams で Bookings アプリを管理する](/MicrosoftTeams/bookings-app-admin) | 更新日時 |
-| 7/15/2022 | Microsoft Teams でフロントライン ワーカーの大規模なチームを展開する | 削除されました |
+| 7/15/2022 | [Microsoft Teamsで承認アプリを管理する](/MicrosoftTeams/approval-admin) | 更新日時 |
+| 7/15/2022 | [Microsoft Teamsで Bookings アプリを管理する](/MicrosoftTeams/bookings-app-admin) | 更新日時 |
+| 7/15/2022 | Microsoft Teamsで現場のワーカーに大規模にチームをデプロイする | 削除されました |
 | 7/15/2022 | Microsoft Teams と Bookings アプリを使用した仮想予定 | 削除されました |
 | 7/15/2022 | ブラウザーで Teams 仮想予定の参加エクスペリエンスを管理する | 削除されました |
 | 7/15/2022 | [Microsoft Teams を組織全体で展開する](/MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page) | 更新日時 |
 | 7/15/2022 | Teams を使用した仮想予定 - Cerner EHR への統合 | 削除されました |
-| 7/15/2022 | Microsoft Teams EHR コネクタ 仮想予定 レポート | 削除されました |
+| 7/15/2022 | EHR コネクタ 仮想予定 レポートをMicrosoft Teamsする | 削除されました |
 | 7/15/2022 | Teams を使用した仮想予定 - エピック EHR への統合 | 削除されました |
 | 7/15/2022 | メッセージの委任 | 削除されました |
 | 7/15/2022 | Microsoft Teams を使用した医療組織向けのセキュリティで保護されたメッセージング | 削除されました |
@@ -76,8 +99,8 @@
 | 公開日 |トピックのタイトル | 変更 |
 |------|------------|--------|
 | 7/5/2022 | [自動応答と呼び出しキューの PowerShell コマンドレット リファレンス](/MicrosoftTeams/call-queue-auto-attendant-cmdlets) | 更新日時 |
-| 7/5/2022 | [Microsoft Teams の自動応答を設定する](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 更新日時 |
-| 7/5/2022 | [Microsoft Teams で通話キューを作成する](/MicrosoftTeams/create-a-phone-system-call-queue) | 更新日時 |
+| 7/5/2022 | [Microsoft Teamsの自動応答を設定する](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 更新日時 |
+| 7/5/2022 | [Microsoft Teamsで呼び出しキューを作成する](/MicrosoftTeams/create-a-phone-system-call-queue) | 更新日時 |
 | 7/5/2022 | [Microsoft Teams でのミーティングと会議](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | 更新日時 |
 | 7/5/2022 | [セッション ボーダー コントローラーの構成 - 複数のテナント](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 更新日時 |
 | 7/5/2022 | [Teams の自動応答と通話キューを計画する](/MicrosoftTeams/plan-auto-attendant-call-queue) | 更新日時 |
@@ -108,20 +131,3 @@
 | 6/27/2022 | [参加者とゲストの会議ポリシーを管理する](/MicrosoftTeams/meeting-policies-participants-and-guests) | 更新日時 |
 | 6/28/2022 | [セッション ボーダー コントローラーの構成 - 複数のテナント](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 更新日時 |
 | 6/29/2022 | [Microsoft Teams Rooms のデバイス設定をリモートで管理する](/MicrosoftTeams/rooms/xml-config-file) | 更新日時 |
-
-
-## <a name="week-of-june-20-2022"></a>2022 年 6 月 20 日の週
-
-
-| 公開日 |トピックのタイトル | 変更 |
-|------|------------|--------|
-| 6/20/2022 | [Teams Rooms用に ServiceNow を構成する](/MicrosoftTeams/rooms/microsoft-teams-rooms-configure-servicenow) | 更新日時 |
-| 6/21/2022 | [Microsoft Teams for Educationでの保護者の管理設定](/MicrosoftTeams/edu-parents-app) | 更新日時 |
-| 6/21/2022 | [自動応答と呼び出しキューの PowerShell コマンドレット リファレンス](/MicrosoftTeams/call-queue-auto-attendant-cmdlets) | 更新日時 |
-| 6/21/2022 | [Microsoft Teams で通話キューを作成する](/MicrosoftTeams/create-a-phone-system-call-queue) | 更新日時 |
-| 6/21/2022 | [Microsoft Teams 管理センターで Microsoft Power Platform アプリを管理する](/MicrosoftTeams/manage-power-platform-apps) | 更新日時 |
-| 6/22/2022 | [リアルタイム テレメトリを使用して低品質の会議をトラブルシューティングする](/MicrosoftTeams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality) | 更新日時 |
-| 6/23/2022 | [Microsoft Teams 管理センターで Microsoft Power Platform アプリを管理する](/MicrosoftTeams/manage-power-platform-apps) | 更新日時 |
-| 6/23/2022 | [Microsoft Teams for Educationの Career Coach を購入、構成、および有効にする](/MicrosoftTeams/career-coach) | 更新日時 |
-| 6/23/2022 | [オペレーター接続を構成する](/MicrosoftTeams/operator-connect-configure) | 更新日時 |
-| 6/24/2022 | [Microsoft Teams 管理センターで、Teams アプリの組織向けアプリを管理します。](/MicrosoftTeams/manage-apps) | 更新日時 |

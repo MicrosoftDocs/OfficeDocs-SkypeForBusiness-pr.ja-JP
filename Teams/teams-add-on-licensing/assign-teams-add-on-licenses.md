@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: 電話会議、電話システム、通話プランなどの機能について、Teams アドオン ライセンスをユーザーに割り当てる方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07196e26f38042b6046d6761bd60dfad64f89c7d
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 1bef1464b94f736a10cc184a2bdb88e2cdf6df88
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023678"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156975"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Teams アドオン ライセンスをユーザーに割り当てる
 
@@ -54,7 +54,7 @@ Microsoft 365 管理センターを使用して、一度に個々のユーザー
 
 詳細な手順については、「 [ユーザーにライセンスを割り当てる」を](/microsoft-365/admin/manage/assign-licenses-to-users)参照してください。
 
-数百または数千のユーザーなど、多数のユーザーにライセンスを割り当てる必要がある場合は、 [Azure Active Directory (Azure AD) で Powershell またはグループベースのライセンスを](/azure/active-directory/users-groups-roles/licensing-groups-assign)使用します。
+数百または数千のユーザーなど、多数のユーザーにライセンスを割り当てる必要がある場合は、 [Azure Active Directory (Azure AD) で PowerShell またはグループベースのライセンスを](/azure/active-directory/users-groups-roles/licensing-groups-assign)使用します。
 
 ## <a name="using-powershell"></a>PowerShell の使用
 
@@ -142,6 +142,8 @@ PowerShell を使用して Teams でライセンスを管理するときに参�
 | 国内通話プラン (各国のユーザー/月あたり 120 分) </br>*このプランは、米国では使用できません。* | MCOPSTN5 |
 | 国内通話プラン (各国のユーザー/月あたり 240 分) </br>*このプランは、米国では使用できません。* | MCOPSTN6 |
 | コミュニケーション クレジット | MCOPSTNPP |
+| 従量課金制通話プラン (ゾーン 1 の国) | MCOPSTN_PAYG_1 |
+| 従量課金制通話プラン (ゾーン 2 の国) | MCOPSTN_PAYG_2 |
 
 ## <a name="related-content"></a>関連コンテンツ
 
