@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams での Cortana 音声アシスタンス
+title: Microsoft Teamsでの Cortana 音声アシスタンス
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -19,27 +19,27 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b3c4ff65fb87bed077e1020764382314d5d15c62
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 78aaad6506a7130d336d3847c55e0c0ec08c4450
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562436"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156786"
 ---
 # <a name="cortana-voice-assistance-in-teams"></a>Teams での Cortana 音声アシスタンス
 
 > [!NOTE]
-> Cortana 音声アシスタンスは、米国、英国、カナダ、インド、オーストラリアのユーザー向けに、iOS および Android および Microsoft Teams 用の Microsoft Teams モバイル アプリでサポートされています。 Windows でのMicrosoft Teams Roomsは、ロケールが en-us に設定されているデバイスでのみサポートされます。 Cortana 音声アシスタンスは、GCC、GCC-High、DoD、および米国以外の EDU テナントでは現在使用できません。 Teams モバイル アプリの Cortana 音声アシスタンスが、en-US の EDU のお客様に提供されるようになりました。 今後のリリースの一環として、追加の言語とリージョンへの拡張が行われます。
+> Cortana 音声アシスタンスは、米国、英国、カナダ、インド、オーストラリアのユーザー向けに、iOS と Android、Microsoft Teams ディスプレイ、Microsoft Teams Rooms用のMicrosoft Teamsモバイル アプリでサポートされています。 Teams モバイル アプリの Cortana 音声アシスタンスが、en-US の EDU のお客様に提供されるようになりました。 今後のリリースの一環として、追加の言語とリージョンへの拡張が行われます。 Cortana 音声アシスタンスは、GCC、GCC-High、DoD、および米国以外の EDU テナントでは現在使用できません。
 
-Teams モバイル アプリ、Windows 上のMicrosoft Teams Rooms、Microsoft Teams のディスプレイ デバイスでの Cortana 音声アシスタンスを使用すると、Microsoft 365 Enterpriseユーザーは音声自然言語を使用してコミュニケーション、コラボレーション、会議関連のタスクを効率化できます。 ユーザーは、Teams モバイル アプリの右上にあるマイク ボタンを選択するか、Microsoft Teams ルームで "Cortana" と言うか、Microsoft Teams ディスプレイを使用して Cortana と話すことができます。 ハンズフリーで、外出先でチームにすばやく接続するために、ユーザーは "Megan の呼び出し" や "次の会議にメッセージを送信する" などのクエリを言うことができます。 ユーザーは、"次の会議に参加する" と言って会議に参加したり、音声アシスタンスを使用してファイルを共有したり、予定表を確認したりすることもできます。 これらの音声アシスタンス エクスペリエンスは、Office 365のプライバシー、セキュリティ、コンプライアンスの約束に完全に準拠する [Cortana エンタープライズ レベルのサービス](/microsoft-365/admin/misc/cortana-integration)を使用して提供されます[。これは、Online Services 利用規約 (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1&preserve-view=true) に反映されます。
+Teams モバイル アプリ、Windows 上のMicrosoft Teams Rooms、およびMicrosoft Teamsディスプレイ デバイスでの Cortana 音声アシスタンスを使用すると、Microsoft 365 Enterprise ユーザーは音声自然言語を使用してコミュニケーション、コラボレーション、会議関連のタスクを効率化できます。 ユーザーは、Teams モバイル アプリの右上にあるマイク ボタンを選択するか、Microsoft Teams ルームで "Cortana" と言うか、Microsoft Teamsディスプレイを使用して Cortana と話すことができます。 ハンズフリーで、外出先でチームにすばやく接続するために、ユーザーは "Megan の呼び出し" や "次の会議にメッセージを送信する" などのクエリを言うことができます。 ユーザーは、"次の会議に参加する" と言って会議に参加したり、音声アシスタンスを使用してファイルを共有したり、予定表を確認したりすることもできます。 これらの音声アシスタンス エクスペリエンスは、Office 365のプライバシー、セキュリティ、コンプライアンスの約束に完全に準拠する [Cortana エンタープライズ レベルのサービス](/microsoft-365/admin/misc/cortana-integration)を使用して提供されます[。これは、Online Services 利用規約 (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1&preserve-view=true) に反映されます。
 
 ## <a name="admin-control-and-limitations"></a>管理制御と制限事項
 
 Teams の Cortana 音声アシスタンスは、Online Services の利用規約 (OST) に示されているように、Office 365エンタープライズ レベルのプライバシー、セキュリティ、コンプライアンスの約束に完全に準拠するサービスを使用して提供されます。 この機能は、テナントに対して既定で有効になります。
 
-テナント管理者は、ポリシー (TeamsCor cortanPolicy) を使用して、テナント内のだれが Teams で Cortana 音声アシスタンスを使用できるかを制御できます。 このポリシーは、ユーザー アカウント レベルまたはテナント レベルで設定されます。 管理者は、このポリシー コントロール内の CortanaVoiceInvocationMode フィールドを使用して、Cortana が無効になっているか、プッシュ ボタン呼び出しでのみ有効になっているか、ウェイク ワード呼び出しで有効になっているかを判断できます (Microsoft Teams の表示など、それをサポートするデバイスにも適用されます)。
+テナント管理者は、ポリシー (TeamsCor cortanPolicy) を使用して、テナント内のだれが Teams で Cortana 音声アシスタンスを使用できるかを制御できます。 このポリシーは、ユーザー アカウント レベルまたはテナント レベルで設定されます。 管理者は、このポリシー コントロール内の CortanaVoiceInvocationMode フィールドを使用して、Cortana を無効にするか、プッシュ ボタン呼び出しでのみ有効にするか、ウェイク ワード呼び出しで有効にするか (Microsoft Teams表示など、それをサポートするデバイスにも適用できます)。
 
-管理者は、次の PowerShell コマンドレットを使用してこのポリシーを管理できます (ポリシーは現在、Microsoft Teams 管理センターでは使用できません)。
+管理者は、次の PowerShell コマンドレットを使用してこのポリシーを管理できます (ポリシーは現在、Microsoft Teams管理センターでは使用できません)。
 
 - [New-CsTeamsCortanaPolicy](/powershell/module/skype/New-CsTeamsCortanaPolicy)
 
@@ -51,13 +51,13 @@ Teams の Cortana 音声アシスタンスは、Online Services の利用規約 
 
 - [Remove-CsTeamsCortanaPolicy](/powershell/module/skype/Remove-CsTeamsCortanaPolicy)
 
-たとえば、次のコマンドでは、Microsoft Teams の Cortana 音声アシスタンスが無効になっている "EmployeeCor cortanpolicy" という名前の新しいポリシーが作成されます。
+たとえば、次のコマンドでは、"EmployeeCor cortanpolicy" という名前の新しいポリシーが作成されます。ここで、Microsoft Teamsの Cortana 音声アシスタンスは無効になっています。
 
 ```PowerShell
 PS C:\> New-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceInvocationMode Disabled
 ```
 
-この例では、"EmployeeCor cortanPolicy" という名前の既存のポリシーを更新し、プッシュ ボタンの呼び出しのみで Microsoft Teams で Cortana 音声アシスタンスを有効にする方法を示します。 ユーザーは、Teams の [Cortana mic] ボタンを選択して Cortana を呼び出すことができます。 ウェイク ワード ("Cortana さん" または "Cortana") の呼び出しは無効になります。
+この例では、"EmployeeCor cortanPolicy" という名前の既存のポリシーを更新し、プッシュ ボタンの呼び出しのみを使用してMicrosoft Teamsで Cortana 音声アシスタンスを有効にする方法を示します。 ユーザーは、Teams の [Cortana mic] ボタンを選択して Cortana を呼び出すことができます。 ウェイク ワード ("Cortana さん" または "Cortana") の呼び出しは無効になります。
 
 ```PowerShell
 PS C:\> Set-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceInvocationMode PushToTalkUserOverride
@@ -73,7 +73,7 @@ PS C:\> Set-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceIn
 
 - Teams モバイル アプリではウェイク ワードのアクティブ化はサポートされませんが、今後サポートされる予定です。
 
-- Windows および Microsoft Teams ディスプレイ デバイスのMicrosoft Teams Roomsでは、ウェイク ワードのアクティブ化がサポートされます。
+- Windows およびMicrosoft Teams ディスプレイ デバイスのMicrosoft Teams Roomsでは、ウェイク ワードのアクティブ化がサポートされます。
 
 ## <a name="user-control"></a>ユーザー コントロール
 
@@ -83,7 +83,7 @@ PS C:\> Set-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceIn
 
 - マイク ボタンを選択するか、Microsoft Teams Roomsで "Cortana" と入力します。
 
-- Microsoft Teams で "Cortana" と言うと、デバイスが表示されます。
+- デバイスを表示Microsoft Teamsで "Cortana" と言います。
 
 デバイスの設定を使用して、Teams の Cortana をデバイスに対して有効にするかどうかを制御できます。
 
@@ -125,7 +125,7 @@ Cortana _音声アクティブ化_ を有効にするには、次の条件を満
 Cortana _Voice Activation_ は、Lenovo Hub 500 を使用している場合、またはお使いの部屋に接続されているデバイスがある場合に有効にすることができます。
 
 - Jabra Panacast 50
-- Rally マイク
+- Logi Rally Plus 会議システム
 - Bose ビデオ バー VB1
 - エポポス EXPAND Capture 5
 - Yealink MSpeech
