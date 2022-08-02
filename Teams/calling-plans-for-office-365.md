@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Skype for Business の通話プラン (PSTN 通話プラン) のオプションと、組織のライセンスを取得する方法を確認します。 '
-ms.openlocfilehash: 5021087c900141c97e534b521d3789dbe7f5eb72
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: 2c47c240da6c25369a6276ee61d4a7b97eda60e4
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682526"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156825"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Microsoft 365 のプランを呼び出す
 
@@ -39,16 +39,18 @@ ms.locfileid: "66682526"
   
 通話プランのオプションを紹介します。
   
-- **国内通話プラン**: ライセンスを持つユーザーは、Microsoft 365 またはOffice 365で割り当てられている国/地域にある番号に連絡できます。
+- **国内通話プラン**: ライセンスを持つユーザーは、Microsoft 365 で割り当てられている国/地域にある番号を呼び出すことができます。 無制限の受信分が含まれています。 送信分は、購入したライセンスに基づいて含まれます。
 
-- **国際通話プラン**: ライセンスを持つユーザーは、ユーザーの場所に基づいて Microsoft 365 またはOffice 365ライセンスがユーザーに割り当てられている国/地域にある番号と、[196 の国/地域](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)の国際番号に発信できます。
+- **国際通話プラン**: ライセンスを持つユーザーは、ユーザーの場所に基づいて Microsoft 365 ライセンスがユーザーに割り当てられている国/地域にある番号と、 [196 の国/地域](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)の国際番号に発信できます。 無制限の受信分が含まれています。 送信分は、購入したライセンスに基づいて含まれます。
+
+- **従量課金制通話プラン**: ライセンスを持つユーザーは、ユーザーの場所に基づいて Microsoft 365 ライセンスがユーザーに割り当てられている国/地域の番号と、 [196 の国/地域](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)の国際番号に発信できます。 無制限の受信分が含まれています。 送信分は含まれません。 すべての発信通話は、通信クレジットまたは支払後の請求で使用した分数に基づいて課金されます。
 
 同じ通話プランを持つ同じ国/地域のすべてのユーザー (これは、Microsoft 365 管理センターのライセンス領域で定義されているユーザーの国の場所です) は、分のプールを共有します。 たとえば、100 人のユーザーが同じ国/地域に存在し、120 分の国内通話プランが割り当てられている場合、そのユーザーは 12,000 分のプールを共有します。 これらの分を超えるすべての通話は、1 分あたり課金されます。
 
 [国と地域の可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)に関するページを参照して、各国/地域の各組織で利用できる月単位の分数を確認します。
   
 > [!IMPORTANT]
-> 国/地域は、**[Microsoft 365 管理センター]** の **[組織プロファイル]** にある請求先住所 **ではなく**、**[Microsoft 365 管理センター]** > **[アクティブなユーザー]** にあるユーザーのライセンスの場所に基づいています。 
+> 国/地域は、**[Microsoft 365 管理センター]** の **[組織プロファイル]** にある請求先住所 **ではなく**、**[Microsoft 365 管理センター]** > **[アクティブなユーザー]** にあるユーザーのライセンスの場所に基づいています。
 
 > [!NOTE]
 > プールは、同一の通話プランでのみ使用できます。
@@ -59,22 +61,22 @@ ms.locfileid: "66682526"
   
 ## <a name="how-to-buy-a-calling-plan"></a>通話プランを購入する方法
 
-1. <strong>最初に **Phone System</strong> アドオン ライセンスを購入する必要があります <strong>。これを行うには、[Microsoft 365 管理センターにサインイン](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)し、**[課金</strong> > **購入サービス** > **] アドオン サブスクリプション** >  [**今すぐ購入**] を選択します。
+1. 最初に **Phone System アドオン ライセンス** を購入する必要があります。 これを行うには、[Microsoft 365 管理センターにサインインし、**課金**](https://go.microsoft.com/fwlink/p/?linkid=868433) > **購入サービス** > **のアドオン サブスクリプション** > **[今すぐ購入**] を選択します。
 
-    ![音声通話プランを購入するためのオプションを示すスクリーンショット。](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
+    ![音声通話プランを購入するオプションを示すスクリーンショット。](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
     > お使いのプランによっては、通話システムのライセンスを購入するために、さらにアドオンを購入する必要がある場合があります。 詳細は、[Microsoft Teamsアドオンライセンス](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)をご覧ください。
   
-2. 電話システムのライセンスを購入したら、通話プランを購入することができます。そのためには、**Microsoft 365 管理センター** にサインインし、**[請求]** > **[サービスの購入]** > **[アドオン サブスクリプション]** の順に選択して、**[今すぐ購入]** をクリックします。 そこに通話プランが表示されます。
+2. Phone System ライセンスを購入したら、通話プランを購入するには、[Microsoft 365 管理センターにサインインし、[**課金**](https://go.microsoft.com/fwlink/p/?linkid=868433) > **購入サービス** > **アドオン] サブスクリプション** を選択し、[**今すぐ購入**] を選択します。 そこに通話プランが表示されます。
 
-組織のニーズに応じて、ユーザーごとに異なる通話プランを購入し、割り当てることができます。 必要な通話プランを選択したら、チェックアウトに進みます。 Microsoft 365 管理センターの各ユーザーにプランを割り当てます。 方法については、「 [Microsoft Teams アドオン ライセンスの割り当て](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
+組織のニーズに応じて、ユーザーごとに異なる通話プランを購入し、割り当てることができます。 必要な通話プランを選択したら、チェックアウトに進みます。 Microsoft 365 管理センターの各ユーザーにプランを割り当てます。 方法については、「 [アドオン ライセンスMicrosoft Teams割り当てる](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
   
 ## <a name="do-you-have-a-service-provider-that-provides-on-premises-pstn-connectivity-for-hybrid-users"></a>ハイブリッド ユーザーに対してオンプレミスの PSTN 接続を提供するサービス プロバイダーをお持ちですか?
 
 その場合、通話プランを購入する必要はありません。 Office 365 Enterprise E5 には **通話システム** のアドオンが含まれているため、チェックアウトに進んでください。
   
-次に、Microsoft 365 管理センターのユーザーに Enterprise E5 または **電話システム** のアドオン ライセンスを割り当てます。 方法については、「 [Microsoft Teams アドオン ライセンスの割り当て](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
+次に、Microsoft 365 管理センターのユーザーに Enterprise E5 または **電話システム** のアドオン ライセンスを割り当てます。 方法については、「 [アドオン ライセンスMicrosoft Teams割り当てる](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
   
 ## <a name="pricing-information"></a>価格情報
 
@@ -89,7 +91,7 @@ ms.locfileid: "66682526"
 - [Microsoft Teams アドオン ライセンス](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [Microsoft 365 または Office 365の Phone System で入手できる内容を次に示します。](./here-s-what-you-get-with-phone-system.md)
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-articles"></a>関連記事
 
 - [Skype for Business Online をセットアップする](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 - [クラウド ボイスメールの設定 - Admin ヘルプ](set-up-phone-system-voicemail.md)

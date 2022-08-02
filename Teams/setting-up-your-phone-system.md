@@ -23,23 +23,23 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 - intro-get-started
-description: Microsoft 365で組織のTeams 電話システムを設定する方法を詳しく説明するステップ バイ ステップ ガイド。
-ms.openlocfilehash: 12e202fed6ad63835c364662194be2eabf872b31
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+description: Microsoft 365 で組織の Teams Phone System を設定する方法を詳しく説明するステップ バイ ステップ ガイド。
+ms.openlocfilehash: 7f5a29bc5d57d59cf8d63dbe1f61db18a906e110
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681928"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156902"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>組織内の電話システムの設定
 
-この記事では、電話システムを設定するためのコンテンツのロードマップを示します。-Microsoft 365 クラウドで通話制御と Private Branch Exchange (PBX) 機能を有効にする Microsoft のテクノロジ。 詳細な情報へのリンクは、各手順の最後で入手できます。
+この記事では、Microsoft 365 クラウドで通話制御と Private Branch Exchange (PBX) 機能を有効にする Phone System-Microsoft のテクノロジを設定するためのコンテンツのロードマップを提供します。 詳細な情報へのリンクは、各手順の最後で入手できます。
 
-この記事を読む前に、「[電話システムとは何](what-is-phone-system-in-office-365.md)か」を読み、電話システム[で得られる内容を確認](here-s-what-you-get-with-phone-system.md)してください。 後者の 2 つの記事では、電話システム要件と機能について説明します。
+この記事を読む前に、 [電話システムとは何か、電話システム](what-is-phone-system-in-office-365.md) で [得られる内容を確認してください](here-s-what-you-get-with-phone-system.md)。 後者の 2 つの記事では、電話システムの要件と機能について説明します。
 
 この記事では、次の手順について説明します。
 
-- [手順 1: 電話システム ライセンスを購入して割り当てる](#step-1-buy-and-assign-a-phone-system-license)
+- [手順 1: Phone System ライセンスを購入して割り当てる](#step-1-buy-and-assign-a-phone-system-license)
 - [手順 2: PSTN 接続オプションを選択する](#step-2-choose-a-pstn-connectivity-option)
 - [ステップ 3: ユーザー向けの電話番号を取得する](#step-3-get-phone-numbers-for-your-users)
 - [手順 4: サービスの電話番号を取得する](#step-4-get-phone-numbers-for-services-call-queues-auto-attendants)
@@ -47,9 +47,9 @@ ms.locfileid: "65681928"
 - [手順 6: 自動応答を設定する場合](#step-6-if-you-want-to-set-up-an-auto-attendant)
 - [手順 7: フリーダイヤル番号の通信クレジットを設定する](#step-7-set-up-communications-credits-for-toll-free-numbers)
 
-## <a name="step-1-buy-and-assign-a-phone-system-license"></a>手順 1: 電話システム ライセンスを購入して割り当てる
+## <a name="step-1-buy-and-assign-a-phone-system-license"></a>手順 1: Phone System ライセンスを購入して割り当てる
 
-電話システム ライセンスを 1 人のユーザーに割り当てるには、Microsoft 365 ライセンスの割り当てと同じ手順を実行します。 ライセンスを複数のユーザーに一括で割り当てることもできます。 使用可能な電話システム ライセンスとライセンスの取得と割り当て方法の詳細については、「[アドオン ライセンスのTeams](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing)とアドオン ライセンス[Microsoft Teams割り当てる](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)」を参照してください。
+電話システム ライセンスを 1 人のユーザーに割り当てるには、手順は Microsoft 365 ライセンスの割り当てと同じです。 ライセンスを複数のユーザーに一括で割り当てることもできます。 使用可能な Phone System ライセンスとライセンスの取得と割り当て方法の詳細については、「 [Teams アドオン ライセンス](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing) 」および「 [Microsoft Teamsアドオン ライセンスの割り当て」を](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)参照してください。
 
 ## <a name="step-2-choose-a-pstn-connectivity-option"></a>手順 2. PSTN 接続オプションを選択する
 
@@ -57,7 +57,7 @@ ms.locfileid: "65681928"
 
 - プランの呼び出し。 MICROSOFT を PSTN 通信事業者として使用する、クラウド内のオール イン ソリューション。
 
-- オペレーター接続。 既存の通信事業者が Microsoft オペレーター接続 プログラムに参加している場合は、PSTN 通話とセッション ボーダー コントローラー (SBC) を管理できます。
+- オペレーター接続。 既存の通信事業者が Microsoft Operator Connect プログラムに参加している場合は、PSTN 通話とセッション ボーダー コントローラー (SBC) を管理できます。
 
 - ダイレクト ルーティング。 SBC を電話システムに接続して、独自の PSTN 通信事業者を使用します。
 
@@ -74,7 +74,7 @@ ms.locfileid: "65681928"
 
 - [ユーザーの電話番号の割り当て、変更、または削除](assign-change-or-remove-a-phone-number-for-a-user.md) – 取得した電話番号を割り当て、管理する方法について説明します。
 
-- 電話番号[を取得できる電話番号の数](how-many-phone-numbers-can-you-get.md) – 電話番号の種類と、購入して割り当てたライセンスの種類に応じて取得できる電話番号の数について説明します。
+- 電話番号[を取得できる電話番号の数](how-many-phone-numbers-can-you-get.md) – 電話番号の種類と、購入して割り当てたライセンスの種類に応じて、取得できる電話番号の数について説明します。
 
 ## <a name="step-4-get-phone-numbers-for-services-call-queues-auto-attendants"></a>手順 4: サービスの電話番号を取得する (通話キュー、自動応答)
 
@@ -85,9 +85,9 @@ ms.locfileid: "65681928"
 詳細については、次を参照してください:
 
 - [組織の電話番号を管理](manage-phone-numbers-landing-page.md) する - PSTN 接続オプションに応じて番号を取得および管理するための特定の記事へのリンクを含む電話番号の種類の概要を示します。
-ライセンスに含まれる Microsoft から入手できる [サービス電話番号](manage-phone-numbers-landing-page.md#service-telephone-numbers) について説明します。 オペレーター接続またはダイレクト ルーティングによって提供されるサービス番号については、プロバイダーにお問い合わせください。
+ライセンスに含まれる Microsoft から入手できる [サービス電話番号](manage-phone-numbers-landing-page.md#service-telephone-numbers) について説明します。 Operator Connect または Direct Routing によって提供されるサービス番号については、プロバイダーにお問い合わせください。
 
-- 電話番号[を取得できる電話番号の数](how-many-phone-numbers-can-you-get.md) – 電話番号の種類と、購入して割り当てたライセンスの種類に応じて取得できる電話番号の数について説明します。
+- 電話番号[を取得できる電話番号の数](how-many-phone-numbers-can-you-get.md) – 電話番号の種類と、購入して割り当てたライセンスの種類に応じて、取得できる電話番号の数について説明します。
 
 ## <a name="step-5-if-you-want-to-set-up-a-call-queue"></a>手順 5: 通話キューを設定する場合
 
@@ -113,9 +113,11 @@ Microsoft Teamsでフリーダイヤル番号を使用する場合は、通信�
 
 - 毎月の分割り当てがなくなると、ダイヤルアウトして 1 分あたりの支払いを行います。
 
+- 従量課金制通話プランを使用している場合は、すべての発信通話に対してダイヤルアウトして 1 分あたりの支払いを行います。
+
 詳細については、「 [コミュニケーション クレジットとは」](what-are-communications-credits.md) と「 [組織の通信クレジットの設定」を参照してください](set-up-communications-credits-for-your-organization.md)。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-articles"></a>関連記事
 
 - [電話システムとは](what-is-phone-system-in-office-365.md)
 
