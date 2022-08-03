@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理者は、Microsoft Teams Rooms の累積的な改善リストである Microsoft Teams Rooms のリリース ノートを参照できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 07b4661df5df7ac766c17a07c2bdd940b3d2cb6b
-ms.sourcegitcommit: 2871c05e00458a0cc76d919ff822b0b354bd1f72
+ms.openlocfilehash: b5630636ce5dc8f26d430e6d883bff0dc2bcc71f
+ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66810109"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67175851"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams Roomsのリリース ノート
 
@@ -39,6 +39,7 @@ Teams Roomsは、モダン ライフサイクル ポリシーによって管理�
 
 |リリース |公開日 <br/> Microsoft Store |
 |--- |--- |
+|4.13.132.0 |8/2/2022 |
 |4.12.139.0 |7/14/2022 |
 |4.12.138.0 |5/26/2022 |
 |4.12.126.0 |4/27/2022 |
@@ -93,6 +94,29 @@ Teams Roomsは、モダン ライフサイクル ポリシーによって管理�
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams Rooms 機能の概要と問題の解決
 
+### <a name="4131320-822022"></a>4.13.132.0 (8/2/2022)
+
+この更新プログラムで導入されるもの:
+
+- 会議 ID を使用して Teams 会議に参加する
+- 1 対 1 の Teams 呼び出しのエンドツーエンド暗号化<sup>1</sup> 
+- Teams 会議<sup>2</sup> でのノイズ抑制
+- トレイ エクスペリエンスの更新を共有する
+- ルーム ビデオのミュート状態とミュート解除状態
+- コンテンツのみのレイアウトの既定の管理設定  
+- モダン認証は既定でオンになっています
+
+ <sup>1</sup> Teams Room デバイスからの呼び出しに対してエンドツーエンドの暗号化を有効にする前に、デバイスのユーザー アカウントのポリシーを構成する必要があります。 ユーザーのポリシーは、Teams 管理センターから、または Teams PowerShell を使用して更新できます。 詳細については、「[Teams Room ユーザー アカウントのポリシーを構成する」を](../teams-end-to-end-encryption.md)参照してください。
+
+ <sup>2</sup> Teams Rooms、管理者オーバーライドを使用してリリース 4.12 でノイズ抑制のサポートが追加されました。
+
+> [!IMPORTANT]
+> この更新プログラムにより、新しいTeams Rooms デバイスは、Microsoft TeamsとExchange Onlineに接続するときに、既定で先進認証を使用するようになりました。
+>
+> 会議室アカウントのモダン認証を有効にして、8 月末までにTeams Rooms デバイスをテストすることを強くお勧めします。
+>
+> この変更は、2022 年 10 月 1 日から基本認証を無効にするExchange Onlineでの今後の更新の準備に役立ちます。 詳細については、「[Exchange Online – 2022 年 5 月の更新プログラムの基本認証の非推奨](https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-authentication-deprecation-in-exchange-online-may-2022/ba-p/3301866)」を参照してください。  
+
 ### <a name="4121390-7142022"></a>4.12.139.0 (7/14/2022)
 
 この更新プログラムで導入されるもの:
@@ -112,7 +136,7 @@ Teams Roomsは、モダン ライフサイクル ポリシーによって管理�
 ### <a name="4121260-4272022"></a>4.12.126.0 (4/27/2022)
 
 この更新プログラムで導入されるもの:
-- IT 管理者は、TEAMS ルーム デバイスを登録して、XML 設定を使用してパブリック プレビュー機能を受け取ることができます。 登録すると、デバイスはベータ機能の受信を開始します。 ベータ テストに行くすべての機能は、[Microsoft Teams パブリック プレビュー](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)で発表されます - Microsoft Tech Community <sup>1,2</sup>  
+- IT 管理者は、TEAMS ルーム デバイスを登録して、XML 設定を使用してパブリック プレビュー機能を受け取ることができます。 登録すると、デバイスはベータ機能の受信を開始します。 ベータ テストに行くすべての機能は[、Microsoft Teamsパブリック プレビューで発表されます - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview) <sup>1,2</sup>  
 - IT 管理者は、FRONT of Room ディスプレイの解像度を設定し、XML 設定<sup>2</sup> を使用してリモートでスケーリングできます
 - IT 管理者は、XML 設定<sup>3</sup> を使用して Microsoft ノイズ抑制を無効にすることができます 
 - IT 管理者は、レジストリ キー設定<sup>4</sup> を使用してデバイス上のダウンロード フォルダーのクリーンアップをオーバーライドできます
@@ -155,7 +179,7 @@ Teams Roomsは、モダン ライフサイクル ポリシーによって管理�
 
 > <sup>1</sup> これらの機能は Teams Web クライアントを使用してロールアウトされ、今後数週間でロールアウトが完了します。 詳細については、 [Teams の更新プログラム](../teams-client-update.md) の詳細をご覧ください。
 > 
-> Microsoft Teams でのみ実行されている Windows 上の <sup>2</sup> つの Teams ルーム、またはSkype for Businessおよび Microsoft Teams (既定) は新しい Meet and Call エクスペリエンスで更新されていますが、他のモードはこの更新プログラムの影響を受けません。
+> Microsoft Teamsでのみ実行されている Windows 上の <sup>2</sup> つの Teams ルーム、またはSkype for BusinessとMicrosoft Teams (既定) は新しい Meet and Call エクスペリエンスで更新されていますが、他のモードはこの更新プログラムの影響を受けません。
 > 
 > <sup>3</sup> Teams Roomsの [AAD 条件付きアクセス](../rooms/rooms-authentication.md#azure-ad-conditional-access) ポリシーの設定に関する追加の詳細を参照してください。
 > 
@@ -205,7 +229,7 @@ Teams Roomsは、モダン ライフサイクル ポリシーによって管理�
 ### <a name="49120-7282021"></a>4.9.12.0 (7/28/2021)
 
 この更新プログラムで導入されるもの:
-- Microsoft Teams のみモードがアプリケーション設定で使用できるようになったため、Skype for Business アカウントを設定する必要はもうありません。 このモードでは、Teams 専用モードにサインインしているデバイスは、ゲスト ユーザーとして会議Skype for Business参加します。
+- Microsoft Teamsモードのみがアプリケーション設定で使用できるようになったため、Skype for Business アカウントを設定する必要はもうありません。 このモードでは、Teams 専用モードにサインインしているデバイスは、ゲスト ユーザーとして会議Skype for Business参加します。
 - HDMI オーディオが原因で通話量が少ない問題を修正しました。 HDMI オーディオ機能は、アプリケーション ビルド 4.9.12.0 のすべてのデバイスで自動的に有効になります。
 
 > [!NOTE]

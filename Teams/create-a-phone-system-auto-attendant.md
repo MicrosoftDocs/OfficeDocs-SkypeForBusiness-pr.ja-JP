@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams の自動応答を設定する
+title: Microsoft Teamsの自動応答を設定する
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -19,30 +19,33 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom:
 - Phone System
-description: Microsoft Teams で自動応答を設定および管理する方法について説明します。
-ms.openlocfilehash: 384c7aae5e11c938a6bf8ab5f82924d0379a83aa
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+description: Microsoft Teamsで自動応答を設定および管理する方法について説明します。
+ms.openlocfilehash: e54ffdeac8db21ebcc6cc00f51893769e0d194bb
+ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616113"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67176101"
 ---
 # <a name="set-up-an-auto-attendant"></a>自動応答を設定する
 
-自動応答を使用すると、ユーザーが組織を呼び出し、メニュー システムを移動して、適切な部署、通話キュー、ユーザー、またはオペレーターに話しかけることができます。 Microsoft Teams 管理センターまたは PowerShell を使用して、組織の自動応答を作成できます。
+自動応答を使用すると、ユーザーが組織を呼び出し、メニュー システムを移動して、適切な部署、通話キュー、ユーザー、またはオペレーターに話しかけることができます。 Microsoft Teams管理センターまたは PowerShell を使用して、組織の自動応答を作成できます。
 
 この記事の手順に従う前に、 [Teams の自動応答と通話キューの計画](plan-auto-attendant-call-queue.md) を読み、 [作業の開始手順](plan-auto-attendant-call-queue.md#getting-started) に従っていることを確認してください。
 
-自動応答では、呼び出し元の入力に基づいて、次のいずれかの宛先に通話を送信できます。
+自動応答では、呼び出し元の入力に基づいて、次のいずれかの宛先に呼び出しをリダイレクトできます。
 
 - **演算子** - 自動応答に対して定義された演算子。 演算子の定義は省略可能です。 演算子は、この一覧内の他の任意の変換先として定義できます。
 - **組織内のユーザー** - 音声通話を受信できる組織内のユーザー。 このユーザーは、オンライン ユーザーでも、Skype for Business Serverを使用してオンプレミスでホストされているユーザーでもかまいません。
 - **音声アプリ** - 別の自動応答または通話キュー。 (この宛先を選択するときに、自動応答または通話キューに関連付けられているリソース アカウントを選択します)。
 - **ボイスメール** - 指定した Microsoft 365 グループに関連付けられているボイス メールボックス。 ボイスメールの文字起こしと"トーンの後にメッセージを残してください" を選択できます。 システム プロンプト。
   - M365 管理 センターで、指定した Microsoft 365 グループの "組織外のユーザーがこのチームにメールを送信できるようにする" ことを有効にします
-- **外部電話番号** - 任意の電話番号。 [外部転送の技術的な詳細を参照してください](create-a-phone-system-auto-attendant.md?tabs=additional-resources)。
+- **外部電話番号** - 任意の電話番号。 [外部転送の技術的な詳細を参照してください](create-a-phone-system-auto-attendant.md?tabs=general-info#external-phone-number-transfers---technical-details)。
 - **アナウンス (オーディオ ファイル)** - オーディオ ファイルを再生します。 オーディオとして保存された、アップロードした録音されたアナウンス メッセージ。WAV、.MP3、または .WMA 形式。 記録は 5 MB 以下にできます。 システムによってアナウンスが再生され、自動応答メニューに戻ります。
 - **お知らせ (型指定)** - メッセージを入力します。 システムで読み取るテキスト。 最大 1,000 文字を入力できます。 システムによってアナウンスが再生され、自動応答メニューに戻ります。
+
+> [!NOTE]
+> **組織内のユーザー** に通話をリダイレクトする場合、そのユーザーは音声を有効にする必要があります。 音声を有効にする方法の詳細については、「 [Teams アドオン ライセンスをユーザーに割り当てる」を](teams-add-on-licensing/assign-teams-add-on-licenses.md)参照してください。
 
 自動応答を追加する手順は次のとおりです。
 
@@ -232,7 +235,7 @@ Skype for Businessハイブリッド環境で、PSTN に自動応答通話を転
    > [!div class="nextstepaction"]
    > [テストの実行: Teams 自動応答](https://aka.ms/TeamsAADiag)
 
-2. [実行] 診断ウィンドウで、[ **ユーザー名] または [電子メール** ] フィールドにリソース アカウントを入力し、[ **テストの実行**] を選択します。
+2. [実行] 診断ウィンドウで、[**ユーザー名] または [Email**] フィールドにリソース アカウントを入力し、[**テストの実行**] を選択します。
 
 3. テストでは、テナント、ポリシー、またはリソース アカウントの構成を識別し、自動応答が通話を受信できないようにし、特定された問題を修正する手順を提供します。
 
