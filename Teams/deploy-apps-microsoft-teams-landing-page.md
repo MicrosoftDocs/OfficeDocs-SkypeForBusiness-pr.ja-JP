@@ -19,26 +19,20 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: a74128c7732d649c33ee50c73255eee956053260
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: 8fa6763641edf1b4eff29e16fb7ecdeaa4111edf
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880381"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156685"
 ---
-# <a name="about-apps-in-microsoft-teams"></a>Microsoft Teams のアプリについて
+# <a name="understand-microsoft-teams-apps"></a>Microsoft Teams アプリを理解する
 
 アプリは、職場のツールとサービスをまとめ、他のユーザーと共同作業する優れた方法です。 アプリは、エンド ユーザーの日常業務における生産性向上、共同作業、効率化に役立ちます。 組織は、顧客とつながり、サービスを提供し、情報を共有するためにアプリを使用します。 たとえば、エンド ユーザーは、他のユーザーとすばやく共同で作業するために Teams にピン留めされた予定表アプリ、Teams チャネルで Web サービスの品質をユーザーに通知するボット機能を備えたアプリ、チャネル内のさまざまなエンド ユーザーとタスクを共有して割り当てるアプリなどを使用します。
 
-ストア内の検証済みの安全なアプリの豊富な選択により、エンド ユーザーは組織が毎日必要とするツールやサービスにアクセスできます。 Microsoft Teams アプリは、展開する必要のない Web ベースの SaaS アプリです。 エンド ユーザーは、お客様から提供された[アクセス許可](https://admin.teams.microsoft.com/policies/app-permission)のみに基づいて Teams でアプリを使用できます。 管理者であるお客様は、組織のユーザーに対するアプリの使用を承認またはブロックするだけです。 会議、チャット、チャネルを問わず、すべてのユーザーに対するアプリの可用性を制御します。
+Teams ストアで検証およびセキュリティで保護されたアプリの広範なカタログを使用すると、エンドユーザーは組織が毎日必要とするツールとサービスにアクセスできます。 Microsoft Teams アプリは、展開する必要のない Web ベースの SaaS アプリです。 エンドユーザーは、ユーザーが [提供したアクセス許可](app-policies.md)のみに基づいて Teams でアプリを使用できます。 管理者は、エンタープライズ レベルのポリシーを使用して、組織のユーザーに対して任意のアプリを許可またはブロックします。 会議、チャット、チャネルなどのさまざまなコンテキストで、各ユーザーのアプリの可用性を制御します。
 
-エンド ユーザーに必要なアプリを提供するために、アプリの種類と、ユーザーがそれらのアプリにアクセスする場所を理解してください。 アプリの使用方法の詳細については、「[エンドユーザー向けアプリの概要](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)」を参照してください。
-
-<!--- Commenting the previous content as part of this article revamp.
-
-Apps let users find content from their favorite services and share it in Teams. They let you do tasks such as pin services at the top of a channel, automate notifications using bots, or share and assign tasks.
-
---->
+この記事は、アプリの種類と、ユーザーがそれらのアプリにアクセスする場所を理解することに役立ちます。 アプリの使用方法の詳細については、「[エンドユーザー向けアプリの概要](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)」を参照してください。
 
 エンド ユーザーが Teams で使用できるアプリの種類は次のとおりです。
 
@@ -49,7 +43,7 @@ Apps let users find content from their favorite services and share it in Teams. 
 
 ## <a name="core-apps"></a>コア アプリ
 
-アクティビティ フィード、Teams チャネル、チャット、予定表、通話などの一部の既定の機能が利用でき、エンド ユーザーが簡単にアクセスできるよう、既定でピン留めされています。 管理者であるお客様は、[セットアップ ポリシー](/microsoftteams/teams-app-setup-policies)を使用して既定の動作を変更できます。
+アクティビティ フィード、チャネル、チャット、予定表、通話などの一部の Teams 機能は既定で使用でき、エンド ユーザーが簡単にアクセスできるように既定でピン留めされています。 管理者は、[セットアップ ポリシー](/microsoftteams/teams-app-setup-policies)を使用してこの既定の動作を変更できます。
 
 :::image type="content" source="media/core-apps-pinned1.png" alt-text="コア アプリは、既定で Teams にピン留めされたアプリです。" lightbox="media/core-apps-pinned2.png":::
 
@@ -69,15 +63,17 @@ Microsoft 提供のアプリに加えて、Microsoft 検証済みのサードパ
 
 ## <a name="custom-apps"></a>カスタム アプリ
 
-組織内の開発者が作成したアプリは、カスタム アプリと呼ばれます。 このようなアプリの開発は、ご所属の組織の特定の要件に合わせて委託され、お客様はそのようなアプリを許可または禁止する制御があります。 組織内の開発者は、Teams の [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions) との統合を使用すると、カスタムのローコード (わずかなコードを記述するだけで使用できる) ソリューションをすばやく構築できます。
+組織内の開発者によって作成されたアプリは、カスタム アプリ (または基幹業務アプリ) と呼ばれます。 組織は、組織固有の要件に応じてカスタム アプリの作成を委託する場合があります。 あなたは組織全体または特定のユーザーに対して、このようなアプリを許可またはブロックする管理能力を保持しています。 組織内の開発者は、Teams と [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions) の統合を使用して、カスタムのローコード ソリューションを構築できます。
 
 管理者がカスタム アプリの使用を許可した後、エンド ユーザーは Teams ストアの左側のナビゲーションで **[組織向けに開発]** をクリックしてそのアプリを見つけます。
 
 :::image type="content" source="media/built-for-your-org1.png" alt-text="Teams デスクトップ アプリの Teams ストアにあるカスタム アプリのスクリーンショット。" lightbox="media/built-for-your-org2.png":::
 
+<!--- TBD - new article on custom app overview and sideloading. --->
+
 ### <a name="understand-sideloading-of-custom-apps"></a>カスタム アプリのサイドローディングを理解する
 
-カスタム アプリを開発し、そのアプリをエンド ユーザーに配布する前に、開発者はアプリをストアに追加して自分でテストするか、アプリをサイドロードするチームと連携してテストします。 この方法は、アプリのサイドローディングと呼ばれ、カスタム アプリにのみ適用されます。
+カスタム アプリを開発し、それらのアプリをエンド ユーザーに配布する前に、開発者はテストするために Teams ストアにアプリを追加してアプリをテストします。 開発者は自分でテストすることも、指定したユーザー グループでテストすることもできますが、アプリは組織内の他のエンド ユーザーが利用できません。 この方法は、アプリのサイドローディングと呼ばれ、カスタム アプリにのみ適用されます。
 
 開発者は、通常は開発中のアプリをテストするために、特定のチームのメンバーがアプリを利用できるようにアプリをサイドロードできます。 この方法でのアプリの使用はアプリ開発者に制限され、管理者が Teams でのサイドローディングを許可している限り、管理者の承認は必要ありません。 管理者は、すべての開発者に対してアプリのサイドローディングを禁止できます。
 

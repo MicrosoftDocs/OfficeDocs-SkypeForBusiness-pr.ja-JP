@@ -865,6 +865,8 @@ items:
                 href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
           - name: オペレーター 接続
             items:
+              - name: 新機能
+                href: operator-connect-whats-new.md
               - name: オペレーター 接続 プラン
                 href: operator-connect-plan.md
               - name: オペレーター 接続を構成する
@@ -1622,6 +1624,8 @@ items:
                 href: education-insights-manage-access.md
               - name: Reflect の使用を開始する
                 href: reflect.md
+              - name: 進行状況を読み取るための分析情報を理解する
+                href: insights-for-reading-progress.md
           - name: '教育機関向けの Teams の課題 '
             href: expand-teams-across-your-org/assignments-in-teams.md
           - name: 教育機関管理者向けの Teams のリソース
