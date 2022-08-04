@@ -117,8 +117,6 @@ items:
         items:
           - name: Teams の管理者トレーニング
             href: itadmin-readiness.md
-          - name: Ignite の Teams セッション
-            href: ignite-2020-landing-page.md
           - name: Teams のエンド ユーザー トレーニング
             href: instructor-led-training-teams-landing-page.yml
   - name: Skype for Business からアップグレード
