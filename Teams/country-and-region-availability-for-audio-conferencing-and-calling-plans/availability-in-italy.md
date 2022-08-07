@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: イタリアで利用可能なSkype for BusinessとMicrosoft TeamsのMicrosoft 365とOffice 365サービスを次に示します。
-ms.openlocfilehash: a9a7a67c46dd73e8f55d680e1cb05061d4641d3f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Skype for Business および Microsoft Teams の Microsoft 365 サービスとOffice 365 サービスをイタリアで使用できます。
+ms.openlocfilehash: 4388ead2eba8c698db3ab8991db8d19f32b5abbc
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584771"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271022"
 ---
 # <a name="availability-in-italy"></a>イタリアでの利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-イタリアで利用可能なSkype for BusinessとMicrosoft TeamsのMicrosoft 365とOffice 365サービスを次に示します。
+Skype for Business および Microsoft Teams の Microsoft 365 サービスとOffice 365 サービスをイタリアで使用できます。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -59,8 +59,8 @@ ms.locfileid: "58584771"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|通話プランは購入できますか?  <br/> |はい  <br/> |
-|通話プランで利用できる分数。 |カレンダー月には、次の 4 つのプラン オプションがあります。 <ul><li>120 分の国内通話プラン </li><li>240 分国内通話プラン</li></li><li>1200 分国内通話プラン </li></li><li>国内通話と国際通話プラン: 国内通話の 1200 分 -OR- 国際通話の 600 分 (暦月の最初に到達した方)</li></li></ul>[料金の透明性 (IT)](https://www.microsoft.com/download/details.aspx?id=102426)<br>[料金の透明性 (EN)](https://www.microsoft.com/download/details.aspx?id=102426) |
+|通話プランは購入できますか?  |はい          |   
+|通話プランで利用できる分数。    |1 暦月あたり 5 つのプラン オプションを使用できます。 <ul><li>従量課金制通話プラン </li><li> 120 分国内通話プラン </li><li> 240 分国内通話プラン </li><li> 1200 分国内通話プラン </li><li> 国際通話プラン: 国内通話の 1200 分または国際通話の 600 分 (暦月の最初に到達した方)</li></ul> [料金の透明性 (IT)](https://www.microsoft.com/download/details.aspx?id=102426)<br>[料金の透明性 (EN)](https://www.microsoft.com/download/details.aspx?id=102426) |
 |プレミアム番号に対して発信通話を行うことはできますか?  <br/> | 現時点ではサポートされていません。 <br/> |
 |発信できる相手先  <br/> | [これらの国を含む](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 の国に通話を発信できます。<br/> |
 

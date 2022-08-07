@@ -9,22 +9,21 @@ audience: admin
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
-- Teams_Business_Voice
 search.appverid: MET150
 description: 組織内のユーザーとサービスの通話プラン電話番号を使用してシステムMicrosoft Teams 電話を設定する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19d2b165e85620b0fb9e9e8242adacc4c07f2c53
-ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
+ms.collection:
+- M365-voice
+- M365initiative-voice
+ms.openlocfilehash: fe94987e4abf8c98c32428f608a19db46aacd4c9
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "63053256"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268012"
 ---
-# <a name="step-2-set-up-teams-phone-system-phone-numbers"></a>手順 2: Teams 電話システム電話番号を設定する
+# <a name="step-2-set-up-teams-phone-system-phone-numbers"></a>手順 2: Teams Phone System の電話番号を設定する
 
 組織内でユーザーまたは自動応答を設定する前に、そのユーザーの電話番号を取得する必要があります。 電話番号にはさまざまな種類がありますが、この手順で追加する必要がある 2 種類の番号を次に示します。
 
@@ -35,14 +34,14 @@ ms.locfileid: "63053256"
 > 既存の電話番号を使用する場合でも、会社のメインの電話番号とユーザーに一時的な電話番号を作成して割り当てる必要があります。 後の手順で、これらの一時的な番号を既存の電話番号に置き換えることができます。
 
 > [!NOTE]
-> 新しい電話番号がTeamsで利用できるようになるまでに数時間かかる場合があります。
+> 新しい電話番号が Teams で利用できるようになるまでに数時間かかる場合があります。
 
 ## <a name="set-up-a-service-number"></a>サービス番号を設定する
 
 ここで設定したサービス番号は、会社のメイン電話番号の後の手順で使用されます。
 
-1. Microsoft Teams管理センターを開き、グローバル管理者であるユーザー (通常はMicrosoft 365にサインアップするために使用したアカウント) でログインします。
-2. 左側のナビゲーションで、<a href="https://admin.teams.microsoft.com/phone-numbers" target="_blank">**Voice** > **電話数値**</a>に移動し、[**追加**] をクリックします。
+1. Microsoft Teams 管理センターを開き、グローバル管理者であるユーザー (通常は Microsoft 365 へのサインアップに使用したアカウント) でログインします。
+2. 左側のナビゲーションで、[ <a href="https://admin.teams.microsoft.com/phone-numbers" target="_blank">**音声** > **電話番号**</a>] に移動し、[ **追加**] をクリックします。
 3. 注文の名前を入力し、説明を追加します。
 4. [場所と数量] ページで、次の操作を行います。
     1. [ **国または地域]** で、国または地域を選択します。
@@ -53,7 +52,7 @@ ms.locfileid: "63053256"
 
     3. [ **数量]** で **[1**] を選択します。
         > [!NOTE]
-        > **この種類の数を要求するのに十分なライセンスがない** というメッセージが表示された場合は、プランの呼び出しバンドル ライセンスでTeams 電話を購入していることを確認してください。 詳細については、「 [小規模または中規模のビジネス向けの音声機能を取得するために購入する必要があるのは何ですか?](whats-business-voice.md)」を参照してください。
+        > **この種類の番号を要求するのに十分なライセンスがない** というメッセージが表示される場合は、プランの通話バンドル ライセンスを使用して Teams Phone を購入していることを確認してください。 詳細については、「 [小規模または中規模のビジネス向けの音声機能を取得するために購入する必要があるのは何ですか?](whats-business-voice.md)」を参照してください。
     4. 場所の都市を使用して電話番号を検索するか、特定の市外局番で番号を検索する場合に応じて、[ **場所** ] または [ **市外** 局番] を選択します。
     5. **[場所**] を選択した場合:
 
@@ -67,8 +66,8 @@ ms.locfileid: "63053256"
 
 ## <a name="set-up-phone-numbers-for-your-users"></a>ユーザーの電話番号を設定する
 
-1. Microsoft Teams管理センターを開き、グローバル管理者であるユーザーでログインします。これは通常、Microsoft 365にサインアップするために使用したアカウントです。
-2. 左側のナビゲーションで、<a href="https://admin.teams.microsoft.com/phone-numbers" target="_blank">**Voice** > **電話数値**</a>に移動し、[**追加**] をクリックします。
+1. Microsoft Teams 管理センターを開き、グローバル管理者であるユーザーでログインします。これは通常、Microsoft 365 へのサインアップに使用したアカウントです。
+2. 左側のナビゲーションで、[ <a href="https://admin.teams.microsoft.com/phone-numbers" target="_blank">**音声** > **電話番号**</a>] に移動し、[ **追加**] をクリックします。
 3. 注文の名前を入力し、説明を追加します。
 4. [場所と数量] ページで、次の操作を行います。
 

@@ -1,5 +1,5 @@
 ---
-title: 'Teams電話システムダイレクト ルーティング: 定義と RFC 標準'
+title: 'Teams の電話システムダイレクト ルーティング: 定義と RFC 標準'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -8,34 +8,33 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 ms.reviewer: nmurav
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: システム ダイレクト ルーティングMicrosoft 電話 RFC 標準プロトコルを実装する方法。
+description: Microsoft Phone System Direct Routing が RFC 標準プロトコルを実装する方法。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26178fa52105f43ce9f7f18c0058a2ead3ef1c02
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 01dbd61748d14ef21a600b2e4f44a306517e46d9
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235342"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271242"
 ---
 # <a name="direct-routing---definitions-and-rfc-standards"></a>ダイレクト ルーティング - 定義と RFC 標準
 
-この記事では、システム ダイレクト ルーティングMicrosoft 電話 RFC 標準プロトコルを実装する方法について説明します。 この記事は、オンプレミス のセッション ボーダー コントローラー (SBC) とセッション開始プロトコル (SIP) プロキシ サービスの間の接続を構成する役割を担う音声管理者を対象としています。
+この記事では、Microsoft Phone System Direct Routing が RFC 標準プロトコルを実装する方法について説明します。 この記事は、オンプレミス のセッション ボーダー コントローラー (SBC) とセッション開始プロトコル (SIP) プロキシ サービスの間の接続を構成する役割を担う音声管理者を対象としています。
 
-お客様の SBC は、Microsoft Teams バックエンドで次のコンポーネントとインターフェイスします。 
+お客様の SBC は、Microsoft Teams バックエンドの次のコンポーネントとインターフェイスします。 
 
 - シグナリング用の **SIP プロキシ**。 これは、SBC とダイレクト ルーティング間の SIP (TLS) 接続を処理するダイレクト ルーティングのインターネットに接続するコンポーネントです。
 
 - **メディアのメディア プロセッサ** 。 これは、メディア トラフィックを処理するダイレクト ルーティングのインターネットに接続するコンポーネントです。 このコンポーネントでは、SRTP プロトコルと SRTCP プロトコルを使用します。
 
 
-ダイレクト ルーティングの詳細については、「ダイレクト ルーティング[の電話システム」を](direct-routing-landing-page.md)参照してください。
+ダイレクト ルーティングの詳細については、「 [電話システムダイレクト ルーティング」を](direct-routing-landing-page.md)参照してください。
 
 ダイレクト ルーティングで SIP プロトコルを実装する方法の詳細については、「 [ダイレクト ルーティング - SIP プロトコル」を](direct-routing-protocols-sip.md)参照してください。
 
@@ -86,11 +85,11 @@ ms.locfileid: "58235342"
 
 ダイレクト ルーティングには、次の 2 つの操作モードがあります。
 
-- すべての RTP トラフィックが、Teams クライアント、メディア プロセッサ、および SBC の間をフローするメディア **バイパスなし**。  
+- すべての RTP トラフィックが Teams クライアント、メディア プロセッサ、および SBC 間をフローするメディア **バイパスなし**。  
 
-- すべての RTP メディアがTeams エンドポイントと SBC の間を流れる **メディア バイパス**。 
+- すべての RTP メディアが Teams エンドポイントと SBC の間を流れる **メディア バイパス**。 
 
 SIP トラフィックは常に SIP プロキシ経由でフローされることに注意してください。 
 
-## <a name="dtmf"></a>DTMF
+## <a name="dtmf"></a>Dtmf
 インバンド DTMF は、メディア スタックではサポートされていません。

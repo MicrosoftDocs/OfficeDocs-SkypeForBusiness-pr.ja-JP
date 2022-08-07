@@ -14,13 +14,14 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- Teams_ITAdmin_Rooms
 description: この記事では、次世代の Skype ミーティング システムである Microsoft Teams Rooms の展開に関連した計画時の考慮事項について説明します。
-ms.openlocfilehash: 392a14e3a72d60903db88b34d9b72152e1a8ec81
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: fe973e7e6f3f6d84a4ddf1721ccc8c73fb5da928
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761369"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269752"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Microsoft Teams Rooms を計画する
 
@@ -48,7 +49,7 @@ Microsoft Teams Rooms には、優れたユーザー エクスペリエンスを
 
 これらのコンポーネントは、多数のベンダーからプリインストールされたバンドルとして購入できます。または、この記事に記載されている[要件](requirements.md)に従って、サポートされているコンポーネントを個別に購入できます。
 
-Microsoft TeamsまたはSkype for Businessのオンプレミス展開でMicrosoft Teams Roomsをデプロイできます。  必要なライセンスの詳細については、「[Teams の会議室ライセンスの更新](rooms-licensing.md)」を参照してください。
+Microsoft Teams を使用してMicrosoft Teams Roomsを展開することも、オンプレミスの展開Skype for Businessすることもできます。  必要なライセンスの詳細については、「[Teams の会議室ライセンスの更新](rooms-licensing.md)」を参照してください。
 
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
@@ -122,7 +123,7 @@ _お客様の組織に適した Microsoft Teams Rooms の展開テンプレー�
 | 中 18' x 20'  | 6&ndash;12       |                              |                    |                 |
 | 大 15' x 32'   | 12&ndash;16      |                              |                    |                 |
 
-**Proヒント –** 選択したMicrosoft Teams Rooms ソリューションに関する情報の収集を開始する絶好の機会です。
+**Pro ヒント –** これで、選択したMicrosoft Teams Rooms ソリューションに関する情報の収集を開始できます。
 
 ## <a name="procurement"></a>調達
 

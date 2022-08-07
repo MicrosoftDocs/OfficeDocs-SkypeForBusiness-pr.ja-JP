@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365での電話会議
+title: Microsoft 365 の電話会議
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -11,7 +11,6 @@ ms.service: msteams
 ms.collection:
 - M365-voice
 - M365-collaboration
-- m365initiative-meetings
 search.appverid: MET150
 audience: admin
 appliesto:
@@ -24,17 +23,17 @@ ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.overview
 - seo-marvel-apr2020
-description: Microsoft 365またはOffice 365での電話会議で、ユーザーが自分の携帯電話から会議を呼び出す方法について説明します。
-ms.openlocfilehash: b75d7c7fe50d658390a760b998a49a02ba2a0e84
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+description: Microsoft 365 またはOffice 365の電話会議で、ユーザーが自分の電話から会議に通話できるようにする方法について説明します。
+ms.openlocfilehash: 1a8ed17474bc3fbcf2a9f227be4010df70d6da64
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055677"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272032"
 ---
-# <a name="audio-conferencing-in-microsoft-365"></a>Microsoft 365での電話会議
+# <a name="audio-conferencing-in-microsoft-365"></a>Microsoft 365 の電話会議
 
-Microsoft 365とOffice 365の電話会議を使用すると、ユーザーは自分の電話から会議に通話できます。 電話会議では、最大 1,000 人の電話出席者が可能です。
+Microsoft 365 とOffice 365の電話会議を使用すると、ユーザーは自分の電話から会議に通話できます。 電話会議では、最大 1,000 人の電話出席者が可能です。
 
 ## <a name="what-is-audio-conferencing"></a>電話会議とは?
 
@@ -76,7 +75,7 @@ Skype for Business または Microsoft Teams 用の電話会議を設定して�
   
  **専用電話番号** とは、組織内のユーザーだけが使用できる電話番号のことです。 誰かがこれらの番号のいずれかに電話をかけるときに使用する言語を変更できます。 これらのサービスの電話番号を取得する必要があります。
   
- **共有電話番号** は、他のMicrosoft 365またはOffice 365s と共有できる電話番号です。 誰かがこれらの番号のいずれかに通話するときに使用する言語は変更できません。
+ **共有電話番号** は、他の Microsoft 365 または Office 365 と共有できる電話番号です。 誰かがこれらの番号のいずれかに通話するときに使用する言語は変更できません。
   
 開催者に割り当てられる既定の電話会議番号は会議の招待状にのみ含まれるため、発信者は会議ブリッジに割り当てられた任意の電話番号を使用して、会議に参加できます。 会議に参加するために使用する電話番号の一覧はそれぞれの会議の招待状に含まれる [ **電話番号の検索**] リンクを使用して利用できます。
 
@@ -100,7 +99,7 @@ Skype for Business または Microsoft Teams 用の電話会議を設定して�
 
 - **Skype for Business 管理センターを使用する。** いくつかの国/地域では、Skype for Business 管理センターを使用して、会議ブリッジ用の番号を取得できます。 「[サービス電話番号の取得](./getting-service-phone-numbers.md)」を参照してください。
 
-- **既存の番号を移行する。** 現在のサービス プロバイダーまたは電話会社から、Microsoft 365またはOffice 365に既存の番号を移植または転送できます。 この方法の詳細については、「[Teams に電話番号を移行](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)」または「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)」を参照してください。  
+- **既存の番号を移行する。** 現在のサービス プロバイダーまたは電話会社から Microsoft 365 または Office 365に既存の番号を移植または転送できます。 この方法の詳細については、「[Teams に電話番号を移行](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)」または「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)」を参照してください。  
   
 - **新しい番号には申請書を使用します。** 国または地域によっては Skype for Business 管理センターを使用して新しい電話番号を取得することが出来ない場合があります。または、特定の電話番号またはエリアコードが必要です。 その場合は、申請書をダウンロードして送信する必要があります。 詳細については「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 」を参照してください。
 

@@ -10,7 +10,7 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
+- m365initiative-securecollab
 f1.keywords:
 - NOCSH
 appliesto:
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams でプライベート チャネルを使用および管理する方法について説明します。
-ms.openlocfilehash: 775019bc0151215557e7b0962619c4fe8fb8fe85
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: 912a9f7f9330bcc8da167c7435048d1ec8c28284
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817828"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269882"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams のプライベート チャネル
 
@@ -77,10 +77,10 @@ Microsoft Teams のプライベート チャネルは、チーム内でのコラ
 |アクション  |チーム所有者|チーム メンバー|チームのゲスト|プライベート チャネルの所有者|プライベート チャネル メンバー|プライベート チャネルのゲスト|
 |---------|---------|---------|---------|---------|---------|---------|
 |プライベート チャネルを作成する|管理者による制御|管理者とチームの所有者の制御|いいえ|該当なし|該当なし|該当なし|
-|プライベート チャネルを削除する|はい|いいえ|いいえ|はい|いいえ|いいえ|
+|プライベート チャネルを削除する|はい|いいえ|いいえ|Yes|いいえ|いいえ|
 |プライベート チャネルを脱退する|該当なし|該当なし|該当なし|[はい]-最後の所有者でない場合|はい|Yes|
 |プライベート チャネルを編集する|いいえ|該当なし|該当なし|はい|いいえ|いいえ|
-|削除されたプライベート チャネルを復元する|はい|いいえ|いいえ|はい|いいえ|いいえ|
+|削除されたプライベート チャネルを復元する|はい|いいえ|いいえ|Yes|いいえ|いいえ|
 |メンバーを追加する|いいえ|該当なし|該当なし|はい|いいえ|いいえ|
 |編集を設定する|いいえ|該当なし|該当なし|はい|いいえ|いいえ|
 |タブとアプリを管理する|いいえ|該当なし|該当なし|はい、アプリがチームにインストールされている必要があります|チャンネルの所有者の制御|いいえ|

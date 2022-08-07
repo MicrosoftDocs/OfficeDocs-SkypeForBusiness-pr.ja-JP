@@ -8,32 +8,31 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- SPO_Content
 ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
-description: Microsoft Purview コンプライアンス ポータルでコンテンツ検索を使用して、Exchange Online、SharePoint Online、OneDrive for Business、OneNoteに格納されているMicrosoft Teams コンテンツを検索する方法について説明します。
+description: Microsoft Purview コンプライアンス ポータルでコンテンツ検索を使用して、Exchange Online、SharePoint Online、OneDrive for Business、OneNote に格納されている Microsoft Teams コンテンツを検索する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 88f44bffaa3bf2dc125dad5f2d7595d08f49bffd
-ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
+ms.openlocfilehash: a069478dc65fcafb5e1354796360c994aa2f0d36
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2022
-ms.locfileid: "65031862"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267442"
 ---
-# <a name="use-content-search-in-microsoft-teams"></a>Microsoft Teamsでコンテンツ検索を使用する
+# <a name="use-content-search-in-microsoft-teams"></a>Microsoft Teams でコンテンツ検索を使用する
 
 > [!NOTE]
 > [プライベート チャネル](private-channels.md)内のメッセージとファイルのコンテンツ検索は、標準チャネルとは異なります。 詳細については、「 [プライベート チャネルのコンテンツ検索](#content-search-of-private-channels)」を参照してください。
 
-コンテンツ検索は、Exchange、SharePoint Online、およびOneDrive for BusinessにまたがるMicrosoft Teams情報にクエリを実行する方法を提供します。
+コンテンツ検索は、Exchange、SharePoint Online、およびOneDrive for Businessに及ぶ Microsoft Teams 情報に対してクエリを実行する方法を提供します。
 
-詳細については、[Microsoft 365のコンテンツ検索に関](/microsoft-365/compliance/content-search)するページを参照してください。
+詳細については、 [Microsoft 365 のコンテンツ検索に関するページを](/microsoft-365/compliance/content-search)参照してください。
 
-たとえば、製造仕様メールボックスと製造スペック SharePoint サイトに対する **コンテンツ検索** を使用すると、Exchangeからの標準チャネル会話Teams、SharePoint Online からのファイルのアップロードと変更、および変更OneNoteを検索できます。
+たとえば、製造仕様メールボックスと製造仕様 SharePoint サイトに対する **コンテンツ検索** を使用すると、Exchange からの Teams 標準チャネル会話、SharePoint Online からのファイルのアップロードと変更、および OneNote の変更に対して検索できます。
 
 **コンテンツ検索** にクエリ条件を追加して、返された結果を絞り込むこともできます。 上の例では、キーワード "**New Factory Specs"** が使用されたコンテンツを探すことができます。
 
@@ -44,22 +43,22 @@ ms.locfileid: "65031862"
 
 プライベート チャネルで送信されたメッセージのレコードは、グループのメールボックスではなく、すべてのプライベート チャネル メンバーのメールボックスに配信されます。 レコードのタイトルは、送信元のプライベート チャネルが示されるように書式設定されています。
 
-各プライベート チャネルには、親チーム サイトとは別の独自のSharePoint サイト コレクションがあるため、プライベート チャネル内のファイルは親チームとは独立して管理されます。
+各プライベート チャネルには、親チーム サイトとは別の独自の SharePoint サイト コレクションがあるため、プライベート チャネル内のファイルは親チームとは独立して管理されます。
 
-Teamsは 1 つのチャネルのコンテンツ検索をサポートしていないため、チーム全体を検索する必要があります。 プライベート チャネルのコンテンツ検索を実行するには、チーム全体、プライベート チャネルに関連付けられているサイト コレクション (ファイルを含む)、プライベート チャネル メンバーのメールボックス (メッセージを含む) を検索します。
+Teams は 1 つのチャネルのコンテンツ検索をサポートしていないため、チーム全体を検索する必要があります。 プライベート チャネルのコンテンツ検索を実行するには、チーム全体、プライベート チャネルに関連付けられているサイト コレクション (ファイルを含む)、プライベート チャネル メンバーのメールボックス (メッセージを含む) を検索します。
 
 次の手順を使用して、コンテンツ検索に含めるプライベート チャネル内のファイルとメッセージを識別します。
 
 ### <a name="include-private-channel-files-in-a-content-search"></a>コンテンツ検索にプライベート チャネル ファイルを含める
 
-これらの手順を実行する前に、[SharePoint Online Management Shell をインストールし、SharePoint Online に接続](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)します。
+これらの手順を実行する前に、 [SharePoint Online 管理シェルをインストールし、SharePoint Online に接続します](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)。
 
-1. 次を実行して、チーム内のプライベート チャネルに関連付けられているすべてのSharePoint サイト コレクションの一覧を取得します。
+1. 次を実行して、チーム内のプライベート チャネルに関連付けられているすべての SharePoint サイト コレクションの一覧を取得します。
 
     ```PowerShell
     Get-SPOSite
     ```
-2. 次の PowerShell スクリプトを実行して、チーム内のプライベート チャネルと親チーム グループ ID に関連付けられているすべてのSharePoint サイト コレクション URL の一覧を取得します。
+2. 次の PowerShell スクリプトを実行して、チーム内のプライベート チャネルと親チーム グループ ID に関連付けられているすべての SharePoint サイト コレクション URL の一覧を取得します。
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
@@ -75,7 +74,7 @@ Teamsは 1 つのチャネルのコンテンツ検索をサポートしていな
 
 ### <a name="include-private-channel-messages-in-a-content-search"></a>コンテンツ検索にプライベート チャネル メッセージを含める
 
-これらの手順を実行する前に、[Teams PowerShell モジュールの最新バージョンが](teams-powershell-overview.md)インストールされていることを確認してください。
+これらの手順を実行する前に、 [Teams PowerShell モジュールの最新バージョンが](teams-powershell-overview.md) インストールされていることを確認してください。
 
 1. 次を実行して、チーム内のプライベート チャネルの一覧を取得します。
 

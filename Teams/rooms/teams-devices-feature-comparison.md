@@ -11,21 +11,19 @@ search.appverid: MET150
 ms.reviewer: ''
 description: Windows と Android の間の共有スペース機能について Teams デバイスを比較するガイド。
 ms.collection:
-- M365-voice
 - M365-collaboration
-- skype-for-business-itpro
-- skype-for-business-online
+- Teams_ITAdmin_Rooms
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c7b61ebcc5fa650e7282b48d45862b2649783af7
-ms.sourcegitcommit: 2871c05e00458a0cc76d919ff822b0b354bd1f72
+ms.openlocfilehash: 4f9c4cf77b544e731e143f245a30e710417bebca
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66810169"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272372"
 ---
 # <a name="teams-devices-for-shared-spaces-feature-comparison-between-windows-and-android"></a>共有スペース用の Teams デバイスの Windows と Android の機能の比較 
 Microsoft Teams Roomsエクスペリエンスは、顧客を念頭に置いて設計されています。 すべてのお客様に固有のニーズがあります。そのため、Microsoft は Windows や Android のTeams Roomsを含む幅広いオプションを提供しています。 

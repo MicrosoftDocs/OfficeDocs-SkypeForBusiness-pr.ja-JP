@@ -10,24 +10,25 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: '組織の緊急対応の場所を追加、変更、または削除する方法について説明します。 '
+description: 組織の緊急対応の場所を追加、変更、または削除する方法について説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4d9c7c56b4e2b2fd14f703d51b4c07cfc173dfa3
-ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
+ms.openlocfilehash: bcbe811ecdb7ac9377e4798a2cdcb7334188aa1e
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60634856"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267602"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>組織の緊急対応の場所を追加、変更、削除する
 
-[PSTN 接続オプション](pstn-connectivity.md)に関係なく、&mdash;Microsoft 通話プラン、オペレーター接続、またはダイレクト ルーティング&mdash;の場所を電話番号に関連付けることができます。
+[PSTN 接続オプション](pstn-connectivity.md)に関係なく、Microsoft 通話プラン、オペレーター接続、またはダイレクト ルーティング&mdash;の緊急の場所を電話番号&mdash;に関連付けることができます。
 
 ただし、PSTN 接続オプションによっては、緊急対応の場所と場所の要件を管理する方法が異なる場合があります。 詳細については、「 [緊急通話の管理](what-are-emergency-locations-addresses-and-call-routing.md)」を参照してください。
 
@@ -35,7 +36,7 @@ ms.locfileid: "60634856"
 
 この記事は、Microsoft 通話プラン、オペレーター接続、およびダイレクト ルーティングに適用されます。
 
-組織の緊急対応の場所は、Microsoft Teams管理センターまたは PowerShell を使用して管理します。
+Microsoft Teams 管理センターまたは PowerShell を使用して、組織の緊急対応の場所を管理します。
 
 緊急対応の場所を割り当てるには、ユーザー、電話番号、および緊急の場所がすべて同じ国にある必要があります。 詳細については、「ユーザーの [緊急対応の場所の割り当てまたは変更」を参照してください](assign-change-emergency-location-user.md)。
   
@@ -43,13 +44,13 @@ ms.locfileid: "60634856"
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
 
-1. Microsoft Teams管理センターの左側のナビゲーションで、[**LocationsEmergency アドレス****]** >  をクリックします。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、[場所の **緊急アドレス****]** >  をクリックします。
 2. **[追加]** をクリックします。
 3. 場所の名前と説明を入力します。
 4. 国または地域を選択し、住所を入力します。
 
    > [!NOTE]
-   > ベルギー、フランス、ドイツ、アイルランド、オランダ、スペインでは、Microsoft 365で電話番号を正常にアクティブ化するには、電話番号の取得に使用される緊急対応の場所に設定された住所が電話番号の市外局番と一致する必要があることを理解することが重要です。
+   > ベルギー、フランス、ドイツ、アイルランド、オランダ、スペインでは、Microsoft 365 で電話番号を正常にアクティブ化するには、電話番号の取得に使用される緊急対応の場所に設定された住所が電話番号の市外局番と一致する必要があることを理解することが重要です。
 
 5. アドレスが見つからない場合に、アドレスを手動で編集する場合は、[アドレス **を手動で編集] を** オンにします。
 6. **[保存]** をクリックします。
@@ -62,7 +63,7 @@ ms.locfileid: "60634856"
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
 
-1. Microsoft Teams管理センターの左側のナビゲーションで、[**LocationsEmergency アドレス****]** >  をクリックします。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、[場所の **緊急アドレス****]** >  をクリックします。
 2. 一覧で、変更する場所を選択し、[編集] をクリック **します**。
 3. 必要な変更を加えます。
 4. **[保存]** をクリックします。
@@ -78,7 +79,7 @@ ms.locfileid: "60634856"
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
 
-1. Microsoft Teams管理センターの左側のナビゲーションで、[**LocationsEmergency アドレス****]** >  をクリックします。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、[場所の **緊急アドレス****]** >  をクリックします。
 2. 一覧で、削除する場所を選択し、[削除] をクリック **します**。
 
 ### <a name="using-powershell"></a>PowerShell の使用

@@ -16,12 +16,14 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 46fc7550e5ee1e29b603d4124ffc5d6fe9b45951
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.collection:
+- M365-voice
+ms.openlocfilehash: 541bf822e357d1d679b377a5f5de130729eb9acd
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789552"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269022"
 ---
 # <a name="steering-committee"></a>運営委員会
 
@@ -166,7 +168,7 @@ ms.locfileid: "66789552"
 
 7.  作成したプレゼンテーションを含む出席者のフォローアップメールを送信し、撮影したメモを追加します。 出席しなかったユーザーは必ず含めます。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 運営委員会の概要を確認したら、今度は行動する時間です。プロジェクト チームは、プロジェクトのタイムラインに運営委員会を実装し、定期的な運営委員会会議の開催を準備する作業を開始する必要があります。 理想的には、プロジェクトが開始される前に委員会が形成され、すべてのフェーズを通じてガイダンスが提供されますが、それができない場合は、プロジェクト チームを成功に導く委員会を形成します。
 

@@ -15,12 +15,14 @@ description: 主要な利害関係者、ビジネス成果、成功の対策、�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 589294402d093afef8686dd7a376f0d88d7025cb
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: f9ed4b0a2ac694b13054818f53bcf64a628d4dd3
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562376"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268788"
 ---
 # <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Microsoft Teams の変更管理戦略を作成する
 
@@ -149,4 +151,4 @@ Microsoft Teams の使用状況レポートの詳細については、Microsoft 
 
 組織内での変更を推進することは、継続的なアクティビティであり、単発のイベントではありません。 キックオフ ミーティングは、ユーザーがより効果的に共同作業できるようなるための単なる開始地点です。 成功を強調し、新機能を導入し、IT 部門が作成する Microsoft 365 またはOffice 365サービス戦略全体に接続する、この取り組みの瞬間を計画することが重要です。 自分の組織のユーザーが受け身ではなく積極的に関与しているようにすることで、それらのユーザーは、変更での負担が軽減されるとともに、添付ファイルをメールで送信するような旧来の習慣を止めてクラウドでドキュメントを保管するような新しい機能を活用できるように導かれることになります。
 
-Teams と Microsoft 365 のサービス導入またはOffice 365に関する質問を、Microsoft Technical Community サイトの [Driving Adoption コミュニティ](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption)で共有します。 お客様の導入について、お客様からご意見をいただくことや、お客様にサポートを提供することができるよう、常に準備を整えております。
+Teams と Microsoft 365 または Office 365のサービス導入に関する質問を、Microsoft Technical Community サイトの [Driving Adoption コミュニティ](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption)で共有します。 お客様の導入について、お客様からご意見をいただくことや、お客様にサポートを提供することができるよう、常に準備を整えております。

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams会議で電話番号をマスクする
+title: Microsoft Teams 会議で電話番号をマスクする
 author: heidip
 ms.author: MicrosoftHeidi
 manager: serdars
@@ -10,24 +10,23 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Microsoft Teams会議で電話番号をマスクする方法について説明します
-ms.openlocfilehash: a40f1a7144298c6106183eb45fe80a8958227b1a
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+description: Microsoft Teams 会議で電話番号をマスクする方法について説明します
+ms.openlocfilehash: e1ef25f12bdf92bc58739284af2a624257169403
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055097"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270822"
 ---
-# <a name="mask-phone-numbers-in-microsoft-teams-meetings"></a>Microsoft Teams会議で電話番号をマスクする
+# <a name="mask-phone-numbers-in-microsoft-teams-meetings"></a>Microsoft Teams 会議で電話番号をマスクする
 
-プライバシーを強化するために、電話会議を使用してTeams会議にダイヤルインする参加者の電話番号は、内部参加者に完全に表示されます。 番号は、組織外の参加者からマスクされます。 この設定は、すべての組織の既定値です。 マスクされた番号は、次の図に示すように表示されます。
+プライバシーを強化するために、電話会議を使用して Teams 会議にダイヤルインする参加者の電話番号は、内部参加者に完全に表示されます。 番号は、組織外の参加者からマスクされます。 この設定は、すべての組織の既定値です。 マスクされた番号は、次の図に示すように表示されます。
 
 ![マスクされた電話番号の例。](media/hiddenPhoneNum.png)
 
@@ -35,7 +34,7 @@ ms.locfileid: "62055097"
 
 - 電話番号は外部参加者からのみマスクされます。 会議の開催者のテナントに属している参加者には、完全な電話番号が引き続き表示されます。
 - 電話番号は、開催者を除く会議の全員からマスクされます。
-- 電話番号はマスク解除されるため、会議のすべてのユーザーに表示されます。
+- 電話番号のマスクが解除され、会議の全員に表示されます。
 
 この設定は、電話番号が公開されている会議のすべてのサーフェイスに適用されます。
 

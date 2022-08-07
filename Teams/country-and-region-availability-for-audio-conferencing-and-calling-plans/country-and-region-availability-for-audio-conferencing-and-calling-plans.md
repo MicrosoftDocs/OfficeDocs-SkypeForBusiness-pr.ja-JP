@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 電話会議、電話システム、通話プラン、通信クレジット、有料電話番号とフリーダイヤル電話番号が国または地域で利用可能かどうかを確認します。
-ms.openlocfilehash: 7693ae0421d186d1ac230d48bf4df2369aa4e3f8
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: 0bc0013f27e890e56224dcc1c645afbaf94b699a
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682466"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269182"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>国および地域ごとの電話会議および通話プランの利用可能性
 
@@ -205,6 +205,11 @@ Skype for Businessサービスまたは Microsoft Teams サービスのいずれ
 ページの上部にあるドロップダウン リストを使用して、国または地域を検索し、どのサービスを利用できるかを確認します。
 
 ### <a name="calling-plans"></a>通話プラン
+
+|機能     |詳細  |
+|----------|-----------|
+|通話プランは購入できますか?  |はい          |   
+|通話プランで利用できる分数。    |1 暦月あたり 5 つのプラン オプションを使用できます。 <ul><li>従量課金制通話プラン </li><li> 120 分国内通話プラン </li><li> 240 分国内通話プラン </li><li> 1200 分国内通話プラン </li><li> 国際通話プラン: 国内通話の 1200 分または国際通話の 600 分 (暦月の最初に到達した方)</li></ul>|
 
 電話システムとともに通話プランを利用することで、ユーザーは通話を発信したり着信したりすることができるようになります。 まず、ユーザーに割り当てるユーザー (サブスクライバー) の電話番号 (サービス番号ではなく) を取得してから、通話プランを割り当てます。 通話プランには、 **国内** と **国際** の 2 種類があります。 詳細については、「[電話システムと通話プラン](../calling-plan-landing-page.md)」を参照してください。
 

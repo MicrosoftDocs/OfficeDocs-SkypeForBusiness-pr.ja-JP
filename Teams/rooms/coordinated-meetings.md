@@ -9,16 +9,17 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 一方のデバイスまたは他のデバイスが会議に参加するときに会議に参加するように、Teams Rooms デバイスと Surface Hub を構成します。
-ms.openlocfilehash: 1f249e9bd0321c9e8afd984aca90f902ad80d444
-ms.sourcegitcommit: 644374fcad6372494e87d729de690af4c060f635
+ms.openlocfilehash: f34e3637c9c9716c6f8ec87865c3c570820a0357
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "67054938"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270482"
 ---
 # <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>Microsoft Teams Roomsと Surface Hub を使用して座標会議を設定する
 

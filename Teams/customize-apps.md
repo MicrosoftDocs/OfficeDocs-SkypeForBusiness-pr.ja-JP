@@ -10,7 +10,6 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 f1.keywords:
 - NOCSH
 appliesto:
@@ -18,12 +17,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: アプリの詳細とメタデータを編集して、アプリの外観を変更し、アプリのブランドを変更する方法について説明します。
-ms.openlocfilehash: 21ab770aba8281cfd602ef4eab21853ac1498b6b
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: 32c526e2cbbb4ef464e0daa777228e0a17dd391b
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175691"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269082"
 ---
 # <a name="customize-appearance-of-apps-in-your-organizations-teams-store"></a>組織の Teams ストア内のアプリの外観をカスタマイズする
 

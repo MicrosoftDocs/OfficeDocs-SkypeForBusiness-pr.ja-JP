@@ -1,5 +1,5 @@
 ---
-title: Android デバイスの共有デバイス管理をMicrosoft Teamsするための認証のベスト プラクティス。
+title: Microsoft Teams の Android デバイスの共有デバイス管理に関する認証のベスト プラクティス。
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -9,71 +9,70 @@ audience: ITPro
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
-description: Teamsでの共有 Android デバイス管理に関するベスト プラクティス。 条件付きアクセス、パスワード ポリシー、多要素認証のアドバイスなどが機能します。
+description: Teams での共有 Android デバイス管理に関するベスト プラクティス。 条件付きアクセス、パスワード ポリシー、多要素認証のアドバイスなどが機能します。
 ms.collection:
 - M365-voice
 - M365-collaboration
-- skype-for-business-itpro
-- skype-for-business-online
+- Teams_ITAdmin_Devices
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6eef76052f662b26f946bf80839a62186c287b68
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: 0f658a70235440563d7cb3910830c56923b60f3e
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635465"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270102"
 ---
-# <a name="authentication-best-practices-for-teams-shared-device-management-on-android-devices"></a>Android デバイスでの共有デバイス管理をTeamsするための認証のベスト プラクティス
+# <a name="authentication-best-practices-for-teams-shared-device-management-on-android-devices"></a>Android デバイスでの Teams 共有デバイス管理の認証のベスト プラクティス
 
-Teamsで使用されるデバイスの目標により、さまざまなデバイス管理戦略が必要になります。 たとえば、1 人の営業担当者が使用する個人用ビジネス Tablet PCには、多くの顧客サービス担当者が共有する電話とは異なる一連のニーズがあります。
+Teams で使用されるデバイスの目標により、さまざまなデバイス管理戦略が必要になります。 たとえば、1 人の営業担当者が使用する個人用ビジネス タブレットには、多くの顧客サービス担当者が共有する電話とは異なる一連のニーズがあります。
 
 セキュリティ管理者と運用チームは、組織内で使用できるデバイスを計画する必要があります。 各目的に最適な *セキュリティ* 対策を実装する必要があります。 この記事の推奨事項は、これらの決定の一部を容易にします。
 
 >[!NOTE]
->条件付きアクセスには、Azure Active Directory (Azure AD) プレミアムサブスクリプションが必要です。
+>条件付きアクセスには、Azure Active Directory (Azure AD) Premium サブスクリプションが必要です。
 
 >[!NOTE]
 >Android モバイル デバイスのポリシーは、Teams Android デバイスには適用されない場合があります。
 
 ## <a name="authentication-recommendations-are-different-for-personal-versus-shared-android-devices"></a>認証に関する推奨事項は、個人用デバイスと共有 Android デバイスでは異なります
 
-共有Teams デバイスは、個人のデバイスで使用される登録とコンプライアンスに同じ要件を使用することはできません。 個人用デバイス認証要件を共有デバイスに適用すると、サインインの問題が発生します。
+共有 Teams デバイスでは、個人用デバイスで使用されるのと同じ要件を登録とコンプライアンスに使用することはできません。 個人用デバイス認証要件を共有デバイスに適用すると、サインインの問題が発生します。
 
 1.  **デバイスは、パスワード ポリシーが原因でサインアウトされます。**
 
-Teams デバイスで使用されるアカウントには、パスワード有効期限ポリシーがあります。 共有デバイスで使用されるアカウントには、パスワードの有効期限が切れたときに、それらを更新して動作状態に復元する特定のユーザーがいません。 組織でパスワードの期限切れとリセットが必要な場合、Teams管理者がパスワードをリセットしてサインインするまで、これらのアカウントはTeamsデバイスでの作業を停止します。
+Teams デバイスで使用されるアカウントには、パスワード有効期限ポリシーがあります。 共有デバイスで使用されるアカウントには、パスワードの有効期限が切れたときに、それらを更新して動作状態に復元する特定のユーザーがいません。 組織でパスワードの期限切れとリセットが必要な場合、Teams 管理者がパスワードをリセットしてサインインし直すまで、これらのアカウントは Teams デバイスでの作業を停止します。
 
-**課題**: アクセスする場合。 デバイスからTeams、ユーザーのアカウントにはパスワード有効期限ポリシーがあります。 パスワードの有効期限が切れると、パスワードは単に変更されます。 ただし、 *共有デバイス* (リソース アカウント) で使用されるアカウントは、必要に応じてパスワードを変更できる 1 人のユーザーに接続できない場合があります。 つまり、パスワードは期限切れになり、その場でワーカーを残すことができます。作業を再開する方法がわかりません。
+**課題**: アクセスする場合。 デバイスの Teams、ユーザーのアカウントにはパスワード有効期限ポリシーがあります。 パスワードの有効期限が切れると、パスワードは単に変更されます。 ただし、 *共有デバイス* (リソース アカウント) で使用されるアカウントは、必要に応じてパスワードを変更できる 1 人のユーザーに接続できない場合があります。 つまり、パスワードは期限切れになり、その場でワーカーを残すことができます。作業を再開する方法がわかりません。
 
-組織でパスワードのリセットが必要な場合、またはパスワードの有効期限を強制する場合は、Teams管理者がパスワードをリセットして、これらの共有アカウントがサインインできるように準備されていることを確認します。
+組織でパスワードのリセットが必要な場合、またはパスワードの有効期限を適用する場合は、Teams 管理者がパスワードをリセットして、これらの共有アカウントがサインインできるように準備されていることを確認します。
 
 2.  **条件付きアクセス ポリシーが原因で、デバイスのサインインに失敗します。**
 
 **課題**: 共有デバイスは、ユーザー アカウントまたは個人用デバイスの Azure AD 条件付きアクセス ポリシーに準拠できません。 共有デバイスが条件付きアクセス ポリシーのユーザー アカウントまたは個人用デバイスでグループ化されている場合、サインインは *失敗* します。
 
-たとえば、Teamsにアクセスするために多要素認証が必要な場合、その認証を完了するにはコードのユーザー入力が必要です。 共有デバイスには、一般に、多要素認証を構成して完了できるユーザーは 1 人もいません。 また、アカウントが X 日ごとに再認証する必要がある場合、共有デバイスはユーザーの介入なしに課題を解決できません。
+たとえば、Teams にアクセスするために多要素認証が必要な場合、その認証を完了するにはコードのユーザー入力が必要です。 共有デバイスには、一般に、多要素認証を構成して完了できるユーザーは 1 人もいません。 また、アカウントが X 日ごとに再認証する必要がある場合、共有デバイスはユーザーの介入なしに課題を解決できません。
 
 多要素認証は、共有デバイスではサポートされていません。 代わりに使用するメソッドの概要を以下に示します。
 
-## <a name="best-practices-for-the-deployment-of-shared-android-devices-with-teams"></a>Teamsを使用した共有 Android デバイスの展開に関するベスト プラクティス
+## <a name="best-practices-for-the-deployment-of-shared-android-devices-with-teams"></a>Teams で共有 Android デバイスを展開するためのベスト プラクティス
 
-組織内のデバイスTeams展開する場合は、次の設定をお勧めします。
+Microsoft では、組織内に Teams デバイスを展開するときに、次の設定をお勧めします。
 
 ### <a name="use-a-resource-account-and-curtail-its-password-expiration"></a>**リソース アカウントを使用し、パスワードの有効期限を制限する**
 
-共有デバイスTeams、[Exchange リソース メールボックス](/exchange/recipients-in-exchange-online/manage-resource-mailboxes)を使用する必要があります。 これらのメールボックスを作成すると、アカウントが自動的に生成されます。 これらのアカウントは、Active Directory から Azure AD に同期することも、Azure AD で直接作成することもできます。 ユーザーのパスワード有効期限ポリシーは、Teams共有デバイスで使用されるアカウントにも適用されるため、パスワードの有効期限ポリシーによる中断を回避するために、共有デバイスのパスワード有効期限ポリシーを無期限に設定します。
+Teams 共有デバイスでは [、Exchange リソース メールボックス](/exchange/recipients-in-exchange-online/manage-resource-mailboxes)を使用する必要があります。 これらのメールボックスを作成すると、アカウントが自動的に生成されます。 これらのアカウントは、Active Directory から Azure AD に同期することも、Azure AD で直接作成することもできます。 ユーザーのパスワード有効期限ポリシーは、Teams 共有デバイスで使用されるアカウントにも適用されるため、パスワードの有効期限ポリシーによる中断を回避するために、共有デバイスのパスワード有効期限ポリシーを無期限に設定します。
 
-Teams デバイス CY21 [Update #1](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones) 以降 (Teams バージョン 1449/1.0.94.2021022403 for Teams phone) および CY2 AndroidのMicrosoft Teams Rooms用の[更新プログラム #2](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_Rooms_on_Android) (Teams バージョン 1449/1.0.96.2021051904)デバイスをリモートでTeamsします。 テナント管理者は、デバイスを設定するために技術者とパスワードを共有する代わりに、リモート サインインを使用して検証コードを発行する必要があります。 これらのデバイスのサインインは、Teams管理センターから行うことができます。
+Teams デバイス CY21 [Update #1](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones) (Teams Phone 用 Teams バージョン 1449/1.0.94.2021022403) と [CY2021 Update #2](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_Rooms_on_Android) (Teams バージョン 1449/1.0.96.2021051904 for Microsoft Teams Rooms on Android) 以降、テナント管理者は Teams デバイスにリモートでサインインできます。 テナント管理者は、デバイスを設定するために技術者とパスワードを共有する代わりに、リモート サインインを使用して検証コードを発行する必要があります。 これらのデバイスのサインインは、Teams 管理センターから行うことができます。
 
-詳細については、「[Teams Android デバイスのリモート プロビジョニングとサインイン](/MicrosoftTeams/devices/remote-provision-remote-login)」を参照してください。 
+詳細については、「 [Teams Android デバイスのリモート プロビジョニングとサインイン](/MicrosoftTeams/devices/remote-provision-remote-login)」を参照してください。 
 
 ### <a name="review-these-conditional-access-policies"></a>**条件付きアクセス ポリシーを確認する**
 
-Azure AD 条件付きアクセスは、サインインするためにデバイスが満たす必要がある追加の要件を設定します。 Teams デバイスについては、次のガイダンスを確認して、共有デバイス ユーザーが作業を行えるようにするポリシーを作成したかどうかを確認します。
+Azure AD 条件付きアクセスは、サインインするためにデバイスが満たす必要がある追加の要件を設定します。 Teams デバイスの場合は、次のガイダンスを確認して、共有デバイス ユーザーが作業を行えるようにするポリシーを作成したかどうかを確認します。
 
 > [!TIP]
 > 条件付きアクセスの概要については、「 [条件付きアクセスとは」](/azure/active-directory/conditional-access/overview)を参照してください。
@@ -94,7 +93,7 @@ Azure AD 条件付きアクセスは、サインインするためにデバイ�
 >[!NOTE]
 >デバイス コンプライアンスには、Intune ライセンスが必要です。
 
-共有デバイスをIntuneに登録する場合は、コンプライアンスに準拠しているデバイスのみが会社のリソースにアクセスできるように、条件付きアクセスのコントロールとしてデバイスコンプライアンスを構成できます。 Teamsデバイスは、デバイスコンプライアンスに基づいて条件付きアクセス ポリシー用に構成できます。 詳細については、「 [条件付きアクセス: 準拠またはハイブリッドの Azure AD 参加済みデバイスを必要とする](/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device)」を参照してください。
+共有デバイスをIntuneに登録する場合は、コンプライアンスに準拠しているデバイスのみが会社のリソースにアクセスできるように、条件付きアクセスのコントロールとしてデバイスコンプライアンスを構成できます。 Teams デバイスは、デバイスコンプライアンスに基づいて条件付きアクセス ポリシー用に構成できます。 詳細については、「 [条件付きアクセス: 準拠またはハイブリッドの Azure AD 参加済みデバイスを必要とする](/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device)」を参照してください。
 
 Intuneを使用してデバイスのコンプライアンス設定を設定するには、「[コンプライアンス ポリシーを使用して、Intuneで管理するデバイスのルールを設定](/intune/protect/device-compliance-get-started)する」を参照してください。
 

@@ -10,19 +10,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams Rooms の管理サービスについて説明します。
 f1keywords: ''
-ms.openlocfilehash: 432e09204ae157ece03b2dd0c1f4ac3336adec52
-ms.sourcegitcommit: de0233e51364b7730c4b307fd41a2166eda3c3fc
+ms.openlocfilehash: 322e67a0bc6e03db7960e64d2cd5e7a97b930dbc
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/26/2022
-ms.locfileid: "65741879"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269582"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Microsoft Teams Rooms の管理サービス
 
@@ -63,7 +63,7 @@ Microsoft Teams Rooms の管理サービスの概要を以下に示します。
 |**分析情報と推奨事項**     |お客様の健康状態、使用状況、使用率、および機器の信頼性に関する分析情報。         |
 |**コンプライアンスと認定**   |Microsoft オンライン サービスの該当するすべての基準を満たしています。         |
 |**カスタマー サポート**   |Microsoft Teams Rooms の管理サービス オペレーション センター (SOC) による 24 時間 365 日対応のチケット サポート お客様に代わって他の主要ベンダーにエスカレーションします (該当する場合)。 詳細については、[カスタマー サポート](#customer-support)を参照してください。|
-|**サポートされるデバイス**    |認定された Microsoft Teams Rooms のシステムとその周辺機器。<br>*Surface Hub 2021 年後半のサポート*        |
+|**サポートされるデバイス**    |認定された Microsoft Teams Rooms のシステムとその周辺機器。<br>*2021 年後半の Surface Hub サポート*        |
 |**サポートされる地域**    |[サポートされる地域](#supported-regions)を参照してください。        |
 |**統合**    |お客様がホストする ServiceNow との統合が可能です。         |
 

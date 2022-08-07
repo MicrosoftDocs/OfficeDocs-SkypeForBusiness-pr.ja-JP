@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: スペインで使用できるSkype for BusinessとMicrosoft TeamsのMicrosoft 365サービスとOffice 365 サービスを次に示します。
-ms.openlocfilehash: 08edc7b535c2d93b1979b58e0549893b7351f5d8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: スペインで利用できるSkype for Businessおよび Microsoft Teams の Microsoft 365 サービスとOffice 365 サービスを次に示します。
+ms.openlocfilehash: c404b05cc4c05e266024dc0b9dc2e3fb3cc96d38
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615363"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271382"
 ---
 # <a name="availability-in-spain"></a>スペインでの利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-スペインで使用できるSkype for BusinessとMicrosoft TeamsのMicrosoft 365サービスとOffice 365 サービスを次に示します。
+スペインで利用できるSkype for Businessおよび Microsoft Teams の Microsoft 365 サービスとOffice 365 サービスを次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -59,8 +59,8 @@ ms.locfileid: "58615363"
     
 |**機能**|**詳細**|
 |:-----|:-----|
-|通話プランは購入できますか?  <br/> |はい  <br/> |
-|通話プランで利用できる分数。 |カレンダー月には、次の 4 つのプラン オプションがあります。 <ul><li>120 分の国内通話プラン </li><li>240 分国内通話プラン</li></li><li>1200 分国内通話プラン </li></li><li>国内通話と国際通話プラン: 国内通話の 1200 分 -OR- 国際通話の 600 分 (暦月の最初に到達した方)</li></li> 
+|通話プランは購入できますか?  |はい          |   
+|通話プランで利用できる分数。    |1 暦月あたり 5 つのプラン オプションを使用できます。 <ul><li>従量課金制通話プラン </li><li> 120 分国内通話プラン </li><li> 240 分国内通話プラン </li><li> 1200 分国内通話プラン </li><li> 国際通話プラン: 国内通話の 1200 分または国際通話の 600 分 (暦月の最初に到達した方)</li></ul>|
 |プレミアム番号に対して発信通話を行うことはできますか? <br/> | 現時点ではサポートされていません。 <br/> |
 |発信できる相手先  <br/> | [これらの国を含む](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 の国に通話を発信できます。<br/> |
    

@@ -10,19 +10,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 環境からのスマートな推奨事項に基づいて標準を構築し、キュレーションします。
 f1keywords: ''
-ms.openlocfilehash: 978975bdd4ed02f248cf0a36d88109d2e281b8d4
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 05376b7c40131be54291961a7562faa6566e8e89
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711539"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271962"
 ---
 # <a name="standards-and-room-planner"></a>標準とルーム プランナー
 
@@ -45,13 +45,13 @@ ms.locfileid: "63711539"
 
 1. [ **MRT 標準の作成**] を選択し、標準の名前や説明などの一般的な詳細を指定します。
 
-   ![Standards Select ミーティング ルーム type のスクリーンショット](../media/standards-and-room-planner-002.png)
+   ![Standards Select Meeting Room type のスクリーンショット](../media/standards-and-room-planner-002.png)
 
 1. この標準の会議室の種類を選択します。
 
    ![Standards Select Recommended devices のスクリーンショット](../media/standards-and-room-planner-003.png)
 
-1. ハードウェアのインベントリで推奨されるTeams認定ルーム テンプレートから選択します。 一覧は、前の手順で選択した部屋の種類によって異なります。
+1. ハードウェアのインベントリで、推奨される Teams 認定ルーム テンプレートから選択します。 一覧は、前の手順で選択した部屋の種類によって異なります。
 
    ![標準 MTR の選択のスクリーンショット](../media/standards-and-room-planner-004.png)
 

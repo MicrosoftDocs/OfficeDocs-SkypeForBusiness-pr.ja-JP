@@ -10,52 +10,53 @@ ms.reviewer: kelsawi
 ms.collection:
 - M365-collaboration
 - m365initiative-deployteams
+- Teams_ITAdmin_Devices
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.managedevices.overview
 - ms.teamsadmincenter.devicemanagement.overview
-description: 組織内のTeamsで使用されるデバイスを管理する方法について説明します。
+description: 組織内の Teams で使用されるデバイスを管理する方法について説明します。
 ms.localizationpriority: medium
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 576c22d95dbbbb16105eb8e365c717ba7140cfb8
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: 5dc65025ed255dff1685f7aa30a555facdd3f11c
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65767243"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270842"
 ---
 # <a name="microsoft-teams-managing-your-devices"></a>Microsoft Teams: デバイスの管理 
 
-組織内のMicrosoft Teamsで使用されるデバイスは、Microsoft Teams管理センターから管理できます。 組織のデバイス インベントリを表示および管理し、デバイスの診断の更新、再起動、監視などのタスクを実行できます。 構成プロファイルを作成して、デバイスまたはデバイスのグループに割り当てることもできます。
+組織内の Microsoft Teams で使用されるデバイスは、Microsoft Teams 管理センターから管理できます。 組織のデバイス インベントリを表示および管理し、デバイスの診断の更新、再起動、監視などのタスクを実行できます。 構成プロファイルを作成して、デバイスまたはデバイスのグループに割り当てることもできます。
 
-デバイスの構成の変更、デバイスの再起動、更新プログラムの管理、デバイスと周辺機器の正常性の表示などのデバイスを管理するには、次のいずれかのMicrosoft 365管理者ロールを割り当てる必要があります。
+デバイスの構成の変更、デバイスの再起動、更新プログラムの管理、デバイスと周辺機器の正常性の表示などのデバイスを管理するには、次のいずれかの Microsoft 365 管理者ロールを割り当てる必要があります。
 
-- Microsoft 365 グローバル管理者
+- Microsoft 365 Global admin
 - Teams サービス管理者
 - Teams デバイス管理者
 
-Teamsの管理者ロールの詳細については、「[Teams管理者ロールを使用してTeamsを管理する」を](../using-admin-roles.md)参照してください。
+Teams の管理者ロールの詳細については、「 [Teams 管理者ロールを使用して Teams を管理する」を参照してください](../using-admin-roles.md)。
 
 ## <a name="what-devices-can-you-manage"></a>管理できるデバイスは何ですか?
 
-Teamsに対して認定され、登録されている任意のデバイスを管理できます。 ユーザーがデバイスのTeamsに初めてサインインすると、デバイスが自動的に登録されます。 管理できる認定済みデバイスの一覧については、次を参照してください。
+Teams に対して認定され、登録されている任意のデバイスを管理できます。 ユーザーがデバイス上の Teams に初めてサインインすると、デバイスが自動的に登録されます。 管理できる認定済みデバイスの一覧については、次を参照してください。
 
 - [Microsoft Teams ルーム](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices/devices/category?devicetype=20)
 - [電話会議の電話](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=73)
 - [デスクフォン](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=34)
-- [Teams表示](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices/devices/category?devicetype=34)
+- [Teams の表示](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices/devices/category?devicetype=34)
 - [Teams パネル](teams-panels.md)
 
-デバイスを管理するには、[Microsoft Teams管理センター](https://admin.teams.microsoft.com)の左側のナビゲーションで **、[Teams デバイス**] に移動し、デバイスの種類を選択します。 デバイスの種類ごとに独自のセクションがあり、個別に管理できます。
+デバイスを管理するには、 [Microsoft Teams 管理センター](https://admin.teams.microsoft.com)の左側のナビゲーションで Teams **デバイス** に移動し、デバイスの種類を選択します。 デバイスの種類ごとに独自のセクションがあり、個別に管理できます。
 
 ## <a name="manage-teams-rooms-on-windows-devices"></a>Windows デバイスでTeams Roomsを管理する
 
-Teams管理センターを使用すると、組織全体のWindows デバイスでTeams Roomsを表示およびリモートで管理できます。 Teams管理センターを使用すると、一目で、どのデバイスが正常で注意が必要かを簡単に確認でき、特定のデバイスに焦点を当てて、デバイスの正常性、会議のパフォーマンス、通話品質、周辺機器に関する詳細情報を確認できます。 
+Teams 管理センターを使用すると、組織全体の Windows デバイスでTeams Roomsを表示およびリモートで管理できます。 Teams 管理センターを使用すると、一目で、どのデバイスが正常で注意が必要かを簡単に確認でき、特定のデバイスに焦点を当てて、デバイスの正常性、会議のパフォーマンス、通話品質、周辺機器に関する詳細情報を確認できます。 
 
-Teams Rooms デバイスを管理するためにできることがいくつかあります。 Teams Roomsデバイスは [、WindowsのTeams](https://admin.teams.microsoft.com)**デバイス** > **Teams Roomsの** Microsoft Teams管理センターにあります。
+Teams Rooms デバイスを管理するためにできることがいくつかあります。 Teams Roomsデバイスは、[Windows の Teams デバイス](https://admin.teams.microsoft.com) > Teams Roomsの Microsoft **Teams** 管理センター **にあります**。
 
 Teams Rooms デバイスを管理する方法の詳細については、「[Microsoft Teams Roomsの管理](../rooms/rooms-manage.md)」を参照してください。
 
@@ -64,45 +65,45 @@ Teams Rooms デバイスを管理する方法の詳細については、「[Micr
 | 1 つ以上のデバイスの設定を変更する | **[設定の編集]** > 1 つ以上のデバイスを選択します。 複数のデバイスを選択した場合、変更した値によって、選択したすべてのデバイスの値が置き換えられます。                                                                                                                                                                                                                       |
 | デバイスを再起動する                        | 再起動> 1 つ以上のデバイスを選択 **します**。 デバイスを再起動するときに、デバイスをすぐに再起動するか、[ **再起動のスケジュール** ] を選択して特定の日時にデバイスを再起動するかを選択できます。 選択した日付と時刻は、再起動するデバイスに対してローカルです。                                                                                            |
 | 会議のアクティビティを表示する                  | デバイス名を選択して、 **アクティビティ**>デバイスの詳細を開きます。 **[アクティビティ**] タブを開くと、デバイスが参加したすべての会議が表示されます。 この概要ビューには、会議の開始時刻、参加者の数、その継続時間、通話の全体的な品質が表示されます。                                                                                        |
-| 会議の詳細を表示する                   | デバイス名を選択してデバイスの詳細を開> **アクティビティ** >会議を選択します。 会議の詳細を開くと、会議のすべての参加者、通話中の時間、Teamsセッションの種類、個々の通話の品質を確認できます。 参加者の通話に関する技術情報を表示する場合は、参加者の通話開始時刻を選択します。 |
+| 会議の詳細を表示する                   | デバイス名を選択してデバイスの詳細を開> **アクティビティ** >会議を選択します。 会議の詳細を開くと、会議のすべての参加者、通話中の時間、Teams セッションの種類、個々の通話品質を確認できます。 参加者の通話に関する技術情報を表示する場合は、参加者の通話開始時刻を選択します。 |
 
-## <a name="manage-phones-teams-rooms-on-android-teams-displays-and-teams-panels"></a>Android、Teamsディスプレイ、Teams パネルで電話、Teams Roomsを管理する 
+## <a name="manage-phones-teams-rooms-on-android-teams-displays-and-teams-panels"></a>Android、Teams のディスプレイ、Teams パネルで電話、Teams Roomsを管理する 
 
-Teams管理センターでは、組織のTeamsに登録されている電話、AndroidのTeams Rooms、Teams表示、Teams パネルを表示および管理できます。 デバイスごとに表示される情報には、デバイス名、製造元、モデル、ユーザー、状態、アクション、最後に表示された操作、履歴が含まれます。 ビューをカスタマイズして、ニーズに合った情報を表示できます。
+Teams 管理センターでは、組織内の Teams に登録されている電話、Android でのTeams Rooms、Teams の表示、Teams パネルの表示と管理を行うことができます。 デバイスごとに表示される情報には、デバイス名、製造元、モデル、ユーザー、状態、アクション、最後に表示された操作、履歴が含まれます。 ビューをカスタマイズして、ニーズに合った情報を表示できます。
 
-電話、AndroidのTeams Rooms、Teams表示、Teams パネルは、サインアップした場合、Microsoft Intuneに自動的に登録されます。 デバイスが登録されると、デバイスのコンプライアンスが確認され、条件付きアクセス ポリシーがデバイスに適用されます。
+Android での電話、Teams Rooms、Teams の表示、Teams パネルは、サインアップした場合、Microsoft Intuneに自動的に登録されます。 デバイスが登録されると、デバイスのコンプライアンスが確認され、条件付きアクセス ポリシーがデバイスに適用されます。
 
-組織内の電話、AndroidのTeams Rooms、Teamsディスプレイ、Teams パネルを管理する方法の例を次に示します。  
+Android で電話、Teams Rooms、Teams のディスプレイ、組織内の Teams パネルを管理する方法の例を次に示します。  
 
 | これを行うには...                           | 操作                                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | デバイス情報を変更する               | **[編集]** >デバイスを選択します。 デバイス名、資産タグ、メモの追加などの詳細を編集できます。                                                                                                                                                                                                              |
-| ソフトウェア更新プログラムを管理する                 | 更新>デバイスを選択 **します**。 デバイスで使用可能なソフトウェアとファームウェアの更新プログラムの一覧を表示し、インストールする更新プログラムを選択できます。 デバイスの更新の詳細については、「[Teams デバイスをリモートで更新](remote-update.md)する」を参照してください。                                                          |
-| Teams電話をTeamsディスプレイにアップグレードする  | **[IP Phones**] ページで、**アップグレード**> 1 つ以上のTeams電話を選択します。 このオプションは、Teams ディスプレイへのアップグレードをサポートする電話でのみ使用できます。 詳細については、「[Teams電話をTeamsディスプレイにアップグレードする](upgrade-phones-to-displays.md)」を参照してください。                                                      |
+| ソフトウェア更新プログラムを管理する                 | 更新>デバイスを選択 **します**。 デバイスで使用可能なソフトウェアとファームウェアの更新プログラムの一覧を表示し、インストールする更新プログラムを選択できます。 デバイスの更新の詳細については、「[Teams デバイスをリモートで更新する](remote-update.md)」を参照してください。                                                          |
+| Teams の電話を Teams にアップグレードする画面  | **[IP 電話**] ページで、**アップグレード**> 1 つ以上の Teams 電話を選択します。 このオプションは、Teams ディスプレイへのアップグレードをサポートする電話でのみ使用できます。 詳細については、「 [Teams の電話を Teams にアップグレードする」の画面を参照](upgrade-phones-to-displays.md)してください。                                                      |
 | 構成ポリシーの割り当てまたは変更 | **構成の割り当て**> 1 つ以上のデバイスを選択します。                                                                                                                                                                                                                                                       |
-| デバイス タグを追加または削除する               | **タグの管理**> 1 つ以上のデバイスを選択します。 デバイス タグの詳細については、「デバイス タグ[Teams管理](manage-device-tags.md)する」を参照してください。                                                                                                                                                                 |
+| デバイス タグを追加または削除する               | **タグの管理**> 1 つ以上のデバイスを選択します。 デバイス タグの詳細については、「 [Teams デバイス タグの管理](manage-device-tags.md)」を参照してください。                                                                                                                                                                 |
 | デバイスを再起動する                         | 再起動> 1 つ以上のデバイスを選択 **します**。                                                                                                                                                                                                                                                                    |
 | デバイス タグを使用してデバイスをフィルター処理する        | フィルター アイコンを選択し、[ **タグ** ] フィールドを選択し、フィルター処理するデバイス タグを指定して、[適用] を選択 **します**。 デバイス タグを使用してデバイスをフィルター処理する方法の詳細については、「 [フィルターを使用して特定のタグを持つデバイスを返す」を](manage-device-tags.md#use-filters-to-return-devices-with-a-specific-tag)参照してください。 |
 | デバイスの履歴と診断を表示する     | [ **履歴** ] 列で、デバイスの **[表示** ] リンクをクリックして、更新履歴と診断の詳細を表示します。                                                                                                                                                                                         |
 
-### <a name="use-configuration-profiles-in-teams"></a>Teamsで構成プロファイルを使用する
+### <a name="use-configuration-profiles-in-teams"></a>Teams で構成プロファイルを使用する
 
-構成プロファイルを使用して、Android、Teamsディスプレイ、Teams電話、Teams パネルのTeams Roomsなど、組織内のさまざまなTeams デバイスの設定と機能を管理します。 構成プロファイルを作成またはアップロードして、有効または無効にする設定と機能を含め、デバイスまたは一連のデバイスにプロファイルを割り当てることができます。 
+構成プロファイルを使用して、Android、Teams ディスプレイ、Teams の電話、Teams パネルのTeams Roomsなど、組織内のさまざまな Teams デバイスの設定と機能を管理します。 構成プロファイルを作成またはアップロードして、有効または無効にする設定と機能を含め、デバイスまたは一連のデバイスにプロファイルを割り当てることができます。 
 
 #### <a name="create-a-configuration-profile"></a>構成プロファイルを作成する
 
-Teamsデバイスの種類の構成プロファイルを作成するには:
+Teams デバイスの種類の構成プロファイルを作成するには:
 
-1. 左側のナビゲーションで、[**Teams デバイス**] に移動>、Teamsデバイスの種類> **[構成プロファイル]** を選択します。 たとえば、**Teams デバイス** > **Teams パネル** > **構成プロファイル** を選択して、Teams パネルの新しい構成プロファイルを作成します。
+1. 左側のナビゲーションで、 **Teams デバイス** に移動> Teams デバイスの種類> **構成プロファイルを選択します**。 たとえば、[ **Teams デバイス** > **Teams] パネル** > **の [構成プロファイル]** を選択して、Teams パネルの新しい構成プロファイルを作成します。
 2. **[追加]** をクリックします。
 3. プロファイルの名前を入力し、必要に応じてわかりやすい説明を追加します。
 4. プロファイルの設定を指定し、[ **保存**] をクリックします。
    新しく作成された構成プロファイルがプロファイルの一覧に表示されます。
 
 #### <a name="assign-a-configuration-profile"></a>構成プロファイルを割り当てる
-Teamsデバイスの種類の構成プロファイルを作成した後、それを 1 つ以上のデバイスに割り当てます。
+Teams デバイスの種類の構成プロファイルを作成した後、それを 1 つ以上のデバイスに割り当てます。
 
-1. 左側のナビゲーションで、[**Teams デバイス] に** 移動>、Teamsデバイスの種類を選択します。 たとえば、構成プロファイルをTeams パネル デバイスに割り当てるには、**Teamsデバイス** > **Teams パネル** を選択します。
+1. 左側のナビゲーションで、 **Teams デバイス** に移動> Teams デバイスの種類を選択します。 たとえば、Teams パネル デバイスに構成プロファイルを割り当てるには、 **Teams デバイス** > **の Teams パネル** を選択します。
 2. 1 つ以上のデバイスを選択し、[ **構成の割り当て**] をクリックします。  
 3. [ **構成の割り当て** ] ウィンドウで、選択したデバイスに割り当てる構成プロファイルを検索します。
 4. [**適用**] をクリックします。

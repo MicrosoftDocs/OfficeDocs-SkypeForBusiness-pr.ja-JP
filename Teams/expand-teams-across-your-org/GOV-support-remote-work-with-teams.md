@@ -8,19 +8,18 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_RemoteWorkers
 ms.reviewer: aytange
 ms.localizationpriority: high
 search.appverid: MET150
 description: このガイダンスは、Microsoft Teams を使用して政府組織のリモート ワーカーの生産性を向上させるために使用できます。特に、新型コロナウイルス感染症 (COVID-19) 発生への対策として従業員が在宅勤務 (WFH) となった場合に役立ちます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d245055d84025867705c1d83391510324ca7a22f
-ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
+ms.openlocfilehash: 0beed315b626605b0a8ecfa68c64a649d959fcda
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66825751"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270232"
 ---
 # <a name="support-remote-government-workers-using-microsoft-teams"></a>Microsoft Teams を使用して政府機関のリモート ワーカーをサポートする
 

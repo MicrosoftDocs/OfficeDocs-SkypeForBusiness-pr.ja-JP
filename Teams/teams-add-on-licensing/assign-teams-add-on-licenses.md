@@ -8,7 +8,6 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_RemoteWorkers
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +15,12 @@ ms.reviewer: mikedav
 description: 電話会議、電話システム、通話プランなどの機能について、Teams アドオン ライセンスをユーザーに割り当てる方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1bef1464b94f736a10cc184a2bdb88e2cdf6df88
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 3b482781ee29094986c310158fe74f02662f790d
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156975"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268172"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Teams アドオン ライセンスをユーザーに割り当てる
 
@@ -132,7 +131,7 @@ PowerShell を使用して Teams でライセンスを管理するときに参�
 | Microsoft Enterprise E1 | STANDARDPACK |
 | Microsoft 365 Business Basic | O365_BUSINESS_ESSENTIALS|
 | Microsoft 365 Business Standard | O365_BUSINESS_PREMIUM|
-| Microsoft 365 Business | SPB|
+| Microsoft 365 Business | Spb|
 | 電話会議 | MCOMEETADV |
 | 電話会議の 1 分あたりの支払い (従量課金) 通信クレジットを設定して有効にする必要があります。* | MCOMEETACPEA |
 | Teams 電話スタンダード | MCOEV |

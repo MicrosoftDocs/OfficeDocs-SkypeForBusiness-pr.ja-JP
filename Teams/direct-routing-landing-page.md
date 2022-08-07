@@ -10,27 +10,26 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-voice
-- m365initiative-voice
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: ダイレクト ルーティングを使用したTeams 電話システムについて説明します。
+description: 直接ルーティングを使用した Teams Phone システムについて説明します。
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3fe723ee8347ea96c87cb0a9e85f7794c5e50e01
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: dff97fc683acd693f867126661c9bf90550ebbe5
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518709"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269922"
 ---
 # <a name="direct-routing"></a>ダイレクト ルーティング
 
-[使用開始](get-started-with-teams-quick-start.md)の手順は完了しています。 Teams の[チャット、チーム、チャネル、およびアプリ](deploy-chat-teams-channels-microsoft-teams-landing-page.md)を組織全体に展開しました。 [会議および電話会議](deploy-meetings-microsoft-teams-landing-page.md)を展開した可能性があります。 音声ワークロードを追加する準備ができました。これで、ダイレクト ルーティングで電話システムを使用して、公衆交換電話網 (PSTN) 接続に独自のテレフォニー通信事業者を使用することにしました。 ダイレクト ルーティングを使用すると、実質的に任意のテレフォニーキャリアで電話システムを使用できます。
+[使用開始](get-started-with-teams-quick-start.md)の手順は完了しています。 Teams の[チャット、チーム、チャネル、およびアプリ](deploy-chat-teams-channels-microsoft-teams-landing-page.md)を組織全体に展開しました。 [会議および電話会議](deploy-meetings-microsoft-teams-landing-page.md)を展開した可能性があります。 音声ワークロードを追加する準備が整いました。これで、電話システムとダイレクト ルーティングを使用して、公衆交換電話網 (PSTN) 接続に独自のテレフォニー通信事業者を使用することにしました。 ダイレクト ルーティングを使用すると、ほぼすべてのテレフォニー通信事業者で電話システムを使用できます。
 
 この記事では、組織のニーズに基づいて、ダイレクト ルーティングの主要な展開に関する決定に加え、検討する必要がある追加の考慮事項について説明します。 Microsoft の音声サービスの詳細については、「 [音声ソリューションの計画](cloud-voice-landing-page.md) 」も参照してください。
 
@@ -48,7 +47,7 @@ ms.locfileid: "62518709"
 -  [複数のテナントにセッション ボーダー コントローラーを構成する](direct-routing-sbc-multiple-tenants.md)
 -  [ダイレクト ルーティングに移行する](direct-routing-migrating.md)
 -  [PSTN 接続を使用するハイブリッド環境でのユーザー アカウント](direct-routing-user-accounts-in-a-hybrid-environment.md)
-- ダイレクト ルーティング: [Microsoft Teamsでのダイレクト ルーティング](https://aka.ms/teams-direct-routing)の詳細については、次のセッションを参照してください。
+- ダイレクト ルーティングの詳細については、次のセッションをご覧 [ください。Microsoft Teams でのダイレクト ルーティング](https://aka.ms/teams-direct-routing)
 
 ## <a name="core-deployment-decisions"></a>展開に関する重要な決定事項
 
@@ -72,7 +71,7 @@ ms.locfileid: "62518709"
 
 ### <a name="voice-routing-considerations"></a>音声ルーティングに関する考慮事項
 
-呼び出しを特定の SBC にルーティングするように電話システムを構成する必要があります。
+通話を特定の SBC にルーティングするように電話システムを構成する必要があります。
 
 |確認事項|アクション |
 |:------------|:-------|
@@ -80,13 +79,13 @@ ms.locfileid: "62518709"
 | どのユーザーが、定義する音声ルーティング ポリシーに割り当てられますか? | [音声ルーティングの構成](direct-routing-configure.md)の例を参照してください。 |
 |||
 
-### <a name="ensure-incoming-calls-land-in-the-teams-client-using-teamsupgradepolicy"></a>TeamsUpgradePolicy を使用して、着信呼び出しがTeams クライアントに到着することを確認する
+### <a name="ensure-incoming-calls-land-in-the-teams-client-using-teamsupgradepolicy"></a>TeamsUpgradePolicy を使用して Teams クライアントに着信呼び出しが到着することを確認する
 
-ダイレクト ルーティングは、Microsoft Teamsでのみサポートされます。 ダイレクト ルーティングを介して PSTN 通話を受信するには、Teamsで着信呼び出しを確実に受信するように TeamsUpgradePolicy を構成する必要があります。 ユーザーは TeamsOnly モードである必要があります。ユーザーは TeamsUpgradePolicy の "UpgradeToTeams" インスタンスを割り当てることで実行できます。 
+直接ルーティングは、Microsoft Teams でのみサポートされます。 直接ルーティングを介して PSTN 通話を受信するには、Teams で着信呼び出しを受信するように TeamsUpgradePolicy を構成する必要があります。 ユーザーは TeamsOnly モードである必要があります。ユーザーは TeamsUpgradePolicy の "UpgradeToTeams" インスタンスを割り当てることで実行できます。 
 
 |確認事項|アクション |
 |:------------|:-------|
-|TeamsOnly モードとはどういう意味ですか? | 詳細については、「[TeamsとSkype for Businessを使用する組織の移行と相互運用性に関するガイダンス」を](./migration-interop-guidance-for-teams-with-skype.md)参照してください。|
+|TeamsOnly モードとはどういう意味ですか? | 詳細については、「[Teams とSkype for Businessを組み合わせて使用する組織の移行と相互運用性に関するガイダンス](./migration-interop-guidance-for-teams-with-skype.md)」を参照してください。|
 |||
 
 

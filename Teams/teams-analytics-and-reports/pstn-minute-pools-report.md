@@ -11,18 +11,18 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-MS.collection:
-- M365-voice
 description: Microsoft Teams 管理センターの Teams PSTN 分プール レポートを使用して、現在の月に組織内で消費された分数を表示する方法。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3aafc45cebab24f5524a4d3120dd0c03083d0c6c
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.collection:
+- M365-voice
+ms.openlocfilehash: d3e2b4d7d0aba44929b7094c4146f9f69db0e8eb
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794355"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267372"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Microsoft Teams PSTN 分プール レポート
 

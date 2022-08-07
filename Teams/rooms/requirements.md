@@ -13,14 +13,15 @@ ms.localizationpriority: medium
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 description: Microsoft Teams Rooms をサポートするための要件 (適切なデバイス、マイク、スピーカー、カメラ、ディスプレイの選択) について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 271e75787c9659dc453eeb1d6f3260aa7bd0dd3b
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 4222f0fa1b0e52634e0e12cede50d3d9c5d0bba8
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156815"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268352"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams Rooms の要件
 
@@ -30,12 +31,12 @@ Microsoft Teams Rooms異なる部屋のサイズにスケールします。 Team
 
 デプロイには、Microsoft Teams Roomsのデプロイに関する説明に従って、リソース アカウントの作成とTeams Rooms[のセットアップが](rooms-deploy.md)含まれます。
 
-言い及ぶ：
+以下を参照してください。
 
 - [プランに基づいたライセンス オプション: Microsoft Teams Rooms](rooms-licensing.md)
 
 > [!NOTE]
-> Microsoft Teams Rooms Microsoft Teams、Skype for Business Server 2019、または Skype for Business Server 2015 にサインインし、これらのサービスがホストする会議に参加できます。
+> Microsoft Teams Rooms Microsoft Teams、Skype for Business Server 2019、Skype for Business Server 2015 にサインインし、これらのサービスがホストする会議に参加できます。
 >
 > Lync Server 2013 のような以前のプラットフォームは、Microsoft Teams Rooms ではサポートしていません。 Microsoft Teams Roomsは、Microsoft 365 または 21Vianet または DoD 環境で動作するOffice 365ではサポートされていません。
 >

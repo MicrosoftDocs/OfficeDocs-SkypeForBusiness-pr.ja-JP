@@ -1,5 +1,5 @@
 ---
-title: Education 用のデバイスをTeamsする
+title: 教育機関向け Teams デバイス
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -13,29 +13,27 @@ description: 教育者向けのさまざまなスペースやセットアップ�
 ms.collection:
 - M365-voice
 - M365-collaboration
-- skype-for-business-itpro
-- skype-for-business-online
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52bc9b577b545ff7658b0317baca7eb6098dd335
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 7e7ba6b94466874a1e1ab07496ece0d3c4f34dfb
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675139"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269352"
 ---
-# <a name="teams-devices-for-education"></a>Education 用のデバイスをTeamsする
+# <a name="teams-devices-for-education"></a>教育機関向け Teams デバイス
 
 ## <a name="overview"></a>概要
 
 ### <a name="hybrid-and-blended-education-is-here-to-stay"></a>ハイブリッドとブレンドの教育がここにある
 
-将来的にラーニングはハイブリッドとブレンドが行われます。 教育者と学生はどちらも、学習の方法と場所に関する柔軟性の必要性に動機付けられた、連続する空間全体で実現される流動的な体験を必要とします。 教育は、物理的な教室や厳密に仮想環境に限定されることはありません。リモート参加は、対人学習と同じくらい動的になります。 ハイブリッド学習とブレンド学習が提供する柔軟性は、まったく新しいものではありませんが、多くの人に新しいものであり、広範囲に及ぶ影響を与えます。
+将来の学習はハイブリッドとブレンドされる予定です。 教育者と学生はどちらも、学習の方法と場所に関する柔軟性の必要性に動機付けられた、連続する空間全体で実現される流動的な体験を必要とします。 教育は、物理的な教室や厳密に仮想環境に限定されることはありません。リモート参加は、対人学習と同じくらい動的になります。 ハイブリッド学習とブレンド学習が提供する柔軟性は、まったく新しいものではありませんが、多くの人に新しいものであり、広範囲に及ぶ影響を与えます。
 
-最新のハイブリッドクラスルームは境界のないクラスルームになります。 学生と教育者は、同期学習と非同期学習、およびあらゆる状況のすべての学生のニーズを満たすように設計された対話型のマルチモーダルエンゲージメントによって強化されます。 Teamsデバイスは、音声が聞き取れないように、さまざまなスペースをサポートするように設計されています。
+最新のハイブリッドクラスルームは境界のないクラスルームになります。 学生と教育者は、同期学習と非同期学習、およびあらゆる状況のすべての学生のニーズを満たすように設計された対話型のマルチモーダルエンゲージメントによって強化されます。 Teams デバイスは、音声が聞き取れないように、さまざまなスペースをサポートするように設計されています。
 
 ### <a name="student-and-educators-alike-excel-with-microsoft-teams-rooms"></a>学生と教育者の両方がMicrosoft Teams Roomsで優れています
 
@@ -43,7 +41,7 @@ ms.locfileid: "65675139"
 
 - デジタル学習環境またはハイブリッド学習環境で個人用デバイスと共有デバイスを使用すると、学生は一生を通して重要なスキルを身に付け、ソーシャル化し、得られるのに役立ちます。
 
-- Teams機能は教室に限定されません。 教育者と管理者は、同じ学校内または自宅、オフィス、または環境を最適化した他の場所から、学区全体の他の教職員と簡単に接続できます。 Teamsでは、どこからでも専門的な開発にアクセスできます。
+- Teams の機能は、クラスルームに限定されません。 教育者と管理者は、同じ学校内または自宅、オフィス、または環境を最適化した他の場所から、学区全体の他の教職員と簡単に接続できます。 Teams を使用すると、どこからでもプロフェッショナルな開発にアクセスできます。
 
 ### <a name="bring-digital-flexibility-to-physical-spaces"></a>物理的な空間にデジタルの柔軟性をもたらす
 
@@ -54,7 +52,7 @@ ms.locfileid: "65675139"
 
 ## <a name="why-choose-a-native-teams-experience"></a>ネイティブ Teams エクスペリエンスを選択する理由
 
-Microsoft Teams認定された周辺機器と会議室は、専用のネイティブ通話および会議ソリューションであり、Teams認定されたファースト パーティおよびサード パーティのハードウェアで、高解像度のオーディオとビデオを使用して、完全なTeams会議エクスペリエンスを提供します。
+Microsoft Teams 認定の周辺機器と会議室は、専用のネイティブ通話および会議ソリューションであり、Teams 認定のファースト パーティハードウェアとサード パーティ製ハードウェアで、高解像度のオーディオとビデオを備えた完全な Teams 会議エクスペリエンスを提供します。
 
 "目的に基づいて構築され、ネイティブ" と言う場合、このエクスペリエンスは、Teams ユーザー向けに Microsoft によって特別かつ思慮深く設計されていることを意味します。
 
@@ -62,21 +60,21 @@ Teams Rooms では、個人用デバイスの Teams で行える以上のこと�
 
 外部サービスに依存している非ネイティブおよび独自の組み込みシステム、または個人所有の持ち込み機器接続が、ネイティブの Teams Room の提供する使いやすさやイマーシブな品質に匹敵することはありません。
 
-**Teams用に構築された目的**:
+**Teams 用に構築された目的**:
 
 高度なオーディオとビデオと共有
 
 **任意の部屋の広範なデバイス ポートフォリオ**:
 
-AndroidまたはWindowsオペレーティング システム全体で、完全にモジュール化または統合されたフォーム ファクターから選択する
+Android または Windows オペレーティング システム全体で、完全にモジュール化または統合されたフォーム ファクターから選択する
 
 **再考されたルーム エクスペリエンス**:
 
-Teams会議に参加して、学生と教育者を問わず、包括的で協調的な会議に参加できます
+Teams 会議に参加して、学生と教育者を問わず、包括的で共同作業的な会議に参加できます
 
 **1 か所から簡単に管理** できます。
 
-デバイスを完全に管理して最新の状態に保ち、Teams 管理 センターに入る準備を整え、microsoft から 24 時間 365 日の事前管理をMicrosoft Teams Rooms Premium
+デバイスを完全に管理して最新の状態に保ち、Teams 管理 センターにアクセスし、Microsoft から 24 時間 365 日の事前管理をMicrosoft Teams Rooms Premium
 
 ## <a name="space-considerations"></a>スペースに関する考慮事項
 
@@ -90,19 +88,19 @@ Teams会議に参加して、学生と教育者を問わず、包括的で協調
 
 新しいスペースの場合は、部屋を使用する目的で、家具とテクノロジの両方の考慮事項を推進する必要があります。 たとえば、複数の目的 (個々の作業やグループの相互作用など) を容易にすることを目的とした部屋を設計する場合は、効率を最大限に高めるために、スペースを 2 つの別々のゾーンに分割する必要があります。
 
-次の画像のペアは、既存のクラスルーム空間 (上部) と新しい多目的空間 (下部) での最適化されたTeamsの設定を示しています。
+次の画像のペアは、既存のクラスルーム空間 (上部) と新しい多目的空間 (下部) での Teams の最適化された設定を示しています。
 
-![既存の教室でTeamsデバイスを表示するレンダリング。](media/devices2.png) ![意図的に設計された空間にネイティブ Teams設定を示すレンダリング。](media/devices3.png)
+![既存のクラスルームに Teams デバイスを表示するレンダリング。](media/devices2.png) ![意図的に設計された空間でネイティブ Teams のセットアップを示すレンダリング。](media/devices3.png)
 
 ### <a name="what-is-the-function-of-the-space"></a>空間の機能は何ですか?
 
 *この空間でのアクティビティは、共同作業の共同作成に焦点を当てますか?*
 
-創造性には、ユーザー コラボレーションを中心に設計されたレイアウトとテクノロジのデプロイが必要です。 適切なスペースにより、ユーザーとテクノロジ間の作業がシームレスに容易になり、ほとんどの初心者ユーザーでも摩擦が解消されます。 Teamsデバイスは、若い学生が十分にナビゲートし、教育者が最初の使用から制御およびカスタマイズできるように設計されています。
+創造性には、ユーザー コラボレーションを中心に設計されたレイアウトとテクノロジのデプロイが必要です。 適切なスペースにより、ユーザーとテクノロジ間の作業がシームレスに容易になり、ほとんどの初心者ユーザーでも摩擦が解消されます。 Teams デバイスは、若い学生が十分にナビゲートし、教育者が最初の使用から制御およびカスタマイズできるように設計されています。
 
 *対人参加者とリモート参加者の両方とのコンテンツ共有が優先される空間はどうでしょうか。*
 
-コンテンツ共有とリモート コラボレーションでは、それぞれ異なる物理的なレイアウトとテクノロジエクスペリエンスが必要です。 適切なスペースを使用すると、ディスカッションが容易になり、すべてのユーザーが共有コンテンツを簡単に表示および確認できるようになります。 どのスペースを備えていても、学生宿のフレキシブルスペースから講義室まで、Teams有効にする必要があります。
+コンテンツ共有とリモート コラボレーションでは、それぞれ異なる物理的なレイアウトとテクノロジエクスペリエンスが必要です。 適切なスペースを使用すると、ディスカッションが容易になり、すべてのユーザーが共有コンテンツを簡単に表示および確認できるようになります。 どのスペースを備えていても、学生宿のフレキシブルスペースから講義室まで、Teams が有効になっている必要があります。
 
 ## <a name="technology-considerations"></a>テクノロジに関する考慮事項
 
@@ -131,7 +129,7 @@ Teams会議に参加して、学生と教育者を問わず、包括的で協調
 
 ### <a name="what-are-the-right-cameras-for-each-space"></a>各スペースに適したカメラは何ですか?
 
-最新のTeamsコラボレーションには、高品質のビデオが必要です。 カメラのテクノロジが大幅に向上し、高品質なカメラがすべてのスペースで利用できるようになりました。
+高品質のビデオは、最新の Teams コラボレーションに必要です。 カメラのテクノロジが大幅に向上し、高品質なカメラがすべてのスペースで利用できるようになりました。
 
 - ノート PC やタブレットなどのデバイスに含まれるカメラは、ビデオ通話に参加している個人が使用する出発点として最適です。 より充実したビデオ エクスペリエンスを個人用空間に提供しようとしているユーザーにとって、外部カメラは埋め込みデバイスからのステップ アップを表し、より多くのシナリオや構成で使用でき、通話参加者が自分の最高の品質のビューを共有できるようにします。 これらのデバイスは、すべての PC で見つかった簡単な USB 接続を使用して簡単にインストールできます。
 
@@ -141,13 +139,13 @@ Teams会議に参加して、学生と教育者を問わず、包括的で協調
 
 ### <a name="how-do-you-interact-virtually-beyond-video-streams"></a>ビデオ ストリームを超えて仮想的に対話する方法
 
-Teams会議は、参加者の音声通話とビデオ通話だけではありません。 コンテンツを動的に共有および対話するには、さまざまな方法があります。
+Teams 会議は、参加者の音声通話とビデオ通話だけではありません。 コンテンツを動的に共有および対話するには、さまざまな方法があります。
 
 一般的なシナリオは、参加者のデバイスから直接コンテンツを共有することです。 個々のユーザーは、個々のアプリケーションまたは画面のコンテンツ全体の完全なオーディオとビジュアルのエクスペリエンスを、すべてのユーザーが表示できるように会議に直接共有できます。 これは、インストールされているデバイスを持つすべての共有スペースに拡張されます。 Microsoft Teams Roomsには、参加者が個別に会議に参加する機能がない場合でも、参加者が共有できるようにワイヤード モニター接続を使用するオプションもあります。
 
-物理的な世界のコンテンツの場合、Microsoft Teams Room システムを備えたスペースは、ホワイトボードまたはドキュメント カメラを処理できます。これにより、空間からのコンテンツの調整されたレビューとディスカッションが可能になります。
+物理的な世界のコンテンツの場合、Microsoft Teams Room システムを備えたスペースでは、ホワイトボードまたはドキュメント カメラを処理できます。これにより、スペースからのコンテンツの調整されたレビューとディスカッションが可能になります。
 
-完全に対話型のエクスペリエンスを実現するために、対話型ディスプレイ (製品のSurface Hub ファミリや Microsoft デジタル ホワイトボードなど) を使用すると、対人学生やリモート学生向けのコンテンツを対話的に簡単に作成できます。
+完全に対話型のエクスペリエンスを実現するために、対話型ディスプレイ (Surface Hub ファミリの製品や Microsoft デジタル ホワイトボードなど) を使用すると、対面学生やリモート学生向けのコンテンツを対話的に簡単に作成できます。
 
 ## <a name="example-spaces"></a>スペースの例
 
@@ -159,18 +157,18 @@ Teams会議は、参加者の音声通話とビデオ通話だけではありま
 
 *表示されているソリューション:*
 
-認定されたTeams ヘッドセットで使用されるパーソナル コンピューター デバイス。
+認定された Teams ヘッドセットで使用されるパーソナル コンピューター デバイス。
 
 *このレイアウトとデバイスの種類を使用する理由:*
 
-Teamsを実行しているノート PC を使用すると、ユーザーは 1 つの作業領域に限定されず、会議にサインインしたり、会議から出たりしなくてもセットアップを移動できます。 マイクが組み込まれたヘッドセットは、会議の参加者にオーディオを制限し、バックグラウンド ノイズをフィルター処理します。 ノート PC の組み込みカメラにより、すべての会議参加者がユーザーを確認できます。
+Teams を実行しているノート PC を使用すると、ユーザーは 1 つの作業領域に限定されず、会議にサインインしたり、会議から出たりしなくてもセットアップを移動できます。 マイクが組み込まれたヘッドセットは、会議の参加者にオーディオを制限し、バックグラウンド ノイズをフィルター処理します。 ノート PC の組み込みカメラにより、すべての会議参加者がユーザーを確認できます。
 
 *デバイスの例**:*
 
 - [HP Laptop – 14t-dq200](https://www.hp.com/shop/pdp/hp-laptop-14t-dq200-touch-optional-2d129av-1?jumpid=ma_intel-optane_product-tile_clamshell-laptops_1_2d129av-1_hp-laptop---14t-dq20)
 
 - 代替ノート PC オプションには、次のものが含まれます。
-  - [Microsoft Surface Laptop 4](https://www.microsoft.com/d/surface-laptop-4/946627FB12T1?OCID=AID2200083_SEM_6341646f18fa14c7e4d80565e0debe72%3aG%3as&ef_id=6341646f18fa14c7e4d80565e0debe72%3aG%3as&s_kwcid=AL!4249!10!79302431130415!79302713431201&msclkid=6341646f18fa14c7e4d80565e0debe72&activetab=pivot%3aoverviewtab) - より高い教育機関向け
+  - [Microsoft Surface Laptop 4](https://www.microsoft.com/d/surface-laptop-4/946627FB12T1?OCID=AID2200083_SEM_6341646f18fa14c7e4d80565e0debe72%3aG%3as&ef_id=6341646f18fa14c7e4d80565e0debe72%3aG%3as&s_kwcid=AL!4249!10!79302431130415!79302713431201&msclkid=6341646f18fa14c7e4d80565e0debe72&activetab=pivot%3aoverviewtab) - Greater for Higher Education
   - [Microsoft Surface Go Laptop](https://www.microsoft.com/d/surface-laptop-go/94FC0BDGQ7WV?OCID=AID2200083_SEM_215e2d5fa8281476bdd84c555fcf1fad%3aG%3as&ef_id=215e2d5fa8281476bdd84c555fcf1fad%3aG%3as&s_kwcid=AL!4249!10!78890114459337!78890368468596&msclkid=215e2d5fa8281476bdd84c555fcf1fad&activetab=pivot%3aoverviewtab) – K-12 に最適
 
 - [エポレス Sennheiser ヘッドセット – Adapt 560](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/epos-sennheiser-adapt-560/467)
@@ -185,7 +183,7 @@ Teamsを実行しているノート PC を使用すると、ユーザーは 1 �
 
 *例 A:*
 
-![パーソナル スピーカーとデスクトップで実行されているTeamsを使用した個人用 PC セットアップのレンダリング。](media/devices5.png)
+![デスクトップで実行されている個人用のスピーカーと Teams を使用した個人用 PC セットアップのレンダリング。](media/devices5.png)
 
 *表示されているソリューション:*
 
@@ -193,7 +191,7 @@ Teamsを実行しているノート PC を使用すると、ユーザーは 1 �
 
 *このレイアウトとデバイスの種類を使用する理由:*
 
-小さく、静かな、より集中した個人用空間は、ユーザーがパブリック共有スペースや従来の教室の邪魔をしないことを意味します。 Teamsを実行している PC では専用のワークスペースが可能で、USB カメラを使用すると、会議内で高品質のユーザーを確認できます。 会議の音声が他のノイズや気晴らしと競合する必要がないプライベート空間では、スピーカーフォン デバイスが最適です。
+小さく、静かな、より集中した個人用空間は、ユーザーがパブリック共有スペースや従来の教室の邪魔をしないことを意味します。 Teams を実行している PC では専用のワークスペースが可能で、USB カメラを使用すると、会議内で高品質のユーザーを確認できます。 会議の音声が他のノイズや気晴らしと競合する必要がないプライベート空間では、スピーカーフォン デバイスが最適です。
 
 *次に示すデバイス:*
 
@@ -213,7 +211,7 @@ Teamsを実行しているノート PC を使用すると、ユーザーは 1 �
 
 *このレイアウトとデバイスの種類を使用する理由:*
 
-このソリューションは、例 A と同じ目的を果たしており、集中した個人用空間に対処します。 Teamsを実行している PC では、USB カメラ、マイク、スピーカーサウンドバーの組み合わせと組み合わせて専用ワークスペースを使用できます。
+このソリューションは、例 A と同じ目的を果たしており、集中した個人用空間に対処します。 Teams を実行している PC では、USB カメラ、マイク、スピーカーサウンドバーの組み合わせと組み合わせて専用のワークスペースを使用できます。
 
 *次に示すデバイス:*
 
@@ -229,7 +227,7 @@ Teamsを実行しているノート PC を使用すると、ユーザーは 1 �
 
 従来型授業と反転授業を含め、教室ではその場にいるすべての人によるアクティブなエンゲージメントが必要です。 効果的な指導、ディスカッション、および多くの当事者によるコラボレーションが鍵です。
 
-![Teams デバイスを備えた教室のレンダリング。](media/devicesnew2.jpg)
+![Teams デバイスを搭載したクラスルームのレンダリング。](media/devicesnew2.jpg)
 
 *表示されているソリューション:*
 
@@ -237,14 +235,14 @@ Teamsを実行しているノート PC を使用すると、ユーザーは 1 �
 
 *このレイアウトとデバイスの種類を使用する理由:*
 
-大型ディスプレイにより、リモート参加者に会議室での物理的なプレゼンスを提供し、会議室前面のスピーカーにより、リモート参加者の声が、音源から最も遠いデスクにいる人を含め、すべての人に聞こえるようにします。 マイクは部屋の前に位置しているため、教師や生徒全員が聞こえます。 アナログ コンテンツ用の従来のホワイトボードは、ルーム システムをキャプチャし、室内参加者とリモート参加者の両方と共有できます。 デジタル Microsoft Whiteboardは、リモートと対人の学生間のコラボレーションや、クラス後の参照のための優れたソリューションでもあります。
+大型ディスプレイにより、リモート参加者に会議室での物理的なプレゼンスを提供し、会議室前面のスピーカーにより、リモート参加者の声が、音源から最も遠いデスクにいる人を含め、すべての人に聞こえるようにします。 マイクは部屋の前に位置しているため、教師や生徒全員が聞こえます。 アナログ コンテンツ用の従来のホワイトボードは、ルーム システムをキャプチャし、室内参加者とリモート参加者の両方と共有できます。 デジタル Microsoft Whiteboard は、リモートと対等の学生間のコラボレーションや、クラス後の参照のための優れたソリューションでもあります。
 
 *次に示すデバイス:*
 
 - ルーム システム - [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
-  - Surface Hub ソリューションは、コラボレーションと対話型の使用のプレミアム エクスペリエンスを表します。 大きなディスプレイと組み合わせた[Microsoft Teams Room ソリューション](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20?page=1&filterIds=)は、この同じシナリオの代替手段として使用できます。
+  - Surface Hub ソリューションは、コラボレーションと対話型の使用に関するプレミアム エクスペリエンスを表します。 大きなディスプレイと組み合わせた [Microsoft Teams Room ソリューション](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20?page=1&filterIds=) は、この同じシナリオの代替手段として使用できます。
 
-- アナログ ホワイトボード キャプチャ – [Logitech Brio Content カメラ Kit](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/logitech-brio-content-camera-kit/349)
+- アナログ ホワイトボード キャプチャ – [Logitech Brio Content Camera Kit](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/logitech-brio-content-camera-kit/349)
 
 - カメラとオーディオ - [Logitech Rally Plus キット](https://www.logitech.com/products/video-conferencing/room-solutions/rally-ultra-hd-conferencecam.html)
 
@@ -258,7 +256,7 @@ Teamsを実行しているノート PC を使用すると、ユーザーは 1 �
 
 講義室には、教室と同様に、教育者やプレゼンテーション中の情報に焦点を当てる必要がある多数の学生が含まれています。 ただし、講義室では、通常、学生間の同じ量の対話は必要ありません。 焦点はコラボレーションではなく、情報です。
 
-![Teamsデバイスを備えた講義室のレンダリング。](media/devices9.png)
+![Teams デバイスを搭載した講義室のレンダリング。](media/devices9.png)
 
 *表示されているソリューション:*
 
@@ -270,7 +268,7 @@ Teamsを実行しているノート PC を使用すると、ユーザーは 1 �
 
 *次に示すデバイス:*
 
-- Room System – Teams用の、設置されたプロジェクターとカートベースのディスプレイの両方を備えた[、Teams用の「ルーム システム」](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)
+- Room System - インストールされたプロジェクターとカートベースのディスプレイの両方を備えた [Teams 用の、クレスロン Flex C100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)
 
 - オプションのデジタル ホワイトボード - [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
 
@@ -280,21 +278,21 @@ Teamsを実行しているノート PC を使用すると、ユーザーは 1 �
 
 *このソリューションのインストールまたは設定は次のとおりです。*
 
-非常に複雑です。 このルームには、知識豊富な AV 展開パートナーが、空間内のエンド ユーザーに対してシームレスに動作するように、カメラとオーディオ ソリューションを適切に計画して展開する必要がある物理的なインストールが備わっています。 インストールには、Microsoft Teams ルーム システムと関連する Surface Hub 2 デバイスの両方の配線、オーディオ構成、正しい構成に関連する専門知識が必要です。
+非常に複雑です。 このルームには、知識豊富な AV 展開パートナーが、空間内のエンド ユーザーに対してシームレスに動作するように、カメラとオーディオ ソリューションを適切に計画して展開する必要がある物理的なインストールが備わっています。 インストールには、Microsoft Teams Room システムと関連する Surface Hub 2 デバイスの両方の配線、オーディオ構成、正しい構成に関連する専門知識が必要です。
 
 ### <a name="multi-purpose-spaces"></a>多目的スペース
 
-Teams は、考え得るほぼすべての教育または多目的スペースに導入できます。 ライブラリ、複合プレゼンテーションとコラボレーションスペース、カフェスペース、オープンエアスペースはすべて、Teams システムまたはTeamsデバイスで構成できます。
+Teams は、考え得るほぼすべての教育または多目的スペースに導入できます。 ライブラリ、混合使用のプレゼンテーションとコラボレーションスペース、カフェスペース、オープンエアスペースはすべて、Teams システムまたは Teams デバイスで構成できます。
 
-![Teams デバイスを含む多目的空間の画像。](media/devices11.png)
+![Teams デバイスを使用した多目的空間の画像。](media/devices11.png)
 
 *このソリューションは次のとおりです。*
 
-広いプロジェクターベースのフロント オブ ルーム ディスプレイ、操作用の複数のタッチ コンソール、および幅広い用途に対応する複数のSurface Hub 2 台のデバイスを備えたルーム システム。
+広いプロジェクターベースの室内前面ディスプレイ、操作用の複数のタッチ コンソール、およびさまざまな用途に対応する複数の Surface Hub 2 デバイスを備えたルーム システム。
 
 *次に示すデバイス:*
 
-- Room System – Teams用の、インストール済みのプロジェクターを使用した[、2000 年 100 分の 100 を](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)使用する
+- Room System – インストール済みのプロジェクターを使用した [Teams 用の、クレスロン Flex C100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)
 
 - オプションのデュアル デジタル ホワイトボード - [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
 
@@ -304,20 +302,20 @@ Teams は、考え得るほぼすべての教育または多目的スペース�
 
 *このソリューションのインストールまたは設定は次のとおりです。*
 
-非常に複雑です。 説明したように、知識豊富な AV 展開パートナーは、プロジェクター ベースのディスプレイソリューションとカメラとオーディオ ソリューションを適切に計画して展開し、Microsoft Teams ルーム システムと関連するSurface Hub 2 台のデバイスの両方を正しく構成して、空間内のエンド ユーザーに対してシームレスに動作するようにする必要があります。
+非常に複雑です。 説明したように、知識豊富な AV 展開パートナーは、プロジェクターベースのディスプレイソリューションとカメラとオーディオ ソリューションを適切に計画して展開し、Microsoft Teams Room システムと関連する Surface Hub 2 デバイスの両方を正しく構成して、空間内のエンド ユーザーにシームレスに対応する必要があります。
 
 ## <a name="dont-forget-security"></a>セキュリティを忘れないでください
 
-ソリューションがサイバー脅威に対してセキュリティで保護されるようにすることが重要です。 Microsoft では、最先端の AI と自動化を使用して、Teams Rooms システムまたはデバイスを使用するときにデータと個人情報を安全に保ちます。 学校または教育機関の保護は、ID とアクセス管理 (Azure Active Directory経由) とデバイス管理 (Intune/AutoPilot 経由) から始まります。
+ソリューションがサイバー脅威に対してセキュリティで保護されるようにすることが重要です。 Microsoft では、最先端の AI と自動化を使用して、Teams Rooms システムまたはデバイスを使用するときにデータと個人情報を安全に保ちます。 学校または教育機関の保護は、ID とアクセス管理 (Azure Active Directory 経由) とデバイス管理 (Intune/AutoPilot 経由) から始まります。
 
 ## <a name="more-information"></a>詳細情報
 
-Teamsデバイスとパートナーの詳細については、次のページを参照してください。
+Teams のデバイスとパートナーの詳細については、次のページを参照してください。
 
-[Microsoft Teams for Education](https://www.microsoft.com/education/products/teams) – 教育でMicrosoft Teamsを使用するための優れた情報源
+[Microsoft Teams for Education](https://www.microsoft.com/education/products/teams) – Microsoft Teams を教育で使用するための優れた情報源
 
-[Microsoft Teamsの認定デバイス – Microsoft Teams](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/poly-sync-20/825)認定されたデバイスの包括的な一覧
+[Microsoft Teams の認定デバイス - Microsoft Teams](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/poly-sync-20/825) で認定されたデバイスの包括的な一覧
 
 [Microsoft Teams Roomsの詳細](/microsoftteams/rooms) – 計画、デプロイ、および使用状況をカバーするMicrosoft Teams Roomsのガイド
 
-[Teams ミーティング ルーム パートナー プログラム](https://cloudpartners.transform.microsoft.com/teams-mrpp) – Teams Room システムの計画と展開に役立つ世界中のパートナーの一覧
+[Teams ミーティング ルーム パートナー プログラム – Teams](https://cloudpartners.transform.microsoft.com/teams-mrpp) Room システムの計画と展開に役立つ世界中のパートナーの一覧

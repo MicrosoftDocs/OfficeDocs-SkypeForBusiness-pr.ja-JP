@@ -10,35 +10,35 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: マネージド サービスにMicrosoft Teams RoomsアカウントMicrosoft Teams Rooms Premium登録する方法について説明します。
 f1keywords: ''
-ms.openlocfilehash: c64fcaf6e817eb57be2915f4f7b6d8684f2ae49b
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: f721406381e1eb99584563473196893bc21cf39b
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635455"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271002"
 ---
 # <a name="enroll-a-device-in-the-microsoft-teams-rooms-premium-managed-service"></a>Microsoft Teams Rooms Premium マネージド サービスにデバイスを登録する
 
-Teams Rooms プレミアムマネージド サービスにMicrosoft Teams Rooms デバイスを登録するには、1 人以上のユーザーをマネージド サービス管理者に割り当て、そのユーザーを使用して登録手順を完了する必要があります。
+Teams Rooms Premium マネージド サービスにMicrosoft Teams Rooms デバイスを登録するには、1 人以上のユーザーをマネージド サービス管理者に割り当て、そのユーザーを使用して登録手順を完了する必要があります。
 
 ## <a name="assign-users-to-the-managed-service-administrator-role"></a>マネージド サービス管理者ロールにユーザーを割り当てる
 
 マネージド サービス管理者ロールにユーザーを割り当てるには、次の手順を実行します。
 
-1. Microsoft 365 管理センターへのログインに使用したのと同じ管理者特権で、Teams Rooms プレミアム [ポータル](https://portal.rooms.microsoft.com/)にログインします。
-2. **設定** > **設定** > **Roles** に移動し、**マネージド サービス管理者** を選択します。
+1. Microsoft 365 管理センターへのログインに使用したのと同じ管理者特権で、[Teams Rooms Premium ポータル](https://portal.rooms.microsoft.com/)にログインします。
+2. **[設定の役割]** >  >  に移動し、[**マネージド サービス管理者**] を選択します。
 3. **[マネージド サービス管理者**] で [**割り当て**] タブを選択し、[**追加**] を選択します。
 4. ウィザードに従って割り当ての名前を指定し、割り当てに追加するユーザーを選択します。 割り当ては、すべての会議室とルーム グループに適用されます。
 5. 割り当てウィザードの最後で、[割り当 **ての追加**] を選択します。
 
-マネージド サービス管理者ロールが割り当てられているユーザーは、Teams Rooms プレミアムマネージド サービス ポータルの日常的な管理と監視を担当します。
+マネージド サービス管理者ロールが割り当てられているユーザーは、Teams Rooms Premium マネージド サービス ポータルの日常的な管理と監視を担当します。
 
 マネージド サービス管理者ロールにユーザーを割り当てた後は、[Teams Rooms デバイスの登録](enroll-a-device.md)に進み、Teams Rooms デバイスをマネージド サービス ポータルに追加します。
 

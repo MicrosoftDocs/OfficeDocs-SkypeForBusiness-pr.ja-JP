@@ -13,15 +13,16 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-voice
+- Teams_ITAdmin_Devices
 search.appverid: MET150
 ms.localizationpriority: medium
 description: この記事では、Microsoft Teams パネルでサポートされている機能の概要と機能について説明します。
-ms.openlocfilehash: 313d0b8abbf1dcd703bc617e52173fc7403cc743
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: 745e592e1c8451a47038c33a9f30d29a7a99d63c
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794555"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268562"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams パネル
 
@@ -124,7 +125,7 @@ Teams パネル用の Microsoft 365 リソース アカウントを設定する�
 
 Teams パネル デバイスを管理するには、Microsoft Teams 管理センターの左側のナビゲーションで Teams **デバイス** >  パネルに移動 **します**。 ここから、デバイス構成プロファイルの変更、更新の管理、デバイスの再起動、デバイス タグの追加と削除などを行うことができます。 詳細については、「 [Teams でデバイスを管理する](device-management.md)」を参照してください。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 [Microsoft Teams パネル デバイスを使用する方法](use-teams-panels.md)
 

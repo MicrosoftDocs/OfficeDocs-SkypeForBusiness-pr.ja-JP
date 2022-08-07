@@ -1,7 +1,7 @@
 ---
 title: Azure Monitor を使用してMicrosoft Teams Rooms監視をデプロイする
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: Turgayo
 manager: serdars
 audience: ITPro
@@ -12,15 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: この記事では、Azure Monitor を使用して、統合されたエンドツーエンドの方法でMicrosoft Teams Roomsの監視をデプロイする方法について説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b991465bfff8f67fdbd3bdc9c03eba485690d5fb
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: 2b6d1931b0a1818b5146f6ac0e02c225fea3af52
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63503874"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267452"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-monitoring-with-no-loc-textazure-monitor"></a>を使用して監視をデプロイする:::no-loc text="Microsoft Teams Rooms"::::::no-loc text="Azure Monitor":::
 
@@ -77,7 +78,7 @@ ms.locfileid: "63503874"
 
 ### <a name="install-no-loc-textmicrosoft-monitoring-agents-to-test-devices"></a>デバイスをテストするためのエージェントのインストール:::no-loc text="Microsoft Monitoring":::
 
-:::no-loc text="Microsoft Monitoring"::: Connect コンピューターでサービスに提供されている[:::no-loc text="Windows":::手順を使用して、エージェントをテスト デバイスに:::no-loc text="Log Analytics"::::::no-loc text="Azure":::](/azure/azure-monitor/platform/agent-windows)展開します。 この記事では、エージェントを:::no-loc text="Windows":::デプロイ:::no-loc text="Microsoft Monitoring":::する手順、**ワークスペース ID** _ を取得する手順、デプロイに接続されている:::no-loc text="Azure Monitor":::デバイスを:::no-loc text="Log Analytics"::: *取得:::no-loc text="Microsoft Teams Rooms":::するための _ *_primary キー_** について説明し、エージェントのインスタンスへの接続を確認する手順について:::no-loc text="Log Analytics":::説明します。
+「コンピューターを:::no-loc text="Microsoft Monitoring":::[サービス:::no-loc text="Azure":::に接続:::no-loc text="Windows":::する」の手順を使用して、テスト デバイスにエージェントを:::no-loc text="Log Analytics":::](/azure/azure-monitor/platform/agent-windows)展開します。 この記事では、エージェントを:::no-loc text="Windows":::デプロイ:::no-loc text="Microsoft Monitoring":::する手順、**ワークスペース ID** _ を取得する手順、デプロイに接続されている:::no-loc text="Azure Monitor":::デバイスを:::no-loc text="Log Analytics"::: *取得:::no-loc text="Microsoft Teams Rooms":::するための _ *_primary キー_** について説明し、エージェントのインスタンスへの接続を確認する手順について:::no-loc text="Log Analytics":::説明します。
 
 ### <a name="generate-sample-no-loc-textmicrosoft-teams-rooms-events"></a>サンプル イベントを :::no-loc text="Microsoft Teams Rooms"::: 生成する
 
@@ -100,7 +101,7 @@ ms.locfileid: "63503874"
     3.  クエリを使用してハードウェア エラー イベントを一覧表示します。 `Event | where Source == "SRS-App" and EventID == 3001`
 
 5.  アプリケーションの問題を生成し、必要なイベントがログに記録されていることを検証します。
-    1.  アカウント構成を変更 :::no-loc text="Microsoft Teams Rooms"::: し、正しくない電子メールとパスワードのペアを入力します。
+    1.  アカウント構成を変更:::no-loc text="Microsoft Teams Rooms":::し、正しくないEmailとパスワードのペアを入力します。
     2.  イベント ログが入力 :::no-loc text="Azure Log Analytics":::されるまで 10 分待ちます。
     3.  クエリを使用して、アプリケーション エラー イベントを一覧表示します。 `Event | where Source == "SRS-App" and EventID == 2001 and EventLevel == 1`
 
@@ -251,7 +252,7 @@ ms.locfileid: "63503874"
     **操作：** 合計
 5.  List プロパティを定義 **します** 。<br>
     **リスト クエリ:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSOSLongVersion_CF = max(SRSOSLongVersion_CF) by Computer | sort by Computer asc```<br>
-    **Graph非表示:** 選択済み<br>
+    **グラフを非表示にする:** 選択<br>
     **Sparklines を有効にする:** [選択されていません]
 6.  **列タイトルを定義します**。<br>
     **名前：** コンピューター名<br>
@@ -275,7 +276,7 @@ ms.locfileid: "63503874"
     **操作：** 合計
 5.  List プロパティを定義 **します** 。<br>
     **リスト クエリ:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSAppVersion_CF = max(SRSAppVersion_CF) by Computer | sort by Computer asc```<br>
-    **Graph非表示:** 選択済み<br>
+    **グラフを非表示にする:** 選択<br>
     **Sparklines を有効にする:** [選択されていません]
 6.  **列タイトルを定義します**。<br>
     **名前：** コンピューター名<br>
@@ -370,8 +371,8 @@ ms.locfileid: "63503874"
 7. アクション グループを構成する:
     1.  **[新規作成**] を選択する
     2.  *[アクション グループ* 名] フィールドと [短い名前] フィールドに適切 *な名前を指定します*。
-    3.  一意の *アクション名* を指定し、[ **電子メール/SMS/プッシュ/音声**] を選択し、[ **詳細の編集]** を選択します。
-    4.  [ **電子メール** ] チェック ボックスをオンにし、アラートを受信するユーザーまたはグループのメール アドレスを指定します。
+    3.  一意の *アクション名* を指定し、**Email/SMS/プッシュ/音声** を選択して、[**詳細の編集]** を選択します。
+    4.  **[Email**] チェック ボックスをオンにし、アラートを受信するユーザーまたはグループの電子メール アドレスを指定します。
     5.  また、SMS、音声通話、またはその両方で通知を受け取るために電話番号を入力することもできます。
     6. [ **OK] を選択します**。
 
@@ -431,7 +432,7 @@ ms.locfileid: "63503874"
 6.  スタートアップ スクリプトを構成します。
     1.  次のスクリプトをコピーし、Install-MMAgent.ps1として保存します。
     2.  WorkspaceId、WorkspaceKey、および SetupPath パラメーターを構成に合わせて変更します。
-    3.  同じグループ ポリシー オブジェクトを編集し、スクリプト設定\\コンピューター構成\\ポリシー \\ :::no-loc text="Windows"::: に移動します (スタートアップ/シャットダウン)
+    3.  同じグループ ポリシー オブジェクトを編集し、コンピューター構成\\ポリシー \\ :::no-loc text="Windows":::設定\\スクリプト (スタートアップ/シャットダウン) に移動します。
     4.  ダブルクリックして **[スタートアップ]** を選択し、[ **PowerShell スクリプト**] を選択します。
     5.  [ **ファイルの表示**] を選択し、 **Install-MMAgent.ps1** ファイルをそのフォルダーにコピーします。
     6.  [ **追加]**、[参照] の順に選択 **します**。

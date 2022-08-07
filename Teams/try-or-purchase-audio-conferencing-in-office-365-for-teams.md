@@ -1,5 +1,5 @@
 ---
-title: TeamsのMicrosoft 365で電話会議を試すか購入する
+title: Microsoft 365 for Teams での電話会議の試用または購入
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -12,7 +12,6 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - M365-collaboration
-- m365initiative-meetings
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -23,17 +22,17 @@ ms.custom:
 - Audio Conferencing
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
-description: 'ユーザーがダイヤルインできる電話会議を設定するためのMicrosoft 365またはOffice 365の電話会議 (PSTN 会議) ライセンスを試すか購入する方法について説明します。 '
-ms.openlocfilehash: 992d6b71b5ad63cfe082a9b12c0a5add98074a0f
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+description: Microsoft 365 またはOffice 365の電話会議 (PSTN 会議) ライセンスを試用または購入して、ユーザーがダイヤルインできる電話会議を設定する方法について説明します。
+ms.openlocfilehash: 861537c6c452612058d8e3ad8ae416b812d0bb32
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055307"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271442"
 ---
-# <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Microsoft TeamsのMicrosoft 365で電話会議を試すか購入する
+# <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Microsoft Teams 用の Microsoft 365 で電話会議を試用または購入する
 
-組織内のユーザーが、会議にダイヤル インするために電話機を使用する必要がある場合があります。 Microsoft Teamsには、このような状況に対応する電話会議機能が含まれています。 ユーザーは、モバイル デバイスや PC でMicrosoft Teams アプリを使用する代わりに、電話を使用して会議をMicrosoft Teamsに呼び出すことができます。
+組織内のユーザーが、会議にダイヤル インするために電話機を使用する必要がある場合があります。 Microsoft Teams には、このような状況に対応する電話会議機能が含まれています。 ユーザーは、モバイル デバイスまたは PC で Microsoft Teams アプリを使用する代わりに、電話を使用して Microsoft Teams 会議に呼び出すことができます。
 
 会議をスケジュールまたはリードする予定のユーザーに対してのみ電話会議を設定する必要があります。 会議の出席者にミーティングへのライセンスが割り当てられている必要はなく、その他のセットアップも必要ありません。
 
@@ -51,11 +50,11 @@ ms.locfileid: "62055307"
 
    - 購入する前 **にお試しください**。電話会議を含むOffice 365 Enterprise E5 無料試用版にサインアップできます。 [Office 365 Enterprise E5 の試用版](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)を参照してください。
 
-   - **購入する**: [アドオン ライセンスMicrosoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)参照してください。
+   - **購入する**: [Microsoft Teams のアドオン ライセンスに関するページを](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)参照してください。
 
 3. 会議をスケジュールまたはリードする組織内の[ユーザーにライセンスを割り当てます](/microsoft-365/admin/manage/assign-licenses-to-users)。
 
-4. 電話会議のアドオン ライセンスおよびコミュニケーション クレジットのライセンスを購入した場合も割り当てます。 手順については、「[アドオン ライセンスMicrosoft Teams割り当てる](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
+4. 電話会議のアドオン ライセンスおよびコミュニケーション クレジットのライセンスを購入した場合も割り当てます。 手順については、「 [Microsoft Teams アドオン ライセンスの割り当て](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
 
 ### <a name="to-buy-and-assign-pay-per-minute-audio-conferencing-licenses"></a>分あたりの支払い電話会議ライセンスを購入して割り当てるには
 
@@ -98,7 +97,7 @@ ms.locfileid: "62055307"
 
 ## <a name="related-topics"></a>関連項目
 
-[組織内のTeamsを有効にする](office-365-set-up.md)
+[組織内で Teams を有効にする](office-365-set-up.md)
 
 [電話会議の電話番号](phone-numbers-for-audio-conferencing-in-teams.md)
 

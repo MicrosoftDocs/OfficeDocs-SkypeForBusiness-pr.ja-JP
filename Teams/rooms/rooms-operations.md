@@ -9,26 +9,27 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Microsoft Teams Roomsの管理について説明します。
-ms.openlocfilehash: df9760694bd8e0c650be25eec7d435efcae02127
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: 93a4c2ff7d9c6a1f982a06ec8df6dabf790f8739
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761059"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272222"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams Rooms のメンテナンスと運用
  
  
-Microsoft Teams Roomsは、会議室を豊富なコラボレーション エクスペリエンスに変換するように設計された Microsoft の会議ソリューションです。 ユーザーは使い慣れたMicrosoft TeamsまたはSkype for Businessインターフェイスを利用できます。IT 管理者は、簡単に展開および管理されたWindows 10 Teams Rooms アプリに感謝します。 Microsoft Teams Roomsは、既存の機器を活用して簡単にインストールできるように設計されており、会議室にMicrosoft TeamsまたはSkype for Businessを取り込んでいます。
+Microsoft Teams Roomsは、会議室を豊富なコラボレーション エクスペリエンスに変換するように設計された Microsoft の会議ソリューションです。 ユーザーは使い慣れた Microsoft Teams またはSkype for Business インターフェイスを利用できます。IT 管理者は、簡単に展開および管理されたWindows 10 Teams Rooms アプリに感謝します。 Microsoft Teams Roomsは、インストールを容易にするために既存の機器を活用して、Microsoft Teams またはSkype for Businessを会議室に取り込むように設計されています。
     
 ## <a name="collecting-logs-on-microsoft-teams-rooms"></a>Microsoft Teams Roomsでログを収集する
 <a name="Logs"> </a>
 
-Teams管理センターでログを収集するには、**Windowsで> Teams RoomsデバイスTeamsに** 移動します。 ログの対象となるデバイスの表示名を選択します。 上部のパネルで、[デバイス ログのダウンロード] を選択します。 確認すると、数分後に [履歴] タブでログをダウンロードできるようになります。
+Teams 管理センターでログを収集するには、**Windows の Teams デバイス > Teams Roomsに** 移動します。 ログの対象となるデバイスの表示名を選択します。 上部のパネルで、[デバイス ログのダウンロード] を選択します。 確認すると、数分後に [履歴] タブでログをダウンロードできるようになります。
 
 PowerShell を使用してログを収集することもできます。 Microsoft Teams Rooms アプリに付属するログ 収集スクリプトを呼び出す必要があります。 [管理 モード](rooms-operations.md)で管理者特権のコマンド プロンプトを起動し、次のコマンドを発行します。
   
@@ -60,11 +61,11 @@ Teams Rooms設計されたエクスペリエンスを得るには、Front of Roo
 
 Front of Rooms ディスプレイのスケールと解像度をリモートで設定するには、「[MICROSOFT TEAMS ROOMS コンソール設定を XML 構成ファイルでリモートで管理する](xml-config-file.md#set-front-of-room-scale-and-resolution)」を参照してください。
 
-Teams 会議室の管理者設定でスケールと解像度を手動で設定するには:
+Teams Room 管理者設定でスケールと解像度を手動で設定するには:
 
-1. Teams ルームで[、管理者モード](#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)に切り替える
+1. Teams Room で[、管理者モード](#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)に切り替える
 
-2. スタート アイコンを選択します。 次 **に、システム>表示を設定 >する**
+2. スタート アイコンを選択します。 次 **に、システム >表示>設定**
 
 3. **[スケールとレイアウト]** に移動し、**テキスト、アプリ、その他のアイテムのサイズを変更** し、スケーリングを 100% に設定します。
 
@@ -111,7 +112,7 @@ Teams Roomsを Active Directory ドメインに参加させるには、次の利
 
 - ドメイン参加Teams Roomsを使用すると、ドメイン ユーザーとグループに管理者権限を付与できます。 これにより、ローカル コンピューター レベルの管理者アカウントのパスワードを記憶する必要がなくなります。
 
-- Windows Quality of Service 構成をTeams Roomsにデプロイできます。
+- Windows Quality of Service 構成をTeams Roomsに展開できます。
 
 - Skype for Businessを使用している場合、Teams Roomsにドメイン参加すると、組織のプライベート ルート証明書チェーンのインポートが自動化されます。
 
@@ -140,7 +141,7 @@ Microsoft Teams Roomsをドメインに参加させる場合は、次の表の�
 |net accounts /maxpwage:unlimited  <br/> または、ローカル アカウントでパスワードの期限切れを無効にする同等の手段。この設定に失敗すると、パスワードの期限が切れていることが通知され、Skype アカウントのログオンが失敗する原因になります。この影響はマシン上のすべてのローカル アカウントに及びます。したがって、この設定に失敗すると、ボックスの管理アカウントも最終的には期限切れになります。  <br/> |常にログインするように Skype アカウントを有効にする  <br/> |
 
 > [!NOTE]
-> Microsoft Teams Roomsが次のバージョンのWindows 10 OS と互換性がある場合、Teams Rooms Windows Updateを使用して次のバージョンに自動的に更新されます。 Microsoft Teams Roomsを手動でWindows 10の次のリリースにアップグレードしたり、GPO を使用して "受信する更新プログラムのWindows準備レベルを選択する" Windows Update for Business (WUFB) グループ ポリシーを有効にしたり、"プレビュー ビルドと機能更新プログラムを受信したときに選択する" を有効にしたりしないでください。 これらのグループ ポリシーが有効になっているTeams Roomsは、Windows 10 OS 更新プログラムに関する問題が発生することがわかっています。
+> Microsoft Teams Roomsが次のバージョンのWindows 10 OS と互換性がある場合、Teams Rooms Windows Updateを使用して次のバージョンに自動的に更新されます。 Microsoft Teams Rooms手動でWindows 10の次のリリースにアップグレードしたり、GPO を使用してビジネス向けWindows Update (WUFB) グループ ポリシー "受信する更新プログラムの Windows 準備レベルの選択" と "プレビュー ビルドと機能の更新の受信時の選択" を有効にしたりしないでください。 これらのグループ ポリシーが有効になっているTeams Roomsは、Windows 10 OS 更新プログラムに関する問題が発生することがわかっています。
 
 ## <a name="remote-management-using-powershell"></a>PowerShell を使ったリモート管理
 <a name="RemotePS"> </a>
@@ -221,9 +222,9 @@ Copy-Item $movefile $targetDevice
 ## <a name="software-updates"></a>ソフトウェアの更新
 <a name="SWupdate"> </a>
 
-既定では、Microsoft Teams Roomsは最新バージョンのMicrosoft Teams Rooms ソフトウェアを取得するためにWindows Microsoft Storeに接続しようとします。 そのため、Teams Roomsには通常のインターネット アクセスが必要です。 サポートの問題で Microsoft に連絡する前に、Microsoft Teams Roomsが最新バージョンのアプリで読み込まれていることを確認してください。
+既定では、Microsoft Teams Roomsは Windows ストアへの接続を試み、最新バージョンのMicrosoft Teams Rooms ソフトウェアを取得します。 そのため、Teams Roomsには通常のインターネット アクセスが必要です。 サポートの問題で Microsoft に連絡する前に、Microsoft Teams Roomsが最新バージョンのアプリで読み込まれていることを確認してください。
   
-Microsoft Teams RoomsはWindows Updateに接続して、オペレーティング システムと周辺機器のファームウェアの更新プログラムを取得します。 また、Microsoft Storeに接続して、アプリケーションの更新プログラムを取得します。
+Microsoft Teams RoomsはWindows Updateに接続して、オペレーティング システムと周辺機器のファームウェアの更新プログラムを取得します。 また、Microsoft Store に接続して、アプリケーションの更新プログラムを取得します。
 
 アプリケーション更新プログラムを手動で管理する必要があるが、[オフライン アプリを配布](/microsoft-store/distribute-offline-apps)[するビジネス向け Microsoft Store](https://businessstore.microsoft.com/store)の通常の手順に従えない場合は、Teams Rooms更新プログラム パッケージを取得して、サポートされているオペレーティング システムでアプリの更新プログラムを実行できます。 更新プログラムリリースはストア リリースより遅れている可能性があり、利用可能な最新のビルドと必ずしも一致しない可能性があります。 詳細については、「[Microsoft Teams Rooms デバイスを手動で更新](manual-update.md)する」を参照してください。
 
@@ -259,7 +260,7 @@ Microsoft Teams RoomsはWindows Updateに接続して、オペレーティング
    ## <a name="troubleshooting-tips"></a>トラブルシューティングのヒント
    <a name="TS"> </a>
 
-- 会議の招待状は、ドメイン境界 (たとえば、2 つの会社間) を越えて送信すると表示されない場合があります。 このような場合、IT 管理者は外部ユーザーに対して会議のスケジュール設定を許可するかどうか決定する必要があります。 Exchange PowerShell コマンドレット [Set-CalendarProcessing](/powershell/module/exchange/set-calendarprocessing) (具体的には 'ProcessExternalMeetingMessages' パラメーター) の記事を参照してください。
+- 会議の招待状は、ドメイン境界 (たとえば、2 つの会社間) を越えて送信すると表示されない場合があります。 このような場合、IT 管理者は外部ユーザーに対して会議のスケジュール設定を許可するかどうか決定する必要があります。 Exchange PowerShell コマンドレット [Set-CalendarProcessing](/powershell/module/exchange/set-calendarprocessing) (特に 'ProcessExternalMeetingMessages' パラメーター) の記事を参照してください。
 - Microsoft Teams Rooms では、Exchange 2010 経由での Exchange 自動検出リダイレクトはサポートされていません。
 - 一般に、使用しないオーディオ エンドポイントを無効にするよう IT 管理者にお勧めします。
 - ルーム プレビューにミラーイメージが表示された場合、IT 管理者はカメラの電源を循環するか、カメラ設定を使用して画像の向きを反転することで修正できます。

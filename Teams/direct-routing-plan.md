@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Microsoft Direct Routing を使用して、サポートされている顧客が提供するセッション ボーダー コントローラー (SBC) を電話システムに接続する方法について説明します。
-ms.openlocfilehash: fd5f2733fc11511e6cfc2e646c0bb78aff26b522
-ms.sourcegitcommit: 15ec17eff4ad4c962d00b8683513f9b269d82917
+ms.openlocfilehash: f3fe1e9f6f2244c7d33528488f07e66797509d2a
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "66695060"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267782"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -150,7 +150,7 @@ SBC ドメイン名は、テナントのドメインに登録されている名�
 
 |DNS 名|SBC FQDN に使用できます|FQDN 名の例|
 |:--- |:--- |:--- |
-contoso.com|はい|**有効な名前:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
+contoso.com|Yes|**有効な名前:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
 |contoso.onmicrosoft.com|いいえ|*.onmicrosoft.com ドメインの使用は、SBC 名ではサポートされていません
 
 新しいドメイン名を使用することを想定しています。 たとえば、テナントにドメイン名として contoso.com が登録されており、sbc1.sip.contoso.com を使用します。 SBC と名前 sbc1.sip.contoso.com をペアリングする前に、テナント内のドメインにドメイン名 sip.contoso.com を登録する必要があります。 ドメイン名を登録する前に SBC と sbc1.sip.contoso.com のペアリングを試みると、「このテナント用に構成されていないため、"sbc1.sip.contoso.com" ドメインを使用できません」というエラーが表示されます。
@@ -256,8 +256,8 @@ Microsoft 365 またはダイレクト ルーティングが提供されるOffic
 
 |トラフィック|開始|終了|送信元ポート|宛先ポート|
 |:--- |:--- |:--- |:--- |:--- |
-|SIP/TLS|SIP プロキシ|SBC|1024 – 65535|SBC で定義されている (Office 365 GCC High/DoD の場合はポート 5061 のみを使用する必要があります)|
-SIP/TLS|SBC|SIP プロキシ|SBC で定義されている|5061|
+|SIP/TLS|SIP プロキシ|Sbc|1024 – 65535|SBC で定義されている (Office 365 GCC High/DoD の場合はポート 5061 のみを使用する必要があります)|
+SIP/TLS|Sbc|SIP プロキシ|SBC で定義されている|5061|
 ||||||
 
 ### <a name="failover-mechanism-for-sip-signaling"></a>SIP シグナリングのフェールオーバー メカニズム
@@ -266,10 +266,10 @@ SBC では、sip.pstnhub.microsoft.com を解決するための DNS クエリが
 
 次の表は、プライマリ、セカンダリ、およびターシャリ データセンター間の関係をまとめたものです。
 
-|プライマリ データセンターが|EMEA|NOAM|アジア|
+|プライマリ データセンターが|EMEA|Noam|アジア|
 |:--- |:--- |:--- |:--- |
-|セカンダリ データセンター (sip2.pstnhub.microsoft.com)|私たち|EU|私たち|
-|ターシャリ データセンター (sip3.pstnhub.microsoft.com)|アジア|アジア|EU|
+|セカンダリ データセンター (sip2.pstnhub.microsoft.com)|私たち|Eu|私たち|
+|ターシャリ データセンター (sip3.pstnhub.microsoft.com)|アジア|アジア|Eu|
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>メディア トラフィック: ポート範囲
@@ -295,8 +295,8 @@ SBC では、sip.pstnhub.microsoft.com を解決するための DNS クエリが
 
 |トラフィック|開始|終了|送信元ポート|宛先ポート|
 |:--- |:--- |:--- |:--- |:--- |
-|UDP/SRTP|メディア プロセッサ|SBC|3478-3481 および 49152 – 53247|SBC で定義されている|
-|UDP/SRTP|SBC|メディア プロセッサ|SBC で定義されている|3478-3481 および 49152 – 53247|
+|UDP/SRTP|メディア プロセッサ|Sbc|3478-3481 および 49152 – 53247|SBC で定義されている|
+|UDP/SRTP|Sbc|メディア プロセッサ|SBC で定義されている|3478-3481 および 49152 – 53247|
 
   > [!NOTE]
   > Microsoft では、SBC での同時呼び出しごとに少なくとも 2 つのポートを推奨しています。
@@ -334,7 +334,7 @@ SBC では、sip.pstnhub.microsoft.com を解決するための DNS クエリが
 Cloud Media Processor と Microsoft Teams クライアントの間の区間では、SILK または G.722 が使用されます。 この区間のコーデックの選択は、複数のパラメーターを考慮した Microsoft アルゴリズムに基づいています。 
 
   > [!NOTE]
-  > メディアの再ターゲット設定はサポートされていません。 ダイレクト ルーティングの呼び出し中に、SBC が Teams Direct Routing に新しいメディア IP を送信する場合、SIP シグナリングでネゴシエートされますが、メディアは Teams ダイレクト ルーティングから新しい IP アドレスに送信されることはありません。
+  > メディアの再ターゲット設定はサポートされていません。 ダイレクト ルーティングの呼び出し中に、SBC が新しいメディア IP を Teams ダイレクト ルーティングに送信する場合、SIP 信号でネゴシエートされますが、メディアは Teams ダイレクト ルーティングから新しい IP アドレスに送信されることはありません。
 
 ## <a name="supported-session-border-controllers-sbcs"></a>サポートされているセッション ボーダー コントローラー (SBC)
 
@@ -344,6 +344,8 @@ Microsoft では、ダイレクト ルーティングとペアリングするた
 
 サポートされている SBC の詳細については、「 [ダイレクト ルーティング用に認定されたセッション ボーダー コントローラー](direct-routing-border-controllers.md)」を参照してください。
 
+## <a name="support-boundaries"></a>サポート境界
+Microsoft は、認定されたデバイスで使用する場合にのみ、ダイレクト ルーティングを備えた電話システムをサポートします。 問題が発生した場合は、最初に SBC ベンダーのカスタマー サポートに連絡する必要があります。 必要に応じて、SBC ベンダーは内部チャネルを介して問題を Microsoft にエスカレートします。 Microsoft は、認定済みでないデバイスがダイレクト ルーティング経由で電話システムに接続されている場合に、サポート ケースを拒否する権利を留保します。 お客様のダイレクト ルーティングの問題がベンダーの SBC デバイスにあると Microsoft が判断した場合、お客様は SBC ベンダーにサポートを再び依頼する必要があります。
  
 ## <a name="see-also"></a>関連項目
 

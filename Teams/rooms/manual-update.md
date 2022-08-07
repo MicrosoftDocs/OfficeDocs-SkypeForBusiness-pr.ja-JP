@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Rooms デバイスを手動で更新する
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 appliesto:
@@ -14,19 +14,20 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 description: Microsoft Teams Rooms デバイスを特定のバージョンに手動で更新する方法について説明します。
-ms.openlocfilehash: 647a961e238d452fd3bfe162ffe8552e64329677
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: c3128f5b909901da0eb5578f1586aaad785b49a6
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63503724"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267642"
 ---
 # <a name="manually-update-a-microsoft-teams-rooms-device"></a>Microsoft Teams Rooms デバイスを手動で更新する
 
-Microsoft Teams Rooms アプリは、Microsoft Storeを通じて配布されます。 アプリの更新プログラムは、夜間のメンテナンス中に自動的にMicrosoft Storeからインストールされます。これは、更新プログラムを取得するために推奨される方法です。 ただし、Teams Rooms デバイスがMicrosoft Storeから更新プログラムを受信できない状況もあります。 たとえば、セキュリティ ポリシーでは、デバイスがインターネットに接続できない場合や、Microsoft Storeからアプリをダウンロードできない場合があります。 または、セットアップを実行する前にデバイスを更新し、その間にMicrosoft Storeを使用できない場合があります。
+Microsoft Teams Rooms アプリは Microsoft Store を通じて配布されます。 アプリへの更新は、夜間のメンテナンス中に Microsoft Store から自動的にインストールされます。これは、更新プログラムを取得するために推奨される方法です。 ただし、Teams Rooms デバイスが Microsoft Store から更新プログラムを受信できない状況もあります。 たとえば、セキュリティ ポリシーでは、デバイスがインターネットに接続できない場合や、Microsoft Store からアプリをダウンロードできない場合があります。 または、セットアップを実行する前にデバイスを更新し、その間に Microsoft Store を使用できない場合もあります。
 
-Microsoft Storeから更新プログラムを取得できない場合は、オフライン アプリの PowerShell 更新スクリプトを使用して、Teams Rooms デバイスをTeams Rooms アプリの新しいバージョンに手動で更新できます。 この記事の手順に従って、Teams Rooms デバイスを手動で更新します。
+Microsoft Store から更新プログラムを取得できない場合は、オフライン アプリの PowerShell 更新スクリプトを使用して、Teams Rooms デバイスをTeams Rooms アプリの新しいバージョンに手動で更新できます。 この記事の手順に従って、Teams Rooms デバイスを手動で更新します。
 
 > [!NOTE]
 > このプロセスでは、Teams Rooms アプリが既にインストールされているTeams Rooms デバイスのみを更新できます。 新しいインストールを実行するために使用することはできません。 また、アプリを古いバージョンにダウングレードするために使用することはできません。 Teams Rooms アプリの新しいインストールを実行するには、デバイスに固有のメディアについては、デバイスの製造元にお問い合わせください。
@@ -35,7 +36,7 @@ Microsoft Storeから更新プログラムを取得できない場合は、オ�
 
 まず、オフライン アプリ更新スクリプトの最新バージョンをダウンロードします。 スクリプトをダウンロードするには、をクリックします <https://go.microsoft.com/fwlink/?linkid=2151817>。 スクリプトは、デバイス上の既定のダウンロード フォルダーにダウンロードされます。
 
-ダウンロードしたファイルは、Windowsによってブロック済みとしてマークされる場合があります。 対話なしでスクリプトを実行する必要がある場合は、スクリプトのブロックを解除する必要があります。 スクリプトのブロックを解除するには、次の操作を行います。
+ダウンロードしたファイルは、Windows によってブロック済みとしてマークされる場合があります。 対話なしでスクリプトを実行する必要がある場合は、スクリプトのブロックを解除する必要があります。 スクリプトのブロックを解除するには、次の操作を行います。
 
 1. エクスプローラーでファイルを右クリックします
 2. **[プロパティ**] をクリックします
@@ -44,15 +45,15 @@ Microsoft Storeから更新プログラムを取得できない場合は、オ�
 
 PowerShell を使用してスクリプトのブロックを解除するには、「 [ブロック解除-ファイル](/powershell/module/microsoft.powershell.utility/unblock-file?view=powershell-7.1)」を参照してください。
 
-オフライン アプリ更新スクリプトがダウンロードされたら、Teams Rooms デバイスにファイルを転送します。 デバイスにファイルを転送するには、USB ドライブを使用するか、デバイスの管理モードでネットワーク ファイル共有からファイルにアクセスします。 デバイス上のファイルを保存する場所に注意してください。
+オフライン アプリ更新スクリプトがダウンロードされたら、Teams Rooms デバイスにファイルを転送します。 デバイスにファイルを転送するには、USB ドライブを使用するか、デバイスの管理 モードでネットワーク ファイル共有からファイルにアクセスします。 デバイス上のファイルを保存する場所に注意してください。
 
 ## <a name="step-2-run-the-script-to-update-the-teams-rooms-app"></a>手順 2: スクリプトを実行してTeams Rooms アプリを更新する
 
-オフライン アプリ更新スクリプトは、管理者特権のコマンド プロンプトから実行する必要があります。ただし、Skype ユーザー (アプリが実行されているユーザー) は引き続きサインインしています。 Skype ユーザーがまだログインしている間に管理者特権のコマンド プロンプトを使用するために管理者アカウントにログインする方法の詳細については、「管理者[モードへの切り替えと、Microsoft Teams Rooms アプリがクラッシュしたときに戻る](rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes)」を参照してください。
+Skype ユーザー (アプリが実行されているユーザー) がまだサインインしている間は、オフライン アプリ更新スクリプトを管理者特権のコマンド プロンプトから実行する必要があります。 Skype ユーザーがまだログインしている間に管理者特権のコマンド プロンプトを使用するために管理者アカウントにログインする方法の詳細については、「[管理 モードへの切り替えと、Microsoft Teams Rooms アプリがクラッシュしたときに戻る](rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes)」を参照してください。
 
 管理者特権のコマンド プロンプトからスクリプトを実行するには、次の操作を行います。
 
-1. 管理者モードに切り替える
+1. 管理 モードに切り替える
 2. [スタート] アイコンをクリックし、「**コマンド プロンプト」** と入力して、[**管理者として実行**] を選択します。
 3. スクリプトへの完全なパスとスクリプト ファイルの名前を含む次のコマンド `<path to script>` を実行します。
 

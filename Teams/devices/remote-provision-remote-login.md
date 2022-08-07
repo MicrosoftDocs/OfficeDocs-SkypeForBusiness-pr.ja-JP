@@ -9,7 +9,7 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
+- Teams_ITAdmin_Devices
 f1.keywords:
 - NOCSH
 appliesto:
@@ -17,50 +17,50 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Teams Android デバイスのリモート プロビジョニングとサインインの方法について説明します
-ms.openlocfilehash: 5a746e3255ce8af9bcf59f8dfcae12854b222a1f
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: 566f7428d03a16082a37ff7a8896cffbb27b85ec
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761289"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267792"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Teams Android デバイスのリモート プロビジョニングとサインイン
 
-IT 管理者は、Teams Android デバイスをリモートでプロビジョニングしてサインインできます。 デバイスをリモートでプロビジョニングするには、管理者がプロビジョニングするデバイスの MAC ID をアップロードし、検証コードを作成する必要があります。 プロセス全体は、Teams管理センターからリモートで完了できます。
+IT 管理者は、Teams Android デバイスをリモートでプロビジョニングしてサインインできます。 デバイスをリモートでプロビジョニングするには、管理者がプロビジョニングするデバイスの MAC ID をアップロードし、検証コードを作成する必要があります。 プロセス全体は、Teams 管理センターからリモートで完了できます。
 
 ## <a name="review-the-supported-devices"></a>サポートされているデバイスを確認する
 
-次の一覧は、Androidデバイスファームウェアの要件を示しています。
+次の一覧は、Android デバイスのファームウェア要件を示しています。
 
 |デバイス カテゴリ|デバイス モデル|ファームウェアのバージョン|
 |---|---|---|
-|Teams電話|Yealink T55/T56/T58|58.15.0.124|
-|Teams電話|Yealink VP59|91.15.0.58|
-|Teams電話|Yealink CP960|73.15.0.117|
-|Teams電話|Yealink MP56/MP54/MP58|122.15.0.36|
-|Teams電話|レストロン UC-2|1.0.3.52|
-|Teams電話|PolyTrio C60|7.0.2.1071|
-|Teams電話|CCX400/CCX500/CCX600 |7.0.2.1072|
-|Teams電話|オーディオ コード C448HD/C450HD/C470HD|1.10.120|
+|Teams の電話|Yealink T55/T56/T58|58.15.0.124|
+|Teams の電話|Yealink VP59|91.15.0.58|
+|Teams の電話|Yealink CP960|73.15.0.117|
+|Teams の電話|Yealink MP56/MP54/MP58|122.15.0.36|
+|Teams の電話|レストロン UC-2|1.0.3.52|
+|Teams の電話|PolyTrio C60|7.0.2.1071|
+|Teams の電話|CCX400/CCX500/CCX600 |7.0.2.1072|
+|Teams の電話|オーディオ コード C448HD/C450HD/C470HD|1.10.120|
 |Teams パネル|770/1070|1.004.0115|
-|AndroidのTeams Rooms|Logitech Rally Bar Mini|1.2.982|
-|AndroidのTeams Rooms|Logitech Rally Bar|1.2.982|
-|AndroidのTeams Rooms|AudioCodes RXV80|1.13.361|
-|AndroidのTeams Rooms|エポポス EXPAND Vision 3T|1.2.2.21182.10|
-|AndroidのTeams Rooms|Yealink MeetingBar A30|133.15.0.60|
-|AndroidのTeams Rooms|Yealink MeetingBar A20|133.15.0.60|
-|AndroidのTeams Rooms|Yealink CTP18 タッチ コンソール|137.15.0.37|
-|AndroidのTeams Rooms|Poly Studio X30|3.5.0.344025|
-|AndroidのTeams Rooms|Poly Studio X50|3.5.0.344025|
-|AndroidのTeams Rooms|Poly TC8 タッチ コンソール |3.5.0.210489|
-|AndroidのTeams Rooms|Yealink VC210|118.15.0.54|
+|Android でのTeams Rooms|Logitech Rally Bar Mini|1.2.982|
+|Android でのTeams Rooms|Logitech Rally Bar|1.2.982|
+|Android でのTeams Rooms|AudioCodes RXV80|1.13.361|
+|Android でのTeams Rooms|エポポス EXPAND Vision 3T|1.2.2.21182.10|
+|Android でのTeams Rooms|Yealink MeetingBar A30|133.15.0.60|
+|Android でのTeams Rooms|Yealink MeetingBar A20|133.15.0.60|
+|Android でのTeams Rooms|Yealink CTP18 タッチ コンソール|137.15.0.37|
+|Android でのTeams Rooms|Poly Studio X30|3.5.0.344025|
+|Android でのTeams Rooms|Poly Studio X50|3.5.0.344025|
+|Android でのTeams Rooms|Poly TC8 タッチ コンソール |3.5.0.210489|
+|Android でのTeams Rooms|Yealink VC210|118.15.0.54|
 
 ## <a name="add-a-device-mac-address"></a>デバイスの MAC アドレスを追加する
 
 新しいデバイスをプロビジョニングするには、次の手順を実行します。
 
 1. Teams 管理センターにサインインします。
-2. **[Teams デバイス] を展開します**。
+2. **Teams デバイスを展開します**。
 3. [アクション] タブで [**新しいデバイスのプロビジョニング****] を** 選択します。
 
 [ **新しいデバイスのプロビジョニング** ] ウィンドウで、MAC アドレスを手動で追加するか、ファイルをアップロードできます。
@@ -77,10 +77,10 @@ IT 管理者は、Teams Android デバイスをリモートでプロビジョニ
 
 ### <a name="upload-a-file-to-add-a-device-mac-address"></a>デバイスの MAC アドレスを追加するファイルをアップロードする
 
-1. [**アクティブ化の待機中**] タブで、**MAC ID アップロード** 選択します。
+1. [ **アクティブ化の待機中** ] タブで、[ **MAC ID のアップロード**] を選択します。
 2. ファイル テンプレートをダウンロードします。
 3. MAC ID と場所を入力し、ファイルを保存します。
-4. **ファイルを選択** し、**アップロード** を選択します。
+4. **ファイルを選択** し、[ **アップロード**] を選択します。
 
 ## <a name="generate-a-verification-code"></a>確認コードを生成する
 
@@ -93,9 +93,9 @@ IT 管理者は、Teams Android デバイスをリモートでプロビジョニ
 
 ## <a name="provision-the-device"></a>デバイスをプロビジョニングする
 
-デバイスの電源がオンになり、ネットワークに接続されると、技術者はデバイスをプロビジョニングします。 これらの手順は、Teams デバイスで完了します。
+デバイスの電源がオンになり、ネットワークに接続されると、技術者はデバイスをプロビジョニングします。 これらの手順は Teams デバイスで完了します。
 
-1. 技術者は **、設定** から **[デバイスのプロビジョニング**] を選択します。  
+1. 技術者は **、[設定]** から [**デバイスのプロビジョニング**] を選択します。  
 
    ![[アクション] タブから新しいデバイス オプションをプロビジョニングします。](../media/provision-device1.png)
   

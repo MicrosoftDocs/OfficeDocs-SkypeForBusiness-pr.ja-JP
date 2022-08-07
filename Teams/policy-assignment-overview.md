@@ -14,16 +14,16 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Microsoft Teamsのユーザーとグループにポリシーとポリシー パッケージを割り当てるさまざまな方法について説明します。
+description: Microsoft Teams のユーザーとグループにポリシーとポリシー パッケージを割り当てるさまざまな方法について説明します。
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 3dec8bf23167c5166302942140fcfe49e9ea3720
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: e7cf7ba085c7bad22fea4b14f79b9eb3d4e6e2aa
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156515"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268422"
 ---
 # <a name="assign-policies-in-teams--getting-started"></a>Teams でポリシーを割り当てる – 作業の開始
 
@@ -83,9 +83,9 @@ ms.locfileid: "67156515"
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、更新するポリシー タイプのポリシー ページに移動します。 たとえば、**Teams** > **Teams ポリシー**、**会議** > **会議ポリシー**、**メッセージ ポリシー**、または **音声** > **通話ポリシー** です。
 2. 現在の設定を表示するには、**グローバルな (組織全体の既定の)** ポリシーを選択します。
-3. 必要に応じてポリシーを更新し、**[適用]** を選択します。
+3. 必要に応じてポリシーを更新し、[ **保存**] を選択します。
 
-![Teams 管理センターでグローバル ポリシーを更新します。](media/assign-globalpolicy.png)
+:::image type="content" source="media/teams-meetings-policies-global-general.png" alt-text="Teams 管理センターの更新プログラムのグローバル ポリシーを示すスクリーンショット。" lightbox="media/teams-meetings-policies-global-expanded.png":::
 
 ### <a name="using-powershell"></a>PowerShell の使用
 
@@ -123,13 +123,13 @@ Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
 
 ## <a name="view-your-policy-assignments-in-the-activity-log"></a>アクティビティ ログでポリシーの割り当てを表示する
 
-Microsoft Teams管理センターのユーザーにポリシーを割り当てると、それらのポリシー割り当ての状態を [アクティビティ ログ](https://admin.teams.microsoft.com/activitylog)に表示できます。 アクティビティ ログには、ネットワーク レコードのアップロード情報、Teams 管理センターと PowerShell からのグループ ポリシー操作、および Teams 管理センターからの過去 30 日間のバッチ ポリシー操作 (20 人以上のユーザー) が表示されます。
+Microsoft Teams 管理センターのユーザーにポリシーを割り当てると、それらのポリシーの割り当ての状態を [アクティビティ ログ](https://admin.teams.microsoft.com/activitylog)に表示できます。 アクティビティ ログには、ネットワーク レコードのアップロード情報、Teams 管理センターと PowerShell からのグループ ポリシー操作、および Teams 管理センターからの過去 30 日間のバッチ ポリシー操作 (20 人以上のユーザー) が表示されます。
 
-![[アクティビティ ログ] ページのスクリーンショット。](media/Activity_Log.png)
+:::image type="content" source="media/teams-activity-log.png" alt-text="[アクティビティ ログ] ページのスクリーンショット。" lightbox="media/Activity_Log.png":::
 
 アクティビティ ログでポリシー操作を表示するには:
 
-1. Microsoft Teams管理センターの左側のナビゲーションで、[ **ダッシュボード**] に移動し、[ **アクティビティ ログ**] で [ **詳細の表示**] を選択します。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、[ **ダッシュボード**] に移動し、[ **アクティビティ ログ**] で [ **詳細の表示**] を選択します。
 2. 各ポリシー操作に関する次の情報が表示されます。
     - **アクティビティ**: ポリシー操作の名前。 たとえば、 **グループ ポリシーの割り当て**
     - **グループ名**: ポリシー操作が完了したグループの名前。

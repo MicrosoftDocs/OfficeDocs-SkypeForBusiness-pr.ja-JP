@@ -9,25 +9,24 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-voice
-- Teams_ITAdmin_RemoteWorkers
 search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: Teams 使用率 Power BI レポートを使用して、Microsoft Teams 通話品質ダッシュボード (CQD) データにアクセスして、組織内の Microsoft Teams の使用状況を追跡します。
-ms.openlocfilehash: 6e96f9dd06f872f2907d04aa335e2af2d7a75f2b
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: bd579fa3f57c6e3b50a363eb77523f577c750efb
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66790342"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270692"
 ---
 # <a name="view-microsoft-teams-utilization-in-power-bi-using-cqd-data"></a>CQD データを使用して Power BI の Microsoft Teams 使用率を表示する
 
-2020 年 3 月の新機能として、 [CQD 用のダウンロード可能な Power BI クエリ テンプレート](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)に Teams 使用率レポートが追加されました。 
+Teams 使用率レポートは、 [CQD 用のダウンロード可能な Power BI クエリ テンプレートの](https://www.microsoft.com/download/details.aspx?id=102291)一部として使用できます。 
 
-この新しい Teams 使用率レポートでは、Teams 通話品質ダッシュボード (CQD) データにアクセスして、ユーザーが Microsoft Teams を使用している方法 (および使用量) を確認できます。 これらのレポートは、管理者とビジネス リーダーの両方がこのデータにすばやくアクセスできる一元的な場所であることを目的としています。
+このレポートでは、Teams 通話品質ダッシュボード (CQD) データにアクセスして、ユーザーが Microsoft Teams を使用している方法 (および量) を確認できます。 これらのレポートは、管理者とビジネス リーダーの両方がこのデータにすばやくアクセスできる一元的な場所であることを目的としています。 [通話品質テレメトリの性質上、このデータを具体的な数値に依存しないことを](CQD-frequently-asked-questions.md#im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that)お勧めします。
 
 Teams 使用率 Power BI レポートは、 **[通話数の概要](#call-count-summary-report)** と **[音声分](#audio-minutes-summary-report)** の概要という 2 つの主要なレポートで構成されます。 ユーザーがドリルダウン レポートを利用すると、 [毎日の使用状況](#daily-usage)、 [地域オーディオの詳細](#regional-audio-details)、会議の [詳細](#conference-details) 、 [ユーザー リスト](#user-list) のレポートが表示されます(以下の説明を参照)。
 

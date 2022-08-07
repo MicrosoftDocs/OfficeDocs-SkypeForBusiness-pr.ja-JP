@@ -21,22 +21,22 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 72fdabd1ba25254876bc3d4506c889d50cbc6613
-ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
+ms.openlocfilehash: d33573d86f2bcb485f6a7e7cfc550ea1f3184223
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "65370890"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270492"
 ---
 # <a name="configure-sip-gateway"></a>SIP ゲートウェイを構成する
 
-この記事では、組織がMicrosoft Teamsと互換性のある SIP デバイスを使用できるように SIP ゲートウェイを構成する方法について説明します。 組織に対して実行できる SIP ゲートウェイと、組織に必要なハードウェア、ソフトウェア、ライセンスについては、「 [SIP ゲートウェイの計画](sip-gateway-plan.md)」を参照してください。
+この記事では、組織が Microsoft Teams と互換性のある SIP デバイスを使用できるように SIP ゲートウェイを構成する方法について説明します。 組織に対して実行できる SIP ゲートウェイと、組織に必要なハードウェア、ソフトウェア、ライセンスについては、「 [SIP ゲートウェイの計画](sip-gateway-plan.md)」を参照してください。
 
 SIP ゲートウェイを構成する前に、次の操作を行います。
 
 - **SIP デバイスを出荷時の既定の設定にリセットします。** 自分または組織のユーザーは、SIP ゲートウェイで使用される各 SIP デバイスを工場出荷時の既定の設定にリセットする必要があります。 その方法については、製造元の手順を参照してください。
 
-- **ファイアウォールを開いてMicrosoft 365してTeamsします。** Office 365 URL と IP アドレス範囲の説明に従って、ネットワークのファイアウォールを開いてトラフィック[をMicrosoft 365してTeamsします](/microsoft-365/enterprise/urls-and-ip-address-ranges)。 ファイアウォール規則は、送信トラフィックに対してのみ必要です。
+- **Microsoft 365 と Teams にファイアウォールを開きます。** [Office 365 URL と IP アドレス範囲](/microsoft-365/enterprise/urls-and-ip-address-ranges)の説明に従って、Microsoft 365 および Teams トラフィックに対するネットワークのファイアウォールを開きます。 ファイアウォール規則は、送信トラフィックに対してのみ必要です。
 
 - **SIP デバイスがプロキシの背後にないことを確認します。** http/s トラフィックが企業の http/s プロキシをバイパスすることを確認します。
 
@@ -60,7 +60,6 @@ SIP ゲートウェイを構成する前に、次の操作を行います。
   - https://httpblobsdgnoam.blob.core.windows.net
 
 
-
 次のセクションでは、SIP ゲートウェイを構成するために管理者として行う必要がある操作について説明します。
 
 - [組織で SIP ゲートウェイを使用できることを確認します](#verify-that-sip-gateway-is-available-for-your-organization)。
@@ -73,26 +72,25 @@ SIP ゲートウェイを構成する前に、次の操作を行います。
 
 - [便宜上、SIP デバイスを個別に登録するか、バッチで登録します](#provision-and-enroll-sip-devices-as-common-area-phones)。  
 
-
 - [SIP デバイスを表示および監視します。](#view-and-monitor-sip-devices)
 
 - [多言語ユーザー インターフェイスのサポートを有効にします。](#set-a-sip-devices-ui-language)
 
 ## <a name="verify-that-sip-gateway-is-available-for-your-organization"></a>組織で SIP ゲートウェイを使用できることを確認する
 
-1. [Teams管理センター](https://admin.teams.microsoft.com/)にサインインします。
+1. [Teams 管理センター](https://admin.teams.microsoft.com/)にサインインします。
 
-2. 左側で **[Teams デバイス**] を選択し、[**SIP デバイス**] タブが表示されているかどうかを確認します。 その場合は、組織に対して SIP ゲートウェイ サービスが有効になります。
+2. 左側で **[Teams デバイス** ] を選択し、[ **SIP デバイス** ] タブが表示されているかどうかを確認します。 その場合は、組織に対して SIP ゲートウェイ サービスが有効になります。
 
 ## <a name="enable-sip-gateway-for-the-users-in-your-organization"></a>組織内のユーザーに対して SIP ゲートウェイを有効にする
 
-組織の SIP ゲートウェイを有効にするには、Teams管理センターを使用するか、PowerShell コマンドレットを使用するかの 2 つの方法があります。
+組織の SIP ゲートウェイを有効にするには、Teams 管理センターを使用するか、PowerShell コマンドレットを使用するかの 2 つの方法があります。
 
-### <a name="by-using-teams-admin-center"></a>Teams管理センターを使用する
+### <a name="by-using-teams-admin-center"></a>Teams 管理センターを使用する
 
-Teams管理センターで SIP ゲートウェイを有効にするには、次の手順に従います。
+Teams 管理センターで SIP ゲートウェイを有効にするには、次の手順に従います。
 
-1. [Teams管理センター](https://admin.teams.microsoft.com/)に移動する
+1. [Teams 管理センター](https://admin.teams.microsoft.com/)に移動する
 
 2. 左側の [ **音声**] で、[ **通話ポリシー**] を選択します。
 
@@ -118,11 +116,11 @@ PowerShell [Set-CsTeamsCallingPolicy コマンドレットを](/powershell/modul
 
 SIP デバイスごとに、次のいずれかの SIP ゲートウェイ プロビジョニング サーバー URL を設定します。 
 
-- EMEA： `http://emea.ipp.sdg.teams.microsoft.com`
+- Emea： `http://emea.ipp.sdg.teams.microsoft.com`
 - アメリカ： `http://noam.ipp.sdg.teams.microsoft.com`
-- APAC： `http://apac.ipp.sdg.teams.microsoft.com`
+- Apac： `http://apac.ipp.sdg.teams.microsoft.com`
 
-上記の SIP ゲートウェイ プロビジョニング サーバー URL を DHCP サーバーで構成して、Teams組織に SIP デバイスを追加します。 DHCP サーバーの詳細については、「 [DHCP のデプロイと管理](/learn/modules/deploy-manage-dynamic-host-configuration-protocol)」を参照してください。 また、DHCP オプション 42 を使用してネットワーク タイム プロトコル (NTP) サーバーを指定し、DHCP オプション 2 を使用して協定世界時 (UTC) からのオフセットを秒単位で指定することもできます。 組織内のデバイスは、SIP ゲートウェイ プロビジョニング サーバーにルーティングされます。 正常にプロビジョニングされた SIP 電話には、Teamsロゴとサインイン用のソフト ボタンが表示されます。
+上記の SIP ゲートウェイ プロビジョニング サーバー URL を DHCP サーバーで構成して、TEAMS 組織に SIP デバイスを追加します。 DHCP サーバーの詳細については、「 [DHCP のデプロイと管理](/learn/modules/deploy-manage-dynamic-host-configuration-protocol)」を参照してください。 また、DHCP オプション 42 を使用してネットワーク タイム プロトコル (NTP) サーバーを指定し、DHCP オプション 2 を使用して協定世界時 (UTC) からのオフセットを秒単位で指定することもできます。 組織内のデバイスは、SIP ゲートウェイ プロビジョニング サーバーにルーティングされます。 正常にプロビジョニングされた SIP 電話には、Teams ロゴとサインイン用のソフト ボタンが表示されます。
 
 SIP デバイスが、オンボードでサポートされているファームウェアの最小バージョンであることを確認します。 オンボード中、SIP Gateway は既定の構成と認証のユーザー インターフェイスをデバイスにプッシュします。 SIP デバイスに必要なファームウェアバージョンについては、「 [SIP ゲートウェイの計画](sip-gateway-plan.md)」を参照してください。
 
@@ -130,11 +128,11 @@ SIP デバイスが、オンボードでサポートされているファーム�
 
 リモートで作業するユーザーは、次の手順を使用して、SIP デバイスへのプロビジョニング サーバー URL を手動で構成する必要があります。
 
-1. デバイス **で設定** を開き、デバイスの IP アドレスを取得します。
+1. デバイスの **[設定] を** 開き、デバイスの IP アドレスを取得します。
 
 2. ブラウザー ウィンドウを開き、デバイスの IP アドレスを入力し、(必要に応じて) ログインし、デバイスの Web ユーティリティでプロビジョニング サーバーの URL を構成します。
 
-3. Web ユーティリティ **の [設定****] または [詳細設定]** で、上に示したプロビジョニング サーバーの URL を入力します。
+3. Web ユーティリティの **[設定]** または [ **詳細設定]** で、上記のプロビジョニング サーバーの URL を入力します。
 
 > [!NOTE]
 > - 互換性のある SIP デバイスのみを SIP ゲートウェイにオンボードできます。 
@@ -146,7 +144,7 @@ SIP デバイスが、オンボードでサポートされているファーム�
 
 ## <a name="configure-conditional-access"></a>条件付きアクセスを構成する
 
-条件付きアクセスは、Microsoft 365 リソースにアクセスするデバイスが適切に管理され、セキュリティで保護されるようにするのに役立つ、Azure Active Directory (Azure AD) 機能です。 SIP ゲートウェイは Azure AD で SIP デバイスを認証するため、組織が企業ネットワーク内のデバイスに条件付きアクセスを使用する場合は、次の IP アドレスを除外する必要があります。
+条件付きアクセスは、Microsoft 365 リソースにアクセスするデバイスが適切に管理され、セキュリティで保護されるようにするのに役立つ Azure Active Directory (Azure AD) 機能です。 SIP ゲートウェイは Azure AD で SIP デバイスを認証するため、組織が企業ネットワーク内のデバイスに条件付きアクセスを使用する場合は、次の IP アドレスを除外する必要があります。
 
 - 北米:
     - 米国東部: 52.170.38.140
@@ -160,18 +158,18 @@ SIP デバイスが、オンボードでサポートされているファーム�
 
 詳細については、「 [IP アドレス範囲](/azure/active-directory/conditional-access/location-condition#ip-address-ranges)」を参照してください。
 
-
 ## <a name="provision-and-enroll-sip-devices-as-common-area-phones"></a>共通領域の電話として SIP デバイスをプロビジョニングして登録する
+
 > [!NOTE]
 > SIP デバイスを登録する前に、SIP ゲートウェイにオンボードする必要があります。
 
-タスクを効率化するために、TEAMS管理センターに SIP デバイスを一度に 1 つずつ、またはバッチで登録できます。 次の操作を実行してください。
+タスクを効率化するために、一度に 1 台またはバッチ単位で SIP デバイスを Teams 管理センターに登録できます。 次の操作を実行してください。
 
-1. [**Teams管理センター**](https://admin.teams.microsoft.com)にログインします。
+1. [**Teams 管理センター**](https://admin.teams.microsoft.com)にログインします。
 
-2. **Teams devicesSIP** >  **デバイスを選択します**。
+2. **Teams デバイス** > **の SIP デバイスを選択します**。
 
-3. 右上で **ActionsProvision デバイス****を** > 選択し、次のいずれかの手順に従います。
+3. 右上にある **[Actions** Provision devices] (アクション > **プロビジョニング デバイス**) を選択し、次のいずれかの手順に従います。
 
   - **1 つのデバイスをプロビジョニングするには:**
 
@@ -187,17 +185,17 @@ SIP デバイスが、オンボードでサポートされているファーム�
 
      a. **[アクティブ化を待機中**] の右側にある [**エクスポート**] (Microsoft Excel アイコン) を選択します。
      
-     b. [**デバイスのプロビジョニング**] ウィンドウの [**複数の MAC アドレスアップロード**] で、**テンプレートのダウンロードを選択します**。
+     b. [ **デバイスのプロビジョニング** ] ウィンドウの [ **複数の MAC アドレスのアップロード**] で、 **テンプレートのダウンロードを選択します**。
      
      c. **Template_Provisioning.csv** をコンピューターに保存し、**MAC ID** フィールドと **[場所]** フィールドに入力します。
     
-     d. [**デバイスのプロビジョニング**] ウィンドウで、**複数の MAC アドレスアップロード** 選択します。 
+     d. [ **デバイスのプロビジョニング** ] ウィンドウで、[ **複数の MAC アドレスのアップロード**] を選択します。 
 
-     E。 **[アップロード MAC アドレス**] ウィンドウの右側にある [**ファイルの選択**] を選択し、データを含む **Template_Provisioning.csv** ファイルを選択します。
+     E。 [ **MAC アドレスのアップロード** ] ウィンドウの右側にある [ **ファイルの選択**] を選択し、データを含む **Template_Provisioning.csv** ファイルを選択します。
 
      F。 [ **デバイスのプロビジョニング** ] ウィンドウの [ **アクティブ化待ち**] でデバイスを選択し、[ **確認コードの生成** ] を選択して、プロビジョニングされた各デバイスの 1 回限りの検証コードを生成します。 各 SIP デバイスの確認コードに注意してください。
 
-4. SIP デバイスで、登録機能コードに続いて確認コードをダイヤルします。 SIP デバイスで、登録機能コード \*55* (登録 1 回限りの検証コードの検証に SIP ゲートウェイで使用) にダイヤルし、その後、この特定のデバイスの管理センターで生成された確認コードTeamsダイヤルします。 たとえば、確認コードが123456されている場合は、55\* 123456をダイヤル\*してデバイスを登録します。
+4. SIP デバイスで、登録機能コードに続いて確認コードをダイヤルします。 SIP デバイスで、登録機能コード \*55* (登録 1 回限りの検証コードの検証に SIP ゲートウェイで使用) にダイヤルし、その後、この特定のデバイスの Teams 管理 センターで生成される確認コードをダイヤルします。 たとえば、確認コードが123456されている場合は、55\*123456ダイヤル\*してデバイスを登録します。
 
 5.  [ **デバイスのプロビジョニング** ] ウィンドウの [ **サインイン待ち] で**、[ **サインアウト**] を選択します。
 
@@ -205,19 +203,19 @@ SIP デバイスが、オンボードでサポートされているファーム�
 
 7. に [https://microsoft.com/devicelogin](https://microsoft.com/devicelogin)移動し、[ **コードの入力**] で SIP デバイスのペアリング コードを入力し、[ **次へ**] を選択します。
 
-8. Microsoft **サインイン** ページの [ **電子メールまたは電話** ] フィールドに、SIP デバイスの電子メール アドレスを入力し、[ **次へ**] を選択します。
+8. [Microsoft **サインイン**] ページの **[Emailまたは電話**] フィールドに SIP デバイスの電子メール アドレスを入力し、[**次へ**] を選択します。
 
 9. [ **パスワード** ] ページで、SIP デバイスの電子メール アドレスのパスワードを入力し、[ **サインイン**] を選択します。
 
-10. [**Teams SIP デバイス ゲートウェイにサインインしようとしています** か] ページで、[**続行**] を選択します。
+10. [ **Teams SIP デバイス ゲートウェイにサインインしようとしています** か] ページで、[ **続行**] を選択します。
 
 ## <a name="how-to-sign-in-and-sign-out"></a>サインインしてサインアウトする方法
 
-ユーザーの個人用デバイスでは、ローカル サインインのみがサポートされます。 管理センターからデバイスをサインアウトするには、次の手順に従います。
+ユーザーの個人用デバイスでは、ローカル サインインのみがサポートされます。 管理 センターからデバイスをサインアウトするには、次の手順に従います。
 
-1. [**Teams管理センター**](https://admin.teams.microsoft.com)にログインします。
+1. [**Teams 管理センター**](https://admin.teams.microsoft.com)にログインします。
 
-2. **Teams devicesSIP** >  **デバイスを選択します**。
+2. **Teams デバイス** > **の SIP デバイスを選択します**。
 
 3. 右側で SIP デバイスを選択し、[ **サインアウト**] を選択します。
 
@@ -241,11 +239,11 @@ SIP デバイスが、オンボードでサポートされているファーム�
 
 - SIP デバイス **でサインアウト** を押し、デバイスで説明されている手順に従います。 
 
-Teams管理センターでデバイスをサインアウトするには:
+Teams 管理センターでデバイスをサインアウトするには:
 
-1. [**Teams管理センター**](https://admin.teams.microsoft.com)にログインします。
+1. [**Teams 管理センター**](https://admin.teams.microsoft.com)にログインします。
 
-2. **Teams devicesSIP** >  **デバイスを選択します**。
+2. **Teams デバイス** > **の SIP デバイスを選択します**。
 
 3. 右側の **[SIP デバイス** ] ウィンドウで、デバイスを選択します。
 
@@ -253,24 +251,24 @@ Teams管理センターでデバイスをサインアウトするには:
 
 ## <a name="view-and-monitor-sip-devices"></a>SIP デバイスの表示と監視
 
-デバイスのユーザーが少なくとも 1 回サインインした後、Teams管理センターで SIP デバイス インベントリを表示および監視できます。 次の操作を実行してください。
+デバイスのユーザーが少なくとも 1 回サインインした後、Teams 管理センターで SIP デバイス インベントリを表示および監視できます。 次の操作を実行してください。
 
-1. [Teams管理センター](https://admin.teams.microsoft.com/)にログインします。
+1. [Teams 管理センター](https://admin.teams.microsoft.com/)にログインします。
 
-2. **Teams devicesSIP** >  **デバイスを選択します**。 サインインしているすべての SIP デバイスが右側に一覧表示されます。
+2. **Teams デバイス** > **の SIP デバイスを選択します**。 サインインしているすべての SIP デバイスが右側に一覧表示されます。
 
 ## <a name="restart-a-sip-device"></a>SIP デバイスを再起動する
 
-1. [Teams管理センター](https://admin.teams.microsoft.com)にログインします。
+1. [Teams 管理センター](https://admin.teams.microsoft.com)にログインします。
 
-2. **Teams devicesSIP** >  **デバイスを選択します**。 
+2. **Teams デバイス** > **の SIP デバイスを選択します**。 
 
 3. 右側で、再起動する SIP デバイスを選択し、[再起動] を選択 **します**。
 
 
 > [!NOTE]
-> - テナントから SIP デバイスを削除することは、現在、Teams管理センターで使用できません。 
-> - コマンドの実行はデバイスの可用性によって異なり、Teams管理センターに表示される実行状態と一致しない可能性があります。 サポートされていないデバイスで SIP ゲートウェイを有効にしようとすると、コマンドは実行されません。
+> - テナントから SIP デバイスを削除することは、Teams 管理センターで現在使用できません。 
+> - コマンドの実行はデバイスの可用性によって異なり、Teams 管理センターに表示される実行状態と一致しない場合があります。 サポートされていないデバイスで SIP ゲートウェイを有効にしようとすると、コマンドは実行されません。
 
 ## <a name="sync-policy-changes-to-sip-devices-to-enforce-policies"></a>ポリシーの変更を SIP デバイスに同期してポリシーを適用する
 
@@ -308,13 +306,13 @@ Cisco Phone の日本語を設定する方法:
 >   - Cisco CP-6821、CP-7811、CP-7821、CP-7841、CP-7861
 >   - ボイス メール ソフトキー ラベルは、文字列の長さの制限のため、Poly VVX のすべての言語で **VM** テキストでハードコーディングされます。
 
-## <a name="microsoft-teams-and-ipv6"></a>Microsoft Teamsと IPv6
+## <a name="microsoft-teams-and-ipv6"></a>Microsoft Teams と IPv6
 
-SIP ゲートウェイでは、IPv4 のみがサポートされます。 Microsoft Teamsサービスとクライアントは、IPv4 と IPv6 の両方をサポートしています。 Microsoft Teamsへの通信を制御する場合は、[Microsoft 365 URL と IP アドレス範囲の IP アドレス範囲を使用します](/microsoft-365/enterprise/urls-and-ip-address-ranges)。
+SIP ゲートウェイでは、IPv4 のみがサポートされます。 Microsoft Teams サービスとクライアントは、IPv4 と IPv6 の両方をサポートしています。 Microsoft Teams への通信を制御する場合は、 [Microsoft 365 URL と IP アドレス範囲の IP アドレス範囲を使用します](/microsoft-365/enterprise/urls-and-ip-address-ranges)。
 
 ## <a name="emergency-calling"></a>緊急通話
 
-SIP ゲートウェイでは、静的な緊急アドレス (登録済みとも呼ばれます) のみがサポートされます。 現在、登録済みのアドレスは、ダイレクト ルーティングのシナリオではサポートされていません。 緊急通報の詳細については、「緊急通報の [計画と管理](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)」を参照してください。
+SIP ゲートウェイでは、ネットワーク属性をネットワーク上で共有する互換性のある SIP デバイスの動的緊急通話 (動的 E911) がサポートされています。 これらの属性は Teams 管理センターでプロビジョニングされ、ローカル IP とサブネットの長さ、またはシャーシ ID とネットワーク ポート番号を組み合わせて使用できます。 場所の属性を共有しないデバイス、または場所が何らかの理由で動的に解決されない場合、SIP ゲートウェイは、登録されたアドレスに基づいて緊急通話を引き続きサポートします。 現在、登録済みのアドレスは、ダイレクト ルーティングのシナリオではサポートされていません。 緊急通報の詳細については、「緊急通報の [計画と管理](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)」を参照してください。
 
 ## <a name="report-problems-to-microsoft"></a>Microsoft に問題を報告する
 

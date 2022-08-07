@@ -7,10 +7,8 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 - remotework
-- m365initiative-deployteams
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -21,12 +19,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
 description: Teams のアドバイザーを使用して、Microsoft Teams の展開を計画および完了することを支援します。
-ms.openlocfilehash: b05567eb17d878d297be1900425e51760341389a
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: 795765459c7796449379fe4c8fb327140a19e9e2
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045596"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268822"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Teams のアドバイザーを使用して、Microsoft Teams の展開を支援する
 

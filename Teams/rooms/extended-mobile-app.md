@@ -3,27 +3,27 @@ title: モバイル アプリ拡張機能
 author: donnah007
 ms.author: v-donnahill
 manager: serdars
-ms.date: 06/02/2022
+ms.date: 07/25/2022
 ms.reviewer: dstrome
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-- MTMR-collaboration
-- MTMRinitiative-meetings
+- M365-collaboration
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Teams Rooms用のモバイル アプリケーション拡張機能
 f1keywords: Microsoft Teams Rooms Managed Service mobile app extension
-ms.openlocfilehash: 939ac7d5bd61f51a229400b2c1aee1bd38047369
-ms.sourcegitcommit: ea9cbb8e32b7f23c17930eadc0a1dcbd906449ae
+ms.openlocfilehash: e0e3839c1d2e801d8cb34ca251056f386fd2ce41
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66842323"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270932"
 ---
 # <a name="teams-rooms-mobile-client-application-features"></a>モバイル クライアント アプリケーションの機能をTeams Roomsする
 
@@ -31,12 +31,24 @@ ms.locfileid: "66842323"
 ## <a name="before-you-begin"></a>はじめに
 
 Teams Roomsモバイル アプリを使用するには、Microsoft 365 組織の管理者である必要があります。
-Apple App StoreまたはGoogle Play ストアから[Teams Rooms](https://apps.apple.com/app/apple-store/id761397963?pt=80423&ct=docsaboutadminapp&mt=8)モバイル アプリをダウンロード[します](https://play.google.com/store/search?q=Microsoft%20Teams%20Rooms&c=apps)。
+Apple App Storeまたは [Google Play ストア](https://play.google.com/store/search?q=Microsoft%20Teams%20Rooms&c=apps)から[Teams Rooms](https://apps.apple.com/app/apple-store/id761397963?pt=80423&ct=docsaboutadminapp&mt=8)モバイル アプリをダウンロードします。
+
+モバイル クライアントは、チケットの作成と組織内でのインシデント機能の管理の両方を提供します。
+
+## <a name="next-steps"></a>次の手順
 
 **MTMS モバイル アプリを取得するには**
 
 1. デバイスのアプリ ストアでマネージド サービスTeams Rooms検索し、インストールします。
 2. グローバル管理者のメール アドレスでサインインし、ダッシュボードを表示してサービスの正常性を確認し、ユーザー ライセンスを監視し、メッセージとサービス要求を表示します。
+
+**Teams Rooms モバイル アプリを使用するには**
+
+1. [Apple App Store]()または [Google Play ストア]()からアプリをダウンロードします。
+1. 有効な Microsoft 365 サブスクリプションがあることを確認します。
+1. Teams Rooms デスクトップ アプリへのアクセスに使用する作業資格情報を使用します。
+
+
 ## <a name="managing-incidents"></a>インシデントの管理
 
 インシデントを管理するためにモバイル アプリで使用できる機能の一部を次に示します。
@@ -48,84 +60,47 @@ Apple App StoreまたはGoogle Play ストアから[Teams Rooms](https://apps.ap
 - チケットの添付ファイルとファイルを表示します。
 - ユーザー パネルからサインアウトします (サインアウトした場合、通知/メッセージは無効になります)。
 
-### <a name="incidents-page"></a>[インシデント] ページ
-
 [インシデント] ページには、開いているインシデントの種類が表示されます。
 
 ![MTMS モバイル アプリケーションインシデントページ画面](../media/mtms-extended-app-001.png)
 
-## <a name="managing-tickets"></a>チケットの管理
+### <a name="report-an-incident"></a>インシデントを報告する
+
+![MTMS モバイル アプリケーション レポートのインシデントを示すスクリーンショット。](../media/mtms-extended-app-012.png)
+### <a name="view-an-incident-by-category"></a>カテゴリ別にインシデントを表示する
+
+![MTMS モバイル アプリケーションの [Rooms の問題] 画面を示すスクリーンショット。](../media/mtms-extended-app-001.png)
+
+### <a name="managing-tickets"></a>チケットの管理
 モバイル アプリでチケットを管理するための機能の一部を次に示します。
 
 - インシデントの確認 (読み取りとしてマーク)。
 - チケットのメッセージの読み取り、投稿、返信を行います。
 - ダーク モードに切り替えます。
 - 添付ファイルを追加する (写真を撮ってアップロードする)。
-- インシデントを報告する (チケットを作成する)。
+- インシデントを報告するチケットを作成します。
+- Microsoft Defender を使用してセキュリティと専門家とのコミュニケーションを管理する
 
-### <a name="ticket-messages"></a>チケット メッセージ
-
-![MTMS モバイル アプリケーション チケット メッセージ](../media/mtms-extended-app-003.png)
-
-![MTMS モバイル アプリケーション チケットの添付ファイル](../media/mtms-extended-app-007.png)
-
-
-### <a name="ticket-details"></a>チケットの詳細
+アプリでは、チケットの詳細、メッセージ、ファイルが個別のタブに表示されます。
 
 ![MTMS モバイル アプリケーション チケットの詳細 01 ](../media/mtms-extended-app-002.png)
 
-![MTMS モバイル アプリケーション チケットの詳細 02](../media/mtms-extended-app-004.png)
-
-![MTMS モバイル アプリケーション チケットの詳細 03](../media/mtms-extended-app-009.png)
+![MTMS モバイル アプリケーション チケット メッセージを示すスクリーンショット。](../media/mtms-extended-app-003.png)
 
 
-### <a name="report-an-incident"></a>インシデントを報告する
+<!--![Screenshot that shows MTMS mobile application ticket details 02.](../media/mtms-extended-app-004.png)
 
-![MTMS モバイル アプリケーション レポート インシデント](../media/mtms-extended-app-012.png)
-### <a name="view-an-incident-by-category"></a>カテゴリ別にインシデントを表示する
+![Screenshot that shows MTMS mobile application ticket details 03.](../media/mtms-extended-app-009.png)
 
-![MTMS モバイル アプリケーションルームの問題画面](../media/mtms-extended-app-001.png)<!--作成者ごとの Microsoft 承認済み画像.>
-### <a name="managed-security-with-microsoft-defender"></a>Microsoft Defender を使用したマネージド セキュリティ
+![MTMS mobile application managed security screen](../media/mtms-extended-app-009.png)
+![MTMS mobile application Messages screen](../media/mtms-extended-app-008.png)
+### Sign out
 
-![MTMS モバイル アプリケーション管理セキュリティ画面](../media/mtms-extended-app-009.png)
-### <a name="communication-with-experts"></a>専門家とのコミュニケーション
-![MTMS モバイル アプリケーションメッセージ画面](../media/mtms-extended-app-008.png)
-### <a name="sign-out"></a>サインアウトする
+![Screenshot that shows the MTMS mobile application signout page.](../media/mtms-extended-app-011.png)-->
 
-![MTMS モバイル アプリケーションのサインアウト ページ ページ](../media/mtms-extended-app-011.png)<!--作成者ごとの Microsoft 承認済み画像.>
-## <a name="frequently-asked-questions"></a>よく寄せられる質問
-
-よく寄せられる質問に対する回答を次に示します。
-
-**アプリを使用できるようにするには、どうすればよいですか?**
-
-アプリを使用するには、管理者権限と有効な Microsoft 365 サブスクリプションが必要です。
-
-
-**アプリでサポートされている言語は何ですか?**
-
-
-**インシデントとメッセージを組織の残りの部分と共有するにはどうすればよいですか?**
-
-
-**このアプリを複数のアカウントまたはテナントで使用できますか?**
-
-
-**ログインできないか、アプリが面白い動作をしています。問題のトラブルシューティングや修正を行うにはどうすればよいですか?**
+## <a name="troubleshooting"></a>トラブルシューティング
 
 一般的なモバイル アプリのトラブルシューティング手順をいくつか試すことができます。
 - アプリを閉じてから再度開きます。
-- アプリをアンインストールして再インストールします。アプリの最新バージョンであることを確認します。
+- アプリをアンインストールして再インストールします。 アプリの最新バージョンであることを確認します。
 - デバイスに Microsoft Authenticator またはポータル サイト アプリがインストールされている場合は、再インストールするか、最新バージョンに更新してみてください。 それでも問題が解決しない場合は、feedback365@microsoft.com にお知らせください。
-
-**質問に回答がない場合はどうすればよいですか?**
-
-## <a name="next-steps"></a>次の手順
-
-モバイル クライアントは、チケットの作成と組織内でのインシデント機能の管理の両方を提供します。
-
-**Teams Rooms モバイル アプリを使用するには**
-
-1. [Apple App Store]()または[Google Play ストア]()のいずれかにアプリをダウンロードする
-1. 有効な Microsoft 365 サブスクリプションがあることを確認します。
-1. Teams Rooms デスクトップ アプリへのアクセスに使用する作業資格情報を使用します。

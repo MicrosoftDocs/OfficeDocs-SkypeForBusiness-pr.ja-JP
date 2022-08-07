@@ -1,7 +1,7 @@
 ---
 title: Azure Monitor でMicrosoft Teams Rooms監視を計画する
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: Turgayo
 manager: serdars
 audience: ITPro
@@ -13,21 +13,22 @@ ms.localizationpriority: medium
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 ms.collection:
 - M365-collaboration
-description: この記事では、Azure Monitor を使用して、Skype for BusinessまたはTeams実装のMicrosoft Teams Roomsを監視するための計画に関する考慮事項について説明します。
+- Teams_ITAdmin_Rooms
+description: この記事では、Azure Monitor を使用して、Skype for Businessまたは Teams の実装のMicrosoft Teams Roomsを監視するための計画に関する考慮事項について説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 510f249ea4aef78b898294db0a2c3fbeef8fc283
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: ac3ac3af4e4f162238af0e9bf38c45569302fdfb
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63504124"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269572"
 ---
 # <a name="plan-microsoft-teams-rooms-monitoring-with-azure-monitor"></a>Azure Monitor でMicrosoft Teams Rooms監視を計画する
  
  この記事では、Microsoft Teams や Skype for Business の実装で、Azure Monitor を使用して Microsoft Teams Rooms デバイスを管理する場合の計画上の考慮事項について説明します。
 
 > [!NOTE]
-> 管理センターを使用して[、Teams Roomsの正常性監視Teams設定](../alerts/device-health-status.md)することもできます。
+> Teams 管理センターを使用して[、Teams Roomsの正常性監視を設定](../alerts/device-health-status.md)することもできます。
 
 [Azure Monitor](/azure/azure-monitor/overview) は、最初からクラウドで設計された監視サービスのコレクションです。 Azure Monitor コンポーネントでは、オンプレミスのリソースをデプロイおよび管理するのではなく、すべて Azure でホストされます。 構成は最小限であり、数分で稼働させることができます。 カスタマイズ作業によっては、個々のルーム システムのシステム正常性または障害の通知を提供することでMicrosoft Teams Roomsの監視に役立ち、数千のMicrosoft Teams Roomsの管理にスケールアップできます。
   

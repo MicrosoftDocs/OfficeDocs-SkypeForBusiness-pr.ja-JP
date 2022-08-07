@@ -11,18 +11,18 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-MS.collection:
-- M365-voice
 description: 自分の組織での通話および電話会議の使用状況の概要を把握するために、Microsoft Teams 管理センターにある Teams PSTN 使用状況レポートを、どのように使用するかについて説明します。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 15c14e05c1f283971b4882cf3f6e8d3758a2d8ba
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.collection:
+- M365-voice
+ms.openlocfilehash: 1539f679225334f71855300a54c4fba950ddd8f8
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023774"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267632"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft Teams PSTN 使用状況レポート
 

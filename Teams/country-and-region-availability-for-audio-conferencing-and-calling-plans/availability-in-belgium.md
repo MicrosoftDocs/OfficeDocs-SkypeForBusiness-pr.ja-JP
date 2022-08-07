@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ベルギーで利用できるSkype for BusinessとMicrosoft TeamsのMicrosoft 365とOffice 365サービスを次に示します。
-ms.openlocfilehash: 1aeb19d2cf8f423f3af9fd207771f47e419961de
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: ベルギーで利用できるSkype for Businessおよび Microsoft Teams の Microsoft 365 サービスとOffice 365 サービスを次に示します。
+ms.openlocfilehash: 31277c977f35f1ff07fce42708edccee69b380c2
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607834"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268642"
 ---
 # <a name="availability-in-belgium"></a>ベルギーでの利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ベルギーで利用できるSkype for BusinessとMicrosoft TeamsのMicrosoft 365とOffice 365サービスを次に示します。
+ベルギーで利用できるSkype for Businessおよび Microsoft Teams の Microsoft 365 サービスとOffice 365 サービスを次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -59,8 +59,8 @@ ms.locfileid: "58607834"
     
 |**機能**|**詳細**|
 |:-----|:-----|
-|通話プランは購入できますか?  <br/> |はい  <br/> |
-|通話プランで利用できる分数。 |カレンダー月には、次の 4 つのプラン オプションがあります。 <ul><li>120 分の国内通話プラン </li><li>240 分国内通話プラン</li></li><li>1200 分国内通話プラン </li></li><li>国内通話と国際通話プラン: 国内通話の 1200 分 -OR- 国際通話の 600 分 (暦月の最初に到達した方)</li></li> |
+|通話プランは購入できますか?  |はい          |   
+|通話プランで利用できる分数。    |1 暦月あたり 5 つのプラン オプションを使用できます。 <ul><li>従量課金制通話プラン </li><li> 120 分国内通話プラン </li><li> 240 分国内通話プラン </li><li> 1200 分国内通話プラン </li><li> 国際通話プラン: 国内通話の 1200 分または国際通話の 600 分 (暦月の最初に到達した方)</li></ul>|
 |プレミアム番号に対して発信通話を行うことはできますか?  <br/> | 現時点ではサポートされていません。 <br/> |
 |発信できる相手先  <br/> | [これらの国を含む](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 の国に通話を発信できます。<br/> |
    
@@ -72,7 +72,7 @@ ms.locfileid: "58607834"
 |有料電話番号は使用できますか?  <br/> |はい  <br/> |
 |無料電話番号は使用できますか?  <br/> |はい  <br/> |
    
- 電話会議、自動応答、通話キューの有料電話番号とフリーダイヤル電話番号を取得する場合は、「[Skype for BusinessとMicrosoft Teamsのサービス電話番号を取得する](../getting-service-phone-numbers.md)」を参照してください。
+ 電話会議、自動応答、通話キューの有料電話番号とフリーダイヤル電話番号を取得する場合は、「[Skype for Business と Microsoft Teams のサービス電話番号を取得](../getting-service-phone-numbers.md)する」を参照してください。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 

@@ -15,16 +15,16 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: Microsoft Teams 通話品質ダッシュボード (CQD) PSTN ダイレクト ルーティング レポートを使用して、Microsoft Teams での PSTN 通話を監視およびトラブルシューティングします。
-ms.openlocfilehash: 8d6e971adc3cd7e4ec9b4038356e744d4451146f
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 7b7205658358cfa3aa90824718c03731fa33a534
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789892"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270712"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>CQD PSTN ダイレクト ルーティング レポートの使用
 
-2020 年 3 月の新機能として、Microsoft Teams 通話品質ダッシュボード (CQD) PSTN ダイレクト ルーティング レポートが [CQD 用のダウンロード可能な Power BI クエリ テンプレート](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)に追加されました。 
+Microsoft Teams 通話品質ダッシュボード (CQD) PSTN ダイレクト ルーティング レポートは、ダウンロード可能な [CQD 用 Power BI クエリ テンプレート](https://www.microsoft.com/download/details.aspx?id=102291)で入手できます。 
 
 
 CQD PSTN ダイレクト ルーティング レポート (CQD PSTN ダイレクト ルーティング レポート.pbit) は、PSTN サービスの使用パターンと品質を理解するのに役立ちます。 このレポートを使用して、サービスの使用状況、セッション ボーダー コントローラー (SBC)、テレフォニー サービス、ネットワーク パラメーター、ネットワーク有効性比の詳細に関する情報を監視します。 この情報は、通話が削除された理由など、問題を特定するのに役立ちます。 たとえば、ボリュームがいつ低下したか、または影響を受ける呼び出しの数と、その理由を確認できます。

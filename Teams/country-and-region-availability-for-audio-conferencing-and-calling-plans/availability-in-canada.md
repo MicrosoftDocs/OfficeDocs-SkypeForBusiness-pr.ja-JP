@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: カナダで利用可能なSkype for BusinessとMicrosoft TeamsのMicrosoft 365サービスとOffice 365 サービスを次に示します。
-ms.openlocfilehash: 034a9655afad69b90c9195dad5f7f7bceeac4cba
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: カナダで利用可能なSkype for Businessおよび Microsoft Teams の Microsoft 365 サービスとOffice 365 サービスを次に示します。
+ms.openlocfilehash: c8648fc1eda7bdcc38b87611d11ec5263a89dfb8
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593141"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270512"
 ---
 # <a name="availability-in-canada"></a>カナダでの利用可能性
 
 電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。
 
-カナダで利用可能なSkype for BusinessとMicrosoft TeamsのMicrosoft 365サービスとOffice 365 サービスを次に示します。
+カナダで利用可能なSkype for Businessおよび Microsoft Teams の Microsoft 365 サービスとOffice 365 サービスを次に示します。
 
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -59,8 +59,8 @@ ms.locfileid: "58593141"
 
 | **機能**                                        | **詳細**                                                                                                                                                                                                                                                                 |
 |:---------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 通話プランは購入できますか?  <br/>    | はい  <br/>                                                                                                                                                                                                                                                                  |
-| 通話プランで利用できる分数。               | カレンダー月には、次の 4 つのプラン オプションがあります。 <ul><li>120 分の国内通話プラン </li><li>240 分国内通話プラン</li></li><li>3000 分国内通話プラン</li></li><li>国内通話と国際通話プラン: 国内通話の 3000 分 -OR- 国際通話の 600 分 (暦月の最初に到達した方)</li>|
+|通話プランは購入できますか?  |はい          |   
+|通話プランで利用できる分数。    |1 暦月あたり 5 つのプラン オプションを使用できます。 <ul><li>従量課金制通話プラン </li><li> 120 分国内通話プラン </li><li> 240 分国内通話プラン </li><li> 1200 分国内通話プラン </li><li> 国際通話プラン: 国内通話の 1200 分または国際通話の 600 分 (暦月の最初に到達した方)</li></ul>|
 | プレミアム番号に対して発信通話を行うことはできますか?  <br/> | 現時点ではサポートされていません。<br/>                                                                                                                                                                                                                                            |
 | 発信できる相手先  <br/>                 | [これらの国を含む](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 の国に通話を発信できます。<br/>                                                                                                                                                                  |
 

@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-MS.collection:
-- M365-collaboration
 description: Teams のチーム間分析、チームごとの分析、チャネルごとの分析について説明します。これにより、ユーザーは自分が参加しているチームまたはチャネルの使用状況データを確認できます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28a80c28738c837d163b9148bc46734d67bdcaef
-ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: 9755eca1c6f6f1afb57b615dfa7e96fd0cbefe64
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66825461"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267392"
 ---
 # <a name="view-analytics-in-teams"></a>Teams で分析を表示する
 

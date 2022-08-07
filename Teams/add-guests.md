@@ -9,7 +9,6 @@ ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
-- m365initiative-externalcollab
 search.appverid: MET150
 ms.reviewer: rafarhi
 f1.keywords:
@@ -18,13 +17,13 @@ ms.localizationpriority: medium
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-description: 管理者は、Microsoft Teamsデスクトップ クライアントと Web クライアント、および B2B コラボレーション ポータルAzure Active Directory組織に新しいゲストを追加する方法について説明します。
-ms.openlocfilehash: e70b32face0948446ba084f0150dc4da7c9a69b6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 管理者は、Microsoft Teams デスクトップ および Web クライアントと Azure Active Directory B2B コラボレーション ポータルで、組織に新しいゲストを追加する方法について説明します。
+ms.openlocfilehash: 17ba8ff379566208a186857071310f6b7c6fd416
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611776"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268132"
 ---
 # <a name="add-a-guest-to-a-team"></a>チームにゲストを追加する
 
@@ -40,7 +39,7 @@ Outlook、Gmail などの勤務先または通常のメール アカウントを
 
 Azure AD B2B コラボレーションを使用すると、組織は B2B ユーザーに対して条件付きアクセスと多要素認証 (MFA) ポリシーを適用できます。 これらのポリシーは、組織のフルタイムの従業員とメンバーに対して有効にするのと同じ方法で、テナント レベル、アプリ レベル、または個々のユーザー レベルで適用できます。 こうしたポリシーはリソース組織で実施します。 詳細については、「[B2B コラボレーション ユーザーの条件付きアクセス](/azure/active-directory/external-identities/conditional-access)」をご覧ください。 個々のゲストをブロックすることはできません。
 
-Azure AD B2B、Microsoft 365 グループ、またはSharePointを介して既に追加したゲストは、すぐにアクセスできます。 Microsoft 365管理者またはチーム所有者は、それらのゲストをそれぞれのチームに追加できます。 チームに関連付けられているMicrosoft 365 グループにゲストを直接追加した場合、ゲストはチームにアクセスできますが、Microsoft 365 グループはゲストに招待メールを生成しないため、チームの誰かがゲストに通知する必要があります。
+Azure AD B2B、Microsoft 365 グループ、または SharePoint を介して既に追加したゲストは、すぐにアクセスできます。 Microsoft 365 管理者またはチーム所有者は、それらのゲストをそれぞれのチームに追加できます。 チームに関連付けられている Microsoft 365 グループにゲストを直接追加すると、ゲストはチームにアクセスできますが、Microsoft 365 グループはゲストへの招待メールを生成しないため、チームの誰かがゲストに通知する必要があります。
 
 > [!NOTE]
 > ゲストにも [ Microsoft 365 または Office 365 ](/office365/servicedescriptions/office-365-service-descriptions-technet-library) と [Azure Active Directory](/azure/active-directory/external-identities/current-limitations) のサービスの制限が適用されます。

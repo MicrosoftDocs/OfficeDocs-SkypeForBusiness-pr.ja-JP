@@ -10,19 +10,18 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 参考資料
 f1keywords: ''
-ms.openlocfilehash: 5f3b23078f29cba82809b5ef22440dd0ddf838fb
-ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
+ms.openlocfilehash: e75742cb209018030ca9d6600c518e210b396386
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "62071025"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268412"
 ---
 # <a name="managing-room-software-stack"></a>Room ソフトウェア スタックの管理  
 すべての部屋で、ソフトウェア スタックのさまざまな部分がすべて連携してエクスペリエンスを提供します。 高いレベルでは、次のようにまとめることができます。 
@@ -41,6 +40,6 @@ Managed Services for Microsoft Teams Rooms では、更新プログラムの取�
 そのため、更新プログラムをロールアウトするプロセスは、次のように分類できます。
 
 - Managed Services チームは、更新プログラムを事前に特定して検証し、環境へのリリースを促進します。
-- ルームに配信される更新プログラムは、競合や相互作用を回避するように注文され、通常の営業時間を回避するようにスケジュールされます。
+- ルームに配信更新は、競合や相互作用を回避するように注文され、通常の営業時間を回避するようにスケジュールされます。
 - リング システムを使用すると、足回りを行わなくても、ルームに適用されている更新プログラムを把握できます。
 - Managed Services は、更新プログラムを監視し、問題をフォローアップし、解決するためにお客様と協力するよう、ルームオペレーション センターに自動的に通知します。

@@ -14,13 +14,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 description: Microsoft Teams Rooms デバイスをセキュリティで保護する方法について説明します。
-ms.openlocfilehash: 135e286ce255f097dc3751bc509c05fc94f2ffb2
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: 4814bd5930bd311bf79fc749a1e736d1c3645165
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761099"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270052"
 ---
 # <a name="microsoft-teams-rooms-security"></a>Microsoft Teams Rooms セキュリティ
 
@@ -92,7 +93,7 @@ Skype ユーザー アカウントにローカル管理者のアクセス許可�
 
 Windows 構成デザイナーを使用して、Windows 10 プロビジョニング パッケージを作成できます。 ローカル管理者パスワードの変更に加えて、コンピューター名の変更や Azure Active Directory への登録などを行うこともできます。 Windows 構成デザイナー プロビジョニング パッケージ作成の詳細については、「[Windows 10 のパッケージのプロビジョニングを行う方法](/windows/configuration/provisioning-packages/provisioning-packages)」を参照してください。
 
-Teams にサインインできるように、Teams Rooms デバイスごとにリソース アカウントを作成する必要があります。 このアカウントでは、2 要素認証または多要素認証を使用できません。 2 つ目の要素を要求すると、再起動後にアカウントが Teams Rooms アプリに自動的にサインインできなくなります。 ただし、このアカウントのセキュリティを強化するために先進認証を有効にすることはできます。 さらに、Azure Active Directory条件付きアクセス ポリシーとIntuneコンプライアンス ポリシーをデプロイして、リソース アカウントをセキュリティで保護できます。 詳細については、「[Microsoft Teams Roomsおよび条件付きアクセスのサポートされる条件付きアクセスポリシーとIntuneデバイス コンプライアンス ポリシー](supported-ca-and-compliance-policies.md)と[、Microsoft Teams Roomsの条件付きアクセスとIntuneコンプライアンス」を](conditional-access-and-compliance-for-devices.md)参照してください。
+Teams にサインインできるように、Teams Rooms デバイスごとにリソース アカウントを作成する必要があります。 このアカウントでは、2 要素認証または多要素認証を使用できません。 2 つ目の要素を要求すると、再起動後にアカウントが Teams Rooms アプリに自動的にサインインできなくなります。 ただし、このアカウントのセキュリティを強化するために先進認証を有効にすることはできます。 さらに、Azure Active Directory 条件付きアクセス ポリシーとIntune コンプライアンス ポリシーをデプロイして、リソース アカウントをセキュリティで保護できます。 詳細については、「[Microsoft Teams Roomsおよび条件付きアクセスのサポートされる条件付きアクセスポリシーとIntuneデバイス コンプライアンス ポリシー](supported-ca-and-compliance-policies.md)と[、Microsoft Teams Roomsの条件付きアクセスとIntuneコンプライアンス」を](conditional-access-and-compliance-for-devices.md)参照してください。
 
 可能であれば、Azure AD でリソース アカウントを作成することをお勧めします。 同期されたアカウントはハイブリッド展開で Teams Rooms と連携できますが、同期されたアカウントでは Teams Rooms へのサインインが難しく、トラブルシューティングが困難になる可能性があります。 サード パーティのフェデレーション サービスを使用してリソース アカウントの資格情報を認証する場合は、サード パーティ IDP が `wsTrustResponse` 属性を `urn:oasis:names:tc:SAML:1.0:assertion` に設定して応答することを確認します。
 
@@ -110,8 +111,6 @@ Microsoft Teams Rooms Premium の Microsoft Teams Rooms マネージド サー�
 - agent.rooms.microsoft.com
 - global.azure-devices-provisioning.net
 - gj3ftstorage.blob.core.windows.net
-- iothubsgagwt5wgvwg6.azure-devices.net
-- blobssgagwt5wgvwg6.blob.core.windows.net
 - mmrstgnoamiot.azure-devices.net
 - mmrstgnoamstor.blob.core.windows.net
 - mmrprodapaciot.azure-devices.net

@@ -1,5 +1,5 @@
 ---
-title: Business Voice から Teams 電話 ライセンスに移行する
+title: Business Voice から Teams Phone ライセンスに移行する
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -7,33 +7,32 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 search.appverid: MET150
-description: Business Voice ライセンスを Teams 電話 ライセンスに変更する方法について説明します。
+description: Business Voice ライセンスを Teams Phone ライセンスに変更する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e9e973d00761e62e62a3c749163f9e6dcaa8a636
-ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
+ms.collection:
+- M365-voice
+ms.openlocfilehash: 6e7622e4b78e57f45209b90a525eb5fefbe8cd66
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66057097"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271232"
 ---
-# <a name="move-from-business-voice-to-teams-phone-licenses"></a>Business Voice から Teams 電話 ライセンスに移行する
+# <a name="move-from-business-voice-to-teams-phone-licenses"></a>Business Voice から Teams Phone ライセンスに移行する
 
 2022 年 6 月の終わりまでに Business Voice は廃止されます。そのため、[通話プラン付き Microsoft Teams 電話 バンドル ライセンスに切り替える企業をお勧めします](https://techcommunity.microsoft.com/t5/small-and-medium-business-blog/teams-phone-with-calling-plan-available-in-33-markets-on-january/ba-p/2967643)。
 
-Business Voice には、次の 3 つのTeamsアドオン ライセンスがバンドルされています。
+Business Voice には、次の 3 つの Teams アドオン ライセンスがバンドルされています。
 
-- **Microsoft Teams** のクラウドベースの電話システムのMicrosoft Teams 電話。
-- **会議** のダイヤルインとダイヤルアウト会議の電話会議。
+- Microsoft Teams のクラウドベースの電話システムの **Microsoft Teams 電話**。
+- **会議** のダイヤルインおよびダイヤルアウト会議用の電話会議。
 - 公衆交換電話網 (PSTN) 接続に対する国内通話の **Microsoft 通話プラン**。
 
 既存の Business Voice のお客様は、新しいライセンス モデルに自動的に移行されません。
 
-この記事は、同じ機能を維持しながら、Business Voice ライセンスをMicrosoft Teams 電話ライセンスに変更し、ライセンスを電話会議する必要がある IT 管理者向けです。
+この記事は、同じ機能を維持しながら、Business Voice ライセンスを Microsoft Teams 電話 ライセンスと電話会議ライセンスに変更する必要がある IT 管理者向けです。
 
 > [!WARNING]
 > この記事の手順に密接に従ってください。 指示に従って **[保存** ] ボタンを選択しないように指示されている場合は、[ **保存]** ボタンを選択しないでください。
@@ -54,8 +53,8 @@ Business Voice ライセンスを置き換える前に、まずユーザーの�
 
 | 古いライセンス プラン | 推奨されるライセンス プラン | 説明 |
 | ---------------- | ------------------------ | ----------- |
-| 通話プラン付き Business Voice | 通話プランを使用したTeams 電話と米国/CAN へのダイヤルアウトを使用したMicrosoft Teams 電話会議 | クラウドベースの電話システム機能、PSTN プロバイダーとして Microsoft を使用した国内通話プラン、ライセンスユーザーが組織した出席者へのダイヤルインおよびダイヤルアウト機能を提供します。 |
-| 通話プランのないビジネス音声 | USA/CAN へのダイヤルアウトを使用したTeams 電話スタンダードとMicrosoft Teams 電話会議 | オペレーター接続[またはダイレクト ルーティングを使用して PSTN プロバイダーとサード パーティ通話プランと](pstn-connectivity.md)組み合わせることができるクラウドベースの電話システム機能を提供し、ライセンスを持つユーザーによって組織された出席者にダイヤルインおよびダイヤルアウト機能を提供します。 |
+| 通話プラン付き Business Voice | 通話プランを使用した Teams Phone と、USA/CAN へのダイヤルアウトを使用したMicrosoft Teams 電話会議 | クラウドベースの電話システム機能、PSTN プロバイダーとして Microsoft を使用した国内通話プラン、ライセンスユーザーが組織した出席者へのダイヤルインおよびダイヤルアウト機能を提供します。 |
+| 通話プランのないビジネス音声 | USA/CAN へのダイヤルアウトを使用したTeams 電話スタンダードとMicrosoft Teams 電話会議 | [オペレーター接続またはダイレクト ルーティングを使用して PSTN プロバイダーとサード パーティ通話プランと](pstn-connectivity.md)組み合わせることができるクラウドベースの電話システム機能を提供し、ライセンスを持つユーザーが組織する出席者にダイヤルインおよびダイヤルアウト機能を提供します。 |
 
 ## <a name="how-to-update-licenses"></a>ライセンスを更新する方法
 
@@ -78,7 +77,7 @@ Business Voice ライセンスを置き換える前に、まずユーザーの�
 1. [ **ライセンスとアプリ** ] 画面で、Business Voice ライセンスの選択を解除します。
     > [!IMPORTANT]
     > 変更をまだ保存しないでください。 新しいライセンスを追加せずに変更を保存すると、ユーザー アカウントはプロビジョニング解除され、電話番号は割り当て解除されます。
-1. Business Voice の選択を解除したら、新しいTeams 電話と電話会議ライセンスを確認します。
+1. Business Voice の選択を解除した後、新しい Teams Phone および Audio Conferencing ライセンスを確認します。
 1. これで、[変更の保存] を選択して、変更を安全 **に保存** できます。
 
 ユーザーのライセンスは更新され、サービスの可用性には影響しません。
@@ -96,13 +95,13 @@ Business Voice ライセンスを置き換える前に、まずユーザーの�
     > [!IMPORTANT]
     > **[置換]** オプションを選択すると、選択したユーザーの既存のすべてのライセンスが削除されます。  その結果、Microsoft 365 Business Premiumなど、使用中の他のライセンスも含め、ユーザーに対して目的のライセンス状態を選択する必要があります。
     >
-    > また、選択したユーザーの基本ライセンス構成が異なる場合は、選択したライセンスで上書きされ、Microsoft 365の他の領域に影響を与える可能性があります。
+    > また、選択したユーザーの基本ライセンス構成が異なる場合は、選択したライセンスで上書きされ、Microsoft 365 の他の領域に影響を与える可能性があります。
     >
     > 混合ライセンス設定のテナントの場合は、 [PowerShell スクリプトで一括更新オプションを](#option-3-bulk-user-license-update-using-a-powershell-script)使用することをお勧めします。
 1. [ **ライセンスとアプリ** ] 画面で、Business Voice ライセンスの選択を解除します。
     > [!IMPORTANT]
     > 変更をまだ保存しないでください。 新しいライセンスを追加せずに変更を保存すると、選択したユーザーのアカウントはプロビジョニング解除され、電話番号は割り当て解除されます。
-1. Business Voice の選択を解除したら、新しいTeams 電話と電話会議ライセンスを確認します。
+1. Business Voice の選択を解除した後、新しい Teams Phone および Audio Conferencing ライセンスを確認します。
 1. これで、[変更の保存] を選択して、変更を安全 **に保存** できます。
   ユーザーのライセンスは更新され、サービスの可用性には影響しません。
 
@@ -115,10 +114,10 @@ PowerShell スクリプトを使用して Business Voice ライセンス プラ�
 このメソッドを使用するには、次の一般的な手順に従います。
 
 1. 現在の Business Voice ライセンスのテナント固有のライセンス プラン識別子を取得します。
-1. 新しいTeams 電話と電話会議ライセンス プランのテナント固有の識別子を取得します。
+1. 新しい Teams Phone および Audio Conferencing ライセンス プランのテナント固有の識別子を取得します。
 1. 新しいライセンス プランに、現在の Business Voice ライセンスと同じサービス プランがあるかどうかを検証します。
 1. Business Voice のライセンスを持つテナント ユーザーを検索します (または、必要に応じて、フィルターを含めてユーザーのサブセットを選択するようにスクリプトを変更します)。
-1. Teams 電話と電話会議プランを使用してユーザーのライセンス構成を更新します。
+1. Teams Phone と電話会議のプランを使用してユーザーのライセンス構成を更新します。
 
 > [!IMPORTANT]
 > 提供されるスクリプトはコード サンプルです。 スクリプトをそのままコピーし、特定の環境のテスト、検証、カスタマイズを行わずに運用テナントで実行しないでください。
@@ -132,7 +131,7 @@ PowerShell スクリプトを使用して Business Voice ライセンス プラ�
     Import-Module AzureAD
     ```
 
-1. Microsoft 365 テナントにConnectし、テナント管理者の資格情報を指定します。
+1. Microsoft 365 テナントに接続し、テナント管理者の資格情報を指定します。
 
     ```powershell
     Connect-AzureAD
@@ -167,7 +166,7 @@ PowerShell スクリプトを使用して Business Voice ライセンス プラ�
     $skuSourceBV = Get-AzureADSubscribedSku  | where {$_.SkuPartNumber -eq "BUSINESS_VOICE_MED2_TELCO"}
     ```
 
-1. 次の表を使用して、新しいTeams 電話と電話会議ライセンス SKU コードを識別します。
+1. 次の表を使用して、新しい Teams Phone および Audio Conferencing ライセンス SKU コードを識別します。
 
     | SKU コード | ライセンスの種類 |
     | -------- | ------------ |
@@ -176,7 +175,7 @@ PowerShell スクリプトを使用して Business Voice ライセンス プラ�
     | MCOMEETADV | 電話会議 |
     | Microsoft_Teams_Audio_Conferencing_select_dial_out | ダイヤルアウトを選択Microsoft Teams 電話会議 |
 
-1. 一意のTeams 電話と電話会議 SKU コードを格納する PowerShell 変数を作成します。
+1. 一意の Teams Phone および電話会議 SKU コードを格納する PowerShell 変数を作成します。
     1. ラベルを `SkuPartNumber` 、テナントで使用できる SKU コードに置き換えてください。
     1. この例では、SKU コードと `MCOMEETADV` SKU コードを`MCOTEAM_ESSENTIALS`使用しています。
 
@@ -193,7 +192,7 @@ PowerShell スクリプトを使用して Business Voice ライセンス プラ�
     $servicePlan_CP = $skuSourceBV.ServicePlans | where {$_.ServicePlanName.ToString() -like "*PSTN*"}
     ```
 
-1. 先に進む前に、ソース SKU (Business Voice) とターゲット SKU (Teams 電話と電話会議) に同じサービス プランが含まれているかどうかを検証します。
+1. 次に進む前に、ソース SKU (Business Voice) とターゲット SKU (Teams Phone と Audio Conferencing) に同じサービス プランが含まれているかどうかを検証します。
     1. 不一致によりライセンスの変更がトリガーされ、ユーザーの音声および電話会議サービスが中断される可能性があります。
     2. ソース SKU 内のすべてのサービス プランが同じターゲット サービス プランに置き換えられるかどうかを検証する変数を作成します。
 
@@ -249,14 +248,14 @@ PowerShell スクリプトを使用して Business Voice ライセンス プラ�
     Get-AzureAdUser | ForEach { $BVlicensed=$False ; For ($i=0; $i -le ($_.AssignedLicenses | Measure).Count ; $i++) { If($_.AssignedLicenses[$i].SkuId -eq $skuSourceBV.SkuId) { $BVlicensed=$true } } ; If( $BVlicensed -eq $true) { $usersLicensedOldSKU.Add($_)} }
     ```
 
-1. 次に、新しいユーザーの一覧を使用して、更新アクティビティを実行して Business Voice ライセンスを削除し、前に作成したオブジェクトを使用して``$LicensesToUpdate``Teams 電話ライセンスと電話会議 ライセンスを追加します。
+1. 次に、新しいユーザーの一覧を使用して、更新アクティビティを実行して Business Voice ライセンスを削除し、前に作成したオブジェクトを使用して ``$LicensesToUpdate`` Teams Phone ライセンスと電話会議ライセンスを追加します。
 
     ```powershell
     $usersLicensedOldSKU | ForEach { Set-AzureADUserLicense -ObjectId $_.ObjectId -AssignedLicenses $LicensesToUpdate; Write-Host "Completed Update of user " $_.UserPrincipalName;  }
     ```
 
 > [!NOTE]
-> Business Voice を置き換えるのに十分なTeams 電話ライセンスや電話会議ライセンスがない場合は、ライセンスのプールが枯渇するとすぐに、**SKU guid を使用したサブスクリプションに使用可能なライセンス** がないというエラーが発生します。
+> Business Voice を置き換えるための十分な Teams Phone または電話会議ライセンスがない場合は、ライセンスのプールが枯渇するとすぐに、ユーザー割り当て中に **SKU guid を使用したサブスクリプションに使用可能なライセンス** がないというエラーが表示されます。
 
 ### <a name="full-script"></a>完全なスクリプト
 
@@ -363,4 +362,4 @@ Azure グループ ベースのライセンス管理を使用すると、サブ�
 1. ツール バーの [ **製品ライセンスの管理** ] を選択します。
 1. [ **ライセンスとアプリ** ] 画面で、割り当てたライセンスを確認します。
 
-対象となるすべてのユーザーに適切なライセンスが割り当てられている場合は、Business Voice ライセンスをTeams 電話および電話会議 ライセンスに更新する必要があります。
+対象となるすべてのユーザーに適切なライセンスが割り当てられている場合は、Teams Phone ライセンスと電話会議ライセンスへの Business Voice ライセンスの更新が完了しました。

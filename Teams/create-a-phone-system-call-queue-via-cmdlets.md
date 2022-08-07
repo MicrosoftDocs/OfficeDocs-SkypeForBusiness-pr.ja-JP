@@ -11,7 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -20,16 +19,16 @@ ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
-- ms.teamsadmincenter.callqueues.overview"
+- ms.teamsadmincenter.callqueues.overview
 - Phone System
 - seo-marvel-apr2020
 description: コマンドレットを使用して通話キューを構成する方法について説明します
-ms.openlocfilehash: 8d62d3648d35cc302e333c2efa552bb2094cb14d
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: b2439bf6b71fc7381494030c326db88660fa5eaf
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674579"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268802"
 ---
 # <a name="create-a-call-queue-via-cmdlets"></a>コマンドレットを使用して呼び出しキューを作成する
 
@@ -53,7 +52,7 @@ ms.locfileid: "65674579"
 3. Microsoft Teams 電話を購入しました
 4. 以下に示すエージェント、配布リスト、Teams チャネルは既に作成されています
 
-注: 以下で使用するTeams チャネル コマンドレットは、パブリック プレビュー バージョンの Teams PowerShell モジュールの一部です。  詳細については、「[PowerShell パブリック プレビュー Teamsインストール](teams-powershell-install.md)する」を参照し、[PowerShell リリース ノートMicrosoft Teams](teams-powershell-release-notes.md)参照してください。
+注: 以下で使用する Teams チャネル コマンドレットは、Teams PowerShell モジュールのパブリック プレビュー バージョンの一部です。  詳細については、「 [Teams PowerShell パブリック プレビューのインストール](teams-powershell-install.md) 」を参照し、 [Microsoft Teams PowerShell のリリース ノート](teams-powershell-release-notes.md)も参照してください。
 
 MicrosoftTeams モジュールを既にインストールしているユーザーは、最新バージョンがインストールされていることを確認する必要があります `Update-Module MicrosoftTeams` 。
 
@@ -129,7 +128,7 @@ Facilities Collaborative Calling Queue information:
 
 ## <a name="login"></a>ログイン
 
-Teams管理者の資格情報を入力するように求められます。
+Teams 管理者の資格情報の入力を求めるメッセージが表示されます。
 
 ```powershell
 $credential = Get-Credential
@@ -176,7 +175,7 @@ Get-MsolAccountSku
 
 ### <a name="create-and-assign-resource-account"></a>リソース アカウントの作成と割り当て
 
-注: コール キューは自動応答によってフロントエンドされるため、ここでは必要ない電話番号
+注: 通話キューは自動応答によってフロントエンドされるため、ここでは電話番号は必要ありません
 
 - ApplicationID
   - 自動応答: ce933385-9390-45d1-9512-c8d228074e07
@@ -240,7 +239,7 @@ Get-MsolAccountSku
 
 ### <a name="create-and-assign-resource-account"></a>リソース アカウントの作成と割り当て
 
-注: コール キューは自動応答によってフロントエンドされるため、ここでは必要ない電話番号
+注: 通話キューは自動応答によってフロントエンドされるため、ここでは電話番号は必要ありません
 
 - ApplicationID
   - 自動応答: ce933385-9390-45d1-9512-c8d228074e07
@@ -308,7 +307,7 @@ Get-MsolAccountSku
 
 ### <a name="create-and-assign-resource-account"></a>リソース アカウントの作成と割り当て
 
-**注**: 通話キューは自動応答によってフロントエンドされるため、ここでは必要ない電話番号
+**注**: 通話キューは自動応答によってフロントエンドされるため、ここでは電話番号は必要ありません
 
 - ApplicationID
   - 自動応答: ce933385-9390-45d1-9512-c8d228074e07

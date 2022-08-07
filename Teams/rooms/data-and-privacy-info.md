@@ -11,19 +11,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: データとプライバシー情報
 f1keywords: Microsoft Teams Rooms Managed Service Data and Privacy Information
-ms.openlocfilehash: 3fa24a1009c5480c308dfc35306286d470178820
-ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
+ms.openlocfilehash: 5799288005a5d30152a6f810c0aa40d451198390
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66057087"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270302"
 ---
 # <a name="approach"></a>手法
 
@@ -37,7 +37,7 @@ Microsoft Teams Roomsマネージド サービスを使用しているお客様�
 > [!Note]
 > 個々のユーザーへの偶発的な参照は、デバイスの使用中にアクティビティ ログに記録される場合があります。
 
-## <a name="who-can-access-data"></a>データにアクセスできるWho
+## <a name="who-can-access-data"></a>データにアクセスできるユーザー
 
 マネージド サービスは、不正アクセスや不正なユーザーによる使用から顧客データを保護するために強力な手段を講じます。 これらの措置には、Microsoft の担当者と下請け業者によるアクセスの制限が含まれます。
 
@@ -74,7 +74,7 @@ Managed Services は、デプロイ内の問題の監視、診断、軽減を目
 |[カテゴリ]|詳細|クエリの理由|
 | :- | :- | :- |
 |継続的なデータ収集と管理|IP アドレス、ルーム アカウントの ID (Exchange、Skype for Business、Teams)、場所の座標、電子メール、Microsoft またはソフトウェアとのポータル内の通信|管理下のシステムを特定して接続する。障害を特定、診断、軽減する。使用状況、分析、分析情報を追跡する。接続状態のクエリと修復|
-|アドホック データの収集と管理|イベント ログ情報、ルーム ユーザーがログインしたログ ファイルからのユーザー アクティビティ/ID、診断情報、Windows システム クエリ (例: USB デバイスの一覧、電源状態など)|障害を特定、診断、軽減し、使用状況、分析、分析情報を確認する|
+|アドホック データの収集と管理|イベント ログ情報、ユーザー アクティビティ、ルーム ユーザーのログイン ログ ファイルからの ID、診断情報、Windows システム クエリ (例: USB デバイスの一覧、電源状態など)|障害を特定、診断、軽減し、使用状況、分析、分析情報を確認する|
 
 デバイス アクティビティ ログ内の特定の機密データは、ローカルで (マネージド サービスによって収集されない) やり直されます。
 

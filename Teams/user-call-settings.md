@@ -11,23 +11,21 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
-appliesto:
-- Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
-- ms.teamsadmincenter.callqueues.overview"
-- Phone System - seo-marvel-apr2020
+- ms.teamsadmincenter.callqueues.overview
+- Phone System
+- seo-marvel-apr2020
 description: 通話転送と委任のユーザー設定を構成する方法について説明します。
-ms.openlocfilehash: 41d954f468166fd8600601f98ea98d5be129eccd
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 64907043448f44ff861ede026d0a4343899ad98b
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681998"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272232"
 ---
 # <a name="configure-call-settings-for-your-users"></a>ユーザーの通話設定を構成する
 
@@ -37,17 +35,17 @@ ms.locfileid: "65681998"
 - 部門内のすべてのユーザーの通話転送設定を調べて、必要に応じて修正する必要があります。
 - 新しいアシスタントが採用され、従業員のグループの代理人としてアシスタントを追加する必要があります。
 
-Teams管理センターまたはTeams PowerShell コマンドレットを使用して、ユーザーの通話設定を表示および変更できます。
+Teams 管理センターまたは Teams PowerShell コマンドレットを使用して、ユーザーの通話設定を表示および変更できます。
 
-ユーザーの呼び出し設定を設定するには、ユーザーにシステム ライセンスMicrosoft 電話割り当てられている必要があります。
+ユーザーの通話設定を設定するには、ユーザーに Microsoft Phone System ライセンスが割り当てられている必要があります。
 
-## <a name="use-the-teams-admin-center"></a>Teams管理センターを使用する
+## <a name="use-the-teams-admin-center"></a>Teams 管理センターを使用する
 
-Teams管理センターを使用して、ユーザーの転送と応答のない設定、グループ通話ピックアップ、通話委任を構成できます。
+Teams 管理センターを使用して、ユーザーの転送と未応答の設定、グループ通話ピックアップ、通話委任を構成できます。
 
 即時転送の設定を構成するには:
 
-1. Teams管理センターで、[ユーザー **の管理****]** >  に移動し、ユーザーを選択します。
+1. Teams 管理センターで、[ユーザー **の管理****] に** > 移動し、ユーザーを選択します。
 
 2. ユーザーの詳細ページで、[ **音声** ] タブに移動します。
 
@@ -61,7 +59,7 @@ Teams管理センターを使用して、ユーザーの転送と応答のない
 
 ## <a name="use-powershell"></a>PowerShell を使用する
 
-PowerShell を使用して、ユーザーの呼び出し転送と委任の設定を構成できます。  PowerShell モジュール バージョン 4.0 以降Teams使用できる次のコマンドレットを使用します。
+PowerShell を使用して、ユーザーの呼び出し転送と委任の設定を構成できます。  Teams PowerShell モジュール バージョン 4.0 以降で使用できる次のコマンドレットを使用します。
 
 - [Get-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings) - ユーザーの通話転送設定、代理人、委任者情報を表示します。
 - [Set-CsUserCallingSettings](/powershell/module/teams/set-csusercallingsettings) - ユーザーの通話転送設定を設定します。

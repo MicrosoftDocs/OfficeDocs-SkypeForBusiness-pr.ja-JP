@@ -12,7 +12,6 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - M365-collaboration
-- m365initiative-meetings
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -23,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: ダイヤルイン電話会議ライセンスと会議 ID をユーザーおよびその他の多くのダイヤルイン電話会議の設定に割り当てるための Microsoft Teams での手順を確認します。
-ms.openlocfilehash: 6d8270d21c90d363ebb74089ce0b37e6c558ecb1
-ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
+ms.openlocfilehash: 4bfb813b6e7b472ad7a9ab58e6403b92f60fd039
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65106332"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271222"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織の電話会議の設定を管理する
 
@@ -40,13 +39,13 @@ ms.locfileid: "65106332"
 ## <a name="assign-an-audio-conferencing-license"></a>電話会議のライセンスを割り当てる
 
 > [!NOTE]
-> Teams を使用してライセンスを割り当てることはできません。 Microsoft 365 管理センターを使用する必要があります。 [アドオン ライセンスMicrosoft Teams割り当てるに関するページを](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)参照してください。
+> Teams を使用してライセンスを割り当てることはできません。 Microsoft 365 管理センターを使用する必要があります。 [Microsoft Teams アドオン ライセンスの割り当てに関するページを](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)参照してください。
 
 ### <a name="to-assign-a-license-for-a-user"></a>ユーザーにライセンスを割り当てる
 
 1. 職場または学校のアカウントを使用して、Microsoft 365 にサインインします。
 
-2. **Microsoft 365 管理センター** の左側のナビゲーションで、**UsersActive** >  ユーザーに移動し、使用可能 **なユーザー** の一覧からユーザーまたはユーザーを選択します。
+2. **Microsoft 365 管理センター** の左側のナビゲーションで、[**ユーザー** > **アクティブ ユーザー**] に移動し、使用可能なユーザーの一覧からユーザーまたはユーザーを選択します。
 
     > [!NOTE]
     > 操作手順と PowerShell のサンプル スクリプトについては、「**Skype for Business と Microsoft Teams のライセンスを割り当てる**」をご覧ください。 次に [**編集**]、[**次へ**] を 2 回クリックしてからライセンスを選択し、[**送信**] をクリックします。  
@@ -60,7 +59,7 @@ ms.locfileid: "65106332"
   
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>電話会議ユーザーに送信されたメールを有効または無効にする
 
-### <a name="enable-or-disable-using-the-microsoft-teams-admin-center"></a>Microsoft Teams管理センターを使用して有効または無効にする
+### <a name="enable-or-disable-using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターを使用して有効または無効にする
 
 1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。
 
@@ -76,7 +75,7 @@ ms.locfileid: "65106332"
   
 ## <a name="reset-the-meeting-conference-id"></a>会議通話 ID をリセットする
 
-### <a name="reset-the-meeting-conference-id-using-the-microsoft-teams-admin-center"></a>Microsoft Teams管理センターを使用して会議会議 ID をリセットする
+### <a name="reset-the-meeting-conference-id-using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターを使用して会議会議 ID をリセットする
 
 1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 
@@ -90,7 +89,7 @@ ms.locfileid: "65106332"
 
 ユーザーがスケジュール設定した各会議には、一意の会議通話 ID が割り当てられます。 会議通話 ID は自動的に作成されユーザーに割り当てられますが、ユーザーは使わないため特定の番号に設定しようと考える場合や、ユーザーが会議通話 ID を覚えられない、または紛失してしまう場合があります。
 
-### <a name="reset-a-conference-organizers-pin-using-the-microsoft-teams-admin-center"></a>Microsoft Teams管理センターを使用して会議開催者の PIN をリセットする
+### <a name="reset-a-conference-organizers-pin-using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターを使用して会議開催者の PIN をリセットする
 
 1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 
@@ -102,7 +101,7 @@ ms.locfileid: "65106332"
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>電話会議の情報が記載された電子メールをユーザーに送信する
 
-### <a name="send-an-email-using-the-microsoft-teams-admin-center"></a>Microsoft Teams管理センターを使用してメールを送信する
+### <a name="send-an-email-using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターを使用して電子メールを送信する
 
 1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 
@@ -115,16 +114,16 @@ ms.locfileid: "65106332"
   
 ## <a name="set-the-phone-numbers-included-on-invites"></a>招待状に含まれている電話番号を設定する
 
-### <a name="set-invite-phone-numbers-using-the-microsoft-teams-admin-center"></a>Microsoft Teams管理センターを使用して招待電話番号を設定する
+### <a name="set-invite-phone-numbers-using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターを使用して招待電話番号を設定する
 
-「[Microsoft Teamsの招待に含まれる電話番号を設定する](set-the-phone-numbers-included-on-invites-in-teams.md)」を参照してください。
+[「Microsoft Teams の招待に含まれる電話番号を設定する」を参照してください](set-the-phone-numbers-included-on-invites-in-teams.md)。
 
 > [!NOTE]
-> *TeamsAudioconferencingpolicy* に電話番号を追加し、ポリシーをユーザーに割り当てることで電話番号を設定することもできます。 ポリシーに追加された有料電話番号とフリーダイヤル電話番号は、電話会議設定ウィンドウでユーザーに対して個別に設定された電話番号よりも優先されます。 *Teamsaudioconferencingpolicy* に電話番号が追加されていない場合は、電話会議の設定ウィンドウでユーザーに個別に設定された電話番号が会議出席依頼Microsoft Teamsに表示されます。 [有料電話番号とフリーダイヤル番号の電話会議ポリシー設定](audio-conferencing-toll-free-numbers-policy.md) の詳細については、以下をご覧ください。
+> *TeamsAudioconferencingpolicy* に電話番号を追加し、ポリシーをユーザーに割り当てることで電話番号を設定することもできます。 ポリシーに追加された有料電話番号とフリーダイヤル電話番号は、電話会議設定ウィンドウでユーザーに対して個別に設定された電話番号よりも優先されます。 *Teamsaudioconferencingpolicy* に電話番号が追加されていない場合は、電話会議の設定ウィンドウでユーザーに個別に設定された電話番号が Microsoft Teams の会議出席依頼に表示されます。 [有料電話番号とフリーダイヤル番号の電話会議ポリシー設定](audio-conferencing-toll-free-numbers-policy.md) の詳細については、以下をご覧ください。
 
 ## <a name="choose-audio-conferencing-bridge-settings"></a>電話会議ブリッジの設定を選択する
 
-### <a name="set-the-meeting-experience-when-callers-join-a-meeting-using-the-microsoft-teams-admin-center"></a>Microsoft Teams管理センターを使用して、発信者が会議に参加するときに会議エクスペリエンスを設定する
+### <a name="set-the-meeting-experience-when-callers-join-a-meeting-using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターを使用して、呼び出し元が会議に参加するときに会議エクスペリエンスを設定する
 
 1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。
 
@@ -173,7 +172,7 @@ ms.locfileid: "65106332"
 
 ## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>電話会議ブリッジの第 1 (既定) 言語と第 2 (代替) 言語を表示、設定する
 
-### <a name="see-primary-and-secondary-languages-using-the-microsoft-teams-admin-center"></a>Microsoft Teams管理センターを使用してプライマリ言語と第 2 言語を表示する
+### <a name="see-primary-and-secondary-languages-using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターを使用してプライマリ言語と第 2 言語を表示する
 
 1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。
 
@@ -185,7 +184,7 @@ ms.locfileid: "65106332"
 
 [電話会議の自動案内の言語を設定する](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)を参照してください。
   
-## <a name="see-audio-conferencing-dial-in-numbers-using-the-microsoft-teams-admin-center"></a>Microsoft Teams管理センターを使用した電話会議ダイヤルイン番号の表示
+## <a name="see-audio-conferencing-dial-in-numbers-using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターを使用して電話会議ダイヤルイン番号を表示する
 
 1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。
 

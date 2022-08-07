@@ -10,17 +10,16 @@ ms.service: msteams
 search.appverid: MET150
 description: この記事では、ダイレクト ルーティングの新機能について説明します。 更新プログラムを頻繁に確認してください。
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53a1c2730ebf6db06fb92ac2fc4e0873563c98ce
-ms.sourcegitcommit: 9e868a155bcd20dd5dafdedcff091ff77ca7398b
+ms.collection:
+- M365-voice
+ms.openlocfilehash: 8db0f0c4d29f786166098587aafc3ec1db256e38
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64584331"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271462"
 ---
 # <a name="whats-new-for-direct-routing"></a>ダイレクト ルーティングの新機能
 
@@ -41,9 +40,9 @@ ms.locfileid: "64584331"
 
 ## <a name="tls-certificates"></a>TLS 証明書
 
-Microsoft 365は、別のルート証明機関 (CA) のセットを使用するようにTeamsおよびその他のサービスを更新しています。
+Microsoft 365 は、異なるルート証明機関 (CA) のセットを使用するように Teams やその他のサービスを更新しています。
 
-影響を受けるサービスの詳細と完全な一覧については、「[Microsoft Teamsを含むMicrosoft 365 サービスに対する TLS 証明書の変更](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/tls-certificate-changes-to-microsoft-365-services-including/ba-p/3249676)」を参照してください。
+影響を受けるサービスの詳細と完全な一覧については、 [Microsoft Teams を含む Microsoft 365 サービスに対する TLS 証明書の変更](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/tls-certificate-changes-to-microsoft-365-services-including/ba-p/3249676)に関するページを参照してください。
 
 ## <a name="certificate-authorities"></a>証明機関
 

@@ -12,15 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: この記事では、Microsoft Teams Rooms のコンソールとその周辺機器の設定および構成方法を説明します。
-ms.openlocfilehash: d3c4f534fbd5395c7e0cda8e095b5a6d7a2b8def
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: 2a38154ebca1dfae282722fdb64e76389627ca15
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761259"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270112"
 ---
 # <a name="build-a-microsoft-teams-rooms-image"></a>Microsoft Teams Rooms イメージをビルドする
 
@@ -105,7 +106,7 @@ CreateSrsMedia.ps1 スクリプトを実行すると、次のタスクが自動�
 Creators Update では、暗黙的に言語を選択するとアプリケーションの言語がユーザーが希望する言語に設定されない場合 (フランス語でコンソール アプリを表示したいのに英語で表示される場合など)、ApplyCurrentRegionAndLanguage.ps1 スクリプトを使用する必要があります。
   
 > [!NOTE]
-> 次の手順は、Windows Creator's Update (Windows 10 20H1) 以降を使用して作成されたコンソールでのみ機能します。
+> 次の手順は、Windows Creator の Update (Windows 10 20H1) 以降を使用して作成されたコンソールでのみ機能します。
   
 ### <a name="to-apply-your-desired-language"></a>必要な言語を適用するには
 
@@ -125,7 +126,7 @@ Creators Update では、暗黙的に言語を選択するとアプリケーシ�
     
 8. 言語機能をインストールします。
     
-9. [表示言語として設定] Windowsオンにしないでください。
+9. [Windows 表示言語として設定] はオンにしないでください。
     
 10. [ **インストール**] を選択します。
     
@@ -152,22 +153,22 @@ Creators Update では、暗黙的に言語を選択するとアプリケーシ�
 ## <a name="initial-set-up-of-the-console"></a>コンソールの初期設定
 <a name="Initial"> </a>
 
-Windowsがインストールされると、Microsoft Teams Rooms アプリは初期セットアップ プロセスに進みます。
+Windows がインストールされると、Microsoft Teams Rooms アプリは初期セットアップ プロセスに進みます。
   
-1. [ユーザー アカウント] 画面が表示されます。 本体で使用するルーム アカウントの Microsoft Exchange リソース アカウントのサインイン アドレス (user@domain 形式) を入力します。
+1. [ユーザー アカウント] 画面が表示されます。 本体で使用するルーム アカウントの Microsoft Exchange Resource アカウントサインイン アドレス (user@domain形式) を入力します。
     
 2. 会議室アカウントのパスワードを入力し、確認のためにもう一度入力します。
    
-3. サポートされている会議モード (Microsoft Teamsのみ、Skype for Businessのみ)、または 2 つの混合モード オプションのいずれかを選択します。 必要に応じて、モダン認証を有効にします。
+3. サポートされている会議モード (Microsoft Teams のみ、Skype for Businessのみ)、または 2 つの混合モード オプションのいずれかを選択します。 必要に応じて、モダン認証を有効にします。
 
 4. [**次へ**] を選択します。
     
-5. Skype for Businessを使用していて、Skype for Business SIP ドメインがユーザーのExchange ドメインと異なる場合は、[詳細設定] セクションのSkype for Business Serverの FQDN を設定します。 Skype for Businessを使用していない場合、または SIP ドメインがExchange ドメインと一致する場合は、このセクションを空白のままにします。
+5. Skype for Businessを使用していて、Skype for Business SIP ドメインがユーザーの Exchange ドメインと異なる場合は、[詳細設定] セクションでSkype for Business Serverの FQDN を設定します。 Skype for Businessを使用していない場合、または SIP ドメインが Exchange ドメインと一致する場合は、このセクションを空白のままにします。
 6. [**次へ**] を選択します。
     
 7. [ **完了] を選択します**。
     
-Microsoft Teams Rooms アプリは、上記で入力した資格情報を使用してMicrosoft TeamsまたはSkype for Business Serverにサインインする必要があります。また、同じ資格情報を使用して予定表とExchangeの同期を開始する必要があります。 Teams Roomsの使用の詳細については、[Microsoft Teams Roomsのヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)を参照してください。
+Microsoft Teams Rooms アプリは、上記で入力した資格情報を使用して Microsoft Teams またはSkype for Business Serverにサインインする必要があります。また、同じ資格情報を使用して予定表と Exchange の同期を開始する必要があります。 Teams Roomsの使用の詳細については、[Microsoft Teams Roomsのヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)を参照してください。
   
 > [!IMPORTANT]
 > Microsoft Teams Rooms には、認定されたコンソール ハードウェアが必要です。 Microsoft Teams Rooms のコンソール アプリを含むイメージが正しく作成されていても、コンソール ハードウェアが検出されない限り、そのイメージは初期設定手順の後に起動しません。 Surface Pro ベースのソリューションの場合、このチェックが成功するには、Surface Pro と付属するドック ハードウェアが接続されている必要があります。
@@ -180,7 +181,7 @@ Microsoft Teams Rooms アプリは、上記で入力した資格情報を使用�
 > [!NOTE]
 > 以下は、Teams RoomsをSkype for Businessに接続する場合にのみ適用されます。
 
-Microsoft Teams Roomsは、接続先のサーバーで使用される証明書を信頼する必要があります。 証明機関がプライベートの場合 (Active Directory とWindows証明機関を使用したオンプレミスの展開など) では、次の方法で証明書をMicrosoft Teams Roomsに追加できます。
+Microsoft Teams Roomsは、接続先のサーバーで使用される証明書を信頼する必要があります。 証明機関がプライベートである場合 (Active Directory と Windows 証明機関を使用したオンプレミスの展開など) では、次のいくつかの方法で証明書をMicrosoft Teams Roomsに追加できます。
   
 - 証明機関が Active Directory に対して公開されている場合 (通常のデプロイ オプション)、コンソールを Active Directory に参加させると、必要な証明書は自動的に追加されます。
     

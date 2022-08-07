@@ -1,7 +1,7 @@
 ---
-title: Microsoft Teamsデバイスをリモートで更新する
-ms.author: czawideh
-author: cazawideh
+title: Microsoft Teams デバイスをリモートで更新する
+ms.author: dstrome
+author: dstrome
 ms.reviewer: rahulmi
 manager: serdars
 audience: ITPro
@@ -9,22 +9,23 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Devices
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: Teams管理センターを使用して、Microsoft Teams電話、Teams パネル、コラボレーション バーをリモートで更新する
-ms.openlocfilehash: e2081bf0065230cdaaf18615fbc9610d14881a05
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+description: Teams 管理センターを使用して Microsoft Teams の電話、Teams パネル、コラボレーション バーをリモートで更新する
+ms.openlocfilehash: 36f84025feec5b88b2cbf28a52fcb89cb76aeaa5
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63503524"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269462"
 ---
-# <a name="update-microsoft-teams-devices-remotely"></a>Microsoft Teamsデバイスをリモートで更新する
+# <a name="update-microsoft-teams-devices-remotely"></a>Microsoft Teams デバイスをリモートで更新する
 
-Microsoft Teams管理センターを使用すると、Teams電話、Teams パネル、コラボレーション バーなどのTeams デバイスをリモートで更新でき、デバイス ファームウェアの自動更新動作を選択できます。 Teams管理センターを使用して、デバイスで次を更新できます。
+Microsoft Teams 管理センターを使用すると、Teams の電話、Teams パネル、コラボレーション バーなどの Teams デバイスをリモートで更新でき、デバイス ファームウェアの自動更新動作を選択できます。 Teams 管理センターを使用して、デバイスで次を更新できます。
 
-- Teams アプリとチームの管理者エージェント
+- Teams アプリとチーム管理エージェント
 - ポータル サイト アプリ
 - OEM エージェント アプリ
 - デバイス ファームウェア
@@ -32,9 +33,9 @@ Microsoft Teams管理センターを使用すると、Teams電話、Teams パネ
 デバイス ファームウェアの更新は、自動的に適用することも、将来の日時にスケジュールすることもできます。 その他の利用可能なデバイス更新プログラムは自動的には適用されませんが、手動で適用することも、将来の日時にスケジュールすることもできます。
 
 > [!NOTE]
-> デバイス ファームウェアの更新はスケジュールできますが、スケジュールされた日付と時刻が構成された最大 30 日または 90 日の遅延の後に発生した場合、最大遅延に達するとファームウェアの更新が適用されます。 スケジュールされた日付と時刻は無視されます。 さらに、Microsoft Teams デバイスをリモートで更新することは、米国政府機関のクラウド テナント (GCC-High) ではまだ利用できない機能です。
+> デバイス ファームウェアの更新はスケジュールできますが、スケジュールされた日付と時刻が構成された最大 30 日または 90 日の遅延の後に発生した場合、最大遅延に達するとファームウェアの更新が適用されます。 スケジュールされた日付と時刻は無視されます。 さらに、Microsoft Teams デバイスをリモートで更新することは、米国政府機関向けクラウド テナント (GCC-High) ではまだ利用できない機能です。
 
-デバイスを管理するには、グローバル管理者、Teams サービス管理者、またはデバイス管理者Teams必要があります。管理者ロールの詳細については、「[Microsoft Teams管理者ロールを使用してTeamsを管理する」を](../using-admin-roles.md)参照してください。
+デバイスを管理するには、グローバル管理者、Teams サービス管理者、または Teams デバイス管理者である必要があります。管理者ロールの詳細については、「 [Microsoft Teams 管理者ロールを使用して Teams を管理する」を参照してください](../using-admin-roles.md)。
 
 ## <a name="choose-automatic-device-firmware-update-behavior"></a>デバイス ファームウェアの自動更新動作を選択する
 
@@ -48,8 +49,8 @@ Microsoft Teams管理センターを使用すると、Teams電話、Teams パネ
 
 デバイスの自動更新動作を選択するには、次の操作を行います。
 
-1. Microsoft Teams管理センターにサインインするには、次のページにアクセスしますhttps://admin.teams.microsoft.com。
-2. **DevicesIP** >  **電話** または **コラボレーション バー** または **Teams パネルTeams** 移動します。
+1. Microsoft Teams 管理センターにサインインするには、次のページにアクセス https://admin.teams.microsoft.comします。
+2. **Teams デバイス** > **の IP 電話**、**コラボレーション バー**、または **Teams パネル** を移動します。
 3. 1 つ以上のデバイスを選択し、[更新] を選択 **します**。
 4. [ **ファームウェアの自動更新**] で、次のいずれかを選択します。
     - **利用可能になったらすぐに** 最新のデバイス ファームウェア更新プログラムは、最新の更新プログラムがリリースされた後の最初の週末に適用されます。
@@ -65,8 +66,8 @@ Microsoft Teams管理センターを使用すると、Teams電話、Teams パネ
 
 リモート デバイスを手動で更新するには、次の操作を行います。
 
-1. Microsoft Teams管理センターにサインインするには、次のページにアクセスしますhttps://admin.teams.microsoft.com。
-2. **DevicesIP** >  **電話** または **コラボレーション バー** または **Teams パネルTeams** 移動します。
+1. Microsoft Teams 管理センターにサインインするには、次のページにアクセス https://admin.teams.microsoft.comします。
+2. **Teams デバイス** > **の IP 電話**、**コラボレーション バー**、または **Teams パネル** を移動します。
 3. 1 つ以上のデバイスを選択し、[更新] を選択 **します**。
 4. [**手動更新プログラム****] で**、将来の日付と時刻の更新をスケジュールする場合は、[スケジュール] を選択します。 更新プログラムは、タイム ゾーンで選択されたタイム ゾーンの日付と **時刻** に適用されます。
 

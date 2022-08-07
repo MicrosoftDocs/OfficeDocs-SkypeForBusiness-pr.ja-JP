@@ -17,13 +17,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.recordingandtranscription
-description: 記録と文字起こしのTeamsで会議ポリシー設定を管理する方法について説明します。
-ms.openlocfilehash: da7a5d43231abcb00339f2ffc2c57c7e90ff2d2e
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+description: 記録と文字起こしのために Teams で会議ポリシー設定を管理する方法について説明します。
+ms.openlocfilehash: 12f8be910c713a9ce023ac17c956ef50f5889792
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646366"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268982"
 ---
 # <a name="meeting-policy-settings-for-recording--transcription"></a>&文字起こしを記録するための会議ポリシー設定
 
@@ -31,7 +31,7 @@ ms.locfileid: "65646366"
 
 - [文字起こしを許可する](#allow-transcription)
 - [クラウド記録を許可する](#allow-cloud-recording)
-- [国または地域以外のMicrosoft Store記録](#store-recordings-outside-of-your-country-or-region)
+- [国または地域以外の場所に記録を保存する](#store-recordings-outside-of-your-country-or-region)
 
 ## <a name="allow-transcription"></a>文字起こしを許可する
 
@@ -39,7 +39,7 @@ ms.locfileid: "65646366"
 
 この設定をオンにすると、会議記録に保存されているトランスクリプトのコピーが作成されます。これにより、会議記録で **検索**、**CC**、および **トランスクリプト** を実行できるようになります。
 
-記録された会議の文字起こしは、現在、Teams会議で自分の言語を設定または英語を話すユーザーに対してのみサポートされています。
+記録された会議の文字起こしは、現在、Teams 会議で自分の言語を設定または英語を話すユーザーにのみサポートされています。
 
 ## <a name="allow-cloud-recording"></a>クラウド記録を許可する
 
@@ -65,11 +65,12 @@ ms.locfileid: "65646366"
 
 クラウド会議の記録の詳細については、「[Teams のクラウド会議の記録](cloud-recording.md)」を参照してください。
 
-## <a name="store-recordings-outside-of-your-country-or-region"></a>国または地域以外のMicrosoft Store記録
+## <a name="store-recordings-outside-of-your-country-or-region"></a>国または地域以外の場所に記録を保存する
 
-このポリシーは、会議レコードを別の国または地域に永続的に保存できるかどうかを制御します。 有効になっている場合は、記録を移行できません。 クラウド会議とレコーディングの保存場所の詳細については、「[クラウド会議の記録Teams](cloud-recording.md)参照してください。
+このポリシーは、会議レコードを別の国または地域に永続的に保存できるかどうかを制御します。 有効になっている場合は、記録を移行できません。 クラウド会議と記録の保存場所の詳細については、「 [Teams クラウド会議の記録](cloud-recording.md)」を参照してください。
 
 ## <a name="related-topics"></a>関連項目
 
-- [Teamsのユーザーにポリシーを割り当てる](policy-assignment-overview.md)
+- [Teams のユーザーにポリシーを割り当てる](policy-assignment-overview.md)
 - [クラウド会議の記録](cloud-recording.md)
+- [Microsoft Teams での会議ポリシーと会議の有効期限](meeting-expiration.md)

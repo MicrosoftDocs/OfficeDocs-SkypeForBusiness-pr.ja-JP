@@ -10,26 +10,26 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: TRM の監査ログ。
 f1keywords: ''
-ms.openlocfilehash: 3681f50f0e15a7688a944c14e69907ba53dd2817
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: de7f01a3c93dc31ff10c9e00cb3d0f3ef5806cb3
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676613"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269108"
 ---
 # <a name="audit-logging-in-the-teams-rooms-managed-service"></a>Teams Rooms マネージド サービスの監査ログ
 
 Teams Roomsマネージド (TRM) サービスの監査では、ユーザーと管理者がポータルで実行したアクティビティの監査レコードを検索できます。 この機能は既定で有効になっています。 マネージド サービス管理者のみが、ログをエクスポートして表示する権限を持ちます。
 
 > [!NOTE]
-> TRM サービスで実行されたアクションは、Microsoft 365またはOffice 365監査に記録されません 
+> TRM サービスで実行されたアクションが Microsoft 365 またはOffice 365監査に記録されない 
 
 ## <a name="exporting-logs"></a>ログのエクスポート
 
@@ -37,7 +37,7 @@ Teams Roomsマネージド (TRM) サービスの監査では、ユーザーと�
 
 **ログをダウンロードするには** 
 
-1. **設定 >全般>監査ログ** に移動します。
+1. **[全般>監査ログ>設定]** に移動します。
 1. 対象のログの日付範囲を定義するには、 **開始日** と終了日を入力 **します。**
 
    > [!NOTE]

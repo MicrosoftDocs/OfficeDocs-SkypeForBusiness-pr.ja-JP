@@ -1,5 +1,5 @@
 ---
-title: KaizalaをTeams体験にグラフ化する
+title: Kaizala から Teams への道のりをグラフ化する
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -7,32 +7,33 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: ''
-description: この記事では、KaizalaからMicrosoft Teamsへの移行に備える方法について説明します。
+description: この記事では、Kaizala から Microsoft Teams への移行に備える方法について説明します。
 f1.keywords: ''
 ms.localizationpriority: medium
 search.appverid: ''
-ms.collection: ''
+ms.collection:
+- M365-collaboration
 ms.custom: ''
-ms.openlocfilehash: 913d8991678a4da384d9208378e359cec016f1b8
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: 7256d91a8a306f88e7f40b728158747971497262
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635405"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271422"
 ---
-# <a name="charting-your-kaizala-to-teams-journey"></a>KaizalaをTeams体験にグラフ化する
+# <a name="charting-your-kaizala-to-teams-journey"></a>Kaizala から Teams への道のりをグラフ化する
 
-KaizalaからMicrosoft Teamsに移行することにしました。
+Kaizala から Microsoft Teams に移行することにしました。
 
 作業を開始する前に、次の 2 つの質問に答えることは重要です。
 
-- Teamsに移行するユーザー グループは何ですか?  
+- Teams に移行するユーザー グループは何ですか?  
 
-- Teamsへのパスは何ですか?
+- Teams への道は何ですか?
 
 ## <a name="identify-user-groups"></a>ユーザー グループを識別する
 
-*組織内に存在するグループは何ですか?Who Teamsとその使用方法を使用しますか?これらのグループは、効果的なチームワークのためにどのようなニーズを必要としますか?* Teamsへの移行を開始するには、まず **、移行のユーザー グループを特定します。**  ユーザー グループは、従業員内の一連の従業員であり、ビジネスの同様の領域で作業を行います。 
+*組織内に存在するグループは何ですか?Teams を使用するユーザーとその方法これらのグループは、効果的なチームワークのためにどのようなニーズを必要としますか?* Teams への移行を開始するには、まず **、移行のユーザー グループを特定します。**  ユーザー グループは、従業員内の一連の従業員であり、ビジネスの同様の領域で作業を行います。 
 
 コラボレーションニーズの特定をサポートする 3 つの一般的なユーザー グループを特定しました。 すべてのユーザー グループには、通信に関して独自の固有のニーズがあります。 
 
@@ -70,37 +71,37 @@ KaizalaからMicrosoft Teamsに移行することにしました。
 
 外部ユーザー (サプライヤー/ベンダー) と接続しているユーザーは、次を使用できます。
 
-- [Microsoft Teams ユーザーは、組織外の任意のTeams ユーザーとチャットできます](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832)
+- [Microsoft Teams ユーザーは、組織外の Teams ユーザーとチャットできます](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832)
 
-- [Teams組織外のユーザーをチャットに追加または招待する](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57)
+- [Teams 組織外のユーザーをチャットに追加または招待する](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57)
 
 ## <a name="determine-your-path"></a>パスを決定する
 
-ユーザー グループのコラボレーションニーズを確認したら、KaizalaからTeamsへのパスがどのようなものかを判断できます。 すべての組織は一意であり、従業員の体験はまったく同じではありません。 現在Teamsを使用していない組織は、移行の成功を確実にするために、追加の戦略的決定を行う必要があります。 パスを決定すると、正常に移行するために完了する必要がある重要なアクションを特定するのに役立ちます。
+ユーザー グループのコラボレーションのニーズを確認したら、Kaizala から Teams へのパスがどのようなものかを判断できます。 すべての組織は一意であり、従業員の体験はまったく同じではありません。 現在 Teams を使用していない組織は、移行の成功を確実にするために、追加の戦略的決定を行う必要があります。 パスを決定すると、正常に移行するために完了する必要がある重要なアクションを特定するのに役立ちます。
 
 現在の組織の使用状況に応じて、パスが何で構成されているかについて説明しました。  
 
-**Teamsを使用していない** 組織の場合:
+**Teams を使用していない** 組織の場合:
 
-![現在Teamsを使用していない組織のパス](media/kaizala-not-using-teams.png)
+![Teams を現在使用していない組織のパス](media/kaizala-not-using-teams.png)
 
  1. 組織のチームワークを想定する
 
- 2. パイロット Teams
+ 2. パイロット チーム
   
- 3. Teamsのデプロイ
+ 3. Teams を展開する
   
- 4. KaizalaとTeamsを使用する
+ 4. Kaizala と Teams を使用する
   
  5. 変更を管理する
 
- 6. Teamsの導入を計画する
+ 6. Teams の導入を計画する
 
- 7. 組織をTeamsに移動する
+ 7. Teams に組織を移動する
 
-**Teamsを既に使用している** 組織の場合:
+**Teams を既に使用している** 組織の場合:
 
-![現在Teamsを使用している組織のパス](media/kaizala-using-teams.png)
+![Teams を現在使用している組織のパス](media/kaizala-using-teams.png)
 
  1. 移行を計画する
 
@@ -110,4 +111,4 @@ KaizalaからMicrosoft Teamsに移行することにしました。
 
 <a name="ControlSyncThroughput"> </a>
 
-[Microsoft Teamsへの正常な移行を計画する](/MicrosoftTeams/plan-your-move-kaizala)
+[Microsoft Teams への正常な移行を計画する](/MicrosoftTeams/plan-your-move-kaizala)

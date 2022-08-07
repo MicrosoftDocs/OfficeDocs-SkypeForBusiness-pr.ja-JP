@@ -12,14 +12,15 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 description: 管理者は、Microsoft Teams Rooms の累積的な改善リストである Microsoft Teams Rooms のリリース ノートを参照できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b5630636ce5dc8f26d430e6d883bff0dc2bcc71f
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: 9460694aec7a6b7f7c7f1648d8f9512ded4c01f7
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175851"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270082"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams Roomsのリリース ノート
 
@@ -111,7 +112,7 @@ Teams Roomsは、モダン ライフサイクル ポリシーによって管理�
  <sup>2</sup> Teams Rooms、管理者オーバーライドを使用してリリース 4.12 でノイズ抑制のサポートが追加されました。
 
 > [!IMPORTANT]
-> この更新プログラムにより、新しいTeams Rooms デバイスは、Microsoft TeamsとExchange Onlineに接続するときに、既定で先進認証を使用するようになりました。
+> この更新プログラムでは、Microsoft Teams と Exchange Onlineに接続するときに、新しいTeams Rooms デバイスが既定で先進認証を使用するようになりました。
 >
 > 会議室アカウントのモダン認証を有効にして、8 月末までにTeams Rooms デバイスをテストすることを強くお勧めします。
 >
@@ -136,7 +137,7 @@ Teams Roomsは、モダン ライフサイクル ポリシーによって管理�
 ### <a name="4121260-4272022"></a>4.12.126.0 (4/27/2022)
 
 この更新プログラムで導入されるもの:
-- IT 管理者は、TEAMS ルーム デバイスを登録して、XML 設定を使用してパブリック プレビュー機能を受け取ることができます。 登録すると、デバイスはベータ機能の受信を開始します。 ベータ テストに行くすべての機能は[、Microsoft Teamsパブリック プレビューで発表されます - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview) <sup>1,2</sup>  
+- IT 管理者は、TEAMS ルーム デバイスを登録して、XML 設定を使用してパブリック プレビュー機能を受け取ることができます。 登録すると、デバイスはベータ機能の受信を開始します。 ベータ テストに行くすべての機能は、[Microsoft Teams パブリック プレビュー](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)で発表されます - Microsoft Tech Community <sup>1,2</sup>  
 - IT 管理者は、FRONT of Room ディスプレイの解像度を設定し、XML 設定<sup>2</sup> を使用してリモートでスケーリングできます
 - IT 管理者は、XML 設定<sup>3</sup> を使用して Microsoft ノイズ抑制を無効にすることができます 
 - IT 管理者は、レジストリ キー設定<sup>4</sup> を使用してデバイス上のダウンロード フォルダーのクリーンアップをオーバーライドできます
@@ -179,7 +180,7 @@ Teams Roomsは、モダン ライフサイクル ポリシーによって管理�
 
 > <sup>1</sup> これらの機能は Teams Web クライアントを使用してロールアウトされ、今後数週間でロールアウトが完了します。 詳細については、 [Teams の更新プログラム](../teams-client-update.md) の詳細をご覧ください。
 > 
-> Microsoft Teamsでのみ実行されている Windows 上の <sup>2</sup> つの Teams ルーム、またはSkype for BusinessとMicrosoft Teams (既定) は新しい Meet and Call エクスペリエンスで更新されていますが、他のモードはこの更新プログラムの影響を受けません。
+> Microsoft Teams でのみ実行されている Windows 上の <sup>2</sup> つの Teams ルーム、またはSkype for Businessおよび Microsoft Teams (既定) は新しい Meet and Call エクスペリエンスで更新されていますが、他のモードはこの更新プログラムの影響を受けません。
 > 
 > <sup>3</sup> Teams Roomsの [AAD 条件付きアクセス](../rooms/rooms-authentication.md#azure-ad-conditional-access) ポリシーの設定に関する追加の詳細を参照してください。
 > 
@@ -229,7 +230,7 @@ Teams Roomsは、モダン ライフサイクル ポリシーによって管理�
 ### <a name="49120-7282021"></a>4.9.12.0 (7/28/2021)
 
 この更新プログラムで導入されるもの:
-- Microsoft Teamsモードのみがアプリケーション設定で使用できるようになったため、Skype for Business アカウントを設定する必要はもうありません。 このモードでは、Teams 専用モードにサインインしているデバイスは、ゲスト ユーザーとして会議Skype for Business参加します。
+- Microsoft Teams のみモードがアプリケーション設定で使用できるようになったため、Skype for Business アカウントを設定する必要はもうありません。 このモードでは、Teams 専用モードにサインインしているデバイスは、ゲスト ユーザーとして会議Skype for Business参加します。
 - HDMI オーディオが原因で通話量が少ない問題を修正しました。 HDMI オーディオ機能は、アプリケーション ビルド 4.9.12.0 のすべてのデバイスで自動的に有効になります。
 
 > [!NOTE]

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams パネル デバイスの使用方法
+title: Microsoft Teams パネル デバイスを使用する方法
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -13,31 +13,32 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-voice
+- Teams_ITAdmin_Devices
 search.appverid: MET150
 ms.localizationpriority: medium
 description: この記事では、Teams パネル デバイスを使用する方法に関するガイダンスを提供します。
-ms.openlocfilehash: 00d2657179e35e2a5e43cbc0665a6d1533ec70d1
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: f9d67ce6c41e351239457edc4a605964c7bcae27
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65760909"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268442"
 ---
-# <a name="how-to-use-microsoft-teams-panels"></a>Microsoft Teams パネルの使用方法
+# <a name="how-to-use-microsoft-teams-panels"></a>Microsoft Teams パネルを使用する方法
 
-Microsoft Teams パネルは、会議スペースのすぐ外側 (通常は入り口の横) に取り付けられたコンパクトなデジタルディスプレイ デバイスです。 これらのタッチスクリーン パネルは、会議スペースとスケジュールされた会議について一目で確認できる専用のMicrosoft Teams デバイスです。 鮮やかな色分けされた LED とホーム画面のインジケーターを使用すると、スペースが遠くから使用可能か予約されているかを判断できます。 Teams パネルを使用すると、その場でアドホック会議に使用できる会議スペースを予約できます。
+Microsoft Teams パネルは、会議スペースのすぐ外側 (通常は入り口の横) に取り付けられたコンパクトなデジタルディスプレイ デバイスです。 これらのタッチスクリーン パネルは、会議スペースとスケジュールされた会議について一目で確認できる専用の Microsoft Teams デバイスです。 鮮やかな色分けされた LED とホーム画面のインジケーターを使用すると、スペースが遠くから使用可能か予約されているかを判断できます。 Teams パネルを使用すると、その場でアドホック会議に使用できる会議スペースを予約できます。
 
-Teams パネル デバイスには、Microsoft Teamsがプレインストールされ、OutlookまたはTeams予定表でスケジュールされた会議の詳細が表示されます。
+Teams パネル デバイスには Microsoft Teams がプレインストールされており、Outlook または Teams の予定表を通じてスケジュールされた会議の詳細が表示されます。
 
-この記事では、エンド ユーザーと管理者の両方に、Teams パネル デバイスの使用方法に関するガイダンスを提供します。 また、これらのデバイスの使用に関して [よく寄せられる質問](#frequently-asked-questions) への回答も提供されます。
+この記事では、エンド ユーザーと管理者の両方に対して、Teams パネル デバイスの使用方法に関するガイダンスを提供します。 また、これらのデバイスの使用に関して [よく寄せられる質問](#frequently-asked-questions) への回答も提供されます。
 
-パネル デバイスの概要と、組織内でそれらを計画、配信、および管理する方法に関するガイダンスについては、「[Microsoft Teams パネルの展開](teams-panels.md)」を参照してください。
+パネル デバイスの概要と、組織内でデバイスを計画、配信、管理する方法のガイダンスについては、「 [Microsoft Teams パネルの展開」を](teams-panels.md)参照してください。
 
-クイック スタートについては、[Teams パネルで概要](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)を確認してください。
+クイック スタートについては、 [Teams パネルの概要](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)に関するページを参照してください。
 
 ## <a name="teams-panels-end-user-experience"></a>Teams パネルのエンド ユーザー エクスペリエンス
 
-Teams パネル デバイスの[ホーム画面](#explore-teams-panels-home-screen)を調べて、会議スペースと会議の詳細を表示します。 または、タッチ スクリーン パネルをタップしてスクロールし、他の操作を実行します。
+Teams パネル デバイスの [ホーム画面](#explore-teams-panels-home-screen) を調べて、会議スペースと会議の詳細を表示します。 または、タッチ スクリーン パネルをタップしてスクロールし、他の操作を実行します。
 
 Teams パネル デバイスを使用して、次の手順を実行します。
 
@@ -48,7 +49,7 @@ Teams パネル デバイスを使用して、次の手順を実行します。
 
 ## <a name="explore-teams-panels-home-screen"></a>Teams パネルのホーム画面を調べる
 
-ホーム画面は、Teams パネル デバイスのメイン ビジュアル インターフェイスです。  
+ホーム画面は、Teams パネル デバイスのメインビジュアル インターフェイスです。  
 
 ホーム画面では、場所と会議の詳細の表示、スペースの予約、今後の予約の表示、現在の空き状況の特定を行うことができます。
 
@@ -63,7 +64,7 @@ Teams パネル デバイスを使用して、次の手順を実行します。
 **1 -現在の時刻、日、日付、会議スペースの詳細** | 現在の時刻、日、日付、会議スペースの名前を表示します。 会議スペース名は、パネルにサインインしたリソース アカウントの名前です。
 **2- 会議スペースの空き時間と会議の詳細** | 会議スペースの空き時間を示し、会議の詳細を表示します。 [[会議の空き時間] タイルと [会議の詳細] タイルを参照してください](#meeting-space-availability-and-meeting-details-tile)。
 **3-今後の予定表** | 現在の時間から最大 24 時間の会議スペースの予定表と空き時間を表示します。 上または下にスクロールして、使用可能なタイム スロットと予約されているタイム スロットを決定します。
-**4-設定** | **設定** アイコンを表示します。 これをタップして問題を報告するか、使用可能なデバイス設定を更新します。
+**4-Settings** | **[設定]** アイコンを表示します。 これをタップして問題を報告するか、使用可能なデバイス設定を更新します。
 
 ### <a name="meeting-space-availability-and-meeting-details-tile"></a>会議スペースの空き時間と会議の詳細タイル
 
@@ -71,9 +72,9 @@ Teams パネル デバイスを使用して、次の手順を実行します。
 
 #### <a name="meeting-space-is-reserved-for-a-scheduled-meeting"></a>会議スペースは、スケジュールされた会議用に予約されています
 
-タイルは、スケジュールされた会議用に予約されている会議スペースの紫で表示されます (OutlookまたはTeamsを介してスケジュールされます)。 会議のタイトルは、目立つテキスト、会議の開始時刻と終了時刻、会議の開催者の名前で表示されます。 Teams会議の場合は、Teams ロゴも表示されます。 会議の詳細が目立つように表示されると、出席者は適切な会議スペース、適切なタイミング、適切な会議に参加していることを簡単に確認できます。
+スケジュールされた会議用に予約されている会議スペースのタイルは紫色で表示されます (Outlook または Teams を使用してスケジュールされます)。 会議のタイトルは、目立つテキスト、会議の開始時刻と終了時刻、会議の開催者の名前で表示されます。 Teams 会議の場合は、Teams ロゴも表示されます。 会議の詳細が目立つように表示されると、出席者は適切な会議スペース、適切なタイミング、適切な会議に参加していることを簡単に確認できます。
 
-:::image type="content" source="../media/panels-right-tile-scheduled-meeting.png" alt-text="Teamsパネルホーム画面で、会議スペースがスケジュールされた会議用に予約されていることを示します。":::
+:::image type="content" source="../media/panels-right-tile-scheduled-meeting.png" alt-text="Teams パネルのホーム画面で、会議スペースがスケジュールされた会議用に予約されていることを示します。":::
 
 > [!NOTE]
 >
@@ -82,19 +83,19 @@ Teams パネル デバイスを使用して、次の手順を実行します。
 
 #### <a name="meeting-space-is-reserved-for-an-ad-hoc-meeting"></a>会議スペースは、アドホック会議用に予約されています
 
-タイルは、 [アドホック会議用に予約されている](#reserve-meeting-spaces-for-ad-hoc-meetings)会議スペースの紫で表示されます。 会議の開始時刻と終了時刻と共に、目立つテキストで **予約済** みと表示されます。 アドホック会議は自動的にTeams会議としてスケジュールされるため、Teamsロゴは常に画面に表示されます。
+タイルは、 [アドホック会議用に予約されている](#reserve-meeting-spaces-for-ad-hoc-meetings)会議スペースの紫で表示されます。 会議の開始時刻と終了時刻と共に、目立つテキストで **予約済** みと表示されます。 アドホック会議は Teams 会議として自動的にスケジュールされるため、Teams ロゴは常に画面に表示されます。
 
-:::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Teamsパネルホーム画面で、会議スペースがアドホック会議用に予約されていることを示します。":::
+:::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Teams パネルのホーム画面で、会議スペースがアドホック会議用に予約されていることを示します。":::
 
 #### <a name="meeting-space-is-available"></a>会議スペースを利用できます
 
 タイルは、使用可能な会議スペースに対して緑色で表示されます。 [ **使用可能]** が目立つテキストで表示され、[ **予約]** ボタンも表示され、タップして [アドホック会議の会議スペースを予約](#reserve-meeting-spaces-for-ad-hoc-meetings)することもできます。 会議スペースの今後の予定表 (右下のタイル) を確認して、アドホック会議の終了時刻を決定できます。
 
-:::image type="content" source="../media/panels-right-tile-available-status.png" alt-text="このスクリーンショットは、会議スペースが使用可能になったときに、Teams パネルのホーム画面がどのように表示されるかを示しています。":::
+:::image type="content" source="../media/panels-right-tile-available-status.png" alt-text="このスクリーンショットは、会議スペースが使用可能な場合に Teams パネルのホーム画面がどのように表示されるかを示しています。":::
 
 ## <a name="reserve-meeting-spaces-for-ad-hoc-meetings"></a>アドホック会議用の会議スペースを予約する
 
-利用可能な [会議スペース](#meeting-space-is-available) は、アドホック会議のパネルから直接予約できます。 すべてのアドホック会議は、Teams会議として自動的にスケジュールされます。 ただし、予約した後は、パネルを介してその会議スペースを解放したり、解放したりすることはできません。 デバイスのリソース アカウントの管理者のみが、(OutlookまたはTeamsカレンダーを使用して) アドホック会議をキャンセルして、スペースを削除することはできません。
+利用可能な [会議スペース](#meeting-space-is-available) は、アドホック会議のパネルから直接予約できます。 すべてのアドホック会議は、Teams 会議として自動的にスケジュールされます。 ただし、予約した後は、パネルを介してその会議スペースを解放したり、解放したりすることはできません。 デバイスのリソース アカウントの管理者のみが、(Outlook または Teams の予定表を使用して) アドホック会議をキャンセルして、領域を削除することはできません。
 
 パネルから直接予約されたアドホック会議の場合:
 
@@ -104,7 +105,7 @@ Teams パネル デバイスを使用して、次の手順を実行します。
 アドホック会議に使用可能な会議スペースを予約するには:
 
 1. ホーム画面で、[ **予約** ] ボタンをタップします。
-    :::image type="content" source="../media/panels-reserve.png" alt-text="[予約] ボタンを示す [Teams パネルホーム] 画面。":::
+    :::image type="content" source="../media/panels-reserve.png" alt-text="Teams パネルの [ホーム] 画面に [予約] ボタンが表示されます。":::
 2. **アドホック会議** 画面で、利用可能な終了時刻の選択肢を確認します。 右矢印または左矢印を使用して、使用可能な終了時刻の選択肢を参照できます。
 
     :::image type="content" source="../media/panels-reserve-endtime.png" alt-text="エンド タイム スロットを示すアドホック会議画面。":::
@@ -119,18 +120,18 @@ Teams パネル デバイスを使用して、次の手順を実行します。
 
     確認ウィンドウが表示され、サムアップ絵文字、会議の開始時刻と終了時刻、会議スペース名が表示されます。
     :::image type="content" source="../media/panels-reserve-confirmation.png" alt-text="アドホック会議の確認メッセージ。":::
-ホーム画面の右側のタイルが紫色で表示され、**予約** テキストとTeamsロゴが表示されるようになりました。 これは、会議スペースがアドホック Teams会議用に予約されていることを示します。
+ホーム画面の右側のタイルが紫色で表示され、 **予約** テキストと Teams ロゴが表示されるようになりました。 これは、会議スペースがアドホック Teams 会議用に予約されていることを示します。
   
     :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="会議スペースがアドホック会議用に予約されていることを示すホーム画面。":::
 
     > [!NOTE]
-    > 会議スペースが Microsoft Teams 会議室の場合は、このTeams会議に会議室またはSurface HubデバイスMicrosoft Teams _参加_ できます。
+    > 会議スペースが Microsoft Teams Room の場合は、この Teams 会議に、室内の Microsoft Teams 会議室または Surface Hub デバイスを使用して _参加_ できます。
 
 ### <a name="report-a-problem"></a>問題を報告する
 
 デバイスまたは会議スペースに関する問題を報告したり、機能の更新を要求したり、フィードバックを提供したりするには、ホーム画面の **[設定]** アイコンを使用します。
 
-1. ホーム画面で **設定** 歯車アイコンをタップします。
+1. ホーム画面の **[設定]** 歯車アイコンをタップします。
 
 2. [ **問題の報告** ] オプションをタップします。
 
@@ -151,9 +152,9 @@ Teams パネル デバイスを使用して、次の手順を実行します。
 
 デバイス設定を表示または更新するには:
 
-1. ホーム画面で **設定** アイコンをタップします。
-2. **設定** 画面で、[**デバイスの設定**] をタップします。
-3. [**デバイスの設定**] 画面で、表示または更新する設定をタップします。
+1. ホーム画面の **[設定]** アイコンをタップします。
+2. [ **設定]** 画面で、[ **デバイスの設定**] をタップします。
+3. [ **デバイスの設定]** 画面で、表示または更新する設定をタップします。
 4. 画面のプロンプトに従って、設定を表示または更新します。
 
 ## <a name="teams-panels-admin-experience"></a>Teams パネルの管理者エクスペリエンス
@@ -170,19 +171,19 @@ Teams パネル デバイスを使用して、次の手順を実行します。
 
 ### <a name="access-panels-app-settings"></a>アクセス パネル アプリの設定
 
-**パネル アプリ** 固有の設定には、管理者設定の下にある **パネル アプリ 設定** オプションを使用してアクセスできます。 **パネル アプリ設定** にアクセスする手順は、デバイスの OEM によって異なる場合があります。
+**パネル アプリ** 固有の設定にアクセスするには、管理設定の下にある **[パネル アプリの設定]** オプションを使用します。 **パネル アプリの設定** にアクセスする手順は、デバイスの OEM によって異なる場合があります。
 
-**パネル アプリ 設定** オプションにアクセスするには:
+**パネル アプリの設定** オプションにアクセスするには:
 
-1. ホーム画面で **設定** アイコンをタップします。
-2. **設定** 画面で、[**デバイスの設定**] をタップします。
-3. 管理 設定をタップ **します**。
+1. ホーム画面の **[設定]** アイコンをタップします。
+2. [ **設定]** 画面で、[ **デバイスの設定**] をタップします。
+3. **管理設定** をタップします。
 
     > [!NOTE]
     > デバイスの OEM によっては、デバイス管理者パスワードを今すぐ入力するか、次の手順の後に入力する必要がある場合があります。
 
-4. 下にスクロールして **、パネル アプリ 設定 オプションを** 見つけます。 タップします。
-5. 右側の画面で [**パネル アプリ設定**] ボタンをタップします。
+4. 下にスクロールして **、[パネル アプリの設定] オプションを** 見つけます。 タップします。
+5. 右側の画面で [ **パネル アプリの設定]** ボタンをタップします。
     使用可能な **パネル アプリ** 設定の画面が表示されます。
 
     :::image type="content" source="../media/panels-app-settings-screen.png" alt-text="このスクリーンショットは、使用可能なパネル アプリの設定を含む画面を表示します。":::
@@ -192,31 +193,31 @@ Teams パネル デバイスを使用して、次の手順を実行します。
     - [壁紙](#update-the-wallpaper)
     - [LED インジケーター](#change-the-busy-state-led-color)
 
-#### <a name="pair-a-teams-panel-with-a-microsoft-teams-room-on-android"></a>Teams パネルをAndroid上のMicrosoft Teamsルームとペアリングする
+#### <a name="pair-a-teams-panel-with-a-microsoft-teams-room-on-android"></a>Android 上の Microsoft Teams Room とTeams パネルをペアリングする
 
-Android上のTeams パネルとTeamsルームをペアリングするには、両方のデバイスが同じリソース アカウントにサインインしている必要があります。
+Android でTeams パネルと Teams Room をペアリングするには、両方のデバイスが同じリソース アカウントにサインインしている必要があります。
 
 Teams パネルで、管理者資格情報を使用してサインインします。
 
-1. **デバイス 設定 > 管理 設定 > パネル アプリ設定 >会議>デバイス ペアリング設定 >に移動します。**
+1. **[設定] > [デバイスの設定] > 管理 [設定] >パネルの [アプリの設定] > [会議] > [デバイスのペアリング] に** 移動します。
 
-2. ルームディスプレイの前面のTeams Roomsに 6 桁のコードAndroid表示されます。 Teams パネルにコードを入力します。  
+2. Android のルーム ディスプレイの前面のTeams Roomsに 6 桁のコードが表示されます。 Teams パネルにコードを入力します。  
 
 #### <a name="meeting-check-in-and-room-release"></a>会議のチェックインと会議室のリリース
 
-チェックインと会議室のリリース設定を使用すると、ユーザーは会議の開始時に予約した会議室のTeams パネルで会議にチェックインできます。 ユーザーが会議の開始時刻の後に一定の時間内にチェックインしない場合、会議室は解放され、他のユーザーが予約できるようになります。
+チェックインと会議室のリリース設定を使用すると、ユーザーは会議の開始時に予約した会議室の Teams パネルで会議にチェックインできます。 ユーザーが会議の開始時刻の後に一定の時間内にチェックインしない場合、会議室は解放され、他のユーザーが予約できるようになります。
 
-Teams パネルがAndroidのMicrosoft Teamsルームとペアリングされている場合、会議が遅れた場合に会議室の前面ディスプレイにチェックイン通知を表示できます。
+Teams パネルが Android 上の Microsoft Teams Room とペアリングされている場合、会議が遅れた場合に会議室の前面ディスプレイにチェックイン通知を表示できます。
 
-チェックインと会議室のリリースを有効にするには、[Microsoft Teams パネルのチェックインと会議室のリリースに関するページを参照してください](check-in-and-room-release.md)。
+チェックインと会議室のリリースを有効にするには、 [Microsoft Teams パネルのチェックインと会議室のリリースに関するページを](check-in-and-room-release.md)参照してください。
 
 #### <a name="room-capacity-warning"></a>会議室の容量に関する警告
 
-Android上のTeamsルームとペアになっているTeams パネルでは、会議室の容量が超過した場合に警告メッセージを表示できます。 この機能を使用するには、Teams ルームに、ユーザーのカウントをサポートするカメラが必要です。 Teams パネルのない会議室容量の警告をサポートAndroidに関するTeams Rooms。
+Android 上の Teams ルームとペアになっている Teams パネルでは、会議室の容量が超過した場合に警告メッセージを表示できます。 この機能を使用するには、Teams Room に、ユーザーのカウントをサポートするカメラが必要です。 Android のTeams Roomsでは、Teams パネルのない会議室容量の警告がサポートされます。
 
-会議室容量の警告は既定でオフになっています。 Teams パネルから設定を有効にするには、最初に[Teams パネルをAndroidのMicrosoft Teamsルームとペアリング](#pair-a-teams-panel-with-a-microsoft-teams-room-on-android)します。 パネルと Teams 会議室は、同じリソース アカウントにサインインしている必要があります。
+会議室容量の警告は既定でオフになっています。 Teams パネルから設定を有効にするには、最初に[Teams パネルを Android の Microsoft Teams Room とペアリング](#pair-a-teams-panel-with-a-microsoft-teams-room-on-android)します。 パネルと Teams Room は、同じリソース アカウントにサインインする必要があります。
 
- 次に、**パネル アプリの設定>デバイス設定> 管理設定 >** に移動します。 次に、[ **会議**] で、[ **最大会議室の占有率の通知**] をオンにします。
+ 次に、[**設定] > [デバイスの設定] > 管理設定>パネル アプリの設定** に移動します。 次に、[ **会議**] で、[ **最大会議室の占有率の通知**] をオンにします。
 
 #### <a name="view-room-equipment"></a>会議室の機器を表示する
 
@@ -224,7 +225,7 @@ Android上のTeamsルームとペアになっているTeams パネルでは、�
 
 この機能は既定でオフになっており、デバイスごとに有効にできます。 これを有効にするには、PowerShell で [Set-Place を](/powershell/module/exchange/set-place?view=exchange-ps)使用して、表示名を `AudioDeviceName`、、、 `VideoDeviceName``DisplayDeviceName``Tags``IsWheelChairAccessible`を構成します。
 
-または、Exchange管理センターでこの機能を有効にすることもできます。 詳細については、「 [リソースの編集](/exchange/recipients-in-exchange-online/manage-resource-mailboxes#edit-a-resource) 」を参照してください。
+または、Exchange 管理センターでこの機能を有効にすることもできます。 詳細については、「 [リソースの編集](/exchange/recipients-in-exchange-online/manage-resource-mailboxes#edit-a-resource) 」を参照してください。
 
 
 
@@ -232,7 +233,7 @@ Android上のTeamsルームとペアになっているTeams パネルでは、�
 
 ホーム画面の壁紙イメージを変更します。
 
-1. [アクセス **パネル アプリ 設定**](#access-panels-app-settings)。
+1. [アクセス **パネルアプリの設定**](#access-panels-app-settings)。
 2. [ **壁紙]** をタップします。
 3. [ **イメージの選択]** から、ホーム画面の背景イメージとして設定する画像を選択します。 **[背景**] で選択した画像をプレビューします。
 :::image type="content" source="../media/panels-wallpapers-setting.png" alt-text="このスクリーンショットには、壁紙設定画面が表示されます。":::
@@ -242,8 +243,8 @@ Android上のTeamsルームとペアになっているTeams パネルでは、�
 
 管理者は、LED の色として赤または紫を選択して、会議スペースがビジー状態または予約済みであることを示すことができます。 使用可能な領域を示す LED の色は常に緑色で、変更できません。
 
-1. [アクセス **パネル アプリ 設定**](#access-panels-app-settings)。
-2. **[LED 設定**] をタップします。
+1. [アクセス **パネルアプリの設定**](#access-panels-app-settings)。
+2. **[LED 設定]** をタップします。
 3. [ **LED の色の選択]** から、目的の色を選択します。
 :::image type="content" source="../media/panels-led-settings.png" alt-text="このスクリーンショットには、LED の色ビジー状態の設定が表示されます。":::
 4. ホーム画面に戻るし、ビジー状態の LED の色が更新されていることを確認します。 会議スペースが現在利用可能な場合は、テスト会議をスケジュールして、ビジー状態の LED の色の変化を確認してみてください。
@@ -255,7 +256,7 @@ Teams パネル デバイスに関してよく寄せられる質問に対する�
 **今後、会議スペースのスケジュールの詳細を表示できますか?**  
 ホーム画面の **[今後の予定表** ] タイル (右下) には、現在の時間から最大 24 時間の会議スペースのスケジュールの詳細が表示されます。
 
-**Teams パネル デバイスから今後の会議スペースを予約できますか?**  
+**Teams パネル デバイスから将来の会議スペースを予約できますか?**  
 いいえ。パネルから今後の会議スペースを予約することはできません。 開始時刻は、常にパネルからスケジュールされたアドホック会議の現在の時刻です。
 
 **アドホック会議に使用可能な会議スペースを予約できる期間はどのくらいですか?**  

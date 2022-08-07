@@ -16,17 +16,19 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
-ms.openlocfilehash: 3699a7ccbc2aa7a54c70c9cd99c9277f56ea40fc
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+description: Learn how to get the status of your port orders, and what the different actions you can take on them.
+ms.collection:
+- M365-voice
+ms.openlocfilehash: 29b12d5ec47625a62314bf601018ef069aec4ddb
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733098"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270422"
 ---
 # <a name="whats-the-status-of-your-port-orders"></a>番号移行注文の状況
 
-ポート注文の状態を確認するには、Microsoft Teams管理センターの左側のナビゲーションで **、VoicePort** >  **の注文**>移動し、[**注文履歴**] をクリックします。 各ポートの順序の状態が [ **状態]** 列に一覧表示されます。 注文プロセスの詳細については [、ポート番号にかかる時間](../phone-number-calling-plans/port-order-overview.md#how-long-does-it-take-to-port-numbers) を確認してください。 
+ポート注文の状態を確認するには、Microsoft Teams 管理センターの左側のナビゲーションで、 **音声** > **ポートの注文**>移動し、[ **注文履歴**] をクリックします。 各ポートの順序の状態が [ **状態]** 列に一覧表示されます。 注文プロセスの詳細については [、ポート番号にかかる時間](../phone-number-calling-plans/port-order-overview.md#how-long-does-it-take-to-port-numbers) を確認してください。 
 
 次の表に、ポートの順序の状態と、必要に応じて実行できるアクションを示します。
 
@@ -40,7 +42,7 @@ ms.locfileid: "60733098"
 |**完了** <br/> |Yes  <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |番号が正常に転送されました。  <br/> |
 |**キャンセル** <br/> |いいえ  <br/> |Yes  <br/> |いいえ  <br/> |いいえ  <br/> |管理者が注文を取り消しました。  <br/> |
 
-詳細な手順については、「[Teamsに電話番号を転送する」を](transfer-phone-numbers-to-teams.md)参照してください。
+詳細な手順については、「 [Teams に電話番号を転送する](transfer-phone-numbers-to-teams.md)」を参照してください。
 
 ヘルプが必要な場合、または電話番号を増やす必要がある場合は、 [TNS サービス デスク](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)にお問い合わせください。
 

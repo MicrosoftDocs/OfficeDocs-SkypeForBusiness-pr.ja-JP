@@ -13,15 +13,16 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-voice
+- Teams_ITAdmin_Devices
 search.appverid: MET150
 ms.localizationpriority: medium
 description: この記事では、Microsoft Teams Android デバイスでサポートされている機能の概要と機能について説明します。
-ms.openlocfilehash: 5522c29c74eb9679d26d13627dcb69b315dc33fd
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: ef30268ef966eca00a75a583c9acb6ae608a7a81
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66790312"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267802"
 ---
 # <a name="deploy-teams-phones-teams-displays-teams-panels-and-microsoft-teams-rooms-on-android-using-intune"></a>Intuneを使用して Android で Teams の電話、Teams のディスプレイ、Teams パネル、Microsoft Teams Roomsを展開する
 

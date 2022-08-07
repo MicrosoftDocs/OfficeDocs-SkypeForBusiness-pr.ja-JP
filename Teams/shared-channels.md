@@ -10,7 +10,7 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
+- m365initiative-securecollab
 f1.keywords:
 - NOCSH
 appliesto:
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams の共有チャネルを使用および管理する方法について説明します。
-ms.openlocfilehash: 8bd0fe39031fdae6d47e7c738a1c883b6b066f7d
-ms.sourcegitcommit: 1398570f56d5918d309f95fb734a2e8c5b4981b5
+ms.openlocfilehash: 55d1956b1f112e0f1685ac6c4126f564cf40bdb1
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "66968908"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272262"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams の共有チャネル
 
@@ -84,10 +84,10 @@ Teamsでは、共有チャンネルがデフォルトで有効になっていま
 |アクション  |チーム所有者|チーム メンバー|チームのゲスト|共有チャネルの所有者|共有チャネルのメンバー|共有チャネルの外部の参加者|
 |---------|---------|---------|---------|---------|---------|---------|
 |共有チャネルを作成する|管理者による制御|管理者とチームの所有者の制御|いいえ|該当なし|いいえ|いいえ|
-|共有チャネルを削除する|はい|いいえ|いいえ|はい|いいえ|いいえ|
+|共有チャネルを削除する|はい|いいえ|いいえ|Yes|いいえ|いいえ|
 |共有チャネルから退出する|該当なし|該当なし|該当なし|[はい]-最後の所有者でない場合|はい|はい|
 |共有チャネルを編集する|いいえ|該当なし|該当なし|はい|いいえ|いいえ|
-|削除されたプライベート チャネルを復元する|はい|いいえ|いいえ|はい|いいえ|いいえ|
+|削除されたプライベート チャネルを復元する|はい|いいえ|いいえ|Yes|いいえ|いいえ|
 |メンバーを追加する|いいえ|該当なし|該当なし|はい|いいえ|いいえ|
 |編集を設定する|いいえ|該当なし|該当なし|はい|いいえ|いいえ|
 |タブとアプリを管理する|いいえ|該当なし|該当なし|はい、アプリがチームにインストールされている必要があります|チャンネルの所有者の制御|いいえ|
@@ -211,7 +211,6 @@ Teams は、共有チャネル サイトのライフ サイクルを管理しま
 - Smartsheet
 - SurveyMonkey
 - ボックス内のタスク
-- Teams
 - Teams マネージャー
 - TeamViewer
 - チームワーク

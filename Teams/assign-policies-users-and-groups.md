@@ -14,34 +14,34 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Microsoft Teamsのユーザーとグループにポリシーを割り当てるさまざまな方法について説明します。
+description: Microsoft Teams のユーザーとグループにポリシーを割り当てるさまざまな方法について説明します。
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: d3a77082fe3fb2e1f070c11f1ff85e6d883b2704
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 9d286d4451ce143a54beda6e457c12ba059832b3
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156565"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267582"
 ---
 # <a name="assign-policies-to-users-and-groups"></a>ユーザーとグループにポリシーを割り当てる
 
-この記事では、Microsoft Teamsのユーザーとグループにポリシーを割り当てるさまざまな方法について説明します。 読む前に、「 [Teams でポリシーを割り当てる - 作業を開始](policy-assignment-overview.md)する」を読んだことを確認してください。
+この記事では、Microsoft Teams のユーザーとグループにポリシーを割り当てるさまざまな方法について説明します。 読む前に、「 [Teams でポリシーを割り当てる - 作業を開始](policy-assignment-overview.md)する」を読んだことを確認してください。
 
 ## <a name="assign-a-policy-to-individual-users"></a>ポリシーを個々のユーザーに割り当てる
 
 個々のユーザーまたは少数のユーザーに一度にポリシーを割り当てるには、次の手順に従います。
 
-### <a name="use-the-microsoft-teams-admin-center"></a>Microsoft Teams管理センターを使用する
+### <a name="use-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターを使用する
 
 ポリシーをグループに割り当てるには:
 
-1. [Microsoft Teams管理センター](https://admin.teams.microsoft.com)の左側のナビゲーションで、[**ユーザーの管理****] に** > 移動します。
+1. [Microsoft Teams 管理センター](https://admin.teams.microsoft.com)の左側のナビゲーションで、[**ユーザーの管理****]** >  に移動します。
 2. ユーザー名の左側をクリックしてユーザーを選択し、[ **設定の編集]** を選択します。
 3. 割り当てるポリシーを選択し、[ **適用**] を選択します。
 
-![Teams 管理センターのユーザーにポリシーを割り当てます。](media/assign-policy-user.png)
+    :::image type="content" source="media/assign-policies-users-edit-settings.png"  alt-text="[ユーザーの管理] の [設定の編集] ウィンドウのスクリーンショット。" lightbox="media/assign-policies-users-edit-settings-expanded.png":::
 
 > [!NOTE]
 > ユーザーから特殊化されたポリシーの割り当てを解除するには、各ポリシーを **グローバル (組織全体の既定値)** に設定できます。 ポリシーに直接割り当てられているすべてのユーザーに対して、ポリシーの割り当てを一括で削除することもできます。 詳細については、「ポリシーの [割り当てを一括で割り当て解除する」](#unassign-policies-in-bulk)を参照してください。
@@ -50,11 +50,11 @@ ms.locfileid: "67156565"
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、ポリシー ページに移動します。
 2. ポリシー名の左側をクリックして割り当てるポリシーを選びます。
-3. **[ユーザーを管理する]** を選択します。
+3. [ **ユーザーの割り当て]** を選択します。
 4. [**ユーザーを管理**] ウィンドウで、表示名またはユーザー名でユーザーを検索し、名前を選択して [**追加**] を選びます。 追加するユーザーごとに、この手順を繰り返します。
 5. ユーザーの追加が完了したら、**[適用]** を選択します。
 
-![2 番目の方法で Teams 管理センターのユーザーにポリシーを割り当てます。](media/assign-policy-user2.png)
+    :::image type="content" source="media/assign-policies-user-example.png" alt-text="2 つ目の方法で Teams 管理センターのユーザーにポリシーを割り当てる方法を示すスクリーンショット。" lightbox="media/assign-policies-user-example-expanded.png":::
 
 ### <a name="use-powershell"></a>PowerShell を使用する
 
@@ -142,7 +142,7 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
     3. 割り当てるポリシーを選択します。
     4. **[適用]** を選択します。
 
-![Teams 管理センターのグループにポリシーを割り当てます。](media/assign-policy-group.png)
+        :::image type="content" source="media/assign-policies-groups-messaging.png" alt-text="Teams 管理センターでグループにポリシーを割り当てる方法を示すスクリーンショット。" lightbox="media/assign-policies-groups-messaging-expanded.png":::
 
 グループ ポリシーの割り当てを削除するには、ポリシー ページの **[グループ ポリシーの割り当て]** タブで、グループの割り当てを選び、**[削除]** を選択します。
 
@@ -271,7 +271,7 @@ New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -Po
 3. [**&#x2713;** (チェックマーク)] の列からユーザーを選択します。 すべてのユーザーを選択するには、テーブルの上部にある&#x2713; (チェック マーク) を選択します。
 4. [ **設定の編集] を** 選択し、必要な変更を加えてから、[ **適用**] を選択します。
 
-ポリシーの割り当ての状態を表示するには、[**適用**] を選択してポリシーの割り当てを送信した後、[**ユーザー**] ページの上部に表示されるバナーで、[**アクティビティ ログ**] を選択します。 または、Microsoft Teams管理センターの左側のナビゲーションで **ダッシュボード** に移動し、[ **アクティビティ ログ**] で [詳細の表示] を選択 **します**。 アクティビティ ログには、過去 30 日間の Microsoft Teams 管理センターを通じて、20 人を超えるユーザーのバッチへのポリシー割り当てが表示されます。 詳細については、「[アクティビティ ログでポリシーの割り当てを表示する](activity-log.md)」を参照してください。
+ポリシーの割り当ての状態を表示するには、[**適用**] を選択してポリシーの割り当てを送信した後、[**ユーザー**] ページの上部に表示されるバナーで、[**アクティビティ ログ**] を選択します。 または、Microsoft Teams 管理センターの左側のナビゲーションで **ダッシュボード** に移動し、[ **アクティビティ ログ**] で [ **詳細の表示**] を選択します。 アクティビティ ログには、過去 30 日間の Microsoft Teams 管理センターを通じて、20 人を超えるユーザーのバッチへのポリシー割り当てが表示されます。 詳細については、「[アクティビティ ログでポリシーの割り当てを表示する](activity-log.md)」を参照してください。
 
 ### <a name="use-powershell-method"></a>PowerShell メソッドを使用する
 
@@ -353,7 +353,7 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 1. **Teams Education ウィザードからポリシーの割り当てをクリーンアップします。** Teams Education ポリシー ウィザードは、学生にグローバル ポリシーの既定値を適用し、グループ ポリシーの割り当てを使用してスタッフのグループにカスタム ポリシー セットを割り当てます。 管理者は、グローバル (組織全体の既定値) とグループの割り当てを有効にするために、学生とスタッフの個々のポリシーをクリーンアップする必要があります。
 1. **不適切なポリシーの割り当てを削除します。** 直接割り当てによって間違ったポリシーを割り当てられた個々のユーザーの大規模なグループがある場合は、割り当て解除ポリシーを一括して使用して、これらの割り当てを削除できます。
 
- [Microsoft Teams管理センター](https://admin.teams.microsoft.com)から一括でポリシーの割り当てを解除できます。
+ ポリシーの割り当てを一括で解除するには、 [Microsoft Teams 管理センター](https://admin.teams.microsoft.com)から行います。
 
 1. **[ユーザー****の管理**]  >  に移動します。
 2. ページの右上隅にある [**アクション]** ドロップダウン メニュー **から [ポリシーの一括割り当て解除**] を選択します。

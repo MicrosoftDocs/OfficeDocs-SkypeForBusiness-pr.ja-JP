@@ -1,5 +1,5 @@
 ---
-title: Teamsで音声ポリシーと通話ポリシーを管理する
+title: Teams で音声ポリシーと通話ポリシーを管理する
 author: mkbond007
 ms.author: mabond
 manager: serdars
@@ -7,34 +7,31 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: ''
-description: 音声ポリシーと通話ポリシー Teamsについて説明します。
+description: Teams の音声ポリシーと通話ポリシーについて説明します。
 audience: admin
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
-appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 8a63aa772d94a4a385301315d1c1bd3b6488fa3b
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.collection:
+- M365-voice
+ms.openlocfilehash: 5a6676d29a439ed978385d096c6e8b0584049557
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646466"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270292"
 ---
-# <a name="manage-voice-and-calling-policies-in-microsoft-teams"></a>Microsoft Teamsで音声ポリシーと通話ポリシーを管理する
+# <a name="manage-voice-and-calling-policies-in-microsoft-teams"></a>Microsoft Teams で音声ポリシーと通話ポリシーを管理する
 
-音声ポリシーと通話ポリシーは、Microsoft Teamsで音声と通話を制御するために使用されます。
+音声ポリシーと通話ポリシーは、Microsoft Teams で音声と通話を制御するために使用されます。
 
 ## <a name="emergency-calling-policies"></a>緊急通話ポリシー
 
-[緊急通話ポリシー](manage-emergency-calling-policies.md)を使用して、組織内のユーザーが緊急通報を行った場合の動作を構成します。 これらのポリシーは、Teams管理センターまたはWindows PowerShellを使用して管理されます。
+[緊急通話ポリシー](manage-emergency-calling-policies.md)を使用して、組織内のユーザーが緊急通報を行った場合の動作を構成します。 これらのポリシーは、Teams 管理センターまたはWindows PowerShellを使用して管理されます。
 
 ![緊急通報ポリシーのスクリーンショット。](media/emergency-calling-policy2.png)
 
 ## <a name="emergency-call-routing-policies"></a>緊急通話ルーティング ポリシー
 
-組織が **ダイレクト ルーティング電話システム** 展開している場合は、[緊急通報ルーティング ポリシー](manage-emergency-call-routing-policies.md)を使用して、緊急通報のルーティング先、強化された緊急サービスが有効になっているかどうか、および緊急サービスに使用される番号を決定できます。 これらのポリシーは、PowerShell またはMicrosoft Teams管理センターで管理されます。
+組織が **電話システム ダイレクト ルーティング** を展開している場合は、 [緊急通報ルーティング ポリシー](manage-emergency-call-routing-policies.md) を使用して、緊急通報のルーティング先、強化された緊急サービスが有効になっているかどうか、および緊急サービスに使用される番号を決定できます。 これらのポリシーは、PowerShell または Microsoft Teams 管理センターを使用して管理されます。
 
 ![緊急通話ルーティング ポリシーのスクリーンショット。](media/emergency-call-routing-policy.png)
 
@@ -46,7 +43,7 @@ ms.locfileid: "65646466"
 
 ## <a name="voice-routing-policies"></a>音声ルーティング ポリシー
 
-[音声ルーティング ポリシー](manage-voice-routing-policies.md)は、公衆交換電話網 (PSTN) の使用レコードのコンテナーです。 組織が **ダイレクト ルーティング電話システム** 展開している場合は、これらのポリシーを使用できます。 音声ルーティング ポリシーは、PowerShell またはTeams管理センターで管理できます。
+[音声ルーティング ポリシー](manage-voice-routing-policies.md)は、公衆交換電話網 (PSTN) の使用レコードのコンテナーです。 組織が **電話システム ダイレクト ルーティング** を展開している場合は、これらのポリシーを使用できます。 音声ルーティング ポリシーは、PowerShell または Teams 管理センターで管理できます。
 
 ![音声ルーティング ポリシーのスクリーンショット。](media/voice-routing-policy.png)
 
@@ -64,17 +61,17 @@ ms.locfileid: "65646466"
 
 ## <a name="create-and-manage-dial-plans"></a>ダイヤル プランを作成および管理する
 
-[ダイヤル プランでは](create-and-manage-dial-plans.md) 、通話の承認とルーティングのためにダイヤルされた電話番号が変換されます。 ダイヤル プランは、PowerShell またはMicrosoft Teams管理センターで作成および管理できます。
+[ダイヤル プランでは](create-and-manage-dial-plans.md) 、通話の承認とルーティングのためにダイヤルされた電話番号が変換されます。 ダイヤル プランは、PowerShell または Microsoft Teams 管理センターで作成および管理できます。
 
 ![ダイヤル プランのスクリーンショット。](media/dial-plans.png)
 
 ## <a name="related-topics"></a>関連項目
 
-* [Microsoft Teamsで緊急通報ポリシーを管理する](manage-emergency-calling-policies.md)
+* [Microsoft Teams で緊急通報ポリシーを管理する](manage-emergency-calling-policies.md)
 * [緊急通話のルーティング ポリシーを管理する](manage-emergency-call-routing-policies.md)
 * [Microsoft Teams で発信者番号ポリシーを管理する](caller-id-policies.md)
 * [音声ルーティング ポリシーを管理する](manage-voice-routing-policies.md)
 * [Microsoft Teams の発信通話制限ポリシー](teams-calling-policy.md)
 * [Microsoft Teams でのコール パークおよび保留解除](call-park-and-retrieve.md)
 * [ダイヤル プランを作成および管理する](create-and-manage-dial-plans.md)
-* [ポリシーを使用してTeamsを管理する](manage-teams-with-policies.md)
+* [ポリシーを使用して Teams を管理する](manage-teams-with-policies.md)

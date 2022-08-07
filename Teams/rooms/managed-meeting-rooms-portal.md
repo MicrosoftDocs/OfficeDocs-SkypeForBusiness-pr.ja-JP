@@ -10,19 +10,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 会議室の正常性のビューを提供します。
 f1keywords: ''
-ms.openlocfilehash: db8f6125bda335dfab2f9208fcfd8ab0f192e4e7
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: d76f1f68e0cc73d2abd554ec5c2fc115139a6a0f
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767611"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269212"
 ---
 # <a name="microsoft-managed-meeting-rooms-portal"></a>Microsoft マネージド ミーティング ルーム ポータル
 
@@ -36,11 +36,11 @@ ms.locfileid: "61767611"
   - ルームに影響を与える主要な問題
   - ルームを正常な状態に復元するために必要なアクション
   - Microsoft によって調査中の問題
-- Microsoft Teams会議室デバイスのビュー
+- Microsoft Teams Room デバイスの表示
   - Microsoft Teams Rooms (MRT) デバイス レベルでの状態のスナップショット
   - すべてのデバイスの基本的な履歴と詳細
 
-**Microsoft Teams会議室デバイスのビュー**
+**Microsoft Teams Room デバイスの表示**
 
 - Microsoft Teams Rooms (MRT) デバイス レベルでの状態のスナップショット
 - すべてのデバイスの基本的な履歴と詳細
@@ -54,9 +54,9 @@ ms.locfileid: "61767611"
 
 |用語 |意味 |
 | :- | :- |
-|**ソフトウェアの監視** |Microsoft Teams 会議室の各デバイスに展開されている監視エージェント。 |
-|**アプリ** |会議室システム アプリMicrosoft Teams (コラボレーション サービスとしてSkype for BusinessまたはMicrosoft Teamsを使用するかどうかに関係なく)。 |
-|**Room/Device** |認定されたMicrosoft Teamsルーム システム デバイス。 |
+|**ソフトウェアの監視** |Microsoft Teams Room の各デバイスに展開されている監視エージェント。 |
+|**アプリ** |Microsoft Teams Room システム アプリ (コラボレーション サービスとしてSkype for Businessまたは Microsoft Teams を使用するかどうかに関係なく。 |
+|**Room/Device** |認定された Microsoft Teams Room システム デバイス。 |
 |**監視されていない** | マネージド サービスの一部として展開された Microsoft 監視ソフトウェアは、クラウド サービスに接続できません。 デバイスに関するテレメトリを受け取りません。 |
 |<p>**正常/** </p><p>**不健康** </p>|デバイス/周辺機器の異常。 |
 |**抑制** |デバイスがメンテナンス中であることがわかっており、そのアラートを無視する必要がある場合は、デバイスを意図的に抑制できます。 |
@@ -120,17 +120,17 @@ ms.locfileid: "61767611"
 |**会議のマイク、会議の講演者** |オーディオ デバイス (マイク/スピーカー) が正しく構成されていないようです。 |
 |**カメラ** |デバイスに接続されているカメラは正常に見えません。 |
 |**HDMI 取り込み** |HDMI Ingest は正常ではありません。 |
-|**サインイン** (Exchange) |Microsoft Teams Room アプリがExchangeから予定表情報にアクセスすると、サインインの成功に関する問題がサインイン インシデントで報告されます。 |
-|**サインイン** (Teams) |Microsoft Teams Room アプリがデバイスにサインインし、サインインに失敗した場合は、このインシデントで報告されます (顧客がTeamsを使用している場合)。 |
-|**サインイン** (Skype for Business) |Microsoft Teams Room アプリがデバイスにサインインすると、このインシデントでサインインできなかったと報告されます (顧客がSkype for Businessを使用している場合) |
-|**近接センサー** |Microsoft Teams 会議室アプリは、出席者が近くにいれば会議に参加するように招待します。 この機能のエラーは、このインシデントの下で報告されます。 |
+|**サインイン** (Exchange) |Microsoft Teams Room アプリは Exchange から予定表情報にアクセスし、サインインの成功に関する問題はサインイン インシデントで報告されます。 |
+|**サインイン** (Teams) |Microsoft Teams Room アプリがデバイスにサインインし、サインインに失敗した場合は、このインシデントで報告されます (顧客が Teams を使用している場合)。 |
+|**サインイン** (Skype for Business) |Microsoft Teams Room アプリがデバイスにサインインすると、このインシデントでサインインできなかったと報告されます (お客様がSkype for Businessを使用している場合) |
+|**近接センサー** |Microsoft Teams Room アプリは、出席者が近くにいれば会議に参加するように招待します。 この機能のエラーは、このインシデントの下で報告されます。 |
 
 **表 2: "警告" 重大度のインシデント**
 
 |種類 |説明 |
 | :- | :- |
-|**アプリのバージョン** |デバイスで実行されているMicrosoft Teamsルーム アプリのバージョンが最新ではありません。 古いバージョンは、ユーザーが経験した問題の原因として知られています。 |
-|**OS バージョン** |会議室で実行されているWindowsオペレーティング システムのバージョンは推奨されなくなりました。 |
+|**アプリのバージョン** |デバイスで実行されている Microsoft Teams Room App のバージョンが最新ではありません。 古いバージョンは、ユーザーが経験した問題の原因として知られています。 |
+|**OS バージョン** |会議室で実行されている Windows オペレーティング システムのバージョンは推奨されなくなりました。 |
 |**ネットワーク** |これは、評価後に必要な追加作業のため、近い期間に警告の一種として削除されます。 |
 
 ## <a name="responding-to-incidents"></a>インシデントへの対応
@@ -220,4 +220,4 @@ Managed Rooms パイロットの一部として展開された Microsoft 監視�
 ![アクティブなチケット履歴を示すスクリーンショット](../media/rooms-monitor-015.png)
 
 FAQ 動的チケットは、自分と部屋の操作にどのような影響を与えるのですか?  
-お客様には、バイナリシグナル チケットだけでなく、よりスマートなチケットと修復の作成が表示されます。 たとえば、ミーティング ルームには 3 つのディスプレイを表示できます (ディスプレイ 1、ディスプレイ 2 &、MRT タッチ パネル ディスプレイ)。 ただし、正常または異常の表示信号は 1 つだけです。 新しい動的チケットを使用して、各表示信号に固有のチケットを生成できるようになりました。
+お客様には、バイナリシグナル チケットだけでなく、よりスマートなチケットと修復の作成が表示されます。 たとえば、会議室には 3 つのディスプレイを表示できます (ディスプレイ 1、ディスプレイ 2 &、MRT タッチ パネルディスプレイ)。 ただし、正常または異常の表示信号は 1 つだけです。 新しい動的チケットを使用して、各表示信号に固有のチケットを生成できるようになりました。

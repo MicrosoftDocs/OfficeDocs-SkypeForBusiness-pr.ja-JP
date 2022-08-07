@@ -9,7 +9,6 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-voice
-- m365initiative-voice
 ms.reviewer: crowe
 search.appverid: MET150
 f1.keywords:
@@ -21,21 +20,21 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f087498d3a9d679ea10ba2c8cc9505ab772d85ab
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: cc250b0506614ef658ade9a491c5561a65b98800
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823648"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269672"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing"></a>ダイレクト ルーティング用の存続可能ブランチ アプライアンス (SBA)
 
 
-場合によっては、ダイレクト ルーティングを使用して Microsoft 電話 システムに接続する顧客サイトでインターネットが停止することがあります。
+場合によっては、直接ルーティングを使用して Microsoft Phone System に接続する顧客サイトでインターネットが停止することがあります。
 
 お客様のサイト (ブランチと呼ばれる) が、直接ルーティングを介して Microsoft クラウドに一時的に接続できないとします。 ただし、ブランチ内のイントラネットはまだ完全に機能しており、ユーザーは PSTN 接続を提供しているセッション ボーダー コントローラー (SBC) に接続できます。
 
-この記事では、存続可能ブランチ アプライアンス (SBA) を使用して、Microsoft 電話 システムが停止した場合に公衆交換電話網 (PSTN) の呼び出しを引き続き発信および受信できるようにする方法について説明します。
+この記事では、存続可能ブランチ アプライアンス (SBA) を使用して、障害が発生した場合に Microsoft Phone System が公衆交換電話網 (PSTN) の呼び出しを引き続き発信および受信できるようにする方法について説明します。
 
 ## <a name="prerequisites"></a>前提条件
 
@@ -43,30 +42,30 @@ SBA は、Microsoft から SBC ベンダーに提供される配布可能なコ�
 
 組み込みの存続可能ブランチ アプライアンスを使用して最新のセッション ボーダー コントローラー ファームウェアを取得するには、SBC ベンダーにお問い合わせください。 さらに、次のものが必要です。
 
-- SBC を Media Bypass 用に構成して、ブランチ サイト内のMicrosoft Teams クライアントが SBC で直接メディアを流れるようにする必要があります。 
+- ブランチ サイト内の Microsoft Teams クライアントが SBC と直接流れるメディアを持つことができるように、メディア バイパス用に SBC を構成する必要があります。 
 
 - SBA VM OS で TLS1.2 を有効にする必要があります。
-- ポート 3443、4444、および 8443 は、Microsoft SBA Server によってTeams クライアントと通信するために使用され、ファイアウォールで許可される必要があります。 
+- ポート 3443、4444、および 8443 は、Microsoft SBA Server によって Teams クライアントと通信するために使用され、ファイアウォールで許可される必要があります。 
 - ポート 5061 (または SBC で構成されたもの) は、Microsoft SBA Server が SBC と通信するために使用し、ファイアウォールで許可する必要があります。 
 - UDP ポート 123 は、Microsoft SBA Server が NTP サーバーと通信するために使用するため、ファイアウォールで許可する必要があります。
-- ポート 443 は、Microsoft SBA Server によってMicrosoft 365と通信するために使用され、ファイアウォールで許可する必要があります。
+- ポート 443 は、Microsoft SBA Server が Microsoft 365 と通信するために使用し、ファイアウォールで許可する必要があります。
 - パブリック クラウドの Azure IP 範囲とサービス タグは、次のガイドラインに従って定義する必要があります。 https://www.microsoft.com/download/details.aspx?id=56519
 
-## <a name="supported-teams-clients"></a>サポートされているTeams クライアント
+## <a name="supported-teams-clients"></a>サポートされている Teams クライアント
 
-SBA 機能は、次のMicrosoft Teams クライアントでサポートされています。 
+SBA 機能は、次の Microsoft Teams クライアントでサポートされています。 
 
-- デスクトップMicrosoft Teams Windows 
+- Microsoft Teams Windows デスクトップ 
 
-- デスクトップMicrosoft Teams macOS
-- モバイル向けのTeams 
-- Teams Phone
+- Microsoft Teams macOS デスクトップ
+- Teams for Mobile 
+- Teams Phones
 
 ## <a name="how-it-works"></a>メカニズム
 
-インターネットの停止中、Teams クライアントは自動的に SBA に切り替える必要があり、継続的な呼び出しは中断なしで続行する必要があります。 ユーザーからの操作は必要ありません。 Teams クライアントがインターネットが起動し、発信呼び出しが完了したことを検出するとすぐに、クライアントは通常の操作モードに戻り、他のTeams サービスに接続します。 SBA は収集された通話データ レコードをクラウドにアップロードし、この情報がテナント管理者が確認できるように通話履歴が更新されます。 
+インターネットの停止中、Teams クライアントは自動的に SBA に切り替える必要があり、継続的な呼び出しは中断なしで続行する必要があります。 ユーザーからの操作は必要ありません。 Teams クライアントがインターネットが起動し、発信通話が完了したことを検出するとすぐに、クライアントは通常の操作モードに戻り、他の Teams サービスに接続します。 SBA は収集された通話データ レコードをクラウドにアップロードし、この情報がテナント管理者が確認できるように通話履歴が更新されます。 
 
-Microsoft Teams クライアントがオフライン モードの場合、次の呼び出しに関連する機能を使用できます。 
+Microsoft Teams クライアントがオフライン モードの場合は、次の呼び出しに関連する機能を使用できます。 
 
 - ローカル SBA/SBC 経由で PSTN 通話を行い、SBC を通過するメディアを使用します。
 
@@ -81,9 +80,9 @@ SBA 機能を機能させるには、Teams クライアントは、各ブラン�
 1. SBA を作成します。
 2. Teams ブランチの存続可能性ポリシーを作成します。
 3. ポリシーをユーザーに割り当てます。
-4. SBA のアプリケーションをAzure Active Directoryに登録します。
+4. Azure Active Directory に SBA のアプリケーションを登録します。
 
-すべての構成は、Skype for Business Online PowerShell コマンドレットを使用して行われます。 (Teams管理センターでは、ダイレクト ルーティング SBA 機能はまだサポートされていません)。 
+すべての構成は、Skype for Business Online PowerShell コマンドレットを使用して行われます。 (Teams 管理センターでは、ダイレクト ルーティング SBA 機能はまだサポートされていません)。 
 
 (SBC ベンダーのドキュメントへのリンクを含む SBC の構成については、この記事の最後にあるセッション ボーダー コントローラーの構成を参照してください)。
 
@@ -156,13 +155,13 @@ C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName CPH -Identity user
 C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity user@contoso.com 
 ```
 
-### <a name="register-an-application-for-the-sba-with-azure-active-directory"></a>SBA のアプリケーションをAzure Active Directoryに登録する
+### <a name="register-an-application-for-the-sba-with-azure-active-directory"></a>Azure Active Directory に SBA のアプリケーションを登録する
 
-テナント内で使用されているさまざまな SBA がMicrosoft 365から必要なデータを読み取ることができるようにするには、SBA のアプリケーションをAzure Active Directoryに登録する必要があります。 
+テナント内で使用されているさまざまな SBA が Microsoft 365 から必要なデータを読み取ることができるようにするには、SBA のアプリケーションを Azure Active Directory に登録する必要があります。 
 
 アプリケーションの登録の詳細については、次を参照してください。
 
-- [Azure Active Directory向けの基幹業務アプリを開発する](/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
+- [Azure Active Directory の基幹業務アプリを開発する](/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
 
 - [アプリケーションをMicrosoft ID プラットフォームに登録します](/azure/active-directory/develop/quickstart-register-app)。  
 
@@ -179,7 +178,7 @@ SBA アプリケーションの場合は、次の点に注意してください�
 - サポートされているアカウントの種類 = この組織のディレクトリ内のアカウントのみ。 
 - Web リダイレクト Uri = https://login.microsoftonline.com/common/oauth2/nativeclient.
 - 暗黙的な付与トークン = アクセス トークンと ID トークン。 
-- API のアクセス許可 = Skypeおよびテナント Teams 管理 Access -> アプリケーションのアクセス許可 -> application_access_custom_sba_appliance。
+- API のアクセス許可 = Skype と Teams テナント 管理 Access -> アプリケーションのアクセス許可 -> application_access_custom_sba_appliance。
 - クライアント シークレット: 任意の説明と有効期限を使用できます。 
 - クライアント シークレットを作成した直後に必ずコピーしてください。 
 - [概要] タブにアプリケーション (クライアント) ID が表示されます。

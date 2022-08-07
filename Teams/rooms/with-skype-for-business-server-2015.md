@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server で Microsoft Teams Rooms を展開する
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,15 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: このトピックでは、Skype for Business Server を使用して Microsoft Teams Rooms を展開する方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 358fa9295ec150f9c57a18252c76d309078b8e29
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: 53903052efe28a85400ba8b418bd8869ef2dec4e
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63503484"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271682"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>Skype for Business Server で Microsoft Teams Rooms を展開する
   
@@ -60,7 +61,7 @@ Microsoft Teams Rooms の展開を開始する前に、関連するコマンド�
    -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
-3. Teams Rooms リソース アカウントにさまざまなExchangeプロパティを設定して、ユーザーの会議エクスペリエンスを向上させることができます。 [Exchange プロパティ] セクションで設定する必要があるプロパティが表示されます。
+3. Teams Rooms リソース アカウントにさまざまな Exchange プロパティを設定して、ユーザーの会議エクスペリエンスを向上させることができます。 [Exchange プロパティ] セクションで設定する必要があるプロパティが表示されます。
 
    ``` Powershell
    Set-CalendarProcessing -Identity ConferenceRoom01 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments

@@ -1,5 +1,5 @@
 ---
-title: サンプル スクリプト - ファイアウォール PowerShell スクリプトMicrosoft Teams
+title: サンプル スクリプト - Microsoft Teams ファイアウォール PowerShell スクリプト
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -8,23 +8,22 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- m365initiative-deployteams
 ms.reviewer: harij, rafarhi
 ms.localizationpriority: medium
 search.appverid: MET150
-description: ファイアウォール経由の接続を許可するようにWindows Teams構成するために使用できるサンプル スクリプトWindows。
+description: Windows ファイアウォール経由の Teams 接続を許可するように Windows を構成するために使用できるサンプル スクリプト。
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1131868af2b81b1d786bd760518f56633ec8aa83
-ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
+ms.openlocfilehash: b15c8e141f8a3cd5cde1915901d3dbcd9e29b23a
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62893760"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269402"
 ---
-# <a name="sample-script---microsoft-teams-firewall-powershell-script"></a>サンプル スクリプト - ファイアウォール PowerShell スクリプトMicrosoft Teams
+# <a name="sample-script---microsoft-teams-firewall-powershell-script"></a>サンプル スクリプト - Microsoft Teams ファイアウォール PowerShell スクリプト
 
 このサンプル スクリプトは、管理者アカウントのコンテキスト内のクライアント コンピューターで実行する必要があり、c:\users にある各ユーザーのフォルダーの新しい受信ファイアウォール ルールを作成します。 Teams がこのルールを検出すると、ユーザーが Teams からの最初の呼び出しを行うときに、ファイアウォール ルールを作成する為の Teams アプリケーションからユーザーへの指示ができなくなります。
 

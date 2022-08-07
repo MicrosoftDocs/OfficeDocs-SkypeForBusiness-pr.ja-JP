@@ -10,7 +10,6 @@ ms.service: msteams
 ms.collection:
 - M365-voice
 - M365-collaboration
-- m365initiative-meetings
 search.appverid: MET150
 audience: admin
 appliesto:
@@ -22,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.overview
 description: Microsoft 365 またはOffice 365の電話会議で、ユーザーが自分の電話から会議に通話できるようにする方法について説明します。
-ms.openlocfilehash: 1a03faf129a40d61605474e95c759067ce20841e
-ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
+ms.openlocfilehash: 7073fa9c870fc718b2d2c6e24e109878e0dd2d34
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66884906"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269932"
 ---
 # <a name="audio-conferencing-policy-settings-for-toll-and-toll-free-numbers"></a>有料電話番号とフリーダイヤル番号の電話会議ポリシー設定
 
