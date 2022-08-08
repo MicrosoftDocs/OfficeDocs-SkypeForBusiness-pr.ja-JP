@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 およびカスタム コネクタを管理する
+title: Microsoft 365 とカスタム コネクタを管理する
 author: guptaashish
 ms.author: guptaashish
 manager: prkosh
@@ -13,84 +13,72 @@ ms.reviewer: lucarras
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 使用するサービスの Teams チャネルに直接コンテンツと更新プログラムを頻繁に配信することで、コネクタがチームを更新し続ける方法について説明します。
+description: 使用するサービスの Teams チャネルにコンテンツと更新を頻繁に直接配信することで、コネクタがチームを更新し続ける方法について説明します。
 appliesto:
 - Microsoft Teams
+ms.localizationpriority: high
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fb056cbee4dc1d56a6cd967d3f46c3f0680e9b73
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
-ms.translationtype: MT
+ms.openlocfilehash: 9bfc425fbabc5270a3b24cfa2248a9ee2eb7b833
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880231"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267612"
 ---
-# <a name="manage-microsoft-365-and-custom-connectors"></a>Microsoft 365 およびカスタム コネクタを管理する
+# <a name="manage-microsoft-365-and-custom-connectors"></a>Microsoft 365 とカスタム コネクタを管理する
 
-チームを更新し続けるために、コネクタは頻繁に使用されるコンテンツとサービスの更新を Teams チャネルに直接配信します。 コネクタを使用すると、Teams ユーザーは Trello、Wunderlist、GitHub、Azure DevOps Servicesなどの一般的なサービスから更新プログラムを受け取ることができます。 更新プログラムは、チーム内のチャット ストリームに直接投稿されます。
+チームを更新し続けるために、コネクタは頻繁に使用されるコンテンツとサービスの更新を Teams チャネルに直接配信します。 コネクタを使用すると、Teams ユーザーは Trello、Wunderlist、GitHub、Azure DevOps Services などのポピュラーなサービスから更新を受け取ることができます。 更新は、チーム内のチャット ストリームに直接投稿されます。
 
-Microsoft 365 コネクタは、Microsoft Teams と Microsoft 365 グループの両方で使用されるため、すべてのメンバーが同期を維持し、関連情報を迅速に受信しやすくなります。 Microsoft Teams と Exchange の両方が同じコネクタ モデルを使用しているため、両方のプラットフォーム内で同じコネクタを使用できます。 ただし、Microsoft 365 グループ用に構成されたコネクタを無効にすると、Microsoft 365 グループでコネクタを作成する機能も無効になります。
+Microsoft 365 コネクタは、Microsoft Teams と Microsoft 365 グループの両方で使用されます。 すべてのメンバーが同期を維持し、関連情報をすばやく受け取りやすくなります。 Microsoft Teams と Microsoft Exchange の両方で同じコネクタを使用できます。 ただし、Microsoft 365 グループ用に構成されたコネクタを無効にすると、Microsoft 365 グループでコネクタを作成する機能も無効になります。
 
-チームのアクセス許可が許可されている場合、チームのメンバーはチームをコネクタを使用して一般的なクラウド サービスに接続でき、すべてのチーム メンバーにそのサービスからのアクティビティが通知されます。 コネクタは、最初にコネクタを設定したメンバーが離れた後も引き続き機能します。 追加または削除するアクセス許可を持つチーム メンバーは、他のメンバーによるコネクタの設定を変更できます。
+チームのアクセス許可により許可されている場合、チームのメンバーは誰でもコネクタを使用して自分のチームを一般的なクラウド サービスに接続することができ、チームのメンバー全員にそのサービスからアクティビティが通知されます。 コネクタは、最初にコネクタを設定したメンバーが離れた後も引き続き機能します。 追加または削除するアクセス許可を持つチーム メンバーは、他のメンバーによるコネクタの設定を変更できます。
 
 ## <a name="enable-or-disable-connectors-in-teams"></a>Teams でコネクタを有効または無効にする
 
-Exchange Online PowerShell V2 モジュールは、最新の認証を使用し、Microsoft 365 のすべての Exchange 関連の PowerShell 環境に接続するための MFA と呼ばれる多要素認証と連携します。 管理者は、Exchange Online PowerShell を使用して、テナント全体または特定のグループ メールボックスのコネクタを無効にし、そのテナントまたはメールボックス内のすべてのユーザーに影響を与えることができます。 少数の特定のユーザーに対して無効にすることはできません。 また、GCC テナントと呼ばれる Government Community Cloud では、コネクタは既定で無効になっています。
+Exchange Online PowerShell V2 モジュールは、先進認証を使用し、多要素認証 (MFA) と連携して、Microsoft 365 のすべての Exchange 関連の PowerShell 環境に接続します。 管理者は、Exchange Online PowerShell を使用して、テナント全体または特定のグループ メールボックスのコネクタを無効にし、そのテナントまたはメールボックス内のすべてのユーザーに影響を与えることができます。 少数の特定のユーザーに対して無効にすることはできません。 また、Government Community Cloud (GCC) 環境では、コネクタは既定で無効になっています。
 
-テナント設定は、グループ設定よりも優先されます。 たとえば、管理者がグループのコネクタを有効にし、テナントで無効にした場合、グループのコネクタは無効になります。 Teams でコネクタを有効にするには、MFA の有無にかかわらず最新の認証を使用して [powerShell Exchange Onlineに接続](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps#connect-to-exchange-online-powershell-using-modern-authentication-with-or-without-mfa&preserve-view=true)します。
+> [!NOTE]
+> Government Cloud Community (GCC) 環境では、コネクタは既定で無効になっています。 これらを有効にするには、`SetOrganizationConfig` コマンドレットを使用して `ConnectorsEnabled` または `ConnectorsEnabledForTeams` パラメーターを `$true` に設定します。 [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps&preserve-view=true) に接続します。
 
-コネクタを有効または無効にするには、powerShell で次のコマンドExchange Online実行します。
+テナント設定は、グループ設定よりも優先されます。 たとえば、管理者がグループのコネクタを有効にし、テナントに対して無効にした場合、グループのコネクタは無効になります。 Teams でコネクタを有効にするには、MFA を利用してもしなくても、先進認証を使用して [Exchange Online PowerShell に接続](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps#connect-to-exchange-online-powershell-using-modern-authentication-with-or-without-mfa&preserve-view=true)します。
 
-* テナントのコネクタを無効にするには: `Set-OrganizationConfig -ConnectorsEnabled:$false`.
-* テナントの実行可能なメッセージを無効にするには: `Set-OrganizationConfig -ConnectorsActionableMessagesEnabled:$false`.
-* Teams のコネクタを有効にするには、次のコマンドを実行します。
+コネクタを有効または無効にするには、Exchange Online PowerShell で次のコマンドを実行します。
+
+* テナントに対してコネクタを無効にするには、`Set-OrganizationConfig -ConnectorsEnabled:$false`。
+* テナントの操作可能なメッセージを無効にするには、`Set-OrganizationConfig -ConnectorsActionableMessagesEnabled:$false`。
+* Teams に対してコネクタを有効にするには、次のコマンドを実行します。
   * `Set-OrganizationConfig -ConnectorsEnabled:$true`
   * `Set-OrganizationConfig -ConnectorsEnabledForTeams:$true`
   * `Set-OrganizationConfig -ConnectorsActionableMessagesEnabled:$true`
 
-PowerShell モジュール交換の詳細については、「 [Set-OrganizationConfig」を参照してください](/powershell/module/exchange/Set-OrganizationConfig?view=exchange-ps&preserve-view=true)。 Outlook コネクタを有効または無効にするには、 [Microsoft Outlook のグループにアプリを接続します](https://support.microsoft.com/topic/connect-apps-to-your-groups-in-outlook-ed0ce547-038f-4902-b9b3-9e518ae6fbab)。
+PowerShell モジュール交換の詳細については、[Set-OrganizationConfig](/powershell/module/exchange/Set-OrganizationConfig?view=exchange-ps&preserve-view=true) を参照してください。 Outlook コネクタを有効または無効にするには、[Microsoft Outlook 内のグループにアプリを接続します](https://support.microsoft.com/topic/connect-apps-to-your-groups-in-outlook-ed0ce547-038f-4902-b9b3-9e518ae6fbab)。
 
-<!--- TBD: Find out how can we get to know about completion of customer migration.
-Delete this section after customer migration to new Webhook URL is complete.
---->
+## <a name="publish-connectors-for-your-organization"></a>組織のコネクタを公開する
 
-## <a name="publish-connectors-for-your-organization"></a>組織のコネクタを発行する
-
-カスタム コネクタを組織内のユーザーのみが使用できるようにする場合は、カスタム コネクタ アプリを組織のアプリ カタログにアップロードできます。 アプリ パッケージをアップロードした後、エンド ユーザーは組織のアプリ カタログからコネクタをインストールし、チームでコネクタを構成して使用できます。
-
-<!---TBD: Check if these instructions are for admins or end-users. I cannot find these options either in Teams or in TAC.
-
-To set up a connector:
-
-1. Select **Apps** from the left navigation bar.
-1. In the **Apps** section, select **Connectors**.
-1. Select the connector that you want to add.
-1. From the pop-up menu, select **Add to a team**.
-1. In the search box, type a team or channel name.
-1. Select **Set up a Connector** from the pop-up menu in the bottom right corner of the dialog window.
---->
+組織のユーザーがカスタム コネクタを使用できるようにするには、カスタム コネクタ アプリを組織のアプリ カタログにアップロードします。 組織内のエンド ユーザーは、チーム内でコネクタをインストール、構成、使用できます。
 
 > [!IMPORTANT]
-> カスタム コネクタは、Government Community Cloud (GCC)、Government Community Cloud-High (GCCH)、および国防総省 (DOD) では使用できません。
+> カスタム コネクタは、Government Community Cloud (GCC)、Government Community Cloud-High (GCCH)、および米国国防総省 (DOD) 環境では使用できません。
 
-チームまたはチャネルでコネクタを使用するには、チャネルの右上隅にある [その他のオプション] メニューを開きます。 メニューから [ **コネクタ** ] を選択し、必要なコネクタを探すか検索します。 必要に応じて、選択したコネクタを構成します。
+チームまたはチャネルでコネクタを使用するには、チャネルの右上隅にある [その他のオプション] メニューを開きます。 メニューから **[コネクタ]** を選択し、必要なコネクタを探すか検索します。 必要に応じて、選択したコネクタを構成します。
 
-:::image type="content" source="media/connectors-selection-ui.png" alt-text="チャネルの右上隅にある [その他] オプションから Teams のチャネルにコネクタを追加します。":::
+:::image type="content" source="media/connectors-selection-ui.png" alt-text="チャネルの右上隅にあるその他のオプションから Teams のチャネルにコネクタを追加します。":::
 
 ## <a name="update-url-of-a-connector"></a>コネクタの URL を更新する
 
 Teams コネクタは、セキュリティを強化するために新しい URL に移行しています。 移行中に、構成済みのコネクタを更新するための通知が表示されます。 コネクタ サービスの中断を防ぐために、コネクタを最も早く更新します。 コネクタを更新するには:
 
-1. コネクタの構成ページで、構成されたコネクタの横にある **[注意が必要]** メッセージを確認します。
+1. [コネクタの構成] ページで、構成済みのコネクタの横にある **[要確認]** メッセージを確認します。
 
-   :::image type="content" source="media/Teams_Attention_Required_message.png" alt-text="[注意が必要] メッセージのスクリーンショット。":::
+   :::image type="content" source="media/teams-attention-required-message.png" alt-text="[要確認] メッセージのスクリーンショット。":::
 
-1. 受信 Webhook コネクタの接続を再作成するには、[URL の **更新** ] を選択し、生成された Webhook URL を使用します。
+1. 受信 Webhook コネクタの接続を再作成するには、**[URL の更新]** を選択し、生成された Webhook URL を使用します。
 
-   :::image type="content" source="media/Teams_update_URL_button.png" alt-text="[URL の更新] ボタンのスクリーンショット。":::
+   :::image type="content" source="media/teams-update-url-option.png" alt-text="[URL の更新] ボタンのスクリーンショット。":::
 
-1. その他のコネクタの種類については、コネクタを削除し、コネクタ構成を再作成します。 **URL が最新の** メッセージが表示されます。
+1. その他のコネクタの種類の場合は、コネクタを削除し、コネクタ構成を再作成します。 「**URL は最新です**」メッセージが表示されます。
 
-   :::image type="content" source="media/Teams_URL_up_to_date.png" alt-text="URL のスクリーンショットは最新のメッセージです。":::
+   :::image type="content" source="media/teams-url-updated.png" alt-text="「URL は最新です」メッセージのスクリーンショット。":::
 
 ## <a name="related-articles"></a>関連記事
 
