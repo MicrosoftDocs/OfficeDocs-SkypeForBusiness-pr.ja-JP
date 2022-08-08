@@ -1,5 +1,5 @@
 ---
-title: '教育機関管理者向け Microsoft Teams のリソース: EDU の Teams ライセンスを割り当てる'
+title: '「教育機関管理者向け Microsoft Teams のリソース: EDU の Teams ライセンスの割り当て」'
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -14,15 +14,14 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 193473f677ecd6cfdcdd08eb03b349a218f8247c
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.openlocfilehash: e6c66f17d84a7835094f85ac76e0cd3c90fa3ee2
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62363173"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267412"
 ---
 # <a name="assign-microsoft-teams-licenses-for-edu"></a>教育機関向け Microsoft Teams ライセンスを割り当てる
 

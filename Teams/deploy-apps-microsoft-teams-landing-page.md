@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 8fa6763641edf1b4eff29e16fb7ecdeaa4111edf
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 77d33fc464ab67945c8d3c588c4ce47366c2ba2d
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156685"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270262"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Microsoft Teams アプリを理解する
 
@@ -43,7 +43,7 @@ Teams ストアで検証およびセキュリティで保護されたアプリ�
 
 ## <a name="core-apps"></a>コア アプリ
 
-アクティビティ フィード、チャネル、チャット、予定表、通話などの一部の Teams 機能は既定で使用でき、エンド ユーザーが簡単にアクセスできるように既定でピン留めされています。 管理者は、[セットアップ ポリシー](/microsoftteams/teams-app-setup-policies)を使用してこの既定の動作を変更できます。
+アクティビティ フィード、チーム、チャット、予定表、通話、ファイル、割り当て (教育テナント) などの一部の Teams 機能は既定で使用でき、エンド ユーザーが簡単にアクセスできるように既定でピン留めされています。 現場担当者の場合は、アクティビティ、シフト、チャット、通話のみが使用でき、ピン留めされます。 管理者は、[セットアップ ポリシー](/microsoftteams/teams-app-setup-policies)を使用してこの既定の動作を変更できます。
 
 :::image type="content" source="media/core-apps-pinned1.png" alt-text="コア アプリは、既定で Teams にピン留めされたアプリです。" lightbox="media/core-apps-pinned2.png":::
 
