@@ -1533,14 +1533,18 @@ items:
             href: adobe-acrobat-pdf-viewer-teams.md
           - name: Microsoft 365 とカスタム コネクタを管理する
             href: Office-365-custom-connectors.md
-      - name: カスタム基幹業務アプリを管理する
+      - name: カスタム アプリの管理
         items:
+          - name: カスタム アプリとサイドロードされたアプリの管理
+            href: custom-app-overview.md
+          - name: カスタム アプリのポリシーと設定を管理する
+            href: teams-custom-app-policies-and-settings.md
+          - name: API を使用して送信されたカスタム アプリを発行する
+            href: submit-approve-custom-apps.md
+          - name: パッケージとして送信されたカスタム アプリを発行する
+            href: upload-custom-apps.md
           - name: Teams 管理センターで Power Platform アプリを管理する
             href: manage-power-platform-apps.md
-          - name: 組織ストアにカスタム アプリを公開する
-            href: submit-approve-custom-apps.md
-          - name: アプリ パッケージをアップロードしてカスタム アプリを発行する
-            href: upload-custom-apps.md
       - name: アプリを管理する管理者コントロール
         items:
           - name: アプリ管理の概要
@@ -1557,7 +1561,7 @@ items:
                 href: teams-custom-app-policies-and-settings.md
           - name: 現場担当者向けに Teams アプリを調整する
             href: /microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-          - name: Azure AD のグラフ アクセス許可と管理者の同意
+          - name: Azure AD アクセス許可を確認し、管理者の同意を付与する
             href: app-permissions-admin-center.md
           - name: 組織に対するリソース固有の同意を管理する
             href: resource-specific-consent.md

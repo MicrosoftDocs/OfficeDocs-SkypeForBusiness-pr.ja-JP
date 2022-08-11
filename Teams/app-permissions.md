@@ -1,9 +1,8 @@
 ---
 title: Microsoft Teams アプリのアクセス許可と考慮事項
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
-ms.date: 06/27/2019
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
@@ -15,16 +14,16 @@ ms.reviewer: rowille
 description: 管理者は、Microsoft Teams アプリが組織から要求するデータとアクセス許可を確認できます。
 f1.keywords:
 - NOCSH
-ms.localizationpriority: high
+ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2cb641bb8756802820cf6ec6a311e3328c3887ca
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: 05be32bff1069d11ea26d28e6eb5377ec04e65e9
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175671"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299066"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams アプリのアクセス許可と考慮事項
 
@@ -191,7 +190,7 @@ RECEIVE_MESSAGE、REPLYTO_MESSAGE。 ユーザーからメッセージを受信�
 
 * 送信 Webhook はボットに似ていますが、特権はボットより少なくなります。 ボットと同様に、明示的にメンションする必要があります。
 
-* 送信 Webhook が登録されると、シークレットが生成されます。これにより、送信 Webhook は、送信者が悪意のある攻撃者ではなく、Microsoft Teams であることを確認できます。 このシークレットはシークレットのまま維持する必要があります。アクセス権を持つすべてのユーザーは、Microsoft Teams になりすますことができます。 シークレットが侵害された場合は、送信 Webhook を削除して再作成でき、新しいシークレットが生成されます。
+* 送信 Webhook が登録されると、シークレットが生成されます。これにより、送信 Webhook は、送信者が悪意のある攻撃者ではなく、Microsoft Teams であることを確認できます。 このシークレットはシークレットのまま維持する必要があります。アクセス権を持つすべてのユーザーは、Microsoft Teams になりすますことができます。 シークレットが侵害された場合は、送信 Webhook を削除して再作成し、新しいシークレットを生成してください。
 
 * シークレットを検証しない送信 Webhook を作成することはできますが、そうしないことをお勧めします。
 
