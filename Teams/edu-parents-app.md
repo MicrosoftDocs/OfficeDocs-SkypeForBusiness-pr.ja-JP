@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b547990a05d6c4ff0bd7a3bd36fdf3fbe431202e
-ms.sourcegitcommit: 70185cd963c5a9d539e65e302d4230018209ecae
+ms.openlocfilehash: 73f11abed8101031361e92d008c4edbd89b9a31c
+ms.sourcegitcommit: 903abff4ce79c10bf1fb936b8ad71f6315a43c18
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "66958142"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67278771"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Microsoft Teams for Educationで親接続を設定する
 
@@ -181,7 +181,7 @@ Teams ガーディアンの連絡先データは、SDS が定期的に同期す�
 
 ## <a name="turn-on-the-parents-app-in-the-teams-admin-center"></a>Teams 管理センターで保護者アプリを有効にする
 
-保護者向けアプリは既定でオフになっているため、クラス チームの所有者は Teams 管理センターを通じて許可されるまで、クラス チームに表示されません。 保護者向けアプリは、 [発行元によってブロックされたアプリを許可](manage-apps.md#allow-the-apps-that-are-blocked-by-the-developers)するを使用して Teams 管理センターで有効になっています。
+保護者向けアプリは既定でオフになっているため、クラス チームの所有者は Teams 管理センターを通じて許可されるまで、クラス チームに表示されません。 保護者向けアプリは、 [開発者がブロックするアプリを許可](manage-apps.md#allow-the-apps-that-are-blocked-by-the-developers)するを使用して Teams 管理センターで有効になっています。
 
 いつでも、Teams 管理センターでアプリを [許可およびブロック](manage-apps.md#allow-and-block-apps) して、テナント レベルでアプリをオフにすることができます。 テナント レベルでオフになっている場合、ユーザー レベルのアクセス許可がオンになっている場合でも、すべてのユーザーに対してブロックされます。
 

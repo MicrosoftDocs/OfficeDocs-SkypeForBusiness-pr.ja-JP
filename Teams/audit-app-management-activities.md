@@ -1,6 +1,6 @@
 ---
 title: アプリ管理イベントの監査ログを検索する
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
@@ -13,13 +13,13 @@ f1keywords: ''
 description: 組織内のユーザーと管理者の Teams アプリ アクティビティを監査する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.localizationpriority: high
-ms.openlocfilehash: 0ad20fc8d5efd6c243ce29c3255b787bae322994
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.localizationpriority: medium
+ms.openlocfilehash: 5eb1ffe4a637c61efc8e64e970f25474933914a7
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269722"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299256"
 ---
 # <a name="audit-for-app-management-activities-and-events"></a>アプリ管理アクティビティとイベントの監査
 
@@ -69,7 +69,7 @@ Teams のアプリ イベントの監査ログは、特定のアクションを�
 > [!NOTE]
 > 上記のアクティビティのいずれかがユーザーまたは管理者によって実行されると、Teams は監査レコードを生成して格納します。 監査 (標準) では、記録は 90 日間保持されるため、過去 3 か月以内に発生したアクティビティを検索することができます。
 
-## <a name="see-also"></a>関連項目
+## <a name="related-articles"></a>関連記事
 
 * [監査ログを使用して Microsoft Power Platform のインストール アクティビティを調査する](manage-power-platform-apps.md#use-audit-logs-to-investigate-microsoft-power-platform-installation-activity)
 * [コンプライアンス ポータルで監査サインインを検索します](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)。
