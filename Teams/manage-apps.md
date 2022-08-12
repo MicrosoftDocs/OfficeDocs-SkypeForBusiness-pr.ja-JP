@@ -18,12 +18,12 @@ description: Teams アプリを管理する方法について説明します。 
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: bda9146bf2f5fd8a4b321be498e50e39be8f5965
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: bbad8eb283fe3e27397b2ddd5d22a91fc6570394
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271842"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67298866"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターで Teams アプリを管理する
 
@@ -42,7 +42,7 @@ Teams 管理センターを使用するには、グローバル管理者ロー�
 
 ## <a name="app-management-use-cases-and-the-available-interfaces"></a>アプリ管理のユース ケースと使用可能なインターフェイス
 
-ほとんどのアプリ管理ユース ケースを実現するためのオプションは、Teams 管理センターで使用できます。 さらに、一部のオプションは、同じポータル内の他のポータルまたは別の管理センター ページで使用できます。
+ほとんどのアプリ管理ユース ケースを実現するためのオプションは、Teams 管理センターで使用できます。 さらに、一部のオプションは、他のポータルまたは Teams 管理センターの別のページで使用できます。
 
 | アプリ管理のユース ケース | インターフェイスへのリンク | ドキュメント |
 |:----|:----|:----|
@@ -55,7 +55,7 @@ Teams 管理センターを使用するには、グローバル管理者ロー�
 | Teams アプリの使用状況レポートには、使用中のアプリ、アクティブなユーザー、その他のアプリの使用状況に関する情報が表示されます。 | [利用状況レポート](https://admin.teams.microsoft.com/analytics/reports) | [Teams アプリの使用状況レポート](teams-analytics-and-reports/app-usage-report.md) |
 | ユーザーは、ゲストとの会議やチャットをホストするときにアプリを追加できます。 外部からホストする会議やチャットに参加するときに、ゲストが共有するアプリを使用することもできます。 ホストしているユーザーの組織のデータ ポリシーと、そのユーザーの組織が共有するサードパーティ アプリのデータ共有の慣行が適用されます。 | [外部アクセス](https://admin.teams.microsoft.com/company-wide-settings/external-communications) | [ユーザーの種類に応じたアプリの動作](non-standard-users.md) |
 | ゲスト アクセスを使用すると、企業データの管理を維持しながら、アプリケーションやその他の Teams 機能へのアクセスを組織外の人々に提供できます。 | [ゲスト アクセス](https://admin.teams.microsoft.com/company-wide-settings/guest-configuration) | [Teams でのゲスト アクセス](guest-access.md) |
-| 更新ポリシーは、Teams アプリのプレリリースまたはプレビュー機能を表示する Teams および Office プレビュー ユーザーを管理するために使用されます。  | [Teams 更新ポリシー](https://admin.teams.microsoft.com/policies/updatemanagement) | [Teams パブリック プレビュー](public-preview-doc-updates.md) |
+| 更新ポリシーは、Teams アプリのプレリリースまたはプレビュー機能を表示する Teams および Office プレビュー ユーザーを管理するために使用されます。 | [Teams 更新ポリシー](https://admin.teams.microsoft.com/policies/updatemanagement) | [Teams パブリック プレビュー](public-preview-doc-updates.md) |
 | **外部の Teams 管理センター** | | |
 | Microsoft 365 管理センターでサード パーティ製アプリのライセンスとサブスクリプションを管理する | [Microsoft 365 管理センター](https://admin.microsoft.com/#/licenses) | [サード パーティ製アプリのサブスクリプションを管理する](/microsoft-365/commerce/manage-saas-apps) |
 | Microsoft Purview コンプライアンス ポータルで Teams アプリ イベントを監査します。 | [監査](https://compliance.microsoft.com/auditlogsearch?viewid=Async%20Search) | [Teams アクティビティ](audit-app-management-activities.md) |
@@ -80,27 +80,27 @@ Teams 管理センターの [[アプリの管理]](https://admin.teams.microsoft
 
 ユーザーは、テナント全体の設定を介してアプリが許可され、アクセス許可ポリシーを介してユーザーに許可されている場合にのみ、アプリをインストールして使用できます。
 
-## <a name="manage-user-requests-to-unblock-apps"></a>アプリのブロックを解除するためのユーザー要求を管理する
+## <a name="manage-user-requests-to-allow-apps"></a>アプリを許可するユーザー リクエストを管理する
 
-ブロックされたアプリを使用できるように要求を表示できます。 要求は IT 管理者に送信され、Teams 管理センターでユーザー要求を表示および管理できます。
+エンド ユーザーは、Teams ストアでブロックされたアプリを表示できますが、使用することはできません。 ブロックされたアプリについては、管理者の承認を要求するオプションを利用できます。 これらの要求は Teams 管理センターで照合され、管理者は必要に応じて要求を表示および管理できます。 エンドユーザー リクエストを確認するために、定期的なトリアージを行うことを強くお勧めします。
 
-  :::image type="content" source="media/user-request.png" alt-text="ブロックされたアプリの承認を要求する":::
+  :::image type="content" source="media/user-request-blocked-apps.png" alt-text="Teams ストアで承認を要求するオプションを選択して、ブロックされたアプリを承認するように管理者に要求します。":::
 
 ### <a name="view-a-request"></a>要求を表示する
 
- 1. Teams 管理センターにサインインし、[[アプリの管理]](https://admin.teams.microsoft.com/policies/manage-apps) を選択します。
+ 1. Teams 管理センターにサインインし、**[Teams アプリ]** > **[[アプリの管理]](https://admin.teams.microsoft.com/policies/manage-apps)** に移動します。
 
     :::image type="content" source="media/requested-apps1.png" alt-text="ブロックされたアプリに対するエンド ユーザー要求は、Teams 管理センターの [ユーザーによるリクエスト] というタイトルの列に表示されます。" lightbox="media/requested-apps.png":::
 
- 1. 各アプリの要求の数を表示して確認するには、**[ユーザーによるリクエスト]** 列で要求を並べ替えます。
- 1. ブロックを解除するアプリの名前を選択すると、アプリの詳細ページが開きます。
- 1. **[要求の管理]** を選択し、ポップアップ ダイアログに表示される手順を完了します。 アプリを承認する手順は、アプリをブロックするために使用される方法によって異なります。
+ 1. 各アプリの要求の数を表示して確認するには、**[ユーザーによるリクエスト]** 列で要求を並べ替えます。 アプリをリクエストしたユーザーの名前を表示することはできません。
+ 1. アプリを許可するには、アプリの名前を選択すると、アプリの詳細ページが開きます。
+ 1. **[要求の管理]** を選択し、ポップアップ ダイアログに表示される手順を完了します。 アプリをブロックするために使用される方法に基づいて、ブロックを解除するには、次の手順のうち 1 つ以上が必要です。
 
     * アクセス許可ポリシーを使用してアプリがブロックされている場合は、[アクセス許可](teams-app-permission-policies.md)ポリシーを変更してアプリを許可します。
     * すべてのユーザーに対してアプリがブロックされている場合は、[アプリを許可します](#allow-and-block-apps)。
     * すべてのアプリがすべてのユーザーに対してブロックされている場合は、[組織全体の設定](#manage-org-wide-app-settings)を変更します。
 
- 管理者がアプリを許可している場合、要求が処理されたことはエンド ユーザーに通知されません。 ユーザーは、ストア内のアプリにアクセスして、アプリのブロックが解除されているかどうかを確認する必要があります。
+ 管理者がアプリを許可した場合、Teams はエンド ユーザーに要求が処理されたことを通知しません。 ユーザーは Teams ストアでアプリを表示して、Teams クライアントにアプリを追加できるかどうかを確認できます。 アプリが管理者によって承認されている場合、ユーザーはそれを追加できます。 または、管理者が要求を承認せず、却下した場合は、エンド ユーザーは要求を再度要求できます。
 
 ### <a name="dismiss-a-user-request"></a>ユーザー要求を無視する
 
@@ -108,21 +108,23 @@ Teams 管理センターの [[アプリの管理]](https://admin.teams.microsoft
  1. **[要求の管理]** を選択し、ダイアログ ボックスで **[すべての要求を閉じる]** を選択します。
  1. 要求が無視されると、ユーザー要求は 0 にリセットされます。
 
-  :::image type="content" source="media/reject.png" alt-text="ブロックされたアプリの拒否。"border="true":::
+  :::image type="content" source="media/reject.png" alt-text="管理者は、アプリを許可することでユーザー要求を承認したり、要求を却下したりして、何のアクションも実行しません。":::
 
-管理者がアプリを無視した場合、要求が処理されたことはエンド ユーザーに通知されません。 ユーザーは、ストア内のアプリにアクセスして、アプリのブロックが解除されているかどうかを確認する必要があります。
+管理者がアプリを無視した場合、要求が処理されたことはエンド ユーザーに通知されません。 管理者が要求を却下した後、エンド ユーザーはアプリを再度要求できます。
 
 ## <a name="allow-the-apps-that-are-blocked-by-the-developers"></a>開発者がブロックしているアプリを許可する
 
-開発者が Teams アプリ ストアにアプリを発行する場合、アプリ エクスペリエンスを構成またはカスタマイズするために管理者が必要になる場合があります。 管理者は、アプリのセットアップ時にエンド ユーザーがエクスペリエンスを利用できるようにします。
+開発者が Teams アプリ ストアにアプリを発行する場合、アプリ エクスペリエンスを構成またはカスタマイズするために管理者が必要になる場合があります。 管理者は、アプリのセットアップ時にエンド ユーザーがアプリを利用できるようにします。
 
-たとえば、Contoso Electronics は、Microsoft Teams 用のヘルプ デスク アプリを作成した ISV です。 Contoso Electronics は、その顧客がアプリを操作するときに期待どおりに機能するように、顧客がアプリの特定のプロパティを設定することを望んでいます。 管理者がアプリケーションを許可またはブロックする前に、Teams 管理センターで "**発行元 によってブロック済み**" として表示され、既定ではエンド ユーザーから非表示になっています。 発行元のガイダンスに従ってアプリを設定した後、状態を **[許可]** に変更してユーザーが利用できるようにすることができます。
+たとえば、Contoso Electronics は、Microsoft Teams のヘルプ デスク アプリを作成したアプリ開発者です。 Contoso Electronics は、その顧客がアプリを操作するときに期待どおりに機能するように、顧客がアプリの特定のプロパティを設定することを望んでいます。 管理者がアプリケーションを許可する前に、Teams 管理センターで "**発行元 によってブロック済み**" として表示され、既定ではエンド ユーザーから非表示になっています。 発行元のガイダンスに従ってアプリを設定した後、状態を **[許可]** に変更してユーザーが利用できるようにすることができます。
 
 :::image type="content" source="media/blocked-by-publisher.png" alt-text="Teams 管理センターの発行元の状態によってブロックされていることを示すスクリーンショット。":::
 
+開発者が既定でアプリをブロックする方法については、「[管理者が承認するまでアプリを非表示にする](/microsoftteams/platform/concepts/design/enable-app-customization#hide-teams-app-until-admin-approves)」を参照してください。
+
 ## <a name="manage-org-wide-app-settings"></a>組織全体のアプリ設定の管理
 
-組織全体のアプリ設定を使用して、[F ライセンス](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)を持つユーザーがカスタマイズされた現場アプリ エクスペリエンスを取得するかどうか、ユーザーがサードパーティ製アプリをインストールできるかどうか、ユーザーが組織内のカスタム アプリをアップロードまたは操作できるかどうかを制御します。 組織全体のアプリ設定は、すべてのユーザーの動作を管理し、ユーザーに割り当てられた他のアプリ権限ポリシーを上書きします。 それらを使用して、悪意のあるアプリや問題のあるアプリを制御できます。
+組織全体のアプリ設定を使用して、[F ライセンス](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)を持つユーザーがカスタマイズされた現場アプリ エクスペリエンスを取得するかどうか、ユーザーがサードパーティ製アプリをインストールできるかどうか、ユーザーが組織内のカスタム アプリをアップロードまたは操作できるかどうかを制御します。 組織全体のアプリ設定は、すべてのユーザーの動作を管理し、ユーザーに割り当てられた他のアプリ権限ポリシーを上書きします。
 
 > [!NOTE]
 > Microsoft 365 Government - Government Community Cloud High GCCH および国防総省 (DoD) の Teams のデプロイで組織全体のアプリ設定を使用する方法については、「[Teams でアプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md)」を参照してください。
