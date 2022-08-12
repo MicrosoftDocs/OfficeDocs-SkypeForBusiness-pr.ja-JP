@@ -1,6 +1,5 @@
 ---
 title: Microsoft によるアプリの検証とアプリのテストの概要
-ms.reviewer: ''
 description: マーケットプレイス認定ポリシーに基づく Teams アプリの検証ガイドラインについて説明します。 Teams アプリが高水準のプライバシーとセキュリティに準拠していることを Microsoft がどのように保証しているかを理解します。
 ms.topic: article
 author: guptaashish
@@ -18,12 +17,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 43a75e22fd5d42af50651151cde2876474300c4b
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: c6ca0590f254a0567eec8946ae3c4323bf541f05
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880411"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299236"
 ---
 # <a name="validation-performed-by-microsoft-for-all-teams-apps"></a>Microsoft がすべての Teams アプリに対して実行する検証
 
@@ -42,18 +41,18 @@ Microsoft では、最終用途のためにストアに登録される前に、�
 
 * アプリによって要求される Graph のアクセス許可が、アプリの機能に必要なアクセス許可であり、余分なアクセス許可ではないことを確認します。 既存のアプリの Graph のアクセス許可は、アプリが余分なアクセス許可を要求しないように定期的にチェックされます。
 * ユーザーにサインインを要求するアプリには、サインアウトするオプションがあります。
-* すべてのアプリの発行元は、Microsoft パートナー センターで詳細な検証プロセスを行います。 検証には、メールの確認、ビジネスの確認などが含まれます。 アプリの発行の詳細については、「[開発者がパートナー センターのアカウントを作成する方法](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/create-partner-center-dev-account)」、「[開発者向けの送信ガイド](/office/dev/store/add-in-submission-guide)」、「[開発者がアプリを発行する方法](https://aka.ms/PublishToTeamsStore)」を参照してください。
-* エンド ユーザーに Graph のアクセス許可を求めることができるのは、認証された発行元のアプリのみです。
+* すべてのアプリ開発者は、Microsoft パートナー センターで詳細な検証プロセスを受けます。 検証には、メールの確認、ビジネスの確認などが含まれます。 アプリの発行の詳細については、「[開発者がパートナー センターのアカウントを作成する方法](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/create-partner-center-dev-account)」、「[開発者向けの送信ガイド](/office/dev/store/add-in-submission-guide)」、「[開発者がアプリを発行する方法](https://aka.ms/PublishToTeamsStore)」を参照してください。
+* 検証済みの開発者からのアプリのみが、エンド ユーザーから Graph のアクセス許可を求めることができます。
 * アプリは実行可能ファイルをダウンロードできません。
-* アプリは、広告や他のアプリのプロモーションが含まれていないかテストされます
+* アプリは、広告や他のアプリのプロモーションを含まないようにテストされています。
 * アプリは、不快な言葉、サイバー攻撃ボット、スパム、または詐欺のコンテンツが含まれず、適切に動作するかどうかをテストされます。
 * アプリ内のすべてのリンクは機能し、アプリのサービスにのみ関係しています。
 * アプリ ストアの正常性チェックの一環として、発行されたすべての Teams アプリが定期的にテストおよび評価されます。
-* Teams アプリを対象とするプライバシー ポリシーと使用条件は、ISV によって公開されています
-* ISV の連絡先の詳細は、ストア登録情報とそれぞれの[発行元の構成証明ページ](/microsoft-365-app-certification/teams/teams-apps)で入手できます。
+* Teams アプリを対象とするプライバシー ポリシーと利用規約は、アプリの開発者によって公開されています。
+* アプリ開発者の連絡先の詳細は、ストアの掲載情報と、それぞれの [[発行者の証明書ページ]](/microsoft-365-app-certification/teams/teams-apps) で確認できます。
 
 さらに、Microsoft はアプリ開発者に対し、アプリの品質、セキュリティ、コンプライアンスを確保するための厳格な 2 層のアプローチであるコンプライアンス プログラムに参加することをお勧めします。 Teams ストアは、既に詳細な検証ガイドラインを満たし、これらのプログラムに準拠する以上の数百ものアプリを提供しています。
 
-## <a name="see-also"></a>関連項目
+## <a name="related-article"></a>関連記事
 
 * [Microsoft 365 アプリ コンプライアンス プログラムの管理者向けの概要](overview-of-app-certification.md)

@@ -1,6 +1,5 @@
 ---
 title: Microsoft によるアプリ認定の概要
-ms.reviewer: ''
 description: サード パーティ製アプリのセキュリティ用 Microsoft 365 アプリ コンプライアンス プログラム、コンプライアンス、プライバシーについて説明します。
 ms.topic: article
 author: guptaashish
@@ -18,12 +17,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b18e8e596fc1b8180a056c5a141b45e60bd7f889
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: 9918c1ce81464f2fbe9a0c16bc0373e54858d79b
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880421"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299086"
 ---
 # <a name="microsoft-365-app-compliance-program-for-security-compliance-and-privacy-of-third-party-apps"></a>サード パーティ製アプリのセキュリティ用 Microsoft 365 アプリ コンプライアンス プログラム、コンプライアンス、プライバシー
 
@@ -35,7 +34,7 @@ Microsoft コンプライアンス プログラムは、主要な業界標準の
 
 ## <a name="publisher-verification"></a>発行元の検証
 
-アプリ開発者がアプリを Microsoft に送信する前に、開発者は検証を受ける必要があります。 発行元は、Microsoft パートナー ネットワーク (MPN) アカウントを使用して ID を確認し、この MPN アカウントをアプリの登録に関連付けます。 発行元の検証は、管理者とエンド ユーザーがアプリケーション開発者の信頼性について理解するのに役立ちます。 発行元の検証には、次のような利点があります。
+アプリ開発者がアプリを Microsoft に送信する前に、開発者は検証を受ける必要があります。 開発者は、Microsoft パートナー ネットワーク (MPN) アカウントを使用して ID を確認し、この MPN アカウントをアプリの登録に関連付けます。 発行元の検証は、管理者とエンド ユーザーがアプリケーション開発者の信頼性について理解するのに役立ちます。 発行元の検証には、次のような利点があります。
 
 * 顧客への透明性の強化とリスクの軽減 - この機能は、組織で使用されているどのアプリが信頼できる開発者によって公開されているかを顧客が理解するのに役立ちます。
 * ブランドの強化 - Azure Active Directory の同意プロンプト、Enterprise アプリ ページ、エンドユーザーと管理者が使用するその他のユーザー インターフェイスに `verified` バッジが表示されます。

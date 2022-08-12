@@ -1,24 +1,23 @@
 ---
 title: Microsoft Teams 管理センターでアプリのアクセス許可を表示し、管理者の同意を付与する
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
-ms.reviewer: vaibhava
 manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: アプリから要求されたアクセス許可を表示し、Microsoft Teams 管理センターの [アプリの管理] ページでアプリに管理者の同意を付与する方法について説明します。
-ms.localizationpriority: high
+ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e3d7ca4f86660080cb387a9d4cd80927f296040
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: f5bd84ce2fa19fc7a9aa823250fa77f1980055f0
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175651"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299056"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでアプリのアクセス許可を表示し、管理者の同意を付与する
 
@@ -86,9 +85,9 @@ RSC アクセス許可は、Azure AD ではなく、アプリ マニフェスト
 
 ### <a name="the-view-details-link-isnt-displayed-in-the-permissions-column-for-some-third-party-apps-that-request-permissions"></a>アクセス許可を要求する一部のサード パーティ製アプリの [アクセス許可] 列に [詳細の表示] リンクが表示されない
 
-現時点では、アクセス許可を要求する Azure AD に登録されているすべてのサード パーティ製アプリで、アクセス許可を確認して同意を付与する機能は利用できません。 **[詳細の表示]** リンクの代わりに、**[アクセス許可]** 列に **--** が表示されます。 ISV と連携して、アプリに対してこの機能を有効にしています。
+アクセス許可を確認して同意を与える機能は、すべてのサードパーティ製アプリで利用できるわけではありません。 通常、サード パーティ製アプリは、アプリがアクセス許可を要求したときに Azure Active Directory に登録されます。 **[詳細の表示]** リンクの代わりに、[アクセス許可] 列に **`--`** が表示されます。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-articles"></a>関連記事
 
 * [Microsoft Teams 管理センターで、Teams アプリの組織向けアプリを管理します。](manage-apps.md)
 * [Microsoft ID プラットフォーム エンドポイントでのアクセス許可と同意](/azure/active-directory/develop/v2-permissions-and-consent)

@@ -3,7 +3,6 @@ title: 組織の Teams ストア内のアプリの外観を変更する
 author: guptaashish
 ms.author: guptaashish
 manager: prkosh
-ms.reviewer: v-tbasra
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -14,15 +13,15 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.localizationpriority: high
+ms.localizationpriority: medium
 search.appverid: MET150
 description: アプリの詳細とメタデータを編集して、アプリの外観を変更し、アプリのブランドを変更する方法について説明します。
-ms.openlocfilehash: 32c526e2cbbb4ef464e0daa777228e0a17dd391b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 304aa0b5d8becae641f69b0c389ca41160ad2e2f
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269082"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67298886"
 ---
 # <a name="customize-appearance-of-apps-in-your-organizations-teams-store"></a>組織の Teams ストア内のアプリの外観をカスタマイズする
 
@@ -102,13 +101,13 @@ Microsoft Teams を使用すると、管理者は Teams アプリをカスタマ
 
 アプリのカスタマイズに関する次の詳細に注意してください。
 
-* アプリをカスタマイズする場合、およびアプリに関連する任意の説明は、アプリ発行元がドキュメントまたは利用規約で提供する場合は、カスタマイズ ガイドラインに従っていることを確認します。 また、お客様は、使用する可能性があるサードパーティの画像に関する他者の権利を尊重する責任も負います。
+* アプリをカスタマイズする場合、およびアプリに関連する任意の説明は、アプリ開発者がドキュメントまたは利用規約で提供する場合は、カスタマイズ ガイドラインに従っていることを確認します。 また、お客様は、使用する可能性があるサードパーティの画像に関する他者の権利を尊重する責任も負います。
 
 * 管理者から提供されたカスタマイズ データは、最も近い地域に格納されます。
 
 * お客様は、利用規約またはプライバシー ポリシーへのリンクが有効であることを確認する責任があります。
 
-* アプリ発行元がフィールドのカスタマイズを許可しなくなった場合、アプリの詳細ページにメッセージが表示され、カスタマイズできなくなるフィールドについて管理者に通知されます。 そのフィールドに加えられたすべての変更は、元の値に戻されます。
+* アプリ開発者がフィールドのカスタマイズを許可しなくなった場合、アプリの詳細ページにメッセージが表示され、カスタマイズできなくなるフィールドについて管理者に通知されます。 そのフィールドに加えられたすべての変更は、元の値に戻されます。
 
 * 運用環境でこれらの変更を行う前に、Teams テスト テナントでアプリのカスタマイズ変更をテストすることをお勧めします。
 
