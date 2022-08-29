@@ -18,12 +18,13 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 5eeea688d2fcaa67b2125ff67e15d80b981a03df
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+- m365-frontline
+ms.openlocfilehash: 23c75051268de176cc14a9b8df426e8d67f5a2d3
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267852"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396498"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織の Tasks アプリを管理する
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams PowerShell を使用してTeamsを管理する
+title: Microsoft Teams PowerShell を使用して Teams を管理する
 ms.reviewer: brandber
 author: brandber
 ms.author: brandber
@@ -10,29 +10,29 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-description: Teams PowerShell を使用してMicrosoft Teamsを管理する方法について説明します。
+description: Teams PowerShell を使用して Microsoft Teams を管理する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86d5069794d160d4c4241a67f0c8d45fc9cac708
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 66f873b163222d3d9745e68881da2b8071f60eec
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046023"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396528"
 ---
-# <a name="manage-teams-with-microsoft-teams-powershell"></a>Microsoft Teams PowerShell を使用してTeamsを管理する
+# <a name="manage-teams-with-microsoft-teams-powershell"></a>Microsoft Teams PowerShell を使用して Teams を管理する
 
-この記事では、Microsoft Teams PowerShell を使用してTeamsとSkype for Businessを管理する方法について説明します。
+この記事では、Microsoft Teams PowerShell を使用して Teams とSkype for Businessを管理する方法について説明します。
 
-このガイダンスは、[Microsoft Teams コマンドレットリファレンスとSkype for Businessコマンドレットリファレンス](/powershell/teams/?view=teams-ps)と組み合わせて使用[します](/powershell/skype/intro?view=skype-ps)。
+このガイダンスは、[Microsoft Teams コマンドレットリファレンス](/powershell/teams/?view=teams-ps)と[Skype for Businessコマンドレットリファレンス](/powershell/skype/intro?view=skype-ps)と組み合わせて使用します。
 
-Teams管理センターでTeamsを管理するには、「[Azure Cloud Shellを使用したTeamsの管理](#manage-teams-with-azure-cloud-shell)」を参照してください。
+Teams 管理センターで Teams を管理するには、「[Azure Cloud Shellを使用した Teams の管理](#manage-teams-with-azure-cloud-shell)」を参照してください。
 
 ## <a name="create-and-manage-teams-using-powershell"></a>PowerShell を使用してチームを作成および管理する
 
 チームを作成し管理するためのコマンドレットは、[Microsoft Teams PowerShell モジュール](https://www.powershellgallery.com/packages/MicrosoftTeams/)にあります。
 
-TeamsはOffice 365 グループによってサポートされるため、チームを作成するときにグループを作成します。 コア チームとその設定を操作するためのコマンドレット (``new-team``、``get-team``、``set-team``)、チームのユーザーを管理するためのコマンドレット (``add-teamuser``、``remove-teamuser``)、およびチームのチャネルを管理するためのコマンドレット (``new-teamchannel``、``remove-teamchannel``) のセットが用意されています。 これらのコマンドレットはすべてエンド ユーザーとして実行できますが、自分が所有している、またはメンバーであるチームのみが機能します。 グローバル管理者またはTeams管理者の場合は、組織内のすべてのチームに対応できます。
+Teams はOffice 365 グループによってサポートされるため、チームを作成するときはグループを作成します。 コア チームとその設定を操作するためのコマンドレット (``new-team``、``get-team``、``set-team``)、チームのユーザーを管理するためのコマンドレット (``add-teamuser``、``remove-teamuser``)、およびチームのチャネルを管理するためのコマンドレット (``new-teamchannel``、``remove-teamchannel``) のセットが用意されています。 これらのコマンドレットはすべてエンド ユーザーとして実行できますが、自分が所有している、またはメンバーであるチームのみが機能します。 グローバル 管理または Teams 管理者の場合は、組織内のすべてのチームを操作できます。
 
 ```powershell
 New-Team -DisplayName "Contoso Marketing" -Description "Collaboration space for Contoso's Marketing department"
@@ -41,38 +41,38 @@ New-Team -DisplayName "Contoso Marketing" -Description "Collaboration space for 
 > [!NOTE]
 > Microsoft Teams PowerShell モジュールのコマンドレットで使用されている **GroupId** は、Exchange PowerShell モジュールで ``Get-UnifiedGroup`` により返された **Identity** プロパティと同じです。
 
-## <a name="manage-teams-with-azure-cloud-shell"></a>Azure Cloud Shellを使用してTeamsを管理する
+## <a name="manage-teams-with-azure-cloud-shell"></a>Azure Cloud Shellを使用して Teams を管理する
 
 Cloud Shellは、リソースを管理できる、対話型で認証されたブラウザーからアクセス可能なシェルです。 Cloud Shellの詳細については、「[Azure Cloud Shell](/azure/cloud-shell/overview)」を参照してください。
 
-Azure Cloud Shellにアクセスし、PowerShell を使用してTeamsを管理するには、Teams管理センターにサインインします。
+Azure Cloud Shellにアクセスし、PowerShell を使用して Teams を管理するには、Teams 管理センターにサインインします。
 
 1. 右上隅にあるCloud Shell アイコンを選択します。
 
-    ![Cloud Shell アイコンTeams管理センター ヘッダーのスクリーンショット。](media/cloud-shell-icon-select.png)
+    ![Cloud Shell アイコンが表示された Teams 管理センター ヘッダーのスクリーンショット。](media/cloud-shell-icon-select.png)
 
 1. メッセージが表示されたら、 **PowerShell** を選択します。
 
     ![Azure Cloud Shell プロンプトのスクリーンショット。](media/cloud-shell.png)
 
-1. 次のコマンドを実行して、Teams PowerShell セッションを開始します。
+1. Teams PowerShell セッションを開始するには、次のコマンドを実行します。
 
     ```powershell
     Connect-MicrosoftTeams
     ```
 
-これらの手順を完了すると、powerShell コマンドTeams実行できるようになります。
+これらの手順を完了したら、Teams PowerShell コマンドを実行する準備が整いました。
 
 > [!IMPORTANT]
-> Cs* コマンドレットを使用する場合は、最初にコマンドを使用してTeamsに接続する``Connect-MicrosoftTeams -UseDeviceAuthentication``必要があります。
+> Cs* コマンドレットを使用する場合は、最初にコマンドを使用して Teams に接続する ``Connect-MicrosoftTeams -UseDeviceAuthentication`` 必要があります。
 
 ## <a name="manage-policies-via-powershell"></a>PowerShell を使用してポリシーを管理する
 
 > [!NOTE]
-> - Skype for Businessオンライン コネクタは powerShell Teams統合されています。 現在、パブリック プレビューで利用できます。 Teamsに適用されるSkype for Business Online コマンドレットは、Teams PowerShell モジュールでネイティブに使用できるようになります。 インストール手順については、[PowerShell のインストールに関する記事Teams](teams-powershell-install.md)参照してください。
+> - オンライン コネクタSkype for Business Teams PowerShell に統合されています。 現在、パブリック プレビューで利用できます。 Teams に適用されるSkype for Business Online コマンドレットは、Teams PowerShell モジュールでネイティブに使用できるようになります。 インストール手順については、 [Teams PowerShell のインストールに関する](teams-powershell-install.md) 記事を参照してください。
 > - Skype for Business Online に接続すると、PowerShell セッションでコマンドレットを使用できるようになります。 詳細については、「[Office 365 PowerShell を使用して Skype for Business Online を管理する](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)」を参照してください。
 
-[Skype for Business コマンドレット モジュール](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)でポリシーを管理するためのコマンドレットを見つけます。
+[Skype for Business コマンドレット モジュール](/powershell/module/teams)でポリシーを管理するためのコマンドレットを見つけます。
 
 ポリシーは、個々のユーザーに細かく適用できる設定のまとまりです。 各ポリシーの種類にはポリシーそのものの作成、表示、削除、更新を行い、これらのポリシーをユーザーに割り当てるための独自のコマンドレットのセットがあります。 一般的な構成は次のとおりです。
 
@@ -99,7 +99,7 @@ Azure Cloud Shellにアクセスし、PowerShell を使用してTeamsを管理�
 
 ## <a name="manage-configurations-via-powershell"></a>PowerShell を使用して構成を管理する
 
-[Skype for Business コマンドレット モジュール](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)で、構成を管理するためのコマンドレットを見つけます。
+[Skype for Business コマンドレット モジュール](/powershell/module/skype)で、構成を管理するためのコマンドレットを見つけます。
 
 構成は、ユーザー レベルでは指定できない、サービスで管理される設定のバケットです。 設定は常に組織全体に適用されます。 グローバル構成は、組織で唯一の有効な構成です。 各構成の種類には、次の 2 つの主なコマンドレットが用意されています。
 
@@ -111,7 +111,7 @@ Azure Cloud Shellにアクセスし、PowerShell を使用してTeamsを管理�
 
 ## <a name="what-can-each-admin-role-do"></a>管理者の役割がそれぞれできること
 
-[Microsoft Teams管理者ロールを使用してTeamsを管理](using-admin-roles.md)し、各 PowerShell コマンドレットを実行できる管理者ロールを理解する方法に関する記事を参照してください。
+[Microsoft Teams 管理者ロールを使用して Teams を管理し](using-admin-roles.md)、各 PowerShell コマンドレットを実行できる管理者ロールを理解する方法について説明します。
 
 ## <a name="related-topics"></a>関連項目
 

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e1c436e6bcd204eb383228a73a115a70ae29e08
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
-ms.translationtype: HT
+ms.openlocfilehash: 1b28dfccd79c99d633d56480963f06632cd758ae
+ms.sourcegitcommit: 72b6f7ab2a44dec395622bfe64119a48094960bd
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563765"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67283098"
 ---
 # <a name="user-presence-in-teams"></a>Teams でのユーザーのプレゼンス
 
@@ -91,7 +91,7 @@ ms.locfileid: "66563765"
 
 Skype for Business と Teams では、次の管理設定が異なります。
 
-- Teams では、組織内ユーザーに対してプレゼンス共有が常に有効になります。 プライバシー (プレゼンスを表示できるユーザーを定義する場所) の構成は、Teams では使用できません。
+- Teams では、プライバシー モードが有効でない限り、組織内のユーザーに対してプレゼンス共有が常に有効になります。 プライバシー モードでは、プレゼンスは外部ユーザーには表示されません。
 - すべてのユーザー (フェデレーション サービスを含む) とのプレゼンス共有は、Teams ユーザーに対して常に有効になっています。 連絡先リスト (Skype for Business に含まれている場合) は、**[チャット] > [連絡先]** または **[通話] > [連絡先]** で表示できます。
 - クライアントの「応答不可」と「重要な連絡先」機能は、Teams ユーザーに対して常に有効になっています。
 - カレンダー (不在およびその他のカレンダー情報を含む) は、Teams が Outlook と統合されている場合、ユーザーに対して常に有効になっています。

@@ -16,12 +16,12 @@ description: Microsoft Teams で PDF ファイルを表示および編集する�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 9e8860c10e74d5dc06f73632b33b6c94ea792a09
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: b1c5654791dde3def8ec622880e26b07f693633f
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299246"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396708"
 ---
 # <a name="adobe-acrobat-as-a-default-pdf-viewer-in-microsoft-teams"></a>Microsoft Teams の既定の PDF ビューアーとしての Adobe Acrobat
 
@@ -39,11 +39,11 @@ ms.locfileid: "67299246"
 
 アプリを設定する前に、テナントでのアプリの使用を許可すること、Adobe Acrobat アプリを特に許可していること、およびアプリのアクセス許可ポリシーで許可されていることを確認します。 PDF ファイルの既定のアプリとして Adobe Acrobat を設定するには、次の手順に従います。
 
-1. Teams 管理センターにサインインし、**[Teams アプリ]** > **[[アプリの管理]](https://admin.teams.microsoft.com/policies/manage-apps)** に移動します。
+1. Teams 管理センターにサインインし、**Teams アプリの管理アプリ** > にアクセス **[します](https://admin.teams.microsoft.com/policies/manage-apps)**。
 
-1. Adobe Acrobat アプリを検索して選択します。
+1. Adobe Acrobat アプリを検索して選択します。 アプリの詳細ページが開きます。
 
-1. **[アクセス許可]** タブで、**[アクセス許可の確認]** を選択します。
+1. [ **アクセス許可** ] タブを選択し、[ **アクセス許可の確認**] を選択します。
 
    :::image type="content" source="media/permission-policy.png" alt-text="Teams 管理センターのアプリのアクセス許可のスクリーンショット。" lightbox="media/teams-app-adobe-acrobat-permission.png":::
 

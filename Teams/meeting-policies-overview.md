@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teamsで会議ポリシーを管理する
+title: Microsoft Teams で会議ポリシーを管理する
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -19,14 +19,14 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.overview
 - seo-marvel-apr2020
 description: Teams で会議ポリシーの設定を管理する方法について説明します。また、会議ポリシーの設定を使用して、ユーザーがスケジュールした会議の参加者に対して利用できる機能を制御します。
-ms.openlocfilehash: ccfcb15cb5456a25b8bbad0383481f20d4c81e9b
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 99c84f6c0dfcbd20824a90af49739eace200ecd2
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205537"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396548"
 ---
-# <a name="manage-meeting-policies-in-microsoft-teams"></a>Microsoft Teamsで会議ポリシーを管理する
+# <a name="manage-meeting-policies-in-microsoft-teams"></a>Microsoft Teams で会議ポリシーを管理する
 
 <a name="bkautomatically-admit-people"> </a>
 
@@ -75,6 +75,10 @@ ms.locfileid: "61205537"
 
 その後、ポリシーをユーザーに割り当てます。
 
+このビデオでは、ユーザー (またはユーザー) にカスタム会議ポリシーを作成して割り当てる手順を示します。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53Wv0?autoplay=false]
+
 ## <a name="edit-a-meeting-policy"></a>会議 ポリシーの編集
 
 グローバル ポリシーおよび作成したカスタム ポリシーを編集できます。
@@ -86,6 +90,10 @@ ms.locfileid: "61205537"
 
 > [!NOTE]
 > ユーザーに割り当てることができる会議ポリシーは一度に 1 つのみです。
+
+このビデオでは、組織全体の既定の会議ポリシーを編集する手順を示します。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53MoG?autoplay=false]
 
 ## <a name="assign-a-meeting-policy-to-users"></a>ユーザーに会議ポリシーを割り当てる
 

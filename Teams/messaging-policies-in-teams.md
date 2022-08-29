@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: メッセージング ポリシーについて、および Teams でメッセージング ポリシーを使用してチャット メッセージングを制御する方法について取り上げます。
-ms.openlocfilehash: f74ae28176f147d768e8e551ac07d1bcf189836b
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: 1975262b6fdd404d9314c3644ebba79b6cb5bd9a
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563965"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396518"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Teams でメッセージング ポリシーを管理する
 
@@ -112,6 +112,7 @@ ms.locfileid: "66563965"
 - **推奨される返信**  チャット メッセージに対して推奨される返信を有効にするには、この設定をオンにします。
 - **チャットアクセス許可ロール** この設定を使用して、ユーザーの教師ありチャット ロールを定義します。 [監視付きチャット](supervise-chats-edu.md)の詳細をご覧ください。
 - **完全なチャットアクセス許可を持つユーザーは、任意のメッセージを削除できます** この設定を使用して、完全なアクセス許可を持つユーザーがグループまたは会議チャット メッセージを削除できるようにします。
+- **ビデオ メッセージ** 組織内のユーザーが Teams アプリを使用してチャットの他のユーザーにビデオ メッセージを送信できるようにする場合は、この設定をオンにします。
 
 > [!NOTE]
 > Giphys を使用するなど、これらの設定の一部は、チームの所有者がチーム レベルで、チャネル所有者がプライベート または共有チャネル レベルで構成することもできます。

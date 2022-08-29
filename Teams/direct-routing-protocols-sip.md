@@ -16,12 +16,12 @@ f1.keywords:
 description: ダイレクト ルーティング プロトコル
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a4ba1715ccf7b1ea2f0dbf12b58fd5aa6556b24
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 00df395ab67ea3e268cb31f202dd59cba4d4148b
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271262"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396318"
 ---
 # <a name="direct-routing---sip-protocol"></a>ダイレクト ルーティング - SIP プロトコル
 
@@ -42,7 +42,7 @@ ms.locfileid: "67271262"
 | 連絡先ヘッダー | 連絡先： <sip:sbc1.adatum.biz:50588;transport=tls> |
 
 > [!NOTE]
-> SIP ヘッダーには、使用中の SIP URI に userinfo が含まれていません。 [RFC 3261 のセクション 19.1.1](https://tools.ietf.org/html/rfc3261#section-19.1.1) に従って、URI の userinfo 部分は省略可能であり、宛先ホストにユーザーの概念がない場合や、hosst 自体が識別されるリソースである場合は存在しない可能性があります。 @記号が SIP URI に存在する場合は、ユーザー フィールドを空にしないでください。
+> SIP ヘッダーには、使用中の SIP URI に userinfo が含まれていません。 [RFC 3261 のセクション 19.1.1](https://tools.ietf.org/html/rfc3261#section-19.1.1) に従って、URI の userinfo 部分は省略可能であり、宛先ホストにユーザーの概念がない場合や、ホスト自体が識別されているリソースである場合は存在しない可能性があります。 @記号が SIP URI に存在する場合は、ユーザー フィールドを空にしないでください。
 > SIPS URI はサポートされていないため、ダイレクト ルーティングでは使用しないでください。
 > セッション ボーダー コントローラーの構成を確認し、SIP 要求で "Replaces" ヘッダーを使用していないことを確認します。 ダイレクト ルーティングは、置換ヘッダーが定義されている SIP 要求を拒否します。
 
@@ -163,8 +163,8 @@ IP アドレスの使用は、Record-Routeまたは連絡先ではサポート�
 | :---------------------  |:---------------------- |:----------------|
 | 183 メッセージと 200 件のメッセージのメディア候補 | メディア プロセッサ | クライアント | 
 | SBC が受信できる 183 個のメッセージの数 | セッションごとに 1 つ | 複数 | 
-| 通話は暫定的な回答で行うことができます (183) | Yes | Yes |
-| 通話は、暫定的な回答なしで行うことができます (183) | Yes | Yes |
+| 通話は暫定的な回答で行うことができます (183) | はい | Yes |
+| 通話は、暫定的な回答なしで行うことができます (183) | はい | Yes |
 
 ###  <a name="non-media-bypass-flow"></a>メディア以外のバイパス フロー
 

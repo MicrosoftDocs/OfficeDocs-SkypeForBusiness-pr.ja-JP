@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Microsoft Teams Rooms、Surface Hub でのTeams Rooms、Teams ディスプレイのホット デスクなど、会議室と共有デバイスのリソース アカウントを作成する方法については、この記事を参照してください。
-ms.openlocfilehash: eaa95efde1db01d3c7a346309f50eca2427af4e8
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 45cd61b476f10f673150653144bdb79a47604962
+ms.sourcegitcommit: 17f4baf85e1ac6a2af5f5c6ea2d5aae763efd917
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271712"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67405159"
 ---
 # <a name="create-and-configure-resource-accounts-for-rooms-and-shared-teams-devices"></a>会議室と共有 Teams デバイスのリソース アカウントを作成して構成する
 
@@ -95,7 +95,7 @@ Microsoft 365 リソース アカウントを作成する前に、必要なラ�
 
 3. 左側のパネルの **[リソース** ] に移動し、[ **Rooms & equipment**] を選択します。 これらのオプションが左側のパネルで使用できない場合は、最初に **[すべて表示** ] を選択することが必要になる場合があります。
 
-4. [ **リソース メールボックスの追加]** を選択して、新しいルーム アカウントを作成します。 アカウントの表示名とメール アドレスを入力し、[ **追加**] を選択し、[ **閉じる**] を選択します。
+4. [ **リソースの追加]** を選択して、新しいルーム アカウントを作成します。 アカウントの表示名とメール アドレスを入力し、[ **追加**] を選択し、[ **閉じる**] を選択します。
 
 5. 既定では、リソース アカウントは次の設定で構成されます。
 
@@ -105,13 +105,13 @@ Microsoft 365 リソース アカウントを作成する前に、必要なラ�
       - 最大期間 (時間): 24
     - 会議出席依頼の自動承諾
 
-    それらを変更する場合は、[**閉じる**] を選択する前に [**スケジュール オプションの設定**] を選択します。 後で変更する場合は、 **リソース** > **ルーム&機器** に移動し、リソース アカウントを選択します。 次に、[ **予約オプション**] で [編集] を選択 **します**。
+    変更する場合は、[**閉じる**] を選択する前に [**予約オプションの編集**] を選択します。 後で変更する場合は、 **リソース** > **ルーム&機器** に移動し、リソース アカウントを選択します。 次に、[ **予約オプション**] で [編集] を選択 **します**。
 
 6. **[ユーザー****アクティブ ユーザー**]  >  に移動し、作成したルームを選択してプロパティ パネルを開きます。
 
 7. 次に、リソース アカウントにパスワードを割り当てます。 パネルで、[パスワードの **リセット**] を選択します。
  
-8. 共有デバイスでユーザーにパスワードの変更を要求すると、サインインの問題が発生します。 [ **このユーザーが最初にサインインしたときにパスワードを変更するように要求** する] をオフにし、[リセット] を選択 **します**。
+8. 共有デバイスでユーザーにパスワードの変更を要求すると、サインインの問題が発生します。 [ **このユーザーが最初にサインインしたときにパスワードを変更するように要求** する] をオフにし、[ **パスワードのリセット**] を選択します。
 
 9. [ **ライセンスとアプリ]** セクションで、デバイスがインストールされる国または地域に **[場所の選択]** を設定します。 次に、割り当てるライセンス (会議室など) を選択し、[ **変更の保存]** を選択します。 ライセンスは組織によって異なる場合があります。
 
@@ -250,7 +250,7 @@ Set-CalendarProcessing -Identity "ConferenceRoom01" -AutomateProcessing AutoAcce
    Connect-AzureAD
 ```
 
-次に、「 [パスワードを期限切れにならないように設定する」を](/microsoft-365/admin/add-users/set-password-to-never-expire?view=o365-worldwide#set-a-password-to-never-expire)参照してください。
+次に、「 [パスワードを期限切れにならないように設定する」を](/microsoft-365/admin/add-users/set-password-to-never-expire#set-a-password-to-never-expire)参照してください。
 
 次の使用例は、アカウント ConferenceRoom01@contoso.com のパスワードを無期限に設定します。
 
@@ -288,7 +288,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
        Import-Module ActiveDirectory
     ```
     
-    Active Directory PowerShell の詳細については、「 [ActiveDirectory」を](/powershell/module/activedirectory/?view=windowsserver2022-ps)参照してください。
+    Active Directory PowerShell の詳細については、「 [ActiveDirectory」を](/powershell/module/activedirectory/)参照してください。
 
 2. 次の構文を使用して、パスワードを期限切れにならないように設定します。
 

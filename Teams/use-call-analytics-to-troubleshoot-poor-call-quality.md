@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: Microsoft Teams の通話や会議に関する問題のトラブルシューティングを行うには、デバイス、ネットワーク、接続に関するユーザーごとの通話分析の詳細を使用します。
-ms.openlocfilehash: 38636d911be55648ec17628bcec7d4cee21358c5
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: c83ecbad418dc471f1db2c9c71b88fa621fe4a11
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794315"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397098"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>通話分析を使用して低品質な通話をトラブルシューティングする
 
@@ -54,6 +54,10 @@ Teams 管理者は、各ユーザーのすべての Call Analytics データへ�
 メディアとネットワークの詳細な統計情報など、特定のセッションに関する追加情報を取得するには、セッションをクリックして詳細を表示します。
 
 ![通話分析のユーザー セッション データのスクリーンショット。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
+
+このビデオでは、ユーザーの会議と通話情報を表示する手順を示します。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53x2e?autoplay=false]
 
 ## <a name="what-does-each-teams-support-role-do"></a>Teams サポートの各役割のサポート内容
 
@@ -93,7 +97,7 @@ Teams 管理者は、各ユーザーのすべての Call Analytics データへ�
 
    各通話や会議のセッションの詳細において、小さな問題は黄色で表示されます。 イエローになっている場合は通常の範囲外で、問題の一因となっている可能性がありますが、問題の主な原因になることはほとんどありません。 赤色の場合は重大な問題であり、このセッションの通話が低品質である主な原因の可能性があります。
 
-音声セッションの場合、稀に、Quality of Experience のデータが受信されないことがあります。 多くの場合、これは通話の中断、クライアントとの接続が終了することが原因です。 このような場合、セッションの評価は **使用** できません。
+音声セッションの場合、稀に、Quality of Experience のデータが受信されないことがあります。 多くの場合、これは、呼び出しが削除されたか、クライアントとの接続が終了したときに発生します。 このような場合、セッションの評価は **使用** できません。
 
 Quality of Experience (QoE) データがある音声セッションについては、次の表において、セッションを **低品質** とする主な問題について説明します。
 

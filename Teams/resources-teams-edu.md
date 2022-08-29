@@ -1,13 +1,13 @@
 ---
-title: 'Microsoft Teams: 教育機関管理者向けのリソース'
-author: DaniEASmith
-ms.author: danismith
+title: Teams 導入リソースを共有する
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: olbesede
-description: 教育機関の管理者は、リモート ラーニングを有効にするために Microsoft Teams で利用できるリソースについて学習できます。
+description: 教育機関の管理者は、ユーザーが Teams を採用するのに役立つ Microsoft Teams のリソースを見つけます。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -17,22 +17,24 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6f655d049d7b821e4ab4747f5ef11fe29c42ae55
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: e30d912ebcc0937bf0168c1adee972eb6d5f1a8f
+ms.sourcegitcommit: c19ac3be42cc4b8409c8d512bbe3156736af0309
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789142"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "67426834"
 ---
-# <a name="microsoft-teams-resources-for-education-admins"></a>教育機関管理者向け Microsoft Teams のリソース
+# <a name="share-teams-adoption-resources"></a>Teams 導入リソースを共有する
 
 ## <a name="resources-for-remote-learning"></a>リモート ラーニング用のリソース
 
-学校または大学で Microsoft Teams でリモート ラーニングを有効にする必要がありますか? [はじめにの 1 ページ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true)構成と以下のいずれかの導入資料を使用して、すぐに起動して実行します。
+はじめに[の 1 ページ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true)構成と以下のいずれかの導入資料を使用して、ユーザーが立ち上がって実行できるように支援します。
 
 ## <a name="adoption-content"></a>導入向けコンテンツ
 
-メール、ポスター、配布資料など、今すぐ無料で使用できるその他のリソースを使用して、Microsoft Teams について学校を楽しみにしています。 また、バナー、GIF、ビデオでいっぱいの新しいデジタル ツールキットを使用して、学生にオンラインおよびキャンパス全体にアクセスすることもできます。 今すぐ始めましょう。
+無料の電子メール、ポスター、配布資料などを使用して、Microsoft Teams について学校を楽しみにしています。
+
+また、バナー、GIF、ビデオのデジタル ツールキットを使用して、学生にオンラインおよびキャンパス全体にアクセスすることもできます。
 
 これらの資料を使用する前に [、使用条件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/license_agreement_teams_for_education.pdf?raw=true) をお読みください。
 
@@ -46,7 +48,7 @@ ms.locfileid: "66789142"
 
 ### <a name="digital-assets"></a>デジタル資産
 
-Teams の起動を最大化するには、 [必ず Digital Toolkit ガイダンス](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-toolkit-guidance.zip?raw=true) を確認してください。 
+Teams の起動に役立つ [Digital Toolkit ガイダンス](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-toolkit-guidance.zip?raw=true) を確認してください。
 
 | &nbsp; |&nbsp;  |
 |---------|---------|
@@ -56,17 +58,17 @@ Teams の起動を最大化するには、 [必ず Digital Toolkit ガイダン�
 
 ## <a name="call-to-action"></a>実施すべき内容
 
-- トレーニング、ビデオ、対話型デモについては、[Microsoft Teams for Education ページ](https://www.microsoft.com/en-us/education/products/teams/default.aspx)を参照してください
-- [Microsoft 365 管理センター](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns)で Teams を有効にする (Office 365管理者としてサインインする)
-- Teams クライアントをダウンロードする: [すべてのデバイスで Teams をオンにする](https://teams.microsoft.com/downloads)
-- [Education ヘルプ センター](https://support.office.com/education)で Office 365 for Education について学ぶ
+- トレーニング、ビデオ、対話型デモについては、[Microsoft Teams for Education ページ](https://www.microsoft.com/education/products/teams/default.aspx)を参照してください。
+- [Microsoft 365 管理センター](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns)で Teams を有効にします。
+- Teams クライアントをダウンロードする: [すべてのデバイスで Teams を取得](https://teams.microsoft.com/downloads)します。
+- 教育機関向け Microsoft 365 for Education の [ヘルプ センター](https://support.office.com/education)について詳しくは、こちらを参照してください。
 
 ## <a name="additional-resources"></a>その他のリソース
 
-- [Teams のロードマップ](https://aka.ms/teamsroadmap)
-- [Tech Community Blog ](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog) で最新情報を入手する
-- [Teams での PowerShell の概要](teams-powershell-overview.md)
-- [提案を送信する](https://aka.ms/eduuservoice)
-- [サポートに問い合わせる](https://aka.ms/o365portal)
-- [Teams コミュニティに質問する](https://aka.ms/msteamscommunity)
-- [教育に関する資料を見つける](https://education.microsoft.com/)
+- [Teams のロードマップ](https://aka.ms/teamsroadmap)。
+- [Tech Community ブログ](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)を最新の状態に保つ。
+- [Teams PowerShell の概要](teams-powershell-overview.md)。
+- [提案を送信します](https://aka.ms/eduuservoice)。
+- [サポートに問い合わせます](https://aka.ms/o365portal)。
+- [Teams コミュニティに問い合わせる](https://aka.ms/msteamscommunity)。
+- [教育用のその他のリソースを検索します](https://education.microsoft.com/)。

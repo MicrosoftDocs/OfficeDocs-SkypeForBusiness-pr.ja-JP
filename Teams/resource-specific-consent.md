@@ -12,12 +12,12 @@ ms.localizationpriority: high
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b506352052924b8394cbdfc712ce96750b96523
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: fb96b6130ce87d8d1453f6ea4ee40af2bb84050d
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67298896"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396468"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>Microsoft Teams でのリソース固有の同意
 
@@ -31,7 +31,7 @@ Microsoft Teams のリソース固有の同意により、チーム所有者は�
 
 チームの所有者がアプリに同意できるかどうかを制御するために設定する必要がある設定を次に示します。 次のすべての設定を確認してください。
 
-### <a name="settings-in-azure-ad"></a>Azure AD の設定
+### <a name="settings-in-azure-active-directory-portal"></a>Azure Active Directory ポータルの設定
 
 次の 2 つの設定は、チームの所有者がアプリに同意できるかどうかを決定します。
 
@@ -62,8 +62,8 @@ Azure AD の設定に加えて、[[アプリの管理]](manage-apps.md) ペー�
 
 この組織全体のアプリ設定は、組織内のユーザーがサードパーティのアプリを使用できるかどうかを制御します。 チームの所有者が同意を与えるには、この設定をオンにする必要があります。 これを行うには、次の操作を行います。
 
-1. Microsoft Teams 管理センターの左側のナビゲーションで、**[Teams アプリ]** > **[アプリの管理]** に移動します。その後、**[組織全体のアプリ設定]** をクリックします。
-2. **[サード パーティ アプリ]** で、**[サード パーティのアプリを許可する]** をオフまたはオンにします。
+1. Teams 管理センターにサインインし、**Teams アプリ** の **[管理アプリ](https://admin.teams.microsoft.com/policies/manage-apps)** > にアクセスします。
+1. **組織全体のアプリ設定** を選択し、**サード パーティ製アプリ** の下で、サード **パーティ** のアプリを許可するをオフまたはオンにします。
 
     !["Teams でサード パーティアプリを許可する" 設定のスクリーンショット](media/resource-specific-consent-org-wide-setting.png)
 
@@ -73,8 +73,8 @@ Azure AD の設定に加えて、[[アプリの管理]](manage-apps.md) ペー�
 
 [[アプリの管理]](manage-apps.md#allow-and-block-apps) ページでアプリをブロックまたは許可すると、そのアプリは組織内のすべてのユーザーに対してブロックまたは許可されます。 チームの所有者は、アプリが許可されている場合にのみ、アプリに同意することができます。 組織レベルでアプリを許可またはブロックするには、次の操作を行います。
 
-1. Microsoft Teams 管理センターの左側のナビゲーションで、**[Teams アプリ]** > **[アプリを管理]** の順に移動します。
-2. [アプリの管理] ページでアプリを選択し、**[ブロック]** をクリックしてブロックするか、**[許可]** をクリックして許可します。
+1. Teams 管理センターにサインインし、**Teams アプリ** の **[管理アプリ](https://admin.teams.microsoft.com/policies/manage-apps)** > にアクセスします。
+1. [アプリの管理] ページでアプリを選択し、[ **ブロック** ] を選択してブロックするか、[ **許可** ] を選択して許可します。
 
     ![組織全体の設定でブロックされているアプリのスクリーンショット。](media/resource-specific-consent-allow-block-apps.png)
 
@@ -83,16 +83,16 @@ Azure AD の設定に加えて、[[アプリの管理]](manage-apps.md) ペー�
 チームの所有者は、アプリのアクセス許可ポリシーで実行が許可されているアプリにのみ同意できます。 チーム所有者に割り当てられているアプリのアクセス許可ポリシーを表示および管理するには、次の手順に従います。
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、[**ユーザー**] に移動します。
-2. チーム所有者の表示名をダブルクリックし、**[ポリシー]** をクリックします。
-3. チームの所有者に割り当てられているポリシーは、**[アプリのアクセス許可ポリシー]** の下に一覧表示されます。
-    - 別のポリシーを割り当てるには、**[編集]** をクリックし、割り当てるポリシーを選択します。
-    - チームの所有者に割り当てられているポリシーの設定を編集するには、ポリシー名をクリックして、必要な変更を行います。  
+1. チーム所有者の表示名をダブルクリックし、[ **ポリシー**] を選択します。
+1. チームの所有者に割り当てられているポリシーは、**[アプリのアクセス許可ポリシー]** の下に一覧表示されます。
+    - 別のポリシーを割り当てるには、[ **編集]** を選択し、割り当てるポリシーを選択します。
+    - チーム所有者に割り当てられているポリシーの設定を編集するには、ポリシー名を選択し、必要な変更を行います。  
 
-## <a name="uploading-custom-apps"></a>カスタム アプリのアップロード
+## <a name="upload-custom-apps"></a>カスタム アプリをアップロードする
 
 リソース固有の同意を使用するカスタム アプリ (サイドローディングとも呼ばれます) をアップロードする場合、アプリはインストール先のテナントから取得する必要があります。 つまり、Azure AD アプリの登録はこのテナントから行う必要があります。 グローバル管理者はこの制限から除外され、チーム (サイドローディング) またはテナント アプリ カタログに直接、任意のテナントからカスタム アプリをアップロードできます。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-articles"></a>関連記事
 
 - [使用可能な RSC アクセス許可](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
 - [Microsoft Graph](https://developer.microsoft.com/graph)

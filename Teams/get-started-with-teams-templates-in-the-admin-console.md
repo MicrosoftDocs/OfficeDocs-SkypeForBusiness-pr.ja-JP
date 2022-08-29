@@ -11,6 +11,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- m365-frontline
 description: チーム テンプレートと、Microsoft Teams 管理センターで管理する方法について説明します。
 f1.keywords:
 - CSH
@@ -18,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bff3c2c63b94df4c1e19a748d3e9e9912574faa
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
+ms.openlocfilehash: e4fb9c538335a50271bd0ae15249ec8aec7af95b
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819358"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396728"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Teams 管理センターで Teams テンプレートの使用を開始する
 
@@ -43,7 +44,7 @@ Microsoft Teams のチーム テンプレートは、ビジネスニーズまた
 この記事では、Teams 管理センターでのチーム テンプレートの操作の概要について説明します。 テンプレートでサポートされているプロパティ、Microsoft が提供する事前構築済みテンプレート、テンプレート サイズの制限、テンプレートの作成方法と管理方法などについて説明します。
 
 > [!NOTE]
-> ユーザーは、Teams アプリ [の事前構築済みまたはカスタム のチーム テンプレートからチームを作成](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) できます。 開発者は、Microsoft Graph を使用して、事前構築済みのチーム テンプレートからチームをプログラムで作成することもできます。 詳細については、「 [Microsoft Graph を使用したチーム テンプレートの概要](get-started-with-teams-templates.md)」を参照してください。
+> ユーザーは、Teams アプリ [の事前構築済みまたはカスタム のチーム テンプレートからチームを作成](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) できます。 開発者は、Microsoft Graph を使用して、事前構築済みまたはカスタム のチーム テンプレートからチームをプログラムで作成することもできます。 詳細については、「 [Microsoft Graph を使用したチーム テンプレートの概要](get-started-with-teams-templates.md)」を参照してください。
 
 ## <a name="team-template-capabilities"></a>チーム テンプレートの機能
 

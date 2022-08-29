@@ -3,15 +3,15 @@ title: Microsoft Teams のアプリについて知っておくべきこと
 ms.reviewer: ''
 description: アプリについて学習し、組織のプロファイルとビジネス要件に基づいて、Teams で使用できるアプリを決定します。
 ms.topic: article
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 audience: admin
-ms.date: 04/05/2022
 ms.service: msteams
 ms.subservice: teams-apps
 ms.collection:
 - M365-collaboration
+- m365-frontline
 f1.keywords:
 - NOCSH
 ms.localizationpriority: high
@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 77d33fc464ab67945c8d3c588c4ce47366c2ba2d
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 78f0f0857884f70d5e758b1c52e13341c15faa0e
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270262"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397198"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Microsoft Teams アプリを理解する
 
@@ -49,7 +49,7 @@ Teams ストアで検証およびセキュリティで保護されたアプリ�
 
 ## <a name="microsoft-provided-apps"></a>Microsoft 提供のアプリ
 
-Microsoft には、生産性と共同作業を向上させるための多くのアプリがあります。 これらのアプリは、管理センターで Microsoft が発行元として一覧表示されているか、チーム ストアでプロバイダーとして一覧表示されているか確認することで、お客様やエンド ユーザーが見つけることができます。
+Microsoft には、生産性と共同作業を向上させるための多くのアプリがあります。 ユーザーとエンド ユーザーは、Teams 管理センターでパブリッシャーとしてリストされている Microsoft を探すか、Teams ストアのプロバイダーとして一覧表示することで、これらのアプリを見つけることができます。
 
 Teams には、リスト、Tasks、称賛、承認などを含む一連の組み込みアプリが付属しています。 Teams の初期展開時に、おすすめのアプリ (Planner など) を含めることをお勧めします。
 
@@ -65,29 +65,21 @@ Microsoft 提供のアプリに加えて、Microsoft 検証済みのサードパ
 
 組織内の開発者によって作成されたアプリは、カスタム アプリ (または基幹業務アプリ) と呼ばれます。 組織は、組織固有の要件に応じてカスタム アプリの作成を委託する場合があります。 あなたは組織全体または特定のユーザーに対して、このようなアプリを許可またはブロックする管理能力を保持しています。 組織内の開発者は、Teams と [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions) の統合を使用して、カスタムのローコード ソリューションを構築できます。
 
-管理者がカスタム アプリの使用を許可した後、エンド ユーザーは Teams ストアの左側のナビゲーションで **[組織向けに開発]** をクリックしてそのアプリを見つけます。
+管理者がカスタム アプリの使用を許可した後、エンド ユーザーは Teams ストアの左側のナビゲーションで **組織のビルド** を選択することで、そのようなアプリを見つけることができます。
 
 :::image type="content" source="media/built-for-your-org1.png" alt-text="Teams デスクトップ アプリの Teams ストアにあるカスタム アプリのスクリーンショット。" lightbox="media/built-for-your-org2.png":::
 
-<!--- TBD - new article on custom app overview and sideloading. --->
-
-### <a name="understand-sideloading-of-custom-apps"></a>カスタム アプリのサイドローディングを理解する
-
-カスタム アプリを開発し、それらのアプリをエンド ユーザーに配布する前に、開発者はテストするために Teams ストアにアプリを追加してアプリをテストします。 開発者は自分でテストすることも、指定したユーザー グループでテストすることもできますが、アプリは組織内の他のエンド ユーザーが利用できません。 この方法は、アプリのサイドローディングと呼ばれ、カスタム アプリにのみ適用されます。
-
-開発者は、通常は開発中のアプリをテストするために、特定のチームのメンバーがアプリを利用できるようにアプリをサイドロードできます。 この方法でのアプリの使用はアプリ開発者に制限され、管理者が Teams でのサイドローディングを許可している限り、管理者の承認は必要ありません。 管理者は、すべての開発者に対してアプリのサイドローディングを禁止できます。
-
-サイドローディングを禁止した場合でも、開発者は[別のテスト テナントを作成](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant)してアプリをテストできます。 カスタム アプリの開発が完了すると、開発者はカスタム アプリをエンド ユーザーに配布するよう管理者に要求します。 詳細については、[カスタム アプリを発行する方法](/microsoftteams/upload-custom-apps)を参照してください。 管理者であるお客様は、特定のユーザーに対してカスタム アプリの使用を許可または禁止できます。
+詳細については、「 [カスタム アプリとサイドロードされたアプリについて理解して管理](custom-app-overview.md)する」を参照してください。
 
 ## <a name="about-app-templates"></a>アプリ テンプレートについて
 
-Teams 用のアプリ テンプレートは、以下を実現するために Microsoft が作成した、機能的で実稼働可能なサンプル アプリです。
+Microsoft は、アプリ開発方法を使用して、機能と運用に対応したサンプル アプリを作成して提供します。 まとめて、これらのアプリは Teams 用のアプリ テンプレートと呼ばれ、次の目的で提供されます。
 
-* 一般的なユース ケースを示す。
-* アプリ開発のベスト プラクティスを紹介する。
-* 開発者がカスタム アプリを作成するために拡張できるオープンソース アプリを提供する。
+* Teams でのコラボレーションのユース ケースをいくつか示します。
+* アプリ開発のベスト プラクティスとメソッドを紹介します。
+* 開発者が独自のアプリを作成するために拡張できるオープンソース アプリを提供します。
 
-組織の開発者は、GitHub で公開されているコードに簡単な変更を加えて、アプリ テンプレートをカスタマイズします。 これらのアプリをエンド ユーザー向けのカスタム アプリとして提供して、組織のニーズを満たします。
+組織の開発者は、提供されたソース コードを簡単に変更してアプリ テンプレートをカスタマイズします。 これらのアプリをエンド ユーザー向けのカスタム アプリとして提供して、組織のニーズを満たします。
 
 詳細については、「[Microsoft Teams アプリ テンプレート](https://adoption.microsoft.com/microsoft-teams/app-templates/)」を参照してください。
 
@@ -175,3 +167,7 @@ You can use activity reports to see how users in your organization are using Tea
 | Who needs to see the activity reports, and do they have the correct permissions to view them? |<ul><li>If you don't want to assign an admin role to a user, you can [assign the Reports reader role](teams-activity-reports.md#reports-reader-role).</li><li>See [Roles and permissions](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) and [View and assign roles](/azure/active-directory/users-groups-roles/directory-manage-roles-portal) for information about assigning admin roles in Azure Active Directory.</li></ul> |
 
 --->
+
+## <a name="related-articles"></a>関連記事
+
+* [Teams 用アプリ テンプレートの詳細については、こちらを参照してください](/microsoftteams/platform/samples/app-templates)。

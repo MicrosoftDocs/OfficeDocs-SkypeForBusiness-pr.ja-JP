@@ -16,16 +16,18 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 教育機関と学生のライセンス プランと SKU ID の一覧を示します。
 f1keywords: ''
-ms.openlocfilehash: c6fe915950189dfe3ee46acc6187636fbe34da5a
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: f0b1f51b18ba7c43b4cb5eed9b7626100e9a950f
+ms.sourcegitcommit: c19ac3be42cc4b8409c8d512bbe3156736af0309
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66790172"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "67426864"
 ---
 # <a name="education-sku-reference"></a>Education SKU リファレンス
 
-この記事では、PowerShell を使用してライセンスの種類別に組織内のユーザーを識別するときに参照として使用できる教育教職員および学生ライセンス プラン (SKU) と SKU ID の一覧を示します。
+この記事では、教育機関と学生のライセンス プラン (SKU) と SKU ID の一覧を示します。
+
+PowerShell を使用して、ライセンスの種類別に組織内のユーザーを識別する場合は、このリファレンスを使用します。
 
 ## <a name="faculty-licenses"></a>教職員ライセンス
 

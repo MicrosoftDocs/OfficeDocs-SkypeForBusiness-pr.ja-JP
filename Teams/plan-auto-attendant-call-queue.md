@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 自動応答と通話キューについて説明し、それらを使用して発信者がメニュー システムを移動して組織内のユーザーや部署にアクセスできるようにする方法について説明します。
-ms.openlocfilehash: 218377b2082d1a057f503abbf83d37ff78686986
-ms.sourcegitcommit: 55ba3ed53421da6619724a360d15e80262241079
+ms.openlocfilehash: f97081e641574c0d2ea192820100861b39b48d9b
+ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "67070738"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "67443354"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Teams の自動応答と通話キューを計画する
 
@@ -175,6 +175,18 @@ ms.locfileid: "67070738"
 
 - [自動応答を設定する](create-a-phone-system-auto-attendant.md)
 - [呼び出しキューを作成する](create-a-phone-system-call-queue.md)
+
+> [!IMPORTANT]
+> ユーザーが次のように構成されている場合、ユーザーの Azure Active Directory (AAD) GUID トークンは、自動応答または呼び出しキュー構成の一部として格納されます。
+>
+>  - 自動応答または呼び出しキュー **の承認されたユーザー**。
+>  - 自動応答 **オペレーター**。
+>  - **組織内のユーザー** の転送ポイント。
+>  - 呼び出しキューの個々のメンバー。
+> 
+> 自動応答と呼び出しキューの構成は、AAD ライフサイクル イベントと同期されません。  Teams 管理者は、自動応答を手動で更新し、キュー構成を呼び出して、構成に含まれるユーザーが組織を離れたときに、この個人データを削除する必要があります。
+>
+> これは、配布リストまたはチャネルを介して構成された呼び出しキュー エージェント メンバーシップには適用されません。 また、自動応答の **ダイヤルバイ ネーム** または **ダイヤルバイナンバー機能を** 介して到達したユーザーにも適用されません。
 
 ワークフロー、ボット、SMS との統合など、より広範な機能が必要な場合は、[Azure Communication Services](/azure/communication-services/overview)を検討してください。
 

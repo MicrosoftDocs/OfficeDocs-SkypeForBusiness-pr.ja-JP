@@ -24,12 +24,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 74f4580eee7ee7ee935b405cfe51c4a3e49ef98c
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
-ms.translationtype: HT
+ms.openlocfilehash: 28a816dee54d8f5ac2aead0deeb6aedf3f8076f7
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616283"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396928"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams でのチームとチャネルの概要
 
@@ -86,6 +86,10 @@ Microsoft 365 での Teams 管理者である場合は、Teams 管理センタ�
 >
 > [Microsoft Teams に接続されたチーム サイト](/SharePoint/teams-connected-sites)の管理についての詳細情報をご覧ください。
 
+このビデオでは、ユーザーのチーム メンバーシップを表示および管理する手順を示します。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53x1L?autoplay=false]
+
 ## <a name="channel-feature-comparison"></a>チャネル機能の比較
 
 次の表は、チャネルの種類ごとの Teams 機能の比較を示しています。
@@ -96,7 +100,7 @@ Microsoft 365 での Teams 管理者である場合は、Teams 管理センタ�
 |チャネル メンバーシップは、チームのサブセットに制限できます。|いいえ|はい|はい|
 |チャネルは、他のチームと直接共有できます。|いいえ|いいえ|はい|
 |チャネルは、その親チームと直接共有できます。|該当なし|いいえ|はい|
-|ゲストはチャネルに参加できます。|はい|はい|いいえ|
+|ゲストはチャネルに参加できます。|はい|Yes|いいえ|
 |外部参加者 (B2B Direct Connect) は、チャネルに参加できます。|いいえ|いいえ|Yes|
 |モデレート|はい|いいえ|いいえ|
 |ブレークアウト ルーム|Yes|いいえ|いいえ|
@@ -105,9 +109,9 @@ Microsoft 365 での Teams 管理者である場合は、Teams 管理センタ�
 |予約された会議|はい|いいえ|はい|
 |プランナー|はい|いいえ|いいえ|
 |ボット、コネクタ、およびメッセージングの拡張機能|はい|いいえ|いいえ|
-|クラス チームでサポートされています|はい|はい|いいえ|
+|クラス チームでサポートされています|はい|Yes|いいえ|
 |タグ|はい|いいえ|いいえ|
-|分析|はい|はい|いいえ|
+|分析|はい|Yes|いいえ|
 
 ## <a name="org-wide-teams"></a>組織全体のチーム
 

@@ -16,12 +16,12 @@ description: Microsoft Teams 管理センターで利用できる Teams のア�
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: c4acbbb085bbf47339b0b0b2bcb7000466953b70
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 452bcbebeffa3936b9d05270626e11923caf5cda
+ms.sourcegitcommit: 72b6f7ab2a44dec395622bfe64119a48094960bd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616293"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67283088"
 ---
 # <a name="microsoft-teams-monitoring-and-alerting"></a>Microsoft Teams の監視とアラート
 
@@ -32,6 +32,9 @@ Microsoft Teams の新しい監視機能とアラート機能は、Teams 管理�
 - Teams の機能を自動的に管理する
 - 予期しない内容が表示された場合は、アラートを受け取る必要があります。
 - 修正アクションを実行して、物事を軌道に乗り出します。
+
+> [!NOTE]
+> Teams 管理センター内のアラート機能は、GCC/GCC-High 環境では使用できません。
 
 ## <a name="how-to-manage-monitoring-and-alerting"></a>監視とアラートを管理する方法
 

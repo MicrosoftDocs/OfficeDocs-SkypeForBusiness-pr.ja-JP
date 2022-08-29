@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 05be32bff1069d11ea26d28e6eb5377ec04e65e9
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 2f4809d615d97aa46ecad3b46c2b723c33b4619e
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299066"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396868"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams アプリのアクセス許可と考慮事項
 
@@ -96,7 +96,7 @@ Microsoft Teams アプリは 1 つまたは複数の機能がまとめられた�
 
 * ユーザーがボットと会話するとき、ボットがユーザーの ID を格納している場合、ユーザーのダイレクト メッセージはいつでも送信できます。
 
-* 理論的には、ボット メッセージにフィッシング サイトやマルウェア サイトへのリンクを含めることができます。 ただし、ボットは、ユーザー、テナント管理者、または Microsoft からグローバルにブロックできます。 [アプリの検証と検証チェック](overview-of-app-validation.md)により、不正なアプリが Teams ストアで使用できないことが保証されます。
+* 理論的には、ボット メッセージにフィッシング サイトやマルウェア サイトへのリンクを含めることができます。 ただし、ボットは、ユーザー、テナント管理者、または Microsoft からグローバルにブロックできます。 [アプリの検証と検証のチェック](overview-of-app-validation.md) により、不正なアプリが Teams ストアで使用できないことが確認されます。
 
 * ボットは、アプリが追加されたチーム メンバー、または個人チャットまたはグループ チャットの個々のユーザーの基本的な ID 情報を取得 (および格納する場合があります) できます。 これらのユーザーの詳細を取得するには、ボットが Azure Active Directory (Azure AD) にサインインする必要があります。
 
@@ -105,8 +105,6 @@ Microsoft Teams アプリは 1 つまたは複数の機能がまとめられた�
 * 既定では、ボットがユーザーに代わって行動する機能はありませんが、ボットはユーザーにサインインを依頼できます。ユーザーがサインインするとすぐに、ボットはアクセス トークンを持ち、追加の操作を行うことができます。 その他の内容は、ボットとユーザーがサインインする場所によって正確に異なります。ボットは https://apps.dev.microsoft.com/ で登録された Azure AD アプリであり、独自のアクセス許可のセットを持つことができます。
 
 * ファイルがボットに送信されると、ファイルは企業ネットワークを離れます。 ファイルの送受信には、ファイルごとにユーザーの承認が必要です。
-
-* 既定では、ボットがユーザーに代わって行動する機能はありませんが、ボットはユーザーにサインインを依頼できます。ユーザーがサインインするとすぐに、ボットはアクセス トークンを持ち、追加の操作を行うことができます。 その他の内容は、ボットとユーザーがサインインする場所によって正確に異なります。ボットは[アプリケーション登録ポータル](https://apps.dev.microsoft.com/?referrer=https:%2f%2fdocs.microsoft.com%2f#/appList)で登録された Azure AD アプリであり、独自のアクセス許可のセットを持つことができます。
 
 * ボットは、ユーザーがチームに追加または削除されるたびに通知されます。
 

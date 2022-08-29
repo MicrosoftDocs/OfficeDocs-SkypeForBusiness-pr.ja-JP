@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: 45b6ec9809fe0c86f1a4acb69ef78c5c5f30f230
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 7ff0a37d815b3118aea0eb63abc8a414c4a99bd5
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299136"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397248"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Microsoft Teams のカスタム アプリのポリシーと設定を管理する
 
@@ -64,11 +64,11 @@ ms.locfileid: "67299136"
 
 #### <a name="set-a-user-custom-app-policy"></a>ユーザー カスタム アプリ ポリシーを設定する
 
-1. Microsoft Teams 管理センターの左側のナビゲーションで、**[Teams アプリ]** > **[ポリシーの設定]** の順に移動します。
-2. **[追加]** をクリックします。
-3. **[カスタム アプリのアップロード]** を有効/無効にします。
-4. ポリシーに必要なその他の設定を選択します。
-5. **[保存]** をクリックします。
+1. Teams 管理センターにサインインし、 **Teams アプリ** > **[のセットアップ ポリシー](https://admin.teams.microsoft.com/policies/app-setup)** にアクセスします。
+1. **[追加]** を選択します。
+1. **[カスタム アプリのアップロード]** を有効/無効にします。
+1. ポリシーに必要なその他の設定を選択します。
+1. **[保存]** を選択します。
 
 ### <a name="team-custom-app-setting"></a>チーム カスタム アプリの設定
 
@@ -86,8 +86,8 @@ ms.locfileid: "67299136"
 
 #### <a name="configure-the-team-custom-app-setting"></a>チーム カスタム アプリの設定を構成する
 
-1. Teams でチャネルに移動し、**[その他のオプション...]** > **[チャネルを管理]** の順にクリックします。
-2. **[設定]** をクリックし、**[メンバーのアクセス許可]** を展開します。
+1. Teams で、チームに移動し、 **その他のオプションを選択します。...** > **チームを管理します**。
+2. **[設定] を** 選択し、[**メンバーのアクセス許可]** を展開します。
 3. **[メンバーにカスタム アプリのアップロードを許可する]** チェック ボックスをオンまたはオフにします。
 
     ![チームのカスタム アプリ設定を示すスクリーンショット。](media/teams-custom-app-policy-and-settings-team.png)
@@ -98,9 +98,9 @@ ms.locfileid: "67299136"
 
 #### <a name="configure-the-org-wide-custom-app-setting"></a>組織全体のカスタム アプリ設定を構成する
 
-1. Microsoft Teams 管理センターの左側のナビゲーションで、**[Teams アプリ]** > **[アプリを管理]** の順に移動します。
-2. **[組織全体のアプリ設定]** をクリックします。
-3. **[カスタム アプリ]** で、**[カスタム アプリとの対話を許可する]** をオフまたはオンにします。
+1. Teams 管理センターにサインインし、**Teams アプリ** の **[管理アプリ](https://admin.teams.microsoft.com/policies/manage-apps)** > にアクセスします。
+1. **組織全体のアプリ設定を選択します**。
+1. **[カスタム アプリ]** で、**[カスタム アプリとの対話を許可する]** をオフまたはオンにします。
 
     ![組織全体のカスタム アプリ設定を示すスクリーンショット。](media/teams-custom-app-policy-and-settings-org-wide.png)
 
@@ -125,8 +125,7 @@ ms.locfileid: "67299136"
 | オン     | オン     | オフ         | ユーザーはカスタム アプリをアップロードできません。       |
 | オン    | オン        | オン        | ユーザーがチーム所有者かどうかに関係なく、ユーザーはカスタム アプリをチームにアップロードできます。 ユーザーは、個人用コンテキストでカスタム アプリをアップロードできます。       |
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-articles"></a>関連記事
 
-[Teams でのアプリの管理設定](admin-settings.md)
-
-[ Teams でユーザーにポリシーを割り当てる](assign-policies-users-and-groups.md)
+- [Teams でアプリの設定を管理します](admin-settings.md)。
+- [Teams のユーザーにポリシーを割り当てます](assign-policies-users-and-groups.md)。

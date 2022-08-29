@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-edu
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02a425d325721dc732e0bd06aa3aee8fd3973dda
-ms.sourcegitcommit: f5546acf02ec644225f6d0fb41f38b1912da6adf
-ms.translationtype: HT
+ms.openlocfilehash: 1f95f9c1a3ad6a65dbefa4d48c0c5277e01b65f2
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "66952781"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397274"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams の Education Insights への IT 管理者ガイド
 
@@ -256,13 +256,15 @@ IT 管理者として、教職員やリーダーが Teams の使用を開始す�
 1. **[設定]** > **[Education Insights の管理]** の順に移動します。
 1. **[Insights のアクティビティ データを収集する]** トグルを調整します。
 
-![Insights をオフまたはオンを切り替える SDS 管理センターのトグルのスクリーンショット](media/manage-insights-toggles.png)
+![SDS 管理センターのスクリーンショットが切り替わり、Insights をオフまたはオンに切り替えます。](media/manage-insights-toggles.png)
 
 #### <a name="turn-on-and-off-insights-from-the-teams-client"></a>Teams クライアントで Insights のオンとオフを切り替える
 
 1. *Education Insights* の個人用アプリがピン留めされていない場合は、[次の手順](class-insights.md#education-leaders)に従って追加します。
 1. Microsoft 365 管理者アカウントを使用して、*Education Insights* の右上隅にある省略記号アイコンを使用して、**[管理者設定]** ページを開きます。
 1. **[Insights のアクティビティ データを収集する]** トグルを調整します。
+
+![Teams クライアントの切り替えを切り替えて Insights をオフまたはオンにするスクリーンショット。](media/admin-settings-main-screen.png)
 
 > [!NOTE]
 > Insights をオフにした場合、収集されたデータは削除されます。 オプトアウトによって削除されたデータは、Insights が再び有効になった場合でも、後から復元することはできません。

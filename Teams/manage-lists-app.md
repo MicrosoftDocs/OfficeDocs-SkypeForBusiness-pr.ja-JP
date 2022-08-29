@@ -21,15 +21,16 @@ ms.collection:
 - microsoftcloud-healthcare
 - microsoftcloud-retail
 - m365initiative-lists
+- m365-frontline
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: efb9f2ce1f96dbddef049166e34fd999a5ed987e
-ms.sourcegitcommit: ea9cbb8e32b7f23c17930eadc0a1dcbd906449ae
+ms.openlocfilehash: 39d44feb46fa20cb27755792e7f2236ed16b051f
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66842233"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396278"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織のシフト アプリを管理する
 

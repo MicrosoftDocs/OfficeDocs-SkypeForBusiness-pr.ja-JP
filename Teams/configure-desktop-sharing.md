@@ -17,21 +17,20 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c94991255b7309e1510a934645f1f4cf0b7e049
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 759751dba6a674c9236c7c401209740f298c2a6f
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562386"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418446"
 ---
 # <a name="configure-desktop-sharing-in-microsoft-teams"></a>Microsoft Teams でのデスクトップ共有を構成する
 
-デスクトップを共有すると、ユーザーは会議やチャット中に画面やアプリを表示できます。 管理者が Microsoft Teams で画面共有を構成すると、ユーザーは画面全体、アプリ、ファイルを共有できるようになります。 ユーザーによる制御の付与または要求の許可、PowerPoint 共有の許可、ホワイトボードの追加、共有メモの許可を設定できます。 匿名ユーザーや外部ユーザーが共有画面の制御を要求できるかどうかも構成できます。 Teams 会議の外部参加者は、次のように分類できます。
+デスクトップを共有すると、ユーザーは会議やチャット中に画面やアプリを表示できます。 管理者が Microsoft Teams で画面共有を構成すると、ユーザーは画面全体、アプリ、ファイルを共有できるようになります。 ユーザーによる制御の付与または要求の許可、PowerPoint 共有の許可、ホワイトボードの追加、共有メモの許可を設定できます。 また、匿名または外部の参加者が共有画面の制御を要求できるかどうかを構成することもできます。 Teams 会議の外部参加者は、次のように分類できます。
 
-- 匿名ユーザー
-- ゲスト ユーザー
-- B2B ユーザー
-- フェデレーション ユーザー
+- 匿名参加者
+- ゲスト
+- 外部アクセス ユーザー
 
 画面共有を構成するには、新しい会議ポリシーを作成し、そのポリシーを管理対象ユーザーに割り当てます。
 

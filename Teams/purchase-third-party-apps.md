@@ -1,6 +1,6 @@
 ---
 title: Teams 用のサードパーティ製アプリを購入する
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
@@ -15,12 +15,12 @@ description: クレジット カード、デビット カード、または請�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 41882a241a911e7c482a2a9a16c9fa9cfd649e9d
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 680f48fd75c85b219a4c1ed5b18289962637401b
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299196"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396308"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>Teams 用のサードパーティ製アプリを購入する
 
@@ -34,9 +34,9 @@ Microsoft Teams 管理センターの [[アプリの管理]](manage-apps.md) は
 
 ## <a name="purchase-apps-in-the-teams-admin-center"></a>Teams 管理センターでアプリを購入する
 
-Teams 管理センターでアプリを購入するには、次の手順に従います: 
+Teams 管理センターでアプリを購入するには、次の手順に従います:
 
-1. Microsoft Teams 管理センターの左側のウィンドウで、**[Teams アプリ]** > **[[アプリの管理]](https://admin.teams.microsoft.com/policies/manage-apps)** に移動します。 ページにアクセスするには、グローバル管理者または Teams サービス管理者である必要があります。
+1. Teams 管理センターにサインインし、**Teams アプリ** の **[管理アプリ](https://admin.teams.microsoft.com/policies/manage-apps)** > にアクセスします。 ページにアクセスするには、グローバル管理者または Teams サービス管理者である必要があります。
 
 1. 目的のアプリを名前で検索します。 有料 SaaS サブスクリプションを持つアプリを特定するには、**ライセンス** 列を確認します。 各アプリには、次のいずれかの値があります:
     * **今すぐ購入**: このアプリは SaaS サブスクリプションを提供しており、購入が可能です。  

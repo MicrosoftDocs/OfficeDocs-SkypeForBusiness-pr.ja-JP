@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 description: 外部アクセスとゲスト アクセスを使用して、Microsoft Teams で組織外のユーザーと電話およびチャットし、ユーザーを検索および追加する方法を説明します。
-ms.openlocfilehash: 829f763c77578fdc9e17a29386ebad30e52f4986
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
-ms.translationtype: HT
+ms.openlocfilehash: 14b1bee39caacc6465c64dbb2151cbeed936b3ff
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023990"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418466"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>ゲスト アクセスと外部アクセスを使用して、組織外の人々とコラボレーションする
 
@@ -43,9 +43,17 @@ Teams、Skype for Business (オンラインまたはオンプレミス)、Skype 
 ![外部アクセス設定のスクリーンショット。](media/external-access-federation-settings.png)
 
 外部アクセスは、次のテナントで使用できます。
-
-- 商用、GCC、GCC の上位との間
-- DOD 間のみ
+- マネージド エンタープライズ アカウント
+     - コマーシャル間のみ
+     - GCC 間のみ
+     - GCC High 間のみ
+     - DOD 間のみ
+- アンマネージド (個人用) アカウント
+     - コマーシャル アカウントと個人用アカウントの間のみ
+- Skype for Business相互運用機能
+     - コマーシャル、GCC、GCC High、DoD 間
+- Skype 相互運用機能
+     - 商用と Skype の間のみ
 
 外部アクセスを構成するには、「[外部アクセスの管理](manage-external-access.md)」を参照してください。 
 
@@ -56,7 +64,7 @@ Teams、Skype for Business (オンラインまたはオンプレミス)、Skype 
 
 ゲスト アクセスを使用して、チャット、通話、会議、およびファイル上での共同作業が可能な、組織外のユーザーをチームに追加します。 ゲストには、ネイティブ チーム メンバーとほぼ同じ Teams 機能を使用できるように設定できます。 詳細については、[Teamsのゲスト エクスペリエンス](guest-experience.md)を参照してください。
 
-ゲストは組織の Azure Active Directory に B2B ユーザーとして追加され、ゲスト アカウントを使用して Teams にサインインする必要があります。 つまり、ゲストがお客様の組織にサインインするには、ゲスト自身の組織からサインアウトする必要がある場合があります。
+ゲストは B2B コラボレーション ユーザーとして組織の Azure Active Directory に追加され、ゲスト アカウントを使用して Teams にサインインする必要があります。 つまり、ゲストがお客様の組織にサインインするには、ゲスト自身の組織からサインアウトする必要がある場合があります。
 
 ゲスト アクセスは、次のテナントで使用できます。
 

@@ -17,25 +17,18 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: ロゴ、カスタム背景、カスタム テキストの色を追加して、組織の Teams アプリ ストアをカスタマイズする方法について説明します。
-ms.openlocfilehash: 01648e3c45540e5f9e7a0eb82921cf74937d9f62
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 5982b3e1e1a6145b9617fb899e7941b7f31a22e9
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269072"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397038"
 ---
 # <a name="customize-your-organizations-app-store-in-microsoft-teams"></a>Microsoft Teams で組織のアプリ ストアをカスタマイズする
 
-ロゴ、カスタム背景、およびカスタム テキストの色を追加して、組織のアプリ ストアを Teams でカスタマイズし、会社のブランドをエンドユーザーにとってより魅力的なものにできるようになりました。
+会社のブランドを反映するように、組織のアプリ ストアをカスタマイズできます。 ロゴ、カスタム背景、およびカスタム テキストの色を追加して、エンド ユーザーにとってより魅力的にすることができます。
 
-> [!NOTE]
-> ブランドの変更が有効になるまでに最大で 24 時間かかる場合があります。
-
-**[Teams アプリ]** > **[ストアのカスタマイズ]** を選択すると、管理センターでカスタマイズされたストアにアクセスできます。
-
-  ![管理コンソールのストアのカスタマイズ機能が強調表示されています。](media/customize-app-store.png)
-
-この記事では、カスタム アプリ ストアの機能とその使用方法について説明します。
+Teams **アプリ** > の [ストアのカスタマイズ] を選択すると、Teams 管理センターで **[カスタマイズされたストア](https://admin.teams.microsoft.com/policies/customize-appstore)** にアクセスできます。 変更の詳細については、次の手順に従います。
 
 ## <a name="customize-your-organization-logo"></a>組織のロゴをカスタマイズする
 
@@ -87,14 +80,14 @@ Teams Store には、**[Built for your tenant]** (テナント向けに構築) �
 
 **[カスタム色の選択]** を選ぶと、カラー選択子が開きます。 カラー選択子のスケールを調整して、目的の色を選択します。
 
- ![カラー選択子。](media/choose-a-custom-color.png)
+:::image type="content" source="media/choose-a-custom-color.png" alt-text="色を選択するダイアログのスクリーンショット。":::
 
 ## <a name="complete-the-customization-of-your-team-apps-store"></a>チーム アプリ ストアのカスタマイズを完了する
 
 アプリ ストアのカスタマイズが完了したら、必ず **[保存]** を選択して変更を保存します。
 変更をプレビューするには、**[Preview apps store]** (アプリ ストアのプレビュー) を選択して、カスタマイズしたアプリ ストアの表現を確認します。
 
-![カスタム アプリ ストアのプレビュー。](media/PowerAppsInStore650w.png)
+:::image type="content" source="media/PowerAppsInStore650w.png" alt-text="カスタマイズされたアプリ ストアの例を示すスクリーンショット。":::
 
 > [!NOTE]
 > 一部の既定の色はユーザーの Teams クライアントのバージョンに基づいているため、カスタマイズされたアプリ ストアの最終バージョンとは異なる場合があります。

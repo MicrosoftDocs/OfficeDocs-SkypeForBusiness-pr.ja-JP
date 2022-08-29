@@ -18,12 +18,12 @@ ms.custom:
 description: Microsoft Teamsの計画、展開、および実行方法に関するトレーニングビデオ、PowerPointデッキ、チュートリアル、およびその他の管理者向けリソース。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4dc2bb1055853bdd5b06b85303ea6dceda934dc
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: cc931e442b5777c129482ad22e7698b9446e5695
+ms.sourcegitcommit: 10bb44fdd23d0b42a81229028d1b86515f88e7bb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269302"
+ms.lasthandoff: 08/25/2022
+ms.locfileid: "67435293"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニングの概要
 
@@ -67,14 +67,14 @@ ms.locfileid: "67269302"
 
 | モジュール | ビデオ | PowerPoint デッキ (PDF)  |
 | ------------ | -------------------- | -------------------- |
-| モジュール 1: Microsoft Teams Roomsの概要 (18:29 分) | [ビデオ](https://www.youtube.com/watch?v=LpFQ24S8QlY) | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
-| モジュール 2: Microsoft Teams ネットワーク (34:10 分) | [ビデオ](https://www.youtube.com/watch?v=CqQX4Mg0f1k) | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |
-| モジュール 3: 適切な領域に適したデバイスを選択する (18:45 分) | [ビデオ](https://www.youtube.com/watch?v=jUac7mT7xP4) | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-3-choosing-the-right-device.pdf?live=true) |
-| モジュール 4: Microsoft Teams Roomsのデプロイ (56:36 分) | [ビデオ](https://www.youtube.com/watch?v=IJZPczMAsEM) | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-4-deployment.pdf?raw=true) |
-| モジュール 5: Microsoft Teams Roomsの構成と開始 (32:27 分) | [ビデオ](https://www.youtube.com/watch?v=Q_6F6CNcpxI) | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
-| モジュール 6: Microsoft Teams Roomsの管理、パート 1 (18:31 分) | [ビデオ](https://www.youtube.com/watch?v=XMoZa9XGQfw) | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
-| モジュール 7: Microsoft Teams Roomsの管理、パート 2 (41:06 分) | [ビデオ](https://www.youtube.com/watch?v=vDCYM5sKylc) | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
-| モジュール 8: Microsoft Teams Rooms---ヒント、テクニック、トラブルシューティング (18:14 分)|[ビデオ](https://www.youtube.com/watch?v=W3b-iRrFECA)  | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
+| モジュール 1: Microsoft Teams Roomsの概要 (18:29 分) | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
+| モジュール 2: Microsoft Teams ネットワーク (34:10 分) | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |
+| モジュール 3: 適切な領域に適したデバイスを選択する (18:45 分) | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-3-choosing-the-right-device.pdf?live=true) |
+| モジュール 4: Microsoft Teams Roomsのデプロイ (56:36 分) | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-4-deployment.pdf?raw=true) |
+| モジュール 5: Microsoft Teams Roomsの構成と開始 (32:27 分) | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
+| モジュール 6: Microsoft Teams Roomsの管理、パート 1 (18:31 分) | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
+| モジュール 7: Microsoft Teams Roomsの管理、パート 2 (41:06 分) | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
+| モジュール 8: Microsoft Teams Rooms---ヒント、テクニック、トラブルシューティング (18:14 分)| [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
 | One-touch Join の手順 |  | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
 | Microsoft Teams Rooms マネージド サービスの概要 |  | [デッキ](https://download.microsoft.com/download/c/e/a/cead2658-d64d-43b7-a728-b4512b325fb8/module-7b-Teams-Managed-Rooms-intro.pdf)  |
 

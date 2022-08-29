@@ -17,16 +17,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 組織内の Teams ユーザーが Teams に関するフィードバックを Microsoft に送信できるかどうかを制御するフィードバック ポリシーの使用方法について説明します。
-ms.openlocfilehash: f9d001fba9503f6d5f2e482a437bc8f38c8ffc7d
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 933c6971058c107ab881cb48bb0f2a9dbd74900d
+ms.sourcegitcommit: 44fd07d8e6e5fcbe5051de2300e180f295eaaad3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156525"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "67339801"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Microsoft Teams でフィードバック ポリシーを管理する
 
-組織内のユーザーは、Microsoft Teamsに関するフィードバックを送信して、Teams デスクトップ、Web クライアント、モバイル内から直接実行している方法を知らせることができます。 Microsoft は、Teams エクスペリエンスを継続的に向上しており、このフィードバックを使用して Teams を改善しています。
+組織内のユーザーは、Microsoft Teams に関するフィードバックを送信して、Teams デスクトップ、Web クライアント、モバイル内から直接実行している方法を知らせることができます。 Microsoft は、Teams エクスペリエンスを継続的に向上しており、このフィードバックを使用して Teams を改善しています。
 
 > [!NOTE]
 > フィードバック ポリシーは、GCC、GCC High、DOD の展開では使用できません。
@@ -68,6 +68,7 @@ ms.locfileid: "67156525"
 
  - **アンケート**: **receiveSurveysMode** パラメーターを **[有効]** に設定して、ポリシーが割り当てられているユーザーがアンケートを受信できるようにします。 ユーザーがアンケートを受信して受け取らないことができるようにするには、パラメーターを **enabledUserOverride** に設定します。 Teams では、**[設定]** > **[プライバシー]** の順に移動し、アンケートに参加するかどうかを選択できます。 パラメーターを **[無効]** に設定すると、機能がオフになり、ポリシーが割り当てられているユーザーはアンケートを受信できません。
 
+ - **スクリーンショット**: **AllowScreenshotCollection** フラグを使用して、ユーザーのスクリーンショット コレクションオプトインを追加します。
  - **Email**: **AllowEmailCollection** フラグを使用して、電子メール フィールドを追加します。
  - **ログ 収集**: **AllowLogCollection** フラグを使用して、ユーザーのログ コレクションオプトインを追加します。 現在、ログ収集はモバイルでのみ有効になっています。 ログを使用して共有されるデータの詳細については、 [詳細を参照してください](https://go.microsoft.com/fwlink/?linkid=2168178)。
 
