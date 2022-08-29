@@ -1,5 +1,5 @@
 ---
-title: Microsoft Graphで構築された中小企業向けのチーム テンプレート
+title: Microsoft Graph で構築された中小企業向けのチーム テンプレート
 author: LanaChin
 ms.author: v-lanachin
 manager: samanro
@@ -15,24 +15,27 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.reviewer: lavenkat
-description: Microsoft Graphに組み込まれている定義済みテンプレートMicrosoft Teams使用して、中小企業向けのチームを迅速かつ簡単に作成します。
+description: Microsoft Graph に組み込まれている Microsoft Teams の定義済みテンプレートを使用して、中小企業向けのチームを迅速かつ簡単に作成します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5317b989bd7fe77f34743b6554cd356c226c2fa8
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 644d45660fba729991796f33e7210222832e0c0f
+ms.sourcegitcommit: 903abff4ce79c10bf1fb936b8ad71f6315a43c18
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646306"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67278481"
 ---
-# <a name="team-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>小規模および中規模の企業向けの Microsoft Graphに組み込まれているチーム テンプレート
+# <a name="team-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>小規模および中規模の企業向けに Microsoft Graph に組み込まれているチーム テンプレート
 
 Microsoft Teams のチーム テンプレートでは、設定、チャネル、事前にインストールされたアプリの定義済みチーム構造を使用することで、チームをすばやく簡単に作成できます。
 
-中小企業の場合、テンプレートは、組織全体にTeamsを迅速に展開するのに役立つため、特に強力です。 テンプレートは、ユーザーがTeamsを効果的に使用する方法を理解するのにも役立ちます。 この記事は、組織全体で複数のチームを計画、展開、管理する責任がある場合に役立ちます。
+中小企業の場合、テンプレートは特に強力であり、組織全体に Teams を迅速に展開するのに役立ちます。 テンプレートは、ユーザーが Teams を効果的に使用する方法を理解するのにも役立ちます。 この記事は、組織全体で複数のチームを計画、展開、管理する責任がある場合に役立ちます。
 
 現在、さまざまな状況で使用できる中小企業向けの 3 つの事前構築済みテンプレートを提供しています。 すべてのテンプレートで *プライベート チームが作成されます* 。 チームを作成し、組織にロールアウトする準備ができたら、必要に応じて、プライバシーを *組織全体* または *パブリック* に設定できます。
 
-チーム テンプレート全般の詳細については、[Microsoft Graphを使用したチーム テンプレートの概要](get-started-with-teams-templates.md)に関するページを参照してください。
+> [!NOTE]
+> Microsoft Graph を使用して、独自のカスタム テンプレートを作成することもできます。 詳細については、「 [teamTemplate リソースの種類」を](/graph/api/resources/teamtemplate)参照してください。
+
+チーム テンプレート全般の詳細については、「 [Microsoft Graph を使用したチーム テンプレートの概要](get-started-with-teams-templates.md)」を参照してください。
 
 ## <a name="company-wide-template"></a>Company-Wide テンプレート
 
@@ -40,11 +43,11 @@ Company-Wide テンプレートは、会社全体のコミュニケーション�
 
 | テンプレートの種類  | TemplateId | このテンプレートに含まれるプロパティ |
 | :------------------ | :-------------- | :----------------------------------------------------- | 
-| SMB - <br>全社的 | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessOrgWide')`| チャネル <ul><li>全般\*</li><li>人材\*</li><li>Fun Stuff\*</li></ul><br> アプリ<ul><li>ポータル サイト (**人事** チャネルにピン留めされた Web サイト) </li> </UL><br>チームのプロパティ <ul><li>チームの可視性を非公開に設定</li></ul> |
+| SMB - <br>全社的 | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessOrgWide')`| チャネル <ul><li>全般\*</li><li>人事\*</li><li>Fun Stuff\*</li></ul><br> アプリ<ul><li>ポータル サイト (**人事** チャネルにピン留めされた Web サイト) </li> </UL><br>チームのプロパティ <ul><li>チームの可視性を非公開に設定</li></ul> |
 
 *自動お気に入りのチャネル 
 
-定義済みのテンプレートから既定の設定を取得してCompany-Wide チームを作成するには、要求本文でチーム オブジェクトの JSON 表現を指定します。 チーム テンプレートを展開する方法の詳細については、チームの作成に関する Microsoft Graph[記事を](/graph/api/team-post?view=graph-rest-beta)参照してください。
+定義済みのテンプレートから既定の設定を取得してCompany-Wide チームを作成するには、要求本文でチーム オブジェクトの JSON 表現を指定します。 チーム テンプレートをデプロイする方法の詳細については、チームの [作成に関する Microsoft Graph の記事を](/graph/api/team-post?view=graph-rest-beta)参照してください。
 
 #### <a name="request"></a>要求 
 ```http 
@@ -64,11 +67,11 @@ Content-Type: application/json
 
 | テンプレートの種類  | TemplateId | このテンプレートに含まれるプロパティ |
 | :------------------ | :-------------- | :----------------------------------------------------- | 
-| SMB - <br>エグゼクティブ チーム | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessExecutive')` | チャネル <ul><li>全般\*</li><li>プライベート \*</li></ul> アプリ<ul><li>OneNote (**プライベート** チャネルにピン留め)</li> <li>Planner ( **プライベート** チャネルにピン留め) </li></ul><br>チームのプロパティ <ul><li>チームの可視性を非公開に設定</li></ul> | 
+| SMB - <br>エグゼクティブ チーム | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessExecutive')` | チャネル <ul><li>全般\*</li><li>プライベート \*</li></ul> アプリ<ul><li>OneNote ( **プライベート** チャネルにピン留め)</li> <li>Planner ( **プライベート** チャネルにピン留め) </li></ul><br>チームのプロパティ <ul><li>チームの可視性を非公開に設定</li></ul> | 
 
 *自動お気に入りのチャネル<br>
 
-定義済みのテンプレートから既定の設定を取得して Executives チームを作成するには、要求本文でチーム オブジェクトの JSON 表現を指定します。 チーム テンプレートを展開する方法の詳細については、チームの作成に関する Microsoft Graph[記事を](/graph/api/team-post?view=graph-rest-beta)参照してください。
+定義済みのテンプレートから既定の設定を取得して Executives チームを作成するには、要求本文でチーム オブジェクトの JSON 表現を指定します。 チーム テンプレートをデプロイする方法の詳細については、チームの [作成に関する Microsoft Graph の記事を](/graph/api/team-post?view=graph-rest-beta)参照してください。
 
 #### <a name="request"></a>要求 
 ```http 
@@ -90,11 +93,11 @@ Content-Type: application/json
 
 | テンプレートの種類 | TemplateId | このテンプレートに含まれるプロパティ |
 |:------------------ | :-------------- | :----------------------------------------------------- | 
-| SMB - <br>Finance  | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessFinance')`| チャネル <ul><li>全般\*</li><li>プライベート \*</li></ul><br> アプリ<ul><li>OneNote (**プライベート** チャネルにピン留め)</li> <li>Planner ( **プライベート** チャネルにピン留め) </li> </ul><br>チームのプロパティ <ul><li>チームの可視性を非公開に設定</li></ul> | 
+| SMB - <br>Finance  | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessFinance')`| チャネル <ul><li>全般\*</li><li>プライベート \*</li></ul><br> アプリ<ul><li>OneNote ( **プライベート** チャネルにピン留め)</li> <li>Planner ( **プライベート** チャネルにピン留め) </li> </ul><br>チームのプロパティ <ul><li>チームの可視性を非公開に設定</li></ul> | 
 
 *自動お気に入りのチャネル
 
-定義済みのテンプレートから既定の設定を取得して Finance チームを作成するには、要求本文でチーム オブジェクトの JSON 表現を指定します。 チーム テンプレートを展開する方法の詳細については、チームの作成に関する Microsoft Graph[記事を](/graph/api/team-post?view=graph-rest-beta)参照してください。
+定義済みのテンプレートから既定の設定を取得して Finance チームを作成するには、要求本文でチーム オブジェクトの JSON 表現を指定します。 チーム テンプレートをデプロイする方法の詳細については、チームの [作成に関する Microsoft Graph の記事を](/graph/api/team-post?view=graph-rest-beta)参照してください。
 
 #### <a name="request"></a>要求 
 ```http 

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Teams の既存の番号を取得、移植、転送する方法、およびユーザーに変更を表示する方法について説明します。
-ms.openlocfilehash: b0ed990cd16a7e4878c2819a95fac29f46a9d770
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 4f3c06986943be42d6a39c22101645e1ff1b0058
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156545"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396338"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>ユーザー用に電話番号を取得する
 
@@ -34,11 +34,11 @@ ms.locfileid: "67156545"
   
 ユーザー番号を取得するには、次の 3 つの方法があります。
 
-- **Microsoft Teams管理センターを使用します。** 一部の国と地域では、Microsoft Teams管理センターを使用してユーザーの番号を取得できます。 [ユーザーの新しい電話番号の取得に関するページを参照してください](#get-new-phone-numbers-for-your-users)。
+- **Microsoft Teams 管理センターを使用します。** 一部の国と地域では、Microsoft Teams 管理センターを使用してユーザーの番号を取得できます。 [ユーザーの新しい電話番号の取得に関するページを参照してください](#get-new-phone-numbers-for-your-users)。
 
 - **既存の番号を移行する。** 現在のサービス プロバイダーまたは電話会社から既存の番号を移植または転送できます。 この方法の詳細については、「[Teams に電話番号を移行](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md)」または「[組織の電話番号を管理](/microsoftteams/manage-phone-numbers-for-your-organization)」を参照してください。  
   
-- **新しい番号には申請書を使用します。** 場合によっては (国や地域によっては) Microsoft Teams 管理 センターを使用して新しい電話番号を取得できない場合や、特定の電話番号または市外局番が必要になる場合があります。 詳細については「[組織の電話番号を管理](/microsoftteams/manage-phone-numbers-for-your-organization) 」を参照してください。
+- **新しい番号には申請書を使用します。** Microsoft Teams 管理 センターを使用して新しい電話番号を取得できない場合や、特定の電話番号または市外局番が必要になる場合があります。 詳細については「[組織の電話番号を管理](/microsoftteams/manage-phone-numbers-for-your-organization) 」を参照してください。
   
 > [!NOTE]
 > 組織の電話番号の設定に関するヘルプが必要な場合は、[ビジネス向け製品のサポート連絡先 - 管理ヘルプにお問い合わせください](/microsoft-365/admin/contact-support-for-business-products)。
@@ -89,6 +89,10 @@ ms.locfileid: "67156545"
 
 > [!NOTE]
 > これより多くの電話番号を取得する必要がある場合は、[ビジネス向け製品のサポート連絡先 - 管理ヘルプにお問い合わせください](/microsoft-365/admin/contact-support-for-business-products)。
+
+このビデオでは、ユーザーに電話番号を割り当てる手順を示します。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE54mbS?autoplay=false]
 
 ## <a name="related-articles"></a>関連記事
 

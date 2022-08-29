@@ -14,14 +14,17 @@ search.appverid: ''
 ms.collection:
 - M365-collaboration
 ms.custom: ''
-ms.openlocfilehash: 0eccd8107ee0aa9a33d5525350da87899dccc99a
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: fd039c732d1a7e55a3cfb8aa59a3f78cf5f2cfe9
+ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268152"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "67443484"
 ---
 # <a name="kaizala-and-microsoft-teams"></a>Kaizala と Microsoft Teams 
+
+>[!Important]
+> Microsoft Kaizala は 2023 年 8 月 31 日に廃止されます。 接続、共有、コラボレーションを継続するために Microsoft Teams にアップグレードすることをお勧めします。 廃止日を経過すると、Kaizala へのアクセスとサポートは中止されます。
 
 2019 年 4 月に、Kaizala と Microsoft Teams を統合する計画を [発表しました](https://techcommunity.microsoft.com/t5/microsoft-kaizala-blog/update-on-kaizala-features-coming-to-microsoft-teams/ba-p/974525) 。 Kaizala の機能は、Microsoft 365 のチームワークのハブである Teams の堅牢なコミュニケーションとコラボレーション機能を補完します。
 
@@ -42,10 +45,6 @@ Kaizala と Teams についてよく寄せられる質問を読み続けます�
 ## <a name="when-should-my-organization-move-from-kaizala-to-teams"></a>組織はいつ Kaizala から Teams に移行する必要がありますか?
 
 Microsoft 365 およびOffice 365のお客様は[、Teams が](https://www.microsoft.com/microsoft-teams/group-chat-software?ms.officeurl=teams&rtc=1&OCID=AID2388518_SEM_Ks5ySdZ9)提供する豊富な機能を利用するために、今すぐ Teams の使用を開始することをお勧めします。 これらの機能には、46 言語と 181 市場のモバイル ユーザー向けのシンプルで強力なエクスペリエンスが含まれます。 シフト管理、ゲスト アクセス、Microsoft Flow と PowerApps を使用したカスタム ワークフローやアプリのサポートなどの機能を使用して、現場のワーカー スタッフを強化します。 Teams ではまだ使用できない特定の Kaizala 機能については、今後、更新されたタイムラインを投稿する予定です。
-
-## <a name="how-can-i-continue-to-use-kaizala-pro-if-i-had-purchased-the-standalone-offering"></a>スタンドアロン オファリングを購入した場合、Kaizala Proを引き続き使用するにはどうすればよいですか?
-
-2020 年 7 月 1 日の時点で、Microsoft はKaizala Proスタンドアロン サービスの販売を終了しました。 Kaizala と Teams は、[Microsoft 365 および Office 365 プランの一部](/Office365/Kaizala/migrate-kaizala-pro)として引き続きアクセスできます。
 
 ## <a name="how-can-i-get-started-with-teams"></a>Teams の使用を開始するにはどうすればよいですか?
 

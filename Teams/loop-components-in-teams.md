@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 041a2fbf54eb513c74348adf09df7452dabb4368
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: e468622d4aac30756e54127072045831374c5425
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268122"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418646"
 ---
 # <a name="overview-of-loop-components-in-teams"></a>Teams のループ コンポーネントの概要
 
@@ -90,6 +90,6 @@ Office.com で Teams チャットからコンポーネントを開くと、他�
 - テナントの既定のファイルアクセス許可が *[特定のユーザー* ] に設定されている場合 (ユーザーが指定したユーザーのみ)、20 人を超えるメンバーを含むグループ チャットでライブ コンポーネントを作成するには、送信者がコンポーネントのアクセス許可オプションを手動で選択する必要があります。
 - Teams 検索でループ コンポーネントを検索すると、チャット メッセージ自体ではなく、office.com のコンポーネントへのリンクが返されます。
 - フェデレーション チャットでは、ループ コンポーネントが無効になります。
-- B2B ゲストは、Company Share Link を介して共有されているライブ コンポーネントで共同作業することはできません。 **このチャットに現在参加しているユーザーに** アクセス許可を設定して、B2B ゲストとコンポーネントを共有します。
+- ゲストは、Company Share Link を介して共有されているライブ コンポーネントで共同作業を行うことができません。 **このチャットで現在People** にアクセス許可を設定して、ゲストとコンポーネントを共有します。
 - ループ コンポーネントは Teams チャネルではサポートされていません。
 - チャットのループ コンポーネントは、ファイルが別のライブラリに移動された場合にのみ読み込まれません。 ファイルが別のフォルダーに移動された場合、チャットで読み込み続けます。

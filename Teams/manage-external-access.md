@@ -21,12 +21,12 @@ description: Teams または IT 管理者は、他のドメインの外部会議
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 7d45fea1b0b2fdb5d659f0a025b74473050b3616
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
-ms.translationtype: HT
+ms.openlocfilehash: 009d82d65a79bacfc0c5eca785cb595b5aebc793
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674229"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418516"
 ---
 # <a name="manage-external-meetings-and-chat-in-microsoft-teams"></a>Microsoft Teams で外部の会議とチャットを管理する
 
@@ -274,6 +274,13 @@ New-CsBatchPolicyAssignmentOperation -PolicyType ExternalAccessPolicy -PolicyNam
 
 3. テストでは、フェデレーション ユーザーとの通信を妨げているテナントまたはポリシー構成に対処するための最適な次の手順が返されます。
 
+## <a name="user-level-controls"></a>ユーザー レベルのコントロール
+
+組織外のユーザーから 1 対 1 のチャットを受け取ると、全画面表示エクスペリエンスが表示され、メッセージの **プレビュー** 、チャットの **承諾** 、またはチャットの送信を **ブロック** することができます。
+
+外部ユーザーのブロックは、Teams 内の複数の場所で利用できます。これには、チャット リストのその他の (**...**) メニューと、People カードのその他の (**...**) メニューが含まれます。 また、ユーザーは、チャット リストの [その他の (**...**)] メニュー、ユーザー カードの [その他の (**...**)] メニュー、または [ブロック **された連絡先** の **編集]** >  にアクセスして、外部ユーザーの > **ブロックを解除** することもできます。 ブロックは、メッセージの送信前または送信後に使用できます。
+
+外部ユーザーをブロックすると、1 対 1 のチャットでメッセージを送信したり、新しいグループ チャットにユーザーを追加したり、プレゼンスを表示したりできなくなります。 グループ チャットの招待がブロックされている間、ブロックされたユーザーはブロックの前に開始されたか、グループ チャットの招待が別のメンバーによって送信されたため、ブロックされたユーザーと同じチャットに参加できます。
 
 ## <a name="related-topics"></a>関連項目
 

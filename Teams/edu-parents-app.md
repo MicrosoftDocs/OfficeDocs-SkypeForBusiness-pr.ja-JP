@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 73f11abed8101031361e92d008c4edbd89b9a31c
-ms.sourcegitcommit: 903abff4ce79c10bf1fb936b8ad71f6315a43c18
+ms.openlocfilehash: 37de74db112dcbd5466659b385f1bb94d7c134aa
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/08/2022
-ms.locfileid: "67278771"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418626"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Microsoft Teams for Educationで親接続を設定する
 
@@ -42,7 +42,7 @@ IT 管理者が保護者や教育者と親接続の使用を開始する方法�
 保護者向け接続を使用すると、教師や保護者は Teams を使用してチャット、電子メール、通話を行うことができます。
 
 - 教師は保護者とチャットを開始できます。
-  - 保護者が Teams コンシューマー アカウントを持っていない場合は、教師からの最初のメッセージと Teams への招待メールが届きます。
+  - 保護者が Teams コンシューマー アカウントを持っていない場合、または Teams にまだ参加していない場合は、Teams に移動するための電子メール招待と共に、教育者からメッセージを受け取ります。 これは、招待の制限に達していない場合にのみ適用され、チャットは新しいチャットまたは親接続から再入力された既存のチャットです。
 - 監視付きチャットで動作します。 詳細については、「 [Microsoft Teams で監視付きチャットを使用する」を参照してください](supervise-chats-edu.md)。
   - 保護者は既定でアクセス許可を制限しているため、学生とチャットしたり、チャットからユーザーを削除したりすることはできません。
   - この設定は、テナント管理者が変更できます。
