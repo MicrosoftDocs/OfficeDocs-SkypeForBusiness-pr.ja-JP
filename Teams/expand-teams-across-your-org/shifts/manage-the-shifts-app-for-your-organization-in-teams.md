@@ -20,15 +20,16 @@ ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
 - microsoftcloud-retail
+- m365-frontline
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ec51237ff9a3b0dff1894581364756afbfd6f5cf
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 759e0cb846b6bca404276e50ca00a1ff28d5725c
+ms.sourcegitcommit: 17f4baf85e1ac6a2af5f5c6ea2d5aae763efd917
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269012"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67405139"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織のシフト アプリを管理する
 
@@ -89,6 +90,17 @@ Shifts アプリを追加して [カスタム アプリセットアップ ポリ
 Teams の [ポリシー パッケージ](../../manage-policy-packages.md) は、組織内で同様のロールを持つユーザーに割り当てることができる定義済みのポリシーとポリシー設定のコレクションです。 Frontline Worker および Frontline Manager ポリシー パッケージの一連のポリシーには、Shifts アプリとそのロールのコミュニケーションとコラボレーション アクティビティをサポートするその他のアプリを固定するアプリセットアップ ポリシーが含まれます。
 
 フロントライン ワーカーと Frontline Manager ポリシー パッケージは、フロントラインの従業員のポリシーを管理する際に簡略化、合理化、一貫性を提供するために使用することをお勧めします。
+
+### <a name="enable-shift-based-tags-in-teams"></a>Teams でシフトベースのタグを有効にする
+
+Teams の[タグ](https://support.microsoft.com/office/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)を使用すると、ユーザーはチームの一部のユーザーと簡単に接続できます。 シフトベースのタグを使用すると、ユーザーには、Shifts でスケジュールとシフト グループ名に一致するタグが自動的に割り当てられます。 このタグは、チャットの [ **To** ] 行の@mentions、またはチームの任意の標準チャネルの投稿で使用できます。
+
+シフトベースのタグを使用すると、ユーザーはリアルタイムでオンシフトしているユーザーにアクセスできます。 通知は、タグがチャットまたはチャネルの投稿で使用された時点でオンシフトしているユーザーにのみ送信されます。 次に例を示します。
+
+- 店長は、@Cashiers タグを使用して、シフト内のすべてのキャッシャーのチャネルにアナウンスを投稿します。
+- 看護師は、@CardiologistsOnCall タグを使用して、すべてのオンコールの心臓医とのチャットを開始します。
+
+この機能は、Microsoft Teams 管理センターでオンまたはオフにすることができます。 詳細については、「[Teams でタグを管理する](../../manage-tags.md)」を参照してください。
 
 ## <a name="search-the-audit-log-for-shifts-events"></a>Teams でシフト イベントの監査ログを検索する
 

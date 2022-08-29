@@ -3,6 +3,77 @@
 
 
 
+## <a name="week-of-august-15-2022"></a>2022 年 8 月 15 日の週
+
+
+| 公開日 |トピックのタイトル | 変更 |
+|------|------------|--------|
+| 8/15/2022 | [ダイレクト ルーティングが認定されたセッション ボーダー コントローラー](/MicrosoftTeams/direct-routing-border-controllers) | 更新日時 |
+| 8/16/2022 | [Microsoft Teams のプランを呼び出す](/MicrosoftTeams/calling-plans-for-office-365) | 更新日時 |
+| 8/17/2022 | [Teams でアプリ ストアをカスタマイズする](/MicrosoftTeams/customize-your-app-store) | 更新日時 |
+| 8/17/2022 | [Teams 用のデバイス](/MicrosoftTeams/devices/teams-ip-phones) | 更新日時 |
+| 8/17/2022 | [Microsoft Teams でのリソース固有の同意](/MicrosoftTeams/resource-specific-consent) | 更新日時 |
+| 8/17/2022 | [Microsoft Teams のアプリのアクセス許可ポリシーを管理する](/MicrosoftTeams/teams-app-permission-policies) | 更新日時 |
+| 8/17/2022 | [Teams のカスタム アプリのポリシーと設定を管理する](/MicrosoftTeams/teams-custom-app-policies-and-settings) | 更新日時 |
+| 8/17/2022 | [Microsoft Teams 管理センターでカスタム アプリをアップロードする](/MicrosoftTeams/upload-custom-apps) | 更新日時 |
+| 8/18/2022 | [Microsoft Teams 管理センターでアプリのアクセス許可を表示し、管理者の同意を付与する](/MicrosoftTeams/app-permissions-admin-center) | 更新日時 |
+| 8/18/2022 | 新機能 - オペレーター接続 | 削除されました |
+| 8/18/2022 | [Microsoft Teams 管理センターでカスタム アプリをアップロードする](/MicrosoftTeams/upload-custom-apps) | 更新日時 |
+| 8/19/2022 | [Microsoft Teams 管理センターでチームを管理する](/MicrosoftTeams/manage-teams-in-modern-portal) | 更新日時 |
+| 8/19/2022 | [参加者とゲストの会議ポリシーを管理する](/MicrosoftTeams/meeting-policies-participants-and-guests) | 更新日時 |
+| 8/19/2022 | [Teamsのオプションの接続エクスペリエンス](/MicrosoftTeams/teams-privacy-oce-overview) | 更新日時 |
+| 8/20/2022 | [ダイレクト ルーティングでメディア バイパスを計画する](/MicrosoftTeams/direct-routing-plan-media-bypass) | 更新日時 |
+| 8/20/2022 | [Teams 用に組織のネットワークを準備する](/MicrosoftTeams/prepare-network) | 更新日時 |
+| 8/20/2022 | [Microsoft Teams 用の電話とデバイス](/MicrosoftTeams/devices/usb-devices) | 更新日時 |
+| 8/20/2022 | [管理センターで Teams テンプレートを使用する](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | 更新日時 |
+| 8/20/2022 | [Teams 用のサードパーティ製アプリを購入する](/MicrosoftTeams/purchase-third-party-apps) | 更新日時 |
+| 8/20/2022 | [Microsoft Teams でのチームとチャネルの概要](/MicrosoftTeams/teams-channels-overview) | 更新日時 |
+| 8/20/2022 | [オンプレミスSkype for Business Microsoft Teams にアップグレードする](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | 更新日時 |
+| 8/20/2022 | [ボイスメール ポリシーを管理する](/MicrosoftTeams/manage-voicemail-policies) | 追加済 |
+| 8/20/2022 | [ユーザーの電話番号を割り当て、変更、または削除する](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | 更新日時 |
+| 8/20/2022 | [Teams Android デバイスのリモート プロビジョニングとサインイン](/MicrosoftTeams/devices/remote-provision-remote-login) | 更新日時 |
+| 8/20/2022 | [組織のシフト アプリを管理する](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 更新日時 |
+| 8/20/2022 | [オペレーター接続を構成する](/MicrosoftTeams/operator-connect-configure) | 更新日時 |
+| 8/20/2022 | [通信事業者と Microsoft for Operator Connect 間のデータ転送](/MicrosoftTeams/operator-connect-data-transfer) | 更新日時 |
+| 8/20/2022 | [オペレーター接続](/MicrosoftTeams/operator-connect-plan) | 更新日時 |
+| 8/20/2022 | [ユーザーの電話番号を検索する](/MicrosoftTeams/search-for-phone-numbers-for-users) | 更新日時 |
+| 8/20/2022 | [Microsoft Teams でライブ イベント設定を構成する](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | 更新日時 |
+| 8/20/2022 | [Microsoft Teams でのライブ イベントのセットアップ](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 更新日時 |
+| 8/20/2022 | [Microsoft Teams でユーザーの会議ダイヤルアウト確認を設定する](/MicrosoftTeams/set-up-meeting-dial-out-confirmation) | 更新日時 |
+
+
+## <a name="week-of-august-08-2022"></a>2022 年 8 月 8 日の週
+
+
+| 公開日 |トピックのタイトル | 変更 |
+|------|------------|--------|
+| 8/8/2022 | [Microsoft Teams でのアプリの更新エクスペリエンス](/MicrosoftTeams/apps-update-experience) | 更新日時 |
+| 8/8/2022 | [Microsoft Teams 管理センターで、Teams アプリの組織向けアプリを管理します。](/MicrosoftTeams/manage-apps) | 更新日時 |
+| 8/8/2022 | [コンテンツの電子情報開示調査を実施する](/MicrosoftTeams/ediscovery-investigation) | 更新日時 |
+| 8/9/2022 | [Teams でアプリを管理するためのアプリ ポリシーの概要](/MicrosoftTeams/app-policies) | 更新日時 |
+| 8/9/2022 | クラウド音声デプロイの運営委員会 | 削除されました |
+| 8/9/2022 | オンボード チェックリスト - クラウド音声ワークロードを構成する - Microsoft Teams | 削除されました |
+| 8/9/2022 | オンボード チェックリスト - ダイレクト ルーティングの構成 - Microsoft Teams | 削除されました |
+| 8/9/2022 | オンボード チェックリスト - コア機能を構成する - Microsoft Teams | 削除されました |
+| 8/9/2022 | オンボード チェックリスト - Microsoft 365 または Office 365 サービスを有効にする | 削除されました |
+| 8/9/2022 | Microsoft Teams Rooms リファレンス | 削除されました |
+| 8/9/2022 | [カスタム アプリとサイドロードされたアプリの管理](/MicrosoftTeams/custom-app-overview) | 追加済 |
+| 8/9/2022 | [Microsoft Teams のアプリについて知っておくべきこと](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 更新日時 |
+| 8/9/2022 | [Microsoft によるアプリの検証とアプリのテストの概要](/MicrosoftTeams/overview-of-app-validation) | 更新日時 |
+| 8/9/2022 | [Microsoft Teams のサード パーティ製アプリについて](/MicrosoftTeams/overview-third-party-apps) | 更新日時 |
+| 8/9/2022 | [Teams 用のサードパーティ製アプリを購入する](/MicrosoftTeams/purchase-third-party-apps) | 更新日時 |
+| 8/9/2022 | [Microsoft Teams のアプリのアクセス許可ポリシーを管理する](/MicrosoftTeams/teams-app-permission-policies) | 更新日時 |
+| 8/9/2022 | [Microsoft Teams のアプリのセットアップ ポリシーを管理する](/MicrosoftTeams/teams-app-setup-policies) | 更新日時 |
+| 8/9/2022 | [Teams のカスタム アプリのポリシーと設定を管理する](/MicrosoftTeams/teams-custom-app-policies-and-settings) | 更新日時 |
+| 8/10/2022 | ダイレクト ルーティング | 削除されました |
+| 8/11/2022 | [Microsoft Teams のアプリについて知っておくべきこと](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 更新日時 |
+| 8/11/2022 | [Microsoft Teams 管理センターで、Teams アプリの組織向けアプリを管理します。](/MicrosoftTeams/manage-apps) | 更新日時 |
+| 8/11/2022 | [Microsoft Teams のアプリのセットアップ ポリシーを管理する](/MicrosoftTeams/teams-app-setup-policies) | 更新日時 |
+| 8/12/2022 | [Microsoft Teams の自動応答を設定する](/MicrosoftTeams/create-a-phone-system-auto-attendant-smb) | 追加済 |
+| 8/12/2022 | [Microsoft Teams で通話キューを作成する](/MicrosoftTeams/create-a-phone-system-call-queue-smb) | 追加済 |
+| 8/12/2022 | [Microsoft Teams のトランシーバー アプリ](/MicrosoftTeams/walkie-talkie) | 更新日時 |
+
+
 ## <a name="week-of-august-01-2022"></a>2022 年 8 月 1 日の週
 
 
@@ -145,72 +216,3 @@
 | 7/21/2022 | [Microsoft Teams 管理センターで、Teams アプリの組織向けアプリを管理します。](/MicrosoftTeams/manage-apps) | 更新日時 |
 | 7/21/2022 | [Teams アプリ申請 API を使用してカスタム アプリを送信および承認する](/MicrosoftTeams/submit-approve-custom-apps) | 更新日時 |
 | 7/21/2022 | [Microsoft Teams 管理センターでカスタム アプリをアップロードする](/MicrosoftTeams/upload-custom-apps) | 更新日時 |
-
-
-## <a name="week-of-july-11-2022"></a>2022 年 7 月 11 日の週
-
-
-| 公開日 |トピックのタイトル | 変更 |
-|------|------------|--------|
-| 7/13/2022 | [保留音](/MicrosoftTeams/music-on-hold) | 更新日時 |
-| 7/14/2022 | [SIP ゲートウェイを計画する](/MicrosoftTeams/sip-gateway-plan) | 更新日時 |
-| 7/15/2022 | [Microsoft Teams Rooms (Windows) のリリース ノート](/MicrosoftTeams/rooms/rooms-release-note) | 更新日時 |
-| 7/15/2022 | [現場担当者向けの Teams ポリシー パッケージ](/MicrosoftTeams/policy-packages-flw) | 追加済 |
-| 7/15/2022 | [Microsoft Teams で承認アプリを管理する](/MicrosoftTeams/approval-admin) | 更新日時 |
-| 7/15/2022 | [Microsoft Teams で Bookings アプリを管理する](/MicrosoftTeams/bookings-app-admin) | 更新日時 |
-| 7/15/2022 | Microsoft Teams でフロントライン ワーカーの大規模なチームを展開する | 削除されました |
-| 7/15/2022 | Microsoft Teams と Bookings アプリを使用した仮想予定 | 削除されました |
-| 7/15/2022 | ブラウザーで Teams 仮想予定の参加エクスペリエンスを管理する | 削除されました |
-| 7/15/2022 | [Microsoft Teams を組織全体で展開する](/MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page) | 更新日時 |
-| 7/15/2022 | Teams を使用した仮想予定 - Cerner EHR への統合 | 削除されました |
-| 7/15/2022 | Microsoft Teams EHR コネクタ 仮想予定 レポート | 削除されました |
-| 7/15/2022 | Teams を使用した仮想予定 - エピック EHR への統合 | 削除されました |
-| 7/15/2022 | メッセージの委任 | 削除されました |
-| 7/15/2022 | Microsoft Teams を使用した医療組織向けのセキュリティで保護されたメッセージング | 削除されました |
-| 7/15/2022 | 医療機関向け Microsoft Teams の使用を開始する | 削除されました |
-| 7/15/2022 | 小売環境でのビジネス プロセスを簡素化する | 削除されました |
-| 7/15/2022 | 販売店チーム間のコラボレーション | 削除されました |
-| 7/15/2022 | Shifts for Teams | 削除されました |
-| 7/15/2022 | Teams でフロントライン ワーカーのシフトベースのアクセスを管理する | 削除されました |
-| 7/15/2022 | [組織のシフト アプリを管理する](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 更新日時 |
-| 7/15/2022 | シフト管理のスケジュール所有者を管理する | 削除されました |
-| 7/15/2022 | PowerShell を使用して Shifts を Blue Yonder Workforce Managementに接続する | 削除されました |
-| 7/15/2022 | PowerShell を使用して Blue Yonder Workforce Managementへの Shifts 接続を管理する | 削除されました |
-| 7/15/2022 | Shifts コネクタ ウィザードを使用して Shifts を Blue Yonder Workforce Managementに接続する | 削除されました |
-| 7/15/2022 | コネクタをシフトする | 削除されました |
-| 7/15/2022 | 小売店向けの Teams | 削除されました |
-| 7/15/2022 | クライアントと顧客が仮想予定を使用できるように支援する | 削除されました |
-| 7/15/2022 | [現場担当者向けの Teams の使用を開始する](/MicrosoftTeams/flw-landing-page) | 更新日時 |
-| 7/15/2022 | 現場担当者ユーザー タイプとライセンスについて | 削除されました |
-| 7/15/2022 | 現場担当者オンボード ウィザードを使用して、現場の従業員を稼働させます | 削除されました |
-| 7/15/2022 | フロントライン Worker クイック スタート ガイド | 削除されました |
-| 7/15/2022 | Teams でフロントライン 試用版を管理する | 削除されました |
-| 7/15/2022 | 現場担当者向けに Teams アプリを調整する | 削除されました |
-| 7/15/2022 | [ヘルスケア向けの Teams ポリシー パッケージ](/MicrosoftTeams/policy-packages-healthcare) | 更新日時 |
-| 7/15/2022 | Microsoft Teams Virtual Visits の使用状況レポート | 削除されました |
-| 7/15/2022 | [PowerShell スクリプト サンプル - マネージャーとその直属のレポートをエクスポートする](/MicrosoftTeams/scripts/powershell-script-create-teams-from-managers-export-managers) | 更新日時 |
-| 7/15/2022 | [PowerShell スクリプト サンプル - 新しいユーザー マネージャー チームを作成する](/MicrosoftTeams/scripts/powershell-script-create-teams-from-managers-new-teams) | 更新日時 |
-
-
-## <a name="week-of-july-04-2022"></a>2022 年 7 月 4 日の週
-
-
-| 公開日 |トピックのタイトル | 変更 |
-|------|------------|--------|
-| 7/5/2022 | [自動応答と呼び出しキューの PowerShell コマンドレット リファレンス](/MicrosoftTeams/call-queue-auto-attendant-cmdlets) | 更新日時 |
-| 7/5/2022 | [Microsoft Teams の自動応答を設定する](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 更新日時 |
-| 7/5/2022 | [Microsoft Teams で通話キューを作成する](/MicrosoftTeams/create-a-phone-system-call-queue) | 更新日時 |
-| 7/5/2022 | [Microsoft Teams でのミーティングと会議](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | 更新日時 |
-| 7/5/2022 | [セッション ボーダー コントローラーの構成 - 複数のテナント](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 更新日時 |
-| 7/5/2022 | [Teams の自動応答と通話キューを計画する](/MicrosoftTeams/plan-auto-attendant-call-queue) | 更新日時 |
-| 7/5/2022 | [会議、ウェビナー、ライブ イベント](/MicrosoftTeams/quick-start-meetings-live-events) | 更新日時 |
-| 7/5/2022 | [Microsoft Teams 電話 リソース アカウント ライセンス](/MicrosoftTeams/teams-add-on-licensing/virtual-user) | 更新日時 |
-| 7/5/2022 | [Teams 音声 Contoso のケース スタディ: 自動応答と通話キュー](/MicrosoftTeams/voice-case-study-call-queues) | 更新日時 |
-| 7/5/2022 | [アプリ管理イベントの監査ログを検索する](/MicrosoftTeams/audit-app-management-activities) | 追加済 |
-| 7/6/2022 | [Microsoft Teams の Education Insights への IT 管理者ガイド](/MicrosoftTeams/class-insights) | 更新日時 |
-| 7/6/2022 | [PowerShell を使用して Shifts を Blue Yonder Workforce Managementに接続する](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connector-blue-yonder-powershell-setup) | 更新日時 |
-| 7/6/2022 | [Shifts コネクタ ウィザードを使用して Shifts を Blue Yonder Workforce Managementに接続する](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connector-wizard) | 更新日時 |
-| 7/6/2022 | [組織での発信者番号の利用方法](/MicrosoftTeams/how-can-caller-id-be-used-in-your-organization) | 更新日時 |
-| 7/7/2022 | Microsoft Teams での通話について理解する | 削除されました |
-| 7/7/2022 | [Microsoft 365 のプランを呼び出す](/MicrosoftTeams/calling-plans-for-office-365) | 更新日時 |
-| 7/8/2022 | [Microsoft Teams と Bookings アプリを使用した仮想予定](/MicrosoftTeams/expand-teams-across-your-org/bookings-virtual-visits) | 更新日時 |

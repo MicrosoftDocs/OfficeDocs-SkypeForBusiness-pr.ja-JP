@@ -1,9 +1,8 @@
 ---
 title: Microsoft Teams のアプリのアクセス許可ポリシーを管理する
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
-ms.reviewer: rarang
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -22,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b384eea0c3341534a61f6950723a0329f5f8566f
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
-ms.translationtype: HT
+ms.openlocfilehash: e82dbc8ad122e3d427b86a52c39a10f89df88098
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67176071"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396838"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのアクセス許可ポリシーを管理する
 
@@ -51,8 +50,7 @@ ms.locfileid: "67176071"
 
 異なるユーザー グループで使用できるアプリを制御する場合は、1 つ以上のカスタム アプリのアクセス許可ポリシーを使用します。 アプリが Microsoft、サードパーティ、または組織のうちどこで公開されているかに基づいて、個別のカスタム ポリシーを作成し、割り当てることができます。 カスタム ポリシーを作成した後、組織全体のアプリ設定でサード パーティのアプリが無効になっている場合、ポリシーを変更できないのでご注意ください。
 
-1. [Teams 管理センター](https://admin.teams.microsoft.com/dashboard) にサインインします
-1. 左側のパネルで、**Teams アプリ** > **アクセス許可ポリシー** に移動します。
+1. Teams 管理センターにサインインし、 **Teams アプリ** > **[のアクセス許可ポリシー](https://admin.teams.microsoft.com/policies/app-permission)** にアクセスします。
 1. **[追加]** を選択します。
 
    ![新しいアプリのアクセス許可ポリシーのスクリーン ショット。](media/app-permission-policies-new-policy.png)
@@ -68,7 +66,7 @@ ms.locfileid: "67176071"
 1. **[特定のアプリを許可し、他のすべてのアプリをブロックする]** を選択した場合は、以下の手順で許可するアプリを追加します。
 
     1. **[アプリを許可]** を選びます。
-    1. 許可するアプリを検索し、**[追加]** をクリックします。 検索結果は、アプリの発行元 (**Microsoft アプリ**、**サードパーティ アプリ**、または **カスタム アプリ**) にフィルターされます。
+    1. 許可するアプリを検索し、**[追加]** をクリックします。 検索結果は、アプリ開発者 (**Microsoft アプリ**、 **サード パーティアプリ**、または **カスタム アプリ**) にフィルター処理されます。
     1. アプリのリストを選択したら、**[許可]** をクリックします。
 
 1. 同様に、**[特定のアプリをブロックして他のすべてのアプリを許可する]** を選択した場合は、ブロックするアプリを検索して追加し、**[ブロック]** を選択します。
@@ -78,9 +76,9 @@ ms.locfileid: "67176071"
 
 Teams 管理センターを使用して、作成したグローバル ポリシーやカスタム ポリシーなどのポリシーを編集できます。
 
-1. Microsoft Teams 管理センターの左側のウィンドウで、**[Teams アプリ]** > **[アクセス許可ポリシー]** の順に移動します。
+1. Teams 管理センターにサインインし、 **Teams アプリ** > **[のアクセス許可ポリシー](https://admin.teams.microsoft.com/policies/app-permission)** にアクセスします。
 1. ポリシー名の左側をクリックしてポリシーを選び、**[編集]** を選択します。
-1. ここで、希望する変更を行います。アプリの発行元に基づいて設定を管理し、許可/ブロック設定に基づいてアプリの追加や削除を行うことができます。
+1. ここで、希望する変更を行います。 アプリ開発者に基づいて設定を管理し、許可/ブロック設定に基づいてアプリを追加および削除できます。
 1. **[保存]** を選択します。
 
 ## <a name="assign-a-custom-app-permission-policy-to-users"></a>カスタム アプリのアクセス許可ポリシーをユーザーに割り当てる
@@ -93,14 +91,14 @@ Microsoft 365 Government の場合 - Teams の GCCH および DoD 展開では�
 
 :::image type="content" source="media/app-permission-policies-gcc.png" alt-text="GCCH および DoD 内のアプリのアクセス許可ポリシーのスクリーンショット。":::
 
-組織全体のアプリ設定を使用して、ユーザーがサード パーティのアプリをインストールできるかどうかを制御します。 組織全体のアプリ設定は、すべてのユーザーの動作を管理し、ユーザーに割り当てられた他のアプリ権限ポリシーを上書きします。 それらを使用して、悪意のあるアプリや問題のあるアプリを制御できます。
+組織全体のアプリ設定を使用して、ユーザーがサード パーティのアプリをインストールできるかどうかを制御します。 組織全体のアプリ設定は、すべてのユーザーの動作を管理し、ユーザーに割り当てられた他のアプリ権限ポリシーを上書きします。
 
 <!---
 1. On the **Permission policies** page, select **Org-wide app settings**. You can then configure the settings you want in the panel. --->
 
 ### <a name="for-gcc-clouds"></a>GCC クラウドの場合
 
-1. **[アプリの管理]** ページで、**[組織全体のアプリ設定]** を選択します。 次に、パネルで必要な設定を構成できます。
+1. **[Teams Apps アプリ****[の管理](https://admin.teams.microsoft.com/policies/manage-apps)**]  >  ページ **で、[組織全体のアプリ設定**] を選択します。 次に、パネルで必要な設定を構成できます。
 
    ![組織全体のアプリ設定のスクリーンショット。](media/app-permission-policies-gcc-org-wide.png)
 
@@ -117,11 +115,12 @@ Microsoft 365 Government の場合 - Teams の GCCH および DoD 展開では�
 
 ### <a name="for-gcch-and-dod-clouds"></a>GCCH および DoD クラウドの場合
 
-1. **[権限ポリシー]** ページで、**[組織全体のアプリ設定]** を選択します。 次に、パネルで必要な設定を構成できます。
+1. Teams 管理センターにサインインし、**Teams Apps****[アクセス許可ポリシー](https://admin.teams.microsoft.com/policies/app-permission)** に > アクセスします。
 
-   ![GCCH および DoD で組織全体のアプリ設定のスクリーンショット。スクリーンショット。](media/app-permission-policies-gcch-dod-org-wide.png)
+1. **組織全体のアプリ設定を選択します**。 **[ブロック済みのアプリ]** で、組織全体でブロックするアプリを追加します。 Microsoft 365 Government の場合 - Teams の GCCH および DoD 展開では、すべてのサードパーティ アプリが既定でこのリストに追加されます。 組織全体でアプリをブロックすると、アプリのアクセス許可ポリシーで許可されているかどうかに関係なく、アプリはすべてのユーザーに対して自動的にブロックされます。
 
-1. **[ブロック済みのアプリ]** で、組織全体でブロックするアプリを追加します。 Microsoft 365 Government の場合 - Teams の GCCH および DoD 展開では、すべてのサードパーティ アプリが既定でこのリストに追加されます。 組織全体でアプリをブロックすると、アプリのアクセス許可ポリシーで許可されているかどうかに関係なく、アプリはすべてのユーザーに対して自動的にブロックされます。
+   :::image type="content" source="media/app-permission-policies-gcch-dod-org-wide.png" alt-text="GCCH および DoD で組織全体のアプリ設定のスクリーンショット。スクリーンショット。":::
+
 1. 組織全体のアプリ設定を有効にするには、**[保存]** を選択します。
 
 ## <a name="faq"></a>よくあるご質問 (FAQ)
@@ -131,10 +130,6 @@ Microsoft 365 Government の場合 - Teams の GCCH および DoD 展開では�
 #### <a name="what-app-interactions-do-permission-policies-affect"></a>アクセス許可ポリシーはどのアプリの相互作用に影響しますか?
 
 アクセス許可ポリシーは、エンド ユーザーのインストール、検出、操作を制御することでアプリの使用を管理します。 管理者は、割り当てられたアクセス許可ポリシーに関係なく、Microsoft Teams 管理センターでアプリを管理できます。
-
-#### <a name="can-i-control-line-of-business-lob-apps"></a>基幹業務 (LOB) アプリを制御できますか?
-
-はい。アプリのアクセス許可ポリシーを使用して、カスタム (LOB) アプリのロールアウトと配布を制御できます。 カスタム ポリシーを作成するか、グローバル ポリシーを編集して、組織のニーズに基づいてカスタム アプリを許可またはブロックできます。
 
 #### <a name="how-do-app-permission-policies-relate-to-pinned-apps-and-app-setup-policies"></a>アプリのアクセス許可ポリシーは、固定されたアプリおよびアプリの設定ポリシーにどのように関連していますか?
 

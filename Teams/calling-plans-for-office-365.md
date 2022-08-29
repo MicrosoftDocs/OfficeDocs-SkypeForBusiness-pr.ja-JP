@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 のプランを呼び出す
+title: Microsoft Teams のプランを呼び出す
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -27,14 +27,14 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Skype for Business の通話プラン (PSTN 通話プラン) のオプションと、組織のライセンスを取得する方法を確認します。
-ms.openlocfilehash: 624b155bb6a114a1b1dbe71220379e4c3d9d7ede
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: eb10b681b867461122fe6b5e89f6f0a519d60ae7
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269222"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396848"
 ---
-# <a name="calling-plans-for-microsoft-365"></a>Microsoft 365 のプランを呼び出す
+# <a name="calling-plans-for-microsoft-teams"></a>Microsoft Teams のプランを呼び出す
 
 その他の Skype for Business ユーザーと Microsoft Teams ユーザーへの通話は無料ですが、ユーザーが通常の通話をできるようにする必要があり、音声通話を行うためのサービス プロバイダーがまだ設定されていない場合は、通話プランを購入する必要があります。 詳細については、[電話システムと通話プラン](calling-plan-landing-page.md)に関する記事をご覧ください。
   
@@ -44,7 +44,11 @@ ms.locfileid: "67269222"
 
 - **国際通話プラン**: ライセンスを持つユーザーは、ユーザーの場所に基づいて Microsoft 365 ライセンスがユーザーに割り当てられている国/地域にある番号と、 [196 の国/地域](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)の国際番号に発信できます。 無制限の受信分が含まれています。 送信分は、購入したライセンスに基づいて含まれます。
 
-- **従量課金制通話プラン**: ライセンスを持つユーザーは、ユーザーの場所に基づいて Microsoft 365 ライセンスがユーザーに割り当てられている国/地域の番号と、 [196 の国/地域](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)の国際番号に発信できます。 無制限の受信分が含まれています。 送信分は含まれません。 すべての発信通話は、通信クレジットまたは支払後の請求で使用した分数に基づいて課金されます。
+- **従量課金制通話プラン**: ライセンスを持つユーザーは、ユーザーの場所に基づいて Microsoft 365 ライセンスがユーザーに割り当てられている国/地域の番号と、 [196 の国/地域](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)の国際番号に発信できます。 無制限の受信分が含まれています。 送信分は含まれません。 すべての発信通話は、通信クレジットまたは支払後の請求で使用した分数に基づいて課金されます。 ライセンスは、その場所に基づいてユーザーに割り当てられます。 次の 2 つのオプションから選択できます。
+  - **従量課金制通話プラン ゾーン 1**: プエルトリコ、カナダ、英国など、米国のユーザー向けにこれを購入します。
+    - ゾーン 1 ライセンスは現在、米国とプエルトリコでは販売できませんが、他の国で購入した場合は、米国およびプエルトリコのユーザーにプロビジョニングできます。
+  - **従量課金制通話プラン ゾーン 2**: オーストリア、ベルギー、クロアチア、チェコ共和国、デンマーク、エストニア、フィンランド、フランス、ドイツ、ハンガリー、アイルランド、イタリア、ラトビア、リトアニア、ルクセンブルク、オランダ、ニュージーランド、ノルウェー、ポーランド、ポルトガル、ルーマニア、シンガポール、スロバキア、スロベニア、南アフリカ、スペイン、スウェーデン、スイスのユーザー向けにこれを購入します。
+    - ゾーン 2 ライセンスは現在、米国とプエルトリコでは販売できません。
 
 同じ通話プランを持つ同じ国/地域のすべてのユーザー (これは、Microsoft 365 管理センターのライセンス領域で定義されているユーザーの国の場所です) は、分のプールを共有します。 たとえば、100 人のユーザーが同じ国/地域に存在し、120 分の国内通話プランが割り当てられている場合、そのユーザーは 12,000 分のプールを共有します。 これらの分を超えるすべての通話は、1 分あたり課金されます。
 
