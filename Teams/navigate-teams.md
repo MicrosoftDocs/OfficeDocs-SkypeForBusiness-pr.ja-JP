@@ -14,16 +14,19 @@ search.appverid: ''
 ms.collection:
 - M365-collaboration
 ms.custom: ''
-ms.openlocfilehash: 65fdd80fe8eb9073c53267da3ea390ab570cfc96
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: c3b83f33db2c4c91a5f2e8ad00706e225f4b01d5
+ms.sourcegitcommit: d7a86b3a72005764c18acb60eedf5163523ffae3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270322"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "67457127"
 ---
 # <a name="navigate-microsoft-teams"></a>Microsoft Teams 間を移動する
 
 組織固有のパスとニーズを明確に理解できたので、Microsoft Teams との強力なコラボレーションを始めましょう。 次のセクションを使用して、Teams 内で補完される Kaizala の機能を移動する方法について説明します。
+
+> [!Important]
+> Microsoft Kaizala は 2023 年 8 月 31 日に廃止されます。 接続、共有、コラボレーションを継続するには、Microsoft Teams に移動することをお勧めします。 廃止日を経過すると、Kaizala へのアクセスとサポートは中止されます。
 
 | Kaizala から | Teams へ |
 |---------|-----------------------|

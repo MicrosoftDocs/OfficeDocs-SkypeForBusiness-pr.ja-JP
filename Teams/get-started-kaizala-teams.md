@@ -14,17 +14,17 @@ search.appverid: ''
 ms.collection:
 - M365-collaboration
 ms.custom: ''
-ms.openlocfilehash: fd039c732d1a7e55a3cfb8aa59a3f78cf5f2cfe9
-ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
+ms.openlocfilehash: 90d2135a03e8881c41cdc4d280cef9f144bdbd16
+ms.sourcegitcommit: d7a86b3a72005764c18acb60eedf5163523ffae3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "67443484"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "67457247"
 ---
 # <a name="kaizala-and-microsoft-teams"></a>Kaizala と Microsoft Teams 
 
->[!Important]
-> Microsoft Kaizala は 2023 年 8 月 31 日に廃止されます。 接続、共有、コラボレーションを継続するために Microsoft Teams にアップグレードすることをお勧めします。 廃止日を経過すると、Kaizala へのアクセスとサポートは中止されます。
+> [!Important]
+> Microsoft Kaizala は 2023 年 8 月 31 日に廃止されます。 接続、共有、コラボレーションを継続するには、Microsoft Teams に移動することをお勧めします。 廃止日を経過すると、Kaizala へのアクセスとサポートは中止されます。
 
 2019 年 4 月に、Kaizala と Microsoft Teams を統合する計画を [発表しました](https://techcommunity.microsoft.com/t5/microsoft-kaizala-blog/update-on-kaizala-features-coming-to-microsoft-teams/ba-p/974525) 。 Kaizala の機能は、Microsoft 365 のチームワークのハブである Teams の堅牢なコミュニケーションとコラボレーション機能を補完します。
 

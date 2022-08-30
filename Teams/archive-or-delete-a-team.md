@@ -19,16 +19,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dddb7bdb2285eb6a6502adbf6172aa6a3fe76c3d
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
-ms.translationtype: HT
+ms.openlocfilehash: 81c8dfed94153ec7afec95da9e71e1bfe58be28c
+ms.sourcegitcommit: d7a86b3a72005764c18acb60eedf5163523ffae3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562416"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "67457147"
 ---
 # <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Microsoft Teams でチームをアーカイブまたは削除する
 
-時間の経過と共に、Microsoft Teams で作成したチームを使用しなくなることがあります。あるいは、プロジェクトの終了時にチームをアーカイブまたは削除したい場合もあります。 Microsoft Teams の管理者は、この記事に示す手順に従って、不要になったチームをアーカイブまたは削除できます。
+時間の経過と共に、Microsoft Teams で作成したチームを使用しなくなることがあります。あるいは、プロジェクトの終了時にチームをアーカイブまたは削除したい場合もあります。 Microsoft Teams の管理者は、この記事に示す手順に従って、不要になったチームをアーカイブまたは削除できます。 (チーム所有者の場合は、 [チームをアーカイブ](https://support.microsoft.com/office/dc161cfd-b328-440f-974b-5da5bd98b5a7)することもできます)。
 
 チームをアーカイブすると、そのチームのすべてのアクティビティが停止します。 チームをアーカイブすると、そのチーム内のプライベート チャネルと、関連付けられたサイト コレクションもアーカイブされます。  ただし、メンバーを追加または削除したり、ロールを更新したりすることはできます。また、標準およびプライベートのチャネル、ファイル、チャットでの、そのチームのすべてのアクティビティを表示することも可能です。
 

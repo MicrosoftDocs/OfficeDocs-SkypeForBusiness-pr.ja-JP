@@ -14,12 +14,12 @@ description: 組織内のユーザーと管理者の Teams アプリ アクテ�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 5eb1ffe4a637c61efc8e64e970f25474933914a7
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 33e308dec79163b2b3ccbc82870352555d0aa80f
+ms.sourcegitcommit: d7a86b3a72005764c18acb60eedf5163523ffae3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299256"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "67457277"
 ---
 # <a name="audit-for-app-management-activities-and-events"></a>アプリ管理アクティビティとイベントの監査
 
@@ -68,6 +68,9 @@ Teams のアプリ イベントの監査ログは、特定のアクションを�
 
 > [!NOTE]
 > 上記のアクティビティのいずれかがユーザーまたは管理者によって実行されると、Teams は監査レコードを生成して格納します。 監査 (標準) では、記録は 90 日間保持されるため、過去 3 か月以内に発生したアクティビティを検索することができます。
+
+> [!TIP]
+> 管理者として、ユーザーがボットをブロックまたはミュートしたかどうかを知るためにユーザーごとのレポートを作成する場合は、「ボットを [ブロック、ミュート、またはアンインストールしたユーザーを把握](/microsoftteams/platform/bots/how-to/conversations/send-proactive-messages?#understand-who-blocked-muted-or-uninstalled-a-bot)する」を参照してください。
 
 ## <a name="related-articles"></a>関連記事
 
