@@ -20,16 +20,18 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: サービス番号またはユーザー番号として使用する電話番号の使用状況を変更する方法について説明します。
-ms.openlocfilehash: f2db1b3bd0b0e437d02bf1fbfe9a92690877b2eb
-ms.sourcegitcommit: dcf4664ea8ceb6ed40d0a406e7f4467e14d6817b
+ms.openlocfilehash: e07255420cf9b480aa28e25a635b799eed94bd0f
+ms.sourcegitcommit: d0cbc23e10219dd2889011421010215a5d246031
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "67432121"
+ms.lasthandoff: 08/30/2022
+ms.locfileid: "67460697"
 ---
 # <a name="manage-the-usage-of-a-phone-number"></a>電話番号の使用状況を管理する
 
 組織で電話番号を取得または移植した後、電話番号の使用状況を変更することが必要になる場合があります。 電話番号の使用状況は、サービスまたはユーザー番号を問わず、Teams 管理センターを使用して変更できます。
+
+## <a name="how-to-manage-the-usage-of-a-phone-number"></a>電話番号の使用状況を管理する方法
 
 Teams 管理センターを使用して電話番号の使用状況を変更するには、
 
