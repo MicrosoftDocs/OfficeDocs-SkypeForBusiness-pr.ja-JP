@@ -23,7 +23,7 @@ ms.custom:
 - intro-get-started
 ms.openlocfilehash: 54fcf3942d13fa0b759e796e5486808a5f5a40bb
 ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/13/2022
 ms.locfileid: "66045846"

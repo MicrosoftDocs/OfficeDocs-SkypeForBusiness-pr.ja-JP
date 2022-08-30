@@ -21,7 +21,7 @@ ms.custom:
 - seo-marvel-mar2020
 ms.openlocfilehash: 66cc7a7db5098154a99073acd0bb1952727a3760
 ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/13/2022
 ms.locfileid: "66045456"

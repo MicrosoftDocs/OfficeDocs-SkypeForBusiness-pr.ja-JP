@@ -24,7 +24,7 @@ appliesto:
 description: Office 365 の管理者として Microsoft Teams のゲスト アクセス機能を有効または無効にする方法について説明します。
 ms.openlocfilehash: 935fac44863ef2c3da4a9fc4f07fcd7e34265024
 ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/12/2022
 ms.locfileid: "65370810"

@@ -19,7 +19,7 @@ appliesto:
 ms.custom: ''
 ms.openlocfilehash: dd3ee2b46af430be271e5c257132f9b6cc8087eb
 ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 07/26/2022
 ms.locfileid: "67023758"

@@ -23,7 +23,7 @@ ms.custom:
 description: 管理者は、Microsoft Teams 会議の入退室通知をオンまたはオフにする方法について学習できます。
 ms.openlocfilehash: a9dcaaabcaa31160e162ba2a2685a02d9e2397da
 ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 01/15/2022
 ms.locfileid: "62056017"

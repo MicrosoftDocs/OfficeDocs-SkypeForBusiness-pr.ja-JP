@@ -19,7 +19,7 @@ f1.keywords:
 description: Slack から Microsoft Teams への移行に関する詳細なガイダンス。
 ms.openlocfilehash: fbcd47f894445595534bf6a88d21f7372268d983
 ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 08/07/2022
 ms.locfileid: "67268752"
