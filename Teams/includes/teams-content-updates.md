@@ -3,6 +3,36 @@
 
 
 
+## <a name="week-of-august-22-2022"></a>2022 年 8 月 22 日の週
+
+
+| 公開日 |トピックのタイトル | 変更 |
+|------|------------|--------|
+| 8/22/2022 | [組織のシフト アプリを管理する](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 更新日時 |
+| 8/22/2022 | [Microsoft Teams でタグを管理する](/MicrosoftTeams/manage-tags) | 更新日時 |
+| 8/22/2022 | [会議室と共有 Teams デバイスのリソース アカウントを作成する](/MicrosoftTeams/rooms/with-office-365) | 更新日時 |
+| 8/23/2022 | [ゲスト アクセスと外部アクセスを使用して、組織外の人々とコラボレーションする](/MicrosoftTeams/communicate-with-users-from-other-organizations) | 更新日時 |
+| 8/23/2022 | [コンテンツ共有の会議ポリシーを管理する](/MicrosoftTeams/meeting-policies-content-sharing) | 更新日時 |
+| 8/23/2022 | [Teams: 会議ポリシーを管理する](/MicrosoftTeams/meeting-policies-in-teams) | 更新日時 |
+| 8/24/2022 | [クイック スタート - Microsoft Teams for Educationを設定する](/MicrosoftTeams/teams-quick-start-guide-edu) | 追加済 |
+| 8/24/2022 | クイック スタート - 教育用 Microsoft Teams 管理者 | 削除されました |
+| 8/24/2022 | [Teams の低帯域幅シナリオのトラブルシューティング](/MicrosoftTeams/edu-remote-low-bandwidth) | 更新日時 |
+| 8/24/2022 | [教育機関向けの Teams ](/MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page) | 更新日時 |
+| 8/24/2022 | [IT 管理者向けの Microsoft Education FAQ](/MicrosoftTeams/plan-teams-governance-edu) | 更新日時 |
+| 8/24/2022 | [Microsoft Teams のポリシーとポリシー パッケージを教育用に管理する](/MicrosoftTeams/policy-packages-edu) | 更新日時 |
+| 8/24/2022 | [遠隔学習向けに Microsoft Teams の使用を開始する。](/MicrosoftTeams/remote-learning-edu) | 更新日時 |
+| 8/24/2022 | [Teams 導入リソースを共有する](/MicrosoftTeams/resources-teams-edu) | 更新日時 |
+| 8/24/2022 | [教育機関向けの Microsoft Teams ライセンスの割り当て](/MicrosoftTeams/teams-edu-licensing) | 更新日時 |
+| 8/24/2022 | [電話番号の使用状況を管理する](/MicrosoftTeams/manage-the-usage-of-a-phone-number) | 追加済 |
+| 8/25/2022 | [管理トレーニング リソース - Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | 更新日時 |
+| 8/26/2022 | [自動応答&通話キュー履歴レポート](/MicrosoftTeams/aa-cq-cqd-historical-reports) | 更新日時 |
+| 8/26/2022 | [Microsoft Teams の自動応答を設定する](/MicrosoftTeams/create-a-phone-system-auto-attendant-smb) | 更新日時 |
+| 8/26/2022 | [Microsoft Teams の自動応答を設定する](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 更新日時 |
+| 8/26/2022 | [Microsoft Teams で通話キューを作成する](/MicrosoftTeams/create-a-phone-system-call-queue-smb) | 更新日時 |
+| 8/26/2022 | [Microsoft Teams で通話キューを作成する](/MicrosoftTeams/create-a-phone-system-call-queue) | 更新日時 |
+| 8/26/2022 | [Teams の自動応答と通話キューを計画する](/MicrosoftTeams/plan-auto-attendant-call-queue) | 更新日時 |
+
+
 ## <a name="week-of-august-15-2022"></a>2022 年 8 月 15 日の週
 
 
@@ -194,25 +224,3 @@
 | 7/26/2022 | [パートナー向けのマルチテナント顧客管理](/MicrosoftTeams/rooms/multi-tenant-management-partner) | 更新日時 |
 | 7/26/2022 | [Teams アドオン ライセンスをユーザーに割り当てる](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) | 更新日時 |
 | 7/29/2022 | [組織の電話番号を管理する](/MicrosoftTeams/manage-phone-numbers-landing-page) | 更新日時 |
-
-
-## <a name="week-of-july-18-2022"></a>2022 年 7 月 18 日の週
-
-
-| 公開日 |トピックのタイトル | 変更 |
-|------|------------|--------|
-| 7/18/2022 | [Microsoft Teams のアプリについて知っておくべきこと](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 更新日時 |
-| 7/18/2022 | [Microsoft Teams のアプリのセットアップ ポリシーを管理する](/MicrosoftTeams/teams-app-setup-policies) | 更新日時 |
-| 7/18/2022 | 現場担当者のために大規模に Microsoft Teams をプロビジョニングする | 削除されました |
-| 7/19/2022 | [Microsoft 365 とカスタム コネクタを管理する](/MicrosoftTeams/office-365-custom-connectors) | 更新日時 |
-| 7/19/2022 | [Microsoft Teams のアプリについて知っておくべきこと](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 更新日時 |
-| 7/19/2022 | [Microsoft Teams 管理センターで Microsoft Power Platform アプリを管理する](/MicrosoftTeams/manage-power-platform-apps) | 更新日時 |
-| 7/19/2022 | [Teams 会議で Q&A を管理する](/MicrosoftTeams/manage-qna-for-teams) | 更新日時 |
-| 7/19/2022 | [Microsoft によるアプリ認定の概要](/MicrosoftTeams/overview-of-app-certification) | 更新日時 |
-| 7/19/2022 | [Teams 用のサードパーティ製アプリを購入する](/MicrosoftTeams/purchase-third-party-apps) | 更新日時 |
-| 7/20/2022 | [オペレーター接続を構成する](/MicrosoftTeams/operator-connect-configure) | 更新日時 |
-| 7/21/2022 | [Microsoft Teams の Education Insights への IT 管理者ガイド](/MicrosoftTeams/class-insights) | 更新日時 |
-| 7/21/2022 | [Microsoft Teams でのアプリの更新エクスペリエンス](/MicrosoftTeams/apps-update-experience) | 更新日時 |
-| 7/21/2022 | [Microsoft Teams 管理センターで、Teams アプリの組織向けアプリを管理します。](/MicrosoftTeams/manage-apps) | 更新日時 |
-| 7/21/2022 | [Teams アプリ申請 API を使用してカスタム アプリを送信および承認する](/MicrosoftTeams/submit-approve-custom-apps) | 更新日時 |
-| 7/21/2022 | [Microsoft Teams 管理センターでカスタム アプリをアップロードする](/MicrosoftTeams/upload-custom-apps) | 更新日時 |
