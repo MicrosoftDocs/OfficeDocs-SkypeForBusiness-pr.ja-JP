@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Microsoft Teams によって生成されるデバッグ、メディア、デスクトップのログについて説明します。ここでは、ログを見つけることができます。また、それらのログが監視とトラブルシューティングにどのように役立つかについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7883fe7f3d8f9938e66151bb784fa5fc45a91c74
-ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
+ms.openlocfilehash: ae6e6eb0c84eae8293f141940842506fa3f54142
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67005367"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67466035"
 ---
 # <a name="configure-log-files-for-monitoring-and-troubleshooting-in-teams"></a>Teams で監視とトラブルシューティングを行うためのログ ファイルの構成
 
@@ -118,7 +118,7 @@ PowerShell コマンドレットおよび詳細については、 [Grant-CsTeams
 
 ### <a name="end-user-configuration"></a>エンド ユーザーの構成
 
-エンド ユーザーが Teams 会議の診断データをログに記録するには、Teams クライアントでオプションを有効にする必要があります。 **[設定全般]** >  に移動し、[**会議の診断のログ記録を有効にする** ( Teams の再起動が必要)] チェック ボックスをオンにし、Teams を再起動して問題を再現します。 ログを開始するには、Teams クライアントを再起動する必要があります。 ユーザーは、ドック (Mac) またはタスク バー (Windows) のアイコンを右クリックし、[終了] を選択して再起動できます。 終了すると、アプリ アイコンをクリックして Teams を再度開くことができます。
+エンド ユーザーが Teams 会議の診断データをログに記録するには、Teams クライアントでオプションを有効にする必要があります。 **[全般設定]** >  に移動 **し、[****メディア ログを有効にする] (オーディオ、ビデオ、画面共有の診断データ) を選択します。[Teams の再起動が必要]** (Teams の再起動が必要) チェック ボックスをオンにし、Teams を再起動し、問題を再現します。 ログを開始するには、Teams クライアントを再起動する必要があります。 ユーザーは、ドック (Mac) またはタスク バー (Windows) のアイコンを右クリックし、[終了] を選択して再起動できます。 終了すると、アプリ アイコンをクリックして Teams を再度開くことができます。
 
 > [!NOTE]
 > ユーザーが Teams からサインアウトすると、メディア ログは既定にリセットされます。

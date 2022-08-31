@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams の共有チャネルを使用および管理する方法について説明します。
-ms.openlocfilehash: 767773d8c7f91bb290332fbd0976fb638edb2b8b
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: f3ff6cac1c3d48ca3b45a253052eef71eb3f222e
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397228"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67466225"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams の共有チャネル
 
@@ -69,7 +69,7 @@ Teamsでは、共有チャンネルがデフォルトで有効になっていま
 
 共有チャネルの所有者は、1 つ以上の共有チャネルの最後の所有者である場合、Teams クライアントから削除できません。
 
-共有チャネルの最後の所有者が組織を離れた場合、またはチームに関連付けられた Microsoft 365 グループから削除された場合、共有チャネルのメンバーの 1 人が自動的に共有チャネルの所有者に昇格します。このような状況を回避するために、複数のオーナーを追加することを検討してください。
+最後の共有チャネル所有者が組織を離れた場合、またはチームに関連付けられている Microsoft 365 グループから削除された場合、組織の共有チャネルのメンバーが共有チャネル所有者として自動的に昇格されます。 組織から昇格するメンバーがいない場合、共有チャネルは所有者がいなくなります。 Teams 管理者は、チャネル所有者を手動で割り当てる必要があります。 この状況を回避するために、複数の所有者を追加することを検討してください。
 
 > [!NOTE]
 > 外部参加者が Azure Active Directory で一致しない場合は、電子メール アドレスではなく UPN を使用して追加する必要があります。

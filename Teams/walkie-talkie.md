@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 815d3c6b1e97ea75eaa7ae4e35d3e41dd3c6e9e4
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: e309fa03e73dc13bff8bd1a90708c688bb0f5350
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396448"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67465995"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams のトランシーバー アプリ
 
@@ -48,7 +48,7 @@ Walkie Talkie は、組織内のすべての Teams ユーザーに対して既�
 
 ### <a name="enable-or-disable-walkie-talkie-for-specific-users-in-your-organization"></a>組織内の特定のユーザーに対して Walkie Talkie を有効または無効にする
 
-組織内の特定のユーザーが Walkie Talkie を使用できないようにするには、[ [アプリの管理](manage-apps.md) ] ページで組織の Walkie Talkie が有効になっていることを確認します。 次に、カスタム アプリのアクセス許可ポリシーを作成し、それらのユーザーに割り当てます。 詳細については、「[Teams のアプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md)」を参照してください。
+組織内の特定のユーザーが Walkie Talkie を使用できないようにするには、[ [アプリの管理](manage-apps.md) ] ページで組織の Walkie Talkie が有効になっていることを確認します。 次に、カスタム アプリのアクセス許可ポリシーを作成し、それをアプリセットアップ ポリシーに追加して、それらのユーザーに割り当てます。 詳細については、「 [Teams でアプリのアクセス許可ポリシーを管理](teams-app-permission-policies.md) する」と [「Microsoft Teams でのアプリセットアップ ポリシーの管理」を参照してください](teams-app-setup-policies.md)。
 
 ### <a name="pin-walkie-talkie-to-teams"></a>Walkie Talkie を Teams にピン留めする
 

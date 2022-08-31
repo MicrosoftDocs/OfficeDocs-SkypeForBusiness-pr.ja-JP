@@ -19,12 +19,12 @@ description: Teams にクラウド音声機能を展開して、音声、ビデ�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7a1f8aa97f43e70e2ec17e64cfa2a618b7a61af7
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: f1ec379a7f8d30738fc71b66d840752137ce72bf
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175711"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67466015"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議のレコーディング
 
@@ -39,7 +39,7 @@ Microsoft Teams では、ユーザーは Teams 会議やグループ通話を記
 - Microsoft 365 のさまざまなファイル リストに追加されました: 共有アイテム、office.com、おすすめ、最近使用したファイルなどです。
 - Microsoft 365 検索用にインデックスが作成されました
 
-関連: [Teams 会議レコーディングのエンド ユーザー向けドキュメント](https://support.microsoft.com/en-us/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24)
+関連: [Teams 会議レコーディングのエンド ユーザー向けドキュメント](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24)
 
 >[!Note]
 > 会議のレコーディングについて、Microsoft Stream (クラシック) から OneDrive および SharePoint へ移行することは、2021 年 8 月に自動的に発生します。 詳細については、「[OneDrive と SharePoint または Stream を使用して会議のレコーディングを行う](tmr-meeting-recording-change.md)」を参照してください。
@@ -79,7 +79,7 @@ Teams ユーザーの会議をレコーディングするには、テナント�
 
 Microsoft Teams 管理センターまたは PowerShell を使用して、Teams の会議ポリシーを設定すると、ユーザーの会議を記録できるかどうかを制御できます。
 
-Microsoft Teams 管理センターを使用する場合は、会議ポリシーの **[Cloud recording](クラウド レコーディング)** 設定をオンまたはオフにします。 詳細については、「[オーディオおよびビデオについての会議ポリシーの設定](meetings-policies-recording-and-transcription.md#allow-cloud-recording)」を参照してください。
+Microsoft Teams 管理センターを使用する場合は、会議ポリシーの **[Cloud recording](クラウド レコーディング)** 設定をオンまたはオフにします。 詳細については、「[オーディオおよびビデオについての会議ポリシーの設定](meetings-policies-recording-and-transcription.md#cloud-recording)」を参照してください。
 
 PowerShell を使用する場合は、TeamsMeetingPolicy で AllowCloudRecording 設定を構成します。 詳細については、「[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy)」および「[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)」を参照してください。
 
@@ -107,8 +107,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true
 | レコーディングを 100% 無効化する。 | <ol><li>Global CsTeamsMeetingPolicy が AllowCloudRecording = False に設定されていることを確認する。<li>すべてのユーザーについて、Global CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが AllowCloudRecording = False に設定され、承認されている。 |
 | ユーザーの大半に対してはレコーディングを不可とし、特定のユーザーについてレコーディングすることを選択的に許可したい。 | <ol><li>Global CsTeamsMeetingPolicy が AllowCloudRecording = False に設定されていることを確認する。<li>ほとんどのユーザーに、Global CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが AllowCloudRecording = False として設定され、承認されている。<li>その他のすべてのユーザーには、 CsTeamsMeetingPolicy ポリシーの 1 つが AllowCloudRecording = True に設定され、承認されている。 <ol> |
 
-
 <a name="bd-channel"></a>
+
 ### <a name="block-or-allow-download-of-channel-meeting-recordings"></a>チャネル会議のレコーディングのダウンロードを禁止または許可する
 
 この設定は、チャネル会議をチャネルにある "Recordings" フォルダーに保存するか、それとも "Recordings\View only" フォルダーに保存するかどうか制御します。 この設定は、チャネル会議の記録を選択したユーザーのポリシーに適用されます。
@@ -143,17 +143,17 @@ Set-CsTeamsMeetingPolicy -Identity Global -ChannelRecordingDownload Block
 >```
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>記録の文字起こしを有効または無効にする
+
 この設定は、会議の記録の再生中にキャプションと文字起こし機能を使用できるかどうかを制御します。 記録を開始したユーザーは、これらの機能で記録を操作できるようにするため、この設定を有効にする必要があります。
   
 この設定をオンにすると、会議記録に保存されているトランスクリプトのコピーが作成されます。これにより、会議記録で **検索**、**CC**、および **トランスクリプト** を実行できるようになります。
-
 
 > [!NOTE]
 > 記録された会議の文字起こしは、現在、英語 (米国)、英語 (カナダ)、英語 (インド)、英語 (英国)、英語 (オーストラリア)、英語 (ニュージーランド)、アラビア語 (アラブ首長国連邦) 、アラビア語 (サウジアラビア)、中国語 (簡体字、中国)、中国語 (繁体字、香港特別行政区)、中国語 (繁体字、台湾)、チェコ語 (チェコ)、デンマーク (デンマーク)、オランダ語 (ベルギー)、オランダ語 (オランダ)、フランス語 (カナダ)、フランス語 (フランス)、フィンランド語 (フィンランド)、ドイツ語 (ドイツ)、ギリシャ語 (ギリシャ)、ヘブライ語 (イスラエル)、ヒンディー語 (インド)、ハンガリー語 (ハンガリー)、イタリア語 (イタリア)、日本語 (日本)、韓国語 (韓国)、ノルウェー語 (ノルウェー)、ポーランド語 (ポーランド)、ポルトガル語 (ブラジル)、ポルトガル語 (ポルトガル)、ルーマニア語 (ルーマニア)、ロシア語 (ロシア)、スロバキア語 (スロバキア)、スペイン語 (メキシコ)、スペイン語 (スペイン)、スウェーデン語 (スウェーデン)、タイ語 (タイ)、トルコ語 (トルコ)、ウクライナ語 (ウクライナ)、ベトナム語 (ベトナム) でのみサポートされています。 これらは、OneDrive および SharePoint クラウド ストレージに会議のレコーディングと共に保存されます。
 
 Microsoft Teams 管理センターまたは PowerShell を使用して、Teams の会議ポリシーを設定すると、レコーディングを開始するユーザーが会議のレコーディングを文字起こしする機能を選択できるかどうかを制御できます。
 
-Microsoft Teams 管理センターを使用する場合は、会議ポリシーの **[Allow transcription](議事録作成を許可する)** 設定をオンまたはオフにします。 詳細については、「[オーディオおよびビデオについての会議ポリシーの設定](meetings-policies-recording-and-transcription.md#allow-transcription)」を参照してください。
+Microsoft Teams 管理センターを使用する場合は、会議ポリシーの **[Allow transcription](議事録作成を許可する)** 設定をオンまたはオフにします。 詳細については、「[オーディオおよびビデオについての会議ポリシーの設定](meetings-policies-recording-and-transcription.md#transcription)」を参照してください。
 
 PowerShell を使用する場合は、TeamsMeetingPolicy で AllowTranscription 設定を構成します。 詳細については、「[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy)」および「[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)」を参照してください。
 
@@ -171,9 +171,6 @@ Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose
 Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 ```
 
-</br>
-</br>
-
 |シナリオ|手順 |
 |---|---|
 |会議のレコーディングを始めるにあたって、社内のすべてのユーザーが文字起こしをできるようにしたい。 |<ol><li>Global CsTeamsMeetingPolicy が AllowTranscription = True に設定されていることを確認する。 <li>すべてのユーザーについて、Global CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが AllowTranscription = True に設定されていることを確認する。 </ol>|
@@ -182,6 +179,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 |ユーザーの大半について、文字起こしを無効にし、一方で文字起こしを許可されている特定のユーザーについては選択的に可能とする。 |<ol><li>Global CsTeamsMeetingPolicy が AllowCloudRecording = False に設定されていることを確認する。 <li>大半のユーザーについて、Global CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが AllowCloudRecording = False として設定され、承認されている。 <li>その他のすべてのユーザーには、 CsTeamsMeetingPolicy ポリシーの 1 つが AllowCloudRecording = True に設定され、承認されている。 </ol>|
 
 ### <a name="terms-of-use-acceptance"></a>利用規約への同意
+
 組織に会議録画ポリシーがあり、会議の録画前にユーザーの同意が必要な場合は、[Azure Active Directory の利用規約](/azure/active-directory/conditional-access/terms-of-use)機能を使用します。 この機能により、ユーザーは Microsoft Teams にアクセスする前に、組織のユーザー ポリシーの条件に同意する必要があります。 この機能は、記録ボタンをクリックすることに特化したものではなく、Teams や他の Microsoft 365 アプリを総合的に使用することに関連するものです。 Microsoft は、Teams や Microsoft 365 を使用する場合の全体的な利用規約に、会議記録に関する情報を追加することを提案します。
 
 ### <a name="set-a-custom-privacy-policy-url"></a>カスタム プライバシー ポリシーの URL を設定する
@@ -208,7 +206,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 - レコーディングは、その開始ボタンをクリックしたユーザーの OneDrive の「**Recordings**」という名前のフォルダーに格納されます。 
 
-  例: <i>レコーディングしたユーザーの OneDrive</i>/**Recordings**
+  例: *レコーダーの OneDrive*/**レコーディング**
 
 - 外部の参加者を除き、会議に招集された人々は、レコーディング ファイルに対して、ダウンロード権限が与えられておらず、かつ閲覧のみのアクセスが自動的に許可され、承認されます。
 
@@ -220,7 +218,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 - レコーディングは、Teams サイトのドキュメント ライブラリの **Recordings** という名前のフォルダーに格納されます。
 
-  例: <i>Teams 名 - チャネル名</i>/**Documents**/**Recordings**
+  例: *Teams 名 - チャネル名*/**Documents**/**Recordings**
 
 - [録画] をクリックしたメンバーには、レコーディングの編集権限があります。
 
@@ -230,7 +228,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 - レコーディングは、Teams サイトのドキュメント ライブラリにある **Recordings/View only** という名前のフォルダーに格納されます。 
 
-  例: <i>Teams 名 - チャネル名</i>/**Documents/Recordings/View only**
+  例: *Teams 名 - チャネル名*/**Documents/Recordings/View only**
 
 - チャネルの所有者には、このフォルダー内のレコーディングに対する完全な編集とダウンロードの権限があります。
 
@@ -252,6 +250,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 |チャネル会議                            |チャネル メンバー         |そのチャネルの Teams の SharePoint の場所                   |Set-CsTeamsMeetingPolicy -ChannelRecordingDownload が Allow (既定) に設定されている場合、[レコード] をクリックしたメンバーにはレコーディングに対する編集権限があります。 他のすべてのメンバーのアクセス許可は、チャネル SharePoint のアクセス許可に基づいています。<Br><Br>Set-CsTeamsMeetingPolicy -ChannelRecordingDownload が Block に設定されている場合、チャネル所有者はレコーディングに対するすべての編集権限があります。しかしチャネル メンバーは読み取りアクセスが可能で、ダウンロードはできません。|
 
 <a name="temp-storage"></a>
+
 ### <a name="temporary-storage-when-unable-to-upload-to-onedrive-and-sharepoint"></a>OneDrive および SharePoint にアップロードできない時の一時的なストレージ
 
 会議のレコーディングを OneDrive および SharePoint にアップロードできない場合は、削除されるまでの 21 日間、Teams から一時的にダウンロードできます。 現時点では、これは削除することを含めて管理者が制御または管理する対象ではありません。
@@ -271,21 +270,14 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 ### <a name="planning-for-storage"></a>ストレージの計画
 
 1 時間のレコーディングのサイズは 400 MB です。 レコーディング ファイルに要求される容量を理解していること、及び OneDrive と SharePoint に十分な記憶域が確保されていることを確かめて下さい。  サブスクリプションに含まれる基本のストレージを理解し、追加の記憶域の注文方法を知るために、[OneDrive に既定の記憶域を設定する](/onedrive/set-default-storage-space) そして [SharePoint サイトの記憶域の制限を管理する](/sharepoint/manage-site-collection-storage-limits) をご覧ください。
-
- <a name="auto-expiration"></a>
-### <a name="auto-expiration-of-teams-meeting-recordings"></a>Teams 会議の記録の自動消去
-
-管理者およびエンド ユーザーによく寄せられる質問を確認して、Teams 会議の記録の自動期限切れがどのように機能するか、今すぐできるアクション、および機能の開始後にできるアクションに関する分析情報を集めています。
-  
-管理者固有の変更の詳細については、[こちら](meeting-expiration.md#changes-to-meeting-expiration)を参照してください。
-
-エンド ユーザーが会議の有効期限を管理する方法の詳細については、[こちら](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date)を参照してください。
   
 ## <a name="manage-meeting-recordings"></a>会議のレコーディングを管理する
 
 会議のレコーディングは、OneDrive および SharePoint にビデオ ファイルとして保存され、これらのプラットフォームで利用できる管理とガバナンスのオプションに従います。 詳細については、「[SharePoint ガバナンスの概要](/sharepoint/governance-overview)」をご覧ください。
 
 非チャネル会議においては、レコーディングはその開始者の OneDrive に保存され、このためその所有についての取り扱いと、従業員が離職したあとのアイテム保持ポリシーについては、通常通りです [OneDrive と SharePoint プロセス](/onedrive/retention-and-deletion#the-onedrive-deletion-process)。
+
+会議の記録の既定の有効期限は 120 日です。 会議の自動期限切れの設定をオフにしたり、既定の有効期限を変更したりできます。 [会議の記録の自動期限切れの](meetings-policies-recording-and-transcription.md#meetings-automatically-expire)詳細については、こちらを参照してください。
 
 ## <a name="closed-captions-for-recordings"></a>レコーディングのクローズド キャプション
 
@@ -324,11 +316,12 @@ DLP ポリシーの会議のレコーディング ファイルへの適用は、
 DLP の詳細については、「[データ損失防止についての解説](/microsoft-365/compliance/dlp-learn-about-dlp)」を参照してください。
 
 ## <a name="meeting-recording-diagnostic-tools"></a>会議レコーディングの診断ツール
-  ### <a name="user-cannot-record-meetings"></a>ユーザーが会議を記録できません
+
+### <a name="user-cannot-record-meetings"></a>ユーザーが会議を記録できません
 
 管理者の場合は、次の診断ツールを使用して、ユーザーが Teams で会議を記録するために適切に構成されていることを確認できます。
 
-1. 以下の **[テストの実行]** を選択すると、診断が Microsoft 365 管理センターに表示されます。 
+1. 以下の **[テストの実行]** を選択すると、診断が Microsoft 365 管理センターに表示されます。
 
    > [!div class="nextstepaction"]
    > [テストの実行: 会議の記録](https://aka.ms/MeetingRecordingDiag)
@@ -337,16 +330,16 @@ DLP の詳細については、「[データ損失防止についての解説](/
 
 3. このテストでは、テナントまたはポリシーの構成を処理するのに最適な次の手順が返され、ユーザーが Teams で会議を記録するために適切に構成されていることを確認します。
   
-  ### <a name="meeting-record-is-missing"></a>会議の記録が見つかりません
+### <a name="meeting-record-is-missing"></a>会議の記録が見つかりません
 
 管理者の場合は、次の診断ツールを使用して、会議の記録が正常に完了し、会議 ID と記録開始時刻に基づいて Stream または OneDrive にアップロードされたことを確認できます。
 
-1. 以下の **[テストの実行]** を選択すると、診断が Microsoft 365 管理センターに表示されます。 
+1. 以下の **[テストの実行]** を選択すると、診断が Microsoft 365 管理センターに表示されます。
 
    > [!div class="nextstepaction"]
    > [テストの実行: 会議の記録が見つからない](https://aka.ms/MissingRecordingDiag)
 
-2. [診断の実行] ウィンドウで、**[記録された会議の URL]** フィールド (通常は会議出席依頼に表示されます) に会議の URL を入力し、[**いつ会議が記録されましたか?**] フィールドに会議の日付を入力します。次に、**[テストの実行]** を選択します。
+2. [実行診断] ウィンドウで、[ **記録された会議の URL** ] フィールド (通常は会議の招待で見られる) フィールドに会議の URL と、[会議が **記録された日時** ] フィールドに会議の日付を入力し、[ **テストの実行**] を選択します。
 
 3. テストでは、会議の記録が正常に完了し、Stream または OneDrive にアップロードされたことを確認します。
 

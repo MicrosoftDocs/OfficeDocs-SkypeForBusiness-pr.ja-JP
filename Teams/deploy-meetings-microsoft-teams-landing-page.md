@@ -20,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-get-started
-ms.openlocfilehash: 84cc77409aecf5525a16ef73e3dfa7e0115f7566
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d6667564c326552cd5671c480bb1ee66a3311c93
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268572"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67466005"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams でのミーティングと会議
 
@@ -52,7 +52,6 @@ Teams は、すぐに使用できる優れたエクスペリエンスを組織�
 
 > [!TIP]
 > ミーティングの詳細については、セッション「[Microsoft Teams でのミーティングの概要 (IT プロフェッショナル向け)](https://aka.ms/teams-meetings-intro)」を視聴してください。
-
 
 ## <a name="meetings-and-conferencing-prerequisites"></a>ミーティングと会議の前提条件
 
@@ -150,7 +149,7 @@ Teams のミーティング エクスペリエンスを最適なものにする�
 
 | 確認事項 | アクション |
 |--------------|--------|
-| ミーティングの文字起こしサービスをオンにするか?|「[記録の文字起こしをオンまたはオフにする](meetings-policies-recording-and-transcription.md#allow-transcription)」を参照してください。|
+| ミーティングの文字起こしサービスをオンにするか?|「[記録の文字起こしをオンまたはオフにする](meetings-policies-recording-and-transcription.md#transcription)」を参照してください。|
 
 ### <a name="live-events-policies"></a>ライブ イベント ポリシー
 
@@ -203,6 +202,7 @@ Teams のサービスにかかわる全体的な正常性を把握して、サ�
 |ミーティング サービスの管理を組織内の誰が担当するか? | この担当者には、ミーティング サービスを管理するために必要な Teams の管理者アクセス許可があることを確認してください。 Teams 管理者の役割の詳細については、「[Microsoft Teams の管理者ロールを使用して Teams を管理する](using-admin-roles.md)」を参照してください。|
 
 ## <a name="next-steps"></a>次のステップ
+
 - 組織全体にミーティングと会議の[導入を推進する](adopt-microsoft-teams-landing-page.md)。
 - [電話会議を追加する](deploy-audio-conferencing-teams-landing-page.md)
 - [クラウド ボイスを展開する](cloud-voice-landing-page.md)
