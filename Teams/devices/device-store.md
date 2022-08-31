@@ -17,12 +17,12 @@ search.appverid: MET150
 f1.keywords:
 - CSH
 description: Teams 管理センターのデバイス ストアでデバイスを参照して購入する方法について説明します
-ms.openlocfilehash: a6b68f6e1ffbde15f9f38dfcdeac881a7b3aabc1
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d1e3d016f51c6113b6f09076f67647c32f7fd1fa
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267982"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67466215"
 ---
 # <a name="purchase-devices-in-the-teams-device-store"></a>Teams デバイス ストアでデバイスを購入する
 
@@ -32,7 +32,7 @@ Teams 管理センターのデバイス ストアを使用すると、Microsoft 
 
 ## <a name="requirements"></a>要件
 
-デバイス ストアを使用するには、グローバル管理者または Teams 管理者である必要があります。
+デバイス ストアを使用するには、グローバル管理者、Teams 管理者、または Teams デバイス管理者である必要があります。
 
 ## <a name="browse-the-store"></a>ストアを参照する
 
@@ -45,14 +45,6 @@ Teams 管理センターのデバイス ストアを使用すると、Microsoft 
 クレジット カードまたは発注書で支払うことができます。 発注書の支払いには、フルフィルメント プロバイダーとの 1 回限りのセットアップが必要です。
 
 すべての注文は、配送後最大 30 日後に返すことができます。
-
-## <a name="data-handling-and-sharing"></a>データの処理と共有
-
-Teams デバイス ストアは、Teams 管理センターで購入を有効にするために、ユーザーとテナントの GUID を含む基本的なユーザーと会社の情報を UnifiedCommunications.com と共有する必要があります。
-
-データ共有は既定で無効になっています。 これを有効にするには、Teams デバイス ストアに移動し、設定アイコンを選択して設定をオンにします。  
-
-この設定がオフの場合、データは共有されず、Teams デバイス ストアを参照できますが、購入することはできません。 設定がオンの間に収集され、フルフィルメント プロバイダーと共有されたデータは、プライバシーに関する声明で指定されたとおりに処理されます。
 
 ## <a name="order-tracking-and-history"></a>注文の追跡と履歴
 

@@ -18,22 +18,18 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.recordingandtranscription
 description: 記録と文字起こしのために Teams で会議ポリシー設定を管理する方法について説明します。
-ms.openlocfilehash: 12f8be910c713a9ce023ac17c956ef50f5889792
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 57e90984cde312f1804d5d2144c82a4d252822b6
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268982"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67466205"
 ---
 # <a name="meeting-policy-settings-for-recording--transcription"></a>&文字起こしを記録するための会議ポリシー設定
 
-この記事では、次のような記録と文字起こしに固有の会議ポリシー設定について説明します。
+この記事では、Teams 会議の記録と文字起こしに固有の会議ポリシー設定について説明します。 これらの設定は、[ **会議の会議** > **ポリシー**] の [チーム管理センター] にあります。
 
-- [文字起こしを許可する](#allow-transcription)
-- [クラウド記録を許可する](#allow-cloud-recording)
-- [国または地域以外の場所に記録を保存する](#store-recordings-outside-of-your-country-or-region)
-
-## <a name="allow-transcription"></a>文字起こしを許可する
+## <a name="transcription"></a>転写
 
 これは、開催者単位とユーザーごとのポリシーの組み合わせです。 この設定は、会議の記録の再生中にキャプションと文字起こし機能を使用できるかどうかを制御します。 記録を開始したユーザーは、これらの機能で記録を操作できるようにするため、この設定を有効にする必要があります。
 
@@ -41,21 +37,21 @@ ms.locfileid: "67268982"
 
 記録された会議の文字起こしは、現在、Teams 会議で自分の言語を設定または英語を話すユーザーにのみサポートされています。
 
-## <a name="allow-cloud-recording"></a>クラウド記録を許可する
+## <a name="cloud-recording"></a>クラウド記録
 
 この設定は、開催者ごとのポリシーとユーザーごとのポリシーの組み合わせであり、会議を記録できるかどうかを制御します。 参加者のポリシー設定が有効になっており、同じ組織の認証済みユーザーである場合、会議の開催者または別の会議参加者が記録を開始できます。
 
-フェデレーション ユーザーや匿名ユーザーなど、組織外のユーザーは記録を開始できません。 ゲスト ユーザーは記録を開始または停止できません。
+フェデレーション ユーザーや匿名ユーザーなど、組織外のユーザーは記録を開始できません。 ゲストは記録を開始または停止できません。
 
 ![記録オプションが表示されたスクリーンショット](media/meeting-policies-recording.png)
 
 次の例を見てみましょう。
 
-|ユーザー |会議ポリシー  |クラウド記録を許可する |
-|---------|---------|---------|
-|Daniela | グローバル   | オフ |
-|Amanda | Location1MeetingPolicy | オン|
-|John (外部ユーザー) | 該当なし | 該当なし|
+| ユーザー                 | 会議ポリシー         | クラウド記録を許可する |
+|----------------------|------------------------|-----------------------|
+| Daniela              | グローバル                 | オフ                   |
+| Amanda               | Location1MeetingPolicy | オン                    |
+| John (外部) | 該当なし         | 該当なし        |
 
 - Daniela によって開催された会議は記録できません。
 - Amanda は Daniela によって開催された会議を記録できません。
@@ -65,12 +61,69 @@ ms.locfileid: "67268982"
 
 クラウド会議の記録の詳細については、「[Teams のクラウド会議の記録](cloud-recording.md)」を参照してください。
 
+## <a name="meetings-automatically-expire"></a>会議の有効期限が自動的に切れる
+
+この設定は、会議の記録が自動的に期限切れになるかどうかを制御します。 この設定をオンにすると、既定の有効期限 (日数) を設定するオプションが表示されます。
+
+:::image type="content" source="media/meeting-expiration-policy.jpg" alt-text="Teams 管理センターの自動会議の有効期限設定のスクリーンショット。":::
+
+この設定では、以前の記録で使用されるストレージの量を減らす簡単なツールが提供されます。 OneDrive と SharePoint システムは、すべての会議の記録で設定された有効期限を監視し、有効期限日に自動的に記録をごみ箱に移動します。
+
+### <a name="default-expiration-time"></a>既定の有効期限
+
+新しく作成されたすべての会議記録の既定の有効期限は 120 日です。この機能が有効になった後に作成されたすべての記録は、作成日の 120 日後に削除されます。
+
+> [!NOTE]
+> A1 ユーザーの既定の最大有効期限は 30 日です。
+
+#### <a name="changing-default-expiration-time"></a>既定の有効期限の変更
+
+管理者は、PowerShell または Teams 管理センターで既定の有効期限の設定を編集できます。 変更は、その時点から新しく作成された会議の記録にのみ影響します。この日付より前に作成された記録には影響しません。
+
+管理者は、既存の会議記録の有効期限を変更できません。 これは、記録を所有するユーザーの決定を保護するために行われます。 この設定では、会議と通話の両方を制御できます。
+
+有効期限の値は、日数の整数です。  これは次のように設定できます。
+
+- 最小値: **1**
+- 最大値: **99999**
+- また、PowerShell で有効期限を **-1** に設定して、記録が期限切れにならないようにすることもできます。
+
+PowerShell コマンドの例は、以下のとおりです。
+
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
+```
+
+### <a name="compliance"></a>コンプライアンス
+
+エンド ユーザーが制御するすべての記録の有効期限を変更できるため、法的保護のために会議の有効期限設定に依存しないでください。
+
+#### <a name="recording-expiration-settings-and-microsoft-365-retention-policies-in-microsoft-purview"></a>Microsoft Purview で有効期限設定と Microsoft 365 アイテム保持ポリシーを記録する
+
+ファイルの保持期間は、ファイルの削除よりも優先されます。 Purview アイテム保持ポリシーを使用した Teams 会議の記録は、保持期間が完了するまで Teams 会議記録の有効期限ポリシーによって削除できません。 たとえば、ファイルが 5 年間保持され、Teams 会議記録の有効期限ポリシーが 60 日間設定されている Purview アイテム保持ポリシーがある場合、Teams 会議記録の有効期限ポリシーは 5 年後に記録を削除します。
+
+Teams 会議記録の有効期限ポリシーと、削除日が異なる Purview 削除ポリシーがある場合、ファイルは 2 つの日付の早い方に削除されます。 たとえば、1 年後にファイルが削除され、Teams 会議の記録の有効期限が 120 日間設定されている Purview 削除ポリシーがある場合、Teams 会議の記録の有効期限ポリシーは 120 日後にファイルを削除します。
+
+ユーザーは、Purview アイテム保持ポリシーが存在しない限り、有効期限の前に記録を手動で削除できます。
+
+### <a name="deletion-of-recordings"></a>記録の削除
+
+記録は通常、有効期限の 1 日以内に削除されますが、まれに 5 日間かかる場合があります。 ファイル所有者は、記録の有効期限が切れると電子メール通知を受け取り、記録を回復するためにごみ箱に送られます。
+
+> [!NOTE]
+> 有効期限日に、記録がごみ箱に移動され、有効期限フィールドがクリアされます。 ごみ箱から記録を回復した場合、有効期限がクリアされているため、この機能によって再度削除されることはありません。
+
+### <a name="expiration-of-migrated-recordings-from-stream-classic"></a>Stream (クラシック)から移行された記録の有効期限
+
+Stream (クラシック)から移行された記録には、有効期限が設定されていません。 代わりに、管理者は保持する録画のみを移行することをお勧めします。 詳細については、[Stream (クラシック)の移行に関するドキュメントを参照してください](/stream/streamnew/stream-classic-to-new-migration-overview)。
+
 ## <a name="store-recordings-outside-of-your-country-or-region"></a>国または地域以外の場所に記録を保存する
 
 このポリシーは、会議レコードを別の国または地域に永続的に保存できるかどうかを制御します。 有効になっている場合は、記録を移行できません。 クラウド会議と記録の保存場所の詳細については、「 [Teams クラウド会議の記録](cloud-recording.md)」を参照してください。
 
 ## <a name="related-topics"></a>関連項目
 
+- [Teams での会議ポリシーを管理する](meeting-policies-overview.md)
 - [Teams のユーザーにポリシーを割り当てる](policy-assignment-overview.md)
 - [クラウド会議の記録](cloud-recording.md)
-- [Microsoft Teams での会議ポリシーと会議の有効期限](meeting-expiration.md)
+- [会議をスケジュールできるユーザーを管理する](manage-who-can-schedule-meetings.md)

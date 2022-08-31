@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9052812a669a808536cbd0179d6c16b9228296c4
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 29a048ccc02082ec019bb64dca9e89b7f265ff83
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270042"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67465975"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>インテリジェント スピーカーの音声認識テクノロジ コントロールを管理する
 
@@ -71,12 +71,12 @@ ms.locfileid: "67270042"
 
    ![本体に直接接続するスピーカーを使用したインテリジェント スピーカーのセットアップ。](../media/intelligent-speakers2.png)
 
-> [!Note]
+> [!NOTE]
 > 「エポ」デバイスと Yealink デバイスには、"エポ"または "Yealink" プレフィックスを付け、スピーカー名に "UAC2_RENDER" を、マイク名に "UAC2_TEAMS" を含める必要があります。 ドロップダウン メニューにこれらのマイクとスピーカー名が見つからない場合は、インテリジェント スピーカー デバイスを再起動します。
 
 ## <a name="enable-an-intelligent-speaker-user-recognition"></a>インテリジェントスピーカーのユーザー認識を有効にする
 
-音声プロファイル データは、インテリジェント スピーカーを使用する任意の会議で使用できます。 会議の設定については、 [Teams 会議ポリシー](../meetings-policies-recording-and-transcription.md#allow-transcription) と [PowerShell 会議コマンドレット](/powershell/module/skype/set-csteamsmeetingpolicy) を参照してください。
+音声プロファイル データは、インテリジェント スピーカーを使用する任意の会議で使用できます。 会議の設定については、 [Teams 会議ポリシー](../meetings-policies-recording-and-transcription.md#transcription) と [PowerShell 会議コマンドレット](/powershell/module/skype/set-csteamsmeetingpolicy) を参照してください。
 
 ユーザーの音声プロファイル データは、ポリシーが識別するように設定されているか、会議中に会議以外の招待者が歩き込むと作成されます。 音声プロファイル データは、会議の終了時に無視されます。
 
@@ -163,4 +163,4 @@ IT 管理者はいつでもオーディオ データをエクスポートでき�
 
 ## <a name="related-topics"></a>関連項目
 
-[サポート記事: インテリジェント スピーカーを使用して室内参加者を特定する ](https://support.microsoft.com/office/use-teams-intelligent-speakers-to-identify-in-room-participants-in-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00)
+[サポート記事: インテリジェント スピーカーを使用して室内参加者を特定する](https://support.microsoft.com/office/use-teams-intelligent-speakers-to-identify-in-room-participants-in-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00)
