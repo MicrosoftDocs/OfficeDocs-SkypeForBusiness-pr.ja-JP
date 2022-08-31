@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: majaisin
 description: Microsoft Teams のポリシー制御の概要。
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed0e5aa3a39147238bf0ade57df509a31f0f13e8
-ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
-ms.translationtype: HT
+ms.openlocfilehash: 13b807d98b92deaac54ad8b755295b73e90c6548
+ms.sourcegitcommit: b4bc3b4c1d167a075a25180818f61758eb56cd6b
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53142813"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "61041259"
 ---
 # <a name="policy-control-overview-for-microsoft-teams"></a>Microsoft Teams のポリシー制御の概要
 
@@ -87,9 +87,6 @@ Teams ソフトウェアには、選択可能な 3 つのレベルの診断デ�
 この診断データには、ユーザーの名前、メール アドレス、その他のユーザー コンテンツ (Teams で共有された Office ファイル、Teams 内で送信されたチャット メッセージ、Teams 内のチャネルで公開された投稿文など) は含まれません。 Microsoft のシステムでは、ユーザーの診断データに関連付ける一意の ID を作成しています。 Teams アプリが 100 回クラッシュしたことを示す診断データを受信すると、この一意の ID によって、1 人のユーザーが 100 回クラッシュしたのか、100 人の異なるユーザーが 1 回ずつクラッシュしたかを判断できます。 この一意の ID を特定のユーザーの識別に使用することはありません。
 
 どの診断データがMicrosoftに送信されているかを確認するには、Diagnostic Data Viewerを使用できます。このビューアは、Microsoft Store から無料でダウンロードしてインストールできます。 詳細については、「[Office で診断データ ビューアーを使用する](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855)」を参照してください。
-
-> [!NOTE]
-> 診断データ ビューアーのサポートは、Android を実行するデバイスの Teams で利用可能です。 Windows、macOS、iOS を搭載したデバイスでの Teams のサポートは処理中です。
 
 ## <a name="required-service-data-for-connected-experiences"></a>接続エクスペリエンスに必要なサービス データ
 

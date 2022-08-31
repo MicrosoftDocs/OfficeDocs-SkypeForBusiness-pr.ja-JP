@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: majaisin
 description: Microsoft Teams のポリシー コントロールのモバイル プロパティとイベントの一覧。
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ab0ae8fe2e1e3fee37a01de178c62fd45558b1d0
-ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
-ms.translationtype: HT
+ms.openlocfilehash: 91203a9e35954e695bea5482c41674137320b487
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53114126"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674239"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams 必須モバイル診断データ
 
@@ -39,6 +39,7 @@ Microsoft に送信される診断データを制御する方法を含め、診�
 > [!NOTE]
 > パネルアクション イベントのプロパティについては、[パネルアクション イベントで送信されるプロパティ](#properties-sent-with-panelaction-events)を参照してください。
 
+- **acceptUser** - ユーザーが 1:1 チャットを受け入れた。
 - **accessibilityUserConfiguration** - ユーザーがアクセシビリティ機能を切り替える場合。
 - **acknowledgeSettingChange** - 通知設定ダイアログが更新された際の更新の確認。 これは、更新通知を確認し、全体的な通知の信頼性を判断するために使用される機能の成功指標です。
 - **actionComposeMenu**
@@ -69,6 +70,7 @@ Microsoft に送信される診断データを制御する方法を含め、診�
 - **admitAll** - ロビー セクションで [**全員を許可**] ボタンが選択される回数。
 - **admitParticipant** - 会議参加者一覧よりユーザーが会議への参加を許可される回数。
 - **alertsNavAlert** - フィード アイテムをタップ。
+- **aliasDiscoverabilitySettingOpened** - 検出の設定へのエントリ ポイント。
 - **android: null** - チャット ボットのミュートまたはミュート解除。 これによりチャットの既存のテレメトリが強化され、アプリケーション情報のみが追加されます。
 - **anonymousMeetingJoin** - [**会議に参加**]が匿名での参加提供名のページで選択されている、または名前ダイアログボックスで [**OK**] がタップされています。
 - **anonymousMeetingJoinWelcome** - [**ゲストとして参加**] が匿名での会議参加ランディング ページで選択されています。
@@ -222,7 +224,7 @@ Microsoft に送信される診断データを制御する方法を含め、診�
   - ビデオをオフに切り替える。
   - ライブ会議または通話中に [ビデオ] ボタンを選択。
 - **callPark** - 以下の場合にトリガーされます。
-  - [**...**] メニューで [**パーク通話**] が選択される。
+  - [**...** ] メニューで [**パーク通話**] が選択されています。
   - [**保留解除**] ボタンが選択される。
   - 保留解除のダイアログで [**ピックアップ**] が選択される。
   - 保留解除のダイアログで [**キャンセル**] が選択される。
@@ -450,6 +452,8 @@ Microsoft に送信される診断データを制御する方法を含め、診�
 - **detailsTabClicked** - 会議で [**詳細**] タブが選択されています。
 - **deviceAddressBookSync** -[設定] ページでアドレス帳の同期が有効になっているときに始動します。
 - **deviceAddressBookUnsync** - [設定] ページでアドレス帳の同期が無効になっているときに始動します。
+- **deviceSyncEnabled** - デバイス同期が有効です。
+- **deviceSyncDisabled** - デバイス同期が無効です。
 - **dialIn** - ユーザーが会議へのダイヤルインを選択します (さまざまな場所)。
 - **dialInBadNetworkBanner** - 接続不良のバナーに対して [**ダイヤルイン**] が選択されています。
 - **dialInBadNetworkBannerCancel** - [**ダイヤルイン**]がネイティブ ダイアログでキャンセルされます。
@@ -629,6 +633,7 @@ Microsoft に送信される診断データを制御する方法を含め、診�
 - **launchLinksGallery** - ユーザーがダッシュボードからリンク ギャラリーに入ります。
 - **launchSlideshow** - ユーザーが 3 つの可能なアプリ機能の場所のいずれかで Slideshow 全画面イメージ ビューアーを起動します。 
 - **Launch source such as direct, link, appShortcut** - 直接またはリンクを介して起動します (アクティブなユーザーのデータを収集するために、アプリ起動時にモバイル アプリケーション管理 (MAM) またはモバイル デバイス管理 (MDM) テレメトリを記録します)。
+- **lastSearchableAliasTurnedOff** - ユーザーは、アカウントのすべての検索可能なエイリアスを無効にしました。
 - **leaveChat** - チャット終了を確認します。
 - **legacyChatLink** - レガシ チャットにリンクが選択されています。
 - **link** - ユーザーが Teams アプリケーションを使うことによって、招待リンクを開きました。
@@ -688,7 +693,7 @@ Microsoft に送信される診断データを制御する方法を含め、診�
 - **meetingDetailDeleteMeetingforSelf** - 自分用に [会議の詳細] ページから会議を削除します。
 - **meetingDetailJoin** - [会議の詳細] ページで [**会議参加**] ボタンが選択されています。
 - **meetingDetailParticipants** - [会議の詳細] ページですべての参加者を表示します。
-- **meetingDetailScheduledMeeting** - スケジュール済み会議オブジェクト （**…**）から [会議の詳細] ページを選択、または、スケジュール済み会議の [**詳細**] タブを選択します。
+- **meetingDetailScheduledMeeting** - スケジュールされた会議オブジェクトから選択された会議の詳細ページ (**...**)、またはスケジュールされた会議の **[詳細** ] タブを選択します。
 - **MeetingDetailSearchParticipants** - 会議スケジュールの会議参加者で [**検索**] が選択された。　
 - **meetingInsightFileClick** - 会議関連のファイル アイテムがクリックされます。
 - **meetingInsightFileLocatorClick** - 会議関連コンテンツ ロケーターのヒント ボタンがクリックされます。
@@ -724,6 +729,7 @@ Microsoft に送信される診断データを制御する方法を含め、診�
 - **meetingUserGuest** - ゲスト ユーザーが会議に参加しました。
 - **meetingUserTenant** - テナント内ユーザーが会議に参加しました。
 - **memeGenerated** - イメージとテキスト データのユーザー入力が付与されたミームが生成された場合。 
+- **meProfileFetch** - プロファイルのフェッチと作成が成功したことを示します。
 - **messageCopyMessage** - メッセージをコピーします。
 - **メッセージ削除** - メッセージの削除。
 - **messageEditMessage** - メッセージを編集します。
@@ -738,6 +744,7 @@ Microsoft に送信される診断データを制御する方法を含め、診�
 - **MicrosoftWhiteboardClicked** - Microsoft ホワイト ボードが [**チャネル ファイル**] タブまたは [**会議チャット ファイル**] タブで選択されています。
 - **moreOptionsClicked** - 右上の [**...**］ が [タスク アイテム エディター] 画面で選択されるとトリガーされます。
 - **moveTaskClicked** - タスク アイテム内のオプションのその他のオプション リスト。
+- **msaAddDeleteAliasLinkClicked** - MSA プロファイル ページでエイリアスを設定するためのリンク。
 - **multiCallEndFromUFD** -　ユーザーが、マルチ呼出しのシナリオで保留通話を終了した回数。
 - **multiCallResumeFromUFD** - ユーザーが通話を保留から再開することにした回数。
 - **multiCallSwitch** - ユーザーが通話を切り替えるオプションを選択して、保留通話のリストが表示される回数。
@@ -851,6 +858,7 @@ Microsoft に送信される診断データを制御する方法を含め、診�
 - **parental_consent_grant** - ユーザーが MSFamily で未成年に対し、TFL でライブ位置情報機能を利用するためのアクセス許可を付与します。
 - **parental_consent_remove** - ユーザーが MSFamily で未成年に対し、TFL でライブ位置情報機能を利用するためのアクセス許可を取り消します。
 - **pauseVoicemail** - ボイスメール アイテムで [**一時停止**] がタっプされました。
+- **peoplePickerDismissed** - Peopleピッカーが無視されたことを示します。
 - **peoplePickerInvoked** - People Picker が以下を含む (がそれに限定されない) Teams モバイルの 7 か所で使用されます。
   - 新しいチャット ピッカー。
   - メッセージを転送します。
@@ -893,6 +901,7 @@ Microsoft に送信される診断データを制御する方法を含め、診�
 - **privateMeetingJoin** - プライベート会議チャットで　[**会議参加**] ボタンがタップされました。
 - **processInBG** - 着信通知をバックグラウンドで処理します (Android)。
 - **processInFG** - 着信通知を前景で処理します (Android)。
+- **profileNameSaved** - プロファイル名が更新されました。
 - **progressItemClicked** - ユーザーがタスクの進行状況ピッカーを正常に開始したことを確認します。
 - **promotedToPresenter** - ユーザーが出席者を昇格します - ダイアログ ボックスの [**変更**] ボタン。
 - **provideFeedbackDismiss** - ユーザーにアプリが気に入らない理由についてのフィードバックを送信するかどうかを確認するプロンプトを閉じます。
@@ -1035,7 +1044,7 @@ Microsoft に送信される診断データを制御する方法を含め、診�
 - **shareScreen** - スクリーン共有を開始または停止します。
 - **共有シフト** - シフトが共有されているときに提供される情報。
 - **shareShiftsClicked** - 空きシフトの詳細。
-- **shareTray** - [**共有…**]  がアクション シートで選択されます。
+- **shareのトレイ** - **共有。。。** がアクション シートで選択されています。
 - **shiftAssigneeClicked** - 特定のシフト詳細が表示されているシフト カレンダー ビュー。
 - **shiftDetails** - これによりシフトの詳細を表示できます。
 - **shiftDetailsCalendar** - ユーザーがシフトの詳細に移動します。
@@ -1260,6 +1269,7 @@ Microsoft に送信される診断データを制御する方法を含め、診�
 > 
 - **acquire_resource_token_interactive** - 対話型サインインで認証トークンを取得する場合に発生する必須のサービス呼び出し。 
 - **acquire_resource_token_silent** - サイレント サインインで認証トークンを取得する場合に発生する必須のサービス呼び出し。
+- **add_buddy** - 連絡先の追加の状態をキャプチャします。
 - **app_crash2** – アプリが不意にクラッシュした場合にトリガーされます。 Teams アプリがクラッシュする頻度に関する情報を提供します。 
 - **app_incremental_sync_launch** - コールド起動のために、ピル数が正常に更新されたことを確認します。
 - **app_incremental_sync_resume** - ウォーム/ホット起動のために、ピル数が正常に更新されたことを確認します。
@@ -1299,6 +1309,7 @@ Microsoft に送信される診断データを制御する方法を含め、診�
 - **delete_planner_plan** - 共有タスク リストの正常な削除を確認します。
 - **create_planner_task** - 共有タスク アイテムの正常な削除を確認します。
 - **json_parse_failure** - JSON のパース問題の発生頻度に関する情報を提供します。
+- **fetch_me_profile** - ユーザー プロファイルの作成状態。
 - **getProfilePicture** - ユーザーのプロフィール画像を取得するために必要なサービス呼び出し。 
 - **get_resource_token_async**: Azure Active Directory リソースのトークンを非同期に取得するために必要なサービス呼び出し。
 - **get_resource_token_sync**: Azure Active Directory リソースのトークンを同期的に取得するために必要なサービス呼び出し。
@@ -1344,6 +1355,7 @@ Microsoft に送信される診断データを制御する方法を含め、診�
 - **show_meeting_participants** - 会議参加者リストの表示が成功または失敗したことを確認します。
 - **search** - 検索セッション全体が成功したか失敗したかを確認します。
 - **time_based_retention_shared_channel** – データベースを排除するためのパフォーマンス データをキャプチャします。
+- **toggle_searchability** - エイリアスをスタンプ/アンスタンプするためのネットワーク呼び出しの状態をキャプチャします。
 - **sync_user_entitlements_and_app_definitions** - aggregatedEntitlements をフェッチするために必要なサービス呼び出し。
 - **bots_load_mediacards** - コネクタ カードがチャットとチャネルで構成されている場合の、インスタンス化されたキャプチャ。
 - **bots_load_one_card** - ボットとチャットするときに少なくとも 1 つのカードが存在し、読み込まれた場合にキャプチャします。
@@ -1358,7 +1370,7 @@ Microsoft に送信される診断データを制御する方法を含め、診�
 
 ## <a name="oneplayer-events"></a>OnePlayer イベント
 > [!NOTE]
-> OnePlayer イベントの場合、こちら[ OnePlayer イベントのためのプロパティ リスト](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/212efdd56d2d52faacd03dd70d367ca0b5895e3a/Teams/policy-control-diagnostic-data-mobile.md#property-lists-for-oneplayer-events) に一覧表示されたプロパティのみ適用します。
+> OnePlayer イベントの場合、こちら[ OnePlayer イベントのためのプロパティ リスト](#property-lists-for-oneplayer-events) に一覧表示されたプロパティのみ適用します。
 ### <a name="oneplayer-user-action-events"></a>OnePlayer ユーザー アクション イベント
 - **PlayerPlay** - ユーザーが OnePlayer ビューの再生ボタンをタップするかどうかを確認します。
 - **PlayerPause** - ユーザーが OnePlayer ビューの一時停止ボタンをタップするかどうかを確認します。
