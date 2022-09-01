@@ -1,59 +1,59 @@
 ### YamlMime:Hub
 title: Skype for Business
-summary: Skype for Business の技術ドキュメント
+summary: Skype for Business技術ドキュメント
 brand: m365
 metadata:
   title: Skype for Business
-  description: Skype for Business の技術ドキュメント
+  description: Skype for Business技術ドキュメント
   ms.service: skype-for-business-online
   ms.topic: hub-page
   audience: ITPro
   author: samanro
   ms.author: samanro
   ms.date: 07/03/2019
-  localization_priority: Priority
-  ms.openlocfilehash: 4fddbad88364a26bee8c8217175080b80380ed60
-  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-  ms.translationtype: HT
+  ms.localizationpriority: high
+  ms.openlocfilehash: 35f0728c28765ccfeaffd2b2716280b9d20dfbb3
+  ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+  ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51119036"
+  ms.lasthandoff: 08/26/2021
+  ms.locfileid: "58592991"
 additionalContent:
   sections:
-  - title: IT 担当者向け
+  - title: IT プロフェッショナル向け
     items:
     - title: Skype for Business Online
-      summary: Office 365 環境で Skype for Business Online を管理するためのリソースが見つかります。
+      summary: Office 365 環境で Skype for Business Online を管理するためのリソースをご覧ください。
       url: ../SfbOnline/skype-for-business-online.yml
     - title: ハイブリッド ソリューション
-      summary: Skype for Business によるハイブリッド展開の計画については、こちらを参照してください。
+      summary: Skype for Businessハイブリッドデプロイの計画に関する情報を確認します。
       url: ../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=%2fSkypeForBusiness%2fsfbhybridtoc%2ftoc.json
     - title: Skype for Business Server
-      summary: 組織に対して Skype for Business Server を展開および管理します。
+      summary: 組織のために Skype for Business Server を展開し、管理します。
       url: ../SfBServer2019/skype-for-business-server-2019.yml
-    - title: Skype for Business の PowerShell のリファレンス
-      summary: Skype for business と Skype for business Online を管理するために必要な PowerShell コマンドレットについて説明します。
+    - title: Skype for Business の PowerShell リファレンス
+      summary: Skype for Business と Skype for Business Online を管理するために必要な PowerShell コマンドレットを理解します。
       url: /powershell/skype/intro
     - title: Microsoft Teams
-      summary: Microsoft Teams を正常にロールアウトするために必要な計画、方法、実践的なガイダンスを確認します。
+      summary: Microsoft Teams を正しく展開するために必要な計画、方法、実践的なガイダンスを入手します。
       url: /MicrosoftTeams/
     - title: Skype for Business から Microsoft Teams への移行
-      summary: Teams への移行を最適に行うためのガイダンスとツールを確認します。
+      summary: Teams への最適なパスを調べるガイダンスとツールを見つけます。
       url: /MicrosoftTeams/upgrade-start-here
     - title: Microsoft Teams Rooms
       summary: Microsoft Teams Rooms の計画、展開、管理方法について説明します。
       url: /SkypeForBusiness/room-systems/
     - title: Skype for Business 認定プログラム
-      summary: 認定ソリューションおよびデバイスについて説明します。
+      summary: 認定されたソリューションとデバイスについて学びます。
       url: ../SfbPartnerCertification/certification/overview.md
     - title: トラブルシューティング
-      summary: IT 担当者および管理者向けのトラブルシューティングおよびサポート リソースをご利用ください。
+      summary: IT プロフェッショナルと管理者向けのトラブルシューティングとサポート リソースを見つけます。
       url: /office/troubleshoot
-  - title: 他のユーザー向け
+  - title: 他の対象ユーザーの場合
     items:
     - title: 開発者
-      summary: Skype for Business のソリューション開発ガイド。
+      summary: Skype for Business向けのソリューションを開発するためのガイダンス。
       url: /skype-sdk/
     - title: エンド ユーザー
-      summary: support.office.com で Skype for Business ユーザーのためのヘルプ、トレーニング、テクニカル サポートをご利用ください。
+      summary: support.office.com に関するSkype for Businessユーザーのヘルプ、トレーニング、テクニカル サポートを確認します。
       url: https://support.office.com/skype-for-business

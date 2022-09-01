@@ -607,8 +607,8 @@ items:
                     href: meeting-policies-participants-and-guests.md
                   - name: ユーザーから RestrictedAnonymousAccess 会議ポリシーを削除する
                     href: meeting-policies-restricted-anonymous-access.md
-          - name: 会議ポリシーと会議の有効期限
-            href: meeting-expiration.md
+          - name: 会議を開始してスケジュール設定できるユーザーを管理する
+            href: manage-who-can-schedule-meetings.md
           - name: 会議の設定を管理する
             href: meeting-settings-in-teams.md
           - name: ユーザーの設定を変更したときに送信されるメール
@@ -863,8 +863,6 @@ items:
                 href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
           - name: オペレーター 接続
             items:
-              - name: 新機能
-                href: operator-connect-whats-new.md
               - name: オペレーター 接続 プラン
                 href: operator-connect-plan.md
               - name: オペレーター 接続を構成する
@@ -953,6 +951,8 @@ items:
             href: search-for-phone-numbers-for-users.md
           - name: ユーザーの電話番号を割り当て、変更、または削除する
             href: assign-change-or-remove-a-phone-number-for-a-user.md
+          - name: 電話番号の使用状況を管理する
+            href: manage-the-usage-of-a-phone-number.md
           - name: 組織の電話番号のリストを表示する
             href: see-a-list-of-phone-numbers-in-your-organization.md
           - name: 通話プランの電話番号を管理する
@@ -1068,7 +1068,7 @@ items:
               - name: '手順 5:ユーザーに電話番号を割り当てる'
                 href: business-voice/set-up-assign-numbers.md
               - name: '手順 6: 自動応答を設定する'
-                href: create-a-phone-system-auto-attendant.md
+                href: create-a-phone-system-auto-attendant-smb.md
               - name: '手順 7: ポートの電話番号 (省略可能)'
                 href: business-voice/port-phone-numbers.md
               - name: 設定後の参考資料
@@ -1084,7 +1084,7 @@ items:
               - name: さらにユーザーを作成する
                 href: business-voice/create-users.md
               - name: 通話キューを設定する
-                href: create-a-phone-system-call-queue.md
+                href: create-a-phone-system-call-queue-smb.md
           - name: 電話システムのセットアップを管理する
             items:
               - name: デバイスを管理する
@@ -1135,6 +1135,8 @@ items:
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-lithuania.md
               - name: ルクセンブルクでの電話番号の管理
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-luxembourg.md
+              - name: メキシコの電話番号管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-mexico.md
               - name: ニュージーランドでの電話番号の管理
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-new-zealand.md
               - name: ノルウェーでの電話番号の管理
@@ -1579,44 +1581,65 @@ items:
             href: apps-update-experience.md
           - name: アプリ管理アクティビティの監査
             href: audit-app-management-activities.md
-          - name: アプリの使用状況レポートと分析
+          - name: アプリ使用状況レポートと分析を表示する
             href: teams-analytics-and-reports/app-usage-report.md
   - name: 業界および政府機関向けのガイダンス
     items:
       - name: 概要
         href: expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md
       - name: 教育機関用 Teams
-        href: expand-teams-across-your-org/teams-for-education-landing-page.md
         items:
-          - name: クイック スタート - 教育機関用 Teams の管理者
-            href: teams-quick-start-edu.yml
-          - name: リモート学習の開始
-            href: remote-learning-edu.md
-          - name: Teams EDU ポリシーおよびポリシー パッケージ
-            href: policy-packages-edu.md
-          - name: 多数のユーザー セットにポリシーを割り当てる
-            href: batch-group-policy-assignment-edu.md
-          - name: 教育者と学生のためのセキュリティ グループを作成する PowerShell スクリプト
-            href: scripts/powershell-script-security-groups-edu.md
-          - name: 教育機関管理者向けの低帯域幅ガイダンス
-            href: edu-remote-low-bandwidth.md
-          - name: 教育機関用 Teams ポリシー ウィザード
-            href: easy-policy-setup-edu.md
-          - name: Teams for Education の親接続
-            href: edu-parents-app.md
-          - name: キャリア コーチ
+          - name: Microsoft Teams for Educationの概要
+            href: expand-teams-across-your-org/teams-for-education-landing-page.md
+          - name: Microsoft Teams for Educationの概要
             items:
-              - name: キャリア コーチの使用を開始
-                href: career-coach.md
-              - name: キャリア コーチの設定と構成
-                href: career-coach-set-up-steps.md
-              - name: キャリア コーチのトラブルシューティング
-                href: career-coach-troubleshoot.md
-              - name: キャリア コーチのリソース
-                href: career-coach-resources.md
-          - name: Teams でのチャットを監督する
-            href: supervise-chats-edu.md
-          - name: Education Insights
+              - name: クイック スタート - Microsoft Teams for Educationを設定する
+                href: teams-quick-start-guide-edu.md
+              - name: リモート ラーニングの使用を開始する
+                href: remote-learning-edu.md
+              - name: 低帯域幅シナリオのトラブルシューティング
+                href: edu-remote-low-bandwidth.md
+              - name: 教育機関向けの Teams ライセンスの割り当て
+                href: teams-edu-licensing.md
+              - name: IT 管理者向けの Microsoft Education FAQ
+                href: plan-teams-governance-edu.md
+              - name: Teams 導入リソースを共有する
+                href: resources-teams-edu.md
+              - name: 教育 SKU の参照
+                href: sku-reference-edu.md
+          - name: 教育に関する Teams ポリシー
+            items:
+              - name: Teams ポリシーとポリシー パッケージを管理する
+                href: policy-packages-edu.md
+              - name: ユーザーのポリシーをすばやく設定する
+                href: easy-policy-setup-edu.md
+              - name: 多数のユーザー セットにポリシーを割り当てる
+                href: batch-group-policy-assignment-edu.md
+              - name: 教育者と学生のセキュリティ グループを作成する
+                href: scripts/powershell-script-security-groups-edu.md
+          - name: 教育者向けの機能を設定する
+            items:
+              - name: Teams で監視付きチャットを設定する
+                href: supervise-chats-edu.md
+              - name: Teams で割り当てを設定する
+                href: expand-teams-across-your-org/assignments-in-teams.md
+              - name: Teams で親接続を設定する
+                href: edu-parents-app.md
+              - name: キャリア コーチ
+                items:
+                  - name: キャリア コーチの使用を開始
+                    href: career-coach.md
+                  - name: キャリア コーチの設定と構成
+                    href: career-coach-set-up-steps.md
+                  - name: キャリア コーチのトラブルシューティング
+                    href: career-coach-troubleshoot.md
+                  - name: キャリア コーチのリソース
+                    href: career-coach-resources.md
+          - name: LMS と LTI の統合
+            items:
+              - name: Moodle LMS 統合をインストールする
+                href: install-moodle-integration.md
+          - name: Education Insightsを使用して学生について学習する
             items:
               - name: Insights の使用を開始する
                 href: class-insights.md
@@ -1624,23 +1647,11 @@ items:
                 href: education-insights-sis-data-sync.md
               - name: Insights へのユーザー アクセスを管理する
                 href: education-insights-manage-access.md
-              - name: Reflect の使用を開始する
+              - name: 感情分析情報用に Reflect を設定する
                 href: reflect.md
               - name: 進行状況を読み取るための分析情報を理解する
                 href: insights-for-reading-progress.md
-          - name: '教育機関向けの Teams の課題 '
-            href: expand-teams-across-your-org/assignments-in-teams.md
-          - name: 教育機関管理者向けの Teams のリソース
-            href: resources-teams-edu.md
-          - name: Microsoft Education のガバナンスに関するよくある質問 (管理者向け)
-            href: plan-teams-governance-edu.md
-          - name: Moodle の統合をインストールする
-            href: install-moodle-integration.md
-          - name: 教育機関向けの Teams のライセンス
-            href: teams-edu-licensing.md
-          - name: 教育 SKU の参照
-            href: sku-reference-edu.md
-          - name: 教育機関向け Teams デバイス
+          - name: 教育機関向けの Teams デバイスを検索する
             href: devices-for-education.md
       - name: 現場担当者向けの Teams
         items:
@@ -1720,13 +1731,13 @@ items:
             href: get-started-with-teams-essentials.md
           - name: Teams Essentials (AAD ID) をメールに接続する
             href: connect-teams-essentials-to-email.md
-      - name: Kaizala からのアップグレード
+      - name: Kaizala から移動する
         items:
           - name: 作業の開始
             href: get-started-kaizala-teams.md
-          - name: アップグレードを準備する
+          - name: 移動の準備
             href: prepare-for-teams-kaizala.md
-          - name: どのようにアップグレードするか計画する
+          - name: Kaizala への移行を計画する
             href: plan-your-move-kaizala.md
           - name: Microsoft Teams に移動する
             href: navigate-teams.md
