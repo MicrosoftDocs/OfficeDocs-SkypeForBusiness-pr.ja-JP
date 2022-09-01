@@ -1,6 +1,6 @@
 ---
 title: 組織の Teams ストア内のアプリの外観を変更する
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
@@ -16,16 +16,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: アプリの詳細とメタデータを編集して、アプリの外観を変更し、アプリのブランドを変更する方法について説明します。
-ms.openlocfilehash: 304aa0b5d8becae641f69b0c389ca41160ad2e2f
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 444cf5cda737b9d4b4c3dc7f4032b7eb0877f4aa
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67298886"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486922"
 ---
 # <a name="customize-appearance-of-apps-in-your-organizations-teams-store"></a>組織の Teams ストア内のアプリの外観をカスタマイズする
 
-Microsoft Teams を使用すると、管理者は Teams アプリをカスタマイズしてストア エクスペリエンスを強化し、組織のブランディングを進めることができます。 アプリ開発者は、Teams 管理者がアプリをカスタマイズできるようにします。その後、Teams 管理センターの [アプリの管理] ページで、組織のニーズに基づいてアプリのプロパティを更新できます。 カスタマイズできる詳細は次のとおりです。
+Microsoft Teams を使用すると、管理者は Teams アプリをカスタマイズしてストア エクスペリエンスを向上させ、組織のブランド化に従うことができます。 アプリ開発者は、Teams 管理者がアプリをカスタマイズできるようにします。その後、Teams 管理センターの [アプリの管理] ページで、組織のニーズに基づいてアプリのプロパティを更新できます。 カスタマイズできる詳細は次のとおりです。
 
 * 短い形式の名前
 * 簡潔な説明

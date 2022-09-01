@@ -1,6 +1,6 @@
 ---
 title: Teams でアプリ ストアをカスタマイズする
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.reviewer: prem
@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: ロゴ、カスタム背景、カスタム テキストの色を追加して、組織の Teams アプリ ストアをカスタマイズする方法について説明します。
-ms.openlocfilehash: 5982b3e1e1a6145b9617fb899e7941b7f31a22e9
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 4d26ba44fa9c9618476f7afdc7a59d7a4afd66ca
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397038"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486962"
 ---
 # <a name="customize-your-organizations-app-store-in-microsoft-teams"></a>Microsoft Teams で組織のアプリ ストアをカスタマイズする
 
@@ -36,23 +36,11 @@ Teams **アプリ** > の [ストアのカスタマイズ] を選択すると、
 <a name="orglogo"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-ここでは、組織のロゴをアップロードできます。 選択したロゴは、Teams クライアントの **[アプリ]** > **[Built for your tenant]** (テナント向けに構築) ページに表示されます。
+ここでは、組織のロゴをアップロードできます。 選択したロゴは、組織の [ **アプリ** > **のビルド]** ページの Teams クライアントに表示されます。
 
 **[画像の選択]** オプションを選択すると、任意のファイルをアップロードできます。 ロゴは 240 x 60 にする必要があります。または、そのサイズにスケーリングされます。 5 MB 以下にする必要があります。 サポートされている形式は、.svg、.png、.jpg です。
 
 ロゴは、Teams ストアのテナント アプリ カタログの右上隅に表示されます。
-
-## <a name="customize-your-small-logo"></a>小さいロゴをカスタマイズする
-
-<!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
-<a name="orglogomark"> </a>
-<!-- Do not remove the bookmark link above. -->
-
-組織のロゴ マークまたは小さいロゴは、組織のブランドを表すイメージまたはシンボルであり、会社名は含まれません。 lovemark は、チーム メンバーがアプリ ストアを識別するのに役立ちます。 選択したロゴは、Teams クライアントの [アプリ] ページに表示されます。
-
-**[画像の選択]** オプションを選択し、任意のファイルをアップロードします。 ロゴ マークの解像度を最大 32 x 32 ピクセルに保ちます。そうしない場合、この解像度にダウンサンプリングされます。 ファイル サイズは 5 MB 未満にしてください。 サポートされている形式は、.svg、.png、.jpg です。
-
-Teams Store には、**[Built for your tenant]** (テナント向けに構築) セクションの横にロゴが表示されます。
 
 ## <a name="customize-the-background-color"></a>背景色をカスタマイズする
 
@@ -60,7 +48,7 @@ Teams Store には、**[Built for your tenant]** (テナント向けに構築) �
 <a name="custombackground"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-ユーザーがテキストを明確に読むことができるように、背景にテキストとの十分なコントラストがあることを確認します。 背景は、Teams クライアントの **[アプリ]** > **[Built for your tenant]** (テナント向けに構築) ヘッダーに表示されます。
+ユーザーがテキストを明確に読むことができるように、背景にテキストとの十分なコントラストがあることを確認します。 背景は、**組織ヘッダー用にビルドされた****アプリ** > の Teams クライアントに表示されます。
 
 オプションは次のとおりです。
 
@@ -76,7 +64,7 @@ Teams Store には、**[Built for your tenant]** (テナント向けに構築) �
 <a name="textcolor"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-エンド ユーザーが組織の名前を明確に読み取ることができるように、背景と比較してテキストの色に十分なコントラストを与えます。 テキストは、Teams クライアントの **[アプリ]** > **[Built for your tenant]** (テナント向けに構築) ヘッダーに表示されます。
+エンド ユーザーが組織の名前を明確に読み取ることができるように、背景と比較してテキストの色に十分なコントラストを与えます。 テキストは、**組織ヘッダー用に作成された****アプリ** > の Teams クライアントに表示されます。
 
 **[カスタム色の選択]** を選ぶと、カラー選択子が開きます。 カラー選択子のスケールを調整して、目的の色を選択します。
 

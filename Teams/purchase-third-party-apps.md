@@ -15,12 +15,12 @@ description: クレジット カード、デビット カード、または請�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 680f48fd75c85b219a4c1ed5b18289962637401b
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 53a630fd887bd793f2b811e97e176cbd40ec1d0d
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396308"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486722"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>Teams 用のサードパーティ製アプリを購入する
 
@@ -28,7 +28,7 @@ Teams アプリは無料でインストールでき、アプリの完全な機�
 
 Microsoft Teams 管理センターの [[アプリの管理]](manage-apps.md) は、管理者が組織用のすべての Teams アプリを表示および管理できる場所です。 たとえば、アプリの組織レベルの状態とプロパティの表示、組織のアプリ ストアへの新しいカスタム アプリのアップロード、組織レベルでのアプリのブロックまたは許可、組織全体のアプリ設定の管理を行うことができます。
 
-ここでは、組織内のユーザーに対してサード パーティ製アプリによって提供されるサービスのライセンスを購入することもできます。 表の **[ライセンス]** 列は、アプリで購入用の SaaS サブスクリプションを提供するかどうかを示します。
+ここでは、組織内のユーザーに対してサード パーティ製アプリによって提供されるサービスのライセンスを購入することもできます。 表の **[ライセンス]** 列は、アプリで購入用の SaaS サブスクリプションを提供するかどうかを示します。 エンド ユーザーは、クレジット カード、デビット カード、または請求書の請求を使用してアプリを購入できます。
 
 ![購入ライセンスの アプリの管理 ページのスクリーンショット。](media/manage-apps-new-page.png)
 

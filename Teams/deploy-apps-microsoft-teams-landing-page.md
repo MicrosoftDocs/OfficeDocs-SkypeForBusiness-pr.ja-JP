@@ -19,18 +19,18 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 78f0f0857884f70d5e758b1c52e13341c15faa0e
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 0a6bfa577df36eba83b4764aa4eb819d1085432a
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397198"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486912"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Microsoft Teams アプリを理解する
 
 アプリは、職場のツールとサービスをまとめ、他のユーザーと共同作業する優れた方法です。 アプリは、エンド ユーザーの日常業務における生産性向上、共同作業、効率化に役立ちます。 組織は、顧客とつながり、サービスを提供し、情報を共有するためにアプリを使用します。 たとえば、エンド ユーザーは、他のユーザーとすばやく共同で作業するために Teams にピン留めされた予定表アプリ、Teams チャネルで Web サービスの品質をユーザーに通知するボット機能を備えたアプリ、チャネル内のさまざまなエンド ユーザーとタスクを共有して割り当てるアプリなどを使用します。
 
-Teams ストアで検証およびセキュリティで保護されたアプリの広範なカタログを使用すると、エンドユーザーは組織が毎日必要とするツールとサービスにアクセスできます。 Microsoft Teams アプリは、展開する必要のない Web ベースの SaaS アプリです。 エンドユーザーは、ユーザーが [提供したアクセス許可](app-policies.md)のみに基づいて Teams でアプリを使用できます。 管理者は、エンタープライズ レベルのポリシーを使用して、組織のユーザーに対して任意のアプリを許可またはブロックします。 会議、チャット、チャネルなどのさまざまなコンテキストで、各ユーザーのアプリの可用性を制御します。
+Teams Store の検証済みおよびセキュリティで保護されたアプリの広範な [カタログ](https://appsource.microsoft.com/en-US/marketplace/apps?product=office%3Bteams&page=1) では、組織が毎日必要とするツールとサービスへのアクセスをエンド ユーザーに提供します。 Microsoft Teams アプリは、展開する必要のない Web ベースの SaaS アプリです。 エンドユーザーは、ユーザーが [提供したアクセス許可](app-policies.md)のみに基づいて Teams でアプリを使用できます。 管理者は、エンタープライズ レベルのポリシーを使用して、組織のユーザーに対して任意のアプリを許可またはブロックします。 会議、チャット、チャネルなどのさまざまなコンテキストで、各ユーザーのアプリの可用性を制御します。
 
 この記事は、アプリの種類と、ユーザーがそれらのアプリにアクセスする場所を理解することに役立ちます。 アプリの使用方法の詳細については、「[エンドユーザー向けアプリの概要](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)」を参照してください。
 

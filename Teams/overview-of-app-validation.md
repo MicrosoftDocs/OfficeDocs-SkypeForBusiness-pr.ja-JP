@@ -2,7 +2,7 @@
 title: Microsoft によるアプリの検証とアプリのテストの概要
 description: マーケットプレイス認定ポリシーに基づく Teams アプリの検証ガイドラインについて説明します。 Teams アプリが高水準のプライバシーとセキュリティに準拠していることを Microsoft がどのように保証しているかを理解します。
 ms.topic: article
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 audience: admin
@@ -17,12 +17,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d7d705d09dc9ded8ee2b831e41ed18921fbb7381
-ms.sourcegitcommit: a4a65283e85d0c393c844dfd335df0d48e0e4105
+ms.openlocfilehash: 3ac3cc841c243558581ff1e3dfad3d3e2a8e4197
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "67314009"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67487112"
 ---
 # <a name="validation-performed-by-microsoft-for-all-teams-apps"></a>Microsoft がすべての Teams アプリに対して実行する検証
 
