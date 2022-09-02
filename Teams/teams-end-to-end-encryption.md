@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5865494b94c280295d13e0f99303bc76d1fc274
-ms.sourcegitcommit: 140c34f20f9cd48d7180ff03fddd60f5d1d3459f
-ms.translationtype: HT
+ms.openlocfilehash: e090c465b46370367d96a782e12f38161465ce33
+ms.sourcegitcommit: 479e236aa8a9a91df4894ed3cce4c287a1354d80
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "65249009"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "67572087"
 ---
 # <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls"></a>1 対 1 の Microsoft Teams 通話にエンドツーエンドの暗号化を使用する
 
@@ -34,6 +34,8 @@ ms.locfileid: "65249009"
 エンド ツー エンド暗号化 (E2EE) は、コンテンツが送信される前に暗号化され、意図していた受信者によってのみ復号化された場合にのみ発生します。 エンドツーエンドの暗号化では、2 つのエンドポイント システムのみが通話データの暗号化と復号化に関与します。 マイクロソフトを含む他の当事者は、復号化された会話にアクセスできません。
 
 予定外の 1 対 1 の通話用の E2EE を使用すると、1 対 1 の Teams 通話のリアルタイム メディア フロー (ビデオと音声データ) のみがエンドツーエンドで暗号化されます。 エンドツーエンドの暗号化を有効にするには、この設定をオンにする必要があります。 [Microsoft 365 の暗号化](/microsoft-365/compliance/encryption)は、通話内のチャット、ファイル共有、プレゼンス、およびその他のコンテンツを保護します。
+
+エンド ツー エンドの暗号化された呼び出しは、Windows または Mac 用の Teams デスクトップ クライアントの最新バージョンを使用している場合、iOS と Android 用の最新の更新プログラムを搭載したモバイル デバイス上にある場合、または最新の更新プログラムを使用して Windows デバイスでTeams Roomsされている場合に、2 つの関係者間で行うことができます。
 
 エンドツーエンドの暗号化を有効にしない場合でも、Teams は業界標準に基づく暗号化を使用して通話や会議をセキュリティで保護します。 通話中に交換されるデータは、転送中および保存中は常に安全です。 詳細については、「[Teams のメディアの暗号化](teams-security-guide.md#media-encryption)」を参照してください。
 

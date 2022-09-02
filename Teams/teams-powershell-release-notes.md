@@ -13,12 +13,12 @@ ms.collection:
 description: Teams PowerShell の最新の変更について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fc979e9c4c6aa12fb4538210ad5c5264ad49aa6
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: c83627143718f003675d8fbe1992dace9c864b5a
+ms.sourcegitcommit: 479e236aa8a9a91df4894ed3cce4c287a1354d80
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396678"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "67572057"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell リリース ノート
 
@@ -31,6 +31,7 @@ ms.locfileid: "67396678"
 
 | 日付 | バージョン | 更新 |
 |------- | -------------------- | ------------------------------ |
+| 2022 年 9 月 | [4.7.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.7.0) |<li>PS ISE および dotnet アプリケーションでモジュールを使用する場合のプロセスクリーンアップに関する問題を修正しました。</li><li>GA の [Get\|New]-CsBatchTeamsDeployment コマンドレットをリリースします。</li><li>UKG ディメンションのサポートTest-CsTeamsShiftsConnectionValidate[新しい\|セット]-CSTeamsShiftsConnectionInstance をリリースします。</li><li>Connect-MicrosoftTeams の AccountId パラメーターを使用して複数のアカウントを選択するときに、トークンフェッチが正しくない問題を修正しました。</li><li>電話会議モード&プレゼンス モード属性の既定値は、コマンドレットの場合は false から true に変更New-CsCallQueue。</li>
 | 2022 年 8 月 | [4.6.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.6.1-preview) |<li>PS ISE および dotnet アプリケーションでモジュールを使用する場合のプロセスクリーンアップに関する問題を修正しました。</li>
 | 2022 年 7 月 | [4.6.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.6.0) |<li>特定の種類のユーザーに対するクエリを実行できる、Get-CsOnlineUser コマンドレットの AccountType パラメーターを解放します。</li><li>AccountType 属性は、ユーザーの種類を示すGet-CsOnlineUser出力に追加されます。 AccountType の使用可能な値は、'User' (ユーザー アカウント)、'ResourceAccount' (アプリ エンドポイントまたはリソース アカウント)、'ゲスト' (ゲスト アカウント) & '不明' (ユーザーの種類は不明) です。</li><li>Grant-Cs コマンドレットのランク & グループ パラメーターに関する問題を\<PolicyName\> 修正します。</li><li>リリース [\|Get Set\|New\|Remove\|Grant]-CsTeamsEventsPolicy コマンドレット。</li><li>非推奨の&サポートされていないコマンドレットをすべて削除します。 [Teams PowerShell でサポートされているバージョンの](teams-powershell-supported-versions.md#deprecated-cmdlets)詳細。</li><li>[New\|Get]-CsCloudCallDataConnection コマンドレットの最新バージョンをリリースします。</li><li>[Get\|Remove]-SharedWithTeam コマンドレットをリリースします。</li><li>コマンドレットGet-TeamAllChannelリリースします。</li><li>コマンドレットGet-TeamIncomingChannelリリースします。</li><li>コマンドレットGet-AssociatedTeamリリースします。</li><li>コマンドレットGet-SharedWithTeamUserリリースします。</li><li>Add-TeamChannelUser コマンドレットの TenantId 省略可能なパラメーターをサポートします。</li><li>[Remove\|Set]-TeamTargetingHierarchy コマンドレットGet-TeamTargetingHierarchyStatus &リリースします。</li>
 | 2022 年 7 月 | [4.5.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.5.1-preview) |<li>特定の種類のユーザーに対するクエリを実行できる、Get-CsOnlineUser コマンドレットの AccountType パラメーターを解放します。</li><li>AccountType 属性は、ユーザーの種類を示すGet-CsOnlineUser出力に追加されます。 AccountType の使用可能な値は、'User' (ユーザー アカウント)、'ResourceAccount' (アプリ エンドポイントまたはリソース アカウント)、'ゲスト' (ゲスト アカウント) & '不明' (ユーザーの種類は不明) です。</li><li>Grant-Cs コマンドレットのランク & グループ パラメーターに関する問題を\<PolicyName\> 修正します。</li>
