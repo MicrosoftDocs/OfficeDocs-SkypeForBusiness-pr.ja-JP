@@ -1503,6 +1503,8 @@ items:
         href: deploy-apps-microsoft-teams-landing-page.md
       - name: Microsoft が提供する アプリを管理する
         items:
+          - name: 管理 アプリを管理する
+            href: manage-admin-app.md
           - name: Bookings アプリを管理する
             href: bookings-app-admin.md
           - name: Teams で組織のリスト アプリを管理する
