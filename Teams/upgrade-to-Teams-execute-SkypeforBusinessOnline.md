@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Skype for Business Online 展開から組織をMicrosoft Teamsにアップグレードする方法について説明します。
+description: Skype for Business Online 展開から Microsoft Teams に組織をアップグレードする方法について説明します。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49376910ce9ca0f777533e950600a19bd440c27f
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 5da45fcc5a9459b909e03f0d4e904b57d9a3f0fa
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64846556"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590214"
 ---
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>Skype for Business Online から Teams にアップグレードする
 
@@ -41,30 +41,30 @@ ms.locfileid: "64846556"
 - [組織を準備した](./upgrade-prepare-organization.md)
 - [パイロットを実施した](./pilot-essentials.md)
 
-Skype for Business Online を完全に展開し、ユーザーをSkype for BusinessからTeamsにアップグレードする場合は、この記事のガイダンスに従ってください。 適切な共存モードとアップグレード モードをユーザーに割り当てることで、組織が選択したアップグレード体験に基づいて、ユーザーを選択的またはオールインでアップグレードできます。
+Skype for Business Online を完全に展開し、ユーザーを Skype for Business から Teams にアップグレードする場合は、この記事のガイダンスに従ってください。 適切な共存モードとアップグレード モードをユーザーに割り当てることで、組織が選択したアップグレード体験に基づいて、ユーザーを選択的またはオールインでアップグレードできます。
 
 > [!IMPORTANT]
 > Skype for Business Online は 2021 年 7 月 31 日に廃止されました。 移行によるメリットを最大限に高め、アップグレード実施のための時間を組織で十分確保できるよう、Microsoft Teams への移行をすぐに開始することをお勧めします。 アップグレードが成功すると、技術面およびユーザーの準備が整ったことになります。Microsoft Teams への移行を進める際には、必ずこのガイドを活用してください。
 
 ## <a name="assign-the-coexistence-and-upgrade-mode"></a>共存モードとアップグレード モードを割り当てる
 
-TeamsUpgradePolicy の UpgradeToTeams インスタンスを割り当てることで、ユーザーを TeamsOnly モードにアップグレードできます。これは、Microsoft Teams管理センターまたはSkype for Businessリモート Windows PowerShell セッションを使用して実行できます。 これを行うには、ユーザーごとに行うか、テナント全体を 1 つの手順でアップグレードする場合はテナント全体で行うことができます。 
+Microsoft Teams 管理センターまたはSkype for Businessリモート Windows PowerShell セッションを使用して実行できる TeamsUpgradePolicy の UpgradeToTeams インスタンスを割り当てることで、ユーザーを TeamsOnly モードにアップグレードできます。 これを行うには、ユーザーごとに行うか、テナント全体を 1 つの手順でアップグレードする場合はテナント全体で行うことができます。 
 
 詳細については、「[共存およびアップグレードを設定する](./setting-your-coexistence-and-upgrade-settings.md)」および「[TeamsUpgradePolicy: 移行と共存の管理](upgrade-to-teams-on-prem-tools.md)」を参照してください。
 
-## <a name="upgrade-all-users-to-teams-at-one-time"></a>すべてのユーザーを一度にTeamsにアップグレードする
+## <a name="upgrade-all-users-to-teams-at-one-time"></a>すべてのユーザーを Teams に一度にアップグレードする
 
-すべてのユーザーを一度にTeamsにアップグレードするには、次の手順に従います。
+すべてのユーザーを Teams に一度にアップグレードするには、次の手順に従います。
 
 ### <a name="step-1-notify-the-users-of-the-change-optional"></a>手順 1: 変更をユーザーに通知する (省略可能)
 
-1. Microsoft Teams管理センターで、**Teams** >  **Teamsアップグレード設定** を選択します。
-2. **共存モード** で、[**Teamsへのアップグレードが利用可能であることをユーザーに通知Skype for Business]** スイッチを **[オン]** に変更します。
+1. Microsoft Teams 管理センターで、 **Teams Teams** > **のアップグレード設定を選択します**。
+2. **共存モード** で、[**Teams へのアップグレードが利用可能であることをユーザーに通知Skype for Business]** スイッチを **[オン]** に変更します。
 
 ### <a name="step-2-set-the-coexistence-mode-to-teamsonly-for-the-organization"></a>手順 2: 共存モードを組織の TeamsOnly に設定する
 
-1. Microsoft Teams管理センターで、**Teams** >  **Teamsアップグレード設定** を選択します。
-2. 共存モードドロップダウン リストから **Teamsのみ****モード** を選択します。
+1. Microsoft Teams 管理センターで、 **Teams Teams** > **のアップグレード設定を選択します**。
+2. [共存モード] ドロップダウン リストから [**Teams のみ****] モード** を選択します。
 
 ## <a name="upgrade-users-in-stages"></a>段階的にユーザーをアップグレードする
 
@@ -72,36 +72,36 @@ TeamsOnly にユーザーを段階的にアップグレードする場合は、�
 
 ### <a name="step-1-identify-groups-of-users-for-upgrade"></a>手順 1: アップグレードするユーザーのグループを特定する
 
-多くの場合、組織は、ユーザーの成功の波で組織をアップグレードすることを選択できます。  最初にこれらのユーザーを識別し、Microsoft Teams管理センターで簡単に検索できるようにします。 または、PowerShell を使用してこれをより効率的に行うこともできます。 特定のアップグレードウェーブの一連のユーザーを特定したら、残りの手順に進みます。
+多くの場合、組織は、ユーザーの成功の波で組織をアップグレードすることを選択できます。  Microsoft Teams 管理センターでユーザーを簡単に検索できるように、最初にこれらのユーザーを識別する必要があります。 または、PowerShell を使用してこれをより効率的に行うこともできます。 特定のアップグレードウェーブの一連のユーザーを特定したら、残りの手順に進みます。
 
 ### <a name="step-2-set-notification-for-the-users-in-the-current-upgrade-wave-optional"></a>手順 2: 現在のアップグレードウェーブのユーザーに通知を設定する (省略可能)
 
-Microsoft Teams管理センターを使用している場合は、最大 20 人のユーザーに対して TeamsUpgradePolicy を一度に構成できます。
-1. Microsoft Teams管理センターで [**ユーザー**] を選択し、アップグレードする必要がある最大 20 人のユーザーのチェック ボックスを見つけて複数選択します。 
+Microsoft Teams 管理センターを使用している場合は、最大 20 人のユーザーに対して TeamsUpgradePolicy を一度に構成できます。
+1. Microsoft Teams 管理センターで [ **ユーザー**] を選択し、アップグレードする必要がある最大 20 人のユーザーのチェック ボックスを見つけて複数選択します。 
 2. リストビューの左上隅にある **[設定の編集]** を選択します。 
-3. 右側の **[設定の編集]** ウィンドウの [**Teamsのアップグレード**] で、[**Skype for Businessユーザーに通知]** スイッチを **[オン]** に変更します。 注: 共存モードの値が "組織全体の設定を使用する" の場合、このスイッチは表示されないため、最初にこれらのユーザーの共存モードを組織の既定値に明示的に設定する必要があります。
+3. 右側の **[設定の編集]** ウィンドウの [**Teams のアップグレード**] で、[**Skype for Businessユーザーへの通知**] スイッチを **[オン]** に変更します。 注: 共存モードの値が "組織全体の設定を使用する" の場合、このスイッチは表示されないため、最初にこれらのユーザーの共存モードを組織の既定値に明示的に設定する必要があります。
 
-または、PowerShell を使用してユーザーのグループの通知を一度に有効にする方が簡単な場合があります。 
+または、PowerShell を使用してユーザーのグループの通知を一度に有効にする方が簡単な場合があります。 詳細については、「 [Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy)」を参照してください。
 
-### <a name="step-3-set-the-coexistence-mode-for-users-to-teams-only"></a>手順 3: ユーザーの共存モードを [Teamsのみ] に設定する
+### <a name="step-3-set-the-coexistence-mode-for-users-to-teams-only"></a>手順 3: ユーザーの共存モードを Teams のみに設定する
 
-現在のウェーブのユーザーをアップグレードしてTeamsを唯一のアプリケーションとして使用する準備ができたら、ユーザーの共存モードを [Teams のみ] に設定します。
+Teams を唯一のアプリケーションとして使用するように現在のウェーブのユーザーをアップグレードする準備ができたら、ユーザーの共存モードを Teams のみに設定します。
 
-Microsoft Teams管理センターを使用している場合は、最大 20 人のユーザーに対して TeamsUpgradePolicy を一度に構成できます。
-1. Microsoft Teams管理センターで [**ユーザー**] を選択し、最大 20 人のユーザーのチェック ボックスをオンにします。
+Microsoft Teams 管理センターを使用している場合は、最大 20 人のユーザーに対して TeamsUpgradePolicy を一度に構成できます。
+1. Microsoft Teams 管理センターで [ **ユーザー**] を選択し、最大 20 人のユーザーのチェック ボックスをオンにします。
 2. リストビューの左上隅にある **[設定の編集]** を選択します。
-3. 右側の [**設定の編集]** ウィンドウの [**Teamsアップグレード**] セクションで、共存モードをドロップダウン リストの **[Teamsのみ**] に設定します。
+3. 右側の [ **設定の編集]** ウィンドウの [ **Teams のアップグレード** ] セクションで、共存モードをドロップダウン リストの **[Teams のみ** ] に設定します。
 
-または、PowerShell を使用してユーザーのグループを一度にアップグレードする方が簡単な場合もあります。 
+または、PowerShell を使用してユーザーのグループを一度にアップグレードする方が簡単な場合もあります。 詳細については、「 [Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy)」を参照してください。
 
 ### <a name="step-4-repeat-steps-1-3-for-successive-waves-of-users"></a>手順 4: 連続するユーザーのウェーブに対して手順 1 ~ 3 を繰り返す
 
-Teamsのみモードへのアップグレードを検証し、展開する準備ができたら、前の手順を繰り返して TeamsOnly を他のユーザーに適用します。  
+Teams Only モードへのアップグレードを検証し、展開する準備ができたら、前の手順を繰り返して TeamsOnly を他のユーザーに適用します。  
 
 
-## <a name="phone-system-and-pstn-connectivity-options"></a>電話システムと PSTN 接続オプション
+## <a name="phone-system-and-pstn-connectivity-options"></a>電話システムと PSTN の接続オプション
 
-Teamsの電話システムは、ユーザーが TeamsOnly モードになった後でサポートされます。 (ユーザーがアイランド モードの場合、電話システムはSkype for Businessでのみサポートされます)。  
+Teams を使用した電話システムは、ユーザーが TeamsOnly モードの後でサポートされます。 (ユーザーがアイランド モードの場合、電話システムはSkype for Businessでのみサポートされます)。  
 
 ### <a name="pstn-connectivity-options"></a>PSTN 接続オプション
 

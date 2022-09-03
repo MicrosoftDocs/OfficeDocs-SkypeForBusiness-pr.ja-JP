@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: 管理者は、Microsoft Teams Rooms の累積的な改善リストである Microsoft Teams Rooms のリリース ノートを参照できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9460694aec7a6b7f7c7f1648d8f9512ded4c01f7
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d6cb8e8e01490f4c150ab77c1f4e6d896e6a2bce
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270082"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590184"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams Roomsのリリース ノート
 
@@ -40,6 +40,7 @@ Teams Roomsは、モダン ライフサイクル ポリシーによって管理�
 
 |リリース |公開日 <br/> Microsoft Store |
 |--- |--- |
+|4.14.24.0 |9/2/2022 |
 |4.13.132.0 |8/2/2022 |
 |4.12.139.0 |7/14/2022 |
 |4.12.138.0 |5/26/2022 |
@@ -94,6 +95,19 @@ Teams Roomsは、モダン ライフサイクル ポリシーによって管理�
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams Rooms 機能の概要と問題の解決
+
+### <a name="414240-922022"></a>4.14.24.0 (9/2/2022)
+
+この更新プログラムで導入されるもの:
+
+- フロント行レイアウト エクスペリエンス更新 <sup>プログラム 1</sup> 
+- ルームビデオのピン留めと非表示 <sup>1</sup> 
+- デュアルディスプレイ Teams Rooms <sup>1</sup> で分割ギャラリーをオフにするための管理者構成
+- デュアルディスプレイ Teams Roomsが最大 18 の参加者ビデオ ストリーム <sup>2</sup> を表示できるようになりました
+
+<sup>1</sup> XML を使用して分割ギャラリーをオフにするための管理者構成については、「XML [構成ファイルを使用してリモートでMicrosoft Teams Roomsコンソール設定を管理する」を参照](../rooms/xml-config-file.md)してください。
+
+<sup>2</sup> この機能は Teams Web クライアントにロールアウトされ、完了するまで約 2 週間かかります。 詳細については、「 [Teams の更新プログラム」を](../teams-client-update.md)参照してください。
 
 ### <a name="4131320-822022"></a>4.13.132.0 (8/2/2022)
 

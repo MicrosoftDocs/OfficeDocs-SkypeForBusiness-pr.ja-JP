@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c94b1c7f33de136eea33ec7905e1e37a9ceb0e2
-ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
+ms.openlocfilehash: 6b3251160c0ce44b02fffe4ff50c078a529c5d00
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/11/2022
-ms.locfileid: "66713365"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590204"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携
 
@@ -47,10 +47,10 @@ Exchange Online 専用 (レガシ) にホストされるユーザーは、Micros
 
 | ユーザーのメールボックスのホスト先:                                       | 電子情報開示         | 法的な&nbsp;保全    | 保持        | チームとチャネルの管理 | Teams で会議を作成して表示する | ユーザー プロフィールの写真を変更する | 通話履歴 | 連絡先の管理 | Outlook の連絡先へのアクセス | ボイスメール        | コネクタを追加して構成する | タブを追加して構成する | ボットを追加して構成する | 不在時の設定を変更する |
 |--------------------------------------------------------------------|--------------------|--------------------|------------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------------|------------------------------|------------------------|------------------------|------------------------|
-| **Exchange Online**                                                | はい <sup>1</sup>   | はい <sup>1</sup>   | はい              | はい                   | はい                               | はい<sup>7</sup>             | はい          | はい             | はい <sup>6</sup>        | はい              | はい                          | はい                    | はい                    | はい                    
-| **Exchange Online 専用 vNext**                                | はい <sup>1</sup>   | はい <sup>1</sup>   | はい              | はい                   | はい                               | はい<sup>7</sup>             | はい          | はい             | はい <sup>6</sup>        | はい              | はい                          | はい                    | はい                    | はい                    
-| **Exchange Online 専用 – レガシー** (Azure AD との同期が必要) | はい <sup>1</sup>   | はい <sup>1,2</sup> | はい <sup>3</sup> | はい                   | いいえ                                | いいえ                          | はい          | はい             | いいえ                      | はい <sup>4</sup> | はい <sup>5</sup>             | はい                    | はい                    | はい                    
-| **Exchange On-premises** (Azure AD との同期)                        | はい <sup>1,9</sup> | はい <sup>1</sup>   | はい <sup>3</sup> | はい                   | はい <sup>8</sup>                  | はい<sup>10</sup>            | はい          | はい             | いいえ                      | はい <sup>4</sup> | はい <sup>5</sup>             | はい                    | はい                    | いいえ                      
+| **Exchange Online**                                                | はい <sup>1</sup>   | はい <sup>1</sup>   | はい              | Yes                   | Yes                               | はい<sup>7</sup>             | はい          | Yes             | はい <sup>6</sup>        | はい              | Yes                          | はい                    | Yes                    | Yes                    
+| **Exchange Online 専用 vNext**                                | はい <sup>1</sup>   | はい <sup>1</sup>   | はい              | Yes                   | Yes                               | はい<sup>7</sup>             | はい          | Yes             | はい <sup>6</sup>        | はい              | Yes                          | Yes                    | Yes                    | はい                    
+| **Exchange Online 専用 – レガシー** (Azure AD との同期が必要) | はい <sup>1</sup>   | はい <sup>1,2</sup> | はい <sup>3</sup> | はい                   | いいえ                                | いいえ                          | Yes          | はい             | いいえ                      | はい <sup>4</sup> | はい <sup>5</sup>             | はい                    | Yes                    | Yes                    
+| **Exchange On-premises** (Azure AD との同期)                        | はい <sup>1,9</sup> | はい <sup>1</sup>   | はい <sup>3</sup> | はい                   | はい <sup>8</sup>                  | はい<sup>10</sup>            | Yes          | Yes             | いいえ                      | はい <sup>4</sup> | はい <sup>5</sup>             | はい                    | Yes                    | いいえ                      
 
 <sup>1</sup> チャネル メッセージのコンプライアンスに関する電子情報開示および法的な保全は、すべてのホスティング オプションでサポートされています。
 
@@ -86,7 +86,7 @@ Microsoft Teams では、Microsoft 365 や Office 365 のさまざまなサー�
 - ユーザーが Microsoft Teams でチームを作成するためには、Microsoft 365 グループの作成について有効になっている必要があります。
 
   > [!IMPORTANT]
-  > ユーザーを **[Teams のみ]** モードにした後に Skype for Business クライアントをアンインストールすると、Outlook および Office アプリでプレゼンスが機能しなくなる場合があります。 プレゼンスは Teams では正常に機能します。 この問題を解決するには、Microsoft Teams の右上隅にあるプロフィール画像を選択し、**[設定]** を選択します。 **[アプリケーション]** の下にある **[一般]** タブの、**[Teams を Office 用のチャット アプリとして登録します (Office アプリケーションを再起動する必要があります)]** を選択します。 このオプションを選択したら、Outlook を含むすべての Office アプリを閉じて、もう一度開きます。 Outlook を開くと、プレゼンス情報が表示されます。
+  > ユーザーを **[Teams のみ]** モードにした後に Skype for Business クライアントをアンインストールすると、Outlook および Office アプリでプレゼンスが機能しなくなる場合があります。 プレゼンスは Teams では正常に機能します。 この問題を解決するには、Microsoft Teams の右上隅にあるプロファイル画像の左側にある省略記号ボタンを選択し、[ **設定]** を選択します。 **[アプリケーション]** の下にある **[一般]** タブの、**[Teams を Office 用のチャット アプリとして登録します (Office アプリケーションを再起動する必要があります)]** を選択します。 このオプションを選択したら、Outlook を含むすべての Office アプリを閉じて、もう一度開きます。 Outlook を開くと、プレゼンス情報が表示されます。
 
 ## <a name="requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises"></a>オンプレミスでホストされているメールボックスの会議を作成および表示するための要件
 

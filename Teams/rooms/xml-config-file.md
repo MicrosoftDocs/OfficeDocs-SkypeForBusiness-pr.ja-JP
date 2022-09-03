@@ -17,12 +17,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: カスタム テーマの適用やマスター設定ファイルの作成など、Microsoft Teams Rooms デバイスで使用される既定の設定のリモート管理について説明します。
-ms.openlocfilehash: df9cc718ddcedb9745807dadd70c8e1a78748c6f
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 74ae005ceae3c17d64403990eda067e3d8bd7cfc
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272102"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590164"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Microsoft Teams Rooms のコンソールの設定を、XML 構成ファイルを使用してリモートで管理する
 
@@ -52,7 +52,7 @@ ms.locfileid: "67272102"
   <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
   <SfbMeetingEnabled>true</SfbMeetingEnabled>
   <IsTeamsDefaultClient>true</IsTeamsDefaultClient>
-  <WebexMeetingsEnabled>true</WebexMeetingsEnabled>
+  <WebExMeetingsEnabled>true</WebExMeetingsEnabled>
   <ZoomMeetingsEnabled>true</ZoomMeetingsEnabled>
   <UseCustomInfoForThirdPartyMeetings>true</UseCustomInfoForThirdPartyMeetings>
   <CustomDisplayNameForThirdPartyMeetings>guestname</CustomDisplayNameForThirdPartyMeetings>
@@ -106,6 +106,8 @@ ms.locfileid: "67272102"
       <ExtendedFoRDisplayResolution>1920,1080</ExtendedFoRDisplayResolution> 
       <ExtendedFoRDisplayScaling>100</ExtendedFoRDisplayScaling> 
   </ExtendedFoRDisplay>  
+  <EnableDeviceEndToEndEncryption>false</EnableDeviceEndToEndEncryption>
+  <SplitVideoLayoutsDisabled>false</SplitVideoLayoutsDisabled>
 </SkypeSettings>
 ```
 
@@ -169,12 +171,14 @@ ms.locfileid: "67272102"
 | `<Video>`                                   | ブール値 &#x2777;            |                | Teams ミーティング デバイスのビデオ構成を制御します。 この要素には 2 つの属性があります。<br><ul><li><b>既定</b>会議の開始時にカメラをアクティブにするデバイスを決定します。 最適な操作性を実現するために、他のすべてのデバイスが`false`に設定されている間は、Teams ミーティング デバイスだけを`true`に設定することをお勧めします。</li><li><b>有効</b>会議の参加者がカメラのオンとオフを切り替えられるようにするかどうかを決定します。 参加者が、Surface Hub ホワイトボードを使用している場合など、イベント参加者が別のデバイスで`true`に設定することができるようにします。 参加者がデバイスでカメラのオンとオフを切り替えることができないようにする場合は、`false`に設定します。<p> **ビデオの既定** が`true`に設定されている場合、**ビデオが有効** 設定は無視され、参加者はビデオのオンとオフを切り替えることができます。</li></ul> |
 | `<Whiteboard>`                              | ブール値 &#x2777;            |                | Teams ミーティング デバイスのホワイトボード構成を制御します。 この要素には 2 つの属性があります。<br><ul><li><b>既定</b>会議の開始時にホワイトボードをアクティブにするデバイスを決定します。 最適な操作性を実現するために、Teams ミーティング デバイスを`false`に設定し、Surface Hub でホワイトボードを使うことをお勧めします。</li><li><b>有効</b>会議の参加者がホワイトボードのオンとオフを切り替えられるようにするかどうかを決定します。 参加者がデバイスでホワイトボードのオンとオフを切り替えることができないようにする場合は、`false`に設定します。<p> **ホワイトボードの既定** が`true`に設定されている場合、**ホワイトボードが有効** 設定は無視され、参加者はホワイトボードのオンとオフを切り替えることができます。</li></ul>                                                                                                                                                   |
 | `<EnableResolutionAndScalingSetting>` | ブール値 &#x2777; | First &#x2776; | 既定では無効になっています。 Front of Room の解像度とスケーリングを変更する場合は、true に設定します。 true の場合、表示の解像度とスケールの設定が適用されます。 この設定が有効になると、メイン FoR と Extended FoR の両方に影響します。 |
-| `<MainFoRDisplay>` | コンテナー | | デバイスが単一表示モードを使用している場合は、このコンテナーを使用します。<br><br>デュアルディスプレイ モードでは、メイン フロント オブ ルーム (FoR) は、クロック (会議外) とセルフプレビュー ビデオ (会議中) を備えた画面です。 `<MainFoRDisplayResolution>` 一 `<MainFoRDisplayScaling>` 度に一緒に設定する必要があります。 どちらか一方`<MainFoRDisplayResolution>``<MainFoRDisplayScaling>`のみを使用する場合は無視されます。 |
+| `<MainFoRDisplay>` | コンテナー |First &#x2776; | デバイスが単一表示モードを使用している場合は、このコンテナーを使用します。<br><br>デュアルディスプレイ モードでは、メイン フロント オブ ルーム (FoR) は、クロック (会議外) とセルフプレビュー ビデオ (会議中) を備えた画面です。 `<MainFoRDisplayResolution>` 一 `<MainFoRDisplayScaling>` 度に一緒に設定する必要があります。 どちらか一方`<MainFoRDisplayResolution>``<MainFoRDisplayScaling>`のみを使用する場合は無視されます。 |
 | `<MainFoRDisplayResolution>` | 文字列 | | 幅、高さ (1920,1080 など) の入力数値。 FoR でサポートされていない場合は無視されます。|
 | `<MainFoRDisplayScaling>` | 数値 | | スケーリングの数値を入力します。 有効な値は 100 (推奨)、125、150、175、200、225、250、300、350、400、450、500 です。 入力が 500 で、FoR が最大 300 をサポートしている場合は、300 に設定されます。|
-| `<ExtendedFoRDisplay>` | コンテナー | | デュアルディスプレイ モードでは、ルームの延長前面 (FoR) は、共有コンテンツ (会議中) を表示する画面です。  `<ExtendedFoRDisplayResolution>` 一 `<ExtendedFoRDisplayScaling>` 度に一緒に設定する必要があります。 どちらか一方`<ExtendedFoRDisplayResolution>``<ExtendedFoRDisplayScaling>`のみを使用する場合は無視されます。 |
+| `<ExtendedFoRDisplay>` | コンテナー |First &#x2776;| デュアルディスプレイ モードでは、ルームの延長前面 (FoR) は、共有コンテンツ (会議中) を表示する画面です。  `<ExtendedFoRDisplayResolution>` 一 `<ExtendedFoRDisplayScaling>` 度に一緒に設定する必要があります。 どちらか一方`<ExtendedFoRDisplayResolution>``<ExtendedFoRDisplayScaling>`のみを使用する場合は無視されます。 |
 | `<ExtendedFoRDisplayResolution>` | 文字列 | |Width、Height (1920,1080 など) の入力数値。 FoR が値をサポートしていない場合、値は無視されます。 |
 | `<ExtendedFoRDisplayScaling>` | 数値 | | スケーリングの数値を入力します。 有効な値は 100 (推奨)、125、150、175、200、225、250、300、350、400、450、500 です。 入力が 500 で、FoR が最大 300 をサポートしている場合は、300 に設定されます。 |
+| `<EnableDeviceEndToEndEncryption>` | ブール値 &#x2777; | | 既定値は `false`. 1 対 1 の Teams 呼び出しに対してエンドツーエンドの暗号化を有効にするように指定 `true` します。 これを機能させるには、呼び出し元と受信者の両方でエンドツーエンドの暗号化を有効にする必要があります。 |
+| `<SplitVideoLayoutsDisabled>` |  ブール値 &#x2777; | | 既定値は `false`. この設定は、デュアルディスプレイ ルームにのみ適用されます。 両方の画面でビデオ ギャラリーの分割を無効にする場合に指定 `true` します。 これにより、フロント行のレイアウトと、フロント行レイアウトに関連付けられているすべての設定も無効になります。 |
 
 &#x2776; 第 1 レベルの要素はすべて省略可能です。 第 1 レベルの要素が省略されると、その子要素はすべて変更されないままデバイス上に残ります。
   

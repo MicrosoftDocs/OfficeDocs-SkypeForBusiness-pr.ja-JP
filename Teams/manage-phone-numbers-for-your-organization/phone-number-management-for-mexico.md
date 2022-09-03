@@ -17,12 +17,13 @@ ms.localizationpriority: medium
 ms.custom:
 - Calling Plans
 description: 次の表を使用して、Microsoft Teams のメキシコでの電話番号の取得と管理に関する情報を確認します。
-ms.openlocfilehash: a1b3304dc9b8185cdc419aae7260af3a3350421e
-ms.sourcegitcommit: d0cbc23e10219dd2889011421010215a5d246031
+ROBOTS: NOINDEX, NOFOLLOW
+ms.openlocfilehash: a7af7c01a740f953be40033e21b5cc3c7e5c6f68
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2022
-ms.locfileid: "67460722"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590334"
 ---
 # <a name="phone-number-management-for-mexico"></a>メキシコの電話番号管理
 
