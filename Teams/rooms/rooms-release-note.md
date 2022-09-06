@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: 管理者は、Microsoft Teams Rooms の累積的な改善リストである Microsoft Teams Rooms のリリース ノートを参照できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4905c22f974e464ed0079bad572623c83782cfda
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: cb76ac9da50a55dbf8a5df10ddab4f65cfdebcc7
+ms.sourcegitcommit: 2ecf98862aae607d0675418a6177be91f56af1f0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606236"
+ms.locfileid: "67607620"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams Roomsのリリース ノート
 
@@ -102,13 +102,13 @@ Teams Roomsは、モダン ライフサイクル ポリシーによって管理�
 
 - フロント行レイアウト エクスペリエンス更新 <sup>プログラム 1</sup> 
 - ルームビデオのピン留めと非表示 <sup>1</sup> 
-- デュアルディスプレイ Teams Rooms <sup>1</sup> で分割ギャラリーをオフにするための管理者構成
-- デュアルディスプレイ Teams Roomsが最大 18 の参加者ビデオ ストリーム <sup>2</sup> を表示できるようになりました
-- Microsoft Teams Rooms Pro および Microsoft Teams Room Basic ルーム ライセンス<sup>のサポート 2</sup>
+- デュアルディスプレイ Teams Rooms <sup>2</sup> で分割ギャラリーをオフにするための管理者構成
+- デュアルディスプレイ Teams Roomsが最大 18 の参加者ビデオ ストリーム <sup>1</sup> を表示できるようになりました
+- Microsoft Teams Rooms Pro および Microsoft Teams Room Basic ルーム ライセンス <sup>1</sup> のサポート
 
-<sup>1</sup> XML を使用して分割ギャラリーをオフにするための管理者構成については、「XML [構成ファイルを使用してリモートでMicrosoft Teams Roomsコンソール設定を管理する」を参照](../rooms/xml-config-file.md)してください。
+<sup>1</sup> この機能は Teams Web クライアントにロールアウトされ、この更新プログラムがリリースされてから完了するまでに約 2 週間かかります。 詳細については、「 [Teams の更新プログラム」を](../teams-client-update.md)参照してください。
 
-<sup>2</sup> この機能は Teams Web クライアントにロールアウトされ、この更新プログラムがリリースされてから完了するまでに約 2 週間かかります。 詳細については、「 [Teams の更新プログラム」を](../teams-client-update.md)参照してください。
+<sup>2</sup> XML を使用して分割ギャラリーをオフにするための管理者構成については、「MICROSOFT TEAMS ROOMS [コンソール設定を XML 構成ファイルでリモートで管理する](../rooms/xml-config-file.md)」を参照してください。
 
 ### <a name="4131320-822022"></a>4.13.132.0 (8/2/2022)
 
