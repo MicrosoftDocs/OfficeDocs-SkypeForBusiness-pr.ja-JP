@@ -15,12 +15,12 @@ ms.reviewer: mikedav
 description: 電話会議、電話システム、通話プランなどの機能について、Teams アドオン ライセンスをユーザーに割り当てる方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3b482781ee29094986c310158fe74f02662f790d
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 6c10ba390d906681434ae56272e4f112911bfcff
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268172"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606056"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Teams アドオン ライセンスをユーザーに割り当てる
 
@@ -143,6 +143,10 @@ PowerShell を使用して Teams でライセンスを管理するときに参�
 | コミュニケーション クレジット | MCOPSTNPP |
 | 従量課金制通話プラン (ゾーン 1 の国) | MCOPSTN_PAYG_1 |
 | 従量課金制通話プラン (ゾーン 2 の国) | MCOPSTN_PAYG_2 |
+| Microsoft Teams Rooms Basic | Microsoft_Teams_Rooms_Basic |
+| 電話会議を使用しない基本Microsoft Teams Rooms | Microsoft_Teams_Rooms_Basic_without_Audio_Conferencing |
+| Microsoft Teams Rooms Pro | Microsoft_Teams_Rooms_Pro |
+| 電話会議を使用しないMicrosoft Teams Rooms Pro | Microsoft_Teams_Rooms_Pro_without_Audio_Conferencing |
 
 ## <a name="related-content"></a>関連コンテンツ
 

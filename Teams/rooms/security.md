@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Rooms
 description: Microsoft Teams Rooms デバイスをセキュリティで保護する方法について説明します。
-ms.openlocfilehash: 4814bd5930bd311bf79fc749a1e736d1c3645165
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 231039324e15afb7b24f194623e54455d51e85c2
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270052"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606216"
 ---
 # <a name="microsoft-teams-rooms-security"></a>Microsoft Teams Rooms セキュリティ
 
@@ -79,7 +79,7 @@ Teams Rooms デバイスには、既定のパスワード付きの "Admin" と�
 管理者アカウントは、Teams Rooms デバイスを適切に操作するために必要ではなく、名前を変更することもできるし、削除しても構いません。 ただし、管理者アカウントを削除する前に、Teams Rooms デバイスの出荷時に付属するものを削除する前に、別のローカル管理者アカウントが構成されていることを確認してください。 組み込みの Windows ツールまたは PowerShell を使用してローカル Windows アカウントのパスワードを変更する方法の詳細については、次を参照してください:
 
 - [Windows パスワードを変更またはリセットする](https://support.microsoft.com/windows/change-or-reset-your-windows-password-8271d17c-9f9e-443f-835a-8318c8f68b9c)
-- [Set-LocalUser](/powershell/module/microsoft.powershell.localaccounts/set-localuser?view=powershell-5.1#example-2--change-the-password-on-an-account)
+- [Set-LocalUser](/powershell/module/microsoft.powershell.localaccounts/set-localuser#example-2--change-the-password-on-an-account)
 
 ドメイン アカウントをローカルの Windows 管理者グループにインポートすることもできます。 Intune を使用して、Azure AD アカウントに対してこれを行うことができます。 詳細については、「[ポリシー CSP – RestrictedGroups.](/windows/client-management/mdm/policy-csp-restrictedgroups)」を参照してください。
 
@@ -101,12 +101,12 @@ Teams にサインインできるように、Teams Rooms デバイスごとに�
 
 一般に、Teams Rooms には、Microsoft Teams クライアントと同じネットワーク要件があります。 ファイアウォールやその他のセキュリティ デバイス経由のアクセスは、他の Microsoft Teams クライアントの場合と同じです。 Teams Rooms に固有なものとしては、"required" として一覧表示されるカテゴリがファイアウォールで開かれている必要があります。 Teams Rooms では、Windows Update、Microsoft Store、Microsoft Intune へのアクセスも必要です (Microsoft Intune を使用してデバイスを管理する場合)。 Microsoft Teams Rooms に必要な IP と URL の完全なリストについては、以下をご覧ください:
 
-- **Microsoft Teams** [Office 365 の URL と IP アドレス範囲](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#skype-for-business-online-and-microsoft-teams)
+- **Microsoft Teams** [Office 365 の URL と IP アドレス範囲](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)
 - **Windows Update** [WSUS の構成](/windows-server/administration/windows-server-update-services/deploy/2-configure-wsus#211-connection-from-the-wsus-server-to-the-internet)
 - **Microsoft Store** [ビジネスおよび教育機関向け Microsoft Store の前提条件](/microsoft-store/prerequisites-microsoft-store-for-business#proxy-configuration)
 - **Microsoft Intune** [Microsoft Intune のネットワーク エンドポイント](/mem/intune/fundamentals/intune-endpoints)
 
-Microsoft Teams Rooms Premium の Microsoft Teams Rooms マネージド サービス コンポーネントをご使用の場合は、Teams Rooms が次の URL にアクセスできることを確認する必要もあります。
+Microsoft Teams Rooms Pro のMicrosoft Teams Roomsマネージド サービス コンポーネントを使用している場合は、Teams Roomsが次の URL にアクセスできることを確認する必要もあります。
 
 - agent.rooms.microsoft.com
 - global.azure-devices-provisioning.net
@@ -120,11 +120,13 @@ Microsoft Teams Rooms Premium の Microsoft Teams Rooms マネージド サー�
 - mmrprodnoamiot.azure-devices.net
 - mmrprodnoamstor.blob.core.windows.net
 
-Teams Rooms は、セキュリティ更新プログラムを含む最新の Windows 更新プログラムで自動的に修正プログラムが適用されるように構成されています。 Teams Rooms では、事前に設定されたローカル ポリシーを使用して、毎日午前 2 時から保留中の更新プログラムがインストールされます。 Windows Update の展開と適用のために追加のツールを使用する必要はありません。 追加のツールを使用して更新プログラムを展開および適用すると、Windows 修正プログラムのインストールが遅れる可能性があるため、展開の安全性が低下します。 Teams Rooms アプリは、Microsoft Storeを使用して展開されます。 デバイスに Microsoft Teams Rooms Standard のライセンスが付与されている場合は、夜間のパッチ適用プロセス中に新しいバージョンのアプリが自動的にインストールされます。 デバイスが Microsoft Teams Rooms Premium でライセンスされ、Microsoft マネージド サービスに登録されている場合は、定義されたロールアウト計画に従って新しいバージョンの Teams Rooms アプリがインストールされます。
+Teams Rooms は、セキュリティ更新プログラムを含む最新の Windows 更新プログラムで自動的に修正プログラムが適用されるように構成されています。 Teams Rooms では、事前に設定されたローカル ポリシーを使用して、毎日午前 2 時から保留中の更新プログラムがインストールされます。 Windows Update の展開と適用のために追加のツールを使用する必要はありません。 追加のツールを使用して更新プログラムを展開および適用すると、Windows 修正プログラムのインストールが遅れる可能性があるため、展開の安全性が低下します。 Teams Rooms アプリは、Microsoft Storeを使用して展開されます。
+
+<!-- LICENSE-REVIEW If your devices are licensed with Microsoft Teams Rooms Standard, any new versions of the app are automatically installed during the nightly patching process. If your devices are licensed with Microsoft Teams Rooms Premium and enrolled in the Microsoft Managed Service, new versions of the Teams Rooms app are installed per your defined rollout plan. -->
 
 Teams Rooms デバイスは、ほとんどの 802.1X またはその他のネットワーク ベースのセキュリティ プロトコルで動作します。 ただし、考えられるすべてのネットワーク セキュリティ構成に対して Teams Rooms をテストすることはできません。 そのため、ネットワーク パフォーマンスの問題にトレースできるパフォーマンスの問題が発生した場合は、これらのプロトコルを無効にする必要があります (組織でこれらが構成されている場合)。
 
-リアルタイム メディアの最適なパフォーマンスを得るには、プロキシ サーバーやその他のネットワーク セキュリティ デバイスをバイパスするように Teams メディア トラフィックを構成することを強くお勧めします。 リアルタイム メディアは待機時間にきわめて敏感であり、プロキシ サーバーとネットワーク セキュリティ デバイスにより、ユーザーのビデオとオーディオの品質が大幅に低下する可能性があります。 また、Teams メディアは既に暗号化されているため、プロキシ サーバー経由でトラフィックを渡すことによる具体的な利点はありません。 詳細については、「[ネットワーク アップ (クラウドへ) — あるアーキテクトの視点](/microsoft-365/solutions/networking-design-principles?view=o365-worldwide)」を参照してください。これには、Microsoft Teams と Microsoft Teams Rooms を使用してメディアのパフォーマンスを向上させるためのネットワークに関する推奨事項が説明されています。
+リアルタイム メディアの最適なパフォーマンスを得るには、プロキシ サーバーやその他のネットワーク セキュリティ デバイスをバイパスするように Teams メディア トラフィックを構成することを強くお勧めします。 リアルタイム メディアは待機時間にきわめて敏感であり、プロキシ サーバーとネットワーク セキュリティ デバイスにより、ユーザーのビデオとオーディオの品質が大幅に低下する可能性があります。 また、Teams メディアは既に暗号化されているため、プロキシ サーバー経由でトラフィックを渡すことによる具体的な利点はありません。 詳細については、「[ネットワーク アップ (クラウドへ) — あるアーキテクトの視点](/microsoft-365/solutions/networking-design-principles)」を参照してください。これには、Microsoft Teams と Microsoft Teams Rooms を使用してメディアのパフォーマンスを向上させるためのネットワークに関する推奨事項が説明されています。
 
 > [!IMPORTANT]
 > Teams Rooms では、認証されたプロキシ サーバーはサポートされていません。

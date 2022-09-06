@@ -22,23 +22,23 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.quantity
 - seo-marvel-mar2020
-description: 番号の種類とライセンスの数に基づいて、Microsoft Teamsで取得できる電話番号の数について説明します。
-ms.openlocfilehash: 053a1772ed14b09c1bed159973f50bc47125c58e
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+description: 番号の種類とライセンスの数に基づいて、Microsoft Teams で取得できる電話番号の数について説明します。
+ms.openlocfilehash: 629fed74d1c9f049ec28292e63f6fdb53fdc1c44
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156775"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606576"
 ---
 # <a name="how-many-telephone-numbers-can-you-get"></a>電話番号をいくつ取得できますか?
 
 Microsoft から提供された組織の電話番号を探して取得する場合は、ライセンスを割り当てた電話番号よりも多くの電話番号を取得できます。 ただし、これは電話番号の種類と、購入して割り当てたライセンスの種類によって異なります。
 
-電話番号を取得および管理する方法は、PSTN 接続オプション (Microsoft 通話プラン、オペレーター接続、またはダイレクト ルーティング) によって異なります。 詳細については、「 [組織の電話番号を管理する」を参照してください](manage-phone-numbers-landing-page.md)。
+電話番号の取得と管理方法は、PSTN 接続オプション (Microsoft 通話プラン、オペレーター接続、オペレーター コネクト モバイル (パブリック プレビュー リリース)、またはダイレクト ルーティングによって異なります。 詳細については、「 [組織の電話番号を管理する」を参照してください](manage-phone-numbers-landing-page.md)。
 
-次の表は、Microsoft 通話プラン、 [電話会議](deploy-audio-conferencing-teams-landing-page.md)、音声アプリ ( [通話キューや自動応答](plan-auto-attendant-call-queue.md)など) に適用されます。 オペレーター接続とダイレクト ルーティングの詳細については、サービス プロバイダーにお問い合わせください。
+次の表は、Microsoft 通話プラン、 [電話会議](deploy-audio-conferencing-teams-landing-page.md)、音声アプリ ( [通話キューや自動応答](plan-auto-attendant-call-queue.md)など) に適用されます。 Operator Connect、オペレーター コネクト モバイル、またはダイレクト ルーティングの詳細については、サービス プロバイダーにお問い合わせください。
 
-検索中に Microsoft から取得できる電話番号の数を確認し、Microsoft Teams管理センター (**電話番号を取得**) で取得できます。
+Microsoft Teams 管理センターで検索および取得プロセス中に Microsoft から取得できる電話番号の数を確認できます (**電話番号の取得**)。
 
 > [!IMPORTANT]
 > 以下の制限には、Microsoft に移植した電話番号は含まれません。

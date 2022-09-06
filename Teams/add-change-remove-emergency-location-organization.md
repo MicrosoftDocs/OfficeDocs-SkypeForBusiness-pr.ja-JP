@@ -19,22 +19,22 @@ f1.keywords:
 - NOCSH
 description: 組織の緊急対応の場所を追加、変更、または削除する方法について説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bcbe811ecdb7ac9377e4798a2cdcb7334188aa1e
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: c0a195a221bff5b008f5754592450f4f2b1e42e6
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267602"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606636"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>組織の緊急対応の場所を追加、変更、削除する
 
-[PSTN 接続オプション](pstn-connectivity.md)に関係なく、Microsoft 通話プラン、オペレーター接続、またはダイレクト ルーティング&mdash;の緊急の場所を電話番号&mdash;に関連付けることができます。
+[PSTN 接続オプション](pstn-connectivity.md)&mdash;に関係なく、Microsoft 通話プラン、オペレーター接続、オペレーター コネクト モバイル (パブリック プレビュー リリース)、またはダイレクト ルーティング&mdash;の緊急対応の場所を電話番号に関連付けることができます。
 
 ただし、PSTN 接続オプションによっては、緊急対応の場所と場所の要件を管理する方法が異なる場合があります。 詳細については、「 [緊急通話の管理](what-are-emergency-locations-addresses-and-call-routing.md)」を参照してください。
 
 この記事では、組織の緊急対応の場所を追加、変更、または削除する方法について説明します。 
 
-この記事は、Microsoft 通話プラン、オペレーター接続、およびダイレクト ルーティングに適用されます。
+この記事は、Microsoft 通話プラン、オペレーター接続、オペレーター コネクト モバイル (パブリック プレビュー リリース)、およびダイレクト ルーティングに適用されます。
 
 Microsoft Teams 管理センターまたは PowerShell を使用して、組織の緊急対応の場所を管理します。
 

@@ -27,12 +27,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 組織の Microsoft Teams のユーザー (サブスクライバー) とサービス (有料および無料) の電話番号を取得および管理する方法について説明します。
-ms.openlocfilehash: 15caaa7b5d21ae86d0b0079aeb743690294fd85b
-ms.sourcegitcommit: 3f6ae7946b64e857f6358019be2f0fdf19a207ad
+ms.openlocfilehash: 613a3f5f287615c6e18024d1afba1d94d0fea67c
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/29/2022
-ms.locfileid: "67074675"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606746"
 ---
 # <a name="manage-telephone-numbers-for-your-organization"></a>組織の電話番号を管理する
 
@@ -54,7 +54,11 @@ Microsoft は数値型の簡略化に取り組んでいますが、現時点で�
 
 - オペレーター接続の電話番号の管理については、「オペレーター接続 [を使用して電話番号を設定する](operator-connect-configure.md#set-up-phone-numbers)」を参照してください。
 
+- オペレーター コネクト モバイル (パブリック プレビュー リリース) の電話番号の管理については、「[オペレーター コネクト モバイルを使用して電話番号を設定](operator-connect-mobile-configure.md#set-up-phone-numbers)する」を参照してください。
+
 - ダイレクト ルーティングの電話番号の管理の詳細については、「電話番号 [を構成し、エンタープライズ音声を有効にする](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice)」を参照してください。
+
+
 
 
 > [!NOTE]

@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 description: 組織の緊急対応の場所を追加、変更、または削除する方法について説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1f142d7053a8254446d76dfab276baf9f6f12363
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 37ccf72868819c515a2f7320b112f81f31f65a34
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269280"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606716"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>組織の緊急対応の場所の位置情報を追加、変更、削除する
 
@@ -34,7 +34,7 @@ ms.locfileid: "67269280"
 
 この記事では、組織の緊急対応 *の場所* を追加、変更、または削除する方法について説明します。
 
-この記事は、Microsoft 通話プラン、オペレーター接続、およびダイレクト ルーティングに適用されます。
+この記事は、Microsoft 通話プラン、オペレーター接続、オペレーター コネクト モバイル (パブリック プレビュー リリース)、およびダイレクト ルーティングに適用されます。
 
 Microsoft Teams 管理センターまたは PowerShell を使用して、組織の緊急対応の場所を管理します。
   

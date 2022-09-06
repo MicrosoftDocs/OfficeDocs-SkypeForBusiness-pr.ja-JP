@@ -1,7 +1,7 @@
 ---
 title: Teams の電話デバイスとディスプレイの展開を計画する
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: tony.woodruff
 ms.topic: reference
@@ -12,16 +12,16 @@ appliesto:
 f1.keywords:
 - NOCSH
 search.appverid: MET150
-description: この記事では、Teams の電話とディスプレイを組織内に展開するためのタスクと手順について説明し、概要を説明します。
+description: この記事では、Teams の電話とディスプレイを組織内に展開するためのタスクと手順の概要について説明します。
 ms.collection:
 - M365-voice
 - Teams_ITAdmin_Devices
-ms.openlocfilehash: 5172d230823088141c58e3d2b58e1c3b579268b3
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: fb9b560f56ece49ddae9f15899a118596a31c38f
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272392"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606846"
 ---
 # <a name="plan-your-deployment-for-teams-phone-devices-and-displays"></a>Teams の電話デバイスとディスプレイの展開を計画する
 
@@ -41,7 +41,7 @@ Teams のスマートフォンとディスプレイは、次の 2 つのペル�
 - 個人用デバイス
 - 共有スペース デバイス
 
-個人用デバイスと共有デバイスの役割と使用方法は異なります。 
+個人用デバイスと共有デバイスの役割と用途は異なります。 
 
 **個人用デバイス:** 
 
@@ -68,17 +68,17 @@ Teams のスマートフォンとディスプレイは、次の 2 つのペル�
 - 共有デバイスを必要とする会議室またはスペースの数はどれくらいですか? すべての領域に同じ種類のデバイスがありますか? 
 - デバイスは特定の要件を満たす必要がありますか?
     - たとえば、画面サイズ、フォーム ファクター、製造元またはモデルなどです。 認定された電話とディスプレイの一覧については、 [Microsoft Teams 認定デバイス](teams-ip-phones.md)に関するページを参照してください。
--  Teams の電話または Teams のディスプレイは必要ですか? Teams の電話でサポートされている機能の一覧については、「 [Microsoft Teams の電話](phones-for-teams.md#features-supported-by-teams-phones) 」および Teams でサポートされている機能の一覧については、「 [Microsoft Teams の表示](teams-displays.md#features-supported-by-teams-displays)」を参照してください。
+-  Teams の電話または Teams のディスプレイは必要ですか? Teams の電話でサポートされている機能の一覧については、「 [Microsoft Teams 用の電話](phones-for-teams.md#features-supported-by-teams-phones)」を参照してください。 Teams ディスプレイでサポートされている機能の一覧については、 [Microsoft Teams の表示](teams-displays.md#features-supported-by-teams-displays)に関するページを参照してください。
 - 新しいユーザーに十分なデバイスがあるか、新しい注文と配送のためのプロセスがありますか?
-- メンテナンスやハードウェアの問題が発生した場合に、予備のデバイスを使用できますか? デバイスを交換できることで、ユーザー エクスペリエンスの中断を迅速に防ぎます。
+- メンテナンスに使用できる予備のデバイスがあるか、またはデバイスでハードウェアの問題が発生した場合は、 デバイスを交換できることで、ユーザー エクスペリエンスの中断を迅速に防ぎます。
 
 ## <a name="task-2-what-are-your-licensing-requirements"></a>タスク 2: ライセンス要件は何ですか? 
 
 必要なデバイスの数がわかったら、次の手順では、必要なライセンスの数を決定します。 Teams のスマートフォンとディスプレイには、Microsoft Teams と Microsoft 365 にアクセスするためのライセンスが必要です。
 
-共有デバイスと個人用デバイスには、異なるライセンスが必要です。 個人用デバイスの場合は、ユーザー アカウントに割り当てられたライセンスを使用できます。 共有デバイスには、その機能に固有のライセンスが必要です。 電話とディスプレイの場合、該当するライセンスは[、Microsoft Teams の Common Area Phone ライセンス](../set-up-common-area-phones.md#step-1---buy-the-licenses)と[Microsoft Teams Rooms Standard ライセンス](../rooms/rooms-licensing.md#licensing-solutions-for-shared-communication-devices)です。
+共有デバイスと個人用デバイスには、異なるライセンスが必要です。 個人用デバイスの場合は、ユーザー アカウントに割り当てられたライセンスを使用できます。 共有デバイスには、その機能に固有のライセンスが必要です。 電話とディスプレイの場合、該当するライセンスは[、Microsoft Teams の Common Area Phone ライセンス](../set-up-common-area-phones.md#step-1---buy-the-licenses)と[Microsoft Teams Rooms ライセンス](../rooms/rooms-licensing.md)です。
 
-ライセンス オプションの詳細と比較については、「 [Microsoft 365 ライセンス プラン](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)」を参照してください。 
+ライセンス オプションの詳細と比較については、「 [Microsoft 365 ライセンス プラン](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)」を参照してください。
 
 ## <a name="task-3-what-are-your-dependencies"></a>タスク 3: 依存関係は何ですか? 
 

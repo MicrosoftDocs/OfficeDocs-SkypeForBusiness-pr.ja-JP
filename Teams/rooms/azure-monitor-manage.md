@@ -16,16 +16,18 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: この記事では、Azure Monitor を使用してMicrosoft Teams Roomsデバイスを統合された方法で監視する方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2f0878e7553e2d151f781c3f522a9b533b4b56d8
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 53cc9c571657591c43aa35944802fd02dcf6bd4c
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268972"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606406"
 ---
 # <a name="monitor-microsoft-teams-rooms-devices-with-azure-monitor"></a>Azure Monitor を使用してMicrosoft Teams Roomsデバイスを監視する
 
 この記事では、Azure Monitor を使用して統合された方法でMicrosoft Teams Roomsを監視する方法について説明します。
+
+[!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
 
 Microsoft Teams の会議室デバイスを監視するのに役立つ基本的なテレメトリを提供するように Azure Monitor を構成できます。 詳細については、「[Azure Monitor を使用してMicrosoft Teams Rooms管理を計画](azure-monitor-plan.md)し、Azure [Monitor でMicrosoft Teams Rooms管理をデプロイ](azure-monitor-deploy.md)する」を参照してください。 監視ソリューションが成熟するにつれて、他のデータと監視機能を使用して、デバイスのパフォーマンスのより詳細なビューを作成できます。
 

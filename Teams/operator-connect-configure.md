@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e9a773e7c8767164480374826a2410050681505a
-ms.sourcegitcommit: 5a8a077b30a0eab2342afc422869adaa682a015b
+ms.openlocfilehash: d7397ade44b1e7ee68c176c51bb1af9880ca0373
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "66915195"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606536"
 ---
 # <a name="configure-operator-connect"></a>オペレーター接続を構成する
 
@@ -58,6 +58,20 @@ Teams 管理センターでオペレーターを有効、編集、削除でき�
 
 - 既存の番号を直接ルーティングからオペレーター接続に移動する場合は、「 [直接ルーティングからオペレーター接続に番号を移動する」を](#move-numbers-from-direct-routing-to-operator-connect)参照してください。
 
+### <a name="assign-numberes-to-emergency-addresses"></a>緊急時の住所に番号を割り当てる
+
+緊急対応アドレスは、数値に関連付けられた静的な場所です。 Teams 管理センターで緊急対応の住所を作成した後、アドレスの割り当て方法、または後で変更する方法は、オペレーターによって異なります。
+
+緊急時の住所に番号を割り当てるには、オペレーターは次の 3 つのシナリオのいずれかを実装します。
+
+- オペレーターは電話番号に緊急アドレスを割り当て、後で Teams 管理センターで変更できます。
+
+- オペレーターはアドレスを割り当てず、Teams 管理センターの電話番号に緊急対応の住所を割り当てることができます。
+
+- オペレーターは電話番号に緊急対応の住所を割り当て、それを変更することはできません。 このシナリオでは、電話番号と割り当てられた緊急対応の住所を変更するには、オペレーターに連絡する必要があります。
+
+緊急通報の詳細については、「緊急通報の管理と動的 [緊急通報](what-are-emergency-locations-addresses-and-call-routing.md) の [計画と構成](configure-dynamic-emergency-calling.md)」を参照してください。
+
 ### <a name="acquire-numbers-for-new-teams-users"></a>新しい Teams ユーザーの番号を取得する
 
 新しい Teams ユーザーの番号を取得するには、次の手順に従います。
@@ -72,20 +86,6 @@ Teams 管理センターでオペレーターを有効、編集、削除でき�
 
 > [!NOTE]
 > [ユーザーの電話番号を取得](getting-phone-numbers-for-your-users.md)するだけでなく、電話会議 (会議ブリッジ)、自動応答、通話キュー (サービス番号とも呼ばれます) などのサービスの有料電話番号またはフリーダイヤル電話番号を取得できます。 サービス用電話番号の同時通話容量は、ユーザーまたは登録者の電話番号より大きくなります。 たとえば、サービス番号は数百の呼び出しを同時に処理できますが、ユーザーの電話番号は同時に少数の呼び出しのみを処理できます。 サービス番号を取得するには、オペレーターに問い合わせてください。
-
-### <a name="emergency-addresses"></a>緊急対応のアドレス
-
-緊急対応アドレスは、数値に関連付けられた静的な場所です。 Teams 管理センターで緊急対応の住所を作成した後、アドレスの割り当て方法、または後で変更する方法は、オペレーターによって異なります。
-
-緊急時の住所に番号を割り当てるには、オペレーターは次の 3 つのシナリオのいずれかを実装します。
-
-- オペレーターは電話番号に緊急アドレスを割り当て、後で Teams 管理センターで変更できます。
-
-- オペレーターはアドレスを割り当てず、Teams 管理センターの電話番号に緊急対応の住所を割り当てることができます。
-
-- オペレーターは電話番号に緊急対応の住所を割り当て、それを変更することはできません。 このシナリオでは、電話番号と割り当てられた緊急対応の住所を変更するには、オペレーターに連絡する必要があります。
-
-緊急通報の詳細については、「緊急通報の管理と動的 [緊急通報](what-are-emergency-locations-addresses-and-call-routing.md) の [計画と構成](configure-dynamic-emergency-calling.md)」を参照してください。
 
 ### <a name="move-numbers-from-calling-plans-to-operator-connect"></a>通話プランからオペレーター接続に番号を移動する
 

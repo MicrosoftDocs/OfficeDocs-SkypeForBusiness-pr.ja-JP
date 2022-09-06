@@ -18,12 +18,12 @@ f1.keywords:
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e7ba6b94466874a1e1ab07496ece0d3c4f34dfb
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5dcab13a6ee0c54e9fc88901c2fe022f35309e88
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269352"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606856"
 ---
 # <a name="teams-devices-for-education"></a>教育機関向け Teams デバイス
 
@@ -62,19 +62,19 @@ Teams Rooms では、個人用デバイスの Teams で行える以上のこと�
 
 **Teams 用に構築された目的**:
 
-高度なオーディオとビデオと共有
+高度なオーディオとビデオと共有。
 
 **任意の部屋の広範なデバイス ポートフォリオ**:
 
-Android または Windows オペレーティング システム全体で、完全にモジュール化または統合されたフォーム ファクターから選択する
+Android または Windows オペレーティング システム全体で、完全にモジュール化または統合されたフォーム ファクターから選択します。
 
 **再考されたルーム エクスペリエンス**:
 
-Teams 会議に参加して、学生と教育者を問わず、包括的で共同作業的な会議に参加できます
+Teams 会議に参加して、学生と教育者を問わず、包括的で協調的な会議に参加できます。
 
 **1 か所から簡単に管理** できます。
 
-デバイスを完全に管理して最新の状態に保ち、Teams 管理 センターにアクセスし、Microsoft から 24 時間 365 日の事前管理をMicrosoft Teams Rooms Premium
+デバイスを完全に管理し、最新の状態に保ち、Teams 管理 センターに入る準備を整え、Microsoft Teams Rooms Pro を使用して Microsoft から 24 時間 365 日のプロアクティブ管理を有効にします。
 
 ## <a name="space-considerations"></a>スペースに関する考慮事項
 

@@ -13,16 +13,18 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Rooms
 description: Microsoft Teams Roomsでサポートされ推奨される条件付きアクセスポリシーとIntuneデバイス コンプライアンス ポリシーについて説明します。
-ms.openlocfilehash: b6f54e2bee4e77f794f03255ef51623bbe220342
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 1c9b3d2a40ce34076f917026300b8b7d0921d9c8
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271912"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606438"
 ---
 # <a name="supported-conditional-access-and-intune-device-compliance-policies-for-microsoft-teams-rooms-and-teams-android-devices"></a>Microsoft Teams Roomsおよび Teams Android デバイスでサポートされている条件付きアクセスポリシーとIntuneデバイス コンプライアンス ポリシー
 
 この記事では、Microsoft Teams Roomsでサポートされている条件付きアクセスポリシーとIntuneデバイス コンプライアンス ポリシーについて説明します。 ベスト プラクティスとポリシーの例については、「[条件付きアクセスとMicrosoft Teams RoomsのIntuneコンプライアンスのベスト プラクティス」を](conditional-access-and-compliance-for-devices.md)参照してください。
+
+[!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
 
 > [!NOTE]
 > Teams Roomsは、条件付きアクセス ポリシーを割り当てるデバイスに既にデプロイされている必要があります。 Teams Roomsまだデプロイしていない場合は、「[会議室と共有 Teams デバイスのリソース アカウントを作成する」と](with-office-365.md) [Android でのMicrosoft Teams Roomsの展開](../devices/collab-bar-deploy.md)に関するページを参照してください。
@@ -34,7 +36,7 @@ ms.locfileid: "67271912"
 | 割り当て                               | Windows でのTeams Rooms                                                                                                                                                                              | Android とパネルのTeams Rooms                                                                                                                                                                              | Teams の電話とディスプレイ                                                                                                                                                    |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ユーザー ID またはワークロード ID              | サポート                                                                                                                                                                            | サポート                                                                                                                                                                            | サポート                                                                                                                                                            |
-| クラウド アプリまたはアクション                    | サポート <br><br> Teams Rooms Teams 専用モードの場合は、Office 365 Exchange Online、Office 365 SharePoint Online、Microsoft Teams の 3 つのクラウド アプリにアクセスする必要があります。 | サポート <br><br> Teams Rooms Teams 専用モードの場合は、Office 365 Exchange Online、Office 365 SharePoint Online、Microsoft Teams の 3 つのクラウド アプリにアクセスする必要があります。 | サポート<br><br>Teams Android デバイスは、Office 365 Exchange Online、Office 365 SharePoint Online、Microsoft Teams の 3 つのクラウド アプリにアクセスする必要があります |
+| クラウド アプリまたはアクション                    | サポート <br><br> Teams Rooms Teams 専用モードの場合は、Office 365 Exchange Online、Office 365 SharePoint Online、Microsoft Teams の 3 つのクラウド アプリにアクセスする必要があります。 | サポート <br><br> Teams Rooms Teams 専用モードの場合は、Office 365 Exchange Online、Office 365 SharePoint Online、Microsoft Teams の 3 つのクラウド アプリにアクセスする必要があります。 | サポート<br><br>Teams Android デバイスは、Office 365 Exchange Online、Office 365 SharePoint Online、Microsoft Teams の 3 つのクラウド アプリにアクセスする必要があります  |
 | **条件**                           | ---                                                                                                                                                                                  | ---                                                                                                                                                                                  | ---                                                                                                                                                                  |
 | ユーザー リスク                                | サポート                                                                                                                                                                            | サポート                                                                                                                                                                            | サポート                                                                                                                                                            |
 | サインイン リスク                             | サポート                                                                                                                                                                            | サポート                                                                                                                                                                            | サポート                                                                                                                                                            |

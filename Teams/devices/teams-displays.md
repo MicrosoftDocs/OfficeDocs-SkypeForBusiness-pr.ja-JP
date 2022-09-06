@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: この記事では、Microsoft Teams のディスプレイでサポートされている機能の概要と機能について説明します。
-ms.openlocfilehash: 18b8219a3eef391170c7321ae994d79f1b73f016
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 8b06078633dd8c7ee43c2ee98ad1f3e4751d3a51
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268772"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606026"
 ---
 # <a name="microsoft-teams-displays"></a>Microsoft Teams に表示される
 
@@ -55,16 +55,16 @@ Intuneを使用して Teams ディスプレイを展開する方法の詳細に�
 
 Teams ディスプレイ デバイスを管理するには、Microsoft Teams 管理センターの左側のナビゲーションで Teams の表示に移動 **します**。 ここから、デバイス構成プロファイルの変更、更新の管理、デバイスの再起動、デバイス タグの追加と削除などを行うことができます。 詳細については、「 [Teams でデバイスを管理する](device-management.md)」を参照してください。
 
-## <a name="set-up-hot-desking-on-teams-displays"></a>Teams ディスプレイにホット デスクを設定する
+## <a name="set-up-hot-desking-on-teams-displays"></a>Teams ディスプレイでホットデスクを設定する
 
 ホット デスクは、組織内のユーザーが Teams と Outlook を介して、またはデバイス自体から事前に一時的なワークスペースを予約できるようにします。 ホット デスクが有効になっている場合、ユーザーは Microsoft 365 資格情報を使用して Teams にサインインし、会議、チャット、ファイルにアクセスします。 サインアウトすると、すべての個人情報がデバイスから削除されます。
 
-開始するには、Microsoft Teams Rooms Standard ライセンスを取得し、Teams ディスプレイごとにリソース アカウントを作成する必要があります。 [リソース アカウントを作成するための会議室と共有 Teams デバイスの](../rooms/with-office-365.md)リソース アカウントの作成に関する説明を参照してください。
+開始するには、[Microsoft Teams Rooms ライセンス](../rooms/rooms-licensing.md)を取得し、Teams ディスプレイごとにリソース アカウントを作成する必要があります。 [リソース アカウントを作成するための会議室と共有 Teams デバイスの](../rooms/with-office-365.md)リソース アカウントの作成に関する説明を参照してください。
 
-リソース アカウントを作成したら、ホット デスクを有効にするポリシーを作成して割り当てることができます。 詳細については、「 [New-CsTeamsIPPhonePolicy](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps) 」を参照してください。
+リソース アカウントを作成したら、ホットデスクを有効にするポリシーを作成して割り当てることができます。 詳細については、「 [New-CsTeamsIPPhonePolicy](/powershell/module/skype/new-csteamsipphonepolicy) 」を参照してください。
 
 > [!IMPORTANT]
-> ホット デスクを使用した Teams ディスプレイは複数のユーザーによって共有ワークスペースで使用されるため、環境内の条件付きアクセス 規則やその他の ID 構成 (Multi-Factor Authentication など) は、これらのデバイスに影響を与え、サインインの問題を引き起こす可能性があります。 共有デバイスのセキュリティ保護に関するガイダンスについては、 [共有 Teams Android デバイスの認証のベスト プラクティス](authentication-best-practices-for-android-devices.md)に関するページを参照してください。
+> ホットデスクを使用した Teams ディスプレイは複数のユーザーによって共有ワークスペースで使用されるため、多要素認証などの環境内の条件付きアクセス 規則やその他の ID 構成は、これらのデバイスに影響を与え、サインインの問題を引き起こす可能性があります。 共有デバイスのセキュリティ保護に関するガイダンスについては、 [共有 Teams Android デバイスの認証のベスト プラクティス](authentication-best-practices-for-android-devices.md)に関するページを参照してください。
 
 ## <a name="upgrade-teams-phones-to-teams-displays"></a>Teams の電話を Teams にアップグレードする画面
 

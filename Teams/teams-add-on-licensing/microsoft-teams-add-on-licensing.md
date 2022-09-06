@@ -1,5 +1,5 @@
 ---
-title: アドオン ライセンスをMicrosoft Teamsする
+title: Microsoft Teams アドオン ライセンス
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -19,19 +19,19 @@ ms.custom:
 - Licensing
 - LIL_Placement
 - seo-marvel-mar2020
-description: Microsoft Teamsのアドオン ライセンスと、各ライセンスで取得する機能について説明します。
-ms.openlocfilehash: b4c416720a618cff106552126e0f7e1aaa87b1bc
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+description: Microsoft Teams のアドオン ライセンスと、各ライセンスで取得する機能について説明します。
+ms.openlocfilehash: 84ea719c5038251efa9ddb767b3bf15a5aa40b00
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156805"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606086"
 ---
-# <a name="microsoft-teams-add-on-licenses"></a>アドオン ライセンスをMicrosoft Teamsする
+# <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams アドオン ライセンス
 
 ## <a name="which-capabilities-can-i-get-with-add-on-licenses"></a>アドオン ライセンスで取得できる機能はどれですか?
 
-アドオン ライセンスは、特定のMicrosoft Teams機能のライセンスです。 これらの機能を使用すると、必要な組織内のユーザーに対してのみ機能を柔軟に追加できます。 機能を追加するには、それを使用するユーザーごとに 1 つのアドオン ライセンスを購入します。
+アドオン ライセンスは、特定の Microsoft Teams 機能のライセンスです。 これらの機能を使用すると、必要な組織内のユーザーに対してのみ機能を柔軟に追加できます。 機能を追加するには、それを使用するユーザーごとに 1 つのアドオン ライセンスを購入します。
 
 利用可能なアドオン ライセンス オプションは、使用している Microsoft 365 プランによって異なります。 利用可能な音声通話と電話会議のオプションを確認するには、この記事の「 [プランで使用できる Microsoft の機能](#which-microsoft-capabilities-are-available-with-my-plan) 」セクションを参照してください。
 
@@ -45,7 +45,7 @@ Teams アドオン ライセンスの一覧と、Teams サブスクリプショ�
 |**Microsoft Teams Calling プラン** <br/> |ユーザーが組織外で電話番号を呼び出せるようにするには、[MICROSOFT TEAMS CALLING プラン](../calling-plans-for-office-365.md)を購入して PSTN プロバイダーとして Microsoft と PSTN 電話番号に接続できます。 国内通話プラン、国際通話プラン、従量課金制通話プランがあります。 <br/> <br/> Teams 通話プランが国または地域で利用できるかどうかを確認するには、「 [電話会議と通話プランの国と地域の可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)」を参照してください。 |
 |**通信クレジット** | 通信クレジットは、通話プランのすべての分が翌月の初めまでに使用される場合に、PSTN 通話にも使用できる分数の毎月のプールを提供します。 電話会議、自動応答、または通話キューの無料電話番号が必要な場合は、 [通信クレジットを設定](../set-up-communications-credits-for-your-organization.md)する必要があります。 <br/> |
 |**電話会議** <br/> |組織内のユーザーが、コンピューターの代わりに電話を使って Teams 会議に呼び出す必要がある場合があります。 電話を使用して通話する必要がある出席者と会議をスケジュールまたはリードするユーザーに対して[電話会議を設定](../set-up-audio-conferencing-in-teams.md)します。 <br/> <br/>国または地域でオーディオ会議が利用可能かどうかを調べるには、 [オーディオ会議や呼び出しプランが利用可能な国および地域](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)を参照してください。 料金については、「[電話会議の料金](https://go.microsoft.com/fwlink/?linkid=799762)」をご覧ください。  <br/> <br/>組織は、電話会議番号にサード パーティのオペレーターを使用できるようになりました。 詳細については、「[オペレーター接続会議の計画」を](../operator-connect-conferencing-plan.md)参照してください。 <br/>|
-|**Microsoft Teams ルーム** <br/> | Microsoft Teams 会議室は、ビデオ、オーディオ、コンテンツ共有を会議室に持ち込む追加のMicrosoft Teams製品です。 組織は、これらの機能Microsoft Teams Roomsスタンドアロン ライセンスを購入できます。 詳細については、「 [Teams ミーティング ルームライセンス](../rooms/rooms-licensing.md)」を参照してください。 <br/>|
+|**Microsoft Teams ルーム** <br/> | Microsoft Teams Room は、ビデオ、オーディオ、およびコンテンツ共有を会議室に提供する追加の Microsoft Teams 製品です。 <br/> <br/>Teams Rooms Basic は、すべてのTeams Rooms デバイスの主要な会議と管理機能を提供する最大 25 室の無料ライセンスです。 <br/> <br/>Teams Rooms Pro では、拡張された会議エクスペリエンスと高度な管理とセキュリティが提供され、大規模にデバイスを操作し、包括的なハイブリッド会議を有効にするのに役立ちます。 <br/> <br/>詳細については、「 [Teams ミーティング ルームライセンス](../rooms/rooms-licensing.md)」を参照してください。 <br/>|
 
 ## <a name="which-microsoft-capabilities-are-available-with-my-plan"></a>プランで使用できる Microsoft の機能はどれですか?
 

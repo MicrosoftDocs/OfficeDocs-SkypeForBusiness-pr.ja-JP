@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams Rooms の管理サービスについて説明します。
 f1keywords: ''
-ms.openlocfilehash: 322e67a0bc6e03db7960e64d2cd5e7a97b930dbc
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5e59312d3febe2dc6b4178874bae21fc27fe77d2
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269582"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606286"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Microsoft Teams Rooms の管理サービス
 
@@ -110,11 +110,11 @@ Microsoft Teams Rooms の管理サービスのサポート対象の詳細につ�
 
 ## <a name="supported-regions"></a>サポートされる地域
 
-Microsoft Teams Rooms Premium ライセンスは、電話会議を使用する次の国で使用できます。
+Microsoft Teams Rooms Pro ライセンスは、電話会議を使用する次の国で使用できます。
 
 - オーストラリア、オーストリア、ベルギー、ブラジル、ブルガリア、カナダ、クロアチア、キプロス、チェコ共和国、デンマーク、エストニア、フィンランド、フランス、ドイツ、ギリシャ、香港特別行政区、ハンガリー、アイルランド、イタリア、日本、ラトビア、リトアニア、ルクセンブルク、マルタ、メキシコ、モナコ、オランダ、ニュージーランド、ノルウェー、ポーランド、ポルトガル、ポルトガル、ルーマニア、ロシア、シンガポール、スロバキア、スロベニア、南アフリカ、スペイン、スウェーデン、スイス、台湾、イギリス、米国。
 
-Microsoft Teams Rooms Premium ライセンスは、電話会議なしで次の国で使用できます。
+Microsoft Teams Rooms Pro ライセンスは、電話会議なしで次の国で使用できます。
 
 - アンドラ、ブーベ島、クリスマス島、Cocos (Keeling)諸島、クック諸島、Fare Islands、フィジー、ジブラルター、グリーンランド、ハードアイランド、McDonald Islands、アイスランド、インド、キリバスティ、レソトホ、リヒテンシュタイン、マカオ SAR、マーシャ諸島、マイクロネシア、ナウル、ニウエ、ノーフォーク島、北マリアナ諸島、パラオ、パプアニューギニア、ピトケアン諸島、サンピエール島、ミケロン、サモア、サンマリエン、バジランド、Tokelau、Tonga、Tuv、Tuv バヌアツ、バチカン、Wallis、Futuna。
 

@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: この記事では、Azure Monitor を使用して、Skype for Businessまたは Teams の実装のMicrosoft Teams Roomsを監視するための計画に関する考慮事項について説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ac3ac3af4e4f162238af0e9bf38c45569302fdfb
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5640fd63ac413403105be7d5f23e413b2f19ebdf
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269572"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606396"
 ---
 # <a name="plan-microsoft-teams-rooms-monitoring-with-azure-monitor"></a>Azure Monitor でMicrosoft Teams Rooms監視を計画する
  
@@ -29,6 +29,8 @@ ms.locfileid: "67269572"
 
 > [!NOTE]
 > Teams 管理センターを使用して[、Teams Roomsの正常性監視を設定](../alerts/device-health-status.md)することもできます。
+
+[!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
 
 [Azure Monitor](/azure/azure-monitor/overview) は、最初からクラウドで設計された監視サービスのコレクションです。 Azure Monitor コンポーネントでは、オンプレミスのリソースをデプロイおよび管理するのではなく、すべて Azure でホストされます。 構成は最小限であり、数分で稼働させることができます。 カスタマイズ作業によっては、個々のルーム システムのシステム正常性または障害の通知を提供することでMicrosoft Teams Roomsの監視に役立ち、数千のMicrosoft Teams Roomsの管理にスケールアップできます。
   

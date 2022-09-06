@@ -867,6 +867,12 @@ items:
                 href: operator-connect-plan.md
               - name: オペレーター 接続を構成する
                 href: operator-connect-configure.md
+          - name: オペレーター コネクト モバイル
+            items:
+              - name: オペレーター コネクト モバイルの計画
+                href: operator-connect-mobile-plan.md
+              - name: オペレーター コネクト モバイルを構成する
+                href: operator-connect-mobile-configure.md
           - name: ダイレクト ルーティング
             items:
               - name: 新機能
@@ -977,6 +983,8 @@ items:
                 href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
           - name: オペレーター接続の電話番号を管理する
             href: operator-connect-configure.md#set-up-phone-numbers
+          - name: オペレーター コネクト モバイルの電話番号を管理する
+            href: operator-connect-mobile-configure.md#set-up-phone-numbers
           - name: ダイレクト ルーティングの電話番号を管理する
             href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
           - name: ライセンスと電話番号の管理
@@ -1321,6 +1329,10 @@ items:
             items:
               - name: Microsoft Teams Rooms の計画の概要
                 href: rooms/rooms-plan.md
+              - name: Teams Rooms ライセンスの概要
+                href: rooms/rooms-licensing.md
+              - name: Teams Rooms管理センターのライセンス
+                href: rooms/admin-center-license-overview.md
               - name: Windows と Android 間の Teams デバイス機能比較
                 href: rooms/teams-devices-feature-comparison.md
               - name: Teams の会議室ガイダンス
@@ -1335,8 +1347,6 @@ items:
                 href: rooms/requirements.md
               - name: セキュリティ
                 href: rooms/security.md
-              - name: オンライン ライセンス
-                href: rooms/rooms-licensing.md
               - name: Azure Monitor による管理の計画
                 href: rooms/azure-monitor-plan.md
           - name: 展開

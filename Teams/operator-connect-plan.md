@@ -1,5 +1,5 @@
 ---
-title: オペレーター接続
+title: オペレーター接続の計画
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,18 +21,28 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 745587281c5566b1ba4fe0d1ea06a44d40c8a7f2
-ms.sourcegitcommit: 5a8a077b30a0eab2342afc422869adaa682a015b
+ms.openlocfilehash: 4e3d86bf4607b723f92958d34d9530764ab80daf
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "66915185"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606446"
 ---
 # <a name="plan-for-operator-connect"></a>オペレーター接続の計画
 
 オペレーター接続は、Teams と電話システムとの公衆交換電話網 (PSTN) 接続を提供するためのもう 1 つのオプションです。 Teams 音声ソリューションと PSTN 接続オプションの詳細については、「 [Teams 音声ソリューション](cloud-voice-landing-page.md) と [PSTN 接続オプション](pstn-connectivity.md)を計画する」を参照してください。
 
-この記事では、利点と要件について説明し、Microsoft Operator Connect Program に参加しているオペレーターへのリンクを提供します。  オペレーター接続が組織に適したソリューションであると判断した場合は、この記事を読んだ後の [オペレーター接続の構成に関するページを](operator-connect-configure.md)参照してください。  
+この記事では、利点と要件について説明し、Microsoft Operator Connect Program に参加しているオペレーターへのリンクを提供します。  
+
+次の場合は、オペレーター接続が組織に適したソリューションである可能性があります。
+
+- Microsoft 通話プランは、地理的な場所では利用できません。
+
+- 優先オペレーターは、Microsoft オペレーター接続プログラムの参加者です。
+
+- Teams で呼び出しを有効にする新しいオペレーターを見つける必要があります。
+
+オペレーター接続が組織に適したソリューションであると判断した場合は、この記事を読んだ後の [オペレーター接続の構成に関するページを](operator-connect-configure.md)参照してください。  
 
 ## <a name="benefits"></a>利点
 
@@ -48,11 +58,7 @@ ms.locfileid: "66915185"
 
 ## <a name="requirements"></a>要件
 
- 次の場合は、オペレーター接続が組織に適したソリューションである可能性があります。
-
-- Microsoft 通話プランは、地理的な場所では利用できません。
-- 優先オペレーターは、Microsoft オペレーター接続プログラムの参加者です。
-- Teams で呼び出しを有効にする新しいオペレーターを見つける必要があります。
+ 
 
 Operator Connect で電話番号の割り当てを有効にするには、ユーザーが次のユーザーであることを確認します。
 

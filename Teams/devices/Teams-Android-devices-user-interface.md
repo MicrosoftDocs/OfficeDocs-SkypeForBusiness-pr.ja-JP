@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Devices
 description: Teams Android デバイスでユーザー インターフェイスを設定する方法について説明します。
-ms.openlocfilehash: 859c1d9d0f7a946f37b53ad81dc2a0637bb26621
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 830609d1bf02c38a2301c0d5a1b9e62ac836c908
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269322"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606836"
 ---
 # <a name="set-microsoft-teams-android-devices-user-interface"></a>Microsoft Teams Android デバイスのユーザー インターフェイスを設定する
 
@@ -49,7 +49,7 @@ E3 や E5 ライセンスなどのアカウントに [ユーザー ライセン�
 
 ## <a name="meeting-interface"></a>会議インターフェイス
 
-この画像は、[Microsoft Teams Rooms Standard ライセンス](/MicrosoftTeams/rooms/rooms-licensing)が割り当てられているユーザー アカウントを示しています。 Teams Rooms ライセンスは会議室や共有スペースで使用することを目的としているため、ユーザー インターフェイスが変更され、予定表ビューを表示して会議に簡単に参加できるようになります。
+この画像は、[Microsoft Teams Rooms ライセンス](/MicrosoftTeams/rooms/rooms-licensing)が割り当てられているユーザー アカウントを示しています。 Teams Rooms ライセンスは会議室や共有スペースで使用することを目的としているため、ユーザー インターフェイスが変更され、予定表ビューを表示して会議に簡単に参加できるようになります。
 
 :::image type="content" source="../media/teams-android-devices-meeting.jpg" alt-text="会議インターフェイス。":::
 
@@ -61,7 +61,7 @@ E3 や E5 ライセンスなどのアカウントに [ユーザー ライセン�
 
 ## <a name="override-automatic-user-interface-detection"></a>自動ユーザー インターフェイス検出をオーバーライドする
 
-場合によっては、目的の使用に一致しないアカウントにライセンスを割り当てることを選択できます。 たとえば、Android でTeams Roomsにサインインするためのユーザー ライセンスをアカウントに割り当てることができます。 既定では、会議室のインターフェイスの代わりにエンド ユーザー インターフェイスが表示されます。 既定のインターフェイスをオーバーライドするには、新しい [Teams IP Phone ポリシー](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps) を作成し、そのアカウントに適用します。
+場合によっては、目的の使用に一致しないアカウントにライセンスを割り当てることを選択できます。 たとえば、Android でTeams Roomsにサインインするためのユーザー ライセンスをアカウントに割り当てることができます。 既定では、会議室のインターフェイスの代わりにエンド ユーザー インターフェイスが表示されます。 既定のインターフェイスをオーバーライドするには、新しい [Teams IP Phone ポリシー](/powershell/module/skype/new-csteamsipphonepolicy) を作成し、そのアカウントに適用します。
 
 > [!NOTE]
 > ユーザー アカウントに割り当てられているライセンスには、目的のユーザー インターフェイスと少なくとも同じライセンス資格が必要です。 Common Area Phone ライセンスでは、Common Area Phone ユーザー インターフェイスのみが許可されます。 会議室ライセンスを使用すると、会議室と共通エリアの電話ユーザー インターフェイスを使用できます。 E3 または E5 ライセンスでは、すべてのサインイン モードがサポートされます。

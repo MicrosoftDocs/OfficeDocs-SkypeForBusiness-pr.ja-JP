@@ -24,12 +24,12 @@ search.appverid: MET150
 description: Microsoft Teams クラウド音声機能と、組織に対して行う展開の決定の詳細について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b1f4b0756e640d9b93e235b2724ce7841b4f44f
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 40f2a4f56b9d1c174696265300226263eb41a9de
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240826"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606066"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Teams 音声ソリューションを計画する
 
@@ -49,6 +49,7 @@ ms.locfileid: "66240826"
 
 - 通話プランを使用した電話システム
 - オペレーター接続を使用した独自の PSTN キャリアを備えた電話システム
+- オペレーター コネクト モバイルを使用した独自の PSTN 携帯電話会社を使用した電話システム (パブリック プレビュー リリース)
 - ダイレクト ルーティングを使用した独自の PSTN キャリアを備えた電話システム
 - 通話プランを使用する電話システム、オペレーターが接続する電話システム、または直接ルーティングを使用する電話システムを使用する組み合わせソリューション
 
@@ -150,9 +151,12 @@ Azure ボイスメール サービスを搭載したクラウド ボイスメー
 
 - [**通話プランを使用した電話システム**](pstn-connectivity.md#phone-system-with-calling-plan)。 MICROSOFT を PSTN 通信事業者として使用する、クラウド内のオール イン ソリューション。
 
-- [**オペレーター接続を使用して、独自の PSTN キャリアを持つ電話システム**](operator-connect-plan.md)。 オペレーター接続を使用すると、既存のオペレーターが Microsoft Operator Connect プログラムに参加している場合、PSTN 通話を Teams に呼び出すためのサービスを管理できます。 オペレーター接続の利点と要件については、「 [オペレーター接続の計画」を](operator-connect-plan.md)参照してください。
+- [**オペレーター接続を使用して、独自の PSTN キャリアを持つ電話システム**](operator-connect-plan.md)。 オペレーター接続を使用すると、既存のオペレーターが Microsoft Operator Connect プログラムに参加している場合、PSTN 通話を Teams に呼び出すためのサービスを管理できます。 
+
+- **オペレーター コネクト モバイルパブリック レビュー リリース**[**を使用して、独自の PSTN 携帯電話会社を使用した電話システム**](operator-connect-mobile-plan.md)。 オペレーター コネクト モバイルでは、既存のオペレーターが Microsoft オペレーター コネクト モバイル プログラムに参加している場合、TEAMS で SIM 対応の携帯電話番号を使用するためのサービスを管理できます。 
 
 - [**直接ルーティングを使用して**](pstn-connectivity.md#phone-system-with-direct-routing) オンプレミス環境を Teams に接続することで、独自の PSTN キャリアを備えた電話システム。
+
 
 オプションの組み合わせを選択できます。これにより、複雑な環境のソリューションを設計したり、複数ステップの移行を管理したりできます。 移行の詳細については、後ほど説明します。
 
