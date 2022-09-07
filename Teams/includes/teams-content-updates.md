@@ -3,6 +3,29 @@
 
 
 
+## <a name="week-of-august-29-2022"></a>2022 年 8 月 29 日の週
+
+
+| 公開日 |トピックのタイトル | 変更 |
+|------|------------|--------|
+| 8/29/2022 | [発信通話でのトランクのフェイルオーバー](/MicrosoftTeams/direct-routing-trunk-failover-on-outbound-call) | 更新日時 |
+| 8/29/2022 | [Kaizala から Microsoft Teams への正常な移行を計画する](/MicrosoftTeams/plan-your-move-kaizala) | 更新日時 |
+| 8/29/2022 | [メキシコの電話番号管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-mexico) | 追加済 |
+| 8/30/2022 | [Teams デバイス ストア](/MicrosoftTeams/devices/device-store) | 更新日時 |
+| 8/30/2022 | [Microsoft Teams 電話 リソース アカウント ライセンス](/MicrosoftTeams/teams-add-on-licensing/virtual-user) | 更新日時 |
+| 8/30/2022 | [インスタント 会議を開始し、会議をスケジュールできるユーザーを管理する](/MicrosoftTeams/manage-who-can-schedule-meetings) | 追加済 |
+| 8/30/2022 | [Teams のクラウド会議の記録](/MicrosoftTeams/cloud-recording) | 更新日時 |
+| 8/30/2022 | Microsoft Teams での会議ポリシーと会議の有効期限 | 削除されました |
+| 8/30/2022 | [記録と文字起こしのための会議ポリシーを管理する](/MicrosoftTeams/meetings-policies-recording-and-transcription) | 更新日時 |
+| 8/30/2022 | [OneDrive for Business と SharePoint を使用して会議の記録を行う](/MicrosoftTeams/tmr-meeting-recording-change) | 更新日時 |
+| 8/31/2022 | [管理トレーニング リソース - Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | 更新日時 |
+| 8/31/2022 | [Microsoft Teams での Career Coach 統合のためのリソース](/MicrosoftTeams/career-coach-resources) | 更新日時 |
+| 8/31/2022 | [Teams でアプリ ストアをカスタマイズする](/MicrosoftTeams/customize-your-app-store) | 更新日時 |
+| 9/1/2022 | [Microsoft Teams の管理 アプリを使用して、組織の Microsoft 365 を管理する](/MicrosoftTeams/manage-admin-app) | 追加済 |
+| 9/2/2022 | [Microsoft Teams Rooms (Windows) のリリース ノート](/MicrosoftTeams/rooms/rooms-release-note) | 更新日時 |
+| 9/2/2022 | [Microsoft Teams Rooms のデバイス設定をリモートで管理する](/MicrosoftTeams/rooms/xml-config-file) | 更新日時 |
+
+
 ## <a name="week-of-august-22-2022"></a>2022 年 8 月 22 日の週
 
 
@@ -38,7 +61,7 @@
 
 | 公開日 |トピックのタイトル | 変更 |
 |------|------------|--------|
-| 8/15/2022 | [ダイレクト ルーティングが認定されたセッション ボーダー コントローラー](/MicrosoftTeams/direct-routing-border-controllers) | 更新日時 |
+| 8/15/2022 | [ダイレクトルーティングが認定されたセッションボーダーコントローラー](/MicrosoftTeams/direct-routing-border-controllers) | 更新日時 |
 | 8/16/2022 | [Microsoft Teams のプランを呼び出す](/MicrosoftTeams/calling-plans-for-office-365) | 更新日時 |
 | 8/17/2022 | [Teams でアプリ ストアをカスタマイズする](/MicrosoftTeams/customize-your-app-store) | 更新日時 |
 | 8/17/2022 | [Teams 用のデバイス](/MicrosoftTeams/devices/teams-ip-phones) | 更新日時 |
@@ -201,26 +224,3 @@
 | 8/4/2022 | [モバイル アプリ拡張機能](/MicrosoftTeams/rooms/extended-mobile-app) | 更新日時 |
 | 8/5/2022 | [Microsoft Teams でタグを管理する](/MicrosoftTeams/manage-tags) | 更新日時 |
 | 8/5/2022 | [SIP ゲートウェイを計画する](/MicrosoftTeams/sip-gateway-plan) | 更新日時 |
-
-
-## <a name="week-of-july-25-2022"></a>2022 年 7 月 25 日の週
-
-
-| 公開日 |トピックのタイトル | 変更 |
-|------|------------|--------|
-| 7/25/2022 | [電話番号とライセンスの変更](/MicrosoftTeams/phone-numbers-licensing-changes) | 追加済 |
-| 7/25/2022 | [Microsoft Teams での会議ポリシーと会議の有効期限](/MicrosoftTeams/meeting-expiration) | 更新日時 |
-| 7/25/2022 | [Teams Room デバイスをマネージド サービスに登録する](/MicrosoftTeams/rooms/enroll-a-device) | 更新日時 |
-| 7/25/2022 | [Teams のブラウザー ログとトレース](/MicrosoftTeams/browser-logs-and-tracing-for-teams) | 追加済 |
-| 7/25/2022 | [Teams で監視とトラブルシューティングを行うためのログ ファイルの構成](/MicrosoftTeams/log-files) | 更新日時 |
-| 7/26/2022 | [Microsoft Teams での Career Coach 統合のためのリソース](/MicrosoftTeams/career-coach-resources) | 追加済 |
-| 7/26/2022 | [Microsoft Teams の Career Coach を設定して構成する](/MicrosoftTeams/career-coach-set-up-steps) | 追加済 |
-| 7/26/2022 | [Microsoft Teams のキャリア コーチのトラブルシューティング](/MicrosoftTeams/career-coach-troubleshoot) | 追加済 |
-| 7/26/2022 | [Microsoft Teams の共有チャネル エラー](/MicrosoftTeams/shared-channels-errors) | 追加済 |
-| 7/26/2022 | [Microsoft Teams の Career Coach の使用を開始する](/MicrosoftTeams/career-coach) | 更新日時 |
-| 7/26/2022 | [Microsoft Teams の Career Coach の使用を開始する](/MicrosoftTeams/cloud-recording) | 更新日時 |
-| 7/26/2022 | [ゲスト アクセスと外部アクセスを使用して、組織外の人々とコラボレーションする](/MicrosoftTeams/communicate-with-users-from-other-organizations) | 更新日時 |
-| 7/26/2022 | [顧客のパートナー管理](/MicrosoftTeams/rooms/multi-tenant-management-customer) | 更新日時 |
-| 7/26/2022 | [パートナー向けのマルチテナント顧客管理](/MicrosoftTeams/rooms/multi-tenant-management-partner) | 更新日時 |
-| 7/26/2022 | [Teams アドオン ライセンスをユーザーに割り当てる](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) | 更新日時 |
-| 7/29/2022 | [組織の電話番号を管理する](/MicrosoftTeams/manage-phone-numbers-landing-page) | 更新日時 |
