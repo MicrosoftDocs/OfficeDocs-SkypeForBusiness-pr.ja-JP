@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Microsoft Teams が最適な結果を生み出すために認定されているデスクフォンと会議電話について説明します。
-ms.openlocfilehash: 4070bdb567556422c5ec2a3db78c3d3670e1dda9
-ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
+ms.openlocfilehash: 5294b011ee8fbe852e2a82e2d700fbd212c0f4e8
+ms.sourcegitcommit: 8b33cc2c2e8f43e6ab4b17715d6a42692351ccad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/03/2022
-ms.locfileid: "67590194"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "67624307"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 認定 Android デバイス
 
@@ -74,6 +74,7 @@ Android 認定プログラムのMicrosoft Teams Roomsでは、次のデバイス
 
 | デバイス モデル | ファームウェアのバージョン | 現在の認定終了日 | 部屋のサイズ                                        |  Android OS バージョン    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
+| Logitech Tap IP (VR0029) with RoomMate (VR0030) | `1.6.565`  |   2024 年 9 月 3 日  | 大規模な会議室 (4.5 m x 8.5 m) | 10 |
 | Yealink MeetingBoard 65" | `155.15.0.6 `   | 2024 年 9 月 3 日 | 中規模の部屋 (4.5 m x 6 m) | 10|
 | Yealink MeetingBar A20 | `133.15.0.108  `   | 2024 年 9 月 3 日 | 小さな会議室(4.5 m x 4.5 m)| 10|
 | Yealink MeetingBar A30 | `133.15.0.108  `   | 2024 年 9 月 3 日 | 中規模の部屋 (4.5 m x 6 m) | 10|
