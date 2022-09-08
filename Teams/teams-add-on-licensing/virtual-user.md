@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - admindeeplinkMAC
 description: 組織内の自動応答と通話キューのリソース アカウントにMicrosoft Teams 電話リソース アカウント ライセンスを割り当てる方法について説明します。
-ms.openlocfilehash: 348317ca659e03a9dacf8eaae603cff52a009912
-ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.openlocfilehash: 56b461c2de32f32dd51d72c5468e31f51b107310
+ms.sourcegitcommit: 09b77e83bc41914007606468e322d4ea47e2e8a4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67465985"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "67630427"
 ---
 # <a name="microsoft-teams-phone-resource-account-licenses"></a>Microsoft Teams 電話 リソース アカウント ライセンス
 
@@ -43,7 +43,7 @@ Microsoft Teams では、すべての自動応答と通話キューに、関連�
 
 ### <a name="license-allocation-example"></a>ライセンス割り当ての例
 
-Contoso, Inc. は、電話システムを含む 600 ライセンスを購入しました (従業員ごとに 1 つ)。 Contoso には、最初の 25 と 60 **個の Teams Phone リソース アカウント** ライセンスが割り当てられ、合計で 85 ライセンスが割り当てられている。 組織には、電話番号を持つ 90 の通話キューと自動応答があります。 **すべての Teams Phone リソース アカウント** ライセンスを割り当て、追加で 5 つの **Teams Phone リソース アカウント ライセンスを購入する** 必要があります。 
+Contoso, Inc. は、電話システムを含む 600 ライセンスを購入しました (従業員ごとに 1 つ)。 Contoso には、最初の 25 と 60 **個の Teams Phone リソース アカウント** ライセンスが割り当てられ、合計で 85 ライセンスが割り当てられている。 組織には、90 個の通話キューと自動応答があります。 **すべての Teams Phone リソース アカウント** ライセンスを割り当て、追加で 5 つの **Teams Phone リソース アカウント ライセンスを購入する** 必要があります。 
 
 ## <a name="how-to-obtain-microsoft-teams-phone-resource-account-licenses"></a>Microsoft Teams 電話 リソース アカウント ライセンスを取得する方法
 
