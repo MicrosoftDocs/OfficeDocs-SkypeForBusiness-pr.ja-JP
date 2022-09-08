@@ -17,16 +17,16 @@ ms.custom:
 - ms.teamsadmincenter.assignments.tooltip.emaildigest
 - ms.teamsadmincenter.assignments.tooltip.makecode
 - ms.teamsadmincenter.assignments.tooltip.turnitin
-description: Microsoft Teams for EducationのMicrosoft Teams管理センターで割り当てを管理する方法について説明します。
+description: Microsoft Teams for Educationの Microsoft Teams 管理センターで割り当てを管理する方法について説明します。
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed8b01b683d201bc26dec3d220c94fbc12e76f1c
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 91afcd8036cddfae2550aaddad776958ca413a78
+ms.sourcegitcommit: 8b33cc2c2e8f43e6ab4b17715d6a42692351ccad
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674669"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "67624297"
 ---
 # <a name="assignments-in-teams-for-education"></a>教育機関向けの Teams の課題 
 
@@ -35,28 +35,28 @@ Microsoft Teams for Educationの課題と成績の機能を使用すると、教
 [Microsoft Teams for Educationの課題と成績の詳細については、こちらを参照してください](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)。
 
 > [!Note]
-> さまざまなプラットフォームでのTeamsの割り当ての詳細については、プラットフォーム[別のTeams機能に関するページ](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)を参照してください。
+> 異なるプラットフォームでの Teams の割り当ての詳細については、プラットフォーム [別の Teams 機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)に関するページを参照してください。
 
-## <a name="assignments-integrations-in-the-microsoft-teams-admin-center"></a>Microsoft Teams管理センターでの割り当ての統合
+## <a name="assignments-integrations-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでの割り当ての統合
 
-Microsoft Teams管理センターの管理者設定を使用すると、組織内の教育者とその学生の機能をオンまたはオフにすることができます。 割り当てに関連する設定を次に示します。
+Microsoft Teams 管理センターの管理者設定を使用すると、組織内の教育者とその学生の機能をオンまたはオフにすることができます。 割り当てに関連する設定を次に示します。
 
 <a name="#bkemaildigest"> </a>
 
 ### <a name="weekly-guardian-email-digest"></a>毎週の保護者のメール ダイジェスト
 
-保護者向けメールは、各週末に保護者または保護者に送信されます。 メールには、前の週と今後の週の割り当てに関する情報が含まれています。 親と保護者の同期は[、学校データ同期](/schooldatasync/parent-contact-sync)を使用して設定できます。
+保護者向けメールは、各週末に保護者または保護者に送信されます。 メールには、前の週と今後の週の割り当てに関する情報が含まれています。 親と保護者の同期は、 [学校データ同期](/schooldatasync/parent-contact-sync)を使用して設定できます。
 
-1. SDSの親と保護者の同期を使用して親連絡先情報をインポートします。 親と保護者の同期を有効にする方法については、「親と保護者の同期 [を有効にする」を](/schooldatasync/parent-contact-sync#enabling-parent-and-guardian-sync)参照してください。
+1. SDS で親と保護者の同期を使用して親連絡先情報をインポートします。 親と保護者の同期を有効にする方法については、「親と保護者の同期 [を有効にする」を](/schooldatasync/parent-contact-sync#enabling-parent-and-guardian-sync)参照してください。
 
-2. 既定では設定がオフになっているので、Microsoft Teams管理センターでガーディアン設定をオンにします。 これにより、教師は毎週ダイジェストを送信できるようになります。
+2. 既定では設定がオフになっているので、Microsoft Teams 管理センターでガーディアン設定をオンにします。 これにより、教師は毎週ダイジェストを送信できるようになります。
 
    > [!NOTE]
-   > 教師は、自分の個人クラス チーム内の設定の選択を解除することで、ダイジェストをオプトアウトできます (**親/保護者のメールの割り当て設定 >**)。
+   > 教師は、自分の個人クラス チーム内の設定を選択解除することでダイジェストをオプトアウトできます (**課題設定>親/保護者のメール**)。
 
 保護者が電子メールを受け取ることを確認するには、次の 3 つの項目に該当する必要があります。
 
-- SDSで学生プロファイルに添付され、_親_ または _保護者_ としてタグ付けされたメール アドレス。 詳細については、「 [親と保護者の同期ファイル形式」を](/schooldatasync/parent-contact-sync-file-format)参照してください。
+- Email SDS で学生プロファイルに添付され、_親_ または _保護者_ としてタグ付けされたアドレスです。 詳細については、「 [親と保護者の同期ファイル形式」を](/schooldatasync/parent-contact-sync-file-format)参照してください。
 
 - 学生は、 [課題](https://support.microsoft.com/office/adjust-assignment-settings-in-your-class-team-05bb3b89-1cdf-415a-b6c7-44add0376a77)設定で教師が電子メールを無効にしていない少なくとも 1 つのクラスに属しています。
 
@@ -74,7 +74,7 @@ MakeCode は、Microsoft の [使用条件](https://go.microsoft.com/fwlink/?Lin
 
 この機能の既定の設定は - **オフです**。
 
-Teamsで MakeCode の割り当てを有効にするには、**Teams 管理 センター** に移動し、[**割り当て]** セクションに移動して、[MakeCode] トグル オプションを **[オン]** に切り替えます。 **[保存]** を選択します。 これらの設定を有効にするには、数時間かかります。
+Teams で MakeCode の割り当てを有効にするには、**Teams 管理 センター** に移動し、[**割り当て]** セクションに移動し、[MakeCode] トグル オプションを **[オン]** に切り替えます。 **[保存]** を選択します。 これらの設定を有効にするには、数時間かかります。
 
 この機能の動作の詳細については、この [ビデオデモをご覧](https://makecode.com/blog/teams/teams-assignments)ください。
 
@@ -105,7 +105,7 @@ Teamsで MakeCode の割り当てを有効にするには、**Teams 管理 セ�
 ![新しい統合の追加を示すスクリーンショット。](./educationImages/Assignments_mopo_turnitin2.png)
 
 プロンプトに従うと **、TurnitinApiKey** が提供されます。
-API キーをコピーし、Microsoft Teams管理センターに貼り付けます。  これは、キーを表示できる唯一の時間です。
+API キーをコピーし、Microsoft Teams 管理センターに貼り付けます。  これは、キーを表示できる唯一の時間です。
 
 ![API キーのコピーを示すスクリーンショット。](./educationImages/Assignments_mopo_turnitin3.png)
 
@@ -113,26 +113,26 @@ API キーをコピーし、Microsoft Teams管理センターに貼り付けま�
 
 ## <a name="assignments-data"></a>割り当てデータ
 
-課題には、教師と学生の両方によって生成される情報が格納されます。 すべてのデータは、教師と、情報がクラスで意図されている特定の学生の間で共同共有されます。 このデータには、SharePointとSharePointの外部の 2 つのストアがあります。
+課題には、教師と学生の両方によって生成される情報が格納されます。 すべてのデータは、教師と、情報がクラスで意図されている特定の学生の間で共同共有されます。 このデータには、SharePoint と SharePoint の外部の 2 つのストアがあります。
 
 >[!NOTE]
 >読み取り進行状況などのファースト パーティ統合にも、同じルールが適用されます。
 
-### <a name="assignments-data-in-sharepoint-document-libraries"></a>SharePoint ドキュメント ライブラリ内のデータの割り当て
+### <a name="assignments-data-in-sharepoint-document-libraries"></a>SharePoint ドキュメント ライブラリの割り当てデータ
 
-課題の提出に関連付けられている学生のファイルは、ドキュメント ライブラリ (名前: *Student Work*) に格納されます。 教師によって作成され、学生がアクセスできる課題に関連付けられているファイルは、対応するクラス チーム SharePoint サイトの別のドキュメント ライブラリ (名前: *クラス ファイル*) に格納されます。 ファースト パーティ統合では、同じ対応するクラス チーム SharePoint サイトに割り当てデータを格納することもできます (名前: *割り当てタイトル + タイム スタンプ*)。
+課題の提出に関連付けられている学生のファイルは、ドキュメント ライブラリ (名前: *Student Work*) に格納されます。 教師が作成し、学生がアクセスできる課題に関連付けられているファイルは、対応するクラス チーム SharePoint サイトの別のドキュメント ライブラリ (名前: *クラス ファイル*) に格納されます。 ファースト パーティ統合では、同じ対応するクラス チーム SharePoint サイト (名前: *課題タイトル + タイム スタンプ) に割り当てデータを* 格納することもできます。
 
 #### <a name="files-associated-with-the-student"></a>学生に関連付けられているファイル
 
-IT 管理者は、コンテンツ検索ツールを使用して、課題の提出や課題に関連するファイルに関連する学生ファイル (*Student Work*、 *Class Files*、またはその他のファースト パーティ統合ファイル) を検索できます。 たとえば、管理者は組織内のすべてのSharePoint サイトを検索し、検索クエリで学生の名前とクラス名または割り当て名を使用して、データ主体要求 (DSR) に関連するデータを検索できます。
+IT 管理者は、コンテンツ検索ツールを使用して、課題の提出や課題に関連するファイルに関連する学生ファイル (*Student Work*、 *Class Files*、またはその他のファースト パーティ統合ファイル) を検索できます。 たとえば、管理者は組織内のすべての SharePoint サイトを検索し、検索クエリで学生の名前とクラス名または割り当て名を使用して、データ主体要求 (DSR) に関連するデータを検索できます。
 
 #### <a name="files-associated-with-the-teacher"></a>教師に関連付けられているファイル
 
-IT 管理者は、コンテンツ検索ツールを使用して、課題に関するクラス内の教師が学生に配布する課題やファイルに関連する教師ファイル (*Student Work*、 *Class Files*、またはその他のファースト パーティ統合ファイル) を検索できます。 たとえば、管理者は組織内のすべてのSharePoint サイトを検索し、検索クエリで教師の名前とクラス名または割り当て名を使用して、DSR に関連するデータを検索できます。
+IT 管理者は、コンテンツ検索ツールを使用して、課題に関するクラス内の教師が学生に配布する課題やファイルに関連する教師ファイル (*Student Work*、 *Class Files*、またはその他のファースト パーティ統合ファイル) を検索できます。 たとえば、管理者は組織内のすべての SharePoint サイトを検索し、検索クエリで教師の名前とクラス名または割り当て名を使用して、DSR に関連するデータを検索できます。
 
 ### <a name="assignments-data-outside-of-sharepoint-document-libraries"></a>SharePoint ドキュメント ライブラリの外部でデータを割り当て
 
-割り当てに関連する一部のデータは、クラス チームSharePointサイトに格納されていないため、コンテンツ検索では検出できません。 これには次のものが含まれます。
+割り当てに関連する一部のデータは、クラス チームの SharePoint サイトに格納されていないため、コンテンツ検索では検出できません。 これには次のものが含まれます。
 
 - 教師からの学生の成績とフィードバック
 - 各学生が課題に提出したドキュメントの一覧
@@ -156,7 +156,7 @@ IT 管理者は、コンテンツ検索ツールを使用して、課題に関�
 
 一括エクスポートの割り当てデータは学生と同じように動作しますが、教師がアクセス権を持つすべての提出はエクスポートされます。
 
-### <a name="bulk-delete-assignment-data-outside-of-sharepoint-document-libraries"></a>ドキュメント ライブラリの外部で割り当てデータSharePoint一括削除する
+### <a name="bulk-delete-assignment-data-outside-of-sharepoint-document-libraries"></a>SharePoint ドキュメント ライブラリの外部で割り当てデータを一括削除する
 
 #### <a name="for-a-student"></a>学生の場合
 
@@ -168,15 +168,15 @@ a を ``ClassId`` 指定すると、管理者は特定のクラスから学生�
 
 教師の割り当てのデータはクラス間で共有されるため、一括削除オプションはありません。 代わりに、管理者は自分自身をクラスに追加し、アプリに移動して、割り当てを削除できます。
 
-詳細については、「[Teamsの割り当ての構成」を](/microsoft-365/education/deploy/configure-assignments-for-teams)参照してください。
+詳細については、「 [Teams の割り当ての構成」を参照してください](/microsoft-365/education/deploy/configure-assignments-for-teams)。
 
 ## <a name="removing-assignments-and-grades"></a>課題と成績の削除
 
 Teams ポリシーを使用して、特定のユーザーまたはテナント全体の割り当てと成績を削除することもできます。
 
-個々のユーザーの割り当てと成績を削除するには、**Teams 管理 センター** に移動し、**Teams アプリ>アクセス許可ポリシー** に移動して、新しいアプリアクセス許可ポリシー定義を作成します。  新しいポリシー定義を作成するときは、Microsoft アプリ ポリシーを [特定 **のアプリ** をブロックする] に設定 _し、他のすべてのアプリを許可_ し、ブロックされたアプリケーションの一覧に **割り当てを** 追加します。 新しいポリシー定義を保存したら、適切なユーザーに割り当てます。
+個々のユーザーの割り当てと成績を削除するには、**Teams 管理 センター** に移動し、**Teams アプリ>アクセス許可ポリシー** に移動して、新しいアプリアクセス許可ポリシー定義を作成します。  新しいポリシー定義を作成するときは、 **Microsoft アプリ** ポリシーを _[特定のアプリをブロック] に設定し、他のすべてのアプリを許可し_ 、ブロックされたアプリケーションの一覧に **割り当て** と **成績** を追加します。 新しいポリシー定義を保存したら、適切なユーザーに割り当てます。
 
-テナント全体の課題と成績を削除するには、**Teams 管理 センター** に移動し、**Teams アプリ>アプリの管理** に移動し、アプリケーションの一覧から **[割り当て**] を検索して選択します。 [割り当てアプリケーション設定] ページ内の状態設定を _[ブロック]_ に変更します。
+テナント全体の課題と成績を削除するには、**Teams 管理 センター** に移動し、**Teams アプリ>アプリの管理** に移動し、アプリケーションの一覧から **課題** と **成績** を検索して選択します。 アプリケーションの設定ページ内の状態設定を _[ブロック]_ に変更します。
 
 ## <a name="assignments-diagnostic-tool-for-users"></a>ユーザーの割り当て診断ツール
 
@@ -184,7 +184,7 @@ Microsoft サポートは、割り当て機能に関連する問題を調査す�
 
 このツールは、ユーザーが問題を発生する画面で、割り当ての内部でアクセスできます。
 
-Teamsで診断ツールをプルアップするには、次の操作を実行できます。
+Teams で診断ツールをプルアップするには、ユーザーは次のことができます。
 
 - **デスクトップと Web の場合:**
   - Ctrl + / を選択する
@@ -207,6 +207,6 @@ Teamsで診断ツールをプルアップするには、次の操作を実行で
 
 ユーザーが診断ツールをプルアップした後、それを閉じると、データは送信されません。
 
-データが Microsoft サポート エージェントに送信されると、組織のMicrosoft 365サービス契約に基づくサポート データとして処理されます。
+データが Microsoft サポート エージェントに送信されると、組織の Microsoft 365 サービス契約に基づくサポート データとして処理されます。
 
 教育者や学生と共有できるこの診断ツールの使用方法については、「 [課題のトラブルシューティングに関する診断データを取得する](https://support.microsoft.com/topic/b40793f5-dbae-4c8a-841a-6baa7f232e2e)」を参照してください。
