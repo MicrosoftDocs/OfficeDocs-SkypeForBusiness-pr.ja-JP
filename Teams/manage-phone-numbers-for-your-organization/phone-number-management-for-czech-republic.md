@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 次の表を使用して、Microsoft Teams のチェコ共和国での電話番号の取得と管理に関する情報を確認します。
-ms.openlocfilehash: 94dafbbcc7969bf70c2b335438982795dc7fb09f
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 8c11bb079605ed1d9b1ceb9de8b0b2aa54909141
+ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66790222"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "67637020"
 ---
 # <a name="phone-number-management-for-the-czech-republic"></a>チェコ共和国の電話番号管理
 
@@ -37,8 +37,8 @@ ms.locfileid: "66790222"
 
 |**実行する操作**|**正しいフォームをダウンロードする**|
 |:-----|:-----|
-|Microsoft Teams 管理センターに一覧表示されていない新しいユーザーまたはサービスの電話番号を取得します。 |チェコ共和国では、Microsoft Teams 管理センターを使用して、組織の電話番号を取得できます。 また、フォームをダウンロードして新しい電話番号要求を送信し、 [手順については TNS サービス デスクにお問い合わせください](contact-tns-service-desk.md)。<br/><br/>`[New phone number request for the Czech Republic (v.1.0) cs-CZ](https://download.microsoft.com/download/2/f/0/2f015d86-3136-4d81-b323-e5b8cac3c272/new-phone-number-request-for-the-czech-republic-(v1.0)-(cs-CZ).pdf )`. <br/><br/> 電話番号を割り当てる前に、顧客を知るフォームをダウンロードし、完全に入力して、Microsoft に送信する必要があります。<br/><br/>新しい注文は、この市場への入力に 2 ~ 3 週間かかる場合があります。  |
-|Microsoft に転送された電話番号を取得します。 | このフォームをダウンロードします。 <br/><br/>[チェコ共和国の承認状 (LOA) (すべての数値) (v.1.0) (cz-cz)](https://download.microsoft.com/download/6/f/6/6f66c134-5ad4-42d8-b7f9-f857fb5fd4ca/letter-of-authorization-(loa)-for-czech-republic-(all-numbers)-(v1.0)-(cz-cz).pdf)<br/><br/>必要事項を入力し、 [手順については TNS サービス デスクにお問い合わせください](contact-tns-service-desk.md)。 また、番号を転送するビジネス アドレスからの公共料金も含める必要があります。<br/><br/>この市場で数値を転送するには、2 ~ 3 週間かかる場合があります。 <br/><br/>現時点では、これらの番号を会議に使用することはできません。 |
+|Microsoft Teams 管理センターに一覧表示されていない新しいユーザーまたはサービスの電話番号を取得します。 |チェコ共和国では、Microsoft Teams 管理センターを使用して、組織の電話番号を取得できます。 また、新しい電話番号要求を送信するには、[顧客の確認] フォームをダウンロードし、 [TNS サービス デスクにお問い合わせください](contact-tns-service-desk.md)。<br/><br/>番号を割り当てる前に、顧客フォームをダウンロードする必要があります。 <br/><br/><ul><li>[チェコ共和国の顧客フォームを知る](https://download.microsoft.com/download/6/f/6/6f66c134-5ad4-42d8-b7f9-f857fb5fd4ca/KYC-CZ-CZ.docx)</ul></li> <br/>新しい注文は、この市場への入力に 2 ~ 3 週間かかる場合があります。
+|Microsoft に転送された電話番号を取得します。 | このフォームをダウンロードします。 <br/><br/>[チェコ共和国の承認状 (LOA) (すべての数値) (v.2.0) (cz-cz)](https://download.microsoft.com/download/6/f/6/6f66c134-5ad4-42d8-b7f9-f857fb5fd4ca/LOA-CZ-GEO-EN.pdf)<br/><br/>必要事項を入力し、 [手順については TNS サービス デスクにお問い合わせください](contact-tns-service-desk.md)。 また、転送する番号の現在の請求書を現在のオペレーターから含める必要もあります。<br/><br/>この市場で数値を転送するには、2 ~ 3 週間かかる場合があります。 <br/><br/>現時点では、これらの番号を会議に使用することはできません。 |
 |国内の電話番号ディレクトリで、電話番号を発行/公開解除します。  <br/> |発行/非公開にする電話番号の一覧については[、TNS サービス デスクにお問い合わせください](contact-tns-service-desk.md)。 <br/> |
 |ユーザーの番号をサービス番号に変更します。  <br/> |サービス番号に変換するユーザー番号の一覧については、[TNS サービス デスクにお問い合わせください](contact-tns-service-desk.md)。 <br/> |
 |通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには、 [TNS サービス デスクに問](contact-tns-service-desk.md)い合わせてください。 |

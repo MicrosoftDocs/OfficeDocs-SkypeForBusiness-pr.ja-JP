@@ -19,12 +19,12 @@ description: Teams アプリを管理する方法について説明します。 
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: beaa10343570624b6ce9b01dbaf9f4a0e962b191
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: ca49ca15b026048d2c495d30a51eac0f809244b5
+ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486882"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "67637050"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターで Teams アプリを管理する
 
@@ -85,38 +85,6 @@ Teams 管理センターの [[アプリの管理]](https://admin.teams.microsoft
 
 ユーザーは、テナント全体の設定を介してアプリが許可され、アクセス許可ポリシーを介してユーザーに許可されている場合にのみ、アプリをインストールして使用できます。
 
-## <a name="manage-user-requests-to-allow-apps"></a>アプリを許可するユーザー リクエストを管理する
-
-エンド ユーザーは、Teams ストアでブロックされたアプリを表示できますが、使用することはできません。 ブロックされたアプリについては、管理者の承認を要求するオプションを利用できます。 これらの要求は Teams 管理センターで照合され、管理者は必要に応じて要求を表示および管理できます。 エンドユーザー リクエストを確認するために、定期的なトリアージを行うことを強くお勧めします。
-
-  :::image type="content" source="media/user-request-blocked-apps.png" alt-text="Teams ストアで承認を要求するオプションを選択して、ブロックされたアプリを承認するように管理者に要求します。":::
-
-### <a name="view-a-request"></a>要求を表示する
-
- 1. Teams 管理センターにサインインし、**Teams Apps****[管理アプリ](https://admin.teams.microsoft.com/policies/manage-apps)** に > アクセスします。
-
-    :::image type="content" source="media/requested-apps1.png" alt-text="ブロックされたアプリに対するエンド ユーザー要求は、Teams 管理センターの [ユーザーによるリクエスト] というタイトルの列に表示されます。" lightbox="media/requested-apps.png":::
-
- 1. 各アプリの要求の数を表示して確認するには、**[ユーザーによるリクエスト]** 列で要求を並べ替えます。 アプリをリクエストしたユーザーの名前を表示することはできません。
- 1. アプリを許可するには、アプリの名前を選択すると、アプリの詳細ページが開きます。
- 1. **[要求の管理]** を選択し、ポップアップ ダイアログに表示される手順を完了します。 アプリをブロックするために使用される方法に基づいて、ブロックを解除するには、次の手順のうち 1 つ以上が必要です。
-
-    * アクセス許可ポリシーを使用してアプリがブロックされている場合は、[アクセス許可](teams-app-permission-policies.md)ポリシーを変更してアプリを許可します。
-    * すべてのユーザーに対してアプリがブロックされている場合は、[アプリを許可します](#allow-and-block-apps)。
-    * すべてのアプリがすべてのユーザーに対してブロックされている場合は、[組織全体の設定](#manage-org-wide-app-settings)を変更します。
-
- 管理者がアプリを許可した場合、Teams はエンド ユーザーに要求が処理されたことを通知しません。 ユーザーは Teams ストアでアプリを表示して、Teams クライアントにアプリを追加できるかどうかを確認できます。 アプリが管理者によって承認されている場合、ユーザーはそれを追加できます。 または、管理者が要求を承認せず、却下した場合は、エンド ユーザーは要求を再度要求できます。
-
-### <a name="dismiss-a-user-request"></a>ユーザー要求を無視する
-
- 1. ユーザー要求を無視するアプリの名前を選択します。
- 1. **[要求の管理]** を選択し、ダイアログ ボックスで **[すべての要求を閉じる]** を選択します。
- 1. 要求が無視されると、ユーザー要求は 0 にリセットされます。
-
-  :::image type="content" source="media/reject.png" alt-text="管理者は、アプリを許可することでユーザー要求を承認したり、要求を却下したりして、何のアクションも実行しません。":::
-
-管理者がアプリを無視した場合、要求が処理されたことはエンド ユーザーに通知されません。 管理者が要求を却下した後、エンド ユーザーはアプリを再度要求できます。
-
 ## <a name="allow-the-apps-that-are-blocked-by-the-developers"></a>開発者がブロックしているアプリを許可する
 
 開発者が Teams アプリ ストアにアプリを発行する場合、アプリ エクスペリエンスを構成またはカスタマイズするために管理者が必要になる場合があります。 管理者は、アプリのセットアップ時にエンド ユーザーがアプリを利用できるようにします。
@@ -159,3 +127,4 @@ Teams 管理センターの [[アプリの管理]](https://admin.teams.microsoft
 ## <a name="related-article"></a>関連記事
 
 * [Skype for Business 管理センターからの移行中に Teams を管理する](manage-teams-skypeforbusiness-admin-center.md)
+* [アプリを許可するユーザー要求を管理します](user-requests-approve-apps.md)。

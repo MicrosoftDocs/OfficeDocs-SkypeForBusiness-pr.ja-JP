@@ -1585,8 +1585,10 @@ items:
             href: customize-your-app-store.md
           - name: Microsoft 365 全体でアプリへのアクセスを管理する
             href: manage-third-party-teams-apps.md
-          - name: ユーザーの種類に基づくアプリの動作
+          - name: 外部ユーザーのアプリの動作
             href: non-standard-users.md
+          - name: アプリを許可するユーザー要求を管理する
+            href: user-requests-approve-apps.md
           - name: アプリの更新と管理者の役割
             href: apps-update-experience.md
           - name: アプリ管理アクティビティの監査

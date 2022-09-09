@@ -18,12 +18,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 67a6424d6fcde396ebdbb41b3c00fc4186e8e475
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: cfcd041fd755016ec04832f42c497e2b0ad51469
+ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396698"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "67637010"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのセットアップ ポリシーを管理する
 
@@ -92,7 +92,7 @@ ms.locfileid: "67396698"
 * エンド ユーザー向けのアプリを個人の Teams 環境にインストールします。
 * [メッセージング拡張機能](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions)としてエンド ユーザー向けのアプリをインストールします。
 
-アプリの [アクセス許可ポリシー](teams-app-permission-policies.md) によって許可され、Teams 管理者によってアプリが許可されている場合、エンド ユーザーは自分でアプリをインストールできます。代わりに、アプリがユーザーまたは組織に対してブロックされている場合、エンド ユーザーは [管理者の承認を要求](manage-apps.md#manage-user-requests-to-allow-apps)できます。
+アプリの [アクセス許可ポリシー](teams-app-permission-policies.md) によって許可され、Teams 管理者によってアプリが許可されている場合、エンド ユーザーは自分でアプリをインストールできます。代わりに、アプリがユーザーまたは組織に対してブロックされている場合、エンド ユーザーは [管理者の承認を要求](user-requests-approve-apps.md)できます。
 
 アプリセットアップ ポリシーを使用してアプリをインストールするには、次の手順に従います。
 
