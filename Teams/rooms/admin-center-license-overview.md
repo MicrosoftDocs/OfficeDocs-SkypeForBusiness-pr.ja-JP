@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Teams 管理センターでTeams Roomsライセンスと機能の可用性について説明し、比較します。
-ms.openlocfilehash: f880f2878c98e739c0367faafed252f93f4cd3d5
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: d88e7a0c0a6c17fb22f1cc94fcd4de65a3ff79a2
+ms.sourcegitcommit: 732a7f3e120cfa221d42b4e8af2cf9ff623488a1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606891"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "67633637"
 ---
 # <a name="microsoft-teams-rooms-license-overview-in-teams-admin-center"></a>Teams 管理センターでライセンスの概要をMicrosoft Teams Roomsする
 
@@ -37,11 +37,11 @@ Microsoft Teams Rooms ライセンスの詳細については、「[Microsoft Te
 
 ## <a name="see-which-licenses-are-assigned-to-teams-rooms-devices"></a>Teams Rooms デバイスに割り当てられているライセンスを確認する
 
-Teams 管理センターの **Teams デバイス** に移動し、表示するデバイス カテゴリを選択すると、デバイスのライセンスを確認できます。 たとえば、**Windows で Teams** **デバイス** > Teams Roomsを選択すると、次の図のようになります。 **[ライセンス]** 列には、各デバイスに割り当てられているTeams Roomsライセンスが表示されます。
+Teams 管理センターの Teams デバイスに移動し、表示するデバイス カテゴリ (Windows のTeams Rooms、Android のTeams Rooms、Surface Hubs) を選択すると、デバイスのライセンスを確認できます。 たとえば、**Windows で Teams** **デバイス** > Teams Roomsを選択すると、次の図のようになります。 **[ライセンス]** 列には、各デバイスに割り当てられているTeams Roomsライセンスが表示されます。
 
 :::image type="content" source="../media/mtr-device-inventory-license-focus.png" alt-text="Standard、Pro、および Pro (Trial) ライセンスに焦点を当てたインベントリ リストをTeams Roomsします。":::
 
-**Pro** または **Pro (試用版)** ライセンスを持つデバイスは、Teams 管理センターのすべての機能にアクセスできます。 他のライセンスを持つデバイスは、これらの機能のサブセットにアクセスできます。 各ライセンスで使用できる機能は、ライセンス別の[Teams Rooms機能の可用性の比較で](#comparison-of-teams-rooms-feature-availability-by-license)確認できます。
+**Pro** ライセンスを持つデバイスは、Teams 管理センターのすべての機能にアクセスできます。 他のライセンスを持つデバイスは、これらの機能のサブセットにアクセスできます。 各ライセンスで使用できる機能は、ライセンス別の[Teams Rooms機能の可用性の比較で](#comparison-of-teams-rooms-feature-availability-by-license)確認できます。
 
 > [!IMPORTANT]
 > Microsoft Teams Rooms Basic ライセンスとMicrosoft Teams Rooms Pro ライセンスの両方を含む複数のデバイスを選択した場合、Microsoft Teams Rooms Pro ライセンスを必要とするアクションは、そのライセンスが割り当てられているデバイスでのみ実行されます。 このアクションは、Microsoft Teams Rooms Basic ライセンスが割り当てられているデバイスでは実行されません。
