@@ -14,7 +14,6 @@ ms.collection:
 - M365-collaboration
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
@@ -23,12 +22,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Microsoft ボリューム ライセンスを使用して組織の電話会議機能を有効にする分単位の有料オプションについて説明します。
-ms.openlocfilehash: 5aa2b31833f0ee2b3b32a4c849436012aa9c5ccc
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: 49cc45cadefdbd01b3c2c1606975bb64d5b60edb
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055507"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67642158"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>分数ごと従量課金制電話会議
 
@@ -52,13 +51,13 @@ ms.locfileid: "62055507"
 > [!NOTE]
 > これらの種類の通話に関連付けられているダイヤルインとダイヤルアウトのレートは、[電話会議](https://www.microsoft.com/microsoft-teams/audio-conferencing)の **電話会議の料金** セクションを確認することで確認できます。
 
-分あたりの支払いには、組織で [通信クレジット](what-are-communications-credits.md) を設定する必要があります。 詳細については、「組織またはアドオン [ライセンスMicrosoft Teams](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)[通信クレジットを設定](set-up-communications-credits-for-your-organization.md)する」を参照してください。
+分あたりの支払いには、組織で [通信クレジット](what-are-communications-credits.md) を設定する必要があります。 詳細については、「組織または [Microsoft Teams アドオン ライセンス](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)[の通信クレジットを設定](set-up-communications-credits-for-your-organization.md)する」を参照してください。
 
 組織内のユーザーに対して 1 分あたりの電話会議料金を有効にするには、「[Microsoft Office 365またはOffice 365での電話会議の試用または購入](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)」を参照してください。
 
 ## <a name="why-is-it-best-for-you"></a>最適な理由は何ですか?
 
-- モバイル デバイスまたは PC でSkype for BusinessまたはTeamsアプリケーションを使用する代わりに、スケジュールされた会議中に各出席者が発信する着信または発信通話ごとに分単位で課金されます (料金は有料または無料通話と宛先によって異なります)。
+- 1 分あたりの支払いは、モバイル デバイスまたは PC で Teams アプリケーションを使用する代わりに、スケジュールされた会議中に各出席者が発信する着信または発信通話ごとに 1 分ごとに課金されます (料金は有料または無料通話と宛先によって異なります)。
 
 - 管理者は、開催者の会議から行うことができるダイヤルアウトの種類 (国際および国内) を制限できるため、コストを管理する機能。 [電話会議とユーザー PSTN 通話の発信通話制限ポリシーを](./outbound-calling-restriction-policies.md)参照してください
 
