@@ -14,7 +14,6 @@ ms.collection:
 - M365-collaboration
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
@@ -24,21 +23,21 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.bridgesettings
 - seo-marvel-mar2020
 description: 電話会議ブリッジの設定を変更します。これには、入退室通知、再生名または電話番号、トーン、発信者に名前の記録を求めるメッセージが表示されます。
-ms.openlocfilehash: 48925c30d9ac42c76b6f00d8416d767c6e0ab14d
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: d9853826d9a93c5794017185f561b9d6a6cd1ffb
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823046"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641788"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>電話会議ブリッジの設定を変更する
 
-Microsoft 365またはOffice 365で電話会議を設定すると、電話会議ブリッジと呼ばれるものからユーザーの電話番号を受け取ります。 電話会議ブリッジには 1 つまたは複数の電話番号を含めることができます。 この電話番号は、発信者が会議にダイヤルインするときに使用されます。 電話番号は、Skype for Business または Microsoft Teams の会議出席依頼の下部にあります。
+Microsoft 365 またはOffice 365で電話会議を設定すると、電話会議ブリッジと呼ばれるものからユーザーの電話番号を受け取ります。 電話会議ブリッジには 1 つまたは複数の電話番号を含めることができます。 この電話番号は、発信者が会議にダイヤルインするときに使用されます。 電話番号は Teams 会議の招待の下部に含まれています。
   
-電話会議ブリッジは着信に応答し、会議の自動応答を使用して音声案内で発信者を案内し、それから設定に応じて、通知メッセージを再生し、発信者に自分の名前を記録することと、PIN の設定を管理することを求めます。 PIN は 会議の開催者に付与され、Skype for Business または Microsoft Teams のアプリを使用していないときに会議を開始できます。
+電話会議ブリッジは着信に応答し、会議の自動応答を使用して音声案内で発信者を案内し、それから設定に応じて、通知メッセージを再生し、発信者に自分の名前を記録することと、PIN の設定を管理することを求めます。 PIN は、Microsoft Teams アプリを使用していないときに会議を開始できるように、会議の開催者に提供されます。
 
   > [!IMPORTANT]
-  > PIN が必要になるのは、Skype for Business または Microsoft Teams のアプリのユーザーがまだ会議を開始していないときの、会議の開催者のみです。 全員が会議にダイヤルインすると、会議の開催者が会議を開始するために PIN が必要になります。
+  > PIN は、Teams アプリ ユーザーがまだ会議を開始していない場合にのみ、会議の開催者に必要です。 全員が会議にダイヤルインすると、会議の開催者が会議を開始するために PIN が必要になります。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -63,9 +62,9 @@ Microsoft 365またはOffice 365で電話会議を設定すると、電話会議
 4. 電話会議の PIN の長さを設定するには、[**PIN の長さ**] リストの PIN に希望の桁数を選択します。
 
 5. ユーザーに電子メールを送信するかどうか指定するには、[**電話会議設定を変更した場合ユーザーに自動的に電子メールを送信する**] を有効または無効にします。
-    詳細については、「[Microsoft Teams で電話会議の設定を変更したときにユーザーに送信されるメール](emails-sent-to-users-when-their-settings-change-in-teams.md)」または「[Skype for Business Online で設定を変更したときにユーザーに送信されるメール](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change)」を参照してください。
+    詳細については、「 [Microsoft Teams で電話会議の設定が変更されたときにユーザーに自動的に送信される電子メール](emails-sent-to-users-when-their-settings-change-in-teams.md) 」を参照してください。
 
-6. [**保存**] をクリックします。
+6. **[保存]** をクリックします。
 
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell での管理方法について
 
@@ -79,17 +78,10 @@ Microsoft 365またはOffice 365で電話会議を設定すると、電話会議
 
 - Windows PowerShellには、多くのユーザーに対して一度に設定を変更する場合など、Microsoft 365 管理センターのみを使用するよりも、速度、シンプルさ、生産性に多くの利点があります。 次のトピックでこれらの利点について説明します。
 
-  - [Windows PowerShell と Skype for Business Online の概要](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+  - [Microsoft Teams PowerShell の概要](teams-powershell-overview.md)
 
-  - [Windows PowerShell による Skype for Business Online の管理](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-
-  - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-
-    > [!NOTE]
-    > Skype for Business Online 用の Windows PowerShell モジュールがあれば、Skype for Business Online に接続するリモートの Windows PowerShell セッションを作成できます。このモジュールは、64 ビット版のコンピューターでのみサポートされており、「[Windows PowerShell Module for Skype for Business Online](/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1)」の Microsoft ダウンロード センターからダウンロードできます。
+  - [Microsoft Teams PowerShell モジュールをインストールする](teams-powershell-install.md)
   
 ## <a name="related-topics"></a>関連項目
 
 [Microsoft Teams の電話会議を設定する](set-up-audio-conferencing-in-teams.md)
-
-[Skype for Business Online 用電話会議を設定する](/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)

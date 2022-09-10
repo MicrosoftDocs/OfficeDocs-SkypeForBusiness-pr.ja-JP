@@ -21,17 +21,17 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: PIN の長さと要件のパラメーターについて説明し、Microsoft Teamsの会議の長さを設定する方法について説明します。
-ms.openlocfilehash: c08be6e0bd66677c1459cb829dc21c749efceffd
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+description: PIN の長さと要件のパラメーターについて説明し、Microsoft Teams での会議の長さを設定する方法を確認します。
+ms.openlocfilehash: e589a550eba48401612e183200e54f678f9890c4
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055887"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641958"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>Microsoft Teams で電話会議用の PIN の長さを設定する
 
-Microsoft Teamsの電話会議を設定すると、電話会議ブリッジが表示されます。 電話会議ブリッジには 1 つまたは複数の電話番号を含めることができます。 設定した電話番号は、Microsoft Teams アプリの会議出席依頼に含まれます。
+Microsoft Teams の電話会議を設定すると、電話会議ブリッジが表示されます。 電話会議ブリッジには 1 つまたは複数の電話番号を含めることができます。 設定した電話番号は、Microsoft Teams アプリの会議出席依頼に含まれます。
   
 電話会議ブリッジは、電話を使用して会議にダイヤルインしようとしているユーザーの呼び出しに応答します。 自動応答からの音声プロンプトで発信者に応答し、設定に応じて通知を再生し、発信者に名前の記録を求めることができます。 **Microsoft ブリッジ設定** を使用すると、会議の通知と会議参加エクスペリエンスの設定を変更し、会議の開催者が使用する PIN の長さを設定できます。 会議の開催者は、Microsoft Teams アプリを使用して会議に参加できない場合、PIN を使用して会議を開始します。
 
@@ -40,7 +40,7 @@ Microsoft Teamsの電話会議を設定すると、電話会議ブリッジが�
   
 ## <a name="setting-the-pin-length"></a>PIN の長さを設定する
 
-Microsoft Teams管理センターの使用:
+Microsoft Teams 管理センターの使用:
 
 1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。
 
@@ -63,7 +63,7 @@ Microsoft Teams管理センターの使用:
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 
-Windows PowerShellはすべて、ユーザーの管理と、ユーザーの許可または許可されていない操作です。 Windows PowerShellを使用すると、1 つの管理ポイントを使用してMicrosoft 365またはOffice 365を管理できます。複数のタスクがある場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+Windows PowerShellはすべて、ユーザーの管理と、ユーザーの許可または許可されていない操作です。 Windows PowerShellを使用すると、1 つの管理ポイントを使用して Microsoft 365 またはOffice 365を管理できます。複数のタスクがある場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
 
 - [Windows PowerShell で Office 365 を管理するための最善の方法](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
@@ -73,4 +73,4 @@ Windows PowerShell の詳細については、「[Microsoft Teams PowerShell の
 
 ## <a name="related-topics"></a>関連トピック
 
-[Microsoft 365またはOffice 365での電話会議の試用または購入](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Microsoft Teams 用の Microsoft 365 で電話会議を試用または購入する](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)

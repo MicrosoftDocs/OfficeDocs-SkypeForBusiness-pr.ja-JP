@@ -1,5 +1,5 @@
 ---
-title: 電話会議の設定が変更されたときの電子メール オプション
+title: 電話会議の設定が変更されたときにオプションをEmailする
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -20,13 +20,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 'ピンの変更や既定の会議番号の変更などの設定がMicrosoft Teamsで変更されたときに、ユーザーに電子メールを送信するSkypeを有効または無効にする方法について説明します。 '
-ms.openlocfilehash: 568a42badd375314ee5b29529a53b52b1f6267eb
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+description: 'ピンの変更や Teams の既定の会議番号の変更などの設定がユーザーに送信されないように Microsoft Teams を有効または無効にする方法について説明します。 '
+ms.openlocfilehash: a5119d6f612ed083ac4e72ab52f6bb189af4c9d1
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055297"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67642108"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>Microsoft Teams で電話会議の設定が変更されたときのメールの自動送信を有効または無効にする
 
@@ -56,7 +56,7 @@ ms.locfileid: "62055297"
 
 ## <a name="enable-or-disable-email-from-being-sent-to-users"></a>電子メールがユーザーに送信されないように有効または無効にする
 
-Microsoft TeamsまたはWindows PowerShellを使用して、ユーザーに送信される電子メールを有効または無効にすることができます。
+Microsoft Teams またはWindows PowerShellを使用して、ユーザーに送信される電子メールを有効または無効にすることができます。
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
 

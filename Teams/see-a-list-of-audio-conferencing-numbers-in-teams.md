@@ -22,17 +22,17 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Microsoft Teams 内から電話会議に使用できるダイヤルイン会議番号を検索する方法について説明します。
-ms.openlocfilehash: 33beda34a5c7079c5df910492264061216fb7072
-ms.sourcegitcommit: d0cbc23e10219dd2889011421010215a5d246031
+ms.openlocfilehash: de03b3a1b12cc6bdcef9326e80e970ece2bdc378
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2022
-ms.locfileid: "67460630"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641888"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Microsoft Teams で電話会議の電話番号のリストを表示する
 
 Microsoft Teams ユーザー向けに電話会議を設定すると、電話会議に使用できる電話番号を表示できます。 あなたの組織に連絡可能な電話会議のすべての電話番号がリストに追加されます。
-   
+
 **価格を見る** 電話会議の [ **電話会議の料金** ] セクション [を確認します](https://www.microsoft.com/microsoft-teams/audio-conferencing)。
   
 組織内で連絡可能な電話番号が1つのみの場合、その番号がすべてのユーザーの既定値の番号として使用されます。 複数の電話番号で連絡可能な場合は、各ユーザーが既定値の電話番号を選択することができます。 この既定の番号は、Microsoft Teams の会議出席依頼に含まれます。
@@ -61,6 +61,3 @@ Windows PowerShellはすべて、ユーザーの管理と、ユーザーの許�
 
 Windows PowerShell の詳細については、「[Microsoft Teams PowerShell のリファレンス](/powershell/module/teams/?view=teams-ps)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
-
-[Microsoft 365 または Office 365で電話会議を試用または購入する](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

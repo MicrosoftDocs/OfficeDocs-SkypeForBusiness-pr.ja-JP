@@ -13,7 +13,6 @@ ms.collection:
 - M365-collaboration
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
@@ -22,16 +21,16 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: ダイヤルアウトと通話時の特典。 2019 年 12 月 1 日の時点で、各電話会議サブスクリプションは、ゾーン A の国に対してユーザーあたり 1 か月あたり 60 分を提供します。
-ms.openlocfilehash: 18300c44c806689b601c8b14d8c871ecb0ff6ba4
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: 6df0b6f2157f16da6e992d465b524a5b582e0a12
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65187013"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67642148"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>電話会議サブスクリプション "Dial-Out"/"Call Me At" 分特典
 
-## <a name="microsoft-teams-and-skype-for-business-pstn-audio-conferencing"></a>PSTN 電話会議のMicrosoft TeamsとSkype for Business
+## <a name="microsoft-teams-and-pstn-audio-conferencing"></a>Microsoft Teams と PSTN 電話会議
 
 各電話会議標準サブスクリプションでは、このドキュメントで説明されているように、ゾーン A の国の任意の非 Premium 番号にダイヤルアウトするために使用できる、ユーザーあたり 1 か月あたり 60 分が提供されます。 この特典は、電話会議 *の月次サブスクリプション* ライセンスに適用され、電話会議の 1 分あたりの有料ライセンスには適用されません。
 
@@ -74,16 +73,15 @@ ms.locfileid: "65187013"
 
 ## <a name="how-can-i-monitor-minute-my-pool-usage"></a>プールの使用状況を分単位で監視するにはどうすればよいですか?
 
-- Microsoft Teams管理センターでは、ダイヤルアウト分プールに対して使用状況を監視できます。 左側のナビゲーションで、**Analytics &** **reportsUsage** >  レポートに移動し、**PSTN 分プール** を選択します。 ゾーン A のダイヤルアウト分プールには、レポートに "ゾーン A 国への発信通話" というラベルが付けられます。
-- 組織のダイヤルアウト分プールの使用率が 80% と 100% に達すると、次の管理者に電子メール通知が送信されます。
+- Microsoft Teams 管理センターでは、ダイヤルアウト分プールに対して使用状況を監視できます。 左側のナビゲーションで、**Analytics & レポート****使用状況レポート** > に移動し、**PSTN 分プール** を選択します。 ゾーン A のダイヤルアウト分プールには、レポートに "ゾーン A 国への発信通話" というラベルが付けられます。
+- Email通知は、組織のダイヤルアウト分プールの使用率が 80% と 100% に達すると、次の管理者に送信されます。
 
   - 課金管理者
-  - Skype for Business管理者
   - グローバル管理者
   - ユーザー管理者
   - ヘルプデスク管理者
   - サービス サポート管理者
-  - Azure AD参加しているデバイス ローカル管理者
+  - Azure AD 参加済みデバイス ローカル管理者
   - アプリケーション管理者
   - ライセンス管理者
   - クラウド デバイス管理者

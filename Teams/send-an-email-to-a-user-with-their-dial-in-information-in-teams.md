@@ -1,5 +1,5 @@
 ---
-title: ユーザーに電話会議情報を電子メールで送信する
+title: ユーザーの電話会議情報をEmailする
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -22,16 +22,16 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Microsoft Teams で音声会議情報を記載したメールをユーザーに送信する方法について説明します。
-ms.openlocfilehash: 6dbd0f0001472e49bd0940cc18440550972a2c5c
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: 9b120318405eaa11b42ed7600463e5ca12c3d850
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62056037"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67642078"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Microsoft Teams の電話会議情報が含まれたメールをユーザーに送信する
 
-ユーザー Microsoft Teams電話会議情報を送信する必要がある場合があります。 これを行うには、ユーザーのプロパティの下にある **[会議情報を電子メールで送信** ] をクリックします。 この電子メールを送信すると、次のようなすべての電話会議情報が含まれます。
+Microsoft Teams ユーザーが電話会議情報を送信する必要がある場合があります。 これを行うには、ユーザーのプロパティの下にある **[会議情報を電子メールで送信** ] をクリックします。 この電子メールを送信すると、次のようなすべての電話会議情報が含まれます。
   
 - ユーザー用の会議の電話番号またはダイヤルイン電話番号。
 
@@ -46,7 +46,7 @@ ms.locfileid: "62056037"
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>電話会議情報を含む電子メールをユーザーに送信する
 
-### <a name="sending-an-email-using-the-microsoft-teams-admin-center"></a>Microsoft Teams管理センターを使用したメールの送信
+### <a name="sending-an-email-using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターを使用して電子メールを送信する
 
 1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 
@@ -72,4 +72,4 @@ ms.locfileid: "62056037"
   
 ## <a name="related-topics"></a>関連項目
 
-[Microsoft 365またはOffice 365での電話会議の試用または購入](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Microsoft Teams 用の Microsoft 365 で電話会議を試用または購入する](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)

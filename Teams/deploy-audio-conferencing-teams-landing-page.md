@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c12891e2eb03aaca3f444a83bfd18ee752b8576
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 1da45446c2ab1879dd8064537dc50dafd99ea013
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268812"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641748"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams での電話会議の導入方法
 
@@ -35,7 +35,7 @@ ms.locfileid: "67268812"
 
 この記事では、自分の組織のプロファイルとビジネスの要件に基づいて既定の電話会議の設定に変更が必要かどうかを判断する際のガイダンスを示し、それぞれの変更の手順を説明します。 設定については 2 つのグループに分けて、まず、[変更する可能性が高いと考えられる](#core-deployment-decisions)中心的な部分について説明します。 2 番目のグループには、組織のニーズ応じた構成が求められる可能性がある[追加の設定](#additional-deployment-decisions)が含まれています。
 
-電話会議のセットアップは、ミーティングのスケジュールを設定するユーザーまたはミーティングを主催するユーザーにのみ必要です。 ダイヤルインするミーティングの参加者には、ライセンスの割り当てなど一切のセットアップが不要です。 ミーティングへのダイヤルイン (通話) は、外出先でラップトップやモバイル デバイスの Skype for Business または Teams アプリを使用してミーティングに参加できないユーザーにとって便利なものです。 
+電話会議のセットアップは、ミーティングのスケジュールを設定するユーザーまたはミーティングを主催するユーザーにのみ必要です。 ダイヤルインするミーティングの参加者には、ライセンスの割り当てなど一切のセットアップが不要です。 会議へのダイヤルイン (通話) は、移動中で、ノート PC やモバイル デバイスで Teams アプリを使用して会議に出席できないユーザーにとって非常に便利です。
 
 ## <a name="audio-conferencing-prerequisites"></a>電話会議の前提条件
 
@@ -44,7 +44,7 @@ Teams の電話会議を展開する前に、次の事項について検討し�
 |確認事項|アクション |
 |------------|-------|
 |自分の国/地域で電話会議が使用できるか?|自分の国/地域で電話会議が使用できるかどうかを調べるには、「[電話会議および通話プランを利用可能な国と地域](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)」を参照してください。|
-|ユーザーは Teams の電話会議に対応したライセンスを所持しているか?|電話会議のライセンスは、 Microsoft 365 または Office 365 E5 サブスクリプションの一部として入手できます。また、Microsoft 365 Business Standard、E1、または E3 サブスクリプションのアドオン サービスとしても入手できます。 <ul><li>ライセンスを取得して割り当てる場合は、「[Microsoft 365 または Office 365 の電話会議を試用または購入する](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)」および「[Microsoft 365 Apps for business　のライセンスを割り当てまたは削除する](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)」を参照してください。</li><li> 詳細は、[Microsoft Teamsアドオンライセンス](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)をご覧ください。 </li><li>それぞれのプランに含まれているクラウド機能を確認するには、「[プランに応じたライセンス オプション](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。</li></ul>|
+|ユーザーは Teams の電話会議に対応したライセンスを所持しているか?|電話会議のライセンスは、 Microsoft 365 または Office 365 E5 サブスクリプションの一部として入手できます。また、Microsoft 365 Business Standard、E1、または E3 サブスクリプションのアドオン サービスとしても入手できます。 <ul><li>ライセンスを取得して割り当てるには、「[Microsoft 365 Apps for businessのライセンスの割り当てまたは削除」を](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)参照してください。</li><li> 詳細は、[Microsoft Teamsアドオンライセンス](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)をご覧ください。 </li><li>それぞれのプランに含まれているクラウド機能を確認するには、「[プランに応じたライセンス オプション](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。</li></ul>|
 |電話会議のライセンスを割り当てたユーザーにコミュニケーション クレジットを購入する必要があるか?|詳細については、「[コミュニケーション クレジットについて](what-are-communications-credits.md)」を参照してから、この後のセクション「[コミュニケーション クレジット](#communications-credits)」を確認してください。|
 |||
 
@@ -82,7 +82,7 @@ Teams の電話会議では、会議ブリッジの既定の言語と第 2 言�
 
 |確認事項|アクション |
 |------------|-------|
-| どの言語を自動応答案内に選択する必要があるか? | 言語を選択する場合は、「[電話会議の自動案内の言語を設定する](/SkypeForBusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json)」を参照してください。|
+| どの言語を自動応答案内に選択する必要があるか? | 言語を選択するには、「 [Microsoft Teams で電話会議の自動応答言語を設定する」を参照してください](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)。|
 |||
 
 ### <a name="conferencing-bridge-settings"></a>会議ブリッジの設定

@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 次の手順に従って、発信者が Microsoft Teams 会議に参加するための既定の電話番号を作成します。
-ms.openlocfilehash: f0956007d5df72c1fd6c6ae905433e73bd855a56
-ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
+ms.openlocfilehash: 27ff7040b27d2265bcdc5ab30f48cb919746471b
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66884846"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67642068"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Microsfot Teams で招待状に含まれている電話番号を設定する
 
@@ -100,6 +100,6 @@ Windows PowerShellはすべて、ユーザーの管理と、ユーザーの許�
 
 ## <a name="related-topics"></a>関連項目
 
-[Microsoft 365 または Office 365で電話会議を試用または購入する](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Microsoft Teams 用の Microsoft 365 で電話会議を試用または購入する](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 
 [電話会議ブリッジの電話番号を変更する](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)

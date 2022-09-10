@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Microsoft Teams が最適な結果を生み出すために認定されているデスクフォンと会議電話について説明します。
-ms.openlocfilehash: c28cf614cf21b9a462ef140275d0282372387f3e
-ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
+ms.openlocfilehash: b42ded686588d26bdd647adab136b4f0dba98cdb
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "67637080"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67642098"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 認定 Android デバイス
 
@@ -89,9 +89,7 @@ Android 認定プログラムのMicrosoft Teams Roomsでは、次のデバイス
 | Logitech Rally Bar      | `1.2.788`     |   2024 年 9 月 3 日  |    中規模の部屋 (4.5 m x 6 m)       | 10 |
 | AudioCodes RXV80 | `1.9.155`        |   2023 年 8 月 5 日  | フォーカス ルーム(3 m x 3 m) </br> 小さな会議室(4.5 m x 4.5 m) | 9 |
 | エポポス EXPAND Vision 3T       | `1.2.0.21102.03`    | 2023 年 8 月 5 日 | フォーカス ルーム(3 m x 3 m) </br> 小さな会議室(4.5 m x 4.5 m) | 9 |
-| Yealink MeetingBar A30       | `133.15.0.52`    | 2023 年 8 月 5 日   | 中規模の部屋 (4.5 m x 6 m) | 9 |
 | Yealink CTP18 タッチ コンソール  | `137.15.0.28`    | 2023 年 8 月 5 日   | Yealink MeetingBar A20 および Yealink MeetingBar A30 と互換性がある | 9 |
-| Yealink MeetingBar A20  | `133.15.0.19`      | 2023 年 8 月 5 日 | フォーカス ルーム(3 m x 3 m) </br> 小さな会議室(4.5 m x 4.5 m) | 9 |
 | Poly Studio X30         | `3.1.1.216109`     | 2022 年 12 月 5 日  | フォーカス ルーム(3 m x 3 m) </br> 小さな会議室(4.5 m x 4.5 m) | 8.1 |
 | Poly Studio X50         | `3.1.1.216109`     | 2022 年 12 月 5 日   | フォーカス ルーム(3 m x 3 m) </br> 小さな会議室(4.5 m x 4.5 m) | 8.1 |
 | Poly TC8                | `3.3.2.210441`     | 2023 年 8 月 5 日 | Poly Studio X30 および Poly Studio X50 と互換性がある  |  9  |

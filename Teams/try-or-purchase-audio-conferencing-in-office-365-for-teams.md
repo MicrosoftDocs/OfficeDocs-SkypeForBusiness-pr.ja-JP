@@ -23,16 +23,16 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: Microsoft 365 またはOffice 365の電話会議 (PSTN 会議) ライセンスを試用または購入して、ユーザーがダイヤルインできる電話会議を設定する方法について説明します。
-ms.openlocfilehash: 861537c6c452612058d8e3ad8ae416b812d0bb32
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5d93f9d81e2b70520d8c8044293f81aff2a36940
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271442"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641918"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Microsoft Teams 用の Microsoft 365 で電話会議を試用または購入する
 
-組織内のユーザーが、会議にダイヤル インするために電話機を使用する必要がある場合があります。 Microsoft Teams には、このような状況に対応する電話会議機能が含まれています。 ユーザーは、モバイル デバイスまたは PC で Microsoft Teams アプリを使用する代わりに、電話を使用して Microsoft Teams 会議に呼び出すことができます。
+組織内のユーザーが、会議にダイヤル インするために電話機を使用する必要がある場合があります。 Microsoft Teams には、このような状況に対応する電話会議機能が含まれています。 Peopleは、モバイル デバイスまたは PC で Microsoft Teams アプリを使用する代わりに、電話を使用して Microsoft Teams 会議に呼び出すことができます。
 
 会議をスケジュールまたはリードする予定のユーザーに対してのみ電話会議を設定する必要があります。 会議の出席者にミーティングへのライセンスが割り当てられている必要はなく、その他のセットアップも必要ありません。
 
@@ -76,15 +76,15 @@ ms.locfileid: "67271442"
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>手順 2: 会議の主催者または計画者のために電話会議プロバイダーを設定する
 
-サード パーティ **の電話会議** プロバイダーと統合Skype for Businessしていない組織内のユーザーに電話会議ライセンスを割り当てると、すべてのユーザーがセットアップされ、準備が整います。 (電話会議プロバイダーを設定する必要はありません。)
+Teams がサード パーティ **の電話会議** プロバイダーと統合されていない組織内のユーザーに電話会議ライセンスを割り当てると、すべてが設定され、準備が整います。 (電話会議プロバイダーを設定する必要はありません。)
 
-サード パーティの電話会議プロバイダーでユーザーを有効にしている場合は、それらのユーザーのプロバイダーを Microsoft に変更する必要があります。 ユーザーのプロバイダーを変更するには、「Microsoft を [電話会議プロバイダーとして割り当てる](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)」を参照してください。
+サード パーティの電話会議プロバイダーでユーザーを有効にしている場合は、それらのユーザーのプロバイダーを Microsoft に変更する必要があります。 ユーザーのプロバイダーを変更するには、「 [Teams アドオン ライセンスをユーザーに割り当てる」を](teams-add-on-licensing/assign-teams-add-on-licenses.md)参照してください。
 
 ## <a name="step-3-other-admin-tasks"></a>手順 3: その他の管理タスク
 
 次の手順は **オプション** ですが、管理者の多くは次の設定を行うのを好みます。
 
-1. [会議出席依頼をカスタマイズする](/skypeforbusiness/set-up-skype-for-business-online/customize-meeting-invitations)。 ユーザー向けに設定されているダイヤルイン番号は、会議の出席者に送信される会議出席依頼に自動的に追加されます。 ただし、独自のヘルプや法的リンク、テキスト メッセージ、会社の小さな画像を追加できます。
+1. [会議出席依頼をカスタマイズする](meeting-settings-in-teams.md#customize-meeting-invitations)。 ユーザー向けに設定されているダイヤルイン番号は、会議の出席者に送信される会議出席依頼に自動的に追加されます。 ただし、独自のヘルプや法的リンク、テキスト メッセージ、会社の小さな画像を追加できます。
 
 2. [招待に含まれる電話番号を設定します](set-the-phone-numbers-included-on-invites-in-teams.md)。 これは、ユーザーが参加を予定している会議で表示される電話番号です。
 

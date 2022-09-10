@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 次に、電話会議用のネットワーク上について説明します。
-ms.openlocfilehash: 222a89df39f1fe6b2decb21431f3475a148a1a6c
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 56e2addc3b924d7d73df7475ad217a999dc0aca0
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267592"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641878"
 ---
 # <a name="on-network-conferencing-for-audio-conferencing"></a>電話会議用のネットワーク上会議
 
@@ -54,7 +54,7 @@ ms.locfileid: "67267592"
 
 サイトのテレフォニー機器を構成して、ダイレクト ルーティング トランクを介して組織の会議ブリッジの任意のサービス番号に通話をルーティングする必要があります。
 
-Teams 管理センターのサービス番号は **、[会議 - >会議ブリッジ**] または Skype for Business Online PowerShell コマンドレット Get-CsOnlineDialInConferencingBridge を使用して確認できます。 詳細については、 [Microsoft Teams の電話会議番号](see-a-list-of-audio-conferencing-numbers-in-teams.md)の一覧を参照してください。
+Teams 管理センターの [ **会議 - >会議ブリッジ** ] または Teams PowerShell コマンドレット Get-CsOnlineDialInConferencingBridge を使用して、サービス番号を確認できます。 詳細については、 [Microsoft Teams の電話会議番号](see-a-list-of-audio-conferencing-numbers-in-teams.md)の一覧を参照してください。
 
 > [!NOTE]
 > この機能は、分単位の電話会議ライセンスを持つユーザーには使用できません。
