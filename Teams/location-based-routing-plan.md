@@ -1,7 +1,7 @@
 ---
 title: ダイレクト ルーティングの場所に基づくルーティングを計画する
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d282a2cd9588c2e7104b3093d03da082e9cf388b
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 795433f832d57767a7937be1a9d3e7f31e73f240
+ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562626"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "67647441"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>ダイレクト ルーティングの場所に基づくルーティングを計画する
 
@@ -387,9 +387,9 @@ Location-Based ルーティングは、次の種類の操作には適用され�
 
 ### <a name="location-based-routing-for-conferencing"></a>会議のLocation-Basedルーティング
 
-PSTN 通話でLocation-Basedルーティングが有効なユーザーは、別のユーザーまたは PSTN 番号を使用して会議を開始することはできません。 自動応答または呼び出しキューへの接続は許可されます。
+PSTN 通話で電話会議ライセンスのないLocation-Basedルーティングが有効なユーザーは、別のユーザーまたは PSTN 番号を使用して会議を開始することはできません。 自動応答または呼び出しキューへの接続は許可されます。
 
-ユーザーが電話会議ライセンスを持っている場合、ユーザーは関連するユーザーと会議を開始し、会議ブリッジを介して PSTN を呼び出して電話会議を開始する必要があります。
+ユーザーが電話会議ライセンスを持っている場合、ユーザーは関連するユーザーと会議を開始し、会議ブリッジを介して PSTN を呼び出して電話会議を開始する必要があります。 ユーザーが既に PSTN 通話中の場合は、会議ブリッジを使用して通話をエスカレートしてダイヤルアウトすることで、別のユーザーまたは PSTN 番号を通話に追加できます。
 
 電話会議ライセンスを持たないユーザーが開始した電話会議では、電話会議でルーティングが有効なユーザーが少なくとも 1 人いる場合、または少なくとも 1 人のLocation-Basedルーティングが有効になっている場合、PSTN 参加者の追加は許可されません。 Location-Based ルーティングが有効な参加者が通話に参加するように招待される前に、少なくとも 1 人の PSTN 参加者がこのような電話会議に参加していた場合、そのようなLocation-Basedルーティングが有効な参加者を通話に追加することはできません。
 
@@ -397,6 +397,7 @@ Location-Based ルーティングが有効なユーザーが、Location-Based �
 
 電話会議のネットワーク上会議は、インドのテレフォニー機器と共に展開しないでください。
 
+PSTN 通話でルーティングが有効なLocation-Based ユーザーは、その通話を別の呼び出しとマージすることはできません。
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>Location-Based ルーティングのメディア バイパス要件
 
