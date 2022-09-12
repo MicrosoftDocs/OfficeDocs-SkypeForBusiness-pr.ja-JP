@@ -1545,6 +1545,10 @@ items:
             href: adobe-acrobat-pdf-viewer-teams.md
           - name: Microsoft 365 とカスタム コネクタを管理する
             href: Office-365-custom-connectors.md
+          - name: アプリのカスタマイズを使用してアプリのブランドをカスタマイズする
+            href: customize-apps.md
+          - name: Microsoft 365 全体でアプリへのアクセスを管理する
+            href: manage-third-party-teams-apps.md
       - name: カスタム アプリの管理
         items:
           - name: カスタム アプリとサイドロードされたアプリの管理
@@ -1579,13 +1583,11 @@ items:
             href: resource-specific-consent.md
           - name: アプリのアクセス許可とリソースへのアクセスを把握する
             href: app-permissions.md
-          - name: アプリの表示方法とメタデータをカスタマイズする
-            href: customize-apps.md
           - name: 組織のアプリ ストアをブランド化する
             href: customize-your-app-store.md
           - name: Microsoft 365 全体でアプリへのアクセスを管理する
             href: manage-third-party-teams-apps.md
-          - name: 外部ユーザーのアプリの動作
+          - name: 外部ユーザーまたはゲスト ユーザーとしてアプリを使用する
             href: non-standard-users.md
           - name: アプリを許可するユーザー要求を管理する
             href: user-requests-approve-apps.md

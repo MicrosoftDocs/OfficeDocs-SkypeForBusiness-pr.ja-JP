@@ -15,21 +15,21 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams で組織でのタグの使用方法を管理する方法について説明します。
-ms.openlocfilehash: 4f394d66521464e99c9492532cb1571931a8de27
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: 9c2da438d3f88a172759ec13672aec663ae6add9
+ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418506"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "67647431"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Microsoft Teams でタグを管理する
 
-Microsoft Teams のタグを使用すると、チーム内の一部のユーザーとすばやく簡単につながることができます。 役割、プロジェクト、スキル、場所などの属性に基づいてユーザーを分類するカスタム タグを作成して割り当てることができます。 または、[シフト アプリ](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Shifts)のスケジュールとシフト情報に基づいて、ユーザーにタグを自動的に割り当てることができます。 1 つまたは複数のチーム メンバーにタグを追加した後、チャネル投稿内のチームのすべてのユーザーが@mentionsで使用して、そのタグに会話のタグが割り当てられているユーザーのみに通知できます。
+Microsoft Teams のタグを使用すると、チーム内の一部のユーザーとすばやく簡単につながることができます。 役割、プロジェクト、スキル、場所などの属性に基づいてユーザーを分類するカスタム タグを作成して割り当てることができます。 または、[シフト アプリ](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6)のスケジュールとシフト情報に基づいて、ユーザーにタグを自動的に割り当てることができます。 1 つまたは複数のチーム メンバーにタグを追加した後、チャネル投稿内のチームのすべてのユーザーが@mentionsで使用して、そのタグに会話のタグが割り当てられているユーザーのみに通知できます。
 
 前述のとおり、Teams には 2 種類のタグがあります。
 
 - **カスタム タグ**: チームの所有者とチーム メンバー (アクセス許可がある場合) は、手動でタグを作成してユーザーに割り当てることができます。 たとえば、"デザイナー" タグまたは "Radi digest" タグは、名前を入力しなくてもチームのユーザーのセットに到達します。
-- **シフトでのタグ付け**: この機能を使用すると、Teams の [シフトアプリ](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop)内のスケジュールとシフト グループの名前に一致するタグが自動的にユーザーに割り当てられます。 たとえば、"EngineerOnCall" タグは、Shifts でスケジュールされているすべてのエンジニアに、チャットまたはチャネルの投稿でタグが使用された時点で作業するように到達します。 シフトでのタグ付けを使用すると、ユーザーが情報をすばやく伝える必要がある場合に、シフト中のスタッフの名前を推測することなく知ることができます。
+- **シフトでのタグ付け**: この機能を使用すると、Teams の [シフトアプリ](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_usetags)内のスケジュールとシフト グループの名前に一致するタグが自動的にユーザーに割り当てられます。 たとえば、"EngineerOnCall" タグは、Shifts でスケジュールされているすべてのエンジニアに、チャットまたはチャネルの投稿でタグが使用された時点で作業するように到達します。 シフトでのタグ付けを使用すると、ユーザーが情報をすばやく伝える必要がある場合に、シフト中のスタッフの名前を推測することなく知ることができます。
 
 > [!NOTE]
 > タグは、プライベート チャネルまたは共有チャネルではサポートされていません。

@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams の共有チャネルを使用および管理する方法について説明します。
-ms.openlocfilehash: dd9edbe18a01ffc1a46a8cab76a383aed0bef5a4
-ms.sourcegitcommit: 09b77e83bc41914007606468e322d4ea47e2e8a4
+ms.openlocfilehash: 323d20c152af9595b6a738f917103a59ab4142ef
+ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "67630457"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "67647551"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams の共有チャネル
 
@@ -118,7 +118,7 @@ Teams は、共有チャネル サイトのライフ サイクルを管理しま
 
 ## <a name="considerations-around-file-access-in-shared-channels"></a>共有チャネルでのファイル アクセスに関する考慮事項
 
-共有チャネル内のファイル、フォルダー、OneNote ノートブックは、[標準の SharePoint ファイル共有](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c)を使用して、チャネル外のユーザーと共有できます。
+共有チャネル内のファイル、フォルダー、OneNote ノートブックは、 [標準の SharePoint ファイル](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c)共有を使用して、チャネルの外部のユーザーと共有できます (組織外では共有できません)。
 
 ユーザーが SharePoint 経由で共有チャネル内のファイル、フォルダー、またはノートブックへのアクセスを許可されている場合、チームまたは共有チャネルからユーザーを削除しても、ユーザーのファイル、フォルダー、またはノートブックへのアクセスは削除されません。
 

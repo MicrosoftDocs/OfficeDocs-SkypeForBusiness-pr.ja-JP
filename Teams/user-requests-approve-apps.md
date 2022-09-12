@@ -18,30 +18,30 @@ description: 組織でブロックされているアプリを許可するよう�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: c47578184aa97f9c6cc366e186c1590ef1e3fba4
-ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
+ms.openlocfilehash: 122d41de6f1cb5ea67a5ce85ba9f8f7d02e26339
+ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "67637313"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "67647541"
 ---
-# <a name="manage-user-requests-to-allow-apps-that-are-blocked-by-admins"></a>管理者によってブロックされているアプリを許可するユーザー要求を管理する
+# <a name="manage-user-requests"></a>ユーザー要求を管理する
 
-組織内でブロックするアプリは、エンド ユーザーの生産性とコラボレーションを低下させる可能性があります。 Teams ストアで使用できるが、組織内でブロックされているアプリは、エンド ユーザーが使用することはできません。 ただし、常に情報を得るために、エンド ユーザーはブロックされたアプリを表示し、アプリの情報を表示し、サーバーのユース ケースを表示できます。 ユーザーは、アプリを許可することを選択した後、Teams でこれらのアプリを使用できるように管理者の承認を要求できます。
+組織内でブロックするアプリは、エンド ユーザーの生産性とコラボレーションに影響を与える可能性があります。 Teams ストアで使用できるが、組織内でブロックされているアプリは、エンド ユーザーが使用することはできません。 ただし、常に情報を得るために、エンド ユーザーはブロックされたアプリを表示し、アプリの情報を表示し、サーバーのユース ケースを表示できます。 ユーザーは、要求を評価した後、Teams でこれらのアプリを使用するように管理者の承認を要求します。
 
-この機能は、組織内のアプリの需要に関するシグナルを提供します。 アプリに対する要求の合計数を簡単に表示し、組織内で許可を検討するアプリについて情報に基づいた決定を行うことができます。
+この機能は、組織内のアプリの需要に関するシグナルを提供します。 アプリの要求の合計数を簡単に表示できます。 これは、組織内で許可するように評価するアプリに関する情報に基づいた決定を行うのに役立ちます。
 
 ユーザーに対して許可またはブロックされているアプリの完全な制御を保持します。 アプリを許可することを選択した場合、アプリを管理するためのコントロールと UI は変わりません。
 
-* 既定のオプションは、Teams 管理センターでユーザー要求を送信します。ユーザー [要求を表示し、要求されたアプリを許可](#view-user-requests-and-allow-the-requested-apps)できます。
+* 既定のオプションは、Teams 管理センターでユーザー要求を送信します。ユーザー [要求を表示し、要求されたアプリを許可](#view-user-requests)できます。
 
    :::image type="content" source="media/user-request-blocked-apps.png" alt-text="管理者にブロックされたアプリの承認を要求するオプションを示すスクリーンショット。":::
 
-* カスタマイズを使用すると、 [ユーザーを](#modify-the-default-setting-to-receive-end-user-requests-to-allow-an-app) カスタム アプリ要求メソッドにリダイレクトすることで、エンド ユーザー エクスペリエンスを構成できます。 カスタム テキスト メッセージを指定して、ユーザーに通知し、ユーザーを組織の内部 URL に誘導して、アプリを許可する要求を収集できます。
+* カスタマイズを使用すると、組織に最適な [エンド ユーザー エクスペリエンスを構成](#modify-the-default-setting-to-receive-end-user-requests) できます。 Teams アプリ ストア内のブロックされたアプリのエンド ユーザーに表示されるカスタム命令を指定し、ユーザーを内部サイトに誘導して要求を収集できます。
 
-   :::image type="content" source="media/user-request-blocked-apps-redirected.png" alt-text="管理者がアプリ要求の許可 URL をカスタム URL にリダイレクトしたときの、ストア内のアプリのエンド ユーザー エクスペリエンスを示すスクリーンショット。":::
+   :::image type="content" source="media/user-request-blocked-apps-redirected.png" alt-text="管理者がアプリ要求の許可 URL を内部サイトにリダイレクトしたときの、ストア内のアプリのエンド ユーザー エクスペリエンスを示すスクリーンショット。":::
 
-## <a name="modify-the-default-setting-to-receive-end-user-requests-to-allow-an-app"></a>アプリを許可するようにエンド ユーザー要求を受信するように既定の設定を変更する
+## <a name="modify-the-default-setting-to-receive-end-user-requests"></a>エンド ユーザー要求を受信するように既定の設定を変更する
 
 カスタム メッセージを構成し、ユーザーを組織固有の URL にリダイレクトしてアプリの承認を要求するには、次の手順に従います。
 
@@ -60,9 +60,9 @@ ms.locfileid: "67637313"
 
 1. **[保存]** を選択します。
 
-## <a name="view-user-requests-and-allow-the-requested-apps"></a>ユーザー要求を表示し、要求されたアプリを許可する
+## <a name="view-user-requests"></a>ユーザー要求を表示する
 
-既定の方法で受信したエンド ユーザー要求は、Teams 管理センターに表示されます。 要求を簡単に表示および管理できます。 エンドユーザー リクエストを確認するために、定期的なトリアージを行うことを強くお勧めします。 アプリを表示して許可するには、次の手順に従います。
+既定の方法で受信したエンド ユーザー要求は、Teams 管理センターに表示されます。 要求を簡単に表示および管理できます。 エンド ユーザー要求を確認するための定期的なトリアージをお勧めします。 アプリを表示して許可するには、次の手順に従います。
 
 1. Teams 管理センターにサインインし、**Teams アプリ** の **[[アプリ](https://admin.teams.microsoft.com/policies/manage-apps)** > の管理] ページにアクセスします。
 
@@ -82,7 +82,7 @@ ms.locfileid: "67637313"
    * すべてのユーザーに対してアプリがブロックされている場合は、[アプリを許可します](manage-apps.md#allow-and-block-apps)。
    * すべてのアプリがすべてのユーザーに対してブロックされている場合は、 [組織全体の設定を変更します](manage-apps.md#manage-org-wide-app-settings)。
 
-1. 必要に応じて、カスタム構成を組織固有の URL に切り替えるには、[ユーザー要求の管理] ダイアログで [ユーザー要求の構成] リンクを選択します。 組織全体のアプリ設定ウィンドウが開き、 [エンド ユーザー要求エクスペリエンスを構成](#modify-the-default-setting-to-receive-end-user-requests-to-allow-an-app)できます。
+1. 必要に応じて、カスタム構成を組織固有の URL に切り替えるには、[ユーザー要求の管理] ダイアログで [ユーザー要求の構成] リンクを選択します。 組織全体のアプリ設定ウィンドウが開き、 [エンド ユーザー要求エクスペリエンスを構成](#modify-the-default-setting-to-receive-end-user-requests)できます。
 
 Teams 管理センターで要求を受信した後にアプリを許可した場合、Teams は要求が処理されたことをエンド ユーザーに通知しません。 ユーザーは Teams ストアでアプリを確認して、アプリが許可されているかどうかを確認できます。 アプリを追加するオプションは、ユーザーがアプリを許可した後で使用できます。 組織固有のメソッドを使用して要求を受信した後にアプリを許可する場合、エンド ユーザーに状態更新を提供するための内部メカニズムが適用されます。
 
