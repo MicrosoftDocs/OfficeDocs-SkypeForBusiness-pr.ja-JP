@@ -3,6 +3,41 @@
 
 
 
+## <a name="week-of-september-05-2022"></a>2022 年 9 月 5 日の週
+
+
+| 公開日 |トピックのタイトル | 変更 |
+|------|------------|--------|
+| 9/6/2022 | [ユーザーの電話番号を割り当て、変更、または削除する](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | 更新日時 |
+| 9/6/2022 | [動的な緊急通話を構成する](/MicrosoftTeams/configure-dynamic-emergency-calling) | 更新日時 |
+| 9/6/2022 | [Teams の電話デバイスとディスプレイの展開を計画する](/MicrosoftTeams/devices/plan-device-deployment) | 更新日時 |
+| 9/6/2022 | [Microsoft Teams に表示される](/MicrosoftTeams/devices/teams-displays) | 更新日時 |
+| 9/6/2022 | [Microsoft Teams で緊急通報ポリシーを管理する](/MicrosoftTeams/manage-emergency-calling-policies) | 更新日時 |
+| 9/6/2022 | [オペレーター接続を構成する](/MicrosoftTeams/operator-connect-configure) | 更新日時 |
+| 9/6/2022 | [オペレーター コネクト モバイルを構成する](/MicrosoftTeams/operator-connect-mobile-configure) | 追加済 |
+| 9/6/2022 | [オペレーター コネクト モバイルの計画](/MicrosoftTeams/operator-connect-mobile-plan) | 追加済 |
+| 9/6/2022 | [オペレーター接続の計画](/MicrosoftTeams/operator-connect-plan) | 更新日時 |
+| 9/6/2022 | [PSTN 接続オプション](/MicrosoftTeams/pstn-connectivity) | 更新日時 |
+| 9/6/2022 | [Teams 管理センターでライセンスの概要をMicrosoft Teams Roomsする](/MicrosoftTeams/rooms/admin-center-license-overview) | 追加済 |
+| 9/6/2022 | [Microsoft Teams ミーティング ライセンス](/MicrosoftTeams/rooms/rooms-licensing) | 更新日時 |
+| 9/6/2022 | [Microsoft Teams Rooms を計画する](/MicrosoftTeams/rooms/rooms-plan) | 更新日時 |
+| 9/6/2022 | [Microsoft Teams Rooms セキュリティ](/MicrosoftTeams/rooms/security) | 更新日時 |
+| 9/6/2022 | [会議室と共有 Teams デバイスのリソース アカウントを作成する](/MicrosoftTeams/rooms/with-office-365) | 更新日時 |
+| 9/6/2022 | [緊急通報の計画と管理](/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing) | 更新日時 |
+| 9/6/2022 | [Microsoft Teams でのアプリの更新エクスペリエンス](/MicrosoftTeams/apps-update-experience) | 更新日時 |
+| 9/6/2022 | [Microsoft Teams Rooms (Windows) のリリース ノート](/MicrosoftTeams/rooms/rooms-release-note) | 更新日時 |
+| 9/9/2022 | [アプリを許可する管理者のユーザー要求](/MicrosoftTeams/user-requests-approve-apps) | 追加済 |
+| 9/9/2022 | [Microsoft Teams 管理センターで、Teams アプリの組織向けアプリを管理します。](/MicrosoftTeams/manage-apps) | 更新日時 |
+| 9/9/2022 | [電話会議に関するよくある質問](/MicrosoftTeams/audio-conferencing-common-questions) | 更新日時 |
+| 9/9/2022 | [Microsoft 365 の電話会議](/MicrosoftTeams/audio-conferencing-in-office-365) | 更新日時 |
+| 9/9/2022 | [電話会議でサポートされている言語](/MicrosoftTeams/audio-conferencing-supported-languages) | 更新日時 |
+| 9/9/2022 | [直接ルーティング、GCCH、DoD を使用した電話会議](/MicrosoftTeams/audio-conferencing-with-direct-routing-for-gcch-and-dod) | 更新日時 |
+| 9/9/2022 | [電話会議ブリッジの設定を変更する](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge) | 更新日時 |
+| 9/9/2022 | [無料のダイヤルアウト期間](/MicrosoftTeams/complimentary-dial-out-period) | 更新日時 |
+| 9/9/2022 | [国/地域の可用性 - 電話会議、通話プラン](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | 更新日時 |
+| 9/9/2022 | Teams でのブレークアウト ルームの使用 | 削除されました |
+
+
 ## <a name="week-of-august-29-2022"></a>2022 年 8 月 29 日の週
 
 
@@ -125,102 +160,3 @@
 | 8/12/2022 | [Microsoft Teams の自動応答を設定する](/MicrosoftTeams/create-a-phone-system-auto-attendant-smb) | 追加済 |
 | 8/12/2022 | [Microsoft Teams で通話キューを作成する](/MicrosoftTeams/create-a-phone-system-call-queue-smb) | 追加済 |
 | 8/12/2022 | [Microsoft Teams のトランシーバー アプリ](/MicrosoftTeams/walkie-talkie) | 更新日時 |
-
-
-## <a name="week-of-august-01-2022"></a>2022 年 8 月 1 日の週
-
-
-| 公開日 |トピックのタイトル | 変更 |
-|------|------------|--------|
-| 8/1/2022 | [Teams の既定の PDF ビューアーとしての Adobe Acrobat](/MicrosoftTeams/adobe-acrobat-pdf-viewer-teams) | 更新日時 |
-| 8/1/2022 | [ユーザーとグループにポリシーを割り当てる](/MicrosoftTeams/assign-policies-users-and-groups) | 更新日時 |
-| 8/1/2022 | [Microsoft Teams の通話プラン](/MicrosoftTeams/calling-plan-landing-page) | 更新 |
-| 8/1/2022 | [Microsoft 365 のプランを呼び出す](/MicrosoftTeams/calling-plans-for-office-365) | 更新日時 |
-| 8/1/2022 | [Microsoft Teams のアプリについて知っておくべきこと](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 更新日時 |
-| 8/1/2022 | [ユーザー用の電話番号を取得する](/MicrosoftTeams/getting-phone-numbers-for-your-users) | 更新日時 |
-| 8/1/2022 | [通話プランの設定](/MicrosoftTeams/set-up-calling-plans) | 更新日時 |
-| 8/1/2022 | [組織用にコミュニケーション クレジットをセットアップする](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | 更新日時 |
-| 8/1/2022 | [Microsoft Teams アプリの使用状況レポート](/MicrosoftTeams/teams-analytics-and-reports/app-usage-report) | 更新日時 |
-| 8/1/2022 | [コミュニケーション クレジットについて](/MicrosoftTeams/what-are-communications-credits) | 更新日時 |
-| 8/1/2022 | [読み取りの進行状況に関する推奨事項に関する Insights について](/MicrosoftTeams/insights-for-reading-progress) | 追加済 |
-| 8/1/2022 | [新機能 - オペレーター接続](/MicrosoftTeams/operator-connect-whats-new) | 追加済 |
-| 8/2/2022 | [Microsoft Teams Rooms (Windows) のリリース ノート](/MicrosoftTeams/rooms/rooms-release-note) | 更新日時 |
-| 8/3/2022 | [緊急対応の場所を追加、変更、削除する](/MicrosoftTeams/add-change-remove-emergency-location-organization) | 更新日時 |
-| 8/3/2022 | [緊急対応の場所を追加、変更、削除する](/MicrosoftTeams/add-change-remove-emergency-place-organization) | 更新日時 |
-| 8/3/2022 | [Teams パネルでの Microsoft Teams アプリ/基幹業務 (LOB) アプリのサポート](/MicrosoftTeams/app-support-on-teams-panels) | 更新日時 |
-| 8/3/2022 | [電話会議用のネットワーク上会議](/MicrosoftTeams/audio-conferencing-on-network) | 更新日時 |
-| 8/3/2022 | [通話品質ダッシュボード](/MicrosoftTeams/business-voice/analytics-dashboard) | 更新日時 |
-| 8/3/2022 | [Business Voice と Enterprise Voice の相違点](/MicrosoftTeams/business-voice/business-enterprise-comparison) | 更新日時 |
-| 8/3/2022 | [Microsoft 365 ユーザーを作成し、通話プラン バンドル ライセンスを使用して Teams Phone を追加し、電話番号を割り当てる](/MicrosoftTeams/business-voice/create-users) | 更新日時 |
-| 8/3/2022 | [Microsoft Teams で通話プランを使用してMicrosoft Teams 電話 システムをカスタマイズする](/MicrosoftTeams/business-voice/customize-business-voice) | 更新日時 |
-| 8/3/2022 | [Teams Phone System のインターネット接続を確認する](/MicrosoftTeams/business-voice/get-ready-internet) | 更新日時 |
-| 8/3/2022 | [デバイスの管理](/MicrosoftTeams/business-voice/manage-devices) | 更新日時 |
-| 8/3/2022 | [通話品質を監視する](/MicrosoftTeams/business-voice/monitor-quality) | 更新日時 |
-| 8/3/2022 | [ポリシー パッケージを管理する](/MicrosoftTeams/business-voice/policy-packages) | 更新日時 |
-| 8/3/2022 | [通話プランを使用して Teams Phone System に電話番号を移植する](/MicrosoftTeams/business-voice/port-phone-numbers) | 更新日時 |
-| 8/3/2022 | [Microsoft 販売店または Microsoft パートナーからサポートを受ける](/MicrosoftTeams/business-voice/reseller-partner-support) | 更新日時 |
-| 8/3/2022 | [Teams Phone System の電話番号をユーザーに割り当てる](/MicrosoftTeams/business-voice/set-up-assign-numbers) | 更新日時 |
-| 8/3/2022 | [通話プランの緊急対応場所を使用してシステムMicrosoft Teams 電話を設定する](/MicrosoftTeams/business-voice/set-up-emergency-locations) | 更新日時 |
-| 8/3/2022 | [通話プランのセットアップが完了した Teams Phone System](/MicrosoftTeams/business-voice/set-up-finish) | 更新日時 |
-| 8/3/2022 | [バンドル ライセンス通話プラン付き Microsoft Teams 電話割り当てる](/MicrosoftTeams/business-voice/set-up-licenses) | 更新日時 |
-| 8/3/2022 | [小規模から中規模の企業向けの通話プランを使用したMicrosoft Teams 電話 システムの設定](/MicrosoftTeams/business-voice/set-up-overview) | 更新日時 |
-| 8/3/2022 | [通話プランの電話番号Microsoft Teams 電話システムを設定する](/MicrosoftTeams/business-voice/set-up-phone-numbers) | 更新日時 |
-| 8/3/2022 | [ポリシーを設定する](/MicrosoftTeams/business-voice/set-up-policies) | 更新日時 |
-| 8/3/2022 | [Microsoft Teams 電話 システム リソース アカウントを設定する](/MicrosoftTeams/business-voice/set-up-resource-account) | 更新日時 |
-| 8/3/2022 | [Business Voice を設定した後に試してみること](/MicrosoftTeams/business-voice/things-to-try) | 更新日時 |
-| 8/3/2022 | [Microsoft 365 Business Voiceを購入するために必要な管理アクセス許可](/MicrosoftTeams/business-voice/ui/admin-perms-needed) | 更新日時 |
-| 8/3/2022 | [中小企業向けの Teams Phone System ガイダンス](/MicrosoftTeams/business-voice/whats-business-voice) | 更新日時 |
-| 8/3/2022 | [コマンドレットを使用して自動応答を作成する](/MicrosoftTeams/create-a-phone-system-auto-attendant-via-cmdlets) | 更新日時 |
-| 8/3/2022 | [教育機関向け Teams デバイス](/MicrosoftTeams/devices-for-education) | 更新日時 |
-| 8/3/2022 | [Microsoft Teams の Android デバイスの共有デバイス管理に関する認証のベスト プラクティス。](/MicrosoftTeams/devices/authentication-best-practices-for-android-devices) | 更新日時 |
-| 8/3/2022 | [Teams Android デバイスのリモート プロビジョニングとサインイン](/MicrosoftTeams/devices/remote-provision-remote-login) | 更新日時 |
-| 8/3/2022 | [Teams Android デバイスのリモート サインインとサインアウト](/MicrosoftTeams/devices/remote-sign-in-and-sign-out) | 更新日時 |
-| 8/3/2022 | [Microsoft Teams 用の電話とデバイス](/MicrosoftTeams/devices/usb-devices) | 更新日時 |
-| 8/3/2022 | [ダイレクト ルーティングの通話通知を管理する](/MicrosoftTeams/direct-routing-call-notifications) | 更新日時 |
-| 8/3/2022 | [ダイレクト ルーティング](/MicrosoftTeams/direct-routing-landing-page) | 更新日時 |
-| 8/3/2022 | [電話システムダイレクト ルーティングの概要](/MicrosoftTeams/direct-routing-protocols-media) | 更新日時 |
-| 8/3/2022 | [電話システムのダイレクト ルーティング](/MicrosoftTeams/direct-routing-protocols-sip) | 更新日時 |
-| 8/3/2022 | [Teams の電話システムダイレクト ルーティング: 定義と RFC 標準](/MicrosoftTeams/direct-routing-protocols) | 更新日時 |
-| 8/3/2022 | [ダイレクト ルーティング SBA](/MicrosoftTeams/direct-routing-survivable-branch-appliance) | 更新日時 |
-| 8/3/2022 | [新しいダイレクト ルーティング](/MicrosoftTeams/direct-routing-whats-new) | 更新日時 |
-| 8/3/2022 | [フロントライン ワーカー向けに Kaizala から Microsoft Teams への導入を推進する](/MicrosoftTeams/drive-adoption-optimize-kaizala) | 更新日時 |
-| 8/3/2022 | [リモートの場所の緊急アドレス](/MicrosoftTeams/emergency-calling-dispatchable-location) | 更新日時 |
-| 8/3/2022 | [Teamsの医療テンプレートを使用する](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | 更新日時 |
-| 8/3/2022 | [Kaizala と Microsoft Teams](/MicrosoftTeams/get-started-kaizala-teams) | 更新日時 |
-| 8/3/2022 | [Slack から Microsoft Teams に移行する](/MicrosoftTeams/migrate-slack-to-teams) | 更新日時 |
-| 8/3/2022 | [Microsoft Teams 間を移動する](/MicrosoftTeams/navigate-teams) | 更新日時 |
-| 8/3/2022 | [番号移行注文について](/MicrosoftTeams/phone-number-calling-plans/port-order-overview) | 更新日時 |
-| 8/3/2022 | [番号移行注文の状況](/MicrosoftTeams/phone-number-calling-plans/port-order-status) | 更新日時 |
-| 8/3/2022 | [通話プランでサポートされているレート センターとカバレッジ](/MicrosoftTeams/phone-number-calling-plans/supported-rate-centers-coverage-matrix) | 更新日時 |
-| 8/3/2022 | [Kaizala から Microsoft Teams への正常な移行を計画する](/MicrosoftTeams/plan-your-move-kaizala) | 更新日時 |
-| 8/3/2022 | [EDU 管理者向け Microsoft Teams ポリシーおよびポリシーパッケージ](/MicrosoftTeams/policy-packages-edu) | 更新日時 |
-| 8/3/2022 | [Kaizala から Teams への道のりをグラフ化する](/MicrosoftTeams/prepare-for-teams-kaizala) | 更新日時 |
-| 8/3/2022 | [Microsoft Teams のプライベート チャネル](/MicrosoftTeams/private-channels) | 更新日時 |
-| 8/3/2022 | [Microsoft Teams 会議で電話番号をマスクする](/MicrosoftTeams/ptsn-mask-phone-numbers) | 更新日時 |
-| 8/3/2022 | [Teams の会議で手を挙げる](/MicrosoftTeams/raise-hand-meetings) | 更新日時 |
-| 8/3/2022 | [Teams Room デバイスをマネージド サービスに登録する](/MicrosoftTeams/rooms/enroll-a-device) | 更新日時 |
-| 8/3/2022 | [Microsoft Teams ルーム](/MicrosoftTeams/rooms/index) | 更新日時 |
-| 8/3/2022 | [Microsoft Teams Roomsでの認証](/MicrosoftTeams/rooms/rooms-authentication) | 更新日時 |
-| 8/3/2022 | [Microsoft Teams Rooms を計画する](/MicrosoftTeams/rooms/rooms-plan) | 更新日時 |
-| 8/3/2022 | [共有スペース用 Teams デバイスの Windows と Android の機能の比較](/MicrosoftTeams/rooms/teams-devices-feature-comparison) | 更新日時 |
-| 8/3/2022 | [Microsoft Teams の共有チャネル](/MicrosoftTeams/shared-channels) | 更新日時 |
-| 8/3/2022 | [Microsoft Teams 管理センターでSkype for Business設定を管理する](/MicrosoftTeams/skype-for-business-settings) | 更新日時 |
-| 8/3/2022 | [監視ありチャットを使用する](/MicrosoftTeams/supervise-chats-edu) | 更新日時 |
-| 8/3/2022 | [教育以外のテナントに対して監視付きチャットを使用する](/MicrosoftTeams/supervised-chat-non-edu) | 更新日時 |
-| 8/3/2022 | [Microsoft Teams PSTN でブロックされたユーザー レポート](/MicrosoftTeams/teams-analytics-and-reports/pstn-blocked-users-report) | 更新日時 |
-| 8/3/2022 | [Microsoft Teams PSTN 分プール レポート](/MicrosoftTeams/teams-analytics-and-reports/pstn-minute-pools-report) | 更新日時 |
-| 8/3/2022 | [Microsoft Teams PSTN 使用状況レポート](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | 更新日時 |
-| 8/3/2022 | [Teams で分析を表示する](/MicrosoftTeams/teams-analytics-and-reports/view-analytics) | 更新日時 |
-| 8/3/2022 | [Teams の会議室ガイダンス](/MicrosoftTeams/teams-meeting-room-guidance) | 更新日時 |
-| 8/3/2022 | [サポートされていないブラウザーでの Microsoft Teams 会議](/MicrosoftTeams/unsupported-browsers) | 更新日時 |
-| 8/3/2022 | [Teams のアドバイザーを使用して、Microsoft Teams の展開を支援する](/MicrosoftTeams/use-advisor-teams-roll-out) | 更新日時 |
-| 8/3/2022 | [ユーザーの通話設定を構成する](/MicrosoftTeams/user-call-settings) | 更新日時 |
-| 8/3/2022 | [Teams のループ コンポーネントの概要](/MicrosoftTeams/loop-components-in-teams) | 更新日時 |
-| 8/4/2022 | [ユーザーとグループにポリシー パッケージを割り当てる](/MicrosoftTeams/assign-policy-packages) | 更新日時 |
-| 8/4/2022 | [Microsoft Teams でポリシー パッケージを管理する](/MicrosoftTeams/manage-policy-packages) | 更新日時 |
-| 8/4/2022 | [Microsoft Teams の Reflect への IT 管理者ガイド](/MicrosoftTeams/reflect) | 更新日時 |
-| 8/4/2022 | [Power BI を使用して Microsoft Teams の CQD データを分析する](/MicrosoftTeams/cqd-power-bi-query-templates) | 更新日時 |
-| 8/4/2022 | [Microsoft 365 とカスタム コネクタを管理する](/MicrosoftTeams/office-365-custom-connectors) | 更新日時 |
-| 8/4/2022 | [モバイル アプリ拡張機能](/MicrosoftTeams/rooms/extended-mobile-app) | 更新日時 |
-| 8/5/2022 | [Microsoft Teams でタグを管理する](/MicrosoftTeams/manage-tags) | 更新日時 |
-| 8/5/2022 | [SIP ゲートウェイを計画する](/MicrosoftTeams/sip-gateway-plan) | 更新日時 |
