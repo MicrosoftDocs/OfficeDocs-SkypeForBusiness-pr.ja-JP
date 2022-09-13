@@ -1,5 +1,5 @@
 ---
-title: ダイレクト ルーティングの監視とトラブルシューティング
+title: ダイレクト ルーティングを監視する
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -17,14 +17,14 @@ f1.keywords:
 - NOCSH
 description: セッション ボーダー コントローラー、ダイレクト ルーティング コンポーネント、通信トランクなど、ダイレクト ルーティング構成を監視およびトラブルシューティングする方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 97bc8afb3645fca4e06b859b765dfbf1e3fe1859
-ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
+ms.openlocfilehash: 47a86e8dd98cdb86cd698b187b21453daa003b07
+ms.sourcegitcommit: 9de6b0b03f433e71fe239d292387eed33c11b531
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60462321"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "67657247"
 ---
-# <a name="monitor-and-troubleshoot-direct-routing"></a>ダイレクト ルーティングの監視とトラブルシューティング
+# <a name="monitor-direct-routing"></a>ダイレクト ルーティングを監視する
 
 この記事では、ダイレクト ルーティング構成を監視およびトラブルシューティングする方法について説明します。 
 
@@ -38,18 +38,9 @@ ms.locfileid: "60462321"
 
 Microsoft は、トラブルシューティングと監視のためのより多くのツールの提供に取り組んでいます。 更新プログラムについては、ドキュメントを定期的に確認してください。 
 
-## <a name="direct-routing-diagnostic-tool"></a>ダイレクト ルーティング診断ツール
+## <a name="troubleshoot-direct-routing"></a>ダイレクト ルーティングのトラブルシューティング
 
-管理者の場合は、次の診断ツールを使用して、ユーザーがダイレクト ルーティング用に正しく構成されていることを検証できます。
-
-1. 以下の **[テストの実行]** を選択すると、診断が Microsoft 365 管理センターに表示されます。 
-
-   > [!div class="nextstepaction"]
-   > [テストの実行: ダイレクト ルーティング](https://aka.ms/TeamsDirectRoutingDiag)
-
-2. [実行診断] ウィンドウで、[ **ユーザー名] または [電子メール** ] フィールドにテストするユーザーのメールを入力し、[ **テストの実行**] を選択します。
-
-3. テストでは、テナント、ユーザー、またはポリシーの構成に対処するための最適な次の手順が返され、ユーザーがMicrosoft Teamsのダイレクト ルーティング用に適切に構成されていることを検証します。
+ダイレクト ルーティングのトラブルシューティングについては、「 [ダイレクト ルーティングに関する問題の診断」を](/MicrosoftTeams/troubleshoot/phone-system/direct-routing/diagnose-direct-routing-issues)参照してください。
 
 ## <a name="monitoring-availability-of-session-border-controllers-using-session-initiation-protocol-sip-options-messages"></a>セッション開始プロトコル (SIP) オプション メッセージを使用したセッション ボーダー コントローラーの可用性の監視
 
@@ -73,11 +64,11 @@ SBC は、呼び出しを送信した時点の統計情報が、SBC が 1 分ご
 
 ダイレクト ルーティングは、一定間隔オプションを 3 回受け取ります (一定間隔は 1 分です)。 過去 3 分間にオプションが送信された場合、SBC は正常と見なされます。
 
-例の SBC が午前 11 時 12 分から午前 11 時 15 分 (呼び出しが行われた時刻) の間の任意の期間にオプションを送信した場合、正常と見なされます。 そうでない場合、SBC はルートから降格されます。 
+この例の SBC が午前 11 時 12 分から午前 11 時 15 分 (呼び出しが行われた時刻) の間の任意の期間にオプションを送信した場合、正常と見なされます。 そうでない場合、SBC はルートから降格されます。 
 
 降格とは、SBC が最初に試行されないことを意味します。 たとえば、優先順位が等しい sbc1.contoso.com と sbc2.contoso.com があるとします。  
 
-sbc1.contoso.com が前述のように一定の間隔で SIP オプションを送信しない場合は、降格されます。 次に、sbc2.contoso.com 呼び出しを試行します。 sbc2.contoso.con が呼び出しを配信できない場合、エラーが生成される前に sbc1.contoso.com (降格) が再試行されます。 
+前述のように、sbc1.contoso.com が一定の間隔で SIP オプションを送信しない場合は、降格されます。 次に、sbc2.contoso.com 呼び出しを試行します。 sbc2.contoso.con が呼び出しを配信できない場合は、エラーが生成される前に sbc1.contoso.com (降格) が再試行されます。 
 
 1 つのルート内の 2 つ以上の SBC が正常で等しいと見なされる場合は、Fisher-Yatesシャッフルが適用されて、SBC 間で呼び出しが分散されます。
 
@@ -90,12 +81,12 @@ sbc1.contoso.com が前述のように一定の間隔で SIP オプションを�
 - 通話品質ダッシュボード 
 - SBC ログ 
 
-ダイレクト ルーティング サービスには、Call Analytics または SBC ログに報告される非常にわかりやすいエラー コードがあります。 
+ダイレクト ルーティング サービスには、Call Analytics または SBC ログに説明的なエラー コードが報告されています。
 
-通話品質ダッシュボードには、通話の品質と信頼性に関する情報が表示されます。 Call Analytics を使用して問題のトラブルシューティングを行う方法の詳細については、「通話[品質ダッシュボードのオンと使用」を参照して、Microsoft TeamsとSkype for Businessオンライン](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard)で[通話品質の低下をトラブルシューティング](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)します。 
+通話品質ダッシュボードには、通話の品質と信頼性に関する情報が表示されます。 Call Analytics を使用して問題のトラブルシューティングを行う方法の詳細については、「[Microsoft Teams の通話品質ダッシュボードを有効にして使用する」を参照し、オンラインSkype for Business](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard)し[、通話品質の低下のトラブルシューティングに Call Analytics を使用する方法に関するページを](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)参照してください。 
 
 通話エラーが発生した場合、Call Analytics には、トラブルシューティングに役立つ標準 SIP コードが用意されています。 
 
 ![呼び出しエラーのサンプル SIP コード。](media/failed-response-code.png)
 
-ただし、Call Analytics は、通話がダイレクト ルーティングの内部コンポーネントに到達して失敗した場合にのみ役立ちます。 SBC ペアリングに関する問題、または SIP "Invite" が拒否された問題 (トランク FQDN の名前が正しく構成されていないなど) の場合、Call Analytics は役に立たなくなります。 この場合は、SBC ログを参照してください。 ダイレクト ルーティングは、問題の詳細な説明を SBC に送信します。これらの問題は、SBC ログから読み取ることができます。
+ただし、Call Analytics は、通話がダイレクト ルーティングの内部コンポーネントに到達して失敗した場合にのみ役立ちます。 SBC ペアリングに関する問題、または SIP "Invite" が拒否された問題 (トランク FQDN の名前が正しく構成されていないなど) の場合、Call Analytics は役に立ちません。 この場合は、SBC ログを参照してください。 ダイレクト ルーティングは、問題の詳細な説明を SBC に送信します。これらの問題は、SBC ログから読み取ることができます。

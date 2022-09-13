@@ -923,7 +923,7 @@ items:
                     href: direct-routing-media-optimization.md
                   - name: ローカル メディアの最適化を構成する
                     href: direct-routing-media-optimization-configure.md
-              - name: ダイレクト ルーティングの監視とトラブルシューティング
+              - name: ダイレクト ルーティングを監視する
                 items:
                   - name: 概要
                     href: direct-routing-monitor-and-troubleshoot.md
@@ -1589,7 +1589,7 @@ items:
             href: manage-third-party-teams-apps.md
           - name: 外部ユーザーまたはゲスト ユーザーとしてアプリを使用する
             href: non-standard-users.md
-          - name: アプリを許可するユーザー要求を管理する
+          - name: ユーザー要求を管理する
             href: user-requests-approve-apps.md
           - name: アプリの更新と管理者の役割
             href: apps-update-experience.md
