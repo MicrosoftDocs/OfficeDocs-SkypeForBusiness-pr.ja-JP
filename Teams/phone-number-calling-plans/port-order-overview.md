@@ -21,12 +21,12 @@ description: ポート注文の概要と、サービス プロバイダーから
 ms.collection:
 - M365-voice
 - m365initiative-voice
-ms.openlocfilehash: e9f267bfdb56558245fecefe240f2c09c07d4783
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: c5c8b68cfd97c8a39f0b4866fb7670473a9ecef3
+ms.sourcegitcommit: 46b5dc0519d487e264b1386e5074085c2d090e9a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270872"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67674378"
 ---
 # <a name="whats-a-port-order"></a>番号移行注文について
 
@@ -140,7 +140,7 @@ Teams に電話番号を移植する場合は、すべての電話番号また�
 ## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>ユーザー (加入者番号) の電話番号をサービス番号に変更できますか?
 <a name="bkmk_type_1"> </a>
 
-はい、できます。 変換したい組織のテナント GUID と電話番号を含んでいるサービス要求を送信するだけです。 これを行うには、「[組織の電話番号を管理する」を参照してください](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+はい。可能です。 これを行うには、「 [電話番号の使用状況を管理する](../manage-the-usage-of-a-phone-number.md)」を参照してください。
 
 ## <a name="can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier"></a>Teams から別の電話サービス プロバイダーまたは通信事業者に番号を移植できますか?
 
