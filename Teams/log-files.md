@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Microsoft Teams によって生成されるデバッグ、メディア、デスクトップのログについて説明します。ここでは、ログを見つけることができます。また、それらのログが監視とトラブルシューティングにどのように役立つかについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ab00f7a1eedf2b1341819c7ec1c67abeb5f6e38
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 2edddca64bf0cb50dc29758fd60bc397cbc00f8b
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486892"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67705816"
 ---
 # <a name="configure-log-files-for-monitoring-and-troubleshooting-in-teams"></a>Teams で監視とトラブルシューティングを行うためのログ ファイルの構成
 
@@ -34,6 +34,8 @@ ms.locfileid: "67486892"
 -   [デスクトップ ログ](#desktop-logs)
 
 この記事では、これらのログとその使用方法について説明します。 特定の問題のトラブルシューティングについては、「 [Teams のトラブルシューティング](/MicrosoftTeams/troubleshoot/teams)」を参照してください。 
+
+Microsoft Teams Rooms デバイスからログを収集する方法については、「[デバイス ログのダウンロード](/microsoftteams/rooms/rooms-manage#download-device-logs)」を参照してください。
 
 サポートに問い合わせる方法については、「サポートを [受ける](/microsoft-365/business-video/get-help-support)」を参照してください。
 
