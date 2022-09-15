@@ -1,14 +1,14 @@
 ---
-title: 'Microsoft Teamsでのポリシーの呼び出し: 通話と転送の機能'
-author: SerdarSoysal
-ms.author: tonysmit
+title: 'Microsoft Teams でポリシーを呼び出す: 通話と通話転送の機能'
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: jastark
 audience: admin
 search.appverid: MET150
-description: Microsoft Teamsのカスタム通話ポリシーにユーザーを作成、変更、追加する方法と、さまざまな通話ポリシー設定について説明します。
+description: Microsoft Teams のカスタム通話ポリシーにユーザーを作成、変更、追加する方法と、さまざまな通話ポリシー設定について説明します。
 ms.localizationpriority: medium
 ms.collection:
 - M365-voice
@@ -20,16 +20,16 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a52b30e1ced457377d7dd1c820192cb856827ba
-ms.sourcegitcommit: 3b86e55787c34da76428d6915964ac4f3c6239fc
+ms.openlocfilehash: 6c785a6860c1ea45200253e9d2530a80e9dd28f6
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "65601647"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67708301"
 ---
-# <a name="calling-and-call-forwarding-in-teams"></a>Teamsでの通話と通話転送
+# <a name="calling-and-call-forwarding-in-teams"></a>Teams での通話と通話転送
 
-Microsoft Teamsでは、通話ポリシーによって、ユーザーが使用できる通話と通話の転送機能が制御されます。 通話ポリシーは、ユーザーがプライベート通話を行うことができるか、通話転送を使用するか、他のユーザーまたは外部電話番号に同時に呼び出すか、通話をボイスメールにルーティングするか、通話グループに通話を送信するか、着信通話と発信通話に委任を使用するかを決定します。
+Microsoft Teams では、通話ポリシーによって、ユーザーが使用できる通話と通話の転送機能が制御されます。 通話ポリシーは、ユーザーがプライベート通話を行うことができるか、通話転送を使用するか、他のユーザーまたは外部電話番号に同時に呼び出すか、通話をボイスメールにルーティングするか、通話グループに通話を送信するか、着信通話と発信通話に委任を使用するかを決定します。
 
 自動的に作成されるグローバル (組織全体の既定) ポリシーを使用するか、カスタム ポリシーを作成して割り当てることができます。
 
@@ -37,7 +37,7 @@ Microsoft Teamsでは、通話ポリシーによって、ユーザーが使用�
 
 カスタム通話ポリシーを作成するには、次の手順に従います。
 
-1. Microsoft Teams管理センターの左側のナビゲーションで、**VoiceCalling** >  ポリシーに移動します。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、 **音声** > **通話ポリシー** に移動します。
 2. **[追加]** を選択します。
 3. 通話ポリシーで使用する機能をオンまたはオフにします。
 4. ユーザーがボイスメールに着信通話をルーティングできるかどうかを制御するには、[ **有効]** または [ **ユーザー制御**] を選択します。 ボイスメールへのルーティングを禁止するには、[ **無効]** を選択します。
@@ -47,7 +47,7 @@ Microsoft Teamsでは、通話ポリシーによって、ユーザーが使用�
 
 既存の通話ポリシーを編集するには、次の手順に従います。
 
-1. Microsoft Teams管理センターの左側のナビゲーションで、**VoiceCalling** >  **ポリシーを選択します**。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、[ **音声** > **通話ポリシー**] を選択します。
 2. 変更するポリシーの横にあるをクリックし、[ **編集]** を選択します。
 3. 必要な変更を加え、[保存] をクリック **します**。
 
@@ -61,7 +61,7 @@ Microsoft Teamsでは、通話ポリシーによって、ユーザーが使用�
 
 ### <a name="make-private-calls"></a>プライベート通話をする
 
-この設定は、Teamsのすべての呼び出し機能を制御します。 これをオフにすると、Teamsのすべての呼び出し機能がオフになります。
+この設定は、Teams のすべての通話機能を制御します。 Teams のすべての通話機能をオフにするには、これをオフにします。
 
 ### <a name="call-forwarding-and-simultaneous-ringing-to-people-in-your-organization"></a>組織内のユーザーへの通話転送と同時呼び出し
 
@@ -97,7 +97,7 @@ Microsoft Teamsでは、通話ポリシーによって、ユーザーが使用�
 
 ### <a name="web-pstn-calling"></a>Web PSTN 通話
 
-この設定を使用すると、ユーザーはTeams Web クライアントを使用して PSTN 番号を呼び出できます。
+この設定により、ユーザーは Teams Web クライアントを使用して PSTN 番号を呼び出できます。
 
 ### <a name="automatically-answer-incoming-meeting-invites"></a>受信会議の招待に自動的に応答する
 
