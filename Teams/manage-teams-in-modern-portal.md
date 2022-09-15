@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fca16f3b09fc153717b24161eb8717f419171677
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: df00f6324d1f9a50adc42c8e8c5c4dfd2ff9bd14
+ms.sourcegitcommit: 44d9f15f7f7c00b3651a11ff1e8b37dda1716a52
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396328"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "67732296"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでチームを管理する
 
@@ -149,3 +149,4 @@ Teams での管理者の役割の詳細については、「[ Microsoft Teams �
 - [Teams コマンドレット リファレンス](/powershell/teams/)  
 - [Teams の管理者ロールを使用して Teams を管理する](using-admin-roles.md)
 - [Teams でのライフサイクル管理を計画する](plan-teams-lifecycle.md)
+- [Microsoft 365 管理センターの概要](/microsoft-365/admin/admin-overview/admin-center-overview)

@@ -1789,6 +1789,8 @@ items:
             href: teams-powershell-release-notes.md
           - name: Teams PowerShell でサポートされているバージョン
             href: teams-powershell-supported-versions.md
+          - name: Teams PowerShell モジュールでのアプリケーション ベースの認証
+            href: teams-powershell-application-authentication.md
           - name: Skype for Business Online Connector から Teams PowerShell モジュールに移動する
             href: teams-powershell-move-from-sfbo.md
           - name: Teams のコマンドレット リファレンス

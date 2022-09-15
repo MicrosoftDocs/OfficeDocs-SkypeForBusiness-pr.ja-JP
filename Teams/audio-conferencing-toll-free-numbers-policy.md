@@ -20,13 +20,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.overview
-description: Microsoft 365 またはOffice 365の電話会議で、ユーザーが自分の電話から会議に通話できるようにする方法について説明します。
-ms.openlocfilehash: 7073fa9c870fc718b2d2c6e24e109878e0dd2d34
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+description: Microsoft 365 またはOffice 365の電話会議で、ユーザーが自分の電話から会議に通話できる方法について説明します。
+ms.openlocfilehash: 8fcc731f208dc3fecd42dd2c351714f67ad6a684
+ms.sourcegitcommit: 44d9f15f7f7c00b3651a11ff1e8b37dda1716a52
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269932"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "67732406"
 ---
 # <a name="audio-conferencing-policy-settings-for-toll-and-toll-free-numbers"></a>有料電話番号とフリーダイヤル番号の電話会議ポリシー設定
 
@@ -36,6 +36,9 @@ ms.locfileid: "67269932"
 
 - AllowTollFreeDialin の設定は、Teams 管理センターまたは PowerShell を使用して個々のユーザーに対して管理できなくなりました。 テナント管理者は、新しい電話会議ポリシーを使用してのみこの設定を管理できます。
 - Teams 管理センターからグローバル ポリシーを変更することはできません。
+
+> [!NOTE]
+> カスタム電話会議ポリシーは、地域で開催される会議Skype for Business有効になっているお客様にはサポートされません。 地域的にホストされる会議が有効になっているお客様は、既定の設定を使用してユーザーの電話会議設定を管理できます。 ユーザーの電話会議の既定の設定は、Teams 管理 センターでユーザー **管理ユーザー** -> **の選択ユーザー** -> **アカウント****に** -> 移動することで変更できます。
 
 Teams 電話会議ポリシーがテナントで有効になっている場合、テナントで使用できる自動的に作成されたポリシーが 2 つあります。 自動的に作成された 2 つのポリシーとその既定の設定は次のとおりです。
 

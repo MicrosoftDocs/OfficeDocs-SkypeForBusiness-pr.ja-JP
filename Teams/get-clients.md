@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ec6958c481cf8d16477aeb7728b82b76de8f78b
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: f53dd50f78afa2d85c4858e2d98170b3dc044f55
+ms.sourcegitcommit: 44d9f15f7f7c00b3651a11ff1e8b37dda1716a52
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706714"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "67732316"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams のクライアントを取得する
 
@@ -198,6 +198,9 @@ Teams モバイル アプリをサポートしているモバイル プラット
 - **Huawei** <https://aka.ms/TeamsHuawei>
 - **Oppo** Oppo ストアで "Teams" を検索する
 - **Baidu** <https://aka.ms/teams_baidu_direct_dl>
+
+> [!NOTE]
+> ユーザーが中国ベースの Android アプリ ストアから Teams をインストールし、Teams のプッシュ通知を有効にすると、Microsoft は中国ベースのプッシュ通知サービスを通じて Teams プッシュ通知を提供します。
 
 ## <a name="browser-client"></a>ブラウザー クライアント
 
