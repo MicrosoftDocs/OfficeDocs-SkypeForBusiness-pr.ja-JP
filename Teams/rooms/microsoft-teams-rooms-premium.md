@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams Rooms の管理サービスについて説明します。
 f1keywords: ''
-ms.openlocfilehash: 5e59312d3febe2dc6b4178874bae21fc27fe77d2
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 07b18a45e376c594d23f836ff12f24474f25968b
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606286"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706474"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Microsoft Teams Rooms の管理サービス
 
@@ -124,7 +124,7 @@ Microsoft Teams Rooms Pro ライセンスは、電話会議なしで次の国で
 |内容 |除外事項 |除外対象アイテムのサポート チャネル  |
 |---------|---------|---------|
 |**サービスの構成**   |         |         |
-|Microsoft Teams Rooms アプリの設定、ファーストパーティのネットワーク構成、ファーストパーティ ソフトウェア設定、および推奨される電源設定と構成を含む、Microsoft Teams Rooms の Windows 構成の調査とガイダンス。     |Microsoft Teams Room アプリに直接含まれていないサードパーティ製ソフトウェアの構成および調査。 また、ファーストパーティのウィンドウ以外の設定、または Microsoft Teams Room アプリの設定を必要とする OEM 固有の構成。         |サードパーティの標準サポート チャネル         |
+|Microsoft Teams Rooms アプリの設定、ファーストパーティのネットワーク構成、ファーストパーティ ソフトウェア設定、および推奨される電源設定と構成を含む、Microsoft Teams Rooms の Windows 構成の調査とガイダンス。     |Microsoft Teams Rooms アプリの直接の一部ではないサード パーティ製のソフトウェア構成と調査。 また、ファースト パーティのウィンドウ以外の構成を必要とする OEM 固有の構成、またはアプリの設定Microsoft Teams Rooms。         |サードパーティの標準サポート チャネル         |
 |**会議室アカウントのセットアップ**    |         |         |
 |会議室アカウントのセットアップに関するドキュメントの入手先。 サインインまたはアカウント設定の問題については、最初の調査が行われます。     |推奨される修復の実行、または推奨される修復の実行に関する問題、サードパーティの認証プロバイダーの構成、および個別アカウント機能の構成。        |Microsoft のメインストリーム サポートおよびサードパーティ認証プロバイダー サポート         |
 |**周辺機器のサポート**    |         |         |

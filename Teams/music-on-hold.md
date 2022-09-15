@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: 電話システムで保留音機能を管理する方法について説明します。
-ms.openlocfilehash: 9d8fa247ffdc982c5d41777c68f6b620a92644e3
-ms.sourcegitcommit: 8fc2d6a824e1e119f54ea2347bc5c10cc076956d
+ms.openlocfilehash: e218de46e56c2e2f85ed2b19cea21cbc4d4679be
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "66773756"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706176"
 ---
 # <a name="music-on-hold"></a>保留音
 
@@ -129,6 +129,8 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 | :------------| :------- | :------- | :------- | :------- | :------- |
 | 1:1 PSTN 通話を保留する | -保留音<br>-Custom Music on Hold | -保留音<br>-Custom Music on Hold | -保留音<br>-Custom Music on Hold | -保留音<br>-Custom Music on Hold | -保留音<br>-Custom Music on Hold |
 | 1:1 Teams 通話を保留する | -保留音<br>-Custom Music on Hold | -保留音<br>-Custom Music on Hold | -保留音<br>-Custom Music on Hold | -保留音<br>-Custom Music on Hold | -保留音<br>-Custom Music on Hold |
+| 1:1 PSTN 通話で転送を保留する | -保留音<br>-Custom Music on Hold | -保留音<br>-Custom Music on Hold | | |
+| 1:1 Teams 通話で転送を保留する | -保留音<br>-Custom Music on Hold | -保留音<br>-Custom Music on Hold| | | |
 | 1:1 PSTN 通話でコンサルティング転送を保留する |-保留音<br>-Custom Music on Hold || -保留音<br>-Custom Music on Hold | -保留音<br>-Custom Music on Hold | -保留音<br>-Custom Music on Hold |
 | 1:1 Teams の通話でコンサルティング転送を保留する |-保留音<br>-Custom Music on Hold || -保留音<br>-Custom Music on Hold | -保留音<br>-Custom Music on Hold | -保留音<br>-Custom Music on Hold |
 

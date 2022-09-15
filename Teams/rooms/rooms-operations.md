@@ -14,12 +14,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Microsoft Teams Roomsの管理について説明します。
-ms.openlocfilehash: 93a4c2ff7d9c6a1f982a06ec8df6dabf790f8739
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 85979448c425f2ab0de9a5956ba4e74b2a5697cc
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272222"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706664"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams Rooms のメンテナンスと運用
  
@@ -61,7 +61,7 @@ Teams Rooms設計されたエクスペリエンスを得るには、Front of Roo
 
 Front of Rooms ディスプレイのスケールと解像度をリモートで設定するには、「[MICROSOFT TEAMS ROOMS コンソール設定を XML 構成ファイルでリモートで管理する](xml-config-file.md#set-front-of-room-scale-and-resolution)」を参照してください。
 
-Teams Room 管理者設定でスケールと解像度を手動で設定するには:
+Teams Rooms管理設定でスケールと解像度を手動で設定するには:
 
 1. Teams Room で[、管理者モード](#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)に切り替える
 
@@ -84,7 +84,7 @@ Teams Room 管理者設定でスケールと解像度を手動で設定するに
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Microsoft Teams Rooms のリセット (工場出荷時の復元)
 <a name="Reset"> </a>
 
-Microsoft Teams Roomsが正常に動作していない場合は、出荷時の設定にリセットしてみてください。 これを行うには、[Microsoft Teams Room 回復ツール](recovery-tool.md)を使用して、工場出荷時復元の手順に従います。
+Microsoft Teams Roomsが正常に動作していない場合は、出荷時の設定にリセットしてみてください。 これを行うには、[Microsoft Teams Rooms回復ツール](recovery-tool.md)を使用し、ファクトリの復元手順に従います。
 
 > [!NOTE]
 > Windows を初期状態に戻すプロセス中に、**[個人用ファイルを保持する - アプリと設定を削除しますが、個人用ファイルは保持します]** オプションが選択されている場合、Microsoft Teams Roomsが使用できなくなる可能性があるという既知の問題があります。 このオプションは使用 *しない* でください。
@@ -222,11 +222,13 @@ Copy-Item $movefile $targetDevice
 ## <a name="software-updates"></a>ソフトウェアの更新
 <a name="SWupdate"> </a>
 
-既定では、Microsoft Teams Roomsは Windows ストアへの接続を試み、最新バージョンのMicrosoft Teams Rooms ソフトウェアを取得します。 そのため、Teams Roomsには通常のインターネット アクセスが必要です。 サポートの問題で Microsoft に連絡する前に、Microsoft Teams Roomsが最新バージョンのアプリで読み込まれていることを確認してください。
+既定では、Microsoft Teams Rooms は Windows Update に接続してオペレーティング システムと USB 周辺機器のファームウェアの更新プログラムを取得し、設定された業務時間外にインストールします。 管理者アカウントにサインインし、 **設定** アプリを実行することで、営業時間を構成できます。
   
-Microsoft Teams RoomsはWindows Updateに接続して、オペレーティング システムと周辺機器のファームウェアの更新プログラムを取得します。 また、Microsoft Store に接続して、アプリケーションの更新プログラムを取得します。
+更新プログラムを手動で管理し、[オフライン アプリを配布](/microsoft-store/distribute-offline-apps)する[ビジネス向け Microsoft Store](https://businessstore.microsoft.com/store)の通常の手順に従うことができない場合は、Microsoft Teams Rooms [デバイスを手動で更新](/microsoftteams/rooms/manual-update)するから最新のMTR-Update スクリプトを取得して実行できます。
 
-アプリケーション更新プログラムを手動で管理する必要があるが、[オフライン アプリを配布](/microsoft-store/distribute-offline-apps)[するビジネス向け Microsoft Store](https://businessstore.microsoft.com/store)の通常の手順に従えない場合は、Teams Rooms更新プログラム パッケージを取得して、サポートされているオペレーティング システムでアプリの更新プログラムを実行できます。 更新プログラムリリースはストア リリースより遅れている可能性があり、利用可能な最新のビルドと必ずしも一致しない可能性があります。 詳細については、「[Microsoft Teams Rooms デバイスを手動で更新](manual-update.md)する」を参照してください。
+既定では、Microsoft Teams Roomsは Windows ストアへの接続を試み、最新バージョンのMicrosoft Teams Rooms ソフトウェアを取得します。 そのため、Teams Roomsには通常のインターネット アクセスが必要です。 サポートの問題で Microsoft に連絡する前に、Microsoft Teams Roomsが最新バージョンのアプリで読み込まれていることを確認してください。
+
+
 
 ## <a name="admin-mode-and-device-management"></a>管理者モードおよびデバイスの管理
 <a name="AdminMode"> </a>

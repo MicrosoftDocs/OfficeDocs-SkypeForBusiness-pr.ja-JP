@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: adcaee64e2a95d41229afe580624c6798547cb85
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: fd4b50052483c9f6e5221f3555a962adfe2444d3
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271702"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706006"
 ---
 # <a name="plan-for-sip-gateway"></a>SIP ゲートウェイの計画
 
@@ -61,7 +61,7 @@ TEAMS ユーザーは、SIP ゲートウェイを使用するために PSTN 通�
 
 3PIP または SIP デバイスがある場合は、次の機能が必要です。
 
-- Phone System のライセンス (E5 またはスタンドアロン ライセンス経由)
+- Microsoft Teams、Skype for Business Online プラン 2、および Microsoft 365 Phone System のライセンス (E5 またはスタンドアロン ライセンス経由)
 - Microsoft Teams 通話プラン、ダイレクト ルーティング、またはオペレーター接続を介した PSTN 有効化 (電話番号など)
 - 共通エリア デバイスの共通エリア電話ライセンス
 

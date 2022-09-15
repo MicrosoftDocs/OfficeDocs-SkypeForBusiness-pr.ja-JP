@@ -1,7 +1,7 @@
 ---
 title: 参加者とゲストの会議ポリシーを管理する
-author: CarolynRowe
-ms.author: crowe
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Teams で参加者とゲストの会議ポリシー設定を管理する方法について説明します。
-ms.openlocfilehash: da04d38ce63e43414c1a560f92593fbd76ef5b0c
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 46db9b7f5a1fae40d3f46bad156e318a3e677d07
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396508"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706624"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>会議ポリシーの設定 - 参加者とゲスト
 

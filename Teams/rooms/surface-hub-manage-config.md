@@ -14,12 +14,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Microsoft Intuneと Windows 構成デザイナーを使用して Surface Hub で Microsoft Teams の設定を管理する
-ms.openlocfilehash: 6e99922ebb7bb30db1b5e94fd1a4d30b8ec653b8
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 7296ed84cf34b47c562cb3ab5f5582fe1eec58ac
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272212"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67705976"
 ---
 # <a name="manage-microsoft-teams-settings-on-surface-hub"></a>Surface Hub で Microsoft Teams の設定を管理する
 
@@ -57,7 +57,7 @@ Surface Hub の Teams 構成は、XML ファイルを使用して定義されま
 | `<SurfaceHubSettings>`  | `<AutoAcceptProximateMeetingInvitations>` |           | Teams が近接通信ベースの会議を自動的に受け入れるかどうかを決定します。<br>受け入れられる値: `true`, `false`                                                                                                                                                                                                                                                                                                                                                                                                     |
 | `<SurfaceHubSettings>`  | `<CoordinatedMeetings>`                   |           | 座標会議のすべての構成要素を含みます。                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |                         |                                           | `enabled` | Teams が他のデバイスとの調整された会議に参加するように構成されているかどうかを決定します。<br>受け入れられる値: `true`, `false`                                                                                                                                                                                                                                                                                                                                                                                |
-| `<CoordinatedMeetings>` | `<TrustedAccounts>`                       |           | これは、それぞれの Teams ミーティング デバイスまたは Surface Hub 用の UPN をカンマで区切ったリストで、デバイスが会議への参加依頼を承諾するか、または送信する必要があるかを指定します。<br>受け入れられる値: 文字列                                                                                                                                                                                                                                                                                                                         |
+| `<CoordinatedMeetings>` | `<TrustedAccounts>`                       |           | これは、デバイスが会議参加要求を受け入れる必要があるTeams Roomsデバイスまたは Surface Hub ごとに、または会議参加要求を送信する必要がある UPN のコンマ区切りの一覧です。<br>受け入れられる値: 文字列                                                                                                                                                                                                                                                                                                                         |
 | `<CoordinatedMeetings>` | `<Settings>`                              |           | 座標会議の構成オーディオとビデオの構成要素が含まれています                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | `<Settings>`            | `<Audio>`                                 |           | Surface Hub 上の Teams のオーディオ構成を制御します。                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |                         |                                           | `default` | 会議の開始時にマイクをアクティブにするデバイスを決定します。 このフィールドを`true`に設定できるのは 1 つのデバイス (通常は Teams ミーティング デバイス) のみで、残りのデバイスはオーディオのエコーやハウリングを避けるためにこのフィールドを`false`に設定しなければなりません。<br>受け入れられる値: `true`, `false`                                                                                                                                                                                                           |

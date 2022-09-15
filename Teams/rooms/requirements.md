@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Microsoft Teams Rooms をサポートするための要件 (適切なデバイス、マイク、スピーカー、カメラ、ディスプレイの選択) について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 84566f8dea2f687d2981d56c837bb0d92241d254
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: bd4376a8d34be2c0184844b015531c7b496c94c4
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418476"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706684"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams Rooms の要件
 
@@ -43,11 +43,11 @@ Microsoft Teams Rooms異なる部屋のサイズにスケールします。 Team
 > オンプレミスの Exchange サーバーをご使用の場合、Microsoft Teams Rooms では Exchange Server 2013 SP1 以降を使用する必要があります。
 
 ## <a name="hardware-requirements"></a>ハードウェアの要件
-ハードウェアを展開するには、Microsoft Teams Room システムを選択し、認定オーディオ/ビデオ周辺機器およびこれらのデバイスを統合するためのケーブル接続ソリューションを組み合わせる必要があります。  ここでは、これらのオプションについて説明します。
+ハードウェアの展開には、認定されたオーディオおよびビデオ周辺機器と組み合わされたMicrosoft Teams Rooms システムの選択と、これらのデバイスを統合するためのケーブル接続ソリューションが含まれます。  ここでは、これらのオプションについて説明します。
 
-**サポートされている Microsoft Teams Room システム**
+**サポートされているMicrosoft Teams Rooms システム**
 
-現在サポートされているすべての Microsoft Teams Room デバイスとバンドルは、[ミーティング システムの製品ショーケース](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=20&page=1&filterIds=)に用意されています。
+現在のすべてのMicrosoft Teams Roomsデバイスとバンドルは、[Teams Rooms製品ショーケース](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=20&page=1&filterIds=)で入手できます。
 
   |コンソール|プロセッサ|RAM|ディスク|
   |:-----|:-----|:-----|:-----|
@@ -142,6 +142,7 @@ Microsoft Teams Rooms異なる部屋のサイズにスケールします。 Team
 |[Aver VC520 PRO2 会議システム](https://www.averusa.com/products/conference-camera/vc520pro2) | 00.0.7200.79 |
 |[Aver VB342+ カメラ サウンドバー](https://www.averusa.com/products/conference-camera/vb342plus) | Soundbar: 0.0.0000.97|
 |[Aver CAM 540](https://www.averusa.com/products/conference-camera/cam540) |0.0.6002.83 |
+|[Aver CAM 550](https://www.averusa.com/products/conference-camera/cam550) |0.0.8000.51 |
 |[Aver CAM 520 Pro](https://www.averusa.com/products/conference-camera/cam520pro) |0.0.1000.73 |
 |[Aver CAM 520 Pro 2](https://www.averusa.com/products/conference-camera/cam520pro2) |0.0.7200.3 |
 |[Aver CAM 130](https://www.averusa.com/products/conference-camera/cam130) |0.0.7450.02 | &#x2714; |
@@ -220,6 +221,7 @@ Microsoft Teams Rooms異なる部屋のサイズにスケールします。 Team
 |[Shure MXA 710 4ft Wall Linear Array マイク](https://www.shure.com/products/microphones/mxa710) + </br>[Shure Intellimix P300 オーディオ プロセッサ](https://www.shure.com/products/mixers/p300) +</br>[MXN5-C 天井スピーカー](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 4ft Wall Linear Array Mic: 1.2.0 </br> P300 DSP: 4.4.8 </br> MXN5-C スピーカー: 1.1.1 |
 |[Intellimix Ceiling Array マイクを使用した Shure MXA 910](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br> [100-T-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Shure Intellimix Room Software: 3.0.4.14 </br> Intellimix Ceiling Array マイクを使用した Shure MXA 910: 4.4.11 </br> Shure MXN5-C スピーカー: 1.2.1 </br> HW Tek Computer INC 9934 コンピューティングを使用した、レストロン UC-C100-T | 
 |[Intellimix Ceiling Array マイクを使用した Shure MXA 910](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br>Lenovo ThinkSmart Core | Shure Intellimix Room Software: 3.2.0.52 </br> Intellimix Ceiling Array マイクを使用した Shure MXA 910: 4.4.11 </br> Shure MXN5-C スピーカー: 1.2.1 |
+|[Shure MXA920XX-R Round Ceiling Array マイク](https://www.shure.com/en-US/products/microphones/mxa920?variant=MXA920AL-R) + </br> [P300 プロセッサ](https://www.shure.com/en-US/products/mixers/p300?variant=P300-IMX) + </br> [MXN5 スピーカー](https://www.shure.com/en-US/products/loudspeakers/mxn5) | MXA920XX-R: 1.1.56 </br> P300 プロセッサ: 4.7.7 </br> MXN5 スピーカー: 1.5.6 |
 |[Intellimix Ceiling Array マイクを使用した Shure MXA 910](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br>Dell Optplex 7080 | Shure Intellimix Room Software: 3.2.0.52 </br> Intellimix Ceiling Array マイクを使用した Shure MXA 910: 4.4.11 </br> Shure MXN5-C スピーカー: 1.2.1 |
 |[Sennheiser TeamConnect Intelligent Speaker/TC ISP (T-Rock)](https://en-us.sennheiser.com/tcisp)|1.0.2|
 |[Biamp Tesira Fore AVB VT4 Fixed audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br>[ゼンハイザー TeamConnect Ceiling 2 マイク](https://sennheiser.com/tcc2)+ &Dagger;</br>[Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; |  Biamp DSP: 3.12.0.15 </br> TCC2: 1.3.3 </br>EX-UBT: 3.12.0.15 |

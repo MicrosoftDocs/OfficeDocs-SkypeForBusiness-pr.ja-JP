@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Microsoft Teams で認定されている USB 周辺機器とデバイス (ヘッドセット、スピーカーフォン、Web カメラ、モニターなど) を確認します。
-ms.openlocfilehash: d7bc08eedf4c70222554b7aed05c0b2a150064e0
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: ad020877a9d6d8ba3a0af3b87e2307b69e7510c8
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268552"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706066"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams の認定を受けた USB オーディオ デバイスとビデオ デバイス
 
@@ -175,7 +175,7 @@ Teams での通話制御のサポートの詳細については、Teams [のヘ�
 |Jabra                |Evolve 40 ヘッドセット                                          |8/23/2020       |Microsoft Teams へのアップグレードによるSkype for Business      |
 |Jabra                |Evolve 30 II ヘッドセット                                       |8/23/2020       |Microsoft Teams へのアップグレードによるSkype for Business      |
 |Jabra                |Evolve 20 ヘッドセット                                          |8/23/2020       |Microsoft Teams へのアップグレードによるSkype for Business      |
-|エポレス/Sennhesier      |COMMAND 260 USB PTT                                        |8/20/2020       |Microsoft Teams へのアップグレードによるSkype for Business      |
+|エポレス/Sennheiser      |COMMAND 260 USB PTT                                        |8/20/2020       |Microsoft Teams へのアップグレードによるSkype for Business      |
 |エポレス/Sennheiser      |USB-ED CC 01 MS コネクタを使用した SC 660 への影響               |8/20/2020       |Microsoft Teams へのアップグレードによるSkype for Business      |
 |エポレス/Sennheiser      |USB-ED CC 01 MS コネクタを使用した SC 630 への影響               |8/20/2020       |Microsoft Teams へのアップグレードによるSkype for Business      |
 |エポレス/Sennheiser      |USB-ED CC 01 MS コネクタを使用した SC 260 への影響               |8/20/2020       |Microsoft Teams へのアップグレードによるSkype for Business      |

@@ -18,12 +18,12 @@ f1.keywords:
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5dcab13a6ee0c54e9fc88901c2fe022f35309e88
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: bd97dad2f50a2f5f60d13d9521b1b751da3ebdcf
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606856"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706076"
 ---
 # <a name="teams-devices-for-education"></a>教育機関向け Teams デバイス
 
@@ -143,7 +143,7 @@ Teams 会議は、参加者の音声通話とビデオ通話だけではあり�
 
 一般的なシナリオは、参加者のデバイスから直接コンテンツを共有することです。 個々のユーザーは、個々のアプリケーションまたは画面のコンテンツ全体の完全なオーディオとビジュアルのエクスペリエンスを、すべてのユーザーが表示できるように会議に直接共有できます。 これは、インストールされているデバイスを持つすべての共有スペースに拡張されます。 Microsoft Teams Roomsには、参加者が個別に会議に参加する機能がない場合でも、参加者が共有できるようにワイヤード モニター接続を使用するオプションもあります。
 
-物理的な世界のコンテンツの場合、Microsoft Teams Room システムを備えたスペースでは、ホワイトボードまたはドキュメント カメラを処理できます。これにより、スペースからのコンテンツの調整されたレビューとディスカッションが可能になります。
+物理的な世界のコンテンツの場合、Microsoft Teams Rooms システムを備えたスペースは、ホワイトボードまたはドキュメント カメラを処理し、スペースからのコンテンツの調整されたレビューとディスカッションを可能にします。
 
 完全に対話型のエクスペリエンスを実現するために、対話型ディスプレイ (Surface Hub ファミリの製品や Microsoft デジタル ホワイトボードなど) を使用すると、対面学生やリモート学生向けのコンテンツを対話的に簡単に作成できます。
 
@@ -239,8 +239,8 @@ Teams を実行しているノート PC を使用すると、ユーザーは 1 �
 
 *次に示すデバイス:*
 
-- ルーム システム - [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
-  - Surface Hub ソリューションは、コラボレーションと対話型の使用に関するプレミアム エクスペリエンスを表します。 大きなディスプレイと組み合わせた [Microsoft Teams Room ソリューション](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20?page=1&filterIds=) は、この同じシナリオの代替手段として使用できます。
+- Teams Rooms システム - [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
+  - Surface Hub ソリューションは、コラボレーションと対話型の使用に関するプレミアム エクスペリエンスを表します。 大きなディスプレイと組み合わせた[Microsoft Teams Rooms ソリューション](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20?page=1&filterIds=)は、この同じシナリオの代替手段として使用できます。
 
 - アナログ ホワイトボード キャプチャ – [Logitech Brio Content Camera Kit](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/logitech-brio-content-camera-kit/349)
 
@@ -268,7 +268,7 @@ Teams を実行しているノート PC を使用すると、ユーザーは 1 �
 
 *次に示すデバイス:*
 
-- Room System - インストールされたプロジェクターとカートベースのディスプレイの両方を備えた [Teams 用の、クレスロン Flex C100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)
+- Teams Rooms システム – インストールされたプロジェクターとカートベースのディスプレイの両方を備えた [Teams 用の、山の折れ線 Flex C100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)
 
 - オプションのデジタル ホワイトボード - [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
 
@@ -278,7 +278,7 @@ Teams を実行しているノート PC を使用すると、ユーザーは 1 �
 
 *このソリューションのインストールまたは設定は次のとおりです。*
 
-非常に複雑です。 このルームには、知識豊富な AV 展開パートナーが、空間内のエンド ユーザーに対してシームレスに動作するように、カメラとオーディオ ソリューションを適切に計画して展開する必要がある物理的なインストールが備わっています。 インストールには、Microsoft Teams Room システムと関連する Surface Hub 2 デバイスの両方の配線、オーディオ構成、正しい構成に関連する専門知識が必要です。
+非常に複雑です。 このルームには、知識豊富な AV 展開パートナーが、空間内のエンド ユーザーに対してシームレスに動作するように、カメラとオーディオ ソリューションを適切に計画して展開する必要がある物理的なインストールが備わっています。 インストールには、Microsoft Teams Rooms システムと関連する Surface Hub 2 デバイスの両方の配線、オーディオ構成、正しい構成に関連する専門知識が必要です。
 
 ### <a name="multi-purpose-spaces"></a>多目的スペース
 
@@ -292,7 +292,7 @@ Teams は、考え得るほぼすべての教育または多目的スペース�
 
 *次に示すデバイス:*
 
-- Room System – インストール済みのプロジェクターを使用した [Teams 用の、クレスロン Flex C100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)
+- Teams Rooms システム – インストール済みのプロジェクターを使用した [Teams 用の 200 Flex C100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)
 
 - オプションのデュアル デジタル ホワイトボード - [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
 
@@ -302,7 +302,7 @@ Teams は、考え得るほぼすべての教育または多目的スペース�
 
 *このソリューションのインストールまたは設定は次のとおりです。*
 
-非常に複雑です。 説明したように、知識豊富な AV 展開パートナーは、プロジェクターベースのディスプレイソリューションとカメラとオーディオ ソリューションを適切に計画して展開し、Microsoft Teams Room システムと関連する Surface Hub 2 デバイスの両方を正しく構成して、空間内のエンド ユーザーにシームレスに対応する必要があります。
+非常に複雑です。 説明したように、知識豊富な AV 展開パートナーは、プロジェクター ベースのディスプレイソリューションとカメラとオーディオ ソリューションを適切に計画および展開し、Microsoft Teams Rooms システムと関連する Surface Hub 2 デバイスの両方を正しく構成して、空間内のエンド ユーザーに対してシームレスに動作するようにする必要があります。
 
 ## <a name="dont-forget-security"></a>セキュリティを忘れないでください
 
@@ -318,4 +318,4 @@ Teams のデバイスとパートナーの詳細については、次のペー�
 
 [Microsoft Teams Roomsの詳細](/microsoftteams/rooms) – 計画、デプロイ、および使用状況をカバーするMicrosoft Teams Roomsのガイド
 
-[Teams ミーティング ルーム パートナー プログラム – Teams](https://cloudpartners.transform.microsoft.com/teams-mrpp) Room システムの計画と展開に役立つ世界中のパートナーの一覧
+[Microsoft Teams Rooms パートナー プログラム](https://cloudpartners.transform.microsoft.com/teams-mrpp) – Teams Rooms システムの計画と展開に役立つ世界中のパートナーの一覧

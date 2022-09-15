@@ -14,16 +14,16 @@ ms.reviewer: mhayrapetyan
 search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.manageapps.overview
-description: 組織でブロックされているアプリを許可するようにエンド ユーザー要求を管理および構成する方法について説明します。
+description: 組織でブロックされているアプリの承認に対するエンド ユーザー要求を管理および構成する方法について説明します。
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 62d34aae25ef1ebff585ea430aeb3db20856669a
-ms.sourcegitcommit: 9de6b0b03f433e71fe239d292387eed33c11b531
+ms.openlocfilehash: 0967aec80bb88dff12141040fead94af9aae0616
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "67657327"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706226"
 ---
 # <a name="manage-user-requests"></a>ユーザー要求を管理する
 
@@ -75,18 +75,18 @@ Teams は、ユーザーがアプリに承認を要求するための既定の�
 
 1. 右上隅にある **[組織全体のアプリ設定**] を選択します。
 
-1. Teams ストアにカスタム メッセージまたは命令を表示するには、[ **ユーザー要求の構成**] の下のテキスト フィールドにテキスト メッセージを入力します。
+1. Teams ストアにカスタム メッセージまたは命令を表示するには、[ **ユーザー要求の構成**] の下のテキスト フィールドにテキスト メッセージを入力します。 フィールドには 300 文字の制限があります。
 
 1. ユーザー要求を収集するための組織固有の URL を指定するには、次の手順に従います。
 
    1. **[外部リンクへの要求のリダイレクト**] トグルをオンにします。
    1. 組織固有の URL を指定します。
 
-      :::image type="content" source="media/user-request-config-org-wide-setting.png" alt-text="組織全体の設定 UI でアプリのブロックを解除するユーザー要求の URL のカスタマイズを切り替えるスクリーンショット。":::
+      :::image type="content" source="media/user-request-config-org-wide-setting.png" alt-text="組織全体の設定 UI でユーザー要求の URL のカスタマイズを切り替えるスクリーンショット。":::
 
 1. **[保存]** を選択します。
 
-要求されたアプリを評価して許可する方法は変わりません。
+これを選択した場合、サードパーティのアプリを評価し、要求されたアプリを許可する方法は変わりません。
 
 ## <a name="dismiss-user-requests"></a>ユーザー要求を無視する
 

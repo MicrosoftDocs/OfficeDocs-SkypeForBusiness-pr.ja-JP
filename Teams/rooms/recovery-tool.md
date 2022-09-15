@@ -14,12 +14,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: この記事では、古いシステムをサポートされている状態にするために使用する、Microsoft Teams Roomsの回復ツールを使用する方法について説明します。
-ms.openlocfilehash: c50b59ff4ed1ee997b990b0776ef4a7ee0ac29c2
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 70b2d199c4fe13138e2f46fd0b49e95efbd18e9c
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271162"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706166"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Microsoft Teams Rooms の回復ツールを使用する
 
@@ -30,7 +30,7 @@ ms.locfileid: "67271162"
 最新の[Microsoft Teams Rooms インストール パッケージ](https://go.microsoft.com/fwlink/?linkid=851168)をダウンロードし、Microsoft Teams Roomsにアクセスできる USB メモリ スティックまたはネットワーク共有に展開します。
 
 > [!NOTE]
-> MSI からファイルを抽出することは、多くの方法で実現できます。 すべてのファイルを抽出し、そのディレクトリ構造を保持するメカニズムは許容されます。 そのような方法の 1 つは、Microsoft Teams Room インストール パッケージへの完全なパスを表し`PathToTarget`、抽出するファイルのフォルダーへの完全なパスを表すコマンド`msiexec /a PathToMsi /qb TARGETDIR=PathToTarget``PathToMsi`を使用することです。
+> MSI からファイルを抽出することは、多くの方法で実現できます。 すべてのファイルを抽出し、そのディレクトリ構造を保持するメカニズムは許容されます。 そのような方法の 1 つは、Microsoft Teams Rooms インストール パッケージへの完全なパスを表し`PathToTarget`、抽出するファイルのフォルダーへの完全なパスを表すコマンド`msiexec /a PathToMsi /qb TARGETDIR=PathToTarget``PathToMsi`を使用することです。
 
 ## <a name="running-the-tool"></a>ツールの実行
 

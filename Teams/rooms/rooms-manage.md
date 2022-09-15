@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: 継続的なメンテナンスと運用を開発および実行して、Microsoft Teams Rooms システムをユーザーが確実に利用できるようにする方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 85bb58005159b18a426aed0851ac7a80b11183eb
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d9ce5a3ac479bc16526bb044bbc3e4c34d3b1d0e
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271094"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706824"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Microsoft Teams Rooms を管理する
 
@@ -171,20 +171,20 @@ Teams ミーティング システムダッシュボードでは、すべての�
 
 デバイスの詳細情報を表示するには、デバイスリストからその名前を選択します。 詳細ビューでは、デバイスに関する次の情報を確認できます。
 
-- **[正常性状態]** には、Teams ミーティングのデバイスの全体的な正常性が表示されます。 [正常性状態]には、**正常** または **異常** のいずれかが表示されます。
+- **正常性状態** Teams Rooms デバイスの全体的な正常性を示します。 [正常性状態]には、**正常** または **異常** のいずれかが表示されます。
 - **[以降オフライン]** は、Microsoft 365がデバイスと通信できた最後の時刻を表示します。
 - **[デバイスの状態]** には、デバイスの現在の状態が以下のいずれかで表示されます。**アイドル中**、**Teams ミーティング中**、**Skype ミーティング中**、**取り込み中**。
-- **[周辺機器]** には、Teams ミーティングデバイスに接続されている周辺機器とその正常性状態が表示されます。 正常性状態には、 **接続済み** または **未接続** のいずれかが表示されます。
-- **[正常性]** には、Teams ミーティング デバイスに接続されている周辺機器、ネットワーク接続、必要なサービスへのサインインステータス、およびソフトウェアバージョン情報に関する詳細情報が表示されます。
-- **[詳細]** では、メーカー情報、ネットワークIPアドレス、Teams ミーティング デバイスのシリアル / MAC アドレスを表示します。
+- **周辺 機器** Teams Rooms デバイスに接続されている周辺機器とその正常性状態を表示します。 正常性状態には、 **接続済み** または **未接続** のいずれかが表示されます。
+- **健康** Teams Rooms デバイスに接続されている周辺機器、ネットワーク接続、必要なサービスへのサインイン状態、ソフトウェアのバージョン情報に関する詳細情報を表示します。
+- **詳細** 製造元の情報、ネットワーク IP アドレス、Teams Roomsデバイスのシリアル/MAC アドレスを表示します。
 - **[アクティビティ]** には、ミーティングの日時、参加者数、期間、音声品質など、過去のミーティングの詳細が表示されます。 ミーティングの詳細については、この記事の後半の[[ミーティングの活動の詳細]](#meeting-activity-details)セクションを参照してください。
-- **履歴** には、構成の更新、デバイスの再起動、およびデバイスログのダウンロードリンクを含む、Teams の管理アクティビティの履歴が表示されます。
+- **歴史** 構成の更新、デバイスの再起動、デバイス ログのダウンロード リンクなど、Teams Rooms デバイスでの管理アクティビティの履歴を表示します。
 
 #### <a name="meeting-activity-details"></a>ミーティングアクティビティの詳細
 
-Teams ミーティング デバイスの詳細の **[アクティビティ]** タブには、デバイスが参加したすべての会議に関する高レベルの詳細情報が表示されます。 **[アクティビティ]** タブで、ミーティングがいつ開催されたか、ミーティングに参加している参加者の数、およびミーティング中のオーディオ品質を確認できます。
+デバイスの詳細Teams Rooms [**アクティビティ**] タブには、デバイスが時間の経過と共に参加したすべての会議に関する概要と詳細情報が表示されます。 **[アクティビティ]** タブで、ミーティングがいつ開催されたか、ミーティングに参加している参加者の数、およびミーティング中のオーディオ品質を確認できます。
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Teams Room デバイス アクティビティの概要一覧。":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="デバイス アクティビティの概要の一覧をTeams Roomsします。":::
 
 特定のミーティングに関する詳細情報を表示するには、ミーティングの日付と時刻を選択します。 ミーティングに参加できるのが2人のみの場合は、[参加者の詳細] ページが表示されます。表示されない場合は、参加者の概要ページが表示されます。
 
@@ -192,10 +192,10 @@ Teams ミーティング デバイスの詳細の **[アクティビティ]** �
 
 参加者の概要ページには、ミーティングに参加したすべての参加者が表示されます。 各参加者がミーティングに参加した時期、名前、音声品質、およびセッション中に使用された機能を確認できます。 参加者のセッションの詳細を表示するには、参加者のセッションの開始時刻を選択します。
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="Teams Room デバイス会議の詳細。":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="デバイス会議の詳細をTeams Roomsします。":::
 
 ##### <a name="participant-details"></a>参加者の詳細
 
 参加者の詳細ページには、参加者のセッションのエンドツーエンドの診断情報が表示されます。 次の図に示すように、**デバイス**、**システム**、および **接続** の情報が参加者とチームルームのデバイスに提供されます。 参加者と Teams ミーティングのデバイス間 **ネットワーク** 診断情報も表示されます。 詳細情報が必要なコンテキストのアイコンを選択します。 追加の診断情報については、**[詳細]** タブを選択してください。
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teams Room デバイス通話の詳細。":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="デバイス呼び出しの詳細をTeams Roomsします。":::

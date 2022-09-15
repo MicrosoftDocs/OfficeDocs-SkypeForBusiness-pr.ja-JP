@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Microsoft Teams Roomsのさまざまな種類の通話機能と会議機能について、使用可能なライセンスについて説明し、比較します。
-ms.openlocfilehash: f2815dd99cb2b1882ec0783fc834d58db60c1b0d
-ms.sourcegitcommit: 087254ba68d75ea4f9205a972f1d8d554d9176c7
+ms.openlocfilehash: df84e94ebda02020e88d8bfc19fa42c86561b07d
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "67650819"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706674"
 ---
 # <a name="microsoft-teams-rooms-licenses"></a>Microsoft Teams Rooms ライセンス
 
@@ -80,7 +80,7 @@ Teams Rooms Basic ライセンスを使用すると、1 つの部屋で 1 つの
 
 <sup>*</sup>Microsoft Service エンジニアは、2022 年 10 月 1 日以降、インシデント対応の仲介役を務めなくなります。
 
-## <a name="teams-rooms-console-and-teams-client-feature-comparison"></a>Teams Rooms コンソールと Teams クライアントの機能の比較
+## <a name="teams-rooms-basic-and-teams-rooms-pro-feature-comparison"></a>Teams Rooms Basic と Teams Rooms Pro の機能の比較
 
 次の表は、Teams Rooms Basic ライセンスと Teams Rooms Pro ライセンスを比較し、それぞれに使用できる機能を示しています。 ライセンスで機能を使用できない場合、その機能は、そのライセンスが割り当てられているTeams Roomsデバイスでは使用できません。 Teams Rooms デバイスで機能を使用するには、その機能を使用できるライセンスをそのデバイスに割り当てます。
 

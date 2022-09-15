@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e557e0901293c26d48e30ed163883f9cd97f12e
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 7e540200f42af23ff4382db7ed4ff528971501b9
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66790352"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706016"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -202,7 +202,7 @@ Teams と Microsoft 365 Apps for enterprise の詳細については、「[Micro
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
         ```
 
-        このプロセスでは、Teams は 64 ビット オペレーティング システムの `%ProgramFiles(x86)%` フォルダー、および 32 ビット オペレーティング システム の `%ProgramFiles%` フォルダーにインストールされます。この時点で、ゴールデン イメージのセットアップは完了です。
+        このプロセスでは、32 ビット オペレーティング システム上の `%ProgramFiles(x86)%` フォルダーと 64 ビット オペレーティング システム上の `%ProgramFiles%` フォルダーに Teams がインストールされます。 この時点で、ゴールデン イメージのセットアップは完了です。
 
         > [!IMPORTANT]
         >  非永続的なセットアップについては、マシンごとに Teams をインストールする必要があります。
@@ -403,20 +403,12 @@ Teams VDI ポリシーは、Teams モジュールで使用できます。 これ
 > [!NOTE]
 > これは、最適化されていない環境の場合のみです。
 
-### <a name="update-a-module-name"></a>モジュール名を更新する
+### <a name="connect-to-microsoft-teams-powershell"></a>Microsoft Teams PowerShell に接続する
+
+[Microsoft Teams PowerShell モジュールをインストール](/Teams/teams-powershell-install.md)する手順に従って、Microsoft Teams PowerShell モジュールに接続します。 次に、次のコマンドを実行して、すべての VDI コマンドレットが使用可能であることを確認します。
 
 ```PowerShell
-Update-Module -Name MicrosoftTeams -AllowPrerelease
-
-<# Import and connect to online (CSOnline runs the policies) #>
-Import-Module microsoftTeams
-if( -not $sess){
-    $session = New-CsOnlineSession
-    $pss = Import-PSSession $session
-}
-<# Check out the commands #>
 Get-Command -Noun *VDI*
-<#
 ```
 
 ### <a name="set-policies-to-limit-calling-features"></a>通話機能を制限するポリシーを設定する
@@ -486,7 +478,7 @@ if($cleanup){
 - マシンごとのインストールでは、VDI 上の Teams は、非 VDI Teams のクライアントと同様に自動的に更新されません。 [VDI で Teams デスクトップ アプリをインストールまたは更新する](#install-or-update-the-teams-desktop-app-on-vdi)セクションの説明に従って新しい MSI をインストールし、VM イメージを更新する必要があります。 現在のバージョンをアンインストールして新しいバージョンに更新する必要があります。
 - Citrix 環境では、Teams の実行中にユーザーが仮想マシンから切断すると、Teams の更新により、ユーザーが再接続したときに AV に対して最適化されていない状態になる可能性があります。 このシナリオを回避するために、ユーザーは Citrix 仮想マシンから切断する前に Teams を終了することをお勧めします。
 - Teams は、ユーザーごとまたはマシンごとに展開する必要があります。 Teams のユーザーごとおよびマシンごとの同時展開はサポートされていません。 マシンごとまたはユーザーごとからこれらのモードのいずれかに移行するには、アンインストール手順に従っていずれかのモードに再展開します。
-- 現時点では、Azure Virtual Desktop は macOS および Linux ベースのクライアントをサポートしていません。
+- 現時点では、Azure Virtual Desktop では Linux ベースのクライアントはサポートされていません。
 - テナントの切り替えが速いと、画面共有が利用できないなど、VDI で通話関連の問題が発生する可能性があります。クライアントを再起動すると、これらの問題が軽減されます。
 
 ### <a name="notifications"></a>通知

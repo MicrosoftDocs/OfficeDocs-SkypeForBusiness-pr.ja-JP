@@ -1,7 +1,7 @@
 ---
 title: 会議の設定を管理する
-author: CarolynRowe
-ms.author: crowe
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.reviewer: sonua
 ms.topic: article
@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 組織のユーザーがスケジュールする Teams 会議の設定を管理する方法を説明します。
-ms.openlocfilehash: c76267ae5cd9a19cae272d995a24077a58a7ec6f
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
-ms.translationtype: HT
+ms.openlocfilehash: c25405dd305a8556309559d4941dd731331e6d75
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789792"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706504"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams で会議の設定を管理する
 
@@ -179,7 +179,7 @@ ms.locfileid: "66789792"
 |:---             |:---                         |:---    |:---      |:---      |
 |オーディオ            | 50,000–50,019               |TCP/UDP |46        |完全優先転送 (EF)|
 |ビデオ            | 50,020–50,039               |TCP/UDP |34        |相対的優先転送 (AF41)|
-|アプリケーション/画面共有| 50,040–50,059      |TCP/UDP |18         |相対的優先転送 (AF21)|
+|アプリケーション/画面共有| 50,040–50,059      |TCP/UDP |18        |相対的優先転送 (AF21)|
 | | | | |
 
 \* 割り当てたポート範囲は重なり合うことができず、相互に隣接することになります。

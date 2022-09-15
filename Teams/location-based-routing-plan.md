@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 795433f832d57767a7937be1a9d3e7f31e73f240
-ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
+ms.openlocfilehash: f7b6b360f51c803aef3eb7811b15c17a748df5f0
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "67647441"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67705836"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>ダイレクト ルーティングの場所に基づくルーティングを計画する
 
@@ -397,7 +397,7 @@ Location-Based ルーティングが有効なユーザーが、Location-Based �
 
 電話会議のネットワーク上会議は、インドのテレフォニー機器と共に展開しないでください。
 
-PSTN 通話でルーティングが有効なLocation-Based ユーザーは、その通話を別の呼び出しとマージすることはできません。
+PSTN 通話でルーティングが有効なLocation-Based ユーザーは、その通話を別の呼び出しとマージすることはできません。 PSTN 通話の記録と PSTN 通話のコンプライアンス記録はサポートされていません。
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>Location-Based ルーティングのメディア バイパス要件
 

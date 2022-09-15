@@ -1,7 +1,7 @@
 ---
 title: 一般的な会議ポリシーを管理する
-author: CarolynRowe
-ms.author: crowe
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: Teams で一般的な会議ポリシー設定を管理する方法について説明します。
-ms.openlocfilehash: 2582327261e52f1d834cd3b368c79aa55ca7f103
-ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
+ms.openlocfilehash: 0278133ff33e811cc4f08e1ad2973f52615d1426
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "64686344"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706956"
 ---
 # <a name="meeting-policy-settings---general"></a>会議ポリシーの設定 - 全般
 

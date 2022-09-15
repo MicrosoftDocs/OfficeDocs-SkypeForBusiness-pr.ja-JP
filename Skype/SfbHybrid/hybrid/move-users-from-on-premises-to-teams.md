@@ -1,5 +1,5 @@
 ---
-title: ユーザーを 2019 Skype for Business Serverから 2019 年Teams
+title: Skype for Business Server 2019 から Teams にユーザーを移動する
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -18,60 +18,59 @@ ms.collection:
 - Adm_Skype4B_Online
 search.appverid: MET150
 ms.custom: ''
-description: '概要: ユーザー設定を移行し、ユーザーをユーザーに移動する方法についてTeams。'
-ms.openlocfilehash: 1e31ec999f15072ae46e96232360d85eb12153a9
-ms.sourcegitcommit: c8951fe3504c1776d7aec14b79605aaf5d317e7f
+description: '概要: ユーザー設定を移行し、ユーザーを Teams に移動する方法について説明します。'
+ms.openlocfilehash: d29fa49e3521e93cb1818c70adb37cfb5019660b
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61331088"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67705846"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>オンプレミスから Teams にユーザーを移動する
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-ユーザーをオンプレミスから Teams のみに移動すると、ユーザーの Skype for Business ホームはオンプレミスからオンラインに移動され、ユーザーには mode=TeamsOnly で TeamsUpgradePolicy が割り当てられます。  ユーザーをオンプレミスから TeamsOnly モードに移動した後は、次の方法を実行します。
+ユーザーをオンプレミスから Teams のみに移動すると、ユーザーのSkype for Businessホームがオンプレミスからオンラインに移動され、ユーザーには mode=TeamsOnly を使用して TeamsUpgradePolicy が割り当てられます。  ユーザーをオンプレミスから TeamsOnly モードに移動した後：
 
-- (Skype for Business または Teams から送信された) 他のユーザーからの着信通話とチャットはすべて、ユーザーのクライアントにTeamsされます。
-- ユーザーは、オンラインかオンプレミスかを問Skype for Business他のユーザーと相互運用できます。
-- ユーザーはフェデレーション組織のユーザーと通信できます。
-- そのユーザーがスケジュールした新しい会議は、Teamsされます。
-- ユーザーは引き続き任意の会議Skype for Businessできます。
-- 将来予定されているユーザーの既存の会議は、オンプレミスから既存の会議に移行Teams。
-- オンプレミスに存在していた連絡先は、ユーザーが初Teamsログオンした直後に、このサイトで利用できます。
-- ユーザーは、ユーザーから通話やチャットを開始Skype for Business、また、会議で新しい会議をスケジュールSkype for Business。 クライアントを開くSkype for Business、次に示すようにTeamsリダイレクトされます。 クライアントがTeams場合は、ブラウザーを使用して web バージョンTeamsされます。<br><br>
-    ![ユーザーをユーザーにリダイレクトするメッセージTeams。](../media/go-to-teams-page.png)
+- 他のユーザーからのすべての着信通話とチャット (Skype for Business または Teams から送信された場合) は、ユーザーの Teams クライアントに着信します。
+- ユーザーは、Skype for Business を使用する他のユーザーと相互運用が可能になります(オンラインでもオンプレミスでも)。
+- ユーザーはフェデレーション組織のユーザーと通信が可能になります。
+- そのユーザーによってスケジュールされた新しい会議は、Teams 会議です。
+- ユーザーは引き続き Skype for Business 会議に参加できます。 ただし、2022 年 10 月以降、ハイブリッド組織の TeamsOnly ユーザーは匿名で会議に参加Skype for Businessのみ可能になります。 詳細については、「 [退職後の予定」を](/microsoftteams/skype-for-business-online-retirement#what-to-expect-post-retirement)参照してください。
+- 将来予定されているユーザーの既存の会議は、オンプレミスから Teams に移行されます。
+- オンプレミスに存在していた連絡先は、ユーザーが初めてログオンした直後に、Teams で利用できます。
+- ユーザーは、Skype for Businessから通話やチャットを開始したり、Skype for Businessで新しい会議をスケジュールしたりすることはできません。 Skype for Business クライアントを開こうとすると、次に示すように Teams を使用するようにリダイレクトされます。 Teams クライアントがインストールされていない場合は、ブラウザーを使用して Teams の Web バージョンに移動します。<br><br>
+    ![Teams にユーザーをリダイレクトするメッセージ。](../media/go-to-teams-page.png)
 
-ユーザーを移動する前に、必ず前提条件を確認 [して](move-users-between-on-premises-and-cloud.md#prerequisites) 、ユーザーをクラウドに移動してください。 また、移行を使用している組織の移行と相互運用性のガイダンスと、Teams[を確認Skype for Business。](/microsoftteams/migration-interop-guidance-for-teams-with-skype)
+ユーザーを移動する前に、ユーザーをクラウドに移動するための [前提条件](move-users-between-on-premises-and-cloud.md#prerequisites) を確認してください。 また、[Teams とSkype for Businessを組み合わせて使用する組織の移行と相互運用性に関するガイダンス](/microsoftteams/migration-interop-guidance-for-teams-with-skype)も確認してください。
 
 
 > [!NOTE]
-> 連絡先をサーバーに移動するには、統合連絡先ストアを on-prem SfB アカウントで無効Teams。
+> 連絡先を Teams に移動するには、オンプレミスの SfB アカウントで統合連絡先ストアを無効にする必要があります。
 
 > [!IMPORTANT]
 >
-> - Move-CsUser を使用してユーザーをオンプレミスからクラウドに移動すると、ユーザーに TeamsOnly モードが自動的に割り当てられると、スイッチが実際に指定されたかどうかに関係なく、オンプレミスの会議が自動的に Teams 会議に変換されます。 `-MoveToTeams` (これには、切り替え前の Lync Server 2013 からの移行が含 `-MoveToTeams` まれます)。 以前は、このスイッチが指定されていない場合、ユーザーは Skype for Business Server オンプレミスのホームから Skype for Business Online に移行し、モードは変更されません。 これは最近、オンラインの退職に備えてSkype for Businessされています。
-> - オンプレミスの展開と展開の間でユーザーを移動Teams、OAuth 認証プロトコルが必要になります。  以前は OAuth が推奨されたが、必須ではありません。  Skype for Business Server 2019 および 2015 CU12 (3061064 KB Skype for Business Server) では、既に OAuth が必要です。 CU8 と最大 CU11 で Skype for Business Server 2015 を使用している場合は、スイッチを渡す必要があります。これにより、OAuth を使用してオンプレミス コードが認証され、CU12 にアップグレードすることが望ましい。 `-UseOAuth` CU8 より前のバージョンの Skype for Business Server 2015 を使用している場合は、CU12 以降にアップグレードする必要があります。  Lync Server 2013 を使用している場合は、最初に Lync Server 2013 累積的な更新プログラム 10 Hotfix 5 (KB 2809243) 以降にアップグレードする必要があります。
+> - Move-CsUser を使用してユーザーをオンプレミスからクラウドに移動すると、ユーザーには TeamsOnly モードが自動的に割り当てられ、スイッチが実際に指定されているかどうか `-MoveToTeams` に関係なく、オンプレミスからの会議は Teams 会議に自動的に変換されます。 (これには、切り替えがなかった Lync Server 2013 からの移行も`-MoveToTeams`含まれます)。 以前は、このスイッチが指定されていない場合、ユーザーはオンプレミスSkype for Business Serverホームから Skype for Business Online に移行し、モードは変更されませんでした。 これは、Skype for Business Online の廃止に備えて変更されました。
+> - オンプレミスの展開と Teams の間でユーザーを移動するには、Skype for Business Online レガシ インフラストラクチャに依存しなくなった、Skype for Business Serverまたは Lync Server のいずれかのオンプレミス コンポーネントの最小バージョンを更新する *必要* があります。 詳細については、「 [前提条件」を参照してください](move-users-between-on-premises-and-cloud.md#prerequisites)。
 
+## <a name="move-a-user-directly-from-skype-for-business-on-premises-to-teams-only"></a>ユーザーをオンプレミスのSkype for Businessから Teams のみに直接移動する
 
-## <a name="move-a-user-directly-from-skype-for-business-on-premises-to-teams-only"></a>オンプレミスからユーザーを直接Skype for Businessに移動Teamsのみ
+Skype for Business Serverおよび Lync Server 2013 のオンプレミス管理ツールを使用すると、次に示すように、PowerShell またはSkype for Business Server コントロール パネルのMove-CsUserコマンドレットを使用して、1 つの手順でユーザーをオンプレミスから TeamsOnly モードに移行できます。 どのバージョンのSkype for Business Serverまたは Lync Server が使用されているかに関係なく、スイッチを指定`-MoveToTeams`する必要はなくなりました。また、オンプレミスから Teams のみに直接移動する動作は自動になりました。 
 
-Skype for Business Server および Lync Server 2013 のオンプレミス管理ツールを使用すると、以下で説明するように、PowerShell の Move-CsUser コマンドレットまたは Skype for Business Server コントロール パネルを使用して、1 つの手順でユーザーをオンプレミスから TeamsOnly モードに移動できます。 スイッチを指定する必要がなくなりました。また、使用する Skype for Business Server または Lync Server のバージョンに関係なく、オンプレミスから Teams Only に直接移動する動作が自動的に実行されます `-MoveToTeams` 。 
+必要[な管理者資格情報](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)の説明に従って、オンプレミス環境とクラウド サービス (Microsoft 365 またはOffice 365) の両方で十分な特権を持っている必要があります。 両方の環境で特権を持つ 1 つのアカウントを使用するか、オンプレミスの資格情報を使用してオンプレミス Skype for Business Server管理シェル ウィンドウを開始し、このパラメーターを`-Credential`使用して、必要な管理ロールを持つ Microsoft 365 の資格情報を指定できます。
 
-「必須の管理資格情報」の説明に従って、オンプレミス環境とクラウド サービス (Microsoft 365 または Office 365) の両方で十分な特権を持っている[必要があります](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)。 両方の環境で特権を持つ 1 つのアカウントを使用するか、オンプレミスの資格情報を使用してオンプレミスの Skype for Business Server 管理シェル ウィンドウを起動し、パラメーターを使用して必要な管理役割を持つ Microsoft 365 の資格情報を指定できます。 `-Credential`
+さらに、(Skype for Business Online に加えて) ユーザーに Teams のライセンスが付与されていることを確認する必要があります。 Skype for Business Online ライセンスを無効にしないでください。
 
-さらに、ユーザーにオンラインのライセンスが付与Teams必要があります (Skype for Businessします)。 オンライン ライセンスのSkype for Business無効にしない。
+### <a name="move-to-teams-using-move-csuser"></a>Move-CsUserを使用してTeamsに移動する
 
-### <a name="move-to-teams-using-move-csuser"></a>[ファイルを使用してTeamsに移動Move-CsUser
-
-Move-CsUserは、オンプレミスの管理シェル PowerShell ウィンドウSkype for Business Server Lync Server 管理シェル PowerShell ウィンドウから使用できます。 Move-CsUser を使用してユーザーを TeamsOnly モードに移動するには、次のコマンドを実行します。
+Move-CsUserは、オンプレミス Skype for Business ServerManagement Shell PowerShell ウィンドウまたは Lync Server Management Shell PowerShell ウィンドウから連絡可能です。 Move-CsUser を使用して TeamsOnly モードにユーザーを移動するには:
 - パラメーターを使用して移動するユーザーを `Identity` 指定します。
-- `-Target`"sipfed.online.lync" という値のパラメーターを指定します。 <span>com」
-- オンプレミスとクラウド サービス (Microsoft 365) の両方に十分なアクセス許可を持つアカウントが 1 つない場合は、パラメーターを使用して、Microsoft 365 で十分なアクセス許可を持つアカウント `-credential` を指定します。
-- アクセス許可を持つアカウントが Microsoft 365 "onmicrosoft" で終了しない場合。 <span>com」の説明に従って、パラメーターを正しい値で指定 `-HostedMigrationOverrideUrl` [する必要があります](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)。
-- OAuth を認証に使用するには、オンプレミス管理ツールを実行しているコンピューターがバージョン Skype for Business Server または Lync Server 2013 に最新の CU を使用している必要があります。 
+- `-Target`値 "sipfed.online.lync" でパラメーターを指定します。<span>com" (テナントが政府機関のクラウドの場合は同様の値)。
+- オンプレミスとクラウド サービス (Microsoft 365) の両方に十分なアクセス許可を持つアカウントが 1 つもない場合は、このパラメーターを `-credential` 使用して、Microsoft 365 で十分なアクセス許可を持つアカウントを指定します。
+- Microsoft 365 のアクセス許可を持つアカウントが "onmicrosoft.<span>com": 必須[の管理資格情報](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)に関する`-HostedMigrationOverrideUrl`説明に従って、パラメーターを正しい値で指定する必要があります。
+- オンプレミス管理ツールを実行しているコンピューターが、お使いのバージョンの Skype for Business Server または Lync Server 2013 に対して最新の CU を使用していることを確認し、OAuth が認証に使用されていることを確認します。 
 
-次のコマンドレット シーケンスを使用して、ユーザーを TeamsOnly に移動し、Microsoft 365 資格情報が別のアカウントであり、Get-Credential プロンプトの入力として提供されたと見なします。 動作は、スイッチが指定されている `-MoveToTeams` かどうかに関して同じです。
+次のコマンドレット シーケンスは、ユーザーを TeamsOnly に移動するために使用でき、Microsoft 365 資格情報が別のアカウントであり、Get-Credential プロンプトの入力として提供されることを前提としています。 スイッチが指定されているかどうか `-MoveToTeams` は、動作は同じです。
 
   ```powershell
   $cred=Get-Credential
@@ -80,47 +79,45 @@ Move-CsUserは、オンプレミスの管理シェル PowerShell ウィンドウ
   ```
 
 > [!TIP]
-> 異なるパラメーターが必要な状況が異なるので、ほとんどの場合の既定のコマンドは次のとおりです。
+> さまざまなパラメーターを必要とする状況が異なるため、ほとんどの場合の既定のコマンドは次のとおりです。
 
 ```powershell
 Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -HostedMigrationOverrideUrl $url
 ```
 
-### <a name="move-to-teams-using-skype-for-business-server-control-panel"></a>[コントロール パネル] Teamsを使用Skype for Business Serverに移動する
+### <a name="move-to-teams-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用してTeamsに移動する
 
-1. コントロール パネル アプリSkype for Business Server開きます。
-2. 左側のナビゲーションで、[ユーザー] を **選択します**。
-3. [**検索]** を使用して、ユーザーに移動するユーザーをTeams。
-4. ユーザーを選択し、リストの上にある [アクション] ドロップダウンから 、[選択したユーザーを Teams に移動する] または **[** 選択したユーザーをオンラインにSkype for Business **します**。   どちらのオプションでも、ユーザーは TeamsOnly に直接移動します。
+1. Skype for Business Server コントロール パネル アプリを開きます。
+2. 左側のナビゲーションで、[ユーザー] を選択 **します**。
+3. **検索** を使用して、Teamsに移動させたいユーザーを見つけます。
+4. ユーザーを選択し、一覧の上にある **[ アクション]** ドロップダウンから **選択したユーザーを Teams に移動する** か **選択したユーザーを Skype for Business Skype for Businessに移動するかを選択します**。   どちらのオプションでも、ユーザーをTeamsOnly に直接移動できるようになりました。
 5. ウィザードで、[ **次へ**] をクリックします。
-6. メッセージが表示されたら、.Microsoft 365で終わり、十分なアクセス許可を持つアカウントを使用して、onmicrosoft.com にサインインします。
-7. [ **次へ]** をクリックし、[ **次** へ] をクリックしてもう 1 回ユーザーを移動します。
-8. 成功または失敗に関する状態メッセージは、ウィザードではなく、メインのコントロール パネル アプリの上部に表示されます。
+6. メッセージが表示されたら、.onmicrosoft.com で終わり、十分なアクセス許可を持つアカウントでMicrosoft 365にサインインします。
+7. **[次へ]** をクリックし、もう一度 **[次へ]** をクリックしてユーザーを移動します。
+8. 成功または失敗に関する状態 メッセージは、ウィザードではなく、メイン コントロール パネル アプリの上部に表示されます。
     
     
-## <a name="notify-your-skype-for-business-on-premises-users-of-the-upcoming-move-to-teams"></a>今後のSkype for Businessをオンプレミス のユーザーに通知Teams
+## <a name="notify-your-skype-for-business-on-premises-users-of-the-upcoming-move-to-teams"></a>Skype for Businessオンプレミス ユーザーに Teams への移行を通知する
 
-cu8 と Skype for Business Server 2015 のオンプレミス管理ツール、および Skype for Business Server 2019 では、Teams への移行についてオンプレミス Skype for Business ユーザーに通知できます。 これらの通知を有効にした場合、ユーザーは次に示すように、Skype for Business クライアント (Win32、Mac、Web、およびモバイル) に通知を表示します。 ユーザーが [試す] ボタンをクリックすると、Teams クライアントがインストールされている場合は起動されます。それ以外の場合、ユーザーはブラウザーで Teams の web バージョンに移動します。 既定では、通知を有効にすると、Win32 Skype for Business クライアントは Teams クライアントをサイレント モードでダウンロードし、リッチ クライアントを TeamsOnly モードに移行する前に利用できます。ただし、この動作を無効にすることもできます。  通知は、オンプレミスバージョンの Win32 クライアント用にサイレント ダウンロードを使用して構成され、オンプレミスコマンドレット `TeamsUpgradePolicy` を介して制御 `TeamsUpgradeConfiguration` されます。
+2015 Skype for Business Server CU8 および 2019 Skype for Business Serverのオンプレミス管理ツールを使用すると、オンプレミスのSkype for Businessユーザーに Teams への移行を通知できます。 これらの通知を有効にすると、ユーザーのSkype for Business クライアント (Win32、Mac、Web、モバイル) に次のように通知が表示されます。 ユーザーが [ **試してみる** ] ボタンをクリックすると、Teams クライアントがインストールされている場合は起動されます。それ以外の場合、ユーザーはブラウザーで Web バージョンの Teams に移動されます。 既定では、通知が有効になっている場合、Win32 Skype for Business クライアントは、ユーザーを TeamsOnly モードに移行する前にリッチ クライアントを使用できるように、クライアントが自動的に Teams クライアントをダウンロードします。 ただし、この動作を無効にすることもできます。  通知はオンプレミス バージョンの `TeamsUpgradePolicy`バージョンを使用して構成され、Win32 クライアントのサイレント ダウンロードはオンプレミス `TeamsUpgradeConfiguration` コマンドレットを使用して制御されます。
 
-> [!TIP]
-> 一部のサーバーでは、CU8 を使用して 2015 年 2015 年Skype for Business再起動する必要があります。
 
-![今後の移行の通知をTeams。](../media/teams-upgrade-notification.png)
+![Teams への今後の移行の通知。](../media/teams-upgrade-notification.png)
 
-すぐに Teams にアップグレードされる予定のオンプレミス ユーザーに通知するには、NotifySfBUsers=true を使用して TeamsUpgradePolicy の新しいインスタンスを作成します。 次に、ポリシーをユーザーに直接割り当てるか、サイト、プール、またはグローバル レベルでポリシーを設定して、通知するユーザーにポリシーを割り当てる。 次のコマンドレットは、ユーザー レベルのポリシーを作成して付与します。
+間もなく Teams にアップグレードされることをオンプレミスのユーザーに通知するには、NotifySfBUsers=true を使用して TeamsUpgradePolicy の新しいインスタンスを作成します。 次に、ポリシーをユーザーに直接割り当てるか、サイト、プール、またはグローバル レベルでポリシーを設定して、通知するユーザーにそのポリシーを割り当てます。 次のコマンドレットは、ユーザー レベルのポリシーを作成して付与します。
 
 ```powershell
 New-CsTeamsUpgradePolicy -Identity EnableNotifications -NotifySfbUser $true
 Grant-CsTeamsUpgradePolicy -Identity username@contoso.com -PolicyName EnableNotifications
 ```
 
-Teams Win32 クライアントSkype for Businessの自動ダウンロードは、DownloadTeams パラメーターを使用して、オンプレミスの TeamsUpgradeConfiguration コマンドレットを介して制御されます。 この構成は、グローバル レベル、サイト レベル、およびプール レベルで作成します。 たとえば、次のコマンドは、サイト Redmond1 の構成を作成します。
+Skype for Business Win32 クライアントを使用した Teams の自動ダウンロードは、DownloadTeams パラメーターを使用してオンプレミスの TeamsUpgradeConfiguration コマンドレットを使用して制御されます。 この構成は、グローバル、サイト、プール レベルで作成します。 たとえば、次のコマンドを実行すると、サイト Redmond1 の構成が作成されます。
 
 ```powershell
 New-CsTeamsUpgradeConfiguration -Identity "site:redmond1"
 ```
 
-既定では、DownloadTeams の値は True です。ただし、指定した *ユーザーに* 対して NotifySfbUser = True の場合にのみ適用されます。
+既定では、DownloadTeams の値は True です。ただし、特定のユーザーに対して NotifySfbUser = True の場合 *にのみ* 適用されます。
 
 ## <a name="see-also"></a>関連項目
 

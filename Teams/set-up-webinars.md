@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams でのウェビナーのセットアップ
-author: CarolynRowe
-ms.author: crowe
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.reviewer: sachung, emryan
 ms.topic: article
@@ -18,13 +18,13 @@ ms.custom: ''
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
-description: Teams会議のウェビナー ポリシーを管理する方法について説明します。
-ms.openlocfilehash: 247d5c560075dfd0498ea76b476d5515d0fc6f07
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+description: Teams 会議のウェビナー ポリシーを管理する方法について説明します。
+ms.openlocfilehash: 26863b26f960b50d81fa1d98090c3616d5b492a7
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045706"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706484"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Microsoft Teams でのウェビナーのセットアップ
 
@@ -37,33 +37,33 @@ ms.locfileid: "66045706"
 組織内でウェビナーを設定した後、ユーザーはウェビナーをスケジュールし、出席者に登録を開くことができます。 多くのディスカッションやタスクの割り当てを含む従来の会議とは異なり、ウェビナーは対話型のプレゼンテーションを目的とし、出席者分析用のツールを提供します。
 
 > [!IMPORTANT]
-> ユーザーがウェビナーを設定できるようにするには、個人用リストの作成を有効にしてSharePointでMicrosoft Listsを構成する必要があります。 詳細については、「[Microsoft Listsの制御設定」を](/sharepoint/control-lists)参照してください。
+> ユーザーがウェビナーを設定できるようにするには、個人用リストの作成を有効にして SharePoint でMicrosoft Listsを構成する必要があります。 詳細については、「[Microsoft Listsの制御設定」を](/sharepoint/control-lists)参照してください。
 
-## <a name="allow-users-to-schedule-webinars-in-the-teams-admin-center"></a>Teams管理センターでウェビナーをスケジュールできるようにする
+## <a name="allow-users-to-schedule-webinars-in-the-teams-admin-center"></a>Teams 管理センターでユーザーがウェビナーをスケジュールできるようにする
 
-Teams管理センターを使用して、組織のウェビナーを設定できます。 ウェビナーを設定するポリシーは、会議の会議ポリシーの下にあるTeams管理センター > **にあります。**
+Teams 管理センターを使用して、組織のウェビナーを設定できます。 Teams 管理センターの [会議のポリシー] の下に、ウェビナーを設定 **する****ポリシーがあります** > 。
 
 ### <a name="meeting-registration"></a>会議の登録
 
 これを有効にすると、ユーザーはウェビナーをスケジュールできます。 既定では、これはオンになっています。 会議の登録を無効にする場合は、このポリシーを **[オフ]** に設定します。
 
 > [!IMPORTANT]
-> 会議の登録を機能させるには、プライベート会議の **スケジュール設定** をオンにする必要があります。 既定では、このポリシーはTeams管理センターで有効になっています。 教育機関テナントの学生の場合、このポリシーは既定で無効になっています。 学生のプライベート会議のスケジュール設定を有効にする方法の詳細については、「[Microsoft Teams for Education ポリシーとポリシー パッケージ](policy-packages-edu.md)」を参照してください。
+> 会議の登録を機能させるには、プライベート会議の **スケジュール設定** をオンにする必要があります。 既定では、このポリシーは Teams 管理センターで有効になっています。 教育機関テナントの学生の場合、このポリシーは既定で無効になっています。 学生のプライベート会議のスケジュール設定を有効にする方法の詳細については、「[Microsoft Teams for Education ポリシーとポリシー パッケージ](policy-packages-edu.md)」を参照してください。
 
 ### <a name="who-can-register"></a>登録できるユーザー
 
 **[すべての** ユーザー] を選択すると、匿名ユーザーを含むすべてのユーザーがウェビナーに登録して参加できます。 **[組織内のすべてのユーザー**] を選択した場合、組織内のユーザーのみがウェビナーに登録できます。 会議の登録がオフになっている場合、このオプションは使用できず、ウェビナーに登録することはできません。
 
 > [!NOTE]
-> **登録できるWho** の既定値は、教育機関テナント **内の組織内のすべてのユーザー** です。 詳細については、「[Microsoft Teams for Education ポリシー ウィザード](easy-policy-setup-edu.md)」を参照してください。
+> [ **登録できるユーザー]** の既定値は、教育機関テナント **内の組織内のすべてのユーザー** です。 詳細については、「[Microsoft Teams for Education ポリシー ウィザード](easy-policy-setup-edu.md)」を参照してください。
 
 ### <a name="engagement-report"></a>エンゲージメント レポート
 
-これがオンの場合、開催者は、設定したウェビナーを登録して参加したユーザーのレポートを表示できます。 このポリシーは既定でオンになっています。 詳細については、「[Teams - エンゲージメント レポートの会議ポリシー](meeting-policies-in-teams-general.md#engagement-report)」を参照してください。 エンド ユーザー エクスペリエンスの詳細については、「 [会議出席レポートの表示とダウンロード](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US)」を参照してください。
+これがオンの場合、開催者は、設定したウェビナーを登録して参加したユーザーのレポートを表示できます。 このポリシーは既定でオンになっています。 詳細については、「 [Teams - エンゲージメント レポートの会議ポリシー](meeting-policies-in-teams-general.md#engagement-report)」を参照してください。 エンド ユーザー エクスペリエンスの詳細については、「 [会議出席レポートの表示とダウンロード](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US)」を参照してください。
 
 ## <a name="allow-users-to-schedule-webinars-using-powershell"></a>ユーザーが PowerShell を使用してウェビナーをスケジュールできるようにする
 
-Windows PowerShell **Set-CsTeamsMeetingPolicy** コマンドレット内で次の属性を使用して、Teamsのウェビナー用に設定できます。
+Windows PowerShell **Set-CsTeamsMeetingPolicy** コマンドレット内で次の属性を使用して、Teams のウェビナー用に設定できます。
 
 - AllowMeetingRegistration
 - WhoCanRegister
@@ -72,7 +72,7 @@ Windows PowerShell **Set-CsTeamsMeetingPolicy** コマンドレット内で次�
 コマンドレットの詳細については、 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) を参照してください。
 
 > [!NOTE]
-> これらのコマンドレットを実行する前に、powerShell Microsoft Teamsに接続する必要があります。 詳細については、「[Microsoft Teams PowerShell を使用したTeamsの管理](/microsoftteams/teams-powershell-managing-teams)」を参照してください。
+> これらのコマンドレットを実行する前に、Microsoft Teams PowerShell に接続する必要があります。 詳細については、「 [Microsoft Teams PowerShell を使用した Teams の管理」を参照](/microsoftteams/teams-powershell-managing-teams)してください。
 
 ### <a name="allow-users-to-schedule-webinars"></a>ユーザーがウェビナーをスケジュールできるようにする
 
@@ -108,7 +108,7 @@ Set-CsTeamsMeetingPolicy -WhoCanRegister Everyone
 ```
 
 > [!CAUTION]
-> 会議の設定で匿名参加が無効になっている場合、匿名ユーザーはウェビナーに参加できません。 詳細を確認し、この設定を有効にするには、[Teamsの会議設定に](meeting-settings-in-teams.md)関するページを参照してください。
+> 会議の設定で匿名参加が無効になっている場合、匿名ユーザーはウェビナーに参加できません。 詳細を確認し、この設定を有効にするには、 [Teams の会議設定に関するページを](meeting-settings-in-teams.md)参照してください。
 
 ### <a name="collect-meeting-attendance"></a>会議出席を収集する
 
@@ -124,6 +124,6 @@ Set-CsTeamsMeetingPolicy -AllowEngagementReport Disabled
 
 ## <a name="related-topics"></a>関連項目
 
-- [Teamsの会議ポリシー - 全般](meeting-policies-in-teams-general.md)
+- [Teams の会議ポリシー - 全般](meeting-policies-in-teams-general.md)
 - [Set-CsTeamsMeetingPolicy のドキュメント](/powershell/module/skype/set-csteamsmeetingpolicy)
 - [Microsoft Teams for Education ポリシー ウィザード](easy-policy-setup-edu.md)

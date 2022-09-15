@@ -19,12 +19,12 @@ description: Teams アプリを管理する方法について説明します。 
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: ca49ca15b026048d2c495d30a51eac0f809244b5
-ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
+ms.openlocfilehash: 3278d7cdbc144f839bbb6a675ff8f3e5168c80ed
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "67637050"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67705826"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターで Teams アプリを管理する
 
@@ -93,7 +93,7 @@ Teams 管理センターの [[アプリの管理]](https://admin.teams.microsoft
 
 :::image type="content" source="media/blocked-by-publisher.png" alt-text="Teams 管理センターの発行元の状態によってブロックされていることを示すスクリーンショット。":::
 
-開発者が既定でアプリをブロックする方法については、「[管理者が承認するまでアプリを非表示にする](/microsoftteams/platform/concepts/design/enable-app-customization#hide-teams-app-until-admin-approves)」を参照してください。
+開発者がアプリを既定でブロックする方法については、「管理者が許可 [するまでアプリをブロックできるようにする](/microsoftteams/platform/concepts/design/enable-app-customization#hide-teams-app-until-admin-approves)」を参照してください。
 
 ## <a name="manage-org-wide-app-settings"></a>組織全体のアプリ設定の管理
 

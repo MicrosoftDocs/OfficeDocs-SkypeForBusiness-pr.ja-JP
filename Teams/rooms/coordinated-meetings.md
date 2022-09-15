@@ -14,12 +14,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 一方のデバイスまたは他のデバイスが会議に参加するときに会議に参加するように、Teams Rooms デバイスと Surface Hub を構成します。
-ms.openlocfilehash: f34e3637c9c9716c6f8ec87865c3c570820a0357
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 759574015f2138476e0b03ef6fa85b8b105d81ef
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270482"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706984"
 ---
 # <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>Microsoft Teams Roomsと Surface Hub を使用して座標会議を設定する
 
@@ -73,7 +73,7 @@ Teams Rooms デバイスと Surface Hubs の UPN を取得するには、次の�
 | **ビデオが有効になっている**      | 会議の参加者がカメラのオンとオフを切り替えることができるかどうかを決定します。 参加者が、Surface Hub ホワイトボードを使用している場合など、イベント参加者が別のデバイスで`true`に設定することができるようにします。 参加者がデバイスでカメラのオンとオフを切り替えることができないようにする場合は、`false`に設定します。<p> **ビデオの既定値** が設定`true`されている場合、この設定は無視され、参加者はカメラのオンとオフを切り替えることができます。         |
 | **ホワイトボードの既定値** | Teams Rooms デバイスに、会議参加者の 1 人が共有するホワイトボードを表示するかどうかを決定します。 Surface Hub をお持ちでない場合は、`true`これを`false`設定することをお勧めします。 この設定は Surface Hubs には影響しません。 Surface Hubs には、会議参加者が共有するホワイトボードが常に表示されます。         |
 | **ホワイトボードが有効になっている** | 会議の参加者がホワイトボードのオンとオフを切り替えることができるかどうかを決定します。 参加者がデバイスでホワイトボードのオンとオフを切り替えることができないようにする場合は、`false`に設定します。 <p>**ホワイトボードの既定値** が設定`true`されている場合、この設定は無視され、参加者はホワイトボードのオンとオフを切り替えることができます。
-| **信頼されたアカウント**   | これは、それぞれの Teams ミーティング デバイスまたは Surface Hub 用の UPN をカンマで区切ったリストで、デバイスが会議への参加依頼を承諾するか、または送信する必要があるかを指定します。 |
+| **信頼されたアカウント**   | これは、デバイスが会議参加要求を受け入れる必要があるTeams Roomsデバイスまたは Surface Hub ごとに、または会議参加要求を送信する必要がある UPN のコンマ区切りの一覧です。 |
 
 その後の列で、各Teams Rooms デバイスと Surface Hubs を追加します。 各列に、会議室に必要なエクスペリエンスに対応する値を入力します。 1 つのTeams Rooms デバイスと 1 つの Surface Hub の例を次に示します。
 

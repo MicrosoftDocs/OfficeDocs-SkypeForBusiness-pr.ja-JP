@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams Roomsでの認証
+title: Windows 上のMicrosoft Teams Roomsでの認証
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
@@ -14,15 +14,15 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Rooms
-description: Microsoft Teams Roomsの先進認証を構成する方法について説明します
-ms.openlocfilehash: ef576c2d785f3e3fb16afd42e6136b607711c28b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+description: Windows でMicrosoft Teams Roomsの先進認証を構成する方法について説明します
+ms.openlocfilehash: 23e08b48c5d161caf8091068abc4c9cda0061122
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268242"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706434"
 ---
-# <a name="authentication-in-microsoft-teams-rooms"></a>Microsoft Teams Roomsでの認証
+# <a name="authentication-in-microsoft-teams-rooms-on-windows"></a>Windows 上のMicrosoft Teams Roomsでの認証
 
 Microsoft Teams Roomsのアカウント管理は、アプリケーション レベルで処理されます。 アプリケーションは Microsoft Teams、Skype for Business、および Exchange に接続して、リソース アカウントのリソースを取得して、通話と会議のエクスペリエンスを有効にします。 Teams Roomsでは、専用のリソース アカウントを使用して、常時オン機能、通話シナリオ (通話プランで構成されたデバイスの場合)、カスタム ロックダウン メカニズムを許可します。 つまり、Teams Roomsの認証は、エンド ユーザー デバイスとは異なる方法で行われます。  
 
