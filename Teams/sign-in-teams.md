@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams にサイン インする
+title: サインインの制限やサインインの動作など、さまざまなテクノロジが Microsoft Teams のサインオンに与える影響。
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: anwara
-description: 先進認証のしくみ、アカウントの切り替え方法、先進認証のトラブルシューティングについて説明します。 サインイン時に、事前入力されているユーザーの名前 (UPN) を無視するように Teams に指示する方法についても説明します。
+description: シングル サインオンや先進認証などのテクノロジが、iOS、Android、macOS、PC でのサインイン動作にどのように影響するかを説明します。 多くのアカウントを持つチームを使用し、サインインを制限する方法。 サインイン時に、事前入力されているユーザーの名前 (UPN) を無視するように Teams に指示する方法についても説明します。
 ms.custom: seo-marvel-apr2020
 ms.localizationpriority: high
 ms.collection:
@@ -17,26 +17,34 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6fb93bf7f8e3278ba4fba16604769c6f8f10e36
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: c37d9fd2140aaae9ccce443c81c537dcfb92305e
+ms.sourcegitcommit: 0181a62c8d5a3f5b28fbb5a15645f0e82a1b8f35
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681608"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "67734611"
 ---
-# <a name="sign-in-to-microsoft-teams"></a>Microsoft Teams にサイン インする
+# <a name="how-different-technologies-effect-microsoft-teams-sign-on"></a>さまざまなテクノロジが Microsoft Teams のサインオンに与える影響
 
-## <a name="windows-users"></a>Windows ユーザー
+シングル サインオン (SSO)、先進認証 (MS)、多要素認証 (MA) などのテクノロジがユーザーのサインインエクスペリエンスにどのような影響を与えるかを理解する必要がある場合、この記事は、ユーザーと管理者が期待できる表示内容を明確にするのに役立ちます。 また、macOS、android、および iOS デバイスのログイン動作、複数のアカウントを使用したログインのしくみ、ログイン画面で自動的に入力された資格情報または "事前入力" を削除する方法、およびサインオンを制限する方法についても説明します。
+
+ログイン中に Microsoft Team の予想される動作をロールで把握する必要がある場合は、この記事をブックマークします。
+
+## <a name="microsoft-teams-and-windows-users-sign-in-recommendations"></a>Microsoft Teams と Windows ユーザー: サインインに関する推奨事項
 
 Microsoft は、組織が ハイブリッド ドメイン参加構成か Azure AD 参加構成のいずれかで Windows 10 の最新バージョンを使用することを推奨しています。 最新バージョンの使用によって、Windows の Web アカウント マネージャーでユーザーのアカウントが準備され、Teams や他の Microsoft アプリケーションへのシングル サインオンが可能になります。 シングルサインオンにより、ユーザー エクスペリエンス (サイレント サインイン) と、セキュリティ対策が改善されます。
 
 Microsoft Teams は先進認証を使用して、サインイン操作をシンプルかつ安全なものとしています。 ユーザーが Teams にサインインする方法については、「[Teams にサインインする](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055)」を参照してください。
 
-### <a name="how-modern-authentication-works"></a>先進認証のしくみ
+### <a name="how-modern-authentication-ma-effects-your-sign-in-what-users-will-see-when-ma-is-on"></a>先進認証 (MA) がサインインに及ぼす影響: MA がオンのときにユーザーに表示される内容
 
-先進認証とは、ユーザーが資格情報 (職場のメールやパスワードなど) を既に別の場所に入力したことを Teams に知らせ、ユーザーが資格情報を再度入力することを要求されることなくアプリを起動できるようにするためのプロセスです。 ユーザーが Windows を使用しているのか Mac を使用しているのかなど、いつくかの要因によってエクスペリエンスは異なります。 また、組織が単要素認証を有効にしているか多要素認証を有効にしているかによっても異なります。 多要素認証を使用するには通常、電話による資格情報の確認、固有のコードの提供、PIN の入力、拇印の提示が含まれます。 以下は、それぞれの先進認証シナリオの簡単な説明です。
+先進認証は、他の場所でユーザーが既に資格情報 (職場のメールやパスワードなど) を入力していることを Teams に知らせるプロセスの一部であり、アプリを起動するためにもう一度入力する必要はありません。 エクスペリエンスは、ユーザーが Windows オペレーティング システムや Mac で作業している場合など、いくつかの要因によって異なります。
+
+サインインの動作は、組織が単一要素認証または多要素認証を有効にしているかどうかによっても異なります。 多要素認証を使用するには通常、電話による資格情報の確認、固有のコードの提供、PIN の入力、拇印の提示が含まれます。 
 
 先進認証は、Teams を使用するすべての組織で使用できます。 ユーザーがプロセスを完了できない場合は、組織の Azure AD 構成に根底の問題がある可能性があります。 詳細については、「[Microsoft Teams へのサインインで問題が発生する理由](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)」を参照してください。
+
+ここでは、各最新の認証シナリオでユーザーが期待できる動作の概要を示します。
 
 - ユーザーが自分の職場または学校アカウントを使用して、すでに Windows や別の Office アプリにサインインしている場合、ユーザーが Teams を起動すると、直ちにアプリに移動します。資格情報の入力は不要です。
 
@@ -46,7 +54,7 @@ Microsoft Teams は先進認証を使用して、サインイン操作をシン�
 
 - ドメインに参加しているコンピューターにユーザーがサインインして、Teams を起動すると、MFA を要求するように組織で選択しているか、またはコンピューターへのサインインで既に MFA が要求されているかにより、もう 1 つ追加の認証手順を実行するよう求められる場合があります。
 
-- ドメインに参加している PC では、SSO が利用できない場合に、Teams がログイン画面にユーザー プリンシパル名 (UPN) を事前に入力しておく場合があります。 特に組織がオンプレミスと Azure Active Directory で異なる UPN を使用している場合に、これを必要としない場合もあります。 その場合には、次の Windows レジストリ キーを使用して、UPN の事前設定をオフにすることができます。
+- ドメインに参加している PC では、SSO が不可能な場合、Teams はログイン画面にユーザー プリンシパル名 (UPN) を事前入力できます。 特に組織がオンプレミスと Azure Active Directory で異なる UPN を使用している場合に、これを必要としない場合もあります。 このような場合は、 **次の Windows レジストリ キーを使用して UPN の事前作成を無効にすることができます**。
 
   Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams<br/>
   SkipUpnPrefill(REG_DWORD)<br/>
@@ -55,15 +63,15 @@ Microsoft Teams は先進認証を使用して、サインイン操作をシン�
     > [!NOTE]
     > 「.local」 または 「.corp」 で終わるユーザー名については、ユーザー名の事前入力のスキップは既定でオンになっているため、レジストリ キーを設定してオフにする必要はありません。
 
-### <a name="signing-in-to-another-account-on-a-domain-joined-computer"></a>ドメインに参加しているコンピューター上の別のアカウントにサイン インする
+### <a name="microsoft-teams-sign-on-to-another-account-on-a-domain-joined-computer"></a>Microsoft Teams がドメイン参加済みコンピューター上の別のアカウントにサインオンする
 
 ドメインに参加しているコンピューターのユーザーが、同じ Active Directory ドメイン内の別のアカウントを使用して Teams にサイン インできない場合があります。
 
-## <a name="macos-users"></a>MacOS ユーザー
+## <a name="macos-users-and-microsoft-teams-sign-on-prompts"></a>macOS ユーザーと Microsoft Teams のサインオン プロンプト
 
 MacOS 上では、Teams はユーザーにユーザー名と資格情報の入力を促し、組織の設定によっては多要素認証を促す場合もあります。 ユーザーが資格情報を入力すると、入力を再度求められることはありません。 これ以降、ユーザーが同じコンピューターで作業している場合は常に、Teams が自動的に起動します。
 
-## <a name="teams-on-ios-and-android-users"></a>iOS と Android の Teams ユーザー
+## <a name="microsoft-teams-sign-on-for-ios-and-android-users"></a>iOS および Android ユーザー向けの Microsoft Teams のサインオン
 
 サインインすると、モバイルユーザーには、デバイス上で現在サインインしているまたは以前にサインインしたすべての Microsoft 365 アカウントの一覧が表示されます。 ユーザーは、任意のアカウントをタップしてサインインできます。 モバイル サインインには2つのシナリオがあります:
 
@@ -74,7 +82,7 @@ MacOS 上では、Teams はユーザーにユーザー名と資格情報の入�
 > [!NOTE]
 > ユーザーがこのセクションで説明するサインオン エクスペリエンスを体験するには、デバイスで iOS バージョン 2.0.13 (ビルド 2020061704) 以降の Teams、または Android バージョン 1416/1.0.0.2020061702 以降の Teams を実行している必要があります。
 
-## <a name="using-teams-with-multiple-accounts"></a>複数のアカウントを使っての Teams の使用
+## <a name="using-microsoft-teams-with-multiple-sign-in-accounts"></a>複数のサインイン アカウントで Microsoft Teams を使用する
 
 IOS と Android の Teams では、複数の仕事用または学校用、および複数の個人用アカウントを並べて使うことができます。 Teams のデスクトップ  アプリケーションでは1 つの職場または学校のアカウントと 1 つの個人用のアカウントが2020 年 12 月にはサポートされていますが、後日複数の職場/学校のアカウントをサポートできるようになります。
 
@@ -82,11 +90,11 @@ IOS と Android の Teams では、複数の仕事用または学校用、およ
 
 :::image type="content" source="media/sign-in-multiple-accounts.png" alt-text="Teams で複数のアカウントを追加します。":::
 
-## <a name="restrict-sign-in-to-teams"></a>Teams へのサイン インを制限する
+## <a name="restrict-sign-in-to-microsoft-teams"></a>Microsoft Teams へのサインインを制限する
 
 組織は、組織が承認したアプリケーションを管理されたデバイで使用する方法を制限しようとする場合があります。たとえば、学生や従業員が他の組織のデータにアクセスするのを制限したり、組織が承認したアプリを個人の目的で使用するのを制限できるようにする場合があります。 これらの制限は、Teams アプリケーションが認識するデバイスポリシーを設定することによって設定できます。
 
-### <a name="how-to-restrict-sign-in-on-mobile-devices"></a>モバイル デバイスでのサイン インを制限する方法
+### <a name="how-to-restrict-microsoft-teams-sign-in-on-mobile-devices"></a>モバイル デバイスで Microsoft Teams のサインインを制限する方法
 
 iOS と Android の Teams は、IT 管理者に、アカウント構成を Microsoft 365 アカウントに配布する機能を提供します。 この機能は、iOS の[管理対象アプリ構成](https://developer.apple.com/library/archive/samplecode/sc2279/Introduction/Intro.html) チャネルまたは Android の[Android Enterprise](https://developer.android.com/work/managed-configurations) チャネルを使用するすべてのモバイル デバイス管理 （MDM）プロバイダーで機能します。
 
@@ -108,9 +116,9 @@ MDM プロバイダーでアカウント セットアップ構成が構成され
 
 管理対象の Android デバイスのアプリ構成ポリシーを作成するには、「[管理対象の Android デバイスのアプリ構成ポリシーの追加](/mem/intune/apps/app-configuration-policies-use-android)」を参照してください。
 
-### <a name="how-to-restrict-sign-in-on-desktop-devices"></a>デスクトップ デバイスでのサイン インを制限する方法
+### <a name="how-to-restrict-teams-sign-in-on-desktop-devices"></a>デスクトップ デバイスで Teams のサインインを制限する方法
 
-Windows および MacOS の Teams アプリは、組織へのサインインを制限するデバイス ポリシーのサポートを受けています。 ポリシーは、MDM (モバイル デバイス管理) や GPO (グループ ポリシー オブジェクト) などの通常のデバイス管理ソリューションで設定できます。 
+Windows および macOS 上の Microsoft Teams アプリでは、組織へのサインインを制限するデバイス ポリシーのサポートが強化されています。 ポリシーは、MDM (モバイル デバイス管理) や GPO (グループ ポリシー オブジェクト) などの通常のデバイス管理ソリューションで設定できます。
 
 このポリシーがデバイスに構成されている場合、ユーザーは、ポリシーで定義されている "テナントの許可リスト" に含まれている Azure AD テナントを使用しているアカウントでのみサインインできます。 ポリシーは、最初のアカウントと追加のアカウントを含むすべてのサイン インに適用されます。 組織が複数の Azure AD テナントにまたがる場合、許可リストに複数のテナント ID を含めることができます。 別のアカウントを追加するためのリンクは、引き続き Teams アプリに表示される場合がありますが、操作はできません。
 
@@ -137,13 +145,13 @@ Windows および MacOS の Teams アプリは、組織へのサインインを�
 - データ型: 文字列
 - コメント: Azure AD テナント ID のコンマ区切りのリストを入力します。
 
-### <a name="global-sign-in"></a>グローバルなサイン インとサイン アウト
+### <a name="global-sign-in-and-microsoft-teams"></a>グローバル サインインと Microsoft Teams
 
 Teams Android アプリは、グローバルなサインインとサインアウトをサポートするようになり、現場担当者は手間なくサインインとサインアウトができるようになりました。 従業員は、共有デバイスプールからデバイスを選択し、1回サインインするだけで、シフト中は"自分のものにする" ということができます。 これらのユーザーは、シフトの最後に、サインアウトすると、デバイスに対してグローバルにサイン アウトできます。 詳細については、[「Teams をサインアウトする」](sign-out-of-teams.md)を参照してください。 これにより、デバイスから個人情報と会社情報がすべて削除され、デバイスがデバイスプールに返されます。 この機能を利用するには、デバイスを shared モードにする必要があります。 サインアウトする前に、アクティブな会議を終了するか、デバイスに電話をかけてください。共有デバイスの設定方法については、「[Android で共有デバイス モードを使用する方法](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode)」をご覧ください。
 
 サインインエクスペリエンスは、Teams の標準的なサインイン操作と似ています。
 
-## <a name="urls-and-ip-address-ranges"></a>URL と IP アドレスの範囲
+## <a name="urls-and-ip-address-ranges-for-microsoft-teams"></a>Microsoft Teams の URL と IP アドレス範囲
 
 Teams を使用するには、インターネットへの接続が必要です。Office 365 の各プラン、政府機関向けまたはその他のクラウド用の Teams を使用するユーザーが到達可能なエンドポイントについては、「[Office 365 の URL と IP アドレスの範囲](/office365/enterprise/urls-and-ip-address-ranges)」を参照してください。
 
