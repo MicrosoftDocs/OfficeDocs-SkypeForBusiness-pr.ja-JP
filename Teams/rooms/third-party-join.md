@@ -14,12 +14,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: この記事では、Cisco Webex と Zoom へのサード パーティ会議への参加をサポートするように組織とTeams Rooms デバイスを構成する方法について説明します。
-ms.openlocfilehash: 1cbcd54983c9122467fbf133cc97b2c189857c96
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 70d2cf03dea3fcfef3d08c07f4f771bd8a2ea70e
+ms.sourcegitcommit: 89e3681a88f06a9c6860d9eaea598e57b928b68a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268202"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "67794996"
 ---
 # <a name="enable-teams-rooms-devices-to-join-third-party-meetings"></a>Teams Rooms デバイスがサード パーティの会議に参加できるようにする
 
@@ -27,12 +27,15 @@ Microsoft Teams Rooms デバイスは、ダイレクト ゲスト参加とも呼
 
 サポートされているデバイスとサービス:
 
-- Windows 上の MRT、すべての認定モデル – Zoom、Cisco Webex
+- Windows 上のTeams Rooms、すべての認定モデル – Zoom、Cisco Webex
 
-- Android、Poly、Yealink、および Logitech 認定モデルの MRT - Zoom
+- Android 上のTeams Rooms、すべての認定モデル – Zoom、Cisco Webex
+
+    > [!NOTE]
+    > Microsoft では、Android でTeams Roomsの新機能を定期的にリリースしています。 ただし、機能がリリースされたときと、デバイスで利用できるようになるまでの間に遅延が生じる可能性があります。 デバイスで機能が利用できない場合は、デバイスの製造元に問い合わせて、いつ利用可能になるかを確認してください。
 
 > [!NOTE]
-> Teams Rooms デバイスから Cisco Webex 会議に参加するには、Cisco Webex Web アプリケーション バージョン WBS 40.7 以降を使用して、Cisco 会議を Webex Meetings Pro でホストする必要があります。 
+> Teams Rooms デバイスから Cisco Webex 会議に参加するには、Cisco Webex Web アプリケーション バージョン WBS 40.7 以降を使用して、Cisco 会議を Webex Meetings Pro でホストする必要があります。
 
 Teams Roomsからサード パーティの会議に参加するには、次の操作を行う必要があります。
 

@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams の共有チャネルを使用および管理する方法について説明します。
-ms.openlocfilehash: 323d20c152af9595b6a738f917103a59ab4142ef
-ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
+ms.openlocfilehash: 378088e4b1f12aee3d71f11fb54aacec8a0ca138
+ms.sourcegitcommit: 89e3681a88f06a9c6860d9eaea598e57b928b68a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "67647551"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "67795076"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams の共有チャネル
 
@@ -174,6 +174,7 @@ Teams は、共有チャネル サイトのライフ サイクルを管理しま
 - アクティビティ
 - Adobe Acrobat Sign
 - Asana
+- カレンダー Pro
 - 通話
 - チャット
 - Vivani によるコード

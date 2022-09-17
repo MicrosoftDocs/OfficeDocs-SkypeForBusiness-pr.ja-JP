@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e468622d4aac30756e54127072045831374c5425
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: 0e0b9c5a7ffef07a1d9245d2b1266a071b4ee0c2
+ms.sourcegitcommit: 89e3681a88f06a9c6860d9eaea598e57b928b68a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418646"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "67795056"
 ---
 # <a name="overview-of-loop-components-in-teams"></a>Teams のループ コンポーネントの概要
 
@@ -82,7 +82,7 @@ Office.com で Teams チャットからコンポーネントを開くと、他�
 
 - Teams メッセージング内の作成/挿入エントリ ポイントは非表示になります。 ユーザーは新しい .fluid ファイルを作成できません。
 - 以前は対話型ループ コンポーネントとしてレンダリングされた既存のメッセージは、代わりにハイパーリンク "ループ コンポーネント" としてレンダリングされます。 Teams 内に対話型コンテンツは表示されません。
-- エンド ユーザーが "ループ コンポーネント" ハイパーリンクをクリックするか、OneDrive for Businessの .fluid ファイルを参照して開くと、別のブラウザー タブでファイルが開きますが、エンドユーザーはファイルを編集できません。
+- エンド ユーザーが "ループ コンポーネント" ハイパーリンクをクリックするか、OneDrive for Businessの .fluid ファイルを参照して開くと、別のブラウザー タブでファイルが開きます。エンドユーザーは引き続きファイルを編集できます。
 
 ## <a name="known-issues"></a>既知の問題
 
