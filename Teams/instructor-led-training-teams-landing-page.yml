@@ -1,20 +1,20 @@
 ### YamlMime:Hub
-title: Microsoft Teamsのエンドユーザー トレーニング
-summary: Microsoft では、Teams を使いこなすための無料のライブ オンライン トレーニング クラスのシリーズを主催いたします。 ビジネス意思決定者、管理者、IT プロフェッショナルであれ、エンド ユーザーであれ、最適なクラスが用意されています。 Microsoft Teamsの動作を確認し、質問に回答を得て、ライブ インストラクターと対話してください。 トレーニング クラスを自分の時間に表示するには、オンデマンドのエンド ユーザー トレーニングを参照してください。 以下のセッションをクリックしてサインアップしてください。
+title: Microsoft Teams のエンド ユーザー トレーニング
+summary: Microsoft では、Teams を使いこなすための無料のライブ オンライン トレーニング クラスのシリーズを主催いたします。 ビジネス意思決定者、管理者、IT プロフェッショナルであれ、エンド ユーザーであれ、最適なクラスが用意されています。 Microsoft Teams の動作を確認し、質問に回答を得て、ライブ インストラクターと対話してください。 トレーニング クラスを自分の時間に表示するには、オンデマンドのエンド ユーザー トレーニングを参照してください。 以下のセッションをクリックしてサインアップしてください。
 brand: teams
 metadata:
-  title: Microsoft Teamsのエンドユーザー トレーニング
-  description: Microsoft は、Teamsを使用して実行できるように設計された無料のライブの仮想トレーニング クラスを提供できることを楽しみにしています。 ビジネス意思決定者、管理者、IT プロフェッショナルであれ、エンド ユーザーであれ、最適なクラスが用意されています。 Microsoft Teamsの動作を確認し、質問に回答を得て、ライブ インストラクターと対話してください。 以下のセッションをクリックしてサインアップし、さらに下のコースを確認してください。
+  title: Microsoft Teams のエンド ユーザー トレーニング
+  description: Microsoft は、Teams を使用して実行できるように設計された無料のライブの仮想トレーニング クラスを提供できることを楽しみにしています。 ビジネス意思決定者、管理者、IT プロフェッショナルであれ、エンド ユーザーであれ、最適なクラスが用意されています。 Microsoft Teams の動作を確認し、質問に回答を得て、ライブ インストラクターと対話してください。 以下のセッションをクリックしてサインアップし、さらに下のコースを確認してください。
   ms.topic: hub-page
   author: SerdarSoysal
   ms.author: samanro
   ms.date: 03/04/2022
-  ms.openlocfilehash: 46873b6611bf4f2c7e8874644ca9d090b55cd99b
-  ms.sourcegitcommit: fe71ecbe35b8adfb9166188923ed1111b3b8e2a1
+  ms.openlocfilehash: 40498cf75e601ae758ebf5d2e29371c3311f0558
+  ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 03/09/2022
-  ms.locfileid: "63388089"
+  ms.lasthandoff: 09/19/2022
+  ms.locfileid: "67808738"
 highlightedContent:
   items:
   - title: Microsoft Teams の紹介
@@ -28,52 +28,52 @@ highlightedContent:
     url: https://adoption.microsoft.com
 productDirectory:
   items:
-  - title: Teamsでの通話と会議
-    imageSrc: https://docs.microsoft.com/office/media/icons/chat.svg
-    summary: '通話と会議を使用してリアルタイムで共同作業を行い、接続を維持し、共有コンテンツにいつでもアクセスして学習、計画、イノベーションを行います。 (レベル: Teams基本;対象ユーザー: 全員)'
+  - title: Teams での通話と会議
+    imageSrc: https://learn.microsoft.com/office/media/icons/chat.svg
+    summary: '通話と会議を使用してリアルタイムで共同作業を行い、接続を維持し、共有コンテンツにいつでもアクセスして学習、計画、イノベーションを行います。 (レベル: Teams の基本;対象ユーザー: 全員)'
     url: https://aka.ms/CallingMeetingsTraining
   - title: Teams でチームとチャネルを確認する
-    imageSrc: https://docs.microsoft.com/office/media/icons/users-group.svg
-    summary: 'チームとチャネルの価値と、それらが仮想ワークスペースまたはグループ全体での共同作業にどのように役立つかを理解します。 (レベル: Teams基本;対象ユーザー: 全員)'
+    imageSrc: https://learn.microsoft.com/office/media/icons/users-group.svg
+    summary: 'チームとチャネルの価値と、それらが仮想ワークスペースまたはグループ全体での共同作業にどのように役立つかを理解します。 (レベル: Teams の基本;対象ユーザー: 全員)'
     url: https://aka.ms/TeamsChannelsTraining
-  - title: ヒント、ショートカット、およびTeamsの新機能
-    imageSrc: https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg
-    summary: 'Power ユーザーになるためのヒントとショートカットについて説明します。 新機能を確認し、最新の機能に関する専門家の指示を見つけます。 (レベル: Teams基本;対象ユーザー: 全員)'
+  - title: Teams のヒント、ショートカット、新機能
+    imageSrc: https://learn.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg
+    summary: 'Power ユーザーになるためのヒントとショートカットについて説明します。 新機能を確認し、最新の機能に関する専門家の指示を見つけます。 (レベル: Teams の基本;対象ユーザー: 全員)'
     url: https://aka.ms/TeamsProTips
-  - title: Teams会議と共にさらに進む
-    imageSrc: https://docs.microsoft.com/office/media/icons/calendar-teams.svg
-    summary: 'コラボレーション ツール、ブレークアウト ルーム、会議リソースへのアクセスなど、Teams会議やウェビナーの主な機能について説明します。 (レベル: Teams 進む;対象ユーザー: 全員)'
+  - title: Teams 会議と共にさらに進む
+    imageSrc: https://learn.microsoft.com/office/media/icons/calendar-teams.svg
+    summary: 'コラボレーション ツール、ブレークアウト ルーム、会議リソースへのアクセスなど、Teams 会議とウェビナーの主な機能について説明します。 (レベル: Teams はさらに進む;対象ユーザー: 全員)'
     url: https://aka.ms/MeetingsGoFurther
-  - title: アプリを使用してTeamsをカスタマイズする
-    imageSrc: https://docs.microsoft.com/office/media/icons/blocks-teams.svg
-    summary: 'Teamsのアプリ統合が 1 つのユーザー インターフェイスに表示され、従業員が共同作業を向上させる方法を確認します。 (レベル: Teams 進む;対象ユーザー: 全員)'
+  - title: アプリを使用して Teams をカスタマイズする
+    imageSrc: https://learn.microsoft.com/office/media/icons/blocks-teams.svg
+    summary: 'Teams のアプリ統合が 1 つのユーザー インターフェイスにどのように表示され、従業員が共同作業を強化できるかを確認します。 (レベル: Teams はさらに進む;対象ユーザー: 全員)'
     url: https://aka.ms/Teamsappstraining
   - title: ハイブリッド作業ソリューション
-    imageSrc: https://docs.microsoft.com/office/media/icons/hybrid-teams.svg
-    summary: '新しい作業方法に適応すると、接続、セキュリティ保護、生産性を維持できます。 会議、通話、チャット、アプリなどの 1 つの場所で生産性を高める方法について説明します。 (レベル: Teams 進む;対象ユーザー: 全員)'
+    imageSrc: https://learn.microsoft.com/office/media/icons/hybrid-teams.svg
+    summary: '新しい作業方法に適応すると、接続、セキュリティ保護、生産性を維持できます。 会議、通話、チャット、アプリなどの 1 つの場所で生産性を高める方法について説明します。 (レベル: Teams はさらに進む;対象ユーザー: 全員)'
     url: https://aka.ms/HybridWorkTraining
-  - title: Teamsとのコラボレーションを強化する
-    imageSrc: https://docs.microsoft.com/office/media/icons/structure-teams.svg
-    summary: 'チャネル、チャット、コネクテッド アプリを最大限に活用してコミュニケーションを改善し、あらゆる規模のチーム間のコラボレーションを深める方法について説明します。 (レベル: Teams基本;対象ユーザー: 全員)'
+  - title: Teams とのコラボレーションを強化する
+    imageSrc: https://learn.microsoft.com/office/media/icons/structure-teams.svg
+    summary: 'チャネル、チャット、コネクテッド アプリを最大限に活用してコミュニケーションを改善し、あらゆる規模のチーム間のコラボレーションを深める方法について説明します。 (レベル: Teams の基本;対象ユーザー: 全員)'
     url: https://aka.ms/CollaborateInTeams
   - title: Teams for Education - ウェビナー
-    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/education-tutorial-teams.svg
     summary: '高等教育機関で Teams を使用する方法について説明します。 (対象ユーザー: スタッフ、学生、教育関係者、研究教員、IT プロフェッショナル)'
     url: https://aka.ms/TeamsEduWebinars
   - title: アップグレード計画のワークショップ
-    imageSrc: https://docs.microsoft.com/office/media/icons/migration-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/migration-teams.svg
     summary: 'Teams への正常なアップグレードを計画および実装します。 (対象ユーザー: IT プロフェッショナル、導入変更マネージャー)'
     url: https://aka.ms/upgradeworkshops
 additionalContent:
   sections:
   - title: その他のトレーニング
     items:
-    - title: チームワーク スペシャリスト ラーニング パス
-      summary: コラボレーションは、今日の作業に不可欠なスキルです。 Microsoft Teams内の堅牢な機能を使用して、接続を維持し、チームとより効率的に作業できるようにする方法について説明します。
-      url: /learn/paths/teamwork-specialist
-    - title: サービス導入スペシャリストラーニングパス
-      summary: Microsoft サービス導入スペシャリスト ラーニング パスは、Teamsおよびその他のMicrosoft 365 サービスを備えています。 組織内でMicrosoft サービスの導入を推進する方法について説明します。
-      url: /learn/paths/m365-service-adoption
+    - title: チームワーク スペシャリストのラーニング パス
+      summary: コラボレーションは、今日の作業に不可欠なスキルです。 Microsoft Teams 内の堅牢な機能を使用して、接続を維持し、チームとより効率的に連携できるようにする方法について説明します。
+      url: /training/paths/teamwork-specialist
+    - title: サービス導入スペシャリストのラーニング パス
+      summary: Microsoft サービス導入スペシャリストラーニング パスには、Teams やその他の Microsoft 365 サービスが用意されています。 組織内の Microsoft サービスの導入を推進する方法について説明します。
+      url: /training/paths/m365-service-adoption
     - title: オンデマンド トレーニング ビデオ
       summary: クラスの時間がありませんか? オンデマンド トレーニングのために、Microsoft サポートのビデオのカタログを調べてください。
       url: https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7

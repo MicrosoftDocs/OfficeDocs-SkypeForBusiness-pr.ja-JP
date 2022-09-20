@@ -24,20 +24,20 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: fe5104d2047f734a0ae6df839bb980052ca2607e
-  ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+  ms.openlocfilehash: 6ae30ce1693944d10048ca1172657329202d7c0c
+  ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 07/14/2022
-  ms.locfileid: "66794525"
+  ms.lasthandoff: 09/19/2022
+  ms.locfileid: "67808658"
 productDirectory:
   items:
   - title: アップグレードを計画する (ここから開始!)
-    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/get-started-teams.svg
     summary: Skype for Business Online (2021 年 7 月 31 日) の廃止に先立って Teams にアップグレードする場合でも、Skype for Businessオンプレミス環境から Teams にシナリオを移行する場合でも、移行に成功すると、技術的およびユーザーの準備が可能になります。 Skype for Business Online、Skype for Business Server、またはハイブリッド環境から Teams への移行を成功させるために役立つ、実績のあるフレームワーク、ベスト プラクティス、およびリソースをご覧ください。 対象ユーザー – すべて (ビジネス スポンサー、IT 管理者、ユーザーの準備/変更マネージャー、プロジェクト リーダー)
     url: https://aka.ms/SfBtoTeamsPlan
   - title: Teams のアップグレードを実装する
-    imageSrc: https://docs.microsoft.com/office/media/icons/hybrid-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/hybrid-teams.svg
     summary: 目標と現在のSkype for Business環境に基づいて、すべてのワークロードを Teams に移行するための最適な技術的アプローチを特定して実行する準備をしてください。 移行に成功したほとんどのお客様は、Teams を現在の Skype for Businessオンライン、Skype for Business Server、またはハイブリッドの実装と共に有効にしています。 このセッションでは、組織に最適な移行戦略を定義するために役立つ重要な考慮事項と貴重なリソースを共有します。 対象ユーザー - IT 管理者
     url: https://aka.ms/SfBtoTeamsImplement
 additionalContent:

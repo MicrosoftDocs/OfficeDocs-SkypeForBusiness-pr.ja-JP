@@ -1,6 +1,6 @@
 ### YamlMime:Hub
-title: 通話プランに関するドキュメントを使用したMicrosoft 365 Teams 電話システム
-summary: 組織内の通話プランでシステムMicrosoft Teams 電話計画、設定、使用する方法について説明します。 通話プランを使用したTeams 電話システムにより、小規模および中規模の組織は、社内ソリューションの費用と複雑さなしで強力で柔軟な電話システムを簡単に設定できます。
+title: 通話プランに関するドキュメントを含む Microsoft 365 Teams Phone System
+summary: 組織内の通話プランでシステムMicrosoft Teams 電話計画、設定、使用する方法について説明します。 通話プランを使用した Teams Phone System を使用すると、小規模および中規模の組織が、社内ソリューションの費用と複雑さなしで強力で柔軟な電話システムを簡単に設定できます。
 metadata:
   title: 通話プランを使用したシステムのMicrosoft Teams 電話に関するドキュメント
   description: 通話プランを使用してシステムMicrosoft Teams 電話計画、デプロイ、および使用する方法について説明します。
@@ -8,36 +8,36 @@ metadata:
   author: dstrome
   ms.author: dstrome
   ms.date: 06/17/2020
-  ms.openlocfilehash: 3ddbe9ac2d6882cef72f9aa3b3bc7a5a2525e0d2
-  ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+  ms.openlocfilehash: e1d1ceffeeaed9d2f6175ce2c7755349c756207c
+  ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 06/16/2022
-  ms.locfileid: "66124152"
+  ms.lasthandoff: 09/19/2022
+  ms.locfileid: "67808228"
 productDirectory:
   items:
   - title: 確認
-    imageSrc: https://docs.microsoft.com/office/media/icons/blocks-blue.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/blocks-blue.svg
     links:
     - url: whats-business-voice.md
-      text: 中小企業向けの通話プランガイダンスに関するTeams 電話システム
+      text: 中小企業向けの通話プランに関するガイダンスを含む Teams Phone System
     - url: https://www.microsoft.com/microsoft-teams/microsoft-teams-phone
       text: Microsoft Teams 電話
     - url: /office365/servicedescriptions/teams-service-description
       text: Teams サービスの説明
   - title: セットアップ
-    imageSrc: https://docs.microsoft.com/office/media/icons/deploy-blue.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/deploy-blue.svg
     links:
     - url: ./whats-business-voice.md#how-do-i-purchase-teams-phone-with-calling-plan-bundle-licenses
-      text: 通話プランでTeams 電話システムを取得する方法
+      text: 通話プランを使用して Teams Phone System を取得する方法
     - url: get-ready-internet.md
       text: インターネット接続を確認する
     - url: prepare-users.md
       text: ユーザーの準備を行う
     - url: set-up-overview.md
-      text: 通話プランを使用してTeams 電話システムを設定する
+      text: 通話プランを使用して Teams Phone System を設定する
   - title: 設定をカスタマイズする
-    imageSrc: https://docs.microsoft.com/office/media/icons/migration-blue.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/migration-blue.svg
     links:
     - url: port-phone-numbers.md
       text: 既存の電話番号をポートする
@@ -48,7 +48,7 @@ productDirectory:
     - url: ./create-a-phone-system-call-queue-smb.md
       text: 通話キューを設定する
   - title: 使用
-    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/get-started-blue.svg
     links:
     - url: create-users.md
       text: さらにユーザーを作成する
@@ -59,26 +59,26 @@ productDirectory:
     - url: analytics-dashboard.md
       text: 通話分析の品質ダッシュボード
   - title: パートナー向けリソース
-    imageSrc: https://docs.microsoft.com/office/media/icons/success-blue.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/success-blue.svg
     links:
     - url: /partner-center/
       text: パートナー センターから Microsoft 365 Business を取得する
     - url: https://cloudpartners.transform.microsoft.com/products/m365-business-voice-partner-playbook
-      text: 通話プラン パートナー プレイブックを使用したMicrosoft 365 Teams 電話システム
+      text: プラン パートナープレイブックを呼び出す Microsoft 365 Teams Phone System
   - title: サポートが必要な場合
-    imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/users-people.svg
     links:
     - url: https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b
       text: Microsoft 365 または Office 365 のサポートに問い合わせる
     - url: https://techcommunity.microsoft.com/t5/Small-and-Medium-Businesses/ct-p/SMB
       text: 中小企業向けの技術者コミュニティ
   - title: ヘルプ ドキュメント
-    imageSrc: https://docs.microsoft.com/office/media/icons/chat.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/chat.svg
     links:
     - url: ../cloud-voice-landing-page.md
       text: Microsoft Teams 管理者向けドキュメント
     - url: https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472
-      text: Microsoft Teamsフィードバック ポータル
+      text: Microsoft Teams フィードバック ポータル
     - url: https://support.office.com/teams
       text: Microsoft Teams クライアント向けドキュメント
     - url: /office365/admin/

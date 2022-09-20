@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: b67c1b9500ad5df959831e17a183cb61ca3ed8a1
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: d6f2cc6685d6d9d80c2282cdfd1751a7d7f1916d
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271452"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808468"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams のトレーニング
 
@@ -51,7 +51,7 @@ ms.locfileid: "67271452"
    :::column-end:::
 
    :::column:::
-   **[IT のチーム コラボレーションを管理する](/learn/paths/m365-manage-team-collaboration)** </br>
+   **[IT のチーム コラボレーションを管理する](/training/paths/m365-manage-team-collaboration)** </br>
    コース: Teams を使用して、アプリケーションやデバイス間で組織内のチームワークとコミュニケーションを促進する方法を説明します。
 
    :::column-end:::
@@ -60,12 +60,12 @@ ms.locfileid: "67271452"
 
 :::row:::
    :::column:::
-   **[導入スペシャリストの認定](/learn/paths/m365-service-adoption/)** </br> Microsoft サービス導入スペシャリスト認定コースでは、Teams を詳細に説明しています。組織での Microsoft サービスの導入を促進する方法を学ぶことができます。
+   **[導入スペシャリストの認定](/training/paths/m365-service-adoption/)** </br> Microsoft サービス導入スペシャリスト認定コースでは、Teams を詳細に説明しています。組織での Microsoft サービスの導入を促進する方法を学ぶことができます。
 
    :::column-end:::
 
    :::column:::
-   **[Microsoft 365 のチームワークの概要](/learn/modules/intro-to-teamwork-in-m365/index)** </br>
+   **[Microsoft 365 のチームワークの概要](/training/modules/intro-to-teamwork-in-m365/index)** </br>
    所在地や組織への接続方法に関係なく、すべての従業員のチームワークを容易にする Microsoft 365 ツールについて説明します。
 
    :::column-end:::

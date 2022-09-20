@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams でイベントの監査ログを検索する
-author: v-tophillips
-ms.author: v-tophillips
+author: robmazz
+ms.author: robmazz
 manager: laurawi
 ms.topic: article
 audience: admin
@@ -12,15 +12,15 @@ f1.keywords:
 - NOCSH
 ms.reviewer: anwara
 search.appverid: MET150
-description: Microsoft Purview コンプライアンス ポータルの監査ログからMicrosoft Teamsデータを取得する方法について説明します。
+description: Microsoft Purview コンプライアンス ポータルの監査ログから Microsoft Teams データを取得する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bfab74d73038b18e3e0854e167de8991e43dc67e
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: f7d94411132b575aa4754aae993f070a36718a2d
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674409"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808448"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft Teams でイベントの監査ログを検索する
 
@@ -140,7 +140,7 @@ tオーディオ ログ検索の使い方は、[こちらの動画](https://www.
 |Teams へのユーザーのサインイン|TeamsSessionStarted|ユーザーが Microsoft Teams クライアントにサインインしました。 このイベントは、トークン更新アクティビティをキャプチャしません。|
 
 > [!NOTE]
-> <sup>1</sup> このイベントの監査レコードは、Microsoft Graph API の呼び出しによって操作が実行された場合にのみログに記録されます。 操作が Teams クライアントで実行された場合、監査レコードはログに記録されません<br/><sup>2</sup> このイベントは、Audit (プレミアム) でのみ使用できます。 つまり、これらのイベントが監査ログに記録される前に、ユーザーに適切なライセンスを割り当てる必要があります。 監査 (プレミアム) でのみ使用できるアクティビティの詳細については、[Microsoft Purviewの監査 (プレミアム) を](/microsoft-365/compliance/advanced-audit#advanced-audit-events)参照してください。 監査 (プレミアム) のライセンス要件については、[Microsoft 365の監査ソリューションに関するページを](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)参照してください。 <br/> <sup>3</sup> このイベントはパブリック プレビュー中です。
+> <sup>1</sup> このイベントの監査レコードは、Microsoft Graph API の呼び出しによって操作が実行された場合にのみログに記録されます。 操作が Teams クライアントで実行された場合、監査レコードはログに記録されません<br/><sup>2</sup> このイベントは、Audit (Premium) でのみ使用できます。 つまり、これらのイベントが監査ログに記録される前に、ユーザーに適切なライセンスを割り当てる必要があります。 Audit (Premium) でのみ使用できるアクティビティの詳細については、 [Microsoft Purview の監査 (Premium) に](/microsoft-365/compliance/advanced-audit#advanced-audit-events)関するページを参照してください。 監査 (Premium) のライセンス要件については、 [Microsoft 365 の監査ソリューションに関するページを](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)参照してください。 <br/> <sup>3</sup> このイベントはパブリック プレビュー中です。
 
 ## <a name="shifts-in-teams-activities"></a>Teams アクティビティにサインイン
 

@@ -21,12 +21,12 @@ appliesto:
 ms.custom:
 - seo-marvel-mar2020
 - intro-get-started
-ms.openlocfilehash: 54fcf3942d13fa0b759e796e5486808a5f5a40bb
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: ff5fce999adffc38e28d6daf787d6175deaa683a
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045846"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808808"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Microsoft Teams の使用を開始する
 
@@ -66,7 +66,7 @@ Teams をロールアウトする準備を整えるために実行する必要�
 Teams を初めて使用する場合、Teams に慣れるための最良の方法は、すぐに使い始めることです。 Teams の優れている点は、現在設定しているものが、後で行う必要のあるアップグレードや移行の邪魔にならないことです。
 
 > [!TIP]
-> [Teams 向け Microsoft Learn](/learn/teams/) で利用可能な学習パスやモジュールについて確認してください。 [Teams 管理センター](/learn/modules/m365-teams-navigate-admin-portal/)のツアーに参加したり、[Teams 用にネットワークを構成する](/learn/modules/m365-teams-connectivity/)方法を学んだり、[ユーザーを Teams に最適にオンボードする](/learn/modules/m365-teams-onboard-users/)方法についてのアイデアを入手したりできます。
+> [Teams 向け Microsoft Learn](/training/teams/) で利用可能な学習パスやモジュールについて確認してください。 [Teams 管理センター](/training/modules/m365-teams-navigate-admin-portal/)のツアーに参加したり、[Teams 用にネットワークを構成する](/training/modules/m365-teams-connectivity/)方法を学んだり、[ユーザーを Teams に最適にオンボードする](/training/modules/m365-teams-onboard-users/)方法についてのアイデアを入手したりできます。
 
 以下の手順を使用して、いくつかのチームを設定し、Teams に慣れるために数名のアーリー アダプターをオンボードします。
 

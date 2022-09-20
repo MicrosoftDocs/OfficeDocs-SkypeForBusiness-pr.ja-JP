@@ -21,19 +21,19 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22f778158965134cec673a97373a83d7fe95544d
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
-ms.translationtype: HT
+ms.openlocfilehash: 751263d9f5afddc6f73afd89458a5e004ce428f4
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045836"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808798"
 ---
 # <a name="start-your-organization-wide-rollout-of-microsoft-teams"></a>Microsoft Teams の組織全体での展開を開始する
 
 最初のチームの立ち上げに成功し、早期導入者を数名獲得したので、組織の他のメンバーへの Teams の展開を開始しましょう。
 
 > [!TIP]
-> Teams の展開を開始する前に、[Microsoft 365 Microsoft Learn モジュールを使用した Teams の導入準備](/learn/modules/m365-teams-collab-prepare-deployment/)を完了することを強くお勧めします。 この 30 分間のモジュールでは、Teams に関する理解を深め、Teams を導入する場合に必要となる重要な決定事項について説明します。
+> Teams の展開を開始する前に、[Microsoft 365 Microsoft Learn モジュールを使用した Teams の導入準備](/training/modules/m365-teams-collab-prepare-deployment/)を完了することを強くお勧めします。 この 30 分間のモジュールでは、Teams に関する理解を深め、Teams を導入する場合に必要となる重要な決定事項について説明します。
 >
 > Teams で使用可能な学習パスやモジュールについては、[Teams 向け Microsoft Learn](/learn/teams/) を参照してください。
 

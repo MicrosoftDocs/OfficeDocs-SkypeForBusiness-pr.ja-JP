@@ -18,12 +18,12 @@ ms.custom:
 description: Microsoft Teamsの計画、展開、および実行方法に関するトレーニングビデオ、PowerPointデッキ、チュートリアル、およびその他の管理者向けリソース。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 133369477a9e633e3e7ccb6309d8cae037f86f90
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 384f6f34a689e0337489d08e4956df425b497d5d
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486902"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808378"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニングの概要
 
@@ -39,8 +39,8 @@ ms.locfileid: "67486902"
 
 |&nbsp; |&nbsp; |&nbsp;  |
 |---------|---------|---------|
-|[**IT に関する Teams の基本**](https://aka.ms/MicrosoftTeamsforIT) - Microsoft Mechanics "Teams for IT" ビデオ シリーズでは、管理者である Teams をロールアウト、構成、管理する方法が示されています。     |[**Microsoft Teams を使用してリモート ワーカーをサポート**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) する - トレーニングへのリンクを含め、必要なガイダンスを取得して、自宅で作業しているユーザーをサポートします。         |[**IT 部門のチーム コラボレーションを管理**](/learn/paths/m365-manage-team-collaboration) する - Teams を使用して、アプリケーションやデバイス間で組織内のチームワークとコミュニケーションを促進する方法について説明します。         |
-|[**サービス導入スペシャリスト認定**](/learn/paths/m365-service-adoption) - Microsoft サービス導入スペシャリスト認定コースには Teams が用意されています。 組織に Microsoft サービスの導入を推進する方法について説明します。     |[**Microsoft 365 のチームワークの概要**](/learn/modules/intro-to-teamwork-in-m365/index) - Microsoft サービス導入スペシャリスト認定コースには Teams が用意されています。 組織に Microsoft サービスの導入を推進する方法について説明します。        |[**Microsoft 365 認定: チームワーク管理者アソシエイト**](/learn/certifications/m365-teamwork-administrator) - Microsoft 365 Teamwork 管理者は、SharePoint (オンライン、オンプレミス、ハイブリッド)、OneDrive、Teams などの Microsoft 365 ワークロードまたはOffice 365 ワークロードを構成、展開、管理します。        |
+|[**IT に関する Teams の基本**](https://aka.ms/MicrosoftTeamsforIT) - Microsoft Mechanics "Teams for IT" ビデオ シリーズでは、管理者である Teams をロールアウト、構成、管理する方法が示されています。     |[**Microsoft Teams を使用してリモート ワーカーをサポート**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) する - トレーニングへのリンクを含め、必要なガイダンスを取得して、自宅で作業しているユーザーをサポートします。         |[**IT 部門のチーム コラボレーションを管理**](/training/paths/m365-manage-team-collaboration) する - Teams を使用して、アプリケーションやデバイス間で組織内のチームワークとコミュニケーションを促進する方法について説明します。         |
+|[**サービス導入スペシャリスト認定**](/training/paths/m365-service-adoption) - Microsoft サービス導入スペシャリスト認定コースには Teams が用意されています。 組織に Microsoft サービスの導入を推進する方法について説明します。     |[**Microsoft 365 のチームワークの概要**](/training/modules/intro-to-teamwork-in-m365/index) - Microsoft サービス導入スペシャリスト認定コースには Teams が用意されています。 組織に Microsoft サービスの導入を推進する方法について説明します。        |[**Microsoft 365 認定: チームワーク管理者アソシエイト**](/certifications/m365-teamwork-administrator) - Microsoft 365 Teamwork 管理者は、SharePoint (オンライン、オンプレミス、ハイブリッド)、OneDrive、Teams などの Microsoft 365 ワークロードまたはOffice 365 ワークロードを構成、展開、管理します。        |
 
 <h2>テクニカルなトレーニング</h2>
 

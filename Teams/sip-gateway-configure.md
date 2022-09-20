@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d33573d86f2bcb485f6a7e7cfc550ea1f3184223
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: f21ce36c1c44b14b80c9ae1684a65c6bd82b7d63
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270492"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808878"
 ---
 # <a name="configure-sip-gateway"></a>SIP ゲートウェイを構成する
 
@@ -120,7 +120,7 @@ SIP デバイスごとに、次のいずれかの SIP ゲートウェイ プロ�
 - アメリカ： `http://noam.ipp.sdg.teams.microsoft.com`
 - Apac： `http://apac.ipp.sdg.teams.microsoft.com`
 
-上記の SIP ゲートウェイ プロビジョニング サーバー URL を DHCP サーバーで構成して、TEAMS 組織に SIP デバイスを追加します。 DHCP サーバーの詳細については、「 [DHCP のデプロイと管理](/learn/modules/deploy-manage-dynamic-host-configuration-protocol)」を参照してください。 また、DHCP オプション 42 を使用してネットワーク タイム プロトコル (NTP) サーバーを指定し、DHCP オプション 2 を使用して協定世界時 (UTC) からのオフセットを秒単位で指定することもできます。 組織内のデバイスは、SIP ゲートウェイ プロビジョニング サーバーにルーティングされます。 正常にプロビジョニングされた SIP 電話には、Teams ロゴとサインイン用のソフト ボタンが表示されます。
+上記の SIP ゲートウェイ プロビジョニング サーバー URL を DHCP サーバーで構成して、TEAMS 組織に SIP デバイスを追加します。 DHCP サーバーの詳細については、「 [DHCP のデプロイと管理](/training/modules/deploy-manage-dynamic-host-configuration-protocol)」を参照してください。 また、DHCP オプション 42 を使用してネットワーク タイム プロトコル (NTP) サーバーを指定し、DHCP オプション 2 を使用して協定世界時 (UTC) からのオフセットを秒単位で指定することもできます。 組織内のデバイスは、SIP ゲートウェイ プロビジョニング サーバーにルーティングされます。 正常にプロビジョニングされた SIP 電話には、Teams ロゴとサインイン用のソフト ボタンが表示されます。
 
 SIP デバイスが、オンボードでサポートされているファームウェアの最小バージョンであることを確認します。 オンボード中、SIP Gateway は既定の構成と認証のユーザー インターフェイスをデバイスにプッシュします。 SIP デバイスに必要なファームウェアバージョンについては、「 [SIP ゲートウェイの計画](sip-gateway-plan.md)」を参照してください。
 

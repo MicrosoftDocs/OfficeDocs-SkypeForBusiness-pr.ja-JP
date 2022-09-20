@@ -25,37 +25,37 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 75ccc3c0953df013b2e13868f960a13d10ac13f0
-  ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
+  ms.openlocfilehash: 2ebea73a5311798aca39697fa14a698eedb0e1bb
+  ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 07/18/2022
-  ms.locfileid: "66838892"
+  ms.lasthandoff: 09/19/2022
+  ms.locfileid: "67808539"
 productDirectory:
   summary: ワークショップタイトルをクリックして、オンデマンド記録を登録またはアクセスします。
   items:
   - title: Teams でオーディオ/ビデオの品質を担当する
-    imageSrc: https://docs.microsoft.com/office/media/icons/health-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/health-teams.svg
     summary: ユーザーが会議と音声機能を使用して最適なエクスペリエンスを確実に得られるようにする方法をお探しですか? プロアクティブな戦略の確立から一般的な問題の解決まで、サービス品質の管理に役立つツール、レポート、ベスト プラクティスについて説明します。
     url: https://aka.ms/ChalkTalkAVQuality
   - title: だから。。。Teams で通話を発信しますか?
-    imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/headset-teams.svg
     summary: TEAMS の展開に PSTN 通話機能を追加する方法について詳しく説明します。 一緒に、用語、主要な概念、および構成の呼び出しについて説明します。
     url: https://aka.ms/ChalkTalkCalling
   - title: Microsoft Teams でライブ イベントを活発化する
-    imageSrc: https://docs.microsoft.com/office/media/icons/presenter-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/presenter-teams.svg
     summary: Microsoft Teams を使用して大規模なオンライン仮想イベントを使用して、対象ユーザーの関心を高め、元気を与えます。 イベントが成功したことを確認するためのベスト プラクティスについて説明します。
     url: https://aka.ms/ChalkTalksVirtualEvents
   - title: Teams の基礎のアプリ
-    imageSrc: https://docs.microsoft.com/office/media/icons/blocks-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/blocks-teams.svg
     summary: この基本的なセッションでは、アプリの管理やセキュリティなどの基本的な機能について説明します。 毎日使用するワークフロー、生産性アプリ、サービスを 1 つの統合エクスペリエンスに統合する方法について説明します。
     url: https://aka.ms/ChalkTalkApps
   - title: Teams のアプリを使用したスーパーチャージ キー ワークフロー
-    imageSrc: https://docs.microsoft.com/office/media/icons/bandwidth-efficiency-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/bandwidth-efficiency-teams.svg
     summary: 組織が依存しているアプリを Teams に導入することで、システムを接続し、自動化を強化し、ユーザーのエクスペリエンスを向上させます。
     url: https://aka.ms/ChalkTalkKeyApps
   - title: フロントラインの従業員が Teams でより多くのことを行えるようにする
-    imageSrc: https://docs.microsoft.com/office/media/icons/devices-2-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/devices-2-teams.svg
     summary: 生産性の高い会話、情報共有、およびフロントライン ワーカーのスケジュール管理のための合理化されたエクスペリエンスを計画し、実装するためのベスト プラクティスについて説明します。
     url: https://aka.ms/TeamsFLW
 additionalContent:
