@@ -5,6 +5,7 @@ ms.author: guptaashish
 manager: prkosh
 ms.topic: article
 ms.tgt.pltfrm: cloud
+ms.subservice: teams-apps
 ms.service: msteams
 audience: Admin
 ms.collection:
@@ -22,16 +23,16 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: 7ff0a37d815b3118aea0eb63abc8a414c4a99bd5
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: d52fe50ba3fa02b3b39269fd06ce66ea0dfb5b32
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397248"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837167"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Microsoft Teams のカスタム アプリのポリシーと設定を管理する
 
-管理者は、カスタム アプリのポリシーと設定を使用して、組織内の誰がカスタム アプリを Microsoft Teams にアップロードできるかを制御できます。 管理者は、カスタム アプリをアップロードできるユーザーを決定し、管理者とチーム所有者は、組織内の特定のチームがカスタム アプリの追加を許可するかどうかを決定できます。  カスタム アプリ ポリシーを編集した後、変更が有効になるまで数時間かかる場合があります。 これらのポリシーを管理するには、グローバル管理者または Teams サービス管理者である必要があります。
+管理者は、カスタム アプリのポリシーと設定を使用して、組織内の誰がカスタム アプリを Microsoft Teams にアップロードできるかを制御できます。 管理者は、カスタム アプリをアップロードできるユーザーを決定し、管理者とチーム所有者は、組織内の特定のチームがカスタム アプリの追加を許可するかどうかを決定できます。  カスタム アプリ ポリシーを編集した後、変更が有効になるまで数時間かかる場合があります。 これらのポリシーを管理するには、グローバル 管理または Teams サービス管理者である必要があります。
 
 組織内の開発者は、アプリ パッケージ (.zip ファイル内) をチームに直接アップロードするか、個人的なコンテキストでアップロードすることにより、カスタム アプリを Teams に追加できます。 これは、Teams アプリ ストアからアプリを追加する方法とは異なります。 アプリ パッケージをアップロードしてカスタム アプリを追加する (サイドローディングとも呼ばれます) と、組織内の特定のユーザーは、広く配布する準備が整う前にアプリをテストできます。
 

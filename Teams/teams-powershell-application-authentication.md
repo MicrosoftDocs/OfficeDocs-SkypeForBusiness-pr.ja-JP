@@ -12,21 +12,21 @@ ms.collection:
 description: Microsoft Teams の管理に使用される Teams PowerShell モジュールのアプリケーション ベースの認証について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 479dd64d6eece46335545e79e8f618b797e85f77
-ms.sourcegitcommit: 89e3681a88f06a9c6860d9eaea598e57b928b68a
+ms.openlocfilehash: b18c8505a255e0f937c077e1f905d721eb597889
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "67795066"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837667"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Teams PowerShell モジュールでのアプリケーション ベースの認証
 
-アプリケーション ベースの認証は、Teams PowerShell モジュールでサポートされるようになりました。バージョン 4.7.1 以降のプレビューでは、一連のコマンドレットが制限されています。 現在、この認証モードは商用環境でのみサポートされています。 これは、Skype for Business Online の地域的にホストされた会議で以前に有効にされた顧客に対してはサポートされていません。
+アプリケーション ベースの認証は、Teams PowerShell モジュールでサポートされるようになりました。バージョン 4.7.1 以降のプレビューでは、一連のコマンドレットが制限されています。 現在、この認証モードは商用環境でのみサポートされています。
 
 
 ## <a name="cmdlets-supported"></a>サポートされているコマンドレット
 
-\*すべての非 Cs コマンドレット (Get-Team など)、Get-CsTenant、Get-CsOnlineUser & Get-CsOnlineVoiceUserは既にサポートされています。 その他のコマンドレットは段階的にロールアウトされます。 
+\*すべての非 Cs コマンドレット (Get-Team など)、Get-CsTenant、Get-CsOnlineUser、Get-CsOnlineVoiceUser & \*-CsOnlineSipDomain コマンドレットは既にサポートされています。 その他のコマンドレットは段階的にロールアウトされます。 
 
 
 ## <a name="examples"></a>例

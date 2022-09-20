@@ -6,6 +6,7 @@ manager: prkosh
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-apps
 audience: Admin
 ms.collection:
 - M365-collaboration
@@ -16,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams の Teams アプリ申請 API を使用して送信されたカスタム アプリを承認する方法について説明します。
-ms.openlocfilehash: 60f9d78d5fdcc51d741fdbefed5c08a487910f22
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 644e4afd28dbec27385516ce3e0676eb9ea27ef1
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299096"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837527"
 ---
 # <a name="publish-a-custom-app-submitted-using-the-teams-app-submission-api"></a>Teams アプリ 申請 API を使用して送信されたカスタム アプリを公開する
 
