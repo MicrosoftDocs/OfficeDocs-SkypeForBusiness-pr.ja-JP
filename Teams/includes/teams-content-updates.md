@@ -3,6 +3,29 @@
 
 
 
+## <a name="week-of-september-12-2022"></a>2022 年 9 月 12 日の週
+
+
+| 公開日 |トピックのタイトル | 変更 |
+|------|------------|--------|
+| 9/12/2022 | [アプリのカスタマイズを使用して、組織のニーズに合わせてアプリをブランド化する](/MicrosoftTeams/customize-apps) | 更新日時 |
+| 9/12/2022 | [アプリを許可する管理者のユーザー要求](/MicrosoftTeams/user-requests-approve-apps) | 更新日時 |
+| 9/13/2022 | [ダイレクト ルーティングを監視する](/MicrosoftTeams/direct-routing-monitor-and-troubleshoot) | 更新日時 |
+| 9/13/2022 | [管理者に対するユーザー要求](/MicrosoftTeams/user-requests-approve-apps) | 更新日時 |
+| 9/13/2022 | [通話プランを使用して Teams Phone System に電話番号を移植する](/MicrosoftTeams/business-voice/port-phone-numbers) | 更新日時 |
+| 9/13/2022 | [電話番号サービス チームに問い合わせる](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-tns-service-desk) | 更新日時 |
+| 9/14/2022 | [教育機関向け Teams デバイス](/MicrosoftTeams/devices-for-education) | 更新日時 |
+| 9/14/2022 | [Skype for Business Online のサポート終了](/MicrosoftTeams/skype-for-business-online-retirement) | 更新日時 |
+| 9/14/2022 | [Microsoft Teams と Skype for Business の共存と相互運用性を理解する](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | 更新日時 |
+| 9/14/2022 | [仮想デスクトップ インフラストラクチャ用の Teams](/MicrosoftTeams/teams-for-vdi) | 更新日時 |
+| 9/14/2022 | [Microsoft Teams Rooms ポータル](/MicrosoftTeams/rooms/managed-meeting-rooms-portal) | 更新日時 |
+| 9/14/2022 | [Microsoft Teams Rooms を管理する](/MicrosoftTeams/rooms/rooms-manage) | 更新日時 |
+| 9/14/2022 | [Microsoft Teams Rooms のメンテナンスと運用](/MicrosoftTeams/rooms/rooms-operations) | 更新日時 |
+| 9/15/2022 | [Teams PowerShell モジュールでのアプリケーション ベースの認証](/MicrosoftTeams/teams-powershell-application-authentication) | 追加済 |
+| 9/15/2022 | [サインインの制限やサインインの動作など、さまざまなテクノロジが Microsoft Teams のサインオンに与える影響。](/MicrosoftTeams/sign-in-teams) | 更新日時 |
+| 9/16/2022 | [Teams PowerShell モジュールでのアプリケーション ベースの認証](/MicrosoftTeams/teams-powershell-application-authentication) | 更新日時 |
+
+
 ## <a name="week-of-september-05-2022"></a>2022 年 9 月 5 日の週
 
 
@@ -128,35 +151,3 @@
 | 8/20/2022 | [Microsoft Teams でライブ イベント設定を構成する](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | 更新日時 |
 | 8/20/2022 | [Microsoft Teams でのライブ イベントのセットアップ](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 更新日時 |
 | 8/20/2022 | [Microsoft Teams でユーザーの会議ダイヤルアウト確認を設定する](/MicrosoftTeams/set-up-meeting-dial-out-confirmation) | 更新日時 |
-
-
-## <a name="week-of-august-08-2022"></a>2022 年 8 月 8 日の週
-
-
-| 公開日 |トピックのタイトル | 変更 |
-|------|------------|--------|
-| 8/8/2022 | [Microsoft Teams でのアプリの更新エクスペリエンス](/MicrosoftTeams/apps-update-experience) | 更新日時 |
-| 8/8/2022 | [Microsoft Teams 管理センターで、Teams アプリの組織向けアプリを管理します。](/MicrosoftTeams/manage-apps) | 更新日時 |
-| 8/8/2022 | [コンテンツの電子情報開示調査を実施する](/MicrosoftTeams/ediscovery-investigation) | 更新日時 |
-| 8/9/2022 | [Teams でアプリを管理するためのアプリ ポリシーの概要](/MicrosoftTeams/app-policies) | 更新日時 |
-| 8/9/2022 | クラウド音声デプロイの運営委員会 | 削除されました |
-| 8/9/2022 | オンボード チェックリスト - クラウド音声ワークロードを構成する - Microsoft Teams | 削除されました |
-| 8/9/2022 | オンボード チェックリスト - ダイレクト ルーティングの構成 - Microsoft Teams | 削除されました |
-| 8/9/2022 | オンボード チェックリスト - コア機能を構成する - Microsoft Teams | 削除されました |
-| 8/9/2022 | オンボード チェックリスト - Microsoft 365 または Office 365 サービスを有効にする | 削除されました |
-| 8/9/2022 | Microsoft Teams Rooms リファレンス | 削除されました |
-| 8/9/2022 | [カスタム アプリとサイドロードされたアプリの管理](/MicrosoftTeams/custom-app-overview) | 追加済 |
-| 8/9/2022 | [Microsoft Teams のアプリについて知っておくべきこと](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 更新日時 |
-| 8/9/2022 | [Microsoft によるアプリの検証とアプリのテストの概要](/MicrosoftTeams/overview-of-app-validation) | 更新日時 |
-| 8/9/2022 | [Microsoft Teams のサード パーティ製アプリについて](/MicrosoftTeams/overview-third-party-apps) | 更新日時 |
-| 8/9/2022 | [Teams 用のサードパーティ製アプリを購入する](/MicrosoftTeams/purchase-third-party-apps) | 更新日時 |
-| 8/9/2022 | [Microsoft Teams のアプリのアクセス許可ポリシーを管理する](/MicrosoftTeams/teams-app-permission-policies) | 更新日時 |
-| 8/9/2022 | [Microsoft Teams のアプリのセットアップ ポリシーを管理する](/MicrosoftTeams/teams-app-setup-policies) | 更新日時 |
-| 8/9/2022 | [Teams のカスタム アプリのポリシーと設定を管理する](/MicrosoftTeams/teams-custom-app-policies-and-settings) | 更新日時 |
-| 8/10/2022 | ダイレクト ルーティング | 削除されました |
-| 8/11/2022 | [Microsoft Teams のアプリについて知っておくべきこと](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 更新日時 |
-| 8/11/2022 | [Microsoft Teams 管理センターで、Teams アプリの組織向けアプリを管理します。](/MicrosoftTeams/manage-apps) | 更新日時 |
-| 8/11/2022 | [Microsoft Teams のアプリのセットアップ ポリシーを管理する](/MicrosoftTeams/teams-app-setup-policies) | 更新日時 |
-| 8/12/2022 | [Microsoft Teams の自動応答を設定する](/MicrosoftTeams/create-a-phone-system-auto-attendant-smb) | 追加済 |
-| 8/12/2022 | [Microsoft Teams で通話キューを作成する](/MicrosoftTeams/create-a-phone-system-call-queue-smb) | 追加済 |
-| 8/12/2022 | [Microsoft Teams のトランシーバー アプリ](/MicrosoftTeams/walkie-talkie) | 更新日時 |
