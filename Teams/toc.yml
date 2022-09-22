@@ -667,6 +667,40 @@ items:
                 href: teams-live-events/configure-teams-live-events.md
               - name: ライブ イベント レコーディング ポリシー
                 href: teams-live-events/live-events-recording-policies.md
+          - name: Teams ハイブリッド会議エクスペリエンスを作成する
+            items:
+              - name: 概要
+                href: hybrid-meetings-overview.md
+              - name: ハイブリッド会議の原則
+                href: hybrid-meetings-principles.md
+              - name: 手順 1 - Teams 会議機能について理解する
+                href: hybrid-meetings-features.md
+              - name: 手順 2 - エバンジェリゼー 会議のベスト プラクティス
+                href: hybrid-meetings-educate-participants.md
+              - name: 手順 3 - 会議スペースを設計して構築する
+                href: hybrid-meetings-room-design.md
+              - name: 手順 4 - ルーム デバイスを選択する
+                href: hybrid-meetings-device-select.md
+              - name: 手順 5 - デバイスを設定する
+                items:
+                  - name: 概要
+                    href: hybrid-meetings-device-config-intro.md
+                  - name: 手順 1 - Teams Rooms ライセンスを購入する
+                    href: hybrid-meetings-device-config-license.md
+                  - name: 手順 2 - リソース アカウントを作成する
+                    href: hybrid-meetings-device-config-account.md
+                  - name: 手順 3 - 会議室のライセンスを割り当てる
+                    href: hybrid-meetings-device-config-assign.md
+                  - name: 手順 4 - メールボックスのプロパティを構成する
+                    href: hybrid-meetings-device-config-mailbox.md
+                  - name: 手順 5 - パスワードの有効期限を無効にする
+                    href: hybrid-meetings-device-config-password.md
+                  - name: 手順 6 - 会議ポリシーを構成する
+                    href: hybrid-meetings-device-config-policies.md
+                  - name: 手順 7 - 予定表オプションを構成する
+                    href: hybrid-meetings-device-config-calendar.md
+              - name: 手順 6 - 会議室と会議を管理および監視する
+                href: hybrid-meetings-manage.md
       - name: 電話会議
         items:
           - name: M365 の電話会議
