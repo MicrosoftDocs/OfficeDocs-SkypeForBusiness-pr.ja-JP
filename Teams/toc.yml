@@ -1569,7 +1569,7 @@ items:
         items:
           - name: サードパーティのアプリを理解する
             href: overview-third-party-apps.md
-          - name: Microsoft によるアプリの検証を理解する
+          - name: Microsoft によって行われるアプリのチェック、テスト、検証
             href: overview-of-app-validation.md
           - name: サードパーティアプリのセキュリティ、コンプライアンス、プライバシー
             href: overview-of-app-certification.md
@@ -1593,7 +1593,7 @@ items:
             href: submit-approve-custom-apps.md
           - name: パッケージとして送信されたカスタム アプリを発行する
             href: upload-custom-apps.md
-          - name: Teams 管理センターで Power Platform アプリを管理する
+          - name: Power Platform を使用して作成されたカスタム アプリを管理する
             href: manage-power-platform-apps.md
       - name: アプリを管理する管理者コントロール
         items:
