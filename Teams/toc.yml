@@ -1429,15 +1429,13 @@ items:
                 href: rooms/xml-config-file.md
               - name: 回復ツールの使用
                 href: rooms/recovery-tool.md
-      - name: Microsoft Teams Rooms の管理サービス
+      - name: Microsoft Teams Rooms Pro Management
         items:
           - name: 概要
             href: rooms/microsoft-teams-rooms-premium.md
-          - name: ライセンスを取得して割り当てる
-            href: rooms/obtaining-assigning-license.md
-          - name: INTUNEP マネージド サービスに登録する
+          - name: Pro Management ポータルへのアクセス
             href: rooms/enrolling-mtrp-managed-service.md
-          - name: マネージド サービスにデバイスを登録する
+          - name: デバイスを Pro 管理に登録する
             href: rooms/enroll-a-device.md
           - name: 役割ベースのアクセス制御
             href: rooms/microsoft-teams-rooms-premium-rbac.md
@@ -1445,7 +1443,7 @@ items:
             href: rooms/managed-meeting-rooms-portal.md
           - name: 管理された更新プログラム
             href: rooms/update-management.md
-          - name: Teams Rooms の ServiceNow を構成する
+          - name: ServiceNow を構成する
             href: rooms/microsoft-teams-rooms-configure-servicenow.md
           - name: パートナー向けのマルチテナント管理
             href: rooms/multi-tenant-management-partner.md
@@ -1457,12 +1455,10 @@ items:
             href: rooms/health-and-usage-reports.md
           - name: スタンダードとルーム プランナー
             href: rooms/standards-and-room-planner.md
-          - name: 顧客から報告されたインシデント
+          - name: 問題を記録する
             href: rooms/customer-reported-incidents.md
           - name: データとプライバシー情報
             href: rooms/data-and-privacy-info.md
-          - name: Teams Rooms モバイル アプリケーションの使用
-            href: rooms/extended-mobile-app.md
       - name: デバイス
         items:
           - name: Teams デバイス ストア
