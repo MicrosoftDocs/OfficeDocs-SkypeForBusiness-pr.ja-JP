@@ -1573,7 +1573,7 @@ items:
             href: purchase-third-party-apps.md
           - name: Teams の既定の PDF ビューアーとしての Adobe Acrobat
             href: adobe-acrobat-pdf-viewer-teams.md
-          - name: Microsoft 365 とカスタム コネクタを管理する
+          - name: M365 コネクタとカスタム コネクタを管理する
             href: Office-365-custom-connectors.md
           - name: アプリのカスタマイズを使用してアプリのブランドをカスタマイズする
             href: customize-apps.md
@@ -1603,8 +1603,6 @@ items:
                 href: teams-app-permission-policies.md
               - name: アプリのセットアップ ポリシーを管理する
                 href: teams-app-setup-policies.md
-              - name: カスタム アプリのポリシーと設定を管理する
-                href: teams-custom-app-policies-and-settings.md
           - name: 現場担当者向けに Teams アプリを調整する
             href: /microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
           - name: Azure AD アクセス許可を確認し、管理者の同意を付与する
@@ -1615,8 +1613,6 @@ items:
             href: app-permissions.md
           - name: 組織のアプリ ストアをブランド化する
             href: customize-your-app-store.md
-          - name: Microsoft 365 全体でアプリへのアクセスを管理する
-            href: manage-third-party-teams-apps.md
           - name: 外部ユーザーまたはゲスト ユーザーとしてアプリを使用する
             href: non-standard-users.md
           - name: ユーザー要求を管理する
