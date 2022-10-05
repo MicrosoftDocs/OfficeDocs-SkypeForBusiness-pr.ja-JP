@@ -1367,6 +1367,8 @@ items:
                 href: rooms/rooms-licensing.md
               - name: Teams Rooms管理センターのライセンス
                 href: rooms/admin-center-license-overview.md
+              - name: レガシ ライセンスをTeams Roomsする
+                href: rooms/rooms-legacy-licensing.md
               - name: Windows と Android 間の Teams デバイス機能比較
                 href: rooms/teams-devices-feature-comparison.md
               - name: Teams の会議室ガイダンス
