@@ -15,16 +15,17 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- purview-compliance
 ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e090c465b46370367d96a782e12f38161465ce33
-ms.sourcegitcommit: 479e236aa8a9a91df4894ed3cce4c287a1354d80
+ms.openlocfilehash: 2e11a0d89c7c49e27dd4237e67a67be93db2bcb6
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "67572087"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046747"
 ---
 # <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls"></a>1 対 1 の Microsoft Teams 通話にエンドツーエンドの暗号化を使用する
 
@@ -111,7 +112,7 @@ Microsoft PowerShell と Teams 管理センターを使用して、エンドツ�
 
 #### <a name="to-enable-end-to-end-encryption-for-your-entire-tenant-using-the-global-policy"></a>グローバル ポリシーを使用してテナント全体のエンドツーエンド暗号化を有効にするには
 
-既定では、エンドツーエンドの暗号化は無効になっています。既定のグローバル ポリシーを設定してテナント全体のエンドツーエンドの暗号化を有効にするには、次のように [Set-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Set-CsTeamsEnhancedEncryptionPolicy) コマンドレットを実行します。
+By default, end-to-end encryption is disabled. To enable end-to-end encryption for the entire tenant by setting the default global policy, run the [Set-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Set-CsTeamsEnhancedEncryptionPolicy) cmdlet as follows.
 
 ```powershell
 Set-CsTeamsEnhancedEncryptionPolicy -Identity Global -CallingEndtoEndEncryptionEnabledType DisabledUserOverride
@@ -125,7 +126,7 @@ Set-CsTeamsEnhancedEncryptionPolicy -Identity Global -CallingEndtoEndEncryptionE
 
 #### <a name="to-disable-end-to-end-encryption-for-your-entire-tenant-using-the-global-policy"></a>グローバル ポリシーを使用してテナント全体のエンドツーエンド暗号化を無効にするには
 
-既定では、エンドツーエンドの暗号化は無効になっています。グローバル ポリシーに変更を加えた場合は、次のように [Grant-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Grant-CsTeamsEnhancedEncryptionPolicy) コマンドレットを実行して、設定を元に戻すことができます。
+By default, end-to-end encryption is disabled. If you've made changes to the global policy, you can change the setting back by running the [Grant-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Grant-CsTeamsEnhancedEncryptionPolicy) cmdlet as follows.
 
 ```powershell
 Grant-CsTeamsEnhancedEncryptionPolicy -Identity Global -CallingEndtoEndEncryptionEnabledType Disabled
@@ -151,7 +152,7 @@ Grant-CsTeamsEnhancedEncryptionPolicy -Identity "username" -PolicyName "policyna
 
 - *`policyname`* はポリシーに使用する名前です。 ポリシー名にスペースを含めることはできません (ContosoE2EEUserPolicy など)。
 
-ユーザーは、エンドツーエンドの暗号化された通話を行う前に、Teams の設定でエンドツーエンドの暗号化された通話をオンにする必要があります。手順については、「[Teams 通話用のエンドツーエンド暗号化を使用する](https://support.microsoft.com/office/1274b4d2-b5c5-4b24-a376-606fa6728a90)」を参照してください。
+Users still need to switch on end-to-end encrypted calling in their Teams settings before they can make an end-to-end encrypted call. For instructions, see [Use end-to-end encryption for Teams calls](https://support.microsoft.com/office/1274b4d2-b5c5-4b24-a376-606fa6728a90).
 
 次に例を示します。
 

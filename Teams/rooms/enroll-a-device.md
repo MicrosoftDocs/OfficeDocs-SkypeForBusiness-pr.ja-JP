@@ -1,9 +1,9 @@
 ---
-title: Teams Room デバイスをマネージド サービスに登録する
-author: donnah007
-ms.author: v-donnahill
+title: Teams Room デバイスを Pro Management に登録する
+author: altsou
+ms.author: altsou
 manager: serdars
-ms.date: 07/22/2022
+ms.date: 09/28/2022
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -15,18 +15,18 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Teams Rooms デバイスをマネージド サービスにオンボードする
+description: Teams Rooms デバイスを Pro Management ポータルにオンボードする
 f1keywords: ''
-ms.openlocfilehash: 07fbb2b196c0f74b34dbe2018865181e57aca17b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 808ef462f71e023ccec232942e780a53ea91e3b3
+ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272042"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "68243788"
 ---
-# <a name="enroll-device-into-managed-service"></a>デバイスをマネージド サービスに登録する
+# <a name="enroll-device-into-pro-management"></a>Pro Management にデバイスを登録する
 
-展開では、Microsoft Teams Roomsマネージド サービスにMicrosoft Teams Roomsデバイスをオンボードする必要があります。 監視サービス エージェントは、認定された Microsoft Teams Room (MRT) システムおよび周辺機器で使用します。
+展開には、Microsoft Teams Rooms Pro Management ポータルにデバイスMicrosoft Teams Roomsオンボードする必要があります。 監視サービス エージェントは、認定された Microsoft Teams Room (MRT) システムおよび周辺機器で使用します。
 
 ## <a name="prerequisites"></a>前提条件
 
@@ -40,7 +40,7 @@ ms.locfileid: "67272042"
 
    - 単一 ***プロキシ サーバー*** を使用している場合: `bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL_PROXY <proxyserver>:<port> ""`
 
-     *例:*
+     *例：*
 
      ```DOS
      bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL_PROXY contosoproxy.corp.net:8080 ""
@@ -48,7 +48,7 @@ ms.locfileid: "67272042"
 
    - ***pac*** ファイルを使用している場合:`bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT <pac file url>`
 
-     *例:*
+     *例：*
 
      ```DOS
      bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT `http://contosoproxy.corp.net/proxy.pac`
@@ -57,7 +57,7 @@ ms.locfileid: "67272042"
 ### <a name="enabling-tpm-settings"></a>TPM 設定を有効にする
 
 > [!NOTE]
-> マネージド サービスに登録するには、TPM を有効にする必要があります。
+> Pro Management に登録するには、TPM を有効にする必要があります。
 
 Intel NUC デバイスの TPM が無効になっている場合は、次のようにこれらのデバイスで TPM を有効にします。
 
@@ -96,7 +96,7 @@ Intel NUC デバイスの TPM が無効になっている場合は、次のよ�
 ## <a name="urls-required-for-communication"></a>通信に必要な URL
 
  > [!NOTE]
- > MRT デバイス エージェントと Microsoft Teams Rooms - マネージド サービス サービス ポータル間のすべてのネットワーク トラフィックは、ポート 443 経由の SSL です *。*  [OFFICE 365 URL と IP アドレス範囲 - Microsoft 365 Enterprise |Microsoft Docs](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide&preserve-view=true)。
+ > MRT デバイス エージェントと Microsoft Teams Rooms Pro Management ポータル間のすべてのネットワーク トラフィックは、ポート 443 経由の SSL です *。*  [OFFICE 365 URL と IP アドレス範囲 - Microsoft 365 Enterprise |Microsoft Docs](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide&preserve-view=true)。
 
 エンタープライズ環境内で **トラフィック 許可リスト** が有効になっている場合は、次のホストを許可する必要があります。
 
@@ -116,11 +116,11 @@ mmrprodnoamstor.blob.core.windows.net
 
 登録プロセスには、次の手順が含まれます。
 
-1. Microsoft Teams Rooms – Managed Services ポータル [http://portal.rooms.microsoft.com](https://portal.rooms.microsoft.com/)の左側のナビゲーション バーで **、[設定]** を展開し、[**全般**] を選択します。
+1. Microsoft Teams Rooms Pro Management ポータル [http://portal.rooms.microsoft.com](https://portal.rooms.microsoft.com/)の左側のナビゲーション バーで、[**設定]** を展開し、[**全般**] を選択します。
 1. [ *ルームの登録] で* [ **インストーラーのダウンロード**  ] を選択し、監視エージェント ソフトウェアをダウンロードします。
 1. **オプション：** エージェントのプロキシ設定を設定します。 [プロキシ設定の追加 (省略可能)に関する](#adding-proxy-settings-optional)セクションを参照してください。
 1. (手順 2 でダウンロードした) エージェント インストーラーを、MRT デバイス上で MSI をローカルで実行するか、通常の方法で MSI アプリケーションを環境内のデバイスに大量に発行することによって (グループ ポリシーなど)
-1. ポータルに 5 分から 10 分以内に部屋が表示されます。 そうでない場合は、managedroomsupport@microsoft.com にお問い合わせください。
+1. ポータルに 5 分から 10 分以内に部屋が表示されます。
 
    ![設定と自己登録キーのスクリーンショット。](../media/software-installation-005new.png)
 
@@ -145,11 +145,11 @@ Microsoft からインストーラーを (ポータルから、または上記�
 
 1. 契約を読んだ後、*[使用許諾契約書] **の条項に同意** し、_*Install** キーを押します。
 
-    これにより、マネージド サービス監視ソフトウェアのインストールMicrosoft Teams Roomsが開始されます。 昇格のプロンプト (管理者として実行) が表示されます。
+    これにより、Pro 監視ソフトウェアのインストールMicrosoft Teams Roomsが開始されます。 昇格のプロンプト (管理者として実行) が表示されます。
 
 1. **[はい**] を選択します。
 
-    インストールは続行されます。 インストール手順中に、コンソール ウィンドウが開き、Microsoft Teams Roomsの最終段階である Managed Services 監視ソフトウェアのインストールが開始されます。
+    インストールは続行されます。 インストール手順中に、コンソール ウィンドウが開き、Microsoft Teams Rooms Pro 監視ソフトウェアのインストールの最終段階が開始されます。
 
     > [!NOTE]
     > ウィンドウを閉じないでください。 インストールが完了すると、ウィザードに [完了] ボタンが表示されます。
@@ -160,11 +160,11 @@ Microsoft からインストーラーを (ポータルから、または上記�
 
 - **Intune登録**: Windows デバイス上のTeams Roomsは、Intuneに既に登録されている必要があります。
   Intuneの Windows デバイスにTeams Roomsを登録する方法の詳細については、「[Microsoft エンドポイント マネージャーを使用した Windows デバイスでのMicrosoft Teams Roomsの登録 - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
-- **Windows デバイス上のすべてのTeams Roomsをメンバーとして含む Azure AD グループ** 。 Azure AD で作成されたグループで、Microsoft Teams Rooms Premium サービスの一部である必要がある Windows デバイス上のすべてのTeams Roomsが含まれます。 このグループは、MRTP エージェントのデプロイをターゲットにするために使用されます。
+- **Windows デバイス上のすべてのTeams Roomsをメンバーとして含む Azure AD グループ** 。 Azure AD で作成されたグループで、Microsoft Teams Rooms Premium サービスの一部である必要がある Windows デバイス上のすべてのTeams Roomsが含まれます。 このグループは、MRT Pro エージェントのデプロイをターゲットにするために使用されます。
   
 > [!NOTE]
 > この目的のために Azure AD で動的グループを使用することを検討できます。詳細については、「[Microsoft エンドポイント マネージャーを使用した Windows デバイスへのMicrosoft Teams Roomsの登録 - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
-- **MRTP エージェント** **インストーラー** のダウンロード – エージェントの zip ファイルを <https://aka.ms/serviceportalagentmsi> ダウンロードし、zip (ManagedRoomsInstaller.msi) の内容をローカルの一時フォルダーに展開します。
+- **MRT Pro エージェント** **インストーラー** をダウンロードする - エージェントの zip ファイルを <https://aka.ms/serviceportalagentmsi> ダウンロードし、zip (ManagedRoomsInstaller.msi) の内容をローカルの一時フォルダーに抽出します。
 
 **Intuneを使用してインストールするには**
 
@@ -180,7 +180,7 @@ Microsoft からインストーラーを (ポータルから、または上記�
    1. アプリのバージョンを無視する: **[はい**] を選択します。
 
       > [!NOTE]
-      > MRTP エージェントは自己更新中です。そのため、アプリのバージョンは明示的に無視する必要があります (ベースライン バージョンはすべて自動的に更新できます)。
+      > MRT Pro エージェントは自己更新中です。そのため、アプリのバージョンは明示的に無視する必要があります (ベースライン バージョンはすべて自動的に更新できます)。
 
    1. (省略可能)カテゴリ: [ **コンピューターの管理**] を選択します。
    
@@ -191,11 +191,11 @@ Microsoft からインストーラーを (ポータルから、または上記�
 1. **[次へ**] をクリックして **、[校閲と作成**] ページを表示します。
 1. アプリに入力した値と設定を確認します。 完了したら、[**作成**] をクリックしてアプリをIntuneに追加します。
 
-プロセスが完了すると、デバイスは数分後に MRTP エージェントのインストールを開始します。
+プロセスが完了すると、デバイスは数分後に MRT Pro エージェントのインストールを開始します。
 
 > [!NOTE]
-> インストール後、最新バージョンへの自己更新を実行し、MRTP ポータルに表示されるまでに、最大 8 時間かかる場合があります。
-MRTP ポータルでの自動登録を迅速化するには、エージェントのデプロイ後に、MRT デバイスを再起動することを検討してください。
+> インストール後、最新バージョンへの自己更新を実行し、MRT Pro ポータルに表示されるまでに、最大 8 時間かかる場合があります。
+MRT Pro ポータルでの自動登録を迅速化するには、エージェントのデプロイ後に、MRT デバイスを再起動することを検討してください。
 
 ## <a name="completing-enrollment"></a>登録の完了
 
@@ -203,9 +203,7 @@ MRTP ポータルでの自動登録を迅速化するには、エージェント
 
 *オンボーディング* 状態では、会議室の状態が表示および更新されますが、アラートが発生したり、調査チケットが作成されたりすることはありません。
 
-ルームを選択し、[ **登録]**  を選択してインシデント アラートの受信、調査チケットの受信、またはインシデントの報告を開始します。
-
-質問や問題については、ポータルで顧客から報告されたインシデントを開くか、managedroomsupport@microsoft.com にお問い合わせください。
+ルームを選択し、[ **登録]**  を選択してインシデント アラートの受信を開始します。
 
 ### <a name="unenrolling-and-uninstalling-monitoring-software"></a>監視ソフトウェアの登録解除とアンインストール
 
@@ -225,15 +223,15 @@ MRTP ポータルでの自動登録を迅速化するには、エージェント
    C:\Users\admin\Downloads\MTRP\_Device\_Offboarding\MTRP\_Device\_Offboarding.ps1
    ```
 
-   このコマンドは、デバイスをユーザー標準の MRT 更新プログラムにリセットし、MRTP 監視エージェントとファイルを削除します。
+   このコマンドは、デバイスをユーザー標準の MRT 更新プログラムにリセットし、MRT Pro 監視エージェントとファイルを削除します。
 
-1. Microsoft Teams Rooms – マネージド サービス ポータルの左側のメニューで、[会議室] を選択 **します**。
+1. Microsoft Teams Rooms Pro Management ポータルの左側のメニューで、[**会議室**] を選択します。
 1. 指定された会議室の一覧で、登録を解除するルームを選択し、[ **登録解除** ] を選択してインシデント アラートや調査チケットの取得を停止するか、ルームのインシデントを報告します。
 
 ## <a name="troubleshooting-table"></a>トラブルシューティング の表
 
 > [!NOTE]
-> すべてのMicrosoft Teams Rooms – マネージド サービス監視エラーは、**Microsoft Managed Rooms** という名前の特定のイベント ログ ファイルに記録されます。
+> すべてのMicrosoft Teams Rooms Pro 監視エラーは、**Microsoft Managed Rooms** という名前の特定のイベント ログ ファイルに記録されます。
 
 ***アプリケーション ランタイム ログ ファイルの場所*** =
 

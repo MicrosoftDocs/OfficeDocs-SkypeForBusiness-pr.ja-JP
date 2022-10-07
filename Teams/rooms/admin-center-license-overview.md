@@ -22,18 +22,21 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Teams 管理センターでTeams Roomsライセンスと機能の可用性について説明し、比較します。
-ms.openlocfilehash: d88e7a0c0a6c17fb22f1cc94fcd4de65a3ff79a2
-ms.sourcegitcommit: 732a7f3e120cfa221d42b4e8af2cf9ff623488a1
+ms.openlocfilehash: 0e4a3d4fc15f5e978731254e3344ee6e413ff682
+ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "67633637"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "67999632"
 ---
 # <a name="microsoft-teams-rooms-license-overview-in-teams-admin-center"></a>Teams 管理センターでライセンスの概要をMicrosoft Teams Roomsする
 
 Teams 管理センターでは、Teams Rooms デバイスとその周辺機器を一元的な場所から表示および管理できます。 この記事では、Teams Rooms デバイスに Microsoft Teams Rooms Basic ライセンスと Microsoft Teams Rooms Pro ライセンスのどちらが割り当てられているかに応じて、どのような[管理機能](#comparison-of-teams-rooms-feature-availability-by-license)があるかについて説明します。
 
 Microsoft Teams Rooms ライセンスの詳細については、「[Microsoft Teams Rooms ライセンス](rooms-licensing.md)」を参照してください。
+
+> [!NOTE]
+> Standard または Teams Rooms Teams Rooms Premium のレガシ ライセンスが既にある場合は、レガシ ライセンスの有効期限が切れたときに Teams Rooms Pro に切り替える必要があります。 Enterprise Agreementがある場合は、次の更新期間にTeams Rooms Pro ライセンスに切り替える必要があります。 詳細については、「[Teams Rooms Standard と Teams Rooms Premium からの切り替え](rooms-licensing.md#switching-from-teams-rooms-standard-and-teams-rooms-premium)」を参照してください。
 
 ## <a name="see-which-licenses-are-assigned-to-teams-rooms-devices"></a>Teams Rooms デバイスに割り当てられているライセンスを確認する
 
@@ -73,7 +76,6 @@ Microsoft Teams Rooms Pro ライセンスを必要とする機能は、デバイ
 | **デバイスの正常性の詳細**                     |                             | &#x2714;                  |
 | **デバイス タグ**                               |                             | &#x2714;                  |
 | **Graph API**                                |                             | &#x2714;                  |
-| **手動のデバイス更新プログラム**                     |                             | &#x2714;                  |
 | **リモート再起動**                            |                             | &#x2714;                  |
 | **Windows デバイス周辺機器の管理**     |                             | &#x2714;                  |
 | **Windows デバイスの設定**                   |                             | &#x2714;                  |

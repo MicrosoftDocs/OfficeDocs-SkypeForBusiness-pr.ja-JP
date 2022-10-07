@@ -1,5 +1,6 @@
 ---
 title: PowerShell スクリプトを使用して情報バリア モードを変更する
+description: この PowerShell スクリプトは、情報バリアを展開した後に使用して、テナント内のすべてのグループのモードをオープンから暗黙的に更新します。
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -7,27 +8,28 @@ ms.topic: article
 ms.reviewer: smahadevan
 ms.service: msteams
 audience: admin
-description: この PowerShell スクリプトは、情報バリアを展開した後に使用して、テナント内のすべてのグループのモードをオープンから暗黙的に更新します。
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
+- tier2
+- purview-compliance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3030f40ed61eb2e0e86967132d9575de8334a6c6
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 63403c5e5ee495a7a110aa9239868fd6a9bb5803
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767656"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047127"
 ---
 # <a name="change-information-barriers-modes-with-a-powershell-script"></a>PowerShell スクリプトを使用して情報バリア モードを変更する
 
-この PowerShell スクリプトを使用して、テナント内のすべてのTeams接続されたグループの情報バリア (IB) モードを更新します。 情報バリアを展開した後、これらのグループのモードを更新する必要があります。 IB を有効にする前にプロビジョニングされたグループには *、オープン* モードが割り当てられます。 *オープン* モードでは、該当する IB ポリシーはありません。 IB を有効にすると、 *作成* した新しいグループの既定のモードが暗黙的になります。 ただし、既存のグループは引き続き *オープン* モードの構成を維持します。 このスクリプトを実行して、これらの既存のグループを *暗黙的* モードに変更します。
+この PowerShell スクリプトを使用して、テナント内のすべての Teams 接続グループの情報バリア (IB) モードを更新します。 情報バリアを展開した後、これらのグループのモードを更新する必要があります。 IB を有効にする前にプロビジョニングされたグループには *、オープン* モードが割り当てられます。 *オープン* モードでは、該当する IB ポリシーはありません。 IB を有効にすると、 *作成* した新しいグループの既定のモードが暗黙的になります。 ただし、既存のグループは引き続き *オープン* モードの構成を維持します。 このスクリプトを実行して、これらの既存のグループを *暗黙的* モードに変更します。
 
-このスクリプトでは、Exchange Online PowerShell モジュールにある [Get-UnifiedGroup](/powershell/module/exchange/Set-UnifiedGroup) コマンドレットを使用してモードを更新します。 PowerShell を使用したTeamsの管理の詳細については、PowerShell [の概要Teams](./teams-powershell-overview.md)参照してください。
+このスクリプトでは、Exchange Online PowerShell モジュールにある [Get-UnifiedGroup](/powershell/module/exchange/Set-UnifiedGroup) コマンドレットを使用してモードを更新します。 PowerShell を使用した Teams の管理の詳細については、「 [Teams PowerShell の概要](./teams-powershell-overview.md)」を参照してください。
 
 ## <a name="sample-script"></a>サンプル スクリプト
 

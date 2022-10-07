@@ -1,6 +1,6 @@
 ---
 title: クラウド ボイスメール設定の管理
-author: crowe
+author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: jenstr
@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: ユーザーのボイスメール設定を管理します。
-ms.openlocfilehash: 7aa2fdf84f38cb9977b3a4156b28a96b98bbd9d7
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 96ac5e13360463150a5ff21bc8042b701a4f9717
+ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269602"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "67999492"
 ---
 # <a name="manage-cloud-voicemail-settings-for-users"></a>ユーザーのクラウド ボイスメール設定を管理する
 
@@ -75,7 +75,7 @@ PowerShell を使用して、ボイスメール設定を次のように管理す
 
 ## <a name="voicemail-settings"></a>ボイスメールの設定
 
-- **ボイスメールが有効 -** この設定は、ユーザーに対してクラウド ボイスメールを有効にするかどうかを制御します。 設定が false の場合、クラウド ボイスメール サービスはユーザーに対して使用できず、ユーザーのボイスメールは記録されません。
+- **ボイスメールが有効 -** この設定は、ユーザーに対してクラウド ボイスメールを有効にするかどうかを制御します。 設定が false の場合、クラウド ボイスメール サービスはユーザーに使用できず、ユーザーのボイスメールは記録されません。
 
 - **プロンプト言語** - この設定は、クラウド ボイスメールのプロンプトに使用される言語を指定します。 詳細については、「 [あいさつ文とメールの既定の言語を変更する](change-the-default-language-for-greetings-and-emails.md)」を参照してください。
 

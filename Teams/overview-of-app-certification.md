@@ -8,6 +8,7 @@ manager: prkosh
 audience: admin
 ms.subservice: teams-apps
 ms.service: msteams
+ms.date: 09/22/2022
 ms.collection:
 - M365-collaboration
 f1.keywords:
@@ -17,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 713f30d148517f080c1799f71461d52e69d855ac
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 992b557e72aaa855008f1bfec8073d800b65badf
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837657"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377545"
 ---
 # <a name="microsoft-365-app-compliance-program-for-security-compliance-and-privacy-of-third-party-apps"></a>サード パーティ製アプリのセキュリティ用 Microsoft 365 アプリ コンプライアンス プログラム、コンプライアンス、プライバシー
 
@@ -56,7 +57,7 @@ Microsoft コンプライアンス プログラムは、主要な業界標準の
 
   :::image type="content" source="media/attested-app-tac1.png" alt-text="Teams 管理センターでは、構成証明されたすべてのアプリに発行元による構成証明済みアイコンが表示されます。":::
 
-* Teams 管理センターで[アプリにアクセス許可を付与する](app-permissions-admin-center.md)際の、アプリ名の前の青いチェックマークは、発行元によって構成証明されたアプリか、Microsoft 365 認定されたアプリのどちらかであることを示しています。
+* Teams 管理センターで、 [アプリにアクセス許可を付与する前に、アプリ](app-permissions-admin-center.md)名の前に青いチェックマークが付いていると、発行元が構成証明されたアプリであることを示します。 すべての Microsoft 365 アプリも発行元の構成証明を通過するため、Microsoft 365 アプリの青いチェックマークも表示されます。
 
    :::image type="content" source="media/attested-app-tac2.png" alt-text="Teams 管理センターの、アクセス許可を付与するダイアログの青いチェックマークは、発行元によって構成証明されたアプリを示しています。":::
 
@@ -89,7 +90,7 @@ Microsoft コンプライアンス プログラムは、主要な業界標準の
 
   :::image type="content" source="media/m365cert-app-details-banner.png" alt-text="Teams 管理センターで特定のアプリを管理するときに、アプリ バナーで Microsoft 365 認定情報を表示する":::
 
-* Teams 管理センターで[アプリにアクセス許可を付与する](app-permissions-admin-center.md)際の、アプリ名の前の青いチェックマークは、発行元によって構成証明されたアプリか、Microsoft 365 認定されたアプリのどちらかであることを示しています。
+* Teams 管理センターで、 [アプリにアクセス許可を付与する前に、アプリ](app-permissions-admin-center.md)名の前に青いチェックマークが付いていると、発行元が構成証明されたアプリであることを示します。 すべての Microsoft 365 アプリも発行元の構成証明を通過するため、Microsoft 365 アプリの青いチェックマークも表示されます。
 
    :::image type="content" source="media/attested-app-tac2.png" alt-text="管理者は、アプリが Microsoft 365 認定証明がされていることを確認するため、Teams 管理センターのアクセス許可を付与するダイアログで青いチェックマークをオンにできます":::
 

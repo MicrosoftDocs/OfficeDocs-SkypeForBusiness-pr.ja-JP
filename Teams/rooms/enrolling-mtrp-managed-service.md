@@ -1,7 +1,7 @@
 ---
-title: Microsoft Teams Rooms Premium マネージド サービスにTeams Rooms デバイスを登録する
-author: donnah007
-ms.author: v-donnahill
+title: Pro Management ポータルへのアクセス
+author: altsou
+ms.author: altsou
 manager: serdars
 ms.reviewer: ''
 ms.topic: article
@@ -15,30 +15,30 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: マネージド サービスにMicrosoft Teams RoomsアカウントMicrosoft Teams Rooms Premium登録する方法について説明します。
+description: Microsoft Teams Rooms Pro Management ポータルにアクセスする方法について説明します。
 f1keywords: ''
-ms.openlocfilehash: f721406381e1eb99584563473196893bc21cf39b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 64d2613b586a5c87f42b6a376a6c3a0d9ad3a799
+ms.sourcegitcommit: 43db97b84ca70b1e6accfa7214d4106e4177a642
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271002"
+ms.lasthandoff: 09/29/2022
+ms.locfileid: "68218081"
 ---
-# <a name="enroll-a-device-in-the-microsoft-teams-rooms-premium-managed-service"></a>Microsoft Teams Rooms Premium マネージド サービスにデバイスを登録する
+# <a name="accessing-the-pro-management-portal"></a>Pro Management ポータルへのアクセス
 
-Teams Rooms Premium マネージド サービスにMicrosoft Teams Rooms デバイスを登録するには、1 人以上のユーザーをマネージド サービス管理者に割り当て、そのユーザーを使用して登録手順を完了する必要があります。
+Teams Rooms Pro Management ポータルにアクセスするには、1 人以上のユーザーをマネージド サービス管理者に割り当て、そのユーザーを使用して登録手順を完了する必要があります。
 
 ## <a name="assign-users-to-the-managed-service-administrator-role"></a>マネージド サービス管理者ロールにユーザーを割り当てる
 
 マネージド サービス管理者ロールにユーザーを割り当てるには、次の手順を実行します。
 
-1. Microsoft 365 管理センターへのログインに使用したのと同じ管理者特権で、[Teams Rooms Premium ポータル](https://portal.rooms.microsoft.com/)にログインします。
+1. Microsoft 365 管理センターへのログインに使用したのと同じ管理者特権で、[Teams Rooms Pro Management ポータル](https://portal.rooms.microsoft.com/)にログインします。
 2. **[設定の役割]** >  >  に移動し、[**マネージド サービス管理者**] を選択します。
 3. **[マネージド サービス管理者**] で [**割り当て**] タブを選択し、[**追加**] を選択します。
 4. ウィザードに従って割り当ての名前を指定し、割り当てに追加するユーザーを選択します。 割り当ては、すべての会議室とルーム グループに適用されます。
 5. 割り当てウィザードの最後で、[割り当 **ての追加**] を選択します。
 
-マネージド サービス管理者ロールが割り当てられているユーザーは、Teams Rooms Premium マネージド サービス ポータルの日常的な管理と監視を担当します。
+マネージド サービス管理者ロールが割り当てられているユーザーは、Teams Roomsの日常的な管理と監視を担当します。
 
 マネージド サービス管理者ロールにユーザーを割り当てた後は、[Teams Rooms デバイスの登録](enroll-a-device.md)に進み、Teams Rooms デバイスをマネージド サービス ポータルに追加します。
 

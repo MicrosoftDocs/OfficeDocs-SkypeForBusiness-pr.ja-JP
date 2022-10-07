@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: 電話システムで保留音機能を管理する方法について説明します。
-ms.openlocfilehash: e218de46e56c2e2f85ed2b19cea21cbc4d4679be
-ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
+ms.openlocfilehash: 9e2a2aa352a1fd65955b35d4175b831653c694cb
+ms.sourcegitcommit: 52450514880fe72af0d0b2fab1419eadfc3a583f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706176"
+ms.lasthandoff: 10/07/2022
+ms.locfileid: "68499451"
 ---
 # <a name="music-on-hold"></a>保留音
 
@@ -93,7 +93,7 @@ Teams 管理センターを使用して、通話ホールド ポリシーを作�
 Windows PowerShell 5.1 を使用して MP3 オーディオ ファイルをアップロードする例を次に示します。 その他の例については、「 [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)」を参照してください。
 
 ```PowerShell
-C:\> $content = Get-Content "C:\tmp\customMoH1.mp3" -Encoding byte -ReadCount 0
+C:\> $content = [System.IO.File]::ReadAllBytes('C:\tmp\customMoH1.mp3')
 C:\> $AudioFile = Import-CsOnlineAudioFile -FileName "customMoH1.mp3" -Content $content
 C:\> $AudioFile
 Id            : 56a56961f2794f098a359885ec1454a1
@@ -140,7 +140,7 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 
 - 保留音は、ユーザーが TeamsOnly モードの場合にのみ使用できます。
 
-- 呼び出された Teams ユーザーがLocation-Basedルーティングを有効にしている場合、保留音は呼び出し元に再生できません。
+- 呼び出された Teams ユーザーがLocation-Basedルーティングを有効にしている場合は、標準の保留音のみが呼び出し元に再生されます。
 
 - 共有行の外観 (委任) 用に構成されたユーザーと、コール パークが使用されている場合、保留状態のカスタム 音楽は使用できません。 標準の保留音が再生されます。
 

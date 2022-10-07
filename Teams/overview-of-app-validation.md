@@ -8,6 +8,7 @@ manager: prkosh
 audience: admin
 ms.subservice: teams-apps
 ms.service: msteams
+ms.date: 08/11/2022
 ms.collection:
 - M365-collaboration
 f1.keywords:
@@ -17,14 +18,14 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ac48aaccfab94d3a0e54bd51dbc0db2dc4c3d6fa
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: eeb0c49dcf560b858b8723f813cc86b6b51c1daa
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837487"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377555"
 ---
-# <a name="validation-performed-by-microsoft-for-all-teams-apps"></a>Microsoft がすべての Teams アプリに対して実行する検証
+# <a name="testing-and-validation-done-by-microsoft-for-all-teams-apps"></a>すべての Teams アプリに対して Microsoft が行うテストと検証
 
 Microsoft では、最終用途のためにストアに登録される前に、すべてのアプリが必須の検証に合格する必要があります。 これは、Teams アプリ ストアで公開されるすべてのアプリ (カスタム アプリを除く) に適用されます。 さらに、Microsoft は、アプリ開発者がコンプライアンス、セキュリティ、およびプライバシー制御の強化を示すアプリのオプションの認定に参加することを強くお勧めします。
 

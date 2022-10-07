@@ -14,16 +14,22 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
-ms.openlocfilehash: 8db0f0c4d29f786166098587aafc3ec1db256e38
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 6d2496ef355df7a935dbf45321a8b8fd63b8e8de
+ms.sourcegitcommit: fc1787ad74a8c454f750a294def188b532cbadd5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271462"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67854433"
 ---
 # <a name="whats-new-for-direct-routing"></a>ダイレクト ルーティングの新機能
 
 この記事では、ダイレクト ルーティングの新機能について説明します。 更新プログラムを頻繁に確認してください。
+
+## <a name="trunk-demoting-logic-based-on-sip-options"></a>SIP オプションに基づくトランク降格ロジック
+
+トランクの正常性については、SIP オプションに基づく新機能が導入されています。 ゲートウェイ構成で有効にすると (コマンドレットと SendSipOptions パラメーターSet-CsOnlinePSTNGateway参照)、発信呼び出しのルーティング ロジックによって、SIP オプションを定期的に送信しないトランクが降格されます (予想される期間は、SBC によって 1 分あたり 1 つの SIP オプションが送信されます)。 これらの降格されたトランクは、発信呼び出しで使用可能なトランクの最後の一覧に配置され、最後のトランクとして試行されます。これにより、通話セットアップ時間が短縮される可能性があります。
+Microsoft リージョン (NOAM、EMEA、APAC、OCEA) のいずれの SIP プロキシにも、5 分以内に少なくとも 1 つの SIP オプションを送信しない、その機能に対して有効になっているトランクはすべて降格と見なされます。 トランクが MICROSOFT リージョンの SIP プロキシのサブセットのみに SIP オプションを送信する場合、最初にこれらのルートが試行され、残りのルートは降格されます。
+
 
 ## <a name="sip-support"></a>SIP サポート
 

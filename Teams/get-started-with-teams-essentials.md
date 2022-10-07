@@ -1,7 +1,7 @@
 ---
 title: 小規模企業向けの Microsoft Teams Essentials クイックスタート ガイド
-author: adeejoseph
-ms.author: adjoseph
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46624ff1e1eeeede5066cf6972cc92469cf8979c
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: ba285480bc1316d33ea6a5708ec7ef7e6d7451f9
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675049"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377625"
 ---
 # <a name="microsoft-teams-essentials-quickstart-guide-for-small-businesses"></a>小規模企業向けの Microsoft Teams Essentials クイックスタート ガイド
 
@@ -97,7 +97,7 @@ Microsoft 認定パートナーを通じて Teams Essentials を購入した場�
 
 
 > [!IMPORTANT] 
-> 強化された管理と Teams の全機能を利用するには、ユーザーに適した [Microsoft 365 または Office 365 サブスクリプション プラン](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options)を購入して、Teams のフル バージョンにアップグレードする必要があります。組織のコラボレーション方法をより柔軟に管理できるため、これをお勧めします。
+> To get enhanced administration and entire full set of Teams features, you'll need to upgrade to the full version of Teams by purchasing an appropriate [Microsoft 365 or Office 365 subscription plan](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options) for your users. We recommend this as you'll have more flexibility to manage the way your organization collaborates.
 
 ## <a name="administration-limits-and-specifications-for-microsoft-teams-essentials"></a>Microsoft Teams Essentials の管理制限と仕様
 
@@ -166,10 +166,10 @@ Teams へのサインインに使用する現在のメール アドレスを入�
 
 ### <a name="can-i-use-an-existing-email-system-with-microsoft-teams-essentials"></a>Microsoft Teams Essentials で既存のメール システムを使用できますか?  
 
-はい。既存のメール システムを維持し、Teams Essentials を活用して、会議、チャット、およびコラボレーションを行うことができます。  
+Yes. You can keep your existing email system and leverage Teams Essentials to meet, chat and collaborate.  
 
 ### <a name="can-i-connect-my-existing-calendar-solution-with-teams-essentials"></a>既存の予定表ソリューションを Teams Essentials に接続できますか?
-はい。Outlook.com および Google の既存の予定表を Teams Essentials と同期できます。
+Yes. You can sync existing calendars from Outlook.com and Google with Teams Essentials.
 
 既存の予定表ソリューションを Teams Essentials (AAD ID) に接続するには、この記事の後半の手順に従ってください。
 

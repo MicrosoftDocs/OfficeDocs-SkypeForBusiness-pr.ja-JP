@@ -17,15 +17,16 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- highpri
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 66ff8f642e3e006221507953a2fff1740237aea0
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 3dc11a1a7bb841891906755a74d07585a55ec912
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397108"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047057"
 ---
 # <a name="manage-the-updates-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織の更新 アプリを管理する
 
@@ -55,7 +56,7 @@ Teams では、ユーザーは Teams アプリ ストアから更新を取得で
 
 一方、リモート ワーカーのチームがストアの Web サイトを更新しています。 タイム ゾーンに分散されているため、毎日の立ち上げ会議は便利ではありません。 代わりに、各チーム メンバーは、その進捗状況に関する毎日の更新レポートをチーム リーダーに送信します。
 
-[更新のルックブックをダウンロード](https://go.microsoft.com/fwlink/?linkid=2197649&clcid=0x409)して、更新で実行できる操作の例をさらに確認します。
+[更新のルックブックをダウンロード](https://go.microsoft.com/fwlink/?linkid=2197649)して、更新で実行できる操作の例をさらに確認します。
 
 ## <a name="required-permissions-and-licenses"></a>必要なアクセス許可とライセンス
 

@@ -1,10 +1,10 @@
 ---
 title: 正常性レポートと使用状況レポート
-author: donnah007
-ms.author: v-donnahill
+author: altsou
+ms.author: altsou
 manager: serdars
 ms.date: 04/07/2022
-ms.reviewer: ''
+ms.reviewer: altsou
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -18,16 +18,16 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: レポートの正常性と使用状況に関するレポート ノード データ
 f1keywords: ''
-ms.openlocfilehash: 87a04860a69799bf00492691dc24498076bd4924
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 9b1f3e1960cbe0089f498045922125b121679646
+ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271432"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "68243798"
 ---
 # <a name="health-and-usage-reports"></a>正常性レポートと使用状況レポート
 
-レポート ノードには、Microsoft Managed Rooms とサービス分析情報の正常性と使用状況に関するデータが含まれています。 **[概要]** では、ルームのテナント全体の正常性の傾向が表示されます。 [ **正常性** ] タブには、対応する正常性データを含む会議室の一覧が表示されます。 予定表情報と通話品質データに基づく会議室の使用状況は、[ **使用状況** ] タブに表示されます。
+レポート ノードには、Pro Management ポータルのMicrosoft Teams Roomsの正常性と使用状況に関するデータが含まれています。 **[概要]** では、ルームのテナント全体の正常性の傾向が表示されます。 [ **正常性** ] タブには、対応する正常性データを含む会議室の一覧が表示されます。 予定表情報と通話品質データに基づく会議室の使用状況は、[ **使用状況** ] タブに表示されます。
 
 ## <a name="navigating-reports"></a>レポートの移動
 
@@ -42,7 +42,7 @@ ms.locfileid: "67271432"
 <!--!![A screenshot of the banner menu auto-generated](../media/health-and-usage-005.png)-->
 ### <a name="tickets-by-category"></a>カテゴリ別のチケット
 
-ドーナツには、選択した期間とグループに対して発生したチケットの合計が表示されます (既定値は 7 日間、すべてのグループ)。 チケットは、主要なカテゴリ (オーディオ、ディスプレイ、周辺機器、接続、バージョン管理、カスタマー レポート) で表されます。
+ドーナツには、選択した期間とグループに対して発生したチケットの合計が表示されます (既定値は 7 日間、すべてのグループ)。 チケットは、オーディオ、ディスプレイ、周辺機器、接続、バージョン管理、記録済みの問題という主要なカテゴリで表されます。
 
 <!--!![A screenshot of pie chart tickets by category](../media/health-and-usage-006.png)-->
 
@@ -56,20 +56,20 @@ ms.locfileid: "67271432"
 
 戻るには、ドーナツをクリックするか、左上の階層リンクをクリックします。
 
-このリスト ビューで特定のチケットに移動するには、 **サポート チケットの列** の下にあるリンクをクリックします。
+このリスト ビューで特定のチケットに移動するには、[ **サポート チケット] 列** の下にあるリンクをクリックします。
 
-### <a name="ticket-history"></a>チケット履歴
+<!--### Ticket history
 
-チケット履歴グラフには、指定した期間に自分または Microsoft に割り当てられたインシデントの比較が表示されます。
+The ticket history graph shows a comparison of incidents assigned to you or Microsoft over the specified time period.
 
 > [!NOTE]
-> チケットが 1 日で所有者を変更した場合、その日の大半の割り当てを所有しているユーザーは、チケットをその日にカウントされます。 たとえば、1 日の早い段階で Microsoft にチケットを割り当てると、その日の **Microsoft への割り当てに対して** チケットがカウントされます。
+> If a ticket changes owner in a day, whoever owns the assignment for the majority of that day will have the ticket counted towards them. For example, if you assign the ticket to Microsoft early in the day, the ticket counts towards **Assigned to Microsoft** for the day.
 
 <!--![A screen shot of Tickets history by different periods](../media/health-and-usage-009.png)-->
 
 ### <a name="health-history"></a>正常性履歴
 
-このグラフは、テナント内のすべての部屋の平均正常性 (正常性セクションの定義) と、すべての MMR 顧客の平均正常性を毎日示しています。 平均正常性は最大 90 日間表示できます。
+このグラフは、テナント内のすべての部屋の平均正常性 (正常性セクションの定義) と、すべての MRT Pro 顧客の平均正常性を日常的に示しています。 平均正常性は最大 90 日間表示できます。
 
 <!--!![A screenshot of rooms health and average health](../media/health-and-usage-010.png)-->
 

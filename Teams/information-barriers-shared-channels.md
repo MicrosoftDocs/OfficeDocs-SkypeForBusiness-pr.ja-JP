@@ -1,6 +1,6 @@
 ---
 title: 情報バリアと共有チャネル (プレビュー)
-description: この記事では、Microsoft Teamsの情報バリアが共有チャネルをサポートする方法について説明します
+description: この記事では、Microsoft Teams の情報バリアが共有チャネルをサポートする方法について説明します
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -9,6 +9,8 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
+- tier2
+- purview-compliance
 - M365-collaboration
 search.appverid: MET150
 f1.keywords:
@@ -16,18 +18,18 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: information-barriers
-ms.openlocfilehash: 6ee178252c00ec4c73dfaa036f17377cef401d30
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 5b214a4c60df7b50f508fec7985c6f38b65985e6
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922838"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047217"
 ---
 # <a name="information-barriers-and-shared-channels-preview"></a>情報バリアと共有チャネル (プレビュー)
 
-Microsoft Teamsの[共有チャネル](shared-channels.md)は、チームにいないユーザーを招待できるコラボレーション スペースを作成します。 [Microsoft Purview Information Barriers](/microsoft-365/compliance/information-barriers) は、ユーザーとグループが組織内外で相互に通信することを制限および防止するために実装できるポリシーです。
+Microsoft Teams の[共有チャネル](shared-channels.md)では、チームにいないユーザーを招待できるコラボレーション スペースを作成します。 [Microsoft Purview Information Barriers](/microsoft-365/compliance/information-barriers) は、ユーザーとグループが組織内外で相互に通信することを制限および防止するために実装できるポリシーです。
 
-Teamsでは、共有チャネルが既定で有効になっています。 チャネル ポリシーを作成して、ユーザーが共有チャネルを作成できるかどうか、組織外のユーザーと共有できるかどうか、外部の共有チャネルに参加できるかどうかを選択できます。 組織で情報バリア ポリシーが構成されている場合、共有チャネルを構成するときに、既存のチャネル メンバーと共有チャネルに追加された新しいユーザーが情報バリア ポリシー条件に違反していないことを確認するチェックが実行されます。
+Teams では、共有チャネルが既定で有効になっています。 チャネル ポリシーを作成して、ユーザーが共有チャネルを作成できるかどうか、組織外のユーザーと共有できるかどうか、外部の共有チャネルに参加できるかどうかを選択できます。 組織で情報バリア ポリシーが構成されている場合、共有チャネルを構成するときに、既存のチャネル メンバーと共有チャネルに追加された新しいユーザーが情報バリア ポリシー条件に違反していないことを確認するチェックが実行されます。
 
 次の表を使用して、情報バリア ポリシーが通信にどのような影響を与え、共有チャネルを構成するときに特定の動作が発生するかを理解します。
 

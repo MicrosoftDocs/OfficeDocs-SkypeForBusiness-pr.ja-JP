@@ -3,6 +3,23 @@
 
 
 
+## <a name="week-of-september-19-2022"></a>2022 年 9 月 19 日の週
+
+
+| 公開日 |トピックのタイトル | 変更 |
+|------|------------|--------|
+| 9/19/2022 | [通話プランのドキュメント # < 60 文字の Microsoft 365 Teams Phone System](/MicrosoftTeams/business-voice/index) | 更新日時 |
+| 9/19/2022 | [Microsoft Teams の白粧トーク](/MicrosoftTeams/chalk-talks-landing-page) | 更新日時 |
+| 9/19/2022 | [Microsoft Teams 管理者向けドキュメント # < 60 文字](/MicrosoftTeams/index) | 更新日時 |
+| 9/19/2022 | [Microsoft Teams のエンドユーザー トレーニング # < 60 文字](/MicrosoftTeams/instructor-led-training-teams-landing-page) | 更新日時 |
+| 9/19/2022 | [Microsoft Teams の管理者トレーニング](/MicrosoftTeams/teams-admin-training-landing-page) | 更新日時 |
+| 9/19/2022 | [Skype for Businessから Microsoft Teams へのアップグレードを計画する](/MicrosoftTeams/upgrade-skype-teams) | 更新日時 |
+| 9/20/2022 | [アプリのカスタマイズを使用して、組織のニーズに合わせてアプリをブランド化する](/MicrosoftTeams/customize-apps) | 更新日時 |
+| 9/20/2022 | [管理センターで一般的なチーム テンプレートを使用する](/MicrosoftTeams/general-teams-templates-in-the-admin-console) | 更新日時 |
+| 9/20/2022 | [小売業チーム テンプレートを使用する](/MicrosoftTeams/get-started-with-retail-teams-templates) | 更新日時 |
+| 9/20/2022 | [Teams 管理センターで Teams テンプレートの使用を開始する](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | 更新日時 |
+
+
 ## <a name="week-of-september-12-2022"></a>2022 年 9 月 12 日の週
 
 
@@ -112,42 +129,3 @@
 | 8/26/2022 | [Microsoft Teams で通話キューを作成する](/MicrosoftTeams/create-a-phone-system-call-queue-smb) | 更新日時 |
 | 8/26/2022 | [Microsoft Teams で通話キューを作成する](/MicrosoftTeams/create-a-phone-system-call-queue) | 更新日時 |
 | 8/26/2022 | [Teams の自動応答と通話キューを計画する](/MicrosoftTeams/plan-auto-attendant-call-queue) | 更新日時 |
-
-
-## <a name="week-of-august-15-2022"></a>2022 年 8 月 15 日の週
-
-
-| 公開日 |トピックのタイトル | 変更 |
-|------|------------|--------|
-| 8/15/2022 | [ダイレクトルーティングが認定されたセッションボーダーコントローラー](/MicrosoftTeams/direct-routing-border-controllers) | 更新日時 |
-| 8/16/2022 | [Microsoft Teams のプランを呼び出す](/MicrosoftTeams/calling-plans-for-office-365) | 更新日時 |
-| 8/17/2022 | [Teams でアプリ ストアをカスタマイズする](/MicrosoftTeams/customize-your-app-store) | 更新日時 |
-| 8/17/2022 | [Teams 用のデバイス](/MicrosoftTeams/devices/teams-ip-phones) | 更新日時 |
-| 8/17/2022 | [Microsoft Teams でのリソース固有の同意](/MicrosoftTeams/resource-specific-consent) | 更新日時 |
-| 8/17/2022 | [Microsoft Teams のアプリのアクセス許可ポリシーを管理する](/MicrosoftTeams/teams-app-permission-policies) | 更新日時 |
-| 8/17/2022 | [Teams のカスタム アプリのポリシーと設定を管理する](/MicrosoftTeams/teams-custom-app-policies-and-settings) | 更新日時 |
-| 8/17/2022 | [Microsoft Teams 管理センターでカスタム アプリをアップロードする](/MicrosoftTeams/upload-custom-apps) | 更新日時 |
-| 8/18/2022 | [Microsoft Teams 管理センターでアプリのアクセス許可を表示し、管理者の同意を付与する](/MicrosoftTeams/app-permissions-admin-center) | 更新日時 |
-| 8/18/2022 | 新機能 - オペレーター接続 | 削除されました |
-| 8/18/2022 | [Microsoft Teams 管理センターでカスタム アプリをアップロードする](/MicrosoftTeams/upload-custom-apps) | 更新日時 |
-| 8/19/2022 | [Microsoft Teams 管理センターでチームを管理する](/MicrosoftTeams/manage-teams-in-modern-portal) | 更新日時 |
-| 8/19/2022 | [参加者とゲストの会議ポリシーを管理する](/MicrosoftTeams/meeting-policies-participants-and-guests) | 更新日時 |
-| 8/19/2022 | [Teamsのオプションの接続エクスペリエンス](/MicrosoftTeams/teams-privacy-oce-overview) | 更新日時 |
-| 8/20/2022 | [ダイレクト ルーティングでメディア バイパスを計画する](/MicrosoftTeams/direct-routing-plan-media-bypass) | 更新日時 |
-| 8/20/2022 | [Teams 用に組織のネットワークを準備する](/MicrosoftTeams/prepare-network) | 更新日時 |
-| 8/20/2022 | [Microsoft Teams 用の電話とデバイス](/MicrosoftTeams/devices/usb-devices) | 更新日時 |
-| 8/20/2022 | [管理センターで Teams テンプレートを使用する](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | 更新日時 |
-| 8/20/2022 | [Teams 用のサードパーティ製アプリを購入する](/MicrosoftTeams/purchase-third-party-apps) | 更新日時 |
-| 8/20/2022 | [Microsoft Teams でのチームとチャネルの概要](/MicrosoftTeams/teams-channels-overview) | 更新日時 |
-| 8/20/2022 | [オンプレミスSkype for Business Microsoft Teams にアップグレードする](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | 更新日時 |
-| 8/20/2022 | [ボイスメール ポリシーを管理する](/MicrosoftTeams/manage-voicemail-policies) | 追加済 |
-| 8/20/2022 | [ユーザーの電話番号を割り当て、変更、または削除する](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | 更新日時 |
-| 8/20/2022 | [Teams Android デバイスのリモート プロビジョニングとサインイン](/MicrosoftTeams/devices/remote-provision-remote-login) | 更新日時 |
-| 8/20/2022 | [組織のシフト アプリを管理する](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 更新日時 |
-| 8/20/2022 | [オペレーター接続を構成する](/MicrosoftTeams/operator-connect-configure) | 更新日時 |
-| 8/20/2022 | [通信事業者と Microsoft for Operator Connect 間のデータ転送](/MicrosoftTeams/operator-connect-data-transfer) | 更新日時 |
-| 8/20/2022 | [オペレーター接続](/MicrosoftTeams/operator-connect-plan) | 更新日時 |
-| 8/20/2022 | [ユーザーの電話番号を検索する](/MicrosoftTeams/search-for-phone-numbers-for-users) | 更新日時 |
-| 8/20/2022 | [Microsoft Teams でライブ イベント設定を構成する](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | 更新日時 |
-| 8/20/2022 | [Microsoft Teams でのライブ イベントのセットアップ](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 更新日時 |
-| 8/20/2022 | [Microsoft Teams でユーザーの会議ダイヤルアウト確認を設定する](/MicrosoftTeams/set-up-meeting-dial-out-confirmation) | 更新日時 |

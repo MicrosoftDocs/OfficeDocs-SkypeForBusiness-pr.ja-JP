@@ -8,6 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
+ms.date: 09/29/2022
 ms.collection:
 - M365-collaboration
 f1.keywords:
@@ -17,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft 365 全体で Teams アプリへのアクセスを管理する方法について説明します。
-ms.openlocfilehash: e57e4ffb7e2b8ee347ee42588ed7b926ac345020
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 291fd315f9fd5f171edfebaec1bcc0adbcb8edf4
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837477"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377585"
 ---
 # <a name="manage-access-to-teams-apps-across-microsoft-365"></a>Microsoft 365 全体で Teams アプリへのアクセスを管理する
 
@@ -49,7 +50,7 @@ Outlook と Office.com で使用する場合、強化されたアプリでは、
 | アクセスを管理するオプション |ポータル|グローバル管理者|Teams 管理者|
 |--|---|---|--|
 | 対象指定リリースのエンド ユーザーのみが新しいアプリにアクセスできます。 ユーザーを標準リリースに移動します。 「[標準または対象指定リリース オプションを設定する](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide&preserve-view=true)」をご覧ください | Microsoft 365 管理センター | Yes | いいえ |
-| 特定のエンド ユーザーの新しいアプリへのアクセスを管理します。 「[カスタム アクセス許可ポリシーを追加する](teams-app-permission-policies.md#create-a-custom-app-permission-policy)」と「[カスタム ポリシーをユーザーに割り当てる](policy-assignment-overview.md)」を参照してください。 | Teams 管理センター | Yes | Yes |
+| 特定のエンド ユーザーの新しいアプリへのアクセスを管理します。 「[カスタム アクセス許可ポリシーを追加する](teams-app-permission-policies.md#create-an-app-permission-policy)」と「[カスタム ポリシーをユーザーに割り当てる](policy-assignment-overview.md)」を参照してください。 | Teams 管理センター | Yes | Yes |
 | 組織全体のすべてのエンド ユーザーの新しいアプリへのアクセスを管理します。 [「アプリの許可または禁止](manage-apps.md#allow-and-block-apps)」をご覧ください。 | Teams 管理センター | Yes | Yes |
 
 > [!NOTE]
@@ -58,7 +59,7 @@ Outlook と Office.com で使用する場合、強化されたアプリでは、
 > [!NOTE]
 > Outlook と Office で同じアプリの既存の市場内アドインをインストールしたユーザーは、引き続きそのアプリを使用します。 アドインは Teams アプリではなく、Teams 管理者はアクセスを管理できません。
 
-## <a name="see-also"></a>関連項目
+## <a name="related-articles"></a>関連記事
 
 * [Microsoft 365 用に設計されたMicrosoft Teams アプリは、Outlook と Office.com のプレビュー版で提供されます](https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-teams-apps-designed-for-microsoft-365-coming-in/ba-p/3269538)
 * [Microsoft 365 の管理者ロールを理解する](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true)  

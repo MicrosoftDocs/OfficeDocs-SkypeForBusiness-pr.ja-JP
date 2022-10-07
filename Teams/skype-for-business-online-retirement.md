@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0e6118e42600bda58bf7ddc9d7f8e0fee0b7ad9f
-ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
+ms.openlocfilehash: 3c973daf4dc90a6de734c1c76aa352e7a7eeac28
+ms.sourcegitcommit: fc1787ad74a8c454f750a294def188b532cbadd5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706146"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67854393"
 ---
 # <a name="skype-for-business-online-retirement"></a>Skype for Business Online のサポート終了
 
@@ -56,7 +56,8 @@ TeamsOnly モードのユーザーは、Teams で受信チャットと通話を�
    - **Teams コラボレーション** モードで **Skype for Businessのみ** またはSkype for Businessが割り当てられているすべてのユーザーの場合は、共存モードを **Teams コラボレーションと会議でSkype for Business** に変更します。  このモードでは、他の 2 つの機能と同じ機能が提供されます。ただし、ユーザーがスケジュールした新しい会議は、Skype for Business会議ではなく Teams 会議になります。 このモードを (テナント レベルではなく) ユーザーに直接割り当てると、既定では、Skype for Business会議も自動的にそのユーザーが開催した Teams 会議に変換されます。
    - アイランド モードのユーザーの場合は、PreferredMeetingProviderForIslandsMode=Teams を使用して TeamsMeetingPolicy のインスタンスを割り当てることで、Teams で会議を常にスケジュール設定するように要求できます。 
    - 既存のSkype for Business会議が Teams 会議に変換されるようにするには (たとえば、Islands ユーザーがいる場合)、Start-CsExMeetingMigrationを使用して[会議移行サービス](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md#trigger-meeting-migration-manually-via-powershell-cmdlet)をトリガーして、ユーザーの会議を Teams に変換できます。
-  
+
+- ユーザーがオンプレミスから TeamsOnly に移行されたときに、Skype for Business Serverからの連絡先が Teams に適切に移行されるようにするには、移行されたユーザーがオンプレミスから移行されてから 30 日以内に Teams にサインインしていることを確認してください。 これは、Microsoft が従来の Skype for Business Online インフラストラクチャから Teams を移行する一時的な要件です。
 
 ## <a name="actions-to-take-before-june-30-2022"></a>2022 年 6 月 30 日までに実行するアクション
 Skype for Business Online が廃止されたので、Microsoft は 2022 年 6 月 30 日より間もなく、サポート インフラストラクチャの使用停止を開始します。  任意のバージョンのSkype for Businessからアップグレードされた TeamsOnly ユーザーを持つすべての組織では、次のいずれかの状況に該当する場合は、アクションを実行する必要があります。

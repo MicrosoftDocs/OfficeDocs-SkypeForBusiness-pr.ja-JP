@@ -1,9 +1,9 @@
 ---
 title: Microsoft Teams Rooms標準と会議室の計画
-author: donnah007
-ms.author: v-donnahill
+author: altsou
+ms.author: altsou
 manager: serdars
-ms.reviewer: dstrome
+ms.reviewer: srpall
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 環境からのスマートな推奨事項に基づいて標準を構築し、キュレーションします。
 f1keywords: ''
-ms.openlocfilehash: 05376b7c40131be54291961a7562faa6566e8e89
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: bcad1c98cbbf71467789617c53ea98d8f192da49
+ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271962"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "68243838"
 ---
 # <a name="standards-and-room-planner"></a>標準とルーム プランナー
 
@@ -30,7 +30,7 @@ ms.locfileid: "67271962"
 
 ## <a name="view-meeting-room-types"></a>会議室の種類を表示する
 
-このページでは、組織内の会議室または会議スペースの種類を表示できます。 会議室の標準の数、検出された新しいデバイスの数、アクションを実行する必要があるデバイスの数を簡単に分解します。
+このページでは、組織内の会議室または会議スペースの種類を表示できます。 会議室の標準の数、検出された新しいデバイスの数、アクションを実行する必要があるデバイスの数を簡単に内訳します。
 
 このページには、標準ワークフローの  **作成** を起動したり、検出されたデバイス、変更ログ、アーカイブに移動したりできるコマンド バーもあります。
 

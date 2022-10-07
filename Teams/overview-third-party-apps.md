@@ -8,6 +8,7 @@ manager: prkosh
 audience: admin
 ms.subservice: teams-apps
 ms.service: msteams
+ms.date: 08/10/2022
 ms.collection:
 - M365-collaboration
 f1.keywords:
@@ -17,16 +18,16 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f5d06f7db83fecdd4e6ab9cba39331753013da73
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: daffac19653da2b89213643596821abbb09996a4
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837307"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377564"
 ---
 # <a name="overview-of-third-party-apps-in-microsoft-teams"></a>Microsoft Teams のサード パーティ製アプリの概要
 
-Teams ストアには、Microsoft が提供するアプリに加えて、サード パーティのソフトウェア開発者によって作成された多くの便利なアプリが用意されています。 これらを使用するには、管理者として、エンド ユーザーの広範な要件と組織の IT ポリシー、標準、リスク プロファイルのバランスを取るアプリ ガバナンス プロセスを設定します。 これらのアプリはサード パーティのプロバイダーによって作成されたものですが、Microsoft はこれらのアプリの機能、使いやすさ、セキュリティを厳しく検証しています。 Microsoft は、それらのアプリを検証後にのみ、Teams ストアで利用できるようにします。 エンドユーザーが豊富なアプリ エコシステムのメリットを得るには、管理者によるアプリ ガバナンスが重要なステップとなります。
+Teams ストアには、Microsoft が提供するアプリに加えて、サード パーティのソフトウェア開発者によって作成された多くの便利なアプリが用意されています。 これらのアプリを使用するには、管理者として、エンド ユーザーの広範な要件と組織の IT ポリシー、標準、リスク プロファイルのバランスを取るアプリ ガバナンス プロセスを設定します。 これらのアプリはサード パーティのプロバイダーによって作成されたものですが、Microsoft はこれらのアプリの機能、使いやすさ、セキュリティを厳しく検証しています。 Microsoft は、それらのアプリを検証後にのみ、Teams ストアで利用できるようにします。 エンドユーザーが豊富なアプリ エコシステムのメリットを得るには、管理者によるアプリ ガバナンスが重要なステップとなります。
 
 Microsoft Teams のサード パーティ製アプリは、Microsoft によって制御または所有されておらず、Microsoft オンライン サブスクリプション契約によって管理されません。 組織による各サード パーティ製アプリの使用には、そのアプリの使用条件とプライバシーに関する声明が適用されます。 Teams 管理センターでは、使用を許可する前に、アプリ、プライバシーに関する声明、使用条件のすべてのアクセス許可を確認できます。 いつものように、少数の特定のユーザーまたはすべてのユーザーに対してアプリの使用を許可できます。 カスタム アプリの場合と同様に、サード パーティアプリの場合、Teams は管理者がアプリの使用を許可、ブロック、管理、分析できるようにします。
 

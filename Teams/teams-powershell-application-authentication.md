@@ -12,12 +12,12 @@ ms.collection:
 description: Microsoft Teams の管理に使用される Teams PowerShell モジュールのアプリケーション ベースの認証について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b18c8505a255e0f937c077e1f905d721eb597889
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 7dab0f32a6547db5522f00d4750f7eff26ea5995
+ms.sourcegitcommit: 43db97b84ca70b1e6accfa7214d4106e4177a642
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837667"
+ms.lasthandoff: 09/29/2022
+ms.locfileid: "68218091"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Teams PowerShell モジュールでのアプリケーション ベースの認証
 
@@ -26,7 +26,23 @@ ms.locfileid: "67837667"
 
 ## <a name="cmdlets-supported"></a>サポートされているコマンドレット
 
-\*すべての非 Cs コマンドレット (Get-Team など)、Get-CsTenant、Get-CsOnlineUser、Get-CsOnlineVoiceUser & \*-CsOnlineSipDomain コマンドレットは既にサポートされています。 その他のコマンドレットは段階的にロールアウトされます。 
+以下のコマンドレットは既にサポートされており、他のコマンドレットは段階的にロールアウトされます。 
+
+  - Cs 以外 \*のコマンドレット (Get-Team など)
+  - Get-CsTenant
+  - Get-CsOnlineUser、Get-CsOnlineVoiceUser
+  - \*-CsOnlineSipDomain 
+  - \*-CsPhoneNumberAssignment
+  - \*-CsOnlineTelephoneNumberOrder,Get-CsOnlineTelephoneNumberType, Get-CsOnlineTelephoneNumberCountry
+  - \*-CsCallQueue
+  - \*-CsAutoAttendant、 \*-CsAutoAttendant\*
+  - \*-CsOnlineVoicemailUserSettings
+  - Find-CsOnlineApplicationInstance, \*-CsOnlineApplicationInstanceAssociation, Get-CsOnlineApplicationInstanceAssociationStatus
+  - \*-CsOnlineSchedule、New-CsOnlineTimeRange、New-CsOnlineDateTimeRange
+  - \*-CsOnlineAudioFile
+  - Find-CsGroup
+  - \*-CsOnlineDialInConferencingUser, \*-CsOnlineDialInConferencingServiceNumber, \*-CsOnlineDialInConferencingBridge, Get-CsOnlineDialInConferencingLanguagesSupported, Set-CsOnlineDialInConferencingUserDefaultNumber
+  - \*-CsOnlineLisLocation、 \*-CsOnlineLisCivicAddress、 \*-CsOnlineLisWirelessAccessPoint、 \*-CsOnlineLisPort、 \*-CsOnlineLisSubnet、 \*-CsOnlineEnhancedEmergencyServiceDisclaimer、 \*-CsOnlineLisSwitch
 
 
 ## <a name="examples"></a>例

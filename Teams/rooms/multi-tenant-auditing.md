@@ -1,9 +1,9 @@
 ---
-title: マルチテナント監査
-author: donnah007
-ms.author: v-donnahill
+title: MRT Pro Portal での監査ログ
+author: altsou
+ms.author: altsou
 manager: serdars
-ms.reviewer: dstrome
+ms.reviewer: altsou
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -15,21 +15,21 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: TRM の監査ログ。
+description: MRT Pro Portal の監査ログ。
 f1keywords: ''
-ms.openlocfilehash: de7f01a3c93dc31ff10c9e00cb3d0f3ef5806cb3
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 0436618e257128deb38d890cb92813ae13921e7d
+ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269108"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "68243918"
 ---
-# <a name="audit-logging-in-the-teams-rooms-managed-service"></a>Teams Rooms マネージド サービスの監査ログ
+# <a name="audit-logging-in-the-mtr-pro-portal"></a>MRT Pro Portal での監査ログ
 
-Teams Roomsマネージド (TRM) サービスの監査では、ユーザーと管理者がポータルで実行したアクティビティの監査レコードを検索できます。 この機能は既定で有効になっています。 マネージド サービス管理者のみが、ログをエクスポートして表示する権限を持ちます。
+MRT Pro Portal の監査ログを使用すると、ユーザーと管理者が実行したアクティビティの監査レコードを検索できます。 この機能は既定で有効になっています。 マネージド サービス管理者のみが、ログをエクスポートして表示する権限を持ちます。
 
 > [!NOTE]
-> TRM サービスで実行されたアクションが Microsoft 365 またはOffice 365監査に記録されない 
+> MRT Pro Portal で実行されたアクションが Microsoft 365 またはOffice 365監査に記録されない 
 
 ## <a name="exporting-logs"></a>ログのエクスポート
 

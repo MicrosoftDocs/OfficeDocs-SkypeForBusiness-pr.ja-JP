@@ -7,9 +7,11 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
+ms.date: 09/20/2022
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- highpri
 ms.reviewer: mhayrapetyan
 search.appverid: MET150
 f1keywords:
@@ -18,12 +20,12 @@ description: 組織でブロックされているアプリの承認に対する�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 0967aec80bb88dff12141040fead94af9aae0616
-ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
+ms.openlocfilehash: 382d3923d008f0bf70b2d9b9a4f3364709b4f2e1
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706226"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377605"
 ---
 # <a name="manage-user-requests"></a>ユーザー要求を管理する
 
@@ -33,7 +35,7 @@ ms.locfileid: "67706226"
 
 ユーザーに対して許可またはブロックされているアプリの完全な制御を保持します。 アプリを許可することを選択した場合、アプリを管理するためのコントロールと UI は変わりません。
 
-* 既定のオプションでは、ユーザー要求を Teams 管理センターに送信し、 [ユーザー要求を表示し、要求されたアプリを許可](#view-user-requests-in-teams-admin-center)できます。
+* 既定のオプションでは、ユーザー要求を Teams 管理センターに送信し、 [ユーザー要求を表示し、要求されたアプリを許可](#view-and-act-on-user-requests-in-teams-admin-center)できます。
 
    :::image type="content" source="media/user-request-blocked-apps.png" alt-text="管理者にブロックされたアプリの承認を要求するオプションを示すスクリーンショット。":::
 
@@ -41,7 +43,7 @@ ms.locfileid: "67706226"
 
    :::image type="content" source="media/user-request-blocked-apps-redirected.png" alt-text="管理者が許可アプリ要求 URL を組織固有の URL にリダイレクトしたときのストア内のアプリのエンド ユーザー エクスペリエンスを示すスクリーンショット。":::
 
-## <a name="view-user-requests-in-teams-admin-center"></a>Teams 管理センターでユーザー要求を表示する
+## <a name="view-and-act-on-user-requests-in-teams-admin-center"></a>Teams 管理センターでユーザー要求を表示して操作する
 
 既定の方法で受信したエンド ユーザー要求は、Teams 管理センターに表示されます。 要求を簡単に表示および管理できます。 エンド ユーザー要求を確認するには、通常のトリアージをお勧めします。 アプリを表示して許可するには、次の手順に従います。
 
@@ -90,7 +92,7 @@ Teams は、ユーザーがアプリに承認を要求するための既定の�
 
 ## <a name="dismiss-user-requests"></a>ユーザー要求を無視する
 
-許可アプリへの要求を却下するには、次の手順に従います。
+要求を却下するには、次の手順に従います。
 
 1. ユーザー要求を無視するアプリの名前を選択します。
 1. [ **要求の管理**] を選択します。

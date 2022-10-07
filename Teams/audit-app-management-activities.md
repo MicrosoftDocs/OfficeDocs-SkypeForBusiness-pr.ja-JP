@@ -7,6 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
+ms.date: 08/24/2022
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
@@ -15,12 +16,12 @@ description: 組織内のユーザーと管理者の Teams アプリ アクテ�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: f1b7a8ca14a087ecaf7e7a8898f9bdb85e87e3c5
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 7abaed00f8bb02daa63d30cd5092e007f8d5a8f5
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837727"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377535"
 ---
 # <a name="audit-for-app-management-activities-and-events"></a>アプリ管理アクティビティとイベントの監査
 
