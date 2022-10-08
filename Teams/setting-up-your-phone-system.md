@@ -13,6 +13,7 @@ ms.collection:
 - m365initiative-voice
 - m365solution-voice
 - m365solution-scenario
+- highpri
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -24,12 +25,12 @@ ms.custom:
 - seo-marvel-apr2020
 - intro-get-started
 description: Microsoft 365 で組織の Teams Phone System を設定する方法を詳しく説明するステップ バイ ステップ ガイド。
-ms.openlocfilehash: 7f5a29bc5d57d59cf8d63dbe1f61db18a906e110
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: beb82fd78fa58a4a3339dc1b7a5f54ceb5117479
+ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156902"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "67999542"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>組織内の電話システムの設定
 
@@ -49,7 +50,7 @@ ms.locfileid: "67156902"
 
 ## <a name="step-1-buy-and-assign-a-phone-system-license"></a>手順 1: Phone System ライセンスを購入して割り当てる
 
-電話システム ライセンスを 1 人のユーザーに割り当てるには、手順は Microsoft 365 ライセンスの割り当てと同じです。 ライセンスを複数のユーザーに一括で割り当てることもできます。 使用可能な Phone System ライセンスとライセンスの取得と割り当て方法の詳細については、「 [Teams アドオン ライセンス](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing) 」および「 [Microsoft Teamsアドオン ライセンスの割り当て」を](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)参照してください。
+電話システム ライセンスを 1 人のユーザーに割り当てるには、手順は Microsoft 365 ライセンスの割り当てと同じです。 ライセンスを複数のユーザーに一括で割り当てることもできます。 使用可能な電話システム ライセンスとライセンスの取得と割り当て方法の詳細については、「 [Teams アドオン ライセンス](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing) 」と「 [Microsoft Teams アドオン ライセンスの割り当て」を](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)参照してください。
 
 ## <a name="step-2-choose-a-pstn-connectivity-option"></a>手順 2. PSTN 接続オプションを選択する
 
@@ -103,7 +104,7 @@ ms.locfileid: "67156902"
 
 ## <a name="step-7-set-up-communications-credits-for-toll-free-numbers"></a>手順 7: フリーダイヤル番号の通信クレジットを設定する
 
-Microsoft Teamsでフリーダイヤル番号を使用する場合は、通信クレジットを設定する必要があります。 無料電話の通話は、分単位で請求され、コミュニケーション クレジットの残高がプラスである必要があります。
+Microsoft Teams でフリーダイヤル番号を使用する場合は、通信クレジットを設定する必要があります。 無料電話の通話は、分単位で請求され、コミュニケーション クレジットの残高がプラスである必要があります。
 
 通信クレジットは、次のように使用するフリーダイヤル番号を追加する便利な方法です。
 

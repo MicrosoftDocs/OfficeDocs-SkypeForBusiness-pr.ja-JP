@@ -9,9 +9,11 @@ manager: prkosh
 audience: admin
 ms.service: msteams
 ms.subservice: teams-apps
+ms.date: 10/01/2022
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- highpri
 f1.keywords:
 - NOCSH
 ms.localizationpriority: high
@@ -19,18 +21,20 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 67c50eefdd1d0e20e10b9542912f0e2c4f412815
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: adabe9321307bb9696636ae7ab882775705dcd27
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837647"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68376995"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Microsoft Teams アプリを理解する
 
-アプリは、職場のツールとサービスをまとめ、他のユーザーと共同作業する優れた方法です。 アプリは、エンド ユーザーの日常業務における生産性向上、共同作業、効率化に役立ちます。 組織は、顧客とつながり、サービスを提供し、情報を共有するためにアプリを使用します。 たとえば、エンド ユーザーは、他のユーザーとすばやく共同で作業するために Teams にピン留めされた予定表アプリ、Teams チャネルで Web サービスの品質をユーザーに通知するボット機能を備えたアプリ、チャネル内のさまざまなエンド ユーザーとタスクを共有して割り当てるアプリなどを使用します。
+Teams のアプリは、ユーザーが職場のツールやサービスをまとめ、他のユーザーと共同作業するのに役立ちます。 たとえば、エンド ユーザーは、他のユーザーとすばやく共同で作業するために Teams にピン留めされた予定表アプリ、Teams チャネルで Web サービスの品質をユーザーに通知するボット機能を備えたアプリ、チャネル内のさまざまなエンド ユーザーとタスクを共有して割り当てるアプリなどを使用します。 Microsoft Teams アプリは、ローカルに展開する必要のない Web ベースの SaaS アプリです。
 
-Teams Store の検証済みおよびセキュリティで保護されたアプリの広範な [カタログ](https://appsource.microsoft.com/en-US/marketplace/apps?product=office%3Bteams&page=1) では、組織が毎日必要とするツールとサービスへのアクセスをエンド ユーザーに提供します。 Microsoft Teams アプリは、展開する必要のない Web ベースの SaaS アプリです。 エンドユーザーは、ユーザーが [提供したアクセス許可](app-policies.md)のみに基づいて Teams でアプリを使用できます。 管理者は、エンタープライズ レベルのポリシーを使用して、組織のユーザーに対して任意のアプリを許可またはブロックします。 会議、チャット、チャネルなどのさまざまなコンテキストで、各ユーザーのアプリの可用性を制御します。
+管理者は、エンド ユーザーの広範な要件と組織の IT ポリシー、標準、リスク プロファイルのバランスを取るアプリ ガバナンス プロセスを設定します。
+
+検証済みのセキュリティで保護された Teams アプリの広範な [カタログ](https://appsource.microsoft.com/marketplace/apps?product=office%3Bteams&page=1) では、組織が毎日必要とするツールとサービスへのアクセスをエンド ユーザーに提供します。 Teams 管理センターでは、アプリを管理するためのエンタープライズ レベルのコントロールと構成を管理者に提供します。 会議、チャット、チャネルなどのさまざまなコンテキストで、各ユーザーのアプリの可用性を制御します。
 
 この記事は、アプリの種類と、ユーザーがそれらのアプリにアクセスする場所を理解することに役立ちます。 アプリの使用方法の詳細については、「[エンドユーザー向けアプリの概要](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)」を参照してください。
 
@@ -53,7 +57,7 @@ Microsoft には、生産性と共同作業を向上させるための多くの�
 
 Teams には、リスト、Tasks、称賛、承認などを含む一連の組み込みアプリが付属しています。 Teams の初期展開時に、おすすめのアプリ (Planner など) を含めることをお勧めします。
 
-:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Microsoft Teams 管理センターの Microsoft アプリのスクリーンショット" lightbox="media/microsoft-apps-in-tac2.png":::
+:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Teams 管理センターの Microsoft アプリの一覧を示すスクリーンショット。" lightbox="media/microsoft-apps-in-tac2.png":::
 
 ## <a name="third-party-apps-validated-by-microsoft"></a>Microsoft による検証済みのサード パーティ製アプリ
 
@@ -168,6 +172,6 @@ You can use activity reports to see how users in your organization are using Tea
 
 --->
 
-## <a name="related-articles"></a>関連記事
+## <a name="related-article"></a>関連記事
 
 * [Teams 用アプリ テンプレートの詳細については、こちらを参照してください](/microsoftteams/platform/samples/app-templates)。

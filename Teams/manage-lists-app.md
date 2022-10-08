@@ -22,15 +22,16 @@ ms.collection:
 - microsoftcloud-retail
 - m365initiative-lists
 - m365-frontline
+- highpri
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 39d44feb46fa20cb27755792e7f2236ed16b051f
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 9ea4e8cb49166c116d69c12d795659b55c93c556
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396278"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047047"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織のシフト アプリを管理する
 
@@ -84,7 +85,7 @@ SharePoint で設定したアクセス許可は、リスト アプリで作成�
 
 リストを使用すると、ユーザーはデスクトップ、Web、モバイルでの利用環境を得ることができます。 重要な点として、Teams モバイル クライアントではリストを使用した新しいリストの作成や、既存のリストのピン留めができないという点が挙げられます。 Teams モバイル クライアントでリストを表示または編集するには、最初に Teams デスクトップ クライアントまたは Web クライアントでリストを使用して作成または追加を行う必要があります。
 
-ゲストがリストを作成したり、削除したりすることはできません。既存のリストにリスト アイテムを追加したり、リスト アイテムに関する新しい会話を開始したり、リスト アイテムに関する既存の会話に返信したりすることができます。
+Guests can't create or delete a list. They can add list items to existing lists, start new conversations about list items, and reply to existing conversations about list items.
 
 ### <a name="lists-and-the-sharepoint-app"></a>リストと SharePoint アプリ
 

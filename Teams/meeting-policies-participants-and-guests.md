@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Teams で参加者とゲストの会議ポリシー設定を管理する方法について説明します。
-ms.openlocfilehash: 46db9b7f5a1fae40d3f46bad156e318a3e677d07
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: 5b489f312dd1fd1fcd9bdb6a301a65e76ab9ed91
+ms.sourcegitcommit: 9522d951700d19ab13c60a6452b3a8a4c824ee36
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706624"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "68018093"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>会議ポリシーの設定 - 参加者とゲスト
 
@@ -62,7 +62,7 @@ ms.locfileid: "67706624"
  会議の開催者は、会議出席依頼の [**会議オプション**] をクリックして、スケジュールする会議ごとにこの設定を変更できます。
 
 > [!NOTE]
-> [会議] のオプションの設定には、"ロビーをバイパスできるユーザー" のラベルが表示されます。ユーザーの既定の設定を変更すると、そのユーザーによって開催されたすべての新しい会議に適用され、ユーザーが会議のオプションを変更していない以前の会議にも適用されます。
+> In the meeting options the setting is labeled "Who can bypass the lobby". If you change the default setting for any user, it will apply to all new meetings organized by that user and any prior meetings where the user didn't modify Meeting options.
   
 |値を設定する  |参加動作 |
 |---------|---------|
@@ -91,7 +91,7 @@ ms.locfileid: "67706624"
 
 |値を設定する |動作  |
 |---------|---------|
-|**無効だが、ユーザーが上書きできる**     | 会議中にユーザーのライブ キャプションが自動的に有効になることはありません。 オーバーフロー (**...**) メニューに [**ライブ キャプションを有効にする**] オプションが表示され、それらを有効にします。 これは、既定の設定です。 |
+|**有効になっていませんが、ユーザーはオーバーライドできます**     | 会議中にユーザーのライブ キャプションが自動的に有効になることはありません。 オーバーフロー (**...**) メニューに [**ライブ キャプションを有効にする**] オプションが表示され、それらを有効にします。 これは、既定の設定です。 |
 |**無効**     | 会議中、ユーザーのライブ キャプションが無効になります。 ユーザーには、それらを有効にするオプションはありません。          |
 
 <a name="bkcontentsharing"> </a>

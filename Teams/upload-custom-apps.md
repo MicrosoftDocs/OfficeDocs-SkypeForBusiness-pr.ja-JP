@@ -8,6 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
+ms.date: 09/26/2022
 ms.collection:
 - M365-collaboration
 appliesto:
@@ -17,12 +18,12 @@ f1.keywords:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams 管理センターの組織のアプリ ストアにカスタム アプリをアップロードする方法について説明します。
-ms.openlocfilehash: 60bb4c2ce41830dd789bd70763c8f3eb6ab8cde7
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 51ea4bdc31ff59a34bdf28a991617fff0f4e7381
+ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837317"
+ms.lasthandoff: 10/07/2022
+ms.locfileid: "68494610"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>アプリ パッケージをアップロードしてカスタム アプリを発行する
 
@@ -31,7 +32,7 @@ ms.locfileid: "67837317"
 
 この記事では、Teams アプリを開発から展開、検出に順番に移行する方法に関するエンドツーエンドのガイダンスを提供します。 このガイダンスは、アプリの Teams の側面に焦点を当て、管理者と IT 担当者を対象としています。 Teams アプリの開発に関する詳細については、「[Teams 開発者向けドキュメント](/microsoftteams/platform/)」を参照してください。
 
-![開発から展開までのアプリの概要。](media/upload-custom-apps.png)
+:::image type="content" source="media/upload-custom-apps.png" alt-text="開発から展開までのアプリの概要。":::
 
 ## <a name="create-your-app"></a>アプリを作成する
 
@@ -84,7 +85,7 @@ Teams ストア内のすべてのアプリは、グローバル Teams アプリ 
 
 1. [ **アップロード**] を選択し、[ **アップロード**] を選択し、開発者から受け取ったアプリ パッケージを選択して、[ **開く**] を選択します。
 
-   ![管理センターでのカスタム アプリのアップロードのスクリーンショット。](media/manage-your-lob-apps-upload-new-app.png)
+   :::image type="content" source="media/manage-your-lob-apps-upload-new-app.png" alt-text="管理センターでのカスタム アプリのアップロードのスクリーンショット。":::
 
 ## <a name="set-up-and-manage"></a>セットアップと管理
 
@@ -134,6 +135,6 @@ Microsoft Teams 管理センターの [アプリを管理] ページでアプリ
 
 * [Teams アプリ 申請 API を使用して送信されたカスタム アプリを発行する](submit-approve-custom-apps.md)
 * [Microsoft Teams 管理センターで、Teams アプリの組織向けアプリを管理します。](manage-apps.md)
-* [Teams のカスタム アプリのポリシーと設定を管理する](teams-custom-app-policies-and-settings.md)
+* [カスタム アプリのポリシーと設定を管理する](teams-custom-app-policies-and-settings.md)
 * [Teams のアプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md)
 * [Teams のアプリのセットアップ ポリシーを管理する](teams-app-setup-policies.md)

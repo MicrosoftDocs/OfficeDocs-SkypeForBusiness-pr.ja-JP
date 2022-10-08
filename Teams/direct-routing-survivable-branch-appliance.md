@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc250b0506614ef658ade9a491c5561a65b98800
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 976c73aebe698152c4824e3eaedfcc19a13ae525
+ms.sourcegitcommit: 1be178dc3b34575e1914e629f004f897c02e0097
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269672"
+ms.lasthandoff: 09/28/2022
+ms.locfileid: "68138490"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing"></a>ダイレクト ルーティング用の存続可能ブランチ アプライアンス (SBA)
 
@@ -208,6 +208,8 @@ SBA アプリケーションの場合は、次の点に注意してください�
 SBC ベンダーのサポート組織に問題を報告します。 問題を報告するときは、存続可能ブランチ アプライアンスが構成されていることを示します。
 
 ## <a name="known-issues"></a>既知の問題
+
+- SBA は 24 時間有効で、毎日更新される認証トークンに依存するため、現在 SBA は最後の認証から最大 24 時間の停止をサポートできます。 つまり、最後の認証トークンの更新から 20 時間後に停止が発生した場合、SBA は残りの 4 時間だけ動作します。
 
 - 新しい存続可能ブランチ アプライアンスを追加すると、存続可能ブランチ アプライアンス ポリシーで使用できるようになるまでに時間がかかる場合があります。
 

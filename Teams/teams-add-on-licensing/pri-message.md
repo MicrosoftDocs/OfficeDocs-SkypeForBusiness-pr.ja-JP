@@ -1,7 +1,7 @@
 ---
 title: Teams のメッセージングの優先度通知
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: salu
 ms.topic: reference
@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Microsoft Teams のメッセージングの優先度通知について説明します。
-ms.openlocfilehash: cca511df23aced6dac453736f532be985cd97928
-ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
+ms.openlocfilehash: cac864863ec3313b6a0298ece4c10124af6e34ca
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66825871"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377315"
 ---
 # <a name="messaging-policies-licensing"></a>メッセージング ポリシーのライセンス
 

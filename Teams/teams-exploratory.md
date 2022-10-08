@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Exploratory エクスペリエンスを管理する
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: reference
 audience: Admin
@@ -17,16 +17,16 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a9069a0ab86c043749f24b5c7b19d2e4ff6280b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: a5124c36b48c4cd8d6d2a466cbdc46c962b9aa11
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268842"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68376845"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams Exploratory ライセンスを管理する
 
-Microsoft Teams Exploratory エクスペリエンスを使用すると、Azure Active Directory (Azure AD) を持ち、Teams のライセンスを取得していない組織内のユーザーは、Teams の Exploratory エクスペリエンスを開始できます。管理者は組織内のユーザーに対して、この機能をオンまたはオフに切り替えることができます。
+The Microsoft Teams Exploratory experience lets users in your organization who have Azure Active Directory (Azure AD) and aren't licensed for Teams initiate an exploratory experience of Teams. Admins can switch this feature on or off for users in their organization.
 
 ## <a name="whats-in-the-teams-exploratory-experience"></a>Teams Exploratory エクスペリエンスの内容
 
@@ -118,7 +118,7 @@ Teams へのアクセスをオフにするには:
 
 ### <a name="manage-teams-availability-for-users-who-are-already-using-the-teams-exploratory-experience"></a>Teams Exploratory エクスペリエンスをすでに使用しているユーザーの Teams の可用性を管理する
 
-ユーザーが Teams Exploratory エクスペリエンスを実行している場合は、ライセンスまたはサービス プランを削除することでそれをオフにできます。管理者権限が必要です。
+If a user is running the Teams Exploratory experience, you can turn it off by removing the license or service plan. You must have admin privileges.
 
 Teams Exploratory エクスペリエンスのライセンスをオフにするには:
 

@@ -8,10 +8,12 @@ ms.service: msteams
 ms.subservice: teams-apps
 ms.custom: intro-get-started
 audience: admin
+ms.date: 09/29/2022
 ms.collection:
 - M365-collaboration
 - m365-frontline
-ms.reviewer: vaibhava
+- highpri
+ms.reviewer: kojika
 search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.manageapps.overview
@@ -19,14 +21,14 @@ description: Teams アプリを管理する方法について説明します。 
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 3278d7cdbc144f839bbb6a675ff8f3e5168c80ed
-ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
+ms.openlocfilehash: 3d49d3e44e848b1d51388b148416fb897c335758
+ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67705826"
+ms.lasthandoff: 10/07/2022
+ms.locfileid: "68494670"
 ---
-# <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターで Teams アプリを管理する
+# <a name="overview-of-app-management-and-governance-in-teams-admin-center"></a>Teams 管理センターでのアプリ管理とガバナンスの概要
 
 Teams 管理センター ポータルで、**Teams アプリ** の組織向けアプリを管理します。 [アプリの管理] ページを使用すると、組織のアプリ カタログ内のすべての Teams アプリを表示および管理したり、アプリ管理の明確なユース ケースに対応したり、ポリシーを使用してアプリへのアクセスを定義したりできます。
 
@@ -52,7 +54,7 @@ Teams 管理センターを使用するには、グローバル管理者ロー�
 | アプリを許可およびブロックすることで、組織内のユーザーが使用できるアプリを制御します。 カスタム アプリをアップロードして承認することもできます。 このページでアプリを管理した後、アプリのアクセス許可とアプリのセットアップ ポリシーを使用して、組織のアプリ ストア内の特定のユーザーが利用できるアプリを構成できます。 | [Teams 管理センターでアプリを管理する](https://admin.teams.microsoft.com/policies/manage-apps) | 現在の記事 |
 | アプリのアクセス許可ポリシーは、組織内の Teams ユーザーが使用できるようにするアプリを制御します。 グローバル (組織全体の既定) ポリシーを使用してカスタマイズするか、組織のニーズを満たすために、1 つ以上のポリシーを作成できます。 | [アクセス許可ポリシー](https://admin.teams.microsoft.com/policies/app-permission) | [アプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md) |
 | アプリのセットアップ ポリシーは、Teams アプリを使用してユーザーがアプリを使用できるようにする方法を制御します。 グローバル (組織全体の既定) ポリシーを使用してカスタマイズするか、カスタム ポリシーを作成してユーザーのセットに割り当てます。 | [セットアップ ポリシー](https://admin.teams.microsoft.com/policies/app-setup) | [アプリのセットアップ ポリシーを管理する](teams-app-setup-policies.md) |
-| カスタム アプリを開発してアプリ パッケージとしてアップロードし、組織のアプリ ストアで利用できるようにすることができます。 | [[アプリの管理]](https://admin.teams.microsoft.com/policies/manage-apps) の組織全体のアプリ設定 | [カスタム アプリ ポリシーを管理する](teams-custom-app-policies-and-settings.md) |
+| カスタム アプリを開発してアプリ パッケージとしてアップロードし、組織のアプリ ストアで利用できるようにすることができます。 | [[アプリの管理]](https://admin.teams.microsoft.com/policies/manage-apps) の組織全体のアプリ設定 | [カスタム アプリのポリシー設定を管理する](teams-custom-app-policies-and-settings.md) |
 | 組織のロゴおよびカスタムの背景や色を使用して、Teams アプリ ストアをカスタマイズできます。 | [ストアをカスタマイズする](https://admin.teams.microsoft.com/policies/customize-appstore) | [組織のアプリ ストアをカスタマイズする](customize-your-app-store.md) |
 | Teams アプリの使用状況レポートには、使用中のアプリ、アクティブなユーザー、その他のアプリの使用状況に関する情報が表示されます。 | [利用状況レポート](https://admin.teams.microsoft.com/analytics/reports) | [Teams アプリの使用状況レポート](teams-analytics-and-reports/app-usage-report.md) |
 | ユーザーは、ゲストとの会議やチャットをホストするときにアプリを追加できます。 外部からホストする会議やチャットに参加するときに、ゲストが共有するアプリを使用することもできます。 ホストしているユーザーの組織のデータ ポリシーと、そのユーザーの組織が共有するサードパーティ アプリのデータ共有の慣行が適用されます。 | [外部アクセス](https://admin.teams.microsoft.com/company-wide-settings/external-communications) | [ユーザーの種類に応じたアプリの動作](non-standard-users.md) |
@@ -73,31 +75,25 @@ Teams 管理センターを使用するには、グローバル管理者ロー�
 
 ## <a name="allow-and-block-apps"></a>アプリの許可とブロック
 
-[アプリの管理] ページは、組織レベルで個々のアプリを許可またはブロックする場所です。 ページには、使用可能なすべてのアプリとその現在の組織レベルのアプリの状態が表示されます。 アプリの一覧には、Microsoft、サードパーティの開発者、および組織内の開発者によって提供されるアプリなどがあります。
+管理者は、すべてのユーザーがすべてのコンテキストで使用するすべての種類のアプリへのアクセスを制御します。 Teams では、各アプリと各ユーザーに対してアクセスを構成するための詳細な制御が提供されます。
 
-アプリを許可またはブロックするには、以下の操作を行います。
+アプリを許可するには、次のすべての設定を実行する必要があります。 アプリをブロックするには、次のいずれかの設定でブロックします。
+
+* [組織全体のアプリ設定](manage-apps.md#manage-org-wide-app-settings): この設定を使用して、組織内のアプリの使用を許可します。使用する特定のアプリを決定します。
+* [個々のアプリを許可する](manage-apps.md#allow-and-block-apps): この設定を使用して、組織内の特定のアプリを許可します。アプリを使用できるユーザーを決定します。
+* [アプリのアクセス許可ポリシー](teams-app-permission-policies.md): ポリシーを使用して、すべてのユーザーにアプリの使用を許可または許可します。 ユーザーごととアプリ単位でアクセスを決定します。
+
+[アプリの管理] ページは、組織レベルで個々のアプリを許可またはブロックする場所です。 ページには、使用可能なすべてのアプリとその現在の組織レベルのアプリの状態が表示されます。 アプリを許可またはブロックするには、次の手順に従います。
 
 1. Teams 管理センターにサインインし、**Teams アプリ** > にアクセスする **[アプリを管理](https://admin.teams.microsoft.com/policies/manage-apps)** する
-1. アプリの一覧からアプリを選択します。 アプリの名前で検索できます。
+1. アプリを見つけて選択します。
 1. **[許可]** または **[ブロック]** オプションを選択します。
 
-Teams 管理センターの [[アプリの管理]](https://admin.teams.microsoft.com/policies/manage-apps) ページでアプリを許可 (またはブロック) すると、組織内のすべてのユーザーに対して特定のアプリが許可 (またはブロック) されます。 この方法は、アクセス許可ポリシーを介してアプリを許可 (またはブロック) すると、ポリシーが割り当てられた特定のユーザーにのみ影響を与えるコンテキストのアプリ アクセス許可ポリシーとは異なります。
-
-ユーザーは、テナント全体の設定を介してアプリが許可され、アクセス許可ポリシーを介してユーザーに許可されている場合にのみ、アプリをインストールして使用できます。
-
-## <a name="allow-the-apps-that-are-blocked-by-the-developers"></a>開発者がブロックしているアプリを許可する
-
-開発者が Teams アプリ ストアにアプリを発行する場合、アプリ エクスペリエンスを構成またはカスタマイズするために管理者が必要になる場合があります。 管理者は、アプリのセットアップ時にエンド ユーザーがアプリを利用できるようにします。
-
-たとえば、Contoso Electronics は、Microsoft Teams のヘルプ デスク アプリを作成したアプリ開発者です。 Contoso Electronics は、その顧客がアプリを操作するときに期待どおりに機能するように、顧客がアプリの特定のプロパティを設定することを望んでいます。 管理者がアプリケーションを許可する前に、Teams 管理センターで "**発行元 によってブロック済み**" として表示され、既定ではエンド ユーザーから非表示になっています。 発行元のガイダンスに従ってアプリを設定した後、状態を **[許可]** に変更してユーザーが利用できるようにすることができます。
-
-:::image type="content" source="media/blocked-by-publisher.png" alt-text="Teams 管理センターの発行元の状態によってブロックされていることを示すスクリーンショット。":::
-
-開発者がアプリを既定でブロックする方法については、「管理者が許可 [するまでアプリをブロックできるようにする](/microsoftteams/platform/concepts/design/enable-app-customization#hide-teams-app-until-admin-approves)」を参照してください。
+特定のユーザーに対してアプリを許可するには、 [アプリのアクセス許可ポリシーに関するページを](teams-app-permission-policies.md)参照してください。
 
 ## <a name="manage-org-wide-app-settings"></a>組織全体のアプリ設定の管理
 
-組織全体のアプリ設定を使用して、[F ライセンス](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)を持つユーザーがカスタマイズされた現場アプリ エクスペリエンスを取得するかどうか、ユーザーがサードパーティ製アプリをインストールできるかどうか、ユーザーが組織内のカスタム アプリをアップロードまたは操作できるかどうかを制御します。 組織全体のアプリ設定は、すべてのユーザーの動作を管理し、ユーザーに割り当てられた他のアプリ権限ポリシーを上書きします。
+組織全体のアプリ設定を使用して、[F ライセンス](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)を持つユーザーがカスタマイズされた現場アプリ エクスペリエンスを取得するかどうか、ユーザーがサードパーティ製アプリをインストールできるかどうか、ユーザーが組織内のカスタム アプリをアップロードまたは操作できるかどうかを制御します。
 
 > [!NOTE]
 > Microsoft 365 Government - Government Community Cloud High GCCH および国防総省 (DoD) の Teams のデプロイで組織全体のアプリ設定を使用する方法については、「[Teams でアプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md)」を参照してください。
@@ -119,12 +115,60 @@ Teams 管理センターの [[アプリの管理]](https://admin.teams.microsoft
         > [!NOTE]
         > Teams ユーザーは、他の組織のユーザーとの会議やチャットをホストするときにアプリを追加できます。 他の組織がホストする会議やチャットに参加するときに、他の組織のユーザーが共有するアプリを使用することもできます。 ホストしているユーザーの組織のデータ ポリシーと、そのユーザーの組織が共有するサードパーティ アプリのデータ共有の慣行が適用されます。
 
-    * **ストアに公開された新しいサードパーティ アプリを既定で許可する**: ここでは、Teams アプリ ストアに公開された新しいサードパーティ アプリを Teams で自動的に利用可能にするかどうかを制御します。このオプションは、サードパーティのアプリを許可する場合にのみ設定できます。
+    * **Allow any new third-party apps published to the store by default**: This controls whether new third-party apps that are published to the Teams app store become automatically available in Teams. You can only set this option if you allow third-party apps.
 
-1. **[カスタム アプリ]** で、**[カスタム アプリとの対話を許可する]** をオフまたはオンにします。 この設定は、ユーザーがカスタム アプリを操作できるかどうかを制御します。 詳細については、「[Teams のカスタム アプリのポリシーと設定を管理する](teams-custom-app-policies-and-settings.md)」をご覧ください。
+1. **[カスタム アプリ]** で、**[カスタム アプリとの対話を許可する]** をオフまたはオンにします。 この設定は、ユーザーがカスタム アプリを操作できるかどうかを制御します。 詳細については、「 [カスタム アプリのポリシーと設定の管理」を](teams-custom-app-policies-and-settings.md)参照してください。
+
+1. **[保存]** を選択します。 設定は数時間後に有効になります。
+
+## <a name="manage-org-wide-app-settings-for-microsoft-365-government"></a>Microsoft 365 Government の組織全体のアプリ設定を管理する  
+
+Microsoft 365 Government の場合 - Teams の GCCH および DoD 展開では、すべてのサードパーティ アプリが既定でブロックされています。 GCCH および DOD クラウドでは、サード パーティ製アプリは使用できません。 さらに、GCC では、Microsoft Teams の管理センターのアプリ許可ポリシーページで、サードパーティ アプリの管理について以下のような注意事項が表示されます。
+
+:::image type="content" source="media/app-permission-policies-gcc.png" alt-text="GCCH および DoD 内のアプリのアクセス許可ポリシーのスクリーンショット。":::
+
+組織全体のアプリ設定を使用して、ユーザーがサード パーティのアプリをインストールできるかどうかを制御します。 組織全体のアプリ設定は、すべてのユーザーの動作を管理し、ユーザーに割り当てられた他のアプリ権限ポリシーを上書きします。
+
+<!---1. On the **Permission policies** page, select **Org-wide app settings**. You can then configure the settings you want in the panel. 
+--->
+
+### <a name="for-gcc-clouds"></a>GCC クラウドの場合
+
+1. **[Teams Apps アプリ****[の管理](https://admin.teams.microsoft.com/policies/manage-apps)**]  >  ページ **で、[組織全体のアプリ設定**] を選択します。 次に、パネルで必要な設定を構成できます。
+
+   :::image type="content" source="media/app-permission-policies-gcc-org-wide.png" alt-text="GCC の組織全体のアプリ設定を示すスクリーンショット。":::
+
+1. **[サードパーティ アプリ]** で、次の設定をオフまたはオンにして、サードパーティ アプリへのアクセスを制御します。
+
+    * **[サードパーティ アプリを許可する]**: このオプションはユーザーがサードパーティ アプリを使用できるかどうかを制御します。 この設定をオフにすると、ユーザーはサードパーティ アプリをインストールしたり使用したりできなくなります。 Microsoft 365 Governmentの場合 - Teams の GCCH および DoD 展開では、この設定は既定でオフになっています。
+    * **ストアに公開された新しいサードパーティ アプリを既定で許可する**: このオプションは Teams アプリ ストアに公開された新しいサードパーティ アプリを Teams で自動的に利用可能にするかどうかを制御します。 このオプションは、サードパーティのアプリを許可する場合にのみ設定できます。
+
+1. **[ブロック済みのアプリ]** で、組織全体でブロックするアプリを追加します。 Microsoft 365 Government の場合 - Teams の GCCH および DoD 展開では、すべてのサードパーティ アプリが既定でこのリストに追加されます。 組織で許可するサードパーティのアプリについては、このブロック済みのアプリのリストからアプリを削除します。 組織全体でアプリをブロックすると、アプリのアクセス許可ポリシーで許可されているかどうかに関係なく、アプリはすべてのユーザーに対して自動的にブロックされます。
+
 1. 組織全体のアプリ設定を有効にするには、**[保存]** を選択します。
+
+サード パーティ製アプリを許可するには、グローバル (組織全体の既定) ポリシーを編集して使用するか、管理者が作成したポリシーを作成して割り当てます。
+
+### <a name="for-gcch-and-dod-clouds"></a>GCCH および DoD クラウドの場合
+
+1. Teams 管理センターにサインインし、**Teams Apps****[アクセス許可ポリシー](https://admin.teams.microsoft.com/policies/app-permission)** に > アクセスします。
+
+1. **組織全体のアプリ設定を選択します**。 **[ブロック済みのアプリ]** で、組織全体でブロックするアプリを追加します。 Microsoft 365 Government の場合 - Teams の GCCH および DoD 展開では、すべてのサードパーティ アプリが既定でこのリストに追加されます。 組織全体でアプリをブロックすると、アプリのアクセス許可ポリシーで許可されているかどうかに関係なく、アプリはすべてのユーザーに対して自動的にブロックされます。
+
+   :::image type="content" source="media/app-permission-policies-gcch-dod-org-wide.png" alt-text="GCCH および DoD で組織全体のアプリ設定のスクリーンショット。スクリーンショット。":::
+
+1. 組織全体のアプリ設定を有効にするには、**[保存]** を選択します。
+
+## <a name="allow-the-apps-that-are-blocked-by-the-developers"></a>開発者がブロックしているアプリを許可する
+
+開発者が Teams アプリ ストアにアプリを発行する場合、アプリ エクスペリエンスを構成またはカスタマイズするために管理者が必要になる場合があります。 管理者は、アプリのセットアップ時にエンド ユーザーがアプリを利用できるようにします。
+
+たとえば、Contoso Electronics は、Microsoft Teams のヘルプ デスク アプリを作成したアプリ開発者です。 Contoso Electronics は、その顧客がアプリを操作するときに期待どおりに機能するように、顧客がアプリの特定のプロパティを設定することを望んでいます。 管理者がアプリケーションを許可する前に、Teams 管理センターで "**発行元 によってブロック済み**" として表示され、既定ではエンド ユーザーから非表示になっています。 発行元のガイダンスに従ってアプリを設定した後、状態を **[許可]** に変更してユーザーが利用できるようにすることができます。
+
+:::image type="content" source="media/blocked-by-publisher.png" alt-text="Teams 管理センターの発行元の状態によってブロックされていることを示すスクリーンショット。":::
+
+開発者がアプリを既定でブロックする方法については、「管理者が許可 [するまでアプリをブロックできるようにする](/microsoftteams/platform/concepts/design/enable-app-customization#hide-teams-app-until-admin-approves)」を参照してください。
 
 ## <a name="related-article"></a>関連記事
 
-* [Skype for Business 管理センターからの移行中に Teams を管理する](manage-teams-skypeforbusiness-admin-center.md)
 * [アプリを許可するユーザー要求を管理します](user-requests-approve-apps.md)。

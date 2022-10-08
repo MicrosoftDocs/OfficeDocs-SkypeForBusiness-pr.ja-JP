@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Microsoft 通話品質ダッシュボード (CQD) で使用できるデータとレポートについて説明します。
-ms.openlocfilehash: ba30be8d63dab1f5720be5637ea0a28c26d5d877
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 7d89c17f299302f39e00e6aebcfd9309ead3eaae
+ms.sourcegitcommit: 021cfac01a38282a8cde6e913d74be2d54c39162
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789812"
+ms.lasthandoff: 09/29/2022
+ms.locfileid: "68218516"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>通話品質ダッシュボード (CQD) のデータとレポート
 
@@ -41,7 +41,7 @@ CQD データには、さまざまな方法でアクセスできます。 ニー
 |---|---|
 |Teams 管理センター [(https://admin.teams.microsoft.com)](https://admin.teams.microsoft.com)|CQD データは Teams 管理センターの **[ユーザー]** ページに含まれており、読みやすい形式で必要な最も一般的なデータが表示されます。 **[ユーザー]** の下にある CQD データはカスタマイズできません。|
 |CQD ポータル [(https://cqd.teams.microsoft.com)](https://cqd.teams.microsoft.com)|ドリルスルー フィルターを使用して、ほとんどのニーズを満たす堅牢な概要と詳細なレポート。 CQD ポータルでレポートをカスタマイズすることもできます。 <br><br>[CQD](#import-the-cqd-report-templates) ポータルでデータを分析するのに役立つ 2 つの CQD レポート テンプレートを取得します。|
-|Power BI|[カスタマイズ可能な Power BI テンプレート](CQD-Power-BI-query-templates.md)を使用して、直接クエリを使用して Power BI で CQD データを表示します。 [CQD 用の Power BI クエリ テンプレートをダウンロードします](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。<br><br>[REST API を使用して、Power BI を介して CQD データにアクセス](/skypeforbusiness/management-tools/call-quality-dashboard/data-api)することもできます。 オフラインで作業できるように CQD データをダウンロードする場合は、このメソッドを使用します。 この方法を使用する利点は、パフォーマンスの向上です。特に、オンラインの場合に Power BI で停止する大規模なデータ セットに便利です。|
+|Power BI|[カスタマイズ可能な Power BI テンプレート](CQD-Power-BI-query-templates.md)を使用して、直接クエリを使用して Power BI で CQD データを表示します。 [CQD 用の Power BI クエリ テンプレートをダウンロードします](https://www.microsoft.com/download/details.aspx?id=102291)。<br><br>[REST API を使用して、Power BI を介して CQD データにアクセス](/skypeforbusiness/management-tools/call-quality-dashboard/data-api)することもできます。 オフラインで作業できるように CQD データをダウンロードする場合は、このメソッドを使用します。 この方法を使用する利点は、パフォーマンスの向上です。特に、オンラインの場合に Power BI で停止する大規模なデータ セットに便利です。|
 |Graph API|Graph APIを使用して、自分で通話品質データにアクセス[します](/graph/api/resources/callrecords-api-overview)。 これは最も複雑な方法ですが、通話品質データを分析する際に最も制御と柔軟性を提供します。 たとえば、組織の他のデータと結合する必要がある場合は、Graph APIを使用してデータ モデルを作成し、通話品質データを組み込むことができます。|
 
 ## <a name="import-the-cqd-report-templates"></a>CQD レポート テンプレートをインポートする
@@ -74,6 +74,10 @@ CQD データには、さまざまな方法でアクセスできます。 ニー
 - User Verbatim フィードバック
 - オブジェクト ID (エンドポイントのユーザーの Active Directory オブジェクト ID)
 - 電話番号
+- 自動応答 ID
+- キュー ID の呼び出し
+- Video Teleconferencing (VTC) デバイス名
+- Video Teleconferencing (VTC) デバイスの詳細
 
 ### <a name="admin-roles-with-and-without-euii-access"></a>EUII アクセスの有無にかかわらずロールを管理する
 
@@ -103,7 +107,7 @@ CQD では、次のローリング 傾向の種類がサポートされていま
 
 URL Date パラメーターは、日フィールドを受け入れます。 ローリング日レポートでは、傾向の最終日として YYYY-MM-DD 形式で指定された日付が使用されます。 URL Date パラメーター "00" は "today" を示します。
 
-|URL|ローリング 日の傾向の終了日|
+|Url|ローリング 日の傾向の終了日|
 |:---|:---|
 |<span>\<cqdv3>https:///spd/#/Dashboard/\<reportid>/2019-02/</span>|2019 年 2 月の現在の日|
 |<span>\<cqdv3>https:///spd/#/Dashboard/\<reportid>/2019-02-15/</span>|2019 年 2 月 15 日|
@@ -120,18 +124,18 @@ Power BI を使用して CQD データを分析する場合は、「 [Power BI �
 |機能|概要レポート|詳細なレポート|
 |:---|:---|:---|
 |アプリケーション共有メトリック|いいえ|はい|
-|顧客ビル情報のサポート|はい|はい|
+|顧客ビル情報のサポート|はい|Yes|
 |顧客エンドポイント情報のサポート|<span>cqd.teams.microsoft.com でのみ<span/>|<span>cqd.teams.microsoft.com でのみ<span/>|
 |ドリルダウン分析のサポート|いいえ|はい|
-|メディアの信頼性メトリック|いいえ|はい|
-|既定のレポート|はい|はい|
-|概要レポート|はい|はい|
-|ユーザーごとのレポート セット|いいえ|はい|
-|レポート セットのカスタマイズ (レポートの追加、削除、変更)|いいえ|はい|
-|ビデオベースの画面共有メトリック|いいえ|はい|
-|ビデオ メトリック|いいえ|はい|
+|メディアの信頼性メトリック|いいえ|Yes|
+|既定のレポート|はい|Yes|
+|概要レポート|Yes|はい|
+|ユーザーごとのレポート セット|いいえ|Yes|
+|レポート セットのカスタマイズ (レポートの追加、削除、変更)|いいえ|Yes|
+|ビデオベースの画面共有メトリック|いいえ|Yes|
+|ビデオ メトリック|いいえ|Yes|
 |使用可能なデータの量|過去 12 か月間|過去 12 か月間|
-|Microsoft Teams のデータ|はい|はい|
+|Microsoft Teams のデータ|Yes|はい|
 
 ### <a name="select-product-data-to-see-in-reports"></a>レポートに表示する製品データを選択する
 

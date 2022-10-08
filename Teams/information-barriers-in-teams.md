@@ -1,6 +1,6 @@
 ---
-title: Microsoft Teamsの情報バリア
-description: この記事では、Microsoft Teamsで情報バリアをサポートする方法について説明します。
+title: Microsoft Teams の情報バリア
+description: この記事では、Microsoft Teams で情報バリアをサポートする方法について説明します。
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -9,6 +9,8 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
+- tier2
+- purview-compliance
 - M365-collaboration
 search.appverid: MET150
 f1.keywords:
@@ -16,18 +18,18 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 38698179e2a3b4c6ca402190c98f89f329820d6e
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: bc05ed28f2a0c77cc6a605deccff98fa65f33845
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675409"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047087"
 ---
-# <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teamsの情報バリア
+# <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams の情報バリア
 
-[Microsoft Purview情報バリア](/microsoft-365/compliance/information-barriers) (IB) は、管理者が個人またはグループが相互に通信できないように構成できるポリシーです。 たとえば、1 つの部署が他の部署と共有すべきでない情報を処理している場合に、IB が役立ちます。 IB は、グループを分離する必要がある場合や、グループ外のユーザーとの通信を妨げる必要がある場合にも役立ちます。 Microsoft Teamsの共有チャネルは、情報バリアによってサポートされています。 共有の種類によっては、情報バリア ポリシーによって特定の方法で共有が制限される場合があります。 共有チャネルと情報バリアの動作の詳細については、「 [情報バリアと共有チャネル](information-barriers-shared-channels.md)」を参照してください。
+[Microsoft Purview Information Barriers](/microsoft-365/compliance/information-barriers) (IB) は、管理者が個人またはグループが相互に通信できないように構成できるポリシーです。 たとえば、1 つの部署が他の部署と共有すべきでない情報を処理している場合に、IB が役立ちます。 IB は、グループを分離する必要がある場合や、グループ外のユーザーとの通信を妨げる必要がある場合にも役立ちます。 Microsoft Teams の共有チャネルは、情報バリアによってサポートされています。 共有の種類によっては、情報バリア ポリシーによって特定の方法で共有が制限される場合があります。 共有チャネルと情報バリアの動作の詳細については、「 [情報バリアと共有チャネル](information-barriers-shared-channels.md)」を参照してください。
 
-Microsoft Teamsでは、情報バリアによって、次の種類の承認されていないコラボレーションが決定され、防止されます。
+Microsoft Teams の場合、情報バリアは、次の種類の承認されていないコラボレーションを決定し、防止できます。
 
 - チームまたはチャネルへのユーザーの追加
 - チームまたはチャネルのコンテンツへのユーザー アクセス
@@ -37,9 +39,9 @@ Microsoft Teamsでは、情報バリアによって、次の種類の承認さ�
 
 >[!NOTE]
 >- テナント間で情報バリア グループを作成することはできません。
->- バージョン 1 では、ボット、Azure Active Directory (Azure AD) アプリ、アクティビティ フィード通知を送信するための API、およびユーザーを追加するための一部の API はサポートされていません。
+>- バージョン 1 では、ボット、Azure Active Directory (Azure AD) アプリ、アクティビティ フィード通知を送信する API、およびユーザーを追加するための一部の API を使用してユーザーを追加することはできません。
 >- プライベート チャネルは、構成する情報バリア ポリシーに準拠しています。
->- Teamsに接続されているSharePoint サイトのバリアのサポートについては、「Microsoft Teams [サイトに関連付けられているセグメント」](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)を参照してください。
+>- Teams に接続されている SharePoint サイトのバリアのサポートについては、「 [Microsoft Teams サイトに関連付けられているセグメント」を](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)参照してください。
 
 ## <a name="background"></a>背景
 
@@ -50,7 +52,7 @@ IB の主な推進要素は、金融サービス業界からのものです。 �
 - **教育**: ある学校の学生は、他の学校の学生の連絡先の詳細を検索できません。
 - **法的**: あるクライアントの弁護士によって取得されたデータの機密性を維持し、別のクライアントを代表する同じ会社の弁護士がアクセスできないようにします。
 - **政府機関**: 情報へのアクセスと制御は、部門やグループ間で制限されています。
-- **Professional サービス**: 企業内のユーザーのグループは、顧客エンゲージメント中にゲスト アクセスを介してクライアントまたは特定の顧客とのみチャットできます。
+- **プロフェッショナル サービス**: 企業内のユーザーのグループは、顧客エンゲージメント中にゲスト アクセスを介してクライアントまたは特定の顧客とのみチャットできます。
 
 たとえば、エンリコは銀行セグメントに属し、Pradeep は財務アドバイザー セグメントに属します。 組織の IB ポリシーでは、これら 2 つのセグメント間の通信とコラボレーションがブロックされるため、エンリコと Pradeep は相互に通信できません。 ただし、エンリコと Pradeep は、人事で Lee と通信できます。
 
@@ -70,7 +72,7 @@ IB の主な推進要素は、金融サービス業界からのものです。 �
 IB ポリシーは、PowerShell コマンドレットを使用してMicrosoft Purview コンプライアンス ポータル (SCC) で管理されます。 詳細については、「 [情報バリアのポリシーを定義する](/office365/securitycompliance/information-barriers-policies)」を参照してください。
 
 >[!IMPORTANT]
->ポリシーを設定または定義する前に、Microsoft Teamsでスコープ付きディレクトリ検索を有効にする必要があります。 情報バリアのポリシーを設定または定義する前に、スコープ付きディレクトリ検索を有効にしてから少なくとも数時間待ちます。 詳細については、「 [情報バリア ポリシーの定義](/office365/securitycompliance/information-barriers-policies#prerequisites)」を参照してください。
+>ポリシーを設定または定義する前に、Microsoft Teams でスコープ付きディレクトリ検索を有効にする必要があります。 情報バリアのポリシーを設定または定義する前に、スコープ付きディレクトリ検索を有効にしてから少なくとも数時間待ちます。 詳細については、「 [情報バリア ポリシーの定義](/office365/securitycompliance/information-barriers-policies#prerequisites)」を参照してください。
 
 ## <a name="information-barriers-administrator-role"></a>情報バリア管理者ロール
 
@@ -78,7 +80,7 @@ IB コンプライアンス管理ロールは、IB ポリシーの管理を担�
 
 ## <a name="information-barrier-triggers"></a>情報バリア トリガー
 
-IB ポリシーは、次のTeams イベントが発生したときにアクティブ化されます。
+IB ポリシーは、次の Teams イベントが発生したときにアクティブ化されます。
 
 - **メンバーはチームに追加されます**。チームにユーザーを追加するたびに、ユーザーのポリシーは他のチーム メンバーの IB ポリシーに対して評価される必要があります。 ユーザーが正常に追加されると、ユーザーはチーム内のすべての機能を実行できます。それ以上のチェックは行わなくてもかまいません。 ユーザーのポリシーによってチームへの追加がブロックされている場合、ユーザーは検索に表示されません。
 
@@ -108,9 +110,9 @@ IB ポリシーは、次のTeams イベントが発生したときにアクテ�
 
     ![ブロックされた設定を含むユーザー文字を示すスクリーンショット。](media/ib-after-screen-share-policy.png)
 
-- **ユーザーはTeamsに電話を発信** します。ユーザーが別のユーザーまたはユーザーのグループに対して音声通話を (VOIP 経由で) 開始するたびに、通話が評価され、他のチーム メンバーの IB ポリシーに違反していないことを確認します。 違反が発生した場合、音声通話はブロックされます。
+- **ユーザーが Teams で電話を発信** する: ユーザーが別のユーザーまたはユーザー グループに対して音声通話を (VOIP 経由で) 開始するたびに、通話が評価され、他のチーム メンバーの IB ポリシーに違反していないことを確認します。 違反が発生した場合、音声通話はブロックされます。
 
-- **Teamsのゲスト**: TEAMSのゲストにも IB ポリシーが適用されます。 組織のグローバル アドレス一覧でゲストを検出できる必要がある場合は、「[Microsoft 365 グループでのゲスト アクセスの管理](/microsoft-365/admin/create-groups/manage-guest-access-in-groups)」を参照してください。 ゲストが検出可能になったら、 [IB ポリシーを定義](/office365/securitycompliance/information-barriers-policies)できます。
+- **Teams のゲスト**: IB ポリシーは Teams のゲストにも適用されます。 組織のグローバル アドレス一覧でゲストを検出できる必要がある場合は、「[Microsoft 365 グループでのゲスト アクセスの管理](/microsoft-365/admin/create-groups/manage-guest-access-in-groups)」を参照してください。 ゲストが検出可能になったら、 [IB ポリシーを定義](/office365/securitycompliance/information-barriers-policies)できます。
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>ポリシーの変更が既存のチャットに与える影響
 
@@ -144,11 +146,11 @@ IB ポリシー管理者がポリシーに変更を加えた場合、または�
 
 現在、IB ポリシーで別のユーザーがブロックされている場合、ユーザーには次のシナリオが発生します。
 
-- **[ユーザー] タブ**: ユーザーは、[ **ユーザー** ] タブにブロックされたユーザーを表示できません。
+- **People タブ**: ユーザーは、[**People**] タブにブロックされたユーザーを表示できません。
 
-- **ユーザー選択ウィンドウ**: ブロックされたユーザーは、ユーザー選択ウィンドウに表示されません。
+- **Peopleピッカー**: ブロックされたユーザーはユーザー選択ウィンドウに表示されません。
 
-    ![ポリシーが別のユーザーの情報の表示を妨げていることをユーザーに警告するTeamsのスクリーンショット。](media/information-barriers-people-picker.png)
+    ![ポリシーが別のユーザーの情報の表示を妨げていることをユーザーに警告する Teams のスクリーンショット。](media/information-barriers-people-picker.png)
 
 - **[アクティビティ] タブ**: ユーザーがブロックされているユーザーの **[アクティビティ** ] タブにアクセスした場合、投稿は表示されません。 ( **[アクティビティ]** タブにはチャネル投稿のみが表示され、2 人のユーザー間に共通のチャネルは表示されません)。
 
@@ -158,7 +160,7 @@ IB ポリシー管理者がポリシーに変更を加えた場合、または�
 
 - **組織図**: ユーザーがブロックされたユーザーが表示されている組織図にアクセスした場合、ブロックされたユーザーは組織図に表示されません。 代わりに、エラー メッセージが表示されます。
 
-- **ユーザー カード**: ユーザーが会話に参加し、ユーザーが後でブロックされた場合、他のユーザーは、ブロックされたユーザーの名前の上にマウス ポインターを置くと、ユーザー カードの代わりにエラー メッセージが表示されます。 カードに一覧表示されたアクション (通話やチャットなど) は使用できません。
+- **People カード**: ユーザーが会話に参加し、ユーザーが後でブロックされた場合、他のユーザーは、ブロックされたユーザーの名前の上にマウス ポインターを置くと、ユーザー カードの代わりにエラー メッセージが表示されます。 カードに一覧表示されたアクション (通話やチャットなど) は使用できません。
 
 - **推奨される連絡先**: ブロックされたユーザーは、提案された連絡先リスト (新しいユーザーに表示される最初の連絡先リスト) には表示されません。
 
@@ -176,21 +178,21 @@ IB ポリシー管理者がポリシーに変更を加えた場合、または�
     > [!div class="mx-imgBorder"]
     > ![チャットからブロックされたユーザーを示すスクリーンショット。](media/ib-after-chat-contacts-policy.png)
 
-- **Teams移行へのSkype**: Skype for BusinessからTeamsへの移行中に、IB ポリシーによってブロックされているユーザーであっても、すべてのユーザーがTeamsに移行されます。 これらのユーザーは、上記のように処理されます。
+- **Skype から Teams への移行**: Skype for Businessから Teams への移行中に、IB ポリシーによってブロックされているユーザーであっても、すべてのユーザーが Teams に移行されます。 これらのユーザーは、上記のように処理されます。
 
-## <a name="teams-policies-and-sharepoint-sites"></a>Teams ポリシーとSharePoint サイト
+## <a name="teams-policies-and-sharepoint-sites"></a>Teams ポリシーと SharePoint サイト
 
-チームが作成されると、SharePoint サイトがプロビジョニングされ、ファイル エクスペリエンスのMicrosoft Teamsに関連付けられます。 このSharePoint サイトとファイルでは、既定では情報バリア ポリシーは適用されません。 SharePointとOneDriveで情報バリアを有効にするには、「SharePointで[情報バリアを使用](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization)する」のガイダンスと手順に従います。
+チームが作成されると、SharePoint サイトがプロビジョニングされ、ファイル エクスペリエンスのために Microsoft Teams に関連付けられます。 この SharePoint サイトとファイルでは、既定では情報バリア ポリシーは適用されません。 SharePoint と OneDrive で情報バリアを有効にするには、「SharePoint で [情報バリアを使用](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization) する」のガイダンスと手順に従います。
 
-## <a name="information--barrier-modes-and-teams"></a>情報バリア モードとTeams
+## <a name="information--barrier-modes-and-teams"></a>情報バリア モードと Teams
 
-情報バリア モードは、チームに追加または削除できるユーザーを強化するのに役立ちます。 Teamsで情報バリアを使用する場合、次の IB モードがサポートされます。
+情報バリア モードは、チームに追加または削除できるユーザーを強化するのに役立ちます。 Teams で情報バリアを使用する場合、次の IB モードがサポートされます。
 
 - **開く**: この構成は、情報バリアが有効になる前にプロビジョニングされたすべての既存のグループの既定の IB モードです。 このモードでは、IB ポリシーは適用されません。
 - **暗黙的**: この構成は、情報バリアを有効にした後にチームがプロビジョニングされた場合の既定の IB モードです。 暗黙的モードでは、グループ内のすべての互換性のあるユーザーを追加できます。
 - **所有者モデレート**: このモードは、所有者によってモデレートされる互換性のないセグメント ユーザー間のコラボレーションを許可する場合に、チームに設定されます。 チーム所有者は、IB ポリシーに従って新しいメンバーを追加できます。
 
-テナントで情報バリア ポリシーをアクティブ化する前に作成されたTeamsは、既定で自動的に *開き* モードに設定されます。 テナントで IB ポリシーをアクティブ化したら、既存のチームが IB に準拠していることを確認するために、既存のチームのモードを *暗黙的* に更新する必要があります。
+テナントで情報バリア ポリシーをアクティブ化する前に作成された Teams は、既定で自動的に *オープン* モードに設定されます。 テナントで IB ポリシーをアクティブ化したら、既存のチームが IB に準拠していることを確認するために、既存のチームのモードを *暗黙的* に更新する必要があります。
 
 セグメントに使用するモードに対応する *InformationBarrierMode* パラメーターで [Set-UnifiedGroup](/powershell/module/exchange/set-unifiedgroup) コマンドレットを使用します。 *InformationBarrierMode* パラメーターに使用できる値の一覧は、*Open*、*Implicit*、*Owner Moderated です*。
 
@@ -202,11 +204,11 @@ Set-UnifiedGroup -InformationBarrierMode Implicit
 
 既存のすべてのチームのモードを Open から Implicit に更新するには、この [PowerShell スクリプト](information-barriers-mode-script.md)を使用します。
 
-組織のコンプライアンス要件を満たすように既存のTeamsに接続されているグループで Open モードの構成を変更する場合は、Teams チームに接続されている関連付けられたSharePoint サイトの [IB モードを更新](/sharepoint/information-barriers#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell)する必要があります。
+組織のコンプライアンス要件を満たすように既存の Teams 接続グループのオープン モード構成を変更する場合は、Teams チームに接続されている関連付けられた SharePoint サイトの [IB モードを更新](/sharepoint/information-barriers#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell) する必要があります。
 
 ## <a name="required-licenses-and-permissions"></a>必要なライセンスとアクセス許可
 
-ライセンスとアクセス許可、プラン、価格の詳細については、[セキュリティ&コンプライアンスに関するMicrosoft 365ライセンスに関するガイダンス](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)を参照してください。
+ライセンスとアクセス許可、プラン、価格の詳細については、 [セキュリティ&コンプライアンスに関する Microsoft 365 ライセンスガイダンス](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)を参照してください。
 
 ## <a name="known-issues"></a>既知の問題
 
@@ -218,10 +220,10 @@ Set-UnifiedGroup -InformationBarrierMode Implicit
 ## <a name="more-information"></a>詳細情報
 
 - IB の詳細については、「 [情報バリア](/office365/securitycompliance/information-barriers)」を参照してください。
-- IB ポリシーを設定するには、[情報バリアのある概要を](/office365/securitycompliance/information-barriers-policies)参照してください。
+- IB ポリシーを設定するには、「 [情報バリアの概要](/office365/securitycompliance/information-barriers-policies)」を参照してください。
 - IB ポリシーを編集または削除するには、「 [情報バリア](/microsoft-365/compliance/information-barriers-edit-segments-policies) ポリシーの管理」を参照してください。
 - [情報バリアと共有チャネル](information-barriers-shared-channels.md)
 
 ## <a name="availability"></a>使用するための条件
 
-Teamsの情報バリアは、パブリック、GCC、GCC - High、DOD クラウドで利用できます。
+Teams の情報バリアは、パブリック、GCC、GCC - High、DOD クラウドで利用できます。

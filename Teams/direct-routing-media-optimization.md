@@ -16,12 +16,12 @@ f1.keywords:
 description: ダイレクト ルーティング用のローカル メディアの最適化
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c33b8225f3bcde32428348e85166ff4d4463738
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: a86758d3376b2232126d095f9c9b1a1a28371481
+ms.sourcegitcommit: 9522d951700d19ab13c60a6452b3a8a4c824ee36
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616093"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "68018113"
 ---
 # <a name="plan-for-local-media-optimization-for-direct-routing"></a>ダイレクト ルーティング用のローカル メディアの最適化を計画する
 
@@ -232,7 +232,7 @@ TDM トランクの一元化がオプションではない APAC リージョン�
 
 図 5.  "Always Bypass" モードでユーザーが "ホーム" サイトに入っているトラフィック フロー
 
-![トラフィック フローローカル メディアの最適化を示す図。](media/direct-routing-media-op-5.png "Always Bypass" モードのトラフィック フローとユーザーが "ホーム" サイト内にある)
+![トラフィック フローのローカル メディアの最適化を示す図。](media/direct-routing-media-op-5.png "&quot;Always Bypass&quot; モードでユーザーが &quot;ホーム&quot; サイトに入っているトラフィック フロー")
 
 
 #### <a name="scenario-2-the-user-and-gateways-are-in-different-sites"></a>シナリオ 2: ユーザーとゲートウェイが異なるサイトに存在する
@@ -255,7 +255,7 @@ TDM トランクの一元化がオプションではない APAC リージョン�
 
 図 6.  "Always Bypass" モードで、ユーザーが "ホーム" サイトではなく内部ネットワーク内にあるトラフィック フロー
 
-![図は、トラフィック フローのローカル メディアの最適化を示しています。](media/direct-routing-media-op-6.png "Always Bypass" モードのトラフィック フローとユーザーが "ホーム" サイトではなく内部ネットワーク内にある)
+![図は、トラフィック フローのローカル メディアの最適化を示しています。](media/direct-routing-media-op-6.png "&quot;Always Bypass&quot; モードのトラフィック フローとユーザーが &quot;ホーム&quot; サイトではなく、内部ネットワーク内にある")
 
 ### <a name="mode-2-only-for-local-users"></a>モード 2: ローカル ユーザーの場合のみ
 
@@ -295,7 +295,7 @@ CONTOSO 管理者は、TDM トランクの一元化がオプションではな�
 
 図 7. "ローカル ユーザー専用" モードでユーザーが "ホーム" サイトに入るトラフィック フロー
 
-![トラフィック フローローカル メディアの最適化を示す別の図。](media/direct-routing-media-op-7.png "ローカル ユーザー専用" モードのトラフィック フローとユーザーが "ホーム" サイト内にある)
+![トラフィック フローのローカル メディアの最適化を示す別の図。](media/direct-routing-media-op-7.png "&quot;ローカル ユーザー専用&quot; モードでユーザーが &quot;ホーム&quot; サイトにあるトラフィック フロー")
 
 
 #### <a name="scenario-2-the-user-and-gateways-are-in-different-sites"></a>シナリオ 2. ユーザーとゲートウェイが異なるサイトに存在する
@@ -325,7 +325,7 @@ CONTOSO 管理者は、TDM トランクの一元化がオプションではな�
 
 図 8.  "ローカル ユーザー専用" モードのトラフィック フロー。ユーザーは "ホーム" サイトではなく、内部ネットワーク内にある
 
-![別の図は、トラフィック フローローカル メディアの最適化を示しています。](media/direct-routing-media-op-8.png "ローカル ユーザー専用" モードのトラフィック フローでは、ユーザーは "ホーム" サイトではなく内部ネットワーク内にあります)
+![別の図は、トラフィック フローのローカル メディアの最適化を示しています。](media/direct-routing-media-op-8.png "[ローカル ユーザーのみ] モードのトラフィック フローでは、ユーザーは &quot;ホーム&quot; サイトではなく内部ネットワーク内に")
 
 ## <a name="known-issues"></a>既知の問題
 

@@ -19,14 +19,16 @@ ms.custom:
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
+- tier3
+- purview-compliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b23430398e213c7df9fcd72ccb9d32f88ee1ed1f
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: 659692af6a1236510d5b4572e66cbd299aa92c41
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418486"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046497"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>通話&会議の Teams ポリシーベースの記録の概要
 
@@ -138,7 +140,7 @@ Azure と Windows VM の要件は Teams Bot コンポーネントにのみ適用
 
 ## <a name="compliance-recording-policy-assignment-and-provisioning"></a>コンプライアンス記録ポリシーの割り当てとプロビジョニング
 
-IT 管理者は、コンプライアンス記録ポリシーを作成して割り当てることで、記録するユーザーと、各ユーザーに使用するレコーダーを決定できます。 通信操作が行われると、これらのポリシーの構成に基づいて、レコーダーが自動的に会話に参加するように招待されます。 コンプライアンス記録ポリシーは [Microsoft PowerShell](./teams-powershell-overview.md) を使用して管理され、組織ごとにテナント、ユーザーごと、およびセキュリティ グループ レベルで適用できます。 [会議ポリシー](./meeting-policies-overview.md)、[通話](./teams-calling-policy.md)ポリシー、グループ ポリシーのMicrosoft Docsの詳細については、以下をご覧[ください](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group)。
+IT 管理者は、コンプライアンス記録ポリシーを作成して割り当てることで、記録するユーザーと、各ユーザーに使用するレコーダーを決定できます。 通信操作が行われると、これらのポリシーの構成に基づいて、レコーダーが自動的に会話に参加するように招待されます。 コンプライアンス記録ポリシーは [Microsoft PowerShell](./teams-powershell-overview.md) を使用して管理され、組織ごとにテナント、ユーザーごと、およびセキュリティ グループ レベルで適用できます。 Microsoft Learn for [Meeting ポリシー](./meeting-policies-overview.md)、 [通話](./teams-calling-policy.md) ポリシー、  [グループ](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group) ポリシーの詳細については、こちらを参照してください。
 
 1. テナントにアプリケーション インスタンスを作成します。
 

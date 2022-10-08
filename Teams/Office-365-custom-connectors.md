@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 とカスタム コネクタを管理する
+title: Microsoft 365 コネクタとカスタム コネクタを管理する
 author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
@@ -7,25 +7,26 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
+ms.date: 09/01/2022
 ms.collection:
 - M365-collaboration
 ms.reviewer: lucarras
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 使用するサービスの Teams チャネルにコンテンツと更新を頻繁に直接配信することで、コネクタがチームを更新し続ける方法について説明します。
+description: 使用するサービスの Teams チャネルにコンテンツと更新プログラムを直接配信する頻度を高めることで、コネクタがチームを更新し続ける方法について説明します。
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5e61a6705f470ee93c7169effdd56f35ca0dd6f4
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: fb65e7c91aa7ac0de7c8dade3a442f457d72657f
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837357"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377005"
 ---
-# <a name="manage-microsoft-365-and-custom-connectors"></a>Microsoft 365 とカスタム コネクタを管理する
+# <a name="manage-microsoft-365-connectors-and-custom-connectors"></a>Microsoft 365 コネクタとカスタム コネクタを管理する
 
 チームを更新し続けるために、コネクタは頻繁に使用されるコンテンツとサービスの更新を Teams チャネルに直接配信します。 コネクタを使用すると、Teams ユーザーは Trello、Wunderlist、GitHub、Azure DevOps Services などのポピュラーなサービスから更新を受け取ることができます。 更新は、チーム内のチャット ストリームに直接投稿されます。
 

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams のライブ イベントについて
-author: CarolynRowe
-ms.author: crowe
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -10,6 +10,7 @@ ms.collection:
 - m365initiative-meetings
 - m365solution-spcomms
 - m365solution-scenario
+- highpri
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
@@ -22,12 +23,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: ec79ec6d230359a43c910336a53a462c5f80fc6d
-ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
-ms.translationtype: HT
+ms.openlocfilehash: fab22ca4bda45f1f534055a5f43d64358dea8cec
+ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66825701"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68486597"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams のライブ イベントについて
 
@@ -41,7 +42,7 @@ Teams は、チャット ベースの共同作業、通話、会議、および�
 
 Teams ライブ イベントは Skype 会議ブロードキャストの次のバージョンと見なされ、最終的には Skype 会議ブロードキャストで提供される機能に取って代わるものとなります。 この時点で、Microsoft は、新規または将来のイベントに備えてサービスを中断することなく、社内で Skype for Business を使用しているユーザーに対して Skype 会議ブロードキャストを引き続きサポートします。 ただし、Teams ライブ イベントで画面共有や外部ハードウェア/ソフトウェア エンコーダーのサポートなど、すべての新機能を利用することをお勧めします。
 
-では、始めましょう。まず、Microsoft 365 ライブ イベントに関連する高レベルのコンポーネントと、それらがどのように接続されているかを示す次の図を見てください。
+So, let's get started. First, take a look at the following diagram that shows high level components involved in Microsoft 365 live events and how they're connected.
 
 ![ライブ イベントの主要コンポーネント。](../media/live-events-flow-diagram.png  "ライブ イベント、スケジュール設定、作成、ストリーム プラットフォーム、認定済みのサードパーティ eCDN プロバイダーの主要コンポーネント")
 
@@ -85,7 +86,7 @@ Teams では、主催者は適切な参加者アクセス許可でイベント�
     ![外部アプリまたはデバイスを使用して作成されたライブ イベント。](../media/teams-live-events-external-encoder.png "外部アプリまたはデバイスの作成方法を使用して作成されたライブ イベントを示すスクリーンショット")
 
 >[!Note]
-> Microsoft Stream の使用から[会議の記録用の OneDrive for Business および SharePoint ](../tmr-meeting-recording-change.md)への変更は段階的なアプローチになります。リリース時には、この機能にオプトインできるようになります。Stream を使い続けるには、11 月にオプトアウトする必要があります。また、2021 年初頭には、すべてのお客様に、新しい会議の記録に OneDrive と SharePoint を使用するように要請する予定です。
+> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](../tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings.
 
 ### <a name="streaming-platform"></a>ストリーミング プラットフォーム
 

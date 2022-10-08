@@ -1,7 +1,7 @@
 ---
 title: 通話プランを使用して Teams Phone System に電話番号を移植する
-author: dstrome
-ms.author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ appliesto:
 ms.collection:
 - M365-voice
 - M365initiative-voice
-ms.openlocfilehash: a0e415b010a6c0c0250af5b3f95321f52324b43f
-ms.sourcegitcommit: 46b5dc0519d487e264b1386e5074085c2d090e9a
+ms.openlocfilehash: b8af17d335dd3714af7608582abfbeaf65af5673
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "67668584"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68480887"
 ---
 # <a name="step-7-port-phone-numbers-to-teams-phone-system-with-calling-plan-optional"></a>手順 7: 通話プランを使用して Teams Phone System に電話番号を移植する (省略可能)
 

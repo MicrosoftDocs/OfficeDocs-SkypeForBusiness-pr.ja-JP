@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 無料版 (クラシック)をサブスクリプションにアップグレードする
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 123cb6343886f269a847d431b87f154855086d9b
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: de9862f9c6d5fff84e7fa6e763f0dee219a8c183
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66615743"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377345"
 ---
 # <a name="upgrade-microsoft-teams-free-classic-to-subscription-version"></a>Microsoft Teams 無料版 (クラシック)をサブスクリプション バージョンにアップグレードする
 
@@ -55,7 +55,7 @@ Microsoft 365 または Office 365 サブスクリプションに含まれる Te
 - ユーザーあたり 1 TB のストレージ
 - 予約された会議
 - 電話会議
-- 多要素認証、シングル サインオン、監査 (Premium) の作成とレポート作成など、セキュリティとコンプライアンスの強化された機能
+- 多要素認証、シングル サインオン、監査 (Premium) やレポートなど、セキュリティとコンプライアンスの強化された機能
 - 24 x 7 の電話および Web サポート、ユーザーとアプリを管理するための管理ツール、Microsoft 365 またはOffice 365 サービスの使用状況レポート、サービス レベル アグリーメント、構成可能なユーザー設定とポリシーなど、管理コントロールとサポート機能
 
 Teams Free (クラシック) 機能と Teams 機能の詳細な比較については、「 [Teams プランの比較](https://products.office.com/microsoft-teams/free)」を参照してください。

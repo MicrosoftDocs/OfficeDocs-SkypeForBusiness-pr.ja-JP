@@ -8,6 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
+ms.date: 09/19/2022
 ms.collection:
 - M365-collaboration
 appliesto:
@@ -17,12 +18,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams の Teams アプリ申請 API を使用して送信されたカスタム アプリを承認する方法について説明します。
-ms.openlocfilehash: 644e4afd28dbec27385516ce3e0676eb9ea27ef1
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 63493041d834c99f5ffa93ba2fb580130afa0e29
+ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837527"
+ms.lasthandoff: 10/07/2022
+ms.locfileid: "68494620"
 ---
 # <a name="publish-a-custom-app-submitted-using-the-teams-app-submission-api"></a>Teams アプリ 申請 API を使用して送信されたカスタム アプリを公開する
 
@@ -164,7 +165,7 @@ Graph APIを使用してアプリを更新する方法の詳細については�
 
 * [アプリ パッケージをアップロードしてカスタム アプリを発行する](upload-custom-apps.md)
 * [Microsoft Teams 管理センターで、Teams アプリの組織向けアプリを管理します。](manage-apps.md)
-* [Teams のカスタム アプリのポリシーと設定を管理する](teams-custom-app-policies-and-settings.md)
+* [カスタム アプリのポリシーと設定を管理する](teams-custom-app-policies-and-settings.md)
 * [Teams のアプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md)
 * [Teams のアプリのセットアップ ポリシーを管理する](teams-app-setup-policies.md)
 * [Teams の監視とアラート](alerts/teams-admin-alerts.md)

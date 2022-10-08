@@ -6,7 +6,8 @@ manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: v-quhur
+ms.reviewer: vapati
+ms.date: 09/27/2022
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -17,16 +18,16 @@ description: Microsoft Teams 管理センターで Teams アプリの使用状�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 745761b80bd2507a31cb76cdadc015eac8e9f7fd
-ms.sourcegitcommit: a4a65283e85d0c393c844dfd335df0d48e0e4105
+ms.openlocfilehash: 9db5378a439061639298b8bc3b48f4d3ef26c50b
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "67313929"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68376965"
 ---
 # <a name="microsoft-teams-app-usage-report"></a>Microsoft Teams アプリの使用状況レポート
 
-Microsoft Teams 管理センターの Teams アプリ使用状況レポートには、Teams でユーザーが使用しているアプリに関する情報が表示されます。  
+Microsoft Teams 管理センターの Teams アプリの使用状況レポートには、Teams でユーザーが使用しているアプリに関する分析情報が表示されます。 組織内の Teams アプリ アクティビティに関する分析情報を得ることができます。 この記事では、レポートにアクセスし、レポート内のさまざまなメトリックを表示および解釈する方法について説明します。 
 
 ## <a name="view-the-app-usage-report"></a>アプリ使用状況レポートを表示する
 
@@ -36,7 +37,7 @@ Microsoft Teams 管理センターの Teams アプリ使用状況レポートに
 
 1. [ **レポートの表示** ] タブの [ **レポート**] で、[ **アプリの使用状況**] を選択します。
 
-1. **[日付範囲**] で範囲を選択し、[**レポートの実行**] を選択します。 Teams Apps 使用状況レポートでは、過去 7 日間、30 日間、または 90 日間の傾向を確認できます。
+1. **[日付範囲**] で範囲を選択し、[**レポートの実行**] を選択します。 Teams Apps 使用状況レポートでは、過去 7 日間、30 日、90 日、180 日間の傾向を確認できます。
 
    :::image type="content" source="media/app-usage-report2-trimmed.png" alt-text="アプリ使用状況レポート インターフェイスのスクリーンショット。" lightbox="media/app-usage-report2.png":::
 
@@ -44,7 +45,7 @@ Microsoft Teams 管理センターの Teams アプリ使用状況レポートに
 
 :::image type="content" alt-text="Teams 管理センターの Teams アプリ使用状況レポートと吹き出しのスクリーンショット。" source="media/app-usage-report5.png" lightbox="media/app-usage-report5.png":::
 
-各レポートには、レポートが作成された日時を示す日付が左上に表示されます。 通常、レポートには、アプリを開いた時点から 24 時間の待機時間が反映されます。
+各レポートには、レポートが作成された日時を示す日付が左上に表示されます。 通常、レポートには、アプリを開いた時点から 24 時間から 48 時間の待機時間が反映されます。
 
 管理センターには、アクティブなユーザーと日付のグラフが表示されます。 アクティブなユーザーは、選択した期間中に少なくとも 1 回アプリを開いたユーザーの数です。
 

@@ -1,7 +1,7 @@
 ---
 title: 無料の Office 365 E1 試用版を管理する
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 audience: Admin
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9982f85ee8ff3262a246ec2df7f9ed3511c1c20c
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: b920d004fde707a399ee4b0383d7dcba985f6d3c
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270242"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377355"
 ---
 # <a name="manage-the-office-365-e1-trial"></a>Office 365 E1 試用版を管理する
 

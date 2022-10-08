@@ -1,5 +1,6 @@
 ---
 title: コンテンツの電子情報開示調査を実施する
+description: 電子情報開示を実行する必要がある場合 (法的手続きのために電子的に保存されたすべての情報を送信する必要がある場合など) について説明します。
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -7,21 +8,23 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
+- tier1
+- purview-compliance
 - M365-collaboration
+- ediscovery
 ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 電子情報開示を実行する必要がある場合 (法的手続きのために電子的に保存されたすべての情報を送信する必要がある場合など) について説明します。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e0579e0967a6f0309dbea6ee28430df3f34876be
-ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.openlocfilehash: a44245d31e6fc9f4b58c17832e596c6d73b56635
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "67808248"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046657"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Microsoft Teams のコンテンツに対して電子情報開示の調査を行う
 
@@ -35,8 +38,8 @@ ms.locfileid: "67808248"
 
 すべての Teams コンテンツが eDiscoverable であるわけではありません。 次の表は、Microsoft 電子情報開示ツールを使用して検索できるコンテンツ タイプを示しています。
 
-|コンテンツの種類|メモ|
-|---|---|
+|**コンテンツの種類**|**メモ**|
+|:---------------|:--------|
 |録音||
 |カードコンテンツ|詳細については、「 [カード コンテンツの検索](#search-for-card-content) 」を参照してください。|
 |チャット リンク||
@@ -53,6 +56,7 @@ ms.locfileid: "67808248"
 |リアクション (いいね、ハート、その他の反応など)|リアクションは、2022 年 6 月 1 日以降、すべての商用顧客に対してサポートされます。 この日付より前のリアクションは、電子情報開示では使用できません。 政府機関のクラウド サポートが計画されています。 反応に対する法的ホールドサポートはありません。|
 |件名||
 |テーブル||
+|Teams ビデオ クリップ (TVC)|プレビューを右クリックして、TVC 添付ファイルごとに "Video-Clip" キーワードを使用して TVC を検索し、.mp4 ファイルを "名前を付けて保存" します (キーワードで検索できるのは 2022 年 10 月です)。 TVC データは、電子情報開示 [レビュー セット](/microsoft-365/compliance/add-data-to-review-set)で検出できます。
 
 <sup>1</sup> 会議 (および通話) メタデータには、次のものが含まれます。
 

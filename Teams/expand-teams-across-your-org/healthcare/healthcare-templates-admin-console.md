@@ -17,17 +17,18 @@ ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
 - m365-frontline
+- highpri
 appliesto:
 - Microsoft Teams
 ms.reviewer: yinchang
 description: 医療組織のチームを迅速かつ簡単に作成するために、Teams 管理センターや Microsoft Graph で医療テンプレートを管理および使用する方法を説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4f3aa9d42ef86dde75acf8cbd559b6e50059a428
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: bdbb3e52f471e735b1b6c96a1502880c030ed89d
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396918"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046487"
 ---
 # <a name="use-healthcare-team-templates"></a>Teamsの医療テンプレートを使用する
 
@@ -41,7 +42,7 @@ Teams には、医療組織用に特化して設計されたテンプレート�
 
 |以下の場合: | 次に、以下の場合: |
 | ---- | --------- |
-| 管理者または IT 担当者 |[Teams 管理センターでチーム テンプレートを管理](#manage-team-templates-in-the-teams-admin-center)します。チーム テンプレートを表示し、テンプレート ポリシーを適用して、Teams でチームを作成するためにスタッフが使用できるテンプレートを制御します。 |
+| 管理者または IT 担当者 |[Manage team templates in the Teams admin center](#manage-team-templates-in-the-teams-admin-center). View team templates and apply templates policies to control which templates your staff can use in Teams for creating teams. |
 | 開発者 | [Microsoft Graph を使用](#use-team-templates-with-microsoft-graph)して、チーム テンプレートでチームを作成します。 |
 
 ## <a name="manage-team-templates-in-the-teams-admin-center"></a>Teams 管理センターでチーム テンプレートを管理する
@@ -73,7 +74,7 @@ Teams には、医療組織用に特化して設計されたテンプレート�
 &sup1; アプリがタブとしてチャネルに追加されました
 ## <a name="use-team-templates-with-microsoft-graph"></a>Microsoft Graph で Teams テンプレートを使用する
 
-開発者は、Microsoft Graph を使用して、事前構築済みのチーム テンプレートからチームを作成できます。Microsoft Graph でチーム テンプレートを使用する方法の詳細については、「[Microsoft Graph で、チーム テンプレートの使用を開始する](../../get-started-with-teams-templates.md)」、「[Microsoft Teams API の概要](/graph/teams-concept-overview)」、および「[teamsTemplate リソースの種類](/graph/api/resources/teamstemplate)」を参照してください。
+Developers can use Microsoft Graph to create teams from pre-built team templates. To learn more about using team templates with Microsoft Graph, see [Get started with team templates using Microsoft Graph](../../get-started-with-teams-templates.md), [Microsoft Teams API overview](/graph/teams-concept-overview), and [teamsTemplate resource type](/graph/api/resources/teamstemplate).
 
 こちらに事前構築済みの医療チーム テンプレートを示します。
 ### <a name="ward"></a>病棟
