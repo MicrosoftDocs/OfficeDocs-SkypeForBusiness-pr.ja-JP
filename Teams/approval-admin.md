@@ -17,14 +17,15 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- highpri
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ed0eaeaeb7deb98de09f8c2eb06316985e7176b
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 4812626477d2f77ddd3c6913577aa7792293a993
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397048"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046637"
 ---
 # <a name="manage-the-approvals-app-in-microsoft-teams"></a>Microsoft Teams で承認アプリを管理する
 
@@ -155,7 +156,7 @@ Microsoft Forms の現在の機能に基づいて、各チームには最大 400
 
 ## <a name="auditing"></a>監査
 
-承認アプリは、Microsoft 365 セキュリティ/コンプライアンス センター内の監査イベントをログに記録します。監査ログを表示できます。
+The Approvals App logs audit events within the Microsoft 365 Security and Compliance Center. You can view the audit log.
 
 1. Microsoft 365 コンプライアンス センターにアクセスします。
 

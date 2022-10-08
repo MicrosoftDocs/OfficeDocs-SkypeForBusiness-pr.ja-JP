@@ -13,12 +13,12 @@ ms.collection:
 description: Teams PowerShell を使用して Microsoft Teams を管理する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66f873b163222d3d9745e68881da2b8071f60eec
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: a14658039f4edeb8e70ec195f036bf8321453c2c
+ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396528"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68486577"
 ---
 # <a name="manage-teams-with-microsoft-teams-powershell"></a>Microsoft Teams PowerShell を使用して Teams を管理する
 
@@ -69,8 +69,8 @@ Azure Cloud Shellにアクセスし、PowerShell を使用して Teams を管理
 ## <a name="manage-policies-via-powershell"></a>PowerShell を使用してポリシーを管理する
 
 > [!NOTE]
-> - オンライン コネクタSkype for Business Teams PowerShell に統合されています。 現在、パブリック プレビューで利用できます。 Teams に適用されるSkype for Business Online コマンドレットは、Teams PowerShell モジュールでネイティブに使用できるようになります。 インストール手順については、 [Teams PowerShell のインストールに関する](teams-powershell-install.md) 記事を参照してください。
-> - Skype for Business Online に接続すると、PowerShell セッションでコマンドレットを使用できるようになります。 詳細については、「[Office 365 PowerShell を使用して Skype for Business Online を管理する](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)」を参照してください。
+> - オンライン コネクタSkype for Business Teams PowerShell に統合されます。 Teams に適用されるSkype for Business Online コマンドレットは、Teams PowerShell モジュールでネイティブに使用できます。 インストール手順については、 [Teams PowerShell のインストールに関する](teams-powershell-install.md) 記事を参照してください。
+> - Teams に接続すると、PowerShell セッションでコマンドレットを使用できるようになります。 詳細については、「[Office 365 PowerShell を使用して Skype for Business Online を管理する](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)」を参照してください。
 
 [Skype for Business コマンドレット モジュール](/powershell/module/teams)でポリシーを管理するためのコマンドレットを見つけます。
 

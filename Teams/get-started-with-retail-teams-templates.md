@@ -10,6 +10,7 @@ ms.reviewer: yinchang
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- highpri
 ms.localizationpriority: high
 search.appverid: MET150
 description: 小売業組織のチームを迅速かつ簡単に作成するために、Teams 管理センターや Microsoft Graph で小売業テンプレートを管理および使用する方法を説明します。
@@ -20,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8c6af4cc86051c9233e06d0bf6c67abe1a4ad39
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 69644ce0261d37fb6a7a5e4270a68fb2a79a7d19
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837337"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046917"
 ---
 # <a name="use-retail-team-templates"></a>小売業チーム テンプレートを使用する
 
@@ -41,7 +42,7 @@ Teams には、小売業のニーズに特化して設計されたテンプレ�
 
 |以下の場合: | 次に、以下の場合: |
 | ---- | --------- |
-| 管理者または IT 担当者 |[Teams 管理センターでチーム テンプレートを管理](#manage-team-templates-in-the-teams-admin-center)します。チーム テンプレートを表示し、テンプレート ポリシーを適用して、Teams でチームを作成するためにスタッフが使用できるテンプレートを制御します。 |
+| 管理者または IT 担当者 |[Manage team templates in the Teams admin center](#manage-team-templates-in-the-teams-admin-center). View team templates and apply templates policies to control which templates your staff can use in Teams for creating teams. |
 | 開発者 | [Microsoft Graph を使用](#use-team-templates-with-microsoft-graph)して、チーム テンプレートでチームを作成します。 |
 
 ## <a name="manage-team-templates-in-the-teams-admin-center"></a>Teams 管理センターでチーム テンプレートを管理する
@@ -77,7 +78,7 @@ Teams には、小売業のニーズに特化して設計されたテンプレ�
 
 ## <a name="use-team-templates-with-microsoft-graph"></a>Microsoft Graph で Teams テンプレートを使用する
 
-開発者は、Microsoft Graph を使用して、事前構築済みのチーム テンプレートからチームを作成できます。Microsoft Graph でチーム テンプレートを使用する方法の詳細については、「[Microsoft Graph で、チーム テンプレートの使用を開始する](get-started-with-teams-templates.md)」、「[Microsoft Teams API の概要](/graph/teams-concept-overview?view=graph-rest-1.0)」、および「[teamsTemplate リソースの種類](/graph/api/resources/teamstemplate?view=graph-rest-1.0)」を参照してください。
+Developers can use Microsoft Graph to create teams from pre-built team templates. To learn more about using team templates with Microsoft Graph, see [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md), [Microsoft Teams API overview](/graph/teams-concept-overview?view=graph-rest-1.0), and [teamsTemplate resource type](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
 
 こちらに事前構築済みの小売業チーム テンプレートを示します。
 

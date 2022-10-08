@@ -17,12 +17,12 @@ description: Microsoft Teams 管理センターの Teams ライブ イベント�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 29a255c9248f07db00d4295e99d4062116ca4e76
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: 1a7f571610c49da16735cf66f65f725901fce56d
+ms.sourcegitcommit: b2692b3f6c60d8df5ba0677c68ff9c90a75a0d72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794095"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68033815"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams ライブ イベントの使用状況レポート
 
@@ -48,7 +48,7 @@ Microsoft Teams 管理センターの Teams ライブ イベント使用状況�
 |**5**   |[**列の編集**] を選択して表で列を追加または削除します。|
 
 ## <a name="notes"></a>メモ
-現在のレポートの条件に一致する最大 100 のライブ イベントが表示されます。 その他のライブ イベントを表示するには、日付フィルターを適用してリスト サイズを小さくします。
+現在のレポートの条件に一致する最大 100 個のライブ イベントを表示します。 その他のライブ イベントを表示するには、日付フィルターを適用してリスト サイズを小さくします。
 
 匿名発表者はレポートに含まれません。
 

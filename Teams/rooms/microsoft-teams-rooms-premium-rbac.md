@@ -1,7 +1,7 @@
 ---
-title: Microsoft Teams Room のプレミアム サービスを使用した役割ベースのアクセス制御
-author: dstrome
-ms.author: dstrome
+title: Microsoft Teams Pro Management ポータルでのロールベースのアクセス制御
+author: altsou
+ms.author: altsou
 manager: serdars
 ms.reviewer: altsou
 ms.topic: article
@@ -15,29 +15,29 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Microsoft Teams Rooms のプレミアム サービスを使用した役割ベースのアクセス制御について説明します。
+description: Microsoft Teams Rooms Pro Management ポータルで、ロールベースのアクセス制御について説明します。
 f1keywords: ''
-ms.openlocfilehash: 0edce289a23116ed76bf984bfc72724295fc5a5a
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 8893f5dbe08203708fca21f808e3fda5c0f2b433
+ms.sourcegitcommit: 021cfac01a38282a8cde6e913d74be2d54c39162
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268362"
+ms.lasthandoff: 09/29/2022
+ms.locfileid: "68218526"
 ---
-# <a name="role-based-access-control-with-the-microsoft-teams-rooms-managed-service"></a>Microsoft Teams Rooms のプレミアム サービスを使用した役割ベースのアクセス制御
+# <a name="role-based-access-control-in-the-microsoft-teams-pro-management-portal"></a>Microsoft Teams Pro Management ポータルでのロールベースのアクセス制御
 
-Microsoft Teams Rooms の管理サービスの役割ベースのアクセス制御 (RBAC) により、組織内の会議室リソース データへのユーザー アクセスを管理できます。 サービス ポータル ユーザーに役割を割り当てると、ユーザーが表示したり、変更することができる内容を制限することができます。 各役割には、その役割を持つユーザーが組織内でアクセスおよび変更できる権限のセットがあります。
+Microsoft Teams Rooms Pro Management ポータルのロールベースのアクセス制御 (RBAC) は、組織内のルーム リソース データへのユーザー アクセスを管理するのに役立ちます。 ポータル ユーザーにロールを割り当てることで、表示および変更できる内容を制限できます。 各役割には、その役割を持つユーザーが組織内でアクセスおよび変更できる権限のセットがあります。
 
 役割を作成、編集、または割り当てるには、アカウントに次のいずれかの権限が必要です。
 
 - Azure Active Directory (Azure AD) による全体管理者
-- Microsoft Teams Rooms の管理サービス ポータルを使用した管理サービス管理者
+- Microsoft Teams Rooms Pro Management ポータルを使用したマネージド サービス管理者
 
 ## <a name="what-is-a-role"></a>役割とは
 
-役割は、その役割に割り当てられたユーザーに付与された権限のセットを定義します。 今のところ、Microsoft Teams Rooms の管理サービスには、**管理サービス管理者**、**サイト リード** と **サイト テクニカル** の 3 つの役割が組み込まれています。 これらは、会議室の管理に関与する可能性がある組織内のユーザーの一般的なシナリオを対象としています。
+役割は、その役割に割り当てられたユーザーに付与された権限のセットを定義します。 現時点では、Microsoft Teams Rooms Pro Management ポータルには **、マネージド サービス管理者**、**サイト リーダー**、**および Site Tech** の 3 つの組み込みロールがあります。 これらは、会議室の管理に関与する可能性がある組織内のユーザーの一般的なシナリオを対象としています。
 
-役割を表示するには、Microsoft Teams Rooms の管理サービス ポータルの左側のナビゲーションで、**[役割]** に移動した後、役割のいずれかを選択して該当の役割のプロパティ、権限、および割り当てを表示します。  
+ロールを表示するには、Microsoft Teams Rooms Pro Management ポータルの左側のナビゲーションで[**ロール]** に移動し、ロールのいずれかを選択して、ロールのプロパティ、アクセス許可、および割り当てを表示します。  
 
 - **プロパティ**: 名前、役割の種類、および説明
 - **権限**: 役割がアクセスできる機能と権限のレベルのリスト。
@@ -47,9 +47,9 @@ Microsoft Teams Rooms の管理サービスの役割ベースのアクセス制�
 
 組み込みの役割をグループまたはユーザーに割り当てる場合は、追加の構成を行う必要はありません。 組み込みの役割の名前、説明、種類、または権限は削除または編集できないことに注意してください。
 
-- **管理サービス管理者**: Microsoft Teams Room のプレミアム サービス ポータルに完全にアクセスすることができます。
-- **サイト リード**: 会議室を整理し、レポートにアクセスすることができ、チケットを管理することができます。 登録キーをリセットしたり、サービスの構成を変更することができません。  
-- **サイト テクニカル**: 特定の会議室のチケットを管理します。 サービスを変更したり、サービス内の会議室を整理する権限がありません。
+- **マネージド サービス管理者**: Microsoft Teams Room Pro Management ポータルにフル アクセスできます。
+- **サイト リード**: 会議室を整理し、レポートにアクセスすることができ、チケットを管理することができます。 登録キーをリセットしたり、サービス構成を変更したりすることはできません。  
+- **サイト テクニカル**: 特定の会議室のチケットを管理します。 サービス構成を変更したり、ルームを整理したりするためのアクセス許可がありません。
 
 次の表に、各役割にできることをまとめます。
 
@@ -70,7 +70,7 @@ Microsoft Teams Rooms の管理サービスの役割ベースのアクセス制�
 |チケット管理   |顧客インシデントの作成         |&#10004;           |&#10004;           |&#10004;  |
 |    |表示         |&#10004;           |&#10004;           |&#10004;  |
 |    |更新         |&#10004;           |&#10004;           |&#10004;  |
-|Microsoft Teams Rooms の管理サービス設定    |表示         |&#10004;           |         ||
+|Microsoft Teams Rooms Pro Management サービスの設定    |表示         |&#10004;           |         ||
 |    |変更        |&#10004;           |         ||
 |役割の管理    |表示         |&#10004;           |         ||
 |    |変更         |&#10004;           |         ||
@@ -79,7 +79,7 @@ Microsoft Teams Rooms の管理サービスの役割ベースのアクセス制�
 
 組み込みのロールが組織のニーズに合わない場合は、ロールを作成し、必要に応じてそのアクセス許可を構成できます。 ロールを作成するには、グローバル管理者またはマネージド サービス管理者である必要があります。 
 
-1. Microsoft Teams Roomsマネージド サービス ポータルの左側のナビゲーションで、[**設定ロール]** >  に移動 **します**。
+1. Microsoft Teams Rooms Pro Management ポータルの左側のナビゲーションで、[**設定ロール]** >  に移動 **します**。
 2. [ **ロールの作成**] を選択します。
 3. [ **全般設定]** ページの [ **ロールのプロパティ**] で、このロールの名前を入力します。 [ **説明]** に、このロールに関する詳細を入力します。 **[次へ]** を選択します。
 4. [ **アクセス許可]** ページの [ **ロールのアクセス許可**] で、適切なチェック ボックスをオンにして、このロールのアクセス許可を選択します。 **[次へ**] を選択して、このロールの最初の割り当てを作成します。
@@ -92,7 +92,7 @@ Microsoft Teams Rooms の管理サービスの役割ベースのアクセス制�
 
 ロールを割り当てるには、グローバル管理者またはマネージド サービス管理者であるか、ロール管理アクセス許可を持つロールが必要です。
 
-1. Microsoft Teams Roomsマネージド サービス ポータルの左側のナビゲーションで、[**設定ロール]** >  に移動 **します**。
+1. Microsoft Teams Rooms Pro Management ポータルの左側のナビゲーションで、[**設定ロール]** >  に移動 **します**。
 
     :::image type="content" source="../media/microsoft-teams-rooms-premium-roles.png" alt-text="ロールを示す [アクセス制御] ページのスクリーンショット。":::
 
@@ -108,4 +108,4 @@ Microsoft Teams Rooms の管理サービスの役割ベースのアクセス制�
 
 ## <a name="related-topics"></a>関連トピック
 
-- [Microsoft Teams Rooms の管理サービス](microsoft-teams-rooms-premium.md)
+- [Microsoft Teams Rooms Pro Management ポータル](microsoft-teams-rooms-premium.md)

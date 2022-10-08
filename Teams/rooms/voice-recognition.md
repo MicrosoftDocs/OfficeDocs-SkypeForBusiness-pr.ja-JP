@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29a048ccc02082ec019bb64dca9e89b7f265ff83
-ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.openlocfilehash: d7b74ecb85f6081533f5139b6f8f083b8958d47f
+ms.sourcegitcommit: 31fe510550ac1f5f8e53b2395014cb909a6eb723
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67465975"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "68350750"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>インテリジェント スピーカーの音声認識テクノロジ コントロールを管理する
 
@@ -130,13 +130,29 @@ IT 管理者はいつでもオーディオ データをエクスポートでき�
 
 |**言語**|**国/地域**|**カルチャ ID**|
 |:-----|:-----|:-----|
+|アラビア語  <br/> |サウジアラビア <br/> |ar-SA  <br/> |
+|中国語  <br/> |中国 <br/> |zh-CN  <br/> |
+|中国語  <br/> |台湾 <br/> |zh-TW  <br/> |
+|デンマーク語  <br/> |デンマーク <br/> |da-DK  <br/> |
+|オランダ語  <br/> |オランダ <br/> |nl-NL  <br/> |
 |英語  <br/> |オーストラリア <br/> |en-AU  <br/> |
 |英語  <br/> |カナダ  <br/> |en-CA <br/> |
 |英語  <br/> |インド  <br/> |en-IN  <br/> |
 |英語  <br/> |ニュージーランド  <br/> |en-NZ  <br/> |
 |英語  <br/> |英国  <br/> |en-GB  <br/> |
 |英語  <br/> |米国  <br/> |en-US  <br/> |
-
+|フィンランド語  <br/> |フィンランド  <br/> |fi-FI  <br/> |
+|フランス語  <br/> |カナダ <br/> |fr-CA  <br/> |
+|フランス語  <br/> |フランス <br/> |fr-FR  <br/> |
+|イタリア語  <br/> |イタリア <br/> |it-IT  <br/> |
+|日本語  <br/> |日本 <br/> |ja-JP  <br/> |
+|ノルウェー語  <br/> |ノルウェー <br/> |nb-NO  <br/> |
+|ポーランド語  <br/> |ポーランド <br/> |pl-PL  <br/> |
+|ポルトガル語      <br/> |ブラジル <br/> |pt-BR  <br/> |
+|ロシア語  <br/> |ロシア <br/> |ru-RU  <br/> |
+|スウェーデン語  <br/> |スウェーデン <br/> |sv-SE  <br/> |
+|スペイン語  <br/> |メキシコ  <br/> |es-MX  <br/> |
+|スペイン語  <br/> |スペイン  <br/> |es-ES  <br/> |
 
 ### <a name="in-meeting-transcription-locales"></a>会議中の文字起こしロケール
 

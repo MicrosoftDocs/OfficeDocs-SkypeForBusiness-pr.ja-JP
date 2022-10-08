@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- highpri
 description: Microsoft Graph でのみ使用できるチーム テンプレートについて説明します。
 f1.keywords:
 - CSH
@@ -20,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c4251aa0293665b6fd41c66e352ca9c595378259
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: ca21b61f1d1889c101208c8b9617efb4a9c19795
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397238"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046867"
 ---
 # <a name="get-started-with-team-templates-using-microsoft-graph"></a>Microsoft Graph を使用して、チーム テンプレートの使用を開始する
 
@@ -66,9 +67,9 @@ Microsoft Graph を使用すると、 [独自のテンプレートを作成](/gr
 | テンプレートの種類 | TemplateId | このテンプレートに含まれるプロパティ |
 | ------------------ | -------------- | ----------------------------------------------------- |
 | Standard | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('standard')` | 追加のアプリとプロパティはありません |
-| 教育機関 -<br>クラス チーム | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationClass')` | アプリ:<ul><li>OneNote クラス ノートブック ([ **全般** ] タブにピン留め) </li><li>割り当てアプリ ([ **全般** ] タブにピン留め)</li></ul> チームのプロパティ:<ul><li>チームの可視性が **HiddenMembership** に設定されている (オーバーライドできません)</li></ul> |
-| 教育機関 -<br>スタッフ チーム | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationStaff')` | アプリ:<ul><li>OneNote Staff Notebook ( **[全般** ] タブにピン留め)</li></ul> |
-|教育機関 -<br>PLC チーム |`https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | アプリ:<ul><li>OneNote PLC Notebook ([ **全般** ] タブにピン留め)</ul></li>|
+| 教育-<br>クラス チーム | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationClass')` | アプリ:<ul><li>OneNote クラス ノートブック ([ **全般** ] タブにピン留め) </li><li>割り当てアプリ ([ **全般** ] タブにピン留め)</li></ul> チームのプロパティ:<ul><li>チームの可視性が **HiddenMembership** に設定されている (オーバーライドできません)</li></ul> |
+| 教育-<br>スタッフ チーム | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationStaff')` | アプリ:<ul><li>OneNote Staff Notebook ( **[全般** ] タブにピン留め)</li></ul> |
+|教育-<br>PLC チーム |`https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | アプリ:<ul><li>OneNote PLC Notebook ([ **全般** ] タブにピン留め)</ul></li>|
 
 > [!NOTE]
 > Teams クライアントと Microsoft Graph で使用できる事前構築済みテンプレートの一覧については、「Teams [管理センターでチーム テンプレートを使用する](get-started-with-teams-templates-in-the-admin-console.md)」を参照してください。

@@ -14,15 +14,16 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- EngageScoreOct2022
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ee527a457f7852bb9a6e7e6595754f1a64d2efd3
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: faa58d05f0076a8e1784268d8815b4e5377a238b
+ms.sourcegitcommit: 4e4e38075a897b382a6176bbd27c64296923a2e9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562226"
+ms.lasthandoff: 09/28/2022
+ms.locfileid: "68135717"
 ---
 # <a name="create-an-organization-wide-team-in-microsoft-teams"></a>Microsoft Teams で組織全体にわたるチームを作成する
 
@@ -50,8 +51,8 @@ ms.locfileid: "66562226"
 
 > [!NOTE]
 >
-> - グローバル管理者がチーム作成時に **[組織全体]** オプションを表示できない場合、組織全体のチーム数の上限である 5 チームに達したか、メンバー数 10,000 の現在の制限を超えている可能性があります。将来的には、この制限を上げる予定です。組織全体のチームは、Teams for Education ではまだ利用できません。
-> - 会議室の一覧、備品、リソース アカウントに含まれていない会議室が組織全体のチームに追加または同期される可能性があります。チーム所有者は、これらのアカウントをチームから簡単に削除できます。
+> - If you don't see the **Org-wide** option when creating a team and you're a global admin, you might have reached the five organization-wide teams limit, or your organization might have more than the current size limit of 10,000 members. We're looking to increase this limit in the future. Org-wide teams aren't yet available for Teams for Education.
+> - Rooms that aren't a part of a room list, equipment, and resource accounts might be added or synced to the organization-wide team. Team owners can easily remove these accounts from the team.
 > - メンバーを追加または削除するシステムによるすべての操作は、[全般] チャネルに投稿されます。 また、Teams クライアント チャネルで新しいアクティビティがあったとして、チャネルにマークされます。
 > - 組織が Teams の初心者であり、5,000 人以上のユーザーがいない場合、組織の組織全体のチームが自動的に作成されます。 チーム名はテナント名を反映し、全般チャネルを持ちます。 グローバル管理者は、他のチームと同様にこのチームを編集できます。
 
@@ -96,7 +97,7 @@ ms.locfileid: "66562226"
 
 ### <a name="is-there-a-way-to-create-an-organization-wide-team-other-than-using-the-teams-client"></a>Teams クライアントを使用する以外に、組織全体のチームを作成する方法はありますか?
 
-グローバル管理者だけが、Teams クライアントを使用して組織全体のチームを作成できます。組織がチームの作成を PowerShell を使用するように制限している場合、推奨される回避策は、チームを作成できるユーザーのセキュリティ グループにグローバル管理者を追加することです。
+Only global admins can create an organization-wide team by using the Teams client. If your organization limits creating teams to using PowerShell, the recommended workaround is to add your global admins to the security group of users who can create a team.
 
 詳細については、「[グループを作成できるユーザーを管理する](/microsoft-365/admin/create-groups/manage-creation-of-groups)」をご覧ください。
 

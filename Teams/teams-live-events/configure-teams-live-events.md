@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams でライブ イベント設定を構成する
-author: CarolynRowe
-ms.author: crowe
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.date: 03/11/2019
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ac5bf29fbbe61b2e2224aeccb2082e31742816b
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: f526a3404d9077ecd97d877a914975218640028c
+ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794165"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68486567"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Microsoft Teams でライブ イベント設定を構成する
 
@@ -101,7 +101,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 > 外部アプリまたはデバイスを使用してライブ イベントを作成する場合は、[Microsoft Streamを使用して eCDN プロバイダーを構成](/stream/network-caching)する必要もあります。 
 
 >[!Note]
-> Microsoft Stream の使用から[会議の記録用の OneDrive for Business および SharePoint ](../tmr-meeting-recording-change.md)への変更は段階的なアプローチになります。リリース時には、この機能にオプトインできるようになります。Stream を使い続けるには、11 月にオプトアウトする必要があります。また、2021 年初頭には、すべてのお客様に、新しい会議の記録に OneDrive と SharePoint を使用するように要請する予定です。
+> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](../tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings.
 
 >[!Note]
 > 選択した eCDN ソリューションは、選択したサード パーティ プロバイダーの利用規約とプライバシー ポリシーの対象となります。これにより、eCDN プロバイダーのソリューションの使用が制御されます。 eCDN プロバイダーのソリューションの使用は、Microsoft ボリューム ライセンス条項またはオンライン サービス条項の対象になりません。 サード パーティ プロバイダーの条項に同意しない場合は、Microsoft Teams で eCDN ソリューションを有効にしないでください。

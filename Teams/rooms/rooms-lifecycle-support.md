@@ -15,12 +15,12 @@ f1.keywords:
 ms.localizationpriority: medium
 description: ダイナミック サポートの構造とそのフェーズを含めた Microsoft Teams Rooms のライフサイクル サポートの詳細について。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 509f4da415d7a7bd583442f21bd46efc52c9984f
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: 9025500bc8aff6ddded71df29b9280d964763bdc
+ms.sourcegitcommit: 1be178dc3b34575e1914e629f004f897c02e0097
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706654"
+ms.lasthandoff: 09/28/2022
+ms.locfileid: "68138480"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft Teams Rooms アプリ バージョンのサポート
  
@@ -53,15 +53,15 @@ Microsoft Teams Rooms には、半期のチャネル サービス オプショ�
 | 21H2    | 2021-11-16        | サポート済み、<br>推奨                               | 4.12.126.0                                        | 19044.1288           |
 | 21H1    | 2021-05-18        | 非サポート                                           | &#x2014;                                          | &#x2014;             |
 | 20H2    | 2020-10-20        | サポート                                               | 4.10.10.0                                         | 19042.631            |
-| 2004    | 2020-05-27        | スキップ、 <br/> 非推奨 &#x2780;                 | &#x2014;                                          | &#x2014;             |
-| 1909    | 2019-11-12        | サポート                                               | 4.5.33.0                                          | 18363.418            |
+| 2004    | 2020-05-27        | サポートされていません。 <br/>既知の互換性の問題&#x2780;| &#x2014;                                          | &#x2014;             |
+| 1909    | 2019-11-12        | 非サポート                                           | &#x2014;                                          | &#x2014;             |
 | 1903    | 2019-05-21        | 非サポート                                           | &#x2014;                                          | &#x2014;             |
 | 1809    | 2019-03-28        | サポートされていません。 <br/>既知の互換性の問題&#x2781; | &#x2014;                                          | &#x2014;             |
 | 1803    | 2018-07-10        | 非サポート                                           | &#x2014;                                          | &#x2014;             |
 | 1709    | 2018-01-18        | 非サポート                                           | &#x2014;                                          | &#x2014;             |
 | 1703    | 2017-07-11        | 非サポート                                           | &#x2014;                                          | &#x2014;             |
 
-&#x2780; Windows 10 バージョン 2004 は、Microsoft Teams Rooms アプリケーションとの互換性の問題が原因で推奨されません。 この特定の問題により、Microsoft Teams Rooms アプリケーションは夜間に再起動すると失敗します。 
+&#x2780; Windows 10 バージョン 2004 は、Microsoft Teams Rooms アプリケーションとの互換性の問題が原因で推奨されません。 この特定の問題により、Microsoft Teams Rooms アプリケーションは夜間に再起動すると失敗します。
 
 &#x2781; Windows 10 バージョン 1809 は、Microsoft Teams Rooms アプリケーションとの互換性の問題が原因で推奨されません。 この特定の問題により、Microsoft Teams Rooms アプリケーションは夜間に再起動すると失敗します。 この問題は、Windows 10 バージョン 1903 で解決されています。  
 

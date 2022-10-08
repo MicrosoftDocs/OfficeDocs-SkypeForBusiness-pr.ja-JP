@@ -1,7 +1,7 @@
 ---
 title: ライブ イベント記録ポリシー
-author: CarolynRowe
-ms.author: crowe
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ description: ライブ イベント記録ポリシーについて説明します
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5ae98255edf26843e59839192a9f20096182bfa2
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: abe4cb004ada98021e74823495e6208fc31c28fb
+ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794115"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68486557"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>Microsoft Teams のライブ イベント記録ポリシー
 
@@ -56,7 +56,7 @@ Microsoft Teams ライブ イベントを記録するには、いくつかのオ
 
 ## <a name="storage-and-persistence-behavior"></a>ストレージと永続化の動作
 
-| オプション                                       | 都道府県   | DVR                                                   | VOD                                                     | 記録                |
+| オプション                                       | 都道府県   | Dvr                                                   | Vod                                                     | 記録                |
 | ------------------------------------------------ | ------------ | --------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------- |
 | 出席者が利用できる記録 | 選択済み     | DVR を使用でき、Azure Media Services (AMS) 資産は 180 日間保存されます | 出席者はイベントにアクセスして視聴できます                     |                              |
 |                                                  | [選択されていません] | DVR を使用でき、AMS 資産は 180 日間保存されます | 出席者は、イベントが終了した後にイベントにアクセスできなくなります。 |                              |

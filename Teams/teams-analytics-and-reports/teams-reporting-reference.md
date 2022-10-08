@@ -18,12 +18,12 @@ description: この記事では、Microsoft Teams 管理センターで使用で
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bd6be2023745390a0f1225224e6ebbe9bcbde1dc
-ms.sourcegitcommit: e6f3e1e499ed1298b3e6f7a1b53f6cb8ba73c9b1
+ms.openlocfilehash: b08e62a7ddee8298ff38846d8d254d10d3d6f681
+ms.sourcegitcommit: b2692b3f6c60d8df5ba0677c68ff9c90a75a0d72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "66906962"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68033835"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams の分析とレポート
 
@@ -40,28 +40,29 @@ Microsoft Teams 管理センターに移動し、左側のナビゲーション�
 
 ## <a name="teams-reporting-reference"></a>Teams レポートの参照
 
-Microsoft Teams 管理センターで使用できる Teams レポートの一覧と、各レポートで使用できる情報の概要を次に示します。
+さまざまな環境で Microsoft Teams 管理センターで使用できる Teams レポートの一覧と、各レポートで使用できる情報の概要を次に示します。
 
 Microsoft では、Teams のレポート エクスペリエンスの継続的な改善と、機能の追加を行うための取り組みを行っています。 時間の経過とともに、追加の機能をレポートに組み入れるとともに、新しいレポートを Microsoft Teams 管理センターに追加していく予定です。
 
-|レポート  |測定される項目 |
-|---------|---------|
-|[Teams の使用状況レポート](teams-usage-report.md)  |  アクティブなユーザー<br/>チーム内およびチャネル内のアクティブ ユーザー<br/>アクティブ チャネル<br/>メッセージ<br/>チームのプライバシー設定<br/>チームのゲスト   |
-|[Teams ユーザー アクティビティ レポート](user-activity-report.md)  | チーム チャットにユーザーが投稿したメッセージ<br/>プライベート チャットにユーザーが投稿したメッセージ<br/>  ユーザーが参加する 1 対 1 の通話<br/> ユーザーが組織した会議の数 <br/>ユーザーが参加した会議の数<br/>会議のオーディオ、ビデオ、画面の共有時間<br/>   ユーザーの最後のアクティビティの日付     |
-|[Teams のデバイス使用状況レポート](device-usage-report.md)   |  Windows ユーザー:<br/>Mac ユーザー<br/>iOS ユーザー<br/>Android スマートフォン ユーザー     |
-|[Teams のライブ イベントの使用状況レポート](teams-live-event-usage-report.md)   |  ビューの合計<br>開始時刻<br>イベントの状態<br>開催者<br>プレゼンター<br>プロデューサー<br>録画設定<br>運用の種類    |
-|[Teams PSTN でブロックされたユーザー レポート](pstn-blocked-users-report.md)   |  表示名<br>電話番号<br>理由<br>アクションの種類<br>アクションの日付と時刻   |
-|[Teams PSTN 分プール レポート](pstn-minute-pools-report.md) |  国または地域<br>機能 (ライセンス) <br>合計分数<br>使用時間 (分)<br>利用可能な分数|
-|[Teams PSTN 使用状況レポート - 通話プラン](pstn-usage-report.md#calling-plans)|  タイムスタンプ<br>ユーザー名<br>電話番号<br>通話の種類 <br>呼び出し対象<br>国または地域へ <br>呼び出し元 <br>国または地域から<br>通話料<br>通貨<br>[時間]<br>国内/国際<br>通話 ID<br>数値の種類<br>国または地域<br>電話会議 ID<br>機能 (ライセンス)|
-|[Teams PSTN 使用状況レポート - ダイレクト ルーティング](pstn-usage-report.md#direct-routing)  |  タイムスタンプ<br>表示名<br>SIP アドレス<br>電話番号 <br>通話の種類<br>呼び出し対象<br>開始時刻<br>招待時間<br>失敗時間<br>終了時刻<br>[時間]<br>数値の種類<br>メディアのバイパス<br>SBC FQDN<br>Azure リージョン<br>イベントの種類<br>最終 SIP コード<br>最終 Microsoft サブコード<br>最終的な SIP フレーズ<br>関連付け ID  |
-|[Teams の情報保護ライセンス レポート](information-protection-license-report.md)  | <br>ユーザーが変更通知を介してメッセージをプッシュする有効なライセンスを持っているかどうか</br><br>ユーザーによってトリガーされた変更通知イベントの合計数<br><br>組織全体の変更通知イベントをリッスンしているアプリ<br>|
-|[Teams Virtual Visits の使用状況レポート](/microsoft-365/frontline/virtual-visits-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)  | 仮想予定の数<br>Bookings の予定の数<br>Teams 電子正常性レコード (EHR) の統合予定の数<br>予定の平均期間<br>出席者のロビーの平均待機時間<br>開始時刻<br>会議 ID<br>ロビーの待機時間<br>[時間]<br>ステータス<br>製品の種類<br>出席者<br>SMS 送信済み
-|[Teams EHR コネクタ 仮想予定 レポート](/microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) | 開始時刻<br>[時間]<br>プライマリ (会議の開催者の名前)<br>プライマリのメール (会議の開催者のメール)<br>部署<br>応答<br>ロビーの待機時間<br>予定が割り当て制限内にあるかどうか|
+|レポート  |公共 |Gcc |GCCH |国防 総省 |測定される項目 |
+|---------|---------|---------|---------|---------|---------|
+|[Teams の使用状況レポート](teams-usage-report.md)  |Yes|はい|はい|はい|  アクティブなユーザー<br/>チーム内およびチャネル内のアクティブ ユーザー<br/>アクティブ チャネル<br/>メッセージ<br/>チームのプライバシー設定<br/>チーム内のアクティブなゲスト  <br/>アクティブな外部ユーザー (共有チャネル内)<br/>チーム内の共有チャネル固有の詳細 (新規)|
+|[Teams ユーザー アクティビティ レポート](user-activity-report.md)  |Yes|はい|はい|はい|アクティブな内部ユーザーと外部ユーザー (共有チャネル内)<br/> チーム チャットにユーザーが投稿したメッセージ<br/>プライベート チャットにユーザーが投稿したメッセージ<br/>  ユーザーが参加する 1 対 1 の通話<br/> ユーザーが組織した会議の数 <br/>ユーザーが参加した会議の数<br/>会議のオーディオ、ビデオ、画面の共有時間<br/>   ユーザーの最後のアクティビティの日付  <br>ユーザーの共有チャネル操作 (新規)</br>   |
+|[Teams のデバイス使用状況レポート](device-usage-report.md)   |Yes|はい|はい|はい|  Windows ユーザー<br/>Mac ユーザー<br/>iOS ユーザー<br/>Android スマートフォン ユーザー     |
+|[Teams アプリの使用状況レポート (新規)](app-usage-report.md)   |Yes|はい|いいえ|いいえ|  アプリのアクティブなユーザーの合計<br/>アプリを使用しているアクティブなチームの合計数<br/>インストールされているアプリの合計数 (新規)<br/>非アクティブなアプリの合計数 <br/>Total 1P vs 3P vs LoB アプリの使用状況 (新規)     |
+|[Teams のライブ イベントの使用状況レポート](teams-live-event-usage-report.md)   |Yes|はい|いいえ|いいえ|  ビューの合計<br>開始時刻<br>イベントの状態<br>開催者<br>プレゼンター<br>プロデューサー<br>録画設定<br>運用の種類    |
+|[Teams PSTN でブロックされたユーザー レポート](pstn-blocked-users-report.md)   |Yes|はい|いいえ|いいえ|  表示名<br>電話番号<br>理由<br>アクションの種類<br>アクションの日付と時刻   |
+|[Teams PSTN 分プール レポート](pstn-minute-pools-report.md) |Yes|はい|いいえ|いいえ|  国または地域<br>機能 (ライセンス) <br>合計分数<br>使用時間 (分)<br>利用可能な分数|
+|[Teams PSTN 使用状況レポート - 通話プラン](pstn-usage-report.md#calling-plans)|はい|Yes|いいえ|いいえ|  タイムスタンプ<br>ユーザー名<br>電話番号<br>通話の種類 <br>呼び出し対象<br>国または地域へ <br>呼び出し元 <br>国または地域から<br>通話料<br>通貨<br>[時間]<br>国内/国際<br>通話 ID<br>数値の種類<br>国または地域<br>電話会議 ID<br>機能 (ライセンス)|
+|[Teams PSTN 使用状況レポート - ダイレクト ルーティング](pstn-usage-report.md#direct-routing)  |Yes|Yes|いいえ|いいえ|  タイムスタンプ<br>表示名<br>SIP アドレス<br>電話番号 <br>通話の種類<br>呼び出し対象<br>開始時刻<br>招待時間<br>失敗時間<br>終了時刻<br>[時間]<br>数値の種類<br>メディアのバイパス<br>SBC FQDN<br>Azure リージョン<br>イベントの種類<br>最終 SIP コード<br>最終 Microsoft サブコード<br>最終的な SIP フレーズ<br>関連付け ID  |
+|[Teams の情報保護ライセンス レポート](information-protection-license-report.md)  |Yes|Yes|いいえ|いいえ| <br>ユーザーが変更通知を介してメッセージをプッシュする有効なライセンスを持っているかどうか</br><br>ユーザーによってトリガーされた変更通知イベントの合計数<br><br>組織全体の変更通知イベントをリッスンしているアプリ<br>|
+|[Teams Virtual Visits の使用状況レポート](/microsoft-365/frontline/virtual-visits-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)  |Yes|Yes|いいえ|いいえ| 仮想予定の数<br>Bookings の予定の数<br>Teams 電子正常性レコード (EHR) の統合予定の数<br>予定の平均期間<br>出席者のロビーの平均待機時間<br>開始時刻<br>会議 ID<br>ロビーの待機時間<br>[時間]<br>ステータス<br>製品の種類<br>出席者<br>SMS 送信済み
+|[Teams EHR コネクタ 仮想予定 レポート](/microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) |Yes|Yes|いいえ|いいえ| 開始時刻<br>[時間]<br>プライマリ (会議の開催者の名前)<br>プライマリのメール (会議の開催者のメール)<br>部署<br>応答<br>ロビーの待機時間<br>予定が割り当て制限内にあるかどうか|
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## <a name="make-the-user-specific-data-anonymous"></a>ユーザー固有のデータを匿名にする
 
-Teams ユーザー アクティビティと Teams デバイス使用状況レポートのデータを匿名にするには、グローバル管理者である必要があります。 これにより、レポートとそのエクスポートの表示名、電子メール、Microsoft Azure Active Directory ID などの識別可能な情報が非表示になります。
+Teams ユーザー アクティビティ レポートのデータを匿名にするには、グローバル管理者である必要があります。 グローバル管理者は、レポート内の表示名、グループ名、電子メール、AAD ID などの識別可能な情報 (MD5 ハッシュを使用して) を非表示にできます。
 
 1. Microsoft 365 管理センターで、[設定 **組織の設定]** \> に移動し、[**サービス**] タブで [レポート] を選択 **します**。
     
@@ -70,5 +71,6 @@ Teams ユーザー アクティビティと Teams デバイス使用状況レポ
 3. [ **変更の保存] を選択します**。
 
 > [!NOTE]
-> この設定を有効にすると、 [Teams ユーザー アクティビティ レポート](user-activity-report.md) と [Teams デバイス使用状況レポート](device-usage-report.md) レポートの情報が識別されなくなります。 Teams 管理センターで使用できるその他の使用状況レポートには影響しません。
-> この設定は、Microsoft 365 管理センター、Microsoft Graph、および Power BI の Microsoft 365 使用状況レポートにも適用されます。
+> この設定を有効にすると、 [Teams ユーザー アクティビティ レポート](user-activity-report.md)、 [Teams デバイス使用状況レポート](device-usage-report.md)、Teams 使用状況レポートのユーザー、グループ、サイト名の情報 [が](teams-usage-report.md)識別されなくなります。 2021 年 9 月 1 日から、この設定は、重要な情報を保護し、企業が地域のプライバシーに関する法律をサポートできるようにするための継続的な取り組みの一環として、すべてのユーザーに対して既定で有効になっています。 
+>
+>この設定は、Microsoft 365 管理センター、Microsoft Graph、および Power BI の Microsoft 365 使用状況レポートにも適用されます。

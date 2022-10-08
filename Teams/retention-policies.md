@@ -14,17 +14,19 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- tier1
+- purview-compliance
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 000c279c32237fd7477a375bf9968db03ec5376d
-ms.sourcegitcommit: 644374fcad6372494e87d729de690af4c060f635
+ms.openlocfilehash: 806e7f6dd3bccf9df74a97d537bcddc2e4b60979
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "67054928"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047107"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Teams のアイテム保持ポリシーを管理する
 
@@ -52,7 +54,7 @@ Teams でのアイテム保持ポリシーの対象となるユーザーは、Of
 
 ポリシー構成やユーザーの操作によってこれらのポリシーが機能する方法や、Teams のアイテム保持ポリシーに含まれるメッセージ データや含まれないメッセージ データの詳細については、「[Microsoft Teams の保持の詳細](/microsoft-365/compliance/retention-policies-teams)」を参照してください。 このページでは、アイテム保持ポリシーでのメッセージを削除する場合に延期される場合がある理由についても説明しています。 たとえば、メッセージは、アイテム保持ポリシーで設定した有効期限の 7 日後まで、Teams アプリのユーザーに表示することができます。
 
-異なる保持設定を持つ複数の Teams アイテム保持ポリシーを設定した場合、保持の原則によって競合が解消されます。例を以下に示します。
+異なる保持設定を持つ複数の Teams アイテム保持ポリシーを設定した場合、保持の原則によって競合が解消されます。 次に例を示します。
 
 - 同じコンテンツを保持するか削除するかで競合が生じた場合、コンテンツは常にセキュリティで保護された場所に保持されるため、コンプライアンス管理者が電子情報開示で検索可能な状態は維持されます。
     
@@ -82,7 +84,7 @@ Teams メッセージのアイテム保持ポリシーを作成または編集�
 
 ## <a name="end-user-experience"></a>エンドユーザーのエクスペリエンス
 
-私的なチャット (1:1 のチャット) やグループのチャットの場合、ユーザーにはアイテム保持ポリシーの構成より古いチャットは削除され、"組織のアイテム保持ポリシーにより、古いメッセージを削除しました" という自動生成メッセージがまだ削除されていないメッセージの上に表示されます。例を以下に示します。
+For private chats (1:1 chats) or group chats, users will see that chats older than the retention policy configuration are deleted and an automatically generated message stating "We've deleted older messages due to your org's retention policy" is shown on top of yet undeleted messages. For example:
 
 :::image type="content" source="media/retention-policies-image1.png" alt-text="Teams アイテム保持ポリシーにより、チャット メッセージが削除されることが Teams でユーザーに通知される":::
 

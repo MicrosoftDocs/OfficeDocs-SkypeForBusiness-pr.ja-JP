@@ -1,5 +1,6 @@
 ---
 title: Microsoft Teams のコンテンツ検索を使用する
+description: Microsoft Purview コンプライアンス ポータルでコンテンツ検索を使用して、Exchange Online、SharePoint Online、OneDrive for Business、OneNote に格納されている Microsoft Teams コンテンツを検索する方法について説明します。
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -7,21 +8,23 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.collection:
+- tier1
+- purview-compliance
 - M365-collaboration
+- content-search
 ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
-description: Microsoft Purview コンプライアンス ポータルでコンテンツ検索を使用して、Exchange Online、SharePoint Online、OneDrive for Business、OneNote に格納されている Microsoft Teams コンテンツを検索する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b976c5e3c6467a6c71bb51eb1ff3ef720813584b
-ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.openlocfilehash: ff8ee3990b1ebf406fbecaff3e090f010e2beb2a
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "67808238"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046517"
 ---
 # <a name="use-content-search-in-microsoft-teams"></a>Microsoft Teams でコンテンツ検索を使用する
 

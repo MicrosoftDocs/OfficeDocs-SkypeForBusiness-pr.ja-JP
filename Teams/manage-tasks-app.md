@@ -19,12 +19,13 @@ appliesto:
 ms.collection:
 - M365-collaboration
 - m365-frontline
-ms.openlocfilehash: 23c75051268de176cc14a9b8df426e8d67f5a2d3
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+- highpri
+ms.openlocfilehash: 74b67a71f8b93f5f0ed898ef186beede056ec31a
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396498"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047117"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織の Tasks アプリを管理する
 
@@ -71,7 +72,7 @@ Tasks は、組織内のすべての Teams ユーザーに対して既定で有�
 
 ### <a name="enable-or-disable-tasks-for-specific-users-in-your-organization"></a>組織内の特定のユーザーの Tasks を有効または無効にする
 
-組織内の特定のユーザーによる Tasks の使用を許可またはブロックするには、[[アプリの管理]](manage-apps.md) ページで組織の Tasks がオンになっていることを確認してからカスタムのアプリのアクセス許可ポリシーを作成し、それらのユーザーに割り当てます。詳細については、[[Teams のアプリのアクセス許可ポリシーを管理する]](teams-app-permission-policies.md) を参照してください。
+To allow or block specific users in your organization from using Tasks, make sure Tasks is turned on for your organization on the [Manage apps](manage-apps.md) page, and then create a custom app permission policy and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
 
 ### <a name="pin-tasks-to-teams"></a>Teams にタスクをピン留めする
 
@@ -87,7 +88,7 @@ Teams のカスタマイズされたフロントライン アプリ エクスペ
 
 アプリのセットアップ ポリシーを使用すると、チームをカスタマイズして、ユーザーにとって最も重要なアプリをユーザーに固定できます。
 
-ユーザーの Tasks アプリをピン留めするには、グローバル (組織全体の既定) ポリシーを編集するか、カスタムのアプリ セットアップ ポリシーを作成して割り当てます。詳細については、「[Teams でアプリのセットアップ ポリシーを管理する](teams-app-setup-policies.md)」を参照してください。
+To pin the Tasks app for your users, you can edit the global (Org-wide default) policy or create and assign a custom app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
 
 ### <a name="a-users-my-tasks-is-visible-if-the-user-is-licensed-for-exchange-online"></a>ユーザーが Exchange Online のライセンスを持っている場合、そのユーザーの [自分のタスク] が表示されます。
 
@@ -132,7 +133,7 @@ Contoso 本社および中間マネージャーは、各店舗および複数の
 
 ## <a name="power-automate-and-graph-api"></a>Power Automate および Graph API
 
-Tasks は、To Do 用 Power Automate および Planner 用 Graph API をサポートしています。詳細については、次を参照してください。
+Tasks supports Power Automate for To Do and Graph APIs for Planner. To learn more, see:
 
 - [Planner のタスクおよびプラン API の概要](/graph/planner-concept-overview)
 - [Power Automate で Microsoft To Do を使用する](https://support.office.com/article/using-microsoft-to-do-with-power-automate-526e8f75-217b-46e0-9e06-44780b72c295)

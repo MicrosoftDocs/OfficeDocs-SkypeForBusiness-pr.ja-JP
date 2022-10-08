@@ -8,6 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.subservice: teams-apps
 ms.service: msteams
 audience: Admin
+ms.date: 09/26/2022
 ms.collection:
 - M365-collaboration
 appliesto:
@@ -19,12 +20,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: d192bffdc83510da021914627c65b03f190c6c63
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: dc84bc7be43182194af3a072edb875a6a257a9d5
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837177"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377335"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのセットアップ ポリシーを管理する
 
@@ -51,7 +52,7 @@ ms.locfileid: "67837177"
 
 |Teams デスクトップ クライアント  |Teams モバイル クライアント |
 |---------|---------|
-|![Teams デスクトップ クライアントのアプリ バー。](media/app-setup-policies-desktop-app-bar.png).  |   ![Teams モバイル クライアントのアプリ バー。](media/mobile-app-ui.png)      |
+|![Teams デスクトップ クライアントのアプリ バーを示すスクリーンショット。](media/app-setup-policies-desktop-app-bar.png).  |   ![Teams モバイル クライアントのアプリ バーを示すスクリーンショット。](media/mobile-app-ui.png)      |
 
 メッセージング拡張機能は、作成メッセージ領域の下部にあります。
 
@@ -112,7 +113,7 @@ ms.locfileid: "67837177"
 
 グローバル ポリシーの設定を編集して、必要なアプリを含めます。 組織内のさまざまなユーザー グループに合わせてチームをカスタマイズするには、1 つ以上のカスタム ポリシーを作成して割り当てます。
 
-![ポリシーを管理したり、新しいポリシーを追加したりするための [アプリのセットアップ ポリシー] ページ。](media/app-setup-policies-update.png)
+:::image type="content" source="media/app-setup-policies-update.png" alt-text="ポリシーを管理したり、新しいポリシーを追加したりするためのオプションを含むアプリセットアップ ポリシー ページを示すスクリーンショット。":::
 
 ### <a name="edit-an-app-setup-policy"></a>アプリのセットアップ ポリシーを編集する
 
@@ -161,7 +162,7 @@ Teams アプリ ストアには、すべての Teams アプリが一覧表示さ
 |Teams デスクトップ クライアント |Teams モバイル クライアント |
 |---------|---------|
 |Teams の横にあるアプリ バーで、**[... その他のアプリ]** を選択します。| Teams の下部近くのアプリ バーで、上にスワイプします。|
-|![Teams デスクトップ クライアントのその他のアプリ。](media/app-setup-policies-desktop-more-apps.png)   |![Teams モバイル クライアントのその他のアプリ](media/app-setup-policies-mobile-more-apps.png)  
+|![Teams デスクトップ クライアントでより多くのピン留めされたアプリを示すスクリーンショット。](media/app-setup-policies-desktop-more-apps.png)   |![Teams モバイル クライアントでよりピン留めされたアプリを示すスクリーンショット](media/app-setup-policies-mobile-more-apps.png)  
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>Teams のモバイル エクスペリエンスについて知っておくべきこと
 
