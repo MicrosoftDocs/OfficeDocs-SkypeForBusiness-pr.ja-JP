@@ -1,5 +1,6 @@
 ---
 title: Microsoft Teams でイベントの監査ログを検索する
+description: Microsoft Purview コンプライアンス ポータルの監査ログから Microsoft Teams データを取得する方法について説明します。
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -7,20 +8,22 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.collection:
+- tier1
+- purview-compliance
 - M365-collaboration
+- audit
 f1.keywords:
 - NOCSH
 ms.reviewer: anwara
 search.appverid: MET150
-description: Microsoft Purview コンプライアンス ポータルの監査ログから Microsoft Teams データを取得する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7d94411132b575aa4754aae993f070a36718a2d
-ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.openlocfilehash: f82b9b77422f4f8aca8da3333e81f9b5e4c2cf35
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "67808448"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046647"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft Teams でイベントの監査ログを検索する
 
@@ -60,7 +63,7 @@ ms.locfileid: "67808448"
 > [!IMPORTANT]
 > 監査データは、監査がオンになっている場合に、監査ログでのみ見ることができます。
 
-監査ログで監査レコードが保持され検索可能な期間は、使用している Microsoft 365 または Office 365 サブスクリプション、特にユーザーに割り当てられているライセンスの種類によって異なります。詳細については、「[セキュリティとコンプライアンス センター サービスの説明](/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)」を参照してください。
+The length of time that an audit record is retained and searchable in the audit log depends on your Microsoft 365 or Office 365 subscription, and specifically the type of license that's assigned to users. To learn more, see the [Security & Compliance Center service description](/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center).
 
 ## <a name="tips-for-searching-the-audit-log"></a>監査ログを検索するためのヒント
 
@@ -78,7 +81,7 @@ ms.locfileid: "67808448"
 
 - 5,000 件の結果が見つかった場合、検索条件に一致するイベントが 5,000 件を超えていると見なすことができます。 検索条件を絞り込み、返される結果が少なくなるように検索を再実行するか、**[エクスポート]** > **[すべての結果をダウンロード]** を選択して、すべての検索結果をエクスポートできます。 監査ログをエクスポートする手順の詳細については、「[検索結果をファイルにエクスポートする](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-export-the-search-results-to-a-file)」を参照してください。
 
-tオーディオ ログ検索の使い方は、[こちらの動画](https://www.youtube.com/embed/UBxaRySAxyE)を参照してください。Teams のプログラム マネージャーである Ansuman Acharya が、Teams の監査ログ検索を行う方法について説明します。
+Check out [this video](https://www.youtube.com/embed/UBxaRySAxyE) for using audio log search. Join Ansuman Acharya, a program manager for Teams, as he demonstrates how to do an audit log search for Teams.
 
 ## <a name="teams-activities"></a>Teams アクティビティ
 
@@ -94,9 +97,9 @@ tオーディオ ログ検索の使い方は、[こちらの動画](https://www.
 |メンバーの追加|MemberAdded|チームの所有者が、チーム、チャネル、またはグループ チャットにメンバーを追加しました。|
 |タブの追加|TabAdded|ユーザーがチャネルにタブを追加しました。|
 |チャンネル設定の変更|ChannelSettingChanged|次のアクティビティがチーム メンバーにより実行されると、ChannelSettingChanged 操作が記録されます。 これらの各アクティビティについては、変更された設定 (かっこ内) の説明が、監査ログの検索結果の **[項目]** 列に表示されます。 <ul><li>チーム チャネルの名前が変更されます (**チャネル名**)</li><li>チーム チャネルの説明が変更されます (**チャネルの説明**)</li> </ul>|
-|組織の設定の変更|TeamsTenantSettingChanged|TeamsTenantSettingChanged は、全体管理者が Microsoft 365 管理センターを使用して次のアクティビティを実行したときに記録されます。 これらの活動は、組織全体の Teams 設定に影響を与えます。 詳細については、「[組織の Teams 設定を管理する](enable-features-office-365.md)」を参照してください。 <br>これらの各アクティビティについては、変更された設定 (かっこ内) の説明が、監査ログの検索結果の **[項目]** 列に表示されます。<ul><li>組織に対して Teams が有効または無効になります (**Microsoft Teams**)。</li><li>組織に対して Microsoft Teams と Skype for Business の相互運用が有効または無効になります (**Skype for Business の相互運用性**)。</li><li>Microsoft Teams クライアント内の組織図ビューが有効または無効になります (**組織図**)。</li><li>チーム メンバーによるプライベート会議のスケジュール機能を有効または無効にします (**プライベート会議のスケジュール**)。</li><li>チーム メンバーによるチャネル会議のスケジュール機能を有効または無効にします (**チャネル会議のスケジュール**)。</li><li>チーム会議でのビデオ通話を有効または無効にします (**Skype 会議のビデオ**)。</li><li>組織に対して Microsoft Teams 会合での画面共有が有効または無効になります (**Skype 会議向け画面共有**)。</li><li>Teams の会話にアニメーション画像 (Giphy と呼ばれる) を追加する機能が有効または無効になります (**アニメーション画像**)。</li><li>組織のコンテンツの規制設定を変更します (**コンテンツの規制**)。 コンテンツの評価により、会話に表示されるアニメーション画像の種類が制限されます。</li><li>チーム メンバーがカスタマイズ可能な画像 (カスタム ミームと呼ばれる) をインターネットからチームの会話に追加する機能が、有効または無効になります (**インターネットからのカスタマイズ可能な画像**)。</li><li>チーム メンバーが編集可能な画像 (ステッカーと呼ばれる) をチームの会話に追加する機能が、有効または無効になります (**インターネットからのカスタマイズ可能な画像**)。</li><li>チーム メンバーが Microsoft Teams のチャットおよびチャネルでボットを使用する機能が、有効または無効になります (**組織全体にわたるボット**)。</li><li>Microsoft Teams に対して特定のボットが有効になります。これには、組織に対してボットが有効になっている場合に使用可能な Teams ヘルプ ボットである T-ボットは含まれません (**個別ボット**)。</li><li>チーム メンバーが拡張機能またはタブを追加する機能を有効または無効にします (**拡張機能またはタブ**)。</li><li>Microsoft Teams に対して専用ボットのサイドローディングが有効または無効になります (**ボットのサイドローディング**)。</li><li>ユーザーがメール メッセージを Microsoft Teams に送信する機能が、有効または無効になります (**チャネルのメール**)。</li></ul>|
+|組織の設定の変更|TeamsTenantSettingChanged|TeamsTenantSettingChanged は、全体管理者が Microsoft 365 管理センターを使用して次のアクティビティを実行したときに記録されます。 これらの活動は、組織全体の Teams 設定に影響を与えます。 詳細については、「[組織の Teams 設定を管理する](enable-features-office-365.md)」を参照してください。 <br>これらの各アクティビティについては、変更された設定 (かっこ内) の説明が、監査ログの検索結果の **[項目]** 列に表示されます。<ul><li>組織に対して Teams が有効または無効になります (**Microsoft Teams**)。</li><li>組織に対して Microsoft Teams と Skype for Business の相互運用が有効または無効になります (**Skype for Business の相互運用性**)。</li><li>Microsoft Teams クライアント内の組織図ビューが有効または無効になります (**組織図**)。</li><li>チーム メンバーによるプライベート会議のスケジュール機能を有効または無効にします (**プライベート会議のスケジュール**)。</li><li>チーム メンバーによるチャネル会議のスケジュール機能を有効または無効にします (**チャネル会議のスケジュール**)。</li><li>チーム会議でのビデオ通話を有効または無効にします (**Skype 会議のビデオ**)。</li><li>組織に対して Microsoft Teams 会合での画面共有が有効または無効になります (**Skype 会議向け画面共有**)。</li><li>Teams の会話にアニメーション画像 (Giphy と呼ばれる) を追加する機能が有効または無効になります (**アニメーション画像**)。</li><li>組織のコンテンツの規制設定を変更します (**コンテンツの規制**)。 コンテンツの評価により、会話に表示されるアニメーション画像の種類が制限されます。</li><li>チーム メンバーがカスタマイズ可能な画像 (カスタム ミームと呼ばれる) をインターネットからチームの会話に追加する機能が、有効または無効になります (**インターネットからのカスタマイズ可能な画像**)。</li><li>チーム メンバーが編集可能な画像 (ステッカーと呼ばれる) をチームの会話に追加する機能が、有効または無効になります (**インターネットからのカスタマイズ可能な画像**)。</li><li>チーム メンバーが Microsoft Teams のチャットおよびチャネルでボットを使用する機能が、有効または無効になります (**組織全体にわたるボット**)。</li><li>Enables specific bots for Microsoft Teams. This doesn't include the T-Bot, which is Teams help bot that's available when bots are enabled for the organization (**Individual bots**).</li><li>チーム メンバーが拡張機能またはタブを追加する機能を有効または無効にします (**拡張機能またはタブ**)。</li><li>Microsoft Teams に対して専用ボットのサイドローディングが有効または無効になります (**ボットのサイドローディング**)。</li><li>ユーザーがメール メッセージを Microsoft Teams に送信する機能が、有効または無効になります (**チャネルのメール**)。</li></ul>|
 |メンバーの役割の変更|MemberRoleChanged|チーム所有者がチームのメンバーの役割を変更します。 次の値は、ユーザーに割り当てられる役割の種類を示します。 <br><br>**1** - メンバー ロールを意味します。<br>**2** - 所有者ロールを示します。<br>**3** - ゲスト ロールを意味します。<br><br>メンバー プロパティには、組織の名前とメンバーのメール アドレスも含まれます。|
-|チーム設定の変更|TeamSettingChanged|次のアクティビティがチームの所有者により実行されると、TeamSettingChanged 操作が記録されます。 これらの各アクティビティについては、変更された設定 (かっこ内) の説明が、監査ログの検索結果の **[項目]** 列に表示されます。<ul><li>チームのアクセスの種類を変更します。 チームは非公開または公開として設定できます (**チームのアクセスの種類**)。 チームが非公開 (既定の設定) の場合、ユーザーはチームには招待状でのみアクセスでき暗ます。 チームが公開されている場合、誰でもチームにアクセスできます。</li><li>チームの情報の分類を変更します (**チーム分類**)。 たとえば、チームのデータは業務への影響が大きい、業務への影響が中程度、業務への影響が小さい、といったように分類できます。</li><li>チームの名前を変更します (**チーム名**)。</li><li>チームの説明を変更します (**チームの説明**)。</li><li>チームの設定が変更されました。これらの設定にアクセスするには、チーム所有者はチームを右クリックし、**[チームの管理]**、**[設定]** タブの順に選択します。これらのアクティビティについては、変更された設定の名前が、監査ログの検索結果の **[項目]** 列に表示されます。</li></ul>|
+|チーム設定の変更|TeamSettingChanged|次のアクティビティがチームの所有者により実行されると、TeamSettingChanged 操作が記録されます。 これらの各アクティビティについては、変更された設定 (かっこ内) の説明が、監査ログの検索結果の **[項目]** 列に表示されます。<ul><li>チームのアクセスの種類を変更します。 チームは非公開または公開として設定できます (**チームのアクセスの種類**)。 チームが非公開 (既定の設定) の場合、ユーザーはチームには招待状でのみアクセスでき暗ます。 チームが公開されている場合、誰でもチームにアクセスできます。</li><li>チームの情報の分類を変更します (**チーム分類**)。 たとえば、チームのデータは業務への影響が大きい、業務への影響が中程度、業務への影響が小さい、といったように分類できます。</li><li>チームの名前を変更します (**チーム名**)。</li><li>チームの説明を変更します (**チームの説明**)。</li><li>Changes made to team settings. To access these settings,  a team owner can right-click a team, select **Manage team**, and then click the **Settings** tab. For these activities, the name of the setting that was changed is displayed in the **Item** column in the audit log search results.</li></ul>|
 |チャットを作成しました <sup>1、</sup><sup>2</sup>|ChatCreated|Teams チャットが作成されました。|
 |チームの作成|TeamCreated|ユーザーがチームを作成しました。|
 |メッセージを削除しました|MessageDeleted|チャットまたはチャネルのメッセージが削除されました。|
@@ -128,7 +131,7 @@ tオーディオ ログ検索の使い方は、[こちらの動画](https://www.
 |メッセージ作成のために変更通知を送信しました <sup>1、</sup><sup>2</sup>|MessageCreatedNotification|サブスクライブしているリスナー アプリケーションに、新しいメッセージを通知する変更通知が送信されました。|
 |メッセージ削除の変更通知を送信しました <sup>1、</sup><sup>2</sup>|MessageDeletedNotification|サブスクライブしているリスナー アプリケーションに、メッセージが削除されたことを通知する変更通知が送信されました。|
 |メッセージ更新の変更通知を送信しました <sup>1、</sup><sup>2</sup>|MessageUpdatedNotification|サブスクライブしているリスナー アプリケーションに、メッセージが更新されたことを通知する変更通知が送信されました。|
-|共有チャネルの招待を送信しました<sup>3</sup>|InviteSent|チャネルの所有者またはメンバーが、共有チャネルに招待を送信します。チャネル ポリシーが外部ユーザーとチャネルを共有するように構成されている場合は、共有チャネルへの招待を組織外のユーザーに送信できます。|
+|共有チャネルの招待を送信しました<sup>3</sup>|InviteSent|A channel owner or member sends an invitation to a shared channel. Invitations to shared channels can be sent to people outside of your organization if the channel policy is configured to share the channel with external users.|
 |メッセージの変更通知が登録されました <sup>1、</sup><sup>2</sup>|SubscribedToMessages|メッセージの変更通知を受け取るためのサブスクリプションがリスナー アプリケーションによって作成されました。|
 |削除されたアプリ|AppUninstalled|アプリがアンインストールされました。|
 |更新されたアプリ|AppUpdatedInCatalog|アプリがカタログで更新されました。|
@@ -184,7 +187,7 @@ Office 365 マネージメント アクティビティ API を使用して、Tea
 
 ## <a name="attribution-in-teams-audit-logs"></a>Teams の監査ログでの属性
 
-Azure Active Directory (Azure AD)、Microsoft 365 管理センター、または Microsoft 365 グループ グラフ API を通して行われた Teams へのメンバー変更 (ユーザーの追加や削除など) は、Teams の監査メッセージと一般チャネルに、実際のアクションの開始者ではなく、チームの既存の所有者に対する属性を付けて表示されます。これらのシナリオでは、Azure AD または[Microsoft 365 グループの監査ログ](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)にお問い合わせの上、関連情報を参照してください。
+Membership changes to Teams (such as users added or deleted) made through Azure Active Directory (Azure AD), Microsoft 365 admin portal, or Microsoft 365 Groups Graph API will appear in Teams audit messages and in the General channel with an attribution to an existing owner of the team, and not to the actual initiator of the action. In these scenarios, consult Azure AD or [Microsoft 365 Group audit logs](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) to see the relevant information.
 
 ## <a name="use-defender-for-cloud-apps-to-set-activity-policies"></a>Defender for Cloud Apps を使用してアクティビティ ポリシーを設定する
 
@@ -218,7 +221,7 @@ Azure Active Directory (Azure AD)、Microsoft 365 管理センター、または
 
 :::image type="content" alt-text="大量削除によって引き起こされるイベントのスクリーンショット" source="media/TeamsMassDeleteList.png" lightbox="media/TeamsMassDeleteList.png":::
 
-設定したポリシーをフィルター処理して、そのポリシーの結果を表示することができます。アクティビティ ログで得られる結果が満足のいくものではない場合 (多くの結果が表示されたり、全く表示されなかったりする場合)、クエリを微調整して、必要なことに関連付けることができます。
+You can filter down to the policy you've set to see the results of that policy. If the results you're getting in the activity log are not satisfactory (maybe you're seeing lots of results, or nothing at all), this may help you to fine-tune the query to make it more relevant to what you need it to do.
 
 ### <a name="alert-and-governance-scenario"></a>アラートとガバナンスのシナリオ
 
@@ -230,7 +233,7 @@ Azure Active Directory (Azure AD)、Microsoft 365 管理センター、または
 
 Defender for Cloud Apps の[異常検出ポリシー](/cloud-app-security/anomaly-detection-policy)では、ユーザー/エンティティ行動分析 (UEBA) と機械学習 (ML) をすぐに利用できるので、クラウド環境全体で高度な脅威検出をすぐに実行することができます。 新しい異常検出ポリシーは自動的に有効化されているため、ユーザーやネットワークに接続されているマシンやデバイス全体の多数の動作異常をターゲットにして即時検出を行い、すぐに結果を出すことができます。 さらに、新しいポリシーでは、Defender for Cloud Apps の検出エンジンからより多くのデータが公開され、調査手順を加速して進行中の脅威の抑制に役立ちます。
 
-Teams イベントを異常検出ポリシーに統合する作業を行っています。現時点では、他の Office 製品の異常検出ポリシーを設定し、そのポリシーに合致するユーザーに対する実施項目を実行することができます。
+We're working to integrate Teams events into anomaly detection policies. For now, you can set up anomaly detection policies for other Office products and take action items on users who match those policies.
 
 ## <a name="related-topics"></a>関連項目
 

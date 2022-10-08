@@ -1,7 +1,7 @@
 ---
 title: 通話プランの電話番号Microsoft Teams 電話システムを設定する
-author: dstrome
-ms.author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ appliesto:
 ms.collection:
 - M365-voice
 - M365initiative-voice
-ms.openlocfilehash: fe94987e4abf8c98c32428f608a19db46aacd4c9
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 9052fc0902c069e1ef097810a58f4adcbbae6174
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268012"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68480867"
 ---
 # <a name="step-2-set-up-teams-phone-system-phone-numbers"></a>手順 2: Teams Phone System の電話番号を設定する
 

@@ -1,7 +1,7 @@
 ---
 title: Teams Phone System の電話番号をユーザーに割り当てる
-author: dstrome
-ms.author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ appliesto:
 ms.collection:
 - M365-voice
 - M365initiative-voice
-ms.openlocfilehash: 5bb0934ba462c3efaf4dbcbf89209165860274cc
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: a1400853510cc860350e333a91209650e28ebabf
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267572"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68480497"
 ---
 # <a name="step-5-assign-teams-phone-system-phone-numbers-to-your-users"></a>手順 5: Teams Phone System の電話番号をユーザーに割り当てる
 

@@ -14,6 +14,7 @@ ms.collection:
 - m365solution-voice
 - m365solution-scenario
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Skype for Business
@@ -26,12 +27,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 地域で利用可能なプランの表示、ライセンスの割り当て&購入、電話番号の取得、緊急対応住所の&場所の追加など、通話プランを設定する方法について説明します。
-ms.openlocfilehash: a4acb51bad8e8ad309357fcd497c1554fc568928
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: c33a7e3400df369b062468001b06d35dc98ad0ac
+ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271572"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "67999532"
 ---
 # <a name="set-up-calling-plans"></a>通話プランの設定
 
@@ -81,7 +82,7 @@ Microsoft 365 で通話プランを設定する場合は、各ユーザーに電
 
 Microsoft では、メールを送信するか、ビジネスで推奨される通信方法を使用して、新しい電話番号についてユーザーに伝えることをお勧めします。
 
-**Microsoft Teams** では、ユーザーは左側のナビゲーションで [**通話**] をクリックすると、自分の電話番号を表示できます。電話番号はダイヤル パッドの上部に表示されます。
+In **Microsoft Teams**, users can see their phone number by clicking **Calls** in the left navigation. The phone number is shown above the dial pad.
 
 ![[通話] をクリックした後に使用できるオプションのスクリーン ショット。](media/teams-phone-number.png)
 

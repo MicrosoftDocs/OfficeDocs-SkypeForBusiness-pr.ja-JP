@@ -22,26 +22,34 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Microsoft Teams Roomsのさまざまな種類の通話機能と会議機能について、使用可能なライセンスについて説明し、比較します。
-ms.openlocfilehash: df84e94ebda02020e88d8bfc19fa42c86561b07d
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: af5f30f1a4ae0d34421629ffec3c67a619798b50
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706674"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68480487"
 ---
 # <a name="microsoft-teams-rooms-licenses"></a>Microsoft Teams Rooms ライセンス
 
-Microsoft では、Teams の会議と通話に参加する会議室デバイスに対して 2 つのライセンスを提供しています。
+Microsoft では、Teams の会議と通話に参加するTeams Rooms システムに対して 2 つのライセンスを提供しています。
 
 - **Microsoft Teams Rooms Pro** は、インテリジェントなオーディオとビデオ、最前列と大きなギャラリー、デュアルスクリーンサポートなどの強化された室内会議エクスペリエンスを提供します。 Teams Rooms Pro ライセンスには、リモート デバイス管理、条件付きアクセス ポリシー、詳細なデバイス分析などの高度な管理機能も用意されています。
 
-    Teams Rooms Pro は、中規模およびエンタープライズの組織だけでなく、より多くの会議室数や高度なニーズを持つ小規模な組織に最適です。
+    Teams Rooms Pro は、中規模およびエンタープライズの組織だけでなく、より多くの会議室数や高度なニーズを持つ小規模な組織に最適です。 Teams Rooms Pro ライセンスは、認定されたTeams Rooms システムと Teams パネルの両方にライセンスを付与するために使用できます。
 
-- **Microsoft Teams Rooms Basic** は、認定されたMicrosoft Teams Rooms デバイスを追加コストなしで購入する組織にコア 会議エクスペリエンスを提供します。 Teams Rooms Basic ライセンスには、スケジュール設定、会議への参加、コンテンツ共有、共同作業によるホワイト ボーディングのほか、基本的なセキュリティと管理機能がすぐに使用できます。
+- **Microsoft Teams Rooms Basic** は、認定されたMicrosoft Teams Rooms システムを追加コストなしで購入する組織にコア 会議エクスペリエンスを提供します。 Teams Rooms Basic ライセンスには、スケジュール設定、会議への参加、コンテンツ共有、共同作業によるホワイト ボーディングのほか、基本的なセキュリティと管理機能がすぐに使用できます。
 
-    組織内のデバイスに最大 25 個の Microsoft Teams Rooms Basic ライセンスTeams Rooms割り当てることができます。 25 台を超えるデバイスにライセンスを付与する必要がある場合は、それらの追加ライセンスを Pro ライセンスTeams Roomsする必要があります。
+    Teams Rooms Basic ライセンスは、1 つの部屋で認定された 1 つのTeams Rooms システムのライセンスを付与するために使用できます。 同じリソース アカウントを使用して複数のTeams Rooms システムにログインする場合は、Teams Rooms Pro ライセンスを使用する必要があります。
 
-Teams Rooms Basic ライセンスを使用すると、1 つの部屋で 1 つの認定Teams Rooms デバイスにライセンスを付与できます。 同じリソース アカウント (Teams Rooms コンソール、Surface Hub、Teams パネルなど) を使用して会議室内の複数のデバイスにログインする場合は、Teams Rooms Pro ライセンスを使用する必要があります。
+    組織内のTeams Rooms システムに最大 25 Microsoft Teams Rooms Basic ライセンスを割り当てることができます。 25 を超えるTeams Rooms システムのライセンスを付与する必要がある場合は、それらの追加ライセンスを Pro ライセンスTeams Roomsする必要があります。 Teams Rooms Basic ライセンスは、Teams パネルではなく、Teams Rooms システムのみにライセンスを付与するために使用できます。
+
+Teams Room システムには、次のいずれかを指定できます。
+
+- Windows コンピューティング モジュールと接続されたタッチ コンソールのTeams Rooms
+- IP ベースまたは USB 接続経由で接続された Android デバイスとタッチ コンソールのTeams Rooms
+- A Surface Hub
+
+Teams 管理センターのTeams Rooms システムまたはデバイスで実行するリモート管理タスクは、システムまたはデバイスに割り当てられているライセンスによって異なります。 詳細については、[Teams 管理センターのMicrosoft Teams Roomsライセンスの概要に関するページを参照](admin-center-license-overview.md)してください。
 
 [!INCLUDE [mtr-user-licensing](../includes/mtr-user-licensing.md)]
 
@@ -77,6 +85,8 @@ Teams Rooms Basic ライセンスを使用すると、1 つの部屋で 1 つの
 > レガシ ライセンスは、新しいライセンスに自動的に移行されません。 レガシ ライセンスの有効期限が切れた場合は、新しい Teams Rooms Pro (推奨) または Teams Rooms Basic ライセンスを購入する必要があります。 Teams Rooms Pro ライセンスは、Microsoft 365 管理センターまたはお好みの販売チャネルを通じて購入できます。 Teams Rooms Basic ライセンスは、Microsoft 365 管理センター経由でのみ購入できます。
 
 組織にEnterprise Agreementがある場合は、次の更新期間まで既存のレガシ ライセンスを引き続き使用できます。 次の更新期間まで、引き続き追加のレガシ ライセンスを予約することもできます。 詳細については、Microsoft 担当者にお問い合わせください。
+
+レガシ ライセンスの詳細については、「レガシ ライセンス[のMicrosoft Teams Rooms](rooms-legacy-licensing.md)」を参照してください。
 
 <sup>*</sup>Microsoft Service エンジニアは、2022 年 10 月 1 日以降、インシデント対応の仲介役を務めなくなります。
 
