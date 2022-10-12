@@ -18,22 +18,22 @@ f1.keywords:
 - NOCSH
 description: この記事では、組織内のユーザーに緊急対応の場所を割り当てるか変更する方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2562661a08c98c15a24a5e7db6a0f31dee864573
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: a43ca031b8787d62639e141c3f733acdb402f85a
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606606"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551653"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>ユーザーの緊急対応の場所を割り当てたり変更したりする
 
-[PSTN 接続オプション](pstn-connectivity.md)に関係なく、Microsoft 通話プラン、オペレーター接続、オペレーター コネクト モバイル (パブリック プレビュー リリース)、またはダイレクト ルーティング&mdash;を選択&mdash;するには、緊急の場所を各電話番号またはユーザーに割り当てる必要があります。
+[PSTN 接続オプション](pstn-connectivity.md)に関係なく、Microsoft 通話プラン、オペレーター接続、Teams Phone Mobile、またはダイレクト ルーティング&mdash;を選択&mdash;するには、緊急の場所を各電話番号またはユーザーに割り当てる必要があります。
 
 ただし、PSTN 接続オプションによっては、ユーザーの緊急対応の場所を管理および割り当てる方法が異なる場合があります。 詳細については、「 [緊急通話の管理](what-are-emergency-locations-addresses-and-call-routing.md)」を参照してください。
 
 この記事では、ユーザーの緊急対応の場所を割り当てるか変更する方法について説明します。 
 
-この記事は、通話プラン、オペレーター接続、オペレーター コネクト モバイル (パブリック プレビュー リリース) に適用されます。
+この記事は、通話プラン、オペレーター接続、Teams Phone Mobile に適用されます。
   
 Microsoft Teams 管理センターまたは PowerShell を使用して、ユーザーの緊急対応の場所を割り当てたり変更したりできます。
 

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: ユーザーに割り当てることができる電話番号を国または地域、市区町村別に検索し、必要な番号の数量を指定する方法を確認します。
-ms.openlocfilehash: b13e2365a3d0fb50e7fef5c7dc6a174d1b7376ff
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: fce7c59ba1d680ca6e364713f611833773111648
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606196"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551511"
 ---
 # <a name="search-for-telephone-numbers-for-users"></a>ユーザーの電話番号を検索する
 
@@ -36,9 +36,9 @@ Microsoft から提供された電話番号をユーザーに割り当てる前�
 
 オペレーターとして Microsoft を選択した場合は、ユーザーに必要な電話番号の数量を入力して、Teams 管理センターから番号を取得できます。 ページでは、引き続き取得できる数量に基づいて数量が自動的に制限されます。 オペレーター接続演算子を選択すると、選択したオペレーターのランディング ページに移動して、番号の順序を完了します。
 
-電話番号の取得と管理方法は、PSTN 接続オプション (Microsoft 通話プラン、オペレーター接続、オペレーター コネクト モバイル (パブリック プレビュー リリース)、またはダイレクト ルーティングによって異なります。
+電話番号の取得と管理方法は、PSTN 接続オプション (Microsoft 通話プラン、オペレーター接続、Teams Phone Mobile、ダイレクト ルーティング) によって異なります。
 
-この記事は[、Microsoft 通話プラン](#search-for-telephone-numbers-for-microsoft-calling-plans)、[オペレーター接続](#search-for-telephone-numbers-for-operator-connect-or-operator-connect-mobile)、[およびオペレーター コネクト モバイル](#search-for-telephone-numbers-for-operator-connect-or-operator-connect-mobile)に適用されます。 すべてのオプションの詳細については、「 [組織の電話番号を管理する」を参照してください](/microsoftteams/manage-phone-numbers-landing-page)。
+この記事は [、Microsoft 通話プラン](#search-for-telephone-numbers-for-microsoft-calling-plans)、 [オペレーター接続](#search-for-telephone-numbers-for-operator-connect-or-teams-phone-mobile)、 [Teams Phone Mobile](#search-for-telephone-numbers-for-operator-connect-or-teams-phone-mobile) に適用されます。 すべてのオプションの詳細については、「 [組織の電話番号を管理する」を参照してください](/microsoftteams/manage-phone-numbers-landing-page)。
 
 ## <a name="search-for-telephone-numbers-for-microsoft-calling-plans"></a>Microsoft 通話プランの電話番号を検索する
 
@@ -71,7 +71,7 @@ Microsoft から提供された電話番号をユーザーに割り当てる前�
 
 9. **[電話番号**] ページに戻ったら、割り当てる電話番号を選択し、[**編集]** をクリックしてユーザーに割り当てます。
 
-## <a name="search-for-telephone-numbers-for-operator-connect-or-operator-connect-mobile"></a>オペレーター接続またはオペレーター コネクト モバイルの電話番号を検索する
+## <a name="search-for-telephone-numbers-for-operator-connect-or-teams-phone-mobile"></a>オペレーター接続または Teams Phone Mobile の電話番号を検索する
 
 1. **Microsoft Teams 管理センター** に移動します。
 

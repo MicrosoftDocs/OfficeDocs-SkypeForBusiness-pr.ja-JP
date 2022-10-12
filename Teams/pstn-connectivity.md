@@ -25,12 +25,12 @@ search.appverid: MET150
 description: Teams 通話 (PSTN 接続) オプションと、組織に対して行う決定の詳細について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f547528f39e92be1660f670cad44c66726fe3ef2
-ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
+ms.openlocfilehash: 974418a6a1cf963b66b1f0a8667c5ed75b73f72b
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "67999642"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551701"
 ---
 # <a name="pstn-connectivity-options"></a>PSTN 接続オプション
 
@@ -44,7 +44,7 @@ Microsoft は、電話システムを使用して組織に完全なプライベ�
 
 - [**オペレーター接続**](#phone-system-with-operator-connect)。 オペレーター接続を使用すると、既存の通信事業者が Microsoft Operator Connect プログラムに参加している場合、PSTN 通話とセッション ボーダー コントローラー (SBC) を管理できます。
 
-- [**オペレーター コネクト モバイル**](#phone-system-with-operator-connect-mobile)。 オペレーター コネクト モバイルでは、ユーザーの SIM 対応電話番号は Teams の電話番号でもあります。 既存の通信事業者が Microsoft オペレーター コネクト モバイル プログラムに参加している場合は、PSTN 通話を Teams に呼び出すためのサービスを管理できます。  **オペレーター コネクト モバイルはパブリック プレビュー リリースです。**
+- [**Teams Phone Mobile**](#phone-system-with-teams-phone-mobile)。 Microsoft Teams 電話 Mobile では、ユーザーの SIM 対応電話番号は Teams の電話番号でもあります。 既存の通信事業者が Microsoft Teams 電話 Mobile プログラムに参加している場合は、PSTN 通話を Teams に呼び出すためのサービスを管理できます。  
 
 - [**直接ルーティング**](#phone-system-with-direct-routing)。これにより、セッション ボーダー コントローラー (SBC) を電話システムに接続して、独自の PSTN 通信事業者を使用できます。
 
@@ -93,21 +93,19 @@ Microsoft は、電話システムを使用して組織に完全なプライベ�
 
 オペレーター接続の利点と要件、およびこのプログラムに参加している通信事業者の一覧については、「 [オペレーター接続の計画](operator-connect-plan.md)」を参照してください。 オペレーター接続を構成する方法については、「オペレーター接続の [構成」を](operator-connect-configure.md)参照してください。
 
-## <a name="phone-system-with-operator-connect-mobile"></a>オペレーター コネクト モバイルを使用した電話システム
+## <a name="phone-system-with-teams-phone-mobile"></a>Teams Phone Mobile を使用した電話システム
 
-**オペレーター コネクト モバイルはパブリック プレビュー リリースです。**
+既存の通信事業者が Microsoft Teams 電話 Mobile プログラムに参加している場合は、PSTN 通話を Teams に呼び出すためのサービスを管理できます。 Teams Phone Mobile では、ユーザーの SIM 対応電話番号も Teams の電話番号です。  ユーザーは、モバイル サービスとデスクの両方の回線で Microsoft Teams で 1 つの電話番号を使用できます。  
 
-既存の通信事業者が Microsoft オペレーター コネクト モバイル プログラムに参加している場合は、PSTN 通話を Teams に呼び出すためのサービスを管理できます。 オペレーター コネクト モバイルでは、ユーザーの SIM 対応電話番号は Teams の電話番号でもあります。  ユーザーは、モバイル サービスとデスクの両方の回線で Microsoft Teams で 1 つの電話番号を使用できます。  
+サービスの組み合わせを検討する場合があります。 たとえば、モバイル サポートを必要とする営業組織やフィールド組織に Teams Phone Mobile を選択し、デスクフォンに依存するオンサイト コール センター組織の別のソリューションを選択できます。 
 
-サービスの組み合わせを検討する場合があります。 たとえば、モバイル サポートを必要とする営業組織とフィールド組織のオペレーター コネクト モバイルを選択できますが、デスクフォンに依存するオンサイト コール センター組織の別のソリューションを選択できます。 
-
-オペレーター コネクト モバイルは、次の場合に組織に適したソリューションである可能性があります。
+Teams Phone Mobile は、次の場合に組織に適したソリューションである可能性があります。
 
 - Teams Phone の主要な会社所有の SIM 対応携帯電話番号を 1 つの番号ソリューションとして使用する必要があります。
-- 優先演算子は、Microsoft オペレーター コネクト モバイル プログラムの参加者です。
+- 優先オペレーターは、Microsoft Teams 電話 Mobile プログラムの参加者です。
 - Teams で呼び出しを有効にする新しいオペレーターを見つける必要があります。
 
-オペレーター コネクト モバイルの利点と要件、およびこのプログラムに参加している通信事業者へのリンクについては、「[プラン オペレーター コネクト モバイル](operator-connect-mobile-plan.md)」を参照してください。 オペレーター コネクト モバイルを構成する方法については、「[オペレーター コネクト モバイルの構成」を](operator-connect-mobile-configure.md)参照してください。
+Teams Phone Mobile の利点と要件、およびこのプログラムに参加している通信事業者へのリンクについては、「 [Teams Phone Mobile の計画](operator-connect-mobile-plan.md)」を参照してください。 Teams Phone Mobile を構成する方法については、「Teams Phone Mobile の [構成」を](operator-connect-mobile-configure.md)参照してください。
 
 ## <a name="phone-system-with-direct-routing"></a>ダイレクト ルーティングを使用した電話システム
 
@@ -161,7 +159,7 @@ Microsoft は、電話システムを使用して組織に完全なプライベ�
 | :------------| :-------| :-------| :-------| :-------| 
 | 通話プラン | -Microsoft は PSTN 通信事業者として機能します。<br>-SBC を購入または管理する必要はありません。| Microsoft を通じて取得。| -Managed by Microsoft。 <br> -管理は、番号変換用のユーザー ダイヤル プランを構成します。 | -Microsoft によって有効になっています。 <br> -管理 アドレスを登録します。 <br> -Dynamic 呼び出しがサポートされています。 |
 | オペレーター接続 | -Carrier は PSTN 接続と SBC を管理します。 <br> -SBC を購入または管理する必要はありません。 | -キャリアを介して取得します。 <br> - キャリアによって管理される緊急対応アドレスに関連付けられている番号。 | -Managed by Carrier。 <br>-管理は、番号変換用のユーザー ダイヤル プランを構成します。 | -Carrier によって有効になっています。 <br> -管理 アドレスを登録します。 <br> -Dynamic 呼び出しがサポートされています。 |
-| オペレーター コネクト モバイル | -Carrier は、携帯電話番号、PSTN 接続、および SBC SIM-Enabled管理します。 <br> -SBC を購入または管理する必要はありません。 | -キャリアを介して取得します。 <br> -キャリアによって管理される緊急対応アドレスに関連付けられている番号。 | -Managed by Carrier。 <br> 管理番号変換のユーザー ダイヤル プランを構成します。 |- キャリアによって有効になります。 <br> - 管理アドレスを登録します。 <br> - 動的呼び出しがサポートされています。 <br> - キャリアでサポートされているネイティブ ダイヤラー緊急通話。 |
+| Teams Phone Mobile | -Carrier は、携帯電話番号、PSTN 接続、および SBC SIM-Enabled管理します。 <br> -SBC を購入または管理する必要はありません。 | -キャリアを介して取得します。 <br> -キャリアによって管理される緊急対応アドレスに関連付けられている番号。 | -Managed by Carrier。 <br> 管理番号変換のユーザー ダイヤル プランを構成します。 |- キャリアによって有効になります。 <br> - 管理アドレスを登録します。 <br> - 動的呼び出しがサポートされています。 <br> - キャリアでサポートされているネイティブ ダイヤラー緊急通話。 |
 | ダイレクト ルーティング | -サード パーティベンダーから購入した認定 SBC が必要です。<br>-SBC を電話システムに接続します。<br> -既存の PSTN 通信事業者を使用します。 | キャリアを介して取得されます。 | -管理者による追加の構成が必要です。<br>-管理は、番号変換用のトランク ダイヤル プランを構成します。 <br>-LBR は有料バイパスを制限するために使用できます。 | -管理者による追加の構成が必要です。 <br>-登録済みのアドレスはサポートされていません。 <br>-動的呼び出しはサポートされていますが、追加の構成が必要です。 |
 
 
@@ -181,7 +179,7 @@ Microsoft には、組織内のユーザーに割り当てることができる�
 
 - Operator Connect で電話番号を管理する方法については、「オペレーター接続 [を使用して電話番号を設定する](operator-connect-configure.md#set-up-phone-numbers)」を参照してください。
 
-- オペレーター コネクト モバイルで電話番号を管理する方法については、「[オペレーター コネクト モバイルで電話番号を設定](operator-connect-mobile-configure.md#set-up-phone-numbers)する」を参照してください。
+- Teams Phone Mobile で電話番号を管理する方法については、「Teams Phone Mobile で [電話番号を設定](operator-connect-mobile-configure.md#set-up-phone-numbers)する」を参照してください。
 
 - ダイレクト ルーティングの電話番号の管理の詳細については、「電話番号 [を構成してエンタープライズ音声を有効にする](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice)」を参照してください。
 
@@ -191,7 +189,7 @@ Microsoft には、組織内のユーザーに割り当てることができる�
 
 - 通話プランの場合、ほとんどの通話ルーティングは Microsoft 通話プラン インフラストラクチャによって処理されます。 通話承認と通話ルーティングの番号変換を目的として、ユーザー ダイヤル プランを構成します。 詳細については、「 [ダイヤル プランとは」](what-are-dial-plans.md)を参照してください。
 
-- Operator Connect とオペレーター コネクト モバイルの場合、ほとんどの通話ルーティングは通信事業者によって管理されます。 通話承認と通話ルーティングの番号変換を目的として、ユーザー ダイヤル プランを構成します。 詳細については、「 [ダイヤル プランとは」](what-are-dial-plans.md)を参照してください。
+- オペレーター接続と Teams Phone Mobile の場合、通話ルーティングの大部分は通信事業者によって管理されます。 通話承認と通話ルーティングの番号変換を目的として、ユーザー ダイヤル プランを構成します。 詳細については、「 [ダイヤル プランとは」](what-are-dial-plans.md)を参照してください。
 
 - ダイレクト ルーティングの場合は、音声ルートを指定し、音声ルーティング ポリシーをユーザーに割り当てることで、通話ルーティングを構成する必要があります。 番号変換のダイヤル プランをトランク レベルで構成して、セッション ボーダー コントローラー (SBC) との相互運用性を確保できます。 詳細については、「 [ダイレクト ルーティングの音声ルーティングの構成](direct-routing-voice-routing.md)、 [音声ルーティング ポリシーの管理](manage-voice-routing-policies.md) 、 [および電話番号の変換](direct-routing-translate-numbers.md)」を参照してください。 
 
@@ -213,7 +211,7 @@ Microsoft には、組織内のユーザーに割り当てることができる�
 
 - Operator Connect の場合、各ユーザーは緊急通話に対して自動的に有効になります。 ユーザーには、割り当てられた電話番号に関連付けられた緊急対応の登録アドレスが必要です。 (Teams クライアントの場所に基づいて) 動的緊急通報がサポートされています。 詳細については、「 [オペレーター接続に関する考慮事項」を](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-operator-connect)参照してください。 
 
-- オペレーター コネクト モバイルの場合、各ユーザーは緊急通報に対して自動的に有効になります。 緊急通報は、特定の番号のオペレーター コネクト モバイル運送業者に自動的にルーティングされます。 (Teams クライアントの場所に基づいて) 動的緊急通報がサポートされています。 詳細については、「[オペレーター コネクト モバイルに関する考慮事項」を](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-operator-connect-mobile)参照してください。 
+- Teams Phone Mobile の場合、各ユーザーは緊急通話に対して自動的に有効になります。 緊急通報は、特定の番号の Teams Phone Mobile Carrier に自動的にルーティングされます。 (Teams クライアントの場所に基づいて) 動的緊急通報がサポートされています。 詳細については、「 [Teams Phone Mobile の考慮事項」](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-teams-phone-mobile)を参照してください。 
 
 - ダイレクト ルーティングの場合は、Teams 緊急通話ルーティング ポリシー (TeamsEmergencyCallRoutingPolicy) を使用して、ユーザーの緊急通話ポリシーを定義する必要があります。 ポリシーでは、緊急電話番号とそれに関連するルーティング先が定義されます。 登録された緊急対応の場所は、ダイレクト ルーティング ユーザーではサポートされていません。 動的緊急通報の場合、緊急通報をルーティングしたり、パートナー接続を行う場合は、追加の構成が必要です。 詳細については、「 [ダイレクト ルーティングに関する考慮事項」を](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-direct-routing)参照してください。
 

@@ -1,5 +1,5 @@
 ---
-title: 手順 3 - ハイブリッドに最適化された会議スペースを設計して構築するか、既存のスペースを更新する
+title: 手順 3 - 会議スペースTeams Rooms署名を設計して構築するか、既存のスペースを更新する
 ms.author: dstrome
 author: dstrome
 f1.keywords:
@@ -17,18 +17,18 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 keywords: ''
-ms.openlocfilehash: 7aace472fb90ed1b0831d8fa74614322f398ce2b
-ms.sourcegitcommit: 957502f999512a32794a9f99e292588d66ed8a33
+ms.openlocfilehash: 1c5e14c01693bf0d8fa38ca5eb18f062cf72d6d6
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2022
-ms.locfileid: "67885704"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551711"
 ---
 # <a name="step-3---design-a-new-meeting-space-or-update-an-existing-space"></a>手順 3 - 新しい会議スペースを設計するか、既存のスペースを更新する
 
 この記事は、Microsoft Teams Rooms ソリューションとデバイスを使用して会議スペースを最適化する方法に関するガイドをユーザーに提供することを目的としています。 Teams Rooms デバイスとソリューションの使用、レイアウト、仕様に関する情報が含まれています。
 
-ハイブリッド会議用に最適化されたハイブリッド最適化会議スペースを設計して構築するか、会議テーブル、ディスプレイなどの一部のコンポーネントが既に存在する既存の従来のスペースを更新するかどうかを選択します。
+会議スペースMicrosoft Teams Rooms署名を設計して構築するか、会議テーブルやディスプレイなどの一部のコンポーネントが既にある既存の従来のスペースを更新するかどうかを選択します。
 
 # <a name="traditional"></a>[従来](#tab/traditional)
 
@@ -70,19 +70,19 @@ Microsoft Teams Roomsコンピューティングコンソールとタッチ コ�
 
 ほとんどの参加者は、個人用デバイスを使用して Teams 会議に参加することで、この種類の会議室内でコンテンツを共有することを選択します。 ただし、会議の呼び出しに参加できない場合は、室内のローカル ビデオ プレゼンテーションをテーブルで簡単に利用できるようにする必要があります。
 
-# <a name="hybrid-optimized"></a>[ハイブリッド最適化](#tab/hybrid)
+# <a name="signature-teams-rooms"></a>[署名Teams Rooms](#tab/signature)
 
-ハイブリッド最適化Microsoft Teams Roomsは、組織内の他のすべての会議スペースの代わりではなく、Microsoft Teams を利用する既存の会議スペースの補足として機能することを目的としています。 リモート会議の参加者との対面対話が最も重要な空間や場所に、組織内で戦略的に展開する必要があります。
+署名Teams Roomsは、組織内の他のすべての会議スペースの代わりではなく、Microsoft Teams を利用する既存の会議スペースの補足として機能することを目的としています。 リモート会議の参加者との対面対話が最も重要な空間や場所に、組織内で戦略的に展開する必要があります。
 
 :::image type="content" source="media/hybrid-enhanced-room.png" alt-text="2 画面表示の前に曲線テーブルが配置された強化された会議室の画像。":::
 
-## <a name="hybrid-optimized-room-size-and-capacity"></a>ハイブリッド最適化された部屋のサイズと容量
+## <a name="signature-teams-rooms-size-and-capacity"></a>署名Teams Roomsサイズと容量
 
 :::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="施設の対象ユーザー" border="false":::
 
 このスペースは、6 人から 8 人まで快適に収まります。 幅が約 25 フィート、深さ 14 フィートのスペースが必要です。
 
-## <a name="hybrid-optimized-room-furniture"></a>ハイブリッド最適化された部屋の家具
+## <a name="signature-teams-rooms-furniture"></a>署名Teams Rooms家具
 
 :::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="施設の対象ユーザー" border="false":::
 
@@ -90,13 +90,13 @@ Microsoft Teams Roomsコンピューティングコンソールとタッチ コ�
 
 高さ 30 cm または 76 cm の従来の会議室テーブルが備わるお部屋です。
 
-:::image type="content" source="media/emr10.png" alt-text="[ハイブリッド最適化された会議室の設計のブループリント。":::
+:::image type="content" source="media/emr10.png" alt-text="[Signature Teams Room の設計のブループリント。":::
 
-## <a name="hybrid-optimized-equipment-mounting"></a>ハイブリッド最適化された機器の取り付け
+## <a name="signature-teams-rooms-equipment-mounting"></a>シグネチャ Teams Rooms機器の取り付け
 
 :::image type="content" source="media/hybrid-audience-audiovisual-small.png" alt-text="オーディオ ビジュアル対象ユーザー" border="false"::: :::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="施設の対象ユーザー" border="false":::
 
-上の図に示すハイブリッド最適化会議室では、最適なハイブリッド会議エクスペリエンスを作成するために、Teams Rooms デバイスを特定の配置する必要があります。
+上の図に示す Signature Teams Room では、最適なハイブリッド会議エクスペリエンスを作成するために、Teams Rooms デバイスを特定の配置する必要があります。
 
 | コンポーネント      | 推奨される手順                                                                                                                                                                                                                                                                                                                                                             |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

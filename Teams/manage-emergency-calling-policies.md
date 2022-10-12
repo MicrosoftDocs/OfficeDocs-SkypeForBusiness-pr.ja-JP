@@ -20,16 +20,16 @@ description: Microsoft Teams の緊急通話ポリシーを使用して管理し
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: 658e7191a821069d3fa9b13e02cc7cbcdfb29413
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: a6fa08808c9ef5fc258236735cc043e4bde366b1
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606556"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551521"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Microsoft Teams で緊急通報ポリシーを管理する
 
-組織が [PSTN 接続オプション](pstn-connectivity.md)として Microsoft 通話プラン、オペレーター接続、オペレーター コネクト モバイル (パブリック プレビュー リリース)、またはダイレクト ルーティングを使用している場合は、Microsoft Teams の緊急通話ポリシーを使用して、組織内の Teams ユーザーが緊急通話を行ったときに何が起こるかを定義できます。
+組織が [PSTN 接続オプション](pstn-connectivity.md)として Microsoft 通話プラン、オペレーター接続、Teams Phone Mobile、またはダイレクト ルーティングを使用している場合は、Microsoft Teams の緊急通話ポリシーを使用して、組織内の Teams ユーザーが緊急通話を行うときの動作を定義できます。
 
 ポリシーを割り当てられたユーザーが緊急サービスを呼び出したときに、通知するユーザーとその通知方法を設定できます。 たとえば、組織のセキュリティ デスクに自動的に通知し、緊急通報でリッスンするようにポリシー設定を構成できます。  
 

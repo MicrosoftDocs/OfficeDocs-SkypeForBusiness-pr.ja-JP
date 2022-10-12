@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Microsoft Teams が最適な結果を生み出すために認定されているデスクフォンと会議電話について説明します。
-ms.openlocfilehash: 2ba2b46bb4f6544a6b2c4c4455634aca4c0feef5
-ms.sourcegitcommit: 75a988ce64e3b6668dde3475e5cbf1f26de961ba
+ms.openlocfilehash: c113bdb4cba7193f5e82d7e993c9146f1563f869
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 10/12/2022
-ms.locfileid: "68539656"
+ms.locfileid: "68551471"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 認定 Android デバイス
 
@@ -160,6 +160,8 @@ Teams の最新の電話アプリとファームウェアのバージョンを�
 
 | デバイス モデル  | ファームウェアのバージョン  | 付属の製品リリース  |
 |:----------------|:--------------|:----------------------------|
+|アレストロン UC-P8/I/C/CI     | `1.0.5.20`    | 2022 更新#3A |
+|アレストロン UC-P10/I/C/CI | `1.0.5.20`    | 2022 更新#3A |
 |Audiocodes C435HD/C448HD/C450HD/C455HD/C470HD | `1.17.764` | 2022 更新#3A    |
 |Audiocodes C435HD/C455HD/C470HD | `1.17.741` | 2022 更新#3A    |
 |PolyTrio C60 | `7.3.2.0174` | 2022 更新#3A |
@@ -371,6 +373,8 @@ Microsoft Teams Displays アプリとファームウェアの最新バージョ�
 
 | デバイス モデル  | ファームウェアのバージョン | 付属の製品リリース|
 |:--------------|:-----------------|:-------------------------|
+|アレストロン UC-P10-TD     |1.0.0.57 |2022 更新#3A|
+|スレストロン UC-P8-TD     |1.0.0.57 |2022 更新#3A|
 |Lenovo ThinkSmart View| `CD-18781Y.211116.114` |2021 Update #3  |
 |Lenovo ThinkSmart View| `CD-18781Y.210507.111` |2021 Update #2 |
 |Lenovo ThinkSmart View| `CD-18781Y.210228.109` |2021 Update #1 |

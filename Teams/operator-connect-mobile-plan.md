@@ -1,5 +1,5 @@
 ---
-title: オペレーター コネクト モバイルの計画
+title: Teams Phone Mobile の計画
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -12,44 +12,44 @@ ms.collection:
 - m365initiative-voice
 ms.reviewer: crowe
 search.appverid: MET150
-description: オペレーター コネクト モバイルの詳細 (要件やデプロイの計画など)。
+description: Teams Phone Mobile について詳しくは、要件や展開の計画などをご覧ください。
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53873df291ffcc0c1acbdf32a8e8ba6e6d13359b
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 90af338ca5896a9e11ed4ea2537080237885c71c
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606898"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551721"
 ---
-# <a name="plan-for-operator-connect-mobile"></a>オペレーター コネクト モバイルの計画
+# <a name="plan-for-teams-phone-mobile"></a>Teams Phone Mobile の計画
 
-**オペレーター コネクト モバイルはパブリック プレビュー リリースです。** Microsoft オペレーター コネクト モバイル プログラムに参加しているオペレーターとそのサービスが利用可能な国または地域の一覧については、「[Microsoft 365 オペレーター コネクト モバイル](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/connect-mobile)」を参照してください。
+Microsoft Teams 電話 Mobile プログラムに参加しているオペレーターとそのサービスが利用可能な国または地域の一覧については、「[Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/connect-mobile)」を参照してください。
 
-オペレーター コネクト モバイルは、Teams と電話システムとの公衆交換電話網 (PSTN) 接続を提供するためのもう 1 つのオプションです。 オペレーター コネクト モバイルでは、ユーザーの SIM 対応電話番号は Teams の電話番号でもあります。 ユーザーは、モバイル サービスとデスクラインの両方で Microsoft Teams で 1 つの電話番号を使用し、ネットワークとデバイス間をシームレスに切り替えることができます。
+Teams Phone Mobile は、Microsoft Teams と電話システムとの公衆交換電話網 (PSTN) 接続を提供するためのもう 1 つのオプションです。 Teams Phone Mobile では、ユーザーの SIM 対応電話番号も Teams の電話番号です。 ユーザーは、モバイル サービスとデスクラインの両方で Microsoft Teams で 1 つの電話番号を使用し、ネットワークとデバイス間をシームレスに切り替えることができます。
 
-オペレーター コネクト モバイルは、組織の戦略において重要な役割を果たし、真のモバイル従業員を実現し、より柔軟で効率的なモバイル中心のユーザー エクスペリエンスと、エンタープライズ レベルのセキュリティとコンプライアンスの設定を提供できます。
+Teams Phone Mobile は、組織の戦略において重要な役割を果たし、真のモバイル従業員を実現し、より柔軟で効率的なモバイル中心のユーザー エクスペリエンスと、エンタープライズ レベルのセキュリティとコンプライアンスの設定を提供します。
 
-音声サービスの組み合わせを検討する場合があります。 たとえば、モバイル サポートを必要とする営業組織とフィールド組織のオペレーター コネクト モバイルを選択できますが、デスクフォンに依存するオンサイト コール センター組織の別のソリューションを選択できます。 Teams 音声ソリューションと PSTN 接続オプションの詳細については、「 [Teams 音声ソリューション](cloud-voice-landing-page.md) と [PSTN 接続オプション](pstn-connectivity.md)を計画する」を参照してください。 
+音声サービスの組み合わせを検討する場合があります。 たとえば、モバイル サポートを必要とする営業組織やフィールド組織に Teams Phone Mobile を選択し、デスクフォンに依存するオンサイト コール センター組織の別のソリューションを選択できます。 Teams 音声ソリューションと PSTN 接続オプションの詳細については、「 [Teams 音声ソリューション](cloud-voice-landing-page.md) と [PSTN 接続オプション](pstn-connectivity.md)を計画する」を参照してください。 
 
-この記事では、オペレーター コネクト モバイルの利点と要件について説明します。 オペレーター コネクト モバイルは、次の場合に組織に適したソリューションである可能性があります。
+この記事では、Teams Phone Mobile の利点と要件について説明します。 Teams Phone Mobile は、次の場合に組織に適したソリューションである可能性があります。
 
 -   Teams Phone の主要な会社所有の SIM 対応携帯電話番号を 1 つの番号ソリューションとして使用する必要があります。
 
--   優先演算子は、Microsoft オペレーター コネクト モバイル プログラムの参加者です。
+-   優先オペレーターは、Microsoft Teams 電話 Mobile プログラムの参加者です。
 
 -   Teams で呼び出しを有効にする新しいオペレーターを見つける必要があります。
 
-組織に適したソリューションオペレーター コネクト モバイル決定した場合は、この記事を読んだ後、「[オペレーター コネクト モバイルの構成」を](operator-connect-mobile-configure.md)参照してください。
+Teams Phone Mobile が組織に適したソリューションであると判断した場合は、この記事を読んだ後、「 [Teams Phone Mobile の構成」を](operator-connect-mobile-configure.md)参照してください。
 
 
 
 ## <a name="benefits"></a>利点
 
-既存のオペレーターがオペレーター コネクト モバイル プログラムの参加者である場合は、PSTN 通話を Teams に呼び出すためのサービスを管理できます。 オペレーター コネクト モバイル プログラムは、組織に次の利点を提供します。
+既存のオペレーターが Teams Phone Mobile プログラムの参加者である場合は、PSTN 通話を Teams に呼び出すためのサービスを管理できます。 Teams Phone Mobile プログラムには、組織に次の利点があります。
 
 - **ユーザーは、モバイル、デスク、および Microsoft Teams に対して 1 つのビジネス提供番号を持っています**。 ユーザーは、あらゆる場所、デバイス、またはネットワークから柔軟かつ安全に作業できます。  
 
@@ -65,7 +65,7 @@ ms.locfileid: "67606898"
 
 ## <a name="features"></a>機能
 
-オペレーター コネクト モバイルユーザーは、既存[の電話システム機能](here-s-what-you-get-with-phone-system.md)と次の機能を利用できます。
+Teams Phone Mobile ユーザーは、既存の [電話システム機能](here-s-what-you-get-with-phone-system.md)と次の機能を利用できます。
 
 - **TEAMS を使用して SIM 対応の電話番号を呼び出します**。 ユーザーは、ビジネス所有の SIM 対応の 1 つの携帯電話番号を使用して、スマートフォンのネイティブ ダイヤラーまたは Teams エンドポイントから通話を発信および受信できます。 ユーザーがスマートフォンのネイティブ ダイヤラーまたは Teams エンドポイントから発信通話を発信すると、モバイルまたは会社のサービス番号を表示できます。 着信呼び出しは、スマートフォンのネイティブ ダイヤラーを呼び出し、同時にアクティブな Teams クライアントを呼び出します。
 
@@ -92,11 +92,11 @@ ms.locfileid: "67606898"
 組織に対象となる Microsoft 365 サービスがあることを確認します。
 
 - Teams Phone System SKU/E5
-- アドオン SKU をオペレーター コネクト モバイルする
+- Teams Phone Mobile アドオン SKU
 
-オペレーター コネクト モバイルで電話番号の割り当てを有効にするには、次のユーザーを確認します。
+Teams Phone Mobile で電話番号の割り当てを有効にするには、次のユーザーを確認します。
 
-- Teams Phone ライセンスとオペレーター コネクト モバイル ライセンスを取得します。 詳細については、「 [電話システムとは」](what-is-phone-system-in-office-365.md) と「 [Teams アドオン ライセンスをユーザーに割り当てる」を](teams-add-on-licensing/assign-teams-add-on-licenses.md)参照してください。
+- Teams Phone と Teams Phone Mobile のライセンスを取得します。 詳細については、「 [電話システムとは」](what-is-phone-system-in-office-365.md) と「 [Teams アドオン ライセンスをユーザーに割り当てる」を](teams-add-on-licensing/assign-teams-add-on-licenses.md)参照してください。
 
 - Teams Phone で使用する SIM 対応の電話番号をサポートする、優先オペレーターが利用できるモバイル サブスクリプションを持っている。 オペレーターが電話番号を Microsoft 365 テナントにアップロードします。
 

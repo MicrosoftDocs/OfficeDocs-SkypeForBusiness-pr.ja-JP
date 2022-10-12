@@ -19,12 +19,12 @@ localization_priority: Normal
 f1.keywords:
 - CSH
 description: Microsoft Teams でのダイヤル プランとルーティング
-ms.openlocfilehash: 89332b5e5756bc33c92a67b641bab85b826bfe70
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 3fc29dc27f1f3863ed313b75c8ef977cd27a6231
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606786"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551901"
 ---
 # <a name="overview"></a>概要
 
@@ -34,9 +34,9 @@ ms.locfileid: "67606786"
 - [ダイヤル プランを作成および管理する](create-and-manage-dial-plans.md)
 - [割り当てられていない numbes に呼び出しをルーティングする](routing-calls-to-unassigned-numbers.md)
 
-このセクションの記事は、通話プラン、オペレーター接続、オペレーター コネクト モバイル (パブリック プレビュー リリース)、ダイレクト ルーティングなど、公衆交換電話網 (PSTN) に接続するためのすべてのオプションに適用されます。 すべての PSTN 接続オプションの詳細については、「 [PSTN 接続オプション」](pstn-connectivity.md)を参照してください。
+このセクションの記事は、通話プラン、オペレーター接続、Teams Phone Mobile、ダイレクト ルーティングなど、公衆交換電話網 (PSTN) に接続するためのすべてのオプションに適用されます。 すべての PSTN 接続オプションの詳細については、「 [PSTN 接続オプション」](pstn-connectivity.md)を参照してください。
 
-通話プラン、オペレーター接続、またはオペレーター コネクト モバイルを選択した場合、ほとんどの通話ルーティングは Microsoft またはプロバイダーによって処理されます。 ただし、ダイレクト ルーティングには、通話ルーティングを構成するための追加の手順が必要です。 
+通話プラン、オペレーター接続、または Teams Phone Mobile を選択した場合、ほとんどの通話ルーティングは Microsoft またはプロバイダーによって処理されます。 ただし、ダイレクト ルーティングには、通話ルーティングを構成するための追加の手順が必要です。 
 
 ダイレクト ルーティングの場合は、音声ルートを指定し、音声ルーティング ポリシーをユーザーに割り当てることで、通話ルーティングを構成する必要があります。 番号変換のダイヤル プランをトランク レベルで構成して、セッション ボーダー コントローラー (SBC) との相互運用性を確保できます。 詳細については、「 [ダイレクト ルーティングの音声ルーティングの構成](direct-routing-voice-routing.md)、 [音声ルーティング ポリシーの管理](manage-voice-routing-policies.md) 、 [および電話番号の変換](direct-routing-translate-numbers.md)」を参照してください。
 

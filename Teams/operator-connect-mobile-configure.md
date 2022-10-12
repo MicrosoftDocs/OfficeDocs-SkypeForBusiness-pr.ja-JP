@@ -1,5 +1,5 @@
 ---
-title: オペレーター コネクト モバイルを構成する
+title: Teams Phone Mobile の構成
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -12,24 +12,24 @@ ms.collection:
 - m365initiative-voice
 ms.reviewer: crowe
 search.appverid: MET150
-description: オペレーター コネクト モバイルを構成する方法の詳細について説明します。
+description: Teams Phone Mobile を構成する方法の詳細について説明します。
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9ca49ac8cb74bcb61cd8c1d8fc2056c69a89d715
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: e3e0e5c349610e9f8ad73b9b7a50b4c219304ea4
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606901"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551681"
 ---
-# <a name="configure-operator-connect-mobile"></a>オペレーター コネクト モバイルを構成する
+# <a name="configure-teams-phone-mobile"></a>Teams Phone Mobile の構成
 
-**オペレーター コネクト モバイルはパブリック プレビュー リリースです。** Microsoft オペレーター コネクト モバイル プログラムに参加しているオペレーターとそのサービスが利用可能な国または地域の一覧については、「[Microsoft 365 オペレーター コネクト モバイル](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/connect-mobile)」を参照してください。
+Microsoft Teams 電話 Mobile プログラムに参加しているオペレーターとそのサービスが利用可能な国または地域の一覧については、「[Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/connect-mobile)」を参照してください。
 
-この記事では、オペレーター コネクト モバイルを構成する方法について説明します。 オペレーター コネクト モバイルを構成する前に、特典、前提条件、およびライセンスの詳細については、「[オペレーター コネクト モバイルの計画](operator-connect-mobile-plan.md)」を参照してください。
+この記事では、Teams Phone Mobile を構成する方法について説明します。 Teams Phone Mobile を構成する前に、利点、前提条件、およびライセンスの詳細については、「 [Teams Phone Mobile の計画](operator-connect-mobile-plan.md) 」を参照してください。
 
 ## <a name="enable-an-operator"></a>演算子を有効にする
 
@@ -37,11 +37,11 @@ Teams 管理センターでオペレーターを有効、編集、削除でき�
 
 演算子を有効にするには:
 
-1. オペレーター コネクト モバイルをサポートする演算子を選択します。 [**すべての演算子**] タブで、使用可能な演算子をリージョンまたはサービスでフィルター処理して、オペレーター コネクト モバイルをサポートする適切な演算子を見つけます。 次に、有効にする演算子を選択します。
+1. Teams Phone Mobile をサポートするオペレーターを選択します。 [ **すべての演算子** ] タブで、利用可能なオペレーターをリージョンまたはサービス別にフィルター処理して、Teams Phone Mobile をサポートする適切なオペレーターを見つけます。 次に、有効にする演算子を選択します。
 
 2. [ **オペレーターの設定**] で、選択した演算子で有効にする国を選択します。
 
-3. **連絡先情報を入力します。** 完全な名前と電子メール アドレスを含む連絡先情報は、オペレーターと自動的に共有されます。 この情報は後で変更できます。 さらに、会社の規模を指定する必要があり、電話番号を入力することもできます。 オペレーターはこの情報を使用して、オペレーター コネクト モバイルに関する詳細を連絡します。
+3. **連絡先情報を入力します。** 完全な名前と電子メール アドレスを含む連絡先情報は、オペレーターと自動的に共有されます。 この情報は後で変更できます。 さらに、会社の規模を指定する必要があり、電話番号を入力することもできます。 オペレーターはこの情報を使用して、Teams Phone Mobile の詳細について連絡します。
 
 4. データ転送に関する通知を受け入れます。
 
@@ -49,9 +49,9 @@ Teams 管理センターでオペレーターを有効、編集、削除でき�
 
 ## <a name="set-up-phone-numbers"></a>電話番号を設定する
 
-既存の会社の有料 SIM 対応電話番号を Teams に追加する場合は、オペレーターに問い合わせて、対象となるオペレーター コネクト モバイルサブスクリプションがあり、電話番号を Teams にアップロードできることを確認します。 オペレーターが注文を完了したら、それらの番号をユーザーに割り当てることができます。 
+既存の会社の有料 SIM 対応電話番号を Teams に追加する場合は、オペレーターに問い合わせて、対象となる Teams Phone Mobile サブスクリプションを持っていることを確認し、電話番号を Teams にアップロードできるようにします。 オペレーターが注文を完了したら、それらの番号をユーザーに割り当てることができます。 
 
-オペレーターの Web サイトを見つけるには、 [Microsoft 365 Operator Connect ディレクトリ](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory)を参照してください。
+オペレーターの Web サイトを見つけるには、 [Microsoft 365 Teams Phone Mobile ディレクトリ](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory)を参照してください。
 
 テナント ID を指定する必要があります。 テナント ID がわからない場合は、「 [Microsoft 365 テナント ID を検索する](/onedrive/find-your-office-365-tenant-id.md)」を参照してください。 既存のデスク電話番号またはワイヤーライン番号が、お使いの地域およびオペレーターによってサポートされている場合は、ワイヤレス音声サブスクリプションに移植している可能性があります。 
 
@@ -59,11 +59,11 @@ Teams 管理センターでオペレーターを有効、編集、削除でき�
 
 - [新しい Teams ユーザーの番号を取得します](#acquire-numbers-for-new-teams-users)。  
 
-- [通話プランからオペレーター コネクト モバイルに番号を移動します](#move-numbers-from-calling-plans-to-operator-connect-mobile)。  
+- [通話プランから Teams Phone Mobile に番号を移動します](#move-numbers-from-calling-plans-to-teams-phone-mobile)。  
 
-- [オペレーター接続からオペレーター コネクト モバイルに数値を移動します](#move-numbers-from-operator-connect-to-operator-connect-mobile)。  
+- [オペレーター接続から Teams Phone Mobile に番号を移動](#move-numbers-from-operator-connect-to-teams-phone-mobile)します。  
 
-- [直接ルーティングからオペレーター コネクト モバイルに番号を移動します](#move-numbers-from-direct-routing-to-operator-connect-mobile)。  
+- [直接ルーティングから Teams Phone Mobile に番号を移動](#move-numbers-from-direct-routing-to-teams-phone-mobile)します。  
 
 
 ### <a name="assign-numbers-to-emergency-addresses"></a>緊急時の住所に番号を割り当てる
@@ -86,45 +86,45 @@ SIM 対応スマートフォンのネイティブ ダイヤラーを介して通
 
 新しい Teams ユーザーの番号を取得するには、次の手順に従います。
 
-1. **Phone System ライセンスとオペレーター コネクト モバイルアドオン ライセンスを割り当てます。** 電話システム ライセンスとオペレーター コネクト モバイル アドオン ライセンスは、Microsoft 365 管理センターまたは PowerShell を使用してユーザーに割り当てることができます。 詳細については、「 [Teams アドオン ライセンスをユーザーに割り当てる」を参照してください](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
+1. **電話システム ライセンスと Teams Phone Mobile アドオン ライセンスを割り当てます。** 電話システム ライセンスと Teams Phone Mobile アドオン ライセンスは、Microsoft 365 管理センターまたは PowerShell を使用してユーザーに割り当てることができます。 詳細については、「 [Teams アドオン ライセンスをユーザーに割り当てる」を参照してください](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
 
-2. **オペレーター コネクト モバイルで取得した電話番号を割り当てるユーザーは、TeamsOnly モードである必要があります。** 組織が TeamsOnly モードの場合は、すべてのユーザーが TeamsOnly モードになります。 
+2. **Teams Phone Mobile で取得した電話番号を割り当てるユーザーは、TeamsOnly モードである必要があります。** 組織が TeamsOnly モードの場合は、すべてのユーザーが TeamsOnly モードになります。 
 
-   確認するには、Teams 管理センターで **Teams > Teams のアップグレード設定** に移動します。 組織がアイランド モードの場合は、特定のユーザーが TeamsOnly モードであるかどうかを確認します。 **[ユーザー]** に移動し、ユーザー アカウントを選択します。 [ **アカウント** ] タブの [ **Teams のアップグレード** ] で、共存モードを [TeamsOnly] に設定する必要があります。
+   確認するには、Teams 管理センターで **Teams > Teams のアップグレード設定** に移動します。 組織がアイランド モードの場合は、特定のユーザーが TeamsOnly モードであるかどうかを確認します。 **[ユーザー]** に移動し、ユーザー アカウントを選択します。 [ **アカウント** ] タブの [ **Teams のアップグレード** ] で、共存モードを TeamsOnly に設定する必要があります。
 
-3. **数値を取得します。** オペレーターの Web サイトに移動するか、オペレーターに連絡して、オペレーター コネクト モバイル サービスが有効になっているモバイル SIM 対応の電話番号を注文して取得します。 
+3. **数値を取得します。** オペレーターの Web サイトに移動するか、Teams Phone Mobile サービスが有効になっているモバイル SIM 対応電話番号を注文して取得します。 
 
    オペレーターが注文を完了すると、SIM 対応の携帯電話番号がテナントにアップロードされます。 **Voice >の電話番号** に移動すると、Teams 管理センターで番号とプロバイダーを表示できます。 
 
 4. **番号を割り当てます。** Teams 管理センターまたは PowerShell を使用して、ユーザーに番号を割り当てることができます。 詳細については、「番号の [割り当て](assign-change-or-remove-a-phone-number-for-a-user.md)」を参照してください。
 
-### <a name="move-numbers-from-calling-plans-to-operator-connect-mobile"></a>通話プランからオペレーター コネクト モバイルに番号を移動する
+### <a name="move-numbers-from-calling-plans-to-teams-phone-mobile"></a>通話プランから Teams Phone Mobile に番号を移動する
 
-1. オペレーター コネクト モバイルとオペレーター コネクト モバイルアドオン ライセンスの対象となる Microsoft 365 サブスクリプションがあることを確認します。 [移動する電話番号は、それぞれのユーザーに対して削除する必要があります](assign-change-or-remove-a-phone-number-for-a-user.md#remove-a-phone-number-from-a-user)。 
+1. Teams Phone Mobile および Teams Phone Mobile アドオン ライセンスの対象となる Microsoft 365 サブスクリプションがあることを確認します。 [移動する電話番号は、それぞれのユーザーに対して削除する必要があります](assign-change-or-remove-a-phone-number-for-a-user.md#remove-a-phone-number-from-a-user)。 
 
-2. SIM 対応の適格なワイヤレス音声プランでオペレーター コネクト モバイルに番号を移植するには、オペレーターに問い合わせてください。 
+2. SIM 対応の対象ワイヤレス音声プランで Teams Phone Mobile に番号を移植するには、オペレーターに問い合わせてください。 
 
 3. オペレーターが移植順序を完了すると、オペレーターはテナントに番号をアップロードします。  **Voice >の電話番号** に移動すると、Teams 管理センターで番号とプロバイダーを表示できます。 
 
 4. Teams 管理センターを使用するか、PowerShell を使用して、ユーザーに番号を割り当てることができます。 詳細については、「番号の [割り当て](assign-change-or-remove-a-phone-number-for-a-user.md)」を参照してください。
 
-### <a name="move-numbers-from-operator-connect-to-operator-connect-mobile"></a>オペレーター接続からオペレーター コネクト モバイルに数値を移動する
+### <a name="move-numbers-from-operator-connect-to-teams-phone-mobile"></a>オペレーター接続から Teams Phone Mobile に番号を移動する
 
-1. オペレーター コネクト モバイルおよび Operator Connect アドオン ライセンスの対象となる Microsoft 365 サブスクリプションがあることを確認します。 [移動する電話番号は、それぞれのユーザーに対して削除する必要があります](assign-change-or-remove-a-phone-number-for-a-user.md#remove-a-phone-number-from-a-user)。 テナントから電話番号を削除するには、既存のオペレーター接続プロバイダーに問い合わせてください。
+1. Teams Phone Mobile および Teams Phone Mobile アドオン ライセンスの対象となる Microsoft 365 サブスクリプションがあることを確認します。 [移動する電話番号は、それぞれのユーザーに対して削除する必要があります](assign-change-or-remove-a-phone-number-for-a-user.md#remove-a-phone-number-from-a-user)。 テナントから電話番号を削除するには、既存のオペレーター接続プロバイダーに問い合わせてください。
 
-2. SIM 対応の適格なワイヤレス音声プランでオペレーター コネクト モバイルに番号を移植するには、オペレーターに問い合わせてください。 
+2. SIM 対応の対象ワイヤレス音声プランで Teams Phone Mobile に番号を移植するには、オペレーターに問い合わせてください。 
 
 3. オペレーターが移植順序を完了すると、オペレーターはテナントに番号をアップロードします。 **Voice >の電話番号** に移動すると、Teams 管理センターで番号とプロバイダーを表示できます。 
 
 4. Teams 管理センターを使用するか、PowerShell を使用して、ユーザーに番号を割り当てることができます。 詳細については、「番号の [割り当て](assign-change-or-remove-a-phone-number-for-a-user.md)」を参照してください。
 
-### <a name="move-numbers-from-direct-routing-to-operator-connect-mobile"></a>直接ルーティングからオペレーター コネクト モバイルに番号を移動する   
+### <a name="move-numbers-from-direct-routing-to-teams-phone-mobile"></a>直接ルーティングから Teams Phone Mobile に番号を移動する   
 
-直接ルーティングからオペレーター コネクト モバイルに番号を移動するには、次の手順を完了する必要があります。
+直接ルーティングから Teams Phone Mobile に番号を移動するには、次の手順を完了する必要があります。
 
 1. [既存のダイレクト ルーティング番号がオンラインまたはオンプレミスに割り当てられているかどうかを確認します](#determine-if-the-existing-direct-routing-numbers-are-assigned-online-or-on-premises)。
 
-2. [直接ルーティングからオペレーター コネクト モバイルに番号を移行します](#migrate-the-numbers-from-direct-routing-to-operator-connect-mobile)。
+2. [直接ルーティングから Teams Phone Mobile に番号を移行](#migrate-the-numbers-from-direct-routing-to-teams-phone-mobile)します。
 
 2. [ユーザーに関連付けられているオンライン音声ルーティング ポリシーを削除します](#remove-the-online-voice-routing-policy-associated-with-your-user)。
 
@@ -152,16 +152,16 @@ SIM 対応スマートフォンのネイティブ ダイヤラーを介して通
 
    OnPremLineUri に E.164 電話番号が設定されている場合、電話番号はオンプレミスに割り当てられ、Microsoft 365 に同期されました。
 
-#### <a name="migrate-the-numbers-from-direct-routing-to-operator-connect-mobile"></a>ダイレクト ルーティングからオペレーター コネクト モバイルに番号を移行する
+#### <a name="migrate-the-numbers-from-direct-routing-to-teams-phone-mobile"></a>直接ルーティングから Teams Phone Mobile に番号を移行する
 
 番号を移行するには、次の手順に従います。  
 
 > [!Important]
-> 移行中、電話番号は使用できなくなります。 移行を開始する前に、Operator Connect 演算子と調整します。
+> 移行中、電話番号は使用できなくなります。 移行を開始する前に、Teams Phone Mobile オペレーターと調整します。
 
-- **オンラインで割り当てられている既存のダイレクト ルーティング番号をオペレーター コネクト モバイルに移行するには**、オペレーターに問い合わせてください。 オペレーターの Web サイトを見つけるには、 [Microsoft 365 Operator Connect ディレクトリに関するページ](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory)を参照してください。 合意された日時に、オペレーターは直接ルーティングからオペレーター コネクト モバイルに番号を移行します。 これには、テナントから移行する電話番号を削除し、オペレーター コネクト モバイルに関連付けられている新しい電話番号として再度追加することが含まれる場合があります。
+- **オンラインで割り当てられている既存のダイレクト ルーティング番号を Teams Phone Mobile に移行するには**、オペレーターに問い合わせてください。 オペレーターの Web サイトを見つけるには、 [Microsoft 365 Teams Phone Mobile ディレクトリ](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory)に関するページを参照してください。 合意された日時に、オペレーターは番号を直接ルーティングから Teams Phone Mobile に移行します。 これには、テナントから移行する電話番号を削除し、Teams Phone Mobile に関連付けられている新しい電話番号として再度追加することが含まれる場合があります。
 
-- **オンプレミスに割り当てられているダイレクト ルーティング番号をオペレーター コネクト モバイルに移行するには**、次のSkype for Business Server PowerShell コマンドを実行します。
+- **オンプレミスに割り当てられているダイレクト ルーティング番号を Teams Phone Mobile に移行するには**、次のSkype for Business Server PowerShell コマンドを実行します。
 
    ```PowerShell
    Set-CsUser -Identity <user> -LineURI $null 
@@ -200,13 +200,13 @@ Grant-CsOnlineVoiceRoutingPolicy -Identity <user> -PolicyName $Null
 
 #### <a name="acquire-phone-numbers"></a>電話番号を取得する
 
-SIM 対応の適格なワイヤレス音声プランでオペレーター コネクト モバイルに番号を移植するには、オペレーターに問い合わせてください。
+SIM 対応の対象ワイヤレス音声プランで Teams Phone Mobile に番号を移植するには、オペレーターに問い合わせてください。
 
 オペレーターが注文を完了すると、番号がテナントにアップロードされます。 **Voice >の電話番号** に移動すると、Teams 管理センターで番号とプロバイダーを表示できます。 
 
 #### <a name="assign-phone-numbers"></a>電話番号を割り当てる
 
-Teams 管理センターを使用するか、PowerShell を使用して、オペレーター接続番号をユーザーに割り当てることができます。 詳細については、「番号の [割り当て](assign-change-or-remove-a-phone-number-for-a-user.md)」を参照してください。
+Teams 管理センターを使用するか、PowerShell を使用して Teams Phone 携帯電話番号をユーザーに割り当てることができます。 詳細については、「番号の [割り当て](assign-change-or-remove-a-phone-number-for-a-user.md)」を参照してください。
 
 
 ## <a name="manage-your-operators"></a>オペレーターを管理する
@@ -230,7 +230,7 @@ Teams 管理センターから電話番号を解放するには、[電話番号]
 
 ## <a name="manage-user-incoming-calling-policies"></a>ユーザー着信通話ポリシーを管理する
 
-Teams 管理センターを使用するか、PowerShell を使用して、ユーザーの着信通話ポリシーを管理できます。 既定では、オペレーター コネクト モバイル ユーザーの着信呼び出しは、最初にユーザーの SIM 対応モバイル デバイスで Teams アプリを呼び出します。 
+Teams 管理センターを使用するか、PowerShell を使用して、ユーザーの着信通話ポリシーを管理できます。 既定では、Teams Phone Mobile ユーザーの着信呼び出しは、ユーザーの SIM 対応モバイル デバイスで最初に Teams アプリを呼び出します。 
 
 - ユーザーの着信通話設定が Teams アプリに設定されている場合、すべての着信呼び出しは、SIM 対応スマートフォン上の Teams アプリと、他のデバイス上の他の Teams エンドポイントを同時に呼び出します。 
 

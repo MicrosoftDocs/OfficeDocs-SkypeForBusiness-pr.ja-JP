@@ -17,18 +17,18 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 keywords: ''
-ms.openlocfilehash: 33b55bfbff72cb2ddcd79b9620b2051ae0bd52fb
-ms.sourcegitcommit: 957502f999512a32794a9f99e292588d66ed8a33
+ms.openlocfilehash: dec612dd21ba72f984251db3e479040d41070ddc
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2022
-ms.locfileid: "67885621"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551811"
 ---
 # <a name="step-4---select-devices-that-enable-your-space-for-hybrid-meetings"></a>手順 4 - ハイブリッド会議のスペースを有効にするデバイスを選択する
 
 :::image type="content" source="media/hybrid-audience-audiovisual-small.png" alt-text="オーディオ ビジュアル対象" border="false"::::::image type="content" source="media/hybrid-audience-itpro-small.png" alt-text="ユーザー IT Pro 対象ユーザー" border="false"::: :::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="施設の対象ユーザー" border="false":::
 
-Teams Roomsスペースに対して選択するデバイスは、部屋の設計と予算によって異なります。 この記事では、Teams Rooms領域を作成するために必要なデバイス、適切なものを選択するのに役立つ考慮事項、使用可能なオプションを確認できるようにデバイスの例を理解するのに役立ちます。
+従来のMicrosoft Teams RoomsやシグネチャのMicrosoft Teams Roomsスペースに選択するデバイスは、お部屋のデザインと予算によって異なります。 この記事では、Teams Rooms領域を作成するために必要なデバイス、適切なものを選択するのに役立つ考慮事項、使用可能なオプションを確認できるようにデバイスの例を理解するのに役立ちます。
 
 少なくとも、次のものが必要です。
 
@@ -164,9 +164,9 @@ Teams Rooms用のオーディオ システムの例を次に示します。
 - [(ADECIA 有線テーブルトップ ソリューション)](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/yamaha-adecia-wired-tabletop-solution/1049)
 - [Parlé の天井マイクを備えた Biamp 中会議室オーディオ](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/biamp-medium-room-audio-with-parle-ceiling-mic/584)
 
-# <a name="hybrid-optimized"></a>[ハイブリッド最適化](#tab/hybrid)
+# <a name="signature-teams-rooms"></a>[署名Teams Rooms](#tab/signature)
 
-## <a name="touchscreen-console-and-compute-module"></a>タッチスクリーン コンソールとコンピューティング モジュール
+## <a name="signature-teams-rooms-touchscreen-consoles-and-compute-modules"></a>タッチスクリーン コンソールとコンピューティング モジュールTeams Rooms署名
 
 タッチスクリーン コンソールは、会議に参加して管理するときにユーザーが操作するデバイスです。 コンピューティング モジュールは Teams Room の頭脳であり、IoT Windows 10 Enterprise実行されます。
 
@@ -183,11 +183,11 @@ Teams Roomsのタッチスクリーン コンソールとコンピューティ�
 - [Lenovo ThinkSmart Core + Controller](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-core-controller/948)
 - [ロジクール Tap](https://www.logitech.com/products/video-conferencing/room-solutions/tap.939-001950.html)
 
-## <a name="hybrid-optimized-displays"></a>ハイブリッド最適化ディスプレイ
+## <a name="signature-teams-rooms-displays"></a>署名Teams Roomsが表示されます
 
 ディスプレイはコンテンツを生き生きとさせ、画面に投影する大きなフラット スクリーン テレビまたはプロジェクターにすることができます。 コンテンツとビデオ フィードを組み合わせた 1 つのディスプレイを作成することも、1 つのディスプレイにコンテンツを含むデュアル ディスプレイを設定し、もう一方のディスプレイにビデオ フィードを設定することもできます。 ディスプレイの 1 つは、対話型のインク入力に対してタッチ対応にすることもできます。
 
-:::image type="content" source="media/hybrid-optimized-display.png" alt-text="最前列、チャット、およびノートを示すTeams Rooms表示されます。":::
+:::image type="content" source="media/signature-teams-rooms-display.png" alt-text="署名Teams Rooms、最前列、チャット、およびノートを表示します。":::
 
 
 ### <a name="display-type"></a>表示の種類
@@ -202,7 +202,7 @@ Teams Roomsのタッチスクリーン コンソールとコンピューティ�
 
 ### <a name="display-functions"></a>関数を表示する
 
-ハイブリッド最適化Microsoft Teams Roomsは、他のすべてのMicrosoft Teams Rooms ソリューションと同様に、適切な操作のために次の機能に対応できるディスプレイを使用する必要があります。
+シグネチャ Teams Roomsは、他のすべてのMicrosoft Teams Rooms ソリューションと同様に、適切な操作のために次の機能に対応できるディスプレイを使用する必要があります。
 
 - HDMI 同期に基づいてスリープ状態からスリープ状態にし、クイック ウェイク アップします。
   - プロジェクターの場合は、ユーザーの介入を必要とせずに、自動ウォームアップとクールダウン期間をサポートする必要があります。
@@ -210,7 +210,7 @@ Teams Roomsのタッチスクリーン コンソールとコンピューティ�
 
 ### <a name="display-placement"></a>ディスプレイの配置
 
-ハイブリッド最適化ルームでは、テーブルの真向かいにあるすべての会議室参加者の前にディスプレイを配置する必要があります。
+シグネチャ Teams Roomsでは、テーブルの真向かいにあるすべての会議室参加者の前にディスプレイを配置する必要があります。
 
 表示の水平方向の中心線は、テーブルと同じ中心線の中央に配置する必要があります。
 
@@ -218,11 +218,11 @@ Teams Roomsのタッチスクリーン コンソールとコンピューティ�
 
 ### <a name="display-count"></a>表示数
 
-ハイブリッド最適化された会議室では、ディスプレイが単一のワイド縦横比ディスプレイであるか、または会議室内会議の参加者が見たときに 1 つのディスプレイになる効果を実現できるディスプレイの組み合わせであることが必要です。
+シグネチャ Teams Roomsでは、ディスプレイが単一のワイド縦横比ディスプレイであるか、または会議室内会議の参加者が見たときに 1 つのディスプレイになる効果を実現できるディスプレイのブレンドされた組み合わせであることが必要です。
 
 ### <a name="display-options"></a>表示オプション
 
-ハイブリッド最適化Teams Roomsのディスプレイの例を次に示します。
+シグネチャ Teams Roomsの表示例を次に示します。
 
 - [ELPLX01S Ultra Short Throw レンズを搭載したエプソン EB-PU1007 プロジェクター](https://epson.com/For-Work/Projectors/Large-Venue/EB-PU1007B-WUXGA-3LCD-Laser-Projector-with-4K-Enhancement/p/V11HA34820)
 - [Da-Lite UTB 輪郭スクリーン |HD プログレッシブ 0.6 画面|Cinemascope 138" Diagonal](https://www.legrandav.com/products/da-lite/screens/fixed_frame_screens/utb_contour)
@@ -233,7 +233,7 @@ Teams Roomsのタッチスクリーン コンソールとコンピューティ�
 
 カメラは、会議室の前面プロジェクションの下の部屋の前に配置する必要がありますが、できるだけ目の高いレベルですべての会議室の参加者をキャプチャするには、テーブルの上部の上に配置する必要があります。
 
-ハイブリッド最適化Teams Rooms用のプライマリ カメラの例を次に示します。
+シグネチャ Teams Roomsのプライマリ カメラの例を次に示します。
 
 - [Jabra Panacast 50](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/jabra-panacast-50-series/922)
 - [Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)
@@ -269,7 +269,7 @@ Teams Rooms コンテンツ カメラで使用可能なすべてのオプショ�
 
 使用されるデバイスの認定範囲内のすべての会議室参加者にカバレッジを提供するには、話者を配置する必要があります。
 
-ハイブリッド最適化Teams Rooms用のマイクとスピーカーの例を次に示します。
+シグネチャ Teams Roomsのマイクとスピーカーの例を次に示します。
 
 - [Lenovo ThinkSmart Bar](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
 - [Biamp Devio 会議室ハブと Parle Ceiling mic](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)

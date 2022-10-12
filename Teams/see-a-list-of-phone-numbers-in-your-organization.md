@@ -23,18 +23,18 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Microsoft Teams 管理センターを使用して、組織内のすべての電話番号と、ユーザーに割り当てられているか割り当てられていないすべての番号の一覧を表示する方法について説明します。
-ms.openlocfilehash: ac7c63515b34b8c199f8050933b6c3ccbc6f8d33
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: a0c5bf59d4ebf2d760ae6c8b4abb6c70e3e3ebb7
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606076"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551851"
 ---
 # <a name="see-a-list-of-telephone-numbers"></a>電話番号の一覧を表示する 
 
 電話会議[や](deploy-audio-conferencing-teams-landing-page.md)[通話キュー](plan-auto-attendant-call-queue.md)などのユーザーや音声アプリケーションに割り当てることができる電話番号には、さまざまな種類があります。 詳細については、「 [組織の電話番号を管理する」を参照してください](/microsoftteams/manage-phone-numbers-landing-page)。
 
-この記事は、通話プラン、オペレーター接続、オペレーター コネクト モバイル (パブリック プレビュー リリース) に適用されます。 ダイレクト ルーティングの詳細については、「 [電話番号を構成してエンタープライズ音声を有効にする](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice)」を参照してください。
+この記事は、通話プラン、オペレーター接続、Teams Phone Mobile に適用されます。 ダイレクト ルーティングの詳細については、「 [電話番号を構成してエンタープライズ音声を有効にする](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice)」を参照してください。
   
 ## <a name="to-see-all-telephone-numbers-in-your-organization"></a>組織内のすべての電話番号を表示するには
 

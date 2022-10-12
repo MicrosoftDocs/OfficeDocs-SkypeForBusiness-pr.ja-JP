@@ -25,12 +25,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: 緊急対応のアドレス、緊急通報のルーティング、動的な緊急通報に関する情報など、緊急通報について説明します。
-ms.openlocfilehash: 2118bfd3f380ac5e5e2773f1f4ccdc703332893a
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 4cff6fee53d7799b8ef0ba721d0c50c8625017f5
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606566"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551821"
 ---
 # <a name="manage-emergency-calling"></a>緊急通報を管理する
 
@@ -51,7 +51,7 @@ ms.locfileid: "67606566"
 - **登録済みアドレス** - 各ユーザーに割り当てられる緊急アドレス。 登録されたアドレスは、静的な緊急アドレスまたはレコードのアドレスと呼ばれることもあります。 (現在、登録済みのアドレスはダイレクト ルーティングではサポートされていません。 すぐに更新プログラムを確認してください。)
 
 >[!Note]
->MICROSOFT 通話プラン、オペレーター接続、オペレーター コネクト モバイル (パブリック プレビュー リリース)、PSTN [接続](pstn-connectivity.md)のダイレクト ルーティングのどちらを使用しているかによって、緊急通話の管理方法にはいくつかの違いがあります。 これらの考慮事項については、この記事全体で説明します。
+>MICROSOFT 通話プラン、オペレーター接続、Teams Phone Mobile、または [PSTN 接続](pstn-connectivity.md)のダイレクト ルーティングのどちらを使用しているかによって、緊急通話の管理方法にはいくつかの違いがあります。 これらの考慮事項については、この記事全体で説明します。
 
 ## <a name="emergency-address-validation"></a>緊急対応アドレスの検証
 
@@ -179,23 +179,21 @@ Teams Operator Connect ユーザーが緊急電話番号をダイヤルする場
 
 - 緊急発信者が緊急対応の場所をスクリーニング センターに更新できない場合、通話は発信者の登録済みアドレスを提供する PSAP に転送されます。
 
-## <a name="considerations-for-operator-connect-mobile"></a>オペレーター コネクト モバイルに関する考慮事項
+## <a name="considerations-for-teams-phone-mobile"></a>Teams Phone Mobile に関する考慮事項
 
-次のセクションでは、オペレーター コネクト モバイル ユーザーの緊急通報を管理する方法について説明します。 オペレーター コネクト モバイルがビジネスに適したソリューションであるかどうかを確認するには、「[PSTN 接続オプション](pstn-connectivity.md)」を参照してください。
+次のセクションでは、Teams Phone Mobile ユーザーの緊急通話を管理する方法について説明します。 Teams Phone Mobile がビジネスに適したソリューションであるかどうかを確認するには、「 [PSTN 接続オプション](pstn-connectivity.md)」を参照してください。
 
-**オペレーター コネクト モバイルはパブリック プレビュー リリースです。**
+### <a name="emergency-call-enablement-for-teams-phone-mobile"></a>Teams Phone Mobile の緊急通話の有効化
 
-### <a name="emergency-call-enablement-for-operator-connect-mobile"></a>オペレーター コネクト モバイルの緊急通話の有効化
+各 Teams Phone Mobile ユーザーは、緊急通話に対して自動的に有効になります。 緊急通報は、特定の番号の Teams Phone Mobile Carrier に自動的にルーティングされます。
 
-各オペレーター コネクト モバイルユーザーは、緊急通報に対して自動的に有効になります。 緊急通報は、特定の番号のオペレーター コネクト モバイル運送業者に自動的にルーティングされます。
-
-テナント管理者がオペレーター コネクト モバイル ユーザーの登録済みアドレスを設定する機能は、通信事業者が顧客インベントリにアップロードするときに番号に割り当てられた機能によって異なります。 この設定に基づいて、テナント管理者は、ユーザーの緊急の場所を設定、変更、または削除する必要がある場合とできない場合があります。
+テナント管理者が Teams Phone Mobile ユーザーの登録済みアドレスを設定する機能は、通信事業者が顧客インベントリにアップロードするときに番号に割り当てられた機能によって異なります。 この設定に基づいて、テナント管理者は、ユーザーの緊急の場所を設定、変更、または削除する必要がある場合とできない場合があります。
 
 SIM 対応スマートフォンのネイティブ ダイヤラーを介して発信された通話の場合、オペレーターは、緊急対応のおおよその場所への呼び出しを処理する地理的座標またはセル タワーを使用してサポートを受けることができます。
 
-### <a name="dynamic-emergency-calling-for-operator-connect-mobile"></a>オペレーター コネクト モバイルを呼び出す動的緊急対応
+### <a name="dynamic-emergency-calling-for-teams-phone-mobile"></a>Teams Phone Mobile の動的緊急通話
 
-オペレーター接続の動的緊急通話では、Teams クライアントの現在の場所に基づいて緊急通報を構成し、ルーティングする機能が提供されます。 適切な Public Safety Answering Point (PSAP) への自動ルーティングを行うか、セキュリティ デスク担当者に通知する機能は、Teams ユーザーの使用国によって異なります。
+Teams Phone Mobile の動的緊急通話では、Teams クライアントの現在の場所に基づいて緊急通報を構成し、ルーティングする機能が提供されます。 適切な Public Safety Answering Point (PSAP) への自動ルーティングを行うか、セキュリティ デスク担当者に通知する機能は、Teams ユーザーの使用国によって異なります。
 
 緊急通報をルーティングするための動的な場所は、次のように米国でサポートされています。
 
@@ -207,9 +205,9 @@ SIM 対応スマートフォンのネイティブ ダイヤラーを介して発
 
 詳細については、「 [動的緊急通報の計画と構成」を](configure-dynamic-emergency-calling.md)参照してください。
 
-### <a name="emergency-call-routing-for-operator-connect-mobile"></a>オペレーター コネクト モバイルの緊急通話ルーティング
+### <a name="emergency-call-routing-for-teams-phone-mobile"></a>Teams Phone Mobile の緊急通話ルーティング
 
-Teams オペレーター コネクト モバイル ユーザーが Microsoft Teams クライアントを使用して緊急電話番号をダイヤルする場合、通話を PSAP にルーティングする方法は、次によって異なります。
+Teams Teams Phone Mobile ユーザーが Microsoft Teams クライアントを使用して緊急電話番号をダイヤルする場合、通話を PSAP にルーティングする方法は、次によって異なります。
 
 - 緊急対応アドレスが Teams クライアントによって動的に決定されるかどうか。
 
