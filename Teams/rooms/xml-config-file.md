@@ -17,18 +17,21 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: カスタム テーマの適用やマスター設定ファイルの作成など、Microsoft Teams Rooms デバイスで使用される既定の設定のリモート管理について説明します。
-ms.openlocfilehash: e09501d4b39ddbb83e914d53fe61bfb97d1a4fa8
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: f0e563935725bf68ebf087d8a58a199683bac70f
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606206"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532257"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Microsoft Teams Rooms のコンソールの設定を、XML 構成ファイルを使用してリモートで管理する
 
 この記事では、カスタム テーマの適用など、 Microsoft Teams Rooms デバイスによって使用される既定の設定のリモート管理について説明します。 マスター設定ファイルを作成する方法と、必要に応じてTeams Roomsに配置する方法に関する説明へのリンクについて説明します。
   
-マスター XML ファイルを更新し、リモート Teams Rooms デバイスにコピーを送信することで、Teams Roomsの既定の設定を変更できます。 
+マスター XML ファイルを更新し、リモート Teams Rooms デバイスにコピーを送信することで、Teams Roomsの既定の設定を変更できます。
+
+> [!NOTE]
+> 一部の機能は、Microsoft Teams Rooms Pro ライセンスが割り当てられているTeams Rooms デバイスでのみ使用できます。 Microsoft Teams Rooms Pro が必要な機能を確認するには、[Microsoft Teams Roomsライセンス](rooms-licensing.md)を参照してください。
   
 ## <a name="create-an-xml-configuration-file"></a>XML 構成ファイルを作成する
 

@@ -22,12 +22,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d4e28437d6251156e16c2568c9adf9a708e412bd
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: dc99785bf5d0450e99022f230af7564693c6da7f
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66615673"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532247"
 ---
 # <a name="meetings-webinars-and-live-events"></a>会議、ウェビナー、ライブ イベント
 
@@ -35,10 +35,7 @@ Microsoft Teams では、会議、ウェビナー、ライブ イベントなど
 
 この記事は管理者と IT 担当者を対象としたもので、会議、ウェビナー、ライブ イベントの違いについて説明します。 その後、この機能をユーザーに迅速にロールアウトするために必要な情報へのリンクが提供されます。
 
-> [!NOTE]
-> 様々なプラットフォームで Teams の会議とイベントをすばやく構成する方法についての詳細は、「[プラットフォームごとの Teams の機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)」を参照してください。
-
-[会議](#meetings)、[ウェビナー](#webinars)、および[ライブ イベント](#live-events)は、すべて会議の種類ですが、ウェビナーとライブ イベントでは、開催者が会話と参加者をさらにコントロールできるようにします。ウェビナーでは双方向の対話が提供され、ライブ イベントではマネージド Q&A エクスペリエンスが提供されます。 
+[Meetings](#meetings), [webinars](#webinars), and [live events](#live-events) are all types of meetings, but webinars and live events provide additional control for the organizer over the conversation and participants. Webinars provide two-way interaction while live events provide a managed Q&A experience. 
 
 会議の種類の違いによって、参加者の制限と参加者の機能も異なります。 
 
@@ -54,7 +51,13 @@ Microsoft Teams では、会議、ウェビナー、ライブ イベントなど
 
 **通常の 10,000 が、2022 年 12 月 31 日まで 20,000 に増やされます。 Yammer や Microsoft Stream のライブ イベントを使用して、さらに多くの人数をスケジュールすることさえできます。 詳細については、「[Microsoft 365 全体でライブ イベントをする](/stream/live-event-m365)」を参照してください。 ただし、20,000 人を超える参加者のイベントには、[Live Events Assistance Program](/stream/live-events-assistance) が必要であることにご留意ください。
 
-NDI は会議、ウェビナー、ライブ イベントで完全にサポートされているため、OBS や Wirecast などのツールを使用してブロードキャストを作成できます。詳細については、「[Microsoft Teams で NDI® テクノロジを使用する](use-ndi-in-meetings.md)」を参照してください。
+Note that NDI is fully supported in meetings, webinars, and live events, allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
+
+> [!NOTE]
+> Microsoft Teams を使用してオンライン イベントを配信するためのロール別のガイダンスについては、 [Virtual Event Playbook](https://adoption.microsoft.com/virtual-event-guidance/) を参照してください。 Microsoft Tech Communityで [Virtual Event Forum](https://aka.ms/VirtualEventForum) に参加することもできます。
+
+> [!NOTE]
+> 様々なプラットフォームで Teams の会議とイベントをすばやく構成する方法についての詳細は、「[プラットフォームごとの Teams の機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)」を参照してください。
 
 ## <a name="meetings"></a>会議
 
@@ -131,7 +134,7 @@ Teams の **会議** には、最大 1,000 人のユーザー向けの音声、�
 
 ## <a name="apps-for-meetings"></a>会議用アプリ
 
-Microsoft では、会議アプリを統合して使用することで、会議エクスペリエンスを向上させます。たとえば、Teams 会議のホワイトボード統合は、Teams 会議の参加者が共有デジタル キャンバスで一緒に描画、スケッチ、および書き込みを行える Whiteboard Web アプリを利用しています。
+Microsoft enables you to enhance meeting experiences by integrating and using meeting apps. For example, whiteboard integration in Teams meetings is powered by the Whiteboard web app, which lets Teams meeting participants draw, sketch, and write together on a shared digital canvas.
 
 Teams で提供されるアプリを使用し、認定されたサード パーティ製のアプリとテンプレートを使用して、独自のカスタム アプリを作成することで、Teams の展開に会議アプリを追加できます。
 
@@ -215,4 +218,3 @@ Teams で提供されるアプリを使用し、認定されたサード パー�
 
 [Teams の制限と仕様](limits-specifications-teams.md)
 
-[Microsoft テクニカル コミュニティ: Microsoft 365 のライブ イベント](https://resources.techcommunity.microsoft.com/live-events/)

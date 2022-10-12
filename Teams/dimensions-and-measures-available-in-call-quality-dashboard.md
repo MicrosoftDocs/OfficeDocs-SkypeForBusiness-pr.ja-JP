@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Microsoft Teams および Skype for Business Online の通話品質ダッシュボード (CQD) で使用されるディメンションと測定値に関する詳細情報を取得します。
-ms.openlocfilehash: 730dd2f127c50d89f97c49c921e6b954a6043f65
-ms.sourcegitcommit: 43db97b84ca70b1e6accfa7214d4106e4177a642
+ms.openlocfilehash: f90db84232e544a6317771bb553733e330df7ce7
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/29/2022
-ms.locfileid: "68218061"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532277"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>通話品質ダッシュボード (CQD) で使用できるディメンションと測定値
 
@@ -135,7 +135,11 @@ CQD で使用される文字列は、多くの場合、データ ファイルか
 | Second OS Architecture  | 文字列  | 第 2 のエンドポイントによって報告されるハードウェア アーキテクチャ。 <br/> **値の例:** x64  | &bull; エンドポイントでこの情報が報告されませんでした <br/>&bull; このエンドポイントからのレポートが受信されませんでした <br/>&bull; アーキテクチャの形式が認識されませんでした  |
 | First Virtualization Flag  | 列挙型 <br/>**使用可能な値:** <br/> "0x00" = None  <br/> "0x01" = Hyper-V <br/> "0x02" = VMware <br/> "0x04" = 仮想 PC <br/> "0x08" = Xen PC | 最初のエンドポイントによって報告される仮想化環境の種類を示すフラグ。 | <br/>&bull; データがエンドポイントによって報告されなかった |
 | Second Virtualization Flag  | 列挙型 <br/>**使用可能な値:** <br/> "0x00" = None  <br/> "0x01" = Hyper-V <br/> "0x02" = VMware <br/> "0x04" = 仮想 PC <br/> "0x08" = Xen PC | 2 番目のエンドポイントによって報告される仮想化環境の種類を示すフラグ。  | <br/>&bull; データがエンドポイントによって報告されなかった |
-|First Endpoint Make |文字列 |デバイスの製造元は、エンドポイント データ ファイル EndpointMake フィールドから情報を読み取ります。 | <br/>&bull; エンドポイントのデータ ファイルがありません |
+| 最初の VTC デバイス名 | 文字列 | 最初のエンドポイントで使用される VTC デバイスのフレンドリ名 | <br/>&bull; データがエンドポイントによって報告されなかった <br/>&bull; フィールドは EUII で、28 日が経過しました |
+| 2 番目の VTC デバイス名 | 文字列 | 2 番目のエンドポイントで使用される VTC デバイスのフレンドリ名 | <br/>&bull; データがエンドポイントによって報告されなかった <br/>&bull; フィールドは EUII で、28 日が経過しました |
+| 最初の VTC デバイスの詳細 | 文字列 | 最初のエンドポイントで使用される VTC デバイスのプラットフォームとバージョン情報 <br/> **値の例:** Tandberg、529 | <br/>&bull; データがエンドポイントによって報告されなかった |
+| 2 番目の VTC デバイスの詳細 | 文字列 | 2 番目のエンドポイントで使用される VTC デバイスのプラットフォームとバージョン情報 <br/> **値の例:** Tandberg、529 | <br/>&bull; データがエンドポイントによって報告されなかった |
+| First Endpoint Make |文字列 |デバイスの製造元は、エンドポイント データ ファイル EndpointMake フィールドから情報を読み取ります。 | <br/>&bull; エンドポイントのデータ ファイルがありません |
 | 最初のエンドポイント モデル |文字列|デバイス モデルでは、エンドポイント データ ファイル EndpointModel フィールドから情報が読み取られます。| <br/>&bull; エンドポイントのデータ ファイルがありません |
 | 最初のエンドポイントの種類|文字列|デバイスの種類、情報は Endpoint Data ファイル EndpointType フィールドから読み取られます。| <br/>&bull; エンドポイントのデータ ファイルがありません |
 | 最初のエンドポイント ラベル 1|文字列|カスタマイズ可能なラベル、情報はエンドポイント データ ファイルから読み取られます。| <br/>&bull; エンドポイントのデータ ファイルがありません |

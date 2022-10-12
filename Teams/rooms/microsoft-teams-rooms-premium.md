@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Pro 管理Microsoft Teams Roomsについて説明します。
 f1keywords: ''
-ms.openlocfilehash: 275906a47b2f86368256e7e09f42b2cf5c653ee8
-ms.sourcegitcommit: b2692b3f6c60d8df5ba0677c68ff9c90a75a0d72
+ms.openlocfilehash: d6644308f5c9de9b92c3d25df2595a036c232c7b
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68033775"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532407"
 ---
 # <a name="microsoft-teams-rooms-pro-management"></a>Microsoft Teams Rooms Pro Management
 
@@ -37,11 +37,9 @@ Microsoft Teams Rooms Pro 管理監視ソリューションは、エンド ポ�
 
    更新プログラム、問題検出、Microsoft Teams Roomsの問題解決を自動化するソフトウェアと機械学習。  
 
-- 専用のエキスパート  
+- 更新の管理  
 
-   24 時間 365 日のサービス運用、階層化されたサポート、インシデント解決の支援を提供する専門家チーム。  
-
-
+   お客様が構成可能なデプロイ リングに基づいて、会議アプリケーションと Windows 更新オーケストレーションを自動化します。
 
 - 強化された分析情報  
 

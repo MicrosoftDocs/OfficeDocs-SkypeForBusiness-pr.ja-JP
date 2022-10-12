@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: データとプライバシー情報
 f1keywords: Microsoft Teams Rooms Managed Service Data and Privacy Information
-ms.openlocfilehash: 5799288005a5d30152a6f810c0aa40d451198390
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 50806ffce468ac9add956d6942c2b3b2e5885125
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270302"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532467"
 ---
 # <a name="approach"></a>手法
 
@@ -48,8 +48,6 @@ Microsoft Teams Roomsマネージド サービスを使用しているお客様�
 ## <a name="data-handling"></a>データ処理
 
 Microsoft は、データ転送、ストレージ、使用、および保持に関する厳格な標準に準拠しています。 Microsoft には、データ分類に基づいてデータを処理する方法を規制するデータ処理標準ポリシーがあります。
-
-
 
 ## <a name="technology-description"></a>テクノロジの説明
 
@@ -100,4 +98,8 @@ Managed Services は、デプロイ内の問題の監視、診断、軽減を目
 
 ## <a name="more-resources"></a>その他のリソース
 
-Microsoft Teams Rooms セキュリティ:/microsoftteams/rooms/security Microsoft Privacy Statement: https://aka.ms/privacyMicrosoft でのデータ管理: https://www.microsoft.com/trust-center/privacy/data-management Managed Services サービスの説明: [Microsoft Teams Room マネージド サービス](microsoft-teams-rooms-premium.md)
+Windows セキュリティのMicrosoft Teams Rooms: [[Microsoft Teams for Windows セキュリティ](/microsoftteams/rooms/security-windows)] \
+Android セキュリティのMicrosoft Teams Rooms: [Microsoft Teams for Android セキュリティ](/microsoftteams/rooms/security-android) \
+Microsoft のプライバシーに関する声明: https://aka.ms/privacy \
+Microsoft でのデータ管理: https://www.microsoft.com/trust-center/privacy/data-management \
+マネージド サービス サービスの説明: [Microsoft Teams Room マネージド サービス](microsoft-teams-rooms-premium.md)

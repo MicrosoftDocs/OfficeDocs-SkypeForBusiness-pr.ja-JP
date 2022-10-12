@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Microsoft Teams Rooms を展開するためのインフラストラクチャを準備して、すべての機能を利用できるようにする方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3f0224ebf0c6c8e0f21fe669bb8a92ff345b928b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 7006f560c5d0991b74c14fc5eb0b13e829b642d9
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268952"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532227"
 ---
 # <a name="prepare-your-environment"></a>環境を準備する
 
@@ -115,7 +115,7 @@ Microsoft Teams Rooms は、Windows OS からプロキシ設定を継承する�
     
 11. サインイン画面に戻り、**Skype** ユーザーを選択します。 上記のすべての手順を正常に完了した場合は、Microsoft Teams Rooms デバイスのサインインに成功します。
     
-Microsoft Teams Roomsに必要な FQDN、ポート、IP アドレス範囲の詳細については、[ネットワーク セキュリティ](./security.md#network-security)に関する記事を参照してください。
+Microsoft Teams Roomsに必要な FQDN、ポート、IP アドレス範囲の詳細については、[ネットワーク セキュリティ](./security-windows.md#network-security)に関する記事を参照してください。
   
 ### <a name="admin-group-management"></a>管理グループの管理
 
@@ -128,7 +128,7 @@ Microsoft Teams Roomsに必要な FQDN、ポート、IP アドレス範囲の詳
 
 ### <a name="microsoft-teams-rooms-local-user-account"></a>Microsoft Teams Rooms のローカル ユーザー アカウント
 
-Teams Roomsには、"Skype" という名前のパスワードなしのローカル アカウントが含まれています。 このアカウントは、Windows にサインインしてTeams Rooms アプリを起動するために使用されます。 このアカウントにパスワードを適用することはサポートされていません。 詳細については、「[Microsoft Teams Rooms セキュリティ](security.md)」を参照してください。
+Teams Roomsには、"Skype" という名前のパスワードなしのローカル アカウントが含まれています。 このアカウントは、Windows にサインインしてTeams Rooms アプリを起動するために使用されます。 このアカウントにパスワードを適用することはサポートされていません。 詳細については、「[Microsoft Teams Rooms セキュリティ](security-windows.md)」を参照してください。
   
 ### <a name="admin---local-administrator-account"></a>"Admin" - ローカル管理者アカウント
 
@@ -139,7 +139,7 @@ Microsoft Teams Rooms の既定のパスワードは "sfb" に設定されます
   
 ローカル管理者パスワードは設定時の選択肢として含まれません。
 
-管理 アカウントの詳細については、[Microsoft Teams Rooms セキュリティ](security.md)に関する記事を参照してください。
+管理 アカウントの詳細については、[Microsoft Teams Rooms セキュリティ](security-windows.md)に関する記事を参照してください。
   
 ### <a name="machine-account"></a>コンピューター アカウント
 

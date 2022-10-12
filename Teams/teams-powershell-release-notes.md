@@ -13,12 +13,12 @@ ms.collection:
 description: Teams PowerShell の最新の変更について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d488fbc8274b5b4e14a29e336b5ef0563872d56
-ms.sourcegitcommit: 44d9f15f7f7c00b3651a11ff1e8b37dda1716a52
+ms.openlocfilehash: 2472f7ec0156e5dcd3ac245dfecdf25a58423ed9
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "67732306"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532237"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell リリース ノート
 
@@ -31,6 +31,7 @@ ms.locfileid: "67732306"
 
 | 日付 | バージョン | 更新 |
 |------- | -------------------- | ------------------------------ |
+| 2022 年 10 月 | [4.8.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.8.0) |<li>[Get\|New]-CsTeamsShiftsConnectionTeamMap コマンドレット - TimeZone 属性が追加されました。</li><li>Set-CsOnlineDialinConferencingUser から SendEmailFromAddress および SendEmailFromDisplayName 入力パラメーターを削除します。</li><li>Set-TeamsAcsFederationConfiguration から AllowAllAcsResources パラメーターと BlockedAcsResources パラメーターを削除します。</li><li>New-CsAutoAttendantCallFlow、New-CsAutoAttendant および Set-CsAutoAutoAttendant のコールフロー設定に ForceListenMenuEnabled パラメーターを追加します。 この設定により、テナントは、あいさつ文/メニュー オプションの再生中に DTMF/音声入力を無視できます。</li>
 | 2022 年 9 月 | [4.7.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.7.1-preview) |<li>プレビューConnect-MicrosoftTeamsでアプリケーション ベースの認証サポートをリリースします。 サポートされているコマンドレットは段階的にロールアウトされ、 [Teams PowerShell モジュールのアプリケーションベースの認証の](teams-powershell-application-authentication.md)詳細が示されています。</li><li>プライベート プレビューで [Get\|Set]-CsTeamsEducationConfiguration コマンドレットをリリースします。</li><li>[Get\|New]-CsTeamsShiftsConnectionTeamMap コマンドレット - TimeZone 属性が追加されました。</li><li>Set-CsOnlineDialinConferencingUser から SendEmailFromAddress および SendEmailFromDisplayName 入力パラメーターを削除します。</li><li>Set-TeamsAcsFederationConfiguration から AllowAllAcsResources パラメーターと BlockedAcsResources パラメーターを削除します。</li>
 | 2022 年 9 月 | [4.7.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.7.0) |<li>PS ISE および dotnet アプリケーションでモジュールを使用する場合のプロセスクリーンアップに関する問題を修正しました。</li><li>GA の [Get\|New]-CsBatchTeamsDeployment コマンドレットをリリースします。</li><li>UKG ディメンションのサポートTest-CsTeamsShiftsConnectionValidate[新しい\|セット]-CSTeamsShiftsConnectionInstance をリリースします。</li><li>Connect-MicrosoftTeams の AccountId パラメーターを使用して複数のアカウントを選択するときに、トークンフェッチが正しくない問題を修正しました。</li><li>電話会議モード&プレゼンス モード属性の既定値は、コマンドレットの場合は false から true に変更New-CsCallQueue。</li>
 | 2022 年 8 月 | [4.6.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.6.1-preview) |<li>PS ISE および dotnet アプリケーションでモジュールを使用する場合のプロセスクリーンアップに関する問題を修正しました。</li>

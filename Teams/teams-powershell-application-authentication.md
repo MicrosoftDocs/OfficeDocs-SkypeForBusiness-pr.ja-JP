@@ -12,12 +12,12 @@ ms.collection:
 description: Microsoft Teams の管理に使用される Teams PowerShell モジュールのアプリケーション ベースの認証について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7dab0f32a6547db5522f00d4750f7eff26ea5995
-ms.sourcegitcommit: 43db97b84ca70b1e6accfa7214d4106e4177a642
+ms.openlocfilehash: 8dd4b230f7f22feb574463a96d4a4447bcf0cfb0
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/29/2022
-ms.locfileid: "68218091"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532497"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Teams PowerShell モジュールでのアプリケーション ベースの認証
 
@@ -95,7 +95,7 @@ Teams PowerShell モジュールは、アプリケーション ID、テナント
 
 アプリケーション オブジェクトを使用した認証には、初期オンボードが必要です。 アプリケーションとサービス プリンシパルは同じ意味で使用されますが、アプリケーションはクラス オブジェクトに似ていますが、サービス プリンシパルはクラスのインスタンスのようなものです。 これらのオブジェクトの詳細については、 [Azure Active Directory のアプリケーション オブジェクトとサービス プリンシパル オブジェクトを](/azure/active-directory/develop/app-objects-and-service-principals)参照してください。
 
-Azure Ad でアプリケーションを作成するための高度な手順については、以下で説明します。詳細な手順については、この [記事](/azure/active-directory/develop/howto-create-service-principal-portal)を参照してください。
+Azure Ad でアプリケーションを作成するためのサンプル手順については、以下で説明します。詳細な手順については、この [記事](/azure/active-directory/develop/howto-create-service-principal-portal)を参照してください。
 
 1. Azure AD にアプリケーションを登録する
 2. アプリケーションに API アクセス許可を割り当てる
@@ -103,7 +103,7 @@ Azure Ad でアプリケーションを作成するための高度な手順に�
    - Cs 以外\*のコマンドレットの場合、必要な Microsoft Graph APIのアクセス許可は`User.Read.All`、 , `Group.ReadWrite.All`, , `AppCatalog.ReadWrite.All`, `TeamSettings.ReadWrite.All``Channel.Delete.All`, `ChannelSettings.ReadWrite.All`, . `ChannelMember.ReadWrite.All`  
 3. 自己署名証明書を生成する
 4. 証明書を Azure AD アプリケーションにアタッチする
-5. アプリケーションに Azure AD ロールを割り当てる
+5. アプリケーションに [Azure AD ロール](/microsoftteams/using-admin-roles#teams-roles-and-capabilities) を割り当てる
 
 アプリケーションには、適切な RBAC ロールが割り当てられている必要があります。 アプリは Azure AD でプロビジョニングされているため、サポートされている組み込みロールのいずれかを使用できます。
  

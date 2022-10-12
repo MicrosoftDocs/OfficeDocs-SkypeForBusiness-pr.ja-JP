@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Microsoft Teams が最適な結果を生み出すために認定されているデスクフォンと会議電話について説明します。
-ms.openlocfilehash: a13551627b0bd4d41d44e64988452fae59dc7090
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 2ba2b46bb4f6544a6b2c4c4455634aca4c0feef5
+ms.sourcegitcommit: 75a988ce64e3b6668dde3475e5cbf1f26de961ba
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68376865"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68539656"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 認定 Android デバイス
 
@@ -84,6 +84,7 @@ Android 認定プログラムのMicrosoft Teams Roomsでは、次のデバイス
 | Yealink MeetingBar A20 | `133.15.0.108  `   | 2024 年 9 月 3 日 | 小さな会議室(4.5 m x 4.5 m)| 10|
 | Yealink MeetingBar A30 | `133.15.0.108  `   | 2024 年 9 月 3 日 | 中規模の部屋 (4.5 m x 6 m) | 10|
 | Logitech Tap IP VR0029     | `1.6.762`  |   2024 年 9 月 3 日  | Logitech Rally Bar および Rally Bar Mini と互換性がある | 10 |
+| ニート バー Pro   | `NFD1.20220914.1210 ` | 2024 年 9 月 3 日  |  中規模の部屋 (4.5 m x 6 m) | 10|
 | 端正なバー | `NFB1.20220211.1400` |2024 年 9 月 3 日|    小会議室 (4.5 m x 4.5 m) | 10 |
 | 端正なパッドタッチ コンソール | `NFA1.20220211.1400`  | 2023 年 8 月 5 日 |  ニート バーとの互換性のみ | 9 |
 | 端正なボード | `NFC1.20220211.1400 ` | 2024 年 9 月 3 日 |    小会議室 (4.5 m x 4.5 m) | 10 |
