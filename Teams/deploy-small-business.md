@@ -18,19 +18,19 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 32b55c026daad08aab22f1621190e2768e0b26e5
-ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.openlocfilehash: 94c03224f25f1cd72c7e283411b0b1de6c38580e
+ms.sourcegitcommit: 2dab123ad74fcad4db5390e9b745f72497a05882
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "67808668"
+ms.lasthandoff: 10/13/2022
+ms.locfileid: "68560257"
 ---
 # <a name="set-up-microsoft-teams-in-your-small-business"></a>小規模ビジネスで Microsoft Teams を設定する
 
 Teams をカスタマイズする方法はたくさんあります。 以下のセクションでは、**チャット、チーム、チャネル**、**ミーティングと会議**、および **音声ソリューション** に関する Teams の各ワークロードを設定する方法を説明します。 各ワークロードを設定する順序に決まりはありません。 最初にチャット、チーム、チャネルのワークロードを設定することをお勧めしますが、ミーティングと会議から始めることも、クラウド ボイスから始めることもできます。 選択は自由です。
 
 > [!NOTE]
-> まだ行っていない場合は、パイロットから Teams の展開を開始することを強くお勧めします。パイロットにより、計画と最終的な展開の前に、あなたや早期採用者が Teams とその機能に精通することができます。パイロットを開始する方法の詳細については、「[Microsoft Teams を開始する](get-started-with-teams-quick-start.md)」を参照してください。
+> If you haven't done so already, we strongly suggest that you begin your Teams deployment with a pilot. A pilot will allow you and a few early adopters to get familiar with Teams and its features before your planning and eventual roll out. For more information about how to start your pilot, check out [Get started with Microsoft Teams](get-started-with-teams-quick-start.md).
 
 Teams を広く展開する前に、[[準備ができていることを確認してください]](get-started-with-teams-quick-start.md#make-sure-youre-ready) の項目を確認して、組織の準備ができていることを確認してください。
 
@@ -76,7 +76,6 @@ Teams を広く展開する前に、[[準備ができていることを確認し
 Teams では既定で会議が有効になっていますが、主催者と参加者の会議エクスペリエンスを制御できます。 また、会議の前および会議中に、ユーザーが実行できることおよび実行できないことについてのポリシーを設定することもできます。 詳細については、次の記事を参照してください。
 
 - [管理者向けクイック スタート - Microsoft Teams での会議とライブ イベント](quick-start-meetings-live-events.md)
-- [中小企業向けに音声会議を設定する](audio-conferencing-smb.md)
 
 ### <a name="teams-phone-with-calling-plan"></a>通話プランが設定された Teams 電話
 
@@ -86,7 +85,7 @@ Teams では既定で会議が有効になっていますが、主催者と参�
 
 ## <a name="deploy-clients"></a>クライアントの展開
 
-ユーザーが Teams の使用を開始する準備ができたら、ユーザーは Teams クライアントを Windows、Mac、Linux PC、および Android または iOS デバイスにインストールできます。ユーザーは Teams クライアントを <https://teams.microsoft.com/downloads> から直接ダウンロードできます。
+When you're ready for your users to start using Teams, they can install the Teams client on their Windows, Mac, or Linux PC, or on their Android or iOS device. Users can download the Teams client directly from <https://teams.microsoft.com/downloads>.
 
 Teams を使用する予定のすべてのユーザーが Teams ライセンスを持っていることを確認してください。 Teams ライセンスの割り当ての詳細については、「[Teams へのユーザー アクセスを管理する](user-access.md#using-the-microsoft-365-admin-center)」を参照してください。
 
