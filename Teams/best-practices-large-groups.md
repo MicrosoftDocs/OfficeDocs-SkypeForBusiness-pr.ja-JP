@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 313c570cfcded3b5a896a773577863f7a8817fa8
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 06fc3d0bdf0e4741918e380d13acd1b7391bd6ef
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562406"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576403"
 ---
 # <a name="manage-large-teams-in-microsoft-teams---best-practices"></a>Microsoft Teams で大規模なチームを管理する - ベスト プラクティス
 
@@ -76,7 +76,7 @@ Azure portalを使用すると、ユーザーは Microsoft 365 グループの�
 
 ![[設定] ウィンドウの [メンバーのアクセス許可] セクションを示す画面イメージ。](media/disable-bots-connectors.png "[設定] ウィンドウの [メンバーのアクセス許可] セクションを示す画面イメージ。メンバーがアプリまたはコネクタを追加できるようにするオプションはオフになっています。")
 
-[「アプリ、ボット、& コネクタ](deploy-apps-microsoft-teams-landing-page.md)」を参照してください。
+[Teams アプリの概要を](deploy-apps-microsoft-teams-landing-page.md)参照してください。
 
 ## <a name="regulate-team-and-channel-mentions"></a>チームとチャネルのメンションを規制する
 
