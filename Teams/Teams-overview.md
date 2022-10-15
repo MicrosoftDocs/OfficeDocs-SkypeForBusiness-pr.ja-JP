@@ -20,12 +20,12 @@ ms.custom:
 - intro-overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b91bff459d93dee392a428e1a141622c8937c70
-ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
-ms.translationtype: HT
+ms.openlocfilehash: 6ffdae377d1b39e40ad0fc89857c773ac843da38
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66606246"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576433"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Microsoft Teams にようこそ
 所属する組織での Microsoft Teams の管理者である場合は、このページの内容をよくお読みください。 Teams の使用を開始する準備ができたら、「[Teams のロールアウト方法](./deploy-overview.md)」および「[Microsoft 365 と Microsoft Teams を使用してセキュリティで保護された共同作業を設定する](/microsoft-365/solutions/setup-secure-collaboration-with-teams)」から開始します。
@@ -34,9 +34,9 @@ Teams を使うのが初めてで、詳細を知りたい場合は、「[Teams �
 
 Teams の管理者向けビデオの「Teams へようこそ」をお見逃しなく (3 分強):
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vxWd]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
 
-エンド ユーザー向けの Teams のヘルプを探している場合は、アプリの左側にある **[ヘルプ]** をクリックするか、「[Microsoft Teams ヘルプ センター](https://support.office.com/teams)」に移動します。トレーニングについては、「[Microsoft Teams のトレーニング](training-microsoft-teams-landing-page.md)」を参照してください。 
+If you're looking for end user Teams Help, click **Help** on the left side of the app, or go to the [Microsoft Teams help center](https://support.office.com/teams). For training, go to [Microsoft Teams Training](training-microsoft-teams-landing-page.md). 
 
 ## <a name="teams-architecture"></a>Teams のアーキテクチャ
 
@@ -53,7 +53,7 @@ Microsoft 365 全体の中での Teams の位置を確認するには、次の�
 
 既存のグループからチームを作成する場合は、グループのメンバーシップ、サイト、メールボックス、ノートブックが Teams に表示されます。 詳細については、こちらのポスターをご覧ください: [ITアーキテクト向けMicrosoft 365のグループ](teams-architecture-solutions-posters.md#groups-in-microsoft-365)
 
-Teams をカスタマイズおよび拡張するには、[アプリ、ボット、およびコネクタ](deploy-apps-microsoft-teams-landing-page.md)を使用してサードパーティ アプリを追加します。 Teams では、組織の外部のユーザーを[ゲストとして追加する](guest-access.md)ことで、チームまたはチャネルに含めることができます。 Microsoft 365 および Office 365 の一部として、Teams は強力な[開発プラットフォーム](/microsoftteams/platform)を提供します。これにより、ユーザーは組織に必要なチームワーク ハブを構築できます。 
+Teams をカスタマイズおよび拡張するには、 [アプリ管理タスク](deploy-apps-microsoft-teams-landing-page.md)を使用してサードパーティのアプリを追加します。 Teams では、組織の外部のユーザーを[ゲストとして追加する](guest-access.md)ことで、チームまたはチャネルに含めることができます。 Microsoft 365 および Office 365 の一部として、Teams は強力な[開発プラットフォーム](/microsoftteams/platform)を提供します。これにより、ユーザーは組織に必要なチームワーク ハブを構築できます。
 
 > [!TIP]
 > Teams のアーキテクチャの詳細については、[Teams Platform Academy (Teams プラットフォーム アカデミー)](https://aka.ms/TeamsPlatformAcademy) にある動画を視聴してください。
@@ -76,10 +76,10 @@ Teams およびその他の Microsoft 365 および Office 365 製品とサー�
 ## <a name="upgrade-from-skype-for-business-to-teams"></a>Skype for Business から Teams へのアップグレード
 Teams は Microsoft 365 および Office 365 でのインテリジェント コミュニケーションの中心的なクライアントで、最終的に Skype for Business Online に取って代わります。 Teams に導入される新機能の最新情報を入手するには、「[Microsoft 365 ロードマップ](https://aka.ms/O365Roadmap)」を参照してください。 常設チャットおよびメッセージの機能を補完するために、Teams では内蔵され完全に統合された音声とビデオによる、包括的な会議および通話のエクスペリエンスを提供しています。 Microsoft Teams ブログの「[完全な会議および通話ソリューションとなった Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042)」をご覧ください。
 
-Skype for Business を実行していて、Teams にアップグレードする準備ができている場合、または Skype for Business と Teams を並列で実行していて、Teams に完全に移行する準備ができている場合は、移行を正常に完了するためのツール、ヒント、ガイダンスを利用することができます。詳細については、[[Teams へのアップグレード]](upgrade-start-here.md) を参照してください。
+If you're running Skype for Business and are ready to upgrade to Teams, or if you're running Skype for Business and Teams side-by-side and are ready to fully move to Teams, we have the tools, tips, and guidance to help make your transition successful. To learn more, see [Upgrade to Teams](upgrade-start-here.md).
 
 ## <a name="teamwork"></a>チームワーク
-すべてのチームはそれぞれ異なります。コラボレーションを行うための万能の手段はありません。Microsoft 365 および Office 365 は各チームの固有のニーズを満たすよう設計されていて、ユーザーが通信、共同作業などより多くのことを専用の統合アプリで成し遂げられる能力を強化します。
+Every team is different; there's no one-size-fits-all approach to collaboration. Microsoft 365 and Office 365 are designed to meet the unique needs of every team, empowering people to communicate, collaborate, and achieve more with purpose-built, integrated applications.
 
 どの Microsoft 365 または Office 365 アプリおよびサービスを使用するかを決めるときに、自分の組織で行われる作業や、所属するチームで行う必要がある会話の種類について考えます。 
 
@@ -89,7 +89,7 @@ Skype for Business を実行していて、Teams にアップグレードする�
 
 - **SharePoint** は、サイト、ポータル、インテリジェント コンテンツ サービス、ビジネス プロセスの自動化、およびエンタープライズ検索で活用されます。 SharePoint はコンテンツをフレームワークの中心で保持して、あらゆる種類のコンテンツをチーム全体で簡単に共有可能およびアクセス可能にします。 Outlook、Yammer、および Teams との緊密な統合により、会話のクスぺリエンス全体にわたって、シームレスなコンテンツのコラボレーションを実現します。
 
-- **OneDrive for Business** は、ファイルを保存したり、招待したユーザーとそれらのファイルを共有するのに利用できます。ユーザーが OneDrive for Business に保存するコンテンツは、共有するまでは非公開となるため、共有用ではない個人用ドキュメントや、共有する準備ができていない下書きドキュメントを保存するのに最適なオプションです。
+- **OneDrive for Business** for storing files and sharing them with people that a user invites. Content that a user saves to OneDrive for Business is private until the user shares it with others, making it the best option for storing personal and draft documents that are not intended to be shared or not ready to be shared.
 
 - **Yammer** は、組織全体にわたるユーザーを接続するために使用します。 会社全体の取り組みを推進したり、ベスト プラクティスを共有したり、一般的な領域または関心のある話題や実践に関するコミュニティを構築したりすることができます。 クラウドソーシングのアイデアで、会社全体にわたるユーザーとのオープンなディスカッションを促進します。
 

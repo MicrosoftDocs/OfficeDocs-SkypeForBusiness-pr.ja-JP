@@ -20,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-get-started
-ms.openlocfilehash: efb18d7a4674fa990f5a133576ec10ed4d377e35
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: 7306184fe00c404820a0aa098497c2ec1262d15b
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706494"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576566"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams でのミーティングと会議
 
@@ -74,7 +74,7 @@ Teams の最高のエクスペリエンスを実現する場合、組織は Exch
 
 ### <a name="teams-administrators"></a>Teams の管理者
 
-Teams は、組織のチームを管理するために使用できる、カスタムの管理者ロールのセットを提供します。ロールは、管理者がさまざまな機能を使用できるようにします。
+Teams provides a set of custom administrator roles that can be used to manage Teams for your organization. The roles provide various capabilities to administrators.
 
 | 確認事項 | アクション |
 |--------------|--------|
@@ -143,7 +143,7 @@ Teams のミーティング エクスペリエンスを最適なものにする�
 ユーザーは音声、ビデオ、および画面共有のアクティビティをキャプチャするために、ミーティングとグループの通話を記録できます。 自動的に文字起こしする記録のオプションもあるため、ユーザーはミーティングの記録を字幕付きで再生して、会議内容の重要な議題を検索できます。 記録はクラウドで実施され Microsoft Stream に保存されるため、ユーザーは組織全体で安全に議事録を共有できます。 ミーティングの記録を検索するには、ミーティングの会話に移動します。
 
 >[!Note]
-> Microsoft Stream の使用から[会議の記録用の OneDrive for Business および SharePoint ](tmr-meeting-recording-change.md)への変更は段階的なアプローチになります。リリース時には、この機能にオプトインできるようになります。Stream を使い続けるには、11 月にオプトアウトする必要があります。また、2021 年初頭には、すべてのお客様に、新しい会議の記録に OneDrive と SharePoint を使用するように要請する予定です。
+> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings.
 
 詳細については、「[Teams のクラウド会議の記録](cloud-recording.md)」を参照してください。
 
@@ -206,4 +206,4 @@ Teams のサービスにかかわる全体的な正常性を把握して、サ�
 - 組織全体にミーティングと会議の[導入を推進する](adopt-microsoft-teams-landing-page.md)。
 - [電話会議を追加する](deploy-audio-conferencing-teams-landing-page.md)
 - [クラウド ボイスを展開する](cloud-voice-landing-page.md)
-- 最初の Teams ロールアウトには、Planner などのおすすめのアプリを含めます。Teams 導入の進行に応じて、その他の[アプリ、ボット、およびコネクタ](deploy-apps-microsoft-teams-landing-page.md)を追加してください。
+- お勧めのアプリ (Planner など) を Teams の初期ロールアウトに組み込む。 [Teams の](deploy-apps-microsoft-teams-landing-page.md)導入を推進するときに、他の Teams アプリを追加します。

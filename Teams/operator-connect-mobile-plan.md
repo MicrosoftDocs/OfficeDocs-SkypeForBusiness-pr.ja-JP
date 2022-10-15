@@ -18,16 +18,16 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 90af338ca5896a9e11ed4ea2537080237885c71c
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+ms.openlocfilehash: 07a7a7652f5b634d9cc4c5bf7adfa14dfdcb3d3d
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551721"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576593"
 ---
 # <a name="plan-for-teams-phone-mobile"></a>Teams Phone Mobile の計画
 
-Microsoft Teams 電話 Mobile プログラムに参加しているオペレーターとそのサービスが利用可能な国または地域の一覧については、「[Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/connect-mobile)」を参照してください。
+Microsoft Teams 電話 Mobile プログラムに参加しているオペレーターとそのサービスが利用可能な国または地域の一覧については、「[Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/teams-phone-mobile)」を参照してください。
 
 Teams Phone Mobile は、Microsoft Teams と電話システムとの公衆交換電話網 (PSTN) 接続を提供するためのもう 1 つのオプションです。 Teams Phone Mobile では、ユーザーの SIM 対応電話番号も Teams の電話番号です。 ユーザーは、モバイル サービスとデスクラインの両方で Microsoft Teams で 1 つの電話番号を使用し、ネットワークとデバイス間をシームレスに切り替えることができます。
 
