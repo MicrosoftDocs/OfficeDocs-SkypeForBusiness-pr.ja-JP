@@ -12,12 +12,12 @@ ms.collection:
 description: Microsoft Teams の管理に使用される Teams PowerShell モジュールのアプリケーション ベースの認証について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8dd4b230f7f22feb574463a96d4a4447bcf0cfb0
-ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
+ms.openlocfilehash: d017f5e23685df6aa6c7ae0630724ad5d13d0425
+ms.sourcegitcommit: ffc7532a4bb1f1f6b3031025b493a5ad20ba4366
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68532497"
+ms.lasthandoff: 10/13/2022
+ms.locfileid: "68570420"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Teams PowerShell モジュールでのアプリケーション ベースの認証
 
@@ -28,7 +28,7 @@ ms.locfileid: "68532497"
 
 以下のコマンドレットは既にサポートされており、他のコマンドレットは段階的にロールアウトされます。 
 
-  - Cs 以外 \*のコマンドレット (Get-Team など)
+  - Cs 以外 \*のコマンドレット (New-Team を除く)
   - Get-CsTenant
   - Get-CsOnlineUser、Get-CsOnlineVoiceUser
   - \*-CsOnlineSipDomain 
@@ -43,6 +43,7 @@ ms.locfileid: "68532497"
   - Find-CsGroup
   - \*-CsOnlineDialInConferencingUser, \*-CsOnlineDialInConferencingServiceNumber, \*-CsOnlineDialInConferencingBridge, Get-CsOnlineDialInConferencingLanguagesSupported, Set-CsOnlineDialInConferencingUserDefaultNumber
   - \*-CsOnlineLisLocation、 \*-CsOnlineLisCivicAddress、 \*-CsOnlineLisWirelessAccessPoint、 \*-CsOnlineLisPort、 \*-CsOnlineLisSubnet、 \*-CsOnlineEnhancedEmergencyServiceDisclaimer、 \*-CsOnlineLisSwitch
+  - \*-CsCloudCallDataConnection
 
 
 ## <a name="examples"></a>例

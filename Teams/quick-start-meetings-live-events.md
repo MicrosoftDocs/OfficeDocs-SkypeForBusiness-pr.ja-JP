@@ -22,12 +22,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2321b4c16938b045cfe281d4cf25d7882d449d9b
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+ms.openlocfilehash: 5961e05ac1ec927fbaca31dc24279eca27ce0f9d
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551861"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576413"
 ---
 # <a name="meetings-webinars-and-live-events"></a>会議、ウェビナー、ライブ イベント
 
@@ -142,7 +142,7 @@ Teams で提供されるアプリを使用し、認定されたサード パー�
 
 | 記事 | 説明 |
 |----------|--------|
-| [アプリ、ボット、およびコネクタ](deploy-apps-microsoft-teams-landing-page.md) | アプリの概要と、組織のアプリを展開する方法。 |
+| [Teams アプリの概要](deploy-apps-microsoft-teams-landing-page.md) | アプリの概要と、組織のアプリを展開する方法。 |
 | [Teams 会議用アプリ](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings) | 会議アプリの拡張性、API リファレンス、および会議用にアプリを有効にして構成する方法の概要。 |
 | [Teams でホワイトボードを管理する](manage-whiteboard.md) | ホワイトボードの機能と、組織で有効または無効にする方法について説明します。 |
 
