@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1da45446c2ab1879dd8064537dc50dafd99ea013
-ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
+ms.openlocfilehash: 7fafebf61cdf7e5b13cfbb6aaf08d73afef6f436
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/10/2022
-ms.locfileid: "67641748"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576443"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams での電話会議の導入方法
 
@@ -54,7 +54,7 @@ Teams の電話会議を展開する前に、次の事項について検討し�
 
 ### <a name="teams-administrators"></a>Teams の管理者
 
-Teams は、組織のチームを管理するために使用できる、カスタムの管理者ロールのセットを提供します。ロールは、管理者がさまざまな機能を使用できるようにします。
+Teams provides a set of custom administrator roles that can be used to manage Teams for your organization. The roles provide various capabilities to administrators.
 
 | 確認事項 | アクション |
 |--------------|--------|
@@ -65,7 +65,7 @@ Teams は、組織のチームを管理するために使用できる、カス�
 
 ### <a name="conferencing-bridges-and-phone-numbers"></a>会議ブリッジと電話番号
 
-会議ブリッジにより、ユーザーは電話機を使用してミーティングにダイヤルインできるようになります。会議ブリッジの既定の設定を使用することも、電話番号 (有料ダイヤル/無料ダイヤル) およびその他の設定 (PIN や使用言語など) を変更することもできます。
+Conferencing bridges let people dial into meetings using a phone. You can use the default settings for a conferencing bridge or change the phone numbers (toll and toll-free) and other settings, such as the PIN or the languages that are used.
 
 詳細については、「[電話会議](audio-conferencing-in-office-365.md)」を参照してください。
 
@@ -87,7 +87,7 @@ Teams の電話会議では、会議ブリッジの既定の言語と第 2 言�
 
 ### <a name="conferencing-bridge-settings"></a>会議ブリッジの設定
 
-会議ブリッジのセットアップ後 (既定の言語および第 2 言語のセットアップを含む)、参加/退出の通知と使用する PIN の長さが適切かなど、既定の設定を確認します。変更が必要な場合は、変更できます。
+After setting up your conferencing bridge, including default and alternate languages, you should verify that the default settings such as entry/exit notifications and PIN length are the ones you want to use. If they're not, you can change them.
 
 |確認事項|アクション |
 |------------|-------|
@@ -153,4 +153,4 @@ Teams では、通話品質の問題を監視してトラブルシューティ�
 
 - 組織での電話会議の[導入を推進する](adopt-microsoft-teams-landing-page.md)。
 - [クラウド ボイスを展開する](cloud-voice-landing-page.md)
-- 最初の Teams ロールアウトには、Planner などのおすすめのアプリを含めます。Teams 導入の進行に応じて、その他の[アプリ、ボット、およびコネクタ](deploy-apps-microsoft-teams-landing-page.md)を追加してください。
+- お勧めのアプリ (Planner など) を Teams の初期ロールアウトに組み込む。 [Teams の](deploy-apps-microsoft-teams-landing-page.md)導入を推進するときに、他の Teams アプリを追加します。
