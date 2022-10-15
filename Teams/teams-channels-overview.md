@@ -24,12 +24,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28a816dee54d8f5ac2aead0deeb6aedf3f8076f7
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: e5ff54577dcfd4e3845758a7ce943231cbd38d48
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396928"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576553"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams でのチームとチャネルの概要
 
@@ -45,7 +45,7 @@ ms.locfileid: "67396928"
 - **チャネル** は、チーム内の専用セクションで、チームで機能しているすべてのことについて、たとえば特定のトピック、プロジェクト、分野などの別に会話をまとめ、保存します。 ([ファイル] タブで) チャネルで共有するファイルは、SharePoint に保存されます。 詳細については、「[Microsoft Teams との SharePoint Online と OneDrive for Business の連携](SharePoint-OneDrive-interact.md)」をご覧ください。
 
     - チャネルは、会話がなされ、実際に作業が行われる場所です。 チャネルは、すべてのチーム メンバー (標準チャネル)、選択したチーム メンバー ([プライベート チャネル](private-channels.md))、またはチームの内部と外部の両方の選択されたユーザー ([共有チャネル](shared-channels.md)) に公開することができます。
-    - チャネルは、タブ、コネクタ、およびボットを含んでいるアプリで拡張することで最大の価値を発揮するようになり、チームのメンバーにとってのチャネルの価値が高まります。詳細については、「[Teams のアプリ、ボット、およびコネクタ](deploy-apps-microsoft-teams-landing-page.md)」を参照してください。
+    - チャネルは、タブ、コネクタ、およびボットを含んでいるアプリで拡張することで最大の価値を発揮するようになり、チームのメンバーにとってのチャネルの価値が高まります。 詳細については、「 [Teams アプリの概要](deploy-apps-microsoft-teams-landing-page.md)」を参照してください。
     
 チームとチャネルの使用に関するヘルプについては、「[チームとチャネル](https://support.office.com/article/df38ae23-8f85-46d3-b071-cb11b9de5499)」をご覧ください。
 
@@ -73,7 +73,7 @@ Teams には、次の 2 つの主な役割があります。
 
 **チームの設定** 
 
-チームの所有者は、チーム全体の設定を直接 Teams で管理できます。この設定には、チームの写真の追加や、標準およびプライベート チャネルを作成したり、タブとコネクタを追加したり、チームまたはチャネル全体を @メンションしたりするためのチーム メンバーにわたるアクセス許可の設定や、GIF、ステッカー、ミームの使用が含まれます。
+Team owners can manage team-wide settings directly in Teams. Settings include the ability to add a team picture, set permissions across team members for creating standard, private, and shared channels, adding tabs and connectors, @mentioning the entire team or channel, and the usage of GIFs, stickers, and memes.
 
 Microsoft 365 での Teams 管理者である場合は、Teams 管理センターのシステム全体の設定にアクセスすることができます。 これらの設定は、チーム設定でチーム所有者に表示されるオプションと既定値に影響します。 たとえば、チーム全体の通知、ディスカッション、リソースのために、既定のチャネル「一般」を有効にして、それらがすべてのチームにわたって表示されるようにすることができます。
 
