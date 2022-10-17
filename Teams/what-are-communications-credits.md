@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Skype for Business
@@ -22,22 +23,22 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: ad3e3bcbe46850ae6540539159662f0afb6d6ddf
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 75a1f3702140543f08d963a2572841bdca79c9b1
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156735"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584208"
 ---
 # <a name="what-are-communications-credits"></a>通信クレジットについて
 
-[] コミュニケーション クレジットは、電話会議および通話プランの通話分数に対する支払いに便利な方法です。お客様と、お客様のユーザーは、これにより次のことを確実に行えるようになります。
+Communications Credits are a convenient way to pay for Audio Conferencing and Calling Plan minutes. It helps ensure you and your users are never caught without being able to:
   
-- 電話会議、自動応答、または通話キューで使用する無料電話番号を追加する。無料電話の通話は、分単位で請求され、コミュニケーション クレジットの残高がプラスである必要があります。
+- Add toll-free numbers to use with Audio Conferencing meetings, auto attendants, or call queues. Toll-free calls are billed per minute and require a positive Communications Credits balance.
 
 - 電話会議からダイヤルアウトして、世界中のあらゆる場所から他のユーザーを追加する。
 
-- Microsoft Teams アプリまたはSkype for Business アプリをサブスクリプションにまだ含まれていない宛先にインストールして、電話会議会議から携帯電話にダイヤルアウトします。
+- Microsoft Teams アプリを使用して電話会議会議から携帯電話にダイヤルアウトするか、サブスクリプションにまだ含まれていない宛先にインストールSkype for Businessアプリ。
 
 - **国内通話プラン** のサブスクリプションを利用している場合に、任意の国際電話番号にダイヤルする。
 
@@ -51,7 +52,7 @@ ms.locfileid: "67156735"
 > 一部の発信先への発信通話は、お客様の電話会議サブスクリプションに含まれている場合があります。 詳細については、お客様のサブスクリプション情報を御覧ください。
   
 > [!NOTE]
-> 組織の所在地が Enterprise Agreement (EA) の請求先住所とは別の地域にある場合は、コミュニケーション クレジットを購入できない可能性があります。コミュニケーション クレジットを取得できない場合、ポータルからサポート インシデントを開いてください。永続的な解決策が定まるまで、問題を緩和するために協力します。
+> If your organization is located in a different region than the billing address of your Enterprise Agreement (EA), you might not be able to purchase Communications Credits. If you are unable to acquire Communications Credits, open a support incident from the portal and we will work with you to mitigate this issue until a permanent solution is in place.
   
 ## <a name="what-are-the-communications-credits-rates"></a>コミュニケーション クレジットの料金について
 
@@ -66,7 +67,7 @@ ms.locfileid: "67156735"
   
 コミュニケーション クレジットの最適な設定を把握するために、組織の PSTN サービスの利用状況を注意深く評価することをお勧めします。 PSTN サービスの詳細については、[電話システムと通話プランと](calling-plan-landing-page.md)[電話会議に関する一般的な質問を](Audio-Conferencing-common-questions.md)参照してください。
   
-追加機能プラン請求は、前払い残高の **一度払い** **を使用するか、** **自動リチャージ** 額 ( **推奨** ) を設定することで設定できます。後者の場合、リチャージ分を購入するタイミングを決める最低残高を指定できます。最初は、自動リチャージ額の設定をお勧めします。そうすると、実際の通話量を監視してニーズや使用パターンに合った自動リチャージの限度額を知ることができます。コミュニケーション クレジットは、ある程度の期間をかけて測定し、それぞれの組織のニーズに応じて最低残高やリチャージ額を調整する必要があります。
+You can set up consumption billing using a **one-time funding** of the pre-paid balance **OR** by setting up an **auto-recharge** ( **recommended** ) amount with a minimum balance that will trigger a purchase for that recharge amount. Initially, it's suggested that you set up auto recharge amounts that allow you to monitor actual usage and find the right auto recharge thresholds that meet your needs and usage patterns. Communications Credits should be monitored over time and then adjust the minimum balance and recharge amounts as needed to be tailored for each organization's needs.
   
 > [!NOTE]
 > プランと価格を確認するには、[Microsoft 365 管理センターにサインインし、[](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)**課金** > サブスクリプションのサブスクリプション **の** > 追加] に移動 **します**。
@@ -78,7 +79,7 @@ ms.locfileid: "67156735"
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 
-Each organization will have a different usage of Calling Plans volume and rates to consider. この種類の使用状況データは、現在のサービス プロバイダーから取得する必要があります。 Teams を既にサービス プロバイダーとして使用している組織の場合は、Microsoft Teams管理センター> **Analytics & レポート****使用状況レポート** > で使用状況データを確認し、**PSTN と SMS (プレビュー) の使用状況** を選択して使用状況データを取得できます。
+Each organization will have a different usage of Calling Plans volume and rates to consider. この種類の使用状況データは、現在のサービス プロバイダーから取得する必要があります。 Teams を既にサービス プロバイダーとして使用している組織の場合は、Microsoft Teams 管理センター> **Analytics &レポート****使用状況レポート** > で使用状況データを確認し、**PSTN と SMS (プレビュー) の使用状況** を選択して使用状況データを取得できます。
   
 通信クレジットを設定するときは、組織の通話使用量を調査して、入れる必要がある金額を決定する必要があります。 PSTN 使用状況レポートを確認すると、通話の使用状況情報を取得できます。 このレポートを使うと、カスタム レポートを作成したり、通話データ記録を Excel にエクスポートしたりすることができます。
 
@@ -122,7 +123,7 @@ Each organization will have a different usage of Calling Plans volume and rates 
 
 価格に関する情報は、[Microsoft 365 管理センターにサインインして](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)**課金** > **購入サービス** に移動することでも確認できます。
   
-各機能に必要なライセンスまたはライセンスを含むテーブルを表示するには、 [アドオン ライセンスMicrosoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)参照してください。
+各機能に必要なライセンスまたはライセンスを含むテーブルを表示するには、 [Microsoft Teams アドオン ライセンスに関するページを](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)参照してください。
   
 ## <a name="related-articles"></a>関連記事
 
