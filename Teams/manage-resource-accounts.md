@@ -11,6 +11,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -21,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: この記事では、Microsoft Teams でリソース アカウントを作成、編集、管理する方法について説明します。
-ms.openlocfilehash: 0b8c77f7d6371ba1bfefa9837488415405e48f67
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: ac3eb35894fa765dc44f46fcb489399b06adfa74
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66615803"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584028"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams のリソースのアカウントの管理
 

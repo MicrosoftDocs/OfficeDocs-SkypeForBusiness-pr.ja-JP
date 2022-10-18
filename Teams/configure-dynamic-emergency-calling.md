@@ -9,6 +9,7 @@ audience: admin
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 ms.reviewer: roykuntz
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -18,12 +19,12 @@ description: Microsoft 通話プランと電話システム ダイレクト ル�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c990473a185f4f1a42a5c046b11548892e6df4b
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+ms.openlocfilehash: c3ad0b4af1ad32cf59673fe2e4f0eab3d1f83a18
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551631"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68583888"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>動的な緊急通話を計画して構成する 
 

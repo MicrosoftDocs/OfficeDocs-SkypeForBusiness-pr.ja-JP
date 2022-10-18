@@ -13,6 +13,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -30,12 +31,12 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: 'Skype for Business サービスの通信クレジット (PSTN 使用量) の支払い方法について説明し、継続的な電話システム アクセスをユーザーに維持する計画を確認します。 '
-ms.openlocfilehash: 0e8c737f8ed1ac4537c4453d77cc284719fb8086
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 42527a608cf6a020f1c8fc4f07f912ec95dd1a3a
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156645"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68583848"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>資金を追加してコミュニケーション クレジットを管理する
 
@@ -45,7 +46,7 @@ ms.locfileid: "67156645"
 
 - 電話会議会議からダイヤルアウトして、世界中のどこからでも他のユーザーを追加します。
 
-- Skype for BusinessまたはMicrosoft Teamsアプリをインストールして、電話会議会議から携帯電話にダイヤルアウトします。
+- Skype for Businessまたは Microsoft Teams アプリをインストールして、電話会議会議から携帯電話にダイヤルアウトします。
 
 - **国内通話プラン** がある場合は、国際電話番号をダイヤルします。
 
@@ -58,7 +59,7 @@ ms.locfileid: "67156645"
   
 管理者は、手動で資金を追加することも、自動再チャージを設定することもできます。これは **お勧めします**。
   
-自動再チャージでは、設定した金額を下回ると、自動的に最高額まで残高が追加されます。自動再チャージの使用をお勧めします。これにより、利用可能残高の手動による追加を忘れないようにする必要がなくなります。利用可能残高が設定した金額を下回ると、自動的にチャージされます。自動再チャージを選択していないと、利用可能残高がゼロを下回ってしまうことがあります。その時点で、管理者やユーザーは無料通話や国際通話を発信できなくなります。
+Auto-recharge automatically tops off your balance when it falls below the trigger amount you set. We recommend using auto-recharge so you don't have to remember to add funds manually. When your balance hits the trigger amount, funds are added automatically. If you don't choose auto-recharge, you run the risk of your balance falling below zero. At that point, you and your users won't be able to make toll-free calls or international calls.
   
 支払いオプションはいつでも更新できます。 [ **サブスクリプション] ページで** [ **通信クレジット**] を選択し、更新を行います。
   
@@ -81,7 +82,7 @@ ms.locfileid: "67156645"
 
 また、Microsoft 365 管理センターにサインインし、[**課金** > サブスクリプションの **サブスクリプションの追加**] に移動して情報 **を** > 確認することもできます。
   
-各機能に必要なライセンスまたはライセンスを含むテーブルを表示するには、 [アドオン ライセンスMicrosoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)参照してください。
+各機能に必要なライセンスまたはライセンスを含むテーブルを表示するには、 [Microsoft Teams アドオン ライセンスに関するページを](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)参照してください。
   
 ## <a name="related-articles"></a>関連記事
 
