@@ -10,6 +10,7 @@ audience: admin
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 ms.reviewer: crowe
 search.appverid: MET150
 description: Teams Phone Mobile を構成する方法の詳細について説明します。
@@ -18,12 +19,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0ffdc63200289f6f77dccb5214e8b2e3c3b344f
-ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
+ms.openlocfilehash: 4f05eeb70808d39b721d1b33ba252c8257433c4a
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/14/2022
-ms.locfileid: "68576602"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584177"
 ---
 # <a name="configure-teams-phone-mobile"></a>Teams Phone Mobile の構成
 

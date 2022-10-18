@@ -16,13 +16,14 @@ ms.custom: ''
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 description: Teams ネットワーク ローミング ポリシーの設定を管理する方法について説明します。
-ms.openlocfilehash: c26cdec0fc41e40a9c3eac7d0324050740cf05ef
-ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
-ms.translationtype: HT
+ms.openlocfilehash: f8b1d78754c5f608aa76d9261b2164abc4de9194
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64853238"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68585065"
 ---
 # <a name="manage-video-and-media-settings-with-the-network-roaming-policy"></a>ネットワーク ローミング ポリシーを使用してビデオとメディアの設定を管理する
 
@@ -60,7 +61,7 @@ TeamsNetworkRoamingPolicy には、次のパラメーターが含まれていま
  Set-CsTenantNetworkSite -Identity Burlington -NetworkRoamingPolicy $null
  ```
 
-エンタープライズ音声が有効になっていないユーザーに対してネットワーク ローミング ポリシーを有効にするには、TeamsMeetingPolicy の AllowNetworkConfigurationSettingsLookup 設定も有効にする必要があります。この設定は、既定でオフになっています。
+To enable the network roaming policy for users who are not enterprise voice enabled, you must also enable the AllowNetworkConfigurationSettingsLookup setting in TeamsMeetingPolicy. This setting is off by default.
 
 ネットワーク サイトの作成の詳細については、「[クラウド音声機能のネットワーク設定](cloud-voice-network-settings.md)」を参照してください。 
 
