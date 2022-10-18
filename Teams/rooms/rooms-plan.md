@@ -15,13 +15,14 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 - Teams_ITAdmin_Rooms
+- highpri
 description: この記事では、次世代の Skype ミーティング システムである Microsoft Teams Rooms の展開に関連した計画時の考慮事項について説明します。
-ms.openlocfilehash: fe973e7e6f3f6d84a4ddf1721ccc8c73fb5da928
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 0e6e3d53928a1a28572a8ea0a038ea772c934e7b
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269752"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584448"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Microsoft Teams Rooms を計画する
 
@@ -34,6 +35,7 @@ ms.locfileid: "67269752"
 Microsoft Teams Rooms は、HD ビデオ、オーディオ、およびコンテンツ共有を、小さな会議室から大きな会議室まで、あらゆる規模の会議に提供する完全な会議環境を提供します。
 
 ![ユーザーがTeams Roomsコンソールをタップし、背景にディスプレイを表示します。](../media/room-systems-image1.jpg "ユーザーがTeams Roomsコンソールをタップし、背景にディスプレイを表示する")
+
 [Microsoft Teams Roomsヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)は、Microsoft Teams Roomsの詳細と、デプロイの一部として価値を追加する方法を確認するのに役立つ優れたリソースです。
 
 ## <a name="microsoft-teams-rooms-components"></a>Microsoft Teams Rooms のコンポーネント
@@ -49,7 +51,17 @@ Microsoft Teams Rooms には、優れたユーザー エクスペリエンスを
 
 これらのコンポーネントは、多数のベンダーからプリインストールされたバンドルとして購入できます。または、この記事に記載されている[要件](requirements.md)に従って、サポートされているコンポーネントを個別に購入できます。
 
-Microsoft Teams を使用してMicrosoft Teams Roomsを展開することも、オンプレミスの展開Skype for Businessすることもできます。  必要なライセンスの詳細については、「[Teams の会議室ライセンスの更新](rooms-licensing.md)」を参照してください。
+## <a name="teams-rooms-licensing"></a>Teams Rooms ライセンス
+
+Teams Rooms コンソール、Surface Hub、Teams パネルなどの各会議室デバイスには、Teams Rooms ライセンスが必要です。 Teams には、Teams Roomsの 2 つのライセンス (Microsoft Teams Rooms Pro と Microsoft Teams Rooms Basic) が用意されています。
+
+Microsoft Teams Rooms Proは、会議室デバイスが 25 台以上ある組織や、最も包括的な会議とデバイス管理エクスペリエンスを求める組織に最適です。 ハイブリッド Teams の会議は、最前列、コンテンツ カメラ、AI 搭載のノイズ抑制などの機能や、Microsoft Teams Rooms Proで利用できるその他の機能により、より没入感が高くなります。 Teams Rooms管理者は、条件付きアクセス ポリシーの構成から、デバイスの正常性と会議の品質に関する豊富なテレメトリの分析まで、Teams 管理センターから認定されたすべてのTeams Rooms デバイスを一元的に管理できます。
+
+Microsoft Teams Rooms Basic は、会議室デバイスが少数しかなく、基本的な会議と管理機能のみが必要な組織で使用できます。 Microsoft Teams Rooms Basic を使用すると、会議に参加したり、コンテンツやライブ ビデオを共有したり、直接ゲスト参加を使用して Zoom 会議や Webex 会議に参加したり、Teams 管理センターで基本的なデバイス インベントリと監視を実行したりできます。
+
+会議室デバイスを使用するには、そのデバイスにライセンスを割り当てる必要があります。 詳細については、「[Microsoft Teams Rooms ライセンス](rooms-licensing.md)」を参照してください。
+
+[!INCLUDE [mtr-user-licensing](../includes/mtr-user-licensing.md)]
 
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
@@ -142,7 +154,7 @@ _お客様の組織に適した Microsoft Teams Rooms の展開テンプレー�
 
 組織は継続的に監視、管理、管理タスクを実行する必要があり、展開の早い段階で誰がこれらのタスクを実行するかに同意することが重要です。
 
-多くの組織には、会議室やデバイスを管理する AV チームまたはパートナーがいます。 または、Microsoft Teams Rooms Premiumを活用してTeams Roomsを管理する Microsoft のサポートを受けることができます。 パフォーマンスを監視したり、ソフトウェアの更新プログラムや修正プログラムを展開したりするために、今後Microsoft Teams Roomsデバイスを管理するユーザーを決定します。
+多くの組織には、会議室やデバイスを管理する AV チームまたはパートナーがいます。 または、Microsoft Teams Rooms Proを活用してTeams Roomsを管理する Microsoft のサポートを受けることができます。 パフォーマンスを監視したり、ソフトウェアの更新プログラムや修正プログラムを展開したりするために、今後Microsoft Teams Roomsデバイスを管理するユーザーを決定します。
 
 Microsoft Teams Rooms関連の呼び出しをルーティングするヘルプデスク キューを検討し、ヘルプデスク チームに FAQ を提供して、Microsoft Teams Roomsの使用方法と実行できる主要なトラブルシューティング手順について理解を深めることができます。 この FAQ の良い開始点は、[ユーザー ヘルプ](https://support.microsoft.com/office/microsoft-teams-rooms-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)と[既知の問題](known-issues.md)です。
 
