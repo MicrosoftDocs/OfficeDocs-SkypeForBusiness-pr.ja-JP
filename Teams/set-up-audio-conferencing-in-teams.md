@@ -13,6 +13,7 @@ ms.collection:
 - M365-voice
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -23,18 +24,18 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '電話を使用して電話会議に参加する必要がある社内ユーザーのダイヤルイン会議または電話会議をセットアップする方法について説明します。 '
-ms.openlocfilehash: 04c29b6eaf13d12bee1395d913519c971c7a25d1
-ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
+ms.openlocfilehash: 5f9912b005061461aa2309fb0faa54b4455214ea
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/10/2022
-ms.locfileid: "67642128"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584158"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Microsoft Teams の電話会議を設定する
 
-組織のメンバーが電話で会議に参加することが必要になる場合があります。Microsoft Teams では、このようなシチュエーションで活用できる電話会議機能が提供されています。ユーザーは、モバイル デバイスや PC 上の Microsoft Teams アプリを使用することなく、電話を使用して Microsoft Teams の会議に参加できます。
+Sometimes people in your organization will need to use a phone to call in to a meeting. Microsoft Teams includes the audio conferencing feature for just this situation! People can call in to Teams meetings using a phone, instead of using the Teams app on a mobile device or PC.
   
-電話会議の設定は、会議のスケジュールを設定または会議を進行するユーザーに対してのみ必要です。ダイヤルインで参加するユーザーについては、ライセンスの割り当てや他の設定は必要ありません。
+You only need to set up Audio Conferencing for people who plan to schedule or lead meetings. Meeting attendees who dial in don't need any licenses assigned to them or other setup.
   
 電話会議についてよく寄せられる質問については、 [電話会議についてよくある質問](audio-conferencing-common-questions.md) を参照してください。
 
@@ -98,7 +99,7 @@ ms.locfileid: "67642128"
  **Microsoft Teams 管理センターの使用**:
 
 1. [ホーム] から **[会議]** > **[会議ブリッジ]** に移動します。
-2. **[ブリッジの設定]** を選択すると、**[ブリッジの設定]** ペインが開きます。
+2. Select **Bridge settings**. This will open the **Bridge settings** pane.
 
 詳細については、[電話会議ブリッジの設定を変更する](change-the-settings-for-an-audio-conferencing-bridge.md) を参照してください。
 
@@ -114,7 +115,7 @@ ms.locfileid: "67642128"
 
 ## <a name="step-8-set-up-meeting-invitations-optional"></a>手順 8: 会議の招集をセットアップする（オプション）
 
-出席者に送信される会議の出席依頼には、ユーザーに設定されているダイヤルイン番号が自動的に追加されますが、望むなら、独自のヘルプ、法的事項へのリンク、テキスト メッセージ、および小さな会社ロゴを追加できます。「[会議出席依頼のカスタマイズ](meeting-settings-in-teams.md#customize-meeting-invitations)」を参照してください。
+The dial-in numbers that are set for the user will be automatically added to the meeting invitations that are sent to meeting attendees. However, you can add your own help and legal links, a text message, and small company graphic if you want. See [Customize meeting invitations](meeting-settings-in-teams.md#customize-meeting-invitations).
 
 ## <a name="related-topics"></a>関連項目
 

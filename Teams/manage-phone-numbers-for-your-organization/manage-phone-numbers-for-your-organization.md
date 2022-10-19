@@ -11,6 +11,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Skype for Business
@@ -26,12 +27,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 組織の Microsoft Teams のユーザー (サブスクライバー) とサービス (有料および無料) の電話番号を取得および管理する方法について説明します。
-ms.openlocfilehash: a959b0647087c6668479eb28c22e6b1f97634d0f
-ms.sourcegitcommit: 72b6f7ab2a44dec395622bfe64119a48094960bd
+ms.openlocfilehash: 699631d4408ebdf1ce9a3851651704539317644d
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/08/2022
-ms.locfileid: "67283108"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68583858"
 ---
 # <a name="manage-phone-numbers-for-calling-plan"></a>通話プランの電話番号を管理する
 

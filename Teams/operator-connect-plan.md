@@ -10,6 +10,7 @@ audience: admin
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 ms.reviewer: crowe
 search.appverid: MET150
 f1.keywords:
@@ -21,12 +22,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e3d86bf4607b723f92958d34d9530764ab80daf
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: e5a153fee6504f5098659d85a16281ed23e8729d
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606446"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68583988"
 ---
 # <a name="plan-for-operator-connect"></a>オペレーター接続の計画
 
@@ -54,11 +55,9 @@ ms.locfileid: "67606446"
 
 - **デプロイを高速化し、簡単に行います。** オペレーターにすばやく接続し、ユーザーに電話番号を割り当てることができます。すべて Teams 管理センターからアクセスできます。
 
-- **サポートと信頼性の強化。** オペレーターは、サポート サービスを向上させるためにテクニカル サポートと共有サービス レベル アグリーメントを提供しますが、Azure を利用した直接ピアリングでは、信頼性を高めるために 1 対 1 のネットワーク接続が作成されます。
+- **サポートと信頼性の強化。** オペレーターは、サポート サービスを向上させるためにテクニカル サポートと共有サービス レベル アグリーメントを提供しますが、Azure を利用した直接ピアリングでは、信頼性を高めるために 1 対 1 のネットワーク接続が作成されます。 
 
 ## <a name="requirements"></a>要件
-
- 
 
 Operator Connect で電話番号の割り当てを有効にするには、ユーザーが次のユーザーであることを確認します。
 
@@ -66,3 +65,7 @@ Operator Connect で電話番号の割り当てを有効にするには、ユー
 - TeamsOnly モード。 ユーザーは TeamsOnly モードである必要がありますが、組織全体ではそうではありません。 詳細については、「[Microsoft Teams について理解し、共存と相互運用性をSkype for Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md)する」を参照してください。
 
 Microsoft Operator Connect Program に参加しているオペレーターとそのサービスが利用可能な国または地域の一覧については、 [Microsoft 365 Operator Connect ディレクトリ](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory)を参照してください。
+
+## <a name="support-boundaries"></a>サポート境界
+テクニカル サポートについては、まずオペレーター接続オペレーターのカスタマー サポートにお問い合わせください。 必要に応じて、オペレーター接続オペレーターは、共有サポート チャネルを通じてサポート ケースを Microsoft エンジニアリングに直接エスカレートできます。 
+

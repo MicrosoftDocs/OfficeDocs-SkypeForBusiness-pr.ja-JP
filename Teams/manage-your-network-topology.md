@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teamsでクラウド音声機能のネットワーク トポロジを管理する
+title: Microsoft Teams でクラウド音声機能のネットワーク トポロジを管理する
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -11,6 +11,7 @@ audience: Admin
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.networktopology.overview
@@ -18,27 +19,27 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Microsoft Teamsでクラウド音声機能のネットワーク設定を構成する方法について説明します。
-ms.openlocfilehash: f949016a06c9b9f5b2d0d87649a46396c8bb54d8
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+description: Microsoft Teams でクラウド音声機能のネットワーク設定を構成する方法について説明します。
+ms.openlocfilehash: a75ce05a29df84bb46cb430016e1a3453e96b64e
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60465777"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584248"
 ---
-# <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>Microsoft Teamsでクラウド音声機能のネットワーク トポロジを管理する
+# <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>Microsoft Teams でクラウド音声機能のネットワーク トポロジを管理する
 
-組織が直接ルーティングまたは[動的緊急通報](configure-dynamic-emergency-calling.md)[用に場所ベースのルーティング](location-based-routing-plan.md)を展開している場合は、Microsoft Teamsでこれらのクラウド音声機能で使用するネットワーク設定を構成する必要があります。 ネットワーク設定は、Teams クライアントの場所を決定するために使用され、ネットワークリージョン、ネットワーク サイト、サブネット、信頼された IP アドレスが含まれます。 デプロイするクラウド音声機能と機能に応じて、これらの設定の一部またはすべてを構成します。 これらの用語の詳細については、「 [クラウド音声機能のネットワーク設定](cloud-voice-network-settings.md)」を参照してください。
+組織が直接ルーティングまたは[動的緊急通報](configure-dynamic-emergency-calling.md)[用に場所ベースのルーティング](location-based-routing-plan.md)を展開している場合は、Microsoft Teams でこれらのクラウド音声機能で使用するネットワーク設定を構成する必要があります。 ネットワーク設定は、Teams クライアントの場所を決定するために使用され、ネットワークリージョン、ネットワーク サイト、サブネット、信頼された IP アドレスが含まれます。 デプロイするクラウド音声機能と機能に応じて、これらの設定の一部またはすべてを構成します。 これらの用語の詳細については、「 [クラウド音声機能のネットワーク設定](cloud-voice-network-settings.md)」を参照してください。
 
-ネットワーク設定は、Microsoft Teams管理センターの [**ネットワーク トポロジ**] ページで行うか、Windows PowerShellを使用して構成します。
+ネットワーク設定は、Microsoft Teams 管理センターの **[ネットワーク トポロジ**] ページで行うか、Windows PowerShellを使用して構成します。
 
-## <a name="configure-network-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams管理センターでネットワーク設定を構成する
+## <a name="configure-network-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでネットワーク設定を構成する
 
 ネットワーク 領域、ネットワーク サイト、サブネットは、[ネットワーク トポロジ] ページの [ **ネットワーク サイト** ] タブ **で** 定義します。 ここでは、ネットワーク サイトの作成または変更、サイトとネットワーク リージョンの関連付け、サイトへのサブネットの関連付け、場所ベースのルーティングの有効化、およびサイトへの緊急ポリシーの割り当てを行うことができます。 また、すべてのサイトでグローバルに使用できるネットワークリージョンを追加することもできます。
 
 #### <a name="add-and-configure-a-network-site"></a>ネットワーク サイトを追加して構成する
 
-1. Microsoft Teams管理センターの左側のナビゲーションで、**LocationsNetwork** >  **トポロジに** 移動し、[**ネットワーク サイト**] タブをクリックします。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、 **場所** > **ネットワーク トポロジに** 移動し、[ **ネットワーク サイト** ] タブをクリックします。
 2. [ **追加]** をクリックし、サイトの名前と説明を入力します。
 
     ![[ネットワーク サイトの追加] ページのスクリーンショット。](media/manage-network-topology-add-site.png)
@@ -47,7 +48,7 @@ ms.locfileid: "60465777"
 4. サイトのLocation-Basedルーティングを有効にするには、[ **場所ベースのルーティング]** をオンにします。
 5. サイトに緊急サービス ポリシーを割り当てるには、次のいずれかまたは両方を実行します。
 
-    - 組織で通話プラン、オペレーター接続、またはダイレクト ルーティングを使用している場合は、[**緊急通話ポリシー**] で目的のポリシーを選択します。
+    - 組織で通話プラン、オペレーター接続、またはダイレクト ルーティングを使用している場合は、[ **緊急通話ポリシー**] で目的のポリシーを選択します。
     - 組織がダイレクト ルーティングを展開した場合は、[ **緊急通話ルーティング ポリシー**] で、目的のポリシーを選択します。
 
 6. サブネットをサイトに関連付けるには、[ **サブネット]** の [サブネットの **追加**] をクリックします。 IP バージョン、IP アドレス、ネットワーク範囲を指定し、説明を追加して、[ **適用**] をクリックします。 各サブネットは、特定のサイトに関連付ける必要があります。
@@ -55,17 +56,17 @@ ms.locfileid: "60465777"
 
 #### <a name="modify-a-network-site"></a>ネットワーク サイトを変更する
 
-1. Microsoft Teams管理センターの左側のナビゲーションで、**LocationsNetwork** >  **トポロジに** 移動し、[**ネットワーク サイト**] タブをクリックします。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、 **場所** > **ネットワーク トポロジに** 移動し、[ **ネットワーク サイト** ] タブをクリックします。
 2. サイト名の左側をクリックしてサイトを選択し、[ **編集]** をクリックします。
 3. 必要な変更を加え、[保存] をクリック **します。**
 
 ### <a name="manage-external-trusted-ip-addresses"></a>外部信頼済み IP アドレスを管理する
 
-外部信頼済み IP アドレスは、Microsoft Teams管理センターの **[ネットワーク トポロジ**] ページの [**信頼された IP**] タブで管理します。 外部信頼済み IP アドレスの数に制限はありません。
+外部の信頼済み IP アドレスは、Microsoft Teams 管理センターの **[ネットワーク トポロジ**] ページの [**信頼された IP**] タブで管理します。 外部信頼済み IP アドレスの数に制限はありません。
 
 #### <a name="add-a-trusted-ip-address"></a>信頼できる IP アドレスを追加する
 
-1. Microsoft Teams管理センターの左側のナビゲーションで **、LocationsNetwork** >  **トポロジに** 移動し、[**信頼された IP**] タブをクリックします。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、 **場所** > **ネットワーク トポロジに** 移動し、[ **信頼された IP** ] タブをクリックします。
 2. [**新規**] をクリックします。
 3. [ **信頼できる IP アドレスの追加]** ウィンドウで、IP バージョン、IP アドレス、ネットワーク範囲を指定し、説明を追加して、[ **適用**] をクリックします。
 
@@ -73,13 +74,13 @@ ms.locfileid: "60465777"
 
 #### <a name="edit-a-trusted-ip-address"></a>信頼された IP アドレスを編集する
 
-1. Microsoft Teams管理センターの左側のナビゲーションで **、LocationsNetwork** >  **トポロジに** 移動し、[**信頼された IP**] タブをクリックします。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、 **場所** > **ネットワーク トポロジに** 移動し、[ **信頼された IP** ] タブをクリックします。
 2. 左側をクリックして IP アドレスを選択し、[ **編集]** をクリックします。
 3. [ **信頼された IP アドレスの編集]** ウィンドウで、必要な変更を行い、[ **適用**] をクリックします。
 
 ## <a name="configure-network-settings-using-powershell"></a>PowerShell を使用してネットワーク設定を構成する
 
-このセクションの手順を完了するには、PowerShell コマンドレットに関する知識が必要です。 詳細については、[PowerShell の概要Teams](teams-powershell-overview.md)参照してください。
+このセクションの手順を完了するには、PowerShell コマンドレットに関する知識が必要です。 詳細については、「 [Teams PowerShell の概要](teams-powershell-overview.md)」を参照してください。
 
 ### <a name="define-network-regions"></a>ネットワークリージョンを定義する
 
@@ -182,4 +183,4 @@ New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "
 
 ## <a name="related-topics"></a>関連項目
 
-- [Teamsのクラウド音声機能のネットワーク設定](cloud-voice-network-settings.md)
+- [Teams のクラウド音声機能のネットワーク設定](cloud-voice-network-settings.md)

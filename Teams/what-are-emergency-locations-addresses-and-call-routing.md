@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -25,12 +26,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: 緊急対応のアドレス、緊急通報のルーティング、動的な緊急通報に関する情報など、緊急通報について説明します。
-ms.openlocfilehash: 4cff6fee53d7799b8ef0ba721d0c50c8625017f5
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+ms.openlocfilehash: cb877c851158c5482fdd700d9164b5eb13ffd19f
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551821"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584648"
 ---
 # <a name="manage-emergency-calling"></a>緊急通報を管理する
 

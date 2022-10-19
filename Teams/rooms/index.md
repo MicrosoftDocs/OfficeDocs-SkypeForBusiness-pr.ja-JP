@@ -16,15 +16,16 @@ ms.collection:
 - m365initiative-meetings
 - M365-collaboration
 - Teams_ITAdmin_Rooms
+- highpri
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: 理想的な仮想会議室を作成するためのシステムの計画、展開、管理など、Microsoft Teams Roomsを設定する方法について説明します。
 ms.custom: seo-marvel-may2020; intro-overview
-ms.openlocfilehash: b424e3ac2a03db74566d8bbfc5e8dea1a40de792
-ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.openlocfilehash: 236a7fb8f6fd292082ba1a095b169c6ca812bf70
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "67808408"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584748"
 ---
 # <a name="microsoft-teams-rooms"></a>Microsoft Teams Rooms
 

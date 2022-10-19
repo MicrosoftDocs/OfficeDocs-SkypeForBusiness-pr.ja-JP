@@ -21,13 +21,14 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 description: 組織のユーザーがスケジュールする Teams 会議の設定を管理する方法を説明します。
-ms.openlocfilehash: c25405dd305a8556309559d4941dd731331e6d75
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: 3faff1779830539470ae3d04cc73e58da65a637c
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706504"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68583878"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams で会議の設定を管理する
 
@@ -36,7 +37,7 @@ ms.locfileid: "67706504"
 管理者は、開催者ごとのポリシー設定を通じて、特定のユーザーまたはユーザーのグループが匿名ユーザーを自分が開催する会議に参加させることができるかどうかを制御できるようになりました。 開催者ごとのポリシー設定と組織全体のポリシー設定は、両方とも匿名参加を制御し、より制限が厳しい設定が有効になります。
 
 > [!Important]
- > **-DisableAnonymousJoin** は、組織全体のポリシー設定です。これは将来的に非推奨となり、その後は開催者ごとのポリシーが匿名参加を制御する唯一の方法となります。
+ > **-DisableAnonymousJoin** is the organization-wide policy setting. It will be deprecated in the future, and then the per-organizer policy will be the only way to control anonymous join.
 
 ## <a name="allow-anonymous-users-to-join-meetings"></a>匿名ユーザーによる会議への参加を許可する
 
@@ -77,9 +78,9 @@ ms.locfileid: "67706504"
 匿名ユーザーが会議への参加を許可されている場合は、Teams クライアントまたは [Azure Communication Services](/azure/communication-services/)を使用して構築されたカスタム クライアントのいずれかを使用できます。 管理者は、[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) の **-BlockedAnonymousJoinClientTypes** パラメーターを使用して、選択したクライアントの種類をブロックできます。
 
 値は次のいずれかです。
-- Null (既定値)。すべての種類のクライアントが許可されます。
-- ACS。[Azure Communication Services](/azure/communication-services/) を使用して構築されたカスタム クライアントをブロックします。
-- Teams。Teams のクライアントをブロックします。
+- Null (default). All client types are allowed.
+- Acs. Blocks custom clients built using [Azure Communication Services](/azure/communication-services/).
+- Teams. Blocks the Teams client.
 
 ## <a name="allow-anonymous-users-to-interact-with-apps-in-meetings"></a>匿名ユーザーが会議でアプリを操作できるようにする
 
@@ -103,7 +104,7 @@ ms.locfileid: "67706504"
 
 ## <a name="customize-meeting-invitations"></a>会議への招待状をカスタマイズする
 
-組織のニーズに合わせて Teams 会議出席依頼をカスタマイズできます。組織のロゴを追加し、サポート Web サイトへのリンクや法的免責事項、テキストのみのフッターなど、役に立つ情報を含めることができます。
+You can customize Teams meeting invitations to meet your organization's needs. You can add your organization's logo and include helpful information, such as links to your support website and legal disclaimer, and a text-only footer.
 
 ### <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>会議の招待状用ロゴの作成ヒント  
 
@@ -111,7 +112,7 @@ ms.locfileid: "67706504"
 2. 画像を JPG または PNG 形式で保存します。
 3. パブリック Web サイトなど、招待状を受け取るすべてのユーザーがアクセス可能な場所に画像を保存します。
 
-    これで、会議出席依頼に追加できます。次の手順を参照してください。
+    Now you can add it to your meeting invitations. See the next steps.
 
 ### <a name="customize-your-meeting-invitations"></a>会議の招待状をカスタマイズする
 
@@ -162,9 +163,9 @@ ms.locfileid: "67706504"
         
         > [!NOTE]
         > 通常、DSCP タグはソースポート経由で実行されます。 UDP トラフィックは、既定では 3478 の送信先ポートを使用してトランスポート リレーにルーティングされます。 会社が送信先ポートでのタグ付けを必要とする場合は、サポートに連絡して、UDP ポート 3479 (Audio)、3480 (ビデオ)、3481 (共有) を使用したトランスポート リレーへの通信を有効にしてください。
-    - ポート範囲を指定するには、**[リアルタイム メディア トラフィックの種類ごとのポート範囲を選択する]** の横にある **[ポート範囲を指定]** を選択し、オーディオ、ビデオ、画面共有用の開始および終了ポートを入力します。QoS を実装するには、このオプションを選択する必要があります。 
+    - To specify port ranges, next to **Select a port range for each type of real-time media traffic**, select  **Specify port ranges**, and then enter the starting and ending ports for audio, video, and screen sharing. Selecting this option is required to implement QoS. 
         > [!Note]
-        > **リアルタイムのメディア トラフィックのサービス品質 (QoS) マーカー** がオンになっている場合は、ポート設定を管理する必要があります。これらは、自動的に管理されません。
+        > If **Quality of Service (QoS) markers for real-time media traffic** is on, then you have to manage your port settings. They aren't managed automatically.
         
         > [!IMPORTANT]
         > [**任意の利用可能なポートを自動的に使用する**] を選択すると、1024 と 65535 の間の利用可能なポートが使用されます。 このオプションは、QoS を実装しない場合にのみ使用します。
@@ -184,4 +185,4 @@ ms.locfileid: "67706504"
 
 \* 割り当てたポート範囲は重なり合うことができず、相互に隣接することになります。
 
-QoS をしばらくの期間使用すると、これらの 3 つのワークロードのそれぞれの需要に関する使用状況情報を入手できます。具体的なニーズに応じて、変更が必要な点を決められます。この作業を行う上で、[通話品質ダッシュボード](turning-on-and-using-call-quality-dashboard.md)が役に立ちます。
+After QoS has been in use for a while, you'll have usage information on the demand for each of these three workloads, and you can choose what changes to make based on your specific needs. [Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md) will be helpful with that.

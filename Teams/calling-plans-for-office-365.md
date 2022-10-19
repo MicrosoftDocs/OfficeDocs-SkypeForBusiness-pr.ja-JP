@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Skype for Business
@@ -27,12 +28,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Skype for Business の通話プラン (PSTN 通話プラン) のオプションと、組織のライセンスを取得する方法を確認します。
-ms.openlocfilehash: eb10b681b867461122fe6b5e89f6f0a519d60ae7
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 1cc4e1427b227c49fabb89a46e0ffe2af280271a
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396848"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584908"
 ---
 # <a name="calling-plans-for-microsoft-teams"></a>Microsoft Teams のプランを呼び出す
 
