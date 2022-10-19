@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Microsoft Teams で通話キューを設定する方法について説明します。 通話キューは、あいさつメッセージ、保留音楽、通話リダイレクト、その他の機能を提供します。
-ms.openlocfilehash: 7ddf3364420244e800827915c9232430ffc336c1
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: 0b1c5950ce419e3ae828afa13fa32b61117734bf
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046857"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576463"
 ---
 # <a name="create-a-call-queue"></a>呼び出しキューを作成する
 
@@ -365,7 +365,7 @@ Teams チャネルを介して最大 200 のエージェントを追加できま
 |`Serial`                         |Y                         |Y         |Y               |Y    |Y         |Y<sup>4</sup>         |Y<sup>4</sup>             |   |
 |**エージェント ルーティング オプション**        |                          |          |                |     |          |                      |                          |   |
 |`Presence Based Routing`<sup>3</sup>|Y                      |Y         |Y               |N    |Y         |Y                     |Y                         |*既定値* |
-|`Agents can Opt-out`               |Y                       |Y         |Y               |Y<sup>7</sup>|Y<sup>7</sup>|Y          |Y                         |*既定値*     |
+|`Agents can Opt-out`<sup>10</sup> |Y                       |Y         |Y               |Y<sup>7</sup>|Y<sup>7</sup>|Y          |Y                         |*既定値*     |
 |**転送モード**               |                          |          |                |     |          |                      |                          |   |
 |`Conference Mode`<sup>5</sup>    |Y                         |Y         |Y               |N    |Y<sup>6</sup>|Y                  |Y                         |*既定値* |
 |`Transfer Mode`                  |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |   |
@@ -390,10 +390,11 @@ Teams チャネルを介して最大 200 のエージェントを追加できま
 5. 場所ベースのルーティングが有効になっているダイレクト ルーティング ゲートウェイから通話がキューにルーティングされている場合、会議モードはサポートされません。
 6. Microsoft Teams 電話のみ。
 7. [ユーザー設定ポータル] ページの [ [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
-- GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
-- 国防 総省： [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
 8. パブリック チャネルのみがサポートされます。
 9. 自動応答と通話キューでは、PSTN 接続方法間で通話を転送できません。
+10. GCCH/DOD の場合は、次のユーザー設定ポータルでのみ使用できます。
+- GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
+- 国防 総省： [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
 
 ### <a name="supported-clients"></a>サポートされるクライアント
 

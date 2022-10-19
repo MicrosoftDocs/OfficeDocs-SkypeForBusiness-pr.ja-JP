@@ -10,6 +10,7 @@ ms.collection:
 - M365-voice
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 ms.reviewer: nakulm
 search.appverid: MET150
 ms.localizationpriority: high
@@ -19,12 +20,12 @@ description: Teams にクラウド音声機能を展開して、音声、ビデ�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1360847f187d98118d0b5468638cf1d6eb215fb8
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: b82e73e2e5bb470df4511027d13b2df5f1f715f8
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706864"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584888"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議のレコーディング
 
@@ -238,8 +239,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 | 会議の種類  | レコードをクリックしたのは誰ですか?| 記録はどこにありますか? | 誰にアクセス権が与えられるか? R/W、R、または共有  |
 |-------------|-----------------------|------------------------|------------------------|
-|社内関係者との １ 対 １ の通話             |発信者                 |発信者の OneDrive アカウント                        |発信者は所有者であり、完全なアクセス権限を持っています。 <br /><br />(同じテナント内の) 受信者には、読み取り専用アクセス権が与えられます。アクセス許可を共有させることはできません。 <br /><br /> (別のテナントの場合) 受信者にはアクセス権がありません。 発信者は受信者にそれを共有する必要があります。|
-|社内関係者との １ 対 １ の通話             |受信者                 |受信者の OneDrive アカウント                        |受信者は所有者であり、完全なアクセス権限を持っています。 <br /><br />発信者 (同じテナントの場合) は読み取り専用アクセス許可を与えられます。アクセス許可を共有させることはできません。 <br /><br />(別のテナントの場合) 発信者はアクセス権を持っていません。 発信者に共有する必要があります。|
+|社内関係者との １ 対 １ の通話             |発信者                 |発信者の OneDrive アカウント                        |発信者は所有者であり、完全なアクセス権限を持っています。 <br /><br />(同じテナント内の) 受信者には読み取り専用アクセス権が与えられます。 共有アクセスはありません。 <br /><br /> (別のテナントの場合) 受信者にはアクセス権がありません。 発信者は受信者にそれを共有する必要があります。|
+|社内関係者との １ 対 １ の通話             |受信者                 |受信者の OneDrive アカウント                        |受信者は所有者であり、完全なアクセス権限を持っています。 <br /><br />発信者 (同じテナントの場合は読み取り専用アクセス権がある場合)。 共有アクセスはありません。 <br /><br />(別のテナントの場合) 発信者はアクセス権を持っていません。 発信者に共有する必要があります。|
 |外部通話を使用した １ 対 １ の通話             |発信者                 |発信者の OneDrive アカウント                        |発信者は所有者であり、完全なアクセス権限を持っています。<br /> <br />受信者にはアクセス権がありません。 発信者は受信者にそれを共有する必要があります。|
 |外部通話を使用した １ 対 １ の通話             |受信者                 |受信者の OneDrive アカウント                        |受信者は所有者であり、完全なアクセス権限を持っています。<br /><br />発信者にはアクセス権がありません。 受信者は発信者に共有する必要があります。|
 |グループ通話                                 |通話のいずれかのメンバー |レコードの OneDrive アカウントをクリックしたグループ メンバー  |レコードをクリックしたメンバーは完全な権限を持っています。 <br /><br /> 同じテナントの他のメンバーには読み取り権限があります。 <br /><br /> 別テナントに所属するグループ メンバーには、何も権限がありません。|
@@ -283,7 +284,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 Teams 会議の録音のクローズド キャプションは、ユーザーが記録時に書き起こしをオンにしている場合にのみ、再生中に利用できます。 管理者は、[ポリシーを介して文字起こしの記録をオン](#turn-on-or-turn-off-recording-transcription)にして、ユーザーが文字起こしを使用して会議を記録できるようにする必要があります。
 
-キャプションは、様々な言語的対応力の視聴者を全て包含するコンテンツを制作することを支援してくれます。所有者として、会議のレコーディングにおいてキャプションを隠すこともできます、けれども会議の文字起こしは、削除しない限り Teams で引き続き利用可能となります。
+Captions help create inclusive content for viewers of all abilities. As an owner, you can hide captions on the meeting recording, although the meeting transcript will still be available on Teams unless you delete it there.
 
 今日においては、レコーディング ビデオ ファイルのクローズド キャプションは、Teams 会議の文字起こしにリンクされています。 このリンクは、ほとんどの場合、ファイルの有効期間にわたって残りますが、ビデオ ファイルが同じ OneDrive または SharePoint サイト内にコピーされた場合に、リンクが壊れる可能性があります。これにより、コピーされたビデオ ファイルでキャプションが使用できなくなります。
 

@@ -15,14 +15,15 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1c6dbcbe57694273d1e74a4d1a60a3df8cc8ace4
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: 4a86b84749a32110e8f8287b2cc874631fc14fdf
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706704"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584408"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>OneDrive for Business と SharePoint または Stream を使用して会議の記録を行う
 
@@ -37,7 +38,7 @@ ms.locfileid: "67706704"
 |2021 年 3 月 1 日からロールアウト開始<br> *(完了)* 　&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC High および DoDのみ**<br> お客様は Microsoft Teams で初めてクラウド会議の記録を有効にできるようになりました。 これらの録画は既定で OneDrive および SharePoint に保存され、再生されます。 |
 |2021 年 8 月 16 日から段階的に展開します <br> *Complete* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**すべてのお客様 (エンタープライズ、教育、GCC)**<br>Microsoft Stream (クラシック) には、新しい会議の記録を保存できません。ユーザーがをチームの会議ポリシーを Stream に変更した場合でも、すべての顧客の会議記録は、OneDrive for Business と SharePoint に自動的に保存されます。<br><br> 組織の変化をより効果的に管理するために、変更が可能になるまで待つよりも、変更するのが都合が良いタイミングでオプト インすることをお薦めします。 |
 
-Microsoft Teams には、会議の記録を保存するための新しい方法があります。従来の Microsoft Stream から[新しい Stream](/stream/streamnew/new-stream) への移行の最初のフェーズとして、このメソッドは Microsoft 365 の Microsoft OneDrive for Business と SharePoint に記録を保存し、多くの利点を提供します。
+Microsoft Teams has a new method for saving meeting recordings. As the first phase of a transition from classic Microsoft Stream to the [new Stream](/stream/streamnew/new-stream), this method stores recordings on Microsoft OneDrive for Business and SharePoint in Microsoft 365 and offers many benefits.
 
 > [!NOTE]
 > Teams 会議の記録が OneDrive/SharePoint に正常にアップロードされない場合、"記録が予期せず終了しました" というエラー メッセージが表示され、代わりに記録が一時的に Azure Media Services (AMS) に保存されます。 AMS に保存すると、記録を OneDrive/SharePoint または Stream に自動的にアップロードするための再試行は行われなくなります。
@@ -68,7 +69,7 @@ AMS に保存されている会議の記録は、自動的に削除される前�
 [会議の記録] オプションは、チーム ポリシー レベルの設定です。 次の例では、グローバル ポリシーの設定方法を示しています。 ユーザーに割り当てたポリシーに対して、[会議の記録] オプションが設定されていることを確認します。
 
 > [!NOTE]
-> Teams の会議ポリシー変更の反映にはしばらく時間がかかります。設定してから数時間後に再び確認し、サインアウトしてから、Teams デスクトップ アプリにもう一度サインインするか、コンピューターを再起動します。
+> Teams meeting policy changes take a while to propagate. Check back after a few hours of setting it, then sign out and sign in to the Teams Desktop app again or simply restart your computer.
 
 1. Teams PowerShell をインストールします。
 
@@ -96,7 +97,7 @@ AMS に保存されている会議の記録は、自動的に削除される前�
    ```
 
 > [!NOTE]
-> 開催者単位またはユーザー単位のポリシーが割り当てられているユーザーがおりOneDrive for Business と SharePoint でこれらのユーザーが会議の記録を保存できるようにするには、、このポリシーでこの設定を設定する必要があります。詳細については、「[Teams での会議ポリシーを管理する](meeting-policies-overview.md)」を参照してください。
+> If some of your users have assigned a per-organizer or per-user policy, you must set this setting on this policy if you want them to also store the meeting recordings in OneDrive for Business and SharePoint. For more information, see [Manage meeting policies in Teams](meeting-policies-overview.md).
 
 ## <a name="permissions-or-role-based-access"></a>アクセス許可とロール ベースのアクセス
 
@@ -105,8 +106,8 @@ AMS に保存されている会議の記録は、自動的に削除される前�
 
 |会議の種類                               | レコードをクリックしたのは誰ですか?| 記録はどこにありますか?                               |誰にアクセス権が与えられるか? R/W、R、または共有                                                                                                                                                                                                                                                     |
 |-------------------------------------------|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|社内関係者との １ 対 １ の通話             |発信者                 |発信者の OneDrive for Business アカウントです。                        |発信者は所有者であり、完全なアクセス権限を持っています。 <br /><br />(同じテナント内の) 受信者には、読み取り専用アクセス権が与えられます。アクセス許可を共有させることはできません。 <br /><br /> (別のテナントの場合) 受信者にはアクセス権がありません。 発信者は受信者にそれを共有する必要があります。|
-|社内関係者との １ 対 １ の通話             |受信者                 |受信者の OneDrive for Business アカウントです。                        |受信者は所有者であり、完全なアクセス権限を持っています。 <br /><br />発信者 (同じテナントの場合) は読み取り専用アクセス許可を与えられます。アクセス許可を共有させることはできません。 <br /><br />(別のテナントの場合) 発信者はアクセス権を持っていません。 発信者に共有する必要があります。|
+|社内関係者との １ 対 １ の通話             |発信者                 |発信者の OneDrive for Business アカウントです。                        |発信者は所有者であり、完全なアクセス権限を持っています。 <br /><br />(同じテナント内の) 受信者には読み取り専用アクセス権が与えられます。 共有アクセスはありません。 <br /><br /> (別のテナントの場合) 受信者にはアクセス権がありません。 発信者は受信者にそれを共有する必要があります。|
+|社内関係者との １ 対 １ の通話             |受信者                 |受信者の OneDrive for Business アカウントです。                        |受信者は所有者であり、完全なアクセス権限を持っています。 <br /><br />発信者 (同じテナントの場合は読み取り専用アクセス権がある場合)。 共有アクセスはありません。 <br /><br />(別のテナントの場合) 発信者はアクセス権を持っていません。 発信者に共有する必要があります。|
 |外部通話を使用した １ 対 １ の通話             |発信者                 |発信者の OneDrive for Business アカウントです。                        |発信者は所有者であり、完全なアクセス権限を持っています。<br /> <br />受信者にはアクセス権がありません。 発信者は受信者にそれを共有する必要があります。|
 |外部通話を使用した １ 対 １ の通話             |受信者                 |受信者の OneDrive for Business アカウントです。                        |受信者は所有者であり、完全なアクセス権限を持っています。<br /><br />発信者にはアクセス権がありません。 受信者は発信者に共有する必要があります。|
 |グループ通話                                 |通話のいずれかのメンバー |レコードの OneDrive for Business アカウントをクリックしたグループ メンバー  |レコードをクリックしたメンバーは完全な権限を持っています。 <br /><br /> 同じテナントの他のグループ メンバーには読み取り権限があります。 <br /><br /> 別のテナントの他のグループ メンバーには、何の権限もありません。|
@@ -120,11 +121,11 @@ AMS に保存されている会議の記録は、自動的に削除される前�
 
 **会議の記録はどこに保存されますか?**
 
-- チャネル以外の会議の場合、記録は「**レコーディング**」という名前のフォルダーに格納されています。会議の記録を開始したユーザーに属している OneDrive for Business の最上位のレベルにこのフォルダーがあります。例:
+- For non-Channel meetings, the recording is stored in a folder named **Recordings** that's at the top level of the OneDrive for Business that belongs to the person who started the meeting recording. Example:
 
   *レコーダーの OneDrive for Business*/**レコーディング**
 
-- チャネル会議については、記録は「**レコーディング**」という名前のフォルダーにある Teams サイトのドキュメント ライブラリに格納されます。例:
+- For Channel meetings, the recording is stored in the Teams site documentation library in a folder named **Recordings**. Example:
 
   *Teams 名 - チャネル名*/**ドキュメント**/**記録**
 
@@ -149,7 +150,7 @@ AMS に保存されている会議の記録は、自動的に削除される前�
 
 Teams 会議の録音のクローズド キャプションは、ユーザーが記録時に書き起こしをオンにしている場合にのみ、再生中に利用できます。 管理者は、[文字起こしの記録をオンにして](meetings-policies-recording-and-transcription.md#transcription)、ユーザーが文字起こしを使用して会議を記録できるようにする必要があります。
 
-キャプションは、様々な言語的対応力の視聴者を全て包含するコンテンツを制作することを支援してくれます。所有者として、会議のレコーディングにおいてキャプションを隠すこともできます、けれども会議の文字起こしは、削除しない限り Teams で引き続き利用可能となります。
+Captions help create inclusive content for viewers of all abilities. As an owner, you can hide captions on the meeting recording, although the meeting transcript will still be available on Teams unless you delete it there.
 
 Teams 会議記録のクローズド キャプションは、会議が記録された時点からの 60 日間サポートされています。
 

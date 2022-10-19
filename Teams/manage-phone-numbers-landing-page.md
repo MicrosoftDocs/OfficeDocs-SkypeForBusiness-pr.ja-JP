@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Skype for Business
@@ -27,12 +28,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 組織の Microsoft Teams のユーザー (サブスクライバー) とサービス (有料および無料) の電話番号を取得および管理する方法について説明します。
-ms.openlocfilehash: 053d886a97591a6685582f0db0ca194eaa312896
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+ms.openlocfilehash: 52069029e7dca69f5df9520ad1491464bf6b9aa9
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551891"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584233"
 ---
 # <a name="manage-telephone-numbers-for-your-organization"></a>組織の電話番号を管理する
 
@@ -121,7 +122,7 @@ Microsoft 365 では、オンプレミスの Active Directory内の一部のユ�
 
 ### <a name="change-where-direct-routing-phone-numbers-are-managed"></a>ダイレクト ルーティングの電話番号を管理する場所を変更する
 
-ダイレクト ルーティング電話番号を管理する場所を変更するには、ユーザーの msRTCSIP-Line 属性から電話番号を削除するか、オンプレミスの Active Directoryのアカウントを resouce にする必要があります。   
+ダイレクト ルーティング電話番号を管理する場所を変更するには、オンプレミスの Active Directoryのユーザーまたはリソース アカウントの msRTCSIP-Line 属性から電話番号を削除する必要があります。   
 
 詳細については、「[Active Directory 内のすべてのオンプレミス ユーザーのSkype for Business属性をクリアする」を](/skypeforbusiness/hybrid/cloud-consolidation-managing-attributes#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory.md)参照してください。 電話番号は、Microsoft 365 のユーザーまたはリソース アカウントに再割り当てる必要があることに注意してください。
 

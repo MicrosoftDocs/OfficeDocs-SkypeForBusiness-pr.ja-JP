@@ -23,16 +23,16 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: 86a63a47a47d438225046174104f79914f051c71
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
-ms.translationtype: HT
+ms.openlocfilehash: 04863f6dd914b935b68120fd5c2df6105770c634
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66615643"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576453"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams のチャット、チーム、チャネル、およびアプリ
 
-Teams は、すぐに使用できる優れたコラボレーション エクスペリエンスを組織に提供します。ほとんどの組織は、既定の設定がよく機能することに気づいています。この記事は、組織のプロファイルとビジネス要件に基づいて、既定の設定のいずれかを変更するかどうかを決定する方法について、その後、各変更について説明します。設定を 2 つのグループに分割しました。まず、[変更を加える可能性が高い](#core-deployment-decisions)コアセットから始めます。2 番目のグループには、組織のニーズに基づいて構成する可能性のある[追加の設定](#additional-deployment-decisions)が含まれています。
+Teams provides a great out-of-the-box collaboration experience for your organization, and most organizations find that the default settings work for them. This article helps you decide whether to change any of the default settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups, starting with the core set of [changes you're more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, based on your organization's needs.
 
 開始するには、短い Teams チャット、チーム、およびチャネルのビデオをご覧ください (4:30 分):
 
@@ -40,17 +40,17 @@ Teams は、すぐに使用できる優れたコラボレーション エクス�
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
 
-これで、[Teams アドバイザー](use-advisor-teams-roll-out.md)を使用して、Microsoft Teams の展開に役立てることができます。Teams アドバイザーが、チームのロールアウトについて説明します。Microsoft 365 環境を評価し、チームを正常に展開する前に更新または変更する必要がある可能性のある最も一般的な構成を特定します。
+You can use [Advisor for Teams](use-advisor-teams-roll-out.md) to help you roll out Microsoft Teams. Advisor for Teams walks you through your Teams rollout. It assesses your Microsoft 365 environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams.
 
 > [!TIP]
-> 最初の Teams ロールアウトには、Planner などのおすすめのアプリを含めることをお勧めします。 Teams 導入の進行に応じて、その他の[アプリ、ボット、およびコネクタ](deploy-apps-microsoft-teams-landing-page.md)を追加してください。
+> Teams の初期展開時に、おすすめのアプリ (Planner など) を含めることをお勧めします。 [Teams の](deploy-apps-microsoft-teams-landing-page.md)導入を推進するときに、他の Teams アプリを追加します。
 
  > [!Note]
  > 別のプラットフォームでの Teams の機能についての詳細は、 [プラットフォームごとの Teams の機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)を参照してください。
 
 ## <a name="chat-deployment-prerequisites"></a>チャットの展開に関する前提条件
 
-組織全体に Teams をロールアウトする前に、時間をかけてお使いの環境で Teams を使用する準備ができていることを確認してください。[組織のネットワークを Teams のために準備して](prepare-network.md)、環境に必要な変更を加えます。
+Before you roll out Teams across your organization, take time to confirm that your environment is ready for Teams. Review [Prepare your organization's network for Teams](prepare-network.md) and make any required changes to your environment.
 
 |確認事項|アクション |
 |------------|-------|
@@ -62,7 +62,7 @@ Teams は、すぐに使用できる優れたコラボレーション エクス�
 
 ### <a name="teams-administrators"></a>Teams の管理者
 
-Teams は、組織のチームを管理するために使用できる、カスタムの管理者ロールのセットを提供します。ロールは、管理者がさまざまな機能を使用できるようにします。
+Teams provides a set of custom administrator roles that can be used to manage Teams for your organization. The roles provide various capabilities to administrators.
 
 | 確認事項 | アクション |
 |--------------|--------|
@@ -72,7 +72,7 @@ Teams は、組織のチームを管理するために使用できる、カス�
 
 ### <a name="teams-owners-and-members"></a>Teams の所有者とメンバー
 
-管理者の役割に加えて、Teams には所有者とメンバーのユーザーの役割を割り当てる機能があります。また、それらのユーザーに選択的にモデレーターの役割を与えて (モデレートを設定している場合)、チャネル内で特定の操作を実行できるユーザーを制御できます。モデレート機能を使用すると、チャネルで新しい投稿を開始できるユーザーを制御したり、チーム メンバーをモデレーターとして追加、削除したり、既存のチャネル メッセージに返信可能かどうかを制御したりできます。
+In addition to administrator roles, Teams lets you assign owner and member user roles, and selectively give them moderator capabilities (if moderation has been set up) to control who can perform certain actions within a channel. Moderation allows you to control who can start new posts in a channel, add and remove team members as moderators, and control whether team members can reply to existing channel messages.
 
 |確認事項|アクション |
 |------------|-------|
@@ -82,7 +82,7 @@ Teams は、組織のチームを管理するために使用できる、カス�
 
 ### <a name="messaging-policies"></a>メッセージング ポリシー
 
-既定のグローバル ポリシーを使用することも、組織内のユーザーに応じた 1 つ以上のポリシーを作成することもできます。たとえば、どのユーザーが送信メッセージの編集および削除が可能か、どのユーザーがチャットを使用できるか、どのユーザーが会話でミームを使用できるかなどです。既定では、ユーザーにグローバル メッセージング ポリシーが割り当てられていて、すべての機能が **オン** になっています。デフォルトのグローバル ポリシーを使用することも、組織内のユーザー向けに1つ以上のカスタム メッセージング ポリシーを作成することもできます。 
+Messaging policies control which chat and channel messaging features are available to users in Teams. For example, who can edit and delete sent messages, who can use chat, who can use memes in conversations, and more. By default, users are assigned the global messaging policy and all features are **On**. You can use the default global policy or create one or more custom messaging policies for people in your organization. 
 
 |確認事項|アクション |
 |------------|-------|
@@ -92,7 +92,7 @@ Teams は、組織のチームを管理するために使用できる、カス�
 
 ### <a name="external-access"></a>外部アクセス
 
-外部アクセス (フェデレーション) を使用すると、ユーザーはチャットを介して組織外のユーザーと通信できます。これをオンにし、許可リストにドメインを追加することにより、ユーザーは他のドメインや組織のユーザーと通信できます。外部アクセスは既定でオンになっています。
+External access (federation) lets your users communicate with people outside of your organization via chat. By turning this on and adding domains to the allowed list, your users can communicate with users in other domains and organizations. External access is turned on by default.
 
 |確認事項|アクション |
 |------------|-------|
@@ -100,7 +100,7 @@ Teams は、組織のチームを管理するために使用できる、カス�
 
 ### <a name="guest-access"></a>ゲスト アクセス
 
-Teams のゲスト アクセスを使用すると、組織の外部にいる個人がチームおよびチャネルにアクセスできるようになります。ゲスト アクセスの設定を使用すると、ゲストがある機能を使用できるかどうかを制御できます。ゲスト アクセスは、既定でオンになっています。詳細については、「[Teams でのゲスト アクセス](./guest-access.md)」を参照してください。
+Guest access in Teams lets individuals outside your organization access teams and channels. You can use the guest access settings to control which features guests can or can't use. Guest access is turned on by default. To learn more, see [Guest access in Teams](./guest-access.md).
 
 > [!NOTE]
 > 外部アクセスとゲスト アクセスの詳細ついては、[「Microsoft Teams の別の組織のユーザーと通信する」](communicate-with-users-from-other-organizations.md) を参照してください。
@@ -130,7 +130,7 @@ Teams のゲスト アクセスを使用すると、組織の外部にいる個�
 
 ### <a name="teams-settings"></a>Teams の設定
 
-Teams の設定を使用すると、チームに対する電子メール統合、クラウド ストレージのオプション、組織タブ、会議室デバイスのセットアップ、検索範囲などの機能を設定できます。このような設定を変更すると、その変更は組織内のすべてのチームに適用されます。詳細については、「[Teams の設定](enable-features-office-365.md#teams-settings)」を参照してください。
+Teams settings let you set up your teams for features such as email integration, cloud storage options, organization tab, meeting room device setup, and search scope. When you make changes to these settings, they apply to all the teams in your organization. To learn more, see [Teams settings](enable-features-office-365.md#teams-settings).
 
 |確認事項|アクション |
 |------------|-------|
@@ -138,7 +138,7 @@ Teams の設定を使用すると、チームに対する電子メール統合�
 
 ### <a name="teams-clients"></a>Teams のクライアント
 
-Teams は、Web からデスクトップ、モバイルまで複数のクライアントをサポートしています。ユーザーは既定の構成で好みのクライアントを選択できます。詳細については、「[Teams のクライアントを取得する](get-clients.md)」を参照してください。
+Teams supports a number of clients from web to desktop to mobile, and the default configuration lets users choose whichever clients they want. To learn more, see [Get clients for Teams](get-clients.md).
 
 |確認事項|アクション |
 |------------|-------|
@@ -147,7 +147,7 @@ Teams は、Web からデスクトップ、モバイルまで複数のクライ�
 
 ### <a name="teams-usage-reporting"></a>Teams の使用状況レポート
 
-全体管理者、Teams のサービス管理者、およびレポート閲覧者の役割は、Teams の使用状況レポートを表示できます。詳細については、「[Microsoft 365 利用状況分析](/microsoft-365/admin/usage-analytics/usage-analytics)」をご覧ください。
+The Global Admin, Teams Service Admin, and Reports Readers roles can view Teams usage reports. To learn more, see the [Microsoft 365 usage analytics](/microsoft-365/admin/usage-analytics/usage-analytics).
 
 |確認事項|アクション |
 |------------|-------|
@@ -155,9 +155,9 @@ Teams は、Web からデスクトップ、モバイルまで複数のクライ�
 
 ### <a name="teams-default-apps"></a>Teams の既定のアプリ 
 
-Teams には、複数のファースト パーティ (Microsoft 提供) のアプリとサード パーティ製アプリがあり、ユーザー参加の促進、生産性のサポート、および一般に使用されるビジネス サービスの Teams への統合のために使用できます。Teams Store からアプリを入手してください。Teams ではアプリが既定でオンになっています。 
+Teams provides a number of first-party (Microsoft provided) and third-party apps to engage users, support productivity, and integrate commonly used business services into Teams. Get apps from the Teams Store. Apps are turned on by default in Teams. 
 
-Teams のアプリを展開および管理する方法の詳細については、[アプリ、ボット、およびコネクタ](deploy-apps-microsoft-teams-landing-page.md)のガイダンスを参照してください。
+Teams でのアプリのロールアウトと管理の詳細については、アプリ [管理](deploy-apps-microsoft-teams-landing-page.md) に関する詳細なガイダンスを参照してください。
 
 ## <a name="additional-deployment-decisions"></a>その他の展開に関する決定事項
 
@@ -173,7 +173,7 @@ Teams は多くの Microsoft 365 ライセンスの一部として提供され�
 
 ### <a name="exchange-and-sharepoint-interoperability"></a>Exchange と SharePoint の相互運用性
 
-Teams のすべての機能を活用するために、すべてのユーザーは Exchange、SharePoint、および Microsoft 365 グループの作成が可能になっている必要があります。次の記事では、さまざまな環境でホストされている Exchange メールボックス、Exchange と Teams の相互作用のしくみ、および SharePoint と OneDrive に関する同様の考慮事項について概要を示します。
+For the full Teams experience, every user should be enabled for Exchange, SharePoint, and Microsoft 365 group creation. The following articles outline information related to Exchange mailboxes hosted in various environments, how Exchange and Teams interact, and similar considerations for SharePoint and OneDrive.
 
 |確認事項|アクション |
 |------------|-------|
@@ -189,7 +189,7 @@ Teams のエンタープライズ展開を計画している場合は、1 つの
 
 ### <a name="urls-and-ports"></a>URL とポート
 
-インターネット トラフィックの詳細な制御を維持している組織は、Teams の適切な構成が必要になる URL、IP アドレス、ポート、およびプロトコルに関する最新のリストについて、「[URL と IP アドレス範囲](/office365/enterprise/urls-and-ip-address-ranges)」を確認してください。Microsoft は、必要なポート、URL、IP アドレスが時間の経過とともに変更する可能性があることを踏まえて、継続して Microsoft 365 サービスを改善し、新機能を追加します。この情報が更新または変更されたときに通知を受け取れるように、RSS で購読することをお勧めします。少なくとも、「[チャットの展開に関する前提条件](#chat-deployment-prerequisites)」で、上記のポートを開いていることを確認してください。
+Organizations that maintain fine-grained control of their internet traffic should read [URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges) for an up-to-date list of the URLs, IP addresses, ports, and protocols that must be correctly configured for Teams. Microsoft is continuously improving the Microsoft 365 services and adding new functionality, which means the required ports, URLs, and IP addresses may change over time. We recommend that you subscribe via RSS to receive notifications when this information is updated or changed. At a minimum, make sure you've opened the ports listed above in [Chat deployment prerequisites](#chat-deployment-prerequisites).
 
 |確認事項|アクション |
 |------------|-------|
@@ -197,7 +197,7 @@ Teams のエンタープライズ展開を計画している場合は、1 つの
 
 ### <a name="governance-naming-conventions-who-can-create-teams"></a>ガバナンス (命名規則、チームの作成が可能なユーザー)
 
-組織はチームの命名方法と分類方法、チームの作成が許可されるユーザー、チームの有効期限、保持、およびアーカイブに関する制御を実施するように要求することがあります。これは、ガバナンスと呼ばれます。Azure Active Directory (Azure AD) を使用して、こうした分野のそれぞれを構成できます。
+Your organization might require that you implement controls on how teams are named and classified, who can create teams, and team expiration, retention, and archiving. This is called governance. You can use Azure Active Directory (Azure AD) to configure each of these areas.
 
 
 | 確認事項 | アクション |
@@ -207,7 +207,7 @@ Teams のエンタープライズ展開を計画している場合は、1 つの
 
 ### <a name="teams-application-policy-side-rail-control"></a>Teams のアプリケーション ポリシー (サイドレール制御)
 
-固定アプリは Teams のサイドレールに表示されます。Teams のアプリケーション ポリシーを作成すると、選択したユーザー グループ用にカスタマイズした固定の Teams アプリのセットを事前に構成できます。既定では、**[Microsoft Teams で外部ありを利用できるようになります]** 設定がオンになっています。
+A pinned app shows up in the side rail in Teams. By creating Teams application policies, you can preconfigure sets of pinned Teams apps to personalize Teams for select groups of users. By default, the **Allow external apps in Microsoft Teams** setting is turned on.
 
 | 確認事項 | アクション |
 |--------------|--------|
@@ -216,7 +216,7 @@ Teams のエンタープライズ展開を計画している場合は、1 つの
 
 ### <a name="archiving-and-compliance"></a>アーカイブとコンプライアンス 
 
-組織によっては、チームのアーカイブ方法と、特定の種類のチームに保持されるデータの種類を制御する必要があります。既定でオンになっている Teams 設定の詳細については、「[Teams のセキュリティとコンプライアンスの概要](security-compliance-overview.md)」を参照してください。
+Your organization might require that you implement controls on how teams are archived and the types of data that are held in certain types of teams. Read [Overview of security and compliance in Teams](security-compliance-overview.md) to learn which Teams settings are turned on by default.
 
 | 確認事項 | アクション |
 |--------------|--------|
@@ -226,7 +226,7 @@ Teams のエンタープライズ展開を計画している場合は、1 つの
 
 ### <a name="conditional-access"></a>条件付きアクセス 
 
-Teams は、主要な生産性シナリオ (会議、予定表、相互運用チャット、ファイル共有など) に関して Exchange と SharePoint に大きく依存しています。これらのクラウド アプリ向けに設定された条件付きアクセス ポリシーは、ユーザーが任意のクライアントで Teams に直接サインインするときに Teams に適用されます。Teams のクラウド アプリ向けに設定された条件付きアクセス ポリシーでは、ユーザーが特定のネットワークから Teams のサービスにアクセスできるかどうかなどの側面を制御します。
+Teams relies heavily on Exchange and SharePoint for core productivity scenarios, including meetings, calendars, interop chats, and file sharing. Conditional access policies that are set for these cloud apps apply to Teams when a user signs in directly to Teams, on any client. Conditional access policies that are set for the Teams cloud app control aspects such as whether users can access Teams services from certain networks.
 
 | 確認事項 | アクション |
 |--------------|--------|
@@ -252,6 +252,6 @@ Office 365 for Government (GCC: Government Community Cloud) の使用は、米�
 
 ## <a name="next-steps"></a>次のステップ
 - チャット、チーム、チャネル、およびアプリの[導入を推進する](adopt-microsoft-teams-landing-page.md)。
-- 最初の Teams ロールアウトには、Planner などのおすすめのアプリを含めます。 Teams 導入の進行に応じて、その他の[アプリ、ボット、およびコネクタ](deploy-apps-microsoft-teams-landing-page.md)を追加してください。
+- お勧めのアプリ (Planner など) を Teams の初期ロールアウトに組み込む。 [Teams の](deploy-apps-microsoft-teams-landing-page.md)導入を推進するときに、他の Teams アプリを追加します。
 - [ミーティングと会議を展開する](deploy-meetings-microsoft-teams-landing-page.md)
 - [クラウド ボイスを展開する](cloud-voice-landing-page.md)
