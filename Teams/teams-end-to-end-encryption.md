@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e11a0d89c7c49e27dd4237e67a67be93db2bcb6
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: 3e0d47107771add6e091afeeddc35d47110d7938
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046747"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614640"
 ---
 # <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls"></a>1 対 1 の Microsoft Teams 通話にエンドツーエンドの暗号化を使用する
 
@@ -86,9 +86,9 @@ E2EE 通話中は、次の高度な機能を使用できません。
 
 3. 既定のポリシーを選択するか **[追加]** を選択して新しいポリシーを追加し、新しいポリシーに名前を付けます。
 
-4. ユーザーに対してエンド ツー エンドの暗号化を有効にするには、**[エンド ツー エンドの呼び出しの暗号化]**、**[ユーザーが有効にできる]** を選択し、**[保存]** を選択します。
+4. ユーザーに対してエンド ツー エンドの暗号化を有効にするには、 **エンド ツー エンドの呼び出しの暗号化で** [ **無効] を選択しますが、ユーザーは有効にし**、[ **保存]** を選択します。
 
-   エンドツーエンドの暗号化を無効にするには、**［無効］** を選択します。
+   エンドツーエンドの暗号化を無効にするには、[ **無効]** を選択します。
 
 ポリシーの設定が完了したら、他の Teams ポリシーを管理するのと同じ方法で、ユーザー、グループ、またはテナント全体にポリシーを割り当てます。 Teams でポリシーを使用する方法については、「[ポリシーを使用して Teams を管理する](manage-teams-with-policies.md)」を参照してください。
 

@@ -17,13 +17,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: high
 search.appverid: MET150
-description: Microsoft Teams 管理センターの組織のアプリ ストアにカスタム アプリをアップロードする方法について説明します。
-ms.openlocfilehash: 51ea4bdc31ff59a34bdf28a991617fff0f4e7381
-ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
+description: 組織の Teams アプリ ストアにカスタム アプリをアップロードする方法について説明します。
+ms.openlocfilehash: 0b48061ab005e64d6fb6385fabb48f3b49ff87f0
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/07/2022
-ms.locfileid: "68494610"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614590"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>アプリ パッケージをアップロードしてカスタム アプリを発行する
 
@@ -40,11 +40,11 @@ Microsoft Teams 開発者プラットフォームでは、開発者が簡単に�
 
 ## <a name="validate"></a>検証
 
-### <a name="get-the-app-package"></a>アプリ パッケージを取得する
+### <a name="receive-the-app-package"></a>アプリ パッケージを受け取る
 
-アプリを運用環境で使用する準備ができたら、開発者はアプリ パッケージを作成する必要があります。 [App Studio](/microsoftteams/platform/concepts/build-and-test/app-studio-overview) を使用できます。 ファイルは .zip 形式で送信されます。
+アプリを運用環境で使用する準備ができたら、開発者 [は開発者ポータル](/microsoftteams/platform/concepts/build-and-test/manage-your-apps-in-developer-portal)を使用してアプリ パッケージを生成します。 開発者は、アプリ パッケージを.zip形式で共有します。
 
-Teams ストア内のすべてのアプリは、グローバル Teams アプリ ストアの品質とセキュリティ基準に準拠するために必須の[アプリ検証](overview-of-app-validation.md)に合格します。 さらに、Microsoft は、アプリ開発者がコンプライアンス、セキュリティ、およびプライバシー制御の強化を示すオプションの[アプリ コンプライアンス プログラム](overview-of-app-certification.md)に参加することを強くお勧めします。 詳細については、「[Teams アプリの検証ガイドライン](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines)」を参照してください。
+Teams ストア内のすべてのアプリは、Teams アプリ ストアのアプリ品質とセキュリティ標準に準拠するために必須のアプリ [検証](overview-of-app-validation.md) に合格します。 さらに、Microsoft は、アプリ開発者がコンプライアンス、セキュリティ、およびプライバシー制御の強化を示すオプションの[アプリ コンプライアンス プログラム](overview-of-app-certification.md)に参加することを強くお勧めします。 詳細については、「[Teams アプリの検証ガイドライン](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines)」を参照してください。
 
 ### <a name="allow-trusted-users-to-upload-custom-apps"></a>信頼されたユーザーがカスタム アプリをアップロードできるようにする
 
@@ -119,7 +119,7 @@ Microsoft Teams 管理センターの [アプリを管理] ページでアプリ
 
 ### <a name="end-user-update-experience"></a>エンド ユーザー更新エクスペリエンス
 
-ほとんどの場合、アプリの更新が完了すると、エンド ユーザーに対して新しいバージョンが自動的に表示されます。 詳細については、「[エンド ユーザーの更新エクスペリエンス](apps-update-experience.md)」を参照してください。
+ほとんどの場合、アプリの新しいバージョンを発行すると、エンド ユーザーに対して自動的に更新されます。 詳細については、 [エンド ユーザー アプリの更新エクスペリエンス](apps-update-experience.md)に関する記事を参照してください。
 
 ## <a name="remove-a-custom-app-from-your-organizations-store"></a>組織のストアからカスタム アプリを削除する
 

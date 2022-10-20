@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f53dd50f78afa2d85c4858e2d98170b3dc044f55
-ms.sourcegitcommit: 44d9f15f7f7c00b3651a11ff1e8b37dda1716a52
+ms.openlocfilehash: 33175aecc41dbc631fe8ab16db225762969b5ad6
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "67732316"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614039"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams のクライアントを取得する
 
@@ -46,7 +46,7 @@ Teams デスクトップ クライアントは、スタンドアロン アプリ
 - Linux (`.deb` および `.rpm` 形式)
 - Chrome OS (詳細については、「[Chromebook で Microsoft Office を使用する方法](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad)」を参照してください)
 
-デスクトップ クライアントは、適切なローカルのアクセス許可を持っているエンド ユーザーによって、[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) から直接ダウンロードおよびインストールできます (管理者権限は、Teams クライアントを Windows PC にインストールする場合には必要ありませんが、Mac では必要になります)。
+Desktop clients can be downloaded and installed by end users directly from [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) if they have the appropriate local permissions. Admin permissions aren't required to install the Teams client on Windows PCs but are required on Macs.
 
 IT プロフェッショナルは、組織内のコンピューターにインストール ファイルを配布する方法を選択できます。 Microsoft Endpoint Configuration Manager (Windows) や Jamf Pro (macOS) などを選択できます。 Teams の配布の詳細については、以下を参照してください。
 
@@ -63,9 +63,9 @@ IT プロフェッショナルは、組織内のコンピューターにイン�
 
 Teams on Windows は、[32 ビット](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)、[64 ビット](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)、および [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) アーキテクチャでダウンロード可能な MSI インストーラーを提供します。 Teams の x86 アーキテクチャ (32 ビットと 64 ビット) はインストールされている Windows および Office のアーキテクチャに依存しません。 64 ビット システムでは、64 ビット版の Teams のご使用をお勧めします。
 
-Teams を使用するには .NET Framework 4.5 以降が必要です。.NET Framework 4.5 以降がインストールされていない場合、Teams のインストーラーでインストールすることになります。
+Teams には、.NET Framework 4.5 以降が必要です。 .NET Framework 以降がインストールされていない場合、Teams インストーラーがインストールを提案します。
 
-Windows クライアントは、ユーザーのプロファイルにある AppData フォルダーに展開されます。ユーザーのローカル プロファイルに展開すると、クライアントは管理者特権を必要とせずにインストール可能になります。Windows クライアントは次の場所を利用してインストールされます。
+The Windows client is deployed to the AppData folder located in the user’s profile. Deploying to the user’s local profile allows the client to be installed without requiring elevated permissions. The Windows client leverages the following locations:
 
 - %LocalAppData%\\Microsoft\\Teams
 
@@ -75,12 +75,14 @@ Windows クライアントは、ユーザーのプロファイルにある AppDa
 
 - %LocalAppData%\\SquirrelTemp
 
-ユーザーが Teams クライアントを使用して初めて通話を開始すると、ユーザーに通信の許可を求める Windows ファイアウォール設定に関する警告が通知される場合があります。警告を受け入れなくても通話は機能するため、このメッセージを無視するように指示される場合があります。
+When users initiate a call using the Teams client for the first time, they might notice a warning with the Windows firewall settings that asks for users to allow communication. Users might be instructed to ignore this message because the call will work, even when the warning is dismissed.
 
 ![[Windows セキュリティの重要な警告] ダイアログのスクリーンショット。](media/Get_clients_for_Microsoft_Teams_image3.png)
 
 > [!NOTE]
-> Windows ファイアウォール設定は、[キャンセル] の選択によりプロンプトが受け入れられなかった場合でも変更されます。TCP および UDP プロトコルの両方に関する許可アクションで、teams.exe に関する2 つの着信ルールが作成されます。
+> Windows ファイアウォールの構成が変更されます。 TCP プロトコルと UDP プロトコルの両方のteams.exeに対する 2 つの受信規則が作成されます。 
+> - ユーザーがローカル管理者であり、[アクセスを許可する] をクリックした場合にのみアクションを許可します。
+> - ユーザーがローカル管理者でない場合はアクションをブロックし、いずれの場合も、"キャンセル" を選択してプロンプトが閉じられたときにアクションをブロックします。
 
 ユーザーが Teams から最初の呼び出しを行うときに、Teams がユーザーにファイアウォール ルールの作成を要求しないようにする場合は、[サンプル スクリプト - Microsoft Teams ファイアウォール PowerShell スクリプト](client-firewall-script.md)の PowerShell スクリプトを使用します。
 
@@ -179,7 +181,7 @@ sudo zypper install teams
 
 ## <a name="mobile-clients"></a>モバイル クライアント
 
-Teams のモバイル アプリは Android および iOSで利用でき、チャットベースの会話に参加している外出中のユーザーを対象としており、ピアツーピアの音声通話が使用できます。モバイル アプリについては、Google Play と Apple App Store にアクセスしてください。
+The Teams mobile apps are available for Android and iOS, and are geared for on-the-go users participating in chat-based conversations and allow peer-to-peer audio calls. For mobile apps, go to the relevant mobile stores Google Play and the Apple App Store.
 
 Teams モバイル アプリをサポートしているモバイル プラットフォームは次のとおりです。
 
@@ -208,4 +210,4 @@ Teams モバイル アプリをサポートしているモバイル プラット
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
-ブラウザー クライアントは、[https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) への接続時にブラウザー バージョンの検出を実行します。サポートされていないブラウザー バージョンを検出した場合、ブラウザー インターフェイスへのアクセスをブロックし、ユーザーによるデスクトップ クライアントまたはモバイル アプリのダウンロードを推奨します。
+The browser client performs browser version detection upon connecting to [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753). If an unsupported browser version is detected, it will block access to the browser interface and recommend that the user download the desktop client or mobile app.

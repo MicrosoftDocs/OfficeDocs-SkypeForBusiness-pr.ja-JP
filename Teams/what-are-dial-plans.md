@@ -11,6 +11,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,13 +22,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
-description: 'Teamsで使用できるダイヤル通話プラン (PSTN 通話ダイヤル プラン) の種類と、組織に対してダイヤル通話プランを選択する方法について説明します。  '
-ms.openlocfilehash: 405a8902c9c367c09f7f467cb00358d75112de1f
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 'Teams で使用できるダイヤル通話プラン (PSTN 通話ダイヤル プラン) の種類と、組織に対してダイヤル通話プランを選択する方法について説明します。  '
+ms.openlocfilehash: 77ee7801d43bd6a7cf9ae9a9e3fc74c302f8caa0
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727376"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614250"
 ---
 # <a name="what-are-dial-plans"></a>ダイヤル プランについて
 
@@ -39,15 +40,15 @@ ms.locfileid: "58727376"
 
 ## <a name="tenant-dial-plan-scope"></a>テナント ダイヤル プランのスコープ
 
-ダイヤル プランのスコープによって、ダイヤル プランを適用できる階層レベルが決まります。 クライアントは、ユーザーがTeamsにサインインするときに自動的に提供されるプロビジョニング設定を使用して、適切なダイヤル プランを取得します。 管理者は、Microsoft Teams管理センターまたはリモート PowerShell を使用して、ダイヤル プランのスコープ レベルを管理および割り当てることができます。
+ダイヤル プランのスコープによって、ダイヤル プランを適用できる階層レベルが決まります。 クライアントは、ユーザーが Teams にサインインするときに自動的に提供されるプロビジョニング設定を使用して、適切なダイヤル プランを取得します。 管理者は、Microsoft Teams 管理センターまたはリモート PowerShell を使用して、ダイヤル プランのスコープ レベルを管理および割り当てることができます。
 
-Teamsには、サービス スコープとテナント スコープ (組織向け) の 2 種類のダイヤル プランがあります。 サービス スコープのダイヤル プランは、電話システムが利用可能なすべての国または地域に対して定義されます。 各ユーザーには、ユーザーに割り当てられた使用場所と一致するサービス国ダイヤル プランが自動的に割り当てられます。 サービス国ダイヤル プランは変更できませんが、テナント スコープダイヤル プランを作成して、サービス国ダイヤル プランを拡張できます。 クライアントがプロビジョニングされると、"有効なダイヤル プラン" が取得されます。これは、サービスの国のダイヤル プランと適切な範囲のテナント ダイヤル プランを組み合わせたものです。 したがって、テナント ダイヤル プラン内のすべての正規化ルールを定義する必要はありません。これは、サービスの国のダイヤル プランに既に存在する可能性があるためです。
+Teams には、サービス スコープとテナント スコープ (組織向け) の 2 種類のダイヤル プランがあります。 サービス スコープのダイヤル プランは、電話システムが利用可能なすべての国または地域に対して定義されます。 各ユーザーには、ユーザーに割り当てられた使用場所と一致するサービス国ダイヤル プランが自動的に割り当てられます。 サービス国ダイヤル プランは変更できませんが、テナント スコープダイヤル プランを作成して、サービス国ダイヤル プランを拡張できます。 クライアントがプロビジョニングされると、"有効なダイヤル プラン" が取得されます。これは、サービスの国のダイヤル プランと適切な範囲のテナント ダイヤル プランを組み合わせたものです。 したがって、テナント ダイヤル プラン内のすべての正規化ルールを定義する必要はありません。これは、サービスの国のダイヤル プランに既に存在する可能性があるためです。
 
 テナント ダイヤル プランは、さらに 2 つのスコープ (テナント スコープまたはユーザー スコープ) に分割できます。 テナントがユーザー スコープのダイヤル プランを定義して割り当てる場合、そのユーザーは、ユーザーのサービス国ダイヤル プランと割り当てられたユーザー ダイヤル プランの有効なダイヤル プランを使用してプロビジョニングされます。 テナントがテナント スコープのダイヤル プランを定義しているが、ユーザー スコープのダイヤル プランを割り当てない場合、そのユーザーは、ユーザーのサービス国ダイヤル プランとテナント ダイヤル プランの有効なダイヤル プランを使用してプロビジョニングされます。
 
-Teamsのダイヤル プランの継承モデルを次に示します。
+Teams のダイヤル プランの継承モデルを次に示します。
 
-![Teamsでダイヤル プランを継承する方法。](media/b2744f33-ebbd-4c23-bfba-1747312ab178.png)
+![Teams でダイヤル プランを継承する方法。](media/b2744f33-ebbd-4c23-bfba-1747312ab178.png)
 
 次に、考えられる有効なダイヤル プランを示します。
 
@@ -60,19 +61,19 @@ Teamsのダイヤル プランの継承モデルを次に示します。
 テナントのダイヤル プランを作成する場合は「[ダイヤル プランを作成および管理する](create-and-manage-dial-plans.md)」をご覧ください。
 
 > [!NOTE]
-> ダイヤルされた番号にダイヤル プラン正規化ルールが適用されないシナリオでは、ダイヤルされた文字列は正規化され、"+CC" が付加されます。CC はダイヤルユーザーの使用場所の国コードです。 これは、通話プラン、ダイレクト ルーティング、PSTN 会議ダイヤルアウトのシナリオに適用されます。 さらに、テナント ダイヤル プランの正規化ルールの結果として "+" で始まらない番号が発生した場合、呼び出し元サービスは、テナント ダイヤル プランに基づいてTeams クライアントから受信した番号を正規化しようとします。一致しない場合は、リージョン ダイヤル プランで正規化されます。 二重正規化を回避するには、ダイレクト ルーティングのお客様が数値を正規化して + を含め、トランク変換ルールを使用して + を削除することをお勧めします。 
+> ダイヤルされた番号にダイヤル プラン正規化ルールが適用されないシナリオでは、ダイヤルされた文字列は正規化され、"+CC" が付加されます。CC はダイヤルユーザーの使用場所の国コードです。 これは、通話プラン、ダイレクト ルーティング、PSTN 会議ダイヤルアウトのシナリオに適用されます。 さらに、テナント ダイヤル プランの正規化ルールの結果として "+" で始まらない番号が発生した場合、呼び出し元サービスは、テナント ダイヤル プランに基づいて Teams クライアントから受信した番号を正規化しようとします。一致しない場合はリージョン ダイヤル プランで正規化されます。 二重正規化を回避するには、ダイレクト ルーティングのお客様が数値を正規化して + を含め、トランク変換ルールを使用して + を削除することをお勧めします。 
 
 ## <a name="planning-for-tenant-dial-plans"></a>テナント ダイヤル プランの計画
 
 カスタム ダイヤル プランを計画するには、次の手順を実行します。
 
-- **手順 1** ユーザーのダイヤル エクスペリエンスを高めるためにカスタム ダイヤル プランが必要かどうかを決定します。通常は、内線または省略された国内ダイヤルなど、E.164 以外のダイヤルに対応する場合に必要となります。
+- **Step 1** Decide whether a custom dial plan is needed to enhance the user dialing experience. Typically, the need for one would be to support non-E.164 dialing, such as extensions or abbreviated national dialing.
 
-- **手順 2** テナント グローバルまたはテナント ユーザー スコープのダイヤル プランのどちらが必要か、または両方とも必要であるかを決定します。ユーザーに複数のローカル ダイヤル要件がある場合は、ユーザー スコープのダイヤル プランが必要となります。
+- **Step 2** Determine whether tenant global or tenant user scoped dial plans are needed, or both. User scoped dial plans are needed if users have different local dialing requirements.
 
-- **手順 3** 各必須ダイヤル プランに対応する有効な番号バターンを特定します。サービス レベル国のダイヤル プランで定義されていない番号パターンのみが必要となります。
+- **Step 3** Identify valid number patterns for each required dial plan. Only the number patterns that are not defined in the service level country dial plans are required.
 
-- **手順 4** ダイヤル プランの名前付けについて組織全体のスキームを策定します。標準的な名前付けスキームを採用することにより、組織全体にわたり一貫した方針を実現でき、メンテナンスや更新作業が簡素化されます。
+- **Step 4** Develop an organization-wide scheme for naming dial plans. Adopting a standard naming scheme assures consistency across an organization and makes maintenance and updates easier.
 
 
 ## <a name="creating-your-new-dial-plan"></a>新しいダイヤル プランの作成
@@ -100,7 +101,7 @@ Teamsのダイヤル プランの継承モデルを次に示します。
 ## <a name="normalization-rules"></a>正規化ルール
 <a name="bknormalizationrule"> </a>
 
-正規化ルールによって、さまざまな形式で表される電話番号をどのように変換するかが定義されます。ダイヤル元のロケールに応じて、同じ番号文字列が異なる方法で解釈および変換される場合があります。正規化ルールは、ユーザーが省略された内線または外線番号をダイヤルできるようにする必要がある場合に、必須となることがあります。
+Normalization rules define how phone numbers expressed in various formats are to be translated. The same number string may be interpreted and translated differently, depending on the locale from which it is dialed. Normalization rules may be necessary if users need to be able to dial abbreviated internal or external numbers.
 
 1 つ以上の正規化ルールをダイヤル プランに割り当てる必要があります。 正規化ルールは上から下の順に照合されるため、テナント ダイヤル プランにおける順序が重要になります。 たとえば、テナント ダイヤル プランに 10 個の正規化ルールがある場合、ダイヤルされた番号の一致ロジックは 1 番目のルールから試行され、一致がみられない場合は 2 番目、というように順次実行されます。 一致がみられた場合、そのルールが使用され、定義済みのそれ以外のルールとの照合は実行されません。 特定のテナント ダイヤル プランには、最大 50 個の正規化ルールを使用できます。
 
@@ -123,7 +124,7 @@ Teamsのダイヤル プランの継承モデルを次に示します。
 
 ### <a name="sample-normalization-rules"></a>正規化ルールのサンプル
 
-次の表に, .NET Framework の正規表現として記述される正規化ルールのサンプルを示します。これらのサンプルは例示するためのもので、独自の正規化ルールを作成する際の規定リファレンスとして提示するものではありません。
+The following table shows sample normalization rules that are written as .NET Framework regular expressions. The samples are examples only and are not meant to be a prescriptive reference for creating your own normalization rules.
 
 <a name="regularexpression"> </a>
  **.NET Framework正規表現を使用した正規化ルール**

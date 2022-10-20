@@ -12,6 +12,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 appliesto:
 - Microsoft Teams
 f1.keywords:
@@ -23,13 +24,13 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
-description: Teams で会議ポリシーの設定を管理する方法について説明します。また、会議ポリシーの設定を使用して、ユーザーがスケジュールした会議の参加者に対して利用できる機能を制御します。
-ms.openlocfilehash: 1b5b173253ee457a6d966f9310987168d62a5299
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+description: Learn to manage meeting policy settings in Teams. Use policy settings to control the features available to meeting participants for meetings scheduled by users.
+ms.openlocfilehash: 374c51a1356ebdc7940185f64a98a334ce7bb66d
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418496"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68613999"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams での会議ポリシーを管理する
 
@@ -222,7 +223,7 @@ IP オーディオ用モードは、ユーザーごとのポリシーです。 �
 
 |値を設定する |動作  |
 |---------|---------|
-|**送信オーディオと受信オーディオが有効**    |会議では、音声の送信と受信が許可されます。これは既定の設定です。 |
+|**送信オーディオと受信オーディオが有効**    |会議での送信および受信オーディオは、許可されます。 これは、既定の設定です。 |
 |**無効**     |会議の送信オーディオと受信オーディオはオフになっています。     |
 
 ユーザーに対して **無効** に設定されている場合でも、そのユーザーは会議のスケジュールと開催ができますが、オーディオを使用することはできません。 ユーザーが会議に参加するには、公衆交換電話網 (PSTN) 経由でダイヤルインするか、会議が通話を行って電話でユーザーに参加します。 (匿名の参加者などの) ポリシーが割り当てられていない会議の参加者は、規定でこの設定が **送受信オーディオが有効** に設定されています。 Teams のモバイル クライアントでは、この設定を無効にすると、ユーザーは PSTN 経由で会議にダイヤル インする必要があります。
@@ -283,7 +284,7 @@ Daniela がビデオを有効にして Amanda に電話した場合でも、Aman
 
 #### <a name="which-ip-video-policy-setting-takes-precedence"></a>優先される IP ビデオ ポリシーの設定
 
-ユーザーの場合、ビデオの設定が最も制限の厳しいポリシーが優先されます。次に例を示します。
+ユーザーの場合、ビデオの設定が最も制限の厳しいポリシーが優先されます。 次に例を示します。
 
 |IP ビデオを許可する|IP ビデオ用モード|会議エクスペリエンス|
 |---------|---------|---------|
@@ -331,7 +332,7 @@ CEO 役員会議や Teams のライブ イベントなど、最高品質のビ�
 ### <a name="screen-sharing-mode"></a>画面共有モード
 
 > [!NOTE]
-> この機能はまだ開発中です。画面共有は、参加者単位のポリシーですが、このセクションで説明されているように、開催者の画面共有設定の影響を受ける場合があります。
+> This feature is still in development. Screen sharing is a per-participant policy, however, it can be affected by the organizer's screen sharing settings, as described in this section.
 
 この設定は、ユーザーの会議でデスクトップやウィンドウの共有を許可するかどうかを制御します。 ポリシーが割り当てられていない会議参加者 (外部参加者など) は、会議の開催者のポリシーを継承します。
 
@@ -452,7 +453,7 @@ Daniela は Amanda の会議でメモを取ることができ、Amanda はすべ
 これは、リーダーなしの会議を許可する開催者単位のポリシーです。 この設定は、組織から認証されたユーザーが参加していない場合でも、匿名ユーザーが会議に参加できるかどうかを制御します。 既定では、この設定はオフになっています。つまり、匿名ユーザーは、組織の認証済みのユーザーが会議に参加するまでロビーで待機します。
 
 > [!NOTE]
-> この設定がオフになっており、匿名ユーザーが最初に会議に参加し、ロビーに配置されている場合、組織のユーザーが Teams クライアントで会議に参加し、ユーザーをロビーから会議室への入室を認める必要があります。ダイヤル インのユーザーに使用できるロビー コントロールはありません。
+> If this setting is turned off and an anonymous user joins the meeting first and is placed in the lobby, an organization user must join the meeting with a Teams client to admit the user from the lobby. There are no lobby controls available for dialed in users.
 
 ### <a name="automatically-admit-people"></a>ユーザーの参加を自動的に許可する
 
@@ -463,15 +464,15 @@ Daniela は Amanda の会議でメモを取ることができ、Amanda はすべ
  会議の開催者は、会議出席依頼の [**会議オプション**] を選択して、スケジュールする会議ごとにこの設定を変更できます。
 
 > [!NOTE]
-> [会議] のオプションの設定には、"ロビーをバイパスできるユーザー" のラベルが表示されます。ユーザーの既定の設定を変更すると、そのユーザーによって開催されたすべての新しい会議に適用され、ユーザーが会議のオプションを変更していない以前の会議にも適用されます。
+> In the meeting options the setting is labeled "Who can bypass the lobby". If you change the default setting for any user, it will apply to all new meetings organized by that user and any prior meetings where the user didn't modify Meeting options.
   
 |値を設定する  |参加動作 |
 |---------|---------|
 |**すべてのユーザー**   |すべての会議参加者は、ロビーで待たずに会議に直接参加します。 これには、認証されたユーザー、外部アクセス ユーザー、ゲスト、匿名ユーザーが含まれます。     |
-|**自分の組織、信頼できる組織、およびゲストのユーザー**     |ゲスト ユーザーや信頼された組織のユーザーなど、組織内の認証ユーザーは、ロビーで待たずに会議に直接参加します。匿名ユーザーは、ロビーで待機します。   |
-|**自分とゲストの組織のユーザー**    |ゲスト ユーザーを含む組織内の認証ユーザーは、ロビーで待たずに会議に直接参加します。信頼された組織および匿名ユーザーのユーザーが、ロビーで待機します。これは、既定の設定です。           |
+|**自分の組織、信頼できる組織、およびゲストのユーザー**     |Authenticated users within the organization, including guest users and the users from trusted organizations, join the meeting directly without waiting in the lobby. Anonymous users wait in the lobby.   |
+|**自分とゲストの組織のユーザー**    |Authenticated users from within the organization, including guest users, join the meeting directly without waiting in the lobby. Users from trusted organizations and anonymous users wait in the lobby. This is the default setting.           |
 |**開催者のみ**    |会議の開催者のみが、ロビーで待たずに会議に直接参加します。 組織内の認証されたユーザー、ゲストユーザー、信頼された組織からのユーザーと匿名ユーザーを含むそれ以外のすべてのユーザーは、ロビーで待機する必要があります。           |
-|**自分の組織のユーザー**  |ゲスト ユーザーを除く組織内の認証ユーザーは、ロビーで待たずに会議に直接参加します。信頼された組織および匿名ユーザーのゲストとユーザーが、ロビーで待機します。|
+|**自分の組織のユーザー**  |Authenticated users from within the organization, excluding guest users, join the meeting directly without waiting in the lobby. Guests and users from trusted organizations and anonymous users wait in the lobby.|
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>ダイヤルイン ユーザーによるロビーのバイパスを許可する
 
@@ -499,7 +500,7 @@ Daniela は Amanda の会議でメモを取ることができ、Amanda はすべ
 
 ### <a name="allow-chat-in-meetings"></a>会議でチャットを許可する
 
-これは参加者ごとの設定です。この設定は、ユーザーの会議で会議チャットを許可するかどうかを制御します。
+これは参加者単位の設定です。 この設定は、ユーザーの会議で会議チャットを許可するかどうかを制御します。
 
 <a name="bkparticipantsandguests"> </a>
 
@@ -543,14 +544,14 @@ Teams の **誰がプレゼンをするか?** 設定の既定値を指定する�
 
 ユーザーが使用できる会議アドインを指定するには、次のように **PreferredMeetingProviderForIslandsMode** パラメーターを指定します。
 
-- Outlook で Teams 会議アドインと Skype for Business アドインの両方を有効にするには、このパラメーターを **TeamsAndSfB** に設定します。これが既定値です。
+- Set the parameter to **TeamsAndSfB** to enable both the Teams Meeting add-in and Skype for Business add-in in Outlook. This is the default value.
 - パラメーターを **Teams** に設定すると、Outlook の Teams 会議アドインのみが有効になります。 このポリシー設定では、今後のすべての会議にTeams の会議への参加リンクがあることが確実になります。 既存の Skype for Business 会議の参加リンクはTeams には移行されません。 このポリシー設定は、ユーザーが Skype for Business への参加、チャット、PSTN 通話、その他の機能を使用することに影響を与えません。ユーザーが Skype for Business の機能を引き続き使用できることを意味します。
 
 パラメーターを **Teams** に設定し、**の TeamsAndSfB** に戻すと、両方の会議アドインが有効になります。 既存の Teams 会議の参加リンクは、Skype for Business に移行 **されません**。 変更の後にスケジュールされた Skype for Business の会議のみが、Skype for Business の会議参加リンクを持つようになります。
 
 ## <a name="meeting-policy-settings---video-filters-mode"></a>会議ポリシーの設定-ビデオ フィルター モード
 
-これは、ユーザーごとのポリシーです。この設定では、ユーザーが会議のビデオの背景をカスタマイズできるかどうかを制御します。
+これは、ユーザー単位のポリシーです。 この設定では、ユーザーが会議のビデオの背景をカスタマイズできるかどうかを制御します。
 
 現在、このポリシーを設定するには PowerShell を使用する必要があります。 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) コマンドレットを使用して、既存の Teams 会議ポリシーを編集することができます。 または、 [の CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) コマンドレットを使用して新しいチームの会議ポリシーを作成し、ユーザーにポリシーを割り当てます。
 
