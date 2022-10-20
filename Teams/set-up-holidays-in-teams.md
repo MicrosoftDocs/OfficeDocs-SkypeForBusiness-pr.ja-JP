@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams で休日を設定する
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -19,17 +19,17 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 - seo-marvel-apr2020
-description: 自動応答で使用するために、Microsoft Teamsで休日を設定する方法について説明します。
-ms.openlocfilehash: f7e6d5a3d305afedd732fe20fb7ab22a97b12c21
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+description: 自動応答で使用するために Microsoft Teams で休日を設定する方法について説明します。
+ms.openlocfilehash: e3d23c3d289f3ce2698d9bd0b774c40a46d69004
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766590"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614400"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Microsoft Teams で休日を設定する
 
-Teams休日機能を使用すると、部署、通話キュー、組織内のユーザーが異なる勤務時間を過ごしたり、利用できない場合に、特定の日付と時刻に別のメッセージとルーティングを発信者に提供できます。 たとえば、組織が閉じられる可能性がある元日の休日を作成できます。
+Teams 休日機能を使用すると、部署、通話キュー、組織内のユーザーが異なる勤務時間を過ごしたり、利用できない場合に、特定の日時に別のメッセージとルーティングを発信者に提供できます。 たとえば、組織が閉じられる可能性がある元日の休日を作成できます。
 
 ここで作成する休日は、 [自動応答を設定](create-a-phone-system-auto-attendant.md)するときに使用できます。それぞれに独自のあいさつ応答と通話ルーティングの設定があります。
 
@@ -37,7 +37,7 @@ Teams休日機能を使用すると、部署、通話キュー、組織内のユ
 
 休日を作成するには
 
-1. Microsoft Teams管理センターで **、****VoiceHolidays** >  に移動します。
+1. Microsoft Teams 管理センターで、**Voice** >  Holidays に移動 **します**。
 
 2. [ **新しい休日]** を選択します。
 
@@ -66,7 +66,7 @@ Teams休日機能を使用すると、部署、通話キュー、組織内のユ
 
 休日を変更するには
 
-1. Microsoft Teams管理センターで **、****VoiceHolidays** >  に移動します。
+1. Microsoft Teams 管理センターで、**Voice** >  Holidays に移動 **します**。
 
 2. 一覧から休日を選択します。
 
@@ -82,4 +82,4 @@ Teams休日機能を使用すると、部署、通話キュー、組織内のユ
 
 ## <a name="related-topics"></a>関連項目
 
-[自動応答と呼び出しキュー Teams計画しますか](plan-auto-attendant-call-queue.md)?
+[Teams の自動応答と通話キューを計画しますか](plan-auto-attendant-call-queue.md)?
