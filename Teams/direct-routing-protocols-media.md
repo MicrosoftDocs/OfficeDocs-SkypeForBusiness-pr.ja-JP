@@ -16,12 +16,12 @@ f1.keywords:
 description: hHw ダイレクト ルーティングでは、ICE Lite に対してセッション ボーダー コントローラーが有効になっているメディア バイパスがサポートされます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59ea283069c6fc37590d6329aeac46e40484f8ca
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: e6f9715ee410116a66c572522a910cd16ef27154
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267762"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614420"
 ---
 # <a name="overview"></a>概要
 
@@ -55,7 +55,7 @@ RFC 5389 で必要とされる SBC は、認識しない STUN 属性を無視し
 
 ### <a name="candidate-gathering"></a>候補の収集
 
-SBC は、パブリックに到達可能な候補を 1 つだけ提供する必要があります。 現在、IPV4 候補のみがサポートされています。
+SBC は、1 つの候補のみを提供する必要があります。 現在、IPV4 候補のみがサポートされています。
 
 
 #### <a name="connectivity-checks"></a>接続チェック

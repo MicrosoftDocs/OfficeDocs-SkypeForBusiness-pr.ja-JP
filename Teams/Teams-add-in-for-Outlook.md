@@ -17,14 +17,15 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 499beaae2514942e70f4d633a25ca3e544bdf994
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: 52b057119bddd52c37984a9355311843b7b57ce7
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66564155"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614029"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook で Teams の会議アドインを使用する
 
@@ -34,7 +35,7 @@ Teams 会議アドインを使用すると、ユーザーは Outlook から Team
 
 ## <a name="teams-meeting-add-in-in-outlook-for-windows"></a>Windows 用 Outlook の Teams 会議アドイン
 
-Teams の会議アドインは、Microsoft Teams と Office 2013、Office 2016、Office 2019 または Office 2021 を自分の Windows PC にインストール済みのユーザーに対して、自動的にインストールされます。Teams の会議アドインは、ユーザーが使用する Outlook カレンダーのリボン上に表示されます。
+The Teams Meeting add-in is automatically installed for users who have Microsoft Teams and either Office 2013, Office 2016, Office 2019 or Office 2021 installed on their Windows PC. Users will see the Teams Meeting add-in on the Outlook Calendar ribbon.
 
 ![Outlook リボン上の Teams 会議アドインのスクリーンショット。](media/Teams-add-in-for-Outlook.png)
 
@@ -105,7 +106,7 @@ Teams クライアントはユーザーが必要としているのが 32 ビッ�
 
 アイランド モードのユーザは、Outlook で会議をスケジュールする場合、通常は Skype for Business と Teams の会議のどちらをスケジュールするか選択できると想定しています。 Outlook on the web、Outlook Windows、および Outlook Mac では、アイランド モードの場合は、既定で Skype for Business および Teams アドインの両方が表示されます。 Teams 会議ポリシー設定を構成して、アイランド モードのユーザーが Teams 会議アドインのみを使用するか、Teams 会議アドインと Skype for Business 会議アドインの両方を使用するかを制御できます。
 
-初期リリースではいくつかの制限があるため、Outlook モバイルは Skype for Business **または** Teams の会議の作成のみをサポートしています。詳細については、次の表を参照してください。
+Due to certain limitations in the initial release, Outlook mobile can only support creating Skype for Business **or** Teams meetings. See the following table for details.
 
 | Teams 管理センターの共存モード | Outlook モバイルの既定の会議プロバイダー |
 | --------------------------------------|---------------------------------------------|

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Microsoft パートナーまたは PSTN 通信事業者の複数のテナントにサービスを提供するように 1 つのセッション ボーダー コントローラー (SBC) を構成する方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9d7ee3960f88b1c6ed4ee140b4f291162e37da30
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 3789270bc9826c11dee338b5221bc019191f50f2
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67024020"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614410"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>複数のテナントにセッション ボーダー コントローラーを構成する
 
@@ -136,10 +136,13 @@ SBC には、接続を認証するための証明書が必要です。 SBC ホ�
 
 ドメイン名を登録したら、少なくとも 1 つの Teams ライセンスユーザーまたはリソース アカウントを追加して、ドメイン名をアクティブ化する必要があります。 許容されるアカウントは、次のいずれかの SKU でライセンスが付与されます。
 
-- Office 365 E1/E3/E5/A3/A5 またはMicrosoft 365 E3/E5/A3/A5 のユーザー アカウント
-- Office 365 F1/F3 またはMicrosoft 365 F1/F3 のユーザー アカウント
-- 共通エリア電話を使用するユーザー アカウント
-- **Microsoft Teams 電話 リソース アカウント** ライセンスを持つリソース アカウント
+- Office 365 E1/E3/E5 または Microsoft 365 E3/E5 のユーザー アカウント。
+- Office 365 A1/A3/A5 またはMicrosoft 365 A1/A3/A5 のユーザー アカウント。
+- Office 365 F3 または Microsoft 365 F1/F3 のユーザー アカウント。
+- Office 365 G1/G3/G5 または Microsoft 365 G3/G5 のユーザー アカウント。
+- Microsoft 365 Business Basic/Standard/Premium のユーザー アカウント。
+- 共通領域の電話を持つユーザー アカウント。
+- リソース アカウント ライセンス **を持つリソース アカウントMicrosoft Teams 電話**。
 
 さらに、アカウントの UPN (ユーザー プリンシパル名) またはオンプレミス SIP アドレスSkype for Business、新しく作成されたドメインと同じ FQDN を使用する必要があります。
 
@@ -202,6 +205,7 @@ Microsoft 365 組織にユーザーを追加する方法の詳細については
 
 -   Office 365 E1/E3/E5/A3/A5 またはMicrosoft 365 E3/E5/A3/A5 のユーザー アカウント
 -   Office 365 F1/F3 またはMicrosoft 365 F1/F3 のユーザー アカウント
+-   Microsoft 365 Business Basic/Standard/Premium および G3/G5 プランのユーザー アカウント
 -   共通エリア電話を使用するユーザー アカウント
 -   **Microsoft Teams 電話 リソース アカウント** ライセンスを持つリソース アカウント
 

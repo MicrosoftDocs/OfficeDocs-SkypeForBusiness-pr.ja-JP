@@ -1,7 +1,7 @@
 ---
-title: 自動応答でサポートされている言語をMicrosoft Teamsする
-author: CarolynRowe
-ms.author: crowe
+title: Microsoft Teams の自動応答でサポートされている言語
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -20,15 +20,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 自動応答でサポートされている言語をMicrosoft Teamsする
-ms.openlocfilehash: 609c92d86c1fbacddf35093a1ad77df065f5da75
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+description: Microsoft Teams の自動応答でサポートされている言語
+ms.openlocfilehash: c769df020f178b2a69321c7b163e74a9fa1df4d6
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676459"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614600"
 ---
-# <a name="microsoft-teams-auto-attendant-supported-languages"></a>自動応答でサポートされている言語をMicrosoft Teamsする
+# <a name="microsoft-teams-auto-attendant-supported-languages"></a>Microsoft Teams の自動応答でサポートされている言語
 
 自動応答では、テキスト読み上げ (TTS) と音声認識に対して次の言語がサポートされます。
 

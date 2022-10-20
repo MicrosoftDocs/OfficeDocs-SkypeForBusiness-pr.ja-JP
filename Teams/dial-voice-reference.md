@@ -1,7 +1,7 @@
 ---
 title: 自動応答と通話キューのダイヤルと音声認識のリファレンス
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Teams の自動応答と通話キューのダイヤルと音声認識のオプションについて説明します。
-ms.openlocfilehash: 93a20be62f09ed7b636c593ecac48927d70e237f
-ms.sourcegitcommit: 55ba3ed53421da6619724a360d15e80262241079
+ms.openlocfilehash: 3b6b1fd6932491a6f9ad17e109902484461f912f
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "67070728"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68613809"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>自動応答と通話キューのダイヤルと音声認識のリファレンス
 
@@ -59,7 +59,7 @@ ms.locfileid: "67070728"
 
 ## <a name="dial-by-name---keypad-dtmf-entry"></a>名前でダイヤル - キーパッド (DTMF) 入力
 
-呼び出し元のユーザーは、ダイヤルバイネームを使用して、アクセスしようとしているユーザーの完全な名前または部分的な名前を指定してユーザーに連絡できます。 名前を入力するときに使用できるさまざまな形式があります。
+呼び出し元People、ダイヤル バイ ネームを使用して、到達しようとしているユーザーの完全な名前または部分的な名前を指定してユーザーに連絡できます。 名前を入力するときに使用できるさまざまな形式があります。
 
 組織のディレクトリを検索するときに、ユーザーは '0' (ゼロ) キーを使用して、名と姓と名の間のスペースを示すことができます。 名前を入力すると、# キーを使用してキーパッドエントリを終了するように求められます。 たとえば、「到達しようとしているユーザーの名前を入力したら、#キーを押します」とします。 複数の名前が見つかった場合は、呼び出し元のユーザーに、選択する名前の一覧が表示されます。
 
@@ -88,7 +88,7 @@ ms.locfileid: "67070728"
 
 ### <a name="dial-by-name---name-recognition-with-speech"></a>名前でダイヤル - 音声による名前認識
 
-ユーザーは、自分の音声 (音声認識) を使用して組織内の他のユーザーを検索できます。 また、検索しようとしているユーザーの完全な名前または部分名を言って、Active Directory 内のすべてのユーザーにアクセスすることもできます。 音声入力を使用すると、FirstName、LastName、FirstName + LastName、LastName + FirstName など、さまざまな形式の名前を認識できます。
+Peopleは、自分の声 (音声認識) を使用して組織内の他のユーザーを検索できます。 また、検索しようとしているユーザーの完全な名前または部分名を言って、Active Directory 内のすべてのユーザーにアクセスすることもできます。 音声入力を使用すると、FirstName、LastName、FirstName + LastName、LastName + FirstName など、さまざまな形式の名前を認識できます。
   
 自動応答で音声認識を有効にできますが、電話キーパッド エントリ (DTMF) は無効にされていません。 自動応答で音声認識が有効になっている場合でも、電話のキーパッド エントリはいつでも使用できます。
   
