@@ -20,12 +20,12 @@ ms.collection:
 - highpri
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4812626477d2f77ddd3c6913577aa7792293a993
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: 866025dad342f5abfb5b0722391dc754b3f00dd5
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046637"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68655843"
 ---
 # <a name="manage-the-approvals-app-in-microsoft-teams"></a>Microsoft Teams で承認アプリを管理する
 
@@ -138,7 +138,7 @@ Teams のカスタマイズされたフロントライン アプリ エクスペ
 
 アプリのセットアップ ポリシーを使用すると、チームをカスタマイズして、ユーザーにとって最も重要なアプリをユーザーに固定できます。
 
-ユーザーの [承認] アプリをピン留めするには、グローバル (組織全体の既定) ポリシーを編集するか、カスタムのアプリ セットアップ ポリシーを作成して割り当てます。 詳細については、「[Teams でアプリの設定ポリシーを管理する](teams-app-setup-policies.md)」を参照してください。
+ユーザーの承認アプリをピン留めするには、グローバル (組織全体の既定) ポリシーを編集するか、アプリセットアップ ポリシーでカスタム ポリシーを作成して割り当てます。 詳細については、「[Teams でアプリの設定ポリシーを管理する](teams-app-setup-policies.md)」を参照してください。
 
 ## <a name="retention-policy"></a>アイテム保持ポリシー
 

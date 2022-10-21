@@ -18,12 +18,12 @@ description: Microsoft Teams で PDF ファイルを表示および編集する�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 4051b09febdcadfdeb62bf9301823717e1b35fe4
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 8adb2f4f0eafeabadd6f8716a338b24422d0ba35
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377575"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68656063"
 ---
 # <a name="adobe-acrobat-as-a-default-pdf-viewer-in-microsoft-teams"></a>Microsoft Teams の既定の PDF ビューアーとしての Adobe Acrobat
 
@@ -41,7 +41,7 @@ ms.locfileid: "68377575"
 
 アプリを設定する前に、テナントでのアプリの使用を許可すること、Adobe Acrobat アプリを特に許可していること、およびアプリのアクセス許可ポリシーで許可されていることを確認します。 PDF ファイルの既定のアプリとして Adobe Acrobat を設定するには、次の手順に従います。
 
-1. Teams 管理センターにサインインし、**Teams アプリの管理アプリ** > にアクセス **[します](https://admin.teams.microsoft.com/policies/manage-apps)**。
+1. Teams 管理センターにサインインし、**Teams アプリ** にアクセス **[してアプリ](https://admin.teams.microsoft.com/policies/manage-apps)** > を管理します。
 
 1. Adobe Acrobat アプリを検索して選択します。 アプリの詳細ページが開きます。
 
@@ -71,11 +71,11 @@ ms.locfileid: "68377575"
 
 保存を選択すると、Teams は ADOBE Acrobat アプリを PDF ファイルの既定のファイル ハンドラーとして使用します。
 
-少数のユーザーまたはグループに対して Adobe Acrobat アプリを選択的に許可する場合は、[カスタム アプリのアクセス許可ポリシー](teams-app-permission-policies.md)を割り当てることができます。
+少数の個人またはグループに対して Adobe Acrobat アプリを選択的に許可する場合は、 [アプリのアクセス許可にカスタム ポリシーを](teams-app-permission-policies.md)割り当てることができます。
 
 この機能に関する次の情報をご確認ください。
 
-* ポリシーが設定されると、通常、アプリがユーザーに利用できるようになるまでに [数時間かかります](teams-app-setup-policies.md#considerations-and-limitations) 。
+* ポリシーを設定した後、通常、アプリをユーザーが使用できるようになるには [数時間かかります](teams-app-setup-policies.md#considerations-and-limitations) 。
 * タブとしてチャネルにピン留めされた PDF ファイルの表示と、割り当てアプリでの PDF ファイルの表示は、引き続きネイティブ Teams エクスペリエンスによって提供されます。
 * Teams の既定の PDF ビューアーとしての Adobe Acrobat は、デスクトップ クライアントと Web クライアントでのみ機能します。 モバイル クライアントではサポートされていません。
 * PDF のエクスポート、ページの整理、ファイルの結合、PDF の圧縮、PDF の保護などのプレミアム ツールを使用するには、Adobe Acrobat プランが必要です。

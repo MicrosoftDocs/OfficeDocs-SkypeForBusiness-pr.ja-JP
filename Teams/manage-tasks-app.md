@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 - m365-frontline
 - highpri
-ms.openlocfilehash: 74b67a71f8b93f5f0ed898ef186beede056ec31a
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: c64e2b9e2d77724d4972449390c59b7655ab1ff0
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68047117"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68656043"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織の Tasks アプリを管理する
 
@@ -72,7 +72,7 @@ Tasks は、組織内のすべての Teams ユーザーに対して既定で有�
 
 ### <a name="enable-or-disable-tasks-for-specific-users-in-your-organization"></a>組織内の特定のユーザーの Tasks を有効または無効にする
 
-To allow or block specific users in your organization from using Tasks, make sure Tasks is turned on for your organization on the [Manage apps](manage-apps.md) page, and then create a custom app permission policy and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
+組織内の特定のユーザーによるタスクの使用を許可またはブロックするには、[ [アプリの管理](manage-apps.md) ] ページで組織の [タスク] がオンになっていることを確認し、アプリのアクセス許可のカスタム ポリシーを作成して、それらのユーザーに割り当てます。 詳細については、「[Teams のアプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md)」を参照してください。
 
 ### <a name="pin-tasks-to-teams"></a>Teams にタスクをピン留めする
 
@@ -88,7 +88,7 @@ Teams のカスタマイズされたフロントライン アプリ エクスペ
 
 アプリのセットアップ ポリシーを使用すると、チームをカスタマイズして、ユーザーにとって最も重要なアプリをユーザーに固定できます。
 
-To pin the Tasks app for your users, you can edit the global (Org-wide default) policy or create and assign a custom app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
+ユーザーのタスク アプリをピン留めするには、グローバル (組織全体の既定) ポリシーを編集するか、アプリセットアップ ポリシーでカスタム ポリシーを作成して割り当てます。 詳細については、「[Teams でアプリの設定ポリシーを管理する](teams-app-setup-policies.md)」を参照してください。
 
 ### <a name="a-users-my-tasks-is-visible-if-the-user-is-licensed-for-exchange-online"></a>ユーザーが Exchange Online のライセンスを持っている場合、そのユーザーの [自分のタスク] が表示されます。
 

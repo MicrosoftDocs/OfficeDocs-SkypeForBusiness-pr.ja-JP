@@ -8,47 +8,47 @@ audience: admin
 ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
-description: Microsoft Teams 管理センターで、Praise アプリを管理する方法について説明します。
+description: Microsoft Teams 管理センターで Praise アプリを管理する方法について説明します。
 ms.collection:
 - M365-collaboration
 - m365-frontline
 - highpri
-ms.openlocfilehash: f2cf8ee32e3c03811833ea5d5d4dc93ac6d51ead
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: 5771aaa9122ddc79d4555c74d509d2c4a77f57fb
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046717"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68655873"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターで Praise アプリを管理する
 
-Microsoft Teams の Praise アプリは、ユーザーが組織またはクラスルームのメンバーに感謝を示すのに役立ちます。 「Praise」のバッジは、教育者から現場のワーカーまで、Teams ユーザーが行うさまざまな作業に取り組む取り組みを認識できるように設計されています。 詳細については、「 [人に賛美を送る」を](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)参照してください。
+Microsoft Teams の Praise アプリは、ユーザーが組織または教室のメンバーに感謝の気持ちを示すのに役立ちます。 賞賛のバッジは、教育者から現場担当者まで、Teams ユーザーが行う幅広い作業に対する取り組みを認識できるように設計されています。 詳細については、「 [ユーザーに賞賛を送信する」を](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)参照してください。
 
-この機能にアクセスするには、管理者に Teams ライセンスが必要です。 Teams ライセンスなしでこの機能にアクセスしようとすると、エラー メッセージが表示されます。
+管理者は、この機能にアクセスするために Teams ライセンスを持っている必要があります。 Teams ライセンスなしでこの機能にアクセスしようとすると、エラー メッセージが表示されます。
 
 > [!NOTE]
-> Praise アプリは GCC クラウド環境では使用できますが、GCC High または DoD では使用できません。
+> Praise アプリは GCC クラウド環境で使用できますが、GCC High または DoD には使用できません。
 
-## <a name="enable-or-disable-praise-in-your-organization"></a>組織で Praise を有効または無効にする
+## <a name="enable-or-disable-praise-in-your-organization"></a>組織内で賞賛を有効または無効にする
 
-組織内のすべての Teams ユーザーに対して、既定で評価が有効になっています。 組織レベルでアプリをオフまたはオンにするには、Microsoft Teams 管理センターの [[アプリを管理]](manage-apps.md) ページで行います。
+賞賛は、組織内のすべての Teams ユーザーに対して既定で有効になっています。 組織レベルでアプリをオフまたはオンにするには、Microsoft Teams 管理センターの [[アプリを管理]](manage-apps.md) ページで行います。
 
-:::image type="content" source="media/manage-praise-app-admin-center.png" alt-text="Teams 管理センターの [認定アプリの詳細] ページのスクリーンショット。[状態] トグルが表示されています。":::
+:::image type="content" source="media/manage-praise-app-admin-center.png" alt-text="Teams 管理センターの [アプリの詳細を褒める] ページのスクリーンショット。[状態] トグルが表示されています。":::
 
 1. Microsoft Teams 管理センターの左側のウィンドウで、**[Teams アプリ]** > **[アプリの管理]** の順に移動します。
-2. アプリの一覧で、Praise アプリを検索して選択し、状態トグルを **[ブロック**] または [**許可****]** に切り替えます。
+2. アプリの一覧で、賞賛アプリを検索して選択し、[ **状態]** トグルを **[ブロック** ] または [ **許可]** に切り替えます。
 
-この設定は、Teams のViva インサイト アプリの Praise アプリと Praise 機能の両方に影響を与える点に注意してください。
+この設定は、Teams のViva インサイト アプリの賞賛アプリと称賛機能の両方に影響します。
 
-[状態] を [ブロック] に設定した場合、Teams の場合、数分以内に Praise アプリがブロックされます。 ただし、Viva インサイトでの評価は、ブロックされるまでに 7 ~ 9 日かかる場合があります。
+[状態] を [ブロック] に設定した場合、Teams の評価アプリは数分以内にブロックされます。 ただし、Viva インサイトでの賞賛には、ブロックされるまでに 7 日から 9 日かかる場合があります。
 
-## <a name="enable-or-disable-praise-for-specific-users-in-your-organization"></a>組織内の特定のユーザーに対して Praise を有効または無効にする
+## <a name="enable-or-disable-praise-for-specific-users-in-your-organization"></a>組織内の特定のユーザーに対して評価を有効または無効にする
 
-組織内の特定のユーザーによる Praise の使用を許可またはブロックするには、[ [アプリの管理](manage-apps.md) ] ページで組織で Praise が有効になっていることを確認します。 次に、カスタム アプリのアクセス許可ポリシーを作成し、それらのユーザーに割り当てます。 詳細については、「[Teams のアプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md)」を参照してください。
+組織内の特定のユーザーが賞賛を使用することを許可またはブロックするには、[ [アプリの管理](manage-apps.md) ] ページで組織に対して [称賛] がオンになっていることを確認します。 次に、アプリのアクセス許可のカスタム ポリシーを作成し、それらのユーザーに割り当てます。 詳細については、「[Teams のアプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md)」を参照してください。
 
 ## <a name="badges"></a>バッジ
 
-ここでは、Praise のバッジの既定のセットを示します。 組織内の Teams ユーザーは、これらのバッジを使用して、同僚が自分の仕事を超えて行ったと認識できます。
+[賞賛] のバッジの既定のセットを次に示します。 組織内の Teams ユーザーは、これらのバッジを使用して、同僚が自分の仕事を超えて行くことを認識できます。
 
 :::image type="content" source="media/default-set-praise.png" alt-text="既定のバッジ セット内のバッジの画像。":::
 

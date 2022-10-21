@@ -18,18 +18,18 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Teams 管理センターで Microsoft Power Platform を使用して構築されたカスタム アプリへのアクセスを管理する方法について説明します。
-ms.openlocfilehash: 93801bb30d0445d13de25976ab23668fde251466
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 3a81d1db3de7cf4fa82b80526ffdb206bfbe8da6
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377205"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68656039"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-teams-admin-center"></a>Teams 管理センターで Microsoft Power Platform アプリを管理する
 
 ## <a name="manage-custom-apps-created-using-microsoft-power-platform-apps"></a>Microsoft Power Platform アプリを使用して作成されたカスタム アプリを管理する
 
-この記事では、Microsoft Teams 管理センターで [Microsoft Power Platform](https://powerplatform.microsoft.com/) アプリを使用して作成されたカスタム アプリを管理する方法の概要について説明します。 カスタム アプリは、組織内の開発者が内部ユーザー用に作成します。
+この記事では、Microsoft Teams 管理センターで [Microsoft Power Platform](https://powerplatform.microsoft.com/) アプリを使用して作成されたカスタム アプリを管理する方法の概要について説明します。 カスタム アプリは、組織内の開発者によって内部ユーザー用に作成されます。
 
 > [!NOTE]
 > この記事は、アプリ ページからインストールされた、またはアプリ セットアップ ポリシーを通じて Teams に固定された Power Apps アプリまたは Power Virtual Agents アプリには適用されません。 [アプリのアクセス許可ポリシー](teams-app-permission-policies.md)と[アプリのセットアップ ポリシー](teams-app-setup-policies.md)を使用してストア アプリを管理できます。
@@ -54,7 +54,7 @@ Microsoft Power Platform アプリが作成または共有されると、ユー�
 
 管理者は、Microsoft Power Platform アプリが Teams のアプリ ページの **[Power Platform で構築]** に表示されるかどうかを制御できます。 [[アプリの管理]](manage-apps.md) ページを使用して、Power Apps で作成されたすべてのアプリ、または Power Virtual Agent で作成されたすべてのアプリを組織レベルでまとめてブロックまたは許可できます。[アプリのアクセス許可ポリシー](teams-app-permission-policies.md)を使用して特定のユーザーに対してブロックまたは許可することもできます。
 
-組織のアプリストアにある **Shared Power Apps** および **共有 Power Virtual Agent Apps** のアプリは、その特定のプラットフォームで作成されたすべてのアプリを表します。 組織全体または特定のユーザーに対してこれらのアプリの一方または両方をブロックした場合、ユーザーは Teams にインストールできません。 ユーザーは、アプリを許可するために管理者の承認を要求できません。
+組織のアプリストアにある **Shared Power Apps** および **共有 Power Virtual Agent Apps** のアプリは、その特定のプラットフォームで作成されたすべてのアプリを表します。 組織全体または特定のユーザーに対してこれらのアプリの一方または両方をブロックした場合、ユーザーは Teams にアプリをインストールできません。 ユーザーは、アプリを許可する管理者の承認を要求できません。
 
 Power Apps および Power Virtual Agents で作成されたすべてのアプリへのアクセスを制御できますが、個々のアプリを許可またはブロックすることはできないことに注意してください。 アプリの作成者は、Power Apps および Power Virtual Agents 内から共有機能を使用して、作成したアプリにアクセスできるユーザーを決定します。 作成者が Power Virtual Agents で作成したアプリをユーザーと共有し、そのユーザーの **[共有 Power Virtual Agents アプリ]** をブロックした場合、ユーザーは Teams でそのプラットフォームのアプリを表示またはインストールできなくなります。
 
@@ -67,7 +67,7 @@ Power Apps および Power Virtual Agents で作成されたすべてのアプ�
 
 既定では、**[共有 PowerApps]** と **[共有 Power Virtual Agent Apps]** は、組織内のすべての Teams ユーザーに許可されています。 Microsoft Teams 管理センターの [[アプリの管理]](manage-apps.md) ページで、組織レベルでそれらをブロックまたは許可できます。  
 
-1. Teams 管理センターにサインインし、**Teams アプリ** > にアクセスする **[アプリを管理](https://admin.teams.microsoft.com/policies/manage-apps)** する ページにアクセスするには、グローバル管理者または Teams サービス管理者である必要があります。
+1. Teams 管理センターにサインインし、**Teams アプリ** > にアクセス **[アプリを管理](https://admin.teams.microsoft.com/policies/manage-apps)** する ページにアクセスするには、グローバル管理者または Teams サービス管理者である必要があります。
 1. アプリ リストで、次のいずれかを実行します。
 
     :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text="共有された Microsoft Power Platform アプリを示す [アプリの管理] ページのスクリーンショット。":::
@@ -75,13 +75,13 @@ Power Apps および Power Virtual Agents で作成されたすべてのアプ�
     * 組織内のすべてのユーザーの Power Apps または Power Virtual Agent で作成されたアプリをブロックするには、 **共有 Power Apps** または **共有 Power Virtual Agent Apps** を検索し、それを選択して **[ブロック]** を選択します。
     * 組織内のすべてのユーザーに対して Power Apps または Power Virtual Agent で作成されたアプリを許可するには、 **[共有 Power Apps]** または **[共有 Power Virtual Agent Apps]** を検索して選択し、**[許可]** を選択します。
 
-### <a name="allow-microsoft-power-platform-apps-for-specific-users"></a>特定のユーザーに Microsoft Power Platform アプリを許可する
+### <a name="allow-microsoft-power-platform-apps-for-specific-users"></a>特定のユーザーに対して Microsoft Power Platform アプリを許可する
 
 組織内の特定のユーザーが Power Apps または Power Virtual Agent で作成されたアプリへのアクセスを許可またはブロックするには、1 つ以上のカスタム [[アプリ アクセス許可ポリシー]](teams-app-permission-policies.md) を作成して割り当てます。
 
-たとえば、特定のユーザーが Power Apps で作成されたアプリにアクセスできないようにするには、カスタム アプリアクセス許可ポリシーを作成して **Shared Power Apps** をブロックし、そのユーザーにポリシーを割り当てます。
+たとえば、特定のユーザーが Power Apps で作成したアプリへのアクセスをブロックするには、アプリのアクセス許可のカスタム ポリシーを作成して **Shared Power Apps** をブロックし、それらのユーザーにポリシーを割り当てます。
 
-:::image type="content" source="media/manage-power-platform-apps-app-permission-policy.png" alt-text="Shared Power Apps がブロックされたカスタム アプリのアクセス許可ポリシーの例のスクリーンショット。":::
+:::image type="content" source="media/manage-power-platform-apps-app-permission-policy.png" alt-text="Shared Power Apps がブロックされているアプリのアクセス許可のカスタム ポリシーの例のスクリーンショット。":::
 
 ### <a name="use-audit-logs-to-investigate-microsoft-power-platform-installation-activity"></a>監査ログを使用して Microsoft Power Platform のインストール アクティビティを調査する
 
