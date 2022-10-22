@@ -18,32 +18,42 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft 365 全体で Teams アプリへのアクセスを管理する方法について説明します。
-ms.openlocfilehash: 291fd315f9fd5f171edfebaec1bcc0adbcb8edf4
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 73a90aec04b6e3dcccda6aa4902506ff9eacccc4
+ms.sourcegitcommit: 117adad5224dbf84f53b98341cd6a899ffc4eab1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377585"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "68673443"
 ---
 # <a name="manage-access-to-teams-apps-across-microsoft-365"></a>Microsoft 365 全体で Teams アプリへのアクセスを管理する
 
 アプリ開発者は、Teams で動作するアプリに加えて、Outlook と Office.com で動作するように Microsoft Teams アプリを強化できます。 エンド ユーザーは、強化後に Microsoft Outlook と Microsoft Office.com の Teams で強化されたアプリを使用できます。 現時点では、Teams、Outlook、および Office.com でこれらの特定のアプリを表示および使用できるのは、対象指定リリースのエンド ユーザーのみです。 既存の Teams 管理者エクスペリエンスは、これらのアプリへのアクセスを管理するために適用されます。 この変更に関する通知は、[メッセージ センター](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter/:/messages/MC334280)で入手できます。 Teams 管理者は、特定のエンド ユーザーが強化されたアプリを使用したり、Teams、Outlook、Office.com で強化されたアプリへのアクセスを管理したりすることができます。 Teams 管理者は、Teams 管理センターを使用してアプリへのアクセスを管理します。
 
-Outlook と Office.com で使用する場合、強化されたアプリでは、Teams で付与された既存のアクセス許可が引き続き使用されます。 [強化されたアプリのアクセス許可は変更されません](https://devblogs.microsoft.com/microsoft365dev/ignite-2021-building-apps-for-collaboration-in-a-hybrid-world/#personal-tabs)。
+Outlook と Office.com で使用する場合、強化されたアプリでは、Teams で付与された既存のアクセス許可が引き続き使用されます。 [拡張アプリのアクセス許可に変更はありません](https://devblogs.microsoft.com/microsoft365dev/ignite-2021-building-apps-for-collaboration-in-a-hybrid-world/#personal-tabs)。
 
 強化されたアプリを次に示します。
 
+* [Adobe Acrobat Sign](https://teams.microsoft.com/l/app/0f56a9d1-f502-40f9-a9e8-816d7adbb68b?source=app-details-dialog)
+* [より大きな頭脳 eLearning](https://teams.microsoft.com/l/app/12345514-afee-abcd-acde-c5b34109abcd?source=app-details-dialog)
+* [Bookings](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=app-details-dialog)
+* [e2e-assure](https://teams.microsoft.com/l/app/8bdf3437-e038-4a93-abdc-00461630f6c3?source=app-details-dialog)
+* [ESi-Tik](https://teams.microsoft.com/l/app/fe9627db-f23e-42b1-b454-d4d1ca5af33e?source=app-details-dialog)
+* レンズ
 * [monday.com](https://teams.microsoft.com/l/app/eab2d3ce-6d6a-4415-abc4-5f40a8317b1f)
 * [Mural](https://teams.microsoft.com/l/app/c738b607-88dd-4f16-aefe-6a824c65d25d)
-* [Power BI](https://teams.microsoft.com/l/app/1c4340de-2a85-40e5-8eb0-4f295368978b)
-* [SurveyMonkey](https://teams.microsoft.com/l/app/0fd925a0-357f-4d25-8456-b3022aaa41a9)
-* [Zoho Projects](https://teams.microsoft.com/l/app/4a39aea9-8537-4c2f-b66d-ca364eb3b80d)
-* [YouTube](https://teams.microsoft.com/l/app/com.microsoft.teamspace.tab.youtube)
+* [マイ ステッカー](https://teams.microsoft.com/l/app/46fae4d0-faf5-11e9-80f3-53ad33b77bce?source=app-details-dialog)
 * [PDF ツール](https://teams.microsoft.com/l/app/ca4b5141-5c46-47bc-a05e-2733d9bd69aa?source=app-details-dialog)
-* [大きな頭脳 eLearning](https://teams.microsoft.com/l/app/12345514-afee-abcd-acde-c5b34109abcd?source=app-details-dialog)
+* [Power BI](https://teams.microsoft.com/l/app/1c4340de-2a85-40e5-8eb0-4f295368978b)
+* [Priority Matrix](https://teams.microsoft.com/l/app/5be2b320-a5b7-4221-893c-dee506e4e365?source=app-details-dialog)
+* [Jira 用スマート接続](https://teams.microsoft.com/l/app/6402de97-ce33-4386-bf28-b37e9e139c09?source=app-details-dialog)
+* [間もなくスケジュールを設定する](https://teams.microsoft.com/l/app/bf280b0d-b87d-4158-9f2a-70b63674cd27?source=app-details-dialog)
+* [合理化](https://teams.microsoft.com/l/app/aa6e7fb6-34ac-4947-9c13-3565c66e368b?source=app-details-dialog)
+* [SurveyMonkey](https://teams.microsoft.com/l/app/0fd925a0-357f-4d25-8456-b3022aaa41a9)
+* 文字起こしアシスタント TNA2
+* [ウンビコ](https://teams.microsoft.com/l/app/23fc1de6-dda0-4043-9ebb-a555e845843d?source=app-details-dialog)
 * [ワルド](https://teams.microsoft.com/l/app/1d041f16-ab49-4627-bfda-6b60ad2cab6a?source=app-details-dialog)
-* [Bookings](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=app-details-dialog)
-* [Adobe Acrobat Sign](https://teams.microsoft.com/l/app/0f56a9d1-f502-40f9-a9e8-816d7adbb68b?source=app-details-dialog)
+* [YouTube](https://teams.microsoft.com/l/app/com.microsoft.teamspace.tab.youtube)
+* [Zoho Projects](https://teams.microsoft.com/l/app/4a39aea9-8537-4c2f-b66d-ca364eb3b80d)
 
 次の方法を使用して、Teams アプリへのエンド ユーザー アクセスを制御できます。 Office アプリ管理者である場合は、グローバル管理者または Teams 管理者に連絡して、アプリへのアクセスを管理してください。
 
