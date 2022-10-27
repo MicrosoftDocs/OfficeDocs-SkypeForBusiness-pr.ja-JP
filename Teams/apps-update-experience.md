@@ -8,7 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
-ms.date: 09/04/2022
+ms.date: 10/22/2022
 ms.collection:
 - M365-collaboration
 f1.keywords:
@@ -18,32 +18,32 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: この記事では、Microsoft Teams の Microsoft アプリ、カスタム アプリ、およびサードパーティ アプリが更新される方法と、管理者がそれを促進する方法について説明します。
-ms.openlocfilehash: 14c327c2a24536f5441b318767e301ffe9a3196d
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 0f5631abcd773f09c5a926bf3459d56e8f9f92bf
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68376815"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738613"
 ---
-# <a name="teams-app-updates-and-admin-role"></a>Teams アプリの更新プログラムと管理者ロール
+# <a name="teams-app-updates-and-admin-role"></a>Teams アプリの更新と管理者ロール
 
-Teams 管理者は、エンド ユーザーが最新バージョンのアプリを入手できるように支援できます。 これを行うには、次のいずれかのタスクまたは両方のタスクを実行します。
+Teams 管理者は、エンド ユーザーが最新バージョンのアプリを入手するのに役立ちます。 これを行うには、次のタスクの 1 つまたは両方を実行します。
 
-* 新しいバージョンがアプリ開発者またはベンダーによって提供されたときに Teams ストアで使用できる[サード パーティ](#updates-to-third-party-apps)製アプリを更新します。
+* 新しいバージョンがアプリ開発者またはベンダーによって提供されたときに、Teams ストアで使用できる[サード パーティ](#updates-to-third-party-apps)製アプリを更新します。
 * 開発者が新しいバージョンを送信したときに、組織内でのみ使用できる[カスタム アプリを更新](#updates-to-custom-apps)します。
 
 ## <a name="updates-to-third-party-apps"></a>サード パーティ製アプリへの更新
 
-ユーザーがアプリをインストールして使用するには、必要なサービスと情報にアクセスするためのアクセス許可をアプリに付与する必要があります。 ほとんどの場合、インストールされているアプリの新しいバージョンが Teams ストアで使用できる場合、アプリはすべてのユーザーに対して自動的に更新されます。 ただし、アプリの新しいバージョンでいくつかの特定の変更を行うには、ユーザーのアクセス許可をもう一度必要とします。 この繰り返しユーザー受け入れにより、機能や個人情報へのアクセスなどの変更に対する認識が保証されます。 Teams 管理者は、 [ユーザーに代わってアプリにアクセス許可を付与](app-permissions-admin-center.md)できます。
+ユーザーがアプリをインストールして使用するには、必要なサービスと情報にアクセスするためのアクセス許可をアプリに付与する必要があります。 ほとんどの場合、インストールされているアプリの新しいバージョンを Teams ストアで使用できる場合、アプリはすべてのユーザーに対して自動的に更新されます。 ただし、アプリの新しいバージョンのいくつかの特定の変更には、ユーザーのアクセス許可が再び必要です。 この繰り返しユーザーの同意により、機能や個人情報へのアクセスなどの変更に対する認識が保証されます。 Teams 管理者は、 [ユーザーに代わってアプリにアクセス許可を付与](app-permissions-admin-center.md)できます。
 
-アプリ開発者が次の 1 つ以上の変更をアプリに加えた場合、エンド ユーザーはアプリの更新を承認する必要があります。
+アプリ開発者がアプリに対して次の変更を 1 つ以上行う場合、エンド ユーザーはアプリの更新を承認する必要があります。
 
-* ボットを追加または削除します。 プロパティを使用してボットの ID を変更します `botId` 。
-* ボットの通知を `isNotificationOnly` 変更する可能性がある既存のボットのプロパティを変更します。
-* 既存のボットの変更、`SupportsVideo`プロパティ`SupportsFiles`を変更`SupportsCalling`して、ビデオの呼び出し、再生、ファイルのアップロードまたはダウンロードを行う機能を追加します。
+* ボットを追加します。 プロパティを使用して `botId` ボットの ID を変更します。
+* ボットの `isNotificationOnly` 通知を変更する可能性がある既存のボットのプロパティを変更します。
+* `SupportsVideo`既存のボットの プロパティ、、および `SupportsFiles` プロパティを変更`SupportsCalling`して、ファイルの呼び出し、ビデオの再生、アップロードまたはダウンロードを行う機能を追加します。
 * 承認でアクセス許可を追加または削除します。
-* メッセージング拡張機能の追加または削除、グループ タブの追加、コネクタの追加、またはチャネルの追加。
-* マニフェスト ファイル内の [`webApplicationInfo`](/microsoftteams/platform/resources/schema/manifest-schema#webapplicationinfo) パラメーターを変更します。
+* メッセージング拡張機能の追加または削除、グループ タブの追加、コネクタの追加、チャネルの追加を行います。
+* マニフェスト ファイル内の の [`webApplicationInfo`](/microsoftteams/platform/resources/schema/manifest-schema#webapplicationinfo) パラメーターを変更します。
 
 <!--- image update
 :::image type="content" source="media/manage-your-custom-apps-update1.png" alt-text="New version available." lightbox="media/manage-your-custom-apps-update1.png":::
@@ -53,7 +53,7 @@ Teams 管理者は、エンド ユーザーが最新バージョンのアプリ�
 
 ## <a name="updates-to-custom-apps"></a>カスタム アプリへの更新
 
-組織内で作成および展開されるカスタム アプリは、テナントまたは組織のユーザーが利用できます。 Teams 管理者は、組織内の開発者が提供するカスタム アプリを新しいバージョンに更新します。 詳細については、 [管理者がカスタム アプリを管理する方法に関するページを](custom-app-overview.md)参照してください。
+組織内で作成および展開されたカスタム アプリは、テナントまたは組織のユーザーが使用できます。 Teams 管理者は、組織内の開発者が提供する新しいバージョンにカスタム アプリを更新します。 詳細については、「 [管理者がカスタム アプリを管理する方法](custom-app-overview.md)」を参照してください。
 
 ## <a name="related-article"></a>関連記事
 

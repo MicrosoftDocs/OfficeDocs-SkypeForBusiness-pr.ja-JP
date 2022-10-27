@@ -18,12 +18,12 @@ f1.keywords:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 組織の Teams アプリ ストアにカスタム アプリをアップロードする方法について説明します。
-ms.openlocfilehash: 0b48061ab005e64d6fb6385fabb48f3b49ff87f0
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: 8886c2c0904e7ca9c9e0de1e5641b8587ffe50bf
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614590"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738583"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>アプリ パッケージをアップロードしてカスタム アプリを発行する
 
@@ -42,9 +42,9 @@ Microsoft Teams 開発者プラットフォームでは、開発者が簡単に�
 
 ### <a name="receive-the-app-package"></a>アプリ パッケージを受け取る
 
-アプリを運用環境で使用する準備ができたら、開発者 [は開発者ポータル](/microsoftteams/platform/concepts/build-and-test/manage-your-apps-in-developer-portal)を使用してアプリ パッケージを生成します。 開発者は、アプリ パッケージを.zip形式で共有します。
+運用環境でアプリを使用する準備ができたら、開発者は [開発者ポータル](/microsoftteams/platform/concepts/build-and-test/manage-your-apps-in-developer-portal)を使用してアプリ パッケージを生成します。 開発者は、アプリ パッケージを.zip形式で共有します。
 
-Teams ストア内のすべてのアプリは、Teams アプリ ストアのアプリ品質とセキュリティ標準に準拠するために必須のアプリ [検証](overview-of-app-validation.md) に合格します。 さらに、Microsoft は、アプリ開発者がコンプライアンス、セキュリティ、およびプライバシー制御の強化を示すオプションの[アプリ コンプライアンス プログラム](overview-of-app-certification.md)に参加することを強くお勧めします。 詳細については、「[Teams アプリの検証ガイドライン](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines)」を参照してください。
+Teams ストア内のすべてのアプリは、Teams アプリ ストアのアプリの品質とセキュリティ標準に準拠するために必須のアプリ [検証](overview-of-app-validation.md) に合格します。 さらに、Microsoft は、アプリ開発者がコンプライアンス、セキュリティ、およびプライバシー制御の強化を示すオプションの[アプリ コンプライアンス プログラム](overview-of-app-certification.md)に参加することを強くお勧めします。 詳細については、「[Teams アプリの検証ガイドライン](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines)」を参照してください。
 
 ### <a name="allow-trusted-users-to-upload-custom-apps"></a>信頼されたユーザーがカスタム アプリをアップロードできるようにする
 
@@ -63,15 +63,15 @@ Teams ストア内のすべてのアプリは、Teams アプリ ストアのア�
 
 1. グローバル アプリ設定ポリシーで、**[カスタム アプリのアップロード]** 設定をオフにします。 その手順は次のとおりです。
 
-    1. Microsoft Teams 管理センターの左側のナビゲーションで、 **Teams アプリ** > **のセットアップ ポリシー** に移動し、 **グローバル (組織全体の既定)** ポリシーを選択します。
+    1. Microsoft Teams 管理センターの左側のナビゲーションで、[ **Teams アプリ** > **のセットアップ ポリシー**] に移動し、[ **グローバル (組織全体の既定)]** ポリシーを選択します。
 
-    1. **[カスタム アプリのアップロード**] をオフにし、[保存] を選択 **します**。
+    1. [ **カスタム アプリのアップロード]** をオフにし、[保存] を選択 **します**。
 
 1. カスタム アプリのアップロードを許可する新しいアプリのセットアップ ポリシーを作成し、信頼できるユーザーのセットに割り当てます。 その手順は次のとおりです。
 
-    1. Microsoft Teams 管理センターの左側のナビゲーションで、 **Teams アプリ** > **のセットアップ ポリシー** に移動し、[ **追加**] を選択します。 新しいポリシーに名前と説明を付けて、[ **カスタム アプリのアップロード**] をオンにし、[保存] を選択 **します**。
+    1. Microsoft Teams 管理センターの左側のナビゲーションで、[ **Teams アプリ** > **] [セットアップ ポリシー**] の順に移動し、[ **追加**] を選択します。 新しいポリシーに名前と説明を付け、[ **カスタム アプリのアップロード**] をオンにして、[保存] を選択 **します**。
 
-    1. 作成した新しいポリシーを選択し、[ **ユーザーの管理**] を選択します。 ユーザーを検索し、[ **追加**] を選択して、[ **適用**] を選択します。 この手順を繰り返して、信頼できるすべてのユーザーにポリシーを割り当てます。
+    1. 作成した新しいポリシーを選択し、[ **ユーザーの管理**] を選択します。 ユーザーを検索し、[ **追加**] を選択し、[ **適用**] を選択します。 この手順を繰り返して、信頼できるすべてのユーザーにポリシーを割り当てます。
 
        :::image type="content" source="media/manage-your-lob-apps-new-app-setup-policy.png" alt-text="[アプリセットアップ ポリシーの追加] ページのスクリーンショット。":::
 
@@ -115,11 +115,11 @@ Teams ストア内のすべてのアプリは、Teams アプリ ストアのア�
 
 アプリを更新するには、「[アプリの作成](#create-your-app)と[検証](#validate)」セクションの手順に従います。
 
-Microsoft Teams 管理センターの [アプリを管理] ページでアプリを更新できます。 アプリを更新するには、Microsoft Teams 管理センターの左側のナビゲーションで、**Teams アプリ** > の **[アプリの管理**] に移動します。 アプリ名を選択し、[ **更新**] を選択します。 アプリを更新すると、既存のアプリが置き換わり、更新されたアプリに対してすべてのアプリアクセス許可ポリシーとアプリセットアップ ポリシーが適用されたままになります。
+Microsoft Teams 管理センターの [アプリを管理] ページでアプリを更新できます。 アプリを更新するには、Microsoft Teams 管理センターの左側のナビゲーションで、[**Teams アプリ** > ] [**アプリの管理**] の順に移動します。 アプリ名を選択し、[ **更新**] を選択します。 アプリを更新すると、既存のアプリが置き換えられ、更新されたアプリに対するすべてのアプリアクセス許可ポリシーとアプリセットアップ ポリシーが適用されます。
 
 ### <a name="end-user-update-experience"></a>エンド ユーザー更新エクスペリエンス
 
-ほとんどの場合、アプリの新しいバージョンを発行すると、エンド ユーザーに対して自動的に更新されます。 詳細については、 [エンド ユーザー アプリの更新エクスペリエンス](apps-update-experience.md)に関する記事を参照してください。
+ほとんどの場合、アプリの新しいバージョンを発行すると、アプリを Teams クライアントに追加したエンド ユーザーに対して自動的に更新されます。 詳細については、「 [エンド ユーザー アプリの更新エクスペリエンス](apps-update-experience.md)」を参照してください。
 
 ## <a name="remove-a-custom-app-from-your-organizations-store"></a>組織のストアからカスタム アプリを削除する
 
@@ -128,7 +128,7 @@ Microsoft Teams 管理センターの [アプリを管理] ページでアプリ
 1. Teams 管理センターにサインインします。
 1. **[Teams アプリ]** > **[[アプリの管理]](https://admin.teams.microsoft.com/policies/manage-apps)** ページの順にアクセスします。
 1. アプリの名前をクリックして、アプリの詳細ページを開きます。
-1. アプリ バナーの横にある **[アクション** の削除]  >  を選択 **します**。
+1. アプリ バナーの横にある [**アクション** > の削除] を選択 **します**。
 1. ダイアログで、**[削除]** を選択します。
 
 ## <a name="related-articles"></a>関連記事

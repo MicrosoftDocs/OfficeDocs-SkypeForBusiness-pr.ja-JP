@@ -18,12 +18,12 @@ description: Microsoft Teams で PDF ファイルを表示および編集する�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 8adb2f4f0eafeabadd6f8716a338b24422d0ba35
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: 6a2e6c7ef80258ba07b3450ee983818f0b6ea6e1
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68656063"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738773"
 ---
 # <a name="adobe-acrobat-as-a-default-pdf-viewer-in-microsoft-teams"></a>Microsoft Teams の既定の PDF ビューアーとしての Adobe Acrobat
 
@@ -73,6 +73,8 @@ ms.locfileid: "68656063"
 
 少数の個人またはグループに対して Adobe Acrobat アプリを選択的に許可する場合は、 [アプリのアクセス許可にカスタム ポリシーを](teams-app-permission-policies.md)割り当てることができます。
 
+## <a name="considerations-and-limitations"></a>考慮事項と制限事項
+
 この機能に関する次の情報をご確認ください。
 
 * ポリシーを設定した後、通常、アプリをユーザーが使用できるようになるには [数時間かかります](teams-app-setup-policies.md#considerations-and-limitations) 。
@@ -80,5 +82,5 @@ ms.locfileid: "68656063"
 * Teams の既定の PDF ビューアーとしての Adobe Acrobat は、デスクトップ クライアントと Web クライアントでのみ機能します。 モバイル クライアントではサポートされていません。
 * PDF のエクスポート、ページの整理、ファイルの結合、PDF の圧縮、PDF の保護などのプレミアム ツールを使用するには、Adobe Acrobat プランが必要です。
 * アプリをアンインストールするために、エンド ユーザーは Teams クライアントからアプリを削除できます。 管理者は、セットアップ ポリシーを使用して Adobe Acrobat アプリを削除できます。
-* Adobe Acrobat アプリをブロックする場合は、セットアップ ポリシーから削除します。 これにより、エンドユーザーのエクスペリエンスがネイティブ PDF ファイル ビューアーの使用に戻ります。
+* Adobe Acrobat アプリをブロックした場合は、セットアップ ポリシーからアプリを削除します。 これにより、エンドユーザーのエクスペリエンスがネイティブ PDF ファイル ビューアーの使用に戻ります。
 * Teams デスクトップ クライアントで Adobe Acrobat アプリにサインインしているときに問題が発生した場合は、 [ブラウザーで Teams](https://teams.microsoft.com/) を使用してサインインします。

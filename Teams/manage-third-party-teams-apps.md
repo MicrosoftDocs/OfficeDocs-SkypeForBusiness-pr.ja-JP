@@ -18,18 +18,18 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft 365 全体で Teams アプリへのアクセスを管理する方法について説明します。
-ms.openlocfilehash: ae11a72324bb4382012c751150a254773c9145b7
-ms.sourcegitcommit: c627bd1df17aefdc353bc4da6db169dfe169031e
+ms.openlocfilehash: 01aee1ebd59b52f05db36303d60358b86b95cf84
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "68680559"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738803"
 ---
 # <a name="manage-access-to-teams-apps-across-microsoft-365"></a>Microsoft 365 全体で Teams アプリへのアクセスを管理する
 
 アプリ開発者は、Teams で動作するアプリに加えて、Outlook と Office.com で動作するように Microsoft Teams アプリを強化できます。 エンド ユーザーは、強化後に Microsoft Outlook と Microsoft Office.com の Teams で強化されたアプリを使用できます。 現時点では、Teams、Outlook、Office.com でこれらの特定のアプリを表示および使用できるのは、 [対象リリース](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide&preserve-view=true) のエンド ユーザーのみです。 この変更に関する通知は、[メッセージ センター](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter/:/messages/MC334280)で入手できます。
 
-## <a name="manage-the-enhanced-apps-access-microsoft-365"></a>Microsoft 365 にアクセスする拡張アプリを管理する
+## <a name="manage-users-access-to-the-enhanced-apps"></a>拡張アプリへのユーザーのアクセスを管理する
 
 既存の Teams 管理者エクスペリエンスは、これらのアプリへのアクセスを管理するために適用されます。 Teams 管理者は、Teams 管理センターを使用してアプリへのアクセスを管理します。 Teams 管理者は、特定のエンド ユーザーが強化されたアプリを使用したり、Teams、Outlook、Office.com で強化されたアプリへのアクセスを管理したりすることができます。
 

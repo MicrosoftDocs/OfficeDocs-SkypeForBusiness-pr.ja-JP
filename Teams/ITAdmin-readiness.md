@@ -1,5 +1,5 @@
 ---
-title: 管理トレーニング リソース - Microsoft Teams
+title: トレーニング リソースの管理 - Microsoft Teams
 ms.reviewer: jhwang
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -18,12 +18,12 @@ ms.custom:
 description: Microsoft Teamsの計画、展開、および実行方法に関するトレーニングビデオ、PowerPointデッキ、チュートリアル、およびその他の管理者向けリソース。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 384f6f34a689e0337489d08e4956df425b497d5d
-ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.openlocfilehash: 50c3a4a3eaed8eea383d8e0856cfcd6a07b9772e
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "67808378"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738593"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニングの概要
 
@@ -31,39 +31,39 @@ ms.locfileid: "67808378"
 
 |&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 | :------------ | :------------ | :------------ | :------------ |
-|![手と上向き矢印。](/office/media/icons/get-started-teams.png) |[ここからロールアウトを開始する](./get-started-with-teams-quick-start.md)     |![リストを含むドキュメント](/office/media/icons/document-teams.png)|[プラットフォーム別に Teams の機能を表示する](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)         |
-|![ビデオ再生ボタン。](/office/media/icons/video-play.png) |[YouTube のCoffee in the Cloudのチャネルでベスト プラクティスやハウツーのビデオを視聴します。](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos)     |![レンチを持つ人](/office/media/icons/administrator.png) |[Teams の実話: 一般的な Teams シナリオに関するベスト プラクティスと実践的なガイダンスを学習する](./chalk-talks-landing-page.yml)         |
+|![手と上向き矢印。](/office/media/icons/get-started-teams.png) |[ここでロールアウトを開始する](./get-started-with-teams-quick-start.md)     |![リストを含むドキュメント](/office/media/icons/document-teams.png)|[プラットフォーム別に Teams の機能を表示する](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)         |
+|![ビデオ再生ボタン。](/office/media/icons/video-play.png) |[YouTube のCoffee in the Cloudのチャネルでベスト プラクティスやハウツーのビデオを視聴します。](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos)     |![レンチを持つ人](/office/media/icons/administrator.png) |[Teams のチョーク トーク: 一般的な Teams シナリオに関するベスト プラクティスと実用的なガイダンスを学習する](./chalk-talks-landing-page.yml)         |
 
 
 <h2>主要なトレーニングオファリングとコース</h2>
 
 |&nbsp; |&nbsp; |&nbsp;  |
 |---------|---------|---------|
-|[**IT に関する Teams の基本**](https://aka.ms/MicrosoftTeamsforIT) - Microsoft Mechanics "Teams for IT" ビデオ シリーズでは、管理者である Teams をロールアウト、構成、管理する方法が示されています。     |[**Microsoft Teams を使用してリモート ワーカーをサポート**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) する - トレーニングへのリンクを含め、必要なガイダンスを取得して、自宅で作業しているユーザーをサポートします。         |[**IT 部門のチーム コラボレーションを管理**](/training/paths/m365-manage-team-collaboration) する - Teams を使用して、アプリケーションやデバイス間で組織内のチームワークとコミュニケーションを促進する方法について説明します。         |
-|[**サービス導入スペシャリスト認定**](/training/paths/m365-service-adoption) - Microsoft サービス導入スペシャリスト認定コースには Teams が用意されています。 組織に Microsoft サービスの導入を推進する方法について説明します。     |[**Microsoft 365 のチームワークの概要**](/training/modules/intro-to-teamwork-in-m365/index) - Microsoft サービス導入スペシャリスト認定コースには Teams が用意されています。 組織に Microsoft サービスの導入を推進する方法について説明します。        |[**Microsoft 365 認定: チームワーク管理者アソシエイト**](/certifications/m365-teamwork-administrator) - Microsoft 365 Teamwork 管理者は、SharePoint (オンライン、オンプレミス、ハイブリッド)、OneDrive、Teams などの Microsoft 365 ワークロードまたはOffice 365 ワークロードを構成、展開、管理します。        |
+|[**IT に不可欠な Teams**](https://aka.ms/MicrosoftTeamsforIT) - Microsoft Mechanics "Teams for IT" ビデオ シリーズには、管理者が Teams をロールアウト、構成、管理する方法が示されています。     |[**Microsoft Teams を使用してリモート ワーカーをサポート**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) する - 自宅で作業しているユーザーをサポートするために必要なガイダンス (トレーニングへのリンクを含む) を取得します。         |[**IT 部門のチーム コラボレーションを管理**](/training/paths/m365-manage-team-collaboration) する - Teams を使用して、アプリケーションやデバイス間で組織内のチームワークとコミュニケーションを促進する方法について説明します。         |
+|[**サービス導入スペシャリスト認定**](/training/paths/m365-service-adoption) - Microsoft サービス導入スペシャリスト認定コースには、Teams が用意されています。 組織に Microsoft サービスの導入を推進する方法について説明します。     |[**Microsoft 365 のチームワークの概要 - Microsoft**](/training/modules/intro-to-teamwork-in-m365/index) サービス導入スペシャリスト認定コースには Teams が用意されています。 組織に Microsoft サービスの導入を推進する方法について説明します。        |[**Microsoft 365 認定: チームワーク管理者アソシエイト**](/certifications/m365-teamwork-administrator) - Microsoft 365 チームワーク管理者は、SharePoint (オンライン、オンプレミス、ハイブリッド)、OneDrive、Teams などの Microsoft 365 または Office 365 ワークロードを構成、展開、管理します。        |
 
 <h2>テクニカルなトレーニング</h2>
 
 | モジュール | ビデオ | PowerPoint デッキ  |
 | ------------ | -------------------- | -------------------- |
-| [Microsoft Mechanics - TEAMS Essentials for IT YouTube チャネル](https://aka.ms/MicrosoftTeamsforIT) | [ビデオ: TEAMS Essentials for IT](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10:13 分)<br>[ビデオ: 展開& Teams の構成 - Intro](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 分)  <br>[ビデオ: セキュリティとコンプライアンス](https://youtu.be/91lHNKVVvQ4) (12:42 分)<br>[ビデオ: セキュリティとコンプライアンスのための Teams コントロール](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 分)||
-| コア コンポーネントの基礎 | [ビデオ](https://aka.ms/teams-foundations) | [デッキ](https://aka.ms/teams-foundations-deck) |
+| [Microsoft Mechanics - It YouTube チャネルの Teams Essentials](https://aka.ms/MicrosoftTeamsforIT) | [ビデオ: Teams Essentials for IT](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10:13 分)<br>[ビデオ: 展開& Teams の構成 - 概要](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 分)  <br>[ビデオ: セキュリティとコンプライアンス](https://youtu.be/91lHNKVVvQ4) (12:42 分)<br>[ビデオ: セキュリティとコンプライアンスのための Teams コントロール](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 分)||
+| 基盤 - コア コンポーネント | [ビデオ](https://aka.ms/teams-foundations) | [デッキ](https://aka.ms/teams-foundations-deck) |
 | Windows デスクトップ クライアント | [ビデオ](https://aka.ms/teams-clients) | [デッキ](https://aka.ms/teams-clients-deck) |
 | ガバナンス、管理、ライフサイクル | [ビデオ](https://aka.ms/teams-governance) | [デッキ](https://aka.ms/teams-governance-deck) |
 | セキュリティとコンプライアンス | [ビデオ](https://aka.ms/teams-security-compliance) | [デッキ](https://aka.ms/teams-security-compliance-deck) |
-| 通話品質の概要 | [ビデオ](https://aka.ms/teams-quality) | [デッキ](https://aka.ms/teams-quality-deck) |
+| 通話品質の概要 | | [デッキ](https://aka.ms/teams-quality-deck) |
 | 会議の概要 | [ビデオ](https://aka.ms/teams-meetings-intro) | [デッキ](https://aka.ms/teams-meetings-intro-deck) |
 | メディア - 会議がシンプルな理由|[ビデオ](https://aka.ms/media-in-teams)  | [デッキ](https://aka.ms/media-in-teams-deck)|
 | メディア - メディア フロー | [ビデオ](https://aka.ms/teams-media-flows) | [デッキ](https://aka.ms/teams-media-flows-deck)  |
-| 動的緊急通報 | [ビデオ](https://aka.ms/teams-dec) |  [デッキ](https://aka.ms/teams-dec-deck) |
+| 動的緊急通話 | [ビデオ](https://aka.ms/teams-dec) |  [デッキ](https://aka.ms/teams-dec-deck) |
 | ライブ イベント | [ビデオ](https://aka.ms/teams-live-events-session) | [デッキ](https://aka.ms/teams-live-events-deck) |
 | 電話システムの概要 | [ビデオ](https://aka.ms/teams-phone-system) | [デッキ](https://aka.ms/teams-phone-system-deck) |
-| ダイレクト ルーティング | [ビデオ 1: Teams でのダイレクト ルーティングの計画](https://aka.ms/teams-dr-plan)<br>[ビデオ 2: Teams でのダイレクト ルーティングの構成と管理](https://aka.ms/teams-dr-config)<br>[ビデオ 3: Teams でのダイレクト ルーティングへの移行](https://aka.ms/teams-dr-migrate)  | [デッキ](https://aka.ms/teams-direct-routing-deck) |
+| ダイレクト ルーティング | [ビデオ 1: Teams での直接ルーティングの計画](https://aka.ms/teams-dr-plan)<br>[ビデオ 2: Teams でのダイレクト ルーティングの構成と管理](https://aka.ms/teams-dr-config)<br>[ビデオ 3: Teams でのダイレクト ルーティングへの移行](https://aka.ms/teams-dr-migrate)  | [デッキ](https://aka.ms/teams-direct-routing-deck) |
 | Skype for Business から Teams へのアップグレード | [ビデオ 1: アップグレードの概要](https://aka.ms/teams-upgrade-intro)</br>[ビデオ 2: アップグレードの計画](https://aka.ms/teams-upgrade-plan)</br>[ビデオ 3: 共存および相互運用性](https://aka.ms/teams-upgrade-coexistence-interop)</br>[ビデオ 4: 管理者体験](https://aka.ms/teams-upgrade-admin) | [デッキ](https://aka.ms/teams-upgrade-deck)|
 
-<h2>IT & AV 担当者向けの Teams Rooms Foundations</h2>
+<h2>IT & AV Pro のTeams Rooms基盤</h2>
 
-<p>次の表は、Microsoft Teams Rooms上の PowerPoint デッキ (PDF 形式) に付属する包括的なビデオ トレーニングへのリンクを示しています。  
+<p>次の表に、Microsoft Teams Roomsに付属する PowerPoint デッキ (PDF 形式) を含む包括的なビデオ トレーニングへのリンクを示します。  
 
 | モジュール | PowerPoint デッキ (PDF)  |
 | ------------ | -------------------- |
@@ -74,13 +74,13 @@ ms.locfileid: "67808378"
 | モジュール 5: Microsoft Teams Roomsの構成と開始  | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
 | モジュール 6: Microsoft Teams Roomsの管理、パート 1  | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
 | モジュール 7: Microsoft Teams Roomsの管理、パート 2  | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
-| モジュール 8: Microsoft Teams Rooms--ヒント、テクニック、トラブルシューティング | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
-| One-touch Join の手順 |  [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
+| モジュール 8: Microsoft Teams Rooms--ヒント、コツ、トラブルシューティング | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
+| ワンタッチ参加手順 |  [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
 | Microsoft Teams Rooms マネージド サービスの概要 | [デッキ](https://download.microsoft.com/download/c/e/a/cead2658-d64d-43b7-a728-b4512b325fb8/module-7b-Teams-Managed-Rooms-intro.pdf)  |
 
 <h2>Teams Android デバイス</h2>
 
-<p>次の表に、Teams ディスプレイ、Teams Phone、Android 用Teams Rooms、Teams パネルを含む Microsoft Teams Android デバイスの PowerPoint デッキ (PDF 形式) を使用した包括的なトレーニングへのリンクを示します。  
+<p>次の表に、Teams ディスプレイ、Teams 電話、Android 用のTeams Rooms、Teams パネルを含む Microsoft Teams Android デバイスの PowerPoint デッキ (PDF 形式) を使用した包括的なトレーニングへのリンクを示します。  
 
 | モジュール | PowerPoint デッキ (PDF)  |
 | ------------| -------------------- |
@@ -94,21 +94,21 @@ ms.locfileid: "67808378"
 
 | タイトル                                                                       | 抽象                                                                                                                                                                                                               |  ガイドへのリンク                             |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| Identity、Access management & Threat Protection for Teams                   | Microsoft 管理センターと PowerShell を使用してアクセス ポリシーと ID ポリシーを構成し、Teams の Advanced Threat Protection Office 365有効にする方法について説明します                                                            | [Teams セキュリティ ガイド](https://aka.ms/teamsesecurityinteractiveguide)         |
-| Microsoft Teams の Microsoft Purview データ損失防止 (DLP) ポリシー                     | 既存の DLP ポリシーに Microsoft Teams を追加する方法と、テンプレートに基づくか、組織のデータ保護のニーズに合わせて完全にカスタマイズされているかに関係なく、新しいポリシーを作成する方法について説明します。                        | [Teams DLP ガイド](https://aka.ms/teamsdlpguide)         |
-| Teams でのコンプライアンスの管理                                                | Microsoft 365 セキュリティ、Microsoft 365 コンプライアンス、Microsoft Teams 管理センター、およびWindows PowerShellを使用して、Office 365組織の Microsoft Teams のポリシーと設定を管理および構成します。 | [Teams ガイドでのコンプライアンスの管理](https://aka.ms/complianceinteamsinteractiveguide)      |
-| Teams Advisor: Microsoft Teams でのチャット、チーム、チャネル、アプリの展開 | Teams Advisor を使用して環境を評価し、チャット、チーム、チャネル、アプリを展開するための計画を構築する方法について説明します。                                                                                         |  [Teams Advisor ガイド](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
+| Teams の脅威保護& ID、アクセス管理                   | Microsoft 管理センターと PowerShell を使用してアクセスポリシーと ID ポリシーを構成し、Teams の Advanced Threat Protection Office 365有効にする方法について説明します                                                            | [Teams セキュリティ ガイド](https://aka.ms/teamsesecurityinteractiveguide)         |
+| Microsoft Teams の Microsoft Purview データ損失防止 (DLP) ポリシー                     | 既存の DLP ポリシーに Microsoft Teams を追加する方法と、テンプレートに基づいているか、組織のデータ保護のニーズに合わせて完全にカスタマイズされているかに関係なく、新しいポリシーを作成する方法について説明します。                        | [Teams DLP ガイド](https://aka.ms/teamsdlpguide)         |
+| Teams でのコンプライアンスの管理                                                | Microsoft 365 Security、Microsoft 365 Compliance、Microsoft Teams 管理センター、およびWindows PowerShellを使用して、Office 365組織の Microsoft Teams のポリシーと設定を管理および構成します。 | [Teams でのコンプライアンスの管理ガイド](https://aka.ms/complianceinteamsinteractiveguide)      |
+| Teams Advisor: Microsoft Teams でのチャット、チーム、チャネル、アプリの展開 | Teams アドバイザーを使用して環境を評価し、チャット、チーム、チャネル、アプリを展開するための計画を構築する方法について説明します。                                                                                         |  [Teams Advisor ガイド](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
 | PowerShell と動的グループを使用した Teams 管理の合理化        | Office 365 グループを静的メンバーシップから動的に変換し、Windows PowerShellを使用して新しいアプリアクセス許可ポリシーをすべてのメンバーに割り当てます。                                                                         |  [Teams 管理ガイドの合理化](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
 | Microsoft Teams 管理センターでの Teams とゲスト アクセスの管理         | 組織の Microsoft Teams とゲスト アクセスを構成および管理する方法について説明します。                                                                                                                              | [Teams とゲスト アクセス ガイドの管理](https://aka.ms/TeamsandGuestAccessInteractiveGuide)    |
-| Teams Phone System の構成: 通話キュー&自動応答                   | Microsoft Teams 管理センターを使用して、Microsoft Teams の通話の一環として通話キューと自動応答を作成して展開するプロセスをステップ実行します。                                                          |  [Teams の電話システム ガイドを構成する](https://aka.ms/TeamsPhoneInteractiveGuide)             |
-| ダイレクト ルーティングの構成: SBC と音声ルーティングの接続                 | Microsoft Teams 電話 システム ダイレクト ルーティングを使用して、既存のテレフォニー インフラストラクチャと統合します。                                                                                                              | [ダイレクト ルーティング ガイドを構成する](https://aka.ms/DirectRoutingInteractiveGuide)          |
-| Microsoft Teams でガバナンスを構成する                                     | 組織の Teams メッセージングアイテム保持ポリシーを作成する方法と、個々の Teams をアーカイブ、削除、復元する方法について説明します                                                                                   |  [Microsoft Teams ガイドでガバナンスを構成する](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
-| Microsoft Teams 会議の構成と展開                          | Microsoft Teams の会議ワークロードを展開するプロセスをステップ実行します。                                                                                                                                       |  [Microsoft Teams 会議の構成と展開に関するガイド](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
-| Microsoft Teams の電話会議を構成する                            | Teams の電話会議の機能を確認し、会議ブリッジとダイヤルイン電話番号を割り当てる方法について説明します。                                                                                          |  [Microsoft Teams の電話会議の構成ガイド](https://aka.ms/AudioConferencingInteractiveGuide)      |
-| Firstline Worker の Microsoft Teams の構成                           | Firstline Workforce に適した Microsoft Teams 環境を構成して展開する方法について説明します。                                                                                                                  | [ファーストライン ワーカー向けの Microsoft Teams の構成ガイド](https://aka.ms/ConfigFLWInteractiveGuide)              |
-| 現場の従業員の ID: IT、マネージャー、および現場のワーカーを強化する                    | Microsoft Teams と既存の人事システムを統合し、軽量の委任された ID 管理を構成し、共有デバイスを使用するユーザーに対して簡単なサインインとシームレスな切り替えを構成する方法について説明します。                                                                                                                  | [フロントライン ワーカー ID ガイド](https://aka.ms/FLWIdentityIG)              |
+| Teams 電話システムの構成: 自動応答&通話キュー                   | Microsoft Teams 管理センターを使用して、Microsoft Teams 通話の一部として通話キューと自動応答を作成して展開するプロセスをステップ実行します。                                                          |  [Teams 電話システム ガイドを構成する](https://aka.ms/TeamsPhoneInteractiveGuide)             |
+| ダイレクト ルーティングの構成: SBC と音声ルーティングの接続                 | システム ダイレクト ルーティングMicrosoft Teams 電話使用して、既存のテレフォニー インフラストラクチャと統合します。                                                                                                              | [ダイレクト ルーティング ガイドを構成する](https://aka.ms/DirectRoutingInteractiveGuide)          |
+| Microsoft Teams でガバナンスを構成する                                     | 組織の Teams メッセージング保持ポリシーを作成する方法と、個々の Teams をアーカイブ、削除、復元する方法について説明します                                                                                   |  [Microsoft Teams ガイドでガバナンスを構成する](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
+| Microsoft Teams 会議の構成と展開                          | Microsoft Teams の会議ワークロードをデプロイするプロセスをステップ実行します。                                                                                                                                       |  [Microsoft Teams 会議ガイドの構成と展開](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
+| Microsoft Teams の電話会議を構成する                            | Teams での電話会議の機能を確認し、会議ブリッジとダイヤルイン電話番号を割り当てる方法について説明します。                                                                                          |  [Microsoft Teams の電話会議の構成ガイド](https://aka.ms/AudioConferencingInteractiveGuide)      |
+| ファーストライン Worker 用の Microsoft Teams の構成                           | Firstline Workforce に適した Microsoft Teams 環境を構成して展開する方法について説明します。                                                                                                                  | [Microsoft Teams for Firstline Workers ガイドの構成](https://aka.ms/ConfigFLWInteractiveGuide)              |
+| 現場の従業員の ID: IT、マネージャー、現場担当者を支援する                    | Microsoft Teams を既存の人事システムと統合し、軽量の委任された ID 管理を構成し、共有デバイスを使用するユーザーの簡単なサインインとシームレスな移行を構成する方法について説明します。                                                                                                                  | [現場担当者 ID ガイド](https://aka.ms/FLWIdentityIG)              |
 | Microsoft Teams Roomsのデプロイ                           | Microsoft Teams Roomsで使用するアカウントを作成して構成し、Microsoft Teams 管理センターでデバイスを管理する方法について説明します。                                                                                                                  | [Microsoft Teams Roomsのデプロイ](https://aka.ms/teamsroomslab)              |
-|Teams 認定 Android デバイスの操作|Microsoft Teams Phone、Microsoft Teams ディスプレイ、Microsoft Teams Rooms、および Microsoft Teams パネルを管理およびアップグレードする方法について説明します。|[Microsoft Teams 認定 Android デバイスの操作](https://aka.ms/teamsandroiddeviceslab)|
+|Teams 認定 Android デバイスの操作|Microsoft Teams 電話、Microsoft Teams ディスプレイ、Microsoft Teams Rooms、Microsoft Teams パネルを管理およびアップグレードする方法について説明します。|[Microsoft Teams 認定 Android デバイスの使用](https://aka.ms/teamsandroiddeviceslab)|
 
 <h2>クイック スタート ガイド</h2>
 

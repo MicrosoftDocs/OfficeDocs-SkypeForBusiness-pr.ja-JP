@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Microsoft Teams で認定されている USB 周辺機器とデバイス (ヘッドセット、スピーカーフォン、Web カメラ、モニターなど) を確認します。
-ms.openlocfilehash: ec1fd0583da04c3e93912843526d32803428c40e
-ms.sourcegitcommit: e8c7a5ddc3399492485680e9a6f2593658cecca3
+ms.openlocfilehash: 8a6fdacd8f4599c81e4c915ac178a9d07debb43b
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "68686065"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738623"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams の認定を受けた USB オーディオおよびビデオ デバイス
 
@@ -84,10 +84,11 @@ Teams での通話制御のサポートの詳細については、「Teams [の�
 *2022 年 10 月に更新されたテーブル*
 
 > [!NOTE]
-> 日付形式は MMDDYYYYY です。
+> 日付形式は MM/DD/YYYY です。
 
 | [製造元]        | モデル                                                     | 修飾      | 認定プログラム                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra                |Evolve2 Buds                                               |10/17/2022      |Microsoft Teams 認定                           |
 |Cisco                |デスク カメラ 4K                                             |10/15/2022      |Microsoft Teams 認定                           |
 |Epos                 |EXPAND Vision 1/S6                                         |10/13/2022      |Microsoft Teams 認定                           |
 |レノボ               |Go USB-C ANC In-Ear Headphones                             |9/20/2022       |Microsoft Teams 認定                           |

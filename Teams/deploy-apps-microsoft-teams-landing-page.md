@@ -21,12 +21,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 48c372afe2c7881a2af5c24e36915d510f9ff291
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: 1868b4e5e84803e24eacc812d638a961d6639606
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68655903"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738573"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Microsoft Teams アプリを理解する
 
@@ -41,9 +41,9 @@ Teams のアプリは、ユーザーが職場のツールやサービスをま�
 エンド ユーザーが Teams で使用できるアプリの種類は次のとおりです。
 
 * [Teams の一部であるコア アプリ](#core-apps)。
-* [Microsoft によって作成されたその他のアプリ](#microsoft-provided-apps)。
-* パートナーによる[サード パーティ製アプリ](#third-party-apps-validated-by-microsoft) (Microsoft によって検証されます)。
-* 独自の組織によって作成された[カスタム アプリ](#custom-apps)。
+* [Microsoft によって作成されたその他のアプリ](#apps-created-by-microsoft)。
+* パートナーによって作成された[サード パーティ製アプリ](#third-party-apps-created-by-independent-app-developers) (Microsoft によって検証)。
+* 独自の組織によって作成された[カスタム アプリ](#custom-apps-created-within-an-organization-for-internal-use)。
 
 ## <a name="core-apps"></a>コア アプリ
 
@@ -51,7 +51,7 @@ Teams のアプリは、ユーザーが職場のツールやサービスをま�
 
 :::image type="content" source="media/core-apps-pinned1.png" alt-text="コア アプリは、既定で Teams にピン留めされたアプリです。" lightbox="media/core-apps-pinned2.png":::
 
-## <a name="microsoft-provided-apps"></a>Microsoft 提供のアプリ
+## <a name="apps-created-by-microsoft"></a>Microsoft によって作成されたアプリ
 
 Microsoft には、生産性と共同作業を向上させるための多くのアプリがあります。 ユーザーとエンド ユーザーは、Teams 管理センターでパブリッシャーとして表示されている Microsoft を探すか、Teams ストアでプロバイダーとして一覧表示することで、これらのアプリを見つけることができます。
 
@@ -59,13 +59,13 @@ Teams には、リスト、Tasks、称賛、承認などを含む一連の組み
 
 :::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Teams 管理センターの Microsoft アプリの一覧を示すスクリーンショット。" lightbox="media/microsoft-apps-in-tac2.png":::
 
-## <a name="third-party-apps-validated-by-microsoft"></a>Microsoft による検証済みのサード パーティ製アプリ
+## <a name="third-party-apps-created-by-independent-app-developers"></a>独立したアプリ開発者によって作成されたサード パーティ製アプリ
 
-Microsoft 提供のアプリに加えて、Microsoft 検証済みのサードパーティ製アプリを使用できます。 Microsoft は、Teams ストアでこれらのアプリを使用できるようにする前に、これらのアプリの機能性とセキュリティを検証します。 アプリ検証の利点を理解するには、[サード パーティ製アプリの検証](overview-of-app-validation.md)を参照してください。
+Microsoft が提供するアプリに加えて、サード パーティ製アプリを使用できます。 Microsoft では、これらすべてのアプリの機能とセキュリティを厳格に検証しています。 これらのアプリを Teams ストアで使用できるようにする前に、詳細な手動テストと自動テストが実行され、アプリが公開された後でも多くのテストが定期的に継続されます。 アプリ検証の利点を理解するには、[サード パーティ製アプリの検証](overview-of-app-validation.md)を参照してください。 一部のアプリでは [、Microsoft コンプライアンス プログラム](overview-of-app-certification.md) をサブスクライブして、検証を超えて複数のレベルのさらなるチェックを受けます。
 
 :::image type="content" source="media/3p-apps-in-teams.png" alt-text="Teams ストアにあるサード パーティ製アプリの例のスクリーンショット。":::
 
-## <a name="custom-apps"></a>カスタム アプリ
+## <a name="custom-apps-created-within-an-organization-for-internal-use"></a>組織内で内部で使用するために作成されたカスタム アプリ
 
 組織内の開発者によって作成されたアプリは、カスタム アプリ (または基幹業務アプリ) と呼ばれます。 組織は、組織固有の要件に応じてカスタム アプリの作成を委託する場合があります。 あなたは組織全体または特定のユーザーに対して、このようなアプリを許可またはブロックする管理能力を保持しています。 組織内の開発者は、Teams と [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions) の統合を使用して、カスタムのローコード ソリューションを構築できます。
 
