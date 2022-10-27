@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c575e3eb41654a579ec09c67975490db3dce194d
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: c426606cae959e4d1134fd7a1551b33484c06d9d
+ms.sourcegitcommit: e0dfa7dbfb03c41f096ed0ad80f44de8e147ed26
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68655833"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68743142"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams のトランシーバー アプリ
 
@@ -107,7 +107,7 @@ Walkie Talkie からの予想されるデータ使用量は、オーディオの
 
 #### <a name="rugged-android-phones"></a>堅牢な Android スマートフォン
 
-- Crosscall [Core-X4](https://www.crosscall.com/en_FR/core-s4-1004010501053.html)、 [Core-M5](https://www.crosscall.com/en_FR/core-m5-1001011101114.html)、 [Action-X5](https://www.crosscall.com/en_FR/action-x5-1001020701220.html)、 [Core-X5](https://www.crosscall.com/en_FR/core-x5-1001010701695.html)、 [Core-T5](https://www.crosscall.com/en_FR/core-t5-1003011401749.html)
+- Crosscall [Core-X4](https://www.crosscall.com/en_FR/core-x4-1001010801327.html)、 [Core-M5](https://www.crosscall.com/en_FR/core-m5-1001011101114.html)、 [Action-X5](https://www.crosscall.com/en_FR/action-x5-1001020701220.html)、 [Core-X5](https://www.crosscall.com/en_FR/core-x5-1001010701695.html)、 [Core-T5](https://www.crosscall.com/en_FR/core-t5-1003011401749.html)
   - 手動セットアップ: Teams がインストールされたら、[ **設定** > **] ボタン** に移動します。 [専用] ボタン (1 または 2) で、[ **長押** し] を選択し、[ **PTT アプリ**] を選択します。 [ **カスタム**] の横にある青いホイールを選択し、[Teams] を選択 **します**。
 - 京セラ [DuraForce Ultra 5G](https://kyoceramobile.com/duraforce-ultra-5g/) と [DuraSport 5G](https://kyoceramobile.com/durasport-5g/)
   - 手動セットアップ: Teams がインストールされたら、[**設定] [プログラミング可能なキー****]** >  に移動します。 **[PTT キー**] または [**長押し** ] (デバイスに応じて) を選択し、[Teams] を選択 **します**。
