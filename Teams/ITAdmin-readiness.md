@@ -18,12 +18,12 @@ ms.custom:
 description: Microsoft Teamsの計画、展開、および実行方法に関するトレーニングビデオ、PowerPointデッキ、チュートリアル、およびその他の管理者向けリソース。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50c3a4a3eaed8eea383d8e0856cfcd6a07b9772e
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: 0f8d251499ef55ef1b7621e63367f746d19c70e5
+ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738593"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "68784352"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニングの概要
 
@@ -67,14 +67,14 @@ ms.locfileid: "68738593"
 
 | モジュール | PowerPoint デッキ (PDF)  |
 | ------------ | -------------------- |
-| モジュール 1: Microsoft Teams Roomsの概要  | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
-| モジュール 2: Microsoft Teams ネットワーク  | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |
-| モジュール 3: 適切な領域に適したデバイスを選択する  | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-3-choosing-the-right-device.pdf?live=true) |
-| モジュール 4: Microsoft Teams Roomsのデプロイ  | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-4-deployment.pdf?raw=true) |
-| モジュール 5: Microsoft Teams Roomsの構成と開始  | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
-| モジュール 6: Microsoft Teams Roomsの管理、パート 1  | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
-| モジュール 7: Microsoft Teams Roomsの管理、パート 2  | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
-| モジュール 8: Microsoft Teams Rooms--ヒント、コツ、トラブルシューティング | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
+| モジュール 1: Microsoft Teams Roomsの概要  | [デッキ](https://aka.ms/TeamsRoomsModule1) |
+| モジュール 2: ネットワークの準備  | [デッキ](https://aka.ms/TeamsRoomsModule2) |
+| モジュール 3: 部屋の設計とコンポーネント  | [デッキ](https://aka.ms/TeamsRoomsModule3) |
+| モジュール 4: リソース アカウント  | [デッキ](https://aka.ms/TeamsRoomsModule4) |
+| モジュール 5: Microsoft Teams Roomsの開始と構成  | [デッキ](https://aka.ms/TeamsRoomsModule5) |
+| モジュール 6: Microsoft Teams Roomsの管理、パート 1  | [デッキ](https://aka.ms/TeamsRoomsModule6) |
+| モジュール 7: Microsoft Teams Roomsの管理、パート 2  | [デッキ](https://aka.ms/TeamsRoomsModule7) |
+| モジュール 8: 機能、導入、トラブルシューティング | [デッキ](https://aka.ms/TeamsRoomsModule8)|
 | ワンタッチ参加手順 |  [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
 | Microsoft Teams Rooms マネージド サービスの概要 | [デッキ](https://download.microsoft.com/download/c/e/a/cead2658-d64d-43b7-a728-b4512b325fb8/module-7b-Teams-Managed-Rooms-intro.pdf)  |
 
@@ -84,11 +84,12 @@ ms.locfileid: "68738593"
 
 | モジュール | PowerPoint デッキ (PDF)  |
 | ------------| -------------------- |
-| モジュール 1: Microsoft Teams Android デバイスの概要  |[デッキ](https://download.microsoft.com/download/8/0/2/8020c233-8989-4def-b3ea-fb06365c663a/%281%29%20Introduction%20to%20Microsoft%20Teams%20Android%20Devices.pdf) |
-| モジュール 2: Microsoft Teams Android デバイスの計画|[デッキ](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
-|モジュール 3: Microsoft Teams Android デバイスの機能 |[デッキ](https://download.microsoft.com/download/c/9/9/c9922544-7e27-40af-bf19-dbdc8516f0c1/Module%203-%20Features%20of%20Microsoft%20Teams%20Android%20Devices.pdf)|
-|モジュール 4: Microsoft Teams Android デバイスの管理|[デッキ](https://download.microsoft.com/download/c/e/b/ceb686ff-9be2-495c-9e2e-80047765e5b4/(4)%20Managing%20Microsoft%20Teams%20Android%20Devices.pdf)|
-|モジュール 5: Microsoft Teams Android デバイス - トラブルシューティング |[デッキ](https://download.microsoft.com/download/d/3/7/d3728209-5caa-4bfb-b46a-3b840e80142a/Microsoft%20Teams%20Android%20Devices%20-%20Troubleshooting.pdf)|
+| モジュール 1: Microsoft Teams Android デバイスの概要  |[デッキ](https://aka.ms/TeamsAndroidModule1) |
+| モジュール 2: Microsoft Teams Android デバイスの計画|[デッキ](https://aka.ms/TeamsAndroidModule2) |
+| モジュール 3: Microsoft Teams Android デバイスの管理 |[デッキ](https://aka.ms/TeamsAndroidModule3)|
+| モジュール 4: Microsoft Teams 電話と Microsoft Teams ディスプレイ |[デッキ](https://aka.ms/TeamsAndroidModule4)|
+| モジュール 5: Microsoft Teams Roomsと Microsoft Teams パネル |[デッキ](https://aka.ms/TeamsAndroidModule5)|
+| モジュール 6: 導入とトラブルシューティング |[デッキ](https://aka.ms/TeamsAndroidModule6)|
 
 <h2>対話型ガイド</h2>
 

@@ -4,7 +4,7 @@ author: daisyfell
 ms.author: daisyfeller
 ms.reviewer: samanro
 manager: pamgreen
-ms.topic: article
+ms.topic: how-to
 audience: admin
 ms.service: msteams
 search.appverid: MET150
@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: b51ba430a68e4b8979973ec5051036df39280e22
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: 214ae4f925f3a33e82fb4eac8186f02e0a65cbc2
+ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68656143"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "68784422"
 ---
 # <a name="manage-the-updates-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織の更新 アプリを管理する
 
@@ -147,5 +147,5 @@ Teams の更新 アプリでは、現在、Microsoft Teams 用に設定されて
 
 Teams 更新 アプリから、ユーザーは新しい更新プログラムを作成し、送受信した更新プログラムを表示できます。 ユーザーは、要求の閲覧者でない限り、他のユーザーによって作成された更新にアクセスできません。
 
-> [!Note]
+>[!Note]
 > 更新レポートが作成されたチャットまたはチャネルの一部であるか、テンプレート作成者が手動でビューアーとして追加する場合、ユーザーには要求の閲覧者ロールが与えられます。 レポートの作成時にそのロールが与えられなかった場合、要求に対してアクションを実行することはできません。

@@ -4,7 +4,7 @@ ms.author: v-lanachin
 author: LanaChin
 manager: samanro
 ms.reviewer: aaglick
-ms.topic: article
+ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
@@ -23,12 +23,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: 医療組織用の Teams ポリシー パッケージを使用および管理する方法について説明します。
-ms.openlocfilehash: 9bd4d78a02bf32be68cb13ac85daff886986876d
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: 67f799b07ec31cbb376d2927e78d179494b607b4
+ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046937"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "68784162"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>ヘルスケア向けの Teams ポリシー パッケージ
 
@@ -58,7 +58,7 @@ Microsoft Teams には現在、次のヘルスケア ポリシー パッケー�
 
 ポリシー パッケージにリンクされているポリシーを容易に識別できるように、個々のポリシーにはポリシー パッケージ名が付けられます。 たとえば、医療職員のポリシー パッケージを組織内の臨床医に割り当てると、パッケージ内のポリシーごとに Healthcare_ClinicalWorker という名称のポリシーが作成されます。
 
-![Healthcare 臨床ワーカー パッケージのポリシーのスクリーンショット。](media/policy-packages-healthcare-clinical-worker.png)
+![医療臨床ワーカー パッケージのポリシーのスクリーンショット。](media/policy-packages-healthcare-clinical-worker.png)
 
 ## <a name="get-started-with-policy-packages"></a>ポリシー パッケージの概要
 

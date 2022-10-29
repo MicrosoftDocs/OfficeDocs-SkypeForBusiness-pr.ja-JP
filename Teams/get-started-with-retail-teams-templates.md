@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanachin
 manager: samanro
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: yinchang
 ms.collection:
@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69644ce0261d37fb6a7a5e4270a68fb2a79a7d19
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: 39b474231c2dcd536684514853a34672100801e5
+ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046917"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "68784312"
 ---
 # <a name="use-retail-team-templates"></a>小売業チーム テンプレートを使用する
 
@@ -54,27 +54,27 @@ Teams には、小売業のニーズに特化して設計されたテンプレ�
 現在、次の事前構築済みの小売業チーム テンプレートを提供しています。 表示するには、Teams 管理センターの左側のナビゲーションで、**[Teams]**、 > **[チーム テンプレート]** の順に移動します。
 
 > [!NOTE]
-> アスタリスク (*) は、テンプレートが *Microsoft 365 接続されたテンプレート* であることを示します。 ユーザーがテンプレートを使用してチームを作成すると、接続された SharePoint テンプレートがサイトとチームに適用されます。 ページ、リスト、Power Platform 統合などの SharePoint コンポーネントは、チームの [全般] チャネルにタブとして自動的に追加され、ピン留めされます。 ユーザーは、Teams 内から直接これらのページとリストを編集できます。
+> アスタリスク (*) は、テンプレートが *Microsoft 365 接続テンプレート* であることを示します。 ユーザーがテンプレートを使用してチームを作成すると、接続された SharePoint テンプレートがサイトとチームに適用されます。 ページ、リスト、Power Platform の統合などの SharePoint コンポーネントは自動的に追加され、チームの [全般] チャネルにタブとしてピン留めされます。 ユーザーは、Teams 内から直接これらのページとリストを編集できます。
 >
 > SharePoint テンプレートの詳細については、「 [SharePoint サイト テンプレートの適用とカスタマイズ](https://support.microsoft.com/office/apply-and-customize-sharepoint-site-templates-39382463-0e45-4d1b-be27-0e96aeec8398#ID0EDBJ=Team_site_templates)」を参照してください。
 
-### <a name="manage-a-store"></a>ストアを管理する*
+### <a name="manage-a-store"></a>ストアの管理*
 
-小売業の従業員を 1 つのエクスペリエンスにまとめ、タスクの管理、ドキュメントの共有、およびお客様の問題の解決を行います。 追加のアプリケーションを統合して、シフトの開始プロセスと終了プロセスを効率化します。
+小売業の従業員を 1 つのエクスペリエンスにまとめ、タスクの管理、ドキュメントの共有、およびお客様の問題の解決を行います。 追加のアプリケーションを統合して、シフトの開始プロセスと終了プロセスを合理化します。
 
 > [!div class="mx-tdBreakAll"]
 >| テンプレートの種類 |TemplateId | このテンプレートに含まれるプロパティ |
 >| ------------------|-- |----------------------------------------------------- |
->| ストアを管理する| `retailStore` |チャネル: <ul><li>全般<li>Shift ハンドオフ</li><li>ストアの準備状況</li><li>学習</li></ul> アプリ: <ul><li>承認</li><li>検査</li><li>リスト<ul><li>インベントリ リスト</li></ul></li><li>SharePoint ページ<ul><li>ストア</li></ul></li><li>Shifts</li><li>Planner と To Do によるタスク</li><li>Wiki</li></ul>|
+>| ストアの管理| `retailStore` |チャネル: <ul><li>全般<li>Shift ハンドオフ</li><li>ストアの準備</li><li>学習</li></ul> アプリ: <ul><li>承認</li><li>検査</li><li>リスト<ul><li>インベントリ一覧</li></ul></li><li>SharePoint ページ<ul><li>当社の店舗</li></ul></li><li>Shifts</li><li>Planner と To Do によるタスク</li><li>Wiki</li></ul>|
 
-### <a name="retail-for-managers"></a>マネージャー向けリテール*
+### <a name="retail-for-managers"></a>マネージャー向け小売*
 
-一連のマネージャーのチームを作成して、ストアまたはリージョン間で共同作業を行います。 たとえば、組織にリージョンがある場合は、カリフォルニアリージョンのチームを作成し、そのリージョンのすべてのストア マネージャーと、そのリージョンの地域マネージャーを含めることができます。
+一連のマネージャーがストアまたはリージョン間で共同作業を行うチームを作成します。 たとえば、組織にリージョンがある場合は、カリフォルニア州リージョンのチームを作成し、そのリージョンのすべてのストア マネージャーとそのリージョンのリージョン マネージャーを含めることができます。
 
 > [!div class="mx-tdBreakAll"]
 >| テンプレートの種類| TemplateId | このテンプレートに含まれるプロパティ |
 >| ------------------|- |----------------------------------------------------- |
->| マネージャー向けリテール| `retailManagerCollaboration` |チャネル: <ul><li>全般<li>操作</li><li>学習</li></ul> アプリ: <ul><li>承認</li><li>検査</li><li>SharePoint ページ<ul><li>ストア</li></ul></li><li>Planner と To Do によるタスク</li><li>Wiki</li></ul>|
+>| マネージャー向けリテール| `retailManagerCollaboration` |チャネル: <ul><li>全般<li>操作</li><li>学習</li></ul> アプリ: <ul><li>承認</li><li>検査</li><li>SharePoint ページ<ul><li>当社の店舗</li></ul></li><li>Planner と To Do によるタスク</li><li>Wiki</li></ul>|
 
 ## <a name="use-team-templates-with-microsoft-graph"></a>Microsoft Graph で Teams テンプレートを使用する
 
@@ -83,18 +83,18 @@ Developers can use Microsoft Graph to create teams from pre-built team templates
 こちらに事前構築済みの小売業チーム テンプレートを示します。
 
 > [!NOTE]
-> アスタリスク (*) は、テンプレートが *Microsoft 365 接続されたテンプレート* であることを示します。 ユーザーがテンプレートを使用してチームを作成すると、接続された SharePoint テンプレートがサイトとチームに適用されます。 ページ、リスト、Power Platform 統合などの SharePoint コンポーネントは、チームの [全般] チャネルにタブとして自動的に追加され、ピン留めされます。 ユーザーは、Teams 内から直接これらのページとリストを編集できます。
+> アスタリスク (*) は、テンプレートが *Microsoft 365 接続テンプレート* であることを示します。 ユーザーがテンプレートを使用してチームを作成すると、接続された SharePoint テンプレートがサイトとチームに適用されます。 ページ、リスト、Power Platform の統合などの SharePoint コンポーネントは自動的に追加され、チームの [全般] チャネルにタブとしてピン留めされます。 ユーザーは、Teams 内から直接これらのページとリストを編集できます。
 >
 > SharePoint テンプレートの詳細については、「 [SharePoint サイト テンプレートの適用とカスタマイズ](https://support.microsoft.com/office/apply-and-customize-sharepoint-site-templates-39382463-0e45-4d1b-be27-0e96aeec8398#ID0EDBJ=Team_site_templates)」を参照してください。
 
-### <a name="manage-a-store"></a>ストアを管理する*
+### <a name="manage-a-store"></a>ストアの管理*
 
-このテンプレートを使用して、組織内の各小売店の場所のチームを作成します。
+このテンプレートを使用して、組織内の小売店の場所ごとにチームを作成します。
 
 > [!div class="mx-tdBreakAll"]
 >| テンプレートの種類 | TemplateId | テンプレート チャネル |
 >| ------------------ | -------------- | ----------------------------------------------------- |
->| 小売業 - <br>店舗 | `https://graph.microsoft.com/beta/teamsTemplates('retailStore')`| チャネル <ul><li>全般</li><li>Shift ハンドオフ</li><li>ストアの準備状況</li><li>学習</li></ul>チームのプロパティ <ul><li>チームの可視性を公開に設定</li></ul> <br>メンバーのアクセス許可 <ul><li>チャネルを作成、更新、削除できません </li><li>アプリを追加、削除できません </li><li>タブを作成、更新または削除できません</li><li>コネクタを作成、更新、削除できません</li><ul>|
+>| 小売業 - <br>店舗 | `https://graph.microsoft.com/beta/teamsTemplates('retailStore')`| チャネル <ul><li>全般</li><li>Shift ハンドオフ</li><li>ストアの準備</li><li>学習</li></ul>チームのプロパティ <ul><li>チームの可視性を公開に設定</li></ul> <br>メンバーのアクセス許可 <ul><li>チャネルを作成、更新、削除できません </li><li>アプリを追加、削除できません </li><li>タブを作成、更新または削除できません</li><li>コネクタを作成、更新、削除できません</li><ul>|
 
 組織の店舗テンプレートをカスタマイズするための推奨される方法:
 
@@ -102,9 +102,9 @@ Developers can use Microsoft Graph to create teams from pre-built team templates
 
 - 組織に内部 Web サイト (SharePoint サイトなど) がある場合は、それらを関連するチーム チャネルのタブとして固定することを検討してください。
 
-### <a name="retail-for-managers"></a>マネージャー向けリテール*
+### <a name="retail-for-managers"></a>マネージャー向け小売*
 
-このテンプレートを使用して、一連のマネージャーが複数のストアまたはリージョンで共同作業するためのチームを作成します。 たとえば、組織にリージョンがある場合は、カリフォルニアリージョンのチームを作成し、そのリージョンのすべてのストア マネージャーと、そのリージョンの地域マネージャーを含めることができます。
+このテンプレートを使用して、一連のマネージャーがストアまたはリージョン間で共同作業を行うチームを作成します。 たとえば、組織にリージョンがある場合は、カリフォルニア州リージョンのチームを作成し、そのリージョンのすべてのストア マネージャーとそのリージョンのリージョン マネージャーを含めることができます。
 
 > [!div class="mx-tdBreakAll"]
 >| テンプレートの種類 | TemplateId | テンプレート チャネル |
@@ -139,7 +139,7 @@ Developers can use Microsoft Graph to create teams from pre-built team templates
 ```
 
 > [!NOTE]
-> Microsoft Graph を使用して、Microsoft 365 接続されたテンプレートを使用して既存の Microsoft 365 グループまたはチームからチームを作成する場合、接続された SharePoint テンプレートはサイトまたはチームに自動的に適用されません。 チームの作成後に SharePoint サイト テンプレートを手動で適用する必要があります。 Teams で、チームに移動し、右上隅の **[その他のオプション** ] > **SharePoint で開く** を選択します。 次に、[**設定] を** > 選択して **サイト テンプレートを適用** し、対応するサイト テンプレートを選択します。
+> Microsoft Graph を使用して、Microsoft 365 接続済みテンプレートを使用して既存の Microsoft 365 グループまたはチームからチームを作成している場合、接続された SharePoint テンプレートはサイトまたはチームに自動的に適用されません。 チームの作成後、SharePoint サイト テンプレートを手動で適用する必要があります。 Teams でチームに移動し、右上隅にある [ **その他のオプション** ] > **[SharePoint で開く**] を選択します。 次に、[ **設定] [** > **サイト テンプレートの適用** ] を選択し、対応するサイト テンプレートを選択します。
 
 ## <a name="related-articles"></a>関連記事
 
