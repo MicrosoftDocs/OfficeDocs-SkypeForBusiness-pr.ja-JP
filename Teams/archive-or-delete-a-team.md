@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81c8dfed94153ec7afec95da9e71e1bfe58be28c
-ms.sourcegitcommit: d7a86b3a72005764c18acb60eedf5163523ffae3
+ms.openlocfilehash: e9178bb793f25d9c052041432c20af4be8fb4033
+ms.sourcegitcommit: 57616ad45eaa8be7f78dd0126d324c8777c5a367
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "67457147"
+ms.lasthandoff: 10/31/2022
+ms.locfileid: "68792786"
 ---
 # <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Microsoft Teams でチームをアーカイブまたは削除する
 
@@ -43,12 +43,12 @@ ms.locfileid: "67457147"
 
 1. 管理センターで、[**Teams**] を選択します。
 2. チーム名をクリックして、チームを選びます。
-3. **[アーカイブ]** を選択すると、次のメッセージが表示されます。
+3. Select **Archive**. The following message will appear.
 
     ![Teams のアーカイブ メッセージのスクリーンショット。](media/teams-archive-message.png)
 
 4. ユーザーが SharePoint サイトとチームに関連付けられている Wiki タブで内容を編集できないようにするには、[**SharePoint サイトをチーム メンバーに対して読み取り専用にする**] を選択します。 (チームの所有者は引き続きこの内容を編集できます。)
-5. [**アーカイブ**] を選択して、チームをアーカイブします。 チームの状態が **[アーカイブ済み]** に変わり、チームリストの下部にある **[非表示のチーム]** 内に移動され、アーカイブされた状態を表す小さなアイコンが横に追加されます。
+5. [**アーカイブ**] を選択して、チームをアーカイブします。 チームの状態が **[アーカイブ済み**] に変更され、チーム リストの下部にある **[非表示] チーム** 内で一時的に使用できるようになり、アーカイブされた状態を表す小さなアイコンが横に追加されます。 **非表示のチーム** から削除されると、[**アーカイブ** 済み] の [**チームの管理**] ビューで使用できるようになります。 アーカイブされたチームのコンテンツを表示および検索するには、[アーカイブ済み **] リストでその** 名前を選択します。
 
 ## <a name="make-an-archived-team-active"></a>アーカイブしたチームをアクティブにする
 
@@ -60,11 +60,11 @@ ms.locfileid: "67457147"
 
 ## <a name="delete-a-team"></a>チームを削除する
 
-今後チームが必要とされない場合には、アーカイブではなく、削除することができます。チームを削除するには、次の手順に従います。
+If the team will not be required in the future, then you can delete it rather than archiving it. Follow these steps to delete a team.
 
 1. 管理センターで、[**Teams**] を選択します。
 2. チーム名をクリックして、チームを選びます。
-3. **[削除]** を選択すると、確認メッセージが表示されます。
+3. Select **Delete**. A confirmation message will appear.
 4. チームを完全に削除するには、[**削除**] を選択します。
 
 ## <a name="restore-a-deleted-team"></a>削除したチームを復元する

@@ -18,12 +18,12 @@ ms.custom:
 description: Microsoft Teamsの計画、展開、および実行方法に関するトレーニングビデオ、PowerPointデッキ、チュートリアル、およびその他の管理者向けリソース。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0f8d251499ef55ef1b7621e63367f746d19c70e5
-ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
+ms.openlocfilehash: b456bd4e9887c5d8d2f8ff61667c75ef14a6588a
+ms.sourcegitcommit: 57616ad45eaa8be7f78dd0126d324c8777c5a367
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "68784352"
+ms.lasthandoff: 10/31/2022
+ms.locfileid: "68792816"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニングの概要
 
@@ -63,9 +63,9 @@ ms.locfileid: "68784352"
 
 <h2>IT & AV Pro のTeams Rooms基盤</h2>
 
-<p>次の表に、Microsoft Teams Roomsに付属する PowerPoint デッキ (PDF 形式) を含む包括的なビデオ トレーニングへのリンクを示します。  
+<p>次の表に、Microsoft Teams Roomsの PowerPoint の包括的なトレーニング デッキへのリンクを示します。  
 
-| モジュール | PowerPoint デッキ (PDF)  |
+| モジュール | PowerPoint デッキ  |
 | ------------ | -------------------- |
 | モジュール 1: Microsoft Teams Roomsの概要  | [デッキ](https://aka.ms/TeamsRoomsModule1) |
 | モジュール 2: ネットワークの準備  | [デッキ](https://aka.ms/TeamsRoomsModule2) |
