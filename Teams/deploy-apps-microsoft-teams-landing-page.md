@@ -21,12 +21,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 1ff0095ef804f7e58dcbc81c45639228b0264da4
-ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
+ms.openlocfilehash: 83654452460da41bf72b0feca30d3373de1533ef
+ms.sourcegitcommit: ffcc4c7d5688fee28f5fdc8bb8e6b78afb1ee626
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "68784202"
+ms.lasthandoff: 10/31/2022
+ms.locfileid: "68795429"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Microsoft Teams アプリを理解する
 
@@ -89,15 +89,37 @@ Microsoft は、アプリ開発方法を使用して、機能的で運用環境�
 
 ## <a name="understand-app-capabilities"></a>アプリの機能を理解する
 
-エンド ユーザーが Teams 内で作業できる豊富なエクスペリエンスを提供するために、アプリ開発者は次のアプリ機能を使用します。 メッセージング拡張機能を使用すると、ユーザーは Web サービス Teams クライアントを操作できます。 外部システムでアクションを検索または開始します。 対話式操作の結果を、リッチフォーマットされたカードとして Teams クライアントに送信できます。 会議機能拡張アプリは、開発者のアプリを会議内に統合し、応答性の高い会議エクスペリエンスを提供します。
+Teams アプリの機能は、統合と対話を可能にするためにアプリに組み込み可能なコア機能です。
 
-ボットは、チャットボットまたは会話ボットとも呼ばれます。 ボットは、単純な反復タスクを実行するアプリです。 ボットの操作には、簡単な質問と回答や、サービスやサポートへのアクセスを提供する複雑な会話などがあります。 ユーザーは、ボットと 1 対 1 またはチャネルでチャットできます。 たとえば、Polly アプリを使用して、クイック アンケートを作成したり、フィードバックを受け取ったり、脈拍チェックを行ったりすることができます。
+:::row:::
+    :::column span="":::
+    :::column-end:::
+    :::column span="3":::
+        :::image type="content" source="media/teams-app-capabilities-group.png" alt-text="Microsoft Teams アプリのアプリ機能を示す図。" border="false":::
+    :::column-end:::
+    :::column:::
+    :::column-end:::
+:::row-end:::
 
-タブは、チャネルやチャットの上部にピン留めされた Teams 対応の Web ページです。 タブを使用すると、Web に似たエクスペリエンスでコンテンツやサービスを操作できます。 チーム内のチャネルの一部、グループ チャット、個々のユーザーの個人用アプリとしてタブを追加できます。
+エンド ユーザーが Teams 内で作業できる豊富なエクスペリエンスを提供するために、アプリ開発者は次の機能を使用してアプリを作成します。
 
-Webhook とコネクタは、エンド ユーザーが頻繁に使用するサービス (Jira Cloud や Bitbucket など) からコンテンツと更新プログラムをチャネル会話に直接配信します。 この機能を使用するアプリは、外部アプリと通信したり、外部サービスからの通知やメッセージを送受信したりできます。
+* **ボット**: ボットは、チャットボットまたは会話ボットとも呼ばれます。 ボットは、単純な反復タスクを実行するアプリです。 ボットの操作には、簡単な質問と回答や、サービスやサポートへのアクセスを提供する複雑な会話などがあります。 ユーザーは、個人用チャット、チャネル、またはグループ チャットでボットとの会話を行うことができます。 詳細については、「 [Microsoft Teams のボット](/microsoftteams/platform/bots/what-are-bots)」を参照してください。
 
-メッセージング拡張機能は、エンド ユーザーが会話から離れることなく、アプリのコンテンツを挿入したり、メッセージに対して操作したりするためのショートカットです。 メッセージング拡張機能には、エンド ユーザーが外部コンテンツをすばやく検索し、メッセージやアクション コマンドに挿入するための検索コマンドを含めることができます。
+  Teams は、プライベートのチャットおよびチャネルでボットをサポートしています。 管理者は、Microsoft 365 組織または Office 365 組織でのボットの使用を許可するかどうかを制御できます。 カスタム ボットのオンとオフの切り替えについては、「 [Teams 管理センターでのアプリ管理とガバナンスの概要](manage-apps.md)」を参照してください。
+
+* **タブ**: タブは、チャネルまたはチャットの上部にピン留めされた Teams 対応 Web ページです。 タブを使用すると、Web に似たエクスペリエンスでコンテンツやサービスを操作できます。 これは、アプリ マニフェストで宣言されたドメインを指す単純な HTML <iframe\> タグであり、個々のユーザーのチーム、グループ チャット、または個人用アプリ内のチャネルの一部として追加できます。 詳細については、「 [Microsoft Teams のタブ](/microsoftteams/platform/tabs/what-are-tabs)」を参照してください。
+
+  すべてのプライベート チャットには、[会話]、[ファイル]、[組織]、および [アクティビティ] のタブが既定で作成されます。 これらの組み込みタブに加えて、開発者はカスタム タブを設計および追加できます。 詳細については、「[Teams の組み込みタブとカスタム タブを使用する](/microsoftteams/platform/tabs/what-are-tabs)」を参照してください。
+
+* **Webhook とコネクタ**: Webhook とコネクタは、Microsoft Teams のチャネルとチームに Web サービスを接続するのに役立ちます。 Webhook は、Teams チャネルで行われたアクションについてユーザーに通知するユーザー定義 HTTP コールバックです。 これは、アプリがリアルタイム データを取得する方法です。 コネクタを使用すると、ユーザーは Web サービスからの通知とメッセージの受信をサブスクライブできます。 詳細については、「 [Webhook とコネクタ](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)」を参照してください。
+
+  ユーザーが Teams でカスタム コネクタを使用できるようにするには、「Teams で [カスタム コネクタを使用する](office-365-custom-connectors.md)」を参照してください。
+
+* **メッセージング拡張機能**: メッセージング拡張機能は、アプリ コンテンツを挿入したり、エンド ユーザーが会話から離れることなくメッセージに対応したりするためのショートカットです。 ユーザーは、メッセージの作成領域、コマンド ボックス、またはメッセージから直接、外部システムでアクションを検索または開始できます。 詳細については、「 [メッセージ拡張機能](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions?tabs=dotnet)」を参照してください。
+
+* **会議拡張機能**: ユーザーは、会議内にタブ、ボット、メッセージ拡張機能を統合し、会議の生産性を高めることで、会議エクスペリエンスを強化できます。 さまざまな参加者ロールとユーザーの種類を識別し、会議イベントを取得し、会議内ダイアログを生成できます。 詳細については、「 [Teams 会議用アプリ](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings)」を参照してください。
+
+* **カードとタスク モジュール**: カードは、さまざまな視覚的、オーディオ、選択可能なメッセージと会話フローのヘルプをユーザーに提供します。 タスク モジュールは、Microsoft Teams でモーダル ポップアップ エクスペリエンスを作成するのに役立ちます。 これらは、タスクの開始と完了、ビデオや Power Business Intelligence (BI) ダッシュボードなどの豊富な情報の表示に役立ちます。 詳細については、「 [カードとタスク モジュール](/microsoftteams/platform/task-modules-and-cards/cards-and-task-modules)」を参照してください。
 
 Teams 機能にマップされている一般的なユース ケースを表示するには、「 [ユース ケースを Teams アプリの機能にマップする](/microsoftteams/platform/concepts/design/map-use-cases)」を参照してください。
 
@@ -172,6 +194,10 @@ You can use activity reports to see how users in your organization are using Tea
 
 --->
 
-## <a name="related-article"></a>関連記事
+## <a name="related-articles"></a>関連記事
 
 * [Teams 用アプリ テンプレートの詳細については、こちらをご覧ください](/microsoftteams/platform/samples/app-templates)。
+
+* [Teams 管理センターでのアプリ管理とガバナンスの概要](manage-apps.md)
+
+* [Microsoft Teams 管理センターで、Teams アプリの組織向けアプリを管理します。](manage-apps.md)

@@ -15,26 +15,26 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: 管理者は、Microsoft Teams Rooms の累積的な改善リストである Microsoft Teams Rooms のリリース ノートを参照できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cb76ac9da50a55dbf8a5df10ddab4f65cfdebcc7
-ms.sourcegitcommit: 2ecf98862aae607d0675418a6177be91f56af1f0
+ms.openlocfilehash: d861b5ec9b5b70ca18032462b042f10cd4f5b75a
+ms.sourcegitcommit: ffcc4c7d5688fee28f5fdc8bb8e6b78afb1ee626
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67607620"
+ms.lasthandoff: 10/31/2022
+ms.locfileid: "68795439"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams Roomsのリリース ノート
 
 この記事では、Microsoft Teams Rooms の累積的な改善点について説明します。
 
-Teams Roomsには、Teams Rooms アプリの更新プログラムと Teams Web クライアントの 2 種類の更新プログラムがあります。 
+Teams Roomsの更新プログラムには、アプリの更新プログラムと Teams Web クライアントTeams Roomsの 2 種類があります。 
 
-Teams Roomsアプリの更新は、Microsoft Store または[手動更新](manual-update.md)によって行われます。 更新は、デバイスにローカルにインストールされているユニバーサル Windows プラットフォーム (UWP) アプリケーションに適用されます。
+Teams Roomsアプリの更新は、Microsoft Store または[手動更新プログラム](manual-update.md)を介して行われます。 更新は、デバイスにローカルにインストールされているユニバーサル Windows プラットフォーム (UWP) アプリケーションに適用されます。
 
 Teams Web クライアントの更新は、Teams Web アプリ配信サービスを介して行われます。 Teams Web クライアントは、デバイスにインストールされているローカル UWP アプリケーションの更新を必要としないクラウドベースのサービスです。
 
-Teams の更新方法の詳細については、「Teams の[更新プロセス」を](../teams-client-update.md)参照してください。
+Teams の更新方法の詳細については、「[Teams の更新プロセス](../teams-client-update.md)」を参照してください。
 
-Teams Roomsは、モダン ライフサイクル ポリシーによって管理されます。 詳細については、「 [Teams の更新プロセス」を](../teams-client-update.md#servicing-agreement)参照してください。
+Teams Roomsは、モダン ライフサイクル ポリシーによって管理されます。 詳細については、「 [Teams の更新プロセス](../teams-client-update.md#servicing-agreement)」を参照してください。
 
 ## <a name="version-history"></a>バージョン履歴
 
@@ -101,101 +101,101 @@ Teams Roomsは、モダン ライフサイクル ポリシーによって管理�
 この更新プログラムで導入されるもの:
 
 - フロント行レイアウト エクスペリエンス更新 <sup>プログラム 1</sup> 
-- ルームビデオのピン留めと非表示 <sup>1</sup> 
+- 部屋のビデオをピン留めして非表示にする <sup>1</sup> 
 - デュアルディスプレイ Teams Rooms <sup>2</sup> で分割ギャラリーをオフにするための管理者構成
-- デュアルディスプレイ Teams Roomsが最大 18 の参加者ビデオ ストリーム <sup>1</sup> を表示できるようになりました
-- Microsoft Teams Rooms Pro および Microsoft Teams Room Basic ルーム ライセンス <sup>1</sup> のサポート
+- デュアルディスプレイTeams Rooms最大 18 個の参加者ビデオ ストリームを表示できるようになりました <sup>1</sup>
+- Microsoft Teams Rooms Proおよび Microsoft Teams Room Basic ルーム ライセンスのサポート <sup>1</sup>
 
-<sup>1</sup> この機能は Teams Web クライアントにロールアウトされ、この更新プログラムがリリースされてから完了するまでに約 2 週間かかります。 詳細については、「 [Teams の更新プログラム」を](../teams-client-update.md)参照してください。
+<sup>1</sup> この機能は Teams Web クライアントにロールアウトされており、この更新プログラムがリリースされてから約 2 週間かかります。 詳細については、「 [Teams の更新プログラム](../teams-client-update.md)」を参照してください。
 
-<sup>2</sup> XML を使用して分割ギャラリーをオフにするための管理者構成については、「MICROSOFT TEAMS ROOMS [コンソール設定を XML 構成ファイルでリモートで管理する](../rooms/xml-config-file.md)」を参照してください。
+<sup>2</sup> XML を使用して分割ギャラリーをオフにするための管理者構成については、「XML [構成ファイルを使用してリモートでMicrosoft Teams Roomsコンソール設定を管理する](../rooms/xml-config-file.md)」を参照してください。
 
 ### <a name="4131320-822022"></a>4.13.132.0 (8/2/2022)
 
 この更新プログラムで導入されるもの:
 
 - 会議 ID を使用して Teams 会議に参加する
-- 1 対 1 の Teams 呼び出しのエンドツーエンド暗号化<sup>1</sup> 
-- Teams 会議<sup>2</sup> でのノイズ抑制
-- トレイ エクスペリエンスの更新を共有する
-- ルーム ビデオのミュート状態とミュート解除状態
-- コンテンツのみのレイアウトの既定の管理設定  
-- モダン認証は既定でオンになっています
+- <sup>1 対 1</sup> の Teams 通話のエンドツーエンド暗号化 1 
+- Teams 会議でのノイズ抑制<sup>2</sup>
+- 共有トレイ エクスペリエンスの更新
+- ルーム ビデオのミュートとミュート解除の状態
+- コンテンツのみのレイアウトの管理設定の既定値  
+- 先進認証は既定でオンになっています
 
- <sup>1</sup> Teams Room デバイスからの呼び出しに対してエンドツーエンドの暗号化を有効にする前に、デバイスのユーザー アカウントのポリシーを構成する必要があります。 ユーザーのポリシーは、Teams 管理センターから、または Teams PowerShell を使用して更新できます。 詳細については、「[Teams Room ユーザー アカウントのポリシーを構成する」を](../teams-end-to-end-encryption.md)参照してください。
+ <sup>1</sup> Teams Rooms デバイスからの呼び出しに対してエンドツーエンドの暗号化を有効にする前に、デバイスのユーザー アカウントのポリシーを構成する必要があります。 ユーザーのポリシーは、Teams 管理センターから、または Teams PowerShell を使用して更新できます。 詳細については、「[Teams Room ユーザー アカウントのポリシーを構成する](../teams-end-to-end-encryption.md)」を参照してください。
 
- <sup>2</sup> Teams Rooms、管理者オーバーライドを使用してリリース 4.12 でノイズ抑制のサポートが追加されました。
+ <sup>2</sup> Teams Rooms、管理者のオーバーライドを使用してリリース 4.12 のノイズ抑制のサポートを追加しました。
 
 > [!IMPORTANT]
-> この更新プログラムでは、Microsoft Teams と Exchange Onlineに接続するときに、新しいTeams Rooms デバイスが既定で先進認証を使用するようになりました。
+> この更新プログラムでは、新しいTeams Rooms デバイスが既定で、Microsoft Teams とExchange Onlineに接続するときに先進認証が使用されるようになりました。
 >
-> 会議室アカウントのモダン認証を有効にして、8 月末までにTeams Rooms デバイスをテストすることを強くお勧めします。
+> 会議室アカウントの先進認証を有効にして、8 月末までに Teams Rooms デバイスをテストすることを強くお勧めします。
 >
-> この変更は、2022 年 10 月 1 日から基本認証を無効にするExchange Onlineでの今後の更新の準備に役立ちます。 詳細については、「[Exchange Online – 2022 年 5 月の更新プログラムの基本認証の非推奨](https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-authentication-deprecation-in-exchange-online-may-2022/ba-p/3301866)」を参照してください。  
+> この変更は、2022 年 10 月 1 日から基本認証をオフにするために、Exchange Onlineの今後の更新プログラムの準備に役立ちます。 詳細については、「[Exchange Online – 2022 年 5 月の更新プログラムでの基本認証の非推奨](https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-authentication-deprecation-in-exchange-online-may-2022/ba-p/3301866)」を参照してください。  
 
 ### <a name="4121390-7142022"></a>4.12.139.0 (7/14/2022)
 
 この更新プログラムで導入されるもの:
 
-- Windows [KB5013942](https://support.microsoft.com/topic/may-10-2022-kb5013942-os-builds-19042-1706-19043-1706-and-19044-1706-60b51119-85be-4a34-9e21-8954f6749504) の影響を受けるシステムが起動できるように、アプリを再登録できるようにバージョン番号を変更します。 このアプリバージョンでは、4.1.2.138.0 からの機能変更はありません。
+- Windows [KB5013942](https://support.microsoft.com/topic/may-10-2022-kb5013942-os-builds-19042-1706-19043-1706-and-19044-1706-60b51119-85be-4a34-9e21-8954f6749504) の影響を受けるシステムがアプリを起動できるように再登録できるように、バージョン番号を変更します。 このアプリ バージョンでは、4.1.2.138.0 からの機能の変更はありません。
 
 > [!NOTE]
-> 詳細については、「Teams Rooms[とデバイスの既知の問題](/microsoftteams/troubleshoot/teams-rooms-and-devices/rooms-known-issues)」の「Teams Rooms アプリの更新後の起動に失敗する」を参照してください。
+> 詳細については、「Teams Rooms[とデバイスの既知の問題](/microsoftteams/troubleshoot/teams-rooms-and-devices/rooms-known-issues)」の「Teams Roomsアプリが更新後に起動に失敗する」を参照してください。
 
 ### <a name="4121380-5262022"></a>4.12.138.0 (5/26/2022)
 
 この更新プログラムで導入されるもの:
-- Jabra Panacast 50 からの複数の同時ビデオ ストリームのバグ修正 (会議ビデオ、コンテンツ カメラ ビデオ)
-- クロスクラウド会議で既定の会議オーディオ デバイスを使用できるようになりました
+- Jabra Panacast 50 からの複数の同時ビデオ ストリーム (会議ビデオ、コンテンツ カメラ ビデオ) のバグ修正
+- クラウド間会議で既定の会議オーディオ デバイスを使用できるようになりました
 - 品質と信頼性の修正
 
 ### <a name="4121260-4272022"></a>4.12.126.0 (4/27/2022)
 
 この更新プログラムで導入されるもの:
-- IT 管理者は、TEAMS ルーム デバイスを登録して、XML 設定を使用してパブリック プレビュー機能を受け取ることができます。 登録すると、デバイスはベータ機能の受信を開始します。 ベータ テストに行くすべての機能は、[Microsoft Teams パブリック プレビュー](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)で発表されます - Microsoft Tech Community <sup>1,2</sup>  
-- IT 管理者は、FRONT of Room ディスプレイの解像度を設定し、XML 設定<sup>2</sup> を使用してリモートでスケーリングできます
-- IT 管理者は、XML 設定<sup>3</sup> を使用して Microsoft ノイズ抑制を無効にすることができます 
-- IT 管理者は、レジストリ キー設定<sup>4</sup> を使用してデバイス上のダウンロード フォルダーのクリーンアップをオーバーライドできます
-- ユーザーが別のクラウドでホストされている Teams 会議に参加できるようにする (つまり、GCCH のお客様は商用クラウドでホストされている Teams 会議に参加でき、その逆も可能) 
-- Teams ルームで、タッチ ディスプレイを備えた Teams ルームのセキュリティ対策として、PowerPoint Liveの URL からのエッジ ブラウザーの起動がブロックされるようになりました 
-- ユーザーがルームにユーザーを招待するための手順を追加するために、今すぐ会議のエクスペリエンスが向上しました 
+- IT 管理者は、TEAMS 会議室デバイスを登録して、XML 設定を使用してパブリック プレビュー機能を受け取ることができます。 登録すると、デバイスはベータ機能の受信を開始します。 ベータ テストに関するすべての機能は、[Microsoft Teams パブリック プレビューで発表されます - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview) <sup>1,2</sup>  
+- IT 管理者は、フロント オブ ルームの表示解像度を設定し、XML 設定を使用してリモートでスケーリング<sup>できます 2</sup>
+- IT 管理者は、XML 設定<sup>3</sup> を使用して Microsoft のノイズ抑制を無効にすることができます 
+- IT 管理者は、レジストリ キー設定<sup>4</sup> を使用して、デバイス上のダウンロード フォルダーのクリーンアップをオーバーライドできます
+- ユーザーが別のクラウドでホストされている Teams 会議に参加できるようにする (つまり、GCCH のお客様は商用クラウドでホストされている Teams 会議に参加できます。その逆も可能です)。 
+- Teams ルームで、タッチ ディスプレイを備えた Teams ルームのセキュリティ対策として、PowerPoint Liveの URL からの起動エッジ ブラウザーがブロックされるようになりました 
+- 会議のエクスペリエンスが改善され、ユーザーが会議室にユーザーを招待するための手順が追加されました 
 - Teams ルームのWindows 10 21H2 機能リリースのサポート   
-- ホーム画面の新しい Cortana エントリ ポイント、共有/現在のボタンが戻ってきました 
+- ホーム画面の新しい Cortana エントリ ポイント、共有/現在のボタンが戻った 
 
-> パブリック プレビューの MRT Windows デバイスを登録するための <sup>1</sup> つの手順については、[こちらを参照してください](../public-preview-doc-updates.md#enable-public-preview)。
+> <sup>1</sup> パブリック プレビューの MTR Windows デバイスを登録するための手順については、[こちらを参照してください](../public-preview-doc-updates.md#enable-public-preview)。
 > 
-> <sup>2</sup> Front of Room ディスプレイの解像度と XML を使用したリモートでのスケーリングについては、[こちらをご覧ください](../rooms/xml-config-file.md#set-front-of-room-scale-and-resolution)。
+> <sup>2</sup> 会議室の前面の表示解像度と XML を介したリモートでのスケーリングについては、[こちらを参照してください](../rooms/xml-config-file.md#set-front-of-room-scale-and-resolution)。
 >
-> <sup>3</sup> 現時点では、管理者設定のみがリリースされています。 ユーザーによるノイズ抑制の制御と有効化は、2022 年 5 月の 4.12 リリース後に行われます。 
+> <sup>3</sup> 現時点では、管理者設定のみがリリースされています。 ノイズ抑制のユーザー制御と有効化は、2022 年 5 月の 4.12 リリース後に続きます。 
 >
 > <sup>4</sup> デバイスのクリーンアップ手順については、[こちらを参照してください](../rooms/rooms-operations.md#collecting-logs-on-microsoft-teams-rooms)。
 > 
 > 
 > [!NOTE]
-> Windows 10 21H2 の機能更新プログラムは、アプリケーションのインストールから 7 日後に更新されます。管理者は手動更新プログラムを使用して高速にインストールできます。 これらの変更を伴うアプリケーション バージョン 4.12 Microsoft Teams Rooms、2022 年 4 月にロールアウトを開始し、2~ 3 週間でロールアウトを完了します。 アプリケーションの更新プログラムは Windows ストア経由で配信され、アプリケーションは自動的にインストールされます。 これは Windows 上のMicrosoft Teams Roomsでのみロールアウトされます。 準備するために必要な操作: この更新されたエクスペリエンスについてユーザーに通知し、必要に応じてトレーニングとドキュメントを更新することができます。
+> Windows 10 21H2 機能更新プログラムは、アプリケーションのインストールから 7 日後に更新されるか、管理者は手動更新プログラムを使用してインストールを高速化できます。 これらの変更を伴うアプリケーション バージョン 4.12 Microsoft Teams Rooms、2022 年 4 月にロールアウトを開始し、2 ~ 3 週間でロールアウトを完了します。 アプリケーションの更新プログラムは Windows ストアを通じて配信され、アプリケーションは自動的にインストールされます。 これは、Windows 上のMicrosoft Teams Roomsでのみロールアウトされます。 準備に必要な操作: この更新されたエクスペリエンスについてユーザーに通知し、必要に応じてトレーニングとドキュメントを更新することができます。
 
 ### <a name="411170-332022"></a>4.11.17.0 (3/3/2022)
 
 この更新プログラムで導入されるもの:
-- カメラ ビューのすべてのコンテンツを強化するカメラ フレームのバグ修正。
+- カメラ ビュー内のすべてのコンテンツを強化するカメラ フレームのバグ修正。
 
 ### <a name="411120-1242022"></a>4.11.12.0 (1/24/2022)
 
 この更新プログラムで導入されるもの:
-- Windows<sup>1</sup> での MRT のフロント行レイアウト (プレビュー) 
-- front row layout を既定として設定する管理設定  
-- 今すぐ会議を行い、Teams 専用のアプリの更新を呼び出す、Teams の既定のクライアント モード<sup>1,2</sup>
-- Teams 会議<sup>1</sup> で複数のビデオ カメラを切り替える 
-- 既定のビデオ カメラ設定 
-- CORTANa プッシュツートーク アイコンの更新 (MRT コンソール) 
-- Room Standard および Premium SKU に Azure AD Premium 1 ライセンスを含める 
-- AAD 条件付きアクセス ポリシーでは<sup>、3 が</sup>サポートされます 
-- OOBE で既定で有効になっている Cortana 音声アクティブ化
-- リモート PTZ コントロールは<sup>4 をサポートしています</sup>
+- Windows<sup>1</sup> 上の MTR のフロント行レイアウト (プレビュー) 
+- フロント行レイアウトを既定に設定する設定を管理  
+- 今すぐ会議し、Teams のみのアプリ更新プログラムを呼び出します。Teams の既定のクライアント モード<sup>1,2</sup>
+- Teams 会議で複数のビデオ カメラを切り替える<sup>1</sup> 
+- 既定のビデオ カメラの設定 
+- MTR コンソールでの Cortana のプッシュツートーク アイコンの更新 
+- Room Standard および Premium SKU に Azure AD Premium 1 ライセンスが含まれる 
+- AAD 条件付きアクセス ポリシーでサポート<sup>される 3</sup> 
+- OOBE で既定で有効になっている Cortana 音声ライセンス認証
+- リモート PTZ コントロールは<sup>4</sup> をサポートします
 
-> <sup>1</sup> これらの機能は Teams Web クライアントを使用してロールアウトされ、今後数週間でロールアウトが完了します。 詳細については、 [Teams の更新プログラム](../teams-client-update.md) の詳細をご覧ください。
+> <sup>1</sup> これらの機能は Teams Web クライアントを使用してロールアウトされ、今後数週間でロールアウトが完了します。 詳細については、 [Teams の更新プログラム](../teams-client-update.md) に関するページを参照してください。
 > 
-> Microsoft Teams でのみ実行されている Windows 上の <sup>2</sup> つの Teams ルーム、またはSkype for Businessおよび Microsoft Teams (既定) は新しい Meet and Call エクスペリエンスで更新されていますが、他のモードはこの更新プログラムの影響を受けません。
+> Microsoft Teams でのみ実行されている Windows 上の <sup>2</sup> つの Teams ルーム、または Skype for Business と Microsoft Teams (既定) は、新しい Meet and Call エクスペリエンスで更新されますが、他のモードはこの更新プログラムの影響を受けません。
 > 
 > <sup>3</sup> Teams Roomsの [AAD 条件付きアクセス](../rooms/rooms-authentication.md#azure-ad-conditional-access) ポリシーの設定に関する追加の詳細を参照してください。
 > 
@@ -205,64 +205,64 @@ Teams Roomsは、モダン ライフサイクル ポリシーによって管理�
 ### <a name="teams-rooms-web-client-update-december-2021"></a>Teams Rooms Web クライアント更新プログラム (2021 年 12 月)
 
 この更新プログラムで導入されるもの:
-- コンテンツが共有されていないときに、ビデオ レイアウトを 2 つの部屋の前面に分割する
+- コンテンツが共有されていないときに、ビデオ レイアウトを 2 つの Front of Room ディスプレイに分割する
 
 ### <a name="teams-rooms-web-client-update-october-2021"></a>Teams Rooms Web クライアント更新プログラム (2021 年 10 月)
 
 この更新プログラムで導入されるもの:
-- 構造化された会議のグループ化、発表者/出席者のための会議オプションとコントロールを備えた Teams デスクトップ クライアントとの統合された名簿制御、手の並べ替え順序を上げ、チャットまたは会議の招待からユーザーを名簿から直接招待する機能 
+- Teams デスクトップ クライアントとの統合名簿コントロール。構造化された会議グループ化、発表者/出席者の会議オプションとコントロール、手の並べ替え順序を上げ、チャットまたは会議出席依頼からユーザーを名簿から直接招待する機能 
 - 会議通話コントロール、レイアウト ボタン、会議の状態情報でのデスクトップ クライアントとのユニバーサル バー通話コントロールの配置
-- 部屋のディスプレイの 1 つの前面と 2 つの前面の動的ギャラリーのサポート
-- ルーム レイアウト オプションの前面に統合された統合レイアウト ピッカー
+- 部屋のディスプレイの単一および二重フロントの動的ギャラリーサポート
+- ルーム レイアウト オプションの前面の統合されたレイアウト ピッカーを統合
 - Teams 会議で複数の参加者をスポットライトまたはピン留めする
-- 参加者を名簿からタップしてアクセスできる発表者/出席者コントロールを使用した大規模な会議のサポート
+- 参加者を名簿からタップすることでアクセス可能な発表者/出席者コントロールによる大規模な会議のサポート
 - 会議室が開催者である会議の会議をロックする機能と、ロックされている会議の認識
-- リモート ユーザーが発表者ビュー オプションでコンテンツを共有する場合の発表者モード (weatherman) の使用のサポート
+- リモート ユーザーが発表者ビュー オプションとコンテンツを共有する場合の発表者モード (weatherman) の使用サポート
 - Teams 会議でのリアクション のサポート 
 
 > [!NOTE]
-> Web クライアントの更新プログラムは、アプリケーション バージョン 4.10 および 4.9 のすべてのTeams Roomsで利用できます。 管理者はTeams Roomsパブリック プレビュー プログラムに登録して、Web クライアント機能のピークを間もなく取得できるようになります。
+> Web クライアント更新プログラムは、アプリケーション バージョン 4.10 および 4.9 を使用するすべてのTeams Roomsで使用できます。 管理者は、パブリック プレビュー プログラムTeams Rooms登録して、Web クライアント機能のピークを間もなく取得できるようになります。
 
 ### <a name="410100-1012021"></a>4.10.10.0 (10/1/2021)
 
 この更新プログラムで導入されるもの:
-- 会議室リモートを使用すると、ユーザーは自分のモバイルで Teams を使用してルームの基本的な機能を制御できます*
+- ルーム リモートを使用すると、ユーザーはモバイルで Teams を使用して会議室の基本的な機能を制御できます*
 - 会議に共有するための BLE ボタンの Logitech scribe コンテンツ カメラのサポート
-- チャットバブルは、会議チャットで会議チャットを使用して言われていることに注意を引くための通知を提供します*
-- GCC High では、大規模なギャラリーと Together モードのサポートが利用可能になりました
-- Cortana に追加された新しいスキル、会議への名前によるユーザーの追加、名前による通話 
-- Cortana Push to Talk は、すべてのデバイスで既定で有効になっています。 詳細については、Teams の [Cortana 音声アシスタンスに関するページを](../cortana-in-teams.md)参照してください。
+- チャット バブルは会議チャットで通知を提供し、会議チャットを使用して言われていることに注意を向ける *
+- 大きなギャラリーと Together モードのサポートが GCC High で利用できるようになりました
+- Cortana に追加された新しいスキル、名前で会議にユーザーを追加する、名前で呼び出す 
+- Cortana Push to Talk は、すべてのデバイスで既定で有効になっています。 詳細については、「 [Teams での Cortana 音声アシスタンス](../cortana-in-teams.md)」を参照してください。
 
 > [!NOTE]
 > 非推奨の 19H1 サポート。 4.10 でサポートされている最小 OS バージョンは 19H2 です。
 
 > [!NOTE]
-> *これらの機能は Teams サービスを使用してロールアウトされ、4.9 より大きいすべてのアプリケーション バージョンで動作します。
+> *これらの機能は Teams サービスを使用してロールアウトされ、4.9 を超えるすべてのアプリケーション バージョンで動作します。
 
 > [!NOTE]
-> Teams Mobile アプリと MRT-W の両方からスケジュールされた会議に参加するには、Teams Mobile アプリで会議室アカウントを検索し、[このルームの制御] メニューを押すと、アプリから通話コントロールを制御できます。
+> Teams Mobile アプリと MTR-W の両方からスケジュールされた会議に参加するには、Teams Mobile アプリの名簿にある会議室アカウントを見つけて、[この部屋の制御] メニューを押すと、アプリから通話制御を制御できます。
 
 ### <a name="49120-7282021"></a>4.9.12.0 (7/28/2021)
 
 この更新プログラムで導入されるもの:
-- Microsoft Teams のみモードがアプリケーション設定で使用できるようになったため、Skype for Business アカウントを設定する必要はもうありません。 このモードでは、Teams 専用モードにサインインしているデバイスは、ゲスト ユーザーとして会議Skype for Business参加します。
-- HDMI オーディオが原因で通話量が少ない問題を修正しました。 HDMI オーディオ機能は、アプリケーション ビルド 4.9.12.0 のすべてのデバイスで自動的に有効になります。
+- Microsoft Teams のみモードがアプリケーション設定で使用できるようになりました。そのため、Skype for Business アカウントを設定する必要はありません。 このモードでは、Teams 専用モードにサインインしているデバイスは、ゲスト ユーザーとして会議Skype for Business参加します。
+- HDMI オーディオが原因で通話量が減少する問題を修正しました。 HDMI オーディオ機能は、アプリケーション ビルド 4.9.12.0 を持つすべてのデバイスで自動的に有効になります。
 
 > [!NOTE]
-> Skype for Businessの有効期間が終了すると、Teams のみのモードに更新することをお勧めします。
+> Skype for Businessが終了する場合は、Teams のみのモードに更新することをお勧めします。
 
 ### <a name="48310-05122021"></a>4.8.31.0 (05/12/2021)
 
 この更新プログラムで導入されるもの:
-- Windows 10 20H2 のサポート 
+- Windows 10 20H2 サポート 
 
 > [!NOTE]
-> UC-Engine ("KYSKLi" を含む BIOS バージョンの日付) Teams Rooms互換性の問題があり、更新されたドライバーは近い将来、システム OEM によって提供される予定です。 Windows 10 20H2 はこれらのデバイスには提供されません。 Windows バージョンのサポートの詳細については、「[Windows 10 リリースのサポート](./rooms-lifecycle-support.md#windows-10-release-support)」を参照してください。
+> Crestron UC-Engine ("KYSKLi" を含む BIOS バージョンの日付) Teams Rooms互換性の問題があり、更新されたドライバーは近い将来、システム OEM によって提供される予定です。 Windows 10 20H2 はこれらのデバイスには提供されません。 Windows バージョンのサポートの詳細については、「[Windows 10 リリースのサポート](./rooms-lifecycle-support.md#windows-10-release-support)」を参照してください。
 
 ### <a name="48250-04222021"></a>4.8.25.0 (04/22/2021)
 
 この更新プログラムで導入されるもの:
-- グローバル アドレス一覧 (GAL) から非表示になっているルーム アカウントに対して、Teams Rooms コンソールのルーム情報が表示されない問題を修正しました
+- グローバル アドレス一覧 (GAL) から非表示になっている会議室アカウントに対して、Teams Roomsコンソールの会議室情報が表示されない問題を修正しました
 
 > [!NOTE]
 > GCCH のお客様は、[Microsoft Teams Rooms デバイスを手動で更新](manual-update.md)するからアップグレード パッケージをダウンロードできます
@@ -270,11 +270,11 @@ Teams Roomsは、モダン ライフサイクル ポリシーによって管理�
 ### <a name="48190-04062021"></a>4.8.19.0 (04/06/2021)
 
 この更新プログラムで導入されるもの:
-- Government Community Cloud High (GCCH) によるTeams Roomsのサポート。 既存のTeams Rooms デバイスをお持ちのお客様は、Microsoft Teams Rooms デバイスを[手動で更新](manual-update.md)するからバージョン 4.8.19.0 をダウンロードできます
-- ビデオ品質の向上 (720p サポート) で Zoom 会議に参加し、参加者のビデオ ギャラリーを受け取ります
-- Skype for Business Teams の既定のモードでサインイン エラー バナーが削除されました。 この変更は、Skype for Business インフラストラクチャを削除する組織をサポートします
-- Teams 会議の参加リンク解析で Microsoft Defender Advanced Threat Protection の安全なリンクが処理され、外部の Teams にシームレスに参加できるようになりました
-- 共有ユーザーの PC に Windows でカスタム DPI が設定されている場合のSkype for Business会議での共有コンテンツスケーリングの問題を修正しました
+- Teams Roomsに対する Government Community Cloud High (GCCH) サポート。 既存のTeams Rooms デバイスを持つ GCCH のお客様は、Microsoft Teams Rooms [デバイスを手動で更新](manual-update.md)するからバージョン 4.8.19.0 をダウンロードできます
+- より優れたビデオ品質 (720p サポート) で Zoom 会議に参加し、参加者のビデオ ギャラリーを受け取る
+- Skype for Businessサインインエラー バナーが Teams の既定のモードで削除されました。 この変更により、組織はSkype for Businessインフラストラクチャを削除できます
+- Teams 会議参加リンク解析で、Advanced Threat Protection の安全なリンクMicrosoft Defender処理され、外部 Teams へのシームレスな参加が可能になりました
+- 共有者の PC に Windows でカスタム DPI が設定されている場合のSkype for Business会議での共有コンテンツ スケーリングの問題を修正しました
 - 品質と信頼性の修正
 
 ### <a name="47190-02032021"></a>4.7.19.0 (02/03/2021)
@@ -288,7 +288,7 @@ Teams Roomsは、モダン ライフサイクル ポリシーによって管理�
 
 - Teams 会議で会議参加者と HDMI オーディオを共有する
 - Cortana 音声スキル (プレビュー)
-- 出席者として参加するときに、オーディオアクセス許可に基づいてミュート解除Teams Rooms防止します。 詳細については、「[Teams 会議での参加者の音声アクセス許可の管理](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a)」を参照してください。
+- 出席者として参加する場合、オーディオのアクセス許可に基づいてミュート解除Teams Rooms防止します。 詳細については、「[Teams 会議での参加者の音声アクセス許可の管理](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a)」を参照してください。
 - Teams ミーティングのコンソールからユーザーのビデオにスポットライトを設定し、スポットライト設定したビデオをルームのディスプレイで表示する
 
 > [!NOTE]
@@ -316,13 +316,13 @@ Teams Roomsは、モダン ライフサイクル ポリシーによって管理�
 この更新プログラムで導入されるもの:
 
 - Microsoft Teams と Surface Hub 2S 間の調整された会議
-- [KB4565351 または Windows 10 更新](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351)プログラム [KB4571709](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709) がインストールWindows 10 Skype For Business のサインインエラーを修正しました
+- [更新プログラム KB4565351 または更新プログラム KB4571709 Windows 10](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351)インストール[されている場合の](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709) Skype for Business のサインインエラー Windows 10修正
 
 ### <a name="45350-07232020"></a>4.5.35.0 (07/23/2020)
 
 この更新プログラムで導入されるもの:
 
-- 直接ゲスト参加を使用して、Teams Roomsから Cisco Webex 会議に参加する
+- 直接ゲスト参加を使用してTeams Roomsから Cisco Webex 会議に参加する
 - Teams 管理センターの有効化と自動登録
 - Windows 10 1909 リリースのサポート
 - コンテンツが存在する場合に、ビデオ ギャラリーのレイアウトに切り替える
@@ -378,7 +378,7 @@ Teams Roomsは、モダン ライフサイクル ポリシーによって管理�
 
 この更新プログラムで導入されるもの:
 
-- 近接電話に自動応答し、これを制御するための管理者設定
+- 近接通信ベースの呼び出しと管理者設定に自動応答してこれを制御する
 - [バージョン情報] タブでデバイス構成を追加することによるデバイス管理設定 UI の更新
 - メイン画面に戻るルーム管理
 - GCC で使用可能なミーティング ルーム SKU
@@ -398,7 +398,7 @@ Teams Roomsは、モダン ライフサイクル ポリシーによって管理�
 - 従来のホワイトボードを Teams 会議にインテリジェントに組み込むことが可能な新しいコンテンツ カメラ機能
 - 低優先メールを削減するためのコンソール UI に対する追加の改善と、コンソール上の [詳細] 経由でアクセスする [設定] の新しいサイド バーへの移動
 - ローカル コンテンツ ケーブルが接続されていない場合やコンテンツ カメラが接続されていない場合の共有トレイ ボタンの無効化
-- タッチ キーボードが初めて表示されない問題を修正しました。これは、MRT システムの再起動後にのみ発生しました
+- タッチ キーボードが、MTR システムの再起動後にのみ初めて表示されない問題を修正しました
 - 品質と信頼性の修正
 
 ### <a name="401050-07102019"></a>4.0.105.0 (07/10/2019)
@@ -407,10 +407,10 @@ Teams Roomsは、モダン ライフサイクル ポリシーによって管理�
 
 - Skype Room System ストア アプリの "Microsoft Teams Rooms" への商標変更
 - Microsoft Teams Rooms コンソール ユーザー インターフェイスの Microsoft Teams への再編
-- テーマの更新: 部屋のディスプレイの前面にカスタム背景イメージのみを保持し、コンソールの背景をニュートラルな色にして、コンソール UI コントロールが色のコントラスト (アクセシビリティの要件) を満たしていることを確認する
+- テーマの更新: コンソール UI コントロールが色のコントラストを満たしていることを確認するために、コンソールの背景をニュートラルな色にしながら、部屋のディスプレイの前面にのみカスタム背景イメージを保持します。アクセシビリティ要件
 - Teams 通話/会議で Microsoft Teams PC、Web、モバイル クライアントに一貫性のあるエクスペリエンスを提供するための会議中通話制御用のユニバーサル バー<sup>1</sup>
 - Teams 通話/会議後の通話品質フィードバックの評価<sup>1</sup>
-- PC/Web/Mobile Teams クライアント<sup>1</sup> <sup>2</sup> から共有された場合、ルームディスプレイの前面Microsoft Teams Rooms Microsoft Whiteboard を受信/レンダリングする
+- PC/Web/Mobile Teams クライアント<sup>1</sup> <sup>2</sup> から共有するときに、会議室ディスプレイの前面Microsoft Teams Rooms Microsoft Whiteboard を受信/レンダリングする
 - Microsoft Teams Rooms クライアントに伴う互換性の問題が原因で、Windows 10 バージョン 1809 のアップグレードに対するサポートが削除。 Windows 10 バージョン 19H1 のサポートは今後のリリースで追加されます
 
 <sup>1</sup> Microsoft Teams サービスが Teams リングを使用して提供されます。 この機能は 4.0.105.0 クライアントの更新の前後に使用可能になります
@@ -606,7 +606,7 @@ Windows 10 Enterprise Anniversary エディション (英語版、バージョ�
 - フロント オブ ルーム ディスプレイやプロジェクターで既存の投資を再利用
 - ちょっとした打ち合わせから、大規模な会議室まで、すべてのタイプのミーティング スペースに対応
 - Skype for Business の認定オーディオ デバイスとビデオ デバイスはさまざまなサイズのルームで利用可能
-- 会議室と Skype 会議へのプロジェクト デスクトップ共有への組み込みのワイヤード (有線) 取り込み
+- 会議室と Skype 会議へのプロジェクト デスクトップ共有への組み込みの有線取り込み
 
  **展開が簡単に、管理が単純に**
 

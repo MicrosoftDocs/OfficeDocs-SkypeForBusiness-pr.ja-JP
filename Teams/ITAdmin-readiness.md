@@ -18,12 +18,12 @@ ms.custom:
 description: Microsoft Teamsの計画、展開、および実行方法に関するトレーニングビデオ、PowerPointデッキ、チュートリアル、およびその他の管理者向けリソース。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b456bd4e9887c5d8d2f8ff61667c75ef14a6588a
-ms.sourcegitcommit: 57616ad45eaa8be7f78dd0126d324c8777c5a367
+ms.openlocfilehash: 0dab76cd8cdca4270555a7f15b8f92f353f7afc5
+ms.sourcegitcommit: ffcc4c7d5688fee28f5fdc8bb8e6b78afb1ee626
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 10/31/2022
-ms.locfileid: "68792816"
+ms.locfileid: "68795449"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニングの概要
 
@@ -80,9 +80,9 @@ ms.locfileid: "68792816"
 
 <h2>Teams Android デバイス</h2>
 
-<p>次の表に、Teams ディスプレイ、Teams 電話、Android 用のTeams Rooms、Teams パネルを含む Microsoft Teams Android デバイスの PowerPoint デッキ (PDF 形式) を使用した包括的なトレーニングへのリンクを示します。  
+<p>次の表には、Microsoft Teams Android デバイスの PowerPoint の包括的なトレーニング デッキへのリンクが含まれています。これには、Teams ディスプレイ、Teams 電話、Android 用Teams Rooms、Teams パネルが含まれています。  
 
-| モジュール | PowerPoint デッキ (PDF)  |
+| モジュール | PowerPoint デッキ  |
 | ------------| -------------------- |
 | モジュール 1: Microsoft Teams Android デバイスの概要  |[デッキ](https://aka.ms/TeamsAndroidModule1) |
 | モジュール 2: Microsoft Teams Android デバイスの計画|[デッキ](https://aka.ms/TeamsAndroidModule2) |
