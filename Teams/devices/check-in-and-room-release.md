@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams パネルのチェックインと会議室のリリース
+title: Microsoft Teams パネルでのチェックインと会議室のリリース
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -15,55 +15,55 @@ ms.collection:
 - Teams_ITAdmin_Devices
 ms.topic: reference
 search.appverid: MET150
-description: この記事では、チェックインと会議室のリリース Teams パネル デバイスを有効にする方法に関するガイダンスを提供します。
-ms.openlocfilehash: 31cdab94ddb6a5c6fdc017b537f446e58aa1c2c5
-ms.sourcegitcommit: 6e677c7d0dfe9e380d70adaca748eea88ca95705
+description: この記事では、チェックインと会議室リリースの Teams パネル デバイスを有効にする方法に関するガイダンスを提供します。
+ms.openlocfilehash: d5998049faf1e3c8c25b3e49470291bb20f97eea
+ms.sourcegitcommit: ab8f8e101e41774668b5e607fa72442105ca796e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/09/2022
-ms.locfileid: "67298327"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "68801858"
 ---
-# <a name="check-in-and-room-release-on-microsoft-teams-panels"></a>Microsoft Teams パネルのチェックインと会議室のリリース
+# <a name="check-in-and-room-release-on-microsoft-teams-panels"></a>Microsoft Teams パネルでのチェックインと会議室のリリース
 
-チェックインと会議室のリリースが有効になっている場合、ユーザーは会議の開始時に予約した会議室の Teams パネルでチェックインします。 ユーザーが会議の開始時刻の後に一定の時間内にチェックインしなかった場合、会議室は会議出席依頼を拒否し、会議の開催者にキャンセル メッセージを送信し、他のユーザーが予約できる会議室になります。  
+チェックインと会議室のリリースが有効になっている場合、ユーザーは会議の開始時に予約した会議室の Teams パネルでチェックインします。 ユーザーが会議の開始時刻から一定時間内にチェックインしない場合、ミーティング ルームは会議出席依頼を拒否し、会議の開催者にキャンセル メッセージを送信し、他のユーザーが予約できるように会議室を使用できるようになります。  
 
 ## <a name="requirements"></a>要件 
 
-この機能は、スタンドアロンのTeams パネルデプロイで使用できます。 また、Android 上のTeams Roomsと Teams パネルをアプリ バージョン 1449/1.0.96.2022011305 以降と組み合わせて、チェックイン通知などの追加機能を利用することもできます。
+この機能は、スタンドアロンのTeams パネルデプロイで使用できます。 また、Android のTeams Roomsと Teams パネルをアプリ バージョン 1449/1.0.96.2022011305 以降とペアリングして、チェックイン通知などの追加機能を提供することもできます。
 
-Teams パネルに関連付けられている共有メールボックスは、この機能が正しく動作するように正しいタイム ゾーンが設定されている必要があります。 共有メールボックスのタイム ゾーンを設定する方法については、「[Outlook on the webの共有メールボックスのタイム ゾーン設定](/exchange/troubleshoot/outlook-on-the-web-issues/shared-mailboxes-time-zone-setting)」を参照してください。
+Teams パネルに関連付けられている共有メールボックスには、この機能が正しく機能するために適切なタイム ゾーンが設定されている必要があります。 共有メールボックスのタイム ゾーンを設定する方法については、「[Outlook on the webの共有メールボックスのタイム ゾーン設定](/exchange/troubleshoot/outlook-on-the-web-issues/shared-mailboxes-time-zone-setting)」を参照してください。
 
-## <a name="enable-check-in-and-room-release"></a>チェックインと会議室のリリースを有効にする 
+## <a name="enable-check-in-and-room-release"></a>チェックインと部屋の解放を有効にする 
 
-チェックインと会議室のリリースは既定でオフになっています。 これをオンにするには、  
+チェックインと部屋の解放は既定でオフになっています。 オンにするには、  
 
-1. Teams パネルで、管理者資格情報を使用してサインインします。  
+1. Teams パネルで、管理者の資格情報を使用してサインインします。  
 
-2. **[設定] > [デバイスの設定] > 管理設定> Teams 管理者設定>会議** に移動します。
+2. [**設定] > [デバイスの設定] > 管理 [設定] > [Teams 管理者設定] > [会議] に移動します**。
 
-3. 誰もチェックインしない場合は、リリース ルームをオンにします。
+3. **誰もチェックインしない場合は、リリース ルームを** オンにします。
 
-4. ユーザーが会議室をリリースする前にチェックインする必要がある時間を調整するには、[ **リリース後にリリース:]** に移動し、ドロップダウンからオプションを選択します。  
+4. ルームが解放される前にユーザーがチェックインする必要がある時間を調整するには、[ **リリース後** : ] に移動し、ドロップダウンからオプションを選択します。  
 
-Teams パネルが Android 上の Teams ルームとペアリングされている場合、ユーザーは Teams ルームで会議に参加していることを確認できます。  
+Teams パネルが Android 上の Teams Room とペアリングされている場合、ユーザーは Teams 会議室で会議に参加していることを確認できます。  
 
 ## <a name="turn-on-check-in-notifications"></a>チェックイン通知を有効にする
 
 > [!NOTE]
 > この機能は現在、Android 上の Teams ルームとペアになっている Teams パネルでのみ使用できます。 Teams パネルと Teams ルームは、同じリソース アカウントにサインインする必要があります。 詳細については、「[Android 上の Microsoft Teams Room とTeams パネルをペアリング](use-teams-panels.md#pair-a-teams-panel-with-a-microsoft-teams-room-on-android)する」を参照してください。  
 
-チェックイン通知は、会議が予約済みの時間帯を過ぎても続く場合に送信されます。 次の会議のユーザーがチェックインすると、スケジュールされた会議の開始時刻に会議室の前面に通知が表示され、前の会議参加者が予約が終了し、ユーザーが空きを待っていることがわかります。  
+チェックイン通知は、会議が予約されたタイム スロットを超えて続行しているときに送信されます。 次の会議のユーザーがチェックインすると、スケジュールされた会議の開始時刻に会議室ディスプレイの前面に通知が表示され、前の会議参加者に予約が終了し、ユーザーがスペースを待っていることがわかります。  
 
 チェックイン通知を有効にするには、  
 
-1. Teams パネルで、管理者資格情報を使用してサインインします。 
+1. Teams パネルで、管理者の資格情報を使用してサインインします。 
 
-2. **[設定] > [デバイスの設定] > 管理設定> Teams 管理者設定>会議** に移動します。
+2. [**設定] > [デバイスの設定] > 管理 [設定] > [Teams 管理者設定] > [会議] に移動します**。
 
-3. **チェックイン** に移動し、[チェックイン通知の **送信**] をオンにします。
+3. [ **チェックイン** ] に移動し、[ **チェックイン通知の送信]** をオンにします。
 
 ## <a name="related-topics"></a>関連項目
 
-- [Microsoft Teams パネルを使用する方法](use-teams-panels.md)
+- [Microsoft Teams パネルの使用方法](use-teams-panels.md)
 
 - [Microsoft Teams パネル](teams-panels.md)

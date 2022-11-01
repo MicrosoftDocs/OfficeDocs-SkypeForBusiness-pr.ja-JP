@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams 会議で電話番号をマスクする方法について説明します
-ms.openlocfilehash: e1ef25f12bdf92bc58739284af2a624257169403
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: cad28ad446c39a45b865fd24767347fdf11bb9c8
+ms.sourcegitcommit: ab8f8e101e41774668b5e607fa72442105ca796e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270822"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "68801768"
 ---
 # <a name="mask-phone-numbers-in-microsoft-teams-meetings"></a>Microsoft Teams 会議で電話番号をマスクする
 
@@ -30,17 +30,25 @@ ms.locfileid: "67270822"
 
 ![マスクされた電話番号の例。](media/hiddenPhoneNum.png)
 
-特定の業界ユース ケースでは、管理者は、テナント内で開催される会議に電話会議参加者の電話番号を表示する方法を選択できます。 管理者は、次の 3 つのオプションから選択できます。
+特定の業界のユース ケースでは、管理者は、電話会議の参加者の電話番号をテナントで編成された会議に表示する方法を選択できます。 管理者は、次の 3 つのオプションから選択できます。
 
-- 電話番号は外部参加者からのみマスクされます。 会議の開催者のテナントに属している参加者には、完全な電話番号が引き続き表示されます。
-- 電話番号は、開催者を除く会議の全員からマスクされます。
-- 電話番号のマスクが解除され、会議の全員に表示されます。
+- 電話番号は外部参加者からのみマスクされます。 会議開催者のテナントに属している参加者には、引き続き完全な電話番号が表示されます。
+- 電話番号は、開催者を除く会議のすべてのユーザーからマスクされます。
+- 電話番号はマスク解除され、会議のすべてのユーザーに表示されます。
 
-この設定は、電話番号が公開されている会議のすべてのサーフェイスに適用されます。
+この設定は、電話番号が公開されている会議のすべてのサーフェスに適用されます。
+
+## <a name="use-teams-admin-center-to-set-phone-number-masking"></a>Teams 管理センターを使用して電話番号マスクを設定する
+
+Teams 管理センターで公衆交換電話網 (PSTN) マスク設定を変更するには、管理者として Teams 管理センターにログインし、左側のナビゲーション パネルで **[会議** > **会議ブリッジ** ] を選択し、[ **ブリッジ設定**] を選択します。 **マスクされた発信者 ID の表示** は、[Bridge settings]\(ブリッジ設定\) ウィンドウの下部にあるドロップダウンです。これにより、次の項目を選択できます。
+
+- 組織外の参加者へ
+- すべての会議参加者へ
+- 無効
 
 ## <a name="use-microsoft-powershell-to-set-phone-number-masking"></a>Microsoft PowerShell を使用して電話番号マスクを設定する
 
-公衆交換電話網 (PSTN) マスク設定を変更するには、[Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) コマンドレットのパラメーターを使用可能なオプションの 1 つに設定 **`MaskPstnNumbersType`** します。
+PowerShell で PSTN マスク設定を変更するには、[Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) コマンドレットのパラメーターを使用可能なオプションのいずれかに設定 **`MaskPstnNumbersType`** します。
 
 外部参加者からのみ電話番号をマスクするには、次のコマンドを実行します。
 
@@ -48,7 +56,7 @@ ms.locfileid: "67270822"
 Set-CsOnlineDialInConferencingTenantSettings -MaskPstnNumbersType "MaskedForExternalUsers"
 ```
 
-会議のすべての参加者 (開催者を除く) からの電話番号をマスクするには、次のコマンドを実行します。
+会議のすべての参加者 (開催者を除く) の電話番号をマスクするには、次のコマンドを実行します。
 
 ```PowerShell
 Set-CsOnlineDialInConferencingTenantSettings -MaskPstnNumbersType "MaskedForAllUsers"
