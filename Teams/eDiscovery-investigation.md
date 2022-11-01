@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f9bca2e40263bdbce65a64bf0da2d5864941fc46
-ms.sourcegitcommit: 57616ad45eaa8be7f78dd0126d324c8777c5a367
+ms.openlocfilehash: 8a9e7afdf55fbcb85dcbbf907ef974a62e4e8492
+ms.sourcegitcommit: 86b9503eb0085e23176cb346767f880ea3a73e77
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/31/2022
-ms.locfileid: "68792796"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "68808296"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Microsoft Teams のコンテンツに対して電子情報開示の調査を行う
 
@@ -53,7 +53,7 @@ ms.locfileid: "68792796"
 |会議メタデータ<sup>1</sup>||
 |チャネルの名前||
 |引用符|引用符で囲まれたコンテンツは検索可能です。 ただし、検索結果は、コンテンツが引用符で囲まれたことを示していません。|
-|反応 (いいね、心、その他の反応など)|リアクションは、2022 年 6 月 1 日以降、すべての商用顧客に対してサポートされます。 この日付より前の反応は、電子情報開示では使用できません。 政府機関向けのクラウド サポートが計画されています。 リアクションに対する法的ホールド サポートはありません。|
+|反応 (いいね、心、その他の反応など)|リアクションは、2022 年 6 月 1 日以降、すべての商用顧客に対してサポートされます。 この日付より前のリアクションは、電子情報開示では使用できません。 拡張された反応がサポートされるようになりました。 反応履歴を理解するには、コンテンツが法的に保留されている必要があります。|
 |件名||
 |テーブル||
 |Teams ビデオ クリップ (TVC)|"Video-Clip" キーワードで TVC を検索し、プレビューを右クリックして各 TVC 添付ファイルの.mp4 ファイルを "名前を付けて保存" します (キーワードによる検索は 2022 年 10 月に利用可能になります)。 TVC データは、電子情報開示 [レビュー セット](/microsoft-365/compliance/add-data-to-review-set)で検出できます。
@@ -204,17 +204,17 @@ Microsoft Teams データは、Excel 電子情報開示エクスポート出力�
    Start-ComplianceSearch <search name>
    ```
 
-6. に [https://compliance.microsoft.com](https://compliance.microsoft.com) 移動し、[ **すべての** > **コンテンツ検索** を表示] をクリックします。
+6. に [https://compliance.microsoft.com](https://compliance.microsoft.com) 移動し、[ **すべての** > **コンテンツ検索** を表示] を選択します。
 
 7. 検索の一覧で、手順 4 で作成した検索を選択してポップアップ ページを表示します。
 
 8. ポップアップ ページでは、次のことを実行できます。
 
-   - [ **結果の表示** ] をクリックして検索結果を表示し、コンテンツをプレビューします。
+   - [ **結果の表示]** を選択して検索結果を表示し、コンテンツをプレビューします。
 
-   - **[クエリ**] フィールドの横にある **[編集**] をクリックして編集し、検索を再実行します。 たとえば、検索クエリを追加して結果を絞り込むことができます。
+   - **[クエリ**] フィールドの横にある **[編集]** を選択して編集し、検索を再実行します。 たとえば、検索クエリを追加して結果を絞り込むことができます。
 
-   - [ **結果のエクスポート]** をクリックして、検索結果をエクスポートしてダウンロードします。
+   - [ **結果のエクスポート]** を選択して、検索結果をエクスポートしてダウンロードします。
 
 ## <a name="search-for-card-content"></a>カード コンテンツを検索する
 
@@ -245,7 +245,7 @@ Teams チャネル、1:1 チャット、1xN チャットのアプリによって
 
 - **非フェデレーション**: 組織のユーザーとゲスト ユーザーとの Teams 会議では、Teams 会議をホストする組織内の管理者のみが、会議のチャット メッセージ内のコンテンツを検索できます。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-articles"></a>関連記事
 
 - [Microsoft 365 電子情報開示ソリューション](/microsoft-365/compliance/ediscovery)
 - [電子情報開示の概要 (Standard)](/microsoft-365/compliance/get-started-core-ediscovery)
