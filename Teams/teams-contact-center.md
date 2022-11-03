@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
-ms.openlocfilehash: 6d71fc6dd788a7c9a65c784131d1b6cfa0488da7
-ms.sourcegitcommit: e0dfa7dbfb03c41f096ed0ad80f44de8e147ed26
+ms.openlocfilehash: e5dd477440aff213f189f33a465f8dfba5667de3
+ms.sourcegitcommit: 92a0df6fc3aa62cec1bf72a40690fb8e16226965
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68743152"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "68836741"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams のコンタクト センター統合
 
@@ -90,6 +90,7 @@ Microsoft Teams 認定プログラム用の接続済み連絡先センターは�
 | `Sikom` | http://www.sikom.de/microsoft-teams/                            |
 | `Solgari` | https://solgari.com/converse-for-teams/                       |
 | `Ultatel` | https://www.ultatel.com/microsoft-teams-contact-center/                     |
+| `Unexus` | https://www.unexus.nl/en/solutions/unexus-connect/                |
 | `Vonage` |  https://www.vonage.com/contact-centers/integrations/microsoft-teams/                                 |
 
 この一覧は、より多くのソリューション プロバイダーが参加し、認定基準を満たすにつれて更新されます。
