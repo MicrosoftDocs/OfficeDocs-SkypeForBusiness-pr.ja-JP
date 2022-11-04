@@ -9,7 +9,7 @@ ms.reviewer: baluc
 ms.service: msteams
 search.appverid: MET150
 ms.localizationpriority: high
-description: Microsoft Teams ライセンスが付与されていない Microsoft 365 または Office 365 ユーザーは、Exploratory Teams ライセンスを開始できます。
+description: Microsoft Teams のライセンスを持たない Microsoft 365 または Office 365 ユーザーは、Exploratory Teams ライセンスを開始できます。
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5124c36b48c4cd8d6d2a466cbdc46c962b9aa11
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 5e5535be61aab03158aa11c68ebd3b753b3ca972
+ms.sourcegitcommit: 18e66d54a9e349d4516253addc85cc12892c69a3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68376845"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "68851777"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams Exploratory ライセンスを管理する
 
@@ -60,7 +60,7 @@ Teams Exploratory エクスペリエンスの抽出条件を満たすユーザ�
 - 管理された Azure AD ドメインのメールアドレスをお持ちである。
 - 有料サブスクリプションのテナントに所属している。
 - アクティブな Teams ライセンスを持っていない。
-- ライセンスの割り当てポリシーが作成されたテナントに存在していない。
+- ライセンス割り当てポリシーが作成されたテナントにありません。
 
 ユーザーが (Microsoft 365 管理センターで) アプリや試用版にサインアップできるようにする必要があります。 詳細については、この記事で後述する「[Teams Exploratory エクスペリエンスを管理する](#manage-the-teams-exploratory-experience)」を参照してください。
 
@@ -75,7 +75,7 @@ Teams Exploratory エクスペリエンスの抽出条件を満たすユーザ�
 
 ## <a name="how-users-sign-up-for-the-teams-exploratory-experience"></a>ユーザーが Teams Exploratory エクスペリエンスにサインアップする方法
 
-対象となるユーザーは、デスクトップまたは Web から Teams ([teams.microsoft.com](https://teams.microsoft.com)) にサインインして Teams Exploratory エクスペリエンスにサインアップできます。 現時点では、モバイルを通した探索の有効化はサポートされていません。 サインアップを完了すると、このライセンスは自動的に割り当てられ、組織内の誰かが初めて Teams Exploratory エクスペリエンスを開始すると、テナント管理者に、メール通知が送信されます。
+対象となるユーザーは、デスクトップまたは Web から Teams ([teams.microsoft.com](https://teams.microsoft.com)) にサインインして Teams Exploratory エクスペリエンスにサインアップできます。 現時点では、モバイル経由での Exploratory の有効化はサポートされていません。 サインアップすると、このライセンスが自動的に割り当てられ、テナント管理者は、組織内のユーザーが初めて Teams Exploratory エクスペリエンスを開始したときに電子メール通知を受け取ります。
 
 ## <a name="manage-the-teams-exploratory-experience"></a>Teams Exploratory エクスペリエンスを管理する
 
@@ -102,7 +102,7 @@ Teams Exploratory エクスペリエンスには Exchange Online ライセンス
 
 ### <a name="manage-availability-for-a-user-with-a-license-that-includes-teams"></a>Teams が含まれているライセンスを持つユーザーの利用可能性を管理する
 
-Teams が含まれているライセンスの割り当てられたユーザーは、Teams Exploratory エクスペリエンスの対象になりません。 Teams のサービス プランが有効なときには、そのユーザーは Teams にログインして使用できます。 サービス プランが無効になっている場合、ユーザーはサインインできず、Teams Exploratory エクスペリエンスは利用できません。 管理者権限が必要です。
+Teams が含まれているライセンスの割り当てられたユーザーは、Teams Exploratory エクスペリエンスの対象になりません。 Teams のサービス プランが有効なときには、そのユーザーは Teams にログインして使用できます。 サービス プランが無効になっている場合、ユーザーはサインインできません。Teams Exploratory エクスペリエンスは使用できません。 管理者権限が必要です。
 
 Teams へのアクセスをオフにするには:
 
@@ -139,10 +139,12 @@ Teams Exploratory ライセンスを持つユーザーは、通常の有料ラ�
 
 ### <a name="upgrade-users-from-teams-exploratory"></a>Teams Exploratory ライセンスからユーザーをアップグレードする
 
-Teams Exploratory ライセンスからユーザーをアップグレードするには管理者権限が必要です。 詳細については、「[Teams Exploratory 試用版からユーザーをアップグレードする](upgrade-from-teams-exploratory.md)」を参照してください。
+Teams Exploratory ライセンスからユーザーをアップグレードするには管理者権限が必要です。 詳細については、「 [Teams Exploratory 試用版からユーザーをアップグレードする](upgrade-from-teams-exploratory.md)」を参照してください。
 
 > [!NOTE]
-> Teams Exploratory ライセンスが終了し、ユーザーが Teams を含むサブスクリプションにすぐにアップグレードされない場合、30 日間の猶予期間が過ぎると、Teams にアクセスできなくなります。 さらに 30 日後、データは削除されます。 ユーザーは引き続き Azure Active Directory に残ります。 ユーザーに新しいライセンスが割り当てられると、Teams の機能は再び有効になり、猶予期間のタイムフレーム内にユーザーが追加された場合はすべてのコンテンツが残ります。
+> Teams Exploratory ライセンスが終了し、ユーザーが Teams を含むサブスクリプションにすぐにアップグレードされない場合、30 日間の猶予期間が経過すると、Teams、OneDrive、Sharepoint にアクセスできなくなります。 さらに 30 日後に、関連付けられている Teams、OneDrive、および SharePoint データが削除されます。 ユーザーは引き続き Azure Active Directory に残ります。
+> 
+> ユーザーに新しいライセンスが割り当てられると、Teams の機能は再び有効になり、猶予期間のタイムフレーム内にユーザーが追加された場合はすべてのコンテンツが残ります。
 
 ### <a name="remove-a-teams-exploratory-license"></a>Teams Exploratory ライセンスを削除する
 
@@ -152,7 +154,7 @@ Teams Exploratory ライセンスからユーザーをアップグレードす�
 
 ## <a name="what-is-the-data-retention-policy"></a>データ保持ポリシーとは
 
-詳細については、「[Microsoft 365 サブスクリプション情報](/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires?view=o365-worldwide)」を参照してください。
+詳細については、「[Microsoft 365 サブスクリプション情報](/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires)」を参照してください。
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Teams Exploratory エクスペリエンスの利用可能期間
 
@@ -163,7 +165,7 @@ Teams Exploratory は、すべての新規のお客様を対象とした (最初
 
 ### <a name="what-should-administrators-do-at-the-end-of-the-12-month-teams-exploratory-experience"></a>12 か月の Teams Exploratory エクスペリエンスの終了時に管理者がすべきこと
 
-12 か月のサブスクリプションの終了時に、管理者はすべての Teams Exploratory ユーザーを Teams を含む有料ライセンスに変換する必要があります。 ユーザー エクスペリエンスの中断を回避するために、Teams Exploratory サブスクリプションの有効期限が切れる前にこの処理を完了しておくことが重要です。
+12 か月のサブスクリプションの終了時に、管理者はすべての Teams Exploratory ユーザーを Teams を含む有料ライセンスに変換する必要があります。 Teams Exploratory サブスクリプションの有効期限が切れる前にこのアクションを完了し、ユーザーのエクスペリエンスが中断されないようにすることが重要です。
 
 
 > [!NOTE]
