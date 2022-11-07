@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams の共有チャネルを使用および管理する方法について説明します。
-ms.openlocfilehash: 378088e4b1f12aee3d71f11fb54aacec8a0ca138
-ms.sourcegitcommit: 89e3681a88f06a9c6860d9eaea598e57b928b68a
+ms.openlocfilehash: ff975d406426bd85789541c0a7cfb0aba57cdf60
+ms.sourcegitcommit: b535a70df5bc842f597889582df3eb86371f8139
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "67795076"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "68869668"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams の共有チャネル
 
@@ -39,7 +39,7 @@ Microsoft Teams の共有チャネルは、チームに参加していないユ�
 
 ## <a name="getting-started-with-shared-channels"></a>共有チャネルの使用を開始する
 
-Teamsでは、共有チャンネルがデフォルトで有効になっています。[チャネル ポリシーを作成](/MicrosoftTeams/teams-policies) すると、ユーザーが共有チャネルを作成できるかどうか、組織外のユーザーと共有できるかどうか、外部の共有チャネルに参加できるかどうかを選択できます。
+Shared channels is enabled by default in Teams. You can choose if people can create shared channels, if they can share them with people outside your organization, and if they can participate in external shared channels by [creating a channel policy](/MicrosoftTeams/teams-policies).
 
 組織外のユーザーとチャネルを共有する場合は、計画に関する重要な考慮事項の詳細について「[外部との共同作業を計画する](/microsoft-365/solutions/plan-external-collaboration)」を参照してください。
 
@@ -69,10 +69,12 @@ Teamsでは、共有チャンネルがデフォルトで有効になっていま
 
 共有チャネルの所有者は、1 つ以上の共有チャネルの最後の所有者である場合、Teams クライアントから削除できません。
 
-最後の共有チャネル所有者が組織を離れた場合、またはチームに関連付けられている Microsoft 365 グループから削除された場合、組織の共有チャネルのメンバーが共有チャネル所有者として自動的に昇格されます。 組織から昇格するメンバーがいない場合、共有チャネルは所有者がいなくなります。 Teams 管理者は、チャネル所有者を手動で割り当てる必要があります。 この状況を回避するために、複数の所有者を追加することを検討してください。
+最後の共有チャネル所有者が組織を離れる場合、またはチームに関連付けられている Microsoft 365 グループから削除された場合、組織の共有チャネルのメンバーが自動的に共有チャネル所有者に昇格されます。 昇格する組織のメンバーがいない場合、共有チャネルは所有者なしのままです。 Teams 管理者は、チャネル所有者を手動で割り当てる必要があります。 この状況を回避するために、複数の所有者を追加することを検討してください。
+
+メンバーに変換されたゲスト (ユーザータイププロパティ内) を含むゲストは、共有チャネルに追加できません。
 
 > [!NOTE]
-> 外部参加者が Azure Active Directory で一致しない場合は、電子メール アドレスではなく UPN を使用して追加する必要があります。
+> 2 人が Azure Active Directory で一致しない場合は、電子メール アドレスではなく UPN を使用して外部参加者を追加する必要があります。
 
 ## <a name="channel-owner-settings"></a>チャネル所有者の設定
 
@@ -118,7 +120,7 @@ Teams は、共有チャネル サイトのライフ サイクルを管理しま
 
 ## <a name="considerations-around-file-access-in-shared-channels"></a>共有チャネルでのファイル アクセスに関する考慮事項
 
-共有チャネル内のファイル、フォルダー、OneNote ノートブックは、 [標準の SharePoint ファイル](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c)共有を使用して、チャネルの外部のユーザーと共有できます (組織外では共有できません)。
+共有チャネル内のファイル、フォルダー、OneNote ノートブックは、 [標準の SharePoint ファイル](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c)共有を使用して、チャネルの外部 (組織外ではない) ユーザーと共有できます。
 
 ユーザーが SharePoint 経由で共有チャネル内のファイル、フォルダー、またはノートブックへのアクセスを許可されている場合、チームまたは共有チャネルからユーザーを削除しても、ユーザーのファイル、フォルダー、またはノートブックへのアクセスは削除されません。
 

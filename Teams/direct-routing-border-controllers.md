@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: どのセッション ボーダー コントローラー (SBC) がダイレクト ルーティングの認証済みであるかについて説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c1908fc1dbfdecc978444d7fc004979c940f8b2a
-ms.sourcegitcommit: 3b2e8ec8c104863208f49f282ab0ffa619ff5057
+ms.openlocfilehash: 4eb53a81fbdddbf4f04d57be7f893ca3fbb6d88f
+ms.sourcegitcommit: b535a70df5bc842f597889582df3eb86371f8139
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/26/2022
-ms.locfileid: "68697356"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "68869572"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングが認定されたセッション ボーダー コントローラー
 
@@ -129,14 +129,14 @@ Microsoft は以下の各ベンダーと協力します。
 ||Mediant 9000 SBC|7.20A.258 サポート済み (7.40A.100 推奨)|
 ||Mediant Virtual Edition SBC|7.20A.258 サポート済み (7.40A.100 推奨)|
 ||Mediant Cloud Edition SBC|7.20A.258 サポート済み (7.40A.100 推奨)|
-|[Ribbon SBC Core](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)|SBC 5110|8.2|
-||SBC 5210|8.2|
-||SBC 5400|8.2|
-||SBC 7000|8.2|
-||SBC SWe|8.2|
-|[Ribbon SBC Edge](https://support.sonus.net/display/UXDOC81/Best+Practice+-+Configuring+Microsoft+Teams+Local+Media+Optimization)|SBC SWe Lite|8.1.5|
-||SBC 1000|8.1.5|
-||SBC 2000|8.1.5|
+|[Ribbon SBC Core](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)|SBC 5110|8.2 以降の SW バージョン|
+||SBC 5210|8.2 以降の SW バージョン|
+||SBC 5400|8.2 以降の SW バージョン|
+||SBC 7000|8.2 以降の SW バージョン |
+||SBC SWe|8.2 以降の SW バージョン|
+|[Ribbon SBC Edge](https://support.sonus.net/display/UXDOC81/Best+Practice+-+Configuring+Microsoft+Teams+Local+Media+Optimization)|SBC SWe Edge (旧称 SWe Lite)|8.1.5 以降の SW バージョン|
+||SBC 1000|8.1.5 以降の SW バージョン|
+||SBC 2000|8.1.5 以降の SW バージョン|
 |[TE-SYSTEMS](https://www.anynode.de/local_media_optimization/)|anynode|4.0.1+|
 |[Oracle](https://www.oracle.com/industries/communications/enterprise-communications/session-border-controller/microsoft.html)|AP 1100|8.4.0.0.0|
 ||AP 3900|8.4.0.0.1 &  9.x|
@@ -165,14 +165,14 @@ Microsoft は以下の各ベンダーと協力します。
 |[Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html)|VME ソフトウェア バージョン サポート 8.3.0.1.2 & 推奨 8.4.x または  9.x|&#10004;|
 |[Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html)|AP 3950 ソフトウェア バージョン サポート 9.x|&#10004;|
 |[Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html)|AP 4900 ソフトウェア バージョン サポート 9.x|&#10004;|
-|[リボン](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[SBC 1000。ソフトウェア バージョン: 8.1.1 (ビルド 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)|&#10004;|
-|[リボン](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[SBC 2000。ソフトウェア バージョン: 8.1.1 (ビルド 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)|&#10004;|
-|[リボン](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 302. ソフトウェア バージョン: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
-|[リボン](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 304. ソフトウェア バージョン: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
-|[リボン](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 2900A. ソフトウェア バージョン: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
-|[リボン](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 4806. ソフトウェア バージョン: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
-|[リボン](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 4808. ソフトウェア バージョン: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
-|[リボン](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 6000. ソフトウェア バージョン: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
+|[リボン](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[SBC 1000。ソフトウェア バージョン: 8.1.1 (ビルド 527) 以降の SW バージョン](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)|&#10004;|
+|[リボン](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[SBC 2000。ソフトウェア バージョン: 8.1.1 (ビルド 527) 以降の SW バージョン](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)|&#10004;|
+|[リボン](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 302。ソフトウェア バージョン: 16.1.1 以降の SW バージョン](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
+|[リボン](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 304。ソフトウェア バージョン: 16.1.1 以降の SW バージョン](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
+|[リボン](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 2900A。ソフトウェア バージョン: 16.1.1 以降の SW バージョン](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
+|[リボン](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 4806。ソフトウェア バージョン: 16.1.1 以降の SW バージョン](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
+|[リボン](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 4808。ソフトウェア バージョン: 16.1.1 以降の SW バージョン](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
+|[リボン](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 6000。ソフトウェア バージョン: 16.1.1 以降の SW バージョン](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
 |[TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)|グランドストリーム GXW42xx (V1.0.7.10) を搭載した任意のノード|&#10004;|
 
 メジャー バージョンに付与された認証に注意してください。 これは、SBC ファームウェアでメジャー バージョンに続く任意の番号のファームウェアがサポートされていることを意味します。

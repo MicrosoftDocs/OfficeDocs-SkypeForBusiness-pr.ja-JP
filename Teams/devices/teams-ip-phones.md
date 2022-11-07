@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Microsoft Teams が最適な結果を得るために認定されているデスクと電話について説明します。
-ms.openlocfilehash: f2b6e74dd276eabda4cb94459a18e87ea4e38c41
-ms.sourcegitcommit: 247ae32098c3601252249ce1de719f5215c8ab75
+ms.openlocfilehash: bcd55c0584c683f76a1dd033628bd99c48a18292
+ms.sourcegitcommit: b535a70df5bc842f597889582df3eb86371f8139
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/02/2022
-ms.locfileid: "68810693"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "68869602"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 認定 Android デバイス
 
@@ -86,10 +86,8 @@ Microsoft Teams デバイス認定プログラムは、認定されたデバイ�
 | Logitech Tap IP VR0029     | `1.6.762`  |   2024 年 9 月 3 日  | Logitech Rally Bar および Rally Bar Mini と互換性があります | 10 |
 | ニートバープロ   | `NFD1.20220914.1210 ` | 2024 年 9 月 3 日  |  中型の部屋(4.5 m x 6 m) | 10|
 | ニート バー | `NFF1.20220914.1210` |2024 年 9 月 3 日|    中型の部屋(4.5 m x 6 m) | 10 |
-| ニート バー | `NFB1.20220211.1400` |2024 年 9 月 3 日|    小会議室 (4.5 m x 4.5 m) | 10 |
 | ニートパッドタッチコンソール | `NFA1.20220914.1206`  | 2024 年 9 月 3 日 | ニートバーのみとの互換性 | 9 |
-| ニートパッドタッチコンソール | `NFA1.20220211.1400`  | 2023 年 8 月 5 日 |  ニートバーのみとの互換性 | 9 |
-| ニートボード | `NFC1.20220211.1400 ` | 2024 年 9 月 3 日 |    小会議室 (4.5 m x 4.5 m) | 10 |
+| ニートボード | `NFC1.20220914.1210 ` | 2024 年 9 月 3 日 |    小会議室 (4.5 m x 4.5 m) | 10 |
 | Logitech Roommate | `1.4.71` | 2024 年 9 月 3 日  | 大会議室 (4.5 m x 8.5 m)  |   10  |
 | EPOS EXPAND 80T | `1.2.2.21182.10` | 2023 年 8 月 5 日 | EPOS Vision 3T にバンドル | 9 |
 | Logitech Tap Device     | `1.2.982`  |   2024 年 9 月 3 日  | Logitech Rally Bar および Rally Bar Mini と互換性があります | 10 |

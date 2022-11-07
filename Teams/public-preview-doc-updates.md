@@ -14,29 +14,29 @@ ms.reviewer: dansteve
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Microsoft Teams のパブリック プレビューについて説明します。新機能を試して、フィードバックを送信してください。
+description: Learn about the public preview in Microsoft Teams. Try out new features and provide feedback.
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 25e3819b4ac14e770e55829d00654659970246f0
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: ffdd34d8a36726d96bc44ae766e91ca6ae77280b
+ms.sourcegitcommit: b535a70df5bc842f597889582df3eb86371f8139
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66564125"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "68869592"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams パブリック プレビュー
 
 > [!NOTE] 
 > プレビューに含まれている機能は完全でないため、一般公開前に変更される場合があります。 これらは、評価と調査のみを目的としています。 プレビュー機能は、Office 365 Government Community Cloud (GCC) ではサポートされていません。
 
-Microsoft Teams のパブリック プレビューを使用すると、Teams の未公開機能にいち早くアクセスできます。プレビューでは、今後加えられる機能を探したり、テストしたりできます。パブリック プレビューのあらゆる機能に関するフィードバックをお待ちしております。パブリック プレビューは、それぞれのチーム ユーザーごとに有効になっているので、組織全体への影響を心配する必要はありません。
+Public Preview for Microsoft Teams provides early access to unreleased features in Teams. Previews allow you to explore and test upcoming features. We also welcome feedback on any feature in public previews. Public preview is enabled per Team user, so you don't need to worry about affecting your entire organization.
 
-Teams パブリック プレビューで利用可能な機能の一覧については、[Microsoft Teams パブリック プレビュー テクニカル ノート](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)、[Teams 管理者機能のリリースノート](/OfficeUpdates/teams-admin)、[Teams の新機能](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)にアクセスしてください。
+Teams パブリック プレビューで利用できる内容の一覧については、[Microsoft Teams パブリック プレビューの技術ノート](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)、[Teams 管理機能のリリース ノート](/OfficeUpdates/teams-admin)、[および Office Current Channel のリリース ノート (プレビュー)](/officeupdates/current-channel-preview) に関するページを参照してください。
 
 ## <a name="set-the-update-policy"></a>更新ポリシーを設定する
 
-パブリック プレビューは、ユーザー単位で有効になっています。また、パブリック プレビューを有効にするオプションは管理者ポリシーで制御されます。更新ポリシーは、Teams アプリのプレリリースやプレビュー機能を表示する Teams や Office のプレビュー ユーザーを管理するために使用されます。グローバル (組織全体の既定) ポリシーを使用してカスタマイズすることも、ユーザー用に 1 つまたは複数のカスタム ポリシーを作成することもできます。このポリシーは、グローバル ポリシーを上書きしないため、特定のユーザーに割り当てる必要があります。
+Public preview is enabled on a per-user basis, and the option to turn on public preview is controlled in an admin policy. Update policies are used to manage Teams and Office preview users who will see pre-release or preview features in the Teams app. You can use the Global (Org-wide default) policy and customize it, or create one or more custom policies for your users. The policy needs to be assigned to specific users because it doesn't over-write the global policy.
 
 1. [Microsoft Teams 管理センター](https://admin.teams.microsoft.com/)にサインインする。
 
