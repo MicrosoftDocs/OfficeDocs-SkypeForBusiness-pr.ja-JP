@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 参加者とゲストの Teams で会議ポリシー設定を管理する方法について説明します。
-ms.openlocfilehash: 91d48a88aff2784a5e4d420b6ede7d03e3692678
-ms.sourcegitcommit: ab8f8e101e41774668b5e607fa72442105ca796e
+ms.openlocfilehash: a5d18ea0e3f8c6cd008a12258fd94c3a0b725ac3
+ms.sourcegitcommit: 1fe19c4a6e9f6116515df531786cc3e482e27093
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "68801788"
+ms.lasthandoff: 11/08/2022
+ms.locfileid: "68876283"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>会議ポリシーの設定 - 参加者とゲスト
 
@@ -117,6 +117,17 @@ Teams の [ **表示できるユーザー** ] 設定の既定値を指定する�
 |---------|---------|
 |**有効になっていませんが、ユーザーはオーバーライドできます**     | 会議中にユーザーのライブ キャプションが自動的に有効になることはありません。 オーバーフロー (**...**) メニューに [**ライブ キャプションを有効にする**] オプションが表示され、それらを有効にします。 これは、既定の設定です。 |
 |**無効**     | 会議中、ユーザーのライブ キャプションが無効になります。 ユーザーには、それらを有効にするオプションはありません。          |
+
+エンド ユーザーが **ライブ キャプション** を有効にする方法の詳細については、「 [Teams 会議でライブ キャプションを使用する](https://support.microsoft.com/office/4be2d304-f675-4b57-8347-cbd000a21260)」を参照してください。
+
+### <a name="live-translated-captions"></a>ライブ翻訳されたキャプション
+
+> [!NOTE]
+> この機能はパブリック プレビューで一時的に利用できます。 プレビュー後、会議の開催者は、出席者がライブ翻訳されたキャプションを使用するための Teams Premium ライセンスを持っている必要があります。
+
+既定では、会議中に読み上げられた言語で **ライブ キャプション** が表示されます。 **ライブ翻訳されたキャプション** を使用すると、ユーザーは最も使い慣れた言語に翻訳されたキャプションを表示できます。
+
+**Live 翻訳キャプション** を有効にするには、**Live キャプション** を [無効] に設定する必要 **がありますが、ユーザーは** Teams 管理センターでオーバーライドできます。 **Live 翻訳キャプション** をオフにするには、これを **[無効]** に設定します。
 
 <a name="bkcontentsharing"> </a>
 
