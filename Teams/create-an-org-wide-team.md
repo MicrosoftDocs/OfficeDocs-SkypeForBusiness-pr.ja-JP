@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams で組織全体にわたるチームを作成する
+title: Microsoft Teams で組織全体のチームを使用して、全員の共同作業を支援する
 ms.author: mikeplum
 author: MikePlumleyMSFT
 ms.reviewer: phlouie
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 小規模から中規模の組織内の全員が自動的にコラボレーションできる方法を提供するために、Teams で組織全体のチームを作成し、管理する方法をご紹介します。
+description: Teams で組織全体のチームを作成および管理し、小規模から中規模の組織のすべてのユーザーが共同作業を行う方法を提供する方法について説明します。
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -18,45 +18,47 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: faa58d05f0076a8e1784268d8815b4e5377a238b
-ms.sourcegitcommit: 4e4e38075a897b382a6176bbd27c64296923a2e9
+ms.openlocfilehash: 3ae5ffc68d14b9998721010e8f6b8ed595ac26e9
+ms.sourcegitcommit: 6d2e4f5e09b22a8192405f4eba90960a152032d9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/28/2022
-ms.locfileid: "68135717"
+ms.lasthandoff: 11/08/2022
+ms.locfileid: "68885080"
 ---
-# <a name="create-an-organization-wide-team-in-microsoft-teams"></a>Microsoft Teams で組織全体にわたるチームを作成する
+# <a name="use-organization-wide-teams-in-microsoft-teams-to-help-everyone-collaborate"></a>Microsoft Teams で組織全体のチームを使用して、全員の共同作業を支援する
 
-組織全体のチームは、小規模から中規模の組織内の全員がコラボレーションのための単一の協調的なチームの一員に自動的になれる方法を提供します。
+グローバル管理者は、小規模から中規模の組織のすべてのユーザーが 1 つの共同作業チームの一員になる方法を提供する組織全体のチームを作成できます。 組織全体のチームは、組織内のすべてのユーザーを自動的に含め、ユーザーが組織に参加して脱退するにつれてメンバーシップを最新の状態に保ちます。
 
-組織全体のチームでは、グローバル管理者は以下のような特徴を持つパブリック チームを簡単に作成できます。
-- 組織内のすべてのユーザーを取り込む
-- ユーザーの参加や離脱に合わせて、Active Directory を使用してメンバーシップを最新の状態に保ちます。
+組織が Teams を初めて使用し、ユーザー数が 5,000 人以下の場合、組織全体のチームが自動的に作成されます。 組織全体のチームは、10,000 人以下のユーザーを持つ組織に限定されます。 組織全体で最大 5 つのチームを持つことができます。 
 
-グローバル管理者のみが組織全体のチームを作成できます。 現在、組織全体のチームは、ユーザー数が 10,000 人以下の組織に限られます。 組織全体のチーム数も、1 つのテナントに対し 5 つまでに制限されています。 これらの要件が満たされている場合、グローバル管理者がチームを作成する際、**[初めからチームを作成する]** を選択すると、**[組織全体]** オプションが表示されます。
+## <a name="create-an-organization-wide-team"></a>組織全体のチームを作成する
 
-![組織全体のチームを作成するための [組織全体] オプションのスクリーンショット。](media/create-org-wide-team.png "組織全体のチームを作成するための [組織全体] オプションのスクリーンショット。")
+組織全体のチームを作成するには、次の 2 つの方法があります。
 
-組織全体のチームが作成されると、すべてのグローバル管理者と Teams サービス管理者がチームの所有者として追加され、すべてのアクティブなユーザーがチーム メンバーとして追加されます。 ライセンス未付与のユーザーもチームに追加されます。 ライセンスのないユーザーが初めて Teams にサインインすると、Microsoft Teams Exploratory ライセンスがそのユーザーに割り当てられます。 Exploratory ライセンスの詳細については、「[Microsoft Teams Exploratory ライセンスの管理](teams-exploratory.md)」をご覧ください。
+- 既存のチームを組織全体のチームに変換します。 チーム名に移動し、[**その他のオプション** > ] [**チームの編集**] をクリックします。
+
+- [新しいチームをゼロから作成](https://support.microsoft.com/office/174adf5f-846b-4780-b765-de1a0a737e2b) し、[ **組織全体** ] オプションを選択します。
+
+    ![組織全体のチームを作成するための [組織全体] オプションのスクリーンショット。](media/create-org-wide-team.png "組織全体のチームを作成するための [組織全体] オプションのスクリーンショット。")
+
+## <a name="types-of-users-in-an-organization-wide-team"></a>組織全体のチームのユーザーの種類
+
+組織全体のチームが作成されると、すべてのグローバル管理者と Teams 管理者がチームの所有者として追加され、すべてのアクティブなユーザーがチーム メンバーとして追加されます。 チーム メンバーは組織全体のチームから離れることはできませんが、必要に応じてチーム所有者は手動でユーザーを追加または削除できます。 Teams が自動的にユーザーを追加または削除すると、通知が [全般] チャネルに送信されます。
+
+ライセンス未付与のユーザーもチームに追加されます。 ライセンスのないユーザーが初めて Teams にサインインすると、Microsoft Teams Exploratory ライセンスが割り当てられます。 Exploratory ライセンスの詳細については、「[Microsoft Teams Exploratory ライセンスの管理](teams-exploratory.md)」をご覧ください。
 
 以下の種類のアカウントは、組織全体のチームには追加されません。
 
-- サインインからブロックされているアカウント
-- ゲスト ユーザー
+- サインインがブロックされているアカウント
+- ゲスト
 - リソース アカウントやサービス アカウント (自動応答や通話キューに関連するアカウントなど)
 - 会議室または備品用のアカウント
 - 共有メール ボックスでサポートされているアカウント
 
-組織のディレクトリが更新されて新しいアクティブなユーザーが追加されたり、ユーザーが会社を退職したためにアカウントが無効になったりした場合、変更は自動的に同期され、ユーザーはチームに追加または削除されます。 チーム メンバーは、組織全体のチームから抜けることはできません。 チームの所有者は、必要に応じてユーザーを手動で追加または削除できます。
-
 > [!NOTE]
->
-> - If you don't see the **Org-wide** option when creating a team and you're a global admin, you might have reached the five organization-wide teams limit, or your organization might have more than the current size limit of 10,000 members. We're looking to increase this limit in the future. Org-wide teams aren't yet available for Teams for Education.
-> - Rooms that aren't a part of a room list, equipment, and resource accounts might be added or synced to the organization-wide team. Team owners can easily remove these accounts from the team.
-> - メンバーを追加または削除するシステムによるすべての操作は、[全般] チャネルに投稿されます。 また、Teams クライアント チャネルで新しいアクティビティがあったとして、チャネルにマークされます。
-> - 組織が Teams の初心者であり、5,000 人以上のユーザーがいない場合、組織の組織全体のチームが自動的に作成されます。 チーム名はテナント名を反映し、全般チャネルを持ちます。 グローバル管理者は、他のチームと同様にこのチームを編集できます。
+> Rooms that aren't a part of a room list, equipment, and resource accounts might be added or synced to the organization-wide team. Team owners can easily remove these accounts from the team.
 
-## <a name="best-practices"></a>ベスト プラクティス
+## <a name="options-to-get-the-most-out-of-an-organization-wide-team"></a>組織全体のチームを最大限に活用するためのオプション
 
 組織全体のチームを最大限に利用するために、チーム所有者に次のタスクを行うことをお勧めします。
 
@@ -64,15 +66,15 @@ ms.locfileid: "68135717"
 
 チームの所有者だけが一般チャネルに投稿することで、チャネルのノイズを低減します。
 
-1. チームに移動し、全般チャネルを見つけて、 **... を選択します。その他のオプション** > **チャネルの管理**。
+1. チームに移動し、[全般] チャネルを見つけて、[..] を選択します **。その他のオプション** > **チャネルの管理**。
 2. **[チャネル設定]** タブで、**[アクセス許可]** をクリックし、**[所有者のみがメッセージを投稿する]** を選択します。
 
 ### <a name="turn-off-team-and-team-name-mentions"></a>@team と @[チーム名] のメンションを無効にする
 
 @メンションを減らして、組織全体がオーバー ロードしないようにします。
 
-1. チームに移動し、**... をクリックします。その他のオプション** \> **[チームの管理]**
-2. [ **設定]** タブで、[ **@team** \> **または @[チーム名] のオプションを [メンバーに表示] を** オフ@mentionsクリックします。
+1. チームに移動し、[...] をクリックします **。その他のオプション** \> **チームの管理**。
+2. [**設定]** タブ **@mentions**\>クリックし、[**メンバーを表示] オプションをオフにして、@teamまたは @[チーム名] をオン** にします。
 
 ### <a name="automatically-show-important-channels"></a>重要なチャネルを自動的に表示する
 
@@ -93,27 +95,6 @@ ms.locfileid: "68135717"
 
 メンバーは組織全体のチームから抜けることはできませんが、チームの所有者は、所属していないアカウントを削除することにより、チームの参加者名簿を管理できます。 **組織全体のチームからユーザーを削除するには、必ず Teams を使用してください**。 Microsoft 365 管理センターや Outlook のグループなど、別の方法でユーザーを削除した場合、そのユーザーは組織全体のチームに再び追加される可能性があります。
 
-## <a name="faq"></a>よくあるご質問 (FAQ)
-
-### <a name="is-there-a-way-to-create-an-organization-wide-team-other-than-using-the-teams-client"></a>Teams クライアントを使用する以外に、組織全体のチームを作成する方法はありますか?
-
-Only global admins can create an organization-wide team by using the Teams client. If your organization limits creating teams to using PowerShell, the recommended workaround is to add your global admins to the security group of users who can create a team.
-
-詳細については、「[グループを作成できるユーザーを管理する](/microsoft-365/admin/create-groups/manage-creation-of-groups)」をご覧ください。
-
-この回避策が不可能な場合は、PowerShell を使用してパブリック チームを作成し、チームの所有者としてグローバル管理者を追加できます。 次に、グローバル管理者は、チーム名の横にある [**その他のオプション**] をクリックし、[**チームの編集**] をクリックし、プライバシーを [**組織全体: 組織内のすべてのユーザーが自動的に追加されます**] に変更します。
-
-> [!NOTE]
-> **[チームの編集]** オプションにアクセスできるのはチームの所有者のみであること、**[組織全体]** オプションを表示できるのはグローバル管理者のみであることに注意してください。
-
-### <a name="is-there-a-way-to-convert-an-existing-team-to-an-organization-wide-team"></a>既存のチームを組織全体のチームに変換する方法はありますか?
-
-グローバル管理者は、Teams クライアントで編集することにより、既存のチームを組織全体のチームに変換できます。 チーム名にアクセスし、[**その他のオプション**] > [**チームの編集**] の順にクリックします。
-
-### <a name="can-i-create-an-organization-wide-team-using-a-team-template"></a>チーム テンプレートを使用して、組織全体のチームを作ることはできますか?
-
-チーム テンプレートを使用して、組織全体のチームを作ることはできません。 この機能は現在進行中です。
-
-## <a name="see-also"></a>関連項目
+## <a name="related-topics"></a>関連項目
 
 [Microsoft Teams で組織全体のチームを作成する方法](https://www.youtube.com/watch?v=x3qGlwwCz_w)に関するビデオをご覧ください。
