@@ -1,5 +1,5 @@
 ---
-title: 'Microsoft Teams でポリシーを呼び出す: 通話と通話転送の機能'
+title: 'Microsoft Teams でのポリシーの呼び出し: 通話と転送の機能'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: jastark
 audience: admin
 search.appverid: MET150
-description: Microsoft Teams のカスタム通話ポリシーにユーザーを作成、変更、追加する方法と、さまざまな通話ポリシー設定について説明します。
+description: Microsoft Teams のカスタム呼び出しポリシーと、さまざまな呼び出し元ポリシー設定にユーザーを作成、変更、および追加する方法について説明します。
 ms.localizationpriority: medium
 ms.collection:
 - M365-voice
@@ -20,115 +20,131 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c785a6860c1ea45200253e9d2530a80e9dd28f6
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: d8efff8e93dd95ef2b1199b6a766f175e9b2afa4
+ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67708301"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "68892609"
 ---
 # <a name="calling-and-call-forwarding-in-teams"></a>Teams での通話と通話転送
 
-Microsoft Teams では、通話ポリシーによって、ユーザーが使用できる通話と通話の転送機能が制御されます。 通話ポリシーは、ユーザーがプライベート通話を行うことができるか、通話転送を使用するか、他のユーザーまたは外部電話番号に同時に呼び出すか、通話をボイスメールにルーティングするか、通話グループに通話を送信するか、着信通話と発信通話に委任を使用するかを決定します。
+Microsoft Teams では、通話ポリシーによって、ユーザーが使用できる通話および通話転送機能が制御されます。 通話ポリシーは、ユーザーがプライベート通話を行うか、他のユーザーまたは外部の電話番号への通話転送または同時呼び出しを使用できるか、ボイスメールへの通話をルーティングするか、通話グループへの通話を送信するか、着信と発信の呼び出しに委任を使用するかを決定します。
 
 自動的に作成されるグローバル (組織全体の既定) ポリシーを使用するか、カスタム ポリシーを作成して割り当てることができます。
 
-## <a name="create-a-custom-calling-policy"></a>カスタム通話ポリシーを作成する
+## <a name="create-a-custom-calling-policy"></a>カスタム呼び出し元ポリシーを作成する
 
-カスタム通話ポリシーを作成するには、次の手順に従います。
+カスタム呼び出し元ポリシーを作成するには、次の手順に従います。
 
-1. Microsoft Teams 管理センターの左側のナビゲーションで、 **音声** > **通話ポリシー** に移動します。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、[ **音声** > **通話ポリシー**] に移動します。
 2. **[追加]** を選択します。
 3. 通話ポリシーで使用する機能をオンまたはオフにします。
-4. ユーザーがボイスメールに着信通話をルーティングできるかどうかを制御するには、[ **有効]** または [ **ユーザー制御**] を選択します。 ボイスメールへのルーティングを禁止するには、[ **無効]** を選択します。
-5. **[保存]** を選択します。
+    - たとえば、ユーザーが着信通話をボイスメールにルーティングできるかどうかを制御するには、[ **有効]** または [ **ユーザー制御**] を選択します。 ボイスメールへのルーティングを禁止するには、[ **無効**] を選択します。
+4. **[保存]** を選択します。
 
 ## <a name="edit-a-calling-policy"></a>通話ポリシーを編集する
 
 既存の通話ポリシーを編集するには、次の手順に従います。
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、[ **音声** > **通話ポリシー**] を選択します。
-2. 変更するポリシーの横にあるをクリックし、[ **編集]** を選択します。
-3. 必要な変更を加え、[保存] をクリック **します**。
+2. 変更するポリシーの横にあるをクリックし、[編集] を選択 **します**。
+3. 必要な変更を行い、[ **保存**] をクリックします。
 
-## <a name="assign-a-custom-calling-policy-to-users"></a>ユーザーにカスタム通話ポリシーを割り当てる
+## <a name="assign-a-custom-calling-policy-to-users"></a>カスタム呼び出し元ポリシーをユーザーに割り当てる
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## <a name="calling-policy-settings"></a>ポリシー設定の呼び出し
 
-ポリシーの呼び出し用に構成できる設定を次に示します。
+ポリシーの呼び出しに対して構成できる設定を次に示します。
 
 ### <a name="make-private-calls"></a>プライベート通話をする
 
-この設定は、Teams のすべての通話機能を制御します。 Teams のすべての通話機能をオフにするには、これをオフにします。
+この設定は、Teams のすべての呼び出し機能を制御します。 Teams のすべての通話機能をオフにするには、これをオフにします。
 
-### <a name="call-forwarding-and-simultaneous-ringing-to-people-in-your-organization"></a>組織内のユーザーへの通話転送と同時呼び出し
+### <a name="cloud-recording-for-calling"></a>呼び出しのためのクラウド記録
 
-この設定は、着信呼び出しを他のユーザーに転送するか、同時に別のユーザーを呼び出すことができるかを制御します。
+この設定は、ユーザーが通話を記録できるかどうかを制御します。 これは既定ではオフになっています。
 
-### <a name="call-forwarding-and-simultaneous-ringing-to-external-phone-numbers"></a>通話転送と外部電話番号への同時呼び出し
+### <a name="transcription"></a>転写
 
-この設定は、着信呼び出しを外部番号に転送できるか、外部番号を同時に呼び出すことができるかを制御します。
+この設定は、ユーザーが呼び出しの文字起こしを使用できるかどうかを制御します。 これは既定ではオフになっています。
 
-### <a name="voicemail-is-available-for-routing-inbound-calls"></a>ボイスメールは、着信通話のルーティングに使用できます
+### <a name="call-forwarding-and-simultaneous-ringing-to-people-in-your-organization"></a>組織内のユーザーに転送と同時呼び出しを呼び出す
 
-この設定により、着信通話をボイスメールに送信できます。 有効なオプションは次のとおりです。
+この設定は、着信通話を他のユーザーに転送できるか、組織内の別のユーザーを同時に呼び出すことができるかを制御します。 これは既定でオンになっています。
 
-- **有効** ボイスメールは、常に着信通話に使用できます。
-- **無効**  ボイスメールは、着信通話では使用できません。
+### <a name="call-forwarding-and-simultaneous-ringing-to-external-phone-numbers"></a>外部電話番号への転送と同時呼び出し
+
+この設定は、着信呼び出しを外部番号に転送できるか、外部番号を同時に呼び出すことができるかを制御します。 これは既定でオンになっています。
+
+### <a name="voicemail-is-available-for-routing-inbound-calls"></a>ボイスメールは着信通話のルーティングに使用できます
+
+この設定により、着信呼び出しをボイスメールに送信できます。 既定の設定は **[ユーザー制御]** です。 有効なオプションは次のとおりです。
+
+- **有効** ボイスメールは常に着信通話に使用できます。
+- **[無効]**  着信通話ではボイスメールを使用できません。
 - **ユーザー制御** ユーザーは、ボイスメールを使用できるかどうかを判断できます。
 
 ### <a name="inbound-calls-can-be-routed-to-call-groups"></a>着信呼び出しを呼び出しグループにルーティングできます
 
-この設定は、着信呼び出しを通話グループに転送できるかどうかを制御します。
+この設定は、着信呼び出しを呼び出しグループに転送できるかどうかを制御します。 これは既定でオンになっています。
 
-### <a name="delegation-for-inbound-and-outbound-calls"></a>着信呼び出しと発信呼び出しの委任
+### <a name="delegation-for-inbound-and-outbound-calls"></a>受信呼び出しと送信呼び出しの委任
 
-この設定により、受信呼び出しを代理人にルーティングし、委任されたアクセス許可を持つユーザーに代わって発信呼び出しを行うことができます。 詳細については、「 [代理人と電話回線を共有する](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)」を参照してください。
+この設定を使用すると、受信呼び出しをデリゲートにルーティングできます。これにより、委任されたアクセス許可を持つユーザーに代わって、代理人が送信呼び出しを行うことができます。 この設定は既定でオンになっています。 詳細については、「 [代理人と電話回線を共有する](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)」を参照してください。
 
-### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>通話料金のバイパスを防止し、PSTN 経由で通話を送信する
+### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>PSTN 経由での有料バイパスと通話の送信を防止する
 
-これを **オン** に設定すると、PSTN 経由で通話が送信され、ネットワーク経由で通話料をバイパスするのではなく、料金が発生します。
+これを **[オン] に** 設定すると、PSTN 経由で通話が送信され、ネットワーク経由で通話を送信して通行料をバイパスするのではなく、料金が発生します。 この設定は、既定でオフになっています。
 
-### <a name="busy-on-busy-is-available-when-in-a-call"></a>通話中に使用中のビジー状態を利用できます
+### <a name="music-on-hold-for-pstn-calls"></a>PSTN 通話の保留音
 
-ビジー状態 (ビジー状態のオプション) を使用すると、ユーザーが既に通話または会議に参加しているか、通話が保留になっている場合に、着信呼び出しを処理する方法を構成できます。 新しい呼び出しまたは着信は、ビジー状態の信号で拒否することも、ユーザーの未応答の設定に応じてルーティングすることもできます。 ビジー状態のオプションは、テナント レベルまたはユーザー レベルで有効にできます。 通話中のオプションの構成方法に関係なく、通話中または会議中のユーザー、または通話を保留しているユーザーは、新しい通話や会議を開始できません。 この設定は既定で無効になっています。
+この設定を使用すると、PSTN 発信者が保留状態になったときに、保留音をオンまたはオフにすることができます。 既定ではオンになっています。 この設定は、コール パークとボス デリゲート機能には適用されません。 [カスタム音楽を構成](music-on-hold.md)する方法の詳細については、こちらをご覧ください。
+
+### <a name="busy-on-busy-when-in-a-call"></a>通話中のビジー状態
+
+通話中のビジー時 ("ビジー オプション" とも呼ばれます) を使用すると、ユーザーが既に通話または会議に参加している場合、または通話を保留にしている場合の着信呼び出しの処理方法を構成できます。 新規または着信の呼び出しは、ビジー信号で拒否することも、ユーザーの未応答の設定に従ってルーティングすることもできます。 通話または会議のユーザー、または保留中の通話を持つユーザーは、通話中のオプションの構成に関係なく、新しい通話や会議の開始を妨げません。 この設定は、既定では **[無効]** に設定されています。
+
+- **[無効]** ビジー オプションは有効になっていないので、ユーザーが既に通話中でも、新規または着信の呼び出しをユーザーに送信できます。
+- **有効** 新規または着信の呼び出しは、ビジー信号で拒否されます。
+- **未解決** ボイスメールへのルーティングや別のユーザーへの転送など、ユーザーの未回答の設定が使用されます。
 
 ### <a name="web-pstn-calling"></a>Web PSTN 通話
 
-この設定により、ユーザーは Teams Web クライアントを使用して PSTN 番号を呼び出できます。
+この設定を使用すると、ユーザーは Teams Web クライアントを使用して PSTN 番号を呼び出します。 これは既定でオンになっています。
 
-### <a name="automatically-answer-incoming-meeting-invites"></a>受信会議の招待に自動的に応答する
+### <a name="real-time-captions-in-teams-calls"></a>Teams 通話のリアルタイム キャプション
 
-この設定は、受信会議の招待に自動的に応答するかどうかを制御します。 規定ではオフになっています。 この設定は、受信会議の招待にのみ適用されます。 他の種類の呼び出しには適用されません。
+この設定は、Teams 呼び出しのリアルタイム キャプションをユーザーが使用できるかどうかを制御します。 これは既定でオンになっています。
 
-### <a name="allow-music-on-hold"></a>保留音を許可する
+### <a name="automatically-answer-incoming-meeting-invites"></a>会議出席依頼に自動的に応答する
 
-この設定を使用すると、PSTN 発信者が保留になったときに保留音をオンまたはオフにすることができます。 既定ではオンになっています。 この設定は、コール パークと上司の代理機能には適用されません。
-
-### <a name="allow-sip-devices-calling"></a>SIP デバイスの呼び出しを許可する
-
-この設定により、ユーザーは SIP デバイスを使用して通話の発信と受信を行うことができます。
+この設定は、受信した会議出席依頼に自動的に応答するかどうかを制御します。 規定ではオフになっています。 この設定は、受信した会議出席依頼にのみ適用されることに注意してください。 他の種類の呼び出しには適用されません。
 
 ### <a name="spam-filtering"></a>スパム フィルター処理
 
-この設定を使用すると、着信呼び出しで使用できるスパム フィルター処理の種類を制御できます。
+この設定を使用すると、着信呼び出しで使用できるスパム フィルター処理の種類を制御できます。 Basic と Captcha Interactive Voice (IVR) の両方のチェックを実行できます。 これは既定でオンになっています。
 
-### <a name="call-recording-live-captions-and-transcription"></a>通話録音、ライブ キャプション、文字起こし
+### <a name="sip-devices-can-be-used-for-calls"></a>SIP デバイスは通話に使用できます
 
-これらの設定を使用すると、通話記録、ライブ キャプション、文字起こしをユーザーが使用できるかどうかを制御できます。
+この設定により、ユーザーは SIP デバイスを使用して通話を発信および受信できます。 これは既定でオフになっています。
+
+### <a name="open-apps-in-browser-for-incoming-pstn-calls"></a>着信 PSTN 通話用にブラウザーでアプリを開く
+
+この設定は、ユーザーへの PSTN 通話を受信するために、ブラウザーでアプリを自動的に開くかどうかを制御します。 これは、着信呼び出し元の電話番号をアプリに渡して、通話中に関連付けられている顧客レコードを検索するために使用できます。 この設定は、既定でオフになっています。
+
+オンにした場合は、[ **PSTN 通話の着信用にブラウザーでアプリを開く URL] ボックスにアプリへの** リンクを指定する必要があります。 {phone} プレースホルダーを使用して、電話番号 (E.164 形式) を指定された URL に渡すことができます。 または、プレースホルダーなしで汎用 URL を指定することもできます。 これにより、リストされた URL が起動します。
+
+![PSTN 着信ポリシー設定のブラウザーでアプリを開くスクリーンショット。](media/teams-open-apps-in-browser-pstn.png)
 
 ## <a name="related-articles"></a>関連記事
 
-[New-CsTeamsCallingPolicy](/powershell/module/skype/new-csteamscallingpolicy)
-
 [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
-[Get-CsTeamsCallingPolicy](/powershell/module/skype/get-csteamscallingpolicy)
-
-[Grant-CsTeamsCallingPolicy](/powershell/module/skype/grant-csteamscallingpolicy)
-
-[Remove-CsTeamsCallingPolicy](/powershell/module/skype/remove-csteamscallingpolicy)
-
 [ Teams でユーザーにポリシーを割り当てる](policy-assignment-overview.md)
+
+[PSTN 接続オプション](pstn-connectivity.md)
+
+[ユーザーの通話設定を構成する](user-call-settings.md)
