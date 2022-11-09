@@ -22,18 +22,18 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Teams 自動応答&通話キュー履歴レポート Power BI レポートを使用して、自動応答と通話キューの履歴データを表示する方法について説明します。
-ms.openlocfilehash: 2afae8986f1184f1394e806b84aa1ab242c07df2
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: b57180a339ea7aa1548acf16be1f95d3514c294b
+ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738693"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "68890086"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>自動応答&通話キューの履歴レポート
 
 この Power BI テンプレートには、組織が自動応答と呼び出しキューによって処理されている通話の数を報告できる 3 つのレポートが用意されています。  また、エージェントのパフォーマンスに関する分析情報も提供します。
 
-## <a name="v301-published-on-october-26-2022"></a>2022 年 10 月 26 日に公開された V3.0.1
+## <a name="v303-published-on-november-8-2022"></a>2022 年 11 月 8 日に公開された V3.0.3
 
 Teams 自動応答&通話キュー履歴レポート Power BI テンプレートには、次の 3 つのレポートが用意されています。
 
@@ -64,11 +64,11 @@ Power BI Desktopをインストールする必要があります。 [Microsoft W
 
 次の手順を実行します。
 
-1. [Teams 自動応答&通話キュー履歴レポート V3.0.1.zip](https://www.microsoft.com/download/details.aspx?id=104623) ファイルをコンピューターにダウンロードして保存します。
+1. [Teams 自動応答&通話キュー履歴レポート V3.0.3.zip](https://www.microsoft.com/download/details.aspx?id=104623) ファイルをコンピューターにダウンロードして保存します。
 
 1. zip ファイルを開きます。
 
-1. テンプレート ファイルを `Teams Auto Attendant & Call Queue Historical Reports V3.0.0.pbit` 開きます。 Power BI Desktopが起動します。
+1. テンプレート ファイルを `Teams Auto Attendant & Call Queue Historical Reports V3.0.3.pbit` 開きます。 Power BI Desktopが起動します。
 
 1. **データ ソース** を選択するように求められます。  エントリを `api.interfaces.records.teams.microsoft.com` 選択します。
 
@@ -81,9 +81,9 @@ Power BI Desktopをインストールする必要があります。 [Microsoft W
 1. [ **接続**] を選択すると、データが更新されます。
 
 > [!NOTE]
-> v1.63 以前を使用している場合、v3.0.0 が VAAC からデータを取得しようとしたときにエラーが発生する可能性があります。  このエラーを解決するには、以前の資格情報を Power BI からクリアする必要があります。
+> v1.63 以前を使用している場合は、v3.x.x が VAAC からデータを取得しようとしたときにエラーが発生する可能性があります。  このエラーを解決するには、以前の資格情報を Power BI からクリアする必要があります。
 > 
-> 1. v3.0.0 テンプレートを開いてエラーをクリアします。 
+> 1. v3.x.x テンプレートを開いてエラーをクリアします。 
 > 1. [**ファイル** > **オプション] & [設定]****[データ ソース設定]** >  の順に選択します。
 > 1. [ **アクセス許可のクリア**] ドロップダウンを選択し、[ **すべてのアクセス許可のクリア**] を選択します。
 > 1. テンプレートがクリアされたら閉じ、Power BI を再起動します。 もう一度承認するように求められます。 
@@ -376,7 +376,8 @@ Power BI Desktopをインストールする必要があります。 [Microsoft W
 
 |バージョン  |発行日     |Filename                                                           |説明                                         |
 |:--------|:------------------|:------------------------------------------------------------------|:---------------------------------------------------|
-|3.0.1    |2022 年 10 月 26 日   |Teams 自動応答&通話キュー履歴レポート V3.0.0        |テスト データ ソースエントリを削除しました                   |
+|3.0.3    |2022 年 11 月 8 日   |Teams 自動応答&通話キュー履歴レポート V3.0.3        |以下を参照してください。<br>CQD Teams 自動応答&通話キュー履歴レポート - ダウンロードした zip ファイル内の変更Log.docx変更の一覧                                                                             |
+|3.0.1    |2022 年 10 月 26 日   |Teams 自動応答&通話キュー履歴レポート V3.0.1        |テスト データ ソースエントリを削除しました                   |
 |3.0.0    |2022 年 10 月 25 日   |Teams 自動応答&通話キュー履歴レポート V3.0.0        |新しいバックエンド データ ソース                             |
 |1.63     |2022 年 8 月 24 日    |CQD Teams 自動応答&通話キュー履歴レポート V1.63.pbit |以下を参照してください。<br>CQD Teams 自動応答&通話キュー履歴レポート - ダウンロードした zip ファイル内の変更Log.docx変更の一覧                                                                             |
 |1.60     |2022 年 7 月 22 日      |CQD Teams 自動応答&通話キュー履歴レポート V1.60.pbit |以下を参照してください。<br>CQD Teams 自動応答&通話キュー履歴レポート - ダウンロードした zip ファイル内の変更Log.docx変更の一覧                                                                             |

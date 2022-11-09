@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Microsoft Teams で通話キューを設定する方法について説明します。 通話キューには、あいさつメッセージ、保留音楽、通話リダイレクトなどの機能が用意されています。
-ms.openlocfilehash: d4d263587e0ac78b2dff2949adcaa2af8133a3dc
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: 84dd975e93340f6b5985e8239e7bf78f051debbc
+ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738563"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "68890076"
 ---
 # <a name="create-a-call-queue"></a>呼び出しキューを作成する
 
@@ -393,7 +393,7 @@ Teams チャネルを介して最大 200 人のエージェントを追加でき
 1. Microsoft Teams Windows クライアント、Microsoft Teams Mac クライアント、仮想化デスクトップ インフラストラクチャ上の Microsoft Teams。
 2. Microsoft Teams iPhone アプリ、Microsoft Teams Android アプリ。
 3. エージェント ルーティング方法で [最長アイドル時間] を選択すると、プレゼンス ベースのルーティングが自動的に有効になります。
-4. 標準通話キューの一部として個々のユーザーを追加する場合にのみ、順序を設定できます。 配布リストまたは Teams チャネルが使用されている場合、順序はアルファベット順になります。
+4. エージェントが呼び出される順序を設定することはできません。
 5. 電話が場所ベースのルーティングで有効になっているダイレクト ルーティング ゲートウェイからキューにルーティングされる場合、会議モードはサポートされません。
 6. Microsoft Teams 電話のみ。
 7. の [ユーザー設定ポータル] ページを [https://aka.ms/vmsettings](https://aka.ms/vmsettings)使用します。

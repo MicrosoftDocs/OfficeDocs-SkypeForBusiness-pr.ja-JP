@@ -18,12 +18,12 @@ ms.custom:
 description: Microsoft Teamsの計画、展開、および実行方法に関するトレーニングビデオ、PowerPointデッキ、チュートリアル、およびその他の管理者向けリソース。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0dab76cd8cdca4270555a7f15b8f92f353f7afc5
-ms.sourcegitcommit: ffcc4c7d5688fee28f5fdc8bb8e6b78afb1ee626
+ms.openlocfilehash: dbba9535bed24c52578f8c01f37557774bbfa5e3
+ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/31/2022
-ms.locfileid: "68795449"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "68890066"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニングの概要
 
@@ -48,10 +48,11 @@ ms.locfileid: "68795449"
 | ------------ | -------------------- | -------------------- |
 | [Microsoft Mechanics - It YouTube チャネルの Teams Essentials](https://aka.ms/MicrosoftTeamsforIT) | [ビデオ: Teams Essentials for IT](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10:13 分)<br>[ビデオ: 展開& Teams の構成 - 概要](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 分)  <br>[ビデオ: セキュリティとコンプライアンス](https://youtu.be/91lHNKVVvQ4) (12:42 分)<br>[ビデオ: セキュリティとコンプライアンスのための Teams コントロール](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 分)||
 | 基盤 - コア コンポーネント | [ビデオ](https://aka.ms/teams-foundations) | [デッキ](https://aka.ms/teams-foundations-deck) |
+| 電話会議 |  | [デッキ](https://aka.ms/teams-audio-conferencing-deck) |
+| 通話品質の概要 | | [デッキ](https://aka.ms/teams-quality-deck) |
 | Windows デスクトップ クライアント | [ビデオ](https://aka.ms/teams-clients) | [デッキ](https://aka.ms/teams-clients-deck) |
 | ガバナンス、管理、ライフサイクル | [ビデオ](https://aka.ms/teams-governance) | [デッキ](https://aka.ms/teams-governance-deck) |
 | セキュリティとコンプライアンス | [ビデオ](https://aka.ms/teams-security-compliance) | [デッキ](https://aka.ms/teams-security-compliance-deck) |
-| 通話品質の概要 | | [デッキ](https://aka.ms/teams-quality-deck) |
 | 会議の概要 | [ビデオ](https://aka.ms/teams-meetings-intro) | [デッキ](https://aka.ms/teams-meetings-intro-deck) |
 | メディア - 会議がシンプルな理由|[ビデオ](https://aka.ms/media-in-teams)  | [デッキ](https://aka.ms/media-in-teams-deck)|
 | メディア - メディア フロー | [ビデオ](https://aka.ms/teams-media-flows) | [デッキ](https://aka.ms/teams-media-flows-deck)  |
