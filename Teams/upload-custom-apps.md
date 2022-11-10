@@ -18,17 +18,16 @@ f1.keywords:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 組織の Teams アプリ ストアにカスタム アプリをアップロードする方法について説明します。
-ms.openlocfilehash: 8886c2c0904e7ca9c9e0de1e5641b8587ffe50bf
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: c1a664390676f2df68c06c75dee57db3d3c7582c
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738583"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912446"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>アプリ パッケージをアップロードしてカスタム アプリを発行する
 
-> [!NOTE]
-> Teams カスタム アプリを発行すると、組織のアプリ ストア内のユーザーがそれを使用できるようになります。 カスタム アプリを発行する方法は 2 つあり、使用方法はアプリの入手方法によって異なります。 **この記事では、開発者から送信されるアプリ パッケージ (.zip 形式) をアップロードしてカスタム アプリを発行する方法について説明します**。 カスタム アプリを承認するもう 1 つの方法は、開発者が Teams アプリ申請 API 経由でアプリを [[アプリの管理]](manage-apps.md) ページに直接送信するときに使用されます。 この方法の詳細については、「[Teams アプリ 申請 API を使用して送信されたカスタム アプリを発行する](submit-approve-custom-apps.md)」をご覧ください。
+Teams カスタム アプリを発行すると、組織のアプリ ストア内のユーザーがそれを使用できるようになります。 カスタム アプリを発行する方法は 2 つあり、使用方法はアプリの入手方法によって異なります。 この記事では、開発者から送信されるアプリ パッケージ (.zip 形式) をアップロードしてカスタム アプリを発行する方法について説明します。 カスタム アプリを承認するもう 1 つの方法は、開発者が Teams アプリ申請 API 経由でアプリを [[アプリの管理]](manage-apps.md) ページに直接送信するときに使用されます。 この方法の詳細については、「[Teams アプリ 申請 API を使用して送信されたカスタム アプリを発行する](submit-approve-custom-apps.md)」をご覧ください。
 
 この記事では、Teams アプリを開発から展開、検出に順番に移行する方法に関するエンドツーエンドのガイダンスを提供します。 このガイダンスは、アプリの Teams の側面に焦点を当て、管理者と IT 担当者を対象としています。 Teams アプリの開発に関する詳細については、「[Teams 開発者向けドキュメント](/microsoftteams/platform/)」を参照してください。
 

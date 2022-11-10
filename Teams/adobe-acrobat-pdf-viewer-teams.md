@@ -18,14 +18,14 @@ description: Microsoft Teams で PDF ファイルを表示および編集する�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 6a2e6c7ef80258ba07b3450ee983818f0b6ea6e1
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: 546328ade88864f1412a2da6f94caf2d1f44aef8
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738773"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912826"
 ---
-# <a name="adobe-acrobat-as-a-default-pdf-viewer-in-microsoft-teams"></a>Microsoft Teams の既定の PDF ビューアーとしての Adobe Acrobat
+# <a name="set-adobe-acrobat-as-the-default-pdf-viewer-in-microsoft-teams"></a>Microsoft Teams で Adobe Acrobat を既定の PDF ビューアーとして設定する
 
 > [!NOTE]
 > Microsoft Teams の既定の PDF エクスペリエンスとしての Adobe Acrobat は、現在パブリック プレビューでのみ利用できます。 この機能を使用するには、管理者はテナントの[パブリック プレビューを有効に](public-preview-doc-updates.md#enable-public-preview)し、エンド ユーザーが Teams クライアントのバージョンをパブリック プレビューに変更することを確認する必要があります。

@@ -18,16 +18,14 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Teams 管理センターで Microsoft Power Platform を使用して構築されたカスタム アプリへのアクセスを管理する方法について説明します。
-ms.openlocfilehash: 3a81d1db3de7cf4fa82b80526ffdb206bfbe8da6
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: c4ac0bd3551bb53da06de3301447c6bf4842540c
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68656039"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912586"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-teams-admin-center"></a>Teams 管理センターで Microsoft Power Platform アプリを管理する
-
-## <a name="manage-custom-apps-created-using-microsoft-power-platform-apps"></a>Microsoft Power Platform アプリを使用して作成されたカスタム アプリを管理する
 
 この記事では、Microsoft Teams 管理センターで [Microsoft Power Platform](https://powerplatform.microsoft.com/) アプリを使用して作成されたカスタム アプリを管理する方法の概要について説明します。 カスタム アプリは、組織内の開発者によって内部ユーザー用に作成されます。
 

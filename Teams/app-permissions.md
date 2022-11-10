@@ -19,14 +19,14 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 64e63b4df818d792f722aed5b61315828a79bf76
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 643c354086d93d7aa3edd4d73216b4b9d5dbbe56
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377135"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912476"
 ---
-# <a name="information-accessed-and-actions-performed-by-teams-apps-and-admin-considerations"></a>Teams アプリと管理者の考慮事項によってアクセスされる情報とアクション
+# <a name="information-accessed-and-actions-performed-by-apps-and-related-admin-considerations"></a>アクセスされた情報とアプリによって実行されるアクション、および関連する管理者の考慮事項
 
 Microsoft Teams アプリは、1 つ以上の機能を、インストール、アップグレード、アンインストールできるアプリに集約します。 アプリの機能は次のとおりです。
 
@@ -37,17 +37,9 @@ Microsoft Teams アプリは、1 つ以上の機能を、インストール、�
 
 管理者は、アプリのみを管理します。 ただし、アプリの機能がアプリの必要なアクセス許可とリスク プロファイルに影響を与えるため、この記事では機能レベルでのアクセス許可と考慮事項に焦点を当てています。 使用する場合、アプリはユーザーが同意し、ポリシーの観点から IT 担当者が管理します。
 
-たとえば、`RECEIVE_MESSAGE` と `REPLYTO_MESSAGE` では、以下のアクセス許可は大文字で一覧表示され、図解と説明のみを目的としています。 これらの文字列またはアクセス許可は、[Microsoft Teams 開発者向けドキュメント](/microsoftteams/platform/overview)や [Microsoft Graph のアクセス許可](/graph/permissions-reference)のどこにも表示されません。
+<!---  The permissions listed below in capital letters, for example `RECEIVE_MESSAGE` and `REPLYTO_MESSAGE` are only for illustration and explanation purpose. These strings or permissions don't appear anywhere in the [Microsoft Teams developer documentation](/microsoftteams/platform/overview) or the [permissions for Microsoft Graph](/graph/permissions-reference).  --->
 
 ## <a name="global-app-permissions-and-considerations"></a>グローバル アプリのアクセス許可と考慮事項
-
-### <a name="required-permissions"></a>必要なアクセス許可
-
-なし
-
-### <a name="optional-permissions"></a>オプションのアクセス許可
-
-なし
 
 ### <a name="considerations"></a>考慮事項
 
@@ -59,25 +51,23 @@ Microsoft Teams アプリは、1 つ以上の機能を、インストール、�
 
 ## <a name="bots-and-messaging-extensions"></a>ボットおよびメッセージングの拡張機能
 
-### <a name="required-permissions"></a>必要なアクセス許可
+### <a name="required-permissions-for-bots-and-messaging-extensions"></a>ボットとメッセージング拡張機能に必要なアクセス許可
 
-* RECEIVE_MESSAGE, REPLYTO_MESSAGE: ボットは、ユーザーからメッセージを受信し、それらに返信できます。<sup>1</sup>
+* ボットは、ユーザーからメッセージを受信し、それらに返信できます。 一部のボットはメッセージのみを送信します。 これらは通知専用ボットと呼ばれますが、この用語はボットが許可されているか、許可されていないことを指しません。 これは、ボットが会話エクスペリエンスを提供しないことを意味します。 Teams では、このフィールドを使用して、通常有効になる UI の機能を無効にします。 ボットは、会話エクスペリエンスを公開するボットと比較して、許可される内容に制限されません。
+* ユーザーがボットにメッセージを送信した後、ボットはユーザーに直接またはプロアクティブなメッセージをいつでも送信できます。
+* チームに追加されたボットは、チーム内のチャネルの名前と ID の一覧を取得できます。
 
-* POST_MESSAGE_USER: ユーザーがボットにメッセージを送信した後、ボットはユーザー ダイレクト メッセージ (*プロアクティブ メッセージ* とも呼ばれます) をいつでも送信できます。
+### <a name="optional-permissions-for-bots-and-messaging-extensions"></a>ボットとメッセージング拡張機能のオプションのアクセス許可
 
-* GET_CHANNEL_LIST: Teams に追加されたボットは、チーム内のチャネルの名前と ID の一覧を取得できます。
+* チャネルで使用すると、アプリのボットはチーム メンバーの基本的な ID 情報 (名、姓、ユーザー プリンシパル名 [UPN]、メール アドレス) にアクセスできます。 個人チャットまたはグループ チャットで使用すると、ボットはそれらのユーザーと同じ情報にアクセスできます。
 
-### <a name="optional-permissions"></a>オプションのアクセス許可
+* アプリのボットは、ボットと対話していない場合でも、チーム メンバーに直接またはプロアクティブなメッセージを送信できます。
 
-* IDENTITY: チャネルで使用されている場合、アプリのボットはチーム メンバーの基本的な ID 情報 (名、姓、ユーザー プリンシパル名 [UPN]、メール アドレス) にアクセスできます。 個人チャットまたはグループ チャットで使用すると、ボットはそれらのユーザーと同じ情報にアクセスできます。
+* 以下は明示的なアクセス許可ではありませんが、メッセージを受信して返信する機能と、ボットを使用できるスコープによって暗黙的に示されています。
 
-* POST_MESSAGE_TEAM: アプリのボットは、ユーザーがボットと対話したことがない場合でも、いつでもチーム メンバーに直接 (プロアクティブ) メッセージを送信できます。
-
-* 以下に示す内容は、明示的なアクセス許可ではありませんが、RECEIVE_MESSAGE と REPLYTO_MESSAGE、およびボットを使用できる範囲 (マニフェストで宣言) によって暗黙的に示されます。
-
-  * RECEIVE_MESSAGE_PERSONAL、REPLYTO_MESSAGE_PERSONAL
-  * RECEIVE_MESSAGE_GROUPCHAT、REPLYTO_MESSAGE_GROUPCHAT
-  * RECEIVE_MESSAGE_TEAM、REPLYTO_MESSAGE_TEAM
+  * 個人用メッセージを受信し、それに返信します。
+  * グループ チャットを受信して返信します。
+  * チャネル メッセージを受信し、それに返信します。
 
 * 以下に示す内容は、明示的なアクセス許可ではありませんが、RECEIVE_MESSAGE と REPLYTO_MESSAGE、およびボットを使用できる範囲 (マニフェストで宣言) によって暗黙的に示されます。
 
@@ -87,7 +77,7 @@ Microsoft Teams アプリは、1 つ以上の機能を、インストール、�
 
 * SEND_FILES、RECEIVE_FILES:<sup>2</sup> ボットが個人用チャットでファイルを送受信できるかどうかを制御します (グループ チャットまたはチャネルではまだサポートされていません)。
 
-### <a name="considerations"></a>考慮事項
+### <a name="considerations-for-bots-and-messaging-extensions"></a>ボットとメッセージング拡張機能に関する考慮事項
 
 * ボットは、追加されたチームまたはそれらをインストールしたユーザーにのみアクセスできます。
 
@@ -97,13 +87,13 @@ Microsoft Teams アプリは、1 つ以上の機能を、インストール、�
 
 * ユーザーがボットと会話するとき、ボットがユーザーの ID を格納している場合、ユーザーのダイレクト メッセージはいつでも送信できます。
 
-* 理論的には、ボット メッセージにフィッシング サイトやマルウェア サイトへのリンクを含めることができます。 ただし、ボットは、ユーザー、テナント管理者、または Microsoft からグローバルにブロックできます。 [アプリの検証と検証のチェック](overview-of-app-validation.md) により、不正なアプリが Teams ストアで使用できないことが確認されます。
+* 理論的には、ボット メッセージにフィッシング サイトやマルウェア サイトへのリンクを含めることができます。 ただし、ボットは、ユーザー、テナント管理者、または Microsoft からグローバルにブロックできます。 [アプリの検証と検証チェック](overview-of-app-validation.md) により、誤ったアプリが Teams ストアで使用できないことが保証されます。
 
 * ボットは、アプリが追加されたチーム メンバー、または個人チャットまたはグループ チャットの個々のユーザーの基本的な ID 情報を取得 (および格納する場合があります) できます。 これらのユーザーの詳細を取得するには、ボットが Azure Active Directory (Azure AD) にサインインする必要があります。
 
 * ボットは、チーム内のチャネルの一覧を取得 (および格納する場合もあります) できます。このデータは企業ネットワークを離れます。
 
-* 既定では、ボットがユーザーに代わって行動する機能はありませんが、ボットはユーザーにサインインを依頼できます。ユーザーがサインインするとすぐに、ボットはアクセス トークンを持ち、追加の操作を行うことができます。 その他の内容は、ボットとユーザーがサインインする場所によって正確に異なります。ボットは https://apps.dev.microsoft.com/ で登録された Azure AD アプリであり、独自のアクセス許可のセットを持つことができます。
+* 既定では、ボットはユーザーに代わって行動することはできませんが、ボットはユーザーにサインインを求めることができます。ユーザーがサインインするとすぐに、ボットはアクセス トークンを持ち、他の操作を行うことができます。 その他の内容は、ボットとユーザーがサインインする場所によって正確に異なります。ボットは `https://apps.dev.microsoft.com/` で登録された Azure AD アプリであり、独自のアクセス許可のセットを持つことができます。
 
 * ファイルがボットに送信されると、ファイルは企業ネットワークを離れます。 ファイルの送受信には、ファイルごとにユーザーの承認が必要です。
 
@@ -136,7 +126,7 @@ SEND_AND_RECEIVE_WEB_DATA
 
 なし (現在)
 
-### <a name="considerations"></a>考慮事項
+### <a name="considerations-for-tabs"></a>タブに関する考慮事項
 
 * タブのリスク プロファイルは、ブラウザー タブで実行中のものと同じ Web サイトとほぼ同じです。
 
@@ -144,17 +134,9 @@ SEND_AND_RECEIVE_WEB_DATA
 
 ## <a name="connectors"></a>コネクタ
 
-コネクタは、外部システムでイベントが発生したときにチャネルにメッセージを投稿します。
+コネクタは、外部システムでイベントが発生したときにチャネルにメッセージを投稿します。 コネクタに必要なアクセス許可は、チャネルにメッセージを投稿できることです。 コネクタのオプションのアクセス許可は、メッセージに返信するためのアクセス許可です。 一部のコネクタでは、アクション可能なメッセージがサポートされています。これにより、ユーザーは対象の応答をコネクタ メッセージに投稿できます。 たとえば、GitHub の問題に対する応答を追加したり、Trello カードに日付を追加したりします。
 
-### <a name="required-permissions"></a>必要なアクセス許可
-
-POST_MESSAGE_CHANNEL
-
-### <a name="optional-permissions"></a>オプションのアクセス許可
-
-REPLYTO_CONNECTOR_MESSAGE。 特定のコネクタでは、アクション可能なメッセージがサポートされています。たとえば、GitHub の問題に対する応答を追加したり、Trello カードに日付を追加したりすることで、ユーザーはコネクタ メッセージにターゲットを設定した返信を投稿できます。
-
-### <a name="considerations"></a>考慮事項
+### <a name="considerations-for-connectors"></a>コネクタに関する考慮事項
 
 * コネクタ メッセージを投稿するシステムには、受信者に関する情報が開示されず、誰に投稿しているか、誰がメッセージを受け取るかを知りません。 (Microsoft は実際の受信者であり、テナントではありません。Microsoft は、チャネルへの実際の投稿を行います。)
 
@@ -175,17 +157,13 @@ REPLYTO_CONNECTOR_MESSAGE。 特定のコネクタでは、アクション可能
 
 ## <a name="outgoing-webhooks"></a>送信 Webhook
 
-_送信 Webhook_ は、チームの所有者またはチーム メンバーによって作成されます。 この機能は、Teams アプリの機能ではありません。この情報は完全に含まれています。
+送信 Webhook は、チームの所有者またはチーム メンバーによって作成されます。 この機能は、Teams アプリの機能ではありません。この情報は完全に含まれています。
 
-### <a name="required-permissions"></a>必要なアクセス許可
+### <a name="required-permissions-for-outgoing-webhooks"></a>送信 Webhook に必要なアクセス許可
 
 RECEIVE_MESSAGE、REPLYTO_MESSAGE。 ユーザーからメッセージを受信し、それらに返信できます。
 
-### <a name="optional-permissions"></a>オプションのアクセス許可
-
-なし
-
-### <a name="considerations"></a>考慮事項
+### <a name="considerations-for-outgoing-webhooks"></a>送信 Webhook に関する考慮事項
 
 * 送信 Webhook はボットに似ていますが、特権はボットより少なくなります。 ボットと同様に、明示的にメンションする必要があります。
 

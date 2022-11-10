@@ -18,18 +18,18 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: ロゴ、カスタム背景、カスタム テキストの色を追加して、組織の Teams アプリ ストアをカスタマイズする方法について説明します。
-ms.openlocfilehash: 4a7a34324619f3c076a5abd7069e129d59420e6a
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: cd75f7f5a1eaf27b02252cd430e7856ce78007c0
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837207"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912456"
 ---
 # <a name="customize-your-organizations-app-store-in-microsoft-teams"></a>Microsoft Teams で組織のアプリ ストアをカスタマイズする
 
-会社のブランドを反映するように、組織のアプリ ストアをカスタマイズできます。 ロゴ、カスタム背景、およびカスタム テキストの色を追加して、エンド ユーザーにとってより魅力的にすることができます。
+組織のアプリ ストアをカスタマイズして、会社のブランド化を反映できます。 ロゴ、カスタム背景、カスタム テキストの色を追加して、エンド ユーザーにとってより魅力的にすることができます。
 
-Teams **アプリ** > の [ストアのカスタマイズ] を選択すると、Teams 管理センターで **[カスタマイズされたストア](https://admin.teams.microsoft.com/policies/customize-appstore)** にアクセスできます。 変更の詳細については、次の手順に従います。
+Teams 管理センターでカスタマイズされたストアにアクセスするには、[**Teams アプリ** > ] [**[ストアのカスタマイズ](https://admin.teams.microsoft.com/policies/customize-appstore)**] を選択します。 変更の詳細については、次の手順に従います。
 
 ## <a name="customize-your-organization-logo"></a>組織のロゴをカスタマイズする
 
@@ -37,7 +37,7 @@ Teams **アプリ** > の [ストアのカスタマイズ] を選択すると、
 <a name="orglogo"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-ここでは、組織のロゴをアップロードできます。 選択したロゴは、組織の [ **アプリ** > **のビルド]** ページの Teams クライアントに表示されます。
+ここでは、組織のロゴをアップロードできます。 選択したロゴは、[組織用に **構築された****アプリ]** >  ページの Teams クライアントに表示されます。
 
 **[画像の選択]** オプションを選択すると、任意のファイルをアップロードできます。 ロゴは 240 x 60 にする必要があります。または、そのサイズにスケーリングされます。 5 MB 以下にする必要があります。 サポートされている形式は、.svg、.png、.jpg です。
 
@@ -49,7 +49,7 @@ Teams **アプリ** > の [ストアのカスタマイズ] を選択すると、
 <a name="custombackground"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-ユーザーがテキストを明確に読むことができるように、背景にテキストとの十分なコントラストがあることを確認します。 背景は、**組織ヘッダー用にビルドされた****アプリ** > の Teams クライアントに表示されます。
+ユーザーがテキストを明確に読むことができるように、背景にテキストとの十分なコントラストがあることを確認します。 バックグラウンドは、**組織ヘッダー用に構築された****アプリ** > の Teams クライアントに表示されます。
 
 オプションは次のとおりです。
 
@@ -78,5 +78,7 @@ Teams **アプリ** > の [ストアのカスタマイズ] を選択すると、
 
 :::image type="content" source="media/PowerAppsInStore650w.png" alt-text="カスタマイズされたアプリ ストアの例を示すスクリーンショット。":::
 
+<!--- confirm:
 > [!NOTE]
-> 一部の既定の色はユーザーの Teams クライアントのバージョンに基づいているため、カスタマイズされたアプリ ストアの最終バージョンとは異なる場合があります。
+> The representation might vary from the final version of your customized apps store because some default colors are based on your users' version of Teams client.
+--->

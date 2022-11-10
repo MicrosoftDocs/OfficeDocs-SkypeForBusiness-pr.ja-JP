@@ -18,14 +18,14 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: アプリのメタデータと外観を変更して、組織での導入を改善するためにブランドを変更する方法について説明します。
-ms.openlocfilehash: f12e6ead6c0d031100bcf30783de980986a14563
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: 870ee97b874b2600abf136cd045d47e9fca934d3
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738733"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912656"
 ---
-# <a name="use-app-customization-to-update-branding-of-apps-in-your-organizations-teams-store"></a>アプリのカスタマイズを使用して、組織の Teams ストア内のアプリのブランド化を更新する
+# <a name="use-app-customization-to-update-branding-of-apps-in-your-org-store"></a>アプリのカスタマイズを使用して、組織ストアのアプリのブランド化を更新する
 
 Microsoft Teams 管理者は、一部の Teams アプリの外観を変更して、組織のエンド ユーザーにパーソナライズされたブランドのエクスペリエンスを提供できます。 このような変更により、エンド ユーザーの Teams ストア エクスペリエンスが強化され、組織のブランド化に準拠しやすくなります。 たとえば、管理者はアプリの説明とアイコンを変更できます。 このカスタマイズにより、エンド ユーザーはアプリを内部ツールとして識別し、組織固有のユース ケースを理解し、安心して使用できるようになります。 管理者は、アプリのメタデータまたはプロパティを変更することで、これらの更新を行います。 変更は組織内でのみ使用できます。 この機能は、アプリのカスタマイズと呼ばれます。
 
@@ -154,7 +154,7 @@ Teams ストア内のすべてのカスタマイズ可能なアプリを見つ�
 | --- | --- |
 | エンド ユーザーは更新プログラムを利用できません。 | 変更が反映されるまで数時間待ちます。 |
 | アプリをカスタマイズできません。 | [アプリがカスタマイズ可能](#verify-if-an-app-is-customizable)かどうかをクロスチェックします。|
-| アプリのカスタマイズを開始しましたが、変更を保存または適用できません。 | フィールドの制限に従います。 UI のエラーと[アプリのカスタマイズの制限事項を](#considerations-and-limitations-of-app-customization)探す |
+| アプリのカスタマイズを開始しましたが、変更を保存または適用できません。 | フィールドの制限に従います。 UI のエラーと [アプリのカスタマイズの制限事項を探します](#considerations-and-limitations-of-app-customization)。 |
 | [アプリの管理] ページが正しく読み込まれていない。 アプリの一覧が表示されません。 | 使用中のアカウント管理、Teams ライセンスが割り当てられている必要があります。 |
 
 <!--- Check ICM for error string. --->

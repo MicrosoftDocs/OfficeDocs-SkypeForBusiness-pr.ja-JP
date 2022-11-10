@@ -1,5 +1,5 @@
 ---
-title: カスタム アプリのポリシーと設定を管理する
+title: カスタムアプリとサイドロードされたアプリのポリシーと設定を管理する
 author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: カスタム アプリのポリシーと設定を管理して、Microsoft Teams でカスタム アプリをアップロードできる組織内のユーザーを制御する方法について説明します。
+description: ポリシーと設定を管理して、アプリをサイドロードしてカスタム アプリをアップロードできる組織内のユーザーを制御する方法について説明します。
 f1.keywords:
 - CSH
 ms.custom:
@@ -24,23 +24,38 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: 2bbd6d048fdb3e2f0a0d4f9723552127161d25f8
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: 7cf290c3f031becab73523fceb031cae4e0a55a8
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68656013"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912416"
 ---
-# <a name="manage-custom-apps-and-settings-in-teams-admin-center"></a>Teams 管理センターでカスタム アプリと設定を管理する
+# <a name="manage-custom-and-sideloaded-apps-in-teams-admin-center"></a>Teams 管理センターでカスタムアプリとサイドロードされたアプリを管理する
 
-<!--- TBD: Describe custom apps
---->
+Microsoft Teams を使用すると、組織内の開発者は、組織の内部ユーザー向けのカスタム アプリを構築、テスト、展開できます。 このようなアプリは、カスタム アプリまたは基幹業務 (LOB) アプリと呼ばれます。 組織は、組織固有の要件に応じてカスタム アプリの作成を委託する場合があります。 管理者は、さまざまな設定とポリシーを使用して、カスタム アプリのロールアウトとアクセス許可を制御します。
+
+:::image type="content" source="media/custom-app-orgwide-setting-trimmed.png" alt-text="組織全体の設定パネルで組織内のカスタム アプリを許可する方法を示すスクリーンショット。" lightbox="media/custom-app-orgwide-setting.png":::
+
+カスタム アプリの使用を許可すると、エンド ユーザーは、Teams ストアの左側のナビゲーションで **[組織向けに開発]** を選択して、それを見つけることができます。
+
+:::image type="content" source="media/built-for-your-org1.png" alt-text="Teams デスクトップ アプリの Teams ストアにあるカスタム アプリのスクリーンショット。" lightbox="media/built-for-your-org2.png":::
 
 Teams 管理者は、カスタム アプリ ポリシーと設定を使用して、組織内のユーザーが Microsoft Teams にカスタム アプリをアップロードできるユーザーを制御します。 管理者は、カスタム アプリをアップロードできるユーザーを決定し、管理者とチーム所有者は、組織内の特定のチームがカスタム アプリの追加を許可するかどうかを決定できます。 カスタム アプリ ポリシーを編集した後、変更が有効になるまで数時間かかる場合があります。 これらのポリシーを管理するには、グローバル 管理または Teams サービス管理者である必要があります。
 
 組織内の開発者は、アプリ パッケージ (.zip ファイル内) をチームに直接アップロードするか、個人的なコンテキストでアップロードすることにより、カスタム アプリを Teams に追加できます。 これは、Teams アプリ ストアからアプリを追加する方法とは異なります。 アプリ パッケージをアップロードしてカスタム アプリを追加する (サイドローディングとも呼ばれます) と、組織内の特定のユーザーは、広く配布する準備が整う前にアプリをテストできます。
 
-アプリの作成中に、開発者はアプリ ID を作成してマニフェスト ファイルに追加します。 この外部アプリ ID は、列設定から列 `External app ID` を有効にした後、[アプリの管理] ページで表示できます。 カスタム アプリのアプリの詳細ページでも表示できます。 この ID は、カスタム アプリにのみ適用されます。
+<!--- During the creation of an app, the developers create and add an app ID to the manifest file. You can view this external app ID on the Manage apps page after you enable the column `External app ID` from the column settings. You can also view it on the app details page of a custom app. The ID is applicable for custom apps only. --->
+
+## <a name="understand-sideloading-of-custom-apps"></a>カスタム アプリのサイドローディングを理解する
+
+カスタム アプリを開発し、それらのアプリをエンド ユーザーに配布する前に、開発者はテストするために Teams ストアにアプリを追加してアプリをテストします。 開発者は、自分または指定したユーザー グループでテストできますが、ストアを介して組織内の他のエンド ユーザーがアプリを使用することはできません。 この方法は、アプリのサイドローディングと呼ばれ、カスタム アプリにのみ適用されます。
+
+開発者は、通常は開発中のアプリをテストするために、特定のチームのメンバーがアプリを利用できるようにアプリをサイドロードできます。 この方法でのアプリの使用はアプリ開発者に制限され、管理者が Teams でのサイドローディングを許可している限り、管理者の承認は必要ありません。
+
+開発者は、サイドロードされたアプリを Teams アプリ カタログに送信せずに、特定のチームと共有できます。 これにより、サイドロードされたカスタム アプリは、エンド ユーザーの限定されたグループで使用できますが、組織のアプリ ストアではすべてのエンド ユーザーが使用できなくなります。
+
+管理者は、すべての開発者に対してアプリのサイドローディングを禁止できます。 サイドローディングを禁止した場合でも、開発者は[別のテスト テナントを作成](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant)してアプリをテストできます。 カスタム アプリの開発が完了すると、開発者はカスタム アプリをエンド ユーザーに配布するよう管理者に要求します。 詳細については、[カスタム アプリを発行する方法](/microsoftteams/upload-custom-apps)を参照してください。 管理者は、すべてのユーザーまたは特定のユーザーに対してカスタム アプリの使用を許可 (またはブロック) します。
 
 ## <a name="custom-app-policy-and-settings"></a>カスタム アプリ ポリシーと設定
 
@@ -71,9 +86,14 @@ Teams 管理者は、カスタム アプリ ポリシーと設定を使用して
 
 1. Teams 管理センターにサインインし、 **Teams アプリ** > **[のセットアップ ポリシーにアクセスします](https://admin.teams.microsoft.com/policies/app-setup)**。
 1. **[追加]** を選択します。
-1. **[カスタム アプリのアップロード]** を有効/無効にします。
+1. ポリシーの名前と説明を入力します。
+1. **[カスタム アプリのアップロード**] 設定をオンまたはオフにします。
 1. ポリシーに必要なその他の設定を選択します。
 1. **[保存]** を選択します。
+1. カスタム アプリを開発し、それらのアプリのアップロードを許可されている[ユーザーにポリシーを適用](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users)します。
+
+> [!NOTE]
+> この設定を変更するには、 [組織全体のアプリ設定](manage-apps.md#manage-org-wide-app-settings)でカスタム アプリを許可します。
 
 ### <a name="team-custom-app-setting"></a>チーム カスタム アプリの設定
 

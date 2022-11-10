@@ -23,14 +23,14 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 5797486fb0993aa8630a8dedde131ad7751e7e5f
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: aac7024730c3f18e1c0f38a2e041dea840a6b869
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68656023"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912406"
 ---
-# <a name="manage-access-to-teams-apps-using-app-permission-policies"></a>アプリのアクセス許可ポリシーを使用して Teams アプリへのアクセスを管理する
+# <a name="use-app-permission-policies-to-control-user-access-to-apps"></a>アプリアクセス許可ポリシーを使用してアプリへのユーザー アクセスを制御する
 
 管理者は、アプリのアクセス許可ポリシーを使用して、組織内の各ユーザーが使用できるアプリを制御できます。 すべてのアプリまたは特定のアプリを許可またはブロックするように設定したアクセス許可は、 [Teams のすべての種類のアプリに](deploy-apps-microsoft-teams-landing-page.md)適用できます。 これらのポリシーを管理するには、グローバル 管理または Teams サービス管理者である必要があります。
 
@@ -57,10 +57,10 @@ Teams 管理センターでは、次の 2 種類のアクセス許可ポリシ�
 1. ポリシーの名前と説明を入力します。
 1. [ **Microsoft アプリ**]、[ **サード パーティ製アプリ**]、[ **カスタム アプリ**] で、次のいずれかのオプションを選択します。
 
-    * `Allow all apps`
-    * `Allow specific apps and block all others`
-    * `Block specific apps and allow all others`
-    * `Block all apps`
+    * すべてのアプリを許可する
+    * 特定のアプリを許可し、他のすべてのアプリを禁止する
+    * 特定のアプリをブロックし、他のすべてのアプリを許可する
+    * [すべてのアプリをブロック]
 
 1. **[特定のアプリを許可し、他のすべてのアプリをブロックする]** を選択した場合は、以下の手順で許可するアプリを追加します。
 

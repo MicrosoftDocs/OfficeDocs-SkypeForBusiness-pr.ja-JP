@@ -9,46 +9,37 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-description: Microsoft Teams の管理に使用される Teams PowerShell モジュールのアプリケーション ベースの認証について説明します。
+description: Microsoft Teams の管理に使用される Teams PowerShell モジュールでのアプリケーション ベースの認証について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d017f5e23685df6aa6c7ae0630724ad5d13d0425
-ms.sourcegitcommit: ffc7532a4bb1f1f6b3031025b493a5ad20ba4366
+ms.openlocfilehash: 89af4494a6cf20aab512c0430a6e16db622e53a2
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/13/2022
-ms.locfileid: "68570420"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912646"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Teams PowerShell モジュールでのアプリケーション ベースの認証
 
-アプリケーション ベースの認証は、Teams PowerShell モジュールでサポートされるようになりました。バージョン 4.7.1 以降のプレビューでは、一連のコマンドレットが制限されています。 現在、この認証モードは商用環境でのみサポートされています。
+アプリケーション ベースの認証は、バージョン 4.7.1-preview 以降のプレビューで Teams PowerShell モジュールでサポートされるようになりました。 現在、この認証モードは商用環境でのみサポートされています。
 
 
 ## <a name="cmdlets-supported"></a>サポートされているコマンドレット
 
-以下のコマンドレットは既にサポートされており、他のコマンドレットは段階的にロールアウトされます。 
+以下に示すコマンドレットを除き、すべてのコマンドレットが現在サポートされています。 
 
-  - Cs 以外 \*のコマンドレット (New-Team を除く)
-  - Get-CsTenant
-  - Get-CsOnlineUser、Get-CsOnlineVoiceUser
-  - \*-CsOnlineSipDomain 
-  - \*-CsPhoneNumberAssignment
-  - \*-CsOnlineTelephoneNumberOrder,Get-CsOnlineTelephoneNumberType, Get-CsOnlineTelephoneNumberCountry
-  - \*-CsCallQueue
-  - \*-CsAutoAttendant、 \*-CsAutoAttendant\*
-  - \*-CsOnlineVoicemailUserSettings
-  - Find-CsOnlineApplicationInstance, \*-CsOnlineApplicationInstanceAssociation, Get-CsOnlineApplicationInstanceAssociationStatus
-  - \*-CsOnlineSchedule、New-CsOnlineTimeRange、New-CsOnlineDateTimeRange
-  - \*-CsOnlineAudioFile
-  - Find-CsGroup
-  - \*-CsOnlineDialInConferencingUser, \*-CsOnlineDialInConferencingServiceNumber, \*-CsOnlineDialInConferencingBridge, Get-CsOnlineDialInConferencingLanguagesSupported, Set-CsOnlineDialInConferencingUserDefaultNumber
-  - \*-CsOnlineLisLocation、 \*-CsOnlineLisCivicAddress、 \*-CsOnlineLisWirelessAccessPoint、 \*-CsOnlineLisPort、 \*-CsOnlineLisSubnet、 \*-CsOnlineEnhancedEmergencyServiceDisclaimer、 \*-CsOnlineLisSwitch
-  - \*-CsCloudCallDataConnection
+  - New-Team
+  - [Get|Set|新規|Sync]-CsOnlineApplicationInstance
+  - \*-CsUserCallingSettings
+  - \*-CsUserCallingDelegate
+  - \*PolicyPackage\*
+  - \*-CsTeamsShiftsConnection\*
+  - \*-CsBatchTeamsDeployment\*
 
 
 ## <a name="examples"></a>例
 
-次の例は、Azure AD アプリ ベースの認証で Teams PowerShell モジュールを使用する方法を示しています。 
+次の例は、Azure AD アプリベースの認証で Teams PowerShell モジュールを使用する方法を示しています。 
 
 - 証明書の拇印を使用して接続します。
 
@@ -59,7 +50,7 @@ ms.locfileid: "68570420"
   
 - アクセス トークンを使用して接続する:
   
-  アクセス トークンは、login.microsoftonline.com エンドポイントを使用して取得できます。 これには、"MS Graph" リソースと "Skype および Teams テナント 管理 API" リソースという 2 つのアクセス トークンが必要です。
+  アクセス トークンは、login.microsoftonline.com エンドポイントを介して取得できます。 "MS Graph" と "Skype と Teams テナント 管理 API" の 2 つのアクセス トークンが必要です。
 
   ```powershell
   $ClientSecret   = "…"
@@ -87,24 +78,24 @@ ms.locfileid: "68570420"
   Connect-MicrosoftTeams -AccessTokens @("$graphToken", "$teamsToken")
   ```
   
-## <a name="how-does-it-work"></a>どのように動作しますか?
+## <a name="how-does-it-work"></a>それはどのように動作しますか?
 
-Teams PowerShell モジュールは、アプリケーション ID、テナント ID、証明書拇印を使用してアプリ ベースのトークンをフェッチします。 Azure AD 内でプロビジョニングされたアプリケーション オブジェクトには、ディレクトリ ロールが割り当てられ、アクセス トークンで返されます。 セッションのロールベースのアクセス制御 (RBAC) は、トークンで使用できるディレクトリ ロール情報を使用して構成されます。
+Teams PowerShell モジュールは、アプリケーション ID、テナント ID、証明書の拇印を使用してアプリ ベースのトークンをフェッチします。 Azure AD 内でプロビジョニングされたアプリケーション オブジェクトには、アクセス トークンで返されるディレクトリ ロールが割り当てられます。 セッションのロールベースのアクセス制御 (RBAC) は、トークンで使用できるディレクトリ ロール情報を使用して構成されます。
 
 
-## <a name="setup-application-based-authentication"></a>アプリケーション ベースの認証をセットアップする
+## <a name="setup-application-based-authentication"></a>アプリケーション ベースの認証を設定する
 
-アプリケーション オブジェクトを使用した認証には、初期オンボードが必要です。 アプリケーションとサービス プリンシパルは同じ意味で使用されますが、アプリケーションはクラス オブジェクトに似ていますが、サービス プリンシパルはクラスのインスタンスのようなものです。 これらのオブジェクトの詳細については、 [Azure Active Directory のアプリケーション オブジェクトとサービス プリンシパル オブジェクトを](/azure/active-directory/develop/app-objects-and-service-principals)参照してください。
+アプリケーション オブジェクトを使用した認証には、初期オンボードが必要です。 アプリケーションとサービス プリンシパルは同じ意味で使用されますが、アプリケーションはクラス オブジェクトに似ていますが、サービス プリンシパルはクラスのインスタンスのようなものです。 これらのオブジェクトの詳細については、 [Azure Active Directory のアプリケーション オブジェクトとサービス プリンシパル オブジェクトに](/azure/active-directory/develop/app-objects-and-service-principals)関するページを参照してください。
 
-Azure Ad でアプリケーションを作成するためのサンプル手順については、以下で説明します。詳細な手順については、この [記事](/azure/active-directory/develop/howto-create-service-principal-portal)を参照してください。
+Azure Ad でアプリケーションを作成するためのサンプル手順を以下に示します。詳細な手順については、この [記事](/azure/active-directory/develop/howto-create-service-principal-portal)を参照してください。
 
-1. Azure AD にアプリケーションを登録する
+1. Azure AD でアプリケーションを登録する
 2. アプリケーションに API アクセス許可を割り当てる
-   - -Cs コマンドレットの場合 \*、API アクセス許可は必要ありません。
-   - Cs 以外\*のコマンドレットの場合、必要な Microsoft Graph APIのアクセス許可は`User.Read.All`、 , `Group.ReadWrite.All`, , `AppCatalog.ReadWrite.All`, `TeamSettings.ReadWrite.All``Channel.Delete.All`, `ChannelSettings.ReadWrite.All`, . `ChannelMember.ReadWrite.All`  
+   - -Cs コマンドレットの場合 \*- API のアクセス許可は必要ありません。
+   - 非 \*Cs コマンドレットの場合- 必要な Microsoft Graph APIアクセス許可は`User.Read.All`、`Group.ReadWrite.All`、、`AppCatalog.ReadWrite.All`、`TeamSettings.ReadWrite.All`、`Channel.Delete.All`、`ChannelSettings.ReadWrite.All`です`ChannelMember.ReadWrite.All`。  
 3. 自己署名証明書を生成する
-4. 証明書を Azure AD アプリケーションにアタッチする
-5. アプリケーションに [Azure AD ロール](/microsoftteams/using-admin-roles#teams-roles-and-capabilities) を割り当てる
+4. Azure AD アプリケーションに証明書をアタッチする
+5. [Azure AD ロール](/microsoftteams/using-admin-roles#teams-roles-and-capabilities)をアプリケーションに割り当てる
 
-アプリケーションには、適切な RBAC ロールが割り当てられている必要があります。 アプリは Azure AD でプロビジョニングされているため、サポートされている組み込みロールのいずれかを使用できます。
+アプリケーションには、適切な RBAC ロールが割り当てられている必要があります。 アプリは Azure AD でプロビジョニングされるため、サポートされている任意の組み込みロールを使用できます。
  

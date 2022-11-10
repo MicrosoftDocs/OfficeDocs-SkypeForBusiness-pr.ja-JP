@@ -21,12 +21,12 @@ description: Teams アプリを管理する方法について説明します。 
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 902b32be43e25c8262ba85bbbb56bd79d424e75c
-ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
+ms.openlocfilehash: 053164da8a521566247e982b09f5f929fe6da406
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "68784192"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912616"
 ---
 # <a name="overview-of-app-management-and-governance-in-teams-admin-center"></a>Teams 管理センターでのアプリ管理とガバナンスの概要
 
@@ -88,6 +88,8 @@ Teams 管理センターを使用するには、グローバル管理者ロー�
 1. **[許可]** または **[ブロック]** オプションを選択します。
 
 特定のユーザーのアプリを許可するには、 [アプリのアクセス許可ポリシーに関するページを](teams-app-permission-policies.md)参照してください。
+
+開発者がアプリを Teams ストアに発行すると、アプリを構成するために管理者が必要になるアプリもあります。 管理者がそのようなアプリを許可する前に、管理センターのように `Blocked by publisher` 表示されます。 発行元のガイダンスに従ってアプリを設定した後、アプリを許可することでユーザーがアプリを使用できるようにします。
 
 ## <a name="manage-org-wide-app-settings"></a>組織全体のアプリ設定の管理
 
@@ -156,16 +158,6 @@ Microsoft 365 Government の場合 - Teams の GCCH および DoD 展開では�
    :::image type="content" source="media/app-permission-policies-gcch-dod-org-wide.png" alt-text="GCCH および DoD で組織全体のアプリ設定のスクリーンショット。スクリーンショット。":::
 
 1. 組織全体のアプリ設定を有効にするには、**[保存]** を選択します。
-
-## <a name="allow-the-apps-that-are-blocked-by-the-developers"></a>開発者がブロックしているアプリを許可する
-
-開発者が Teams アプリ ストアにアプリを発行する場合、アプリ エクスペリエンスを構成またはカスタマイズするために管理者が必要になる場合があります。 管理者は、アプリのセットアップ時にエンド ユーザーがアプリを利用できるようにします。
-
-たとえば、Contoso Electronics は、Microsoft Teams のヘルプ デスク アプリを作成したアプリ開発者です。 Contoso Electronics は、その顧客がアプリを操作するときに期待どおりに機能するように、顧客がアプリの特定のプロパティを設定することを望んでいます。 管理者がアプリケーションを許可する前に、Teams 管理センターで "**発行元 によってブロック済み**" として表示され、既定ではエンド ユーザーから非表示になっています。 発行元のガイダンスに従ってアプリを設定した後、状態を **[許可]** に変更してユーザーが利用できるようにすることができます。
-
-:::image type="content" source="media/blocked-by-publisher.png" alt-text="Teams 管理センターの発行元の状態によってブロックされていることを示すスクリーンショット。":::
-
-開発者が既定でアプリをブロックする方法については、「 [管理者がアプリを許可するまでアプリをブロック](/microsoftteams/platform/concepts/design/enable-app-customization#hide-teams-app-until-admin-approves)できるようにする」を参照してください。
 
 ## <a name="related-article"></a>関連記事
 

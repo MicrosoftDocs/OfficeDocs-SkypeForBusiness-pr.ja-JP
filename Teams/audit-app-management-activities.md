@@ -16,14 +16,14 @@ description: 組織内のユーザーと管理者の Teams アプリ アクテ�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 7abaed00f8bb02daa63d30cd5092e007f8d5a8f5
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 0fd3feb73705a95e0729cb1819d9f355ce3ef711
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377535"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912786"
 ---
-# <a name="audit-for-app-management-activities-and-events"></a>アプリ管理アクティビティとイベントの監査
+# <a name="audit-logs-of-app-management-activities-and-events"></a>アプリ管理アクティビティとイベントの監査ログ
 
 Microsoft 365 のMicrosoft Purview 監査 (Standard) を使用すると、エンド ユーザーと管理者によってさまざまな Microsoft 365 サービスで実行されたアクティビティの監査レコードを検索できます。
 

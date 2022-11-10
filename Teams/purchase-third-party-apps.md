@@ -1,5 +1,5 @@
 ---
-title: サード パーティの Teams アプリのライセンスを購入する
+title: サード パーティ製アプリを購入し、サブスクリプションを管理する
 author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
@@ -10,21 +10,21 @@ audience: admin
 ms.date: 10/04/2022
 ms.collection:
 - M365-collaboration
-ms.reviewer: chhavib, vaibhava, nsuter
+ms.reviewer: chhavib, nsuter
 search.appverid: MET150
 f1keywords: ''
-description: クレジット カード、デビット カード、または請求書請求を使用して、Teams ストアからライセンスのサード パーティ製アプリを購入する方法について説明します。
+description: クレジット カード、デビット カード、または請求書請求を使用して、Teams ストアで有料アプリ ライセンスを購入する方法について説明します。
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 73f16f3b8bdb11971f4cd7602c4262250e9fe068
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: 82364d5659009e067a6884551266c6fabf93dc04
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738553"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912426"
 ---
-# <a name="purchase-licenses-for-third-party-teams-apps"></a>サード パーティの Teams アプリのライセンスを購入する
+# <a name="purchase-third-party-teams-apps-and-manage-subscriptions"></a>サード パーティの Teams アプリを購入し、サブスクリプションを管理する
 
 一部の Teams アプリでは、アプリの完全な機能とスコープを体験するために、サービス サブスクリプションの購入が必要になる場合があります。 これらのサービス サブスクリプションは、サービスとしてのソフトウェア (SaaS) オファーと呼ばれます。 ライセンスは、 [AppSource](https://appsource.microsoft.com/) と [Microsoft Teams 管理センター](https://admin.teams.microsoft.com)を通じて購入できます。
 
@@ -40,7 +40,7 @@ Teams 管理センターでアプリを購入するには、次の手順に従�
 
 1. Teams 管理センターにサインインし、**Teams アプリ** にアクセス **[してアプリ](https://admin.teams.microsoft.com/policies/manage-apps)** > を管理します。 ページにアクセスするには、グローバル管理者または Teams サービス管理者である必要があります。
 
-1. 目的のアプリを名前で検索します。 アプリが有料 SaaS サブスクリプションを提供しているかどうかを確認するには、ライセンス列 **を** 参照してください。 各アプリには、次のいずれかの値があります:
+1. 目的のアプリを名前で検索します。 アプリが有料 SaaS サブスクリプションを提供しているかどうかを確認するには、 **ライセンス** 列を参照してください。 各アプリには、次のいずれかの値があります:
     * **今すぐ購入**: このアプリは SaaS サブスクリプションを提供しており、購入が可能です。
     * **購入済み**: このアプリは SaaS サブスクリプションを提供しており、そのライセンスを購入済みです。
     * **- -**: このアプリは SaaS サブスクリプションを提供していません。

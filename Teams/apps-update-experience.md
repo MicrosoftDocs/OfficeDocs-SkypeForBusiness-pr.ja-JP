@@ -18,14 +18,14 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: この記事では、Microsoft Teams の Microsoft アプリ、カスタム アプリ、およびサードパーティ アプリが更新される方法と、管理者がそれを促進する方法について説明します。
-ms.openlocfilehash: 0f5631abcd773f09c5a926bf3459d56e8f9f92bf
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: d419e1ed29c6a1cd7a7390bdc0d5eb69371d8547
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738613"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912796"
 ---
-# <a name="teams-app-updates-and-admin-role"></a>Teams アプリの更新と管理者ロール
+# <a name="role-of-an-admin-in-upgrading-teams-apps"></a>Teams アプリのアップグレードにおける管理者の役割
 
 Teams 管理者は、エンド ユーザーが最新バージョンのアプリを入手するのに役立ちます。 これを行うには、次のタスクの 1 つまたは両方を実行します。
 
@@ -53,9 +53,9 @@ Teams 管理者は、エンド ユーザーが最新バージョンのアプリ�
 
 ## <a name="updates-to-custom-apps"></a>カスタム アプリへの更新
 
-組織内で作成および展開されたカスタム アプリは、テナントまたは組織のユーザーが使用できます。 Teams 管理者は、組織内の開発者が提供する新しいバージョンにカスタム アプリを更新します。 詳細については、「 [管理者がカスタム アプリを管理する方法](custom-app-overview.md)」を参照してください。
+組織内で作成および展開されたカスタム アプリは、テナントまたは組織のユーザーが使用できます。 Teams 管理者は、組織の開発者が新しいバージョンを提供すると、カスタム アプリを新しいバージョンに更新します。 詳細については、「 [管理者がカスタム アプリを管理する方法](custom-app-overview.md)」を参照してください。
 
-## <a name="related-article"></a>関連記事
+## <a name="related-articles"></a>関連記事
 
 * [アプリで行われる更新のマニフェスト スキーマを理解する](/microsoftteams/platform/resources/schema/manifest-schema)。
 * [カスタム アプリ管理について知る](custom-app-overview.md)。
