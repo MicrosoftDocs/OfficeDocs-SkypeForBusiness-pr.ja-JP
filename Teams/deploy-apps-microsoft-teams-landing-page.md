@@ -21,12 +21,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 9b8d4ca3140b6bd8907938b5c2ac86aeabb39e37
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: b234f229d29c5ab4dae49be93e819bb18eb51a0b
+ms.sourcegitcommit: 95ed372915f259fddfc87090c6c67b549ed1605f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912626"
+ms.lasthandoff: 11/11/2022
+ms.locfileid: "68918241"
 ---
 # <a name="understand-microsoft-teams-apps-and-their-capabilities"></a>Microsoft Teams アプリとその機能について
 
@@ -87,6 +87,21 @@ Microsoft は、アプリ開発方法を使用して、機能的で運用環境�
 
 詳細については、「[Microsoft Teams アプリ テンプレート](https://adoption.microsoft.com/microsoft-teams/app-templates/)」を参照してください。
 
+## <a name="discover-and-use-apps-in-teams"></a>Teams でアプリを検出して使用する
+
+ユーザーは、Teams デスクトップまたは Web クライアントの Teams アプリ ストアから Teams で利用可能なすべてのアプリを表示できます。 ユーザーは、名前で検索したり、カテゴリで参照したり、組織用に構築され、Power Platform を使用してビルドされたアプリで参照して、Teams でアプリを検出してインストールしたりできます。
+
+簡単にアクセスできるように、アプリを Teams にピン留めできます。 セットアップ ポリシーで許可されている場合と、アプリが Teams 管理者によって許可されている場合、ユーザーは [アプリを自分でピン留め](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec) できます。管理者は、アプリをピン留めし、ピン留めされたアプリの動作を制御できます。詳細については、「 [アプリのセットアップ ポリシー](/teams-app-setup-policies)」を参照してください。
+
+:::image type="content" source="media/user-app-experience-find-apps.png" alt-text="ユーザーが Microsoft Teams でアプリを閲覧できるすべての場所を示すスクリーンショット。" lightbox="media/user-app-experience-find-apps-full.png":::
+
+ユーザーは、Teams アプリ ストアからアプリを見つけて Teams に追加できます。 また、チャットまたはチャネル タブ、Teams 会議、メッセージング領域など、作業中のコンテキストからアプリを直接追加することもできます。 詳細については、「 [Microsoft Teams にアプリを追加する」を](https://support.microsoft.com/office/add-an-app-to-microsoft-teams-b2217706-f7ed-4e64-8e96-c413afd02f77)参照してください。
+
+ユーザーは、管理者がアプリを許可し、アクセス [許可ポリシー](teams-app-permission-policies.md)を使用してアプリをユーザーが利用できる場合にのみ、アプリを追加して使用できます。 組織の IT 管理者は、どのアプリをどのコンテキストにインストールできるかを完全に制御できます。 ユーザーはブロックされているアプリを追加できません。Teams ストアのロック アイコンを持つアプリは、ユーザーに対してブロックされます。 ただし、 [ユーザーは組織の IT 管理者に承認を要求できます](https://support.microsoft.com/office/request-apps-that-require-approval-by-your-org-924e3a9e-33f0-44c2-9e81-e875214c05ae)。 アプリが承認されると、ユーザーは Teams ストアからアプリを追加できます。
+
+> [!NOTE]
+> Teams にアプリを追加するための承認を要求できるのは個人だけです。
+
 ## <a name="understand-app-capabilities"></a>アプリの機能を理解する
 
 Teams アプリの機能は、統合と対話を可能にするためにアプリに組み込み可能なコア機能です。
@@ -108,7 +123,6 @@ Teams アプリの機能は、統合と対話を可能にするためにアプ�
   Teams は、プライベートのチャットおよびチャネルでボットをサポートしています。 管理者は、Microsoft 365 組織または Office 365 組織でのボットの使用を許可するかどうかを制御できます。 カスタム ボットのオンとオフの切り替えについては、「 [Teams 管理センターでのアプリ管理とガバナンスの概要](manage-apps.md)」を参照してください。
 
 * **タブ**: タブは、チャネルまたはチャットの上部にピン留めされた Teams 対応 Web ページです。 タブを使用すると、Web に似たエクスペリエンスでコンテンツやサービスを操作できます。 これは、アプリ マニフェストで宣言されたドメインを指す単純な HTML <iframe\> タグであり、個々のユーザーのチーム、グループ チャット、または個人用アプリ内のチャネルの一部として追加できます。 詳細については、「 [Microsoft Teams のタブ](/microsoftteams/platform/tabs/what-are-tabs)」を参照してください。
-
   すべてのプライベート チャットには、[会話]、[ファイル]、[組織]、および [アクティビティ] のタブが既定で作成されます。 これらの組み込みタブに加えて、開発者はカスタム タブを設計および追加できます。 詳細については、「[Teams の組み込みタブとカスタム タブを使用する](/microsoftteams/platform/tabs/what-are-tabs)」を参照してください。
 
 * **Webhook とコネクタ**: Webhook とコネクタは、Microsoft Teams のチャネルとチームに Web サービスを接続するのに役立ちます。 Webhook は、Teams チャネルで行われたアクションについてユーザーに通知するユーザー定義 HTTP コールバックです。 これは、アプリがリアルタイム データを取得する方法です。 コネクタを使用すると、ユーザーは Web サービスからの通知とメッセージの受信をサブスクライブできます。 詳細については、「 [Webhook とコネクタ](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)」を参照してください。
@@ -125,5 +139,7 @@ Teams 機能にマップされている一般的なユース ケースを表示�
 
 ## <a name="related-articles"></a>関連記事
 
-* [Teams 用アプリ テンプレートの詳細](/microsoftteams/platform/samples/app-templates)
+* [Teams 用アプリ テンプレートの詳細については、こちらをご覧ください](/microsoftteams/platform/samples/app-templates)。
+* [Teams アプリの更新と管理者ロール](apps-update-experience.md)
 * [Teams 管理センターでのアプリ管理とガバナンスの概要](manage-apps.md)
+
