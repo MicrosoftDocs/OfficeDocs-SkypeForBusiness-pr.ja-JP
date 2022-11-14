@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 707360ec39e82c86732433e42752cedbdb649119
-ms.sourcegitcommit: 17f4baf85e1ac6a2af5f5c6ea2d5aae763efd917
+ms.openlocfilehash: 1bd04b590a789756d0b41153b886be8ba6d777e7
+ms.sourcegitcommit: 2d1bb69e0d6bc35be0b57c7c5d87f58ab013dafb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67405129"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "68928507"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams のハードウェア要件
 
@@ -44,7 +44,7 @@ ms.locfileid: "67405129"
 |.NET のバージョン    |  NET 4.5 CLR 以降が必要       |
 |ビデオ    |  USB 2.0 ビデオ カメラ       |
 |デバイス    |   標準ラップトップ カメラ、マイク、スピーカー    |
-|ビデオ通話と会議|<ul><li>2 コア プロセッサが必要です。 ビデオ/画面共有の解像度とフレーム レートを高くするには、4 コア以上のプロセッサをお勧めします。</li> <li>背景ビデオの効果には、Windows 10 または、AVX2 命令セット付プロセッサが必要です。</li> <li>サポートされていないデコーダーとエンコーダーのリストについては、「[ハードウェア デコーダーとエンコーダー ドライバーの推奨事項](hardware-decoders-and-encoders.md)」を参照してください。</li><li>Microsoft Teams ルームで近接検出を使用して会議に参加するには、Bluetooth LE が必要です。 Windows の Bluetooth LE では、クライアント デバイスで Bluetooth を有効にする必要があり、Teams クライアントの 64 ビット バージョンが必要です。 この機能は、32 ビットの Teams クライアントでは利用できません。</li></ul> |
+|ビデオ通話と会議|<ul><li>2 コア プロセッサが必要です。 ビデオ/画面共有の解像度とフレーム レートを高くするには、4 コア以上のプロセッサをお勧めします。</li> <li>背景ビデオの効果には、Windows 10 または、AVX2 命令セット付プロセッサが必要です。</li> <li>サポートされていないデコーダーとエンコーダーのリストについては、「[ハードウェア デコーダーとエンコーダー ドライバーの推奨事項](hardware-decoders-and-encoders.md)」を参照してください。</li><li>Microsoft Teams Room で近接検出を使用して会議に参加するには、Bluetooth LE が必要です。 Windows の Bluetooth LE では、クライアント デバイスで Bluetooth を有効にする必要があり、Teams クライアントの 64 ビット バージョンが必要です。 この機能は、32 ビットの Teams クライアントでは利用できません。</li></ul> |
 |Teams のライブ イベント | Teams ライブ イベントを作成する場合は、Core i5 Kaby Lake プロセッサ、4.0 GB RAM (またはそれ以上) とハードウェア エンコーダーを搭載したコンピューターの使用をお勧めします。 **サポートされていない** デコーダーとエンコーダーのリストについては、「[ハードウェア デコーダーとエンコーダー ドライバーの推奨事項](hardware-decoders-and-encoders.md)」を参照してください。 |
 
 ## <a name="hardware-requirements-for-teams-on-a-mac"></a>Mac での Teams のハードウェア要件
@@ -58,10 +58,13 @@ ms.locfileid: "67405129"
 |オペレーティング システム  |    MacOS の 3 つの最新バージョンのいずれか。 最新の MacOS バージョンについての詳細とMacOS バージョンをアップグレードする方法については、[こちら](https://support.apple.com/en-us/HT201260)を参照 してください。 たとえば、新しいバージョンの MacOS がリリースされたときに、新しいバージョンとそのすぐ前にある 2つのバージョンがサポートされています。      |
 |ビデオ  |    互換性のある Web カメラ     |
 |音声    |  互換性のあるマイクとスピーカー、マイク付きヘッドセット、または同等のデバイス       |
-|ビデオ通話と会議 | <ul><li>2 コア プロセッサが必要です。 ビデオ/画面共有の解像度とフレーム レートを高くするには、4 コア以上のプロセッサをお勧めします。 </li><li>Microsoft Teams ルームで近接検出を使用して会議に参加するには、Bluetooth LE が必要です。 Bluetooth LE では、クライアント デバイスで Bluetooth を有効にする必要があります。</li></ul>
+|ビデオ通話と会議 | <ul><li>2 コア プロセッサが必要です。 ビデオ/画面共有の解像度とフレーム レートを高くするには、4 コア以上のプロセッサをお勧めします。 </li><li>Microsoft Teams Room で近接検出を使用して会議に参加するには、Bluetooth LE が必要です。 Bluetooth LE では、クライアント デバイスで Bluetooth を有効にする必要があります。</li></ul>
 |
 
 ## <a name="hardware-requirements-for-teams-on-linux"></a>Linux での Teams のハードウェア要件
+
+> [!NOTE]
+> Linux 上の Teams Desktop は、2022 年 12 月に廃止されます。
 
 | コンポーネント | 要件 |
 |---------|---------|

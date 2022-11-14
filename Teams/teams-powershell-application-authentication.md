@@ -12,16 +12,16 @@ ms.collection:
 description: Microsoft Teams の管理に使用される Teams PowerShell モジュールでのアプリケーション ベースの認証について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89af4494a6cf20aab512c0430a6e16db622e53a2
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: 9fd2928b62b71f0f981ecd0083cf4b15acc2da3f
+ms.sourcegitcommit: 2d1bb69e0d6bc35be0b57c7c5d87f58ab013dafb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912646"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "68928334"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Teams PowerShell モジュールでのアプリケーション ベースの認証
 
-アプリケーション ベースの認証は、バージョン 4.7.1-preview 以降のプレビューで Teams PowerShell モジュールでサポートされるようになりました。 現在、この認証モードは商用環境でのみサポートされています。
+アプリケーション ベースの認証は、バージョン 4.7.1-preview 以降の Teams PowerShell モジュールでサポートされるようになりました。 現在、この認証モードは商用環境でのみサポートされています。
 
 
 ## <a name="cmdlets-supported"></a>サポートされているコマンドレット
