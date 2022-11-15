@@ -20,12 +20,12 @@ description: Teams にクラウド音声機能を展開して、音声、ビデ�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b82e73e2e5bb470df4511027d13b2df5f1f715f8
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: 281a8997e3020b229ce8b34919177c1f6f2318c9
+ms.sourcegitcommit: 73b13cd8a79ba1724b9fb79c8356a7cacafb7dd3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68584888"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "68965749"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議のレコーディング
 
@@ -109,6 +109,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true
 | ユーザーの大半に対してはレコーディングを不可とし、特定のユーザーについてレコーディングすることを選択的に許可したい。 | <ol><li>Global CsTeamsMeetingPolicy が AllowCloudRecording = False に設定されていることを確認する。<li>ほとんどのユーザーに、Global CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが AllowCloudRecording = False として設定され、承認されている。<li>その他のすべてのユーザーには、 CsTeamsMeetingPolicy ポリシーの 1 つが AllowCloudRecording = True に設定され、承認されている。 <ol> |
 
 <a name="bd-channel"></a>
+> [!NOTE]
+> Teams ポリシーベースのコンプライアンス記録が有効になっている外部テナントの Teams ユーザーが、テナントで会議または通話に参加した場合、その会議/通話は、テナントでオンまたはオフになっているクラウドベースの記録に関係なく、コンプライアンスのために他のテナントによって記録されます。 テナント内の会議の一部である発表者は、別のテナントのユーザーが記録をキャプチャしない場合は、会議からユーザーを削除することをお勧めします。 Teams でのポリシー ベースのコンプライアンス記録の詳細については、「会議 [を呼び出すための Teams ポリシー ベースの記録の概要」&](teams-recording-policy.md)参照してください。
 
 ### <a name="block-or-allow-download-of-channel-meeting-recordings"></a>チャネル会議のレコーディングのダウンロードを禁止または許可する
 
@@ -219,7 +221,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 - レコーディングは、Teams サイトのドキュメント ライブラリの **Recordings** という名前のフォルダーに格納されます。
 
-  例: *Teams 名 - チャネル名*/**Documents**/**Recordings**
+  例: *Teams 名 - チャネル名*/**ドキュメント**/**記録**
 
 - [録画] をクリックしたメンバーには、レコーディングの編集権限があります。
 
@@ -229,7 +231,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 - レコーディングは、Teams サイトのドキュメント ライブラリにある **Recordings/View only** という名前のフォルダーに格納されます。 
 
-  例: *Teams 名 - チャネル名*/**Documents/Recordings/View only**
+  例: *Teams 名 - チャネル名*/**ドキュメント/記録/表示のみ**
 
 - チャネルの所有者には、このフォルダー内のレコーディングに対する完全な編集とダウンロードの権限があります。
 
@@ -278,7 +280,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 非チャネル会議においては、レコーディングはその開始者の OneDrive に保存され、このためその所有についての取り扱いと、従業員が離職したあとのアイテム保持ポリシーについては、通常通りです [OneDrive と SharePoint プロセス](/onedrive/retention-and-deletion#the-onedrive-deletion-process)。
 
-会議の記録の既定の有効期限は 120 日です。 会議の自動期限切れの設定をオフにしたり、既定の有効期限を変更したりできます。 [会議の記録の自動期限切れの](meetings-policies-recording-and-transcription.md#meetings-automatically-expire)詳細については、こちらを参照してください。
+会議の記録には、既定の有効期限は 120 日です。 [会議の有効期限が自動的に切れる] 設定をオフにするか、[既定の有効期限] を変更できます。 [会議の記録が自動的に期限切れになる](meetings-policies-recording-and-transcription.md#meetings-automatically-expire)方法について詳しくは、こちらをご覧ください。
 
 ## <a name="closed-captions-for-recordings"></a>レコーディングのクローズド キャプション
 
@@ -340,7 +342,7 @@ DLP の詳細については、「[データ損失防止についての解説](/
    > [!div class="nextstepaction"]
    > [テストの実行: 会議の記録が見つからない](https://aka.ms/MissingRecordingDiag)
 
-2. [実行診断] ウィンドウで、[ **記録された会議の URL** ] フィールド (通常は会議の招待で見られる) フィールドに会議の URL と、[会議が **記録された日時** ] フィールドに会議の日付を入力し、[ **テストの実行**] を選択します。
+2. [診断の実行] ウィンドウで、[ **記録された会議の URL** ] フィールド (通常は会議出席依頼に表示されます) に会議の URL を入力し、[会議が **記録された日時** ] フィールドに会議の日付を入力し、[ **テストの実行**] を選択します。
 
 3. テストでは、会議の記録が正常に完了し、Stream または OneDrive にアップロードされたことを確認します。
 
