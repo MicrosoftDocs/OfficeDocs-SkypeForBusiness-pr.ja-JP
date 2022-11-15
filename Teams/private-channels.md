@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams でプライベート チャネルを使用および管理する方法について説明します。
-ms.openlocfilehash: 2f6dd23c5f15d2c96a1a5bb7cec6f4b9107f436c
-ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
+ms.openlocfilehash: f5513b5b86e77a49978e1dcd1cd09f6e12bff70a
+ms.sourcegitcommit: 2d1bb69e0d6bc35be0b57c7c5d87f58ab013dafb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "67647451"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "68962952"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams のプライベート チャネル
 
@@ -34,9 +34,9 @@ Microsoft Teams のプライベート チャネルは、チーム内でのコラ
 たとえば、プライベート チャネルは以下のようなシナリオで役立ちます。
 
 - チーム内のユーザーのグループが、別のチームを作成せずにコラボレーションするための集中スペースを必要としている。
-- チーム内の一部のユーザーは、予算、リソース、戦略的位置づけなどの機密情報についてプライベート チャネルで話し合うことを望んでいます。
+- チーム内のユーザーのサブセットは、プライベート チャネルで、予算、リソースの調達、戦略的配置などの機密情報について話し合うことを望んでいます。
 
-ロックのアイコンはプライベート チャネルであることを示しています。プライベート チャネルのメンバーのみが、自身が追加されたプライベート チャネルを表示して参加できます。
+A lock icon indicates a private channel. Only members of private channels can see and participate in private channels that they are added to.
 
 プライベート チャネルは作成されると親チームにリンクされ、別のチームに移動させることはできません。 また、プライベート チャネルを標準チャネルに変換することはできません。
 
@@ -94,7 +94,7 @@ Microsoft Teams のプライベート チャネルは、チーム内でのコラ
 
 プライベート チャネル サイトはデータ分類を同期し、親チームのサイトからゲスト アクセス許可を継承します。 サイトの所有者およびメンバー グループのメンバーシップは、Teams 内のプライベート チャネルのメンバーシップと同期します。 プライベート チャネル サイトのサイト アクセス許可は、SharePoint を通じて個別に管理することはできません。 
 
-Teams は、プライベート チャネル サイトのライフサイクルを管理します。サイトが Teams の外部で削除された場合、バックグラウンド ジョブは、プライベート チャネルがまだアクティブである限り、4 時間以内にサイトを復元します。
+Teams manages the lifecycle of the private channel site. If the site is deleted outside of Teams, a background job restores the site within four hours as long as the private channel is still active.
 
 プライベート チャネルまたはプライベート チャネルを含むチームが復元されると、サイトも復元されます。 プライベート チャネル サイトが復元され、プライベート チャネルの 30 日間のソフト削除ウィンドウを超えている場合、サイトはスタンドアロン サイトとして動作します。
 
@@ -130,8 +130,6 @@ Teams は、プライベート チャネル サイトのライフサイクルを
 プライベート チャネルからの通知は、見逃したアクティビティ メールには含まれません。
 
 チャネル会議をスケジュール設定できない。
-
-チャネル会議は、会議のタイトルでカスタマイズすることはできません。
 
 ## <a name="related-topics"></a>関連項目
 
