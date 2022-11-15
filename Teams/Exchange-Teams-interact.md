@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 541ea844422dcd6620035508e62d6473f0c78b29
-ms.sourcegitcommit: 73b13cd8a79ba1724b9fb79c8356a7cacafb7dd3
+ms.openlocfilehash: 2a753e572cc9427a4b128379b52562437f739bea
+ms.sourcegitcommit: 0760416ee0bead3ada93f4d37f8aebc74222bd3c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 11/15/2022
-ms.locfileid: "68965033"
+ms.locfileid: "69019403"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携
 
@@ -135,7 +135,7 @@ Microsoft Teams では、Microsoft 365 や Office 365 のさまざまなサー�
 - プレゼンス ステータスについては、Microsoft Teams はメールボックスが Exchange Online でホストされているかオンプレミスでホストされているかを確認する必要があります。 次に、サービスはメールボックスにアクセスする場所を決定します。 Teams サービスが Exchange Online サービスへの REST API 呼び出しを介してメールボックスの場所を確認できるようにするには、「[ハイブリッド構成ウィザードを使用したハイブリッド展開の作成](/exchange/hybrid-deployment/deploy-hybrid)」で説明されているように、Exchange ハイブリッド構成ウィザードを実行してExchange ハイブリッド環境を展開する必要があります。
 
 >[!Important]
->**GCC-H のお客様:** *委任された Teams 会議のスケジュール* 設定は、GCC-High環境ではサポートされていません。 
+>**GCC-H のお客様:** *委任された Teams 会議スケジュール* は、ユーザーのメールボックスがオンプレミスのExchange Serverでホストされている場合、GCC-High環境ではサポートされていません。
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 
