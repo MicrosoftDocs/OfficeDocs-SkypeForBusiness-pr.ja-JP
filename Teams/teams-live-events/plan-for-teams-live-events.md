@@ -21,12 +21,12 @@ description: この記事では、Microsoft Teams でのライブ イベント�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 086a8bda521827ac048b8ea9928bd3a0c5e3b81f
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: a1bbc6452847182533271f4aa7c7652ff8b00ba3
+ms.sourcegitcommit: 73b13cd8a79ba1724b9fb79c8356a7cacafb7dd3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68584388"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "68966316"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントの計画
 
@@ -46,7 +46,7 @@ Teams ライブ イベントを整理、作成または発表するために割�
 - **整理:** Microsoft 365 または Office 365 Enterprise E1、E3、E5 のいずれかのライセンス、**[または]** Office 365 Education A3 または A5 ライセンス。 
 - **To produce or present:** A Microsoft or Office 365 Enterprise E1, E3 or E5 license, **[or]** a Microsoft or Office 365 Education A1, A3 or A5 license. The exception to this requirement is guest users can present without a license if the other criteria for [guest users](plan-for-teams-live-events.md#guest-to-present) is met.
 - Microsoft Teams ライセンス - このライセンスは最初と 2 番目の項目に記載されているライセンスに含まれています。
-- Microsoft Stream のライセンス - コンテンツを外部のアプリまたはデバイスと共有する場合はこのライセンスが必要です。「[Microsoft Stream のライセンス](/stream/license-overview)」をご覧ください。 新しい Teams Encoder サービスを使用してイベントを生成する場合、Stream ライセンスは必要ありません。 
+- Microsoft Stream のライセンス - コンテンツを外部のアプリまたはデバイスと共有する場合はこのライセンスが必要です。「[Microsoft Stream のライセンス](/stream/license-overview)」をご覧ください。 新しい Teams エンコーダー サービスを使用してイベントを生成する場合は、Stream ライセンスは必要ありません。 
 
   Users won't need a Microsoft Stream license assigned if you want users to only record and download the recordings. This will mean that the recordings aren't stored in Microsoft Stream but are instead stored in Azure Media Services (AMS) with a 180-day limit before it's deleted. It's not something at this point that an admin can control or manage to include the ability to delete it.
 
@@ -58,7 +58,7 @@ Teams ライブ イベントを整理、作成または発表するために割�
 
 認証されたユーザーとしてライブ イベントに参加するのに、Microsoft 365 または Office 365 のライセンスが必要であることを理解することは重要ですが、この要件は使用する作成方法によって異なります。
 
-- **Teams で生成されたイベント、または Teams Powered Encoder を使用する場合**  ユーザーには Teams ライセンスが割り当てられている必要があります。
+- **Teams または Teams Powered Encoder を使用して生成されたイベントの場合**  ユーザーに Teams ライセンスを割り当てる必要があります。
 - **外部アプリまたはデバイスで作成したイベントの場合**、ユーザーには Stream のライセンスが割り当てられている必要があります。
 
 > [!NOTE]
@@ -90,9 +90,9 @@ As a best practice, we recommend that you create a channel for producers and pre
 
 ## <a name="who-can-watch-live-events"></a>ライブ イベントは誰が視聴できるか
 
-| 出席者の表示 | Teams 生産性 | 外部アプリまたはデバイス生成 | Teams パワーエンコーダー
+| 出席者の表示 | Teams 生産性 | 外部アプリまたはデバイス生成 | Teams Powered Encoder
 |------------------------------|-----------------|----------------------|----------------|
-|パブリック (匿名ユーザー)      |  はい            |  いいえ                  | はい
+|パブリック (匿名ユーザー)      |  はい            |  いいえ                  | Yes
 |ゲスト ユーザー                   |  Yes<sup>1</sup>            |  いいえ                  |  はい            |
 |外部アクセス (フェデレーション) のある会社のすべてのユーザー |  Yes<sup>1</sup>|  いいえ                  | Yes            |
 |会社内の全員           |  はい            |  Yes                 | Yes                |
@@ -102,7 +102,7 @@ As a best practice, we recommend that you create a channel for producers and pre
 
 ## <a name="teams-live-events"></a>Teams のライブ イベント
 
-次の表は、ライブ イベントで提供されるコア機能と機能を示しています
+次の表は、ライブ イベントで提供される主要な機能と機能を示しています
 
 > [!IMPORTANT]
 > **Microsoft 365 ライブ イベントの上限の引き上げ**
@@ -140,6 +140,7 @@ As a best practice, we recommend that you create a channel for producers and pre
 |ライブ キャプションと字幕 |&#x2714; |&#x2714; |&#x274C; |
 |ライブ イベント記録のキャプション |&#x2714; |&#x2714; |&#x2714; |
 |出席者の DVR 制御 (一時停止、巻き戻し) |&#x2714; |&#x2714; |&#x2714; |
+|Microsoft eCDN |&#x274C; |&#x2714; |&#x2714; |
 |Partner eCDN のサポート |&#x2714; (Kollective, Hive, Riverbed) |&#x2714; (Kollective, Hive, Ramp, Riverbed) |&#x2714; (Hive, Kollective, Ramp, Riverbed) |
 |ブロードキャスト後のプロデューサー向け出席レポート |&#x2714; |&#x2714; |&#x274C; |
 |視聴者の感情分析 – ライブ投票/投票 |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
