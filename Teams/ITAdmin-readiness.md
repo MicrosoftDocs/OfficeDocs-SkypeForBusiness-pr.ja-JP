@@ -18,12 +18,12 @@ ms.custom:
 description: Microsoft Teamsの計画、展開、および実行方法に関するトレーニングビデオ、PowerPointデッキ、チュートリアル、およびその他の管理者向けリソース。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbba9535bed24c52578f8c01f37557774bbfa5e3
-ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
+ms.openlocfilehash: 8e4b708a0fd250dd5ae8adeaa4f47f014ad359cd
+ms.sourcegitcommit: 2f9a83a1bae8cbee5a0d65464bd47f6735b2d206
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "68890066"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "69025159"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニングの概要
 
@@ -61,6 +61,8 @@ ms.locfileid: "68890066"
 | 電話システムの概要 | [ビデオ](https://aka.ms/teams-phone-system) | [デッキ](https://aka.ms/teams-phone-system-deck) |
 | ダイレクト ルーティング | [ビデオ 1: Teams での直接ルーティングの計画](https://aka.ms/teams-dr-plan)<br>[ビデオ 2: Teams でのダイレクト ルーティングの構成と管理](https://aka.ms/teams-dr-config)<br>[ビデオ 3: Teams でのダイレクト ルーティングへの移行](https://aka.ms/teams-dr-migrate)  | [デッキ](https://aka.ms/teams-direct-routing-deck) |
 | Skype for Business から Teams へのアップグレード | [ビデオ 1: アップグレードの概要](https://aka.ms/teams-upgrade-intro)</br>[ビデオ 2: アップグレードの計画](https://aka.ms/teams-upgrade-plan)</br>[ビデオ 3: 共存および相互運用性](https://aka.ms/teams-upgrade-coexistence-interop)</br>[ビデオ 4: 管理者体験](https://aka.ms/teams-upgrade-admin) | [デッキ](https://aka.ms/teams-upgrade-deck)|
+| Teams デバイス展開プレイブック | | [デッキ](https://aka.ms/teams-devices-deployment-playbook) |
+| Teams Phone Deployment プレイブック | | [デッキ](https://aka.ms/teams-phone-deployment-playbook) |
 
 <h2>IT & AV Pro のTeams Rooms基盤</h2>
 
@@ -77,7 +79,6 @@ ms.locfileid: "68890066"
 | モジュール 7: Microsoft Teams Roomsの管理、パート 2  | [デッキ](https://aka.ms/TeamsRoomsModule7) |
 | モジュール 8: 機能、導入、トラブルシューティング | [デッキ](https://aka.ms/TeamsRoomsModule8)|
 | ワンタッチ参加手順 |  [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
-| Microsoft Teams Rooms マネージド サービスの概要 | [デッキ](https://download.microsoft.com/download/c/e/a/cead2658-d64d-43b7-a728-b4512b325fb8/module-7b-Teams-Managed-Rooms-intro.pdf)  |
 
 <h2>Teams Android デバイス</h2>
 
