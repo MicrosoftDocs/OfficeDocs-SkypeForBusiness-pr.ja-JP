@@ -22,29 +22,31 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Teams 自動応答&通話キュー履歴レポート Power BI レポートを使用して、自動応答と通話キューの履歴データを表示する方法について説明します。
-ms.openlocfilehash: b57180a339ea7aa1548acf16be1f95d3514c294b
-ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
+ms.openlocfilehash: 3db0705ea1321b3ef6d2efef5a01e3283f091cc9
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "68890086"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69131196"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>自動応答&通話キューの履歴レポート
 
 この Power BI テンプレートには、組織が自動応答と呼び出しキューによって処理されている通話の数を報告できる 3 つのレポートが用意されています。  また、エージェントのパフォーマンスに関する分析情報も提供します。
 
-## <a name="v303-published-on-november-8-2022"></a>2022 年 11 月 8 日に公開された V3.0.3
+## <a name="v304-published-on-november-18-2022"></a>2022 年 11 月 18 日に公開された V3.0.4
 
 Teams 自動応答&通話キュー履歴レポート Power BI テンプレートには、次の 3 つのレポートが用意されています。
 
-- 自動応答レポートには、自動応答に着信する通話の分析が表示されます。
-- 通話キュー レポートには、通話キューに入ってくる通話の分析が表示されます。
-- エージェント タイムライン レポートには、通話キュー呼び出しでアクティブになっているエージェントのタイムライン ビューが表示されます。
+- [自動応答](media/aa-cq-historical-report-sample-aa-v304.png)レポートには、自動応答に着信する通話の分析が表示されます。
+- 通話キュー レポートには、 [通話キュー](media/aa-cq-historical-report-sample-cq-v304.png) に入ってくる通話の分析が表示されます。
+- [エージェント タイムライン](media/aa-cq-historical-report-sample-at-v304.png) レポートには、通話キュー呼び出しでアクティブになっているエージェントのタイムライン ビューが表示されます。
 
 これらのレポートでは、Voice Applications Analytics Collector (VAAC) サービスのデータが使用されます。
 
 >[!NOTE]
 > 履歴データ収集はすべてのリージョンで進行中です。  30 日間の履歴データは、2022 年 11 月 25 日まで、すべてのリージョンで 30 日間の完全なデータを持つさまざまな時間に利用できます。
+>
+> GCCH/DOD のお客様は V1.63 を引き続き使用する必要があります。
 
 ## <a name="v3xx-prerequisites"></a>V3.x.x の前提条件
 
@@ -64,15 +66,15 @@ Power BI Desktopをインストールする必要があります。 [Microsoft W
 
 次の手順を実行します。
 
-1. [Teams 自動応答&通話キュー履歴レポート V3.0.3.zip](https://www.microsoft.com/download/details.aspx?id=104623) ファイルをコンピューターにダウンロードして保存します。
+1. [Teams 自動応答&通話キュー履歴レポート V3.0.4.zip](https://www.microsoft.com/download/details.aspx?id=104623) ファイルをコンピューターにダウンロードして保存します。
 
 1. zip ファイルを開きます。
 
-1. テンプレート ファイルを `Teams Auto Attendant & Call Queue Historical Reports V3.0.3.pbit` 開きます。 Power BI Desktopが起動します。
+1. テンプレート ファイルを `Teams Auto Attendant & Call Queue Historical Reports V3.0.4.pbit` 開きます。 Power BI Desktopが起動します。
 
 1. **データ ソース** を選択するように求められます。  エントリを `api.interfaces.records.teams.microsoft.com` 選択します。
 
-  :::image type="content" source="media/aa-cq-historical-report-01-v300.png" alt-text="api.interfaces.records.teams.microsoft.com Data Soure を選択するスクリーンショット":::
+  :::image type="content" source="media/aa-cq-historical-report-01-v304.png" alt-text="api.interfaces.records.teams.microsoft.com Data Soure を選択するスクリーンショット":::
 
 1. アカウントでサインインするように求められます。 [ **組織アカウント**] を選択し、[サインイン] を選択 **します**。
 
@@ -91,13 +93,15 @@ Power BI Desktopをインストールする必要があります。 [Microsoft W
 ## <a name="v163-published-on-august-24-2022"></a>2022 年 8 月 24 日に公開された V1.63
 
 > [!IMPORTANT]
-> V1.63 テンプレートのサポートは、2022 年 11 月 21 日に終了します。
+> V1.63 テンプレートのパブリック クラウド サポートは、2022 年 11 月 25 日に終了します。
+> 
+> GCCH/DOD のお客様は V1.63 を引き続き使用する必要があります。
 
 **Teams 自動応答&通話キュー履歴レポート Power BI テンプレート** には、次の 3 つのレポートが用意されています。
 
-- 自動応答レポートには、自動応答に着信する通話の分析が表示されます。
-- 通話キュー レポートには、通話キューに入ってくる通話の分析が表示されます。
-- エージェント タイムライン レポートには、通話キュー呼び出しでアクティブになっているエージェントのタイムライン ビューが表示されます。
+- [自動応答](media/aa-cq-historical-report-sample-aa-v163.png)レポートには、自動応答に着信する通話の分析が表示されます。
+- 通話キュー レポートには、 [通話キュー](media/aa-cq-historical-report-sample-cq-v163.png) に入ってくる通話の分析が表示されます。
+- [エージェント タイムライン](media/aa-cq-historical-report-sample-at-v163.png) レポートには、通話キュー呼び出しでアクティブになっているエージェントのタイムライン ビューが表示されます。
 
 これらのレポートでは、 [通話品質ダッシュボード (CQD)](CQD-Power-BI-query-templates.md) データ ストアのデータが使用されます。 
 
@@ -372,14 +376,25 @@ Power BI Desktopをインストールする必要があります。 [Microsoft W
 
 - <sup>1</sup> 自動応答およびコール キュー グラフの **着信コール ソース** には、最初のコール レッグ ソースではなく、最終的なコール レッグ ソースが表示されます。 たとえば、自動応答が外部呼び出しを受信し、別の自動応答または通話キューに通話を転送する場合、 **着信呼び出し元** は内部として報告されます。
 
-## <a name="version-history"></a>バージョン履歴
+## <a name="version-3xx-history"></a>バージョン 3.x.x の履歴
+
+変更の詳細な一覧については、「Teams 自動応答&通話キューの履歴レポート - ダウンロードした zip ファイルのLog.docxを変更する」を参照してください。 
 
 |バージョン  |発行日     |Filename                                                           |説明                                         |
 |:--------|:------------------|:------------------------------------------------------------------|:---------------------------------------------------|
-|3.0.3    |2022 年 11 月 8 日   |Teams 自動応答&通話キュー履歴レポート V3.0.3        |以下を参照してください。<br>CQD Teams 自動応答&通話キュー履歴レポート - ダウンロードした zip ファイル内の変更Log.docx変更の一覧                                                                             |
+|3.0.4    |2022 年 11 月 18 日  |Teams 自動応答&通話キュー履歴レポート V3.0.4        |エラーの修正、呼び出し分類の改善、凡例の追加 |
+|3.0.3    |2022 年 11 月 8 日   |Teams 自動応答&通話キュー履歴レポート V3.0.3        |エラーの修正、ドキュメント リンクの追加、最適化されたクエリ |
 |3.0.1    |2022 年 10 月 26 日   |Teams 自動応答&通話キュー履歴レポート V3.0.1        |テスト データ ソースエントリを削除しました                   |
 |3.0.0    |2022 年 10 月 25 日   |Teams 自動応答&通話キュー履歴レポート V3.0.0        |新しいバックエンド データ ソース                             |
-|1.63     |2022 年 8 月 24 日    |CQD Teams 自動応答&通話キュー履歴レポート V1.63.pbit |以下を参照してください。<br>CQD Teams 自動応答&通話キュー履歴レポート - ダウンロードした zip ファイル内の変更Log.docx変更の一覧                                                                             |
-|1.60     |2022 年 7 月 22 日      |CQD Teams 自動応答&通話キュー履歴レポート V1.60.pbit |以下を参照してください。<br>CQD Teams 自動応答&通話キュー履歴レポート - ダウンロードした zip ファイル内の変更Log.docx変更の一覧                                                                             |
+
+
+## <a name="version-1xx-history"></a>バージョン 1.xx の履歴
+
+変更の詳細な一覧については、「CQD Teams 自動応答&通話キューの履歴レポート - ダウンロードした zip ファイルのLog.docxを変更する」を参照してください。                         
+
+|バージョン  |発行日     |Filename                                                           |説明                                         |
+|:--------|:------------------|:------------------------------------------------------------------|:---------------------------------------------------
+|1.63     |2022 年 8 月 24 日    |CQD Teams 自動応答&通話キュー履歴レポート V1.63.pbit |                                                    |
+|1.60     |2022 年 7 月 22 日      |CQD Teams 自動応答&通話キュー履歴レポート V1.60.pbit |                                                    |
 |1.00     |2020 年 11 月 5 日   |CQ と AA の組み合わせ Analytics 20201105.pbit                         |初期リリース                                     |
 

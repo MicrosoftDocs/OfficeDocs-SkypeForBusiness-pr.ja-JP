@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Microsoft Teams が最適な結果を得るために認定されているデスクと電話について説明します。
-ms.openlocfilehash: a285deed98c87d7d90f3f0d254a1c056b2dfc421
-ms.sourcegitcommit: ad7eb80a266a96bb894f3801b51587c07786c257
+ms.openlocfilehash: 06d5f81b830115d775a2237f7758d3f7ec62be18
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/19/2022
-ms.locfileid: "69126933"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69131146"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 認定 Android デバイス
 
@@ -407,6 +407,7 @@ Microsoft Teams Displays アプリとファームウェアの最新バージョ�
 
 | デバイス モデル  | ファームウェアのバージョン | 含まれる製品リリース|
 |:--------------|:-----------------|:-------------------------|
+|ニートパッドパネル | `NFA1.20220914.1215` | 2022 Update #3A  |
 |ニートパッドパネル | `NFA1.20220914.1206` | 2022 Update #3A  |
 |Logitech Tap Scheduler | `1.7.200` |2022 Update #3A  |
 |Yealink RoomPanel | ` 147.15.0.33 ` | 2022 Update #3 |

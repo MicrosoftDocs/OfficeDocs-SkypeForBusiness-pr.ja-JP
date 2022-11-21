@@ -12,13 +12,14 @@ description: Microsoft Teams 管理センターで Praise アプリを管理す�
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- tier2
 - highpri
-ms.openlocfilehash: a14b35811158d253aa3a211521c568f23869b043
-ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
+ms.openlocfilehash: 31a185239607c2458636dd6cadc83b7462135112
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "68784342"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69131176"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターで Praise アプリを管理する
 
@@ -38,9 +39,9 @@ Microsoft Teams の Praise アプリは、ユーザーが組織または教室�
 1. Microsoft Teams 管理センターの左側のウィンドウで、**[Teams アプリ]** > **[アプリの管理]** の順に移動します。
 2. アプリの一覧で、賞賛アプリを検索して選択し、[ **状態]** トグルを **[ブロック** ] または [ **許可]** に切り替えます。
 
-この設定は、Teams のViva Insights アプリの賞賛アプリと称賛機能の両方に影響を与える点に注意してください。
+この設定は、Teams のViva インサイト アプリの賞賛アプリと称賛機能の両方に影響します。
 
-[状態] を [ブロック] に設定した場合、Teams の評価アプリは数分以内にブロックされます。 ただし、Viva Insightsでの賞賛は、ブロックされるまでに 7 日から 9 日かかる場合があります。
+[状態] を [ブロック] に設定した場合、Teams の評価アプリは数分以内にブロックされます。 ただし、Viva インサイトでの賞賛には、ブロックされるまでに 7 日から 9 日かかる場合があります。
 
 ## <a name="enable-or-disable-praise-for-specific-users-in-your-organization"></a>組織内の特定のユーザーに対して評価を有効または無効にする
 

@@ -15,15 +15,15 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-ms.localizationpriority: medium
+ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams の Teams アプリ申請 API を使用して送信されたカスタム アプリを承認する方法について説明します。
-ms.openlocfilehash: 63493041d834c99f5ffa93ba2fb580130afa0e29
-ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
+ms.openlocfilehash: 83a4896fbd849cf55020854fd617da003d589cb0
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/07/2022
-ms.locfileid: "68494620"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69131266"
 ---
 # <a name="publish-a-custom-app-submitted-using-the-teams-app-submission-api"></a>Teams アプリ 申請 API を使用して送信されたカスタム アプリを公開する
 
