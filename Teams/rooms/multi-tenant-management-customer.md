@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: パートナー管理を行います。
 f1keywords: ''
-ms.openlocfilehash: 0fef32202d256926448227f522b6160100cd05e1
-ms.sourcegitcommit: fcbbc197e43bcd63bf95cb329df9cb52e06ee356
+ms.openlocfilehash: 56aaf61092dd1bbd61c2734be6da1732f4882e49
+ms.sourcegitcommit: baf29d244b428712052553f9e4484e72e727247e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2022
-ms.locfileid: "68842165"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "69046866"
 ---
 # <a name="partner-management-for-customers"></a>顧客のパートナー管理
 
@@ -77,7 +77,7 @@ Teams Rooms Pro Management サービスのパートナー管理を使用する�
 
 ## <a name="managing-partner-roles"></a>パートナー ロールの管理
 
-パートナー ロールを使用すると、パートナーは追加の担当者に責任をよりきめ細かく委任できます。 これらのロールの概念は、「 [ロールベースのアクセス制御](microsoft-teams-rooms-premium-rbac.md)」で説明されているのと同じです。 パートナー ロールはカスタム ロールとは異なる点に注意してください。 
+パートナー ロールを使用すると、パートナーは追加の担当者に責任をよりきめ細かく委任できます。 これらのロールの概念は、「 [ロールベースのアクセス制御](rooms-pro-rbac.md)」で説明されているのと同じです。 パートナー ロールはカスタム ロールとは異なる点に注意してください。 
 
 **プライマリ管理者** ロールは、追加する各パートナーの唯一の組み込みロールです。 このロールには、TRM サービスのパートナーに割り当てたルームに対するほぼすべてのアクセス許可があります ( [表 1](#table-1) を参照)。 たとえば、世界中に会議室があり、すべての米国の会議室を管理するパートナーを割り当てる場合、プライマリ管理者はそれらの会議室のアクセス許可のみを管理および委任できます。 この場合、このパートナーのプライマリ管理者は、米国外の部屋に対する可視性を持っていません。 
 

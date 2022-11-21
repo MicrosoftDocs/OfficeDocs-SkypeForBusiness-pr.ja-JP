@@ -17,12 +17,12 @@ ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 description: Slack から Microsoft Teams への移行に関する詳細なガイダンス。
-ms.openlocfilehash: fbcd47f894445595534bf6a88d21f7372268d983
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: b283e38332ab592ec2dedc8a61c1575edfb3359d
+ms.sourcegitcommit: 9504b7a67e593f5575060b09b69817325e2a1f77
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268752"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "69111114"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Slack から Microsoft Teams に移行する
 
@@ -36,7 +36,7 @@ Slack から Teams への組織の移行を計画する場合、保持するも�
 
 ## <a name="plan-your-migration-from-slack"></a>Slack からの移行を計画する
 ### <a name="what-you-can-and-cant-migrate"></a>移行できるものと移行できないもの
-移行できるものと移行できないものは、お客様の Slack サービス プランにより決まります。たとえば、エクスポートできるのはパブリック チャンネルの履歴とファイルのみの Slack サービス プランもあれば、プライベート チャンネルとダイレクト メッセージを含めるには DocuSign のリクエストが必要なサービス プランもあります。 
+Your Slack service plan will determine what you can and can’t migrate. For example, some Slack service plans only let you export public channels history and files, other require a DocuSign request to include Private Channels and Direct Messages. 
 
 Slack ワークスペースのサービス レベルを特定するには、Slack にログインし、[**このワークスペースについて**] ページに表示されるプランの種類を確認します。
 
@@ -54,7 +54,7 @@ Slack のエクスポート オプションの詳細については、Slack の 
 ### <a name="assess-your-slack-workspaces"></a>Slack ワークスペースの評価
 組織の移行計画を立てる前に、Slack ワークスペースに関する情報をまとめる必要があります。 Slack ワークスペースがどのように使用されているかを理解することで、移行の範囲を特定しやすくなります。 たとえば、ワークスペースはいくつ移行するのでしょうか。 それらのワークスペースは特定の部署で使用されているものでしょうか。それとも組織全体で使用されているものでしょうか。
 
-移行する Slack ワークスペースのメンバーのユーザーは、*\<your Slack workspace\>.slack.com/stats* にアクセスして使用状況をユーザー自身で分析できます。使用パターンは [チャンネル] タブと [メンバー] タブで確認できます。移行するワークスペース (および移行しないワークスペース) を決定します。 
+If you’re a member of the Slack Workspaces you want to migrate, you can analyze the usage yourself by going to *\<your Slack workspace\>.slack.com/stats*. Review the Channels and Members tabs to look for usage patterns. Decide which workspaces you want to migrate (and which ones you want to leave behind). 
 
 > [!NOTE]
 > ユーザーが統計情報のページにアクセスできない場合、そのユーザーは管理者または所有者ではないことを意味します。 
@@ -68,7 +68,7 @@ Slack の有料版サービス プラン (無料版以外のすべてのサー�
 Slack のエクスポート オプションの詳細については、Slack の Web サイトを参照してください。 https://get.slack.help/hc/articles/204897248-Guide-to-Slack-import-and-export-tools 
 
 > [!IMPORTANT]
-> チャンネルのデータに関する組織のプライバシーとコンプライアンスの要件を確認します。組織では、エンドユーザーを特定可能なコンテンツ (EUII) のライフライクルへの準拠に加え、このデータの取り扱い、保存、および処理に関するコンプライアンス要件がある場合があります。
+> Check your organization’s privacy and compliance requirements around channel data. Your organization may have compliance requirements around the handling, storage, and processing of this data, in addition to complying with the lifecycle of end-user identifiable content (EUII).
 
 ### <a name="export-direct-messages"></a>ダイレクト メッセージをエクスポートする
 ダイレクト メッセージは Teams のチャットと同じ機能で、1 対 1 または 1 対多数のチャンネル外の会話です。 エクスポート性は、Slack のサービス プランおよび、Slack のエクスポートにダイレクト メッセージを含めることを要求しているかどうかにより決まります。 Teams では現在、ダイレクト メッセージのインポートはサポートされていません。 ダイレクト メッセージのコンテンツを Teams に移動するためのサードパーティのソリューションを調べるには、Microsoft パートナーに相談して説明を受けてください。
@@ -77,7 +77,7 @@ Slack のエクスポート オプションの詳細については、Slack の 
 
 ### <a name="apps-and-custom-integrations"></a>アプリとカスタム統合
 
-Slack のアプリは、Teams のアプリのようなものです。ワークスペースにあるアプリとそれらの構成の一覧が用意できたら、Teams アプリ ストアで検索を行い、Teams で使用できるものを確認できます*。 
+Apps in Slack are like apps in Teams. Once you have a list of apps and their configurations in the Workspace, you can search in the Teams App store to see if they’re available for Teams*. 
 
 \<your Slack workspace\>.slack.com/apps/manage にアクセスしてアプリとカスタム統合の一覧を取得します。 このページには、各アプリが使用している構成の数も表示されます。 カスタム統合の移行性は一定ではありません。 Web フックの場合は、通常はそれを Microsoft 365 または Office 365 コネクタに送信して、ワークフローを Teams に移動できます。 ボットやその他のアプリの Teams への移行については、それぞれの個別の状況に応じて評価を行うことにより計画を立てます。
 
@@ -193,11 +193,11 @@ Slack ワークスペースは、1 つのチーム、複数のチーム、また
 上記の計画セクションで作成したチャンネル インベントリを使用して、どのチャンネルをチームにし、どのチャンネルをチーム内のチャネルにするかを Slack の所有者および管理者と協議して決定します。 Excel または Power BI では保持するチャンネルについての協議を進める上で役立つ追加の分析情報が提供されるため、いずれかを使用して分析に役立てます。
 
 > [!TIP]
-> Teams では現在、チーム 1 つあたりのチャネル数の上限は 200 です。一覧に含まれるチャンネル数がこの上限値に近い場合、それらのチャンネルを 2 つのチームに分割する方法を考える必要があります。
+> Teams currently has a 200-channel limit per team. If your list of channels is getting close to that limit, you should figure out a way to split them into two separate teams.
 
 ### <a name="channel-history"></a>チャンネル履歴
 
-パブリックおよびプライベート チャンネルのチャンネル履歴の保持に関する組織の要件に応じて、GitHub 上の無料のソリューションと有料のソリューションの両方を使用できます。また、スクリプトを使用してソリューションを Teams に記述できます。
+There are both free solutions on GitHub and paid solutions you can use, depending on your organization’s requirements to retain Channel History of Public and Private channels. Additionally, this could be scripted into Teams.
 
 チームおよびチャンネルの新しい構造のセットアップが Teams で完了したら、エクスポートしたファイルを Teams チャネルの適切なドキュメント ライブラリにコピーできます。
 
@@ -205,7 +205,7 @@ Slack ワークスペースは、1 つのチーム、複数のチーム、また
 
 ### <a name="channel-files"></a>チャンネル ファイル
 
-ほとんどのソリューションでは、ファイルをエクスポートできます。ただし、これらは通常チャンネル履歴のリンクとして提供され、プログラムで取得するには API キーを必要とします。
+Most solutions will export files. However, they’re typically provided as links in the Channel History that require an API key to programmatically retrieve.
 
 Slack に保存されているファイルの場合、チームおよびチャネルのセットアップを Teams で完了すると、プログラムを使用してこれらのファイルを Slack からターゲットの Teams のチャネルにコピーできます。
 
@@ -339,8 +339,8 @@ Teams に追加するアプリを特定するには、アプリの使用状況�
 - New Relic
   - こちらの [New Relic の警告の Teams への送信](https://discuss.newrelic.com/t/new-relic-alerts-not-working-with-microsoft-teams/48609/3)に関するユーザーによるソリューションをご覧ください。
 - Nagios
-  - 現在、警告はコネクタ経由で統合できます。https://github.com/isaac-galvan/nagios-teams-notify
-- ZenDesk
+  - 現在、警告はコネクタ経由で統合できます。 https://github.com/isaac-galvan/nagios-teams-notify
+- Zendesk
   - Teams ストアにアプリがあります
 - Jenkins
   - 警告は [Jenkins の Office 365 コネクタ](https://plugins.jenkins.io/Office-365-Connector) を使用して Teams に送信できます。

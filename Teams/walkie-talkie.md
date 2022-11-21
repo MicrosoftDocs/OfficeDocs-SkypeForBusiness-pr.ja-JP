@@ -20,51 +20,51 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c426606cae959e4d1134fd7a1551b33484c06d9d
-ms.sourcegitcommit: e0dfa7dbfb03c41f096ed0ad80f44de8e147ed26
+ms.date: 11/17/2022
+ms.openlocfilehash: 90dcdf19f66b8c0f814540708be81bae36564b21
+ms.sourcegitcommit: f905ce4428155e81a56a1251351730f0eea3a421
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68743142"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "69107429"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams のトランシーバー アプリ
 
-Teams の Walkie Talkie アプリは、チームにインスタント プッシュツートーク (PTT) 通信を提供し、Android と iOS で利用できます。 トランシーバーを使用すると、ユーザーは、メンバーと同じ基本チャネルを使用してチームとつながることができます。 チャネルで Walkie Talkie に接続するユーザーのみが参加者になり、プッシュツートークを使用して一度に 1 つずつ通信できます。
+Teams の Walkie Talkie アプリは、チームにインスタント プッシュツートーク (PTT) 通信を提供し、Android と iOS で利用できます。 トランシーバーを使用すると、ユーザーは、メンバーと同じ基本チャネルを使用してチームとつながることができます。
 
-Teams の Walkie Talkie を使用すると、現場担当者は、かさばる無線を持ち歩く必要なく、使い慣れた PTT エクスペリエンスと安全に通信でき、Walkie Talkie は WiFi または携帯ネットワーク接続でどこでも動作します。
+チャネルで Walkie Talkie に接続するユーザーのみが参加者になり、PTT を使用して相互に通信できます。 [切断] をタップするまで、ユーザーは引き続き送信を受け取  **ります**。
+
+Teams の Walkie Talkie を使用すると、ユーザーはかさばるラジオを持ち歩く必要なく、使い慣れた PTT エクスペリエンスと安全に通信でき、Walkie Talkie は WiFi または携帯ネットワーク接続でどこでも動作します。
 
 > [!NOTE]
 > トランシーバーは現在、中国では利用できません。
 
 ## <a name="license-requirements"></a>ライセンス要件
 
-Walkie Talkie は、[Microsoft 365 および Office 365 サブスクリプション](/office365/servicedescriptions/teams-service-description)の Teams のすべての有料ライセンスに含まれています。 Teams の入手の詳細については、「[Microsoft Teams にアクセス操作方法」を](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)参照してください。
+Walkie Talkie は、[Microsoft 365 および Office 365 サブスクリプション](/office365/servicedescriptions/teams-service-description)の Teams のすべての有料ライセンスに含まれています。 Teams の入手の詳細については、「[Microsoft Teams を入手操作方法」](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)を参照してください。
 
 ## <a name="deploying-walkie-talkie"></a>トランシーバーの展開
 
 Walkie Talkie は、Google Mobile Services (GMS) と iOS デバイスを使用する Android デバイスでサポートされています。
 
-> [!NOTE]
-> ユーザーが Bluetooth アクセサリを使用している場合は、モバイル デバイス管理 (MDM) ソリューションで Bluetooth デバイスがブロックされていないことを確認します。
+### <a name="step-1-make-sure-walkie-talkie-is-enabled-in-your-organization"></a>手順 1: 組織で Walkie Talkie が有効になっていることを確認する
 
-### <a name="enable-or-disable-walkie-talkie-in-your-organization"></a>組織内で Walkie Talkie を有効または無効にする
+既定では、Walkie Talkie アプリは組織内のすべての Teams ユーザーに対して有効になっています。
 
-Walkie Talkie は、組織内のすべての Teams ユーザーに対して既定で有効になっています。 組織レベルでアプリをオフまたはオンにするには、Microsoft Teams 管理センターの [[アプリを管理]](manage-apps.md) ページで行います。
+Microsoft Teams 管理センターの [アプリの [管理](manage-apps.md) ] ページで、アプリを組織レベルで使用できるかどうかを制御します。 組織でアプリが有効になっていることを確認するには:
 
 1. Teams 管理センターの左側のナビゲーションで、**[Teams アプリ]** > **[アプリを管理]** の順に移動します。
-2. アプリの一覧で、Walkie Talkie アプリを検索して選択し、[ **状態]** トグルを **[ブロック** ] または [ **許可]** に切り替えます。
+2. アプリの一覧で、Walkie Talkie アプリを検索して選択し、[ **状態** ] トグルが **[許可**] に設定されていることを確認します。
 
-### <a name="enable-or-disable-walkie-talkie-for-specific-users-in-your-organization"></a>組織内の特定のユーザーに対して Walkie Talkie を有効または無効にする
+組織内の特定のユーザーが Walkie Talkie を使用することを許可またはブロックする場合は、[ [アプリの管理](manage-apps.md) ] ページで、組織に対して Walkie Talkie が有効になっていることを確認します。 次に、アプリのアクセス許可のカスタム ポリシーを作成し、それらのユーザーに割り当てます。 詳細については、「[Teams のアプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md)」を参照してください。
 
-組織内の特定のユーザーが Walkie Talkie を使用できないようにするには、[ [アプリの管理](manage-apps.md) ] ページで、組織の Walkie Talkie がオンになっていることを確認します。 次に、アプリのアクセス許可のカスタム ポリシーを作成し、アプリセットアップ ポリシーに追加して、それらのユーザーに割り当てます。 詳細については、「 [Teams でアプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md) 」および「 [Microsoft Teams でアプリセットアップ ポリシーを管理する」](teams-app-setup-policies.md)を参照してください。
-
-### <a name="pin-walkie-talkie-to-teams"></a>トランシーバーを Teams にピン留めする
+### <a name="step-2-pin-walkie-talkie-to-teams"></a>手順 2: トランシーバーを Teams にピン留めする
 
 #### <a name="use-the-tailored-frontline-app-experience-to-pin-walkie-talkie-and-other-apps-to-teams"></a>調整済みの現場アプリ エクスペリエンスを使用して、Walkie Talkie やその他のアプリを Teams にピン留めする
 
 Teams のカスタマイズされたフロントライン アプリ エクスペリエンスは、 [F ライセンス](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)を持つユーザーにとって Teams で最も関連性の高いアプリをピン留めします。 ピン留めされたアプリには、Walkie Talkie、Shifts、Tasks、Approvals が含まれます。 既定では、この機能はオンになっており、現場の従業員はニーズに合わせてすぐに使えるエクスペリエンスを提供します。
 
-このアプリは、アプリ バー (Teams デスクトップ クライアントの横、および Teams モバイル クライアントの一番下にある) にピン留めされ、ユーザーはそこからすばやく簡単にアプリにアクセスできます。
+アプリは、ユーザーがすばやく簡単にアクセスできる Teams モバイル クライアントの下部にあるアプリ トレイにピン留めされています。
 
 その他設定したアプリ ポリシーでのエクスペリエンスの動作など、詳細については、「[現場の従業員向けの Teams アプリの調整](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)」を参照してください。
 
@@ -124,9 +124,16 @@ Walkie Talkie からの予想されるデータ使用量は、オーディオの
 > [!NOTE]
 > これらのデバイスは Teams 認定を受けていません。 Teams トランシーバーで動作することが検証されています。
 
+## <a name="bluetooth-devices"></a>Bluetooth デバイス
+
+> [!NOTE]
+> ユーザーが Bluetooth アクセサリを使用している場合は、モバイル デバイス管理 (MDM) ソリューションで Bluetooth デバイスがブロックされていないことを確認します。
+
+Android OS バージョン 12 以降を実行しているデバイスでは、Bluetooth アクセス許可が必要であり、BLE スタックを使用して接続するための場所のアクセス許可は不要になりました。 Teams レベルで "近くのアクセス許可" が付与されていない場合、ユーザーは Bluetooth アクセス許可のプロンプトを受け取ります。 ヘッドセットなどの Bluetooth アクセサリがデバイスに接続されているかどうかに関わらず、このプロンプトが表示されます。 Bluetooth アクセサリが接続されている場合は、[ **許可]** をタップすると、Walkie Talkie が Bluetooth アクセサリに接続されます。
+
 ## <a name="more-information"></a>詳細情報
 
-- 現場担当者がモバイル データを使用して Teams 経由で通信している場合、Walkie Talkie は同じ方法を使用します。
+- ユーザーがモバイル データを使用して Teams 経由で通信している場合、Walkie Talkie は同じ方法を使用します。
 - トランシーバーは、低帯域幅の状況、またはスマートフォンが接続されて機能している状況でうまく機能するはずです。 トランシーバーは、接続がまったくない場合は機能しません。
 
 エンド ユーザー エクスペリエンスの詳細については、次を参照してください。

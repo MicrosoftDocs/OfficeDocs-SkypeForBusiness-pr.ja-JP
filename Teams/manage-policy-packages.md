@@ -19,13 +19,13 @@ ms.custom:
 - seo-marvel-apr2020
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Microsoft Teams でポリシー パッケージを使用して管理し、ユーザーグループのポリシーを管理する際の一貫性を簡素化、合理化、および提供する方法について説明します。
-ms.openlocfilehash: 75c4a220def2978a843fa69747ae86217a4d152b
-ms.sourcegitcommit: 1fe19c4a6e9f6116515df531786cc3e482e27093
+description: Microsoft Teams でポリシー パッケージを使用、管理、カスタマイズして、ユーザーグループのポリシーを管理する際の一貫性を簡素化、合理化、および提供する方法について説明します。
+ms.openlocfilehash: f91fdcdecb66fbc08b8ce75563f6034594fd448c
+ms.sourcegitcommit: ad7eb80a266a96bb894f3801b51587c07786c257
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2022
-ms.locfileid: "68877518"
+ms.lasthandoff: 11/19/2022
+ms.locfileid: "69128198"
 ---
 # <a name="manage-policy-packages-for-microsoft-teams"></a>Microsoft Teams のポリシー パッケージを管理する
 
@@ -36,9 +36,6 @@ Microsoft Teams のポリシー パッケージは、組織内で類似の役割
 :::image type="content" source="media/policy-packages-admin-center.png" alt-text="管理センターの [ポリシー パッケージ] ページのスクリーンショット。" lightbox="media/policy-packages-admin-center.png":::
 
 ユーザーのニーズに合わせて、ポリシー パッケージ内のポリシーの設定をカスタマイズできます。 パッケージ内のポリシーの設定を変更すると、そのパッケージに割り当てられているすべてのユーザーが更新された設定を取得します。 ポリシー パッケージは、Microsoft Teams 管理センターまたは PowerShell を使用して管理します。
-
-> [!NOTE]
-> この機能は、すべての Microsoft Teams のお客様に対してパブリック プレビューで一時的に利用できます。 プレビュー後にこの機能を取得するには、各ユーザーに Advanced Communications アドオン ライセンスが必要です。 詳細については、「[Microsoft Teams 用 Advanced Communications アドオン](/microsoftteams/teams-add-on-licensing/advanced-communications)」を参照してください。
 
 ## <a name="what-is-a-policy-package"></a>ポリシー パッケージとは
 
