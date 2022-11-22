@@ -22,13 +22,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Licensing
+- admindeeplinkMAC
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 75a1f3702140543f08d963a2572841bdca79c9b1
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: 6d64c89aa62d7209a1135234e975f492e7c182a9
+ms.sourcegitcommit: 0a13f96663c7466b08d654bedcb6206f302189a1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68584208"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "69139161"
 ---
 # <a name="what-are-communications-credits"></a>通信クレジットについて
 
@@ -38,52 +39,70 @@ Communications Credits are a convenient way to pay for Audio Conferencing and Ca
 
 - 電話会議からダイヤルアウトして、世界中のあらゆる場所から他のユーザーを追加する。
 
-- Microsoft Teams アプリを使用して電話会議会議から携帯電話にダイヤルアウトするか、サブスクリプションにまだ含まれていない宛先にインストールSkype for Businessアプリ。
+- Microsoft Teams アプリまたは Skype for Business アプリをサブスクリプションにまだ含まれていない宛先にインストールして、電話会議会議から携帯電話にダイヤルアウトする。
 
 - **国内通話プラン** のサブスクリプションを利用している場合に、任意の国際電話番号にダイヤルする。
 
-- **国内および国際通話プラン** のサブスクリプションに含まれる電話番号を超えて国際電話番号をダイヤルします。
+- **国内通話プランと国際通話プラン** のサブスクリプションに含まれる電話番号を超えて、国際電話番号にダイヤルします。
 
-- 毎月の分割り当てがなくなると、ダイヤルアウトして 1 分あたりの支払いを行います。
+- 毎月分の割り当てを使い果たしたら、1 分あたりにダイヤルアウトして支払います。
 
-- 従量課金制通話プランを使用している場合は、すべての発信通話に対して 1 分あたりのダイヤルアウトと支払いを行います。
+- 従量課金制通話プランがある場合は、すべての発信通話に対して 1 分あたりのダイヤルアウトと支払いを行います。
 
-> [!NOTE]
-> 一部の発信先への発信通話は、お客様の電話会議サブスクリプションに含まれている場合があります。 詳細については、お客様のサブスクリプション情報を御覧ください。
+## <a name="can-i-use-communication-credits"></a>コミュニケーション クレジットは使用できますか?
+
+すべての顧客がコミュニケーション クレジットを使用できる、または使用する必要があるわけではありません。 コミュニケーション クレジットを使用できない、または使用してはならない理由を次に示します。
+
+### <a name="call-destinations-may-be-included-in-your-subscription"></a>通話先はサブスクリプションに含めることができます
+
+一部の宛先への送信呼び出しは、電話会議または通話プラン サブスクリプションに含まれる場合があります。 不要なコミュニケーション クレジットを購入する前に、サブスクリプション情報の詳細を確認してください。
   
-> [!NOTE]
-> If your organization is located in a different region than the billing address of your Enterprise Agreement (EA), you might not be able to purchase Communications Credits. If you are unable to acquire Communications Credits, open a support incident from the portal and we will work with you to mitigate this issue until a permanent solution is in place.
-  
+### <a name="conflicting-organization-addresses"></a>競合する組織のアドレス
+
+組織がEnterprise Agreement (EA) の請求先住所とは異なるリージョンに配置されている場合は、コミュニケーション クレジットを購入できない可能性があります。
+
+コミュニケーション クレジットを購入できない場合は、ポータルからサポート インシデントを開き、永続的なソリューションが実施されるまで、この問題を軽減するためにお客様と協力します。
+
+### <a name="customers-with-new-commerce-experience-calling-subscriptions"></a>サブスクリプションの呼び出しに関する新しいコマース エクスペリエンスを持つお客様
+
+新しいコマース エクスペリエンス (NCE) を使用すると、サービスが使用された後のサービスの支払い (使用後の課金とも呼ばれます) を顧客が支払うことができます。
+
+コミュニケーション クレジットは、発信分をサポートするための前払い予算であるため、NCE 通話サブスクリプションをお持ちのお客様は購入できません。
+
+代わりに、NCE のお客様は、使用後数分後に超過分の支払いを行います。 コミュニケーション クレジットのプールは必要ありません。
+
+サブスクリプションを呼び出すための新しいコマース エクスペリエンスの詳細については、「サブスクリプションの [従量課金制を有効にする](/microsoft-365/commerce/subscriptions/manage-pay-as-you-go-services) 」と「 [電話会社の従量課金制の新しいコマース超過](/partner-center/new-commerce-telco-payg)分」を参照してください。
+
 ## <a name="what-are-the-communications-credits-rates"></a>コミュニケーション クレジットの料金について
 
-通話プランに対する通話のコストが不明な場合は、「 [音声通話用のクラウドベースの電話システム](https://go.microsoft.com/fwlink/p/?LinkId=799523) ("通話する場所の料金を確認する" までスクロールダウン)」を参照してください。
+通話のコストがMicrosoft Teams Calling プランの場合は、「[音声通話用のクラウドベースの電話システム](https://go.microsoft.com/fwlink/p/?LinkId=799523)」を参照してください (「通話する場所のレートを確認する」まで下にスクロールします)。
   
 ## <a name="what-is-it"></a>説明
 
-無料電話番号を使用するには、これらの通話に分単位で課金されるため、通信クレジットが必要です。 また、 **PSTN 発信先** にダイヤルアウトする機能が必要な 通話プラン/電話会議ユーザー向けにコミュニケーション クレジットを設定することをお勧めします。 ご利用の通話プランまたは電話会議のサブスクリプションでは、多くの国や地域が含まれていますが、一部の発信先が含まれていない可能性があります。 コミュニケーション クレジットを設定しない場合や、ユーザーにライセンスを割り当てない場合に (通話プラン、電話会議プラン、または国/地域に基づき) 組織の通話分数が不足すると、これらのユーザーは通話を発信することや、オンラインの電話会議からダイヤルアウトすることができなくなります。
+フリーダイヤル番号を使用するには、これらの通話が 1 分ごとに課金されるため、コミュニケーション クレジットが必要です。 また、 **PSTN 発信先** にダイヤルアウトする機能が必要な 通話プラン/電話会議ユーザー向けにコミュニケーション クレジットを設定することをお勧めします。 ご利用の通話プランまたは電話会議のサブスクリプションでは、多くの国や地域が含まれていますが、一部の発信先が含まれていない可能性があります。 コミュニケーション クレジットを設定しない場合や、ユーザーにライセンスを割り当てない場合に (通話プラン、電話会議プラン、または国/地域に基づき) 組織の通話分数が不足すると、これらのユーザーは通話を発信することや、オンラインの電話会議からダイヤルアウトすることができなくなります。
   
 > [!NOTE]
-> 通信クレジットを設定し、**Microsoft 365 管理センター** >  **Users** > **Active Users** の各ユーザーに対して通信クレジット ライセンスを割り当てる必要があります。 通信クレジット ライセンスは、通信クレジット ライセンスを割り当てるすべてのユーザーの通信クレジット残高へのアクセスを許可するために使用されるため、数量に制限なく表示されます。
+> コミュニケーション クレジットを設定してから、**Microsoft 365 管理センター** >  **Users** > **Active Users** の各ユーザーにコミュニケーション クレジット ライセンスを割り当てる必要があります。 コミュニケーション クレジット ライセンスは、コミュニケーション クレジット ライセンスを割り当てるすべてのユーザーのコミュニケーション クレジット残高へのアクセスを許可するために使用される数量が無制限として表示されます。
   
-コミュニケーション クレジットの最適な設定を把握するために、組織の PSTN サービスの利用状況を注意深く評価することをお勧めします。 PSTN サービスの詳細については、[電話システムと通話プランと](calling-plan-landing-page.md)[電話会議に関する一般的な質問を](Audio-Conferencing-common-questions.md)参照してください。
+コミュニケーション クレジットの最適な設定を把握するために、組織の PSTN サービスの利用状況を注意深く評価することをお勧めします。 PSTN サービスの詳細については、[電話システムと通話プランと](calling-plan-landing-page.md)[電話会議に関する一般的な質問を参照してください](Audio-Conferencing-common-questions.md)。
   
 You can set up consumption billing using a **one-time funding** of the pre-paid balance **OR** by setting up an **auto-recharge** ( **recommended** ) amount with a minimum balance that will trigger a purchase for that recharge amount. Initially, it's suggested that you set up auto recharge amounts that allow you to monitor actual usage and find the right auto recharge thresholds that meet your needs and usage patterns. Communications Credits should be monitored over time and then adjust the minimum balance and recharge amounts as needed to be tailored for each organization's needs.
   
 > [!NOTE]
-> プランと価格を確認するには、[Microsoft 365 管理センターにサインインし、[](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)**課金** > サブスクリプションのサブスクリプション **の** > 追加] に移動 **します**。
+> プランと価格を確認するには、[Microsoft 365 管理センターにサインインし](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)、[**課金** > **サブスクリプション][ サブスクリプションの** > **追加]** に移動します。
   
-**Microsoft 365 管理センター** >  **Billing** > **Purchase Services** > **Add Ons では**、コミュニケーション クレジットを選択してクレジットを追加できます。また、クレジットはいつでも手動で追加できます。 You can also enable the **Auto-recharge** option, which will allow automatic account refills when the balance falls below the threshold that you set. Communications Credits の残高に 1 回限りの金額で資金を提供することを選択した場合、残高が 0 に下がると、上記の他の通話シナリオ (無料電話番号を含む) は機能しなくなります。 As such, it's recommended that you use the **Auto-recharge** setting to avoid any disruption of service should your Communications Credits balance reach 0 (zero). 現在のコミュニケーション クレジット残高は、**製品** > の **通信** クレジット **の請求** > に移動して表示できます。
+[Microsoft 365 管理センター](https://go.microsoft.com/fwlink/p/?linkid=2024339)で、[**課金** > **購入サービス** > **のアドオン] に** 移動し、[コミュニケーション クレジット] を選択してクレジットを追加でき、いつでも手動でクレジットを追加できます。 You can also enable the **Auto-recharge** option, which will allow automatic account refills when the balance falls below the threshold that you set. 1 回限りの金額でコミュニケーション クレジットの残高に資金を供給することを選択した場合、残高が 0 に落ちると、上記の他の通話シナリオは、フリーダイヤルの電話番号を含め、機能しなくなります。 As such, it's recommended that you use the **Auto-recharge** setting to avoid any disruption of service should your Communications Credits balance reach 0 (zero). 現在のコミュニケーション クレジットの残高を表示するには、[**製品** > の **通信クレジット** の **課金]** >  に移動します。
 
 > [!NOTE]
->Lync サービス管理者、会社管理者、課金管理者、会社管理者、ユーザー アカウント管理者、ヘルプデスク管理者、サービス サポート管理者、課金管理者、Lync サービス管理者、デバイス管理者、アプリケーション管理者、ライセンス管理者、クラウド デバイス管理者、認証管理者、特権認証管理者、Teams 通信管理者、Teams を持つ **すべてのユーザー** に電子メールが送信されます。 通信サポート エンジニア、Teams コミュニケーション サポート スペシャリスト、Teams 管理者ロール。リチャージ トランザクションが成功した場合、トランザクションの再チャージ (期限切れのクレジット カードなど)、または通信クレジット残高が 0 (ゼロ) に達した場合。
+>Lync サービス管理者、会社管理者、課金管理者、会社管理者、ユーザー アカウント管理者、ヘルプデスク管理者、サービス サポート管理者、課金管理者、Lync サービス管理者、デバイス管理者、アプリケーション管理者、ライセンス管理者、クラウド デバイス管理者、認証管理者、特権認証管理者、Teams コミュニケーション管理者、Teams を使用 **して、すべてのユーザー** に電子メールが送信されます コミュニケーション サポート エンジニア、Teams コミュニケーション サポート スペシャリスト、Teams 管理者ロール、再充電トランザクションが成功すると、トランザクションの再充電が失敗し (クレジット カードの有効期限が切れたなど)、コミュニケーション クレジットの残高が 0 (ゼロ) に達します。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 
-Each organization will have a different usage of Calling Plans volume and rates to consider. この種類の使用状況データは、現在のサービス プロバイダーから取得する必要があります。 Teams を既にサービス プロバイダーとして使用している組織の場合は、Microsoft Teams 管理センター> **Analytics &レポート****使用状況レポート** > で使用状況データを確認し、**PSTN と SMS (プレビュー) の使用状況** を選択して使用状況データを取得できます。
+Each organization will have a different usage of Calling Plans volume and rates to consider. 現在のサービス プロバイダーからこの種類の使用状況データを取得する必要があります。 既にサービス プロバイダーとして Teams を使用している組織の場合は、Microsoft Teams 管理センター > **Analytics &レポート****使用状況レポート** > で確認し、[**PSTN と SMS (プレビュー) の使用状況]** を選択して使用状況データを取得できます。
   
-通信クレジットを設定するときは、組織の通話使用量を調査して、入れる必要がある金額を決定する必要があります。 PSTN 使用状況レポートを確認すると、通話の使用状況情報を取得できます。 このレポートを使うと、カスタム レポートを作成したり、通話データ記録を Excel にエクスポートしたりすることができます。
+コミュニケーション クレジットを設定するときは、組織の通話使用量を調査して、入力する必要がある金額を決定する必要があります。 PSTN 使用状況レポートを確認することで、通話使用状況情報を取得できます。 このレポートを使うと、カスタム レポートを作成したり、通話データ記録を Excel にエクスポートしたりすることができます。
 
-組織のコミュニケーション クレジット残高に関連する重要な通知は、次の管理者に送信されます。
+組織のコミュニケーション クレジットの残高に関連する重要な通知は、次の管理者に送信されます。
 
 - 課金管理者
 - Skype for Business管理者
@@ -103,13 +122,13 @@ Each organization will have a different usage of Calling Plans volume and rates 
 - Teams 管理者
 
 > [!NOTE]
-> 通信クレジットは、プレミアム レート番号にも使用されます。 呼び出し元が料金を支払います。
+> 通信クレジットは、Premium レート番号にも使用されます。 呼び出し元が料金を支払います。
   
 ## <a name="recommended-funding-amounts"></a>推奨される入金額
 
-まず、小規模な組織では最低でも 50 ドルになる可能性がある、少額の資金を使用することをお勧めします。 PSTN 使用量の詳細レポートを使用して PSTN 使用量を 1 か月または 2 か月収集すると、組織内の通常の使用量に合わせて金額を調整できます。
+最初に、小規模な組織の場合は最低 50 ドルの資金を使用することをお勧めします。 PSTN 使用状況の詳細レポートを使用して 1 か月または 2 回の PSTN 使用状況を収集した後、組織内の通常の使用状況に合わせて量を調整できます。
   
-すべてのセットアップを行える状態になっている場合は、「[組織のために通信クレジットをセットアップする](set-up-communications-credits-for-your-organization.md)」をご覧ください。
+コミュニケーション クレジットを設定する準備ができたら、「 [組織のコミュニケーション クレジットを設定する](set-up-communications-credits-for-your-organization.md)」を参照してください。
   
 ## <a name="want-to-know-about-plans-and-pricing"></a>プランと価格の詳細情報
 
@@ -121,9 +140,9 @@ Each organization will have a different usage of Calling Plans volume and rates 
 
 - [電話システム](https://go.microsoft.com/fwlink/?linkid=799763 )
 
-価格に関する情報は、[Microsoft 365 管理センターにサインインして](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)**課金** > **購入サービス** に移動することでも確認できます。
+価格に関する情報は、[Microsoft 365 管理センターにサインインし](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)、[課金 **購入サービス****]** >  に移動して確認することもできます。
   
-各機能に必要なライセンスまたはライセンスを含むテーブルを表示するには、 [Microsoft Teams アドオン ライセンスに関するページを](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)参照してください。
+各機能に必要なライセンスまたはライセンスの表については、「 [Microsoft Teams アドオン ライセンス](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
   
 ## <a name="related-articles"></a>関連記事
 
