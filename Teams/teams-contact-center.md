@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
-ms.openlocfilehash: 164be9010539897d5fec677606507dbfcec58171
-ms.sourcegitcommit: 2f9a83a1bae8cbee5a0d65464bd47f6735b2d206
+ms.openlocfilehash: 40de55686cbdb031f3bad2bb9d3b7d8eed13cfc6
+ms.sourcegitcommit: 55d2f515f5040b4c083f529d7b818c84d42378a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "69025149"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "69147444"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams のコンタクト センター統合
 
@@ -78,7 +78,7 @@ Microsoft Teams 認定プログラム用の接続済み連絡先センターは�
 | `CentrePal` | https://www.centrepal.com/                                 |
 | `Cisco` | https://www.cisco.com/c/en/us/products/contact-center/webex-contact-center/index.html                                |
 | `Cirrus` | https://www.cirrusresponse.com/cloud-contact-centre/microsoft-teams/ |
-| `EvoloveIP` | https://www.evolveip.net/contact-center   |
+| `Evolove IP` | https://www.evolveip.net/contact-center   |
 | `FrontStage` | https://www.frontstage.cc                                                                                        |
 | `Geomant` | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                                  |
 | `Heedify` | https://heedify.io/call-center/                                                 |

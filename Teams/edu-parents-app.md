@@ -15,14 +15,16 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+ms.custom:
+- admindeeplinkTEAMS
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4cb61038c08739afcd6a48825f8ddaa0cb7c573
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: f2d0d916028a026d7706fd317ba25d16af213a81
+ms.sourcegitcommit: 55d2f515f5040b4c083f529d7b818c84d42378a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912816"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "69147484"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Microsoft Teams for Educationで親接続を設定する
 
@@ -46,8 +48,8 @@ Microsoft Teams for Educationの親接続は、教育者が Teams を使用し�
 - 教師ありチャットで動作します。 詳細については、「 [Microsoft Teams で監視付きチャットを使用する](supervise-chats-edu.md)」を参照してください。
   - 既定では、保護者はアクセス許可が制限されているため、学生とチャットしたり、チャットからユーザーを削除したりすることはできません。
   - この設定は、テナント管理者が変更できます。
-- 教師は保護者のメールをクリックして、ネイティブメールクライアントを使用してメールを送信できます。
-- 教師は保護者の電話番号をクリックして Teams 内で呼び出すことができます。
+- 教師は保護者のメールを選択して、ネイティブメールクライアントを使用してメールを送信できます。
+- 教師は保護者の電話番号を選択して Teams 内で呼び出すことができます。
 
 > [!IMPORTANT]
 > クリックして Teams の機能を呼び出すには、テナントに次が必要です。
@@ -85,12 +87,14 @@ SdS が定期的に同期するように設定されている場合、Teams ガ�
   - [サポート](https://aka.ms/sdssupport)でチケットを開く。
 
 - 現在、SDS では、親連絡先の CSV ベースのデータ インジェストのみがサポートされています。ただし、すべての名簿データに [PowerSchool API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-powerschool-sync) または [OneRoster API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-oneroster-sync) を使用し、CSV を使用して親連絡先を追加するだけです。
-  - [SDS v1 CSV 同期形式](/schooldatasync/school-data-sync-format-csv-files-for-sds)を使用して、2 つ目の同期プロファイルを作成します。
-  - v1 ファイルの残りの部分が空の 2 つの親 [ファイル](/schooldatasync/parent-contact-sync-file-format) (ヘッダーのみ) をプルします。
+  - [SDS v1 CSV 形式または SDS v2.1 CSV 形式](/schooldatasync/school-data-sync-format-csv-files-for-sds)を使用して[、2](/schooldatasync/sds-v2.1-csv-file-format-classic) つ目の同期プロファイルを作成します。
+  - v1/v2.1 [ファイル](/schooldatasync/parent-contact-sync-file-format) の残りの部分が空の 2 つの親ファイル (ヘッダーのみ) をプルします。
     - User.csv
     - Guardianrelationship.csv
-      - 親と保護者が親か保護者かを示すには、各親と保護者の *ロール**値を完了**する必要* があります。
-  - v1 CSV ファイルのサンプル セットを表示するには、 [GitHub ファイルの最小必須属性に関するページを](https://github.com/OfficeDev/O365-EDU-Tools/tree/master/CSV%20Samples/SDS%20Format/Min%20Required%20Attributes)参照してください。
+      - *ロール* の値は、親と保護者ごとに完了して、 または `guardian`かどうかを`parent`示す必要があります。
+        - または の値`parent``guardian`のみがアプリでサポートされます。 その他の値ではエラーが発生します。
+        - SDS v1 形式の場合、 **ロール** としてラベルが付けられますが、SDS v2.1 形式の場合は **、relationshipRole** としてラベル付けされます。
+  - CSV ファイルのサンプル セットを表示するには、 [GitHub ファイルの最小必須属性に関するページを](https://github.com/OfficeDev/O365-EDU-Tools/tree/master/CSV%20Samples/SDS%20Format/Min%20Required%20Attributes)参照してください。
   - 初期同期後に CSV ファイルのプルを自動化する場合は、[CSV File Sync Automation ドキュメント](/schooldatasync/csv-file-sync-automation)を参照してください。
   - SDS データ同期の設定に関するヘルプについては、 [カスタマー サクセス チーム](https://www.microsoft.com/fasttrack?rtc=1) に連絡するか、 [サポート チケットを開いてください](https://edusupport.microsoft.com/support?product_id=data_sync)。
 
@@ -98,7 +102,10 @@ SdS が定期的に同期するように設定されている場合、Teams ガ�
 
 - クラス チームの所有者は、Teams チャットを有効にする必要があります。
 - クラス チームの所有者は、有効になっている **組織によって管理されていない Teams アカウント** に対する外部アクセス権を持っている必要があります。
-  - これは、テナント レベルとユーザー レベルでオンにする必要があります。 テナント レベルの設定は、Teams 管理センターの **[ユーザー >外部アクセス** ] にあります。 この設定には、PowerShell を使用してアクセスすることもできます。 ユーザー レベルの外部アクセス ポリシーには、PowerShell 経由でのみアクセスできます。 詳細なガイダンスについては、以下の PowerShell コマンドを参照してください。
+  - これは、テナント レベルとユーザー レベルでオンにする必要があります。 テナント レベルの設定は、Teams 管理センターの **[ユーザー >外部アクセス** ] にあります。 この設定には、PowerShell を使用してアクセスすることもできます。 ユーザー レベルの外部アクセス ポリシーには、PowerShell 経由でのみアクセスできます。 詳細については、 [以下の PowerShell コマンド](#allow-external-access-with-teams-accounts-not-managed-by-an-organization)を参照してください。
+- 親接続アプリからの会議の作成を許可するには、次のポリシーを有効にする必要があります。
+  - [プライベート会議のスケジュール設定を許可する](meeting-policies-in-teams.md#allow-scheduling-private-meetings)。
+  - [匿名ユーザーに会議への参加を許可する](meeting-policies-participants-and-guests.md#let-anonymous-people-join-a-meeting)。
 
 #### <a name="parent-and-guardian-restrictions"></a>保護者の制限
 
@@ -122,7 +129,7 @@ SdS が定期的に同期するように設定されている場合、Teams ガ�
 1. 保護者のプロフィール カードを開き、省略記号と **ブロック ユーザー** を選択します。
 2. 次に、チャットから保護者を削除します。
 
-ブロックされたユーザーは、クラス所有者との追加のチャットを開始できません。
+ブロックされたユーザーは、クラス所有者と他のチャットを開始できません。
 
 ## <a name="allow-external-access-with-teams-accounts-not-managed-by-an-organization"></a>組織が管理していない Teams アカウントで外部アクセスを許可する
 
@@ -130,7 +137,7 @@ SdS が定期的に同期するように設定されている場合、Teams ガ�
 
 保護者の外部アクセスを有効にする手順を次に示します。
 
-1. 最新の Microsoft Teams PowerShell モジュール プレビューをインストールします。
+1. 最新の Microsoft Teams PowerShell モジュールをここにインストールします [https://www.powershellgallery.com/packages/MicrosoftTeams](https://www.powershellgallery.com/packages/MicrosoftTeams)。
 
     ```powershell
     Install-Module -Name PowerShellGet -Force -AllowClobber
@@ -156,8 +163,8 @@ SdS が定期的に同期するように設定されている場合、Teams ガ�
 
 4. "グローバル" ポリシー以外のポリシーごとに、ポリシーが割り当てられているユーザーを確認します。
 
-   > [!NOTE]
-   > 特定のポリシーが割り当てられないユーザーは、"グローバル" ポリシーにフォールバックします。 テナントに追加された新しいユーザーには、"グローバル" ポリシーが割り当てられます。
+    > [!NOTE]
+    > 特定のポリシーが割り当てられないユーザーは、"グローバル" ポリシーにフォールバックします。 テナントに追加された新しいユーザーには、"グローバル" ポリシーが割り当てられます。
 
     ```powershell
     Get-CsOnlineUser -Filter {ExternalAccessPolicy -eq "<PolicyName>"} | Select-Object DisplayName,ObjectId,UserPrincipalName
@@ -187,6 +194,52 @@ SdS が定期的に同期するように設定されている場合、Teams ガ�
 Teams 管理センターでアプリを [許可およびブロック](manage-apps.md#allow-and-block-apps) するを使用すると、いつでもテナント レベルでアプリをオフにすることができます。 テナント レベルでオフになっている場合、ユーザー レベルのアクセス許可が有効になっている場合でも、すべてのユーザーに対してブロックされます。
 
 保護者向けアプリは、 [Microsoft Teams でアプリのアクセス許可ポリシーを管理](teams-app-permission-policies.md)するを使用して、ユーザー レベルでオフにすることもできます。
+
+## <a name="set-a-preferred-invitation-channel"></a>優先招待チャネルを設定する
+
+管理者は、優先する親接続招待チャネルとしてメールまたは SMS を選択できます。
+
+保護者と保護者に送信されるメッセージは、HTML、書式設定、またはスタイルが適用されず、プレーン テキストで表示されます。
+
+> [!NOTE]
+> 親と保護者に親接続の招待を送信するための優先チャネルとして SMS を選択する場合は、次の点に注意してください。
+>
+> - 親と保護者の電話番号は、SMS の招待とプロファイルの検索のために E.164 形式である必要があります。
+>   - たとえば、 のように`+12223334444`電話番号を のように`+[country code][area code][phone number]`書式設定します。
+> - 携帯電話会社のSMS料金は、SMS招待状を受け取る保護者に請求される場合があります。
+
+### <a name="set-a-preferred-invite-channel-in-the-teams-admin-center"></a>Teams 管理センターで優先招待チャネルを設定する
+
+1. [Teams 管理センター](https://go.microsoft.com/fwlink/p/?linkid=2066851)にサインインします。
+1. [ **教育機関** > **の保護者の設定**] に移動します。
+1. [**優先連絡先の方法**] フィールドで、[Email] または **[****携帯電話 - SMS**] を選択します。
+1. 変更を保存します。
+
+### <a name="set-a-preferred-invite-channel-using-powershell"></a>PowerShell を使用して優先招待チャネルを設定する
+
+1. *4.9.0 バージョン以上* の Teams PowerShell モジュールを に [https://www.powershellgallery.com/packages/MicrosoftTeams](https://www.powershellgallery.com/packages/MicrosoftTeams)インストールします。
+
+1. 次のコマンドを実行し、管理者の資格情報でサインインします。
+
+    ```powershell
+    Connect-MicrosoftTeams
+    ```
+
+1. 次のコマンドを実行して、 の現在の値を `ParentGuardianPreferredContactMethod`表示します。
+
+    ```powershell
+    Get-CsTeamsEducationConfiguration
+    ```
+
+1. 値を変更するには、次のいずれかのコマンドを実行します。
+
+    ```powershell
+    Set-CsTeamsEducationConfiguration -ParentGuardianPreferredContactMethod Email
+    ```
+
+    ```powershell
+    Set-CsTeamsEducationConfiguration -ParentGuardianPreferredContactMethod SMS
+    ```
 
 ## <a name="more-information"></a>詳細情報
 

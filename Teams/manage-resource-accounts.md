@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: この記事では、Microsoft Teams でリソース アカウントを作成、編集、管理する方法について説明します。
-ms.openlocfilehash: b9c7f5575d5e6df4370c07bf1cd581cbd1a396dd
-ms.sourcegitcommit: 9504b7a67e593f5575060b09b69817325e2a1f77
+ms.openlocfilehash: cde570c23b6d2e6b673f6cc0f49c9905c3b45fd1
+ms.sourcegitcommit: 55d2f515f5040b4c083f529d7b818c84d42378a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/18/2022
-ms.locfileid: "69111134"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "69147434"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams のリソースのアカウントの管理
 
@@ -42,13 +42,14 @@ ms.locfileid: "69111134"
 - [クラウド自動応答](create-a-phone-system-auto-attendant.md)
 - [クラウド呼び出しキュー](create-a-phone-system-call-queue.md)
 
-[編集] オプションを使用して、リソース アカウント **の [表示名** ] と **[リソース アカウント** の種類 **] を編集** できます。 完了したら、[ **保存] をクリックします** 。
+[編集] オプションを使用して、リソース アカウント **の [表示名** ] と **[リソース アカウント** の種類 **] を編集** できます。 完了したら、[ **保存] を選択します** 。
 
-## <a name="change-an-existing-resource-account-to-use-a-teams-phone-resource-account-license"></a>Teams Phone リソース アカウント ライセンスを使用するように既存のリソース アカウントを変更する
-既存のリソース アカウントのライセンスを **Teams 電話スタンダード** ライセンスから Microsoft Teams 電話 **リソース アカウント** ライセンスに切り替えるには、**Teams 電話リソース アカウント** ライセンスを取得し、Microsoft 365 管理センターの手順に従ってユーザーを別のリソース アカウント [に移動するサブスクリプション](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)。
+## <a name="change-an-existing-resource-account-to-use-a-microsoft-teams-phone-resource-account-license"></a>Microsoft Teams 電話 リソース アカウント ライセンスを使用するように既存のリソース アカウントを変更する
+
+既存のリソース アカウントのライセンスを Teams 電話スタンダード ライセンスから **Microsoft Teams 電話** **リソース アカウント** ライセンスに切り替えるには、**Microsoft Teams 電話 リソース アカウント** ライセンスを取得してから、[ユーザーを別の [サブスクリプションに移動する] を](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)Microsoft 365 管理センターします。
 
 > [!WARNING]
-> 常に完全なTeams 電話スタンダード ライセンスを削除し、同じライセンス アクティビティ **でMicrosoft Teams 電話リソース アカウント** ライセンスを割り当てます。 古いライセンスを削除し、アカウントの変更を保存し、新しいライセンスを追加してから、アカウント設定をもう一度保存すると、リソース アカウントが期待どおりに機能しなくなる可能性があります。 その場合は、**Microsoft Teams 電話 リソース アカウント** ライセンスの新しいリソース アカウントを作成し、壊れたリソース アカウントを削除することをお勧めします。
+> **Teams 電話スタンダード** ライセンスを常に削除し、同じライセンス アクティビティ **でMicrosoft Teams 電話リソース アカウント** ライセンスを割り当てます。 古いライセンスを削除し、アカウントの変更を保存し、新しいライセンスを追加してから、アカウント設定をもう一度保存すると、リソース アカウントが期待どおりに機能しなくなる可能性があります。 その場合は、**Microsoft Teams 電話 リソース アカウント** ライセンスの新しいリソース アカウントを作成し、壊れたリソース アカウントを削除することをお勧めします。
 
 ## <a name="skype-for-business-server-2019"></a>Skype For Business Server 2019
 
@@ -68,15 +69,15 @@ Skype for Business Serverとハイブリッドな実装の場合:
 
    [クラウド通話キューの計画](/SkypeforBusiness/hybrid/plan-call-queue)
 
-   [オンプレミス リソース アカウントを構成する](/SkypeForBusiness/hybrid/configure-onprem-ra)
+   [オンプレミスのリソース アカウントを構成する](/SkypeForBusiness/hybrid/configure-onprem-ra)
 
 ## <a name="delete-a-resource-account"></a>リソース アカウントを削除する
 
 リソース アカウントから電話番号を削除する前に、電話番号の関連付けを解除して、サービス番号が保留中のモードでスタックしないようにしてください。
 
-その後、Microsoft 365 管理センターの [ユーザー] タブでリソース アカウントを削除できます。
+その後、Microsoft 365 管理センターの [**ユーザー**] タブでリソース アカウントを削除できます。
 
-リソース アカウントから直接ルーティング電話番号の関連付けを解除するには、次のコマンドレットを使用します。
+リソース アカウントからダイレクト ルーティング電話番号の関連付けを解除するには、次のコマンドレットを使用します。
 
 ```powershell
 Remove-CsPhoneNumberAssignment -Identity <Resource Account Object ID> -PhoneNumber <assigned phone number> -PhoneNumberType DirectRouting
