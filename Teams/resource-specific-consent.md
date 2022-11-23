@@ -14,18 +14,16 @@ ms.localizationpriority: high
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb7e4a4487a5411386978fb91a70c485bfa0ddc6
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: 374cda125d688c4e38797f1afbee4ae3a55bb064
+ms.sourcegitcommit: d95a3408e31d3dec37c534c110b09a8847bec724
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912596"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "69156823"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>Microsoft Teams でのリソース固有の同意
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
-リソース固有の同意 (RSC) は、アプリが API エンドポイントを使用して組織内のチームの特定のリソースを管理できるようにする Microsoft Teams と Microsoft のGraph API統合です。 RSC アクセス許可を使用すると、チームの所有者は、アプリケーションがチームのデータにアクセスして変更するための同意を付与できます。 Microsoft Teams のリソース固有の同意により、チーム所有者はアプリがチーム データにアクセスすることに同意できます。 このようなアクセスの例には、チャネル メッセージの読み取り、チャネルの作成と削除、およびチャネル タブの作成と削除の機能が含まれます。
+リソース固有の同意 (RSC) は、アプリが API エンドポイントを使用して組織内のチームの特定のリソースを管理できるようにする、Microsoft Teams とMicrosoft Graph API統合です。 RSC アクセス許可を使用すると、チームの所有者は、アプリケーションがチームのデータにアクセスして変更するための同意を付与できます。 Microsoft Teams のリソース固有の同意により、チーム所有者はアプリがチーム データにアクセスすることに同意できます。 このようなアクセスの例には、チャネル メッセージの読み取り、チャネルの作成と削除、およびチャネル タブの作成と削除の機能が含まれます。
 
 管理者は、Azure Active Directory (Azure AD) PowerShell モジュールまたは Azure portal と Microsoft Teams 管理センターを使用して構成した設定を通じて、組織内のチーム所有者が同意できるかどうかを制御します。  
 
@@ -49,7 +47,7 @@ ms.locfileid: "68912596"
 
 PowerShell を使用してこの設定を管理することもできます。 詳細については、「[アプリケーションへのユーザー コンテンツの構成](/azure/active-directory/manage-apps/configure-user-consent#configure-user-consent-to-applications)」を参照してください。
 
-#### <a name="the-enablegroupspecificconsent-setting"></a>"EnableGroupSpecificConsent" 設定
+#### <a name="control-to-let-group-owners-consent-to-apps-that-access-company-data"></a>会社のデータにアクセスするアプリにグループ所有者が同意できるようにする制御
 
 この設定は、組織内のユーザーが、所有するグループの会社データにアプリがアクセスすることに同意できるかどうかを制御します。 チームの所有者が同意するには、この設定を有効にする必要があります。 PowerShell を使用してこの設定を管理する方法については、「[グループ データにアクセスするアプリに対するグループ所有者の同意を構成する](/azure/active-directory/manage-apps/configure-user-consent#configure-group-owner-consent-to-apps-accessing-group-data)」を参照してください。
 
