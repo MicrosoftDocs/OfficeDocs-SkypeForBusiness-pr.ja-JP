@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1bd04b590a789756d0b41153b886be8ba6d777e7
-ms.sourcegitcommit: 2d1bb69e0d6bc35be0b57c7c5d87f58ab013dafb
+ms.openlocfilehash: 3de0ed17ceee33106e3281707d90427569558922
+ms.sourcegitcommit: 75b29de261b4de652c7f2e89da4ad7158da773f1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "68928507"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "69183016"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams のハードウェア要件
 
@@ -44,7 +44,7 @@ ms.locfileid: "68928507"
 |.NET のバージョン    |  NET 4.5 CLR 以降が必要       |
 |ビデオ    |  USB 2.0 ビデオ カメラ       |
 |デバイス    |   標準ラップトップ カメラ、マイク、スピーカー    |
-|ビデオ通話と会議|<ul><li>2 コア プロセッサが必要です。 ビデオ/画面共有の解像度とフレーム レートを高くするには、4 コア以上のプロセッサをお勧めします。</li> <li>背景ビデオの効果には、Windows 10 または、AVX2 命令セット付プロセッサが必要です。</li> <li>サポートされていないデコーダーとエンコーダーのリストについては、「[ハードウェア デコーダーとエンコーダー ドライバーの推奨事項](hardware-decoders-and-encoders.md)」を参照してください。</li><li>Microsoft Teams Room で近接検出を使用して会議に参加するには、Bluetooth LE が必要です。 Windows の Bluetooth LE では、クライアント デバイスで Bluetooth を有効にする必要があり、Teams クライアントの 64 ビット バージョンが必要です。 この機能は、32 ビットの Teams クライアントでは利用できません。</li></ul> |
+|ビデオ通話と会議|<ul><li>2 コア プロセッサが必要です。 ビデオ/画面共有の解像度とフレーム レートを高くするには、4 コア以上のプロセッサをお勧めします。</li> <li>背景ビデオの効果には、Windows 10 または、AVX2 命令セット付プロセッサが必要です。</li> <li>サポートされていないデコーダーとエンコーダーのリストについては、「[ハードウェア デコーダーとエンコーダー ドライバーの推奨事項](hardware-decoders-and-encoders.md)」を参照してください。</li><li>Microsoft Teams Roomsで近接検出を使用して会議に参加するには、Bluetooth LE が必要です。 Windows の Bluetooth LE では、クライアント デバイスで Bluetooth を有効にする必要があり、Teams クライアントの 64 ビット バージョンが必要です。 この機能は、32 ビットの Teams クライアントでは利用できません。</li></ul> |
 |Teams のライブ イベント | Teams ライブ イベントを作成する場合は、Core i5 Kaby Lake プロセッサ、4.0 GB RAM (またはそれ以上) とハードウェア エンコーダーを搭載したコンピューターの使用をお勧めします。 **サポートされていない** デコーダーとエンコーダーのリストについては、「[ハードウェア デコーダーとエンコーダー ドライバーの推奨事項](hardware-decoders-and-encoders.md)」を参照してください。 |
 
 ## <a name="hardware-requirements-for-teams-on-a-mac"></a>Mac での Teams のハードウェア要件

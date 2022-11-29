@@ -17,22 +17,22 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: この記事では、Teams パネル デバイスの使用方法に関するガイダンスを提供します。
-ms.openlocfilehash: fff3df797e043b83662aacc9a67ef1af45b733a4
-ms.sourcegitcommit: ab8f8e101e41774668b5e607fa72442105ca796e
+ms.openlocfilehash: b5dbe92b1c2c3f08683ca58a403fdbb4e318efca
+ms.sourcegitcommit: 75b29de261b4de652c7f2e89da4ad7158da773f1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "68801778"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "69183006"
 ---
-# <a name="how-to-use-microsoft-teams-panels"></a>Microsoft Teams パネルの使用方法
+# <a name="how-to-use-microsoft-teams-panels"></a>Microsoft Teams パネルを使用する方法
 
-Microsoft Teams パネルは、会議スペースのすぐ外側 (通常は入り口の隣) に取り付けられたコンパクトなデジタルディスプレイ デバイスです。 これらのタッチスクリーン パネルは、会議スペースとスケジュールされた会議に関する一目で確認できる専用の Microsoft Teams デバイスです。 鮮やかな色分けされたLEDとホーム画面インジケーターを使用すると、スペースが利用可能か、遠くから予約されているかを判断できます。 Teams パネルを使用すると、その場でアドホック会議に使用できる会議スペースを予約できます。
+Microsoft Teams パネルは、会議スペースのすぐ外側 (通常は入口の隣) に取り付けられるコンパクトなデジタルディスプレイ デバイスです。 これらのタッチスクリーン パネルは、Teams デバイスMicrosoft専用であり、会議スペースとスケジュールされた会議についてひとめで確認できます。 鮮やかな色分けされたLEDとホーム画面インジケーターを使用すると、スペースが利用可能か、遠くから予約されているかを判断できます。 Teams パネルを使用すると、その場でアドホック会議に使用できる会議スペースを予約できます。
 
-Teams パネル デバイスには Microsoft Teams がプレインストールされ、Outlook または Teams の予定表を通じてスケジュールされた会議の詳細が表示されます。
+Teams パネル デバイスには、Microsoft Teams がプレインストールされ、Outlook または Teams の予定表を通じてスケジュールされた会議の詳細が表示されます。
 
 この記事では、Teams パネル デバイスの使用方法に関するガイダンスをエンド ユーザーと管理者の両方に提供します。 また、これらのデバイスの使用に関して [よく寄せられる質問](#frequently-asked-questions) に対する回答も提供します。
 
-パネル デバイスの概要と、組織内でデバイスを計画、配信、管理する方法に関するガイダンスについては、「 [Microsoft Teams パネルの展開](teams-panels.md)」を参照してください。
+パネルデバイスの概要と、組織内でデバイスを計画、配信、管理する方法に関するガイダンスについては、「[Microsoft Teams パネルを展開する](teams-panels.md)」を参照してください。
 
 クイック スタートについては、「 [Teams パネルの概要](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)」を参照してください。
 
@@ -125,7 +125,7 @@ Teams パネル デバイスを使用して、次の手順を実行します。
     :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="会議スペースがアドホック会議用に予約されていることを示すホーム画面。":::
 
     > [!NOTE]
-    > 会議スペースが Microsoft Teams 会議室の場合は、室内の Microsoft Teams Room または Surface Hub デバイスを使用して、この Teams 会議に _参加_ できます。
+    > 会議スペースが Teams ルームMicrosoftの場合は、Teams 会議室または Surface Hub デバイスMicrosoft室内でこの Teams 会議に _参加_ できます。
 
 ### <a name="report-a-problem"></a>問題を報告する
 
@@ -202,13 +202,16 @@ Teams パネルで、管理者の資格情報を使用してサインインし�
 
 Teams パネルが Android 上の Microsoft Teams Room とペアリングされている場合、会議が遅れて実行されたときに、チェックイン通知を会議室の前面ディスプレイに表示できます。
 
-チェックインと会議室のリリースを有効にするには、 [Microsoft Teams パネルの「チェックインと会議室のリリース](check-in-and-room-release.md)」を参照してください。
+チェックインと会議室のリリースを有効にするには、「[Microsoft Teams パネルのチェックインと会議室のリリース](check-in-and-room-release.md)」を参照してください。
 
 #### <a name="enable-or-disable-check-out-manual-room-release"></a>チェックアウトを有効または無効にする (会議室の手動リリース)
 
 チェックアウトが有効になっている場合、エンド ユーザーはTeams パネルを使用して会議室を手動で解放できます。 ルームを解放すると、現在の予約が終了し、他のユーザーが予約できるようになります。
 
 この機能は既定では無効になっていますが、デバイスごとに有効にすることができます。 この機能を有効にするには、[ **設定] > [デバイス設定] > [Teams 管理者設定] > [会議** ] に移動し、[ **チェックアウト**] をオンにします。
+
+> [!NOTE]
+> 予約が終了する前にルームが解放された場合、開催者はルームから辞退するメール メッセージを受け取ります。 これは、他のユーザーが予約できるように、予約をスケジュールから削除するためです。 予約を拒否するメッセージは無視できます。
 
 > [!NOTE]
 > ペアリングされているTeams Rooms デバイスがアクティブな呼び出し中の場合、Teams パネルを使用してルームを解放することはできません。
@@ -231,7 +234,7 @@ Android 上の Teams Room とペアになっている Teams パネルでは、�
 
 会議室の容量に関する警告は既定では無効になっていますが、デバイスごとに有効にすることができます。 この機能を有効にするには、次の操作を行います。
 
-1. 「[Android で microsoft Teams Room とTeams パネルをペアリングする](#pair-a-teams-panel-with-a-microsoft-teams-room-on-android)」の手順に従います。 パネルと Teams Room デバイスは、同じリソース アカウントにサインインする必要があります。
+1. 「[Android で Microsoft Teams Room とTeams パネルをペアリングする」の手順に](#pair-a-teams-panel-with-a-microsoft-teams-room-on-android)従います。 パネルと Teams Room デバイスは、同じリソース アカウントにサインインする必要があります。
 2. **[設定] > [デバイスの設定] > [Teams 管理者設定] > [会議**] に移動し、[**会議室の最大収容人数の通知**] をオンにします。
 
 #### <a name="enable-or-disable-viewing-of-room-equipment"></a>会議室機器の表示を有効または無効にする
