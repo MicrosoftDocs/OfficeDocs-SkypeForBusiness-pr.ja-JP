@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: どのセッション ボーダー コントローラー (SBC) がダイレクト ルーティングの認証済みであるかについて説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4eb53a81fbdddbf4f04d57be7f893ca3fbb6d88f
-ms.sourcegitcommit: b535a70df5bc842f597889582df3eb86371f8139
+ms.openlocfilehash: 4c3d4f3b10d2e0e4fb70db1ab7f8eb0fccc8c3d6
+ms.sourcegitcommit: e9718ad7e23317d490b238b3801267cb2e6b26e2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/07/2022
-ms.locfileid: "68869572"
+ms.lasthandoff: 11/28/2022
+ms.locfileid: "69176704"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングが認定されたセッション ボーダー コントローラー
 
@@ -57,14 +57,14 @@ Microsoft は以下の各ベンダーと協力します。
 
 |仕入先|Product|非メディア バイパス|メディアのバイパス|ソフトウェアのバージョン|911 サービス プロバイダー対応*|ELIN 対応|
 |---|---|---|---|---|---|---|
-|[AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)|Mediant 500 SBC|&#10004;|&#10004;|サポートされている 7.20A.258 (推奨 7.40A.100 または 7.40A.250)|&#10004;|&#10004;|
-||Mediant 800 SBC|&#10004;|&#10004;|サポートされている 7.20A.258 (推奨 7.40A.100 または 7.40A.250)|&#10004;|&#10004;|
-||Mediant 2600 SBC|&#10004;|&#10004;|サポートされている 7.20A.258 (推奨 7.40A.100 または 7.40A.250)|&#10004;|&#10004;|
-||Mediant 4000 SBC|&#10004;|&#10004;|サポートされている 7.20A.258 (推奨 7.40A.100 または 7.40A.250)|&#10004;|&#10004;|
-||Mediant 1000B  SBC|&#10004;|&#10004;|サポートされている 7.20A.250 (推奨 7.40A.100 または 7.40A.250)|&#10004;|&#10004;|
-||Mediant 9000  SBC|&#10004;|&#10004;|サポートされている 7.20A.258 (推奨 7.40A.100 または 7.40A.250)|&#10004;|&#10004;|
-||Virtual Edition SBC|&#10004;|&#10004;|サポートされている 7.20A.258 (推奨 7.40A.100 または 7.40A.250)|&#10004;|&#10004;|
-||Mediant Cloud Edition SBC|&#10004;|&#10004;|サポートされている 7.20A.258 (推奨 7.40A.100 または 7.40A.250)|&#10004;|&#10004;|
+|[AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)|Mediant 500 SBC|&#10004;|&#10004;|サポートされている 7.20A.258 (推奨 7.40A.250 または 7.40A.300)|&#10004;|&#10004;|
+||Mediant 800 SBC|&#10004;|&#10004;|サポートされている 7.20A.258 (推奨 7.40A.250 または 7.40A.300)|&#10004;|&#10004;|
+||Mediant 2600 SBC|&#10004;|&#10004;|サポートされている 7.20A.258 (推奨 7.40A.250 または 7.40A.300)|&#10004;|&#10004;|
+||Mediant 4000 SBC|&#10004;|&#10004;|サポートされている 7.20A.258 (推奨 7.40A.250 または 7.40A.300)|&#10004;|&#10004;|
+||Mediant 1000B  SBC|&#10004;|&#10004;|サポートされている 7.20A.258 (推奨 7.40A.250 または 7.40A.300)|&#10004;|&#10004;|
+||Mediant 9000  SBC|&#10004;|&#10004;|サポートされている 7.20A.258 (推奨 7.40A.250 または 7.40A.300)|&#10004;|&#10004;|
+||Virtual Edition SBC|&#10004;|&#10004;|サポートされている 7.20A.258 (推奨 7.40A.250 または 7.40A.300)|&#10004;|&#10004;|
+||Mediant Cloud Edition SBC|&#10004;|&#10004;|サポートされている 7.20A.258 (推奨 7.40A.250 または 7.40A.300)|&#10004;|&#10004;|
 |[Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)|SBC 5100/5110|&#10004;|&#10004;|10.1、9.2、8.2、7.2 のすべてのバージョンでサポートされています (最新バージョンの 10.1 をお勧めします)|&#10004;||
 ||SBC 5200/5210|&#10004;|&#10004;|10.1、9.2、8.2、7.2 のすべてのバージョンでサポートされています (最新バージョンの 10.1 をお勧めします)|&#10004;||
 ||SBC 5400|&#10004;|&#10004;|10.1、9.2、8.2、7.2 のすべてのバージョンでサポートされています (最新バージョンの 10.1 をお勧めします)|&#10004;||
