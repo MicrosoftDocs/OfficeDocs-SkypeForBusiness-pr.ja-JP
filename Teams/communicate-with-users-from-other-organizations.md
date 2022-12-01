@@ -7,6 +7,7 @@ ms.reviewer: vinbel, luises
 ms.topic: article
 ms.service: msteams
 audience: admin
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
@@ -18,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 description: 外部アクセスとゲスト アクセスを使用して、Microsoft Teams で組織外のユーザーと電話およびチャットし、ユーザーを検索および追加する方法を説明します。
-ms.openlocfilehash: 14b1bee39caacc6465c64dbb2151cbeed936b3ff
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: f416453a93c07945f9df55c863f76cbb8b736a78
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418466"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198319"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>ゲスト アクセスと外部アクセスを使用して、組織外の人々とコラボレーションする
 
@@ -44,14 +45,14 @@ Teams、Skype for Business (オンラインまたはオンプレミス)、Skype 
 
 外部アクセスは、次のテナントで使用できます。
 - マネージド エンタープライズ アカウント
-     - コマーシャル間のみ
+     - 商用間のみ
      - GCC 間のみ
      - GCC High 間のみ
      - DOD 間のみ
 - アンマネージド (個人用) アカウント
-     - コマーシャル アカウントと個人用アカウントの間のみ
+     - 商用アカウントと個人アカウントの間のみ
 - Skype for Business相互運用機能
-     - コマーシャル、GCC、GCC High、DoD 間
+     - 商用、GCC、GCC High、DoD の間と全体
 - Skype 相互運用機能
      - 商用と Skype の間のみ
 
@@ -116,7 +117,7 @@ Teams のゲスト アクセスを構成する方法については、「[チー
 <sup>1</sup> ユーザーがゲストとして追加され、ゲスト アカウントでサインインされている場合。<br>
 <sup>2</sup> メールまたはセッション開始プロトコル (SIP) アドレスのみ。<br>
 <sup>3</sup> 2 つの異なる組織の Teams のみユーザーの Teams のみの 1:1 チャットでサポートされる。 <br>
-<sup>4</sup> 既定では、外部ユーザーはダイヤル インした参加者の電話番号は見ることができません。これらの電話番号のプライバシーを維持したい場合は、**「入場/退出のお知らせの種類の **トーン**」** (これにより、番号がチームによって読み取られません) を選択 します。詳細については、[「Microsoft Teams で、入退出のお知らせをオン/オフにする」](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)を参照してください。<br>
+<sup>4</sup> By default, external participants can't see the phone numbers of dialed-in participants. If you want to maintain the privacy of these phone numbers, select **Tones** for **Entry/exit announcement type** (this prevents the numbers from being read out by Teams). To learn more, read [Turn on or off entry and exit announcements for meetings in Microsoft Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md). <br>
 <sup>5</sup> 既定で許可されていますが、Teams 管理者がオフにすることができます
 
 ## <a name="related-topics"></a>関連項目

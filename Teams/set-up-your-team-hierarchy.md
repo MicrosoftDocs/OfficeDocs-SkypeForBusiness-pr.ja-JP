@@ -12,21 +12,22 @@ audience: admin
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: dc4e7e88e855432f17c7daed9584e20e0e4739f1
-ms.sourcegitcommit: fcbbc197e43bcd63bf95cb329df9cb52e06ee356
+ms.openlocfilehash: 93b8b06238b0f6e15ab5fac5dcb0caeece819d9e
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2022
-ms.locfileid: "68842115"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198359"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>チーム対象の階層を設定する
 
 チームターゲット階層を設定すると、組織は大規模なチームセットにコンテンツを公開できます。 チーム ターゲット階層では、階層内のすべてのチームが相互にどのように関連しているか、ユーザーがタスクを発行できるか、および発行するアクセス許可を持つチームが定義されています。 組織に対してチーム ターゲット階層が設定されていない限り、すべてのユーザーに対して発行機能が無効になります。 階層をターゲットとするチームを設定するには、階層を定義するファイルを作成し、それを Teams にアップロードして組織に適用する必要があります。 スキーマがアップロードされると、Teams 内のアプリで使用できます。
 
 > [!IMPORTANT]
-> 最初のリリースでは、タスク アプリのみが階層型チームをサポートします。  組織に階層をターゲットとするチームを適用すると、タスク アプリで [タスクの発行](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) が有効になります。 Microsoft Teams の他の領域には、チームの階層は表示されません。
+> 最初のリリースでは、タスク アプリのみが階層型チームをサポートします。  組織に階層をターゲットとするチームを適用すると、タスク アプリで [タスクの発行](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) が有効になります。 teams の他の領域には、チームの階層Microsoft表示されません。
 
 Teams のタスク アプリで階層がどのように表されるかの例を次に示します。 タスク リストを作成した後、発行チームのメンバーは、タスク リストの送信先 (公開) 先の受信者チームを選択できます。 チームを選択する場合、発行チームは階層、属性、または両方の組み合わせでフィルター処理できます。<br>
 
@@ -150,7 +151,7 @@ Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,
 ## <a name="apply-your-hierarchy"></a>階層を適用する
 
 > [!NOTE]
-> この手順を実行するには、Microsoft Teams PowerShell コマンドレットを使用する必要があります。 バージョン 4.6.0 以降の Microsoft Teams コマンドレットを使用する必要があります。 この要件は、Government Community Cloud (GCC) のお客様にも適用されます。
+> この手順を実行するには、Microsoft Teams PowerShell コマンドレットを使用する必要があります。 Microsoft Teams コマンドレットのバージョン 4.6.0 以降を使用する必要があります。 この要件は、Government Community Cloud (GCC) のお客様にも適用されます。
 
 スキーマ CSV ファイルで階層を定義したら、それを Teams にアップロードする準備ができました。 これを行うには、次のコマンドを実行します。 この手順を実行するには、グローバル管理者または Teams サービス管理者である必要があります。
 
@@ -198,11 +199,11 @@ Remove-TeamTargetingHierarchy
 ### <a name="install-the-teams-powershell-module"></a>Teams PowerShell モジュールをインストールする
 
 > [!IMPORTANT]
-> この手順を実行するには、[PowerShell ギャラリー](https://www.powershellgallery.com/packages/MicrosoftTeams/)から Teams PowerShell モジュールをインストールして使用する必要があります。 モジュールをインストールする手順については、「 [Microsoft Teams PowerShell モジュールのインストール](teams-powershell-install.md)」を参照してください。
+> この手順を実行するには、[PowerShell ギャラリー](https://www.powershellgallery.com/packages/MicrosoftTeams/)から Teams PowerShell モジュールをインストールして使用する必要があります。 モジュールをインストールする手順については、「[Teams PowerShell モジュールMicrosoftインストール](teams-powershell-install.md)する」を参照してください。
 
 ### <a name="sample-script"></a>サンプル スクリプト
 
-次のスクリプトを使用して、チームを作成し、.csv ファイルを Microsoft Teams テナントにアップロードできます。 既存の階層がある場合は、このスクリプトによって置き換えられます。
+次のスクリプトを使用して、チームを作成し、Microsoft Teams テナントに.csv ファイルをアップロードできます。 既存の階層がある場合は、このスクリプトによって置き換えられます。
 
 #### <a name="create-teams-for-a-simple-hierarchy"></a>単純な階層のチームを作成する
 
@@ -266,13 +267,13 @@ Error: InvalidTeamId
 Description: TeamID in row # doesn't match a valid Group ID. Please view our documentation to learn how to get the proper GroupID for each team.
 ```
 
-スキーマ CSV ファイルでチームに適切な TeamId が使用されていることを確認します。 TeamId は、チームをサポートする Microsoft 365 グループのグループ ID と同じである必要があります。 Microsoft Teams 管理センターでチームのグループ ID を検索できます。
+スキーマ CSV ファイルでチームに適切な TeamId が使用されていることを確認します。 TeamId は、チームをバックするMicrosoft 365 グループのグループ ID と同じである必要があります。 チームのグループ ID は、Microsoft Teams 管理センターで確認できます。
 
 1. [Microsoft Teams 管理センター](https://admin.teams.microsoft.com/)の左側のナビゲーションで、[**Teams****管理チーム** > ] に移動します。
 2. テーブルに **[グループ ID** ] 列が表示されない場合は、テーブルの右上隅にある [ **列の編集]** を選択し、[ **グループ ID**] をオンにします。
 3. 一覧からチームを見つけて、グループ ID を見つけます。
 
-スキーマ CSV ファイルの TeamId が、Microsoft Teams 管理センターに表示されているグループ ID と一致していることを確認します。
+スキーマ CSV ファイルの TeamId が、Microsoft Teams 管理センターに表示されるグループ ID と一致していることを確認します。
 
 ## <a name="related-topics"></a>関連項目
 

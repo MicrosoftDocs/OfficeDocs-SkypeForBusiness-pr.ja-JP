@@ -16,18 +16,19 @@ ms.custom:
 - NewAdminCenter_Update
 - seo-marvel-apr2020
 - ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
+- chat-teams-channels-revamp
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
 description: Office 365 の管理者として Microsoft Teams のゲスト アクセス機能を有効または無効にする方法について説明します。
-ms.openlocfilehash: 935fac44863ef2c3da4a9fc4f07fcd7e34265024
-ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
+ms.openlocfilehash: 906a5554d4dbcb03efabb2300a5a900ad3c8dc21
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "65370810"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69199099"
 ---
 # <a name="turn-guest-access-in-microsoft-teams-on-or-off"></a>Microsoft Teams でゲスト アクセスを有効または無効にする
 

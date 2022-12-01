@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
@@ -15,12 +16,12 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: 両方のユーザーが TeamsOnly アップグレード モードになっている Microsoft Teams の外部アクセス (フェデレーション) ユーザーのネイティブ Teams チャット エクスペリエンスについて説明します。
-ms.openlocfilehash: 992b4dd28d17f1ba8abf7217d622da18813c3118
-ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
-ms.translationtype: HT
+ms.openlocfilehash: 134216364fdd7397d8a7d72a2ae6684cfa9f90b4
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60138233"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198879"
 ---
 # <a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Microsoft Teams の外部 (フェデレーション) ユーザー向けのネイティブ チャット エクスペリエンス
 

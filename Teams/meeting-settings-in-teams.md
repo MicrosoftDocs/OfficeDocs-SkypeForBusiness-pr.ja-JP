@@ -23,12 +23,12 @@ ms.collection:
 - m365initiative-meetings
 - highpri
 description: 組織のユーザーがスケジュールする Teams 会議の設定を管理する方法を説明します。
-ms.openlocfilehash: 3faff1779830539470ae3d04cc73e58da65a637c
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: e5cacfb81cf3bf1ef768051d2094b0a70af93927
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68583878"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198339"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams で会議の設定を管理する
 
@@ -55,7 +55,7 @@ ms.locfileid: "68583878"
 
     ![管理センターでの会議の参加者設定のスクリーンショット。](media/meeting-settings-participants.png "Microsoft Teams 管理センターでの Teams 会議の参加者設定のスクリーンショット")
 
-> [!CAUTION]
+> [!Important]
 > 組織のユーザーがスケジュールを行った会議に匿名ユーザーを参加させないようにするには、この設定をオフにします。
 
 ### <a name="using-powershell-to-configure-per-organizer-policy"></a>PowerShell を使用して開催者ごとのポリシーを構成する
@@ -99,7 +99,7 @@ ms.locfileid: "68583878"
 
 3. [**参加者**] の下で、[**匿名ユーザーが会議でアプリを操作できます**] の設定を変更できます。
 
-> [!CAUTION]
+> [!Important]
 > 組織のユーザーがスケジュールを行った会議で匿名ユーザーがアプリを操作しないようにするには、この設定をオフにします。
 
 ## <a name="customize-meeting-invitations"></a>会議への招待状をカスタマイズする

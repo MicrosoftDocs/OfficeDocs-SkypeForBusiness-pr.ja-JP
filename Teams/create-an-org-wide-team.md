@@ -18,13 +18,15 @@ ms.collection:
 - ContentEnagagementFY23
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ee17d482c311a4bdd92ebad55e29058104a89b98
-ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
+ms.custom:
+- seo-marvel-apr2020
+- chat-teams-channels-revamp
+ms.openlocfilehash: 5acc918c4fbe3994a93020e7b4b09db4ab1671f3
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "68890056"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198919"
 ---
 # <a name="use-organization-wide-teams-in-microsoft-teams-to-help-everyone-collaborate"></a>Microsoft Teams で組織全体のチームを使用して、全員の共同作業を支援する
 
@@ -46,7 +48,7 @@ ms.locfileid: "68890056"
 
 組織全体のチームが作成されると、すべてのグローバル管理者と Teams 管理者がチームの所有者として追加され、すべてのアクティブなユーザーがチーム メンバーとして追加されます。 チーム メンバーは組織全体のチームから離れることはできませんが、必要に応じてチーム所有者は手動でユーザーを追加または削除できます。 Teams が自動的にユーザーを追加または削除すると、通知が [全般] チャネルに送信されます。
 
-ライセンス未付与のユーザーもチームに追加されます。 ライセンスのないユーザーが初めて Teams にサインインすると、Microsoft Teams Exploratory ライセンスが割り当てられます。 Exploratory ライセンスの詳細については、「[Microsoft Teams Exploratory ライセンスの管理](teams-exploratory.md)」をご覧ください。
+ライセンス未付与のユーザーもチームに追加されます。 ライセンスのないユーザーが初めて Teams にサインインすると、teams Exploratory ライセンスMicrosoftが割り当てられます。 Exploratory ライセンスの詳細については、「[Microsoft Teams Exploratory ライセンスの管理](teams-exploratory.md)」をご覧ください。
 
 以下の種類のアカウントは、組織全体のチームには追加されません。
 

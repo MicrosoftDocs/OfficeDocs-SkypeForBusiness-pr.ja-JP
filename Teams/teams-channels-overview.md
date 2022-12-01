@@ -20,16 +20,17 @@ ms.custom:
 - ms.teamsadmincenter.teamssettings.overview
 - okr_smb
 - intro-overview
+- chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5ff54577dcfd4e3845758a7ce943231cbd38d48
-ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
+ms.openlocfilehash: 1cfbda5204e9294dd202440bbcd53b343cafe96f
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/14/2022
-ms.locfileid: "68576553"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198709"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams でのチームとチャネルの概要
 
@@ -97,7 +98,7 @@ Microsoft 365 での Teams 管理者である場合は、Teams 管理センタ�
 |機能|標準チャネル|プライベート チャネル|共有チャネル|
 |:-------|:---------------|:--------------|:-------------|
 |チームに追加しなくても、ユーザーをチャネルに追加することができます。|いいえ|いいえ|はい|
-|チャネル メンバーシップは、チームのサブセットに制限できます。|いいえ|はい|はい|
+|チャネル メンバーシップは、チームのサブセットに制限できます。|いいえ|Yes|はい|
 |チャネルは、他のチームと直接共有できます。|いいえ|いいえ|はい|
 |チャネルは、その親チームと直接共有できます。|該当なし|いいえ|はい|
 |ゲストはチャネルに参加できます。|はい|Yes|いいえ|
@@ -105,7 +106,7 @@ Microsoft 365 での Teams 管理者である場合は、Teams 管理センタ�
 |モデレート|はい|いいえ|いいえ|
 |ブレークアウト ルーム|Yes|いいえ|いいえ|
 |チャネルへのリンクをコピー|はい|いいえ|いいえ|
-|各チャネルには専用の SharePoint サイトがあります。|いいえ|はい|はい|
+|各チャネルには専用の SharePoint サイトがあります。|いいえ|Yes|はい|
 |予約された会議|はい|いいえ|はい|
 |プランナー|はい|いいえ|いいえ|
 |ボット、コネクタ、およびメッセージングの拡張機能|はい|いいえ|いいえ|

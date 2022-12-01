@@ -14,22 +14,24 @@ ms.reviewer: rafarhi
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-ms.custom: seo-marvel-mar2020
+ms.custom:
+- seo-marvel-mar2020
+- chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-description: 管理者は、Microsoft Teams デスクトップ および Web クライアントと Azure Active Directory B2B コラボレーション ポータルで、組織に新しいゲストを追加する方法について説明します。
-ms.openlocfilehash: 17ba8ff379566208a186857071310f6b7c6fd416
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+description: 管理者は、Teams のデスクトップおよび Web クライアントと Azure Active Directory B2B コラボレーション ポータルMicrosoftで組織に新しいゲストを追加する方法について説明します。
+ms.openlocfilehash: 1427b523f2e9e8ec802a8e8d3459f9edadbb68ca
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268132"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69199139"
 ---
 # <a name="add-a-guest-to-a-team"></a>チームにゲストを追加する
 
 Outlook、Gmail などの勤務先または通常のメール アカウントを持っているユーザーは、ゲストとして Teams に参加することができます。
 
-管理者は、次の 2 つの方法で新しいゲストを組織に追加できます。
+管理者は、いくつかの方法で新しいゲストを組織に追加できます。
 
 - グローバル管理者または Teams 管理者とチーム所有者は、Teams クライアントまたは Teams 管理センターでチームにゲストを追加できます。 詳細については、「[ゲストをチームに追加する](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)」を参照してください。 ゲスト アクセスをまだ設定していない場合は、「[チームでゲストと共同で作業する](/microsoft-365/solutions/collaborate-as-team)」の手順を実行してください。
 
@@ -39,12 +41,12 @@ Outlook、Gmail などの勤務先または通常のメール アカウントを
 
 Azure AD B2B コラボレーションを使用すると、組織は B2B ユーザーに対して条件付きアクセスと多要素認証 (MFA) ポリシーを適用できます。 これらのポリシーは、組織のフルタイムの従業員とメンバーに対して有効にするのと同じ方法で、テナント レベル、アプリ レベル、または個々のユーザー レベルで適用できます。 こうしたポリシーはリソース組織で実施します。 詳細については、「[B2B コラボレーション ユーザーの条件付きアクセス](/azure/active-directory/external-identities/conditional-access)」をご覧ください。 個々のゲストをブロックすることはできません。
 
-Azure AD B2B、Microsoft 365 グループ、または SharePoint を介して既に追加したゲストは、すぐにアクセスできます。 Microsoft 365 管理者またはチーム所有者は、それらのゲストをそれぞれのチームに追加できます。 チームに関連付けられている Microsoft 365 グループにゲストを直接追加すると、ゲストはチームにアクセスできますが、Microsoft 365 グループはゲストへの招待メールを生成しないため、チームの誰かがゲストに通知する必要があります。
+Azure AD B2B、Microsoft 365 グループ、または SharePoint を使用して既に追加したゲストは、準備ができています。 Microsoft 365 管理者またはチーム所有者は、それらのゲストをそれぞれのチームに追加できます。 チームに関連付けられているMicrosoft 365 グループにゲストを直接追加すると、ゲストはチームにアクセスできますが、Microsoft 365 グループはゲストへの招待メールを生成しないため、チームの誰かがゲストに通知する必要があります。
 
 > [!NOTE]
 > ゲストにも [ Microsoft 365 または Office 365 ](/office365/servicedescriptions/office-365-service-descriptions-technet-library) と [Azure Active Directory](/azure/active-directory/external-identities/current-limitations) のサービスの制限が適用されます。
 
-ゲストの追加は、Azure AD または Microsoft 365 セキュリティ センターで追跡できます。 Microsoft Teams でのゲストの追加は監査され、「Added member to group (グループにメンバーを追加しました)」という Azure AD グループ管理アクティビティとして記録されます。 詳細については、「 [B2B コラボレーション ユーザーの監査とレポート](/azure/active-directory/external-identities/auditing-and-reporting) 」および [コンプライアンス センターで監査ログを検索する方法に関する説明を](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)参照してください。
+ゲストの追加は、Azure AD または Microsoft 365 セキュリティ センターで追跡できます。 Microsoft Teams でのゲストの追加は監査され、「Added member to group (グループにメンバーを追加しました)」という Azure AD グループ管理アクティビティとして記録されます。 詳細については、「[B2B コラボレーション ユーザーの監査とレポート」および](/azure/active-directory/external-identities/auditing-and-reporting)[「コンプライアンス センターで監査ログを検索する」を](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)参照してください。
 
 
 ## <a name="related-topics"></a>関連項目

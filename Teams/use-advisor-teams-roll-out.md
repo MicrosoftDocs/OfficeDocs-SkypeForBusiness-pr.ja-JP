@@ -18,13 +18,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
+- chat-teams-channels-revamp
 description: Teams のアドバイザーを使用して、Microsoft Teams の展開を計画および完了することを支援します。
-ms.openlocfilehash: 795765459c7796449379fe4c8fb327140a19e9e2
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: e691a224679b8026ec91ecf3b1b5c16f6016c20e
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268822"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198329"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Teams のアドバイザーを使用して、Microsoft Teams の展開を支援する
 
@@ -142,7 +143,7 @@ Teams のアドバイザーが展開チームを作成すると、アドバイ�
 >
 
 > [!IMPORTANT]
-> Teams のアドバイザー ボットは、展開チームにウェルカム メッセージを送信するためにのみ使用されます。追加のデータは収集されません。
+> Teams のアドバイザー ボットは、展開チームにウェルカム メッセージを送信するためにのみ使用されます。 追加のデータは収集されません。
 
 > [!IMPORTANT]
 > Teams のアドバイザー ボットは既定でオンになっています。 Teams のアドバイザーを使用または使用する予定の場合は、オフにしないでください。
@@ -212,7 +213,7 @@ Teamsのヘルプ デスクとチャンピオンの準備に関するガイダ�
 
 サイトをカスタマイズして学習計画をまとめたら、継続的な学習のために学習経路を使用するようユーザーを促すために、ユーザーの意識を高める方法を検討してください。
 
-コミュニケーション チャネルを使用して、サイトを宣伝し、認知度を高めます。たとえば、ユーザーとのコミュニケーションに、「Teams で生産性を高める方法について、トレーニングとサポートサイトを確認してください」などの標準的なキャッチ フレーズを含めます。
+Use your communication channels to promote the site and generate awareness. For example, include a standard tagline such as “Check out our training and support site for how to get productive with Teams” in communications to your users.
 
 チームでのコラボレーション方法を強調表示してユーザーを引き付け、その方法を学ぶために学習経路サイトにユーザーを誘導します。
 
@@ -258,7 +259,7 @@ Teams のアドバイザーは、非 EUII (エンド ユーザー識別情報) �
 
 ### <a name="can-i-use-advisor-for-teams-with-fasttrack"></a>FastTrack で Teams のアドバイザーを使用できますか
 
-はい。FastTrack では、Teams の展開を検討しているすべての顧客に対して Teams のアドバイザーを活用しています。FastTrack は、Teams のアドバイザー (必要な場合) を使用して展開チームの初期セットアップを支援し、Teams の展開中に特定のトピックに関する必要に応じたサポートも提供します。
+Yes, FastTrack leverages Advisor for Teams for all customers looking to deploy Teams. They can assist with the initial setup of your Deployment team using Advisor for Teams (if required) and also provide as-needed support on specific topics during your Teams rollout.
 
 ### <a name="can-i-use-advisor-for-teams-with-a-partner"></a>パートナーで Teams のアドバイザーを使用できますか
 

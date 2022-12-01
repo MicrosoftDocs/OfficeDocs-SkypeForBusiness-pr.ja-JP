@@ -11,7 +11,9 @@ search.appverid: MET150
 ms.localizationpriority: high
 f1.keywords:
 - CSH
-ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
+ms.custom:
+- ms.teamsadmincenter.orgwidesettings.guestaccess.overview
+- chat-teams-channels-revamp
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
@@ -19,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams でのゲスト アクセスにより、組織内のチームは組織外の人にチームおよびチャネルへのアクセス権を付与することで、それらの人と共同作業することができるようになります。
-ms.openlocfilehash: d7f850855ab131267b20bae07b015127777a21f4
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 399cd1c0aecb7377292810b26cd123873405f547
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839068"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198469"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセス
 
@@ -35,16 +37,16 @@ ms.locfileid: "64839068"
 
 ゲストとは、組織の学校または職場アカウントを持っていないユーザーです。 たとえば、ゲストにはパートナー、製造元、供給元、コンサルタントなどが含まれます。 自分の組織に属していないユーザーを Teams のゲストとして追加することができます。 これは、ビジネス アカウント (すなわち、Azure Active Directory アカウント) または通常のメール アカウント (Outlook.com、Gmail.com、他) を持つすべてのユーザーが、チームとチャネルの操作や機能にアクセスできるゲストとして、Teams に参加できることを意味します。
 
-Teams にゲストを招待すると、ゲスト アカウントが Azure Active Directory に作成され、他の Microsoft 365 ユーザーと同じコンプライアンスと監査保護の対象になります。ゲスト アクセスは Azure AD および Microsoft 365 のサービス制限の対象になります。
+When you invite a guest to Teams, a guest account is created for them in Azure Active Directory and they are covered by the same compliance and auditing protection as other Microsoft 365 users. Guest access is subject to Azure AD and Microsoft 365 service limits.
 
-ゲストのエクスペリエンスには、仕様上の制限があります。ゲストが Teams で実行できる操作と実行できない操作の一覧は、「[Microsoft Teams のゲスト アクセス](guest-experience.md)」を参照してください。
+The guest experience has limitations by design. For a full list of what a guest can and can't do in Teams, see [Guest access in Microsoft Teams](guest-experience.md).
 
 > [!IMPORTANT]
-> ゲストは、共存アップグレード モードの Teams の組織全体の設定に従います。これは変更できません。
+> Guests follow Teams Org-wide settings for the coexistence Upgrade mode. This can't be changed.
 
 外部アクセス (フェデレーション) とゲスト アクセスを比較する (および使用するアクセスを決定する) には、「[Teams の他の組織のユーザーと通信する](communicate-with-users-from-other-organizations.md)」をご覧ください。
 
-共有チャネルを使用すると、ゲスト アクセスの代替手段が提供されるため、Azure AD でゲスト アカウントを必要とせずに、組織外のユーザーを招待できます。ゲスト アクセスと共有チャネルを比較するには、「[外部コラボレーションを計画する](/microsoft-365/solutions/plan-external-collaboration)」を参照してください。
+Shared channels offer an alternative to guest access, allowing you to invite people outside your organization without requiring a guest account in Azure AD. To compare guest access with shared channels, see [Plan external collaboration](/microsoft-365/solutions/plan-external-collaboration).
 
 ゲスト アクセスを設定する方法については、「[チームでゲストと共同作業する](/microsoft-365/solutions/collaborate-as-team)」を参照してください。 
 

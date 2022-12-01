@@ -8,7 +8,9 @@ ms.service: msteams
 audience: admin
 ms.reviewer: rakayala
 description: チームのプレゼンス状態とプレゼンス機能の管理設定について学習します。
-ms.custom: seo-marvel-apr2020
+ms.custom:
+- seo-marvel-apr2020
+- chat-teams-channels-revamp
 ms.localizationpriority: high
 search.appverid: MET150
 ms.collection:
@@ -17,12 +19,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b28dfccd79c99d633d56480963f06632cd758ae
-ms.sourcegitcommit: 72b6f7ab2a44dec395622bfe64119a48094960bd
+ms.openlocfilehash: 2f2969af142828ca5d478f29f2afee319ada91b7
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/08/2022
-ms.locfileid: "67283098"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198589"
 ---
 # <a name="user-presence-in-teams"></a>Teams でのユーザーのプレゼンス
 
@@ -47,13 +49,13 @@ ms.locfileid: "67283098"
 || ![赤枠の丸は、取り込み中を示します。](media/Presence_Busy_OOF.png) 通話中、外出中|
 |  ![白線の入った赤い丸は、応答不可を示します。](media/Presence_DND.png) 応答不可 ||
 || ![白線の入った赤い丸は、発表中を示します。](media/Presence_DND.png) プレゼンテーション|
-|| ![白線の入った赤い丸は、フォーカスを示します。](media/Presence_DND.png) フォーカスは、ユーザーがカレンダーの MyAnalytics / Insights でフォーカス時間をスケジュールしたときに表示されます。|
+|| ![白線の入った赤い丸は、フォーカスを示します。](media/Presence_DND.png) Focusing. Focus happens when the users schedule focus time in MyAnalytics/Insights in their calendars.|
 | ![黄色の時計アイコンは、退席中を示します。](media/Presence_Away.png) [退席中]| ![黄色の時計アイコンは、退席中を示します。](media/Presence_Away.png) 退席中|
 || ![黄色の時計アイコンは、退席中を示す](media/Presence_Away.png)退席中、最終ログイン *時刻*|
 |![黄色の時計アイコンは、一時退席中を示します。](media/Presence_Away.png) 一時退席中| |
-|![X マーク付き灰色の丸、オフラインを示します。](media/Presence_Offline.png) オフライン表示|![X マーク付き灰色の丸、オフラインを示す](media/Presence_Offline.png) オフライン。ユーザーがどのデバイスにも数分間ログインしていない場合、ユーザーはオフラインとして表示されます。 |
+|![X マーク付き灰色の丸、オフラインを示します。](media/Presence_Offline.png) オフライン表示|![X マーク付き灰色の丸、オフラインを示す](media/Presence_Offline.png) Offline.  When users aren't logged in on any of their devices for a few minutes, they appear offline. |
 || ![灰色枠の丸は、状態不明を示します。](media/Presence_Unknown.png) 状態不明|
-|| ![矢印付き紫色の丸、外出中を示します。](media/Presence_OOF.png) 外出中。自動応答が設定されている場合、外出中が使用されます。 |
+|| ![矢印付き紫色の丸、外出中を示します。](media/Presence_OOF.png) Out of Office. Out of Office is used when an automatic reply is set. |
 
  > [!NOTE]
  > メールボックスをオンプレミスで運用しているユーザーの場合、プレゼンスは最大 1 時間程度の遅延が予想されます。
@@ -91,7 +93,7 @@ ms.locfileid: "67283098"
 
 Skype for Business と Teams では、次の管理設定が異なります。
 
-- Teams では、プライバシー モードが有効でない限り、組織内のユーザーに対してプレゼンス共有が常に有効になります。 プライバシー モードでは、プレゼンスは外部ユーザーには表示されません。
+- Teams では、プライバシー モードが有効になっていない限り、プレゼンス共有は組織内のユーザーに対して常に有効になります。 プライバシー モードでは、プレゼンスは外部ユーザーには表示されません。
 - すべてのユーザー (フェデレーション サービスを含む) とのプレゼンス共有は、Teams ユーザーに対して常に有効になっています。 連絡先リスト (Skype for Business に含まれている場合) は、**[チャット] > [連絡先]** または **[通話] > [連絡先]** で表示できます。
 - クライアントの「応答不可」と「重要な連絡先」機能は、Teams ユーザーに対して常に有効になっています。
 - カレンダー (不在およびその他のカレンダー情報を含む) は、Teams が Outlook と統合されている場合、ユーザーに対して常に有効になっています。

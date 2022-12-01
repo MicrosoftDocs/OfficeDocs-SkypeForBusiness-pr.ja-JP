@@ -12,18 +12,19 @@ search.appverid: MET150
 description: Microsoft Teams 会話のアクション可能なアクティビティ 電子メールを有効または無効にする方法について説明します
 ms.collection:
 - M365-collaboration
+ms.custom: chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43435c436685c53e0ad077887a9fe9d991cf2d61
-ms.sourcegitcommit: f5480d0ca34b3160980a4b46b5afa34271293a26
+ms.openlocfilehash: de1bd12a0f079154a37156e3a01c3e5791bef10c
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "68899691"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198509"
 ---
 # <a name="manage-actionable-activity-emails"></a>アクション可能なアクティビティメールを管理する
 
-アクション可能なアクティビティメールは既定で有効になっており、組織内のユーザーに Microsoft Teams での会話が見逃されたことを通知します。
+アクション可能なアクティビティ電子メールは既定で有効になっており、組織内のユーザーに対して、Microsoft Teams での会話が見逃されたことを通知します。
 
 不在着信アクティビティの電子メールには、不在着信メッセージの後に送信されたメッセージなど、会話に対する最新の応答が表示されます。 この機能を使用すると、ユーザーは [返信] を選択して Outlook から直接 **返信** できます。
 

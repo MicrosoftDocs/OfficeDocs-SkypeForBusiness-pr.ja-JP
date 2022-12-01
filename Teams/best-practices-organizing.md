@@ -16,13 +16,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 959a2936a762584ceee8c3292cc9ced343d33fc5
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.custom:
+- seo-marvel-mar2020
+- chat-teams-channels-revamp
+ms.openlocfilehash: bfaf40e383f5690641b28e833bf03e6f12c0023a
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562756"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198539"
 ---
 # <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Microsoft Teams でチームを編成するためのベスト プラクティス
 
@@ -47,7 +49,7 @@ ms.locfileid: "66562756"
 
 ベストプラクティス: メンバー数が多く、多くのチャネルを持つチームを作成します。 ユーザーが参加する必要があるチームの数を最小限に抑えます。 チーム内のチャネルは、チームが共同の目的を達成するための作業を整理するのに役立つような、トピックまたはワークストリームと考える必要があります。 作成しなければならない特定のチャネル数はありません。 各チームは各自の作業、優先順位、スタイルに基づいてチャネルを策定する必要があります。
 
-チームの全員が投稿できる会話には標準チャネルを使用します。 チーム メンバーの選択したグループと集中したコラボレーションスペースが必要な場合は、 [プライベート チャネル](private-channels.md) を利用します。 チーム外のユーザーと共同作業する必要がある場合は、 [共有チャネル](shared-channels.md) を使用します。
+チームの全員が投稿できる会話には標準チャネルを使用します。 チーム メンバーの選択したグループとの集中型コラボレーション スペースが必要な場合は、 [プライベート チャネル](private-channels.md) を利用します。 チーム外のユーザーと共同作業を行う必要がある場合は、 [共有チャネル](shared-channels.md) を使用します。
 
 大規模な組織では、特定の種類の作業に関する情報を標準化するために、「テンプレート」としてチームを作成できます。 これは、戦略的な顧客管理、教室管理、医療機関向けのシナリオ、損害管理、インシデント管理、特定の業界に固有のその他のシナリオで役立ちます。 詳細については、「[Teams のテンプレートを使ってみる](get-started-with-teams-templates.md)」と「[中小企業向けの Teams テンプレート](smb-templates.md)」を参照してください。
 
