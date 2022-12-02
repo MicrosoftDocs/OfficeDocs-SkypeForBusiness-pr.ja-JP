@@ -17,14 +17,14 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ac317ff6ac17a2b6a0e94c0fa5683979cb887b90
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
-ms.translationtype: HT
+ms.openlocfilehash: 969fc5645023bfcf4ad2bc0aadfe692f61b350f0
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66793244"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69245641"
 ---
-# <a name="monitor-and-improve-call-quality-for-microsoft-teams"></a>Microsoft Teams の通話品質を監視および改善する
+# <a name="improve-call-quality-in-microsoft-teams"></a>Microsoft Teams の通話品質を向上させる
 
 この記事では、Microsoft Teams の通話品質の監視、トラブルシューティング、管理、および改善に使用できる 3 つの主要なツールについて説明します。 
 
@@ -51,7 +51,7 @@ ms.locfileid: "66793244"
 
 QoS を使用すると、遅延の影響を受けやすいネットワーク トラフィック (音声やビデオ ストリームなど) に優先順位を付け、 (1 秒余分にかかることなど大した問題ではない新しいアプリのダウンロードなど) 遅延の影響を受けにくいトラフィックの前で "順番抜かし" をさせることができます。 QoS は、Windows グループ ポリシー オブジェクトと、音声、ビデオ、および画面が独自の専用ネットワーク帯域幅を共有するようにネットワークに指示するポートベースのアクセスの制御リストと呼ばれるルーティング機能を使用して、リアルタイム ストリーム内のすべてのパケットを識別してマークします。
 
-理想的には、Teams をロールアウトする準備をしながら、内部ネットワークに QoS を実装すればいいのですが、別にいつでも行えます。小規模であれば、QoS は必要ないかもしれません。
+Ideally, you'll implement QoS on your internal network while getting ready to roll out Teams, but you can do it anytime. If you're small enough, you might not need QoS.
 
 準備ができたら、「[Microsoft Teams でサービスの品質 (QoS) を実装する](QoS-in-Teams.md)」を参照してください。
 

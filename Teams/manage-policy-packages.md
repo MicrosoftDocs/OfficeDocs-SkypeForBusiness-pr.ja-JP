@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams でポリシー パッケージを管理する
+title: Teams でポリシー パッケージを管理する
 ms.author: mabond
 author: mkbond007
 manager: serdars
@@ -20,14 +20,14 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams でポリシー パッケージを使用、管理、カスタマイズして、ユーザーグループのポリシーを管理する際の一貫性を簡素化、合理化、および提供する方法について説明します。
-ms.openlocfilehash: f91fdcdecb66fbc08b8ce75563f6034594fd448c
-ms.sourcegitcommit: ad7eb80a266a96bb894f3801b51587c07786c257
+ms.openlocfilehash: 138b1cada469a71cf844c8a73b1cb12511fc68b2
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/19/2022
-ms.locfileid: "69128198"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69245737"
 ---
-# <a name="manage-policy-packages-for-microsoft-teams"></a>Microsoft Teams のポリシー パッケージを管理する
+# <a name="managing-policy-packages-in-teams"></a>Teams でのポリシー パッケージの管理
 
 Microsoft Teams のポリシー パッケージは、組織内で類似の役割を持つユーザーに割り当てることができる定義済みのポリシーおよびポリシー設定のコレクションです。 組織全体のユーザーグループのポリシーを管理する際に、一貫性を提供するために、ポリシー パッケージを構築しました。  
 
@@ -87,7 +87,7 @@ Teams には現在、次のポリシー パッケージが含まれています�
 
 新しいカスタム ポリシー パッケージを作成するには:
 
-1. Microsoft Teams 管理センターの左側のウィンドウで、[ **ポリシー パッケージ**] を選択し、[ **追加**] をクリックします。
+1. Microsoft Teams 管理センターの左側のウィンドウで、[**ポリシー パッケージ**] を選択し、[**追加**] をクリックします。
 
     :::image type="content" source="media/policy-packages-add.png" alt-text="管理センターの [ポリシー パッケージ] ページの [追加] ボタンのスクリーンショット。" lightbox="media/policy-packages-add.png":::
 
@@ -120,13 +120,13 @@ Microsoft Teams 管理センターでポリシー パッケージを表示、割
 
 ### <a name="view-the-settings-of-a-policy-in-a-policy-package"></a>ポリシー パッケージ内のポリシーの設定を表示する
 
-1. Microsoft Teams 管理センターの左側のウィンドウで、[ **ポリシー パッケージ**] を選択し、パッケージ名の左側をクリックしてポリシー パッケージを選択します。
+1. Microsoft Teams 管理センターの左側のウィンドウで、[**ポリシー パッケージ**] を選択し、パッケージ名の左側をクリックしてポリシー パッケージを選択します。
 
 2. 表示するポリシーを選択します。
 
 ### <a name="customize-policies-in-a-policy-package"></a>ポリシー パッケージ内のポリシーをカスタマイズする
 
-ポリシーの設定は、[ **ポリシー パッケージ** ] ページで編集するか、Microsoft Teams 管理センターのポリシー ページに直接移動して編集できます。
+ポリシーの設定は、[**ポリシー パッケージ**] ページから編集するか、Microsoft Teams 管理センターのポリシー ページに直接移動して編集できます。
 
 1. Microsoft Teams 管理センターの左側のウィンドウで、次のいずれかの操作を行います。
     - [ **ポリシー パッケージ**] を選択し、パッケージ名の左側をクリックしてポリシー パッケージを選択します。
