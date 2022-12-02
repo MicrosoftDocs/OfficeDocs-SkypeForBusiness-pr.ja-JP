@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Microsoft Teams で認定されている USB 周辺機器とデバイス (ヘッドセット、スピーカーフォン、Web カメラ、モニターなど) を確認します。
-ms.openlocfilehash: dcee4b84795ad825ccbd81ef30f3f44b745cfb82
-ms.sourcegitcommit: ed7d3b12d4bfe48863de873360c2ae90bbb15530
+ms.openlocfilehash: 8a767eb2572012496dc5dba94e989f969f12df27
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69194938"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242311"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams 向けに認定された USB オーディオおよびビデオ デバイス
 
@@ -81,7 +81,7 @@ Teams での通話制御のサポートの詳細については、「Teams [の�
 
 ## <a name="certified-devices"></a>認定デバイス
 
-*2022 年 10 月に更新されたテーブル*
+*2022 年 11 月に更新されたテーブル*
 
 > [!NOTE]
 > 日付形式は MM/DD/YYYY です。
@@ -93,7 +93,7 @@ Teams での通話制御のサポートの詳細については、「Teams [の�
 |Cisco                |デスク カメラ 4K                                             |10/15/2022      |Microsoft Teams の認定                           |
 |Epos                 |EXPAND Vision 1/S6                                         |10/13/2022      |Microsoft Teams の認定                           |
 |レノボ               |Go USB-C ANC In-Ear Headphones                             |9/20/2022       |Microsoft Teams の認定                           |
-|Logi                 |Brio 500/505 カメラ                                       |9/14/2022       |Microsoft Teams の認定                           |
+|Logi                 |Brio 500/505/501 カメラ                                   |9/14/2022       |Microsoft Teams の認定                           |
 |Jabra                |Engage 50 II                                               |7/29/2022       |Microsoft Teams の認定                           |
 |Jabra                |Engage 40 II                                               |7/29/2022       |Microsoft Teams の認定                           |
 |Logi                 |ドックスピーカーフォン                                          |7/13/2022       |Microsoft Teams の認定                           |

@@ -13,12 +13,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 組織内の Teams ユーザーと Skype (コンシューマー) ユーザー間の相互運用性機能について説明します。
 ms.localizationpriority: medium
-ms.openlocfilehash: e8f6d102a3b66d5140473d0f2ab11b5af97fc78f
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: 5cbb4bdf492de67131c75c97685317ef8cae866c
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198679"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242321"
 ---
 # <a name="teams-and-skype-interoperability"></a>Teams と Skype の相互運用性
 
@@ -87,7 +87,7 @@ Skype for Businessから Teams にアップグレードした場合、Skype for 
 
 ### <a name="in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターで
 
-Microsoft Teams 管理センターで、[**ユーザー** > **の外部アクセス**] に移動し、[**ユーザーは Skype ユーザーと通信できます**] をオンにします。 これと他の外部アクセス設定を構成する方法の詳細なガイダンスについては、「 [Teams で外部アクセスを管理](./manage-external-access.md#allow-or-block-domains)する」を参照してください。
+Microsoft Teams 管理センターで、[**ユーザー** > **の外部アクセス**] に移動し、[**ユーザーは Skype ユーザーと通信できます**] をオンにします。 これと他の外部アクセス設定を構成する方法の詳細なガイダンスについては、「 [Teams で外部アクセスを管理](./manage-external-access.md)する」を参照してください。
 
 ### <a name="using-powershell"></a>PowerShell の使用
 

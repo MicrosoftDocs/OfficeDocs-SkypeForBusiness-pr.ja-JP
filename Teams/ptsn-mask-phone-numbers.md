@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 会議で電話番号をマスクする
 author: heidip
-ms.author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.reviewer: moakram
 ms.topic: article
@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams 会議で電話番号をマスクする方法について説明します
-ms.openlocfilehash: cad28ad446c39a45b865fd24767347fdf11bb9c8
-ms.sourcegitcommit: ab8f8e101e41774668b5e607fa72442105ca796e
+ms.openlocfilehash: 7072d1853a49d9e7ebc59e360c971874ed6549a3
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "68801768"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242271"
 ---
 # <a name="mask-phone-numbers-in-microsoft-teams-meetings"></a>Microsoft Teams 会議で電話番号をマスクする
 
@@ -46,9 +46,9 @@ Teams 管理センターで公衆交換電話網 (PSTN) マスク設定を変更
 - すべての会議参加者へ
 - 無効
 
-## <a name="use-microsoft-powershell-to-set-phone-number-masking"></a>Microsoft PowerShell を使用して電話番号マスクを設定する
+## <a name="use-microsoft-powershell-to-set-phone-number-masking"></a>PowerShell Microsoftを使用して電話番号マスクを設定する
 
-PowerShell で PSTN マスク設定を変更するには、[Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) コマンドレットのパラメーターを使用可能なオプションのいずれかに設定 **`MaskPstnNumbersType`** します。
+PowerShell で PSTN マスク設定を変更するには、[Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings) コマンドレットのパラメーターを使用可能なオプションのいずれかに設定 **`MaskPstnNumbersType`** します。
 
 外部参加者からのみ電話番号をマスクするには、次のコマンドを実行します。
 

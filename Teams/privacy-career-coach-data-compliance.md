@@ -11,20 +11,20 @@ ms.collection:
 ms.reviewer: ''
 search.appverid: MET150
 f1keywords: ''
-description: 教育機関または EDU のキャリア コーチに関して Microsoft が取ったプライバシー、コンプライアンス、および Purview 対策について説明します。
+description: 教育または EDU のキャリア コーチに関してMicrosoftによって行われたプライバシー、コンプライアンス、および purview 対策について説明します。
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 0f28381aad61cbe7fecf21e189bc5ab278ce3008
-ms.sourcegitcommit: 9ea1ed450ba89e9cbc094018a832bd25c08e92e4
+ms.openlocfilehash: 1a21f3337ca9255572c25fd152f928c6444dc317
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/02/2022
-ms.locfileid: "68825685"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242491"
 ---
 # <a name="career-coach-data-and-compliance"></a>キャリア コーチのデータとコンプライアンス
 
-この記事では、アプリ内機能やその他のツールを使用して、個人データまたは個人情報を見つけて行動し、GDPR 義務に準拠したデータ主体要求 (DSR) に対応する方法について説明します。 キャリア コーチは、データを顧客コンテンツとシステム生成ログの 2 つのカテゴリに大まかに分類します。 Career Coach では、顧客コンテンツにはユーザー データ、テナント構成データ、学生アクティビティ データが含まれますが、システム生成ログには、Microsoft がエンタープライズ サービスをユーザーに提供するのに役立つ Microsoft によって生成されたログと関連データが含まれます。
+この記事では、アプリ内機能やその他のツールを使用して、個人データまたは個人情報を見つけて行動し、GDPR 義務に準拠したデータ主体要求 (DSR) に対応する方法について説明します。 キャリア コーチは、データを顧客コンテンツとシステム生成ログの 2 つのカテゴリに大まかに分類します。 Career Coach では、顧客コンテンツにはユーザー データ、テナント構成データ、および学生アクティビティ データが含まれますが、システムによって生成されたログには、エンタープライズ サービスをユーザーに提供するのに役立つMicrosoftによって生成されたログと関連データMicrosoft含まれます。
 
 ## <a name="customer-content"></a>顧客コンテンツ
 
@@ -41,7 +41,7 @@ ms.locfileid: "68825685"
     1. テナントのすべてのユーザー データ。
     2. 特定のユーザーのユーザー データ。 削除要求の一部として、ユーザーの OID (オブジェクト識別子) を含めてください。
 3. 提出後、コンプライアンスの最小限の保持ポリシーを満たすために、サポート チケットは 1 週間後に対処されます。 この期間中に操作を取り消すことができます。
-4. 1 週間後、キャリア コーチ チームはテナントに関連するすべてのデータを削除します。 Microsoft サポートはチケットを監視し、削除プロセスが完了すると  **30 日以内に** 通知されます。
+4. 1 週間後、キャリア コーチ チームはテナントに関連するすべてのデータを削除します。 Microsoftサポートはチケットを監視し、削除プロセスが完了すると **、30 日以内に** 通知されます。
 
 #### <a name="exporting-user-data"></a>ユーザー データのエクスポート
 
@@ -61,7 +61,7 @@ ms.locfileid: "68825685"
 
 1. グローバル管理者は、テナントの構成データを削除する要求を明確に示す [サポート チケットを開く](https://edusupport.microsoft.com/support?product_id=career_coach) 必要があります。 **削除のデータ セットまたは時間枠を制限する機能はありません**。
 1. 提出後、コンプライアンスの最小限の保持ポリシーを満たすために、サポート チケットは 1 週間後に対処されます。 この期間中に操作を取り消すことができます。
-1. 1 週間後、キャリア コーチ チームはテナントに関連するすべてのデータを削除します。 Microsoft サポートはチケットを監視し、削除プロセスが完了すると  **30 日以内に** 通知されます。
+1. 1 週間後、キャリア コーチ チームはテナントに関連するすべてのデータを削除します。 Microsoftサポートはチケットを監視し、削除プロセスが完了すると **、30 日以内に** 通知されます。
 
 ### <a name="student-activity-data"></a>学生のアクティビティ データ
 
@@ -73,22 +73,22 @@ ms.locfileid: "68825685"
 
 ## <a name="system-generated-logs"></a>システムによって生成されたログ
 
-システム生成ログには、Microsoft がエンタープライズ サービスをユーザーに提供するのに役立つ、Microsoft によって生成されたログと関連データが含まれます。 システム生成ログには、個人を識別することはできませんが、エンタープライズ サービスをユーザーに提供するために使用される一意識別子 (通常はシステムによって生成される数値) などの、主に仮名化されたデータが含まれます。 このデータの例を次に示します。
+システム生成ログには、Microsoftによって生成されたログと関連データが含まれており、ユーザーにエンタープライズ サービスMicrosoft提供するのに役立ちます。 システム生成ログには、個人を識別することはできませんが、エンタープライズ サービスをユーザーに提供するために使用される一意識別子 (通常はシステムによって生成される数値) などの、主に仮名化されたデータが含まれます。 このデータの例を次に示します。
 
 - ユーザー アクティビティ ログなどの製品およびサービスの使用状況データ。
 - ユーザー検索要求とクエリ データ。
 - ユーザーまたは他のシステムによるシステム機能と対話の製品として製品やサービスによって生成されたデータ。
 
 > [!NOTE]
-> システム生成ログのデータを制限または修正する機能はサポートされていません。 システム生成ログ内のデータは、Microsoft クラウドと診断データ内で行われる事実に基づくアクションを構成し、そのようなデータを変更すると、アクションの履歴記録が損なわれ、詐欺やセキュリティリスクが高まります。 キャリア コーチは、システム生成ログを 30 日間保持します。
+> システム生成ログのデータを制限または修正する機能はサポートされていません。 システム生成ログ内のデータは、Microsoft クラウドおよび診断データ内で実行される事実に基づくアクションを構成し、そのようなデータに変更を加えると、アクションの履歴記録が損なわれ、詐欺やセキュリティ リスクが高まります。 キャリア コーチは、システム生成ログを 30 日間保持します。
 
 ### <a name="exporting-and-deleting-system-generated-logs"></a>システム生成ログのエクスポートと削除
 
-テナント グローバル管理者は、特定のユーザーによる Office 365 サービスとアプリケーションの使用に関連するシステム生成ログにアクセスできる組織内の唯一のユーザーです。 キャリア コーチは、 [Office 365によって提供されるシステム生成ログにアクセスしてエクスポートするプロセスと](https://learn.microsoft.com/compliance/regulatory/gdpr-dsr-Office365#accessing-and-exporting-system-generated-logs)一致します。
+テナント グローバル管理者は、特定のユーザーによる Office 365 サービスとアプリケーションの使用に関連するシステム生成ログにアクセスできる組織内の唯一のユーザーです。 キャリア コーチは、 [Office 365によって提供されるシステム生成ログにアクセスしてエクスポートするプロセスと](/compliance/regulatory/gdpr-dsr-Office365#accessing-and-exporting-system-generated-logs)一致します。
 
 ## <a name="more-information"></a>詳細情報
 
-- [Microsoft Teams のキャリア コーチの概要](career-coach.md)
+- [Microsoft Teams のキャリア コーチの使用を開始する](career-coach.md)
 - [プライバシーに関するよく寄せられる質問](https://privacy.microsoft.com/faq)
-- [Microsoft 製品とデータ - Microsoft プライバシー](https://privacy.microsoft.com/privacy-in-our-products)
-- [Microsoft アカウントのプライバシー設定](https://account.microsoft.com/account/privacy?refd=privacy.microsoft.com&ru=https%3A%2F%2Faccount.microsoft.com%2Fprivacy%2F%3Frefd%3Dprivacy.microsoft.com&destrt=privacy-dashboard)
+- [製品とデータのMicrosoft - Microsoft プライバシー](https://privacy.microsoft.com/privacy-in-our-products)
+- [アカウントのプライバシー設定をMicrosoftする](https://account.microsoft.com/account/privacy?refd=privacy.microsoft.com&ru=https%3A%2F%2Faccount.microsoft.com%2Fprivacy%2F%3Frefd%3Dprivacy.microsoft.com&destrt=privacy-dashboard)

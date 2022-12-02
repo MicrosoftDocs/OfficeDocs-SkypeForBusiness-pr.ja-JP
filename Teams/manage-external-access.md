@@ -22,12 +22,12 @@ description: Teams または IT 管理者は、他のドメインの外部会議
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: d1cb230b362ca3c38c9986d54f222a903cb06eed
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: d3396c9982cfe4de9eacc085bfe3a572fdc4b667
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198569"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242431"
 ---
 # <a name="manage-external-meetings-and-chat-in-microsoft-teams"></a>Microsoft Teams で外部の会議とチャットを管理する
 
@@ -55,7 +55,9 @@ Teams 管理センターは、組織レベルで外部アクセスを制御し�
 > [!NOTE]
 > Teams ユーザーは、他の組織のユーザーとの会議やチャットをホストするときにアプリを追加できます。 他の組織がホストする会議やチャットに参加するときに、他の組織のユーザーが共有するアプリを使用することもできます。 ホストしているユーザーの組織のデータ ポリシーと、そのユーザーの組織が共有するサードパーティ アプリのデータ共有の慣行が適用されます。
 
-## <a name="allow-or-block-domains"></a>ドメインの許可または禁止
+## <a name="specify-trusted-organizations"></a>信頼できる組織を指定する
+
+組織が外部会議やチャットに信頼する組織を定義するために、特定のドメインを許可またはブロックできます。 (他の組織も組織のドメインを許可する必要があることに注意してください)。
 
 禁止ドメインを追加すると、他のすべてのドメインが許可され、許可ドメインを追加すると、他のすべてのドメインが禁止されます。 この規則の例外は、匿名の参加者が会議に参加できる場合です。 Teams 管理センターで外部アクセスを設定するには、次の 4 つのシナリオがあります (**[ユーザー]** > **[外部アクセス]**):
 
@@ -70,7 +72,7 @@ Teams 管理センターは、組織レベルで外部アクセスを制御し�
 - **すべての外部ドメインをブロックする** - 組織内のユーザーが、組織の外部のユーザーと任意のドメインで、会議を検索、通話、チャット、設定できないようにします。
 
 > [!NOTE]
-> 許可またはブロックされたドメインは、会議への匿名アクセスが「オフ」の場合にのみ会議に適用されます。
+> ブロックされたドメインからのPeopleは、匿名アクセスが許可されている場合でも匿名で会議に参加できます。
 
 ![外部ドメイン設定のスクリーンショット。](./media/external-access-domain-settings.png)
 
