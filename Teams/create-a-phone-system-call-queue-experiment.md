@@ -23,19 +23,16 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
-adobe-target: true
-adobe-target-activity: ''
-adobe-target-experience: Experience B
-adobe-target-content: ./create-a-phone-system-call-queue-experiment
+robots: noindex
 description: Microsoft Teams で通話キューを設定する方法について説明します。 通話キューには、あいさつメッセージ、保留音楽、通話リダイレクトなどの機能が用意されています。
-ms.openlocfilehash: ed3be4feffd516292b7dfe902ac7d1856f6f6a44
+ms.openlocfilehash: 401479f73b81fffcdcb6d5d1d3663a80e4fc7b86
 ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 12/03/2022
-ms.locfileid: "69251790"
+ms.locfileid: "69252005"
 ---
-# <a name="create-a-call-queue-in-microsoft-teams"></a>Microsoft Teams で通話キューを作成する
+# <a name="create-a-call-queue"></a>呼び出しキューを作成する
 
 通話キューは、特定の問題や質問に役立つ組織内のユーザーに発信者をルーティングします。 呼び出しは、 *エージェント* と呼ばれるキュー内のユーザーに一度に 1 つずつ配布されます。
 
@@ -69,15 +66,13 @@ ms.locfileid: "69251790"
 
 ## <a name="follow-these-steps-to-set-up-your-call-queue"></a>通話キューを設定するには、次の手順に従います
 
-## <a name="step-1-general-info"></a>[手順 1: 一般的な情報](#tab/general-info)
-
-## <a name="step-1-set-up-general-information"></a>手順 1: 一般的な情報を設定する
+### <a name="step-1-set-up-general-information"></a>手順 1: 一般的な情報を設定する
 
 通話キューを設定するには、 [Teams 管理センター](https://go.microsoft.com/fwlink/p/?linkid=2066851)で [ **音声**] を展開し、[ **通話キュー**] を選択し、[ **追加**] を選択します。
 
 上部のボックスに通話キューの名前を入力します。
 
-### <a name="add-a-resource-account"></a>リソース アカウントを追加する
+#### <a name="add-a-resource-account"></a>リソース アカウントを追加する
 
 既存のリソース アカウントを追加するには:
 
@@ -102,7 +97,7 @@ ms.locfileid: "69251790"
 
 詳細については、「 [Teams リソース アカウントの管理](manage-resource-accounts.md)」を参照してください。
 
-### <a name="assign-a-calling-id-optional"></a>呼び出し元 ID を割り当てる (省略可能)
+#### <a name="assign-a-calling-id-optional"></a>呼び出し元 ID を割り当てる (省略可能)
 
 **Teams チャネル/コラボレーション通話デスクトップ ユーザーと標準通話キューを持つ Teams モバイル クライアント ユーザーで使用できます。**
 
@@ -138,7 +133,7 @@ ID を呼び出すためにこの新しいリソース アカウントを作成�
 - Microsoft通話プラン ライセンスの割り当て、オペレーター接続電話番号の割り当て、またはダイレクト ルーティングのオンライン音声ルーティング ポリシーの割り当て
 - 通話プランを使用している場合は、[リソース アカウントにサービス電話番号](manage-resource-accounts.md#assign-a-service-number)Microsoft割り当てます
 
-### <a name="set-the-call-queue-language"></a>通話キューの言語を設定する
+#### <a name="set-the-call-queue-language"></a>通話キューの言語を設定する
 
 [サポートされている言語を選択します](create-a-phone-system-call-queue-languages.md)。
 
@@ -146,9 +141,7 @@ ID を呼び出すためにこの新しいリソース アカウントを作成�
 
 言語を選択したら、[**通話キューの追加**] ページの下部にある [**次へ**] ボタンを選択します。
 
-## <a name="step-2-greeting-and-music"></a>[手順 2: あいさつと音楽](#tab/greeting-music)
-
-## <a name="step-2-add-a-greeting-and-on-hold-music"></a>手順 2: あいさつと保留音を追加する
+### <a name="step-2-add-a-greeting-and-on-hold-music"></a>手順 2: あいさつと保留音を追加する
 
 *新規 - **通話キューのメイン グリーティングでグリーティング メッセージ** (Text to Speech (TTS)) を追加できるようになりました。*
 
@@ -168,9 +161,7 @@ Teams は、キューに保留されている間に、発信者 *に既定の音
 
 あいさつと保留音を選択したら、[**通話キューの追加**] ページの下部にある [**次へ**] ボタンを選択します。
 
-## <a name="step-3-call-answering"></a>[手順 3: 応答を呼び出す](#tab/call-answering)
-
-## <a name="step-3-set-up-who-will-answer-incoming-calls"></a>手順 3: 着信に応答するユーザーを設定する
+### <a name="step-3-set-up-who-will-answer-incoming-calls"></a>手順 3: 着信に応答するユーザーを設定する
 
 エージェントを [呼び出しキューに追加するための前提条件を確認します](plan-auto-attendant-call-queue.md#prerequisites)。
 
@@ -194,7 +185,7 @@ Teams チャネルを介して最大 200 人のエージェントを追加でき
 >
 > チームに 200 人を超えるメンバーが存在する場合、最初の 200 人のメンバーのみが、アルファベット順にコール キューにエージェントとして追加されます。
 
-### <a name="users-and-groups"></a>ユーザーとグループ
+#### <a name="users-and-groups"></a>ユーザーとグループ
 
 グループを使用して、最大 20 個のエージェントを個別に追加し、最大 200 個のエージェントを追加できます。
 
@@ -216,7 +207,7 @@ Teams チャネルを介して最大 200 人のエージェントを追加でき
 >
 > グループに 200 を超えるメンバーがある場合、最初の 200 人のメンバーのみが、アルファベット順でエージェントとして通話キューに追加されます。
 
-### <a name="conference-mode"></a>会議モード
+#### <a name="conference-mode"></a>会議モード
 
 **会議モード** では、エージェントが通話を受け入れた後に、発信者がエージェントに接続するまでにかかる時間が短縮されます。 会議モードを機能させるには、通話キュー内のエージェントで次のいずれかのクライアントを使用する必要があります。
 
@@ -241,9 +232,7 @@ Teams チャネルを介して最大 200 人のエージェントを追加でき
 
 通話応答オプションを選択したら、[通話 **キューの追加**] ページの下部にある [**次へ**] ボタンを選択します。
 
-## <a name="step-4-agent-selection"></a>[手順 4: エージェントの選択](#tab/agent-selection)
-
-## <a name="step-4-select-your-agent-routing-options"></a>手順 4: エージェントのルーティング オプションを選択する
+### <a name="step-4-select-your-agent-routing-options"></a>手順 4: エージェントのルーティング オプションを選択する
 
 **ルーティング 方法** は、エージェントがキューから呼び出しを受信する順序を決定します。
 
@@ -269,7 +258,7 @@ Teams チャネルを介して最大 200 人のエージェントを追加でき
 >
 > エージェントへの通話キュー呼び出しの表示は、場所ベースのルーティング制限と競合する可能性があります。 この場合、エージェントは通話トーストを受け取りますが、通話に応答できません。 この条件は、別のエージェントが呼び出しに応答できるようになるか、呼び出し元がハングアップするか、呼び出しキューのタイムアウト条件が発生するまで続行されます。  
 
-### <a name="presence-based-call-routing"></a>プレゼンス ベースの通話ルーティング
+#### <a name="presence-based-call-routing"></a>プレゼンス ベースの通話ルーティング
 
 **プレゼンス ベースの呼び出しルーティング** では、通話エージェントの可用性状態を使用して、選択したルーティング方法の通話ルーティング リストにエージェントを含める必要があるかどうかを判断します。
 
@@ -291,13 +280,13 @@ Teams チャネルを介して最大 200 人のエージェントを追加でき
 >
 > プレゼンス ベースのルーティングが有効になっている場合、Skype for Business クライアントを使用するエージェントは通話ルーティング リストに含まれません。 Skype for Businessを使用するエージェントがある場合は、プレゼンス ベースの通話ルーティングを有効にしないでください。
 
-### <a name="call-agents-can-opt-out-of-taking-calls"></a>通話エージェントは通話の取り出しをオプトアウトできます
+#### <a name="call-agents-can-opt-out-of-taking-calls"></a>通話エージェントは通話の取り出しをオプトアウトできます
 
 通話エージェントが通話をオプトアウトできるかどうかを指定できます。
 
 通話エージェントを有効にすると **、通話の受け取りをオプトアウトできます**。
 
-### <a name="agent-alert-time"></a>エージェントのアラート時間
+#### <a name="agent-alert-time"></a>エージェントのアラート時間
 
 **エージェントのアラート時間** は、キューが呼び出しを次のエージェントにリダイレクトするまでのエージェントの電話の呼び出し時間を指定します。
 
@@ -306,9 +295,7 @@ Teams チャネルを介して最大 200 人のエージェントを追加でき
 
 エージェントの通話ルーティング オプションを選択したら、[通話 **キューの追加**] ページの下部にある [**次へ**] ボタンを選択します。
 
-## <a name="step-5-call-overflow"></a>[手順 5: 呼び出しのオーバーフロー](#tab/call-overflow)
-
-## <a name="step-5-set-how-to-handle-call-overflow"></a>手順 5: 呼び出しオーバーフローの処理方法を設定する
+### <a name="step-5-set-how-to-handle-call-overflow"></a>手順 5: 呼び出しオーバーフローの処理方法を設定する
 
 **キュー内の最大呼び出し** 数は、キュー内でいつでも待機できる呼び出しの最大数を指定します。
 
@@ -331,9 +318,7 @@ Teams チャネルを介して最大 200 人のエージェントを追加でき
 
 通話オーバーフロー処理オプションを選択したら、[呼び出し **キューの追加**] ページの下部にある [**次へ**] ボタンを選択します。
 
-## <a name="step-6-call-timeout"></a>[手順 6: 通話タイムアウト](#tab/call-timeout)
-
-## <a name="step-6-set-how-to-handle-call-timeouts"></a>手順 6: 呼び出しタイムアウトの処理方法を設定する
+### <a name="step-6-set-how-to-handle-call-timeouts"></a>手順 6: 呼び出しタイムアウトの処理方法を設定する
 
 **通話タイムアウト: 最大待機時間** は、呼び出しがリダイレクトまたは切断されるまでにキューで保留できる最大時間を指定します。
 
@@ -351,8 +336,6 @@ Teams チャネルを介して最大 200 人のエージェントを追加でき
 > ボイスメール (個人用) は、指定されたボイスメールに直接発信せず、ユーザーに通話を送信します。 これはサポートによって調査されています。
 
 通話タイムアウト処理オプションを選択したら、[呼び出し **キューの追加**] ページの下部にある **[送信]** ボタンを選択します。
-
----
 
 ## <a name="resources-for-complex-scenarios"></a>複雑なシナリオのリソース
 
@@ -404,8 +387,8 @@ Teams チャネルを介して最大 200 人のエージェントを追加でき
 8. パブリック チャネルのみがサポートされています。
 9. 自動応答と通話キューは、PSTN 接続メソッド間で通話を転送できません。
 10. GCCH/DOD の場合は、次のユーザー設定ポータルでのみ使用できます。
-- GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
-- 国防 総省： [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
+    - GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
+    - 国防 総省： [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
 
 ### <a name="supported-clients"></a>サポートされるクライアント
 

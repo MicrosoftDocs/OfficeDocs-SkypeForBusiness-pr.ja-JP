@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
-ms.date: 08/24/2022
+ms.date: 12/02/2022
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
@@ -16,48 +16,50 @@ description: 組織内のユーザーと管理者の Teams アプリ アクテ�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 0fd3feb73705a95e0729cb1819d9f355ce3ef711
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: 5aee5bf00d486586b4bc8e9583504be5e4a9b922
+ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912786"
+ms.lasthandoff: 12/03/2022
+ms.locfileid: "69251880"
 ---
-# <a name="audit-logs-of-app-management-activities-and-events"></a>アプリ管理アクティビティとイベントの監査ログ
+# <a name="search-audit-logs-for-app-management-activities-and-events"></a>アプリ管理アクティビティとイベントの監査ログを検索する
 
 Microsoft 365 のMicrosoft Purview 監査 (Standard) を使用すると、エンド ユーザーと管理者によってさまざまな Microsoft 365 サービスで実行されたアクティビティの監査レコードを検索できます。
 
-監査を検索する前に、次の前提条件を満たしていることを確認します。
+監査レコードを検索する前に、次の前提条件を満たしていることを確認してください。
 
-* [組織のサブスクリプションとユーザー ライセンスを取得する](/microsoft-365/compliance/set-up-basic-audit)。
+* [組織のサブスクリプションとユーザー ライセンスを取得します](/microsoft-365/compliance/set-up-basic-audit)。
 * [Microsoft Purview コンプライアンス ポータルで監査を有効にする](/microsoft-365/compliance/turn-audit-log-search-on-or-off)。
 * [監査ログを検索するためのアクセス許可を割り当てる](/microsoft-365/compliance/set-up-basic-audit)。
 
 ## <a name="search-the-audit-logs-for-app-events-in-teams"></a>Teams でアプリ イベントの監査ログを検索する
 
-Teams のアプリ イベントの監査ログは、特定のアクションを調査するのに役立ちます。 ログを検索してさまざまなアクションを検索できますが、ログに記録される Teams アプリ アクションの一部を次の表に示します。 さらに、コネクタ、ボット、タブに関連するアクティビティを検索することもできます。
+Teams のアプリ イベントの監査ログは、管理者によるアプリ管理に関連する特定のアクションを調査するのに役立ちます。 ログを検索してさまざまなアクションを検索できますが、次の表に、ログに記録されるそのようなアクションの一覧を示します。
 
-| Teams アプリ アクション                  | アクティビティ名                | 説明                                              |
-|-----------------------------------|------------------------------|:---------------------------------------------------------|
-| **インストールされたアプリ**                 | `AppInstalled`               | アプリがインストールされました。                                     |
+| Teams アプリ アクション | ポータルのアクティビティ名 | 説明  |
+|-------|-------|:-------|
+| **インストールされたアプリ**                 | `AppInstalled`               | アプリがインストールされているか、Teams クライアントに追加されます。 |
 | **アップグレードされたアプリ**                  | `AppUpgraded`                | アプリがカタログで最新版にアップグレードされました。 |
-| **削除されたアプリ**               | `AppUninstalled`             | アプリがアンインストールされました。                                   |
+| **削除されたアプリ**               | `AppUninstalled`             | アプリは、Teams クライアントからアンインストールまたは削除されます。                                   |
 | **公開済みのアプリ**                 | `AppPublishedToCatalog`      | アプリがカタログに追加されました。                          |
 | **更新されたアプリ**                   | `AppUpdatedInCatalog`        | アプリがカタログで更新されました。                        |
 | **削除されたアプリ**                   | `AppDeletedFromCatalog`      | カタログからアプリが削除されました。                      |
 | **すべての組織のアプリが削除されました** | `DeletedAllOrganizationApps` | カタログからすべての組織アプリを削除しました。          |
 
+<!--- organization apps = custom or 3p --->
+
 監査対象となる Teams アクティビティの完全な一覧については、「[Teams アクティビティ](audit-log-events.md#teams-activities)」および「[Teams アクティビティでのシフト](audit-log-events.md#shifts-in-teams-activities)」を参照してください。
 
 > [!NOTE]
-> プライベート チャネルからの監査イベントも、チームや標準チャネルの場合と同様に記録されます。
+> プライベート チャネルからのアプリ イベントは、それらのイベントが Teams と標準チャネルで実行されるため、ログに記録されます。
 
-コンプライアンス ポータルで監査ログ検索ツールを使用して監査記録を検索します。 アプリ イベント監査ログを検索するには、次の手順に従います。
+Teams アプリ アクティビティの監査ログを検索するには、次の手順に従います。
 
 1. Microsoft Purview コンプライアンス ポータルにサインインし、**[ソリューション]** > **[[監査]](https://compliance.microsoft.com/auditlogsearch)** の順に移動します。
-1. 監査ページで、要件に従って次のフィールドを更新します。
+1. [ **監査** ] ページで、必要に応じて次のフィールドを更新します。
 
-   * **日付と時刻の範囲**: 開始日と終了日を選択します。
+   * **日付と時刻の範囲**: 監査ログを確認する期間の開始日と終了日を選択します。
    * **アクティビティ**: Microsoft Teams アクティビティを入力します。 一覧から、1 つ以上のアプリ アクティビティを選択します。 Teams アクティビティをすばやく見つけるには、[**アクティビティ**] 検索フィールドで単語 `Teams activities` を検索できます。
    * **ファイル、フォルダー、またはサイト**: ファイル名、URL、またはその一部を入力します。
    * **ユーザー**: 検索する監査ログを持つユーザーを追加します。
@@ -66,7 +68,7 @@ Teams のアプリ イベントの監査ログは、特定のアクションを�
 
    :::image type="content" source="media/compliance-search-teams-activities-trimmed.png" alt-text="Microsoft Purview コンプライアンス ポータルで Teams アクティビティを検索し、Teams イベントを監査します。" lightbox="media/compliance-search-teams-activities.png":::
 
-コンプライアンス ポータルで監査サインインを検索した後、監査レコードを CSV ファイルとしてエクスポートできます。 詳細については、「[監査ログのエクスポート、構成、および表示](/microsoft-365/compliance/export-view-audit-log-records)」を参照してください。
+検索した監査レコードを CSV ファイルとしてエクスポートできます。 詳細については、「[監査ログのエクスポート、構成、および表示](/microsoft-365/compliance/export-view-audit-log-records)」を参照してください。
 
 > [!NOTE]
 > 上記のアクティビティのいずれかがユーザーまたは管理者によって実行されると、Teams は監査レコードを生成して格納します。 監査 (標準) では、記録は 90 日間保持されるため、過去 3 か月以内に発生したアクティビティを検索することができます。

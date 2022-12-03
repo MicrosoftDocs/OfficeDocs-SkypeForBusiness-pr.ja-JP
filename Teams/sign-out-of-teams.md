@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 810e4a2c151284786092d664170388f17c0461e6
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: 93a338ef393c783c4fc2240b580f3cd316c354ee
+ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66564115"
+ms.lasthandoff: 12/03/2022
+ms.locfileid: "69251890"
 ---
 # <a name="sign-out-of-microsoft-teams"></a>Microsoft Teams からサインアウトする
 
@@ -50,7 +50,7 @@ Teams デスクトップ クライアントまたはブラウザーからサイ�
 
 ## <a name="sign-out-of-teams-on-mobile-devices"></a>モバイル デバイスで Teams からサインアウトする
 
-モバイルでは、メニューに移動して [**その他**] メニューを選択し、[**サインアウト**] を選択することで、Teams からサインアウトできます。サインアウトすると、ユーザーは次にアプリを起動するときに、資格情報を再入力する必要があります。
+モバイルでは、Teams からサインアウトするには、ユーザー アイコンに移動し、[ **設定]** を選択し、[ **サインアウト**] を選択します。サインアウトしたら、次回アプリを起動するときに資格情報を再入力する必要があります。
 
 ### <a name="global-sign-in-and-sign-out-for-frontline-workers"></a>現場担当者向けのグローバル サインインとサインアウト
 

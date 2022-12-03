@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 自動応答を設定する
+title: Microsoft Teams の自動応答を設定する
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -20,19 +20,16 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom:
 - Phone System
-adobe-target: true
-adobe-target-activity: ''
-adobe-target-experience: Experience B
-adobe-target-content: ./create-a-phone-system-auto-attendant-experiment
+robots: noindex
 description: Microsoft Teams で自動応答を設定および管理する方法について説明します。
-ms.openlocfilehash: 1908ccb02fa3aadc0bb906f718e5493eb8ff8e2f
+ms.openlocfilehash: cafbe1594666f156801f83b7944e4ecce4887752
 ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 12/03/2022
-ms.locfileid: "69251760"
+ms.locfileid: "69252002"
 ---
-# <a name="set-up-a-microsoft-teams-auto-attendant"></a>Microsoft Teams 自動応答を設定する
+# <a name="set-up-an-auto-attendant"></a>自動応答を設定する
 
 自動応答を使用すると、ユーザーが組織に電話をかけ、メニュー システムに移動して、適切な部署、通話キュー、人、またはオペレーターと話すことができます。 Microsoft Teams 管理センターまたは PowerShell を使用して、組織の自動応答を作成できます。
 
@@ -52,7 +49,7 @@ ms.locfileid: "69251760"
 > [!NOTE]
 > **組織内のユーザー** に通話をリダイレクトする場合、そのユーザーは音声を有効にする必要があります。 音声の有効化の詳細については、「 [Teams アドオン ライセンスをユーザーに割り当てる](teams-add-on-licensing/assign-teams-add-on-licenses.md)」を参照してください。
 >
-> **演算子** の定義は省略可能ですが、推奨されます。  自動応答は、ユーザーまたは共有ボイスメール アカウントが削除されているために自動応答構成でエラーが発生した場合に、オペレーターに呼び出しをリダイレクトします。  オペレーターが定義されていない場合、自動応答によって呼び出しが削除されます。
+> **演算子** の定義は省略可能ですが、推奨されます。  呼び出し元がメニューの選択を行わない場合、無効なオプションを繰り返し選択した場合、または名前または番号によるダイヤルが繰り返し失敗する場合は、自動応答によって呼び出しがオペレーターにリダイレクトされます。  オペレーターが定義されていない場合、自動応答によって呼び出しが削除されます。
 
 ## <a name="whats-new-for-auto-attendants-in-the-past-6-months"></a>過去 6 か月間の自動応答の新機能
 
@@ -75,9 +72,7 @@ ms.locfileid: "69251760"
 
 ## <a name="follow-these-steps-to-set-up-your-auto-attendant"></a>自動応答を設定するには、次の手順に従います
 
-## <a name="step-1-general-info"></a>[手順 1: 一般的な情報](#tab/general-info)
-
-## <a name="step-1-set-the-auto-attendants-general-information"></a>手順 1: 自動応答の一般的な情報を設定する
+### <a name="step-1-set-the-auto-attendants-general-information"></a>手順 1: 自動応答の一般的な情報を設定する
 
 自動応答を設定するには、 [Teams 管理センター](https://go.microsoft.com/fwlink/p/?linkid=2066851)で [ **音声**] を展開し、[ **自動応答**] を選択し、[ **追加**] を選択します。
 
@@ -96,23 +91,21 @@ ms.locfileid: "69251760"
 
 自動応答の一般的な情報を設定したら、[ **次へ**] を選択します。
 
-## <a name="step-2-basic-call-flow"></a>[手順 2: 基本的な通話フロー](#tab/call-flow)
+### <a name="step-2-set-up-the-basic-call-flow"></a>手順 2: 基本的な通話フローを設定する
 
-## <a name="step-2-set-up-the-basic-call-flow"></a>手順 2: 基本的な通話フローを設定する
-
-### <a name="set-a-greeting"></a>あいさつ文を設定する
+#### <a name="set-a-greeting"></a>あいさつ文を設定する
 
 - [ **オーディオ ファイルの再生** ] を選択した場合は、[ **ファイルのアップロード** ] ボタンを使用して、 にオーディオとして保存された録音されたあいさつメッセージをアップロードできます。WAV、.MP3、または 。WMA 形式。 記録は 5 MB 以下です。
 
 - [ **あいさつメッセージの入力** ] を選択すると、自動応答が通話に応答するときに、入力したテキスト (最大 1000 文字) が読み取られます。
 
-### <a name="route-the-call"></a>通話をルーティングする
+#### <a name="route-the-call"></a>通話をルーティングする
 
 - **[切断**] を選択すると、自動応答によって通話がハングアップします。
 - [ **呼び出しのリダイレクト**] を選択した場合は、通話ルーティング先のいずれかを選択できます。
 - **[再生] メニュー オプション** を選択した場合は、[**音声ファイルの再生**] または [**あいさつメッセージに入力**] を選択し、メニュー オプションとディレクトリ検索を選択できます。
 
-#### <a name="play-menu-options"></a>再生メニュー オプション
+##### <a name="play-menu-options"></a>再生メニュー オプション
 
 *[新規] - [強制リッスン] オプションを有効にすると、呼び出し元が選択する前にすべてのメニュー オプションをリッスンする必要があります。*
 *New - \* (アスタリスク) キーと \# (ポンドキー) をメニュー オプションで使用できるようになりました。*
@@ -131,7 +124,7 @@ ms.locfileid: "69251760"
 
 - **[リダイレクト先** ] - 呼び出し元がこのオプションを選択したときに使用される通話ルーティング先。 自動応答または通話キューにリダイレクトする場合は、それに関連付けられているリソース アカウントを選択します。
 
-##### <a name="directory-search"></a>ディレクトリ検索
+###### <a name="directory-search"></a>ディレクトリ検索
 
 宛先にダイヤル キーを割り当てる場合は、**ディレクトリ検索** に **[なし]** を選択することをお勧めします。 呼び出し元が特定の宛先に割り当てられたキーを使用して名前または拡張機能をダイヤルしようとすると、名前または拡張子の入力が完了する前に、予期せず宛先にルーティングされる可能性があります。 ディレクトリ検索用に別の自動応答を作成し、ダイヤル キーを使用してメインの自動応答リンクを作成することをお勧めします。
 
@@ -148,9 +141,7 @@ ms.locfileid: "69251760"
 
 基本的な通話フロー オプションを設定したら、[ **次へ**] を選択します。
 
-## <a name="step-3-after-hours-call-flow"></a>[手順 3: 時間外通話フロー](#tab/after-hours)
-
-## <a name="step-3-set-up-call-flow-for-after-hours-optional"></a>手順 3: 時間外の通話フローを設定する (省略可能)
+### <a name="step-3-set-up-call-flow-for-after-hours-optional"></a>手順 3: 時間外の通話フローを設定する (省略可能)
 
 営業時間は、自動応答ごとに設定できます。
 
@@ -168,9 +159,7 @@ ms.locfileid: "69251760"
 
 時間外通話フローを追加したら、[ **次へ**] を選択します。
 
-## <a name="step-4-holiday-call-flow"></a>[手順 4: 休日の通話フロー](#tab/holidays)
-
-## <a name="step-4-set-up-call-flows-for-holidays-optional"></a>手順 4: 休日の通話フローを設定する (省略可能)
+### <a name="step-4-set-up-call-flows-for-holidays-optional"></a>手順 4: 休日の通話フローを設定する (省略可能)
 
 自動応答には、 [設定した各休日](set-up-holidays-in-teams.md)の通話フローを設定できます。 各自動応答には、最大 20 個の決められた休業日を追加できます。
 
@@ -197,9 +186,7 @@ ms.locfileid: "69251760"
 
 休日のすべての時間を追加したら、[ **次へ**] を選択します。
 
-## <a name="step-5-dial-scope"></a>[手順 5: ダイヤル スコープ](#tab/dial-scope)
-
-## <a name="step-5-set-up-dial-scope-optional"></a>手順 5: ダイヤル スコープを設定する (省略可能)
+### <a name="step-5-set-up-dial-scope-optional"></a>手順 5: ダイヤル スコープを設定する (省略可能)
 
 *ダイヤル スコープ* は、発信者がダイヤルバイネームまたはダイヤルバイエクステンションを使用する場合にディレクトリ内で使用できるユーザーを定義します。 既定の [**すべてのオンライン ユーザー**] には、組織内のすべてのユーザーが含まれます。このユーザーは、オンライン ユーザーであるか、Skype for Business Serverを使用してオンプレミスでホストされています。
 
@@ -212,9 +199,7 @@ ms.locfileid: "69251760"
 
 **ダイヤル スコープ** オプションを選択したら、[**次へ**] を選択します。
 
-## <a name="step-6-resource-accounts"></a>[手順 6: リソース アカウント](#tab/resource-accounts)
-
-## <a name="step-6-set-up-resource-accounts-optional"></a>手順 6: リソース アカウントを設定する (省略可能)
+### <a name="step-6-set-up-resource-accounts-optional"></a>手順 6: リソース アカウントを設定する (省略可能)
 
 すべての自動応答には、関連付けられているリソース アカウントが必要です。  第 1 レベルの自動応答には、関連付けられたサービス番号を持つ少なくとも 1 つのリソース アカウントが必要です。 必要に応じて、複数のリソース アカウントを自動応答に割り当てることができます。それぞれに個別のサービス番号を付けます。
 
@@ -223,8 +208,6 @@ ms.locfileid: "69251760"
 リソース アカウントを追加したら、[ **次へ**] を選択します。
 
 詳細については、「 [Teams リソース アカウントの管理](manage-resource-accounts.md) 」を参照してください。
-
----
 
 ## <a name="resources-for-complex-scenarios"></a>複雑なシナリオのリソース
 

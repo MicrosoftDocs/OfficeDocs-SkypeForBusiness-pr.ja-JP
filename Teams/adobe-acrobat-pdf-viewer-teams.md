@@ -18,16 +18,16 @@ description: Microsoft Teams で PDF ファイルを表示および編集する�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 44721429b81b3f502a76a037add7a880e469add5
-ms.sourcegitcommit: ed7d3b12d4bfe48863de873360c2ae90bbb15530
+ms.openlocfilehash: 4776b2928ee734c1b37856e44d184c53bfc0dd90
+ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69194988"
+ms.lasthandoff: 12/03/2022
+ms.locfileid: "69251900"
 ---
 # <a name="set-adobe-acrobat-as-the-default-pdf-viewer-in-microsoft-teams"></a>Microsoft Teams で Adobe Acrobat を既定の PDF ビューアーとして設定する
 
-管理者は、Microsoft Teams で PDF ファイルを表示および編集する既定のアプリとして Adobe Acrobat を設定できます。 エンド ユーザーは、Adobe Acrobat サブスクリプションや Adobe ID がなくても、PDF ファイルの表示、検索、コメント、注釈付けを行うことができます。
+管理者は、Microsoft Teams で PDF ファイルを表示および編集する既定のアプリとして Adobe Acrobat を設定できます。 エンド ユーザーは PDF ファイルを表示および検索できます。 ユーザーは、サインイン後に無料で PDF ファイルにコメントを付け、注釈を付けることもできます。
 
 テナント内の PDF ファイルの既定のハンドラーとして Adobe Acrobat アプリを構成するには、前提条件として次の手順を実行します。
 
