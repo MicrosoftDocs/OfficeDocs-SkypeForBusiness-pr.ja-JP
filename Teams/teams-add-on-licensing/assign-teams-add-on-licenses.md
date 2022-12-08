@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -15,19 +16,19 @@ ms.reviewer: mikedav
 description: 電話会議、電話システム、通話プランなどの機能について、Teams アドオン ライセンスをユーザーに割り当てる方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c10ba390d906681434ae56272e4f112911bfcff
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 635280582796f2b373efc0c763fea0887bcd6e42
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606056"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307782"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Teams アドオン ライセンスをユーザーに割り当てる
 
-アドオン ライセンスは、電話会議、電話システム、通話プランなどの特定の Teams 機能のライセンスです。 この記事では、アドオン ライセンスを個々のユーザーと大規模なユーザー セットに一括で割り当てる方法について説明します。
+アドオン ライセンスは、電話会議、電話システム、通話プランなどの特定の Teams 機能のライセンスです。 この記事では、個々のユーザーと大規模なユーザー セットにアドオン ライセンスを一括で割り当てる方法について説明します。
 
 > [!NOTE]
-> [アドオン ライセンスで](./microsoft-teams-add-on-licensing.md)使用できる Teams 機能については、Teams アドオン のライセンスに関するページを参照してください。 プランに応じて、購入する必要があるライセンスと購入方法に関する情報も表示されます。 ユーザーに必要な機能を決定したら、そのユーザーにライセンスを割り当てます。
+> アドオン [ライセンスで](./microsoft-teams-add-on-licensing.md) 利用できる Teams 機能の Teams アドオン ライセンスに関するページを参照してください。 また、プランに応じて、購入する必要があるライセンスとその購入方法に関する情報も表示されます。 ユーザーに必要な機能を決定したら、そのユーザーにライセンスを割り当てます。
 
 Microsoft 365 管理センターまたは PowerShell を使用して、組織内のユーザーにライセンスを割り当てることができます。 ライセンスを管理するには、グローバル管理者またはユーザー管理管理者である必要があります。
 
@@ -35,25 +36,25 @@ Microsoft 365 管理センターまたは PowerShell を使用して、組織内
 
 作業を開始する前に、次の要件を確認してください。
 
-- ユーザーに対してオンプレミスの公衆交換電話網 (PSTN) 接続を使用している場合は、Teams 電話スタンダード ライセンスを割り当てる必要があります。 通話プラン ライセンスを割り当てないでください。
+- ユーザーに対してオンプレミスの公衆交換電話網 (PSTN) 接続を使用している場合は、Teams 電話スタンダード ライセンスのみを割り当てる必要があります。 通話プラン ライセンスを割り当てないでください。
 
-- Microsoft 通話プランをユーザーに割り当てた後、Teams クライアントにダイヤル パッドが表示されるまでに最大 24 時間かかる場合があります。 24 時間以内にダイヤル パッドが表示されない場合は、 [ダイヤル パッドの構成](../dial-pad-configuration.md)を確認します。 必要に応じて、 [サポートにお問い合わせください](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
+- Microsoft通話プランをユーザーに割り当てた後、Teams クライアントにダイヤル パッドが表示されるまでに最大で 24 時間かかることがあります。 ダイヤル パッドが 24 時間以内に表示されない場合は、 [ダイヤル パッドの構成](../dial-pad-configuration.md)を確認します。 必要に応じて、 [サポートに問い合わせ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)ることもできます。
 
-- 正しいライセンス数を購入していない場合は、エラー メッセージが表示されます。 通話プランライセンスをさらに購入する必要がある場合は、さらに購入するオプションを選択します。
+- 正しいライセンス数を購入していない場合は、エラー メッセージが表示されます。 通話プランのライセンスをさらに購入する必要がある場合は、さらに購入するオプションを選択します。
 
-- ユーザーに Enterprise E5 ライセンスが割り当てられている場合でも、PSTN に接続する必要があります。 Microsoft Teams Calling プラン、ダイレクト ルーティング、オペレーター接続など、いくつかの [PSTN 接続オプション](../pstn-connectivity.md)があります。
+- ユーザーに Enterprise E5 ライセンスが割り当てられている場合でも、それらを PSTN に接続する必要があります。 MICROSOFT TEAMS CALLING プラン、ダイレクト ルーティング、オペレーター接続など、いくつかの [PSTN 接続オプション](../pstn-connectivity.md)があります。
 
-- 通話プランまたは通信クレジットのライセンスをユーザーに割り当てた後、組織の電話番号を取得し、それらの番号をユーザーに割り当てる必要があります。 詳しい手順については、「[通話プランのセットアップ](../set-up-calling-plans.md)」をご覧ください。
+- 通話プランまたはコミュニケーション クレジット のライセンスをユーザーに割り当てた後、組織の電話番号を取得し、それらの番号をユーザーに割り当てる必要があります。 詳しい手順については、「[通話プランのセットアップ](../set-up-calling-plans.md)」をご覧ください。
 
 ## <a name="using-the-microsoft-365-admin-center"></a>Microsoft 365 管理センターの使用
 
-Microsoft 365 管理センターを使用して、一度に個々のユーザーまたは小規模なユーザー セットにライセンスを割り当てます。
+Microsoft 365 管理センターを使用して、一度に個々のユーザーまたは少数のユーザー セットにライセンスを割り当てます。
 
-ライセンスは、[ **ライセンス** ] ページ (一度に最大 20 人のユーザー) または **[アクティブ ユーザー** ] ページ (一度に最大 40 人のユーザー) に割り当てます。 選択する方法は、特定のユーザーの製品ライセンスを管理するか、特定の製品のユーザー ライセンスを管理するかによって異なります。
+**[ライセンス**] ページ (一度に最大 20 人のユーザー) または **[アクティブ なユーザー**] ページ (一度に最大 40 人のユーザー) でライセンスを割り当てます。 選択する方法は、特定のユーザーの製品ライセンスを管理するか、特定の製品のユーザー ライセンスを管理するかによって異なります。
 
-詳細な手順については、「 [ユーザーにライセンスを割り当てる」を](/microsoft-365/admin/manage/assign-licenses-to-users)参照してください。
+詳細な手順については、「 [ユーザーにライセンスを割り当てる](/microsoft-365/admin/manage/assign-licenses-to-users)」を参照してください。
 
-数百または数千のユーザーなど、多数のユーザーにライセンスを割り当てる必要がある場合は、 [Azure Active Directory (Azure AD) で PowerShell またはグループベースのライセンスを](/azure/active-directory/users-groups-roles/licensing-groups-assign)使用します。
+数百人または数千人のユーザーなど、多数のユーザーにライセンスを割り当てる必要がある場合は、 [Azure Active Directory (Azure AD) で PowerShell またはグループ ベースのライセンスを](/azure/active-directory/users-groups-roles/licensing-groups-assign)使用します。
 
 ## <a name="using-powershell"></a>PowerShell の使用
 
@@ -63,10 +64,10 @@ PowerShell を使用して、ライセンスをユーザーに一括で割り当
 
 スクリプトを使用してユーザーにライセンスを割り当てる方法の例を次に示します。
 
-1. [Windows PowerShell用のMicrosoft Azure Active Directory モジュールをインストールします](/powershell/azure/active-directory/install-msonlinev1)。
-2. Windows PowerShellコマンド プロンプトで、次のスクリプトを実行してユーザーにライセンスを割り当てます。ここで`CompanyName:License`、組織名と割り当てるライセンスの識別子を指定します。 たとえば、 `litwareinc:MCOMEETADV`.
+1. [Windows PowerShell用のMicrosoft Azure Active Directory モジュールをインストール](/powershell/azure/active-directory/install-msonlinev1)します。
+2. Windows PowerShellコマンド プロンプトで、次のスクリプトを実行してユーザーにライセンスを割り当てます。ここで`CompanyName:License`、組織名と割り当てるライセンスの識別子を指定します。 たとえば、 `litwareinc:MCOMEETADV`です。
 
-    識別子は、ライセンスのフレンドリ名とは異なります。 たとえば、電話会議の識別子は次のようになります `MCOMEETADV`。 詳細については、「 [ライセンスの製品名と SKU 識別子」を](#product-names-and-sku-identifiers-for-licensing)参照してください。
+    識別子は、ライセンスのフレンドリ名とは異なります。 たとえば、電話会議の識別子は です `MCOMEETADV`。 詳細については、「ライセンスの [製品名と SKU 識別子](#product-names-and-sku-identifiers-for-licensing)」を参照してください。
 
     ```powershell
     #Create a text file with a single column that lists the user principal names (UPNs) of users to assign licenses to. The MSOL service uses the UPN to license user accounts.
@@ -118,13 +119,13 @@ PowerShell を使用して、ライセンスをユーザーに一括で割り当
 
 ## <a name="product-names-and-sku-identifiers-for-licensing"></a>ライセンスの製品名と SKU 識別子
 
-PowerShell を使用して Teams でライセンスを管理するときに参照できる製品名とその対応する SKU パーツ名の一部を次に示します。
+PowerShell を使用して Teams でライセンスを管理するときに参照できる製品名とそれに対応する SKU パーツ名の一部を次に示します。
 
-詳細については、「 [PowerShell を使用したライセンスとサービスの表示](/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)」、ライセンス [の製品名とサービス プラン識別子](/azure/active-directory/users-groups-roles/licensing-service-plan-reference)、 [Education SKU リファレンスを参照](../sku-reference-edu.md)してください。
+詳細については、「 [PowerShell を使用してライセンスとサービスを表示する](/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)」、 [ライセンスの製品名とサービス プラン識別子](/azure/active-directory/users-groups-roles/licensing-service-plan-reference)、 [および Education SKU リファレンス](../sku-reference-edu.md)に関するページを参照してください。
 
 | 製品名| SKU 部品名 |
 |--------------|---------------|
-| Microsoft Enterprise E5 (電話システムを使用) | ENTERPRISEPREMIUM |
+| Microsoft Enterprise E5 (電話システム付き) | ENTERPRISEPREMIUM |
 | Microsoft Enterprise E5 (電話会議なし) | ENTERPRISEPREMIUM_NOPSTNCONF |
 | Microsoft Enterprise E5 (電話会議あり) | ENTERPRISEPREMIUM |
 | Microsoft Enterprise E3 | ENTERPRISEPACK |
@@ -133,20 +134,21 @@ PowerShell を使用して Teams でライセンスを管理するときに参�
 | Microsoft 365 Business Standard | O365_BUSINESS_PREMIUM|
 | Microsoft 365 Business | Spb|
 | 電話会議 | MCOMEETADV |
-| 電話会議の 1 分あたりの支払い (従量課金) 通信クレジットを設定して有効にする必要があります。* | MCOMEETACPEA |
+| 電話会議の 1 分あたりの支払い (従量課金制) 通信クレジットを設定して有効にする必要があります。* | MCOMEETACPEA |
 | Teams 電話スタンダード | MCOEV |
 | 通話プランが設定された Teams 電話 | MCOTEAMS_ESSENTIALS |
 | 国際通話プラン | MCOPSTN2 |
-| 国内通話プラン (米国/PR/CA の場合はユーザー/月あたり 3000 分、EU 各国の場合はユーザー/月あたり 1200 分) | MCOPSTN1 |
+| 国内通話プラン (米国/PR/CA の場合はユーザー/月あたり 3000 分、EU 諸国の場合はユーザー/月あたり 1200 分) | MCOPSTN1 |
 | 国内通話プラン (各国のユーザー/月あたり 120 分) </br>*このプランは、米国では使用できません。* | MCOPSTN5 |
 | 国内通話プラン (各国のユーザー/月あたり 240 分) </br>*このプランは、米国では使用できません。* | MCOPSTN6 |
 | コミュニケーション クレジット | MCOPSTNPP |
 | 従量課金制通話プラン (ゾーン 1 の国) | MCOPSTN_PAYG_1 |
 | 従量課金制通話プラン (ゾーン 2 の国) | MCOPSTN_PAYG_2 |
 | Microsoft Teams Rooms Basic | Microsoft_Teams_Rooms_Basic |
-| 電話会議を使用しない基本Microsoft Teams Rooms | Microsoft_Teams_Rooms_Basic_without_Audio_Conferencing |
+| 電話会議を使用しないMicrosoft Teams Rooms Basic | Microsoft_Teams_Rooms_Basic_without_Audio_Conferencing |
 | Microsoft Teams Rooms Pro | Microsoft_Teams_Rooms_Pro |
 | 電話会議を使用しないMicrosoft Teams Rooms Pro | Microsoft_Teams_Rooms_Pro_without_Audio_Conferencing |
+| Microsoft Teams Premium | Microsoft_Teams_Premium |
 
 ## <a name="related-content"></a>関連コンテンツ
 

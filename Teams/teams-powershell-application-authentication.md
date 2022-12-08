@@ -12,12 +12,12 @@ ms.collection:
 description: Microsoft Teams の管理に使用される Teams PowerShell モジュールでのアプリケーション ベースの認証について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9fd2928b62b71f0f981ecd0083cf4b15acc2da3f
-ms.sourcegitcommit: 2d1bb69e0d6bc35be0b57c7c5d87f58ab013dafb
+ms.openlocfilehash: 04cc2e3c069f30e44dd0c62a42be42fd1cce16b7
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "68928334"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307952"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Teams PowerShell モジュールでのアプリケーション ベースの認証
 
@@ -91,8 +91,8 @@ Azure Ad でアプリケーションを作成するためのサンプル手順�
 
 1. Azure AD でアプリケーションを登録する
 2. アプリケーションに API アクセス許可を割り当てる
-   - -Cs コマンドレットの場合 \*- API のアクセス許可は必要ありません。
-   - 非 \*Cs コマンドレットの場合- 必要な Microsoft Graph APIアクセス許可は`User.Read.All`、`Group.ReadWrite.All`、、`AppCatalog.ReadWrite.All`、`TeamSettings.ReadWrite.All`、`Channel.Delete.All`、`ChannelSettings.ReadWrite.All`です`ChannelMember.ReadWrite.All`。  
+   - -Cs コマンドレットの場合\*、 - 必要なMicrosoft Graph APIアクセス許可は です`Organization.Read.All`。
+   - 非 \*Cs コマンドレットの場合- 必要なMicrosoft Graph APIアクセス許可は`Organization.Read.All`、、`User.Read.All`、`Group.ReadWrite.All`、`AppCatalog.ReadWrite.All`、`TeamSettings.ReadWrite.All``Channel.Delete.All`、、`ChannelSettings.ReadWrite.All`です`ChannelMember.ReadWrite.All`。  
 3. 自己署名証明書を生成する
 4. Azure AD アプリケーションに証明書をアタッチする
 5. [Azure AD ロール](/microsoftteams/using-admin-roles#teams-roles-and-capabilities)をアプリケーションに割り当てる

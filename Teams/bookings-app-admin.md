@@ -22,23 +22,21 @@ ms.collection:
 - m365-frontline
 - tier2
 - highpri
+- m365initiative-meetings
 ms.reviewer: ''
 description: 組織内のユーザーの Teams で Bookings アプリを管理する方法について説明します。
-ms.openlocfilehash: 4669b27efb351c375d5d5fd1104843e21c6f5ba9
-ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
+ms.openlocfilehash: abcd906f18b10b7d82b67682de439f1eb6592cd6
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2022
-ms.locfileid: "69131306"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307522"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Microsoft Teams で Bookings アプリを管理する
 
-Microsoft Teams の Bookings アプリは、対人予定と仮想予定を簡単にスケジュールする方法を提供します。 たとえば、医療訪問、財務相談、面接、カスタマー サポート、教育オフィス時間などです。 詳細については、「 [Teams と Bookings アプリを使用した仮想予定](/microsoft-365/frontline/bookings-virtual-visits)」を参照してください。
+Microsoft Teams の Bookings アプリでは、対人予約と仮想予定を簡単にスケジュールできます。 たとえば、医療訪問、財務相談、面接、カスタマー サポート、教育オフィス時間などです。 詳細については、「[Teams と Bookings アプリを使用した仮想予定](/microsoft-365/frontline/bookings-virtual-appointments)」を参照してください。
 
-スケジューラは、1 つのエクスペリエンスから、複数の部署とスタッフの予定表と、内部および外部の出席者との通信を管理できます。 仮想予定は、堅牢なビデオ会議機能を提供する Microsoft Teams 会議を介して開催されます。
-
-> [!NOTE]
-> Bookings アプリを Teams にインストールする必要があるのはスケジュール担当者だけです。 仮想予定を実施または参加するスタッフは、アプリを必要としません。 Outlook または Teams の予定表から、または予約確認メールの Teams 会議リンクから、単に予定に参加できます。
+スケジューラは、1 つのエクスペリエンスから、複数の部署とスタッフの予定表と、内部および外部の出席者との通信を管理できます。 仮想予定は、堅牢なビデオ会議機能を提供する Teams 会議を介して開催されます。
 
 ## <a name="prerequisites-to-use-the-bookings-app-in-teams"></a>Teams で Bookings アプリを使用するための前提条件
 
@@ -50,9 +48,9 @@ Microsoft Teams の Bookings アプリは、対人予定と仮想予定を簡単
 
 ## <a name="availability-of-bookings-in-teams"></a>Teams での Bookings の利用可能性
 
-Microsoft Bookings Teams 用アプリは、デスクトップと Web で使用できます。 [ [Teams のアプリ] と [Teams](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link) 管理センターの **アプリの管理** ] の下にあります。
+Teams の Bookings アプリは、デスクトップと Web で利用できます。 [ [Teams のアプリ] と [Teams](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link) 管理センターの **アプリの管理** ] の下にあります。
 
-### <a name="control-access-to-bookings-within-your-organization"></a>組織内の Bookings へのアクセスを制御する
+## <a name="control-access-to-bookings-within-your-organization"></a>組織内の Bookings へのアクセスを制御する
 
 Bookings アプリにアクセスできるユーザーとアプリの特定の機能を制御するには、いくつかの方法があります。 Microsoft Bookingsアプリを使用できるようにするか、Microsoft 365 管理センターから無効にすることができます。 または、Bookings アプリ ポリシーを作成して、選択したユーザーが Bookings カレンダーを作成できるようにします。 「[Microsoft Bookingsへのアクセスを取得する」を](/microsoft-365/bookings/get-access)参照してください。
 
@@ -64,29 +62,41 @@ Bookings に最適なエクスペリエンスを実現するには、Teams 会�
 
 会議ポリシーの詳細については、「 [Teams での会議ポリシーの管理](meeting-policies-in-teams.md) 」および「Teams での [会議ポリシーと会議の有効期限](meeting-expiration.md)」を参照してください。
 
+## <a name="sms-text-notifications"></a>SMS テキスト通知
+
+![情報アイコン](media/info.png) **この機能は [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md) (プレビュー) に移行しています。ユーザーはプレビュー期間中も引き続きこの機能を使用できます。プレビュー後、ユーザーには Teams Premium ライセンスが必要です。**
+
+組織内のスタッフによってスケジュールされた仮想予定について、SMS テキスト通知を外部出席者に送信できるかどうかを制御できます。
+
+既定では、この設定はオンになっており、組織内のすべての Bookings カレンダーに対して SMS テキスト通知が有効になっています。 Bookings 管理者とスケジューラは、スケジュール [された予定の種類とスケジュール](/microsoft-365/frontline/bookings-virtual-appointments#scheduled-appointment-type) された個々の予定で、必要に応じて SMS 通知をオフまたはオンにすることを後で選択できることに注意してください。
+
+この設定を構成するには、Microsoft 365 管理センター \> **設定** \> **組織の設定** に移動し、[**Bookings**]\(予約\) を選択します。 [**Microsoftによる SMS テキスト メッセージ通知の送信を許可する**] チェック ボックスをオンまたはオフにします。
+
+[組織の SMS テキスト通知を構成する](/microsoft-365/bookings/turn-bookings-on-or-off)方法について詳しくは、こちらをご覧ください。
+
 ## <a name="optional-staff-approvals-setting"></a>オプションのスタッフ承認設定
 
 Bookings がスケジュールの空き時間情報を共有する前に、また他のユーザーが予約をスケジュールする前に、スタッフにオプトインを要求できます。
 
-この設定を有効にするには、[**Microsoft 365 管理センター** \> **設定]** \> に移動し、[**Bookings**]\(予約\) を選択します。
+この設定を有効にするには、Microsoft 365 管理センター \> **設定** \> **組織の設定** に移動し、[**Bookings**]\(予約\) を選択します。 [ **スタッフの承認を要求する** ] チェック ボックスをオンにします。
 
 この設定をオンにすると、スタッフは予約カレンダーへのメンバーシップの承認を求めるメールを受け取ります。  
 
-この機能は、Microsoft 365 および Office 365 のお客様に向けて世界中で段階的に展開されています。 環境内のすべてのオプションがまだ使用できない場合は、すぐに確認してください。
+[スタッフの承認設定を構成する方法](/microsoft-365/bookings/turn-bookings-on-or-off)の詳細については、こちらをご覧ください。
 
-## <a name="changing-your-default-domain-when-setting-up-bookings-mailbox"></a>Bookings メールボックスを設定するときに既定のドメインを変更する
+## <a name="changing-your-default-domain-when-setting-up-a-bookings-mailbox"></a>Bookings メールボックスを設定するときに既定のドメインを変更する
 
 Bookings メールボックスをセットアップするときに、Microsoft 365 または Office 365 組織の既定のメール ドメインが使用されます。 ただし、既定のドメインでは、外部の受信者に会議出席依頼を送信するときに問題が発生する可能性があります。 たとえば、招待が迷惑メールとしてフラグが設定され、受信者の迷惑メール フォルダーに移動され、受信者に招待が表示されない場合があります。
 
-Bookings メールボックスを作成する前に、既定のドメインを変更することをお勧めします。 ドメインに [関する FAQ を参照してください](/microsoft-365/admin/setup/domains-faq#how-do-i-set-or-change-the-default-domain-in-microsoft-365)。
+Bookings メールボックスを作成する前に、既定のドメインを変更することをお勧めします。 [「ドメインに関する FAQ」を](/microsoft-365/admin/setup/domains-faq#how-do-i-set-or-change-the-default-domain-in-microsoft-365)参照してください。
 
 Bookings メールボックスの作成後に既定のドメインを変更する必要がある場合は、PowerShell を使用します。
 
-```PowerShell
+```powerShell
 Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress business@domain.com -EmailAddresses business@domain.com
 ```
 
-[メールボックスの設定](/powershell/module/exchange/mailboxes/set-mailbox)コマンドレットについては、PowerShell のドキュメントを参照してください。
+詳細については、「メールボックスの [設定](/powershell/module/exchange/mailboxes/set-mailbox)」を参照してください。
 
 > [!NOTE]
 > Exchange ハイブリッド構成を使用している場合は、既定のドメインを変更するときに、オンプレミスの Exchange とExchange Online間のメール フローを徹底的にテストすることをお勧めします。

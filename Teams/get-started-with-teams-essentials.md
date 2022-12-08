@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba285480bc1316d33ea6a5708ec7ef7e6d7451f9
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 7a972af743d25a490b8ad0643e84bcd5ff606743
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377625"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307742"
 ---
 # <a name="microsoft-teams-essentials-quickstart-guide-for-small-businesses"></a>小規模企業向けの Microsoft Teams Essentials クイックスタート ガイド
 
@@ -29,9 +29,9 @@ Microsoft Teams Essentials は、中小企業向けの会議、チャット、�
 
 ### <a name="before-you-continue"></a>続行する前に
 
-Microsoft Teams Essentials は、Microsoft の直接の Web サイトおよび一部の Microsoft Cloud パートナーから購入できます。 直接およびパートナーを通じたサブスクリプションは、異なる ID システムを使用するため、いくつかの点で異なります。 詳細については、この記事の後半の表にアクセスしてください: [Microsoft Teams Essentials の計画](#how-does-microsoft-teams-essentials-compare-to-other-microsoft-teams-plans)
+Microsoft Teams Essentials は、Microsoft の直接の Web サイトおよび一部の Microsoft Cloud パートナーから購入できます。 直接およびパートナーを通じたサブスクリプションは、異なる ID システムを使用するため、いくつかの点で異なります。 詳細については、「[プランのMicrosoft Teams Essentials」](#how-does-microsoft-teams-essentials-compare-to-other-microsoft-teams-plans)を参照してください。
 
-Microsoft の直接の Web サイトから購入したサブスクリプションでは、Microsoft アカウント ID を使用して、Tomislav@outlook.com、TomislavK@gmail.com、TomislavK@ContosoLandscaping.com などの既存のメール アドレスを使用してサインアップできます。
+Microsoftの直接 Web サイトを通じて購入したサブスクリプションでは、Microsoftアカウント ID を使用します。これにより、TomislavK@outlook.com、TomislavK@gmail.com、TomislavK@ContosoLandscaping.com などの既存のメール アドレスを使用してサインアップできます。
 
 または、一部の Microsoft 認定パートナーから購入した Teams Essentials は、新しいログイン/ID の作成を要求する Azure Active Directory (AAD) を使用します。 パートナーは、既存のメール アドレスに接続するように Teams Essentials を構成できるため、既存のメール アドレスを使用してサインインできます。  
 
@@ -47,23 +47,23 @@ Microsoft 認定パートナーを通じて Teams Essentials を購入した場�
 以下の表は、プラン全体で利用できる Microsoft Teams の主な機能の一覧です。 特定の警告が適用されます。 詳細については、脚注を参照してください。 将来予告なしに変更されることがあります。 機能の最新の完全なリストについては、「[Microsoft Teams サービスの説明](/office365/servicedescriptions/teams-service-description)」にアクセスしてください。
 
  
-|Microsoft Teams プラン | [**Microsoft Teams (無料)**](manage-freemium.md) | [**Microsoft Teams Essentials**](#get-microsoft-teams-essentials) | **Microsoft Teams Essentials (AAD ID)** | [**Microsoft 365 Business Basic**](/microsoft-365/admin/setup/setup-business-basic?)  |
+|Microsoft Teams プラン | **Microsoft Teams (無料)** | [**Microsoft Teams Essentials**](#get-microsoft-teams-essentials) | **Microsoft Teams Essentials (AAD ID)** | [**Microsoft 365 Business Basic**](/microsoft-365/admin/setup/setup-business-basic?)  |
 |---------|---------|---------|---------|---------|
 |***機能***     |         |         |         |         |
-| **会議と通話** | Yes| はい| はい |   Yes    |
-| 無制限のグループ会議 |     Yes    |   はい      |   Yes      |
-| 無制限の 1 対 1 の呼び出し |    Yes     |    はい     |   はい      | Yes |
+| **会議と通話** | Yes| Yes| Yes |   Yes    |
+| 無制限のグループ会議 |     Yes    |   Yes      |   Yes      |
+| 無制限の 1 対 1 の呼び出し |    Yes     |    Yes     |   Yes      | Yes |
 | グループ会議参加者の定員 |  100       |     300    |   300      |  300  |
 | グループ会議の期間 |    60 分     |    30 時間     |    30 時間     | 30 時間 |
-| 画面共有 |   Yes      |    はい     |    はい     | Yes |
-| カスタマイズされた背景 |    Yes     |    はい     |    はい     | Yes |
-| ライブ文字起こし |    Yes     |    はい     |   はい      |     Yes    |
-| 会議をスケジュールする |    Yes     |   はい      |     はい    |     Yes    |
-| 予定表アプリ |    Yes     |      はい   |     はい    |     Yes    |
-| Together モード |     Yes   |      はい   |     はい    |     Yes    |
-| ライブ リアクション |   Yes      |    はい     |   はい      |     Yes    |
-| ノイズ抑制 |    Yes     |    はい     |   はい      |     Yes    |
-| 会議の出席者は、アカウントなしで会議に参加できます | Yes  |    はい     |     はい    |     Yes    |
+| 画面共有 |   Yes      |    Yes     |    Yes     | Yes |
+| カスタマイズされた背景 |    Yes     |    Yes     |    Yes     | Yes |
+| ライブ文字起こし |    Yes     |    Yes     |   Yes      |     Yes    |
+| 会議をスケジュールする |    Yes     |   Yes      |     Yes    |     Yes    |
+| 予定表アプリ |    Yes     |      Yes   |     Yes    |     Yes    |
+| Together モード |     Yes   |      Yes   |     Yes    |     Yes    |
+| ライブ リアクション |   Yes      |    Yes     |   Yes      |     Yes    |
+| ノイズ抑制 |    Yes     |    Yes     |   Yes      |     Yes    |
+| 会議の出席者は、アカウントなしで会議に参加できます | Yes  |    Yes     |     Yes    |     Yes    |
 | 電話番号に会議の招待を送信する |   Yes     |  Yes      |         |    |
 | 会議のレコーディングと文字起こし |         |         |   Yes       |     Yes    |
 | リアルタイム翻訳 |         |         |    Yes     |     Yes    |
@@ -71,29 +71,28 @@ Microsoft 認定パートナーを通じて Teams Essentials を購入した場�
 | ホワイトボード |         |         |  はい       |     Yes    |
 | 出席者登録ページ、メールの確認、レポートを含むウェビナーをホストします。 |     |     |      | Business Standard で利用可能|
 | **チャットと共同作業**     |         |         |         |         |
-| 無制限のチャット (プライベートとグループ) |     Yes    |   はい      |   はい      |    Yes      |
-| Office アプリでのリアルタイム コラボレーション |     Yes    |   はい      |   はい      |  Yes      |
-| ゲスト アクセス: 社内外の誰とでもチャットできます|     Yes    |   はい      |   はい      |  Yes      |
-| 投票 |     Yes    |   はい      |   はい      |  Yes      |
-| グループ チャット テンプレート |     Yes    |   Yes      |   | | 
+| 無制限のチャット (1 対 1 の& グループ) |     Yes    |   Yes      |   Yes      |    Yes      |
+| Office アプリでのリアルタイム コラボレーション |     Yes    |   Yes      |   Yes      |  Yes      |
+| ゲスト アクセス: 社内外の誰とでもチャットできます|     Yes    |   Yes      |   Yes      |  Yes      |
+| 投票 |     Yes    |   Yes      |   Yes      |  Yes      |
 | チームとチャネル |     |   |   Yes      |  Yes      |
 | **生産性向上アプリとサービス** |         |         |         ||
 | ファイルとドキュメントのクラウド ストレージ (ユーザーあたり) |     5 GB    |   10 GB      |   10 GB     | 1 TB | 
-| Word、Excel、PowerPoint Web & モバイル アプリ |     Yes   |   はい      |   はい      | Yes | 
-| Google カレンダーの同期 |     近日対応予定    |   近日対応予定      |   はい&sup1;      | はい&sup1; | 
+| Word、Excel、PowerPoint Web & モバイル アプリ |     Yes   |   Yes      |   Yes      | Yes | 
+| Google カレンダーの同期 |     Yes    |   Yes      |   はい&sup1;      | はい&sup1; | 
 | アプリの拡張性 (250 以上の統合アプリとサービス) |     |        |   Yes      | Yes | 
 | 顧客のメール ドメイン アドレスとの Exchange メール ホスティング |    |   | 2 GB&sup2; |    50 GB|
 |**セキュリティとコンプライアンス**     |         |         |         | | 
-| 保管中および転送中の Microsoft Teams データの暗号化 |     Yes    |   はい      |   はい      | Yes | 
+| 保管中および転送中の Microsoft Teams データの暗号化 |     Yes    |   Yes      |   Yes      | Yes | 
 | すべてのサービスへのシングル サインオン |         |     |   Yes      | Yes | 
 |**管理とサポート**     |         |         |         | | 
 | ユーザー、アプリ、設定、ポリシーを管理するための管理ツール  |     |   | Yes |   Yes      |
 | 既存のデータとユーザーを Microsoft 365 に移行する  |     |   | Yes  | Yes|
 | 電話会議や Teams 電話などのアドオン サービスの機能 |     |   |   Yes      | Yes |
 
-<sup>1</sup> 次の構成で Google カレンダーおよびその他のサードパーティの予定表への接続を提供します: [Microsoft Teams Essentials (AAD ID) 構成ガイド](connect-teams-essentials-to-email.md)
+<sup>1</sup> 次の構成を使用して、Google カレンダーやその他のサード パーティの予定表への接続を提供します: [Microsoft Teams Essentials (AAD Identity) 構成ガイド](connect-teams-essentials-to-email.md)
 
-<sup>2</sup> パートナーを通して入手した Teams Essentials (AAD ID) には、2 GB の Exchange メールボックスが含まれ、アーカイブは含まれていないため、ユーザーはサードパーティのメール プロバイダーと同期できます。
+<sup>パートナー</sup> を通じた 2 つの Teams Essentials (AAD Identity) には、2 GB の Exchange メールボックスとアーカイブが含まれており、ユーザーはサード パーティのメール プロバイダーと同期できます。
 
 
 > [!IMPORTANT] 
@@ -101,7 +100,7 @@ Microsoft 認定パートナーを通じて Teams Essentials を購入した場�
 
 ## <a name="administration-limits-and-specifications-for-microsoft-teams-essentials"></a>Microsoft Teams Essentials の管理制限と仕様
 
-Teams に適用される制限、仕様、およびその他の要件の詳細については、[Microsoft Teams の制限と仕様](/microsoftteams/limits-specifications-teams)を参照してください。
+[Teams に適用される制限、仕様、その](/microsoftteams/limits-specifications-teams)他の要件の詳細については、「Teams の制限と仕様をMicrosoftする」を参照してください。
 
 ## <a name="get-microsoft-teams-essentials"></a>Microsoft Teams Essentials を入手する
 
@@ -117,67 +116,60 @@ Teams Essentials の使用を開始するには、次の手順に従います。
 
 これを行うには、次の 3 つの手順を完了します。
 
-1.  **Teams アプリをインストールします。** [[Microsoft Teams のダウンロード]](https://www.microsoft.com/microsoft-teams/download-app) に移動し、**[ホームの Teams]** でオプションを選択して、PC またはモバイル デバイスに Teams クライアントをインストールします。 職場と学校の Teams は Teams Essentials と互換性がないため、ホームの Teams オプションをダウンロードしたことを確認してください。 :::image type="content" source="media/essentials-downloa.png" alt-text="ホームの Teams ダウンロード オプションのスクリーンショット":::
+1.  **Teams アプリをインストールします。** [Microsoft Teams のダウンロード] に移動して、PC またはモバイル デバイスに [Teams クライアントをインストールします](https://www.microsoft.com/microsoft-teams/download-app)。
 
 2. **Teams に使い慣れます。** Teams に慣れるための最良の方法は、すぐに使い始めることです。 機能をより理解できるように、時間をかけてアプリケーションを探索します。
 
 3. **導入を計画します。** 中小企業の場合、ユーザーの導入計画は、ユーザーに Teams の使用方法を個別に示すのと同じくらい簡単です。 多くの場合、中小企業のお客様は、アプリケーションの成功と導入に悪影響を与える、新しいアプリケーションのこのステップを考慮していません。
 
-3.  **Microsoft Teams Essentials の管理** 無料版の Microsoft Teams と同様に、組織で Teams Essentials に最初にサインアップするユーザーとしての管理者の役割は制限されています。 チーム メンバーを追加および削除したり、この役割を持つ別のメンバーを招待できるかどうかを指定したりできますが、高度な管理機能や Microsoft Teams 管理センターへのアクセス権はありません。
-
-## <a name="upgrade-from-a-free-version-of-microsoft-teams-to-microsoft-teams-essentials"></a>無料版の Microsoft Teams から Microsoft Teams Essentials にアップグレードする
-
-組織で無料版の Microsoft Teams を使用している場合は、Teams で直接ユーザー向けのプランを購入することで、Teams Essentials バージョンに簡単にアップグレードできます。
-
-#### <a name="upgrade-requirements"></a>アップグレードの要件
-
-既存の Teams 無料サブスクリプションにサインアップしたユーザーであれば、Microsoft Teams Essentials にアップグレードできます。 無料版の Microsoft Teams では、組織で Teams に最初にサインアップしたユーザーの管理者の役割は制限されています。
+4.  **Microsoft Teams Essentials の管理** Microsoft Teams Essentialsにアップグレードした Teams (無料) ユーザーは、管理できます。
 
 > [!NOTE]
-> データをアップグレードして転送するには、このセクションで概説されている Teams アプリケーションの[アップグレード プロセス](#how-do-i-upgrade-my-organization)を通じてサブスクリプションを購入する必要があります。 Teams Essentials へのアップグレードは、現在、Teams の無料 (クラシック) ユーザーではサポートされていません。 この記事の手順に従って、Teams のフル バージョンにアップグレードできます: **[無料版の Teams から通常版の Teams にアップグレードする](https://support.microsoft.com/office/upgrade-from-teams-free-to-teams-29475bbd-a34f-4175-9b33-d44430f8ad39)**。
+> Teams (無料) からMicrosoft Teams Essentialsにアップグレードする方法については、「[Teams (無料) からMicrosoft Teams Essentialsにアップグレードする」](#upgrade-from-teams-free-to-microsoft-teams-essentials)を参照してください。
 
-#### <a name="limitations"></a>制限事項
+Microsoft Teams Essentials管理とは、Microsoft Teams Essentialsシートを他のユーザーに割り当てることを指します。その代わりに購入したユーザーは、意図した比率で割り当てます。 Microsoft 管理 センターを通じてMicrosoft Teams Essentialsを管理できます。
+
+### <a name="upgrade-from-teams-free-to-microsoft-teams-essentials"></a>Teams (無料) から Microsoft Teams Essentials にアップグレードする
+
+組織で無料版のMicrosoft Teams を使用している場合は、[ニーズに合った適切なMicrosoft Teams を見つける] から Teams で直接ユーザーのプランを購入することで[、Teams](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options) Essentials バージョンに簡単にアップグレードできます。
+
+## <a name="upgrade-from-teams-free-classic-to-teams"></a>Teams Free (クラシック) から Teams へのアップグレード
+
+Teams Free (クラシック) ユーザーは、完全版の Teams (つまり、Microsoft 365 Business (Basic) や Microsoft 365 Business (Standard) などのサブスクリプションにアップグレードできます。
+
+アップグレードは、「 [Teams Free (クラシック) から Teams へのアップグレード](https://support.microsoft.com/office/upgrade-from-teams-free-classic-to-teams-29475bbd-a34f-4175-9b33-d44430f8ad39)」で指定した手順に従って実行できます。
+
+### <a name="limitations"></a>制限事項
 
 次の制限事項に留意してください。
 
-- アップグレードした後、Teams (無料) に戻すことはできません。
+- アップグレード後に Teams Free (クラシック) に切り替えることはできません。
 
-- 複数のTeams (無料) テナントを単一の有料テナントにマージすることはできません。
+- 複数の Teams Free (クラシック) テナントを 1 つの有料テナントにマージすることはできません。
 
-- すべてのユーザーは同じドメインに属している必要があります。 (すべてのユーザーは、*ユーザー名*@*domain.com* の形式でログインできます。)
+- すべてのユーザーは同じドメインに属している必要があります。 (すべてのユーザーは、*ユーザー名*@の形式でサインイン電子メールを受け取ります *domain.com*.)
 
-- すべてのユーザーをアップグレードする必要があります。同じテナント内の Teams (無料) ユーザーと有料サブスクリプション ユーザーの組み合わせはサポートされていません。
+- すべてのユーザーをアップグレードする必要があります。同じテナント内の Teams Free (クラシック) ユーザーと有料サブスクリプション ユーザーの組み合わせはサポートされていません。
 
->[!IMPORTANT]
-> 現在 Microsoft Teams 無料版 (クラシック) を使用している場合は、ここにアクセスして、Microsoft 365 にアップグレードします **[無料版の Teams から通常版の Teams にアップグレードする](https://support.microsoft.com/office/upgrade-from-teams-free-to-teams-29475bbd-a34f-4175-9b33-d44430f8ad39)**。
-
-#### <a name="how-do-i-upgrade-my-organization"></a>組織をアップグレードするにはどうすればよいですか?
-
-Microsoft Teams Essentials バージョンの Teams にアップグレードするには、上部のナビゲーション メニューで **...** を選択します。 次に、表示されるドロップ ダウン メニューの下部にある **[アップグレード]** ボタンを選択します。   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="[アップグレード] ボタンを示すスクリーンショット"::: 
-
-Teams で **[アップグレード]** ボタンを選択すると、次の場所に移動します: [中小企業向け Microsoft Teams](https://www.microsoft.com/microsoft-teams/upgrade-teams)
-
-Teams へのサインインに使用する現在のメール アドレスを入力し、Microsoft Teams Essentials プランを購入します。
-
-
-### <a name="can-i-purchase-teams-essentials-using-aad-identity-through-microsofts-website"></a>Microsoft の Web サイトから AAD ID を使用して Teams Essentials を購入できますか?  
+#### <a name="can-i-purchase-teams-essentials-using-aad-identity-through-microsofts-website"></a>Microsoft の Web サイトから AAD ID を使用して Teams Essentials を購入できますか?  
 
 いいえ。 AAD ID を持つ Teams Essentials は、一部の Microsoft Cloud パートナーからのみ利用できます。 パートナーとの連携に関心がある場合は、「[Microsoft パートナー クラウド ソリューション プロバイダーの検索](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider)」にアクセスしてください。
 
-### <a name="can-i-use-an-existing-email-system-with-microsoft-teams-essentials"></a>Microsoft Teams Essentials で既存のメール システムを使用できますか?  
+#### <a name="can-i-use-an-existing-email-system-with-microsoft-teams-essentials"></a>Microsoft Teams Essentials で既存のメール システムを使用できますか?  
 
-Yes. You can keep your existing email system and leverage Teams Essentials to meet, chat and collaborate.  
+はい。 既存のメール システムを維持し、Teams Essentials を使用して、ミーティング、チャット、共同作業を行うことができます。  
 
-### <a name="can-i-connect-my-existing-calendar-solution-with-teams-essentials"></a>既存の予定表ソリューションを Teams Essentials に接続できますか?
+#### <a name="can-i-connect-my-existing-calendar-solution-with-teams-essentials"></a>既存の予定表ソリューションを Teams Essentials に接続できますか?
+
 Yes. You can sync existing calendars from Outlook.com and Google with Teams Essentials.
 
 既存の予定表ソリューションを Teams Essentials (AAD ID) に接続するには、この記事の後半の手順に従ってください。
 
-### <a name="how-do-i-connect-my-current-email-and-calendar-with-teams-essentials-aad-identity"></a>現在のメールと予定表を Teams Essentials (AAD ID) に接続するにはどうすればよいですか?
+#### <a name="how-do-i-connect-my-current-email-and-calendar-with-teams-essentials-aad-identity"></a>現在のメールと予定表を Teams Essentials (AAD ID) に接続するにはどうすればよいですか?
 
 開始するには、「[**Microsoft Teams Essentials (AAD ID) を予定表を使用して既存のメール システムに接続する**](connect-teams-essentials-to-email.md)」にアクセスして、詳細を確認してください。 Google ワークスペースなどの既存のメール システムを Microsoft Teams Essentials (AAD ID) に接続し、統合された予定表を使用してプラットフォーム間で接続を維持し、サインインすることができます。
 
-### <a name="can-i-upgrade-teams-essentials-bought-directly-through-microsofts-website-to-microsoft-365"></a>Microsoft の Web サイトから直接購入した Teams Essentials を Microsoft 365 にアップグレードできますか?
+#### <a name="can-i-upgrade-teams-essentials-bought-directly-through-microsofts-website-to-microsoft-365"></a>Microsoft の Web サイトから直接購入した Teams Essentials を Microsoft 365 にアップグレードできますか?
 
 Teams Essentials から Microsoft 365 へのアップグレードがまもなく利用可能になります。
 

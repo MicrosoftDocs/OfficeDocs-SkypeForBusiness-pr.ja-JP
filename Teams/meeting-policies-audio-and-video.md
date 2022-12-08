@@ -18,13 +18,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
-description: Teams で音声とビデオの会議ポリシー設定を管理する方法について説明します。
-ms.openlocfilehash: 1f03f81c52c089a922040e0065621f5bf95fe20e
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+description: オーディオとビデオの Teams で会議ポリシー設定を管理する方法について説明します。
+ms.openlocfilehash: 111b91a26a3c1058c6fb574f5feb7b6a6d8c00b2
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551481"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307892"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>オーディオ & ビデオの会議ポリシー設定
 
@@ -36,10 +36,10 @@ ms.locfileid: "68551481"
 - [IP オーディオ用モード](#mode-for-ip-audio)
 - [IP ビデオ用モード](#mode-for-ip-video)
 - [IP ビデオ](#ip-video)
-- [メディア ビット レート (KBs)](#media-bit-rate-kbs)
+- [メディア ビット レート (Kbps)](#media-bit-rate-kbps)
 - [ビデオ フィルター モード](#video-filters-mode)
-- [カスタムの背景設定を許可する](#allow-custom-background-settings)
-- [ポイント チルト ズーム (PTZ) カメラ用の遠端カメラ コントロール (FECC)](#far-end-camera-control-fecc-for-point-tilt-zoom-ptz-cameras)
+- [カスタム背景設定を許可する](#allow-custom-background-settings)
+- [パン チルト ズーム (PTZ) カメラ用の遠端カメラ コントロール (FECC)](#far-end-camera-control-fecc-for-pan-tilt-zoom-ptz-cameras)
 
 ## <a name="mode-for-ip-audio"></a>IP オーディオ用モード
 
@@ -50,7 +50,7 @@ ms.locfileid: "68551481"
 |**送信オーディオと受信オーディオが有効**|会議での送信および受信オーディオは、許可されます。 これは、既定の設定です。|
 |**無効**|会議の送信オーディオと受信オーディオはオフになっています。|
 
-ユーザーに対して **[無効]** に設定した場合でも、そのユーザーは会議のスケジュールと整理を行うことができますが、オーディオを使用することはできません。 会議に参加するには、公衆交換電話網 (PSTN) 経由でダイヤル インするか、または電話によって会議通話を行い参加します。 (匿名の参加者などの) ポリシーが割り当てられていない会議の参加者は、規定でこの設定が **送受信オーディオが有効** に設定されています。 Teams モバイル クライアントでは、この設定が有効になっていない場合、ユーザーは PSTN 経由で会議にダイヤルインする必要があります。
+ユーザーに対して **[無効]** に設定されている場合、そのユーザーは引き続き会議のスケジュールと整理を行うことができますが、オーディオは使用できません。 会議に参加するには、公衆交換電話網 (PSTN) 経由でダイヤル インするか、または電話によって会議通話を行い参加します。 (匿名の参加者などの) ポリシーが割り当てられていない会議の参加者は、規定でこの設定が **送受信オーディオが有効** に設定されています。 Teams モバイル クライアントでは、この設定が有効になっていない場合、ユーザーは PSTN を介して会議にダイヤルインする必要があります。
 
 この設定は、1 対 1 の通話には適用されません。 1 対 1 の通話を制限するには、Teams の [通話ポリシー](teams-calling-policy.md) を構成して、[**プライベート通話を行う**] 設定をオフにします。 この設定は、Surface Hub や Microsoft Teams Rooms デバイスなどの会議室内のデバイスには適用されません。
 
@@ -65,16 +65,16 @@ ms.locfileid: "68551481"
 |値を設定する|動作|
 |---|---|
 |**送信ビデオと受信ビデオの有効化**|会議で送信ビデオと受信ビデオは、許可されます。 これは、既定の設定です。|
-|**無効**|会議で送信ビデオと受信ビデオはオフになっています。 Teams モバイル クライアントでは、会議でビデオや写真を共有することはできません。 <br><br>**IP オーディオのモード** が有効になっていない場合、**IP ビデオのモード** も有効になりません。|
+|**無効**|会議で送信ビデオと受信ビデオはオフになっています。 Teams モバイル クライアントでは、会議でビデオや写真を共有することはできません。 <br><br>**[IP オーディオのモード]** が有効になっていない場合、**IP ビデオのモード** も有効のままであることに注意してください。|
 
-ユーザーに対して **[無効]** に設定した場合、そのユーザーはビデオを有効にしたり、他の会議参加者が共有するビデオを表示したりすることはできません。 (匿名の参加者などの) ポリシーが割り当てられていない会議の参加者は、規定で **送受信ビデオが有効** に設定されています。
+ユーザーに対して **[無効]** に設定されている場合、そのユーザーはビデオをオンにしたり、他の会議参加者が共有するビデオを表示したりすることはできません。 (匿名の参加者などの) ポリシーが割り当てられていない会議の参加者は、規定で **送受信ビデオが有効** に設定されています。
 
 この設定は、Surface Hub や Microsoft Teams Rooms デバイスなどの会議室内のデバイスには適用されません。
 
 この設定は、Microsoft 365 Government Community Cloud (GCC)、GCC 高、または国防総省 (DoD) 環境ではまだ利用できません。
 
 > [!NOTE]
-> この設定は送信ビデオと受信ビデオの両方を制御しますが、 **IP ビデオ** 設定は送信ビデオを制御します。 詳細については、「[どちらの IP ビデオ ポリシーの設定が優先されますか?](#which-ip-video-policy-setting-takes-precedence)」と「[ミーティングの参加者を対象にしたオーディオ/ビデオの管理](#manage-audiovideo-for-meeting-participants)」を参照してください。
+> IP ビデオ設定は送信ビデオを制御するのに対し、この設定は送信 **ビデオ** と受信ビデオの両方を制御します。 詳細については、「[どちらの IP ビデオ ポリシーの設定が優先されますか?](#which-ip-video-policy-setting-takes-precedence)」と「[ミーティングの参加者を対象にしたオーディオ/ビデオの管理](#manage-audiovideo-for-meeting-participants)」を参照してください。
 
 詳細については、「[会議の参加者のオーディオ/ビデオ管理](#manage-audiovideo-for-meeting-participants)」を参照してください。
 
@@ -116,7 +116,7 @@ Daniela がビデオを有効にして Amanda に電話した場合でも、Aman
 |開催者: **オン**<br><br>参加者 : **オン**|参加者: **送信ビデオと受信ビデオが有効**|このポリシーが割り当てられている参加者は、他のユーザーが共有しているビデオを有効にしたり、または表示することができます。|
 |開催者: **オン**<br><br>参加者: **オフ**|参加者: **送信ビデオと受信ビデオが有効**|**IP ビデオ** 設定が優先されます。 参加者は、受信ビデオのみを見ることができ、ビデオの送信はできません。|
 |開催者: **オン**<br><br>参加者: **オフ**|参加者: **無効**|**IP ビデオのモード** 設定が優先されます。 参加者には、受信または送信ビデオが表示されません。|
-|開催者: **オフ**||**IP ビデオ** 設定が優先されるのは、開催者がオフになっているためです。 このポリシーが割り当てられているユーザーによって開催される会議では、誰もビデオをオンにすることはできません。|
+|開催者: **オフ**||**IP ビデオ** 設定は、開催者に対してオフになっているため、優先されます。 このポリシーが割り当てられているユーザーによって開催される会議では、誰もビデオをオンにすることはできません。|
 
 ### <a name="manage-audiovideo-for-meeting-participants"></a>ミーティング参加者のオーディオ/ビデオを管理する
 
@@ -134,9 +134,9 @@ Daniela がビデオを有効にして Amanda に電話した場合でも、Aman
 
 ### <a name="teams-mobile-clients"></a>Teams モバイル クライアント
 
-Teams モバイル クライアントのユーザーの場合、会議中に写真やビデオを共有する機能も **、IP ビデオ** または **IP ビデオ モード** の設定によって決まります。 優先されるポリシー設定によっては、ビデオや写真を共有する機能を利用できません。 これは、画面の共有には影響しません。「[スクリーン共有モード](meeting-policies-content-sharing.md#screen-sharing-mode)」設定を使用して別個に構成します。 また、モバイル ユーザーが携帯電話接続を介して IP ビデオを使用できないように、[Teams モビリティ ポリシー](/powershell/module/skype/new-csteamsmobilitypolicy) を設定できます。これは WiFi 接続を使用する必要があること意味します。
+Teams モバイル クライアントのユーザーの場合、会議中に写真やビデオを共有する機能は、 **IP ビデオ** または **IP ビデオ モード** の設定によっても決定されます。 優先されるポリシー設定によっては、ビデオや写真を共有する機能を利用できません。 これは、画面の共有には影響しません。「[スクリーン共有モード](meeting-policies-content-sharing.md#screen-sharing-mode)」設定を使用して別個に構成します。 また、モバイル ユーザーが携帯電話接続を介して IP ビデオを使用できないように、[Teams モビリティ ポリシー](/powershell/module/skype/new-csteamsmobilitypolicy) を設定できます。これは WiFi 接続を使用する必要があること意味します。
 
-## <a name="media-bit-rate-kbs"></a>メディア ビット レート (KBs)
+## <a name="media-bit-rate-kbps"></a>メディア ビット レート (Kbps)
 
 これは、ユーザーごとのポリシーです。 この設定により、ユーザーの通話および会議でのオーディオ、ビデオ、およびビデオベースのアプリ共有送信のメディア ビット レートが決まります。 通話または会議のユーザーのアップリンクとダウンリンクの両方のメディア トラバーサルに適用されます。 この設定により、組織の帯域幅の管理をきめ細やかに制御できます。 ユーザーが必要とする会議シナリオに応じて、高品質のエクスペリエンスを得るために十分な帯域幅を用意することをお勧めします。 最小値は 30 Kbps で、最大値は会議シナリオによって異なります。 Teams での高品質の会議、通話、およびライブ イベントを実現する最小推奨帯域幅の詳細については、「[帯域幅要件](prepare-network.md#bandwidth-requirements)」を参照してください。
 
@@ -152,9 +152,9 @@ CEO 役員会議や Teams のライブ イベントなど、最高品質のビ�
 
 Teams 管理センターと PowerShell の両方を使用して、このポリシーを設定できます。 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) コマンドレットを使用して、既存の Teams 会議ポリシーを編集することができます。 または、 [の CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) コマンドレットを使用して新しいチームの会議ポリシーを作成し、ユーザーにポリシーを割り当てます。
 
-ユーザーが会議でビデオの背景をカスタマイズできるかどうかを指定するには、次のように **VideoFiltersMode** パラメーター (Teams 管理センターで **ビデオ フィルター** 設定を選択) を設定します。
+ユーザーが会議でビデオの背景をカスタマイズできるかどうかを指定するには、 **次のように VideoFiltersMode** パラメーター (Teams 管理センターで **ビデオ フィルター** の設定を選択する) を設定します。
 
-|PowerShell の値を設定する|Teams 管理センターの設定値|動作|
+|PowerShell の値を設定する|Teams 管理センターでの値の設定|動作|
 |---|---|---|
 |**NoFilters**|**フィルターなし**|ユーザーがビデオの背景をカスタマイズすることはできません。|
 |**BlurOnly**|**背景のぼかしのみ**|ユーザーには、ビデオの背景をぼかすオプションがあります。|
@@ -164,29 +164,29 @@ Teams 管理センターと PowerShell の両方を使用して、このポリ�
 > [!NOTE]
 > ユーザーがアップロードした画像は、Teams はスクリーニングしません。 [**AllFilters**] を設定すると、ユーザーが不快な画像や不適切な画像をアップロードするのを防ぐ内部の組織ポリシーに準拠する必要があります。または、組織が Teams の会議の背景に使用する権限を持たないこともあります。
 
-## <a name="allow-custom-background-settings"></a>カスタムの背景設定を許可する
+## <a name="allow-custom-background-settings"></a>カスタム背景設定を許可する
 
-テナントごとに使用するカスタム背景画像を追加できます。 この機能を使用すると、企業は Teams 会議に企業ブランドを適用できます。
+テナントごとに使用するカスタム背景イメージを追加できます。 この機能を使用すると、企業は Teams 会議に企業のブランドを適用できます。
 
 > [!NOTE]
 > 背景画像をアップロードするには、この手順を実行するために使用する管理者アカウントに Teams ライセンスが必要です。
 
 1. Teams 管理センターにサインインします。
 
-2. **[会議ポリシー**\>] を選択 **して** \> **、会議の画像をカスタマイズします**。
+2. [**会議会議ポリシー]** \> [会議 **イメージの**\>カスタマイズ] の **順に選択します**。
 
-   ![[会議の画像のカスタマイズ] ボタンが強調表示された会議ポリシーの選択。](media/custom-background-image-button.png)
+   ![[会議イメージのカスタマイズ] ボタンが強調表示されている会議ポリシーの選択。](media/custom-background-image-button.png)
 
-3. **[組織全体の背景画像]** から **[オン]** を選択します。
+3. **[組織全体の背景画像**] から **[オン] を** 選択します。
 
-4. [ **+ イメージの追加]** を選択します。
+4. [ **+ 画像の追加] を選択します**。
 
 5. [背景の管理] パネルで、[ **イメージの追加**] を選択します。
 
 6. イメージが次の要件を満たしていることを確認します。
   
    - 最小サイズ 360 ピクセル
-   - 最大サイズ 2048 ピクセル
+   - 最大サイズ 2048 px
    - PNG、JPG、または BMP のファイルの種類
    - 最大 50 個の画像をアップロードできます
 
@@ -196,33 +196,33 @@ Teams 管理センターと PowerShell の両方を使用して、このポリ�
 
 9. **[保存]** を選択します。
 
-会議の出席者には、会議に出席するときに使用できる背景イメージの選択が表示されます。
+会議出席者には、会議に出席するときに使用できる背景イメージの選択が表示されます。
 
 > [!NOTE]
-> 変更が有効になるまでに最大で 24 時間かかる場合があります。
+> 変更が有効になるまでに最大 24 時間かかる場合があります。
 >
-> この機能は、すべての Microsoft Teams のお客様向けのパブリック プレビューで一時的に利用できます。 プレビュー後にこの機能を取得するには、各ユーザーに Advanced Communications アドオン ライセンスが必要です。 詳細については、「[Microsoft Teams 用 Advanced Communications アドオン](/microsoftteams/teams-add-on-licensing/advanced-communications)」を参照してください。
+> この機能は、すべてのMicrosoft Teams のお客様に対してパブリック プレビューで一時的に利用できます。 プレビュー後にこの機能を取得するには、各ユーザーに Advanced Communications アドオン ライセンスが必要です。 詳細については、「[Microsoft Teams 用 Advanced Communications アドオン](/microsoftteams/teams-add-on-licensing/advanced-communications)」を参照してください。
 
-## <a name="far-end-camera-control-fecc-for-point-tilt-zoom-ptz-cameras"></a>ポイント チルト ズーム (PTZ) カメラ用の遠端カメラ コントロール (FECC)
+## <a name="far-end-camera-control-fecc-for-pan-tilt-zoom-ptz-cameras"></a>パン チルト ズーム (PTZ) カメラ用の遠端カメラ コントロール (FECC)
 
-遠端カメラ コントロールは、Windows リソース アカウントのTeams Roomsに割り当てることができるポリシーです。 これにより、Teams ルームに接続されている PTZ カメラを、会議中に Teams クライアント アプリの会議参加者によって制御できます。
+遠端カメラ制御は、Windows リソース アカウントのTeams Roomsに割り当てることができるポリシーです。 これにより、Teams ルームに接続されている PTZ カメラを、会議中に Teams クライアント アプリの会議参加者によって制御できます。
 
-遠端カメラ コントロールを使用するには、会議参加者が **PTZ カメラ コントロール** アプリを取得する必要があります。  組織のアプリ ストアでアプリを使用できるようにする方法については、「アプリを [許可してブロック](manage-apps.md#allow-and-block-apps) する」を参照してください。
+遠端カメラ コントロールを使用するには、会議参加者が **PTZ カメラ コントロール** アプリを取得する必要があります。  組織のアプリ ストアでアプリを使用できるようにする方法については、「 [アプリの許可とブロック](manage-apps.md#allow-and-block-apps) 」を参照してください。
 
-会議で遠端カメラ コントロールを使用できるユーザーを指定するには、[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy?view=skype-ps) コマンドレットを使用してTeams Roomsリソース アカウントに新しいポリシーを作成して割り当てるか、[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) を使用して既存のポリシーを変更します。 パラメーターを `TeamsCameraFarEndPTZMode` 次のいずれかの値に設定します。
+会議で遠端カメラ コントロールを使用できるユーザーを指定するには、[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy?view=skype-ps) コマンドレットを使用して新しいポリシーを作成してTeams Rooms リソース アカウントに割り当てるか、[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) を使用して既存のポリシーを変更します。 パラメーターを `TeamsCameraFarEndPTZMode` 次のいずれかの値に設定します。
 
 |値を設定する|動作|
 |---|---|
-|無効|これは、既定の設定です。 [無効] に設定すると、誰も PTZ カメラ コントロールを使用できません。|
-|AutoAcceptAll|PTZ カメラ コントロールは、会議参加者であれば自動的に使用できます。|
+|無効|これは、既定の設定です。 [無効] に設定した場合、PTZ カメラ コントロールは使用できません。|
+|AutoAcceptAll|PTZ カメラ コントロールは、会議参加者が自動的に使用できます。|
 |AutoAcceptInTenant|PTZ カメラ コントロールは、Teams Room と同じ組織内の参加者のみが自動的に使用できます。|
 
-`AutoAcceptAll`設定されている場合`TeamsCameraFarEndPTZMode`や`AutoAcceptInTenant`、会議中の任意の時点で Teams Room からカメラ コントロールを手動でオフにすることはできます。 カメラコントロールは、カメラがオフになっている場合も使用できません。
+が または `AutoAcceptInTenant`に`AutoAcceptAll`設定されている場合`TeamsCameraFarEndPTZMode`でも、会議中の任意の時点で Teams 会議室からカメラ コントロールを手動でオフにできます。 カメラがオフの場合、カメラ コントロールも使用できません。
 
-PTZ コントロールと UVC コントロールを搭載したカメラはすべてサポートされています。 PTZ カメラと非 PTZ カメラの両方を含む Teams 向けに認定されたカメラの一覧については、「 [USB オーディオ周辺機器とビデオ周辺機器の認定済みファームウェア バージョン](rooms/requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals)」を参照してください。 この機能は、デジタル PTZ コントロールを備えたカメラや Android のTeams Roomsではまだサポートされていません。  
+機械的なPTZおよびUVCコントロールを備えたカメラはサポートされています。 PTZ カメラと PTZ 以外のカメラの両方を含む、Teams で認定されたカメラの一覧については、「 [USB オーディオおよびビデオ周辺機器の認定ファームウェア バージョン](rooms/requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals)」を参照してください。 この機能は、デジタルPTZコントロールを備えたカメラやAndroid上のTeams Roomsではまだサポートされていません。  
 
 > [!NOTE]
-> PTZ コントロールをテストする前に、カメラのファームウェアを更新します。 ファームウェアを更新するには、元の機器製造元 (OEM) のドキュメントを参照してください。
+> PTZ コントロールをテストする前に、カメラのファームウェアを更新します。 ファームウェアを更新するには、元の機器の製造元 (OEM) のドキュメントを参照してください。
 
 ## <a name="related-topics"></a>関連項目
 

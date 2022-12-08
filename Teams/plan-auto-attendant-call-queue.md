@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 自動応答と通話キューについて説明し、呼び出し元がメニュー システムを移動して組織内のユーザーや部署にアクセスするのに役立つ方法について説明します。
-ms.openlocfilehash: acaa4d3e4db56b1b64869f92d27f2dfd73c4afee
-ms.sourcegitcommit: 0dfe48fde767d8d9ed7bfc93684af05534acad12
+ms.openlocfilehash: 5b5076ecd8ea521071124f5400ac5c2831b4fbfe
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/24/2022
-ms.locfileid: "69166733"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307622"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Teams の自動応答と通話キューの計画
 
@@ -78,7 +78,7 @@ ms.locfileid: "69166733"
 > [!NOTE]
 > リソース アカウントはサインインに対して無効になっており、引き続き有効にする必要があります。 チャットとプレゼンスは、これらのアカウントでは使用できません。
 
-呼び出しキューから通話を受信するエージェントは、オンラインユーザーまたはオンプレミス ユーザーエンタープライズ VoIP有効にする必要があります。 さらに、通話キューでダイレクト ルーティング番号を使用している場合、通話の会議または転送を必要とするエージェントには、次の必要もあります。
+呼び出しキューから通話を受信するエージェントは、オンラインユーザーまたはオンプレミス ユーザーエンタープライズ VoIP有効にする必要があります。 詳細については、「ユーザーの [電話番号の割り当て、変更、または削除](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) 」および [「ダイレクト ルーティングのユーザーを有効にする」を](/microsoftteams/direct-routing-enable-users)参照してください。 さらに、通話キューでダイレクト ルーティング番号を使用している場合、通話の会議または転送を必要とするエージェントには、次の必要もあります。
 
 - 通話キューで転送モードが使用されている場合に割り当てられる [オンライン音声ルーティング ポリシー](manage-voice-routing-policies.md) 。
 - 通話キューで会議モードが使用されている場合に割り当てられた [電話会議ライセンス](set-up-audio-conferencing-in-teams.md) または [オンライン音声ルーティング ポリシー](manage-voice-routing-policies.md) 。

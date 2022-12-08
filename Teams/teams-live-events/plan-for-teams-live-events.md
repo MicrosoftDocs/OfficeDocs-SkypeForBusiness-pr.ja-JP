@@ -21,12 +21,12 @@ description: この記事では、Microsoft Teams でのライブ イベント�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a1bbc6452847182533271f4aa7c7652ff8b00ba3
-ms.sourcegitcommit: 73b13cd8a79ba1724b9fb79c8356a7cacafb7dd3
+ms.openlocfilehash: f458aded53926fed8772de70af2a105cdf9e5fda
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2022
-ms.locfileid: "68966316"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307652"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントの計画
 
@@ -92,7 +92,7 @@ As a best practice, we recommend that you create a channel for producers and pre
 
 | 出席者の表示 | Teams 生産性 | 外部アプリまたはデバイス生成 | Teams Powered Encoder
 |------------------------------|-----------------|----------------------|----------------|
-|パブリック (匿名ユーザー)      |  はい            |  いいえ                  | Yes
+|パブリック (匿名ユーザー)      |  はい            |  いいえ                  | はい
 |ゲスト ユーザー                   |  Yes<sup>1</sup>            |  いいえ                  |  はい            |
 |外部アクセス (フェデレーション) のある会社のすべてのユーザー |  Yes<sup>1</sup>|  いいえ                  | Yes            |
 |会社内の全員           |  はい            |  Yes                 | Yes                |
@@ -107,7 +107,7 @@ As a best practice, we recommend that you create a channel for producers and pre
 > [!IMPORTANT]
 > **Microsoft 365 ライブ イベントの上限の引き上げ**
 >
-> **お客様のニーズを引き続きサポートするために、ライブ イベントの一時的な制限の引き上げを 2022 年 12 月 31 日まで延長します**:
+> **お客様のニーズを引き続きサポートするために、2023 年 6 月 30 日までのライブ イベントの一時的な制限の引き上げを延長します。**
 >
 >- イベントでは、最大2万の出席者をサポートします
 >- テナント全体で 50 のイベントを同時にホストできます
@@ -140,7 +140,7 @@ As a best practice, we recommend that you create a channel for producers and pre
 |ライブ キャプションと字幕 |&#x2714; |&#x2714; |&#x274C; |
 |ライブ イベント記録のキャプション |&#x2714; |&#x2714; |&#x2714; |
 |出席者の DVR 制御 (一時停止、巻き戻し) |&#x2714; |&#x2714; |&#x2714; |
-|Microsoft eCDN |&#x274C; |&#x2714; |&#x2714; |
+|eCDN のMicrosoft |&#x274C; |&#x2714; |&#x2714; |
 |Partner eCDN のサポート |&#x2714; (Kollective, Hive, Riverbed) |&#x2714; (Kollective, Hive, Ramp, Riverbed) |&#x2714; (Hive, Kollective, Ramp, Riverbed) |
 |ブロードキャスト後のプロデューサー向け出席レポート |&#x2714; |&#x2714; |&#x274C; |
 |視聴者の感情分析 – ライブ投票/投票 |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |

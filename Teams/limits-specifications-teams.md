@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b34f22d5ef038eff44b5488588902d1a99af8676
-ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
+ms.openlocfilehash: 5ae4adf9d803ea0b3482451a9ece5d3ceb0df598
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "68486617"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307532"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -162,12 +162,12 @@ Users who participate in conversations that are part of the chat list in Teams m
 
 <sup>1</sup> You can schedule as many Live Events as you want, but you can only run 15 at a time. As soon as the producer joins a live event, it's considered to be running. The producer who attempts to join the 16th live event gets an error.
 
-ライブ イベントの詳細については、 [Teams のライブ イベント](teams-live-events/plan-for-teams-live-events.md#teams-live-events)に関するページを参照してください。 詳細については、「[Teams ライブ イベントのスケジュールを設定する](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2)」も参照してください。
+ライブ イベントの詳細については、「 [Teams ライブ イベント](teams-live-events/plan-for-teams-live-events.md#teams-live-events)」を参照してください。 詳細については、「[Teams ライブ イベントのスケジュールを設定する](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2)」も参照してください。
 
 > [!IMPORTANT]
 > **Microsoft 365 ライブ イベントの上限の引き上げ**
 >
-> **お客様のニーズを引き続きサポートするために、ライブ イベントの一時的な制限の引き上げを 2022 年 12 月 31 日まで延長します**:
+> **お客様のニーズを引き続きサポートするために、2023 年 6 月 30 日までのライブ イベントの一時的な制限の引き上げを延長します。**
 >
 >- イベントでは、最大2万の出席者をサポートします
 >- テナント全体で 50 のイベントを同時にホストできます

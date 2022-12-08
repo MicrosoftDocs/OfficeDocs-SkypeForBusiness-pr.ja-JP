@@ -11,6 +11,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 appliesto:
 - Microsoft Teams
 f1.keywords:
@@ -19,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: Teams で一般的な会議ポリシー設定を管理する方法について説明します。
-ms.openlocfilehash: ba667e5fbbe4d0f5e4d1ece6dba5943691b572a6
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: 97ba1da0301f1a5515caf88d5f428578b653653a
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046727"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307512"
 ---
 # <a name="meeting-policy-settings---general"></a>会議ポリシーの設定 - 全般
 
@@ -40,15 +41,16 @@ ms.locfileid: "68046727"
 - [指定された発表者の役割モード](#designated-presenter-role-mode)
 - [エンゲージメント レポート](#engagement-report)
 - [会議の登録](#meeting-registration)
-- [登録できるユーザー](#who-can-register)
+- [ウェビナー](#webinars)
 - [アイランド モードの会議プロバイダー](#meeting-provider-for-islands-mode)
+- [会議の応答](#meeting-reactions)
 - [スピーチ コーチ](#speaker-coach)
 
 ## <a name="meet-now-in-channels"></a>チャネルでの "今すぐ会議"
 
 これはユーザーごとのポリシーであり、会議が始まる前に適用されます。 この設定は、ユーザーが Teams チャネルでアドホック会議を開始できるかどうかを制御します。 これを有効にすると、ユーザーは **[会議]** ボタンをクリックしてアドホック会議を開始したり、チャネルでの会議をスケジュール設定したりできます。 既定値は True です。
 
-[ ![メッセージの下の [今すぐ会議] アイコンを示すスクリーンショット。](media/meeting-policies-meet-now.png) ](media/meeting-policies-meet-now.png#lightbox)
+[![メッセージの下の [今すぐ会議] アイコンを示すスクリーンショット。](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
 
 ## <a name="outlook-add-in"></a>Outlook アドイン
 
@@ -70,7 +72,7 @@ ms.locfileid: "68046727"
 
 チャネルの選択が無効になっています。
 
-[ ![会議をスケジュール設定するチャネルを選択するための予定表オプションを示すスクリーンショット。](media/meeting-policies-select-a-channel-to-meet-in.png) ](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
+[![会議をスケジュール設定するチャネルを選択するための予定表オプションを示すスクリーンショット。](media/meeting-policies-select-a-channel-to-meet-in.png)](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
 
 チャネル投稿ページで、次のものが無効になります。
 
@@ -123,47 +125,34 @@ Teams の **誰がプレゼンをするか?** 設定の既定値を指定する�
 
 ## <a name="engagement-report"></a>エンゲージメント レポート
 
-これは、ユーザーごとのポリシーです。 この設定では、会議の開催者が [会議出席レポート](teams-analytics-and-reports/meeting-attendance-report.md)をダウンロードできるかどうかを制御します。
+これは、ユーザーごとのポリシーです。 この設定は、会議の開催者が [会議のエンゲージメント レポート](teams-analytics-and-reports/meeting-attendance-report.md)をダウンロードできるかどうかを制御します。
 
 このポリシーは既定で有効になっているため、開催者は、自分が設定した会議やウェビナーに登録したユーザーと出席したユーザーを確認できます。 Teams 管理センターでこれを無効にするには、**[会議]** > **[会議ポリシー]** の順に移動し、**[エンゲージメント レポート]** 設定を **[オフ]** に設定します。
 
 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) コマンドレットを使用して、既存の Teams 会議ポリシーを編集することもできます。 または、[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) コマンドレットを使用して、新しい Teams の会議ポリシーを作成し、ユーザーに割り当てます。
 
-既定では、PowerShell で **AllowEngagementReport** パラメーターは **Enabled** に設定されています。 会議の開催者が会議出席レポートをダウンロードできないようにするには、**AllowEngagementReport** パラメーターを **Disabled** に設定します。
+既定では、PowerShell で **AllowEngagementReport** パラメーターは **Enabled** に設定されています。 会議の開催者が会議エンゲージメント レポートをダウンロードできないようにするには、[ **AllowEngagementReport** ] パラメーターを **[無効]** に設定します。
 
-このポリシーが有効になっている場合は、会議出席レポートをダウンロードするためのオプションが **[参加者]** ウィンドウに表示されます。
+このポリシーを有効にすると、[ **参加者** ] ウィンドウに会議エンゲージメント レポートをダウンロードするオプションが表示されます。
 
 > [!NOTE]
 > 管理者は、自分が開催していない会議の出席レポートを表示できません。 ただし、特定の会議から 24 時間以内に、その会議の参加者の詳細を表示できます。 Teams 管理センターで、**[ユーザー]** > **[ユーザーの管理]** の順に移動します。 会議の開催者の表示名を選択します。 **[会議と通話]** タブを選択してから、適切な会議 ID または通話 ID を選択します。 次に、**[参加者の詳細]** を選択します。
 
-エンゲージメント レポートの制限を含む詳細については、[Teams での会議出席レポートの表示とダウンロード](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310)に関するページを参照してください。
+エンゲージメント レポートの制限を含む詳細については、[Teams での会議出席レポートの表示とダウンロード](https://support.microsoft.com/office/ae7cf170-530c-47d3-84c1-3aedac74d310)に関するページを参照してください。
 
 ## <a name="meeting-registration"></a>会議の登録
 
-これは、ユーザーごとのポリシーです。 これを有効にすると、組織内のユーザーはウェビナーを設定できます。 このポリシーは、既定で有効になっています。
+これは、ユーザーごとのポリシーです。 これを有効にすると、組織内のユーザーが会議に登録を追加できます。 このポリシーは、既定で有効になっています。
 
-Teams 管理センターでこのポリシーを編集するには、**[会議]** > **[会議ポリシー]** の順に移動します。 会議の登録を無効にするには、このポリシーを **[オフ]** に設定します。
+会議の登録の詳細については、「会議登録の [構成」を](set-up-webinars.md#configure-meeting-registration)参照してください。
 
-[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) コマンドレットを使用して、既存の Teams 会議ポリシーを編集することができます。 または、[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) コマンドレットを使用して、新しい Teams の会議ポリシーを作成し、ユーザーに割り当てます。
+## <a name="webinars"></a>ウェビナー
 
-会議の登録を有効にするには、**MeetingRegistration** パラメーターを **True** に設定します。 これは、既定では **True** に設定されています。
+これは、ユーザーごとのポリシーです。 ウェビナーを有効にした場合、組織内のユーザーは、堅牢な登録管理、カスタマイズ可能なイベントと登録サイト、イベント指向の既定の会議オプションを使用してウェビナーを作成できます。 このポリシーは、既定で有効になっています。
 
-会議の登録を無効にし、ユーザーがウェビナーをスケジュール設定できないようにするには、このパラメーターを **False** に設定します。
+ウェビナーの詳細については、「ウェビナーのセットアップ」を [参照してください](set-up-webinars.md)。
 
-## <a name="who-can-register"></a>登録できるユーザー
-
-このポリシーでは、どのユーザーがウェビナーに登録して参加できるかを制御します。 このポリシーには、**[会議の登録]** が有効になっている場合にのみ使用できる 2 つのオプションがあります。
-
-- 匿名ユーザーを含むすべてのユーザーに、組織内のユーザーが設定したウェビナーの登録と出席を許可する場合は、[だれが登録 **できるか** ] を [ **すべての** ユーザー] に設定します。
-- 組織内のユーザーのみがウェビナーに登録して参加できるようにする場合は、**[登録できるユーザー]** を **[組織内のすべてのユーザー]** に設定します。
-
-既定では、**[登録できるユーザー]** は **[すべてのユーザー]** に設定されています。 Teams 管理センターでこのポリシーを編集するには、**[会議]** > **[会議ポリシー]** の順に移動します。
-
-[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) コマンドレットを使用して、既存の Teams 会議ポリシーを編集することができます。 または、[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) コマンドレットを使用して、新しい Teams の会議ポリシーを作成し、ユーザーに割り当てます。
-
-To allow everyone, including anonymous users, to register and attend webinars, set the **WhoCanRegister** parameter to **Everyone**. This is set to **Everyone** by default.
-
-組織内のユーザーのみがウェビナーに登録して参加できるようにするには、このパラメーターを **EveryoneInCompany** に設定します。
+会議、ウェビナー、ライブ イベントの違いの詳細については、「 [会議、ウェビナー、ライブ イベント](quick-start-meetings-live-events.md)」を参照してください。
 
 ## <a name="meeting-provider-for-islands-mode"></a>アイランド モードの会議プロバイダー
 
@@ -181,11 +170,14 @@ To allow everyone, including anonymous users, to register and attend webinars, s
   パラメーターを **Teams** に設定し、**の TeamsAndSfB** に戻すと、両方の会議アドインが有効になります。 ただし、既存の Teams 会議の参加リンクは、Skype for Business に移行されないことにご注意ください。 変更の後にスケジュールされた Skype for Business の会議のみが、Skype for Business の会議参加リンクを持つようになります。
 
 ## <a name="meeting-reactions"></a>会議の応答
-会議の反応の可用性は、Teams 管理センター インターフェイスまたは PowerShell を使用して構成できます。 会議の反応は、会議ポリシーの **[参加者&ゲスト** ] セクションで有効または無効にすることができます。
 
-設定を構成するには、Set-CsTeamsMeetingPolicy コマンドレットを使用します。 この設定は既定で有効になっています。 オフにするには、 **AllowMeetingReactions** を False に設定 **します**。
+会議リアクションの可用性は、Teams 管理センターインターフェイスまたは PowerShell を使用して構成できます。 会議のリアクションは既定で有効になっています。
 
-会議の反応は、既定ではオフになっています。 ユーザーに対して反応をオフにしても、ユーザーがスケジュールする会議で反応を利用できないという意味ではありません。 既定の設定に関係なく、会議の開催者は [会議のオプション] ページで反応をオンにできます。
+Teams 管理センターでは、会議ポリシーの [**参加者&ゲスト**] セクションの **[会議会議** > **ポリシー**] で、会議のリアクションを有効または無効にすることができます。
+
+PowerShell で設定を構成するには、 [Set-CsTeamsMeetingPolicy コマンドレットを](/powershell/module/skype/set-csteamsmeetingpolicy) 使用します。 オフにするには、 **AllowMeetingReactions を** False に設定 **します**。
+
+ユーザーに対して反応をオフにしても、ユーザーがスケジュールする会議で反応を利用できないという意味ではありません。 既定の設定に関係なく、会議の開催者は [会議のオプション] ページで反応をオンにできます。
 
 ## <a name="speaker-coach"></a>スピーチ コーチ
 

@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92d46cacd510f448943deba86a6ed25d4f4360ab
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: 3a3193b48559fdfc941181963e493d73668bef52
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706514"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307752"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -90,7 +90,7 @@ Citrix Virtual Apps and Desktops の最新バージョンは、[Citrix ダウン
 
 VMware Horizon は、ハイブリッド クラウド全体に仮想デスクトップとアプリを安全に配信するためのモダン プラットフォームです。 優れたエンドユーザー エクスペリエンスを提供するために、VMware Horizon は Teams のメディア最適化を提供します。 この最適化により、仮想デスクトップやアプリ全体の総体的な生産性が向上し、Teams を使用して通話や会議を行う際のユーザー エクスペリエンスが向上します。
 
-VMware Horizon の最新バージョンは、[VMware ダウンロード](https://customerconnect.vmware.com/downloads/#all_products) ページからダウンロードできます。既定では、必要なメディア最適化コンポーネントは Horizon Agent と Horizon Client に含まれているため、Teams の最適化機能を使用するために追加のプラグインをインストールする必要はありません。
+You can download the latest version of VMware Horizon from the [VMware Downloads](https://customerconnect.vmware.com/downloads/#all_products) page. The required media optimization components are part of the Horizon Agent and Horizon Client by default and there's no need to install any additional plug-in to use the optimization feature for Teams.
 
 Teams のメディア最適化を構成する方法に関する最新の要件と手順を入手するには、VMware Web サイトの [Microsoft Teams のメディア最適化の構成](https://docs.vmware.com/en/VMware-Horizon/2006/horizon-remote-desktop-features/GUID-F68FA7BB-B08F-4EFF-9BB1-1F9FC71F8214.html)に関する記事を参照してください。
 
@@ -153,7 +153,7 @@ VDI で Microsoft 365 Apps for enterprise を使用して Teams を展開する�
 
 Microsoft 365 Apps for enterprise を介して Teams を展開する前に、まず、マシンごとのインストールを使用して展開されている既存の Teams アプリをアンインストールする必要があります。
 
-Microsoft 365 Apps for enterprise では、Teams はユーザーごとにインストールされます。詳細については、「[VDI での Teams デスクトップ アプリのインストールまたは更新](#install-or-update-the-teams-desktop-app-on-vdi)」セクションを参照してください。
+Teams through Microsoft 365 Apps for enterprise is installed per-user. To learn more, see the [Install or update the Teams desktop app on VDI](#install-or-update-the-teams-desktop-app-on-vdi) section.
 
 #### <a name="teams-deployments-through-microsoft-365-apps-for-enterprise-updates"></a>Microsoft 365 Apps for enterprise の更新プログラムを使用した Teams の展開
 
@@ -200,7 +200,7 @@ Teams と Microsoft 365 Apps for enterprise の詳細については、「[Micro
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
         ```
 
-        このプロセスでは、32 ビット オペレーティング システム上の `%ProgramFiles(x86)%` フォルダーと 64 ビット オペレーティング システム上の `%ProgramFiles%` フォルダーに Teams がインストールされます。 この時点で、ゴールデン イメージのセットアップは完了です。
+        This process installs Teams to the `%ProgramFiles(x86)%` folder on a 64-bit operating system and to the `%ProgramFiles%` folder on a 32-bit operating system. At this point, the golden image setup is complete.
 
         > [!IMPORTANT]
         >  非永続的なセットアップについては、マシンごとに Teams をインストールする必要があります。
@@ -210,7 +210,7 @@ Teams と Microsoft 365 Apps for enterprise の詳細については、「[Micro
         > [!NOTE]
         > これらの例でも `ALLUSERS=1` パラメーターを使用します。 このパラメーターを設定すると、コンピューターのすべてのユーザーの **[コントロール パネル]** の **[プログラムと機能]** および **[Windows の設定]** の **[アプリと機能]** に **Teams Machine-Wide Installer** が表示されます。 管理者の資格情報を持っている場合は、すべてのユーザーが Teams をアンインストールできます。
         >
-        > `ALLUSERS=1` と `ALLUSER=1` の違いを理解することが重要です。`ALLUSERS=1` パラメーターは非 VDI および VDI 環境で使用できますが、`ALLUSER=1` パラメーターは VDI 環境でのみ使用され、マシンごとのインストールを指定します。
+        > It's important to understand the difference between `ALLUSERS=1` and `ALLUSER=1`. The `ALLUSERS=1` parameter can be used in non-VDI and VDI environments, while the `ALLUSER=1` parameter is used only in VDI environments to specify a per-machine installation.
 
 3. VDI VM から MSI をアンインストールします。 Teams をアンインストールする方法は 2 つあります。
 
@@ -229,7 +229,7 @@ Teams と Microsoft 365 Apps for enterprise の詳細については、「[Micro
 
 - **最小要件**: 一部のワークロードでは、最小要件を超えるリソースを使用したセットアップが必要になる場合があります。 たとえば、より多くのコンピューティング リソースを必要とするアプリケーションを使用する開発者向けのワークロード。
 - **依存関係**: インフラストラクチャ、ワークロード、および Teams デスクトップ アプリ以外の環境に関するその他の考慮事項への依存関係が含まれます。
-- **VDI の無効な機能**: Teams は、VDI の GPU 負荷集中型機能を無効にします。これは、一時的な CPU 使用率の改善に役立ちます。以下の機能は無効です。
+- **Disabled features on VDI**: Teams disables GPU-intensive features for VDI, which can help improve transient CPU utilization. The following features are disabled:
     - Teams CSS アニメーション
     - Giphy の自動起動
 
@@ -297,7 +297,7 @@ Teams 管理センターまたは PowerShell を使用してポリシーを設�
 
 または、次の操作も実行できます。
 
-1. Teams 管理センターの左側のナビゲーションで、割り当てるポリシーに移動します。次に例を示します。
+1. In the left navigation of the Teams admin center, go to the policy you want to assign. For example:
     - [**音声**]  >  [**通話ポリシー**] の順に移動し、[**DisallowCalling**] をクリックします。
     - [**会議**]  >  [**会議ポリシー**] の順に移動し、[**AllOff**] をクリックします。
 2. [**ユーザーを管理する**] を選択します。
@@ -353,7 +353,7 @@ Teams 管理センターまたは PowerShell を使用して、通話および�
 
 または、次の操作も実行できます。
 
-1. Teams 管理センターの左側のナビゲーションで、割り当てるポリシーに移動します。次に例を示します。
+1. In the left navigation of the Teams admin center, go to the policy you want to assign. For example:
     - [**音声**]  >  [**通話ポリシー**] の順に移動し、[**AllowCalling**] をクリックします。
     - [**会議**]  >  [**会議ポリシー**] の順に移動し、[**AllOn**] をクリックします。
 2. [**ユーザーを管理する**] を選択します。
@@ -403,7 +403,7 @@ Teams VDI ポリシーは、Teams モジュールで使用できます。 これ
 
 ### <a name="connect-to-microsoft-teams-powershell"></a>Microsoft Teams PowerShell に接続する
 
-[Microsoft Teams PowerShell モジュールをインストール](/Teams/teams-powershell-install.md)する手順に従って、Microsoft Teams PowerShell モジュールに接続します。 次に、次のコマンドを実行して、すべての VDI コマンドレットが使用可能であることを確認します。
+[「Microsoft Teams PowerShell モジュールをインストール](/Teams/teams-powershell-install.md)する」の手順に従って、Microsoft Teams PowerShell モジュールに接続します。 次に、次のコマンドを実行して、すべての VDI コマンドレットが使用可能であることを確認します。
 
 ```PowerShell
 Get-Command -Noun *VDI*
@@ -476,8 +476,8 @@ if($cleanup){
 - マシンごとのインストールでは、VDI 上の Teams は、非 VDI Teams のクライアントと同様に自動的に更新されません。 [VDI で Teams デスクトップ アプリをインストールまたは更新する](#install-or-update-the-teams-desktop-app-on-vdi)セクションの説明に従って新しい MSI をインストールし、VM イメージを更新する必要があります。 現在のバージョンをアンインストールして新しいバージョンに更新する必要があります。
 - Citrix 環境では、Teams の実行中にユーザーが仮想マシンから切断すると、Teams の更新により、ユーザーが再接続したときに AV に対して最適化されていない状態になる可能性があります。 このシナリオを回避するために、ユーザーは Citrix 仮想マシンから切断する前に Teams を終了することをお勧めします。
 - Teams は、ユーザーごとまたはマシンごとに展開する必要があります。 Teams のユーザーごとおよびマシンごとの同時展開はサポートされていません。 マシンごとまたはユーザーごとからこれらのモードのいずれかに移行するには、アンインストール手順に従っていずれかのモードに再展開します。
-- 現時点では、Azure Virtual Desktop では Linux ベースのクライアントはサポートされていません。
-- テナントの切り替えが速いと、画面共有が利用できないなど、VDI で通話関連の問題が発生する可能性があります。クライアントを再起動すると、これらの問題が軽減されます。
+- 現時点では、Azure Virtual Desktop は Linux ベースのクライアントをサポートしていません。
+- テナントの切り替えが速いと、画面共有が利用できないなど、VDI で通話関連の問題が発生する可能性があります。 クライアントを再起動すると、これらの問題が軽減されます。
 
 ### <a name="notifications"></a>通知
 
@@ -526,7 +526,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
 
 ```
 
-次に、VDA を再起動します。詳細については、この Citrix サポート記事「[Microsoft Teams の HDX 最適化のトラブルシューティング](https://support.citrix.com/article/CTX253754)」を参照してください。
+次に、VDA を再起動します。 詳細については、この Citrix サポートに関する記事「[Microsoft Teams の HDX 最適化のトラブルシューティング](https://support.citrix.com/article/CTX253754)」を参照してください。
 
 ## <a name="related-topics"></a>関連項目
 
