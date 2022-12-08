@@ -10,6 +10,7 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 appliesto:
 - Microsoft Teams
 f1.keywords:
@@ -20,14 +21,16 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams でポリシー パッケージを使用、管理、カスタマイズして、ユーザーグループのポリシーを管理する際の一貫性を簡素化、合理化、および提供する方法について説明します。
-ms.openlocfilehash: 138b1cada469a71cf844c8a73b1cb12511fc68b2
-ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
+ms.openlocfilehash: c2c5884261a4e55c64f3164fd805f708ed42598d
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "69245737"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69318424"
 ---
 # <a name="managing-policy-packages-in-teams"></a>Teams でのポリシー パッケージの管理
+
+[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
 Microsoft Teams のポリシー パッケージは、組織内で類似の役割を持つユーザーに割り当てることができる定義済みのポリシーおよびポリシー設定のコレクションです。 組織全体のユーザーグループのポリシーを管理する際に、一貫性を提供するために、ポリシー パッケージを構築しました。  
 
@@ -81,7 +84,7 @@ Teams には現在、次のポリシー パッケージが含まれています�
 ## <a name="custom-policy-packages"></a>カスタム ポリシー パッケージ
 
 > [!NOTE]
-> カスタム ポリシー パッケージ機能はプレビューで利用できます。 プレビュー後にこの機能を使用するには、各ユーザーに Teams Premium ライセンスが必要です。
+> カスタム ポリシー パッケージには Teams Premium が必要です。
 
 カスタム ポリシー パッケージを使用すると、組織内で同様のロールを持つユーザーに対して独自のポリシー セットをバンドルできます。 必要なポリシーの種類とポリシーを追加して、独自のポリシー パッケージを作成します。
 
