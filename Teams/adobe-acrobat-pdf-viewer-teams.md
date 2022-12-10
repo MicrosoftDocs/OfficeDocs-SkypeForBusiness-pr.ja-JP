@@ -18,12 +18,12 @@ description: Microsoft Teams で PDF ファイルを表示および編集する�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 4776b2928ee734c1b37856e44d184c53bfc0dd90
-ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
+ms.openlocfilehash: 67be332ee916f30b0341dc3ac03e047558cead0c
+ms.sourcegitcommit: feb9b7d10e38f5a629ee9202b5aaec5beef4de9b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/03/2022
-ms.locfileid: "69251900"
+ms.lasthandoff: 12/10/2022
+ms.locfileid: "69343293"
 ---
 # <a name="set-adobe-acrobat-as-the-default-pdf-viewer-in-microsoft-teams"></a>Microsoft Teams で Adobe Acrobat を既定の PDF ビューアーとして設定する
 
@@ -66,7 +66,9 @@ ms.locfileid: "69251900"
 
 1. **[保存]** を選択します。
 
-保存を選択すると、Teams は ADOBE Acrobat アプリを PDF ファイルの既定のファイル ハンドラーとして使用します。
+1. 必要に応じて、Adobe Acrobat のライセンスを所有している場合Microsoft Azure Active Directory ID で SSO を許可できます。 「 [ID とシングル サインオンを設定](https://helpx.adobe.com/enterprise/using/set-up-identity.html)する」の手順を使用して SSO を構成することをお勧めします。
+
+構成を完了すると、Teams は Adobe Acrobat アプリを PDF ファイルの既定のファイル ハンドラーとして使用します。
 
 少数の個人またはグループに対して Adobe Acrobat アプリを選択的に許可する場合は、 [アプリのアクセス許可ポリシーを使用します](teams-app-permission-policies.md)。
 
@@ -81,4 +83,5 @@ ms.locfileid: "69251900"
 * アプリをアンインストールするには、エンド ユーザーが Teams クライアントからアプリを削除できます。 管理セットアップ ポリシーを使用して Adobe Acrobat アプリを削除できます。
 * Adobe Acrobat アプリをブロックした場合は、セットアップ ポリシーからアプリを削除します。 これにより、エンドユーザーのエクスペリエンスがネイティブ PDF ファイル ビューアーの使用に戻ります。
 * Teams デスクトップ クライアントで Adobe Acrobat アプリにサインインする際に問題が発生した場合は、 [ブラウザーで Teams](https://teams.microsoft.com/) を使用してサインインします。
-* PDF ファイルにコメントまたは注釈を付けるために、無料 [の Adobe アカウント](https://acrobat.adobe.com/us/en/) にサインインする必要があります。
+* 無料の [Adobe アカウント](https://acrobat.adobe.com/us/en/) にサインインして、PDF ファイルにコメントまたは注釈を付けます。 Teams のアプリは、PDF ファイルの注釈付け、整理、圧縮、保護などの機能を提供できます。 機能の完全な一覧と前提条件については、「Acrobat アプリを使用して [Teams で PDF ファイルを管理](https://www.adobe.com/content/dam/dx-dc/pdf/ue/acrobat-msft-teams-feature-comp-ue.pdf)する」を参照してください。
+* PDF ドキュメントで共同作業を行うと、配置されているリージョンの Adobe サーバーに一時的に (最大 24 時間) 保存されます。 この一時ストレージは、一時的な処理を容易にするためです。 ローカル ファイルシステムからサーバーに転送されるときに、ドキュメントはエンドツーエンドで暗号化され、サーバー上でも暗号化されたままになります。 [「Acrobat のセキュリティ」を](https://aka.ms/Adobe_Acrobat_Security)参照してください。

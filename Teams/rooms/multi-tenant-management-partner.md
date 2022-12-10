@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: パートナー向けの Mult テナント顧客管理。
 f1keywords: ''
-ms.openlocfilehash: 681efe6832a3829b54b23345f04e32151f130939
-ms.sourcegitcommit: baf29d244b428712052553f9e4484e72e727247e
+ms.openlocfilehash: 6a98ff56548dcefc48be41657b368a9634ad8123
+ms.sourcegitcommit: feb9b7d10e38f5a629ee9202b5aaec5beef4de9b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/17/2022
-ms.locfileid: "69046826"
+ms.lasthandoff: 12/10/2022
+ms.locfileid: "69343307"
 ---
 # <a name="multi-tenant-customer-management-for-partners"></a>パートナー向けのマルチテナント顧客管理
 
@@ -36,7 +36,7 @@ MTM ポータルには、この [リンク](https://partner.rooms.microsoft.com/
 
 ## <a name="pre-requisites-for-managing-your-customers-through-the-mtm-experience"></a>MTM エクスペリエンスを通じて顧客を管理するための前提条件
 
-MTM ポータルにアクセスするには、組織が MTR Pro Management のエリート パートナーとしてオンボードされている必要があります。 エリート パートナーになるには、askelite@microsoft.com にお問い合わせください。
+Multitenant Management コンソールへのアクセスを提供した Elite プログラムは廃止され、このプログラムへの新しいパートナーのオンボードは行われません。 ご理解とご忍耐を賜り、近日中に新しいフォーマットをお知らせいたします。 
 
 ## <a name="on-boarding-customers"></a>オンボーディングのお客様
 
@@ -161,9 +161,9 @@ Pro Management-MTM ポータルを使用して顧客を管理するには、パ�
 
 エンド カスタマーはデータへのアクセスを制御し、いつでもパートナーまたは特定のロールを完全に削除できます。
 
-委任されたアクセス機能では、パートナーは Pro Management ポータルの外部で他の特権を取得しません。 たとえば、この機能を使用してパートナーを招待して Pro Management ポータルで会議室を管理すると、AAD や Teams 管理 Center またはその他の Microsoft 製品に対するアクセス許可は付与されません。 さらに、パートナーは招待スコープで定義されていない部屋を表示または変更するためのアクセス権を持っていません。
+委任されたアクセス機能では、パートナーは Pro Management ポータルの外部で他の特権を取得しません。 たとえば、この機能を使用してパートナーを招待して Pro Management ポータルで会議室を管理すると、AAD や Teams 管理 Center またはその他のMicrosoft製品に対するアクセス許可は付与されません。 さらに、パートナーは招待スコープで定義されていない部屋を表示または変更するためのアクセス権を持っていません。
 
-このドキュメントの「顧客のオンボード」で説明されているように、パートナーと顧客関係が確立されると、パートナーは Pro Management ポータルでルーム データを表示できます。 これには、Pro Management ポータルに存在するが、他の Microsoft 製品から派生したデータが含まれます。 たとえば、Pro Management ポータルの通話品質レポートは、Teams 通話品質データから派生します。
+このドキュメントの「顧客のオンボード」で説明されているように、パートナーと顧客関係が確立されると、パートナーは Pro Management ポータルでルーム データを表示できます。 これには、Pro Management ポータルに存在するが、他のMicrosoft製品から派生したデータが含まれます。 たとえば、Pro Management ポータルの通話品質レポートは、Teams 通話品質データから派生します。
 
 データは顧客のテナントに存在し、パートナーのテナントにはコピーされません。 
 
