@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Licensing
 description: 管理者と IT プロフェッショナル向けの Teams Premium Microsoftについて説明します。
-ms.openlocfilehash: 2d7c43f6dd46a635d7aceaaa95548b8c4f31f590
-ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
+ms.openlocfilehash: 9e7af9c777ba5fec8ca8b68da7f1069737702617
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 12/14/2022
-ms.locfileid: "69379464"
+ms.locfileid: "69392477"
 ---
 # <a name="microsoft-teams-premium---overview-for-administrators"></a>Microsoft Teams Premium - 管理者向けの概要
 
@@ -63,8 +63,6 @@ Teams Premium には、次の重要な機能を使用して会議を保護する
 - **エンドツーエンドの暗号化** - 秘密度ラベルを介して適用されます。 エンドツーエンドの暗号化により、より高いレベルの保護が必要な会議のセキュリティが強化されます。
 
 
-
-
 | 機能/タスク  | 管理者向けのドキュメント | エンド ユーザー向けのドキュメント
 | -------------------- | ----------- | ------------ |
 | 秘密度ラベル | [3 層の保護を使用して Teams 会議を構成する](configure-meetings-three-tiers-protection.md) | |
@@ -82,16 +80,17 @@ Teams Premium には、会議をカスタマイズするための次の追加機
 
 - **会議のテーマ** - 組織が会議エクスペリエンス全体でビジュアル ID を拡張できるようにします。 1 つのテナント内で、さまざまな部署や部署の会議テーマを設定および作成できます。
 
-- **カスタム会議の背景** - エンド ユーザーが使用できるカスタム会議の背景を作成および定義できます。 
+- **組織のカスタム会議の背景** - カスタム会議の背景を作成して定義し、その後、Teams Premium ライセンスを使用してエンド ユーザーが使用できるようにします。
 
-- **カスタム のモード シーン** - 組織内の開発者が会議のビデオ シーンを定義およびカスタマイズできるようにする Teams アプリ。  
+- **組織向けのカスタム 一緒モード シーン** - Teams Premium ライセンスを使用してエンド ユーザーが使用できる会議のカスタム 一緒モード シーンを作成、カスタマイズ、または受け入れます。
+
 
 | 機能/タスク | 管理者向けのドキュメント | エンド ユーザー向けのドキュメント
 | -------------------- | ----------- | ------------ |
 | 会議テンプレート | - [概要](custom-meeting-templates-overview.md)<br>- [カスタム会議テンプレートを作成する](create-custom-meeting-template.md)| [カスタム テンプレートを使用する](https://support.microsoft.com/office/use-custom-templates-for-teams-meetings-78279be9-3283-4999-b24e-96fb0da2fb4f)
 | 会議のテーマ | [Teams 会議のテーマ](meeting-themes.md) | [会議のテーマを使用する](https://support.microsoft.com/office/use-meeting-themes-for-teams-meetings-fbfd826d-1112-4790-918a-5a82cac8250e) |
-| カスタム会議の背景 | [会議の背景](custom-meeting-backgrounds.md)| |
-| カスタムの一緒モード シーン | [ユーザーと開発者向けのコンテンツ](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode)| |
+| 組織のカスタム会議の背景 | [会議の背景](custom-meeting-backgrounds.md)| |
+| 組織向けのカスタム 一緒モード シーン | [ユーザーと開発者向けのコンテンツ](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode)| |
 
 
 

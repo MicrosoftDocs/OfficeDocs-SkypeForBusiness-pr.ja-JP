@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Licensing
 description: Microsoft Teams Premium アドオン ライセンスを使用して、Microsoft Teams エクスペリエンスを強化する方法について説明します
-ms.openlocfilehash: e650c5c40623e3748deb9275d439dfd5328a317b
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: ec0f71e252a38beca0613a546ef9ddd990f6a53d
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69308028"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392347"
 ---
 # <a name="microsoft-teams-premium-licensing"></a>Microsoft Teams Premium ライセンス
 
@@ -41,7 +41,6 @@ Microsoft Teams Premium は Teams アドオン ライセンスであり、Micros
 - [Teams Premium と Teams の比較](#how-does-teams-premium-compare-to-teams)
 - [Teams Premium に移行する現在の Teams 機能はありますか?](#are-there-current-teams-features-that-will-move-to-teams-premium)
 - [Teams Premium を購入するための要件は何ですか?](#what-are-the-requirements-to-purchase-teams-premium)
-- [Teams では、Teams Premium 機能へのアクセスはどのように適用されますか?](#how-does-teams-enforce-access-to-teams-premium-features)
 - [Teams Premium はTeams Rooms Proとどのように異なりますか?](#how-does-teams-premium-differ-from-teams-rooms-pro)
 - [ライセンスを購入する前に Teams Premium を体験できますか?](#can-i-experience-teams-premium-before-buying-licenses)
 - [Teams Premium ライセンス操作方法購入しますか?](#how-do-i-purchase-teams-premium-licenses)
@@ -60,7 +59,7 @@ Microsoft 365 サブスクリプションを購入したお客様は、ユーザ
 |---------|:-----:|:-------------:|
 | Teams 会議をホストして出席する | X | X |
 | Teams の標準的な外観を体験する | X | X |
-| 標準の Teams 会議の背景を使用する | X | X |
+| ユーザー レベルで標準およびカスタムの会議の背景を使用する| X | X |
 | 会議中にライブ キャプションを読み取る | X | X |
 | 組織の会議テンプレートをカスタマイズする |  | X |
 | 会議ロビーに組織のブランドを追加する |  | X |
@@ -176,25 +175,6 @@ Teams Premium を一般公開して購入できるようになると、管理者
 **ユーザー要件** は次のとおりです。
 
 - Teams を使用したOffice 365またはMicrosoft 365 サブスクリプション。
-
-## <a name="how-does-teams-enforce-access-to-teams-premium-features"></a>Teams では、Teams Premium 機能へのアクセスはどのように適用されますか?
-
-ユーザーが持つ Teams エクスペリエンスは、Teams のライセンスと Teams ロールによって異なります。 Teams は、ユーザーのライセンスとロール機能を機能別にチェックして、適切なエクスペリエンスを提供します。
-
-たとえば、Teams 会議では、Teams は各ユーザーの Teams ライセンスと、それらが会議の開催者か出席者かを確認します。 これらの要因により、ユーザーのエクスペリエンスと、会議での他の参加者のエクスペリエンスが決まります。
-
-- **開催者ベース:** 一部の機能では、開催者レベルでライセンスを確認します。 会議の開催者が機能の適切なライセンスを持っている場合、その機能は共有され、その会議中に会議出席者がアクセスできるようになります。
-- **出席者ベース:** 一部の機能では、出席者レベルでライセンスを確認します。 Teams エクスペリエンスは共有されないため、会議中に他の出席者がアクセスできるようになります。
-
-次の表は、各 Teams Premium 機能のライセンス チェックを示しています。
-
-|  | 開催者ベースのライセンス チェック | 出席者ベースのライセンス チェック |
-|--|-------------------------------|------------------------------|
-| **会議** | &#10004; カスタム会議テンプレートを使用する </br> &#10004; カスタムテーマ会議を使用する </br> &#10004; ライブ イベントMicrosoft eCDN を使用する | &#10004; カスタムの Together モード シーンを使用する </br> &#10004; カスタム背景とロビーを使用する |
-| **ウェビナー** | &#10004; ウェビナーの緑の部屋を設定する </br> &#10004;ウェビナー モードの管理 </br> &#10004;使用RTMP-In </br> &#10004; ウェビナーの登録を手動で承認する </br> &#10004; 登録待機リストを作成する </br> &#10004; 登録の日時を制限する |  |
-| **会議の保護** | &#10004; 最大 50 人の参加者の会議にエンドツーエンドの暗号化を使用する </br> &#10004; 会議に透かしを追加する </br> &#10004; 会議に秘密度ラベルを適用する </br> &#10004; 会議チャットでのコピー/貼り付けを禁止する </br> &#10004; 会議を記録できるユーザーを制御する </br> カスタム ユーザー ポリシー パッケージの&#10004; |  |
-| **インテリジェント会議** | &#10004; 翻訳されたキャプションをライブで読み取る </br> &#10004; 自動生成されたチャプターを使用して会議を移動する | &#10004; 会議後の文字起こしを翻訳する </br></br> *会議の要約 AI 機能:* </br> &#10004; 会議に参加して会議を離れたときのタイムスタンプを表示する </br> &#10004; 会議後に推奨されるタスクを受信する </br> &#10004; 推奨されるスピーカーを使用して検索する </br> &#10004; 表示@mentions |
-| **仮想予定** | &#10004; SMS 通知を設定する </br> &#10004; Access Premium 仮想予定 アプリ </br> &#10004; 予定とロビーにカスタム背景を使用する | &#10004; SMS 通知を設定する </br> &#10004; Access Premium 仮想予定 アプリ </br> &#10004; スケジュールされた予定キューとオンデマンドの予定キューを表示および管理する </br> &#10004; 高度な仮想予定分析を表示する </br> &#10004;予定後のフォローアップを送信する |
 
 ## <a name="how-does-teams-premium-differ-from-teams-rooms-pro"></a>Teams Premium はTeams Rooms Proとどのように異なりますか?
 

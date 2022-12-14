@@ -22,16 +22,16 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a4f5db5f79d2a273701e7c2cd8883c89aba2d1a2
-ms.sourcegitcommit: ad7eb80a266a96bb894f3801b51587c07786c257
+ms.openlocfilehash: 5d2bd923835da3c9ffcbf32e0675f1f0e4e63bd3
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/19/2022
-ms.locfileid: "69126963"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392217"
 ---
 # <a name="plan-for-sip-gateway"></a>SIP ゲートウェイの計画
 
-SIP ゲートウェイを使用すると、組織は Microsoft Teams と互換性のある SIP デバイスを使用して、SIP デバイスへの投資を維持できます。 これで、会社の資格情報を使用して Teams にサインインし、互換性のある SIP デバイスを使用して通話を行って受信できます。 互換性のあるデバイスは、標準 SIP ファームウェアを搭載した IP フォン、マルチプラットフォーム SIP ファームウェアを備えた Cisco IP フォン、または Poly、Yealink、AudioCodes などのベンダーの SIP デバイスをSkype for Businessできます。 SIP ゲートウェイ用に SIP デバイスを構成する方法については、「SIP ゲートウェイの [構成](sip-gateway-configure.md)」を参照してください。
+SIP ゲートウェイを使用すると、組織は、Microsoft Teams と互換性のある任意の SIP デバイスを使用して、SIP デバイスへの投資を維持できます。 これで、会社の資格情報を使用して Teams にサインインし、互換性のある SIP デバイスを使用して通話を行って受信できます。 互換性のあるデバイスは、標準 SIP ファームウェアを搭載した IP フォン、マルチプラットフォーム SIP ファームウェアを備えた Cisco IP フォン、または Poly、Yealink、AudioCodes などのベンダーの SIP デバイスをSkype for Businessできます。 SIP ゲートウェイ用に SIP デバイスを構成する方法については、「SIP ゲートウェイの [構成](sip-gateway-configure.md)」を参照してください。
 
 ## <a name="benefits-of-sip-gateway"></a>SIP ゲートウェイの利点
 
@@ -64,7 +64,7 @@ TEAMS ユーザーは、SIP ゲートウェイを使用するために PSTN 通�
 
 - Microsoft Teams、Skype for Business Online Plan 2、Microsoft 365 Phone System のライセンス (E5 またはスタンドアロン ライセンス経由)
 - Microsoft Teams 通話プラン、ダイレクト ルーティング、またはオペレーター接続を使用した PSTN 有効化 (電話番号など)
-- 共通エリアデバイスの共通エリア電話ライセンス
+- 共通エリア **デバイスのMicrosoft Teams 共有デバイス** ライセンス
 
 ## <a name="compatible-devices"></a>互換性のあるデバイス
 

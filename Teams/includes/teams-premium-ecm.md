@@ -1,0 +1,1 @@
+![情報アイコン](../media/info.png) **この記事で説明している一部の機能には、現在ロールアウトされている [Teams Premium (プレビュー)](/MicrosoftTeams/enhanced-teams-experience) が必要です**

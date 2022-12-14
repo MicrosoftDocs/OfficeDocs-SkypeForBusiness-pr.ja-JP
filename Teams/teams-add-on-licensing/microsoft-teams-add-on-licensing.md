@@ -21,12 +21,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Microsoft Teams のアドオン ライセンスMicrosoftと、各ライセンスで取得する機能について説明します。
-ms.openlocfilehash: 74924c398d74f318311f41dfa8ac6797a57af385
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: d4a1beadc5e4252795bdbb4eb15767f3ec94ca2c
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307772"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392107"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Teams アドオン ライセンスのMicrosoft
 
@@ -41,13 +41,14 @@ Teams アドオン ライセンスと、Teams サブスクリプションに追�
 |ライセンス|説明|
 |-------|-----------|
 | **Microsoft Teams Premium** | Microsoft Teams Premium は、Microsoft 365 サブスクリプションを持つ組織が、よりパーソナライズされたインテリジェントな会議、強化された会議保護、高度な管理とレポート機能などの利点を備えた Teams エクスペリエンスを強化できるようにする Teams アドオン ライセンスです。 Teams Premium アドオン ライセンスの詳細については、「Microsoft [Teams Premium ライセンス](licensing-enhance-teams.md)」を参照してください。 |
-| **Microsoft 365 企業向け音声** |Business Voice はMicrosoft中小企業向けの音声機能バンドルでしたが、2022 年 3 月 1 日以降は購入できなくなります。 現在の Business Voice サブスクライバーは、Business Voice ライセンスを更新できなくなります。 <br/> <br/> 中小企業の場合は、お使いのリージョンで利用可能な場合は、 [通話プランライセンスを使用して Teams Phone](../business-voice/whats-business-voice.md) を購入することをお勧めします。 <br/> <br/> または、優先するサード パーティの PSTN プロバイダーに接続できるTeams 電話スタンダード ライセンスを購入することもできます。 |
-| **通話プランバンドルを使用した Teams Phone** |Teams Phone with Calling Plan ライセンスには、Teams Phone System の PBX 機能と PSTN 接続用の国内通話プランがバンドルされています。 |
+| **Microsoft 365 企業向け音声** | Business Voice はMicrosoft中小企業向けの音声機能バンドルでしたが、2022 年 3 月 1 日以降は購入できなくなります。 現在の Business Voice サブスクライバーは、Business Voice ライセンスを更新できなくなります。 <br/> <br/> 中小企業の場合は、お使いのリージョンで利用可能な場合は、 [通話プランライセンスを使用して Teams Phone](../business-voice/whats-business-voice.md) を購入することをお勧めします。 <br/> <br/> または、優先するサード パーティの PSTN プロバイダーに接続できるTeams 電話スタンダード ライセンスを購入することもできます。 |
+| **通話プランバンドルを使用した Teams Phone** | Teams Phone with Calling Plan ライセンスには、Teams Phone System の PBX 機能と PSTN 接続用の国内通話プランがバンドルされています。 |
 | **Teams 電話スタンダード** |[Teams 電話システム](../what-is-phone-system-in-office-365.md) は、通話制御と Private Branch Exchange (PBX) 機能を提供するホステッド電話サービスです。 Teams 電話スタンダード ライセンスを使用すると、クラウド ボイスメール、発信者 ID、コール パーク、通話転送、自動応答、通話キュー、通話転送、発信者 ID などの Teams 電話システムのすべての機能が提供されます。 <br/> <br/>電話システムの詳細については、「 [Teams 電話システムで得られる内容](../here-s-what-you-get-with-phone-system.md)」を参照してください。 |
-| **Microsoft Teams Calling プラン** |ユーザーが組織外の電話番号に通話する必要がある場合は、[Microsoft Teams Calling プラン](../calling-plans-for-office-365.md)を購入して、PSTN プロバイダーとしてMicrosoftを使用して PSTN 電話番号に接続できます。 国内通話プラン、国際通話プラン、従量課金制通話プランがあります。 <br/> <br/> Teams 通話プランが国または地域で利用できるかどうかを確認するには、「 [電話会議と通話プランの国と地域の可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)」を参照してください。 |
+| **Microsoft Teams Calling プラン** | ユーザーが組織外の電話番号に通話する必要がある場合は、[Microsoft Teams Calling プラン](../calling-plans-for-office-365.md)を購入して、PSTN プロバイダーとしてMicrosoftを使用して PSTN 電話番号に接続できます。 国内通話プラン、国際通話プラン、従量課金制通話プランがあります。 <br/> <br/> Teams 通話プランが国または地域で利用できるかどうかを確認するには、「 [電話会議と通話プランの国と地域の可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)」を参照してください。 |
 | **通信クレジット** | 通信クレジットは、PSTN 通話に使用できる月単位の分単位のプールを提供します(通話プランの分がすべて翌月の初めまでに使用される場合)。 電話会議、自動応答、または通話キューのフリーダイヤル番号が必要な場合は、 [コミュニケーション クレジットを設定](../set-up-communications-credits-for-your-organization.md)する必要があります。 |
-| **電話会議** |組織内のユーザーがコンピューターではなく Teams 会議に電話をかける必要がある場合があります。 [電話を](../set-up-audio-conferencing-in-teams.md) 使用して通話する必要がある出席者と会議をスケジュールまたはリードするユーザーに対して電話会議を設定します。 <br/> <br/>国または地域でオーディオ会議が利用可能かどうかを調べるには、 [オーディオ会議や呼び出しプランが利用可能な国および地域](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)を参照してください。 料金については、「[電話会議の料金](https://go.microsoft.com/fwlink/?linkid=799762)」をご覧ください。  <br/> <br/>組織は、電話会議番号にサード パーティのオペレーターを使用できるようになりました。 詳細については、「[オペレーター接続会議の計画](../operator-connect-conferencing-plan.md)」を参照してください。 |
+| **電話会議** | 組織内のユーザーがコンピューターではなく Teams 会議に電話をかける必要がある場合があります。 [電話を](../set-up-audio-conferencing-in-teams.md) 使用して通話する必要がある出席者と会議をスケジュールまたはリードするユーザーに対して電話会議を設定します。 <br/> <br/>国または地域でオーディオ会議が利用可能かどうかを調べるには、 [オーディオ会議や呼び出しプランが利用可能な国および地域](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)を参照してください。 料金については、「[電話会議の料金](https://go.microsoft.com/fwlink/?linkid=799762)」をご覧ください。  <br/> <br/>組織は、電話会議番号にサード パーティのオペレーターを使用できるようになりました。 詳細については、「[オペレーター接続会議の計画](../operator-connect-conferencing-plan.md)」を参照してください。 |
 | **Microsoft Teams ルーム** | Microsoft Teams Room は、ビデオ、オーディオ、コンテンツ共有を会議室に提供する追加のMicrosoft Teams 製品です。 <br/> <br/>Teams Rooms Basic は、すべてのTeams Rooms デバイスに対して主要な会議と管理機能を提供する最大 25 室の無料ライセンスです。 <br/> <br/>Teams Rooms Proは、拡張された会議エクスペリエンスと高度な管理とセキュリティを提供し、デバイスを大規模に運用し、包括的なハイブリッド会議を有効にするのに役立ちます。 <br/> <br/>詳細については、「 [Teams ミーティング ルーム ライセンス](../rooms/rooms-licensing.md)」を参照してください。 |
+| **Teams 共有デバイスのMicrosoft** | 多くの組織では、ハイブリッド作業シナリオに移行するときに柔軟な職場ソリューションが必要です。 Microsoft Teams 共有デバイス ライセンスは、オフィスが共有デバイスとしてデバイスを指定できるようにすることで、ハイブリッド作業をサポートするように設計されています。これには、共通エリア電話、ホット デスク用の Teams ディスプレイ、会議スペース用の Teams パネルが含まれます。 詳細については、「[Microsoft Teams 共有デバイス ライセンス](teams-shared-device-license.md)」を参照してください。 |
 
 ## <a name="which-microsoft-capabilities-are-available-with-my-plan"></a>プランで利用できるMicrosoft機能はどれですか?
 

@@ -28,12 +28,12 @@ adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY
 adobe-target-experience: Experience B
 adobe-target-content: ./create-a-phone-system-call-queue-experiment
 description: Microsoft Teams で通話キューを設定する方法について説明します。 通話キューには、あいさつメッセージ、保留音楽、通話リダイレクトなどの機能が用意されています。
-ms.openlocfilehash: a55573b5a7c713366eb4f930f58de34971d21fce
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: da0b94281619940a955a7ca7aa0b4127fbb93f3c
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307552"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392227"
 ---
 # <a name="create-a-call-queue-in-microsoft-teams"></a>Microsoft Teams で通話キューを作成する
 
@@ -134,9 +134,9 @@ ms.locfileid: "69307552"
 
 ID を呼び出すためにこの新しいリソース アカウントを作成した後も、次の操作を行う必要があります。
 
-- [Teams 電話リソース アカウント ライセンス](manage-resource-accounts.md#assign-a-license)を割り当てる
-- Microsoft通話プラン ライセンスの割り当て、オペレーター接続電話番号の割り当て、またはダイレクト ルーティングのオンライン音声ルーティング ポリシーの割り当て
-- 通話プランを使用している場合は、[リソース アカウントにサービス電話番号](manage-resource-accounts.md#assign-a-service-number)Microsoft割り当てます
+- [Teams 電話リソース アカウント ライセンス](manage-resource-accounts.md#assign-a-license)を割り当てます。
+- Microsoft通話プラン ライセンスの割り当て、オペレーター接続電話番号の割り当て、またはダイレクト ルーティングのオンライン音声ルーティング ポリシーの割り当て。
+- 通話プランを使用している場合は、[リソース アカウントに電話番号](manage-resource-accounts.md#assign-a-phone-number)Microsoft割り当てます。
 
 ### <a name="set-the-call-queue-language"></a>通話キューの言語を設定する
 

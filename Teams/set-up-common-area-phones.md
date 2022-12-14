@@ -1,5 +1,5 @@
 ---
-title: 共通領域電話のライセンスをセットアップする
+title: Microsoft Teams の共通エリア電話を設定する
 ms.author: danismith
 author: DaniEASmith
 manager: serdars
@@ -23,50 +23,31 @@ ms.custom:
 - admindeeplinkMAC
 - admindeeplinkTEAMS
 description: ロビー、レセプションエリア、会議室用の共通エリア電話を設定する方法について説明します。
-ms.openlocfilehash: 2a282526a0592c46c053e9c0319112a9238a6051
-ms.sourcegitcommit: 92a0df6fc3aa62cec1bf72a40690fb8e16226965
+ms.openlocfilehash: 06005f853ac125478ae1fd99dba2d022c5eb0100
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/03/2022
-ms.locfileid: "68836751"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392157"
 ---
 # <a name="set-up-common-area-phones-for-microsoft-teams"></a>Microsoft Teams の共通エリア電話を設定する
 
-一般的なエリア電話は、通常、ロビーや他のエリアのようなエリアに配置され、多くの人が電話をかけられます。これは、受信エリア、ロビー、または電話です。 共通エリア電話は、 **共通エリア電話** ライセンスに関連付けられたアカウントでサインインします。
+一般的なエリア電話は、通常、ロビーや他のエリアのようなエリアに配置され、多くの人が電話をかけられます。これは、受信エリア、ロビー、または電話です。 共通エリア電話は、**Microsoft Teams 共有デバイス** ライセンスに関連付けられたアカウントでサインインします。
 
 この記事では、Teams 電話デバイスを共有スペースの共通エリア電話として展開および構成する方法の概要について説明します。 電話会議など、より完全な会議室エクスペリエンスを実現するには、代わりにTeams Rooms デバイスを使用して専用 **のTeams Rooms** ライセンスを購入することを検討してください。 Teams Roomsの詳細については、「[Microsoft Teams Rooms](rooms/index.md)」を参照してください。
 
-## <a name="overview"></a>概要
-
-**Common Area Phone** ライセンスでは、次がサポートされます。
-
-|                                           | 共通領域電話                                 |
-|-------------------------------------------|---------------------------------------------------|
-| **Microsoft Teams**                       | &#x2714;                                          |
-| **Teams Phone**  &sup1;                   | &#x2714;                                          |
-| **電話会議**                    | &#x2718; &sup2;                                   |
-| **Microsoft Intune**                      | &#x2714;                                          |
-| **Azure Active Directory Premium プラン 1** | &#x2714;                                          |
-| **Exchange Online プラン 2**                | sup3 を&#x2714;  &します。                                  |
-| **世界的な可用性**                | &#x2714;                                          |
-| **チャネルの可用性**                  | EA、EAS、EES、CSP、Web Direct、GCC、GCC-High、DoD |
-
-sup1 を&します。以前は *電話システム* と呼ばれます。
-sup2 を&します。一般的なエリア電話は、会議の開催者が提供するダイヤルイン番号を使用して、音声会議に参加できます。
-sup3 を&します。クラウドベースのボイスメール機能のみ。
-
 > [!NOTE]
-> Skype for Business Serverで作成された共通エリア電話オブジェクトのアカウントを Microsoft Teams に移行することはできません。 この記事の手順に従って Teams のアカウントを再作成し、必要に応じて公衆交換電話網 (PSTN) 接続を移行します。
+> Skype for Business Serverで作成された共通エリア電話オブジェクトのアカウントは、Microsoft Teams に移行できません。 この記事の手順に従って Teams のアカウントを再作成し、必要に応じて公衆交換電話網 (PSTN) 接続を移行します。
 
 ## <a name="step-1---buy-the-licenses"></a>手順 1 - ライセンスを購入する
 
-まず、 **Common Area Phone** (CAP) ライセンスを購入し、認定電話があることを確認する必要があります。 認定された電話の検索方法、および詳細情報を確認するには、[Microsoft Teams デバイス](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)にアクセスしてください。
+まず、 **Teams 共有デバイス** ライセンスを購入し、認定電話があることを確認する必要があります。 認定された電話の検索方法、および詳細情報を確認するには、[Microsoft Teams デバイス](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)にアクセスしてください。
 
 1. [Microsoft 365 管理センター](https://go.microsoft.com/fwlink/p/?linkid=2024339)で、[課金 **購入サービス****]** >  に移動します。
 
-2. [ **カテゴリ別に表示** ] セクションがまだ表示されていない場合は、[ **Microsoft から購入**] に移動し、[ **製品の表示**] を選択します。 次に、[ **コラボレーションとコミュニケーション**] を選択します。  
+2. [**カテゴリ別に表示**] セクションがまだ表示されていない場合は、[**Microsoftから購入**] に移動し、[**製品の表示**] を選択します。 次に、[ **コラボレーションとコミュニケーション**] を選択します。  
 
-3. 製品の一覧で [ **共通エリア電話**] を見つけて、[詳細] を選択 **します**。
+3. 製品の一覧で、[**Microsoft Teams 共有デバイス**] を見つけて、[詳細] を選択 **します**。
 
 4. 必要なライセンスの数を入力し、[ **購入**] を選択します。
 
@@ -96,16 +77,16 @@ sup3 を&します。クラウドベースのボイスメール機能のみ。
     > [!IMPORTANT]
     > エンド ユーザーのサインインの問題を防ぐために、共通エリア電話のパスワードを手動で設定することを強くお勧めします。
 
-6. デバイスの使用場所を選択し、 **Common Area Phone** ライセンスをアカウントに割り当てます。 通話プランなど、他のライセンスが必要な場合は、それらを割り当てます。
+6. デバイスの使用場所を選択し、 **Teams 共有デバイス** ライセンスをアカウントに割り当てます。 通話プランなど、他のライセンスが必要な場合は、それらを割り当てます。
 
 > [!NOTE]
-> 電話システム機能を使用してライセンスを追加する必要はありません。 **共用エリア電話機** のライセンスに含まれています。
+> 電話システム機能を使用してライセンスを追加する必要はありません。 **Teams 共有デバイス** ライセンスに含まれています。
 >
-> ダイレクト ルーティングまたはオペレーター接続で Microsoft Phone System を使用していない場合は、 **通話プラン** ライセンスを追加できます。 ライセンスの詳細については、「[Microsoft Teams のアドオン ライセンス](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
+> ダイレクト ルーティングまたはオペレーター接続Microsoft電話システムを使用していない場合は、**通話プラン** ライセンスを追加できます。 ライセンスの詳細については、「[Microsoft Teams のアドオン ライセンス](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
 
 ### <a name="using-powershell"></a>PowerShell の使用
 
-複数のユーザー アカウントのライセンスを一度に作成して割り当てる場合は、PowerShell を使用します。 詳細については、「 [PowerShell を使用して Microsoft 365 ユーザー アカウントを作成する」および「PowerShell を使用して](/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true) [Microsoft 365 ライセンスをユーザー アカウントに割り当てる](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)」を参照してください。
+複数のユーザー アカウントのライセンスを一度に作成して割り当てる場合は、PowerShell を使用します。 詳細については、「[PowerShell を使用して Microsoft 365 ユーザー アカウントを作成する」および「PowerShell を使用](/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)[してユーザー アカウントMicrosoft 365 ライセンスを割り当てる](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)」を参照してください。
 
 ## <a name="step-3---set-policies-for-common-area-phones"></a>手順 3 - 共通エリア電話のポリシーを設定する
 
@@ -113,7 +94,7 @@ sup3 を&します。クラウドベースのボイスメール機能のみ。
 
 ### <a name="ip-phone-policies"></a>IP 電話ポリシー
 
-Teams IP Phone ポリシーは、電話にサインインするアカウントに共通エリア電話ライセンス以外のライセンスが付与されている場合にのみ変更できます。  Microsoft 365 E3または E5 サブスクリプション、または Office 365 Enterprise E1、E3、または E5 サブスクリプションでライセンスされている場合は、IP Phone ポリシーを変更できます。  共通エリアの電話アカウントで会議室ライセンスを使用している場合は、モードのみを使用 `MeetingRoomSignIn` できます。 `MeetingRoomSignIn` モードは、ほとんどの一般的なエリア電話では使用できません。 電話インターフェイスでサポートされているオーバーライドの詳細については、「 [Microsoft Teams Android デバイス のユーザー インターフェイスを設定](/microsoftteams/devices/teams-android-devices-user-interface#override-automatic-user-interface-detection)する」を参照してください。 
+Teams IP Phone ポリシーは、電話にサインインするアカウントが **Teams 共有デバイス** ライセンス以外のライセンスを持つ場合にのみ変更できます。  Microsoft 365 E3または E5 サブスクリプション、または Office 365 Enterprise E1、E3、または E5 サブスクリプションでライセンスされている場合は、IP Phone ポリシーを変更できます。  共通エリアの電話アカウントで **Teams Rooms** ライセンスを使用している場合は、モードのみを使用`MeetingRoomSignIn`できます。 `MeetingRoomSignIn` モードは、ほとんどの一般的なエリア電話では使用できません。 電話インターフェイスでサポートされているオーバーライドの詳細については、「[Teams Android デバイスのユーザー インターフェイスMicrosoft設定](/microsoftteams/devices/teams-android-devices-user-interface#override-automatic-user-interface-detection)する」を参照してください。
 
 Teams IP Phone ポリシーを使用して、 [SignInMode パラメーター](/powershell/module/skype/new-csteamsipphonepolicy#parameters) を に `CommonAreaPhoneSignIn` 設定して、Teams 電話デバイスで共通エリア電話エクスペリエンスを有効にします。
 
@@ -123,7 +104,7 @@ Teams IP Phone ポリシーを使用して、 [SignInMode パラメーター](/p
 
 通話ポリシーを使用して、プライベート 通話、通話転送、または共通エリア電話での同時呼び出しを有効にします。 詳細については、「 [Teams での通話と転送](teams-calling-policy.md)」を参照してください。
 
-既定では、コール パークは共通エリア電話では有効になっていません。 有効にするには、ポリシーを作成する必要があります。 詳細については、「 [Microsoft Teams でのコール パークと取得](call-park-and-retrieve.md)」を参照してください。
+既定では、コール パークは共通エリア電話では有効になっていません。 有効にするには、ポリシーを作成する必要があります。 詳細については、「[Microsoft Teams でのコール パークと取得](call-park-and-retrieve.md)」を参照してください。
 
 > [!NOTE]
 > ポリシーを割り当てた後、電話からサインアウトし、もう一度サインインします。 ポリシーの割り当てが有効になるまでに最大 1 時間かかる場合があります。
@@ -149,7 +130,7 @@ PSTN 接続オプションに基づいて電話番号を取得して割り当て
 3. デバイスのサインインの指示に従います。 サインインすると、電話に共通エリア電話のユーザー エクスペリエンスが表示されます。
 
 > [!NOTE]
-> 呼び出し元アプリのピン留めを解除するカスタム セットアップ ポリシーを使用している場合、ダイヤル パッドは共通エリア電話に表示されません。 Teams セットアップ ポリシーの詳細については、「 [Microsoft Teams でアプリセットアップ ポリシーを管理する](teams-app-setup-policies.md)」を参照してください。
+> 呼び出し元アプリのピン留めを解除するカスタム セットアップ ポリシーを使用している場合、ダイヤル パッドは共通エリア電話に表示されません。 Teams セットアップ ポリシーの詳細については、「Microsoft [Teams でのアプリセットアップ ポリシーの管理](teams-app-setup-policies.md)」を参照してください。
 
 ### <a name="sign-in-from-another-device"></a>別のデバイスからサインインする
 
@@ -167,7 +148,7 @@ PSTN 接続オプションに基づいて電話番号を取得して割り当て
 
 既定では、基本的な通話エクスペリエンスは共通エリア電話のホーム画面に表示されますが、高度な通話エクスペリエンスを有効にすることができます。
 
-次の高度な通話機能は、 **共通領域電話** ライセンスと最新の Teams 更新プログラム (最小バージョン: 1449/1.0.94.20222061702) でサポートされている Teams 電話デバイス モデルで使用できます。
+**Teams 共有デバイス** ライセンスと最新の Teams 更新プログラム (最小バージョン: 1449/1.0.94.20222061702) を使用して、サポートされている Teams 電話デバイス モデルで、次の高度な通話機能を利用できます。
 
 - [パークを呼び出して取得します](call-park-and-retrieve.md)。
 - [Exchange Online プラン 2 を使用したクラウドベースのボイスメール](set-up-phone-system-voicemail.md)。
@@ -177,13 +158,13 @@ PSTN 接続オプションに基づいて電話番号を取得して割り当て
 - [グループ通話のピックアップ](call-sharing-and-group-call-pickup.md)。
 - [転送ルール](teams-calling-policy.md)。
 
-サポートされている Teams 電話デバイス モデルでこれらの高度な通話機能を使用するには、[Teams 管理センター](https://go.microsoft.com/fwlink/p/?linkid=2066851)または共通エリア電話アカウントにサインインしている Teams 電話デバイスの **[高度な通話**] トグルをオンにします。
+サポートされている Teams 電話デバイス モデルでこれらの高度な通話機能を使用するには、[Teams 管理センターまたは Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851) 共有デバイス アカウントにサインインしている Teams 電話デバイスの **[高度な通話**] トグルをオンにします。
 
 高度な呼び出し機能を有効にするには、必要なすべての機能をサポートできるハードウェア モデルを購入する必要があります。
 
 ### <a name="turn-on-advanced-calling-in-teams-admin-center"></a>Teams 管理センターで高度な通話を有効にする
 
-1. Microsoft 365 管理者アカウントを使用して [Teams 管理センター](https://admin.teams.microsoft.com/dashboard) にサインインします。
+1. Microsoft 365 管理者アカウントを使用して [Teams 管理センター](https://admin.teams.microsoft.com/dashboard)にサインインします。
 1. 左側のメニューから、[ **Teams デバイス** > **] [電話** ] >に移動し、[ **構成プロファイル** ] タブを選択します。
 1. 一覧から、共通エリア電話に割り当てられている構成プロファイルを選択します。
 1. [ **通話の設定** ] セクションで、[ **呼び出しの詳細設定** ] トグルを見つけます。
@@ -197,7 +178,7 @@ PSTN 接続オプションに基づいて電話番号を取得して割り当て
 
 ## <a name="next-steps"></a>次の手順
 
-組織の共通エリア電話を設定してサインインしたので、Teams 管理センターで管理できます。 詳細については、「 [Microsoft Teams: デバイスの管理](devices/device-management.md) 」を参照してください。
+組織の共通エリア電話を設定してサインインしたので、Teams 管理センターで管理できます。 詳細については、「[Microsoft Teams: デバイスの管理](devices/device-management.md)」を参照してください。
 
 ## <a name="related-articles"></a>関連記事
 

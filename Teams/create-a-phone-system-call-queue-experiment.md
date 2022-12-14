@@ -25,12 +25,12 @@ ms.custom:
 - Phone System - seo-marvel-apr2020
 robots: noindex
 description: Microsoft Teams で通話キューを設定する方法について説明します。 通話キューには、あいさつメッセージ、保留音楽、通話リダイレクトなどの機能が用意されています。
-ms.openlocfilehash: 401479f73b81fffcdcb6d5d1d3663a80e4fc7b86
-ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
+ms.openlocfilehash: 9750bfddbf43c1b0e103e6d6c31feaf4aa542590
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/03/2022
-ms.locfileid: "69252005"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392527"
 ---
 # <a name="create-a-call-queue"></a>呼び出しキューを作成する
 
@@ -129,9 +129,9 @@ ms.locfileid: "69252005"
 
 ID を呼び出すためにこの新しいリソース アカウントを作成した後も、次の操作を行う必要があります。
 
-- [Teams 電話リソース アカウント ライセンス](manage-resource-accounts.md#assign-a-license)を割り当てる
-- Microsoft通話プラン ライセンスの割り当て、オペレーター接続電話番号の割り当て、またはダイレクト ルーティングのオンライン音声ルーティング ポリシーの割り当て
-- 通話プランを使用している場合は、[リソース アカウントにサービス電話番号](manage-resource-accounts.md#assign-a-service-number)Microsoft割り当てます
+- [Teams 電話リソース アカウント ライセンス](manage-resource-accounts.md#assign-a-license)を割り当てます。
+- Microsoft通話プラン ライセンスの割り当て、オペレーター接続電話番号の割り当て、またはダイレクト ルーティングのオンライン音声ルーティング ポリシーの割り当て。
+- 通話プランを使用している場合は、[リソース アカウントに電話番号](manage-resource-accounts.md#assign-a-phone-number)Microsoft割り当てます。
 
 #### <a name="set-the-call-queue-language"></a>通話キューの言語を設定する
 

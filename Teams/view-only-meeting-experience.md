@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 872d2f904919186d631fbfbd913ee500ea6421d9
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: c7a608132af2807c1fc59e25f7dac39433fe5dc5
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706834"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392097"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams の表示限定の会議エクスペリエンス
 
@@ -30,6 +30,9 @@ ms.locfileid: "67706834"
 
 > [!Note]
 > 会議が容量を超えた場合、Teams は 10,000 人に対応できる閲覧限定のブロードキャスト エクスペリエンスにシームレスに拡大縮小されます。 さらに、リモート 作業が増加したこの期間中は、今年の終わりまでさらに大規模な 20,000 人のブロードキャストを利用することができます。 ウェビナーは現在、閲覧限定のブロードキャスト エクスペリエンスをサポートしていません。
+
+> [!Note]
+> Teams 会議は Teams Live イベント (TLE) ではなく、eCDN Microsoft利用しません。 詳細については、「[Microsoft eCDN オンボード チェックリスト](/ecdn/integration/onboarding-checklist-for-tle-customers)」を参照してください。
 
 Microsoft Teams では、最大 10,000 人の参加者がTeams 会議に参加できます。 メイン会議の容量に達する (1,000 人のユーザーが会議に参加した場合) と、その他の出席者は表示限定のエクスペリエンスで参加します。
 
@@ -44,7 +47,7 @@ Microsoft Teams では、最大 10,000 人の参加者がTeams 会議に参加�
 
 ## <a name="teams-view-only-experience-controls"></a>Teams の表示限定のエクスペリエンス コントロール
 
-[SkypeForBusiness PowerShell モジュール](/powershell/module/skype/?view=skype-ps)、または [MicrosoftTeams モジュール](https://www.powershellgallery.com/packages/MicrosoftTeams)のバージョン 2.0.0 以降の [`Set-CsTeamsMeetingPolicy`](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) コマンドレットを使用して、表示限定のエクスペリエンスを有効にします。
+[SkypeForBusiness PowerShell モジュール](/powershell/module/skype/)、または [MicrosoftTeams モジュール](https://www.powershellgallery.com/packages/MicrosoftTeams)のバージョン 2.0.0 以降の [`Set-CsTeamsMeetingPolicy`](/powershell/module/skype/set-csteamsmeetingpolicy) コマンドレットを使用して、表示限定のエクスペリエンスを有効にします。
 
 推奨される `MicrosoftTeams` モジュールを使用するには
 
@@ -129,7 +132,7 @@ Teams の表示限定エクスペリエンスでは、参加者は次の機能�
 - 参加レポートには、表示限定の出席者は含まれません。
 - 表示限定の出席者は、1 つのビデオ機能を利用できます。 アクティブな発表者を見ること、または共有されているコンテンツの閲覧はできますが、両方はできません。
 - 現在、**ギャラリー**、 **大きなギャラリー**、または表示限定の出席者用の **Together モード** レイアウトはサポートされていません。
-- 表示のみの出席者は、次のロビー ポリシーでのみサポートされます。"組織内のPeople"、"自分の組織とゲストのPeople"、"自分の組織のPeople、信頼できる組織、ゲスト"、"Everyone"。 表示限定の出席者をサポートしていないロビー ポリシーを使用している場合、表示限定の出席者は会議で拒否されます。 
+- 表示専用の出席者は、"組織内のPeople"、"組織とゲストのPeople"、"組織、信頼された組織、ゲストのPeople"、"Everyone" のロビー ポリシーでのみサポートされます。 表示限定の出席者をサポートしていないロビー ポリシーを使用している場合、表示限定の出席者は会議で拒否されます。 
 - 表示限定の出席者は、通常の出席者と同じ待機時間ではありません。 <sup>1</sup>
 
   <sup>1</sup> 表示限定の出席者は、会議で 30 秒のビデオと音声の遅延が発生します。  

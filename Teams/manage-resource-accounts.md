@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: この記事では、Microsoft Teams でリソース アカウントを作成、編集、管理する方法について説明します。
-ms.openlocfilehash: cde570c23b6d2e6b673f6cc0f49c9905c3b45fd1
-ms.sourcegitcommit: 55d2f515f5040b4c083f529d7b818c84d42378a0
+ms.openlocfilehash: 3ac03e8531457d21d2988db0a86ca8bdca367f0a
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/22/2022
-ms.locfileid: "69147434"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392207"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams のリソースのアカウントの管理
 
@@ -35,7 +35,7 @@ ms.locfileid: "69147434"
 
 ## <a name="next-steps"></a>次の手順
 
-リソース アカウントのセットアップを完了し、必要に応じてサービス番号を割り当てると、自動応答または通話キューでリソース アカウントを使用する準備が整います。
+リソース アカウントのセットアップを完了し、必要に応じて電話番号を割り当てると、自動応答または通話キューでリソース アカウントを使用する準備が整います。
 
 詳細については、次の参照を参照してください。
 
@@ -73,7 +73,7 @@ Skype for Business Serverとハイブリッドな実装の場合:
 
 ## <a name="delete-a-resource-account"></a>リソース アカウントを削除する
 
-リソース アカウントから電話番号を削除する前に、電話番号の関連付けを解除して、サービス番号が保留中のモードでスタックしないようにしてください。
+電話番号を削除する前に、リソース アカウントから電話番号の関連付けを解除して、保留中のモードで電話番号がスタックしないようにしてください。
 
 その後、Microsoft 365 管理センターの [**ユーザー**] タブでリソース アカウントを削除できます。
 

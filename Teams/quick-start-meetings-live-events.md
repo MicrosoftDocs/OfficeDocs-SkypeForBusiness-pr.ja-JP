@@ -23,14 +23,16 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 982730f7c839eeab2a55bc8997eade8aec31bebc
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: 45148768d023b3cb6b609c1f315fe8d71031a573
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614270"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392197"
 ---
 # <a name="meetings-webinars-and-live-events"></a>会議、ウェビナー、ライブ イベント
+
+[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
 Microsoft Teams では、会議、ウェビナー、ライブ イベントなど、複数の方法で会議を行うことができます。
 
@@ -44,7 +46,7 @@ Microsoft Teams では、会議、ウェビナー、ライブ イベントなど
 
 | 会議の種類 | Number of Participants | 操作 | サポートされている登録 |
 |----------|--------|--------|-----|
-| 会議  | 最大 20,000 人* | - 最大 1,000 人の参加者は、完全にインタラクティブな同等の会議機能を有します。 <br> - 参加者数が 1,000 を超え、最大 20,000 人の場合には、[閲覧限定](view-only-meeting-experience.md) 機能を有します。  | いいえ |
+| 会議  | 最大 20,000 人* | - 最大 1,000 人の参加者は、完全にインタラクティブな同等の会議機能を有します。 <br> - 参加者数が 1,000 を超え、最大 20,000 人の場合には、[閲覧限定](view-only-meeting-experience.md) 機能を有します。  | はい(登録付き会議あり)(ウェビナー 1.0) |
 | ウェビナー | - 最大 1,000 人<br>- [閲覧限定](view-only-meeting-experience.md) 機能の制限が間もなく増加します。 |- 最大 1,000 人の参加者は、完全にインタラクティブな機能を有します。<br> - 対象ユーザーの相互作用が構成可能です。<br> - 発表者を指定できます。 | はい |
 | ライブ イベント | 最大 20,000 人** |- 大規模な視聴者に配信。 <br>- 対象ユーザーの相互作用へのモデレート Q&A。 <br> - 外部発表者を含むプロデューサーと発表者を指定できます。<br>- より高度な運用機能をサポートしています。 | いいえ |
 
@@ -55,7 +57,7 @@ Microsoft Teams では、会議、ウェビナー、ライブ イベントなど
 Note that NDI is fully supported in meetings, webinars, and live events, allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
 
 > [!NOTE]
-> Microsoft Teams を使用してオンライン イベントを配信するためのロール別のガイダンスについては、 [Virtual Event Playbook](https://aka.ms/VirtualEventPlaybook) を参照してください。 Microsoft Tech Communityで [Virtual Event Forum](https://aka.ms/VirtualEventForum) に参加することもできます。
+> 詳細と、Microsoft Teams を使用してオンライン イベントを配信するためのロール別のガイダンスについては、「[Virtual Event Playbook](https://aka.ms/VirtualEventPlaybook)」を参照してください。 Microsoft Tech Communityの[仮想イベント フォーラム](https://aka.ms/VirtualEventForum)に参加することもできます。
 
 > [!NOTE]
 > 様々なプラットフォームで Teams の会議とイベントをすばやく構成する方法についての詳細は、「[プラットフォームごとの Teams の機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)」を参照してください。
@@ -95,7 +97,30 @@ Teams の **会議** には、最大 1,000 人のユーザー向けの音声、�
 
 ## <a name="webinars"></a>ウェビナー
 
-**ウェビナー** は、発表者と参加者が明確な役割を持つ構造化された会議です。 ウェビナーと Teams 会議の主な違いは、ウェビナーは登録をサポートし、出席者のエンゲージメント データを提供することです。 組織内でウェビナーを有効にするには、「[Teams でウェビナーを設定する](set-up-webinars.md)」を参照してください。
+**ウェビナー** は、発表者と参加者が明確な役割を持つ構造化された会議です。 ウェビナーと Teams 会議の主な違いは、ウェビナーで堅牢な登録管理、カスタマイズ可能なイベントと登録サイト、イベント指向の既定の会議オプションがサポートされていることです。
+
+組織が既にウェビナーを使用している場合は、Teams 会議ポリシーと、会議の登録をサポートし、エンゲージメント データを追跡できる次の設定に精通しています。
+
+- AllowMeetingRegistration (有効または無効)
+- WhoCanRegister (ゲストまたはすべてのユーザーを除く社内のすべてのユーザー)
+
+新しいウェビナー エクスペリエンスのリリースにより、次の設定を含む新しい Teams イベント ポリシーが作成されます。
+
+- AllowWebinars (有効または無効)
+- EventAccessType (ゲストまたは全員を除く社内のすべてのユーザー)
+
+新しいポリシーは引き続き登録と追跡をサポートし、ウェビナー エクスペリエンスに追加の機能を提供します。 最初は、次の情報を使用できます。
+
+- 使用条件のカスタム質問
+- 発表者のバイオ
+- バナー、ロゴ、定義済みの色
+- 高度な登録機能: 手動承認、待機リスト、登録日時制限
+- 登録の概要と管理: イベントごとに、有効になっている登録機能に応じて、さまざまな登録状態の出席者のリストを含む登録状態の概要。
+
+新しいポリシーの使用を開始して、新しい機能が使用可能になったときに利用できるようにします。
+
+機能とウェビナーの設定方法の詳細については、「ウェビナーの [セットアップ](set-up-webinars.md)」を参照してください。
+
 
 ### <a name="key-training-for-end-users"></a>エンド ユーザー向けのトレーニング
 
@@ -152,6 +177,8 @@ Teams で提供されるアプリを使用し、認定されたサード パー�
 誰でも無料で Teams 会議、ウェビナー、パブリック ライブ イベントに参加できます。ライセンスは必要ありません。
 
 会議、ウェビナー、またはライブ イベントを開催、スケジュール、ホストするユーザーには、「[Microsoft Teams サービス解説書](/office365/servicedescriptions/teams-service-description)」に記載されている Microsoft 365 ライセンスのうちのいずれかが必要です。 既に Teams を使用している場合は、会議、ウェビナー、ライブ イベントの開催とホストに必要なライセンスを持っていると思われます。
+
+Teams Premium ライセンスの詳細については、「 [Teams Premium ライセンス](teams-add-on-licensing/licensing-enhance-teams.md)」を参照してください。
 
 ユーザーが電話で会議にダイヤルインできるようにするには、電話会議を設定する必要があります。 電話会議の詳細については、「[Teams での電話会議](deploy-audio-conferencing-teams-landing-page.md)」を参照してください。
 

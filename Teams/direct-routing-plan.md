@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: ダイレクト ルーティングMicrosoft、サポートされているカスタマー 提供のセッション ボーダー コントローラー (SBC) を電話システムに接続する方法について説明します。
-ms.openlocfilehash: e3da76d8fa3f848945607a7e27f6b162623951b3
-ms.sourcegitcommit: feb9b7d10e38f5a629ee9202b5aaec5beef4de9b
+ms.openlocfilehash: 811115c23d88ff3ce1b7fa6af8f8757afb33fecf
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2022
-ms.locfileid: "69343187"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392327"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -122,26 +122,25 @@ Teams ユーザーは、1 対 1 の Teams から PSTN または Teams 間の通�
 
 次のことを確認する必要があります。
  
-- CsOnlineVoiceRoutingPolicy がユーザーに割り当てられます。 
+- CsOnlineVoiceRoutingPolicy がユーザーに割り当てられます。
 
-- プライベート通話の許可は、Microsoft Teams のテナント レベルで有効になります。 
+- プライベート通話の許可は、Microsoft Teams のテナント レベルで有効になります。
 
 ダイレクト ルーティングは、Microsoft通話プランのライセンスを持つユーザーもサポートします。 通話プランを持つ電話システムは、ダイレクト ルーティング インターフェイスを使用して一部の通話をルーティングできます。 ただし、ユーザーの電話番号はオンラインで取得するか、Microsoftに移植する必要があります。  
 
-同じユーザーの通話プランとダイレクト ルーティング接続の混在は省略可能ですが、便利な場合があります。 たとえば、ユーザーにMicrosoft通話プランが割り当てられているが、SBC を使用して一部の呼び出しをルーティングする場合などです。 最も一般的なシナリオの 1 つは、サード パーティの PBX への呼び出しです。  サード パーティの PBX では、その PBX に接続されている電話への呼び出しを除くすべての通話は、Microsoft通話プランを使用してルーティングされますが、サード パーティの PBX に接続されている電話への通話は SBC に送信されるため、PSTN ではなくエンタープライズ ネットワーク内に留まるのです。 
+同じユーザーの通話プランとダイレクト ルーティング接続の混在は省略可能ですが、便利な場合があります。 たとえば、ユーザーにMicrosoft通話プランが割り当てられているが、SBC を使用して一部の呼び出しをルーティングする場合などです。 最も一般的なシナリオの 1 つは、サード パーティの PBX への呼び出しです。  サード パーティの PBX では、その PBX に接続されている電話への呼び出しを除くすべての通話は、Microsoft通話プランを使用してルーティングされますが、サード パーティの PBX に接続されている電話への通話は SBC に送信されるため、PSTN ではなくエンタープライズ ネットワーク内に留まるのです。
 
-電話システム ライセンスの詳細については、「Office と[プラン のオプション](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options)[を最大限に](https://products.office.com/compare-all-microsoft-office-products?tab=2)活用する」および[「Teams アドオン ライセンスMicrosoft](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。 
+電話システム ライセンスの詳細については、「Office と[プラン のオプション](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options)[を最大限に](https://products.office.com/compare-all-microsoft-office-products?tab=2)活用する」および[「Teams アドオン ライセンスMicrosoft](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
 
-## <a name="supported-end-points"></a>サポートされているエンドポイント 
+## <a name="supported-end-points"></a>サポートされているエンドポイント
 
 エンドポイントとして使用できます。
 
-- 任意の Teams クライアント。 
+- 任意の Teams クライアント。
 
 - 共通エリア電話。 [「Microsoft Teams の共通エリア電話を設定する](./set-up-common-area-phones.md)」を参照してください。 ダイレクト ルーティングを使用して共通エリア電話を設定する場合、通話プラン ライセンスは必要ありません。
 
 - Skype for Business 3PIP 電話。 [Microsoft Teams でのSkype for Business電話 (3PIP) のサポートに関するページを](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351)参照してください
-
 
 ## <a name="sbc-domain-names"></a>SBC ドメイン名
 
@@ -155,7 +154,8 @@ contoso.com|Yes|**有効な名前:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.co
 |contoso.onmicrosoft.com|いいえ|*.onmicrosoft.com ドメインの使用は、SBC 名ではサポートされていません
 
 新しいドメイン名を使用するとします。 たとえば、テナントには、テナントに登録されているドメイン名として contoso.com があり、sbc1.sip.contoso.com を使用する必要があります。 SBC と名前 sbc1.sip.contoso.com をペアリングする前に、テナントのドメインにドメイン名 sip.contoso.com を登録する必要があります。 ドメイン名を登録する前に SBC と sbc1.sip.contoso.com をペアリングしようとすると、"このテナント用に構成されていないため、"sbc1.sip.contoso.com" ドメインを使用できません" というエラーが表示されます。
-ドメイン名を追加した後、UPN user@sip.contoso.com を使用してユーザーを作成し、Teams ライセンスを割り当てる必要もあります。 ドメイン名がテナントのドメインに追加され、新しい名前のユーザーが作成され、ライセンスがユーザーに割り当てられた後、ドメイン名が完全にプロビジョニングされるまでに最大 24 時間かかる場合があります。 
+
+ドメイン名を追加した後、UPN user@sip.contoso.com を使用してユーザーを作成し、Teams ライセンスを割り当てる必要もあります。 ドメイン名がテナントのドメインに追加され、新しい名前のユーザーが作成され、ライセンスがユーザーに割り当てられた後、ドメイン名が完全にプロビジョニングされるまでに最大 24 時間かかる場合があります。
 
 会社が 1 つのテナントに複数の SIP アドレス空間を持っている可能性があります。 たとえば、ある会社は SIP アドレス空間として contoso.com し、2 つ目の SIP アドレス空間として fabrikam.com します。 一部のユーザーはアドレス user@contoso.com を持ち、一部のユーザーはアドレス user@fabrikam.com を持っています。 
 
@@ -166,14 +166,16 @@ SBC で必要な FQDN は 1 つだけであり、ペアのテナント内の任�
   
 ## <a name="public-trusted-certificate-for-the-sbc"></a>SBC のパブリック信頼証明書
 
-Microsoftでは、認定署名要求 (CSR) を生成して SBC の証明書を要求することをお勧めします。 SBC の CSR の生成に関する具体的な手順については、SBC ベンダーが提供する相互接続の手順またはドキュメントを参照してください。 
+Microsoftでは、認定署名要求 (CSR) を生成して SBC の証明書を要求することをお勧めします。 SBC の CSR の生成に関する具体的な手順については、SBC ベンダーが提供する相互接続の手順またはドキュメントを参照してください。
 
 > [!NOTE]
 > ほとんどの証明機関 (CA) では、秘密キーサイズが少なくとも 2048 である必要があります。 CSR を生成する場合は、この点に注意してください。
 
 証明書には、共通名 (CN) またはサブジェクト別名 (SAN) フィールドとして SBC FQDN が必要です。
 
-または、ダイレクト ルーティングでは CN または SAN のワイルドカードがサポートされており、ワイルドカードは標準 [の RFC HTTP Over TLS](https://tools.ietf.org/html/rfc2818#section-3.1) に準拠している必要があります。 たとえば、SBC FQDN sbc.contoso.com と一致するが、sbc.test.contoso.com と一致しない .contoso.com を使用 \*します。
+または、ダイレクト ルーティングでは CN または SAN のワイルドカードがサポートされており、ワイルドカードは標準 [の RFC HTTP Over TLS](https://tools.ietf.org/html/rfc2818#section-3.1) に準拠している必要があります。
+
+たとえば、SBC FQDN sbc.contoso.com と一致するが、sbc.test.contoso.com と一致しない .contoso.com を使用 \*します。
 
 ダイレクト ルーティング SIP インターフェイスは、信頼されたルート証明書プログラムの一部である証明機関 (CA) によって署名された証明書のみを信頼Microsoft。 SBC 証明書が、プログラムの一部である CA によって署名されていること、および証明書の拡張キー使用法 (EKU) 拡張機能にサーバー認証が含まれていることを確認します。
 詳細情報: [プログラムの要件 - 信頼されたルート プログラムMicrosoft](/security/trusted-root/program-requirements)
@@ -188,7 +190,7 @@ Microsoftでは、認定署名要求 (CSR) を生成して SBC の証明書を�
 > [!NOTE]
 > SBC 上の Teams 接続に対して相互 TLS (MTLS) サポートが有効になっている場合は、Teams TLS コンテキストの SBC 信頼されたルート ストアに Baltimore CyberTrust Root 証明書と DigiCert グローバル ルート G2 証明書をインストールする必要があります。 (これは、Microsoft サービス証明書でこれら 2 つのルート証明書のいずれかを使用するためです)。これらのルート証明書をダウンロードするには、「[Office 365暗号化チェーン](/microsoft-365/compliance/encryption-office-365-certificate-chains)」を参照してください。 詳細については、「 [Office TLS 証明書の変更](/microsoft-365/compliance/encryption-office-365-tls-certificates-changes)」を参照してください。
 
-## <a name="sip-signaling-fqdns"></a>SIP シグナリング: FQDN 
+## <a name="sip-signaling-fqdns"></a>SIP シグナリング: FQDN
 
 ダイレクト ルーティングは、次の環境で提供されます。
 
@@ -274,6 +276,7 @@ SBC は、sip.pstnhub.microsoft.com を解決するための DNS クエリを作
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>メディア トラフィック: ポート範囲
+
 メディア バイパスなしでダイレクト ルーティングを展開する場合は、次の要件が適用されることに注意してください。 メディア バイパスのファイアウォール要件については、「 [ダイレクト ルーティングを使用したメディア バイパスの計画](./direct-routing-plan-media-bypass.md)」を参照してください。
 
 メディア トラフィックは、Microsoft クラウド内の別のサービスとの間で送受信されます。 メディア トラフィックの IP アドレス範囲は次のとおりです。
@@ -292,7 +295,8 @@ SBC は、sip.pstnhub.microsoft.com を解決するための DNS クエリを作
 - 52.127.88.0/21
 
 ### <a name="port-range-applicable-to-all-environments"></a>ポート範囲 (すべての環境に適用)
-メディア プロセッサのポート範囲を次の表に示します。 
+
+メディア プロセッサのポート範囲を次の表に示します。
 
 |トラフィック|開始|終了|送信元ポート|宛先ポート|
 |:--- |:--- |:--- |:--- |:--- |
@@ -301,7 +305,6 @@ SBC は、sip.pstnhub.microsoft.com を解決するための DNS クエリを作
 
   > [!NOTE]
   > Microsoftでは、SBC での同時呼び出しごとに少なくとも 2 つのポートが推奨されます。
-
 
 ## <a name="media-traffic-media-processors-geography"></a>メディア トラフィック: メディア プロセッサの地域
 
@@ -331,22 +334,23 @@ SBC は、sip.pstnhub.microsoft.com を解決するための DNS クエリを作
 
 メディア以外のバイパス ケースにのみ適用されます。 メディア バイパスを使用すると、メディアは Teams クライアントと SBC の間で直接流れます。
 
-クラウド メディア プロセッサと Microsoft Teams クライアントの間の脚では、SILK または G.722 が使用されます。 この脚のコーデックの選択は、複数のパラメーターを考慮したMicrosoft アルゴリズムに基づいています。 
+クラウド メディア プロセッサと Microsoft Teams クライアントの間の脚では、SILK または G.722 が使用されます。 この脚のコーデックの選択は、複数のパラメーターを考慮したMicrosoft アルゴリズムに基づいています。
 
   > [!NOTE]
   > メディアの再ターゲット設定はサポートされていません。 ダイレクト ルーティングの呼び出し中に、SBC が新しいメディア IP を Teams ダイレクト ルーティングに送信する場合、SIP 信号でネゴシエートされますが、メディアは Teams ダイレクト ルーティングから新しい IP アドレスに送信されることはありません。
 
 ## <a name="supported-session-border-controllers-sbcs"></a>サポートされているセッション ボーダー コントローラー (SBC)
 
-Microsoftでは、ダイレクト ルーティングとペアリングする認定された SBC のみがサポートされます。 エンタープライズ VoIPは企業にとって重要であるため、Microsoft選択した SBC で集中的なテストを実行し、SBC ベンダーと連携して 2 つのシステムの互換性を確保します。 
+Microsoftでは、ダイレクト ルーティングとペアリングする認定された SBC のみがサポートされます。 エンタープライズ VoIPは企業にとって重要であるため、Microsoft選択した SBC で集中的なテストを実行し、SBC ベンダーと連携して 2 つのシステムの互換性を確保します。
 
-検証済みのデバイスは、Teams ダイレクト ルーティングの認定済みとして一覧表示されます。 認定されたデバイスは、すべてのシナリオで動作することが保証されています。 
+検証済みのデバイスは、Teams ダイレクト ルーティングの認定済みとして一覧表示されます。 認定されたデバイスは、すべてのシナリオで動作することが保証されています。
 
 サポートされている SBC の詳細については、「 [ダイレクト ルーティングの認定を受けたセッション ボーダー コントローラー](direct-routing-border-controllers.md)」を参照してください。
 
 ## <a name="support-boundaries"></a>サポート境界
+
 Microsoft は、認定されたデバイスで使用する場合にのみ、ダイレクト ルーティングを備えた電話システムをサポートします。 問題が発生した場合は、最初に SBC ベンダーのカスタマー サポートに連絡する必要があります。 必要に応じて、SBC ベンダーは内部チャネルを介して問題を Microsoft にエスカレートします。 Microsoft は、認定済みでないデバイスがダイレクト ルーティング経由で電話システムに接続されている場合に、サポート ケースを拒否する権利を留保します。 お客様のダイレクト ルーティングの問題がベンダーの SBC デバイスにあると Microsoft が判断した場合、お客様は SBC ベンダーにサポートを再び依頼する必要があります。
- 
+
 ## <a name="see-also"></a>関連項目
 
 [ダイレクト ルーティングを構成する](direct-routing-configure.md)
