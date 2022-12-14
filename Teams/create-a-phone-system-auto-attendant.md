@@ -25,12 +25,12 @@ adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY
 adobe-target-experience: Experience B
 adobe-target-content: ./create-a-phone-system-auto-attendant-experiment
 description: Microsoft Teams で自動応答を設定および管理する方法について説明します。
-ms.openlocfilehash: 1484b70dca4ffe1e148522cf6e907f79be732702
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 1294559d1fcca7b1dace8f12cd3203b7effa4c80
+ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307542"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69379393"
 ---
 # <a name="set-up-a-microsoft-teams-auto-attendant"></a>Microsoft Teams 自動応答を設定する
 
@@ -172,7 +172,7 @@ ms.locfileid: "69307542"
 
 ## <a name="step-4-set-up-call-flows-for-holidays-optional"></a>手順 4: 休日の通話フローを設定する (省略可能)
 
-自動応答には、 [設定した各休日](set-up-holidays-in-teams.md)の通話フローを設定できます。 各自動応答には、最大 20 個の決められた休業日を追加できます。
+自動応答には、 [設定した各休日](set-up-holidays-in-teams.md)の通話フローを設定できます。 各自動応答に最大 20 個の休日セットを追加できます。 各休日セットには、最大 10 個の一意の日付範囲を含めることができます。 休日の日付は、自動応答に追加されるすべての休日セットで一意である必要があります。
 
 *[新規] - [強制リッスン] オプションを有効にすると、呼び出し元が選択する前にすべてのメニュー オプションをリッスンする必要があります。*
 *New - \* (アスタリスク) キーと \# (ポンドキー) をメニュー オプションで使用できるようになりました。*

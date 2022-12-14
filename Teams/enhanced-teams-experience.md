@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Licensing
 description: 管理者と IT プロフェッショナル向けの Teams Premium Microsoftについて説明します。
-ms.openlocfilehash: f38afe581c96cfe64bd5fd305c3d5f7f09b7c83e
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 2d7c43f6dd46a635d7aceaaa95548b8c4f31f590
+ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69308038"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69379464"
 ---
 # <a name="microsoft-teams-premium---overview-for-administrators"></a>Microsoft Teams Premium - 管理者向けの概要
 
@@ -65,13 +65,13 @@ Teams Premium には、次の重要な機能を使用して会議を保護する
 
 
 
-| 機能/タスク  | 管理者向けのドキュメント |
-| -------------------- | ----------- | 
-| 秘密度ラベル | [3 層の保護を使用して Teams 会議を構成する](configure-meetings-three-tiers-protection.md) | 
-| 透かし | [会議に透かしを要求する (記事)](watermark-meeting-content-video.md) |
-| エンドツーエンド暗号化 (E2EE) | [機密性の高い会議の暗号化](end-to-end-encrypted-meetings.md) | 
-| テンプレート、ラベル、ポリシー | [テンプレート、秘密度ラベル、ポリシー](meeting-templates-sensitivity-labels-policies.md)
-| 記録できるユーザーを制限する | [機密性の高い会議の記録を管理する](manage-meeting-recording-options.md) | 
+| 機能/タスク  | 管理者向けのドキュメント | エンド ユーザー向けのドキュメント
+| -------------------- | ----------- | ------------ |
+| 秘密度ラベル | [3 層の保護を使用して Teams 会議を構成する](configure-meetings-three-tiers-protection.md) | |
+| 透かし | [会議に透かしを要求する](watermark-meeting-content-video.md) | [会議の透かし](https://support.microsoft.com/office/watermark-for-teams-meetings-a9166432-f429-4a19-9a72-c9e8fdf4f589)|
+| エンドツーエンド暗号化 (E2EE) | [機密性の高い会議の暗号化](end-to-end-encrypted-meetings.md) | [暗号化を使用する](https://support.microsoft.com/office/use-end-to-end-encryption-for-teams-meetings-a8326d15-d187-49c4-ac99-14c17dbd617c)  |
+| テンプレート、ラベル、ポリシー | [テンプレート、秘密度ラベル、ポリシー](meeting-templates-sensitivity-labels-policies.md)  | [カスタム テンプレートを使用する](https://support.microsoft.com/office/use-custom-templates-for-teams-meetings-78279be9-3283-4999-b24e-96fb0da2fb4f) |
+| 記録できるユーザーを制限する | [機密性の高い会議の記録を管理する](manage-meeting-recording-options.md) | [会議のレコーディング](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24?storagetype=stage#bkmk_whocanstartorstoparecording) |
 
 
 ## <a name="custom-meetings"></a>カスタム会議
@@ -86,12 +86,12 @@ Teams Premium には、会議をカスタマイズするための次の追加機
 
 - **カスタム のモード シーン** - 組織内の開発者が会議のビデオ シーンを定義およびカスタマイズできるようにする Teams アプリ。  
 
-| 機能/タスク | 管理者向けのドキュメント |
-| -------------------- | ----------- | 
-| 会議テンプレート | - [概要](custom-meeting-templates-overview.md)<br>- [カスタム会議テンプレートを作成する](create-custom-meeting-template.md)|
-| 会議のテーマ | [Teams 会議のテーマ](meeting-themes.md) | 
-| カスタム会議の背景 | [会議の背景](custom-meeting-backgrounds.md)| 
-| カスタムの一緒モード シーン | [ユーザーと開発者向けのコンテンツ](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode)| 
+| 機能/タスク | 管理者向けのドキュメント | エンド ユーザー向けのドキュメント
+| -------------------- | ----------- | ------------ |
+| 会議テンプレート | - [概要](custom-meeting-templates-overview.md)<br>- [カスタム会議テンプレートを作成する](create-custom-meeting-template.md)| [カスタム テンプレートを使用する](https://support.microsoft.com/office/use-custom-templates-for-teams-meetings-78279be9-3283-4999-b24e-96fb0da2fb4f)
+| 会議のテーマ | [Teams 会議のテーマ](meeting-themes.md) | [会議のテーマを使用する](https://support.microsoft.com/office/use-meeting-themes-for-teams-meetings-fbfd826d-1112-4790-918a-5a82cac8250e) |
+| カスタム会議の背景 | [会議の背景](custom-meeting-backgrounds.md)| |
+| カスタムの一緒モード シーン | [ユーザーと開発者向けのコンテンツ](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode)| |
 
 
 
@@ -108,11 +108,11 @@ Teams Premium では、新しい Teams イベント ポリシーを使用して�
 - **登録の概要と管理** - イベントごとに、有効になっている登録機能に応じて、登録状態が異なる出席者のリストを含む登録状態の概要。
 
 
-| 機能/タスク | 管理者向けのドキュメント | 
-| -------------------- | ----------- | 
-| 会議、ウェビナー、ライブ イベントについて理解する | [クイック スタート](quick-start-meetings-live-events.md) | 
-| ウェビナーを設定する | [ウェビナーを設定する](set-up-webinars.md) | 
-| ウェビナーの会議ポリシー | [会議ポリシー](meeting-policies-in-teams-general.md)
+| 機能/タスク | 管理者向けのドキュメント | エンド ユーザー向けのドキュメント
+| -------------------- | ----------- | ----------- |
+| 会議、ウェビナー、ライブ イベントについて理解する | [クイック スタート](quick-start-meetings-live-events.md) | |
+| ウェビナーを設定する | [ウェビナーを設定する](set-up-webinars.md) | - [ウェビナーの登録を管理する](https://support.microsoft.com/office/manage-webinar-registration-923f382a-0cca-433a-b38d-7461971192d1) <br> - [出席者に表示される内容を管理する](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16)|
+| ウェビナーの会議ポリシー | [会議ポリシー](meeting-policies-in-teams-general.md) | |
 
 
 
