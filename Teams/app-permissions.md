@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 643c354086d93d7aa3edd4d73216b4b9d5dbbe56
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: 43e960a623992502f07d028a152fec3104e8670b
+ms.sourcegitcommit: 7104222e5d379d1338fa8bf2555754d3ac5eeb82
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912476"
+ms.lasthandoff: 12/15/2022
+ms.locfileid: "69412250"
 ---
 # <a name="information-accessed-and-actions-performed-by-apps-and-related-admin-considerations"></a>アクセスされた情報とアプリによって実行されるアクション、および関連する管理者の考慮事項
 
@@ -68,12 +68,6 @@ Microsoft Teams アプリは、1 つ以上の機能を、インストール、�
   * 個人用メッセージを受信し、それに返信します。
   * グループ チャットを受信して返信します。
   * チャネル メッセージを受信し、それに返信します。
-
-* 以下に示す内容は、明示的なアクセス許可ではありませんが、RECEIVE_MESSAGE と REPLYTO_MESSAGE、およびボットを使用できる範囲 (マニフェストで宣言) によって暗黙的に示されます。
-
-  * RECEIVE_MESSAGE_PERSONAL、REPLYTO_MESSAGE_PERSONAL
-  * RECEIVE_MESSAGE_GROUPCHAT、REPLYTO_MESSAGE_GROUPCHAT
-  * RECEIVE_MESSAGE_TEAM、REPLYTO_MESSAGE_TEAM
 
 * SEND_FILES、RECEIVE_FILES:<sup>2</sup> ボットが個人用チャットでファイルを送受信できるかどうかを制御します (グループ チャットまたはチャネルではまだサポートされていません)。
 

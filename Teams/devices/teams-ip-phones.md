@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 最適な結果を得るために、Microsoft Teams の認定を受けるデスクと電話について説明します。
-ms.openlocfilehash: 0055529d7bc0344faeb04e7d35bf0c9ed457510d
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+ms.openlocfilehash: e6e857539b47fdb991b92e90e7c9f2f1d609143c
+ms.sourcegitcommit: 7104222e5d379d1338fa8bf2555754d3ac5eeb82
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392357"
+ms.lasthandoff: 12/15/2022
+ms.locfileid: "69412230"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 認定 Android デバイス
 
@@ -402,7 +402,7 @@ Android アプリとファームウェアバージョンの最新のTeams Rooms�
 
 | デバイス モデル  | ファームウェアのバージョン | 含まれる製品リリース|
 |:--------------|:-----------------|:-------------------------|
-|ニート フレーム nf21f1 | `NFF1.20220914.1215` | 2022 年 11 月 30 日 |
+|ニート フレーム nf21f1 | `NFF1.20220914.1215` | 2022 Update #3B |
 |Crestron UC-P10-TD     |1.0.0.57 |2022 Update #3A|
 |Crestron UC-P8-TD     |1.0.0.57 |2022 Update #3A|
 |Lenovo ThinkSmart ビュー| `CD-18781Y.211116.114` |2021 Update #3  |
