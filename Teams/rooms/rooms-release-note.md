@@ -15,20 +15,20 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: 管理者は、Microsoft Teams Rooms の累積的な改善リストである Microsoft Teams Rooms のリリース ノートを参照できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d861b5ec9b5b70ca18032462b042f10cd4f5b75a
-ms.sourcegitcommit: ffcc4c7d5688fee28f5fdc8bb8e6b78afb1ee626
+ms.openlocfilehash: 6c6416115d65f223b3785be050520548c2e69ba4
+ms.sourcegitcommit: 23224d983ae027c4923e52ed8e31953ae0f84807
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/31/2022
-ms.locfileid: "68795439"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "69422816"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams Roomsのリリース ノート
 
 この記事では、Microsoft Teams Rooms の累積的な改善点について説明します。
 
-Teams Roomsの更新プログラムには、アプリの更新プログラムと Teams Web クライアントTeams Roomsの 2 種類があります。 
+Teams Roomsには、アプリの更新プログラムと Teams Web クライアントの 2 種類Teams Rooms更新プログラムがあります。
 
-Teams Roomsアプリの更新は、Microsoft Store または[手動更新プログラム](manual-update.md)を介して行われます。 更新は、デバイスにローカルにインストールされているユニバーサル Windows プラットフォーム (UWP) アプリケーションに適用されます。
+Teams Roomsアプリの更新は、Microsoft ストアまたは[手動更新によって行われます](manual-update.md)。 更新は、デバイスにローカルにインストールされているユニバーサル Windows プラットフォーム (UWP) アプリケーションに適用されます。
 
 Teams Web クライアントの更新は、Teams Web アプリ配信サービスを介して行われます。 Teams Web クライアントは、デバイスにインストールされているローカル UWP アプリケーションの更新を必要としないクラウドベースのサービスです。
 
@@ -40,6 +40,7 @@ Teams Roomsは、モダン ライフサイクル ポリシーによって管理�
 
 |リリース |公開日 <br/> Microsoft Store |
 |--- |--- |
+|4.15.54.0 | 12/15/2022 |
 |4.14.24.0 |9/2/2022 |
 |4.13.132.0 |8/2/2022 |
 |4.12.139.0 |7/14/2022 |
@@ -47,8 +48,8 @@ Teams Roomsは、モダン ライフサイクル ポリシーによって管理�
 |4.12.126.0 |4/27/2022 |
 |4.11.17.0 |3/3/2022 |
 |4.11.12.0 |1/24/2022 |
-|Teams Web-Client リリース | 2021 年 12 月 |
-|Teams Web-Client リリース | 2021 年 10 月 |
+|Teams Web クライアントのリリース | 2021 年 12 月 |
+|Teams Web クライアントのリリース | 2021 年 10 月 |
 |4.10.10.0 |10/1/2021 |
 |4.9.12.0 |07/28/2021 |
 |4.8.31.0 |05/12/2021 |
@@ -96,19 +97,33 @@ Teams Roomsは、モダン ライフサイクル ポリシーによって管理�
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams Rooms 機能の概要と問題の解決
 
+### <a name="415540-12152022"></a>4.15.54.0 (12/15/2022)
+
+この更新プログラムで導入されるもの:
+
+- 会議内通知の改善
+- ギャラリー、大きいギャラリー、および Together モードでの会議チャット <sup>1</sup>
+- Teams 会議でホワイトボードを開始する
+- 会議室のビデオ名簿コントロールをフレームに合わせる
+- オーバーフロー会議のサポート
+- [Id でズーム会議に参加する (直接ゲスト参加)]
+- サード パーティ製会議の品質の修正 (直接ゲスト参加)
+- Teams がサインインしていない場合にライセンスが表示されない設定のライセンス情報の修正
+- 新しいデフォルトの壁紙(鮮やかな旗)と他の4つの新しい壁紙
+
+<sup>1</sup> XML を使用してすべての会議レイアウトから会議チャットを非表示にする管理者構成については、「[XML 構成ファイルを使用してリモートでMicrosoft Teams Roomsコンソール設定を管理する](xml-config-file.md)」を参照してください。
+
 ### <a name="414240-922022"></a>4.14.24.0 (9/2/2022)
 
 この更新プログラムで導入されるもの:
 
-- フロント行レイアウト エクスペリエンス更新 <sup>プログラム 1</sup> 
-- 部屋のビデオをピン留めして非表示にする <sup>1</sup> 
-- デュアルディスプレイ Teams Rooms <sup>2</sup> で分割ギャラリーをオフにするための管理者構成
-- デュアルディスプレイTeams Rooms最大 18 個の参加者ビデオ ストリームを表示できるようになりました <sup>1</sup>
-- Microsoft Teams Rooms Proおよび Microsoft Teams Room Basic ルーム ライセンスのサポート <sup>1</sup>
+- フロント行レイアウト エクスペリエンスの更新
+- 会議室のビデオをピン留めして非表示にする
+- デュアルディスプレイ Teams Rooms <sup>1</sup> で分割ギャラリーをオフにするための管理者構成
+- デュアルディスプレイTeams Rooms最大 18 個の参加者ビデオ ストリームを表示できるようになりました
+- Teams Room Basic ルーム ライセンスのMicrosoft Teams Rooms ProとMicrosoftのサポート
 
-<sup>1</sup> この機能は Teams Web クライアントにロールアウトされており、この更新プログラムがリリースされてから約 2 週間かかります。 詳細については、「 [Teams の更新プログラム](../teams-client-update.md)」を参照してください。
-
-<sup>2</sup> XML を使用して分割ギャラリーをオフにするための管理者構成については、「XML [構成ファイルを使用してリモートでMicrosoft Teams Roomsコンソール設定を管理する](../rooms/xml-config-file.md)」を参照してください。
+<sup>1</sup> XML を使用して分割ギャラリーをオフにするための管理者構成については、「XML [構成ファイルを使用してリモートでMicrosoft Teams Roomsコンソール設定を管理する](../rooms/xml-config-file.md)」を参照してください。
 
 ### <a name="4131320-822022"></a>4.13.132.0 (8/2/2022)
 
@@ -154,7 +169,7 @@ Teams Roomsは、モダン ライフサイクル ポリシーによって管理�
 この更新プログラムで導入されるもの:
 - IT 管理者は、TEAMS 会議室デバイスを登録して、XML 設定を使用してパブリック プレビュー機能を受け取ることができます。 登録すると、デバイスはベータ機能の受信を開始します。 ベータ テストに関するすべての機能は、[Microsoft Teams パブリック プレビューで発表されます - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview) <sup>1,2</sup>  
 - IT 管理者は、フロント オブ ルームの表示解像度を設定し、XML 設定を使用してリモートでスケーリング<sup>できます 2</sup>
-- IT 管理者は、XML 設定<sup>3</sup> を使用して Microsoft のノイズ抑制を無効にすることができます 
+- IT 管理者は、XML 設定<sup>3</sup> を使用してMicrosoftノイズ抑制を無効にすることができます 
 - IT 管理者は、レジストリ キー設定<sup>4</sup> を使用して、デバイス上のダウンロード フォルダーのクリーンアップをオーバーライドできます
 - ユーザーが別のクラウドでホストされている Teams 会議に参加できるようにする (つまり、GCCH のお客様は商用クラウドでホストされている Teams 会議に参加できます。その逆も可能です)。 
 - Teams ルームで、タッチ ディスプレイを備えた Teams ルームのセキュリティ対策として、PowerPoint Liveの URL からの起動エッジ ブラウザーがブロックされるようになりました 
@@ -195,7 +210,7 @@ Teams Roomsは、モダン ライフサイクル ポリシーによって管理�
 
 > <sup>1</sup> これらの機能は Teams Web クライアントを使用してロールアウトされ、今後数週間でロールアウトが完了します。 詳細については、 [Teams の更新プログラム](../teams-client-update.md) に関するページを参照してください。
 > 
-> Microsoft Teams でのみ実行されている Windows 上の <sup>2</sup> つの Teams ルーム、または Skype for Business と Microsoft Teams (既定) は、新しい Meet and Call エクスペリエンスで更新されますが、他のモードはこの更新プログラムの影響を受けません。
+> Microsoft Teams でのみ実行されている Windows 上の <sup>2</sup> つの Teams ルーム、または Skype for Business および Microsoft Teams (既定) は、新しい Meet and Call エクスペリエンスで更新されますが、他のモードはこの更新プログラムの影響を受けません。
 > 
 > <sup>3</sup> Teams Roomsの [AAD 条件付きアクセス](../rooms/rooms-authentication.md#azure-ad-conditional-access) ポリシーの設定に関する追加の詳細を参照してください。
 > 
@@ -410,7 +425,7 @@ Teams Roomsは、モダン ライフサイクル ポリシーによって管理�
 - テーマの更新: コンソール UI コントロールが色のコントラストを満たしていることを確認するために、コンソールの背景をニュートラルな色にしながら、部屋のディスプレイの前面にのみカスタム背景イメージを保持します。アクセシビリティ要件
 - Teams 通話/会議で Microsoft Teams PC、Web、モバイル クライアントに一貫性のあるエクスペリエンスを提供するための会議中通話制御用のユニバーサル バー<sup>1</sup>
 - Teams 通話/会議後の通話品質フィードバックの評価<sup>1</sup>
-- PC/Web/Mobile Teams クライアント<sup>1</sup> <sup>2</sup> から共有するときに、会議室ディスプレイの前面Microsoft Teams Rooms Microsoft Whiteboard を受信/レンダリングする
+- PC/Web/Mobile Teams クライアントから共有する場合Microsoft Teams Rooms会議室ディスプレイの前面にホワイトボードMicrosoftを受信/レンダリング<sup>する 1</sup> <sup>2</sup>
 - Microsoft Teams Rooms クライアントに伴う互換性の問題が原因で、Windows 10 バージョン 1809 のアップグレードに対するサポートが削除。 Windows 10 バージョン 19H1 のサポートは今後のリリースで追加されます
 
 <sup>1</sup> Microsoft Teams サービスが Teams リングを使用して提供されます。 この機能は 4.0.105.0 クライアントの更新の前後に使用可能になります
