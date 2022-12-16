@@ -24,12 +24,12 @@ ms.custom:
 - Licensing
 - admindeeplinkMAC
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 6d64c89aa62d7209a1135234e975f492e7c182a9
-ms.sourcegitcommit: 0a13f96663c7466b08d654bedcb6206f302189a1
+ms.openlocfilehash: e66edfcb63b7569b02268b355c7b851c61763810
+ms.sourcegitcommit: 321de0e5d8846caaaab944826f6ca06394e707ef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/22/2022
-ms.locfileid: "69139161"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "69414695"
 ---
 # <a name="what-are-communications-credits"></a>通信クレジットについて
 
@@ -98,7 +98,7 @@ You can set up consumption billing using a **one-time funding** of the pre-paid 
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 
-Each organization will have a different usage of Calling Plans volume and rates to consider. 現在のサービス プロバイダーからこの種類の使用状況データを取得する必要があります。 既にサービス プロバイダーとして Teams を使用している組織の場合は、Microsoft Teams 管理センター > **Analytics &レポート****使用状況レポート** > で確認し、[**PSTN と SMS (プレビュー) の使用状況]** を選択して使用状況データを取得できます。
+Each organization will have a different usage of Calling Plans volume and rates to consider. 現在のサービス プロバイダーからこの種類の使用状況データを取得する必要があります。 既にサービス プロバイダーとして Teams を使用している組織の場合は、Microsoft Teams 管理センター > **Analytics & レポート** > **で使用状況レポート** を確認し、[**PSTN と SMS (プレビュー) の使用状況]** を選択して使用状況データを取得できます。
   
 コミュニケーション クレジットを設定するときは、組織の通話使用量を調査して、入力する必要がある金額を決定する必要があります。 PSTN 使用状況レポートを確認することで、通話使用状況情報を取得できます。 このレポートを使うと、カスタム レポートを作成したり、通話データ記録を Excel にエクスポートしたりすることができます。
 
@@ -106,11 +106,11 @@ Each organization will have a different usage of Calling Plans volume and rates 
 
 - 課金管理者
 - Skype for Business管理者
-- 会社の管理者
-- ユーザー アカウント管理者
+- グローバル管理者
+- ユーザー管理者
 - ヘルプデスク管理者
 - サービス サポート管理者
-- デバイス管理者
+- Azure AD 参加済みデバイスローカル管理者
 - アプリケーション管理者
 - ライセンス管理者
 - クラウド デバイス管理者
@@ -142,7 +142,7 @@ Each organization will have a different usage of Calling Plans volume and rates 
 
 価格に関する情報は、[Microsoft 365 管理センターにサインインし](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)、[課金 **購入サービス****]** >  に移動して確認することもできます。
   
-各機能に必要なライセンスまたはライセンスの表については、「 [Microsoft Teams アドオン ライセンス](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
+各機能に必要なライセンスまたはライセンスを含むテーブルを表示するには、「[Teams アドオン ライセンスMicrosoft](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
   
 ## <a name="related-articles"></a>関連記事
 

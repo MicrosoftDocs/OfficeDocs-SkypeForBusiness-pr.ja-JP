@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams で緊急通報ポリシーを管理する
+title: Microsoft Teams で緊急通話ポリシーを管理する
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -16,58 +16,58 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Microsoft Teams の緊急通話ポリシーを使用して管理し、組織内の Teams ユーザーが緊急通報を行ったときに何が起こるかを定義する方法について説明します。
+description: Microsoft Teams で緊急通報ポリシーを使用して管理し、組織内の Teams ユーザーが緊急通報を行った場合の動作を定義する方法について説明します。
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: a6fa08808c9ef5fc258236735cc043e4bde366b1
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+ms.openlocfilehash: 4b5d293cbbd588a564ff1a0118ab4d56f96c17a2
+ms.sourcegitcommit: 321de0e5d8846caaaab944826f6ca06394e707ef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551521"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "69414644"
 ---
-# <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Microsoft Teams で緊急通報ポリシーを管理する
+# <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Microsoft Teams で緊急通話ポリシーを管理する
 
-組織が [PSTN 接続オプション](pstn-connectivity.md)として Microsoft 通話プラン、オペレーター接続、Teams Phone Mobile、またはダイレクト ルーティングを使用している場合は、Microsoft Teams の緊急通話ポリシーを使用して、組織内の Teams ユーザーが緊急通話を行うときの動作を定義できます。
+組織が [PSTN 接続オプション](pstn-connectivity.md)としてMicrosoft通話プラン、オペレーター接続、Teams Phone Mobile、またはダイレクト ルーティングを使用している場合は、Microsoft Teams の緊急通話ポリシーを使用して、組織内の Teams ユーザーが緊急通話を行うときの動作を定義できます。
 
-ポリシーを割り当てられたユーザーが緊急サービスを呼び出したときに、通知するユーザーとその通知方法を設定できます。 たとえば、組織のセキュリティ デスクに自動的に通知し、緊急通報でリッスンするようにポリシー設定を構成できます。  
+通知するユーザーと、ポリシーが割り当てられたユーザーが緊急サービスを呼び出す場合の通知方法を設定できます。 たとえば、組織のセキュリティ デスクに自動的に通知し、緊急通報でリッスンするようにポリシー設定を構成できます。  
 
-緊急通報ポリシーは、Microsoft Teams 管理センターの **音声** > **緊急ポリシー** に移動するか、Windows PowerShellを使用して管理します。 ポリシーは、ユーザーと [ネットワーク サイト](cloud-voice-network-settings.md)に割り当てることができます。
+緊急通話ポリシーを管理するには、Microsoft Teams 管理センターの **音声** > **緊急ポリシー** に移動するか、Windows PowerShellを使用します。 ポリシーは、ユーザーと [ネットワーク サイト](cloud-voice-network-settings.md)に割り当てることができます。
 
-ユーザーの場合は、グローバル (組織全体の既定) ポリシーを使用するか、カスタム ポリシーを作成して割り当てることができます。 カスタム ポリシーを作成して割り当てる場合を除き、ユーザーはグローバル ポリシーを自動的に取得します。 グローバル ポリシーの設定は編集できますが、名前の変更や削除はできません。 ネットワーク サイトの場合は、カスタム ポリシーを作成して割り当てます。
+ユーザーの場合は、グローバル (組織全体の既定) ポリシーを使用するか、カスタム ポリシーを作成して割り当てることができます。 カスタム ポリシーを作成して割り当てない限り、ユーザーはグローバル ポリシーを自動的に取得します。 グローバル ポリシーの設定は編集できますが、名前の変更や削除はできません。 ネットワーク サイトの場合は、カスタム ポリシーを作成して割り当てます。
 
-緊急通話ポリシーをネットワーク サイトとユーザーに割り当て、そのユーザーがそのネットワーク サイトにいる場合、そのネットワーク サイトに割り当てられているポリシーは、ユーザーに割り当てられているポリシーよりも優先されます。
+緊急通話ポリシーをネットワーク サイトとユーザーに割り当て、そのユーザーがそのネットワーク サイトにいる場合、ネットワーク サイトに割り当てられているポリシーは、ユーザーに割り当てられているポリシーよりも優先されます。
 
-## <a name="create-a-custom-emergency-calling-policy"></a>カスタム緊急通報ポリシーを作成する
+## <a name="create-a-custom-emergency-calling-policy"></a>カスタム緊急通話ポリシーを作成する
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
 
-1. Microsoft Teams 管理センターの左側のナビゲーションで、 **音声** > **緊急ポリシー** に移動し、[ **通話ポリシー** ] タブをクリックします。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、[**音声** > **緊急ポリシー**] に移動し、[**通話ポリシー**] タブをクリックします。
 
 2. **[追加]** をクリックします。
 
 3. ポリシーの名前と説明を入力します。
 
-4. **外部の場所の検索モード** をオンに設定すると、エンド ユーザーが企業ネットワークの外部のネットワークの場所から作業しているときに、緊急アドレスを構成できます。
+4. **[外部の場所の検索モード**] を オンに設定して、エンド ユーザーが会社のネットワーク外のネットワーク上の場所から作業しているときに緊急対応アドレスを構成できるようにします。
 
-5. 緊急通報が行われたときに組織内のユーザーに通知する方法 (通常はセキュリティ デスク) を設定します。 これを行うには、[ **通知モード**] で、次のいずれかを選択します。
+5. 緊急通報が行われたときに、組織内のユーザー (通常はセキュリティ デスク) に通知する方法を設定します。 これを行うには、[ **通知モード**] で、次のいずれかを選択します。
 
-    - **通知の送信のみ**: Teams チャット メッセージは、指定したユーザーとグループに送信されます。
-    - **ミュート状態で会議が行われ、ミュートを解除できません**。Teams チャット メッセージは、指定したユーザーとグループに送信され、発信者と PSAP オペレーターの間の会話でリッスン (ただし参加できません) できます。
-    - **ミュート状態で会議が行われますが、ミュートを解除できます**。Teams チャット メッセージは、指定したユーザーとグループに送信され、ミュートを解除して、呼び出し元と PSAP オペレーターの間の会話をリッスンして参加できます。
+    - **通知のみを送信** する: Teams チャット メッセージは、指定したユーザーとグループに送信されます。
+    - **会議は行われますがミュート**: Teams チャット メッセージは、指定したユーザーとグループに送信され、呼び出し元と PSAP オペレーターの間の会話でリッスン (参加はしない) ことができます。
+    - **会議に参加し、ミュート解除する**: Teams チャット メッセージは、指定したユーザーとグループに送信され、呼び出し元と PSAP オペレーターの間の会話を聞いて参加するためにミュートを解除できます。
 
-6.  **緊急サービスの免責事項** を設定してバナーを表示し、緊急の場所を確認するようにエンド ユーザーに通知します。
+6.  **緊急サービスの免責事項** を設定して、緊急対応の場所を確認するようにエンド ユーザーに通知するバナーを表示します。
 
-7.  **いずれかの会議をミュート** 通知モードで選択した場合、[**緊急通報用にダイヤルする番号**] ボックスに、ユーザーまたはグループの PSTN 電話番号を入力して、緊急電話に通話して参加できます。 たとえば、組織のセキュリティ デスクの番号を入力します。緊急通報が行われたときに通話を受け取り、通話をリッスンできます。 モードがミュートで Conferenced に設定されているが **ミュートを解除できる** 場合でも、PSTN 電話のミュートを解除できません。
+7.  ミュート通知モード **でいずれかの会議** を選択した場合は、[ **緊急通報の通知にダイヤルする番号** ] ボックスに、緊急通報を呼び出して参加するユーザーまたはグループの PSTN 電話番号を入力できます。 たとえば、緊急通報が行われたときに通話を受け取り、通話をリッスンできる組織のセキュリティ デスクの番号を入力します。 モードがミュート状態で Conferenced に設定されていても、ミュートを解除できる場合でも、PSTN 電話 **をミュート解除することはできません**。
 
-8. 組織のセキュリティ デスクなどの 1 つ以上のユーザーまたはグループを検索して選択し、緊急通報が行われたときに通知します。  通知は、ユーザー、配布グループ、およびセキュリティ グループの電子メール アドレスに送信できます。 最大 50 人のユーザーに通知できます。
+8. 組織のセキュリティ デスクなど、1 つ以上のユーザーまたはグループを検索して選択し、緊急通報が行われたときに通知します。  通知は、ユーザー、配布グループ、およびセキュリティ グループのメール アドレスに送信できます。 最大 50 人のユーザーに通知できます。
 
 9. [**適用**] をクリックします。
 
 ### <a name="using-powershell"></a>PowerShell の使用
 
-[New-CsTeamsEmergencyCallingPolicy を](/powershell/module/skype/new-csteamsemergencycallingpolicy)参照してください。
+[「New-CsTeamsEmergencyCallingPolicy」を参照](/powershell/module/skype/new-csteamsemergencycallingpolicy)してください。
 
 ## <a name="edit-an-emergency-calling-policy"></a>緊急通報ポリシーを編集する
 
@@ -75,29 +75,29 @@ ms.locfileid: "68551521"
 
 グローバル ポリシー、または作成したカスタム ポリシーを編集できます。
 
-1. Microsoft Teams 管理センターの左側のナビゲーションで、 **音声** > **緊急ポリシー** に移動し、[ **通話ポリシー** ] タブをクリックします。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、[**音声** > **緊急ポリシー**] に移動し、[**通話ポリシー**] タブをクリックします。
 2. ポリシー名の左側をクリックしてポリシーを選び、**[編集]** をクリックします。
 3. 必要な変更を行い、[ **適用**] をクリックします。
 
 ### <a name="using-powershell"></a>PowerShell の使用
 
-[Set-CsTeamsEmergencyCallingPolicy を](/powershell/module/skype/set-csteamsemergencycallingpolicy)参照してください。
+[「Set-CsTeamsEmergencyCallingPolicy」を参照](/powershell/module/skype/set-csteamsemergencycallingpolicy)してください。
 
-## <a name="assign-a-custom-emergency-calling-policy-to-users"></a>ユーザーにカスタム緊急通報ポリシーを割り当てる
+## <a name="assign-a-custom-emergency-calling-policy-to-users"></a>カスタム緊急通話ポリシーをユーザーに割り当てる
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-[Grant-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/grant-csteamsemergencycallingpolicy) も参照してください。
+[「Grant-CsTeamsEmergencyCallingPolicy」](/powershell/module/skype/grant-csteamsemergencycallingpolicy)も参照してください。
 
-## <a name="assign-a-custom-emergency-calling-policy-to-a-network-site"></a>カスタム緊急通報ポリシーをネットワーク サイトに割り当てる
+## <a name="assign-a-custom-emergency-calling-policy-to-a-network-site"></a>カスタム緊急通話ポリシーをネットワーク サイトに割り当てる
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
 
-グローバル ポリシーまたは作成した任意のカスタム ポリシーを割り当てることができます。
+グローバル ポリシーまたは作成したカスタム ポリシーを割り当てることができます。
 
-1. Microsoft Teams 管理センターの左側のナビゲーションで、 **場所** > **ネットワーク トポロジに** 移動し、[ **ネットワーク サイト** ] タブをクリックします。
-2. 名前の左側をクリックしてサイトを選択し、[ **編集]** をクリックします。
-3. [ **緊急通報ポリシー**] でポリシーを選択し、[保存] をクリック **します**。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、[場所 **] [ネットワーク トポロジ****]** >  に移動し、[**ネットワーク サイト**] タブをクリックします。
+2. 名前の左側をクリックしてサイトを選択し、[ **編集**] をクリックします。
+3. [ **緊急通話ポリシー**] でポリシーを選択し、[ **保存**] をクリックします。
 
 ### <a name="using-powershell"></a>PowerShell の使用
 [Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite) コマンドレットを使用して、緊急通話ポリシーをネットワーク サイトに割り当てます。
