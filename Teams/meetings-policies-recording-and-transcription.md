@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.recordingandtranscription
 description: 記録と文字起こしのために Teams で会議ポリシー設定を管理する方法について説明します。
-ms.openlocfilehash: fd0dc824f380fb9a001442267445340944e055c4
-ms.sourcegitcommit: 2d1bb69e0d6bc35be0b57c7c5d87f58ab013dafb
+ms.openlocfilehash: 06a05d2eb8a8c1542b79fa4c37b68ea4a3aa6d32
+ms.sourcegitcommit: 00a526c5b9829302f7c4e0631d0c2dac50b7d004
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "68928313"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "69436763"
 ---
 # <a name="meeting-policy-settings-for-recording--transcription"></a>&文字起こしを記録するための会議ポリシー設定
 
@@ -96,13 +96,13 @@ Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 
 エンド ユーザーは制御するすべての録音の有効期限を変更できるため、法的保護のために会議の有効期限設定に依存しないでください。
 
-#### <a name="recording-expiration-settings-and-microsoft-365-retention-policies-in-microsoft-purview"></a>Microsoft Purview での有効期限設定と Microsoft 365 アイテム保持ポリシーの記録
+#### <a name="recording-expiration-settings-and-microsoft-365-retention-policies-in-microsoft-purview"></a>Microsoft Purview で有効期限の設定とMicrosoft 365 の保持ポリシーを記録する
 
-ファイルの保持は、ファイルの削除よりも優先されます。 Purview アイテム保持ポリシーを使用した Teams 会議の記録は、保持期間が完了するまで、Teams 会議記録の有効期限ポリシーによって削除できません。 たとえば、ファイルが 5 年間保持され、Teams 会議記録の有効期限ポリシーが 60 日間設定されていることを示す Purview アイテム保持ポリシーがある場合、Teams 会議記録の有効期限ポリシーは 5 年後に記録を削除します。
+ファイルの保持は、ファイルの削除よりも優先されます。 Purview アイテム保持ポリシーを使用した Teams 会議の記録は、保持期間が完了するまで、Teams 会議記録の有効期限ポリシーによって削除できません。 たとえば、ファイルが 5 年間保持され、Teams 会議記録の有効期限ポリシーが 60 日間設定されていることを示す Purview アイテム保持ポリシーがある場合、Teams 会議記録の有効期限ポリシーは 5 年後に記録を完全に削除します。
 
 削除日が異なる Teams 会議記録の有効期限ポリシーと Purview 削除ポリシーがある場合、ファイルは 2 つの日付の早い時点で削除されます。 たとえば、1 年後にファイルが削除され、Teams 会議記録の有効期限が 120 日間に設定されていることを示す Purview 削除ポリシーがある場合、Teams 会議記録の有効期限ポリシーは 120 日後にファイルを削除します。
 
-ユーザーは、有効期限の前に記録を手動で削除できます。ただし、それを妨げる Purview アイテム保持ポリシーがない限りです。
+ユーザーは、有効期限の前に記録を手動で削除できます。ただし、それを妨げる Purview アイテム保持ポリシーがない限りです。 保持期間内の記録がユーザーによって手動で削除された場合、記録は保持保持ライブラリに保持されます。 ただし、記録はエンド ユーザーに対して削除済みとして表示されます。 詳細については、「 [SharePoint と OneDrive の保持について」を](/microsoft-365/compliance/retention-policies-sharepoint#how-retention-works-for-sharepoint-and-onedrive)参照してください。
 
 ### <a name="deletion-of-recordings"></a>記録の削除
 

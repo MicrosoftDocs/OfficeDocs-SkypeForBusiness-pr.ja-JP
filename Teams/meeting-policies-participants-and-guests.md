@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 参加者とゲストの Teams で会議ポリシー設定を管理する方法について説明します。
-ms.openlocfilehash: a5d18ea0e3f8c6cd008a12258fd94c3a0b725ac3
-ms.sourcegitcommit: 1fe19c4a6e9f6116515df531786cc3e482e27093
+ms.openlocfilehash: 42321eb1edadeda928ab0cb9e78e166478b73ed9
+ms.sourcegitcommit: 00a526c5b9829302f7c4e0631d0c2dac50b7d004
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2022
-ms.locfileid: "68876283"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "69436673"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>会議ポリシーの設定 - 参加者とゲスト
 
@@ -50,11 +50,11 @@ ms.locfileid: "68876283"
 
 ## <a name="let-anonymous-people-join-a-meeting"></a>匿名のユーザーが会議に参加できるようにする
 
-この開催者ごとの設定では、会議出席依頼のリンクを選択することで、すべてのユーザーが匿名ユーザーとして会議に参加できます。 詳細については、「[Teams のアカウントなしに会議に参加する](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508)」を参照してください。 匿名ユーザーの会議への参加機能も組織レベルで制御されるため、制限の厳しい設定が有効になります。 詳細については、「 [Microsoft Teams 管理センターを使用して組織全体のポリシーを構成する](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)」を参照してください。
+この開催者ごとの設定では、会議出席依頼のリンクを選択することで、すべてのユーザーが匿名ユーザーとして会議に参加できます。 詳細については、「[Teams のアカウントなしに会議に参加する](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508)」を参照してください。 匿名ユーザーの会議への参加機能も組織レベルで制御されるため、制限の厳しい設定が有効になります。 詳細については、「[Microsoft Teams 管理センターを使用して組織全体のポリシーを構成する](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)」を参照してください。
 
 ## <a name="let-anonymous-people-start-a-meeting"></a>匿名ユーザーが会議を開始できるようにする
 
-この設定は、リーダーレス ダイヤルイン会議会議を許可する開催者ごとのポリシーです。 この設定は、組織から認証されたユーザーが参加していない場合でも、ダイヤル インのユーザーが会議に参加できるかどうかを制御します。 既定では、この設定はオフになっています。つまり、ダイヤルイン ユーザーは、組織から認証されたユーザーが会議に参加するまでロビーで待機します。
+この設定は、リーダーレス ダイヤルイン会議会議を許可する開催者ごとのポリシーです。 この設定は、匿名ユーザーとダイヤルイン発信者が、出席している組織の認証されたユーザーなしで会議に参加できるかどうかを制御します。 既定では、この設定はオフになっています。つまり、匿名ユーザーとダイヤルイン呼び出し元は、組織から認証されたユーザーが会議に参加するまでロビーで待機します。
 
 > [!NOTE]
 > この設定がオフになっていて、ダイヤル イン ユーザーが最初に会議に参加していて、ロビーに配置されている場合、組織のユーザーは、Teams クライアントと共に会議に参加して、ユーザーをロビーから会議室への入室を認める必要があります。 ダイヤル インのユーザーに使用できるロビー コントロールはありません。
