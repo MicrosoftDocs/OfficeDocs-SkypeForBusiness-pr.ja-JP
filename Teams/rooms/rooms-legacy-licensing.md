@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Microsoft Teams Roomsのさまざまな種類の通話機能と会議機能で以前に利用できるライセンスについて説明し、比較します。
-ms.openlocfilehash: a452267c789baa374f8bc5ade3fe050c4269831f
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+ms.openlocfilehash: e02dd830f9d356400fa153305209dc59f48a765b
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392394"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438429"
 ---
 # <a name="microsoft-teams-rooms-legacy-licenses"></a>レガシ ライセンスをMicrosoft Teams Roomsする
 
@@ -38,7 +38,7 @@ ms.locfileid: "69392394"
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>共有コミュニケーション デバイスのライセンス ソリューション
 
-2022 年 9 月 6 日より前に、Teams Rooms デバイス (android 用のMicrosoft Teams Rooms、Microsoft Surface Hub、Teams Roomsなど) を購入したお客様は、次のライセンスを利用できます。
+2022 年 9 月 6 日より前に、Teams Rooms デバイス (Android でMicrosoft Teams Rooms、Microsoft Surface Hub、Teams Roomsなど) を購入したお客様は、次のライセンスを利用できます。
 
 |&nbsp;|Microsoft Teams Rooms Standard |Microsoft Teams Rooms Premium |
 |:--- |:---: |:---: |

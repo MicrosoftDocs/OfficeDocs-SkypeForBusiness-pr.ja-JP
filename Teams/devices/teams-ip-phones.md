@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 最適な結果を得るために、Microsoft Teams の認定を受けるデスクと電話について説明します。
-ms.openlocfilehash: 56a8f5eb18600b62944732312c391ff7bd20201b
-ms.sourcegitcommit: 00a526c5b9829302f7c4e0631d0c2dac50b7d004
+ms.openlocfilehash: 4117cffe61e10c968cb92777ab5158732a62df21
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/16/2022
-ms.locfileid: "69436703"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438285"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 認定 Android デバイス
 
@@ -36,7 +36,7 @@ Microsoft Teams デバイス認定プログラムは、認定されたデバイ�
 > [!IMPORTANT]
 > Microsoft Teams デバイス認定プログラムでは、認定されたデバイスがハードウェア設計とパフォーマンスに関する特定の要件のみを満たしていることを確認します。 認定プログラムは、機能レベルまたはクラウド環境のサポートを評価しません。
 >
-> クラウド環境のサポートを含む、Windows および Android 用のTeams RoomsのTeams Roomsでサポートされる機能については、「[Windows と Android の機能の比較のTeams Rooms](../rooms/teams-devices-feature-comparison.md)」を参照してください。
+> クラウド環境のサポートなど、Windows のTeams Roomsと Android のTeams Roomsでサポートされる機能については、「[Windows と Android の機能の比較に関するTeams Rooms](../rooms/teams-devices-feature-comparison.md)」を参照してください。
 
 認定プログラムは、すべての認定デバイスが、Teams と Teams 管理センターに必要な機能セットを持つ Android バージョンを実行するように設計されています。 認定終了日は、認定プログラムに入るときにデバイスで実行されている Android OS バージョンに基づいています。 MICROSOFT の OEM パートナーは、Android OS のバージョンをアップグレードして再認定するか、最先端の新しいモデルをリリースすることで、認定資格の有効期間の延長に取り組んでいます。
 

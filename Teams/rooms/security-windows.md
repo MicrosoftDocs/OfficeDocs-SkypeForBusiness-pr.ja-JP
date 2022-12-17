@@ -15,19 +15,19 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Rooms
-description: Windows デバイスのMicrosoft Teams Roomsをセキュリティで保護する方法について説明します。
-ms.openlocfilehash: b35d856afb7ca044388802aa514039bd9b8d40d3
-ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
+description: Windows デバイスでMicrosoft Teams Roomsをセキュリティで保護する方法について説明します。
+ms.openlocfilehash: f7774b43542885118bd66eb09cf1d30049b84425
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68532426"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438465"
 ---
-# <a name="microsoft-teams-rooms-for-windows-security"></a>Windows セキュリティのMicrosoft Teams Rooms
+# <a name="microsoft-teams-rooms-on-windows-security"></a>Windows セキュリティのMicrosoft Teams Rooms
 
-Microsoft はパートナーと協力して、セキュリティで保護されたソリューションを提供し、Windows のMicrosoft Teams Roomsをセキュリティで保護するための追加のアクションは必要ありません。 この記事では、Windows のTeams Roomsで見られるセキュリティ機能の多くについて説明します。
+Microsoftパートナーと連携して、セキュリティで保護されたソリューションを提供し、Windows でMicrosoft Teams Roomsをセキュリティで保護するために追加のアクションを必要としないソリューションを提供します。 この記事では、Windows 上のTeams Roomsにあるセキュリティ機能の多くについて説明します。
 
-Android デバイスのTeams Roomsのセキュリティの詳細については、「Android セキュリティ[のMicrosoft Teams Rooms」を](security-android.md)参照してください。
+Android デバイス上のTeams Roomsのセキュリティについては、「Android [セキュリティのMicrosoft Teams Rooms](security-android.md)」を参照してください。
 
 > [!NOTE]
 > Microsoft Teams Rooms を一般的なエンドユーザー ワークステーションのように扱ってはなりません。 ユース ケースが大きく異なるだけでなく、既定のセキュリティ プロファイルも大きく異なります。
@@ -95,7 +95,7 @@ Skype ユーザー アカウントにローカル管理者のアクセス許可�
 
 Windows 構成デザイナーを使用して、Windows 10 プロビジョニング パッケージを作成できます。 ローカル管理者パスワードの変更に加えて、コンピューター名の変更や Azure Active Directory への登録などを行うこともできます。 Windows 構成デザイナー プロビジョニング パッケージ作成の詳細については、「[Windows 10 のパッケージのプロビジョニングを行う方法](/windows/configuration/provisioning-packages/provisioning-packages)」を参照してください。
 
-Teams にサインインできるように、Teams Rooms デバイスごとにリソース アカウントを作成する必要があります。 このアカウントでは、2 要素認証または多要素認証を使用できません。 2 つ目の要素を要求すると、再起動後にアカウントが Teams Rooms アプリに自動的にサインインできなくなります。 ただし、このアカウントのセキュリティを強化するために先進認証を有効にすることはできます。 さらに、Azure Active Directory 条件付きアクセス ポリシーとIntune コンプライアンス ポリシーをデプロイして、リソース アカウントをセキュリティで保護できます。 詳細については、「[Microsoft Teams Roomsおよび条件付きアクセスのサポートされる条件付きアクセスポリシーとIntuneデバイス コンプライアンス ポリシー](supported-ca-and-compliance-policies.md)と[、Microsoft Teams Roomsの条件付きアクセスとIntuneコンプライアンス」を](conditional-access-and-compliance-for-devices.md)参照してください。
+Teams にサインインできるように、Teams Rooms デバイスごとにリソース アカウントを作成する必要があります。 このアカウントでは、2 要素認証または多要素認証を使用できません。 2 つ目の要素を要求すると、再起動後にアカウントが Teams Rooms アプリに自動的にサインインできなくなります。 ただし、このアカウントのセキュリティを強化するために先進認証を有効にすることはできます。 さらに、Azure Active Directory の条件付きアクセス ポリシーとIntuneコンプライアンス ポリシーをデプロイして、リソース アカウントをセキュリティで保護できます。 詳細については、「[Microsoft Teams Roomsと条件付きアクセスのサポートされている条件付きアクセスとIntuneデバイス コンプライアンス ポリシー」および「Microsoft Teams Rooms](supported-ca-and-compliance-policies.md)[の条件付きアクセスとIntuneコンプライアンス](conditional-access-and-compliance-for-devices.md)」を参照してください。
 
 可能であれば、Azure AD でリソース アカウントを作成することをお勧めします。 同期されたアカウントはハイブリッド展開で Teams Rooms と連携できますが、同期されたアカウントでは Teams Rooms へのサインインが難しく、トラブルシューティングが困難になる可能性があります。 サード パーティのフェデレーション サービスを使用してリソース アカウントの資格情報を認証する場合は、サード パーティ IDP が `wsTrustResponse` 属性を `urn:oasis:names:tc:SAML:1.0:assertion` に設定して応答することを確認します。
 
@@ -108,7 +108,7 @@ Teams にサインインできるように、Teams Rooms デバイスごとに�
 - **Microsoft Store** [ビジネスおよび教育機関向け Microsoft Store の前提条件](/microsoft-store/prerequisites-microsoft-store-for-business#proxy-configuration)
 - **Microsoft Intune** [Microsoft Intune のネットワーク エンドポイント](/mem/intune/fundamentals/intune-endpoints)
 
-Microsoft Teams Rooms Pro のMicrosoft Teams Roomsマネージド サービス コンポーネントを使用している場合は、Teams Roomsが次の URL にアクセスできることを確認する必要もあります。
+Microsoft Teams Rooms ProのMicrosoft Teams Roomsマネージド サービス コンポーネントを使用している場合は、Teams Roomsが次の URL にアクセスできることを確認する必要もあります。
 
 - agent.rooms.microsoft.com
 - global.azure-devices-provisioning.net

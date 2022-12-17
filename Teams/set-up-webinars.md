@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-meetings
 - highpri
 description: Teams でウェビナーと会議の登録ポリシーを管理する方法について説明します。
-ms.openlocfilehash: 37983f8597b9e1a0ed511c2d767c503494447481
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 5493104b93a74dad6763e0a5ba6c9e6fd57575de
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307582"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438475"
 ---
 # <a name="set-up-webinars-in-microsoft-teams"></a>Microsoft Teams でウェビナーを設定する
 
@@ -52,6 +52,9 @@ Microsoft新しいウェビナー エクスペリエンスが提供されるよ�
 新しいウェビナー エクスペリエンスは PowerShell で構成されています。 [新しいウェビナー エクスペリエンスを設定する方法の例を](#set-up-new-webinar-experience)参照してください。
 
 会議、ウェビナー、ライブ イベントの違いの詳細については、「 [会議、ウェビナー、ライブ イベント](quick-start-meetings-live-events.md)」を参照してください。
+
+> [!NOTE]
+> 新しいウェビナー エクスペリエンスは、Microsoft 365 GCC、Microsoft 365 GCC High、または Microsoft 365 DoD では使用できません。 既存のウェビナー エクスペリエンスは、Microsoft 365 GCC High または Microsoft 365 DoD では使用できません。
 
 > [!IMPORTANT]
 > ユーザーがウェビナーを設定できるようにするには、Microsoft Lists電子情報開示のために個人用リストの作成を有効にして SharePoint で構成する必要があります。 詳細については、「[Microsoft Listsの制御設定](/sharepoint/control-lists)」を参照してください。
