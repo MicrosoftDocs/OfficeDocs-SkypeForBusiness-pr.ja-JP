@@ -3,6 +3,15 @@
 
 
 
+## <a name="week-of-december-19-2022"></a>2022 年 12 月 19 日の週
+
+
+| 公開日 |トピックのタイトル | 変更 |
+|------|------------|--------|
+| 12/19/2022 | [Microsoft 365 全体で Teams アプリへのアクセスを管理する](/MicrosoftTeams/manage-third-party-teams-apps) | 更新日時 |
+| 12/21/2022 | [Microsoft Teams の仮想予定会議テンプレート](/MicrosoftTeams/virtual-appointment-meeting-template) | 追加済 |
+
+
 ## <a name="week-of-december-12-2022"></a>2022 年 12 月 12 日の週
 
 
