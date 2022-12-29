@@ -16,12 +16,12 @@ description: 組織内のユーザーと管理者の Teams アプリ アクテ�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 5aee5bf00d486586b4bc8e9583504be5e4a9b922
-ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
+ms.openlocfilehash: 9114bae9fa24a546aec2629f1f347af193b10fd5
+ms.sourcegitcommit: 339a35e461c84ee309ade1a53299ba12231df7a3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/03/2022
-ms.locfileid: "69251880"
+ms.lasthandoff: 12/29/2022
+ms.locfileid: "69677507"
 ---
 # <a name="search-audit-logs-for-app-management-activities-and-events"></a>アプリ管理アクティビティとイベントの監査ログを検索する
 
@@ -78,7 +78,7 @@ Teams アプリ アクティビティの監査ログを検索するには、次�
 
 ## <a name="related-articles"></a>関連記事
 
-* [監査ログを使用して Microsoft Power Platform のインストール アクティビティを調査する](manage-power-platform-apps.md#use-audit-logs-to-investigate-microsoft-power-platform-installation-activity)
+* [監査ログを使用して、Power Platform のインストール アクティビティMicrosoft調査](manage-power-platform-apps.md#use-audit-logs-to-check-microsoft-power-platform-installation-activity)します。
 * [コンプライアンス ポータルで監査サインインを検索します](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)。
 * [Microsoft Purview 監査 Premium の概要](/microsoft-365/compliance/advanced-audit)。
 * [監査をオンまたはオフにします](/microsoft-365/compliance/turn-audit-log-search-on-or-off)。

@@ -22,12 +22,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 7713f1f2bf1f3a4866751d02ba702cb2d3d244f0
-ms.sourcegitcommit: d95a3408e31d3dec37c534c110b09a8847bec724
+ms.openlocfilehash: 7ded369ab991a37e711c416a7448447f148c069c
+ms.sourcegitcommit: 339a35e461c84ee309ade1a53299ba12231df7a3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/23/2022
-ms.locfileid: "69156843"
+ms.lasthandoff: 12/29/2022
+ms.locfileid: "69677417"
 ---
 # <a name="understand-microsoft-teams-apps-and-their-capabilities"></a>teams アプリとその機能Microsoft理解する
 
@@ -92,7 +92,7 @@ Microsoft提供されているアプリに加えて、サード パーティ製�
 
 ユーザーは、Teams デスクトップまたは Web クライアントの Teams アプリ ストアから Teams で利用可能なすべてのアプリを表示できます。 ユーザーは、名前で検索したり、カテゴリで参照したり、組織用に構築され、Power Platform を使用してビルドされたアプリで参照して、Teams でアプリを検出してインストールしたりできます。
 
-簡単にアクセスできるように、アプリを Teams にピン留めできます。 セットアップ ポリシーで許可されている場合と、アプリが Teams 管理者によって許可されている場合、ユーザーは [アプリを自分でピン留め](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec) できます。管理者は、アプリをピン留めし、ピン留めされたアプリの動作を制御できます。詳細については、「 [アプリのセットアップ ポリシー](/teams-app-setup-policies)」を参照してください。
+簡単にアクセスできるように、アプリを Teams にピン留めできます。 セットアップ ポリシーで許可されている場合と、アプリが Teams 管理者によって許可されている場合、ユーザーは [アプリを自分でピン留め](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec) できます。管理者は、アプリをピン留めし、ピン留めされたアプリの動作を制御できます。詳細については、「 [アプリのセットアップ ポリシー](/microsoftteams/teams-app-setup-policies)」を参照してください。
 
 :::image type="content" source="media/user-app-experience-find-apps.png" alt-text="ユーザーがMicrosoft Teams でアプリを閲覧できるすべての場所を示すスクリーンショット。" lightbox="media/user-app-experience-find-apps-full.png":::
 

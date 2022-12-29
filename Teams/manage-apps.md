@@ -22,12 +22,12 @@ description: Teams アプリを管理する方法について説明します。 
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: a38bbab856a71d46cab5af471ac2f75743e21d40
-ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
+ms.openlocfilehash: c88f8c4424cb82ea1482c5f6e1b90fd792279450
+ms.sourcegitcommit: 339a35e461c84ee309ade1a53299ba12231df7a3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2022
-ms.locfileid: "69130876"
+ms.lasthandoff: 12/29/2022
+ms.locfileid: "69677407"
 ---
 # <a name="overview-of-app-management-and-governance-in-teams-admin-center"></a>Teams 管理センターでのアプリ管理とガバナンスの概要
 
@@ -126,7 +126,7 @@ Teams 管理センターを使用するには、グローバル管理者ロー�
 
 Microsoft 365 Government の場合 - Teams の GCCH および DoD 展開では、すべてのサードパーティ アプリが既定でブロックされています。 GCCH および DOD クラウドでは、サード パーティ製アプリは使用できません。 さらに、GCC では、Microsoft Teams の管理センターのアプリ許可ポリシーページで、サードパーティ アプリの管理について以下のような注意事項が表示されます。
 
-:::image type="content" source="media/app-permission-policies-gcc.png" alt-text="GCCH および DoD 内のアプリのアクセス許可ポリシーのスクリーンショット。":::
+:::image type="content" source="media/app-permission-policies-gcc.png" alt-text="GCCH および DoD 内のアプリのアクセス許可ポリシーのスクリーンショット。" lightbox="media/app-permission-policies-gcc.png":::
 
 組織全体のアプリ設定を使用して、ユーザーがサード パーティのアプリをインストールできるかどうかを制御します。 組織全体のアプリ設定は、すべてのユーザーの動作を管理し、ユーザーに割り当てられた他のアプリ権限ポリシーを上書きします。
 
@@ -135,7 +135,7 @@ Microsoft 365 Government の場合 - Teams の GCCH および DoD 展開では�
 
 ### <a name="for-gcc-clouds"></a>GCC クラウドの場合
 
-1. **[Teams Apps の****[アプリの管理](https://admin.teams.microsoft.com/policies/manage-apps)**]  >  ページ **で、[組織全体のアプリ設定**] を選択します。 次に、パネルで必要な設定を構成できます。
+1. **[Teams Apps の****アプリの管理**]  >  ページ **で、[組織全体のアプリ設定**] を選択します。 次に、パネルで必要な設定を構成できます。
 
    :::image type="content" source="media/app-permission-policies-gcc-org-wide.png" alt-text="GCC の組織全体のアプリ設定を示すスクリーンショット。":::
 
@@ -152,7 +152,7 @@ Microsoft 365 Government の場合 - Teams の GCCH および DoD 展開では�
 
 ### <a name="for-gcch-and-dod-clouds"></a>GCCH および DoD クラウドの場合
 
-1. Teams 管理センターにサインインし、 **Teams アプリ** > **[のアクセス許可ポリシーにアクセスします](https://admin.teams.microsoft.com/policies/app-permission)**。
+1. Teams 管理センターにサインインし、 **Teams アプリ** > **のアクセス許可ポリシーにアクセスします**。
 
 1. [ **組織全体のアプリ設定] を選択します**。 **[ブロック済みのアプリ]** で、組織全体でブロックするアプリを追加します。 Microsoft 365 Government の場合 - Teams の GCCH および DoD 展開では、すべてのサードパーティ アプリが既定でこのリストに追加されます。 組織全体でアプリをブロックすると、アプリのアクセス許可ポリシーで許可されているかどうかに関係なく、アプリはすべてのユーザーに対して自動的にブロックされます。
 

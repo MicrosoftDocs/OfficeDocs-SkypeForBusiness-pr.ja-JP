@@ -18,16 +18,16 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b0f01942dcee0ed5f2696c7e6ab5b31d67a98856
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: e86f5e372bc1c03c2dc75b09f5e26b8fb5d98241
+ms.sourcegitcommit: 339a35e461c84ee309ade1a53299ba12231df7a3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912876"
+ms.lasthandoff: 12/29/2022
+ms.locfileid: "69677497"
 ---
-# <a name="find-teams-apps-that-undergo-microsoft-365-app-compliance-program-for-security-compliance-and-privacy"></a>セキュリティ、コンプライアンス、プライバシーに関する Microsoft 365 アプリ コンプライアンス プログラムを受ける Teams アプリを検索する
+# <a name="know-about-apps-that-undergo-app-compliance-program-for-security-data-handling-and-privacy"></a>セキュリティ、データ処理、プライバシーに関するアプリ コンプライアンス プログラムを受けるアプリについて知る
 
-Microsoft コンプライアンス プログラムは、主要な業界標準のフレームワークから派生したコントロールに対してアプリをチェックし、監査します。 プログラムは、顧客データを保護するために強力なセキュリティとコンプライアンスのプラクティスが実施されていることを示します。 プログラムには、次のフェーズがあります。
+Microsoft 365 アプリ コンプライアンス プログラムは、業界標準の主要なフレームワークから派生したコントロールに対してアプリをチェックおよび監査します。 プログラムは、顧客データを保護するために強力なセキュリティとコンプライアンスのプラクティスが実施されていることを示します。 プログラムには、次のフェーズがあります。
 
 * [発行元の検証](#publisher-verification)。
 * [発行元の構成証明](#publisher-attestation)。
@@ -57,7 +57,7 @@ Microsoft コンプライアンス プログラムは、主要な業界標準の
 
   :::image type="content" source="media/attested-app-tac1.png" alt-text="Teams 管理センターでは、構成証明されたすべてのアプリに発行元による構成証明済みアイコンが表示されます。":::
 
-* Teams 管理センターで、 [アプリにアクセス許可を付与する前に、アプリ](app-permissions-admin-center.md)名の前に青いチェックマークが表示され、発行元が証明したアプリであることを示します。 すべての Microsoft 365 アプリも発行元の構成証明を通過するため、Microsoft 365 アプリにも青色のチェックマークが表示されます。
+* Teams 管理センターで、 [アプリにアクセス許可を付与する前に、アプリ](app-permissions-admin-center.md)名の前に青いチェックマークが表示され、発行元が証明したアプリであることを示します。 すべてのMicrosoft 365 アプリも発行元の構成証明を通過するため、Microsoft 365 アプリの青いチェックマークも表示されます。
 
    :::image type="content" source="media/attested-app-tac2.png" alt-text="Teams 管理センターの、アクセス許可を付与するダイアログの青いチェックマークは、発行元によって構成証明されたアプリを示しています。":::
 
@@ -90,7 +90,7 @@ Microsoft コンプライアンス プログラムは、主要な業界標準の
 
   :::image type="content" source="media/m365cert-app-details-banner.png" alt-text="Teams 管理センターで特定のアプリを管理するときに、アプリ バナーで Microsoft 365 認定情報を表示する":::
 
-* Teams 管理センターで、 [アプリにアクセス許可を付与する前に、アプリ](app-permissions-admin-center.md)名の前に青いチェックマークが表示され、発行元が証明したアプリであることを示します。 すべての Microsoft 365 アプリも発行元の構成証明を通過するため、Microsoft 365 アプリにも青色のチェックマークが表示されます。
+* Teams 管理センターで、 [アプリにアクセス許可を付与する前に、アプリ](app-permissions-admin-center.md)名の前に青いチェックマークが表示され、発行元が証明したアプリであることを示します。 すべてのMicrosoft 365 アプリも発行元の構成証明を通過するため、Microsoft 365 アプリの青いチェックマークも表示されます。
 
    :::image type="content" source="media/attested-app-tac2.png" alt-text="管理者は、アプリが Microsoft 365 認定証明がされていることを確認するため、Teams 管理センターのアクセス許可を付与するダイアログで青いチェックマークをオンにできます":::
 
@@ -121,7 +121,7 @@ Microsoft コンプライアンス プログラムは、主要な業界標準の
 
 1. **[セキュリティとコンプライアンス]** タブを選択します。
 
-   :::image type="content" source="media/mcas.png" alt-text="Teams 管理センターの [セキュリティとコンプライアンス] タブを示すスクリーンショット":::
+   :::image type="content" source="media/mcas.png" alt-text="Teams 管理センターの [セキュリティとコンプライアンス] タブを示すスクリーンショット" lightbox="media/mcas.png":::
 
    アプリでサポートされている機能の詳細を取得するには、各カテゴリのドロップダウン リストを選択します。
 
