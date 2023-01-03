@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 参加者とゲストの Teams で会議ポリシー設定を管理する方法について説明します。
-ms.openlocfilehash: 42321eb1edadeda928ab0cb9e78e166478b73ed9
-ms.sourcegitcommit: 00a526c5b9829302f7c4e0631d0c2dac50b7d004
+ms.openlocfilehash: 26d2fd24d8b241b8f79276148ed27abd3e5412b1
+ms.sourcegitcommit: 84a832330c0a9f9fb818bbfb22e534fe035c1837
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/16/2022
-ms.locfileid: "69436673"
+ms.lasthandoff: 01/03/2023
+ms.locfileid: "69693390"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>会議ポリシーの設定 - 参加者とゲスト
 
@@ -50,7 +50,7 @@ ms.locfileid: "69436673"
 
 ## <a name="let-anonymous-people-join-a-meeting"></a>匿名のユーザーが会議に参加できるようにする
 
-この開催者ごとの設定では、会議出席依頼のリンクを選択することで、すべてのユーザーが匿名ユーザーとして会議に参加できます。 詳細については、「[Teams のアカウントなしに会議に参加する](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508)」を参照してください。 匿名ユーザーの会議への参加機能も組織レベルで制御されるため、制限の厳しい設定が有効になります。 詳細については、「[Microsoft Teams 管理センターを使用して組織全体のポリシーを構成する](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)」を参照してください。
+この開催者ごとの設定では、会議出席依頼のリンクを選択することで、すべてのユーザーが匿名ユーザーとして会議に参加できます。 詳細については、「[Teams のアカウントなしに会議に参加する](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508)」を参照してください。 匿名ユーザーの会議への参加機能も組織レベルで制御されるため、制限の厳しい設定が有効になります。 詳細については、「 [Microsoft Teams 管理センターを使用して組織全体のポリシーを構成する](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)」を参照してください。
 
 ## <a name="let-anonymous-people-start-a-meeting"></a>匿名ユーザーが会議を開始できるようにする
 
@@ -61,14 +61,14 @@ ms.locfileid: "69436673"
 
 ## <a name="who-can-present-in-meetings"></a>会議で発表できるユーザー
 
-これは、ユーザーごとのポリシーです。 この設定では、Teams クライアントの **会議オプション** の **誰がプレゼンをするか?** の設定の既定値を変更することができます。 このポリシー設定は、Meet Now (今すぐ会議) を含むすべての会議に影響します。
+この設定は、Teams クライアントの **[会議] オプション** の [**表示できるユーザー**] 設定の既定値を変更できるユーザーごとのポリシーです。 [ **会議に表示できるユーザー** ] ポリシー設定は、会議を含むすべての会議に影響します。
 
 **誰がプレゼンをするか?** の設定を使用すると、会議の開催者は会議の発表者を選択することができます。 詳細については、「[Teams 会議の参加者設定の変更](https://support.microsoft.com/office/53261366-dbd5-45f9-aae9-a70e6354f88e)」 と 「[Teams 会議での役割](https://support.microsoft.com/office/c16fa7d0-1666-4dde-8686-0a0bfe16e019)」を参照してください。
 
-Teams の [ **表示できるユーザー** ] 設定の既定値を指定するには、ポリシーで次のいずれかの設定に設定します。
+Teams の **[表示できるユーザー** ] 設定の既定値を指定するには、[ **会議に表示できるユーザー** ] ポリシーで次のいずれかの設定に設定します。
 
 - **開催者、ただし、ユーザーは上書きできます**: 会議の開催者のみが発表者になり、すべての会議参加者が出席者として指定されます。 このパラメーターは、Teams の [**私だけ**] 設定に呼応します。
-- **組織内のすべてのユーザーがオーバーライドできますが、ユーザーは上書きできます**。ゲスト ユーザーを含む組織内の認証済みユーザーを発表者にすることができます。 この設定は、Teams の **[組織] 設定のPeople** に対応します。
+- **組織内のすべてのユーザーがオーバーライドできますが、ユーザーは上書きできます**。 ゲストを含む組織内の認証済みユーザーを発表者にすることができます。 この設定は、Teams の **[組織] 設定のPeople** に対応します。
 - **すべてのユーザーが上書きできますが、** すべての会議参加者を発表者にすることができます。 これが既定値です。 この設定は、Teams の **[全員** ] 設定に対応します。
 
 既定値を設定した後でも、会議の開催者はチームの設定を変更し、スケジュールした会議での発表者を選ぶことができることにご注意ください。
@@ -123,7 +123,7 @@ Teams の [ **表示できるユーザー** ] 設定の既定値を指定する�
 ### <a name="live-translated-captions"></a>ライブ翻訳されたキャプション
 
 > [!NOTE]
-> この機能はパブリック プレビューで一時的に利用できます。 プレビュー後、会議の開催者は、出席者がライブ翻訳されたキャプションを使用するための Teams Premium ライセンスを持っている必要があります。
+> この機能はパブリック プレビューで一時的に利用できます。 プレビュー後、会議の開催者は、出席者がライブ翻訳されたキャプションを使用するためのTeams Premiumライセンスを持っている必要があります。
 
 既定では、会議中に読み上げられた言語で **ライブ キャプション** が表示されます。 **ライブ翻訳されたキャプション** を使用すると、ユーザーは最も使い慣れた言語に翻訳されたキャプションを表示できます。
 
@@ -156,7 +156,7 @@ Teams の [ **表示できるユーザー** ] 設定の既定値を指定する�
 
 この設定は、会議の作成時または開催者による更新時に適用されます。 既定では、この設定は [オフ] です。 [Teams 会議の Q&A について](/manage-qna-for-teams)詳しくは、こちらをご覧ください。
 
-パラメーター QnAEngagementMode は、PowerShell でこのポリシーを制御します。 Q&A は、Teams 管理センター内で調整することもできます。
+Teams Q&A は、Teams 管理センターの [**参加者&ゲスト**] セクションの **[会議** > **会議ポリシー**] で調整できます。 パラメーター `-QnAEngagementMode` は、PowerShell でこのポリシーを制御します。
 
 |値を設定する |動作  |
 |---------|---------|
@@ -169,7 +169,7 @@ Teams の [ **表示できるユーザー** ] 設定の既定値を指定する�
 
 ## <a name="enable-meeting-policy-settings"></a>会議ポリシー設定を有効にする
 
-会議ポリシー設定を有効にするには、[Teams PowerShell で Teams 管理センター](https://admin.teams.microsoft.com/policies/meetings) (**会議ポリシー** > の **編集: ポリシー** > **参加者&ゲスト**) または [Set-CsTeamsMeetingPolicy コマンドレットを](/powershell/module/skype/set-csteamsmeetingpolicy)使用できます。 
+会議ポリシー設定を有効にするには、[Teams PowerShell で Teams 管理センター](https://admin.teams.microsoft.com/policies/meetings) (**会議ポリシー** > の **編集: ポリシー** > **参加者&ゲスト**) または [Set-CsTeamsMeetingPolicy コマンドレットを](/powershell/module/skype/set-csteamsmeetingpolicy)使用できます。
 
 この例では、PowerShell を使用してグローバル会議ポリシーを変更し、だれでも会議を開始または参加できるようにします。
 
@@ -178,7 +178,6 @@ Set-CsTeamsMeetingPolicy -Identity Global -AutoAdmittedUsers "Everyone" -AllowAn
 ```
 
 ポリシーを設定したら、ユーザーに適用する必要があります。 グローバル (組織全体の既定値) ポリシーを変更した場合、ユーザーに自動的に適用されます。 ポリシーの変更が有効になるまで少なくとも 4 時間待つ必要がありますが、最大で 24 時間かかることがあります。
-
 
 ## <a name="related-topics"></a>関連項目
 
