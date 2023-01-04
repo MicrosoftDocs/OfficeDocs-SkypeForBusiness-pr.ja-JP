@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams Rooms Pro管理について説明します。
 f1keywords: ''
-ms.openlocfilehash: cadf078c4d56c518acda73a44b62c55f346f189c
-ms.sourcegitcommit: 0e4e5b9933970827ea4be137ca98eab6994e2301
+ms.openlocfilehash: 9ef0db845e9eb0778bc53cbcf9e0998531daf6e0
+ms.sourcegitcommit: 2363af0ed4de97f1ec836ca2ad9e3854cf9fa601
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 01/04/2023
-ms.locfileid: "69696892"
+ms.locfileid: "69702090"
 ---
 # <a name="microsoft-teams-rooms-pro-management"></a>Microsoft Teams Rooms Pro管理
 
@@ -58,7 +58,7 @@ Microsoft Teams Rooms Pro管理の機能の概要を次に示します。
 |**更新の管理**    |事前構成済みの展開リングに基づくMicrosoft Teams Rooms アプリケーションの自動構成と配信。         |
 |**分析情報と推奨事項**     |部屋の正常性、使用状況、機器の信頼性に関する分析情報。         |
 |**コンプライアンスと認定**   |Microsoft オンライン サービスの該当するすべての基準を満たしています。         |
-|**サポートされるデバイス**    |認定された Microsoft Teams Rooms のシステムとその周辺機器。<br>*Surface Hub と MTR Android のサポートは、2022 年後半に提供されます*        |
+|**サポートされるデバイス**    |認定された Microsoft Teams Rooms のシステムとその周辺機器。<br>*Surface Hub と MTR Android の 2023 年のサポート*        |
 |**サポートされる地域**    |[サポートされる地域](#supported-regions)を参照してください。        |
 |**統合**    |インシデントの調整のために、カスタマー ホステッド Service Now との基本的な統合を利用できます。         |
 
