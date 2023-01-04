@@ -3,6 +3,14 @@
 
 
 
+## <a name="week-of-december-26-2022"></a>2022 年 12 月 26 日の週
+
+
+| 公開日 |トピックのタイトル | 変更 |
+|------|------------|--------|
+| 12/27/2022 | [Ignite 2020 での Teams セッション](/MicrosoftTeams/ignite-2020-landing-page) | 更新日時 |
+
+
 ## <a name="week-of-december-19-2022"></a>2022 年 12 月 19 日の週
 
 
@@ -17,12 +25,12 @@
 
 | 公開日 |トピックのタイトル | 変更 |
 |------|------------|--------|
-| 12/14/2022 | [Microsoft Teams 共有デバイス ライセンス](/MicrosoftTeams/teams-add-on-licensing/teams-shared-device-license) | 追加済 |
+| 12/14/2022 | [Microsoft Teams 共有デバイス のライセンス](/MicrosoftTeams/teams-add-on-licensing/teams-shared-device-license) | 追加済 |
 | 12/14/2022 | [Microsoft Teams で会議ロビーをバイパスできるユーザーを制御する](/MicrosoftTeams/who-can-bypass-meeting-lobby) | 追加済 |
-| 12/14/2022 | [Teams Android デバイスのユーザー インターフェイスMicrosoft設定する](/MicrosoftTeams/devices/teams-android-devices-user-interface) | 更新日時 |
+| 12/14/2022 | [Microsoft Teams Android デバイスのユーザー インターフェイスを設定する](/MicrosoftTeams/devices/teams-android-devices-user-interface) | 更新日時 |
 | 12/14/2022 | [Teams 用のデバイス](/MicrosoftTeams/devices/teams-ip-phones) | 更新日時 |
 | 12/14/2022 | [ダイレクト ルーティングを計画する](/MicrosoftTeams/direct-routing-plan) | 更新日時 |
-| 12/14/2022 | [Microsoft Teams Premium - 管理者向けの概要](/MicrosoftTeams/enhanced-teams-experience) | 更新日時 |
+| 12/14/2022 | [Microsoft Teams Premium - 管理者の概要](/MicrosoftTeams/enhanced-teams-experience) | 更新日時 |
 | 12/14/2022 | [Microsoft Teams の共通エリア電話を設定する](/MicrosoftTeams/set-up-common-area-phones) | 更新日時 |
 | 12/14/2022 | [Microsoft Teams Premium ライセンス](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | 更新日時 |
 | 12/15/2022 | [電話会議に関するよくある質問](/MicrosoftTeams/audio-conferencing-common-questions) | 更新日時 |
@@ -40,7 +48,7 @@
 | 公開日 |トピックのタイトル | 変更 |
 |------|------------|--------|
 | 12/5/2022 | [Microsoft Teams で Bookings アプリを管理する](/MicrosoftTeams/bookings-app-admin) | 更新日時 |
-| 12/5/2022 | [機密性の高い会議のMicrosoft Teams 会議ロビーを構成する](/MicrosoftTeams/configure-lobby-sensitive-meetings) | 追加済 |
+| 12/5/2022 | [機密性の高い会議用に Microsoft Teams 会議ロビーを構成する](/MicrosoftTeams/configure-lobby-sensitive-meetings) | 追加済 |
 | 12/5/2022 | [ベースライン保護を使用して Teams 会議を構成する](/MicrosoftTeams/configure-meetings-baseline-protection) | 追加済 |
 | 12/5/2022 | [機密性の高いデータを保護して Teams 会議を構成する](/MicrosoftTeams/configure-meetings-highly-sensitive-protection) | 追加済 |
 | 12/5/2022 | [機密データの保護を使用して Teams 会議を構成する](/MicrosoftTeams/configure-meetings-sensitive-protection) | 追加済 |
@@ -49,10 +57,10 @@
 | 12/5/2022 | [Teams 会議のカスタム会議の背景](/MicrosoftTeams/custom-meeting-backgrounds) | 追加済 |
 | 12/5/2022 | [Microsoft Teams のカスタム会議テンプレートの概要](/MicrosoftTeams/custom-meeting-templates-overview) | 追加済 |
 | 12/5/2022 | [機密性の高い Teams 会議にエンドツーエンドの暗号化を要求する](/MicrosoftTeams/end-to-end-encrypted-meetings) | 追加済 |
-| 12/5/2022 | [Microsoft Teams Premium - 管理者向けの概要](/MicrosoftTeams/enhanced-teams-experience) | 追加済 |
+| 12/5/2022 | [Microsoft Teams Premium - 管理者の概要](/MicrosoftTeams/enhanced-teams-experience) | 追加済 |
 | 12/5/2022 | [機密性の高い Teams 会議のチャットを管理する](/MicrosoftTeams/manage-chat-sensitive-meetings) | 追加済 |
 | 12/5/2022 | [機密性の高い Teams 会議の会議プレゼンテーション エクスペリエンスを管理する](/MicrosoftTeams/manage-meeting-presentation-experience) | 追加済 |
-| 12/5/2022 | [機密性の高い会議Microsoft Teams 会議の記録オプションを管理する](/MicrosoftTeams/manage-meeting-recording-options) | 追加済 |
+| 12/5/2022 | [機密性の高い会議の Microsoft Teams 会議記録オプションを管理する](/MicrosoftTeams/manage-meeting-recording-options) | 追加済 |
 | 12/5/2022 | [Microsoft Teams で会議テンプレートを管理する](/MicrosoftTeams/manage-meeting-templates) | 追加済 |
 | 12/5/2022 | [Microsoft Teams で仮想予定 アプリを管理する](/MicrosoftTeams/manage-virtual-appointments-app) | 追加済 |
 | 12/5/2022 | [一般的な会議ポリシーを管理する](/MicrosoftTeams/meeting-policies-in-teams-general) | 更新日時 |
@@ -61,7 +69,7 @@
 | 12/5/2022 | [会議、ウェビナー、ライブ イベント](/MicrosoftTeams/quick-start-meetings-live-events) | 更新日時 |
 | 12/5/2022 | [ウェビナーを設定する](/MicrosoftTeams/set-up-webinars) | 更新日時 |
 | 12/5/2022 | [Microsoft Teams Premium ライセンス](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | 追加済 |
-| 12/5/2022 | [Teams アドオン ライセンスのMicrosoft](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | 更新日時 |
+| 12/5/2022 | [Microsoft Teams アドオン ライセンス](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | 更新日時 |
 | 12/5/2022 | [機密性の高い Teams 会議に透かしを要求する](/MicrosoftTeams/watermark-meeting-content-video) | 追加済 |
 | 12/7/2022 | [小規模企業向けの Microsoft Teams Essentials クイックスタート ガイド](/MicrosoftTeams/get-started-with-teams-essentials) | 更新日時 |
 | 12/7/2022 | [Microsoft Teams 無料版 (クラシック)の管理](/MicrosoftTeams/manage-freemium) | 更新日時 |
