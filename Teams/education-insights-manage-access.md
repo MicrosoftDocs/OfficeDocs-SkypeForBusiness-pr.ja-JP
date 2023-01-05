@@ -16,18 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f97b2aea15fe626c7780f022e2d024729ad02589
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
-ms.translationtype: HT
+ms.openlocfilehash: 7203c9bda1a6e5c2bf9d90b490492fe7bbc3f64c
+ms.sourcegitcommit: 78fbfcf4a1aafce5d39eea79c9461a9fc1bb3d38
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "62363183"
+ms.lasthandoff: 01/05/2023
+ms.locfileid: "69707809"
 ---
 # <a name="manage-user-access-to-education-insights"></a>Education Insights へのユーザー アクセスを管理する
 
 このドキュメントでは、[Microsoft Teams の Education Insights](class-insights.md) へのユーザー アクセスを管理するために必要な手順について説明します。
 
-教育指導者、地区指導者、校長、教頭、カウンセラー、学習分野の責任者、プログラムディレクター、ソーシャルワーカー、心理学者に権限を与える必要があります。教育関係者は、クラスチームを所有している場合、*自動的* に権限が与えられます。
+You need to provide permissions for education leaders, district leaders, school principals, head teachers, counselors, heads of learning areas, program directors, social workers, and psychologists. Educators are *automatically* given permission when they own a class team.
 
 組織レベルの Insights を提供するには、[学生情報システム (SIS) からデータをインポートする](education-insights-sis-data-sync.md)必要があります。これは、Insights が教育システムの階層構造を正しくマッピングできるようにするためです。
 
@@ -37,7 +37,7 @@ ms.locfileid: "62363183"
 > [!TIP]
 > すべての教育リーダーに対して Insights を有効にして、各学校を理解するためのデータを入手し、問題をすばやく特定して教育者をサポートできるようにすることをお勧めします。 パイロットを実行している場合でも、すべての教育リーダーに対して Insights を有効にしておくと役立つ場合がありますが、コミュニケーションはパイロット グループのユーザーのみを対象とします。
 
-## <a name="manange-permissions"></a>アクセス許可の管理
+## <a name="manage-permissions"></a>権限の管理
 
 * Insights アプリを開き、**[設定]** タブをクリックし、**[ユーザーのアクセス許可]** を選択する
 
@@ -48,15 +48,17 @@ ms.locfileid: "62363183"
 > 
 > それらを必要とする教育リーダーとそのリーダーが担当する組織単位にのみ許可を与えます。 特定の組織のユーザー許可が必要かどうかわからない場合は、法務担当者や人事担当者など、組織のプライバシーに関する専門家に相談してください。
 
+> [!IMPORTANT]
+> アクセス許可を初めて割り当てると、少なくとも **2 人** のユーザーがアプリにアクセスした場合にのみ、ユーザーはアプリ内のデータを表示できるようになります。 この要件は、データのタイム ゾーンが正しく構成され、すべてのユーザーに対してデータが正確に表示されるようにするのに役立ちます。 アクセス許可が付与された後にユーザーがデータへのアクセスに問題が発生している場合は、少なくとも 2 人のユーザーがアプリにアクセスしているかどうかを確認します。
+
 ## <a name="role-based-permissions"></a>役割に基づくアクセス許可
 
-[SDS V2.1 ファイル形式](/schooldatasync/sds-v2.1-csv-file-format)または [SDS V2 ファイル形式](/schooldatasync/sds-v2-csv-file-format)を使用した場合、教育システム内のすべての役割と学校のすべての階層をインポートすることができます。この完全なマッピングにより、役割にアクセス許可を割り当てることができます。 
+If you use [SDS V2.1 file format](/schooldatasync/sds-v2.1-csv-file-format) or [SDS V2 file format](/schooldatasync/sds-v2-csv-file-format), you can import all roles and the full hierarchy of schools within the education system. This complete mapping enables you to assign permissions to roles. 
 
 > [!NOTE]
 > ユーザーに役割が割り当てられた場合は、そのユーザーに関連するデータを見るための適切なアクセス許可が自動的に付与されます。
 >
 > ユーザーがある役割を外れた場合、その役割に対するアクセス許可は自動的に取り消されます (ただし、個々のアクセス許可は維持される場合があります)。
-
 
 * 必要に応じて、**[役割に基づくアクセス許可]** タブをクリックします。
 
@@ -92,14 +94,14 @@ SDS V2 を使用して組織の SIS データをインポートしていない�
 * 画面左上の **[個々のアクセス許可]** をクリックします。
 * 各ユーザーのユーザー名またはメール アドレスを入力します。
 * アクセス許可レベルを選択します。
-  * **[すべて]** では、ユーザーはすべてのレベルのすべての組織単位を表示できます。これはほとんど使用されていません。
+  * **[すべて]** では、ユーザーはすべてのレベルのすべての組織単位を表示できます。 これはほとんど使用されていません。
   * **特定の組織** とは、ユーザーが選択した組織単位と、その下のすべての組織単位を表示することを意味します。 入力を開始し、一覧から組織単位を選択します。
 * **[アクセス許可の付与]** をクリックして保存します。
 
 ### <a name="change-the-individual-permission-of-a-user"></a>ユーザーの個々のアクセス許可の変更
 * 関連するユーザーに対して、鉛筆アイコンをクリックして、個々のアクセス許可レベルを選択します。
 * アクセス許可レベルを選択します。
-  * **[すべて]** では、ユーザーはすべてのレベルのすべての組織単位を表示できます。これはほとんど使用されていません。
+  * **[すべて]** では、ユーザーはすべてのレベルのすべての組織単位を表示できます。 これはほとんど使用されていません。
   * **特定の組織** とは、ユーザーが選択した組織単位と、その下のすべての組織単位を表示することを意味します。 入力を開始し、一覧から組織単位を選択します。
   * **[なし]** は、ユーザーが自分の役割によって自動的に割り当てられた組織単位 (ある場合) のみを表示することを意味します。
   

@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-edu
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f95f9c1a3ad6a65dbefa4d48c0c5277e01b65f2
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: f93359c04dba3f926983214d9fa8b856f58915c6
+ms.sourcegitcommit: 78fbfcf4a1aafce5d39eea79c9461a9fc1bb3d38
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397274"
+ms.lasthandoff: 01/05/2023
+ms.locfileid: "69707819"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams の Education Insights への IT 管理者ガイド
 
@@ -47,7 +47,7 @@ Insights は、クラス内の生徒の進捗状況とアクティビティの�
 
 Insightsを使用するための前提条件はありません。教職員は、Insights を左側のアプリバーに追加するか、Teams の各クラスのタブとして追加するだけです。
 
-教職者は教職員用ライセンスで識別されます。Insights でデータを表示するには、教職員は教職員ライセンスを持っており、クラス チームの所有者である必要があります。
+Educators are identified by faculty licenses. Educators must have a faculty license and be a class team owner to see the data in Insights.
 
 ### <a name="education-leaders"></a>教育リーダー
 
@@ -68,8 +68,6 @@ Insightsを使用するための前提条件はありません。教職員は、
 > Insights は、Teams での学生の活動に関するデータを収集します。
 >
 > 学生は、Teams 内のクラス チームのメンバーです。 学生たちはライセンスによって識別され、たとえチームの所有者であっても Insights アプリまたはタブに **アクセスできません**。
->
-> ゲストを学生と見なすことは *できません*。
 
 ## <a name="where-do-users-find-insights"></a>ユーザーはどこで Insights を見つけますか?
 
@@ -84,7 +82,7 @@ Insightsを使用するための前提条件はありません。教職員は、
 
 Insights では、クラスチーム内のすべてのチャネルのアクティビティ データが表示されますが、パブリック チャネルにはタブとしてのみ追加できます。 このタブには、所有者以外のクラス チーム内の (クラス チームの所有者ではない教職員を含む) すべてのユーザーのアクティビティが反映されます。
 
-どちらのビューでも、教職員はクラス データにアクセスできます。パーソナル アプリを使用すると、教職員はクラス レベルにドリルダウンする必要がありますが、タブではクラス データに直接アクセスできます。
+In both views, an educator can access class data. Using the personal app, the educator needs to drill down to the class level, whereas the tab provides direct access to class data.
 
 クラス レベルでは、教職員がクラス チームを所有している場合、IT管理者が他のアクションを実行しなくてもInsightsを利用できます。
 
@@ -114,7 +112,7 @@ Insights では、クラスチーム内のすべてのチャネルのアクテ�
 
 ## <a name="when-is-insights-used"></a>インサイトはいつ使用されますか?
 
-Insights は、**学習サイクル** 全体で学習コミュニティをサポートしています。Insights は、複数のディメンションにわたるリアルタイムメトリックを使用して、学校コミュニティのメンバー間で識別、リフレクション、ディスカッション、アクションの継続的なサイクルをサポートします。
+Insights supports learning communities throughout **the learning cycle**. With real-time metrics across multiple dimensions, Insights supports a continuous cycle of identification, reflection, discussion, and taking action amongst members of the school community.
 
 - 学生が教職員、コース資料、および学友といつどのように関わるか、そして彼らが課題をどのように実行するかを **特定** します。
 - 入力が学生が成功するようにサポートする方法、成長する領域を決定する方法、および支援が必要な場所を **検討** します。
@@ -131,7 +129,7 @@ Insights は、教職員がより良い学習成果を提供するのに役立�
 
 ### <a name="data-collection"></a>データ収集
 
-Teams での学生と教職員の活動から Insights のデータが収集されます。 ゲスト データは収集されません。
+Teams での学生と教職員の活動から Insights のデータが収集されます。
 
 Insights は、教職員に関するデータを表示 *しません*。 データの分析は、教育と学習に役立つ実用的な情報を提供します。
 
@@ -149,10 +147,10 @@ Insights は、教職員に関するデータを表示 *しません*。 デー�
 |**キャリア コーチ**|学生が提供する専攻 (研究分野) と学年、キャリア コーチ アプリでの学生のアクティビティ (スキル、スキルの関心、キャリアの関心、学習の関心、キャリア関連のアクティビティなど)。|
 
 > [!NOTE]
-> 収集されたデータのほとんどは、数分以内に Insights に表示されます。クラス ミーティング (クラス チャネルの 1 つに関連するミーティング) への出席は、ミーティングの終了後数時間で、通常は最大 24 時間後に表示されます。
+> Most of the collected data shows up in Insights within a few minutes. Attendance in class meetings (meetings associated with one of the class channels) appears a few hours after the end of the meeting, usually up to 24 hours later.
 
 > [!NOTE]
-> Education Insights で収集されたデータは、IT 管理者が [Education Analytics トグル](#turn-sds-for-insights-on-or-off) をオフにするか、テナントの Office サブスクリプションが終了するまで保持されます。Teams で特定の機能をオフにしても、履歴データは削除されません。
+> Data collected in Education Insights is kept until either the IT Admin turns off the [Education Analytics toggle](#turn-sds-for-insights-on-or-off) or the Office subscription for the tenant ends. Turning off specific features in Teams does not delete historic data.
 
 ### <a name="privacy-and-security"></a>プライバシーとセキュリティ
 
@@ -212,7 +210,7 @@ Education Insights Premium アドオンは、テナント内のすべてのデ�
 
 ## <a name="manage-permissions"></a>権限の管理
 
-IT管理者として、教育指導者、地区指導者、校長、教頭、カウンセラー、学習分野の責任者、プログラムディレクター、ソーシャルワーカー、心理学者に権限を与えることができます。教育関係者は、クラスチームを所有している場合、*自動的* に権限が与えられます。
+As an IT admin you can provide permissions for education leaders, district leaders, school principals, head teachers, counselors, heads of learning areas, program directors, social workers, and psychologists. Educators are *automatically* given permission when they own a class team.
 
 詳細については、「[**Education Insights へのユーザー アクセスを管理する**](education-insights-manage-access.md)」を参照してください。
 
@@ -222,7 +220,7 @@ IT 管理者として、教職員やリーダーが Teams の使用を開始す�
 
 教育者が各クラスに直接アクセスしたい場合は、上部のナビゲーション メニューの [Insights] タブを手動でインストールできます。 このタブを使用すると、教職員は Teams のそのクラスにいるときに関連データに直接アクセスして、クラスのコンテキストでデータを確認できます。
 
-どちらのビューでも、教職員はクラス データにアクセスできます。パーソナル アプリを使用すると、教職員はクラス レベルにドリルダウンする必要がありますが、タブではクラス データに直接アクセスできます。
+In both views, an educator can access class data. Using the personal app, the educator needs to drill down to the class level, whereas the tab provides direct access to class data.
 
 > [!TIP]
 > 詳細については、「[教育機関向け Teams ポリシーおよびポリシー パッケージ](./policy-packages-edu.md)」をご確認ください。
@@ -256,7 +254,7 @@ IT 管理者として、教職員やリーダーが Teams の使用を開始す�
 1. **[設定]** > **[Education Insights の管理]** の順に移動します。
 1. **[Insights のアクティビティ データを収集する]** トグルを調整します。
 
-![SDS 管理センターのスクリーンショットが切り替わり、Insights をオフまたはオンに切り替えます。](media/manage-insights-toggles.png)
+![SDS 管理センターの切り替えで Insights のオン/オフを切り替えるスクリーンショット。](media/manage-insights-toggles.png)
 
 #### <a name="turn-on-and-off-insights-from-the-teams-client"></a>Teams クライアントで Insights のオンとオフを切り替える
 
@@ -264,7 +262,7 @@ IT 管理者として、教職員やリーダーが Teams の使用を開始す�
 1. Microsoft 365 管理者アカウントを使用して、*Education Insights* の右上隅にある省略記号アイコンを使用して、**[管理者設定]** ページを開きます。
 1. **[Insights のアクティビティ データを収集する]** トグルを調整します。
 
-![Teams クライアントの切り替えを切り替えて Insights をオフまたはオンにするスクリーンショット。](media/admin-settings-main-screen.png)
+![Teams クライアントの切り替えによる Insights のオン/オフの切り替えのスクリーンショット。](media/admin-settings-main-screen.png)
 
 > [!NOTE]
 > Insights をオフにした場合、収集されたデータは削除されます。 オプトアウトによって削除されたデータは、Insights が再び有効になった場合でも、後から復元することはできません。
@@ -336,13 +334,7 @@ Insights によって収集された完全なデータは、[ここに](class-in
 
 これを確認するには、[SDS 管理センター](https://sds.microsoft.com)を開き、**[設定]** > **[Education Insights の管理]** の順に移動します。 [Insights のアクティビティ データを収集する] の状態を確認します。
 
-オフになっている場合は、オンに戻します。Insights はデータの収集を開始しますが、レポートでデータを確認するには最大 24 時間かかる場合があります。
-
-### <a name="why-do-i-see-data-for-some-students-or-classes-not-all"></a>すべてではなく、一部の生徒またはクラスのデータが表示されるのはなぜですか?
-
-*ライセンスを取得した* 生徒のデータのみを収集するため、最も可能性の高い理由は、ゲスト生徒がクラスに参加していて、そのデータが収集されていないことです。 名前は表示されるかもしれませんが、データはありません。
-
-生徒の状態を確認して、全員がライセンスを持っていることを確認します。
+If it's turned off, turn it back on.  Insights starts to collect data, but it may take up to 24 hours to see it in the reports.
 
 ### <a name="why-dont-educators-see-meeting-data"></a>なぜ教育者は会議データを表示できないのですか?
 
@@ -351,7 +343,7 @@ Insights レポートで会議データを表示するには、最大 24 時間�
 また、生徒が [Teams アカウントなしでクラス会議に参加](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508)しなかったことを確認してください。 このようなシナリオでは、生徒のアクティビティは収集されません。
 
 > [!TIP]
-> 生徒の出席状況を追跡する必要がある教育者は、会議中に生徒に返信を求めるメッセージを送信することをおすすめします。これで生徒の出席状況が数分でわかるようになります。
+> For those educators who want to track student attendance, you can recommend sending a message during the meeting asking students to reply. This registers their attendance within a few minutes.
 
 > [!NOTE]
 > 質問にまだ回答がない場合は、[サポート チケットをオープン](https://aka.ms/edusupport)してください。 問題を示すスクリーンショットと、問題が発生した日付を含めます。 問題の解決に役立つと思われるデータを追加してください。
