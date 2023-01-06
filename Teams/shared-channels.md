@@ -19,12 +19,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams の共有チャネルを使用および管理する方法について説明します。
-ms.openlocfilehash: b7f151b68bf37ccf3e14e3a442b4d2b1c6acc52f
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: d45e2f1ea7f6daef8cd2b4a3af57944629d59a8a
+ms.sourcegitcommit: eb0e754d7e2877f686021d3ab75b6d8d44db3a95
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69199149"
+ms.lasthandoff: 01/06/2023
+ms.locfileid: "69727869"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams の共有チャネル
 
@@ -70,7 +70,7 @@ Shared channels is enabled by default in Teams. You can choose if people can cre
 
 共有チャネルの所有者は、1 つ以上の共有チャネルの最後の所有者である場合、Teams クライアントから削除できません。
 
-最後の共有チャネル所有者が組織を離れた場合、またはチームに関連付けられているMicrosoft 365 グループから削除された場合、組織の共有チャネルのメンバーが自動的に共有チャネル所有者に昇格されます。 昇格する組織のメンバーがいない場合、共有チャネルは所有者なしのままです。 Teams 管理者は、チャネル所有者を手動で割り当てる必要があります。 この状況を回避するために、複数の所有者を追加することを検討してください。
+最後の共有チャネル所有者が組織を離れる場合、またはチームに関連付けられている Microsoft 365 グループから削除された場合、組織の共有チャネルのメンバーが自動的に共有チャネル所有者に昇格されます。 昇格する組織のメンバーがいない場合、共有チャネルは所有者なしのままです。 Teams 管理者は、チャネル所有者を手動で割り当てる必要があります。 この状況を回避するために、複数の所有者を追加することを検討してください。
 
 メンバーに変換されたゲスト (ユーザータイププロパティ内) を含むゲストは、共有チャネルに追加できません。
 
@@ -161,6 +161,8 @@ Teams は、共有チャネル サイトのライフ サイクルを管理しま
 - 共有チャネルではタブがサポートされますが、Stream、Planner、Forms は除きます。
 
 - ボット、コネクタ、メッセージ拡張機能はサポートされていません。
+
+- 組織全体のチームは、共有チャネルのメンバーとして追加することはサポートされていません。
 
 - 既存のチームからチームを作成する場合、既存のチームの共有チャネルは上書きされません。
 

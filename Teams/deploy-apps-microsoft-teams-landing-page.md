@@ -22,16 +22,16 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 7ded369ab991a37e711c416a7448447f148c069c
-ms.sourcegitcommit: 339a35e461c84ee309ade1a53299ba12231df7a3
+ms.openlocfilehash: a41393f763c9d8ebb328d586f6ae12636e87b0b4
+ms.sourcegitcommit: eb0e754d7e2877f686021d3ab75b6d8d44db3a95
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/29/2022
-ms.locfileid: "69677417"
+ms.lasthandoff: 01/06/2023
+ms.locfileid: "69727739"
 ---
-# <a name="understand-microsoft-teams-apps-and-their-capabilities"></a>teams アプリとその機能Microsoft理解する
+# <a name="understand-microsoft-teams-apps-and-their-capabilities"></a>Microsoft Teams アプリとその機能について
 
-Teams のアプリは、ユーザーが職場のツールやサービスをまとめ、他のユーザーと共同作業するのに役立ちます。 たとえば、エンド ユーザーは、他のユーザーとすばやく共同で作業するために Teams にピン留めされた予定表アプリ、Teams チャネルで Web サービスの品質をユーザーに通知するボット機能を備えたアプリ、チャネル内のさまざまなエンド ユーザーとタスクを共有して割り当てるアプリなどを使用します。 Microsoft Teams アプリは、ローカルに展開する必要のない Web ベースの SaaS アプリです。
+Teams のアプリは、ユーザーが職場のツールやサービスをまとめ、他のユーザーと共同作業するのに役立ちます。 たとえば、エンド ユーザーは、他のユーザーとすばやく共同で作業するために Teams にピン留めされた予定表アプリ、Teams チャネルで Web サービスの品質をユーザーに通知するボット機能を備えたアプリ、チャネル内のさまざまなエンド ユーザーとタスクを共有して割り当てるアプリなどを使用します。 Microsoft Teams アプリは、ローカルに展開する必要のない Web ベースの SaaS アプリに似ています。 エンド ユーザーが Teams クライアントにアプリを追加しても、 のインストールは必要ありません(バイナリ ファイルなど)。
 
 管理者は、エンド ユーザーの幅広い要件と組織の IT ポリシー、標準、リスク プロファイルのバランスを取るアプリ ガバナンス プロセスを設定します。
 
@@ -43,7 +43,7 @@ Teams のアプリは、ユーザーが職場のツールやサービスをま�
 
 * [Teams の一部であるコア アプリ](#core-apps)。
 * [Microsoft によって作成されたその他のアプリ](#apps-created-by-microsoft)。
-* パートナーによって作成された[サード パーティ製アプリ](#third-party-apps-created-by-independent-app-developers) (Microsoftによって検証されます)。
+* パートナーによって作成された[サード パーティ製アプリ](#third-party-apps-created-by-independent-app-developers) (Microsoft によって検証)。
 * 独自の組織によって作成された[カスタム アプリ](#custom-apps-created-within-an-organization-for-internal-use)。
 
 ## <a name="core-apps"></a>コア アプリ
@@ -52,17 +52,17 @@ Teams のアプリは、ユーザーが職場のツールやサービスをま�
 
 :::image type="content" source="media/core-apps-pinned1.png" alt-text="コア アプリは、既定で Teams にピン留めされたアプリです。" lightbox="media/core-apps-pinned2.png":::
 
-## <a name="apps-created-by-microsoft"></a>Microsoftによって作成されたアプリ
+## <a name="apps-created-by-microsoft"></a>Microsoft によって作成されたアプリ
 
-Microsoft には、生産性と共同作業を向上させるための多くのアプリがあります。 ユーザーとエンド ユーザーは、Teams 管理センターでパブリッシャーとして表示されるMicrosoftを探すか、Teams ストアでプロバイダーとして一覧表示されるように検索することで、これらのアプリを見つけることができます。
+Microsoft には、生産性と共同作業を向上させるための多くのアプリがあります。 ユーザーとエンド ユーザーは、Teams 管理センターでパブリッシャーとして表示されている Microsoft を探すか、Teams ストアでプロバイダーとして一覧表示することで、これらのアプリを見つけることができます。
 
 Teams には、リスト、Tasks、称賛、承認などを含む一連の組み込みアプリが付属しています。 Teams の初期展開時に、おすすめのアプリ (Planner など) を含めることをお勧めします。
 
-:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Teams 管理センターのMicrosoft アプリの一覧を示すスクリーンショット。" lightbox="media/microsoft-apps-in-tac2.png":::
+:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Teams 管理センターの Microsoft アプリの一覧を示すスクリーンショット。" lightbox="media/microsoft-apps-in-tac2.png":::
 
 ## <a name="third-party-apps-created-by-independent-app-developers"></a>独立したアプリ開発者によって作成されたサード パーティ製アプリ
 
-Microsoft提供されているアプリに加えて、サード パーティ製アプリを使用できます。 Microsoftこれらのすべてのアプリの機能とセキュリティを厳密に検証します。 これらのアプリを Teams ストアで使用できるようにする前に、詳細な手動テストと自動テストが実行され、アプリが公開された後でも多くのテストが定期的に継続されます。 アプリ検証の利点を理解するには、[サード パーティ製アプリの検証](overview-of-app-validation.md)を参照してください。 一部のアプリでは[、Microsoftコンプライアンス プログラム](overview-of-app-certification.md)をサブスクライブして、検証以外の複数のレベルのチェックを受けます。
+Microsoft が提供するアプリに加えて、サード パーティ製アプリを使用できます。 Microsoft では、これらすべてのアプリの機能とセキュリティを厳格に検証しています。 これらのアプリを Teams ストアで使用できるようにする前に、詳細な手動テストと自動テストが実行され、アプリが公開された後でも多くのテストが定期的に継続されます。 アプリ検証の利点を理解するには、[サード パーティ製アプリの検証](overview-of-app-validation.md)を参照してください。 一部のアプリでは [、Microsoft コンプライアンス プログラム](overview-of-app-certification.md) をサブスクライブして、検証を超えて複数のレベルのさらなるチェックを受けます。
 
 :::image type="content" source="media/3p-apps-in-teams.png" alt-text="Teams ストアにあるサード パーティ製アプリの例のスクリーンショット。":::
 
@@ -78,7 +78,7 @@ Microsoft提供されているアプリに加えて、サード パーティ製�
 
 ## <a name="about-app-templates"></a>アプリ テンプレートについて
 
-アプリ開発方法を使用して、Microsoftは、機能的で運用環境に対応したサンプル アプリを作成して提供します。 総称して、これらのアプリは Teams のアプリ テンプレートと呼ばれ、次の目的で提供されます。
+Microsoft は、アプリ開発方法を使用して、機能的で運用環境に対応したサンプル アプリを作成して提供します。 総称して、これらのアプリは Teams のアプリ テンプレートと呼ばれ、次の目的で提供されます。
 
 * Teams でのコラボレーションのユース ケースをいくつか示します。
 * アプリ開発のベスト プラクティスと方法を紹介します。
@@ -94,9 +94,9 @@ Microsoft提供されているアプリに加えて、サード パーティ製�
 
 簡単にアクセスできるように、アプリを Teams にピン留めできます。 セットアップ ポリシーで許可されている場合と、アプリが Teams 管理者によって許可されている場合、ユーザーは [アプリを自分でピン留め](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec) できます。管理者は、アプリをピン留めし、ピン留めされたアプリの動作を制御できます。詳細については、「 [アプリのセットアップ ポリシー](/microsoftteams/teams-app-setup-policies)」を参照してください。
 
-:::image type="content" source="media/user-app-experience-find-apps.png" alt-text="ユーザーがMicrosoft Teams でアプリを閲覧できるすべての場所を示すスクリーンショット。" lightbox="media/user-app-experience-find-apps-full.png":::
+:::image type="content" source="media/user-app-experience-find-apps.png" alt-text="ユーザーが Microsoft Teams でアプリを閲覧できるすべての場所を示すスクリーンショット。" lightbox="media/user-app-experience-find-apps-full.png":::
 
-ユーザーは、Teams アプリ ストアからアプリを見つけて Teams に追加できます。 また、チャットまたはチャネル タブ、Teams 会議、メッセージング領域など、作業中のコンテキストからアプリを直接追加することもできます。 詳細については、「[Microsoft Teams にアプリを追加する](https://support.microsoft.com/office/add-an-app-to-microsoft-teams-b2217706-f7ed-4e64-8e96-c413afd02f77)」を参照してください。
+ユーザーは、Teams アプリ ストアからアプリを見つけて Teams に追加できます。 また、チャットまたはチャネル タブ、Teams 会議、メッセージング領域など、作業中のコンテキストからアプリを直接追加することもできます。 詳細については、「 [Microsoft Teams にアプリを追加する」を](https://support.microsoft.com/office/add-an-app-to-microsoft-teams-b2217706-f7ed-4e64-8e96-c413afd02f77)参照してください。
 
 ユーザーは、管理者がアプリを許可し、アクセス [許可ポリシー](teams-app-permission-policies.md)を使用してアプリをユーザーが利用できる場合にのみ、アプリを追加して使用できます。 組織の IT 管理者は、どのアプリをどのコンテキストにインストールできるかを完全に制御できます。 ユーザーはブロックされているアプリを追加できません。Teams ストアのロック アイコンを持つアプリは、ユーザーに対してブロックされます。 ただし、 [ユーザーは組織の IT 管理者に承認を要求できます](https://support.microsoft.com/office/request-apps-that-require-approval-by-your-org-924e3a9e-33f0-44c2-9e81-e875214c05ae)。 アプリが承認されると、ユーザーは Teams ストアからアプリを追加できます。
 
@@ -111,11 +111,11 @@ Teams アプリの機能は、開発者が Teams アプリのさまざまなユ�
         :::image type="content" source="media/teams-app-capabilities-group.png" alt-text="Graphic that shows the app capabilities of a Microsoft Teams app." border="false":::
 --->
 
-* **ボット**: ボットは、チャットボットまたは会話ボットとも呼ばれます。 ボットは、単純な反復タスクを実行するアプリです。 ボットの操作には、簡単な質問と回答や、サービスやサポートへのアクセスを提供する複雑な会話などがあります。 ユーザーは、個人用チャット、チャネル、またはグループ チャットでボットとの会話を行うことができます。 詳細については、「[Microsoft Teams のボット](/microsoftteams/platform/bots/what-are-bots)」を参照してください。
+* **ボット**: ボットは、チャットボットまたは会話ボットとも呼ばれます。 ボットは、単純な反復タスクを実行するアプリです。 ボットの操作には、簡単な質問と回答や、サービスやサポートへのアクセスを提供する複雑な会話などがあります。 ユーザーは、個人用チャット、チャネル、またはグループ チャットでボットとの会話を行うことができます。 詳細については、「 [Microsoft Teams のボット](/microsoftteams/platform/bots/what-are-bots)」を参照してください。
 
-* **タブ**: タブは、チャネルまたはチャットの上部にピン留めされた Teams 対応 Web ページです。 タブを使用すると、Web に似たエクスペリエンスでコンテンツやサービスを操作できます。 これは、個々のユーザーのチーム、グループ チャット、または個人用アプリ内のチャネルの一部として追加できる単純な HTML `iframe` タグです。 詳細については、「[Microsoft Teams タブ](/microsoftteams/platform/tabs/what-are-tabs)」を参照してください。
+* **タブ**: タブは、チャネルまたはチャットの上部にピン留めされた Teams 対応 Web ページです。 タブを使用すると、Web に似たエクスペリエンスでコンテンツやサービスを操作できます。 これは、個々のユーザーのチーム、グループ チャット、または個人用アプリ内のチャネルの一部として追加できる単純な HTML `iframe` タグです。 詳細については、「 [Microsoft Teams のタブ](/microsoftteams/platform/tabs/what-are-tabs)」を参照してください。
 
-* **Webhook とコネクタ**: Webhook とコネクタは、さまざまな Web サービスをMicrosoft Teams のチャネルとチームに接続するのに役立ちます。 Webhook は、Teams チャネルで行われたアクションについてユーザーに通知するユーザー定義の HTTP コールバックです。 これは、アプリがリアルタイム データを取得する方法です。 コネクタを使用すると、ユーザーは Web サービスからの通知とメッセージの受信をサブスクライブできます。 詳細については、「 [Webhook とコネクタ](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)」を参照してください。
+* **Webhook とコネクタ**: Webhook とコネクタは、さまざまな Web サービスを Microsoft Teams のチャネルやチームに接続するのに役立ちます。 Webhook は、Teams チャネルで行われたアクションについてユーザーに通知するユーザー定義の HTTP コールバックです。 これは、アプリがリアルタイム データを取得する方法です。 コネクタを使用すると、ユーザーは Web サービスからの通知とメッセージの受信をサブスクライブできます。 詳細については、「 [Webhook とコネクタ](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)」を参照してください。
 
   ユーザーが Teams でカスタム コネクタを使用できるようにするには、「Teams で [カスタム コネクタを使用する](office-365-custom-connectors.md)」を参照してください。
 

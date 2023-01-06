@@ -16,20 +16,20 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Microsoft Teams で緊急通報ポリシーを使用して管理し、組織内の Teams ユーザーが緊急通報を行った場合の動作を定義する方法について説明します。
+description: Microsoft Teams で緊急通話ポリシーを使用して管理し、組織内の Teams ユーザーが緊急通報を行った場合の動作を定義する方法について説明します。
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: 4b5d293cbbd588a564ff1a0118ab4d56f96c17a2
-ms.sourcegitcommit: 321de0e5d8846caaaab944826f6ca06394e707ef
+ms.openlocfilehash: 1d2dc0e2213f6294e2c596722a4f5ab49bec8487
+ms.sourcegitcommit: eb0e754d7e2877f686021d3ab75b6d8d44db3a95
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/16/2022
-ms.locfileid: "69414644"
+ms.lasthandoff: 01/06/2023
+ms.locfileid: "69727749"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Microsoft Teams で緊急通話ポリシーを管理する
 
-組織が [PSTN 接続オプション](pstn-connectivity.md)としてMicrosoft通話プラン、オペレーター接続、Teams Phone Mobile、またはダイレクト ルーティングを使用している場合は、Microsoft Teams の緊急通話ポリシーを使用して、組織内の Teams ユーザーが緊急通話を行うときの動作を定義できます。
+組織で [PSTN 接続オプション](pstn-connectivity.md)として Microsoft 通話プラン、オペレーター接続、Teams Phone Mobile、またはダイレクト ルーティングを使用している場合は、Microsoft Teams の緊急通話ポリシーを使用して、組織内の Teams ユーザーが緊急通話を行うときの動作を定義できます。
 
 通知するユーザーと、ポリシーが割り当てられたユーザーが緊急サービスを呼び出す場合の通知方法を設定できます。 たとえば、組織のセキュリティ デスクに自動的に通知し、緊急通報でリッスンするようにポリシー設定を構成できます。  
 
@@ -43,7 +43,7 @@ ms.locfileid: "69414644"
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
 
-1. Microsoft Teams 管理センターの左側のナビゲーションで、[**音声** > **緊急ポリシー**] に移動し、[**通話ポリシー**] タブをクリックします。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、[ **音声** > **緊急ポリシー**] に移動し、[ **通話ポリシー** ] タブをクリックします。
 
 2. **[追加]** をクリックします。
 
@@ -61,7 +61,7 @@ ms.locfileid: "69414644"
 
 7.  ミュート通知モード **でいずれかの会議** を選択した場合は、[ **緊急通報の通知にダイヤルする番号** ] ボックスに、緊急通報を呼び出して参加するユーザーまたはグループの PSTN 電話番号を入力できます。 たとえば、緊急通報が行われたときに通話を受け取り、通話をリッスンできる組織のセキュリティ デスクの番号を入力します。 モードがミュート状態で Conferenced に設定されていても、ミュートを解除できる場合でも、PSTN 電話 **をミュート解除することはできません**。
 
-8. 組織のセキュリティ デスクなど、1 つ以上のユーザーまたはグループを検索して選択し、緊急通報が行われたときに通知します。  通知は、ユーザー、配布グループ、およびセキュリティ グループのメール アドレスに送信できます。 最大 50 人のユーザーに通知できます。
+8. 緊急通報が行われたときに通知するユーザー (セキュリティ デスク担当者など) を設定します。 ユーザー、配布グループ、またはセキュリティ グループの一覧を定義できます。 最大 50 人のユーザーに通知できます。
 
 9. [**適用**] をクリックします。
 
@@ -75,7 +75,7 @@ ms.locfileid: "69414644"
 
 グローバル ポリシー、または作成したカスタム ポリシーを編集できます。
 
-1. Microsoft Teams 管理センターの左側のナビゲーションで、[**音声** > **緊急ポリシー**] に移動し、[**通話ポリシー**] タブをクリックします。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、[ **音声** > **緊急ポリシー**] に移動し、[ **通話ポリシー** ] タブをクリックします。
 2. ポリシー名の左側をクリックしてポリシーを選び、**[編集]** をクリックします。
 3. 必要な変更を行い、[ **適用**] をクリックします。
 

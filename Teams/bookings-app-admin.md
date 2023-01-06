@@ -25,16 +25,16 @@ ms.collection:
 - m365initiative-meetings
 ms.reviewer: ''
 description: 組織内のユーザーの Teams で Bookings アプリを管理する方法について説明します。
-ms.openlocfilehash: abcd906f18b10b7d82b67682de439f1eb6592cd6
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 66e3d0450eaad1843c94833cb7bb6d417959eb8c
+ms.sourcegitcommit: eb0e754d7e2877f686021d3ab75b6d8d44db3a95
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307522"
+ms.lasthandoff: 01/06/2023
+ms.locfileid: "69727759"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Microsoft Teams で Bookings アプリを管理する
 
-Microsoft Teams の Bookings アプリでは、対人予約と仮想予定を簡単にスケジュールできます。 たとえば、医療訪問、財務相談、面接、カスタマー サポート、教育オフィス時間などです。 詳細については、「[Teams と Bookings アプリを使用した仮想予定](/microsoft-365/frontline/bookings-virtual-appointments)」を参照してください。
+Microsoft Teams の Bookings アプリは、対人予定と仮想予定を簡単にスケジュールする方法を提供します。 たとえば、医療訪問、財務相談、面接、カスタマー サポート、教育オフィス時間などです。 詳細については、「[Teams と Bookings アプリを使用した仮想予定](/microsoft-365/frontline/bookings-virtual-appointments)」を参照してください。
 
 スケジューラは、1 つのエクスペリエンスから、複数の部署とスタッフの予定表と、内部および外部の出席者との通信を管理できます。 仮想予定は、堅牢なビデオ会議機能を提供する Teams 会議を介して開催されます。
 
@@ -64,13 +64,16 @@ Bookings に最適なエクスペリエンスを実現するには、Teams 会�
 
 ## <a name="sms-text-notifications"></a>SMS テキスト通知
 
-![情報アイコン](media/info.png) **この機能は [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md) (プレビュー) に移行しています。ユーザーはプレビュー期間中も引き続きこの機能を使用できます。プレビュー後、ユーザーには Teams Premium ライセンスが必要です。**
+![情報アイコン](media/info.png) **この機能は [、Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md) (プレビュー) に移動しています。ユーザーはプレビュー期間中も引き続きこの機能を使用できます。プレビュー後、ユーザーにはTeams Premium ライセンスが必要です。**
+
+> [!NOTE]
+> Bookings ライセンスをお持ちのお客様には、2023 年 3 月 1 日 (以前の 2023 年 1 月 31 日) まで、無制限の SMS 通知を提供します。 プロモーション期間の終了に近づくにつれて、ライセンス要件の詳細を提供します。 プロモーション期間後に価格の詳細を受け取る場合は、アカウント チームまたはサポートにお問い合わせください。
 
 組織内のスタッフによってスケジュールされた仮想予定について、SMS テキスト通知を外部出席者に送信できるかどうかを制御できます。
 
 既定では、この設定はオンになっており、組織内のすべての Bookings カレンダーに対して SMS テキスト通知が有効になっています。 Bookings 管理者とスケジューラは、スケジュール [された予定の種類とスケジュール](/microsoft-365/frontline/bookings-virtual-appointments#scheduled-appointment-type) された個々の予定で、必要に応じて SMS 通知をオフまたはオンにすることを後で選択できることに注意してください。
 
-この設定を構成するには、Microsoft 365 管理センター \> **設定** \> **組織の設定** に移動し、[**Bookings**]\(予約\) を選択します。 [**Microsoftによる SMS テキスト メッセージ通知の送信を許可する**] チェック ボックスをオンまたはオフにします。
+この設定を構成するには、Microsoft 365 管理センター \> **設定** \> **組織の設定** に移動し、[**Bookings**]\(予約\) を選択します。 [ **Microsoft による SMS テキスト メッセージ通知の送信を許可する** ] チェック ボックスをオンまたはオフにします。
 
 [組織の SMS テキスト通知を構成する](/microsoft-365/bookings/turn-bookings-on-or-off)方法について詳しくは、こちらをご覧ください。
 
