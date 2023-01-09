@@ -16,12 +16,12 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: 両方のユーザーが TeamsOnly アップグレード モードになっている Microsoft Teams の外部アクセス (フェデレーション) ユーザーのネイティブ Teams チャット エクスペリエンスについて説明します。
-ms.openlocfilehash: 134216364fdd7397d8a7d72a2ae6684cfa9f90b4
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: 759ad4f03de099637df0e92a7a8925a7c18ae3fd
+ms.sourcegitcommit: 8f26bf0ff88f1f6881de32914be00d5f0cc7396a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198879"
+ms.lasthandoff: 01/09/2023
+ms.locfileid: "69740802"
 ---
 # <a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Microsoft Teams の外部 (フェデレーション) ユーザー向けのネイティブ チャット エクスペリエンス
 
@@ -30,6 +30,9 @@ Microsoft Teams ユーザーが外部 (フェデレーション) ユーザーと
 他の組織のユーザーのネイティブ チャット エクスペリエンスは、すべての Teams テナントで有効になっていますが、すべてのユーザーが資格を持つわけではありません。 ネイティブ チャット エクスペリエンスが提供されるには、送信者と受信者の両方が TeamsOnly アップグレード モード用に構成されている必要があります。 アップグレード ポリシーの詳細については、「[共存とアップグレードの設定の設定](setting-your-coexistence-and-upgrade-settings.md)」を参照してください。
 
 Teams の外部アクセス ユーザーの機能の一覧については、「[外部アクセスとゲスト アクセスの比較](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)」を参照してください。
+
+> [!NOTE]
+> ネイティブ チャット エクスペリエンスは、Microsoft 365 クラウド環境間では使用できません。Microsoft 365 WorldWide (GCC を含む) から GCC High、GCC High from/to DoD、または WW from/to DoD。
 
 ## <a name="how-do-i-know-if-im-in-a-native-chat"></a>ネイティブ チャットに参加しているかどうかを知る方法。
 
