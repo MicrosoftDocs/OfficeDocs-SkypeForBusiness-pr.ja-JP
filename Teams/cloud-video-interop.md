@@ -10,7 +10,7 @@ search.appverid: MET150
 ms.reviewer: naforer
 f1.keywords:
 - NOCSH
-description: Cloud Video Interop を中間ソリューションとして使用して、サードパーティの会議室デバイスが Microsoft Teams 会議に参加できるようにします。
+description: 中間ソリューションとして Cloud Video Interop を使用して、サード パーティの会議室デバイスが Microsoft Teams 会議に参加できるようにします。
 ms.localizationpriority: medium
 ms.collection:
 - M365-voice
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c732cc01a525a4895fafe45c954c965fe960853
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: 37201c788618da1544d4f00b743907dc22ff6366
+ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706454"
+ms.lasthandoff: 01/09/2023
+ms.locfileid: "69749013"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams のクラウド ビデオ相互運用性
 
@@ -47,11 +47,12 @@ Microsoft Teams は、クラウド ビデオ相互運用性により、会議室
 
 クラウド ビデオ相互運用性は優れた中間ソリューションを提供しますが、Teams ミーティング システムなどのネイティブの Teams Meeting ソリューションを長期的に使用するために、検討することをお勧めします。 
 
-### <a name="office-365-us-government-and-third-party-services"></a>Office 365米国政府機関およびサード パーティのサービス
+### <a name="office-365-us-government-and-third-party-services"></a>米国政府およびサードパーティサービスのOffice 365
 
-Office 365では、サード パーティ製アプリケーションを SharePoint Online サイト、Skype for Business、Teams、Microsoft 365 Apps for enterpriseに含まれる Office アプリケーション (Word、Excel、PowerPoint、Outlook など) に統合する機能を提供します。Outlook Web App。 さらに、Office 365は、サード パーティのサービス プロバイダーとの統合をサポートしています。 これらのサード パーティ製のアプリケーションとサービスには、組織の顧客データを、Office 365 インフラストラクチャの外部にあるサード パーティ システムに格納、送信、処理することが含まれる可能性があるため、Office 365コンプライアンスとデータ保護のコミットメントの対象とされません。 **組織に対するこれらのサービスの適切な使用を評価する際には、サード パーティが提供するプライバシーとコンプライアンスに関する声明を確認することをお勧めします。**
+Office 365では、サード パーティのアプリケーションを SharePoint Online サイト、Skype for Business、Teams、Microsoft 365 Apps for enterpriseに含まれる Office アプリケーション (Word、Excel、PowerPoint、Outlook など) に統合できます。Outlook Web App。 さらに、Office 365ではサード パーティのサービス プロバイダーとの統合がサポートされています。 これらのサード パーティのアプリケーションとサービスは、組織の顧客データを、Office 365 インフラストラクチャの外部にあるサード パーティのシステムに格納、送信、および処理する必要があるため、Office 365のコンプライアンスとデータ保護のコミットメントの対象外となる場合があります。 **組織に対するこれらのサービスの適切な使用を評価するときは、サード パーティによって提供されるプライバシーとコンプライアンスに関する声明を確認することをお勧めします。**
 
-
+> [!NOTE]
+> Pexip Teams コネクタは、GCC High 用のアリゾナまたはテキサス Azure リージョンでホストされている必要があります。 バージニア Azure リージョンでは、GCC High 用の Pexip Teams コネクタのホスティングはサポートされていません。
 
 ### <a name="partners-certified-for-microsoft-teams"></a>Microsoft Teams 認定パートナー
 
@@ -62,7 +63,7 @@ Office 365では、サード パーティ製アプリケーションを SharePoi
 |![Poly RealConnect を表すロゴ。](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Poly RealConnect サービス</a> |
 |![Pexip Infinity を表すロゴ。](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Pexip Infinity for Microsoft Teams</a> | 
 |![BlueJeans Gateway を表すロゴ。](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">BlueJeans Gateway for Microsoft Teams</a> |
-|![Cisco CVI を表すロゴ。](media/cisco.png)|<a href="https://aka.ms/CiscoCVI" target="_blank">Microsoft Teams の Cisco Webex Video Integration</a>|
+|![Cisco CVI を表すロゴ。](media/cisco.png)|<a href="https://aka.ms/CiscoCVI" target="_blank">Microsoft Teams 用 Cisco Webex ビデオ統合</a>|
 
 ### <a name="cloud-video-interop-overview"></a>クラウド ビデオ相互運用性の概要
 
@@ -77,15 +78,15 @@ Office 365では、サード パーティ製アプリケーションを SharePoi
 
 ## <a name="deploy-cloud-video-interop"></a>クラウド ビデオ相互運用性を展開する
 
-Cloud Video Interop ソリューションをデプロイする場合は、パートナー ソリューションをデプロイしていることを理解しておくことが重要です。 クラウド ビデオ相互運用性を展開するために必要な一般的な手順を次の図に示します。
+Cloud Video Interop ソリューションをデプロイするときは、パートナー ソリューションをデプロイしていることを理解しておくことが重要です。 クラウド ビデオ相互運用性を展開するために必要な一般的な手順を次の図に示します。
 
-![組織内での CVI の展開を説明する図。](media/deploying-cvi.png)
+![組織での CVI のデプロイを説明する図。](media/deploying-cvi.png)
 
 ### <a name="plan"></a>計画
 
 計画フェーズでは、ネイティブの Teams デバイスと交換しないデバイスを特定し、これらのデバイスをサポートできるクラウド ビデオ相互運用性パートナーを見つける必要があります。  
 
-また、Cloud Video Interop 対応デバイスを参加させる会議をスケジュールする各ユーザーのライセンスが必要であることを理解しておくことも重要です。 正確なライセンス要件は、クラウド ビデオ相互運用性パートナーから取得できます。 展開を開始する前に、ライセンスに関することがクリアされていることを確認してください。
+また、Cloud Video Interop 対応デバイスを参加させる会議をスケジュールするユーザーごとにライセンスが必要であることを理解することも重要です。 正確なライセンス要件は、クラウド ビデオ相互運用性パートナーから取得できます。 展開を開始する前に、ライセンスに関することがクリアされていることを確認してください。
 
 ### <a name="configure"></a>構成
 
@@ -93,7 +94,7 @@ CVI 展開用に選択したパートナーは、組織内で正常に展開す�
 
 ### <a name="provision"></a>プロビジョニング  
 
-プロビジョニング フェーズでは、パートナーから提供された構成ガイドに従って、適切なユーザーにライセンスを割り当てます。 また、パートナーが Teams 環境にアクセスできるようにするには、Azure 同意プロセスも実行する必要があります。 Azure の同意プロセスの詳細については、[Microsoft ID プラットフォーム エンドポイントのアクセス許可と](/azure/active-directory/develop/v2-permissions-and-consent)同意に関するページを参照してください。
+プロビジョニング フェーズでは、パートナーから提供された構成ガイドに従って、適切なユーザーにライセンスを割り当てます。 また、パートナーが Teams 環境にアクセスできるようにするには、Azure 同意プロセスも実行する必要があります。 Azure の同意プロセスの詳細については、「[Microsoft ID プラットフォーム エンドポイントのアクセス許可と](/azure/active-directory/develop/v2-permissions-and-consent)同意」を参照してください。
 
 ### <a name="schedule"></a>スケジュール
 
@@ -101,13 +102,13 @@ CVI 展開用に選択したパートナーは、組織内で正常に展開す�
 
 ### <a name="join"></a>参加
 
-パートナー ソリューションによっては、クラウド ビデオ相互運用性対応の会議に参加する方法がいくつかあります。 正確な会議参加シナリオは、クラウド ビデオ相互運用性パートナーから提供されます。 以下に例をいくつか示します。
+パートナー ソリューションによっては、クラウド ビデオ相互運用性対応の会議に参加する方法がいくつかあります。 正確な会議参加シナリオは、クラウド ビデオ相互運用性パートナーから提供されます。 いくつかの例を次に示します。
 
 - IVR (対話型音声応答) 
   - tenantkey@domain を使用して、パートナーの IVR にダイヤルインできます。
   - パートナー IVR にいると、VTC conferenceId を入力するように求められます。これにより、Teams 会議に接続されます。
 - 直接ダイヤル 
-  - テナントキーの完全な文字列を使用して、直接ダイヤル機能を使用して、パートナーの IVR と対話せずに Teams 会議に直接ダイヤルインできます。VTC ConferenceId@domain。
+  - 直接ダイヤル機能を使用して、テナントキーの完全な文字列を使用して、パートナーの IVR と対話せずに Teams 会議に直接ダイヤルインできます。VTC ConferenceId@domain。
 - ワンタッチ ダイヤル 
   - Teams ミーティングが統合されている場合は、パートナーが提供するワンタッチ ダイヤル機能を使用できます (ダイヤルの文字列を入力する必要はありません)。
 
