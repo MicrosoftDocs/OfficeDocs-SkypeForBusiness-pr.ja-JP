@@ -3,6 +3,18 @@
 
 
 
+## <a name="week-of-january-02-2023"></a>2023 年 1 月 2 日の週
+
+
+| 公開日 |トピックのタイトル | 変更 |
+|------|------------|--------|
+| 1/3/2023 | [一般的な会議ポリシーを管理する](/MicrosoftTeams/meeting-policies-in-teams-general) | 更新日時 |
+| 1/3/2023 | [参加者とゲストの会議ポリシーを管理する](/MicrosoftTeams/meeting-policies-participants-and-guests) | 更新日時 |
+| 1/3/2023 | [電話会議のダイヤルアウト/通話 (分単位)](/MicrosoftTeams/audio-conferencing-subscription-dial-out) | 更新日時 |
+| 1/4/2023 | [Microsoft Teams の Education Insights への IT 管理者ガイド](/MicrosoftTeams/class-insights) | 更新日時 |
+| 1/5/2023 | 既存の Microsoft 365 グループを強化する | 削除されました |
+
+
 ## <a name="week-of-december-26-2022"></a>2022 年 12 月 26 日の週
 
 
