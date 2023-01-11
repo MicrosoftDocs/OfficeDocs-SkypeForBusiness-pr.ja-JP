@@ -21,18 +21,18 @@ description: この記事では、Microsoft Teams でのライブ イベント�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f458aded53926fed8772de70af2a105cdf9e5fda
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: cde485a3cf290c105ae475e6f7733787ba6971a2
+ms.sourcegitcommit: 0d25efb3dae31d5199807a14baaf30e944f561ce
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307652"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69767608"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントの計画
 
 組織で大規模な会議を開催するために Teams のライブ イベントを計画している場合、そのイベントを立ち上げる前に考慮すべき事項がいくつかあります。
 
-> [!Note]
+> [!NOTE]
 > For details about Teams live events on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3). See [prepare your organization](../prepare-network.md) to learn about bandwidth requirements for Teams live events.
 
 ## <a name="who-can-attend-create-and-schedule-live-events"></a>ライブ イベントに参加、およびライブ イベントを作成、スケジュールできるのは誰か。
@@ -43,15 +43,9 @@ Anyone can attend a live event without a license. Read [Admin quick start - Meet
 
 Teams ライブ イベントを整理、作成または発表するために割り当てる必要があるライセンスは次のとおりです。  
 
-- **整理:** Microsoft 365 または Office 365 Enterprise E1、E3、E5 のいずれかのライセンス、**[または]** Office 365 Education A3 または A5 ライセンス。 
+- **整理:** Microsoft 365 または Office 365 Enterprise E1、E3、E5 のいずれかのライセンス、**[または]** Office 365 Education A3 または A5 ライセンス。
 - **To produce or present:** A Microsoft or Office 365 Enterprise E1, E3 or E5 license, **[or]** a Microsoft or Office 365 Education A1, A3 or A5 license. The exception to this requirement is guest users can present without a license if the other criteria for [guest users](plan-for-teams-live-events.md#guest-to-present) is met.
 - Microsoft Teams ライセンス - このライセンスは最初と 2 番目の項目に記載されているライセンスに含まれています。
-- Microsoft Stream のライセンス - コンテンツを外部のアプリまたはデバイスと共有する場合はこのライセンスが必要です。「[Microsoft Stream のライセンス](/stream/license-overview)」をご覧ください。 新しい Teams エンコーダー サービスを使用してイベントを生成する場合は、Stream ライセンスは必要ありません。 
-
-  Users won't need a Microsoft Stream license assigned if you want users to only record and download the recordings. This will mean that the recordings aren't stored in Microsoft Stream but are instead stored in Azure Media Services (AMS) with a 180-day limit before it's deleted. It's not something at this point that an admin can control or manage to include the ability to delete it.
-
->[!Note]
-> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](../tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to OneDrive for Business and SharePoint for meeting recordings.
 
 > [!NOTE]
 > 現時点では、Teams ライブ イベントの作成と開催に使用できる Microsoft 365 Small Business プランはありません。
@@ -59,7 +53,6 @@ Teams ライブ イベントを整理、作成または発表するために割�
 認証されたユーザーとしてライブ イベントに参加するのに、Microsoft 365 または Office 365 のライセンスが必要であることを理解することは重要ですが、この要件は使用する作成方法によって異なります。
 
 - **Teams または Teams Powered Encoder を使用して生成されたイベントの場合**  ユーザーに Teams ライセンスを割り当てる必要があります。
-- **外部アプリまたはデバイスで作成したイベントの場合**、ユーザーには Stream のライセンスが割り当てられている必要があります。
 
 > [!NOTE]
 > Teams のライブ イベントは、米国政府機関クラウド コミュニティ (GCC) 組織で利用できるようになりました。
@@ -72,7 +65,6 @@ Teams ライブ イベントを整理、作成または発表するために割�
 - Teams 会議で有効なビデオ共有 (*TeamsMeetingPolicy -AllowIPVideo パラメーター = True*)。
 - Teams 会議で有効な画面共有 (*TeamsMeetingPolicy -ScreenSharingMode パラメーター = EntireScreen*)。
 - Teams でのライブ イベントのスケジューリングが有効である (*The TeamsMeetingBroadcastPolicy -AllowBroadcastScheduling パラメーター = True*)。
-- Stream でライブ イベントを作成する許可 (外部アプリまたはデバイス生成の場合)。
 - Teams 会議をスケジュールできるように構成された共存モード (*アイランド、会議優先、または Teams のみ*)。
 
 > [!IMPORTANT]
@@ -92,7 +84,7 @@ As a best practice, we recommend that you create a channel for producers and pre
 
 | 出席者の表示 | Teams 生産性 | 外部アプリまたはデバイス生成 | Teams Powered Encoder
 |------------------------------|-----------------|----------------------|----------------|
-|パブリック (匿名ユーザー)      |  はい            |  いいえ                  | はい
+|パブリック (匿名ユーザー)      |  はい            |  いいえ                  | Yes
 |ゲスト ユーザー                   |  Yes<sup>1</sup>            |  いいえ                  |  はい            |
 |外部アクセス (フェデレーション) のある会社のすべてのユーザー |  Yes<sup>1</sup>|  いいえ                  | Yes            |
 |会社内の全員           |  はい            |  Yes                 | Yes                |
@@ -113,37 +105,37 @@ As a best practice, we recommend that you create a channel for producers and pre
 >- テナント全体で 50 のイベントを同時にホストできます
 >- ブロードキャストあたり16時間のイベント期間
 >
-> Additionally, live events with up to 100,000 attendees can be planned through the Microsoft 365 live events assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions). 
+> Additionally, live events with up to 100,000 attendees can be planned through the Microsoft 365 live events assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions).
 
-| 機能 | Skype 会議メディア | Teams で生成されたイベント | 外部アプリまたはデバイスで作成されたイベント |
-|---------|---------|---------|---------|
-|最大視聴者数 |出席者 10,000 名 |出席者 10,000 名 <sup>1</sup> |出席者 10,000 名 <sup>1</sup> |
-|ライブ イベントの最大期間 |4 時間 |4 時間 |4 時間 |
-|ライブ イベントの発表者とプロデューサーの最大数 |10 <sup>2</sup> |10 <sup>2</sup> |10 <sup>2</sup> |
-|Microsoft 365 または Office 365 組織ごとの同時ライブ イベントの最大数 |15  | 15  | 15  |
-|ライブ イベントの作成 |   Skype 会議ブロードキャスト ポータル |Teams、Teams 経由の Yammer | Teams、Teams 経由の Yammer、Stream |
-|視聴者のエンゲージメント – Yammer |&#x2714; |&#x2714; (統合エクスペリエンス) |&#x2714; (統合エクスペリエンス) |
-|視聴者のエンゲージメント – モデレート Q & A |&#x2714;  |&#x2714; |&#x2714; |
-|Windows でのプロデューサー クライアント |&#x2714; (Skype for Business) |&#x2714; (Teams) |&#x2714; (Stream、埋め込み Stream 経由の Teams) |
-|Mac でプロデューサー クライアント |&#x274C;  | &#x2714; (Teams) |&#x2714; (Stream、埋め込み Stream 経由の Teams) |
-|プロデューサー UI での出席者数 |&#x274C;  |&#x2714; (Teams) |&#x2714; (Stream、埋め込み Stream 経由の Teams) |
-|複数の発表者の許可 |&#x2714; (Skype for Business) |&#x2714; (Teams) |N/A  |
-|会議中の発表者の招待 |&#x2714; (Skype for Business) |&#x274C; |N/A |
-|Web やモバイルでの発表者の参加 |&#x2714; (Skype for Business)  |&#x274C; |N/A |
-|外部アクセス (フェデレーション) およびゲストの発表者/参加者 |&#x2714; (Skype for Business)  |  &#x2714; (Teams) |N/A |
-|発表者 – PSTN アクセス |&#x274C; |&#x2714; (Teams) |N/A |
-|画面表示 |&#x274C; |&#x2714; (Teams) |N/A |
-|Windows でのシステム音声の共有 (画面の共有時にのみ可能)|&#x274C; |&#x2714; (Teams) |&#x2714; |
-|PowerPoint 表示 (PPT 共有) |&#x2714; |&#x274C; (画面共有により軽減) |該当なし |
-|クラウド ベースの会議記録 |&#x2714; |&#x2714; |&#x2714; |
-|Stream への記録の自動公開 |&#x274C; |&#x274C; |&#x2714; |
-|ライブ キャプションと字幕 |&#x2714; |&#x2714; |&#x274C; |
-|ライブ イベント記録のキャプション |&#x2714; |&#x2714; |&#x2714; |
-|出席者の DVR 制御 (一時停止、巻き戻し) |&#x2714; |&#x2714; |&#x2714; |
-|eCDN のMicrosoft |&#x274C; |&#x2714; |&#x2714; |
-|Partner eCDN のサポート |&#x2714; (Kollective, Hive, Riverbed) |&#x2714; (Kollective, Hive, Ramp, Riverbed) |&#x2714; (Hive, Kollective, Ramp, Riverbed) |
-|ブロードキャスト後のプロデューサー向け出席レポート |&#x2714; |&#x2714; |&#x274C; |
-|視聴者の感情分析 – ライブ投票/投票 |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
+| 機能 | Teams で生成されたイベント | 外部アプリまたはデバイスで作成されたイベント |
+|---------|---------|---------|
+|最大視聴者数 |出席者 10,000 名 <sup>1</sup> |出席者 10,000 名 <sup>1</sup> |
+|ライブ イベントの最大期間 |4 時間 |4 時間 |
+|ライブ イベントの発表者とプロデューサーの最大数 |10 <sup>2</sup> |10 <sup>2</sup> |
+|Microsoft 365 または Office 365 組織ごとの同時ライブ イベントの最大数 | 15  | 15  |
+|ライブ イベントの作成 |Teams、Teams 経由の Yammer | Teams、Teams 経由の Yammer、Stream |
+|視聴者のエンゲージメント – Yammer |&#x2714; (統合エクスペリエンス) |&#x2714; (統合エクスペリエンス) |
+|視聴者のエンゲージメント – モデレート Q & A |&#x2714; |&#x2714; |
+|Windows でのプロデューサー クライアント |&#x2714; (Teams) |&#x2714; (Stream、埋め込み Stream 経由の Teams) |
+|Mac でプロデューサー クライアント |&#x2714; (Teams) |&#x2714; (Stream、埋め込み Stream 経由の Teams) |
+|プロデューサー UI での出席者数 |&#x2714; (Teams) |&#x2714; (Stream、埋め込み Stream 経由の Teams) |
+|複数の発表者の許可 |&#x2714; (Teams) |N/A  |
+|会議中の発表者の招待 |&#x274C; |N/A |
+|Web やモバイルでの発表者の参加 |&#x274C; |N/A |
+|外部アクセス (フェデレーション) およびゲストの発表者/参加者 |&#x2714; (Teams) |N/A |
+|発表者 – PSTN アクセス |&#x2714; (Teams) |N/A |
+|画面表示 |&#x2714; (Teams) |N/A |
+|Windows でのシステム音声の共有 (画面の共有時にのみ可能)|&#x2714; (Teams) |&#x2714; |
+|PowerPoint 表示 (PPT 共有) |&#x274C; (画面共有により軽減) |該当なし |
+|クラウド ベースの会議記録 |&#x2714; |&#x2714; |
+|Stream への記録の自動公開 |&#x274C; |&#x2714; |
+|ライブ キャプションと字幕 |&#x2714; |&#x274C; |
+|ライブ イベント記録のキャプション |&#x2714; |&#x2714; |
+|出席者の DVR 制御 (一時停止、巻き戻し) |&#x2714; |&#x2714; |
+|Microsoft eCDN |&#x2714; |&#x2714; |
+|Partner eCDN のサポート |&#x2714; (Kollective, Hive, Ramp, Riverbed) |&#x2714; (Hive, Kollective, Ramp, Riverbed) |
+|ブロードキャスト後のプロデューサー向け出席レポート |&#x2714; |&#x274C; |
+|視聴者の感情分析 – ライブ投票/投票 |&#x274C; |&#x274C; |
 
 <sup>1</sup> The limits that are set might be changed. Check [Limits and specifications for Teams](../limits-specifications-teams.md).<br/>
 <sup>2</sup> ライブ イベントには最大 １00 人の発表者とプロデューサーを指定することができますが、リストには最後に話した 10 人しか表示されません。

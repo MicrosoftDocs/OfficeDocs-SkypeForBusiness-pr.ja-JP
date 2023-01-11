@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 自動応答と通話キューについて説明し、呼び出し元がメニュー システムを移動して組織内のユーザーや部署にアクセスするのに役立つ方法について説明します。
-ms.openlocfilehash: 5b5076ecd8ea521071124f5400ac5c2831b4fbfe
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 097d4d0e921e0481e4986cce6f599cbd55044138
+ms.sourcegitcommit: ae687f530d5505b96df7cb7ef4da3a36bd9afd29
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307622"
+ms.lasthandoff: 01/10/2023
+ms.locfileid: "69763618"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Teams の自動応答と通話キューの計画
 
@@ -71,8 +71,8 @@ ms.locfileid: "69307622"
 自動応答と通話キューを構成するには、次のリソースが必要です。
 
 - 各自動応答と各呼び出しキューの [リソース アカウント](manage-resource-accounts.md) 。
-- Teams ユーザーまたは外部の電話番号から直接ダイヤル可能な各リソース アカウントの無料Microsoft Teams 電話リソース アカウント [ライセンス](teams-add-on-licensing/virtual-user.md)。
-- 外部電話番号から直接ダイヤル可能にするリソース アカウントごとに、少なくとも 1 つの[Microsoftサービス番号](getting-service-phone-numbers.md)、[オペレーター接続番号](operator-connect-plan.md)、[ダイレクト ルーティング](direct-routing-plan.md)番号、またはハイブリッド番号。
+- 各[リソース アカウントの無料Microsoft Teams 電話](teams-add-on-licensing/virtual-user.md)リソース アカウント ライセンス。
+- 外部電話番号から直接ダイヤル可能にするリソース アカウントごとに、少なくとも 1 つの [Microsoft サービス](getting-service-phone-numbers.md)番号、 [オペレーター接続番号](operator-connect-plan.md)、 [ダイレクト ルーティング](direct-routing-plan.md)番号、またはハイブリッド番号。
   - サービス番号は、有料またはフリーダイヤルの番号である場合があります。
 
 > [!NOTE]
@@ -83,7 +83,7 @@ ms.locfileid: "69307622"
 - 通話キューで転送モードが使用されている場合に割り当てられる [オンライン音声ルーティング ポリシー](manage-voice-routing-policies.md) 。
 - 通話キューで会議モードが使用されている場合に割り当てられた [電話会議ライセンス](set-up-audio-conferencing-in-teams.md) または [オンライン音声ルーティング ポリシー](manage-voice-routing-policies.md) 。
 
-エージェントが通話キュー呼び出しにMicrosoft Teams アプリを使用している場合は、TeamsOnly モードである必要があります。
+エージェントが通話キュー呼び出しに Microsoft Teams アプリを使用している場合は、TeamsOnly モードである必要があります。
 
 通話キューで回線 ID を呼び出す目的でリソース アカウントを使用する場合、リソース アカウントには Teams 電話リソース アカウント ライセンスと次のいずれかが割り当てられている必要があります。
 
@@ -107,7 +107,7 @@ ms.locfileid: "69307622"
 > [!NOTE]
 > リソース アカウントに割り当てられている通話プランが無効になった場合、または削除された場合、(リソース アカウントに割り当てられずに) テナントで使用可能な場合は [、コミュニケーション クレジット](what-are-communications-credits.md)が使用されます。 通話プランまたは通信クレジットがない場合、通話は失敗します。
 >
-> 自動応答キューと通話キューのダイレクト ルーティング サービス番号は、Microsoft Teams ユーザーと通話エージェントでのみサポートされます。
+> 自動応答と通話キューのダイレクト ルーティング サービス番号は、Microsoft Teams ユーザーと通話エージェントでのみサポートされます。
 > 
 > 通話プラン、オペレーター接続、ダイレクト ルーティング トランク間の転送はサポートされていません。
 > 
@@ -152,7 +152,7 @@ ms.locfileid: "69307622"
   
 エージェントの Teams アカウントを Teams 専用モードに設定します。 要件を満たしていないエージェントは、通話ルーティング リストに含まれません。
 
-エージェントがすべて互換性のあるクライアントを使用している場合は、通話キューの会議モードを有効にすることをお勧めします。
+会議モードは既定で有効になっています。 要件を満たしていないエージェントがある場合は、通話キューの構成中に会議モードを手動で無効にする必要があります。
 
 **通話ルーティング フロー** プランは、組織に呼び出すユーザーの最も効率的なルーティングを決定するのに役立ちます。 通話ルーティング フローを計画する方法については、「通話ルーティング [フローを計画する](plan-your-call-routing-flow.md)」を参照してください。
 

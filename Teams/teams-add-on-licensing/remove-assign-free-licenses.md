@@ -19,14 +19,17 @@ ms.custom:
 - admindeeplinkMAC
 robots: noindex
 description: Teams 無料 (クラシック) ライセンスを削除し、組織のユーザーに有料の Teams ライセンスを割り当てる方法について説明します。
-ms.openlocfilehash: 027f84577a50d445eb01bce896417f23e503abb7
-ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
+ms.openlocfilehash: 3015036d0656a80ac8440d2c193003cc7d67d9fc
+ms.sourcegitcommit: 0d25efb3dae31d5199807a14baaf30e944f561ce
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2023
-ms.locfileid: "69749157"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69767668"
 ---
 # <a name="retire-microsoft-teams-free-classic-for-your-organization"></a>組織のMicrosoft Teams 無料版 (クラシック)を廃止する
+
+> [!NOTE]
+> Teams Free (クラシック) ユーザーの場合、IT 管理者がこの記事で次のアクションを実行しない限り、2023 年 4 月中旬に Teams にアクセスできなくなります。
 
 2023 年 4 月中旬に、Microsoft は **Microsoft Teams 無料版 (クラシック)** ライセンスを廃止します。
 

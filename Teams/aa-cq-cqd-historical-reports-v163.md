@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 ROBOTS: NOINDEX, NOFOLLOW
 description: Teams 自動応答&通話キュー履歴レポート Power BI レポートを使用して、GCC High および DoD のお客様の自動応答と通話キューの履歴データを表示する方法について説明します。
-ms.openlocfilehash: 619be6d7f0f78f67ef2db0f0693de82120d128c4
-ms.sourcegitcommit: e9718ad7e23317d490b238b3801267cb2e6b26e2
+ms.openlocfilehash: cde953bfd8e9c95c60c795f6de91488506c2addf
+ms.sourcegitcommit: ae687f530d5505b96df7cb7ef4da3a36bd9afd29
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/28/2022
-ms.locfileid: "69176757"
+ms.lasthandoff: 01/10/2023
+ms.locfileid: "69763678"
 ---
 # <a name="auto-attendant-and-call-queue-historical-reports-for-gcc-high-and-dod"></a>GCC High と DoD の自動応答と通話キュー履歴レポート
 
@@ -66,15 +66,17 @@ Power BI Desktopをインストールする必要があります。 [Microsoft W
 
 1. [コンピューターに CQD Power BI クエリ テンプレートの](https://www.microsoft.com/download/details.aspx?id=102291) zip ファイルをダウンロードして保存します。
 
-1. zip ファイルを開きます。
+2. zip ファイルを開きます。
 
-1. テンプレート ファイルを `CQD Teams Auto Attendant & Call Queue Historical Report V1.60.pbit` 開きます。 Power BI Desktopが起動します。
+3. テンプレート ファイルを `CQD Teams Auto Attendant & Call Queue Historical Report V1.63.pbit` 開きます。 Power BI Desktopが起動します。
 
-1. CQD データ パイプラインリージョンを選択するように求められます。 テナントが配置されているリージョンを選択します。
+4. CQD データ パイプラインリージョンを選択するように求められます。 テナントが配置されているリージョンを選択します。
 
-  :::image type="content" source="media/aa-cq-historical-report-01-v163.png" alt-text="CQD データ パイプラインリージョンを選択しているスクリーンショット。":::
+     :::image type="content" source="media/aa-cq-historical-report-01-v163.png" alt-text="CQD データ パイプラインリージョンを選択しているスクリーンショット。":::
 
-1. テナントが配置されているリージョンは、 [Get-CsTenant](/powershell/module/skype/get-cstenant) コマンドレットを使用して取得できます。
+    パブリック クラウド テナント
+
+5. テナントが配置されているリージョンは、 [Get-CsTenant](/powershell/module/skype/get-cstenant) コマンドレットを使用して取得できます。
 
     ```powershell
     (Get-CsTenant).ServiceInstance
@@ -82,19 +84,27 @@ Power BI Desktopをインストールする必要があります。 [Microsoft W
     microsoftcommunicationsonline/noam-4a-s7
     ```
 
-    1. リージョンは、上記の例のように、 の **/** 後に表示されます。このリージョンは です `noam`。
+    リージョンは、上記の例のように、 の **/** 後に表示されます。このリージョンは です `noam`。
 
- 1. サンプル データを使用してレポートが起動します。
+    GCC High テナントと DoD テナント
+
+6. テンプレートを更新して、次のいずれかのコネクタを使用します。
+
+   - GCCH: `https://data.cqd.gov.teams.microsoft.us/RunQuery`
+   - 国防 総省： `https://data.cqd.dod.teams.microsoft.us/RunQuery`
+
+
+7. サンプル データを使用してレポートが起動します。
  
- 1. 独自のデータを表示するには、Power BI Desktopの [クエリ] の [**ホーム**] タブで [**最新の情報に更新**] を選択 **します**。
+8. 独自のデータを表示するには、Power BI Desktopの [クエリ] の [**ホーム**] タブで [**最新の情報に更新**] を選択 **します**。
 
    :::image type="content" source="media/aa-cq-historical-report-02-v163.png" alt-text="更新オプションを選択しているスクリーンショット。":::
 
-1. サインインするように求められます。 [ **組織アカウント**] を選択し、[サインイン] を選択 **します**。
+9. サインインするように求められます。 [ **組織アカウント**] を選択し、[サインイン] を選択 **します**。
 
-  :::image type="content" source="media/aa-cq-historical-report-03-v163.png" alt-text="V1.63 のログインを示すスクリーンショット。":::
+   :::image type="content" source="media/aa-cq-historical-report-03-v163.png" alt-text="V1.63 のログインを示すスクリーンショット。":::
 
-1. [ **接続**] を選択すると、データが更新されます。
+10. [ **接続**] を選択すると、データが更新されます。
 
 ## <a name="data-latency-for-aa-and-cq-analytics"></a>AA および CQ 分析のデータ待機時間
 
@@ -116,11 +126,11 @@ Power BI Desktopをインストールする必要があります。 [Microsoft W
 
 1. リボンの **[表示] タブ** を選択します。
 
-  :::image type="content" source="media/aa-cq-historical-report-04.png" alt-text="配色を変更する [ビュー] タブを選択しているスクリーンショット。":::
+    :::image type="content" source="media/aa-cq-historical-report-04.png" alt-text="配色を変更する [ビュー] タブを選択しているスクリーンショット。":::
 
 2. ドロップダウン リストからカラー スキーマを選択します。
 
-  :::image type="content" source="media/aa-cq-historical-report-05.png" alt-text="さまざまな配色を示すスクリーンショット。":::
+    :::image type="content" source="media/aa-cq-historical-report-05.png" alt-text="さまざまな配色を示すスクリーンショット。":::
   
 ## <a name="auto-attendant-and-call-queue-historical-reports-definitions"></a>自動応答と通話キューの履歴レポートの定義
 
