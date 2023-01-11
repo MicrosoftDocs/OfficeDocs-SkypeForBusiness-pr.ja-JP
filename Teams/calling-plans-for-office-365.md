@@ -28,12 +28,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Skype for Business の通話プラン (PSTN 通話プラン) のオプションと、組織のライセンスを取得する方法を確認します。
-ms.openlocfilehash: eaf08af459a5f6149b3068802b104c1458dfc727
-ms.sourcegitcommit: 0a13f96663c7466b08d654bedcb6206f302189a1
+ms.openlocfilehash: f09517572b27fb67ab9657dcfa4c7bd4c5c7867b
+ms.sourcegitcommit: 66d8e3d7a29a03c5deba9780964bc03f6587017f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/22/2022
-ms.locfileid: "69139111"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69774722"
 ---
 # <a name="calling-plans-for-microsoft-teams"></a>Microsoft Teams のプランの呼び出し
 
@@ -56,6 +56,9 @@ ms.locfileid: "69139111"
 
   - **従量課金制通話プラン ゾーン 2**: オーストリア、ベルギー、クロアチア、チェコ共和国、デンマーク、エストニア、フィンランド、フランス、ドイツ、ハンガリー、アイルランド、イタリア、ラトビア、リトアニア、ルクセンブルク、オランダ、ニュージーランド、ノルウェー、ポーランド、ポルトガル、ルーマニア、シンガポール、スロバキア、スロベニア、南アフリカ、スペイン、スウェーデン、スイスのユーザー向けにこれを購入します。
     - ゾーン 2 ライセンスは現在、米国とプエルトリコでは販売されていません。
+
+> [!NOTE]
+> メキシコには、従量課金制通話プランがあります。 どのゾーンにも含まれません。 独立した従量課金制通話プランを購入する必要があります。
 
 同じ通話プランを持つ同じ国/地域 (これは、Microsoft 365 管理センターのライセンス領域で定義されているユーザー国の場所) 内のすべてのユーザーは、分のプールを共有します。 たとえば、120 分の国内通話プランが割り当てられている同じ国/地域に 100 人のユーザーがいる場合、12,000 分のプールを共有します。 これらの分を超える通話はすべて、1 分あたりに課金されます。
 
