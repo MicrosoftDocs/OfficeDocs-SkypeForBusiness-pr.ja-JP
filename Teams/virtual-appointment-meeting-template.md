@@ -17,18 +17,20 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 459845115d8a705673f21b5e8a57dadac59841f6
-ms.sourcegitcommit: f8da8f613fc3902d2607e322ad9dfbdeb8838c4c
+ms.openlocfilehash: f0d93bb05a6456499ab1c0c16070149d8cdfd949
+ms.sourcegitcommit: 0d25efb3dae31d5199807a14baaf30e944f561ce
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/21/2022
-ms.locfileid: "69624919"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69767628"
 ---
 # <a name="virtual-appointment-meeting-template-in-microsoft-teams"></a>Microsoft Teams の仮想予定会議テンプレート
 
+![情報アイコン](media/info.png) **この記事で説明する一部の機能には [、Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md) (プレビュー) が必要です**。
+
 ## <a name="overview"></a>概要
 
-仮想予定テンプレートは、ユーザーが顧客、クライアント、および組織外の他のユーザーとの仮想予定をスケジュールするために使用できる、Microsoft Teams の既定の会議テンプレートです。 たとえば、面接、メンタリング セッション、財務相談、仮想ショッピング エクスペリエンスなどをスケジュールして実施するために使用します。
+仮想予定テンプレートは、Microsoft Teams の既定の会議テンプレートであり、ユーザーは、顧客、クライアント、および組織外の他のユーザーとの仮想予定をスケジュールするために使用できます。 たとえば、面接、メンタリング セッション、財務相談、仮想ショッピング エクスペリエンスなどをスケジュールして実施するために使用します。
 
 テンプレートを使用すると、会議の開催者が通常制御する会議設定の値を指定できます。 既定の設定を適用し、設定を適用する柔軟性を提供します。 会議の開催者がテンプレートを使用するときに変更できないように設定をロックすることもできます。
 

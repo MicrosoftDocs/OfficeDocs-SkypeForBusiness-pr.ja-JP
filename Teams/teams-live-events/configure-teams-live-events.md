@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 449aaa73b42248661ec141bd8d004cf754379750
-ms.sourcegitcommit: 73b13cd8a79ba1724b9fb79c8356a7cacafb7dd3
+ms.openlocfilehash: 7ff5dada4c1f37c6afaf2948a5cef2b6169350d0
+ms.sourcegitcommit: 0d25efb3dae31d5199807a14baaf30e944f561ce
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2022
-ms.locfileid: "68965779"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69767618"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Microsoft Teams でライブ イベント設定を構成する
 
@@ -56,23 +56,26 @@ Microsoft Teams 管理センターでこの設定を簡単にできます。 左
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 ```
-詳細については、[CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps&preserve-view=true) を参照してください。
-## <a name="configure-a-third-party-video-distribution-provider"></a>サード パーティ製のビデオ配信プロバイダーを設定する 
 
-Microsoft ビデオ配信パートナーを通じてソフトウェア定義ネットワーク (SDN) ソリューションまたはエンタープライズ コンテンツ配信ネットワーク (eCDN) ソリューションを購入してセット アップした場合は、Teams でライブ イベント プロバイダーを構成します。 
+詳細については、[CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps&preserve-view=true) を参照してください。
+
+## <a name="configure-a-third-party-video-distribution-provider"></a>サード パーティ製のビデオ配信プロバイダーを設定する
+
+Microsoft ビデオ配信パートナーを通じてソフトウェア定義ネットワーク (SDN) ソリューションまたはエンタープライズ コンテンツ配信ネットワーク (eCDN) ソリューションを購入してセット アップした場合は、Teams でライブ イベント プロバイダーを構成します。
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
 
 1. 左側のナビゲーションで、[**会議**]  >  [**ライブ イベント設定**] に移動します。
-2. [**サード パーティ製ビデオ配信プロバイダー**] で次を実行します。 
+2. [**サード パーティ製ビデオ配信プロバイダー**] で次を実行します。
 
     ![管理センターのサード パーティ製のビデオ配信プロバイダーの設定。](../media/teams-live-events-settings-distribution-provider-new.png "ライブ イベントのサード パーティ製ビデオ配信プロバイダー設定のスクリーン ショット")
 
     - **サード パーティの配布プロバイダー** これをオンにして、サードパーティのビデオ配信プロバイダーを有効にします。
     - **SDN プロバイダー名** お使いのプロバイダーを選択します。
     - **SDN 構成** 「SDN 構成の詳細」と入力します。
-        
+
 ### <a name="using-windows-powershell"></a>Windows PowerShell の使用
+
 プロバイダーの連絡先からのライセンス ID または API トークンと API テンプレートを取得し、お使いのプロバイダーに合わせて次のいずれかを実行します。
 
 **Microsoft eCDN**
@@ -99,15 +102,13 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 詳細については、[CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps&preserve-view=true) を参照してください。
 
 > [!NOTE]
-> 外部アプリまたはデバイスを使用してライブ イベントを作成する場合は、[Microsoft Streamを使用して eCDN プロバイダーを構成](/stream/network-caching)する必要もあります。 
-
->[!Note]
-> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](../tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings.
+> 外部アプリまたはデバイスを使用してライブ イベントを作成する場合は、 [eCDN プロバイダーを構成](../teams-stream-ecdn.md)する必要もあります。
 
 >[!Note]
 > 選択した eCDN ソリューションは、選択したサード パーティ プロバイダーのサービス利用規約とプライバシー ポリシーの対象となります。これにより、eCDN プロバイダーのソリューションの使用が管理されます。 eCDN プロバイダーのソリューションの使用は、Microsoft ボリューム ライセンス条項またはオンライン サービス条項の対象になりません。 サード パーティプロバイダーの条項に同意しない場合は、Microsoft Teams で eCDN ソリューションを有効にしないでください。
 
 ### <a name="related-topics"></a>関連項目
+
 - [Teams のライブ イベントについて](what-are-teams-live-events.md)
 - [Teams のライブ イベントの計画](plan-for-teams-live-events.md)
 - [Teams のライブ イベントをセットアップする](set-up-for-teams-live-events.md)
