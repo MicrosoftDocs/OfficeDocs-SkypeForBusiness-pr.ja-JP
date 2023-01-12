@@ -20,12 +20,12 @@ ms.custom:
 - chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1818a4eee46cca88c873af35278453ab84b1341
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: cd5a1064c4a0104a4eab6d25a3adb0614c12d256
+ms.sourcegitcommit: 387141880842c93ecf4a936aaa26342a3f996259
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198959"
+ms.lasthandoff: 01/12/2023
+ms.locfileid: "69779057"
 ---
 # <a name="use-nonprofit-team-templates"></a>非営利団体のチーム テンプレートを使用する
 
@@ -33,21 +33,22 @@ Microsoft Teams のチーム テンプレートでは、設定、チャネル、
 
 非営利団体の場合、チーム テンプレートは特に強力で、組織全体に一貫したチームを迅速に展開するのに役立ちます。 テンプレートは、スタッフが Teams を効果的に使用する方法を理解するのにも役立ちます。
 
-Teams には、ボランティアの管理アクティビティを効率化するように設計された、ボランティアの管理チーム テンプレートが含まれています。 この事前構築済みのテンプレートを使用してチームをすばやく作成し、スタッフがボランティアの管理タスクとアクティビティに関するコミュニケーションや共同作業を行えるようにします。
+Teams には、ボランティア管理アクティビティを合理化するために設計されたボランティアの管理チーム テンプレートが含まれています。 この事前構築済みのテンプレートを使用してチームをすばやく作成し、スタッフがボランティアの管理タスクとアクティビティに関するコミュニケーションや共同作業を行えるようにします。
 
-この記事では、ボランティアの管理チーム テンプレートと、それを使用してチームを作成する方法について説明します。 この記事では、Teams 管理センターでチーム テンプレートを管理する方法の概要も示します。
+この記事では、ボランティア チームテンプレートの管理と、それを使用してチームを作成する方法について説明します。 この記事では、Teams 管理センターでチーム テンプレートを管理する方法の概要も示します。
 
-## <a name="manage-volunteers-team-template"></a>ボランティアの管理チーム テンプレート
+## <a name="manage-volunteers-team-template"></a>ボランティア チーム テンプレートを管理する
 
 ボランティアの管理タスクとアクティビティに関するコミュニケーションや共同作業が行えるよう、スタッフを集めます。
 
 このテンプレートには、ボランティアの管理アクティビティを効率化するように設計されたチャネルとアプリが含まれています。 スタッフは、オンボード資料や頻繁に使用されるドキュメントを整理および共有したり、レポートを表示したり、チームおよびイベントの重要な最新のアナウンスを把握したりすることなどができます。 また、このテンプレートは、[Microsoft Cloud for Nonprofit](/industry/nonprofit/) を構成するアプリである ["ボランティアの管理"](/dynamics365/industry/nonprofit/volunteer-management-use) と統合されており、これを使用することでスタッフは Teams 内でボランティア エンゲージメントの機会を管理できます。
 
-次に、ボランティアの管理チーム テンプレートに含まれるチャネルとアプリを示します。
+[ボランティアの管理] チーム テンプレートに付属するチャネルとアプリを次に示します。
 
-| テンプレートの種類 |TemplateId | このテンプレートに含まれるプロパティ |
-| ------------------|-- |----------------------------------------------------- |
-|ボランティアの管理| `ManageVolunteers` |チャネル: <ul><li>全般<ul><li>Web サイト&sup1;</li></ul><li>お知らせ</li><li>レポート<ul><li>Power BI&sup1;</li></ul></li><li>ボランティアの管理<ul><li>Power Apps&sup1;</li></ul></li><li>エンゲージメントの機会<ul><li>タスク&sup1;</li></ul></li><li>ボランティア オンボーディング<ul><li>SharePoint&sup1;</li><li>OneNote&sup1;</li></ul></li></ul> アプリ: <ul><li>Web サイト</li><li>YouTube</li><li>Power BI</li><li>Power Apps</li><li>タスク</li><li>SharePoint</li><li>OneNote</li></ul>|
+>[!div class="mx-tdBreakAll"]
+>| テンプレートの種類 |TemplateId | このテンプレートに含まれるプロパティ |
+>| ------------------|-- |----------------------------------------------------- |
+>|ボランティアの管理| `com.microsoft.teams.template.ManageVolunteers` |チャネル: <ul><li>全般<ul><li>Web サイト&sup1;</li></ul><li>お知らせ</li><li>レポート<ul><li>Power BI&sup1;</li></ul></li><li>ボランティアの管理<ul><li>Power Apps&sup1;</li></ul></li><li>エンゲージメントの機会<ul><li>Planner と To Do&sup1 によるタスク。</li></ul></li><li>ボランティア オンボーディング<ul><li>SharePoint&sup1;</li><li>OneNote&sup1;</li></ul></li></ul>アプリ: <ul><li>OneNote</li><li>Power Apps</li><li>Power BI</li><li>SharePoint</li><li>Planner と To Do によるタスク</li><li>Web サイト</li><li>YouTube</li></ul>|
 
 &sup1; アプリがタブとしてチャネルに追加されました。
 

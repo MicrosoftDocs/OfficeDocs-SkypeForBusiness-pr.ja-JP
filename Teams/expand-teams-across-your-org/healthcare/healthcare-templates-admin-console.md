@@ -24,12 +24,12 @@ appliesto:
 ms.reviewer: yinchang
 description: 医療組織のチームを迅速かつ簡単に作成するために、Teams 管理センターや Microsoft Graph で医療テンプレートを管理および使用する方法を説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a80d36b51d3f45ca906525d93e502dbfbba1cb6d
-ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
+ms.openlocfilehash: 17f5ce2774dd163f5f244bea0e685623f64ed59f
+ms.sourcegitcommit: 387141880842c93ecf4a936aaa26342a3f996259
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2022
-ms.locfileid: "69131076"
+ms.lasthandoff: 01/12/2023
+ms.locfileid: "69778967"
 ---
 # <a name="use-healthcare-team-templates"></a>Teamsの医療テンプレートを使用する
 
@@ -53,52 +53,52 @@ Teams には、医療組織用に特化して設計されたテンプレート�
 一般的なチーム テンプレートの詳細については、「[Teams 管理センターでチーム テンプレートの使用を開始する](../../get-started-with-teams-templates-in-the-admin-console.md)」をご参照ください。
 
 現在、次の事前構築済みの医療チーム テンプレートを提供しています。 表示するには、Teams 管理センターの左側のナビゲーションで、**[Teams]**、 > **[チーム テンプレート]** の順に移動します。
-### <a name="patient-care"></a>患者のケア
 
- このテンプレートは、病棟、ポッド、部門内でのコミュニケーションと共同作業を対象としています。 このテンプレートを使用して、患者や病棟の業務上のニーズの管理に容易に対応できます。 たとえば、*[お知らせ]* チャネルで病棟のお知らせを投稿し、*[スタッフ]* チャネルでシフトを管理します。
+### <a name="patient-care"></a>患者ケア
 
-| テンプレートの種類 |TemplateId| このテンプレートに含まれるプロパティ |
-| ------------------ |---|----------------------------------------------------- |
-| 患者のケア |`healthcareWard` | チャネル<ul><li>全般</li><li>お知らせ<ul><li>情報 &sup1;</li></ul></li><li>打ち合わせ<ul><li>リスト (患者リスト) &sup1;</li></ul></li><li>ラウンド<ul><li>検査 &sup1;</li></ul></li><li>人員配置</li><li>トレーニング</li></ul> アプリ: <ul><li>Wiki</li><li>リスト</li><li>タスク</li><li>承認</li><li>Shifts</li><li>情報</li><li>検査</li></ul>|
-||||
+病棟、ポッド、部門内の医療コミュニケーションと共同作業を合理化できます。 このテンプレートを使用して、患者の管理と病棟の運用ニーズを容易にします。 たとえば、*[お知らせ]* チャネルで病棟のお知らせを投稿し、*[スタッフ]* チャネルでシフトを管理します。
 
-&sup1; アプリがタブとしてチャネルに追加されました
+>[!div class="mx-tdBreakAll"]
+>| テンプレートの種類 |TemplateId| このテンプレートに含まれるプロパティ |
+>| ------------------ |---|----------------------------------------------------- |
+>| 患者ケア |`healthcareWard` | チャネル:<ul><li>全般</li><li>お知らせ</li><li>ハドル</li><li>ラウンド</li><li>人員配置</li><li>トレーニング</li></ul> アプリ: <ul><li>承認</li><li>情報</li><li>検査</li><li>リスト</li><li>Shifts</li><li>Planner と To Do によるタスク</li><li>Wiki</li></ul>|
+
 ### <a name="hospital"></a>病院
 
-このテンプレートは、病院内の複数の病棟、ポッド、部門間のコミュニケーションと共同作業を対象としています。 このテンプレートには、病院での活動のためのチャネルのセットが含まれており、拡張してさらにカスタマイズすることもできます。
+病院内の複数の病棟、ポッド、部門間のコミュニケーションと共同作業を合理化します。 このテンプレートには、病院での活動のためのチャネルのセットが含まれており、拡張してさらにカスタマイズすることもできます。
 
-| テンプレートの種類 |TemplateId | このテンプレートに含まれるプロパティ |
-| ------------------|-- |----------------------------------------------------- |
-|病院|`healthcareHospital`|チャネル <ul><li>全般<ul><li>リスト &sup1;</li></ul></li><li>お知らせ<ul><li>情報 &sup1;</li></ul></li><li>コンプライアンス</li><ul><li>検査 &sup1;</li></ul></li><li>親権</li><li>人事管理<ul><li>アイデア&sup1;</li></ul></li><li>薬局</li></ul> アプリ: <ul><li>Wiki</li><li>タスク</li><li>リスト</li><li>承認</li><li>Shifts</li><li>情報</li><li>検査</li><li>アイデア</li></ul>|
-||||
+>[!div class="mx-tdBreakAll"]
+>| テンプレートの種類 |TemplateId | このテンプレートに含まれるプロパティ |
+>| ------------------|-- |----------------------------------------------------- |
+>|病院|`healthcareHospital`|チャネル <ul><li>全般</li><li>お知らせ</li><li>コンプライアンス</li></li><li>親権</li><li>人事</li><li>薬局</li></ul>  アプリ: <ul><li>承認</li><li>情報</li><li>従業員のアイデア</li><li>検査</li><li>リスト</li><li>Shifts</li><li>Planner と To Do によるタスク</li><li>Wiki</li></ul>|
 
-&sup1; アプリがタブとしてチャネルに追加されました
 ## <a name="use-team-templates-with-microsoft-graph"></a>Microsoft Graph で Teams テンプレートを使用する
 
 Developers can use Microsoft Graph to create teams from pre-built team templates. To learn more about using team templates with Microsoft Graph, see [Get started with team templates using Microsoft Graph](../../get-started-with-teams-templates.md), [Microsoft Teams API overview](/graph/teams-concept-overview), and [teamsTemplate resource type](/graph/api/resources/teamstemplate).
 
 こちらに事前構築済みの医療チーム テンプレートを示します。
-### <a name="ward"></a>病棟
 
-この病棟用テンプレートは、病棟、ポッド、部門内でのコミュニケーションと共同作業を対象としています。 このテンプレートを使用すると、患者や病棟の業務上のニーズの管理に容易に対応できます。 たとえば、病棟の連絡事項は、*お知らせ* チャネルに投稿され、シフトは、 *スタッフィング* で管理できます。 このテンプレートは、病棟業務の効率化を図っている場合に最適です。
+### <a name="patient-care"></a>患者ケア
 
-|[テンプレートの種類] |TemplateId |テンプレート チャネル|
-|:--- |:---|:---|
-|医療 - 病棟 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')`   | 全般<br>お知らせ &sup2; <br> 打ち合わせ &sup2; <br> ラウンド &sup2; <br> 人員配置 &sup2; <br> トレーニング &sup2; |
-|     | |         |
+このテンプレートは、病棟、ポッド、部門内でのコミュニケーションと共同作業を対象としています。 このテンプレートを使用して、患者の管理と病棟の運用ニーズを容易にします。 たとえば、病棟の連絡事項は、*お知らせ* チャネルに投稿され、シフトは、 *スタッフィング* で管理できます。 このテンプレートは、病棟業務の効率化を図っている場合に最適です。
+
+>[!div class="mx-tdBreakAll"]
+>|[テンプレートの種類] |TemplateId |テンプレート チャネル|
+>|:--- |:---|:---|
+>|医療 - 病棟 | `https://graph.microsoft.com/beta/teamsTemplates('healthcareWard')`   | 全般<br>お知らせ &sup2; <br> 打ち合わせ &sup2; <br> ラウンド &sup2; <br> 人員配置 &sup2; <br> トレーニング &sup2; |
 
 &sup2; お気に入りに自動登録されたチャネル
 
 ### <a name="hospital"></a>病院
 
-病院のテンプレートは、病院内の複数の病棟、ポッド、部門間のコミュニケーションと共同作業を対象としています。 このテンプレートには、*お知らせ*、*管理*、*薬局* など、いくつかの運用チャネルがあります。 また、追加の部署や専門チャネルを使用してテンプレートを拡張するために使用できるスクリプトも用意されています。 ニーズに合わせてスクリプトを編集できます。
+このテンプレートは、病院内の複数の病棟、ポッド、部門間のコミュニケーションと共同作業を対象としています。 これには、アナウンス、*カストディアル*、薬局などの複数 *の* 運用チャネルが含 *まれています*。 また、より多くの部門や専門チャネルでテンプレートを拡張するために使用できるスクリプトも用意されています。 ニーズに合わせてスクリプトを編集できます。
 
-たとえば、*Endocrinology (内分泌学)* 部門はあるが、*Ophthalmology (眼科学)* のチャネルが必要ない場合、スクリプトで調整して、*Endocrinology (内分泌学)* チャネルを含め、 *Ophthalmology (眼科学)* のチャネルを削除することができます。 このような専門的なチャネルまたは病棟用に特化したチャネルは、過度の通知を回避するために、自動的にお気に入りに登録しないことをお勧めします。 ユーザーは通常、自分に関連するチャンネルをお気に入りにしています。
+たとえば、 *内分泌学* 部門を持っていて、 *眼科* 用のチャネルが必要ない場合は、 *内分泌学* チャネルを含むようにスクリプトを適応させ、 *眼科学* チャネルを削除できます。 このような専門的なチャネルまたは病棟用に特化したチャネルは、過度の通知を回避するために、自動的にお気に入りに登録しないことをお勧めします。 ユーザーは通常、自分に関連するチャンネルをお気に入りにしています。
 
-|テンプレートの種類 |TemplateId |テンプレート チャネル|
-|:--- |:---|:---|
-|医療 - 病院 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | 全般<br>お知らせ &sup2; <br> コンプライアンス &sup2; <br> カストディアル <br> 人事 <br> 薬局 |
-| | |  |
+>[!div class="mx-tdBreakAll"]
+>|テンプレートの種類 |TemplateId |テンプレート チャネル|
+>|:--- |:---|:---|
+>|医療 - 病院 | `https://graph.microsoft.com/beta/teamsTemplates('healthcareHospital')`   | 全般<br>お知らせ &sup2; <br> コンプライアンス &sup2; <br> カストディアル <br> 人事 <br> 薬局 |
 
 &sup2; お気に入りに自動登録されたチャネル
 

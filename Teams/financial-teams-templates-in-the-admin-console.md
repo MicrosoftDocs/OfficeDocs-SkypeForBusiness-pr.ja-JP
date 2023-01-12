@@ -20,12 +20,12 @@ ms.custom:
 - chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 096bab4289d5ac9e81c63f83cd73efd41d98e7be
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: 4ea67bec0fd8750e32ebb5f65d0258fa7c172a46
+ms.sourcegitcommit: 387141880842c93ecf4a936aaa26342a3f996259
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198691"
+ms.lasthandoff: 01/12/2023
+ms.locfileid: "69778947"
 ---
 # <a name="use-financial-team-templates"></a>財務チーム テンプレートを使用する
 
@@ -50,27 +50,27 @@ Teams には、金融サービス組織向けに設計されたテンプレー�
 
 現在、金融サービス組織向けに事前構築済みの次のチーム テンプレートを提供しています。 表示するには、Teams 管理センターの左側のナビゲーションで、**[Teams]**、 > **[チーム テンプレート]** の順に移動します。
 
-### <a name="collaborate-within-a-bank-branch"></a>銀行支店内での共同作業
+### <a name="bank-branch"></a>銀行支店
 
 打ち合わせ、顧客との会議、住宅ローンでの共同作業などの業務プロセスにおいて、銀行支店の従業員による共同作業を一元化し、お知らせや称賛によって全従業員と絶えず意思疎通を図ります。
 
-| テンプレートの種類 |TemplateId| このテンプレートに含まれるプロパティ |
-| ------------------ |--|----------------------------------------------------- |
-|銀行の支店| `CollaborateWithinABankBranch`|チャネル <ul><li>全般<li>お知らせ</li><li>ハドル</li><li>顧客との会議</li><li>承認要求 </li><li>指導</li><li>スキルの習得</li><li>融資の処理</li><li>顧客の苦情</li><li>称賛</li><li>楽しい機能</li><li>コンプライアンス</li></ul>アプリ:<ul><li>称賛 </li><li>問題の報告者</li><li>Wiki</li><li>カレンダー</li><li>承認</li><li>情報</li><li>アイデア</li></ul>|
-||||
+>[!div class="mx-tdBreakAll"]
+>| テンプレートの種類 |TemplateId| このテンプレートに含まれるプロパティ |
+>| ------------------ |--|----------------------------------------------------- |
+>|銀行支店| `com.microsoft.teams.template.CollaborateWithinABankBranch`|チャネル: <ul><li>全般<li>お知らせ</li><li>ハドル</li><li>顧客会議</li><li>承認要求 </li><li>指導</li><li>スキル開発</li><li>ローン処理</li><li>顧客からの苦情</li><li>称賛</li><li>楽しいもの</li><li>コンプライアンス</li></ul>アプリ:<ul><li>承認</li><li>情報</li><li>チャネルカレンダー</li><li>従業員のアイデア</li><li>Issue Reporting</li><li>称賛</li><li>Shifts</li><li>Wiki</li></ul>|
 
 ## <a name="use-team-templates-with-microsoft-graph"></a>Microsoft Graph で Teams テンプレートを使用する
 
 Developers can use Microsoft Graph to create teams from pre-built team templates. To learn more about using team templates with Microsoft Graph, see [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md), [Microsoft Teams API overview](/graph/teams-concept-overview?view=graph-rest-1.0&preserve-view=true), and [teamsTemplate resource type](/graph/api/resources/teamstemplate?view=graph-rest-1.0&preserve-view=true).
 
-### <a name="bank-branch"></a>銀行の支店
+### <a name="bank-branch"></a>銀行支店
 
 打ち合わせ、顧客との会議、住宅ローンでの共同作業などの業務プロセスにおいて、銀行支店の従業員による共同作業を一元化し、お知らせや称賛によって全従業員と絶えず意思疎通を図ります。
 
-| テンプレートの種類 |TemplateId| テンプレート チャネル |
-| ------------------ |--|----------------------------------------------------- |
-|銀行の支店|`https://graph.microsoft.com/beta/teamsTemplates('CollaborateWithinABankBranch')`|全般<br>お知らせ<br>ハドル<br>顧客との会議<br>承認要求<br>指導<br>スキルの習得<br>融資の処理<br>顧客の苦情<br>称賛<br>楽しい機能<br>コンプライアンス|
-||||
+>[!div class="mx-tdBreakAll"]
+>| テンプレートの種類 |TemplateId| テンプレート チャネル |
+>| ------------------ |--|----------------------------------------------------- |
+>|銀行支店|`https://graph.microsoft.com/beta/teamsTemplates('CollaborateWithinABankBranch')`|General<br>お知らせ<br>ハドル<br>顧客会議<br>承認要求<br>指導<br>スキル開発<br>ローン処理<br>顧客からの苦情<br>称賛<br>楽しいもの<br>コンプライアンス|
 
 > [!NOTE]
 > 金融サービス組織に適用されるその他のチーム テンプレートについては、「[Microsoft Graph で作成した中小企業向けチーム テンプレート](smb-templates.md)」を参照してください。

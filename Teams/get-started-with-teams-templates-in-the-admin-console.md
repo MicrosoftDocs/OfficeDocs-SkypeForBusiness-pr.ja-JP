@@ -14,7 +14,7 @@ ms.collection:
 - m365-frontline
 - tier2
 - highpri
-description: チーム テンプレートと、Microsoft Teams 管理センターでそれらを管理する方法について説明します。
+description: チーム テンプレートと、Microsoft Teams 管理センターでチーム テンプレートを管理する方法について説明します。
 f1.keywords:
 - CSH
 ms.custom:
@@ -22,12 +22,12 @@ ms.custom:
 - chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a92848867cfa10782fdbb2d465fdd44f59ab9f8d
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: 063f84ffc0b34c99ff937c4a5496d5df3be2ddf5
+ms.sourcegitcommit: 387141880842c93ecf4a936aaa26342a3f996259
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198479"
+ms.lasthandoff: 01/12/2023
+ms.locfileid: "69778987"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Teams 管理センターで Teams テンプレートの使用を開始する
 
@@ -47,7 +47,7 @@ Microsoft Teams のチーム テンプレートは、ビジネス ニーズま�
 この記事では、Teams 管理センターでのチーム テンプレートの操作の概要について説明します。 テンプレートでサポートされているプロパティ、用意されている事前構築済みのテンプレート、テンプレートサイズの制限、テンプレートの作成と管理方法などについて説明します。
 
 > [!NOTE]
-> ユーザーは、 [Teams アプリの事前構築済みまたはカスタム チーム テンプレートからチームを作成](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) できます。 開発者は、Microsoft Graph を使用して、事前に構築されたチーム テンプレートまたはカスタム チーム テンプレートからチームをプログラムで作成することもできます。 詳細については、「[Microsoft Graph を使用したチーム テンプレートの概要](get-started-with-teams-templates.md)」を参照してください。
+> ユーザーは、 [Teams アプリの事前構築済みまたはカスタム チーム テンプレートからチームを作成](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) できます。 開発者は、Microsoft Graph を使用して、事前に構築されたチーム テンプレートまたはカスタム チーム テンプレートからチームをプログラムで作成することもできます。 詳細については、「 [Microsoft Graph を使用したチーム テンプレートの](get-started-with-teams-templates.md)概要」を参照してください。
 
 ## <a name="team-template-capabilities"></a>チーム テンプレートの機能
 
@@ -81,20 +81,21 @@ Teams 管理センターで使用できる事前構築済みのチーム テン�
 >[!div class="mx-tdBreakAll"]
 >| テンプレートの種類 | TemplateId | このテンプレートに含まれるプロパティ |
 >| ------------------ | -------------- | ----------------------------------------------------- |
->| プロジェクトの管理* |`com.microsoft.teams.template.ManageAProject`| チャネル: <ul><li>全般</li> <li>お知らせ</li> <li>リソース</li> <li>計画</li></ul> アプリ:<ul><li>承認</li><li>情報</li><li>リスト<ul><li>プロジェクト トラッカー</li><li>イシュー トラッカー</li></ul></li><li>マイルス トーン</li><li>OneNote</li><li>Power Automate</li><li>SharePoint ページ<ul><li>当社のサイト</li></ul></li><li>Planner と To Do によるタスク</li><li>Wiki</li></ul> |
-| イベントの管理*|`com.microsoft.teams.template.ManageAnEvent` | チャネル: <ul><li>全般</li> <li>お知らせ</li> <li>予算</li> <li>コンテンツ</li><li>物流</li> <li>計画</li> <li> マーケティングと PR</li></ul> アプリ:<ul><li>承認</li><li>情報</li> <li>従業員のアイデア</li><li>リスト<ul><li>コンテンツ スケジューラ</li></ul></li><li>マイルス トーン</li> <li>OneNote</li> <li>Power Automate</li> <li>SharePoint ページ<ul><li>当社のサイト</li><li>イベントについて</li></ul><li>Planner と To Do によるタスク</li><li>Wiki</li> |
+>|プロジェクトの管理* |`com.microsoft.teams.template.ManageAProject`| チャネル: <ul><li>全般</li> <li>お知らせ</li> <li>リソース</li> <li>計画</li></ul> アプリ:<ul><li>承認</li><li>情報</li><li>リスト<ul><li>プロジェクト トラッカー</li><li>イシュー トラッカー</li></ul></li><li>マイルス トーン</li><li>OneNote</li><li>Power Automate</li><li>SharePoint ページ<ul><li>当社のサイト</li></ul></li><li>Planner と To Do によるタスク</li><li>Wiki</li></ul> |
+|イベントの管理*|`com.microsoft.teams.template.ManageAnEvent` | チャネル: <ul><li>全般</li> <li>お知らせ</li> <li>予算</li> <li>コンテンツ</li><li>物流</li> <li>計画</li> <li> マーケティングと PR</li></ul> アプリ:<ul><li>承認</li><li>情報</li> <li>従業員のアイデア</li><li>リスト<ul><li>コンテンツ スケジューラ</li></ul></li><li>マイルス トーン</li> <li>OneNote</li> <li>Power Automate</li> <li>SharePoint ページ<ul><li>当社のサイト</li><li>イベントについて</li></ul><li>Planner と To Do によるタスク</li><li>Wiki</li> |
 |従業員のオンボード*|`com.microsoft.teams.template.OnboardEmployees` | チャネル: <ul><li>全般</li> <li>お知らせ</li> <li>従業員チャット</li> <li>トレーニング</li></ul>アプリ:<ul><li>情報</li><li>従業員のアイデア</li><li>リスト<ul><li>オンボード チェックリスト</li></ul></li><li>マイルス トーン</li><li>Power Automate</li> <li>SharePoint ページ<ul><li>はじめに</li><li>トレーニング</li></ul><li>Planner と To Do によるタスク</li><li>Viva エンゲージ</li><li>Wiki</li></ul>|
-| Office 365を採用する |`com.microsoft.teams.template.AdoptOffice365`|  チャネル: <ul><li>全般</li> <li>お知らせ</li> <li>チャンピオンズ コーナー</li> <li>チーム フォーム</li><li>カレンダー</li></ul> アプリ: <ul><li>Wiki</li>  <li>チャネルカレンダー</li> <li>マイルス トーン</li><li>情報</li></ul>
+|Office 365を採用する |`com.microsoft.teams.template.AdoptOffice365`|  チャネル: <ul><li>全般</li> <li>お知らせ</li> <li>チャンピオンズ コーナー</li> <li>チーム フォーム</li><li>カレンダー</li></ul> アプリ: <ul><li>情報</li>  <li>チャネルカレンダー</li> <li>マイルス トーン</li><li>Wiki</li></ul>|
 |ヘルプ デスクの整理*| `com.microsoft.teams.template.OrganizeHelpDesk`|チャネル:<ul><li>全般</li><li>お知らせ</li><li>よくあるご質問 (FAQ)</li></ul>アプリ:<ul><li>Issue Reporting</li><li>リスト<ul><li>デバイス</li><li>チケット</li></ul></li><li>OneNote</li><li>Power Automate</li><li>SharePoint ページ<ul><li>当社のサイト</li><li>よく寄せられる質問</li></ul></li><li>Planner と To Do によるタスク</li><li>Wiki</li></ul> |
-|インシデント対応| `com.microsoft.teams.template.CoordinateIncidentResponse`|チャネル: <ul><li>全般<li>お知らせ</li><li>物流</li><li>計画</li><li>回復</li><li>緊急</li></ul> アプリ: <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>タスク</li> <li>承認</li> <li>検査</li> <li>Power Automate</li><li>情報</li><li>マイルス トーン</li></ul>|
-| 危機通信* |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| チャネル: <ul><li>全般<li>お知らせ</li><li>エグゼクティブ更新プログラム</li><li>計画</li><li>物流</li></ul>アプリ: <ul><li>承認</li><li>Issue Reporting</li><li>リスト<ul><li>コンテンツ スケジューラ</li><li>プロジェクト計画</li></ul></li><li>OneNote</li><li>Power Automate</li><li>SharePoint ページ<ul><li>当社のサイト</li><li>最新の更新プログラム</li></ul><li>Planner と To Do によるタスク</li>|
-| ストアの管理*| `com.microsoft.teams.template.retailStore` |チャネル: <ul><li>全般<li>Shift ハンドオフ</li><li>ストアの準備</li><li>学習</li></ul> アプリ: <ul><li>承認</li><li>検査</li><li>リスト<ul><li>インベントリ一覧</li></ul></li><li>SharePoint ページ<ul><li>当社の店舗</li></ul></li><li>Shifts</li><li>Planner と To Do によるタスク</li><li>Wiki</li></ul>|
-|銀行支店| `com.microsoft.teams.template.CollaborateWithinABankBranch`|チャネル: <ul><li>全般<li>お知らせ</li><li>ハドル</li><li>顧客との会議</li><li>承認要求 </li><li>指導</li><li>スキル開発</li><li>ローン処理</li><li>顧客からの苦情</li><li>称賛</li><li>楽しいもの</li><li>コンプライアンス</li></ul>アプリ:<ul><li>称賛 </li><li>問題の報告者</li><li>Wiki</li><li>カレンダー</li><li>承認</li><li>情報</li><li>アイデア</li></ul>|
-| 患者ケア| `com.microsoft.teams.template.healthcareWard`| チャネル:<ul><li>全般</li><li>お知らせ</li><li>ハドル</li><li>ラウンド</li><li>人員配置</li><li>トレーニング</li></ul> アプリ: <ul><li>Wiki</li><li>リスト  </li><li>承認</li><li>情報</li><li>検査</li></ul>|
-|病院| `com.microsoft.teams.template.healthcareHospital` |チャネル <ul><li>全般</li><li>お知らせ</li><li>コンプライアンス</li><li>親権</li><li>人事</li><li>薬局</li></ul> アプリ: <ul><li>Wiki</li><li>リスト</li><li>タスク</li><li>承認</li><li>Shifts</li><li>情報</li><li>検査</li><li>アイデア</li></ul>|
-|品質と安全性 |`com.microsoft.teams.template.QualitySafety`|チャネル: <ul><li>全般<li>お知らせ</li><li>リーダーシップ</li><li>メンテナンス</li><li>生産ライン 1</li><li>生産ライン 2</li><li>生産ライン 3</li><li>健康と安全</li><li>トレーニング</li><li>楽しいもの</li></ul> アプリ: <ul><li>Wiki</li><li>タスク</li> <li>問題の報告者</li> <li>検査</li> </ul>|
+|インシデント対応| `com.microsoft.teams.template.CoordinateIncidentResponse`|チャネル: <ul><li>全般<li>お知らせ</li><li>物流</li><li>計画</li><li>回復</li><li>緊急</li></ul> アプリ: <ul><li>承認</li><li>情報</li><li>Excel</li><li>検査</li><li>マイルス トーン</li> <li>OneNote</li> <li>Power Automate</li> <li>SharePoint</li><li>Planner と To Do によるタスク</li><li>Wiki</li></ul>|
+|危機通信* |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| チャネル: <ul><li>全般<li>お知らせ</li><li>エグゼクティブ更新プログラム</li><li>計画</li><li>物流</li></ul>アプリ: <ul><li>承認</li><li>Issue Reporting</li><li>リスト<ul><li>コンテンツ スケジューラ</li><li>プロジェクト計画</li></ul></li><li>OneNote</li><li>Power Automate</li><li>SharePoint ページ<ul><li>当社のサイト</li><li>最新の更新プログラム</li></ul><li>Planner と To Do によるタスク</li>|
+|ストアの管理*| `com.microsoft.teams.template.retailStore` |チャネル: <ul><li>全般<li>Shift ハンドオフ</li><li>ストアの準備</li><li>学習</li></ul> アプリ: <ul><li>承認</li><li>検査</li><li>リスト<ul><li>インベントリ一覧</li></ul></li><li>SharePoint ページ<ul><li>当社の店舗</li></ul></li><li>Shifts</li><li>Planner と To Do によるタスク</li><li>Wiki</li></ul>|
+|銀行支店| `com.microsoft.teams.template.CollaborateWithinABankBranch`|チャネル: <ul><li>全般<li>お知らせ</li><li>ハドル</li><li>顧客会議</li><li>承認要求 </li><li>指導</li><li>スキル開発</li><li>ローン処理</li><li>顧客からの苦情</li><li>称賛</li><li>楽しいもの</li><li>コンプライアンス</li></ul>アプリ:<ul><li>承認</li><li>情報</li><li>チャネルカレンダー</li><li>従業員のアイデア</li><li>Issue Reporting</li><li>称賛</li><li>Shifts</li><li>Wiki</li></ul>|
+|患者ケア| `com.microsoft.teams.template.healthcareWard`| チャネル:<ul><li>全般</li><li>お知らせ</li><li>ハドル</li><li>ラウンド</li><li>人員配置</li><li>トレーニング</li></ul> アプリ: <ul><li>承認</li><li>情報</li><li>検査</li><li>リスト</li><li>Shifts</li><li>Planner と To Do によるタスク</li><li>Wiki</li></ul>|
+|病院| `com.microsoft.teams.template.healthcareHospital` |チャネル <ul><li>全般</li><li>お知らせ</li><li>コンプライアンス</li><li>親権</li><li>人事</li><li>薬局</li></ul> アプリ: <ul><li>承認</li><li>情報</li><li>従業員のアイデア</li><li>検査</li><li>リスト</li><li>Shifts</li><li>Planner と To Do によるタスク</li><li>Wiki</li></ul>|
+|品質と安全性 |`com.microsoft.teams.template.QualitySafety`|チャネル: <ul><li>全般</li><li>リーダーシップ</li><li>メンテナンス</li><li>生産ライン 1</li><li>生産ライン 2</li><li>生産ライン 3</li><li>健康と安全</li><li>トレーニング</li><li>楽しいもの</li></ul> アプリ: <ul><li>承認</li><li>検査</li><li>Issue Reporting</li><li>Shifts</li> <li>Planner と To Do によるタスク</li> <li>Wiki</li> </ul>|
 |マネージャー向け小売*| `com.microsoft.teams.template.retailManagerCollaboration` |チャネル: <ul><li>全般<li>操作</li><li>学習</li></ul> アプリ: <ul><li>承認</li><li>検査</li><li>SharePoint ページ<ul><li>当社の店舗</li></ul></li><li>Planner と To Do によるタスク</li><li>Wiki</li></ul>|
-|ボランティアの管理| `com.microsoft.teams.template.ManageVolunteers` |チャネル: <ul><li>全般<li>お知らせ</li><li>レポート</li><li>ボランティアの管理</li><li>エンゲージメントの機会</li><li>ボランティア オンボーディング</li></ul> アプリ: <ul><li>Web サイト</li><li>YouTube</li><li>Power BI</li><li>Power Apps</li><li>タスク</li><li>SharePoint</li><li>OneNote</li></ul>|
+|ボランティアの管理| `com.microsoft.teams.template.ManageVolunteers` |チャネル: <ul><li>全般<li>お知らせ</li><li>レポート</li><li>ボランティアの管理</li><li>エンゲージメントの機会</li><li>ボランティア オンボーディング</li></ul> アプリ: <ul><li>OneNote</li><li>Power Apps</li><li>Power BI</li><li>SharePoint</li><li>Planner と To Do によるタスク</li><li>Web サイト</li><li>YouTube</li></ul>|
+|現場でのコラボレーション| `com.microsoft.teams.template.Frontline` |チャネル: <ul><li>全般<li>お知らせ</li><li>Shift ハンドオフ</li><li>操作</li><li>学習</li></ul> アプリ: <ul><li>承認</li><li>Issue Reporting</li><li>リスト</li><li>称賛</li><li>Shifts</li><li>Planner と To Do によるタスク</li></ul>|
 
 ### <a name="team-templates-by-category-and-industry"></a>カテゴリ別および業界別のチーム テンプレート
 

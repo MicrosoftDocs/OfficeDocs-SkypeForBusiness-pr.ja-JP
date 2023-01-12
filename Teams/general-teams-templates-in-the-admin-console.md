@@ -20,12 +20,12 @@ ms.custom:
 - chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01621d73f1f16fa23a6b4c9042e7d0cecdc2f366
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: 287bd53ffee2780927d2aa147f3bc2e2e07b3dbd
+ms.sourcegitcommit: 387141880842c93ecf4a936aaa26342a3f996259
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198349"
+ms.lasthandoff: 01/12/2023
+ms.locfileid: "69778977"
 ---
 # <a name="use-general-team-templates-in-the-admin-center"></a>管理センターで一般的なチーム テンプレートを使用する
 
@@ -33,7 +33,7 @@ ms.locfileid: "69198349"
 
 Microsoft Teams のチーム テンプレートでは、設定、チャネル、事前にインストールされたアプリの定義済みチーム構造を使用することで、チームをすばやく簡単に作成できます。
 
-チーム テンプレートを使用して、組織全体で一貫性のあるチームをデプロイします。 テンプレートは、ユーザーが Teams を効果的に使用する方法を指向するのにも役立ちます。 また、テンプレートを拡張して、特定の組織のニーズに合わせて調整されたチームを作成することもできます。
+チーム テンプレートを使用して、組織全体で一貫性のあるチームをデプロイします。 テンプレートは、ユーザーが Teams を効果的に使用する方法を指向するのにも役立ちます。
 
 Teams には、特定のビジネス ニーズとプロジェクト用に作成した事前構築済みのテンプレートが含まれています。 この記事では、さまざまなシナリオで組織で使用できるテンプレートの一般的なカテゴリについて説明します。
 
