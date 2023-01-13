@@ -23,12 +23,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45148768d023b3cb6b609c1f315fe8d71031a573
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+ms.openlocfilehash: e9fbd6e9075ee5680eaae4dc88dde96c842c5a7b
+ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392197"
+ms.lasthandoff: 01/13/2023
+ms.locfileid: "69800053"
 ---
 # <a name="meetings-webinars-and-live-events"></a>会議、ウェビナー、ライブ イベント
 
@@ -50,14 +50,14 @@ Microsoft Teams では、会議、ウェビナー、ライブ イベントなど
 | ウェビナー | - 最大 1,000 人<br>- [閲覧限定](view-only-meeting-experience.md) 機能の制限が間もなく増加します。 |- 最大 1,000 人の参加者は、完全にインタラクティブな機能を有します。<br> - 対象ユーザーの相互作用が構成可能です。<br> - 発表者を指定できます。 | はい |
 | ライブ イベント | 最大 20,000 人** |- 大規模な視聴者に配信。 <br>- 対象ユーザーの相互作用へのモデレート Q&A。 <br> - 外部発表者を含むプロデューサーと発表者を指定できます。<br>- より高度な運用機能をサポートしています。 | いいえ |
 
-*通常の 10,000 が、2022 年 12 月 31 日まで 20,000 に増やされます。
+※2023年6月30日まで通常10,000円を20,000に増やします。
 
-**通常の 10,000 が、2022 年 12 月 31 日まで 20,000 に増やされます。 Yammer や Microsoft Stream のライブ イベントを使用して、さらに多くの人数をスケジュールすることさえできます。 詳細については、「[Microsoft 365 全体でライブ イベントをする](/stream/live-event-m365)」を参照してください。 ただし、20,000 人を超える参加者のイベントには、[Live Events Assistance Program](/stream/live-events-assistance) が必要であることにご留意ください。
+**通常の 10,000 は、2023 年 6 月 30 日まで 20,000 に増加します。 Yammer や Microsoft Stream のライブ イベントを使用して、さらに多くの人数をスケジュールすることさえできます。 詳細については、「[Microsoft 365 全体でライブ イベントをする](/stream/live-event-m365)」を参照してください。 ただし、20,000 人を超える参加者のイベントには、[Live Events Assistance Program](/stream/live-events-assistance) が必要であることにご留意ください。
 
 Note that NDI is fully supported in meetings, webinars, and live events, allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
 
 > [!NOTE]
-> 詳細と、Microsoft Teams を使用してオンライン イベントを配信するためのロール別のガイダンスについては、「[Virtual Event Playbook](https://aka.ms/VirtualEventPlaybook)」を参照してください。 Microsoft Tech Communityの[仮想イベント フォーラム](https://aka.ms/VirtualEventForum)に参加することもできます。
+> 詳細と、Microsoft Teams を使用してオンライン イベントを配信するためのロール別のガイダンスについては、「 [Virtual Event Playbook](https://aka.ms/VirtualEventPlaybook)」を参照してください。 Microsoft Tech Communityの[仮想イベント フォーラム](https://aka.ms/VirtualEventForum)に参加することもできます。
 
 > [!NOTE]
 > 様々なプラットフォームで Teams の会議とイベントをすばやく構成する方法についての詳細は、「[プラットフォームごとの Teams の機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)」を参照してください。
@@ -178,7 +178,7 @@ Teams で提供されるアプリを使用し、認定されたサード パー�
 
 会議、ウェビナー、またはライブ イベントを開催、スケジュール、ホストするユーザーには、「[Microsoft Teams サービス解説書](/office365/servicedescriptions/teams-service-description)」に記載されている Microsoft 365 ライセンスのうちのいずれかが必要です。 既に Teams を使用している場合は、会議、ウェビナー、ライブ イベントの開催とホストに必要なライセンスを持っていると思われます。
 
-Teams Premium ライセンスの詳細については、「 [Teams Premium ライセンス](teams-add-on-licensing/licensing-enhance-teams.md)」を参照してください。
+ライセンスのTeams Premiumについては、「[Teams Premium ライセンス](teams-add-on-licensing/licensing-enhance-teams.md)」を参照してください。
 
 ユーザーが電話で会議にダイヤルインできるようにするには、電話会議を設定する必要があります。 電話会議の詳細については、「[Teams での電話会議](deploy-audio-conferencing-teams-landing-page.md)」を参照してください。
 

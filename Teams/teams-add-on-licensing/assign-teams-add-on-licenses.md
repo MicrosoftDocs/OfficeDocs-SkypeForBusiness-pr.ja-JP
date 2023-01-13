@@ -9,6 +9,7 @@ ms.service: msteams
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +17,12 @@ ms.reviewer: mikedav
 description: 電話会議、電話システム、通話プランなどの機能について、Teams アドオン ライセンスをユーザーに割り当てる方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60bde63ab3cc499c022ef2d23b669b543d6f5dd9
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+ms.openlocfilehash: 162169bd3aa7a1641133e8729d4872f8547b58ed
+ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392087"
+ms.lasthandoff: 01/13/2023
+ms.locfileid: "69799933"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Teams アドオン ライセンスをユーザーに割り当てる
 
@@ -38,7 +39,7 @@ Microsoft 365 管理センターまたは PowerShell を使用して、組織内
 
 - ユーザーに対してオンプレミスの公衆交換電話網 (PSTN) 接続を使用している場合は、Teams 電話スタンダード ライセンスのみを割り当てる必要があります。 通話プラン ライセンスを割り当てないでください。
 
-- Microsoft通話プランをユーザーに割り当てた後、Teams クライアントにダイヤル パッドが表示されるまでに最大で 24 時間かかることがあります。 ダイヤル パッドが 24 時間以内に表示されない場合は、 [ダイヤル パッドの構成](../dial-pad-configuration.md)を確認します。 必要に応じて、 [サポートに問い合わせ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)ることもできます。
+- Microsoft 通話プランをユーザーに割り当てた後、Teams クライアントにダイヤル パッドが表示されるまでに最大 24 時間かかることがあります。 ダイヤル パッドが 24 時間以内に表示されない場合は、 [ダイヤル パッドの構成](../dial-pad-configuration.md)を確認します。 必要に応じて、 [サポートに問い合わせ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)ることもできます。
 
 - 正しいライセンス数を購入していない場合は、エラー メッセージが表示されます。 通話プランのライセンスをさらに購入する必要がある場合は、さらに購入するオプションを選択します。
 
@@ -148,7 +149,7 @@ PowerShell を使用して Teams でライセンスを管理するときに参�
 | 電話会議を使用しないMicrosoft Teams Rooms Basic | Microsoft_Teams_Rooms_Basic_without_Audio_Conferencing |
 | Microsoft Teams Rooms Pro | Microsoft_Teams_Rooms_Pro |
 | 電話会議を使用しないMicrosoft Teams Rooms Pro | Microsoft_Teams_Rooms_Pro_without_Audio_Conferencing |
-| Teams 共有デバイスのMicrosoft | MCOCAP |
+| Microsoft Teams 共有デバイス | MCOCAP |
 | Microsoft Teams Premium | Microsoft_Teams_Premium |
 
 ## <a name="related-content"></a>関連コンテンツ

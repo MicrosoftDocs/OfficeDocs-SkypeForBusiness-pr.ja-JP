@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams Premium - 管理者向けの概要
+title: Microsoft Teams Premium - 管理者の概要
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -10,6 +10,7 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -18,21 +19,21 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.custom:
 - Licensing
-description: 管理者と IT プロフェッショナル向けの Teams Premium Microsoftについて説明します。
-ms.openlocfilehash: 9e7af9c777ba5fec8ca8b68da7f1069737702617
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+description: 管理者と IT プロフェッショナル向けのMicrosoft Teams Premiumについて説明します。
+ms.openlocfilehash: 2abcdd1c9f9df0101bbf7d0e22720c71375728d0
+ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392477"
+ms.lasthandoff: 01/13/2023
+ms.locfileid: "69800282"
 ---
-# <a name="microsoft-teams-premium---overview-for-administrators"></a>Microsoft Teams Premium - 管理者向けの概要
+# <a name="microsoft-teams-premium---overview-for-administrators"></a>Microsoft Teams Premium - 管理者の概要
 
-![情報アイコン](media/info.png) **この記事で説明するほとんどの機能には、プレビュー リリースである Teams Premium が必要です。** 一部のウェビナー機能など、いくつかの機能は、他のライセンスでも利用できます。 機能の可用性とライセンスの詳細については、「 [Teams Premium ライセンス](teams-add-on-licensing/licensing-enhance-teams.md)」を参照してください。
+![情報アイコン](media/info.png) **この記事で説明するほとんどの機能には、プレビュー リリースであるTeams Premiumが必要です。** 一部のウェビナー機能など、いくつかの機能は、他のライセンスでも利用できます。 機能の可用性とライセンスの詳細については、「[Teams Premium ライセンス](teams-add-on-licensing/licensing-enhance-teams.md)」を参照してください。
 
-この記事は、Teams Premium 機能を展開および構成する IT 担当者と管理者向けです。 この記事では、機能の簡単な説明と、より詳細なドキュメントへのリンクを示します。
+この記事は、Teams Premium機能のデプロイと構成を行う IT 担当者と管理者向けです。 この記事では、機能の簡単な説明と、より詳細なドキュメントへのリンクを示します。
 
-Teams Premium は、Teams に次の機能強化を提供するアドオン ライセンスです。  
+Teams Premiumは、Teams に次の機能強化を提供するアドオン ライセンスです。  
 
 -   エンド ユーザー向けの会議エクスペリエンスの強化
 -   会議のセキュリティと保護の強化 
@@ -40,9 +41,9 @@ Teams Premium は、Teams に次の機能強化を提供するアドオン ラ�
 
 
 > [!IMPORTANT]
-> Teams Premium はパブリック プレビュー リリースであるため、一般公開時に Teams で現在利用できる一部の機能は、Teams Premium ライセンスでのみ使用できます。 
+> Teams Premiumはパブリック プレビュー リリースであるため、一般公開時に Teams で現在利用できる一部の機能は、Teams Premium ライセンスでのみ使用できます。 
 
-次のセクションでは、次の Teams Premium の機能強化について説明します。
+次のセクションでは、次のTeams Premiumの機能強化について説明します。
 
 - [保護された会議](#protected-meetings)
 - [カスタム会議](#custom-meetings)
@@ -54,7 +55,7 @@ Teams Premium は、Teams に次の機能強化を提供するアドオン ラ�
 
 ## <a name="protected-meetings"></a>保護された会議
 
-Teams Premium には、次の重要な機能を使用して会議を保護するための追加の方法が用意されています。 
+Teams Premiumでは、次の重要な機能を使用して会議を保護する追加の方法が提供されます。 
 
 - **秘密度ラベル** - 会議開催者によって通常制御される会議設定を制御するための秘密度ラベルの拡張機能。 これらの機能には、ロビー、チャット、チャットコピー、プレゼンテーション、録音機能を制御するための新しい設定が含まれます。
 
@@ -74,15 +75,15 @@ Teams Premium には、次の重要な機能を使用して会議を保護する
 
 ## <a name="custom-meetings"></a>カスタム会議
 
-Teams Premium には、会議をカスタマイズするための次の追加機能が用意されています。
+Teams Premiumには、会議をカスタマイズするための次の追加機能が用意されています。
 
 - **会議テンプレート - 会議** の開催者が通常制御する会議設定を制御するために使用されます。 テンプレートを使用すると、組織内で一貫した会議エクスペリエンスを作成し、コンプライアンス要件とビジネス ルールを適用できます。
 
 - **会議のテーマ** - 組織が会議エクスペリエンス全体でビジュアル ID を拡張できるようにします。 1 つのテナント内で、さまざまな部署や部署の会議テーマを設定および作成できます。
 
-- **組織のカスタム会議の背景** - カスタム会議の背景を作成して定義し、その後、Teams Premium ライセンスを使用してエンド ユーザーが使用できるようにします。
+- **組織のカスタム会議の背景** - Teams Premium ライセンスを使用してエンド ユーザーが使用できるカスタム会議の背景を作成および定義できます。
 
-- **組織向けのカスタム 一緒モード シーン** - Teams Premium ライセンスを使用してエンド ユーザーが使用できる会議のカスタム 一緒モード シーンを作成、カスタマイズ、または受け入れます。
+- **組織向けのカスタム 一緒モード シーン** - Teams Premium ライセンスを使用してエンド ユーザーが利用できる会議のカスタム 一緒モード シーンを作成、カスタマイズ、または受け入れることができます。
 
 
 | 機能/タスク | 管理者向けのドキュメント | エンド ユーザー向けのドキュメント
@@ -98,7 +99,7 @@ Teams Premium には、会議をカスタマイズするための次の追加機
 
 ## <a name="premium-events"></a>Premium イベント
 
-Teams Premium では、新しい Teams イベント ポリシーを使用してユーザーに高度なウェビナー エクスペリエンスを提供します。 登録と追跡を引き続きサポートする一方で、新しいポリシーでは、会議の開催者や開催者に次のような機能も提供されます。
+Teams Premiumでは、新しい Teams イベント ポリシーを使用してユーザーに高度なウェビナー エクスペリエンスを提供します。 登録と追跡を引き続きサポートする一方で、新しいポリシーでは、会議の開催者や開催者に次のような機能も提供されます。
 
 - **使用条件のカスタム質問** - 出席者に提示する。
 - **発表者のバイオ - 発表者** に関する情報を含めます。
@@ -120,7 +121,7 @@ Teams Premium では、新しい Teams イベント ポリシーを使用して�
 
 Microsoft 365 ライセンスを使用すると、エンド ユーザーは基本的な仮想予定機能を使用して、ビジネス間の会議をスケジュールして参加できます。 たとえば、ユーザーは Bookings 予定表で予定をスケジュールでき、外部の出席者は Teams をダウンロードしなくてもブラウザーを介して参加できます。 
 
-Teams Premium には、次のような高度な仮想予定機能が用意されています。
+Teams Premiumには、次のような高度な仮想予定機能が用意されています。
 
 - SMS 通知
 - カスタム待合室
@@ -138,8 +139,8 @@ Teams Premium には、次のような高度な仮想予定機能が用意され
 
 その他のリソースについては、こちらを参照してください。
 
-- [Teams Premium 製品サイトのMicrosoft](https://www.microsoft.com/microsoft-teams/premium)
-- [Microsoft Teams Premium ブログ](https://www.microsoft.com/microsoft-365/blog/2022/10/12/introducing-microsoft-teams-premium-the-better-way-to-meet/)
+- [製品サイトMicrosoft Teams Premium](https://www.microsoft.com/microsoft-teams/premium)
+- [Microsoft Teams Premiumブログ](https://www.microsoft.com/microsoft-365/blog/2022/10/12/introducing-microsoft-teams-premium-the-better-way-to-meet/)
 
 
 

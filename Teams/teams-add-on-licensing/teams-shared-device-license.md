@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 共有デバイス ライセンス
+title: Microsoft Teams 共有デバイス のライセンス
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -9,6 +9,7 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -18,21 +19,21 @@ ms.localizationpriority: medium
 ms.custom:
 - Licensing
 - admindeeplinkMAC
-description: 共通エリア電話、Teams ディスプレイ、および Teams パネルのMicrosoft Teams 共有デバイス ライセンスについて説明します。
-ms.openlocfilehash: 5ab7f3dfae180d71abdcf51b0c33adc8abd0a9ab
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+description: 共通エリア電話、Teams ディスプレイ、および Teams パネルの Microsoft Teams 共有デバイス ライセンスについて説明します。
+ms.openlocfilehash: bf43b7882b2e4cb97c987b6d820117d467dd9a7d
+ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392722"
+ms.lasthandoff: 01/13/2023
+ms.locfileid: "69800208"
 ---
-# <a name="microsoft-teams-shared-devices-licensing"></a>Microsoft Teams 共有デバイス ライセンス
+# <a name="microsoft-teams-shared-devices-licensing"></a>Microsoft Teams 共有デバイス のライセンス
 
 Microsoft Teams は、ハイブリッド作業シナリオをサポートし、ユーザーが柔軟なスペースで作業できるようにします。 **Microsoft Teams 共有デバイス** アドオン ライセンスを使用すると、オフィスは、共通エリアの電話、ホット デスク用の Teams ディスプレイ、会議スペース用の Teams パネルなど、デバイスを共有デバイスとして指定できます。
 
-その他の Teams アドオン ライセンスの詳細については、「[Microsoft Teams アドオン ライセンス](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)」を参照してください。
+その他の Teams アドオン ライセンスの詳細については、「 [Microsoft Teams アドオン ライセンス](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)」を参照してください。
 
-**Microsoft Teams 共有デバイス** ライセンスでは、次の機能がサポートされます。
+**Microsoft Teams 共有デバイス** ライセンスでは、次の機能がサポートされています。
 
 - Microsoft Teams
 - sup1 をMicrosoft Teams 電話 &します。
@@ -55,15 +56,15 @@ sup3 を&します。クラウドベースのボイスメール機能のみ。
 
 ## <a name="acquiring-teams-shared-devices-licenses"></a>Teams 共有デバイス ライセンスの取得
 
-**Teams 共有デバイス** ライセンスは、[Microsoft管理センター](https://go.microsoft.com/fwlink/p/?linkid=2024339)で購入できます。
+**Teams 共有デバイス** ライセンスは、[Microsoft 管理センター](https://go.microsoft.com/fwlink/p/?linkid=2024339)で購入できます。
 
 1. [Microsoft 365 管理センター](https://go.microsoft.com/fwlink/p/?linkid=2024339)で、[課金 **購入サービス****]** >  に移動します。
 
-1. **[Microsoftから購入**] セクションを見つけて、[**製品の表示**] を選択します。
+1. [ **Microsoft から購入** ] セクションを見つけて、[ **製品の表示**] を選択します。
 
 1. [ **コラボレーションとコミュニケーション** ] フィルターを選択します。
 
-1. 製品の一覧で、[**Microsoft Teams 共有デバイス**] を見つけて、[詳細] を選択 **します**。
+1. 製品の一覧で Microsoft **Teams 共有デバイス** を探し、[ **詳細**] を選択します。
 
 1. 必要なライセンス数と課金頻度を入力します。
 
