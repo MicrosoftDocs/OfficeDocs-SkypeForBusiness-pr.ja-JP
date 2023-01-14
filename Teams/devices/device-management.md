@@ -16,23 +16,23 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.managedevices.overview
 - ms.teamsadmincenter.devicemanagement.overview
-description: 組織内のMicrosoft Teams で使用されるデバイスを管理します。
+description: 組織内の Microsoft Teams で使用されるデバイスを管理します。
 ms.localizationpriority: medium
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b34d554c0930efa622e60a695203e5fa35bd48ab
-ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
+ms.openlocfilehash: e545a6d4208e6f54abbf72327cf887d45b34e141
+ms.sourcegitcommit: 1934c4803b5b6ae9b9ccd49e695944446d5d5810
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "69245787"
+ms.lasthandoff: 01/14/2023
+ms.locfileid: "69807474"
 ---
 # <a name="manage-devices-in-teams"></a>Teams でデバイスを管理する 
 
-組織内のMicrosoft Teams で使用されるデバイスは、Microsoft Teams 管理センターから管理できます。 組織のデバイス インベントリを表示および管理したり、デバイスの診断の更新、再起動、監視などのタスクを実行したりできます。 デバイスまたはデバイスのグループに構成プロファイルを作成して割り当てることもできます。
+組織内の Microsoft Teams で使用されるデバイスは、Microsoft Teams 管理センターから管理できます。 組織のデバイス インベントリを表示および管理したり、デバイスの診断の更新、再起動、監視などのタスクを実行したりできます。 デバイスまたはデバイスのグループに構成プロファイルを作成して割り当てることもできます。
 
-デバイスの構成の変更、デバイスの再起動、更新プログラムの管理、デバイスと周辺機器の正常性の表示などのデバイスを管理するには、次のMicrosoft 365 管理者ロールのいずれかを割り当てる必要があります。
+デバイスの構成の変更、デバイスの再起動、更新プログラムの管理、デバイスと周辺機器の正常性の表示などのデバイスを管理するには、次のいずれかの Microsoft 365 管理者ロールを割り当てる必要があります。
 
 - Microsoft 365 グローバル管理者
 - Teams サービス管理者
@@ -50,13 +50,13 @@ Teams に認定され、登録されている任意のデバイスを管理で�
 - [Teams の表示](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices/devices/category?devicetype=34)
 - [Teams パネル](teams-panels.md)
 
-デバイスを管理するには、[Microsoft Teams 管理センター](https://admin.teams.microsoft.com)の左側のナビゲーションで、[**Teams デバイス**] に移動し、デバイスの種類を選択します。 各種類のデバイスには、それぞれ独自のセクションがあり、個別に管理できます。
+デバイスを管理するには、 [Microsoft Teams 管理センター](https://admin.teams.microsoft.com)の左側のナビゲーションで、[ **Teams デバイス**] に移動し、デバイスの種類を選択します。 各種類のデバイスには、それぞれ独自のセクションがあり、個別に管理できます。
 
 ## <a name="manage-teams-rooms-on-windows-devices"></a>Windows デバイスでTeams Roomsを管理する
 
 Teams 管理センターを使用して、組織全体の Windows デバイスでTeams Roomsを表示およびリモートで管理できます。 Teams 管理センターを使用すると、どのデバイスが正常で、どのデバイスに注意が必要かを一目で簡単に確認でき、特定のデバイスに焦点を当てて、デバイスの正常性、会議のパフォーマンス、通話品質、周辺機器に関する詳細情報を確認できます。 
 
-Teams Rooms デバイスを管理するために実行できる操作をいくつか次に示します。 Teams Roomsデバイスは、Windows の Teams **デバイス** > Teams Roomsの [Microsoft Teams 管理センター](https://admin.teams.microsoft.com)**にあります**。
+Teams Rooms デバイスを管理するために実行できる操作をいくつか次に示します。 Teams Roomsデバイスは、[Microsoft Teams 管理センター](https://admin.teams.microsoft.com)の Teams **デバイス** > **Teams Rooms Windows にあります**。
 
 Teams Rooms デバイスを管理する方法の詳細については、「[Microsoft Teams Roomsの管理](../rooms/rooms-manage.md)」を参照してください。
 
@@ -86,6 +86,23 @@ Android 上の電話、Teams Rooms、Teams のディスプレイ、および Tea
 | デバイス タグを使用してデバイスをフィルター処理する        | フィルター アイコンを選択し、[ **タグ** ] フィールドを選択し、フィルターを適用するデバイス タグを指定して、[ **適用**] を選択します。 デバイス タグを使用したデバイスのフィルター処理の詳細については、「 [フィルターを使用して特定のタグを持つデバイスを返す](manage-device-tags.md#use-filters-to-return-devices-with-a-specific-tag)」を参照してください。 |
 | デバイスの履歴と診断を表示する     | [ **履歴** ] 列で、デバイスの **[表示** ] リンクをクリックして、更新履歴と診断の詳細を表示します。                                                                                                                                                                                         |
 
+### <a name="view-android-device-sign-in-failures"></a>Android デバイスのサインインエラーを表示する
+
+Android デバイスへのサインインで問題が発生した場合は、デバイスの詳細ページを確認して、どのようなサインイン エラーが発生した可能性があるかを確認できます。
+
+1. 左側のナビゲーションで、[ **Teams デバイス** ] に移動> Teams デバイスの種類を選択します。 たとえば、Android デバイスが電話の場合は、[電話] を選択 **します**。
+2. サインインエラーを表示する電話の表示名をクリックします。 これにより、デバイスの詳細ページが開きます。
+3. デバイスの詳細ページで、[**アクティビティ**] タブを選択し、[**アクティビティの種類**] ドロップダウンで [**サインイン エラー**] を選択します。
+
+> [!NOTE]
+> サインインに問題があるデバイスのサインインエラーが表示されない場合は、デバイスのファームウェアが製造元によって提供される最新バージョンにあることを確認してください。
+
+返される結果には、次の情報が含まれます。
+
+- サインインエラーが発生した時刻。
+- デバイスにサインインしようとしたアカウント。
+- 失敗の理由。
+
 ### <a name="use-configuration-profiles-in-teams"></a>Teams で構成プロファイルを使用する
 
 構成プロファイルを使用して、Android、Teams ディスプレイ、Teams 電話、Teams パネルのTeams Roomsなど、組織内のさまざまな Teams デバイスの設定と機能を管理します。 構成プロファイルを作成またはアップロードして、有効または無効にする設定と機能を含め、デバイスまたはデバイスのセットにプロファイルを割り当てることができます。 
@@ -101,6 +118,7 @@ Teams デバイスの種類の構成プロファイルを作成するには:
    新しく作成された構成プロファイルがプロファイルの一覧に表示されます。
 
 #### <a name="assign-a-configuration-profile"></a>構成プロファイルを割り当てる
+
 Teams デバイスの種類の構成プロファイルを作成した後、1 つ以上のデバイスに割り当てます。
 
 1. 左側のナビゲーションで、[ **Teams デバイス** ] に移動> Teams デバイスの種類を選択します。 たとえば、Teams パネル デバイスに構成プロファイルを割り当てるには、[**Teams デバイス** > ]**[Teams パネル**] を選択します。
