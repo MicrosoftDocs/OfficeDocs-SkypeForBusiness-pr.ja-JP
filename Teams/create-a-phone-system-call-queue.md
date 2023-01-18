@@ -28,12 +28,12 @@ adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY
 adobe-target-experience: Experience B
 adobe-target-content: ./create-a-phone-system-call-queue-experiment
 description: Microsoft Teams で通話キューを設定する方法について説明します。 通話キューには、あいさつメッセージ、保留音楽、通話リダイレクトなどの機能が用意されています。
-ms.openlocfilehash: 4b12b1e89b11902299f973a97bdace44a841029e
-ms.sourcegitcommit: ae687f530d5505b96df7cb7ef4da3a36bd9afd29
+ms.openlocfilehash: b7bb107dc87ababd9c514655521525b6997fac29
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/10/2023
-ms.locfileid: "69763568"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812724"
 ---
 # <a name="create-a-call-queue-in-microsoft-teams"></a>Microsoft Teams で通話キューを作成する
 
@@ -400,10 +400,10 @@ Teams チャネルを介して最大 200 人のエージェントを追加でき
 2. Microsoft Teams iPhone アプリ、Microsoft Teams Android アプリ。
 3. エージェント ルーティング方法で [最長アイドル時間] を選択すると、プレゼンス ベースのルーティングが自動的に有効になります。
 4. エージェントが呼び出される順序を設定することはできません。
-5. 電話が場所ベースのルーティングで有効になっているダイレクト ルーティング ゲートウェイからキューにルーティングされる場合、会議モードはサポートされません。
+5. Location-Based ルーティングが有効になっているダイレクト ルーティング ゲートウェイからキューに通話がルーティングされる場合、会議モードはサポートされません。 Location-Based ルーティングを使用した通話キューの実装については、「 [音声アプリ (自動応答または通話キュー)」](location-based-routing-plan.md#inbound-calls-through-voice-apps-auto-attendant-or-call-queue)を参照してください。
 6. Microsoft Teams 電話システムのみ。
 7. の [ユーザー設定ポータル] ページを [https://aka.ms/vmsettings](https://aka.ms/vmsettings)使用します。
-8. パブリック チャネルのみがサポートされています。
+8. 標準チャネルのみがサポートされています。
 9. 自動応答と通話キューは、PSTN 接続メソッド間で通話を転送できません。
 10. GCCH/DOD の場合は、次のユーザー設定ポータルでのみ使用できます。
 - GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)

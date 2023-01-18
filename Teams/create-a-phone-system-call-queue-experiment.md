@@ -25,12 +25,12 @@ ms.custom:
 - Phone System - seo-marvel-apr2020
 robots: noindex
 description: Microsoft Teams で通話キューを設定する方法について説明します。 通話キューには、あいさつメッセージ、保留音楽、通話リダイレクトなどの機能が用意されています。
-ms.openlocfilehash: 9750bfddbf43c1b0e103e6d6c31feaf4aa542590
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+ms.openlocfilehash: fd7ebc4c2be9024ba1f83b3adc8d1cff8834a015
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392527"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812854"
 ---
 # <a name="create-a-call-queue"></a>呼び出しキューを作成する
 
@@ -130,8 +130,8 @@ ms.locfileid: "69392527"
 ID を呼び出すためにこの新しいリソース アカウントを作成した後も、次の操作を行う必要があります。
 
 - [Teams 電話リソース アカウント ライセンス](manage-resource-accounts.md#assign-a-license)を割り当てます。
-- Microsoft通話プラン ライセンスの割り当て、オペレーター接続電話番号の割り当て、またはダイレクト ルーティングのオンライン音声ルーティング ポリシーの割り当て。
-- 通話プランを使用している場合は、[リソース アカウントに電話番号](manage-resource-accounts.md#assign-a-phone-number)Microsoft割り当てます。
+- Microsoft 通話プラン ライセンスの割り当て、オペレーター接続電話番号の割り当て、またはダイレクト ルーティング用のオンライン音声ルーティング ポリシーの割り当て。
+- Microsoft 通話プランを使用している場合は、 [リソース アカウントに電話番号](manage-resource-accounts.md#assign-a-phone-number)を割り当てます。
 
 #### <a name="set-the-call-queue-language"></a>通話キューの言語を設定する
 
@@ -157,7 +157,7 @@ Teams は、キューに保留されている間に、発信者 *に既定の音
 - 特定のオーディオ ファイルを再生する場合は、[ **オーディオ ファイルの再生** ] を選択し、MP3、WAV、または WMA ファイルをアップロードします。
 
 > [!NOTE]
-> お客様は、Microsoft Teams サービスで音楽またはオーディオ ファイルを使用するために必要なすべての権利とアクセス許可を個別にクリアし、セキュリティ保護する責任を負います。これには、アーティストを含む可能性があるすべての関連する権利所有者のオーディオ ファイル内の音楽、効果音、オーディオ、ブランド、名前、その他のコンテンツに知的財産権やその他の権利が含まれる場合があります。 俳優、パフォーマー、ミュージシャン、ソングライター、作曲家、レコードラベル、音楽出版社、組合、ギルド、権利協会、集団管理組織、および音楽著作権、音響効果、オーディオ、その他の知的財産権を所有、制御またはライセンスするその他の当事者。
+> お客様は、Microsoft Teams サービスで音楽またはオーディオ ファイルを使用するために必要なすべての権利とアクセス許可を個別にクリアし、セキュリティで保護する責任を負います。これには、アーティストを含む可能性があるすべての関連する権利所有者のオーディオ ファイル内の音楽、効果音、オーディオ、ブランド、名前、およびその他のコンテンツに知的財産権やその他の権利が含まれる場合があります。 俳優、パフォーマー、ミュージシャン、ソングライター、作曲家、レコードラベル、音楽出版社、組合、ギルド、権利協会、集団管理組織、および音楽著作権、音響効果、オーディオ、その他の知的財産権を所有、制御またはライセンスするその他の当事者。
 
 あいさつと保留音を選択したら、[**通話キューの追加**] ページの下部にある [**次へ**] ボタンを選択します。
 
@@ -177,7 +177,7 @@ Teams チャネルを介して最大 200 人のエージェントを追加でき
 
 通話キューに Teams チャネルを使用する場合は、次のクライアントがサポートされます。
 
-- Teams Windows クライアントのMicrosoft
+- Microsoft Teams Windows クライアント
 - Microsoft Teams Mac クライアント
 
 > [!NOTE]
@@ -200,7 +200,7 @@ Teams チャネルを介して最大 200 人のエージェントを追加でき
 **キューにグループを追加** するには:
 
 1. [ **グループの追加]** を選択し、グループを検索し、[ **追加**] をクリックして、[ **追加**] をクリックします。 
-    1. 配布リスト、セキュリティ グループ、Microsoft 365 グループまたはMicrosoft Teams チームを使用できます。
+    1. 配布リスト、セキュリティ グループ、Microsoft 365 グループ、または Microsoft Teams チームを使用できます。
 
 > [!NOTE]
 > グループに追加された新しいユーザーは、最初の通話が到着するまでに最大 8 時間かかることがあります。
@@ -377,14 +377,14 @@ Teams チャネルを介して最大 200 人のエージェントを追加でき
 
 #### <a name="notes"></a>メモ
 
-1. Microsoft Teams Windows クライアント、Microsoft Teams Mac クライアント、仮想化デスクトップ インフラストラクチャMicrosoft Teams。
-2. Teams iPhone アプリMicrosoft、Teams Android アプリをMicrosoftします。
+1. Microsoft Teams Windows クライアント、Microsoft Teams Mac クライアント、仮想化デスクトップ インフラストラクチャ上の Microsoft Teams。
+2. Microsoft Teams iPhone アプリ、Microsoft Teams Android アプリ。
 3. エージェント ルーティング方法で [最長アイドル時間] を選択すると、プレゼンス ベースのルーティングが自動的に有効になります。
 4. エージェントが呼び出される順序を設定することはできません。
 5. 電話が場所ベースのルーティングで有効になっているダイレクト ルーティング ゲートウェイからキューにルーティングされる場合、会議モードはサポートされません。
 6. Microsoft Teams 電話のみ。
 7. の [ユーザー設定ポータル] ページを [https://aka.ms/vmsettings](https://aka.ms/vmsettings)使用します。
-8. パブリック チャネルのみがサポートされています。
+8. 標準チャネルのみがサポートされています。
 9. 自動応答と通話キューは、PSTN 接続メソッド間で通話を転送できません。
 10. GCCH/DOD の場合は、次のユーザー設定ポータルでのみ使用できます。
     - GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
@@ -403,7 +403,7 @@ Teams チャネルを介して最大 200 人のエージェントを追加でき
 - Mac版  Skype for Business クライアント (バージョン 6.16.0 以降)
 - Microsoft Teams Windows クライアント (32 ビットおよび 64 ビット バージョン)
 - Microsoft Teams Mac クライアント
-- Microsoft Teams on [Virtualized Desktop Infrastructure](teams-for-vdi.md) (Windows Virtual Desktop、Citrix、VMware)
+- [仮想化デスクトップ インフラストラクチャ](teams-for-vdi.md)上の Microsoft Teams (Windows Virtual Desktop、Citrix、VMware)
 - Microsoft Teams iPhone アプリ
 - Microsoft Teams Android アプリ
 

@@ -15,29 +15,29 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
-ms.openlocfilehash: ee3a64cb37e99c6ab452e735042935ec2148e994
-ms.sourcegitcommit: 548978550d58f8657d7035b57b736e9cf9b15984
+ms.openlocfilehash: f5916a09afc042c0dd2de65ece286efabc63a9e7
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/23/2022
-ms.locfileid: "69163237"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812684"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams のコンタクト センター統合
 
-  この記事では、Microsoft Teams 接続型連絡先センター認定プログラムに参加しているMicrosoft Teams およびソリューション プロバイダーとコンタクト センター ソリューションを統合する方法の概要について説明します。
+  この記事では、コンタクト センター ソリューションを Microsoft Teams および Microsoft Teams 接続型連絡先センター認定プログラムに参加しているソリューション プロバイダーと統合する方法の概要について説明します。
 
 ## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>Microsoft Teams のコンタクト センター統合とは
 
-Microsoft Teams は、チャット、ビデオ会議、通話などのコミュニケーション モード全体で、内部および外部の顧客接続のハブとして機能することで、顧客との対話作業ストリームをサポートします。 一部の組織では、[自動応答](./what-are-phone-system-auto-attendants.md)や[通話キュー](./create-a-phone-system-call-queue.md)など、Teams の[クラウド音声機能](./cloud-voice-landing-page.md)をMicrosoftがニーズを満たしています。
+Microsoft Teams では、チャット、ビデオ会議、通話などのコミュニケーション モード全体で、内部および外部の顧客接続のハブとして機能することで、顧客の対話作業ストリームをサポートしています。 一部の組織では、[自動応答](./what-are-phone-system-auto-attendants.md)や[通話キュー](./create-a-phone-system-call-queue.md)を含む Microsoft Teams の[クラウド音声機能](./cloud-voice-landing-page.md)がニーズを満たしています。
 
 ビジネス ツールとワークフローを使用してソリューションを顧客体験を促進したい組織の場合、Microsoft Teams のコンタクト センター統合により、Contact Center as a Service (CCaaS) ソリューション プロバイダーはソリューションを Teams に統合できます。
 
 
-## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Microsoft Teams 認定プログラムの接続された連絡先センター
+## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Microsoft Teams 認定プログラムの接続済み連絡先センター
 
-Microsoft Teams 認定プログラム用の接続済み連絡先センターは、各参加プロバイダーのソリューションが、Microsoft ソリューションから期待される品質、互換性、信頼性を提供することを確認します。
+Microsoft Teams 認定プログラム用の接続済み連絡先センターは、各参加プロバイダーのソリューションが、Microsoft ソリューションに期待される品質、互換性、信頼性を提供することを確認します。
 
-統合されたコンタクト センター ソリューションを探している組織の場合は、認定ソリューション プロバイダーの一覧については、「[コンタクト センター向けの認定Microsoft Teams ソリューション](https://cloudpartners.transform.microsoft.com/contact-center-solutions)」を参照し、認定プロセスのプロバイダーの一覧については、「[接続済み連絡先センター ソリューション](#connected-contact-center-solutions)」を参照してください。
+統合連絡先センター ソリューションを探している組織の場合は、認定ソリューション プロバイダーの一覧については [、「コンタクト センター向けの認定 Microsoft Teams ソリューション](https://cloudpartners.transform.microsoft.com/contact-center-solutions) 」を参照し、認定のプロセスにおけるプロバイダーの一覧については、「 [接続済み連絡先センター ソリューション](#connected-contact-center-solutions) 」を参照してください。
 
 認定プログラムに参加しようとしているベンダーの場合は、次の手順として [このフォーム](https://aka.ms/CallingPlatformIntake) に入力します。 追加のコンテキストと詳細を指定する必要がある場合は、 [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com) にメールを送信します。
 
@@ -67,6 +67,7 @@ Microsoft Teams 認定プログラム用の接続済み連絡先センターは�
 | `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/                                        |
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
 | `Puzzel` | https://www.puzzel.com/microsoft-teams                            |
+| `ROGER365.io` | https://www.roger365.io/contact-center-teams                         |
 | `Talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
 | `Tendfor` | https://www.tendfor.com                                                            |
 
@@ -88,7 +89,6 @@ Microsoft Teams 認定プログラム用の接続済み連絡先センターは�
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | `Netcall` | https://www.netcall.com/platform/contact-centre/                         |
 | `Novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
-| `ROGER365.io` | https://www.roger365.io/contact-center-teams                         |
 | `Sikom` | http://www.sikom.de/microsoft-teams/                            |
 | `Solgari` | https://solgari.com/converse-for-teams/                       |
 | `Ultatel` | https://www.ultatel.com/microsoft-teams-contact-center/                     |

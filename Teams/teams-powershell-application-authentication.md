@@ -12,12 +12,12 @@ ms.collection:
 description: Microsoft Teams の管理に使用される Teams PowerShell モジュールでのアプリケーション ベースの認証について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04cc2e3c069f30e44dd0c62a42be42fd1cce16b7
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 60d9bf64233db3f5e615c0904c6eb376f187266c
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307952"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812844"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Teams PowerShell モジュールでのアプリケーション ベースの認証
 
@@ -47,6 +47,13 @@ ms.locfileid: "69307952"
   Connect-MicrosoftTeams -CertificateThumbprint "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" -ApplicationId "00000000-0000-0000-0000-000000000000" -TenantId "YYYYYYYY-YYYY-YYYY-YYYY-YYYYYYYYYYYY"
   ```
   CertificateThumbprint パラメーターを使用する場合は、コマンドを実行しているコンピューターに証明書をインストールする必要があります。 証明書は、ユーザー証明書ストアにインストールする必要があります。
+  
+- 証明書オブジェクトを使用して接続する:
+
+  ```powershell
+  Connect-MicrosoftTeams -Certificate <%X509Certificate2 object%> -ApplicationId "00000000-0000-0000-0000-000000000000" -TenantId "YYYYYYYY-YYYY-YYYY-YYYY-YYYYYYYYYYYY"
+  ```
+  Certificate パラメーターを使用する場合、コマンドを実行しているコンピューターに証明書をインストールする必要はありません。 証明書は、スクリプトの実行時にフェッチ&リモートで格納できます。 Certificate パラメーターは、Teams PowerShell モジュール バージョン 4.9.2-preview 以降から使用できます。
   
 - アクセス トークンを使用して接続する:
   
@@ -91,8 +98,8 @@ Azure Ad でアプリケーションを作成するためのサンプル手順�
 
 1. Azure AD でアプリケーションを登録する
 2. アプリケーションに API アクセス許可を割り当てる
-   - -Cs コマンドレットの場合\*、 - 必要なMicrosoft Graph APIアクセス許可は です`Organization.Read.All`。
-   - 非 \*Cs コマンドレットの場合- 必要なMicrosoft Graph APIアクセス許可は`Organization.Read.All`、、`User.Read.All`、`Group.ReadWrite.All`、`AppCatalog.ReadWrite.All`、`TeamSettings.ReadWrite.All``Channel.Delete.All`、、`ChannelSettings.ReadWrite.All`です`ChannelMember.ReadWrite.All`。  
+   - -Cs コマンドレットの場合\*- 必要な Microsoft Graph API アクセス許可は です`Organization.Read.All`。
+   - 非 \*Cs コマンドレットの場合- 必要な Microsoft Graph APIアクセス許可は`Organization.Read.All`、、`User.Read.All`、`Group.ReadWrite.All`、`AppCatalog.ReadWrite.All`、`TeamSettings.ReadWrite.All``Channel.Delete.All`、、`ChannelSettings.ReadWrite.All`、 `ChannelMember.ReadWrite.All`です。  
 3. 自己署名証明書を生成する
 4. Azure AD アプリケーションに証明書をアタッチする
 5. [Azure AD ロール](/microsoftteams/using-admin-roles#teams-roles-and-capabilities)をアプリケーションに割り当てる

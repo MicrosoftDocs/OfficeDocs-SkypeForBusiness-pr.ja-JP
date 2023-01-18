@@ -13,12 +13,12 @@ ms.collection:
 description: Teams PowerShell の最新の変更について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29fcd5c5c9f12ae4d7ab9fe965ead62bd8f89046
-ms.sourcegitcommit: 1fdf109a7a99b113ffbe77d62acb8bbb0107dfed
+ms.openlocfilehash: 009805fd9fd39884762effdb4009e16a594028ba
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "69036553"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812704"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell リリース ノート
 
@@ -31,6 +31,7 @@ ms.locfileid: "69036553"
 
 | 日付 | バージョン | 更新 |
 |------- | -------------------- | ------------------------------ |
+| 2023 年 1 月 | [4.9.2-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.9.2-preview) |<li>プライベート プレビューGet-CsSdgBulkSignInRequestStatus & New-CsSdgBulkSignInRequestコマンドレットをリリースします。</li><li>Connect-MicrosoftTeams に Certificate パラメーターを追加します。</li><li>WelcomeTextToSpeechPrompt パラメーターを [New\|Set]-CsCallQueue に追加します。</li><li>Test-CsEffectiveTenantDialPlan & Test-CsVoiceNormalizationRule コマンドレットのパイプライン入力に関する問題を修正しました。</li>
 | 2022 年 11 月 | [4.9.1](https://www.powershellgallery.com/packages/MicrosoftTeams/4.9.1) |<li>GA のConnect-MicrosoftTeamsでのアプリケーション ベースの認証サポートをリリースします。 詳細については、「 [Teams PowerShell モジュールでのアプリケーション ベースの認証」を参照してください](teams-powershell-application-authentication.md)。</li><li>[New\|Get\|Set\|Remove]-CsTeamsChannelsPolicy と [New Get\|Set\|Remove]-CsTeamsUpdateManagementPolicy の新しい\|実装が含まれています。 機能は以前の実装と同じままです。</li><li>UseNewTeamsClient パラメーターを TeamsUpdateManagementPolicy に追加します。</li><li>EnablePrivateTeamDiscovery パラメーターを TeamsChannelsPolicy に追加します。</li><li>一部のポリシー コマンドレットで認証トークンが更新されない問題を修正しました。</li><li>一部のコマンドレットで表示形式が破損する問題を修正しました。</li><li>-Identity パラメーターなしで実行すると、SipProxyAddress、TeamsMediaLoggingPolicy、CountryAbbreviation、UserValidationErrors、WhenCreated 属性Get-CsOnlineUser出力に追加されます。 これらの属性のうち、CountryAbbreviation、UserValidationErros、WhenCreated はまだ値を表示しません。 これらは段階的にロールアウトされます。詳細については、 [Get-CsOnlineUser を参照してください](/powershell/module/skype/get-csonlineuser)。</li><li>共有チャネルで外部メンバーを管理するために UPN for -User パラメーターを受け取るAdd-TeamChannelUser & Remove-TeamChannelUserを修正しました。</li>
 | 2022 年 10 月 | [4.9.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.9.0) |<li>リリース [Get\|Set]-CsTeamsEducationConfiguration コマンドレットを GA で取得します。</li><li>[New Get Set Remove]-CsTeamsFeedbackPolicy、[New\|Get\|Set\|Remove]-CsTeamsMessagingPolicy、[New\|Get\|Set\|Remove]-CsTeamsMeetingPolicy、および [New Get\|Set\|Remove]-CsOnlineVoicemailPolicy の新しい\|実装が含まれています。\|\|\| 機能は以前の実装と同じままです。</li><li>ExplicitRecordingConsent、ForceStreamingAttendeeMode パラメーターを TeamsMeetingPolicy に追加します。</li><li>Description、PreambleAudioFile、PostambleAudioFile、PreamblePostambleMandatory パラメーターを OnlineVoicemailPolicy に追加します。</li><li>AllowChatWithGroup パラメーターを TeamsMessagingPolicy に追加します。</li><li>EnableFeatureSuggestions パラメーターを TeamsFeedbackPolicy に追加します。</li><li>コマンドレットUpdate-CsTeamsShiftsConnectionInstanceリリースします。</li>
 | 2022 年 10 月 | [4.8.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.8.1-preview) |<li>[New Get Set Remove]-CsTeamsMessagingPolicy、[New\|Get\|Set\|Remove]-CsTeamsMeetingPolicy、および [New Get\|Set\|Remove]-CsOnlineVoicemailPolicy の新しい\|実装が含まれています。\|\|\| 注: これらのコマンドレットは現在、powershell.exeでのみ機能します。 pwsh.exeでは機能しません。 これは、次の GA リリースで修正される予定です。</li><li>ExplicitRecordingConsent、ForceStreamingAttendeeMode パラメーターを TeamsMeetingPolicy に追加します。</li><li>Description、PreambleAudioFile、PostambleAudioFile、PreamblePostambleMandatory パラメーターを OnlineVoicemailPolicy に追加します。</li><li>AllowChatWithGroup パラメーターと EnableFeatureSuggestions パラメーターを TeamsMessagingPolicy に追加します。</li><li>コマンドレットUpdate-CsTeamsShiftsConnectionInstanceリリースします。</li>
