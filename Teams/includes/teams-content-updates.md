@@ -3,6 +3,42 @@
 
 
 
+## <a name="week-of-january-09-2023"></a>2023 年 1 月 9 日の週
+
+
+| 公開日 |トピックのタイトル | 変更 |
+|------|------------|--------|
+| 1/9/2023 | [組織のMicrosoft Teams 無料版 (クラシック)を廃止する](/MicrosoftTeams/teams-add-on-licensing/remove-assign-free-licenses) | 追加済 |
+| 1/9/2023 | [ユーザー用の電話番号を取得する](/MicrosoftTeams/getting-phone-numbers-for-your-users) | 更新日時 |
+| 1/9/2023 | [通話プランのサービス電話番号を取得する](/MicrosoftTeams/getting-service-phone-numbers) | 更新日時 |
+| 1/9/2023 | [通話プランの電話番号を管理する](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) | 更新日時 |
+| 1/9/2023 | [手動で番号移行注文を送信する](/MicrosoftTeams/phone-number-calling-plans/manually-submit-port-order) | 更新日時 |
+| 1/9/2023 | [Microsoft Teams に電話番号を転送する](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams) | 更新日時 |
+| 1/10/2023 | [GCC High と DoD の自動応答と通話キュー履歴レポート](/MicrosoftTeams/aa-cq-cqd-historical-reports-v163) | 更新日時 |
+| 1/10/2023 | [自動応答と通話キューの履歴レポートを更新しました](/MicrosoftTeams/aa-cq-cqd-historical-reports) | 更新日時 |
+| 1/10/2023 | [Microsoft Teams の自動応答を設定する](/MicrosoftTeams/create-a-phone-system-auto-attendant-smb) | 更新日時 |
+| 1/10/2023 | [Microsoft Teams 自動応答を設定する](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 更新日時 |
+| 1/10/2023 | [Microsoft Teams 通話キューを作成する](/MicrosoftTeams/create-a-phone-system-call-queue-smb) | 更新日時 |
+| 1/10/2023 | [Microsoft Teams で通話キューを作成する](/MicrosoftTeams/create-a-phone-system-call-queue) | 更新日時 |
+| 1/10/2023 | [Teams のリソース アカウントを管理する](/MicrosoftTeams/manage-resource-accounts) | 更新日時 |
+| 1/10/2023 | [Microsoft Teams でのストリーミングのエンコーダー構成](/MicrosoftTeams/teams-encoder-configuration) | 追加済 |
+| 1/10/2023 | [Microsoft Teams でのストリーミング用エンコーダーのセットアップ](/MicrosoftTeams/teams-encoder-setup) | 追加済 |
+| 1/10/2023 | [Microsoft Teams でのストリームの作成](/MicrosoftTeams/teams-stream-create-event) | 追加済 |
+| 1/10/2023 | [Microsoft Teams でビデオ配信をスケーリングする](/MicrosoftTeams/teams-stream-ecdn) | 追加済 |
+| 1/10/2023 | [Microsoft Teams でのストリーミング用エンコーダーの概要](/MicrosoftTeams/teams-stream-overview) | 追加済 |
+| 1/10/2023 | [Microsoft Teams でのライブ ストリーミングのトラブルシューティング](/MicrosoftTeams/teams-stream-troubleshooting) | 追加済 |
+| 1/10/2023 | [Microsoft Teams でのライブ イベントのセットアップ](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 更新日時 |
+| 1/10/2023 | [Microsoft Teams のライブ イベントについて](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | 更新日時 |
+| 1/11/2023 | [Teamsの医療テンプレートを使用する](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | 更新日時 |
+| 1/11/2023 | [財務チーム テンプレートを使用する](/MicrosoftTeams/financial-teams-templates-in-the-admin-console) | 更新日時 |
+| 1/11/2023 | [Teams 管理センターで Teams テンプレートの使用を開始する](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | 更新日時 |
+| 1/11/2023 | [管理センターでの製造チーム テンプレートの使用](/MicrosoftTeams/manufacturing-teams-templates-in-the-admin-console) | 更新日時 |
+| 1/11/2023 | [非営利団体のチーム テンプレートを使用する](/MicrosoftTeams/team-templates-nonprofit) | 更新日時 |
+| 1/11/2023 | [Microsoft Teams でのポリシーの呼び出し: 通話と転送の機能](/MicrosoftTeams/teams-calling-policy) | 更新日時 |
+| 1/13/2023 | [Microsoft Teams でデバイスを管理する](/MicrosoftTeams/devices/device-management) | 更新日時 |
+| 1/13/2023 | [Microsoft Teams Rooms を管理する](/MicrosoftTeams/rooms/rooms-manage) | 更新日時 |
+
+
 ## <a name="week-of-january-02-2023"></a>2023 年 1 月 2 日の週
 
 
@@ -52,39 +88,3 @@
 | 12/16/2022 | [Android にMicrosoft Teams Roomsをデプロイする](/MicrosoftTeams/devices/collab-bar-deploy) | 更新日時 |
 | 12/16/2022 | [Microsoft Teams デバイスをリモートで更新する](/MicrosoftTeams/devices/remote-update) | 更新日時 |
 | 12/16/2022 | [Windows セキュリティのMicrosoft Teams Rooms](/MicrosoftTeams/rooms/security-windows) | 更新日時 |
-
-
-## <a name="week-of-december-05-2022"></a>2022 年 12 月 5 日の週
-
-
-| 公開日 |トピックのタイトル | 変更 |
-|------|------------|--------|
-| 12/5/2022 | [Microsoft Teams で Bookings アプリを管理する](/MicrosoftTeams/bookings-app-admin) | 更新日時 |
-| 12/5/2022 | [機密性の高い会議用に Microsoft Teams 会議ロビーを構成する](/MicrosoftTeams/configure-lobby-sensitive-meetings) | 追加済 |
-| 12/5/2022 | [ベースライン保護を使用して Teams 会議を構成する](/MicrosoftTeams/configure-meetings-baseline-protection) | 追加済 |
-| 12/5/2022 | [機密性の高いデータを保護して Teams 会議を構成する](/MicrosoftTeams/configure-meetings-highly-sensitive-protection) | 追加済 |
-| 12/5/2022 | [機密データの保護を使用して Teams 会議を構成する](/MicrosoftTeams/configure-meetings-sensitive-protection) | 追加済 |
-| 12/5/2022 | [3 層の保護を使用して Teams 会議を構成する](/MicrosoftTeams/configure-meetings-three-tiers-protection) | 追加済 |
-| 12/5/2022 | [Microsoft Teams でカスタム会議テンプレートを作成する](/MicrosoftTeams/create-custom-meeting-template) | 追加済 |
-| 12/5/2022 | [Teams 会議のカスタム会議の背景](/MicrosoftTeams/custom-meeting-backgrounds) | 追加済 |
-| 12/5/2022 | [Microsoft Teams のカスタム会議テンプレートの概要](/MicrosoftTeams/custom-meeting-templates-overview) | 追加済 |
-| 12/5/2022 | [機密性の高い Teams 会議にエンドツーエンドの暗号化を要求する](/MicrosoftTeams/end-to-end-encrypted-meetings) | 追加済 |
-| 12/5/2022 | [Microsoft Teams Premium - 管理者の概要](/MicrosoftTeams/enhanced-teams-experience) | 追加済 |
-| 12/5/2022 | [機密性の高い Teams 会議のチャットを管理する](/MicrosoftTeams/manage-chat-sensitive-meetings) | 追加済 |
-| 12/5/2022 | [機密性の高い Teams 会議の会議プレゼンテーション エクスペリエンスを管理する](/MicrosoftTeams/manage-meeting-presentation-experience) | 追加済 |
-| 12/5/2022 | [機密性の高い会議の Microsoft Teams 会議記録オプションを管理する](/MicrosoftTeams/manage-meeting-recording-options) | 追加済 |
-| 12/5/2022 | [Microsoft Teams で会議テンプレートを管理する](/MicrosoftTeams/manage-meeting-templates) | 追加済 |
-| 12/5/2022 | [Microsoft Teams で仮想予定 アプリを管理する](/MicrosoftTeams/manage-virtual-appointments-app) | 追加済 |
-| 12/5/2022 | [一般的な会議ポリシーを管理する](/MicrosoftTeams/meeting-policies-in-teams-general) | 更新日時 |
-| 12/5/2022 | [Teams 会議テンプレート、秘密度ラベル、管理ポリシーを組み合わせて機密性の高い会議に使用する](/MicrosoftTeams/meeting-templates-sensitivity-labels-policies) | 追加済 |
-| 12/5/2022 | [Teams 会議の会議テーマ](/MicrosoftTeams/meeting-themes) | 追加済 |
-| 12/5/2022 | [会議、ウェビナー、ライブ イベント](/MicrosoftTeams/quick-start-meetings-live-events) | 更新日時 |
-| 12/5/2022 | [ウェビナーを設定する](/MicrosoftTeams/set-up-webinars) | 更新日時 |
-| 12/5/2022 | [Microsoft Teams Premium ライセンス](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | 追加済 |
-| 12/5/2022 | [Microsoft Teams アドオン ライセンス](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | 更新日時 |
-| 12/5/2022 | [機密性の高い Teams 会議に透かしを要求する](/MicrosoftTeams/watermark-meeting-content-video) | 追加済 |
-| 12/7/2022 | [小規模企業向けの Microsoft Teams Essentials クイックスタート ガイド](/MicrosoftTeams/get-started-with-teams-essentials) | 更新日時 |
-| 12/7/2022 | [Microsoft Teams 無料版 (クラシック)の管理](/MicrosoftTeams/manage-freemium) | 更新日時 |
-| 12/7/2022 | [Microsoft Teams 必須モバイル診断データ](/MicrosoftTeams/policy-control-diagnostic-data-mobile) | 更新日時 |
-| 12/7/2022 | [Microsoft Teams 無料版 (クラシック)をサブスクリプションにアップグレードする](/MicrosoftTeams/upgrade-freemium) | 更新日時 |
-| 12/8/2022 | [リアルタイム テレメトリを使用して低品質の会議をトラブルシューティングする](/MicrosoftTeams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality) | 更新日時 |
