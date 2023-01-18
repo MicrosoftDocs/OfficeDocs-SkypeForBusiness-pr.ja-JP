@@ -22,12 +22,12 @@ description: Teams または IT 管理者は、他のドメインの外部会議
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: d3396c9982cfe4de9eacc085bfe3a572fdc4b667
-ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
+ms.openlocfilehash: c405bdfb0690e0a34e7c3f92bb2e276780eb4ebe
+ms.sourcegitcommit: 40cba40b1babdb3fbfc1a416b7eeb0118f8353df
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "69242431"
+ms.lasthandoff: 01/18/2023
+ms.locfileid: "69820352"
 ---
 # <a name="manage-external-meetings-and-chat-in-microsoft-teams"></a>Microsoft Teams で外部の会議とチャットを管理する
 
@@ -48,6 +48,9 @@ ms.locfileid: "69242431"
 外部アクセス ポリシーには、組織レベルとユーザー レベルの両方の制御が含まれます。 ポリシーを組織レベルでオフにすると、ユーザー レベルの設定に関係なく、すべてのユーザーに対してオフになります。 既定では、すべての外部アクセス設定が有効になっています。
 
 Teams 管理センターは、組織レベルで外部アクセスを制御します。 ほとんどのオプション (ドメイン制限を除く) は、PowerShell を使用してユーザー レベルで使用できます。 詳細については、以下の「[PowerShell の使用](#using-powershell)」を参照してください。
+
+> [!NOTE]
+> さまざまなクラウド環境 (Microsoft 365 や Office 365 Government など) 間の外部アクセスには、Teams の外部 DNS レコードが必要です。 詳細については、「Teams に [必要な外部 DNS レコード」を](/microsoft-365/enterprise/external-domain-name-system-records#external-dns-records-required-for-teams)参照してください。
 
 > [!NOTE]
 > If you turn off external access in your organization, people outside your organization can still join meetings through anonymous join. To learn more, see [Manage meeting settings in Teams](meeting-settings-in-teams.md).
