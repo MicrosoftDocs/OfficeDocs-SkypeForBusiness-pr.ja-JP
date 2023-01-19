@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: ''
 audience: admin
 search.appverid: MET150
-description: ユーザーのMicrosoft 365 または Office 365 サブスクリプション プランを購入して、Microsoft Teams 無料版 (クラシック)から完全版に簡単にアップグレードする方法について説明します。
+description: ユーザーの Microsoft 365 または Office 365 サブスクリプション プランを購入して、Microsoft Teams 無料版 (クラシック)から完全版に簡単にアップグレードする方法について説明します。
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
@@ -20,19 +20,22 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8fadec9c28eae01f28be2e8c61f865b9d2004480
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: f2b9a76cd5f202a0c7d9805e7c5742bc0a470c06
+ms.sourcegitcommit: ff5411084dc34754462d5fd67b64db7a7e76f1e1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307632"
+ms.lasthandoff: 01/19/2023
+ms.locfileid: "69823256"
 ---
 # <a name="upgrade-microsoft-teams-free-classic-to-subscription-version"></a>Microsoft Teams 無料版 (クラシック)をサブスクリプション バージョンにアップグレードする
 
-組織でMicrosoft Teams 無料版 (クラシック)を使用している場合は、ユーザーのMicrosoft 365 または Office 365 サブスクリプション プランを購入することで、完全版に簡単にアップグレードできます。 フル バージョンでは、電話会議、拡張管理、セキュリティ機能など、無料版では提供されないその他の Teams 機能が提供されます。 Microsoft 365 とOffice 365は、使い慣れたMicrosoft Office デスクトップ スイートと、Microsoftの次世代通信およびコラボレーション サービス (Exchange Online、SharePoint Online、Office など) のクラウドベースのバージョンを組み合わせて、ユーザーがどこからでも生産性を高めるのに役立ちます。インターネット。 Teams をアップグレードしても、既存の Teams データは失われません。すべてのチーム、チャネル、チャット、ファイル、アクセス許可が付属しています。
+> [!IMPORTANT]
+> Microsoft Teams 無料版 (クラシック) ライセンスは非推奨となり、2023 年 4 月中旬から使用できなくなるので、Microsoft Teams 無料版 (クラシック)から Teams のサブスクリプション バージョンにアップグレードする必要があります。 この記事は、ユーザーを有料の Teams ライセンスにアップグレードする方法に関する手順で近日中に更新されます。
+
+組織がMicrosoft Teams 無料版 (クラシック)を使用している場合は、ユーザーの Microsoft 365 または Office 365 サブスクリプション プランを購入することで、完全版に簡単にアップグレードできます。 フル バージョンでは、電話会議、拡張管理、セキュリティ機能など、無料版では提供されないその他の Teams 機能が提供されます。 Microsoft 365 と Office 365は、使い慣れた Microsoft Office デスクトップ スイートと、Exchange Online、SharePoint Online、Office などの Microsoft の次世代通信およびコラボレーション サービスのクラウドベースバージョンを組み合わせて、ユーザーがインターネットを通じてどこからでも生産性を高めるのに役立ちます。 Teams をアップグレードしても、既存の Teams データは失われません。すべてのチーム、チャネル、チャット、ファイル、アクセス許可が付属しています。
 
 > [!NOTE]
-> 既に Microsoft 365 または Office 365 サブスクリプションをお持ちの場合は、無料版ではなく、Teams の試用版 (会社の ID を使用) の対象となります。 Teams 試用版では、期間限定で Teams のフル バージョンが提供されます。 詳細については、「[Microsoft Teams コマーシャル クラウド試用版オファーを管理](./teams-exploratory.md)する」を参照してください。
+> 既に Microsoft 365 または Office 365 サブスクリプションをお持ちの場合は、無料版ではなく、試用版 (会社の ID を使用) の対象となります。 Teams 試用版では、期間限定で Teams のフル バージョンが提供されます。 詳細については、「 [Microsoft Teams コマーシャル クラウド試用版オファーの管理](./teams-exploratory.md)」を参照してください。
 
 ## <a name="how-does-teams-free-classic-compare-to-the-full-version-of-teams"></a>Teams Free (クラシック) と Teams のフル バージョンの比較
 
@@ -51,7 +54,7 @@ Microsoft 365 または Office 365 サブスクリプションに含まれる Te
 
 - ユーザー制限なし (エンタープライズ ライセンスあり)
 - Exchange メール ホスティングとカスタム メール ドメイン
-- OneDrive、SharePoint、Planner、Yammer など、365 および Office 365 サービスMicrosoft
+- OneDrive、SharePoint、Planner、Yammer、その他の Microsoft 365 および Office 365 サービス
 - ユーザーあたり 1 TB のストレージ
 - 予約された会議
 - 電話会議
@@ -65,10 +68,10 @@ Teams Free (クラシック) 機能と Teams 機能の詳細な比較につい�
 次の要件を満たしている場合は、Teams のフル バージョンにアップグレードできます。
 
 - 既存のMicrosoft Teams 無料版 (クラシック) サブスクリプションにサインアップしたユーザーです。
-- 独自のドメインを持ち込む場合は、Azure Active Directory にまだ関連付けられません (試用版または 365 または Office 365 サブスクリプションMicrosoft購入)。
+- 独自のドメインを持ち込む場合、(試用版または購入した Microsoft 365 または Office 365 サブスクリプションを使用して) Azure Active Directory にまだ関連付けられません。
 
 > [!NOTE]
-> データをアップグレードして転送するには、Teams アプリケーションのアップグレード プロセスを通じてサブスクリプションを購入する必要があります。 アップグレード プロセスを経ずに Teams で 365 MicrosoftまたはOffice 365を購入した場合は、既に別のテナントがあるため、データを転送できません。
+> データをアップグレードして転送するには、Teams アプリケーションのアップグレード プロセスを通じてサブスクリプションを購入する必要があります。 アップグレード プロセスを経ずに Teams で Microsoft 365 または Office 365を購入した場合は、既に別のテナントがあるため、データを転送できません。
 
 ## <a name="limitations"></a>制限事項
 
@@ -89,11 +92,11 @@ Teams へのサインインに使用するメール アドレスを入力し、M
 
 ## <a name="whats-next"></a>次は何ですか?
 
-アップグレードが完了したら、最初の手順については[「Microsoft Teams の概要](get-started-with-teams-quick-start.md)」と「組織全体の Teams 導入に対する段階的なアプローチ[にMicrosoft Teams](adopt-microsoft-teams-landing-page.md) を採用する」を参照してください。
+アップグレードが完了したら、最初の手順については [「Microsoft Teams の概要](get-started-with-teams-quick-start.md) 」と「組織全体の Teams 導入に対する段階的なアプローチに [Microsoft Teams](adopt-microsoft-teams-landing-page.md) を採用する」を参照してください。
 
 ## <a name="more-information"></a>詳細情報
 
 - Teams のバージョンとその機能の詳細については、「 [Teams プランの比較](https://products.office.com/microsoft-teams/free)」を参照してください。
 - Teams のフル バージョンへのアップグレードの詳細については、「 [Teams Free (クラシック) から Teams へのアップグレード](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39)」を参照してください。
 - ユーザー ライセンスの追加、ユーザー名の変更、一時的なパスワードの割り当てなど、ユーザーのアップグレードに関連するその他の管理タスクについては、「 [Teams Free (クラシック) から有料サブスクリプションへの管理者のアップグレード](https://support.office.com/article/for-admins-upgrading-from-teams-free-to-a-paid-subscription-75a95e7f-001e-42d0-a787-ae8b992d5a52)について」を参照してください。
-- 組織内で無料の Teams を管理する方法については、「[Microsoft Teams Free (クラシック)の管理](manage-freemium.md)」を参照してください。
+- 組織内で無料の Teams を管理する方法の詳細については、「 [Microsoft Teams Free (クラシック) の管理](manage-freemium.md)」を参照してください。
