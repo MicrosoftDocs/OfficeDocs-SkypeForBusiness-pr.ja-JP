@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 新しい電話番号を取得し、Teams の電話会議、自動応答、通話キュー (サービス番号) の既存の番号を移植または転送する方法について説明します。
-ms.openlocfilehash: f72e24db204a53680a3f82469a7a77ca81943d8f
-ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
+ms.openlocfilehash: 21f577f2db325d57b9f87a2329dcd3ab121b4d5e
+ms.sourcegitcommit: fd56fb16ed60b027d3f8de96711d143825f9c184
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2023
-ms.locfileid: "69749053"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69835460"
 ---
 # <a name="service-phone-numbers-for-calling-plans"></a>通話プランのサービス電話番号
 
@@ -74,7 +74,11 @@ ms.locfileid: "69749053"
 移植ウィザードで問題が発生した場合は、 [手動でポート注文を送信](phone-number-calling-plans/manually-submit-port-order.md) するか、[ [組織の電話番号の管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)] に移動し、国または地域を選択して、承認状 (LOA) をダウンロードできます。 LOA を使用して転送するサービス番号 (フリーダイヤルとフリーダイヤルなど) ごとに個別のポート注文を送信する必要があります。 LOA では、正しい種類のサービス番号を選択する必要があります。 サービス番号 (ユーザーまたはサブスクライバー番号ではなく) を転送することを指定するか、同時呼び出し容量が呼び出しボリュームを処理するのに十分でない可能性があることを確認してください。  
 
 > [!NOTE]
-> 追加の電話番号は、Microsoft Teams 管理センターで購入できます。 多数のポート (1000 以上)、複雑なポート、またはサポートが必要な場合は、 [TNS サービス デスクにお問い合わせください](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。
+> 既存の電話番号を移植/転送するための LOA と追加のドキュメント要件の詳細については、「 [通話プランの電話番号を管理する](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)」を参照してください。
+>
+>ユーザーの 999 個以下の電話番号を移植または転送するには、Microsoft Teams 管理センターで完了した LOA と署名済みの LOA をアップロードして、さらに処理します。 Microsoft Teams 管理センターで追加の電話番号を購入することもできます。
+>
+> 999 を超える電話番号を移植または転送する場合、または Microsoft Teams 管理センターで移植プロセスに問題が発生した場合は、お使いのリージョンの TNS Service Desk [に手動でポート注文を送信](/microsoftteams/phone-number-calling-plans/manually-submit-port-order) できます。
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>組織の電話番号を表示する
 

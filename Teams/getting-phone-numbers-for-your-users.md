@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Teams の新しい番号を取得、移植、または転送する方法と、ユーザーに変更を表示する方法について説明します。
-ms.openlocfilehash: b4bdbc686a26bf179fbe85d2a19ca5b82c19b324
-ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
+ms.openlocfilehash: d92d48f95e620767148d3917a78d1e72c87f0645
+ms.sourcegitcommit: fd56fb16ed60b027d3f8de96711d143825f9c184
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2023
-ms.locfileid: "69749063"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69835490"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>ユーザー用に電話番号を取得する
 
@@ -78,6 +78,13 @@ ms.locfileid: "69749063"
 
 - 999 を超える電話番号を移植する必要がある場合は、 [ポート注文を手動で送信](phone-number-calling-plans/manually-submit-port-order.md) するか、「 [組織の電話番号を管理](/microsoftteams/manage-phone-numbers-for-your-organization) する」を参照して、正しい承認状 (LOA) をダウンロードできます。 LOA ドキュメントを完了して署名し、お使いのリージョン [の TNS サービス デスク](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) にお問い合わせください。
 
+> [!NOTE]
+> 既存の電話番号を移植/転送するための LOA と追加のドキュメント要件の詳細については、「 [通話プランの電話番号を管理する](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)」を参照してください。
+>
+>ユーザーの 999 個以下の電話番号を移植または転送するには、Microsoft Teams 管理センターで完了した LOA と署名済みの LOA をアップロードして、さらに処理します。 
+>
+> 999 を超える電話番号を移植または転送する場合、または Microsoft Teams 管理センターで移植プロセスに問題が発生した場合は、お使いのリージョンの TNS Service Desk [に手動でポート注文を送信](/microsoftteams/phone-number-calling-plans/manually-submit-port-order) できます。
+
 ## <a name="view-the-phone-numbers-for-your-organization"></a>組織の電話番号を表示する
 
 **Microsoft Teams 管理センターの使用**
@@ -87,9 +94,6 @@ ms.locfileid: "69749063"
 ## <a name="assign-phone-numbers-to-users"></a>ユーザーに電話番号を割り当てる
 
 電話番号を取得したら、各ユーザーに番号を割り当てる必要があります。 詳細については、「ユーザーの [電話番号の割り当て、変更、または削除」を](./assign-change-or-remove-a-phone-number-for-a-user.md)参照してください。
-
-> [!NOTE]
-> これより多くの電話番号を取得する必要がある場合は、[ビジネス製品のサポート連絡先 - 管理ヘルプにお問い合わせください](/microsoft-365/admin/contact-support-for-business-products)。
 
 このビデオでは、ユーザーに電話番号を割り当てる手順を示します。
 

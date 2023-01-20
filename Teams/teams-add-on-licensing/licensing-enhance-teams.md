@@ -3,7 +3,7 @@ title: Microsoft Teams Premium ライセンス
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
-ms.reviewer: ''
+ms.reviewer: jogruszc
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Licensing
 description: Microsoft Teams Premium アドオン ライセンスを使用して Microsoft Teams エクスペリエンスを強化する方法について説明します
-ms.openlocfilehash: d9307bc9b26421f4930c4355f42c274b5aad12a3
-ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
+ms.openlocfilehash: 36cc97d1eca47f94276c26ec7d8aeefb1e244d17
+ms.sourcegitcommit: fd56fb16ed60b027d3f8de96711d143825f9c184
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/13/2023
-ms.locfileid: "69800061"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69835570"
 ---
 # <a name="microsoft-teams-premium-licensing"></a>Microsoft Teams Premium ライセンス
 
@@ -42,9 +42,11 @@ Microsoft Teams Premiumは、Microsoft 365 サブスクリプションを持つ�
 - [Teams Premiumは Teams とどのように比較されますか?](#how-does-teams-premium-compare-to-teams)
 - [Teams Premiumに移行する現在の Teams 機能はありますか?](#are-there-current-teams-features-that-will-move-to-teams-premium)
 - [Teams Premiumを購入する要件は何ですか?](#what-are-the-requirements-to-purchase-teams-premium)
+- [ライセンスTeams Premium割り当てる必要があるユーザーはどれですか?](#which-users-should-be-assigned-teams-premium-licenses)
 - [Teams PremiumはTeams Rooms Proとどのように異なりますか?](#how-does-teams-premium-differ-from-teams-rooms-pro)
 - [ライセンスを購入する前にTeams Premiumを体験できますか?](#can-i-experience-teams-premium-before-buying-licenses)
 - [Teams Premium ライセンス操作方法購入しますか?](#how-do-i-purchase-teams-premium-licenses)
+- [ユーザー ライセンスを割り当てた後に管理者の構成が必要ですか?](#is-admin-configuration-required-after-assigning-users-licenses)
 
 Teams Premium機能を設定および構成する方法については、「[Microsoft Teams Premium - 管理者向けの概要](/microsoftteams/enhanced-teams-experience)」を参照してください。これには、エンド ユーザードキュメントへのリンクも含まれます。
 
@@ -69,7 +71,9 @@ Microsoft 365 サブスクリプションを購入したお客様は、ユーザ
 | 会議中にライブ翻訳されたキャプションを読み取る |  | X |
 | 会議後の文字起こしを翻訳する (*近日公開* 予定) |  | X |
 | リアルタイム データ ストレージを有効にする |  | X |
-| ライブ イベントの eCDN を有効にする |  | X |
+| ライブ イベントの eCDN を有効にする\* |  | X |
+
+\**eCDN はスタンドアロン ライセンスとして取得でき、必要に応じて、Teams Premiumの外部でさらに多くのライセンスを購入できます。eCDN スタンドアロン ライセンスの詳細については、「[Microsoft eCDN](https://www.microsoft.com/microsoft-teams/ecdn)」を参照してください。*
 
 ### <a name="webinars"></a>ウェビナー
 
@@ -106,7 +110,7 @@ Microsoft 365 サブスクリプションを購入したお客様は、ユーザ
 | カスタム ユーザー ポリシー パッケージ |  | X |
 | 高度な会議の監視とアラートを有効にする |  | X |
 
-\**この機能は、Microsoft 365 E5 サブスクリプションを持つユーザー Teams Premiumにのみ使用できます。ライセンス要件の詳細については、「[Teams Premiumを購入するための要件とは」](#what-are-the-requirements-to-purchase-teams-premium)を参照してください。*
+\**この機能は、Microsoft 365 E5 サブスクリプションまたは Microsoft E3 サブスクリプションと高度なコンプライアンス ライセンスを持つTeams Premiumユーザーのみが使用できます。ライセンス要件の詳細については、「[Teams Premiumを購入するための要件とは」](#what-are-the-requirements-to-purchase-teams-premium)を参照してください。*
 
 ### <a name="meetings-reporting"></a>会議レポート
 
@@ -147,35 +151,51 @@ Teams Premiumの一般的なリリースでは、一部の Teams 機能は Teams
 Teams Premiumに移行する機能は次のとおりです。
 
 - ライブ翻訳されたキャプション。
+  - 一般公開から 60 日後まで、すべての Teams サブスクライバー Teams Premium利用できます。
 - ユーザーが会議を離れた場合や会議に参加した場合の Teams 会議の記録のタイムライン マーカー。
+  - 一般提供から 30 日後まで、すべての Teams サブスクライバー Teams Premium利用できます。
 - カスタム組織の Together モード シーン。
+  - 一般提供から 30 日後まで、すべての Teams サブスクライバー Teams Premium利用できます。
 - 仮想予定: SMS 通知。
+  - 一般提供から 30 日後まで、すべての Teams サブスクライバー Teams Premium利用できます。
 - 仮想予定: Teams 管理センターの組織分析。
+  - 一般提供から 30 日後まで、すべての Teams サブスクライバー Teams Premium利用できます。
 - 仮想予定: スケジュールされたキュー ビュー。
+  - 一般提供から 30 日後まで、すべての Teams サブスクライバー Teams Premium利用できます。
 
 ### <a name="is-there-a-grace-period-to-switch-to-team-premium-before-my-users-lose-functionality"></a>ユーザーが機能を失う前に Team Premium に切り替える猶予期間はありますか?
 
-Teams Premium購入が一般公開されると、管理者がTeams Premiumを購入するための 30 日間の猶予期間が発生します。
+Teams Premium購入が一般公開されると、管理者がTeams Premiumを購入するための 60 日間の猶予期間が発生します。
 
-30 日間の猶予期間を過ぎると、管理者がユーザーにTeams Premiumライセンスを購入して割り当てない限り、Teams Premiumアドオンなしで Teams で以前に利用できる機能にアクセスできなくなります。
+60 日間の猶予期間が経過すると、管理者がユーザーにTeams Premiumライセンスを購入して割り当てない限り、ユーザーは、Teams Premiumアドオンなしで Teams で以前に利用できる機能にアクセスできなくなります。
 
 一部のテナントには、Teams Premium試用版ライセンスが含まれる場合があります。 試用版ライセンスの有効期限が切れると、ユーザーはすぐにTeams Premium機能を失います。 カスタム テンプレートや会議の背景などのTeams Premium機能に関連付けられている資産はテナントに残りますが、淡色表示され、使用できなくなります。
 
 ## <a name="what-are-the-requirements-to-purchase-teams-premium"></a>Teams Premiumを購入する要件は何ですか?
 
-リリース時に、Teams Premiumは、EA、EAS、EES、CSP、Web Direct、NCE - Customer led、NCE - Partner 主導など、すべての Microsoft 購入チャネルを通じて世界中で購入できるようになります。
+リリース時に、Teams Premiumは、EA、EAS、CSP、Web Direct、NCE - Customer led、NCE - Partner 主導など、すべての Microsoft 購入チャネルを通じて世界中で購入できるようになります。
 
 ユーザーのTeams Premium ライセンスを購入する前に、テナントとユーザーが要件を満たしていることを確認してください。
 
 **テナント** 要件は次のとおりです。
 
-- 商用、世界的な公共セクター、EDU、GCC、または非営利団体のテナントである必要があります。
+- 商用、世界的な公共セクター、EDU、または非営利団体のテナントである必要があります。
   - 一般リリースでは、Microsoft では、Teams Premiumに対して EDU 固有のライセンスまたは EDU 割引を提供しません。
-  - GCC High テナントと DoD テナントは、一般リリースでTeams Premiumライセンスを購入できません。
+  - GCC、GCC High、DoD の各ライセンスは、一般リリース後に利用できるようになります。
 
 **ユーザー要件** は次のとおりです。
 
 - Teams を使用したOffice 365または Microsoft 365 サブスクリプション。
+
+### <a name="can-i-acquire-teams-premium-features-without-the-teams-premium-license"></a>Teams PremiumライセンスなしでTeams Premium機能を取得できますか?
+
+Teams Premiumは、1 つのライセンスの下で大規模な Teams 機能セットをバンドルします。 他のライセンス シナリオを使用して、1 つのTeams Premium機能を取得できるインスタンスがあります。 ただし、Teams Premium ライセンスは、組織とユーザーの Teams エクスペリエンスを強化するための最も包括的で最も簡単な手段として設計されています。
+
+## <a name="which-users-should-be-assigned-teams-premium-licenses"></a>ライセンスTeams Premium割り当てる必要があるユーザーはどれですか?
+
+Teams Premiumは、Teams Premium機能を利用するユーザーにTeams Premiumライセンスを割り当てる必要がある、ユーザーごとの、1 か月あたりのライセンスです。
+
+仮想予定外部参加者のライセンス要件はありません。
 
 ## <a name="how-does-teams-premium-differ-from-teams-rooms-pro"></a>Teams PremiumはTeams Rooms Proとどのように異なりますか?
 
@@ -208,3 +228,26 @@ Teams Premium試用版ライセンスを持つ組織には、ユーザーに割�
 Teams Premium ライセンスを購入した後、[Microsoft 365 管理センター](https://go.microsoft.com/fwlink/p/?linkid=834822)のユーザーにライセンスを割り当てます。
 
 Microsoft 365 管理センターでライセンスを割り当てる手順については、「[Microsoft 365 ライセンスをユーザーに割り当てる](/microsoft-365/admin/manage/assign-licenses-to-users)」を参照してください。
+
+## <a name="is-admin-configuration-required-after-assigning-users-licenses"></a>ユーザー ライセンスを割り当てた後に管理者の構成が必要ですか?
+
+多くのTeams Premium機能では、ユーザーが機能にアクセスする前に、IT 管理者が機能を構成する必要があります。
+
+次の一覧は、ユーザーが機能にアクセスする前に管理者の構成を必要とするTeams Premium機能を示しています。
+
+- 最大 50 人の参加者が会議でエンドツーエンドの暗号化を使用する
+- 会議への透かしの追加
+- 秘密度ラベルの追加
+- 会議チャットでのコピーと貼り付けの防止
+- 組織のカスタマイズされた背景の使用
+- 組織がカスタマイズした Together-mode シーンを使用する
+- カスタム ポリシー パッケージが割り当てられている
+- 組織でカスタマイズされた会議テンプレートを使用する
+- 組織のカスタマイズされたブランドを表示する
+- ライブ イベントに eCDN を使用する
+- RTMP-Inの使用
+- 仮想予定の SMS 通知の送信
+- 仮想予定 Premium アプリへのアクセス
+- Teams 管理センターで仮想予定データにアクセスする
+
+手順へのリンクについては、「[Microsoft Teams Premium - 管理者向けの概要」を](/microsoftteams/enhanced-teams-experience)参照してください。

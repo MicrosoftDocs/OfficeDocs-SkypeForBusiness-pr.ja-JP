@@ -18,16 +18,16 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: ポート注文要求を手動で送信する方法について説明します。
-ms.openlocfilehash: a1a333b70f717e83df5743e2532bf0092c262054
-ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
+ms.openlocfilehash: f00f8e31055e20dc39dbee9a5809adad566bc4b0
+ms.sourcegitcommit: fd56fb16ed60b027d3f8de96711d143825f9c184
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2023
-ms.locfileid: "69749033"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69835470"
 ---
 # <a name="manually-submit-a-port-order"></a>手動で番号移行注文を送信する
 
-ほとんどのお客様は、Microsoft Teams 管理センターでポート注文を完了できます。 そのプロセスの手順については、「 [Microsoft Teams に電話番号を転送する](transfer-phone-numbers-to-teams.md)」を参照してください。
+ほとんどのお客様にとって、999 以下の電話番号のポート注文は、Microsoft Teams 管理センターで完了できます。 そのプロセスの手順については、「 [Microsoft Teams に電話番号を転送する](transfer-phone-numbers-to-teams.md)」を参照してください。
 
 場合によっては、電話番号の取得、電話番号の転送、電話番号の解放、住所の変更を手動でサービスリクエストを送信しなければならない場合があります。 国や地域ごとに必要なものを確認したり、番号の移植の詳細については、「 [組織の電話番号を管理](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)する」を参照してください。
 
@@ -40,6 +40,9 @@ Teams 管理センターで移植ウィザードを使用できない場合は�
 1. お客様の国または地域の [LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) をダウンロードします。
 2. フォームに入力します。
 4. [TNS サービス デスク](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)に送信します。
+
+> [!NOTE]
+> 既存の電話番号を移植/転送するための LOA と追加のドキュメント要件の詳細については、「 [通話プランの電話番号を管理する](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)」を参照してください。
 
 ## <a name="what-else-should-you-know-about-number-porting"></a>番号の移植について他に知っておくべきこと
 
