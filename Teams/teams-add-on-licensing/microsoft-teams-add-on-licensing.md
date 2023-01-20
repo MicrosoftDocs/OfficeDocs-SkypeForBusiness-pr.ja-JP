@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Microsoft Teams の Microsoft アドオン ライセンスと、各ライセンスで取得する機能について説明します。
-ms.openlocfilehash: cdda8211bb700683d94782a7db719e5860e7d6eb
-ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
+ms.openlocfilehash: 490eb833c923ba1a247bb140222b449530131947
+ms.sourcegitcommit: 776820a6c927fafabdfad9f50654fe7648d77bf3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/13/2023
-ms.locfileid: "69799923"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69845884"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams アドオン ライセンス
 
@@ -59,12 +59,12 @@ Teams アドオン ライセンスと、Teams サブスクリプションに追�
 
 小規模企業、エンタープライズ組織、教育機関、政府機関、非営利団体のいずれであっても、Teams 電話システムと PSTN 接続を取得するには、次の 3 つの方法があります。
 
-- Microsoft 365 Business、E1/E3、A1/A3、または G1/G3 プランを購入し、 **通話プランバンドル ライセンスを含む Teams Phone** を追加します。
+- AAD、Microsoft 365 Business、E1/E3、A1/A3、F1/F3、または G1/G3 プランを使用して Teams Essentials を購入し、 **通話プランバンドル ライセンスを持つ Teams Phone** を追加します。
   - このモデルでは、Teams 電話システム PBX 機能と Microsoft 国内通話プランが提供されます。
   - すべての電話番号管理と課金を Microsoft が処理する場合は、この設定を選択します。
   - [通話プラン付き Teams Phone バンドル ライセンスがリージョンで使用できるかどうかを確認します](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
 
-- E1/E3、A1/A3、G1/G3 プランを購入 **し、Teams 電話スタンダード ライセンスを** 追加し、Microsoft スタンドアロン通話プランまたはサードパーティの PSTN 通信事業者を選択します。
+- AAD、E1/E3、A1/A3、F1/F3、G1/G3 プランで Teams Essentials を購入し、**Teams 電話スタンダード ライセンスを** 追加し、Microsoft スタンドアロン通話プランまたはサード パーティの PSTN 通信事業者を選択します。
   - このモデルでは Teams 電話システムが提供されますが、引き続き PSTN に接続する必要があります。
   - すべての PSTN 接続オプションを表示するには、「 [PSTN 接続オプション](../pstn-connectivity.md)」を参照してください。
   - すべての音声ソリューションについては、「 [Teams 音声ソリューションを計画する](../cloud-voice-landing-page.md)」を参照してください。

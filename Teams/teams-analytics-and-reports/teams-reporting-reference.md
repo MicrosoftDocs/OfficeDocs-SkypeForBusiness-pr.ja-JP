@@ -19,12 +19,12 @@ description: この記事では、Microsoft Teams 管理センターで使用で
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e93a34f19ecf53e05a51fe36983a9f46f741e67e
-ms.sourcegitcommit: 40cba40b1babdb3fbfc1a416b7eeb0118f8353df
+ms.openlocfilehash: 1062afeebfde89835330fbc4f367e0fccbe01513
+ms.sourcegitcommit: 776820a6c927fafabdfad9f50654fe7648d77bf3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/18/2023
-ms.locfileid: "69820322"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69845924"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams の分析とレポート
 
@@ -66,6 +66,7 @@ Microsoft では、Teams のレポート エクスペリエンスの継続的な
 |[Teams 仮想予定使用状況レポート](/microsoft-365/frontline/virtual-appointments-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)|Yes|Yes|いいえ|いいえ| 仮想予定の数<br>予約予定の数<br>Teams 電子正常性レコード (EHR) 統合予定の数<br>予定の平均期間<br>出席者のロビーの平均待機時間<br>開始時刻<br>会議 ID<br>ロビーの待機時間<br>[時間]<br>ステータス<br>製品の種類<br>出席者<br>部署<br>SMS 送信済み<br>予定が高度な仮想予定機能を使用したかどうか|
 |[Teams Advanced 仮想予定 アクティビティ レポート](/microsoft-365/frontline/advanced-virtual-appointments-activity-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) |Yes|Yes|いいえ|いいえ|高度な仮想予定機能を使用しているユーザーの数<br>SMS テキスト通知を使用するユーザーの数<br>ロビー チャットを使用するユーザーの数 (近日公開予定)<br>オンデマンドの予定を実行するユーザーの数|
 |[Teams EHR コネクタ 仮想予定 レポート](/microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) |Yes|Yes|いいえ|いいえ| 開始時刻<br>[時間]<br>プライマリ (会議開催者の名前)<br>プライマリのメール (会議の開催者のメール)<br>部署<br>応答<br>ロビーの待機時間<br>予定が割り当て制限内にあるかどうか|
+|[Walkie Talkie の使用状況とパフォーマンス レポート](walkie-talkie-usage-report.md) |Yes|Yes|いいえ|いいえ| メトリックには、送受信されたプッシュツートーク (PTT) 送信の数、チャネル アクティビティ、転送期間、デバイスと参加者の詳細が含まれます。|
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## <a name="make-the-user-specific-data-anonymous"></a>ユーザー固有のデータを匿名にする

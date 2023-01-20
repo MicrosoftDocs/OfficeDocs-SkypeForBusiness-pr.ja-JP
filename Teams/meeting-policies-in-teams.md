@@ -1,7 +1,7 @@
 ---
 title: 'Teams: 会議ポリシーを管理する'
-author: tonysmit
-ms.author: tonysmit
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Learn to manage meeting policy settings in Teams. Use policy settings to control the features available to meeting participants for meetings scheduled by users.
-ms.openlocfilehash: 374c51a1356ebdc7940185f64a98a334ce7bb66d
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: 9b4d816902f5956bdc3dabee5a79fc644768d170
+ms.sourcegitcommit: 776820a6c927fafabdfad9f50654fe7648d77bf3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68613999"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69845874"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams での会議ポリシーを管理する
 
@@ -324,7 +324,7 @@ CEO 役員会議や Teams のライブ イベントなど、最高品質のビ�
 
 - [画面共有モード](#screen-sharing-mode)
 - [参加者に制御を渡す、または制御を要求する](#allow-a-participant-to-give-or-request-control)
-- [外部参加者は、制御を与えたり要求したりできます](#external-participants-can-give-or-request-control)
+- [外部参加者は制御を与えたり要求したりできます](#external-participants-can-give-or-request-control)
 - [PowerPoint の共有を許可する](#allow-powerpoint-sharing)
 - [ホワイトボードを許可する](#allow-whiteboard)
 - [メモの共有を許可する](#allow-shared-notes)
@@ -334,7 +334,7 @@ CEO 役員会議や Teams のライブ イベントなど、最高品質のビ�
 > [!NOTE]
 > This feature is still in development. Screen sharing is a per-participant policy, however, it can be affected by the organizer's screen sharing settings, as described in this section.
 
-この設定は、ユーザーの会議でデスクトップやウィンドウの共有を許可するかどうかを制御します。 ポリシーが割り当てられていない会議参加者 (外部参加者など) は、会議の開催者のポリシーを継承します。
+この設定は、ユーザーの会議でデスクトップやウィンドウの共有を許可するかどうかを制御します。 ポリシーが割り当てられない会議参加者 (外部参加者など) は、会議開催者のポリシーを継承します。
 
 |値を設定する |動作  |
 |---------|---------|
@@ -379,7 +379,7 @@ Daniela は、Babek が開催する会議の他の参加者に共有デスクト
 > [!NOTE]
 > 共有中に共有コンテンツの制御を渡したり受け取ったりするには、両者が Teams デスクトップ クライアントを使用している必要があります。 いずれかの当事者がブラウザーで Teams を実行している場合、制御はサポートされません。 これは、修正する予定の技術的制限によるものです。
 
-### <a name="external-participants-can-give-or-request-control"></a>外部参加者は、制御を与えたり要求したりできます
+### <a name="external-participants-can-give-or-request-control"></a>外部参加者は制御を与えたり要求したりできます
 
 これは、ユーザーごとのポリシーです。 組織がユーザーに対してこの設定を行ったかどうかは、会議の開催者が設定した内容に関係なく、外部の参加者ができることを制御するものではありません。 このパラメーターは、組織の会議ポリシー内において、共有先が設定した内容に応じて、外部の参加者に共有スクリーンの制御または制御の依頼を許可するかどうかを制御します。 Teams 会議の外部参加者は、次のように分類できます。  
 
@@ -387,13 +387,13 @@ Daniela は、Babek が開催する会議の他の参加者に共有デスクト
 - ゲスト
 - 外部アクセス ユーザー  
 
-外部アクセス ユーザーが他の外部参加者に制御を与える一方で、共有が外部参加者によって制御されるかどうかは、組織内で制御設定を **付与または要求できます** 。
+外部アクセス ユーザーが、共有中に他の外部参加者に制御を与えることができるかどうかは、外部参加者が組織の制御設定を **与えるか、要求できます** 。
 
 PowerShell を使用して、外部の参加者が制御を渡すことができるか、または制御要求を受け入れることができるかを制御するには、AllowExternalParticipantGiveRequestControl コマンドレットを使用します。
 
 ### <a name="allow-powerpoint-sharing"></a>PowerPoint の共有を許可する
 
-これは、ユーザーごとのポリシーです。 この設定は、ユーザーが会議で PowerPoint スライド セットを共有できるかどうかを制御します。 匿名ユーザー、ゲスト ユーザー、外部アクセス ユーザーを含む外部参加者は、会議開催者のポリシーを継承します。
+これは、ユーザーごとのポリシーです。 この設定は、ユーザーが会議で PowerPoint スライド セットを共有できるかどうかを制御します。 匿名ユーザー、ゲスト ユーザー、外部アクセス ユーザーを含む外部参加者は、会議の開催者のポリシーを継承します。
 
 次の例を見てみましょう。
 
@@ -406,7 +406,7 @@ Amanda は、会議の開催者であっても、PowerPoint スライド セッ�
 
 ### <a name="allow-whiteboard"></a>ホワイトボードを許可する
 
-これは、ユーザーごとのポリシーです。 この設定は、ユーザーが会議でホワイトボードを共有できるかどうかを制御します。 匿名ユーザー、ゲスト ユーザー、外部アクセス ユーザーを含む外部参加者は、会議開催者のポリシーを継承します。
+これは、ユーザーごとのポリシーです。 この設定は、ユーザーが会議でホワイトボードを共有できるかどうかを制御します。 匿名ユーザー、ゲスト ユーザー、外部アクセス ユーザーを含む外部参加者は、会議の開催者のポリシーを継承します。
 
 次の例を見てみましょう。
 
@@ -419,7 +419,7 @@ Amanda は、会議の開催者であっても、会議でホワイトボード�
 
 ### <a name="allow-shared-notes"></a>メモの共有を許可する
 
-これは、ユーザーごとのポリシーです。 この設定は、ユーザーが会議でメモを作成および共有できるかどうかを制御します。 匿名ユーザー、ゲスト ユーザー、外部アクセス ユーザーを含む外部参加者は、会議開催者のポリシーを継承します。 [**会議のメモ**] タブは、最大 100 人の出席者を含む会議でサポートされています。
+これは、ユーザーごとのポリシーです。 この設定は、ユーザーが会議でメモを作成および共有できるかどうかを制御します。 匿名ユーザー、ゲスト ユーザー、外部アクセス ユーザーを含む外部参加者は、会議の開催者のポリシーを継承します。 [**会議のメモ**] タブは、最大 100 人の出席者を含む会議でサポートされています。
 
 次の例を見てみましょう。
 

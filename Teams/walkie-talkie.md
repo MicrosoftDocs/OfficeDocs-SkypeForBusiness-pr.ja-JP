@@ -22,12 +22,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.date: 11/17/2022
-ms.openlocfilehash: abb14f937064b394106e0cf2d58f756371a7c04e
-ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
+ms.openlocfilehash: c4184e82e99fa4f3169fea14c62f3a892750bf8c
+ms.sourcegitcommit: 776820a6c927fafabdfad9f50654fe7648d77bf3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2022
-ms.locfileid: "69131276"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69845894"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams のトランシーバー アプリ
 
@@ -131,6 +131,10 @@ Walkie Talkie からの予想されるデータ使用量は、オーディオの
 > ユーザーが Bluetooth アクセサリを使用している場合は、モバイル デバイス管理 (MDM) ソリューションで Bluetooth デバイスがブロックされていないことを確認します。
 
 Android OS バージョン 12 以降を実行しているデバイスでは、Bluetooth アクセス許可が必要であり、BLE スタックを使用して接続するための場所のアクセス許可は不要になりました。 Teams レベルで "近くのアクセス許可" が付与されていない場合、ユーザーは Bluetooth アクセス許可のプロンプトを受け取ります。 ヘッドセットなどの Bluetooth アクセサリがデバイスに接続されているかどうかに関わらず、このプロンプトが表示されます。 Bluetooth アクセサリが接続されている場合は、[ **許可]** をタップすると、Walkie Talkie が Bluetooth アクセサリに接続されます。
+
+## <a name="get-insight-into-walkie-talkie-usage-and-performance"></a>Walkie Talkie の使用状況とパフォーマンスに関する分析情報を取得する
+
+Teams 管理センターの [Walkie Talkie の使用状況とパフォーマンス レポート](teams-analytics-and-reports/walkie-talkie-usage-report.md) には、組織内の Walkie Talkie アクティビティとパフォーマンスの概要が表示されます。 レポートには、行われた PTT 転送の数、受信した PTT 転送の数、チャネル アクティビティ、転送期間、デバイスと参加者の詳細などの情報が表示されます。
 
 ## <a name="more-information"></a>詳細情報
 

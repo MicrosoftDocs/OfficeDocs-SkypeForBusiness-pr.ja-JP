@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: 更新された Teams 自動応答&通話キュー履歴レポート Power BI レポートを使用して、自動応答と通話キューの履歴データを表示する方法について説明します。
-ms.openlocfilehash: 0ff8e7d1b5a1b9901c5b8a5da49d67fbf8ac5275
-ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
+ms.openlocfilehash: dad1fa07d476aa5bcfa1e39818d9d7a01b7fdc56
+ms.sourcegitcommit: 776820a6c927fafabdfad9f50654fe7648d77bf3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/17/2023
-ms.locfileid: "69812734"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69845914"
 ---
 # <a name="auto-attendant-and-call-queue-historical-reports"></a>自動応答と通話キューの履歴レポート
 
@@ -537,11 +537,9 @@ VAAC API には、RESTful アプリケーションにアクセスできる任意
 
 ### <a name="preparation"></a>準備
 
-[Postman](https://www.postman.com/) をダウンロードします。
-
-リポジトリ [sync_pstn_avs-analytics](https://skype.visualstudio.com/SBS/_git/sync_pstn_avs-analytics) をダウンロードし、解凍します。
-
-フォルダーを Postman にインポートします。 
+1. [Postman](https://www.postman.com/) をダウンロードします。
+1. ダウンロードした `sync_pstn_avs-analytics.zip` [zip ファイルの手順でファイル](#v3xx-installation)を解凍します。
+1. フォルダーを Postman にインポートします。 
 
 :::image type="content" source="media/aa-cq-historical-report-postman-01.png" alt-text="インポートが完了したことを示すスクリーンショット":::
 
@@ -555,7 +553,6 @@ VAAC API には、RESTful アプリケーションにアクセスできる任意
 6. **[保存]** をクリックします。
 
 :::image type="content" source="media/aa-cq-historical-report-postman-02.png" alt-text="ユーザー名、パスワード、テナント ID フィールドが構成されていることを示すスクリーンショット":::
-
 
 7. 左側 **の** レール メニューの [コレクション] を選択します。
 8. [ **Config API Access Token - Prod** ] を選択し、[ **本文** ] タブに移動します。
@@ -585,7 +582,6 @@ VAAC API には、RESTful アプリケーションにアクセスできる任意
 :::image type="content" source="media/aa-cq-historical-report-postman-04.png" alt-text="dataResult フィールドを使用したクエリ結果を示すスクリーンショット":::
 
 この場合、データは、クエリ ディメンションと測定属性で要求された順序と同じ順序の "dataResult" フィールドに格納されます。
-
 
 ### <a name="compress-the-json-query"></a>JSON クエリを圧縮する
 
