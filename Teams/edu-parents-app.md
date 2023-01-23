@@ -19,12 +19,12 @@ ms.custom:
 - admindeeplinkTEAMS
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f2d0d916028a026d7706fd317ba25d16af213a81
-ms.sourcegitcommit: 55d2f515f5040b4c083f529d7b818c84d42378a0
+ms.openlocfilehash: 32ef76aeff228bc9386917cb2214965942b8be4e
+ms.sourcegitcommit: 1f4a0b7cf03f63438bb37668d053853494c92168
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/22/2022
-ms.locfileid: "69147484"
+ms.lasthandoff: 01/23/2023
+ms.locfileid: "69948574"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Microsoft Teams for Educationで親接続を設定する
 
@@ -36,8 +36,8 @@ Microsoft Teams for Educationの親接続は、教育者が Teams を使用し�
 
 ここでは、IT 管理者が保護者や教師と親接続の使用を開始する方法について共有できるリソースをいくつか示します。
 
-- 保護者の設定に関するガイダンスについては、「 [Teams で教師と接続する](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960)」を参照してください。
-- 教師のセットアップに関するガイダンスについては、「 [Microsoft Teams で保護者と通信する](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e?ui=en-us&rs=en-us&ad=us)」を参照してください。
+- 保護者の設定に関するガイダンスについては、「 [Microsoft Teams で保護者と通信する](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e?ui=en-us&rs=en-us&ad=us)」を参照してください。
+- 教師のセットアップに関するガイダンスについては、「 [Teams で教師と接続する](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960)」を参照してください。
 
 ## <a name="benefits-of-parent-connection"></a>親接続の利点
 

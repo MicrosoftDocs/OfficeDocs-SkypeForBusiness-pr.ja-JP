@@ -17,13 +17,15 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom:
 - Licensing
+- admindeeplinkTEAMS
+- admindeeplinkMAC
 description: Microsoft Teams Premium アドオン ライセンスを使用して Microsoft Teams エクスペリエンスを強化する方法について説明します
-ms.openlocfilehash: 36cc97d1eca47f94276c26ec7d8aeefb1e244d17
-ms.sourcegitcommit: fd56fb16ed60b027d3f8de96711d143825f9c184
+ms.openlocfilehash: 1d85c5d601dc74d7c308f05fa07bd99a2f274791
+ms.sourcegitcommit: 1f4a0b7cf03f63438bb37668d053853494c92168
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/20/2023
-ms.locfileid: "69835570"
+ms.lasthandoff: 01/23/2023
+ms.locfileid: "69948564"
 ---
 # <a name="microsoft-teams-premium-licensing"></a>Microsoft Teams Premium ライセンス
 
@@ -146,30 +148,24 @@ Microsoft 365 サブスクリプションを購入したお客様は、ユーザ
 
 ## <a name="are-there-current-teams-features-that-will-move-to-teams-premium"></a>Teams Premiumに移行する現在の Teams 機能はありますか?
 
-Teams Premiumの一般的なリリースでは、一部の Teams 機能は Teams ライセンスからTeams Premium ライセンスに移行されます。 ユーザーがこれらの機能を引き続き使用できるようにするには、Teams Premiumライセンスを購入して割り当てる必要があります。
+Teams Premiumの一般的なリリースでは、一部の Teams 機能は Teams ライセンスからTeams Premium ライセンスに移行されます。 これらの各機能の猶予期間は、一般公開から 30 日または 60 日後です。 猶予期間が切れると、ユーザーはその機能にアクセスできなくなります。
+
+ユーザーがこれらの機能を引き続き使用できるようにするには、Teams Premiumライセンスを購入して割り当てる必要があります。
 
 Teams Premiumに移行する機能は次のとおりです。
 
 - ライブ翻訳されたキャプション。
-  - 一般公開から 60 日後まで、すべての Teams サブスクライバー Teams Premium利用できます。
+  - 一般公開後、すべての Teams サブスクライバーが 60 日間の猶予期間Teams Premium使用できます。
 - ユーザーが会議を離れた場合や会議に参加した場合の Teams 会議の記録のタイムライン マーカー。
-  - 一般提供から 30 日後まで、すべての Teams サブスクライバー Teams Premium利用できます。
+  - 一般公開後、すべての Teams サブスクライバーが 60 日間の猶予期間Teams Premium使用できます。
 - カスタム組織の Together モード シーン。
-  - 一般提供から 30 日後まで、すべての Teams サブスクライバー Teams Premium利用できます。
+  - 一般公開後、すべての Teams サブスクライバーが 30 日間の猶予期間Teams Premium使用できます。
 - 仮想予定: SMS 通知。
-  - 一般提供から 30 日後まで、すべての Teams サブスクライバー Teams Premium利用できます。
+  - 一般公開後、すべての Teams サブスクライバーが 30 日間の猶予期間Teams Premium使用できます。
 - 仮想予定: Teams 管理センターの組織分析。
-  - 一般提供から 30 日後まで、すべての Teams サブスクライバー Teams Premium利用できます。
+  - 一般公開後、すべての Teams サブスクライバーが 30 日間の猶予期間Teams Premium使用できます。
 - 仮想予定: スケジュールされたキュー ビュー。
-  - 一般提供から 30 日後まで、すべての Teams サブスクライバー Teams Premium利用できます。
-
-### <a name="is-there-a-grace-period-to-switch-to-team-premium-before-my-users-lose-functionality"></a>ユーザーが機能を失う前に Team Premium に切り替える猶予期間はありますか?
-
-Teams Premium購入が一般公開されると、管理者がTeams Premiumを購入するための 60 日間の猶予期間が発生します。
-
-60 日間の猶予期間が経過すると、管理者がユーザーにTeams Premiumライセンスを購入して割り当てない限り、ユーザーは、Teams Premiumアドオンなしで Teams で以前に利用できる機能にアクセスできなくなります。
-
-一部のテナントには、Teams Premium試用版ライセンスが含まれる場合があります。 試用版ライセンスの有効期限が切れると、ユーザーはすぐにTeams Premium機能を失います。 カスタム テンプレートや会議の背景などのTeams Premium機能に関連付けられている資産はテナントに残りますが、淡色表示され、使用できなくなります。
+  - 一般公開後、すべての Teams サブスクライバーが 30 日間の猶予期間Teams Premium使用できます。
 
 ## <a name="what-are-the-requirements-to-purchase-teams-premium"></a>Teams Premiumを購入する要件は何ですか?
 
@@ -233,21 +229,20 @@ Microsoft 365 管理センターでライセンスを割り当てる手順につ
 
 多くのTeams Premium機能では、ユーザーが機能にアクセスする前に、IT 管理者が機能を構成する必要があります。
 
-次の一覧は、ユーザーが機能にアクセスする前に管理者の構成を必要とするTeams Premium機能を示しています。
+次の一覧は、ユーザーが機能にアクセスする前に [Teams 管理センター](https://go.microsoft.com/fwlink/p/?linkid=2066851)で管理者の構成を必要とするTeams Premium機能を示しています。
 
-- 最大 50 人の参加者が会議でエンドツーエンドの暗号化を使用する
-- 会議への透かしの追加
-- 秘密度ラベルの追加
-- 会議チャットでのコピーと貼り付けの防止
-- 組織のカスタマイズされた背景の使用
-- 組織がカスタマイズした Together-mode シーンを使用する
-- カスタム ポリシー パッケージが割り当てられている
-- 組織でカスタマイズされた会議テンプレートを使用する
-- 組織のカスタマイズされたブランドを表示する
-- ライブ イベントに eCDN を使用する
-- RTMP-Inの使用
-- 仮想予定の SMS 通知の送信
-- 仮想予定 Premium アプリへのアクセス
-- Teams 管理センターで仮想予定データにアクセスする
+- 最大 50 人の参加者が会議でエンドツーエンドの暗号化を使用する。
+- 会議に透かしを追加する。
+- 秘密度ラベルの追加。
+- 会議チャットでのコピーと貼り付けを禁止する。
+- 組織でカスタマイズされた背景を使用する。
+- 組織がカスタマイズした Together モード シーンを使用する。
+  - 管理カスタムの Together モード シーンを作成する必要があります。
+- カスタム ポリシー パッケージが割り当てられている。
+- 組織でカスタマイズされた会議テンプレートを使用する。
+- 組織がカスタマイズしたブランドを表示する。
+- ライブ イベントに eCDN を使用する。
+- RTMP-In の使用。
+- ブランド化を使用して Virtual Appointment ロビー ルームをカスタマイズする。
 
 手順へのリンクについては、「[Microsoft Teams Premium - 管理者向けの概要」を](/microsoftteams/enhanced-teams-experience)参照してください。
