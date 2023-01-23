@@ -18,12 +18,12 @@ ms.reviewer: anwara
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f82b9b77422f4f8aca8da3333e81f9b5e4c2cf35
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: f7219ee11f6818890b8be34f42f76dfa26ef0d12
+ms.sourcegitcommit: 5e0900ed7a21ed4e854cc00dbfb4ae4ff2372262
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046647"
+ms.lasthandoff: 01/23/2023
+ms.locfileid: "69950444"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft Teams でイベントの監査ログを検索する
 
@@ -45,7 +45,7 @@ ms.locfileid: "68046647"
 
 ## <a name="turn-on-auditing-in-teams"></a>Teams で監査をオンにする
 
-監査データを確認する前に、まずMicrosoft Purview コンプライアンス ポータルで監査を有効にする必要があります。 詳細については、「[監査のオンとオフを切り替える](/microsoft-365/compliance/turn-audit-log-search-on-or-off)」を参照してください。
+監査データを確認するには、まず、Microsoft Purview コンプライアンス ポータルで監査を有効にする必要があります。 詳細については、「[監査のオンとオフを切り替える](/microsoft-365/compliance/turn-audit-log-search-on-or-off)」を参照してください。
 
 > [!IMPORTANT]
 > 利用できる監査データは、監査を有効にした時点以降のデータのみです。
@@ -87,8 +87,8 @@ Check out [this video](https://www.youtube.com/embed/UBxaRySAxyE) for using audi
 
 ここでは、Microsoft 365 の監査ログで Teams のユーザーと管理者のアクティビティのために記録されるすべてのイベントの一覧を紹介します。 表には、**[アクティビティ]** 列に表示されるフレンドリ名と、監査レコードの詳細情報および検索結果をエクスポートするときに CSV ファイルに表示される対応する操作名が含まれています。
 
-|フレンドリ名|操作​​|説明|
-|---|---|---|
+|**フレンドリ名**|**操作​​**|**説明**|
+|:----------------|:------------|:--------------|
 |チームへのボットの追加|BotAddedToTeam|ユーザーがチームにボットを追加しました。|
 |チャネルの追加|ChannelAdded|ユーザーがチームにチャネルを追加しました。|
 |コネクタの追加|ConnectorAdded|ユーザーがチャネルにコネクタを追加しました。|
@@ -96,10 +96,12 @@ Check out [this video](https://www.youtube.com/embed/UBxaRySAxyE) for using audi
 |会議の参加者に関する情報が追加されました <sup>2</sup>|MeetingParticipantDetail|Teams では、各参加者のユーザー ID、参加者が会議に参加した時間、参加者が会議を離れた時間など、会議の参加者に関する情報を追加しました。|
 |メンバーの追加|MemberAdded|チームの所有者が、チーム、チャネル、またはグループ チャットにメンバーを追加しました。|
 |タブの追加|TabAdded|ユーザーがチャネルにタブを追加しました。|
+| 適用された秘密度ラベル | SensitivityLabelApplied | ユーザーまたは会議の開催者は、Teams 会議に秘密度ラベルを適用しました。 |
 |チャンネル設定の変更|ChannelSettingChanged|次のアクティビティがチーム メンバーにより実行されると、ChannelSettingChanged 操作が記録されます。 これらの各アクティビティについては、変更された設定 (かっこ内) の説明が、監査ログの検索結果の **[項目]** 列に表示されます。 <ul><li>チーム チャネルの名前が変更されます (**チャネル名**)</li><li>チーム チャネルの説明が変更されます (**チャネルの説明**)</li> </ul>|
 |組織の設定の変更|TeamsTenantSettingChanged|TeamsTenantSettingChanged は、全体管理者が Microsoft 365 管理センターを使用して次のアクティビティを実行したときに記録されます。 これらの活動は、組織全体の Teams 設定に影響を与えます。 詳細については、「[組織の Teams 設定を管理する](enable-features-office-365.md)」を参照してください。 <br>これらの各アクティビティについては、変更された設定 (かっこ内) の説明が、監査ログの検索結果の **[項目]** 列に表示されます。<ul><li>組織に対して Teams が有効または無効になります (**Microsoft Teams**)。</li><li>組織に対して Microsoft Teams と Skype for Business の相互運用が有効または無効になります (**Skype for Business の相互運用性**)。</li><li>Microsoft Teams クライアント内の組織図ビューが有効または無効になります (**組織図**)。</li><li>チーム メンバーによるプライベート会議のスケジュール機能を有効または無効にします (**プライベート会議のスケジュール**)。</li><li>チーム メンバーによるチャネル会議のスケジュール機能を有効または無効にします (**チャネル会議のスケジュール**)。</li><li>チーム会議でのビデオ通話を有効または無効にします (**Skype 会議のビデオ**)。</li><li>組織に対して Microsoft Teams 会合での画面共有が有効または無効になります (**Skype 会議向け画面共有**)。</li><li>Teams の会話にアニメーション画像 (Giphy と呼ばれる) を追加する機能が有効または無効になります (**アニメーション画像**)。</li><li>組織のコンテンツの規制設定を変更します (**コンテンツの規制**)。 コンテンツの評価により、会話に表示されるアニメーション画像の種類が制限されます。</li><li>チーム メンバーがカスタマイズ可能な画像 (カスタム ミームと呼ばれる) をインターネットからチームの会話に追加する機能が、有効または無効になります (**インターネットからのカスタマイズ可能な画像**)。</li><li>チーム メンバーが編集可能な画像 (ステッカーと呼ばれる) をチームの会話に追加する機能が、有効または無効になります (**インターネットからのカスタマイズ可能な画像**)。</li><li>チーム メンバーが Microsoft Teams のチャットおよびチャネルでボットを使用する機能が、有効または無効になります (**組織全体にわたるボット**)。</li><li>Enables specific bots for Microsoft Teams. This doesn't include the T-Bot, which is Teams help bot that's available when bots are enabled for the organization (**Individual bots**).</li><li>チーム メンバーが拡張機能またはタブを追加する機能を有効または無効にします (**拡張機能またはタブ**)。</li><li>Microsoft Teams に対して専用ボットのサイドローディングが有効または無効になります (**ボットのサイドローディング**)。</li><li>ユーザーがメール メッセージを Microsoft Teams に送信する機能が、有効または無効になります (**チャネルのメール**)。</li></ul>|
 |メンバーの役割の変更|MemberRoleChanged|チーム所有者がチームのメンバーの役割を変更します。 次の値は、ユーザーに割り当てられる役割の種類を示します。 <br><br>**1** - メンバー ロールを意味します。<br>**2** - 所有者ロールを示します。<br>**3** - ゲスト ロールを意味します。<br><br>メンバー プロパティには、組織の名前とメンバーのメール アドレスも含まれます。|
 |チーム設定の変更|TeamSettingChanged|次のアクティビティがチームの所有者により実行されると、TeamSettingChanged 操作が記録されます。 これらの各アクティビティについては、変更された設定 (かっこ内) の説明が、監査ログの検索結果の **[項目]** 列に表示されます。<ul><li>チームのアクセスの種類を変更します。 チームは非公開または公開として設定できます (**チームのアクセスの種類**)。 チームが非公開 (既定の設定) の場合、ユーザーはチームには招待状でのみアクセスでき暗ます。 チームが公開されている場合、誰でもチームにアクセスできます。</li><li>チームの情報の分類を変更します (**チーム分類**)。 たとえば、チームのデータは業務への影響が大きい、業務への影響が中程度、業務への影響が小さい、といったように分類できます。</li><li>チームの名前を変更します (**チーム名**)。</li><li>チームの説明を変更します (**チームの説明**)。</li><li>Changes made to team settings. To access these settings,  a team owner can right-click a team, select **Manage team**, and then click the **Settings** tab. For these activities, the name of the setting that was changed is displayed in the **Item** column in the audit log search results.</li></ul>|
+| 秘密度ラベルを変更しました | SensitivityLabelChanged | ユーザーが Teams 会議で秘密度ラベルを変更しました。 |
 |チャットを作成しました <sup>1、</sup><sup>2</sup>|ChatCreated|Teams チャットが作成されました。|
 |チームの作成|TeamCreated|ユーザーがチームを作成しました。|
 |メッセージを削除しました|MessageDeleted|チャットまたはチャネルのメッセージが削除されました。|
@@ -121,6 +123,7 @@ Check out [this video](https://www.youtube.com/embed/UBxaRySAxyE) for using audi
 |チームからのボットの削除|BotRemovedFromTeam|ユーザーがチームからボットを削除しました。|
 |コネクタの削除|ConnectorRemoved|ユーザーがチャネルからコネクタを削除しました。|
 |メンバーの削除|MemberRemoved|チームの所有者が、チーム、チャネル、またはグループ チャットからメンバーを削除しました。|
+| 秘密度ラベルを削除しました | SensitivityLabelRemoved | ユーザーが Teams 会議から秘密度ラベルを削除しました。 |
 |チーム チャネルの共有を削除しました<sup>3</sup>|TerminatedSharing|チームまたはチャネルの所有者が共有チャネルの共有を無効にしました。|
 |チーム チャネルの共有を復元しました<sup>3</sup>|SharingRestored|チームまたはチャネルの所有者が共有チャネルの共有を再び有効にしました。|
 |タブの削除|TabRemoved|ユーザーがチャネルからタブを削除しました。|
@@ -143,7 +146,7 @@ Check out [this video](https://www.youtube.com/embed/UBxaRySAxyE) for using audi
 |Teams へのユーザーのサインイン|TeamsSessionStarted|ユーザーが Microsoft Teams クライアントにサインインしました。 このイベントは、トークン更新アクティビティをキャプチャしません。|
 
 > [!NOTE]
-> <sup>1</sup> このイベントの監査レコードは、Microsoft Graph API の呼び出しによって操作が実行された場合にのみログに記録されます。 操作が Teams クライアントで実行された場合、監査レコードはログに記録されません<br/><sup>2</sup> このイベントは、Audit (Premium) でのみ使用できます。 つまり、これらのイベントが監査ログに記録される前に、ユーザーに適切なライセンスを割り当てる必要があります。 Audit (Premium) でのみ使用できるアクティビティの詳細については、 [Microsoft Purview の監査 (Premium) に](/microsoft-365/compliance/advanced-audit#advanced-audit-events)関するページを参照してください。 監査 (Premium) のライセンス要件については、 [Microsoft 365 の監査ソリューションに関するページを](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)参照してください。 <br/> <sup>3</sup> このイベントはパブリック プレビュー中です。
+> <sup>1</sup> このイベントの監査レコードは、Microsoft Graph API の呼び出しによって操作が実行された場合にのみログに記録されます。 操作が Teams クライアントで実行された場合、監査レコードはログに記録されません<br/><sup>2</sup> このイベントは監査 (Premium) でのみ使用できます。 つまり、これらのイベントが監査ログに記録される前に、ユーザーに適切なライセンスを割り当てる必要があります。 監査 (Premium) でのみ使用できるアクティビティの詳細については、「 [Microsoft Purview の監査 (Premium)」](/microsoft-365/compliance/advanced-audit#advanced-audit-events)を参照してください。 監査 (Premium) ライセンス要件については、「 [Microsoft 365 の監査ソリューション](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)」を参照してください。 <br/> <sup>3</sup> このイベントはパブリック プレビュー中です。
 
 ## <a name="shifts-in-teams-activities"></a>Teams アクティビティにサインイン
 
@@ -237,4 +240,4 @@ We're working to integrate Teams events into anomaly detection policies. For now
 
 ## <a name="related-topics"></a>関連項目
 
-- [Microsoft Purview コンプライアンス ポータルで監査ログを検索する](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
+- [Microsoft Purview コンプライアンス ポータルで監査ログを検索します](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)

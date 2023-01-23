@@ -17,20 +17,22 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 機密性の高い Teams 会議で出席者のビデオと共有コンテンツに透かしを有効または要求する方法について説明します。
-ms.openlocfilehash: 199ba2d84ca4187a7d8e3c4f9a4d471bb9251598
-ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
+ms.openlocfilehash: 6037bc6e9dbe79d9ecee10666f4c34e4e778216a
+ms.sourcegitcommit: 5e0900ed7a21ed4e854cc00dbfb4ae4ff2372262
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/13/2023
-ms.locfileid: "69800251"
+ms.lasthandoff: 01/23/2023
+ms.locfileid: "69950504"
 ---
 # <a name="require-a-watermark-for-sensitive-teams-meetings"></a>機密性の高い Teams 会議に透かしを要求する
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
-画面で共有されるコンテンツと出席者のビデオの両方について、Teams 会議に透かしを表示できます。 透かしには、会議参加者のメール アドレスが表示されます。 会議の参加者は透かしをオフにできません。 
+画面で共有されるコンテンツと出席者のビデオの両方について、Teams 会議に透かしを表示できます。 透かしには、会議参加者のメール アドレスが表示されます。 会議の参加者は透かしをオフにできません。
 
-透かしは、Teams デスクトップ、Teams モバイル、Windows 上のMicrosoft Teams Rooms、Surface Hub のMicrosoft Teams Roomsでサポートされます。 (透かしは Android のMicrosoft Teams Roomsではサポートされていません)。[Cloud Video Interop (CVI)](cloud-video-interop.md) など、サポートされていないプラットフォームから会議に参加People、透かしのないコンテンツを表示できます。
+透かしは、Teams デスクトップとモバイルでサポートされています。 サポートされていないプラットフォームから会議に参加People、オーディオのみのエクスペリエンスが得られます。
+
+[Cloud Video Interop (CVI)](cloud-video-interop.md) から参加する参加者は、透かしなしでコンテンツを表示できます。
 
 透かしが使用されている場合、次の参加者はオーディオのみのエクスペリエンスを持っています。
 
@@ -38,6 +40,10 @@ ms.locfileid: "69800251"
 - Virtual Desktop Infrastructure (VDI) 参加者
 - 匿名の参加者
 - オーバーフロー参加者
+- Windows 上のMicrosoft Teams Roomsと Surface Hub のMicrosoft Teams Rooms
+- Android でのMicrosoft Teams Rooms
+- 以前の Teams クライアント
+- [Microsoft Teams Rooms デバイスでの直接ゲスト参加](/microsoftteams/rooms/third-party-join)
 
 > [!Note]
 > 秘密度ラベル、カスタム会議テンプレート、透かしの会議設定には、Teams Premiumが必要です。
