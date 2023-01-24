@@ -3,6 +3,23 @@
 
 
 
+## <a name="week-of-january-16-2023"></a>2023 年 1 月 16 日の週
+
+
+| 公開日 |トピックのタイトル | 変更 |
+|------|------------|--------|
+| 1/18/2023 | [Microsoft Teams の分析とレポート](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | 更新日時 |
+| 1/19/2023 | [ユーザー用の電話番号を取得する](/MicrosoftTeams/getting-phone-numbers-for-your-users) | 更新日時 |
+| 1/19/2023 | [電話番号サービス チームに問い合わせる](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-tns-service-desk) | 更新日時 |
+| 1/19/2023 | [Microsoft Teams Premium ライセンス](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | 更新日時 |
+| 1/20/2023 | [Walkie Talkie の使用状況とパフォーマンス レポート](/MicrosoftTeams/teams-analytics-and-reports/walkie-talkie-usage-report) | 追加済 |
+| 1/18/2023 | [Microsoft Teams の分析とレポート](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | 更新日時 |
+| 1/19/2023 | [ユーザー用の電話番号を取得する](/MicrosoftTeams/getting-phone-numbers-for-your-users) | 更新日時 |
+| 1/19/2023 | [電話番号サービス チームに問い合わせる](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-tns-service-desk) | 更新日時 |
+| 1/19/2023 | [Microsoft Teams Premium ライセンス](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | 更新日時 |
+| 1/20/2023 | [Walkie Talkie の使用状況とパフォーマンス レポート](/MicrosoftTeams/teams-analytics-and-reports/walkie-talkie-usage-report) | 追加済 |
+
+
 ## <a name="week-of-january-09-2023"></a>2023 年 1 月 9 日の週
 
 
@@ -66,25 +83,3 @@
 |------|------------|--------|
 | 12/19/2022 | [Microsoft 365 全体で Teams アプリへのアクセスを管理する](/MicrosoftTeams/manage-third-party-teams-apps) | 更新日時 |
 | 12/21/2022 | [Microsoft Teams の仮想予定会議テンプレート](/MicrosoftTeams/virtual-appointment-meeting-template) | 追加済 |
-
-
-## <a name="week-of-december-12-2022"></a>2022 年 12 月 12 日の週
-
-
-| 公開日 |トピックのタイトル | 変更 |
-|------|------------|--------|
-| 12/14/2022 | [Microsoft Teams 共有デバイス のライセンス](/MicrosoftTeams/teams-add-on-licensing/teams-shared-device-license) | 追加済 |
-| 12/14/2022 | [Microsoft Teams で会議ロビーをバイパスできるユーザーを制御する](/MicrosoftTeams/who-can-bypass-meeting-lobby) | 追加済 |
-| 12/14/2022 | [Microsoft Teams Android デバイスのユーザー インターフェイスを設定する](/MicrosoftTeams/devices/teams-android-devices-user-interface) | 更新日時 |
-| 12/14/2022 | [Teams 用のデバイス](/MicrosoftTeams/devices/teams-ip-phones) | 更新日時 |
-| 12/14/2022 | [ダイレクト ルーティングを計画する](/MicrosoftTeams/direct-routing-plan) | 更新日時 |
-| 12/14/2022 | [Microsoft Teams Premium - 管理者の概要](/MicrosoftTeams/enhanced-teams-experience) | 更新日時 |
-| 12/14/2022 | [Microsoft Teams の共通エリア電話を設定する](/MicrosoftTeams/set-up-common-area-phones) | 更新日時 |
-| 12/14/2022 | [Microsoft Teams Premium ライセンス](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | 更新日時 |
-| 12/15/2022 | [電話会議に関するよくある質問](/MicrosoftTeams/audio-conferencing-common-questions) | 更新日時 |
-| 12/15/2022 | [電話番号とライセンスの変更](/MicrosoftTeams/phone-numbers-licensing-changes) | 更新日時 |
-| 12/15/2022 | [Microsoft Teams Rooms (Windows) のリリース ノート](/MicrosoftTeams/rooms/rooms-release-note) | 更新日時 |
-| 12/16/2022 | [Teams または Skype for Business Online 向けのプロキシ サーバー](/MicrosoftTeams/proxy-servers-for-skype-for-business-online) | 更新日時 |
-| 12/16/2022 | [Android にMicrosoft Teams Roomsをデプロイする](/MicrosoftTeams/devices/collab-bar-deploy) | 更新日時 |
-| 12/16/2022 | [Microsoft Teams デバイスをリモートで更新する](/MicrosoftTeams/devices/remote-update) | 更新日時 |
-| 12/16/2022 | [Windows セキュリティのMicrosoft Teams Rooms](/MicrosoftTeams/rooms/security-windows) | 更新日時 |
