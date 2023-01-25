@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: IT 担当者向け - Microsoft Teams での匿名会議参加のしくみについて説明します。
-ms.openlocfilehash: fe4dbec2bc606838bd5cafbaec5ef9d9ecdd8a88
-ms.sourcegitcommit: 1f4a0b7cf03f63438bb37668d053853494c92168
+ms.openlocfilehash: a4f1833059febf2f8481cba9f1b3716519613e89
+ms.sourcegitcommit: 1cb5f7129562eb2b228da23497c0e09e53da3872
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2023
-ms.locfileid: "69948689"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69983735"
 ---
 # <a name="manage-anonymous-participant-access-to-teams-meetings-it-admins"></a>Teams 会議への匿名参加者アクセスを管理する (IT 管理者)
 
@@ -34,9 +34,9 @@ ms.locfileid: "69948689"
 - **匿名ユーザーが会議 Teams 会議に参加できる** 設定 (組織レベル) をオンにする必要があります。
 - 会議の開催者には、Teams 会議ポリシーが割り当てられている必要があります。ここで、[ **匿名のユーザーが会議に参加できるようにする** ] コントロールがオンになっています。
 
-匿名参加は、組織と既定のグローバル会議ポリシーで既定でオンになっています。
+匿名会議への参加は、組織と既定のグローバル会議ポリシーで既定でオンになっています。 組織レベルの設定をオンにしたまま、会議ポリシーを使用して、さまざまなユーザー (会議開催者) の匿名会議参加をオンまたはオフにすることをお勧めします。
 
-匿名参加が有効になっている場合、ロビー ポリシーは匿名の参加者が会議に参加する方法に影響します。 詳細については、「 [Microsoft Teams で会議ロビーをバイパスできるユーザーを制御する](who-can-bypass-meeting-lobby.md)」を参照してください。
+匿名会議参加が有効になっている場合、ロビー ポリシーは匿名の参加者が会議に参加する方法に影響します。 詳細については、「 [Microsoft Teams で会議ロビーをバイパスできるユーザーを制御する](who-can-bypass-meeting-lobby.md)」を参照してください。
 
 #### <a name="meetings-with-trusted-organizations"></a>信頼できる組織との会議
 
@@ -81,15 +81,15 @@ ms.locfileid: "69948689"
 
 匿名の参加者が会議に参加できるかどうかを制御する方法は、次のとおりです。
 
-- `-DisableAnonymousJoin`組織レベルの設定を構成するための [Set-CsTeamsMeetingConfiguration](/powershell/module/skype/set-csteamsmeetingconfiguration) のパラメーター。 (この設定は False のままにし、Set-CsTeamsMeetingPolicy -AllowAnonymousUsersToJoinMeeting を使用して、ユーザーまたはグループ レベルで匿名結合を制御することをお勧めします)。
+- `-DisableAnonymousJoin`組織レベルの設定を構成するための [Set-CsTeamsMeetingConfiguration](/powershell/module/skype/set-csteamsmeetingconfiguration) のパラメーター。 (この設定は False のままにし、Set-CsTeamsMeetingPolicy -AllowAnonymousUsersToJoinMeeting を使用して、ユーザーまたはグループ レベルで匿名会議参加を制御することをお勧めします)。
 - `-AllowAnonymousUsersToJoinMeeting`ユーザー レベルの会議ポリシーを構成するための [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) のパラメーター
 
-匿名の参加者が会議に参加できるようにするには、次の値を設定して匿名参加を許可するように両方を構成する必要があります。
+匿名の参加者が会議に参加できるようにするには、次の値を設定して匿名会議参加を許可するように両方を構成する必要があります。
 
 - `Set-CsTeamsMeetingConfiguration -DisableAnonymousJoin`**を $false** に設定する
 - `Set-CsTeamsMeetingPolicy -AllowAnonymousUsersToJoinMeeting` 関連する会議開催者の **$true** に設定する
 
-## <a name="block-anonymous-join-for-specific-client-types"></a>特定のクライアントの種類の匿名結合をブロックする
+## <a name="block-anonymous-meeting-join-for-specific-client-types"></a>特定のクライアントの種類に対して匿名会議参加をブロックする
 
 匿名の参加者が会議に参加できる場合は、Teams クライアントまたは [Azure Communication Services](/azure/communication-services/) を使用して構築されたカスタム クライアントを使用できます。 
 

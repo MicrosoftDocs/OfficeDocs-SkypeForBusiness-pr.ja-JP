@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Microsoft Teams Rooms をサポートするための要件 (適切なデバイス、マイク、スピーカー、カメラ、ディスプレイの選択) について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 62e1ca6b2254047a14a11cf4c4c9ffb10477a0e3
-ms.sourcegitcommit: ed7d3b12d4bfe48863de873360c2ae90bbb15530
+ms.openlocfilehash: c5b1c9adda541926b48a943f796380fa8730a4a5
+ms.sourcegitcommit: 3056f95e9f654b78636949f43eacdde297e52c6e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69194928"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69990402"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams Rooms の要件
 
@@ -36,7 +36,7 @@ Microsoft Teams Rooms異なる部屋のサイズにスケーリングします�
 - [プランに基づいたライセンス オプション: Microsoft Teams Rooms](rooms-licensing.md)
 
 > [!NOTE]
-> Microsoft Teams Rooms、Microsoft Teams、Skype for Business Server 2019、または Skype for Business Server 2015 にサインインし、これらのサービスのいずれかがホストする会議に参加できます。
+> Microsoft Teams Rooms Microsoft Teams、Skype for Business Server 2019、または Skype for Business Server 2015 にサインインし、これらのサービスのいずれかがホストする会議に参加できます。
 >
 > Lync Server 2013 のような以前のプラットフォームは、Microsoft Teams Rooms ではサポートしていません。 Microsoft Teams Roomsは、Microsoft 365 または 21Vianet、または DoD 環境によって動作するOffice 365ではサポートされていません。
 >
@@ -97,6 +97,7 @@ Microsoft Teams Rooms異なる部屋のサイズにスケーリングします�
   |[ポリイーグルアイディレクターIIとポリG85-Tキット、レノボと](https://www.poly.com/us/en/support/products/video-conferencing/poly-room-solutions/g85) |Core i5| 8 GB | 128 GB|
   |Lenovo Thinksmart Core を備えた Poly GC8 コンソール|Core i5|8 GB|128 GB|
   |Dell Optiplex 7080 を備えた Poly GC8 コンソール|Core i5|8 GB|128 GB|
+  |[HP 800 G9 Compute -MTR-W を備えた Poly GC8 コンソール](https://www.poly.com/us/en/solutions/platform/microsoft/video/teams-rooms-windows)|Core i5|8 GB|128 GB|
   |[Yealink MVC300 と Intel NUC](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |
   |[Yealink MVC500 と Intel NUC](https://www.yealink.com/products_126.html)|Core i5|8 GB |128 GB |
   |[Yealink MVC800 と Intel NUC](https://www.yealink.com/products_125.html)|Core i5|8 GB|128 GB|

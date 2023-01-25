@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Microsoft Teams で認定されている USB 周辺機器とデバイス (ヘッドセット、スピーカーフォン、Web カメラ、モニターなど) を確認します。
-ms.openlocfilehash: 88ea7be3fc27fadccb25cd173b0df5f7f618004f
-ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
+ms.openlocfilehash: abd7a21c20604da9668928acaf679b259d6c284b
+ms.sourcegitcommit: e09591a0df9848b50bfeda29650e91e9d35724af
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2023
-ms.locfileid: "69749073"
+ms.lasthandoff: 01/24/2023
+ms.locfileid: "69981812"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams の認定を受けた USB オーディオおよびビデオ デバイス
 
@@ -81,13 +81,24 @@ Teams での通話制御のサポートの詳細については、「Teams [の�
 
 ## <a name="certified-devices"></a>認定デバイス
 
-*2022 年 12 月に更新されたテーブル*
+*2023 年 1 月に更新されたテーブル*
 
 > [!NOTE]
 > 日付形式は MM/DD/YYYY です。
 
 | [製造元]        | モデル                                                     | 修飾      | 認定プログラム                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Dell                 |P2424HEB モニター                                           |1/18/2023       |Microsoft Teams 認定                           |
+|Dell                 |P2724DEB モニター                                           |1/18/2023       |Microsoft Teams 認定                           |
+|Dell                 |P3424WEB モニター                                           |1/18/2023       |Microsoft Teams 認定                           |
+|Yealink              |BH76 ヘッドセット                                               |12/22/2022      |Microsoft Teams 認定                           |
+|ロジクール             |Brio 300/301/305 カメラ                                    |12/22/2022      |Microsoft Teams 認定                           |
+|ポリ                 |ドングル バージョン v1008 を備えた Savi 7310 UC シリーズ ヘッドセット     |12/22/2022      |Microsoft Teams 認定                           |
+|ポリ                 |ドングル バージョン v1008 を備えた Savi 7320 UC シリーズ ヘッドセット     |12/22/2022      |Microsoft Teams 認定                           |
+|Yealink              |WH62 デュアル/モノラル ポータブル ヘッドセット                            |12/21/2022      |Microsoft Teams 認定                           |
+|Yealink              |DECT ドングル付き WH63 ポータブル ヘッドセット                     |12/21/2022      |Microsoft Teams 認定                           |
+|Cisco                |320 シリーズ (321/322) ヘッドセット                              |12/20/2022      |Microsoft Teams 認定                           |
+|Cisco                |720 シリーズ (721/722) ヘッドセット                              |12/20/2022      |Microsoft Teams 認定                           |
 |レノボ               |T24mv-30 Monitor                                           |12/19/2022      |Microsoft Teams 認定                           |
 |レノボ               |T27hv-30 Monitor                                           |12/19/2022      |Microsoft Teams 認定                           |
 |レノボ               |電話会議ベーススピーカーフォン                          |12/19/2022      |Microsoft Teams 認定                           |
@@ -97,6 +108,7 @@ Teams での通話制御のサポートの詳細については、「Teams [の�
 |Epos                 |EXPAND Vision 1/S6                                         |10/13/2022      |Microsoft Teams 認定                           |
 |レノボ               |Go USB-C ANC In-Ear Headphones                             |9/20/2022       |Microsoft Teams 認定                           |
 |Logi                 |Brio 500/505/501 カメラ                                   |9/14/2022       |Microsoft Teams 認定                           |
+|ソニー                 |YY2969 Earbuds                                             |9/6/2022        |Microsoft Teams 認定                           |
 |Jabra                |Engage 50 II                                               |7/29/2022       |Microsoft Teams 認定                           |
 |Jabra                |Engage 40 II                                               |7/29/2022       |Microsoft Teams 認定                           |
 |Logi                 |ドックスピーカーフォン                                          |7/13/2022       |Microsoft Teams 認定                           |

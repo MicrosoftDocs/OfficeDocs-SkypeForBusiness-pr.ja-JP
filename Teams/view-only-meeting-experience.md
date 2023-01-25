@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c7a608132af2807c1fc59e25f7dac39433fe5dc5
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+ms.openlocfilehash: 0c2ca0a88f17f3493bfbbcff727321c45a04fdea
+ms.sourcegitcommit: 3056f95e9f654b78636949f43eacdde297e52c6e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392097"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69990382"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams の表示限定の会議エクスペリエンス
 
@@ -29,10 +29,10 @@ ms.locfileid: "69392097"
 > 表示限定のブロードキャストは、Microsoft 365 E3/E5 および Microsoft 365 A3/A5 で利用できます。 この機能は2021 年 3 月 1 日に有効になりますが、既定でオフになっています。 Microsoft 365 Government Community Cloud (GCC) の機能は、2021 年 3 月末にロールアウトが開始される予定です。 Government Community Cloud High (GCCH) と Department of Defense (DoD) は後日ロールアウトされる予定です。 この機能を既定でオンにしたい場合は、その日付以降に既定のポリシーを変更する必要があります。 PowerShell を使用して、ポリシー`Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled`を有効にする。
 
 > [!Note]
-> 会議が容量を超えた場合、Teams は 10,000 人に対応できる閲覧限定のブロードキャスト エクスペリエンスにシームレスに拡大縮小されます。 さらに、リモート 作業が増加したこの期間中は、今年の終わりまでさらに大規模な 20,000 人のブロードキャストを利用することができます。 ウェビナーは現在、閲覧限定のブロードキャスト エクスペリエンスをサポートしていません。
+> 会議が容量を超えた場合、Teams は 10,000 人に対応できる閲覧限定のブロードキャスト エクスペリエンスにシームレスに拡大縮小されます。 さらに、リモート作業の増加のこの時間の間に、2023 年 6 月 30 日までさらに大きな 20,000 人の放送を利用します。 ウェビナーは現在、閲覧限定のブロードキャスト エクスペリエンスをサポートしていません。
 
 > [!Note]
-> Teams 会議は Teams Live イベント (TLE) ではなく、eCDN Microsoft利用しません。 詳細については、「[Microsoft eCDN オンボード チェックリスト](/ecdn/integration/onboarding-checklist-for-tle-customers)」を参照してください。
+> Teams 会議は Teams Live Event (TLE) ではなく、Microsoft eCDN を利用しません。 詳細については、「 [Microsoft eCDN オンボード チェックリスト](/ecdn/integration/onboarding-checklist-for-tle-customers)」を参照してください。
 
 Microsoft Teams では、最大 10,000 人の参加者がTeams 会議に参加できます。 メイン会議の容量に達する (1,000 人のユーザーが会議に参加した場合) と、その他の出席者は表示限定のエクスペリエンスで参加します。
 

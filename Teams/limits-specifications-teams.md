@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5ae4adf9d803ea0b3482451a9ece5d3ceb0df598
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: ee791259b938345876e9761344616fac7d1d9e45
+ms.sourcegitcommit: 3056f95e9f654b78636949f43eacdde297e52c6e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307532"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69990412"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -123,16 +123,14 @@ Users who participate in conversations that are part of the chat list in Teams m
 
 |機能     | 上限 |
 |------------|---------------|
-|会議に参加できるユーザー数 (チャットして電話をかけることができる)  | 1000。GCC、GCCH、DoD は含まれますが、A1 (300) は含まれません。 **表示専用** では、開催者が E3/E5/A3/A5 SKU および Government (GCC、GCC High、DoD) のライセンスを持っている会議に、最大 2 万人の聴取のみの参加者が参加できます。 閲覧限定のエクスペリエンスは、ウェビナーでも間もなく利用できるようになります。 「[表示専用エクスペリエンス](view-only-meeting-experience.md)」の詳細情報。<sup>1,2</sup>|
+|会議に参加できるユーザー数 (チャットして電話をかけることができる)  | 1000。GCC、GCCH、DoD は含まれますが、A1 (300) は含まれません。|
 |チャットから開始されるビデオまたは音声通話に参加できるユーザー数 | 20 |
 |PowerPoint ファイルの最大サイズ | 2 GB|
 |Teams は[会議の記録](cloud-recording.md)を保持しますが、これは Microsoft Stream にはアップロードされず、ローカルのダウンロード用です | 20 日間 |
 | 会議記録の最大長 | 4 時間または 1.5 GB。 この制限に達すると、記録は終了し、自動的に再開されます。
+
+詳細については、「 [会議、ウェビナー、ライブ イベント](/microsoftteams/quick-start-meetings-live-events)」を参照してください。  
   
-<sup>1</sup> 大規模な会議、ウェビナー、ライブ イベントで最適なエクスペリエンスを実現するために、Microsoft では最新バージョンの Teams デスクトップ クライアントまたは Teams モバイル クライアントの使用をお勧めします。
-
-<sup>2</sup> 大規模な会議、ウェビナー、ライブ イベントの発表者は、Teams デスクトップ クライアントを使用する必要があります。 大規模な会議の開催に関するその他のヒントについては、「[大規模なTeams 会議のベスト プラクティス](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16)」を参照してください。
-
 > [!NOTE]
 > ブレークアウト ルームは、出席者が300人未満の会議でのみ作成できます。 さらに、会議でブレークアウト ルームを作成すると、会議の出席者数が自動的に 300 人に制限されます。 300 人を超える参加者を予定している会議で、ブレークアウト ルームを初期設定しないように、エンドユーザーにアドバイスしてください。 大規模なチーム会議の詳細情報については、ガイダンス[大規模な Teams 会議のベスト プラクティス](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16)をエンドユーザーと共有してください。
 
@@ -152,15 +150,19 @@ Users who participate in conversations that are part of the chat list in Teams m
 > [!NOTE]
 > Microsoft Teams 会議には、30 時間の時間制限があります。
 
-## <a name="teams-live-events"></a>Teams のライブ イベント
+## <a name="live-events"></a>ライブ イベント
+  
+ライブ イベント は、組織が、最大 20,000 人までの大規模なオンライン参加者にストリーミングするイベントをスケジュールして生成できる構造化された会議です。 ライブ イベントでは、対象ユーザーの相互作用はマネージド Q&A エクスペリエンスです。
 
 |機能     | 上限 |
 |------------|---------------|
-|対象ユーザーの規模 | 出席者 10,000 名 |
+|対象ユーザーの規模 | 最大 20,000 人の出席者 <sup>1</sup> 人 |
 |イベントの期間 | 4 時間 |
-|Microsoft 365 または Office 365 組織で実行されている同時ライブ イベント <sup>1</sup> | 15 |
+|Microsoft 365 または Office 365 組織で実行されている同時実行ライブ イベント <sup>2</sup> | 15 |
 
-<sup>1</sup> You can schedule as many Live Events as you want, but you can only run 15 at a time. As soon as the producer joins a live event, it's considered to be running. The producer who attempts to join the 16th live event gets an error.
+<sup>1</sup> 通常の 10,000 は、2023 年 6 月 30 日まで 20,000 に増加します。 Yammer や Microsoft Stream のライブ イベントを使用して、さらに多くの人数をスケジュールすることさえできます。 詳細については、「[Microsoft 365 全体でライブ イベントをする](/stream/live-event-m365)」を参照してください。 ただし、20,000 人を超える参加者のイベントには、[Live Events Assistance Program](/stream/live-events-assistance) が必要であることにご留意ください。  
+  
+<sup>2</sup> 必要な数のライブ イベントをスケジュールできますが、一度に実行できるのは 15 個のみです。 プロデューサーがライブ イベントに参加するとすぐに、実行中と見なされます。 16 回目のライブ イベントに参加しようとしたプロデューサーにエラーが発生します。
 
 ライブ イベントの詳細については、「 [Teams ライブ イベント](teams-live-events/plan-for-teams-live-events.md#teams-live-events)」を参照してください。 詳細については、「[Teams ライブ イベントのスケジュールを設定する](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2)」も参照してください。
 
