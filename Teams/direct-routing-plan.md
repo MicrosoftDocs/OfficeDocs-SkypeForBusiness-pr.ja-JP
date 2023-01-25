@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Microsoft Direct Routing を使用して、サポートされているカスタマー 提供のセッション ボーダー コントローラー (SBC) を電話システムに接続する方法について説明します。
-ms.openlocfilehash: 3dcdc52e736f6eef1d77a8e2120a5fc6470437d7
-ms.sourcegitcommit: e09591a0df9848b50bfeda29650e91e9d35724af
+ms.openlocfilehash: 5d7912adf0c97bd0d26e6000efdd42d745e55dc3
+ms.sourcegitcommit: 1cb5f7129562eb2b228da23497c0e09e53da3872
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/24/2023
-ms.locfileid: "69981782"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69983695"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -189,6 +189,11 @@ Microsoft では、認定署名要求 (CSR) を生成して、SBC の証明書�
 
 > [!NOTE]
 > SBC 上の Teams 接続に対して相互 TLS (MTLS) サポートが有効になっている場合は、Teams TLS コンテキストの SBC 信頼されたルート ストアに Baltimore CyberTrust Root 証明書と DigiCert グローバル ルート G2 証明書をインストールする必要があります。 (これは、Microsoft サービス証明書でこれら 2 つのルート証明書のいずれかを使用するためです)。これらのルート証明書をダウンロードするには、「[Office 365暗号化チェーン](/microsoft-365/compliance/encryption-office-365-certificate-chains)」を参照してください。 詳細については、「 [Office TLS 証明書の変更](/microsoft-365/compliance/encryption-office-365-tls-certificates-changes)」を参照してください。
+  
+MTLS 接続が Teams インフラストラクチャから発信されていることを確認するには、Teams サーバー側の証明書に次のチェックを実装するように SBC を構成する必要があります。
+- 証明書の発行チェーンが次のいずれかのルート CA から発生していることを確認する -- [Baltimore CyberTrust Root](/microsoft-365/compliance/encryption-office-365-certificate-chains.md#baltimore-cybertrust-root)
+-- [DigiCert Global Root G2](/microsoft-365/compliance/encryption-office-365-certificate-chains.md#digicert-global-root-g2)
+- 証明書 "サブジェクトの別名" に "sip.pstnhub.microsoft.com" が含まれていることを確認します
 
 ## <a name="sip-signaling-fqdns"></a>SIP シグナリング: FQDN
 
