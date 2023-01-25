@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Microsoft Teams で認定されている USB 周辺機器とデバイス (ヘッドセット、スピーカーフォン、Web カメラ、モニターなど) を確認します。
-ms.openlocfilehash: abd7a21c20604da9668928acaf679b259d6c284b
-ms.sourcegitcommit: e09591a0df9848b50bfeda29650e91e9d35724af
+ms.openlocfilehash: f8c964dddf2214540e9c384993f46c5a3d944da1
+ms.sourcegitcommit: 3056f95e9f654b78636949f43eacdde297e52c6e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/24/2023
-ms.locfileid: "69981812"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69990392"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams の認定を受けた USB オーディオおよびビデオ デバイス
 
@@ -88,6 +88,9 @@ Teams での通話制御のサポートの詳細については、「Teams [の�
 
 | [製造元]        | モデル                                                     | 修飾      | 認定プログラム                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Epos                 |SDW D1 DECT USB ドングルを搭載した SDW 5061 ヘッドセット              |1/20/2023       |Microsoft Teams 認定                           |
+|Epos                 |SDW D1 DECT USB ドングルを搭載した SDW 5031 ヘッドセット              |1/20/2023       |Microsoft Teams 認定                           |
+|Epos                 |SDW D1 DECT USB ドングルを搭載した SDW 5011 ヘッドセット              |1/20/2023       |Microsoft Teams 認定                           |
 |Dell                 |P2424HEB モニター                                           |1/18/2023       |Microsoft Teams 認定                           |
 |Dell                 |P2724DEB モニター                                           |1/18/2023       |Microsoft Teams 認定                           |
 |Dell                 |P3424WEB モニター                                           |1/18/2023       |Microsoft Teams 認定                           |
@@ -112,12 +115,14 @@ Teams での通話制御のサポートの詳細については、「Teams [の�
 |Jabra                |Engage 50 II                                               |7/29/2022       |Microsoft Teams 認定                           |
 |Jabra                |Engage 40 II                                               |7/29/2022       |Microsoft Teams 認定                           |
 |Logi                 |ドックスピーカーフォン                                          |7/13/2022       |Microsoft Teams 認定                           |
+|Microsoft            |オーディオ ドック スピーカーフォン                                    |7/12/2022       |Microsoft Teams 認定                           |
 |Dell                 |WB5023 カメラ                                              |6/29/2022       |Microsoft Teams 認定                           |
 |Epos                 |ADAPT 560 II ヘッドセット                                       |6/22/2022       |Microsoft Teams 認定                           |
 |Epos                 |C10/C20/C50 シリーズ ヘッドセット                                |5/31/2022       |Microsoft Teams 認定                           |
 |Jabra                |Engage55 Mono/Stereo ヘッドセット                               |5/25/2022       |Microsoft Teams 認定                           |
 |Epos                 |EXPAND 40T Speakerphone                                    |5/24/2022       |Microsoft Teams 認定                           | 
 |Dell                 |U3223QZ モニター                                            |5/24/2022       |Microsoft Teams 認定                           |
+|Microsoft            |発表者+                                                 |5/12/2022       |Microsoft Teams 認定                           |
 |ポリ                 |Studio P21 Monitor                                         |5/12/2022       |Microsoft Teams 認定                           |
 |Yealink              |UH38 ヘッドセット                                               |5/2/2022        |Microsoft Teams 認定                           |   
 |Yealink              |BH72 ヘッドセット                                               |5/2/2022        |Microsoft Teams 認定                           |
