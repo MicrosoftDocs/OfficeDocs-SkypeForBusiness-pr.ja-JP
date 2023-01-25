@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
-ms.openlocfilehash: 85a700faf37044c97c432707b07b6d6699c6692b
-ms.sourcegitcommit: 1f4a0b7cf03f63438bb37668d053853494c92168
+ms.openlocfilehash: 87befd2ff63fc5e3f0aa9e1c715972e5061b8fc7
+ms.sourcegitcommit: e09591a0df9848b50bfeda29650e91e9d35724af
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2023
-ms.locfileid: "69948584"
+ms.lasthandoff: 01/24/2023
+ms.locfileid: "69981872"
 ---
 # <a name="whats-new-for-direct-routing"></a>ダイレクト ルーティングの新機能
 
@@ -43,7 +43,7 @@ SIP オプションに基づく新しい機能がトランクの正常性に導�
 
 サービスへの影響を防ぐには:
 
-- 推奨されるサブネット (52.112.0.0/14 および 52.120.0.0/14) は、分類または ACL 規則に使用します。
+- 推奨されるサブネット (52.112.0.0/14 および 52.122.0.0/15) は、分類または ACL 規則に使用します。
 - ダイレクト ルーティング用のセッション 境界制御を構成する場合は、sip-all FQDN の使用を中止します。
 
 詳細については、「 [直接ルーティングを計画する](direct-routing-plan.md)」を参照してください。

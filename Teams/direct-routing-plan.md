@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Microsoft Direct Routing を使用して、サポートされているカスタマー 提供のセッション ボーダー コントローラー (SBC) を電話システムに接続する方法について説明します。
-ms.openlocfilehash: ba0db105d94fef7c81d79929c5cc7f9371f0fc6c
-ms.sourcegitcommit: 1f4a0b7cf03f63438bb37668d053853494c92168
+ms.openlocfilehash: 3dcdc52e736f6eef1d77a8e2120a5fc6470437d7
+ms.sourcegitcommit: e09591a0df9848b50bfeda29650e91e9d35724af
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2023
-ms.locfileid: "69948514"
+ms.lasthandoff: 01/24/2023
+ms.locfileid: "69981782"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -284,7 +284,7 @@ SBC は、sip.pstnhub.microsoft.com を解決するための DNS クエリを作
 ### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365、Office 365、Office 365 GCC 環境
 
 - 52.112.0.0/14 (52.112.0.1 から 52.115.255.254 への IP アドレス)。
-- 52.120.0.0/14 (52.120.0.1 から 52.123.255.254 への IP アドレス)。
+- 52.122.0.0/15 (52.122.0.1 から 52.123.255.254 への IP アドレス)。
 
 ### <a name="office-365-dod-environment"></a>Office 365 DoD 環境
 
